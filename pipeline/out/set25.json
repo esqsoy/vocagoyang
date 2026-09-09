@@ -627,15 +627,27 @@
 },
 {
 "en": "rating",
-"ko": "① 평가, 등급, 시청률",
+"ko": "① 평가, 등급, 평점",
 "ex": "This movie got a low {{BLANK}} online.",
 "tr": "이 영화 온라인에서 평점 낮게 받았어.",
-"c": "rate(평가하다)+-ing. 복수 ratings는 방송 시청률을 뜻한다.",
+"c": "rate(평가하다)+-ing. 별점·평점이 rating. 시청률은 ②.",
 "ipa": "ˈreɪtɪŋ",
 "pos": "n.",
 "word": "rating",
 "si": 1,
-"sn": 1
+"sn": 2
+},
+{
+"en": "rating",
+"ko": "② (복수로) 시청률",
+"ex": "The show's {{BLANK}}s dropped after season two.",
+"tr": "그 프로 시청률이 시즌 2 이후로 떨어졌어.",
+"c": "TV ratings = 시청률. 시청자 수로 방송을 '평가'한 것이라 이 뜻이 됐다.",
+"ipa": "ˈreɪtɪŋ",
+"pos": "n.",
+"word": "rating",
+"si": 2,
+"sn": 2
 }
 ]
 },

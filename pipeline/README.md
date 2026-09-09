@@ -17,21 +17,21 @@
 - 공개 주소: https://esqsoy.github.io/vocagoyang/ · 레포: https://github.com/esqsoy/vocagoyang
 - 파일:
   - `index.html` — 교재 선택 화면(FABLE 5000 / MOTHERTONGUE 2027 / EBS 수특 2027 세 카드, 누적 단어수·직독직해선 95% 표기).
-  - `vocagoyangfable.html` — **본체.** 단일 HTML(약 1.87MB), 안에 `const DATA = [...]` 블롭으로 46레슨 5,681카드가 들어 있다.
+  - `vocagoyangfable.html` — **본체.** 단일 HTML(약 1.87MB), 안에 `const DATA = [...]` 블롭으로 46레슨 5,690카드가 들어 있다.
   - `vocagoyangksat2027.html`, `vocagoyangebs2027.html` — 마더텅·EBS 옛 앱(별도 계보, 이번 인수인계 범위 밖).
   - `vocagoyanghoe.html` — 옛 이름의 리다이렉트 스텁. 영신이 GitHub에서 삭제하기로 함(26.9.9). 진행 저장 키(`goyang-hoe-seoul-v1`)는 그대로라 기존 진도는 보존된다.
 - 설계 원본: 아티팩트 **보카고양 설계 헌장 v2.0** https://claude.ai/code/artifact/51fbcefc-3a5a-4fcd-a75c-e7870698df5a (제0~6조 + 부록 A~G). 카드 규칙·말투·층 구조·미결 사항이 여기 있다. 헌장과 이 문서가 다르면 헌장이 원칙, 이 문서가 현재 상태.
 
 ## 2. 데이터 구조
 
-레슨(세트) 46개, 카드 5,681장, 표제어 4,638개.
+레슨(세트) 46개, 카드 5,690장, 표제어 4,638개.
 
 | 레슨 | 라벨 | 내용 | 배열 |
 |---|---|---|---|
 | 0 | 0세트 | 기초 결손 보강 179장(수사·요일·인사·사람·학교·생활·현대어·생활 구어) | 주제별 |
 | 1~4 | 기초 1~4 | 머리경(오푸스) 시절 400단어(전량 LDV) | 학습순서(빈도 아님) |
 | 5~22 | 학습순서 401~2183 | LDV 잔여 1,783단어 · 2,099카드 | NGSL 랭크순 |
-| 23~45 | 합집합 1~2275 | 핵심 리스트 합집합 잔여 2,275단어 · 2,744카드 | COCA 빈도순 |
+| 23~45 | 합집합 1~2275 | 핵심 리스트 합집합 잔여 2,275단어 · 2,753카드 | COCA 빈도순 |
 
 카드 필드: `en ko ex tr c ipa pos word si sn` (+ `meow` 있을 때만). `ex`엔 반드시 `{{BLANK}}`, 어미는 `{{BLANK}}s / {{BLANK}}d / {{BLANK}}ing / {{BLANK}}bed`처럼 붙여 쓴다. `si`=뜻 번호, `sn`=총 뜻 수. 한 레슨 = exercise 10개(10단어씩), 다의어는 같은 exercise 안에 카드로 나뉜다.
 
@@ -49,7 +49,7 @@
 
 파일:
 - `out/lesson00~04.json`(dict: lesson/label/name/exercises), `out/set05~45.json`(exercises 리스트) — **카드 원본.** 편집은 여기에 하고 HTML은 조립해서 만든다. (`out/lesson00b.json`은 0세트 작업 중간본, 무시.)
-- `assemble.py` — out/*.json → HTML의 DATA 블롭 교체. `cd /home/claude/hoe-prod && python3 assemble.py` (상대경로라 반드시 이 폴더에서). 출력 예: `lessons 46 cards 5681 words 4638 bytes 1448075`.
+- `assemble.py` — out/*.json → HTML의 DATA 블롭 교체. `cd /home/claude/hoe-prod && python3 assemble.py` (상대경로라 반드시 이 폴더에서). 출력 예: `lessons 46 cards 5690 words 4638 bytes 1449945`.
 - `disassemble.py` — 역연산. HTML → out/*.json. 왕복 검증 완료(46파일 동일).
 - `audit.py out/setNN.json` — 기계 감사: 빈칸 유무, 예문 10단어 초과, 해설 72자 초과, meow 48자·'고양' 포함, **예문 어휘 통제**, ipa/tr/pos 누락, 단어 누락·순서. 파일명에 `set`이 있어야 한다(lesson 파일은 `audit.py`의 `tok_ok`를 import해서 따로 검사). 마지막 줄 `문제 0`이 통과.
 - `dump.py <json>` — 카드 한 줄씩 출력(`n [word/si] pos ko | ex | tr`). 검토용.
@@ -108,7 +108,7 @@ git add vocagoyangfable.html && git commit -m "…"
 ## 5. 미결 과제 (우선순위 순)
 
 1. ~~**1차 완성 확인**~~ — 완료(26.9.9). `a941c48` 업로드 + hoe.html 삭제 확인.
-2. **order 권고 18건** (헌장 부록 C, "다음 개정") — okay 감탄사, credit 학점, tough 뜻 분리, tip 끝, program 동사 등 흔한 뜻이 누락된 표제어에 뜻 카드 신설·순서 교환. 목록 파일: `fable/review/order_recs.json`(set·word·si·problem·severity). 뜻 카드를 새로 만들면 `sn` 갱신, 같은 exercise 안에 넣기, 예문 어휘 통제 통과 필수. **진행: mid 9건 완료(26.9.9, okay·tough·tip·perfectly·column·gospel·bug·korean·greek — `order_recs.json`의 `fix`에 기록). 남은 low 9건 중 stall·induction·mole은 영신 판단 대기.**
+2. ~~**order 권고 18건**~~ — 완료(26.9.9, 18/18, 카드 5,672 → 5,690). 원문: (헌장 부록 C, "다음 개정") — okay 감탄사, credit 학점, tough 뜻 분리, tip 끝, program 동사 등 흔한 뜻이 누락된 표제어에 뜻 카드 신설·순서 교환. 목록 파일: `fable/review/order_recs.json`(set·word·si·problem·severity). 뜻 카드를 새로 만들면 `sn` 갱신, 같은 exercise 안에 넣기, 예문 어휘 통제 통과 필수. 처리 내역은 `order_recs.json`의 `fix` 필드. 파생 미결: **deduction(연역)은 표제어가 아님** — induction ① 해설에만 언급. 표제어 추가 여부 영신 판단 대기(추가하려면 `fable/in/set41.json`·`allowed.fable` 명단도 수정).
 3. **0~22세트 meow 가이드 재정비** — 23~45는 고양체 가이드(26.9.5, `fable/cat/style_guide.md`)로 썼지만 0~22의 299줄은 옛 톤. 가이드에 맞춰 다듬기(전부 수작업, 다섯 카드당 하나 이하 유지).
 4. 명시 동의어표 `SYN` 신설(4절 끝의 67쌍이 초기 값).
 5. 접두사 9장(non·anti·pre·mid·multi·semi·sub·neo·micro) — 카드로 둘지 "접두사 연습"으로 묶을지 영신 결정 대기.
@@ -122,7 +122,7 @@ git add vocagoyangfable.html && git commit -m "…"
 - 26.9.4~5 HoE→Fable 개명, 23~45세트 2,275단어 추가, meow 표시, index 개편(FABLE 5000), 0세트 수사 통합·billion/trillion.
 - 26.9.7~8 빈칸 중의성 점검 0~45 전 세트 1회전(예문 교체·번역 조이기 약 1,000필드) + 별칭표 ALT 신설·260키.
 - 26.9.9 데스크 세션 마지막 커밋 `a941c48` → 영신이 웹 업로드(origin `122d2cd`). 이후 이력은 보카고양 전용 세션이 브랜치로 push.
-- 26.9.9 order 권고 mid 9건 처리(카드 5,672 → 5,681).
+- 26.9.9 order 권고 18건 처리(카드 5,672 → 5,690). summit·stall은 뜻 순서 교환.
 
 ## 7. 새 세션 첫 10분 체크리스트
 
