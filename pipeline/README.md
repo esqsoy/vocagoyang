@@ -51,7 +51,7 @@
 
 파일:
 - `out/lesson00~04.json`(dict: lesson/label/name/exercises), `out/set05~45.json`(exercises 리스트) — **카드 원본.** 편집은 여기에 하고 HTML은 조립해서 만든다. (`out/lesson00b.json`은 0세트 작업 중간본, 무시.)
-- `assemble.py` — out/*.json → HTML의 DATA 블롭 교체. `cd /home/claude/hoe-prod && python3 assemble.py` (상대경로라 반드시 이 폴더에서). 출력 예: `lessons 46 cards 5695 words 4639 bytes 1453747`.
+- `assemble.py` — out/*.json → HTML의 DATA 블롭 교체. `cd /home/claude/hoe-prod && python3 assemble.py` (상대경로라 반드시 이 폴더에서). 출력 예: `lessons 46 cards 5695 words 4639 bytes 1458161`.
 - `disassemble.py` — 역연산. HTML → out/*.json. 왕복 검증 완료(46파일 동일).
 - `audit.py out/setNN.json` — 기계 감사: 빈칸 유무, 예문 10단어 초과, 해설 72자 초과, meow 48자·'고양' 포함, **예문 어휘 통제**, ipa/tr/pos 누락, 단어 누락·순서, **중복(같은 단어·뜻 번호, 같은 뜻, 같은 예문)**. `audit.py --dups`는 전 세트 교차 중복(표제어가 여러 세트에, 같은 예문이 여러 카드에)을 보고한다. 파일명에 `set`이 있어야 한다(lesson 파일은 `audit.py`의 `tok_ok`를 import해서 따로 검사). 마지막 줄 `문제 0`이 통과.
 - `dump.py <json>` — 카드 한 줄씩 출력(`n [word/si] pos ko | ex | tr`). 검토용.
@@ -111,8 +111,8 @@ git add vocagoyangfable.html && git commit -m "…"
 
 1. ~~**1차 완성 확인**~~ — 완료(26.9.9). `a941c48` 업로드 + hoe.html 삭제 확인.
 2. ~~**order 권고 18건**~~ — 완료(26.9.9, 18/18, 신규 카드 18장, 5,672 → 5,690). 원문: (헌장 부록 C, "다음 개정") — okay 감탄사, credit 학점, tough 뜻 분리, tip 끝, program 동사 등 흔한 뜻이 누락된 표제어에 뜻 카드 신설·순서 교환. 목록 파일: `fable/review/order_recs.json`(set·word·si·problem·severity). 뜻 카드를 새로 만들면 `sn` 갱신, 같은 exercise 안에 넣기, 예문 어휘 통제 통과 필수. 처리 내역은 `order_recs.json`의 `fix` 필드. deduction(연역·공제)은 26.9.9 영신 승인으로 41세트 induction 뒤에 표제어 추가(명단 예외, src `pair:induction`). 헌장 E-3 잔여도 처리: get ④ 도착하다, address ②③ 연설·다루다, plain ③ 평이한, bitter ③ 원망하는 신설, rose ②(활용형) 삭제. 35세트 trillion은 0세트와 중복이라 제거.
-3. **0~22세트 meow 가이드 재정비** — 진행: 0·5~9세트 89줄 완료(26.9.9). 남은 10~22세트 210줄. 기초 1~4세트는 meow 0줄(신설 여부 영신 결정). — 23~45는 고양체 가이드(26.9.5, `fable/cat/style_guide.md`)로 썼지만 0~22의 299줄은 옛 톤. 가이드에 맞춰 다듬기(전부 수작업, 다섯 카드당 하나 이하 유지).
-4. 명시 동의어표 `SYN` 신설(4절 끝의 67쌍이 초기 값).
+3. ~~**0~22세트 meow 가이드 재정비**~~ — 완료(26.9.9, 299줄 전부). 기초 1~4세트 meow 60줄 + 0세트 8줄 신설(26.9.9 영신 결정). 현재 meow 총 595줄. 남은 건 영신 플레이 검수. — 23~45는 고양체 가이드(26.9.5, `fable/cat/style_guide.md`)로 썼지만 0~22의 299줄은 옛 톤. 가이드에 맞춰 다듬기(전부 수작업, 다섯 카드당 하나 이하 유지).
+4. 명시 동의어표 `SYN` 신설(4절 끝의 67쌍이 초기 값). 26.9.9 추가 후보: address/handle(다루다), address/speech(연설), get/arrive(도착하다), kind/sort/type.
 5. 접두사 9장(non·anti·pre·mid·multi·semi·sub·neo·micro) — 카드로 둘지 "접두사 연습"으로 묶을지 영신 결정 대기.
 6. 단어 뷰(한 단어의 모든 뜻을 층 배지와 함께 조망) — 설계 확정, 구현 시점 미정.
 7. 영/미 IPA 병기 — 보류(원하면 `ipa_uk` 필드).
@@ -125,6 +125,7 @@ git add vocagoyangfable.html && git commit -m "…"
 - 26.9.7~8 빈칸 중의성 점검 0~45 전 세트 1회전(예문 교체·번역 조이기 약 1,000필드) + 별칭표 ALT 신설·260키.
 - 26.9.9 데스크 세션 마지막 커밋 `a941c48` → 영신이 웹 업로드(origin `122d2cd`). 이후 이력은 보카고양 전용 세션이 브랜치로 push.
 - 26.9.9 order 권고 18건 처리(신규 18장, 카드 5,672 → 5,690). summit·stall은 뜻 순서 교환, induction은 ②③ 두 장.
+- 26.9.9 헌장 v2.1→v2.2(뜻 개수 상한 없음, 층 체계·표제어 단위 정리, 3층 BoE 개명). deduction 예외 추가, E-3 잔여 5건, 중복 검사 신설(trillion 중복 제거, 예문 재사용 4건 교체), 발음 강세 강조 복구(fmtIpa), meow 0~22 재정비 299줄 + 1~4세트 신설 68줄. 카드 5,695 · 표제어 4,639 · meow 595.
 
 ## 7. 새 세션 첫 10분 체크리스트
 
