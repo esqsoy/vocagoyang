@@ -970,15 +970,27 @@
 },
 {
 "en": "perfectly",
-"ko": "① 완벽하게, 아주, 전적으로",
+"ko": "① 완벽하게",
 "ex": "She sang the song {{BLANK}} at the concert.",
 "tr": "걔는 콘서트에서 그 노래를 완벽하게 불렀어.",
-"c": "perfect(완벽한)+-ly. perfectly fine처럼 형용사 강조로도 쓴다.",
+"c": "perfect(완벽한)+-ly. 방법을 말할 때. 형용사 강조는 ②.",
 "ipa": "ˈpɝfɪktli",
 "pos": "adv.",
 "word": "perfectly",
 "si": 1,
-"sn": 1
+"sn": 2
+},
+{
+"en": "perfectly",
+"ko": "② (형용사 강조) 아주, 완전히",
+"ex": "It's {{BLANK}} normal to feel nervous before a test.",
+"tr": "시험 전에 긴장되는 건 완벽히 정상이야.",
+"c": "'완벽하게'가 아니라 그냥 '아주'. fine·normal·clear 앞에 잘 붙는다.",
+"ipa": "ˈpɝfɪktli",
+"pos": "adv.",
+"word": "perfectly",
+"si": 2,
+"sn": 2
 },
 {
 "en": "veteran",
@@ -1157,7 +1169,7 @@
 },
 {
 "en": "column",
-"ko": "① (표의) 세로줄, 칸, (신문의) 칼럼",
+"ko": "① (표의) 세로줄, 칸",
 "ex": "Write your name in the first {{BLANK}}.",
 "tr": "첫 번째 칸에 이름을 써.",
 "c": "세로는 column, 가로는 row. 끝의 n은 소리 내지 않는다.",
@@ -1165,7 +1177,7 @@
 "pos": "n.",
 "word": "column",
 "si": 1,
-"sn": 2
+"sn": 3
 },
 {
 "en": "column",
@@ -1177,7 +1189,19 @@
 "pos": "n.",
 "word": "column",
 "si": 2,
-"sn": 2
+"sn": 3
+},
+{
+"en": "column",
+"ko": "③ (신문의) 칼럼, 기고란",
+"ex": "She writes a weekly {{BLANK}} for the school paper.",
+"tr": "걔는 학교 신문에 매주 칼럼을 써.",
+"c": "한 사람이 정기적으로 쓰는 신문 글. 신문의 세로 단에서 온 말.",
+"ipa": "ˈkɑləm",
+"pos": "n.",
+"word": "column",
+"si": 3,
+"sn": 3
 },
 {
 "en": "golf",

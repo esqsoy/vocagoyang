@@ -646,15 +646,27 @@
 "words": [
 {
 "en": "gospel",
-"ko": "① 복음, 복음 성가",
-"ex": "Her church sings {{BLANK}} music every Sunday.",
-"tr": "그녀의 교회는 일요일마다 복음 성가를 불러.",
+"ko": "① 복음, 복음서",
+"ex": "The church spread the {{BLANK}} across Asia.",
+"tr": "그 교회는 아시아 전역에 복음을 전했어.",
 "c": "옛 영어 '좋은 소식'에서 왔다. 성경의 복음서는 대문자.",
 "ipa": "ˈɡɑspəl",
 "pos": "n.",
 "word": "gospel",
 "si": 1,
-"sn": 1
+"sn": 2
+},
+{
+"en": "gospel",
+"ko": "② 복음 성가, 가스펠",
+"ex": "Her church sings {{BLANK}} music every Sunday.",
+"tr": "그녀의 교회는 일요일마다 복음 성가를 불러.",
+"c": "미국 흑인 교회에서 시작된 힘찬 성가. gospel music으로 쓴다.",
+"ipa": "ˈɡɑspəl",
+"pos": "n.",
+"word": "gospel",
+"si": 2,
+"sn": 2
 },
 {
 "en": "fighting",
@@ -1130,7 +1142,7 @@
 "pos": "n.",
 "word": "bug",
 "si": 1,
-"sn": 2
+"sn": 3
 },
 {
 "en": "bug",
@@ -1142,8 +1154,20 @@
 "pos": "n.",
 "word": "bug",
 "si": 2,
-"sn": 2,
+"sn": 3,
 "meow": "네 머릿속에 bug, 오류가 있다고양. 다시 외우라고양."
+},
+{
+"en": "bug",
+"ko": "③ (구어) 귀찮게 하다, 괴롭히다",
+"ex": "Stop {{BLANK}}ging me about my homework.",
+"tr": "내 숙제 갖고 그만 좀 귀찮게 해.",
+"c": "벌레가 달라붙어 성가시게 하는 그림. bother의 구어체.",
+"ipa": "bʌɡ",
+"pos": "v.",
+"word": "bug",
+"si": 3,
+"sn": 3
 },
 {
 "en": "nominee",
@@ -1333,15 +1357,27 @@
 },
 {
 "en": "korean",
-"ko": "① 한국의, 한국인, 한국어",
+"ko": "① 한국의",
 "ex": "My {{BLANK}} friend moved to New York.",
 "tr": "내 한국인 친구는 뉴욕으로 이사 갔어.",
-"c": "항상 대문자로 씀. Korea+-an. 언어도 the 없이 Korean.",
+"c": "항상 대문자로 씀. Korea+-an. 사람·언어 명사는 ②.",
 "ipa": "kəˈriən",
 "pos": "adj.",
 "word": "korean",
 "si": 1,
-"sn": 1
+"sn": 2
+},
+{
+"en": "korean",
+"ko": "② 한국인, 한국어",
+"ex": "Do you speak {{BLANK}}?",
+"tr": "너 한국어 할 줄 알아?",
+"c": "명사로 사람·언어. 언어는 the 없이 speak Korean, 사람은 a Korean.",
+"ipa": "kəˈriən",
+"pos": "n.",
+"word": "korean",
+"si": 2,
+"sn": 2
 },
 {
 "en": "cabin",

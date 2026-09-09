@@ -106,13 +106,25 @@
 "ko": "① 괜찮은, 좋아",
 "ex": "Is it {{BLANK}} if I borrow your pen?",
 "tr": "네 펜 좀 빌려도 괜찮아?",
-"c": "Is it okay if ~?로 허락을 구한다. OK, ok로도 쓴다.",
+"c": "Is it okay if ~?로 허락을 구한다. OK, ok로도 쓴다. 대답·확인은 ②.",
 "ipa": "oʊˈkeɪ",
 "pos": "adj.",
 "word": "okay",
 "si": 1,
-"sn": 1,
+"sn": 2,
 "meow": "Is it okay? 괜찮냐고양? 안 괜찮다고양."
+},
+{
+"en": "okay",
+"ko": "② (대답·확인) 좋아, 알았어",
+"ex": "Be home by ten, {{BLANK}}?",
+"tr": "열 시까지 집에 와, 알았지?",
+"c": "대답으로는 '알았어, 좋아', 문장 끝에 붙이면 '알았지?'로 다짐받는 말.",
+"ipa": "oʊˈkeɪ",
+"pos": "int.",
+"word": "okay",
+"si": 2,
+"sn": 2
 },
 {
 "en": "hey",
@@ -924,20 +936,32 @@
 "pos": "adj.",
 "word": "tough",
 "si": 1,
-"sn": 2,
+"sn": 3,
 "meow": "tough, 힘들다고양? 일산 탈출이 원래 그렇다고양."
 },
 {
 "en": "tough",
-"ko": "② 질긴, 강인한",
+"ko": "② (고기가) 질긴",
 "ex": "This meat is too {{BLANK}} to eat.",
 "tr": "이 고기는 너무 질겨서 못 먹겠어.",
-"c": "고기가 질기거나 사람이 억센 것. 반대는 tender(연한).",
+"c": "고기가 질긴 것. 반대는 tender(연한). 사람 성격은 ③.",
 "ipa": "tʌf",
 "pos": "adj.",
 "word": "tough",
 "si": 2,
-"sn": 2
+"sn": 3
+},
+{
+"en": "tough",
+"ko": "③ (사람이) 강인한, 터프한",
+"ex": "He acts like a {{BLANK}} guy but cries at movies.",
+"tr": "걘 터프한 남자인 척하지만 영화 보면서 울어.",
+"c": "사람에게 쓰면 '잘 안 무너지는'. tough guy는 겉으로 센 척하는 남자.",
+"ipa": "tʌf",
+"pos": "adj.",
+"word": "tough",
+"si": 3,
+"sn": 3
 }
 ]
 },
