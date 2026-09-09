@@ -17,21 +17,21 @@
 - 공개 주소: https://esqsoy.github.io/vocagoyang/ · 레포: https://github.com/esqsoy/vocagoyang
 - 파일:
   - `index.html` — 교재 선택 화면(FABLE 5000 / MOTHERTONGUE 2027 / EBS 수특 2027 세 카드, 누적 단어수·직독직해선 95% 표기).
-  - `vocagoyangfable.html` — **본체.** 단일 HTML(약 1.87MB), 안에 `const DATA = [...]` 블롭으로 46레슨 5,690카드가 들어 있다.
+  - `vocagoyangfable.html` — **본체.** 단일 HTML(약 1.87MB), 안에 `const DATA = [...]` 블롭으로 46레슨 5,695카드가 들어 있다.
   - `vocagoyangksat2027.html`, `vocagoyangebs2027.html` — 마더텅·EBS 옛 앱(별도 계보, 이번 인수인계 범위 밖).
   - `vocagoyanghoe.html` — 옛 이름의 리다이렉트 스텁. 영신이 GitHub에서 삭제하기로 함(26.9.9). 진행 저장 키(`goyang-hoe-seoul-v1`)는 그대로라 기존 진도는 보존된다.
 - 설계 원본: 아티팩트 **보카고양 설계 헌장 v2.0** https://claude.ai/code/artifact/51fbcefc-3a5a-4fcd-a75c-e7870698df5a (제0~6조 + 부록 A~G). 카드 규칙·말투·층 구조·미결 사항이 여기 있다. 헌장과 이 문서가 다르면 헌장이 원칙, 이 문서가 현재 상태.
 
 ## 2. 데이터 구조
 
-레슨(세트) 46개, 카드 5,690장, 표제어 4,638개.
+레슨(세트) 46개, 카드 5,695장, 표제어 4,639개.
 
 | 레슨 | 라벨 | 내용 | 배열 |
 |---|---|---|---|
 | 0 | 0세트 | 기초 결손 보강 179장(수사·요일·인사·사람·학교·생활·현대어·생활 구어) | 주제별 |
 | 1~4 | 기초 1~4 | 머리경(오푸스) 시절 400단어(전량 LDV) | 학습순서(빈도 아님) |
 | 5~22 | 학습순서 401~2183 | LDV 잔여 1,783단어 · 2,099카드 | NGSL 랭크순 |
-| 23~45 | 합집합 1~2275 | 핵심 리스트 합집합 잔여 2,275단어 · 2,753카드 | COCA 빈도순 |
+| 23~45 | 합집합 1~2275 | 핵심 리스트 합집합 잔여 2,275단어(+deduction −trillion) · 2,756카드 | COCA 빈도순 |
 
 **뜻 개수 규칙(26.9.9 영신 확정): 상한 없음.** 사용 빈도가 높은 뜻은 열 개라도 전부 카드로 세운다. SPEC.md의 옛 "1~3개(최대 4개)"는 삭제됨. 제외 기준은 빈도·층위뿐.
 
@@ -51,9 +51,9 @@
 
 파일:
 - `out/lesson00~04.json`(dict: lesson/label/name/exercises), `out/set05~45.json`(exercises 리스트) — **카드 원본.** 편집은 여기에 하고 HTML은 조립해서 만든다. (`out/lesson00b.json`은 0세트 작업 중간본, 무시.)
-- `assemble.py` — out/*.json → HTML의 DATA 블롭 교체. `cd /home/claude/hoe-prod && python3 assemble.py` (상대경로라 반드시 이 폴더에서). 출력 예: `lessons 46 cards 5690 words 4638 bytes 1450163`.
+- `assemble.py` — out/*.json → HTML의 DATA 블롭 교체. `cd /home/claude/hoe-prod && python3 assemble.py` (상대경로라 반드시 이 폴더에서). 출력 예: `lessons 46 cards 5695 words 4639 bytes 1453729`.
 - `disassemble.py` — 역연산. HTML → out/*.json. 왕복 검증 완료(46파일 동일).
-- `audit.py out/setNN.json` — 기계 감사: 빈칸 유무, 예문 10단어 초과, 해설 72자 초과, meow 48자·'고양' 포함, **예문 어휘 통제**, ipa/tr/pos 누락, 단어 누락·순서. 파일명에 `set`이 있어야 한다(lesson 파일은 `audit.py`의 `tok_ok`를 import해서 따로 검사). 마지막 줄 `문제 0`이 통과.
+- `audit.py out/setNN.json` — 기계 감사: 빈칸 유무, 예문 10단어 초과, 해설 72자 초과, meow 48자·'고양' 포함, **예문 어휘 통제**, ipa/tr/pos 누락, 단어 누락·순서, **중복(같은 단어·뜻 번호, 같은 뜻, 같은 예문)**. `audit.py --dups`는 전 세트 교차 중복(표제어가 여러 세트에, 같은 예문이 여러 카드에)을 보고한다. 파일명에 `set`이 있어야 한다(lesson 파일은 `audit.py`의 `tok_ok`를 import해서 따로 검사). 마지막 줄 `문제 0`이 통과.
 - `dump.py <json>` — 카드 한 줄씩 출력(`n [word/si] pos ko | ex | tr`). 검토용.
 - `apply.py <json> <edits.json>` — 편집 적용. edits는 `{"word/si": {"ex": "...", "tr": "...", "c": "...", "ko": "..."}}`. 적용 후 빈칸 확인, 어휘 경고(`VOCAB`), 해설 74자 경고(`C>74`), 미적중 키 보고.
 - `allowed.json` — `ldv`(2,183) · `used400` · `set0` · `fable`(23~45 단어 → 세트 번호). `whitelist.json` — 생활어 부록 50단어. `sets.json` — 5~22세트 단어 명단(순서 검사용). `fable/in/set23~45.json` — 23~45 입력 명단(순서 검사용). `fable_plan.json` — 합집합 배열 근거(COCA·votes·src).
@@ -110,7 +110,7 @@ git add vocagoyangfable.html && git commit -m "…"
 ## 5. 미결 과제 (우선순위 순)
 
 1. ~~**1차 완성 확인**~~ — 완료(26.9.9). `a941c48` 업로드 + hoe.html 삭제 확인.
-2. ~~**order 권고 18건**~~ — 완료(26.9.9, 18/18, 신규 카드 18장, 5,672 → 5,690). 원문: (헌장 부록 C, "다음 개정") — okay 감탄사, credit 학점, tough 뜻 분리, tip 끝, program 동사 등 흔한 뜻이 누락된 표제어에 뜻 카드 신설·순서 교환. 목록 파일: `fable/review/order_recs.json`(set·word·si·problem·severity). 뜻 카드를 새로 만들면 `sn` 갱신, 같은 exercise 안에 넣기, 예문 어휘 통제 통과 필수. 처리 내역은 `order_recs.json`의 `fix` 필드. 파생 미결: **deduction(연역)은 표제어가 아님** — induction ① 해설에만 언급. 표제어 추가 여부 영신 판단 대기(추가하려면 `fable/in/set41.json`·`allowed.fable` 명단도 수정).
+2. ~~**order 권고 18건**~~ — 완료(26.9.9, 18/18, 신규 카드 18장, 5,672 → 5,690). 원문: (헌장 부록 C, "다음 개정") — okay 감탄사, credit 학점, tough 뜻 분리, tip 끝, program 동사 등 흔한 뜻이 누락된 표제어에 뜻 카드 신설·순서 교환. 목록 파일: `fable/review/order_recs.json`(set·word·si·problem·severity). 뜻 카드를 새로 만들면 `sn` 갱신, 같은 exercise 안에 넣기, 예문 어휘 통제 통과 필수. 처리 내역은 `order_recs.json`의 `fix` 필드. deduction(연역·공제)은 26.9.9 영신 승인으로 41세트 induction 뒤에 표제어 추가(명단 예외, src `pair:induction`). 헌장 E-3 잔여도 처리: get ④ 도착하다, address ②③ 연설·다루다, plain ③ 평이한, bitter ③ 원망하는 신설, rose ②(활용형) 삭제. 35세트 trillion은 0세트와 중복이라 제거.
 3. **0~22세트 meow 가이드 재정비** — 진행: 0·5~9세트 89줄 완료(26.9.9). 남은 10~22세트 210줄. 기초 1~4세트는 meow 0줄(신설 여부 영신 결정). — 23~45는 고양체 가이드(26.9.5, `fable/cat/style_guide.md`)로 썼지만 0~22의 299줄은 옛 톤. 가이드에 맞춰 다듬기(전부 수작업, 다섯 카드당 하나 이하 유지).
 4. 명시 동의어표 `SYN` 신설(4절 끝의 67쌍이 초기 값).
 5. 접두사 9장(non·anti·pre·mid·multi·semi·sub·neo·micro) — 카드로 둘지 "접두사 연습"으로 묶을지 영신 결정 대기.

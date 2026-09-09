@@ -417,8 +417,8 @@
 {
 "en": "presently",
 "ko": "① 현재, 지금",
-"ex": "She is {{BLANK}} living with her grandmother.",
-"tr": "걔는 지금 할머니랑 같이 살고 있어.",
+"ex": "The museum is {{BLANK}} closed for repairs.",
+"tr": "그 박물관은 현재 수리 때문에 닫혀 있어.",
 "c": "present(현재의)+-ly. 이 뜻은 진행형과 잘 어울린다.",
 "ipa": "ˈprɛzəntli",
 "pos": "adv.",
@@ -600,7 +600,7 @@
 "ko": "① 귀납(법)",
 "ex": "Science uses {{BLANK}} to reach general rules.",
 "tr": "과학은 일반 법칙에 이르려고 귀납을 써.",
-"c": "개별 사실에서 규칙을 끌어내는 추론. 반대는 deduction(연역).",
+"c": "개별 사실에서 규칙을 끌어내는 추론. 반대는 deduction(연역), 다음 카드.",
 "ipa": "ɪnˈdʌkʃən",
 "pos": "n.",
 "word": "induction",
@@ -630,6 +630,30 @@
 "word": "induction",
 "si": 3,
 "sn": 3
+},
+{
+"en": "deduction",
+"ko": "① 연역(법)",
+"ex": "Sherlock uses {{BLANK}}, not luck, to catch the thief.",
+"tr": "셜록은 운이 아니라 연역으로 범인을 잡아.",
+"c": "일반 법칙에서 개별 결론을 끌어내는 추론. 반대는 induction(귀납).",
+"ipa": "dɪˈdʌkʃən",
+"pos": "n.",
+"word": "deduction",
+"si": 1,
+"sn": 2
+},
+{
+"en": "deduction",
+"ko": "② (세금·급여의) 공제",
+"ex": "After tax {{BLANK}}s, my pay was much smaller.",
+"tr": "세금 공제 뒤엔 내 급여가 훨씬 적었어.",
+"c": "빼는(deduct) 것. tax deduction 세금 공제. ①과 철자만 같은 별개 뜻.",
+"ipa": "dɪˈdʌkʃən",
+"pos": "n.",
+"word": "deduction",
+"si": 2,
+"sn": 2
 },
 {
 "en": "instability",

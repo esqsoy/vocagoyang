@@ -29,11 +29,22 @@ def audit(path, expected_words=None):
     words_seen = []
     ncards = 0
     meow_count = 0
+    seen_key, seen_ex, seen_ko = set(), {}, set()
     for ei, ex in enumerate(data):
         for w in ex.get('words', []):
             ncards += 1
             wd = w.get('word','?')
             tag = f"[{ex.get('name','?')}] {wd}({w.get('si')})"
+            # 중복 검사(헌장 제5조): 같은 단어·뜻 번호, 같은 단어·같은 뜻, 같은 예문
+            key = (wd, w.get('si'))
+            if key in seen_key: problems.append(f"{tag} 중복 카드(단어·뜻 번호)")
+            seen_key.add(key)
+            kok = (wd, re.sub(r'^[①-⑩]\s*', '', w.get('ko','')).strip())
+            if kok in seen_ko: problems.append(f"{tag} 같은 단어에 같은 뜻 두 번: {kok[1][:20]}")
+            seen_ko.add(kok)
+            exn = re.sub(r'\s+', ' ', w.get('ex','')).strip().lower()
+            if exn in seen_ex and seen_ex[exn] != wd: problems.append(f"{tag} 예문 중복({seen_ex[exn]}와 동일)")
+            seen_ex.setdefault(exn, wd)
             if wd not in words_seen: words_seen.append(wd)
             exs = w.get('ex','')
             if '{{BLANK}}' not in exs: problems.append(f"{tag} 빈칸 없음")
@@ -63,7 +74,25 @@ def audit(path, expected_words=None):
         if idx != sorted(idx): problems.append("단어 순서가 입력 순서와 다름")
     return ncards, len(words_seen), meow_count, problems
 
+def dups_all():
+    """--dups: 전 세트 교차 중복 — 같은 표제어가 여러 세트에, 같은 예문이 여러 카드에"""
+    import glob, collections
+    files = sorted(glob.glob('/home/claude/hoe-prod/out/lesson0[0-4].json')) + sorted(glob.glob('/home/claude/hoe-prod/out/set*.json'))
+    where, exwhere = collections.defaultdict(list), collections.defaultdict(list)
+    for f in files:
+        o = json.load(open(f)); exs = o['exercises'] if isinstance(o, dict) else o
+        name = f.split('/')[-1][:-5]
+        for e in exs:
+            for w in e['words']:
+                where[w['word']].append(name)
+                exwhere[re.sub(r'\s+', ' ', w['ex']).strip().lower()].append(f"{name}:{w['word']}/{w['si']}")
+    cross = {w: sorted(set(v)) for w, v in where.items() if len(set(v)) > 1}
+    exd = {e: v for e, v in exwhere.items() if len(v) > 1}
+    print(f"표제어 교차 세트 {len(cross)}: " + ", ".join(f"{w}({'·'.join(s)})" for w, s in sorted(cross.items())[:60]))
+    print(f"예문 중복 {len(exd)}:"); [print("  -", v) for v in list(exd.values())[:40]]
+
 if __name__ == '__main__':
+    if sys.argv[1] == '--dups': dups_all(); sys.exit()
     path = sys.argv[1]
     setno = int(re.search(r'set(\d+)', path).group(1))
     if setno >= 23:
