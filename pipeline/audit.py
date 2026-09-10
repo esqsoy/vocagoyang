@@ -40,7 +40,7 @@ def audit(path, expected_words=None):
             if key in seen_key: problems.append(f"{tag} 중복 카드(단어·뜻 번호)")
             seen_key.add(key)
             kok = (wd, re.sub(r'^[①-⑩]\s*', '', w.get('ko','')).strip())
-            if kok in seen_ko: problems.append(f"{tag} 같은 단어에 같은 뜻 두 번: {kok[1][:20]}")
+            if kok in seen_ko and w.get('pos') not in ('pref.','suf.','root'): problems.append(f"{tag} 같은 단어에 같은 뜻 두 번: {kok[1][:20]}")
             seen_ko.add(kok)
             exn = re.sub(r'\s+', ' ', w.get('ex','')).strip().lower()
             if exn in seen_ex and seen_ex[exn] != wd: problems.append(f"{tag} 예문 중복({seen_ex[exn]}와 동일)")
@@ -57,7 +57,7 @@ def audit(path, expected_words=None):
                 meow_count += 1
                 if len(m) > 48: problems.append(f"{tag} meow {len(m)}자 초과")
                 if '고양' not in m: problems.append(f"{tag} meow 고양체 아님: {m[:30]}")
-            body = re.sub(r'\{\{BLANK\}\}[a-z]*', ' ', exs)
+            body = re.sub(r"[A-Za-z']*\{\{BLANK\}\}[a-z]*", ' ', exs)   # 빈칸에 붙은 앞뒤 조각(educa{{BLANK}}, re{{BLANK}}, {{BLANK}}ing)은 단어가 아님
             toks = re.findall(r"[A-Za-z][A-Za-z']*", body)
             bad = sorted(set(t for t in toks if not t[0].isupper() and not tok_ok(t)))
             if bad: problems.append(f"{tag} 예문 어휘 위반: {bad} | {exs[:45]}")
@@ -77,7 +77,7 @@ def audit(path, expected_words=None):
 def dups_all():
     """--dups: 전 세트 교차 중복 — 같은 표제어가 여러 세트에, 같은 예문이 여러 카드에"""
     import glob, collections
-    files = sorted(glob.glob('/home/claude/hoe-prod/out/lesson0[0-4].json')) + sorted(glob.glob('/home/claude/hoe-prod/out/set*.json'))
+    files = sorted(glob.glob('/home/claude/hoe-prod/out/lesson0[0-4].json')) + sorted(f for f in glob.glob('/home/claude/hoe-prod/out/set*.json') if int(re.search(r'set(\d+)', f).group(1)) < 46)  # 46·47 형태론 세트는 재등장이 목적이라 제외
     where, exwhere = collections.defaultdict(list), collections.defaultdict(list)
     for f in files:
         o = json.load(open(f)); exs = o['exercises'] if isinstance(o, dict) else o
