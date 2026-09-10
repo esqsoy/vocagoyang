@@ -12,9 +12,9 @@
   - 반복 작업은 10세트 묶음 단위로 처리하고 묶음마다 압축 보고(세트별 변경 목록 + 메모).
   - GitHub 푸시: 보카고양 전용 세션(26.9.9~)은 레포가 소스로 연결돼 있어 `claude/…` 작업 브랜치로 직접 push한다. 영신은 GitHub 웹에서 PR을 main에 머지하면 된다. (데스크 세션 시절엔 push 403이라 파일 전달 → 웹 업로드였음.)
 
-## 0-1. 층 체계 (헌장 제1조 v2.3, 26.9.10 영신 확정)
+## 0-1. 층 체계 (헌장 제1조 v2.4, 26.9.10 영신 확정)
 
-Fable(구 HoE, 0→4,639) + Mother Tongue(→약 8,200) = 95% 직독직해선. 그 위 **HoE(Heart of English, →12,000 — 콘래드 『Heart of Darkness』에서 딴 이름; 26.9.5까지는 Fable을 이렇게 불렀음)** → **GoE(Gift of English, →15,000, 나보코프 『재능』)**에서 종합 단어장 끝. 15,000→42,000(Brysbaert 2016 원어민 20세 수용 어휘)은 명작 한 권 = 단어장 한 권. 수특은 그 해 고3용이라 사다리 밖. 단위는 표제어. 인수인계 때 3층 이름이 빠져 데스크가 임시로 BoE라 부른 적 있음 — 폐기.
+Fable(0→4,639) + Mother Tongue(→약 8,200) = 95% 직독직해선. 그 위 **HoE(Heart of English, →12,000 — 콘래드 『Heart of Darkness』에서 딴 이름; 26.9.5까지는 Fable을 이렇게 불렀음)** → **GoE(Gift of English, →15,000, 나보코프 『재능』)**에서 종합 단어장 끝. 15,000→42,000(Brysbaert 2016 원어민 20세 수용 어휘)은 명작 한 권 = 단어장 한 권. 수특은 그 해 고3용이라 사다리 밖. 단위는 표제어. 인수인계 때 3층 이름이 빠져 데스크가 임시로 BoE라 부른 적 있음 — 폐기.
 
 ## 1. 제품
 
@@ -24,7 +24,7 @@ Fable(구 HoE, 0→4,639) + Mother Tongue(→약 8,200) = 95% 직독직해선. �
   - `vocagoyangfable.html` — **본체.** 단일 HTML(약 1.87MB), 안에 `const DATA = [...]` 블롭으로 46레슨 5,695카드가 들어 있다.
   - `vocagoyangksat2027.html`, `vocagoyangebs2027.html` — 마더텅·EBS 옛 앱(별도 계보, 이번 인수인계 범위 밖).
   - `vocagoyanghoe.html` — 옛 이름의 리다이렉트 스텁. 영신이 GitHub에서 삭제하기로 함(26.9.9). 진행 저장 키(`goyang-hoe-seoul-v1`)는 그대로라 기존 진도는 보존된다.
-- 설계 원본: 아티팩트 **보카고양 설계 헌장 v2.0** https://claude.ai/code/artifact/51fbcefc-3a5a-4fcd-a75c-e7870698df5a (제0~6조 + 부록 A~G). 카드 규칙·말투·층 구조·미결 사항이 여기 있다. 헌장과 이 문서가 다르면 헌장이 원칙, 이 문서가 현재 상태.
+- 설계 원본: 아티팩트 **보카고양 설계 헌장 v2.4(프로토타입 — 빠진 건 대화로 버전업)** https://claude.ai/code/artifact/51fbcefc-3a5a-4fcd-a75c-e7870698df5a (제0~7조 + 부록 A~G; 제7조 접사·어근·어족은 데스크 제안, 영신 결정 대기). 카드 규칙·말투·층 구조·미결 사항이 여기 있다. 헌장과 이 문서가 다르면 헌장이 원칙, 이 문서가 현재 상태.
 
 ## 2. 데이터 구조
 
@@ -58,6 +58,7 @@ Fable(구 HoE, 0→4,639) + Mother Tongue(→약 8,200) = 95% 직독직해선. �
 - `assemble.py` — out/*.json → HTML의 DATA 블롭 교체. `cd /home/claude/hoe-prod && python3 assemble.py` (상대경로라 반드시 이 폴더에서). 출력 예: `lessons 46 cards 5695 words 4639 bytes 1458161`.
 - `disassemble.py` — 역연산. HTML → out/*.json. 왕복 검증 완료(46파일 동일).
 - `audit.py out/setNN.json` — 기계 감사: 빈칸 유무, 예문 10단어 초과, 해설 72자 초과, meow 48자·'고양' 포함, **예문 어휘 통제**, ipa/tr/pos 누락, 단어 누락·순서, **중복(같은 단어·뜻 번호, 같은 뜻, 같은 예문)**. `audit.py --dups`는 전 세트 교차 중복(표제어가 여러 세트에, 같은 예문이 여러 카드에)을 보고한다. 파일명에 `set`이 있어야 한다(lesson 파일은 `audit.py`의 `tok_ok`를 import해서 따로 검사). 마지막 줄 `문제 0`이 통과.
+- `seam.py` — 이음새 감사(헌장 제5조): 레포의 세 HTML에서 표제어를 뽑아 LDV↔Fable↔마더텅↔EBS 겹침·공백을 낸다. `--list 마더텅only` 등으로 목록 출력.
 - `dump.py <json>` — 카드 한 줄씩 출력(`n [word/si] pos ko | ex | tr`). 검토용.
 - `apply.py <json> <edits.json>` — 편집 적용. edits는 `{"word/si": {"ex": "...", "tr": "...", "c": "...", "ko": "..."}}`. 적용 후 빈칸 확인, 어휘 경고(`VOCAB`), 해설 74자 경고(`C>74`), 미적중 키 보고.
 - `allowed.json` — `ldv`(2,183) · `used400` · `set0` · `fable`(23~45 단어 → 세트 번호). `whitelist.json` — 생활어 부록 50단어. `sets.json` — 5~22세트 단어 명단(순서 검사용). `fable/in/set23~45.json` — 23~45 입력 명단(순서 검사용). `fable_plan.json` — 합집합 배열 근거(COCA·votes·src).
