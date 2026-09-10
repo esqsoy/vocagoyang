@@ -14,6 +14,10 @@ for n in range(23,46):
     exs=json.load(open(f'out/set{n}.json'))
     S=exs[0]['name'].split('~')[0]; E=exs[-1]['name'].split('~')[1]
     data.append({"lesson":n,"label":f"{n}세트","name":f"합집합 {S}~{E}","exercises":exs})
+MORPH={46:"접사 — 파생을 읽는 규칙",47:"어근 — 라틴·그리스 렌즈 + 사촌 쌍"}
+for n in (46,47):
+    if os.path.exists(f'out/set{n}.json'):
+        data.append({"lesson":n,"label":f"{n}세트","name":MORPH[n],"exercises":json.load(open(f'out/set{n}.json'))})
 blob=json.dumps(data,ensure_ascii=False,separators=(',',':'))
 m=re.search(r'const DATA = (\[.*?\]);\n',src,re.S)
 new=src[:m.start(1)]+blob+src[m.end(1):]

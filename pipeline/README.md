@@ -69,6 +69,12 @@ Fable(0→4,639) + Mother Tongue(→약 8,200) = 95% 직독직해선. 그 위 **
 - 23~45세트: 위에 더해 `allowed.fable` 중 **세트 번호 ≤ 현재 세트**인 단어(누적 학습). `apply.py`의 `VOCAB` 경고는 참고용(누적 규칙을 모름), **`audit.py`의 `문제`가 관문**이다.
 - 예문 단어 수는 `[A-Za-z'{}]+` 토큰 기준 10개까지(빈칸 포함). 11개면 반려.
 
+### 3-0. 형태론 세트(46 접사 · 47 어근, 헌장 제7조)
+- 표제어 = 접사·어근 문자열(`un-`, `-ness`, `spect`). 앱은 하이픈을 지우고 비교하니 학생은 `un`을 친다. 빈칸엔 파생어의 나머지를 붙여 쓴다: `{{BLANK}}fair`, `kind{{BLANK}}`, `in{{BLANK}}or`.
+- 변이형은 표제어를 나눈다(in-/im-, -tion/-sion, scrib/script). 답이 하나여야 하기 때문.
+- 어휘 통제: 46·47세트는 Fable 전체 표제어 + `fable/in/setNN.json`의 `preview` 단어(마더텅에서 미리 당겨 온 단어) 허용. `audit.py`가 setno≥46이면 이 규칙을 쓴다. `assemble.py`는 out/set46·47.json이 있으면 붙인다(라벨 MORPH).
+- 생산: 26.9.10 워크플로(opus 에이전트, 청크당 생성→반박 검증) → `post46.py`(scratchpad)로 세트 JSON·명단 조립 → audit → assemble.
+
 ### 3-1. HTML만 있을 때 복원
 ```
 mkdir -p /home/claude/hoe-prod && cd /home/claude/hoe-prod

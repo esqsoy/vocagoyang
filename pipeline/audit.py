@@ -95,7 +95,13 @@ if __name__ == '__main__':
     if sys.argv[1] == '--dups': dups_all(); sys.exit()
     path = sys.argv[1]
     setno = int(re.search(r'set(\d+)', path).group(1))
-    if setno >= 23:
+    if setno >= 46:   # 형태론 세트(접사·어근): Fable 전체 표제어 + 명단의 preview 단어 허용
+        fab = allowed_data.get('fable', {})
+        ALLOWED |= set(fab)
+        spec = json.load(open(f'/home/claude/hoe-prod/fable/in/set{setno}.json'))
+        for x in spec: ALLOWED |= set(x.get('preview', []))
+        expected = [x['word'] for x in spec]
+    elif setno >= 23:
         fab = allowed_data.get('fable', {})
         ALLOWED |= {w for w, s in fab.items() if s <= setno}
         expected = [x['word'] for x in json.load(open(f'/home/claude/hoe-prod/fable/in/set{setno}.json'))]
