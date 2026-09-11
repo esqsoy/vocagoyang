@@ -412,6 +412,24 @@
     "new": "리포터 한 명이 우리 감독한테 그 경기에 대해 물었어.",
     "severity": "low",
     "problem": "tr '기자'는 journalist ①(기자, 언론인)과 겹침. ko에 이미 있는 '리포터'로 조이면 값싸게 분리됨."
+   },
+   {
+    "word": "wow",
+    "si": 1,
+    "field": "meow",
+    "old": "Wow, 와 소리는 아껴두라고양. 아직 멀었다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "4번 연습 meow가 1번(grade①)·3번(wow)·9번(impossible) 카드에 몰려 '다섯 카드당 하나 이하'를 넘음(grade①과 두 장 차이). wow 것을 빼면 1·9번으로 간격이 맞음."
+   },
+   {
+    "word": "cop",
+    "si": 1,
+    "field": "meow",
+    "old": "나는 단어 cop, 경찰이라고양. 다 지켜본다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "6번 연습 meow가 0번(lucky)·2번(cop)·8번(forever) 카드에 몰림. lucky와 두 장 차이인 cop 것을 빼면 0·8번으로 간격이 맞음."
    }
   ],
   "set25": [
@@ -895,6 +913,24 @@
     "new": "맨 앞줄은 부모님용으로 따로 잡아 둔 자리야.",
     "severity": "high",
     "problem": "예문 교체에 따른 번역. '따로 잡아 둔'으로 ko '따로 두다'와 닿고 save(아끼다)·keep(간직하다)과 갈라짐."
+   },
+   {
+    "word": "brilliant",
+    "si": 1,
+    "field": "meow",
+    "old": "brilliant, 뛰어나다고양. 흥, 한 번뿐이고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "brilliant(36번째)·honestly(38)·cookie(40) 세 카드가 다섯 카드 창 안에 meow 셋 — '다섯 카드당 하나 이하'(README 5절) 위반. honestly 것이 단어 뜻·갈굼이 가장 살아 있으니 이 카드 meow 필드 제거(감사 결과 meow 8, 문제 0)."
+   },
+   {
+    "word": "cookie",
+    "si": 1,
+    "field": "meow",
+    "old": "cookie, 과자 부스러기만 남기지 말라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "brilliant·honestly·cookie 세 카드가 다섯 카드 창 안에 meow 셋 — 밀도 위반. honestly 것을 남기고 이 카드 meow 필드 제거."
    }
   ],
   "set28": [
