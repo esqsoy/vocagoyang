@@ -21,14 +21,14 @@ Fable(0→4,639) + Mother Tongue(→약 8,200) = 95% 직독직해선. 그 위 **
 - 공개 주소: https://esqsoy.github.io/vocagoyang/ · 레포: https://github.com/esqsoy/vocagoyang
 - 파일:
   - `index.html` — 교재 선택 화면(FABLE 5000 / MOTHERTONGUE 2027 / EBS 수특 2027 세 카드, 누적 단어수·직독직해선 95% 표기).
-  - `vocagoyangfable.html` — **본체.** 단일 HTML(약 1.87MB), 안에 `const DATA = [...]` 블롭으로 48레슨 5,945카드(어휘 5,695 + 형태론 46·47세트 250)가 들어 있다.
+  - `vocagoyangfable.html` — **본체.** 단일 HTML(약 1.52MB), 안에 `const DATA = [...]` 블롭으로 48레슨 6,002카드(어휘 5,752 + 형태론 46·47세트 250)가 들어 있다.
   - `vocagoyangksat2027.html`, `vocagoyangebs2027.html` — 마더텅·EBS 옛 앱(별도 계보, 이번 인수인계 범위 밖).
   - `vocagoyanghoe.html` — 옛 이름의 리다이렉트 스텁. 영신이 GitHub에서 삭제하기로 함(26.9.9). 진행 저장 키(`goyang-hoe-seoul-v1`)는 그대로라 기존 진도는 보존된다.
 - 설계 원본: 아티팩트 **보카고양 설계 헌장 v2.4(프로토타입 — 빠진 건 대화로 버전업)** https://claude.ai/code/artifact/51fbcefc-3a5a-4fcd-a75c-e7870698df5a (제0~7조 + 부록 A~G; 제7조 접사·어근·어족은 데스크 제안, 영신 결정 대기). 카드 규칙·말투·층 구조·미결 사항이 여기 있다. 헌장과 이 문서가 다르면 헌장이 원칙, 이 문서가 현재 상태.
 
 ## 2. 데이터 구조
 
-레슨(세트) 48개(0~45 어휘 + 46 접사 + 47 어근), 카드 5,957장, 어휘 표제어 4,639개(+ 형태론 표제어 88: 접사 34·어근 36·사촌 쌍 18).
+레슨(세트) 48개(0~45 어휘 + 46 접사 + 47 어근), 카드 6,002장, 어휘 표제어 4,639개(+ 형태론 표제어 88: 접사 34·어근 36·사촌 쌍 18).
 
 | 레슨 | 라벨 | 내용 | 배열 |
 |---|---|---|---|
@@ -57,7 +57,7 @@ Fable(0→4,639) + Mother Tongue(→약 8,200) = 95% 직독직해선. 그 위 **
 
 파일:
 - `out/lesson00~04.json`(dict: lesson/label/name/exercises), `out/set05~45.json`(exercises 리스트) — **카드 원본.** 편집은 여기에 하고 HTML은 조립해서 만든다. (`out/lesson00b.json`은 0세트 작업 중간본, 무시.)
-- `assemble.py` — out/*.json → HTML의 DATA 블롭 교체. `cd /home/claude/hoe-prod && python3 assemble.py` (상대경로라 반드시 이 폴더에서). 출력 예: `lessons 48 cards 5957 words 4713 bytes 1516479` (words엔 형태론 표제어 88이 포함되니 어휘 표제어는 4,639).
+- `assemble.py` — out/*.json → HTML의 DATA 블롭 교체. `cd /home/claude/hoe-prod && python3 assemble.py` (상대경로라 반드시 이 폴더에서). 출력 예: `lessons 48 cards 6002 words 4713 bytes 1519421` (words엔 형태론 표제어 88이 포함되니 어휘 표제어는 4,639).
 - `disassemble.py` — 역연산. HTML → out/*.json. 왕복 검증 완료(46파일 동일).
 - `audit.py out/setNN.json` — 기계 감사: 빈칸 유무, 예문 10단어 초과, 해설 72자 초과, meow 48자·'고양' 포함, **예문 어휘 통제**, ipa/tr/pos 누락, 단어 누락·순서, **중복(같은 단어·뜻 번호, 같은 뜻, 같은 예문)**. `audit.py --dups`는 전 세트 교차 중복(표제어가 여러 세트에, 같은 예문이 여러 카드에)을 보고한다. 파일명에 `set`이 있어야 한다(lesson 파일은 `audit.py`의 `tok_ok`를 import해서 따로 검사). 마지막 줄 `문제 0`이 통과.
 - `seam.py` — 이음새 감사(헌장 제5조): 레포의 세 HTML에서 표제어를 뽑아 LDV↔Fable↔마더텅↔EBS 겹침·공백을 낸다. `--list 마더텅only` 등으로 목록 출력.
@@ -128,7 +128,7 @@ git add vocagoyangfable.html && git commit -m "…"
 4. 명시 동의어표 `SYN` 신설(4절 끝의 67쌍이 초기 값). 26.9.9 추가 후보: address/handle(다루다), address/speech(연설), get/arrive(도착하다), kind/sort/type.
 5. 접사·어근(헌장 제7조) — ① 접사 46세트·② 어근 47세트(사촌 쌍 포함) **완료(26.9.10)**. 남은 것: ③ 어족 묶어 돌리기 모드(앱, 단어 뷰와 함께), ④-2 불규칙 동사 패턴·④-3 구동사↔라틴 동사 대응(③의 갈래), ④-4 register(단어 뷰). 사양·후처리 스크립트는 `fable/morph/`.
 6. 단어 뷰(한 단어의 모든 뜻을 층 배지와 함께 조망) — 설계 확정, 구현 시점 미정. 헌장 제7조 ③ 어족 묶어 돌리기와 같은 앱 작업.
-9. **직검수 구조 지적(뜻 누락) 45건** — `fable/review/직검수_260911.json`의 structural 중 done 없는 항목. 26.9.11 기준 5~22세트 몫(have to·접속사 yet·이유의 as/for·수단의 through·가정법 would·suggest 시사·be based on·key adj·promise/trust n·fear v·property 속성·rise n·charge 충전·poor 형편없는·bear 지다·raw 가공 전·favor/trick v·advance v·opposite n·appearance 출현·suppose 분리·practice 관행·serve as·harm/delay n·conscious·stem from·coin v 등). 영신 "다 넣어" 승인 시 빠진 뜻 카드 워크플로(생성→반박 검증, `fable/morph/`의 절차와 동일)로 일괄 신설.
+9. ~~**직검수 구조 지적(뜻 누락) 45건**~~ — 완료(26.9.11, 45/45 신설, 5,957 → 6,002). 초안(Fable 워크플로)→반박·기계 검증(opus 4청크, 45/45 통과, 수정 20여 건: bear tr·poor ko·light sn·act/key/coin 중의성·delay/serve/raw/deal/rise/novel/keen 예문 소재 중복 교체·present 품사 분리·have pos 등)→`insert_cards.py`(형제 카드 뒤 삽입, sn 갱신, sibling_updates 적용). `fable/review/직검수_260911.json` structural 전 항목 done. 남은 메모: light ④ (색이) 연한 카드는 미신설(만들면 light 네 장 sn=4), bear '열매 맺다/명심하다'는 ③ c 연어로 흡수.
 10. 기초 1~4세트 예문 어휘 경고(감사기 밖이라 미반려): lesson01 work② anymore, love③ endless, real① fake. LDV 밖 단어 — 교체 여부 결정.
 7. 영/미 IPA 병기 — 보류(원하면 `ipa_uk` 필드).
 8. 생활어 부록 추가 후보(crazy, toward·inward·backward) — 이미 카드로 존재하므로 whitelist 반영 여부만 확인.

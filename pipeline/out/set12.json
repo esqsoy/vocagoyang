@@ -885,7 +885,7 @@
 "pos": "n.",
 "word": "bear",
 "si": 1,
-"sn": 2,
+"sn": 3,
 "meow": "BIG MOUNTAIN의 bear, 곰도 나는 못 이긴다고양."
 },
 {
@@ -898,7 +898,19 @@
 "pos": "v.",
 "word": "bear",
 "si": 2,
-"sn": 2
+"sn": 3
+},
+{
+"en": "bear",
+"ko": "③ (책임·비용을) 지다",
+"ex": "Who will {{BLANK}} the cost of this?",
+"tr": "이 비용은 누가 짊어질 거야?",
+"c": "무게를 짊어지다. bear the cost 비용을 지다, bear fruit 열매 맺다, bear in mind 명심하다.",
+"ipa": "bɛr",
+"pos": "v.",
+"word": "bear",
+"si": 3,
+"sn": 3
 },
 {
 "en": "meal",
@@ -1146,7 +1158,19 @@
 "pos": "n.",
 "word": "appearance",
 "si": 1,
-"sn": 1
+"sn": 2
+},
+{
+"en": "appearance",
+"ko": "② 출현, 등장",
+"ex": "The singer made a surprise {{BLANK}} at the show.",
+"tr": "그 가수가 공연에 깜짝 등장했어.",
+"c": "appear의 두 뜻 그대로: 보이다→외모(①), 나타나다→등장(②). make an appearance 얼굴을 비추다.",
+"ipa": "əˈpɪrəns",
+"pos": "n.",
+"word": "appearance",
+"si": 2,
+"sn": 2
 },
 {
 "en": "excellent",
@@ -1379,15 +1403,27 @@
 },
 {
 "en": "suppose",
-"ko": "① 추측하다; (be supposed to) ~하기로 되어 있다",
-"ex": "You are {{BLANK}}d to be in class now.",
-"tr": "너 지금 수업 중이어야 하잖아.",
-"c": "확신 낮은 '아마 ~일걸'. be supposed to(~하기로 되어 있다)도 필수.",
+"ko": "① 추측하다, 아마 ~일걸",
+"ex": "I {{BLANK}} she's just tired.",
+"tr": "걔 그냥 피곤한 걸 거야, 아마.",
+"c": "확신 낮은 '아마 ~일걸'. I suppose so = 아마 그럴걸. be supposed to는 ②.",
 "ipa": "səˈpoʊz",
 "pos": "v.",
 "word": "suppose",
 "si": 1,
-"sn": 1
+"sn": 2
+},
+{
+"en": "suppose",
+"ko": "② (be supposed to) ~하기로 되어 있다",
+"ex": "You are {{BLANK}}d to be in class now.",
+"tr": "너 지금 수업 중이어야 하잖아.",
+"c": "be supposed to+동사원형: 규칙·약속상 '~하기로 되어 있다'. 수동 꼴에 속지 마라.",
+"ipa": "səˈpoʊz",
+"pos": "v.",
+"word": "suppose",
+"si": 2,
+"sn": 2
 },
 {
 "en": "fruit",

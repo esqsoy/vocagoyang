@@ -255,7 +255,7 @@
 "pos": "v.",
 "word": "have",
 "si": 1,
-"sn": 3
+"sn": 4
 },
 {
 "en": "have",
@@ -267,7 +267,7 @@
 "pos": "v.",
 "word": "have",
 "si": 2,
-"sn": 3
+"sn": 4
 },
 {
 "en": "have",
@@ -279,7 +279,19 @@
 "pos": "aux.",
 "word": "have",
 "si": 3,
-"sn": 3
+"sn": 4
+},
+{
+"en": "have",
+"ko": "④ (have to) ~해야 한다",
+"ex": "I {{BLANK}} to get up early tomorrow.",
+"tr": "나 내일 일찍 일어나야 돼.",
+"c": "have to = must의 구어. 과거 had to, 부정 don't have to는 '안 해도 된다'(금지 아님).",
+"ipa": "hæv",
+"pos": "v.",
+"word": "have",
+"si": 4,
+"sn": 4
 }
 ]
 },
@@ -333,7 +345,7 @@
 "pos": "prep.",
 "word": "for",
 "si": 1,
-"sn": 2
+"sn": 3
 },
 {
 "en": "for",
@@ -345,7 +357,19 @@
 "pos": "prep.",
 "word": "for",
 "si": 2,
-"sn": 2
+"sn": 3
+},
+{
+"en": "for",
+"ko": "③ (이유) ~해서, ~에 대해",
+"ex": "Thank you {{BLANK}} helping me today.",
+"tr": "오늘 도와줘서 고마워.",
+"c": "고맙다·미안하다·유명하다의 이유는 for: thank for, sorry for, famous for. '~해서'로 옮긴다.",
+"ipa": "fɔr",
+"pos": "prep.",
+"word": "for",
+"si": 3,
+"sn": 3
 },
 {
 "en": "do",
@@ -731,7 +755,7 @@
 "pos": "prep.",
 "word": "as",
 "si": 1,
-"sn": 3
+"sn": 4
 },
 {
 "en": "as",
@@ -743,7 +767,7 @@
 "pos": "conj.",
 "word": "as",
 "si": 2,
-"sn": 3
+"sn": 4
 },
 {
 "en": "as",
@@ -755,8 +779,20 @@
 "pos": "adv.",
 "word": "as",
 "si": 3,
-"sn": 3,
+"sn": 4,
 "meow": "나만큼 큰 산은 BIG MOUNTAIN뿐이라고양. '만큼'은 as고양."
+},
+{
+"en": "as",
+"ko": "④ (이유) ~해서, ~때문에",
+"ex": "{{BLANK}} the line was long, we left the store.",
+"tr": "줄이 길어서 우린 그 가게에서 나왔어.",
+"c": "문장 앞 As+주어+동사는 '~해서'(이유). because보다 가벼운 이유를 댄다.",
+"ipa": "æz",
+"pos": "conj.",
+"word": "as",
+"si": 4,
+"sn": 4
 },
 {
 "en": "if",
@@ -954,7 +990,7 @@
 "pos": "aux.",
 "word": "would",
 "si": 1,
-"sn": 2
+"sn": 3
 },
 {
 "en": "would",
@@ -966,7 +1002,19 @@
 "pos": "aux.",
 "word": "would",
 "si": 2,
-"sn": 2
+"sn": 3
+},
+{
+"en": "would",
+"ko": "③ (if절과 함께) ~할 텐데 (가정)",
+"ex": "If I were you, I {{BLANK}} take the job.",
+"tr": "내가 너라면 난 그 일을 맡을 텐데.",
+"c": "If I were you, I would ~: 현실이 아닌 가정. if절은 과거형(were), 주절은 would.",
+"ipa": "wʊd",
+"pos": "aux.",
+"word": "would",
+"si": 3,
+"sn": 3
 },
 {
 "en": "just",
@@ -1611,7 +1659,19 @@
 "pos": "prep.",
 "word": "through",
 "si": 1,
-"sn": 1
+"sn": 2
+},
+{
+"en": "through",
+"ko": "② (수단·매개) ~을 통해서",
+"ex": "I got this job {{BLANK}} a friend.",
+"tr": "이 일자리 친구를 통해서 구했어.",
+"c": "통과의 그림이 수단으로: 친구를 거쳐서. by는 방법·수단, through는 거치는 경로·사람·과정.",
+"ipa": "θru",
+"pos": "prep.",
+"word": "through",
+"si": 2,
+"sn": 2
 },
 {
 "en": "over",
@@ -2083,7 +2143,7 @@
 "pos": "adv.",
 "word": "yet",
 "si": 1,
-"sn": 2
+"sn": 3
 },
 {
 "en": "yet",
@@ -2095,8 +2155,20 @@
 "pos": "adv.",
 "word": "yet",
 "si": 2,
-"sn": 2,
+"sn": 3,
 "meow": "Is it here yet? 벌써 왔냐고양? 피자 기다릴 땐 1분이 한 시간이고양."
+},
+{
+"en": "yet",
+"ko": "③ (접속사) 그런데도, 그렇지만",
+"ex": "It's so cold, and {{BLANK}} she wears shorts.",
+"tr": "엄청 추운데, 그런데도 걔는 반바지를 입어.",
+"c": "접속사 yet은 but보다 '놀랍게도'가 강한 그런데도. and yet, simple yet strong 꼴이 단골.",
+"ipa": "jɛt",
+"pos": "conj.",
+"word": "yet",
+"si": 3,
+"sn": 3
 }
 ]
 }
