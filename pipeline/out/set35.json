@@ -1,7 +1,7 @@
 [
 {
 "ex": 1,
-"name": "1201~1210",
+"name": "3384~3393",
 "words": [
 {
 "en": "freely",
@@ -77,7 +77,7 @@
 },
 {
 "en": "wagon",
-"ko": "① 짐마차, 수레",
+"ko": "① 짐마차",
 "ex": "A horse pulled the {{BLANK}} up the hill.",
 "tr": "말 한 마리가 그 짐마차를 언덕 위로 끌었어.",
 "c": "말이 끄는 짐수레. 미국에서는 station wagon(승용차)도 이렇게 부른다.",
@@ -113,7 +113,7 @@
 },
 {
 "en": "embarrassed",
-"ko": "① 부끄러운, 창피한",
+"ko": "① 민망한, 쑥스러운",
 "ex": "I was so {{BLANK}} when I fell down.",
 "tr": "나 넘어졌을 때 진짜 민망했어.",
 "c": "사람이 창피하면 -ed, 창피하게 만드는 쪽은 embarrassing이다.",
@@ -123,18 +123,6 @@
 "si": 1,
 "sn": 1,
 "meow": "embarrassed, 창피하냐고양? 그럼 외우라고양."
-},
-{
-"en": "trillion",
-"ko": "① 1조",
-"ex": "The country owes over one {{BLANK}} dollars.",
-"tr": "그 나라는 1조 달러 넘게 빚지고 있어.",
-"c": "billion(10억)의 천 배. 숫자 뒤에서는 -s를 붙이지 않는다.",
-"ipa": "ˈtrɪljən",
-"pos": "num.",
-"word": "trillion",
-"si": 1,
-"sn": 1
 },
 {
 "en": "breeze",
@@ -158,14 +146,13 @@
 "pos": "n.",
 "word": "breeze",
 "si": 2,
-"sn": 2,
-"meow": "이건 breeze, 아주 쉬운 일이라고양. 진짜라고양."
+"sn": 2
 }
 ]
 },
 {
 "ex": 2,
-"name": "1211~1220",
+"name": "3394~3403",
 "words": [
 {
 "en": "venue",
@@ -181,9 +168,9 @@
 },
 {
 "en": "disturbing",
-"ko": "① 충격적인, 불안하게 하는",
+"ko": "① 불안하게 하는, 충격적인",
 "ex": "That movie had some really {{BLANK}} scenes.",
-"tr": "그 영화엔 진짜 충격적인 장면이 좀 있었어.",
+"tr": "그 영화엔 진짜 마음이 불안해지는 장면이 좀 있었어.",
 "c": "disturb(불안하게 하다)+-ing. 보고 나서 마음이 불편해지는 것이다.",
 "ipa": "dɪˈstɝbɪŋ",
 "pos": "adj.",
@@ -292,7 +279,7 @@
 "en": "breathing",
 "ko": "① 호흡, 숨쉬기",
 "ex": "Her {{BLANK}} got faster as she ran.",
-"tr": "걔는 뛰면서 호흡이 빨라졌어.",
+"tr": "걔는 뛰면서 숨 쉬는 게 빨라졌어.",
 "c": "breathe(숨쉬다)+-ing. 명사 breath와 발음이 다르니 조심.",
 "ipa": "ˈbriðɪŋ",
 "pos": "n.",
@@ -316,7 +303,7 @@
 },
 {
 "ex": 3,
-"name": "1221~1230",
+"name": "3404~3413",
 "words": [
 {
 "en": "monument",
@@ -393,7 +380,7 @@
 },
 {
 "en": "softly",
-"ko": "① 부드럽게, 조용히",
+"ko": "① 나직이, 부드럽게",
 "ex": "He spoke {{BLANK}} so the baby could sleep.",
 "tr": "걔는 아기가 잘 수 있게 나직이 말했어.",
 "c": "soft(부드러운)+ly. speak[knock] softly처럼 소리가 작을 때 쓴다.",
@@ -413,8 +400,7 @@
 "pos": "n.",
 "word": "graduation",
 "si": 1,
-"sn": 1,
-"meow": "graduation, 졸업은 마지막 단어 뒤에 있다고양."
+"sn": 1
 },
 {
 "en": "consecutive",
@@ -433,18 +419,30 @@
 "ko": "① 업그레이드하다, 개선하다",
 "ex": "I want to {{BLANK}} my old phone.",
 "tr": "나 오래된 내 폰을 업그레이드하고 싶어.",
-"c": "명사와 동사가 같은 꼴이다. 반대말은 downgrade(등급을 낮추다).",
+"c": "명사(② 업그레이드)와 같은 꼴이다. 반대말은 downgrade(등급을 낮추다).",
 "ipa": "ˈʌpɡreɪd",
 "pos": "v.",
 "word": "upgrade",
 "si": 1,
-"sn": 1
+"sn": 2
+},
+{
+"en": "upgrade",
+"ko": "② 업그레이드, 등급 상향",
+"ex": "We got a free {{BLANK}} to a bigger room.",
+"tr": "우리 더 큰 방으로 무료 업그레이드 받았어.",
+"c": "동사와 같은 꼴, 강세도 앞. get a free upgrade(무료 업그레이드를 받다) 꼴로 자주 쓴다.",
+"ipa": "ˈʌpɡreɪd",
+"pos": "n.",
+"word": "upgrade",
+"si": 2,
+"sn": 2
 },
 {
 "en": "accurately",
 "ko": "① 정확하게",
 "ex": "The app counts my steps quite {{BLANK}}.",
-"tr": "그 앱은 내 걸음 수를 꽤 정밀하게 세.",
+"tr": "그 앱은 내 걸음 수를 거의 오차 없이 정확하게 세.",
 "c": "accurate(정확한)+ly. 사실과 어긋남이 없다는 뜻이다.",
 "ipa": "ˈækjərətli",
 "pos": "adv.",
@@ -456,7 +454,7 @@
 },
 {
 "ex": 4,
-"name": "1231~1240",
+"name": "3414~3423",
 "words": [
 {
 "en": "casualty",
@@ -472,7 +470,7 @@
 },
 {
 "en": "risky",
-"ko": "① 위험한",
+"ko": "① 위험 부담이 큰, 위험한",
 "ex": "Riding a bike without a helmet is {{BLANK}}.",
 "tr": "헬멧 없이 자전거 타는 건 위험 부담이 커.",
 "c": "risk(위험)+-y. 나쁜 일이 생길 가능성이 있다는 뜻으로 두루 쓴다.",
@@ -485,8 +483,8 @@
 {
 "en": "rack",
 "ko": "① 선반, 걸이",
-"ex": "Put your wet shoes on the {{BLANK}}.",
-"tr": "젖은 신발은 그 신발 걸이대에 놔.",
+"ex": "Put your wet shoes on the shoe {{BLANK}}.",
+"tr": "젖은 신발은 신발 걸이대에 놔.",
 "c": "물건을 걸거나 얹는 틀. rack one's brain은 '머리를 쥐어짜다'.",
 "ipa": "ræk",
 "pos": "n.",
@@ -594,7 +592,7 @@
 },
 {
 "ex": 5,
-"name": "1241~1250",
+"name": "3424~3433",
 "words": [
 {
 "en": "eyebrow",
@@ -619,8 +617,7 @@
 "pos": "n.",
 "word": "vocabulary",
 "si": 1,
-"sn": 1,
-"meow": "네 vocabulary, 어휘는 아직 구멍투성이라고양."
+"sn": 1
 },
 {
 "en": "stunning",
@@ -687,7 +684,7 @@
 "en": "align",
 "ko": "② (입장을) 같이하다",
 "ex": "Our goals {{BLANK}} with the club's new plan.",
-"tr": "우리 목표는 그 동아리의 새 계획과 맞아.",
+"tr": "우리 목표는 그 동아리 새 계획과 방향이 같아.",
 "c": "align with는 뜻·방향이 맞다는 말. 목표·계획도 주어가 된다.",
 "ipa": "əˈlaɪn",
 "pos": "v.",
@@ -705,14 +702,13 @@
 "pos": "n.",
 "word": "textbook",
 "si": 1,
-"sn": 2,
-"meow": "textbook, 교과서를 베개로 쓰지 말라고양."
+"sn": 2
 },
 {
 "en": "textbook",
-"ko": "② 전형적인, 교과서적인",
+"ko": "② 교과서적인, 전형적인",
 "ex": "His answer was a {{BLANK}} example of good writing.",
-"tr": "걔의 답은 좋은 글쓰기의 전형적인 예였어.",
+"tr": "걔의 답은 좋은 글쓰기의 교과서적인 예였어.",
 "c": "a textbook example[case]가 대표 연어다. 명사 앞에서만 쓴다.",
 "ipa": "ˈtɛkstbʊk",
 "pos": "adj.",
@@ -773,7 +769,7 @@
 },
 {
 "ex": 6,
-"name": "1251~1260",
+"name": "3434~3443",
 "words": [
 {
 "en": "know-how",
@@ -813,11 +809,11 @@
 },
 {
 "en": "set-to",
-"ko": "① 말다툼, 한바탕 싸움",
+"ko": "① 실랑이, 한바탕 다툼",
 "ex": "They had a little {{BLANK}} over the game.",
-"tr": "걔네는 그 게임 때문에 한바탕 말다툼을 했어.",
+"tr": "걔네는 그 게임 때문에 한바탕 실랑이를 벌였어.",
 "c": "informal. have a set-to 꼴로 쓰며 가벼운 다툼을 뜻한다.",
-"ipa": "ˌsɛtˈtu",
+"ipa": "ˈsɛtˌtu",
 "pos": "n.",
 "word": "set-to",
 "si": 1,
@@ -825,9 +821,9 @@
 },
 {
 "en": "making",
-"ko": "① 만들기, 제작",
+"ko": "① 만들기, 만드는 과정",
 "ex": "The {{BLANK}} of that movie took five years.",
-"tr": "그 영화 제작에는 5년이 걸렸어.",
+"tr": "그 영화 만드는 데 5년이 걸렸어.",
 "c": "make+-ing. in the making은 '만들어지는 중인'이라는 뜻이다.",
 "ipa": "ˈmeɪkɪŋ",
 "pos": "n.",
@@ -885,7 +881,7 @@
 },
 {
 "en": "well-known",
-"ko": "① 유명한, 잘 알려진",
+"ko": "① 잘 알려진",
 "ex": "This street is {{BLANK}} for its cheap food.",
 "tr": "이 거리는 싼 음식으로 잘 알려져 있어.",
 "c": "well+known. be well-known for(~로 유명하다)가 대표 연어다.",
@@ -911,7 +907,7 @@
 },
 {
 "ex": 7,
-"name": "1261~1270",
+"name": "3444~3453",
 "words": [
 {
 "en": "working-class",
@@ -1011,9 +1007,9 @@
 },
 {
 "en": "winning",
-"ko": "② 매력적인",
+"ko": "② (마음을) 사로잡는, 매력적인",
 "ex": "He has a {{BLANK}} smile that everybody likes.",
-"tr": "걔는 모두가 좋아하는 매력적인 미소를 지녔어.",
+"tr": "걔는 모두가 좋아하는, 마음을 사로잡는 미소를 지녔어.",
 "c": "a winning smile[way]로 굳어져 쓴다. 사람을 끄는 매력을 뜻한다.",
 "ipa": "ˈwɪnɪŋ",
 "pos": "adj.",
@@ -1061,7 +1057,7 @@
 },
 {
 "ex": 8,
-"name": "1271~1280",
+"name": "3454~3463",
 "words": [
 {
 "en": "latest",
@@ -1116,7 +1112,7 @@
 "ko": "① 덮인, 뒤덮인",
 "ex": "The whole yard was {{BLANK}} in snow.",
 "tr": "마당 전체가 눈으로 덮여 있었어.",
-"c": "be covered in[with] ~ 꼴로 쓴다. by를 쓰지 않도록 조심해라.",
+"c": "눈·먼지처럼 겉을 뒤덮는 것은 be covered in[with] ~로 쓴다. by는 행위자가 있을 때.",
 "ipa": "ˈkʌvɚd",
 "pos": "adj.",
 "word": "covered",
@@ -1150,8 +1146,8 @@
 {
 "en": "prepared",
 "ko": "① 준비된",
-"ex": "Are you {{BLANK}} for the history test tomorrow?",
-"tr": "너 내일 역사 시험 대비됐어?",
+"ex": "She was well {{BLANK}} for the history test.",
+"tr": "걔는 역사 시험 준비를 잘 해 뒀어.",
 "c": "be prepared for+명사. prepare(준비하다)의 과거분사꼴이다.",
 "ipa": "prɪˈpɛrd",
 "pos": "adj.",
@@ -1199,13 +1195,13 @@
 },
 {
 "ex": 9,
-"name": "1281~1290",
+"name": "3464~3473",
 "words": [
 {
 "en": "intended",
 "ko": "① 의도된, ~을 위한",
-"ex": "This book is {{BLANK}} for young readers.",
-"tr": "이 책은 어린 독자들을 위한 거야.",
+"ex": "The joke didn't have the {{BLANK}} effect.",
+"tr": "그 농담은 의도한 효과를 못 냈어.",
 "c": "be intended for(~용이다), be intended to+동사원형으로 쓴다.",
 "ipa": "ɪnˈtɛndɪd",
 "pos": "adj.",
@@ -1271,7 +1267,7 @@
 "pos": "adj.",
 "word": "sub",
 "si": 1,
-"sn": 2
+"sn": 3
 },
 {
 "en": "sub",
@@ -1283,7 +1279,19 @@
 "pos": "n.",
 "word": "sub",
 "si": 2,
-"sn": 2
+"sn": 3
+},
+{
+"en": "sub",
+"ko": "③ (긴 빵) 서브 샌드위치",
+"ex": "I ordered a foot-long {{BLANK}} at Subway.",
+"tr": "서브웨이에서 30센티짜리 서브를 시켰어.",
+"c": "submarine(잠수함) 모양 긴 샌드위치라 sub. 미국 고교생 점심 단골 메뉴.",
+"ipa": "sʌb",
+"pos": "n.",
+"word": "sub",
+"si": 3,
+"sn": 3
 },
 {
 "en": "cutting",
@@ -1325,7 +1333,7 @@
 "en": "singing",
 "ko": "① 노래하기, 노래 부르기",
 "ex": "Her {{BLANK}} filled the whole gym.",
-"tr": "걔의 노랫소리가 체육관 전체를 채웠어.",
+"tr": "걔가 노래하는 소리가 체육관 전체를 채웠어.",
 "c": "sing+-ing. singing lessons(노래 수업)처럼 앞에 붙기도 한다.",
 "ipa": "ˈsɪŋɪŋ",
 "pos": "n.",
@@ -1337,7 +1345,7 @@
 },
 {
 "ex": 10,
-"name": "1291~1300",
+"name": "3474~3483",
 "words": [
 {
 "en": "left-wing",
@@ -1449,7 +1457,7 @@
 },
 {
 "en": "injured",
-"ko": "① 다친, 부상당한",
+"ko": "① 부상당한, 다친",
 "ex": "Two players were {{BLANK}} in the last game.",
 "tr": "지난 경기에서 선수 두 명이 부상당했어.",
 "c": "injure+-ed. hurt보다 격식 있고 사고나 경기 부상에 쓴다.",
@@ -1463,7 +1471,7 @@
 "en": "organized",
 "ko": "① 조직된, 체계적인",
 "ex": "The trip was well {{BLANK}} from start to finish.",
-"tr": "그 여행은 처음부터 끝까지 잘 짜여 있었어.",
+"tr": "그 여행은 처음부터 끝까지 체계가 잘 잡혀 있었어.",
 "c": "organize+-ed. 영국식은 organised로 s를 쓴다.",
 "ipa": "ˈɔrɡənaɪzd",
 "pos": "adj.",

@@ -19,7 +19,7 @@
 "en": "harm",
 "ko": "① 해치다, 상하게 하다",
 "ex": "Too much sun can {{BLANK}} your skin.",
-"tr": "햇볕을 너무 쬐면 피부에 해가 될 수 있어.",
+"tr": "햇볕을 너무 쬐면 피부를 해칠 수 있어.",
 "c": "harmful 해로운, harmless 무해한. 명사도 됨: do harm 해를 끼치다.",
 "ipa": "hɑrm",
 "pos": "v.",
@@ -50,7 +50,7 @@
 "word": "calm",
 "si": 2,
 "sn": 2,
-"meow": "화날수록 고양이처럼 calm down 하라고양."
+"meow": "화날수록 고양이처럼 calm down, 진정하라고양."
 },
 {
 "en": "flesh",
@@ -91,8 +91,8 @@
 {
 "en": "steady",
 "ko": "① 흔들리지 않는, 꾸준한",
-"ex": "Hold the camera {{BLANK}}, please.",
-"tr": "카메라 흔들리지 않게 잡아 줘.",
+"ex": "Slow and {{BLANK}} wins the race.",
+"tr": "느려도 꾸준한 쪽이 결국 경주에서 이기는 거야.",
 "c": "steady job 안정된 직장, steady rain 꾸준한 비. 한결같음이 핵심.",
 "ipa": "ˈstɛdi",
 "pos": "adj.",
@@ -158,7 +158,7 @@
 "en": "entrance",
 "ko": "① 입구, 입장",
 "ex": "I'll wait at the main {{BLANK}}.",
-"tr": "정문 입구에서 기다릴게.",
+"tr": "중앙 입구에서 기다릴게.",
 "c": "enter의 명사. the entrance to ~의 입구. 나가는 곳은 exit. entrance exam 입학시험.",
 "ipa": "ˈɛntrəns",
 "pos": "n.",
@@ -201,7 +201,7 @@
 "word": "pile",
 "si": 1,
 "sn": 1,
-"meow": "빨래 pile 위가 세상에서 제일 폭신하다고양."
+"meow": "빨래 pile, 더미 위가 세상에서 제일 폭신하다고양."
 },
 {
 "en": "explosion",
@@ -262,7 +262,7 @@
 "word": "shelf",
 "si": 1,
 "sn": 1,
-"meow": "높은 shelf 위 물건은 떨어뜨리라고 있는 거라고양."
+"meow": "높은 shelf, 선반 위 물건은 떨어뜨리라고 있는 거라고양."
 }
 ]
 },
@@ -383,14 +383,14 @@
 "en": "shine",
 "ko": "① 빛나다, 반짝이다",
 "ex": "The stars {{BLANK}} bright tonight.",
-"tr": "오늘 밤은 별이 유난히 반짝이네.",
+"tr": "오늘 밤은 별이 유난히 밝게 빛나네.",
 "c": "shine-shone-shone. 스스로 빛나거나 구두처럼 반사로 반짝이는 것.",
 "ipa": "ʃaɪn",
 "pos": "v.",
 "word": "shine",
 "si": 1,
 "sn": 1,
-"meow": "고양이 눈은 어둠 속에서도 shine한다고양."
+"meow": "고양이 눈은 어둠 속에서도 shine, 빛난다고양."
 },
 {
 "en": "actress",
@@ -433,7 +433,7 @@
 "word": "shade",
 "si": 1,
 "sn": 1,
-"meow": "여름 낮잠 명당은 나무 shade 밑이라고양."
+"meow": "여름 낮잠 명당은 나무 shade, 그늘 밑이라고양."
 },
 {
 "en": "meter",
@@ -542,7 +542,7 @@
 "word": "tire",
 "si": 2,
 "sn": 2,
-"meow": "낮잠을 걸렀으니까 금방 tire되는 거라고양."
+"meow": "낮잠을 걸렀으니 금방 tire, 지치는 거라고양. 핑계 아니고양."
 }
 ]
 },
@@ -645,7 +645,7 @@
 "word": "flame",
 "si": 1,
 "sn": 1,
-"meow": "flame 근처에선 수염부터 타니까 조심하라고양."
+"meow": "flame, 불꽃 근처에선 수염부터 타니까 조심하라고양."
 },
 {
 "en": "float",
@@ -699,7 +699,7 @@
 "pos": "adj.",
 "word": "plain",
 "si": 1,
-"sn": 2
+"sn": 3
 },
 {
 "en": "plain",
@@ -711,7 +711,19 @@
 "pos": "n.",
 "word": "plain",
 "si": 2,
-"sn": 2
+"sn": 3
+},
+{
+"en": "plain",
+"ko": "③ (말·글이) 평이한, 분명한",
+"ex": "Explain it in {{BLANK}} English, please.",
+"tr": "평이한 영어로 설명해 줘.",
+"c": "꾸밈없이 알아듣기 쉬운. plain English(쉬운 영어), plain truth(명백한 사실).",
+"ipa": "pleɪn",
+"pos": "adj.",
+"word": "plain",
+"si": 3,
+"sn": 3
 },
 {
 "en": "leather",
@@ -728,8 +740,8 @@
 {
 "en": "barrel",
 "ko": "① (배가 불룩한) 큰 통",
-"ex": "They store oil in big {{BLANK}}s.",
-"tr": "석유는 큰 통에 담아 보관해.",
+"ex": "They keep the wine in big wooden {{BLANK}}s.",
+"tr": "와인은 커다란 나무통에 담아 보관해.",
 "c": "",
 "ipa": "ˈbærəl",
 "pos": "n.",
@@ -748,7 +760,7 @@
 "word": "trap",
 "si": 1,
 "sn": 2,
-"meow": "쥐는 trap 말고 고양이한테 맡기라고양."
+"meow": "쥐는 trap, 덫 말고 고양이한테 맡기라고양."
 },
 {
 "en": "trap",
@@ -809,7 +821,7 @@
 "word": "stroke",
 "si": 1,
 "sn": 2,
-"meow": "stroke는 턱 밑부터, 꼬리는 금지라고양."
+"meow": "stroke, 쓰다듬기는 턱 밑부터. 꼬리는 금지라고양."
 },
 {
 "en": "stroke",
@@ -833,8 +845,7 @@
 "pos": "v.",
 "word": "wander",
 "si": 1,
-"sn": 1,
-"meow": "밤에 wander하는 건 고양이가 원조라고양."
+"sn": 1
 }
 ]
 },
@@ -853,7 +864,7 @@
 "word": "duck",
 "si": 1,
 "sn": 1,
-"meow": "duck은 물 위 담당, 고양이는 담장 위 담당이라고양."
+"meow": "duck, 오리는 물 위 담당, 고양이는 담장 위 담당이라고양."
 },
 {
 "en": "grain",
@@ -871,7 +882,7 @@
 "en": "remark",
 "ko": "① (한마디) 말, 발언",
 "ex": "His rude {{BLANK}} made her angry.",
-"tr": "걔가 무례한 말을 해서 그녀가 화났어.",
+"tr": "걔가 툭 던진 무례한 한마디에 그녀가 화났어.",
 "c": "지나가며 툭 던진 말. make a remark 한마디 하다.",
 "ipa": "rɪˈmɑrk",
 "pos": "n.",
@@ -907,7 +918,7 @@
 "en": "admire",
 "ko": "① 감탄하다, 존경하다",
 "ex": "I {{BLANK}} her courage and patience.",
-"tr": "난 그녀의 용기와 인내심이 존경스러워.",
+"tr": "난 그녀의 용기와 인내심에 감탄해.",
 "c": "우러러보며 감탄하는 마음. 명사는 admiration.",
 "ipa": "ədˈmaɪɚ",
 "pos": "v.",
@@ -1112,7 +1123,7 @@
 "word": "temple",
 "si": 1,
 "sn": 1,
-"meow": "BIG MOUNTAIN 중턱 temple에도 고양이가 산다고양."
+"meow": "BIG MOUNTAIN 중턱 temple, 절에도 고양이가 산다고양."
 }
 ]
 },
@@ -1143,7 +1154,7 @@
 "word": "nail",
 "si": 1,
 "sn": 2,
-"meow": "사람은 nail이고 고양이 발톱은 claw라고양."
+"meow": "사람 손톱은 nail이고 고양이 발톱은 claw라고양."
 },
 {
 "en": "nail",
@@ -1204,7 +1215,7 @@
 "word": "hunt",
 "si": 1,
 "sn": 1,
-"meow": "hunt 본능은 낚싯대 장난감으로 푸는 거라고양."
+"meow": "hunt, 사냥 본능은 낚싯대 장난감으로 푸는 거라고양."
 },
 {
 "en": "melt",
@@ -1311,8 +1322,8 @@
 {
 "en": "glory",
 "ko": "① 영광, 영예",
-"ex": "They played for the {{BLANK}} of the team.",
-"tr": "그들은 팀의 영광을 위해 뛰었어.",
+"ex": "Her moment of {{BLANK}} came at the finish line.",
+"tr": "결승선에서 걔한테 영광의 순간이 찾아왔어.",
 "c": "",
 "ipa": "ˈɡlɔri",
 "pos": "n.",
@@ -1367,7 +1378,7 @@
 "word": "brush",
 "si": 2,
 "sn": 2,
-"meow": "고양이는 혀가 brush라서 양치도 셀프라고양."
+"meow": "고양이는 혀가 brush, 솔이라서 양치도 셀프라고양."
 },
 {
 "en": "brick",
