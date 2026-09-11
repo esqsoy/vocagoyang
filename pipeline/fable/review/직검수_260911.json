@@ -1,24 +1,8 @@
 {
  "date": "26.9.11",
  "failed_sets": [
-  "set17",
-  "set18",
-  "set19",
-  "set20",
-  "set21",
   "set22",
-  "lesson00",
-  "lesson01",
-  "lesson02",
-  "lesson03",
-  "lesson04",
-  "set46",
-  "set47",
-  "set17",
-  "set18",
-  "set19",
-  "set20",
-  "set21",
+  "set22",
   "set22"
  ],
  "summaries": {
@@ -196,6 +180,66 @@
    "confirmed": 15,
    "rejected": 1,
    "notes": "기각 1건: poetry/1 tr — '시 문학을 읽어'가 딱딱한 건 맞지만, poem(15세트, ko '시(한 편)')과 ko 조각이 안 겹쳐 동의어 안내가 뜨지 않으므로 tr의 '시 문학'은 poem을 막는 의도적 조임이다. 제안 fix '시를 읽어'는 그 안전장치를 풀어 원문보다 나쁘다(관사 없이 poem이 비문이라는 논리는 학생이 알아채기 어렵다). 다듬은 fix 3건: flat ex/tr을 'Lay the map flat on the table'(초안 fix는 level이 여전히 들어감), comfort tr을 '걔가 해 "
+  },
+  "set17": {
+   "confirmed": 14,
+   "rejected": 2,
+   "notes": "기각 2건은 모두 pleased/1. (1) tr '흡족→흐뭇': pleased/satisfied는 'be pleased with ≈ be satisfied with'인 본질적 동의어 쌍이고 ko 조각 '만족한'이 겹쳐 SYNLINES 안내가 자동으로 뜨는 경우라 결함으로 잡지 않음. 흡족·흐뭇 모두 자연스럽고 satisfied 배제 효과도 미미해 '원문보다 낫다'가 성립 안 함(happy도 ko '기쁜'으로 여전히 들어가므로 번역 조이기로 해결되는 사안이 아님). (2) ko '① 기쁜, 흐뭇한': '만족한'은 pleased의 핵"
+  },
+  "set18": {
+   "confirmed": 16,
+   "rejected": 2,
+   "notes": "기각 2건: tune ko(멜로디 삭제)·insect ko(벌레 삭제). tune/melody, insect/bug는 본질적 동의어 쌍이라 SYNLINES 안내 몫이고, 그 안내는 ko 조각이 정확히 겹쳐야 뜬다(README 4절). ko에서 '멜로디'·'벌레'를 빼면 melody·bug를 친 학생이 안내 없는 그냥 오답이 되므로 원문보다 나쁨. tr은 이미 곡조·곤충으로 표적을 가리키고 있어 그대로 둠. 다듬은 fix: parliament ex는 원문의 표결 장면을 살려 'The British {{BLANK}} will vote "
+  },
+  "set19": {
+   "confirmed": 14,
+   "rejected": 0,
+   "notes": "기각 0. 모든 finding을 원문 카드와 대조해 확인했고, 대안 단어(train·wire·cable·string·soft·oil·feeling·worried·later·weak·concern)는 전부 다른 세트의 표제어로 ko 조각이 실제로 겹침을 확인함. 다듬은 부분: cord ko는 high→mid(핵심 해결은 tr), delicate는 '약해'가 weak을 여는 점을 문제에 추가해 mid 유지, afterwards는 later의 '뒤에' 근접 조각이 남아 low로 낮춤, anxious 문제에 nervous와의 관계(동의어 "
+  },
+  "set20": {
+   "confirmed": 38,
+   "rejected": 1,
+   "notes": "기각 1건: fashionable tr — '유행 타는 스타일'은 한국어 구어에서 '요즘 유행하는'으로 자연스럽게 읽히며, 제안 fix가 원문보다 낫다고 볼 근거가 약함(주관적 취향 차이). 나머지 37건 확인: (1) 경쟁어가 실제 앞 세트 표제어(gas 8, theater 10, follow 6, raise 6, comfortable 12, joy 15, navy 15, pray 13, sympathy 19, round 0세트)임을 색인으로 확인; (2) (영) 표시는 set20 tin/rubber 외 27~44세트에 34건 쓰"
+  },
+  "set21": {
+   "confirmed": 37,
+   "rejected": 2,
+   "notes": "기각 2건: (1) fulfill ko '① (꿈·약속을) 이루다, 채우다' — 결함(achieve/realize her dream)은 실재하나 achieve는 표제어가 아니고, '채우다'는 fulfill의 표준 뜻풀이가 아니며 원문의 '지키다'(fulfill a promise)를 잃어 원문보다 낫다고 볼 수 없음. dream 목적어에서 fulfill/achieve는 동의어 안내 몫으로 남김. (2) bathe ko 순서 교체 — tr을 '목욕시켜'로 조이면 해결되고 ko의 뜻 집합은 그대로라 개선이 아님. 다듬은 fix 3건: e"
+  },
+  "lesson00": {
+   "confirmed": 30,
+   "rejected": 1,
+   "notes": "기각 1건: photo/1 ko '① 사진 (photograph 줄임)' — photo/picture(set06 ko '① 그림, 사진')는 본질적 동의어 쌍이고 ko 조각 '사진'이 정확히 겹쳐 GLOSS/SYNLINES 안내가 자동으로 뜨는 경우라 규칙상 결함으로 잡지 않음(초안 요약이 movie/film은 SYNLINES로 넘기면서 photo만 잡은 것도 비일관). 다듬은 fix 1건: one/3 ex — 초안 '{{BLANK}} should always keep one's word.'는 답(one)이 one's로 문장 안에 "
+  },
+  "lesson01": {
+   "confirmed": 98,
+   "rejected": 0,
+   "notes": "95건 전부 원문 카드 대조 후 생존(기각 0). 근거: (1) 해설 54장은 실제 73~213자로 상한 초과이며, 다른 44개 세트(5~47)는 c>72가 0장이라 규칙이 실효 중임을 기계로 확인. 압축본은 전부 49~72자, 사실 오류 없음. (2) '그/그녀/그들' 25장도 5~47세트는 '걔' 통일(그계열 거의 0)이고 어른은 '그분' 선례가 코퍼스에 15건 이상 있어 life ① '그분…사셨어'도 적합. (3) well ②·life ③·state ①③·like ①(11토큰)·around ②·left ①(pos 불일치)·re"
+  },
+  "lesson02": {
+   "confirmed": 116,
+   "rejected": 1,
+   "notes": "기각 1건: post③ ko '③ 직위, 직책' — 'a high ___ in the company'에 position이 들어가는 것은 post/position이 본질적 동의어 쌍이라서이고, 4세트 position③의 ko가 '직위, 일자리'라 제안 fix로도 '직위' 조각이 그대로 겹쳐 아무것도 갈라지지 않음(오히려 겹치는 조각이 SYN 안내를 띄우는 것이 바람직). 동의어 안내 장치 몫이라 결함 아님.\n\n다듬은 fix: (1) means① ex — 초안 'a ___ of getting to work'는 1세트 way①(방법)이 "
+  },
+  "lesson03": {
+   "confirmed": 61,
+   "rejected": 3,
+   "notes": "기각 3건. (1) rather② ex·tr(2건): ko가 \"② (rather than) ~보다는, ~ 대신\"으로 rather than을 그대로 노출하므로 학생이 보는 ko+ex+tr로는 more가 ko에 닿지 않아 실질 중의성이 없고, 원문 'I'd like tea rather than coffee'도 자연스러워 교체가 원문보다 낫다고 볼 근거 부족. (2) room② meow: '개선의 여지는 네가 많다고양'은 스타일 가이드 좋은 예(\"거북이도 너보단 빠르다고양\")와 같은 수준의 츤데레 갈굼이라 학생 인신공격으로 보기 어렵고,"
+  },
+  "lesson04": {
+   "confirmed": 105,
+   "rejected": 0,
+   "notes": "기각 0. 초안 105건 전부 원문 카드와 대조해 실제 결함으로 확인됨. 근거: (1) 원본 lesson04를 audit.py의 audit() 함수로 돌리면 문제 49건(해설 72자 초과 32 + 예문 어휘 위반 17)이 나오고, 초안의 c·ex 결함 목록과 정확히 일치. (2) '걔' 규칙은 5~29세트 tr에서 걔 350건 대 그/그녀 17건으로 실제 시행 중인 규칙이라 36건 모두 유효. (3) 중의성 건은 전 세트 ko를 대조해 검증 — second(ko '초')·some('조금의, 몇몇의')·seem('~인 것 같다')·j"
+  },
+  "set46": {
+   "confirmed": 4,
+   "rejected": 0,
+   "notes": "기각 없음. 네 finding 모두 원문 카드를 다시 읽어 결함·규칙 준수·개선을 확인했다. /tmp/verify/set46.json에 네 fix를 적용해 audit.py 실행 → 카드 103 · meow 12 · 문제 0. -able③ fix 59자(≤72), -ize① fix 39자(≤48, '고양' 포함, 표제어 1회). meow 밀도는 고정 5블록 기준으로 위반 0이 됐고, 이동 창 기준으로는 22번(pre-③)·26번(over-①)이 한 창 안에 남지만 초안에 없는 사안이라 새 finding으로 만들지 않았다. 참고: -o"
+  },
+  "set47": {
+   "confirmed": 6,
+   "rejected": 0,
+   "notes": "6건 전부 원문 카드를 다시 읽고 확인. 세 예문 모두 실제로 기초어(heart·star)나 ldv 동의어(fresh)가 빈칸에 앉는 구조적 결함이며, 순수 변형(별칭표)도 본질적 동의어 쌍(SYNLINES)도 아니어서 카드 쪽에서 풀어야 할 사안. 기각 0건. 다듬은 것 1건: novel ko — 초안은 정답 'novel'을 ko에 그대로 적어 회상 시험이 무의미해지므로 '(소설이란 뜻의 그 단어)'로 바꿔 답 문자열 없이 같은 갈고리를 걸었음(ko에 괄호 힌트를 두는 것은 lesson01 'get ④ (get to)' 등 기존 "
   }
  },
  "applied": {
@@ -7360,6 +7404,4710 @@
     "severity": "low",
     "problem": "fence(57)·loose(60)이 같은 다섯 칸 안에 meow 둘. loose는 혼동쌍 조롱이라 남기고 fence 줄 삭제."
    }
+  ],
+  "set17": [
+   {
+    "word": "steady",
+    "si": 1,
+    "field": "ex",
+    "old": "Hold the camera {{BLANK}}, please.",
+    "new": "Slow and {{BLANK}} wins the race.",
+    "severity": "high",
+    "problem": "'Hold the camera ___'+ko '흔들리지 않는'+tr '흔들리지 않게'는 still(5세트 ② 가만히 있는, 'Stay still, I'm taking a picture')이 그대로 들어감. steady에만 붙는 관용구로 교체(6토큰, 어휘 통제 통과)."
+   },
+   {
+    "word": "steady",
+    "si": 1,
+    "field": "tr",
+    "old": "카메라 흔들리지 않게 잡아 줘.",
+    "new": "느려도 꾸준한 쪽이 결국 경주에서 이기는 거야.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. '꾸준한'이 ko ②와 일치하고 still은 배제됨."
+   },
+   {
+    "word": "admire",
+    "si": 1,
+    "field": "tr",
+    "old": "난 그녀의 용기와 인내심이 존경스러워.",
+    "new": "난 그녀의 용기와 인내심에 감탄해.",
+    "severity": "high",
+    "problem": "tr '존경스러워'는 respect(11세트 ① 존경하다)의 뜻 그대로라 'I respect her courage and patience'가 완벽히 성립. 번역을 ko 첫 뜻 '감탄하다'로 조여 admire에만 닿게(respect의 ko엔 감탄 없음)."
+   },
+   {
+    "word": "glory",
+    "si": 1,
+    "field": "ex",
+    "old": "They played for the {{BLANK}} of the team.",
+    "new": "Her moment of {{BLANK}} came at the finish line.",
+    "severity": "high",
+    "problem": "'played for the ___ of the team'+tr '영광'은 honor(12세트 ① 명예, 영광)로 자연스럽게 성립. 'moment of glory' 연어로 교체(honor·fame은 이 자리에 안 붙거나 tr '영광'으로 배제, 9토큰)."
+   },
+   {
+    "word": "glory",
+    "si": 1,
+    "field": "tr",
+    "old": "그들은 팀의 영광을 위해 뛰었어.",
+    "new": "결승선에서 걔한테 영광의 순간이 찾아왔어.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역."
+   },
+   {
+    "word": "harm",
+    "si": 1,
+    "field": "tr",
+    "old": "햇볕을 너무 쬐면 피부에 해가 될 수 있어.",
+    "new": "햇볕을 너무 쬐면 피부를 해칠 수 있어.",
+    "severity": "mid",
+    "problem": "'Too much sun can damage/hurt your skin'이 더 흔한 문장인데 tr '해가 될 수 있어'는 damage(피해·손상)·hurt도 허용. ko ①의 '해치다'와 같은 동사로 조여 harm(해)에만 닿게."
+   },
+   {
+    "word": "entrance",
+    "si": 1,
+    "field": "tr",
+    "old": "정문 입구에서 기다릴게.",
+    "new": "중앙 입구에서 기다릴게.",
+    "severity": "mid",
+    "problem": "tr '정문 입구'의 '정문'은 gate(14세트 'wait for you at the school gate' / tr '학교 정문에서 기다릴게')를 그대로 부름. 'main gate'가 완벽히 성립. '정문'을 빼고 ko의 '입구'만 남김."
+   },
+   {
+    "word": "barrel",
+    "si": 1,
+    "field": "ex",
+    "old": "They store oil in big {{BLANK}}s.",
+    "new": "They keep the wine in big wooden {{BLANK}}s.",
+    "severity": "mid",
+    "problem": "'store oil in big ___s'+tr '큰 통'은 tank(25세트 ① (물·기름) 탱크, 통)가 오히려 더 자연스러움. 와인 나무통 장면으로 교체해 tank 배제(8토큰, wine·wooden 허용 어휘)."
+   },
+   {
+    "word": "barrel",
+    "si": 1,
+    "field": "tr",
+    "old": "석유는 큰 통에 담아 보관해.",
+    "new": "와인은 커다란 나무통에 담아 보관해.",
+    "severity": "mid",
+    "problem": "ex 교체에 따른 번역. '나무통'이 ko '(배가 불룩한) 큰 통'과 이어짐."
+   },
+   {
+    "word": "remark",
+    "si": 1,
+    "field": "tr",
+    "old": "걔가 무례한 말을 해서 그녀가 화났어.",
+    "new": "걔가 툭 던진 무례한 한마디에 그녀가 화났어.",
+    "severity": "mid",
+    "problem": "'His rude ___ made her angry'+tr '무례한 말'은 학생이 댓글로 익숙한 comment로 그대로 성립(comment는 표제어가 아니라 동의어 안내도 안 뜸). ko의 '(한마디)'와 c의 '툭 던진 말' 단서를 번역에 넣어 remark로 조임."
+   },
+   {
+    "word": "shine",
+    "si": 1,
+    "field": "tr",
+    "old": "오늘 밤은 별이 유난히 반짝이네.",
+    "new": "오늘 밤은 별이 유난히 밝게 빛나네.",
+    "severity": "low",
+    "problem": "tr '반짝이네'는 노래로 익숙한 twinkle(및 sparkle)을 부름. 'shine bright' 연어에 맞춰 ko 첫 뜻 '빛나다'+'밝게'로 조임."
+   },
+   {
+    "word": "wander",
+    "si": 1,
+    "field": "meow",
+    "old": "밤에 wander, 돌아다니는 건 고양이가 원조라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "stroke①(65)·wander(67)·duck(68) 네 장 안에 meow 3개로 밀도 초과(다섯 카드당 하나 이하). 셋 중 뜻 노출·고양이 세계관이 가장 얇은 '고양이가 원조' 줄 삭제(stroke는 행동 지시, duck은 대구가 살아 있음)."
+   }
+  ],
+  "set18": [
+   {
+    "word": "parliament",
+    "si": 1,
+    "field": "ex",
+    "old": "{{BLANK}} will vote on the new law today.",
+    "new": "The British {{BLANK}} will vote on the new law.",
+    "severity": "high",
+    "problem": "ko '의회, 국회'가 23세트 congress의 ko와 완전히 같고, '___ will vote on the new law'는 미국 구어에서 Congress가 먼저 떠오름. c가 영국=parliament, 미국=Congress로 가르는 만큼 예문에 영국 단서를 넣어 가른다(표결 장면은 유지)."
+   },
+   {
+    "word": "parliament",
+    "si": 1,
+    "field": "tr",
+    "old": "오늘 의회가 새 법에 대해 표결해.",
+    "new": "영국 의회가 새 법에 대해 표결할 거야.",
+    "severity": "high",
+    "problem": "ex 교체에 맞춘 번역. '영국 의회'로 Congress를 배제."
+   },
+   {
+    "word": "quantity",
+    "si": 1,
+    "field": "ex",
+    "old": "We bought a large {{BLANK}} of rice.",
+    "new": "Quality matters more than {{BLANK}}, right?",
+    "severity": "high",
+    "problem": "'a large ___ of rice'에는 7세트 amount(ko ① 양, 액수)가 더 자연스럽게 들어감. c가 이미 quality/quantity 대비를 짚으니 그 대비 연어로 교체(quality·matter 모두 허용 어휘)."
+   },
+   {
+    "word": "quantity",
+    "si": 1,
+    "field": "tr",
+    "old": "우리 많은 수량의 쌀을 샀어.",
+    "new": "양보다 질이 더 중요하지, 안 그래?",
+    "severity": "mid",
+    "problem": "'많은 수량의 쌀을 샀어'는 한국어로 어색. ex 교체에 맞춰 matters(중요하다)까지 살린 번역."
+   },
+   {
+    "word": "unite",
+    "si": 1,
+    "field": "ipa",
+    "old": "ˈjunaɪt",
+    "new": "juˈnaɪt",
+    "severity": "high",
+    "problem": "강세 위치 오류. unite는 2음절 강세(MW yu̇-ˈnīt)인데 첫음절에 찍혀 있음."
+   },
+   {
+    "word": "shore",
+    "si": 1,
+    "field": "ex",
+    "old": "We walked along the {{BLANK}} all afternoon.",
+    "new": "Our tent was right on the {{BLANK}} of the lake.",
+    "severity": "mid",
+    "problem": "ko '물가, 해안'의 '해안'이 12세트 coast(ko ① 해안)와 겹치고 'walked along the ___ all afternoon'엔 coast가 그대로 들어감. 호수 물가 장면으로 바꾸면 coast·beach 모두 배제(tent·lake 허용 어휘, 10토큰)."
+   },
+   {
+    "word": "shore",
+    "si": 1,
+    "field": "tr",
+    "old": "우리는 오후 내내 물가를 따라 걸었어.",
+    "new": "우리 텐트는 호숫가 바로 옆이었어.",
+    "severity": "mid",
+    "problem": "ex 교체에 맞춘 번역. '호숫가'로 coast·beach 배제."
+   },
+   {
+    "word": "grief",
+    "si": 1,
+    "field": "tr",
+    "old": "장례식에서 걔는 슬픔을 감추지 못했어.",
+    "new": "장례식에서 걔는 깊은 슬픔을 감추지 못했어.",
+    "severity": "mid",
+    "problem": "번역이 '슬픔'뿐이라 39세트 sadness(ko ① 슬픔)가 'could not hide her sadness at the funeral'로 그대로 들어감. c도 sadness보다 훨씬 깊다고 하니 ko대로 '깊은 슬픔'으로 조임(sorrow는 동의어 안내 몫)."
+   },
+   {
+    "word": "advertisement",
+    "si": 1,
+    "field": "ipa",
+    "old": "ædˈvɝtaɪzmənt",
+    "new": "ˌædvɚˈtaɪzmənt",
+    "severity": "low",
+    "problem": "ædˈvɝtaɪzmənt는 2음절 강세형(əd-ˈvɝ-təz-mənt)과 3음절 강세형(ˌæd-vɚ-ˈtaɪz-mənt)의 모음·강세가 섞인 표기. MW 제1형으로 통일(이 세트들은 ˌ 부강세 표기를 이미 씀)."
+   },
+   {
+    "word": "pleasant",
+    "si": 1,
+    "field": "tr",
+    "old": "널 만난 건 즐거운 뜻밖의 일이었어.",
+    "new": "널 만난 건 뜻밖의 즐거운 일이었어.",
+    "severity": "low",
+    "problem": "'즐거운 뜻밖의 일'은 어순이 어색. '뜻밖의 즐거운 일'이 자연스럽고 빈칸 단어(pleasant=즐거운)가 명사 바로 앞에 붙어 단서도 또렷해짐."
+   },
+   {
+    "word": "monkey",
+    "si": 1,
+    "field": "meow",
+    "old": "BIG MOUNTAIN에 monkey, 원숭이는 없다고양. 대장은 나고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "3번 exercise 뒤 다섯 카드(5~9번)에 upstairs·monkey meow 2개. 둘 다 세계관 줄이지만 upstairs는 '계단 오르기' 장면이 있고 monkey는 'BIG MOUNTAIN에 원숭이 없다'는 부정문뿐이라 더 얇음 → 삭제."
+   },
+   {
+    "word": "spell",
+    "si": 2,
+    "field": "meow",
+    "old": "철자 틀리면 spell(주문)도 안 통한다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "6번 exercise 뒤 다섯 카드에 horn·spell② meow 2개. horn 줄은 뿔·경적 두 뜻과 '빵빵' 소리 장면이 있고, spell 줄은 괄호로 뜻을 덧댄 말장난이라 더 얇음 → 삭제."
+   },
+   {
+    "word": "bath",
+    "si": 1,
+    "field": "meow",
+    "old": "고양이한테 bath, 목욕 얘기는 꺼내지도 말라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "7번 exercise 뒤 다섯 카드에 bath·mud meow 2개. mud 줄은 '진흙 발로 방석 밟지 마' 장면이 있고 bath 줄은 '목욕 얘기 꺼내지 마'라는 장면 없는 상투 반응 → 삭제."
+   }
+  ],
+  "set19": [
+   {
+    "word": "railway",
+    "si": 1,
+    "field": "ex",
+    "old": "The {{BLANK}} station is near the market.",
+    "new": "They built a {{BLANK}} across the desert.",
+    "severity": "high",
+    "problem": "'The ___ station'은 train(① 기차, 12세트)이 그대로 들어가고, 해설 자체가 '역은 train station이라고 한다'라 예문과 정면충돌함. 철도를 '놓는' 장면으로 바꾸면 train은 배제됨(railroad는 순수 미국식 변형이라 별칭 몫)."
+   },
+   {
+    "word": "railway",
+    "si": 1,
+    "field": "tr",
+    "old": "철도역이 시장 근처에 있어.",
+    "new": "사막을 가로질러 철도를 놓았어.",
+    "severity": "high",
+    "problem": "예문 교체에 따른 번역. ko '철도'와 같은 단서를 유지."
+   },
+   {
+    "word": "cord",
+    "si": 1,
+    "field": "ko",
+    "old": "① 끈, 전선",
+    "new": "① (전기) 코드, 굵은 끈",
+    "severity": "mid",
+    "problem": "ko '끈, 전선'+tr '다리미 줄'이면 wire(① 철사, 전선)·cable(① 전선, 굵은 줄)·string(① 끈, 줄)이 모두 들어감. 해설이 이미 '굵은 끈·전깃줄'이라 하므로 ko를 그에 맞추고 한국어 '코드'로 표적을 고정."
+   },
+   {
+    "word": "cord",
+    "si": 1,
+    "field": "tr",
+    "old": "다리미 줄이 너무 짧아.",
+    "new": "다리미 코드가 너무 짧아.",
+    "severity": "high",
+    "problem": "'다리미 줄'은 wire·cable·string 모두에 닿음. 한국어 외래어 '코드'는 cord에만 닿으므로 번역 조이기로 해결."
+   },
+   {
+    "word": "tender",
+    "si": 1,
+    "field": "ko",
+    "old": "① 부드러운, 다정한",
+    "new": "① (고기가) 연한, 다정한",
+    "severity": "mid",
+    "problem": "ko '부드러운'이 soft(① 부드러운, 푹신한)와 동일 조각이라 'The meat was so soft and sweet'도 자연스럽게 성립. 예문 용법(고기)에 맞춰 '연한'을 앞세우면 tr '연하고'와도 일치하고 해설('고기가 연한 것도, 마음이 다정한 것도')과도 맞음."
+   },
+   {
+    "word": "gasoline",
+    "si": 1,
+    "field": "tr",
+    "old": "우리 기름 넣으려고 차 세웠어.",
+    "new": "우리 휘발유 넣으려고 차 세웠어.",
+    "severity": "mid",
+    "problem": "tr '기름 넣으려고'가 oil(① 기름, 석유)의 ko와 그대로 겹쳐 'fill the car with oil'이 열림. ko대로 '휘발유'로 조임(gas ② 휘발유는 약칭이라 별칭 몫)."
+   },
+   {
+    "word": "sensation",
+    "si": 1,
+    "field": "ko",
+    "old": "① 감각, 느낌",
+    "new": "① (몸의) 감각",
+    "severity": "mid",
+    "problem": "ko '느낌'이 feeling(① 느낌, 기분)과 겹쳐 'a strange feeling in my left leg'가 완전히 자연스럽게 성립. 몸의 감각으로 좁히면 feeling의 ko와 겹치는 조각이 사라짐."
+   },
+   {
+    "word": "anxious",
+    "si": 1,
+    "field": "ko",
+    "old": "① 불안한, 걱정하는",
+    "new": "① 불안한, 초조한",
+    "severity": "mid",
+    "problem": "ko '걱정하는'이 worried(① 걱정하는)와 동일해 'I feel worried about the test result'가 그대로 들어감. '초조한'은 nervous와 겹치지만 anxious/nervous는 README 4절의 동의어 안내 몫이고, 현재 ko 조각이 안 겹쳐 안내가 안 뜨는 쌍이라 오히려 안내가 작동하게 됨. 해설('걱정+초조가 섞인 불안')과도 일치."
+   },
+   {
+    "word": "afterwards",
+    "si": 1,
+    "field": "ko",
+    "old": "① 나중에, 그 뒤에",
+    "new": "① 그 뒤에, 그러고 나서",
+    "severity": "low",
+    "problem": "ko '나중에'가 later(① 나중에, 뒤에)와 동일해 'ate pizza later'가 그대로 성립. '그 뒤에, 그러고 나서'로 순서 의미를 앞세우면 동일 조각은 사라짐(later의 '뒤에'와 근접 조각은 남지만 afterwards/later는 본질적 근접 동의어라 나머지는 동의어 안내 몫)."
+   },
+   {
+    "word": "delicate",
+    "si": 1,
+    "field": "tr",
+    "old": "조심해, 그 유리잔 진짜 섬세하고 약해.",
+    "new": "조심해, 그 유리잔 섬세해서 잘 깨져.",
+    "severity": "mid",
+    "problem": "'섬세하고 약해'는 유리잔에 어색할뿐더러 '약해'가 weak(① 약한)의 ko와 그대로 겹쳐 'the glass is very weak'가 열림. '약해'를 빼고 단서(섬세)+결과(잘 깨짐)로 세우면 weak이 배제됨."
+   },
+   {
+    "word": "sympathy",
+    "si": 1,
+    "field": "tr",
+    "old": "그 아픈 아이한테 깊이 마음이 쓰여.",
+    "new": "그 아픈 아이한테 깊은 동정심이 들어.",
+    "severity": "low",
+    "problem": "tr '깊이 마음이 쓰여'에는 ko의 뜻(동정·공감)이 드러나지 않고 오히려 concern(① 걱정, 우려)에 닿아 'feel deep concern for the sick child'가 열림. '동정심'을 드러내 표적에 붙임."
+   },
+   {
+    "word": "cattle",
+    "si": 1,
+    "field": "ipa",
+    "old": "kætl",
+    "new": "ˈkætl",
+    "severity": "low",
+    "problem": "2음절어(MW ˈka-tᵊl)인데 강세 기호가 없음. 같은 꼴 settle은 ˈsɛtl, battle은 ˈbætəl로 강세가 붙어 있어 표기 불일치."
+   },
+   {
+    "word": "steep",
+    "si": 1,
+    "field": "meow",
+    "old": "BIG MOUNTAIN 오르는 길이 딱 steep, 가파르다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "1861~1870은 카드 10장에 meow 3줄(lazy·steep·drawer)로 다섯 카드당 하나 상한(2)을 넘김. lazy는 반전 농담, drawer는 고양이 그림이 있는 반면 steep 줄은 뜻을 되풀이하는 데 그쳐 가장 얇음. 삭제 후 세트 meow 16개로 12~18 범위 유지."
+   }
+  ],
+  "set20": [
+   {
+    "word": "machinery",
+    "si": 1,
+    "field": "ex",
+    "old": "The factory bought new {{BLANK}} last year.",
+    "new": "Farm {{BLANK}} is very expensive these days.",
+    "severity": "high",
+    "problem": "ko '기계(류)'+tr '새 기계를 들였어'로는 machines가 그대로 들어간다(bought new machines). 셀 수 없음이 드러나는 단수 동사 틀로 교체"
+   },
+   {
+    "word": "machinery",
+    "si": 1,
+    "field": "tr",
+    "old": "그 공장은 작년에 새 기계를 들였어.",
+    "new": "요즘 농기계는 값이 진짜 비싸.",
+    "severity": "high",
+    "problem": "ex 교체에 맞춘 번역"
+   },
+   {
+    "word": "petrol",
+    "si": 1,
+    "field": "tr",
+    "old": "장거리 운전 전에 기름 넣어야 해.",
+    "new": "장거리 운전 전에 휘발유 넣어야 해.",
+    "severity": "high",
+    "problem": "'기름 넣어야 해'로는 gas(8세트·LDV)가 먼저 들어간다. 휘발유로 조여 ko의 (영) 표시와 맞춤"
+   },
+   {
+    "word": "petrol",
+    "si": 1,
+    "field": "ko",
+    "old": "① 휘발유",
+    "new": "① (영) 휘발유",
+    "severity": "high",
+    "problem": "tin ②·rubber ②(및 27~44세트 34건)의 관례대로 영국어 카드에는 (영) 표시가 있어야 gas와 구분된다"
+   },
+   {
+    "word": "convenient",
+    "si": 1,
+    "field": "tr",
+    "old": "지하철은 편하고 싸잖아.",
+    "new": "지하철은 편리하고 싸잖아.",
+    "severity": "high",
+    "problem": "'편하고 싸잖아'의 편하다는 comfortable(12세트)을 부른다. c에서 대비까지 해 놓고 tr이 풀어 줌"
+   },
+   {
+    "word": "delight",
+    "si": 1,
+    "field": "ex",
+    "old": "The children shouted with {{BLANK}}.",
+    "new": "To my {{BLANK}}, the cat came back home.",
+    "severity": "high",
+    "problem": "'shouted with ___'+큰 기쁨/환희는 joy(15세트·LDV)가 더 흔한 연어. c에서 가르치는 to my delight 틀로 교체"
+   },
+   {
+    "word": "delight",
+    "si": 1,
+    "field": "tr",
+    "old": "애들이 환희에 차서 소리를 질렀어.",
+    "new": "기쁘게도 고양이가 집에 돌아왔어.",
+    "severity": "high",
+    "problem": "ex 교체에 맞춘 번역"
+   },
+   {
+    "word": "pity",
+    "si": 2,
+    "field": "ex",
+    "old": "I felt {{BLANK}} for the hungry cat.",
+    "new": "Take {{BLANK}} on the poor cat and feed it.",
+    "severity": "high",
+    "problem": "'felt ___ for'+동정은 sympathy(19세트 표제어)가 그대로 들어간다. take pity on 관용구로 교체"
+   },
+   {
+    "word": "pity",
+    "si": 2,
+    "field": "tr",
+    "old": "그 배고픈 고양이가 불쌍했어.",
+    "new": "불쌍한 고양이 가엾게 여겨서 밥 좀 줘.",
+    "severity": "high",
+    "problem": "ex 교체에 맞춘 번역"
+   },
+   {
+    "word": "obey",
+    "si": 1,
+    "field": "ex",
+    "old": "A good driver {{BLANK}}s the traffic rules.",
+    "new": "Children should {{BLANK}} their parents.",
+    "severity": "high",
+    "problem": "ko '따르다'+'규칙을 준수하지'로는 follow(6세트)가 가장 자연스럽게 들어간다. 부모에게 순종 틀로 교체"
+   },
+   {
+    "word": "obey",
+    "si": 1,
+    "field": "tr",
+    "old": "좋은 운전자는 교통 규칙을 준수하지.",
+    "new": "애들은 부모님 말씀에 순종해야지.",
+    "severity": "high",
+    "problem": "ex 교체에 맞춘 번역(순종→obey, follow 배제)"
+   },
+   {
+    "word": "mist",
+    "si": 1,
+    "field": "tr",
+    "old": "아침 안개가 골짜기를 온통 덮었어.",
+    "new": "아침 옅은 안개가 골짜기를 온통 덮었어.",
+    "severity": "mid",
+    "problem": "'아침 안개가 골짜기를 덮었어'는 fog가 들어간다(허용 어휘 밖이지만 중학 기초어). ko의 '엷은'을 tr에도 실어야 mist로 좁혀진다"
+   },
+   {
+    "word": "breed",
+    "si": 1,
+    "field": "tr",
+    "old": "여기 농장에서는 양을 번식시켜 길러.",
+    "new": "여기 농장에서는 양을 번식시켜.",
+    "severity": "mid",
+    "problem": "ko 첫 뜻 '기르다'+tr '길러'로 raise(6세트)가 들어간다. 번식 단서만 남겨 raise 배제"
+   },
+   {
+    "word": "cinema",
+    "si": 1,
+    "field": "ko",
+    "old": "① 영화관",
+    "new": "① (영) 영화관",
+    "severity": "mid",
+    "problem": "'go to the ___ tonight'+영화관에 theater(10세트·LDV)가 들어간다. 세트 관례대로 (영) 표시"
+   },
+   {
+    "word": "trousers",
+    "si": 1,
+    "field": "ko",
+    "old": "① 바지",
+    "new": "① (영) 바지",
+    "severity": "mid",
+    "problem": "'These ___ are too long'+바지에 pants가 들어간다. (영) 표시로 구분"
+   },
+   {
+    "word": "packet",
+    "si": 1,
+    "field": "ko",
+    "old": "① 작은 봉지, 갑",
+    "new": "① (영) 작은 봉지, 갑",
+    "severity": "mid",
+    "problem": "'a ___ of tea'+작은 봉지/갑에 pack(14세트)·bag·box가 들어간다. (영) 표시로 구분"
+   },
+   {
+    "word": "timetable",
+    "si": 1,
+    "field": "ko",
+    "old": "① 시간표",
+    "new": "① (영) 시간표",
+    "severity": "mid",
+    "problem": "'train ___'+시간표는 schedule이 먼저 들어간다. (영) 표시로 구분"
+   },
+   {
+    "word": "parcel",
+    "si": 1,
+    "field": "ko",
+    "old": "① 소포",
+    "new": "① (영) 소포",
+    "severity": "low",
+    "problem": "소포에 package가 들어갈 수 있다. (영) 표시로 구분"
+   },
+   {
+    "word": "sympathetic",
+    "si": 1,
+    "field": "tr",
+    "old": "나 시험 망했을 때 걔가 위로해 줬어.",
+    "new": "나 시험 망했을 때 걔가 내 마음에 공감해 줬어.",
+    "severity": "mid",
+    "problem": "'위로해 줬어'는 형용사 뜻(동정하는·공감하는)이 아니라 행동 번역이라 kind·nice도 들어간다. 공감 단서를 tr에 실을 것"
+   },
+   {
+    "word": "naval",
+    "si": 1,
+    "field": "ex",
+    "old": "He is an officer at the {{BLANK}} base.",
+    "new": "The two countries fought a great {{BLANK}} battle.",
+    "severity": "mid",
+    "problem": "'the ___ base'+해군의는 navy(15세트·LDV)가 그대로 들어간다(navy base). navy로는 안 되는 '해전' 틀로 교체"
+   },
+   {
+    "word": "naval",
+    "si": 1,
+    "field": "tr",
+    "old": "그 사람 해군 기지 장교야.",
+    "new": "두 나라는 큰 해전을 벌였어.",
+    "severity": "mid",
+    "problem": "ex 교체에 맞춘 번역"
+   },
+   {
+    "word": "worship",
+    "si": 1,
+    "field": "ex",
+    "old": "They {{BLANK}} at this temple every week.",
+    "new": "Long ago, people {{BLANK}}ed the sun.",
+    "severity": "mid",
+    "problem": "'They ___ at this temple every week'+예배는 pray(13세트·LDV)가 들어간다. 타동사 숭배 틀로 교체(pray는 to가 필요)"
+   },
+   {
+    "word": "worship",
+    "si": 1,
+    "field": "tr",
+    "old": "그 사람들은 매주 이 절에서 예배를 드려.",
+    "new": "옛날 사람들은 태양을 숭배했어.",
+    "severity": "mid",
+    "problem": "ex 교체에 맞춘 번역"
+   },
+   {
+    "word": "circular",
+    "si": 1,
+    "field": "ex",
+    "old": "The garden has a {{BLANK}} pool in it.",
+    "new": "The plane flew in a slow {{BLANK}} path.",
+    "severity": "mid",
+    "problem": "'a ___ pool'+원형의/둥근은 round(0세트)가 먼저 들어간다. 궤도(원을 그리는) 틀로 교체"
+   },
+   {
+    "word": "circular",
+    "si": 1,
+    "field": "tr",
+    "old": "그 정원엔 원형 연못이 있어.",
+    "new": "비행기가 천천히 원을 그리는 궤도로 날았어.",
+    "severity": "mid",
+    "problem": "ex 교체에 맞춘 번역"
+   },
+   {
+    "word": "amusement",
+    "si": 1,
+    "field": "ex",
+    "old": "She watched the game with {{BLANK}}.",
+    "new": "We spent all day at the {{BLANK}} park.",
+    "severity": "mid",
+    "problem": "'watched the game with ___'+재미는 interest·pleasure·delight가 다 들어간다. c가 언급하는 amusement park 연어로 교체"
+   },
+   {
+    "word": "amusement",
+    "si": 1,
+    "field": "tr",
+    "old": "걔는 재미있어하며 그 경기를 지켜봤어.",
+    "new": "우리 놀이공원에서 하루 종일 놀았어.",
+    "severity": "mid",
+    "problem": "ex 교체에 맞춘 번역"
+   },
+   {
+    "word": "verb",
+    "si": 1,
+    "field": "ipa",
+    "old": "vɚb",
+    "new": "vɝb",
+    "severity": "low",
+    "problem": "강세 음절 r-모음은 전 세트 관례(her hɝ, hurt hɝt, bird bɝd 등 40여 건)대로 ɝ. 단음절이라 강세 위치이므로 ɚ→ɝ"
+   },
+   {
+    "word": "fur",
+    "si": 1,
+    "field": "ipa",
+    "old": "fɚ",
+    "new": "fɝ",
+    "severity": "low",
+    "problem": "강세 음절 r-모음은 ɝ(관례 불일치)"
+   },
+   {
+    "word": "curl",
+    "si": 1,
+    "field": "ipa",
+    "old": "kɚl",
+    "new": "kɝl",
+    "severity": "low",
+    "problem": "강세 음절 r-모음은 ɝ(관례 불일치)"
+   },
+   {
+    "word": "curl",
+    "si": 2,
+    "field": "ipa",
+    "old": "kɚl",
+    "new": "kɝl",
+    "severity": "low",
+    "problem": "강세 음절 r-모음은 ɝ(관례 불일치)"
+   },
+   {
+    "word": "worm",
+    "si": 1,
+    "field": "ipa",
+    "old": "wɚm",
+    "new": "wɝm",
+    "severity": "low",
+    "problem": "강세 음절 r-모음은 ɝ(관례 불일치)"
+   },
+   {
+    "word": "amusement",
+    "si": 1,
+    "field": "ipa",
+    "old": "əmˈjuzmənt",
+    "new": "əˈmjuzmənt",
+    "severity": "low",
+    "problem": "강세 기호 위치 오류: MW ə-ˈmyüz-mənt, m은 둘째 음절 첫소리"
+   },
+   {
+    "word": "pity",
+    "si": 2,
+    "field": "meow",
+    "old": "pity, 동정 말고 츄르를 달라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "3번 연습(14장)에 meow 4줄(breed·cupboard·dull·pity) — 다섯 카드당 하나 상한(2줄) 초과. 가장 얇은 줄 삭제"
+   },
+   {
+    "word": "cupboard",
+    "si": 1,
+    "field": "meow",
+    "old": "cupboard, 찬장은 [컵보드] 아니라 [커버드]라고양. p는 조용히고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "3번 연습 meow 초과분 두 번째 삭제 — c의 발음 설명을 그대로 반복하고 말끝 '조용히고양'도 어색함"
+   },
+   {
+    "word": "feather",
+    "si": 1,
+    "field": "meow",
+    "old": "feather, 깃털 장난감엔 안 속는다고양… 세 번만 놀아 준다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "8번 연습(10장)에 meow 3줄(arch·feather·fond) — 상한 2줄 초과. 뜻 학습 기여가 가장 얇은 줄 삭제"
+   },
+   {
+    "word": "fur",
+    "si": 1,
+    "field": "meow",
+    "old": "내 fur, 털은 매일 손질한다고양. 부럽지 않냐고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "9번 연습(11장)에 meow 3줄(curl·fur·obey) — 상한 2줄 초과. 가장 얇은 줄 삭제"
+   }
+  ],
+  "set21": [
+   {
+    "word": "enjoyment",
+    "si": 1,
+    "field": "ex",
+    "old": "I read books just for {{BLANK}}.",
+    "new": "She gets a lot of {{BLANK}} from her garden.",
+    "severity": "high",
+    "problem": "'I read books just for ___'는 'just for fun'이 대표 연어라 기초어 fun(① 재미, 즐거움)이 그대로 들어가고 pleasure도 들어감. 'just for' 틀을 버려야 함."
+   },
+   {
+    "word": "enjoyment",
+    "si": 1,
+    "field": "tr",
+    "old": "난 그냥 즐기려고 책 읽어.",
+    "new": "걔는 정원 가꾸면서 즐거움을 많이 얻어.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. '즐기려고'는 fun을 부르는 단서였음."
+   },
+   {
+    "word": "enjoyment",
+    "si": 1,
+    "field": "ko",
+    "old": "① 즐거움, 재미",
+    "new": "① 즐거움",
+    "severity": "mid",
+    "problem": "'재미'가 fun(① 재미, 즐거움)의 ko와 겹쳐 새 예문에서도 'a lot of fun'을 부름. 즐거움으로만 좁힘('즐김'은 비표준 표기라 제외)."
+   },
+   {
+    "word": "arms",
+    "si": 1,
+    "field": "ex",
+    "old": "The soldiers laid down their {{BLANK}} at last.",
+    "new": "The two countries started an {{BLANK}} race.",
+    "severity": "high",
+    "problem": "'laid down their ___'에 weapon(① 무기, set08)의 복수 weapons가 완벽히 들어감. ko·tr 모두 '무기'라 구분 불가. 'an arms race'는 an으로 weapons를 막고 수능 빈출 연어임."
+   },
+   {
+    "word": "arms",
+    "si": 1,
+    "field": "tr",
+    "old": "병사들이 마침내 무기를 내려놨어.",
+    "new": "두 나라가 군비 경쟁을 시작했어.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. '군비'로 arms에만 닿게."
+   },
+   {
+    "word": "arms",
+    "si": 1,
+    "field": "ko",
+    "old": "① 무기",
+    "new": "① 무기, 군비",
+    "severity": "mid",
+    "problem": "새 예문(arms race)의 용법 '군비'가 ko에 없음."
+   },
+   {
+    "word": "backward",
+    "si": 1,
+    "field": "ex",
+    "old": "He took a step {{BLANK}} in surprise.",
+    "new": "Can you say the alphabet {{BLANK}}?",
+    "severity": "high",
+    "problem": "'took a step ___'는 'take a step back'이 더 흔해 기초어 back이 그대로 들어감. 초안의 'Count ___ from ten to one'은 count down(기초어 down)이 들어가므로 알파벳 거꾸로 말하기로 교체 — back·down 모두 불가."
+   },
+   {
+    "word": "backward",
+    "si": 1,
+    "field": "tr",
+    "old": "걔는 놀라서 한 걸음 뒤로 물러섰어.",
+    "new": "알파벳 거꾸로 말할 수 있어?",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. '거꾸로'로 back을 배제."
+   },
+   {
+    "word": "breadth",
+    "si": 1,
+    "field": "ex",
+    "old": "The room's {{BLANK}} is only three meters.",
+    "new": "I was surprised by the {{BLANK}} of his knowledge.",
+    "severity": "high",
+    "problem": "'The room's ___ is three meters'는 width(① 폭, 너비, set20)가 ko까지 완전히 같아 구분 불가. 'breadth of knowledge'는 width가 붙지 않는 연어(depth는 tr '폭'으로 배제)."
+   },
+   {
+    "word": "breadth",
+    "si": 1,
+    "field": "tr",
+    "old": "그 방은 폭이 3미터밖에 안 돼.",
+    "new": "걔 지식의 폭에 놀랐어.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역."
+   },
+   {
+    "word": "goods",
+    "si": 1,
+    "field": "ex",
+    "old": "The store sells sports {{BLANK}} at low prices.",
+    "new": "The price of {{BLANK}} and services keeps going up.",
+    "severity": "high",
+    "problem": "'sports ___'는 sports equipment/gear가 대표 연어이고 product(① 제품, 상품)의 복수 products도 ko '상품'으로 들어감. 'goods and services'는 goods 고유 연어. 초안 문장이 교과서체라 물가 불평 장면으로 다듬음."
+   },
+   {
+    "word": "goods",
+    "si": 1,
+    "field": "tr",
+    "old": "그 가게는 스포츠 용품을 싸게 팔아.",
+    "new": "재화와 서비스 가격이 계속 올라.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. '재화'는 경제 용어로 goods에만 닿음."
+   },
+   {
+    "word": "goods",
+    "si": 1,
+    "field": "ko",
+    "old": "① 상품, 물품",
+    "new": "① 재화, 상품, 물품",
+    "severity": "mid",
+    "problem": "새 예문 용법 '재화'가 ko에 없음. 상품(product)과 구분되는 뜻을 앞에."
+   },
+   {
+    "word": "amuse",
+    "si": 1,
+    "field": "tr",
+    "old": "걔 우스꽝스러운 춤에 반 전체가 즐거워했어.",
+    "new": "걔 우스꽝스러운 춤이 반 전체를 웃겼어.",
+    "severity": "high",
+    "problem": "ko '즐겁게 하다'가 entertain(① 즐겁게 하다, set20)과 완전히 같고 'entertained the whole class'가 자연스러움. c의 '웃게 만들다' 방향으로 번역을 조여야 함."
+   },
+   {
+    "word": "amuse",
+    "si": 1,
+    "field": "ko",
+    "old": "① 즐겁게 하다",
+    "new": "① 웃기다, 즐겁게 하다",
+    "severity": "mid",
+    "problem": "entertain과 ko가 동일. '웃기다'를 앞세워 amuse 고유 결을 드러내고 새 tr과 맞춤."
+   },
+   {
+    "word": "bathe",
+    "si": 1,
+    "field": "tr",
+    "old": "아빠가 저녁마다 아기를 씻겨.",
+    "new": "아빠가 저녁마다 아기를 목욕시켜.",
+    "severity": "high",
+    "problem": "'Dad ___s the baby'에 wash(① 씻다, set14)가 그대로 들어가고 tr '씻겨'가 wash를 부름. '목욕시켜'로 조이면 bathe에만 닿음."
+   },
+   {
+    "word": "comb",
+    "si": 2,
+    "field": "tr",
+    "old": "나가기 전에 머리 좀 빗어.",
+    "new": "나가기 전에 빗으로 머리 좀 빗어.",
+    "severity": "high",
+    "problem": "'___ your hair'는 brush(② (솔로) 닦다, 빗다, set17)가 오히려 더 흔한 표현이고 '머리 빗어'는 brush의 ko에도 있음. '빗으로'를 넣어 comb(① 빗)에 묶어야 함."
+   },
+   {
+    "word": "cruelty",
+    "si": 1,
+    "field": "ko",
+    "old": "① 잔인함, 학대",
+    "new": "① 잔인함, 잔혹 행위",
+    "severity": "mid",
+    "problem": "'학대'가 abuse(① 학대, 남용, set24)의 ko와 겹쳐 'stop abuse to animals'로 유도됨."
+   },
+   {
+    "word": "cruelty",
+    "si": 1,
+    "field": "tr",
+    "old": "동물 학대는 막아야 해.",
+    "new": "동물한테 잔인하게 구는 건 막아야 해.",
+    "severity": "mid",
+    "problem": "'동물 학대'는 abuse를 부르는 단서. 잔인함 쪽으로 조임."
+   },
+   {
+    "word": "cultivate",
+    "si": 1,
+    "field": "ko",
+    "old": "① 재배하다, 갈다",
+    "new": "① 경작하다, (땅을) 갈다",
+    "severity": "mid",
+    "problem": "'재배하다'는 grow(② 기르다, 재배하다, set06)와 겹쳐 'Farmers grow rice'로 유도됨. tr의 '경작'을 ko에도 앞세워 cultivate에 묶음."
+   },
+   {
+    "word": "cultivate",
+    "si": 1,
+    "field": "tr",
+    "old": "농부들은 이 무논에서 벼를 경작해.",
+    "new": "농부들은 이 논에서 벼를 경작해.",
+    "severity": "low",
+    "problem": "'무논'은 고등학생에게 낯선 말이라 구어체 번역으로 부자연스러움. '논'이면 충분."
+   },
+   {
+    "word": "discouragement",
+    "si": 1,
+    "field": "ko",
+    "old": "① 낙담, 좌절",
+    "new": "① 낙담, 의욕 상실",
+    "severity": "mid",
+    "problem": "'좌절'은 frustration의 대표 번역이라 'deep frustration'으로 유도됨. 낙담 계열로만 좁힘."
+   },
+   {
+    "word": "enclosure",
+    "si": 1,
+    "field": "tr",
+    "old": "양들은 밤에 큰 울타리 안에 있어.",
+    "new": "양들은 밤에 울타리 친 넓은 구역 안에 있어.",
+    "severity": "mid",
+    "problem": "'큰 울타리 안에'는 fence(① 울타리, set16)를 부름. ko의 '울타리 친 구역'과 맞추어 '구역'이 드러나게."
+   },
+   {
+    "word": "footpath",
+    "si": 1,
+    "field": "ko",
+    "old": "① 오솔길, 보행로",
+    "new": "① 보행로, 산책로",
+    "severity": "mid",
+    "problem": "'오솔길'은 path(① 좁은 길, 오솔길, set10)의 ko 그대로라 'A narrow path leads to the top'이 가장 자연스러운 답이 됨. 보행로 계열로 좁힘."
+   },
+   {
+    "word": "berry",
+    "si": 1,
+    "field": "tr",
+    "old": "우리는 덤불의 빨간 열매를 다 땄어.",
+    "new": "우리는 덤불의 빨간 베리를 다 땄어.",
+    "severity": "mid",
+    "problem": "'빨간 열매'는 fruit(① 과일)에도 닿아 'every red fruit on the bush'로 유도됨. 베리를 그대로 써서 묶음."
+   },
+   {
+    "word": "ache",
+    "si": 1,
+    "field": "ko",
+    "old": "① (은근한) 아픔",
+    "new": "① (은근한) 아픔, 쑤심",
+    "severity": "mid",
+    "problem": "'dull ___ in my back'은 dull pain도 자연스럽고 ko '아픔'이 pain(① 아픔, 고통, set08)에 닿음. tr의 '쑤시다'를 ko에도 넣어 ache 고유 결을 표시(② 카드의 '쑤시다'와도 일관)."
+   },
+   {
+    "word": "indoors",
+    "si": 1,
+    "field": "ko",
+    "old": "① 실내에서, 안에서",
+    "new": "① 실내에서",
+    "severity": "mid",
+    "problem": "'안에서'가 inside(① 안에, 안쪽)의 ko와 겹쳐 'let's stay inside'로 유도됨. 실내로만 좁힘."
+   },
+   {
+    "word": "hardship",
+    "si": 1,
+    "field": "ko",
+    "old": "① 고난, 어려움",
+    "new": "① 고난, 고생",
+    "severity": "low",
+    "problem": "'어려움'이 difficulty(① 어려움, 곤란, set13)와 겹쳐 'years of difficulty'로 갈 수 있음. 고난·고생으로 좁힘."
+   },
+   {
+    "word": "burial",
+    "si": 1,
+    "field": "ko",
+    "old": "① 매장, 장례",
+    "new": "① (시신의) 매장",
+    "severity": "mid",
+    "problem": "'장례'가 funeral(① 장례식, set16)을 불러 'The funeral was held on a cold morning'이 완벽히 들어감. c도 funeral을 구분하므로 ko에서 장례를 빼야 함."
+   },
+   {
+    "word": "fireplace",
+    "si": 1,
+    "field": "meow",
+    "old": "fireplace, 벽난로 앞자리는 이 몸의 지정석이라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "7번 연습(2061~2070, 11장)에 eyelid·fireplace·footpath 3개 meow가 있고 fireplace·footpath가 연속 두 카드라 다섯 카드당 하나를 넘김. 세계관(BIG MOUNTAIN) 연결이 있는 footpath 줄을 남기고 fireplace 줄을 삭제(삭제 후 세트 meow 14개, 12~18 범위 유지)."
+   },
+   {
+    "word": "kneel",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 아이랑 얘기하려고 무릎을 꿇었어.",
+    "new": "걔는 아이랑 얘기하려고 무릎을 꿇었어.",
+    "severity": "low",
+    "problem": "사람 주어는 '걔'로 통일하는 규칙인데 '그녀는'을 씀."
+   },
+   {
+    "word": "admiration",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 감탄하며 그 그림을 바라봤어.",
+    "new": "걔는 감탄하며 그 그림을 바라봤어.",
+    "severity": "low",
+    "problem": "사람 주어 '그녀는' — 규칙은 '걔'."
+   },
+   {
+    "word": "annoyance",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 지연에 대한 짜증을 감추지 못했어.",
+    "new": "걔는 지연에 대한 짜증을 감추지 못했어.",
+    "severity": "low",
+    "problem": "사람 주어 '그녀는' — 규칙은 '걔'."
+   },
+   {
+    "word": "amuse",
+    "si": 1,
+    "field": "ipa",
+    "old": "əmˈjuz",
+    "new": "əˈmjuz",
+    "severity": "low",
+    "problem": "강세 기호 위치가 음절 경계에 맞지 않음(əmˈjuz). 메리엄웹스터 ə-ˈmyüz → 강세는 mj 앞."
+   },
+   {
+    "word": "amusing",
+    "si": 1,
+    "field": "ipa",
+    "old": "əmˈjuzɪŋ",
+    "new": "əˈmjuzɪŋ",
+    "severity": "low",
+    "problem": "amuse와 같은 강세 기호 위치 오류(əmˈjuzɪŋ)."
+   }
+  ],
+  "lesson00": [
+   {
+    "word": "one",
+    "si": 3,
+    "field": "ex",
+    "old": "{{BLANK}} should always keep {{BLANK}}'s word.",
+    "new": "{{BLANK}} should always keep a promise.",
+    "severity": "high",
+    "problem": "빈칸이 두 개({{BLANK}} ... {{BLANK}}'s) — 규칙은 {{BLANK}} 하나. 앱은 split/join이라 두 자리 모두 슬롯이 뜬다. 초안 fix처럼 one's를 남기면 답이 문장 안에 그대로 노출되므로 소유격 없는 문장으로 교체(기존 tr '누구든 약속은 지켜야 하는 법이다'와 그대로 맞음)."
+   },
+   {
+    "word": "one",
+    "si": 2,
+    "field": "c",
+    "old": "앞에 나온 명사(pen)를 반복하지 않으려고 대신 쓰는 one. that one = 저것. it은 '바로 그것(특정)', one은 '같은 종류 중 하나'. I need a new one(새 펜 하나) / I need it(잃어버린 그 펜).",
+    "new": "앞에 나온 명사(pen)를 반복하지 않으려고 대신 쓰는 one. it은 '바로 그것(특정)', one은 '같은 종류 중 하나'.",
+    "severity": "mid",
+    "problem": "해설 134자로 72자 상한의 두 배. it/one 대비만 남기고 예시 문장을 걷어냄(SPEC 예시 카드와 동일, 71자)."
+   },
+   {
+    "word": "hundred",
+    "si": 1,
+    "field": "c",
+    "old": "100. two hundred처럼 수 뒤엔 -s 없음. 영어 쉼표는 0 세 개마다(1,000): 우리 '만' 자리에 영어는 '천'이 선다.",
+    "new": "100. two hundred처럼 수 뒤엔 -s 없음. 쉼표는 0 세 개마다(1,000) — 천 단위로 센다.",
+    "severity": "low",
+    "problem": "해설 77자, 72자 초과."
+   },
+   {
+    "word": "thousand",
+    "si": 1,
+    "field": "c",
+    "old": "1,000. 우리가 만 단위로 세듯 영어는 천 단위로 센다. 천 위의 이름은 million→billion→trillion. five thousand(-s 없음).",
+    "new": "1,000. 우리는 만 단위, 영어는 천 단위로 센다. 그 위는 million→billion→trillion.",
+    "severity": "low",
+    "problem": "해설 90자, 72자 초과."
+   },
+   {
+    "word": "billion",
+    "si": 1,
+    "field": "c",
+    "old": "10억. 천×million=billion(0 아홉 개). '십억'이라 우리말과 어긋나는 첫 자리: 1 billion won=10억 원.",
+    "new": "10억. 천×million=billion(0 아홉 개). 우리말 단위와 어긋나는 자리: 1 billion won=10억 원.",
+    "severity": "low",
+    "problem": "해설 75자, 72자 초과."
+   },
+   {
+    "word": "billion",
+    "si": 1,
+    "field": "ex",
+    "old": "Over seven {{BLANK}} people live on Earth.",
+    "new": "Over eight {{BLANK}} people live on Earth.",
+    "severity": "low",
+    "problem": "세계 인구는 2022년부터 80억 초과 — 'over seven billion'은 낡은 수치. 학생이 사실로 외우게 됨."
+   },
+   {
+    "word": "billion",
+    "si": 1,
+    "field": "tr",
+    "old": "지구엔 70억이 넘는 사람이 살아.",
+    "new": "지구엔 80억이 넘는 사람이 살아.",
+    "severity": "low",
+    "problem": "ex 수치 갱신에 맞춤."
+   },
+   {
+    "word": "three",
+    "si": 1,
+    "field": "ex",
+    "old": "A triangle has {{BLANK}} sides.",
+    "new": "I eat {{BLANK}} meals a day.",
+    "severity": "mid",
+    "problem": "어휘 통제 위반: triangle은 LDV·기초·0세트·생활어 어디에도 없음(38세트 표제어). meal은 LDV."
+   },
+   {
+    "word": "three",
+    "si": 1,
+    "field": "tr",
+    "old": "삼각형은 변이 세 개야.",
+    "new": "난 하루에 세 끼 먹어.",
+    "severity": "mid",
+    "problem": "ex 교체에 맞춤."
+   },
+   {
+    "word": "homework",
+    "si": 1,
+    "field": "ex",
+    "old": "I forgot my math {{BLANK}} at home.",
+    "new": "I forgot my English {{BLANK}} at home.",
+    "severity": "mid",
+    "problem": "어휘 통제 위반: math는 26세트 표제어라 0세트 허용 목록 밖. English는 고유명사(대문자)라 허용."
+   },
+   {
+    "word": "homework",
+    "si": 1,
+    "field": "tr",
+    "old": "수학 숙제를 집에 두고 왔어.",
+    "new": "영어 숙제를 집에 두고 왔어.",
+    "severity": "mid",
+    "problem": "ex 교체에 맞춤."
+   },
+   {
+    "word": "gym",
+    "si": 1,
+    "field": "ex",
+    "old": "We play badminton in the {{BLANK}}.",
+    "new": "We play basketball in the {{BLANK}}.",
+    "severity": "mid",
+    "problem": "어휘 통제 위반: badminton은 어느 목록에도 없음. 생활어 부록(whitelist)의 basketball로 교체."
+   },
+   {
+    "word": "gym",
+    "si": 1,
+    "field": "tr",
+    "old": "우리 체육관에서 배드민턴 쳐.",
+    "new": "우리 체육관에서 농구 해.",
+    "severity": "mid",
+    "problem": "ex 교체에 맞춤."
+   },
+   {
+    "word": "shopping",
+    "si": 1,
+    "field": "ex",
+    "old": "Mom went {{BLANK}} at the mall.",
+    "new": "Mom went {{BLANK}} downtown.",
+    "severity": "mid",
+    "problem": "어휘 통제 위반: mall은 29세트 표제어라 허용 목록 밖. 생활어 부록 downtown으로 교체."
+   },
+   {
+    "word": "shopping",
+    "si": 1,
+    "field": "tr",
+    "old": "엄마는 몰에 쇼핑하러 가셨어.",
+    "new": "엄마는 시내로 쇼핑하러 가셨어.",
+    "severity": "mid",
+    "problem": "ex 교체에 맞춤."
+   },
+   {
+    "word": "download",
+    "si": 1,
+    "field": "ex",
+    "old": "I need to {{BLANK}} the new update.",
+    "new": "I need to {{BLANK}} the new app.",
+    "severity": "mid",
+    "problem": "어휘 통제 위반: update는 27세트 표제어라 허용 목록 밖. 0세트 표제어 app으로 교체."
+   },
+   {
+    "word": "download",
+    "si": 1,
+    "field": "tr",
+    "old": "새 업데이트를 다운받아야 해.",
+    "new": "새 앱을 다운받아야 해.",
+    "severity": "mid",
+    "problem": "ex 교체에 맞춤."
+   },
+   {
+    "word": "password",
+    "si": 1,
+    "field": "ex",
+    "old": "I forgot the wifi {{BLANK}} again.",
+    "new": "I forgot my email {{BLANK}} again.",
+    "severity": "mid",
+    "problem": "어휘 통제 위반: wifi는 어느 목록에도 없음. 0세트 표제어 email로 교체."
+   },
+   {
+    "word": "password",
+    "si": 1,
+    "field": "tr",
+    "old": "와이파이 비밀번호를 또 까먹었어.",
+    "new": "이메일 비밀번호를 또 까먹었어.",
+    "severity": "mid",
+    "problem": "ex 교체에 맞춤."
+   },
+   {
+    "word": "asshole",
+    "si": 1,
+    "field": "ex",
+    "old": "That guy is a total {{BLANK}}.",
+    "new": "That man is a total {{BLANK}}.",
+    "severity": "mid",
+    "problem": "어휘 통제 위반: guy는 23세트 표제어라 0세트 허용 목록 밖. man은 LDV."
+   },
+   {
+    "word": "asshole",
+    "si": 1,
+    "field": "tr",
+    "old": "저 자식 완전 개자식이야.",
+    "new": "저 남자 완전 개자식이야.",
+    "severity": "mid",
+    "problem": "ex 교체에 맞춤."
+   },
+   {
+    "word": "bastard",
+    "si": 1,
+    "field": "ex",
+    "old": "You lucky {{BLANK}}!",
+    "new": "You clever {{BLANK}}!",
+    "severity": "mid",
+    "problem": "어휘 통제 위반: lucky는 24세트 표제어(luck만 LDV, audit도 위반 판정). ko의 '친구끼리 장난' 용법을 살려 clever(LDV)로."
+   },
+   {
+    "word": "bastard",
+    "si": 1,
+    "field": "tr",
+    "old": "이 운 좋은 자식아!",
+    "new": "이 똑똑한 자식아!",
+    "severity": "mid",
+    "problem": "ex 교체에 맞춤."
+   },
+   {
+    "word": "positive",
+    "si": 1,
+    "field": "tr",
+    "old": "긍정적으로, 계속 가.",
+    "new": "긍정적으로 생각하고 계속 가.",
+    "severity": "low",
+    "problem": "'긍정적으로, 계속 가.'는 쉼표로 끊긴 비문에 가까움 — 구어로 이어지게. '긍정적' 단서는 그대로 positive에만 닿음."
+   },
+   {
+    "word": "sweater",
+    "si": 1,
+    "field": "c",
+    "old": "발음 [스웨터]. sweat(땀)과 철자가 같다.",
+    "new": "발음 [스웨터]. sweat(땀)+er, 땀 나게 덥히는 옷.",
+    "severity": "low",
+    "problem": "'sweat(땀)과 철자가 같다'는 사실 오류 — 철자가 같은 게 아니라 sweat+er 구성(원래 땀 내려고 입던 운동복)."
+   },
+   {
+    "word": "Friday",
+    "si": 1,
+    "field": "meow",
+    "old": "Friday, 금요일 밤은 인간도 고양이도 안 잔다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "Wednesday(2장 앞)와 함께 다섯 카드 안에 meow 둘. Friday 줄은 단어 뜻 외 교육 내용이 없어 더 얇음 — 삭제(Wednesday 줄은 철자 함정 킥)."
+   },
+   {
+    "word": "maybe",
+    "si": 1,
+    "field": "meow",
+    "old": "Maybe, 아마도라고 답하면 반은 모른다는 뜻이라고양. 확실히 외우라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "yeah(2장 앞)와 함께 다섯 카드 안에 meow 둘. yeah 줄(구어/답안 구별)이 교육 내용이 있으니 maybe 줄 삭제."
+   },
+   {
+    "word": "delicious",
+    "si": 1,
+    "field": "meow",
+    "old": "delicious, 맛있다고양? 츄르 앞에선 다 무의미하다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "bored(2장 뒤)와 함께 다섯 카드 안에 meow 둘. bored 줄은 boring/bored 혼동쌍 킥이라 남기고 delicious 줄 삭제."
+   },
+   {
+    "word": "darn",
+    "si": 1,
+    "field": "meow",
+    "old": "Darn, 젠장. 제일 순한 욕이라고양. 이 정도는 고양이도 쓴다고양.",
+    "new": "Darn, 아이참. 제일 순한 욕이라고양. 이 정도는 고양이도 쓴다고양.",
+    "severity": "low",
+    "problem": "meow가 'Darn, 젠장'이라 ko '[완곡] 이런, 아이참'과 어긋남 — 젠장은 같은 exercise의 damn 카드 뜻이라 학생이 두 카드를 섞게 됨."
+   }
+  ],
+  "lesson01": [
+   {
+    "word": "like",
+    "si": 1,
+    "field": "ex",
+    "old": "I {{BLANK}} him as a friend, but I don't love him.",
+    "new": "I {{BLANK}} him, but I don't love him.",
+    "severity": "mid",
+    "problem": "예문이 11토큰으로 10토큰 상한 초과(as a friend 군더더기)."
+   },
+   {
+    "word": "like",
+    "si": 1,
+    "field": "tr",
+    "old": "난 그를 친구로서 좋아하지만, 사랑하진 않아.",
+    "new": "난 걔를 좋아하긴 하지만, 사랑하진 않아.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역 + 사람 주어 '걔'."
+   },
+   {
+    "word": "see",
+    "si": 2,
+    "field": "tr",
+    "old": "아, 알겠다! 이제 말이 되네.",
+    "new": "아, 그렇구나! 이제 말이 되네.",
+    "severity": "low",
+    "problem": "'아, 알겠다!'는 understand도 그대로 들어감(Oh, I understand!). 해설이 이미 'I see = 그렇구나'라 하니 번역을 그 관용 대응으로 조여 표적 단어에만 닿게 함."
+   },
+   {
+    "word": "well",
+    "si": 2,
+    "field": "ex",
+    "old": "I don't feel {{BLANK}} today.",
+    "new": "Get {{BLANK}} soon! We miss you.",
+    "severity": "high",
+    "problem": "I don't feel ___ today는 good(해설 스스로 흔하다고 인정)·fine·okay·great가 다 자연스럽게 들어감. well에 붙는 관용구 Get well soon으로 교체(6토큰, 어휘 통제 통과)."
+   },
+   {
+    "word": "well",
+    "si": 2,
+    "field": "tr",
+    "old": "나 오늘 몸이 안 좋아.",
+    "new": "얼른 건강해져! 다들 네가 보고 싶어.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역. '건강해져'로 ko(건강한)와 연결, better(② 나아진)와 구별."
+   },
+   {
+    "word": "life",
+    "si": 3,
+    "field": "ex",
+    "old": "City {{BLANK}} is busier than country life.",
+    "new": "How's {{BLANK}} in the big city?",
+    "severity": "mid",
+    "problem": "예문 안에 정답 단어 life가 그대로 노출됨(country life) — 빈칸을 베끼면 끝. 초안의 '___ in a big city is busy'는 Living도 들어가서 관용 인사 How's life ~?로 다듬음(6토큰, 어휘 통제 통과, 관사 없는 용법도 유지)."
+   },
+   {
+    "word": "life",
+    "si": 3,
+    "field": "tr",
+    "old": "도시 생활은 시골 생활보다 더 바빠.",
+    "new": "대도시 생활은 어때?",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역."
+   },
+   {
+    "word": "state",
+    "si": 1,
+    "field": "ex",
+    "old": "The old house was in a poor {{BLANK}}.",
+    "new": "She was in a {{BLANK}} of shock after the news.",
+    "severity": "mid",
+    "problem": "in a poor ___는 condition도 들어감. state에만 붙는 in a state of shock으로 교체(10토큰, 상한 이내)."
+   },
+   {
+    "word": "state",
+    "si": 1,
+    "field": "tr",
+    "old": "그 낡은 집은 상태가 안 좋았어.",
+    "new": "걔는 그 소식 듣고 충격 상태였어.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역 + 사람 주어 '걔'."
+   },
+   {
+    "word": "state",
+    "si": 3,
+    "field": "ex",
+    "old": "Please {{BLANK}} your name clearly.",
+    "new": "Please {{BLANK}} your name for the record.",
+    "severity": "mid",
+    "problem": "'이름을 똑똑히 진술하세요'는 한국어로 부자연스럽고, say·give도 들어감. 법정 관용구 state your name for the record로 바꿔 '진술'이 살아나게."
+   },
+   {
+    "word": "state",
+    "si": 3,
+    "field": "tr",
+    "old": "이름을 똑똑히 진술하세요.",
+    "new": "기록을 위해 성명을 진술하세요.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역. 공식 장면이라 '진술'이 자연스러움."
+   },
+   {
+    "word": "really",
+    "si": 1,
+    "field": "ipa",
+    "old": "ˈrili",
+    "new": "ˈriəli",
+    "severity": "low",
+    "problem": "같은 단어인데 ①은 ˈrili, ②③은 ˈriəli로 표기가 갈림. real(ˈriəl)과 맞춰 ˈriəli로 통일."
+   },
+   {
+    "word": "around",
+    "si": 2,
+    "field": "ex",
+    "old": "We walked {{BLANK}} the town all day.",
+    "new": "I looked {{BLANK}}, but no one was there.",
+    "severity": "low",
+    "problem": "pos가 adv인데 walked around the town에서 around는 전치사(목적어 the town). 해설에 있는 look around로 부사 용법 예문 교체(8토큰)."
+   },
+   {
+    "word": "around",
+    "si": 2,
+    "field": "tr",
+    "old": "우리는 온종일 마을을 여기저기 걸어 다녔어.",
+    "new": "여기저기 둘러봤는데, 아무도 없었어.",
+    "severity": "low",
+    "problem": "예문 교체에 맞춘 번역."
+   },
+   {
+    "word": "left",
+    "si": 1,
+    "field": "ex",
+    "old": "Turn {{BLANK}} at the corner.",
+    "new": "I write with my {{BLANK}} hand.",
+    "severity": "low",
+    "problem": "pos adj·ko '왼쪽의'인데 Turn left의 left는 부사. 형용사 용법으로 교체(6토큰, ko·tr '왼손'이라 right는 배제됨)."
+   },
+   {
+    "word": "left",
+    "si": 1,
+    "field": "tr",
+    "old": "모퉁이에서 왼쪽으로 돌아.",
+    "new": "난 왼손으로 글씨 써.",
+    "severity": "low",
+    "problem": "예문 교체에 맞춘 번역."
+   },
+   {
+    "word": "game",
+    "si": 2,
+    "field": "meow",
+    "old": "game, 경기든 게임이든 고양이가 이긴다고양. 규칙은 내가 정하고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "old ③(119번째)·game ②(123번째)가 다섯 카드 안에 meow 둘(세트 내 유일한 밀집 위반, 기계 확인). game 줄은 뜻 정보가 얇아('고양이가 이긴다') 삭제. 삭제 후 meow 14줄, 간격 전부 5 이상."
+   },
+   {
+    "word": "like",
+    "si": 1,
+    "field": "c",
+    "old": "like + -ing과 like + to부정사 둘 다 쓴다(I like swimming = I like to swim). 단 would like는 to부정사만 받는다.",
+    "new": "like -ing = like to(like swimming = like to swim). would like는 to부정사만.",
+    "severity": "low",
+    "problem": "해설 93자로 72자 상한 초과. 요점만 남겨 압축(70자)."
+   },
+   {
+    "word": "like",
+    "si": 2,
+    "field": "c",
+    "old": "동사 like(좋아하다)와 철자가 같지만 여기서는 '~처럼'. 명사 앞에 오면 전치사다. 비교: as+명사=~로서(자격·역할). She swims like a fish는 '물고기처럼 헤엄친다'인데, as를 쓰면 '물고기로서'가 되어버린다.",
+    "new": "명사 앞이면 전치사 '~처럼'. as는 '~로서'(자격) — swims as a fish면 '물고기로서'가 돼 버린다.",
+    "severity": "low",
+    "problem": "해설 133자로 72자 상한 초과. 요점만 남겨 압축(66자)."
+   },
+   {
+    "word": "no",
+    "si": 2,
+    "field": "c",
+    "old": "양(量) 한정사. 명사 앞에서 '전혀 없음'. no + 명사 = not any. not은 동사·형용사를 부정하고(I'm not tired), no는 명사를 부정한다(no time).",
+    "new": "no + 명사 = not any. not은 동사·형용사를(I'm not tired), no는 명사를 부정한다(no time).",
+    "severity": "low",
+    "problem": "해설 101자로 72자 상한 초과. 요점만 남겨 압축(70자)."
+   },
+   {
+    "word": "people",
+    "si": 1,
+    "field": "c",
+    "old": "person은 한 명, people은 여러 명. people은 그 자체로 복수라 three people처럼 셀 때도 모양이 바뀌지 않는다. (persons도 법률·격식 문서에는 쓰이지만, 보통은 people.)",
+    "new": "person은 한 명, people은 여러 명. 그 자체로 복수라 three people처럼 모양이 안 바뀐다.",
+    "severity": "low",
+    "problem": "해설 117자로 72자 상한 초과. 요점만 남겨 압축(62자)."
+   },
+   {
+    "word": "new",
+    "si": 1,
+    "field": "c",
+    "old": "news가 'North·East·West·South의 머리글자'라는 설명은 사실이 아니다. news는 new의 복수(새로운 것들)에서 온 말이다.",
+    "new": "news가 North·East·West·South의 머리글자라는 설은 거짓. new의 복수(새로운 것들)에서 왔다.",
+    "severity": "low",
+    "problem": "해설 81자로 72자 상한 초과. 요점만 남겨 압축(64자)."
+   },
+   {
+    "word": "good",
+    "si": 1,
+    "field": "c",
+    "old": "품질이 높다는 기본 칭찬어. nice는 '기분·느낌이 좋을 때' 쓴다. [!] '잘한다'는 be good at — good at math(O), good in math(X).",
+    "new": "품질이 높다는 기본 칭찬어. [!] '잘한다'는 be good at — good at math(O), in math(X).",
+    "severity": "low",
+    "problem": "해설 97자로 72자 상한 초과. 요점만 남겨 압축(68자)."
+   },
+   {
+    "word": "after",
+    "si": 1,
+    "field": "c",
+    "old": "after + 명사/주어+동사 — After we ate, we walked. [!] '지금부터 3일 후'는 in three days(O), after three days(X).",
+    "new": "뒤에 문장도 온다(After we ate). [!] '지금부터 3일 후'는 in three days(after X).",
+    "severity": "low",
+    "problem": "해설 99자로 72자 상한 초과. 압축하되 초안이 떨어뜨린 '지금부터'를 복원(과거 서술의 after three days는 정문이므로 '3일 후 = after X'만으로는 사실이 아님). 65자."
+   },
+   {
+    "word": "see",
+    "si": 3,
+    "field": "c",
+    "old": "아는 사람과 만나는 것은 약속이든 우연이든 see. [!] 첫 만남은 meet — Nice to meet you(첫 만남) / Nice to see you(아는 사이).",
+    "new": "아는 사람과 만나면 약속이든 우연이든 see. [!] 첫 만남은 meet — Nice to meet you는 처음 볼 때만.",
+    "severity": "low",
+    "problem": "해설 94자로 72자 상한 초과. 요점만 남겨 압축(69자)."
+   },
+   {
+    "word": "think",
+    "si": 2,
+    "field": "c",
+    "old": "곰곰이 생각할 땐 think about[over]. think of는 '문득 떠올리다'. What do you think of it?은 의견을 묻는 말.",
+    "new": "곰곰이 생각하면 think about, 문득 떠올리면 think of. What do you think of it?은 의견 묻기.",
+    "severity": "low",
+    "problem": "해설 85자로 72자 상한 초과. 압축하되 초안의 잘린 'think of it?'을 온전한 문장 What do you think of it?으로 복원(72자)."
+   },
+   {
+    "word": "want",
+    "si": 1,
+    "field": "c",
+    "old": "want to + 동사 = ~하고 싶다. 남이 하길 바라면 want + 사람 + to부정사(I want you to come). that절은 못 쓴다.",
+    "new": "want to + 동사 = ~하고 싶다. 남이 하길 바라면 want + 사람 + to부정사. that절은 못 쓴다.",
+    "severity": "low",
+    "problem": "해설 84자로 72자 상한 초과. 요점만 남겨 압축(64자)."
+   },
+   {
+    "word": "well",
+    "si": 2,
+    "field": "c",
+    "old": "건강·컨디션이 좋다는 뜻. 명사 앞에는 못 쓴다(a well man X → a healthy man). 구어에서는 I feel good도 흔하다.",
+    "new": "건강·컨디션이 좋다. 명사 앞엔 못 쓴다(a well man X → healthy). Get well soon = 얼른 나아.",
+    "severity": "low",
+    "problem": "해설 81자로 72자 상한 초과. 요점만 남겨 압축(70자, 예문 교체 Get well soon 반영)."
+   },
+   {
+    "word": "because",
+    "si": 1,
+    "field": "c",
+    "old": "뒤에 문장이 오면 because, 명사만 오면 because of — because of the rain(O) / because the rain(X). 수능 어법의 단골이다.",
+    "new": "문장 앞엔 because, 명사 앞엔 because of — because of rain(O), because rain(X).",
+    "severity": "low",
+    "problem": "해설 97자로 72자 상한 초과. 요점만 남겨 압축(70자)."
+   },
+   {
+    "word": "way",
+    "si": 2,
+    "field": "c",
+    "old": "길·방향의 way. on the way = 가는 길에, in the way = 길을 막고. [!] '이런 식으로'는 in this way(by this way는 X).",
+    "new": "on the way = 가는 길에, in the way = 길을 막고. [!] '이런 식으로'는 in this way(by X).",
+    "severity": "low",
+    "problem": "해설 93자로 72자 상한 초과. 요점만 남겨 압축(72자)."
+   },
+   {
+    "word": "need",
+    "si": 1,
+    "field": "c",
+    "old": "need to go(가야 한다)처럼, need to + 동사 = ~할 필요가 있다. want는 '원하다(욕구)', need는 '필요하다(필수)'.",
+    "new": "need to + 동사 = ~해야 한다. want는 '원하다(욕구)', need는 '필요하다(필수)'.",
+    "severity": "low",
+    "problem": "해설 81자로 72자 상한 초과. 요점만 남겨 압축(57자)."
+   },
+   {
+    "word": "work",
+    "si": 1,
+    "field": "c",
+    "old": "직업으로 일하는 것이 work. 명사로도 '일'을 뜻한다 — go to work(출근하다), a lot of work(많은 일). 이때는 셀 수 없다.",
+    "new": "직업으로 일하다. 명사 '일'로도 쓰며 셀 수 없다 — go to work(출근), a lot of work(많은 일).",
+    "severity": "low",
+    "problem": "해설 84자로 72자 상한 초과. 요점만 남겨 압축(67자)."
+   },
+   {
+    "word": "take",
+    "si": 1,
+    "field": "c",
+    "old": "여기서 멀어지며 가져가는 것이 take. Take your coat(코트를 챙겨라 — 이미 있는 것을 집어 감) / Get some milk(우유를 사 와라 — 없던 것을 구해 옴) / Bring it here(이리로 가져와라 — 화자 쪽으로 옮김).",
+    "new": "멀어지며 가져가면 take, 화자 쪽으로 옮기면 bring. Take your coat(챙겨 가) / Bring it here.",
+    "severity": "low",
+    "problem": "해설 140자로 72자 상한 초과. 요점만 남겨 압축(71자)."
+   },
+   {
+    "word": "many",
+    "si": 1,
+    "field": "c",
+    "old": "양(量) 한정사. How many books?(책 몇 권?)처럼, 셀 수 있는 명사 앞에서 '많은'. [!] much는 셀 수 없는 것에 쓴다. many books(O) / much water(O) / many water(X).",
+    "new": "셀 수 있는 명사 앞의 '많은'. [!] much는 셀 수 없는 것 — many books / much water(O).",
+    "severity": "low",
+    "problem": "해설 127자로 72자 상한 초과. 요점만 남겨 압축(67자)."
+   },
+   {
+    "word": "never",
+    "si": 1,
+    "field": "c",
+    "old": "not보다 강한 '절대·한 번도 하지 않음'. [!] 풀어 쓴 not ever에서 알 수 있듯 not이 이미 들어 있어, not과 함께 쓸 수 없다 (I haven't never X).",
+    "new": "not보다 강한 '한 번도 안 함'. not ever라 not이 이미 들어 있어 함께 못 쓴다(I haven't never X).",
+    "severity": "low",
+    "problem": "해설 103자로 72자 상한 초과. 요점만 남겨 압축(72자)."
+   },
+   {
+    "word": "say",
+    "si": 1,
+    "field": "c",
+    "old": "say 바로 뒤에는 사람이 아니라 내용이 온다(say something) / tell 바로 뒤에는 사람이 온다(tell me) / talk 바로 뒤에는 to·with·about이 온다(talk to him) / speak 바로 뒤에는 언어가 온다(speak Korean). 모두 '말하다'지만 바로 뒤에 뭐가 오는지에 따라 다르다.",
+    "new": "say 뒤엔 내용(say it), tell 뒤엔 사람(tell me), talk 뒤엔 to·about, speak 뒤엔 언어.",
+    "severity": "low",
+    "problem": "해설 185자로 72자 상한 초과. 압축(70자). 초안의 'say so'는 초심자에게 불투명해 'say it'으로 다듬음."
+   },
+   {
+    "word": "life",
+    "si": 3,
+    "field": "c",
+    "old": "어떻게 살아가느냐의 '생활'. city life처럼 관사 없이도 쓰지만, 사람마다의 생활은 their daily lives처럼 복수로 쓴다.",
+    "new": "어떻게 살아가느냐의 '생활'. city life처럼 관사 없이 쓰지만, 사람마다의 생활은 their daily lives.",
+    "severity": "low",
+    "problem": "해설 78자로 72자 상한 초과. 요점만 남겨 압축(68자). 새 예문 How's life ~?의 무관사 용법과도 일치."
+   },
+   {
+    "word": "great",
+    "si": 2,
+    "field": "c",
+    "old": "양·정도가 '엄청난'. a great deal of = 많은(양). a great amount(정도가 대단함) / a large amount(수량이 큼).",
+    "new": "양·정도가 '엄청난'. a great deal of = 많은(양). 셀 수 없는 것(time, money)에 쓴다.",
+    "severity": "low",
+    "problem": "해설 86자로 72자 상한 초과. a great amount/large amount 구별은 근거가 약해 빼고 압축(64자)."
+   },
+   {
+    "word": "while",
+    "si": 1,
+    "field": "c",
+    "old": "while I was eating(내가 먹는 동안)처럼, while + 주어 + 동사. 두 일이 같은 시간에 진행될 때 쓴다. during도 '~동안'이지만 뒤에 명사가 온다(during the movie).",
+    "new": "while + 주어 + 동사. 두 일이 동시 진행. during은 뒤에 명사만(during the movie).",
+    "severity": "low",
+    "problem": "해설 116자로 72자 상한 초과. 요점만 남겨 압축(62자)."
+   },
+   {
+    "word": "last",
+    "si": 1,
+    "field": "c",
+    "old": "[!] the last=마지막 / the latest=최신. last week(지난주)와 the last week(최근 한 주)도 다르다.",
+    "new": "the last=마지막 / the latest=최신. last week(지난주) ≠ the last week(최근 한 주).",
+    "severity": "low",
+    "problem": "해설 77자로 72자 상한 초과. 요점만 남겨 압축(69자)."
+   },
+   {
+    "word": "last",
+    "si": 2,
+    "field": "c",
+    "old": "지금을 기준으로 바로 앞의 — last week(지난주), last year(작년). last week=지난주 / next week=다음 주.",
+    "new": "지금 기준 바로 앞의 — last week(지난주), last year(작년). 반대는 next week(다음 주).",
+    "severity": "low",
+    "problem": "해설 79자로 72자 상한 초과. 요점만 남겨 압축(65자)."
+   },
+   {
+    "word": "man",
+    "si": 2,
+    "field": "c",
+    "old": "남녀 구분 없이 '인류'를 뜻하는 옛 용법. a 없이 단수로 쓴다. [!] men을 쓰면 '남자들'이 된다. 요즘은 humans·people을 더 쓴다.",
+    "new": "남녀 구분 없는 '인류'의 옛 용법. a 없이 단수. [!] men은 '남자들'. 요즘은 humans·people을 더 쓴다.",
+    "severity": "low",
+    "problem": "해설 85자로 72자 상한 초과. 요점만 남겨 압축(70자)."
+   },
+   {
+    "word": "something",
+    "si": 1,
+    "field": "c",
+    "old": "정해지지 않은 '어떤 것'. 형용사가 뒤에서 꾸민다 — something sweet. 부정·의문엔 보통 anything이지만 권유·부탁 의문문엔 something을 쓴다.",
+    "new": "형용사가 뒤에서 꾸민다 — something sweet. 부정·의문엔 anything, 권유·부탁 의문문엔 something.",
+    "severity": "low",
+    "problem": "해설 95자로 72자 상한 초과. 요점만 남겨 압축(70자)."
+   },
+   {
+    "word": "look",
+    "si": 1,
+    "field": "c",
+    "old": "look at me(나를 봐)처럼, 의지를 갖고 시선을 돌리는 것이 look. 뒤에 at이 따라온다. see=저절로 보이다 / look=일부러 시선을 돌려 보다 / watch=움직이는 것을 지켜보다.",
+    "new": "의지를 갖고 시선을 돌리는 것이 look, 뒤에 at. see=저절로 보이다 / watch=움직이는 것을 지켜보다.",
+    "severity": "low",
+    "problem": "해설 111자로 72자 상한 초과. 요점만 남겨 압축(64자)."
+   },
+   {
+    "word": "part",
+    "si": 1,
+    "field": "c",
+    "old": "the best part of the movie(영화의 가장 좋은 부분) / a quiet area of the city(도시의 조용한 구역) — part는 전체를 쪼갠 한 조각, area는 넓이를 가진 구역이다.",
+    "new": "part는 전체를 쪼갠 한 조각(the best part of the movie), area는 넓이가 있는 구역.",
+    "severity": "low",
+    "problem": "해설 119자로 72자 상한 초과. 요점만 남겨 압축(63자)."
+   },
+   {
+    "word": "come",
+    "si": 1,
+    "field": "c",
+    "old": "화자 쪽으로 가까워지는 이동이 come. go와 짝을 이룬다. come=나에게 가까워짐 / go=나에게서 멀어짐. \"I'm coming!\"은 '(네게) 가겠다' — 듣는 사람 쪽으로 가므로 come을 쓴다.",
+    "new": "come=나에게 가까워짐 / go=나에게서 멀어짐. \"I'm coming!\"은 듣는 사람 쪽으로 가므로 come을 쓴다.",
+    "severity": "low",
+    "problem": "해설 115자로 72자 상한 초과. 요점만 남겨 압축(67자)."
+   },
+   {
+    "word": "find",
+    "si": 1,
+    "field": "c",
+    "old": "find의 원뜻은 '가다가 마주치다'. 그래서 look for(찾아 나서는 과정)와 달리 find는 마주친 결과다 — I'm looking for it(찾는 중) / I found it(찾아냈다).",
+    "new": "look for는 찾아 나서는 과정, find는 마주친 결과 — looking for it(찾는 중) / found it.",
+    "severity": "low",
+    "problem": "해설 110자로 72자 상한 초과. 요점만 남겨 압축(68자)."
+   },
+   {
+    "word": "find",
+    "si": 2,
+    "field": "c",
+    "old": "I find the movie boring(보다 보니 지루하다)처럼, find + 목적어 + 형용사 = ~가 …하다고 여긴다. 겪어 가다가 마주친 판단이다. (불규칙 find-found-found)",
+    "new": "find + 목적어 + 형용사 = 겪어 보니 ~하다고 여기다(I find it boring). find-found-found.",
+    "severity": "low",
+    "problem": "해설 110자로 72자 상한 초과. 요점만 남겨 압축(70자)."
+   },
+   {
+    "word": "always",
+    "si": 1,
+    "field": "c",
+    "old": "빈도 100%. 빈도부사라 보통 일반동사 앞, be동사 뒤에 온다 (is always / always helps). always(항상) > usually(보통) > often(자주) > sometimes(가끔) > never(전혀) 순으로 빈도가 낮아진다.",
+    "new": "빈도 100%. 일반동사 앞·be동사 뒤(is always, always helps). always>usually>often.",
+    "severity": "low",
+    "problem": "해설 143자로 72자 상한 초과. 요점만 남겨 압축(70자)."
+   },
+   {
+    "word": "little",
+    "si": 2,
+    "field": "c",
+    "old": "양(量) 한정사. little water(물이 거의 없다) / a little water(물이 조금 있다)처럼, a가 붙으면 뜻이 뒤집힌다. 셀 수 없는 것에 쓰고, 셀 수 있으면 few/a few를 쓴다.",
+    "new": "little water(거의 없다) / a little water(조금 있다) — a가 붙으면 뒤집힌다. 셀 수 있으면 few.",
+    "severity": "low",
+    "problem": "해설 115자로 72자 상한 초과. 요점만 남겨 압축(71자)."
+   },
+   {
+    "word": "since",
+    "si": 1,
+    "field": "c",
+    "old": "과거 한 시점부터 지금까지 이어짐. 현재완료(have lived)와 자주 짝을 이룬다. since=시작 시점(since 2010) / for=기간의 길이(for ten years).",
+    "new": "과거 시점부터 지금까지, 현재완료와 짝. since=시작 시점(since 2010) / for=기간(for ten years).",
+    "severity": "low",
+    "problem": "해설 101자로 72자 상한 초과. 요점만 남겨 압축(71자)."
+   },
+   {
+    "word": "since",
+    "si": 2,
+    "field": "c",
+    "old": "because와 비슷한 '~니까'. 비교: because는 상대가 모르는 새 이유를 알려줄 때 쓰고(그래서 문장 뒤에 온다), since는 이미 아는 이유를 배경으로 깔 때 쓴다(그래서 문장 앞에 온다). Since it's raining, let's stay home(비 오는 건 서로 아는 사실, 요점은 '집에 있자'). [!] Why ~? 질문의 답에는 because만 쓴다.",
+    "new": "because는 상대가 모르는 새 이유(문장 뒤), since는 서로 아는 이유(문장 앞). Why?의 답은 because만.",
+    "severity": "low",
+    "problem": "해설 213자로 72자 상한 초과(세트 최장). 요점만 남겨 압축(70자)."
+   },
+   {
+    "word": "house",
+    "si": 1,
+    "field": "c",
+    "old": "사람이 사는 '건물'로서의 집. house=건물(물리적) / home=가정·보금자리(마음). A house is a building; a home is where you belong.",
+    "new": "사람이 사는 건물로서의 집. house=건물(물리적) / home=가정·보금자리(마음).",
+    "severity": "low",
+    "problem": "해설 102자로 72자 상한 초과. 요점만 남겨 압축(49자)."
+   },
+   {
+    "word": "place",
+    "si": 1,
+    "field": "c",
+    "old": "place는 넓이가 있는 장소인 반면, point는 하나의 점(위치·시점·요점)이다. 예를 들면 the point of the story(이야기의 요점).",
+    "new": "place는 넓이가 있는 장소, point는 하나의 점(위치·시점·요점) — the point of the story(요점).",
+    "severity": "low",
+    "problem": "해설 86자로 72자 상한 초과. 요점만 남겨 압축(70자)."
+   },
+   {
+    "word": "give",
+    "si": 1,
+    "field": "c",
+    "old": "give me a glass of water(물 한 잔 줘)처럼, give + 사람 + 사물. 가진 것을 남에게 건네는 동작이다. 반대 동작은 take(가져가다). (불규칙 give-gave-given)",
+    "new": "give + 사람 + 사물(give me water). 가진 것을 건네는 동작, 반대는 take. give-gave-given.",
+    "severity": "low",
+    "problem": "해설 113자로 72자 상한 초과. 요점만 남겨 압축(71자)."
+   },
+   {
+    "word": "give",
+    "si": 2,
+    "field": "c",
+    "old": "give a speech(연설하다), give a smile(미소 짓다)처럼 행동을 '하다'. (불규칙 give-gave-given)",
+    "new": "give a speech(연설하다), give a smile(미소 짓다)처럼 행동을 '하다'. (give-gave-given)",
+    "severity": "low",
+    "problem": "해설 74자로 72자 상한 초과. 요점만 남겨 압축(70자)."
+   },
+   {
+    "word": "show",
+    "si": 1,
+    "field": "c",
+    "old": "남이 보게 내보이다. show + 사람 + 사물. 뜻으로는 see의 사역 짝처럼 보이지만 어원은 서로 다르다. (show-showed-shown)",
+    "new": "남이 보게 내보이다. show + 사람 + 사물. see의 사역 짝 같지만 어원은 다르다. (show-showed-shown)",
+    "severity": "low",
+    "problem": "해설 81자로 72자 상한 초과. 요점만 남겨 압축(70자)."
+   },
+   {
+    "word": "end",
+    "si": 1,
+    "field": "c",
+    "old": "The movie ends at nine(영화가 아홉 시에 끝난다) / I finished my homework(숙제를 다 해냈다)처럼, end는 그냥 '끝남'(시점), finish는 '다 마무리함'(완수)이다.",
+    "new": "end는 그냥 '끝남'(시점), finish는 '다 마무리함'(완수). The movie ends / I finished it.",
+    "severity": "low",
+    "problem": "해설 118자로 72자 상한 초과. 요점만 남겨 압축(71자)."
+   },
+   {
+    "word": "sure",
+    "si": 1,
+    "field": "c",
+    "old": "의심 없이 믿는. be sure of/about = ~을 확신하다. sure=확신하는(주관적 마음) / certain=확실한(좀 더 객관적). 거의 같이 쓰이지만 certain이 격식적이다.",
+    "new": "be sure of/about = ~을 확신하다. sure=확신하는(주관적 마음) / certain=확실한(객관적·격식).",
+    "severity": "low",
+    "problem": "해설 106자로 72자 상한 초과. 요점만 남겨 압축(68자)."
+   },
+   {
+    "word": "big",
+    "si": 1,
+    "field": "c",
+    "old": "크기가 큰. 가장 일상적인 말이다. big=큰(일상·감정 섞임) / large=큰(크기·양, 격식) / great=큰(추상·정도). big problem / large amount / great fear.",
+    "new": "big=큰(일상) / large=큰(크기·양, 격식) / great=큰(정도). big problem, large amount.",
+    "severity": "low",
+    "problem": "해설 114자로 72자 상한 초과. 요점만 남겨 압축(71자)."
+   },
+   {
+    "word": "ever",
+    "si": 1,
+    "field": "c",
+    "old": "'살면서 한 번이라도'를 뜻한다. 의문문·최상급(the best ~ ever)과 잘 어울린다. ever=언젠가(긍정 방향의 질문) / never=결코 하지 않음(= not ever). 정반대다.",
+    "new": "'살면서 한 번이라도'. 의문문·최상급(the best ~ ever)과 어울린다. never(= not ever)와 정반대.",
+    "severity": "low",
+    "problem": "해설 108자로 72자 상한 초과. 요점만 남겨 압축(69자)."
+   },
+   {
+    "word": "put",
+    "si": 1,
+    "field": "c",
+    "old": "put the book on the desk(책을 책상에 놓다)처럼, put A in/on B. (불규칙 put-put-put — 형태가 변하지 않는다) put=그냥 두다(일상) / place=조심히 두다(격식). 거의 같지만 place가 더 격식적이다.",
+    "new": "put A in/on B. put=그냥 두다(일상) / place=조심히 두다(격식). put-put-put.",
+    "severity": "low",
+    "problem": "해설 142자로 72자 상한 초과. 요점만 남겨 압축(61자)."
+   },
+   {
+    "word": "someone",
+    "si": 1,
+    "field": "c",
+    "old": "정해지지 않은 한 사람. = somebody(좀 더 구어적). 부정·의문엔 보통 anyone이지만 부탁·권유 의문문엔 someone을 쓴다.",
+    "new": "정해지지 않은 한 사람. = somebody(더 구어적). 부정·의문엔 anyone, 부탁·권유 의문문엔 someone.",
+    "severity": "low",
+    "problem": "해설 78자로 72자 상한 초과. 요점만 남겨 압축(67자)."
+   },
+   {
+    "word": "number",
+    "si": 2,
+    "field": "c",
+    "old": "a number of apples(사과 여러 개, 셀 수 있는 것) / an amount of homework(숙제의 양, 셀 수 없는 것) — number는 개수, amount는 양이다.",
+    "new": "number=개수(셀 수 있는 것), amount=양(셀 수 없는 것). a number of apples.",
+    "severity": "low",
+    "problem": "해설 105자로 72자 상한 초과. 요점만 남겨 압축(60자)."
+   },
+   {
+    "word": "left",
+    "si": 1,
+    "field": "c",
+    "old": "오른쪽(right)의 반대. 왼쪽의 left와, leave(떠나다·남기다)의 과거·과거분사인 left는 어원이 다른 별개의 단어다. 철자만 같다.",
+    "new": "right의 반대. 왼쪽 left와 leave(떠나다·남기다)의 과거·과거분사 left는 어원이 다른 별개의 단어다.",
+    "severity": "low",
+    "problem": "해설 81자로 72자 상한 초과. 요점만 남겨 압축(65자)."
+   },
+   {
+    "word": "lot",
+    "si": 1,
+    "field": "c",
+    "old": "a lot of books(=many books, 많은 책), a lot of water(=much water, 많은 물)처럼, a lot of = 많은. 셀 수 있는 것과 없는 것 모두에 쓸 수 있어 편하다. 다만 격식을 갖춘 글에는 many/much를 쓴다.",
+    "new": "a lot of = 많은. 셀 수 있는 것(=many)과 없는 것(=much) 모두에 쓴다. 격식 있는 글엔 many/much.",
+    "severity": "low",
+    "problem": "해설 146자로 72자 상한 초과. 요점만 남겨 압축(71자)."
+   },
+   {
+    "word": "real",
+    "si": 1,
+    "field": "c",
+    "old": "실제로 존재하는·진품인. 가짜는 fake. real money(위조가 아닌 진짜 돈) / a true story(꾸며낸 것이 아닌 실화)처럼, real은 '진짜로 존재하느냐', true는 '내용이 사실이냐'를 따진다.",
+    "new": "real은 '진짜로 존재하느냐'(real money 진짜 돈), true는 '내용이 사실이냐'(a true story 실화).",
+    "severity": "low",
+    "problem": "해설 121자로 72자 상한 초과. 요점만 남겨 압축(70자)."
+   },
+   {
+    "word": "few",
+    "si": 1,
+    "field": "c",
+    "old": "양(量) 한정사. few friends(친구가 거의 없다) / a few friends(친구가 몇 있다)처럼, a가 붙으면 뜻이 뒤집힌다. 셀 수 있는 것에 쓰고, 셀 수 없으면 little/a little을 쓴다.",
+    "new": "few friends(거의 없다) / a few friends(몇 있다) — a가 붙으면 뒤집힌다. 셀 수 없으면 little.",
+    "severity": "low",
+    "problem": "해설 120자로 72자 상한 초과. 요점만 남겨 압축(71자)."
+   },
+   {
+    "word": "let",
+    "si": 1,
+    "field": "c",
+    "old": "let me go(가게 해 줘)처럼, let + 사람 + 동사원형 = ~하도록 두다. (불규칙 let-let-let) 반면 make me go(억지로 가게 시키다)처럼, make는 강제로 시킨다.",
+    "new": "let + 사람 + 동사원형 = ~하도록 두다(let me go). make me go는 억지로 시킨다. (let-let-let)",
+    "severity": "low",
+    "problem": "해설 109자로 72자 상한 초과. 요점만 남겨 압축(72자)."
+   },
+   {
+    "word": "different",
+    "si": 1,
+    "field": "c",
+    "old": "different from ~ = ~와 다른. 미국에선 different than도 표준이고, different to는 영국식이다. 시험에서는 from.",
+    "new": "different from ~ = ~와 다른. 미국은 different than도 표준, to는 영국식. 시험은 from.",
+    "severity": "low",
+    "problem": "해설 85자로 72자 상한 초과. 요점만 남겨 압축(68자)."
+   },
+   {
+    "word": "thought",
+    "si": 1,
+    "field": "c",
+    "old": "머릿속 생각·발상. think(생각하다)의 명사형이다. thought는 think의 과거형(think-thought-thought)이자 명사(생각)이다. 문장에서의 자리로 구별한다.",
+    "new": "think의 명사형. thought는 think의 과거형(think-thought-thought)이자 명사(생각). 자리로 구별.",
+    "severity": "low",
+    "problem": "해설 101자로 72자 상한 초과. 요점만 남겨 압축(72자)."
+   },
+   {
+    "word": "like",
+    "si": 2,
+    "field": "tr",
+    "old": "그녀는 물고기처럼 헤엄쳐.",
+    "new": "걔는 물고기처럼 헤엄쳐.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그녀'. 5~47세트는 전부 '걔'(기계 확인: 1~4세트만 '그/그녀/그들' 잔존). 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "get",
+    "si": 2,
+    "field": "tr",
+    "old": "그녀는 좋은 점수를 받으려고 열심히 공부했어.",
+    "new": "걔는 좋은 점수를 받으려고 열심히 공부했어.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그녀'. 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "know",
+    "si": 2,
+    "field": "tr",
+    "old": "난 어릴 때부터 그녀를 알고 지냈어.",
+    "new": "난 어릴 때부터 걔를 알고 지냈어.",
+    "severity": "low",
+    "problem": "사람 목적어가 문어체 '그녀'. 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "well",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 영어를 아주 잘해.",
+    "new": "걔는 영어를 아주 잘해.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그녀'. 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "really",
+    "si": 2,
+    "field": "tr",
+    "old": "그는 화나 보이지만, 사실 진짜로 화난 건 아니야.",
+    "new": "걔는 화나 보이지만, 사실 진짜로 화난 건 아니야.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그'. 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "say",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 그 계획에 대해 아무 말도 안 했어.",
+    "new": "걔는 그 계획에 대해 아무 말도 안 했어.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그녀'. 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "life",
+    "si": 1,
+    "field": "tr",
+    "old": "그는 길고 행복한 삶을 살았어.",
+    "new": "그분은 길고 행복한 삶을 사셨어.",
+    "severity": "low",
+    "problem": "문어체 '그는'. 긴 생을 마친 어른이라 '걔'는 어색해 '그분…사셨어'로 구어화(0세트 ninety·5·7·45세트 등 코퍼스에 '그분' 선례 다수)."
+   },
+   {
+    "word": "last",
+    "si": 2,
+    "field": "tr",
+    "old": "난 지난주에 그녀를 만났어.",
+    "new": "난 지난주에 걔를 만났어.",
+    "severity": "low",
+    "problem": "사람 목적어가 문어체 '그녀'. 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "long",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 머리가 아주 길어.",
+    "new": "걔는 머리가 아주 길어.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그녀'. 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "always",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 누구에게나 늘 친절해.",
+    "new": "걔는 누구에게나 늘 친절해.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그녀'. 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "old",
+    "si": 2,
+    "field": "tr",
+    "old": "그는 낡은 차를 몰아.",
+    "new": "걔는 낡은 차를 몰아.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그'. 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "own",
+    "si": 2,
+    "field": "tr",
+    "old": "그들은 시내에 작은 가게를 소유하고 있어.",
+    "new": "걔네는 시내에 작은 가게를 소유하고 있어.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그들'. 규칙대로 구어 '걔네'로."
+   },
+   {
+    "word": "house",
+    "si": 1,
+    "field": "tr",
+    "old": "그들은 강 근처 큰 집에 살아.",
+    "new": "걔네는 강 근처 큰 집에 살아.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그들'. 규칙대로 구어 '걔네'로."
+   },
+   {
+    "word": "next",
+    "si": 2,
+    "field": "tr",
+    "old": "그녀는 수업 시간에 내 옆에 앉아.",
+    "new": "걔는 수업 시간에 내 옆에 앉아.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그녀'. 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "against",
+    "si": 2,
+    "field": "tr",
+    "old": "그는 벽에 기댔어.",
+    "new": "걔는 벽에 기댔어.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그'. 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "big",
+    "si": 1,
+    "field": "tr",
+    "old": "그들은 큰 집에 살아.",
+    "new": "걔네는 큰 집에 살아.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그들'. 규칙대로 구어 '걔네'로."
+   },
+   {
+    "word": "please",
+    "si": 2,
+    "field": "tr",
+    "old": "그는 상사를 기쁘게 하려 열심히 일해.",
+    "new": "걔는 상사를 기쁘게 하려고 열심히 일해.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그'. 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "away",
+    "si": 2,
+    "field": "tr",
+    "old": "그녀는 이번 주에 휴가로 자리에 없어.",
+    "new": "걔는 이번 주에 휴가 가서 자리에 없어.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그녀'. 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "play",
+    "si": 2,
+    "field": "tr",
+    "old": "그녀는 피아노를 아주 잘 쳐.",
+    "new": "걔는 피아노를 아주 잘 쳐.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그녀'. 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "name",
+    "si": 2,
+    "field": "tr",
+    "old": "그들은 아기를 미나라고 이름 지었어.",
+    "new": "걔네는 아기를 미나라고 이름 지었어.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그들'. 규칙대로 구어 '걔네'로."
+   },
+   {
+    "word": "company",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 큰 회사에서 일해.",
+    "new": "걔는 큰 회사에서 일해.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그녀'. 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "set",
+    "si": 2,
+    "field": "tr",
+    "old": "그녀는 새 그릇 한 세트를 샀어.",
+    "new": "걔는 새 그릇 한 세트를 샀어.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그녀'. 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "thought",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 생각에 깊이 잠겨 있었어.",
+    "new": "걔는 생각에 깊이 잠겨 있었어.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그녀'. 규칙대로 구어 '걔'로."
+   },
+   {
+    "word": "top",
+    "si": 2,
+    "field": "tr",
+    "old": "그녀는 반에서 제일 잘하는 학생이야.",
+    "new": "걔는 반에서 제일 잘하는 학생이야.",
+    "severity": "low",
+    "problem": "사람 주어가 문어체 '그녀'. 규칙대로 구어 '걔'로."
+   }
+  ],
+  "lesson02": [
+   {
+    "word": "system",
+    "si": 1,
+    "field": "ex",
+    "old": "The school has a new grading {{BLANK}}.",
+    "new": "The subway {{BLANK}} in Seoul is easy to use.",
+    "severity": "high",
+    "problem": "grading은 2세트 허용 어휘 밖(tok_ok False). 허용 어휘만으로 장면 교체."
+   },
+   {
+    "word": "system",
+    "si": 1,
+    "field": "tr",
+    "old": "학교에 새 채점 체계가 생겼어.",
+    "new": "서울 지하철 시스템은 이용하기 쉬워.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역. '시스템'이 그대로 드러남."
+   },
+   {
+    "word": "tell",
+    "si": 2,
+    "field": "ex",
+    "old": "I can't {{BLANK}} the twins apart.",
+    "new": "I can't {{BLANK}} the two brothers apart.",
+    "severity": "high",
+    "problem": "twins는 허용 어휘 밖. tell A apart 연어는 유지하고 대상만 brothers로."
+   },
+   {
+    "word": "tell",
+    "si": 2,
+    "field": "tr",
+    "old": "난 그 쌍둥이를 구별 못 하겠어.",
+    "new": "난 그 두 형제를 구별 못 하겠어.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역."
+   },
+   {
+    "word": "run",
+    "si": 2,
+    "field": "ex",
+    "old": "She {{BLANK}}s a small café downtown.",
+    "new": "She {{BLANK}}s a small cafe downtown.",
+    "severity": "high",
+    "problem": "café의 é가 토큰 분리에서 잘려 'caf'로 어휘 위반 판정됨(확인: tok_ok('caf') False). 철자만 cafe로."
+   },
+   {
+    "word": "run",
+    "si": 2,
+    "field": "tr",
+    "old": "그녀는 시내에서 작은 카페를 운영해.",
+    "new": "걔는 시내에서 작은 카페를 운영해.",
+    "severity": "low",
+    "problem": "사람 주어 '걔' 규칙. 예문 철자 교체와 함께 정리."
+   },
+   {
+    "word": "run",
+    "si": 3,
+    "field": "ex",
+    "old": "This program won't {{BLANK}} on my old computer.",
+    "new": "This car {{BLANK}}s on electricity, not gas.",
+    "severity": "high",
+    "problem": "program은 허용 어휘 밖. 'won't ___ on my computer'에는 work②(작동하다, 1세트)가 그대로 들어감. run on(~로 돌아가다) 연어로 교체."
+   },
+   {
+    "word": "run",
+    "si": 3,
+    "field": "tr",
+    "old": "이 프로그램은 내 낡은 컴퓨터에선 실행이 안 돼.",
+    "new": "이 차는 기름이 아니라 전기로 돌아가.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역. ko '돌아가다'가 드러남."
+   },
+   {
+    "word": "law",
+    "si": 2,
+    "field": "ex",
+    "old": "Newton discovered the {{BLANK}} of gravity.",
+    "new": "Newton's {{BLANK}}s explain why things fall.",
+    "severity": "high",
+    "problem": "gravity는 허용 어휘 밖. Newton's laws로 '법칙' 용법 유지."
+   },
+   {
+    "word": "law",
+    "si": 2,
+    "field": "tr",
+    "old": "뉴턴은 중력의 법칙을 발견했어.",
+    "new": "뉴턴의 법칙은 물건이 왜 떨어지는지 설명해 줘.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역."
+   },
+   {
+    "word": "means",
+    "si": 1,
+    "field": "ex",
+    "old": "A car is a {{BLANK}} of transportation.",
+    "new": "For him, money is just a {{BLANK}} to an end.",
+    "severity": "high",
+    "problem": "transportation은 허용 어휘 밖. 초안 'a ___ of getting to work'에는 way①(방법, 1세트)가 완벽히 들어가므로 way가 못 붙는 관용구 a means to an end로 교체(10토큰 이내, 어휘 통과)."
+   },
+   {
+    "word": "means",
+    "si": 1,
+    "field": "tr",
+    "old": "자동차는 교통수단이야.",
+    "new": "걔한텐 돈은 그저 목적을 위한 수단일 뿐이야.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역. '수단'만 남겨 way(방법)와 가름."
+   },
+   {
+    "word": "means",
+    "si": 1,
+    "field": "ko",
+    "old": "① 수단, 방법",
+    "new": "① 수단",
+    "severity": "mid",
+    "problem": "'방법'은 way①의 ko와 겹쳐 way를 부름. '수단' 한 조각으로."
+   },
+   {
+    "word": "means",
+    "si": 1,
+    "field": "c",
+    "old": "a means of ~(~의 수단)처럼, 목적을 이루는 도구·방법을 뜻한다. means(수단)는 단수와 복수의 형태가 같다 — a means / two means. 동사 mean(의미하다)의 3인칭 means와 철자가 같으니 문장에서의 자리로 구별한다.",
+    "new": "a means to an end(목적을 위한 수단). 단수·복수 꼴이 같다(a means/two means). 동사와는 별개.",
+    "severity": "low",
+    "problem": "해설 141자 — 72자 상한 초과. 교체된 예문(a means to an end)에 맞추고 핵심(단·복수 동형, 동사 means와 별개)만 남김. 70자."
+   },
+   {
+    "word": "death",
+    "si": 1,
+    "field": "ex",
+    "old": "The whole town mourned his {{BLANK}}.",
+    "new": "News of his {{BLANK}} shocked the whole town.",
+    "severity": "high",
+    "problem": "mourned는 허용 어휘 밖. 허용 어휘로 장면 교체."
+   },
+   {
+    "word": "death",
+    "si": 1,
+    "field": "tr",
+    "old": "온 마을이 그의 죽음을 애도했어.",
+    "new": "그의 죽음 소식에 온 마을이 충격을 받았어.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역."
+   },
+   {
+    "word": "problem",
+    "si": 1,
+    "field": "ex",
+    "old": "We need to solve this {{BLANK}}.",
+    "new": "No {{BLANK}}, I can help you with that.",
+    "severity": "high",
+    "problem": "solve는 허용 어휘 밖. c가 짚는 No problem 관용구로 교체."
+   },
+   {
+    "word": "problem",
+    "si": 1,
+    "field": "tr",
+    "old": "우리는 이 문제를 풀어야 해.",
+    "new": "문제없어, 그건 내가 도와줄게.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역."
+   },
+   {
+    "word": "care",
+    "si": 1,
+    "field": "ex",
+    "old": "I don't {{BLANK}} what other people think.",
+    "new": "Nobody {{BLANK}}s about the rules here.",
+    "severity": "mid",
+    "problem": "'I don't ___ what other people think'에 같은 세트 mind②(신경 쓰다)가 자연스럽게 들어감. care about 연어로 옮기면 mind가 못 붙음."
+   },
+   {
+    "word": "care",
+    "si": 1,
+    "field": "tr",
+    "old": "난 남들이 어떻게 생각하든 상관 안 해.",
+    "new": "여기선 아무도 규칙에 신경 안 써.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역."
+   },
+   {
+    "word": "case",
+    "si": 1,
+    "field": "tr",
+    "old": "그렇다면 내일까지 기다리자.",
+    "new": "그런 경우엔 내일까지 기다리자.",
+    "severity": "mid",
+    "problem": "'그렇다면'은 빈칸 단어의 뜻(경우)을 안 보여 주고 situation(상황)도 들어갈 여지를 남김. ko의 '경우'를 번역에 넣음."
+   },
+   {
+    "word": "mean",
+    "si": 2,
+    "field": "ex",
+    "old": "I didn't {{BLANK}} to hurt you.",
+    "new": "I didn't {{BLANK}} it. I'm really sorry.",
+    "severity": "mid",
+    "problem": "'I didn't ___ to hurt you'에 intend(① 의도하다)가 그대로 들어가고 ko도 '의도하다'로 같음. I didn't mean it 관용구로 옮기면 intend가 못 붙음."
+   },
+   {
+    "word": "mean",
+    "si": 2,
+    "field": "tr",
+    "old": "널 아프게 할 생각은 아니었어.",
+    "new": "그럴 뜻은 아니었어. 진짜 미안해.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역. '그럴 뜻'으로 의도가 드러남."
+   },
+   {
+    "word": "support",
+    "si": 3,
+    "field": "ko",
+    "old": "③ 지지, 도움",
+    "new": "③ 지지, 후원",
+    "severity": "mid",
+    "problem": "ko '도움'과 'Thank you for your ___'가 합쳐져 help②(도움, 1세트)를 정면으로 부름. c의 '지지·후원'으로 조임."
+   },
+   {
+    "word": "head",
+    "si": 2,
+    "field": "ex",
+    "old": "She is the {{BLANK}} of a large company.",
+    "new": "My mother is the {{BLANK}} of our family.",
+    "severity": "mid",
+    "problem": "'She is the ___ of a large company'는 같은 세트 president②(She is the ___ of the company)와 틀이 같아 president·boss가 들어감. head of the family로 옮기면 head만 붙음. 초안의 '걔가 온 집안의 가장'은 걔(또래 지칭)와 가장이 어긋나 주어를 mother로(어휘 통과, 8토큰)."
+   },
+   {
+    "word": "head",
+    "si": 2,
+    "field": "tr",
+    "old": "그녀는 큰 회사의 수장이야.",
+    "new": "우리 엄마가 우리 집 가장이야.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역. '가장(家長)'이 ko의 '장(長)'과 닿음."
+   },
+   {
+    "word": "believe",
+    "si": 1,
+    "field": "ex",
+    "old": "I {{BLANK}} what you say.",
+    "new": "I can't {{BLANK}} it! We won!",
+    "severity": "mid",
+    "problem": "'I ___ what you say'에 trust(① 믿다, 신뢰하다)가 그대로 들어가고 ko '믿다'도 같음. I can't believe it! 관용구로 옮기면 trust가 못 붙음."
+   },
+   {
+    "word": "believe",
+    "si": 1,
+    "field": "tr",
+    "old": "난 네 말을 믿어.",
+    "new": "믿을 수가 없어! 우리가 이겼어!",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역."
+   },
+   {
+    "word": "though",
+    "si": 2,
+    "field": "ex",
+    "old": "It's expensive. I'll buy it, {{BLANK}}.",
+    "new": "Nice shoes! They look expensive, {{BLANK}}.",
+    "severity": "high",
+    "problem": "'I'll buy it, ___'에 anyway(① 어쨌든, 그래도)가 그대로 들어가고 번역 '그래도'가 anyway의 ko와 똑같음. 문장 끝 대조 though만 되는 자리로 교체."
+   },
+   {
+    "word": "though",
+    "si": 2,
+    "field": "tr",
+    "old": "비싸네. 그래도 살래.",
+    "new": "신발 예쁘다! 비싸 보이긴 하지만.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역. '~긴 하지만'으로 ko '그렇지만'과 닿고 anyway(어쨌든)와 갈라짐."
+   },
+   {
+    "word": "country",
+    "si": 2,
+    "field": "ko",
+    "old": "② 시골 (↔ city)",
+    "new": "② (the country) 시골 (↔ city)",
+    "severity": "mid",
+    "problem": "'moved from the city to the ___'에 countryside(① 시골, 전원)가 완벽히 들어가고 ko '시골'도 같음. ko에 the country 꼴을 명시(같은 세트 other②의 (the other)와 같은 방식)."
+   },
+   {
+    "word": "story",
+    "si": 2,
+    "field": "ko",
+    "old": "② (건물의) 층",
+    "new": "② (건물의) 층 (층수를 셀 때)",
+    "severity": "mid",
+    "problem": "ko '(건물의) 층'이 floor②(7세트)의 ko와 글자까지 같고, tr '10층 건물'로는 ten-floor building도 나옴. '층수를 셀 때' 단서를 ko에 붙여 floor와 가름(초안의 '~층짜리' 대신 뜻 형식을 유지)."
+   },
+   {
+    "word": "story",
+    "si": 2,
+    "field": "c",
+    "old": "(영국식 철자 storey)",
+    "new": "층수를 셀 때는 story, 몇 층인지는 floor — a ten-story building / the tenth floor.",
+    "severity": "mid",
+    "problem": "현행 c '(영국식 철자 storey)'는 틀리는 지점(floor와의 구별)을 안 짚음. 70자."
+   },
+   {
+    "word": "story",
+    "si": 2,
+    "field": "meow",
+    "old": "story, 이야기가 아니라 층이라고양. 3층은 three stories고양.",
+    "new": "story, 이야기가 아니라 층이라고양. 3층짜리면 three stories고양.",
+    "severity": "high",
+    "problem": "'3층은 three stories'는 오류 — three stories는 '3층짜리(높이)'이고 '3층(에 있는)'은 the third floor. 45자, story 한 번."
+   },
+   {
+    "word": "post",
+    "si": 1,
+    "field": "ko",
+    "old": "① (온라인에) 올리다, 게시하다",
+    "new": "① (온라인에) 게시하다",
+    "severity": "low",
+    "problem": "ko '(온라인에) 올리다'는 upload의 뜻 그대로라 'She ___ed a photo online'에 upload가 들어감. tr이 이미 '게시했어'이므로 '게시하다'만 남겨 post에만 닿게."
+   },
+   {
+    "word": "post",
+    "si": 2,
+    "field": "ex",
+    "old": "Did the {{BLANK}} arrive today?",
+    "new": "Is there a {{BLANK}} office near here?",
+    "severity": "high",
+    "problem": "'Did the ___ arrive today?'에는 mail①(우편(물), 15세트)이 미국식으로는 오히려 정답이고 ko '우편'도 같음 — c 스스로 미국식은 mail이라고 함. 미국에서도 post인 post office로 교체."
+   },
+   {
+    "word": "post",
+    "si": 2,
+    "field": "tr",
+    "old": "오늘 우편 왔어?",
+    "new": "이 근처에 우체국 있어?",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역. '우체국'에 ko의 '우편'이 드러남."
+   },
+   {
+    "word": "post",
+    "si": 2,
+    "field": "c",
+    "old": "편지·소포를 뜻한다. (영국식 post, 미국식 mail)",
+    "new": "우체국은 미국에서도 post office. 우편물 자체는 미국에서 mail, 영국에서 post라고 한다.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춰 post office는 미국에서도 post임을 짚고, 우편물 자체의 영미 차이를 남김. 58자."
+   },
+   {
+    "word": "mind",
+    "si": 1,
+    "field": "ex",
+    "old": "A calm {{BLANK}} makes better choices.",
+    "new": "Make up your {{BLANK}}: yes or no?",
+    "severity": "mid",
+    "problem": "'A calm ___ makes better choices'에 heart②(마음, 3세트)가 들어감 — ko·tr의 '마음'이 heart도 부름. c가 짚는 make up one's mind 관용구로 옮기면 mind만 붙음."
+   },
+   {
+    "word": "mind",
+    "si": 1,
+    "field": "tr",
+    "old": "마음이 차분해야 더 나은 선택을 하게 돼.",
+    "new": "마음 정해. 할 거야, 말 거야?",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역. '마음 정해'로 ko '마음'이 드러남(초안의 '예야 아니야'는 부자연스러워 구어로 다듬음)."
+   },
+   {
+    "word": "mind",
+    "si": 2,
+    "field": "ko",
+    "old": "② 꺼리다, 신경 쓰다",
+    "new": "② 꺼리다, 싫어하다",
+    "severity": "mid",
+    "problem": "ko '신경 쓰다'는 care①의 ko와 같아 'Do you ___ if I open the window?'에 care가 들어감(자연스러운 미국 영어). c의 '꺼리다·싫어하다'로 조임."
+   },
+   {
+    "word": "pay",
+    "si": 1,
+    "field": "tr",
+    "old": "표는 내가 살게.",
+    "new": "표 값은 내가 낼게.",
+    "severity": "mid",
+    "problem": "'표는 내가 살게'는 buy의 번역이라 빈칸 단어의 뜻(지불하다·내다)이 안 드러남."
+   },
+   {
+    "word": "case",
+    "si": 3,
+    "field": "meow",
+    "old": "case, 상자만 보면 들어가고 싶다고양. 경우가 아니라 상자고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "case③(20번째 카드)·live②(24) 두 meow가 다섯 카드 창(20~24) 안에 겹침 — '다섯 카드당 하나 이하' 위반. 발음 갈래를 짚는 live② 줄을 남기고 더 얇은 이 줄 삭제."
+   },
+   {
+    "word": "change",
+    "si": 2,
+    "field": "meow",
+    "old": "change, 잔돈도 변화도 같은 단어라고양. 잔돈부터 챙기라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "live②(24)와 세 장 차이(27)로 다섯 카드 창 안에 둘 — 밀도 위반. live② 줄을 남기고 이 줄 삭제."
+   },
+   {
+    "word": "mean",
+    "si": 3,
+    "field": "meow",
+    "old": "mean은 뜻하다인데 못됐다는 뜻도 있다고양. 나 말고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "hard③(37)와 세 장 차이(40)로 다섯 카드 창 안에 둘 — 밀도 위반. 뜻 대비가 더 살아 있는 hard③ 줄을 남기고 이 줄 삭제. 삭제 뒤 최소 간격 5, meow 12줄(12~18 유지)."
+   },
+   {
+    "word": "group",
+    "si": 1,
+    "field": "c",
+    "old": "a group of students(학생 한 무리) / an English class(영어 수업) — group은 아무 무리나 가리키고, class는 함께 배우는 수업·반이다.",
+    "new": "a group of students(학생 한 무리). group은 아무 무리나 가리키고, class는 함께 배우는 반·수업이다.",
+    "severity": "low",
+    "problem": "해설 98자 — 72자 상한 초과. 핵심만 남기고 압축(71자)."
+   },
+   {
+    "word": "public",
+    "si": 1,
+    "field": "c",
+    "old": "누구에게나 열려 있는. 반대는 private. public library, public place처럼 쓴다. 미국의 public school은 공립, 영국에서는 사립이다.",
+    "new": "누구에게나 열려 있는. 반대는 private. 미국의 public school은 공립, 영국에서는 사립이다.",
+    "severity": "low",
+    "problem": "해설 95자 — 72자 상한 초과. 압축(60자)."
+   },
+   {
+    "word": "start",
+    "si": 1,
+    "field": "c",
+    "old": "start와 begin은 거의 같지만, 기계·여정에는 start(start the car), 격식·추상에는 begin이 더 어울린다.",
+    "new": "start와 begin은 거의 같지만, 기계·여정에는 start(start the car), 격식·추상에는 begin이 어울린다.",
+    "severity": "low",
+    "problem": "해설 74자 — 72자 상한 초과. '더' 하나 덜어 72자."
+   },
+   {
+    "word": "already",
+    "si": 1,
+    "field": "c",
+    "old": "예상보다 일찍·이미. 보통 완료시제와 함께 쓴다. I've already done it(이미 했다) / I haven't done it yet(아직 안 했다)처럼, already는 긍정문, yet은 부정·의문문에 쓴다.",
+    "new": "보통 완료시제와 함께. already는 긍정문, yet은 부정·의문문 — I've already done it / not yet.",
+    "severity": "low",
+    "problem": "해설 122자 — 72자 상한 초과. 압축(72자)."
+   },
+   {
+    "word": "case",
+    "si": 3,
+    "field": "c",
+    "old": "case=물건에 맞춘 보호용 통(안경집) / box=일반적인 네모난 상자. 이 case는 ①②의 case와 어원이 다른 별개 단어다.",
+    "new": "case=물건에 맞춘 보호용 통(안경집) / box=네모난 상자. 이 case는 ①②와 어원이 다른 별개 단어다.",
+    "severity": "low",
+    "problem": "해설 74자 — 72자 상한 초과. 압축(63자)."
+   },
+   {
+    "word": "anything",
+    "si": 1,
+    "field": "c",
+    "old": "부정문·의문문에서 '아무것·무엇이든'. I want something(긍정) / I don't want anything(부정)처럼, 긍정문에는 something, 부정·의문에는 anything.",
+    "new": "부정·의문문의 '아무것·무엇이든'. I want something(긍정) / I don't want anything(부정).",
+    "severity": "low",
+    "problem": "해설 108자 — 72자 상한 초과. 압축(69자)."
+   },
+   {
+    "word": "nothing",
+    "si": 1,
+    "field": "c",
+    "old": "[!] no+thing = '없는 것'. 그 자체가 부정이라 not과 함께 쓰지 않는다. There is nothing(O) / There isn't nothing(X, 이중부정).",
+    "new": "no+thing = '없는 것'. 그 자체가 부정이라 not과 같이 안 쓴다. There isn't nothing(X).",
+    "severity": "low",
+    "problem": "해설 101자 — 72자 상한 초과, '[!]' 표식 제거. 압축(67자)."
+   },
+   {
+    "word": "live",
+    "si": 1,
+    "field": "c",
+    "old": "live in ~(~에 살다)처럼 쓴다. 동사 live는 /lɪv/로 발음한다. live in a small town(작은 마을에 산다) / stay here for an hour(한 시간 여기 머문다) — live는 오래 사는 것(거주), stay는 잠시 머무는 것이다.",
+    "new": "live in ~(~에 살다). 동사 live는 /lɪv/. live는 오래 사는 것(거주), stay는 잠시 머무는 것이다.",
+    "severity": "low",
+    "problem": "해설 152자 — 72자 상한 초과. 압축(70자)."
+   },
+   {
+    "word": "read",
+    "si": 1,
+    "field": "c",
+    "old": "글을 읽다. 현재 read /rid/, 과거·과거분사 read /rɛd/ — 철자는 같고 소리만 달라진다 (read-read-read).",
+    "new": "현재 read /rid/, 과거·과거분사 read /rɛd/ — 철자는 같고 소리만 달라진다 (read-read-read).",
+    "severity": "low",
+    "problem": "해설 76자 — 72자 상한 초과. 압축(69자)."
+   },
+   {
+    "word": "point",
+    "si": 1,
+    "field": "c",
+    "old": "That's the point(그게 핵심이다)처럼, 말·글의 핵심. the point of the story(이야기의 요점) / a quiet place to study(조용한 장소) — point는 하나의 점(위치·시점·요점), place는 넓이가 있는 장소다.",
+    "new": "get to the point(요점을 말하다)처럼 말·글의 핵심. point는 한 점, place는 넓이 있는 장소.",
+    "severity": "low",
+    "problem": "해설 147자 — 72자 상한 초과. 압축(65자)."
+   },
+   {
+    "word": "enough",
+    "si": 1,
+    "field": "c",
+    "old": "양(量) 한정사. enough food(충분한 음식) / good enough(충분히 좋은)처럼, 형용사는 명사 앞, 부사는 형용사 뒤에 온다. enough=충분한(일상어) / sufficient=충분한(격식·학술어). 뜻은 같지만 sufficient는 글말이라 시험 지문에 자주 나온다.",
+    "new": "enough food(명사 앞) / good enough(형용사 뒤) — 자리가 다르다. 격식·학술어는 sufficient.",
+    "severity": "low",
+    "problem": "해설 161자 — 72자 상한 초과. 압축(69자)."
+   },
+   {
+    "word": "hard",
+    "si": 3,
+    "field": "c",
+    "old": "부사로 쓰이면 '열심히'. hardly(거의 ~않다)와 완전히 다른 말이니 조심해야 한다. [!] work hard(열심히 일하다) ↔ hardly work(거의 일을 안 하다)처럼, hard는 '열심히', hardly는 '거의 ~않다'. 정반대다.",
+    "new": "부사 hard는 '열심히'. work hard(열심히 일하다) ↔ hardly work(거의 일을 안 하다) — 정반대.",
+    "severity": "low",
+    "problem": "해설 139자 — 72자 상한 초과, 같은 내용 반복과 '[!]' 표식. 압축(67자)."
+   },
+   {
+    "word": "bad",
+    "si": 1,
+    "field": "c",
+    "old": "질·상태가 좋지 않은. (비교급 불규칙 bad-worse-worst) good-better-best ↔ bad-worse-worst. 둘 다 불규칙 비교급이다.",
+    "new": "질·상태가 좋지 않은. 비교급 불규칙 bad-worse-worst — good-better-best와 짝으로 외운다.",
+    "severity": "low",
+    "problem": "해설 89자 — 72자 상한 초과. 압축(65자)."
+   },
+   {
+    "word": "tell",
+    "si": 1,
+    "field": "c",
+    "old": "(불규칙 tell-told-told) say 바로 뒤에는 사람이 아니라 내용이 온다(say something) / tell 바로 뒤에는 사람이 온다(tell me) / talk 바로 뒤에는 to·with·about이 온다(talk to him) / speak 바로 뒤에는 언어가 온다(speak Korean). 모두 '말하다'지만 바로 뒤에 뭐가 오는지에 따라 다르다.",
+    "new": "tell 뒤엔 사람(tell me), say 뒤엔 내용(say sorry), talk 뒤엔 to·about, speak는 언어.",
+    "severity": "low",
+    "problem": "해설 206자 — 72자 상한 초과. 압축(71자)."
+   },
+   {
+    "word": "stop",
+    "si": 1,
+    "field": "c",
+    "old": "stop making noise(소리 내기를 그만두다)처럼, stop + -ing = ~하기를 그만두다. stop smoking(담배를 끊다) ↔ stop to smoke(담배를 피우려고 멈추다)처럼, stop -ing은 하던 일을 그만두는 것, stop to ~는 무언가를 하려고 멈추는 것이다. 뜻이 완전히 달라진다.",
+    "new": "stop -ing = 하던 일을 그만두다. stop smoking(담배를 끊다) ↔ stop to smoke(피우려고 멈추다).",
+    "severity": "low",
+    "problem": "해설 179자 — 72자 상한 초과. 압축(71자)."
+   },
+   {
+    "word": "including",
+    "si": 1,
+    "field": "c",
+    "old": "include(포함하다)에서 온 전치사. including은 전치사라 뒤에 명사가 온다. 문장 끝에는 included를 쓰기도 한다 — tax included(세금 포함).",
+    "new": "include(포함하다)에서 온 전치사라 뒤에 명사가 온다. 문장 끝에는 included — tax included(세금 포함).",
+    "severity": "low",
+    "problem": "해설 96자 — 72자 상한 초과. 압축(72자)."
+   },
+   {
+    "word": "small",
+    "si": 1,
+    "field": "c",
+    "old": "크기가 작은. 중립적인 말이다. a small box(작은 상자) / a cute little dog(귀여운 강아지)처럼, small은 객관적 크기, little에는 '귀엽다·정겹다'는 감정이 묻어난다.",
+    "new": "크기가 작은, 중립적인 말. a cute little dog처럼 little에는 귀엽다·정겹다는 감정이 묻어난다.",
+    "severity": "low",
+    "problem": "해설 113자 — 72자 상한 초과. 압축(63자). 초안의 '묻는다'는 '묻어난다'로 바로잡음."
+   },
+   {
+    "word": "call",
+    "si": 2,
+    "field": "c",
+    "old": "전화를 걸다. give someone a call도 같은 뜻. [!] 전화할 사람은 바로 뒤에 온다 — call me(O) / call to me(X).",
+    "new": "전화를 걸다. 전화할 사람은 바로 뒤에 — call me(O) / call to me(X).",
+    "severity": "low",
+    "problem": "해설 85자 — 72자 상한 초과, '[!]' 표식 제거. 압축(51자)."
+   },
+   {
+    "word": "believe",
+    "si": 1,
+    "field": "c",
+    "old": "believe him(그의 말을 믿다) / believe in him(그를 신뢰하다)처럼 쓴다. believe는 말·사실을, believe in은 존재·가치를 믿는 것이다.",
+    "new": "believe him(그의 말을 믿다) / believe in him(그의 존재·가치를 믿다) — in이 붙으면 존재·가치.",
+    "severity": "low",
+    "problem": "해설 96자 — 72자 상한 초과. 압축(69자)."
+   },
+   {
+    "word": "far",
+    "si": 1,
+    "field": "c",
+    "old": "거리가 먼. 주로 의문·부정문에 쓰고 긍정문에서는 a long way를 쓴다. 비교급은 farther(거리)/further(정도).",
+    "new": "거리가 먼. 주로 의문·부정문에 쓰고 긍정문은 a long way. 비교급은 farther(거리)/further(정도).",
+    "severity": "low",
+    "problem": "해설 73자 — 72자 상한 초과. 압축(67자). 초안이 뺀 '주로'는 사실성(very far 등 긍정문 용례 존재) 때문에 복원."
+   },
+   {
+    "word": "try",
+    "si": 1,
+    "field": "c",
+    "old": "애써 하다. (철자 y → i: try → tried) [!] try to open(열려고 애쓰다) / try opening(한번 열어 보다)처럼, try to는 노력, try -ing는 시험 삼아 해 보는 것이다.",
+    "new": "try to open(열려고 애쓰다) / try opening(한번 열어 보다) — to는 노력, -ing는 시험 삼아.",
+    "severity": "low",
+    "problem": "해설 120자 — 72자 상한 초과, '[!]' 표식 제거. 압축(67자)."
+   },
+   {
+    "word": "job",
+    "si": 1,
+    "field": "c",
+    "old": "보수를 받는 일·직장. (셀 수 있다 — a job, two jobs) a good job(좋은 일자리) / hard work(힘든 일)처럼, job은 셀 수 있는 구체적 일자리, work는 셀 수 없는 일 일반이다.",
+    "new": "a good job(일자리) / hard work(일) — job은 셀 수 있는 구체적 일자리, work는 셀 수 없는 일 일반.",
+    "severity": "low",
+    "problem": "해설 121자 — 72자 상한 초과. 압축(72자)."
+   },
+   {
+    "word": "though",
+    "si": 1,
+    "field": "c",
+    "old": "although와 같은 '~인데도'. although가 좀 더 격식적이다. [!] though/although=비록 ~지만(접속사) / however=그러나(부사, 문장 사이). 자리가 다르니 헷갈리지 말아야 한다.",
+    "new": "although와 같은 '~인데도'(although가 더 격식). however(그러나)는 부사라 자리가 다르다.",
+    "severity": "low",
+    "problem": "해설 120자 — 72자 상한 초과, '[!]' 표식 제거. 압축(63자)."
+   },
+   {
+    "word": "service",
+    "si": 1,
+    "field": "c",
+    "old": "손님에게 제공하는 도움·업무. serve(제공하다)에서 왔다. [!] 영어 service에는 '공짜'의 뜻이 없다 — 무료는 free.",
+    "new": "손님에게 제공하는 도움·업무. serve(제공하다)에서 왔다. 영어 service에는 '공짜' 뜻이 없다 — 무료는 free.",
+    "severity": "low",
+    "problem": "해설 75자 — 72자 상한 초과, '[!]' 표식 제거. 압축(70자)."
+   },
+   {
+    "word": "open",
+    "si": 1,
+    "field": "c",
+    "old": "닫힌 것을 여는 동작. 반대는 close·shut(닫다). open the door, open a book처럼 쓴다. open up = 마음을 터놓다.",
+    "new": "닫힌 것을 여는 동작. 반대는 close·shut. open the door. open up = 마음을 터놓다.",
+    "severity": "low",
+    "problem": "해설 84자 — 72자 상한 초과. 압축(62자)."
+   },
+   {
+    "word": "other",
+    "si": 1,
+    "field": "c",
+    "old": "이미 말한 것 말고 '다른'. other + 복수명사(other questions) / another + 단수명사 — another는 an+other라 늘 단수다.",
+    "new": "이미 말한 것 말고 '다른'. other + 복수 / another + 단수 — an+other라 늘 단수.",
+    "severity": "low",
+    "problem": "해설 91자 — 72자 상한 초과. 압축(60자)."
+   },
+   {
+    "word": "other",
+    "si": 3,
+    "field": "c",
+    "old": "셋 이상일 때, 남은 것 '전부'. 정해진 무리라 the가 붙고 복수형 -s가 온다. the other(둘 중 나머지 하나) / the others(셋 이상 중 나머지 전부) — 남은 것이 하나면 the other, 여럿이면 the others.",
+    "new": "셋 이상일 때 남은 것 '전부'. the other(둘 중 나머지 하나) / the others(셋 이상 중 나머지 전부).",
+    "severity": "low",
+    "problem": "해설 137자 — 72자 상한 초과. 압축(69자)."
+   },
+   {
+    "word": "other",
+    "si": 4,
+    "field": "c",
+    "old": "the가 없으면 정해지지 않은 '다른 사람들·것들'. Some ~, others ~ 짝으로 자주 쓴다. the others(정해진 나머지 전부) / others(정해지지 않은 그 밖의 여럿) — the가 있고 없고로 나뉜다. another(또 다른 하나)는 an+other라서 늘 단수다.",
+    "new": "the가 없으면 정해지지 않은 '다른 사람들·것들'. Some ~, others ~ 짝. the others는 정해진 나머지.",
+    "severity": "low",
+    "problem": "해설 161자 — 72자 상한 초과. 압축(70자)."
+   },
+   {
+    "word": "thank",
+    "si": 1,
+    "field": "c",
+    "old": "Thank you for your help(도와줘서 고마워)처럼, thank + 사람 + for ~ = ~에 대해 ~에게 감사하다.",
+    "new": "Thank you for your help(도와줘서 고마워)처럼, thank + 사람 + for ~ = ~에 대해 감사하다.",
+    "severity": "low",
+    "problem": "해설 73자 — 72자 상한 초과. 압축(69자)."
+   },
+   {
+    "word": "country",
+    "si": 2,
+    "field": "c",
+    "old": "the country = 시골. the가 붙으면 시골, a country면 나라다. 관사가 힌트다. countryside도 '시골'을 뜻한다.",
+    "new": "the country = 시골. the가 붙으면 시골, a country면 나라다. 관사가 힌트. countryside도 시골.",
+    "severity": "low",
+    "problem": "해설 79자 — 72자 상한 초과. 압축(71자)."
+   },
+   {
+    "word": "general",
+    "si": 1,
+    "field": "c",
+    "old": "in general(일반적으로)처럼, 세부가 아닌 전체를 두루 가리킨다. general=일반적인(전체를 아우름) / specific=구체적인(하나를 짚음).",
+    "new": "in general(일반적으로)처럼 전체를 두루. general=일반적인(전체) / specific=구체적인(하나).",
+    "severity": "low",
+    "problem": "해설 87자 — 72자 상한 초과. 압축(65자)."
+   },
+   {
+    "word": "area",
+    "si": 1,
+    "field": "c",
+    "old": "a quiet area of the city(도시의 조용한 구역) / the best part of the movie(영화의 한 부분) — area는 넓이를 가진 구역, part는 전체를 쪼갠 한 조각이다.",
+    "new": "a quiet area of the city / part of the movie — area는 넓이, part는 조각.",
+    "severity": "low",
+    "problem": "해설 115자 — 72자 상한 초과. 압축(66자)."
+   },
+   {
+    "word": "kind",
+    "si": 2,
+    "field": "c",
+    "old": "a kind of ~(일종의 ~)처럼, '종류'를 뜻한다. What kind of music?(어떤 종류의 음악?) / a new type of engine(새로운 유형의 엔진) — 거의 같이 쓰지만, type이 좀 더 분석적·학술적이다.",
+    "new": "What kind of music? / a new type of engine — type이 더 분석적이다.",
+    "severity": "low",
+    "problem": "해설 133자 — 72자 상한 초과. 압축(59자)."
+   },
+   {
+    "word": "hope",
+    "si": 1,
+    "field": "c",
+    "old": "hope는 가능한 일을, wish는 사실과 반대인 일을 바랄 때 쓴다. [!] hope + 사람 + to부정사는 안 된다 — I hope you will come(O).",
+    "new": "hope는 가능한 일을, wish는 사실과 반대인 일을 바랄 때. hope + 사람 + to부정사는 안 된다.",
+    "severity": "low",
+    "problem": "해설 94자 — 72자 상한 초과, '[!]' 표식 제거. 압축(61자)."
+   },
+   {
+    "word": "news",
+    "si": 1,
+    "field": "c",
+    "old": "형태는 new의 복수(새로운 것들)에서 왔지만 셀 수 없는 명사라 단수 취급한다 — The news is good(O). 셀 때는 a piece of news.",
+    "new": "new의 복수꼴에서 왔지만 셀 수 없어 단수 취급 — The news is good(O). 셀 때는 a piece of news.",
+    "severity": "low",
+    "problem": "해설 89자 — 72자 상한 초과. 압축(72자)."
+   },
+   {
+    "word": "book",
+    "si": 2,
+    "field": "c",
+    "old": "book a room(방을 예약하다)처럼 동사면 '예약하다'. 미국에서도 흔히 쓰고, 회화에서는 make a reservation도 많이 쓴다.",
+    "new": "book a room처럼 동사면 '예약하다'. 미국에서도 흔히 쓰고, 회화에서는 make a reservation도 많이 쓴다.",
+    "severity": "low",
+    "problem": "해설 80자 — 72자 상한 초과. 압축(71자)."
+   },
+   {
+    "word": "local",
+    "si": 1,
+    "field": "c",
+    "old": "local food(현지 음식)처럼, 그 고장의 것을 가리킨다. local=지역의(좁은) / national=전국의 / international=국제적인. 범위가 점점 넓어진다.",
+    "new": "local food처럼 그 고장의 것. local(지역) < national(전국) < international(국제).",
+    "severity": "low",
+    "problem": "해설 99자 — 72자 상한 초과. 압축(67자)."
+   },
+   {
+    "word": "information",
+    "si": 1,
+    "field": "c",
+    "old": "한국어와 달리 information은 셀 수 없다 — informations는 비문, a piece of information으로 센다. advice·homework도 같다.",
+    "new": "셀 수 없는 명사. informations는 비문, a piece of information으로 센다. advice도 같다.",
+    "severity": "low",
+    "problem": "해설 97자 — 72자 상한 초과. 압축(69자)."
+   },
+   {
+    "word": "early",
+    "si": 2,
+    "field": "c",
+    "old": "woke up early(일찍 일어났다)처럼, 동사를 꾸미면 부사다. 형태는 형용사와 같다. an early train(이른 기차, 형용사) / arrive early(일찍 도착하다, 부사) — 모양이 같아 문장에서의 자리로 구별한다.",
+    "new": "동사를 꾸미면 부사. an early train(이른, 형용사) / arrive early(일찍, 부사) — 자리로 구별한다.",
+    "severity": "low",
+    "problem": "해설 131자 — 72자 상한 초과. 압축(70자)."
+   },
+   {
+    "word": "ago",
+    "si": 1,
+    "field": "c",
+    "old": "two years ago(2년 전)처럼, 기간 뒤에 붙어 '지금을 기준으로 ~전'을 뜻한다. 과거를 가리키므로 동사도 과거형으로 쓴다 — I met him(O) / I have met him(X).",
+    "new": "two years ago처럼 기간 뒤에 붙는다. 현재완료와 안 쓴다 — I met him(O) / I've met him(X).",
+    "severity": "low",
+    "problem": "해설 110자 — 72자 상한 초과. 압축(71자)."
+   },
+   {
+    "word": "talk",
+    "si": 1,
+    "field": "c",
+    "old": "talk to ~(한쪽이 주로 말함) / talk with ~(서로 주고받음) — with가 더 대등한 대화를 뜻한다. say 바로 뒤에는 사람이 아니라 내용이 온다(say something) / tell 바로 뒤에는 사람이 온다(tell me) / talk 바로 뒤에는 to·with·about이 온다(talk to him) / speak 바로 뒤에는 언어가 온다(speak Korean). 모두 '말하다'지만 바로 뒤에 뭐가 오는지에 따라 다르다.",
+    "new": "talk to ~(한쪽이 말함) / talk with ~(주고받음). 바로 뒤엔 사람이 못 오고 to·with·about이 온다.",
+    "severity": "low",
+    "problem": "해설 252자 — 72자 상한 초과. tell①의 해설을 통째로 복붙한 부분 제거. 압축(72자)."
+   },
+   {
+    "word": "fact",
+    "si": 1,
+    "field": "c",
+    "old": "in fact(사실은)처럼 쓴다. 실제로 그러한 것을 가리키며, 의견(opinion)과 대비된다. fact=사실(검증할 수 있음) / opinion=의견(주관적). 학술 글에서는 이 둘을 가르는 것이 핵심이다.",
+    "new": "in fact(사실은). fact=사실(검증할 수 있음) / opinion=의견(주관적) — 학술 글은 이 둘을 가른다.",
+    "severity": "low",
+    "problem": "해설 117자 — 72자 상한 초과. 압축(67자)."
+   },
+   {
+    "word": "mind",
+    "si": 2,
+    "field": "c",
+    "old": "동사로 쓰이면 '꺼리다·싫어하다'. [!] Do you mind ~?는 '~하는 걸 꺼리시나요?'라는 뜻이므로 No(안 꺼려요)가 승낙, Yes(꺼려요)가 거절이다. 한국어 '네=승낙'과 정반대다.",
+    "new": "Do you mind ~?는 '꺼리시나요?'라서 No가 승낙, Yes가 거절. 한국어 '네=승낙'과 정반대다.",
+    "severity": "low",
+    "problem": "해설 110자 — 72자 상한 초과, '[!]' 표식 제거. 압축(61자)."
+   },
+   {
+    "word": "often",
+    "si": 1,
+    "field": "c",
+    "old": "빈도부사. always > usually > often > sometimes > never 사다리에서 가운데 위에 있다. 자주 있지만 늘 그런 것은 아니다.",
+    "new": "빈도부사. always > usually > often > sometimes > never — 자주 있지만 늘 그런 건 아니다.",
+    "severity": "low",
+    "problem": "해설 87자 — 72자 상한 초과. 압축(71자)."
+   },
+   {
+    "word": "south",
+    "si": 1,
+    "field": "c",
+    "old": "남쪽. east(동)·west(서)와 함께 방위를 이룬다. 한국어는 '동서남북' 순으로 말하지만, 영어는 north·south·east·west(북남동서) 순으로 흔히 나열한다.",
+    "new": "east(동)·west(서)와 방위를 이룬다. 한국어는 '동서남북', 영어는 north·south·east·west 순.",
+    "severity": "low",
+    "problem": "해설 99자 — 72자 상한 초과. 압축(67자)."
+   },
+   {
+    "word": "true",
+    "si": 1,
+    "field": "c",
+    "old": "a true story(꾸며낸 것이 아닌 실화) / real money(위조가 아닌 진짜 돈) — true는 내용이 사실인지, real은 실제로 존재하는지를 따진다.",
+    "new": "a true story(꾸며낸 게 아닌 실화) / real money(진짜 돈) — true는 내용, real은 실재.",
+    "severity": "low",
+    "problem": "해설 92자 — 72자 상한 초과. 압축(66자)."
+   },
+   {
+    "word": "pay",
+    "si": 1,
+    "field": "c",
+    "old": "pay for the meal(식사의 값을 치르다) / pay the waiter(웨이터에게 지불하다)처럼 쓴다. for 뒤에는 값을 치르는 대상이, 바로 뒤에는 돈을 받는 사람이 온다. (불규칙 pay-paid-paid)",
+    "new": "pay for the meal(식삿값) / pay the waiter(웨이터에게) — for 뒤엔 산 것, 바로 뒤엔 사람.",
+    "severity": "low",
+    "problem": "해설 124자 — 72자 상한 초과. 압축(69자)."
+   },
+   {
+    "word": "become",
+    "si": 1,
+    "field": "c",
+    "old": "become + 명사/형용사로 '~이 되다'. get은 회화적이고 주로 형용사를 받는다. [!] become to + 동사는 안 된다 — I came to like it(O).",
+    "new": "become + 명사/형용사 = ~이 되다. get은 회화적이고 주로 형용사를 받는다. become to + 동사는 안 된다.",
+    "severity": "low",
+    "problem": "해설 98자 — 72자 상한 초과, '[!]' 표식 제거. 압축(70자)."
+   },
+   {
+    "word": "business",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 온라인으로 작은 사업을 시작했어.",
+    "new": "걔는 온라인으로 작은 사업을 시작했어.",
+    "severity": "low",
+    "problem": "사람 주어를 '그녀'로 옮김 — tr 규칙(사람 주어는 '걔'; 5세트 이후 전부 걔, 2세트는 26장이 옛 톤)."
+   },
+   {
+    "word": "person",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 아주 친절한 사람이야.",
+    "new": "걔는 아주 친절한 사람이야.",
+    "severity": "low",
+    "problem": "사람 주어 '그녀' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "case",
+    "si": 3,
+    "field": "tr",
+    "old": "그는 안경을 안경집에 넣었어.",
+    "new": "걔는 안경을 안경집에 넣었어.",
+    "severity": "low",
+    "problem": "사람 주어 '그는' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "live",
+    "si": 1,
+    "field": "tr",
+    "old": "그들은 작은 마을에 살아.",
+    "new": "걔네는 작은 마을에 살아.",
+    "severity": "low",
+    "problem": "사람 주어 '그들은' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "hard",
+    "si": 3,
+    "field": "tr",
+    "old": "그녀는 매일 아주 열심히 일해.",
+    "new": "걔는 매일 아주 열심히 일해.",
+    "severity": "low",
+    "problem": "사람 주어 '그녀' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "music",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 공부하면서 음악을 들어.",
+    "new": "걔는 공부하면서 음악을 들어.",
+    "severity": "low",
+    "problem": "사람 주어 '그녀' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "small",
+    "si": 1,
+    "field": "tr",
+    "old": "그들은 작은 아파트에 살아.",
+    "new": "걔네는 작은 아파트에 살아.",
+    "severity": "low",
+    "problem": "사람 주어 '그들은' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "head",
+    "si": 1,
+    "field": "tr",
+    "old": "그는 문에 머리를 부딪쳤어.",
+    "new": "걔는 문에 머리를 부딪쳤어.",
+    "severity": "low",
+    "problem": "사람 주어 '그는' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "call",
+    "si": 1,
+    "field": "tr",
+    "old": "다들 그를 톰이라고 불러.",
+    "new": "다들 걔를 톰이라고 불러.",
+    "severity": "low",
+    "problem": "사람 목적어 '그를' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "job",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 은행에 새 일자리를 구했어.",
+    "new": "걔는 은행에 새 일자리를 구했어.",
+    "severity": "low",
+    "problem": "사람 주어 '그녀' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "party",
+    "si": 1,
+    "field": "tr",
+    "old": "우리는 그녀를 위해 생일 파티를 열었어.",
+    "new": "우리는 걔를 위해 생일 파티를 열었어.",
+    "severity": "low",
+    "problem": "'그녀를 위해' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "country",
+    "si": 2,
+    "field": "tr",
+    "old": "그들은 도시에서 시골로 이사했어.",
+    "new": "걔네는 도시에서 시골로 이사했어.",
+    "severity": "low",
+    "problem": "사람 주어 '그들은' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "black",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 파티에 검은 드레스를 입었어.",
+    "new": "걔는 파티에 검은 드레스를 입었어.",
+    "severity": "low",
+    "problem": "사람 주어 '그녀' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "face",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 다정한 얼굴이야.",
+    "new": "걔는 얼굴이 다정해.",
+    "severity": "low",
+    "problem": "사람 주어 '그녀' — '걔' 규칙과 어긋남. '걔는 다정한 얼굴이야'보다 '얼굴이 다정해'가 구어로 자연스러워 다듬음."
+   },
+   {
+    "word": "car",
+    "si": 1,
+    "field": "tr",
+    "old": "그는 빨간 차를 몰아.",
+    "new": "걔는 빨간 차를 몰아.",
+    "severity": "low",
+    "problem": "사람 주어 '그는' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "president",
+    "si": 2,
+    "field": "tr",
+    "old": "그녀는 그 회사의 회장이야.",
+    "new": "걔는 그 회사의 회장이야.",
+    "severity": "low",
+    "problem": "사람 주어 '그녀' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "kind",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 늘 동물에게 친절해.",
+    "new": "걔는 늘 동물에게 친절해.",
+    "severity": "low",
+    "problem": "사람 주어 '그녀' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "post",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 온라인에 사진을 게시했어.",
+    "new": "걔는 온라인에 사진을 게시했어.",
+    "severity": "low",
+    "problem": "사람 주어 '그녀' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "post",
+    "si": 3,
+    "field": "tr",
+    "old": "그는 회사에서 높은 직위를 얻었어.",
+    "new": "걔는 회사에서 높은 직위를 얻었어.",
+    "severity": "low",
+    "problem": "사람 주어 '그는' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "young",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 운전하기엔 너무 어려.",
+    "new": "걔는 운전하기엔 너무 어려.",
+    "severity": "low",
+    "problem": "사람 주어 '그녀' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "ago",
+    "si": 1,
+    "field": "tr",
+    "old": "난 그를 2년 전에 만났어.",
+    "new": "난 걔를 2년 전에 만났어.",
+    "severity": "low",
+    "problem": "사람 목적어 '그를' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "court",
+    "si": 2,
+    "field": "tr",
+    "old": "그들은 코트에서 테니스를 쳤어.",
+    "new": "걔네는 코트에서 테니스를 쳤어.",
+    "severity": "low",
+    "problem": "사람 주어 '그들은' — '걔' 규칙과 어긋남."
+   },
+   {
+    "word": "single",
+    "si": 2,
+    "field": "tr",
+    "old": "그녀는 결혼했어, 아니면 미혼이야?",
+    "new": "걔는 결혼했어, 아니면 미혼이야?",
+    "severity": "low",
+    "problem": "사람 주어 '그녀' — '걔' 규칙과 어긋남."
+   }
+  ],
+  "lesson03": [
+   {
+    "word": "girl",
+    "si": 1,
+    "field": "ex",
+    "old": "A little {{BLANK}} was playing with a doll.",
+    "new": "A little {{BLANK}} waved at me from the bus.",
+    "severity": "high",
+    "problem": "doll이 허용 어휘(LDV·기초 400·0세트·생활어) 밖 — 어휘 통제 위반(audit tok_ok 기준 확인). 장면 유지하며 허용어로 교체"
+   },
+   {
+    "word": "girl",
+    "si": 1,
+    "field": "tr",
+    "old": "어린 소녀가 인형을 갖고 놀고 있었어.",
+    "new": "어린 여자아이가 버스에서 나한테 손을 흔들었어.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역"
+   },
+   {
+    "word": "cause",
+    "si": 2,
+    "field": "ex",
+    "old": "Smoking can {{BLANK}} many diseases.",
+    "new": "Smoking can {{BLANK}} many health problems.",
+    "severity": "high",
+    "problem": "diseases가 허용 어휘 밖 — 어휘 통제 위반. health·problems는 허용어"
+   },
+   {
+    "word": "cause",
+    "si": 2,
+    "field": "tr",
+    "old": "흡연은 많은 질병을 일으킬 수 있어.",
+    "new": "흡연은 많은 건강 문제를 일으킬 수 있어.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역('일으킬'로 cause 단서 유지)"
+   },
+   {
+    "word": "age",
+    "si": 2,
+    "field": "ex",
+    "old": "We live in the digital {{BLANK}}.",
+    "new": "We live in the information {{BLANK}}.",
+    "severity": "high",
+    "problem": "digital이 허용 어휘 밖 — 어휘 통제 위반. information은 허용어이고 the information age는 고정 연어"
+   },
+   {
+    "word": "age",
+    "si": 2,
+    "field": "tr",
+    "old": "우리는 디지털 시대에 살아.",
+    "new": "우리는 정보화 시대에 살아.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역('시대'가 age ②에만 닿음)"
+   },
+   {
+    "word": "report",
+    "si": 1,
+    "field": "ex",
+    "old": "She wrote a {{BLANK}} on climate change.",
+    "new": "I have to write a {{BLANK}} on world history.",
+    "severity": "high",
+    "problem": "climate가 허용 어휘 밖 — 어휘 통제 위반. 초안의 Korean history는 같은 세트 history① 예문(Korean history)과 소재가 겹치므로 world history로 다듬음(둘 다 허용어)"
+   },
+   {
+    "word": "report",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 기후변화에 관한 보고서를 썼어.",
+    "new": "세계 역사에 관한 보고서를 써야 해.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역"
+   },
+   {
+    "word": "market",
+    "si": 2,
+    "field": "ex",
+    "old": "The stock {{BLANK}} fell sharply.",
+    "new": "The job {{BLANK}} is really hard right now.",
+    "severity": "high",
+    "problem": "stock이 허용 어휘 밖 — 어휘 통제 위반. job은 허용어이고 the job market은 미국 구어에서 흔한 연어"
+   },
+   {
+    "word": "market",
+    "si": 2,
+    "field": "tr",
+    "old": "주식 시장이 급락했어.",
+    "new": "요즘 취업 시장이 정말 어려워.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역('취업 시장'으로 ② 경제 뜻 유지)"
+   },
+   {
+    "word": "type",
+    "si": 1,
+    "field": "ex",
+    "old": "This {{BLANK}} of research takes years.",
+    "new": "What {{BLANK}} of movies do you like?",
+    "severity": "high",
+    "problem": "research가 허용 어휘 밖 — 어휘 통제 위반. 대화체 질문으로 교체(kind/sort는 본질적 동의어라 SYN 몫)"
+   },
+   {
+    "word": "type",
+    "si": 1,
+    "field": "tr",
+    "old": "이런 유형의 연구는 몇 년이 걸려.",
+    "new": "어떤 유형의 영화를 좋아해?",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역. ko의 '유형'을 넣어 type 쪽으로 기울임"
+   },
+   {
+    "word": "else",
+    "si": 1,
+    "field": "tr",
+    "old": "그 밖에 뭐 더 먹을 거 있어?",
+    "new": "그 밖에 뭐 더 먹고 싶은 거 있어?",
+    "severity": "mid",
+    "problem": "'Do you want anything else to eat?'는 '더 먹고 싶은 거 있어?'인데 tr '뭐 더 먹을 거 있어?'는 먹을 게 남았는지 묻는 말로 읽혀 오역. '그 밖에' 단서는 유지"
+   },
+   {
+    "word": "form",
+    "si": 2,
+    "field": "ex",
+    "old": "Please fill in this {{BLANK}}.",
+    "new": "Please fill out this {{BLANK}}.",
+    "severity": "mid",
+    "problem": "c가 'fill out은 미국식, fill in은 영국식'이라 해 놓고 예문은 fill in — 해설과 예문이 충돌하고 미국 구어 원칙에도 어긋남"
+   },
+   {
+    "word": "north",
+    "si": 1,
+    "field": "ex",
+    "old": "Canada is {{BLANK}} of the US.",
+    "new": "Canada is to the {{BLANK}} of the US.",
+    "severity": "low",
+    "problem": "'Canada is north of the US'의 north는 부사 용법인데 pos는 n., ko는 '북쪽'(명사). to the north of로 바꾸면 명사 용법과 일치(8토큰)"
+   },
+   {
+    "word": "heart",
+    "si": 2,
+    "field": "tr",
+    "old": "그녀는 마음씨가 곱다.",
+    "new": "걔는 마음씨가 고와.",
+    "severity": "low",
+    "problem": "'마음씨가 곱다'는 글말 종결 — 세트 전체 구어체('~어/~야')와 어긋남. 사람 주어는 규칙대로 '걔'"
+   },
+   {
+    "word": "wrong",
+    "si": 1,
+    "field": "meow",
+    "old": "wrong, 틀렸다고양. 세 번 틀리면 내가 문다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "1번 연습에서 room②(9번째)·wrong①(12번째)이 다섯 카드 안에 둘 — 밀도 위반. wrong① 줄은 '틀렸다'라는 자명한 뜻만 담아 더 얇으므로 삭제(삭제 후 세트 meow 12줄, 12~18 범위 유지)"
+   },
+   {
+    "word": "pretty",
+    "si": 2,
+    "field": "meow",
+    "old": "예쁜 말고 '꽤'도 pretty라고양. 꽤 잘했다는 칭찬은 안 하고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "2번 연습 pretty②(6번째)·hit②(9번째)가 세 카드 차이로 '다섯 카드당 하나 이하' 위반. pretty②는 c가 이미 '꽤'를 설명하고 있어 meow 없이도 뜻이 전달되므로 삭제(hit②는 c가 15자로 얇아 meow가 더 필요)"
+   },
+   {
+    "word": "turn",
+    "si": 2,
+    "field": "meow",
+    "old": "It's your turn, 네 차례라고양. 돌아가면서 오는 거고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "6번 연습 deal①(3번째)·turn②(6번째)이 세 카드 차이로 밀도 위반. 세계관(츄르 거래)이 있는 deal 줄을 남기고 turn② 줄 삭제"
+   },
+   {
+    "word": "almost",
+    "si": 1,
+    "field": "c",
+    "old": "almost all students(거의 모든 학생) / most students(대부분의 학생) — almost는 부사라 홀로 명사를 꾸미지 못하고, most는 형용사·대명사다.",
+    "new": "almost all students(거의 모든) / most students(대부분의) — 부사 almost는 명사를 못 꾸민다.",
+    "severity": "low",
+    "problem": "해설 100자 — 72자 초과"
+   },
+   {
+    "word": "win",
+    "si": 1,
+    "field": "c",
+    "old": "승리하다·상을 타다. (win-won-won) win the game(경기에서 이기다). [!] beat 뒤에는 상대가 온다 — beat the other team.",
+    "new": "(win-won-won) win the game(경기에서 이기다). [!] beat 뒤엔 상대가 온다 — beat them.",
+    "severity": "low",
+    "problem": "해설 92자 — 72자 초과"
+   },
+   {
+    "word": "large",
+    "si": 1,
+    "field": "c",
+    "old": "크기·양이 큰. big보다 약간 격식적이다. a big house(큰 집, 일상) / a large amount(많은 양, 격식) / great fear(엄청난 공포, 추상) — big은 일상적, large는 크기·수량, great는 추상적 정도에 쓴다.",
+    "new": "big보다 격식적. a big house(일상) / a large amount(수량) / great fear(추상)로 갈린다.",
+    "severity": "low",
+    "problem": "해설 142자 — 72자 초과"
+   },
+   {
+    "word": "remember",
+    "si": 1,
+    "field": "c",
+    "old": "remember는 스스로 기억함, remind는 남을 일깨움. [!] remember to lock은 앞으로 할 일, remember locking은 이미 한 일.",
+    "new": "remind는 남을 일깨움. remember to lock(앞으로 할 일) / remember locking(이미 한 일).",
+    "severity": "low",
+    "problem": "해설 91자 — 72자 초과"
+   },
+   {
+    "word": "understand",
+    "si": 1,
+    "field": "c",
+    "old": "뜻을 파악하다. (불규칙 understand-understood-understood) [!] understand=이해하다(격식·시험) / get=이해하다(회화, I don't get it). 뜻은 같지만 격이 다르다.",
+    "new": "불규칙 understand-understood. 회화는 I don't get it, 격식·시험은 understand.",
+    "severity": "low",
+    "problem": "해설 121자 — 72자 초과"
+   },
+   {
+    "word": "nice",
+    "si": 1,
+    "field": "c",
+    "old": "a good book(잘 쓴 책) / a nice day(기분 좋은 날) — good은 질이 좋음을, nice는 느낌이 좋음을 나타낸다.",
+    "new": "a good book(잘 쓴 책) / a nice day(기분 좋은 날) — good은 질이 좋음, nice는 느낌이 좋음.",
+    "severity": "low",
+    "problem": "해설 76자 — 72자 초과"
+   },
+   {
+    "word": "bit",
+    "si": 1,
+    "field": "c",
+    "old": "bit은 '작은 조각·양'을 뜻하는 명사이고, a bit은 그 명사구가 '조금'이라는 부사처럼 쓰인 것이다. 형용사 앞에서 a bit tired = a little tired(조금 피곤한)로 둘 다 쓴다. 셀 수 없는 명사 앞엔 a little: a little water(약간의 물).",
+    "new": "bit은 '작은 조각'. a bit tired = a little tired(조금 피곤한). 명사 앞엔 a bit of.",
+    "severity": "low",
+    "problem": "해설 160자 — 72자 초과. 또 '셀 수 없는 명사 앞엔 a little'은 a bit of water가 정상 표현이라 오해를 부름 — of 결합으로 고침"
+   },
+   {
+    "word": "past",
+    "si": 2,
+    "field": "c",
+    "old": "'~을 지나'가 핵심 뜻이다. 시각을 ten past three로 말하는 것은 영국식이고, 미국에서는 ten after three라고 한다.",
+    "new": "'~을 지나'가 핵심. 시각 ten past three(3시 10분)는 미국에선 ten after three가 더 흔하다.",
+    "severity": "low",
+    "problem": "해설 78자 — 72자 초과. 'ten past three는 영국식'은 과장(미국에서도 쓰되 after가 더 흔함) — 사실에 맞게 완화"
+   },
+   {
+    "word": "idea",
+    "si": 1,
+    "field": "c",
+    "old": "have no idea(전혀 모르다)처럼 쓴다. 머릿속의 발상을 뜻한다. That's a great idea!(좋은 생각이야) / weekend plans(주말 계획) — idea는 머릿속 발상(아직 실행 전), plan은 실행하려고 짠 구체적 계획이다.",
+    "new": "have no idea(전혀 모르다). idea는 머릿속 발상(실행 전), plan은 실행하려고 짠 구체적 계획이다.",
+    "severity": "low",
+    "problem": "해설 142자 — 72자 초과"
+   },
+   {
+    "word": "international",
+    "si": 1,
+    "field": "c",
+    "old": "inter(사이) + national(국가의) = 나라들 사이의. local(지역의) < national(전국의) < international(국제의).",
+    "new": "inter(사이)+national(국가의)=나라 사이의. local(지역)<national(전국)<international.",
+    "severity": "low",
+    "problem": "해설 85자 — 72자 초과"
+   },
+   {
+    "word": "class",
+    "si": 1,
+    "field": "c",
+    "old": "an English class(영어 수업) / a group of students(학생 한 무리) — class는 함께 배우는 수업·반, group은 그냥 모인 무리다.",
+    "new": "an English class(영어 수업) / a group of students(학생 무리) — class는 함께 배우는 반.",
+    "severity": "low",
+    "problem": "해설 94자 — 72자 초과"
+   },
+   {
+    "word": "possible",
+    "si": 1,
+    "field": "c",
+    "old": "as soon as possible = 가능한 한 빨리. probable은 확률이 높다는 뜻. [!] 사람 주어는 못 쓴다 — I am possible(X).",
+    "new": "as soon as possible(가능한 한 빨리). [!] 사람 주어는 못 쓴다 — I am possible(X).",
+    "severity": "low",
+    "problem": "해설 88자 — 72자 초과"
+   },
+   {
+    "word": "close",
+    "si": 1,
+    "field": "c",
+    "old": "close는 '닫다'(타동사)와 '닫히다'(자동사)를 한 형태로 쓴다 — I close the door(문을 닫다) / The door closed(문이 닫혔다). open(열다/열리다)도 같다.",
+    "new": "'닫다'와 '닫히다'가 한 형태 — I close the door / The door closed. open도 같다.",
+    "severity": "low",
+    "problem": "해설 109자 — 72자 초과"
+   },
+   {
+    "word": "close",
+    "si": 2,
+    "field": "c",
+    "old": "형용사 close는 /kloʊs/. 거리도 사이도 '가까운'(a close friend). [!] 동사 close(닫다)는 /kloʊz/.",
+    "new": "형용사 close는 /kloʊs/ — 거리도 사이도 '가까운'(a close friend). 동사 close는 /kloʊz/.",
+    "severity": "low",
+    "problem": "해설 77자 — 72자 초과"
+   },
+   {
+    "word": "wait",
+    "si": 1,
+    "field": "c",
+    "old": "기다리는 대상 앞에는 for가 온다 — wait for me(O) / wait me(X). I can't wait to see you = 빨리 보고 싶어.",
+    "new": "대상 앞엔 for — wait for me(O) / wait me(X). can't wait to ~ = 빨리 ~하고 싶다.",
+    "severity": "low",
+    "problem": "해설 86자 — 72자 초과"
+   },
+   {
+    "word": "question",
+    "si": 1,
+    "field": "c",
+    "old": "a difficult question(어려운 질문) / a serious problem(심각한 문제) — question은 답을 묻는 물음, problem은 풀어야 할 곤란한 일이다.",
+    "new": "a difficult question(어려운 질문) / a serious problem(심각한 문제) — 물음이냐 곤란한 일이냐.",
+    "severity": "low",
+    "problem": "해설 102자 — 72자 초과"
+   },
+   {
+    "word": "special",
+    "si": 1,
+    "field": "c",
+    "old": "평범하지 않은. special의 부사는 specially(일부러 그 목적으로)이고, especially(그중에서도 특히)는 형태가 비슷한 다른 낱말이다.",
+    "new": "부사 specially(일부러 그 목적으로)와 especially(그중에서도 특히)는 닮았지만 다른 낱말이다.",
+    "severity": "low",
+    "problem": "해설 85자 — 72자 초과"
+   },
+   {
+    "word": "watch",
+    "si": 1,
+    "field": "c",
+    "old": "see a mountain(산이 눈에 들어오다) / look at a photo(사진에 시선을 돌리다) / watch TV(움직이는 것을 지켜보다).",
+    "new": "see a mountain(눈에 들어옴) / look at a photo(시선을 돌림) / watch TV(움직이는 걸 지켜봄).",
+    "severity": "low",
+    "problem": "해설 83자 — 72자 초과"
+   },
+   {
+    "word": "ask",
+    "si": 1,
+    "field": "c",
+    "old": "묻는 상대는 바로 뒤에 온다 — ask me(O) / ask to me(X). ask + 사람 + 내용(ask me a question).",
+    "new": "묻는 상대는 바로 뒤에 — ask me(O) / ask to me(X). ask me a question처럼 사람+내용 순.",
+    "severity": "low",
+    "problem": "해설 77자 — 72자 초과"
+   },
+   {
+    "word": "ask",
+    "si": 2,
+    "field": "c",
+    "old": "요청할 땐 for를 붙인다 — ask for help[money]. 사람에게 시킬 땐 ask + 사람 + to부정사(ask him to wait).",
+    "new": "요청할 땐 for — ask for help[money]. 사람에게 시킬 땐 ask him to wait처럼 to부정사.",
+    "severity": "low",
+    "problem": "해설 82자 — 72자 초과"
+   },
+   {
+    "word": "late",
+    "si": 2,
+    "field": "c",
+    "old": "stay up late(늦게까지 깨어 있다)처럼, 동사를 꾸미면 부사다. 형태는 형용사와 같다. He came late(늦게 왔다) / I've been busy lately(최근에 바빴다) — late는 '늦게', lately는 '최근에'. 철자가 비슷해도 뜻이 전혀 다르다.",
+    "new": "stay up late(늦게까지)처럼 동사를 꾸미면 부사. [!] lately는 '최근에' — 철자만 닮은 딴 낱말.",
+    "severity": "low",
+    "problem": "해설 155자 — 72자 초과"
+   },
+   {
+    "word": "reason",
+    "si": 1,
+    "field": "c",
+    "old": "the reason for + 명사 / the reason why + 절. [!] The reason is because(X)는 겹말이니 that을 쓴다.",
+    "new": "reason for + 명사 / reason why + 절. [!] The reason is because(X)는 겹말이다.",
+    "severity": "low",
+    "problem": "해설 86자 — 72자 초과"
+   },
+   {
+    "word": "soon",
+    "si": 1,
+    "field": "c",
+    "old": "as soon as ~(~하자마자). come soon(곧 오다) / come early(일찍 오다) — soon은 '곧'(가까운 미래), early는 '이른'(때가 빠름)이다.",
+    "new": "as soon as ~(~하자마자). come soon(곧 오다) / come early(일찍 오다) — 미래냐 이른 때냐.",
+    "severity": "low",
+    "problem": "해설 99자 — 72자 초과"
+   },
+   {
+    "word": "buy",
+    "si": 1,
+    "field": "c",
+    "old": "돈을 주고 얻다. (불규칙 buy-bought-bought) buy a ticket(표를 사다) / get a ticket(표를 구하다) — buy는 돈을 치르는 것이고, get은 꼭 돈이 아니어도 손에 넣는 것이다.",
+    "new": "(buy-bought-bought) buy는 돈을 치르고 얻는 것, get a ticket(표를 구하다)은 돈 없이도 된다.",
+    "severity": "low",
+    "problem": "해설 121자 — 72자 초과"
+   },
+   {
+    "word": "whether",
+    "si": 1,
+    "field": "c",
+    "old": "whether ~ or not(~인지 아닌지)처럼 쓴다. 두 가능성 중 어느 쪽인지를 나타낸다. whether와 if 모두 '~인지'를 뜻하지만, whether는 or not과 함께, 전치사 뒤에, 주어 자리에 쓸 수 있어 더 자유롭다. 격식을 갖춘 글에는 whether를 쓴다.",
+    "new": "whether ~ or not(~인지 아닌지). if와 뜻은 같지만 전치사 뒤·주어 자리·바로 뒤 or not엔 whether만.",
+    "severity": "low",
+    "problem": "해설 156자 — 72자 초과. 초안 fix의 'or not엔 whether만'은 I don't know if it rains or not이 정상 영어라 과장 — '바로 뒤 or not'으로 사실에 맞게 좁힘(72자)"
+   },
+   {
+    "word": "among",
+    "si": 1,
+    "field": "c",
+    "old": "between you and me(너와 나 둘 사이) / among the trees(나무들 사이) — between은 둘 사이, among은 셋 이상 사이에 쓴다.",
+    "new": "between you and me(둘 사이) / among the trees(셋 이상 사이) — 둘이면 between을 쓴다.",
+    "severity": "low",
+    "problem": "해설 92자 — 72자 초과"
+   },
+   {
+    "word": "further",
+    "si": 1,
+    "field": "c",
+    "old": "far의 비교급. 거리에는 farther·further 둘 다 쓰지만, '추가의·더 나아가'라는 뜻에는 further만 쓴다 — further information.",
+    "new": "far의 비교급. 거리엔 farther도 쓰지만 '추가의·더 나아가'는 further만 — further information.",
+    "severity": "low",
+    "problem": "해설 92자 — 72자 초과"
+   },
+   {
+    "word": "although",
+    "si": 1,
+    "field": "c",
+    "old": "though와 같은 뜻이고 although가 더 격식적이다. [!] '비록 ~지만'을 옮길 때 but을 겹쳐 쓰지 않는다 — Although ~, but ~(X).",
+    "new": "though와 같은 뜻, although가 더 격식. [!] but을 겹치지 않는다 — Although ~, but ~(X).",
+    "severity": "low",
+    "problem": "해설 91자 — 72자 초과"
+   },
+   {
+    "word": "fun",
+    "si": 1,
+    "field": "c",
+    "old": "a fun movie(재미있는 영화) / a funny movie(웃긴 영화) — fun은 즐거움을 주는 것, funny는 웃음이 나는 것이다. [!] funny는 '이상한'도 된다(a funny smell 이상한 냄새).",
+    "new": "a fun movie(재미있는) / a funny movie(웃긴) — fun은 즐거움, funny는 웃음이나 '이상함'.",
+    "severity": "low",
+    "problem": "해설 124자 — 72자 초과"
+   },
+   {
+    "word": "quite",
+    "si": 1,
+    "field": "c",
+    "old": "not quite = 완전히는 아닌. 영국 quite good은 '그런대로', 미국은 '아주'. quiet(조용한)와 철자 혼동 주의.",
+    "new": "not quite = 완전히는 아닌. 영국 quite good은 '그런대로', 미국은 '아주'. quiet(조용한)와 철자 주의.",
+    "severity": "low",
+    "problem": "해설 75자 — 72자 초과"
+   },
+   {
+    "word": "according",
+    "si": 1,
+    "field": "c",
+    "old": "according to + 출처(사람·자료)의 꼴로 쓴다. [!] 자기 의견에는 쓰지 않는다 — According to me(X) / In my opinion(O).",
+    "new": "according to + 출처(사람·자료). [!] According to me(X) — 내 의견은 In my opinion.",
+    "severity": "low",
+    "problem": "해설 92자 — 72자 초과"
+   },
+   {
+    "word": "former",
+    "si": 1,
+    "field": "c",
+    "old": "명사 앞에서만 쓰여 '이전의'를 뜻한다 — a former president. the former는 '전자'로 latter(후자)와 짝을 이룬다.",
+    "new": "명사 앞에서만 쓴다 — a former president. the former(전자)는 the latter(후자)와 짝을 이룬다.",
+    "severity": "low",
+    "problem": "해설 81자 — 72자 초과"
+   },
+   {
+    "word": "front",
+    "si": 1,
+    "field": "c",
+    "old": "at the front of the class = 교실 안 앞자리에 / in front of the class = 학생들 앞에 서서. 안과 밖이 갈린다.",
+    "new": "at the front of the class(교실 안 앞자리) / in front of the class(학생들 앞에 서서).",
+    "severity": "low",
+    "problem": "해설 85자 — 72자 초과"
+   },
+   {
+    "word": "experience",
+    "si": 1,
+    "field": "c",
+    "old": "겪은 일 하나는 셀 수 있다 — a new experience, many experiences. '경력'을 뜻할 땐 셀 수 없다(work experience).",
+    "new": "겪은 일 하나는 셀 수 있다 — a new experience. '경력'을 뜻할 땐 셀 수 없다(work experience).",
+    "severity": "low",
+    "problem": "해설 89자 — 72자 초과"
+   },
+   {
+    "word": "meet",
+    "si": 1,
+    "field": "c",
+    "old": "(불규칙 meet-met-met) Nice to meet you(초면) / Nice to see you(구면) — meet은 처음 만나거나 합류하는 것, see는 이미 아는 사람을 만나는 것이다.",
+    "new": "(meet-met-met) Nice to meet you(초면) / Nice to see you(구면) — 아는 사람은 see.",
+    "severity": "low",
+    "problem": "해설 109자 — 72자 초과"
+   },
+   {
+    "word": "college",
+    "si": 1,
+    "field": "c",
+    "old": "college=단과대·전문대 / university=종합대학. 다만 미국에서는 go to college가 '대학에 다니다'를 뜻하는 표준 표현이다.",
+    "new": "college=단과대·전문대 / university=종합대학. 미국에선 go to college가 '대학에 다니다'를 뜻한다.",
+    "severity": "low",
+    "problem": "해설 82자 — 72자 초과. 초안 fix의 종결 '~다니다'다'가 어색해 '~를 뜻한다'로 다듬음(70자)"
+   },
+   {
+    "word": "example",
+    "si": 1,
+    "field": "c",
+    "old": "[!] for example(예를 들어)의 줄임말은 라틴어 exempli gratia에서 온 e.g.이다. 흔히 쓰는 ex.는 영어권에서 거의 쓰지 않는다.",
+    "new": "[!] for example의 줄임말은 라틴어에서 온 e.g.이다. 흔히 쓰는 ex.는 영어권에서 거의 안 쓴다.",
+    "severity": "low",
+    "problem": "해설 87자 — 72자 초과"
+   },
+   {
+    "word": "march",
+    "si": 1,
+    "field": "c",
+    "old": "3월은 대문자 March. ②행진하다와는 뿌리가 다른 별개 단어로, 로마 전쟁의 신 Mars의 달에서 온 이름이다. (달·요일은 늘 대문자)",
+    "new": "3월은 대문자 March. ② 행진하다와는 뿌리가 다른 별개 단어로, 전쟁의 신 Mars의 달에서 왔다. 달·요일은 늘 대문자.",
+    "severity": "low",
+    "problem": "해설 78자 — 72자 초과"
+   }
+  ],
+  "lesson04": [
+   {
+    "word": "month",
+    "si": 1,
+    "field": "c",
+    "old": "monthly = 매달의. [!] -ly는 두 가지다 — 명사에 붙으면 형용사(monthly·lovely 사랑스러운), 형용사에 붙으면 부사(quickly 빨리).",
+    "new": "monthly = 매달의. [!] 명사+ly는 형용사(monthly·lovely), 형용사+ly는 부사(quickly).",
+    "severity": "low",
+    "problem": "해설 91자 — 72자 상한 초과. 핵심(-ly 두 갈래)만 남기고 압축."
+   },
+   {
+    "word": "instead",
+    "si": 1,
+    "field": "c",
+    "old": "instead(부사)는 홀로 쓰고, instead of ~ 뒤에는 명사·-ing가 온다. I'll go instead / instead of going.",
+    "new": "instead(부사)는 홀로, instead of 뒤엔 명사·-ing — go instead / instead of going.",
+    "severity": "low",
+    "problem": "해설 85자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "hear",
+    "si": 1,
+    "field": "c",
+    "old": "불규칙 hear-heard-heard. hear=저절로 들리다 / listen (to)=귀 기울여 듣다. I hear a noise(들린다) / listen to music(귀 기울인다). see와 look의 관계와 같다.",
+    "new": "불규칙 hear-heard-heard. hear=저절로 들리다 / listen to=귀 기울여 듣다(see/look 관계).",
+    "severity": "low",
+    "problem": "해설 124자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "rest",
+    "si": 3,
+    "field": "c",
+    "old": "the rest of ~ = ~의 나머지. ①②의 '휴식'과는 뿌리가 다른 별개 단어로(라틴어 restare '남다'), 철자만 같다.",
+    "new": "the rest of ~ = ~의 나머지. ①②의 '휴식'과는 뿌리가 다른 별개 단어(라틴어 restare '남다')다.",
+    "severity": "low",
+    "problem": "해설 75자 — 72자 상한 초과. 압축(어원 restare는 사실)."
+   },
+   {
+    "word": "price",
+    "si": 1,
+    "field": "c",
+    "old": "파는 값이 price, 만드는 데 드는 값이 cost다 — The price is 1,000 won but the cost is 300 won(파는 값은 1,000원인데 드는 비용은 300원이다).",
+    "new": "파는 값이 price, 만드는 데 드는 값이 cost — price 1,000원(파는 값) / cost 300원(드는 비용).",
+    "severity": "low",
+    "problem": "해설 110자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "beautiful",
+    "si": 1,
+    "field": "c",
+    "old": "beauty(아름다움) + ful → beautiful. beautiful=아름다운(주로 여성·풍경·예술) / handsome=잘생긴(주로 남성) / pretty=예쁜(귀여운 느낌).",
+    "new": "beauty+ful. beautiful=아름다운(풍경·예술·여성) / handsome=잘생긴(남성) / pretty=예쁜.",
+    "severity": "low",
+    "problem": "해설 102자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "include",
+    "si": 1,
+    "field": "c",
+    "old": "include=포함하다(동사) / including=~을 포함하여(전치사). The price includes tax(그 값은 세금을 포함한다) / everyone, including me(나를 포함해 모두).",
+    "new": "include=포함하다(동사) / including=~을 포함하여(전치사) — everyone, including me.",
+    "severity": "low",
+    "problem": "해설 117자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "especially",
+    "si": 1,
+    "field": "c",
+    "old": "especial + ly에서 온 말로 '특히'를 뜻한다. [!] special + ly는 뜻이 다른 specially(일부러·특별한 목적으로)다.",
+    "new": "especial+ly → especially. [!] special+ly는 뜻이 다른 specially(일부러·특별한 목적으로).",
+    "severity": "low",
+    "problem": "해설 81자 — 72자 상한 초과. 초안 fix(76자)도 초과라 다듬음. specially 뜻은 원문의 '일부러·특별한 목적으로'를 유지(초안의 '특별히'는 ko '특히, 특별히'와 충돌)."
+   },
+   {
+    "word": "lead",
+    "si": 2,
+    "field": "c",
+    "old": "lead to + 명사 = ~을 초래하다. [!] 동사 lead /lid/, 명사 lead(납) /lɛd/ — 철자는 같고 소리가 다르다.",
+    "new": "lead to + 명사 = ~을 초래하다. [!] 동사 lead /lid/, 명사 lead(납) /lɛd/ — 소리가 다르다.",
+    "severity": "low",
+    "problem": "해설 77자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "happen",
+    "si": 1,
+    "field": "c",
+    "old": "happen은 저절로 일어나는 것, cause는 누가 일으키는 것. [!] 수동태가 없다 — The accident happened(O) / was happened(X).",
+    "new": "happen은 저절로 일어나는 것. [!] 수동태 없음 — It happened(O) / It was happened(X).",
+    "severity": "low",
+    "problem": "해설 95자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "center",
+    "si": 1,
+    "field": "c",
+    "old": "영국식 철자는 centre. center=중심(점) / middle=가운데(부분·구간). the center of the circle(원의 중심점) / the middle of the night(한밤중).",
+    "new": "영국식 철자 centre. center=중심(점) / middle=가운데(구간) — the middle of the night.",
+    "severity": "low",
+    "problem": "해설 114자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "result",
+    "si": 1,
+    "field": "c",
+    "old": "cause=원인 / effect=그것이 미치는 영향·작용 / result=최종적으로 귀결된 결과. as a result = 그 결과.",
+    "new": "cause=원인 / effect=미치는 영향·작용 / result=최종적으로 귀결된 결과. as a result = 그 결과.",
+    "severity": "low",
+    "problem": "해설 74자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "middle",
+    "si": 1,
+    "field": "c",
+    "old": "in the middle of ~ = ~의 한가운데·도중에. middle=가운데(부분·구간) / center=중심(점). the middle of the night(한밤중) / the center of the circle(원의 중심).",
+    "new": "in the middle of ~ = ~의 한가운데·도중에. middle=가운데(부분·구간) / center=중심(점).",
+    "severity": "low",
+    "problem": "해설 131자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "present",
+    "si": 1,
+    "field": "c",
+    "old": "gift와 같은 뜻이다. [!] 강세 주의 — 명사·형용사는 앞(present /ˈprɛzənt/), 동사는 뒤(present /prɪˈzɛnt/).",
+    "new": "gift와 같은 뜻. [!] 강세 주의 — 명사·형용사는 앞(/ˈprɛzənt/), 동사는 뒤(/prɪˈzɛnt/).",
+    "severity": "low",
+    "problem": "해설 83자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "present",
+    "si": 2,
+    "field": "c",
+    "old": "그 자리에 있다는 뜻. 반대는 absent(결석한). '현재의'로도 쓴다 — the present time(현재), at present(지금은).",
+    "new": "그 자리에 있다는 뜻, 반대는 absent(결석한). '현재의'로도 쓴다 — at present(지금은).",
+    "severity": "low",
+    "problem": "해설 81자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "present",
+    "si": 3,
+    "field": "c",
+    "old": "[!] 강세 주의 — 동사 present /prɪˈzɛnt/는 뒤에 강세가 온다. present + ation → presentation(발표).",
+    "new": "[!] 강세 주의 — 동사 present /prɪˈzɛnt/는 뒤에 강세. present+ation → presentation.",
+    "severity": "low",
+    "problem": "해설 81자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "wish",
+    "si": 1,
+    "field": "c",
+    "old": "이루기 힘들거나 사실과 반대인 일을 바랄 때 쓴다. 동사를 한 시제 뒤로 밀어 '사실이 아님'을 드러낸다 — I wish I were.",
+    "new": "이루기 힘들거나 사실과 반대인 일을 바랄 때. 동사를 한 시제 뒤로 밀어 '사실 아님'을 표시 — I wish I were.",
+    "severity": "low",
+    "problem": "해설 75자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "society",
+    "si": 1,
+    "field": "c",
+    "old": "라틴어 socius(동료)에서 온 말. soci + ety → society(사회) / soci + al → social(사회의). -ety는 명사, -al은 형용사를 만드는 접미사다.",
+    "new": "라틴어 socius(동료)에서. soci+ety → society(사회, 명사) / soci+al → social(사회의, 형).",
+    "severity": "low",
+    "problem": "해설 103자 — 72자 상한 초과. 압축(72자)."
+   },
+   {
+    "word": "answer",
+    "si": 1,
+    "field": "c",
+    "old": "타동사라 전치사가 없다 — answer my question(O) / answer to my question(X). 명사일 때만 the answer to ~.",
+    "new": "타동사라 전치사 없음 — answer my question(O) / answer to(X). 명사만 the answer to ~.",
+    "severity": "low",
+    "problem": "해설 88자 — 72자 상한 초과. 압축(72자)."
+   },
+   {
+    "word": "interest",
+    "si": 1,
+    "field": "c",
+    "old": "interest + ing → interesting(흥미로운) / interest + ed → interested(흥미를 느끼는). 자세한 쓰임은 ③ 참조.",
+    "new": "interest+ing → interesting(흥미로운) / +ed → interested(흥미 느끼는). ③ 참조.",
+    "severity": "low",
+    "problem": "해설 87자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "interest",
+    "si": 2,
+    "field": "c",
+    "old": "이 뜻으로는 셀 수 없다 — pay interest, at an interest rate of 3%. 복수 interests는 '관심사·이해관계'로 뜻이 달라진다.",
+    "new": "이 뜻은 셀 수 없다 — pay interest, interest rate 3%. 복수 interests는 '관심사·이해관계'.",
+    "severity": "low",
+    "problem": "해설 91자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "interest",
+    "si": 3,
+    "field": "c",
+    "old": "'흥미를 일으키다'라는 타동사다. 그래서 흥미를 주는 쪽에는 -ing, 받는 쪽에는 -ed를 쓴다 — The book is interesting(그 책이 흥미를 준다) / I am interested in it(내가 흥미를 느낀다). bore(지루하게 하다)·excite(신나게 하다)도 같은 방식이다.",
+    "new": "타동사라 주는 쪽 -ing, 받는 쪽 -ed — The book is interesting / I am interested.",
+    "severity": "low",
+    "problem": "해설 169자 — 72자 상한 초과. 핵심(-ing/-ed 방향)만 남김."
+   },
+   {
+    "word": "king",
+    "si": 1,
+    "field": "c",
+    "old": "king + dom → kingdom(왕국). -dom은 '다스리는 영역·상태'를 뜻한다 — freedom(자유), wisdom(지혜).",
+    "new": "king+dom → kingdom(왕국). -dom은 '다스리는 영역·상태' — freedom(자유), wisdom(지혜).",
+    "severity": "low",
+    "problem": "해설 76자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "gold",
+    "si": 1,
+    "field": "c",
+    "old": "gold + en → golden(금빛의). 실제 금 소재는 gold, 색이나 비유는 golden을 주로 쓴다 — golden hair(금발), golden opportunity(절호의 기회).",
+    "new": "gold+en → golden(금빛의). 금 소재는 gold, 색·비유는 golden — golden hair(금발).",
+    "severity": "low",
+    "problem": "해설 108자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "learn",
+    "si": 1,
+    "field": "c",
+    "old": "study=공부하다(과정) / learn=익히다·배워서 알게 되다(결과). study English(영어를 공부하다) / learn English(영어를 익히다).",
+    "new": "study=공부하다(과정) / learn=익히다·배워서 알게 되다(결과). study English / learn English.",
+    "severity": "low",
+    "problem": "해설 91자 — 72자 상한 초과. 압축(72자)."
+   },
+   {
+    "word": "alone",
+    "si": 1,
+    "field": "c",
+    "old": "alone은 곁에 사람이 없는 '상태', lonely는 그래서 쓸쓸한 '감정'이다 — She lives alone but isn't lonely.",
+    "new": "alone은 사람이 곁에 없는 '상태', lonely는 쓸쓸한 '감정' — alone but not lonely.",
+    "severity": "low",
+    "problem": "해설 81자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "medical",
+    "si": 1,
+    "field": "c",
+    "old": "라틴어 medicus(의사)에서 온 말. medical(의학의)·medicine(약·의학)이 한 뿌리다. medical care = 의료.",
+    "new": "라틴어 medicus(의사)에서. medical(의학의)·medicine(약·의학)이 한 뿌리. medical care = 의료.",
+    "severity": "low",
+    "problem": "해설 77자 — 72자 상한 초과. 압축(72자)."
+   },
+   {
+    "word": "bank",
+    "si": 2,
+    "field": "c",
+    "old": "river bank = 강둑. 바다의 얕은 모래톱도 bank. ①은행(이탈리아어 banca '환전상 탁자')과는 뿌리가 다른 별개 단어다.",
+    "new": "river bank = 강둑. ①은행(이탈리아어 banca '환전상 탁자')과는 뿌리가 다른 별개 단어로, 철자만 같다.",
+    "severity": "low",
+    "problem": "해설 77자 — 72자 상한 초과. 초안 fix(77자)도 초과였고 '별개 표제어'는 앱에선 같은 표제어 bank의 ②라 부정확 — 원문의 '뿌리가 다른 별개 단어' 표현을 살려 67자로 다듬음."
+   },
+   {
+    "word": "worth",
+    "si": 1,
+    "field": "c",
+    "old": "be worth + -ing = ~할 가치가 있다. [!] 뒤에 동명사가 온다 — worth reading(O) / worth to read(X). worth=가치가 있는(형용사) / value=가치(명사) / worthy=훌륭한·자격 있는.",
+    "new": "be worth -ing: worth reading(O) / worth to read(X). worth 형용사, value 명사.",
+    "severity": "low",
+    "problem": "해설 135자 — 72자 상한 초과. 압축(72자)."
+   },
+   {
+    "word": "sound",
+    "si": 2,
+    "field": "c",
+    "old": "sound + 형용사 = ~하게 들리다(That sounds good) / sound like + 명사 = ~처럼 들리다(That sounds like a good idea). 감각동사 look·sound·taste·feel은 뒤에 형용사가 오면 '~하게 ~하다', like + 명사가 오면 '~처럼 ~하다'가 된다.",
+    "new": "sound+형용사(sounds good) / sound like+명사(sounds like a plan). feel도 같다.",
+    "severity": "low",
+    "problem": "해설 177자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "value",
+    "si": 1,
+    "field": "c",
+    "old": "복수 values는 '가치관'을 뜻한다. value=가치(명사) / worth=가치가 있는(형용사). of great value / worth reading.",
+    "new": "복수 values는 '가치관'. value=가치(명사) / worth=가치 있는(형용사) — worth reading.",
+    "severity": "low",
+    "problem": "해설 88자 — 72자 상한 초과. 압축."
+   },
+   {
+    "word": "provide",
+    "si": 1,
+    "field": "c",
+    "old": "provide A with B = provide B for A. 예문처럼 provide + 사물만 쓰기도 한다. [!] provide A to B는 잘 안 쓴다.",
+    "new": "provide A with B = provide B for A. with 뒤엔 물건, for 뒤엔 사람이 온다.",
+    "severity": "high",
+    "problem": "해설 90자로 상한 초과. '예문처럼 provide + 사물만 쓰기도 한다'는 예문(provides guests with towels = provide A with B)과 맞지 않고, 'provide A to B는 잘 안 쓴다'는 현대 미국 영어에서 표준인 형(provide information to customers)을 틀렸다고 가르칠 위험."
+   },
+   {
+    "word": "process",
+    "si": 2,
+    "field": "ex",
+    "old": "Computers {{BLANK}} data quickly.",
+    "new": "Factories {{BLANK}} milk into cheese.",
+    "severity": "high",
+    "problem": "data가 허용 어휘 밖(tok_ok False) — 어휘 통제 위반. 또 tr '처리해'로는 handle(9세트, ko '다루다, 처리하다')이 그대로 들어감. ko에만 있는 '가공하다' 연어로 교체."
+   },
+   {
+    "word": "process",
+    "si": 2,
+    "field": "tr",
+    "old": "컴퓨터는 데이터를 빠르게 처리해.",
+    "new": "공장에서는 우유를 가공해 치즈로 만들어.",
+    "severity": "high",
+    "problem": "예문 교체에 따른 번역. '가공해'는 process에만 닿음."
+   },
+   {
+    "word": "moment",
+    "si": 1,
+    "field": "ex",
+    "old": "Wait a {{BLANK}}, please.",
+    "new": "At that {{BLANK}}, the phone rang.",
+    "severity": "mid",
+    "problem": "'Wait a ___' + tr '잠시만'은 second(1세트, ko '초')·minute(6세트)이 그대로 들어감. minute②는 ko '잠깐'이 겹쳐 안내가 뜨지만 second는 안내 없이 오답. 시점 용법으로 교체."
+   },
+   {
+    "word": "moment",
+    "si": 1,
+    "field": "tr",
+    "old": "잠시만 기다려 주세요.",
+    "new": "그 순간 전화가 울렸어.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역. '그 순간'은 moment에만 닿음(time '때'와 구분)."
+   },
+   {
+    "word": "beautiful",
+    "si": 1,
+    "field": "ex",
+    "old": "What a {{BLANK}} sunset!",
+    "new": "What a {{BLANK}} flower!",
+    "severity": "mid",
+    "problem": "sunset이 허용 어휘 밖 — 어휘 통제 위반."
+   },
+   {
+    "word": "beautiful",
+    "si": 1,
+    "field": "tr",
+    "old": "정말 아름다운 노을이야!",
+    "new": "정말 아름다운 꽃이야!",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역."
+   },
+   {
+    "word": "shot",
+    "si": 1,
+    "field": "ex",
+    "old": "He scored with a long {{BLANK}}.",
+    "new": "Nice {{BLANK}}! The ball went right in.",
+    "severity": "mid",
+    "problem": "scored가 허용 어휘 밖 — 어휘 통제 위반. tr도 '그는'."
+   },
+   {
+    "word": "shot",
+    "si": 1,
+    "field": "tr",
+    "old": "그는 멀리서 슛을 넣어 득점했어.",
+    "new": "멋진 슛! 공이 바로 들어갔어.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역. '슛'이 shot에만 닿음."
+   },
+   {
+    "word": "shot",
+    "si": 2,
+    "field": "ex",
+    "old": "She took a great {{BLANK}} of the sunrise.",
+    "new": "She took a great {{BLANK}} of the sea.",
+    "severity": "mid",
+    "problem": "sunrise가 허용 어휘 밖 — 어휘 통제 위반."
+   },
+   {
+    "word": "shot",
+    "si": 2,
+    "field": "tr",
+    "old": "일출을 멋진 샷으로 한 장 찍었어.",
+    "new": "걔는 바다를 멋진 샷으로 한 장 찍었어.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역. '샷'을 남겨 picture·photo(사진)를 배제, 주어 '걔'."
+   },
+   {
+    "word": "account",
+    "si": 2,
+    "field": "tr",
+    "old": "그는 그 사건을 자세히 설명했어.",
+    "new": "걔가 그 사건 경위를 자세히 설명해 줬어.",
+    "severity": "low",
+    "problem": "tr '그는' — 사람 주어는 '걔' 규칙 위반. explanation·description은 'gave a full ___ of the event'에 들어가지만 ko '설명'이 겹쳐 동의어 안내가 뜨는 쌍이라 결함으로는 약함(초안 mid→low). 초안 fix '기술했어'는 구어가 아니라 '경위를 … 설명해 줬어'로 다듬음(경위 = 사건 서술이라 account 쪽으로 기움)."
+   },
+   {
+    "word": "period",
+    "si": 1,
+    "field": "ex",
+    "old": "We have math in the first {{BLANK}}.",
+    "new": "We have history in the first {{BLANK}}.",
+    "severity": "mid",
+    "problem": "math가 허용 어휘 밖 — 어휘 통제 위반."
+   },
+   {
+    "word": "period",
+    "si": 1,
+    "field": "tr",
+    "old": "우린 1교시에 수학이 있어.",
+    "new": "우린 1교시에 역사 수업이 있어.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역."
+   },
+   {
+    "word": "position",
+    "si": 2,
+    "field": "ex",
+    "old": "What's your {{BLANK}} on this issue?",
+    "new": "What's your {{BLANK}} on this question?",
+    "severity": "mid",
+    "problem": "issue가 허용 어휘 밖 — 어휘 통제 위반. question으로 바꾸면 tr '이 문제에 대한'은 그대로 맞음(tr 변경 없음)."
+   },
+   {
+    "word": "position",
+    "si": 3,
+    "field": "ex",
+    "old": "She applied for a {{BLANK}} at the bank.",
+    "new": "He holds a high {{BLANK}} in the company.",
+    "severity": "mid",
+    "problem": "applied가 허용 어휘 밖(apply 미허용) — 어휘 통제 위반. '지원했어'는 job(2세트)이 그대로 들어가는 자리. hold a high position 연어로 교체(post③ '직위'는 ko가 겹쳐 안내 몫)."
+   },
+   {
+    "word": "position",
+    "si": 3,
+    "field": "tr",
+    "old": "그녀는 은행의 한 직위에 지원했어.",
+    "new": "걔는 회사에서 높은 직위에 있어.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역. '높은 직위'는 position에 닿고 주어 '걔'."
+   },
+   {
+    "word": "especially",
+    "si": 1,
+    "field": "ex",
+    "old": "I love fruit, {{BLANK}} mangoes.",
+    "new": "I love fruit, {{BLANK}} apples.",
+    "severity": "mid",
+    "problem": "mangoes가 허용 어휘 밖 — 어휘 통제 위반."
+   },
+   {
+    "word": "especially",
+    "si": 1,
+    "field": "tr",
+    "old": "난 과일을, 특히 망고를 좋아해.",
+    "new": "난 과일을, 특히 사과를 좋아해.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역."
+   },
+   {
+    "word": "club",
+    "si": 2,
+    "field": "ex",
+    "old": "He swung the golf {{BLANK}} hard.",
+    "new": "He swung his {{BLANK}} and hit the ball far.",
+    "severity": "mid",
+    "problem": "golf가 허용 어휘 밖 — 어휘 통제 위반. 9토큰."
+   },
+   {
+    "word": "club",
+    "si": 2,
+    "field": "tr",
+    "old": "그는 골프채를 세게 휘둘렀어.",
+    "new": "걔는 골프채를 휘둘러 공을 멀리 쳤어.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역. '골프채'를 남겨 bat(30세트 '방망이')을 배제, 주어 '걔'."
+   },
+   {
+    "word": "dead",
+    "si": 1,
+    "field": "ex",
+    "old": "The flowers in the vase are {{BLANK}}.",
+    "new": "The flowers on the table are {{BLANK}}.",
+    "severity": "mid",
+    "problem": "vase가 허용 어휘 밖 — 어휘 통제 위반."
+   },
+   {
+    "word": "dead",
+    "si": 1,
+    "field": "tr",
+    "old": "꽃병의 꽃들이 죽었어.",
+    "new": "탁자 위 꽃들이 죽었어.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역."
+   },
+   {
+    "word": "center",
+    "si": 1,
+    "field": "ex",
+    "old": "There is a fountain in the {{BLANK}} of the park.",
+    "new": "There's a big tree in the {{BLANK}} of the park.",
+    "severity": "mid",
+    "problem": "fountain이 허용 어휘 밖 — 어휘 통제 위반. 교체문 10토큰(상한 이내)."
+   },
+   {
+    "word": "center",
+    "si": 1,
+    "field": "tr",
+    "old": "공원 중심에 분수가 있어.",
+    "new": "공원 중심에 큰 나무가 있어.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역. '중심'은 center(middle '가운데'는 ko 겹침으로 안내 몫)."
+   },
+   {
+    "word": "present",
+    "si": 3,
+    "field": "ex",
+    "old": "She will {{BLANK}} her research.",
+    "new": "She will {{BLANK}} her idea to the class.",
+    "severity": "mid",
+    "problem": "research가 허용 어휘 밖 — 어휘 통제 위반. tr도 '그녀는'."
+   },
+   {
+    "word": "present",
+    "si": 3,
+    "field": "tr",
+    "old": "그녀는 자기 연구를 발표할 거야.",
+    "new": "걔는 반 애들 앞에서 자기 아이디어를 발표할 거야.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역."
+   },
+   {
+    "word": "park",
+    "si": 1,
+    "field": "ex",
+    "old": "We had a picnic in the {{BLANK}}.",
+    "new": "Let's walk the dog in the {{BLANK}}.",
+    "severity": "mid",
+    "problem": "picnic이 허용 어휘 밖 — 어휘 통제 위반."
+   },
+   {
+    "word": "park",
+    "si": 1,
+    "field": "tr",
+    "old": "우리는 공원으로 소풍을 갔어.",
+    "new": "공원에서 개 산책시키자.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역."
+   },
+   {
+    "word": "certain",
+    "si": 2,
+    "field": "ex",
+    "old": "{{BLANK}} people don't like spicy food.",
+    "new": "A {{BLANK}} Mr. Kim called you.",
+    "severity": "high",
+    "problem": "spicy가 허용 어휘 밖 — 어휘 통제 위반. 더 큰 문제: '___ people don't like spicy food'는 some(5세트, ko '조금의, 몇몇의')이 그대로 들어가며 ko 조각도 안 겹쳐 안내 없이 오답. certain에만 붙는 'a certain + 이름' 용법으로 교체(Mr.·Kim은 고유명사)."
+   },
+   {
+    "word": "certain",
+    "si": 2,
+    "field": "tr",
+    "old": "특정한 사람들은 매운 음식을 안 좋아해.",
+    "new": "김 씨라는 어떤 분이 너한테 전화했어.",
+    "severity": "high",
+    "problem": "예문 교체에 따른 번역. 원 tr '특정한 사람들은'도 어색한 한국어였음."
+   },
+   {
+    "word": "sound",
+    "si": 2,
+    "field": "tr",
+    "old": "그거 좋은 생각 같은데.",
+    "new": "그거 듣기엔 아주 좋은 생각 같은데.",
+    "severity": "high",
+    "problem": "tr '그거 좋은 생각 같은데'에 '들리다'가 안 드러나 seem(5세트, ko '~인 것 같다, ~해 보이다')·look이 'That seems/looks like a great idea'로 완벽히 들어가고 ko도 안 겹쳐 안내 없이 오답. '듣기엔'으로 sound에만 닿게."
+   },
+   {
+    "word": "value",
+    "si": 2,
+    "field": "ex",
+    "old": "I {{BLANK}} your friendship.",
+    "new": "I really {{BLANK}} your advice.",
+    "severity": "mid",
+    "problem": "friendship이 허용 어휘 밖 — 어휘 통제 위반. (appreciate는 Fable 표제어가 아니고 treasure② '소중히 여기다'는 ko가 겹쳐 안내 몫.)"
+   },
+   {
+    "word": "value",
+    "si": 2,
+    "field": "tr",
+    "old": "난 너와의 우정을 소중히 여겨.",
+    "new": "난 네 조언을 정말 소중히 여겨.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역."
+   },
+   {
+    "word": "provide",
+    "si": 1,
+    "field": "ex",
+    "old": "The hotel {{BLANK}}s guests with towels.",
+    "new": "The hotel {{BLANK}}s guests with free breakfast.",
+    "severity": "mid",
+    "problem": "towels가 허용 어휘 밖 — 어휘 통제 위반."
+   },
+   {
+    "word": "provide",
+    "si": 1,
+    "field": "tr",
+    "old": "그 호텔은 손님에게 수건을 제공해.",
+    "new": "그 호텔은 손님에게 아침을 무료로 제공해.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역."
+   },
+   {
+    "word": "cool",
+    "si": 1,
+    "field": "ex",
+    "old": "A {{BLANK}} breeze felt nice.",
+    "new": "A {{BLANK}} wind felt nice.",
+    "severity": "mid",
+    "problem": "breeze가 허용 어휘 밖 — 어휘 통제 위반. wind로 바꾸면 tr '시원한 바람'은 그대로 맞음(tr 변경 없음)."
+   },
+   {
+    "word": "word",
+    "si": 2,
+    "field": "tr",
+    "old": "그는 늘 한 말을 지켜.",
+    "new": "걔는 늘 한 말을 지켜.",
+    "severity": "low",
+    "problem": "사람 지칭 '그는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "clear",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀의 설명은 아주 명확했어.",
+    "new": "걔 설명은 아주 명확했어.",
+    "severity": "low",
+    "problem": "사람 지칭 '그녀의' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "town",
+    "si": 1,
+    "field": "tr",
+    "old": "그들은 바다 근처 작은 소도시에 살아.",
+    "new": "걔네는 바다 근처 작은 소도시에 살아.",
+    "severity": "low",
+    "problem": "사람 지칭 '그들은' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "field",
+    "si": 2,
+    "field": "tr",
+    "old": "그녀는 과학 분야에서 유명해.",
+    "new": "걔는 과학 분야에서 유명해.",
+    "severity": "low",
+    "problem": "사람 지칭 '그녀는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "fight",
+    "si": 1,
+    "field": "tr",
+    "old": "그들은 적에 맞서 싸워야 했어.",
+    "new": "걔네는 적에 맞서 싸워야 했어.",
+    "severity": "low",
+    "problem": "사람 지칭 '그들은' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "fight",
+    "si": 2,
+    "field": "tr",
+    "old": "그들은 어젯밤 크게 싸웠어.",
+    "new": "걔네 어젯밤 크게 싸웠어.",
+    "severity": "low",
+    "problem": "사람 지칭 '그들은' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "fine",
+    "si": 2,
+    "field": "tr",
+    "old": "그는 과속으로 벌금을 내야 했어.",
+    "new": "걔는 과속으로 벌금을 내야 했어.",
+    "severity": "low",
+    "problem": "사람 지칭 '그는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "department",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 영업 부서에서 일해.",
+    "new": "걔는 영업 부서에서 일해.",
+    "severity": "low",
+    "problem": "사람 지칭 '그녀는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "force",
+    "si": 2,
+    "field": "tr",
+    "old": "그한테 억지로 먹게 하지 마.",
+    "new": "걔한테 억지로 먹게 하지 마.",
+    "severity": "low",
+    "problem": "사람 지칭 '그한테' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "wife",
+    "si": 1,
+    "field": "tr",
+    "old": "그의 아내는 의사야.",
+    "new": "걔 아내는 의사야.",
+    "severity": "low",
+    "problem": "사람 지칭 '그의' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "date",
+    "si": 2,
+    "field": "tr",
+    "old": "그들은 지난 금요일에 데이트했어.",
+    "new": "걔네는 지난 금요일에 데이트했어.",
+    "severity": "low",
+    "problem": "사람 지칭 '그들은' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "strong",
+    "si": 1,
+    "field": "tr",
+    "old": "그는 그걸 들 만큼 힘이 세.",
+    "new": "걔는 그걸 들 만큼 힘이 세.",
+    "severity": "low",
+    "problem": "사람 지칭 '그는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "land",
+    "si": 1,
+    "field": "tr",
+    "old": "몇 주를 바다에서 보낸 뒤 그들은 육지를 봤어.",
+    "new": "몇 주를 바다에서 보낸 뒤 걔네는 육지를 봤어.",
+    "severity": "low",
+    "problem": "사람 지칭 '그들은' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "account",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 은행 계좌를 개설했어.",
+    "new": "걔는 은행 계좌를 개설했어.",
+    "severity": "low",
+    "problem": "사람 지칭 '그녀는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "record",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 세계 기록을 깼어.",
+    "new": "걔는 세계 기록을 깼어.",
+    "severity": "low",
+    "problem": "사람 지칭 '그녀는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "record",
+    "si": 2,
+    "field": "tr",
+    "old": "그들은 그 공연을 녹음할 거야.",
+    "new": "걔네는 그 공연을 녹음할 거야.",
+    "severity": "low",
+    "problem": "사람 지칭 '그들은' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "likely",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀가 나보다 이길 가능성이 높아.",
+    "new": "걔가 나보다 이길 가능성이 높아.",
+    "severity": "low",
+    "problem": "사람 지칭 '그녀가' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "perfect",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀의 영어는 거의 완벽해.",
+    "new": "걔 영어는 거의 완벽해.",
+    "severity": "low",
+    "problem": "사람 지칭 '그녀의' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "club",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 테니스 동아리에 들어갔어.",
+    "new": "걔는 테니스 동아리에 들어갔어.",
+    "severity": "low",
+    "problem": "사람 지칭 '그녀는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "lead",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀가 올해 그 팀을 이끌 거야.",
+    "new": "걔가 올해 그 팀을 이끌 거야.",
+    "severity": "low",
+    "problem": "사람 지칭 '그녀가' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "hold",
+    "si": 2,
+    "field": "tr",
+    "old": "그들은 내일 회의를 개최할 거야.",
+    "new": "걔네는 내일 회의를 개최할 거야.",
+    "severity": "low",
+    "problem": "사람 지칭 '그들은' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "star",
+    "si": 2,
+    "field": "tr",
+    "old": "그녀는 영화 스타가 됐어.",
+    "new": "걔는 영화 스타가 됐어.",
+    "severity": "low",
+    "problem": "사람 지칭 '그녀는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "view",
+    "si": 2,
+    "field": "tr",
+    "old": "내 관점에서는 그가 옳아.",
+    "new": "내 관점에서는 걔가 옳아.",
+    "severity": "low",
+    "problem": "사람 지칭 '그가' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "test",
+    "si": 2,
+    "field": "tr",
+    "old": "그들은 새 제품을 시험할 거야.",
+    "new": "걔네는 새 제품을 시험할 거야.",
+    "severity": "low",
+    "problem": "사람 지칭 '그들은' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "member",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 그 동아리 회원이야.",
+    "new": "걔는 그 동아리 회원이야.",
+    "severity": "low",
+    "problem": "사람 지칭 '그녀는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "middle",
+    "si": 1,
+    "field": "tr",
+    "old": "그는 줄 한가운데에 앉았어.",
+    "new": "걔는 줄 한가운데에 앉았어.",
+    "severity": "low",
+    "problem": "사람 지칭 '그는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "present",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 내게 생일 선물을 줬어.",
+    "new": "걔는 내게 생일 선물을 줬어.",
+    "severity": "low",
+    "problem": "사람 지칭 '그녀는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "interest",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 음악에 깊은 관심이 있어.",
+    "new": "걔는 음악에 깊은 관심이 있어.",
+    "severity": "low",
+    "problem": "사람 지칭 '그녀는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "gold",
+    "si": 2,
+    "field": "tr",
+    "old": "그녀는 금색 시계를 갖고 있어.",
+    "new": "걔는 금색 시계를 갖고 있어.",
+    "severity": "low",
+    "problem": "사람 지칭 '그녀는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "alone",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 작은 아파트에서 혼자 살아.",
+    "new": "걔는 작은 아파트에서 혼자 살아.",
+    "severity": "low",
+    "problem": "사람 지칭 '그녀는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "medical",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 지금 당장 의료적 도움이 필요해.",
+    "new": "걔는 지금 당장 의료적 도움이 필요해.",
+    "severity": "low",
+    "problem": "사람 지칭 '그녀는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "certain",
+    "si": 1,
+    "field": "tr",
+    "old": "난 그가 올 거라고 확신해.",
+    "new": "난 걔가 올 거라고 확신해.",
+    "severity": "low",
+    "problem": "사람 지칭 '그가' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "church",
+    "si": 1,
+    "field": "tr",
+    "old": "그들은 일요일마다 교회에 가.",
+    "new": "걔네는 일요일마다 교회에 가.",
+    "severity": "low",
+    "problem": "사람 지칭 '그들은' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "bill",
+    "si": 2,
+    "field": "tr",
+    "old": "그는 10달러 지폐로 냈어.",
+    "new": "걔는 10달러 지폐로 냈어.",
+    "severity": "low",
+    "problem": "사람 지칭 '그는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "round",
+    "si": 2,
+    "field": "tr",
+    "old": "그는 그 경기의 첫 라운드를 이겼어.",
+    "new": "걔는 그 경기의 첫 라운드를 이겼어.",
+    "severity": "low",
+    "problem": "사람 지칭 '그는' — 규칙은 '걔'(구어)."
+   },
+   {
+    "word": "save",
+    "si": 1,
+    "field": "tr",
+    "old": "의사는 그의 생명을 구하려 애썼어.",
+    "new": "의사는 걔 생명을 구하려 애썼어.",
+    "severity": "low",
+    "problem": "사람 지칭 '그의' — 규칙은 '걔'(구어)."
+   }
+  ],
+  "set46": [
+   {
+    "word": "-er",
+    "si": 1,
+    "field": "tr",
+    "old": "가르치는 사람, 선생님한테 도움을 청해.",
+    "new": "선생님한테 도움 좀 청해 봐.",
+    "severity": "mid",
+    "problem": "'가르치는 사람, 선생님한테 도움을 청해'는 뜻풀이(가르치는 사람)를 번역문에 끼워 넣은 꼴이라 한국어 구어로 부자연스럽다. 같은 묶음의 -er②(가수)·-or①(배우) 카드는 직역만 하므로 일관성도 깨진다. '선생님'만으로 teach+er의 뜻은 충분히 드러난다."
+   },
+   {
+    "word": "-able",
+    "si": 3,
+    "field": "c",
+    "old": "value+able → valuable(값진). -e로 끝나면 e를 빼고 -able을 붙인다.",
+    "new": "value+able → valuable(값진). e로 끝나면 대개 e를 빼고 붙인다(use→usable).",
+    "severity": "low",
+    "problem": "'-e로 끝나면 e를 빼고 -able을 붙인다'를 예외 없는 규칙처럼 적었는데, 고등 어휘에 예외가 많다(noticeable·changeable·manageable·knowledgeable·agreeable은 e를 남김). 학생이 noticable로 쓰게 만드는 지점이라 '대개'로 한정하고 e 탈락 예를 하나 붙이는 게 낫다(59자)."
+   },
+   {
+    "word": "-ize",
+    "si": 1,
+    "field": "meow",
+    "old": "-ize 하나 붙이면 명사가 동사로 변신한다고양. 공짜 마법이라고양.",
+    "new": "-ize 하나 붙이면 형용사가 동사로 변신한다고양. 공짜 마법이라고양.",
+    "severity": "low",
+    "problem": "이 카드의 어기 modern은 형용사인데 meow가 '명사가 동사로 변신'이라고 말해 카드 예시와 해설('명사·형용사를 동사로')과 어긋난다. 39자, '고양' 포함, 표제어 한 번."
+   },
+   {
+    "word": "-ness",
+    "si": 1,
+    "field": "meow",
+    "old": "형용사 뒤에 -ness 붙이면 '~함'이 된다고양. 쉽지양?",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "36번(-ly①)과 39번(-ness①)에 meow가 있어 다섯 카드 묶음(36~40) 안에 둘이다(고정 블록·이동 창 어느 기준으로도 초과). 둘 중 이 줄은 뜻풀이 반복에 '쉽지양?'만 붙은 가장 얇은 줄이므로 삭제. 삭제 후 meow 12줄로 SPEC의 세트당 12~18 범위 유지."
+   }
+  ],
+  "set47": [
+   {
+    "word": "cardiac",
+    "si": 1,
+    "field": "ex",
+    "old": "Grandpa's heart hurts; it's a {{BLANK}} problem.",
+    "new": "Grandpa had a {{BLANK}} arrest, but he's fine now.",
+    "severity": "high",
+    "problem": "'Grandpa's heart hurts; it's a {{BLANK}} problem.' + ko 심장의 + tr 심장 문제 → 기초어 heart가 명사 수식 자리에 그대로 들어감(a heart problem이 더 흔한 영어). 명사 자리로는 못 가르므로 cardiac에만 붙는 고정 연어 cardiac arrest로 교체(arrest는 25세트 표제어라 어휘 통제 안, 9토큰)."
+   },
+   {
+    "word": "cardiac",
+    "si": 1,
+    "field": "tr",
+    "old": "할아버지 심장이 아프셔, 심장 문제야.",
+    "new": "할아버지 심정지(심장 정지)가 왔었는데 지금은 괜찮으셔.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. 심정지가 cardiac arrest의 고정 역어라 heart로 새지 않고, 괄호로 뜻을 풀어 '심장의'가 드러남."
+   },
+   {
+    "word": "stellar",
+    "si": 1,
+    "field": "ex",
+    "old": "This {{BLANK}} map shows every star.",
+    "new": "That light is {{BLANK}}, not from a planet.",
+    "severity": "high",
+    "problem": "'This {{BLANK}} map shows every star.' + ko 별의 + tr 별 지도 → 기초어 star가 그대로 들어감(star map이 오히려 표준). 어떤 명사를 붙여도 star가 앞에 설 수 있으니 서술 형용사 자리로 옮겨 명사 star가 문법적으로 못 들어가게 함(8토큰, planet은 24세트 표제어)."
+   },
+   {
+    "word": "stellar",
+    "si": 1,
+    "field": "tr",
+    "old": "이 별 지도엔 별이 다 나와 있어.",
+    "new": "저 빛은 별에서 오는 거야, 행성이 아니고.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. '별에서 오는' 형용사 뜻을 드러내되 star가 앉을 명사 자리를 없앰(구어 stellar=끝내주는 으로 읽힐 여지도 번역이 막음)."
+   },
+   {
+    "word": "novel",
+    "si": 1,
+    "field": "ko",
+    "old": "① 새로운, 참신한",
+    "new": "① 새로운, 참신한 (소설이란 뜻의 그 단어)",
+    "severity": "high",
+    "problem": "'Your {{BLANK}} idea is really new.' + 참신한 → fresh(9세트, ldv)·new·original·brilliant가 그대로 들어감. novel(형)의 연어(novel idea/approach)는 전부 new/fresh와 겹쳐 예문·번역으로는 못 가름 → 학생이 이미 아는 '소설' 뜻을 ko에 걸어 표적을 못 박음. 초안의 '(소설 novel과 같은 단어)'는 정답 문자열을 ko에 그대로 노출하므로, 답을 안 적고도 같은 갈고리가 되는 표현으로 다듬음."
+   }
   ]
  },
  "skipped": [],
@@ -7716,6 +12464,177 @@
    "field": "order",
    "severity": "low",
    "problem": "'가공하지 않은'(raw material 원자재, raw data 원자료) 뜻이 빠짐. ko '날것의, 익히지 않은'으로는 독해 빈출 raw materials가 안 풀림",
+   "fix": ""
+  },
+  {
+   "file": "set17",
+   "word": "harm",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "명사 harm(해, 피해: do harm, no harm done, cause harm, more harm than good)이 실제 빈도에서 동사보다 높고 독해 지문에 흔한데 카드가 없음(c에 '명사도 됨'으로만 언급). 품사가 다르면 분리 원칙에 따라 ② 해, 피해 명사 카드 필요.",
+   "fix": ""
+  },
+  {
+   "file": "set17",
+   "word": "delay",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "명사 delay(지연, 지체: flight delay, a two-hour delay, without delay)가 듣기(공항·기차 안내)·독해에 매우 흔한데 동사 카드만 있음(c에서만 언급). ② 지연, 지체 명사 카드 필요.",
+   "fix": ""
+  },
+  {
+   "file": "set18",
+   "word": "conscious",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "② '(~을) 의식하는, 자각하는 / 의식적인' 뜻이 빠짐. be conscious of, self-conscious, conscious effort·decision은 수능·모의고사 지문 빈출인데 c 한 줄로만 언급되고 카드가 없음.",
+   "fix": ""
+  },
+  {
+   "file": "set18",
+   "word": "stem",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "② 동사 'stem from ~에서 비롯되다' 뜻이 빠짐. 'problems stemming from…'은 고등 독해 지문에서 명사 '줄기'보다 자주 만남.",
+   "fix": ""
+  },
+  {
+   "file": "set18",
+   "word": "coin",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "② 동사 '(새 말을) 만들어 내다' 뜻이 빠짐. 'The term was coined by…'가 수능·EBS 지문 단골 표현.",
+   "fix": ""
+  },
+  {
+   "file": "set19",
+   "word": "keen",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "keen은 sn=1로 '열심인'만 있음. 수능·모의고사 지문에서 훨씬 자주 만나는 '② 예리한, 날카로운, 강한'(keen sense of smell, keen interest, keen eye)이 카드로 없고, 해설이 '미국은 예리한 뜻이 기본'이라 하면서 그 뜻을 안 가르침. SPEC 1조(빈도 높은 뜻은 상한 없이 카드로) 위반.",
+   "fix": ""
+  },
+  {
+   "file": "set20",
+   "word": "delight",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "동사 delight(기쁘게 하다)·be delighted(아주 기뻐하다)가 고등 독해에서 명사 못지않게 자주 나오는데 카드가 명사 하나뿐",
+   "fix": ""
+  },
+  {
+   "file": "set21",
+   "word": "cultivate",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "수능 지문에서 자주 만나는 '(관계·재능·습관을) 기르다, 함양하다' 뜻이 빠짐(cultivate a relationship/skill). c에만 언급되고 뜻 항목이 없음(sn 1).",
+   "fix": ""
+  },
+  {
+   "file": "set21",
+   "word": "fulfill",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "독해 빈출인 '(조건·요구를) 충족하다'(fulfill the requirements/needs) 뜻이 빠짐. c에만 언급.",
+   "fix": ""
+  },
+  {
+   "file": "lesson00",
+   "word": "text",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "동사 '문자를 보내다'(Text me when you get home)가 미국 구어 최빈 용법인데 명사 카드만 있음(sn=1). text는 다른 세트 어디에도 표제어로 없어(sets.json·fable 목록 확인) 이 카드가 유일한 자리이고, 같은 exercise의 email 카드 해설은 동사 용법을 언급함. SPEC 1조(품사 다르면 분리) — v. 뜻 카드 신설 권고.",
+   "fix": ""
+  },
+  {
+   "file": "lesson01",
+   "word": "first",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "adv '먼저, 우선'(I'll go first / First, …)이 없음. 고등 독해·회화에서 형용사 못지않게 자주 만나는 뜻인데 sn=1이고 다른 세트에도 first 카드 없음.",
+   "fix": ""
+  },
+  {
+   "file": "lesson01",
+   "word": "right",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "adv '바로, 곧장'(right now, right here)이 없음. now ① 해설에 right now가 나올 만큼 흔한 뜻인데 카드가 없고 다른 세트에도 right 카드 없음.",
+   "fix": ""
+  },
+  {
+   "file": "lesson01",
+   "word": "while",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "n. '잠깐, 잠시'(for a while, once in a while)가 없음. 회화 빈출인데 conj 두 장뿐이고 다른 세트에도 while 카드 없음.",
+   "fix": ""
+  },
+  {
+   "file": "lesson03",
+   "word": "past",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "형용사 뜻 '지난, 과거의'(the past few years, in the past week)가 빠짐 — 고등 독해·듣기에서 명사·전치사 못지않게 자주 만나는 뜻(뜻 개수 상한 없음 기준)",
+   "fix": ""
+  },
+  {
+   "file": "lesson03",
+   "word": "act",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "명사 뜻 '행동, 행위'(an act of kindness)가 빠짐 — 독해 지문 빈출이고 c가 action만 짚어 명사 act와의 관계를 학생이 알 길이 없음",
+   "fix": ""
+  },
+  {
+   "file": "lesson03",
+   "word": "deal",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "'a great deal of(많은 양의)' 뜻이 빠짐 — 독해 지문에서 deal의 가장 흔한 꼴 중 하나인데 ①거래·②다루다 어디에도 닿지 않음",
+   "fix": ""
+  },
+  {
+   "file": "lesson03",
+   "word": "light",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "동사 '불을 붙이다·밝히다'(light a candle)와 형용사 '(색이) 연한'(light blue)이 빠짐 — 생활·독해 빈도 높고 품사가 달라 별도 카드 필요",
+   "fix": ""
+  },
+  {
+   "file": "lesson04",
+   "word": "present",
+   "si": 2,
+   "field": "order",
+   "severity": "mid",
+   "problem": "'현재의(adj.)·현재(n.)' 뜻이 카드로 없음 — the present time, at present, present tense는 고등 독해·문법에서 매우 자주 만나는 뜻인데 ② 해설 한 줄에 끼워져 있음. 별도 카드 신설 권고(sn 4).",
+   "fix": ""
+  },
+  {
+   "file": "set47",
+   "word": "novel",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "고등학생이 가장 자주 만나는 뜻 '소설(명사)'이 Fable 어디에도 없음 — novel 표제어는 47세트 이 카드뿐이고(ldv·기초400·0세트에도 없음), novelist(42세트)만 따로 있음. novus=new → '새 이야기'=소설 연결이 이 카드의 요지와도 맞으니 ② 소설(n.) 카드 추가를 데스크에서 검토. 단 사촌 쌍 18장 구조(sn=1)를 건드리는 사안이라 fix는 비움.",
    "fix": ""
   }
  ]

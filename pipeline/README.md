@@ -127,7 +127,9 @@ git add vocagoyangfable.html && git commit -m "…"
 3. ~~**0~22세트 meow 가이드 재정비**~~ — 완료(26.9.9, 299줄 전부). 기초 1~4세트 meow 60줄 + 0세트 8줄 신설(26.9.9 영신 결정). 현재 meow 총 595줄. 남은 건 영신 플레이 검수. — 23~45는 고양체 가이드(26.9.5, `fable/cat/style_guide.md`)로 썼지만 0~22의 299줄은 옛 톤. 가이드에 맞춰 다듬기(전부 수작업, 다섯 카드당 하나 이하 유지).
 4. 명시 동의어표 `SYN` 신설(4절 끝의 67쌍이 초기 값). 26.9.9 추가 후보: address/handle(다루다), address/speech(연설), get/arrive(도착하다), kind/sort/type.
 5. 접사·어근(헌장 제7조) — ① 접사 46세트·② 어근 47세트(사촌 쌍 포함) **완료(26.9.10)**. 남은 것: ③ 어족 묶어 돌리기 모드(앱, 단어 뷰와 함께), ④-2 불규칙 동사 패턴·④-3 구동사↔라틴 동사 대응(③의 갈래), ④-4 register(단어 뷰). 사양·후처리 스크립트는 `fable/morph/`.
-6. 단어 뷰(한 단어의 모든 뜻을 층 배지와 함께 조망) — 설계 확정, 구현 시점 미정.
+6. 단어 뷰(한 단어의 모든 뜻을 층 배지와 함께 조망) — 설계 확정, 구현 시점 미정. 헌장 제7조 ③ 어족 묶어 돌리기와 같은 앱 작업.
+9. **직검수 구조 지적(뜻 누락) 45건** — `fable/review/직검수_260911.json`의 structural 중 done 없는 항목. 26.9.11 기준 5~22세트 몫(have to·접속사 yet·이유의 as/for·수단의 through·가정법 would·suggest 시사·be based on·key adj·promise/trust n·fear v·property 속성·rise n·charge 충전·poor 형편없는·bear 지다·raw 가공 전·favor/trick v·advance v·opposite n·appearance 출현·suppose 분리·practice 관행·serve as·harm/delay n·conscious·stem from·coin v 등). 영신 "다 넣어" 승인 시 빠진 뜻 카드 워크플로(생성→반박 검증, `fable/morph/`의 절차와 동일)로 일괄 신설.
+10. 기초 1~4세트 예문 어휘 경고(감사기 밖이라 미반려): lesson01 work② anymore, love③ endless, real① fake. LDV 밖 단어 — 교체 여부 결정.
 7. 영/미 IPA 병기 — 보류(원하면 `ipa_uk` 필드).
 8. 생활어 부록 추가 후보(crazy, toward·inward·backward) — 이미 카드로 존재하므로 whitelist 반영 여부만 확인.
 
@@ -138,6 +140,7 @@ git add vocagoyangfable.html && git commit -m "…"
 - 26.9.7~8 빈칸 중의성 점검 0~45 전 세트 1회전(예문 교체·번역 조이기 약 1,000필드) + 별칭표 ALT 신설·260키.
 - 26.9.9 데스크 세션 마지막 커밋 `a941c48` → 영신이 웹 업로드(origin `122d2cd`). 이후 이력은 보카고양 전용 세션이 브랜치로 push.
 - 26.9.9 order 권고 18건 처리(신규 18장, 카드 5,672 → 5,690). summit·stall은 뜻 순서 교환, induction은 ②③ 두 장.
+- 26.9.11 직검수 전 세트(0~47) 1회전 — Fable 워크플로(세트별 통독 검수 → 반박·기계 검증), 확정 수정 1308건 적용(ko·tr·ex·c·meow·ipa·pos). 기초 1~4세트 해설 72자 초과 압축 175건 포함. 구조 지적(뜻 누락) 12건 신설, 45건 대기. 검수 기록 `fable/review/직검수_260911.json`.
 - 26.9.10 형태론 세트 46(접사 103장)·47(어근 129장 + 사촌 쌍 18장) 생산 — opus 워크플로 50회(생성 25·반박 검증 25, 349만 토큰), 데스크 통독 후 5건 수정. 헌장 v2.4.
 - 26.9.9 헌장 v2.1→v2.2(뜻 개수 상한 없음, 층 체계·표제어 단위 정리, 3층 이름은 v2.3에서 HoE(Heart of English, 콘래드 『Heart of Darkness』에서 딴 것)로 복원). deduction 예외 추가, E-3 잔여 5건, 중복 검사 신설(trillion 중복 제거, 예문 재사용 4건 교체), 발음 강세 강조 복구(fmtIpa), meow 0~22 재정비 299줄 + 1~4세트 신설 68줄. 카드 5,695 · 표제어 4,639 · meow 595.
 
