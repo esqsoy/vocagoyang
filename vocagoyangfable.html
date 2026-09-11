@@ -416,7 +416,7 @@ body.shake{animation:bshake .3s;}
       </div>
 
       <form class="panel inpanel" id="aform" autocomplete="off">
-        <input class="ainput" id="ainput" type="text" inputmode="text" enterkeyhint="done"
+        <input class="ainput" id="ainput" type="text" inputmode="text" enterkeyhint="go"
                autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false"
                placeholder="빈칸에 들어갈 영단어…" aria-label="영어 정답">
         <button class="btn" id="submitBtn" type="submit" aria-hidden="true" tabindex="-1">확인</button>
@@ -1110,6 +1110,7 @@ function submit(opt={}){
   if(s.answered)return;
   const w=s.words[s.currentId];
   const typed=$("#ainput").value;
+  if(!typed.trim()&&!opt.forced&&!opt.timeout&&Date.now()-s.cardStart<400)return; // 카드 넘어간 직후 빈 입력 Enter 연타는 무시
   let correct=!opt.forced&&!opt.timeout&&isCorrect(typed,w.term);
   let variantHit=false;
   if(!correct&&!opt.forced&&!opt.timeout&&typed.trim()&&isSpellingVariant(typed,w.term)){correct=true;variantHit=true;}
@@ -1118,7 +1119,7 @@ function submit(opt={}){
   s.answered=true;s.fbMode=true;s.attempts++;w.attempts++;
   // first-try accuracy
   if(!s.seenSet.has(w.id)){s.seenSet.add(w.id);s.firstSeen++;if(correct&&s.hintLevel===0&&!opt.timeout)s.firstCorrect++;}
-  $("#ainput").disabled=true;$("#submitBtn").disabled=true;$("#hintBtn").disabled=true;
+  $("#submitBtn").disabled=true;$("#hintBtn").disabled=true;
 
   if(correct){
     w.corrects++;$("#ainput").classList.add("ok");
@@ -1191,8 +1192,8 @@ function submitCopy(){
     return;
   }
   s.copyMode=false;s.copyAns="";$("#ainput").oninput=null;
-  $("#ainput").disabled=true;$("#submitBtn").disabled=true;
-  fx(true);beep("ok");setTimeout(nextCard,650);
+  $("#submitBtn").disabled=true;
+  fx(true);beep("ok");s.revealAt=Date.now();s.revealTimer=setTimeout(doNext,650);
 }
 
 function giveHint(){
@@ -1324,11 +1325,13 @@ function toast(msg){const t=$("#toast");t.textContent=msg;t.classList.add("show"
 
 /* events */
 $("#aform").addEventListener("submit",e=>{e.preventDefault();submit();});
-$("#ainput").addEventListener("keydown",e=>{if(e.key==="Enter"||e.keyCode===13){e.preventDefault();e.stopPropagation();submit();}});
+$("#ainput").addEventListener("keydown",e=>{if(e.key==="Enter"||e.keyCode===13){e.preventDefault();e.stopPropagation();const s=state.session;if(s&&s.answered&&!s.copyMode)doNext();else submit();}});
+/* 키보드 유지: 게임 화면에서 입력창 밖(카드·오버레이·버튼)을 눌러도 포커스를 뺏기지 않게 mousedown 기본동작(포커스 이동)을 막는다. click은 그대로 발생한다. */
+$("#gameScreen").addEventListener("mousedown",e=>{if(e.target&&e.target.closest&&e.target.closest("input,textarea,select,[contenteditable]"))return;e.preventDefault();});
 $("#catSubmit").addEventListener("click",e=>{e.preventDefault();e.stopPropagation();submit();});
 $("#submitBtn")&&$("#submitBtn").addEventListener("click",e=>{e.preventDefault();e.stopPropagation();submit();});
 $("#hintBtn").addEventListener("click",giveHint);
-$("#exitBtn").addEventListener("click",()=>{stopTicker();state.session=null;renderExList();show("lesson");});
+$("#exitBtn").addEventListener("click",()=>{$("#ainput").blur();stopTicker();state.session=null;renderExList();show("lesson");});
 $("#backHome").addEventListener("click",()=>{renderHome();show("home");});
 $("#sumList").addEventListener("click",()=>{state.session=null;renderExList();show("lesson");});
 $("#retryEx").addEventListener("click",()=>startExercise(state.ei));
