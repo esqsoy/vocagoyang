@@ -1,10 +1,6 @@
 {
  "date": "26.9.11",
- "failed_sets": [
-  "set22",
-  "set22",
-  "set22"
- ],
+ "failed_sets": [],
  "summaries": {
   "set23": {
    "confirmed": 16,
@@ -240,6 +236,11 @@
    "confirmed": 6,
    "rejected": 0,
    "notes": "6건 전부 원문 카드를 다시 읽고 확인. 세 예문 모두 실제로 기초어(heart·star)나 ldv 동의어(fresh)가 빈칸에 앉는 구조적 결함이며, 순수 변형(별칭표)도 본질적 동의어 쌍(SYNLINES)도 아니어서 카드 쪽에서 풀어야 할 사안. 기각 0건. 다듬은 것 1건: novel ko — 초안은 정답 'novel'을 ko에 그대로 적어 회상 시험이 무의미해지므로 '(소설이란 뜻의 그 단어)'로 바꿔 답 문자열 없이 같은 갈고리를 걸었음(ko에 괄호 힌트를 두는 것은 lesson01 'get ④ (get to)' 등 기존 "
+  },
+  "set22": {
+   "confirmed": 32,
+   "rejected": 1,
+   "notes": "기각 1건: respectful ko '① (남을) 존중하는' — 예문을 'respectful of ~' 틀로 바꾸면 polite가 문법적으로 못 들어가 중의성이 이미 해소되므로, 정당한 뜻 '예의 바른'을 지우는 ko 손질은 해결 우선순위(예문→번역→ko)상 불필요하고 원문보다 낫지 않음. 다듬은 fix: mend tr(양말 단수), quarrel② tr(어순), skillful tr(cut up=토막), tidy② tr('정돈해'로 clean 배제), whichever ex/tr(초안 'Pick ___ color'는 any/wh"
   }
  },
  "applied": {
@@ -12107,6 +12108,296 @@
     "new": "① 새로운, 참신한 (소설이란 뜻의 그 단어)",
     "severity": "high",
     "problem": "'Your {{BLANK}} idea is really new.' + 참신한 → fresh(9세트, ldv)·new·original·brilliant가 그대로 들어감. novel(형)의 연어(novel idea/approach)는 전부 new/fresh와 겹쳐 예문·번역으로는 못 가름 → 학생이 이미 아는 '소설' 뜻을 ko에 걸어 표적을 못 박음. 초안의 '(소설 novel과 같은 단어)'는 정답 문자열을 ko에 그대로 노출하므로, 답을 안 적고도 같은 갈고리가 되는 표현으로 다듬음."
+   }
+  ],
+  "set22": [
+   {
+    "word": "mend",
+    "si": 1,
+    "field": "ex",
+    "old": "My father {{BLANK}}ed the broken chair yesterday.",
+    "new": "My grandmother {{BLANK}}ed my old socks.",
+    "severity": "high",
+    "problem": "'부서진 의자를 ___ed'+tr '수선하셨어'에 fix(ko 고치다)·repair(수리하다, 고치다)가 그대로 들어가고 해설조차 미국은 fix를 쓴다고 함. mend 고유의 '양말 깁기' 장면으로 교체(hole은 24세트 표제어라 22세트에선 못 씀 → socks 유지)"
+   },
+   {
+    "word": "mend",
+    "si": 1,
+    "field": "tr",
+    "old": "아빠가 어제 부서진 의자를 수선하셨어.",
+    "new": "할머니가 내 낡은 양말을 기워 주셨어.",
+    "severity": "high",
+    "problem": "예문 교체에 따른 번역. '기워'로 fix/repair(고치다)와 가름. '양말들을'은 한국어에서 부자연스러워 단수로"
+   },
+   {
+    "word": "merry",
+    "si": 1,
+    "field": "ex",
+    "old": "We heard {{BLANK}} music from the street.",
+    "new": "{{BLANK}} Christmas! Did you open your gifts yet?",
+    "severity": "high",
+    "problem": "'___ music'+tr '흥겨운'에 cheerful(ko 쾌활한, 명랑한)·pleasant·happy가 다 들어감. 해설이 스스로 말하듯 살아 있는 연어는 Merry Christmas뿐이라 그 연어로(Christmas는 고유명사라 허용)"
+   },
+   {
+    "word": "merry",
+    "si": 1,
+    "field": "tr",
+    "old": "거리에서 흥겨운 음악 소리가 들렸어.",
+    "new": "즐거운 크리스마스! 선물 벌써 열어 봤어?",
+    "severity": "high",
+    "problem": "예문 교체에 따른 번역"
+   },
+   {
+    "word": "outdoors",
+    "si": 1,
+    "field": "ko",
+    "old": "① 야외에서, 밖에서",
+    "new": "① 야외에서",
+    "severity": "high",
+    "problem": "ko의 '밖에서'가 outside(ko 밖에, 바깥)와 정확히 겹쳐 'Let's eat outside'가 더 자연스러운 정답이 됨. 예문 교체로는 outside를 못 떼어내니(모든 부사 자리에 들어감) ko를 '야외에서'만 남겨 한국어 단서를 outdoors에만 닿게"
+   },
+   {
+    "word": "pointed",
+    "si": 1,
+    "field": "ex",
+    "old": "Be careful with that {{BLANK}} pencil.",
+    "new": "My cat's ears are small and {{BLANK}}.",
+    "severity": "high",
+    "problem": "'___ pencil'은 sharp pencil이 표준 연어라 sharp(ko 날카로운)를 쓰게 됨. sharp ears는 '귀가 밝다'는 뜻이라 '뾰족한 귀' 자리엔 sharp가 못 들어감"
+   },
+   {
+    "word": "pointed",
+    "si": 1,
+    "field": "tr",
+    "old": "그 끝이 뾰족한 연필 조심해.",
+    "new": "우리 고양이 귀는 작고 끝이 뾰족해.",
+    "severity": "high",
+    "problem": "예문 교체에 따른 번역"
+   },
+   {
+    "word": "quarrel",
+    "si": 2,
+    "field": "tr",
+    "old": "동생이랑 그만 좀 티격태격해!",
+    "new": "동생이랑 말다툼 좀 그만해!",
+    "severity": "mid",
+    "problem": "'Stop ___ing with your brother!'는 fight(싸우다)가 먼저 떠오르는 문장인데 번역 '티격태격'은 몸싸움도 포괄함. ko와 같은 '말다툼'으로 조여 fight를 배제(argue는 동의어 안내 몫). 어순은 '말다툼 좀 그만해'가 자연스러움"
+   },
+   {
+    "word": "quarrel",
+    "si": 1,
+    "field": "tr",
+    "old": "걔네 돈 문제로 또 티격태격했어.",
+    "new": "걔네 돈 문제로 또 말다툼했어.",
+    "severity": "low",
+    "problem": "'had a ___ over money'에 fight(n. 싸움, 다툼)가 들어감. 번역 '티격태격'을 ko와 같은 '말다툼'으로 조여 한국어 단서를 표적에만"
+   },
+   {
+    "word": "respectful",
+    "si": 1,
+    "field": "ex",
+    "old": "She is always {{BLANK}} to old people.",
+    "new": "Be {{BLANK}} of other people's opinions.",
+    "severity": "high",
+    "problem": "'always ___ to old people'+tr '예의 발라'는 polite(ko 예의 바른 — 동일)가 그대로 들어가고 더 자연스러움. 'polite of ~'는 안 되고 'respectful of ~'만 되는 틀로 교체"
+   },
+   {
+    "word": "respectful",
+    "si": 1,
+    "field": "tr",
+    "old": "걔는 어르신들께 늘 예의 발라.",
+    "new": "다른 사람 의견을 존중하는 태도를 가져.",
+    "severity": "high",
+    "problem": "예문 교체에 따른 번역. '존중하는'으로 polite와 가름"
+   },
+   {
+    "word": "scenery",
+    "si": 1,
+    "field": "meow",
+    "old": "BIG MOUNTAIN 중턱 scenery, 경치도 벌써 좋다고양.",
+    "new": "(삭제)",
+    "severity": "mid",
+    "problem": "5연습 10장에 scenery·scissors·sew 세 줄(3/10)로 '다섯 카드당 하나' 초과, 앞 다섯 장 안에만 둘. 세계관 한 줄뿐인 이 줄이 가장 얇음(scissors는 복수형 문법 포인트, sew는 발음 포인트)"
+   },
+   {
+    "word": "skillful",
+    "si": 1,
+    "field": "ex",
+    "old": "She is {{BLANK}} with her hands.",
+    "new": "The {{BLANK}} cook cut up the fish in seconds.",
+    "severity": "mid",
+    "problem": "'She is ___ with her hands'+tr '손재주가 좋아'는 good with her hands가 관용구라 good(좋은)이 정답이 됨. 사람 수식 자리로 교체하면 tr '능숙한'이 good으로 이어지지 않음"
+   },
+   {
+    "word": "skillful",
+    "si": 1,
+    "field": "tr",
+    "old": "걔는 손재주가 좋아.",
+    "new": "능숙한 요리사가 몇 초 만에 생선을 토막 냈어.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역. cut up은 '토막 냈어'가 정확"
+   },
+   {
+    "word": "tense",
+    "si": 1,
+    "field": "ex",
+    "old": "Everyone was {{BLANK}} before the test results.",
+    "new": "The room went {{BLANK}} when the teacher walked in.",
+    "severity": "high",
+    "problem": "'Everyone was ___ before the test results'에 nervous(ko 긴장한 — 동일)·anxious가 그대로 들어감. 분위기가 '팽팽해지다'(went tense)는 nervous로 못 씀"
+   },
+   {
+    "word": "tense",
+    "si": 1,
+    "field": "tr",
+    "old": "시험 결과 나오기 전에 다들 팽팽하게 긴장해 있었어.",
+    "new": "선생님이 들어오자 교실 분위기가 팽팽해졌어.",
+    "severity": "high",
+    "problem": "예문 교체에 따른 번역. '팽팽'으로 nervous를 배제(went quiet도 tr '팽팽'과 안 맞음)"
+   },
+   {
+    "word": "thousandth",
+    "si": 1,
+    "field": "meow",
+    "old": "thousandth, 천 번 말해도 안 외우면 소용없다고양.",
+    "new": "(삭제)",
+    "severity": "mid",
+    "problem": "7연습 13장에 sting·tense·thousandth 세 줄(3/13)로 '다섯 카드당 하나' 초과, tense②~thousandth 넉 장 안에 둘. tense②는 다의어 두 뜻을 한 줄에 담은 줄이라 이 줄(뜻 반복 없이 갈굼만)이 가장 얇음"
+   },
+   {
+    "word": "tidy",
+    "si": 2,
+    "field": "tr",
+    "old": "저녁 먹기 전에 방 정리해!",
+    "new": "저녁 먹기 전에 방 좀 정돈해!",
+    "severity": "mid",
+    "problem": "'___ up your room before dinner!'는 clean up이 미국 표준 문장(해설도 인정)이고 tr '방 정리해'는 clean up으로 곧장 이어짐. 예문 교체로는 clean/pick/straighten up을 못 떼니 번역을 '정돈해'(①뜻 '정돈된'과 호응)로 조여 clean(깨끗한)을 배제"
+   },
+   {
+    "word": "upright",
+    "si": 1,
+    "field": "ex",
+    "old": "Sit {{BLANK}} — don't lie on the desk.",
+    "new": "Humans walk {{BLANK}} on two legs.",
+    "severity": "high",
+    "problem": "'Sit ___'에는 straight(ko 똑바로 — 동일)가 더 자연스럽게 들어감(sit up straight). 두 다리로 서서 걷는 직립은 upright 고유 용법이고 walk straight는 '직진'이라 뜻이 안 맞음"
+   },
+   {
+    "word": "upright",
+    "si": 1,
+    "field": "tr",
+    "old": "꼿꼿이 앉아, 책상에 엎드리지 말고.",
+    "new": "사람은 두 다리로 꼿꼿이 서서 걸어.",
+    "severity": "high",
+    "problem": "예문 교체에 따른 번역"
+   },
+   {
+    "word": "upright",
+    "si": 1,
+    "field": "ko",
+    "old": "① 똑바로, 꼿꼿이",
+    "new": "① 꼿꼿이, 직립하여",
+    "severity": "mid",
+    "problem": "첫 뜻 '똑바로'가 straight의 ko와 동일해 예문을 바꿔도 straight를 부르는 근원으로 남음. 새 예문(직립 보행)과도 '꼿꼿이, 직립하여'가 더 맞음"
+   },
+   {
+    "word": "voyage",
+    "si": 1,
+    "field": "meow",
+    "old": "긴 voyage, 항해였다고양. 정상이 코앞이라고양.",
+    "new": "(삭제)",
+    "severity": "mid",
+    "problem": "8연습 12장에 undo·voyage·worst 세 줄(3/12)로 '다섯 카드당 하나' 초과, undo②~voyage 넉 장 안에 둘. undo②는 뜻+행동 지시, worst는 뜻+세트 마무리 역할이라 세계관 연결만 있는 이 줄이 가장 얇음"
+   },
+   {
+    "word": "whichever",
+    "si": 1,
+    "field": "ex",
+    "old": "Take {{BLANK}} seat you like.",
+    "new": "Red or blue — buy {{BLANK}} one is cheaper.",
+    "severity": "mid",
+    "problem": "'Take ___ seat you like'는 any(ko ② 어떤 ~라도)·whatever(무슨 ~이든)가 그대로 들어가고 any가 더 흔함. 초안 fix 'Pick ___ color you like'도 any/whatever가 여전히 들어가므로 다듬음: 'whichever one is cheaper' 틀은 any가 문법적으로 못 들어가고 whatever도 어색함"
+   },
+   {
+    "word": "whichever",
+    "si": 1,
+    "field": "tr",
+    "old": "어느 자리든 마음에 드는 데 앉아.",
+    "new": "빨강이든 파랑이든, 어느 쪽이든 더 싼 걸로 사.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역. '어느 쪽이든'으로 which 단서 유지('아무거나'는 any를 부르니 피함)"
+   },
+   {
+    "word": "wrongdoing",
+    "si": 1,
+    "field": "tr",
+    "old": "경찰은 이 사건에서 잘못을 못 찾았어.",
+    "new": "경찰은 이 사건에서 나쁜 짓을 한 흔적을 못 찾았어.",
+    "severity": "mid",
+    "problem": "'잘못을 못 찾았어'는 fault(ko 잘못, 책임)·mistake 쪽 단서라 'found no fault in this case'가 정답이 됨. ko '나쁜 짓'과 같은 말로 조임(초안 '아무 나쁜 짓도 못 찾았어'는 어색해 다듬음)"
+   },
+   {
+    "word": "thirst",
+    "si": 1,
+    "field": "ipa",
+    "old": "θɚst",
+    "new": "θɝst",
+    "severity": "low",
+    "problem": "전 세트 단음절 강세 r모음 표기는 ɝ가 78건(fɝst, wɝk, θɝd, bɝst…)이고 ɚ는 thirst·worse·worst·per 넷뿐 — 관례 이탈. thirsty ˈθɝsti와도 불일치"
+   },
+   {
+    "word": "worse",
+    "si": 1,
+    "field": "ipa",
+    "old": "wɚs",
+    "new": "wɝs",
+    "severity": "low",
+    "problem": "단음절 강세 r모음은 ɝ 관례(wɝk, wɝld, wɝd, wɝθ)인데 ɚ로 표기"
+   },
+   {
+    "word": "worst",
+    "si": 1,
+    "field": "ipa",
+    "old": "wɚst",
+    "new": "wɝst",
+    "severity": "low",
+    "problem": "단음절 강세 r모음은 ɝ 관례(bɝst 등)인데 ɚ로 표기"
+   },
+   {
+    "word": "outdoors",
+    "si": 1,
+    "field": "ipa",
+    "old": "ˈaʊtdɔrz",
+    "new": "ˌaʊtˈdɔrz",
+    "severity": "low",
+    "problem": "메리엄웹스터 outdoors(부사)는 ˌau̇t-ˈdȯrz — 강세가 둘째 음절. 첫 음절 강세로 표기됨. 프로젝트의 outside ˌaʊtˈsaɪd·downstairs ˌdaʊnˈstɛrz 표기 방식과도 맞춤"
+   },
+   {
+    "word": "upright",
+    "si": 1,
+    "field": "ipa",
+    "old": "ʌˈpraɪt",
+    "new": "ˈʌpˌraɪt",
+    "severity": "low",
+    "problem": "메리엄웹스터 upright는 ˈəp-ˌrīt — 1강세가 첫 음절. 둘째 음절 강세로 표기됨"
+   },
+   {
+    "word": "sew",
+    "si": 1,
+    "field": "meow",
+    "old": "sew는 [소우]라고양. so랑 똑같이 읽는다고양.",
+    "new": "sew, 바느질은 [소우]라고양. so랑 똑같이 읽는다고양.",
+    "severity": "low",
+    "problem": "발음 얘기만 있고 단어 뜻(바느질)이 줄 안에 없음 — 스타일 가이드 'meow는 그 카드 단어의 뜻이 드러나야 한다' 위반. 33자, 표제어 1회, '고양' 포함 확인"
+   },
+   {
+    "word": "ninth",
+    "si": 1,
+    "field": "meow",
+    "old": "ninth, e 하나 빠진 철자를 시험이 제일 좋아한다고양.",
+    "new": "ninth, 아홉 번째는 e 빠진 철자라 시험이 제일 좋아한다고양.",
+    "severity": "low",
+    "problem": "철자 얘기만 있고 단어 뜻(아홉 번째)이 줄 안에 없음. 37자, 표제어 1회, '고양' 포함 확인"
    }
   ]
  },
