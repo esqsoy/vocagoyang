@@ -446,7 +446,7 @@ body.shake{animation:bshake .3s;}
           <div class="sumitem"><b id="sumTime">00:00</b><span>총 수행 시간</span></div>
           <div class="sumitem"><b id="sumAtt">0</b><span>입력 횟수</span></div>
           <div class="sumitem"><b id="sumErr">0</b><span>오답·시간초과</span></div>
-          <div class="sumitem"><b id="sumFirst">0%</b><span>첫 시도 정답률</span></div>
+          <div class="sumitem"><b id="sumFirst">0%</b><span>첫 시도 정답률 (힌트 제외) · 힌트 <span id="sumHint">0</span>회</span></div>
         </div>
         <div class="row2">
           <button class="btn" id="nextEx" type="button">다음 연습 ▶</button>
@@ -1047,7 +1047,7 @@ function startExercise(i){
       firstWrong:false,wrongEver:false,roundStreak:0,needed:1,passed:false})),
     round:0,roundName:"",queue:[],roundTargets:[],currentId:null,
     cardStart:0,cardLimit:12,totalStart:Date.now(),pausedAt:0,
-    attempts:0,errors:0,firstSeen:0,firstCorrect:0,seenSet:new Set(),
+    attempts:0,errors:0,hints:0,firstSeen:0,firstCorrect:0,seenSet:new Set(),
     answered:false,fbMode:false,copyMode:false,copyAns:""
   };
   $("#gKick").textContent=L.id;$("#gTitle").textContent=ex.title;
@@ -1196,7 +1196,7 @@ function submitCopy(){
 }
 
 function giveHint(){
-  const s=state.session;if(!s||s.answered)return;const w=s.words[s.currentId];s.hintLevel=(s.hintLevel||0)+1;
+  const s=state.session;if(!s||s.answered)return;const w=s.words[s.currentId];s.hintLevel=(s.hintLevel||0)+1;s.hints=(s.hints||0)+1;
   const en=w.term,m=$("#qmini");
   if(s.hintLevel===1)m.innerHTML=`힌트① 첫 글자 <b style="color:var(--gold)">${esc(en[0])}</b> · ${en.replace(/\s/g,'').length}자`;
   else{let pat='';for(let i=0;i<en.length;i++){const ch=en[i];pat+=/[a-zA-Z]/.test(ch)?(i<Math.ceil(en.length/2)?ch:'_'):ch;}
@@ -1230,13 +1230,13 @@ function finishExercise(){
   const s=state.session;if(!s)return;stopTicker();
   const timeMs=Date.now()-s.totalStart;
   const first=s.firstSeen?Math.round(s.firstCorrect/s.firstSeen*100):0;
-  setRec(s.lesson.id,s.exercise.title,{timeMs,attempts:s.attempts,errors:s.errors,first});
+  setRec(s.lesson.id,s.exercise.title,{timeMs,attempts:s.attempts,errors:s.errors,first,hints:s.hints||0});
   // lesson fully cleared?
   const lessonCleared=visEx(s.lesson).every(e=>getRec(s.lesson.id,e.title)?.completed);
   const allCleared=clearedExercises()>=totalExercises();
   $("#sumSub").textContent=`${s.lesson.id} · ${s.exercise.title}`;
   $("#sumTime").textContent=fmt(timeMs);$("#sumAtt").textContent=s.attempts;
-  $("#sumErr").textContent=s.errors;$("#sumFirst").textContent=first+"%";
+  $("#sumErr").textContent=s.errors;$("#sumFirst").textContent=first+"%";$("#sumHint").textContent=s.hints||0;
   let line=pick(LINES.exerciseDone),expr='evil';
   if(allCleared){line=pick(LINES.allDone);expr='win';$("#sumTitle").textContent="BIG MOUNTAIN 입성! 🎓";}
   else if(lessonCleared){const _cnt=visEx(s.lesson).reduce((a,e)=>a+e.words.length,0);line=_cnt+"개 단어를 다 확인했다고양! "+(LESSONCLEAR[s.lesson.lesson]||"한 강을 통째로 정복했다고양!");expr='win';$("#sumTitle").textContent=s.lesson.id+" 완전 정복!";}
