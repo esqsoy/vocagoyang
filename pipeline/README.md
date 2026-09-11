@@ -57,7 +57,7 @@ Fable(0→4,639) + Mother Tongue(→약 8,200) = 95% 직독직해선. 그 위 **
 
 파일:
 - `out/lesson00~04.json`(dict: lesson/label/name/exercises), `out/set05~45.json`(exercises 리스트) — **카드 원본.** 편집은 여기에 하고 HTML은 조립해서 만든다. (`out/lesson00b.json`은 0세트 작업 중간본, 무시.)
-- `assemble.py` — out/*.json → HTML의 DATA 블롭 교체. `cd /home/claude/hoe-prod && python3 assemble.py` (상대경로라 반드시 이 폴더에서). 출력 예: `lessons 48 cards 5946 words 4713 bytes 1513699` (words엔 형태론 표제어 88이 포함되니 어휘 표제어는 4,639).
+- `assemble.py` — out/*.json → HTML의 DATA 블롭 교체. `cd /home/claude/hoe-prod && python3 assemble.py` (상대경로라 반드시 이 폴더에서). 출력 예: `lessons 48 cards 5946 words 4713 bytes 1513952` (words엔 형태론 표제어 88이 포함되니 어휘 표제어는 4,639).
 - `disassemble.py` — 역연산. HTML → out/*.json. 왕복 검증 완료(46파일 동일).
 - `audit.py out/setNN.json` — 기계 감사: 빈칸 유무, 예문 10단어 초과, 해설 72자 초과, meow 48자·'고양' 포함, **예문 어휘 통제**, ipa/tr/pos 누락, 단어 누락·순서, **중복(같은 단어·뜻 번호, 같은 뜻, 같은 예문)**. `audit.py --dups`는 전 세트 교차 중복(표제어가 여러 세트에, 같은 예문이 여러 카드에)을 보고한다. 파일명에 `set`이 있어야 한다(lesson 파일은 `audit.py`의 `tok_ok`를 import해서 따로 검사). 마지막 줄 `문제 0`이 통과.
 - `seam.py` — 이음새 감사(헌장 제5조): 레포의 세 HTML에서 표제어를 뽑아 LDV↔Fable↔마더텅↔EBS 겹침·공백을 낸다. `--list 마더텅only` 등으로 목록 출력.
