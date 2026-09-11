@@ -65,7 +65,7 @@
 },
 {
 "en": "amazed",
-"ko": "① 놀란, 깜짝 놀란",
+"ko": "① (감탄하며) 놀란, 경탄한",
 "ex": "I was {{BLANK}} at how fast he ate lunch.",
 "tr": "걔가 점심 먹는 속도에 나 진짜 경탄했어.",
 "c": "amaze(놀라게 하다)의 굴절꼴. 사람은 amazed, 사물은 amazing.",
@@ -289,7 +289,7 @@
 "en": "accountable",
 "ko": "① 책임이 있는",
 "ex": "Leaders should be {{BLANK}} for their choices.",
-"tr": "지도자는 자기 선택에 대해 책임을 추궁당해야 해.",
+"tr": "지도자는 자기 선택에 책임을 져야 해.",
 "c": "account(설명하다)+-able. 사람에게는 to, 일에는 for를 붙인다.",
 "ipa": "əˈkaʊntəbəl",
 "pos": "adj.",
@@ -318,8 +318,8 @@
 {
 "en": "aggression",
 "ko": "① 공격성, 폭력성",
-"ex": "The game shows too much {{BLANK}} for young kids.",
-"tr": "그 게임은 어린애들한테 공격성이 너무 심해.",
+"ex": "The dog shows {{BLANK}} toward strangers.",
+"tr": "그 개는 낯선 사람들한테 공격성을 보여.",
 "c": "aggressive(공격적인)의 명사. 셀 수 없이 쓴다.",
 "ipa": "əˈɡrɛʃən",
 "pos": "n.",
@@ -342,8 +342,8 @@
 {
 "en": "discretion",
 "ko": "① 재량, 판단에 맡김",
-"ex": "Use your own {{BLANK}} about what to wear.",
-"tr": "뭘 입을지는 네 재량껏 알아서 해.",
+"ex": "The final grade is at the teacher's {{BLANK}}.",
+"tr": "최종 성적은 선생님 재량이야.",
 "c": "at your discretion(네 재량대로)이 핵심 짝. 판단할 권한을 뜻한다.",
 "ipa": "dɪˈskrɛʃən",
 "pos": "n.",
@@ -425,7 +425,7 @@
 },
 {
 "en": "dislike",
-"ko": "① 싫어하다, 반감",
+"ko": "① 싫어하다",
 "ex": "I really {{BLANK}} sitting in the back row.",
 "tr": "난 뒷줄에 앉는 게 정말 싫어.",
 "c": "dis-+like. 뒤에는 -ing만 오고 to부정사는 오지 않는다.",
@@ -476,8 +476,7 @@
 "pos": "n.",
 "word": "misery",
 "si": 1,
-"sn": 1,
-"meow": "오답의 misery, 비참함을 알겠냐고양."
+"sn": 1
 },
 {
 "en": "module",
@@ -507,7 +506,7 @@
 "en": "sharply",
 "ko": "② 날카롭게, 매섭게",
 "ex": "She spoke {{BLANK}} to the loud boys behind us.",
-"tr": "그녀는 우리 뒤 시끄러운 남자애들에게 날카롭게 말했어.",
+"tr": "걔가 우리 뒤 시끄러운 남자애들한테 날카롭게 말했어.",
 "c": "말·눈빛이 매서울 때. speak/look sharply at 꼴로 쓴다.",
 "ipa": "ˈʃɑrpli",
 "pos": "adv.",
@@ -555,7 +554,7 @@
 "en": "imprisonment",
 "ko": "① 투옥, 징역",
 "ex": "He faced ten years of {{BLANK}}.",
-"tr": "걔는 10년의 투옥형에 처해졌어.",
+"tr": "걔는 징역 10년을 앞두고 있었어.",
 "c": "im-(안에)+prison(감옥)+-ment. life imprisonment는 종신형.",
 "ipa": "ɪmˈprɪzənmənt",
 "pos": "n.",
@@ -881,7 +880,7 @@
 "en": "psychiatric",
 "ko": "① 정신과의",
 "ex": "She got {{BLANK}} help after the accident.",
-"tr": "그녀는 사고 후에 정신과 치료를 받았어.",
+"tr": "걔는 사고 후에 정신과 치료를 받았어.",
 "c": "p는 소리가 나지 않아 [사이키애트릭]. 의사는 psychiatrist.",
 "ipa": "ˌsaɪkiˈætrɪk",
 "pos": "adj.",
@@ -911,8 +910,7 @@
 "pos": "n.",
 "word": "dentist",
 "si": 1,
-"sn": 1,
-"meow": "dentist, 치과보다 여기가 덜 아프다고양."
+"sn": 1
 }
 ]
 },
@@ -947,7 +945,7 @@
 },
 {
 "en": "fringe",
-"ko": "① 가장자리, 주변부",
+"ko": "① 주변부, 변두리",
 "ex": "Their shop sits on the {{BLANK}} of town.",
 "tr": "걔네 가게는 마을 변두리에 있어.",
 "c": "중심에서 벗어난 언저리. 영국에서는 '앞머리'도 뜻한다.",
@@ -973,7 +971,7 @@
 "en": "prestigious",
 "ko": "① 명망 있는, 일류의",
 "ex": "She won a {{BLANK}} prize for her writing.",
-"tr": "그녀는 글로 명망 있는 상을 받았어.",
+"tr": "걔는 글로 명망 있는 상을 받았어.",
 "c": "prestige(명성)의 형용사. 상·학교·직업 앞에 주로 놓인다.",
 "ipa": "prɛˈstɪdʒəs",
 "pos": "adj.",
@@ -1074,7 +1072,7 @@
 },
 {
 "en": "diagram",
-"ko": "① 도표, 그림",
+"ko": "① 도식, 도해",
 "ex": "Draw a {{BLANK}} to show how it works.",
 "tr": "그게 어떻게 돌아가는지 도식으로 그려 봐.",
 "c": "dia-(가로질러)+gram(그림). 관계를 선으로 보여 주는 그림.",
@@ -1359,8 +1357,7 @@
 "pos": "n.",
 "word": "applause",
 "si": 1,
-"sn": 1,
-"meow": "applause, 박수는 다 외운 뒤라고양."
+"sn": 1
 },
 {
 "en": "cone",
@@ -1412,7 +1409,7 @@
 },
 {
 "en": "differential",
-"ko": "① 차등의, 차이의",
+"ko": "① 차등의",
 "ex": "The store uses {{BLANK}} prices for members.",
 "tr": "그 가게는 회원에게 차등 가격을 적용해.",
 "c": "different(다른)에서 왔다. 명사로는 '격차'를 뜻하기도 한다.",
