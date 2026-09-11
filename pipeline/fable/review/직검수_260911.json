@@ -1,0 +1,1086 @@
+{
+ "date": "26.9.11",
+ "failed_sets": [
+  "set29",
+  "set30",
+  "set31",
+  "set32",
+  "set33",
+  "set34",
+  "set35",
+  "set36",
+  "set37",
+  "set38",
+  "set39",
+  "set40",
+  "set41",
+  "set42",
+  "set43",
+  "set44",
+  "set45",
+  "set05",
+  "set06",
+  "set07",
+  "set08",
+  "set09",
+  "set10",
+  "set11",
+  "set12",
+  "set13",
+  "set14",
+  "set15",
+  "set16",
+  "set17",
+  "set18",
+  "set19",
+  "set20",
+  "set21",
+  "set22",
+  "lesson00",
+  "lesson01",
+  "lesson02",
+  "lesson03",
+  "lesson04",
+  "set46",
+  "set47"
+ ],
+ "summaries": {
+  "set23": {
+   "confirmed": 16,
+   "rejected": 2,
+   "notes": "기각 2건. (1) anybody/ko: 제안 근거('anyone 표기를 넣어 안내가 걸리게')가 사실과 다름. 앱 splitGloss는 `,·/`로 먼저 쪼개고 괄호를 지우므로 anyone의 ko '① (의문·부정) 누구, 아무도'는 조각 '① (의문'·'부정) 누구'·'아무도'로 깨져서, 제안 ko '① 누구, 아무나(=anyone)'의 조각 '① 누구'·'아무나'와 어떤 조각도 겹치지 않음 — 안내가 여전히 안 뜸. 게다가 학생에게 '=anyone'을 보여주고 anyone을 치면 안내 없이 오답 처리되니 원문보다 나빠질 수 있"
+  },
+  "set24": {
+   "confirmed": 23,
+   "rejected": 2,
+   "notes": "기각 2건(growing ex·tr): growing/increasing은 본질적 동의어 쌍(SYN 몫)이고 increasing은 26세트라 24세트 시점엔 미학습 단어. 'a growing number of'는 c가 대표 짝으로 명시한 연어이며, 제안 ex 'a growing boy'는 ko ① '늘어나는'과 용법이 어긋나 ko–ex 일치를 깨뜨림. 다듬은 fix: seriously ko는 구분 단서 '농담 아니고'를 앞으로(진짜로만 앞세우면 여전히 really ①과 첫 조각이 겹침); emotional tr는 '다들 ~하게 만들"
+  },
+  "set25": {
+   "confirmed": 23,
+   "rejected": 1,
+   "notes": "기각 1건: column(1) ko '① (표의) 세로줄, 세로 칸' — ex·tr 교체(왼쪽 세로줄)로 중의성이 이미 해소되므로 우선순위 3(ko 손질)까지 갈 필요가 없고, '세로 칸'은 표현이 어색해 원문 '(표의) 세로줄, 칸'보다 낫지 않다. 나머지 23건은 원문 카드를 다시 읽어 결함·규칙 준수·개선을 확인했다. 기계 검증: /tmp/verify/set25.json에 살아남은 14개 카드 수정을 적용해 audit.py 실행 → \"카드 128 · 단어 100 · meow 10 · 문제 0\"(빈칸·10토큰·72자·어휘 통제·"
+  },
+  "set26": {
+   "confirmed": 15,
+   "rejected": 1,
+   "notes": "기각 1건: lovely/1 tr. 제안 fix '산책하기 참 아름다운 날이다!'는 nice 충돌을 없애는 대신 기초4 beautiful(ko '아름다운')이 'What a beautiful day for a walk!'로 완벽히 들어가게 만들어 원문보다 낫지 않음(ko '아름다운, 멋진' 자체가 beautiful·nice와 겹치는 본질적 동의어라 SYNLINES 몫). 다듬은 fix 2건: clip/2 tr은 원문에 없는 '잘라' 동작을 빼고 '그 공연의 짧은 한 토막을'로, deputy/1 tr은 '부지배인'→'부매니저'(man"
+  },
+  "set27": {
+   "confirmed": 18,
+   "rejected": 4,
+   "notes": "기각 4건은 모두 '같은 세트 표제어(cookie·honestly·clinic)를 예문에 써서 누적 어휘 통제 위반'을 근거로 한 것(ridiculous ex, brilliant ex, mobile ex + 그에 딸린 mobile tr). README 4절 어휘 통제 규칙(감사기의 실제 동작)은 '세트 번호 ≤ 현재 세트'라 같은 세트 표제어는 허용이고, 원본 audit도 문제 0이므로 결함이 아님. 이에 따라 ridiculous tr·brilliant tr fix는 원 예문(cookie·honestly)을 유지하는 문장으로 다듬음"
+  },
+  "set28": {
+   "confirmed": 19,
+   "rejected": 4,
+   "notes": "기각 4건. (1)(2) ooh ko·tr: 현행 '우와'는 wow(24세트, 와·우와)와 ko 조각이 정확히 겹쳐 동의어 안내가 뜨는 상태인데, 제안 '오오, 우'로 바꾸면 그 안내는 사라지고 대신 oh(0세트, '아, 오')가 그대로 들어가는 새 중의성이 생김 — 감탄사끼리의 본질적 동의어 쌍이라 동의어 안내 장치 몫. (3) quietly c: '동사 뒤에 놓는다'는 양태 부사의 통상 위치를 말하는 교과서식 안내로 틀린 문법 설명이 아니고, 현행 c가 결함이라 보기 어려움. (4) carrier tr: ko에 '항공사'가 남고"
+  }
+ },
+ "applied": {
+  "set23": [
+   {
+    "word": "kid",
+    "si": 2,
+    "field": "meow",
+    "old": "kid는 농담하다라고양. 네 점수는 농담 아니라고양.",
+    "new": "kid는 농담하다라고양. 근데 시험은 농담 아니라고양.",
+    "severity": "mid",
+    "problem": "'네 점수는 농담 아니라고양'은 학생 성적을 겨냥한 갈굼 — 스타일 가이드 금지 항목(성적 비하·학생 본인 과녁). 과녁을 시험(상황)으로 옮겨야 함"
+   },
+   {
+    "word": "toward",
+    "si": 2,
+    "field": "ko",
+    "old": "② ~에 대한(태도·감정)",
+    "new": "② (감정·태도가) ~을 향한",
+    "severity": "mid",
+    "problem": "'Her feelings ___ me'에 about(set05 ko '~에 대해')·for가 자연스럽게 들어가고, ko '~에 대한'이 about의 뜻과 그대로 겹쳐 오히려 about을 부름. ①의 '향하여'와 이어지는 '향한'으로 조여야 toward에만 닿음"
+   },
+   {
+    "word": "toward",
+    "si": 2,
+    "field": "tr",
+    "old": "여행 다녀온 뒤 나에 대한 걔 감정이 달라졌어.",
+    "new": "여행 다녀온 뒤 나를 향한 걔 감정이 달라졌어.",
+    "severity": "mid",
+    "problem": "'나에 대한'은 about의 단서. ko 수정과 짝 맞춰 '나를 향한'으로 조임"
+   },
+   {
+    "word": "major",
+    "si": 1,
+    "field": "ex",
+    "old": "Money was the {{BLANK}} problem with our plan.",
+    "new": "Moving to Seoul was a {{BLANK}} change for us.",
+    "severity": "mid",
+    "problem": "'the ___ problem'에 main(lesson04, ko '주된, 가장 중요한')이 완벽히 들어가는데 ko 조각('주요한')이 안 겹쳐 동의어 안내도 안 뜨고 그냥 오답 처리됨. 'a major change'로 옮기면 main이 못 붙음"
+   },
+   {
+    "word": "major",
+    "si": 1,
+    "field": "tr",
+    "old": "돈이 우리 계획의 중대한 문제였어.",
+    "new": "서울로 이사한 건 우리한텐 중대한 변화였어.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역. '중대한'으로 big(큰)과도 갈라짐"
+   },
+   {
+    "word": "relate",
+    "si": 1,
+    "field": "tr",
+    "old": "선생님은 그 이야기를 우리 삶과 연결지어 주셨어.",
+    "new": "선생님은 그 이야기를 우리 삶과 관련지어 주셨어.",
+    "severity": "mid",
+    "problem": "'연결지어'가 connect(set10 ko '연결하다')를 부름 — 'connected the story to our lives'가 그대로 성립. ko의 '관련'으로 조여야 함"
+   },
+   {
+    "word": "throughout",
+    "si": 1,
+    "field": "ko",
+    "old": "① ~내내, ~동안 죽",
+    "new": "① ~내내, 처음부터 끝까지",
+    "severity": "mid",
+    "problem": "'It rained ___ the whole trip'에 during(set05 ko '~동안, ~중에')이 그대로 들어가는데 ko '~동안 죽'이 during의 뜻을 눈앞에 보여줌(조각은 안 겹쳐 안내는 안 뜸). 전치사 자리라 예문 교체로는 during을 못 떼어내므로 ko에서 '~동안' 단서를 빼고 '내내·처음부터 끝까지'로 좁힘"
+   },
+   {
+    "word": "generally",
+    "si": 1,
+    "field": "ex",
+    "old": "I {{BLANK}} go to bed before eleven.",
+    "new": "{{BLANK}} speaking, dogs are easier to train than cats.",
+    "severity": "mid",
+    "problem": "'I ___ go to bed before eleven'에 usually(0세트, ko '보통, 대개')가 더 자연스럽게 들어가는데 ko 조각이 안 겹쳐 안내 없이 오답 처리됨. Generally speaking 고정구로 교체"
+   },
+   {
+    "word": "generally",
+    "si": 1,
+    "field": "tr",
+    "old": "나는 대체로 열한 시 전에 자.",
+    "new": "일반적으로 말하면 개가 고양이보다 훈련시키기 쉬워.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역"
+   },
+   {
+    "word": "mostly",
+    "si": 1,
+    "field": "ex",
+    "old": "I {{BLANK}} eat rice for dinner.",
+    "new": "The students at the camp were {{BLANK}} from Seoul.",
+    "severity": "mid",
+    "problem": "'I ___ eat rice for dinner'에 usually가 그대로 들어감(ko 안 겹침 → 안내 없이 오답). '대부분(구성)'을 뜻하는 자리로 옮기면 usually가 못 들어감(mainly는 ko '주로'가 겹쳐 안내가 뜸)"
+   },
+   {
+    "word": "mostly",
+    "si": 1,
+    "field": "tr",
+    "old": "나는 저녁으로 대부분 밥을 먹어.",
+    "new": "캠프에 온 학생들은 대부분 서울에서 왔어.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역"
+   },
+   {
+    "word": "employee",
+    "si": 1,
+    "field": "ex",
+    "old": "That store has only three {{BLANK}}s.",
+    "new": "My dad was named {{BLANK}} of the month.",
+    "severity": "mid",
+    "problem": "'only three ___s'에 worker(0세트, ko '노동자, 일하는 사람')가 자연스럽게 들어가고 ko(직원·종업원)와 안 겹쳐 안내 없이 오답 처리됨. employee of the month 고정구로 교체"
+   },
+   {
+    "word": "employee",
+    "si": 1,
+    "field": "tr",
+    "old": "저 가게는 종업원이 세 명뿐이야.",
+    "new": "우리 아빠가 이달의 직원으로 뽑혔어.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역"
+   },
+   {
+    "word": "etc",
+    "si": 1,
+    "field": "tr",
+    "old": "책이랑 펜 같은 것들 한 가방에 다 넣어.",
+    "new": "책, 펜 등등 다 한 가방에 넣어.",
+    "severity": "low",
+    "problem": "'같은 것들'로는 빈칸 단어(기타 등등)가 드러나지 않음 — 'things like'로 읽힘. ko의 '등등'을 번역에 넣어야 함"
+   },
+   {
+    "word": "debate",
+    "si": 1,
+    "field": "tr",
+    "old": "우리 반은 휴대폰 규칙에 대해 토론을 했어.",
+    "new": "우리 반은 휴대폰 규칙을 두고 찬반 토론을 했어.",
+    "severity": "low",
+    "problem": "'had a ___ about phone rules'는 discussion이 그대로 성립하고 discussion은 표제어가 아니라 안내도 없음. c에 있는 '찬반' 단서를 번역에 넣어 debate로 조임"
+   },
+   {
+    "word": "okay",
+    "si": 1,
+    "field": "meow",
+    "old": "(삭제)",
+    "new": "",
+    "severity": "low",
+    "problem": "exercise 1에서 kid②(8)·okay①(9)·hey(11) 세 카드가 네 장 안에 meow — '다섯 카드당 하나 이하' 위반. 내용이 가장 얇은 okay① 줄('괜찮냐고양? 안 괜찮다고양')을 삭제(필드 제거)"
+   }
+  ],
+  "set24": [
+   {
+    "word": "seriously",
+    "si": 2,
+    "field": "tr",
+    "old": "진짜로, 그 영화 역대 최고였어.",
+    "new": "농담 아니고, 그 영화 역대 최고였어.",
+    "severity": "high",
+    "problem": "tr '진짜로'는 really ①(정말, 진짜로)의 뜻 그대로라 'Really, that movie…'가 그대로 들어감. seriously 고유 단서(농담 아님)가 없음."
+   },
+   {
+    "word": "seriously",
+    "si": 2,
+    "field": "ko",
+    "old": "② 정말로, 진짜 (강조)",
+    "new": "② 농담 아니고, 진짜로 (강조)",
+    "severity": "high",
+    "problem": "ko '정말로, 진짜'는 really ①과 완전히 겹침. serious(진지한)에서 온 강조임이 드러나야 함. 구분 단서를 앞에 둠."
+   },
+   {
+    "word": "chairman",
+    "si": 1,
+    "field": "ex",
+    "old": "The {{BLANK}} of the club opened the meeting.",
+    "new": "My uncle is the {{BLANK}} of the board.",
+    "severity": "high",
+    "problem": "'The ___ of the club'에 president ②(회장, 사장)가 미국식으로 더 자연스럽게 들어감. ko·tr 모두 '회장'이라 중의성. chairman of the board 연어로 고정(board ② 이사회는 4과 기학습)."
+   },
+   {
+    "word": "chairman",
+    "si": 1,
+    "field": "tr",
+    "old": "동아리 회장이 회의를 시작했어.",
+    "new": "우리 삼촌이 이사회 의장이야.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. '이사회 의장'으로 chairman(의장) 단서를 고정."
+   },
+   {
+    "word": "zone",
+    "si": 1,
+    "field": "ex",
+    "old": "Cars cannot stop in this {{BLANK}}.",
+    "new": "Slow down, this is a school {{BLANK}}.",
+    "severity": "high",
+    "problem": "'Cars cannot stop in this ___'에 area ①(지역, 구역)이 그대로 들어감. ko '구역' 겹침. school zone 연어로 고정."
+   },
+   {
+    "word": "zone",
+    "si": 1,
+    "field": "tr",
+    "old": "차는 이 구역에 세울 수 없어.",
+    "new": "천천히 가, 여긴 스쿨존이야.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. '스쿨존'이 zone에만 닿는 단서."
+   },
+   {
+    "word": "plus",
+    "si": 2,
+    "field": "ko",
+    "old": "② 게다가, 그리고",
+    "new": "② 게다가, 더구나",
+    "severity": "high",
+    "problem": "ko '그리고' 때문에 and ①(그리고)이 'It's cheap, and it tastes great.'로 완벽히 들어감. '그리고' 한 조각만 빼면 해결."
+   },
+   {
+    "word": "following",
+    "si": 1,
+    "field": "tr",
+    "old": "아래의 질문에 네 말로 답해 봐.",
+    "new": "아래에 이어지는 질문에 네 말로 답해 봐.",
+    "severity": "mid",
+    "problem": "ko '다음의'+ex 'Answer the ___ question'은 next ①(다음의)도 자연스럽게 들어감. '아래에 이어지는'으로 follow 단서를 줌."
+   },
+   {
+    "word": "troop",
+    "si": 1,
+    "field": "ko",
+    "old": "① 군대, 병력",
+    "new": "① 병력, 부대 (보통 복수)",
+    "severity": "mid",
+    "problem": "ko 첫 뜻 '군대'는 army ①(군대, 육군)과 겹쳐 학생이 army를 침. tr '부대가'와 troops 용법에 맞춰 '병력·부대'로 좁힘."
+   },
+   {
+    "word": "thinking",
+    "si": 1,
+    "field": "ko",
+    "old": "① 생각, 사고방식",
+    "new": "① 생각하기, 사고방식",
+    "severity": "mid",
+    "problem": "ko '생각'은 thought ①(생각)과 동일. -ing 명사(생각하기·사고)임이 드러나야 함."
+   },
+   {
+    "word": "thinking",
+    "si": 1,
+    "field": "tr",
+    "old": "재빠른 생각이 지난 경기에서 우리를 살렸어.",
+    "new": "빨리 생각한 게 지난 경기에서 우리를 살렸어.",
+    "severity": "mid",
+    "problem": "'재빠른 생각이'는 thought로 읽힘. quick thinking을 동작 명사로 옮겨 thought와 분리."
+   },
+   {
+    "word": "cop",
+    "si": 1,
+    "field": "ko",
+    "old": "① 경찰관",
+    "new": "① 경찰관 (구어)",
+    "severity": "mid",
+    "problem": "ko '경찰관'은 policeman ①(경찰관)·officer ①(경찰관)과 완전히 겹쳐 'A policeman stopped us'가 그대로 들어감. c가 이미 informal이라 하므로 구어 표지로 구분."
+   },
+   {
+    "word": "emotional",
+    "si": 1,
+    "field": "tr",
+    "old": "마지막 장면이 모두를 감정적으로 만들었어.",
+    "new": "마지막 장면에 다들 감정이 북받쳤어.",
+    "severity": "mid",
+    "problem": "'모두를 감정적으로 만들었어'는 한국어로 부자연스럽고 뜻(감정이 북받친)이 안 살아남. c의 get emotional과 맞추되 '다들을 ~하게 만들었어' 꼴을 피해 자연스럽게."
+   },
+   {
+    "word": "via",
+    "si": 1,
+    "field": "ex",
+    "old": "Send the file to me {{BLANK}} email.",
+    "new": "We flew to Paris {{BLANK}} London.",
+    "severity": "mid",
+    "problem": "'Send the file to me ___ email'은 by·through가 더 자연스럽고, 그걸 막으려 쓴 tr '이메일을 경유해서'가 어색함. 경유지 용법으로 바꾸면 '경유'가 자연스럽게 via를 가리킴(flew는 불규칙형 허용, Paris·London은 고유명사)."
+   },
+   {
+    "word": "via",
+    "si": 1,
+    "field": "tr",
+    "old": "그 파일 이메일을 경유해서 나한테 보내 줘.",
+    "new": "우리 런던 경유해서 파리로 날아갔어.",
+    "severity": "mid",
+    "problem": "ex 교체에 따른 번역. '경유해서'가 자연스러운 자리."
+   },
+   {
+    "word": "setting",
+    "si": 2,
+    "field": "ko",
+    "old": "② (이야기의) 배경",
+    "new": "② (이야기의) 배경 설정",
+    "severity": "mid",
+    "problem": "ko '(이야기의) 배경'은 background ①(배경)과 겹쳐 학생이 흔히 저지르는 오류(배경=background) 그대로 빈칸에 들어감. '배경 설정'으로 ① 설정과 이어 붙여 구분."
+   },
+   {
+    "word": "setting",
+    "si": 2,
+    "field": "c",
+    "old": "이야기의 시간과 장소 배경. 국어의 '배경'과 같은 말.",
+    "new": "이야기의 시간·장소 배경. 소설의 '배경'은 background가 아니라 setting이다.",
+    "severity": "mid",
+    "problem": "c가 '국어의 배경과 같은 말'이라고만 해서 정작 틀리는 지점(background로 쓰는 오류)을 안 짚음."
+   },
+   {
+    "word": "circumstance",
+    "si": 1,
+    "field": "tr",
+    "old": "그런 상황에서 걔는 정말 잘한 거야.",
+    "new": "그런 사정을 생각하면 걔는 정말 잘한 거야.",
+    "severity": "mid",
+    "problem": "tr '그런 상황에서'는 situation ①(상황) 단서. ko의 '사정'으로 조여 circumstance에만 닿게."
+   },
+   {
+    "word": "organize",
+    "si": 1,
+    "field": "ko",
+    "old": "① 조직하다, (행사를) 준비하다",
+    "new": "① 조직하다, (행사를) 주관하다",
+    "severity": "mid",
+    "problem": "ko '(행사를) 준비하다'는 prepare ①(준비하다)를 부름. tr의 '주관'과 맞춰 조직·주관으로."
+   },
+   {
+    "word": "percentage",
+    "si": 1,
+    "field": "tr",
+    "old": "우리 반 학생 중 큰 백분율이 축구를 해.",
+    "new": "우리 반은 축구 하는 애들 퍼센트가 높아.",
+    "severity": "mid",
+    "problem": "'우리 반 학생 중 큰 백분율이 축구를 해'는 한국어로 안 쓰는 말. large percentage를 자연스럽게 옮기되 '비율'은 rate ①(비율, 속도)·ratio를 부르므로 '퍼센트'로 단서를 유지."
+   },
+   {
+    "word": "reporter",
+    "si": 1,
+    "field": "tr",
+    "old": "기자 한 명이 우리 감독한테 그 경기에 대해 물었어.",
+    "new": "리포터 한 명이 우리 감독한테 그 경기에 대해 물었어.",
+    "severity": "low",
+    "problem": "tr '기자'는 journalist ①(기자, 언론인)과 겹침. ko에 이미 있는 '리포터'로 조이면 값싸게 분리됨."
+   }
+  ],
+  "set25": [
+   {
+    "word": "motion",
+    "si": 1,
+    "field": "ex",
+    "old": "The camera catches every {{BLANK}} of the ball.",
+    "new": "Don't stand up while the bus is in {{BLANK}}.",
+    "severity": "high",
+    "problem": "'every ___ of the ball'+'움직임'에는 movement(move의 파생, 학생이 바로 떠올림)가 그대로 들어간다. c가 이미 in motion을 가르치므로 그 관용구로 고정."
+   },
+   {
+    "word": "motion",
+    "si": 1,
+    "field": "tr",
+    "old": "그 카메라는 공의 모든 움직임을 잡아내.",
+    "new": "버스가 움직이는 중일 땐 일어서지 마.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역."
+   },
+   {
+    "word": "regional",
+    "si": 1,
+    "field": "ex",
+    "old": "Our team won the {{BLANK}} soccer match yesterday.",
+    "new": "Our team is going to the {{BLANK}} finals next week.",
+    "severity": "high",
+    "problem": "'the ___ soccer match'+'지역'에는 local(기초어)이 더 자연스럽게 들어간다. regional finals 연어로 고정."
+   },
+   {
+    "word": "regional",
+    "si": 1,
+    "field": "tr",
+    "old": "우리 팀이 어제 지역 축구 경기에서 이겼어.",
+    "new": "우리 팀 다음 주에 지역 결승전 나가.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역."
+   },
+   {
+    "word": "whoa",
+    "si": 1,
+    "field": "ex",
+    "old": "{{BLANK}}, that phone is way too expensive!",
+    "new": "{{BLANK}}, slow down — you're walking way too fast!",
+    "severity": "high",
+    "problem": "놀람 문맥+'우와'는 wow(24세트 표제어)가 그대로 들어간다. '멈춰' 제지 용법으로 바꿔 whoa에만 붙게 해야 함."
+   },
+   {
+    "word": "whoa",
+    "si": 1,
+    "field": "tr",
+    "old": "우와, 그 폰 너무 비싸다!",
+    "new": "워워, 천천히 가. 너 너무 빨리 걷잖아.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. '워워'가 whoa만 가리킴."
+   },
+   {
+    "word": "supporter",
+    "si": 1,
+    "field": "ex",
+    "old": "He is a loud {{BLANK}} of our soccer team.",
+    "new": "Our teacher is a strong {{BLANK}} of school uniforms.",
+    "severity": "high",
+    "problem": "'a loud ___ of our soccer team'+'열렬한 응원자'는 fan(23세트 표제어)이 정답처럼 들어가고, tr 응원자는 ko 지지자·후원자와도 안 맞는다."
+   },
+   {
+    "word": "supporter",
+    "si": 1,
+    "field": "tr",
+    "old": "걔는 우리 축구팀의 열렬한 응원자야.",
+    "new": "우리 선생님은 교복의 열렬한 지지자야.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. 지지자로 ko와 일치."
+   },
+   {
+    "word": "column",
+    "si": 1,
+    "field": "ex",
+    "old": "Write your name in the first {{BLANK}}.",
+    "new": "Add up the numbers in the left {{BLANK}}.",
+    "severity": "high",
+    "problem": "'첫 번째 칸에 이름을 써'는 box(7세트)·space·line도 들어간다. 세로줄 뜻이 드러나는 예문 필요."
+   },
+   {
+    "word": "column",
+    "si": 1,
+    "field": "tr",
+    "old": "첫 번째 칸에 이름을 써.",
+    "new": "왼쪽 세로줄에 있는 숫자들 다 더해 봐.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. '세로줄'로 row·box 배제."
+   },
+   {
+    "word": "chip",
+    "si": 1,
+    "field": "tr",
+    "old": "나 과자 한 봉지를 다 먹었어.",
+    "new": "나 감자칩 한 봉지를 다 먹었어.",
+    "severity": "high",
+    "problem": "'과자 한 봉지'는 snack·cookie(27세트) 등이 그대로 들어간다. 감자칩으로 조여야 함."
+   },
+   {
+    "word": "buck",
+    "si": 1,
+    "field": "ko",
+    "old": "① 달러",
+    "new": "① (구어) 달러, 불",
+    "severity": "high",
+    "problem": "ko '달러'+tr '10달러'면 dollar(7세트)가 정답이 된다. 속어 표지와 '불'로 조여야 함."
+   },
+   {
+    "word": "buck",
+    "si": 1,
+    "field": "tr",
+    "old": "그 게임 온라인에서 겨우 10달러야.",
+    "new": "그 게임 온라인에서 겨우 10불이야.",
+    "severity": "high",
+    "problem": "'10달러'는 dollar를 부른다. 구어 '불'로 buck만 가리키게."
+   },
+   {
+    "word": "disorder",
+    "si": 2,
+    "field": "tr",
+    "old": "점심시간 뒤 교실은 완전히 엉망이었어.",
+    "new": "점심시간 뒤 교실은 질서라곤 없이 완전 엉망이었어.",
+    "severity": "mid",
+    "problem": "'완전히 엉망이었어'는 ko 무질서·혼란과 안 닿고 mess(26세트)·chaos 쪽 단서다. 질서 없음이 드러나야 dis+order가 잡힌다."
+   },
+   {
+    "word": "channel",
+    "si": 2,
+    "field": "ex",
+    "old": "Email is the fastest {{BLANK}} for club news.",
+    "new": "Send your complaint through the proper {{BLANK}}s.",
+    "severity": "mid",
+    "problem": "'the fastest ___ for club news'+'수단'은 way·means·method(기초어)가 더 자연스럽게 들어간다. through the proper channels 관용구로 고정."
+   },
+   {
+    "word": "channel",
+    "si": 2,
+    "field": "tr",
+    "old": "이메일이 동아리 소식 전하는 가장 빠른 수단이야.",
+    "new": "불만은 정식 경로를 통해서 보내.",
+    "severity": "mid",
+    "problem": "ex 교체에 따른 번역."
+   },
+   {
+    "word": "recover",
+    "si": 2,
+    "field": "tr",
+    "old": "경찰이 어젯밤에 잃어버린 내 자전거를 찾아 줬어.",
+    "new": "경찰이 어젯밤에 잃어버린 내 자전거를 되찾아 줬어.",
+    "severity": "mid",
+    "problem": "'찾아 줬어'는 ko 되찾다와 안 맞고 find(기초어) 쪽으로 열린다. '되찾아'로 조이기."
+   },
+   {
+    "word": "relief",
+    "si": 2,
+    "field": "ex",
+    "old": "The group sent food and {{BLANK}} to the village.",
+    "new": "The town got {{BLANK}} supplies after the flood.",
+    "severity": "mid",
+    "problem": "'sent food and ___'는 relief 단독으로 어색하고(relief supplies가 자연스러움) supplies·aid가 들어갈 자리다."
+   },
+   {
+    "word": "relief",
+    "si": 2,
+    "field": "tr",
+    "old": "그 단체가 그 마을에 음식과 구호품을 보냈어.",
+    "new": "그 마을은 홍수 뒤에 구호 물자를 받았어.",
+    "severity": "mid",
+    "problem": "ex 교체에 따른 번역."
+   },
+   {
+    "word": "tank",
+    "si": 2,
+    "field": "c",
+    "old": "군대에서 쓰는 무기. 쇠바퀴로 굴러가는 장갑차를 뜻한다.",
+    "new": "군대 무기. 대포를 얹고 무한궤도로 달리는 전차다. 물탱크 tank와 철자가 같다.",
+    "severity": "mid",
+    "problem": "전차는 무한궤도로 달리며 장갑차(APC)와 다른 무기다. '쇠바퀴·장갑차'는 사실과 어긋남."
+   },
+   {
+    "word": "revolution",
+    "si": 1,
+    "field": "ko",
+    "old": "① 혁명, 회전",
+    "new": "① 혁명",
+    "severity": "mid",
+    "problem": "'회전'은 예문(혁명)과 다른 뜻인데 한 ko에 묶여 있다. 뜻 하나=카드 하나 원칙 위반."
+   },
+   {
+    "word": "household",
+    "si": 1,
+    "field": "ko",
+    "old": "① 가정, 가구(집안 식구)",
+    "new": "① (한집에 사는) 가구, 세대",
+    "severity": "low",
+    "problem": "'가정'이 family(기초어, 'Every family on our street has a car'로 그대로 들어감)·home을 부른다. 가구·세대로 좁히기."
+   }
+  ],
+  "set26": [
+   {
+    "word": "mess",
+    "si": 2,
+    "field": "ex",
+    "old": "How did you get into this {{BLANK}}?",
+    "new": "You got us into a real {{BLANK}} this time.",
+    "severity": "high",
+    "problem": "ko '곤란한 상황'+tr '이런 곤란한 상황에 빠졌어'면 situation(6세트 ko 상황)이 'How did you get into this situation?'으로 그대로 들어감. 'a real mess'로 바꿔 situation·trouble이 못 들어가게."
+   },
+   {
+    "word": "mess",
+    "si": 2,
+    "field": "tr",
+    "old": "너 어쩌다 이런 곤란한 상황에 빠졌어?",
+    "new": "너 이번엔 우리를 진짜 곤란한 상황에 빠뜨렸어.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역."
+   },
+   {
+    "word": "gang",
+    "si": 1,
+    "field": "ex",
+    "old": "A {{BLANK}} of boys was making noise outside.",
+    "new": "He joined a street {{BLANK}} at fifteen.",
+    "severity": "high",
+    "problem": "'A ___ of boys' 자리에 group(기초2 ko 무리, 집단)이 그대로 들어가고 ko도 '무리'를 공유함. street gang 연어로 폭력단 뜻에 묶기."
+   },
+   {
+    "word": "gang",
+    "si": 1,
+    "field": "tr",
+    "old": "남자애들 패거리가 밖에서 시끄럽게 하고 있었어.",
+    "new": "걔는 열다섯 살에 길거리 폭력단에 들어갔어.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역."
+   },
+   {
+    "word": "mm-hmm",
+    "si": 1,
+    "field": "ko",
+    "old": "① 응, 그래",
+    "new": "① 응, 그래(입 다문 콧소리)",
+    "severity": "high",
+    "problem": "ko '응, 그래'가 0세트 yeah의 ko '응, 그래 (구어 yes)'와 글자까지 같아 'Yeah, I heard you the first time.'이 완전히 성립. 입 다문 콧소리라는 단서를 ko에 넣어야 함(c는 학생이 못 봄)."
+   },
+   {
+    "word": "hmm",
+    "si": 1,
+    "field": "ko",
+    "old": "① 음, 글쎄",
+    "new": "① 음, 흠(생각하는 소리)",
+    "severity": "high",
+    "problem": "ko '음, 글쎄'가 기초1 well ③ '(말 꺼내며) 음, 글쎄'와 같고 'Well, let me think about that for a minute.'도 자연스러움. 생각 중에 내는 소리라는 단서로 구분."
+   },
+   {
+    "word": "stir",
+    "si": 2,
+    "field": "tr",
+    "old": "그 옛날 노래는 내 마음속 깊은 곳을 흔들어.",
+    "new": "그 옛날 노래는 내 마음속 깊은 뭔가를 불러일으켜.",
+    "severity": "mid",
+    "problem": "ko는 '(감정을) 불러일으키다'인데 tr은 '흔들어'라 shake(9세트 ko 흔들다)를 부르고 ko와도 어긋남. 번역을 ko에 맞춰 조이기."
+   },
+   {
+    "word": "jail",
+    "si": 1,
+    "field": "ex",
+    "old": "The thief spent two years in {{BLANK}}.",
+    "new": "He spent a night in {{BLANK}} after the fight.",
+    "severity": "mid",
+    "problem": "c가 'prison보다 짧게 갇히는 곳'이라 가르치는데 예문은 two years in jail이라 스스로 모순. 게다가 10세트 prison 예문이 'The thief spent five years in {{BLANK}}.'으로 거의 같은 문장·같은 ko라 prison이 그대로 들어감. 하룻밤 유치 장면으로 바꿔 c와 일치시키고 prison과 갈라놓기."
+   },
+   {
+    "word": "jail",
+    "si": 1,
+    "field": "tr",
+    "old": "그 도둑은 감옥에서 2년을 보냈어.",
+    "new": "걔는 그 싸움 뒤에 감옥에서 하룻밤을 보냈어.",
+    "severity": "mid",
+    "problem": "ex 교체에 따른 번역."
+   },
+   {
+    "word": "clip",
+    "si": 2,
+    "field": "tr",
+    "old": "그 애가 그 공연의 짧은 영상 한 토막을 보내 줬어.",
+    "new": "그 애가 그 공연의 짧은 한 토막을 보내 줬어.",
+    "severity": "mid",
+    "problem": "tr '짧은 영상 한 토막'의 '영상'이 video(0세트 ko 동영상)를 불러 'a short video of the concert'가 성립. '영상'을 빼고 ko의 '한 토막'만 남기기(초안의 '잘라 보내 줬어'는 원문에 없는 동작이라 뺌)."
+   },
+   {
+    "word": "minor",
+    "si": 1,
+    "field": "ko",
+    "old": "① 작은, 사소한",
+    "new": "① 사소한, 경미한",
+    "severity": "mid",
+    "problem": "ko 첫 뜻 '작은'이 small(기초2 ko 작은)과 겹쳐 'only a small mistake'가 성립. tr은 이미 '경미한'이니 ko를 사소한·경미한으로."
+   },
+   {
+    "word": "junior",
+    "si": 1,
+    "field": "ex",
+    "old": "He is two years {{BLANK}} to my brother.",
+    "new": "She started as a {{BLANK}} editor at the paper.",
+    "severity": "mid",
+    "problem": "'two years junior to my brother'는 미국 구어에서 안 쓰는 인도·영국식 표현(미국은 two years younger than). 직급 '하급의'로 살아 있는 junior editor 연어로 교체(editor는 23세트, paper는 LDV)."
+   },
+   {
+    "word": "junior",
+    "si": 1,
+    "field": "tr",
+    "old": "걔는 우리 형보다 두 살 아래야.",
+    "new": "그 애는 그 신문사에서 하급 편집자로 시작했어.",
+    "severity": "mid",
+    "problem": "ex 교체에 따른 번역."
+   },
+   {
+    "word": "deputy",
+    "si": 1,
+    "field": "tr",
+    "old": "부장 대리가 네 질문에 답해 줄 거야.",
+    "new": "부매니저가 네 질문에 답해 줄 거야.",
+    "severity": "mid",
+    "problem": "'부장 대리'는 한국 직함 체계에선 '부장+대리' 두 직급 또는 '부장을 대리하는 사람'으로 읽혀 deputy manager의 뜻이 왜곡됨. manager는 8세트에서 '관리자, 매니저'로 배웠으니 '부매니저'가 ko의 '부(副)~'와 곧장 이어짐(초안의 '부지배인'은 매니저 학습 연결이 약해 다듬음)."
+   },
+   {
+    "word": "potentially",
+    "si": 1,
+    "field": "ko",
+    "old": "① 잠재적으로, 어쩌면",
+    "new": "① 잠재적으로",
+    "severity": "low",
+    "problem": "ko의 '어쩌면'이 possibly(11세트 ko 어쩌면)와 정확히 겹쳐 'possibly dangerous'가 성립. tr이 '잠재적으로'이니 ko도 그것만 남기기."
+   }
+  ],
+  "set27": [
+   {
+    "word": "ridiculous",
+    "si": 1,
+    "field": "tr",
+    "old": "쿠키 하나에 10달러라니 우스꽝스러워.",
+    "new": "쿠키 하나에 10달러라니, 진짜 말도 안 돼.",
+    "severity": "mid",
+    "problem": "가격 얘기에 '우스꽝스러워'는 안 쓰는 한국어(모양새가 우스울 때 쓰는 말)이고 ko '말도 안 되는, 웃기는'과도 안 닿음. 예문(cookie)은 같은 세트 표제어라 감사기 규칙(세트 번호 ≤ 현재 세트)상 허용이므로 유지하고 번역만 ko에 맞춤. crazy(23세트 '말도 안 되는')는 ko 조각 공유로 동의어 안내가 뜬다."
+   },
+   {
+    "word": "terrorist",
+    "si": 1,
+    "field": "ex",
+    "old": "The movie is about a {{BLANK}} attack.",
+    "new": "The police caught the {{BLANK}} at the airport.",
+    "severity": "mid",
+    "problem": "ko는 '테러범'(사람 명사)인데 예문은 관형 용법(terrorist attack)이고 tr은 '테러 공격'이라 ko와 예문 용법이 불일치. 같은 세트 terrorism(ko '테러')과 tr 단서가 겹쳐 학생이 terrorism을 넣을 소지. 사람으로 쓰이는 장면으로 교체(caught는 IRR 허용, police·airport 허용어, 9토큰)."
+   },
+   {
+    "word": "terrorist",
+    "si": 1,
+    "field": "tr",
+    "old": "그 영화는 테러 공격에 관한 거야.",
+    "new": "경찰이 공항에서 그 테러범을 잡았어.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역. ko '테러범'이 그대로 드러나게."
+   },
+   {
+    "word": "coalition",
+    "si": 1,
+    "field": "ex",
+    "old": "Three small parties formed a {{BLANK}}.",
+    "new": "Three small parties formed a {{BLANK}} government.",
+    "severity": "mid",
+    "problem": "'formed a ___'에 같은 세트 alliance(form an alliance가 해설에도 적힌 표준 연어)가 그대로 들어감. 해결 우선순위 1(연어 교체): coalition에만 붙는 coalition government로 교체(parties·government 허용어, 8토큰)."
+   },
+   {
+    "word": "coalition",
+    "si": 1,
+    "field": "tr",
+    "old": "작은 정당 세 개가 연합을 만들었어.",
+    "new": "작은 정당 세 개가 연립 정부를 만들었어.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역. '연립'은 coalition ko에만 있고 alliance ko('동맹, 연합')에는 없어 단서가 표적 단어에만 닿음."
+   },
+   {
+    "word": "coalition",
+    "si": 1,
+    "field": "c",
+    "old": "co-(함께) 자란다는 뜻에서. coalition government(연립 정부).",
+    "new": "라틴어 '함께 자라다'에서 온 말. coalition government(연립 정부).",
+    "severity": "low",
+    "problem": "\"co-(함께) 자란다는 뜻에서\"는 co-가 '자라다'까지 뜻하는 것처럼 읽히는 어색한 문장(자라다는 어근 alescere 몫). 어원 자체(라틴어 coalescere '함께 자라다')는 맞으니 문장만 정리. 48자."
+   },
+   {
+    "word": "brilliant",
+    "si": 1,
+    "field": "tr",
+    "old": "그거 솔직히 진짜 명석한 생각이었어.",
+    "new": "그거 솔직히 진짜 뛰어난 생각이었어.",
+    "severity": "mid",
+    "problem": "'명석한 생각'은 어색(명석하다는 사람 머리에 쓰는 말)이고 ko '뛰어난, 훌륭한'과 안 맞음. 예문(honestly)은 같은 세트 표제어라 허용이므로 유지하고 '솔직히'를 살린 채 ko의 뜻이 그대로 드러나게."
+   },
+   {
+    "word": "chamber",
+    "si": 1,
+    "field": "tr",
+    "old": "그 오래된 집에는 비밀 밀실이 있었어.",
+    "new": "그 낡은 집에는 밀실이 하나 있었어.",
+    "severity": "low",
+    "problem": "'비밀 밀실'은 겹말(밀실 자체가 密室, 비밀의 방). '밀실'의 실(室)이 ko '방, 실'과 닿게 정리."
+   },
+   {
+    "word": "chamber",
+    "si": 2,
+    "field": "tr",
+    "old": "하원이 그 계획에 반대표를 던졌어.",
+    "new": "하원(下院)이 그 계획에 반대표를 던졌어.",
+    "severity": "high",
+    "problem": "'The lower ___'에 house(1세트)가 정답으로 들어감 — lower house가 오히려 표준 표현. house ko '집 (건물)'과 chamber ko '원'이 조각을 안 공유해 동의어 안내도 안 뜸. 예문으로 house를 배제할 길이 없어(chamber of commerce는 commerce가 29세트, 'two ___s'도 houses 가능) 번역에 院 단서를 넣어 ko '원'과 잇는다(한자 병기는 wealth 富·provincial 道 선례 있음). SYN 표에 chamber/2:house 등록 권고."
+   },
+   {
+    "word": "curious",
+    "si": 2,
+    "field": "ko",
+    "old": "② 기이한, 묘한",
+    "new": "② 이상한, 묘한",
+    "severity": "low",
+    "problem": "'A ___ smell'에 strange(11세트 '이상한')·weird(25세트 '이상한, 기묘한')가 더 자연스럽게 들어가는데 ko '기이한, 묘한'이 조각을 안 공유해 동의어 안내가 안 뜸. 해설도 이미 \"사물에 쓰면 '이상한'\"이라 적고 있으니 ko에 '이상한'을 넣고, tr '묘한 냄새'와 맞게 '묘한'은 남긴다."
+   },
+   {
+    "word": "hip",
+    "si": 1,
+    "field": "tr",
+    "old": "걔는 축구하다가 엉덩이를 다쳤어.",
+    "new": "걔는 축구하다가 골반을 다쳤어.",
+    "severity": "low",
+    "problem": "'hurt her ___'는 신체 부위 어디든 들어가는 틀이라 번역 단서가 전부인데 '엉덩이'는 butt(30세트, ko '엉덩이')와 겹치고 hip의 실제 부위(골반 옆 관절, 해설도 그렇게 씀)와도 어긋남. ko의 '골반'으로 조여 hip에만 닿게."
+   },
+   {
+    "word": "absolute",
+    "si": 1,
+    "field": "tr",
+    "old": "시험 중에는 절대적인 정숙이 필요해.",
+    "new": "시험 중에는 절대적으로 조용해야 해.",
+    "severity": "mid",
+    "problem": "'절대적인 정숙이 필요해'는 구어에서 안 쓰는 번역투. 뜻 '절대적인'을 살리면서 대화체로."
+   },
+   {
+    "word": "medication",
+    "si": 1,
+    "field": "ex",
+    "old": "My dad takes {{BLANK}} for his back.",
+    "new": "My dad is on {{BLANK}} for his back.",
+    "severity": "mid",
+    "problem": "'takes ___ for his back'은 medicine(11세트 '약')이 더 자연스러운 정답. 해결 우선순위 1: 해설에 적어 둔 연어 be on medication으로 바꾸면 'on medicine'은 비관용이라 medicine이 배제됨(9토큰)."
+   },
+   {
+    "word": "medication",
+    "si": 1,
+    "field": "tr",
+    "old": "우리 아빠는 허리 때문에 약물을 드셔.",
+    "new": "우리 아빠는 허리 때문에 약물 치료 중이셔.",
+    "severity": "mid",
+    "problem": "'약물을 드셔'는 어색(약물은 마약·약품 어감). 예문 교체에 맞춰 ko '약물'이 드러나는 '약물 치료 중'으로."
+   },
+   {
+    "word": "reserve",
+    "si": 2,
+    "field": "ex",
+    "old": "I always {{BLANK}} one cookie for later.",
+    "new": "The front row is {{BLANK}}d for parents.",
+    "severity": "high",
+    "problem": "'I always ___ one cookie for later'는 save(4세트 ② '아끼다')·keep(1세트 ② '간직하다')이 정답인 영어 문장이고 reserve는 부자연. reserved for 연어로 교체하면 kept는 -d형이 아니라 배제되고 saved for보다 reserved for가 표준(front·row·parents 허용어, 8토큰)."
+   },
+   {
+    "word": "reserve",
+    "si": 2,
+    "field": "tr",
+    "old": "나는 항상 나중을 위해 쿠키 하나를 따로 떼어 둬.",
+    "new": "맨 앞줄은 부모님용으로 따로 잡아 둔 자리야.",
+    "severity": "high",
+    "problem": "예문 교체에 따른 번역. '따로 잡아 둔'으로 ko '따로 두다'와 닿고 save(아끼다)·keep(간직하다)과 갈라짐."
+   }
+  ],
+  "set28": [
+   {
+    "word": "adviser",
+    "si": 1,
+    "field": "ex",
+    "old": "Ask your class {{BLANK}} about the club form.",
+    "new": "The president's top {{BLANK}} is on the news tonight.",
+    "severity": "high",
+    "problem": "'class ___'에 teacher(기초)가 더 자연스럽게 들어가고 tr '담당 지도 선생님'이 teacher 단서. 정치 장면 'top adviser' 연어로 바꿔 '고문'만 맞게. 초안의 quit은 어휘 통제 밖(IRR 우회)이라 뉴스 장면으로 손질."
+   },
+   {
+    "word": "adviser",
+    "si": 1,
+    "field": "tr",
+    "old": "동아리 서류는 담당 지도 선생님께 여쭤봐.",
+    "new": "대통령의 최고 고문이 오늘 밤 뉴스에 나와.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. 현행 '담당 지도 선생님'은 teacher 단서."
+   },
+   {
+    "word": "consultant",
+    "si": 1,
+    "field": "ko",
+    "old": "① 상담역, 자문 위원",
+    "new": "① 컨설턴트, 상담역",
+    "severity": "mid",
+    "problem": "같은 세트의 adviser(조언자, 고문)가 'hired a ___ to cut costs'에 그대로 들어가고 tr '자문 위원'이 adviser 쪽 단서. ko 조각이 안 겹쳐 동의어 안내도 안 뜸. 외래어 '컨설턴트'로 못 박기."
+   },
+   {
+    "word": "consultant",
+    "si": 1,
+    "field": "tr",
+    "old": "그 회사는 비용을 줄이려고 자문 위원을 고용했어.",
+    "new": "그 회사는 비용을 줄이려고 컨설턴트를 고용했어.",
+    "severity": "mid",
+    "problem": "'자문 위원'은 adviser 쪽 단서. 컨설턴트로 조임."
+   },
+   {
+    "word": "drawing",
+    "si": 1,
+    "field": "ex",
+    "old": "She put her {{BLANK}} on the wall.",
+    "new": "She hung her pencil {{BLANK}} on the wall.",
+    "severity": "mid",
+    "problem": "'put her ___ on the wall'은 picture(6세트, 그림·사진)·painting(11세트)이 그대로 들어감. pencil drawing 연어로 고정(sketch는 37세트라 아직 미학습)."
+   },
+   {
+    "word": "drawing",
+    "si": 1,
+    "field": "tr",
+    "old": "걔는 자기 소묘를 벽에 붙였어.",
+    "new": "걔는 연필로 그린 그림을 벽에 걸었어.",
+    "severity": "mid",
+    "problem": "'자기 소묘를 벽에 붙였어'는 구어가 아님. ex 교체에 맞춘 번역."
+   },
+   {
+    "word": "cabinet",
+    "si": 1,
+    "field": "ex",
+    "old": "The cups are in the kitchen {{BLANK}}.",
+    "new": "The old tests are in the gray file {{BLANK}}.",
+    "severity": "high",
+    "problem": "현행 예문이 20세트 cupboard 카드의 예문('The cups are in the kitchen {{BLANK}}.')과 글자 그대로 동일. ko 조각(캐비닛·수납장 vs 찬장·벽장)이 안 겹쳐 안내도 없음. file cabinet 연어로 고정."
+   },
+   {
+    "word": "cabinet",
+    "si": 1,
+    "field": "tr",
+    "old": "컵은 부엌 수납장 안에 있어.",
+    "new": "지난 시험지는 회색 서류 캐비닛에 들어 있어.",
+    "severity": "mid",
+    "problem": "ex 교체에 따른 번역. ko의 '캐비닛'이 드러나게."
+   },
+   {
+    "word": "commissioner",
+    "si": 1,
+    "field": "ex",
+    "old": "The police {{BLANK}} spoke to the press.",
+    "new": "The league {{BLANK}} banned him for ten games.",
+    "severity": "mid",
+    "problem": "'police ___'에 chief(10세트, 우두머리·장)가 더 흔하게 들어가고 tr '경찰국장'도 chief 단서. 리그 커미셔너 장면으로(ban은 같은 세트 표제어 — entitle ②의 drawing과 같은 선례, audit 통과)."
+   },
+   {
+    "word": "commissioner",
+    "si": 1,
+    "field": "tr",
+    "old": "경찰국장이 기자들에게 말했어.",
+    "new": "리그 커미셔너가 걔한테 10경기 출장 정지를 내렸어.",
+    "severity": "mid",
+    "problem": "ex 교체에 따른 번역."
+   },
+   {
+    "word": "commissioner",
+    "si": 1,
+    "field": "ko",
+    "old": "① 위원, 국장",
+    "new": "① 위원, 커미셔너, 국장",
+    "severity": "mid",
+    "problem": "새 예문(리그 커미셔너)과 맞도록 외래어 뜻 추가. '국장'은 chief와 겹치는 단서라 뒤로."
+   },
+   {
+    "word": "flavor",
+    "si": 1,
+    "field": "ex",
+    "old": "This ice cream has a strange {{BLANK}}.",
+    "new": "Chocolate is my favorite ice cream {{BLANK}}.",
+    "severity": "mid",
+    "problem": "'a strange ___'는 taste(13세트, 맛)가 더 자연스러움. '종류로서의 맛' 자리(ice cream flavor)는 taste가 못 들어감."
+   },
+   {
+    "word": "flavor",
+    "si": 1,
+    "field": "tr",
+    "old": "이 아이스크림은 풍미가 좀 이상해.",
+    "new": "초콜릿이 내가 제일 좋아하는 아이스크림 맛이야.",
+    "severity": "mid",
+    "problem": "ex 교체에 따른 번역."
+   },
+   {
+    "word": "flavor",
+    "si": 1,
+    "field": "c",
+    "old": "미국식 철자. 영국은 flavour. 혀로 느끼는 특유의 맛이다.",
+    "new": "taste는 혀로 느끼는 맛 전반, flavor는 딸기·초코처럼 종류로 고르는 맛. 영국 철자는 flavour.",
+    "severity": "low",
+    "problem": "현행 '혀로 느끼는 특유의 맛이다'는 사전 정의. 새 예문에 맞춰 taste와의 구별을 짚되, taste가 '감각'만은 아니므로 초안 문구를 손질(62자)."
+   },
+   {
+    "word": "squeeze",
+    "si": 1,
+    "field": "ex",
+    "old": "{{BLANK}} my hand if you feel afraid.",
+    "new": "{{BLANK}} the orange hard to get more juice.",
+    "severity": "mid",
+    "problem": "'___ my hand if you feel afraid'는 hold(0세트, 잡다·들다·쥐다)가 그대로 들어가는 자연스러운 문장. '짜다' 장면으로 고정."
+   },
+   {
+    "word": "squeeze",
+    "si": 1,
+    "field": "tr",
+    "old": "무서우면 내 손을 꽉 쥐어.",
+    "new": "주스 더 나오게 오렌지를 꽉 짜.",
+    "severity": "mid",
+    "problem": "ex 교체에 따른 번역."
+   },
+   {
+    "word": "entitle",
+    "si": 1,
+    "field": "tr",
+    "old": "이 표가 있으면 무료 음료 하나를 받을 수 있어.",
+    "new": "이 표는 무료 음료 하나를 받을 자격을 줘.",
+    "severity": "low",
+    "problem": "'표가 있으면 음료를 받을 수 있어'에는 빈칸 단어의 뜻(자격을 주다)이 안 드러남."
+   },
+   {
+    "word": "dumb",
+    "si": 1,
+    "field": "meow",
+    "old": "그 실수는 dumb, 멍청했다고양. 너 말고 실수가양.",
+    "new": "그 실수는 dumb, 멍청했다고양. 너 말고 실수 말이라고양.",
+    "severity": "low",
+    "problem": "'실수가양'은 스타일 가이드의 고양체 말끝(~라고양/~다고양/~지양/~네양…)이 아니라 톤이 무너짐. 표제어 한 번, 34자, 과녁은 실수."
+   },
+   {
+    "word": "deck",
+    "si": 1,
+    "field": "c",
+    "old": "배의 바닥 층. on deck은 관사 없이 쓴다.",
+    "new": "배의 각 층·바닥, 특히 위로 트인 갑판. on deck은 관사 없이 쓴다.",
+    "severity": "low",
+    "problem": "'배의 바닥 층'은 맨 아래층으로 읽혀 갑판(위로 트인 층)과 어긋남. 각 층·특히 갑판임을 명시(42자)."
+   }
+  ]
+ },
+ "skipped": [],
+ "structural": [
+  {
+   "file": "set25",
+   "word": "revolution",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "'② 회전, 공전(the earth's revolution around the sun)' 카드가 빠짐. 과학 지문에서 자주 만나는 뜻이며 현재 ko①에 끼워 넣어져 있고 c도 revolve를 언급함(rotation 37세트·rotate 42세트와 짝).",
+   "fix": ""
+  }
+ ]
+}
