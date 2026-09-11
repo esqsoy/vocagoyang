@@ -1,18 +1,6 @@
 {
  "date": "26.9.11",
  "failed_sets": [
-  "set05",
-  "set06",
-  "set07",
-  "set08",
-  "set09",
-  "set10",
-  "set11",
-  "set12",
-  "set13",
-  "set14",
-  "set15",
-  "set16",
   "set17",
   "set18",
   "set19",
@@ -25,7 +13,13 @@
   "lesson03",
   "lesson04",
   "set46",
-  "set47"
+  "set47",
+  "set17",
+  "set18",
+  "set19",
+  "set20",
+  "set21",
+  "set22"
  ],
  "summaries": {
   "set23": {
@@ -142,6 +136,66 @@
    "confirmed": 30,
    "rejected": 0,
    "notes": "30건 전부 원문 카드 재확인 후 유지. 기각 0. 기계 검증: /home/claude/hoe-prod/out/set45.json → /tmp/verify/set45.json 복사 후 18장에 fix 적용, `python3 audit.py /tmp/verify/set45.json` 결과 \"카드 85 · 단어 76 · meow 8 · 문제 0\" (어휘 통제: unfair=33세트, scared=25세트, hid·felt=불규칙표, 나머지 LDV). 원본 미수정. 다듬은 fix 2건: photocopy tr \"복사기로 한 장만 떠 줄래"
+  },
+  "set05": {
+   "confirmed": 21,
+   "rejected": 4,
+   "notes": "기각 4건 = who ②(ex·tr)와 which ②(ex·tr). that/who/which는 제한적 관계절에서 문법적으로 교대 가능한 쌍이고, ko가 이미 '(사람 뒤)'·'(사물 뒤)' 대 that ③의 '(명사 뒤)'로 갈라 놓았으며 ko 조각 '(관계대명사)'가 겹쳐 동의어 안내 장치가 잡는 영역이다. 제안된 콤마 비제한 용법(계속적 용법)은 기초가 약한 학생용 기능어 카드 수준을 넘고, 그 뜻('~인데')이 ko '~하는'·c('a friend who~', '사물 뒤에 거는 고리')와 어긋나며 제안 tr도 제한적으로 번역"
+  },
+  "set06": {
+   "confirmed": 11,
+   "rejected": 0,
+   "notes": "11건 전부 생존, 기각 0. 검증: 원문 카드 재독(set06 카드 127장, 표제어 100), hold(4세트 ko '잡다, 들다, 쥐다')·receive(6세트 ko '받다')·get·take 카드 대조, 'n./adj.' 전 코퍼스 유일 grep 확인, meow 위치 분포 확인(3-in-5 구간은 116·118·120 하나뿐; 2-in-5 구간은 36/39·45/48·77/80·80/82·90/92 등 여럿이라 초안이 최악 구간만 잡은 것과 일관). 여섯 fix를 /tmp/verify/set06.json에 적용해 audit."
+  },
+  "set07": {
+   "confirmed": 35,
+   "rejected": 0,
+   "notes": "35건 전부 원문 카드와 경쟁 표제어(darn·danger·number·attitude·soil·dirt·show·receive·argue·claim·defeat·around·sleep·character)의 ko를 전 세트에서 대조해 실제 결함으로 확인, 기각 0. 다듬은 것 셋: (1) figure ① ko는 초안 '(통계·자료의) 수치'가 43세트 statistic(ko '통계 수치')과 오히려 가까워져 '(자료의) 수치'로 조정. (2) earth ② c는 71자라 '발밑의'를 빼 67자로. (3) loss는 초안이 'defe"
+  },
+  "set08": {
+   "confirmed": 22,
+   "rejected": 1,
+   "notes": "기각 1건: herself tr('그녀가 이 케이크를 직접 만들었어') — ko '① 그녀 자신, (그녀가) 직접'을 그대로 비추는 번역이라 '그녀'가 herself와 짝을 이루는 단서로 기능함. '걔'로 바꾸면 규칙엔 맞지만 원문보다 낫다고 볼 수 없어 기각. 다듬은 fix 2건: detail tr을 '세부 사항 하나도 빠짐없이 다 말해 줘'로, peace tr을 '평화롭고 조용하게 좀 있고 싶어'로(원안 '평화롭고 조용한 시간이 좀 필요해'보다 구어에 가깝고 rest 오답도 배제). meow 규칙 '다섯 카드당 하나 이하'는 연"
+  },
+  "set09": {
+   "confirmed": 10,
+   "rejected": 0,
+   "notes": "기각 0. 검증 방법: /home/claude/hoe-prod/out/set09.json 원문 재독 + 전 세트(out/set05~47, lesson00~04) 교차 조회로 hallway·corridor(둘 다 표제어, ko '복도'), place(ko '장소, 곳'), corner(ko '모퉁이, 구석'), point(ko ② '점, 지점') 확인. ipa 부강세 ˌ는 코퍼스 관행과 일치함을 확인. 5개 필드 fix(hall ex/tr, spot tr, edge tr, magazine ipa, promise meow 삭제)를 /t"
+  },
+  "set10": {
+   "confirmed": 23,
+   "rejected": 4,
+   "notes": "기각 4건: (1) complete② ex/tr — complete/finish는 동사 뜻에서 본질적 동의어 쌍이고 ko 조각 '끝내다'가 정확히 겹쳐 SYN 안내가 뜨는 경우이며, 어떤 예문 틀로 바꿔도 finish는 들어간다. 게다가 제안 예문 'Complete the sentence with the right word'는 시험 지시문이라 SPEC의 '교과서 문장 금지·대화체' 기준에서 원문(숙제 장면)보다 나쁘다. (2) object ex/tr — thing은 어떤 물체 문장에도 들어가므로 제안 예문('A strange ___"
+  },
+  "set11": {
+   "confirmed": 13,
+   "rejected": 3,
+   "notes": "기각 3건: (1)(2) shop ex/tr — 앱 별칭표(vocagoyangfable.html ALT)에 \"shop/1\":[\"store\"], \"store/1\":[\"shop\"]이 이미 있어 store는 '정답+안내'로 처리되는 순수 지역 등가어. 규칙상 별칭표 몫이라 결함 아님(해설이 그 관계를 설명하는 것과도 일관). (3) lift② ko — 마찬가지로 ALT에 \"lift/2\":[\"ride\"]가 있어 ride는 정답 인정 변형이며, ko에 '(영국식)' 표시를 넣을 근거가 없음. influence/effect·settle②/de"
+  },
+  "set12": {
+   "confirmed": 12,
+   "rejected": 1,
+   "notes": "기각 1건: neither(order) — neither A nor B 구문은 set09 nor 카드 예문 'I have neither money {{BLANK}} time.'이 이미 다루고 있어(ko '~도(아니다)'), 별도 conj. 카드는 중복. 현재 neither 카드의 Me neither 용법과 nor 카드로 두 용법이 모두 노출됨. 기계 검증: /tmp/verify/set12.json에 확정 fix 7건(ex 2, tr 4, meow 삭제 3) 적용 후 audit 결과 '카드 117 · 단어 100 · meow 14 ·"
+  },
+  "set13": {
+   "confirmed": 17,
+   "rejected": 1,
+   "notes": "기각 1건: snow① meow 삭제. snow①~bomb 창 초과(60·64번 카드)는 사실이나 삭제 대상 선정이 초안 자신의 기준과 어긋난다. snow 줄(\"첫눈 snow 구경은 따뜻한 창가에서…\")은 단어 뜻(눈)이 드러나고 고양이 장면이 있는 반면, bomb 줄(\"bomb의 b는 climb의 b처럼 조용하다고양\")은 폭탄이라는 뜻이 줄 안에 없고 c('끝 b 묵음… climb, comb과 같은')를 그대로 반복한다 — employer 줄을 'c 반복'으로 지운 것과 같은 잣대면 얇은 쪽은 bomb이다. 새 finding을 만"
+  },
+  "set14": {
+   "confirmed": 26,
+   "rejected": 3,
+   "notes": "기각 3건. (1) suck/2 ko '[약·상태]': 0세트(lesson00: crap '[약·감탄]', freak '[약·상태]')와 set16 screw/2 '[중·상태]'에서 쓰는 속어 등급·유형 표기 관례를 그대로 따른 것이라 결함 아님. (2)(3) beneath·breakfast meow 삭제: '다섯 카드당 하나 이하'를 슬라이딩 창으로 읽으면 rush/2(20)·height(24)도 같은 위반인데 초안이 놓쳤고, 파일 전체가 exercise(10단어)마다 정확히 1~2줄로 짜여 있어 실제 운용 기준은 밀도(10단어당"
+  },
+  "set15": {
+   "confirmed": 19,
+   "rejected": 1,
+   "notes": "기각 1건: friendly/1 tr — 중의성의 원인은 ko '친절한'이 kind(lesson02 ① 친절한)의 ko와 그대로 겹치는 데 있고, 이는 ko 조각 대조로 동의어 안내가 뜨는 영역. 원문 tr에 이미 friendly 고유 단서 '살가워'가 있어 '살갑고 붙임성 좋아'로 바꿔도 ko '친절한'이 남는 한 kind를 못 막으며 원문보다 뚜렷이 낫다고 볼 수 없음. 살아남은 fix 다듬기: inner·arrangement·wire ex는 {{BLANK}} 형식으로 표기, arrangement tr은 '꽃꽂이 작품을 만들었어"
+  },
+  "set16": {
+   "confirmed": 15,
+   "rejected": 1,
+   "notes": "기각 1건: poetry/1 tr — '시 문학을 읽어'가 딱딱한 건 맞지만, poem(15세트, ko '시(한 편)')과 ko 조각이 안 겹쳐 동의어 안내가 뜨지 않으므로 tr의 '시 문학'은 poem을 막는 의도적 조임이다. 제안 fix '시를 읽어'는 그 안전장치를 풀어 원문보다 나쁘다(관사 없이 poem이 비문이라는 논리는 학생이 알아채기 어렵다). 다듬은 fix 3건: flat ex/tr을 'Lay the map flat on the table'(초안 fix는 level이 여전히 들어감), comfort tr을 '걔가 해 "
   }
  },
  "applied": {
@@ -5500,6 +5554,1812 @@
     "severity": "low",
     "problem": "'매끄러운 부드러움이 정말 좋아'는 겹말이라 부자연스러움"
    }
+  ],
+  "set05": [
+   {
+    "word": "even",
+    "si": 2,
+    "field": "ko",
+    "old": "② (비교급 앞) 훨씬",
+    "new": "② (비교급 앞) 한층 더, 더욱",
+    "severity": "high",
+    "problem": "ko '(비교급 앞) 훨씬'이 같은 세트 much ②의 ko와 글자까지 동일해 'Today is much hotter than yesterday'가 그대로 성립한다. tr은 이미 '한층 더'이므로 ko를 tr에 맞춰 much와 갈라놓는다."
+   },
+   {
+    "word": "have",
+    "si": 2,
+    "field": "tr",
+    "old": "오늘 저녁엔 치킨 먹자.",
+    "new": "오늘 저녁은 치킨으로 하자.",
+    "severity": "mid",
+    "problem": "'Let's eat chicken for dinner tonight'이 완전히 자연스럽고 tr '치킨 먹자'가 eat을 그대로 가리킨다. 식사를 '하다'로 옮겨 한국어 단서를 have 쪽에 붙인다."
+   },
+   {
+    "word": "of",
+    "si": 1,
+    "field": "ex",
+    "old": "Look at the door {{BLANK}} that car.",
+    "new": "What's the name {{BLANK}} this song?",
+    "severity": "mid",
+    "problem": "'the door on that car'도 미국 구어로 자연스러워 on이 들어간다. of만 붙는 소속 연어(the name of ~)로 교체."
+   },
+   {
+    "word": "of",
+    "si": 1,
+    "field": "tr",
+    "old": "저 차 문짝 좀 봐.",
+    "new": "이 노래 이름이 뭐야?",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역."
+   },
+   {
+    "word": "them",
+    "si": 1,
+    "field": "ex",
+    "old": "I made some snacks. Do you want {{BLANK}}?",
+    "new": "My parents are out. I'll call {{BLANK}} later.",
+    "severity": "mid",
+    "problem": "'Do you want some?'이 그대로 성립하고 some은 같은 세트 표제어다. tr '먹을래?'에 '그것들' 단서도 없다. 복수 사람만 받는 자리로 교체."
+   },
+   {
+    "word": "them",
+    "si": 1,
+    "field": "tr",
+    "old": "간식 좀 만들었는데, 먹을래?",
+    "new": "부모님 나가셨어. 이따 부모님께 전화할게.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역. '부모님께'가 복수 대상 them을 가리킨다."
+   },
+   {
+    "word": "into",
+    "si": 2,
+    "field": "ex",
+    "old": "Ice turns {{BLANK}} water.",
+    "new": "My sister made my old shirt {{BLANK}} a bag.",
+    "severity": "mid",
+    "problem": "'Ice turns to water'도 성립하는 영어이고 to ①의 ko '~로'와 tr '물로'가 겹쳐 to와 중의. make A into B는 to가 못 들어간다."
+   },
+   {
+    "word": "into",
+    "si": 2,
+    "field": "tr",
+    "old": "얼음은 물로 변해.",
+    "new": "언니가 내 헌 셔츠를 가방으로 만들어 줬어.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역."
+   },
+   {
+    "word": "only",
+    "si": 1,
+    "field": "ex",
+    "old": "I have {{BLANK}} one ticket.",
+    "new": "{{BLANK}} you can help me now.",
+    "severity": "mid",
+    "problem": "'I have just one ticket'이 자연스럽고 just ②(그냥, 단지)가 같은 세트에 있어 중의. 문두 강조 'Only you ~'는 just가 못 들어간다."
+   },
+   {
+    "word": "only",
+    "si": 1,
+    "field": "tr",
+    "old": "나 표 한 장밖에 없어.",
+    "new": "지금은 너만 날 도울 수 있어.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역. '너만'이 only를 가리킨다."
+   },
+   {
+    "word": "its",
+    "si": 1,
+    "field": "meow",
+    "old": "its는 그것의, it's는 it is라고양. 헷갈리면 문다고양.",
+    "new": "(삭제)",
+    "severity": "mid",
+    "problem": "yes(145)·its(149)·such ②(153)이 다섯 카드 창 두 개(145~149, 149~153)에 걸쳐 meow가 둘씩 든다. 가운데 its 하나를 지우면 두 창이 모두 해소되고, its/it's 내용은 c가 이미 짚고 있어 잃는 것이 없다."
+   },
+   {
+    "word": "there",
+    "si": 2,
+    "field": "meow",
+    "old": "There is a cat, 지붕 위에 고양이가 있다고양. 아마 나고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "up ②(82)와 there ②(84)가 다섯 카드 안에 meow 둘. up 쪽은 eat up 뜻을 가르치고 there 쪽은 번역에 '아마 나고양'만 얹은 것이라 더 얇아 삭제."
+   },
+   {
+    "word": "eye",
+    "si": 1,
+    "field": "meow",
+    "old": "cat's eyes, 고양이 눈은 어둠 속에서도 빛난다고양. 부럽지양?",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "eye(166)와 yet ②(169)가 다섯 카드 안에 meow 둘. yet 쪽은 용법(Is it here yet?)이 드러나고 eye 쪽은 뜻·킥이 약해 eye 삭제."
+   },
+   {
+    "word": "as",
+    "si": 3,
+    "field": "meow",
+    "old": "as big as me, 나만큼 큰 산은 BIG MOUNTAIN뿐이라고양.",
+    "new": "나만큼 큰 산은 BIG MOUNTAIN뿐이라고양. '만큼'은 as고양.",
+    "severity": "low",
+    "problem": "'as big as'로 표제어 문자열 as가 두 번 들어감(단어 한 번만 규칙, style_guide '단어를 두 번 넣은 meow' 금지)."
+   },
+   {
+    "word": "seem",
+    "si": 1,
+    "field": "tr",
+    "old": "그가 옳은 것 같아.",
+    "new": "걔 말이 맞는 것 같아.",
+    "severity": "low",
+    "problem": "사람 주어를 '그가'로 옮김. 규칙상 '걔'."
+   }
+  ],
+  "set06": [
+   {
+    "word": "catch",
+    "si": 1,
+    "field": "tr",
+    "old": "공 잡아!",
+    "new": "공 받아!",
+    "severity": "mid",
+    "problem": "ko '잡다, 받다' + tr '공 잡아!'로는 hold(4세트, ko '① 잡다, 들다, 쥐다')도 'Hold the ball!'로 빈칸에 들어감. '받다'로 조이면 hold는 탈락하고, 같은 세트 receive(ko '① 받다')는 ko의 '잡다'와 안 맞아 catch에만 닿음."
+   },
+   {
+    "word": "within",
+    "si": 1,
+    "field": "tr",
+    "old": "호텔은 역에서 걸어갈 수 있는 거리 안에 있어.",
+    "new": "호텔은 역에서 걸어갈 수 있는 거리 이내에 있어.",
+    "severity": "mid",
+    "problem": "tr '거리 안에'가 in(① ~안에)의 뜻 그대로라 'in walking distance'로 채울 여지가 있음. ko의 '이내에'를 tr에 그대로 실어 within에만 닿게."
+   },
+   {
+    "word": "catch",
+    "si": 3,
+    "field": "ex",
+    "old": "Run, or we will not {{BLANK}} the bus.",
+    "new": "Run, or we won't {{BLANK}} the bus.",
+    "severity": "low",
+    "problem": "'we will not'은 미국 구어 대화체가 아님(축약형 허용). 'won't'로. 7토큰, 어휘 통제 통과 확인."
+   },
+   {
+    "word": "military",
+    "si": 1,
+    "field": "pos",
+    "old": "n./adj.",
+    "new": "adj.",
+    "severity": "low",
+    "problem": "전 코퍼스에서 유일한 합성 품사 'n./adj.'(grep 확인) — SPEC pos 목록 밖. 예문(military service)은 형용사 용법이라 adj."
+   },
+   {
+    "word": "military",
+    "si": 1,
+    "field": "ko",
+    "old": "① 군대; 군사의",
+    "new": "① 군사의; (the ~) 군대",
+    "severity": "low",
+    "problem": "ko가 '군대'를 먼저 두는데 예문은 형용사(군 복무) 용법. pos를 adj.로 바꾸는 것과 짝을 맞춰 순서를 바꾸고 명사 용법은 괄호로."
+   },
+   {
+    "word": "either",
+    "si": 2,
+    "field": "meow",
+    "old": "긍정 뒤엔 too, 부정 뒤엔 either라고양. 바꿔 쓰면 바로 티 난다고양.",
+    "new": "부정문의 '나도'는 too 말고 either라고양. 바꿔 쓰면 티 난다고양.",
+    "severity": "low",
+    "problem": "줄 안에 단어 뜻('~도 안')이 드러나지 않음 — too/either 규칙만 말함. '나도'를 넣어 뜻 노출. 42자, 표제어 1회."
+   },
+   {
+    "word": "whatever",
+    "si": 1,
+    "field": "meow",
+    "old": "Whatever, 뭐든지. 인간이 이 말 하면 사실 삐진 거라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "itself·patient②·whatever 세 줄이 다섯 카드 안에 몰림(116·118·120번째, 세트 내 유일한 3연속). 이 줄은 c('혼자 쓰면 시큰둥한 대답')와 내용이 겹쳐 가장 얇음. 삭제 후 meow 16개."
+   }
+  ],
+  "set07": [
+   {
+    "word": "shoot",
+    "si": 4,
+    "field": "ko",
+    "old": "④ [완곡·감탄] 아이코, 이런",
+    "new": "④ [shit의 완곡어] 이런, 아이코",
+    "severity": "high",
+    "problem": "ko '[완곡·감탄] 아이코, 이런'+tr '이런!'이 0세트 darn(ko '[완곡·감탄] 이런, 아이참')과 사실상 동일해 'Darn! I left my bag at home.'로 그대로 들어감(gosh도 근접). 무엇의 완곡어인지로 표적을 좁혀야 함(해설은 이미 'shit의 완곡어'라 밝힘, shit은 0세트 표제어)."
+   },
+   {
+    "word": "risk",
+    "si": 1,
+    "field": "ex",
+    "old": "There is a {{BLANK}} of fire here.",
+    "new": "Don't take that {{BLANK}}. It's not worth it.",
+    "severity": "high",
+    "problem": "'There is a ___ of fire here'+ko '위험'+tr '화재 위험' — 12세트 danger(ko '위험')가 'a danger of fire'로 그대로 들어감. risk에만 붙는 take a risk 연어로 교체."
+   },
+   {
+    "word": "risk",
+    "si": 1,
+    "field": "tr",
+    "old": "여기는 화재 위험이 있어.",
+    "new": "그런 위험은 감수하지 마. 그럴 가치 없어.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. '감수하다'로 risk(take a risk) 쪽만 가리킴(chance·danger의 ko와 안 겹침)."
+   },
+   {
+    "word": "risk",
+    "si": 1,
+    "field": "c",
+    "old": "danger는 눈앞의 위험, risk는 나쁜 일이 생길 '가능성'.",
+    "new": "danger는 눈앞의 위험, risk는 나쁜 일이 생길 '가능성'. take a risk 위험을 감수하다.",
+    "severity": "low",
+    "problem": "새 예문의 연어 take a risk를 해설에 보태야 예문과 해설이 이어진다(59자)."
+   },
+   {
+    "word": "figure",
+    "si": 1,
+    "field": "ko",
+    "old": "① 숫자, 수치",
+    "new": "① (자료의) 수치",
+    "severity": "mid",
+    "problem": "ko '숫자, 수치'의 '숫자' 때문에 1세트 number(ko '숫자, 번호')가 'Look at the numbers in this report'로 그대로 들어감. '수치'로 좁힌다(tr은 이미 '수치들'). 초안의 '(통계·자료의)'는 43세트 statistic(ko '통계 수치')과 오히려 가까워져 '통계'를 뺐다."
+   },
+   {
+    "word": "behavior",
+    "si": 1,
+    "field": "ko",
+    "old": "① 행동, 태도",
+    "new": "① 행동, 행실",
+    "severity": "mid",
+    "problem": "ko '행동, 태도'의 '태도' 때문에 24세트 attitude(ko '태도, 자세')가 'His attitude in class was perfect today'로 들어감. 태도를 빼고 행동 쪽으로 좁힌다(action '행동, 조치'는 이 예문에 안 들어감)."
+   },
+   {
+    "word": "blood",
+    "si": 1,
+    "field": "tr",
+    "old": "그는 병원에서 헌혈했어.",
+    "new": "걔 병원에서 헌혈했어.",
+    "severity": "low",
+    "problem": "사람 주어 He를 '그는'으로 옮김 — 규칙은 '걔'."
+   },
+   {
+    "word": "earth",
+    "si": 2,
+    "field": "ex",
+    "old": "Cover the seeds with {{BLANK}}.",
+    "new": "What on {{BLANK}} are you doing here?",
+    "severity": "high",
+    "problem": "'Cover the seeds with ___'+ko '땅, 흙'+tr '흙으로' — 14세트 soil(ko '흙, 토양')·16세트 dirt(ko '흙, 때')가 그대로 들어가고 오히려 더 자연스러움. 흙·땅 뜻은 soil/ground/dirt와 본질적 동의어라 어떤 예문·번역으로도 고정이 안 되므로, 고등학생이 훨씬 자주 만나는 관용구 on earth(도대체)로 카드를 재편한다. 'What on ___'에는 earth만 들어감. tr·ko·c 함께 교체. (뜻 교체는 구조 사안이라 영신 확인 필요.)"
+   },
+   {
+    "word": "earth",
+    "si": 2,
+    "field": "tr",
+    "old": "씨앗을 흙으로 덮어.",
+    "new": "너 도대체 여기서 뭐 하는 거야?",
+    "severity": "high",
+    "problem": "ex 교체(on earth 도대체)에 따른 번역."
+   },
+   {
+    "word": "earth",
+    "si": 2,
+    "field": "ko",
+    "old": "② 땅, 흙",
+    "new": "② (on earth) 도대체",
+    "severity": "high",
+    "problem": "ex 교체(on earth 도대체)에 따른 뜻. 예문 용법과 일치시켜야 함. figure ③ '(figure out) 알아내다'와 같은 꼴."
+   },
+   {
+    "word": "earth",
+    "si": 2,
+    "field": "c",
+    "old": "행성 Earth 말고 발밑의 흙·땅도 earth. 흙은 soil, 땅바닥은 ground.",
+    "new": "What on earth ~? '도대체'. 의문사 뒤에 붙어 놀람·짜증을 키운다. 흙은 soil, 땅바닥은 ground.",
+    "severity": "mid",
+    "problem": "ex·ko 교체에 따른 해설. 흙·땅은 soil·ground가 맡는다는 기존 안내는 남긴다(67자)."
+   },
+   {
+    "word": "letter",
+    "si": 2,
+    "field": "ex",
+    "old": "How many {{BLANK}}s are in this word?",
+    "new": "Start your name with a capital {{BLANK}}.",
+    "severity": "mid",
+    "problem": "'How many ___s are in this word?'+ko '글자' — 같은 세트 character ③(ko '글자, 문자')가 'How many characters are in this word'로 자연스럽게 들어감. letter에만 붙는 capital letter(대문자) 연어로 교체."
+   },
+   {
+    "word": "letter",
+    "si": 2,
+    "field": "tr",
+    "old": "이 단어는 알파벳 글자가 몇 개야?",
+    "new": "이름은 대문자로 시작해야지.",
+    "severity": "mid",
+    "problem": "ex 교체에 따른 번역. '대문자'가 letter를 가리킴."
+   },
+   {
+    "word": "poor",
+    "si": 1,
+    "field": "tr",
+    "old": "그는 가난했지만 늘 행복했어.",
+    "new": "걔는 가난했지만 늘 행복했어.",
+    "severity": "low",
+    "problem": "사람 주어 He를 '그는'으로 옮김 — 규칙은 '걔'."
+   },
+   {
+    "word": "bed",
+    "si": 1,
+    "field": "tr",
+    "old": "11시 전에 자러 가.",
+    "new": "11시 전에 잠자리에 들어.",
+    "severity": "low",
+    "problem": "tr '자러 가'는 go to sleep과도 맞아 8세트 sleep(n. '잠')이 들어갈 여지. '잠자리에 들어'로 bed(ko '침대, 잠자리') 쪽에 붙인다."
+   },
+   {
+    "word": "represent",
+    "si": 2,
+    "field": "ex",
+    "old": "The red line {{BLANK}}s the price change.",
+    "new": "In this picture, the lion {{BLANK}}s the king.",
+    "severity": "mid",
+    "problem": "'The red line ___s the price change'+tr '나타내' — 1세트 show(ko '보여주다')가 'The red line shows the price change'로 그대로 들어가며 더 흔한 표현. '상징하다' 용법으로 바꾸면 show·mean이 배제됨(symbolize는 표제어 아님)."
+   },
+   {
+    "word": "represent",
+    "si": 2,
+    "field": "tr",
+    "old": "빨간 선이 가격 변화를 나타내.",
+    "new": "이 그림에서 사자는 왕을 상징해.",
+    "severity": "mid",
+    "problem": "ex 교체에 따른 번역. '상징해'가 represent에만 닿음."
+   },
+   {
+    "word": "represent",
+    "si": 2,
+    "field": "ko",
+    "old": "② 나타내다",
+    "new": "② 나타내다, 상징하다",
+    "severity": "mid",
+    "problem": "새 예문 용법(상징)과 맞추기 위해 뜻을 보탠다."
+   },
+   {
+    "word": "hospital",
+    "si": 1,
+    "field": "ipa",
+    "old": "ˈhɑspɪtl",
+    "new": "ˈhɑspɪtəl",
+    "severity": "low",
+    "problem": "어말 -tal을 'tl'로 적었는데 전 세트 통계상 'təl'이 27건(capital·little·total·title·metal·mental…) 대 'tl' 6건이라 다수 관행에 맞춘다."
+   },
+   {
+    "word": "accept",
+    "si": 1,
+    "field": "ex",
+    "old": "Please {{BLANK}} my small gift.",
+    "new": "He {{BLANK}}ed the truth at last.",
+    "severity": "mid",
+    "problem": "'Please ___ my small gift'+tr '받아 주세요' — 6세트 receive(ko '받다')가 ko 단서와 겹쳐 들어오고 take도 가능. '진실을 받아들이다' 장면이면 take·receive가 배제됨(admit은 ko '인정하다'라 안 겹침)."
+   },
+   {
+    "word": "accept",
+    "si": 1,
+    "field": "tr",
+    "old": "제 작은 선물을 받아 주세요.",
+    "new": "걔는 마침내 진실을 받아들였어.",
+    "severity": "mid",
+    "problem": "ex 교체에 따른 번역. '받아들였어'가 accept에만 닿음."
+   },
+   {
+    "word": "claim",
+    "si": 1,
+    "field": "ex",
+    "old": "She {{BLANK}}s that the test was not fair.",
+    "new": "He {{BLANK}}s to be a doctor, but I doubt it.",
+    "severity": "high",
+    "problem": "'She ___s that the test was not fair'+ko '주장하다' — 같은 세트 argue ②(ko '주장하다', 글자까지 동일)가 'She argues that…'로 그대로 들어감. argue가 못 쓰는 claim to be 구문으로 교체(10토큰, pretend은 tr '주장'으로 배제)."
+   },
+   {
+    "word": "claim",
+    "si": 1,
+    "field": "tr",
+    "old": "걔는 시험이 공정하지 않았다고 주장해.",
+    "new": "걔는 자기가 의사라고 주장하는데, 난 못 믿겠어.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역."
+   },
+   {
+    "word": "argue",
+    "si": 2,
+    "field": "ex",
+    "old": "Some people {{BLANK}} that the earth is flat.",
+    "new": "He {{BLANK}}d for a longer break at the meeting.",
+    "severity": "high",
+    "problem": "'Some people ___ that the earth is flat'+ko '주장하다' — 같은 세트 claim이 'Some people claim that the earth is flat'로 오히려 더 자연스럽게 들어감. claim이 못 쓰는 argue for ~ 구문으로 교체."
+   },
+   {
+    "word": "argue",
+    "si": 2,
+    "field": "tr",
+    "old": "어떤 사람들은 지구가 평평하다고 논한다.",
+    "new": "걔는 회의에서 휴식 시간을 늘리자고 주장했어.",
+    "severity": "mid",
+    "problem": "기존 tr '논한다'는 구어가 아니고 부자연스러움. ex 교체에 맞춘 구어 번역."
+   },
+   {
+    "word": "loss",
+    "si": 1,
+    "field": "ex",
+    "old": "The team's {{BLANK}} made everyone cry.",
+    "new": "The {{BLANK}} of his job was hard on him.",
+    "severity": "mid",
+    "problem": "'The team's ___ made everyone cry'+ko '잃음, 패배'+tr '팀의 패배' — 16세트 defeat ②(n. '패배')가 'The team's defeat made everyone cry'로 그대로 들어감(초안은 defeat가 동사뿐이라 했으나 명사 카드가 있어 결함이 더 확실함). loss of ~ 연어로 바꾸면 '잃음' 뜻이 살고 경쟁어도 없음."
+   },
+   {
+    "word": "loss",
+    "si": 1,
+    "field": "tr",
+    "old": "팀의 패배에 모두가 울었어.",
+    "new": "직장을 잃은 건 걔한테 힘들었어.",
+    "severity": "mid",
+    "problem": "ex 교체에 따른 번역."
+   },
+   {
+    "word": "near",
+    "si": 1,
+    "field": "ex",
+    "old": "Is there a bank {{BLANK}} here?",
+    "new": "Don't go {{BLANK}} that dog. It bites.",
+    "severity": "mid",
+    "problem": "'Is there a bank ___ here?'+tr '이 근처에' — 1세트 around(ko '~주위에'/'여기저기')가 'Is there a bank around here?'로 그대로 들어가며 미국 구어에선 더 흔함. go near ~ 장면은 around·by가 뜻이 달라져 배제됨."
+   },
+   {
+    "word": "near",
+    "si": 1,
+    "field": "tr",
+    "old": "이 근처에 은행 있어요?",
+    "new": "그 개 근처에 가지 마. 물어.",
+    "severity": "mid",
+    "problem": "ex 교체에 따른 번역."
+   },
+   {
+    "word": "beyond",
+    "si": 1,
+    "field": "ko",
+    "old": "① ~ 너머에",
+    "new": "① ~ 너머에, (능력·범위) 밖에",
+    "severity": "low",
+    "problem": "예문 'This question is beyond me'(능력 밖)는 비유 용법인데 ko는 물리적 '~ 너머에'뿐이라 예문 용법과 어긋남. 물리 예문으로 바꾸면 over·past가 들어오므로 ko 쪽을 보탠다."
+   },
+   {
+    "word": "animal",
+    "si": 1,
+    "field": "meow",
+    "old": "favorite animal, 제일 좋아하는 동물은 정해져 있다고양. 나고양.",
+    "new": "(삭제)",
+    "severity": "mid",
+    "problem": "animal(78번째)·fail(79번째) 연속 카드 두 장에 meow — 다섯 카드당 하나 초과. 뜻만 반복하는 animal 쪽을 삭제."
+   },
+   {
+    "word": "dog",
+    "si": 1,
+    "field": "meow",
+    "old": "dog, 개. 이 단어는 빨리 넘기라고양. 보기 싫다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "dog(15)·hair(16) 연속 카드 두 장에 meow. hair 줄(hair/fur 대비)이 더 알차므로 dog 줄을 삭제."
+   },
+   {
+    "word": "tree",
+    "si": 1,
+    "field": "meow",
+    "old": "tree, 나무 위는 원래 고양이 자리라고양. 못 내려오는 거 아니고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "lie ①(35)·tree(38) 다섯 카드 창 안에 meow 둘. lie 줄은 핑계 갈굼+뜻이 살아 있고 tree 줄은 세계관 농담뿐이라 tree 줄을 삭제."
+   },
+   {
+    "word": "laugh",
+    "si": 1,
+    "field": "meow",
+    "old": "laugh, 고양이는 소리 내서 웃지 않는다고양. 속으론 웃는다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "laugh(135)·beyond(137) 다섯 카드 창 안에 meow 둘. beyond 줄은 BIG MOUNTAIN 세계관+'너머' 뜻을 같이 실으므로 laugh 줄을 삭제."
+   }
+  ],
+  "set08": [
+   {
+    "word": "method",
+    "si": 1,
+    "field": "ex",
+    "old": "There's no easy {{BLANK}} to learn English.",
+    "new": "Our teacher has a strange teaching {{BLANK}}.",
+    "severity": "high",
+    "problem": "'There's no easy ___ to learn English'는 way(lesson01, ko '① 방법, 방식')가 더 자연스럽게 들어가는 관용구(no easy way to) — ko '방법'이 정확히 겹쳐 학생 대부분이 way를 씀. 해설이 든 teaching method 연어로 교체."
+   },
+   {
+    "word": "method",
+    "si": 1,
+    "field": "tr",
+    "old": "영어 학습에 쉬운 방법론은 없어.",
+    "new": "우리 선생님은 교수법이 좀 특이해.",
+    "severity": "high",
+    "problem": "예문 교체에 따른 번역. '교수법'의 法이 method만 가리키게(style '스타일, 방식'과 분리)."
+   },
+   {
+    "word": "address",
+    "si": 2,
+    "field": "tr",
+    "old": "대통령이 TV에서 짧은 연설을 했어.",
+    "new": "대통령이 TV로 짧은 담화를 발표했어.",
+    "severity": "high",
+    "problem": "'짧은 연설을 했어'는 같은 세트 speech(ko '① 연설', 예문 'gave a short speech at the wedding')가 그대로 들어감 — 예문 골격까지 같음. ko에만 있는 '담화'로 조임."
+   },
+   {
+    "word": "notice",
+    "si": 2,
+    "field": "ex",
+    "old": "Read the {{BLANK}} on the wall.",
+    "new": "The pool is closed until further {{BLANK}}.",
+    "severity": "mid",
+    "problem": "'Read the ___ on the wall'은 벽 장면 때문에 sign(set07 '표지판, 간판')·poster·note가 들어갈 여지가 있음. 해설이 이미 든 until further notice로 잠금."
+   },
+   {
+    "word": "notice",
+    "si": 2,
+    "field": "tr",
+    "old": "벽에 붙은 공지 읽어 봐.",
+    "new": "수영장은 추후 공지가 있을 때까지 문 닫아.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역."
+   },
+   {
+    "word": "glass",
+    "si": 2,
+    "field": "ex",
+    "old": "Can I have a {{BLANK}} of water?",
+    "new": "She dropped a wine {{BLANK}} and it broke.",
+    "severity": "mid",
+    "problem": "'a ___ of water / 물 한 잔'은 같은 세트 cup(ko '컵, 잔')이 'a cup of water'로 자연스럽게 들어가고 ko '잔'도 겹침. wine glass 연어로 교체(ko '유리잔'에만 닿음)."
+   },
+   {
+    "word": "glass",
+    "si": 2,
+    "field": "tr",
+    "old": "물 한 잔 줄래?",
+    "new": "걔가 와인 유리잔을 떨어뜨려서 깨졌어.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역 — '유리잔'이 cup을 배제."
+   },
+   {
+    "word": "trade",
+    "si": 2,
+    "field": "tr",
+    "old": "내 과자랑 네 주스 바꾸자.",
+    "new": "내 과자랑 네 주스 맞바꾸자.",
+    "severity": "mid",
+    "problem": "'바꾸자'는 change(lesson02 '① 바꾸다')를 부름 — trade A for B 골격에 change를 쓸 학생이 많음. '맞바꾸다'로 조이면 교환 뜻만 남음(exchange·swap은 SYN 몫)."
+   },
+   {
+    "word": "gas",
+    "si": 2,
+    "field": "tr",
+    "old": "곧 기름 넣으러 들러야 해.",
+    "new": "곧 휘발유 넣으러 들러야 해.",
+    "severity": "mid",
+    "problem": "'기름 넣으러'는 oil(set06 '① 기름, 석유')을 그대로 부름. ko '휘발유'와 같은 단서로 조임."
+   },
+   {
+    "word": "detail",
+    "si": 1,
+    "field": "tr",
+    "old": "그 얘기 하나도 빠짐없이 다 해줘.",
+    "new": "그 얘기 세부 사항 하나도 빠짐없이 다 말해 줘.",
+    "severity": "mid",
+    "problem": "'하나도 빠짐없이 다 해줘'에는 빈칸 단어 뜻(세부 사항)이 안 드러나 part(lesson01 '부분')로 'every part of the story'가 됨. 번역에 뜻을 넣음."
+   },
+   {
+    "word": "argument",
+    "si": 2,
+    "field": "tr",
+    "old": "그의 주장은 강하고 명확했다.",
+    "new": "걔 논거는 탄탄하고 명확했어.",
+    "severity": "mid",
+    "problem": "'그의 주장은 강하고 명확했다'는 같은 세트 opinion('의견, 생각')·claim(set07 '주장하다')이 들어갈 여지가 있고 문어체·'그의'. ko에만 있는 '논거'로 조이고 구어로."
+   },
+   {
+    "word": "weapon",
+    "si": 1,
+    "field": "meow",
+    "old": "고양이 발톱은 숨겨 둔 weapon, 무기라고양. 조심하라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "weapon(65번째 카드)과 island(67번째 카드)가 한 장 사이로 meow — 다섯 카드당 하나 초과. 발음 킥(묵음 s)이 있는 island를 남기고 그림만 있는 이 줄을 삭제."
+   },
+   {
+    "word": "cold",
+    "si": 2,
+    "field": "meow",
+    "old": "찬 데서 자면 catch a cold, 감기 걸린다고양. 이불 덮으라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "beat②(92번째)와 cold②(94번째)가 한 장 사이로 meow — 다섯 카드당 하나 초과. BIG MOUNTAIN 세계관이 있는 beat를 남기고, 해설(catch a cold)을 반복할 뿐인 이 줄을 삭제."
+   },
+   {
+    "word": "recognize",
+    "si": 2,
+    "field": "tr",
+    "old": "그들은 그의 노력을 인정했다.",
+    "new": "다들 걔 노력을 인정했어.",
+    "severity": "low",
+    "problem": "'그들은 그의 노력을 인정했다' — 사람 주어는 '걔', 문어체 '했다'."
+   },
+   {
+    "word": "legal",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀가 법률 조언을 좀 해줬어.",
+    "new": "걔가 법률 조언을 좀 해줬어.",
+    "severity": "low",
+    "problem": "사람 주어는 '걔'."
+   },
+   {
+    "word": "treat",
+    "si": 2,
+    "field": "tr",
+    "old": "의사가 그녀의 부러진 다리를 치료했다.",
+    "new": "의사가 걔 부러진 다리를 치료했어.",
+    "severity": "low",
+    "problem": "'그녀의' + 문어체 '치료했다' — 사람은 '걔', 구어 종결."
+   },
+   {
+    "word": "association",
+    "si": 1,
+    "field": "tr",
+    "old": "그는 국가 축구 협회에 들어갔다.",
+    "new": "걔는 국가 축구 협회에 들어갔어.",
+    "severity": "low",
+    "problem": "'그는 … 들어갔다' — 사람 주어는 '걔', 구어 종결."
+   },
+   {
+    "word": "island",
+    "si": 1,
+    "field": "tr",
+    "old": "그들은 작은 섬에 살아.",
+    "new": "걔네는 작은 섬에 살아.",
+    "severity": "low",
+    "problem": "사람 주어는 '걔'."
+   },
+   {
+    "word": "peace",
+    "si": 1,
+    "field": "tr",
+    "old": "난 그냥 조용히 좀 쉬고 싶어.",
+    "new": "난 그냥 평화롭고 조용하게 좀 있고 싶어.",
+    "severity": "low",
+    "problem": "'난 그냥 조용히 좀 쉬고 싶어'에 빈칸 단어 뜻(평화)이 안 드러나고 '쉬고'가 rest(lesson04 '휴식')를 부를 수 있음. 번역에 '평화'를 넣음."
+   }
+  ],
+  "set09": [
+   {
+    "word": "hall",
+    "si": 1,
+    "field": "ex",
+    "old": "Wait in the {{BLANK}} for a moment.",
+    "new": "The concert {{BLANK}} was full tonight.",
+    "severity": "high",
+    "problem": "ko '복도, 회관'+tr '복도에서 기다려'로는 hallway(set31, ko '복도')·corridor(set32, ko '복도')가 그대로 들어감. 복도 뜻에서는 본질적 동의어라 tr 조이기로는 못 가르고, hall에만 붙는 연어(concert hall)로 예문 교체가 1순위 해결. 해설(콘서트홀 언급)과도 맞물림. /tmp/verify 복사본에 적용 후 audit 문제 0(어휘 통제 통과)."
+   },
+   {
+    "word": "hall",
+    "si": 1,
+    "field": "tr",
+    "old": "복도에서 잠깐 기다려.",
+    "new": "오늘 밤 콘서트홀이 꽉 찼어.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역 동반 수정. '콘서트홀'은 표준 한국어 외래어라 구어 번역으로 자연스러움."
+   },
+   {
+    "word": "spot",
+    "si": 1,
+    "field": "tr",
+    "old": "낚시하기 좋은 데 알아.",
+    "new": "낚시하기 좋은 지점 하나 알아.",
+    "severity": "mid",
+    "problem": "place(lesson01, ko '장소, 곳')가 'a good place for fishing'으로 그대로 들어가고 GLOSS도 '장소' 조각을 공유. spot 자신의 ko 조각 '지점'으로 번역을 조이면 place가 빠짐(point ② '점, 지점'은 'a good point for fishing'이 부자연스러워 실질 위험 낮음). 원문 '좋은 데'보다 표적이 분명함."
+   },
+   {
+    "word": "edge",
+    "si": 1,
+    "field": "tr",
+    "old": "폰이 책상 모서리에서 떨어졌어.",
+    "new": "폰이 책상 가장자리에서 떨어졌어.",
+    "severity": "mid",
+    "problem": "corner는 Fable ko가 '모퉁이, 구석'(set10)이지만 사전 첫 뜻이 '모서리'라 학생이 tr '책상 모서리'에 corner를 쓸 여지가 큼. '가장자리'는 edge에만 닿고 문장도 자연스러움."
+   },
+   {
+    "word": "promise",
+    "si": 1,
+    "field": "meow",
+    "old": "츄르 promise, 약속은 반드시 지키라고양. 계약도 그렇고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "881~890에서 marry(8번째 카드)·promise(9번째 카드) 연속 두 카드에 meow — 다섯 카드당 하나 이하 위반. marry 줄은 c의 'married with(X)'와 맞물려 살리고, 더 얇은 promise 줄을 삭제(필드 자체 제거). 삭제 후 세트 meow 15개로 12~18 범위 유지, audit 문제 0."
+   },
+   {
+    "word": "magazine",
+    "si": 1,
+    "field": "ipa",
+    "old": "ˈmæɡəzin",
+    "new": "ˌmæɡəˈzin",
+    "severity": "low",
+    "problem": "메리엄웹스터 1순위 발음은 끝음절 강세 ˌma-gə-ˈzēn(ˈma-gə-ˌzēn은 부차). 코퍼스는 부강세 ˌ를 이미 쓰고 있고(set08 ˌkɑnvɚˈseɪʃən, set34 ˌhæləˈwin) 같은 꼴이라 표기 일관성도 유지됨."
+   }
+  ],
+  "set10": [
+   {
+    "word": "blow",
+    "si": 2,
+    "field": "tr",
+    "old": "그의 죽음은 그녀에게 큰 충격이었어.",
+    "new": "그의 죽음은 그녀에게 큰 타격이었어.",
+    "severity": "mid",
+    "problem": "tr '큰 충격이었어'가 shock(15세트, ko '① 충격', 예문도 'was a big ___ to us' 같은 틀)의 ko를 그대로 씀. ko 조각 '충격'이 겹쳐 SYN 안내는 뜨지만, ko 첫 뜻 '타격'으로 조이면 blow에만 닿음"
+   },
+   {
+    "word": "flight",
+    "si": 1,
+    "field": "tr",
+    "old": "우리 제주행 비행기가 지연됐어.",
+    "new": "우리 제주행 항공편이 지연됐어.",
+    "severity": "high",
+    "problem": "tr '우리 제주행 비행기'가 같은 세트 plane(ko '① 비행기')의 뜻 그대로 — 'Our plane to Jeju was delayed'가 완벽히 성립하고 ko 조각('비행/항공편' vs '비행기')이 정확히 안 겹쳐 안내 없이 오답. ko의 '항공편'으로 조임"
+   },
+   {
+    "word": "earn",
+    "si": 1,
+    "field": "ex",
+    "old": "You have to {{BLANK}} their respect.",
+    "new": "How much do you {{BLANK}} a month?",
+    "severity": "high",
+    "problem": "ko는 '(돈을) 벌다'인데 예문은 '존경을 얻다' 용법이라 ko–ex 불일치. tr '얻어 내야'로는 같은 세트 gain(ko '얻다')·win·get이 그대로 들어감. 돈 버는 예문으로 교체(15세트 weigh의 'How much do you ___?'와는 'a month'·번역으로 구별됨)"
+   },
+   {
+    "word": "earn",
+    "si": 1,
+    "field": "tr",
+    "old": "그들의 존경은 네가 얻어 내야 해.",
+    "new": "너 한 달에 얼마 벌어?",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역. '벌다'가 ko와 정확히 맞물림"
+   },
+   {
+    "word": "gift",
+    "si": 1,
+    "field": "ex",
+    "old": "She has a {{BLANK}} for music.",
+    "new": "This watch was a {{BLANK}} from my dad.",
+    "severity": "high",
+    "problem": "'has a ___ for music'에 talent(고교생이 아는 외래어, 표제어 아님이라 안내 없이 오답)가 더 자연스럽게 들어가고 ko '재능'이 그걸 부름. ko 첫 뜻 '선물' 예문으로 옮기면 남는 경쟁어는 present뿐(gift/present는 SYN 메모 쌍)"
+   },
+   {
+    "word": "gift",
+    "si": 1,
+    "field": "tr",
+    "old": "걔는 음악에 타고난 재능이 있어.",
+    "new": "이 시계는 아빠가 주신 선물이야.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역"
+   },
+   {
+    "word": "western",
+    "si": 1,
+    "field": "ex",
+    "old": "They moved to the {{BLANK}} coast.",
+    "new": "{{BLANK}} food like pizza is popular here.",
+    "severity": "high",
+    "problem": "'the ___ coast'에 west(기초3, ko '서쪽 (↔ east)')가 'the west coast'로 오히려 더 흔하게 들어가는데 ko 조각이 정확히 안 겹쳐 안내 없이 오답. ko ②뜻 '서양의'로 옮기면 west가 못 붙음(문두 대문자 Western과도 c 설명과 일치)"
+   },
+   {
+    "word": "western",
+    "si": 1,
+    "field": "tr",
+    "old": "걔네는 서해안 쪽으로 이사 갔어.",
+    "new": "피자 같은 서양 음식이 여기서 인기야.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역. '서양 음식'은 western에만 닿음"
+   },
+   {
+    "word": "healthy",
+    "si": 1,
+    "field": "ex",
+    "old": "Eat more vegetables to stay {{BLANK}}.",
+    "new": "Try to eat more {{BLANK}} food.",
+    "severity": "mid",
+    "problem": "같은 세트 fit②(ko '건강한, 탄탄한', 예문 'He stays ___ by playing tennis')와 'stay ___' 틀이 겹쳐 'stay fit'이 그대로 들어감. ko ②뜻 '몸에 좋은'의 healthy food 연어로 옮기면 fit이 못 붙음"
+   },
+   {
+    "word": "healthy",
+    "si": 1,
+    "field": "tr",
+    "old": "건강 유지하려면 채소를 더 먹어.",
+    "new": "몸에 좋은 음식을 더 먹도록 해.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역"
+   },
+   {
+    "word": "possibility",
+    "si": 1,
+    "field": "ex",
+    "old": "There is a {{BLANK}} of rain tomorrow.",
+    "new": "This job opens up new {{BLANK}}s for me.",
+    "severity": "mid",
+    "problem": "'a ___ of rain tomorrow'는 chance②(기초3, ko '가능성, 우연')의 대표 연어 'a chance of rain'이라 chance가 먼저 들어감. 'opens up new possibilities' 연어로 옮기면 chance가 못 붙음(opportunity는 ko '기회'라 tr '가능성'과 갈라짐)"
+   },
+   {
+    "word": "possibility",
+    "si": 1,
+    "field": "tr",
+    "old": "내일 비 올 가능성이 있어.",
+    "new": "이 일은 나한테 새로운 가능성을 열어 줘.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역"
+   },
+   {
+    "word": "strength",
+    "si": 1,
+    "field": "ex",
+    "old": "I don't have the {{BLANK}} to open this.",
+    "new": "Speed is his biggest {{BLANK}}.",
+    "severity": "mid",
+    "problem": "'don't have the ___ to open this'에 energy(ko '힘, 기운, 에너지')·power(ko '힘, 능력')가 자연스럽게 들어가고 tr '힘'이 그 둘을 똑같이 부름. ko ②뜻 '강점'(c의 weakness 짝과도 맞음)으로 옮기면 tr '강점'이 strength에만 닿음(advantage는 ko '이점'으로 갈라짐)"
+   },
+   {
+    "word": "strength",
+    "si": 1,
+    "field": "tr",
+    "old": "이거 열 힘도 없어.",
+    "new": "속도가 걔의 최대 강점이야.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역. '강점'은 advantage(이점)와도 갈라짐"
+   },
+   {
+    "word": "chief",
+    "si": 1,
+    "field": "ex",
+    "old": "He is the {{BLANK}} of the fire station.",
+    "new": "The fire {{BLANK}} told us to get out.",
+    "severity": "mid",
+    "problem": "'the ___ of the fire station'에 head②(기초2, ko '우두머리, 장(長)')가 그대로 들어감 — ko가 같아 head가 먼저 떠오름. fire chief 고정 연어로 옮기면 head가 못 붙음"
+   },
+   {
+    "word": "chief",
+    "si": 1,
+    "field": "tr",
+    "old": "그분이 소방서장이셔.",
+    "new": "소방서장이 우리한테 나가라고 했어.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역"
+   },
+   {
+    "word": "attempt",
+    "si": 1,
+    "field": "ex",
+    "old": "She passed the test on her first {{BLANK}}.",
+    "new": "His escape {{BLANK}} failed last night.",
+    "severity": "mid",
+    "problem": "'on her first ___'에 try(명사; 미국 구어에선 'on her first try'가 더 흔함)가 그대로 들어가는데 try의 ko는 동사 뜻뿐이라 안내 없이 오답. escape attempt 연어로 교체하면 try·effort가 못 붙음"
+   },
+   {
+    "word": "attempt",
+    "si": 1,
+    "field": "tr",
+    "old": "걔는 첫 시도에 시험을 통과했어.",
+    "new": "걔 탈출 시도는 어젯밤에 실패했어.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역"
+   },
+   {
+    "word": "welcome",
+    "si": 1,
+    "field": "tr",
+    "old": "그들은 활짝 웃으며 우릴 반겨 줬어.",
+    "new": "그들은 활짝 웃으며 우릴 환영해 줬어.",
+    "severity": "mid",
+    "problem": "tr '반겨 줬어'는 greet(18세트, ko '인사하다, 맞이하다')에 닿아 'greeted us with big smiles'가 그대로 성립하고 ko 조각이 안 겹쳐 안내 없이 오답. ko의 '환영하다'로 조임"
+   },
+   {
+    "word": "southern",
+    "si": 1,
+    "field": "meow",
+    "old": "southern은 [사우던] 아니고 [서던]이라고양. 발음 함정이고양.",
+    "new": "남쪽의 southern은 [사우던] 아니고 [서던]이라고양.",
+    "severity": "mid",
+    "problem": "줄 안에 단어 뜻(남쪽의)이 전혀 없고 c의 발음 함정을 그대로 되풀이함(스타일 가이드: meow는 단어 뜻이 드러나야 함). 뜻을 앞에 붙여 다시 씀(33자, '고양' 포함, 표제어 1회)"
+   },
+   {
+    "word": "block",
+    "si": 2,
+    "field": "meow",
+    "old": "내 낮잠 자리 앞을 block, 막으면 문다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "exercise 2에서 smile(14)·block②(17)·debt(18) 세 카드가 다섯 장 안에 meow — '다섯 카드당 하나 이하' 위반. 가장 얇고 '문다'는 위협 톤이 섞인 block② 줄을 삭제(남는 14·18은 간격 4로 관례 범위)"
+   },
+   {
+    "word": "roll",
+    "si": 1,
+    "field": "meow",
+    "old": "바닥에서 데굴데굴 roll, 구르기는 내 전공이라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "roll(33)·lake(34)가 연속 카드에 meow — '다섯 카드당 하나 이하' 위반. 세계관(일산 호수공원) 연결이 있는 lake를 남기고 roll 줄을 삭제"
+   },
+   {
+    "word": "jump",
+    "si": 1,
+    "field": "meow",
+    "old": "jump, 이 정도 담장은 몸풀기라고양. BIG MOUNTAIN도 가능하다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "gain(40)·jump(42)가 세 장 안에 meow — '다섯 카드당 하나 이하' 위반. jump 줄은 뜻(뛰어오르다)이 줄 안에 드러나지도 않아 이쪽을 삭제"
+   }
+  ],
+  "set11": [
+   {
+    "word": "influence",
+    "si": 1,
+    "field": "ex",
+    "old": "Friends have a big {{BLANK}} on us.",
+    "new": "Your new friend is a bad {{BLANK}} on you.",
+    "severity": "mid",
+    "problem": "'Friends have a big ___ on us'에 effect(ko '효과, 영향', 별칭표 없음)가 그대로 성립. 사람 자체가 '나쁜 영향'이 되는 a bad influence 구조는 effect로 못 바꿈(impact는 표제어 아님). 9토큰, 어휘 통제 통과"
+   },
+   {
+    "word": "influence",
+    "si": 1,
+    "field": "tr",
+    "old": "친구는 우리한테 큰 영향력을 미쳐.",
+    "new": "네 새 친구, 너한테 나쁜 영향이야.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역. '너한테 나쁜 영향이야'(사람=영향)로 influence만 부름"
+   },
+   {
+    "word": "settle",
+    "si": 2,
+    "field": "tr",
+    "old": "그럼 결정된 거야. 버스로 가자.",
+    "new": "그럼 그걸로 매듭지어졌네. 버스로 가자.",
+    "severity": "mid",
+    "problem": "'That ___s it'은 That decides it도 성립하는데 번역 '결정된 거야'가 decide(ko '결정하다, 결심하다')를 정면으로 부름. settle②의 ko(해결·확정)와 ko 조각이 안 겹쳐 동의어 안내도 안 뜨므로 번역을 '매듭'(해결) 쪽으로 조임"
+   },
+   {
+    "word": "cross",
+    "si": 1,
+    "field": "c",
+    "old": "가로질러 넘어가다. cross the road/rivɛr/line.",
+    "new": "가로질러 넘어가다. cross the road/river/line.",
+    "severity": "mid",
+    "problem": "해설에 'rivɛr' — e 자리에 IPA 기호 ɛ가 들어간 오타. 원문 확인함"
+   },
+   {
+    "word": "pair",
+    "si": 1,
+    "field": "c",
+    "old": "둘이 한 세트. a pair of jeans/shoɛs/glasses.",
+    "new": "둘이 한 세트. a pair of jeans/shoes/glasses.",
+    "severity": "mid",
+    "problem": "해설에 'shoɛs' — e 자리에 IPA 기호 ɛ가 들어간 오타. 원문 확인함"
+   },
+   {
+    "word": "minister",
+    "si": 1,
+    "field": "tr",
+    "old": "장관이 새 법에 대한 질문에 답했다.",
+    "new": "장관이 새 법에 대한 질문에 답했어.",
+    "severity": "mid",
+    "problem": "'답했다'는 문어체 종결 — tr 규칙은 구어. 세트 내 유일한 신문체 종결"
+   },
+   {
+    "word": "forest",
+    "si": 1,
+    "field": "meow",
+    "old": "BIG MOUNTAIN forest, 숲은 내 낮잠 구역이라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "exercise 1에서 quarter②(5번째)·forest(6번째) 연속 두 장에 meow — 다섯 카드당 하나 이하 위반. 얇은 forest 줄('숲은 내 낮잠 구역') 삭제. 삭제 후 세트 meow 12개(12~18 하한 유지)"
+   },
+   {
+    "word": "wave",
+    "si": 2,
+    "field": "meow",
+    "old": "파도도 손도 출렁이면 다 wave라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "kick(45번째)·wave②(48번째)가 네 장 안에 meow — 다섯 카드당 하나 위반. wave 줄은 c('손이 파도처럼 오르내리는 그림')와 내용이 겹치고 kick은 c가 없어 meow가 유일한 부연이므로 wave 줄 삭제"
+   },
+   {
+    "word": "cat",
+    "si": 1,
+    "field": "meow",
+    "old": "고양시의 cat, 그게 바로 이 몸이라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "cat(54번째)·clothes(57번째)가 네 장 안에 meow — 다섯 카드당 하나 위반. 발음 팁이 있는 clothes 줄을 남기고 '고양시의 cat' 줄 삭제"
+   },
+   {
+    "word": "egg",
+    "si": 1,
+    "field": "meow",
+    "old": "egg, 달걀 프라이는 반숙이 진리라고양. 노른자는 내 거고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "egg(64번째)·mine①(68번째)가 다섯 장 창(64~68) 안에 meow 둘 — 다섯 카드당 하나 위반. 뜻 단서('내 거')가 있는 mine 줄을 남기고 반숙 농담 줄 삭제"
+   },
+   {
+    "word": "settle",
+    "si": 1,
+    "field": "ipa",
+    "old": "sɛtl",
+    "new": "ˈsɛtl",
+    "severity": "low",
+    "problem": "2음절어(MW: ˈse-tᵊl)인데 강세 표시 없음. 코퍼스 내 ˈfeɪtl·ˈtaɪtn 등 성절음 2음절어에 강세를 단 선례와 맞춤"
+   },
+   {
+    "word": "settle",
+    "si": 2,
+    "field": "ipa",
+    "old": "sɛtl",
+    "new": "ˈsɛtl",
+    "severity": "low",
+    "problem": "2음절어인데 강세 표시 없음(si1과 동일)"
+   },
+   {
+    "word": "threaten",
+    "si": 1,
+    "field": "ipa",
+    "old": "θrɛtn",
+    "new": "ˈθrɛtn",
+    "severity": "low",
+    "problem": "2음절어(MW: ˈthre-tᵊn)인데 강세 표시 없음"
+   }
+  ],
+  "set12": [
+   {
+    "word": "anywhere",
+    "si": 1,
+    "field": "ex",
+    "old": "You can sit {{BLANK}} you like.",
+    "new": "I can't find my phone {{BLANK}}.",
+    "severity": "high",
+    "problem": "'You can sit ___ you like'(어디든)는 wherever(set29 표제어, ① 어디든지, 어디에나)가 그대로 들어간다 — ko·tr 모두 '어디든'이라 갈리지 않음. 품사가 다른 구문 겹침이라 동의어 안내 몫이 아니고 예문 교체로 바로 잡힌다. 부정문 not ~ anywhere(아무 데도)로 바꾸면 anywhere만 남는다(ko '아무 데도'와도 일치, c의 설명과도 부합)."
+   },
+   {
+    "word": "anywhere",
+    "si": 1,
+    "field": "tr",
+    "old": "어디든 마음에 드는 데 앉아.",
+    "new": "폰을 아무 데서도 못 찾겠어.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. '아무 데서도'로 부정문 단서를 살려 wherever·somewhere를 배제."
+   },
+   {
+    "word": "plate",
+    "si": 1,
+    "field": "ex",
+    "old": "Wash your {{BLANK}} after dinner, okay?",
+    "new": "Let's use paper {{BLANK}}s at the party.",
+    "severity": "high",
+    "problem": "'Wash your ___ after dinner'(네 접시는 씻어)는 dish(set14 표제어, ① 접시)도 그대로 들어간다. paper plates(종이 접시)는 plate에만 붙는 연어(paper dishes는 안 씀) — 해결 우선순위 1(예문 교체)로 잡힌다."
+   },
+   {
+    "word": "plate",
+    "si": 1,
+    "field": "tr",
+    "old": "저녁 먹고 나서 네 접시는 씻어, 알았지?",
+    "new": "파티에선 종이 접시 쓰자.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역."
+   },
+   {
+    "word": "luck",
+    "si": 1,
+    "field": "tr",
+    "old": "내일 시험 잘 봐!",
+    "new": "내일 시험, 행운을 빌어!",
+    "severity": "mid",
+    "problem": "번역 '내일 시험 잘 봐!'에 운·행운의 뜻이 전혀 드러나지 않는다(빈칸 단어 뜻이 tr에 보여야 하는 규칙 위반). Good luck = 행운을 빌어를 그대로 살릴 것. 쉼표를 넣어 구어 리듬을 유지."
+   },
+   {
+    "word": "beer",
+    "si": 1,
+    "field": "tr",
+    "old": "그는 퇴근 후에 시원한 맥주 한 잔을 마셔.",
+    "new": "걔는 퇴근 후에 시원한 맥주 한 잔을 마셔.",
+    "severity": "low",
+    "problem": "사람 주어를 '그는'으로 옮김 — 세트 전체 관례(걔, 어른은 그분)와 어긋나는 유일한 카드."
+   },
+   {
+    "word": "train",
+    "si": 2,
+    "field": "meow",
+    "old": "훈련도 기차처럼 정해진 길을 달리니 같은 train이라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "chicken②(4번째 카드)와 train②(6번째 카드) meow가 두 칸 간격 — 다섯 카드당 하나 초과. '정해진 길을 달리니 같은 train'은 c의 어원 설명('끌다')과 어긋나는 억지 연결이라 이쪽이 더 얇음. 삭제(삭제 후 세트 meow 14개, 12~18 범위 유지)."
+   },
+   {
+    "word": "ring",
+    "si": 2,
+    "field": "meow",
+    "old": "반지도 종소리도 ring이지만 남남이라고양. 철자만 같다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "accident②(15)·ring②(19)·terrible(23) 세 meow가 9장 안에 몰림 — 다섯 카드당 하나 초과. 가운데 ring②를 지우면 한 번에 두 창이 해소되고, '남남·철자만 같다'는 어원 트리비아로 셋 중 가장 얇음. 삭제."
+   },
+   {
+    "word": "soft",
+    "si": 1,
+    "field": "meow",
+    "old": "고양이 배는 soft, 부드럽지만 만지면 문다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "terrible(23)과 soft(25) meow가 두 칸 간격 — 다섯 카드당 하나 초과. terrible 쪽은 혼동쌍(terrific) 조롱이라 남기고, 뜻 외 정보가 없는 soft 쪽을 삭제."
+   }
+  ],
+  "set13": [
+   {
+    "word": "sheet",
+    "si": 1,
+    "field": "ex",
+    "old": "Give me a {{BLANK}} of paper.",
+    "new": "Change the {{BLANK}}s on your bed.",
+    "severity": "high",
+    "problem": "'a ___ of paper'(종이 한 장)는 piece(6세트 ① 조각, 한 부분)가 ex+tr에 그대로 들어가는 자리. ko의 '시트' 단서를 살리는 침대 시트 연어로 교체."
+   },
+   {
+    "word": "sheet",
+    "si": 1,
+    "field": "tr",
+    "old": "종이 한 장만 줘.",
+    "new": "네 침대 시트 좀 갈아.",
+    "severity": "high",
+    "problem": "예문 교체에 따른 번역."
+   },
+   {
+    "word": "signal",
+    "si": 1,
+    "field": "ex",
+    "old": "Give me a {{BLANK}} when you're ready.",
+    "new": "My phone has no {{BLANK}} here.",
+    "severity": "high",
+    "problem": "'Give me a ___ when you're ready'는 sign(7세트 ② 신호, 징후)이 ko까지 똑같이 들어감. c가 이미 언급한 폰 no signal 연어로 교체."
+   },
+   {
+    "word": "signal",
+    "si": 1,
+    "field": "tr",
+    "old": "준비되면 신호 줘.",
+    "new": "여기선 내 폰 신호가 안 잡혀.",
+    "severity": "high",
+    "problem": "예문 교체에 따른 번역."
+   },
+   {
+    "word": "attract",
+    "si": 1,
+    "field": "ex",
+    "old": "Flowers {{BLANK}} bees.",
+    "new": "Free pizza {{BLANK}}ed a big crowd.",
+    "severity": "high",
+    "problem": "'Flowers ___ bees'는 draw(7세트 ② 끌다, 끌어당기다)가 ko까지 동일하게 들어감. -ed 자리로 바꾸면 불규칙 draw가 배제됨."
+   },
+   {
+    "word": "attract",
+    "si": 1,
+    "field": "tr",
+    "old": "꽃은 벌을 끌어들여.",
+    "new": "공짜 피자가 엄청난 인파를 끌어들였어.",
+    "severity": "high",
+    "problem": "예문 교체에 따른 번역."
+   },
+   {
+    "word": "cycle",
+    "si": 1,
+    "field": "ex",
+    "old": "The seasons change in a {{BLANK}}.",
+    "new": "The moon's {{BLANK}} takes about a month.",
+    "severity": "high",
+    "problem": "'change in a ___' + '한 바퀴 돌며'는 circle(12세트 ① 원)을 부르는 단서. '주기' 뜻이 굳는 예문으로 교체."
+   },
+   {
+    "word": "cycle",
+    "si": 1,
+    "field": "tr",
+    "old": "계절은 한 바퀴 돌며 바뀌어.",
+    "new": "달의 주기는 한 달쯤 걸려.",
+    "severity": "high",
+    "problem": "예문 교체에 따른 번역. '주기'를 명시."
+   },
+   {
+    "word": "apart",
+    "si": 1,
+    "field": "tr",
+    "old": "그 두 집은 멀리 떨어져 있어.",
+    "new": "그 두 집은 서로 멀리 떨어져 있어.",
+    "severity": "mid",
+    "problem": "'stand far ___' + '멀리 떨어져 있어'는 away(1세트 ① 멀리, (떨어져))가 그대로 들어감. '서로'를 넣어 apart에만 닿게 조임."
+   },
+   {
+    "word": "proper",
+    "si": 1,
+    "field": "ex",
+    "old": "Put the books back in the {{BLANK}} place.",
+    "new": "Eat a {{BLANK}} meal, not just snacks.",
+    "severity": "mid",
+    "problem": "'in the ___ place' + '적절한 자리'는 right(1세트 ① 옳은, 맞는)가 더 흔히 들어가는 자리. proper meal 연어로 교체."
+   },
+   {
+    "word": "proper",
+    "si": 1,
+    "field": "tr",
+    "old": "책은 적절한 자리에 갖다 놔.",
+    "new": "간식만 말고 제대로 된 밥을 먹어.",
+    "severity": "mid",
+    "problem": "예문 교체에 따른 번역. ko '제대로 된'과 맞춤."
+   },
+   {
+    "word": "solid",
+    "si": 1,
+    "field": "tr",
+    "old": "이 탁자는 통원목이야.",
+    "new": "이 탁자는 속이 꽉 찬 통원목이야.",
+    "severity": "low",
+    "problem": "'This table is ___ wood' + '통원목'은 hard(2세트 ② 단단한)도 들어갈 수 있고 ko '단단한'이 겹침. '속이 꽉 찬'을 보태 solid에만 닿게 조임."
+   },
+   {
+    "word": "complain",
+    "si": 1,
+    "field": "tr",
+    "old": "걔는 맨날 음식 타령이야.",
+    "new": "걔는 맨날 음식 갖고 불평이야.",
+    "severity": "low",
+    "problem": "'음식 타령'은 불평 뜻이 흐릿해 talk(2세트)도 자연스럽게 들어감. 빈칸 단어 뜻이 번역에 드러나게."
+   },
+   {
+    "word": "nose",
+    "si": 1,
+    "field": "meow",
+    "old": "고양이 nose, 코는 촉촉해야 건강한 거라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "1~5번 카드에 meow 둘(nose, climb). climb 줄이 BIG MOUNTAIN 세계관 연결이라 nose 줄 삭제."
+   },
+   {
+    "word": "match",
+    "si": 2,
+    "field": "meow",
+    "old": "match, 성냥 근처에서 꼬리 흔들면 위험하다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "fat①~match③ 다섯 카드에 meow 둘(fat, match②). fat 줄이 고양이 캐릭터 살린 줄이고 성냥 안전 멘트가 더 얇아 삭제."
+   },
+   {
+    "word": "smell",
+    "si": 2,
+    "field": "meow",
+    "old": "수상한 smell, 냄새는 언제나 내 코가 먼저 안다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "smell②~branch② 다섯 카드에 meow 둘(smell②, branch②). branch 줄이 일산 세계관 연결이라 smell 줄 삭제."
+   },
+   {
+    "word": "employer",
+    "si": 1,
+    "field": "meow",
+    "old": "-er는 사장(employer), -ee는 직원이라고양. 방향 조심하라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "milk~employer, employer~succeed 두 창에 모두 걸림. employer 줄은 c(-er/-ee 방향) 반복이라 삭제하면 두 창이 동시에 해결."
+   }
+  ],
+  "set14": [
+   {
+    "word": "engineer",
+    "si": 1,
+    "field": "ipa",
+    "old": "ˈɛndʒənɪr",
+    "new": "ˌɛndʒəˈnɪr",
+    "severity": "mid",
+    "problem": "강세가 첫 음절(ˈɛndʒənɪr)에 찍혀 있으나 MW는 마지막 음절 강세(ˌen-jə-ˈnir)이고, c도 '강세는 뒤'라고 설명해 ipa와 해설이 서로 모순됨"
+   },
+   {
+    "word": "dish",
+    "si": 1,
+    "field": "ex",
+    "old": "Please put the {{BLANK}}es in the sink.",
+    "new": "I'll wash the {{BLANK}}es after dinner.",
+    "severity": "high",
+    "problem": "ko '접시'+tr '접시들'로는 plate(12세트 표제어, ko '접시')가 'put the plates in the sink'로 그대로 들어감. dish에만 붙는 연어 wash the dishes로 교체(c도 이미 이 연어를 설명함)"
+   },
+   {
+    "word": "dish",
+    "si": 1,
+    "field": "tr",
+    "old": "접시들은 싱크대에 넣어 줘.",
+    "new": "저녁 먹고 설거지는 내가 할게.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역('설거지'가 dishes에만 닿음)"
+   },
+   {
+    "word": "offense",
+    "si": 1,
+    "field": "ex",
+    "old": "Driving after drinking is a serious {{BLANK}}.",
+    "new": "Running a red light is a traffic {{BLANK}}.",
+    "severity": "high",
+    "problem": "ko '범죄, 위반'+'a serious ___'에 crime(7세트, ko '범죄, 죄')이 더 자연스럽게 들어감. crime이 못 붙는 traffic offense(교통 위반)로 교체(violation은 Fable 표제어가 아님)"
+   },
+   {
+    "word": "offense",
+    "si": 1,
+    "field": "tr",
+    "old": "음주운전은 심각한 위반이야.",
+    "new": "빨간불에 지나가는 건 교통 위반이야.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역"
+   },
+   {
+    "word": "double",
+    "si": 1,
+    "field": "ex",
+    "old": "I paid {{BLANK}} the price for this ticket.",
+    "new": "Prices here are {{BLANK}} on weekends.",
+    "severity": "high",
+    "problem": "'paid ___ the price'에 twice(11세트, ko '두 번, 두 배로')가 그대로 들어감(paid twice the price). twice가 못 서는 서술 형용사 자리로 교체"
+   },
+   {
+    "word": "double",
+    "si": 1,
+    "field": "tr",
+    "old": "나 이 표를 두 배 가격에 샀어.",
+    "new": "여기는 주말엔 가격이 두 배야.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역"
+   },
+   {
+    "word": "pure",
+    "si": 1,
+    "field": "ex",
+    "old": "The water from this mountain is very {{BLANK}}.",
+    "new": "This ring is made of {{BLANK}} gold.",
+    "severity": "high",
+    "problem": "ko '순수한, 깨끗한'+'water is very ___'에 clean(11세트, ko '깨끗한')이 그대로 들어가고 tr '물이 순수해'도 어색함. c가 이미 드는 pure gold(순금) 연어로 교체"
+   },
+   {
+    "word": "pure",
+    "si": 1,
+    "field": "tr",
+    "old": "이 산에서 나온 물은 아주 순수해.",
+    "new": "이 반지는 순금으로 만든 거야.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역('순금'이 real·clean을 배제)"
+   },
+   {
+    "word": "extreme",
+    "si": 1,
+    "field": "ex",
+    "old": "The desert has {{BLANK}} heat in summer.",
+    "new": "His ideas about politics are too {{BLANK}}.",
+    "severity": "high",
+    "problem": "같은 세트의 severe(ko '심각한, 극심한')와 ko 조각 '극심한'이 겹치고 'severe heat'도 자연스러워 빈칸 중의. severe가 못 붙는 '극단적인 생각'으로 교체"
+   },
+   {
+    "word": "extreme",
+    "si": 1,
+    "field": "tr",
+    "old": "사막은 여름에 더위가 극심해.",
+    "new": "걔 정치 생각은 너무 극단적이야.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역('극단적'은 extreme의 ko에만 있음)"
+   },
+   {
+    "word": "beside",
+    "si": 1,
+    "field": "ex",
+    "old": "That's {{BLANK}} the point.",
+    "new": "Come and sit {{BLANK}} me.",
+    "severity": "high",
+    "problem": "ko '~ 옆에'인데 예문은 관용구 beside the point라 tr '요점에서 벗어난'에 '옆에' 뜻이 전혀 안 드러남(ko·ex·tr 불일치, 학생이 빈칸 단어를 유추할 수 없음). by/next to는 본질적 동의어라 남지만 원문보다 확실히 나음"
+   },
+   {
+    "word": "beside",
+    "si": 1,
+    "field": "tr",
+    "old": "그건 요점에서 벗어난 얘기야.",
+    "new": "이리 와서 내 옆에 앉아.",
+    "severity": "high",
+    "problem": "예문 교체에 맞춘 번역, '옆에'가 드러나게"
+   },
+   {
+    "word": "reply",
+    "si": 1,
+    "field": "tr",
+    "old": "왜 내 메시지에 답 안 했어?",
+    "new": "왜 내 메시지에 답장 안 했어?",
+    "severity": "mid",
+    "problem": "tr '답 안 했어'면 answer(기초어, ko '대답하다')도 후보가 됨. '답장'으로 조여 reply(ko '답장하다')에만 닿게"
+   },
+   {
+    "word": "reply",
+    "si": 2,
+    "field": "tr",
+    "old": "이메일 보냈는데 회신을 못 받았어.",
+    "new": "이메일 보냈는데 답장을 못 받았어.",
+    "severity": "mid",
+    "problem": "ko '대답, 답장'에 tr '회신'이면 answer(got no answer)도 자연스러움. '답장'으로 조이기"
+   },
+   {
+    "word": "wage",
+    "si": 1,
+    "field": "ex",
+    "old": "They paid him a low {{BLANK}} for hard work.",
+    "new": "My hourly {{BLANK}} at the cafe is ten dollars.",
+    "severity": "mid",
+    "problem": "ko '임금, 급료'+'a low ___'에 salary(ko '월급, 봉급')가 그대로 들어감(a low salary). salary가 못 붙고 c도 언급하는 시급 연어 hourly wage로 교체(minimum은 29세트라 어휘 통제상 불가)"
+   },
+   {
+    "word": "wage",
+    "si": 1,
+    "field": "tr",
+    "old": "힘든 일 시키고 임금은 조금 줬대.",
+    "new": "카페에서 받는 내 시간당 임금은 10달러야.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역"
+   },
+   {
+    "word": "employment",
+    "si": 1,
+    "field": "ex",
+    "old": "Many young people are looking for {{BLANK}}.",
+    "new": "The {{BLANK}} rate for young people is very low.",
+    "severity": "mid",
+    "problem": "'looking for ___'에 기초어 work가 자연스럽게 들어가고(취업=일자리 찾기) tr '고용 기회를 찾고'도 어색한 한국어. employment에만 붙는 employment rate(고용률)로 교체"
+   },
+   {
+    "word": "employment",
+    "si": 1,
+    "field": "tr",
+    "old": "많은 젊은이들이 고용 기회를 찾고 있어.",
+    "new": "청년 고용률이 아주 낮아.",
+    "severity": "mid",
+    "problem": "예문 교체에 맞춘 번역"
+   },
+   {
+    "word": "republic",
+    "si": 1,
+    "field": "tr",
+    "old": "한국의 정식 명칭은 대한민국(Republic of Korea)이야.",
+    "new": "한국의 정식 명칭은 대한민국(한국 공화국)이야.",
+    "severity": "high",
+    "problem": "번역 안에 'Republic of Korea'라고 영어 정답이 그대로 적혀 있어 빈칸 문제가 성립하지 않음"
+   },
+   {
+    "word": "occasion",
+    "si": 1,
+    "field": "tr",
+    "old": "이 드레스는 특별한 날에만 입어.",
+    "new": "이 드레스는 특별한 때에만 입어.",
+    "severity": "mid",
+    "problem": "tr '특별한 날에만'이면 day(기초어, ko '날')가 빈칸에 그대로 들어감(on special days). ko의 '특별한 때'로 조이기"
+   },
+   {
+    "word": "cap",
+    "si": 1,
+    "field": "tr",
+    "old": "걔는 항상 모자를 거꾸로 써.",
+    "new": "걔는 항상 야구 모자를 거꾸로 써.",
+    "severity": "mid",
+    "problem": "tr '모자'만으로는 hat(13세트, ko '모자')도 들어감(wears his hat backwards). '야구 모자'로 조여 챙 달린 cap에만 닿게"
+   },
+   {
+    "word": "preserve",
+    "si": 1,
+    "field": "ko",
+    "old": "① 보존하다, 지키다",
+    "new": "① 보존하다, 보전하다",
+    "severity": "mid",
+    "problem": "ko '지키다'가 protect(7세트, ko '보호하다, 지키다')와 겹쳐 'protect this forest'가 그대로 들어감. tr은 '보존'이므로 ko에서 지키다를 빼 보존 계열로 조이기"
+   },
+   {
+    "word": "creature",
+    "si": 1,
+    "field": "ko",
+    "old": "① 생물, 동물",
+    "new": "① 생물, 생명체",
+    "severity": "low",
+    "problem": "ko에 '동물'이 있어 animal(7세트, ko '동물')도 'strange animals'로 들어갈 여지. tr은 '생물'이므로 ko를 생물 계열로 조이기"
+   }
+  ],
+  "set15": [
+   {
+    "word": "desert",
+    "si": 2,
+    "field": "ipa",
+    "old": "ˈdɪzɝt",
+    "new": "dɪˈzɝt",
+    "severity": "high",
+    "problem": "동사 desert는 2음절 강세(c에서도 '강세가 뒤로 간다'고 설명)인데 ipa는 ˈdɪzɝt로 1음절에 강세를 찍어 해설과 모순. set34 dessert ipa(dɪˈzɝt)와도 어긋남"
+   },
+   {
+    "word": "mouse",
+    "si": 1,
+    "field": "tr",
+    "old": "쥐 한 마리가 부엌 바닥을 가로질러 갔어.",
+    "new": "생쥐 한 마리가 부엌 바닥을 가로질러 갔어.",
+    "severity": "high",
+    "problem": "ko '쥐, 생쥐'·tr '쥐 한 마리'로는 rat(set16 ① 쥐)도 그대로 들어감. 생쥐로 조여야 mouse에만 닿음"
+   },
+   {
+    "word": "inner",
+    "si": 1,
+    "field": "ex",
+    "old": "Keep your money in your coat's {{BLANK}} pocket.",
+    "new": "Music gives me {{BLANK}} peace.",
+    "severity": "high",
+    "problem": "'coat's ___ pocket'은 실제로 inside pocket이 표준 표현이라 inside(lesson04 ① 안에, 안쪽(의))가 그대로 들어감. inner에만 붙는 연어(inner peace)로 교체"
+   },
+   {
+    "word": "inner",
+    "si": 1,
+    "field": "tr",
+    "old": "돈은 코트 안주머니에 넣어 둬.",
+    "new": "음악은 내게 마음속 평화를 줘.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. '마음속'으로 ko 내면의(inner)에 닿게"
+   },
+   {
+    "word": "arrangement",
+    "si": 1,
+    "field": "ex",
+    "old": "I made all the {{BLANK}}s for the party.",
+    "new": "She made a beautiful flower {{BLANK}}.",
+    "severity": "high",
+    "problem": "'made all the ___s for the party'+ko 준비+tr 준비는 preparation(set16 ① 준비)이 완벽히 들어감. arrangement에만 붙는 연어(flower arrangement 꽃꽂이)로 교체"
+   },
+   {
+    "word": "arrangement",
+    "si": 1,
+    "field": "tr",
+    "old": "파티 준비는 내가 다 해 놨어.",
+    "new": "걔가 예쁜 꽃꽂이 작품을 만들었어.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. 꽃꽂이는 flower arrangement에만 닿음('꽃꽂이를 만들다'보다 '꽃꽂이 작품을 만들다'가 자연스러워 다듬음)"
+   },
+   {
+    "word": "wire",
+    "si": 1,
+    "field": "ex",
+    "old": "Don't touch that {{BLANK}}. It's dangerous.",
+    "new": "The fence is made of thin {{BLANK}}.",
+    "severity": "high",
+    "problem": "'Don't touch that ___. It's dangerous.'+tr 전선은 cable(set26 ① 전선)·cord(set19 ① 끈, 전선)가 그대로 들어감. 철사 장면으로 교체하면 wire만 남음"
+   },
+   {
+    "word": "wire",
+    "si": 1,
+    "field": "tr",
+    "old": "그 전선 만지지 마. 위험해.",
+    "new": "그 울타리는 가는 철사로 돼 있어.",
+    "severity": "high",
+    "problem": "ex 교체에 따른 번역. '철사'는 wire에만 닿음"
+   },
+   {
+    "word": "bend",
+    "si": 2,
+    "field": "ko",
+    "old": "② (길의) 커브",
+    "new": "② (길·강의) 굽은 곳",
+    "severity": "high",
+    "problem": "ko가 '(길의) 커브'라 curve(set17 ① 곡선, 커브)의 뜻 그대로여서 'the ___ in the road'에 curve가 들어감. si1 '구부리다'와 이어지는 '굽은 곳'으로 손질"
+   },
+   {
+    "word": "stream",
+    "si": 2,
+    "field": "tr",
+    "old": "사람들 물결이 공연장을 빠져나왔어.",
+    "new": "사람들이 시냇물처럼 끊임없이 공연장을 빠져나왔어.",
+    "severity": "mid",
+    "problem": "tr '사람들 물결'은 wave(set11 ① 파도)를 부르고 ko '(끊임없는) 흐름'과도 어긋남. 시냇물처럼 끊임없이 흘러나오는 그림으로 조이기"
+   },
+   {
+    "word": "universal",
+    "si": 1,
+    "field": "tr",
+    "old": "음악은 만국 공통의 언어야.",
+    "new": "음악은 온 세상 누구에게나 통하는 언어야.",
+    "severity": "mid",
+    "problem": "tr '만국 공통의 언어'는 common(lesson04 ② 공통의)의 뜻 그대로라 'a common language'가 들어감. ko 보편적인과 common ko가 안 겹쳐 동의어 안내도 안 뜸. '누구에게나 통하는'으로 조이기"
+   },
+   {
+    "word": "offensive",
+    "si": 1,
+    "field": "ko",
+    "old": "① 무례한, 불쾌한",
+    "new": "① 불쾌하게 하는, 공격적인",
+    "severity": "mid",
+    "problem": "ko 첫 뜻 '무례한'은 rude(set19 ① 무례한)와 완전히 겹쳐 'His joke was ___ to many people'에 rude가 들어감. ex·tr(불쾌했어)와 맞는 '불쾌하게 하는'으로 손질, offense(공격)에서 온 '공격적인'을 둘째 뜻으로"
+   },
+   {
+    "word": "butter",
+    "si": 1,
+    "field": "meow",
+    "old": "고양이는 butter, 버터 냄새만 맡아도 행복해진다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "5그룹에서 butter(8번째)·desert(9번째) 카드가 연달아 meow를 가져 다섯 카드당 하나 상한 초과. 혼동쌍 조롱인 desert 줄을 남기고 더 얇은 butter 줄 삭제"
+   },
+   {
+    "word": "weigh",
+    "si": 1,
+    "field": "meow",
+    "old": "고양이 몸무게는 weigh, 재는 거 아니라고양. 묻지도 말라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "6그룹에서 poem(3번째)·weigh(4번째)가 연달아 meow. weigh 줄 '몸무게는 weigh, 재는 거 아니라고양'은 weigh(무게를 재다)의 뜻을 부정하는 것처럼 읽혀 더 얇으므로 삭제"
+   },
+   {
+    "word": "mouse",
+    "si": 1,
+    "field": "meow",
+    "old": "mouse, 쥐 얘기는 내 앞에서 함부로 하지 말라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "8그룹에서 rose(2번째)·mouse(5번째)가 다섯 카드 안에 meow 둘. rise/rose 혼동쌍 줄을 남기고 뜻 킥이 없는 mouse 줄 삭제"
+   },
+   {
+    "word": "hungry",
+    "si": 1,
+    "field": "meow",
+    "old": "hungry한 고양이는 금방 angry해진다고양.",
+    "new": "hungry, 배고픈 고양이는 금방 angry해진다고양.",
+    "severity": "low",
+    "problem": "'hungry한 고양이는 금방 angry해진다고양'에 단어 뜻(배고픈)이 한국어로 드러나지 않음. 세트의 다른 meow 꼴('raw fish, 날생선이라면')에 맞춰 '단어, 뜻' 순으로 다듬음"
+   }
+  ],
+  "set16": [
+   {
+    "word": "tube",
+    "si": 1,
+    "field": "ex",
+    "old": "Water runs through this long {{BLANK}}.",
+    "new": "The doctor put a thin {{BLANK}} in his nose.",
+    "severity": "high",
+    "problem": "'Water runs through this long ___'는 pipe(17세트, ko '관, 파이프')가 더 자연스럽게 들어간다. ko '관'·tr '긴 관'으로는 pipe를 못 막는다."
+   },
+   {
+    "word": "tube",
+    "si": 1,
+    "field": "tr",
+    "old": "물이 이 긴 관을 타고 흘러.",
+    "new": "의사가 걔 코에 가는 관을 넣었어.",
+    "severity": "high",
+    "problem": "ex 교체에 맞춘 번역."
+   },
+   {
+    "word": "flat",
+    "si": 1,
+    "field": "ex",
+    "old": "We need {{BLANK}} ground for the tent.",
+    "new": "Lay the map {{BLANK}} on the table.",
+    "severity": "mid",
+    "problem": "'___ ground for the tent'는 level ground가 관용 연어라 level(LDV)도 들어간다. 초안 fix('The land here is ___, with no hills')도 level이 여전히 들어가므로 lay flat 연어로 다듬음."
+   },
+   {
+    "word": "flat",
+    "si": 1,
+    "field": "tr",
+    "old": "텐트 치려면 평평한 땅이 필요해.",
+    "new": "지도를 탁자 위에 평평하게 펴 놔.",
+    "severity": "mid",
+    "problem": "ex 교체에 맞춘 번역."
+   },
+   {
+    "word": "mixture",
+    "si": 1,
+    "field": "tr",
+    "old": "반죽을 뜨거운 팬에 부어.",
+    "new": "섞은 걸 뜨거운 팬에 부어.",
+    "severity": "mid",
+    "problem": "'반죽'은 dough(35세트 표제어, ko '반죽')의 뜻이라 ko '혼합물'과 어긋나고 빈칸 단서가 엉뚱한 단어를 가리킨다."
+   },
+   {
+    "word": "shelter",
+    "si": 1,
+    "field": "tr",
+    "old": "우리는 다리 밑에서 비를 피했어.",
+    "new": "우리는 다리 밑에서 비 피할 곳을 찾았어.",
+    "severity": "low",
+    "problem": "'비를 피했어'에 빈칸 단어(피할 곳)의 명사 뜻이 안 드러난다. cover(found cover from the rain)도 자연스러운 영어라 번역으로 조여야 한다."
+   },
+   {
+    "word": "defeat",
+    "si": 2,
+    "field": "ex",
+    "old": "The team learned a lot from the {{BLANK}}.",
+    "new": "Never admit {{BLANK}} before the game ends.",
+    "severity": "mid",
+    "problem": "'learned a lot from the ___'는 loss(7세트, ko '잃음, 패배')가 똑같이 자연스럽다. admit defeat는 defeat에만 붙는 연어."
+   },
+   {
+    "word": "defeat",
+    "si": 2,
+    "field": "tr",
+    "old": "팀은 그 참패에서 많이 배웠어.",
+    "new": "경기 끝나기 전엔 절대 패배를 인정하지 마.",
+    "severity": "mid",
+    "problem": "ex 교체에 맞춘 번역."
+   },
+   {
+    "word": "drunk",
+    "si": 1,
+    "field": "c",
+    "old": "drink-drank-drunk의 형용사형. 명사 앞에는 drunken을 쓴다: a drunken man.",
+    "new": "drink의 과거분사가 형용사로. 명사 앞은 drunken이 전통이지만 drunk driver도 흔하다.",
+    "severity": "low",
+    "problem": "'명사 앞에는 drunken을 쓴다'는 과장. 미국 영어에서 drunk driver/drunk driving이 표준적으로 쓰여 사실 오류로 배울 수 있다."
+   },
+   {
+    "word": "imagination",
+    "si": 1,
+    "field": "ipa",
+    "old": "ˌɪˌmædʒəˈneɪʃən",
+    "new": "ɪˌmædʒəˈneɪʃən",
+    "severity": "low",
+    "problem": "첫 음절 앞에 불필요한 부강세 ˌ가 하나 더 찍혀 있다(ˌɪˌmædʒ…). MW는 i-ˌma-jə-ˈnā-shən."
+   },
+   {
+    "word": "pride",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀는 자기 요리에 자부심이 있어.",
+    "new": "걔는 자기 요리에 자부심이 있어.",
+    "severity": "low",
+    "problem": "사람 주어는 '걔' 규칙인데 '그녀는'."
+   },
+   {
+    "word": "comfort",
+    "si": 1,
+    "field": "tr",
+    "old": "그녀의 따뜻한 말이 위로가 됐어.",
+    "new": "걔가 해 준 따뜻한 말이 위로가 됐어.",
+    "severity": "low",
+    "problem": "'그녀의'는 문어 투. '걔의'도 어색해 '걔가 해 준'으로 다듬음."
+   },
+   {
+    "word": "tiger",
+    "si": 1,
+    "field": "meow",
+    "old": "BIG MOUNTAIN엔 tiger, 호랑이 대신 내가 산다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "tiger(9)·pet(10)이 같은 다섯 칸 안에 meow 둘. pet 줄이 뜻(반려동물)과 캐릭터 농담을 다 담아 tiger 줄을 삭제."
+   },
+   {
+    "word": "pride",
+    "si": 1,
+    "field": "meow",
+    "old": "고양이의 pride, 자부심은 목숨보다 무겁다고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "port(36)·pride(40)·beg(43)이 다섯 칸 창에 겹친다. pride 줄을 빼면 두 창이 모두 풀린다."
+   },
+   {
+    "word": "fence",
+    "si": 1,
+    "field": "meow",
+    "old": "fence, 울타리 위가 일산 최고의 전망석이라고양.",
+    "new": "(삭제)",
+    "severity": "low",
+    "problem": "fence(57)·loose(60)이 같은 다섯 칸 안에 meow 둘. loose는 혼동쌍 조롱이라 남기고 fence 줄 삭제."
+   }
   ]
  },
  "skipped": [],
@@ -5623,6 +7483,240 @@
    "problem": "동사 photocopy(복사하다: Can you photocopy this?)가 명사 못지않게 자주 쓰이는데 카드가 없음. c에서만 '동사로도 쓴다'고 언급. 품사가 다르면 분리 원칙(SPEC 1)",
    "fix": "",
    "done": "26.9.11 신설: ② (복사기로) 복사하다"
+  },
+  {
+   "file": "set05",
+   "word": "have",
+   "si": 3,
+   "field": "order",
+   "severity": "mid",
+   "problem": "'have to ~해야 한다'가 빠짐. 고1 교과서·회화에서 must보다 자주 만나는 형태이고, 같은 세트 must ① c가 '미국 구어는 have to'라고 짚으면서 정작 카드가 없다.",
+   "fix": ""
+  },
+  {
+   "file": "set05",
+   "word": "yet",
+   "si": 2,
+   "field": "order",
+   "severity": "mid",
+   "problem": "접속사 yet '그렇지만, 그런데도'(simple yet powerful, and yet)가 빠짐. 수능·모의 지문에서 부사 yet만큼 자주 나온다.",
+   "fix": ""
+  },
+  {
+   "file": "set05",
+   "word": "as",
+   "si": 3,
+   "field": "order",
+   "severity": "low",
+   "problem": "이유의 as '~때문에'(As it was raining, …)가 빠짐. 독해 지문 단골이며 학생이 ①~③ 어디에도 못 끼워 넣는다.",
+   "fix": ""
+  },
+  {
+   "file": "set05",
+   "word": "for",
+   "si": 2,
+   "field": "order",
+   "severity": "low",
+   "problem": "이유·대상의 for '~에 대해, ~때문에'(Thank you for ~, famous for ~, sorry for ~)가 빠짐. 회화 빈도가 두 용법(위해/동안)에 못지않다.",
+   "fix": ""
+  },
+  {
+   "file": "set05",
+   "word": "through",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "수단의 through '~을 통해'(through practice, through the Internet)가 빠짐. 독해에서 공간 통과보다 오히려 더 자주 만난다.",
+   "fix": ""
+  },
+  {
+   "file": "set05",
+   "word": "would",
+   "si": 2,
+   "field": "order",
+   "severity": "low",
+   "problem": "가정법의 would '(if절과 함께) ~할 텐데'(If I were you, I would …)가 빠짐. 고1 문법 단골.",
+   "fix": ""
+  },
+  {
+   "file": "set06",
+   "word": "suggest",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "'② 시사하다, 암시하다'(The results suggest that ~)가 빠짐. 수능·모의고사 지문에서 ① 제안하다보다 더 자주 만나는 뜻.",
+   "fix": ""
+  },
+  {
+   "file": "set06",
+   "word": "base",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "동사 '② (be based on) ~에 근거하다'가 빠짐. c가 based on을 언급하지만 카드가 없음 — 독해 지문 최다 빈도 용법.",
+   "fix": ""
+  },
+  {
+   "file": "set06",
+   "word": "practice",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "명사 '③ 관행, 실천'(common practice, in practice, put into practice)이 빠짐. 독해 지문에서 자주 등장.",
+   "fix": ""
+  },
+  {
+   "file": "set06",
+   "word": "serve",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "'② (serve as) ~의 역할을 하다; 근무·복무하다'가 빠짐. 독해에서 음식보다 이 뜻을 더 자주 만남.",
+   "fix": ""
+  },
+  {
+   "file": "set07",
+   "word": "poor",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "고등학생이 독해에서 가장 자주 만나는 poor의 세 번째 뜻 '형편없는, 부족한'(poor grades·poor health·poor eyesight·poor quality·in poor condition)이 빠져 있음. 가난·불쌍 두 카드만으로는 못 읽는다.",
+   "fix": ""
+  },
+  {
+   "file": "set08",
+   "word": "property",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "'속성, 특성'(chemical/physical properties) 뜻이 없음 — 수능·모의고사 과학 지문에서 '재산'보다 자주 만나는 뜻이라 ② 카드 신설 권고.",
+   "fix": ""
+  },
+  {
+   "file": "set08",
+   "word": "rise",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "명사 '상승, 증가'(a rise in prices, on the rise)가 없음 — 품사가 다르면 분리(SPEC 1조)이고 지문·도표 문제에서 흔한 용법이라 ② 카드 권고.",
+   "fix": ""
+  },
+  {
+   "file": "set08",
+   "word": "charge",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "'충전하다'(charge my phone)가 ② 해설 안에만 있고 카드가 없음 — 고등학생이 일상에서 가장 자주 쓰는 charge 뜻이라 ⑤ 카드 권고.",
+   "fix": ""
+  },
+  {
+   "file": "set09",
+   "word": "key",
+   "si": 2,
+   "field": "order",
+   "severity": "mid",
+   "problem": "형용사 '핵심적인'(a key role, key factor, key point) 카드가 없음(현재 n. ①열쇠 ②핵심 뿐). 독해 지문에서 명사 '열쇠'보다 자주 만나는 뜻이고 품사가 다르면 무조건 분리 규칙에도 해당 — ③ adj. 카드 추가 필요.",
+   "fix": ""
+  },
+  {
+   "file": "set09",
+   "word": "promise",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "명사 '약속'(keep/make/break a promise) 카드가 없음(sn=1, v.만). 코퍼스는 hope·help·plan·answer·change 같은 기초어를 n./v.로 분리해 두었으므로 같은 기준에서 누락. c가 '약속 있어'를 언급하면서 명사 카드가 없는 것도 어색함.",
+   "fix": ""
+  },
+  {
+   "file": "set09",
+   "word": "trust",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "명사 '신뢰'(build trust, trust between, lose trust) 카드가 없음(sn=1, v.만). 사회·심리 지문 단골이며 코퍼스의 n./v. 분리 관행(hope, help, plan, love)과 어긋남.",
+   "fix": ""
+  },
+  {
+   "file": "set09",
+   "word": "fear",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "동사 '두려워하다'(fear failure, I fear that ~, fear the worst) 카드가 없음(sn=1, n.만). 명사보단 빈도가 낮지만 독해 지문에 자주 나오고, 코퍼스가 love·hope 등을 n./v.로 나눈 기준이면 주변적 뜻이 아님.",
+   "fix": ""
+  },
+  {
+   "file": "set12",
+   "word": "suppose",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "ko가 '추측하다; (be supposed to) ~하기로 되어 있다' 두 뜻을 세미콜론으로 한 카드(sn=1)에 얹었는데 예문은 be supposed to뿐 — 같은 품사라도 번역이 갈리면 분리하는 규칙(SPEC 1) 위반. '① 추측하다(I suppose so / I suppose he's right)' 카드와 '② (be supposed to) ~하기로 되어 있다' 카드로 나누고 각각 예문을 둘 것.",
+   "fix": ""
+  },
+  {
+   "file": "set12",
+   "word": "appearance",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "수능·모의 지문에서 자주 보는 '② 출현, 등장'(the appearance of the internet, make an appearance)이 빠져 있다. 다른 세트에도 appearance 카드가 없어 외모 뜻만으로는 지문의 appearance를 오독하게 됨.",
+   "fix": ""
+  },
+  {
+   "file": "set12",
+   "word": "bear",
+   "si": 2,
+   "field": "order",
+   "severity": "low",
+   "problem": "'③ (책임·비용을) 지다, (열매를) 맺다, (마음에) 지니다'(bear the cost, bear fruit, bear in mind)가 없다 — 고등 단어장·지문 빈출 뜻. 견디다 카드 뒤에 추가 권고.",
+   "fix": ""
+  },
+  {
+   "file": "set14",
+   "word": "advance",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "명사 카드뿐이고 동사 뜻(전진하다, 발전하다·발전시키다: technology has advanced, advance to the final)이 없음. 고등 어휘서에서 명사와 나란히 실리는 기본 뜻이라 카드 추가 검토",
+   "fix": ""
+  },
+  {
+   "file": "set14",
+   "word": "opposite",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "형용사 카드뿐인데 c가 이미 'opposite of ~: ~의 반대'라는 명사 용법을 설명함. 명사 '반대(의 것)'(the opposite is true, quite the opposite)는 독해에서 형용사 못지않게 자주 만남. 전치사 '~ 맞은편에'(sit opposite me)는 영국식 색이 강해 부차적",
+   "fix": ""
+  },
+  {
+   "file": "set15",
+   "word": "favor",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "동사 favor(선호하다, 편들다: favor A over B, in favor of와 짝)가 빠짐. 수능·모의 독해에서 'tend to favor', 'favored by', 'selection favors'로 자주 만나는 뜻",
+   "fix": ""
+  },
+  {
+   "file": "set15",
+   "word": "trick",
+   "si": 1,
+   "field": "order",
+   "severity": "mid",
+   "problem": "동사 trick(속이다: trick A into -ing, be tricked)이 빠짐. 명사 속임수보다 독해에서 'tricked into'로 더 자주 만남",
+   "fix": ""
+  },
+  {
+   "file": "set15",
+   "word": "raw",
+   "si": 1,
+   "field": "order",
+   "severity": "low",
+   "problem": "'가공하지 않은'(raw material 원자재, raw data 원자료) 뜻이 빠짐. ko '날것의, 익히지 않은'으로는 독해 빈출 raw materials가 안 풀림",
+   "fix": ""
   }
  ]
 }

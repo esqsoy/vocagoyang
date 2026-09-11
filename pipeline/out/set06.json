@@ -352,7 +352,7 @@
 "en": "within",
 "ko": "① ~ 이내에",
 "ex": "The hotel is {{BLANK}} walking distance of the station.",
-"tr": "호텔은 역에서 걸어갈 수 있는 거리 안에 있어.",
+"tr": "호텔은 역에서 걸어갈 수 있는 거리 이내에 있어.",
 "c": "in an hour는 '한 시간 뒤에', within an hour는 '한 시간 안에'.",
 "ipa": "wɪˈðɪn",
 "pos": "prep.",
@@ -1008,7 +1008,7 @@
 "word": "either",
 "si": 2,
 "sn": 2,
-"meow": "긍정 뒤엔 too, 부정 뒤엔 either라고양. 바꿔 쓰면 바로 티 난다고양."
+"meow": "부정문의 '나도'는 too 말고 either라고양. 바꿔 쓰면 티 난다고양."
 },
 {
 "en": "wear",
@@ -1249,12 +1249,12 @@
 },
 {
 "en": "military",
-"ko": "① 군대; 군사의",
+"ko": "① 군사의; (the ~) 군대",
 "ex": "All Korean men must do {{BLANK}} service.",
 "tr": "한국 남자는 다 군 복무를 해야 해.",
 "c": "military service = 병역. '군사의'라는 형용사로도 쓴다.",
 "ipa": "ˈmɪləˌtɛri",
-"pos": "n./adj.",
+"pos": "adj.",
 "word": "military",
 "si": 1,
 "sn": 1
@@ -1317,7 +1317,7 @@
 "en": "catch",
 "ko": "① 잡다, 받다",
 "ex": "{{BLANK}} the ball!",
-"tr": "공 잡아!",
+"tr": "공 받아!",
 "c": "",
 "ipa": "kætʃ",
 "pos": "v.",
@@ -1340,7 +1340,7 @@
 {
 "en": "catch",
 "ko": "③ (버스·기차를) 잡아타다",
-"ex": "Run, or we will not {{BLANK}} the bus.",
+"ex": "Run, or we won't {{BLANK}} the bus.",
 "tr": "뛰어, 안 그러면 버스 못 잡아.",
 "c": "miss(놓치다)의 반대. 시간 맞춰 '잡아서 탄다'.",
 "ipa": "kætʃ",
@@ -1511,8 +1511,7 @@
 "pos": "pron.",
 "word": "whatever",
 "si": 1,
-"sn": 1,
-"meow": "Whatever, 뭐든지. 인간이 이 말 하면 사실 삐진 거라고양."
+"sn": 1
 },
 {
 "en": "throw",
