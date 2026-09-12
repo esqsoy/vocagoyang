@@ -1437,7 +1437,8 @@ function fx(good,combo){
   }
   setTimeout(()=>{if(gen===fxGen)layer.innerHTML="";card.classList.remove("flash");document.body.classList.remove("shake");},1400);
 }
-function comboPop(layer,x,y,n,t){const r=$("#quizCard").getBoundingClientRect();const d=document.createElement("div");d.className="combo t"+t;d.style.setProperty("--x",(r.right-86)+"px");d.style.setProperty("--y",(r.bottom-30)+"px");d.textContent=n+" COMBO";layer.appendChild(d);}
+/* 콤보 텍스트: 학습 글자와 안 겹치게 진행 패널 위에서 떠오른다. 공개 화면이 그려진 뒤 위치를 재도록 한 틱 미룸 */
+function comboPop(layer,x,y,n,t){setTimeout(()=>{const g=document.querySelector("#gameScreen .gtop");if(!g)return;const r=g.getBoundingClientRect();const d=document.createElement("div");d.className="combo t"+t;d.style.setProperty("--x",(r.left+r.width/2)+"px");d.style.setProperty("--y",(r.top+16)+"px");d.textContent=n+" COMBO";layer.appendChild(d);},0);}
 function burst(layer,x,y,o){
   const mk=(cls,html)=>{const d=document.createElement("div");d.className=cls;d.style.setProperty("--x",x+"px");d.style.setProperty("--y",y+"px");if(html)d.innerHTML=html;layer.appendChild(d);return d;};
   if(o.flash)mk("glowfx");
