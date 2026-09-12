@@ -166,12 +166,17 @@ body.playing .app{gap:8px;padding-top:max(6px,env(safe-area-inset-top));}
 .ghost.small{min-height:36px;font-size:.82rem;color:var(--muted);}
 /* quiz card: 예문이 주인공 */
 .quiz{flex:0 0 auto;display:flex;flex-direction:column;justify-content:flex-start;gap:8px;
-  padding:12px 14px 14px;position:relative;overflow:hidden;isolation:isolate;transition:border-color .2s,box-shadow .2s;}
+  padding:10px 12px 14px;position:relative;overflow:hidden;isolation:isolate;transition:border-color .2s,box-shadow .2s;}
 .quiz.good{border-color:var(--mint);box-shadow:0 0 26px rgba(124,255,178,.28),inset 0 0 24px rgba(124,255,178,.05);}
 .quiz.bad{border-color:var(--bad);box-shadow:0 0 26px rgba(255,93,108,.28),inset 0 0 24px rgba(255,93,108,.05);}
 .quiz.wrong{animation:sh .3s;}
-.cmeta{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:.72rem;font-weight:700;}
 .cstreak{color:var(--gold);font-weight:900;}
+.hform{position:absolute;left:0;top:0;width:1px;height:1px;overflow:hidden;}
+.quiz .ainput{position:absolute;left:0;top:0;width:1px;height:1px;min-height:0;opacity:0;font-size:16px;border:0;padding:0;margin:0;box-shadow:none;}
+.qtop{display:flex;align-items:center;gap:8px;}
+.qtop .meaning{flex:1;min-width:0;}
+.qtop .ibtn{flex:none;width:38px;min-height:38px;font-size:1rem;}
+.qtop .catbtn{height:48px;}
 .meaning{margin:0;text-align:center;font-weight:900;line-height:1.2;word-break:keep-all;
   font-size:clamp(1.2rem,5.4vw,1.65rem);
   text-shadow:0 0 10px rgba(92,230,255,.7),0 0 16px rgba(255,79,163,.25),1px 1px 0 #4a0a72;position:relative;z-index:1;}
@@ -332,7 +337,7 @@ body.shake{animation:bshake .3s;}
 @keyframes endpop{from{transform:scale(.7);opacity:0;}}
 
 /* ===== HoE 리치 카드/리빌 ===== */
-.hoectx .ex{margin-top:9px;font-size:1rem;color:var(--pinkpale);line-height:1.55;word-break:keep-all;text-align:center;}
+.hoectx .ex{margin-top:4px;font-size:1rem;color:var(--pinkpale);line-height:1.55;word-break:keep-all;text-align:center;}
 .hoectx .blanks{display:inline-flex;gap:5px;margin:0 3px;vertical-align:-2px;}
 .hoectx .slot{min-width:15px;height:1.05em;padding:0 1px;box-sizing:border-box;display:inline-flex;align-items:flex-end;justify-content:center;border-bottom:3px solid var(--gold);box-shadow:0 3px 8px rgba(255,211,77,.35);color:var(--gold);font-weight:900;font-size:1.05rem;line-height:1;text-shadow:0 0 10px var(--gold2);}
 .hoectx .slot.cur{border-bottom-color:#fff;animation:caret 1s steps(1) infinite;}
@@ -424,22 +429,21 @@ body.shake{animation:bshake .3s;}
 
     <!-- GAME -->
     <section class="screen" id="gameScreen">
-      <!-- 입력 띠: 키보드를 잡아 두는 닻. 글자는 카드의 빈칸에 실시간으로 채워진다 -->
-      <form class="panel inpanel" id="aform" autocomplete="off">
-        <input class="ainput" id="ainput" type="text" inputmode="text" enterkeyhint="go"
-               autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false"
-               placeholder="빈칸에 들어갈 영단어…" aria-label="영어 정답">
-        <button class="btn" id="submitBtn" type="submit" aria-hidden="true" tabindex="-1">확인</button>
-        <div class="fb" id="fb" aria-live="polite"></div>
-        <button class="ghost ibtn" id="hintBtn" type="button" aria-label="힌트">💡</button>
-        <button class="catbtn" id="catSubmit" type="submit" aria-label="확인 (고양고양이 탭)">
-          <img id="quizCat" alt="고양고양이">
-        </button>
-      </form>
-
       <div class="panel quiz" id="quizCard">
-        <div class="cmeta"><span id="cMeta">1회독 · 0/0</span><span class="cstreak" id="cStreak"></span></div>
-        <p class="meaning" id="meaning">-</p>
+        <!-- 숨긴 입력창: 키보드를 잡아 두는 닻. 글자는 빈칸에 실시간으로 채워진다 -->
+        <form class="hform" id="aform" autocomplete="off">
+          <input class="ainput" id="ainput" type="text" inputmode="text" enterkeyhint="go"
+                 autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="영어 정답">
+          <button class="btn" id="submitBtn" type="submit" aria-hidden="true" tabindex="-1">확인</button>
+          <div class="fb" id="fb" aria-live="polite"></div>
+        </form>
+        <div class="qtop">
+          <button class="ghost ibtn" id="hintBtn" type="button" aria-label="힌트">💡</button>
+          <p class="meaning" id="meaning">-</p>
+          <button class="catbtn" id="catSubmit" type="button" aria-label="확인 (고양고양이 탭)">
+            <img id="quizCat" alt="고양고양이">
+          </button>
+        </div>
         <div class="hoectx" id="hoeCtx"></div>
         <div class="qmini" id="qmini"></div>
         <div class="timewrap" id="timeWrap"><i id="timeFill"></i></div>
@@ -450,7 +454,7 @@ body.shake{animation:bshake .3s;}
       <div class="panel gtop">
         <div class="gtoprow">
           <div class="gtl"><span class="kick" id="gKick">01강</span><span class="gtitle" id="gTitle">Exercise 1</span></div>
-          <div class="gstat"><b id="sDone">0/0</b><span class="roundpill" id="gRound">1회독</span><b class="t-time" id="sTime">00:00</b><b class="t-err"><i>오답</i> <span id="sErr">0</span></b></div>
+          <div class="gstat"><b id="sDone">0/0</b><span class="roundpill" id="gRound">1회독</span><b class="t-time" id="sTime">00:00</b><b class="t-err"><i>오답</i> <span id="sErr">0</span></b><b class="cstreak" id="cStreak"></b></div>
         </div>
         <div class="bar"><i id="gProg"></i></div>
         <div class="grow2">
@@ -1145,7 +1149,7 @@ function nextCard(){
     const card=$("#quizCard");card.className="panel quiz";
     $("#meaning").textContent=w.meaning;
     $("#hoeCtx").innerHTML=hoeCtxHtml(w);
-    $("#qmini").textContent = s.round>=2 ? ((w.roundStreak>=1)?"한 번 더 맞히면 통과 (2/2)":"2연속 정답이면 통과 (1/2)") : (w.sn>1?`뜻 ${w.si}/${w.sn} · 빈칸에 들어갈 단어를 입력`:"빈칸에 들어갈 단어를 입력");
+    $("#qmini").textContent = s.round>=2 ? ((w.roundStreak>=1)?"한 번 더 (2/2)":"2연속 정답이면 통과 (1/2)") : (w.sn>1?`뜻 ${w.si}/${w.sn}`:"");
     $("#qmini").style.display="";$("#timeWrap").style.display="";
     const rv=$("#reveal");rv.className="rv";rv.innerHTML="";
     $("#ainput").value="";$("#ainput").className="ainput";$("#ainput").disabled=false;
@@ -1154,7 +1158,7 @@ function nextCard(){
     $("#ainput").oninput=null;
     setCat('quizCat','evil');
     updateStats();mirrorTyped();
-    requestAnimationFrame(()=>$("#ainput").focus({preventScroll:true}));
+    $("#ainput").focus({preventScroll:true});requestAnimationFrame(()=>$("#ainput").focus({preventScroll:true}));
     return;
   }
   // 회독 종료: 다음 회독으로. startRound가 남은 단어 없으면 알아서 finishExercise 호출.
@@ -1232,7 +1236,7 @@ function renderCopyBlank(v){const s=state.session;if(!s||!s.copyMode)return;cons
 function startCopy(w,line){
   const term=w.term;const s=state.session;s.copyMode=true;s.copyAns=term;
   const rv=openReveal("bad");
-  rv.innerHTML=`${rvWord(w)}${rvBody(w,line)}<div class="ov-hint">뜻·예문 보고 <b>${esc(term)}</b> 따라 쓰면 넘어간다고양</div>${w.ex?"":`<div class="blanks" id="ghostTar"></div>`}`;
+  rv.innerHTML=`${rvWord(w)}${rvBody(w,line)}${w.ex?"":`<div class="blanks" id="ghostTar"></div>`}`;
   renderCopyBlank("");
   $("#ainput").value="";$("#ainput").className="ainput";$("#ainput").disabled=false;
   $("#submitBtn").disabled=false;$("#hintBtn").disabled=true;
@@ -1264,8 +1268,7 @@ function updateStats(){
   $("#sErr").textContent=s.errors;
   const done=roundDone(),total=s.roundTargets.length||s.words.length;
   $("#sDone").textContent=`${done}/${total}`;
-  $("#cMeta").textContent=`${s.roundName} · ${done}/${total}`;
-  $("#cStreak").textContent=(s.streak||0)>=3?`🔥 ${s.streak}연속`:"";
+  $("#cStreak").textContent=(s.streak||0)>=3?`🔥${s.streak}`:"";
   $("#gProg").style.width=(total?Math.round(done/total*100):0)+"%";
   if(!s.fbMode&&s.currentId!==null){
     const left=remain();const pct=Math.max(0,left/s.cardLimit*100);
