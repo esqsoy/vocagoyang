@@ -342,11 +342,11 @@ body.shake{animation:bshake .3s;}
 }
 
 /* ---------- 콤보 표시 + 화면 가장자리 금빛 ---------- */
-.combo{position:absolute;left:var(--x,50%);top:var(--y,50%);transform:translate(-50%,-50%);color:var(--gold);font-weight:900;font-size:1.3rem;
+.combo{position:absolute;left:var(--x,50%);top:var(--y,50%);transform:translate(-100%,-50%);transform-origin:right center;color:var(--gold);font-weight:900;font-size:1.3rem;
   text-shadow:0 0 10px #fff,0 0 18px var(--gold),2px 2px 0 #4a0a72;animation:comboup 1.1s cubic-bezier(.2,.9,.3,1) forwards;letter-spacing:1px;white-space:nowrap;font-style:italic;}
 .combo.t2{font-size:1.6rem;color:var(--pink2);text-shadow:0 0 10px #fff,0 0 20px var(--pink),2px 2px 0 #4a0a72;}
 .combo.t3{font-size:2rem;color:#fff;text-shadow:0 0 12px var(--gold),0 0 28px var(--pink),3px 3px 0 #4a0a72;}
-@keyframes comboup{0%{opacity:0;transform:translate(-50%,-50%) scale(.5);}15%{opacity:1;transform:translate(-50%,-50%) scale(1.3);}30%{transform:translate(-50%,-55%) scale(1.05);}75%{opacity:1;transform:translate(-50%,-75%) scale(1);}100%{opacity:0;transform:translate(-50%,-115%) scale(.9);}}
+@keyframes comboup{0%{opacity:0;transform:translate(-100%,-50%) scale(.5);}15%{opacity:1;transform:translate(-100%,-50%) scale(1.3);}30%{transform:translate(-100%,-55%) scale(1.05);}75%{opacity:1;transform:translate(-100%,-75%) scale(1);}100%{opacity:0;transform:translate(-100%,-115%) scale(.9);}}
 .edge{position:absolute;inset:0;box-shadow:inset 0 0 60px 20px rgba(255,211,77,.55),inset 0 0 120px 40px rgba(255,79,163,.25);animation:edge 1s ease-out forwards;}
 @keyframes edge{0%{opacity:0;}25%{opacity:1;}100%{opacity:0;}}
 /* ---------- 퍼펙트 포효 ---------- */
@@ -1437,7 +1437,8 @@ function fx(good,combo){
   }
   setTimeout(()=>{if(gen===fxGen)layer.innerHTML="";card.classList.remove("flash");document.body.classList.remove("shake");},1400);
 }
-function comboPop(layer,x,y,n,t){const r=$("#quizCard").getBoundingClientRect();const d=document.createElement("div");d.className="combo t"+t;d.style.setProperty("--x",(r.right-86)+"px");d.style.setProperty("--y",(r.bottom-30)+"px");d.textContent=n+" COMBO";layer.appendChild(d);}
+/* 콤보 텍스트: 학습 글자와 안 겹치게 진행 패널 위에서 떠오른다. 공개 화면이 그려진 뒤 위치를 재도록 한 틱 미룸 */
+function comboPop(layer,x,y,n,t){setTimeout(()=>{const c=$("#quizCard");if(!c)return;const r=c.getBoundingClientRect();const d=document.createElement("div");d.className="combo t"+t;d.style.setProperty("--x",(r.right-18)+"px");d.style.setProperty("--y",(r.bottom-26)+"px");d.textContent=n+" COMBO";layer.appendChild(d);},0);}
 function burst(layer,x,y,o){
   const mk=(cls,html)=>{const d=document.createElement("div");d.className=cls;d.style.setProperty("--x",x+"px");d.style.setProperty("--y",y+"px");if(html)d.innerHTML=html;layer.appendChild(d);return d;};
   if(o.flash)mk("glowfx");
