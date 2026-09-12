@@ -294,9 +294,10 @@ body.playing .app{gap:8px;padding:max(6px,env(safe-area-inset-top)) 6px max(8px,
 .dot{position:absolute;left:var(--x,50%);top:var(--y,50%);width:6px;height:6px;border-radius:50%;background:#fff;
   box-shadow:0 0 6px #fff,0 0 12px var(--gold);transform:translate(-50%,-50%);animation:dotfly var(--dur,.5s) cubic-bezier(.1,.8,.3,1) forwards;}
 @keyframes dotfly{0%{transform:translate(-50%,-50%) translate(0,0) scale(1);opacity:1;}60%{opacity:1;}100%{transform:translate(-50%,-50%) translate(var(--dx),var(--dy)) scale(.2);opacity:0;}}
-.ring2{position:absolute;left:var(--x,50%);top:var(--y,50%);width:16px;height:16px;border-radius:50%;border:3px solid #fff;
-  transform:translate(-50%,-50%);animation:rg2 .8s ease-out forwards;filter:drop-shadow(0 0 5px #fff) drop-shadow(0 0 10px var(--pink2));}
-@keyframes rg2{0%{width:16px;height:16px;opacity:1;}100%{width:200px;height:200px;opacity:0;border-width:1px;}}
+.ring2{position:absolute;left:var(--x,50%);top:var(--y,50%);width:200px;height:200px;border-radius:50%;border:2px solid #fff;
+  transform:translate(-50%,-50%) scale(.08);animation:rg2 .8s ease-out forwards;filter:drop-shadow(0 0 5px #fff) drop-shadow(0 0 10px var(--pink2));}
+/* width/height 대신 transform만 애니메이트한다(레이아웃 유발 없음) */
+@keyframes rg2{0%{transform:translate(-50%,-50%) scale(.08);opacity:1;}100%{transform:translate(-50%,-50%) scale(1);opacity:0;}}
 .glowfx{position:absolute;left:var(--x,50%);top:var(--y,50%);width:104px;height:104px;transform:translate(-50%,-50%);animation:glowfx .55s ease-out forwards;}
 .glowfx svg{width:100%;height:100%;display:block;}
 @keyframes glowfx{0%{opacity:0;transform:translate(-50%,-50%) scale(.25);}18%{opacity:1;transform:translate(-50%,-50%) scale(.8);}100%{opacity:0;transform:translate(-50%,-50%) scale(1.7);}}
@@ -1469,7 +1470,8 @@ function fx(good,combo){
   if(!good&&navigator.vibrate)try{navigator.vibrate(60);}catch(e){}
   if(good){
     // 빈칸(정답 글자) 자리에서 터진다. 전부 0.6~0.8초 안에 끝
-    const [x,y]=fxOrigin($("#hoeCtx .fill")||card);const c=Math.max(1,combo||1);
+    /* fx()는 showReveal() 전에 불리므로 .fill이 아직 없다 → 빈칸 컨테이너(.blanks)를 쓴다 */
+    const [x,y]=fxOrigin($("#hoeCtx .fill")||$("#hoeCtx .blanks")||card);const c=Math.max(1,combo||1);
     const o={petals:Math.min(40,c),dots:Math.min(24,4+c),flash:true,ring:c>=5,edge:c>=10,dist:1+Math.min(15,c)*.05};
     burst(layer,x,y,o);
   }
