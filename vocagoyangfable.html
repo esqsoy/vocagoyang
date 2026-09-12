@@ -1089,13 +1089,41 @@ function resumeTarget(){let last=null;try{last=JSON.parse(localStorage.getItem(L
   for(let j=0;j<flat.length;j++){const x=flat[(start+j)%flat.length];if(!getRec(x.L.id,x.e.title)?.completed)return x;}
   return flat[start];}
 /* 발음 읽어주기(브라우저 내장 음성) */
-let _voice=null;
-function pickVoice(){try{const vs=speechSynthesis.getVoices();if(!vs.length)return null;
-  const pref=["Samantha","Google US English","Microsoft Aria","Microsoft Jenny","Karen","Daniel"];
-  for(const n of pref){const v=vs.find(v=>v.name.indexOf(n)>=0);if(v)return v;}
-  return vs.find(v=>/^en[-_]US/i.test(v.lang))||vs.find(v=>/^en/i.test(v.lang))||null;}catch(e){return null;}}
-if(window.speechSynthesis){_voice=pickVoice();speechSynthesis.onvoiceschanged=()=>{_voice=pickVoice();};}
-function speak(t){if(state.muted||!window.speechSynthesis||!t)return;try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t.replace(/-/g,""));u.lang="en-US";u.rate=.88;if(_voice)u.voice=_voice;speechSynthesis.speak(u);}catch(e){}}
+/* 목소리 고르기: 폰은 페이지를 열 때 목록이 비어 있다가 나중에 채워진다. 한 번만 고르면 초반엔 기기 기본(남성일 수 있음),
+   나중엔 다른 목소리가 나와 남녀가 번갈아 들린다. 그래서 (1) 말할 때마다 목소리를 확인하고, (2) 한 번 정한 이름을 끝까지 쓴다. */
+let _voice=null,_voiceName=null;
+function voiceScore(v){
+  const n=v.name||"",l=(v.lang||"").replace("_","-");
+  if(!/^en/i.test(l))return -1;                       // 영어 목소리만
+  let s=/^en-US/i.test(l)?40:20;
+  const PREF=["Samantha","Google US English","Ava","Allison","Microsoft Aria","Microsoft Jenny","Microsoft Zira","Joanna","Nicky","Karen"];
+  const i=PREF.findIndex(p=>n.indexOf(p)>=0); if(i>=0)s+=60-i*2;
+  if(/female/i.test(n))s+=8;
+  if(/\bmale\b|Alex|Daniel|Fred|Tom|Aaron|Arthur|Rishi|Oliver/i.test(n))s-=20;   // 목소리를 하나로 고정(여성 쪽)
+  if(/compact|eloquence|novelty|Albert|Bells|Boing|Bubbles|Cellos|Jester|Junior|Organ|Ralph|Superstar|Trinoids|Whisper|Wobble|Zarvox/i.test(n))s-=40;
+  if(v.localService)s+=6;                             // 기기 내장이 끊김 없다
+  return s;
+}
+function pickVoice(){try{const vs=speechSynthesis.getVoices();if(!vs||!vs.length)return null;
+  if(_voiceName){const keep=vs.find(v=>v.name===_voiceName);if(keep)return keep;}   // 이미 정한 목소리 유지
+  let best=null,bs=-1;for(const v of vs){const sc=voiceScore(v);if(sc>bs){bs=sc;best=v;}}
+  if(best)_voiceName=best.name;
+  return best;}catch(e){return null;}}
+if(window.speechSynthesis){_voice=pickVoice();speechSynthesis.onvoiceschanged=()=>{_voiceName=null;_voice=pickVoice();};}
+let _spkSeq=0,_primed=false;
+/* 내장 브라우저(WKWebView)는 한 번 말을 시켜야 목소리 목록이 채워진다. 소리 없는 발화로 목록을 깨운다. */
+function primeVoices(){if(_primed)return;_primed=true;try{const u=new SpeechSynthesisUtterance(" ");u.volume=0;u.lang="en-US";speechSynthesis.speak(u);}catch(e){}}
+function speak(t){if(state.muted||!window.speechSynthesis||!t)return;
+  if(!_voice)_voice=pickVoice();                      // 목록이 늦게 차는 기기 대비
+  const seq=++_spkSeq;
+  /* 아직 목록이 안 왔으면 기기 기본 목소리로 읽지 않고 최대 1.2초 기다린다(첫 단어도 같은 목소리로) */
+  if(!_voice){primeVoices();let n=0;const wait=setInterval(()=>{_voice=pickVoice();
+    if(_voice||++n>=12){clearInterval(wait);if(seq===_spkSeq)say(t);}},100);return;}
+  say(t);}
+function say(t){try{if(state.muted)return;speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(t.replace(/-/g,""));
+  u.lang=(_voice&&_voice.lang)||"en-US";u.rate=.88;if(_voice)u.voice=_voice;
+  speechSynthesis.speak(u);}catch(e){}}
 function spkSvg(m){return `<svg class="spk" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/>${m?'<path d="M16 9l6 6M22 9l-6 6"/>':'<path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/>'}</svg>`;}
 function setMuted(m){state.muted=m;$("#muteBtn").innerHTML=spkSvg(m);$("#muteBtn2").innerHTML=spkSvg(m)+(m?" 무음":" 소리");if(m&&window.speechSynthesis)try{speechSynthesis.cancel();}catch(e){}}
 setMuted(false);
