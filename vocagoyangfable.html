@@ -1437,7 +1437,7 @@ function fx(good,combo){
   }
   setTimeout(()=>{if(gen===fxGen)layer.innerHTML="";card.classList.remove("flash");document.body.classList.remove("shake");},1400);
 }
-function comboPop(layer,x,y,n,t){const d=document.createElement("div");d.className="combo t"+t;d.style.setProperty("--x",x+"px");d.style.setProperty("--y",(y-34)+"px");d.textContent=n+" COMBO";layer.appendChild(d);}
+function comboPop(layer,x,y,n,t){const r=$("#quizCard").getBoundingClientRect();const d=document.createElement("div");d.className="combo t"+t;d.style.setProperty("--x",(r.right-86)+"px");d.style.setProperty("--y",(r.bottom-30)+"px");d.textContent=n+" COMBO";layer.appendChild(d);}
 function burst(layer,x,y,o){
   const mk=(cls,html)=>{const d=document.createElement("div");d.className=cls;d.style.setProperty("--x",x+"px");d.style.setProperty("--y",y+"px");if(html)d.innerHTML=html;layer.appendChild(d);return d;};
   if(o.flash)mk("glowfx");
