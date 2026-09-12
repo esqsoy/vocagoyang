@@ -415,7 +415,7 @@ body.roaring{animation:roarshake .5s .15s;}
 .quiz.bad .hoectx .fill{color:var(--bad);}
 .rv{display:none;gap:8px;flex-direction:column;align-items:center;text-align:center;animation:ovin .18s ease-out;}
 .rv.show{display:flex;}
-.rv-word{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:2px;}
+.rv-word{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;margin-top:2px;} /* 발음기호를 단어 아래에(26.9.12 시험, 롤백은 flex-direction:row;gap:10px) */
 .rv-w{color:var(--gold);font-weight:900;font-size:clamp(1.9rem,8.4vw,2.7rem);line-height:1.1;overflow-wrap:anywhere;
 }
 .rv .ov-ipa{margin-top:0;}
