@@ -281,6 +281,26 @@ body.playing .app{gap:8px;padding-top:max(6px,env(safe-area-inset-top));}
 .fxlayer{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:40;}
 .quiz.flash{animation:cardPulse .5s ease-out;}
 @keyframes cardPulse{0%{box-shadow:var(--shadow);}45%{box-shadow:0 0 0 2px #fff,0 0 26px 8px var(--pink2),var(--shadow);}100%{box-shadow:var(--shadow);}}
+/* 정답 광원: 빈칸 자리에서 작은 꽃잎·불티가 바깥으로 터져 0.6초 안에 사라진다(글자를 안 가림) */
+.pt{position:absolute;left:var(--x,50%);top:var(--y,50%);width:var(--sz,18px);height:var(--sz,18px);transform:translate(-50%,-50%);
+  animation:ptfly var(--dur,.6s) cubic-bezier(.1,.8,.3,1) forwards;filter:drop-shadow(0 0 4px #fff) drop-shadow(0 0 8px var(--glow,#ff4fa3));will-change:transform,opacity;}
+.pt svg{width:100%;height:100%;display:block;}
+@keyframes ptfly{0%{transform:translate(-50%,-50%) translate(0,0) scale(.3) rotate(0);opacity:0;}12%{opacity:1;}
+  100%{transform:translate(-50%,-50%) translate(var(--dx),var(--dy)) scale(1) rotate(var(--rot,180deg));opacity:0;}}
+.dot{position:absolute;left:var(--x,50%);top:var(--y,50%);width:6px;height:6px;border-radius:50%;background:#fff;
+  box-shadow:0 0 6px #fff,0 0 12px var(--gold);transform:translate(-50%,-50%);animation:dotfly var(--dur,.5s) cubic-bezier(.1,.8,.3,1) forwards;}
+@keyframes dotfly{0%{transform:translate(-50%,-50%) translate(0,0) scale(1);opacity:1;}100%{transform:translate(-50%,-50%) translate(var(--dx),var(--dy)) scale(.2);opacity:0;}}
+.ring2{position:absolute;left:var(--x,50%);top:var(--y,50%);width:16px;height:16px;border-radius:50%;border:4px solid #fff;
+  transform:translate(-50%,-50%);animation:rg2 .5s ease-out forwards;box-shadow:0 0 18px #fff,0 0 36px var(--pink2);}
+@keyframes rg2{0%{width:16px;height:16px;opacity:1;}100%{width:200px;height:200px;opacity:0;border-width:1px;}}
+.glowfx{position:absolute;left:var(--x,50%);top:var(--y,50%);width:140px;height:140px;border-radius:50%;transform:translate(-50%,-50%);
+  background:radial-gradient(circle,rgba(255,255,255,.85),rgba(255,211,77,.35) 40%,transparent 70%);animation:glowfx .35s ease-out forwards;}
+@keyframes glowfx{0%{opacity:0;transform:translate(-50%,-50%) scale(.3);}30%{opacity:1;}100%{opacity:0;transform:translate(-50%,-50%) scale(1.6);}}
+/* 틀린 단어 지울 때: 줄 자리에서 하트가 커지며 빛나고 사라짐 */
+.hpop{position:absolute;left:var(--x,50%);top:var(--y,50%);width:76px;height:76px;transform:translate(-50%,-50%) scale(.3);opacity:0;
+  animation:hpop .55s cubic-bezier(.16,1,.3,1) forwards;filter:drop-shadow(0 0 10px #fff) drop-shadow(0 0 22px #ff4fa3);}
+.hpop svg{width:100%;height:100%;display:block;}
+@keyframes hpop{0%{transform:translate(-50%,-50%) scale(.3);opacity:0;}25%{opacity:1;}60%{transform:translate(-50%,-50%) scale(1.5);opacity:.95;}100%{transform:translate(-50%,-50%) scale(1.9);opacity:0;}}
 .spark{position:absolute;left:var(--x,50%);top:var(--y,50%);width:var(--sz,30px);height:var(--sz,30px);
   transform:translate(-50%,-50%);animation:fly 1.25s cubic-bezier(.18,.9,.3,1) forwards;
   filter:drop-shadow(0 0 5px #fff) drop-shadow(0 0 12px var(--glow,#ff4fa3));will-change:transform,opacity;}
@@ -1364,36 +1384,32 @@ function bigHeartSVG(){return '<svg viewBox="0 0 100 100" aria-hidden="true">'+
   '<path d="M50 86 C18 64 8 48 8 33 C8 20 18 12 30 12 C39 12 46 17 50 25 C54 17 61 12 70 12 C82 12 92 20 92 33 C92 48 82 64 50 86 Z" fill="url(#hgrad)" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>'+
   '<path d="M34 28 C28 30 25 36 26 42" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".85"/>'+
   '</svg>';}
+function fxOrigin(el){const r=(el||$("#quizCard")).getBoundingClientRect();return [r.left+r.width/2,r.top+r.height/2];}
 function fx(good){
   const card=$("#quizCard"),layer=$("#fxLayer");if(!card)return;
-  layer.innerHTML="";const r=card.getBoundingClientRect();
-  const x=r.left+r.width/2,y=r.top+r.height/2;
-  layer.style.setProperty("--x",x+"px");layer.style.setProperty("--y",y+"px");
+  layer.innerHTML="";
   document.body.classList.add("shake");card.classList.remove("flash");void card.offsetWidth;card.classList.add("flash");
   if(!good&&navigator.vibrate)try{navigator.vibrate(60);}catch(e){}
   if(good){
-    // big radiant HEART burst at center (light source)
-    const hb=document.createElement("div");hb.className="heartburst";
-    hb.style.setProperty("--x",x+"px");hb.style.setProperty("--y",y+"px");
-    hb.innerHTML=bigHeartSVG();layer.appendChild(hb);
-    // ROSES rain out around it (Ilsan rose festival)
-    const N=14;
-    for(let i=0;i<N;i++){const sp=document.createElement("span");sp.className="spark";
-      sp.innerHTML=roseSVG();
-      sp.style.setProperty("--glow","#ff4fa3");
-      sp.style.setProperty("--x",x+"px");sp.style.setProperty("--y",y+"px");
-      sp.style.setProperty("--sz",(45+Math.random()*50)+"px");
-      const a=Math.PI*2*i/N + (Math.random()-.5)*0.5;
-      const d=130+Math.random()*210;
-      sp.style.setProperty("--dx",Math.cos(a)*d+"px");
-      sp.style.setProperty("--dy",(Math.sin(a)*d + 40)+"px"); // bias downward = rain
-      sp.style.setProperty("--rot",(Math.random()*720-360)+"deg");
-      sp.style.animationDuration=(1.15+Math.random()*.8)+"s";
-      sp.style.animationDelay=(.1+Math.random()*.22)+"s"; // start after heart pops
-      layer.appendChild(sp);}
+    // 빈칸(정답 글자) 자리에서 터진다. 작은 꽃잎 10 + 불티 10 + 링 + 섬광, 전부 0.6초 안에 끝
+    const [x,y]=fxOrigin($("#hoeCtx .fill")||card);
+    burst(layer,x,y,{petals:10,dots:10,flash:true});
   }
-  setTimeout(()=>{layer.innerHTML="";card.classList.remove("flash");document.body.classList.remove("shake");},1100);
+  setTimeout(()=>{layer.innerHTML="";card.classList.remove("flash");document.body.classList.remove("shake");},800);
 }
+function burst(layer,x,y,o){
+  const mk=(cls,html)=>{const d=document.createElement("div");d.className=cls;d.style.setProperty("--x",x+"px");d.style.setProperty("--y",y+"px");if(html)d.innerHTML=html;layer.appendChild(d);return d;};
+  if(o.flash)mk("glowfx");
+  if(o.ring)mk("ring2");
+  const P=o.petals||0;for(let i=0;i<P;i++){const d=mk("pt",roseSVG());const a=Math.PI*2*i/P+(Math.random()-.5)*.6,dist=70+Math.random()*80;
+    d.style.setProperty("--sz",(13+Math.random()*11)+"px");d.style.setProperty("--dx",Math.cos(a)*dist+"px");d.style.setProperty("--dy",(Math.sin(a)*dist-10)+"px");
+    d.style.setProperty("--rot",(Math.random()*360-180)+"deg");d.style.setProperty("--dur",(.5+Math.random()*.2)+"s");}
+  const D=o.dots||0;for(let i=0;i<D;i++){const d=mk("dot");const a=Math.PI*2*i/D+(Math.random()-.5)*.8,dist=40+Math.random()*70;
+    d.style.setProperty("--dx",Math.cos(a)*dist+"px");d.style.setProperty("--dy",Math.sin(a)*dist+"px");d.style.setProperty("--dur",(.35+Math.random()*.2)+"s");}
+  if(o.heart)mk("hpop",heartSVG());
+}
+/* 결과 화면 틀린 단어 지울 때 */
+function fxHeart(el){const layer=$("#fxLayer");if(!layer)return;const [x,y]=fxOrigin(el);burst(layer,x,y,{heart:true,petals:8,dots:8,ring:true,flash:true});setTimeout(()=>{layer.innerHTML="";},700);}
 
 /* ===== misc ===== */
 function esc(v){return String(v).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
@@ -1415,7 +1431,7 @@ $("#sumList").addEventListener("click",()=>{state.session=null;renderExList();sh
 $("#retryEx").addEventListener("click",()=>startExercise(state.ei));
 $("#retryWrong").addEventListener("click",()=>{if(state.lastWrong&&state.lastWrong.size)startExercise(state.ei,state.lastWrong);});
 /* 결과 화면 틀린 단어: 탭하면 발음 + 그 줄이 사라짐. 마지막 줄까지 사라지면 '다음 연습'과 같은 동작(없으면 연습 목록) */
-$("#sumWrong").addEventListener("click",e=>{const b=e.target.closest(".wrow");if(!b||b.classList.contains("gone"))return;speak(b.dataset.t);b.classList.add("gone");
+$("#sumWrong").addEventListener("click",e=>{const b=e.target.closest(".wrow");if(!b||b.classList.contains("gone"))return;speak(b.dataset.t);fxHeart(b);b.classList.add("gone");
   setTimeout(()=>{b.remove();if(!$("#sumWrong").querySelector(".wrow")){const n=$("#nextEx");setTimeout(()=>{if(!n.disabled)n.click();else $("#sumList").click();},350);}},260);});
 $("#reveal").addEventListener("click",e=>{const b=e.target.closest(".rv-w");if(b){e.stopPropagation();const s=state.session;if(s&&s.currentId!==null)speak(s.words[s.currentId].term);}});
 $("#muteBtn2").addEventListener("click",()=>setMuted(!state.muted));
