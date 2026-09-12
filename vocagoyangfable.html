@@ -1446,6 +1446,8 @@ function burst(layer,x,y,o){
   if(o.flash)mk("glowfx");
   if(o.ring)mk("ring2");
   const P=o.petals||0;for(let i=0;i<P;i++){const d=mk("pt",roseSVG());const a=Math.PI*2*i/P+(Math.random()-.5)*.6,dist=(70+Math.random()*80)*(o.dist||1);
+    /* 무지개: 꽃잎마다 색상환을 돌린다(장미 기본색 분홍 기준). 빛도 같은 색 */
+    const h=Math.round(i/Math.max(1,P)*360+Math.random()*30);d.style.filter=`hue-rotate(${h}deg) saturate(1.25) drop-shadow(0 0 4px #fff) drop-shadow(0 0 8px hsl(${(335+h)%360},100%,70%))`;
     d.style.setProperty("--sz",(13+Math.random()*11)+"px");d.style.setProperty("--dx",Math.cos(a)*dist+"px");d.style.setProperty("--dy",(Math.sin(a)*dist-10)+"px");
     d.style.setProperty("--rot",(Math.random()*360-180)+"deg");d.style.setProperty("--dur",(.9+Math.random()*.3)+"s");}
   const D=o.dots||0;for(let i=0;i<D;i++){const d=mk("dot");const a=Math.PI*2*i/D+(Math.random()-.5)*.8,dist=(40+Math.random()*70)*(o.dist||1);
