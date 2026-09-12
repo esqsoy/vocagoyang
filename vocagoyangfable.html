@@ -323,7 +323,10 @@ body.shake{animation:bshake .3s;}
 /* ===== HoE 리치 카드/리빌 ===== */
 .hoectx .ex{margin-top:9px;font-size:1rem;color:var(--pinkpale);line-height:1.55;word-break:keep-all;text-align:center;}
 .hoectx .blanks{display:inline-flex;gap:6px;margin:0 4px;vertical-align:-2px;}
-.hoectx .slot{width:15px;height:1.05em;border-bottom:3px solid var(--gold);box-shadow:0 3px 8px rgba(255,211,77,.35);}
+.hoectx .slot{min-width:15px;height:1.05em;padding:0 1px;box-sizing:border-box;display:inline-flex;align-items:flex-end;justify-content:center;border-bottom:3px solid var(--gold);box-shadow:0 3px 8px rgba(255,211,77,.35);color:var(--gold);font-weight:900;font-size:1.05rem;line-height:1;text-shadow:0 0 10px var(--gold2);}
+.hoectx .slot.cur{border-bottom-color:#fff;animation:caret 1s steps(1) infinite;}
+.hoectx .slot.over{border-bottom-color:var(--bad);box-shadow:0 3px 8px rgba(255,90,90,.35);}
+@keyframes caret{50%{border-bottom-color:var(--gold);}}
 .ov-ipa{font-size:1.02rem;color:var(--cyan);font-weight:600;letter-spacing:.3px;margin-top:4px;}
 .ov-ipa b{color:var(--gold);font-weight:900;font-size:1.55rem;}
 .ov-ipa i{font-style:normal;color:var(--gold);font-weight:800;font-size:1.18rem;opacity:.85;}
@@ -1096,7 +1099,7 @@ function nextCard(){
     $("#ainput").oninput=null;
     const ov=$("#quizOverlay");ov.className="qoverlay";ov.innerHTML="";
     setCat('quizCat','evil');
-    updateStats();
+    updateStats();mirrorTyped();
     requestAnimationFrame(()=>$("#ainput").focus({preventScroll:true}));
     return;
   }
@@ -1145,6 +1148,10 @@ function applyCorrect(w){const s=state.session;if(s.round===1){w.passed=true;ret
 function applyWrong(w){const s=state.session;if(s.round===1)return;w.roundStreak=0;w.needed=2;defer(w.id);}
 function defer(id){const s=state.session;s.queue.splice(Math.min(3,s.queue.length),0,id);}
 
+/* 입력창에 친 글자를 예문의 빈칸 칸에 실시간으로 채운다(답 입력 단계에서만). 정답 길이를 넘는 글자는 붉은 칸으로 덧붙는다. */
+function mirrorTyped(){const s=state.session;if(!s||s.answered||s.copyMode||s.currentId===null)return;const wrap=$("#hoeCtx .blanks");if(!wrap)return;
+  const w=s.words[s.currentId];const n=(w.term||"").replace(/[^A-Za-z]/g,"").length||3;const chars=$("#ainput").value.replace(/\s+/g,"");
+  let h="";for(let i=0;i<Math.max(n,chars.length);i++){const c=chars[i]||"";h+=`<span class="slot${i>=n?" over":""}${i===chars.length?" cur":""}">${esc(c)}</span>`;}wrap.innerHTML=h;}
 function slots(n){let x="";for(let i=0;i<(n||3);i++)x+='<span class="slot"></span>';return `<span class="blanks">${x}</span>`;}
 function maskBlank(ex,ans){const n=(ans||"").replace(/[^A-Za-z]/g,"").length;return esc(ex||"").split("{{BLANK}}").join(slots(n));}
 function fillBlank(ex,ans){return esc(ex||"").split("{{BLANK}}").join(`<b class="fill">${esc(ans)}</b>`);}
@@ -1327,7 +1334,8 @@ function toast(msg){const t=$("#toast");t.textContent=msg;t.classList.add("show"
 $("#aform").addEventListener("submit",e=>{e.preventDefault();submit();});
 $("#ainput").addEventListener("keydown",e=>{if(e.key==="Enter"||e.keyCode===13){e.preventDefault();e.stopPropagation();const s=state.session;if(s&&s.answered&&!s.copyMode)doNext();else submit();}});
 /* 키보드 유지: 게임 화면에서 입력창 밖(카드·오버레이·버튼)을 눌러도 포커스를 뺏기지 않게 mousedown 기본동작(포커스 이동)을 막는다. click은 그대로 발생한다. */
-$("#gameScreen").addEventListener("mousedown",e=>{if(e.target&&e.target.closest&&e.target.closest("input,textarea,select,[contenteditable]"))return;e.preventDefault();});
+$("#gameScreen").addEventListener("mousedown",e=>{if(e.target&&e.target.closest&&e.target.closest("input,textarea,select,[contenteditable]"))return;e.preventDefault();const a=$("#ainput");if(document.activeElement!==a&&!a.disabled&&state.session&&!e.target.closest("button,a"))a.focus({preventScroll:true});});
+$("#ainput").addEventListener("input",mirrorTyped);
 $("#catSubmit").addEventListener("click",e=>{e.preventDefault();e.stopPropagation();submit();});
 $("#submitBtn")&&$("#submitBtn").addEventListener("click",e=>{e.preventDefault();e.stopPropagation();submit();});
 $("#hintBtn").addEventListener("click",giveHint);
