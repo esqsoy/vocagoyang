@@ -8,12 +8,12 @@
 <style>
 :root{
   --bg1:#160826; --bg2:#2a0c40; --bg3:#3a1054;
-  --ink:#ffffff; --muted:#cdbcef;
+  --ink:#ffffff; --muted:#c6bcdd;        /* 번역·라벨: 채도 .61→.33, 명암비 10.2:1 */
   --panel:#1d0c2e; --panel2:#26103a;
-  --line:#5a2d7a;
-  --pink:#ff4fa3; --pink2:#ff8ac6; --pinkpale:#ffd0e7;
-  --cyan:#5ce6ff; --mint:#7cffb2; --gold:#ffd34d; --gold2:#f5b301;
-  --bad:#ff5d6c;
+  --line:#6f3c95;                        /* 경계 명암비 1.83→2.41:1 */
+  --pink:#ff4fa3; --pink2:#ff8ac6; --pinkpale:#f6e2ec;   /* 예문: 채도 1.00→.53, 명암비 14.9:1 */
+  --cyan:#5ce6ff; --cyansoft:#a5dfef; --mint:#7cffb2; --gold:#ffd34d; --gold2:#f5b301;
+  --bad:#ff5d6c; --bad2:#ff8a94;         /* 테두리는 --bad, 글자는 읽기 쉬운 --bad2 */
   --radius:14px;
   --shadow:none;
 }
@@ -106,7 +106,8 @@ button,input{font:inherit;}
 .screen.active{display:flex;}
 /* game: 플레이 중엔 상단바·지도 숨김, 입력 띠 → 카드 → 진행 패널 */
 body.playing .appbar,body.playing .maproute{display:none;}
-body.playing .app{gap:8px;padding-top:max(6px,env(safe-area-inset-top));}
+body.playing::before{animation:none;opacity:.45;}   /* 별 깜빡임 정지 */
+body.playing .app{gap:8px;padding:max(6px,env(safe-area-inset-top)) 6px max(8px,env(safe-area-inset-bottom));}
 #gameScreen{gap:8px;}
 @keyframes lift{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
 
@@ -157,7 +158,7 @@ body.playing .app{gap:8px;padding-top:max(6px,env(safe-area-inset-top));}
 .kick{color:var(--mint);font-size:.74rem;font-weight:900;flex:none;}
 .gtitle{font-size:.86rem;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--muted);}
 .gstat{display:flex;align-items:center;gap:8px;flex:none;font-size:.82rem;}
-.gstat b{font-weight:900;} .gstat .t-time{color:var(--cyan);font-variant-numeric:tabular-nums;} .gstat .t-err{color:var(--bad);}
+.gstat b{font-weight:900;} .gstat .t-time{color:var(--cyansoft);font-variant-numeric:tabular-nums;} .gstat .t-err{color:var(--bad2);}
 .gstat .t-err i{font-style:normal;color:var(--muted);font-weight:700;font-size:.72rem;}
 .roundpill{flex:none;color:var(--muted);font-weight:800;font-size:.82rem;}
 .grow2{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
@@ -165,9 +166,12 @@ body.playing .app{gap:8px;padding-top:max(6px,env(safe-area-inset-top));}
 .spk{display:inline-block;vertical-align:middle;color:var(--pink2);}
 /* quiz card: 예문이 주인공 */
 .quiz{flex:0 0 auto;display:flex;flex-direction:column;justify-content:flex-start;gap:8px;
-  padding:12px 14px 16px;gap:10px;position:relative;overflow:hidden;isolation:isolate;transition:border-color .2s,box-shadow .2s;}
+  padding:12px 10px 14px;gap:10px;position:relative;overflow:hidden;isolation:isolate;transition:border-color .2s,box-shadow .2s;}
 .quiz.good{border-color:var(--mint);}
 .quiz.bad{border-color:var(--bad);}
+/* 공개 화면: 이미 답한 뜻 줄은 작게(자리를 해설에 넘긴다), 작은 폰에서 넘치면 카드가 스크롤 */
+.quiz.good,.quiz.bad{overflow-y:auto;}
+.quiz.good .meaning,.quiz.bad .meaning{font-size:clamp(1.05rem,4.6vw,1.3rem);}
 .quiz.wrong{animation:sh .3s;}
 .cstreak{color:var(--gold);font-weight:900;}
 .exwrap{position:relative;min-height:44px;}
@@ -181,9 +185,9 @@ body.playing .app{gap:8px;padding-top:max(6px,env(safe-area-inset-top));}
 .qtop .ibtn{flex:none;width:40px;min-height:40px;font-size:1.05rem;padding:0;display:grid;place-items:center;line-height:1;}
 .qtop .catbtn{height:54px;}
 .meaning{margin:0;text-align:center;font-weight:900;line-height:1.2;word-break:keep-all;
-  font-size:clamp(1.4rem,6.2vw,1.95rem);
+  font-size:clamp(1.55rem,7vw,2.2rem);
   position:relative;z-index:1;}
-.qmini{position:relative;z-index:1;text-align:center;color:var(--muted);font-size:.88rem;min-height:1.1em;}
+.qmini{position:relative;z-index:1;text-align:center;color:var(--muted);font-size:.92rem;min-height:1.1em;}
 .qmini:empty{display:none;}
 .timewrap{position:relative;z-index:1;height:8px;border-radius:99px;background:#2a1340;overflow:hidden;
   border:1px solid rgba(184,168,255,.25);}
@@ -394,7 +398,7 @@ body.roaring{animation:roarshake .5s .15s;}
 .hoectx .slot.cur{border-bottom-color:#fff;animation:caret 1s steps(1) infinite;}
 .hoectx .slot.over{border-bottom-color:var(--bad);}
 @keyframes caret{50%{border-bottom-color:var(--gold);}}
-.ov-ipa{font-size:1.02rem;color:var(--cyan);font-weight:600;letter-spacing:.3px;margin-top:4px;}
+.ov-ipa{font-size:1.02rem;color:var(--cyansoft);font-weight:600;letter-spacing:.3px;margin-top:4px;}
 .ov-ipa b{color:var(--gold);font-weight:900;font-size:1.55rem;}
 .ov-ipa i{font-style:normal;color:var(--gold);font-weight:800;font-size:1.18rem;opacity:.85;}
 .ov-ex{margin-top:10px;font-size:1.02rem;color:#fff;line-height:1.5;word-break:keep-all;}
@@ -405,25 +409,25 @@ body.roaring{animation:roarshake .5s .15s;}
 .ov-say{font-size:.86rem;opacity:.85;}
 .qoverlay.show{overflow-y:auto;}
 /* 제자리 정답 공개 */
-.hoectx .ex{font-size:clamp(1.28rem,5.7vw,1.62rem);line-height:1.7;margin-top:6px;}
+.hoectx .ex{font-size:clamp(1.42rem,6.4vw,1.8rem);line-height:1.7;margin-top:6px;}
 .hoectx .blanks{gap:6px;margin:0 4px;}
-.hoectx .slot{min-width:20px;font-size:1.35rem;border-bottom-width:3px;}
+.hoectx .slot{min-width:22px;font-size:1.5rem;border-bottom-width:3px;}
 .hoectx .slot.gh{color:#8a6aa8;border-bottom-color:#6a4c86;}
 .hoectx .slot.ok{color:var(--mint);border-bottom-color:var(--mint);}
-.hoectx .slot.x{color:var(--bad);border-bottom-color:var(--bad);}
+.hoectx .slot.x{color:var(--bad2);border-bottom-color:var(--bad);}
 .hoectx .fill{color:var(--gold);font-weight:900;padding:0 2px;}
 .quiz.bad .hoectx .fill{color:var(--bad);}
 .rv{display:none;gap:8px;flex-direction:column;align-items:center;text-align:center;animation:ovin .18s ease-out;}
 .rv.show{display:flex;}
 .rv-word{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;margin-top:2px;} /* 발음기호를 단어 아래에(26.9.12 시험, 롤백은 flex-direction:row;gap:10px) */
-.rv-w{color:var(--gold);font-weight:900;font-size:clamp(1.9rem,8.4vw,2.7rem);line-height:1.1;overflow-wrap:anywhere;
+.rv-w{color:var(--gold);font-weight:900;font-size:clamp(2.1rem,9.4vw,3rem);line-height:1.1;overflow-wrap:anywhere;
 }
 .rv .ov-ipa{margin-top:0;}
 .rv-w{cursor:pointer;}
-.rv .ov-tr{margin-top:-2px;font-size:1.06rem;color:var(--muted);}
+.rv .ov-tr{margin-top:-2px;font-size:1.16rem;color:var(--muted);}
 .rv .rv-word{margin-top:4px;}
-.rv .ov-ipa{font-size:1.18rem;} .rv .ov-ipa b{font-size:1.75rem;} .rv .ov-ipa i{font-size:1.35rem;}
-.rv .ov-c{font-size:1.14rem;line-height:1.65;padding:12px 14px;}
+.rv .ov-ipa{font-size:1.3rem;} .rv .ov-ipa b{font-size:1.95rem;} .rv .ov-ipa i{font-size:1.45rem;}
+.rv .ov-c{font-size:1.26rem;line-height:1.6;padding:11px 13px;}
 .rv .ov-say{font-size:.98rem;}
 .rv .ov-c{margin-top:2px;width:100%;}
 .rv .ov-hint{font-size:.8rem;}
