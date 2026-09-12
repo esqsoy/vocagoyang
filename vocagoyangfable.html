@@ -290,8 +290,8 @@ body.playing .app{gap:8px;padding-top:max(6px,env(safe-area-inset-top));}
 .dot{position:absolute;left:var(--x,50%);top:var(--y,50%);width:6px;height:6px;border-radius:50%;background:#fff;
   box-shadow:0 0 6px #fff,0 0 12px var(--gold);transform:translate(-50%,-50%);animation:dotfly var(--dur,.5s) cubic-bezier(.1,.8,.3,1) forwards;}
 @keyframes dotfly{0%{transform:translate(-50%,-50%) translate(0,0) scale(1);opacity:1;}100%{transform:translate(-50%,-50%) translate(var(--dx),var(--dy)) scale(.2);opacity:0;}}
-.ring2{position:absolute;left:var(--x,50%);top:var(--y,50%);width:16px;height:16px;border-radius:50%;border:4px solid #fff;
-  transform:translate(-50%,-50%);animation:rg2 .5s ease-out forwards;box-shadow:0 0 18px #fff,0 0 36px var(--pink2);}
+.ring2{position:absolute;left:var(--x,50%);top:var(--y,50%);width:16px;height:16px;border-radius:50%;border:3px solid #fff;
+  transform:translate(-50%,-50%);animation:rg2 .5s ease-out forwards;filter:drop-shadow(0 0 5px #fff) drop-shadow(0 0 10px var(--pink2));}
 @keyframes rg2{0%{width:16px;height:16px;opacity:1;}100%{width:200px;height:200px;opacity:0;border-width:1px;}}
 .glowfx{position:absolute;left:var(--x,50%);top:var(--y,50%);width:140px;height:140px;border-radius:50%;transform:translate(-50%,-50%);
   background:radial-gradient(circle,rgba(255,255,255,.85),rgba(255,211,77,.35) 40%,transparent 70%);animation:glowfx .35s ease-out forwards;}
