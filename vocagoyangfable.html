@@ -420,7 +420,8 @@ body.roaring{animation:roarshake .5s .15s;}
 }
 .rv .ov-ipa{margin-top:0;}
 .rv-w{cursor:pointer;}
-.rv .ov-tr{margin-top:0;font-size:1.06rem;color:var(--pinkpale);}
+.rv .ov-tr{margin-top:-2px;font-size:1.06rem;color:var(--muted);}
+.rv .rv-word{margin-top:4px;}
 .rv .ov-ipa{font-size:1.18rem;} .rv .ov-ipa b{font-size:1.75rem;} .rv .ov-ipa i{font-size:1.35rem;}
 .rv .ov-c{font-size:1.14rem;line-height:1.65;padding:12px 14px;}
 .rv .ov-say{font-size:.98rem;}
@@ -1288,12 +1289,13 @@ function doNext(){const s=state.session;if(!s||!s.answered||s.copyMode)return;if
 function armReveal(w){const s=state.session;s.revealAt=Date.now();s.revealTimer=setTimeout(doNext,revealDelay(w));document.addEventListener("keydown",onRevealKey);document.addEventListener("click",onRevealTap);}
 function fmtIpa(ipa){if(!ipa)return"";if(ipa.indexOf(".")>=0){return ipa.split(".").map(function(sy){var st=sy.indexOf("ˈ")>=0;var c=sy.replace(/[ˈˌ]/g,"");return st?"<b>"+esc(c)+"</b>":esc(c);}).join("");}/* 음절 점 없는 IPA: ˈ(주강세)→<b>, ˌ(부강세)→<i>. 핵모음(이중모음 포함)+최대 두음 원리로 코다 결정 */var V="aeiouæɑɔəɛɪʊʌɚɝ",DIP={"eɪ":1,"aɪ":1,"ɔɪ":1,"aʊ":1,"oʊ":1},ON2={"pr":1,"pl":1,"pj":1,"br":1,"bl":1,"bj":1,"tr":1,"tw":1,"tj":1,"dr":1,"dw":1,"dj":1,"kr":1,"kl":1,"kw":1,"kj":1,"ɡr":1,"ɡl":1,"ɡw":1,"ɡj":1,"fr":1,"fl":1,"fj":1,"θr":1,"θw":1,"ʃr":1,"sp":1,"st":1,"sk":1,"sm":1,"sn":1,"sl":1,"sw":1,"sf":1,"sj":1,"vj":1,"mj":1,"nj":1,"hj":1,"lj":1,"hw":1,"tʃ":1,"dʒ":1},ON3={"spr":1,"spl":1,"str":1,"skr":1,"skw":1,"spj":1,"stj":1,"skj":1};function isV(c){return V.indexOf(c)>=0;}function onsetLen(cl){for(var n=Math.min(3,cl.length);n>0;n--){var s=cl.slice(-n);if(n==1&&s!="ŋ"||n==2&&ON2[s]||n==3&&ON3[s])return n;}return 0;}var out="",i=0,n=ipa.length;while(i<n){var ch=ipa[i];if(ch!=="ˈ"&&ch!=="ˌ"){out+=esc(ch);i++;continue;}var tag=ch==="ˈ"?"b":"i",j=i+1;while(j<n&&!isV(ipa[j])&&ipa[j]!=="ˈ"&&ipa[j]!=="ˌ")j++;var k=j;if(k<n&&isV(ipa[k])){k++;if(k<n&&DIP[ipa[k-1]+ipa[k]])k++;}var m=k;while(m<n&&!isV(ipa[m])&&ipa[m]!=="ˈ"&&ipa[m]!=="ˌ")m++;var end=(m>=n||ipa[m]==="ˈ"||ipa[m]==="ˌ")?m:m-onsetLen(ipa.slice(k,m));if(end<k)end=k;out+="<"+tag+">"+esc(ipa.slice(i+1,end))+"</"+tag+">";i=end;}return out;}
 function rvWord(w){return `<div class="rv-word"><span class="rv-w" role="button" aria-label="발음 듣기">${esc(w.term)}</span>${w.ipa?`<span class="ov-ipa">/${fmtIpa(w.ipa)}/</span>`:""}</div>`;}
-function rvBody(w,line){return `${w.tr?`<div class="ov-tr">${esc(w.tr)}</div>`:""}${w.c?catNote(w.c):`<div class="ov-say">${esc(line)}</div>`}${w.meow?`<div class="ov-say">${esc(w.meow)}</div>`:""}`;}
+function rvTr(w){return w.tr?`<div class="ov-tr">${esc(w.tr)}</div>`:"";}
+function rvBody(w,line){return `${w.c?catNote(w.c):`<div class="ov-say">${esc(line)}</div>`}${w.meow?`<div class="ov-say">${esc(w.meow)}</div>`:""}`;}
 function openReveal(kind){const card=$("#quizCard");card.classList.add(kind);$("#qmini").style.display="none";$("#timeWrap").style.display="none";const rv=$("#reveal");rv.className="rv show";window.scrollTo({top:0});return rv;}
 function showReveal(type,w,line){
   const b=$("#hoeCtx .blanks");if(b)b.outerHTML=`<b class="fill">${esc(w.term)}</b>`;
   const rv=openReveal("good");
-  rv.innerHTML=`${rvWord(w)}${rvBody(w,line)}`;
+  rv.innerHTML=`${rvTr(w)}${rvWord(w)}${rvBody(w,line)}`;
   speak(w.term);
 }
 function renderCopyBlank(v){const s=state.session;if(!s||!s.copyMode)return;const wrap=$("#hoeCtx .blanks")||$("#ghostTar");if(!wrap)return;
@@ -1302,7 +1304,7 @@ function renderCopyBlank(v){const s=state.session;if(!s||!s.copyMode)return;cons
 function startCopy(w,line){
   const term=w.term;const s=state.session;s.copyMode=true;s.copyAns=term;
   const rv=openReveal("bad");
-  rv.innerHTML=`${rvWord(w)}${rvBody(w,line)}${w.ex?"":`<div class="blanks" id="ghostTar"></div>`}`;
+  rv.innerHTML=`${rvTr(w)}${rvWord(w)}${rvBody(w,line)}${w.ex?"":`<div class="blanks" id="ghostTar"></div>`}`;
   renderCopyBlank("");
   $("#ainput").value="";$("#ainput").className="ainput";$("#ainput").disabled=false;
   $("#submitBtn").disabled=false;$("#hintBtn").disabled=true;
