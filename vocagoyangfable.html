@@ -171,8 +171,11 @@ body.playing .app{gap:8px;padding-top:max(6px,env(safe-area-inset-top));}
 .quiz.bad{border-color:var(--bad);box-shadow:0 0 26px rgba(255,93,108,.28),inset 0 0 24px rgba(255,93,108,.05);}
 .quiz.wrong{animation:sh .3s;}
 .cstreak{color:var(--gold);font-weight:900;}
-.hform{position:absolute;left:0;top:0;width:1px;height:1px;overflow:hidden;}
-.quiz .ainput{position:absolute;left:0;top:0;width:1px;height:1px;min-height:0;opacity:0;font-size:16px;border:0;padding:0;margin:0;box-shadow:none;}
+.exwrap{position:relative;min-height:44px;}
+.hform{position:absolute;inset:0;z-index:2;}
+.quiz .ainput{position:absolute;inset:0;width:100%;height:100%;min-height:0;opacity:0;font-size:16px;border:0;border-radius:0;padding:0;margin:0;
+  background:transparent;color:transparent;caret-color:transparent;box-shadow:none;-webkit-user-select:none;user-select:none;}
+.quiz .ainput:focus{box-shadow:none;border:0;}
 .qtop{display:flex;align-items:center;gap:8px;}
 .qtop .meaning{flex:1;min-width:0;}
 .qtop .ibtn{flex:none;width:38px;min-height:38px;font-size:1rem;}
@@ -430,13 +433,6 @@ body.shake{animation:bshake .3s;}
     <!-- GAME -->
     <section class="screen" id="gameScreen">
       <div class="panel quiz" id="quizCard">
-        <!-- 숨긴 입력창: 키보드를 잡아 두는 닻. 글자는 빈칸에 실시간으로 채워진다 -->
-        <form class="hform" id="aform" autocomplete="off">
-          <input class="ainput" id="ainput" type="text" inputmode="text" enterkeyhint="go"
-                 autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="영어 정답">
-          <button class="btn" id="submitBtn" type="submit" aria-hidden="true" tabindex="-1">확인</button>
-          <div class="fb" id="fb" aria-live="polite"></div>
-        </form>
         <div class="qtop">
           <button class="ghost ibtn" id="hintBtn" type="button" aria-label="힌트">💡</button>
           <p class="meaning" id="meaning">-</p>
@@ -444,7 +440,16 @@ body.shake{animation:bshake .3s;}
             <img id="quizCat" alt="고양고양이">
           </button>
         </div>
-        <div class="hoectx" id="hoeCtx"></div>
+        <div class="exwrap">
+          <div class="hoectx" id="hoeCtx"></div>
+          <!-- 투명 입력창: 문장 영역 전체를 덮어 문장을 탭하면 곧 입력창 탭(iOS 키보드 보장). 글자는 빈칸에 실시간으로 채워진다 -->
+          <form class="hform" id="aform" autocomplete="off">
+            <input class="ainput" id="ainput" type="text" inputmode="text" enterkeyhint="go"
+                   autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="영어 정답">
+            <button class="btn" id="submitBtn" type="submit" aria-hidden="true" tabindex="-1">확인</button>
+            <div class="fb" id="fb" aria-live="polite"></div>
+          </form>
+        </div>
         <div class="qmini" id="qmini"></div>
         <div class="timewrap" id="timeWrap"><i id="timeFill"></i></div>
         <div class="rv" id="reveal" aria-live="polite"></div>
@@ -1208,7 +1213,8 @@ function defer(id){const s=state.session;s.queue.splice(Math.min(3,s.queue.lengt
 /* 입력창에 친 글자를 예문의 빈칸 칸에 실시간으로 채운다(답 입력 단계에서만). 정답 길이를 넘는 글자는 붉은 칸으로 덧붙는다. */
 function mirrorTyped(){const s=state.session;if(!s||s.answered||s.copyMode||s.currentId===null)return;const wrap=$("#hoeCtx .blanks");if(!wrap)return;
   const w=s.words[s.currentId];const n=(w.term||"").replace(/[^A-Za-z]/g,"").length||3;const chars=$("#ainput").value.replace(/\s+/g,"");
-  let h="";for(let i=0;i<Math.max(n,chars.length);i++){const c=chars[i]||"";h+=`<span class="slot${i>=n?" over":""}${i===chars.length?" cur":""}">${esc(c)}</span>`;}wrap.innerHTML=h;}
+  let h="";for(let i=0;i<Math.max(n,chars.length);i++){const c=chars[i]||"";h+=`<span class="slot${i>=n?" over":""}${i===chars.length?" cur":""}">${esc(c)}</span>`;}wrap.innerHTML=h;
+  if(chars.length>=n&&n>0)submit(); /* 빈칸이 다 차면 자동 확인(맞으면 공개, 틀리면 따라쓰기) */}
 function slots(n){let x="";for(let i=0;i<(n||3);i++)x+='<span class="slot"></span>';return `<span class="blanks">${x}</span>`;}
 function maskBlank(ex,ans){const n=(ans||"").replace(/[^A-Za-z]/g,"").length;return esc(ex||"").split("{{BLANK}}").join(slots(n));}
 function fillBlank(ex,ans){return esc(ex||"").split("{{BLANK}}").join(`<b class="fill">${esc(ans)}</b>`);}
@@ -1217,7 +1223,7 @@ function catNote(c){return `<div class="ov-c">${esc(c)}</div>`;}
 function hoeMid(w){let h="";if(w.ex)h+=`<div class="ov-ex">${fillBlank(w.ex,w.term)}</div>`;if(w.tr)h+=`<div class="ov-tr">${esc(w.tr)}</div>`;return h;}
 function revealDelay(w){var d=w.c?Math.min(15000,Math.round(1900+w.c.length*75)):2200;var s=state.session;if(s&&s.round>=2)d=Math.min(d,5000);return d;}
 function onRevealKey(e){if(e.key==="Enter"||e.key===" "||e.code==="Space"){const s=state.session;if(s&&s.answered&&!s.copyMode){e.preventDefault();doNext();}}}
-function onRevealTap(e){const s=state.session;if(!s||!s.answered||s.copyMode)return;if(s.revealAt&&(Date.now()-s.revealAt)<280)return;if(e.target&&e.target.closest&&e.target.closest("button,a,input,textarea,select"))return;doNext();}
+function onRevealTap(e){const s=state.session;if(!s||!s.answered||s.copyMode)return;if(s.revealAt&&(Date.now()-s.revealAt)<280)return;if(e.target&&e.target.closest&&e.target.closest("button,a,textarea,select")||(e.target.closest("input")&&e.target.id!=="ainput"))return;doNext();}
 function doNext(){const s=state.session;if(!s||!s.answered||s.copyMode)return;if(s.revealTimer){clearTimeout(s.revealTimer);s.revealTimer=null;}document.removeEventListener("keydown",onRevealKey);document.removeEventListener("click",onRevealTap);nextCard();}
 function armReveal(w){const s=state.session;s.revealAt=Date.now();s.revealTimer=setTimeout(doNext,revealDelay(w));document.addEventListener("keydown",onRevealKey);document.addEventListener("click",onRevealTap);}
 function fmtIpa(ipa){if(!ipa)return"";if(ipa.indexOf(".")>=0){return ipa.split(".").map(function(sy){var st=sy.indexOf("ˈ")>=0;var c=sy.replace(/[ˈˌ]/g,"");return st?"<b>"+esc(c)+"</b>":esc(c);}).join("");}/* 음절 점 없는 IPA: ˈ(주강세)→<b>, ˌ(부강세)→<i>. 핵모음(이중모음 포함)+최대 두음 원리로 코다 결정 */var V="aeiouæɑɔəɛɪʊʌɚɝ",DIP={"eɪ":1,"aɪ":1,"ɔɪ":1,"aʊ":1,"oʊ":1},ON2={"pr":1,"pl":1,"pj":1,"br":1,"bl":1,"bj":1,"tr":1,"tw":1,"tj":1,"dr":1,"dw":1,"dj":1,"kr":1,"kl":1,"kw":1,"kj":1,"ɡr":1,"ɡl":1,"ɡw":1,"ɡj":1,"fr":1,"fl":1,"fj":1,"θr":1,"θw":1,"ʃr":1,"sp":1,"st":1,"sk":1,"sm":1,"sn":1,"sl":1,"sw":1,"sf":1,"sj":1,"vj":1,"mj":1,"nj":1,"hj":1,"lj":1,"hw":1,"tʃ":1,"dʒ":1},ON3={"spr":1,"spl":1,"str":1,"skr":1,"skw":1,"spj":1,"stj":1,"skj":1};function isV(c){return V.indexOf(c)>=0;}function onsetLen(cl){for(var n=Math.min(3,cl.length);n>0;n--){var s=cl.slice(-n);if(n==1&&s!="ŋ"||n==2&&ON2[s]||n==3&&ON3[s])return n;}return 0;}var out="",i=0,n=ipa.length;while(i<n){var ch=ipa[i];if(ch!=="ˈ"&&ch!=="ˌ"){out+=esc(ch);i++;continue;}var tag=ch==="ˈ"?"b":"i",j=i+1;while(j<n&&!isV(ipa[j])&&ipa[j]!=="ˈ"&&ipa[j]!=="ˌ")j++;var k=j;if(k<n&&isV(ipa[k])){k++;if(k<n&&DIP[ipa[k-1]+ipa[k]])k++;}var m=k;while(m<n&&!isV(ipa[m])&&ipa[m]!=="ˈ"&&ipa[m]!=="ˌ")m++;var end=(m>=n||ipa[m]==="ˈ"||ipa[m]==="ˌ")?m:m-onsetLen(ipa.slice(k,m));if(end<k)end=k;out+="<"+tag+">"+esc(ipa.slice(i+1,end))+"</"+tag+">";i=end;}return out;}
