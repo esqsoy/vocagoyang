@@ -1812,9 +1812,10 @@ function applyCorrect(w){const s=state.session;if(s.round===1){w.passed=true;ret
 function applyWrong(w){const s=state.session;if(s.round===1)return;w.roundStreak=0;w.needed=2;defer(w.id);}
 function defer(id){const s=state.session;s.queue.splice(Math.min(3,s.queue.length),0,id);}
 
-/* 입력창에 친 글자를 예문의 빈칸 칸에 실시간으로 채운다(답 입력 단계에서만). 정답 길이를 넘는 글자는 붉은 칸으로 덧붙는다. */
+/* 입력창에 친 글자를 예문의 빈칸 칸에 실시간으로 채운다(답 입력 단계에서만). 정답 길이를 넘는 글자는 붉은 칸으로 덧붙는다.
+   글자 수는 빈칸을 만든 maskBlank와 같은 기준(알파벳만)으로 센다 — 공백만 지우면 o'clock·e-mail 같은 132개 표제어에서 자동제출이 한 글자 일찍 터져 오답이 된다. */
 function mirrorTyped(){const s=state.session;if(!s||s.answered||s.copyMode||s.currentId===null)return;const wrap=$("#hoeCtx .blanks");if(!wrap)return;
-  const w=s.words[s.currentId];const n=(w.term||"").replace(/[^A-Za-z]/g,"").length||3;const chars=$("#ainput").value.replace(/\s+/g,"");
+  const w=s.words[s.currentId];const n=(w.term||"").replace(/[^A-Za-z]/g,"").length||3;const chars=$("#ainput").value.replace(/[^A-Za-z]/g,"");
   let h="";for(let i=0;i<Math.max(n,chars.length);i++){const c=chars[i]||"";h+=`<span class="slot${i>=n?" over":""}${i===chars.length?" cur":""}">${esc(c)}</span>`;}wrap.innerHTML=h;
   if(chars.length>=n&&n>0)submit(); /* 빈칸이 다 차면 자동 확인(맞으면 공개, 틀리면 따라쓰기) */}
 function slots(n){let x="";for(let i=0;i<(n||3);i++)x+='<span class="slot"></span>';return `<span class="blanks">${x}</span>`;}
