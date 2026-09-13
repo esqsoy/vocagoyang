@@ -294,6 +294,14 @@ body.playing .app{gap:8px;padding:max(6px,env(safe-area-inset-top)) 6px max(8px,
 .dot{position:absolute;left:var(--x,50%);top:var(--y,50%);width:6px;height:6px;border-radius:50%;background:#fff;
   box-shadow:0 0 6px #fff,0 0 12px var(--gold);transform:translate(-50%,-50%);animation:dotfly var(--dur,.5s) cubic-bezier(.1,.8,.3,1) forwards;}
 @keyframes dotfly{0%{transform:translate(-50%,-50%) translate(0,0) scale(1);opacity:1;}60%{opacity:1;}100%{transform:translate(-50%,-50%) translate(var(--dx),var(--dy)) scale(.2);opacity:0;}}
+/* 하트 파동: 속을 채우지 않은 빛나는 윤곽이라 글자가 비쳐 읽힌다 */
+.hwave{position:absolute;left:var(--x,50%);top:var(--y,50%);width:var(--sz,56px);height:var(--sz,56px);
+  transform:translate(-50%,-50%) rotate(var(--tilt,0deg)) scale(.35);opacity:0;
+  animation:hwave var(--dur,.66s) var(--del,0s) cubic-bezier(.12,.75,.3,1) forwards;
+  filter:drop-shadow(0 0 6px rgba(255,138,198,.9));}
+.hwave svg{width:100%;height:100%;display:block;}
+@keyframes hwave{0%{transform:translate(-50%,-50%) rotate(var(--tilt,0deg)) scale(.35);opacity:0;}
+  18%{opacity:.95;}60%{opacity:.35;}100%{transform:translate(-50%,-50%) rotate(var(--tilt,0deg)) scale(var(--s2,2.2));opacity:0;}}
 /* 틀린 단어 지울 때: 줄 자리에서 하트가 커지며 빛나고 사라짐 */
 .hpop{position:absolute;left:var(--x,50%);top:var(--y,50%);width:76px;height:76px;transform:translate(-50%,-50%) scale(.3);opacity:0;
   animation:hpop .9s cubic-bezier(.16,1,.3,1) forwards;filter:drop-shadow(0 0 10px #fff) drop-shadow(0 0 22px #ff4fa3);}
