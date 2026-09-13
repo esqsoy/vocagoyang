@@ -289,25 +289,11 @@ body.playing .app{gap:8px;padding:max(6px,env(safe-area-inset-top)) 6px max(8px,
 .pt{position:absolute;left:var(--x,50%);top:var(--y,50%);width:var(--sz,18px);height:var(--sz,18px);transform:translate(-50%,-50%);
   animation:ptfly var(--dur,.6s) cubic-bezier(.1,.8,.3,1) forwards;filter:drop-shadow(0 0 5px var(--glow,#ff4fa3));will-change:transform,opacity;}
 .pt svg{width:100%;height:100%;display:block;}
-@keyframes ptfly{0%{transform:translate(-50%,-50%) translate(0,0) scale(.3) rotate(0);opacity:0;}10%{opacity:1;}70%{opacity:1;}
+@keyframes ptfly{0%{transform:translate(-50%,-50%) translate(0,0) scale(.3) rotate(0);opacity:0;}8%{opacity:1;}55%{opacity:1;}
   100%{transform:translate(-50%,-50%) translate(var(--dx),var(--dy)) scale(1) rotate(var(--rot,180deg));opacity:0;}}
 .dot{position:absolute;left:var(--x,50%);top:var(--y,50%);width:6px;height:6px;border-radius:50%;background:#fff;
   box-shadow:0 0 6px #fff,0 0 12px var(--gold);transform:translate(-50%,-50%);animation:dotfly var(--dur,.5s) cubic-bezier(.1,.8,.3,1) forwards;}
 @keyframes dotfly{0%{transform:translate(-50%,-50%) translate(0,0) scale(1);opacity:1;}60%{opacity:1;}100%{transform:translate(-50%,-50%) translate(var(--dx),var(--dy)) scale(.2);opacity:0;}}
-.ring2{position:absolute;left:var(--x,50%);top:var(--y,50%);width:200px;height:200px;border-radius:50%;border:2px solid #fff;
-  transform:translate(-50%,-50%) scale(.08);animation:rg2 .8s ease-out forwards;filter:drop-shadow(0 0 5px #fff) drop-shadow(0 0 10px var(--pink2));}
-/* width/height 대신 transform만 애니메이트한다(레이아웃 유발 없음) */
-@keyframes rg2{0%{transform:translate(-50%,-50%) scale(.08);opacity:1;}100%{transform:translate(-50%,-50%) scale(1);opacity:0;}}
-.glowfx{position:absolute;left:var(--x,50%);top:var(--y,50%);width:104px;height:104px;transform:translate(-50%,-50%);animation:glowfx .55s ease-out forwards;}
-.glowfx svg{width:100%;height:100%;display:block;}
-/* 하트 파동: 두꺼운 분홍 아래층 + 얇은 흰 윗층이 하트 윤곽을 그리며 퍼진다 */
-.hwave{position:absolute;left:var(--x,50%);top:var(--y,50%);width:var(--sz,56px);height:var(--sz,56px);
-  transform:translate(-50%,-50%) rotate(var(--tilt,0deg)) scale(.35);opacity:0;
-  animation:hwave var(--dur,.66s) var(--del,0s) cubic-bezier(.12,.75,.3,1) forwards;}
-.hwave svg{width:100%;height:100%;display:block;}
-@keyframes hwave{0%{transform:translate(-50%,-50%) rotate(var(--tilt,0deg)) scale(.35);opacity:0;}
-  22%{opacity:.95;}100%{transform:translate(-50%,-50%) rotate(var(--tilt,0deg)) scale(var(--s2,2.2));opacity:0;}}
-@keyframes glowfx{0%{opacity:0;transform:translate(-50%,-50%) scale(.25);}18%{opacity:1;transform:translate(-50%,-50%) scale(.8);}100%{opacity:0;transform:translate(-50%,-50%) scale(1.7);}}
 /* 틀린 단어 지울 때: 줄 자리에서 하트가 커지며 빛나고 사라짐 */
 .hpop{position:absolute;left:var(--x,50%);top:var(--y,50%);width:76px;height:76px;transform:translate(-50%,-50%) scale(.3);opacity:0;
   animation:hpop .9s cubic-bezier(.16,1,.3,1) forwards;filter:drop-shadow(0 0 10px #fff) drop-shadow(0 0 22px #ff4fa3);}
@@ -1448,20 +1434,12 @@ function heartSVG(){return '<svg viewBox="0 0 24 24" aria-hidden="true">'+
    장미(고양시 꽃)가 주인공이라 어느 단계에서도 절반 이상은 장미다. */
 var HPATH='M50 86 C19 64 9 47 9 32 C9 19 19 11 30.5 11 C39.5 11 46.5 16 50 23.5 C53.5 16 60.5 11 69.5 11 C81 11 91 19 91 32 C91 47 81 64 50 86 Z';
 var hguid=0;
-/* 중앙 하트 광원: 흰빛 → 금 → 분홍으로 번지는 다섯 겹 그라데이션(그라데이션 id는 버스트마다 새로) */
-function heartGlowSVG(){var id='hgl'+(++hguid);
-  return '<svg viewBox="0 0 100 100" aria-hidden="true"><defs>'+
-  '<radialGradient id="'+id+'" cx="50%" cy="40%" r="58%">'+
-  '<stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>'+
-  '<stop offset="18%" stop-color="#fff2f9" stop-opacity=".9"/>'+
-  '<stop offset="40%" stop-color="#ffc0e2" stop-opacity=".5"/>'+
-  '<stop offset="66%" stop-color="#ff8ac6" stop-opacity=".26"/>'+
-  '<stop offset="88%" stop-color="#ff4fa3" stop-opacity=".08"/>'+
-  '<stop offset="100%" stop-color="#ff4fa3" stop-opacity="0"/>'+
-  '</radialGradient></defs><path d="'+HPATH+'" fill="url(#'+id+')"/></svg>';}
+/* 하트는 '속을 채운 반투명 도형'이 아니라 '빛나는 윤곽'이다.
+   어두운 카드 위에서 반투명 채움은 빛이 아니라 회색 덩어리로 보이고 글자를 덮는다(26.9.13 영신 지적). */
 var HEART_WAVE='<svg viewBox="0 0 100 100" aria-hidden="true">'+
-  '<path d="'+HPATH+'" fill="none" stroke="#ff8ac6" stroke-width="7" stroke-linejoin="round" opacity=".3"/>'+
-  '<path d="'+HPATH+'" fill="none" stroke="#fff" stroke-width="2.6" stroke-linejoin="round" opacity=".95"/></svg>';
+  '<path d="'+HPATH+'" fill="none" stroke="#ff8ac6" stroke-width="9" stroke-linejoin="round" opacity=".5"/>'+
+  '<path d="'+HPATH+'" fill="none" stroke="#ffe6f3" stroke-width="4.5" stroke-linejoin="round"/>'+
+  '<path d="'+HPATH+'" fill="none" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg>';
 /* 꽃 색: 어두운 보라 위에서 또렷한 여덟 색. 분홍에서 시작해 콤보가 오를수록 넓어진다 */
 var HUES=[330,342,45,312,32,278,158,196];
 function hueSpan(c){return c<3?2:(c<6?4:(c<10?6:8));}
@@ -1531,24 +1509,22 @@ function burst(layer,x,y,o){
     if(html)d.innerHTML=html;layer.appendChild(d);return d;};
   var P=o.petals|0,D=o.dots|0,dist=o.dist||1,c=Math.max(1,o.combo||P||1);
   /* 1층 — 중앙 하트 광원 */
-  if(o.flash){var g=mk("glowfx",heartGlowSVG());
-    g.style.width=g.style.height=Math.round(96+Math.min(22,P)*1.8)+"px";}
-  /* 2층 — 하트 파동(콤보가 오를수록 겹이 는다) */
-  var waves=P>=20?3:(P>=6?2:1);
+  /* 1층 — 하트: 빛나는 윤곽이 퍼진다(속을 채우지 않으므로 글자가 비쳐 읽힌다). 콤보가 오를수록 겹이 는다 */
+  var waves=c>=20?3:(c>=5?2:1);
   for(var w=0;w<waves;w++){var wv=mk("hwave",HEART_WAVE);
-    wv.style.setProperty("--sz",(52+w*8)+"px");
-    wv.style.setProperty("--s2",(1.7+w*.45+Math.min(.6,dist-1)).toFixed(2));
-    wv.style.setProperty("--tilt",((w%2?1:-1)*(4+w*3))+"deg");
-    wv.style.setProperty("--del",(w*.09)+"s");
-    wv.style.setProperty("--dur",(.62+w*.07)+"s");}
+    wv.style.setProperty("--sz",(30+w*7)+"px");
+    wv.style.setProperty("--s2",(1.9+w*.4).toFixed(2));
+    wv.style.setProperty("--tilt",((w%2?1:-1)*(5+w*4))+"deg");
+    wv.style.setProperty("--del",(w*.075)+"s");
+    wv.style.setProperty("--dur",(.56+w*.06)+"s");}
   /* 3층 — 꽃: 종류는 콤보 단계로, 색은 분홍에서 시작해 단계마다 넓어진다 */
   var pool=flowerPool(c),span=hueSpan(c),off=Math.floor(R()*pool.length);
   for(var i=0;i<P;i++){
     var d=mk("pt",pool[(i+off)%pool.length]);
     var h=HUES[(i*5)%span],col="hsl("+h+",100%,"+(h>40&&h<200?64:66)+"%)";
     d.style.color=col;d.style.setProperty("--glow",col);
-    var a=Math.PI*2*i/P+(R()-.5)*.6,dt=(70+R()*80)*dist;
-    d.style.setProperty("--sz",(14+R()*11)+"px");
+    var a=Math.PI*2*i/P+(R()-.5)*.6,dt=(92+R()*88)*dist;
+    d.style.setProperty("--sz",(20+R()*14)+"px");
     d.style.setProperty("--dx",Math.cos(a)*dt+"px");
     d.style.setProperty("--dy",(Math.sin(a)*dt-10)+"px");
     d.style.setProperty("--rot",(R()*360-180)+"deg");
@@ -1558,7 +1534,6 @@ function burst(layer,x,y,o){
     dd.style.setProperty("--dx",Math.cos(aa)*dd2+"px");dd.style.setProperty("--dy",Math.sin(aa)*dd2+"px");
     dd.style.setProperty("--dur",(.7+R()*.2)+"s");}
   /* 5층 — 링·가장자리 금빛 */
-  if(o.ring)mk("ring2");
   if(o.edge)mk("edge");
   /* 결과 화면용: 하트 꽃가루와 가운데 큰 하트 */
   var H=o.hearts||0;for(var k=0;k<H;k++){var hd=mk("pt",F_PHEART);
