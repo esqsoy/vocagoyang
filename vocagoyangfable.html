@@ -1766,11 +1766,13 @@ function nextLessonIndex(li){for(let i=li+1;i<state.lessons.length;i++){if(visEx
 function loadProgress(){try{return JSON.parse(localStorage.getItem(STORAGE))||{};}catch{return{};}}
 function saveProgress(){try{localStorage.setItem(STORAGE,JSON.stringify(state.progress));}catch(e){}}
 function getRec(lid,t){return state.progress?.[lid]?.[t]||null;}
+/* 최고 기록은 두지 않는다(26.9.14 영신). 남기던 bestMs·lastMs·attempts·errors·first는
+   타일에 '최근 정답률 · 역대 최고 시간'을 라벨 없이 붙여 존재한 적 없는 판을 보여줬고,
+   bestMs 말고는 어디서도 읽지 않는 쓰기 전용 필드였다. 클리어 여부만 남긴다.
+   (이미 저장된 옛 기록의 나머지 필드는 읽는 곳이 없어 그대로 두어도 무해하다.) */
 function setRec(lid,t,rec){
   state.progress[lid]=state.progress[lid]||{};
-  const ex=state.progress[lid][t];
-  state.progress[lid][t]={completed:true,bestMs:ex?.bestMs?Math.min(ex.bestMs,rec.timeMs):rec.timeMs,
-    lastMs:rec.timeMs,attempts:rec.attempts,errors:rec.errors,first:rec.first};
+  state.progress[lid][t]={completed:true};
   saveProgress();
 }
 function totalExercises(){return state.lessons.reduce((s,L)=>s+visEx(L).length,0);}
@@ -1874,7 +1876,7 @@ function renderExList(){
     const b=document.createElement("button");b.className="exbtn"+(rec?.completed?" cleared":"");b.type="button";
     b.style.position="relative";
     // 단어 미리보기는 넣지 않는다(보면 아는 단어로 착각함 — 26.9.12 영신)
-    const recTxt=rec?`${rec.first!=null?rec.first+"% · ":""}${fmt(rec.bestMs)}`:"미클리어";
+    const recTxt=rec?.completed?"클리어":"미클리어";
     b.innerHTML=`<span class="t" style="font-size:1.02rem;">${esc(ex.title)}</span>
       <span class="meta"><span>${ex.words.length}개</span><span class="${rec?'done':''}">${recTxt}</span></span>`;
     b.onclick=()=>startExercise(i);list.appendChild(b);
