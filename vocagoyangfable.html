@@ -1790,37 +1790,35 @@ const state={lessons:[],progress:loadProgress(),li:0,ei:0,session:null,ticker:nu
 
 /* set cat images */
 
-/* 왼쪽(구멍 쪽)을 보고 달리는 흰 쥐. 20년대 고무호스 카툰 화법 —
-   동그란 머리, 큰 원형 귀, 굵고 둥근 꼬리, 통통한 신발.
-   벌레로 읽히던 원인 둘: ① 수염이 더듬이·침처럼 뻗는다 → 아예 뺀다(한 가닥으로 줄여도 같았다).
-   ② 주둥이가 앞으로 튀어나온다 → 작게 줄여 머리에 파묻고, 코는 그 '위쪽 앞'에 작게 얹는다.
-      코가 중간 높이에서 앞을 향하면 그대로 곤충 주둥이가 된다.
-   데포르메 원칙: 머리·귀를 키우고 몸과 잔디테일은 줄인다. 26px에서는 실루엣이 전부다.
-   눈은 파이컷을 뺐다 — 그 크기에서 조각은 구멍처럼 보여 얼굴이 무너진다.
-   색은 흰색. 분홍 몸통은 갓 태어난 쥐 같아 징그럽다(영신). */
+/* 왼쪽으로 달아나는 흰 쥐. 얼굴은 정면.
+   옆모습 주둥이를 세 번 고쳐 봤지만 계속 벌레·아귀로 읽혔다. 원인은 잔손질이 아니라 구조다 —
+   앞으로 튀어나온 주둥이 끝에 코를 달면 곤충 주둥이가 되고, 주둥이에 입을 그리면 벌어진 턱이 된다.
+   구조가 다른 여섯 안(정면·3/4·주둥이없는 옆모습·한덩어리·귀과장·기존)을 20/26/34/48px과 확대로
+   나란히 찍어 고른 결과, 주둥이가 아예 없는 정면 얼굴이 압도적이었다(scratchpad/mice/).
+   정면이면 주둥이가 구조적으로 생길 수 없고, 26px에서도 눈 둘·귀 둘이 얼굴로 읽힌다.
+   달리는 방향은 몸통과 꼬리가 오른쪽에 있어 실루엣으로 드러난다.
+   색은 흰색 — 분홍 몸통은 갓 태어난 쥐 같아 징그럽다(영신). */
 const MOUSE_SVG='<svg viewBox="-4 -4 46 36" aria-hidden="true">'+
   /* 꼬리 */
-  '<path d="M30 22 C40 23 41 10 34 10.5" fill="none" stroke="#e4ddf2" stroke-width="2.9" stroke-linecap="round"/>'+
-  /* 뒷귀 */
-  '<circle cx="27.5" cy="6.6" r="6.6" fill="#d2c9e4"/><circle cx="27.5" cy="6.6" r="3.5" fill="#e0a8c6"/>'+
-  /* 몸통 — 데포르메: 머리를 키운 만큼 작게 */
-  '<ellipse cx="21" cy="20" rx="8.8" ry="7" fill="#e6e0f2"/>'+
-  /* 통통한 신발 */
-  '<ellipse cx="17" cy="27" rx="4" ry="2.5" fill="#c2b6d8"/>'+
-  '<ellipse cx="8.8" cy="27.2" rx="4.2" ry="2.6" fill="#c2b6d8"/>'+
-  /* 머리 — 크게 */
-  '<circle cx="12" cy="15.4" r="11.2" fill="#f5f2fb"/>'+
-  /* 앞귀 — 크게 */
-  '<circle cx="10.8" cy="2.6" r="8.4" fill="#f5f2fb"/><circle cx="10.8" cy="3.2" r="4.2" fill="#ffcfe6"/>'+
-  /* 주둥이 — 짧고 뭉툭하게, 머리에 붙인다. 길게 빼면 곤충 주둥이가 된다 */
-  '<ellipse cx="4.6" cy="20" rx="4.4" ry="3.9" fill="#fdfcff" stroke="#d5cbe6" stroke-width="0.85"/>'+
-  '<path d="M2.6 21.8 q2 1.5 4 0" fill="none" stroke="#c0b2d4" stroke-width="1" stroke-linecap="round"/>'+
-  /* 코 — 뭉툭한 끝에 큼직하게 */
-  '<ellipse cx="1.6" cy="17.4" rx="1.9" ry="1.6" fill="#7d5486"/>'+
-  /* 눈 · 볼 */
-  '<ellipse cx="8" cy="13.2" rx="2.8" ry="3.1" fill="#2a1436"/>'+
-  '<circle cx="7" cy="12.1" r="1.05" fill="#fff"/>'+
-  '<ellipse cx="13.4" cy="18.6" rx="2.3" ry="1.7" fill="#ffb3d5" opacity=".6"/>'+
+  '<path d="M32 23 C41 24 42 12 35 12" fill="none" stroke="#e4ddf2" stroke-width="2.9" stroke-linecap="round"/>'+
+  /* 몸통 — 얼굴 뒤로 물러나 있다 */
+  '<ellipse cx="24" cy="21" rx="8.4" ry="6.6" fill="#e6e0f2"/>'+
+  /* 통통한 발 */
+  '<ellipse cx="20" cy="27.2" rx="3.8" ry="2.4" fill="#c2b6d8"/>'+
+  '<ellipse cx="11" cy="27.4" rx="4" ry="2.5" fill="#c2b6d8"/>'+
+  /* 귀 두 개 — 얼굴을 감싸 쥐임을 알린다 */
+  '<circle cx="4.4" cy="10" r="7.6" fill="#f0ebf8"/><circle cx="4.4" cy="10.2" r="4.3" fill="#ffcfe6"/>'+
+  '<circle cx="19.6" cy="10" r="7.6" fill="#f0ebf8"/><circle cx="19.6" cy="10.2" r="4.3" fill="#ffcfe6"/>'+
+  /* 얼굴 */
+  '<circle cx="12" cy="16.4" r="10.6" fill="#f7f4fc"/>'+
+  /* 눈 — 크게, 얼굴 중앙선보다 아래에. 유아도해의 핵심이다 */
+  '<ellipse cx="7.9" cy="17.2" rx="2.7" ry="3.1" fill="#2a1436"/><circle cx="6.9" cy="16.1" r="1.05" fill="#fff"/>'+
+  '<ellipse cx="16.1" cy="17.2" rx="2.7" ry="3.1" fill="#2a1436"/><circle cx="15.1" cy="16.1" r="1.05" fill="#fff"/>'+
+  /* 코 — 작게. 입은 그리지 않는다(그리면 턱으로 읽힌다) */
+  '<ellipse cx="12" cy="21.8" rx="1.6" ry="1.2" fill="#e07fae"/>'+
+  /* 볼 */
+  '<ellipse cx="4.4" cy="20.4" rx="2" ry="1.4" fill="#ffb3d5" opacity=".55"/>'+
+  '<ellipse cx="19.6" cy="20.4" rx="2" ry="1.4" fill="#ffb3d5" opacity=".55"/>'+
   '</svg>';
 (function(){const m=document.getElementById("tMouse");if(m)m.innerHTML=MOUSE_SVG;})();
 function setCat(id,expr){const el=document.getElementById(id);if(el)el.src=CAT[expr]||CAT.normal;}
