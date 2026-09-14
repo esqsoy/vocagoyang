@@ -941,6 +941,200 @@ body.roaring{animation:roarshake .5s .15s;}
   .v3-flower,.v3-heart{animation-duration:.4s;}
   .v3-core{animation-duration:.4s;}
 }
+
+/* ===== 정답 효과 새판: 큰 윤곽 하트 + 단계 개화 꽃 ===== */
+#fxLayer{--fx-ha:1;--fx-fa:1;}
+/* ===== shock · 하트 충격파 =====
+   속 빈 얇은 하트 링 하나가 빈칸에서 폭발하듯 튀어나와 화면 밖으로 빠진다.
+   fill 은 언제나 none. 반투명 채움·헤일로 원·큰 blur 덩어리 없음.
+   선 두께 함정 해법:
+     div 는 처음부터 큰 고정 크기(--shk-S)로 두고 scale 로만 키운다.
+     scale 이 k 일 때 stroke-width 에 1/k 를 곱해 되돌린다 → 화면상 선 두께가 시종 일정.
+     transform 키프레임과 stroke-width 키프레임을 같은 백분율·linear 로 맞춰 짝지었다.
+     --shk-sw1/--shk-sw2 는 JS가 (원하는 화면px × 96 ÷ --shk-S) 로 계산해 넣는다. (viewBox 폭 96단위)
+   애니메이트하는 것: transform / opacity / stroke-width 뿐. 레이아웃 유발 없음. */
+
+.shock-ring{position:absolute;left:var(--shk-x,50%);top:var(--shk-y,50%);
+  width:var(--shk-S,360px);height:calc(var(--shk-S,360px) * 0.927);
+  transform:translate(-50%,-50%) rotate(var(--shk-tilt,0deg)) scale(.10);
+  opacity:0;will-change:transform,opacity;
+  animation:shock-fly var(--shk-dur,.56s) var(--shk-del,0s) linear both;
+  filter:drop-shadow(0 0 5px rgba(255,124,196,.9)) opacity(var(--fx-ha,1));}
+.shock-ring svg{width:100%;height:100%;display:block;overflow:visible;}
+
+@keyframes shock-fly{
+  0%  {transform:translate(-50%,-50%) rotate(var(--shk-tilt,0deg)) scale(.10);opacity:0;}
+  3%  {transform:translate(-50%,-50%) rotate(var(--shk-tilt,0deg)) scale(.18);opacity:.7;}
+  6%  {transform:translate(-50%,-50%) rotate(var(--shk-tilt,0deg)) scale(.27);opacity:1;}
+  14% {transform:translate(-50%,-50%) rotate(var(--shk-tilt,0deg)) scale(.45);opacity:1;}
+  25% {transform:translate(-50%,-50%) rotate(var(--shk-tilt,0deg)) scale(.63);opacity:.95;}
+  40% {transform:translate(-50%,-50%) rotate(var(--shk-tilt,0deg)) scale(.78);opacity:.88;}
+  58% {transform:translate(-50%,-50%) rotate(var(--shk-tilt,0deg)) scale(.89);opacity:.70;}
+  78% {transform:translate(-50%,-50%) rotate(var(--shk-tilt,0deg)) scale(.96);opacity:.42;}
+  100%{transform:translate(-50%,-50%) rotate(var(--shk-tilt,0deg)) scale(1);opacity:0;}}
+
+/* 1/k 보정표 — 위 scale 값과 같은 백분율에 1:1 대응 (끝으로 갈수록 살짝 더 가늘게) */
+.shock-ring .shock-a{animation:shock-w1 var(--shk-dur,.56s) var(--shk-del,0s) linear both;}
+.shock-ring .shock-b{animation:shock-w2 var(--shk-dur,.56s) var(--shk-del,0s) linear both;}
+@keyframes shock-w1{
+  0%{stroke-width:calc(var(--shk-sw1) * 10);}    3%{stroke-width:calc(var(--shk-sw1) * 5.56);}
+  6%{stroke-width:calc(var(--shk-sw1) * 3.70);}  14%{stroke-width:calc(var(--shk-sw1) * 2.18);}
+  25%{stroke-width:calc(var(--shk-sw1) * 1.49);} 40%{stroke-width:calc(var(--shk-sw1) * 1.13);}
+  58%{stroke-width:calc(var(--shk-sw1) * .90);}  78%{stroke-width:calc(var(--shk-sw1) * .75);}
+  100%{stroke-width:calc(var(--shk-sw1) * .62);}}
+@keyframes shock-w2{
+  0%{stroke-width:calc(var(--shk-sw2) * 10);}    3%{stroke-width:calc(var(--shk-sw2) * 5.56);}
+  6%{stroke-width:calc(var(--shk-sw2) * 3.70);}  14%{stroke-width:calc(var(--shk-sw2) * 2.18);}
+  25%{stroke-width:calc(var(--shk-sw2) * 1.49);} 40%{stroke-width:calc(var(--shk-sw2) * 1.13);}
+  58%{stroke-width:calc(var(--shk-sw2) * .90);}  78%{stroke-width:calc(var(--shk-sw2) * .75);}
+  100%{stroke-width:calc(var(--shk-sw2) * .62);}}
+
+/* 터지는 첫 순간의 못 — 작은 하트가 짧게 때리고 사라진다. 역시 속은 비었다 */
+.shock-core{position:absolute;left:var(--shk-x,50%);top:var(--shk-y,50%);
+  width:var(--shk-S,120px);height:calc(var(--shk-S,120px) * 0.927);
+  transform:translate(-50%,-50%) scale(.30);opacity:0;will-change:transform,opacity;
+  animation:shock-pop var(--shk-dur,.26s) linear both;
+  filter:drop-shadow(0 0 6px rgba(255,255,255,.75)) opacity(var(--fx-ha,1));}
+.shock-core svg{width:100%;height:100%;display:block;overflow:visible;}
+@keyframes shock-pop{
+  0%  {transform:translate(-50%,-50%) scale(.30);opacity:0;}
+  15% {transform:translate(-50%,-50%) scale(.75);opacity:1;}
+  55% {transform:translate(-50%,-50%) scale(1.25);opacity:.75;}
+  100%{transform:translate(-50%,-50%) scale(1.75);opacity:0;}}
+.shock-core .shock-a{animation:shock-cw1 var(--shk-dur,.26s) linear both;}
+.shock-core .shock-b{animation:shock-cw2 var(--shk-dur,.26s) linear both;}
+@keyframes shock-cw1{0%{stroke-width:calc(var(--shk-sw1) * 3.33);}15%{stroke-width:calc(var(--shk-sw1) * 1.33);}
+  55%{stroke-width:calc(var(--shk-sw1) * .80);}100%{stroke-width:calc(var(--shk-sw1) * .57);}}
+@keyframes shock-cw2{0%{stroke-width:calc(var(--shk-sw2) * 3.33);}15%{stroke-width:calc(var(--shk-sw2) * 1.33);}
+  55%{stroke-width:calc(var(--shk-sw2) * .80);}100%{stroke-width:calc(var(--shk-sw2) * .57);}}
+
+/* ===== bloomstep · 단계 개화 =====
+   periodic-game animateBigBohr()의 껍질 구조를 꽃으로 옮긴다.
+   가까운 고리 한 겹이 한꺼번에 "촹" 피고, 잠깐 뒤 다음 고리가 "촹".
+   3중 중첩: 바깥=비행(translate/scale/rotate), 가운데=살랑(rotate±·translateX±), 안쪽=꽃잎 나부낌(scaleX±).
+   transform·opacity만 애니메이트한다. drop-shadow는 바깥 한 겹뿐. */
+
+.bloomstep-f{
+  position:absolute;
+  left:var(--bloomstep-x,50%);
+  top:var(--bloomstep-y,50%);
+  width:var(--bloomstep-sz,46px);
+  height:var(--bloomstep-sz,46px);
+  transform:translate(-50%,-50%) scale(.14);
+  opacity:0;
+  filter:drop-shadow(0 0 7px var(--bloomstep-glow,#ff4fa3)) opacity(var(--fx-fa,1));
+  animation:bloomstepFly var(--bloomstep-dur,.56s) var(--bloomstep-del,0s) cubic-bezier(.26,.78,.34,1) both;
+  will-change:transform,opacity;
+}
+/* 비행: 초반에 이미 절반 넘게 날아가지만 크기는 아직 작다 →
+   꽃이 커지는 순간엔 예문 줄에서 이미 벗어나 있다(글자 가림 방지) */
+@keyframes bloomstepFly{
+  0%{
+    opacity:0;
+    transform:translate(-50%,-50%) translate(0,0) scale(.14) rotate(0deg);
+  }
+  11%{opacity:1;}
+  33%{
+    transform:translate(-50%,-50%)
+      translate(calc(var(--bloomstep-dx,0px)*.63),calc(var(--bloomstep-dy,0px)*.63))
+      scale(.56) rotate(calc(var(--bloomstep-rot,60deg)*.35));
+  }
+  63%{
+    opacity:1;
+    transform:translate(-50%,-50%)
+      translate(calc(var(--bloomstep-dx,0px)*.92),calc(var(--bloomstep-dy,0px)*.92))
+      scale(1.09) rotate(calc(var(--bloomstep-rot,60deg)*.74));
+  }
+  86%{
+    opacity:.94;
+    transform:translate(-50%,-50%)
+      translate(calc(var(--bloomstep-dx,0px)*.98),calc(var(--bloomstep-dy,0px)*.98))
+      scale(1) rotate(calc(var(--bloomstep-rot,60deg)*.94));
+  }
+  100%{
+    opacity:0;
+    transform:translate(-50%,-50%)
+      translate(var(--bloomstep-dx,0px),var(--bloomstep-dy,0px))
+      scale(.92) rotate(var(--bloomstep-rot,60deg));
+  }
+}
+
+/* 갈래마다 "언제 커지는가"를 달리한다. 글자띠를 지나는 동안은 작게,
+   다 지나고 나서 크게 핀다 — 큰 꽃이 글자 위에 앉지 않는 핵심 장치다. */
+.bloomstep-f.bloomstep-u{animation-name:bloomstepFlyUp;}
+.bloomstep-f.bloomstep-d{animation-name:bloomstepFlyDn;}
+/* 위 갈래: 헤더 글자띠(원점에서 53~73px 위)를 지날 때 크기 0.28 */
+@keyframes bloomstepFlyUp{
+  0%{opacity:0;transform:translate(-50%,-50%) scale(.12) rotate(0deg);}
+  12%{opacity:1;}
+  40%{transform:translate(-50%,-50%)
+      translate(calc(var(--bloomstep-dx,0px)*.70),calc(var(--bloomstep-dy,0px)*.70))
+      scale(.28) rotate(calc(var(--bloomstep-rot,60deg)*.38));}
+  62%{opacity:1;transform:translate(-50%,-50%)
+      translate(calc(var(--bloomstep-dx,0px)*.92),calc(var(--bloomstep-dy,0px)*.92))
+      scale(.95) rotate(calc(var(--bloomstep-rot,60deg)*.72));}
+  84%{opacity:.95;transform:translate(-50%,-50%)
+      translate(var(--bloomstep-dx,0px),var(--bloomstep-dy,0px))
+      scale(1.08) rotate(calc(var(--bloomstep-rot,60deg)*.93));}
+  100%{opacity:0;transform:translate(-50%,-50%)
+      translate(var(--bloomstep-dx,0px),var(--bloomstep-dy,0px))
+      scale(1) rotate(var(--bloomstep-rot,60deg));}
+}
+/* 아래 갈래: 뜻풀이 상자(원점에서 145~265px 아래)를 지날 때 크기 0.30 */
+@keyframes bloomstepFlyDn{
+  0%{opacity:0;transform:translate(-50%,-50%) scale(.12) rotate(0deg);}
+  12%{opacity:1;}
+  34%{transform:translate(-50%,-50%)
+      translate(calc(var(--bloomstep-dx,0px)*.58),calc(var(--bloomstep-dy,0px)*.58))
+      scale(.30) rotate(calc(var(--bloomstep-rot,60deg)*.30));}
+  55%{transform:translate(-50%,-50%)
+      translate(calc(var(--bloomstep-dx,0px)*.84),calc(var(--bloomstep-dy,0px)*.84))
+      scale(.72) rotate(calc(var(--bloomstep-rot,60deg)*.58));}
+  78%{opacity:1;transform:translate(-50%,-50%)
+      translate(calc(var(--bloomstep-dx,0px)*.97),calc(var(--bloomstep-dy,0px)*.97))
+      scale(1.10) rotate(calc(var(--bloomstep-rot,60deg)*.86));}
+  100%{opacity:0;transform:translate(-50%,-50%)
+      translate(var(--bloomstep-dx,0px),var(--bloomstep-dy,0px))
+      scale(1) rotate(var(--bloomstep-rot,60deg));}
+}
+
+/* 살랑 1 — 송이 전체가 바람에 나부낀다(좌우로 기울며 옆으로 밀림) */
+.bloomstep-s{
+  display:block;width:100%;height:100%;
+  transform-origin:50% 78%;
+  animation:bloomstepSway var(--bloomstep-swd,.34s) var(--bloomstep-del,0s) ease-in-out 4 alternate both;
+  will-change:transform;
+}
+@keyframes bloomstepSway{
+  0%  {transform:rotate(calc(var(--bloomstep-sw,9deg)*-1)) translateX(calc(var(--bloomstep-sx,3px)*-1));}
+  100%{transform:rotate(var(--bloomstep-sw,9deg)) translateX(var(--bloomstep-sx,3px));}
+}
+/* 살랑 2 — 꽃잎면이 바람 받아 돌아눕는다(가로로 납작해졌다 펴짐) */
+.bloomstep-p{
+  display:block;width:100%;height:100%;
+  transform-origin:50% 52%;
+  animation:bloomstepFlut var(--bloomstep-fld,.25s) var(--bloomstep-fdl,0s) ease-in-out 6 alternate both;
+  will-change:transform;
+}
+@keyframes bloomstepFlut{
+  0%  {transform:scaleX(var(--bloomstep-fa,.74)) rotate(calc(var(--bloomstep-fr,5deg)*-1));}
+  100%{transform:scaleX(1.04) rotate(var(--bloomstep-fr,5deg));}
+}
+.bloomstep-p svg{width:100%;height:100%;display:block;}
+
+@media (prefers-reduced-motion:reduce){
+  .bloomstep-f,.bloomstep-f.bloomstep-u,.bloomstep-f.bloomstep-d{
+    animation:bloomstepCalm .34s var(--bloomstep-cdel,0s) ease-out both;
+    filter:none;
+  }
+  .bloomstep-s,.bloomstep-p{animation:none;transform:none;}
+}
+@keyframes bloomstepCalm{
+  0%{opacity:0;transform:translate(-50%,-50%) translate(calc(var(--bloomstep-dx,0px)*.5),calc(var(--bloomstep-dy,0px)*.5)) scale(.7);}
+  35%{opacity:1;}
+  100%{opacity:0;transform:translate(-50%,-50%) translate(var(--bloomstep-dx,0px),var(--bloomstep-dy,0px)) scale(1);}
+}
+
 </style>
 </head>
 <body>
@@ -2019,10 +2213,183 @@ function fx(good,combo){
     /* fx()는 showReveal() 전에 불리므로 .fill이 아직 없다 → 빈칸 컨테이너(.blanks)를 쓴다 */
     const [x,y]=fxOrigin($("#hoeCtx .fill")||$("#hoeCtx .blanks")||card);const c=Math.max(1,combo||1);
     const o={petals:Math.min(40,c),dots:Math.min(24,4+c),flash:true,ring:c>=5,edge:c>=10,dist:1+Math.min(15,c)*.05,combo:c};
-    burstStyle().fn(layer,x,y,o);tameHeart(layer);
+    applyFX(layer);
+    burstStyle().fn(layer,x,y,o);
+    tameHeart(layer);                 /* 변형이 깐 '속 찬 하트'를 걷어낸다 */
+    if(burstStyle().fn!==burst)bigHeartFX(layer,x,y,o);  /* 합본 외 다섯도 같은 윤곽 하트를 쓴다 */
   }
   setTimeout(()=>{if(gen===fxGen)layer.innerHTML="";card.classList.remove("flash");document.body.classList.remove("shake");},1400);
 }
+
+/* ===== 정답 효과 손잡이 =====
+   영신이 화면을 보고 조절하는 값. 가림이 거슬리면 alpha를 낮추거나 t를 줄이면 된다.
+     heartA / flowerA — 투명도 배율(1=그대로, .6=더 연하게). filter:opacity()로 곱한다.
+     heartT / flowerT — 시간 배율(1=그대로, .7=더 빨리 사라짐). 지속·지연에 곱한다. */
+var FX={heartA:1, heartT:1, flowerA:1, flowerT:1};
+function FXt(ms){return Math.round(ms*FX.flowerT);}
+function applyFX(layer){if(!layer)return;
+  layer.style.setProperty("--fx-ha",FX.heartA);
+  layer.style.setProperty("--fx-fa",FX.flowerA);}
+/* shock · 하트 충격파 — 속 빈 얇은 하트 링이 빈칸에서 터져 화면 밖으로 빠진다 */
+(function(){
+var SP='M50 86 C19 64 9 47 9 32 C9 19 19 11 30.5 11 C39.5 11 46.5 16 50 23.5 '+
+       'C53.5 16 60.5 11 69.5 11 C81 11 91 19 91 32 C91 47 81 64 50 86 Z';
+/* viewBox 폭 96단위. 1단위 = --S/96 px → 화면px 환산은 JS가 맡는다 */
+function shockSVG(pink){
+  return '<svg viewBox="2 4 96 89" aria-hidden="true">'+
+    '<path class="shock-a" d="'+SP+'" fill="none" stroke="'+pink+'" stroke-width="1" '+
+      'stroke-linejoin="round" stroke-linecap="round" opacity=".78"/>'+
+    '<path class="shock-b" d="'+SP+'" fill="none" stroke="#fff" stroke-width="1" '+
+      'stroke-linejoin="round" stroke-linecap="round"/></svg>';
+}
+function setw(el,S,px1,px2){            /* 화면상 두께(px) → viewBox 단위 */
+  el.style.setProperty('--shk-sw1',(px1*96/S).toFixed(4)+'px');
+  el.style.setProperty('--shk-sw2',(px2*96/S).toFixed(4)+'px');
+}
+window.bigHeartFX=function(layer,x,y,o){
+  var c=Math.max(1,Math.min(40,(o&&o.combo)||1));
+  var rings=c>=20?3:(c>=5?2:1);
+  var S0=(375+Math.min(c,20)*4)*((o&&o.hscale)||1);   /* 콤보1 379 → 콤보20 455 */
+  var MUL=[1,1.10,1.20], PINK=['#ff7ec4','#ffa1d4','#ffcbe8'];
+
+  /* 중심의 못: 아주 짧게 때린다 */
+  var k=document.createElement('div');k.className='shock-core';
+  k.style.setProperty('--shk-x',x+'px');k.style.setProperty('--shk-y',y+'px');
+  k.style.setProperty('--shk-S','120px');k.style.setProperty('--shk-dur',((.26+(c>=5?.02:0))*FX.heartT).toFixed(3)+'s');
+  setw(k,120,3.4,1.5);
+  k.innerHTML=shockSVG('#ff8ac6');
+  layer.appendChild(k);
+
+  /* 충격파 링 */
+  for(var w=0;w<rings;w++){
+    var S=Math.min(520,Math.round(S0*MUL[w]));
+    var d=document.createElement('div');d.className='shock-ring';
+    d.style.setProperty('--shk-x',x+'px');d.style.setProperty('--shk-y',y+'px');
+    d.style.setProperty('--shk-S',S+'px');
+    d.style.setProperty('--shk-tilt',((w%2?1:-1)*(3+w*3))+'deg');
+    d.style.setProperty('--shk-del',(w*.07*FX.heartT).toFixed(3)+'s');
+    d.style.setProperty('--shk-dur',(0.6*FX.heartT).toFixed(3)+'s');            /* 0.14 지연 + 0.60 = 최대 0.74초 */
+    setw(d,S,4.2-w*.6,1.7-w*.3);               /* 화면상 분홍 4.2→3.0px, 흰 1.7→1.1px */
+    d.innerHTML=shockSVG(PINK[w]);
+    layer.appendChild(d);
+  }
+};
+})();
+
+/* ===== bloomstep · 단계 개화 (stepped bloom) =====
+   periodic-game의 animateBigBohr() — 핵 → 껍질 한 겹씩 → 최외각 — 을 꽃으로 옮긴 것.
+   한 번에 다 터뜨리지 않고 "겹"을 시간축에 펼쳐 쌓이는 맛을 낸다.
+
+   다만 보어 모형의 동심원을 그대로 옮기면 안 된다. 예문 줄이 가로로 누워 있어서
+   원을 그리면 반드시 글자 위에 앉는다. 그래서 "겹"은 유지하되 방향은 글자가 없는
+   세 군데(위 모서리 · 좌우 빈 주머니 · 카드 아래 어둠)로만 보낸다.
+   겹이 바깥일수록 멀리·크게 → 콤보가 오르면 겹이 늘어 크기 중앙값이 저절로 올라간다. */
+window.stepFlowerFX=function(layer,x,y,o){
+  o=o||{};
+  var R=Math.random;
+  var c=Math.max(1,Math.min(40,o.combo||o.petals||1));
+  var dist=o.dist||1;
+
+  /* --- 겹(고리) 수: 보어 껍질처럼 콤보 단계로 늘어난다 --- */
+  var rings = c<3?2 : (c<6?3 : (c<12?4 : 5));
+  /* --- 시차 예산: 겹이 많아지면 간격을 줄여 0.9초 안에 끝낸다 --- */
+  var step    = rings<=2?130 : (rings===3?105 : (rings===4?82  : 66));  /* ms, 겹 사이 */
+  var baseDur = rings<=2?640 : (rings===3?575 : (rings===4?545 : 520)); /* ms, 한 송이 */
+  var intra   = rings<=2?14  : (rings===3?12  : (rings===4?9   : 7));   /* ms, 같은 겹 안 */
+
+  /* --- 송이 수 --- */
+  var total=Math.round(Math.min(28,7+c*1.05)), w=[], sw=0, r;
+  for(r=0;r<rings;r++){w.push(r+2);sw+=r+2;}
+  var cnt=[];
+  for(r=0;r<rings;r++)cnt.push(Math.max(3,Math.round(total*w[r]/sw)));
+
+  /* --- 거리·크기 배율: 둘 다 콤보와 함께 커진다 --- */
+  var distK=1+(dist-1)*0.28;               /* 콤보1 ≈1.01, 콤보20 ≈1.21 */
+  var szK  =1+Math.min(c,20)/20*0.22;      /* 콤보1 ≈1.01, 콤보20 =1.22 */
+
+  /* 화면 밖으로 다 날아가 버리면 콤보가 높을수록 도리어 휑해진다.
+     방향은 그대로 두고 길이만 줄여 착지점을 화면 안에 붙든다. */
+  var W=layer.clientWidth||window.innerWidth||390, Hh=layer.clientHeight||window.innerHeight||760;
+  var LX0=-18, LX1=W+18, LY0=-30, LY1=Hh*0.88;
+  var clamp=function(v){
+    var k=1,t;
+    if(v[0]<0){t=(LX0-x)/v[0];if(t<k)k=t;} else if(v[0]>0){t=(LX1-x)/v[0];if(t<k)k=t;}
+    if(v[1]<0){t=(LY0-y)/v[1];if(t<k)k=t;} else if(v[1]>0){t=(LY1-y)/v[1];if(t<k)k=t;}
+    if(k<0)k=0;v[0]*=k;v[1]*=k;};
+
+  var pool=flowerPool(c), span=hueSpan(c), poff=Math.floor(R()*pool.length), idx=0;
+
+  for(r=0;r<rings;r++){
+    var n=cnt[r], rDel=r*step;
+    var sz=(44+r*4.5)*szK;
+    /* 세 갈래로만 보낸다. 글자가 없는 세 군데다.
+       위   — 카드 윗테두리 바깥(헤더 글자보다 위). 위쪽은 110px뿐이라
+              겹이 바깥일수록 더 높이가 아니라 더 옆으로 벌어진다(윗단 화환).
+       옆   — 카드 좌·우 빈 주머니(뜻·발음기호가 가운데 좁게 있어 양옆이 비었다)
+       아래 — 카드 바깥 아래 어둠 */
+    var upDy=-(94+r*3)*distK,   upDx=(138+r*9)*distK;
+    var sdDy=(84+r*6)*distK,    sdDx=(106+r*14)*distK;
+    var dnDy=(330+r*30)*distK,  dnDx=(52+r*28)*distK;
+
+    /* 갈래 배분. 좌·우 주머니는 세로로 80px밖에 안 돼 겹을 여러 장 못 받는다.
+       그래서 안쪽 세 겹만 옆으로 보내고, 바깥 겹은 자리가 넓은 위·아래로 뿌린다.
+       — 보어 모형에서 최외각이 가장 크게 벌어지는 것과 같은 얼개다. */
+    var lanes=[],q;
+    for(q=0;q<n;q++)lanes.push(r<3 ? q%3 : (q%2?2:0));
+    var lane=[0,0,0],laneN=[0,0,0];
+    for(q=0;q<n;q++)laneN[lanes[q]]++;
+
+    for(var i=0;i<n;i++){
+      var br=lanes[i], k=lane[br]++;
+      /* 같은 갈래 안에서 부채꼴로 펼친다 (-1 ~ +1) */
+      var t=laneN[br]<2?0:((k/(laneN[br]-1))*2-1);
+      t+=(R()-.5)*0.30;
+      var jit=0.90+R()*0.20;
+      var dx,dy;
+      /* 위 — 헤더 글자(가로 85~295px)를 피해 좌·우 위 모서리로 */
+      if(br===0){var sg=(k%2?1:-1);dx=sg*upDx*(0.94+Math.abs(t)*0.24)*jit;dy=upDy*jit;}
+      /* 옆 — 높이를 거의 고정해 뜻·발음기호 양옆 빈 주머니에 머문다 */
+      else if(br===1){var sgn=(k%2?1:-1);dx=sgn*sdDx*(0.92+Math.abs(t)*0.22)*jit;dy=sdDy*jit;}
+      /* 아래 — 카드 바깥 어둠. 바깥 겹일수록 좌우로 넓게 뿌린다 */
+      else{dx=dnDx*t*jit*(1+r*0.12);dy=dnDy*jit;}
+      var v=[dx,dy];clamp(v);dx=v[0];dy=v[1];
+
+      var f=document.createElement("div");
+      f.className="bloomstep-f"+(br===0?" bloomstep-u":(br===2?" bloomstep-d":""));
+      var h=HUES[(idx*5)%span], col="hsl("+h+",100%,"+(h>40&&h<200?64:66)+"%)";
+      f.style.color=col;
+      f.style.setProperty("--bloomstep-glow",col);
+      f.style.setProperty("--bloomstep-x",x+"px");
+      f.style.setProperty("--bloomstep-y",y+"px");
+      f.style.setProperty("--bloomstep-sz",(sz*(0.92+R()*0.18)).toFixed(1)+"px");
+      f.style.setProperty("--bloomstep-dx",dx.toFixed(1)+"px");
+      f.style.setProperty("--bloomstep-dy",dy.toFixed(1)+"px");
+      f.style.setProperty("--bloomstep-rot",((R()*2-1)*140).toFixed(0)+"deg");
+      f.style.setProperty("--bloomstep-del",FXt(rDel+i*intra)+"ms");
+      f.style.setProperty("--bloomstep-dur",FXt(baseDur+Math.round(R()*40))+"ms");
+      f.style.setProperty("--bloomstep-cdel",Math.min(220,rDel)+"ms");
+
+      /* 살랑 1 — 송이가 통째로 나부낀다 */
+      var s=document.createElement("div");s.className="bloomstep-s";
+      s.style.setProperty("--bloomstep-sw",(8+R()*7).toFixed(1)+"deg");
+      s.style.setProperty("--bloomstep-sx",((R()*2-1)*5).toFixed(1)+"px");
+      s.style.setProperty("--bloomstep-swd",FXt(150+R()*90).toFixed(0)+"ms");
+      s.style.setProperty("--bloomstep-del",FXt(rDel+i*intra)+"ms");
+
+      /* 살랑 2 — 꽃잎면이 바람 받아 돌아눕는다 */
+      var p=document.createElement("div");p.className="bloomstep-p";
+      p.style.setProperty("--bloomstep-fa",(0.66+R()*0.16).toFixed(2));
+      p.style.setProperty("--bloomstep-fr",(3+R()*5).toFixed(1)+"deg");
+      p.style.setProperty("--bloomstep-fld",FXt(110+R()*70).toFixed(0)+"ms");
+      p.style.setProperty("--bloomstep-fdl",FXt(rDel+i*intra+Math.round(R()*60))+"ms");
+      p.innerHTML=pool[(idx+poff)%pool.length];
+
+      s.appendChild(p);f.appendChild(s);layer.appendChild(f);
+      idx++;
+    }
+  }
+};
+
 function burst(layer,x,y,o){
   var R=Math.random;
   var mk=function(cls,html){var d=document.createElement("div");d.className=cls;
@@ -2031,25 +2398,15 @@ function burst(layer,x,y,o){
   var P=o.petals|0,D=o.dots|0,dist=o.dist||1,c=Math.max(1,o.combo||P||1);
   /* 1층 — 중앙 하트 광원 */
   /* 1층 — 하트: 빛나는 윤곽이 퍼진다(속을 채우지 않으므로 글자가 비쳐 읽힌다). 콤보가 오를수록 겹이 는다 */
-  var waves=c>=20?3:(c>=5?2:1);
-  for(var w=0;w<waves;w++){var wv=mk("hwave",HEART_WAVE);
-    wv.style.setProperty("--sz",(30+w*7)+"px");
-    wv.style.setProperty("--s2",(1.9+w*.4).toFixed(2));
-    wv.style.setProperty("--tilt",((w%2?1:-1)*(5+w*4))+"deg");
-    wv.style.setProperty("--del",(w*.075)+"s");
-    wv.style.setProperty("--dur",(.56+w*.06)+"s");}
+  /* 마더텅급 크기(화면 300px대)를 속 빈 윤곽으로 낸다. scale로 키우면서 stroke-width에
+     1/k를 곱해 되돌리므로 하트가 아무리 커져도 화면상 선은 3~4px로 일정하다.
+     hscale — 결과 화면에서 틀린 단어 한 줄을 지울 때는 그 줄에 맞춰 줄인다. */
+  bigHeartFX(layer,x,y,o);
   /* 3층 — 꽃: 종류는 콤보 단계로, 색은 분홍에서 시작해 단계마다 넓어진다 */
-  var pool=flowerPool(c),span=hueSpan(c),off=Math.floor(R()*pool.length);
-  for(var i=0;i<P;i++){
-    var d=mk("pt",pool[(i+off)%pool.length]);
-    var h=HUES[(i*5)%span],col="hsl("+h+",100%,"+(h>40&&h<200?64:66)+"%)";
-    d.style.color=col;d.style.setProperty("--glow",col);
-    var a=Math.PI*2*i/P+(R()-.5)*.6,dt=(92+R()*88)*dist;
-    d.style.setProperty("--sz",(20+R()*14)+"px");
-    d.style.setProperty("--dx",Math.cos(a)*dt+"px");
-    d.style.setProperty("--dy",(Math.sin(a)*dt-10)+"px");
-    d.style.setProperty("--rot",(R()*360-180)+"deg");
-    d.style.setProperty("--dur",(.9+R()*.3)+"s");}
+  /* 한 번에 터뜨리지 않고 겹을 시간축에 펼친다(periodic-game의 보어 껍질 얼개).
+     겹이 바깥일수록 멀리·크게 → 콤보가 오르면 꽃 크기 중앙값이 저절로 올라간다.
+     예전 코드는 콤보가 오를수록 작은 종이 섞여 오히려 작아졌다. */
+  stepFlowerFX(layer,x,y,o);
   /* 4층 — 금빛 불티 */
   for(var j=0;j<D;j++){var dd=mk("dot");var aa=Math.PI*2*j/D+(R()-.5)*.8,dd2=(40+R()*70)*dist;
     dd.style.setProperty("--dx",Math.cos(aa)*dd2+"px");dd.style.setProperty("--dy",Math.sin(aa)*dd2+"px");
@@ -2887,16 +3244,17 @@ function burstStyle(){var n=BURSTS.length,li=state.li|0,ei=state.ei|0;return BUR
    글자를 덮는 때가 된다(26.9.13 영신 지적). 만들어진 뒤 그 요소만 골라 채움을 옅게·작게 만든다.
    꽃·불티는 건드리지 않는다. */
 function tameHeart(layer){
-  var els=layer.querySelectorAll(".v1-glow,.v2-glow,.v3-core,.v4-glow,.v6-glow"),cap=78;
-  for(var i=0;i<els.length;i++){var e=els[i],w=e.offsetWidth;   /* 변형(scale)이 빠진 레이아웃 크기로 잰다 */
-    if(w>cap){e.style.width=cap+"px";e.style.height=cap+"px";}
-    var st=e.querySelectorAll("stop");
-    for(var j=0;j<st.length;j++){var o=parseFloat(st[j].getAttribute("stop-opacity"));
-      if(!isNaN(o))st[j].setAttribute("stop-opacity",(o*.4).toFixed(3));}}
+  /* 여섯 안 중 넷(두 번 뛰는 꽃비·피어나는 하트꽃·콤보 서사·하트 광휘)이 저마다
+     '속을 채운 반투명 하트'를 중앙에 깐다. 예전엔 78px로 줄이고 알파를 0.4배 했는데,
+     줄여도 때는 때라서 새 윤곽 하트 밑에 회색 덩어리가 그대로 남는다.
+     이제는 지운다 — 중앙 하트는 bigHeartFX 하나로 통일한다. */
+  var els=layer.querySelectorAll(".v1-glow,.v2-glow,.v3-core,.v4-glow,.v4-hpop,.v6-glow,.v6-hpop,.hwave");
+  for(var i=0;i<els.length;i++)els[i].parentNode&&els[i].parentNode.removeChild(els[i]);
 }
 
+
 /* 결과 화면 틀린 단어 지울 때 */
-function fxHeart(el){const layer=$("#fxLayer");if(!layer)return;const [x,y]=fxOrigin(el);const gen=++fxGen;burst(layer,x,y,{heart:true,hearts:7,dots:8,ring:true,flash:true,dist:1.2});setTimeout(()=>{if(gen===fxGen)layer.innerHTML="";},1300);}
+function fxHeart(el){const layer=$("#fxLayer");if(!layer)return;const [x,y]=fxOrigin(el);const gen=++fxGen;applyFX(layer);burst(layer,x,y,{heart:true,hearts:7,dots:8,ring:true,flash:true,dist:1.2,hscale:.42});setTimeout(()=>{if(gen===fxGen)layer.innerHTML="";},1300);}
 
 /* ===== misc ===== */
 function esc(v){return String(v).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
