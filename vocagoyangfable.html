@@ -1162,7 +1162,7 @@ body.roaring{animation:roarshake .5s .15s;}
 /* 쥐는 남은 시간 막대의 오른쪽 끝에 붙어 함께 왼쪽으로 밀려간다 */
 /* 막대 위에 올라타 달린다. 막대 한가운데 두면 선이 쥐를 관통해 꿰인 것처럼 보인다.
    줄(46px) 안에서 막대(6px) 위로 솟는 만큼은 여유가 있어 잘리지 않는다. */
-.mouse{position:absolute;left:100%;bottom:calc(50% + 2px);width:25px;height:18px;margin-left:-13px;
+.mouse{position:absolute;left:100%;bottom:calc(50% - 1px);width:26px;height:19px;margin-left:-13px;
   pointer-events:none;animation:mscurry .34s steps(2,end) infinite;}
 .mouse svg{width:100%;height:100%;display:block;overflow:visible;}
 @keyframes mscurry{0%,100%{transform:translateY(0);}50%{transform:translateY(-2px);}}
@@ -1232,6 +1232,22 @@ body.roaring{animation:roarshake .5s .15s;}
     <!-- GAME -->
     <section class="screen" id="gameScreen">
       <div class="panel quiz" id="quizCard">
+        <!-- 카드 머리줄: 힌트 · 남은 시간(도망치는 쥐) · 고양이(확인).
+             남은 시간 막대가 가로를 다 쓸 필요는 없다(26.9.14 영신) → 그 줄에 버튼을 태워
+             뜻이 카드 폭을 통째로 쓴다. 맨 위에 두는 이유: 정답·오답 공개가 카드 아래에 붙으므로,
+             이 줄이 중간에 있으면 공개 뒤 힌트·고양이가 본문 한가운데 끼어 갈 곳을 잃는다.
+             줄 높이는 8px 막대가 아니라 버튼이 정하므로 공개 때 timeWrap을 숨겨도 흔들리지 않는다. -->
+        <div class="trow">
+          <button class="ghost ibtn" id="hintBtn" type="button" aria-label="힌트">💡</button>
+          <div class="timewrap" id="timeWrap" aria-hidden="true">
+            <span class="mhole"></span>
+            <span class="mtrack"></span>
+            <i id="timeFill"><span class="mouse" id="tMouse"></span></i>
+          </div>
+          <button class="catbtn" id="catSubmit" type="button" aria-label="확인 (고양고양이 탭)">
+            <img id="quizCat" alt="고양고양이">
+          </button>
+        </div>
         <p class="meaning" id="meaning">-</p>
         <div class="exwrap">
           <div class="hoectx" id="hoeCtx"></div>
@@ -1244,20 +1260,6 @@ body.roaring{animation:roarshake .5s .15s;}
           </form>
         </div>
         <div class="qmini" id="qmini"></div>
-        <!-- 남은 시간 막대가 가로를 다 쓸 필요는 없다(26.9.14 영신) → 그 줄에 힌트·고양이를 태워
-             뜻이 카드 폭을 통째로 쓰게 했다. 줄 높이는 8px 막대가 아니라 버튼이 정하므로
-             공개 때 timeWrap을 숨겨도 줄이 흔들리지 않는다. -->
-        <div class="trow">
-          <button class="ghost ibtn" id="hintBtn" type="button" aria-label="힌트">💡</button>
-          <div class="timewrap" id="timeWrap" aria-hidden="true">
-            <span class="mhole"></span>
-            <span class="mtrack"></span>
-            <i id="timeFill"><span class="mouse" id="tMouse"></span></i>
-          </div>
-          <button class="catbtn" id="catSubmit" type="button" aria-label="확인 (고양고양이 탭)">
-            <img id="quizCat" alt="고양고양이">
-          </button>
-        </div>
         <div class="rv" id="reveal" aria-live="polite"></div>
         <div class="qoverlay" id="quizOverlay" hidden></div>
       </div>
@@ -1789,15 +1791,26 @@ const state={lessons:[],progress:loadProgress(),li:0,ei:0,session:null,ticker:nu
 /* set cat images */
 
 /* 왼쪽(구멍 쪽)을 보고 달리는 작은 쥐. 고양이가 도트풍이라 선을 굵게 잡아 결을 맞췄다. */
-const MOUSE_SVG='<svg viewBox="-3 0 44 30" aria-hidden="true">'+
-  '<path d="M31 21 C39 21 39 10 32 11" fill="none" stroke="#f0d2e6" stroke-width="3.2" stroke-linecap="round"/>'+
-  '<circle cx="25" cy="10" r="6.4" fill="#c9a7c2"/><circle cx="25" cy="10" r="3.2" fill="#ffc2de"/>'+
-  '<ellipse cx="19" cy="18" rx="13" ry="8.6" fill="#e0c6d9"/>'+
-  '<path d="M12 25 l-2 3 M17 26 l0 3 M23 25 l2 3" stroke="#c9a7c2" stroke-width="2.4" stroke-linecap="round"/>'+
-  '<path d="M8 18 C3 15 1 20 5 21 Z" fill="#e0c6d9"/>'+
-  '<circle cx="9.5" cy="15.5" r="2" fill="#2a0f2e"/>'+
-  '<circle cx="3.2" cy="19.5" r="1.7" fill="#ff8ac6"/>'+
-  '<path d="M3 19 L-3 16 M3 21 L-3 23" stroke="#f6e2ec" stroke-width="1.1" stroke-linecap="round"/>'+
+/* 왼쪽(구멍 쪽)을 보고 달리는 작은 쥐.
+   귀엽게 보이려면 머리가 크고 귀가 둥글어야 한다 — 처음엔 머리가 작고 몸이 길쭉해
+   "벼룩 같다"는 말을 들었다. 머리:몸 비율을 키우고 귀를 크게, 눈을 크게 잡았다. */
+const MOUSE_SVG='<svg viewBox="-4 -2 46 34" aria-hidden="true">'+
+  /* 꼬리 — 가늘게 말려 올라간다 */
+  '<path d="M30 22 C39 23 40 12 34 12" fill="none" stroke="#f3d9ea" stroke-width="2.6" stroke-linecap="round"/>'+
+  /* 뒷귀 · 앞귀: 크고 둥글게 */
+  '<circle cx="27" cy="7.5" r="7.4" fill="#c6a2c0"/><circle cx="27" cy="7.5" r="4.2" fill="#ffc4e0"/>'+
+  '<circle cx="14" cy="5.5" r="8.2" fill="#dcc0d6"/><circle cx="14" cy="5.5" r="4.8" fill="#ffd0e8"/>'+
+  /* 몸통(작게) + 머리(크게) — 한 덩어리로 이어 붙인다 */
+  '<ellipse cx="23" cy="20" rx="9.5" ry="7.4" fill="#dcc0d6"/>'+
+  '<circle cx="13" cy="17" r="10.2" fill="#e7cee1"/>'+
+  /* 발 */
+  '<ellipse cx="10" cy="27" rx="3.2" ry="2" fill="#c6a2c0"/>'+
+  '<ellipse cx="20" cy="27.5" rx="3" ry="1.9" fill="#c6a2c0"/>'+
+  /* 큰 눈 + 하이라이트, 볼, 코, 수염 */
+  '<circle cx="7.6" cy="16" r="2.9" fill="#2a0f2e"/><circle cx="6.6" cy="15" r="1.05" fill="#fff"/>'+
+  '<circle cx="12.5" cy="20.5" r="2.1" fill="#ffb3d5" opacity=".75"/>'+
+  '<circle cx="2.6" cy="18.6" r="2.1" fill="#ff8ac6"/>'+
+  '<path d="M2 17 L-4 14.6 M1.6 20.4 L-4 22" stroke="#f6e2ec" stroke-width="1.1" stroke-linecap="round"/>'+
   '</svg>';
 (function(){const m=document.getElementById("tMouse");if(m)m.innerHTML=MOUSE_SVG;})();
 function setCat(id,expr){const el=document.getElementById(id);if(el)el.src=CAT[expr]||CAT.normal;}
@@ -2013,7 +2026,7 @@ function nextCard(){
     $("#meaning").textContent=w.meaning;
     $("#hoeCtx").innerHTML=hoeCtxHtml(w);
     $("#qmini").textContent = s.round>=2 ? ((w.roundStreak>=1)?"한 번 더 (2/2)":"2연속 정답이면 통과 (1/2)") : (w.sn>1?`뜻 ${w.si}/${w.sn}`:"");
-    $("#qmini").style.display="";$("#timeWrap").style.display="";
+    $("#qmini").style.display="";$("#timeWrap").style.visibility="";
     const rv=$("#reveal");rv.className="rv";rv.innerHTML="";
     $("#ainput").value="";$("#ainput").className="ainput";$("#ainput").disabled=false;
     $("#submitBtn").disabled=false;$("#hintBtn").disabled=false;
@@ -2120,7 +2133,7 @@ function growCard(fill){
   clearTimeout(card._growT);
   card._growT=setTimeout(()=>{card.style.transition="";card.style.height="";},330);
 }
-function openReveal(kind){const card=$("#quizCard");card.classList.add(kind);$("#qmini").style.display="none";$("#timeWrap").style.display="none";const rv=$("#reveal");rv.className="rv show";
+function openReveal(kind){const card=$("#quizCard");card.classList.add(kind);$("#qmini").style.display="none";$("#timeWrap").style.visibility="hidden";const rv=$("#reveal");rv.className="rv show";
   /* scrollTo(0)은 아래로 스크롤해 둔 상태에서 화면을 통째로 튕긴다. 카드가 이미 보이면 건드리지 않는다 */
   if(card.getBoundingClientRect().top<-8)card.scrollIntoView({block:"start",behavior:"smooth"});
   return rv;}
@@ -2185,7 +2198,10 @@ function updateStats(){
       s.escaped=true;tw.classList.add("escaped");
       setTimeout(()=>{const ss=state.session;if(ss&&!ss.answered)submit({timeout:true});},380);
     }
-  } else {$("#timeFill").style.width="100%";$("#timeWrap").className="timewrap";if(s)s.escaped=false;}
+  } else {
+    /* 공개 중에는 막대를 되살리지 않는다 — 가득 찬 초록 막대가 뜨면 시간이 남은 것처럼 읽힌다.
+       다시 보이게 하는 것은 새 카드를 그릴 때뿐이다(nextCard). */
+    $("#timeFill").style.width="100%";$("#timeWrap").className="timewrap";if(s)s.escaped=false;}
 }
 function remain(){const s=state.session;if(!s||s.fbMode)return 0;
   return Math.max(0,Math.ceil(s.cardLimit-(Date.now()-s.cardStart)/1000));}
