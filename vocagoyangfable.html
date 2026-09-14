@@ -1792,37 +1792,35 @@ const state={lessons:[],progress:loadProgress(),li:0,ei:0,session:null,ticker:nu
 
 /* 왼쪽(구멍 쪽)을 보고 달리는 흰 쥐. 20년대 고무호스 카툰 화법 —
    동그란 머리, 큰 원형 귀, 굵고 둥근 꼬리, 통통한 신발.
-   눈은 파이컷 대신 단순한 검은 눈으로 간다 — 26px에서 조각을 넣으면 구멍처럼 보인다.
-   "벼룩 같다"의 원인은 입 처리였다. 코가 뾰족한 끝에 바로 붙으면 곤충 주둥이로 읽히고,
-   코를 얼굴에서 떼어 크게 찍으면 검은 점이 떠 있는 것처럼 보인다.
-   → 머리보다 한 톤 어두운 테두리를 가진 주둥이를 만들고, 그 '끝'에 작은 코를 얹는다.
+   벌레로 읽히던 원인 둘: ① 수염이 더듬이·침처럼 뻗는다 → 아예 뺀다(한 가닥으로 줄여도 같았다).
+   ② 주둥이가 앞으로 튀어나온다 → 작게 줄여 머리에 파묻고, 코는 그 '위쪽 앞'에 작게 얹는다.
+      코가 중간 높이에서 앞을 향하면 그대로 곤충 주둥이가 된다.
+   데포르메 원칙: 머리·귀를 키우고 몸과 잔디테일은 줄인다. 26px에서는 실루엣이 전부다.
+   눈은 파이컷을 뺐다 — 그 크기에서 조각은 구멍처럼 보여 얼굴이 무너진다.
    색은 흰색. 분홍 몸통은 갓 태어난 쥐 같아 징그럽다(영신). */
-const MOUSE_SVG='<svg viewBox="-5 -3 48 36" aria-hidden="true">'+
+const MOUSE_SVG='<svg viewBox="-4 -4 46 36" aria-hidden="true">'+
   /* 꼬리 */
-  '<path d="M31 22 C41 23 42 10 35 10.5" fill="none" stroke="#e4ddf2" stroke-width="2.8" stroke-linecap="round"/>'+
+  '<path d="M30 22 C40 23 41 10 34 10.5" fill="none" stroke="#e4ddf2" stroke-width="2.9" stroke-linecap="round"/>'+
   /* 뒷귀 */
-  '<circle cx="28.5" cy="7.5" r="6.8" fill="#d2c9e4"/><circle cx="28.5" cy="7.5" r="3.7" fill="#e8aecb"/>'+
-  /* 몸통 */
-  '<ellipse cx="22" cy="19.5" rx="10" ry="7.8" fill="#e6e0f2"/>'+
+  '<circle cx="27.5" cy="6.6" r="6.6" fill="#d2c9e4"/><circle cx="27.5" cy="6.6" r="3.5" fill="#e0a8c6"/>'+
+  /* 몸통 — 데포르메: 머리를 키운 만큼 작게 */
+  '<ellipse cx="21" cy="20" rx="8.8" ry="7" fill="#e6e0f2"/>'+
   /* 통통한 신발 */
-  '<ellipse cx="17.5" cy="27.4" rx="4.2" ry="2.6" fill="#c2b6d8"/>'+
-  '<ellipse cx="9" cy="27.6" rx="4.4" ry="2.7" fill="#c2b6d8"/>'+
-  /* 머리 */
-  '<circle cx="12.5" cy="16" r="10.4" fill="#f5f2fb"/>'+
-  /* 앞귀 */
-  '<circle cx="11.5" cy="4.2" r="7.8" fill="#f5f2fb"/><circle cx="11.5" cy="4.8" r="3.8" fill="#ffcfe6"/>'+
-  /* 주둥이 — 테두리로 머리와 구분한다. 이게 없으면 얼굴이 뭉개져 벌레로 보인다 */
-  '<ellipse cx="4.9" cy="19.2" rx="6.1" ry="4.4" fill="#fdfcff" stroke="#d5cbe6" stroke-width="0.9"/>'+
-  /* 입 */
-  '<path d="M2.4 21.4 q2.4 1.8 4.8 .1" fill="none" stroke="#b7a9cf" stroke-width="1.1" stroke-linecap="round"/>'+
-  /* 코 — 주둥이 끝에 작게 얹는다 */
-  '<ellipse cx="-.8" cy="17.9" rx="1.9" ry="1.6" fill="#8a5f92"/>'+
-  /* 수염 — 코에서 뻗는다 */
-  '<path d="M-2 17.2 L-5.4 15 M-2.2 20 L-5.4 21.6" stroke="#efeaf7" stroke-width="1" stroke-linecap="round"/>'+
-  /* 파이컷 눈 */
-  '<ellipse cx="8.4" cy="13.4" rx="2.7" ry="3" fill="#2a1436"/>'+
-  '<circle cx="7.4" cy="12.3" r="1.05" fill="#fff"/>'+
-  '<ellipse cx="13.8" cy="18.6" rx="2.3" ry="1.7" fill="#ffb3d5" opacity=".6"/>'+
+  '<ellipse cx="17" cy="27" rx="4" ry="2.5" fill="#c2b6d8"/>'+
+  '<ellipse cx="8.8" cy="27.2" rx="4.2" ry="2.6" fill="#c2b6d8"/>'+
+  /* 머리 — 크게 */
+  '<circle cx="12" cy="15.4" r="11.2" fill="#f5f2fb"/>'+
+  /* 앞귀 — 크게 */
+  '<circle cx="10.8" cy="2.6" r="8.4" fill="#f5f2fb"/><circle cx="10.8" cy="3.2" r="4.2" fill="#ffcfe6"/>'+
+  /* 주둥이 — 짧고 뭉툭하게, 머리에 붙인다. 길게 빼면 곤충 주둥이가 된다 */
+  '<ellipse cx="4.6" cy="20" rx="4.4" ry="3.9" fill="#fdfcff" stroke="#d5cbe6" stroke-width="0.85"/>'+
+  '<path d="M2.6 21.8 q2 1.5 4 0" fill="none" stroke="#c0b2d4" stroke-width="1" stroke-linecap="round"/>'+
+  /* 코 — 뭉툭한 끝에 큼직하게 */
+  '<ellipse cx="1.6" cy="17.4" rx="1.9" ry="1.6" fill="#7d5486"/>'+
+  /* 눈 · 볼 */
+  '<ellipse cx="8" cy="13.2" rx="2.8" ry="3.1" fill="#2a1436"/>'+
+  '<circle cx="7" cy="12.1" r="1.05" fill="#fff"/>'+
+  '<ellipse cx="13.4" cy="18.6" rx="2.3" ry="1.7" fill="#ffb3d5" opacity=".6"/>'+
   '</svg>';
 (function(){const m=document.getElementById("tMouse");if(m)m.innerHTML=MOUSE_SVG;})();
 function setCat(id,expr){const el=document.getElementById(id);if(el)el.src=CAT[expr]||CAT.normal;}
