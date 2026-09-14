@@ -171,7 +171,7 @@ body.playing .app{gap:8px;padding:max(6px,env(safe-area-inset-top)) 6px max(8px,
 .quiz.bad{border-color:var(--bad);}
 /* 공개 화면: 이미 답한 뜻 줄은 작게(자리를 해설에 넘긴다), 작은 폰에서 넘치면 카드가 스크롤 */
 .quiz.good,.quiz.bad{overflow-y:auto;}
-.quiz.good .meaning,.quiz.bad .meaning{font-size:clamp(1.05rem,4.6vw,1.3rem);}
+.quiz.good .meaning,.quiz.bad .meaning{font-size:clamp(1.2rem,5.3vw,1.45rem);} /* 공개 순간 뜻이 16px 내려앉던 것을 줄였다. 완전히 같게 두면 해설 자리가 모자란다 */
 .quiz.wrong{animation:sh .3s;}
 .cstreak{color:var(--gold);font-weight:900;}
 .exwrap{position:relative;min-height:44px;}
@@ -329,7 +329,7 @@ body.playing .app{gap:8px;padding:max(6px,env(safe-area-inset-top)) 6px max(8px,
   55%{transform:translate(-50%,-50%) scale(2.6);opacity:.95;}
   100%{transform:translate(-50%,-50%) scale(3.4);opacity:0;}}
 body.shake{animation:bshake .3s;}
-@keyframes bshake{0%,100%{transform:translate(0,0);}33%{transform:translate(-3px,2px);}66%{transform:translate(3px,-2px);}}
+@keyframes bshake{0%,100%{transform:translate(0,0);}33%{transform:translate(-2px,1px);}66%{transform:translate(2px,-1px);}}
 
 /* toast */
 .toast{position:fixed;left:50%;bottom:max(16px,env(safe-area-inset-bottom));z-index:60;
@@ -2027,11 +2027,41 @@ function fmtIpa(ipa){if(!ipa)return"";if(ipa.indexOf(".")>=0){return ipa.split("
 function rvWord(w){return `<div class="rv-word"><span class="rv-w" role="button" aria-label="발음 듣기">${esc(w.term)}</span>${w.ipa?`<span class="ov-ipa">/${fmtIpa(w.ipa)}/</span>`:""}</div>`;}
 function rvTr(w){return w.tr?`<div class="ov-tr">${esc(w.tr)}</div>`:"";}
 function rvBody(w,line){return `${w.c?catNote(w.c):`<div class="ov-say">${esc(line)}</div>`}${w.meow?`<div class="ov-say">${esc(w.meow)}</div>`:""}`;}
-function openReveal(kind){const card=$("#quizCard");card.classList.add(kind);$("#qmini").style.display="none";$("#timeWrap").style.display="none";const rv=$("#reveal");rv.className="rv show";window.scrollTo({top:0});return rv;}
+
+/* 정답·오답 순간 카드가 182px쯤 한 프레임에 늘어나 화면이 통째로 찢어지듯 밀렸다.
+   높이를 고정하는 건 답이 아니다 — 문제 상태 157~284px, 공개 상태 254~501px로
+   차이가 커서 고정하면 문제 화면에 240px 빈 공간이 생긴다.
+   대신 '점프'만 없앤다: 바뀌기 전 높이에서 바뀐 뒤 높이로 0.24초에 걸쳐 자란다.
+   눈은 매끄럽게 자라는 것은 따라가지만 순간이동은 못 따라간다. */
+function growCard(fill){
+  const card=$("#quizCard");if(!card){fill();return;}
+  const h0=card.getBoundingClientRect().height;
+  card.style.height="";card.style.transition="";
+  fill();
+  const h1=card.getBoundingClientRect().height;
+  if(Math.abs(h1-h0)<8)return;                 /* 티 안 나는 변화는 그냥 둔다 */
+  if(window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches)return;
+  card.style.height=h0+"px";
+  void card.offsetHeight;                       /* 리플로우를 강제해 시작점을 박는다 */
+  /* 곡선 비교 실측(한 프레임 최대 이동): cubic-bezier(.22,.7,.3,1) 40px ·
+     (.4,0,.2,1) 28px · (.45,.05,.25,1) 26px · (.5,.05,.25,1) 24px · ease-in-out 18px.
+     ease-in-out이 계단이 가장 고르다(1,3,6,8,11,13,15,17,17,18). */
+  card.style.transition="height .3s ease-in-out";
+  card.style.height=h1+"px";
+  clearTimeout(card._growT);
+  card._growT=setTimeout(()=>{card.style.transition="";card.style.height="";},330);
+}
+function openReveal(kind){const card=$("#quizCard");card.classList.add(kind);$("#qmini").style.display="none";$("#timeWrap").style.display="none";const rv=$("#reveal");rv.className="rv show";
+  /* scrollTo(0)은 아래로 스크롤해 둔 상태에서 화면을 통째로 튕긴다. 카드가 이미 보이면 건드리지 않는다 */
+  if(card.getBoundingClientRect().top<-8)card.scrollIntoView({block:"start",behavior:"smooth"});
+  return rv;}
 function showReveal(type,w,line){
-  const b=$("#hoeCtx .blanks");if(b)b.outerHTML=`<b class="fill">${esc(w.term)}</b>`;
-  const rv=openReveal("good");
-  rv.innerHTML=`${rvTr(w)}${rvWord(w)}${rvBody(w,line)}`;
+  /* 빈칸 채움 → 안내줄·타이머 숨김 → 공개 내용 채움을 한 덩어리로 묶어 전환한다.
+     따로 하면 카드가 201→152로 먼저 49px 줄었다가 383으로 뛰어 점프가 두 번 난다. */
+  growCard(()=>{
+    const b=$("#hoeCtx .blanks");if(b)b.outerHTML=`<b class="fill">${esc(w.term)}</b>`;
+    openReveal("good").innerHTML=`${rvTr(w)}${rvWord(w)}${rvBody(w,line)}`;
+  });
   speak(w.term);
 }
 function renderCopyBlank(v){const s=state.session;if(!s||!s.copyMode)return;const wrap=$("#hoeCtx .blanks")||$("#ghostTar");if(!wrap)return;
@@ -2039,8 +2069,9 @@ function renderCopyBlank(v){const s=state.session;if(!s||!s.copyMode)return;cons
   wrap.innerHTML=chars.split("").map((c,i)=>{if(i<tv.length)return tv[i].toLowerCase()===c.toLowerCase()?`<span class="slot ok">${esc(c)}</span>`:`<span class="slot x">${esc(tv[i])}</span>`;return `<span class="slot gh${i===tv.length?" cur":""}">${esc(c)}</span>`;}).join("");}
 function startCopy(w,line){
   const term=w.term;const s=state.session;s.copyMode=true;s.copyAns=term;
-  const rv=openReveal("bad");
-  rv.innerHTML=`${rvTr(w)}${rvWord(w)}${rvBody(w,line)}${w.ex?"":`<div class="blanks" id="ghostTar"></div>`}`;
+  growCard(()=>{
+    openReveal("bad").innerHTML=`${rvTr(w)}${rvWord(w)}${rvBody(w,line)}${w.ex?"":`<div class="blanks" id="ghostTar"></div>`}`;
+  });
   renderCopyBlank("");
   $("#ainput").value="";$("#ainput").className="ainput";$("#ainput").disabled=false;
   $("#submitBtn").disabled=false;$("#hintBtn").disabled=true;
@@ -2206,7 +2237,10 @@ let fxGen=0;
 function fx(good,combo){
   const card=$("#quizCard"),layer=$("#fxLayer");if(!card)return;
   layer.innerHTML="";const gen=++fxGen;
-  document.body.classList.add("shake");card.classList.remove("flash");void card.offsetWidth;card.classList.add("flash");
+  /* 화면 흔들기는 오답에만 남긴다. 정답은 하트·꽃이 이미 축하하므로 흔들 이유가 없고,
+     흔들림은 읽고 있던 글자까지 통째로 움직여 집중을 깬다(영신 지적). */
+  if(!good)document.body.classList.add("shake");
+  card.classList.remove("flash");void card.offsetWidth;card.classList.add("flash");
   if(!good&&navigator.vibrate)try{navigator.vibrate(60);}catch(e){}
   if(good){
     // 빈칸(정답 글자) 자리에서 터진다. 전부 0.6~0.8초 안에 끝
