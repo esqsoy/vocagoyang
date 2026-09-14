@@ -2246,11 +2246,14 @@ function fx(good,combo){
     // 빈칸(정답 글자) 자리에서 터진다. 전부 0.6~0.8초 안에 끝
     /* fx()는 showReveal() 전에 불리므로 .fill이 아직 없다 → 빈칸 컨테이너(.blanks)를 쓴다 */
     const [x,y]=fxOrigin($("#hoeCtx .fill")||$("#hoeCtx .blanks")||card);const c=Math.max(1,combo||1);
-    const o={petals:Math.min(40,c),dots:Math.min(24,4+c),flash:true,ring:c>=5,edge:c>=10,dist:1+Math.min(15,c)*.05,combo:c};
+    /* petals 바닥 8 — 콤보1(세션 첫 정답·오답 직후 정답)에 꽃이 1송이뿐이라
+       자주 틀리는 학생이 늘 가장 약한 축하를 받았다. 바닥만 올리고 천장은 그대로다
+       (Math.max이므로 c>=8 구간은 손대지 않는다). 합본은 제 엔진이 따로 8을 깐다. */
+    const o={petals:Math.min(40,Math.max(8,c)),dots:Math.min(24,4+c),flash:true,ring:c>=5,edge:c>=10,dist:1+Math.min(15,c)*.05,combo:c};
     applyFX(layer);
     burstStyle().fn(layer,x,y,o);
     tameHeart(layer);                 /* 변형이 깐 '속 찬 하트'를 걷어낸다 */
-    if(burstStyle().fn!==burst)bigHeartFX(layer,x,y,o);  /* 합본 외 다섯도 같은 윤곽 하트를 쓴다 */
+    bigHeartFX(layer,x,y,o);          /* 여섯 안 모두 같은 윤곽 하트 하나를 쓴다 */
   }
   setTimeout(()=>{if(gen===fxGen)layer.innerHTML="";card.classList.remove("flash");document.body.classList.remove("shake");},1400);
 }
@@ -2282,9 +2285,12 @@ function setw(el,S,px1,px2){            /* 화면상 두께(px) → viewBox 단�
 }
 window.bigHeartFX=function(layer,x,y,o){
   var c=Math.max(1,Math.min(40,(o&&o.combo)||1));
-  var rings=c>=20?3:(c>=5?2:1);
-  var S0=(375+Math.min(c,20)*4)*((o&&o.hscale)||1);   /* 콤보1 379 → 콤보20 455 */
-  var MUL=[1,1.10,1.20], PINK=['#ff7ec4','#ffa1d4','#ffcbe8'];
+  /* 연속 정답이 쌓이면 하트가 한 겹씩 늘고, 늘어난 겹은 앞 겹보다 크다(영신 제안).
+     최대 콤보 40에 맞춰 다섯 단으로 나눴다. 5의 배수로 자르면 26~40이 통째로 한 단이 된다. */
+  var rings=c<5?1:(c<10?2:(c<17?3:(c<26?4:5)));
+  var S0=285*((o&&o.hscale)||1);                    /* 첫 겹 285px — 마더텅 가시 최대 312px와 같은 자리 */
+  var MUL=[1,1.14,1.30,1.48,1.69];                  /* 285 → 325 → 371 → 422 → 482px */
+  var PINK=['#ff7ec4','#ffa1d4','#ffcbe8','#ffd9ee','#ffe8f5'];
 
   /* 중심의 못: 아주 짧게 때린다 */
   var k=document.createElement('div');k.className='shock-core';
@@ -2296,14 +2302,14 @@ window.bigHeartFX=function(layer,x,y,o){
 
   /* 충격파 링 */
   for(var w=0;w<rings;w++){
-    var S=Math.min(520,Math.round(S0*MUL[w]));
+    var S=Math.min(560,Math.round(S0*MUL[w]));
     var d=document.createElement('div');d.className='shock-ring';
     d.style.setProperty('--shk-x',x+'px');d.style.setProperty('--shk-y',y+'px');
     d.style.setProperty('--shk-S',S+'px');
     d.style.setProperty('--shk-tilt',((w%2?1:-1)*(3+w*3))+'deg');
-    d.style.setProperty('--shk-del',(w*.07*FX.heartT).toFixed(3)+'s');
+    d.style.setProperty('--shk-del',(w*.042*FX.heartT).toFixed(3)+'s');  /* 5겹 × .042 + .6 = 0.77초 */
     d.style.setProperty('--shk-dur',(0.6*FX.heartT).toFixed(3)+'s');            /* 0.14 지연 + 0.60 = 최대 0.74초 */
-    setw(d,S,4.2-w*.6,1.7-w*.3);               /* 화면상 분홍 4.2→3.0px, 흰 1.7→1.1px */
+    setw(d,S,4.2-w*.35,1.7-w*.15);             /* 화면상 분홍 4.2→2.8px, 흰 1.7→1.1px (5겹 기준) */
     d.innerHTML=shockSVG(PINK[w]);
     layer.appendChild(d);
   }
@@ -2432,10 +2438,9 @@ function burst(layer,x,y,o){
   var P=o.petals|0,D=o.dots|0,dist=o.dist||1,c=Math.max(1,o.combo||P||1);
   /* 1층 — 중앙 하트 광원 */
   /* 1층 — 하트: 빛나는 윤곽이 퍼진다(속을 채우지 않으므로 글자가 비쳐 읽힌다). 콤보가 오를수록 겹이 는다 */
-  /* 마더텅급 크기(화면 300px대)를 속 빈 윤곽으로 낸다. scale로 키우면서 stroke-width에
-     1/k를 곱해 되돌리므로 하트가 아무리 커져도 화면상 선은 3~4px로 일정하다.
-     hscale — 결과 화면에서 틀린 단어 한 줄을 지울 때는 그 줄에 맞춰 줄인다. */
-  bigHeartFX(layer,x,y,o);
+  /* 중앙 하트는 여기서 만들지 않는다 — 부르는 쪽(fx·fxHeart)이 딱 한 번 얹는다.
+     BURSTS[0].fn이 burst를 감싼 함수라 "합본이면 건너뛰기" 같은 가드가 안 먹어
+     하트가 두 겹씩 깔렸다(실측 [285,285]). 호출 지점을 하나로 모아 막는다. */
   /* 3층 — 꽃: 종류는 콤보 단계로, 색은 분홍에서 시작해 단계마다 넓어진다 */
   /* 한 번에 터뜨리지 않고 겹을 시간축에 펼친다(periodic-game의 보어 껍질 얼개).
      겹이 바깥일수록 멀리·크게 → 콤보가 오르면 꽃 크기 중앙값이 저절로 올라간다.
@@ -2704,7 +2709,8 @@ function v2RingSVG(){return '<svg viewBox="0 0 100 100" aria-hidden="true">'+
 
 /* 콤보 → 옵션. fx() 에서 burstV2(layer,x,y,v2Opts(c)) 로 쓰면 된다 */
 function v2Opts(c){c=Math.max(1,c||1);
-  return {petals:Math.min(40,c),dots:Math.min(24,5+c),flash:true,ring:c>=5,edge:c>=10,dist:1+Math.min(15,c)*.05};}
+  /* 꽃 바닥 8 — 콤보1에 한 송이만 뜨던 것(fx의 petals와 같은 규칙) */
+  return {petals:Math.min(40,Math.max(8,c)),dots:Math.min(24,5+c),flash:true,ring:c>=5,edge:c>=10,dist:1+Math.min(15,c)*.05};}
 
 function burstV2(layer,x,y,o){
   o=o||{};
@@ -3002,7 +3008,8 @@ const V6_BIGHEART='<svg viewBox="0 0 100 100" aria-hidden="true">'+
 function v6Tier(c){return c>=10?3:c>=6?2:c>=3?1:0;}
 /* 콤보 → 옵션. 단계마다 파티클 구성·색폭·타이밍이 달라진다 */
 function v6Opts(combo){
-  const c=Math.max(1,Math.floor(combo||1)),t=v6Tier(c),P=Math.min(40,c),dense=P>=26;
+  /* P(꽃 수)만 바닥 8로 올린다. 단계 t는 실제 콤보 c로 계산해 서사는 그대로 둔다. */
+  const c=Math.max(1,Math.floor(combo||1)),t=v6Tier(c),P=Math.min(40,Math.max(8,c)),dense=P>=26;
   return {
     tier:t,
     petals:P,
@@ -3288,7 +3295,7 @@ function tameHeart(layer){
 
 
 /* 결과 화면 틀린 단어 지울 때 */
-function fxHeart(el){const layer=$("#fxLayer");if(!layer)return;const [x,y]=fxOrigin(el);const gen=++fxGen;applyFX(layer);burst(layer,x,y,{heart:true,hearts:7,dots:8,ring:true,flash:true,dist:1.2,hscale:.42});setTimeout(()=>{if(gen===fxGen)layer.innerHTML="";},1300);}
+function fxHeart(el){const layer=$("#fxLayer");if(!layer)return;const [x,y]=fxOrigin(el);const gen=++fxGen;applyFX(layer);const ho={heart:true,hearts:7,dots:8,ring:true,flash:true,dist:1.2,hscale:.42};burst(layer,x,y,ho);bigHeartFX(layer,x,y,ho);setTimeout(()=>{if(gen===fxGen)layer.innerHTML="";},1300);}
 
 /* ===== misc ===== */
 function esc(v){return String(v).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
