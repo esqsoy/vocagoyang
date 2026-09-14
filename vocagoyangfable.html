@@ -180,10 +180,13 @@ body.playing .app{gap:8px;padding:max(6px,env(safe-area-inset-top)) 6px max(8px,
 .quiz .ainput{position:absolute;inset:0;width:100%;height:100%;min-height:0;opacity:0;font-size:16px;border:0;border-radius:0;padding:0;margin:0;
   background:transparent;color:transparent;caret-color:transparent;box-shadow:none;-webkit-user-select:none;user-select:none;}
 .quiz .ainput:focus{box-shadow:none;border:0;}
-.qtop{display:flex;align-items:center;gap:8px;}
-.qtop .meaning{flex:1;min-width:0;}
-.qtop .ibtn{flex:none;width:40px;min-height:40px;font-size:1.05rem;padding:0;display:grid;place-items:center;line-height:1;}
-.qtop .catbtn{height:54px;}
+/* 뜻(문제)은 카드 폭을 통째로 쓴다. 전에는 💡와 고양이 사이에 끼어 69%(245px)만 써서
+   390px 폭에서 26%가 두 줄로 쪼개졌다 — 지금은 6%. 한글 뜻은 어절 단위로 끊겨
+   줄이 좁을수록 읽는 리듬이 끊기고, 줄 수가 문제마다 달라져 카드 높이도 요동쳤다. */
+.trow{display:flex;align-items:center;gap:10px;}
+.trow .timewrap{flex:1;min-width:0;}
+.trow .ibtn{flex:none;width:44px;min-height:44px;font-size:1.05rem;padding:0;display:grid;place-items:center;line-height:1;}
+.trow .catbtn{flex:none;height:46px;}
 .meaning{margin:0;text-align:center;font-weight:900;line-height:1.2;word-break:keep-all;
   font-size:clamp(1.55rem,7vw,2.2rem);
   position:relative;z-index:1;}
@@ -1194,13 +1197,7 @@ body.roaring{animation:roarshake .5s .15s;}
     <!-- GAME -->
     <section class="screen" id="gameScreen">
       <div class="panel quiz" id="quizCard">
-        <div class="qtop">
-          <button class="ghost ibtn" id="hintBtn" type="button" aria-label="힌트">💡</button>
-          <p class="meaning" id="meaning">-</p>
-          <button class="catbtn" id="catSubmit" type="button" aria-label="확인 (고양고양이 탭)">
-            <img id="quizCat" alt="고양고양이">
-          </button>
-        </div>
+        <p class="meaning" id="meaning">-</p>
         <div class="exwrap">
           <div class="hoectx" id="hoeCtx"></div>
           <!-- 투명 입력창: 문장 영역 전체를 덮어 문장을 탭하면 곧 입력창 탭(iOS 키보드 보장). 글자는 빈칸에 실시간으로 채워진다 -->
@@ -1212,7 +1209,16 @@ body.roaring{animation:roarshake .5s .15s;}
           </form>
         </div>
         <div class="qmini" id="qmini"></div>
-        <div class="timewrap" id="timeWrap"><i id="timeFill"></i></div>
+        <!-- 남은 시간 막대가 가로를 다 쓸 필요는 없다(26.9.14 영신) → 그 줄에 힌트·고양이를 태워
+             뜻이 카드 폭을 통째로 쓰게 했다. 줄 높이는 8px 막대가 아니라 버튼이 정하므로
+             공개 때 timeWrap을 숨겨도 줄이 흔들리지 않는다. -->
+        <div class="trow">
+          <button class="ghost ibtn" id="hintBtn" type="button" aria-label="힌트">💡</button>
+          <div class="timewrap" id="timeWrap"><i id="timeFill"></i></div>
+          <button class="catbtn" id="catSubmit" type="button" aria-label="확인 (고양고양이 탭)">
+            <img id="quizCat" alt="고양고양이">
+          </button>
+        </div>
         <div class="rv" id="reveal" aria-live="polite"></div>
         <div class="qoverlay" id="quizOverlay" hidden></div>
       </div>
