@@ -1140,6 +1140,41 @@ body.roaring{animation:roarshake .5s .15s;}
 
 /* 왜 통과했는지 알려주는 줄 — 고양이 잡담과 구분되게 금색 세로선 하나 */
 .ov-why{border-left:3px solid var(--gold);padding-left:9px;text-align:left;align-self:stretch;color:var(--gold);font-weight:800;}
+
+/* ===== 남은 시간 = 고양이한테서 도망치는 쥐 (26.9.14 영신) =====
+   오른쪽(고양이 쪽)에서 출발해 왼쪽 구멍으로 슬금슬금 달아난다. 다 달아나면 시간 초과고,
+   그때 고양이 표정이 썩는 연출과 서사가 맞물린다.
+   위치 계산은 공짜다 — #timeFill의 폭이 곧 남은 시간이라 그 오른쪽 끝에 쥐를 태우면 된다.
+   줄 높이는 힌트(44)·고양이(46)가 정하므로 이 줄이 22px로 커져도 카드는 그대로다. */
+.timewrap{position:relative;z-index:1;height:22px;border-radius:99px;background:none;border:0;overflow:visible;
+  display:flex;align-items:center;}
+.mtrack{position:absolute;left:11px;right:0;height:6px;border-radius:99px;background:#2a1340;
+  border:1px solid rgba(184,168,255,.22);}
+/* 왼쪽 끝 쥐구멍 */
+.mhole{position:absolute;left:0;top:50%;width:19px;height:15px;transform:translateY(-50%);
+  border-radius:11px 11px 3px 3px;background:#0d0418;border:1px solid rgba(184,168,255,.3);
+  border-bottom-color:rgba(184,168,255,.12);}
+.mhole::after{content:"";position:absolute;inset:3px 3px 0;border-radius:9px 9px 2px 2px;background:#05010b;}
+#timeFill{position:absolute;left:11px;height:6px;border-radius:99px;
+  background:linear-gradient(90deg,var(--mint),var(--cyan));transition:width .25s linear;}
+.timewrap.warn #timeFill{background:linear-gradient(90deg,var(--gold2),var(--gold));}
+.timewrap.danger #timeFill{background:linear-gradient(90deg,var(--bad),var(--bad2));}
+/* 쥐는 남은 시간 막대의 오른쪽 끝에 붙어 함께 왼쪽으로 밀려간다 */
+/* 막대 위에 올라타 달린다. 막대 한가운데 두면 선이 쥐를 관통해 꿰인 것처럼 보인다.
+   줄(46px) 안에서 막대(6px) 위로 솟는 만큼은 여유가 있어 잘리지 않는다. */
+.mouse{position:absolute;left:100%;bottom:calc(50% + 2px);width:25px;height:18px;margin-left:-13px;
+  pointer-events:none;animation:mscurry .34s steps(2,end) infinite;}
+.mouse svg{width:100%;height:100%;display:block;overflow:visible;}
+@keyframes mscurry{0%,100%{transform:translateY(0);}50%{transform:translateY(-2px);}}
+.timewrap.warn .mouse{animation-duration:.26s;}
+.timewrap.danger .mouse{animation-duration:.18s;}
+/* 다 도망쳤을 때: 구멍으로 쏙 */
+.timewrap.escaped .mouse{animation:mgone .34s cubic-bezier(.5,0,.85,.4) forwards;}
+@keyframes mgone{
+  0%{transform:translateX(0) scale(1);opacity:1;}
+  55%{transform:translateX(-8px) translateY(3px) scale(.82);opacity:1;}
+  100%{transform:translateX(-15px) translateY(6px) scale(.3);opacity:0;}}
+@media (prefers-reduced-motion: reduce){.mouse{animation:none!important;}}
 </style>
 </head>
 <body>
@@ -1214,7 +1249,11 @@ body.roaring{animation:roarshake .5s .15s;}
              공개 때 timeWrap을 숨겨도 줄이 흔들리지 않는다. -->
         <div class="trow">
           <button class="ghost ibtn" id="hintBtn" type="button" aria-label="힌트">💡</button>
-          <div class="timewrap" id="timeWrap"><i id="timeFill"></i></div>
+          <div class="timewrap" id="timeWrap" aria-hidden="true">
+            <span class="mhole"></span>
+            <span class="mtrack"></span>
+            <i id="timeFill"><span class="mouse" id="tMouse"></span></i>
+          </div>
           <button class="catbtn" id="catSubmit" type="button" aria-label="확인 (고양고양이 탭)">
             <img id="quizCat" alt="고양고양이">
           </button>
@@ -1748,6 +1787,19 @@ const $=s=>document.querySelector(s);
 const state={lessons:[],progress:loadProgress(),li:0,ei:0,session:null,ticker:null,muted:false,toastT:null,prevOn:(()=>{try{return localStorage.getItem("goyang-hoe-mode-v1")==='1';}catch(e){return false;}})()};
 
 /* set cat images */
+
+/* 왼쪽(구멍 쪽)을 보고 달리는 작은 쥐. 고양이가 도트풍이라 선을 굵게 잡아 결을 맞췄다. */
+const MOUSE_SVG='<svg viewBox="-3 0 44 30" aria-hidden="true">'+
+  '<path d="M31 21 C39 21 39 10 32 11" fill="none" stroke="#f0d2e6" stroke-width="3.2" stroke-linecap="round"/>'+
+  '<circle cx="25" cy="10" r="6.4" fill="#c9a7c2"/><circle cx="25" cy="10" r="3.2" fill="#ffc2de"/>'+
+  '<ellipse cx="19" cy="18" rx="13" ry="8.6" fill="#e0c6d9"/>'+
+  '<path d="M12 25 l-2 3 M17 26 l0 3 M23 25 l2 3" stroke="#c9a7c2" stroke-width="2.4" stroke-linecap="round"/>'+
+  '<path d="M8 18 C3 15 1 20 5 21 Z" fill="#e0c6d9"/>'+
+  '<circle cx="9.5" cy="15.5" r="2" fill="#2a0f2e"/>'+
+  '<circle cx="3.2" cy="19.5" r="1.7" fill="#ff8ac6"/>'+
+  '<path d="M3 19 L-3 16 M3 21 L-3 23" stroke="#f6e2ec" stroke-width="1.1" stroke-linecap="round"/>'+
+  '</svg>';
+(function(){const m=document.getElementById("tMouse");if(m)m.innerHTML=MOUSE_SVG;})();
 function setCat(id,expr){const el=document.getElementById(id);if(el)el.src=CAT[expr]||CAT.normal;}
 ['homeCat','routeCat','quizCat','sumCat'].forEach(id=>setCat(id,'normal'));
 
@@ -2125,9 +2177,15 @@ function updateStats(){
   if(!s.fbMode&&s.currentId!==null){
     const left=remain();const pct=Math.max(0,left/s.cardLimit*100);
     const tw=$("#timeWrap");$("#timeFill").style.width=pct+"%";
-    tw.className="timewrap"+(pct<25?" danger":(pct<50?" warn":""));
-    if(left<=0)submit({timeout:true});
-  } else {$("#timeFill").style.width="100%";$("#timeWrap").className="timewrap";}
+    /* escaped를 문자열로 다시 쓰면 매 tick마다 지워진다 — 살려서 이어 붙인다 */
+    tw.className="timewrap"+(pct<25?" danger":(pct<50?" warn":""))+(s.escaped?" escaped":"");
+    if(left<=0&&!s.escaped){
+      /* 쥐가 구멍으로 들어가는 걸 보여주고 나서 넘긴다. 바로 제출하면 공개 화면이
+         timeWrap을 숨겨 버려 연출이 한 프레임도 안 보인다. */
+      s.escaped=true;tw.classList.add("escaped");
+      setTimeout(()=>{const ss=state.session;if(ss&&!ss.answered)submit({timeout:true});},380);
+    }
+  } else {$("#timeFill").style.width="100%";$("#timeWrap").className="timewrap";if(s)s.escaped=false;}
 }
 function remain(){const s=state.session;if(!s||s.fbMode)return 0;
   return Math.max(0,Math.ceil(s.cardLimit-(Date.now()-s.cardStart)/1000));}
