@@ -2320,13 +2320,14 @@ function fx(good,combo){
               거리는 시선을 끄는 대신 글자를 비워 주는 쪽이다. 기본 1을 지킨다.
      flowers — false면 꽃을 아예 만들지 않는다. 하트만 남는다.
 
-   꽃이 또 거슬리면 이 순서로 내린다(위에서부터 덜 잃는다):
+   지금은 하트만 켜 둔다(26.9.15 영신). 꽃을 접은 게 아니라 더 만져 볼 것이 남아서,
+   손잡이판(상태줄 시계 네 번 탭)에서 '하트만 ⇄ 꽃도'로 언제든 켜고 끌 수 있게 두었다.
+   꽃을 다시 켰다가 거슬리면 이 순서로 내린다(위에서부터 덜 잃는다):
      ① FX.spin=.2, FX.stagger=.3   움직임만 더 죽이고 꽃은 남긴다
      ② FX.flowerT=.55              더 빨리 걷힌다
-     ③ FX.petal=1                  원래 크기로
-     ④ FX.flowers=false            하트만 */
+     ③ FX.petal=1                  원래 크기로 */
 var FX={heartA:1, heartT:1, flowerA:1, flowerT:.72, petal:1.35, heartS:.94,
-        fly:1, spin:.4, stagger:.5, flowers:true};
+        fly:1, spin:.4, stagger:.5, flowers:false};
 /* flowerT는 이제 calmFX가 여섯 연출에 한꺼번에 곱한다 — 여기서 또 곱하면 두 번 곱해진다 */
 function FXt(ms){return Math.round(ms);}
 function applyFX(layer){if(!layer)return;
