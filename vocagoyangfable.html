@@ -2294,7 +2294,8 @@ function fx(good,combo){
        (Math.max이므로 c>=8 구간은 손대지 않는다). 합본은 제 엔진이 따로 8을 깐다. */
     const o={petals:Math.min(40,Math.max(8,c)),dots:Math.min(24,4+c),flash:true,ring:c>=5,edge:c>=10,dist:1+Math.min(15,c)*.05,combo:c};
     applyFX(layer);
-    burstStyle().fn(layer,x,y,o);
+    if(FX.flowers)burstStyle().fn(layer,x,y,o);   /* false면 하트만 남는다 */
+    calmFX(layer);                    /* 꽃의 거리·회전·시간에 배율을 먹인다 */
     tameHeart(layer);                 /* 변형이 깐 '속 찬 하트'를 걷어낸다 */
     bigHeartFX(layer,x,y,o);          /* 여섯 안 모두 같은 윤곽 하트 하나를 쓴다 */
   }
@@ -2309,13 +2310,58 @@ function fx(good,combo){
              모든 입자 클래스의 width/height(와 음수 margin)에 한꺼번에 곱해진다.
              연출마다 흩어져 있는 여섯 벌의 크기 계산식을 건드리지 않는 게 요점.
      heartS — 가운데 큰 하트 크기 배율. 꽃을 키우면 하트가 상대적으로 작아 보이므로
-              둘을 같이 돌려 전체 비례를 맞춘다. */
-var FX={heartA:1, heartT:1, flowerA:1, flowerT:1, petal:1.35, heartS:.94};
-function FXt(ms){return Math.round(ms*FX.flowerT);}
+              둘을 같이 돌려 전체 비례를 맞춘다.
+     spin — 꽃이 도는 각도 배율. 산만함의 원인은 크기가 아니라 움직임이었다(26.9.15 영신).
+              날면서 130°씩 도는 것은 꽃이 아니라 흩날리는 조각으로 읽힌다.
+     stagger — 꽃이 하나씩 터지는 시차 배율. 시차가 길면 시선을 여러 번 새로 끈다.
+              한 번에 피었다 한 번에 걷히는 쪽이 덜 산만하다.
+     fly — 날아가는 거리 배율. 이건 함부로 줄이면 안 된다 — 실측으로 .68까지 내리면
+              꽃이 글자 위에 뭉쳐 앉아 가림이 10%→27%(최대 121%)로 뛴다.
+              거리는 시선을 끄는 대신 글자를 비워 주는 쪽이다. 기본 1을 지킨다.
+     flowers — false면 꽃을 아예 만들지 않는다. 하트만 남는다.
+
+   꽃이 또 거슬리면 이 순서로 내린다(위에서부터 덜 잃는다):
+     ① FX.spin=.2, FX.stagger=.3   움직임만 더 죽이고 꽃은 남긴다
+     ② FX.flowerT=.55              더 빨리 걷힌다
+     ③ FX.petal=1                  원래 크기로
+     ④ FX.flowers=false            하트만 */
+var FX={heartA:1, heartT:1, flowerA:1, flowerT:.72, petal:1.35, heartS:.94,
+        fly:1, spin:.4, stagger:.5, flowers:true};
+/* flowerT는 이제 calmFX가 여섯 연출에 한꺼번에 곱한다 — 여기서 또 곱하면 두 번 곱해진다 */
+function FXt(ms){return Math.round(ms);}
 function applyFX(layer){if(!layer)return;
   layer.style.setProperty("--fx-ha",FX.heartA);
   layer.style.setProperty("--fx-fa",FX.flowerA);
   layer.style.setProperty("--fx-pk",FX.petal);}
+/* ===== 꽃의 움직임을 한 곳에서 누른다 =====
+   연출 여섯 벌이 저마다 인라인 CSS 변수로 거리·회전·시간을 적어 놓는다. 여섯 군데
+   계산식을 고치는 대신, 만들어진 직후에 그 변수만 훑어 배율을 곱한다. 아직 스타일
+   재계산 전이라 애니메이션은 곱한 값으로 시작한다(크기를 --fx-pk 하나로 민 것과 같은 수법).
+   건드리지 않는 것: 원점(--x/--y), 크기(--sz·--dsz류), 방향각(--a·--pa — 이건 어디로
+   가느냐지 얼마나 도느냐가 아니다), 그리고 하트(--shk-*). 하트는 문제가 없었다. */
+var CALM={
+  fly:["--dx","--dy","--bloomstep-dx","--bloomstep-dy","--bloomstep-sx","--d","--drop",
+       "--fall","--grav","--lift","--push","--sag","--len","--rmax"],
+  spin:["--rot","--bloomstep-rot","--bloomstep-fr","--bloomstep-sw","--v4rot","--v4ps",
+        "--spin","--ra","--rb","--rc","--hr","--tilt"],
+  dur :["--dur","--v4dur","--bloomstep-dur","--bloomstep-swd","--bloomstep-fld"],
+  dly :["--dly","--del","--v4d","--bloomstep-del","--bloomstep-cdel","--bloomstep-fdl"]};
+function calmFX(layer){
+  if(!layer)return;
+  var g=function(v){return v==null?1:v;};
+  var sets=[[CALM.fly,g(FX.fly)],[CALM.spin,g(FX.spin)],
+            [CALM.dur,g(FX.flowerT)],[CALM.dly,g(FX.flowerT)*g(FX.stagger)]];
+  var el=layer.querySelectorAll("div,i,span,b");   /* svg 내부는 볼 것이 없다 */
+  for(var i=0;i<el.length;i++){
+    var st=el[i].style;
+    for(var k=0;k<sets.length;k++){
+      var m=sets[k][1];if(m===1)continue;
+      var list=sets[k][0];
+      for(var j=0;j<list.length;j++){
+        var pn=list[j],v=st.getPropertyValue(pn);
+        if(!v)continue;
+        var n=parseFloat(v);if(!isFinite(n))continue;
+        st.setProperty(pn,(n*m)+v.trim().replace(/^[+-]?[\d.]+/,""));}}}}
 /* shock · 하트 충격파 — 속 빈 얇은 하트 링이 빈칸에서 터져 화면 밖으로 빠진다 */
 (function(){
 var SP='M50 86 C19 64 9 47 9 32 C9 19 19 11 30.5 11 C39.5 11 46.5 16 50 23.5 '+
@@ -3344,7 +3390,7 @@ function tameHeart(layer){
 
 
 /* 결과 화면 틀린 단어 지울 때 */
-function fxHeart(el){const layer=$("#fxLayer");if(!layer)return;const [x,y]=fxOrigin(el);const gen=++fxGen;applyFX(layer);const ho={heart:true,hearts:7,dots:8,ring:true,flash:true,dist:1.2,hscale:.42};burst(layer,x,y,ho);bigHeartFX(layer,x,y,ho);setTimeout(()=>{if(gen===fxGen)layer.innerHTML="";},1300);}
+function fxHeart(el){const layer=$("#fxLayer");if(!layer)return;const [x,y]=fxOrigin(el);const gen=++fxGen;applyFX(layer);const ho={heart:true,hearts:7,dots:8,ring:true,flash:true,dist:1.2,hscale:.42};burst(layer,x,y,ho);calmFX(layer);bigHeartFX(layer,x,y,ho);setTimeout(()=>{if(gen===fxGen)layer.innerHTML="";},1300);}
 
 /* ===== misc ===== */
 function esc(v){return String(v).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
