@@ -1141,40 +1141,8 @@ body.roaring{animation:roarshake .5s .15s;}
 /* 왜 통과했는지 알려주는 줄 — 고양이 잡담과 구분되게 금색 세로선 하나 */
 .ov-why{border-left:3px solid var(--gold);padding-left:9px;text-align:left;align-self:stretch;color:var(--gold);font-weight:800;}
 
-/* ===== 남은 시간 = 고양이한테서 도망치는 쥐 (26.9.14 영신) =====
-   오른쪽(고양이 쪽)에서 출발해 왼쪽 구멍으로 슬금슬금 달아난다. 다 달아나면 시간 초과고,
-   그때 고양이 표정이 썩는 연출과 서사가 맞물린다.
-   위치 계산은 공짜다 — #timeFill의 폭이 곧 남은 시간이라 그 오른쪽 끝에 쥐를 태우면 된다.
-   줄 높이는 힌트(44)·고양이(46)가 정하므로 이 줄이 22px로 커져도 카드는 그대로다. */
-.timewrap{position:relative;z-index:1;height:22px;border-radius:99px;background:none;border:0;overflow:visible;
-  display:flex;align-items:center;}
-.mtrack{position:absolute;left:11px;right:0;height:6px;border-radius:99px;background:#2a1340;
-  border:1px solid rgba(184,168,255,.22);}
-/* 왼쪽 끝 쥐구멍 */
-.mhole{position:absolute;left:0;top:50%;width:19px;height:15px;transform:translateY(-50%);
-  border-radius:11px 11px 3px 3px;background:#0d0418;border:1px solid rgba(184,168,255,.3);
-  border-bottom-color:rgba(184,168,255,.12);}
-.mhole::after{content:"";position:absolute;inset:3px 3px 0;border-radius:9px 9px 2px 2px;background:#05010b;}
-#timeFill{position:absolute;left:11px;height:6px;border-radius:99px;
-  background:linear-gradient(90deg,var(--mint),var(--cyan));transition:width .25s linear;}
-.timewrap.warn #timeFill{background:linear-gradient(90deg,var(--gold2),var(--gold));}
-.timewrap.danger #timeFill{background:linear-gradient(90deg,var(--bad),var(--bad2));}
-/* 쥐는 남은 시간 막대의 오른쪽 끝에 붙어 함께 왼쪽으로 밀려간다 */
-/* 막대 위에 올라타 달린다. 막대 한가운데 두면 선이 쥐를 관통해 꿰인 것처럼 보인다.
-   줄(46px) 안에서 막대(6px) 위로 솟는 만큼은 여유가 있어 잘리지 않는다. */
-.mouse{position:absolute;left:100%;bottom:calc(50% - 1px);width:26px;height:19px;margin-left:-13px;
-  pointer-events:none;animation:mscurry .34s steps(2,end) infinite;}
-.mouse svg{width:100%;height:100%;display:block;overflow:visible;}
-@keyframes mscurry{0%,100%{transform:translateY(0);}50%{transform:translateY(-2px);}}
-.timewrap.warn .mouse{animation-duration:.26s;}
-.timewrap.danger .mouse{animation-duration:.18s;}
-/* 다 도망쳤을 때: 구멍으로 쏙 */
-.timewrap.escaped .mouse{animation:mgone .34s cubic-bezier(.5,0,.85,.4) forwards;}
-@keyframes mgone{
-  0%{transform:translateX(0) scale(1);opacity:1;}
-  55%{transform:translateX(-8px) translateY(3px) scale(.82);opacity:1;}
-  100%{transform:translateX(-15px) translateY(6px) scale(.3);opacity:0;}}
-@media (prefers-reduced-motion: reduce){.mouse{animation:none!important;}}
+/* 남은 시간 막대는 민무늬로 둔다. 한때 쥐가 고양이한테서 도망치는 연출을 얹었는데,
+   재미있긴 해도 문제를 푸는 동안 눈이 그쪽으로 끌려가서 걷어냈다(26.9.15 영신). */
 </style>
 </head>
 <body>
@@ -1232,7 +1200,7 @@ body.roaring{animation:roarshake .5s .15s;}
     <!-- GAME -->
     <section class="screen" id="gameScreen">
       <div class="panel quiz" id="quizCard">
-        <!-- 카드 머리줄: 힌트 · 남은 시간(도망치는 쥐) · 고양이(확인).
+        <!-- 카드 머리줄: 힌트 · 남은 시간 · 고양이(확인).
              남은 시간 막대가 가로를 다 쓸 필요는 없다(26.9.14 영신) → 그 줄에 버튼을 태워
              뜻이 카드 폭을 통째로 쓴다. 맨 위에 두는 이유: 정답·오답 공개가 카드 아래에 붙으므로,
              이 줄이 중간에 있으면 공개 뒤 힌트·고양이가 본문 한가운데 끼어 갈 곳을 잃는다.
@@ -1240,9 +1208,7 @@ body.roaring{animation:roarshake .5s .15s;}
         <div class="trow">
           <button class="ghost ibtn" id="hintBtn" type="button" aria-label="힌트">💡</button>
           <div class="timewrap" id="timeWrap" aria-hidden="true">
-            <span class="mhole"></span>
-            <span class="mtrack"></span>
-            <i id="timeFill"><span class="mouse" id="tMouse"></span></i>
+            <i id="timeFill"></i>
           </div>
           <button class="catbtn" id="catSubmit" type="button" aria-label="확인 (고양고양이 탭)">
             <img id="quizCat" alt="고양고양이">
@@ -1790,35 +1756,6 @@ const state={lessons:[],progress:loadProgress(),li:0,ei:0,session:null,ticker:nu
 
 /* set cat images */
 
-/* 왼쪽으로 달아나는 흰 쥐. 옆모습, 현실에 가까운 비례.
-   여기까지 온 경위(같은 실수를 반복하지 않으려고 남긴다):
-   ① 옆모습에 '주둥이 덩어리'를 따로 만들고 끝에 코를 달았다 → 곤충 주둥이로 읽힘.
-   ② 코 끝에서 앞으로 뻗는 수염을 한 가닥으로 줄였다 → 침처럼 보임. 선 자체가 문제였다.
-   ③ 주둥이를 머리에 파묻고 입을 그렸다 → 벌어진 턱, 아귀가 됨.
-   ④ 주둥이를 없애려 정면 얼굴 + 큰 눈으로 갔다 → 큰 눈 + 작은 몸은 그렘린·도비·골룸 쪽이다.
-      유아도해를 밀수록 귀여움이 아니라 기괴함으로 간다(영신).
-   결론: 귀여움을 노리지 말고 '제대로 그린 쥐'를 그린다. 눈은 점 하나.
-   머리는 몸에서 자연스럽게 좁아지고, 코는 그 끝 실루엣 위에 찍는다 — 덩어리를 덧붙이지 않는다.
-   입은 그리지 않는다(그리는 순간 턱이 생긴다). 귀는 머리 뒤에 하나.
-   구조가 다른 안 열 개를 20/26/34px과 확대로 비교해 고른 것이다(scratchpad/mice/). */
-const MOUSE_SVG='<svg viewBox="-3 -3 44 30" aria-hidden="true">'+
-  /* 꼬리 */
-  '<path d="M31 18 C39 18.6 40 8 34 8.6" fill="none" stroke="#ded6ec" stroke-width="2.2" stroke-linecap="round"/>'+
-  /* 몸통 */
-  '<ellipse cx="19" cy="15.6" rx="11" ry="7.4" fill="#efe9f8"/>'+
-  /* 귀 — 머리 뒤에 하나. 쥐임을 알리는 표식이다 */
-  '<circle cx="14.4" cy="6.6" r="5.1" fill="#e4dcf0"/><circle cx="14.4" cy="6.6" r="2.8" fill="#dba7c4"/>'+
-  /* 머리 — 몸에서 이어져 코 쪽으로 좁아진다 */
-  '<path d="M9.6 10.2 C4 10.6 0.6 13.4 0.6 15.8 C0.6 18.2 3.6 20 8.6 20.4 Z" fill="#f4f0fa"/>'+
-  /* 눈 — 점 하나 */
-  '<circle cx="8.2" cy="13.4" r="1.35" fill="#2a1436"/>'+
-  /* 코 — 실루엣 끝에 */
-  '<circle cx="1" cy="15.9" r="1.35" fill="#d98fb4"/>'+
-  /* 발 */
-  '<ellipse cx="12" cy="22.9" rx="2.8" ry="1.5" fill="#c9bedd"/>'+
-  '<ellipse cx="21" cy="22.9" rx="2.8" ry="1.5" fill="#c9bedd"/>'+
-  '</svg>';
-(function(){const m=document.getElementById("tMouse");if(m)m.innerHTML=MOUSE_SVG;})();
 function setCat(id,expr){const el=document.getElementById(id);if(el)el.src=CAT[expr]||CAT.normal;}
 ['homeCat','routeCat','quizCat','sumCat'].forEach(id=>setCat(id,'normal'));
 
@@ -2211,18 +2148,12 @@ function updateStats(){
   if(!s.fbMode&&s.currentId!==null){
     const left=remain();const pct=Math.max(0,left/s.cardLimit*100);
     const tw=$("#timeWrap");$("#timeFill").style.width=pct+"%";
-    /* escaped를 문자열로 다시 쓰면 매 tick마다 지워진다 — 살려서 이어 붙인다 */
-    tw.className="timewrap"+(pct<25?" danger":(pct<50?" warn":""))+(s.escaped?" escaped":"");
-    if(left<=0&&!s.escaped){
-      /* 쥐가 구멍으로 들어가는 걸 보여주고 나서 넘긴다. 바로 제출하면 공개 화면이
-         timeWrap을 숨겨 버려 연출이 한 프레임도 안 보인다. */
-      s.escaped=true;tw.classList.add("escaped");
-      setTimeout(()=>{const ss=state.session;if(ss&&!ss.answered)submit({timeout:true});},380);
-    }
+    tw.className="timewrap"+(pct<25?" danger":(pct<50?" warn":""));
+    if(left<=0&&!s.answered)submit({timeout:true});
   } else {
     /* 공개 중에는 막대를 되살리지 않는다 — 가득 찬 초록 막대가 뜨면 시간이 남은 것처럼 읽힌다.
        다시 보이게 하는 것은 새 카드를 그릴 때뿐이다(nextCard). */
-    $("#timeFill").style.width="100%";$("#timeWrap").className="timewrap";if(s)s.escaped=false;}
+    $("#timeFill").style.width="100%";$("#timeWrap").className="timewrap";}
 }
 function remain(){const s=state.session;if(!s||s.fbMode)return 0;
   return Math.max(0,Math.ceil(s.cardLimit-(Date.now()-s.cardStart)/1000));}
