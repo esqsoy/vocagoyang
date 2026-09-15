@@ -1964,7 +1964,7 @@ function nextCard(){
     const id=s.queue.shift();const w=s.words[id];
     if(s.round!==1&&w.passed)continue;
     s.currentId=id;s.answered=false;s.fbMode=false;s.copyMode=false;s.copyAns="";
-    s.cardLimit=limitFor(w.term);s.cardStart=Date.now();s.hintLevel=0;
+    s.cardLimit=limitFor(w.term);s.cardStart=Date.now();s.hintLevel=0;s.lastKey=0;
     const card=$("#quizCard");card.className="panel quiz";
     $("#meaning").textContent=w.meaning;
     $("#hoeCtx").innerHTML=hoeCtxHtml(w);
@@ -1990,14 +1990,19 @@ function submit(opt={}){
   const w=s.words[s.currentId];
   const typed=$("#ainput").value;
   if(!typed.trim()&&!opt.forced&&!opt.timeout&&Date.now()-s.cardStart<400)return; // 카드 넘어간 직후 빈 입력 Enter 연타는 무시
-  let correct=!opt.forced&&!opt.timeout&&isCorrect(typed,w.term);
+  /* 시간이 다 됐어도 칸에 맞는 답이 들어 있으면 맞은 것이다(26.9.15 영신 신고).
+     전에는 opt.timeout이면 친 글자를 아예 안 보고 오답으로 넘겼다. 그래서
+     ① 마지막 글자 직전에 만료되거나 ② till/until 처럼 별칭이 표제어보다 짧아
+     빈칸이 안 차서 자동제출이 안 걸린 경우, 맞게 쳤는데 따라쓰기로 갔다.
+     forced(포기)는 그대로 오답이다 — 그건 스스로 넘긴 것이다. */
+  let correct=!opt.forced&&isCorrect(typed,w.term);
   let variantHit=false;
-  if(!correct&&!opt.forced&&!opt.timeout&&typed.trim()&&isSpellingVariant(typed,w.term)){correct=true;variantHit=true;}
-  if(!correct&&!opt.forced&&!opt.timeout&&typed.trim()&&isAliasHit(typed,w)){correct=true;variantHit=true;}
+  if(!correct&&!opt.forced&&typed.trim()&&isSpellingVariant(typed,w.term)){correct=true;variantHit=true;}
+  if(!correct&&!opt.forced&&typed.trim()&&isAliasHit(typed,w)){correct=true;variantHit=true;}
 
   s.answered=true;s.fbMode=true;s.attempts++;w.attempts++;
   // first-try accuracy
-  if(!s.seenSet.has(w.id)){s.seenSet.add(w.id);s.firstSeen++;if(correct&&s.hintLevel===0&&!opt.timeout)s.firstCorrect++;}
+  if(!s.seenSet.has(w.id)){s.seenSet.add(w.id);s.firstSeen++;if(correct&&s.hintLevel===0)s.firstCorrect++;}
   $("#submitBtn").disabled=true;$("#hintBtn").disabled=true;
 
   if(correct){
@@ -2149,7 +2154,14 @@ function updateStats(){
     const left=remain();const pct=Math.max(0,left/s.cardLimit*100);
     const tw=$("#timeWrap");$("#timeFill").style.width=pct+"%";
     tw.className="timewrap"+(pct<25?" danger":(pct<50?" warn":""));
-    if(left<=0&&!s.answered)submit({timeout:true});
+    if(left<=0&&!s.answered){
+      /* 손이 움직이는 중이면 조금 봐준다. 0이 되는 순간 칼같이 끊으면 마지막 글자를
+         치던 손이 진다 — 막대는 8px이라 눈이 예문에 가 있으면 0이 되는 걸 못 본다.
+         최대 5초까지만. 멈춘 지 1.2초가 지나면 그때는 진짜 시간 초과다. */
+      var over=(Date.now()-s.cardStart)/1000-s.cardLimit;
+      var typing=s.lastKey&&(Date.now()-s.lastKey)<1200&&$("#ainput").value.trim()!=="";
+      if(!typing||over>5)submit({timeout:true});
+    }
   } else {
     /* 공개 중에는 막대를 되살리지 않는다 — 가득 찬 초록 막대가 뜨면 시간이 남은 것처럼 읽힌다.
        다시 보이게 하는 것은 새 카드를 그릴 때뿐이다(nextCard). */
@@ -3403,6 +3415,7 @@ $("#aform").addEventListener("submit",e=>{e.preventDefault();submit();});
 $("#ainput").addEventListener("keydown",e=>{if(e.key==="Enter"||e.keyCode===13){e.preventDefault();e.stopPropagation();const s=state.session;if(s&&s.answered&&!s.copyMode)doNext();else submit();}});
 /* 키보드 유지: 게임 화면에서 입력창 밖(카드·오버레이·버튼)을 눌러도 포커스를 뺏기지 않게 mousedown 기본동작(포커스 이동)을 막는다. click은 그대로 발생한다. */
 $("#gameScreen").addEventListener("mousedown",e=>{if(e.target&&e.target.closest&&e.target.closest("input,textarea,select,[contenteditable]"))return;e.preventDefault();const a=$("#ainput");if(document.activeElement!==a&&!a.disabled&&state.session&&!e.target.closest("button,a"))a.focus({preventScroll:true});});
+$("#ainput").addEventListener("input",()=>{const s=state.session;if(s)s.lastKey=Date.now();});
 $("#ainput").addEventListener("input",mirrorTyped);
 $("#catSubmit").addEventListener("click",e=>{e.preventDefault();e.stopPropagation();submit();});
 $("#submitBtn")&&$("#submitBtn").addEventListener("click",e=>{e.preventDefault();e.stopPropagation();submit();});
