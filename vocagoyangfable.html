@@ -1550,8 +1550,15 @@ const HINTS = {
 function hintFor(term){return HINTS[(term||"").trim().toLowerCase()]||"";}
 
 /* ===== A) 유사어 감지 → 멘트만 다르게(판정은 그대로 오답) ===== */
-function splitGloss(ko){return (ko||"").split(/[,/·]|또는/)
-  .map(g=>g.replace(/\(.*?\)/g,"").replace(/\s+/g," ").trim()).filter(g=>g.length>=2);}
+/* ko를 뜻 조각으로 쪼갠다. 순서가 중요하다(26.9.15):
+     ① 괄호를 먼저 지운다 — 나중에 지우면 "시작하다 (↔ stop/finish)"가 '/'에서 먼저 잘려
+        "시작하다 (↔ stop" 같은 쓰레기 조각이 남아 begin과 영영 안 맞는다.
+     ② 세미콜론도 구분자다 — "선물; 재능"이 한 덩어리라 present의 "선물"과 안 맞았다.
+     ③ 앞의 동그라미 번호를 뗀다 — sole "① 유일한"과 only "② 유일한"이 번호 때문에 갈렸다.
+   이 셋을 고치니 메모에 적힌 동의어 쌍 89개 중 안내가 뜨는 것이 35 → 54쌍이 됐다.
+   무작위 표본에서 새로 튀는 오검출은 0건. */
+function splitGloss(ko){return (ko||"").replace(/\(.*?\)/g,"").split(/[,;/·]|또는/)
+  .map(g=>g.replace(/^[\u2460-\u2473\s]+/,"").replace(/\s+/g," ").trim()).filter(g=>g.length>=2);}
 const GLOSS=new Map();  // 뜻조각 -> Set(정규화된 영단어)
 DATA.forEach(L=>L.exercises.forEach(e=>e.words.forEach(w=>{
   splitGloss(w.ko).forEach(g=>{if(!GLOSS.has(g))GLOSS.set(g,new Set());GLOSS.get(g).add(normalize(w.en));});
