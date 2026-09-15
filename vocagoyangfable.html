@@ -3465,6 +3465,94 @@ $("#endClose").addEventListener("click",()=>{const ov=$("#ending");ov.classList.
 document.querySelector(".maproute").addEventListener("click",()=>{
   if(totalExercises()>0 && clearedExercises()>=totalExercises()) showEnding();
 });
+/* ===== 정답효과 손잡이판 (주소 끝에 #fx 를 붙이면 뜬다) =====
+   영신이 직접 보면서 하나씩 돌려 보라고 만든 것. 평소에는 아예 만들어지지 않는다.
+   크기를 먼저 정하고 그다음 움직임 — 순서대로 놓았다.
+   슬라이더를 움직이면 그 자리에서 효과를 다시 터뜨리므로 값과 눈이 바로 붙는다.
+   맨 아래 줄이 그대로 코드에 넣을 값이다. */
+(function(){
+  /* 여는 법 두 가지. 아티팩트는 iframe 안이라 주소의 #fx가 안 닿을 수 있어서,
+     화면 안에서 여는 길을 하나 더 둔다 — 상태줄의 시계(00:00)를 1.5초 안에 네 번 탭. */
+  var open=/(^|[#&])fx\b/.test(location.hash);
+  if(!open){
+    var t=[],c=document.getElementById("sTime");
+    if(c)c.addEventListener("click",function(){
+      var n=Date.now();t.push(n);t=t.filter(function(x){return n-x<1500;});
+      if(t.length>=4){t=[];build();}});
+    return;
+  }
+  build();
+  function build(){
+  if(document.getElementById("fxpanel"))return;
+  var STYLE=null;                                   /* null이면 원래대로 과·연습이 정한다 */
+  var real=window.burstStyle;
+  window.burstStyle=function(){return STYLE==null?real():BURSTS[STYLE];};
+  var KNOBS=[
+    ["크기","petal",  "꽃·불티·꽃가루 크기", .7, 2,  .05],
+    ["움직임","spin", "도는 각도",           0,  1,  .05],
+    [null,  "stagger","하나씩 터지는 시차",   0,  1,  .05],
+    [null,  "flowerT","떠 있는 시간",       .35,1.3,.02],
+    [null,  "fly",    "날아가는 거리",       .5, 1.4,.05]];
+  var BASE={};KNOBS.forEach(function(k){BASE[k[1]]=FX[k[1]];});
+  var box=document.createElement("div");
+  box.id="fxpanel";
+  box.innerHTML=
+    '<style>#fxpanel{position:fixed;left:8px;right:8px;bottom:8px;z-index:60;'+
+    'background:rgba(16,6,30,.96);border:1px solid rgba(184,168,255,.35);border-radius:14px;'+
+    'padding:9px 11px 10px;color:#e9e0ff;font:600 12px/1.35 system-ui,sans-serif;'+
+    'box-shadow:0 8px 30px rgba(0,0,0,.6);max-height:52vh;overflow:auto;}'+
+    '#fxpanel.min{max-height:38px;overflow:hidden;}'+
+    '#fxpanel .hd{display:flex;align-items:center;gap:8px;margin-bottom:6px;}'+
+    '#fxpanel .hd b{flex:1;color:#ffd34d;}'+
+    '#fxpanel button{background:#2a1340;color:#e9e0ff;border:1px solid rgba(184,168,255,.35);'+
+    'border-radius:8px;padding:4px 8px;font:inherit;cursor:pointer;}'+
+    '#fxpanel button:active{background:#3d1d5c;}'+
+    '#fxpanel .grp{color:#ff8ac6;margin:7px 0 3px;font-size:11px;letter-spacing:.04em;}'+
+    '#fxpanel .row{display:grid;grid-template-columns:82px 1fr 44px;align-items:center;gap:7px;margin:3px 0;}'+
+    '#fxpanel .row i{font-style:normal;color:#b8a8ff;font-size:11px;}'+
+    '#fxpanel .row b{text-align:right;color:#7cffb2;font-variant-numeric:tabular-nums;}'+
+    '#fxpanel input[type=range]{width:100%;accent-color:#ff4fa3;}'+
+    '#fxpanel .out{margin-top:7px;padding:5px 7px;border-radius:8px;background:#0d0418;'+
+    'color:#ffd34d;font:600 11px/1.4 ui-monospace,monospace;word-break:break-all;}'+
+    '</style>'+
+    '<div class="hd"><b>정답효과 손잡이</b>'+
+      '<button data-a="style">연출 ▸</button>'+
+      '<button data-a="c1">1</button><button data-a="c8">8</button><button data-a="c20">20</button>'+
+      '<button data-a="min">▾</button></div>'+
+    '<div class="body"></div>'+
+    '<div class="hd" style="margin:8px 0 0"><button data-a="reset">기본값</button>'+
+      '<button data-a="noflower">하트만 ⇄ 꽃도</button><b class="sty" style="text-align:right"></b></div>'+
+    '<div class="out"></div>';
+  document.body.appendChild(box);
+  var body=box.querySelector(".body"),out=box.querySelector(".out"),sty=box.querySelector(".sty");
+  KNOBS.forEach(function(k){
+    if(k[0]){var g=document.createElement("div");g.className="grp";g.textContent="— "+k[0];body.appendChild(g);}
+    var r=document.createElement("div");r.className="row";
+    r.innerHTML='<i>'+k[2]+'</i><input type="range" min="'+k[3]+'" max="'+k[4]+'" step="'+k[5]+'"><b></b>';
+    var inp=r.querySelector("input"),lab=r.querySelector("b");
+    inp.value=FX[k[1]];lab.textContent=(+FX[k[1]]).toFixed(2);
+    inp.addEventListener("input",function(){FX[k[1]]=+inp.value;lab.textContent=(+inp.value).toFixed(2);say();shoot();});
+    body.appendChild(r);r._i=inp;r._l=lab;k.push(r);
+  });
+  var combo=8;
+  function shoot(){if(document.getElementById("quizCard"))fx(true,combo);}
+  function say(){
+    out.textContent="FX: "+KNOBS.map(function(k){return k[1]+":"+(+FX[k[1]]).toFixed(2).replace(/0+$/,"").replace(/\.$/,"");}).join("  ")
+      +(FX.flowers?"":"   flowers:false");
+    sty.textContent=(STYLE==null?"연출 자동":BURSTS[STYLE].name)+" · 콤보 "+combo;}
+  function sync(){KNOBS.forEach(function(k){k[6]._i.value=FX[k[1]];k[6]._l.textContent=(+FX[k[1]]).toFixed(2);});say();}
+  box.addEventListener("click",function(e){
+    var a=e.target&&e.target.getAttribute&&e.target.getAttribute("data-a");if(!a)return;
+    if(a==="min")box.classList.toggle("min");
+    else if(a==="style"){STYLE=STYLE==null?0:(STYLE+1>=BURSTS.length?null:STYLE+1);say();shoot();}
+    else if(a==="reset"){Object.assign(FX,BASE);FX.flowers=true;sync();shoot();}
+    else if(a==="noflower"){FX.flowers=!FX.flowers;say();shoot();}
+    else if(a[0]==="c"){combo=+a.slice(1);say();shoot();}});
+  box.addEventListener("mousedown",function(e){e.stopPropagation();});
+  say();
+  }
+})();
+
 renderHome();
 </script>
 </body>
