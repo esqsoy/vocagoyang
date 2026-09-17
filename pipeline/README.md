@@ -150,6 +150,13 @@ git add vocagoyangfable.html && git commit -m "…"
 
 사용: `python3 pipeline/collide.py` (요약) · `--list --set=0` (세트별 목록). 결과 JSON은 scratchpad에 떨어진다.
 
+**26.9.16~17 전 세트 1회전 완료.** 0~45세트 후보 657건을 한 건씩 읽고 **12장**을 손봤다(적중률 1.8%).
+- 예문 교체 7장: love③(별건), artist①(별건), photo①←picture, internet①←web, dialogue①←conversation, know①←see, work②←run, look②←seem, ground①←floor, brain①←head
+- 해설 보강 5장: floor①↔ground, head①↔brain, photograph①←picture, web①←internet — 짝을 양쪽에서 맞물리게 했다
+- 나머지 645건은 두 부류였다. ① 문법·연어가 이미 막는다(arrive←get은 get to, deal←handle은 handle with 없음, answer←reply는 reply to, permit←let은 let+원형, study←research는 불가산, sense②←meaning은 make sense, part②←role은 take part in …). ② 진짜 들어가지만 차이가 격식·지역뿐이다(allow←permit, difficult←hard/tough, subject←topic, bear←stand, host←hold, prohibit←forbid, terrific←great, lethal←fatal …) — 4절 끝의 "SYNLINES 몫으로 남긴 쌍" 목록과 거의 그대로 겹친다. 예문을 비틀면 영어가 부자연스러워지므로 고양이 안내가 맡는다.
+- 체에 잡음도 있다: bride←priest, torture←adviser, theorem←closure, plural←revenge처럼 한국어 뜻 조각이 엉뚱하게 겹친 것들. 무해하지만 읽을 때 걸러야 한다.
+- 23세트 이후는 적중률이 0이었다. 그 구간이 4절 전수 검수를 한 번 거쳤고, 남은 쌍은 애초에 "안내로 넘긴다"고 결정된 것들이기 때문이다. **다음 회전은 0~15세트만 보면 된다.**
+
 ## 5. 미결 과제 (우선순위 순)
 
 1. ~~**1차 완성 확인**~~ — 완료(26.9.9). `a941c48` 업로드 + hoe.html 삭제 확인.
