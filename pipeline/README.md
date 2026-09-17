@@ -131,6 +131,25 @@ git add vocagoyangfable.html && git commit -m "…"
 → **(26.9.15 처리)** 안 뜨던 원인이 뜻이 달라서가 아니라 `splitGloss`가 허술해서였다. 셋을 고쳤다: ① 괄호를 자르기 **전에** 지운다(전에는 "시작하다 (↔ stop/finish)"가 '/'에서 먼저 잘려 "시작하다 (↔ stop" 이라는 쓰레기 조각이 남았다) ② 세미콜론도 구분자로("선물; 재능"이 한 덩어리였다) ③ 앞의 동그라미 번호(①②③)를 뗀다(sole "① 유일한" ≠ only "② 유일한"이었다). 결과: 안내가 뜨는 쌍 **35 → 54**(위 89쌍 기준). 무작위 표제어 조합 56,556쌍에서 발동 12건(0.02%)인데 전부 살펴보니 진짜 동의어였다 — send←spend(둘 다 '보내다'), bet←hang(둘 다 '걸다'), story←talking, micro←marginal, breed←grow 등. 오검출이 아니라 한국어 뜻이 실제로 겹치는 자리다.
 → 남은 35쌍은 한국어 뜻 자체가 달라 자동으로는 못 잡는다(spicy 매운 / hot 뜨거운, fetch 가서 가져오다 / get 얻다, abolish 폐지하다 / end 끝나다). 이건 여전히 명시 동의어표 `SYN={"start/1":["begin"],…}`가 필요하다 — 별칭표(`ALT`)와 같은 꼴로 두고 `isSynonymMiss`가 GLOSS보다 먼저 보게 한다. 안 뜨는 35쌍: kind/type room/space area/field subject/topic bear/stand count/matter while/when fortunate/lucky probable/likely dislike/hate tab/bill midst/middle underneath/under purely/only nationwide/national entitle/name memo/note filthy/dirty spicy/hot tightly/tight phenomenal/amazing wed/marry firearm/gun fetch/get adhere/stick circa/around optimum/best marvelous/wonderful gradient/slope abolish/end terrify/scare imprison/jail escalate/grow intriguing/interesting grammatical/grammar.
 
+### 4-1. 빈칸 중의성 기계 조사 `pipeline/collide.py` (26.9.16 신설)
+
+4절의 기준("한국어 뜻 + 예문 + 번역, 이 셋으로 다른 영단어도 들어갈 수 있으면 결함")을 기계가 좁혀 준다. 사람이 5,751장을 다 볼 수는 없으니 **볼 만한 후보만 추려 내는 체**다.
+
+거르는 순서:
+1. 같은 뜻 조각을 가진 다른 표제어 → 2,034장(35%). 너무 넓다.
+2. 카드의 한국어 뜻이 **통째로** 그 표제어에도 들어맞고 품사도 같은 것만 → 784장. 학생이 보는 한국어만으로는 둘을 못 가린다는 뜻이다.
+3. 별칭표(`ALT`)에 있어 이미 정답으로 받아 주는 것, 예문에 이미 쓰인 것, 해설(`c`)이 이미 대비해 놓은 것을 뺀다 → 670장.
+4. 빈칸 앞 관사(a/an)가 안 맞는 맞수를 뺀다(`A {{BLANK}}`에 officer는 못 들어간다) → **657장 / 맞수 880쌍**.
+
+**여기까지가 기계의 몫이다.** 남은 판단 — "그 맞수가 이 문장에 실제로 들어가는가, 들어간다면 별칭으로 받아 줄 것인가 예문을 조일 것인가" — 는 사람이 한다. 기계가 후보를 880쌍으로 줄여 줄 뿐 결함 880건이라는 뜻이 아니다.
+
+판단은 대개 셋 중 하나로 갈린다:
+- **별칭으로 받는다** — 지역·격식 변형(sweater←jumper, TV←telly). `ALT`에 넣으면 정답 처리된다.
+- **안내로 남긴다** — 뜻은 겹쳐도 영어에서 자리가 다른 말(photo←picture, exam←test). 지금도 `isSynonymMiss`가 고양이 멘트로 알려 준다.
+- **예문을 조인다** — 그 자리에 정말 둘 다 들어가는 경우. 4절의 우선순위대로 연어·관용구로 잠근다.
+
+사용: `python3 pipeline/collide.py` (요약) · `--list --set=0` (세트별 목록). 결과 JSON은 scratchpad에 떨어진다.
+
 ## 5. 미결 과제 (우선순위 순)
 
 1. ~~**1차 완성 확인**~~ — 완료(26.9.9). `a941c48` 업로드 + hoe.html 삭제 확인.
