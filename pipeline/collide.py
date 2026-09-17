@@ -50,7 +50,9 @@ for ln,exn,w in cards:
         if r==t: continue
         if r in ok: continue                                          # 별칭표에 있으면 결함이 아니다 — 쳐도 정답
         if re.search(r'\b'+re.escape(r)+r'\b',ex): continue          # 이미 예문에 쓰인 단어는 답일 수 없다
-        if re.search(r'\b'+re.escape(r)+r'\b',note): continue        # 해설이 이미 그 단어와 대비해 놨다
+        # 해설이 이미 그 단어와 대비해 놨는가. \b는 "examination의"에서 안 먹는다 —
+        # 한글도 \w라서 n과 의 사이에 경계가 안 생긴다. 알파벳으로만 경계를 잡는다.
+        if re.search(r'(?<![a-z])'+re.escape(r)+r'(?![a-z])',note): continue
         if art and (r[0] in 'aeiou')!=(art=='an'): continue            # a/an 불일치
         if any(p==pos and mine<=set(fr) for p,fr in SENSES[r]): rv.append(r)
     if rv: rows.append((ln,exn,w,sorted(rv)))
