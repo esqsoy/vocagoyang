@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 """보카고양 HoE 기계 감사기 — 사용: python3 audit.py out/set05.json [--fix-report]"""
+import os as _os
+P = _os.path.dirname(_os.path.abspath(__file__))          # pipeline/
+REPO = _os.path.dirname(P)                                  # 레포 루트
+HTMLPATH = _os.path.join(REPO, 'vocagoyangfable.html')
 import re, json, sys
 
-allowed_data = json.load(open('/home/claude/hoe-prod/allowed.json'))
-white = set(json.load(open('/home/claude/hoe-prod/whitelist.json')))
+allowed_data = json.load(open(f'{P}/allowed.json'))
+white = set(json.load(open(f'{P}/whitelist.json')))
 ALLOWED = set(allowed_data['ldv']) | set(allowed_data['used400']) | white | set(allowed_data.get('set0',[]))
 NUMS = set("one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen twenty thirty forty fifty sixty seventy eighty ninety hundred thousand million first second third fourth fifth".split())
 IRR = set("was were is are am been being has had having does did done doing went gone goes going said says saw seen made got gotten took taken came gave given knew known thought told found felt kept left met ran sat stood heard held brought bought caught taught wore chose spoke spoken broke broken wrote written ate eaten drank drove driven fell fallen grew grown drew drawn flew threw thrown won lost paid sent spent built meant sold became children men women people feet teeth mice better best worse worst an froze frozen sank sunk swam swum rang rung sang sung bit bitten hid hidden shook shaken woke woken slid crept swept wept slept fed led bled bred bent lent spun stung strung swung hung dug stuck struck rode ridden rose risen shone shot sought fought bound ground wound blew grew threw withdrew forgave forgiven forgot forgotten chose chosen tore torn wore worn swore sworn bore borne began begun sprang sprung sank shrank shrunk stank stuck laid lain lay dealt burnt learnt dreamt spat split spread shed hurt cut put set let hit quit read".split())
@@ -77,7 +81,7 @@ def audit(path, expected_words=None):
 def dups_all():
     """--dups: 전 세트 교차 중복 — 같은 표제어가 여러 세트에, 같은 예문이 여러 카드에"""
     import glob, collections
-    files = sorted(glob.glob('/home/claude/hoe-prod/out/lesson0[0-4].json')) + sorted(f for f in glob.glob('/home/claude/hoe-prod/out/set*.json') if int(re.search(r'set(\d+)', f).group(1)) < 46)  # 46·47 형태론 세트는 재등장이 목적이라 제외
+    files = sorted(glob.glob(f'{P}/out/lesson0[0-4].json')) + sorted(f for f in glob.glob(f'{P}/out/set*.json') if int(re.search(r'set(\d+)', f).group(1)) < 46)  # 46·47 형태론 세트는 재등장이 목적이라 제외
     where, exwhere = collections.defaultdict(list), collections.defaultdict(list)
     for f in files:
         o = json.load(open(f)); exs = o['exercises'] if isinstance(o, dict) else o
@@ -98,15 +102,15 @@ if __name__ == '__main__':
     if setno >= 46:   # 형태론 세트(접사·어근): Fable 전체 표제어 + 명단의 preview 단어 허용
         fab = allowed_data.get('fable', {})
         ALLOWED |= set(fab)
-        spec = json.load(open(f'/home/claude/hoe-prod/fable/in/set{setno}.json'))
+        spec = json.load(open(f'{P}/fable/in/set{setno}.json'))
         for x in spec: ALLOWED |= set(x.get('preview', []))
         expected = [x['word'] for x in spec]
     elif setno >= 23:
         fab = allowed_data.get('fable', {})
         ALLOWED |= {w for w, s in fab.items() if s <= setno}
-        expected = [x['word'] for x in json.load(open(f'/home/claude/hoe-prod/fable/in/set{setno}.json'))]
+        expected = [x['word'] for x in json.load(open(f'{P}/fable/in/set{setno}.json'))]
     else:
-        sets = json.load(open('/home/claude/hoe-prod/sets.json'))
+        sets = json.load(open(f'{P}/sets.json'))
         expected = sets[setno-5]
     n, u, m, probs = audit(path, expected)
     print(f"{path}: 카드 {n} · 단어 {u} · meow {m} · 문제 {len(probs)}")

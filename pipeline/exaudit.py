@@ -7,7 +7,8 @@ audit.py의 어휘 통제는 LDV+used400+화이트리스트+0세트 기준이라
 사용: python3 pipeline/exaudit.py   (레포 어디서 돌려도 된다)
 26.9.16 기준 0~45세트 5,752장 전수 위반 0장."""
 import re, json, glob, os, sys, collections
-P='/home/user/vocagoyang/pipeline'
+import os as _os
+P=_os.path.dirname(_os.path.abspath(__file__))
 white=set(json.load(open(f'{P}/whitelist.json')))
 NUMS=set("one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty thirty forty fifty sixty seventy eighty ninety hundred thousand million billion first second third fourth fifth".split())
 IRR=set("was were is are am been being has had having does did done doing went gone goes going said says saw seen made got gotten took taken came gave given knew known thought told found felt kept left met ran sat stood heard held brought bought caught taught wore chose spoke spoken broke broken wrote written ate eaten drank drove driven fell fallen grew grown drew drawn flew threw thrown won lost paid sent spent built meant sold became children men women people feet teeth mice better best worse worst an froze frozen sank sunk swam swum rang rung sang sung bit bitten hid hidden shook shaken woke woken slid crept swept wept slept fed led bled bred bent lent spun stung strung swung hung dug stuck struck rode ridden rose risen shone shot sought fought bound ground wound blew withdrew forgave forgiven forgot forgotten chosen tore torn worn swore sworn bore borne began begun sprang sprung shrank shrunk stank laid lain lay dealt burnt learnt dreamt spat split spread shed hurt cut put set let hit quit read".split())
