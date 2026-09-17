@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 """이음새 감사(헌장 제5조): LDV ↔ Fable ↔ 마더텅 ↔ EBS 표제어 대조.
 사용: python3 seam.py [--list 마더텅only|ebsonly|both]  — 레포의 세 HTML에서 DATA를 뽑아 겹침·공백 매트릭스를 낸다."""
+import os as _os
+P = _os.path.dirname(_os.path.abspath(__file__))          # pipeline/
+REPO = _os.path.dirname(P)                                  # 레포 루트
+HTMLPATH = _os.path.join(REPO, 'vocagoyangfable.html')
 import re, json, sys, collections
-REPO = '/home/claude/vocagoyang'
+
 def words_of(path):
     h = open(path, encoding='utf-8').read()
     m = re.search(r'const DATA = (\[.*?\]);\n', h, re.S)
@@ -18,7 +22,7 @@ def words_of(path):
 fable = words_of(f'{REPO}/vocagoyangfable.html')
 mt = words_of(f'{REPO}/vocagoyangksat2027.html')
 ebs = words_of(f'{REPO}/vocagoyangebs2027.html')
-ldv = set(json.load(open('/home/claude/hoe-prod/allowed.json'))['ldv'])
+ldv = set(json.load(open(f'{P}/allowed.json'))['ldv'])
 F, M, E = set(fable), set(mt), set(ebs)
 def n(s): return f"{len(s):,}"
 print("=== 표제어 수")

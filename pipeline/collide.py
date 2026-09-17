@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """빈칸 중의성 기계 조사 (2차) — 카드의 한국어 뜻이 '통째로' 다른 표제어에도 들어맞는가"""
 import json,glob,re,os,collections,sys
-P='/home/user/vocagoyang/pipeline'
+import os as _os
+P=_os.path.dirname(_os.path.abspath(__file__))
 def load():
     fs=sorted(glob.glob(f'{P}/out/lesson0[0-4].json'))+sorted(glob.glob(f'{P}/out/set*.json'),key=lambda f:int(re.search(r'set(\d+)',f).group(1)))
     for f in fs:
