@@ -1,0 +1,2266 @@
+{
+  "course": 50,
+  "title": "독해에 필요한 동사 결합",
+  "status": "revised-selection-ready-for-authoring",
+  "reviewedAt": "2026-09-19",
+  "meaningUnitCount": 102,
+  "uniqueExpressionCount": 85,
+  "originalMeaningUnits": 76,
+  "splitMeaningUnits": 1,
+  "addedMeaningUnits": 25,
+  "statusRule": "revisit는 기존 목표/결합 빈칸에서 직접 익힌 뜻. new-sense는 기학습 결합의 다른 뜻·문형. example-only/explanation-only 노출은 독립 회상 완료로 세지 않고 new-expression으로 표시한다. 한 과정 안의 뜻 분리는 prior 학습 상태를 바꾸지 않는다.",
+  "sourceNote": "기존 76뜻의 사전 출처는 기존 선정안을 계승. 추가 후보는 additional-sources.json 및 2026-09-19 공식 Cambridge 정의 검색 결과로 확인. 일부 본문 open의 403을 본문 확인 성공으로 기록하지 않음. 사전 예문은 카드에 복사하지 않음.",
+  "orderNote": "10개 연습 10~11뜻. 동일 표현의 다른 뜻은 서로 다른 연습이며 편집 순서 최소 13칸 떨어뜨림. 실제 게임의 기존 섞기 규칙은 변경하지 않음.",
+  "groups": [
+    {
+      "id": "cause",
+      "title": "원인·결과·조건",
+      "exercise": 1,
+      "itemIds": [
+        "result-in-cause",
+        "depend-on-condition",
+        "bring-about-cause",
+        "stem-from-origin",
+        "contribute-to-cause",
+        "lead-to-cause",
+        "result-from-cause",
+        "give-rise-to-cause",
+        "come-into-play-operate",
+        "break-out-start"
+      ],
+      "meaningUnits": 10
+    },
+    {
+      "id": "evidence",
+      "title": "주장·근거·발견",
+      "exercise": 2,
+      "itemIds": [
+        "account-for-explain",
+        "point-out-identify",
+        "refer-to-mention",
+        "rule-out-exclude",
+        "back-up-support",
+        "draw-on-use",
+        "put-forward-propose",
+        "make-out-discern",
+        "figure-out-understand",
+        "find-out-discover",
+        "shed-light-on-clarify"
+      ],
+      "meaningUnits": 11
+    },
+    {
+      "id": "composition",
+      "title": "구성·비중·역할",
+      "exercise": 3,
+      "itemIds": [
+        "make-up-compose",
+        "consist-of-components",
+        "account-for-proportion",
+        "take-up-occupy",
+        "take-on-responsibility",
+        "serve-as-function",
+        "consist-in-essence",
+        "amount-to-equivalent",
+        "make-up-for-compensate",
+        "stand-for-represent"
+      ],
+      "meaningUnits": 10
+    },
+    {
+      "id": "action",
+      "title": "수행·조사·계획",
+      "exercise": 4,
+      "itemIds": [
+        "carry-out-perform",
+        "look-into-investigate",
+        "deal-with-handle",
+        "work-out-solve",
+        "set-up-establish",
+        "come-up-with-devise",
+        "take-up-start",
+        "build-on-develop",
+        "follow-up-pursue",
+        "draw-up-prepare"
+      ],
+      "meaningUnits": 10
+    },
+    {
+      "id": "change",
+      "title": "변화·소멸·취소",
+      "exercise": 5,
+      "itemIds": [
+        "turn-into-transform",
+        "give-way-to-replace",
+        "give-up-quit",
+        "break-down-fail",
+        "die-out-disappear",
+        "wear-out-damage",
+        "phase-out-discontinue",
+        "turn-out-prove",
+        "come-about-happen",
+        "call-off-cancel"
+      ],
+      "meaningUnits": 10
+    },
+    {
+      "id": "constraint",
+      "title": "지속·억제·부족",
+      "exercise": 6,
+      "itemIds": [
+        "carry-on-continue",
+        "keep-up-with-match",
+        "hold-back-hinder",
+        "cut-down-on-reduce",
+        "run-out-of-exhaust",
+        "fall-short-of-insufficient",
+        "fall-behind-lag",
+        "get-over-recover",
+        "put-up-with-tolerate",
+        "set-aside-reserve"
+      ],
+      "meaningUnits": 10
+    },
+    {
+      "id": "information",
+      "title": "정보 처리·제시·검토",
+      "exercise": 7,
+      "itemIds": [
+        "make-up-invent",
+        "take-in-understand",
+        "pick-up-learn",
+        "bring-up-mention",
+        "turn-down-reject",
+        "sort-out-resolve",
+        "set-out-explain",
+        "stand-out-notice",
+        "go-over-examine",
+        "look-up-search",
+        "sum-up-summarize"
+      ],
+      "meaningUnits": 11
+    },
+    {
+      "id": "relation",
+      "title": "관계·자원·협력",
+      "exercise": 8,
+      "itemIds": [
+        "fit-in-with-compatible",
+        "refer-to-consult",
+        "break-down-divide",
+        "take-on-quality",
+        "relate-to-connect",
+        "appeal-to-attract",
+        "take-over-control",
+        "count-on-rely",
+        "take-advantage-of-use",
+        "respond-to-react"
+      ],
+      "meaningUnits": 10
+    },
+    {
+      "id": "outcome",
+      "title": "성과·필요·도달",
+      "exercise": 9,
+      "itemIds": [
+        "pay-off-reward",
+        "call-for-require",
+        "make-up-complete",
+        "deal-with-topic",
+        "turn-out-produce",
+        "make-out-understand",
+        "give-off-emit",
+        "end-up-result",
+        "work-out-succeed",
+        "run-into-problem"
+      ],
+      "meaningUnits": 10
+    },
+    {
+      "id": "judgment",
+      "title": "판단·호소·경험",
+      "exercise": 10,
+      "itemIds": [
+        "set-aside-ignore",
+        "take-into-account-consider",
+        "relate-to-empathize",
+        "appeal-to-request",
+        "opt-out-of-withdraw",
+        "go-through-experience",
+        "call-for-request",
+        "take-advantage-of-exploit",
+        "come-across-find",
+        "pay-off-debt"
+      ],
+      "meaningUnits": 10
+    }
+  ],
+  "items": [
+    {
+      "id": "result-in-cause",
+      "expression": "result in",
+      "senseKo": "~라는 결과를 낳다",
+      "kind": "prepositional",
+      "pattern": "원인 + result in + 결과(명사/-ing)",
+      "status": "new-expression",
+      "priorRefs": [
+        "4:7:8",
+        "46:7:5",
+        "48:8:3"
+      ],
+      "selectionReason": "result from을 직접 배운 뒤 결과 방향을 뒤집는 in을 전체 결합으로 회상한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/result-in"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "cause",
+      "exercise": 1
+    },
+    {
+      "id": "depend-on-condition",
+      "expression": "depend on",
+      "senseKo": "~에 달려 있다",
+      "kind": "prepositional",
+      "pattern": "결과 + depend on/upon + 조건",
+      "status": "revisit",
+      "priorRefs": [
+        "11:5:10",
+        "27:5:0",
+        "42:6:0"
+      ],
+      "selectionReason": "depend/depending/conditional의 조건 관계를 하나의 익숙한 동사 결합으로 묶는 복습이다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/depend"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "cause",
+      "exercise": 1
+    },
+    {
+      "id": "bring-about-cause",
+      "expression": "bring about",
+      "senseKo": "~을 일어나게 하다",
+      "kind": "phrasal",
+      "pattern": "bring about + 결과 / bring + 목적어 + about; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "3:3:15",
+        "46:7:5"
+      ],
+      "selectionReason": "cause의 유발 뜻을 일상 동사 bring의 결합으로 옮겨 인과 독해 범위를 넓힌다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/bring-about"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "cause",
+      "exercise": 1
+    },
+    {
+      "id": "stem-from-origin",
+      "expression": "stem from",
+      "senseKo": "~에서 비롯되다",
+      "kind": "prepositional",
+      "pattern": "현상 + stem from + 원인·근원",
+      "status": "revisit",
+      "priorRefs": [
+        "18:1:5",
+        "15:1:9",
+        "45:5:2"
+      ],
+      "selectionReason": "stem from 기학습을 origin 및 원인 주어 underlie와 연결해 방향을 재확인한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/stem-from?topic=origins-and-sources"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "cause",
+      "exercise": 1
+    },
+    {
+      "id": "contribute-to-cause",
+      "expression": "contribute to",
+      "senseKo": "결과가 생기는 데 한몫하다",
+      "kind": "prepositional",
+      "pattern": "요인 + contribute to + 결과(명사/-ing)",
+      "status": "new-expression",
+      "priorRefs": [
+        "33:2:0",
+        "48:3:1"
+      ],
+      "selectionReason": "contributor to의 원인 기여를 동사로 연결하며 단독 원인이라는 과잉 해석을 막는다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/contribute-to?q=contribute-to-something"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "cause",
+      "exercise": 1
+    },
+    {
+      "id": "lead-to-cause",
+      "expression": "lead to",
+      "senseKo": "~로 이어지다",
+      "kind": "prepositional",
+      "pattern": "원인·행동 + lead to + 결과(명사/-ing)",
+      "status": "revisit",
+      "priorRefs": [
+        "4:5:15",
+        "46:6:1"
+      ],
+      "selectionReason": "이미 익힌 lead to를 결과·consequence와 연결해 물리적 길 의미와 구별한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/lead-to"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "cause",
+      "exercise": 1
+    },
+    {
+      "id": "result-from-cause",
+      "expression": "result from",
+      "senseKo": "~의 결과로 생기다",
+      "kind": "prepositional",
+      "pattern": "결과 + result from + 원인(명사/-ing)",
+      "status": "revisit",
+      "priorRefs": [
+        "4:7:8",
+        "46:6:2"
+      ],
+      "selectionReason": "기존 result from과 attribute 결과 to 원인의 동일한 방향을 연결하는 복습이다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/result-from"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "cause",
+      "exercise": 1
+    },
+    {
+      "id": "give-rise-to-cause",
+      "expression": "give rise to",
+      "senseKo": "~을 발생시키다",
+      "kind": "multiword",
+      "pattern": "원인 + give rise to + 현상·결과",
+      "status": "new-expression",
+      "priorRefs": [
+        "46:7:5",
+        "48:3:1"
+      ],
+      "selectionReason": "cause/effect에서 익힌 원인 관계를 give의 낱말 뜻만으로 읽히지 않는 결합에 전이한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/give-rise-to"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "cause",
+      "exercise": 1
+    },
+    {
+      "id": "come-into-play-operate",
+      "expression": "come into play",
+      "senseKo": "작용하기 시작하다",
+      "status": "new-expression",
+      "priorRefs": [
+        "1:9:16",
+        "23:2:5",
+        "48:3:1"
+      ],
+      "selectionReason": "play a role 및 effect를 바탕으로 어떤 요소가 실제 작용하기 시작함을 익힌다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/come-into-play"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "cause",
+      "exercise": 1
+    },
+    {
+      "id": "break-out-start",
+      "expression": "break out",
+      "senseKo": "전쟁·질병 등이 갑자기 발생하다",
+      "status": "new-expression",
+      "priorRefs": [
+        "38:3:1",
+        "35:2:2"
+      ],
+      "selectionReason": "outbreak 명사와 riot 예문을 동사 결합으로 이어 갑작스러운 부정적 사건 발생을 다룬다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/break-out"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "cause",
+      "exercise": 1
+    },
+    {
+      "id": "account-for-explain",
+      "expression": "account for",
+      "senseKo": "~의 이유를 설명하다",
+      "kind": "prepositional",
+      "pattern": "설명·요인 + account for + 현상",
+      "status": "revisit",
+      "priorRefs": [
+        "4:4:7",
+        "46:1:3",
+        "6:5:13"
+      ],
+      "selectionReason": "46의 account 설명 뜻을 계승하며 비중 뜻과 떨어뜨려 원인 설명에 전이한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/account-for"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "evidence",
+      "exercise": 2
+    },
+    {
+      "id": "point-out-identify",
+      "expression": "point out",
+      "senseKo": "~을 지적하여 알리다",
+      "kind": "phrasal",
+      "pattern": "point out + 대상 / point + 목적어 + out; point out + that절; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "2:2:15",
+        "6:6:5"
+      ],
+      "selectionReason": "point의 요점과 raise의 문제 제기에서 주의를 특정 사실로 돌리는 결합을 익힌다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/point-out"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "evidence",
+      "exercise": 2
+    },
+    {
+      "id": "refer-to-mention",
+      "expression": "refer to",
+      "senseKo": "~을 언급하다",
+      "kind": "prepositional",
+      "pattern": "refer to + 사람·사물·사건",
+      "status": "new-sense",
+      "priorRefs": [
+        "7:8:1",
+        "48:1:5"
+      ],
+      "selectionReason": "mention을 표현 전이하고 48의 refer to 자료 참조와 다른 문맥 뜻을 분리한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/refer-to?q=refer-sb-sth-to-sb-"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "evidence",
+      "exercise": 2
+    },
+    {
+      "id": "rule-out-exclude",
+      "expression": "rule out",
+      "senseKo": "가능성에서 ~을 제외하다",
+      "kind": "phrasal",
+      "pattern": "rule out + 가능성 / rule + 목적어 + out; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "10:5:1",
+        "0:14:10"
+      ],
+      "selectionReason": "possibility/evidence 문맥에서 규칙이라는 낱말 번역으로 풀리지 않는 가능성 배제를 다룬다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/rule-out"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "evidence",
+      "exercise": 2
+    },
+    {
+      "id": "back-up-support",
+      "expression": "back up",
+      "senseKo": "주장 등을 뒷받침하다",
+      "kind": "phrasal",
+      "pattern": "back up + 주장 / back + 목적어 + up; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "48:1:7",
+        "7:8:12",
+        "46:4:2"
+      ],
+      "selectionReason": "support/evidence/claim의 논증 관계를 back up으로 옮긴다. 자료 백업 뜻과 혼합하지 않는다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/back-up"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "evidence",
+      "exercise": 2
+    },
+    {
+      "id": "draw-on-use",
+      "expression": "draw on",
+      "senseKo": "지식·경험 등을 활용하다",
+      "kind": "prepositional",
+      "pattern": "draw on/upon + 지식·경험·자원",
+      "status": "new-expression",
+      "priorRefs": [
+        "3:9:7",
+        "7:9:1",
+        "7:9:8"
+      ],
+      "selectionReason": "experience/knowledge/skill을 자원으로 활용하는 결합. 그림을 그리는 draw와 구별한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/draw-on"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "evidence",
+      "exercise": 2
+    },
+    {
+      "id": "put-forward-propose",
+      "expression": "put forward",
+      "senseKo": "생각·제안을 내놓다",
+      "kind": "phrasal",
+      "pattern": "put forward + 제안 / put + 목적어 + forward; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "6:4:12",
+        "6:6:5"
+      ],
+      "selectionReason": "suggest/raise의 제안·문제 제기를 put의 결합으로 표현하는 전이다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/put-forward"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "evidence",
+      "exercise": 2
+    },
+    {
+      "id": "make-out-discern",
+      "expression": "make out",
+      "senseKo": "희미한 것을 알아보거나 소리를 식별하다",
+      "kind": "phrasal",
+      "pattern": "make out + 대상 / make + 목적어 + out; make out + 의문사절; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "0:17:12",
+        "0:16:3"
+      ],
+      "selectionReason": "discern의 희미한 대상 식별을 연결한다. 시청각 식별과 이유 이해를 한 뜻으로 섞지 않는다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/make-out"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "evidence",
+      "exercise": 2
+    },
+    {
+      "id": "figure-out-understand",
+      "expression": "figure out",
+      "senseKo": "생각하여 알아내다",
+      "kind": "phrasal",
+      "pattern": "figure out + 대상 / figure + 목적어 + out; figure out + 의문사절; 대명사는 가운데",
+      "status": "revisit",
+      "priorRefs": [
+        "7:1:11",
+        "46:2:9",
+        "24:7:7"
+      ],
+      "selectionReason": "이미 익힌 figure out을 solve와 연결하고 정보를 알게 되는 find out과 구별한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/figure-out"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "evidence",
+      "exercise": 2
+    },
+    {
+      "id": "find-out-discover",
+      "expression": "find out",
+      "senseKo": "사실·정보를 알아내다",
+      "kind": "phrasal",
+      "pattern": "find out + 사실 / find + 목적어 + out; find out + that절·의문사절; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "4:8:11",
+        "7:2:2"
+      ],
+      "selectionReason": "learn의 알게 되다와 truth를 이어 사실을 새롭게 알아내는 결합을 학습한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/find-out"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "evidence",
+      "exercise": 2
+    },
+    {
+      "id": "shed-light-on-clarify",
+      "expression": "shed light on",
+      "senseKo": "문제를 더 잘 이해하게 해 주다",
+      "status": "new-expression",
+      "priorRefs": [
+        "36:5:9",
+        "0:14:10",
+        "6:5:13"
+      ],
+      "selectionReason": "shed의 해설에는 표현만 있고 뜻·회상은 없다. evidence/explain과 이어 연구·논증의 밝힘을 익힌다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/shed-light-on",
+        "https://dictionary.cambridge.org/dictionary/english/cast-light-on"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "evidence",
+      "exercise": 2
+    },
+    {
+      "id": "make-up-compose",
+      "expression": "make up",
+      "senseKo": "전체를 구성하다",
+      "kind": "phrasal",
+      "pattern": "구성 요소 + make up + 전체; 전체 + be made up of + 구성 요소",
+      "status": "new-expression",
+      "priorRefs": [
+        "35:5:13",
+        "33:1:8",
+        "14:7:3"
+      ],
+      "selectionReason": "명사 make-up의 구성과 comprise/consist of를 동사로 연결하며 부분→전체 방향을 표시한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/make-up"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "composition",
+      "exercise": 3
+    },
+    {
+      "id": "consist-of-components",
+      "expression": "consist of",
+      "senseKo": "~로 구성되어 있다",
+      "kind": "prepositional",
+      "pattern": "전체 + consist of + 구성 요소; 수동형으로 쓰지 않음",
+      "status": "revisit",
+      "priorRefs": [
+        "14:7:3",
+        "33:1:8",
+        "35:5:13"
+      ],
+      "selectionReason": "기존 consist of를 make up과 반대 주어 방향으로 다시 회상한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/consist-of"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "composition",
+      "exercise": 3
+    },
+    {
+      "id": "account-for-proportion",
+      "expression": "account for",
+      "senseKo": "비중을 차지하다",
+      "kind": "prepositional",
+      "pattern": "부분·집단 + account for + 비율·전체량",
+      "status": "revisit",
+      "priorRefs": [
+        "4:4:8",
+        "46:2:5",
+        "4:10:10"
+      ],
+      "selectionReason": "46에서 익힌 비중 뜻을 구성·비율 문맥에 연결하는 복습이다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/account-for"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "composition",
+      "exercise": 3
+    },
+    {
+      "id": "take-up-occupy",
+      "expression": "take up",
+      "senseKo": "시간·공간을 차지하다",
+      "kind": "phrasal",
+      "pattern": "take up + 시간·공간 / take + 목적어 + up; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "23:3:1",
+        "4:2:10"
+      ],
+      "selectionReason": "media 예문의 take up 노출을 시간·공간 점유의 독립 회상으로 바꾼다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/take-up"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "composition",
+      "exercise": 3
+    },
+    {
+      "id": "take-on-responsibility",
+      "expression": "take on",
+      "senseKo": "일·책임을 맡다",
+      "kind": "phrasal",
+      "pattern": "take on + 일·책임 / take + 목적어 + on; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "0:14:5",
+        "46:5:2",
+        "12:7:2"
+      ],
+      "selectionReason": "assume responsibility 및 bear cost의 책임 맡기를 take on으로 연결한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/take-on"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "composition",
+      "exercise": 3
+    },
+    {
+      "id": "serve-as-function",
+      "expression": "serve as",
+      "senseKo": "~의 역할을 하다",
+      "kind": "prepositional",
+      "pattern": "대상 + serve as + 역할",
+      "status": "revisit",
+      "priorRefs": [
+        "6:4:1",
+        "23:2:5"
+      ],
+      "selectionReason": "기존 직책 문형을 사물이 기능·역할을 하는 문맥으로 확장하는 복습이다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/serve"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "composition",
+      "exercise": 3
+    },
+    {
+      "id": "consist-in-essence",
+      "expression": "consist in",
+      "senseKo": "본질·핵심이 ~에 있다",
+      "kind": "prepositional",
+      "pattern": "본질·특징 + consist in + 명사/-ing",
+      "status": "new-sense",
+      "priorRefs": [
+        "30:4:0",
+        "14:7:3"
+      ],
+      "selectionReason": "essence의 본질을 consist in으로 표현한다. 구성 요소를 나열하는 consist of와 구별한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/consist-in"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "composition",
+      "exercise": 3
+    },
+    {
+      "id": "amount-to-equivalent",
+      "expression": "amount to",
+      "senseKo": "사실상 ~와 같다",
+      "kind": "prepositional",
+      "pattern": "행위·상황 + amount to + 명사/-ing",
+      "status": "new-expression",
+      "priorRefs": [
+        "12:6:7",
+        "7:5:3"
+      ],
+      "selectionReason": "amount라는 양 명사에서 사실상 같다는 판정으로 확장한다. 합계 계산 뜻은 이 카드에 섞지 않는다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/amount-to"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "composition",
+      "exercise": 3
+    },
+    {
+      "id": "make-up-for-compensate",
+      "expression": "make up for",
+      "senseKo": "손실·부족을 보상하다",
+      "kind": "phrasal",
+      "pattern": "make up for + 손실·부족(명사/-ing)",
+      "status": "new-expression",
+      "priorRefs": [
+        "7:9:5",
+        "33:10:13"
+      ],
+      "selectionReason": "loss/shortage의 손실을 상쇄하는 결합이며 부족액 자체를 채우는 make up과 구별한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/make-up-for"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "composition",
+      "exercise": 3
+    },
+    {
+      "id": "stand-for-represent",
+      "expression": "stand for",
+      "senseKo": "기호·문자가 무엇을 나타내다",
+      "status": "new-expression",
+      "priorRefs": [
+        "7:6:4",
+        "26:10:8",
+        "7:4:5"
+      ],
+      "selectionReason": "represent의 상징·나타냄을 symbol/letter가 주어인 stand for로 연결한다. 서다 또는 참다로 읽는 오해를 막는다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/stand-for"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "composition",
+      "exercise": 3
+    },
+    {
+      "id": "carry-out-perform",
+      "expression": "carry out",
+      "senseKo": "계획·실험 등을 수행하다",
+      "kind": "phrasal",
+      "pattern": "carry out + 과업 / carry + 목적어 + out; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "6:7:12",
+        "46:2:6",
+        "23:1:14"
+      ],
+      "selectionReason": "put into practice의 실행과 research를 이어 계획·실험 수행을 익힌다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/carry-out"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "action",
+      "exercise": 4
+    },
+    {
+      "id": "look-into-investigate",
+      "expression": "look into",
+      "senseKo": "문제·가능성을 조사하다",
+      "kind": "prepositional",
+      "pattern": "look into + 조사 대상(명사/-ing)",
+      "status": "new-expression",
+      "priorRefs": [
+        "17:7:8",
+        "38:3:2",
+        "23:1:15"
+      ],
+      "selectionReason": "inquiry into/probe into의 조사 관계를 기본 동사 look 결합으로 전이한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/look-into"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "action",
+      "exercise": 4
+    },
+    {
+      "id": "deal-with-handle",
+      "expression": "deal with",
+      "senseKo": "문제·상황에 대처하다",
+      "kind": "prepositional",
+      "pattern": "deal with + 문제·상황",
+      "status": "revisit",
+      "priorRefs": [
+        "3:6:3",
+        "8:8:8",
+        "9:7:11"
+      ],
+      "selectionReason": "이미 배운 deal with를 address/handle의 문제 처리와 연결하는 복습이다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/deal-with"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "action",
+      "exercise": 4
+    },
+    {
+      "id": "work-out-solve",
+      "expression": "work out",
+      "senseKo": "문제의 답을 생각해 내다",
+      "kind": "phrasal",
+      "pattern": "work out + 문제·답 / work + 목적어 + out; work out + 의문사절; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "24:7:7",
+        "46:2:9"
+      ],
+      "selectionReason": "solve/figure out에서 익힌 사고를 통한 해결을 work out으로 연결한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/work-out"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "action",
+      "exercise": 4
+    },
+    {
+      "id": "set-up-establish",
+      "expression": "set up",
+      "senseKo": "조직·제도를 세우다",
+      "kind": "phrasal",
+      "pattern": "set up + 조직·제도 / set + 목적어 + up; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "8:9:10",
+        "37:3:6"
+      ],
+      "selectionReason": "establish의 설립과 setup 명사를 연결하되 기계 설치 뜻을 추가 집계하지 않는다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/set-up?q=set+up"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "action",
+      "exercise": 4
+    },
+    {
+      "id": "come-up-with-devise",
+      "expression": "come up with",
+      "senseKo": "생각·계획을 떠올리다",
+      "kind": "phrasal",
+      "pattern": "come up with + 생각·계획",
+      "status": "new-expression",
+      "priorRefs": [
+        "6:4:12",
+        "3:8:3"
+      ],
+      "selectionReason": "suggest/plan을 바탕으로 새로운 생각을 떠올리는 결합을 익힌다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/come-up-with"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "action",
+      "exercise": 4
+    },
+    {
+      "id": "take-up-start",
+      "expression": "take up",
+      "senseKo": "새 활동을 시작하다",
+      "kind": "phrasal",
+      "pattern": "take up + 활동(명사/-ing); 명사 목적어 분리 가능, 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "43:10:6",
+        "2:1:7"
+      ],
+      "selectionReason": "embark on의 착수를 일상 활동 시작에 연결한다. 시간 점유 뜻과 떨어뜨린다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/take-up"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "action",
+      "exercise": 4
+    },
+    {
+      "id": "build-on-develop",
+      "expression": "build on",
+      "senseKo": "기존 성과를 토대로 발전시키다",
+      "kind": "prepositional",
+      "pattern": "build on + 성과·기반",
+      "status": "new-expression",
+      "priorRefs": [
+        "6:8:0",
+        "35:6:6"
+      ],
+      "selectionReason": "be based on의 토대에서 이미 이룬 것을 바탕으로 발전시키는 뜻으로 확장한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/build-on"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "action",
+      "exercise": 4
+    },
+    {
+      "id": "follow-up-pursue",
+      "expression": "follow up",
+      "senseKo": "후속 조사·조치를 하다",
+      "kind": "phrasal",
+      "pattern": "follow up + 대상 / follow + 목적어 + up; follow it up / follow up on it; on 뒤 목적어는 이동하지 않음",
+      "status": "new-expression",
+      "priorRefs": [
+        "17:7:8",
+        "23:1:15"
+      ],
+      "selectionReason": "inquiry/research의 첫 조사 뒤 확인·조치를 이어 가는 단계가 기존 풀에 빠져 있어 유지한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/follow-up"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "action",
+      "exercise": 4
+    },
+    {
+      "id": "draw-up-prepare",
+      "expression": "draw up",
+      "senseKo": "계획·문서를 작성하다",
+      "status": "new-expression",
+      "priorRefs": [
+        "3:8:3",
+        "10:2:7"
+      ],
+      "selectionReason": "plan/contract에서 공식 계획·문서를 마련하는 결합으로 전이한다. 그림 그리기나 자원 활용 draw on과 다르다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/draw-up"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "action",
+      "exercise": 4
+    },
+    {
+      "id": "turn-into-transform",
+      "expression": "turn into",
+      "senseKo": "~로 변하다",
+      "kind": "prepositional",
+      "pattern": "A + turn into + B; turn + A + into + B(변하게 하다)",
+      "status": "new-expression",
+      "priorRefs": [
+        "48:4:0",
+        "47:5:0",
+        "44:2:10"
+      ],
+      "selectionReason": "convert/transform/escalate into와 결과 방향을 공유하되 자동사 변화 문형으로 익힌다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/turn-into"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "change",
+      "exercise": 5
+    },
+    {
+      "id": "give-way-to-replace",
+      "expression": "give way to",
+      "senseKo": "~로 대체되다",
+      "kind": "multiword",
+      "pattern": "이전 상태·대상 + give way to + 새 상태·대상",
+      "status": "new-expression",
+      "priorRefs": [
+        "0:12:3",
+        "0:12:4"
+      ],
+      "selectionReason": "replace를 옛 대상이 주어이고 새 대상이 to 뒤에 오는 방향으로 전환한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/give-way-to"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "change",
+      "exercise": 5
+    },
+    {
+      "id": "give-up-quit",
+      "expression": "give up",
+      "senseKo": "하던 시도를 포기하다",
+      "kind": "phrasal",
+      "pattern": "give up / give up + 명사/-ing; 대명사 목적어는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "6:10:6",
+        "10:4:7",
+        "27:6:6"
+      ],
+      "selectionReason": "기존 여러 예문의 give up을 하던 시도 포기라는 한 뜻으로 독립 회상한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/give-up"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "change",
+      "exercise": 5
+    },
+    {
+      "id": "break-down-fail",
+      "expression": "break down",
+      "senseKo": "기능·체계가 무너지다",
+      "kind": "phrasal",
+      "pattern": "기계·체계·관계 + break down; 직접 목적어 없음",
+      "status": "new-expression",
+      "priorRefs": [
+        "7:6:7",
+        "2:1:12",
+        "9:2:10"
+      ],
+      "selectionReason": "fail의 실패를 system/machine이 작동하지 않는 기능·체계의 붕괴에 연결한다. 조각으로 나누는 뜻과 분리한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/break-down"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "change",
+      "exercise": 5
+    },
+    {
+      "id": "die-out-disappear",
+      "expression": "die out",
+      "senseKo": "점차 사라져 없어지다",
+      "kind": "phrasal",
+      "pattern": "생물·관습 등 + die out; 직접 목적어 없음",
+      "status": "new-expression",
+      "priorRefs": [
+        "24:7:9",
+        "16:5:8",
+        "24:4:8"
+      ],
+      "selectionReason": "disappear의 사라짐을 종·풍습의 완전 소멸로 좁혀 연결한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/die-out?topic=death-and-dying"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "change",
+      "exercise": 5
+    },
+    {
+      "id": "wear-out-damage",
+      "expression": "wear out",
+      "senseKo": "쓰다가 닳아 못 쓰게 되다",
+      "kind": "phrasal",
+      "pattern": "물건 + wear out; wear out + 물건 / wear + 목적어 + out; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "11:3:1",
+        "17:4:13"
+      ],
+      "selectionReason": "damage의 손상에 지속적 사용이라는 원인을 붙인다. tire out의 피로와 같은 뜻으로 합치지 않는다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/wear-out"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "change",
+      "exercise": 5
+    },
+    {
+      "id": "phase-out-discontinue",
+      "expression": "phase out",
+      "senseKo": "단계적으로 사용을 중단하다",
+      "kind": "phrasal",
+      "pattern": "phase out + 대상 / phase + 목적어 + out; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "43:5:1",
+        "33:5:10"
+      ],
+      "selectionReason": "abolish/removal에 단계적으로 없앤다는 과정 의미를 더한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/phase-out"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "change",
+      "exercise": 5
+    },
+    {
+      "id": "turn-out-prove",
+      "expression": "turn out",
+      "senseKo": "결국 ~임이 밝혀지다",
+      "kind": "phrasal",
+      "pattern": "대상 + turn out to be + 보어; it + turn out + that절",
+      "status": "new-expression",
+      "priorRefs": [
+        "28:9:6",
+        "26:6:1"
+      ],
+      "selectionReason": "fake/fiction 예문에서만 만난 판명 결합을 독립적으로 회상한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/turn-out"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "change",
+      "exercise": 5
+    },
+    {
+      "id": "come-about-happen",
+      "expression": "come about",
+      "senseKo": "일이 생기다",
+      "kind": "phrasal",
+      "pattern": "사건·변화 + come about; 직접 목적어 없음",
+      "status": "new-expression",
+      "priorRefs": [
+        "4:5:16",
+        "45:2:1"
+      ],
+      "selectionReason": "happen/ensue에서 익힌 발생을 기본 동사 come의 결합에 전이한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/come-about?q=come-about_1"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "change",
+      "exercise": 5
+    },
+    {
+      "id": "call-off-cancel",
+      "expression": "call off",
+      "senseKo": "예정된 일을 취소하다",
+      "status": "new-expression",
+      "priorRefs": [
+        "0:13:4",
+        "35:9:1"
+      ],
+      "selectionReason": "cancel 및 planned 예문에서 노출된 취소 뜻. give up 포기와 phase out 단계 폐지로 대체할 수 없는 공백이다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/call-off",
+        "https://www.collinsdictionary.com/dictionary/english/call-off"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "change",
+      "exercise": 5
+    },
+    {
+      "id": "carry-on-continue",
+      "expression": "carry on",
+      "senseKo": "하던 일을 계속하다",
+      "kind": "phrasal",
+      "pattern": "carry on / carry on + -ing / carry on with + 일",
+      "status": "new-expression",
+      "priorRefs": [
+        "6:1:14",
+        "1:8:10"
+      ],
+      "selectionReason": "continue/keep doing의 지속을 carry on으로 표현한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/carry-on"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "constraint",
+      "exercise": 6
+    },
+    {
+      "id": "keep-up-with-match",
+      "expression": "keep up with",
+      "senseKo": "속도·수준을 따라가다",
+      "kind": "phrasal",
+      "pattern": "keep up with + 사람·변화·수요",
+      "status": "new-expression",
+      "priorRefs": [
+        "27:2:5",
+        "8:2:2"
+      ],
+      "selectionReason": "pace/standard의 속도·수준을 따라가는 관계를 동사 결합으로 익힌다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/keep-up-with"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "constraint",
+      "exercise": 6
+    },
+    {
+      "id": "hold-back-hinder",
+      "expression": "hold back",
+      "senseKo": "발전·진행을 억제하다",
+      "kind": "phrasal",
+      "pattern": "hold back + 대상 / hold + 목적어 + back; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "0:16:13",
+        "46:6:7",
+        "36:8:10"
+      ],
+      "selectionReason": "inhibit의 추상 억제와 dam이 물을 막는 기존 예문을 연결한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/hold-back"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "constraint",
+      "exercise": 6
+    },
+    {
+      "id": "cut-down-on-reduce",
+      "expression": "cut down on",
+      "senseKo": "사용·소비를 줄이다",
+      "kind": "phrasal",
+      "pattern": "cut down on + 줄일 대상(명사/-ing)",
+      "status": "new-expression",
+      "priorRefs": [
+        "7:7:13",
+        "46:6:5",
+        "48:1:1"
+      ],
+      "selectionReason": "reduce를 소비 대상 앞 on을 쓰는 결합으로 연결한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/cut-down"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "constraint",
+      "exercise": 6
+    },
+    {
+      "id": "run-out-of-exhaust",
+      "expression": "run out of",
+      "senseKo": "~을 다 써서 없게 되다",
+      "kind": "phrasal",
+      "pattern": "사용 주체 + run out of + 자원; 자원 + run out",
+      "status": "new-expression",
+      "priorRefs": [
+        "22:1:2",
+        "38:8:7",
+        "0:17:0"
+      ],
+      "selectionReason": "ink 예문 노출과 deplete의 고갈을 소유자 주어의 소진 결합으로 전이한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/run-out"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "constraint",
+      "exercise": 6
+    },
+    {
+      "id": "fall-short-of-insufficient",
+      "expression": "fall short of",
+      "senseKo": "기대·기준에 못 미치다",
+      "kind": "multiword",
+      "pattern": "결과 + fall short of + 기대·기준",
+      "status": "new-expression",
+      "priorRefs": [
+        "3:10:3",
+        "8:2:2",
+        "3:5:8"
+      ],
+      "selectionReason": "meet 기준 충족의 반대와 short 부족을 연결해 기준 미달을 읽게 한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/fall-short"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "constraint",
+      "exercise": 6
+    },
+    {
+      "id": "fall-behind-lag",
+      "expression": "fall behind",
+      "senseKo": "진도·진행에서 뒤처지다",
+      "kind": "phrasal",
+      "pattern": "fall behind / fall behind + 비교 대상·schedule / fall behind in + 영역",
+      "status": "new-expression",
+      "priorRefs": [
+        "27:2:5",
+        "3:4:14"
+      ],
+      "selectionReason": "pace를 따라가는 keep up with와 대비해 진행에서 뒤처지는 결합을 익힌다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/fall-behind"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "constraint",
+      "exercise": 6
+    },
+    {
+      "id": "get-over-recover",
+      "expression": "get over",
+      "senseKo": "충격·질병에서 회복하다",
+      "kind": "prepositional",
+      "pattern": "get over + 충격·질병",
+      "status": "new-expression",
+      "priorRefs": [
+        "25:8:1",
+        "26:1:8"
+      ],
+      "selectionReason": "recover/recovery에서 익힌 회복을 get over로 전이한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/get-over"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "constraint",
+      "exercise": 6
+    },
+    {
+      "id": "put-up-with-tolerate",
+      "expression": "put up with",
+      "senseKo": "불쾌한 일·상대를 참다",
+      "kind": "phrasal",
+      "pattern": "put up with + 사람·상황(명사/-ing)",
+      "status": "new-expression",
+      "priorRefs": [
+        "33:10:1",
+        "4:10:14",
+        "12:7:1"
+      ],
+      "selectionReason": "tolerate/stand/bear의 견딤을 한 덩어리로 회상한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/put-up-with?topic=tolerating-and-enduring"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "constraint",
+      "exercise": 6
+    },
+    {
+      "id": "set-aside-reserve",
+      "expression": "set aside",
+      "senseKo": "목적을 위해 돈·시간을 따로 확보하다",
+      "status": "new-expression",
+      "priorRefs": [
+        "27:10:13",
+        "27:10:14",
+        "4:10:18"
+      ],
+      "selectionReason": "reserve/save의 따로 남김을 동사 결합으로 연결한다. 의견을 잠시 제쳐 두는 뜻과 분리한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/set-aside"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "constraint",
+      "exercise": 6
+    },
+    {
+      "id": "make-up-invent",
+      "expression": "make up",
+      "senseKo": "이야기·핑계를 지어내다",
+      "kind": "phrasal",
+      "pattern": "make up + 이야기 / make + 목적어 + up; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "17:5:12",
+        "35:6:1",
+        "2:10:6"
+      ],
+      "selectionReason": "invent의 꾸며 내다 및 made-up 형용사를 동사 결합으로 연결한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/make-up"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "information",
+      "exercise": 7
+    },
+    {
+      "id": "take-in-understand",
+      "expression": "take in",
+      "senseKo": "정보·의미를 충분히 이해하다",
+      "kind": "phrasal",
+      "pattern": "take in + 정보 / take + 목적어 + in; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "29:7:14",
+        "6:1:10"
+      ],
+      "selectionReason": "absorb information과 follow explanation의 이해를 take in으로 전이한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/take-in"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "information",
+      "exercise": 7
+    },
+    {
+      "id": "pick-up-learn",
+      "expression": "pick up",
+      "senseKo": "경험을 통해 자연스럽게 익히다",
+      "kind": "phrasal",
+      "pattern": "pick up + 언어·기술 / pick + 목적어 + up; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "4:8:10",
+        "7:9:8"
+      ],
+      "selectionReason": "learn/skill에 노출·경험을 통해 자연스럽게 배운다는 뜻을 더한다. 운반 뜻은 제외한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/pick-up?q=pick-up_1"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "information",
+      "exercise": 7
+    },
+    {
+      "id": "bring-up-mention",
+      "expression": "bring up",
+      "senseKo": "화제를 꺼내다",
+      "kind": "phrasal",
+      "pattern": "bring up + 화제 / bring + 목적어 + up; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "7:8:1",
+        "6:6:5"
+      ],
+      "selectionReason": "mention/raise의 말을 꺼내기를 bring up으로 연결한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/bring-up"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "information",
+      "exercise": 7
+    },
+    {
+      "id": "turn-down-reject",
+      "expression": "turn down",
+      "senseKo": "제안·요청을 거절하다",
+      "kind": "phrasal",
+      "pattern": "turn down + 제안 / turn + 목적어 + down; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "48:2:0",
+        "43:5:6",
+        "12:8:7"
+      ],
+      "selectionReason": "reject 및 politely 예문의 거절을 독립 회상으로 연결한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/turn-down"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "information",
+      "exercise": 7
+    },
+    {
+      "id": "sort-out-resolve",
+      "expression": "sort out",
+      "senseKo": "문제·혼란을 정리해 해결하다",
+      "kind": "phrasal",
+      "pattern": "sort out + 문제·혼란 / sort + 목적어 + out; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "11:1:13",
+        "24:7:7",
+        "9:7:11"
+      ],
+      "selectionReason": "settle/solve/handle에서 이어 문제·혼란을 정리하여 해결하는 결합을 익힌다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/sort-out"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "information",
+      "exercise": 7
+    },
+    {
+      "id": "set-out-explain",
+      "expression": "set out",
+      "senseKo": "내용을 체계적으로 제시하다",
+      "kind": "phrasal",
+      "pattern": "set out + 내용 / set + 목적어 + out; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "6:5:13",
+        "3:8:3"
+      ],
+      "selectionReason": "explain과 plan에서 체계적으로 내용을 제시하는 뜻을 연결한다. 출발 뜻은 혼합하지 않는다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/set-out"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "information",
+      "exercise": 7
+    },
+    {
+      "id": "stand-out-notice",
+      "expression": "stand out",
+      "senseKo": "눈에 띄다",
+      "kind": "phrasal",
+      "pattern": "대상 + stand out; stand out from/against + 비교 대상·배경",
+      "status": "new-expression",
+      "priorRefs": [
+        "8:5:9",
+        "7:1:15"
+      ],
+      "selectionReason": "notice/attention에서 다른 것보다 주목을 받으며 눈에 띈다는 결합을 익힌다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/stand-out"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "information",
+      "exercise": 7
+    },
+    {
+      "id": "go-over-examine",
+      "expression": "go over",
+      "senseKo": "세부를 꼼꼼히 검토하다",
+      "kind": "prepositional",
+      "pattern": "go over + 검토 대상",
+      "status": "new-expression",
+      "priorRefs": [
+        "10:4:1",
+        "10:2:7"
+      ],
+      "selectionReason": "examine과 계약서 확인 문맥에서 세부 검토라는 결합을 익힌다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/go-over"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "information",
+      "exercise": 7
+    },
+    {
+      "id": "look-up-search",
+      "expression": "look up",
+      "senseKo": "자료에서 정보를 찾아보다",
+      "status": "new-expression",
+      "priorRefs": [
+        "20:2:3",
+        "38:9:0",
+        "48:1:5"
+      ],
+      "selectionReason": "dictionary/directory 예문에만 나온 검색 결합. refer to는 자료, look up은 찾는 정보가 목적어임을 연결한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/look-up"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "information",
+      "exercise": 7
+    },
+    {
+      "id": "sum-up-summarize",
+      "expression": "sum up",
+      "senseKo": "핵심을 요약하다",
+      "status": "new-expression",
+      "priorRefs": [
+        "18:3:5",
+        "29:3:7"
+      ],
+      "selectionReason": "sum의 해설 노출을 summary의 요약 뜻과 연결해 독립적으로 회상한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/sum-up"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "information",
+      "exercise": 7
+    },
+    {
+      "id": "fit-in-with-compatible",
+      "expression": "fit in with",
+      "senseKo": "~와 조화를 이루다",
+      "kind": "phrasal",
+      "pattern": "fit in with + 사람·집단·상황",
+      "status": "new-expression",
+      "priorRefs": [
+        "37:2:3",
+        "33:8:14",
+        "35:5:7"
+      ],
+      "selectionReason": "harmony/blend in/align with를 상황·계획과의 적합성에 연결한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/fit-in"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "relation",
+      "exercise": 8
+    },
+    {
+      "id": "refer-to-consult",
+      "expression": "refer to",
+      "senseKo": "자료를 찾아 참조하다",
+      "kind": "prepositional",
+      "pattern": "refer to + 자료",
+      "status": "revisit",
+      "priorRefs": [
+        "48:1:5",
+        "20:2:3"
+      ],
+      "selectionReason": "48의 refer to를 자료 참조로 복습하며 look up의 검색할 정보와 목적어를 대조한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/refer-to?q=refer-sb-sth-to-sb-"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "relation",
+      "exercise": 8
+    },
+    {
+      "id": "break-down-divide",
+      "expression": "break down",
+      "senseKo": "작은 부분으로 나누다",
+      "kind": "phrasal",
+      "pattern": "break down + 대상 / break + 목적어 + down + into 부분; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "14:1:2",
+        "33:1:8"
+      ],
+      "selectionReason": "divide의 분할을 분석 대상의 작은 부분 나누기로 연결한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/break-down"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "relation",
+      "exercise": 8
+    },
+    {
+      "id": "take-on-quality",
+      "expression": "take on",
+      "senseKo": "성질·모습을 띠게 되다",
+      "kind": "phrasal",
+      "pattern": "대상 + take on + 성질·모습",
+      "status": "new-expression",
+      "priorRefs": [
+        "0:14:6",
+        "46:5:8"
+      ],
+      "selectionReason": "assume의 형태·성질을 띠다를 이어 책임 맡기와 다른 take on을 익힌다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/take-on"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "relation",
+      "exercise": 8
+    },
+    {
+      "id": "relate-to-connect",
+      "expression": "relate to",
+      "senseKo": "~와 관련되다",
+      "kind": "prepositional",
+      "pattern": "relate to + 관련 대상",
+      "status": "new-sense",
+      "priorRefs": [
+        "23:6:6",
+        "30:3:11"
+      ],
+      "selectionReason": "기존 relate A to B의 타동사 문형에서 사물 자체가 관련되는 relate to로 전이한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/relate-to"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "relation",
+      "exercise": 8
+    },
+    {
+      "id": "appeal-to-attract",
+      "expression": "appeal to",
+      "senseKo": "~의 흥미를 끌다",
+      "kind": "prepositional",
+      "pattern": "매력을 가진 대상 + appeal to + 사람",
+      "status": "revisit",
+      "priorRefs": [
+        "25:5:8",
+        "38:6:10",
+        "13:9:14"
+      ],
+      "selectionReason": "기존 appeal/appealing의 매력 방향을 동사 결합 전체로 복습한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/appeal?q=appeal_2"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "relation",
+      "exercise": 8
+    },
+    {
+      "id": "take-over-control",
+      "expression": "take over",
+      "senseKo": "관리·지배를 넘겨받다",
+      "kind": "phrasal",
+      "pattern": "take over / take over + 대상 / take + 목적어 + over; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "38:1:2",
+        "41:8:0",
+        "41:8:1"
+      ],
+      "selectionReason": "coup 예문 및 takeover의 인수·장악 명사를 동사 결합으로 연결한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/take-over"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "relation",
+      "exercise": 8
+    },
+    {
+      "id": "count-on-rely",
+      "expression": "count on",
+      "senseKo": "믿고 의지하다",
+      "status": "new-expression",
+      "priorRefs": [
+        "10:1:3",
+        "11:5:11",
+        "24:10:3"
+      ],
+      "selectionReason": "count의 세다에서 곧장 추측하기 어려운 뜻을 depend/rely의 의존과 연결한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/count-on"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "relation",
+      "exercise": 8
+    },
+    {
+      "id": "take-advantage-of-use",
+      "expression": "take advantage of",
+      "senseKo": "기회·유리한 조건을 활용하다",
+      "status": "new-expression",
+      "priorRefs": [
+        "10:5:12",
+        "0:12:12"
+      ],
+      "selectionReason": "advantage/opportunity를 실제 활용하는 결합으로 연결한다. 사람의 약점을 악용하는 뜻은 별도 카드다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/take-advantage-of?q=take%2Badvantage"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "relation",
+      "exercise": 8
+    },
+    {
+      "id": "respond-to-react",
+      "expression": "respond to",
+      "senseKo": "자극·상황에 반응하다",
+      "kind": "prepositional",
+      "pattern": "반응 주체 + respond to + 자극·상황",
+      "status": "revisit",
+      "priorRefs": [
+        "0:12:9",
+        "27:3:5",
+        "48:7:5"
+      ],
+      "selectionReason": "respond/react의 자극 반응 뜻을 복습한다. 대답하다 뜻과 한 카드에 섞지 않는다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/respond"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "relation",
+      "exercise": 8
+    },
+    {
+      "id": "pay-off-reward",
+      "expression": "pay off",
+      "senseKo": "노력이 성과를 내다",
+      "kind": "phrasal",
+      "pattern": "노력·계획 + pay off; 직접 목적어 없음",
+      "status": "new-expression",
+      "priorRefs": [
+        "17:2:4",
+        "8:1:10"
+      ],
+      "selectionReason": "reward/success를 노력 자체가 성과를 내는 자동사 결합으로 연결한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/pay-off?topic=borrowing-lending"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "outcome",
+      "exercise": 9
+    },
+    {
+      "id": "call-for-require",
+      "expression": "call for",
+      "senseKo": "상황·과업이 ~을 필요로 하다",
+      "kind": "prepositional",
+      "pattern": "상황·과업 + call for + 필요한 행동·능력",
+      "status": "new-expression",
+      "priorRefs": [
+        "0:11:7",
+        "0:15:8"
+      ],
+      "selectionReason": "require/entail에서 상황·과업이 조건을 요구하는 결합을 익힌다. 사람의 공개 요청과 분리한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/call-for"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "outcome",
+      "exercise": 9
+    },
+    {
+      "id": "make-up-complete",
+      "expression": "make up",
+      "senseKo": "부족한 양을 채우다",
+      "kind": "phrasal",
+      "pattern": "make up + 차이·부족분 / make + 목적어 + up; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "33:10:13",
+        "3:5:8",
+        "6:9:11"
+      ],
+      "selectionReason": "shortage/short의 부족한 분량을 채움. 손실을 다른 이익으로 상쇄하는 make up for와 구별한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/make-up"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "outcome",
+      "exercise": 9
+    },
+    {
+      "id": "deal-with-topic",
+      "expression": "deal with",
+      "senseKo": "글·작품이 ~을 다루다",
+      "kind": "prepositional",
+      "pattern": "글·작품 + deal with + 주제",
+      "status": "new-sense",
+      "priorRefs": [
+        "6:9:10",
+        "8:1:3",
+        "46:1:6"
+      ],
+      "selectionReason": "cover/concern의 글·연구 주제를 다루는 뜻을 문제 처리 뜻과 분리해 전이한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/deal-with"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "outcome",
+      "exercise": 9
+    },
+    {
+      "id": "turn-out-produce",
+      "expression": "turn out",
+      "senseKo": "제품 등을 생산해 내다",
+      "kind": "phrasal",
+      "pattern": "turn out + 생산물 / turn + 목적어 + out; 대명사는 가운데",
+      "status": "new-expression",
+      "priorRefs": [
+        "6:10:4",
+        "48:1:0"
+      ],
+      "selectionReason": "produce의 생산을 turn out으로 연결하고 판명 뜻과 거리를 둔다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/turn-out"
+      ],
+      "retainedFrom": "followup-curriculum.json/plannedSets/1",
+      "group": "outcome",
+      "exercise": 9
+    },
+    {
+      "id": "make-out-understand",
+      "expression": "make out",
+      "senseKo": "이유·의도를 어렵게 이해하다",
+      "status": "new-expression",
+      "priorRefs": [
+        "6:1:10",
+        "3:2:13"
+      ],
+      "selectionReason": "make out 기존 선정의 식별/이해를 분리한다. follow/understand와 연결하되 인식 난도가 있다는 뜻을 유지한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/make-out"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "outcome",
+      "exercise": 9
+    },
+    {
+      "id": "give-off-emit",
+      "expression": "give off",
+      "senseKo": "열·빛·기체 등을 내뿜다",
+      "status": "new-expression",
+      "priorRefs": [
+        "40:3:12",
+        "29:3:10",
+        "9:5:11"
+      ],
+      "selectionReason": "dioxide 예문의 방출 결합을 radiation/heat와 연결해 과학 독해에 필요한 회상 단위로 만든다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/give-off"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "outcome",
+      "exercise": 9
+    },
+    {
+      "id": "end-up-result",
+      "expression": "end up",
+      "senseKo": "결국 어떤 상태에 이르다",
+      "status": "new-expression",
+      "priorRefs": [
+        "1:7:17",
+        "46:6:1"
+      ],
+      "selectionReason": "end의 종료와 consequence의 결과에서 예상 밖 최종 상태를 나타내는 결합을 익힌다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/end-up"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "outcome",
+      "exercise": 9
+    },
+    {
+      "id": "work-out-succeed",
+      "expression": "work out",
+      "senseKo": "일이 잘 풀리다",
+      "status": "new-expression",
+      "priorRefs": [
+        "37:5:4",
+        "40:1:11",
+        "9:8:8"
+      ],
+      "selectionReason": "nicely 해설과 broadly 예문에만 있던 자동사 결과를 직접 회상한다. 목적어 있는 문제 해결과 구별한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/work-out"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "outcome",
+      "exercise": 9
+    },
+    {
+      "id": "run-into-problem",
+      "expression": "run into",
+      "senseKo": "예상치 못한 문제에 부딪히다",
+      "status": "new-expression",
+      "priorRefs": [
+        "2:7:5",
+        "13:3:8"
+      ],
+      "selectionReason": "face의 직면과 difficulty를 연결해 예기치 않게 어려움을 만나는 결합을 익힌다. 사람 우연히 만남은 별도 추가하지 않는다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/run-into"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "outcome",
+      "exercise": 9
+    },
+    {
+      "id": "set-aside-ignore",
+      "expression": "set aside",
+      "senseKo": "의견·문제를 잠시 제쳐 두다",
+      "status": "new-expression",
+      "priorRefs": [
+        "24:1:5",
+        "13:8:14"
+      ],
+      "selectionReason": "ignore의 고려하지 않음과 aside의 옆으로 두기에서 논의 중 잠시 제외한다는 뜻을 연결한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/set-aside"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "judgment",
+      "exercise": 10
+    },
+    {
+      "id": "take-into-account-consider",
+      "expression": "take into account",
+      "senseKo": "판단할 때 고려하다",
+      "status": "revisit",
+      "priorRefs": [
+        "4:4:9",
+        "46:3:3",
+        "26:4:5"
+      ],
+      "selectionReason": "이미 배운 account/consideration 결합을 전부 입력하며 account for의 설명·비중과 구별하는 연결 복습이다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/take-into-account"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "judgment",
+      "exercise": 10
+    },
+    {
+      "id": "relate-to-empathize",
+      "expression": "relate to",
+      "senseKo": "경험·감정에 공감하다",
+      "status": "revisit",
+      "priorRefs": [
+        "23:6:7",
+        "7:9:10"
+      ],
+      "selectionReason": "기존 relate의 공감 뜻을 결합 전체로 복습한다. 논리적 관련과 느낌을 이해하는 공감을 분리한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/relate-to"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "judgment",
+      "exercise": 10
+    },
+    {
+      "id": "appeal-to-request",
+      "expression": "appeal to",
+      "senseKo": "누군가에게 도움·지원을 호소하다",
+      "status": "revisit",
+      "priorRefs": [
+        "25:5:9",
+        "25:5:7",
+        "12:8:8"
+      ],
+      "selectionReason": "기존 appeal의 호소를 전체 결합으로 복습하고 대상 to와 요청 내용 for를 짧게 연결한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/appeal?topic=court-cases-orders-and-decisions"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "judgment",
+      "exercise": 10
+    },
+    {
+      "id": "opt-out-of-withdraw",
+      "expression": "opt out of",
+      "senseKo": "참여하지 않기로 하다",
+      "status": "new-expression",
+      "priorRefs": [
+        "33:4:9",
+        "6:7:15",
+        "6:9:13"
+      ],
+      "selectionReason": "opt for를 직접 배웠지만 opt out of는 해설만 있다. choice/join의 선택·가입과 불참을 대비해 제도·참여 지문에 연결한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/opt-out?q=opt%2Bout"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "judgment",
+      "exercise": 10
+    },
+    {
+      "id": "go-through-experience",
+      "expression": "go through",
+      "senseKo": "어려운 상황을 겪다",
+      "status": "new-expression",
+      "priorRefs": [
+        "3:9:8",
+        "9:5:4",
+        "43:2:4"
+      ],
+      "selectionReason": "experience/suffer에서 과정·고난을 겪는 결합으로 전이한다. 자료 검토 뜻은 go over와 중복을 늘리지 않는다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/learner-english/go-through-sth"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "judgment",
+      "exercise": 10
+    },
+    {
+      "id": "call-for-request",
+      "expression": "call for",
+      "senseKo": "어떤 조치를 공개적으로 요구하다",
+      "status": "new-expression",
+      "priorRefs": [
+        "32:5:1",
+        "10:10:7",
+        "12:8:8"
+      ],
+      "selectionReason": "backup 예문의 요청을 demand/request와 연결한다. 상황이 필요로 하는 뜻과 사람의 요구를 분리한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/call-for"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "judgment",
+      "exercise": 10
+    },
+    {
+      "id": "take-advantage-of-exploit",
+      "expression": "take advantage of",
+      "senseKo": "남의 호의·약점을 부당하게 이용하다",
+      "status": "new-expression",
+      "priorRefs": [
+        "24:5:13",
+        "38:1:1",
+        "33:1:6"
+      ],
+      "selectionReason": "abuse/unfair와 kindness를 연결해 중립적 활용과 부정적 이용을 구별한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/take-advantage-of?q=take%2Badvantage"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "judgment",
+      "exercise": 10
+    },
+    {
+      "id": "come-across-find",
+      "expression": "come across",
+      "senseKo": "우연히 발견하다",
+      "status": "new-expression",
+      "priorRefs": [
+        "31:9:12",
+        "1:6:0"
+      ],
+      "selectionReason": "stumble across의 우연한 발견에서 더 널리 쓰는 기본 결합으로 전이한다. 찾아 알아내는 find out과 구별한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/come-across"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "judgment",
+      "exercise": 10
+    },
+    {
+      "id": "pay-off-debt",
+      "expression": "pay off",
+      "senseKo": "빚을 다 갚다",
+      "status": "new-expression",
+      "priorRefs": [
+        "10:2:4",
+        "31:10:13"
+      ],
+      "selectionReason": "debt의 해설 노출과 default의 채무 불이행을 연결한다. 노력이 성과를 내는 자동사 pay off와 분리한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/pay-off?q=to+pay+off+"
+      ],
+      "addedAfterWholePoolReview": true,
+      "group": "judgment",
+      "exercise": 10
+    }
+  ],
+  "deferred": [
+    {
+      "expression": "take for granted",
+      "reason": "독해 가치가 크지만 이번 동사+전치사/불변화사 중심 범위를 넘는 관용 구문. assume·assumption의 두 의미와 함께 후속 관용 표현 풀에서 별도 설계.",
+      "priorRefs": [
+        "0:14:4",
+        "46:4:0",
+        "46:4:1"
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/take-for-granted"
+      ]
+    },
+    {
+      "expression": "turn down (음량·밝기를 낮추다)",
+      "reason": "기존 brightness/loud 예문에 노출됐지만 이번 독해용 거절 뜻과 조절 뜻을 동시에 확대하지 않는다. 다음 기본 다의 확장에서 검토.",
+      "priorRefs": [
+        "17:1:0",
+        "25:2:14",
+        "42:7:5"
+      ]
+    },
+    {
+      "expression": "pick up (집어 들다·데리러 가다·감염되다)",
+      "reason": "집어 들기·운송 명사와 예문 노출은 풍부하다. 이번은 학습 습득 뜻에 집중하고 운송·감염 다의는 후속으로 남긴다.",
+      "priorRefs": [
+        "8:10:0",
+        "13:4:0",
+        "26:5:9",
+        "33:1:1",
+        "35:7:2"
+      ]
+    },
+    {
+      "expression": "go through (자료를 살펴보다)",
+      "reason": "이번 go over의 세부 검토와 직접 겹친다. go through의 과정 경험을 우선하고 자료 검토는 필요하면 정답 대안/해설에 연결.",
+      "priorRefs": [
+        "10:4:1",
+        "43:2:4"
+      ]
+    },
+    {
+      "expression": "be based on / rest on",
+      "reason": "be based on은 6·35세트에서 직접 배움. 새 build on/draw on 해설에 토대와 자원 차이를 연결하고 같은 뜻의 독립 복습 카드는 늘리지 않는다.",
+      "priorRefs": [
+        "6:5:4",
+        "35:6:6",
+        "46:4:1"
+      ]
+    },
+    {
+      "expression": "comply with / adhere to",
+      "reason": "둘 다 기존 동사 빈칸에서 결합을 직접 학습. 이번은 새로운 쉬운 동사 결합의 비문자적 뜻 공백을 우선한다.",
+      "priorRefs": [
+        "33:8:2",
+        "42:7:11"
+      ]
+    },
+    {
+      "expression": "filter out / weed out",
+      "reason": "filter out은 분리형까지 직접 학습. weed out 추상 제거는 해설 노출뿐이지만 rule out의 가능성 배제와 섞지 않고 후속 선별 계열에 둔다.",
+      "priorRefs": [
+        "33:3:5",
+        "33:9:9"
+      ]
+    },
+    {
+      "expression": "hand out / come out (출시) / turn out (출석)",
+      "reason": "명사·예문 연결점은 있으나 인과·판단·구성·연구 과정 공백보다 우선순위가 낮아 이번 범위를 넓히지 않는다.",
+      "priorRefs": [
+        "44:9:10",
+        "45:1:1",
+        "43:4:7",
+        "41:8:15"
+      ]
+    },
+    {
+      "expression": "bail out / resort to / dispose of / cater to / indulge in",
+      "reason": "이미 결합을 직접 익히는 카드가 있어 같은 뜻의 독립 카드를 대량 중복하지 않는다.",
+      "priorRefs": [
+        "37:10:11",
+        "28:6:5",
+        "42:10:12",
+        "42:9:7",
+        "42:10:5"
+      ]
+    },
+    {
+      "expression": "hurry up / calm down / cheer up / tidy up / mess up / screw up",
+      "reason": "이미 기존 결합 빈칸으로 배운 기본 표현. 이번 새 독해 풀에 추가해 카드 수를 채우지 않는다.",
+      "priorRefs": [
+        "16:1:5",
+        "17:1:4",
+        "18:5:11",
+        "22:7:13",
+        "26:7:6",
+        "16:3:8"
+      ]
+    },
+    {
+      "expression": "count on (예상하다)",
+      "reason": "이번 count on은 사람·도움에 대한 신뢰와 의존 한 뜻. 기대한 사건을 전제로 삼는 별도 뜻은 후속 확장에 둔다.",
+      "priorRefs": [
+        "11:5:11",
+        "24:10:3"
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/count-on"
+      ]
+    },
+    {
+      "expression": "stand for (가치를 지지하다·행동을 용납하다)",
+      "reason": "나타내다와 지지하다·용납하다를 한 카드에 합치지 않고 이번은 기호·문자의 의미 관계만 선정.",
+      "priorRefs": [
+        "7:6:4",
+        "4:10:14"
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/stand-for"
+      ]
+    }
+  ],
+  "validation": {
+    "allOriginalIdsRetained": true,
+    "sameExpressionMinDistance": 13,
+    "statusCounts": {
+      "new-expression": 82,
+      "revisit": 16,
+      "new-sense": 4
+    },
+    "unresolvedIssues": []
+  }
+}

@@ -1,0 +1,5465 @@
+{
+  "course": 49,
+  "title": "전치사가 잇는 관계",
+  "version": 2,
+  "status": "selection-and-order-only; no-cards-authored",
+  "updated": "2026-09-19",
+  "reviewedBasis": {
+    "ownAudit": "audit-16-31.json",
+    "otherAudits": [
+      "audit-0-15.json",
+      "audit-32-48.json"
+    ],
+    "otherReadNotes": "review-notes-32-48.json",
+    "sourceCards": 6715,
+    "note": "16~31 전수 감사와 다른 두 범위의 완성 감사·독해 메모를 합쳐 선정했다. 아직 카드 본문 집필은 하지 않았다."
+  },
+  "countNote": "현재 90개는 의미별 카드 후보 수다. 표제어 수나 신규 단어 수가 아니다. 같은 전치사의 다른 의미, 기존 결합의 연결 복습, 새 전체 구가 포함된다. 분량을 맞추기 위한 중복 추가는 하지 않았다.",
+  "principles": [
+    "현재 한국어 뜻·영어 빈칸 타이핑 방식을 유지한다. 별도 문법 퀴즈나 설명 화면을 만들지 않는다.",
+    "기본 at/in/on 공간과 날짜는 제외하고 범위·시간의 연결 복습만 짧게 남겼다.",
+    "of use/value/importance와 under review/construction은 각기 같은 관계의 대체 앵커로 묶고 뜻 수를 부풀리지 않는다.",
+    "단일 전치사와 명사·형용사 결합 및 전체 연결 구를 병행한다. 긴 동의어 구 목록으로 표제어 중심 학습을 대체하지 않는다.",
+    "revisit은 기존 정답 또는 빈칸을 포함한 결합에서 같은 관계를 직접 배운 경우다. 예문·해설 노출만이면 새로운 회상 기회로 표시한다.",
+    "acceptedAnswersCandidate는 자동 허용 목록이 아니다. 카드가 완성된 뒤 문법·뜻·빈칸 범위가 모두 같은 답만 card.acceptedAnswers에 넣는다.",
+    "by/via처럼 더 긴 허용답의 중간 입력을 오답으로 확정하지 않는 새 카드 전용 오류 방어는 root 구현을 활용한다. 시간·회독·타이핑 규칙은 유지한다.",
+    "모호한 관계를 철자 길이로만 가르치지 않는다. 올바른 대체답을 문맥상 틀렸다고 주장하지 않는다."
+  ],
+  "groups": [
+    {
+      "id": "scope-standard",
+      "order": 1,
+      "title": "범위와 판단 기준",
+      "rationale": "기본 공간을 다시 늘리지 않고 기존 within/beyond를 추상 범위에 연결한 뒤 판단 기준과 분포로 확장한다.",
+      "itemIds": [
+        "prep-within-scope",
+        "prep-beyond-scope",
+        "prep-for-standard",
+        "prep-terms-aspect",
+        "prep-in-dimension",
+        "prep-as-classification",
+        "prep-across-distribution"
+      ],
+      "itemCount": 7
+    },
+    {
+      "id": "time-boundary",
+      "order": 2,
+      "title": "시간의 한계와 경과",
+      "rationale": "이미 배운 시각·날짜를 반복하지 않고 기한, 지속, 경과를 구별하는 여섯 뜻만 재연결한다.",
+      "itemIds": [
+        "prep-by-deadline",
+        "prep-until-continuation",
+        "prep-in-elapsed",
+        "prep-within-deadline",
+        "prep-over-period",
+        "prep-upon-event"
+      ],
+      "itemCount": 6
+    },
+    {
+      "id": "quantity",
+      "order": 3,
+      "title": "수치와 변화",
+      "rationale": "변화량·최종값·출발값을 나눈 뒤 격차, 변화 항목과 양, 단위, 기준 초과·미달, 비율로 확장한다.",
+      "itemIds": [
+        "prep-change-by",
+        "prep-result-to",
+        "prep-initial-from",
+        "prep-difference-by",
+        "prep-increase-in",
+        "prep-increase-of",
+        "prep-at-level",
+        "prep-per-unit",
+        "prep-by-unit",
+        "prep-above-threshold",
+        "prep-below-threshold",
+        "prep-ratio-to"
+      ],
+      "itemCount": 12
+    },
+    {
+      "id": "noun-links",
+      "order": 4,
+      "title": "명사 뒤에서 이어지는 관계",
+      "rationale": "익숙한 명사와 전치사를 함께 회상한다. 어족 명사화와 목적 대상의 관계를 연결하되 기존 의미를 새 단어 수로 부풀리지 않는다.",
+      "itemIds": [
+        "prep-of-quality",
+        "prep-lack-of",
+        "prep-need-for",
+        "prep-effect-on",
+        "prep-access-to",
+        "prep-solution-to",
+        "prep-demand-for",
+        "prep-contrast-between",
+        "prep-awareness-of",
+        "prep-responsibility-for",
+        "prep-dependence-on"
+      ],
+      "itemCount": 11
+    },
+    {
+      "id": "conditions",
+      "order": 5,
+      "title": "조건과 상태",
+      "rationale": "under의 조건·지배·진행을 분리하고 with/without 및 in/on 상태 결합과 이어 준다.",
+      "itemIds": [
+        "prep-under-conditions",
+        "prep-under-rule",
+        "prep-under-process",
+        "prep-under-pressure",
+        "prep-with-condition",
+        "prep-without-condition",
+        "prep-absence-condition",
+        "prep-in-state",
+        "prep-on-activity"
+      ],
+      "itemCount": 9
+    },
+    {
+      "id": "grounds-source",
+      "order": 6,
+      "title": "근거와 반응",
+      "rationale": "판단 기준, 정보 출처, 행동을 촉발한 것, 고려한 사정을 각각 구별한다.",
+      "itemIds": [
+        "prep-by-criterion",
+        "prep-according-source",
+        "prep-according-rule",
+        "prep-in-light-of",
+        "prep-in-response-to",
+        "prep-on-basis-of",
+        "prep-out-of-motive",
+        "prep-from-perspective",
+        "prep-accordance"
+      ],
+      "itemCount": 9
+    },
+    {
+      "id": "contrast-position",
+      "order": 7,
+      "title": "대조와 입장",
+      "rationale": "비교, 양보, 무관함, 지지·반대, 배경, 위험 방어를 분리한다.",
+      "itemIds": [
+        "prep-in-contrast-to",
+        "prep-despite",
+        "prep-regardless",
+        "prep-opposed-to",
+        "prep-favor",
+        "prep-against-opposition",
+        "prep-against-background",
+        "prep-against-protection"
+      ],
+      "itemCount": 8
+    },
+    {
+      "id": "means-exchange",
+      "order": 8,
+      "title": "수단과 주고받는 방향",
+      "rationale": "by/with의 단순 사람·물건 공식을 피하고 행위자·도구·방식·수혜자·수령자·대표·교환을 명확히 구별한다.",
+      "itemIds": [
+        "prep-by-agent",
+        "prep-with-instrument",
+        "prep-through-means",
+        "prep-with-manner",
+        "prep-for-beneficiary",
+        "prep-to-recipient",
+        "prep-behalf",
+        "prep-expense",
+        "prep-exchange-for",
+        "prep-for-replacement",
+        "prep-with-replacement"
+      ],
+      "itemCount": 11
+    },
+    {
+      "id": "addition-topic",
+      "order": 9,
+      "title": "추가·예외와 다루는 대상",
+      "rationale": "짧은 명사에서 전체 연결 구로 확장하되 주제 표현의 동의어 목록만 늘리지 않는다.",
+      "itemIds": [
+        "prep-addition",
+        "prep-except-for",
+        "prep-apart-except",
+        "prep-apart-addition",
+        "prep-instead-of",
+        "prep-regard",
+        "prep-relation-comparison",
+        "prep-search-of",
+        "prep-over-dispute"
+      ],
+      "itemCount": 9
+    },
+    {
+      "id": "selected-complements",
+      "order": 10,
+      "title": "분리와 단어의 결합",
+      "rationale": "개별 동사·형용사가 선택하는 관계를 기존 어휘와 연결한다. 전치사의 하나짜리 한국어 뜻만으로 모든 결합을 예측하게 만들지 않는다.",
+      "itemIds": [
+        "prep-from-separation",
+        "prep-from-prevention",
+        "prep-from-difference",
+        "prep-from-exemption",
+        "prep-of-deprivation",
+        "prep-with-association",
+        "prep-capable-of",
+        "prep-to-reaction"
+      ],
+      "itemCount": 8
+    }
+  ],
+  "items": [
+    {
+      "id": "prep-within-scope",
+      "order": 1,
+      "group": "scope-standard",
+      "headword": "within",
+      "senseKo": "~의 범위 안에서",
+      "construction": "within + 권한·범위·한도",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "6:2:14",
+          "set": 6,
+          "ex": 2,
+          "index": 14,
+          "word": "within",
+          "ko": "① ~ 이내에",
+          "exText": "The hotel is {{BLANK}} walking distance of the station.",
+          "c": "within an hour는 한 시간 안에. within walking distance는 걸어갈 수 있는 거리 안에.",
+          "relationship": "target-other-scope"
+        },
+        {
+          "id": "31:1:9",
+          "set": 31,
+          "ex": 1,
+          "index": 9,
+          "word": "walking",
+          "ko": "① 걷기, 보행",
+          "exText": "The store is within {{BLANK}} distance of my house.",
+          "c": "walk(걷다)+ing. within walking distance를 통째로 외운다.",
+          "relationship": "target-other-scope"
+        },
+        {
+          "id": "47:5:2",
+          "set": 47,
+          "ex": 5,
+          "index": 2,
+          "word": "coexist",
+          "ko": "공존하다",
+          "exText": "Different views can {{BLANK}} within one group.",
+          "c": "co-(함께)+exist(존재하다). 같아지거나 동의한다는 뜻까지 포함하지는 않아.",
+          "relationship": "example-only"
+        }
+      ],
+      "selectionReason": "걷는 거리로 익힌 within을 예산·권한 같은 읽기 관계로 확장한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "inside도 가능한 물리적 상자 문장을 피하고 추상적 한도를 택한다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/within",
+        "https://dictionary.cambridge.org/grammar/british-grammar/beyond"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/within",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/beyond",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-beyond-scope",
+      "order": 2,
+      "group": "scope-standard",
+      "headword": "beyond",
+      "senseKo": "~의 능력·통제 범위를 벗어나",
+      "construction": "beyond + control/ability",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "7:10:10",
+          "set": 7,
+          "ex": 10,
+          "index": 10,
+          "word": "beyond",
+          "ko": "① ~ 너머에, (능력·범위) 밖에",
+          "exText": "This question is {{BLANK}} me.",
+          "c": "'~ 너머(범위 밖)'. beyond my ability 내 능력 밖.",
+          "relationship": "target"
+        }
+      ],
+      "selectionReason": "범위 밖이라는 기존 뜻을 통제·권한에 전이하고 within과 연결한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "outside도 같은 범위를 뜻할 수 있으므로 문맥별로 허용한다. beyond 자체를 항상 초월의 긍정 뜻으로 풀이하지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "outside",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/within",
+        "https://dictionary.cambridge.org/grammar/british-grammar/beyond"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/within",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/beyond",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-for-standard",
+      "order": 3,
+      "group": "scope-standard",
+      "headword": "for",
+      "senseKo": "나이·조건에 비추어 보면",
+      "construction": "평가 형용사 + for + age/first attempt",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "36:3:8",
+          "set": 36,
+          "ex": 3,
+          "index": 8,
+          "word": "educated",
+          "ko": "① 교육받은, 학식 있는",
+          "exText": "My grandma is well {{BLANK}} for her age.",
+          "c": "educate(교육하다)+-ed. an educated guess는 '근거 있는 추측'.",
+          "relationship": "example-only"
+        },
+        {
+          "id": "41:9:4",
+          "set": 41,
+          "ex": 9,
+          "index": 4,
+          "word": "astonishing",
+          "ko": "① 정말 놀라운",
+          "exText": "His grade was {{BLANK}} for a first try.",
+          "c": "astonish(놀라게 하다)+-ing. 사람이 놀란 상태는 astonished.",
+          "relationship": "example-only"
+        }
+      ],
+      "selectionReason": "for her age/for a first try는 이미 읽었지만 기준 관계를 직접 회상하지 않았다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "수혜자 for와 다른 상대적 평가를 한국어 뜻에 드러낸다. considering/given은 최종 문장에서 같은 판단 기준이면 허용한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "considering",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "given",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/for"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/for",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-terms-aspect",
+      "order": 4,
+      "group": "scope-standard",
+      "headword": "in terms of",
+      "senseKo": "~의 측면에서",
+      "construction": "in terms of + 평가 측면",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "0:18:5",
+          "set": 0,
+          "ex": 18,
+          "index": 5,
+          "word": "term",
+          "ko": "⑥ (~의) 면에서, 관점에서 (in terms of)",
+          "exText": "In {{BLANK}}s of cost, this plan is better.",
+          "c": "in terms of + 명사 = 그 측면에서. 비교·판단의 기준을 밝힌다.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "46:3:7",
+          "set": 46,
+          "ex": 3,
+          "index": 7,
+          "word": "term",
+          "ko": "⑥ (~의) 면에서, 관점에서 (in terms of)",
+          "exText": "In {{BLANK}}s of cost, this plan is better.",
+          "c": "in terms of + 명사 = 그 측면에서. 비교·판단의 기준을 밝힌다.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "이미 두 번 배운 terms의 구를 수치·속성 관계의 기준점으로 재사용한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "주제 일반을 뜻하는 표현과 측면 비교가 실제로 겹치는 문장에서만 대체를 허용한다. 신규 어휘로 세지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "with regard to",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/size",
+        "https://dictionary.cambridge.org/dictionary/learner-english/in"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/size",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/learner-english/in",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-in-dimension",
+      "order": 5,
+      "group": "scope-standard",
+      "headword": "in size",
+      "senseKo": "크기 면에서",
+      "construction": "in size/shape/quality; similar in a respect",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "48:4:6",
+          "set": 48,
+          "ex": 4,
+          "index": 6,
+          "word": "respect",
+          "ko": "측면, 점",
+          "exText": "The plans are similar in every {{BLANK}}.",
+          "c": "in one respect는 한 가지 측면에서. 여기서는 존경이나 존중이 아니야.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "34:3:1",
+          "set": 34,
+          "ex": 3,
+          "index": 1,
+          "word": "specialize",
+          "ko": "① 전문으로 하다",
+          "exText": "This shop {{BLANK}}s in old comic books.",
+          "c": "전문 분야를 말할 때 specialize in+(명사): specialize in music(음악을 전공하다).",
+          "relationship": "cloze-construction-related"
+        }
+      ],
+      "selectionReason": "in을 장소가 아닌 비교하는 측면으로 읽게 하고 기존 respect와 연결한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "분야 in과 측면 in을 한 카드 뜻 두 개로 합치지 않는다. 이 카드는 비교 측면에 한정한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "in terms of size",
+          "status": "sentence-reviewed"
+        },
+        {
+          "answer": "with respect to size",
+          "status": "sentence-reviewed"
+        },
+        {
+          "answer": "with regard to size",
+          "status": "sentence-reviewed"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/size",
+        "https://dictionary.cambridge.org/dictionary/learner-english/in"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/size",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/learner-english/in",
+          "verification": "inherited-from-prior-selection"
+        }
+      ],
+      "inputUnitRefinement": {
+        "id": "prep-in-dimension",
+        "from": "in",
+        "to": "in size",
+        "reason": "canonical in이 in terms of의 접두사라 긴 허용답 입력 중 조기 정답이 날 수 있다. 같은 측면 관계를 크기 구 전체로 정밀화한다."
+      }
+    },
+    {
+      "id": "prep-as-classification",
+      "order": 6,
+      "group": "scope-standard",
+      "headword": "as",
+      "senseKo": "~라고 여기거나 규정하여",
+      "construction": "regard/view/designate A as B",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "4:6:10",
+          "set": 4,
+          "ex": 6,
+          "index": 10,
+          "word": "view",
+          "ko": "③ (~로) 여기다, 생각하다",
+          "exText": "Many people {{BLANK}} failure as a chance to learn.",
+          "c": "view A as B = A를 B로 여기다.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "14:1:8",
+          "set": 14,
+          "ex": 1,
+          "index": 8,
+          "word": "regard",
+          "ko": "① ~로 여기다",
+          "exText": "I {{BLANK}} him as my best friend.",
+          "c": "regard A as B: A를 B로 여기다. as까지 한 덩어리로 외울 것.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "44:1:8",
+          "set": 44,
+          "ex": 1,
+          "index": 8,
+          "word": "designate",
+          "ko": "① 지정하다",
+          "exText": "They {{BLANK}}d this room as a study area.",
+          "c": "designate A as B(A를 B로 지정하다) 짝을 함께 외운다.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "직업 역할 as를 반복하기보다 기존 판단·분류 동사들의 공통 관계를 재연결한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "like가 가능한 단순 유사성 문장을 피한다. as는 분류·간주 결과를 표시하되 분류의 진실까지 보장한다고 설명하지 않는다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/uk/grammar/british-grammar/as-or-like",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/like"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/uk/grammar/british-grammar/as-or-like",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/like",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-across-distribution",
+      "order": 7,
+      "group": "scope-standard",
+      "headword": "across",
+      "senseKo": "여러 지역·집단에 걸쳐",
+      "construction": "across + countries/groups",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "6:3:10",
+          "set": 6,
+          "ex": 3,
+          "index": 10,
+          "word": "across",
+          "ko": "① 건너서, 맞은편에",
+          "exText": "My school is just {{BLANK}} the street.",
+          "c": "cross(건너다)의 전치사 짝꿍. across from = ~의 맞은편.",
+          "relationship": "target-other-sense"
+        },
+        {
+          "id": "23:7:10",
+          "set": 23,
+          "ex": 7,
+          "index": 10,
+          "word": "throughout",
+          "ko": "② ~전역에, 곳곳에",
+          "exText": "The song is famous {{BLANK}} the country.",
+          "c": "장소에 쓰면 '구석구석 전부'라는 뜻이 된다.",
+          "relationship": "related-target"
+        }
+      ],
+      "selectionReason": "길을 건너는 across에서 여러 집단에 분포하는 관계로 확장한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "throughout과 겹치지만 across가 모든 개인을 빠짐없이 포함한다는 뜻은 아니다. in도 같은 분포 의미이면 허용한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "throughout",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "in",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/across",
+        "https://dictionary.cambridge.org/dictionary/english/throughout"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/across",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/throughout",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-by-deadline",
+      "order": 8,
+      "group": "time-boundary",
+      "headword": "by",
+      "senseKo": "늦어도 ~까지는",
+      "construction": "완료·제출 + by + 마감 시점",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "5:3:13",
+          "set": 5,
+          "ex": 3,
+          "index": 13,
+          "word": "by",
+          "ko": "③ (기한) ~까지는",
+          "exText": "Finish this {{BLANK}} Friday.",
+          "c": "by는 '늦어도 그때까지 완료', until은 '그때까지 계속'. 시험 단골.",
+          "relationship": "target"
+        },
+        {
+          "id": "6:1:0",
+          "set": 6,
+          "ex": 1,
+          "index": 0,
+          "word": "until",
+          "ko": "① ~까지 (계속)",
+          "exText": "The store is open {{BLANK}} nine.",
+          "c": "by와 구분: until은 그때까지 '계속', by는 그때까지 '완료·마감'.",
+          "relationship": "explanation-only"
+        }
+      ],
+      "selectionReason": "until과의 경계를 짧게 되살려 이후 by의 다른 관계에 대비한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "by가 항상 완료 동사만 받는다고 일반화하지 않는다. before는 경계 포함이 달라 자동 동의어로 넣지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "no later than",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/until",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/by"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/until",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-until-continuation",
+      "order": 9,
+      "group": "time-boundary",
+      "headword": "until",
+      "senseKo": "~까지 계속",
+      "construction": "지속 상태 + until + 끝 시점",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "6:1:0",
+          "set": 6,
+          "ex": 1,
+          "index": 0,
+          "word": "until",
+          "ko": "① ~까지 (계속)",
+          "exText": "The store is open {{BLANK}} nine.",
+          "c": "by와 구분: until은 그때까지 '계속', by는 그때까지 '완료·마감'.",
+          "relationship": "target"
+        },
+        {
+          "id": "29:3:3",
+          "set": 29,
+          "ex": 3,
+          "index": 3,
+          "word": "till",
+          "ko": "① ~까지, ~할 때까지",
+          "exText": "I studied {{BLANK}} two in the morning.",
+          "c": "until과 같은 '~까지'. 전치사·접속사로 쓴다. 문장 앞에서는 until이 더 흔하다.",
+          "relationship": "target-variant"
+        }
+      ],
+      "selectionReason": "지속 종료점이라는 관계만 복습한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "up to는 문맥상 지속 기간을 동일하게 표시할 때만 허용한다. by와 의미가 갈리는 상태 문장을 쓴다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "till",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "up to",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/until",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/by"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/until",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-in-elapsed",
+      "order": 10,
+      "group": "time-boundary",
+      "headword": "in",
+      "senseKo": "지금부터 ~후에",
+      "construction": "미래 사건 + in + 시간 길이",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "5:1:16",
+          "set": 5,
+          "ex": 1,
+          "index": 16,
+          "word": "in",
+          "ko": "③ (시간) ~후에",
+          "exText": "I'll call you {{BLANK}} ten minutes.",
+          "c": "미래 시점을 말할 때 in+시간의 길이는 그 시간이 지난 뒤. 여기서는 10분 후에.",
+          "relationship": "target"
+        }
+      ],
+      "selectionReason": "이미 배운 미래 시점 뜻을 within의 기한과 직접 연결한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "after가 기준 시점과 의미를 동일하게 보존하는지 검토한다. 작업에 걸린 시간 in은 이 카드에 섞지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "after",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/in?topic=general",
+        "https://dictionary.cambridge.org/grammar/british-grammar/at-on-in-time",
+        "https://dictionary.cambridge.org/grammar/british-grammar/within"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/in?topic=general",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/at-on-in-time",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/within",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-within-deadline",
+      "order": 11,
+      "group": "time-boundary",
+      "headword": "within",
+      "senseKo": "주어진 시간 ~이내에",
+      "construction": "완료 + within + 시간 길이",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "6:2:14",
+          "set": 6,
+          "ex": 2,
+          "index": 14,
+          "word": "within",
+          "ko": "① ~ 이내에",
+          "exText": "The hotel is {{BLANK}} walking distance of the station.",
+          "c": "within an hour는 한 시간 안에. within walking distance는 걸어갈 수 있는 거리 안에.",
+          "relationship": "explanation-only"
+        }
+      ],
+      "selectionReason": "기존 within 해설에서만 본 시간 한계를 직접 연습한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "완료문에서는 in도 그 시간 안의 완료를 뜻할 수 있다. in을 문법상 오답이라고 우기지 말고 최종 문장의 의미에 맞으면 허용한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "in",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/in?topic=general",
+        "https://dictionary.cambridge.org/grammar/british-grammar/at-on-in-time",
+        "https://dictionary.cambridge.org/grammar/british-grammar/within"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/in?topic=general",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/at-on-in-time",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/within",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-over-period",
+      "order": 12,
+      "group": "time-boundary",
+      "headword": "over",
+      "senseKo": "일정 기간에 걸쳐",
+      "construction": "변화·누적 + over + 기간",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "5:8:11",
+          "set": 5,
+          "ex": 8,
+          "index": 11,
+          "word": "over",
+          "ko": "② ~넘게, ~초과",
+          "exText": "I waited {{BLANK}} an hour.",
+          "c": "",
+          "relationship": "target-other-sense"
+        },
+        {
+          "id": "16:10:6",
+          "set": 16,
+          "ex": 10,
+          "index": 6,
+          "word": "decrease",
+          "ko": "① 줄다, 감소하다",
+          "exText": "My weight slowly {{BLANK}}d this month.",
+          "c": "increase(늘다)의 반대. de-에서 '아래로' 냄새를 맡자.",
+          "relationship": "anchor"
+        }
+      ],
+      "selectionReason": "over를 수량 초과만으로 읽지 않고 기간 전체에 걸친 변화와 연결한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "during도 같은 기간을 나타낼 수 있다. throughout는 내내라는 의미가 참인 문장만 허용하고 over가 늘 지속 전부를 강제한다고 설명하지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "during",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "throughout",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/over",
+        "https://dictionary.cambridge.org/dictionary/english/period"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/over",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/period",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-upon-event",
+      "order": 13,
+      "group": "time-boundary",
+      "headword": "upon",
+      "senseKo": "~하자마자",
+      "construction": "upon + arrival/completion/-ing",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "23:3:10",
+          "set": 23,
+          "ex": 3,
+          "index": 10,
+          "word": "upon",
+          "ko": "② ~하자마자",
+          "exText": "{{BLANK}} hearing the news, she called her mom.",
+          "c": "upon+-ing는 '~하자마자'. on -ing로도 쓰며 글말에 많다.",
+          "relationship": "target"
+        },
+        {
+          "id": "36:6:6",
+          "set": 36,
+          "ex": 6,
+          "index": 6,
+          "word": "completion",
+          "ko": "① 완성, 완료",
+          "exText": "The {{BLANK}} of the new gym took two years.",
+          "c": "on completion = 끝나는 대로.",
+          "relationship": "explanation-only"
+        }
+      ],
+      "selectionReason": "upon의 직후 관계를 익숙한 완료 사건에 연결한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "on은 동등한 전치사 변이로 허용한다. when은 뒤 구조가 달라 동일 빈칸 대체답으로 자동 지정하지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "on",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/upon"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/upon",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-change-by",
+      "order": 14,
+      "group": "quantity",
+      "headword": "by",
+      "senseKo": "수치가 ~만큼",
+      "construction": "rise/fall/reduce by + 변화량",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "46:6:5",
+          "set": 46,
+          "ex": 6,
+          "index": 5,
+          "word": "reduce",
+          "ko": "① 줄이다",
+          "exText": "We must {{BLANK}} waste at home.",
+          "c": "reduce by=~만큼 줄이다. reduce to=~로 줄이다. 수량·정도·가격에 쓴다.",
+          "relationship": "explanation-only"
+        },
+        {
+          "id": "7:2:10",
+          "set": 7,
+          "ex": 2,
+          "index": 10,
+          "word": "increase",
+          "ko": "① 늘다, 늘리다",
+          "exText": "Prices {{BLANK}}d again this month.",
+          "c": "늘다·늘리다 양쪽 다 된다. 반대는 decrease(줄다).",
+          "relationship": "anchor"
+        },
+        {
+          "id": "16:10:6",
+          "set": 16,
+          "ex": 10,
+          "index": 6,
+          "word": "decrease",
+          "ko": "① 줄다, 감소하다",
+          "exText": "My weight slowly {{BLANK}}d this month.",
+          "c": "increase(늘다)의 반대. de-에서 '아래로' 냄새를 맡자.",
+          "relationship": "anchor"
+        }
+      ],
+      "selectionReason": "해설에서만 본 reduce by를 구체적인 변화량 관계로 회상한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "숫자가 변화량임을 분명히 한다. from/to와 단순 철자 문제가 아니라 수치 해석이 달라지는 문장으로 작성한다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/from",
+        "https://dictionary.cambridge.org/dictionary/english/gain-by"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/from",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/gain-by",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-result-to",
+      "order": 15,
+      "group": "quantity",
+      "headword": "to",
+      "senseKo": "변한 뒤의 수치가 ~이 되도록",
+      "construction": "rise/fall/reduce to + 최종값",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "46:6:5",
+          "set": 46,
+          "ex": 6,
+          "index": 5,
+          "word": "reduce",
+          "ko": "① 줄이다",
+          "exText": "We must {{BLANK}} waste at home.",
+          "c": "reduce by=~만큼 줄이다. reduce to=~로 줄이다. 수량·정도·가격에 쓴다.",
+          "relationship": "explanation-only"
+        },
+        {
+          "id": "5:1:12",
+          "set": 5,
+          "ex": 1,
+          "index": 12,
+          "word": "to",
+          "ko": "① (방향·도착) ~로, ~에게",
+          "exText": "She goes {{BLANK}} school by bus.",
+          "c": "이동의 도착점 앞에 쓴다: go to school. 문장 속에서는 보통 /tə/로 약하게 발음한다.",
+          "relationship": "target-other-sense"
+        }
+      ],
+      "selectionReason": "to의 끝점 관계를 이동에서 최종 수치로 확장한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "최종 수치가 원래 수치나 변화량과 구별되게 구성한다. to가 물리 이동의 실제 도착을 늘 보장한다는 설명은 금지한다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/from",
+        "https://dictionary.cambridge.org/dictionary/english/gain-by"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/from",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/gain-by",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-initial-from",
+      "order": 16,
+      "group": "quantity",
+      "headword": "from",
+      "senseKo": "변화가 시작된 수치 ~에서",
+      "construction": "from + 출발값 + to + 최종값",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "5:3:8",
+          "set": 5,
+          "ex": 3,
+          "index": 8,
+          "word": "from",
+          "ko": "① ~에서(부터), ~출신의",
+          "exText": "She is {{BLANK}} Busan.",
+          "c": "출발점 표시. 장소·시간·출신 모두 '시작된 곳'에 from을 찍는다.",
+          "relationship": "target-other-sense"
+        },
+        {
+          "id": "46:6:5",
+          "set": 46,
+          "ex": 6,
+          "index": 5,
+          "word": "reduce",
+          "ko": "① 줄이다",
+          "exText": "We must {{BLANK}} waste at home.",
+          "c": "reduce by=~만큼 줄이다. reduce to=~로 줄이다. 수량·정도·가격에 쓴다.",
+          "relationship": "related-explanation"
+        }
+      ],
+      "selectionReason": "출발 장소 from을 수량 변화의 기준값으로 이어 준다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "시작값/변화량/결과값을 하나의 ko에 나열하지 않는다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/from",
+        "https://dictionary.cambridge.org/dictionary/english/gain-by"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/from",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/gain-by",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-difference-by",
+      "order": 17,
+      "group": "quantity",
+      "headword": "by",
+      "senseKo": "비교·경쟁에서 ~만큼 차이가 나게",
+      "construction": "win/lose/late + by + 격차",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "17:5:4",
+          "set": 17,
+          "ex": 5,
+          "index": 4,
+          "word": "delay",
+          "ko": "① 미루다, 지연시키다",
+          "exText": "Heavy snow {{BLANK}}ed our flight by two hours.",
+          "c": "시간을 뒤로 미는 것. delay -ing(to V는 X). 명사 '지연'은 ②.",
+          "relationship": "example-only"
+        },
+        {
+          "id": "28:6:10",
+          "set": 28,
+          "ex": 6,
+          "index": 10,
+          "word": "margin",
+          "ko": "② 차이, 표차",
+          "exText": "Our team won by a wide {{BLANK}}.",
+          "c": "win[lose] by a ~ margin 꼴. by가 '차이'를 나타낸다.",
+          "relationship": "example-only"
+        },
+        {
+          "id": "34:8:0",
+          "set": 34,
+          "ex": 8,
+          "index": 0,
+          "word": "re-election",
+          "ko": "① 재선",
+          "exText": "He lost his bid for {{BLANK}} by ten votes.",
+          "c": "re-(다시)+election(선거). 미국식은 reelection으로도 쓴다.",
+          "relationship": "example-only"
+        },
+        {
+          "id": "42:9:8",
+          "set": 42,
+          "ex": 9,
+          "index": 8,
+          "word": "prevail",
+          "ko": "① 이기다, 우세하다",
+          "exText": "In the end our team {{BLANK}}ed by one point.",
+          "c": "싸움·논쟁에서 끝내 이기다. prevail over ~로도 쓴다.",
+          "relationship": "example-only"
+        }
+      ],
+      "selectionReason": "변화가 없어도 비교 격차에 by를 쓴다는 기존 노출을 직접 학습한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "증가량과 승패 격차를 같은 뜻 카드로 합치지 않는다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/from",
+        "https://dictionary.cambridge.org/dictionary/english/gain-by"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/from",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/gain-by",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-increase-in",
+      "order": 18,
+      "group": "quantity",
+      "headword": "in",
+      "senseKo": "증가·감소한 대상 ~의",
+      "construction": "an increase/decrease/surge in + 변한 항목",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "7:2:11",
+          "set": 7,
+          "ex": 2,
+          "index": 11,
+          "word": "increase",
+          "ko": "② 증가",
+          "exText": "There was a big {{BLANK}} in sales.",
+          "c": "명사일 땐 강세가 앞: IN-crease. 동사는 뒤: in-CREASE.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "16:10:7",
+          "set": 16,
+          "ex": 10,
+          "index": 7,
+          "word": "decrease",
+          "ko": "② 감소",
+          "exText": "There was a {{BLANK}} in traffic this week.",
+          "c": "a decrease in ~: ~의 감소. 명사는 앞에 강세.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "40:3:3",
+          "set": 40,
+          "ex": 3,
+          "index": 3,
+          "word": "surge",
+          "ko": "① 급증, 급등",
+          "exText": "There was a {{BLANK}} in ticket sales today.",
+          "c": "a surge in A(A의 급증). 전치사 in과 짝지어 쓴다.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "기존 증가 명사의 뒤에서 무엇이 변했는지 나타내는 관계를 모은다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "increase in과 increase of는 뒤 명사가 항목인지 양인지로 설명한다. 모든 명사에 두 전치사가 자유 교체된다고 설명하지 않는다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/prepositions-increase-in-or-increase-of",
+        "https://dictionary.cambridge.org/us/dictionary/english/decrease"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/prepositions-increase-in-or-increase-of",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/decrease",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-increase-of",
+      "order": 19,
+      "group": "quantity",
+      "headword": "of",
+      "senseKo": "증가·감소한 양이 ~인",
+      "construction": "an increase/decrease of + 양",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "7:2:11",
+          "set": 7,
+          "ex": 2,
+          "index": 11,
+          "word": "increase",
+          "ko": "② 증가",
+          "exText": "There was a big {{BLANK}} in sales.",
+          "c": "명사일 땐 강세가 앞: IN-crease. 동사는 뒤: in-CREASE.",
+          "relationship": "related-construction"
+        },
+        {
+          "id": "16:10:7",
+          "set": 16,
+          "ex": 10,
+          "index": 7,
+          "word": "decrease",
+          "ko": "② 감소",
+          "exText": "There was a {{BLANK}} in traffic this week.",
+          "c": "a decrease in ~: ~의 감소. 명사는 앞에 강세.",
+          "relationship": "related-construction"
+        }
+      ],
+      "selectionReason": "기존 increase in 항목에 아직 따로 배우지 않은 변화량 of를 붙인다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "명사 바로 뒤 변화량을 빈칸 문맥으로 쓰고 by가 자연스러운 다른 구문은 별도 검토한다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/prepositions-increase-in-or-increase-of",
+        "https://dictionary.cambridge.org/us/dictionary/english/decrease"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/prepositions-increase-in-or-increase-of",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/decrease",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-at-level",
+      "order": 20,
+      "group": "quantity",
+      "headword": "at",
+      "senseKo": "수준·수치가 ~인",
+      "construction": "remain/stand at + 수준",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "5:3:1",
+          "set": 5,
+          "ex": 3,
+          "index": 1,
+          "word": "at",
+          "ko": "① (한 지점) ~에서",
+          "exText": "Let's meet {{BLANK}} the bus stop.",
+          "c": "지도 위 한 점을 콕 찍는 at. 넓은 공간 '안'이면 in.",
+          "relationship": "target-other-sense"
+        },
+        {
+          "id": "5:3:2",
+          "set": 5,
+          "ex": 3,
+          "index": 2,
+          "word": "at",
+          "ko": "② (시각) ~에",
+          "exText": "The movie starts {{BLANK}} seven.",
+          "c": "시계가 가리키는 시각엔 at: at noon, at seven. 요일은 on.",
+          "relationship": "target-other-sense"
+        }
+      ],
+      "selectionReason": "시점·장소 at을 유지되는 수준으로 확장한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "to는 이동한 끝값, at은 그 수준이라는 관계를 짧게 구별한다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/at",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+        "https://dictionary.cambridge.org/dictionary/english/per"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/at",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/per",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-per-unit",
+      "order": 21,
+      "group": "quantity",
+      "headword": "per",
+      "senseKo": "단위 하나마다 ~당",
+      "construction": "양 + per + 단위",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "7:4:0",
+          "set": 7,
+          "ex": 4,
+          "index": 0,
+          "word": "per",
+          "ko": "① ~마다, ~당",
+          "exText": "The cost is ten dollars {{BLANK}} person.",
+          "c": "하나 기준으로 '~마다': per night 하룻밤에, per person 1인당.",
+          "relationship": "target"
+        }
+      ],
+      "selectionReason": "이미 배운 사람당 가격을 속도·횟수 같은 단위로 전이한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "a/each는 실제 빈칸 뒤 단수 단위와 전체 의미가 맞는 경우 허용한다. every와 숫자 구조도 문맥에서 검토한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "a",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "each",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/at",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+        "https://dictionary.cambridge.org/dictionary/english/per"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/at",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/per",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-by-unit",
+      "order": 22,
+      "group": "quantity",
+      "headword": "by",
+      "senseKo": "시간·무게 같은 단위를 기준으로",
+      "construction": "pay/sell by the + 단위",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "7:4:0",
+          "set": 7,
+          "ex": 4,
+          "index": 0,
+          "word": "per",
+          "ko": "① ~마다, ~당",
+          "exText": "The cost is ten dollars {{BLANK}} person.",
+          "c": "하나 기준으로 '~마다': per night 하룻밤에, per person 1인당.",
+          "relationship": "related-target"
+        },
+        {
+          "id": "24:1:4",
+          "set": 24,
+          "ex": 1,
+          "index": 4,
+          "word": "file",
+          "ko": "③ 서류를 정리해 보관하다",
+          "exText": "Please {{BLANK}} these letters by date.",
+          "c": "문서 등을 쉽게 찾도록 분류해 넣어 두다.",
+          "relationship": "example-only-related"
+        }
+      ],
+      "selectionReason": "per의 단위당 수량과 by the hour의 계산 단위 관계를 구별한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "by the hour 구조가 자연스러운 동사를 택한다. per와 by를 관사 포함 구조 없이 기계적으로 대비시키지 않는다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/at",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+        "https://dictionary.cambridge.org/dictionary/english/per"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/at",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/per",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-above-threshold",
+      "order": 23,
+      "group": "quantity",
+      "headword": "above",
+      "senseKo": "기준 수치보다 높게",
+      "construction": "above + 기준값",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "9:1:2",
+          "set": 9,
+          "ex": 1,
+          "index": 2,
+          "word": "above",
+          "ko": "① ~보다 위에, ~을 넘는",
+          "exText": "The temperature is {{BLANK}} zero.",
+          "c": "above는 위치·수준이 더 높다는 뜻. over와 겹치지만 바로 위라는 조건은 없다.",
+          "relationship": "target"
+        },
+        {
+          "id": "5:8:11",
+          "set": 5,
+          "ex": 8,
+          "index": 11,
+          "word": "over",
+          "ko": "② ~넘게, ~초과",
+          "exText": "I waited {{BLANK}} an hour.",
+          "c": "",
+          "relationship": "target-variant"
+        }
+      ],
+      "selectionReason": "기존 온도 예문에서 통계·평균 수준으로 확장한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "over가 같은 수량 초과를 뜻하면 허용한다. 위치의 위/접촉 같은 별개 조건을 끌어와 오답 처리하지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "over",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/over",
+        "https://dictionary.cambridge.org/dictionary/english/under",
+        "https://dictionary.cambridge.org/dictionary/english/above",
+        "https://dictionary.cambridge.org/dictionary/english/below"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/over",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/under",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/above",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/below",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-below-threshold",
+      "order": 24,
+      "group": "quantity",
+      "headword": "below",
+      "senseKo": "기준 수치보다 낮게",
+      "construction": "below + 기준값",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "11:1:2",
+          "set": 11,
+          "ex": 1,
+          "index": 2,
+          "word": "below",
+          "ko": "① ~보다 아래에",
+          "exText": "It was five degrees {{BLANK}} zero.",
+          "c": "above(위)↔below(아래). below zero=영하. 떨어져 있어도 아래쪽이면 below.",
+          "relationship": "target"
+        },
+        {
+          "id": "5:10:8",
+          "set": 5,
+          "ex": 10,
+          "index": 8,
+          "word": "under",
+          "ko": "② ~미만의",
+          "exText": "Children {{BLANK}} five ride free.",
+          "c": "숫자 앞 under = ~미만. over(~넘게)와 짝으로 외운다.",
+          "relationship": "target-variant"
+        }
+      ],
+      "selectionReason": "below를 온도 이외 기준 미달로 전이한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "under가 같은 수치 미달을 뜻하면 허용한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "under",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/over",
+        "https://dictionary.cambridge.org/dictionary/english/under",
+        "https://dictionary.cambridge.org/dictionary/english/above",
+        "https://dictionary.cambridge.org/dictionary/english/below"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/over",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/under",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/above",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/below",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-ratio-to",
+      "order": 25,
+      "group": "quantity",
+      "headword": "to",
+      "senseKo": "비율에서 ~대",
+      "construction": "A to B; ratio of A to B",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "27:5:9",
+          "set": 27,
+          "ex": 5,
+          "index": 9,
+          "word": "ratio",
+          "ko": "① 비율, 비",
+          "exText": "The {{BLANK}} of boys to girls is two to one.",
+          "c": "the ratio of A to B(A 대 B의 비율). 복수는 ratios.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "이미 ratio에서 읽은 두 수의 대응을 숫자 관계 학습에 연결한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "분수·퍼센트와 비의 방향을 혼동하지 않게 한 가지 비율만 쓴다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/from",
+        "https://dictionary.cambridge.org/dictionary/english/gain-by"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/from",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/gain-by",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-of-quality",
+      "order": 26,
+      "group": "noun-links",
+      "headword": "of",
+      "senseKo": "~한 성질·가치를 가진",
+      "construction": "be of + importance/use/value",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "46:7:6",
+          "set": 46,
+          "ex": 7,
+          "index": 6,
+          "word": "consequence",
+          "ko": "② 중요성",
+          "exText": "Their small mistake was of no {{BLANK}}.",
+          "c": "of no consequence = 중요하지 않은. 여기서는 '중요성'이라는 뜻.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "of no consequence에서 배운 속성 관계를 중요성·쓸모로 전이한다. 세 추상명사를 세 뜻으로 부풀리지 않는다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "of + 어떤 추상명사든 자유롭게 형용사가 된다는 규칙을 만들지 않는다. importance/use/value 가운데 한 결합을 카드로, 나머지는 짧은 연결 해설로 쓴다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/importance",
+        "https://dictionary.cambridge.org/dictionary/english/of-paramount-importance",
+        "https://dictionary.cambridge.org/dictionary/english/use",
+        "https://dictionary.cambridge.org/us/dictionary/english/value"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/importance",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/of-paramount-importance",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/use",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/value",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-lack-of",
+      "order": 27,
+      "group": "noun-links",
+      "headword": "lack of",
+      "senseKo": "~의 부족",
+      "construction": "a lack of + 부족한 것",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "9:8:0",
+          "set": 9,
+          "ex": 8,
+          "index": 0,
+          "word": "lack",
+          "ko": "① 부족",
+          "exText": "The plant died from a {{BLANK}} of water.",
+          "c": "a lack of+명사. 동사도 된다: He lacks confidence.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "9:8:1",
+          "set": 9,
+          "ex": 8,
+          "index": 1,
+          "word": "lack",
+          "ko": "② ~이 없다, 부족하다",
+          "exText": "The plan {{BLANK}}s clear goals.",
+          "c": "동사는 lack+명사, 명사는 a lack of+명사.",
+          "relationship": "target-related"
+        }
+      ],
+      "selectionReason": "동사 lack는 목적어를 바로 받고 명사는 of로 잇는다는 기존 구별을 회상한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "입력은 lack of로 쓰거나 명사 of 관계로 좁힐 수 있다. shortage of가 같은 뜻인 문장은 최종 대체답 검토 대상이다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/lack"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/lack",
+          "verification": "verify-during-card-authoring"
+        }
+      ]
+    },
+    {
+      "id": "prep-need-for",
+      "order": 28,
+      "group": "noun-links",
+      "headword": "need for",
+      "senseKo": "~의 필요성",
+      "construction": "a need for + 필요한 것",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "1:3:6",
+          "set": 1,
+          "ex": 3,
+          "index": 6,
+          "word": "need",
+          "ko": "② 필요, 필요성",
+          "exText": "There is no {{BLANK}} to hurry.",
+          "c": "no need to + 동사 = ~할 필요 없음. in need of = ~이 필요한.",
+          "relationship": "target-related"
+        }
+      ],
+      "selectionReason": "no need to/in need of에서 명사 need가 필요한 사물을 for로 잇는 표현으로 확장한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "need for, in need of, need to의 빈칸 범위를 섞지 않는다. 필요성과 요구를 맥락 없이 동일시하지 않는다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/need"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/need",
+          "verification": "verify-during-card-authoring"
+        }
+      ]
+    },
+    {
+      "id": "prep-effect-on",
+      "order": 29,
+      "group": "noun-links",
+      "headword": "effect on",
+      "senseKo": "~에 미치는 영향",
+      "construction": "an effect on + 영향받는 대상",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "6:3:13",
+          "set": 6,
+          "ex": 3,
+          "index": 13,
+          "word": "effect",
+          "ko": "① 효과, 영향",
+          "exText": "The medicine had no {{BLANK}} on me.",
+          "c": "동사 affect(영향을 주다)와 혼동 1위. side effect = 부작용.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "48:3:1",
+          "set": 48,
+          "ex": 3,
+          "index": 1,
+          "word": "effect",
+          "ko": "영향, 결과",
+          "exText": "The change had no {{BLANK}} on our health.",
+          "c": "have an effect on은 영향을 미치다. 여기서는 effect가 명사야.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "이미 배운 effect의 영향 방향을 명사-대상 관계로 다시 연결한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "impact도 같은 영향 뜻을 보존하는 문맥일 때 허용한다. effect of는 원인 쪽을 잇는 다른 관계다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "impact on",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/effect"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/effect",
+          "verification": "verify-during-card-authoring"
+        }
+      ]
+    },
+    {
+      "id": "prep-access-to",
+      "order": 30,
+      "group": "noun-links",
+      "headword": "access to",
+      "senseKo": "~에 접근하거나 이용할 수 있음",
+      "construction": "access to + 이용 대상",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "48:7:1",
+          "set": 48,
+          "ex": 7,
+          "index": 1,
+          "word": "access",
+          "ko": "접근권, 이용할 수 있음",
+          "exText": "Every student should have {{BLANK}} to clean water.",
+          "c": "have access to는 접근하거나 이용할 수 있다. 실제 도로만 뜻하지 않아.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "47:8:4",
+          "set": 47,
+          "ex": 8,
+          "index": 4,
+          "word": "accessible",
+          "ko": "접근하거나 이용할 수 있는",
+          "exText": "The information is {{BLANK}} to everyone.",
+          "c": "access(접근)+-ible로 연결해 기억해. accessible to로 이용 가능한 대상을 이어.",
+          "relationship": "cloze-construction-related"
+        }
+      ],
+      "selectionReason": "access to와 accessible to의 서로 다른 연결 대상을 짧게 잇는다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "access to는 이용 대상, accessible to는 이용 가능한 사람이라는 방향을 혼동하지 않는다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/access"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/access",
+          "verification": "verify-during-card-authoring"
+        }
+      ]
+    },
+    {
+      "id": "prep-solution-to",
+      "order": 31,
+      "group": "noun-links",
+      "headword": "solution to",
+      "senseKo": "~의 해결책",
+      "construction": "a solution to + 문제",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "0:13:0",
+          "set": 0,
+          "ex": 13,
+          "index": 0,
+          "word": "solution",
+          "ko": "① 해결책, 해답",
+          "exText": "We need a better {{BLANK}} to this problem.",
+          "c": "a solution to+문제. solve(해결하다)와 연결해서 기억.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "solution을 목적 문제와 함께 회상해 solve와 연결한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "answer to도 해법을 뜻하는 문장이라면 허용한다. solution for가 자연스러운 수혜자·용도 문장을 억지 배제하지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "answer to",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/solution"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/solution",
+          "verification": "verify-during-card-authoring"
+        }
+      ]
+    },
+    {
+      "id": "prep-demand-for",
+      "order": 32,
+      "group": "noun-links",
+      "headword": "demand for",
+      "senseKo": "~에 대한 수요",
+      "construction": "demand for + 상품·서비스",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "10:10:8",
+          "set": 10,
+          "ex": 10,
+          "index": 8,
+          "word": "demand",
+          "ko": "② 수요",
+          "exText": "The {{BLANK}} for the concert tickets was high.",
+          "c": "경제의 '공급과 수요'가 supply and demand.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "수요 명사 뒤에서 무엇을 원하는지 잇는 for를 연결한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "요구·수요 두 뜻을 한 카드로 합치지 않는다. 이 카드는 상품·서비스 수요만 다룬다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/demand"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/demand",
+          "verification": "verify-during-card-authoring"
+        }
+      ]
+    },
+    {
+      "id": "prep-contrast-between",
+      "order": 33,
+      "group": "noun-links",
+      "headword": "contrast between",
+      "senseKo": "둘 이상의 대상 사이의 대조",
+      "construction": "a contrast between + 개별 비교 대상",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "0:16:6",
+          "set": 0,
+          "ex": 16,
+          "index": 6,
+          "word": "contrast",
+          "ko": "① 대조, 뚜렷한 차이",
+          "exText": "Notice the {{BLANK}} between these two pictures.",
+          "c": "in/by contrast는 '그에 비해'. 서로 다른 점을 드러낼 때 써.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "46:8:6",
+          "set": 46,
+          "ex": 8,
+          "index": 6,
+          "word": "contrast",
+          "ko": "① 대조, 뚜렷한 차이",
+          "exText": "Notice the {{BLANK}} between these two pictures.",
+          "c": "in/by contrast는 '그에 비해'. 서로 다른 점을 드러낼 때 써.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "명사의 비교 관계를 뒤의 in contrast to로 연결한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "difference는 차이 일반, contrast는 뚜렷한 차이에 초점이지만 문맥상 같은 뜻이면 허용한다. between을 무조건 둘 전용이라고 설명하지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "difference between",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/contrast",
+        "https://dictionary.cambridge.org/grammar/british-grammar/contrasts",
+        "https://dictionary.cambridge.org/dictionary/english/between",
+        "https://dictionary.cambridge.org/da/grammatik/british-grammar/between-or-among"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/contrast",
+          "verification": "definition-retrieved-2026-09-19"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/contrasts",
+          "verification": "definition-retrieved-2026-09-19"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/between",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/da/grammatik/british-grammar/between-or-among",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-awareness-of",
+      "order": 34,
+      "group": "noun-links",
+      "headword": "awareness of",
+      "senseKo": "~에 대한 인식",
+      "construction": "awareness of + 인식 대상",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "47:6:0",
+          "set": 47,
+          "ex": 6,
+          "index": 0,
+          "word": "awareness",
+          "ko": "인식, 알고 있음",
+          "exText": "The campaign raised public {{BLANK}}.",
+          "c": "aware(아는)+-ness(상태 명사). be aware of와 awareness of를 연결해.",
+          "relationship": "explanation-only"
+        },
+        {
+          "id": "47:1:2",
+          "set": 47,
+          "ex": 1,
+          "index": 2,
+          "word": "unaware",
+          "ko": "알지 못하는",
+          "exText": "They were {{BLANK}} of the risk.",
+          "c": "un-(아닌)+aware(아는). be unaware of로 무엇을 모르는지 연결해.",
+          "relationship": "cloze-construction-related"
+        }
+      ],
+      "selectionReason": "접사 과정의 aware→awareness를 내용 대상 of와 함께 회상한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "knowledge of가 단순 정보 보유를 뜻하는 경우까지 자동 동의어로 넓히지 않는다. 최종 문장에 같은 인식 뜻이 있는지 확인한다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/awareness"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/awareness",
+          "verification": "verify-during-card-authoring"
+        }
+      ]
+    },
+    {
+      "id": "prep-responsibility-for",
+      "order": 35,
+      "group": "noun-links",
+      "headword": "responsibility for",
+      "senseKo": "~에 대한 책임",
+      "construction": "responsibility for + 맡은 일",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "10:7:3",
+          "set": 10,
+          "ex": 7,
+          "index": 3,
+          "word": "responsible",
+          "ko": "① 책임이 있는",
+          "exText": "You are {{BLANK}} for your own choices.",
+          "c": "be responsible for(~에 책임이 있다). 명사 responsibility.",
+          "relationship": "explanation-only"
+        },
+        {
+          "id": "39:2:12",
+          "set": 39,
+          "ex": 2,
+          "index": 12,
+          "word": "accountable",
+          "ko": "① 책임이 있는",
+          "exText": "Leaders should be {{BLANK}} for their choices.",
+          "c": "account(설명하다)+-able. 사람에게는 to, 일에는 for를 붙인다.",
+          "relationship": "related-construction"
+        }
+      ],
+      "selectionReason": "responsible for에서 명사 responsibility for로 어족을 연결한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "책임지는 일 for와 책임을 보고하는 상대 to를 하나의 해설 공식으로 합치지 않는다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/responsibility"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/responsibility",
+          "verification": "verify-during-card-authoring"
+        }
+      ]
+    },
+    {
+      "id": "prep-dependence-on",
+      "order": 36,
+      "group": "noun-links",
+      "headword": "dependence on",
+      "senseKo": "~에 대한 의존",
+      "construction": "dependence on + 의존 대상",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "47:7:1",
+          "set": 47,
+          "ex": 7,
+          "index": 1,
+          "word": "dependence",
+          "ko": "의존",
+          "exText": "The plan reduces {{BLANK}} on foreign energy.",
+          "c": "depend on(의존하다)→dependence on(의존). 명사가 되어도 on 관계가 이어져.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "11:5:11",
+          "set": 11,
+          "ex": 5,
+          "index": 11,
+          "word": "depend",
+          "ko": "② 의지하다, 의존하다",
+          "exText": "Children {{BLANK}} on their parents for food.",
+          "c": "depend on A for B: B를 얻기 위해 A에 의지하다.",
+          "relationship": "cloze-construction-related"
+        }
+      ],
+      "selectionReason": "접사 과정에서 배운 명사 결합을 이후 depend on의 두 뜻에 연결한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "의존과 결과가 달려 있다는 조건 의미를 구별한다. reliance on은 같은 의존 문맥이면 허용한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "reliance on",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/dependence"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/dependence",
+          "verification": "verify-during-card-authoring"
+        }
+      ]
+    },
+    {
+      "id": "prep-under-conditions",
+      "order": 37,
+      "group": "conditions",
+      "headword": "under",
+      "senseKo": "특정 조건·상황 아래에서",
+      "construction": "under + conditions/circumstances",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "24:9:10",
+          "set": 24,
+          "ex": 9,
+          "index": 10,
+          "word": "circumstance",
+          "ko": "① 상황, 사정",
+          "exText": "Under the {{BLANK}}s, she did really well.",
+          "c": "보통 복수. under the circumstances(그런 상황에서)가 대표 짝.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "상황이라는 기존 circumstance와 under의 추상 관계를 연결한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "in these circumstances도 자연스럽다. 조건과 같은 뜻이면 허용하고 under만 문법상 정답이라고 주장하지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "in",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/under",
+        "https://dictionary.cambridge.org/dictionary/english/under-investigation",
+        "https://dictionary.cambridge.org/dictionary/english/under-the-circumstances"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/under",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/under-investigation",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/under-the-circumstances",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-under-rule",
+      "order": 38,
+      "group": "conditions",
+      "headword": "under",
+      "senseKo": "누군가의 통치·지배 아래에서",
+      "construction": "under + ruler/authority",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "41:10:8",
+          "set": 41,
+          "ex": 10,
+          "index": 8,
+          "word": "dictator",
+          "ko": "① 독재자",
+          "exText": "The country lived under a {{BLANK}} for years.",
+          "c": "dictate(명령하다)+-or. 혼자 모든 것을 정하는 통치자다.",
+          "relationship": "example-only"
+        },
+        {
+          "id": "3:1:1",
+          "set": 3,
+          "ex": 1,
+          "index": 1,
+          "word": "control",
+          "ko": "② 통제, 지배",
+          "exText": "The pilot lost {{BLANK}} of the plane.",
+          "c": "lose control = 통제력을 잃다. under control = 통제되는 상태; out of control = 통제 불능.",
+          "relationship": "explanation-only-related"
+        }
+      ],
+      "selectionReason": "dictator 예문 속 지배 관계를 직접 회상한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "under control의 통제되는 상태와 통치자 아래의 관계를 ko에서 구별한다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/under",
+        "https://dictionary.cambridge.org/dictionary/english/under-investigation",
+        "https://dictionary.cambridge.org/dictionary/english/under-the-circumstances"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/under",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/under-investigation",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/under-the-circumstances",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-under-process",
+      "order": 39,
+      "group": "conditions",
+      "headword": "under review",
+      "senseKo": "검토 중인",
+      "construction": "under + review/investigation/construction",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "41:1:11",
+          "set": 41,
+          "ex": 1,
+          "index": 11,
+          "word": "scrutiny",
+          "ko": "① 면밀한 조사, 정밀 검토",
+          "exText": "Our school rules are under close {{BLANK}}.",
+          "c": "under scrutiny(조사받는 중), close scrutiny가 흔한 짝이다.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "26:5:7",
+          "set": 26,
+          "ex": 5,
+          "index": 7,
+          "word": "investigator",
+          "ko": "① 수사관, 조사관",
+          "exText": "The {{BLANK}}s looked for the cause of the fire.",
+          "c": "investigate(조사하다)+-or. -er가 아니라 -or로 끝난다.",
+          "relationship": "anchor"
+        },
+        {
+          "id": "48:6:5",
+          "set": 48,
+          "ex": 6,
+          "index": 5,
+          "word": "construct",
+          "ko": "건설하다, 만들다",
+          "exText": "They plan to {{BLANK}} a bridge across the river.",
+          "c": "construct는 부분을 조합해 만들다. 건물 외에 이론·문장을 구성할 때도 써.",
+          "relationship": "anchor"
+        }
+      ],
+      "selectionReason": "under scrutiny의 절차 진행을 익숙한 검토·건설 명사에 전이한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "under construction/under review 중 하나만 골라 한 뜻 카드로 만든다. in은 특정 명사에서 가능하므로 선택한 결합 자체로 검토한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "in review",
+          "status": "sentence-reviewed"
+        },
+        {
+          "answer": "undergoing review",
+          "status": "sentence-reviewed"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/under",
+        "https://dictionary.cambridge.org/dictionary/english/under-investigation",
+        "https://dictionary.cambridge.org/dictionary/english/under-the-circumstances"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/under",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/under-investigation",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/under-the-circumstances",
+          "verification": "inherited-from-prior-selection"
+        }
+      ],
+      "inputUnitRefinement": {
+        "id": "prep-under-process",
+        "from": "under",
+        "to": "under review",
+        "reason": "canonical under가 undergoing의 접두사라 긴 허용답 입력 중 조기 정답이 날 수 있다. 같은 진행 관계를 검토 중이라는 구 전체로 정밀화한다."
+      }
+    },
+    {
+      "id": "prep-under-pressure",
+      "order": 40,
+      "group": "conditions",
+      "headword": "under",
+      "senseKo": "압박·부담을 받고",
+      "construction": "under pressure/strain",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "8:3:8",
+          "set": 8,
+          "ex": 3,
+          "index": 8,
+          "word": "pressure",
+          "ko": "① 압력, 압박",
+          "exText": "I don't work well under {{BLANK}}.",
+          "c": "press(누르다)+ure: 누르는 힘. 시험 스트레스도 pressure.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "30:7:1",
+          "set": 30,
+          "ex": 7,
+          "index": 1,
+          "word": "strain",
+          "ko": "① (몸에 가는) 무리, 부담",
+          "exText": "Late nights put a {{BLANK}} on your heart.",
+          "c": "put a strain on ~(~에 부담을 주다). under strain도 흔하다.",
+          "relationship": "explanation-only"
+        }
+      ],
+      "selectionReason": "압력 명사의 힘을 받는 상태를 기존 strain과 이어 준다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "under stress와 in distress처럼 명사가 달라지면 결합도 달라진다. 모든 부정 감정에 under를 붙이는 규칙은 금지한다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/under",
+        "https://dictionary.cambridge.org/dictionary/english/under-investigation",
+        "https://dictionary.cambridge.org/dictionary/english/under-the-circumstances"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/under",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/under-investigation",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/under-the-circumstances",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-with-condition",
+      "order": 41,
+      "group": "conditions",
+      "headword": "with",
+      "senseKo": "~이 있는 상황이라면",
+      "construction": "with + 도움·자원·여건",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "5:2:10",
+          "set": 5,
+          "ex": 2,
+          "index": 10,
+          "word": "with",
+          "ko": "① ~와 함께",
+          "exText": "I watched the movie {{BLANK}} my sister.",
+          "c": "",
+          "relationship": "target-other-sense"
+        }
+      ],
+      "selectionReason": "동반 with에서 어떤 자원·여건이 있는 조건으로 확장한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "원인 with와 조건 with를 한 카드에 합치지 않는다. given이 같은 전제를 보존하는 문장만 후보로 둔다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "given",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/with",
+        "https://dictionary.cambridge.org/us/dictionary/learner-english/with"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/with",
+          "verification": "definition-retrieved-2026-09-19"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/learner-english/with",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-without-condition",
+      "order": 42,
+      "group": "conditions",
+      "headword": "without",
+      "senseKo": "~이 없다면",
+      "construction": "without + 필수 조건",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "5:10:0",
+          "set": 5,
+          "ex": 10,
+          "index": 0,
+          "word": "without",
+          "ko": "① ~없이",
+          "exText": "I went out {{BLANK}} my phone today.",
+          "c": "with(함께)의 반대말로 기억하면 쉽다 — '~없이'. (원래는 '바깥쪽에'라는 뜻)",
+          "relationship": "target-related"
+        }
+      ],
+      "selectionReason": "물건을 안 가진 상태에서 조건 결여로 전이한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "단순 외출 소지품을 반복하지 않는다. 조건 부재가 문장 결과와 연결되는 원래 예문을 쓴다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "in the absence of",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/pl/grammar/british-grammar/with",
+        "https://dictionary.cambridge.org/grammar/british-grammar/without"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/pl/grammar/british-grammar/with",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/without",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-absence-condition",
+      "order": 43,
+      "group": "conditions",
+      "headword": "in the absence of",
+      "senseKo": "~이 없는 상황에서",
+      "construction": "in the absence of + 자원·정보",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "5:10:0",
+          "set": 5,
+          "ex": 10,
+          "index": 0,
+          "word": "without",
+          "ko": "① ~없이",
+          "exText": "I went out {{BLANK}} my phone today.",
+          "c": "with(함께)의 반대말로 기억하면 쉽다 — '~없이'. (원래는 '바깥쪽에'라는 뜻)",
+          "relationship": "related-target"
+        }
+      ],
+      "selectionReason": "without과 같은 부재 관계를 논설문에서 만나는 명사 구로 연결한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "부재 때문에라는 원인 뜻까지 한꺼번에 가르치지 않는다. absence of가 결여하는 대상을 밝힌다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "without",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/in-the-absence-of"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/in-the-absence-of",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-in-state",
+      "order": 44,
+      "group": "conditions",
+      "headword": "in",
+      "senseKo": "~한 상태에",
+      "construction": "in + trouble/exile/detention/flux",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "39:9:2",
+          "set": 39,
+          "ex": 9,
+          "index": 2,
+          "word": "exile",
+          "ko": "① 망명, 추방",
+          "exText": "The writer lived in {{BLANK}} for twenty years.",
+          "c": "in exile(망명 중인)이 핵심 짝. 동사로 '추방하다'도 된다.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "38:6:1",
+          "set": 38,
+          "ex": 6,
+          "index": 1,
+          "word": "detention",
+          "ko": "② 구금, 억류",
+          "exText": "The men were kept in {{BLANK}} for two weeks.",
+          "c": "detain(붙잡아 두다)의 명사. in detention 구금된 상태로.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "42:8:3",
+          "set": 42,
+          "ex": 8,
+          "index": 3,
+          "word": "flux",
+          "ko": "① 끊임없는 변화",
+          "exText": "Our club plans are in {{BLANK}} right now.",
+          "c": "in flux: 계속 변하는 중인. fluid(액체)와 같이 '흐르다'에서.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "고급 명사 속에 흩어진 상태 in을 쉬운 명사로 전이한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "on/under도 상태 표현이므로 뜻만 보고 모두 in이 된다는 규칙은 금지한다. 자연스러운 고정 결합을 한 개 택한다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/in"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/in",
+          "verification": "verify-during-card-authoring"
+        }
+      ]
+    },
+    {
+      "id": "prep-on-activity",
+      "order": 45,
+      "group": "conditions",
+      "headword": "on",
+      "senseKo": "특정 활동·임무 중인",
+      "construction": "on duty/patrol",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "32:9:6",
+          "set": 32,
+          "ex": 9,
+          "index": 6,
+          "word": "patrol",
+          "ko": "② 순찰, 순찰대",
+          "exText": "Two officers went on {{BLANK}}.",
+          "c": "on patrol(순찰 중). 순찰하는 사람이나 부대도 patrol.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "on patrol에서 익힌 활동 상태를 임무·근무에 연결한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "on duty/on patrol의 결합을 가르친다. in trouble와 의미 범주만으로 모든 명사를 자동 분류하지 않는다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/on"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/on",
+          "verification": "verify-during-card-authoring"
+        }
+      ]
+    },
+    {
+      "id": "prep-by-criterion",
+      "order": 46,
+      "group": "grounds-source",
+      "headword": "by",
+      "senseKo": "분류·판단의 기준에 따라",
+      "construction": "sort/group/judge by + 기준",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "2:1:2",
+          "set": 2,
+          "ex": 1,
+          "index": 2,
+          "word": "group",
+          "ko": "② (무리로) 묶다",
+          "exText": "Please {{BLANK}} these books by size.",
+          "c": "",
+          "relationship": "example-only"
+        },
+        {
+          "id": "7:8:16",
+          "set": 7,
+          "ex": 8,
+          "index": 16,
+          "word": "sort",
+          "ko": "② 분류하다",
+          "exText": "{{BLANK}} these cards by color.",
+          "c": "종류별로 나누다. 컴퓨터의 '정렬'도 sort다.",
+          "relationship": "example-only"
+        },
+        {
+          "id": "15:6:8",
+          "set": 15,
+          "ex": 6,
+          "index": 8,
+          "word": "arrange",
+          "ko": "② 정리하다, 배열하다",
+          "exText": "{{BLANK}} the books by size.",
+          "c": "사물을 일정한 순서·위치로 놓다.",
+          "relationship": "example-only"
+        },
+        {
+          "id": "9:6:4",
+          "set": 9,
+          "ex": 6,
+          "index": 4,
+          "word": "judge",
+          "ko": "② 판단하다",
+          "exText": "Don't {{BLANK}} a book by its cover.",
+          "c": "'표지로 책을 판단하지 말라' — 영어 속담 1순위 동사.",
+          "relationship": "example-only"
+        },
+        {
+          "id": "24:1:4",
+          "set": 24,
+          "ex": 1,
+          "index": 4,
+          "word": "file",
+          "ko": "③ 서류를 정리해 보관하다",
+          "exText": "Please {{BLANK}} these letters by date.",
+          "c": "문서 등을 쉽게 찾도록 분류해 넣어 두다.",
+          "relationship": "example-only"
+        }
+      ],
+      "selectionReason": "여러 기본 동사에서 이미 읽은 by의 기준 의미를 직접 연습한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "by가 단위 계산만은 아님을 드러낸다. according to가 같은 기준이면 허용한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "according to",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/at",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+        "https://dictionary.cambridge.org/dictionary/english/per",
+        "https://dictionary.cambridge.org/dictionary/english/according-to"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/at",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/per",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/according-to",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-according-source",
+      "order": 47,
+      "group": "grounds-source",
+      "headword": "according to",
+      "senseKo": "자료·사람이 전하는 내용에 따르면",
+      "construction": "according to + 정보 출처",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "3:8:11",
+          "set": 3,
+          "ex": 8,
+          "index": 11,
+          "word": "according",
+          "ko": "① ~에 따르면 (according to)",
+          "exText": "{{BLANK}} to the news, it will rain.",
+          "c": "according to + 출처(사람·자료). [!] According to me(X) — 내 의견은 In my opinion.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "이미 배운 출처 according to를 새 규칙·방식 뜻과 대조하는 연결 복습이다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "on the basis of는 근거 사용, according to는 보고 출처일 수 있어 자동 동의어로 두지 않는다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/according-to"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/according-to",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-according-rule",
+      "order": 48,
+      "group": "grounds-source",
+      "headword": "according to",
+      "senseKo": "규칙·기준에 맞추어",
+      "construction": "act/arrange according to + rule/plan",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "3:8:11",
+          "set": 3,
+          "ex": 8,
+          "index": 11,
+          "word": "according",
+          "ko": "① ~에 따르면 (according to)",
+          "exText": "{{BLANK}} to the news, it will rain.",
+          "c": "according to + 출처(사람·자료). [!] According to me(X) — 내 의견은 In my opinion.",
+          "relationship": "target-other-sense"
+        },
+        {
+          "id": "21:2:5",
+          "set": 21,
+          "ex": 2,
+          "index": 5,
+          "word": "accordance",
+          "ko": "① 일치, 따름",
+          "exText": "Act in {{BLANK}} with the school rules.",
+          "c": "in accordance with(~에 따라) 통째 암기. accord=일치.",
+          "relationship": "related-construction"
+        }
+      ],
+      "selectionReason": "뉴스 출처로만 배운 표현에 지침·방법에 맞춘다는 별도 뜻을 더한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "규칙 준수 문맥이면 두 후보를 허용할 수 있다. 정보 출처 뜻과 합치지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "in accordance with",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "in line with",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/according-to"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/according-to",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-in-light-of",
+      "order": 49,
+      "group": "grounds-source",
+      "headword": "in light of",
+      "senseKo": "새 정보·사정을 고려하면",
+      "construction": "in light of + 새 근거·사정",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "3:5:9",
+          "set": 3,
+          "ex": 5,
+          "index": 9,
+          "word": "light",
+          "ko": "① 빛, 전등 (↔ dark)",
+          "exText": "Please turn on the {{BLANK}}.",
+          "c": "",
+          "relationship": "lexical-anchor"
+        }
+      ],
+      "selectionReason": "알고 있는 light를 사정을 판단에 반영하는 구로 확장한다. 단순 밝은 빛 뜻으로 기학습 처리하지 않는다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "영미 변이 in the light of를 허용한다. because of와 같은 인과를 표현하는 문맥인지 별도로 검토한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "in the light of",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "given",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "considering",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/in-the-light-of"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/in-the-light-of",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-in-response-to",
+      "order": 50,
+      "group": "grounds-source",
+      "headword": "in response to",
+      "senseKo": "~에 대한 반응으로",
+      "construction": "in response to + 자극·요구",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "0:12:11",
+          "set": 0,
+          "ex": 12,
+          "index": 11,
+          "word": "response",
+          "ko": "② 반응, 대응",
+          "exText": "Her {{BLANK}} to the news was a smile.",
+          "c": "말뿐 아니라 행동·몸의 변화로 나타나는 반응도 response.",
+          "relationship": "cloze-construction-related"
+        },
+        {
+          "id": "0:12:9",
+          "set": 0,
+          "ex": 12,
+          "index": 9,
+          "word": "respond",
+          "ko": "② 반응하다",
+          "exText": "Plants {{BLANK}} to changes in light.",
+          "c": "respond to+자극·상황: ~에 반응하다. 말로 답할 때만 쓰지는 않는다.",
+          "relationship": "cloze-construction-related"
+        }
+      ],
+      "selectionReason": "response to에서 사건이 행동을 촉발하는 전체 연결 표현으로 확장한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "답변과 반응 두 뜻을 한 카드에 합치지 않는다. 이번 뜻은 자극·요구에 대한 반응이며 because of는 반응 의도까지 보존하는지 검토한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "as a response to",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/in-response",
+        "https://dictionary.cambridge.org/dictionary/english/response"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/in-response",
+          "verification": "definition-retrieved-2026-09-19"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/response",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-on-basis-of",
+      "order": 51,
+      "group": "grounds-source",
+      "headword": "on the basis of",
+      "senseKo": "~을 근거로",
+      "construction": "on the basis of + 증거·정보",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "6:5:4",
+          "set": 6,
+          "ex": 5,
+          "index": 4,
+          "word": "base",
+          "ko": "② (be based on) ~에 근거하다",
+          "exText": "This movie is {{BLANK}}d on a true story.",
+          "c": "base A on B는 A의 바탕을 B에 두다. 수동형은 A is based on B.",
+          "relationship": "cloze-construction-related"
+        },
+        {
+          "id": "4:10:4",
+          "set": 4,
+          "ex": 10,
+          "index": 4,
+          "word": "ground",
+          "ko": "② 근거, 이유 (grounds)",
+          "exText": "On what {{BLANK}}s do you say that?",
+          "c": "",
+          "relationship": "cloze-construction-related"
+        },
+        {
+          "id": "46:4:1",
+          "set": 46,
+          "ex": 4,
+          "index": 1,
+          "word": "assumption",
+          "ko": "① 가정, 전제, 추정",
+          "exText": "Your argument rests on a false {{BLANK}}.",
+          "c": "확인 없이 참이라고 받아들인 생각. assume의 명사형이야.",
+          "relationship": "example-only-related"
+        }
+      ],
+      "selectionReason": "base/grounds/assumption에서 판단을 받치는 근거 구로 연결한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "based on은 분사구의 수식 대상이 맞을 때만 허용한다. 문장 첫머리에 두어 주어와 매달린 수식이 생기지 않게 쓴다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "based on",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/basis"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/basis",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-out-of-motive",
+      "order": 52,
+      "group": "grounds-source",
+      "headword": "out of",
+      "senseKo": "어떤 감정·동기에서",
+      "construction": "out of + curiosity/courtesy/fear",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "19:7:7",
+          "set": 19,
+          "ex": 7,
+          "index": 7,
+          "word": "spite",
+          "ko": "② 악의, 앙심",
+          "exText": "He broke the toy out of {{BLANK}}.",
+          "c": "out of spite: 남에게 상처 주려는 악의로.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "32:1:3",
+          "set": 32,
+          "ex": 1,
+          "index": 3,
+          "word": "courtesy",
+          "ko": "① 예의, 공손함",
+          "exText": "He held the door open out of {{BLANK}}.",
+          "c": "out of courtesy(예의상)가 흔한 짝. 형용사는 courteous.",
+          "relationship": "example-only"
+        },
+        {
+          "id": "45:3:6",
+          "set": 45,
+          "ex": 3,
+          "index": 6,
+          "word": "carelessness",
+          "ko": "① 부주의, 조심성 없음",
+          "exText": "One moment of {{BLANK}} broke my new phone.",
+          "c": "careless(부주의한)+-ness. 원인을 말할 때 out of carelessness.",
+          "relationship": "explanation-only"
+        }
+      ],
+      "selectionReason": "out of spite에서 이미 배운 동기를 호기심·배려로 확장한다. 물리적 밖으로와 자원 소진은 제외한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "from/because of도 같은 동기를 표현할 수 있다. 자연스러움을 검토해 허용한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "from",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "because of",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/out-of"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/out-of",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-from-perspective",
+      "order": 53,
+      "group": "grounds-source",
+      "headword": "from",
+      "senseKo": "특정 관점에서 보면",
+      "construction": "from + perspective/point of view",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "0:19:3",
+          "set": 0,
+          "ex": 19,
+          "index": 3,
+          "word": "perspective",
+          "ko": "① 관점, 시각",
+          "exText": "Try looking at the problem from her {{BLANK}}.",
+          "c": "from a perspective(~한 관점에서). viewpoint와 비슷하다.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "46:5:1",
+          "set": 46,
+          "ex": 5,
+          "index": 1,
+          "word": "perspective",
+          "ko": "① 관점, 시각",
+          "exText": "Try looking at the problem from her {{BLANK}}.",
+          "c": "from a perspective(~한 관점에서). viewpoint와 비슷하다.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "장소 출발만이 아닌 판단 위치의 from을 기존 perspective에 연결한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "in my opinion과 from my perspective가 겹치지만 단일 from 빈칸에는 전체 구를 허용답으로 넣지 않는다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/from?topic=analysing-and-evaluating"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/from?topic=analysing-and-evaluating",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-accordance",
+      "order": 54,
+      "group": "grounds-source",
+      "headword": "in accordance with",
+      "senseKo": "규칙·지침에 맞게",
+      "construction": "in accordance with + rule",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "21:2:5",
+          "set": 21,
+          "ex": 2,
+          "index": 5,
+          "word": "accordance",
+          "ko": "① 일치, 따름",
+          "exText": "Act in {{BLANK}} with the school rules.",
+          "c": "in accordance with(~에 따라) 통째 암기. accord=일치.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "accordance 빈칸으로 배운 구를 according to의 방식 뜻과 연결한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "규칙 일치 뜻만 다루고 사건 두 개의 우연한 동시 발생과 섞지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "according to",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "in line with",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/according-to"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/according-to",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-in-contrast-to",
+      "order": 55,
+      "group": "contrast-position",
+      "headword": "in contrast to",
+      "senseKo": "~와 대조적으로",
+      "construction": "in contrast to + 비교 대상",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "0:16:6",
+          "set": 0,
+          "ex": 16,
+          "index": 6,
+          "word": "contrast",
+          "ko": "① 대조, 뚜렷한 차이",
+          "exText": "Notice the {{BLANK}} between these two pictures.",
+          "c": "in/by contrast는 '그에 비해'. 서로 다른 점을 드러낼 때 써.",
+          "relationship": "explanation-only-related"
+        },
+        {
+          "id": "37:10:12",
+          "set": 37,
+          "ex": 10,
+          "index": 12,
+          "word": "stark",
+          "ko": "① (차이가) 극명한",
+          "exText": "There's a {{BLANK}} difference between the two.",
+          "c": "in stark contrast to ~와 극명히 대비되어. 차이를 강조한다.",
+          "relationship": "explanation-only"
+        },
+        {
+          "id": "46:8:6",
+          "set": 46,
+          "ex": 8,
+          "index": 6,
+          "word": "contrast",
+          "ko": "① 대조, 뚜렷한 차이",
+          "exText": "Notice the {{BLANK}} between these two pictures.",
+          "c": "in/by contrast는 '그에 비해'. 서로 다른 점을 드러낼 때 써.",
+          "relationship": "explanation-only-related"
+        }
+      ],
+      "selectionReason": "contrast 명사와 동사를 이미 배운 바탕에서 논지 연결 구로 확장한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "in contrast with는 동등 변이. contrary to는 앞 예상·주장을 뒤집을 때만 해당하며 일반 비교의 자동 동의어가 아니다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "in contrast with",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "unlike",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/contrast",
+        "https://dictionary.cambridge.org/grammar/british-grammar/contrasts"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/contrast",
+          "verification": "definition-retrieved-2026-09-19"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/contrasts",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-despite",
+      "order": 56,
+      "group": "contrast-position",
+      "headword": "despite",
+      "senseKo": "~에도 불구하고",
+      "construction": "despite + 장애·불리한 사정",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "23:4:7",
+          "set": 23,
+          "ex": 4,
+          "index": 7,
+          "word": "despite",
+          "ko": "① ~에도 불구하고",
+          "exText": "{{BLANK}} the rain, we walked to school.",
+          "c": "전치사라 뒤에 명사·동명사만 온다. despite of는 틀린 꼴.",
+          "relationship": "target"
+        },
+        {
+          "id": "19:7:6",
+          "set": 19,
+          "ex": 7,
+          "index": 6,
+          "word": "spite",
+          "ko": "① (in spite of) ~에도 불구하고",
+          "exText": "We played soccer in {{BLANK}} of the rain.",
+          "c": "in spite of+명사=~에도 불구하고. 뒤에 절은 못 온다. despite는 of 없이.",
+          "relationship": "cloze-construction-variant"
+        }
+      ],
+      "selectionReason": "양보를 regardless의 조건 무관성과 대조한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "although는 뒤에 절이 와서 같은 명사 빈칸에서는 자동 대체 불가하다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "in spite of",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/in-spite-of-and-despite?q=In+spite+of+and+despite",
+        "https://dictionary.cambridge.org/dictionary/english/because-of"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/in-spite-of-and-despite?q=In+spite+of+and+despite",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/because-of",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-regardless",
+      "order": 57,
+      "group": "contrast-position",
+      "headword": "regardless of",
+      "senseKo": "~에 관계없이",
+      "construction": "regardless of + 결정에 영향 없는 조건",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "25:10:7",
+          "set": 25,
+          "ex": 10,
+          "index": 7,
+          "word": "regardless",
+          "ko": "① 상관없이, 개의치 않고",
+          "exText": "We will play {{BLANK}} of the rain.",
+          "c": "regard(신경 쓰다)+-less. regardless of ~와 상관없이.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "기존 regardless를 양보와 다른 무관 조건으로 연결한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "despite가 문법상 들어가도 제시한 뜻이 조건 무관을 요구하는지 확인한다. 두 표현을 언제나 배타적이라고 말하지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "irrespective of",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/in-spite-of-and-despite?q=In+spite+of+and+despite",
+        "https://dictionary.cambridge.org/dictionary/english/because-of"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/in-spite-of-and-despite?q=In+spite+of+and+despite",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/because-of",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-opposed-to",
+      "order": 58,
+      "group": "contrast-position",
+      "headword": "as opposed to",
+      "senseKo": "~와 달리, ~가 아니라",
+      "construction": "A as opposed to B",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "31:5:10",
+          "set": 31,
+          "ex": 5,
+          "index": 10,
+          "word": "opposed",
+          "ko": "② (as ~ to) ~와는 달리",
+          "exText": "I take the bus, as {{BLANK}} to walking.",
+          "c": "as opposed to는 통째로 외운다. 뒤에는 명사나 -ing.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "기존 opposed의 대비 구를 비교 논지에 연결한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "선택·대비의 문장에서 rather than이 같으면 허용한다. 부정확한 not…but 일반 공식을 만들지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "rather than",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/against",
+        "https://dictionary.cambridge.org/dictionary/english/background",
+        "https://dictionary.cambridge.org/grammar/british-grammar/against"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/against",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/background",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/against",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-favor",
+      "order": 59,
+      "group": "contrast-position",
+      "headword": "in favor of",
+      "senseKo": "~에 찬성하여",
+      "construction": "be/vote in favor of + 안건",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "15:3:4",
+          "set": 15,
+          "ex": 3,
+          "index": 4,
+          "word": "favor",
+          "ko": "② 찬성, 지지",
+          "exText": "Are you in {{BLANK}} of the new plan?",
+          "c": "in favor of ~: ~에 찬성하여. 반대는 against.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "이미 배운 favor의 지지 구를 against와 연결한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "영미 철자 favor/favour 모두 허용한다. for가 같은 지지 뜻이면 허용한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "in favour of",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "for",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/for",
+        "https://dictionary.cambridge.org/dictionary/english/against"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/for",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/against",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-against-opposition",
+      "order": 60,
+      "group": "contrast-position",
+      "headword": "against",
+      "senseKo": "~에 반대하여",
+      "construction": "vote/argue against + 안건",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "1:7:11",
+          "set": 1,
+          "ex": 7,
+          "index": 11,
+          "word": "against",
+          "ko": "① ~에 반대하여 (↔ for)",
+          "exText": "Many people voted {{BLANK}} the plan.",
+          "c": "맞서거나 거슬러. 찬성은 for. vote against(반대표를 던지다) / vote for(찬성하다).",
+          "relationship": "target"
+        },
+        {
+          "id": "46:2:10",
+          "set": 46,
+          "ex": 2,
+          "index": 10,
+          "word": "case",
+          "ko": "④ 주장, 논거",
+          "exText": "She made a strong {{BLANK}} for change.",
+          "c": "make a case for/against ~: ~에 찬성/반대하는 논거를 제시하다.",
+          "relationship": "explanation-only"
+        }
+      ],
+      "selectionReason": "기존 반대 뜻을 논거 표현과 다시 연결한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "against의 위험 방어와 배경 뜻은 별도 카드로 분리한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "in opposition to",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/for",
+        "https://dictionary.cambridge.org/dictionary/english/against"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/for",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/against",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-against-background",
+      "order": 61,
+      "group": "contrast-position",
+      "headword": "against",
+      "senseKo": "~을 배경으로",
+      "construction": "against + background/backdrop",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "42:6:9",
+          "set": 42,
+          "ex": 6,
+          "index": 9,
+          "word": "backdrop",
+          "ko": "① 배경, 배경막",
+          "exText": "The stage {{BLANK}} showed a night sky.",
+          "c": "무대 뒤에 거는 그림 천에서. against the backdrop of ~.",
+          "relationship": "explanation-only"
+        }
+      ],
+      "selectionReason": "backdrop 해설에서만 만난 배경 관계를 직접 학습한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "그림의 색 대비 혹은 사회적 배경 중 하나만 고른다. 반대라고 번역하게 만드는 문장은 피한다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/against",
+        "https://dictionary.cambridge.org/dictionary/english/background",
+        "https://dictionary.cambridge.org/grammar/british-grammar/against"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/against",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/background",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/against",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-against-protection",
+      "order": 62,
+      "group": "contrast-position",
+      "headword": "against",
+      "senseKo": "위험에 대비하여, ~을 막도록",
+      "construction": "protect/guard/buffer against + 위험",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "40:6:8",
+          "set": 40,
+          "ex": 6,
+          "index": 8,
+          "word": "buffer",
+          "ko": "① 완충 장치, 완충물",
+          "exText": "Saving money is a {{BLANK}} against hard times.",
+          "c": "a buffer against A(A를 막아 주는 완충). 충격을 줄이는 것이다.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "43:2:2",
+          "set": 43,
+          "ex": 2,
+          "index": 2,
+          "word": "hepatitis",
+          "ko": "① 간염",
+          "exText": "He got a shot to guard against {{BLANK}}.",
+          "c": "hepat-(간)+-itis(염증). [헤퍼타이티스] 강세는 ti에.",
+          "relationship": "example-only"
+        },
+        {
+          "id": "7:5:11",
+          "set": 7,
+          "ex": 5,
+          "index": 11,
+          "word": "protect",
+          "ko": "① 보호하다, 지키다",
+          "exText": "This coat {{BLANK}}s you from the cold.",
+          "c": "protect A from B: B로부터 A를 지키다. from이 단짝.",
+          "relationship": "related-construction"
+        }
+      ],
+      "selectionReason": "buffer/guard의 방어 관계를 찬반 against와 구별한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "protect A from/against가 둘 다 가능한 문장이면 둘 다 허용한다. 무조건 against만 정답인 듯 설명하지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "from",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/against",
+        "https://dictionary.cambridge.org/dictionary/english/background",
+        "https://dictionary.cambridge.org/grammar/british-grammar/against"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/against",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/background",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/against",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-by-agent",
+      "order": 63,
+      "group": "means-exchange",
+      "headword": "by",
+      "senseKo": "행동을 한 주체에 의해",
+      "construction": "수동태 + by + 사람·자연력",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "5:3:14",
+          "set": 5,
+          "ex": 3,
+          "index": 14,
+          "word": "by",
+          "ko": "④ (수동태) ~에 의해",
+          "exText": "The window was broken {{BLANK}} the strong wind.",
+          "c": "수동태의 행위자 표시: be+과거분사+by+행위자. 수능 어법 단골.",
+          "relationship": "target"
+        }
+      ],
+      "selectionReason": "기존 strong wind 같은 비인간 행위자를 유지하여 by=사람 공식을 막는다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "with 뒤 도구가 올 때와 구분하되 자연력도 by의 주체가 될 수 있다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+        "https://dictionary.cambridge.org/pl/grammar/british-grammar/with"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/pl/grammar/british-grammar/with",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-with-instrument",
+      "order": 64,
+      "group": "means-exchange",
+      "headword": "with",
+      "senseKo": "특정 도구·재료를 써서",
+      "construction": "with + 구체 도구·재료",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "5:2:11",
+          "set": 5,
+          "ex": 2,
+          "index": 11,
+          "word": "with",
+          "ko": "② ~을 가지고, ~로",
+          "exText": "Open the door {{BLANK}} this key.",
+          "c": "손에 든 도구·수단도 with: with a pen(펜으로), with this key.",
+          "relationship": "target"
+        },
+        {
+          "id": "44:8:4",
+          "set": 44,
+          "ex": 8,
+          "index": 4,
+          "word": "dilute",
+          "ko": "① 희석하다, 묽게 하다",
+          "exText": "You should {{BLANK}} the juice with water.",
+          "c": "dilute A with B(A를 B로 묽게 하다). 힘을 약화시킨다는 뜻도.",
+          "relationship": "cloze-construction-related"
+        }
+      ],
+      "selectionReason": "열쇠 with에서 기존 dilute의 재료 결합으로 전이한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "by와 with를 각각 사람/사물로 가르치지 않는다. using은 뒤 명사와 구조가 같으면 허용한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "using",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+        "https://dictionary.cambridge.org/pl/grammar/british-grammar/with",
+        "https://dictionary.cambridge.org/dictionary/english/with",
+        "https://dictionary.cambridge.org/us/dictionary/learner-english/with"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/pl/grammar/british-grammar/with",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/with",
+          "verification": "definition-retrieved-2026-09-19"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/learner-english/with",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-through-means",
+      "order": 65,
+      "group": "means-exchange",
+      "headword": "through",
+      "senseKo": "어떤 경로·과정을 통하여",
+      "construction": "through + 과정·협력·매개",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "34:1:12",
+          "set": 34,
+          "ex": 1,
+          "index": 12,
+          "word": "speculation",
+          "ko": "② 투기",
+          "exText": "He lost everything through wild {{BLANK}} in land.",
+          "c": "값이 오를 것에 걸고 사고파는 일. 경제 지문에 자주 나온다.",
+          "relationship": "example-only"
+        },
+        {
+          "id": "25:3:8",
+          "set": 25,
+          "ex": 3,
+          "index": 8,
+          "word": "channel",
+          "ko": "② 경로, 수단",
+          "exText": "Send your complaint through the proper {{BLANK}}s.",
+          "c": "정보나 물건이 지나는 길. 지리에서는 '해협'을 뜻한다.",
+          "relationship": "example-only"
+        }
+      ],
+      "selectionReason": "물리 통과가 아닌 성취를 가능하게 한 과정·경로를 읽는다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "by/via가 실제로 같은 매개를 뜻하면 허용한다. 단순 지나가는 공간과 결과 원인을 섞지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "by",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "via",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+        "https://dictionary.cambridge.org/us/dictionary/english/through"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/through",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-with-manner",
+      "order": 66,
+      "group": "means-exchange",
+      "headword": "with",
+      "senseKo": "어떤 태도·방식으로",
+      "construction": "with + care/confidence/dignity",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "40:2:0",
+          "set": 40,
+          "ex": 2,
+          "index": 0,
+          "word": "certainty",
+          "ko": "① 확실함, 확실성",
+          "exText": "Nobody can say with {{BLANK}} who will win.",
+          "c": "certain(확실한)+-ty. with certainty(확실하게)로 자주 쓴다.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "39:3:4",
+          "set": 39,
+          "ex": 3,
+          "index": 4,
+          "word": "discretion",
+          "ko": "② 신중함, 조심성",
+          "exText": "Please handle this news with {{BLANK}}.",
+          "c": "with discretion(신중히)으로 쓴다. 형용사 discreet(입이 무거운)와 짝.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "32:9:10",
+          "set": 32,
+          "ex": 9,
+          "index": 10,
+          "word": "dignity",
+          "ko": "① 존엄, 품위",
+          "exText": "Every person has the right to live with {{BLANK}}.",
+          "c": "with dignity(품위 있게). 사람으로서 지닌 존엄.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "익숙한 추상명사를 태도 관계로 모아 with=함께에만 묶이지 않게 한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "in confidence처럼 명사에 따라 다른 구가 다른 뜻일 수 있다. 선택 문장의 결합을 검토한다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/with",
+        "https://dictionary.cambridge.org/us/dictionary/learner-english/with"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/with",
+          "verification": "definition-retrieved-2026-09-19"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/learner-english/with",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-for-beneficiary",
+      "order": 67,
+      "group": "means-exchange",
+      "headword": "for",
+      "senseKo": "누군가를 위해",
+      "construction": "make/buy + 물건 + for + 수혜자",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "5:2:3",
+          "set": 5,
+          "ex": 2,
+          "index": 3,
+          "word": "for",
+          "ko": "① ~을 위해, ~에게 (주려고)",
+          "exText": "This present is {{BLANK}} you.",
+          "c": "",
+          "relationship": "target"
+        }
+      ],
+      "selectionReason": "기존 수혜 for를 전달 대상 to와 연결하는 짧은 복습이다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "buy A for B와 give A to B를 다른 동사의 단짝 암기만으로 처리하지 말고 받을 사람/이익 대상 관계를 설명한다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/for",
+        "https://dictionary.cambridge.org/dictionary/english/for",
+        "https://dictionary.cambridge.org/dictionary/learner-english/to"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/for",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/for",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/learner-english/to",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-to-recipient",
+      "order": 68,
+      "group": "means-exchange",
+      "headword": "to",
+      "senseKo": "누군가에게 전달하여",
+      "construction": "give/send + 물건 + to + 수령자",
+      "priority": "bridge",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "5:1:12",
+          "set": 5,
+          "ex": 1,
+          "index": 12,
+          "word": "to",
+          "ko": "① (방향·도착) ~로, ~에게",
+          "exText": "She goes {{BLANK}} school by bus.",
+          "c": "이동의 도착점 앞에 쓴다: go to school. 문장 속에서는 보통 /tə/로 약하게 발음한다.",
+          "relationship": "target-related"
+        },
+        {
+          "id": "0:12:10",
+          "set": 0,
+          "ex": 12,
+          "index": 10,
+          "word": "response",
+          "ko": "① 응답, 답변",
+          "exText": "I am waiting for a {{BLANK}} to my letter.",
+          "c": "a response to+질문·연락. 동사는 respond.",
+          "relationship": "related-construction"
+        }
+      ],
+      "selectionReason": "이동 도착점 to를 전달받는 사람 관계로 확장한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "send A for B는 심부름·수혜 등 다른 뜻이 가능하다. 제시한 전달 뜻을 보존하는지 기준으로 검토한다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/for",
+        "https://dictionary.cambridge.org/dictionary/english/for",
+        "https://dictionary.cambridge.org/dictionary/learner-english/to"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/for",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/for",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/learner-english/to",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-behalf",
+      "order": 69,
+      "group": "means-exchange",
+      "headword": "on behalf of",
+      "senseKo": "~을 대신하거나 대표하여",
+      "construction": "on behalf of + 대표되는 사람·집단",
+      "priority": "bridge",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "32:8:11",
+          "set": 32,
+          "ex": 8,
+          "index": 11,
+          "word": "behalf",
+          "ko": "① ~을 대신하여, ~을 대표하여(on behalf of)",
+          "exText": "She spoke on {{BLANK}} of the whole class.",
+          "c": "on behalf of ~ 또는 on one's behalf 꼴로 쓴다. '~을 대표하여'.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "behalf로 이미 배운 대표 관계를 수혜 for와 이어 준다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "대표 행위 문맥에서 for도 가능할 수 있다. 이 카드의 한국어 뜻은 단순 이익이 아니라 대표에 한정한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "for",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/for",
+        "https://dictionary.cambridge.org/dictionary/english/for",
+        "https://dictionary.cambridge.org/dictionary/learner-english/to"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/for",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/for",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/learner-english/to",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-expense",
+      "order": 70,
+      "group": "means-exchange",
+      "headword": "at the expense of",
+      "senseKo": "~을 희생하거나 해치면서",
+      "construction": "이익·성과 + at the expense of + 잃는 가치",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "12:4:0",
+          "set": 12,
+          "ex": 4,
+          "index": 0,
+          "word": "expensive",
+          "ko": "① 비싼",
+          "exText": "That camera looks too {{BLANK}} for me.",
+          "c": "expensive ↔ cheap. '가격이 비싸다'는 The price is high.",
+          "relationship": "lexical-family-anchor"
+        }
+      ],
+      "selectionReason": "expensive 어족을 발판으로 비용의 문자 뜻을 넘어 한 가치의 희생을 읽는다. Fable expense 독립 표제어는 아직 없다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "남의 비용 부담·남을 놀림이라는 별도 뜻은 이번 카드에 섞지 않는다. without는 손실 방향을 보존하지 않으면 동의어가 아니다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/at-the-expense-of"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/at-the-expense-of",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-exchange-for",
+      "order": 71,
+      "group": "means-exchange",
+      "headword": "in exchange for",
+      "senseKo": "~의 대가로, ~와 맞바꾸어",
+      "construction": "in exchange for + 받거나 제공하는 대가",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "11:8:5",
+          "set": 11,
+          "ex": 8,
+          "index": 5,
+          "word": "exchange",
+          "ko": "① 교환하다",
+          "exText": "Can I {{BLANK}} this shirt for a bigger one?",
+          "c": "ex(밖)+change(바꾸다): 맞바꾸다. exchange A for B.",
+          "relationship": "cloze-construction-related"
+        },
+        {
+          "id": "8:8:3",
+          "set": 8,
+          "ex": 8,
+          "index": 3,
+          "word": "trade",
+          "ko": "② 교환하다, 거래하다",
+          "exText": "I'll {{BLANK}} my snack for your juice.",
+          "c": "trade A for B: A를 주고 B를 받다.",
+          "relationship": "cloze-construction-related"
+        }
+      ],
+      "selectionReason": "exchange/trade A for B에서 상호 교환을 잇는 전체 구로 확장한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "원인 because of나 가격 at과 혼동하지 않는다. in return for/for는 실제 교환을 보존할 때 허용한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "in return for",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "for",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/in-exchange-for"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/in-exchange-for",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-for-replacement",
+      "order": 72,
+      "group": "means-exchange",
+      "headword": "for",
+      "senseKo": "다른 것을 대신하는 대상 ~대신에",
+      "construction": "substitute A for B; substitution of A for B",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "43:10:4",
+          "set": 43,
+          "ex": 10,
+          "index": 4,
+          "word": "substitution",
+          "ko": "① 대체, 대신 씀",
+          "exText": "The {{BLANK}} of honey for sugar worked well.",
+          "c": "substitute(대신하다)+-ion. substitution of A for B.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "0:12:4",
+          "set": 0,
+          "ex": 12,
+          "index": 4,
+          "word": "replace",
+          "ko": "② 교체하다, 바꾸다",
+          "exText": "We must {{BLANK}} the broken window.",
+          "c": "replace A with B: A를 빼고 B로 바꾸다.",
+          "relationship": "related-explanation"
+        }
+      ],
+      "selectionReason": "기존 substitution의 for 뒤에는 교체될 기존 것이 온다. replace A with B와 반대인 명사 방향을 명확히 잇는다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "for 앞 A는 새로 쓰는 것, 뒤 B는 대신되는 것이다. trade A for B에서는 앞이 내주는 물건이므로 두 동사의 방향을 같은 공식으로 합치지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "in place of",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "instead of",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/for",
+        "https://dictionary.cambridge.org/dictionary/english/replace"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/for",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/replace",
+          "verification": "verify-during-card-authoring"
+        }
+      ]
+    },
+    {
+      "id": "prep-with-replacement",
+      "order": 73,
+      "group": "means-exchange",
+      "headword": "with",
+      "senseKo": "기존 것을 바꿀 새 대상 ~로",
+      "construction": "replace A with B",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "0:12:4",
+          "set": 0,
+          "ex": 12,
+          "index": 4,
+          "word": "replace",
+          "ko": "② 교체하다, 바꾸다",
+          "exText": "We must {{BLANK}} the broken window.",
+          "c": "replace A with B: A를 빼고 B로 바꾸다.",
+          "relationship": "explanation-only"
+        },
+        {
+          "id": "43:10:4",
+          "set": 43,
+          "ex": 10,
+          "index": 4,
+          "word": "substitution",
+          "ko": "① 대체, 대신 씀",
+          "exText": "The {{BLANK}} of honey for sugar worked well.",
+          "c": "substitute(대신하다)+-ion. substitution of A for B.",
+          "relationship": "related-construction"
+        }
+      ],
+      "selectionReason": "replace의 해설만 있던 새것 with를 substitute A for B의 방향과 연결한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "replace A by B도 가능하므로 실제 문장에 같은 교체 뜻이면 허용한다. substitute A for B에서는 A가 새것이므로 방향을 뒤집지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "by",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/replace",
+        "https://dictionary.cambridge.org/dictionary/english/with",
+        "https://dictionary.cambridge.org/us/dictionary/learner-english/with"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/replace",
+          "verification": "verify-during-card-authoring"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/with",
+          "verification": "definition-retrieved-2026-09-19"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/learner-english/with",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-addition",
+      "order": 74,
+      "group": "addition-topic",
+      "headword": "in addition to",
+      "senseKo": "~에 더하여",
+      "construction": "in addition to + 추가와 함께 유지되는 대상",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "13:9:5",
+          "set": 13,
+          "ex": 9,
+          "index": 5,
+          "word": "addition",
+          "ko": "① 추가, 추가된 것",
+          "exText": "The baby is a new {{BLANK}} to our family.",
+          "c": "in addition = 게다가(= also).",
+          "relationship": "explanation-only-related"
+        }
+      ],
+      "selectionReason": "addition의 추가와 in addition 해설에서 명사구를 잇는 전체 표현으로 확장한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "뒤에 명사/-ing가 오는 구로 쓴다. besides의 별도 담화 부사 뜻은 섞지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "besides",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "as well as",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "along with",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/in-addition-to"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/in-addition-to",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-except-for",
+      "order": 75,
+      "group": "addition-topic",
+      "headword": "except for",
+      "senseKo": "~을 제외하면",
+      "construction": "일반 평가 + except for + 예외",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "12:3:2",
+          "set": 12,
+          "ex": 3,
+          "index": 2,
+          "word": "except",
+          "ko": "① ~을 제외하고",
+          "exText": "Everyone came {{BLANK}} Minsu.",
+          "c": "except(빼고)와 expect(기대하다)는 철자 형제, 뜻은 남남.",
+          "relationship": "target-related"
+        }
+      ],
+      "selectionReason": "except 뒤 개별 사람에서 일반 평가의 예외 구로 확장한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "문장 위치·전체 구문에 따라 except만 가능한지 달라진다. 예외를 나타내는 후보를 문법상 자연스러우면 허용한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "apart from",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "except",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/apart",
+        "https://dictionary.cambridge.org/grammar/british-grammar/except-or-except-for",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/word-choice-besides-or-also"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/apart",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/except-or-except-for",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/word-choice-besides-or-also",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-apart-except",
+      "order": 76,
+      "group": "addition-topic",
+      "headword": "apart from",
+      "senseKo": "~을 제외하고",
+      "construction": "apart from + 예외",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "13:5:8",
+          "set": 13,
+          "ex": 5,
+          "index": 8,
+          "word": "apart",
+          "ko": "① 떨어져, 따로",
+          "exText": "The two houses stand far {{BLANK}}.",
+          "c": "fall apart 무너지다, apart from ~을 빼고.",
+          "relationship": "explanation-only"
+        }
+      ],
+      "selectionReason": "apart의 해설에만 있던 제외 관계를 직접 회상한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "apart from의 추가 뜻과 문맥이 구별되어야 한다. 부정·전체 범위 등 실제 제외를 밝히는 문장을 택한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "except for",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "except",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "aside from",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/apart",
+        "https://dictionary.cambridge.org/grammar/british-grammar/except-or-except-for",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/word-choice-besides-or-also"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/apart",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/except-or-except-for",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/word-choice-besides-or-also",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-apart-addition",
+      "order": 77,
+      "group": "addition-topic",
+      "headword": "apart from",
+      "senseKo": "~에 더하여",
+      "construction": "apart from + 이미 해당하는 대상",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "13:5:8",
+          "set": 13,
+          "ex": 5,
+          "index": 8,
+          "word": "apart",
+          "ko": "① 떨어져, 따로",
+          "exText": "The two houses stand far {{BLANK}}.",
+          "c": "fall apart 무너지다, apart from ~을 빼고.",
+          "relationship": "target-other-sense"
+        },
+        {
+          "id": "13:9:5",
+          "set": 13,
+          "ex": 9,
+          "index": 5,
+          "word": "addition",
+          "ko": "① 추가, 추가된 것",
+          "exText": "The baby is a new {{BLANK}} to our family.",
+          "c": "in addition = 게다가(= also).",
+          "relationship": "related-anchor"
+        }
+      ],
+      "selectionReason": "같은 apart from이 추가도 뜻한다는 누락된 관계를 별도로 가르친다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "제외와 추가가 둘 다 읽히는 짧은 문장은 피한다. also 같은 의미 단서로 이미 포함되는 대상을 밝히되 단순 정답 암호를 만들지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "besides",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "in addition to",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "aside from",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/apart",
+        "https://dictionary.cambridge.org/grammar/british-grammar/except-or-except-for",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/word-choice-besides-or-also"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/apart",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/except-or-except-for",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/word-choice-besides-or-also",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-instead-of",
+      "order": 78,
+      "group": "addition-topic",
+      "headword": "instead of",
+      "senseKo": "~대신에",
+      "construction": "instead of + 선택하지 않은 대상·행동",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "4:2:5",
+          "set": 4,
+          "ex": 2,
+          "index": 5,
+          "word": "instead",
+          "ko": "① 대신에",
+          "exText": "There's no tea, so I'll have coffee {{BLANK}}.",
+          "c": "instead(부사)는 홀로, instead of 뒤엔 명사·-ing — go instead / instead of going.",
+          "relationship": "explanation-only"
+        },
+        {
+          "id": "12:10:4",
+          "set": 12,
+          "ex": 10,
+          "index": 4,
+          "word": "fruit",
+          "ko": "① 과일",
+          "exText": "Eat fresh {{BLANK}} instead of chocolate.",
+          "c": "과일을 통틀어 말하면 보통 fruit. 한 개는 a piece of fruit, 여러 종류는 fruits도 쓴다.",
+          "relationship": "example-only"
+        }
+      ],
+      "selectionReason": "instead 단독 부사에서 대체되는 명사·행동을 직접 잇는 구로 확장한다. 제외 except와 다른 대체 관계다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "rather than은 최종 뒤 구조가 맞을 때 허용한다. 대상 둘 다 유지되는 addition과 달리 선택에서 대신함을 분명히 한다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "in place of",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "rather than",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/apart",
+        "https://dictionary.cambridge.org/grammar/british-grammar/except-or-except-for",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/word-choice-besides-or-also"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/apart",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/except-or-except-for",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/word-choice-besides-or-also",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-regard",
+      "order": 79,
+      "group": "addition-topic",
+      "headword": "with regard to",
+      "senseKo": "~에 관하여",
+      "construction": "with regard to + 다루는 주제",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "14:1:9",
+          "set": 14,
+          "ex": 1,
+          "index": 9,
+          "word": "regard",
+          "ko": "② 존중, 관심",
+          "exText": "She has great {{BLANK}} for her teacher.",
+          "c": "have regard for ~: ~을 존중하거나 배려하다.",
+          "relationship": "lexical-anchor"
+        },
+        {
+          "id": "24:10:6",
+          "set": 24,
+          "ex": 10,
+          "index": 6,
+          "word": "regarding",
+          "ko": "① ~에 관하여",
+          "exText": "I sent an email {{BLANK}} the school trip.",
+          "c": "regard+-ing. about과 뜻이 같지만 더 격식 있는 전치사다.",
+          "relationship": "target-related"
+        }
+      ],
+      "selectionReason": "regard/regarding과 이미 배운 주제 관계를 전체 구로 이어 준다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "in/with regard to를 동등 변이로 허용한다. 수십 개의 관련 표현을 정답 목록에 추측해서 넣지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "in regard to",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "regarding",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "concerning",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "about",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/in-with-regard-to",
+        "https://dictionary.cambridge.org/dictionary/english/in-regard-to"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/in-with-regard-to",
+          "verification": "definition-retrieved-2026-09-19"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/in-regard-to",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-relation-comparison",
+      "order": 80,
+      "group": "addition-topic",
+      "headword": "in relation to",
+      "senseKo": "~와 비교하여, ~에 비추어",
+      "construction": "양·위치·가치를 in relation to + 비교 기준",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "10:10:0",
+          "set": 10,
+          "ex": 10,
+          "index": 0,
+          "word": "relation",
+          "ko": "① 관계",
+          "exText": "What is the {{BLANK}} between the two events?",
+          "c": "사람 사이의 친한 '관계'는 relationship을 더 자주 쓴다.",
+          "relationship": "lexical-anchor"
+        }
+      ],
+      "selectionReason": "relation을 단순 관계 명사에서 상대적 크기·위치를 읽는 구로 확장한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "관하여라는 별도 주제 뜻은 이 카드에서 제외하여 with regard to와 불필요한 중복을 줄인다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "relative to",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "compared with",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "compared to",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/in-relation-to",
+        "https://dictionary.cambridge.org/dictionary/english/in-with-relation-to"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/in-relation-to",
+          "verification": "definition-retrieved-2026-09-19"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/in-with-relation-to",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-search-of",
+      "order": 81,
+      "group": "addition-topic",
+      "headword": "in search of",
+      "senseKo": "~을 찾아서",
+      "construction": "이동·탐색 + in search of + 찾는 것",
+      "priority": "core",
+      "revisit-or-new": "new-expression",
+      "priorRefs": [
+        {
+          "id": "10:4:8",
+          "set": 10,
+          "ex": 4,
+          "index": 8,
+          "word": "search",
+          "ko": "① 찾다, 뒤지다",
+          "exText": "I {{BLANK}}ed everywhere for my phone.",
+          "c": "장소를 뒤지면 search+장소, 찾는 물건 앞엔 for를 붙인다.",
+          "relationship": "cloze-construction-related"
+        }
+      ],
+      "selectionReason": "search 장소 for 물건이라는 선행학습을 찾는 목적의 명사구로 이어 준다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "looking for가 분사구로 자연스럽고 주어가 맞는 문장일 때 허용한다. in search of의 of를 search 동사의 목적 전치사로 일반화하지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "looking for",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/in-search-of"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/in-search-of",
+          "verification": "verify-during-card-authoring"
+        }
+      ]
+    },
+    {
+      "id": "prep-over-dispute",
+      "order": 82,
+      "group": "addition-topic",
+      "headword": "over",
+      "senseKo": "무엇을 두고 다투거나 염려하여",
+      "construction": "argue/quarrel/fuss over + 쟁점",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "22:4:10",
+          "set": 22,
+          "ex": 4,
+          "index": 10,
+          "word": "quarrel",
+          "ko": "① 말다툼",
+          "exText": "They had a {{BLANK}} over money again.",
+          "c": "주먹까진 안 나가는 말싸움. a quarrel over(~을 둘러싼).",
+          "relationship": "example-only"
+        },
+        {
+          "id": "35:6:3",
+          "set": 35,
+          "ex": 6,
+          "index": 3,
+          "word": "set-to",
+          "ko": "① 실랑이, 한바탕 다툼",
+          "exText": "They had a little {{BLANK}} over the game.",
+          "c": "informal. have a set-to 꼴로 쓰며 가벼운 다툼을 뜻한다.",
+          "relationship": "example-only"
+        },
+        {
+          "id": "42:3:7",
+          "set": 42,
+          "ex": 3,
+          "index": 7,
+          "word": "fuss",
+          "ko": "① 야단법석, 호들갑",
+          "exText": "Don't make a {{BLANK}} over one bad grade.",
+          "c": "make a fuss about/over ~: ~로 소란을 피우다. 대표 연어다.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "45:2:7",
+          "set": 45,
+          "ex": 2,
+          "index": 7,
+          "word": "obsess",
+          "ko": "② 집착하다, 계속 신경 쓰다",
+          "exText": "Stop {{BLANK}}ing over one bad grade.",
+          "c": "obsess about[over] ~ 꼴로 스스로 계속 신경 쓴다는 뜻이다.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "over를 시간·수량 밖의 다툼 쟁점으로 이어 준다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "about이 같은 쟁점을 나타내면 허용한다. over가 모든 주제 문장에서 about과 자유 교체된다고 가르치지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "about",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/about",
+        "https://dictionary.cambridge.org/dictionary/english/regarding"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/about",
+          "verification": "inherited-from-prior-selection"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/regarding",
+          "verification": "inherited-from-prior-selection"
+        }
+      ]
+    },
+    {
+      "id": "prep-from-separation",
+      "order": 83,
+      "group": "selected-complements",
+      "headword": "from",
+      "senseKo": "떼어 내는 상대 ~로부터",
+      "construction": "separate A from B",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "13:7:0",
+          "set": 13,
+          "ex": 7,
+          "index": 0,
+          "word": "separate",
+          "ko": "① 분리하다, 나누다",
+          "exText": "{{BLANK}} the paper from the plastic.",
+          "c": "동사 발음은 [세퍼레이트]: 끝이 '레이트'.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "출처 from에서 분리의 상대를 잇는 기존 separate로 연결한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "separate A into groups의 분할 결과와 from의 분리 상대를 한 카드에 합치지 않는다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/separating"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/separating",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-from-prevention",
+      "order": 84,
+      "group": "selected-complements",
+      "headword": "from",
+      "senseKo": "어떤 행동을 하지 못하게",
+      "construction": "prevent/deter A from -ing",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "0:17:10",
+          "set": 0,
+          "ex": 17,
+          "index": 10,
+          "word": "deter",
+          "ko": "① 단념시키다, 못하게 막다",
+          "exText": "High costs {{BLANK}} many people from buying homes.",
+          "c": "deter A from doing(A가 ~하지 못하게 하다). 두려움·어려움 때문에 행동을 막다.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "9:4:9",
+          "set": 9,
+          "ex": 4,
+          "index": 9,
+          "word": "prevent",
+          "ko": "① 막다, 예방하다",
+          "exText": "Wash your hands to {{BLANK}} colds.",
+          "c": "prevent A from -ing: A가 못 하게 막다. from이 세트.",
+          "relationship": "explanation-only"
+        },
+        {
+          "id": "19:8:10",
+          "set": 19,
+          "ex": 8,
+          "index": 10,
+          "word": "discourage",
+          "ko": "② 못 하게 말리다, 억제하다",
+          "exText": "They {{BLANK}}d us from swimming in the river.",
+          "c": "discourage A from -ing: A가 ~하지 않도록 말리다.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "31:4:0",
+          "set": 31,
+          "ex": 4,
+          "index": 0,
+          "word": "prohibit",
+          "ko": "① 금지하다",
+          "exText": "School rules {{BLANK}} phones during every class.",
+          "c": "prohibit A from -ing 꼴에 주의. ban보다 격식 있는 말.",
+          "relationship": "explanation-only"
+        }
+      ],
+      "selectionReason": "기존 deter/discourage의 from이 뒤 행동을 막는 관계임을 회상한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "from 자체를 항상 금지라고 풀이하지 말고 동사와 함께 관계를 읽는다. prevent의 from 생략 가능성이 문제가 되면 deter를 앵커로 택한다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/prevent"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/prevent",
+          "verification": "verify-during-card-authoring"
+        }
+      ]
+    },
+    {
+      "id": "prep-from-difference",
+      "order": 85,
+      "group": "selected-complements",
+      "headword": "from",
+      "senseKo": "구별하는 다른 대상 ~와",
+      "construction": "different/distinguish A from B",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "0:16:2",
+          "set": 0,
+          "ex": 16,
+          "index": 2,
+          "word": "distinguish",
+          "ko": "① 구별하다, 차이를 알아보다",
+          "exText": "Can you {{BLANK}} fact from opinion?",
+          "c": "distinguish A from B = A와 B를 구별하다.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "46:8:5",
+          "set": 46,
+          "ex": 8,
+          "index": 5,
+          "word": "distinguish",
+          "ko": "① 구별하다, 차이를 알아보다",
+          "exText": "Can you {{BLANK}} fact from opinion?",
+          "c": "distinguish A from B = A와 B를 구별하다.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "기존 distinguish에서 차이를 대비시키는 상대를 잇는다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "different from 문장을 쓰면 미국 different than과 영국 different to가 가능한지 검토한다. distinguish A from B에 than/to를 자동 적용하지 않는다."
+      },
+      "acceptedAnswersCandidate": [
+        {
+          "answer": "than",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        },
+        {
+          "answer": "to",
+          "status": "candidate-only; authorize only after final sentence and sense review"
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/from?topic=analysing-and-evaluating"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/from?topic=analysing-and-evaluating",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-from-exemption",
+      "order": 86,
+      "group": "selected-complements",
+      "headword": "from",
+      "senseKo": "의무·규칙의 적용 대상 ~에서 벗어나",
+      "construction": "exempt A from B; be exempt from B",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "0:15:11",
+          "set": 0,
+          "ex": 15,
+          "index": 11,
+          "word": "exempt",
+          "ko": "① 면제된, 적용받지 않는",
+          "exText": "Young children are {{BLANK}} from this rule.",
+          "c": "be exempt from ~는 의무·세금·규칙 등의 적용을 받지 않는다는 뜻.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "0:15:12",
+          "set": 0,
+          "ex": 15,
+          "index": 12,
+          "word": "exempt",
+          "ko": "② 면제하다, 적용에서 제외하다",
+          "exText": "The school may {{BLANK}} her from this test.",
+          "c": "exempt A from B는 A에게 B의 의무를 면제하다.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "46:8:3",
+          "set": 46,
+          "ex": 8,
+          "index": 3,
+          "word": "exempt",
+          "ko": "① 면제된, 적용받지 않는",
+          "exText": "Young children are {{BLANK}} from this rule.",
+          "c": "be exempt from ~는 의무·세금·규칙 등의 적용을 받지 않는다는 뜻.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "면제라는 표제어를 적용 범위에서 빠지는 from 관계로 연결한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "free from의 상태 일반과 exempt from의 의무 면제를 무조건 같은 뜻으로 합치지 않는다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/exempt"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/exempt",
+          "verification": "verify-during-card-authoring"
+        }
+      ]
+    },
+    {
+      "id": "prep-of-deprivation",
+      "order": 87,
+      "group": "selected-complements",
+      "headword": "of",
+      "senseKo": "빼앗기는 대상 ~을",
+      "construction": "deprive A of B",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "44:8:1",
+          "set": 44,
+          "ex": 8,
+          "index": 1,
+          "word": "deprive",
+          "ko": "① 박탈하다, 빼앗다",
+          "exText": "Games {{BLANK}} me of sleep every night.",
+          "c": "deprive A of B(A에게서 B를 빼앗다). of를 꼭 기억한다.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "of가 소유·속성만 아니라 특정 동사의 박탈 대상을 잇는다는 경계 사례다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "A는 빼앗기는 사람, B는 잃는 것이라는 방향을 밝힌다. 모든 박탈 동사에 of를 일반화하지 않는다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/deprive"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/deprive",
+          "verification": "verify-during-card-authoring"
+        }
+      ]
+    },
+    {
+      "id": "prep-with-association",
+      "order": 88,
+      "group": "selected-complements",
+      "headword": "with",
+      "senseKo": "서로 관련되는 상대 ~와",
+      "construction": "be associated with + 관련 대상",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "30:3:11",
+          "set": 30,
+          "ex": 3,
+          "index": 11,
+          "word": "associated",
+          "ko": "① 관련된, 연관된",
+          "exText": "Bad sleep is often {{BLANK}} with poor grades.",
+          "c": "associate+-d. be associated with ~를 통째로 외워라.",
+          "relationship": "cloze-construction"
+        },
+        {
+          "id": "24:3:4",
+          "set": 24,
+          "ex": 3,
+          "index": 4,
+          "word": "link",
+          "ko": "② 연결하다, 관련짓다",
+          "exText": "Some studies {{BLANK}} sleep to better grades.",
+          "c": "link A to[with] B가 짝. 두 가지를 이어 준다는 뜻.",
+          "relationship": "explanation-only-related"
+        }
+      ],
+      "selectionReason": "이미 associated와 link에서 학습한 결합을 단어 가족 간 연결로 정리한다.",
+      "ambiguityRisk": {
+        "level": "medium",
+        "note": "관련성은 인과를 증명하지 않는다. associated with의 연결을 because of라는 원인 구로 바꾸지 않는다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/associated",
+        "https://dictionary.cambridge.org/dictionary/english/with",
+        "https://dictionary.cambridge.org/us/dictionary/learner-english/with"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/associated",
+          "verification": "verify-during-card-authoring"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/with",
+          "verification": "definition-retrieved-2026-09-19"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/learner-english/with",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "prep-capable-of",
+      "order": 89,
+      "group": "selected-complements",
+      "headword": "capable of",
+      "senseKo": "~할 능력이 있는",
+      "construction": "be capable of + 명사/-ing",
+      "priority": "core",
+      "revisit-or-new": "revisit",
+      "priorRefs": [
+        {
+          "id": "25:9:1",
+          "set": 25,
+          "ex": 9,
+          "index": 1,
+          "word": "capable",
+          "ko": "① ~할 수 있는, 유능한",
+          "exText": "She is {{BLANK}} of running ten miles.",
+          "c": "be capable of -ing가 짝. of 뒤에 동사원형을 쓰면 틀린다.",
+          "relationship": "cloze-construction"
+        }
+      ],
+      "selectionReason": "of 뒤 활동이 능력의 대상이라는 기존 형용사 결합을 직접 이어 준다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "able to 뒤 동사원형과 구조가 달라 그대로 빈칸 동의어로 넣지 않는다. 게임 빈칸은 capable of 전체로도 가능하다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/capable"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/capable",
+          "verification": "verify-during-card-authoring"
+        }
+      ]
+    },
+    {
+      "id": "prep-to-reaction",
+      "order": 90,
+      "group": "selected-complements",
+      "headword": "to",
+      "senseKo": "누군가에게 그런 감정을 일으키며",
+      "construction": "to one's surprise/disappointment",
+      "priority": "core",
+      "revisit-or-new": "new-sense",
+      "priorRefs": [
+        {
+          "id": "34:8:1",
+          "set": 34,
+          "ex": 8,
+          "index": 1,
+          "word": "disappointment",
+          "ko": "① 실망",
+          "exText": "Her face showed deep {{BLANK}} at the news.",
+          "c": "disappoint(실망시키다)+-ment. to my disappointment(실망스럽게도).",
+          "relationship": "explanation-only"
+        },
+        {
+          "id": "11:8:13",
+          "set": 11,
+          "ex": 8,
+          "index": 13,
+          "word": "surprise",
+          "ko": "① 놀람, 뜻밖의 일",
+          "exText": "What a {{BLANK}}! I didn't expect you here.",
+          "c": "surprised=놀란(사람이), surprising=놀라운(일이). -ed/-ing 구분.",
+          "relationship": "lexical-anchor"
+        }
+      ],
+      "selectionReason": "disappointment 해설에서만 본 반응의 to를 직접 학습한다.",
+      "ambiguityRisk": {
+        "level": "low",
+        "note": "to my surprise는 사건을 보고 느낀 반응. in/with surprise는 반응하는 방식이므로 서로 같은 구문으로 설명하지 않는다."
+      },
+      "acceptedAnswersCandidate": [],
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/surprise"
+      ],
+      "sourceVerification": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/surprise",
+          "verification": "definition-retrieved-2026-09-19"
+        }
+      ]
+    }
+  ],
+  "inputUnitRefinements": [
+    {
+      "id": "prep-in-dimension",
+      "from": "in",
+      "to": "in size",
+      "reason": "canonical in이 in terms of의 접두사라 긴 허용답 입력 중 조기 정답이 날 수 있다. 같은 측면 관계를 크기 구 전체로 정밀화한다."
+    },
+    {
+      "id": "prep-under-process",
+      "from": "under",
+      "to": "under review",
+      "reason": "canonical under가 undergoing의 접두사라 긴 허용답 입력 중 조기 정답이 날 수 있다. 같은 진행 관계를 검토 중이라는 구 전체로 정밀화한다."
+    }
+  ],
+  "deferredOrMerged": [
+    {
+      "expression": "at / in / on 기본 장소; on / in / at 날짜",
+      "decision": "existing-only",
+      "reason": "기존 5세트가 충분히 다룬다. 추상 관계의 예문·해설 연결에만 활용한다."
+    },
+    {
+      "expression": "in / into; on / onto",
+      "decision": "existing-only",
+      "reason": "기본 이동 반복보다 필요하면 50의 변화 결과와 연결한다. in/on도 이동을 표현할 수 있으므로 정지/이동 이분법을 금지한다.",
+      "correctionRef": "23:7:8"
+    },
+    {
+      "expression": "to / toward 물리 방향",
+      "decision": "existing-only",
+      "reason": "기본 방향은 이미 학습. to=실제 도착 완료라는 잘못된 단정은 하지 않는다."
+    },
+    {
+      "expression": "between / among 일반 공간",
+      "decision": "merge-into-contrast-between",
+      "reason": "개별 비교 관계를 명사 contrast에 연결한다. between=둘, among=셋 이상 공식은 금지한다."
+    },
+    {
+      "expression": "for / during / since / from 기초 시간",
+      "decision": "existing-only",
+      "reason": "기존 뜻과 해설에 근거가 많다. by/until/in/within/over/on의 경계 복습으로 분량을 집중한다."
+    },
+    {
+      "expression": "because of / due to / on account of",
+      "decision": "reuse-in-explanations",
+      "reason": "기존 due와 46 account에서 이미 학습한다. 새 원인 뜻을 늘린다고 중복 출제하지 않는다."
+    },
+    {
+      "expression": "of importance / of use / of value",
+      "decision": "merged-one-relation",
+      "reason": "세 결합은 같은 속성 관계다. 별개 세 뜻으로 세지 않고 하나의 정답과 짧은 연결 해설로 처리한다."
+    },
+    {
+      "expression": "under construction / under review / under investigation",
+      "decision": "merged-one-procedural-relation",
+      "reason": "어떤 절차가 진행 중이라는 관계를 하나로 선택한다. 필요할 때 예문 명사만 바꾸어 전이한다."
+    },
+    {
+      "expression": "in place of",
+      "decision": "alternative-or-explanation",
+      "reason": "대체를 뜻하는 instead of 한 뜻을 채택했다. in place of는 문맥이 같으면 허용답으로 연결하고 추가 카드 수는 늘리지 않는다."
+    },
+    {
+      "expression": "in line with / in connection with / by means of",
+      "decision": "alternative-or-explanation",
+      "reason": "이미 채택한 일치·주제·수단 관계의 유사 구 목록을 늘리지 않는다. 문맥상 동등하면 허용답 또는 해설로 연결한다."
+    },
+    {
+      "expression": "be subject to 3뜻 / subject A to B",
+      "decision": "existing-only",
+      "reason": "46세트에서 뜻을 이미 분리해 직접 학습한다. under 조건·권위의 해설 앵커로 쓰되 다시 네 카드를 추가하지 않는다."
+    },
+    {
+      "expression": "of 사람 + 평가형용사",
+      "decision": "reserve",
+      "reason": "brave/unkind of you는 기존에 있으며 useful for you 등과 섞으면 문법 선택 문제로 흐르기 쉽다. 현 풀의 속성 of와 별개인 점만 집필 시 유의한다."
+    },
+    {
+      "expression": "with cause / with possession / from cause",
+      "decision": "reserve",
+      "reason": "중요하지만 이번 with는 조건·수단·태도·교체·연결로 한정했다. 원인 동사 및 equipped with의 기존 카드와 다음 과정에서 이어 줄 수 있다."
+    }
+  ],
+  "finalizationChecks": [
+    "32~48 최종 감사의 for 대체 등 추가 후보까지 병합했다. root가 전체 과정을 최종 검토한 뒤 집필을 시작한다.",
+    "전체 의미 수보다 학습 연결이 우선이다. 예외 except for와 apart from은 집필 후 불필요 중복이면 축소할 수 있다.",
+    "주제 일반과 상대 비교의 in relation to를 섞지 않는다.",
+    "단일 from/of의 한국어 뜻이 해당 동사 없이 무의미하면 카드 집필 때 결합 전체를 표제어로 바꿀 수 있다. 새 문제 방식은 만들지 않는다.",
+    "verify-during-card-authoring으로 표시한 사전 URL은 아직 본문 검증 완료로 주장하지 않는다. 각 명사·형용사의 실제 문형을 집필 때 확인한다.",
+    "허용답 후보는 최종 문장을 대입하고 의미 보존·품사·전치사 목적어·입력 길이를 확인한 후 확정한다."
+  ]
+}

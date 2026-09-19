@@ -1,0 +1,1836 @@
+{
+  "course": 49,
+  "source": "work/connections-20260919/preposition-cards.json",
+  "sourceSha256": "afbff9f1bad181b4640b24a84460eae005c531fa3ae0007933403de693b08ae1",
+  "status": "manual-review-complete-one-wording-change-requested",
+  "reviewedCardCount": 90,
+  "readIds": [
+    "prep-within-scope",
+    "prep-beyond-scope",
+    "prep-for-standard",
+    "prep-terms-aspect",
+    "prep-in-dimension",
+    "prep-as-classification",
+    "prep-across-distribution",
+    "prep-by-deadline",
+    "prep-until-continuation",
+    "prep-in-elapsed",
+    "prep-within-deadline",
+    "prep-over-period",
+    "prep-upon-event",
+    "prep-change-by",
+    "prep-result-to",
+    "prep-initial-from",
+    "prep-difference-by",
+    "prep-increase-in",
+    "prep-increase-of",
+    "prep-at-level",
+    "prep-per-unit",
+    "prep-by-unit",
+    "prep-above-threshold",
+    "prep-below-threshold",
+    "prep-ratio-to",
+    "prep-of-quality",
+    "prep-lack-of",
+    "prep-need-for",
+    "prep-effect-on",
+    "prep-access-to",
+    "prep-solution-to",
+    "prep-demand-for",
+    "prep-contrast-between",
+    "prep-awareness-of",
+    "prep-responsibility-for",
+    "prep-dependence-on",
+    "prep-under-conditions",
+    "prep-under-rule",
+    "prep-under-process",
+    "prep-under-pressure",
+    "prep-with-condition",
+    "prep-without-condition",
+    "prep-absence-condition",
+    "prep-in-state",
+    "prep-on-activity",
+    "prep-by-criterion",
+    "prep-according-source",
+    "prep-according-rule",
+    "prep-in-light-of",
+    "prep-in-response-to",
+    "prep-on-basis-of",
+    "prep-out-of-motive",
+    "prep-from-perspective",
+    "prep-accordance",
+    "prep-in-contrast-to",
+    "prep-despite",
+    "prep-regardless",
+    "prep-opposed-to",
+    "prep-favor",
+    "prep-against-opposition",
+    "prep-against-background",
+    "prep-against-protection",
+    "prep-by-agent",
+    "prep-with-instrument",
+    "prep-through-means",
+    "prep-with-manner",
+    "prep-for-beneficiary",
+    "prep-to-recipient",
+    "prep-behalf",
+    "prep-expense",
+    "prep-exchange-for",
+    "prep-for-replacement",
+    "prep-with-replacement",
+    "prep-addition",
+    "prep-except-for",
+    "prep-apart-except",
+    "prep-apart-addition",
+    "prep-instead-of",
+    "prep-regard",
+    "prep-relation-comparison",
+    "prep-search-of",
+    "prep-over-dispute",
+    "prep-from-separation",
+    "prep-from-prevention",
+    "prep-from-difference",
+    "prep-from-exemption",
+    "prep-of-deprivation",
+    "prep-with-association",
+    "prep-capable-of",
+    "prep-to-reaction"
+  ],
+  "reviewedFields": [
+    "word",
+    "en",
+    "ko",
+    "completedExample",
+    "tr",
+    "c",
+    "ipa",
+    "acceptedAnswers",
+    "ambiguityNote"
+  ],
+  "reviewMethod": "90개 전부를 앞 45개와 뒤 45개로 나누어 읽고, 각 허용 답을 문장 전체에 넣어 문법과 한국어 뜻·번역의 문맥을 비교했다. 앞쪽 수정 3건을 다시 읽었다.",
+  "findings": [
+    {
+      "id": "prep-per-unit",
+      "severity": "minor",
+      "field": "card.c",
+      "issue": "단수 단위를 뒤에 쓴다는 단정은 per 100 people 같은 수량 단위를 배제하는 것으로 읽힐 수 있다.",
+      "suggestedChange": "단위를 바로 이으면 보통 단수를 써.",
+      "status": "resolved-in-source",
+      "verifiedText": "per person은 1인당, per hour는 시간당. 단위를 바로 이으면 보통 단수를 써."
+    },
+    {
+      "id": "prep-in-dimension",
+      "severity": "minor",
+      "field": "card.acceptedAnswers",
+      "issue": "비교 측면의 with regard to도 문장 뜻을 보존한다.",
+      "suggestedChange": "수정된 전체 정답 단위 in size에 맞춰 with regard to size를 허용한다.",
+      "status": "resolved-in-source",
+      "verifiedAnswers": [
+        "in terms of size",
+        "with respect to size",
+        "with regard to size"
+      ]
+    },
+    {
+      "id": "prep-from-prevention",
+      "severity": "minor",
+      "field": "card.c/card.tr/card.ko",
+      "issue": "deter는 행동을 막는 것뿐 아니라 그 행동에 대한 의욕을 낮추는 것도 포함한다. 실제로 막힌다고 단정하는 해설은 뜻을 지나치게 좁힌다.",
+      "suggestedChange": {
+        "c": "deter A from -ing는 A가 그 행동을 꺼리거나 단념하게 하다. from 뒤는 억제하는 행동이야.",
+        "tr": "비싼 회비 때문에 학생들은 동아리 가입을 꺼려.",
+        "ko": "어떤 행동을 하지 않도록"
+      },
+      "status": "change-requested",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/deter"
+      ],
+      "evidence": "Cambridge의 일반·미국·비즈니스 정의 모두 예방과 의욕 감소 또는 discourage를 함께 제시한다. 검색 반환 본문에서 정의를 직접 읽었다."
+    }
+  ],
+  "checks": [
+    {
+      "id": "prep-within-scope",
+      "result": "pass",
+      "completedExample": "Changing the schedule is within her authority.",
+      "meaningKo": "권한·한도 등의 범위 안에",
+      "translation": "일정을 바꾸는 것은 그녀의 권한 안에 있어.",
+      "explanation": "within은 범위 안. within her authority는 그녀의 권한 안이라는 뜻이야.",
+      "ipa": "wɪˈðɪn",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-beyond-scope",
+      "result": "pass",
+      "completedExample": "The weather is beyond our control.",
+      "meaningKo": "능력·통제 등의 범위를 벗어나",
+      "translation": "날씨는 우리가 통제할 수 있는 범위를 벗어나 있어.",
+      "explanation": "beyond our control은 우리 통제 밖. beyond my ability는 내 능력 밖이야.",
+      "ipa": "bɪˈɑːnd",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "outside",
+          "completedExample": "The weather is outside our control.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "out of",
+          "completedExample": "The weather is out of our control.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-for-standard",
+      "result": "pass",
+      "completedExample": "He reads well for his age.",
+      "meaningKo": "나이·조건에 비추어 보면, ~치고는",
+      "translation": "그는 나이에 비해 글을 잘 읽어.",
+      "explanation": "for his age는 그 나이를 기준으로 보면. 누군가를 위한 for와 달라.",
+      "ipa": "fɔːr",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "considering",
+          "completedExample": "He reads well considering his age.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "given",
+          "completedExample": "He reads well given his age.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-terms-aspect",
+      "result": "pass",
+      "completedExample": "The two plans differ in terms of cost.",
+      "meaningKo": "~의 측면에서",
+      "translation": "두 계획은 비용 측면에서 달라.",
+      "explanation": "in terms of cost는 비용 면에서. 비교하는 측면을 밝혀 주는 구야.",
+      "ipa": "ɪn ˈtɝːmz ʌv",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "in",
+          "completedExample": "The two plans differ in cost.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "with regard to",
+          "completedExample": "The two plans differ with regard to cost.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "with respect to",
+          "completedExample": "The two plans differ with respect to cost.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-in-dimension",
+      "result": "pass",
+      "completedExample": "These two boxes differ in size.",
+      "meaningKo": "크기 면에서",
+      "translation": "이 두 상자는 크기 면에서 달라.",
+      "explanation": "in size는 크기 면에서. in every respect는 모든 면에서라는 뜻이야.",
+      "ipa": "ɪn ˈsaɪz",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "in terms of size",
+          "completedExample": "These two boxes differ in terms of size.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "with respect to size",
+          "completedExample": "These two boxes differ with respect to size.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "with regard to size",
+          "completedExample": "These two boxes differ with regard to size.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-as-classification",
+      "result": "pass",
+      "completedExample": "They regard this failure as a useful lesson.",
+      "meaningKo": "~라고 여기거나 규정하여",
+      "translation": "그들은 이 실패를 유익한 교훈이라고 여겨.",
+      "explanation": "regard A as B는 A를 B로 여기다. view A as B도 같은 관계야.",
+      "ipa": "æz",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-across-distribution",
+      "result": "pass",
+      "completedExample": "The same problem appears across many different cultures.",
+      "meaningKo": "여러 지역·집단에 걸쳐",
+      "translation": "같은 문제가 여러 서로 다른 문화에 걸쳐 나타나.",
+      "explanation": "across cultures는 여러 문화에 걸쳐. 길을 건너는 뜻에서 범위로 넓어진 쓰임이야.",
+      "ipa": "əˈkrɑːs",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "in",
+          "completedExample": "The same problem appears in many different cultures.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "throughout",
+          "completedExample": "The same problem appears throughout many different cultures.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-by-deadline",
+      "result": "pass",
+      "completedExample": "Please submit your report by noon tomorrow.",
+      "meaningKo": "늦어도 ~까지는",
+      "translation": "늦어도 내일 정오까지는 보고서를 제출해 줘.",
+      "explanation": "by noon은 정오를 마감으로 삼아. until은 어떤 상태가 그때까지 계속됨을 나타내.",
+      "ipa": "baɪ",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "no later than",
+          "completedExample": "Please submit your report no later than noon tomorrow.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-until-continuation",
+      "result": "pass",
+      "completedExample": "The library stays open until ten tonight.",
+      "meaningKo": "~까지 계속",
+      "translation": "도서관은 오늘 밤 열 시까지 계속 열려 있어.",
+      "explanation": "until ten은 열 시까지 계속. till도 같은 뜻으로 쓸 수 있어.",
+      "ipa": "ənˈtɪl",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "till",
+          "completedExample": "The library stays open till ten tonight.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "up to",
+          "completedExample": "The library stays open up to ten tonight.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-in-elapsed",
+      "result": "pass",
+      "completedExample": "The bus will leave in fifteen minutes.",
+      "meaningKo": "지금부터 ~후에",
+      "translation": "버스는 지금부터 15분 후에 출발할 거야.",
+      "explanation": "미래 시점의 in+시간은 그만큼 지난 뒤. in fifteen minutes는 15분 후야.",
+      "ipa": "ɪn",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "after",
+          "completedExample": "The bus will leave after fifteen minutes.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-within-deadline",
+      "result": "pass",
+      "completedExample": "We must finish within an hour.",
+      "meaningKo": "주어진 시간 ~이내에",
+      "translation": "우리는 한 시간 이내에 끝내야 해.",
+      "explanation": "within an hour는 한 시간을 넘기지 않는 범위에서. 완료 문장에서는 in도 가능해.",
+      "ipa": "wɪˈðɪn",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "in",
+          "completedExample": "We must finish in an hour.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-over-period",
+      "result": "pass",
+      "completedExample": "Sales doubled over the past five years.",
+      "meaningKo": "일정 기간에 걸쳐",
+      "translation": "지난 5년에 걸쳐 매출이 두 배가 됐어.",
+      "explanation": "over+기간은 그 기간에 걸친 변화에도 써. 여기서는 수량이 넘는다는 뜻이 아니야.",
+      "ipa": "ˈoʊ.vɚ",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "in",
+          "completedExample": "Sales doubled in the past five years.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "during",
+          "completedExample": "Sales doubled during the past five years.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-upon-event",
+      "result": "pass",
+      "completedExample": "Call me upon arrival at the station.",
+      "meaningKo": "~하자마자",
+      "translation": "역에 도착하자마자 나에게 전화해.",
+      "explanation": "upon arrival은 도착하자마자. on arrival도 같은 뜻으로 써.",
+      "ipa": "əˈpɑːn",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "on",
+          "completedExample": "Call me on arrival at the station.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-change-by",
+      "result": "pass",
+      "completedExample": "The price fell by three dollars.",
+      "meaningKo": "수치가 ~만큼",
+      "translation": "가격이 3달러만큼 내렸어.",
+      "explanation": "by 뒤는 변한 양. fell by three dollars는 3달러만큼 내렸다는 뜻이야.",
+      "ipa": "baɪ",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-result-to",
+      "result": "pass",
+      "completedExample": "The price fell from ten dollars to seven.",
+      "meaningKo": "변한 뒤의 수치가 ~이 되도록",
+      "translation": "가격이 10달러에서 7달러로 내렸어.",
+      "explanation": "to 뒤는 변한 뒤의 값. 10에서 7로 내리면 감소량은 by three dollars야.",
+      "ipa": "tuː",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-initial-from",
+      "result": "pass",
+      "completedExample": "The price rose from five dollars to eight.",
+      "meaningKo": "변화가 시작된 수치 ~에서",
+      "translation": "가격이 5달러에서 8달러로 올랐어.",
+      "explanation": "from은 시작값, to는 최종값. 5에서 8로 오르면 변화량은 3이야.",
+      "ipa": "frʌm",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-difference-by",
+      "result": "pass",
+      "completedExample": "Our team won by two points.",
+      "meaningKo": "비교·경쟁에서 ~만큼 차이가 나게",
+      "translation": "우리 팀은 2점 차로 이겼어.",
+      "explanation": "win by two points는 2점 차로 이기다. 여기서 by는 변화량이 아닌 격차야.",
+      "ipa": "baɪ",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-increase-in",
+      "result": "pass",
+      "completedExample": "There was an increase in food prices.",
+      "meaningKo": "증가·감소한 대상 ~의",
+      "translation": "식품 가격이 상승했어.",
+      "explanation": "an increase in prices는 가격의 증가. in 뒤는 무엇이 변했는지를 나타내.",
+      "ipa": "ɪn",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-increase-of",
+      "result": "pass",
+      "completedExample": "We recorded an increase of ten percent.",
+      "meaningKo": "증가·감소한 양이 ~인",
+      "translation": "우리는 10퍼센트의 증가를 기록했어.",
+      "explanation": "an increase of ten percent는 10%의 증가. of 뒤는 증가한 양이야.",
+      "ipa": "ʌv",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "by",
+          "completedExample": "We recorded an increase by ten percent.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-at-level",
+      "result": "pass",
+      "completedExample": "The price remained at twenty dollars.",
+      "meaningKo": "수준·수치가 ~인",
+      "translation": "가격은 20달러 수준에 머물렀어.",
+      "explanation": "at은 그 수치에 있는 상태. to는 변한 뒤의 값, by는 변화량을 나타내.",
+      "ipa": "æt",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-per-unit",
+      "result": "pass",
+      "completedExample": "The limit is two tickets per person.",
+      "meaningKo": "단위 하나마다, ~당",
+      "translation": "제한은 한 사람당 표 두 장이야.",
+      "explanation": "per person은 1인당, per hour는 시간당. 단위를 바로 이으면 보통 단수를 써.",
+      "ipa": "pɝː",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "a",
+          "completedExample": "The limit is two tickets a person.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "for each",
+          "completedExample": "The limit is two tickets for each person.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "for every",
+          "completedExample": "The limit is two tickets for every person.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-by-unit",
+      "result": "pass",
+      "completedExample": "The workers are paid by the hour.",
+      "meaningKo": "시간·무게 등의 단위를 기준으로",
+      "translation": "그 노동자들은 시간을 단위로 보수를 받아.",
+      "explanation": "by the hour는 시간 단위로. per hour는 시간당 얼마인지 말할 때 자주 써.",
+      "ipa": "baɪ",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-above-threshold",
+      "result": "pass",
+      "completedExample": "The temperature stayed above the seasonal average.",
+      "meaningKo": "기준 수치보다 높게",
+      "translation": "기온은 계절 평균보다 높은 상태였어.",
+      "explanation": "above average는 평균보다 위. 이런 수치 비교에서는 over와 뜻이 겹쳐.",
+      "ipa": "əˈbʌv",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "over",
+          "completedExample": "The temperature stayed over the seasonal average.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "higher than",
+          "completedExample": "The temperature stayed higher than the seasonal average.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-below-threshold",
+      "result": "pass",
+      "completedExample": "The cost stayed below our budget limit.",
+      "meaningKo": "기준 수치보다 낮게",
+      "translation": "비용은 우리 예산 한도보다 낮은 수준에 머물렀어.",
+      "explanation": "below the limit는 한도보다 아래. under도 같은 수치 관계에 쓸 수 있어.",
+      "ipa": "bɪˈloʊ",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "under",
+          "completedExample": "The cost stayed under our budget limit.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "lower than",
+          "completedExample": "The cost stayed lower than our budget limit.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-ratio-to",
+      "result": "pass",
+      "completedExample": "The ratio is four to one.",
+      "meaningKo": "비율에서 ~대",
+      "translation": "비율은 4대 1이야.",
+      "explanation": "four to one은 4대 1. the ratio of A to B는 A와 B의 비율이야.",
+      "ipa": "tuː",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-of-quality",
+      "result": "pass",
+      "completedExample": "These instructions are of great value.",
+      "meaningKo": "~한 성질·가치를 가진",
+      "translation": "이 안내 사항들은 매우 유용해.",
+      "explanation": "of great value는 큰 가치가 있는. of use는 유용한, of importance는 중요한이야.",
+      "ipa": "ʌv",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-lack-of",
+      "result": "pass",
+      "completedExample": "The school closed because of a lack of teachers.",
+      "meaningKo": "~의 부족",
+      "translation": "교사가 부족해서 그 학교는 문을 닫았어.",
+      "explanation": "명사는 a lack of teachers. 동사라면 lacks teachers처럼 of 없이 목적어를 받아.",
+      "ipa": "læk ʌv",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "shortage of",
+          "completedExample": "The school closed because of a shortage of teachers.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-need-for",
+      "result": "pass",
+      "completedExample": "The report shows a need for more clean water.",
+      "meaningKo": "~의 필요성",
+      "translation": "그 보고서는 깨끗한 물이 더 필요함을 보여 줘.",
+      "explanation": "a need for water는 물의 필요성. in need of water는 물이 필요한 상태야.",
+      "ipa": "niːd fɔːr",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "requirement for",
+          "completedExample": "The report shows a requirement for more clean water.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-effect-on",
+      "result": "pass",
+      "completedExample": "Noise has a harmful effect on sleep.",
+      "meaningKo": "~에 미치는 영향",
+      "translation": "소음은 수면에 해로운 영향을 미쳐.",
+      "explanation": "an effect on sleep은 수면에 미치는 영향. 영향받는 대상이 on 뒤에 와.",
+      "ipa": "ɪˈfekt ɑːn",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "effect upon",
+          "completedExample": "Noise has a harmful effect upon sleep.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "impact on",
+          "completedExample": "Noise has a harmful impact on sleep.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "impact upon",
+          "completedExample": "Noise has a harmful impact upon sleep.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "influence on",
+          "completedExample": "Noise has a harmful influence on sleep.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "influence upon",
+          "completedExample": "Noise has a harmful influence upon sleep.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-access-to",
+      "result": "pass",
+      "completedExample": "These students need access to reliable information.",
+      "meaningKo": "~에 접근하거나 이용할 수 있음",
+      "translation": "이 학생들은 믿을 만한 정보를 이용할 수 있어야 해.",
+      "explanation": "access to information은 정보를 이용할 수 있음. accessible to는 누가 이용 가능한지 이어.",
+      "ipa": "ˈæk.ses tuː",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-solution-to",
+      "result": "pass",
+      "completedExample": "We found a solution to the noise problem.",
+      "meaningKo": "~의 해결책",
+      "translation": "우리는 소음 문제의 해결책을 찾았어.",
+      "explanation": "a solution to a problem은 문제의 해결책. 동사 solve는 문제를 바로 목적어로 받아.",
+      "ipa": "səˈluː.ʃən tuː",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "solution for",
+          "completedExample": "We found a solution for the noise problem.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "answer to",
+          "completedExample": "We found a answer to the noise problem.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "remedy for",
+          "completedExample": "We found a remedy for the noise problem.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-demand-for",
+      "result": "pass",
+      "completedExample": "Hot weather increases demand for cold drinks.",
+      "meaningKo": "~에 대한 수요",
+      "translation": "더운 날씨는 차가운 음료의 수요를 늘려.",
+      "explanation": "demand for drinks는 음료에 대한 수요. 무엇을 사거나 쓰려는지 for 뒤에 나타내.",
+      "ipa": "dɪˈmænd fɔːr",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-contrast-between",
+      "result": "pass",
+      "completedExample": "The painting shows a sharp contrast between light and dark.",
+      "meaningKo": "대상들 사이의 대조",
+      "translation": "그 그림은 밝음과 어둠 사이의 뚜렷한 대조를 보여 줘.",
+      "explanation": "contrast between A and B는 A와 B 사이의 대조. 개별 대상을 서로 비교해.",
+      "ipa": "ˈkɑːn.træst bɪˈtwiːn",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "contrast of",
+          "completedExample": "The painting shows a sharp contrast of light and dark.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "difference between",
+          "completedExample": "The painting shows a sharp difference between light and dark.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-awareness-of",
+      "result": "pass",
+      "completedExample": "Schools can raise awareness of online risks.",
+      "meaningKo": "~에 대한 인식",
+      "translation": "학교는 온라인 위험에 대한 인식을 높일 수 있어.",
+      "explanation": "aware of에서 awareness of로. 명사가 되어도 인식하는 대상은 of로 이어.",
+      "ipa": "əˈwer.nəs ʌv",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "awareness about",
+          "completedExample": "Schools can raise awareness about online risks.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "consciousness of",
+          "completedExample": "Schools can raise consciousness of online risks.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-responsibility-for",
+      "result": "pass",
+      "completedExample": "Parents have responsibility for their children's safety.",
+      "meaningKo": "~에 대한 책임",
+      "translation": "부모는 자녀의 안전에 책임이 있어.",
+      "explanation": "responsible for에서 responsibility for로. for 뒤에 책임지는 일이 와.",
+      "ipa": "rɪˌspɑːn.səˈbɪl.ə.ti fɔːr",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-dependence-on",
+      "result": "pass",
+      "completedExample": "Solar power can reduce our dependence on imported fuel.",
+      "meaningKo": "~에 대한 의존",
+      "translation": "태양 에너지는 수입 연료에 대한 우리의 의존을 줄일 수 있어.",
+      "explanation": "depend on에서 dependence on으로. 조건이 달렸다는 뜻과 자원에 의존하는 뜻은 구별해.",
+      "ipa": "dɪˈpen.dəns ɑːn",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "reliance on",
+          "completedExample": "Solar power can reduce our reliance on imported fuel.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "reliance upon",
+          "completedExample": "Solar power can reduce our reliance upon imported fuel.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "dependence upon",
+          "completedExample": "Solar power can reduce our dependence upon imported fuel.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "dependency on",
+          "completedExample": "Solar power can reduce our dependency on imported fuel.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "dependency upon",
+          "completedExample": "Solar power can reduce our dependency upon imported fuel.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-under-conditions",
+      "result": "pass",
+      "completedExample": "The plan could work under different conditions.",
+      "meaningKo": "특정 조건·상황 아래에서",
+      "translation": "그 계획은 다른 조건 아래에서는 효과가 있을 수 있어.",
+      "explanation": "under different conditions는 다른 조건에서. in these circumstances도 자연스러워.",
+      "ipa": "ˈʌn.dɚ",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "in",
+          "completedExample": "The plan could work in different conditions.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-under-rule",
+      "result": "pass",
+      "completedExample": "The country suffered under a cruel ruler.",
+      "meaningKo": "누군가의 통치·지배 아래에서",
+      "translation": "그 나라는 잔인한 통치자의 지배 아래 고통받았어.",
+      "explanation": "under 뒤에 통치자가 오면 그 지배 아래라는 뜻이야. 공간상 아래에 있다는 뜻과 달라.",
+      "ipa": "ˈʌn.dɚ",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-under-process",
+      "result": "pass",
+      "completedExample": "The proposal is under review.",
+      "meaningKo": "검토 중인",
+      "translation": "그 제안은 검토 중이야.",
+      "explanation": "under review는 검토 중. under construction은 건설 작업이 진행 중이라는 뜻이야.",
+      "ipa": "ˈʌn.dɚ rɪˈvjuː",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "in review",
+          "completedExample": "The proposal is in review.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "undergoing review",
+          "completedExample": "The proposal is undergoing review.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-under-pressure",
+      "result": "pass",
+      "completedExample": "The team is under pressure to finish.",
+      "meaningKo": "압박·부담을 받고",
+      "translation": "그 팀은 끝내야 한다는 압박을 받고 있어.",
+      "explanation": "under pressure는 압박을 받는 상태. under strain도 부담을 받는다는 뜻이야.",
+      "ipa": "ˈʌn.dɚ",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-with-condition",
+      "result": "pass",
+      "completedExample": "We can finish today with a little help.",
+      "meaningKo": "어떤 도움·여건이 있다면",
+      "translation": "약간의 도움이 있으면 우리는 오늘 끝낼 수 있어.",
+      "explanation": "with a little help는 약간의 도움이 있다면. 함께한다는 뜻에서 여건으로 이어져.",
+      "ipa": "wɪð",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "given",
+          "completedExample": "We can finish today given a little help.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-without-condition",
+      "result": "pass",
+      "completedExample": "We cannot finish without your help.",
+      "meaningKo": "~이 없다면",
+      "translation": "네 도움이 없다면 우리는 끝낼 수 없어.",
+      "explanation": "without your help는 네 도움이 없는 조건. with는 도움이 있는 조건을 나타낼 수 있어.",
+      "ipa": "wɪˈðaʊt",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "in the absence of",
+          "completedExample": "We cannot finish in the absence of your help.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-absence-condition",
+      "result": "pass",
+      "completedExample": "Use the stairs in the absence of a working elevator.",
+      "meaningKo": "~이 없는 상황에서",
+      "translation": "작동하는 엘리베이터가 없는 상황에서는 계단을 써.",
+      "explanation": "in the absence of는 ~이 없는 상황에서. absent의 명사 absence가 들어가.",
+      "ipa": "ɪn ði ˈæb.səns ʌv",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "without",
+          "completedExample": "Use the stairs without a working elevator.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-in-state",
+      "result": "pass",
+      "completedExample": "The business is in serious trouble.",
+      "meaningKo": "어떤 상태에 있는",
+      "translation": "그 사업은 심각한 곤경에 처해 있어.",
+      "explanation": "in trouble은 곤경에 있는 상태. in exile처럼 상태를 나타내는 명사와도 결합해.",
+      "ipa": "ɪn",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-on-activity",
+      "result": "pass",
+      "completedExample": "Two nurses are on duty tonight.",
+      "meaningKo": "특정 활동·임무 중인",
+      "translation": "오늘 밤에는 간호사 두 명이 근무 중이야.",
+      "explanation": "on duty는 근무 중. on patrol은 순찰 중이야. 임무·활동 상태를 나타내.",
+      "ipa": "ɑːn",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-by-criterion",
+      "result": "pass",
+      "completedExample": "Please sort these files by date.",
+      "meaningKo": "분류·판단의 기준에 따라",
+      "translation": "이 파일들을 날짜를 기준으로 정리해 줘.",
+      "explanation": "by date는 날짜별로. judge by appearance는 겉모습을 기준으로 판단하다야.",
+      "ipa": "baɪ",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "according to",
+          "completedExample": "Please sort these files according to date.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "in order of",
+          "completedExample": "Please sort these files in order of date.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-according-source",
+      "result": "pass",
+      "completedExample": "The road is closed, according to the local news.",
+      "meaningKo": "자료·사람이 전하는 내용에 따르면",
+      "translation": "지역 뉴스에 따르면 그 도로는 폐쇄됐어.",
+      "explanation": "according to the news는 뉴스에 따르면. 말이나 정보가 나온 출처를 밝혀.",
+      "ipa": "əˈkɔːr.dɪŋ tuː",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "as reported by",
+          "completedExample": "The road is closed, as reported by the local news.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-according-rule",
+      "result": "pass",
+      "completedExample": "Please act according to the school rules.",
+      "meaningKo": "규칙·기준에 맞추어",
+      "translation": "학교 규칙에 맞게 행동해 줘.",
+      "explanation": "according to the rules는 규칙에 맞게. 정보의 출처가 아니라 따르는 기준이야.",
+      "ipa": "əˈkɔːr.dɪŋ tuː",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "in accordance with",
+          "completedExample": "Please act in accordance with the school rules.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "in line with",
+          "completedExample": "Please act in line with the school rules.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-in-light-of",
+      "result": "pass",
+      "completedExample": "We changed our plan in light of the new evidence.",
+      "meaningKo": "새 정보·사정을 고려하여",
+      "translation": "우리는 새 증거를 고려해 계획을 바꿨어.",
+      "explanation": "in light of는 새 정보·사정을 판단에 반영할 때 써. in the light of도 같아.",
+      "ipa": "ɪn ˈlaɪt ʌv",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "in the light of",
+          "completedExample": "We changed our plan in the light of the new evidence.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "given",
+          "completedExample": "We changed our plan given the new evidence.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "considering",
+          "completedExample": "We changed our plan considering the new evidence.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "because of",
+          "completedExample": "We changed our plan because of the new evidence.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-in-response-to",
+      "result": "pass",
+      "completedExample": "She smiled in response to his kind words.",
+      "meaningKo": "~에 대한 반응으로",
+      "translation": "그녀는 그의 다정한 말에 대한 반응으로 미소 지었어.",
+      "explanation": "response는 반응, respond to는 반응하다. in response to는 반응의 계기를 이어.",
+      "ipa": "ɪn rɪˈspɑːns tuː",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "as a response to",
+          "completedExample": "She smiled as a response to his kind words.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "in reaction to",
+          "completedExample": "She smiled in reaction to his kind words.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "at",
+          "completedExample": "She smiled at his kind words.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "because of",
+          "completedExample": "She smiled because of his kind words.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-on-basis-of",
+      "result": "pass",
+      "completedExample": "We chose the site on the basis of safety data.",
+      "meaningKo": "~을 근거로",
+      "translation": "우리는 안전 자료를 근거로 그 장소를 골랐어.",
+      "explanation": "on the basis of data는 자료를 근거로. base A on B도 B에 근거를 둔다는 뜻이야.",
+      "ipa": "ɑːn ðə ˈbeɪ.sɪs ʌv",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "based on",
+          "completedExample": "We chose the site based on safety data.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "using",
+          "completedExample": "We chose the site using safety data.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-out-of-motive",
+      "result": "pass",
+      "completedExample": "She opened the old box out of curiosity.",
+      "meaningKo": "어떤 감정·동기에서",
+      "translation": "그녀는 호기심에서 그 오래된 상자를 열었어.",
+      "explanation": "out of curiosity는 호기심에서. out of money처럼 다 써서 없는 상태와 달라.",
+      "ipa": "aʊt ʌv",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "from",
+          "completedExample": "She opened the old box from curiosity.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "because of",
+          "completedExample": "She opened the old box because of curiosity.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-from-perspective",
+      "result": "pass",
+      "completedExample": "It seems unfair from her point of view.",
+      "meaningKo": "특정 관점에서 보면",
+      "translation": "그녀의 관점에서 보면 그것은 불공평해 보여.",
+      "explanation": "from her point of view는 그녀의 관점에서. from her perspective도 같은 관계야.",
+      "ipa": "frʌm",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-accordance",
+      "result": "pass",
+      "completedExample": "The food was stored in accordance with safety rules.",
+      "meaningKo": "규칙·지침에 맞게",
+      "translation": "그 식품은 안전 규칙에 맞게 보관됐어.",
+      "explanation": "in accordance with는 규칙·지침에 맞게. 이 문장에서는 according to도 가능해.",
+      "ipa": "ɪn əˈkɔːr.dəns wɪð",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "according to",
+          "completedExample": "The food was stored according to safety rules.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "in line with",
+          "completedExample": "The food was stored in line with safety rules.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-in-contrast-to",
+      "result": "pass",
+      "completedExample": "Her answer was short, in contrast to his.",
+      "meaningKo": "~와 대조적으로",
+      "translation": "그의 답과 대조적으로 그녀의 답은 짧았어.",
+      "explanation": "in contrast to는 서로 다른 점을 비교해. in contrast with도 같은 뜻이야.",
+      "ipa": "ɪn ˈkɑːn.træst tuː",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "in contrast with",
+          "completedExample": "Her answer was short, in contrast with his.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "unlike",
+          "completedExample": "Her answer was short, unlike his.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "as opposed to",
+          "completedExample": "Her answer was short, as opposed to his.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-despite",
+      "result": "pass",
+      "completedExample": "They kept walking despite the heavy rain.",
+      "meaningKo": "~에도 불구하고",
+      "translation": "그들은 폭우에도 불구하고 계속 걸었어.",
+      "explanation": "despite와 in spite of 뒤에는 명사·-ing가 와. despite of로 쓰지는 않아.",
+      "ipa": "dɪˈspaɪt",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "in spite of",
+          "completedExample": "They kept walking in spite of the heavy rain.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-regardless",
+      "result": "pass",
+      "completedExample": "Everyone may enter, regardless of age.",
+      "meaningKo": "~에 관계없이",
+      "translation": "나이에 관계없이 누구나 들어갈 수 있어.",
+      "explanation": "regardless of age는 나이가 조건이 되지 않는다는 뜻. despite의 양보와 구별해.",
+      "ipa": "rɪˈɡɑːrd.ləs ʌv",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "irrespective of",
+          "completedExample": "Everyone may enter, irrespective of age.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "without regard to",
+          "completedExample": "Everyone may enter, without regard to age.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-opposed-to",
+      "result": "pass",
+      "completedExample": "We need evidence as opposed to guesses.",
+      "meaningKo": "~와 달리, ~가 아니라",
+      "translation": "우리는 추측이 아니라 증거가 필요해.",
+      "explanation": "A as opposed to B는 B와 대비되는 A. 여기서는 guesses 대신 evidence가 필요해.",
+      "ipa": "æz əˈpoʊzd tuː",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "rather than",
+          "completedExample": "We need evidence rather than guesses.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "instead of",
+          "completedExample": "We need evidence instead of guesses.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "not",
+          "completedExample": "We need evidence not guesses.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-favor",
+      "result": "pass",
+      "completedExample": "Most students voted in favor of the new rule.",
+      "meaningKo": "~에 찬성하여",
+      "translation": "대부분의 학생들은 새 규칙에 찬성표를 던졌어.",
+      "explanation": "in favor of는 찬성하여. vote for도 찬성표를 던지다. 반대는 vote against야.",
+      "ipa": "ɪn ˈfeɪ.vɚ ʌv",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "in favour of",
+          "completedExample": "Most students voted in favour of the new rule.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "for",
+          "completedExample": "Most students voted for the new rule.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "in support of",
+          "completedExample": "Most students voted in support of the new rule.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-against-opposition",
+      "result": "pass",
+      "completedExample": "Several parents argued against the proposed change.",
+      "meaningKo": "~에 반대하여",
+      "translation": "몇몇 부모는 제안된 변화에 반대하는 주장을 폈어.",
+      "explanation": "argue against는 반대 논거를 대다. argue for는 찬성 논거를 대다는 뜻이야.",
+      "ipa": "əˈɡenst",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "in opposition to",
+          "completedExample": "Several parents argued in opposition to the proposed change.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-against-background",
+      "result": "pass",
+      "completedExample": "The talks continued against a background of war.",
+      "meaningKo": "~을 배경으로",
+      "translation": "그 회담은 전쟁을 배경으로 계속됐어.",
+      "explanation": "against a background of war는 전쟁을 배경으로. 전쟁에 반대한다는 뜻은 아니야.",
+      "ipa": "əˈɡenst",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "with",
+          "completedExample": "The talks continued with a background of war.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-against-protection",
+      "result": "pass",
+      "completedExample": "These trees protect the village against strong winds.",
+      "meaningKo": "위험에 대비하여, ~을 막도록",
+      "translation": "이 나무들은 강풍으로부터 마을을 보호해.",
+      "explanation": "protect A against B는 B를 막아 A를 보호하다. protect A from B도 가능해.",
+      "ipa": "əˈɡenst",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "from",
+          "completedExample": "These trees protect the village from strong winds.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-by-agent",
+      "result": "pass",
+      "completedExample": "The roof was damaged by strong winds.",
+      "meaningKo": "행동을 한 주체에 의해",
+      "translation": "지붕은 강풍에 의해 손상됐어.",
+      "explanation": "수동태의 by는 행동·작용의 주체를 이어. 사람뿐 아니라 바람 같은 자연력도 가능해.",
+      "ipa": "baɪ",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "because of",
+          "completedExample": "The roof was damaged because of strong winds.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "due to",
+          "completedExample": "The roof was damaged due to strong winds.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "owing to",
+          "completedExample": "The roof was damaged owing to strong winds.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-with-instrument",
+      "result": "pass",
+      "completedExample": "She measured the desk with a ruler.",
+      "meaningKo": "특정 도구·재료를 써서",
+      "translation": "그녀는 자를 써서 책상을 쟀어.",
+      "explanation": "with a ruler는 자를 도구로 써서. by는 수동태에서 작용의 주체도 나타내.",
+      "ipa": "wɪð",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "using",
+          "completedExample": "She measured the desk using a ruler.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "by means of",
+          "completedExample": "She measured the desk by means of a ruler.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-through-means",
+      "result": "pass",
+      "completedExample": "The teams built trust through regular meetings.",
+      "meaningKo": "어떤 경로·과정을 통하여",
+      "translation": "그 팀들은 정기적인 회의를 통해 신뢰를 쌓았어.",
+      "explanation": "through meetings는 회의를 통해. 공간을 통과하는 것 외에 과정·경로에도 써.",
+      "ipa": "θruː",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "by",
+          "completedExample": "The teams built trust by regular meetings.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "via",
+          "completedExample": "The teams built trust via regular meetings.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "by means of",
+          "completedExample": "The teams built trust by means of regular meetings.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-with-manner",
+      "result": "pass",
+      "completedExample": "She handled the broken glass with care.",
+      "meaningKo": "어떤 태도·방식으로",
+      "translation": "그녀는 깨진 유리를 조심스럽게 다뤘어.",
+      "explanation": "with care는 조심스럽게. with confidence는 자신 있게라는 방식·태도를 나타내.",
+      "ipa": "wɪð",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-for-beneficiary",
+      "result": "pass",
+      "completedExample": "I bought a warm coat for my brother.",
+      "meaningKo": "누군가에게 주거나 이롭게 하려고",
+      "translation": "나는 남동생에게 주려고 따뜻한 외투를 샀어.",
+      "explanation": "buy A for B는 B를 위해 A를 사다. for는 이익을 받거나 물건을 받을 사람을 이어.",
+      "ipa": "fɔːr",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-to-recipient",
+      "result": "pass",
+      "completedExample": "Please send this letter to the school office.",
+      "meaningKo": "물건·정보를 전달받는 대상 ~에게",
+      "translation": "이 편지를 학교 행정실로 보내 줘.",
+      "explanation": "send A to B는 A를 B에게 보내다. to 뒤에 전달받는 대상이나 목적지가 와.",
+      "ipa": "tuː",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-behalf",
+      "result": "pass",
+      "completedExample": "She thanked everyone on behalf of the whole team.",
+      "meaningKo": "~을 대신하거나 대표하여",
+      "translation": "그녀는 팀 전체를 대표해 모두에게 감사했어.",
+      "explanation": "on behalf of the team은 팀을 대표해서. 단순히 팀에 이롭다는 뜻만은 아니야.",
+      "ipa": "ɑːn bɪˈhæf ʌv",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "for",
+          "completedExample": "She thanked everyone for the whole team.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "in the name of",
+          "completedExample": "She thanked everyone in the name of the whole team.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-expense",
+      "result": "pass",
+      "completedExample": "He gained wealth at the expense of his health.",
+      "meaningKo": "~을 희생하거나 해치면서",
+      "translation": "그는 건강을 희생하면서 부를 얻었어.",
+      "explanation": "at the expense of health는 건강을 희생하면서. 돈을 누가 낸다는 뜻과 구별해.",
+      "ipa": "æt ði ɪkˈspens ʌv",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "at the cost of",
+          "completedExample": "He gained wealth at the cost of his health.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "at a cost to",
+          "completedExample": "He gained wealth at a cost to his health.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-exchange-for",
+      "result": "pass",
+      "completedExample": "She offered help in exchange for a free ticket.",
+      "meaningKo": "~의 대가로, ~와 맞바꾸어",
+      "translation": "그녀는 무료 표 한 장을 받는 대가로 도움을 제안했어.",
+      "explanation": "in exchange for는 ~의 대가로. exchange A for B는 A를 주고 B를 받다야.",
+      "ipa": "ɪn ɪksˈtʃeɪndʒ fɔːr",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "in return for",
+          "completedExample": "She offered help in return for a free ticket.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "for",
+          "completedExample": "She offered help for a free ticket.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-for-replacement",
+      "result": "pass",
+      "completedExample": "We substituted water for milk in the recipe.",
+      "meaningKo": "대신할 기존 대상 ~대신에",
+      "translation": "우리는 그 조리법에서 우유 대신 물을 썼어.",
+      "explanation": "substitute A for B는 B 대신 A를 쓰다. for 뒤에는 대신되는 기존 것이 와.",
+      "ipa": "fɔːr",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "instead of",
+          "completedExample": "We substituted water instead of milk in the recipe.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "in place of",
+          "completedExample": "We substituted water in place of milk in the recipe.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-with-replacement",
+      "result": "pass",
+      "completedExample": "The old lock was replaced with a new one.",
+      "meaningKo": "바꾸어 넣을 새 대상 ~로",
+      "translation": "낡은 자물쇠는 새것으로 교체됐어.",
+      "explanation": "replace A with B는 A를 B로 바꾸다. 수동형 replaced with/by에서도 뒤는 새것이야.",
+      "ipa": "wɪð",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "by",
+          "completedExample": "The old lock was replaced by a new one.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-addition",
+      "result": "pass",
+      "completedExample": "We need chairs in addition to these tables.",
+      "meaningKo": "~에 더하여",
+      "translation": "우리는 이 탁자들에 더하여 의자도 필요해.",
+      "explanation": "in addition to는 뒤의 대상에 더하여. in addition만 쓰면 독립적으로 게다가라는 뜻이야.",
+      "ipa": "ɪn əˈdɪʃ.ən tuː",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "besides",
+          "completedExample": "We need chairs besides these tables.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "as well as",
+          "completedExample": "We need chairs as well as these tables.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "along with",
+          "completedExample": "We need chairs along with these tables.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "plus",
+          "completedExample": "We need chairs plus these tables.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-except-for",
+      "result": "pass",
+      "completedExample": "The room was empty except for one chair.",
+      "meaningKo": "~을 제외하면",
+      "translation": "의자 하나를 제외하면 그 방은 비어 있었어.",
+      "explanation": "except for는 전체 진술에서 예외를 덜어내. 여기서는 의자 하나만 남아 있었어.",
+      "ipa": "ɪkˈsept fɔːr",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "except",
+          "completedExample": "The room was empty except one chair.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "apart from",
+          "completedExample": "The room was empty apart from one chair.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "aside from",
+          "completedExample": "The room was empty aside from one chair.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "but",
+          "completedExample": "The room was empty but one chair.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "but for",
+          "completedExample": "The room was empty but for one chair.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-apart-except",
+      "result": "pass",
+      "completedExample": "Everyone understood apart from one student.",
+      "meaningKo": "~을 제외하고",
+      "translation": "학생 한 명을 제외하고 모두 이해했어.",
+      "explanation": "apart from이 예외를 빼면 except for와 같은 뜻. 여기서는 한 학생만 이해하지 못했어.",
+      "ipa": "əˈpɑːrt frʌm",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "except for",
+          "completedExample": "Everyone understood except for one student.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "except",
+          "completedExample": "Everyone understood except one student.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "aside from",
+          "completedExample": "Everyone understood aside from one student.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "but",
+          "completedExample": "Everyone understood but one student.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-apart-addition",
+      "result": "pass",
+      "completedExample": "apart from basketball, she also plays tennis.",
+      "meaningKo": "~에 더하여",
+      "translation": "그녀는 농구에 더하여 테니스도 쳐.",
+      "explanation": "apart from은 추가도 뜻해. 이 문장에서는 농구를 빼는 게 아니라 둘 다 한다는 뜻이야.",
+      "ipa": "əˈpɑːrt frʌm",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "besides",
+          "completedExample": "besides basketball, she also plays tennis.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "in addition to",
+          "completedExample": "in addition to basketball, she also plays tennis.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "as well as",
+          "completedExample": "as well as basketball, she also plays tennis.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "aside from",
+          "completedExample": "aside from basketball, she also plays tennis.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-instead-of",
+      "result": "pass",
+      "completedExample": "Use a pencil instead of a pen.",
+      "meaningKo": "~대신에",
+      "translation": "펜 대신 연필을 써.",
+      "explanation": "instead는 홀로 쓰는 부사. 대신할 명사·행동을 뒤에 이을 때는 instead of를 써.",
+      "ipa": "ɪnˈsted ʌv",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "in place of",
+          "completedExample": "Use a pencil in place of a pen.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "rather than",
+          "completedExample": "Use a pencil rather than a pen.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "not",
+          "completedExample": "Use a pencil not a pen.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-regard",
+      "result": "pass",
+      "completedExample": "We have no news with regard to your application.",
+      "meaningKo": "~에 관하여",
+      "translation": "네 신청에 관해서는 새로운 소식이 없어.",
+      "explanation": "with regard to는 ~에 관하여. in regard to, regarding도 같은 주제를 이어.",
+      "ipa": "wɪð rɪˈɡɑːrd tuː",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "in regard to",
+          "completedExample": "We have no news in regard to your application.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "regarding",
+          "completedExample": "We have no news regarding your application.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "concerning",
+          "completedExample": "We have no news concerning your application.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "about",
+          "completedExample": "We have no news about your application.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "on",
+          "completedExample": "We have no news on your application.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "with respect to",
+          "completedExample": "We have no news with respect to your application.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "in relation to",
+          "completedExample": "We have no news in relation to your application.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-relation-comparison",
+      "result": "pass",
+      "completedExample": "The cost is high in relation to our income.",
+      "meaningKo": "~와 비교하여, ~에 비추어",
+      "translation": "그 비용은 우리 소득에 비해 높아.",
+      "explanation": "in relation to는 상대적으로 비교할 때도 써. 여기서는 소득이 비용 판단의 기준이야.",
+      "ipa": "ɪn rɪˈleɪ.ʃən tuː",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "relative to",
+          "completedExample": "The cost is high relative to our income.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "compared with",
+          "completedExample": "The cost is high compared with our income.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "compared to",
+          "completedExample": "The cost is high compared to our income.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "in comparison with",
+          "completedExample": "The cost is high in comparison with our income.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "in comparison to",
+          "completedExample": "The cost is high in comparison to our income.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "for",
+          "completedExample": "The cost is high for our income.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-search-of",
+      "result": "pass",
+      "completedExample": "They left the village in search of work.",
+      "meaningKo": "~을 찾아서",
+      "translation": "그들은 일자리를 찾아 마을을 떠났어.",
+      "explanation": "in search of work는 일자리를 찾아서. 동사로 찾는 대상은 search for work야.",
+      "ipa": "ɪn ˈsɝːtʃ ʌv",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "looking for",
+          "completedExample": "They left the village looking for work.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "searching for",
+          "completedExample": "They left the village searching for work.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "seeking",
+          "completedExample": "They left the village seeking work.",
+          "result": "acceptable-in-context"
+        },
+        {
+          "answer": "to find",
+          "completedExample": "They left the village to find work.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-over-dispute",
+      "result": "pass",
+      "completedExample": "The brothers quarreled over their father's money.",
+      "meaningKo": "무엇을 두고 다투거나 염려하여",
+      "translation": "그 형제들은 아버지의 돈을 두고 다퉜어.",
+      "explanation": "quarrel over money는 돈을 두고 다투다. 다투는 상대는 with, 쟁점은 over/about이야.",
+      "ipa": "ˈoʊ.vɚ",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "about",
+          "completedExample": "The brothers quarreled about their father's money.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    },
+    {
+      "id": "prep-from-separation",
+      "result": "pass",
+      "completedExample": "Keep the raw meat separate from cooked food.",
+      "meaningKo": "떼어 내거나 구분하는 상대 ~로부터",
+      "translation": "날고기는 익힌 음식과 분리해 둬.",
+      "explanation": "separate A from B는 A를 B와 분리하다. from 뒤에는 분리하는 상대가 와.",
+      "ipa": "frʌm",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-from-prevention",
+      "result": "wording-change-requested",
+      "completedExample": "High fees deter students from joining the club.",
+      "meaningKo": "어떤 행동을 하지 못하게",
+      "translation": "비싼 회비는 학생들이 동아리에 가입하지 못하게 막아.",
+      "explanation": "deter A from -ing는 A가 그 행동을 하지 못하게 막다. from 뒤 행동은 실제로 막히는 쪽이야.",
+      "ipa": "frʌm",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-from-difference",
+      "result": "pass",
+      "completedExample": "This feature distinguishes the new model from earlier ones.",
+      "meaningKo": "구별되는 다른 대상 ~와",
+      "translation": "이 특징이 새 모델을 이전 모델들과 구별해 줘.",
+      "explanation": "distinguish A from B는 A를 B와 구별하다. 어떤 특징이 두 대상을 구별되게 할 수도 있어.",
+      "ipa": "frʌm",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-from-exemption",
+      "result": "pass",
+      "completedExample": "Children under six are exempt from the fee.",
+      "meaningKo": "의무·규칙의 적용 대상 ~에서 벗어나",
+      "translation": "여섯 살 미만의 어린이는 그 요금이 면제돼.",
+      "explanation": "be exempt from the fee는 그 요금을 내지 않아도 된다는 뜻. from은 면제 대상을 이어.",
+      "ipa": "frʌm",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-of-deprivation",
+      "result": "pass",
+      "completedExample": "Loud traffic deprived us of sleep.",
+      "meaningKo": "빼앗기는 대상 ~을",
+      "translation": "시끄러운 차량 소음이 우리에게서 잠을 빼앗았어.",
+      "explanation": "deprive A of B는 A에게서 B를 빼앗다. of 뒤는 빼앗기는 것이야.",
+      "ipa": "ʌv",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-with-association",
+      "result": "pass",
+      "completedExample": "This symbol is associated with peace.",
+      "meaningKo": "서로 관련되는 상대 ~와",
+      "translation": "이 상징은 평화와 관련되어 있어.",
+      "explanation": "be associated with는 ~와 관련되다. 관련성이 있다고 반드시 원인이라는 뜻은 아니야.",
+      "ipa": "wɪð",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-capable-of",
+      "result": "pass",
+      "completedExample": "This machine is capable of lifting heavy boxes.",
+      "meaningKo": "~할 능력이 있는",
+      "translation": "이 기계는 무거운 상자를 들어 올릴 능력이 있어.",
+      "explanation": "capable of 뒤에는 명사·-ing가 와. able to를 쓰면 뒤에 동사원형을 써야 해.",
+      "ipa": "ˈkeɪ.pə.bəl ʌv",
+      "acceptedAnswerChecks": []
+    },
+    {
+      "id": "prep-to-reaction",
+      "result": "pass",
+      "completedExample": "to my surprise, the broken clock started.",
+      "meaningKo": "누군가에게 그런 감정을 일으키며",
+      "translation": "놀랍게도 고장 난 시계가 움직이기 시작했어.",
+      "explanation": "to my surprise는 놀랍게도. 사건이 내게 놀람을 일으켰다는 뜻이야.",
+      "ipa": "tuː",
+      "acceptedAnswerChecks": [
+        {
+          "answer": "much to",
+          "completedExample": "much to my surprise, the broken clock started.",
+          "result": "acceptable-in-context"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "increase 명사 뒤 by는 parent가 사전·실제 용례로 확인한 문형이다. of를 대표 답으로 유지하고 by 허용에 문제를 제기하지 않았다.",
+    "in size 및 under review의 최종 전체 구 정답과 허용 답을 재검토했다. 각 완성 문장의 뜻과 문법에 문제를 발견하지 못했다.",
+    "허용 답은 문맥상 같은 관계를 보존하는지 기준으로 판단했다. 자연스러운 대안을 단순히 기본형이 아니라는 이유로 배제하지 않았다.",
+    "deter 해설 외 뒤 45개에서 수정이 필요한 확실한 문법·뜻 오류를 발견하지 못했다.",
+    "카드 원본과 앱 파일은 수정하지 않았다."
+  ]
+}

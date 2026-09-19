@@ -1,0 +1,1528 @@
+[
+  {
+    "ex": 1,
+    "name": "범위와 판단 기준",
+    "words": [
+      {
+        "word": "within",
+        "en": "within",
+        "ko": "능력·권한 등의 범위 안에",
+        "ex": "Changing the rules is {{BLANK}} her power.",
+        "tr": "규칙을 바꾸는 일은 그녀의 권한 범위 안에 있어.",
+        "c": "within her power는 그녀의 능력·권한 범위 안. beyond는 그 범위를 벗어난다는 뜻이야.",
+        "ipa": "wɪˈðɪn",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "in"
+        ],
+        "constructionId": "prep-within-scope",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "word": "beyond",
+        "en": "beyond",
+        "ko": "능력·통제 등의 범위를 벗어나",
+        "ex": "The weather is {{BLANK}} our control.",
+        "tr": "날씨는 우리가 통제할 수 있는 범위를 벗어나 있어.",
+        "c": "beyond our control은 우리 통제 밖. beyond my ability는 내 능력 밖이야.",
+        "ipa": "bɪˈɑːnd",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "outside",
+          "out of"
+        ],
+        "constructionId": "prep-beyond-scope",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "for",
+        "en": "for",
+        "ko": "나이·조건에 비추어 보면, ~치고는",
+        "ex": "He reads well {{BLANK}} his age.",
+        "tr": "그는 나이에 비해 글을 잘 읽어.",
+        "c": "for his age는 그 나이를 기준으로 보면. 누군가를 위한 for와 달라.",
+        "ipa": "fɔːr",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "considering",
+          "given"
+        ],
+        "constructionId": "prep-for-standard",
+        "si": 1,
+        "sn": 3
+      },
+      {
+        "word": "in terms of",
+        "en": "in terms of",
+        "ko": "~의 측면에서",
+        "ex": "The two plans are similar {{BLANK}} cost.",
+        "tr": "두 계획은 비용 측면에서 비슷해.",
+        "c": "in terms of cost는 비용 면에서. 비교하는 측면을 밝혀 주는 구야.",
+        "ipa": "ɪn ˈtɝːmz ʌv",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "in",
+          "with regard to",
+          "with respect to"
+        ],
+        "constructionId": "prep-terms-aspect",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "in size",
+        "en": "in size",
+        "ko": "크기 면에서",
+        "ex": "These two boxes are different {{BLANK}}.",
+        "tr": "이 두 상자는 크기 면에서 달라.",
+        "c": "in size는 크기 면에서. in every respect는 모든 면에서라는 뜻이야.",
+        "ipa": "ɪn ˈsaɪz",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "in terms of size",
+          "with respect to size",
+          "with regard to size"
+        ],
+        "constructionId": "prep-in-dimension",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "as",
+        "en": "as",
+        "ko": "~라고 여기거나 규정하여",
+        "ex": "They regard this failure {{BLANK}} a useful lesson.",
+        "tr": "그들은 이 실패를 유익한 교훈이라고 여겨.",
+        "c": "regard A as B는 A를 B로 여기다. view A as B도 같은 관계야.",
+        "ipa": "æz",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-as-classification",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "across",
+        "en": "across",
+        "ko": "여러 지역·집단에 걸쳐",
+        "ex": "The same problem appears {{BLANK}} many different cultures.",
+        "tr": "같은 문제가 여러 서로 다른 문화에 걸쳐 나타나.",
+        "c": "across cultures는 여러 문화에 걸쳐. 길을 건너는 뜻에서 범위로 넓어진 쓰임이야.",
+        "ipa": "əˈkrɑːs",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "in",
+          "throughout"
+        ],
+        "constructionId": "prep-across-distribution",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 2,
+    "name": "시간의 한계와 경과",
+    "words": [
+      {
+        "word": "by",
+        "en": "by",
+        "ko": "늦어도 ~까지는",
+        "ex": "Please send your report {{BLANK}} noon tomorrow.",
+        "tr": "늦어도 내일 정오까지는 보고서를 보내 줘.",
+        "c": "by noon은 정오를 마감으로 삼아. until은 어떤 상태가 그때까지 계속됨을 나타내.",
+        "ipa": "baɪ",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "no later than"
+        ],
+        "constructionId": "prep-by-deadline",
+        "si": 1,
+        "sn": 6
+      },
+      {
+        "word": "until",
+        "en": "until",
+        "ko": "~까지 계속",
+        "ex": "The library stays open {{BLANK}} ten tonight.",
+        "tr": "도서관은 오늘 밤 열 시까지 계속 열려 있어.",
+        "c": "until ten은 열 시까지 계속. till도 같은 뜻으로 쓸 수 있어.",
+        "ipa": "ənˈtɪl",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "till",
+          "up to"
+        ],
+        "constructionId": "prep-until-continuation",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "in",
+        "en": "in",
+        "ko": "지금부터 ~후에",
+        "ex": "The bus will leave {{BLANK}} fifteen minutes.",
+        "tr": "버스는 지금부터 15분 후에 출발할 거야.",
+        "c": "미래 시점의 in+시간은 그만큼 지난 뒤. in fifteen minutes는 15분 후야.",
+        "ipa": "ɪn",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "after"
+        ],
+        "constructionId": "prep-in-elapsed",
+        "si": 1,
+        "sn": 3
+      },
+      {
+        "word": "within",
+        "en": "within",
+        "ko": "주어진 시간 ~이내에",
+        "ex": "We must finish {{BLANK}} an hour.",
+        "tr": "우리는 한 시간 이내에 끝내야 해.",
+        "c": "within an hour는 한 시간을 넘기지 않는 범위에서. 완료 문장에서는 in도 가능해.",
+        "ipa": "wɪˈðɪn",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "in"
+        ],
+        "constructionId": "prep-within-deadline",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "word": "over",
+        "en": "over",
+        "ko": "일정 기간에 걸쳐",
+        "ex": "Sales doubled {{BLANK}} the past five years.",
+        "tr": "지난 5년에 걸쳐 매출이 두 배가 됐어.",
+        "c": "over+기간은 그 기간에 걸친 변화에도 써. 여기서는 수량이 넘는다는 뜻이 아니야.",
+        "ipa": "ˈoʊ.vɚ",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "in",
+          "during"
+        ],
+        "constructionId": "prep-over-period",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "word": "upon",
+        "en": "upon",
+        "ko": "~하자마자",
+        "ex": "Call me {{BLANK}} arrival at the station.",
+        "tr": "역에 도착하자마자 나에게 전화해.",
+        "c": "upon arrival은 도착하자마자. on arrival도 같은 뜻으로 써.",
+        "ipa": "əˈpɑːn",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "on"
+        ],
+        "constructionId": "prep-upon-event",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 3,
+    "name": "수치와 변화",
+    "words": [
+      {
+        "word": "by",
+        "en": "by",
+        "ko": "수치가 ~만큼",
+        "ex": "The price fell {{BLANK}} three dollars.",
+        "tr": "가격이 3달러만큼 내렸어.",
+        "c": "by 뒤는 변한 양. fell by three dollars는 3달러만큼 내렸다는 뜻이야.",
+        "ipa": "baɪ",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-change-by",
+        "si": 2,
+        "sn": 6
+      },
+      {
+        "word": "to",
+        "en": "to",
+        "ko": "변한 뒤의 수치가 ~이 되도록",
+        "ex": "The price fell from ten dollars {{BLANK}} seven.",
+        "tr": "가격이 10달러에서 7달러로 내렸어.",
+        "c": "to 뒤는 변한 뒤의 값. 10에서 7로 내리면 감소량은 by three dollars야.",
+        "ipa": "tuː",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-result-to",
+        "si": 1,
+        "sn": 4
+      },
+      {
+        "word": "from",
+        "en": "from",
+        "ko": "변화가 시작된 수치 ~에서",
+        "ex": "The price rose {{BLANK}} five dollars to eight.",
+        "tr": "가격이 5달러에서 8달러로 올랐어.",
+        "c": "from은 시작값, to는 최종값. 5에서 8로 오르면 변화량은 3이야.",
+        "ipa": "frʌm",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-initial-from",
+        "si": 1,
+        "sn": 6
+      },
+      {
+        "word": "by",
+        "en": "by",
+        "ko": "비교·경쟁에서 ~만큼 차이가 나게",
+        "ex": "Our team won {{BLANK}} two points.",
+        "tr": "우리 팀은 2점 차로 이겼어.",
+        "c": "win by two points는 2점 차로 이기다. 여기서 by는 변화량이 아닌 격차야.",
+        "ipa": "baɪ",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-difference-by",
+        "si": 3,
+        "sn": 6
+      },
+      {
+        "word": "in",
+        "en": "in",
+        "ko": "증가·감소한 대상 ~의",
+        "ex": "There was an increase {{BLANK}} food prices.",
+        "tr": "식품 가격이 상승했어.",
+        "c": "an increase in prices는 가격의 증가. in 뒤는 무엇이 변했는지를 나타내.",
+        "ipa": "ɪn",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-increase-in",
+        "si": 2,
+        "sn": 3
+      },
+      {
+        "word": "of",
+        "en": "of",
+        "ko": "증가·감소한 양이 ~인",
+        "ex": "We recorded an increase {{BLANK}} ten percent.",
+        "tr": "우리는 10퍼센트의 증가를 기록했어.",
+        "c": "an increase of ten percent는 10%의 증가. of 뒤는 증가한 양이야.",
+        "ipa": "ʌv",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "by"
+        ],
+        "constructionId": "prep-increase-of",
+        "si": 1,
+        "sn": 3
+      },
+      {
+        "word": "at",
+        "en": "at",
+        "ko": "수준·수치가 ~인",
+        "ex": "The price remained {{BLANK}} twenty dollars.",
+        "tr": "가격은 20달러 수준에 머물렀어.",
+        "c": "at은 그 수치에 있는 상태. to는 변한 뒤의 값, by는 변화량을 나타내.",
+        "ipa": "æt",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-at-level",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "per",
+        "en": "per",
+        "ko": "단위 하나마다, ~당",
+        "ex": "The limit is two tickets {{BLANK}} person.",
+        "tr": "제한은 한 사람당 표 두 장이야.",
+        "c": "per person은 1인당, per hour는 시간당. 단위를 바로 이으면 보통 단수를 써.",
+        "ipa": "pɝː",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "a",
+          "for each",
+          "for every"
+        ],
+        "constructionId": "prep-per-unit",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "by",
+        "en": "by",
+        "ko": "시간·무게 등의 단위를 기준으로",
+        "ex": "The workers are paid {{BLANK}} the hour.",
+        "tr": "그 노동자들은 시간을 단위로 보수를 받아.",
+        "c": "by the hour는 시간 단위로. per hour는 시간당 얼마인지 말할 때 자주 써.",
+        "ipa": "baɪ",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-by-unit",
+        "si": 4,
+        "sn": 6
+      },
+      {
+        "word": "above",
+        "en": "above",
+        "ko": "기준 수치보다 높게",
+        "ex": "The temperature stayed {{BLANK}} last year's average.",
+        "tr": "기온은 지난해 평균보다 높은 상태였어.",
+        "c": "above average는 평균보다 위. 이런 수치 비교에서는 over와 뜻이 겹쳐.",
+        "ipa": "əˈbʌv",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "over",
+          "higher than"
+        ],
+        "constructionId": "prep-above-threshold",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "below",
+        "en": "below",
+        "ko": "기준 수치보다 낮게",
+        "ex": "The speed stayed {{BLANK}} the allowed limit.",
+        "tr": "속도는 허용 한도보다 낮은 수준에 머물렀어.",
+        "c": "below the limit는 한도보다 아래. under도 같은 수치 관계에 쓸 수 있어.",
+        "ipa": "bɪˈloʊ",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "under",
+          "lower than"
+        ],
+        "constructionId": "prep-below-threshold",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "to",
+        "en": "to",
+        "ko": "비율에서 ~대",
+        "ex": "The ratio is four {{BLANK}} one.",
+        "tr": "비율은 4대 1이야.",
+        "c": "four to one은 4대 1. the ratio of A to B는 A와 B의 비율이야.",
+        "ipa": "tuː",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-ratio-to",
+        "si": 2,
+        "sn": 4
+      }
+    ]
+  },
+  {
+    "ex": 4,
+    "name": "명사 뒤에서 이어지는 관계",
+    "words": [
+      {
+        "word": "of",
+        "en": "of",
+        "ko": "~한 성질·가치를 가진",
+        "ex": "These instructions are {{BLANK}} great value.",
+        "tr": "이 안내 사항들은 매우 유용해.",
+        "c": "of great value는 큰 가치가 있는. of use는 유용한, of importance는 중요한이야.",
+        "ipa": "ʌv",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-of-quality",
+        "si": 2,
+        "sn": 3
+      },
+      {
+        "word": "lack of",
+        "en": "lack of",
+        "ko": "~의 부족",
+        "ex": "The school closed because of a {{BLANK}} teachers.",
+        "tr": "교사가 부족해서 그 학교는 문을 닫았어.",
+        "c": "명사는 a lack of teachers. 동사라면 lacks teachers처럼 of 없이 목적어를 받아.",
+        "ipa": "læk ʌv",
+        "pos": "n.phr.",
+        "acceptedAnswers": [
+          "shortage of"
+        ],
+        "constructionId": "prep-lack-of",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "need for",
+        "en": "need for",
+        "ko": "~의 필요성",
+        "ex": "The report shows a {{BLANK}} more clean water.",
+        "tr": "그 보고서는 깨끗한 물이 더 필요함을 보여 줘.",
+        "c": "a need for water는 물의 필요성. in need of water는 물이 필요한 상태야.",
+        "ipa": "niːd fɔːr",
+        "pos": "n.phr.",
+        "acceptedAnswers": [
+          "requirement for"
+        ],
+        "constructionId": "prep-need-for",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "effect on",
+        "en": "effect on",
+        "ko": "~에 미치는 영향",
+        "ex": "Noise has a harmful {{BLANK}} sleep.",
+        "tr": "소음은 수면에 해로운 영향을 미쳐.",
+        "c": "an effect on sleep은 수면에 미치는 영향. 영향받는 대상이 on 뒤에 와.",
+        "ipa": "ɪˈfekt ɑːn",
+        "pos": "n.phr.",
+        "acceptedAnswers": [
+          "effect upon",
+          "impact on",
+          "impact upon",
+          "influence on",
+          "influence upon"
+        ],
+        "constructionId": "prep-effect-on",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "access to",
+        "en": "access to",
+        "ko": "~에 접근하거나 이용할 수 있음",
+        "ex": "These students need {{BLANK}} useful information.",
+        "tr": "이 학생들은 유용한 정보를 이용할 수 있어야 해.",
+        "c": "access to information은 정보를 이용할 수 있음. accessible to는 누가 이용 가능한지 이어.",
+        "ipa": "ˈæk.ses tuː",
+        "pos": "n.phr.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-access-to",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "solution to",
+        "en": "solution to",
+        "ko": "~의 해결책",
+        "ex": "We found a {{BLANK}} the noise problem.",
+        "tr": "우리는 소음 문제의 해결책을 찾았어.",
+        "c": "a solution to a problem은 문제의 해결책. 동사 solve는 문제를 바로 목적어로 받아.",
+        "ipa": "səˈluː.ʃən tuː",
+        "pos": "n.phr.",
+        "acceptedAnswers": [
+          "solution for",
+          "answer to",
+          "remedy for"
+        ],
+        "constructionId": "prep-solution-to",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "demand for",
+        "en": "demand for",
+        "ko": "~에 대한 수요",
+        "ex": "Hot weather increases {{BLANK}} cold drinks.",
+        "tr": "더운 날씨는 차가운 음료의 수요를 늘려.",
+        "c": "demand for drinks는 음료에 대한 수요. 무엇을 사거나 쓰려는지 for 뒤에 나타내.",
+        "ipa": "dɪˈmænd fɔːr",
+        "pos": "n.phr.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-demand-for",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "contrast between",
+        "en": "contrast between",
+        "ko": "대상들 사이의 대조",
+        "ex": "The painting shows a sharp {{BLANK}} light and dark.",
+        "tr": "그 그림은 밝음과 어둠 사이의 뚜렷한 대조를 보여 줘.",
+        "c": "contrast between A and B는 A와 B 사이의 대조. 개별 대상을 서로 비교해.",
+        "ipa": "ˈkɑːn.træst bɪˈtwiːn",
+        "pos": "n.phr.",
+        "acceptedAnswers": [
+          "contrast of",
+          "difference between"
+        ],
+        "constructionId": "prep-contrast-between",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "awareness of",
+        "en": "awareness of",
+        "ko": "~에 대한 인식",
+        "ex": "Schools can raise {{BLANK}} online risks.",
+        "tr": "학교는 온라인 위험에 대한 인식을 높일 수 있어.",
+        "c": "aware of에서 awareness of로. 명사가 되어도 인식하는 대상은 of로 이어.",
+        "ipa": "əˈwer.nəs ʌv",
+        "pos": "n.phr.",
+        "acceptedAnswers": [
+          "awareness about",
+          "consciousness of"
+        ],
+        "constructionId": "prep-awareness-of",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "responsibility for",
+        "en": "responsibility for",
+        "ko": "~에 대한 책임",
+        "ex": "Parents have {{BLANK}} their children's safety.",
+        "tr": "부모는 자녀의 안전에 책임이 있어.",
+        "c": "responsible for에서 responsibility for로. for 뒤에 책임지는 일이 와.",
+        "ipa": "rɪˌspɑːn.səˈbɪl.ə.ti fɔːr",
+        "pos": "n.phr.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-responsibility-for",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "dependence on",
+        "en": "dependence on",
+        "ko": "~에 대한 의존",
+        "ex": "Solar power can reduce our {{BLANK}} foreign oil.",
+        "tr": "태양 에너지는 외국산 석유에 대한 우리의 의존을 줄일 수 있어.",
+        "c": "depend on에서 dependence on으로. 조건이 달렸다는 뜻과 자원에 의존하는 뜻은 구별해.",
+        "ipa": "dɪˈpen.dəns ɑːn",
+        "pos": "n.phr.",
+        "acceptedAnswers": [
+          "reliance on",
+          "reliance upon",
+          "dependence upon",
+          "dependency on",
+          "dependency upon"
+        ],
+        "constructionId": "prep-dependence-on",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 5,
+    "name": "조건과 상태",
+    "words": [
+      {
+        "word": "under",
+        "en": "under",
+        "ko": "특정 조건·상황 아래에서",
+        "ex": "The plan could work {{BLANK}} different conditions.",
+        "tr": "그 계획은 다른 조건 아래에서는 효과가 있을 수 있어.",
+        "c": "under different conditions는 다른 조건에서. in these circumstances도 자연스러워.",
+        "ipa": "ˈʌn.dɚ",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "in"
+        ],
+        "constructionId": "prep-under-conditions",
+        "si": 1,
+        "sn": 3
+      },
+      {
+        "word": "under",
+        "en": "under",
+        "ko": "누군가의 통치·지배 아래에서",
+        "ex": "The country suffered {{BLANK}} a cruel ruler.",
+        "tr": "그 나라는 잔인한 통치자의 지배 아래 고통받았어.",
+        "c": "under 뒤에 통치자가 오면 그 지배 아래라는 뜻이야. 공간상 아래에 있다는 뜻과 달라.",
+        "ipa": "ˈʌn.dɚ",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-under-rule",
+        "si": 2,
+        "sn": 3
+      },
+      {
+        "word": "under review",
+        "en": "under review",
+        "ko": "검토 중인",
+        "ex": "The plan is {{BLANK}}.",
+        "tr": "그 계획은 검토 중이야.",
+        "c": "under review는 검토 중. under construction은 건설 작업이 진행 중이라는 뜻이야.",
+        "ipa": "ˈʌn.dɚ rɪˈvjuː",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "in review",
+          "undergoing review"
+        ],
+        "constructionId": "prep-under-process",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "under",
+        "en": "under",
+        "ko": "압박·부담을 받고",
+        "ex": "The team is {{BLANK}} pressure to finish.",
+        "tr": "그 팀은 끝내야 한다는 압박을 받고 있어.",
+        "c": "under pressure는 압박을 받는 상태. under strain도 부담을 받는다는 뜻이야.",
+        "ipa": "ˈʌn.dɚ",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-under-pressure",
+        "si": 3,
+        "sn": 3
+      },
+      {
+        "word": "with",
+        "en": "with",
+        "ko": "어떤 도움·여건이 있다면",
+        "ex": "We can finish today {{BLANK}} a little help.",
+        "tr": "약간의 도움이 있으면 우리는 오늘 끝낼 수 있어.",
+        "c": "with a little help는 약간의 도움이 있다면. 함께한다는 뜻에서 여건으로 이어져.",
+        "ipa": "wɪð",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "given"
+        ],
+        "constructionId": "prep-with-condition",
+        "si": 1,
+        "sn": 5
+      },
+      {
+        "word": "without",
+        "en": "without",
+        "ko": "~이 없다면",
+        "ex": "We cannot finish {{BLANK}} your help.",
+        "tr": "네 도움이 없다면 우리는 끝낼 수 없어.",
+        "c": "without your help는 네 도움이 없는 조건. with는 도움이 있는 조건을 나타낼 수 있어.",
+        "ipa": "wɪˈðaʊt",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "in the absence of"
+        ],
+        "constructionId": "prep-without-condition",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "in the absence of",
+        "en": "in the absence of",
+        "ko": "~이 없는 상황에서",
+        "ex": "Use the stairs {{BLANK}} a working elevator.",
+        "tr": "작동하는 엘리베이터가 없는 상황에서는 계단을 써.",
+        "c": "in the absence of는 ~이 없는 상황에서. absent의 명사 absence가 들어가.",
+        "ipa": "ɪn ði ˈæb.səns ʌv",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "without"
+        ],
+        "constructionId": "prep-absence-condition",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "in",
+        "en": "in",
+        "ko": "어떤 상태에 있는",
+        "ex": "The business is {{BLANK}} serious trouble.",
+        "tr": "그 사업은 심각한 곤경에 처해 있어.",
+        "c": "in trouble은 곤경에 있는 상태. in exile처럼 상태를 나타내는 명사와도 결합해.",
+        "ipa": "ɪn",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-in-state",
+        "si": 3,
+        "sn": 3
+      },
+      {
+        "word": "on",
+        "en": "on",
+        "ko": "특정 활동·임무 중인",
+        "ex": "Two nurses are {{BLANK}} duty tonight.",
+        "tr": "오늘 밤에는 간호사 두 명이 근무 중이야.",
+        "c": "on duty는 근무 중. on patrol은 순찰 중이야. 임무·활동 상태를 나타내.",
+        "ipa": "ɑːn",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-on-activity",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 6,
+    "name": "근거와 반응",
+    "words": [
+      {
+        "word": "by",
+        "en": "by",
+        "ko": "분류·판단의 기준에 따라",
+        "ex": "Please sort these files {{BLANK}} date.",
+        "tr": "이 파일들을 날짜를 기준으로 정리해 줘.",
+        "c": "by date는 날짜별로. judge by appearance는 겉모습을 기준으로 판단하다야.",
+        "ipa": "baɪ",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "according to",
+          "in order of"
+        ],
+        "constructionId": "prep-by-criterion",
+        "si": 5,
+        "sn": 6
+      },
+      {
+        "word": "according to",
+        "en": "according to",
+        "ko": "자료·사람이 전하는 내용에 따르면",
+        "ex": "The road is closed, {{BLANK}} the local news.",
+        "tr": "지역 뉴스에 따르면 그 도로는 폐쇄됐어.",
+        "c": "according to the news는 뉴스에 따르면. 말이나 정보가 나온 출처를 밝혀.",
+        "ipa": "əˈkɔːr.dɪŋ tuː",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "as reported by"
+        ],
+        "constructionId": "prep-according-source",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "word": "according to",
+        "en": "according to",
+        "ko": "규칙·기준에 맞추어",
+        "ex": "Please act {{BLANK}} the school rules.",
+        "tr": "학교 규칙에 맞게 행동해 줘.",
+        "c": "according to the rules는 규칙에 맞게. 정보의 출처가 아니라 따르는 기준이야.",
+        "ipa": "əˈkɔːr.dɪŋ tuː",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "in accordance with",
+          "in line with"
+        ],
+        "constructionId": "prep-according-rule",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "word": "in light of",
+        "en": "in light of",
+        "ko": "새 정보·사정을 고려하여",
+        "ex": "We changed our plan {{BLANK}} the new evidence.",
+        "tr": "우리는 새 증거를 고려해 계획을 바꿨어.",
+        "c": "in light of는 새 정보·사정을 판단에 반영할 때 써. in the light of도 같아.",
+        "ipa": "ɪn ˈlaɪt ʌv",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "in the light of",
+          "given",
+          "considering",
+          "because of"
+        ],
+        "constructionId": "prep-in-light-of",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "in response to",
+        "en": "in response to",
+        "ko": "~에 대한 반응으로",
+        "ex": "She smiled {{BLANK}} his kind words.",
+        "tr": "그녀는 그의 다정한 말에 대한 반응으로 미소 지었어.",
+        "c": "response는 반응, respond to는 반응하다. in response to는 반응의 계기를 이어.",
+        "ipa": "ɪn rɪˈspɑːns tuː",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "as a response to",
+          "in reaction to",
+          "at",
+          "because of"
+        ],
+        "constructionId": "prep-in-response-to",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "on the basis of",
+        "en": "on the basis of",
+        "ko": "~을 근거로",
+        "ex": "We chose the method {{BLANK}} safety data.",
+        "tr": "우리는 안전 자료를 근거로 그 방법을 골랐어.",
+        "c": "on the basis of data는 자료를 근거로. base A on B도 B에 근거를 둔다는 뜻이야.",
+        "ipa": "ɑːn ðə ˈbeɪ.sɪs ʌv",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "based on",
+          "using"
+        ],
+        "constructionId": "prep-on-basis-of",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "out of",
+        "en": "out of",
+        "ko": "어떤 감정·동기에서",
+        "ex": "She stayed silent {{BLANK}} fear.",
+        "tr": "그녀는 두려워서 침묵했어.",
+        "c": "out of fear는 두려움에서. out of money처럼 다 써서 없는 상태와 달라.",
+        "ipa": "aʊt ʌv",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "from",
+          "because of"
+        ],
+        "constructionId": "prep-out-of-motive",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "from",
+        "en": "from",
+        "ko": "특정 관점에서 보면",
+        "ex": "It seems unfair {{BLANK}} her point of view.",
+        "tr": "그녀의 관점에서 보면 그것은 불공평해 보여.",
+        "c": "from her point of view는 그녀의 관점에서. from her perspective도 같은 관계야.",
+        "ipa": "frʌm",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-from-perspective",
+        "si": 2,
+        "sn": 6
+      },
+      {
+        "word": "in accordance with",
+        "en": "in accordance with",
+        "ko": "규칙·지침에 맞게",
+        "ex": "The food was stored {{BLANK}} safety rules.",
+        "tr": "그 식품은 안전 규칙에 맞게 보관됐어.",
+        "c": "in accordance with는 규칙·지침에 맞게. 이 문장에서는 according to도 가능해.",
+        "ipa": "ɪn əˈkɔːr.dəns wɪð",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "according to",
+          "in line with"
+        ],
+        "constructionId": "prep-accordance",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 7,
+    "name": "대조와 입장",
+    "words": [
+      {
+        "word": "in contrast to",
+        "en": "in contrast to",
+        "ko": "~와 대조적으로",
+        "ex": "Her answer was short, {{BLANK}} his.",
+        "tr": "그의 답과 대조적으로 그녀의 답은 짧았어.",
+        "c": "in contrast to는 서로 다른 점을 비교해. in contrast with도 같은 뜻이야.",
+        "ipa": "ɪn ˈkɑːn.træst tuː",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "in contrast with",
+          "unlike",
+          "as opposed to"
+        ],
+        "constructionId": "prep-in-contrast-to",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "despite",
+        "en": "despite",
+        "ko": "~에도 불구하고",
+        "ex": "They kept walking {{BLANK}} the heavy rain.",
+        "tr": "그들은 폭우에도 불구하고 계속 걸었어.",
+        "c": "despite와 in spite of 뒤에는 명사·-ing가 와. despite of로 쓰지는 않아.",
+        "ipa": "dɪˈspaɪt",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "in spite of"
+        ],
+        "constructionId": "prep-despite",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "regardless of",
+        "en": "regardless of",
+        "ko": "~에 관계없이",
+        "ex": "Everyone may enter, {{BLANK}} age.",
+        "tr": "나이에 관계없이 누구나 들어갈 수 있어.",
+        "c": "regardless of age는 나이가 조건이 되지 않는다는 뜻. despite의 양보와 구별해.",
+        "ipa": "rɪˈɡɑːrd.ləs ʌv",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "irrespective of",
+          "without regard to"
+        ],
+        "constructionId": "prep-regardless",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "as opposed to",
+        "en": "as opposed to",
+        "ko": "~와 달리, ~가 아니라",
+        "ex": "We need evidence {{BLANK}} guesses.",
+        "tr": "우리는 추측이 아니라 증거가 필요해.",
+        "c": "A as opposed to B는 B와 대비되는 A. 여기서는 guesses 대신 evidence가 필요해.",
+        "ipa": "æz əˈpoʊzd tuː",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "rather than",
+          "instead of",
+          "not"
+        ],
+        "constructionId": "prep-opposed-to",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "in favor of",
+        "en": "in favor of",
+        "ko": "~에 찬성하여",
+        "ex": "Most students voted {{BLANK}} the new rule.",
+        "tr": "대부분의 학생들은 새 규칙에 찬성표를 던졌어.",
+        "c": "in favor of는 찬성하여. vote for도 찬성표를 던지다. 반대는 vote against야.",
+        "ipa": "ɪn ˈfeɪ.vɚ ʌv",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "in favour of",
+          "for",
+          "in support of"
+        ],
+        "constructionId": "prep-favor",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "against",
+        "en": "against",
+        "ko": "~에 반대하여",
+        "ex": "Several parents argued {{BLANK}} the proposed change.",
+        "tr": "몇몇 부모는 제안된 변화에 반대하는 주장을 폈어.",
+        "c": "argue against는 반대 논거를 대다. argue for는 찬성 논거를 대다는 뜻이야.",
+        "ipa": "əˈɡenst",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "in opposition to"
+        ],
+        "constructionId": "prep-against-opposition",
+        "si": 1,
+        "sn": 3
+      },
+      {
+        "word": "against",
+        "en": "against",
+        "ko": "~을 배경으로",
+        "ex": "The talks continued {{BLANK}} a background of war.",
+        "tr": "그 회담은 전쟁을 배경으로 계속됐어.",
+        "c": "against a background of war는 전쟁을 배경으로. 전쟁에 반대한다는 뜻은 아니야.",
+        "ipa": "əˈɡenst",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "with"
+        ],
+        "constructionId": "prep-against-background",
+        "si": 2,
+        "sn": 3
+      },
+      {
+        "word": "against",
+        "en": "against",
+        "ko": "위험에 대비하여, ~을 막도록",
+        "ex": "These trees protect the village {{BLANK}} strong winds.",
+        "tr": "이 나무들은 강풍으로부터 마을을 보호해.",
+        "c": "protect A against B는 B를 막아 A를 보호하다. protect A from B도 가능해.",
+        "ipa": "əˈɡenst",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "from"
+        ],
+        "constructionId": "prep-against-protection",
+        "si": 3,
+        "sn": 3
+      }
+    ]
+  },
+  {
+    "ex": 8,
+    "name": "수단과 주고받는 방향",
+    "words": [
+      {
+        "word": "by",
+        "en": "by",
+        "ko": "행동을 한 주체에 의해",
+        "ex": "The roof was damaged {{BLANK}} strong winds.",
+        "tr": "지붕은 강풍에 의해 손상됐어.",
+        "c": "수동태의 by는 행동·작용의 주체를 이어. 사람뿐 아니라 바람 같은 자연력도 가능해.",
+        "ipa": "baɪ",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "because of",
+          "due to",
+          "owing to"
+        ],
+        "constructionId": "prep-by-agent",
+        "si": 6,
+        "sn": 6
+      },
+      {
+        "word": "with",
+        "en": "with",
+        "ko": "특정 도구·재료를 써서",
+        "ex": "She measured the desk {{BLANK}} a ruler.",
+        "tr": "그녀는 자를 써서 책상을 쟀어.",
+        "c": "with a ruler는 자를 도구로 써서. by는 수동태에서 작용의 주체도 나타내.",
+        "ipa": "wɪð",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "using",
+          "by means of"
+        ],
+        "constructionId": "prep-with-instrument",
+        "si": 2,
+        "sn": 5
+      },
+      {
+        "word": "through",
+        "en": "through",
+        "ko": "어떤 경로·과정을 통하여",
+        "ex": "The teams built trust {{BLANK}} regular meetings.",
+        "tr": "그 팀들은 정기적인 회의를 통해 신뢰를 쌓았어.",
+        "c": "through meetings는 회의를 통해. 공간을 통과하는 것 외에 과정·경로에도 써.",
+        "ipa": "θruː",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "by",
+          "via",
+          "by means of"
+        ],
+        "constructionId": "prep-through-means",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "with",
+        "en": "with",
+        "ko": "어떤 태도·방식으로",
+        "ex": "She handled the broken glass {{BLANK}} care.",
+        "tr": "그녀는 깨진 유리를 조심스럽게 다뤘어.",
+        "c": "with care는 조심스럽게. with confidence는 자신 있게라는 방식·태도를 나타내.",
+        "ipa": "wɪð",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-with-manner",
+        "si": 3,
+        "sn": 5
+      },
+      {
+        "word": "for",
+        "en": "for",
+        "ko": "누군가에게 주거나 이롭게 하려고",
+        "ex": "I bought a warm coat {{BLANK}} my brother.",
+        "tr": "나는 남동생에게 주려고 따뜻한 외투를 샀어.",
+        "c": "buy A for B는 B를 위해 A를 사다. for는 이익을 받거나 물건을 받을 사람을 이어.",
+        "ipa": "fɔːr",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-for-beneficiary",
+        "si": 2,
+        "sn": 3
+      },
+      {
+        "word": "to",
+        "en": "to",
+        "ko": "물건·정보를 전달받는 대상 ~에게",
+        "ex": "Please send this letter {{BLANK}} the school office.",
+        "tr": "이 편지를 학교 행정실로 보내 줘.",
+        "c": "send A to B는 A를 B에게 보내다. to 뒤에 전달받는 대상이나 목적지가 와.",
+        "ipa": "tuː",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-to-recipient",
+        "si": 3,
+        "sn": 4
+      },
+      {
+        "word": "on behalf of",
+        "en": "on behalf of",
+        "ko": "~을 대신하거나 대표하여",
+        "ex": "She thanked everyone {{BLANK}} the whole team.",
+        "tr": "그녀는 팀 전체를 대표해 모두에게 감사했어.",
+        "c": "on behalf of the team은 팀을 대표해서. 단순히 팀에 이롭다는 뜻만은 아니야.",
+        "ipa": "ɑːn bɪˈhæf ʌv",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "for",
+          "in the name of"
+        ],
+        "constructionId": "prep-behalf",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "at the expense of",
+        "en": "at the expense of",
+        "ko": "~을 희생하거나 해치면서",
+        "ex": "He gained wealth {{BLANK}} his health.",
+        "tr": "그는 건강을 희생하면서 부를 얻었어.",
+        "c": "at the expense of health는 건강을 희생하면서. 돈을 누가 낸다는 뜻과 구별해.",
+        "ipa": "æt ði ɪkˈspens ʌv",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "at the cost of",
+          "at a cost to"
+        ],
+        "constructionId": "prep-expense",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "in exchange for",
+        "en": "in exchange for",
+        "ko": "~의 대가로, ~와 맞바꾸어",
+        "ex": "She offered help {{BLANK}} a free ticket.",
+        "tr": "그녀는 무료 표 한 장을 받는 대가로 도움을 제안했어.",
+        "c": "in exchange for는 ~의 대가로. exchange A for B는 A를 주고 B를 받다야.",
+        "ipa": "ɪn ɪksˈtʃeɪndʒ fɔːr",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "in return for",
+          "for"
+        ],
+        "constructionId": "prep-exchange-for",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "for",
+        "en": "for",
+        "ko": "대신할 기존 대상 ~대신에",
+        "ex": "The substitution of tea {{BLANK}} coffee worked well.",
+        "tr": "커피 대신 차를 쓴 것은 효과가 좋았어.",
+        "c": "substitution of A for B는 B 대신 A를 씀. for 뒤에는 대신되는 기존 것이 와.",
+        "ipa": "fɔːr",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "in place of",
+          "instead of"
+        ],
+        "constructionId": "prep-for-replacement",
+        "si": 3,
+        "sn": 3
+      },
+      {
+        "word": "with",
+        "en": "with",
+        "ko": "바꾸어 넣을 새 대상 ~로",
+        "ex": "The old lock was replaced {{BLANK}} a new one.",
+        "tr": "낡은 자물쇠는 새것으로 교체됐어.",
+        "c": "replace A with B는 A를 B로 바꾸다. 수동형 replaced with/by에서도 뒤는 새것이야.",
+        "ipa": "wɪð",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "by"
+        ],
+        "constructionId": "prep-with-replacement",
+        "si": 4,
+        "sn": 5
+      }
+    ]
+  },
+  {
+    "ex": 9,
+    "name": "추가·예외와 다루는 대상",
+    "words": [
+      {
+        "word": "in addition to",
+        "en": "in addition to",
+        "ko": "~에 더하여",
+        "ex": "We need chairs {{BLANK}} these tables.",
+        "tr": "우리는 이 탁자들에 더하여 의자도 필요해.",
+        "c": "in addition to는 뒤의 대상에 더하여. in addition만 쓰면 독립적으로 게다가라는 뜻이야.",
+        "ipa": "ɪn əˈdɪʃ.ən tuː",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "besides",
+          "as well as",
+          "along with",
+          "plus"
+        ],
+        "constructionId": "prep-addition",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "except for",
+        "en": "except for",
+        "ko": "~을 제외하면",
+        "ex": "The room was empty {{BLANK}} one chair.",
+        "tr": "의자 하나를 제외하면 그 방은 비어 있었어.",
+        "c": "except for는 전체 진술에서 예외를 덜어내. 여기서는 의자 하나만 남아 있었어.",
+        "ipa": "ɪkˈsept fɔːr",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "except",
+          "apart from",
+          "aside from",
+          "but",
+          "but for"
+        ],
+        "constructionId": "prep-except-for",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "apart from",
+        "en": "apart from",
+        "ko": "~을 제외하고",
+        "ex": "Everyone understood {{BLANK}} one student.",
+        "tr": "학생 한 명을 제외하고 모두 이해했어.",
+        "c": "apart from이 예외를 빼면 except for와 같은 뜻. 여기서는 한 학생만 이해하지 못했어.",
+        "ipa": "əˈpɑːrt frʌm",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "except for",
+          "except",
+          "aside from",
+          "but"
+        ],
+        "constructionId": "prep-apart-except",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "word": "apart from",
+        "en": "apart from",
+        "ko": "~에 더하여",
+        "ex": "{{BLANK}} basketball, she also plays tennis.",
+        "tr": "그녀는 농구에 더하여 테니스도 쳐.",
+        "c": "apart from은 추가도 뜻해. 이 문장에서는 농구를 빼는 게 아니라 둘 다 한다는 뜻이야.",
+        "ipa": "əˈpɑːrt frʌm",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "besides",
+          "in addition to",
+          "as well as",
+          "aside from"
+        ],
+        "constructionId": "prep-apart-addition",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "word": "instead of",
+        "en": "instead of",
+        "ko": "~대신에",
+        "ex": "Use a pencil {{BLANK}} a pen.",
+        "tr": "펜 대신 연필을 써.",
+        "c": "instead는 홀로 쓰는 부사. 대신할 명사·행동을 뒤에 이을 때는 instead of를 써.",
+        "ipa": "ɪnˈsted ʌv",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "in place of",
+          "rather than",
+          "not"
+        ],
+        "constructionId": "prep-instead-of",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "with regard to",
+        "en": "with regard to",
+        "ko": "~에 관하여",
+        "ex": "We have no news {{BLANK}} your request.",
+        "tr": "네 요청에 관해서는 새로운 소식이 없어.",
+        "c": "with regard to는 ~에 관하여. in regard to, regarding도 같은 주제를 이어.",
+        "ipa": "wɪð rɪˈɡɑːrd tuː",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "in regard to",
+          "regarding",
+          "concerning",
+          "about",
+          "on",
+          "with respect to",
+          "in relation to"
+        ],
+        "constructionId": "prep-regard",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "in relation to",
+        "en": "in relation to",
+        "ko": "~와 비교하여, ~에 비추어",
+        "ex": "The cost is high {{BLANK}} our income.",
+        "tr": "그 비용은 우리 소득에 비해 높아.",
+        "c": "in relation to는 상대적으로 비교할 때도 써. 여기서는 소득이 비용 판단의 기준이야.",
+        "ipa": "ɪn rɪˈleɪ.ʃən tuː",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "relative to",
+          "compared with",
+          "compared to",
+          "in comparison with",
+          "in comparison to",
+          "for"
+        ],
+        "constructionId": "prep-relation-comparison",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "in search of",
+        "en": "in search of",
+        "ko": "~을 찾아서",
+        "ex": "They left the village {{BLANK}} work.",
+        "tr": "그들은 일자리를 찾아 마을을 떠났어.",
+        "c": "in search of work는 일자리를 찾아서. 동사로 찾는 대상은 search for work야.",
+        "ipa": "ɪn ˈsɝːtʃ ʌv",
+        "pos": "prep.phr.",
+        "acceptedAnswers": [
+          "looking for",
+          "searching for",
+          "seeking",
+          "to find"
+        ],
+        "constructionId": "prep-search-of",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "over",
+        "en": "over",
+        "ko": "무엇을 두고 다투거나 염려하여",
+        "ex": "The brothers quarreled {{BLANK}} their father's money.",
+        "tr": "그 형제들은 아버지의 돈을 두고 다퉜어.",
+        "c": "quarrel over money는 돈을 두고 다투다. 다투는 상대는 with, 쟁점은 over/about이야.",
+        "ipa": "ˈoʊ.vɚ",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "about"
+        ],
+        "constructionId": "prep-over-dispute",
+        "si": 2,
+        "sn": 2
+      }
+    ]
+  },
+  {
+    "ex": 10,
+    "name": "분리와 단어의 결합",
+    "words": [
+      {
+        "word": "from",
+        "en": "from",
+        "ko": "떼어 내거나 구분하는 상대 ~로부터",
+        "ex": "Keep the raw meat separate {{BLANK}} cooked food.",
+        "tr": "날고기는 익힌 음식과 분리해 둬.",
+        "c": "separate A from B는 A를 B와 분리하다. from 뒤에는 분리하는 상대가 와.",
+        "ipa": "frʌm",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-from-separation",
+        "si": 3,
+        "sn": 6
+      },
+      {
+        "word": "from",
+        "en": "from",
+        "ko": "어떤 행동을 하지 않도록",
+        "ex": "High costs deter students {{BLANK}} joining the club.",
+        "tr": "많은 비용은 학생들이 동아리에 가입하기를 꺼리게 해.",
+        "c": "deter A from -ing는 A가 그 행동을 하지 않도록 억제하다. from 뒤는 억제하려는 행동이야.",
+        "ipa": "frʌm",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-from-prevention",
+        "si": 4,
+        "sn": 6
+      },
+      {
+        "word": "from",
+        "en": "from",
+        "ko": "구별되는 다른 대상 ~와",
+        "ex": "This design distinguishes the new model {{BLANK}} earlier ones.",
+        "tr": "이 디자인이 새 모델을 이전 모델들과 구별해 줘.",
+        "c": "distinguish A from B는 A를 B와 구별하다. 어떤 특징이 두 대상을 구별되게 할 수도 있어.",
+        "ipa": "frʌm",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-from-difference",
+        "si": 5,
+        "sn": 6
+      },
+      {
+        "word": "from",
+        "en": "from",
+        "ko": "의무·규칙의 적용 대상 ~에서 벗어나",
+        "ex": "Children under six are exempt {{BLANK}} payment.",
+        "tr": "여섯 살 미만의 어린이는 요금을 내지 않아도 돼.",
+        "c": "be exempt from payment는 납부 의무가 면제된. from은 면제 대상을 이어.",
+        "ipa": "frʌm",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-from-exemption",
+        "si": 6,
+        "sn": 6
+      },
+      {
+        "word": "of",
+        "en": "of",
+        "ko": "빼앗기는 대상 ~을",
+        "ex": "Loud traffic deprived us {{BLANK}} sleep.",
+        "tr": "시끄러운 차량 소음이 우리에게서 잠을 빼앗았어.",
+        "c": "deprive A of B는 A에게서 B를 빼앗다. of 뒤는 빼앗기는 것이야.",
+        "ipa": "ʌv",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-of-deprivation",
+        "si": 3,
+        "sn": 3
+      },
+      {
+        "word": "with",
+        "en": "with",
+        "ko": "서로 관련되는 상대 ~와",
+        "ex": "This symbol is associated {{BLANK}} peace.",
+        "tr": "이 상징은 평화와 관련되어 있어.",
+        "c": "be associated with는 ~와 관련되다. 관련성이 있다고 반드시 원인이라는 뜻은 아니야.",
+        "ipa": "wɪð",
+        "pos": "prep.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-with-association",
+        "si": 5,
+        "sn": 5
+      },
+      {
+        "word": "capable of",
+        "en": "capable of",
+        "ko": "~할 능력이 있는",
+        "ex": "This machine is {{BLANK}} lifting heavy boxes.",
+        "tr": "이 기계는 무거운 상자를 들어 올릴 능력이 있어.",
+        "c": "capable of 뒤에는 명사·-ing가 와. able to를 쓰면 뒤에 동사원형을 써야 해.",
+        "ipa": "ˈkeɪ.pə.bəl ʌv",
+        "pos": "adj.phr.",
+        "acceptedAnswers": [],
+        "constructionId": "prep-capable-of",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "word": "to",
+        "en": "to",
+        "ko": "누군가에게 그런 감정을 일으키며",
+        "ex": "{{BLANK}} my surprise, the broken clock started.",
+        "tr": "놀랍게도 고장 난 시계가 움직이기 시작했어.",
+        "c": "to my surprise는 놀랍게도. 사건이 내게 놀람을 일으켰다는 뜻이야.",
+        "ipa": "tuː",
+        "pos": "prep.",
+        "acceptedAnswers": [
+          "much to"
+        ],
+        "constructionId": "prep-to-reaction",
+        "si": 4,
+        "sn": 4
+      }
+    ]
+  }
+]

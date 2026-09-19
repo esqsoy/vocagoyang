@@ -25,7 +25,8 @@ F=collections.defaultdict(list)          # 기준 -> [(세트, 단어, 설명)]
 
 # ── A1 si/sn 무결성
 by=collections.defaultdict(list)
-for ln,_,w in cards: by[w.get('word')].append((ln,w))
+for ln,_,w in cards:
+    if ln<46: by[w.get('word')].append((ln,w))
 for word,lst in by.items():
     if any(l>=46 for l,_ in lst): continue
     sis=sorted(w.get('si') or 0 for _,w in lst)
@@ -45,8 +46,20 @@ for word,lst in by.items():
     if word in HETERO: continue
     if any(l>=46 for l,_ in lst): continue
     bypos=collections.defaultdict(set)
-    for _,w in lst: bypos[w.get('pos')].add((w.get('ipa') or '').strip())
-    for pos,ip in bypos.items():
+    # 같은 표제어라도 답이 other/others처럼 실제로 다르면 발음도 달라진다.
+    # 실제 정답 형태와 품사가 같은 카드끼리만 비교한다.
+    for _,w in lst: bypos[(w.get('pos'),(w.get('en') or word).lower())].add((w.get('ipa') or '').strip())
+    for (pos,answer),ip in bypos.items():
+        # used: 중고의 /juzd/와 be used to의 익숙한 /just/는 둘 다 형용사다.
+        # https://dictionary.cambridge.org/us/dictionary/english/used
+        # 실제 확인한 두 값만 허용하며 오타나 다른 값은 계속 검출한다.
+        if word=='used' and pos=='adj.' and ip.issubset({'juzd','just'}): continue
+        # 무시하다 /dɪsˈkaʊnt/, 할인하다 /ˈdɪskaʊnt/는 미국 발음으로 모두 허용.
+        # https://www.oxfordlearnersdictionaries.com/definition/american_english/discount_2
+        if word=='discount' and pos=='v.' and ip.issubset({'dɪsˈkaʊnt','ˈdɪskaʊnt'}): continue
+        # 스포츠 offense는 미국 영어에서 앞에 강세를 둘 수 있다.
+        # https://www.collinsdictionary.com/us/dictionary/english/offense (sense 9)
+        if word=='offense' and pos=='n.' and ip.issubset({'əˈfɛns','ˈɑfɛns'}): continue
         if len(ip)>1: F['A2'].append((lst[0][0],word,f"{pos} 안에서 ipa가 {sorted(ip)}"))
 
 # ── A3 pos ↔ 빈칸 자리

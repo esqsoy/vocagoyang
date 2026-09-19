@@ -1,0 +1,3991 @@
+{
+  "version": "2026-09-19",
+  "approach": "현대 영어의 형태·뜻 관계를 읽은 뒤 실제 단어를 회상한다. 역사적 원형·차용 경로·불확실성은 별도로 확인한다. 원문 전사는 현대 영어 발음과 다르다.",
+  "courses": [
+    {
+      "lesson": 47,
+      "name": "접사로 뜻과 품사 읽기",
+      "progressId": "morphology-affixes-20260919",
+      "groups": [
+        {
+          "name": "접사 1 · un- / un- / in- / im- / il- / ir-",
+          "unitIds": [
+            "affix-un-negative",
+            "affix-un-reversal",
+            "affix-in-negative"
+          ]
+        },
+        {
+          "name": "접사 2 · dis- / non- / mis-",
+          "unitIds": [
+            "affix-dis",
+            "affix-non",
+            "affix-mis"
+          ]
+        },
+        {
+          "name": "접사 3 · re- / de- / pre- / post-",
+          "unitIds": [
+            "affix-re",
+            "affix-de",
+            "affix-pre-post"
+          ]
+        },
+        {
+          "name": "접사 4 · over- / under- / inter- / intra- / sub- / super-",
+          "unitIds": [
+            "affix-over-under",
+            "affix-inter-intra",
+            "affix-sub-super"
+          ]
+        },
+        {
+          "name": "접사 5 · trans- / co- / anti-",
+          "unitIds": [
+            "affix-trans",
+            "affix-co",
+            "affix-anti"
+          ]
+        },
+        {
+          "name": "접사 6 · -ness / -ity / -ment / -tion / -sion",
+          "unitIds": [
+            "affix-ness-ity",
+            "affix-ment",
+            "affix-ion"
+          ]
+        },
+        {
+          "name": "접사 7 · -ance / -ence / -er / -or / -ist / -ism",
+          "unitIds": [
+            "affix-ance-ence",
+            "affix-agent",
+            "affix-ist-ism"
+          ]
+        },
+        {
+          "name": "접사 8 · -ful / -less / -able / -ible / -al / -ic / -ical",
+          "unitIds": [
+            "affix-ful-less",
+            "affix-able-ible",
+            "affix-al-ic-ical"
+          ]
+        },
+        {
+          "name": "접사 9 · -ive / -ous / -ly",
+          "unitIds": [
+            "affix-ive-ous",
+            "affix-ly"
+          ]
+        },
+        {
+          "name": "접사 10 · -ize / -ise / -ify / -en",
+          "unitIds": [
+            "affix-ize",
+            "affix-ify-en"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 48,
+      "name": "어근과 단어 가족",
+      "progressId": "morphology-roots-20260919",
+      "groups": [
+        {
+          "name": "라틴계 1 · duc / duct / fer / port",
+          "unitIds": [
+            "lat-duc",
+            "lat-fer",
+            "lat-port"
+          ],
+          "progressId": "morphology-latin-20260919",
+          "progressTitle": "Exercise 1 · 라틴계 1 · duc / duct / fer / port",
+          "legacyLocation": {
+            "lid": "48세트",
+            "title": "Exercise 1 · 라틴계 1 · duc / duct / fer / port"
+          }
+        },
+        {
+          "name": "라틴계 2 · ject / mit / miss / pon / posit",
+          "unitIds": [
+            "lat-ject",
+            "lat-mit",
+            "lat-pon"
+          ],
+          "progressId": "morphology-latin-20260919",
+          "progressTitle": "Exercise 2 · 라틴계 2 · ject / mit / miss / pon / posit",
+          "legacyLocation": {
+            "lid": "48세트",
+            "title": "Exercise 2 · 라틴계 2 · ject / mit / miss / pon / posit"
+          }
+        },
+        {
+          "name": "라틴계 3 · fac / fic / fact / fect / cap / cip / cept / ten / tin / tain",
+          "unitIds": [
+            "lat-fac",
+            "lat-cap",
+            "lat-ten"
+          ],
+          "progressId": "morphology-latin-20260919",
+          "progressTitle": "Exercise 3 · 라틴계 3 · fac / fic / fact / fect / cap / cip / cept / ten / tin / tain",
+          "legacyLocation": {
+            "lid": "48세트",
+            "title": "Exercise 3 · 라틴계 3 · fac / fic / fact / fect / cap / cip / cept / ten / tin / tain"
+          }
+        },
+        {
+          "name": "라틴계 4 · vert / vers / scrib / script / spec / spic / spect",
+          "unitIds": [
+            "lat-vert",
+            "lat-scrib",
+            "lat-spec"
+          ],
+          "progressId": "morphology-latin-20260919",
+          "progressTitle": "Exercise 4 · 라틴계 4 · vert / vers / scrib / script / spec / spic / spect",
+          "legacyLocation": {
+            "lid": "48세트",
+            "title": "Exercise 4 · 라틴계 4 · vert / vers / scrib / script / spec / spic / spect"
+          }
+        },
+        {
+          "name": "라틴계 5 · vid / vis / cred / dic / dict",
+          "unitIds": [
+            "lat-vid",
+            "lat-cred",
+            "lat-dict"
+          ],
+          "progressId": "morphology-latin-20260919",
+          "progressTitle": "Exercise 5 · 라틴계 5 · vid / vis / cred / dic / dict",
+          "legacyLocation": {
+            "lid": "48세트",
+            "title": "Exercise 5 · 라틴계 5 · vid / vis / cred / dic / dict"
+          }
+        },
+        {
+          "name": "라틴계 6 · trah / tract / rump / rupt / stru / struct",
+          "unitIds": [
+            "lat-tract",
+            "lat-rupt",
+            "lat-struct"
+          ],
+          "progressId": "morphology-latin-20260919",
+          "progressTitle": "Exercise 6 · 라틴계 6 · trah / tract / rump / rupt / stru / struct",
+          "legacyLocation": {
+            "lid": "48세트",
+            "title": "Exercise 6 · 라틴계 6 · trah / tract / rump / rupt / stru / struct"
+          }
+        },
+        {
+          "name": "라틴계 7 · ced / ceed / cess / ag / act",
+          "unitIds": [
+            "lat-ced",
+            "lat-ag"
+          ],
+          "progressId": "morphology-latin-20260919",
+          "progressTitle": "Exercise 7 · 라틴계 7 · ced / ceed / cess / ag / act",
+          "legacyLocation": {
+            "lid": "48세트",
+            "title": "Exercise 7 · 라틴계 7 · ced / ceed / cess / ag / act"
+          }
+        },
+        {
+          "name": "라틴계 8 · reg / rect / sequ",
+          "unitIds": [
+            "lat-reg",
+            "lat-sequ"
+          ],
+          "progressId": "morphology-latin-20260919",
+          "progressTitle": "Exercise 8 · 라틴계 8 · reg / rect / sequ",
+          "legacyLocation": {
+            "lid": "48세트",
+            "title": "Exercise 8 · 라틴계 8 · reg / rect / sequ"
+          }
+        },
+        {
+          "name": "그리스계 1 · bio- / geo- / graph",
+          "unitIds": [
+            "gr-bio",
+            "gr-geo",
+            "gr-graph"
+          ],
+          "progressId": "morphology-greek-20260919",
+          "progressTitle": "Exercise 1 · 그리스계 1 · bio- / geo- / graph",
+          "legacyLocation": {
+            "lid": "49세트",
+            "title": "Exercise 1 · 그리스계 1 · bio- / geo- / graph"
+          }
+        },
+        {
+          "name": "그리스계 2 · -logy / phon / photo-",
+          "unitIds": [
+            "gr-logy",
+            "gr-phon",
+            "gr-photo"
+          ],
+          "progressId": "morphology-greek-20260919",
+          "progressTitle": "Exercise 2 · 그리스계 2 · -logy / phon / photo-",
+          "legacyLocation": {
+            "lid": "49세트",
+            "title": "Exercise 2 · 그리스계 2 · -logy / phon / photo-"
+          }
+        },
+        {
+          "name": "그리스계 3 · therm / chron / psych",
+          "unitIds": [
+            "gr-therm",
+            "gr-chron",
+            "gr-psych"
+          ],
+          "progressId": "morphology-greek-20260919",
+          "progressTitle": "Exercise 3 · 그리스계 3 · therm / chron / psych",
+          "legacyLocation": {
+            "lid": "49세트",
+            "title": "Exercise 3 · 그리스계 3 · therm / chron / psych"
+          }
+        },
+        {
+          "name": "그리스계 4 · anthrop / auto- / tele-",
+          "unitIds": [
+            "gr-anthrop",
+            "gr-auto",
+            "gr-tele"
+          ],
+          "progressId": "morphology-greek-20260919",
+          "progressTitle": "Exercise 4 · 그리스계 4 · anthrop / auto- / tele-",
+          "legacyLocation": {
+            "lid": "49세트",
+            "title": "Exercise 4 · 그리스계 4 · anthrop / auto- / tele-"
+          }
+        },
+        {
+          "name": "그리스계 5 · micro- / -scope",
+          "unitIds": [
+            "gr-micro",
+            "gr-scope"
+          ],
+          "progressId": "morphology-greek-20260919",
+          "progressTitle": "Exercise 5 · 그리스계 5 · micro- / -scope",
+          "legacyLocation": {
+            "lid": "49세트",
+            "title": "Exercise 5 · 그리스계 5 · micro- / -scope"
+          }
+        },
+        {
+          "name": "그리스계 6 · path / dem",
+          "unitIds": [
+            "gr-path",
+            "gr-dem"
+          ],
+          "progressId": "morphology-greek-20260919",
+          "progressTitle": "Exercise 6 · 그리스계 6 · path / dem",
+          "legacyLocation": {
+            "lid": "49세트",
+            "title": "Exercise 6 · 그리스계 6 · path / dem"
+          }
+        },
+        {
+          "name": "영어계 1 · blood ↔ bleed / food ↔ feed / strong ↔ strength",
+          "unitIds": [
+            "en-blood",
+            "en-food",
+            "en-strong"
+          ],
+          "progressId": "morphology-english-20260919",
+          "progressTitle": "Exercise 1 · 영어계 1 · blood ↔ bleed / food ↔ feed / strong ↔ strength",
+          "legacyLocation": {
+            "lid": "50세트",
+            "title": "Exercise 1 · 영어계 1 · blood ↔ bleed / food ↔ feed / strong ↔ strength"
+          }
+        },
+        {
+          "name": "영어계 2 · broad ↔ breadth / long ↔ length",
+          "unitIds": [
+            "en-broad",
+            "en-long"
+          ],
+          "progressId": "morphology-english-20260919",
+          "progressTitle": "Exercise 2 · 영어계 2 · broad ↔ breadth / long ↔ length",
+          "legacyLocation": {
+            "lid": "50세트",
+            "title": "Exercise 2 · 영어계 2 · broad ↔ breadth / long ↔ length"
+          }
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "affix-un-negative",
+      "title": "un- · 그렇지 않은",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "un-",
+          "meaning": "~하지 않은, ~이 없는",
+          "englishPronunciation": "/ʌn/"
+        }
+      ],
+      "rule": "주로 형용사 앞에 붙어 그 성질이나 상태를 부정해. 모르는 단어를 만나면 원래 형용사를 먼저 찾아봐.",
+      "limits": "모든 형용사에 붙일 수는 없어. impossible을 unpossible로 바꾸는 식으로 새 단어를 만들지는 않아.",
+      "history": {
+        "origin": "고대 영어 un- ‘아닌’. 게르만어 계통에서 영어로 이어진 부정 접두사야.",
+        "route": "고대 영어 un- → 중세 영어 un- → 현대 영어 un-",
+        "notes": "동작을 되돌리는 undo의 un-와 현대 모습은 같지만 역사적 계통을 구별해. 중세 영어 자체는 게르만어 계통 언어이며 라틴어의 한 단계가 아니야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/un-"
+      ],
+      "cards": [
+        {
+          "word": "unclear",
+          "en": "unclear",
+          "ko": "분명하지 않은",
+          "ex": "The reason remains {{BLANK}}.",
+          "tr": "이유는 여전히 분명하지 않아.",
+          "c": "un-(아닌)+clear(분명한). 부정해도 형용사라는 역할은 유지돼.",
+          "ipa": "ʌnˈklɪr",
+          "pos": "adj."
+        },
+        {
+          "word": "unfair",
+          "en": "unfair",
+          "ko": "불공평한",
+          "ex": "The rule seems {{BLANK}} to smaller teams.",
+          "tr": "그 규칙은 규모가 작은 팀들에 불공평해 보여.",
+          "c": "un-(아닌)+fair(공평한). fair의 다른 뜻인 ‘박람회’와는 관련 없어.",
+          "ipa": "ʌnˈfer",
+          "pos": "adj."
+        },
+        {
+          "word": "unaware",
+          "en": "unaware",
+          "ko": "알지 못하는",
+          "ex": "They were {{BLANK}} of the risk.",
+          "tr": "그들은 그 위험을 알지 못했어.",
+          "c": "un-(아닌)+aware(아는). be unaware of로 무엇을 모르는지 연결해.",
+          "ipa": "ˌʌnəˈwer",
+          "pos": "adj."
+        }
+      ]
+    },
+    {
+      "id": "affix-un-reversal",
+      "title": "un- · 하던 일을 되돌리는",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "un-",
+          "meaning": "동작을 되돌림, 묶이거나 닫힌 상태를 풂",
+          "englishPronunciation": "/ʌn/"
+        }
+      ],
+      "rule": "동사 앞에서는 앞선 동작을 취소하거나 결합·잠금 상태를 푸는 뜻이 될 수 있어.",
+      "limits": "unlock은 ‘잠그지 않다’가 아니라 ‘잠긴 것을 열다’야. 단순 부정과 동작 취소를 구별해.",
+      "history": {
+        "origin": "고대 영어 on-, un-. 게르만어의 ‘맞서, 반대 방향으로’ 계통과 이어져.",
+        "route": "고대 영어 on-/un- → 중세 영어 un- → 현대 영어 un-",
+        "notes": "부정 un-와 비슷한 철자·뜻 때문에 일찍부터 서로 영향을 주었어. 두 접두사의 역사를 하나로 단정하지 않아."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/un-"
+      ],
+      "cards": [
+        {
+          "word": "undo",
+          "en": "undo",
+          "ko": "되돌리다, 취소하다",
+          "ex": "We cannot {{BLANK}} the damage.",
+          "tr": "우리는 그 피해를 되돌릴 수 없어.",
+          "c": "un-(되돌려)+do(하다). 이미 생긴 행동이나 결과를 없애는 뜻이야.",
+          "ipa": "ʌnˈduː",
+          "pos": "v."
+        },
+        {
+          "word": "unlock",
+          "en": "unlock",
+          "ko": "잠금을 풀다",
+          "ex": "This key will {{BLANK}} the door.",
+          "tr": "이 열쇠로 그 문의 잠금을 풀 수 있어.",
+          "c": "un-(풀어)+lock(잠그다). ‘잠그지 않다’와는 달라.",
+          "ipa": "ʌnˈlɑːk",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "affix-in-negative",
+      "title": "in- / im- / il- / ir- · 부정과 형태 변화",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "in-",
+          "meaning": "~하지 않은",
+          "englishPronunciation": "/ɪn/"
+        },
+        {
+          "form": "im-",
+          "meaning": "주로 b·m·p 앞에서 바뀐 부정형",
+          "englishPronunciation": "/ɪm/"
+        },
+        {
+          "form": "il-",
+          "meaning": "l 앞에서 바뀐 부정형",
+          "englishPronunciation": "/ɪl/"
+        },
+        {
+          "form": "ir-",
+          "meaning": "r 앞에서 바뀐 부정형",
+          "englishPronunciation": "/ɪr/"
+        }
+      ],
+      "rule": "주로 라틴어 계통 형용사를 부정해. 뒤의 자음에 맞춰 n이 m·l·r로 달라진 형태를 함께 알아둬.",
+      "limits": "import의 im-는 ‘안으로’라는 별개 접두사야. in으로 시작한다고 모두 부정은 아니며, 어떤 부정 접두사를 쓰는지는 단어별로 확인해.",
+      "history": {
+        "origin": "라틴어 in- ‘아닌’. 라틴어 in- ‘안으로’와는 어원이 다른 동형 접두사야.",
+        "route": "라틴어 in- 및 동화형 im-/il-/ir- → 프랑스어·영어의 차용어와 파생어",
+        "notes": "동화는 가까운 소리가 닮아가는 변화야. illegal은 il-+legal, irregular는 ir-+regular의 관계로 볼 수 있어."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/in-"
+      ],
+      "cards": [
+        {
+          "word": "inactive",
+          "en": "inactive",
+          "ko": "활동하지 않는, 비활성의",
+          "ex": "The account is {{BLANK}} now.",
+          "tr": "그 계정은 지금 비활성 상태야.",
+          "c": "in-(아닌)+active(활동하는). active와 inactive를 한 쌍으로 기억해.",
+          "ipa": "ɪnˈæktɪv",
+          "pos": "adj."
+        },
+        {
+          "word": "impossible",
+          "en": "impossible",
+          "ko": "불가능한",
+          "ex": "A quick solution seems {{BLANK}}.",
+          "tr": "빠른 해결은 불가능해 보여.",
+          "c": "in-이 p 앞에서 im-로 바뀐 형태. possible(가능한)의 부정이야.",
+          "ipa": "ɪmˈpɑːsəbəl",
+          "pos": "adj."
+        },
+        {
+          "word": "irregular",
+          "en": "irregular",
+          "ko": "불규칙한",
+          "ex": "The changes follow an {{BLANK}} pattern.",
+          "tr": "그 변화들은 불규칙한 양상을 보여.",
+          "c": "in-이 r 앞에서 ir-로 바뀐 형태. regular(규칙적인)의 부정이야.",
+          "ipa": "ɪˈreɡjələr",
+          "pos": "adj."
+        }
+      ]
+    },
+    {
+      "id": "affix-dis",
+      "title": "dis- · 반대와 분리",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "dis-",
+          "meaning": "반대, 부정, 분리",
+          "englishPronunciation": "/dɪs/"
+        }
+      ],
+      "rule": "어떤 상태에 반대하거나 연결된 것을 떼어내는 뜻을 만들 수 있어. 문맥에 맞게 부정과 분리를 구별해.",
+      "limits": "dis-를 빼면 언제나 독립 단어가 남는 것은 아니야. 발견한 철자만으로 현재 뜻을 확정하지 않아.",
+      "history": {
+        "origin": "라틴어 dis- ‘떨어져, 따로, 다른 방향으로’.",
+        "route": "라틴어 dis- → 고대 프랑스어 des- 또는 라틴어 직접 차용 → 영어 dis-",
+        "notes": "분리 의미에서 반대·부정 의미가 확장되었고, 영어에서도 새로운 단어를 만드는 데 쓰여."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/dis-",
+        "https://dictionary.cambridge.org/dictionary/english/disagree?topic=arguing-and-disagreeing"
+      ],
+      "cards": [
+        {
+          "word": "disagree",
+          "en": "disagree",
+          "ko": "동의하지 않다",
+          "ex": "People {{BLANK}} about the cause.",
+          "tr": "사람들은 그 원인에 관해 의견이 달라.",
+          "c": "dis-(반대)+agree. disagree with는 사람·의견에, about/on은 논점에 연결해.",
+          "ipa": "ˌdɪsəˈɡriː",
+          "pos": "v."
+        },
+        {
+          "word": "disconnect",
+          "en": "disconnect",
+          "ko": "연결을 끊다",
+          "ex": "Please {{BLANK}} the cable first.",
+          "tr": "먼저 그 케이블의 연결을 끊어 줘.",
+          "c": "dis-(떼어)+connect(연결하다). 여기서는 단순 부정이 아닌 분리 동작이야.",
+          "ipa": "ˌdɪskəˈnekt",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "affix-non",
+      "title": "non- · 해당하지 않음",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "non-",
+          "meaning": "~이 아닌, ~에 속하지 않는",
+          "englishPronunciation": "/nɑːn/"
+        }
+      ],
+      "rule": "분류상 어떤 범주에 속하지 않거나 해당 성질이 없음을 나타내. 강한 반대나 나쁜 평가를 반드시 담지는 않아.",
+      "limits": "non-, un-, dis-를 아무 단어에나 바꿔 붙일 수는 없어. 하이픈 사용도 단어마다 확인해.",
+      "history": {
+        "origin": "라틴어 nōn ‘아니다’.",
+        "route": "라틴어 nōn → 고대 프랑스어 non-·앵글로프랑스어 noun- → 중세·현대 영어 non-",
+        "notes": "영어에서는 명사·형용사 등 여러 종류의 어휘에 널리 붙는 접두사야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/non-"
+      ],
+      "cards": [
+        {
+          "word": "nonfiction",
+          "en": "nonfiction",
+          "ko": "논픽션, 사실에 바탕을 둔 글",
+          "ex": "She reads {{BLANK}} to learn about history.",
+          "tr": "그녀는 역사를 배우려고 논픽션을 읽어.",
+          "c": "non-(아닌)+fiction(허구). 사실 기반이라는 분류이지 무조건 정확하다는 보증은 아니야.",
+          "ipa": "ˌnɑːnˈfɪkʃən",
+          "pos": "n."
+        },
+        {
+          "word": "nonverbal",
+          "en": "nonverbal",
+          "ko": "말을 사용하지 않는, 비언어적인",
+          "ex": "A smile is a {{BLANK}} signal.",
+          "tr": "미소는 비언어적 신호야.",
+          "c": "non-(아닌)+verbal(말의). 몸짓·표정처럼 말 이외의 전달 방식을 가리켜.",
+          "ipa": "ˌnɑːnˈvɝːbəl",
+          "pos": "adj."
+        }
+      ]
+    },
+    {
+      "id": "affix-mis",
+      "title": "mis- · 잘못된 방식",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "mis-",
+          "meaning": "잘못, 부적절하게",
+          "englishPronunciation": "/mɪs/"
+        }
+      ],
+      "rule": "동작 자체를 안 하는 것이 아니라 잘못된 방식으로 하는 뜻을 만들어.",
+      "limits": "misunderstand는 이해하지 못함이 아니라 잘못 이해함이야. 모든 mis- 단어가 영어에서 직접 조립된 것은 아니야.",
+      "history": {
+        "origin": "고대 영어 mis- ‘잘못’. 프랑스어 mes-에서 온 별도 계통의 mis-도 영어에 합류했어.",
+        "route": "게르만어 계통 → 고대 영어 mis- → 현대 영어 mis-; 일부 단어는 고대 프랑스어 mes-를 거침",
+        "notes": "이 단위는 현대 기능이 투명한 mislead·misinterpret를 다뤄. mischief 같은 차용어에 똑같은 분해를 강요하지 않아."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/mis-"
+      ],
+      "cards": [
+        {
+          "word": "mislead",
+          "en": "mislead",
+          "ko": "잘못된 생각을 하게 하다, 오도하다",
+          "ex": "Small samples can {{BLANK}} us.",
+          "tr": "작은 표본은 우리를 오도할 수 있어.",
+          "c": "mis-(잘못)+lead(이끌다). 거짓말뿐 아니라 정보가 잘못된 판단으로 이끄는 경우도 돼.",
+          "ipa": "ˌmɪsˈliːd",
+          "pos": "v."
+        },
+        {
+          "word": "misinterpret",
+          "en": "misinterpret",
+          "ko": "잘못 해석하다",
+          "ex": "Readers may {{BLANK}} the final sentence.",
+          "tr": "독자들은 마지막 문장을 잘못 해석할 수 있어.",
+          "c": "mis-(잘못)+interpret(해석하다). ‘해석하지 않다’가 아니라 해석의 방향이 틀린 거야.",
+          "ipa": "ˌmɪsɪnˈtɝːprɪt",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "affix-re",
+      "title": "re- · 다시와 되돌려",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "re-",
+          "meaning": "다시, 되돌려",
+          "englishPronunciation": "/riː/"
+        }
+      ],
+      "rule": "반복해서 다시 하거나 원래 상태·위치로 돌려주는 뜻을 나타내. 단어에 따라 발음과 강세는 달라져.",
+      "limits": "receive 같은 차용어는 현대 영어의 ceive에 re-를 붙여 만든 단어가 아니야. re가 보인다고 무조건 ‘다시’로 읽지 않아.",
+      "history": {
+        "origin": "라틴어 re- ‘뒤로, 다시’. 더 먼 기원에는 불확실성이 있어 여기서는 확정하지 않아.",
+        "route": "라틴어 re- → 고대 프랑스어 re- 또는 직접 차용 → 영어에서 널리 쓰이는 re-",
+        "notes": "현대의 생산적인 re-와 이미 굳어진 라틴계 차용어 속 re-를 구별해."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/re-"
+      ],
+      "cards": [
+        {
+          "word": "reconsider",
+          "en": "reconsider",
+          "ko": "재고하다, 다시 생각하다",
+          "ex": "New evidence made us {{BLANK}} the plan.",
+          "tr": "새로운 증거 때문에 우리는 그 계획을 다시 생각했어.",
+          "c": "re-(다시)+consider(고려하다). 이미 한 판단을 다시 검토하는 뜻이야.",
+          "ipa": "ˌriːkənˈsɪdər",
+          "pos": "v."
+        },
+        {
+          "word": "rebuild",
+          "en": "rebuild",
+          "ko": "다시 세우다, 재건하다",
+          "ex": "They hope to {{BLANK}} public trust.",
+          "tr": "그들은 대중의 신뢰를 다시 쌓길 바라.",
+          "c": "re-(다시)+build(짓다). 건물뿐 아니라 신뢰·관계의 회복에도 써.",
+          "ipa": "ˌriːˈbɪld",
+          "pos": "v."
+        },
+        {
+          "word": "repay",
+          "en": "repay",
+          "ko": "갚다, 보답하다",
+          "ex": "I will {{BLANK}} the money next month.",
+          "tr": "나는 다음 달에 그 돈을 갚을 거야.",
+          "c": "re-(되돌려)+pay(지불하다). 여기서는 같은 돈을 또 내는 것이 아니라 빚을 갚아.",
+          "ipa": "rɪˈpeɪ",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "affix-de",
+      "title": "de- · 없애고 되돌리는",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "de-",
+          "meaning": "제거, 취소, 낮춤",
+          "englishPronunciation": "/diː/ 또는 /dɪ/"
+        }
+      ],
+      "rule": "현대 영어에서는 기능·상태를 없애거나 반대로 돌리는 뜻으로 자주 쓰여.",
+      "limits": "라틴어에서는 강조·완료 뜻도 있었어. describe처럼 de-가 있다고 현대 뜻을 ‘제거’로 단정하면 안 돼.",
+      "history": {
+        "origin": "라틴어 dē ‘아래로, ~로부터, 떨어져’.",
+        "route": "라틴어 dē-/de- → 프랑스어 또는 직접 차용 → 현대 영어 de-",
+        "notes": "역사적 의미는 넓지만 이 단위에서는 현대에 분명한 제거·취소 기능을 먼저 익혀."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/de-"
+      ],
+      "cards": [
+        {
+          "word": "deactivate",
+          "en": "deactivate",
+          "ko": "작동을 멈추게 하다, 비활성화하다",
+          "ex": "You can {{BLANK}} the system here.",
+          "tr": "여기서 그 체계를 비활성화할 수 있어.",
+          "c": "de-(취소)+activate(작동시키다). inactive는 상태, deactivate는 그렇게 만드는 동작이야.",
+          "ipa": "diːˈæktɪveɪt",
+          "pos": "v."
+        },
+        {
+          "word": "devalue",
+          "en": "devalue",
+          "ko": "가치를 낮추다, 평가절하하다",
+          "ex": "These actions may {{BLANK}} our work.",
+          "tr": "이러한 행동은 우리 작업의 가치를 떨어뜨릴 수 있어.",
+          "c": "de-(낮춰)+value(가치). 가격뿐 아니라 가치나 중요성을 낮게 평가할 때도 써.",
+          "ipa": "ˌdiːˈvæljuː",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "affix-pre-post",
+      "title": "pre- / post- · 이전과 이후",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "pre-",
+          "meaning": "~이전의, 미리",
+          "englishPronunciation": "/priː/"
+        },
+        {
+          "form": "post-",
+          "meaning": "~이후의",
+          "englishPronunciation": "/poʊst/"
+        }
+      ],
+      "rule": "사건이나 기준 시점의 앞·뒤를 나타내. 먼저 무엇을 시간의 기준으로 삼는지 확인해.",
+      "limits": "postwar는 ‘전쟁을 미루다’가 아니라 ‘전쟁 이후의’야. 접두사 뜻만큼 문장 속 품사도 중요해.",
+      "history": {
+        "origin": "라틴어 prae ‘앞에, 전에’; post ‘뒤에, 후에’.",
+        "route": "prae → 고대 프랑스어·중세 라틴어 pre- → 영어 pre-; 라틴어 post → 영어 post-",
+        "notes": "현재 영어에서도 새로운 시기·단계 이름을 만드는 데 쓰여. 모든 단어의 유입 시점이 같은 것은 아니야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/pre-",
+        "https://www.etymonline.com/word/post-"
+      ],
+      "cards": [
+        {
+          "word": "preview",
+          "en": "preview",
+          "ko": "미리 보다",
+          "ex": "We can {{BLANK}} the changes before saving.",
+          "tr": "저장하기 전에 변경 사항을 미리 볼 수 있어.",
+          "c": "pre-(미리)+view(보다). 여기서는 동사이며 명사로는 ‘미리 보기’야.",
+          "ipa": "ˈpriːvjuː",
+          "pos": "v."
+        },
+        {
+          "word": "preexisting",
+          "en": "preexisting",
+          "ko": "이전부터 존재하던",
+          "ex": "The plan covers {{BLANK}} problems too.",
+          "tr": "그 계획은 이전부터 있던 문제들도 다뤄.",
+          "c": "pre-(이전에)+existing(존재하는). 기준 시점 이전부터 있던 상태를 말해.",
+          "ipa": "ˌpriːɪɡˈzɪstɪŋ",
+          "pos": "adj."
+        },
+        {
+          "word": "postwar",
+          "en": "postwar",
+          "ko": "전후의, 전쟁 이후의",
+          "ex": "The book examines {{BLANK}} society.",
+          "tr": "그 책은 전쟁 이후의 사회를 살펴봐.",
+          "c": "post-(이후)+war(전쟁). 문맥에서 어떤 전쟁 이후인지 확인해.",
+          "ipa": "ˈpoʊstwɔːr",
+          "pos": "adj."
+        }
+      ]
+    },
+    {
+      "id": "affix-over-under",
+      "title": "over- / under- · 지나침과 부족",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "over-",
+          "meaning": "과도하게, 기준보다 높게",
+          "englishPronunciation": "/oʊvər/"
+        },
+        {
+          "form": "under-",
+          "meaning": "부족하게, 기준보다 낮게",
+          "englishPronunciation": "/ʌndər/"
+        }
+      ],
+      "rule": "수량·정도·평가가 적정 기준을 넘거나 밑도는 뜻을 만들 수 있어.",
+      "limits": "위치 뜻도 있으며, understand를 under+stand의 현재 뜻으로 조립하면 이해할 수 없어.",
+      "history": {
+        "origin": "고대 영어 ofer ‘위로, 넘어서’; under ‘아래에’. 둘 다 게르만어 계통에서 이어졌어.",
+        "route": "고대 영어 ofer-/under- → 중세 영어 over-/under- → 현대 영어",
+        "notes": "위아래의 공간 관계가 정도·수준의 관계로 확장된 사례를 학습해."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/over-",
+        "https://www.etymonline.com/word/under"
+      ],
+      "cards": [
+        {
+          "word": "overestimate",
+          "en": "overestimate",
+          "ko": "과대평가하다, 너무 높게 잡다",
+          "ex": "People often {{BLANK}} their own knowledge.",
+          "tr": "사람들은 흔히 자기 지식을 과대평가해.",
+          "c": "over-(너무 높게)+estimate(추정하다). 실제보다 크게 잡는 거야.",
+          "ipa": "ˌoʊvərˈestɪmeɪt",
+          "pos": "v."
+        },
+        {
+          "word": "underestimate",
+          "en": "underestimate",
+          "ko": "과소평가하다, 너무 낮게 잡다",
+          "ex": "We must not {{BLANK}} the cost.",
+          "tr": "우리는 그 비용을 너무 낮게 잡으면 안 돼.",
+          "c": "under-(너무 낮게)+estimate(추정하다). 난도·위험을 얕볼 때도 써.",
+          "ipa": "ˌʌndərˈestɪmeɪt",
+          "pos": "v."
+        },
+        {
+          "word": "underdeveloped",
+          "en": "underdeveloped",
+          "ko": "충분히 발달하지 않은",
+          "ex": "The argument is still {{BLANK}}.",
+          "tr": "그 논거는 아직 충분히 전개되지 않았어.",
+          "c": "under-(부족하게)+developed(발달한). 나라뿐 아니라 생각·논거에도 쓸 수 있어.",
+          "ipa": "ˌʌndərdɪˈveləpt",
+          "pos": "adj."
+        }
+      ]
+    },
+    {
+      "id": "affix-inter-intra",
+      "title": "inter- / intra- · 사이와 내부",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "inter-",
+          "meaning": "서로 사이에",
+          "englishPronunciation": "/ɪntər/"
+        },
+        {
+          "form": "intra-",
+          "meaning": "하나의 내부에",
+          "englishPronunciation": "/ɪntrə/"
+        }
+      ],
+      "rule": "둘 이상 사이의 관계인지, 하나의 범위 안에서 일어나는 일인지 구별해.",
+      "limits": "internal의 처음만 보고 intra-가 붙었다고 잘라내지 않아. 비슷한 철자와 실제 형태소 경계를 구별해.",
+      "history": {
+        "origin": "라틴어 inter ‘사이에’; intrā ‘안에, 내부에’.",
+        "route": "라틴어 inter-/intra- → 영어의 차용어·학술 조어와 현대 파생어",
+        "notes": "두 라틴어 형태는 역사적으로도 관련이 있지만 현대 영어에서는 서로 다른 범위를 나타내."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/inter-",
+        "https://www.etymonline.com/word/intra-"
+      ],
+      "cards": [
+        {
+          "word": "international",
+          "en": "international",
+          "ko": "국제적인, 국가 간의",
+          "ex": "The problem needs {{BLANK}} action.",
+          "tr": "그 문제는 국제적인 행동이 필요해.",
+          "c": "inter-(사이에)+national(국가의). 여러 나라 사이의 관계를 나타내.",
+          "ipa": "ˌɪntərˈnæʃənəl",
+          "pos": "adj."
+        },
+        {
+          "word": "interdependent",
+          "en": "interdependent",
+          "ko": "서로 의존하는",
+          "ex": "These two systems are {{BLANK}}.",
+          "tr": "이 두 체계는 서로 의존해.",
+          "c": "inter-(서로)+dependent(의존하는). 한쪽만이 아니라 상호 의존이야.",
+          "ipa": "ˌɪntərdɪˈpendənt",
+          "pos": "adj."
+        },
+        {
+          "word": "intracellular",
+          "en": "intracellular",
+          "ko": "세포 내의",
+          "ex": "The study examines {{BLANK}} changes.",
+          "tr": "그 연구는 세포 안에서 일어나는 변화를 조사해.",
+          "c": "intra-(내부)+cellular(세포의). 세포 ‘사이’는 intercellular야.",
+          "ipa": "ˌɪntrəˈseljələr",
+          "pos": "adj."
+        }
+      ]
+    },
+    {
+      "id": "affix-sub-super",
+      "title": "sub- / super- · 아래와 너머",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "sub-",
+          "meaning": "아래, 하위",
+          "englishPronunciation": "/sʌb/"
+        },
+        {
+          "form": "super-",
+          "meaning": "위, 보통 수준을 넘어서",
+          "englishPronunciation": "/suːpər/"
+        }
+      ],
+      "rule": "물리적 위아래뿐 아니라 단계·수준·의식의 범위처럼 추상적 관계도 나타내.",
+      "limits": "sub-는 부분·하위 분류, super-는 과도한 정도 등도 나타내. 모든 단어를 공간 그림 하나로 풀이하지 않아.",
+      "history": {
+        "origin": "라틴어 sub ‘아래에’; super ‘위에, 넘어서’.",
+        "route": "라틴어 sub-/super- → 프랑스어·라틴어 차용 및 영어의 새 조어",
+        "notes": "subject·suggest 같은 오래된 차용어에서는 접두사의 원래 뜻만으로 현재 뜻이 바로 나오지 않아."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/sub-",
+        "https://www.etymonline.com/word/super-"
+      ],
+      "cards": [
+        {
+          "word": "subconscious",
+          "en": "subconscious",
+          "ko": "잠재의식의, 의식 아래의",
+          "ex": "The choice may show a {{BLANK}} fear.",
+          "tr": "그 선택은 잠재의식 속 두려움을 보여줄 수 있어.",
+          "c": "sub-(아래)+conscious(의식하는). 분명히 자각하지 못하는 정신 작용을 가리켜.",
+          "ipa": "ˌsʌbˈkɑːnʃəs",
+          "pos": "adj."
+        },
+        {
+          "word": "superhuman",
+          "en": "superhuman",
+          "ko": "초인적인",
+          "ex": "The task seemed to demand {{BLANK}} strength.",
+          "tr": "그 일은 초인적인 힘을 요구하는 듯했어.",
+          "c": "super-(넘어서)+human(인간의). 보통 인간의 능력 한계를 넘는다는 뜻이야.",
+          "ipa": "ˌsuːpərˈhjuːmən",
+          "pos": "adj."
+        }
+      ]
+    },
+    {
+      "id": "affix-trans",
+      "title": "trans- · 가로지르고 바꾸는",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "trans-",
+          "meaning": "가로질러, 다른 쪽으로, 변화",
+          "englishPronunciation": "/træns/ 또는 /trænz/"
+        }
+      ],
+      "rule": "경계를 건너 다른 곳으로 옮기거나 형태·상태를 바꾸는 뜻의 단어들을 연결해.",
+      "limits": "단어별로 이미 굳어진 의미가 있어. 접두사 의미는 연결을 돕는 단서이며 정의 전체가 아니야.",
+      "history": {
+        "origin": "라틴어 trāns ‘가로질러, 건너편으로’.",
+        "route": "라틴어 trans- → 프랑스어 또는 직접 차용 → 영어 trans-",
+        "notes": "‘건너감’에서 변화의 의미로 확장된 관계를 학습하되, 모든 뜻을 한 번에 유추할 수 있다고 보지 않아."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/trans-"
+      ],
+      "cards": [
+        {
+          "word": "transform",
+          "en": "transform",
+          "ko": "크게 바꾸다, 변형하다",
+          "ex": "New ideas can {{BLANK}} a society.",
+          "tr": "새로운 생각은 사회를 크게 바꿀 수 있어.",
+          "c": "trans-(변화)+form(형태). 모습·성질을 바꾸는 뜻으로 연결해.",
+          "ipa": "trænsˈfɔːrm",
+          "pos": "v."
+        },
+        {
+          "word": "transplant",
+          "en": "transplant",
+          "ko": "옮겨 심다, 이식하다",
+          "ex": "We will {{BLANK}} the young tree tomorrow.",
+          "tr": "우리는 내일 그 어린나무를 옮겨 심을 거야.",
+          "c": "trans-(다른 곳으로)+plant(심다). 기관 이식의 뜻도 같은 단어에서 확장돼.",
+          "ipa": "trænsˈplænt",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "affix-co",
+      "title": "co- · 함께",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "co-",
+          "meaning": "함께, 공동으로, 서로",
+          "englishPronunciation": "/koʊ/"
+        }
+      ],
+      "rule": "함께 행동하거나 같은 때·장소에 존재한다는 관계를 나타내.",
+      "limits": "co로 시작하는 모든 단어가 이 접두사를 가진 것은 아니야. 역사적 con-/com- 변이는 어근 과정에서 따로 확인해.",
+      "history": {
+        "origin": "라틴어 com- ‘함께’의 변이형 co-.",
+        "route": "라틴어 co- → 영어 차용어 → 영어에서 폭넓게 쓰이는 공동성 접두사",
+        "notes": "라틴어에서는 특정 소리 앞의 변이형이었지만, 현대 영어에서는 coworker처럼 다른 어휘에도 독립적으로 붙어."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/co-"
+      ],
+      "cards": [
+        {
+          "word": "coexist",
+          "en": "coexist",
+          "ko": "공존하다",
+          "ex": "Different views can {{BLANK}} within one group.",
+          "tr": "서로 다른 견해는 한 집단 안에서 공존할 수 있어.",
+          "c": "co-(함께)+exist(존재하다). 같아지거나 동의한다는 뜻까지 포함하지는 않아.",
+          "ipa": "ˌkoʊɪɡˈzɪst",
+          "pos": "v."
+        },
+        {
+          "word": "cooperate",
+          "en": "cooperate",
+          "ko": "협력하다",
+          "ex": "The two teams must {{BLANK}}.",
+          "tr": "두 팀은 협력해야 해.",
+          "c": "co-(함께)+operate(작동하다·일하다). 공통 목적을 위해 함께 행동하는 거야.",
+          "ipa": "koʊˈɑːpəreɪt",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "affix-anti",
+      "title": "anti- · 맞서고 억제하는",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "anti-",
+          "meaning": "반대, 대항, 억제",
+          "englishPronunciation": "/ænti/ 또는 /æntaɪ/"
+        }
+      ],
+      "rule": "어떤 대상에 반대하거나 그 작용을 막는 뜻을 나타내.",
+      "limits": "antique·anticipate의 anti는 이 현대 접두사와 같게 풀이하지 않아. ‘전의’라는 라틴어 ante 계통을 구별해.",
+      "history": {
+        "origin": "고대 그리스어 ἀντί (antí) ‘맞서, 대신하여’.",
+        "route": "그리스어 ἀντί → 라틴어 anti-·프랑스어 anti- → 영어 anti-",
+        "notes": "위의 로마자 표기는 그리스어 전사야. /ænti/, /æntaɪ/는 현대 영어 접두사 발음이며 고대 그리스어 발음이라고 제시하지 않아."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/anti-"
+      ],
+      "cards": [
+        {
+          "word": "antisocial",
+          "en": "antisocial",
+          "ko": "반사회적인",
+          "ex": "Schools must address {{BLANK}} behavior.",
+          "tr": "학교는 반사회적 행동에 대응해야 해.",
+          "c": "anti-(반대)+social(사회의). 여기서는 단순히 내성적인 것이 아니라 타인·사회에 해로운 뜻이야.",
+          "ipa": "ˌæntiˈsoʊʃəl",
+          "pos": "adj."
+        },
+        {
+          "word": "antibacterial",
+          "en": "antibacterial",
+          "ko": "항균성의",
+          "ex": "The bottle says this soap is {{BLANK}}.",
+          "tr": "병에는 이 비누가 항균성이라고 적혀 있어.",
+          "c": "anti-(억제)+bacterial(세균의). 세균을 죽이거나 번식을 억제한다는 뜻이야.",
+          "ipa": "ˌæntibækˈtɪriəl",
+          "pos": "adj."
+        }
+      ]
+    },
+    {
+      "id": "affix-ness-ity",
+      "title": "-ness / -ity · 성질을 명사로",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "-ness",
+          "meaning": "성질·상태를 나타내는 명사",
+          "englishPronunciation": "/nəs/"
+        },
+        {
+          "form": "-ity",
+          "meaning": "성질·상태를 나타내는 명사",
+          "englishPronunciation": "/əti/"
+        }
+      ],
+      "rule": "형용사가 말하는 성질을 하나의 개념으로 다루도록 명사로 바꿔. ‘어떤’에서 ‘그 성질·상태’로 역할이 바뀌어.",
+      "limits": "-ness와 -ity는 마음대로 교체하지 않아. -ity가 붙을 때 철자나 강세가 바뀌기도 해.",
+      "history": {
+        "origin": "-ness: 고대 영어 -nes(s). -ity: 라틴어 -itās, 목적격 -itātem.",
+        "route": "게르만어 계통 → 고대 영어 -ness; 라틴어 -itās → 프랑스어 -eté 및 직접 차용 → 영어 -ity",
+        "notes": "성질 명사를 만든다는 현대 기능은 비슷하지만 같은 어원에서 나온 두 철자는 아니야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-ness",
+        "https://www.etymonline.com/word/-ity"
+      ],
+      "cards": [
+        {
+          "word": "awareness",
+          "en": "awareness",
+          "ko": "인식, 알고 있음",
+          "ex": "The campaign raised public {{BLANK}}.",
+          "tr": "그 캠페인은 대중의 인식을 높였어.",
+          "c": "aware(아는)+-ness(상태 명사). be aware of와 awareness of를 연결해.",
+          "ipa": "əˈwernəs",
+          "pos": "n."
+        },
+        {
+          "word": "equality",
+          "en": "equality",
+          "ko": "평등, 동등함",
+          "ex": "The law aims to achieve {{BLANK}}.",
+          "tr": "그 법은 평등을 실현하는 것을 목표로 해.",
+          "c": "equal(동등한)→equality(동등함). 형용사의 성질을 명사로 다뤄.",
+          "ipa": "iˈkwɑːləti",
+          "pos": "n."
+        },
+        {
+          "word": "flexibility",
+          "en": "flexibility",
+          "ko": "유연성, 융통성",
+          "ex": "The plan allows some {{BLANK}}.",
+          "tr": "그 계획은 어느 정도 융통성을 허용해.",
+          "c": "flexible(유연한)→flexibility(유연성). -ble이 -bility로 바뀌는 모습을 확인해.",
+          "ipa": "ˌfleksəˈbɪləti",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "affix-ment",
+      "title": "-ment · 행동과 결과를 명사로",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "-ment",
+          "meaning": "행동·과정·결과를 나타내는 명사",
+          "englishPronunciation": "/mənt/"
+        }
+      ],
+      "rule": "주로 동사를 바탕으로 행동·과정·결과를 가리키는 명사를 만들어.",
+      "limits": "동사에 붙였다고 의미가 전부 ‘~하는 것’으로 끝나지는 않아. government처럼 조직을 가리키는 뜻도 별도로 익혀.",
+      "history": {
+        "origin": "라틴어 -mentum, 동작의 결과·수단 등을 나타내던 명사 접미사.",
+        "route": "라틴어 -mentum → 프랑스어 -ment → 영어 -ment",
+        "notes": "영어 고유어 동사에도 붙게 되었어. 역사적 차용 경로와 현재의 품사 관계를 구별해."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-ment"
+      ],
+      "cards": [
+        {
+          "word": "improvement",
+          "en": "improvement",
+          "ko": "개선, 향상",
+          "ex": "The second test shows clear {{BLANK}}.",
+          "tr": "두 번째 시험은 뚜렷한 향상을 보여.",
+          "c": "improve(개선하다)+-ment(명사). 행동이나 더 나아진 결과를 가리켜.",
+          "ipa": "ɪmˈpruːvmənt",
+          "pos": "n."
+        },
+        {
+          "word": "judgment",
+          "en": "judgment",
+          "ko": "판단, 판단력",
+          "ex": "We need evidence before making a {{BLANK}}.",
+          "tr": "판단을 내리기 전에 증거가 필요해.",
+          "c": "judge(판단하다)→judgment(판단). 미국식 대표 철자는 가운데 e가 없어.",
+          "ipa": "ˈdʒʌdʒmənt",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "affix-ion",
+      "title": "-tion / -sion · 동작을 개념으로",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "-tion",
+          "meaning": "행동·과정·상태의 명사형",
+          "englishPronunciation": "/ʃən/"
+        },
+        {
+          "form": "-sion",
+          "meaning": "행동·과정·상태의 명사형",
+          "englishPronunciation": "/ʃən/ 또는 /ʒən/"
+        }
+      ],
+      "rule": "동사와 대응하는 명사를 찾아, 문장에서 행동이 하나의 개념이나 결과로 쓰이는지 읽어.",
+      "limits": "모든 동사에 tion을 그대로 붙이지 않아. adapt→adaptation, expand→expansion처럼 변화한 어형을 함께 익혀.",
+      "history": {
+        "origin": "라틴어 명사 접미사 -iō, 목적격 -iōnem. 어간의 t·s 등과 결합한 형태들이 영어에 남았어.",
+        "route": "라틴어 -iō/-iōnem 및 결합형 → 고대 프랑스어 → 영어 -ion/-tion/-sion",
+        "notes": "-tion·-sion은 학습에 유용한 표면 형태 묶음이야. 역사적으로 항상 통째로 똑같은 접미사를 붙인 것은 아니야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-tion"
+      ],
+      "cards": [
+        {
+          "word": "adaptation",
+          "en": "adaptation",
+          "ko": "적응, 적응 과정",
+          "ex": "The change requires {{BLANK}}.",
+          "tr": "그 변화에는 적응이 필요해.",
+          "c": "adapt(적응하다)→adaptation(적응). 행동을 명사로 바꾸어 문장의 주제·대상으로 삼아.",
+          "ipa": "ˌædæpˈteɪʃən",
+          "pos": "n."
+        },
+        {
+          "word": "expansion",
+          "en": "expansion",
+          "ko": "확장, 팽창",
+          "ex": "The city plans further {{BLANK}}.",
+          "tr": "그 도시는 추가 확장을 계획해.",
+          "c": "expand(확장하다)→expansion(확장). 철자와 발음이 함께 바뀌어.",
+          "ipa": "ɪkˈspænʃən",
+          "pos": "n."
+        },
+        {
+          "word": "observation",
+          "en": "observation",
+          "ko": "관찰",
+          "ex": "Careful {{BLANK}} can show small differences.",
+          "tr": "주의 깊은 관찰은 작은 차이들을 보여줄 수 있어.",
+          "c": "observe(관찰하다)→observation(관찰). 명사가 된 행동이 문장의 주어로 쓰였어.",
+          "ipa": "ˌɑːbzərˈveɪʃən",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "affix-ance-ence",
+      "title": "-ance / -ence · 상태와 과정",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "-ance",
+          "meaning": "상태·과정·성질의 명사형",
+          "englishPronunciation": "/əns/"
+        },
+        {
+          "form": "-ence",
+          "meaning": "상태·과정·성질의 명사형",
+          "englishPronunciation": "/əns/"
+        }
+      ],
+      "rule": "동사·형용사와 연결해 상태나 과정을 가리키는 명사를 읽어. depend→dependence처럼 묶어서 익혀.",
+      "limits": "발음만 듣고 ance와 ence를 고를 수는 없어. 대응 어형과 함께 철자를 외워야 해.",
+      "history": {
+        "origin": "라틴어 -antia, -entia. 분사 어간과 연결되어 상태·성질 명사를 만들었어.",
+        "route": "라틴어 -antia/-entia → 프랑스어 -ance/-ence 및 직접 차용 → 영어",
+        "notes": "프랑스어의 변화와 라틴어 철자 복원이 섞여 있어서 영어에서는 단순한 철자 규칙 하나로 정리되지 않아."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-ance",
+        "https://www.etymonline.com/word/-ence"
+      ],
+      "cards": [
+        {
+          "word": "resistance",
+          "en": "resistance",
+          "ko": "저항",
+          "ex": "The plan met strong {{BLANK}}.",
+          "tr": "그 계획은 강한 저항에 부딪혔어.",
+          "c": "resist(저항하다)→resistance(저항). -ance가 행동·상태를 명사로 만들어.",
+          "ipa": "rɪˈzɪstəns",
+          "pos": "n."
+        },
+        {
+          "word": "dependence",
+          "en": "dependence",
+          "ko": "의존",
+          "ex": "The plan reduces {{BLANK}} on foreign energy.",
+          "tr": "그 계획은 외국 에너지에 대한 의존을 줄여.",
+          "c": "depend on(의존하다)→dependence on(의존). 명사가 되어도 on 관계가 이어져.",
+          "ipa": "dɪˈpendəns",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "affix-agent",
+      "title": "-er / -or · 행동하는 주체",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "-er",
+          "meaning": "그 일을 하는 사람·사물",
+          "englishPronunciation": "/ər/"
+        },
+        {
+          "form": "-or",
+          "meaning": "그 일을 하는 사람·사물",
+          "englishPronunciation": "/ər/"
+        }
+      ],
+      "rule": "동작의 주체를 나타내는 명사를 만들어. 사람뿐 아니라 기계·도구·예측 지표도 될 수 있어.",
+      "limits": "taller의 비교급 -er는 다른 기능이야. person만 떠올리지 말고 문맥의 주체가 무엇인지 확인해.",
+      "history": {
+        "origin": "-er: 고대 영어 -ere. -or: 라틴어 행위자 접미사 -or/-tor 및 -ātor.",
+        "route": "게르만어 계통의 고대 영어 -ere → -er; 라틴어 → 앵글로프랑스어 또는 직접 차용 → -or",
+        "notes": "-er의 더 먼 역사에서 라틴어 영향 가능성이 논의되지만 여기서는 확정하지 않아. -er와 -or 선택은 단어별로 익혀."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-er",
+        "https://www.merriam-webster.com/dictionary/-or"
+      ],
+      "cards": [
+        {
+          "word": "researcher",
+          "en": "researcher",
+          "ko": "연구자",
+          "ex": "A {{BLANK}} checked the new data.",
+          "tr": "한 연구자가 새 자료를 확인했어.",
+          "c": "research(연구하다)+-er(하는 사람). 동작에서 그 동작의 주체로 바뀌어.",
+          "ipa": "ˈriːsɝːtʃər",
+          "pos": "n."
+        },
+        {
+          "word": "consumer",
+          "en": "consumer",
+          "ko": "소비자",
+          "ex": "Every {{BLANK}} needs clear information.",
+          "tr": "모든 소비자에게는 명확한 정보가 필요해.",
+          "c": "consume(소비하다)+-er. 마지막 e를 빼고 er를 붙인 consumer가 돼.",
+          "ipa": "kənˈsuːmər",
+          "pos": "n."
+        },
+        {
+          "word": "predictor",
+          "en": "predictor",
+          "ko": "예측 지표, 예측 요인",
+          "ex": "Past behavior is a useful {{BLANK}}.",
+          "tr": "과거 행동은 유용한 예측 지표야.",
+          "c": "predict(예측하다)+-or. 여기서는 사람이 아니라 미래를 예상하게 하는 지표야.",
+          "ipa": "prɪˈdɪktər",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "affix-ist-ism",
+      "title": "-ist / -ism · 사람과 사상",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "-ist",
+          "meaning": "전문가·종사자·신봉자",
+          "englishPronunciation": "/ɪst/"
+        },
+        {
+          "form": "-ism",
+          "meaning": "사상·체계·실천·특징",
+          "englishPronunciation": "/ɪzəm/"
+        }
+      ],
+      "rule": "사람을 가리키는 -ist와 사상·체계 등을 가리키는 -ism을 구별해.",
+      "limits": "-ism이 언제나 정치 사상은 아니야. autism·organism처럼 의미가 굳어진 단어는 정의를 별도로 확인해.",
+      "history": {
+        "origin": "그리스어 -ιστής (istḗs), 행위자 명사형; -ισμός (ismós), 행위·실천 등의 명사형.",
+        "route": "그리스어 → 라틴어 -ista / -ismus 등 → 프랑스어 -iste / -isme 또는 직접 차용 → 영어",
+        "notes": "로마자 표기는 그리스어 전사이고 /ɪst/, /ɪzəm/는 현대 영어 접미사 발음이야. 모든 영어 단어가 고대 그리스어에 존재했던 것은 아니야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-ist",
+        "https://www.etymonline.com/word/-ism"
+      ],
+      "cards": [
+        {
+          "word": "specialist",
+          "en": "specialist",
+          "ko": "전문가",
+          "ex": "We asked a {{BLANK}} for advice.",
+          "tr": "우리는 전문가에게 조언을 구했어.",
+          "c": "special(특정한)+-ist(전문가). 특정 분야를 깊이 다루는 사람을 말해.",
+          "ipa": "ˈspeʃəlɪst",
+          "pos": "n."
+        },
+        {
+          "word": "capitalism",
+          "en": "capitalism",
+          "ko": "자본주의",
+          "ex": "The article discusses modern {{BLANK}}.",
+          "tr": "그 글은 현대 자본주의를 논해.",
+          "c": "capital(자본)+-ism(체계). 단어의 구체적 경제적 뜻은 접미사만으로 결정되지 않아.",
+          "ipa": "ˈkæpɪtəlɪzəm",
+          "pos": "n."
+        },
+        {
+          "word": "realism",
+          "en": "realism",
+          "ko": "현실주의, 사실주의",
+          "ex": "Her plan combines hope with {{BLANK}}.",
+          "tr": "그녀의 계획은 희망과 현실적인 태도를 결합해.",
+          "c": "real(현실의)+-ism. 이 문장에서는 현실을 있는 그대로 고려하는 태도야.",
+          "ipa": "ˈriːəlɪzəm",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "affix-ful-less",
+      "title": "-ful / -less · 있음과 없음",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "-ful",
+          "meaning": "~을 가진, ~이 가득한",
+          "englishPronunciation": "/fəl/"
+        },
+        {
+          "form": "-less",
+          "meaning": "~이 없는",
+          "englishPronunciation": "/ləs/"
+        }
+      ],
+      "rule": "주로 명사에 붙어 어떤 성질이 있거나 없는 형용사를 만들어.",
+      "limits": "careful과 careless처럼 짝이 있어도 모든 단어에 두 형태가 다 존재하지는 않아. priceless는 ‘가치 없는’이 아니야.",
+      "history": {
+        "origin": "-ful: 고대 영어 full ‘가득한’이 접미사화됨. -less: 고대 영어 lēas ‘없는, 벗어난’.",
+        "route": "고대 영어 -ful/-lēas → 중세 영어 -ful/-les → 현대 영어 -ful/-less",
+        "notes": "둘 다 게르만어 계통이야. -less는 현대 비교급 less를 단순히 뒤에 붙여 만든 것으로 설명하지 않아."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-ful",
+        "https://www.etymonline.com/word/-less"
+      ],
+      "cards": [
+        {
+          "word": "meaningful",
+          "en": "meaningful",
+          "ko": "의미 있는",
+          "ex": "The results show a {{BLANK}} difference.",
+          "tr": "그 결과는 의미 있는 차이를 보여.",
+          "c": "meaning(의미)+-ful(가진). 단순히 뜻이 있다는 말에서 중요성 있는 것으로 확장돼.",
+          "ipa": "ˈmiːnɪŋfəl",
+          "pos": "adj."
+        },
+        {
+          "word": "meaningless",
+          "en": "meaningless",
+          "ko": "의미 없는",
+          "ex": "Without an explanation, the number is {{BLANK}}.",
+          "tr": "설명이 없으면 그 숫자는 의미가 없어.",
+          "c": "meaning(의미)+-less(없는). 의미·목적·중요성을 갖지 못한다는 뜻이야.",
+          "ipa": "ˈmiːnɪŋləs",
+          "pos": "adj."
+        },
+        {
+          "word": "harmless",
+          "en": "harmless",
+          "ko": "해가 없는, 무해한",
+          "ex": "The change appears {{BLANK}}.",
+          "tr": "그 변화는 해가 없어 보여.",
+          "c": "harm(해)+-less(없는). 반대 방향의 형용사는 harmful이야.",
+          "ipa": "ˈhɑːrmləs",
+          "pos": "adj."
+        }
+      ]
+    },
+    {
+      "id": "affix-able-ible",
+      "title": "-able / -ible · 가능성과 성질",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "-able",
+          "meaning": "~할 수 있는, ~될 수 있는",
+          "englishPronunciation": "/əbəl/"
+        },
+        {
+          "form": "-ible",
+          "meaning": "~할 수 있는, ~될 수 있는",
+          "englishPronunciation": "/əbəl/"
+        }
+      ],
+      "rule": "동작의 가능성이나 대상의 성질을 나타내는 형용사를 만들어. 무엇이 그 동작을 받는지까지 읽어.",
+      "limits": "comfortable처럼 의미가 넓어진 단어도 많아. -able/-ible을 모든 경우 ‘할 수 있는’ 하나로 고정하지 않아.",
+      "history": {
+        "origin": "라틴어 -bilis. 동사 어간의 모음과 결합해 -ābilis/-ibilis 등이 되었어.",
+        "route": "라틴어 -bilis 계열 → 프랑스어 -able/-ible 및 직접 차용 → 영어",
+        "notes": "영어 단어 able과는 어원적으로 같은 단어가 아니지만, 의미상 연관되어 생산성이 커졌어."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-able",
+        "https://www.etymonline.com/word/-ible",
+        "https://www.merriam-webster.com/dictionary/accessible"
+      ],
+      "cards": [
+        {
+          "word": "predictable",
+          "en": "predictable",
+          "ko": "예측할 수 있는",
+          "ex": "The result was {{BLANK}}.",
+          "tr": "그 결과는 예측할 수 있었어.",
+          "c": "predict(예측하다)+-able. 결과가 예측을 하는 것이 아니라 예측의 대상이야.",
+          "ipa": "prɪˈdɪktəbəl",
+          "pos": "adj."
+        },
+        {
+          "word": "accessible",
+          "en": "accessible",
+          "ko": "접근하거나 이용할 수 있는",
+          "ex": "The information is {{BLANK}} to everyone.",
+          "tr": "그 정보는 누구나 이용할 수 있어.",
+          "c": "access(접근)+-ible로 연결해 기억해. accessible to로 이용 가능한 대상을 이어.",
+          "ipa": "əkˈsesəbəl",
+          "pos": "adj."
+        },
+        {
+          "word": "flexible",
+          "en": "flexible",
+          "ko": "유연한, 융통성 있는",
+          "ex": "We need a more {{BLANK}} plan.",
+          "tr": "우리는 더 유연한 계획이 필요해.",
+          "c": "flex-(굽히다)+-ible. 물리적 휨에서 상황에 맞게 바꿀 수 있음으로 확장돼.",
+          "ipa": "ˈfleksəbəl",
+          "pos": "adj."
+        }
+      ]
+    },
+    {
+      "id": "affix-al-ic-ical",
+      "title": "-al / -ic / -ical · 관련된 성질",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "-al",
+          "meaning": "~와 관련된 형용사",
+          "englishPronunciation": "/əl/"
+        },
+        {
+          "form": "-ic",
+          "meaning": "~와 관련된 형용사",
+          "englishPronunciation": "/ɪk/"
+        },
+        {
+          "form": "-ical",
+          "meaning": "~와 관련된 형용사",
+          "englishPronunciation": "/ɪkəl/"
+        }
+      ],
+      "rule": "명사와 관련된 형용사를 알아보고, 같은 바탕에서 나온 서로 다른 형용사의 실제 뜻을 비교해.",
+      "limits": "economic과 economical은 바꿔 쓸 수 없어. -al은 survival처럼 명사를 만드는 별도 기능도 있어.",
+      "history": {
+        "origin": "라틴어 -ālis; 라틴어 -icus와 그리스어 -ικός (ikós); 후기 라틴어 -icālis.",
+        "route": "라틴어·그리스어 계통 → 프랑스어 또는 직접 차용 → 영어 -al/-ic; -ic+-al 계열 → -ical",
+        "notes": "접미사의 일반 기능이 비슷해도 영어에서 뜻이 갈라진 단어들이 있어. 그 차이를 실제 예문으로 익혀."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-al",
+        "https://www.etymonline.com/word/-ic",
+        "https://www.etymonline.com/word/-ical"
+      ],
+      "cards": [
+        {
+          "word": "cultural",
+          "en": "cultural",
+          "ko": "문화의, 문화적인",
+          "ex": "The two groups have {{BLANK}} differences.",
+          "tr": "두 집단에는 문화적 차이가 있어.",
+          "c": "culture(문화)→cultural(문화의). 명사가 다른 명사를 꾸미는 형용사로 바뀌어.",
+          "ipa": "ˈkʌltʃərəl",
+          "pos": "adj."
+        },
+        {
+          "word": "economic",
+          "en": "economic",
+          "ko": "경제의, 경제적인",
+          "ex": "The report examines {{BLANK}} growth.",
+          "tr": "그 보고서는 경제 성장을 살펴봐.",
+          "c": "economy(경제)→economic(경제의). ‘돈이 적게 드는’ economical과 구별해.",
+          "ipa": "ˌiːkəˈnɑːmɪk",
+          "pos": "adj."
+        },
+        {
+          "word": "economical",
+          "en": "economical",
+          "ko": "절약되는, 비용이 적게 드는",
+          "ex": "The smaller car is more {{BLANK}}.",
+          "tr": "그 작은 차가 유지 비용이 더 적게 들어.",
+          "c": "economical은 돈·연료 등을 덜 쓰는 성질. ‘경제에 관한’ economic과 달라.",
+          "ipa": "ˌiːkəˈnɑːmɪkəl",
+          "pos": "adj."
+        }
+      ]
+    },
+    {
+      "id": "affix-ive-ous",
+      "title": "-ive / -ous · 작용과 성질",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "-ive",
+          "meaning": "~하는 성향·기능의",
+          "englishPronunciation": "/ɪv/"
+        },
+        {
+          "form": "-ous",
+          "meaning": "~이 있는, ~한 성질의",
+          "englishPronunciation": "/əs/"
+        }
+      ],
+      "rule": "-ive는 작용·성향을, -ous는 성질을 나타내는 형용사에서 자주 보여.",
+      "limits": "일반적인 단서이지 모든 의미를 계산하는 공식은 아니야. 각 단어의 실제 쓰임을 함께 익혀.",
+      "history": {
+        "origin": "라틴어 -īvus와 -ōsus.",
+        "route": "라틴어 -īvus → 고대 프랑스어 -if 또는 직접 차용 → -ive; 라틴어 -ōsus → 프랑스어 -ous/-eux → -ous",
+        "notes": "현대 품사 관계가 보인다고 영어에서 처음 조립된 단어라는 뜻은 아니야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-ive",
+        "https://www.etymonline.com/word/-ous"
+      ],
+      "cards": [
+        {
+          "word": "creative",
+          "en": "creative",
+          "ko": "창의적인",
+          "ex": "We need a {{BLANK}} solution.",
+          "tr": "우리는 창의적인 해결책이 필요해.",
+          "c": "create(창조하다)→creative(창의적인). 새로운 것을 만들어 내는 성향이야.",
+          "ipa": "kriˈeɪtɪv",
+          "pos": "adj."
+        },
+        {
+          "word": "protective",
+          "en": "protective",
+          "ko": "보호하는, 보호용의",
+          "ex": "Workers must wear {{BLANK}} clothing.",
+          "tr": "작업자들은 보호복을 입어야 해.",
+          "c": "protect(보호하다)+-ive. 옷이 보호하는 기능을 한다는 뜻이야.",
+          "ipa": "prəˈtektɪv",
+          "pos": "adj."
+        },
+        {
+          "word": "dangerous",
+          "en": "dangerous",
+          "ko": "위험한",
+          "ex": "The road becomes {{BLANK}} after heavy rain.",
+          "tr": "큰비가 내린 뒤 그 도로는 위험해져.",
+          "c": "danger(위험)+-ous. 위험이라는 명사에서 위험한 성질의 형용사로 바뀌어.",
+          "ipa": "ˈdeɪndʒərəs",
+          "pos": "adj."
+        }
+      ]
+    },
+    {
+      "id": "affix-ly",
+      "title": "-ly · 어떻게, 어느 정도",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "-ly",
+          "meaning": "주로 형용사를 부사로 바꿈",
+          "englishPronunciation": "/li/"
+        }
+      ],
+      "rule": "형용사의 성질을 동작·형용사·문장 전체에 연결하는 부사를 만들어. 문장에서 무엇을 꾸미는지 확인해.",
+      "limits": "friendly는 형용사이고, hard와 hardly는 뜻이 달라. ly로 끝난다는 것만으로 품사나 의미를 확정하지 않아.",
+      "history": {
+        "origin": "부사형은 고대 영어 -līce, 형용사형은 -līc. 게르만어의 모양·성질 계통에서 왔어.",
+        "route": "고대 영어 -līce/-līc → 중세 영어 -li/-ly → 현대 영어 -ly",
+        "notes": "부사형과 형용사형이 현대 영어에서 같은 철자가 되었어. 실제 문장 기능으로 구별해."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-ly",
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/hardly"
+      ],
+      "cards": [
+        {
+          "word": "widely",
+          "en": "widely",
+          "ko": "널리, 폭넓게",
+          "ex": "The idea is {{BLANK}} accepted.",
+          "tr": "그 생각은 널리 받아들여져.",
+          "c": "wide(넓은)→widely(널리). 형용사 성질이 받아들여지는 범위를 설명해.",
+          "ipa": "ˈwaɪdli",
+          "pos": "adv."
+        },
+        {
+          "word": "hardly",
+          "en": "hardly",
+          "ko": "거의 ~않다",
+          "ex": "The results are {{BLANK}} different.",
+          "tr": "그 결과들은 거의 다르지 않아.",
+          "c": "hardly는 ‘열심히’가 아니라 거의 없음을 나타내. work hard와 구별해.",
+          "ipa": "ˈhɑːrdli",
+          "pos": "adv."
+        }
+      ]
+    },
+    {
+      "id": "affix-ize",
+      "title": "-ize / -ise · 그렇게 만들다",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "-ize",
+          "meaning": "~하게 만들다, ~화하다",
+          "englishPronunciation": "/aɪz/"
+        },
+        {
+          "form": "-ise",
+          "meaning": "일부 영국식 철자의 대응형",
+          "englishPronunciation": "/aɪz/"
+        }
+      ],
+      "rule": "명사·형용사를 바탕으로 특정 상태로 바꾸거나 특정 방식으로 다루는 동사를 만들어.",
+      "limits": "modernise는 영국식 대응형이지만 advise·surprise의 ise를 무조건 ize로 바꾸면 안 돼.",
+      "history": {
+        "origin": "그리스어 동사형 -ίζειν (ízein).",
+        "route": "그리스어 -ίζειν → 후기 라틴어 -izāre → 고대 프랑스어 -iser/-izer → 중세·현대 영어",
+        "notes": "-ize는 현대 영어 발음 /aɪz/야. 그리스어 철자를 영어식으로 읽은 것과 고대 발음을 같은 것으로 보지 않아."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-ize"
+      ],
+      "cards": [
+        {
+          "word": "modernize",
+          "en": "modernize",
+          "ko": "현대화하다",
+          "ex": "The city plans to {{BLANK}} its buses.",
+          "tr": "그 도시는 버스 체계를 현대화할 계획이야.",
+          "c": "modern(현대의)+-ize(만들다). 형용사에서 변화 동사로 바뀌어.",
+          "ipa": "ˈmɑːdərnaɪz",
+          "pos": "v."
+        },
+        {
+          "word": "standardize",
+          "en": "standardize",
+          "ko": "표준화하다",
+          "ex": "The team will {{BLANK}} the test process.",
+          "tr": "그 팀은 시험 절차를 표준화할 거야.",
+          "c": "standard(표준)+-ize. 같은 기준에 맞추는 동작을 나타내.",
+          "ipa": "ˈstændərdaɪz",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "affix-ify-en",
+      "title": "-ify / -en · 성질을 바꾸는 동사",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "-ify",
+          "meaning": "~하게 만들다",
+          "englishPronunciation": "/ɪfaɪ/"
+        },
+        {
+          "form": "-en",
+          "meaning": "~하게 만들다, ~해지다",
+          "englishPronunciation": "/ən/"
+        }
+      ],
+      "rule": "형용사·명사에서 변화 동사를 만들어. 어떤 성질을 더하거나 달라지게 하는지 읽어.",
+      "limits": "어떤 바탕에 어느 접미사가 붙는지는 단어별로 익혀. wooden의 en은 재료 형용사를 만드는 별도 기능이야.",
+      "history": {
+        "origin": "-ify: 라틴어 -ficāre, facere ‘만들다’와 연결됨. 동사형 -en: 고대 영어 -nian 계통.",
+        "route": "라틴어 -ficāre → 프랑스어 -fier → 영어 -(i)fy; 게르만어 → 고대 영어 -nian → 영어 -en",
+        "notes": "서로 다른 역사에서 온 접미사지만 현대에는 성질 변화 동사를 만든다는 공통점을 비교할 수 있어."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-ify",
+        "https://www.etymonline.com/word/-fy",
+        "https://www.etymonline.com/word/-en"
+      ],
+      "cards": [
+        {
+          "word": "simplify",
+          "en": "simplify",
+          "ko": "단순하게 하다, 간소화하다",
+          "ex": "The diagram can {{BLANK}} the explanation.",
+          "tr": "그 도표는 설명을 더 간단하게 만들 수 있어.",
+          "c": "simple(단순한)→simplify(단순하게 하다). 철자가 바뀌는 어형을 함께 익혀.",
+          "ipa": "ˈsɪmpləfaɪ",
+          "pos": "v."
+        },
+        {
+          "word": "strengthen",
+          "en": "strengthen",
+          "ko": "강화하다, 강해지다",
+          "ex": "Better evidence can {{BLANK}} the argument.",
+          "tr": "더 좋은 증거는 그 논거를 강화할 수 있어.",
+          "c": "strength(힘)+-en. 강하다는 형용사 strong과 힘이라는 명사 strength도 연결해.",
+          "ipa": "ˈstreŋθən",
+          "pos": "v."
+        },
+        {
+          "word": "broaden",
+          "en": "broaden",
+          "ko": "넓히다, 넓어지다",
+          "ex": "Reading can {{BLANK}} our perspective.",
+          "tr": "독서는 우리의 관점을 넓힐 수 있어.",
+          "c": "broad(넓은)+-en(그렇게 만들다). 범위·시야처럼 추상적인 대상에도 써.",
+          "ipa": "ˈbrɔːdən",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "lat-duc",
+      "title": "duc / duct · 이끌다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "duc-, duce-",
+          "meaning": "이끌다"
+        },
+        {
+          "form": "duct-",
+          "meaning": "같은 동사 계열의 분사 어간"
+        }
+      ],
+      "rule": "produce와 conduct는 모양이 다르지만 라틴어 ducere 계열이야. duc-와 duct-를 연결해서 익혀.",
+      "limits": "reduce의 현대 뜻 ‘줄이다’는 re-와 duc-를 그대로 번역해서 얻을 수 없어. 단어 전체의 뜻을 확인해야 해.",
+      "history": {
+        "origin": "라틴어 ducere ‘이끌다, 데려오다’. 합성동사 conducere의 과거분사는 conductus, producere의 과거분사는 productus야.",
+        "route": "produce: 라틴어 producere → 영어. reduce: 라틴어 reducere → 고프랑스어 reducer → 영어. conduct: 라틴어 conducere의 분사 conductus → 영어 동사.",
+        "notes": "라틴어에서 이미 만들어진 단어와 어간을 영어가 받아들인 사례야. 현대 영어에서 아무 접두사나 duc에 붙일 수 있다는 규칙은 아니야. 라틴어 표기는 모음 길이 표시를 생략했어."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/produce",
+        "https://www.etymonline.com/word/reduce",
+        "https://www.etymonline.com/word/conduct"
+      ],
+      "cards": [
+        {
+          "word": "produce",
+          "en": "produce",
+          "ko": "생산하다, 만들어 내다",
+          "ex": "These trees {{BLANK}} sweet fruit each year.",
+          "tr": "이 나무들은 해마다 달콤한 열매를 맺어.",
+          "c": "producere는 앞으로 내오다는 뜻. 생산하다·생겨나게 하다로 이어져.",
+          "ipa": "prəˈduːs",
+          "pos": "v."
+        },
+        {
+          "word": "reduce",
+          "en": "reduce",
+          "ko": "줄이다, 감소시키다",
+          "ex": "We must {{BLANK}} the time we spend online.",
+          "tr": "우리는 온라인에서 보내는 시간을 줄여야 해.",
+          "c": "reducere는 본래 도로 이끌다. 현대의 ‘줄이다’는 별도로 익혀.",
+          "ipa": "rɪˈduːs",
+          "pos": "v."
+        },
+        {
+          "word": "conduct",
+          "en": "conduct",
+          "ko": "실시하다, 수행하다",
+          "ex": "They will {{BLANK}} a test on the water.",
+          "tr": "그들은 그 물을 검사할 거야.",
+          "c": "conduct a test는 검사를 실시하다. 일을 이끌어 수행한다는 뜻이야.",
+          "ipa": "kənˈdʌkt",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "lat-fer",
+      "title": "fer · 나르다, 가져오다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "fer-",
+          "meaning": "나르다, 가져오다"
+        }
+      ],
+      "rule": "물건을 옮기는 transfer에서 판단을 이끌어 내는 infer까지, 구체적 이동과 추상적 작용을 연결해 봐.",
+      "limits": "infer는 추론하다, imply는 암시하다야. 어원 이미지만으로 둘의 역할을 바꾸면 안 돼.",
+      "history": {
+        "origin": "라틴어 ferre ‘나르다, 지니다’. transferre는 건너 나르다, inferre는 안으로 가져오다, referre는 도로 가져가다라는 뜻을 가졌어.",
+        "route": "transfer: 고프랑스어 transferer 또는 라틴어 transferre → 영어. infer: 라틴어 inferre → 영어. refer: 고프랑스어 referer와 라틴어 referre → 영어.",
+        "notes": "추론한다는 뜻은 inferre에도 있었어. ‘안으로 나르니까 추론’이라는 새 이야기를 사실처럼 만들지 않아. refer의 현대 쓰임은 refer to와 함께 익혀."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/transfer",
+        "https://www.etymonline.com/word/infer",
+        "https://www.etymonline.com/word/refer"
+      ],
+      "cards": [
+        {
+          "word": "transfer",
+          "en": "transfer",
+          "ko": "옮기다, 이체하다",
+          "ex": "You can {{BLANK}} the money to my account.",
+          "tr": "그 돈을 내 계좌로 이체하면 돼.",
+          "c": "trans-는 건너, ferre는 나르다. 돈·사람·정보를 다른 곳으로 옮겨.",
+          "ipa": "trænsˈfɝː",
+          "pos": "v."
+        },
+        {
+          "word": "infer",
+          "en": "infer",
+          "ko": "추론하다",
+          "ex": "We can {{BLANK}} his age from this photo.",
+          "tr": "우리는 이 사진에서 그의 나이를 추론할 수 있어.",
+          "c": "infer A from B는 B를 근거로 A를 추론하다. 단서를 받는 쪽의 판단이야.",
+          "ipa": "ɪnˈfɝː",
+          "pos": "v."
+        },
+        {
+          "word": "refer",
+          "en": "refer",
+          "ko": "참조하다, 찾아보다",
+          "ex": "Please {{BLANK}} to the map for more help.",
+          "tr": "더 도움이 필요하면 지도를 참조해.",
+          "c": "refer to a map은 지도를 참조하다. 자료 쪽으로 주의를 돌리는 쓰임이야.",
+          "ipa": "rɪˈfɝː",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "lat-port",
+      "title": "port · 나르다, 받치다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "port-",
+          "meaning": "나르다, 지니다"
+        }
+      ],
+      "rule": "transport의 실제 운반과 support의 물리적·추상적 지지를 함께 익혀.",
+      "limits": "영어 단어 안의 port라는 철자를 볼 때마다 ‘나르다’를 넣지는 마. 이 단위는 유래가 확인된 두 단어를 연결해.",
+      "history": {
+        "origin": "라틴어 portare ‘나르다’. transportare는 건너 나르다, supportare는 운반하다·가져오다였어. supportare의 sup-는 sub-의 소리 변화형이야.",
+        "route": "transport: 라틴어 transportare → 고프랑스어 transporter 및 직접 차용 → 영어. support: 라틴어 supportare → 고프랑스어 suporter 및 직접 차용 → 영어.",
+        "notes": "support의 sub-에는 아래에서 위로 받쳐 준다는 방향이 있어. 현대의 ‘주장을 뒷받침하다’는 물건을 실제로 운반한다는 뜻이 아니야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/transport",
+        "https://www.etymonline.com/word/support"
+      ],
+      "cards": [
+        {
+          "word": "transport",
+          "en": "transport",
+          "ko": "수송하다, 운반하다",
+          "ex": "These ships {{BLANK}} food across the sea.",
+          "tr": "이 배들은 바다를 건너 식량을 운반해.",
+          "c": "trans-와 portare가 결합한 계열. 한 곳에서 다른 곳으로 실어 나르는 뜻이야.",
+          "ipa": "trænˈspɔːrt",
+          "pos": "v."
+        },
+        {
+          "word": "support",
+          "en": "support",
+          "ko": "뒷받침하다",
+          "ex": "The facts {{BLANK}} her claim.",
+          "tr": "그 사실들이 그녀의 주장을 뒷받침해.",
+          "c": "증거가 주장을 받쳐 주는 뜻. 여기서는 사람에게 찬성한다는 뜻이 아니야.",
+          "ipa": "səˈpɔːrt",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "lat-ject",
+      "title": "ject · 던지다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "iac-",
+          "meaning": "라틴어의 기본 어간"
+        },
+        {
+          "form": "iect-, ject-",
+          "meaning": "합성어에서 이어진 던지다 계열"
+        }
+      ],
+      "rule": "reject와 project의 -ject를 연결하되, 앞부분과 문맥에 따라 완성된 단어의 뜻이 달라져.",
+      "limits": "project는 명사 ‘계획·프로젝트’와 동사 ‘투사하다’의 강세가 달라. 여기서는 동사를 연습해.",
+      "history": {
+        "origin": "라틴어 iacere ‘던지다’, 과거분사 iactus. 합성어 reicere·proicere의 분사 어간은 reiect-·proiect-로 나타나. 영어 j는 이 계열의 i 표기와 역사적으로 연결돼.",
+        "route": "reject: 라틴어 reicere·reiect-에서 영어로 들어옴; 고프랑스어 rejecter도 관련돼. project 동사: 라틴어 proicere·proiectus → 후기 라틴어 projectare → 영어.",
+        "notes": "reject의 정확한 분사 어간은 AHD의 reiect- 표기와 교차확인했어. project의 화면 투사 뜻은 영어에서 뒤에 생긴 쓰임이야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/reject",
+        "https://www.etymonline.com/word/project",
+        "https://www.ahdictionary.com/word/search.html?q=reject"
+      ],
+      "cards": [
+        {
+          "word": "reject",
+          "en": "reject",
+          "ko": "거절하다, 받아들이지 않다",
+          "ex": "They may {{BLANK}} our plan because it costs too much.",
+          "tr": "비용이 너무 많이 들어서 그들은 우리 계획을 거절할 수도 있어.",
+          "c": "reicere는 뒤로 던지다. 제안·신청 등을 받아들이지 않는 뜻으로 이어져.",
+          "ipa": "rɪˈdʒekt",
+          "pos": "v."
+        },
+        {
+          "word": "project",
+          "en": "project",
+          "ko": "투사하다, 비추다",
+          "ex": "This machine can {{BLANK}} pictures onto the wall.",
+          "tr": "이 기계는 벽에 그림을 비출 수 있어.",
+          "c": "proicere는 앞으로 던지다. 동사 project는 영상 등을 화면에 비추기도 해.",
+          "ipa": "prəˈdʒekt",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "lat-mit",
+      "title": "mit / miss · 보내다, 놓아주다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "mit-",
+          "meaning": "보내다, 놓아주다"
+        },
+        {
+          "form": "miss-",
+          "meaning": "같은 계열의 분사 어간"
+        }
+      ],
+      "rule": "transmit의 mit-와 mission의 miss-는 같은 라틴어 동사 계열이야.",
+      "limits": "permit은 현대 영어에서 허락하다야. ‘통과해서 보내다’만 외우면 실제 문장의 목적어를 놓치기 쉬워.",
+      "history": {
+        "origin": "라틴어 mittere ‘보내다, 놓아주다’. 과거분사 어간 miss-에서 missio ‘보냄’ 같은 명사가 만들어졌어.",
+        "route": "transmit: 라틴어 transmittere → 영어. permit: 라틴어 permittere → 고프랑스어 permetre 및 직접 차용 → 영어. mission: 라틴어 missio, 목적격 missionem → 영어.",
+        "notes": "mission은 사람을 보내는 일에서 파견 목적·임무로 뜻이 넓어졌어. mit와 miss를 영어에서 자유롭게 바꿔 쓰는 철자 규칙으로 보지는 마."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/transmit",
+        "https://www.etymonline.com/word/permit",
+        "https://www.etymonline.com/word/mission"
+      ],
+      "cards": [
+        {
+          "word": "transmit",
+          "en": "transmit",
+          "ko": "전달하다, 전파하다",
+          "ex": "These insects can {{BLANK}} disease to people.",
+          "tr": "이 곤충들은 사람에게 질병을 전파할 수 있어.",
+          "c": "transmit은 건너 보내다에서 이어져. 신호·정보뿐 아니라 병도 전파해.",
+          "ipa": "trænzˈmɪt",
+          "pos": "v."
+        },
+        {
+          "word": "permit",
+          "en": "permit",
+          "ko": "허락하다, 허용하다",
+          "ex": "We do not {{BLANK}} smoking in this room.",
+          "tr": "우리는 이 방에서 흡연을 허용하지 않아.",
+          "c": "permit 뒤에는 명사나 -ing가 올 수 있어. permit someone to do도 익혀.",
+          "ipa": "pɚˈmɪt",
+          "pos": "v."
+        },
+        {
+          "word": "mission",
+          "en": "mission",
+          "ko": "임무, 사명",
+          "ex": "Our {{BLANK}} is to keep every child safe.",
+          "tr": "우리의 임무는 모든 아이를 안전하게 지키는 거야.",
+          "c": "mission의 miss-는 mittere의 분사 계열. 맡겨진 임무나 존재 목적을 뜻해.",
+          "ipa": "ˈmɪʃən",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "lat-pon",
+      "title": "pon / posit · 놓다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "pon-",
+          "meaning": "놓다, 두다"
+        },
+        {
+          "form": "posit-",
+          "meaning": "같은 동사의 분사 어간"
+        }
+      ],
+      "rule": "position의 posit-와 opponent의 pon-을 연결해. 공간에 놓인 자리와 논쟁에서 취하는 입장을 함께 볼 수 있어.",
+      "limits": "position은 위치만이 아니라 입장도 돼. opponent는 의견이 반대인 사람이나 경기 상대야.",
+      "history": {
+        "origin": "라틴어 ponere ‘놓다, 두다’, 과거분사 positus. opponere는 맞은편에 놓다·반대하다이며, 현재분사 opponens의 어간 opponent-가 영어 명사에 남았어.",
+        "route": "position: 라틴어 positio, 목적격 positionem → 고프랑스어 posicion 및 직접 차용 → 영어. opponent: 라틴어 opponentem → 영어.",
+        "notes": "여기서는 posit-가 분사 계열임을 보여 줘. 겉모양이 비슷한 모든 -pose 단어를 ponere의 직접 차용으로 단정하지 않아. 더 먼 선사시대 유래에는 학설 차이가 있어."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/position",
+        "https://www.etymonline.com/word/opponent",
+        "https://www.etymonline.com/word/deposit"
+      ],
+      "cards": [
+        {
+          "word": "position",
+          "en": "position",
+          "ko": "입장, 견해",
+          "ex": "What is your {{BLANK}} on this matter?",
+          "tr": "이 문제에 대한 네 입장은 뭐야?",
+          "c": "position on an issue는 그 문제에 대해 취하는 입장. 장소만 뜻하지 않아.",
+          "ipa": "pəˈzɪʃən",
+          "pos": "n."
+        },
+        {
+          "word": "opponent",
+          "en": "opponent",
+          "ko": "상대, 반대자",
+          "ex": "She beat her {{BLANK}} in the final game.",
+          "tr": "그녀는 결승 경기에서 상대를 이겼어.",
+          "c": "opponere는 맞은편에 두다. 경기 상대나 어떤 주장에 반대하는 사람을 뜻해.",
+          "ipa": "əˈpoʊnənt",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "lat-fac",
+      "title": "fac / fic / fact / fect · 하다, 만들다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "fac-, fic-",
+          "meaning": "하다, 만들다"
+        },
+        {
+          "form": "fact-, fect-",
+          "meaning": "관련 분사 어간"
+        }
+      ],
+      "rule": "affect와 effect는 facere에서 뻗은 다른 단어야. 현대 문장에서는 품사와 뜻을 따로 확인해.",
+      "limits": "affect는 주로 동사 ‘영향을 주다’, effect는 주로 명사 ‘영향·결과’야. effect에도 ‘이루어 내다’라는 동사 뜻이 있어.",
+      "history": {
+        "origin": "라틴어 facere ‘하다, 만들다’, 과거분사 factus. 합성어 afficere·efficere에서는 fic-가, 분사 affectus·effectus에서는 fect-가 나타나.",
+        "route": "effect 명사: 라틴어 effectus → 고프랑스어 efet → 영어. affect ‘영향을 주다’: 라틴어 affectus 또는 그에서 온 영어 명사 affect와 연결돼.",
+        "notes": "afficere는 ad-와 facere의 결합, efficere는 ex-와 facere의 결합이야. 철자가 비슷해도 현대의 목적어와 문장 기능까지 같아지는 것은 아니야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/affect",
+        "https://www.etymonline.com/word/effect"
+      ],
+      "cards": [
+        {
+          "word": "affect",
+          "en": "affect",
+          "ko": "영향을 미치다",
+          "ex": "Lack of sleep can {{BLANK}} your memory.",
+          "tr": "수면 부족은 기억력에 영향을 미칠 수 있어.",
+          "c": "affect는 영향을 주는 동사. have an effect on과 바꾸어 표현할 수 있어.",
+          "ipa": "əˈfekt",
+          "pos": "v."
+        },
+        {
+          "word": "effect",
+          "en": "effect",
+          "ko": "영향, 결과",
+          "ex": "The change had no {{BLANK}} on our health.",
+          "tr": "그 변화는 우리의 건강에 아무 영향도 미치지 않았어.",
+          "c": "have an effect on은 영향을 미치다. 여기서는 effect가 명사야.",
+          "ipa": "ɪˈfekt",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "lat-cap",
+      "title": "cap / cip / cept · 잡다, 받아들이다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "cap-, cip-",
+          "meaning": "잡다, 취하다"
+        },
+        {
+          "form": "cept-",
+          "meaning": "합성어에 나타나는 분사 어간"
+        }
+      ],
+      "rule": "손으로 받는 것에서 생각을 받아들이는 것까지 연결해. accept와 concept의 cept-는 같은 계열이야.",
+      "limits": "concept은 개념이지 ‘함께 잡기’라는 행동이 아니야. 형태를 단서로 쓰고 현대 뜻으로 문장을 읽어.",
+      "history": {
+        "origin": "라틴어 capere ‘잡다, 취하다’. accipere와 concipere 같은 합성어에는 cip-가, accept-와 concept- 같은 분사 계열에는 cept-가 나타나.",
+        "route": "accept: 라틴어 accipere → 반복형 acceptare → 고프랑스어 accepter 또는 직접 차용 → 영어. concept: 라틴어 concipere의 conceptum → 중세 라틴어 conceptum → 영어.",
+        "notes": "concipere에는 받아 담다·마음에 품다는 뜻이 있었어. concept의 con-을 항상 ‘함께’라고 번역할 필요는 없어. 강화 기능으로 설명되기도 해."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/accept",
+        "https://www.etymonline.com/word/concept"
+      ],
+      "cards": [
+        {
+          "word": "accept",
+          "en": "accept",
+          "ko": "받아들이다, 인정하다",
+          "ex": "We cannot {{BLANK}} an answer without clear proof.",
+          "tr": "우리는 명확한 증거 없이 답을 받아들일 수 없어.",
+          "c": "accept는 제안·사실 등을 받아들이다. capere 계열의 ‘받아 취함’과 연결돼.",
+          "ipa": "əkˈsept",
+          "pos": "v."
+        },
+        {
+          "word": "concept",
+          "en": "concept",
+          "ko": "개념",
+          "ex": "She explained the {{BLANK}} with a simple picture.",
+          "tr": "그녀는 간단한 그림으로 그 개념을 설명했어.",
+          "c": "concept은 마음속에서 파악하는 개념. concipere의 분사 계열에서 왔어.",
+          "ipa": "ˈkɑːnsept",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "lat-ten",
+      "title": "ten / tin / tain · 잡아 두다, 유지하다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "ten-, tin-",
+          "meaning": "잡다, 유지하다"
+        },
+        {
+          "form": "tain-",
+          "meaning": "프랑스어를 거쳐 남은 영어 형태"
+        }
+      ],
+      "rule": "contain·retain·maintain을 잡아 두고 유지한다는 계열로 연결하되, 목적어에 따른 뜻을 익혀.",
+      "limits": "contain은 포함하다 외에 억제하다도 돼. maintain은 상태를 유지하다 외에 주장을 고수하다도 돼.",
+      "history": {
+        "origin": "라틴어 tenere ‘잡다, 유지하다’. 합성어 continere·retinere에는 tin-가 나타나고, 고프랑스어를 거치며 영어 -tain 계열로 이어졌어.",
+        "route": "contain: continere → 고프랑스어 contenir, 강세 어간 contein- → 영어. retain: retinere → 고프랑스어 retenir → 영어. maintain: manu tenere ‘손에 지니다’ → 고프랑스어 maintenir·앵글로프랑스어 meintenir → 영어.",
+        "notes": "maintain의 앞부분은 현대 영어 main ‘주요한’이 아니야. 라틴어 manus ‘손’의 형태 manu와 연결돼. tain을 독립 영어 동사처럼 쓰지는 않아."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/contain",
+        "https://www.etymonline.com/word/retain",
+        "https://www.etymonline.com/word/maintain"
+      ],
+      "cards": [
+        {
+          "word": "contain",
+          "en": "contain",
+          "ko": "억제하다, 번지는 것을 막다",
+          "ex": "These walls help {{BLANK}} the fire.",
+          "tr": "이 벽들은 불이 번지는 것을 막는 데 도움이 돼.",
+          "c": "contain은 안에 담다뿐 아니라 확산을 막다. fire·disease와 자주 쓰여.",
+          "ipa": "kənˈteɪn",
+          "pos": "v."
+        },
+        {
+          "word": "retain",
+          "en": "retain",
+          "ko": "유지하다, 보유하다",
+          "ex": "This soil can {{BLANK}} water for a long time.",
+          "tr": "이 흙은 물을 오랫동안 머금을 수 있어.",
+          "c": "retain은 없어지거나 빠져나가지 않게 지니다. 기억·특징을 유지할 때도 써.",
+          "ipa": "rɪˈteɪn",
+          "pos": "v."
+        },
+        {
+          "word": "maintain",
+          "en": "maintain",
+          "ko": "주장하다, 고수하다",
+          "ex": "They {{BLANK}} that the old plan will work.",
+          "tr": "그들은 기존 계획이 효과가 있을 거라고 주장해.",
+          "c": "maintain that은 자기 주장이 맞다고 계속 말하다. 상태 유지와 구별해.",
+          "ipa": "meɪnˈteɪn",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "lat-vert",
+      "title": "vert / vers · 돌리다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "vert-",
+          "meaning": "돌리다"
+        },
+        {
+          "form": "vers-",
+          "meaning": "같은 동사의 분사 계열"
+        }
+      ],
+      "rule": "convert의 변화와 reverse의 반대 방향 전환을, 돌린다는 계열로 연결해.",
+      "limits": "물리적으로 돌리는 경우만 있는 것은 아니야. 에너지를 전환하거나 결정을 뒤집는 데도 쓰여.",
+      "history": {
+        "origin": "라틴어 vertere ‘돌리다’, 과거분사 versus. convertere는 돌려 바꾸다, revertere는 도로 돌리다·돌아오다야.",
+        "route": "convert: 라틴어 convertere → 속라틴어의 재구형 *convertire → 고프랑스어 convertir → 영어. reverse 동사: revertere → 후기 라틴어 reversare → 고프랑스어 reverser → 영어.",
+        "notes": "* 표시는 문헌에 직접 확인된 형태가 아니라 언어사 연구에서 복원한 형태라는 뜻이야. 영어의 동사 reverse는 형용사와 별도의 차용 경로가 있어."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/convert",
+        "https://www.etymonline.com/word/reverse",
+        "https://www.ahdictionary.com/word/search.html?q=verse"
+      ],
+      "cards": [
+        {
+          "word": "convert",
+          "en": "convert",
+          "ko": "전환하다, 바꾸다",
+          "ex": "These machines {{BLANK}} heat into electricity.",
+          "tr": "이 기계들은 열을 전기로 바꿔.",
+          "c": "convert A into B는 A를 B로 바꾸다. 형태·용도·신념의 변화에도 써.",
+          "ipa": "kənˈvɝːt",
+          "pos": "v."
+        },
+        {
+          "word": "reverse",
+          "en": "reverse",
+          "ko": "뒤집다, 번복하다",
+          "ex": "New evidence may {{BLANK}} the court's decision.",
+          "tr": "새 증거가 법원의 결정을 뒤집을 수도 있어.",
+          "c": "reverse a decision은 결정을 번복하다. 단순히 원래 자리로 돌린다는 뜻을 넘어.",
+          "ipa": "rɪˈvɝːs",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "lat-scrib",
+      "title": "scrib / script · 쓰다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "scrib-",
+          "meaning": "쓰다"
+        },
+        {
+          "form": "script-",
+          "meaning": "같은 동사의 분사 어간"
+        }
+      ],
+      "rule": "describe·prescribe의 scrib-와 manuscript의 script-를 연결해.",
+      "limits": "describe는 말로 설명해도 돼. manuscript는 오늘날 출판 전 원고를 뜻하므로 반드시 손글씨일 필요는 없어.",
+      "history": {
+        "origin": "라틴어 scribere ‘쓰다’, 과거분사 scriptus. describere는 적어 내다·묘사하다, praescribere는 먼저 써 두다·규정하다였어.",
+        "route": "describe: 라틴어 describere → 고프랑스어 descrivre·descrire 및 직접 차용 → 영어; 뒤에 철자가 라틴어형에 맞춰짐. prescribe: 라틴어 praescribere → 영어. manuscript: 라틴어 manu scriptus ‘손으로 쓴’ → 중세 라틴어 manuscriptum → 영어.",
+        "notes": "prescribe의 의학적 뜻은 영어에서 뒤에 정착했어. 어원은 현대 뜻의 출발점을 보여 주지만 현재의 뜻을 제한하지 않아."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/describe",
+        "https://www.etymonline.com/word/prescribe",
+        "https://www.etymonline.com/word/manuscript"
+      ],
+      "cards": [
+        {
+          "word": "describe",
+          "en": "describe",
+          "ko": "묘사하다, 설명하다",
+          "ex": "Can you {{BLANK}} how the machine works?",
+          "tr": "그 기계가 어떻게 작동하는지 설명해 줄래?",
+          "c": "describe는 특징이나 작동 방식을 말·글로 설명하다. 반드시 글로 쓰진 않아.",
+          "ipa": "dɪˈskraɪb",
+          "pos": "v."
+        },
+        {
+          "word": "prescribe",
+          "en": "prescribe",
+          "ko": "처방하다",
+          "ex": "A doctor may {{BLANK}} medicine for the pain.",
+          "tr": "의사가 그 통증에 약을 처방할 수도 있어.",
+          "c": "prescribe는 약을 처방하거나 행동을 규정하다. 먼저 정해 쓴다는 계열이야.",
+          "ipa": "prɪˈskraɪb",
+          "pos": "v."
+        },
+        {
+          "word": "manuscript",
+          "en": "manuscript",
+          "ko": "원고",
+          "ex": "The writer sent her {{BLANK}} to the publisher.",
+          "tr": "그 작가는 출판사에 원고를 보냈어.",
+          "c": "원래는 손으로 쓴 문서. 지금은 출판 전 원고도 뜻하므로 타이핑해도 돼.",
+          "ipa": "ˈmænjəskrɪpt",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "lat-spec",
+      "title": "spec / spic / spect · 보다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "spec-, spic-",
+          "meaning": "보다, 살피다"
+        },
+        {
+          "form": "spect-",
+          "meaning": "관련 분사 계열"
+        }
+      ],
+      "rule": "inspect·respect·suspect는 보는 행위와 관련된 같은 계열에서 뜻이 갈라졌어.",
+      "limits": "respect의 모든 뜻을 존경으로 읽지 마. in one respect는 한 가지 측면에서야. suspect도 반드시 범죄 혐의를 뜻하지 않아.",
+      "history": {
+        "origin": "라틴어 specere ‘보다’. 합성어 inspicere·respicere·suspicere에는 spic-, 그 분사 inspectus·respectus·suspectus에는 spect-가 나타나.",
+        "route": "inspect: 라틴어 inspectus → 영어. respect 명사: 라틴어 respectus → 고프랑스어 respect 및 직접 차용 → 영어. suspect 동사: 영어 형용사 suspect 및 프랑스어 suspecter·라틴어 suspectare와 연결됨.",
+        "notes": "suspicere에는 올려다보다 외에 곁눈질하다·의심스레 보다는 뜻도 있었어. sub-를 무조건 ‘아래’로 번역해서 현대 뜻을 만들지는 마."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/inspect",
+        "https://www.etymonline.com/word/respect",
+        "https://www.etymonline.com/word/suspect"
+      ],
+      "cards": [
+        {
+          "word": "inspect",
+          "en": "inspect",
+          "ko": "점검하다, 검사하다",
+          "ex": "We must {{BLANK}} the bridge for damage.",
+          "tr": "우리는 다리에 손상이 있는지 점검해야 해.",
+          "c": "inspect는 자세히 살펴 상태를 검사하다. in-은 여기서 부정 ‘아닌’이 아니야.",
+          "ipa": "ɪnˈspekt",
+          "pos": "v."
+        },
+        {
+          "word": "respect",
+          "en": "respect",
+          "ko": "측면, 점",
+          "ex": "The plans are similar in every {{BLANK}}.",
+          "tr": "그 계획들은 모든 면에서 비슷해.",
+          "c": "in one respect는 한 가지 측면에서. 여기서는 존경이나 존중이 아니야.",
+          "ipa": "rɪˈspekt",
+          "pos": "n."
+        },
+        {
+          "word": "suspect",
+          "en": "suspect",
+          "ko": "~일 것이라고 생각하다, 추측하다",
+          "ex": "I {{BLANK}} that he knows more than he says.",
+          "tr": "나는 그가 말하는 것보다 더 많이 알고 있다고 생각해.",
+          "c": "suspect that은 충분한 증거 없이 그럴 것이라고 생각하다. 범죄에만 쓰진 않아.",
+          "ipa": "səˈspekt",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "lat-vid",
+      "title": "vid / vis · 보다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "vid-",
+          "meaning": "보다"
+        },
+        {
+          "form": "vis-",
+          "meaning": "같은 동사의 분사 계열"
+        }
+      ],
+      "rule": "evident는 분명히 보이는 상태, vision은 보는 능력, provide는 앞을 보고 대비하는 데서 이어진 단어야.",
+      "limits": "provide는 지금 보다가 아니라 제공하다야. ‘미리 보다’라는 유래만으로 실제 문장을 번역하지 마.",
+      "history": {
+        "origin": "라틴어 videre ‘보다’. evidens는 videre의 현재분사 videns와 ex-가 연결된 말이고, visio는 videre의 분사 계열에서 만들어진 명사야.",
+        "route": "provide: 라틴어 providere ‘앞을 보다, 대비하다, 공급하다’ → 영어. evident: 라틴어 evidens, 목적격 evidentem → 고프랑스어 evident 및 직접 차용 → 영어. vision: 라틴어 visio, 목적격 visionem → 고프랑스어 vision·앵글로프랑스어 visioun → 영어.",
+        "notes": "‘대비하여 공급하다’라는 뜻은 라틴어 providere에도 있었어. 역사적으로 이미 존재한 뜻과 학습용 연상을 구별해."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/provide",
+        "https://www.etymonline.com/word/evident",
+        "https://www.etymonline.com/word/vision"
+      ],
+      "cards": [
+        {
+          "word": "provide",
+          "en": "provide",
+          "ko": "제공하다",
+          "ex": "The school will {{BLANK}} every child with lunch.",
+          "tr": "학교는 모든 아이에게 점심을 제공할 거야.",
+          "c": "provide A with B는 A에게 B를 제공하다. 미리 본다는 유래와 현대 뜻을 구별해.",
+          "ipa": "prəˈvaɪd",
+          "pos": "v."
+        },
+        {
+          "word": "evident",
+          "en": "evident",
+          "ko": "명백한, 분명한",
+          "ex": "The difference was {{BLANK}} from the first day.",
+          "tr": "그 차이는 첫날부터 분명했어.",
+          "c": "evident는 분명하게 드러나는. evidence는 그와 같은 계열의 증거라는 명사야.",
+          "ipa": "ˈevədənt",
+          "pos": "adj."
+        },
+        {
+          "word": "vision",
+          "en": "vision",
+          "ko": "시력, 보는 능력",
+          "ex": "Good {{BLANK}} helps us see small details.",
+          "tr": "좋은 시력은 작은 세부를 보는 데 도움이 돼.",
+          "c": "vision의 vis-는 videre 계열. 여기서는 미래 구상이나 환상이 아니라 시력이야.",
+          "ipa": "ˈvɪʒən",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "lat-cred",
+      "title": "cred · 믿다, 맡기다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "cred-",
+          "meaning": "믿다, 신뢰하다"
+        }
+      ],
+      "rule": "credible의 믿을 만함과 credit의 신뢰·공로 인정을 같은 계열로 연결해.",
+      "limits": "credit은 신용·학점만이 아니라 공로 인정도 돼. credible은 ‘이미 증명된 참’까지 보장하지 않아.",
+      "history": {
+        "origin": "라틴어 credere ‘믿다, 신뢰하다, 맡기다’. credibilis는 믿을 만한, creditum은 남에게 맡긴 것·대부금을 뜻했어.",
+        "route": "credible: 라틴어 credibilis → 영어. credit: 라틴어 creditum → 이탈리아어 credito → 프랑스어 crédit → 영어.",
+        "notes": "credit은 여러 언어를 거쳤어. 겉모양이 라틴어와 비슷하다고 영어가 언제나 직접 빌린 것은 아니야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/credible",
+        "https://www.etymonline.com/word/credit"
+      ],
+      "cards": [
+        {
+          "word": "credible",
+          "en": "credible",
+          "ko": "믿을 만한",
+          "ex": "Her story sounds {{BLANK}} to me.",
+          "tr": "그녀의 이야기는 내가 듣기에 믿을 만해.",
+          "c": "credible은 신뢰할 수 있는. 믿을 만하다는 판단과 참으로 입증됐다는 말은 달라.",
+          "ipa": "ˈkredəbəl",
+          "pos": "adj."
+        },
+        {
+          "word": "credit",
+          "en": "credit",
+          "ko": "공로 인정",
+          "ex": "She gave him {{BLANK}} for the idea.",
+          "tr": "그녀는 그 아이디어에 대한 그의 공로를 인정했어.",
+          "c": "give someone credit for는 ~의 공을 인정하다. 돈이나 학점 뜻과 구별해.",
+          "ipa": "ˈkredɪt",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "lat-dict",
+      "title": "dic / dict · 말하다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "dic-",
+          "meaning": "말하다"
+        },
+        {
+          "form": "dict-",
+          "meaning": "같은 동사의 분사 어간"
+        }
+      ],
+      "rule": "predict는 일이 일어나기 전에 말하는 예측, contradict는 반대되는 내용을 말하거나 나타내는 모순이야.",
+      "limits": "contradict의 주어는 사람만이 아니야. 증거나 두 문장이 서로 모순될 수도 있어.",
+      "history": {
+        "origin": "라틴어 dicere ‘말하다’. praedicere ‘미리 말하다’의 분사 어간은 praedict-, contradicere ‘반대로 말하다’의 분사 어간은 contradict-야.",
+        "route": "predict: 라틴어 praedicere·praedict-와 연결되며 영어 prediction에서 동사가 역으로 만들어졌을 가능성도 제시돼. contradict: 라틴어 contradictus → 영어.",
+        "notes": "predict의 직접 차용과 역형성 여부는 사전의 설명이 갈려 단일 경로로 단정하지 않았어. 원어의 분사 철자는 AHD의 praedict-로 확인했어."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/predict",
+        "https://www.etymonline.com/word/contradict",
+        "https://www.ahdictionary.com/word/search.html?q=predict"
+      ],
+      "cards": [
+        {
+          "word": "predict",
+          "en": "predict",
+          "ko": "예측하다",
+          "ex": "It is hard to {{BLANK}} what will happen next.",
+          "tr": "다음에 무슨 일이 일어날지 예측하기는 어려워.",
+          "c": "pre-는 먼저, dict-는 말하다 계열. 아직 일어나지 않은 일을 예상하는 뜻이야.",
+          "ipa": "prɪˈdɪkt",
+          "pos": "v."
+        },
+        {
+          "word": "contradict",
+          "en": "contradict",
+          "ko": "모순되다, 반박하다",
+          "ex": "These facts {{BLANK}} his account of the event.",
+          "tr": "이 사실들은 그 사건에 대한 그의 설명과 모순돼.",
+          "c": "contra-는 반대로. 사실·증거가 주장과 맞지 않는 경우에도 contradict를 써.",
+          "ipa": "ˌkɑːntrəˈdɪkt",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "lat-tract",
+      "title": "trah / tract · 끌다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "trah-",
+          "meaning": "끌다, 당기다"
+        },
+        {
+          "form": "tract-",
+          "meaning": "같은 동사의 분사 어간"
+        }
+      ],
+      "rule": "attract는 끌어당김, extract는 밖으로 뽑아냄, distract는 주의를 다른 곳으로 끎으로 비교해.",
+      "limits": "tract-가 보여도 단어 전체 뜻을 확인해. distract는 보통 물건을 갈기갈기 찢는다는 뜻으로 쓰지 않아.",
+      "history": {
+        "origin": "라틴어 trahere ‘끌다, 당기다’. 합성어 attrahere·extrahere·distrahere의 분사 attractus·extractus·distractus에 tract-가 나타나.",
+        "route": "attract·extract·distract: 각각 라틴어 attractus·extractus·distractus에서 영어 동사로 들어왔어.",
+        "notes": "attract의 at-는 ad-가 뒤의 t 소리에 맞춰 바뀐 형태야. distract의 추상적인 주의 분산은 오래전부터 확인되는 뜻이야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/attract",
+        "https://www.etymonline.com/word/extract",
+        "https://www.etymonline.com/word/distract"
+      ],
+      "cards": [
+        {
+          "word": "attract",
+          "en": "attract",
+          "ko": "끌어들이다, 끌어당기다",
+          "ex": "Bright flowers {{BLANK}} bees to the garden.",
+          "tr": "밝은 꽃들이 정원으로 벌을 끌어들여.",
+          "c": "attract는 자기 쪽으로 끌다. 사람의 관심·손님·동물을 끄는 데도 써.",
+          "ipa": "əˈtrækt",
+          "pos": "v."
+        },
+        {
+          "word": "extract",
+          "en": "extract",
+          "ko": "추출하다, 뽑아내다",
+          "ex": "We can {{BLANK}} oil from these seeds.",
+          "tr": "우리는 이 씨앗들에서 기름을 추출할 수 있어.",
+          "c": "ex-는 밖으로, tract-는 끌다 계열. extract A from B로 익혀.",
+          "ipa": "ɪkˈstrækt",
+          "pos": "v."
+        },
+        {
+          "word": "distract",
+          "en": "distract",
+          "ko": "주의를 흐트러뜨리다",
+          "ex": "Loud sounds can {{BLANK}} me from my work.",
+          "tr": "큰 소리는 내 주의를 일에서 다른 데로 돌릴 수 있어.",
+          "c": "distract A from B는 A가 B에 집중하지 못하게 하다. 주의를 다른 데로 끌어.",
+          "ipa": "dɪˈstrækt",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "lat-rupt",
+      "title": "rump / rupt · 깨뜨리다, 끊다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "rump-",
+          "meaning": "깨뜨리다"
+        },
+        {
+          "form": "rupt-",
+          "meaning": "같은 동사의 분사 어간"
+        }
+      ],
+      "rule": "interrupt는 진행 중인 흐름을 끊고, disrupt는 정상적인 작동을 흐트러뜨려.",
+      "limits": "둘 다 방해한다고 번역할 수 있지만 항상 서로 바꿔 쓸 수 있는 것은 아니야. 무엇의 흐름이 어떻게 깨지는지 봐.",
+      "history": {
+        "origin": "라틴어 rumpere ‘깨뜨리다’, 과거분사 ruptus. interrumpere는 사이를 끊다, disrumpere는 갈라 깨뜨리다였어.",
+        "route": "interrupt: 라틴어 interruptus → 영어. disrupt: 라틴어 disruptus → 영어, 또는 영어 disruption에서 나온 역형성일 가능성도 있어.",
+        "notes": "어간의 m은 분사형 rupt-에는 나타나지 않아. 현대 영어의 진행 방해·체계 혼란이라는 뜻을 각각 문장에서 익혀."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/interrupt",
+        "https://www.etymonline.com/word/disrupt",
+        "https://www.ahdictionary.com/word/search.html?q=rupture"
+      ],
+      "cards": [
+        {
+          "word": "interrupt",
+          "en": "interrupt",
+          "ko": "중단시키다, 말을 끊다",
+          "ex": "Please do not {{BLANK}} me while I am speaking.",
+          "tr": "내가 말하는 동안 말을 끊지 말아 줘.",
+          "c": "inter-는 사이에. 진행 중인 말이나 행동의 흐름을 끊는다는 뜻이야.",
+          "ipa": "ˌɪntəˈrʌpt",
+          "pos": "v."
+        },
+        {
+          "word": "disrupt",
+          "en": "disrupt",
+          "ko": "방해하다, 차질을 빚게 하다",
+          "ex": "The storm may {{BLANK}} train services tomorrow.",
+          "tr": "폭풍 때문에 내일 열차 운행에 차질이 생길 수 있어.",
+          "c": "dis-는 갈라서. 정상적인 진행이나 작동을 흔들고 차질을 일으키는 뜻이야.",
+          "ipa": "dɪsˈrʌpt",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "lat-struct",
+      "title": "stru / struct · 쌓다, 짜다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "stru-",
+          "meaning": "쌓다, 조립하다"
+        },
+        {
+          "form": "struct-",
+          "meaning": "같은 동사의 분사 어간"
+        }
+      ],
+      "rule": "construct는 요소를 모아 만들기, structure는 그렇게 짜인 구성으로 연결해.",
+      "limits": "structure는 건물만이 아니라 글·뇌·사회 같은 것의 구조도 뜻해. construct도 논증이나 모형을 만드는 데 쓰여.",
+      "history": {
+        "origin": "라틴어 struere ‘쌓다, 함께 배열하다’, 과거분사 structus. construere는 함께 쌓다, structura는 조립·구조를 뜻했어.",
+        "route": "construct: 라틴어 construere의 분사 constructus → 영어. structure: 라틴어 structura → 영어.",
+        "notes": "영어에서 이미 가진 struct에 아무 접두사를 붙여 만든 두 단어가 아니라, 라틴어에서 발달한 단어들이 영어로 들어온 사례야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/construct",
+        "https://www.etymonline.com/word/structure"
+      ],
+      "cards": [
+        {
+          "word": "construct",
+          "en": "construct",
+          "ko": "건설하다, 만들다",
+          "ex": "They plan to {{BLANK}} a bridge across the river.",
+          "tr": "그들은 강을 가로지르는 다리를 건설할 계획이야.",
+          "c": "construct는 부분을 조합해 만들다. 건물 외에 이론·문장을 구성할 때도 써.",
+          "ipa": "kənˈstrʌkt",
+          "pos": "v."
+        },
+        {
+          "word": "structure",
+          "en": "structure",
+          "ko": "구조",
+          "ex": "We studied the {{BLANK}} of the human brain.",
+          "tr": "우리는 인간의 뇌 구조를 공부했어.",
+          "c": "structure는 부분들이 짜인 방식. struct-의 쌓고 배열한다는 계열과 연결돼.",
+          "ipa": "ˈstrʌktʃɚ",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "lat-ced",
+      "title": "ced / ceed / cess · 가다, 물러나다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "ced-, ceed-",
+          "meaning": "가다, 나아가다, 양보하다"
+        },
+        {
+          "form": "cess-",
+          "meaning": "같은 동사의 분사 어간"
+        }
+      ],
+      "rule": "proceed는 앞으로 진행, access는 다가가 이용함, succeed는 뒤를 이어감이라는 갈래를 비교해.",
+      "limits": "succeed를 언제나 성공하다로 읽지 마. succeed someone은 그 사람의 뒤를 잇다야.",
+      "history": {
+        "origin": "라틴어 cedere ‘가다, 물러나다, 양보하다’, 과거분사 cessus. procedere는 앞으로 가다, accedere는 다가가다, succedere는 뒤따라가다였어.",
+        "route": "proceed: 라틴어 procedere → 고프랑스어 proceder 및 직접 차용 → 영어. access: 라틴어 accessus → 고프랑스어 acces → 영어; 입구 뜻에는 직접 차용도 관여. succeed: 라틴어 succedere → 고프랑스어 succeder 및 직접 차용 → 영어.",
+        "notes": "영어의 -cede와 -ceed 철자는 실제 단어별로 익혀. succeed의 suc-는 sub-가 뒤의 c에 맞춰 바뀐 형태이며, 여기서는 뒤이어 감을 나타내."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/proceed",
+        "https://www.etymonline.com/word/access",
+        "https://www.etymonline.com/word/succeed",
+        "https://www.ahdictionary.com/word/search.html?q=cession"
+      ],
+      "cards": [
+        {
+          "word": "proceed",
+          "en": "proceed",
+          "ko": "진행하다, 계속하다",
+          "ex": "We cannot {{BLANK}} until everyone is ready.",
+          "tr": "모두 준비되기 전에는 진행할 수 없어.",
+          "c": "proceed는 앞으로 나아가 진행하다. proceed with a plan도 함께 익혀.",
+          "ipa": "prəˈsiːd",
+          "pos": "v."
+        },
+        {
+          "word": "access",
+          "en": "access",
+          "ko": "접근권, 이용할 수 있음",
+          "ex": "Every student should have {{BLANK}} to clean water.",
+          "tr": "모든 학생은 깨끗한 물을 이용할 수 있어야 해.",
+          "c": "have access to는 접근하거나 이용할 수 있다. 실제 도로만 뜻하지 않아.",
+          "ipa": "ˈækses",
+          "pos": "n."
+        },
+        {
+          "word": "succeed",
+          "en": "succeed",
+          "ko": "뒤를 잇다, 후임이 되다",
+          "ex": "Who will {{BLANK}} her as head of the team?",
+          "tr": "누가 그녀의 뒤를 이어 팀장이 될까?",
+          "c": "succeed someone as는 ~의 뒤를 이어 …이 되다. 성공하다는 뜻과 구별해.",
+          "ipa": "səkˈsiːd",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "lat-ag",
+      "title": "ag / act · 움직이다, 행하다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "ag-",
+          "meaning": "움직이게 하다, 행하다"
+        },
+        {
+          "form": "act-",
+          "meaning": "같은 동사의 분사 계열"
+        }
+      ],
+      "rule": "agent의 작용 주체, active의 활동·작용, react의 반응을 함께 익혀.",
+      "limits": "agent는 사람인 대리인만 뜻하지 않아. 변화를 일으키는 물질이나 힘도 agent야.",
+      "history": {
+        "origin": "라틴어 agere ‘움직이게 하다, 행하다’. 현재분사 agens의 어간 agent-와 과거분사 actus의 act-가 영어에 남았어.",
+        "route": "agent: 라틴어 agentem → 영어. active: 라틴어 activus → 고프랑스어 actif 및 직접 차용 → 영어. react: 영어 re- + act로 형성; act 자체는 라틴어 actus 계열이야.",
+        "notes": "react는 라틴어에서 단어 전체를 빌린 것으로 처리하지 않아. 영어에서 기존 act에 re-를 붙인 형성과 먼 어원을 구별하는 사례야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/agent",
+        "https://www.etymonline.com/word/active",
+        "https://www.etymonline.com/word/react",
+        "https://www.ahdictionary.com/word/search.html?q=act"
+      ],
+      "cards": [
+        {
+          "word": "agent",
+          "en": "agent",
+          "ko": "작용을 일으키는 것, 작용제",
+          "ex": "Water is an {{BLANK}} of change.",
+          "tr": "물은 변화를 일으키는 작용 요인이야.",
+          "c": "agent는 작용을 하는 주체. 사람뿐 아니라 물질이나 자연의 힘도 될 수 있어.",
+          "ipa": "ˈeɪdʒənt",
+          "pos": "n."
+        },
+        {
+          "word": "active",
+          "en": "active",
+          "ko": "작용하는, 활성의",
+          "ex": "The drug remains {{BLANK}} in the body for hours.",
+          "tr": "그 약은 몸속에서 몇 시간 동안 작용해.",
+          "c": "active는 활동적인 사람 외에 실제로 작용 중인 물질도 설명해.",
+          "ipa": "ˈæktɪv",
+          "pos": "adj."
+        },
+        {
+          "word": "react",
+          "en": "react",
+          "ko": "반응하다",
+          "ex": "How will the plants {{BLANK}} to less light?",
+          "tr": "그 식물들은 줄어든 빛에 어떻게 반응할까?",
+          "c": "영어 re- + act로 만든 말. react to 뒤에는 반응을 일으키는 대상이 와.",
+          "ipa": "riˈækt",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "lat-reg",
+      "title": "reg / rect · 곧게 하다, 이끌다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "reg-",
+          "meaning": "곧게 이끌다, 다스리다"
+        },
+        {
+          "form": "rect-",
+          "meaning": "관련 분사 계열"
+        }
+      ],
+      "rule": "direct의 방향을 이끌기와 correct의 잘못을 바로잡기를 연결해.",
+      "limits": "correct는 형용사 ‘정확한’과 동사 ‘바로잡다’가 있어. 이 단위에서는 동사로 익혀.",
+      "history": {
+        "origin": "라틴어 regere ‘곧게 이끌다, 다스리다’. 합성어 dirigere의 분사는 directus, corrigere의 분사는 correctus야.",
+        "route": "direct 동사: 라틴어 directus → 영어. correct 동사: 라틴어 correctus → 영어. correct 형용사는 프랑스어 correct를 거친 별도 경로가 있어.",
+        "notes": "direct의 di-는 라틴어 dis-와 연결돼. correct의 cor-는 com-의 동화형이며, 여기서는 강화 기능으로 설명되기도 해. ‘함께’만 고집하지 마."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/direct",
+        "https://www.etymonline.com/word/correct"
+      ],
+      "cards": [
+        {
+          "word": "direct",
+          "en": "direct",
+          "ko": "안내하다, 방향을 가리키다",
+          "ex": "Signs {{BLANK}} visitors to the main hall.",
+          "tr": "표지판들이 방문객들을 중앙 홀로 안내해.",
+          "c": "direct A to B는 A를 B로 안내하다. 여기서는 영화를 감독한다는 뜻이 아니야.",
+          "ipa": "dəˈrekt",
+          "pos": "v."
+        },
+        {
+          "word": "correct",
+          "en": "correct",
+          "ko": "바로잡다, 수정하다",
+          "ex": "Please {{BLANK}} the errors before you send it.",
+          "tr": "그걸 보내기 전에 오류들을 수정해 줘.",
+          "c": "correct errors는 오류를 바로잡다. 형용사 ‘정확한’과 문장 기능이 달라.",
+          "ipa": "kəˈrekt",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "lat-sequ",
+      "title": "sequ · 뒤따르다",
+      "kind": "latin",
+      "forms": [
+        {
+          "form": "sequ-",
+          "meaning": "따르다, 뒤따르다"
+        }
+      ],
+      "rule": "sequence는 차례로 이어지는 순서, consequence는 어떤 일에 뒤따르는 결과야.",
+      "limits": "뒤에 일어났다고 언제나 앞의 일이 원인인 것은 아니야. 시간 순서와 인과관계는 글의 근거로 판단해.",
+      "history": {
+        "origin": "라틴어 sequi ‘따르다’, 현재분사 sequens의 어간 sequent-. consequi는 뒤따르다이고, consequentia는 그 계열의 추상명사야.",
+        "route": "sequence: 라틴어 sequi의 분사 계열 → 중세 라틴어 sequentia → 고프랑스어 sequence 및 직접 차용 → 영어. consequence: 라틴어 consequentia → 고프랑스어 consequence → 영어.",
+        "notes": "consequence에는 중요성이라는 별도 의미도 있지만, 여기서는 어근과 바로 연결되는 결과를 연습해. 시간적 선후를 나타내는 표현과 원인·결과를 나타내는 표현은 문맥에서 구별해."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/sequence",
+        "https://www.etymonline.com/word/consequence"
+      ],
+      "cards": [
+        {
+          "word": "sequence",
+          "en": "sequence",
+          "ko": "순서, 차례",
+          "ex": "Put the events in the right {{BLANK}}.",
+          "tr": "그 사건들을 올바른 순서로 놓아 봐.",
+          "c": "sequence는 하나가 다른 하나 뒤를 따르는 순서. 인과관계까지 보장하진 않아.",
+          "ipa": "ˈsiːkwəns",
+          "pos": "n."
+        },
+        {
+          "word": "consequence",
+          "en": "consequence",
+          "ko": "결과",
+          "ex": "A rise in prices was one {{BLANK}} of the war.",
+          "tr": "물가 상승은 그 전쟁의 한 결과였어.",
+          "c": "consequence는 앞선 일에서 뒤따라 나온 결과. 나쁜 결과에만 쓰는 말은 아니야.",
+          "ipa": "ˈkɑːnsəkwens",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "gr-bio",
+      "title": "bio- · 삶과 생명",
+      "kind": "greek",
+      "forms": [
+        {
+          "form": "bio-",
+          "meaning": "삶, 생명, 생물",
+          "englishIpa": "/ˈbaɪoʊ/"
+        }
+      ],
+      "rule": "bio-를 보면 생애 또는 생물과의 관계를 먼저 살펴봐. biography는 한 사람의 생애 기록, biology는 생물을 연구하는 학문이야.",
+      "limits": "그리스어 βίος는 주로 생애·살아가는 방식을 가리켰어. 현대 과학의 bio-는 동식물의 생명 전반으로 뜻이 확장됐어.",
+      "history": {
+        "origin": "고대 그리스어 βίος: 삶, 생애, 생활 방식",
+        "greek": "βίος",
+        "romanization": "bios",
+        "reading": "원문 전사 bios와 영어 결합형 bio- /ˈbaɪoʊ/를 구별해.",
+        "route": "biography는 후기 그리스어 biographia에서 중세 라틴어를 거친 것으로 보며, biology는 그리스어 재료로 만든 근대 학술어야.",
+        "notes": "biology의 명명에는 1802년 프랑스어와 독일어의 학술 용례가 있어. 고대 그리스인이 현대 생물학이라는 학명을 그대로 썼다고 설명하지 않아."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/bio-",
+        "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Acunliffe_lex-n1749/",
+        "https://www.etymonline.com/word/biography",
+        "https://www.etymonline.com/word/biology"
+      ],
+      "cards": [
+        {
+          "word": "biology",
+          "en": "biology",
+          "ko": "생물학",
+          "ex": "She studies {{BLANK}} to understand living things.",
+          "tr": "그녀는 생물을 이해하려고 생물학을 공부해.",
+          "c": "bio-(생명)와 -logy(학문). 현대 과학에서 만든 학명이야.",
+          "ipa": "baɪˈɑːlədʒi",
+          "pos": "n."
+        },
+        {
+          "word": "biography",
+          "en": "biography",
+          "ko": "전기, 한 사람의 일생을 쓴 글",
+          "ex": "This {{BLANK}} tells the story of her life.",
+          "tr": "이 전기는 그녀의 일생을 들려줘.",
+          "c": "bio-(생애)와 -graphy(기록). autobiography는 자기 삶을 쓴 자서전이야.",
+          "ipa": "baɪˈɑːɡrəfi",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "gr-geo",
+      "title": "geo- · 땅과 지구",
+      "kind": "greek",
+      "forms": [
+        {
+          "form": "geo-",
+          "meaning": "땅, 지구",
+          "englishIpa": "/ˈdʒiːoʊ/"
+        }
+      ],
+      "rule": "geo- 뒤의 부분도 함께 읽어봐. 지표를 기술하고 지역을 연구하면 geography, 지구의 구조와 역사를 연구하면 geology야.",
+      "limits": "두 학문은 관련이 있지만 같은 말은 아니야. geo-만 보고 둘 다 막연히 지구학이라고 넘기지 마.",
+      "history": {
+        "origin": "고대 그리스어 γῆ: 땅, 대지",
+        "greek": "γῆ",
+        "romanization": "gē",
+        "reading": "gē는 원문 전사, geo- /ˈdʒiːoʊ/는 영어 결합형 발음이야.",
+        "route": "geography: 그리스어 geōgraphia → 라틴어 geographia → 프랑스어 géographie → 영어. geology는 그리스어 재료로 만든 근대 라틴어 geologia와 이어져.",
+        "notes": "γῆ보다 더 오래된 기원은 확실하지 않아. 영어의 geo-는 원어의 결합형을 이어받았어."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/geo-",
+        "https://www.etymonline.com/word/geography",
+        "https://atlas.perseus.tufts.edu/dictionaries/headword/%CE%B3%E1%BF%86/",
+        "https://www.etymonline.com/word/geology"
+      ],
+      "cards": [
+        {
+          "word": "geography",
+          "en": "geography",
+          "ko": "지리학, 지리",
+          "ex": "In {{BLANK}}, we study regions and their people.",
+          "tr": "지리에서는 지역과 그곳의 사람들을 공부해.",
+          "c": "geo-(땅)와 -graphy(기술·기록). 자연환경뿐 아니라 사람과 지역도 다뤄.",
+          "ipa": "dʒiˈɑːɡrəfi",
+          "pos": "n."
+        },
+        {
+          "word": "geology",
+          "en": "geology",
+          "ko": "지질학",
+          "ex": "{{BLANK}} helps us understand rocks and Earth's history.",
+          "tr": "지질학은 암석과 지구의 역사를 이해하도록 도와줘.",
+          "c": "geo-(지구)와 -logy(학문). 지구의 구조·물질·변화를 연구해.",
+          "ipa": "dʒiˈɑːlədʒi",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "gr-graph",
+      "title": "graph · 쓰고 그리기",
+      "kind": "greek",
+      "forms": [
+        {
+          "form": "graph / -graphy",
+          "meaning": "쓰다, 그리다 / 기록·기술",
+          "englishPronunciation": "graphic /ˈɡræfɪk/ · photograph /ˈfoʊtəɡræf/"
+        }
+      ],
+      "rule": "graph 계열은 글·그림·기록을 연결해. photograph에서는 빛으로 남긴 그림, graphic에서는 그림이나 도표로 표현한 성질을 떠올려.",
+      "limits": "graphic은 생생하고 노골적이라는 뜻도 있어. 모든 문장에서 도표의라고 읽으면 안 돼.",
+      "history": {
+        "origin": "고대 그리스어 γράφω: 긁다, 그리다, 쓰다",
+        "greek": "γράφω; γράφειν",
+        "romanization": "graphō; graphein",
+        "reading": "전사 ph는 그리스 문자 φ를 옮긴 거야. 영어 graph는 /ɡræf/로 읽어.",
+        "route": "graphic은 그리스어 graphikos에서 라틴어 graphicus를 거쳤어. photograph는 그리스어 photo-와 -graph를 이용해 근대에 만든 영어 단어야.",
+        "notes": "기록의 옛 방식인 긁어 표시하기와 쓰기의 관계는 확인되지만, 현대의 모든 graph 단어가 고대에 이미 존재한 것은 아니야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-graphy",
+        "https://www.etymonline.com/word/graphic",
+        "https://www.etymonline.com/word/photograph",
+        "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionary-entries.atlas_v1%3Amiddle-liddell.perseus-eng2-n7087/"
+      ],
+      "cards": [
+        {
+          "word": "graphic",
+          "en": "graphic",
+          "ko": "그림이나 도표로 나타낸",
+          "ex": "The report includes a {{BLANK}} display of the results.",
+          "tr": "그 보고서에는 결과를 도표로 나타낸 자료가 포함돼.",
+          "c": "graph-(그리다). graphic description에서는 생생한·노골적인 묘사라는 뜻도 돼.",
+          "ipa": "ˈɡræfɪk",
+          "pos": "adj."
+        },
+        {
+          "word": "photograph",
+          "en": "photograph",
+          "ko": "사진",
+          "ex": "The {{BLANK}} shows the town before the flood.",
+          "tr": "그 사진은 홍수가 나기 전의 마을을 보여줘.",
+          "c": "photo-(빛)와 -graph(기록). 빛으로 남긴 그림이라는 조어야.",
+          "ipa": "ˈfoʊtəɡræf",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "gr-logy",
+      "title": "-logy · 설명과 학문",
+      "kind": "greek",
+      "forms": [
+        {
+          "form": "-logy",
+          "meaning": "학문, 연구, 이론",
+          "englishIpa": "/lədʒi/"
+        }
+      ],
+      "rule": "학문 이름에서 -logy 앞부분은 연구 대상을 알려 주는 경우가 많아. sociology는 사회, ecology는 생물과 환경의 관계를 연구해.",
+      "limits": "-logy가 보인다고 언제나 학문은 아니야. analogy는 유추·유사성이고 apology는 사과야. 완성 단어의 뜻을 확인해.",
+      "history": {
+        "origin": "고대 그리스어 -λογία 및 말하다를 뜻하는 λέγειν과 연결된 요소",
+        "greek": "-λογία; λόγος; λέγειν",
+        "romanization": "-logia; logos; legein",
+        "reading": "원문 전사 logia와 영어의 -logy /lədʒi/를 구별해.",
+        "route": "-logy는 그리스어 -logia가 라틴어 -logia와 프랑스어 -logie 등을 거쳐 영어에 자리 잡았어. sociology는 프랑스어에서 만든 혼합어, ecology는 독일어 학술어에서 왔어.",
+        "notes": "sociology의 socio-는 라틴어 socius 계열이야. ecology는 그리스어 oikos(집·거처)와 -logia를 바탕으로 만든 말이야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-logy",
+        "https://www.etymonline.com/word/sociology",
+        "https://www.etymonline.com/word/ecology",
+        "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionary-entries.atlas_v1%3Amiddle-liddell.perseus-eng2-n19870/"
+      ],
+      "cards": [
+        {
+          "word": "sociology",
+          "en": "sociology",
+          "ko": "사회학",
+          "ex": "{{BLANK}} examines how people live together in groups.",
+          "tr": "사회학은 사람들이 집단 안에서 어떻게 함께 사는지 연구해.",
+          "c": "socio-(사회)와 -logy(학문). 앞부분은 라틴어, 뒷부분은 그리스어 계열이야.",
+          "ipa": "ˌsoʊsiˈɑːlədʒi",
+          "pos": "n."
+        },
+        {
+          "word": "ecology",
+          "en": "ecology",
+          "ko": "생태학",
+          "ex": "{{BLANK}} studies relationships between living things and their environment.",
+          "tr": "생태학은 생물과 그 환경 사이의 관계를 연구해.",
+          "c": "eco-는 원래 집·거처라는 말. 생물과 환경의 관계를 다루는 학문이야.",
+          "ipa": "iˈkɑːlədʒi",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "gr-phon",
+      "title": "phon · 소리와 목소리",
+      "kind": "greek",
+      "forms": [
+        {
+          "form": "phon / phono- / -phone",
+          "meaning": "소리, 목소리",
+          "englishPronunciation": "telephone /ˈteləfoʊn/ · microphone /ˈmaɪkrəfoʊn/"
+        }
+      ],
+      "rule": "phon 계열은 소리와 연결해. tele-는 먼 거리, micro-는 작음을 나타내므로 조합의 출발점을 알아볼 수 있어.",
+      "limits": "microphone의 현대 뜻은 작은 소리 자체가 아니라 소리를 전기 신호로 바꾸는 장치야. 어원과 사전 뜻을 구별해.",
+      "history": {
+        "origin": "고대 그리스어 φωνή: 소리, 목소리",
+        "greek": "φωνή",
+        "romanization": "phōnē",
+        "reading": "원문 전사 phōnē와 영어 -phone /foʊn/은 다른 표기 체계야.",
+        "route": "telephone은 그리스어 재료로 만든 프랑스어 téléphone에서 영어로 들어왔어. microphone은 micro-와 그리스어 phōnē를 바탕으로 만든 말이야.",
+        "notes": "두 단어는 장치가 발달하면서 가리키는 대상도 달라졌어. 어근 풀이만으로 현재 장치의 정의를 대신하지 않아."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/phono-",
+        "https://www.etymonline.com/word/telephone",
+        "https://www.etymonline.com/word/microphone",
+        "https://atlas.perseus.tufts.edu/dictionaries/headword/%CF%86%CF%89%CE%BD%CE%AE/"
+      ],
+      "cards": [
+        {
+          "word": "telephone",
+          "en": "telephone",
+          "ko": "전화기, 전화",
+          "ex": "The {{BLANK}} lets us speak across long distances.",
+          "tr": "전화는 우리가 먼 거리를 두고 말할 수 있게 해.",
+          "c": "tele-(멀리)와 phon-(소리). 전화라는 완성 단어로 익혀.",
+          "ipa": "ˈteləfoʊn",
+          "pos": "n."
+        },
+        {
+          "word": "microphone",
+          "en": "microphone",
+          "ko": "마이크, 음성 입력 장치",
+          "ex": "Speak clearly into the {{BLANK}}.",
+          "tr": "마이크에 대고 또렷하게 말해.",
+          "c": "micro-(작은)와 phon-(소리). 줄임말 mic도 /maɪk/로 읽어.",
+          "ipa": "ˈmaɪkrəfoʊn",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "gr-photo",
+      "title": "photo- · 빛",
+      "kind": "greek",
+      "forms": [
+        {
+          "form": "photo-",
+          "meaning": "빛; 사진",
+          "englishIpa": "/ˈfoʊtoʊ/"
+        }
+      ],
+      "rule": "photo-는 빛과 관계돼. 사진 관련 단어에서는 사진의 뜻으로도 쓰이고, photosynthesis에서는 빛 자체가 중요해.",
+      "limits": "모든 photo-를 사진으로 번역하지 마. photosynthesis는 사진 합성이 아니라 광합성이야.",
+      "history": {
+        "origin": "고대 그리스어 φῶς: 빛. 속격 φωτός에서 phot- 형태가 드러나.",
+        "greek": "φῶς; φωτός",
+        "romanization": "phōs; phōtos",
+        "reading": "phōs/phōtos는 전사, photo- /ˈfoʊtoʊ/는 영어 결합형 발음이야.",
+        "route": "그리스어 명사의 어간을 photo-라는 결합형으로 사용해 근대 과학·사진 용어를 만들었어.",
+        "notes": "photo-의 t는 임의로 끼운 철자가 아니라 원어의 다른 형태에서 드러나는 어간의 일부야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/photo-",
+        "https://www.etymonline.com/word/photosynthesis",
+        "https://www.etymonline.com/word/photographic",
+        "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n112863/"
+      ],
+      "cards": [
+        {
+          "word": "photosynthesis",
+          "en": "photosynthesis",
+          "ko": "광합성",
+          "ex": "Plants use light for {{BLANK}}.",
+          "tr": "식물은 광합성을 위해 빛을 이용해.",
+          "c": "photo-(빛)와 synthesis(합성). 여기서 photo-는 사진이 아니야.",
+          "ipa": "ˌfoʊtoʊˈsɪnθəsɪs",
+          "pos": "n."
+        },
+        {
+          "word": "photographic",
+          "en": "photographic",
+          "ko": "사진의, 사진으로 된",
+          "ex": "They found {{BLANK}} evidence of the damage.",
+          "tr": "그들은 피해를 보여주는 사진 증거를 찾았어.",
+          "c": "photograph에 형용사형 -ic이 붙은 말. 강세 위치도 달라져.",
+          "ipa": "ˌfoʊtəˈɡræfɪk",
+          "pos": "adj."
+        }
+      ]
+    },
+    {
+      "id": "gr-therm",
+      "title": "therm · 열과 온도",
+      "kind": "greek",
+      "forms": [
+        {
+          "form": "therm / thermo-",
+          "meaning": "열, 온도",
+          "englishPronunciation": "thermal /ˈθɜːrməl/ · thermometer /θərˈmɑːmɪtər/"
+        }
+      ],
+      "rule": "therm 계열은 열 또는 온도에 관계돼. thermal은 열의 성질, thermometer는 온도를 재는 기구야.",
+      "limits": "열과 온도는 과학에서 구별하는 개념이야. 어근이 같다고 두 단어를 같은 뜻으로 취급하지 않아.",
+      "history": {
+        "origin": "고대 그리스어 θερμός: 뜨거운, 따뜻한; θέρμη: 열",
+        "greek": "θερμός; θέρμη",
+        "romanization": "thermos; thermē",
+        "reading": "그리스어 전사 th와 영어 /θ/를 같은 시대의 발음이라고 설명하지 않아. 영어 therm-는 /θɜːrm/이야.",
+        "route": "그리스계 therm-가 과학 용어의 재료가 되었어. thermometer는 그리스어 재료로 만든 프랑스어 thermomètre에서 들어왔어.",
+        "notes": "thermometer의 두 번째 요소는 재다·측정과 연결돼. 기구가 재는 것은 온도야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/thermo-",
+        "https://www.etymonline.com/word/thermal",
+        "https://www.etymonline.com/word/thermometer",
+        "https://atlas.perseus.tufts.edu/nodes/urn%3Acts%3AgreekLit%3Atlg0012.tlg001.perseus-grc2%3A14.6/"
+      ],
+      "cards": [
+        {
+          "word": "thermal",
+          "en": "thermal",
+          "ko": "열의, 열과 관련된",
+          "ex": "These walls reduce the loss of {{BLANK}} energy.",
+          "tr": "이 벽들은 열에너지의 손실을 줄여.",
+          "c": "therm-(열)과 -al(형용사형). thermal energy는 열에너지야.",
+          "ipa": "ˈθɜːrməl",
+          "pos": "adj."
+        },
+        {
+          "word": "thermometer",
+          "en": "thermometer",
+          "ko": "온도계, 체온계",
+          "ex": "The {{BLANK}} shows the temperature of the water.",
+          "tr": "온도계는 물의 온도를 보여줘.",
+          "c": "thermo-(열·온도)와 -meter(측정 기구). 온도를 재는 기구야.",
+          "ipa": "θərˈmɑːmɪtər",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "gr-chron",
+      "title": "chron · 시간",
+      "kind": "greek",
+      "forms": [
+        {
+          "form": "chron / chrono-",
+          "meaning": "시간",
+          "englishPronunciation": "chronic /ˈkrɑːnɪk/ · chronological /ˌkrɑːnəˈlɑːdʒɪkəl/"
+        }
+      ],
+      "rule": "chron을 보면 시간과의 관계를 살펴봐. chronological은 시간 순서, chronic은 오래 지속되는 상태를 나타내.",
+      "limits": "chronic을 단순히 시간의라고 해석하지 마. 질병에서는 만성의, 문제에서는 고질적인이라는 뜻이야.",
+      "history": {
+        "origin": "고대 그리스어 χρόνος: 시간, 일정 기간",
+        "greek": "χρόνος",
+        "romanization": "khronos (관용 전사 chronos)",
+        "reading": "영어 chron-의 ch는 /k/야. 원문의 χ와 현대 영어 ch의 발음 규칙을 구별해.",
+        "route": "chronic은 그리스어 khronikos에서 라틴어 chronicus, 프랑스어 chronique 등을 거쳤어. chrono-는 라틴식 철자를 가진 그리스계 결합형이야.",
+        "notes": "χρόνος보다 오래된 기원은 확실하지 않아. 신화의 이름과 소리가 닮았다는 이유로 같은 어원이라고 단정하지 않아."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/chrono-",
+        "https://www.etymonline.com/word/chronological",
+        "https://atlas.perseus.tufts.edu/dictionaries/headword/%CF%87%CF%81%CF%8C%CE%BD%CE%BF%CF%82/",
+        "https://www.etymonline.com/word/chronic"
+      ],
+      "cards": [
+        {
+          "word": "chronic",
+          "en": "chronic",
+          "ko": "만성의, 오래 지속되는",
+          "ex": "She needs treatment for {{BLANK}} pain.",
+          "tr": "그녀는 만성 통증에 대한 치료가 필요해.",
+          "c": "chron-(시간). 오랫동안 지속되는 상태이며, 단순히 심하다는 뜻은 아니야.",
+          "ipa": "ˈkrɑːnɪk",
+          "pos": "adj."
+        },
+        {
+          "word": "chronological",
+          "en": "chronological",
+          "ko": "시간 순서대로 된",
+          "ex": "Put these events in {{BLANK}} order.",
+          "tr": "이 사건들을 시간 순서대로 놓아.",
+          "c": "chron-(시간). chronological order는 발생한 때에 따라 배열한 순서야.",
+          "ipa": "ˌkrɑːnəˈlɑːdʒɪkəl",
+          "pos": "adj."
+        }
+      ]
+    },
+    {
+      "id": "gr-psych",
+      "title": "psych · 마음과 정신",
+      "kind": "greek",
+      "forms": [
+        {
+          "form": "psych / psycho-",
+          "meaning": "마음, 정신",
+          "englishPronunciation": "psychology /saɪˈkɑːlədʒi/ · psychological /ˌsaɪkəˈlɑːdʒɪkəl/"
+        }
+      ],
+      "rule": "psych 계열은 마음이나 정신 작용에 관계돼. psychology는 학문 이름이고 psychological은 마음·심리에 관련된 성질이야.",
+      "limits": "어원에 영혼이라는 뜻이 있었다고 현대 심리학을 영혼의 학문으로 정의하지 않아. 현대적 연구 대상은 별도로 확인해.",
+      "history": {
+        "origin": "고대 그리스어 ψυχή: 생명, 영혼, 마음",
+        "greek": "ψυχή",
+        "romanization": "psykhē (관용 전사 psychē)",
+        "reading": "영어 psychology의 첫 p는 소리 나지 않아. 원문 전사 ps와 영어 발음을 구별해.",
+        "route": "그리스어 ψυχή를 psycho- 형태로 사용했어. psychology는 근대 라틴어 psychologia를 거쳐 영어에 들어온 학술어야.",
+        "notes": "원어의 뜻은 시대와 문맥에 따라 달랐어. breath와의 더 먼 관계는 모든 연구자가 확정적으로 보는 것은 아니야."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/psycho-",
+        "https://www.etymonline.com/word/psychology",
+        "https://www.etymonline.com/word/psychological",
+        "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n115887/"
+      ],
+      "cards": [
+        {
+          "word": "psychology",
+          "en": "psychology",
+          "ko": "심리학",
+          "ex": "{{BLANK}} studies the mind and behavior.",
+          "tr": "심리학은 마음과 행동을 연구해.",
+          "c": "psych-(마음)와 -logy(학문). 첫 p는 발음하지 않아.",
+          "ipa": "saɪˈkɑːlədʒi",
+          "pos": "n."
+        },
+        {
+          "word": "psychological",
+          "en": "psychological",
+          "ko": "심리적인, 정신적인",
+          "ex": "The accident had lasting {{BLANK}} effects on him.",
+          "tr": "그 사고는 그에게 지속적인 심리적 영향을 미쳤어.",
+          "c": "신체의 physical과 구별해. 눈에 안 보인다는 뜻으로만 이해하면 안 돼.",
+          "ipa": "ˌsaɪkəˈlɑːdʒɪkəl",
+          "pos": "adj."
+        }
+      ]
+    },
+    {
+      "id": "gr-anthrop",
+      "title": "anthrop · 인간",
+      "kind": "greek",
+      "forms": [
+        {
+          "form": "anthrop / anthropo-",
+          "meaning": "인간, 인류",
+          "englishPronunciation": "anthropology /ˌænθrəˈpɑːlədʒi/ · philanthropy /fɪˈlænθrəpi/"
+        }
+      ],
+      "rule": "anthrop는 인간·인류와 관계돼. anthropology에서는 연구 대상, philanthropy에서는 도움과 관심의 대상을 알려 줘.",
+      "limits": "인간이라는 공통 요소만으로 완성 단어의 뜻을 끝내지 마. philanthropy는 보통 사회를 돕는 기부·자선 활동을 가리켜.",
+      "history": {
+        "origin": "고대 그리스어 ἄνθρωπος: 사람, 인간",
+        "greek": "ἄνθρωπος",
+        "romanization": "anthrōpos",
+        "reading": "anthrōpos는 원문 전사야. 영어 단어에서는 anthrop- 뒤의 형태에 따라 강세가 달라져.",
+        "route": "그리스어 anthrōpos가 anthrop(o)-라는 학술 결합형의 바탕이 되었어. anthropology와 philanthropy 모두 이 요소를 포함해.",
+        "notes": "ἄνθρωπος를 남자+얼굴이라는 식으로 완전히 확정해 풀지 않아. 그보다 앞선 형성 과정에는 설명상의 어려움과 학설 차이가 있어."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/anthropo-",
+        "https://www.etymonline.com/word/anthropology",
+        "https://www.etymonline.com/word/philanthropy",
+        "https://atlas.perseus.tufts.edu/dictionaries/headword/%E1%BC%84%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82/"
+      ],
+      "cards": [
+        {
+          "word": "anthropology",
+          "en": "anthropology",
+          "ko": "인류학",
+          "ex": "{{BLANK}} studies human societies and cultures.",
+          "tr": "인류학은 인간의 사회와 문화를 연구해.",
+          "c": "anthrop-(인간)와 -logy(학문). 인간의 생물학적 측면을 다루는 분야도 있어.",
+          "ipa": "ˌænθrəˈpɑːlədʒi",
+          "pos": "n."
+        },
+        {
+          "word": "philanthropy",
+          "en": "philanthropy",
+          "ko": "자선 활동, 인류애",
+          "ex": "Her {{BLANK}} helps build schools for poor children.",
+          "tr": "그녀의 자선 활동은 가난한 아이들을 위한 학교를 짓는 데 도움이 돼.",
+          "c": "phil-(사랑)과 anthrop-(인간). 실제 용법에서는 공익을 위한 기부·지원이 중요해.",
+          "ipa": "fɪˈlænθrəpi",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "gr-auto",
+      "title": "auto- · 스스로",
+      "kind": "greek",
+      "forms": [
+        {
+          "form": "auto-",
+          "meaning": "자기, 스스로; 자동차",
+          "englishIpa": "/ˈɔːtoʊ/"
+        }
+      ],
+      "rule": "auto-의 기본 연결은 스스로야. automatic에서는 사람이 매번 조작하지 않음, autonomy에서는 스스로 결정할 권한을 생각해.",
+      "limits": "auto-가 자동차를 줄여 나타내는 경우도 있어. 문맥에 따라 스스로와 자동차를 구별해.",
+      "history": {
+        "origin": "고대 그리스어 αὐτός: 자신, 같은 것",
+        "greek": "αὐτός",
+        "romanization": "autos",
+        "reading": "autos는 원문 전사, 영어 auto-는 /ˈɔːtoʊ/야.",
+        "route": "그리스어의 auto-가 차용어와 근대 조어에 쓰이면서 영어의 생산적인 결합형이 되었어.",
+        "notes": "autonomy의 nom-는 법·규칙과 관련돼. automatic 전체를 auto+현재 영어 단어로 억지로 나누지는 않아."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/auto-",
+        "https://www.etymonline.com/word/automatic",
+        "https://www.etymonline.com/word/autonomy",
+        "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionary-entries.atlas_v1%3Amiddle-liddell.perseus-eng2-n5662/"
+      ],
+      "cards": [
+        {
+          "word": "automatic",
+          "en": "automatic",
+          "ko": "자동의, 자동으로 작동하는",
+          "ex": "The {{BLANK}} doors open as we walk closer.",
+          "tr": "우리가 더 가까이 걸어가면 자동문이 열려.",
+          "c": "auto-(스스로). automatic response에서는 의식하지 않아도 나오는 반응이야.",
+          "ipa": "ˌɔːtəˈmætɪk",
+          "pos": "adj."
+        },
+        {
+          "word": "autonomy",
+          "en": "autonomy",
+          "ko": "자율성, 자치권",
+          "ex": "The school gives teachers more {{BLANK}}.",
+          "tr": "그 학교는 교사들에게 더 큰 자율성을 줘.",
+          "c": "auto-(자기)와 nom-(법·규칙). 자기 일을 스스로 결정할 권한이야.",
+          "ipa": "ɔːˈtɑːnəmi",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "gr-tele",
+      "title": "tele- · 먼 거리",
+      "kind": "greek",
+      "forms": [
+        {
+          "form": "tele-",
+          "meaning": "멀리, 원거리에서",
+          "englishPronunciation": "television /ˈteləvɪʒən/ · telecommunication /ˌtelɪkəˌmjuːnɪˈkeɪʃən/"
+        }
+      ],
+      "rule": "tele-는 떨어진 거리를 연결해. television은 멀리 있는 영상을 전달하고 telecommunication은 정보를 멀리 주고받는 일이야.",
+      "limits": "tele-가 붙었다고 모두 전화와 관계되는 것은 아니야. telescope는 빛을 모아 먼 대상을 보는 망원경이야.",
+      "history": {
+        "origin": "고대 그리스어 τῆλε: 멀리, 먼 곳에서",
+        "greek": "τῆλε",
+        "romanization": "tēle",
+        "reading": "tēle는 원문 전사이고, 영어 tele-의 소리는 완성 단어에 따라 확인해.",
+        "route": "그리스어 τῆλε가 근대 통신 용어의 재료가 되었어. television은 영어에서 만든 말 또는 프랑스어 차용어로 보며, telecommunication은 프랑스어 télécommunication에서 왔어.",
+        "notes": "기술 명칭에서 재료의 언어가 섞일 수 있어. 그리스어 요소가 있다고 단어 전체를 고대 그리스어 차용어로 분류하지 않아."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/tele-",
+        "https://atlas.perseus.tufts.edu/nodes/urn%3Acts%3AgreekLit%3Atlg0012.tlg001.perseus-grc2%3A11.817/",
+        "https://www.etymonline.com/word/television",
+        "https://www.etymonline.com/word/telecommunication"
+      ],
+      "cards": [
+        {
+          "word": "television",
+          "en": "television",
+          "ko": "텔레비전, TV 방송",
+          "ex": "We watched the event live on {{BLANK}}.",
+          "tr": "우리는 그 행사를 텔레비전 생중계로 봤어.",
+          "c": "tele-(멀리)와 vision 계열(보기). 서로 다른 언어의 재료를 결합한 말이야.",
+          "ipa": "ˈteləvɪʒən",
+          "pos": "n."
+        },
+        {
+          "word": "telecommunication",
+          "en": "telecommunication",
+          "ko": "원거리 통신, 전기 통신",
+          "ex": "{{BLANK}} connects people across long distances.",
+          "tr": "원거리 통신은 멀리 떨어진 사람들을 연결해.",
+          "c": "tele-(멀리)와 communication(통신). 복수형 telecommunications도 흔해.",
+          "ipa": "ˌtelɪkəˌmjuːnɪˈkeɪʃən",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "gr-micro",
+      "title": "micro- · 매우 작음",
+      "kind": "greek",
+      "forms": [
+        {
+          "form": "micro-",
+          "meaning": "작은, 미세한",
+          "englishIpa": "/ˈmaɪkroʊ/"
+        }
+      ],
+      "rule": "micro-는 작은 규모를 나타내. microbe는 미세한 생물이고 microscopic은 현미경으로 봐야 할 만큼 작은 성질을 나타낼 수 있어.",
+      "limits": "측정 단위 앞의 micro-는 정확히 백만분의 일을 뜻해. 모든 일반 단어에서 이 수치가 적용되는 것은 아니야.",
+      "history": {
+        "origin": "고대 그리스어 μικρός: 작은. σμικρός라는 형태도 있어.",
+        "greek": "μικρός; σμικρός",
+        "romanization": "mikros; smikros",
+        "reading": "mikros는 원문 전사, 영어 micro-는 /ˈmaɪkroʊ/야.",
+        "route": "그리스어의 라틴식 결합형 micro-가 근대 과학 용어에 쓰였어. microbe는 프랑스어에서 만들어 영어로 들어온 말이야.",
+        "notes": "microbe의 뒤 요소는 bio-와 관련돼. 현대 과학의 의미를 고대 그리스어 조어 규칙과 완전히 동일시하지 않아."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/micro-",
+        "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n67762/",
+        "https://www.etymonline.com/word/microbe"
+      ],
+      "cards": [
+        {
+          "word": "microbe",
+          "en": "microbe",
+          "ko": "미생물",
+          "ex": "This {{BLANK}} lives in the soil.",
+          "tr": "이 미생물은 토양 속에서 살아.",
+          "c": "micro-(작은)와 bio-(생명)가 바탕이야. 모든 미생물이 병원균인 건 아니야.",
+          "ipa": "ˈmaɪkroʊb",
+          "pos": "n."
+        },
+        {
+          "word": "microscopic",
+          "en": "microscopic",
+          "ko": "현미경으로 보아야 할 만큼 작은",
+          "ex": "These {{BLANK}} living things are too small to see.",
+          "tr": "이 미세한 생물들은 너무 작아서 눈에 보이지 않아.",
+          "c": "micro-(작은)와 scope 계열(보기). 현미경과 관련된이라는 뜻도 있어.",
+          "ipa": "ˌmaɪkrəˈskɑːpɪk",
+          "pos": "adj."
+        }
+      ]
+    },
+    {
+      "id": "gr-scope",
+      "title": "-scope · 관찰하는 기구",
+      "kind": "greek",
+      "forms": [
+        {
+          "form": "-scope",
+          "meaning": "보거나 관찰하는 기구",
+          "englishIpa": "/skoʊp/"
+        }
+      ],
+      "rule": "-scope 앞의 부분이 관찰 대상을 설명하는 경우가 많아. micro-는 작은 것, tele-는 먼 것을 가리켜.",
+      "limits": "-scope를 모든 단어에서 단순히 눈으로 보기로 한정하지 마. stethoscope는 가슴의 소리를 듣는 청진기야.",
+      "history": {
+        "origin": "고대 그리스어 σκοπέω: 살펴보다, 관찰하다",
+        "greek": "σκοπέω; σκοπεῖν",
+        "romanization": "skopeō; skopein",
+        "reading": "원문 전사 skopein과 영어 -scope /skoʊp/를 구별해.",
+        "route": "그리스어 -skopion 계열이 라틴식 -scopium을 거쳐 영어 -scope의 바탕이 되었어.",
+        "notes": "현대 과학 기구 이름은 이 결합형을 이용한 근대 조어가 많아. 각 기구의 실제 작동과 용도를 별도로 익혀."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-scope",
+        "https://atlas.perseus.tufts.edu/dictionaries/headword/%CF%83%CE%BA%CE%BF%CF%80%CE%AD%CF%89/"
+      ],
+      "cards": [
+        {
+          "word": "microscope",
+          "en": "microscope",
+          "ko": "현미경",
+          "ex": "We examined the cells through a {{BLANK}}.",
+          "tr": "우리는 현미경으로 세포들을 관찰했어.",
+          "c": "micro-(작은)와 -scope(관찰 기구). 아주 작은 대상을 확대해 봐.",
+          "ipa": "ˈmaɪkrəskoʊp",
+          "pos": "n."
+        },
+        {
+          "word": "telescope",
+          "en": "telescope",
+          "ko": "망원경",
+          "ex": "We used a {{BLANK}} to see distant stars.",
+          "tr": "우리는 멀리 있는 별을 보려고 망원경을 사용했어.",
+          "c": "tele-(멀리)와 -scope(관찰 기구). 현미경과 관찰 대상이 달라.",
+          "ipa": "ˈteləskoʊp",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "gr-path",
+      "title": "path · 겪음과 감정",
+      "kind": "greek",
+      "forms": [
+        {
+          "form": "path / -pathy / patho-",
+          "meaning": "겪음, 감정; 고통, 질병",
+          "englishPronunciation": "empathy /ˈempəθi/ · sympathy /ˈsɪmpəθi/"
+        }
+      ],
+      "rule": "path 계열은 경험하는 감정·고통과 연결돼. empathy와 sympathy의 차이는 현대 영어의 뜻과 문맥으로 익혀.",
+      "limits": "감정이라는 한 뜻으로 pathology 같은 의학 용어까지 번역하면 안 돼. 길이라는 영어 path는 이 그리스어 요소와 별개야.",
+      "history": {
+        "origin": "고대 그리스어 πάθος: 겪는 일, 경험, 감정, 고통",
+        "greek": "πάθος",
+        "romanization": "pathos",
+        "reading": "pathos는 원문 전사야. 영어 empathy의 -pathy는 /pəθi/로 읽어.",
+        "route": "sympathy는 그리스어 sympatheia에서 후기 라틴어와 프랑스어 등을 거쳤어. empathy는 독일어 Einfühlung이라는 개념을 그리스어 재료로 옮긴 근대 영어 용어야.",
+        "notes": "empathy가 고대부터 지금과 같은 심리학적 뜻으로 쓰였다고 설명하지 않아. 역사적 뜻과 오늘의 뜻을 분리해."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/patho-",
+        "https://www.etymonline.com/word/empathy",
+        "https://www.etymonline.com/word/sympathy",
+        "https://atlas.perseus.tufts.edu/dictionaries/headword/%CF%80%CE%AC%CE%B8%CE%BF%CF%82/"
+      ],
+      "cards": [
+        {
+          "word": "empathy",
+          "en": "empathy",
+          "ko": "공감, 타인의 감정을 이해하고 함께 느끼는 능력",
+          "ex": "Her {{BLANK}} helps her understand other people's feelings.",
+          "tr": "그녀의 공감 능력은 다른 사람들의 감정을 이해하도록 도와줘.",
+          "c": "타인의 처지에서 감정을 이해하고 함께 느끼는 데 초점이 있어.",
+          "ipa": "ˈempəθi",
+          "pos": "n."
+        },
+        {
+          "word": "sympathy",
+          "en": "sympathy",
+          "ko": "동정, 타인의 고통을 안타깝게 여기는 마음",
+          "ex": "We felt deep {{BLANK}} for the injured child.",
+          "tr": "우리는 다친 아이에게 깊은 동정을 느꼈어.",
+          "c": "여기서는 남의 고통을 안타깝게 여김. 문맥에 따라 공감·지지라는 뜻도 있어.",
+          "ipa": "ˈsɪmpəθi",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "gr-dem",
+      "title": "dem · 사람들과 인구",
+      "kind": "greek",
+      "forms": [
+        {
+          "form": "dem / demo-",
+          "meaning": "사람들, 민중, 인구",
+          "englishPronunciation": "democracy /dɪˈmɑːkrəsi/ · demographic /ˌdeməˈɡræfɪk/"
+        }
+      ],
+      "rule": "dem 계열은 사람들의 집단과 관계돼. democracy에서는 정치의 주체, demographic에서는 인구 집단의 특성을 살펴봐.",
+      "limits": "demo가 시연·체험판을 뜻할 때는 demonstration의 줄임말이야. 여기서 배우는 그리스계 demo-와 구별해.",
+      "history": {
+        "origin": "고대 그리스어 δῆμος: 사람들, 민중; 원래 지역을 가리키기도 했어.",
+        "greek": "δῆμος",
+        "romanization": "dēmos",
+        "reading": "dēmos는 원문 전사이며 영어 democracy의 강세·모음은 별도로 익혀.",
+        "route": "democracy: 그리스어 dēmokratia → 중세 라틴어 democratia → 프랑스어 démocratie → 영어. demographic은 근대 학명 demography에서 나온 형용사야.",
+        "notes": "demography는 사람들을 기록·기술한다는 그리스어 재료를 이용한 학명이야. 정치와 인구 통계에서 실제 의미가 달라져."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/democracy",
+        "https://www.etymonline.com/word/demographic",
+        "https://atlas.perseus.tufts.edu/dictionaries/headword/%CE%B4%E1%BF%86%CE%BC%CE%BF%CF%82/"
+      ],
+      "cards": [
+        {
+          "word": "democracy",
+          "en": "democracy",
+          "ko": "민주주의, 민주 정치",
+          "ex": "Free elections are an important part of {{BLANK}}.",
+          "tr": "자유로운 선거는 민주주의의 중요한 부분이야.",
+          "c": "demo-(민중)와 -cracy(통치). 제도의 뜻을 어근 두 개만으로 축소하지 않아.",
+          "ipa": "dɪˈmɑːkrəsi",
+          "pos": "n."
+        },
+        {
+          "word": "demographic",
+          "en": "demographic",
+          "ko": "인구 통계의, 인구 집단의 특성에 관한",
+          "ex": "The report describes {{BLANK}} changes in the city.",
+          "tr": "그 보고서는 도시의 인구 특성 변화를 설명해.",
+          "c": "나이·인구 규모·구성 같은 특성과 관련돼. 민주적인이라는 뜻은 아니야.",
+          "ipa": "ˌdeməˈɡræfɪk",
+          "pos": "adj."
+        }
+      ]
+    },
+    {
+      "id": "en-blood",
+      "title": "blood ↔ bleed · 오래된 영어의 가족",
+      "kind": "germanic",
+      "forms": [
+        {
+          "form": "blood / bleed",
+          "meaning": "피 / 피를 흘리다",
+          "englishIpa": "/blʌd/; /bliːd/"
+        }
+      ],
+      "rule": "철자와 모음이 달라도 혈액과 출혈이라는 뜻으로 연결되는 역사적 가족이야. 명사 blood와 동사 bleed를 함께 기억해.",
+      "limits": "oo를 ee로 바꾸면 동사가 된다는 현대 영어 규칙은 아니야. bleed의 과거·과거분사는 bled야.",
+      "history": {
+        "origin": "고대영어 blōd(피), blēdan(피를 흘리다)",
+        "route": "게르만계의 관련된 두 형태 → 고대영어 blōd / blēdan → 중세영어 → 현대영어 blood / bleed.",
+        "notes": "고대영어는 현대 영어의 앞선 단계야. 두 단어의 더 먼 인도유럽어 기원에는 불확실성이 있으므로 피가 꽃처럼 핀다는 식의 이야기를 확정하지 않아."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/blood",
+        "https://www.etymonline.com/word/bleed"
+      ],
+      "cards": [
+        {
+          "word": "blood",
+          "en": "blood",
+          "ko": "피, 혈액",
+          "ex": "The heart pumps {{BLANK}} around the body.",
+          "tr": "심장은 혈액을 온몸으로 보내.",
+          "c": "명사 blood /blʌd/와 동사 bleed /bliːd/는 오래된 영어의 관련어야.",
+          "ipa": "blʌd",
+          "pos": "n."
+        },
+        {
+          "word": "bleed",
+          "en": "bleed",
+          "ko": "피를 흘리다, 출혈하다",
+          "ex": "A deep cut can {{BLANK}} heavily.",
+          "tr": "깊은 상처에서는 피가 많이 날 수 있어.",
+          "c": "blood와 연결해 기억해. 과거·과거분사는 bled이고 /bled/로 읽어.",
+          "ipa": "bliːd",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "en-food",
+      "title": "food ↔ feed · 음식과 먹이기",
+      "kind": "germanic",
+      "forms": [
+        {
+          "form": "food / feed",
+          "meaning": "음식 / 먹이다, 공급하다",
+          "englishIpa": "/fuːd/; /fiːd/"
+        }
+      ],
+      "rule": "food는 음식, feed는 음식을 주는 행동과 연결해. 동사는 정보나 재료를 공급하는 비유적 용법으로도 확장돼.",
+      "limits": "두 단어는 역사적으로 관련 있지만 현재 영어에서 food의 oo를 바꿔 동사를 만드는 절차는 아니야. feed의 과거·과거분사는 fed야.",
+      "history": {
+        "origin": "고대영어 fōda(음식), fēdan(먹이다, 기르다)",
+        "route": "게르만계 fod- 계열 → 고대영어 fōda / fēdan → 중세영어 → 현대영어 food / feed.",
+        "notes": "영어는 게르만어족 언어지만 모든 영어 단어가 게르만계는 아니야. food/feed는 물려받은 말의 예이고, 라틴·그리스계 학술어는 다른 경로를 거쳤어."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/food",
+        "https://www.etymonline.com/word/feed"
+      ],
+      "cards": [
+        {
+          "word": "food",
+          "en": "food",
+          "ko": "음식, 먹이",
+          "ex": "These birds store {{BLANK}} for the winter.",
+          "tr": "이 새들은 겨울을 위해 먹이를 저장해.",
+          "c": "먹는 대상은 food, 먹이를 주는 행동은 feed로 연결해.",
+          "ipa": "fuːd",
+          "pos": "n."
+        },
+        {
+          "word": "feed",
+          "en": "feed",
+          "ko": "먹이다, 먹이를 주다",
+          "ex": "We {{BLANK}} the animals before leaving.",
+          "tr": "우리는 떠나기 전에 동물들에게 먹이를 줘.",
+          "c": "food와 관련된 동사야. feed information into a computer처럼 공급에도 써.",
+          "ipa": "fiːd",
+          "pos": "v."
+        }
+      ]
+    },
+    {
+      "id": "en-strong",
+      "title": "strong ↔ strength · 성질을 명사로",
+      "kind": "germanic",
+      "forms": [
+        {
+          "form": "strong / strength",
+          "meaning": "강한 / 힘, 강점",
+          "englishIpa": "/strɔːŋ/; /streŋθ/"
+        }
+      ],
+      "rule": "strong은 성질을 나타내고 strength는 힘이나 강점이라는 명사야. 오래된 명사형 -th와 모음 변화가 함께 남아 있어.",
+      "limits": "아무 형용사에나 -th를 붙일 수 없어. strength는 현대 영어에서 정해진 철자와 발음을 가진 단어로 익혀.",
+      "history": {
+        "origin": "고대영어 strang(강한), strengþu 또는 strengð(힘)",
+        "route": "관련 게르만계 형용사와 추상명사 → 고대영어 → 중세영어 strong / strengthe → 현대영어 strong / strength.",
+        "notes": "strength의 -th는 오래된 추상명사 접미사의 계통을 이어받아. 고대영어 문자 þ와 ð는 서로 다른 글자이며 이 자료에서는 현대식 th로만 바꿔 적지 않았어."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/strength"
+      ],
+      "cards": [
+        {
+          "word": "strong",
+          "en": "strong",
+          "ko": "강한, 튼튼한",
+          "ex": "The bridge must be {{BLANK}} enough for heavy trucks.",
+          "tr": "그 다리는 무거운 트럭을 견딜 만큼 튼튼해야 해.",
+          "c": "성질은 strong, 그 힘이나 강점은 strength. 모음과 끝소리가 달라.",
+          "ipa": "strɔːŋ",
+          "pos": "adj."
+        },
+        {
+          "word": "strength",
+          "en": "strength",
+          "ko": "힘, 강한 정도",
+          "ex": "We tested the {{BLANK}} of the new material.",
+          "tr": "우리는 새 재료의 강도를 시험했어.",
+          "c": "strong의 명사 가족. 사람이나 계획의 장점을 말할 때는 강점이라는 뜻이야.",
+          "ipa": "streŋθ",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "en-broad",
+      "title": "broad ↔ breadth · 형태의 역사",
+      "kind": "germanic",
+      "forms": [
+        {
+          "form": "broad / breadth",
+          "meaning": "넓은 / 폭, 폭넓음",
+          "englishIpa": "/brɔːd/; /bredθ/"
+        }
+      ],
+      "rule": "broad의 넓다는 성질과 breadth의 폭을 연결해. 공간뿐 아니라 지식·경험의 폭에도 사용할 수 있어.",
+      "limits": "breadth는 bread에 -th를 붙인 말이 아니야. 철자가 겹친다는 이유만으로 어원을 나누면 틀릴 수 있어.",
+      "history": {
+        "origin": "고대영어 brād(넓은), brǣdu(폭)",
+        "route": "고대영어 brǣdu → 중세영어 brede → breadth. 마지막 -th는 long/length 같은 짝의 영향을 받아 붙은 것으로 보아.",
+        "notes": "broad와 breadth는 게르만계 관련어지만 breadth의 지금 형태가 고대부터 그대로였던 것은 아니야. 중세영어 시기에도 다른 단어를 본떠 형태가 바뀌었어."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/broad",
+        "https://www.etymonline.com/word/breadth"
+      ],
+      "cards": [
+        {
+          "word": "broad",
+          "en": "broad",
+          "ko": "넓은, 폭넓은",
+          "ex": "The course gives students a {{BLANK}} view of history.",
+          "tr": "그 수업은 학생들에게 역사에 대한 폭넓은 시야를 줘.",
+          "c": "공간의 넓이에서 주제·시야의 폭으로도 쓰여. 명사 가족은 breadth야.",
+          "ipa": "brɔːd",
+          "pos": "adj."
+        },
+        {
+          "word": "breadth",
+          "en": "breadth",
+          "ko": "폭, 폭넓음",
+          "ex": "We admire the {{BLANK}} of her knowledge.",
+          "tr": "우리는 그녀의 지식이 폭넓다는 점에 감탄해.",
+          "c": "broad와 관련된 명사야. bread(빵)와 연결해서 분석하지 마.",
+          "ipa": "bredθ",
+          "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "en-long",
+      "title": "long ↔ length · 길이와 지속",
+      "kind": "germanic",
+      "forms": [
+        {
+          "form": "long / length",
+          "meaning": "긴 / 길이, 기간",
+          "englishIpa": "/lɔːŋ/; /leŋθ/"
+        }
+      ],
+      "rule": "long이라는 성질을 수량이나 정도로 말할 때 length를 써. 선의 길이뿐 아니라 이어지는 시간에도 쓰여.",
+      "limits": "모음 변화는 물려받은 형태야. 현대 영어의 다른 형용사를 같은 방식으로 바꾸는 일반 규칙으로 사용하지 마.",
+      "history": {
+        "origin": "고대영어 lang(긴), lengðu(길이)",
+        "route": "게르만계 형용사와 추상명사 → 고대영어 lang / lengðu → 중세영어 → 현대영어 long / length.",
+        "notes": "라틴어 longus와 영어 long은 더 먼 단계에서 관련된 것으로 보지만, 영어 long이 라틴어에서 직접 차용된 것은 아니야. 닮은 말과 차용 관계는 구별해."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/length"
+      ],
+      "cards": [
+        {
+          "word": "long",
+          "en": "long",
+          "ko": "긴, 오래 걸리는",
+          "ex": "We had a {{BLANK}} talk about the plan.",
+          "tr": "우리는 그 계획에 대해 긴 이야기를 나눴어.",
+          "c": "길이와 지속 시간에 모두 쓸 수 있어. 명사 가족은 length야.",
+          "ipa": "lɔːŋ",
+          "pos": "adj."
+        },
+        {
+          "word": "length",
+          "en": "length",
+          "ko": "길이, 지속 기간",
+          "ex": "The {{BLANK}} of the meeting surprised everyone.",
+          "tr": "회의가 계속된 시간은 모두를 놀라게 했어.",
+          "c": "long과 연결해. length of time은 시간의 길이, 즉 기간이야.",
+          "ipa": "leŋθ",
+          "pos": "n."
+        }
+      ]
+    }
+  ],
+  "organizationNote": "2026-09-19: former sets 48–50 combined as set 48. Latin → Greek → English order, all cards and exercise groups preserved. Each group retains its old progress key and resume location."
+}

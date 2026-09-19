@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-09-19",
+  "status": "whole-pool-reread-complete; revised-selection-authored-and-integrated",
+  "constraints": [
+    "현재 타이핑·출제·오답 복습·시간 체계 유지",
+    "게임 방식 변경은 사전 논의",
+    "단어 밖 설명 최소화",
+    "선정·순서 먼저, 이후 예문·짧은 해설",
+    "간격 복습 보류"
+  ],
+  "countNote": "192개는 뜻별 카드 수다. 동사 결합 102뜻은85표현이며 새 표제어·어족192개가 아니다. 기존 결합 재학습과 미학습 뜻·표현을 구분한다.",
+  "currentAppSets": [
+    {
+      "set": 46,
+      "title": "잘못 알기 쉬운 단어들",
+      "cards": 95
+    },
+    {
+      "set": 47,
+      "title": "접사로 뜻과 품사 읽기",
+      "cards": 71
+    },
+    {
+      "set": 48,
+      "title": "어근과 단어 가족",
+      "cards": 96
+    },
+    {
+      "set": 49,
+      "title": "전치사가 잇는 관계",
+      "cards": 90
+    },
+    {
+      "set": 50,
+      "title": "동사 결합으로 읽는 뜻",
+      "cards": 102
+    }
+  ],
+  "plannedSets": [],
+  "sourceReferences": [
+    "https://www.norbertschmitt.co.uk/_files/ugd/5f2482_d8db13bba81943958d4a4ae1a870d780.pdf"
+  ],
+  "inventoryFile": "review-20260919/구동사전치사-기존등재조사.json",
+  "organizationNote": "0~48의6715카드를 읽은 뒤49/50을재선정하고192뜻카드로구현. 이전32관계/76뜻선정은connection-review/selection-before-reread.json에보관.",
+  "completedConnectionCourses": [
+    {
+      "set": 49,
+      "title": "전치사가 잇는 관계",
+      "cards": 90,
+      "exercises": 10,
+      "selection": "connection-review/preposition-selection-v2.json",
+      "canonical": "connections.json"
+    },
+    {
+      "set": 50,
+      "title": "동사 결합으로 읽는 뜻",
+      "cards": 102,
+      "exercises": 10,
+      "selection": "connection-review/verb-selection-v2.json",
+      "canonical": "connections.json"
+    }
+  ],
+  "nextSteps": [
+    "수업에서 새 연결 카드의 문맥·허용 정답을 관찰하여 다듬기",
+    "보류 후보는 필요와 기존 연결을 기준으로 다음 풀에서 검토",
+    "간격복습 연구·시스템 도입은 사용자와 별도 재개"
+  ]
+}

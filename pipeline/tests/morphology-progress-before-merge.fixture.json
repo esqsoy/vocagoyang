@@ -1,0 +1,343 @@
+{
+  "description": "Fixed pre-merge 47–50 progress and content snapshot, captured before 48–50 consolidation.",
+  "sourceDataSha256": "1187e6dc833ac9e8a49b45af7a3aac0395fa0f11d0217fd18837f48b0afdf707",
+  "lessons": [
+    {
+      "lesson": 47,
+      "id": "47세트",
+      "name": "접사로 뜻과 품사 읽기",
+      "progressId": "morphology-affixes-20260919",
+      "exercises": [
+        {
+          "ex": 1,
+          "title": "Exercise 1 · 접사 1 · un- / un- / in- / im- / il- / ir-",
+          "progressTitle": "Exercise 1 · 접사 1 · un- / un- / in- / im- / il- / ir-",
+          "unitIds": [
+            "affix-un-negative",
+            "affix-un-reversal",
+            "affix-in-negative"
+          ],
+          "cardCount": 8,
+          "cardsSha256": "3dcb647d1e8b65c4c3b89b4c61c1f920a7176065aebc0da2057b13ed15e78aec"
+        },
+        {
+          "ex": 2,
+          "title": "Exercise 2 · 접사 2 · dis- / non- / mis-",
+          "progressTitle": "Exercise 2 · 접사 2 · dis- / non- / mis-",
+          "unitIds": [
+            "affix-dis",
+            "affix-non",
+            "affix-mis"
+          ],
+          "cardCount": 6,
+          "cardsSha256": "c5a94fc12b679c26685b719e89339c9d567abf9ce8a871a9cc868b816036f3cf"
+        },
+        {
+          "ex": 3,
+          "title": "Exercise 3 · 접사 3 · re- / de- / pre- / post-",
+          "progressTitle": "Exercise 3 · 접사 3 · re- / de- / pre- / post-",
+          "unitIds": [
+            "affix-re",
+            "affix-de",
+            "affix-pre-post"
+          ],
+          "cardCount": 8,
+          "cardsSha256": "b42f9cb0e544127ca401457ab8415eaa70d3226a8eb4482411c4837c1a7ce135"
+        },
+        {
+          "ex": 4,
+          "title": "Exercise 4 · 접사 4 · over- / under- / inter- / intra- / sub- / super-",
+          "progressTitle": "Exercise 4 · 접사 4 · over- / under- / inter- / intra- / sub- / super-",
+          "unitIds": [
+            "affix-over-under",
+            "affix-inter-intra",
+            "affix-sub-super"
+          ],
+          "cardCount": 8,
+          "cardsSha256": "20a06fc5de4e0bfb39a36cbdbf12e5b80eaf8eb0a5e87b90e957ea9ebf2defc3"
+        },
+        {
+          "ex": 5,
+          "title": "Exercise 5 · 접사 5 · trans- / co- / anti-",
+          "progressTitle": "Exercise 5 · 접사 5 · trans- / co- / anti-",
+          "unitIds": [
+            "affix-trans",
+            "affix-co",
+            "affix-anti"
+          ],
+          "cardCount": 6,
+          "cardsSha256": "664b1caeea0f17fb5aafb2ef11868301da7e962a8b6bef53d7e0988eaaab4bdd"
+        },
+        {
+          "ex": 6,
+          "title": "Exercise 6 · 접사 6 · -ness / -ity / -ment / -tion / -sion",
+          "progressTitle": "Exercise 6 · 접사 6 · -ness / -ity / -ment / -tion / -sion",
+          "unitIds": [
+            "affix-ness-ity",
+            "affix-ment",
+            "affix-ion"
+          ],
+          "cardCount": 8,
+          "cardsSha256": "2db09a626f3a3048322ba42d9d514fdbb7754b1710350c20653a780c91b24e4b"
+        },
+        {
+          "ex": 7,
+          "title": "Exercise 7 · 접사 7 · -ance / -ence / -er / -or / -ist / -ism",
+          "progressTitle": "Exercise 7 · 접사 7 · -ance / -ence / -er / -or / -ist / -ism",
+          "unitIds": [
+            "affix-ance-ence",
+            "affix-agent",
+            "affix-ist-ism"
+          ],
+          "cardCount": 8,
+          "cardsSha256": "2afbcf5236dc376515b948ecfccee7e23f891cb4feaf429b81ebae1a2b6ae26d"
+        },
+        {
+          "ex": 8,
+          "title": "Exercise 8 · 접사 8 · -ful / -less / -able / -ible / -al / -ic / -ical",
+          "progressTitle": "Exercise 8 · 접사 8 · -ful / -less / -able / -ible / -al / -ic / -ical",
+          "unitIds": [
+            "affix-ful-less",
+            "affix-able-ible",
+            "affix-al-ic-ical"
+          ],
+          "cardCount": 9,
+          "cardsSha256": "b7cb988f3a2c9c4d2d42c0cb113977a6df6d8a234a451fced2b69358df6f9edd"
+        },
+        {
+          "ex": 9,
+          "title": "Exercise 9 · 접사 9 · -ive / -ous / -ly",
+          "progressTitle": "Exercise 9 · 접사 9 · -ive / -ous / -ly",
+          "unitIds": [
+            "affix-ive-ous",
+            "affix-ly"
+          ],
+          "cardCount": 5,
+          "cardsSha256": "59430bde3a9fc9559463299bd4fb11eb1ffae79a0a6ed0bdd91a1c5453fb66cf"
+        },
+        {
+          "ex": 10,
+          "title": "Exercise 10 · 접사 10 · -ize / -ise / -ify / -en",
+          "progressTitle": "Exercise 10 · 접사 10 · -ize / -ise / -ify / -en",
+          "unitIds": [
+            "affix-ize",
+            "affix-ify-en"
+          ],
+          "cardCount": 5,
+          "cardsSha256": "7d4990afe4df0db6c16b9f7cdee4fe0af5b850bd153081fdc4fac342a8f176d0"
+        }
+      ]
+    },
+    {
+      "lesson": 48,
+      "id": "48세트",
+      "name": "라틴어 어근과 달라지는 어간",
+      "progressId": "morphology-latin-20260919",
+      "exercises": [
+        {
+          "ex": 1,
+          "title": "Exercise 1 · 라틴계 1 · duc / duct / fer / port",
+          "progressTitle": "Exercise 1 · 라틴계 1 · duc / duct / fer / port",
+          "unitIds": [
+            "lat-duc",
+            "lat-fer",
+            "lat-port"
+          ],
+          "cardCount": 8,
+          "cardsSha256": "766fbbc79d35a20c44ea0d9b4658ba9156da6630d40e317e301bf0c553ce23af"
+        },
+        {
+          "ex": 2,
+          "title": "Exercise 2 · 라틴계 2 · ject / mit / miss / pon / posit",
+          "progressTitle": "Exercise 2 · 라틴계 2 · ject / mit / miss / pon / posit",
+          "unitIds": [
+            "lat-ject",
+            "lat-mit",
+            "lat-pon"
+          ],
+          "cardCount": 7,
+          "cardsSha256": "72fd52394898b45d5f8491a3d7d9f38a2b1fcc032253fa822d91f5115df29f77"
+        },
+        {
+          "ex": 3,
+          "title": "Exercise 3 · 라틴계 3 · fac / fic / fact / fect / cap / cip / cept / ten / tin / tain",
+          "progressTitle": "Exercise 3 · 라틴계 3 · fac / fic / fact / fect / cap / cip / cept / ten / tin / tain",
+          "unitIds": [
+            "lat-fac",
+            "lat-cap",
+            "lat-ten"
+          ],
+          "cardCount": 7,
+          "cardsSha256": "9612c1ff4a0dee724c7505bc58f84e37ece94fe09e9d4f466b04888a3f9eef10"
+        },
+        {
+          "ex": 4,
+          "title": "Exercise 4 · 라틴계 4 · vert / vers / scrib / script / spec / spic / spect",
+          "progressTitle": "Exercise 4 · 라틴계 4 · vert / vers / scrib / script / spec / spic / spect",
+          "unitIds": [
+            "lat-vert",
+            "lat-scrib",
+            "lat-spec"
+          ],
+          "cardCount": 8,
+          "cardsSha256": "89d8a6167c43a1e5a1123810b53adc3d23cdd67e269de047a69d842d64be49e9"
+        },
+        {
+          "ex": 5,
+          "title": "Exercise 5 · 라틴계 5 · vid / vis / cred / dic / dict",
+          "progressTitle": "Exercise 5 · 라틴계 5 · vid / vis / cred / dic / dict",
+          "unitIds": [
+            "lat-vid",
+            "lat-cred",
+            "lat-dict"
+          ],
+          "cardCount": 7,
+          "cardsSha256": "15c49b6502b99b54fde90b4e12ec7079886411a276fc8d1822b66d8cf286bf57"
+        },
+        {
+          "ex": 6,
+          "title": "Exercise 6 · 라틴계 6 · trah / tract / rump / rupt / stru / struct",
+          "progressTitle": "Exercise 6 · 라틴계 6 · trah / tract / rump / rupt / stru / struct",
+          "unitIds": [
+            "lat-tract",
+            "lat-rupt",
+            "lat-struct"
+          ],
+          "cardCount": 7,
+          "cardsSha256": "99a11ee6efe3713ab6229f05d7c72f9f98151e934cebdcc1e28d929e93dab063"
+        },
+        {
+          "ex": 7,
+          "title": "Exercise 7 · 라틴계 7 · ced / ceed / cess / ag / act",
+          "progressTitle": "Exercise 7 · 라틴계 7 · ced / ceed / cess / ag / act",
+          "unitIds": [
+            "lat-ced",
+            "lat-ag"
+          ],
+          "cardCount": 6,
+          "cardsSha256": "7c295ab05279b861fca860e4ac2ea8e77374f29409127cb9582516f835543bb4"
+        },
+        {
+          "ex": 8,
+          "title": "Exercise 8 · 라틴계 8 · reg / rect / sequ",
+          "progressTitle": "Exercise 8 · 라틴계 8 · reg / rect / sequ",
+          "unitIds": [
+            "lat-reg",
+            "lat-sequ"
+          ],
+          "cardCount": 4,
+          "cardsSha256": "b3eb6b6aa1b09db70e8d81603832d65588baf955004103942db598658b7ba5f2"
+        }
+      ]
+    },
+    {
+      "lesson": 49,
+      "id": "49세트",
+      "name": "그리스어 어근과 학술어",
+      "progressId": "morphology-greek-20260919",
+      "exercises": [
+        {
+          "ex": 1,
+          "title": "Exercise 1 · 그리스계 1 · bio- / geo- / graph",
+          "progressTitle": "Exercise 1 · 그리스계 1 · bio- / geo- / graph",
+          "unitIds": [
+            "gr-bio",
+            "gr-geo",
+            "gr-graph"
+          ],
+          "cardCount": 6,
+          "cardsSha256": "fc7222cf5fa307af40bde120daaad91a868ce2ca735d136ba252bba06f3c9a4d"
+        },
+        {
+          "ex": 2,
+          "title": "Exercise 2 · 그리스계 2 · -logy / phon / photo-",
+          "progressTitle": "Exercise 2 · 그리스계 2 · -logy / phon / photo-",
+          "unitIds": [
+            "gr-logy",
+            "gr-phon",
+            "gr-photo"
+          ],
+          "cardCount": 6,
+          "cardsSha256": "e1dc4a446b639ec1534a2c112378afc1de265f49d39a2c9851b998fd1b35894d"
+        },
+        {
+          "ex": 3,
+          "title": "Exercise 3 · 그리스계 3 · therm / chron / psych",
+          "progressTitle": "Exercise 3 · 그리스계 3 · therm / chron / psych",
+          "unitIds": [
+            "gr-therm",
+            "gr-chron",
+            "gr-psych"
+          ],
+          "cardCount": 6,
+          "cardsSha256": "93eb1cc57431419968c004f07dec1661644ff4ba1a04d5adc2b9709347b9ecf8"
+        },
+        {
+          "ex": 4,
+          "title": "Exercise 4 · 그리스계 4 · anthrop / auto- / tele-",
+          "progressTitle": "Exercise 4 · 그리스계 4 · anthrop / auto- / tele-",
+          "unitIds": [
+            "gr-anthrop",
+            "gr-auto",
+            "gr-tele"
+          ],
+          "cardCount": 6,
+          "cardsSha256": "bc7430645a9a1584be394ec86a386ae3ad8eae9a47a4caf5054ae689181d67aa"
+        },
+        {
+          "ex": 5,
+          "title": "Exercise 5 · 그리스계 5 · micro- / -scope",
+          "progressTitle": "Exercise 5 · 그리스계 5 · micro- / -scope",
+          "unitIds": [
+            "gr-micro",
+            "gr-scope"
+          ],
+          "cardCount": 4,
+          "cardsSha256": "10d79f88de47bacbe9c008963e4386bd0307c08b5836c9a1a7390bd5e85e4258"
+        },
+        {
+          "ex": 6,
+          "title": "Exercise 6 · 그리스계 6 · path / dem",
+          "progressTitle": "Exercise 6 · 그리스계 6 · path / dem",
+          "unitIds": [
+            "gr-path",
+            "gr-dem"
+          ],
+          "cardCount": 4,
+          "cardsSha256": "0055c894cb2c161d861a3c2ea1a950309c53e47b6a43f735600ea04fd3af33d2"
+        }
+      ]
+    },
+    {
+      "lesson": 50,
+      "id": "50세트",
+      "name": "모양이 달라진 영어 단어 가족",
+      "progressId": "morphology-english-20260919",
+      "exercises": [
+        {
+          "ex": 1,
+          "title": "Exercise 1 · 영어계 1 · blood ↔ bleed / food ↔ feed / strong ↔ strength",
+          "progressTitle": "Exercise 1 · 영어계 1 · blood ↔ bleed / food ↔ feed / strong ↔ strength",
+          "unitIds": [
+            "en-blood",
+            "en-food",
+            "en-strong"
+          ],
+          "cardCount": 6,
+          "cardsSha256": "bac6e59b094a33c7bf276198ef0aa12e8fbddad0045fef9779754f0a25e98c4c"
+        },
+        {
+          "ex": 2,
+          "title": "Exercise 2 · 영어계 2 · broad ↔ breadth / long ↔ length",
+          "progressTitle": "Exercise 2 · 영어계 2 · broad ↔ breadth / long ↔ length",
+          "unitIds": [
+            "en-broad",
+            "en-long"
+          ],
+          "cardCount": 4,
+          "cardsSha256": "e68441586332a00859bb5688f0fbfebbe3a508a5c602279a049939dde587830c"
+        }
+      ]
+    }
+  ]
+}

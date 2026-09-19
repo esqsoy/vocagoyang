@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-19",
+  "scope": "기존 카드의 전치사 설명 중 네 가지 단정만 정정; 표제어·예문·카드 순서·기록 키 유지",
+  "changes": [
+    {
+      "id": "11:6:6",
+      "field": "c",
+      "old": "to는 도착까지, toward(s)는 방향만. 미국은 toward, 영국은 towards.",
+      "new": "to는 목적지, toward(s)는 그쪽 방향을 나타내. 미국은 toward, 영국은 towards가 더 흔해.",
+      "reason": "to를 쓰면 실제 도착을 항상 함의한다고 오해할 수 있는 “도착까지” 단정을 목적지 대 방향으로 수정.",
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/to",
+        "https://dictionary.cambridge.org/grammar/british-grammar/towards"
+      ],
+      "word": "towards"
+    },
+    {
+      "id": "1:6:12",
+      "field": "c",
+      "old": "과거 시점부터 지금까지, 현재완료와 짝. since=시작 시점(since 2010) / for=기간(for ten years).",
+      "new": "since는 시작 시점, for는 기간. 여기서는 since 2010이 2010년부터 지금까지를 뜻해.",
+      "reason": "since를 언제나 현재완료·지금까지로 한정하지 않고 예문의 현재완료 해석과 일반적인 시작시점 기능을 구분.",
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/since",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/for-or-since"
+      ],
+      "word": "since"
+    },
+    {
+      "id": "4:10:5",
+      "field": "c",
+      "old": "provide A with B = provide B for A. with 뒤엔 물건, for 뒤엔 사람이 온다.",
+      "new": "provide A with B는 A에 B를 제공하다. provide B for A로 순서를 바꿔 쓸 수도 있어.",
+      "reason": "공급받는 대상은 사람뿐 아니라 지역·사물도 될 수 있으므로 for 뒤가 언제나 사람이라는 불필요한 한정을 제거.",
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/word-patterns-provide"
+      ],
+      "verificationNote": "같은 데이터의 supply 문장(11:9:11)도 받는 대상이 farms. 역할을 한정하지 않는 설명으로 정밀화 제안.",
+      "word": "provide"
+    },
+    {
+      "id": "23:7:8",
+      "field": "c",
+      "old": "on(위에)+to(로). 움직여 올라가는 것이라 정지의 on과 다르다.",
+      "new": "onto는 표면 위로의 이동을 강조해. on도 이동 동사와 함께 쓸 수 있어.",
+      "reason": "on을 정지에만 쓰는 전치사로 한정하지 않는다.",
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/on"
+      ],
+      "word": "onto"
+    }
+  ]
+}

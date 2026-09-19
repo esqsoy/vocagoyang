@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-09-19T04:33:27.160Z",
+  "allPassed": true,
+  "tests": {
+    "reading-core": {
+      "sets": 51,
+      "reviewReferences": 95,
+      "legacyProgressKeys": 466,
+      "legacyProgress": "preserved",
+      "reviewProgress": "former track retained",
+      "mergedProgress": "26 historical exercise keys preserved; 16 consolidated exercises",
+      "newProgress": "49/50 isolated from historical root-course records",
+      "migratedResumes": 26,
+      "courseNavigation": "45→46→47→48→49→50 directly to game",
+      "guideUI": "removed",
+      "greekResearchUnits": 16,
+      "ending": "all 51 sets required",
+      "syntax": "passed"
+    },
+    "keyboard": {
+      "hangulVisible": true,
+      "imeEnterProtected": true,
+      "compositionDoesNotAutoSubmit": true,
+      "englishAndCopyInput": true,
+      "focusRecovery": true,
+      "nonGameFocusPreserved": true,
+      "newCardLongerAcceptedAnswer": true,
+      "legacyInputThresholdUnchanged": true,
+      "aliasesScopedToCard": true
+    },
+    "spacing": {
+      "wordBoundaries": "prompt, typing and copy mode",
+      "explicitSpaces": "preserved without consuming slots",
+      "spacelessAnswers": "accepted",
+      "copyFeedback": "spaces and punctuation do not shift letters",
+      "longAliases": "preserved",
+      "IME": "protected",
+      "responsiveRules": "word wrapping enabled"
+    },
+    "session": {
+      "sessions": 6252,
+      "exercises": 521,
+      "seeds": 12,
+      "firstOrders": 12,
+      "partialRetry": "passed",
+      "allCardLimits": "exactly +1 second",
+      "cardData": "0–45 only four logged explanation corrections; original full data hash verified after reversal",
+      "scriptSyntax": "passed",
+      "nonAdjacentRule": "passed except when no other headword remains",
+      "existingProgressKeys": 466,
+      "newProgressKeys": 55,
+      "brandAndSentenceCasing": "passed"
+    },
+    "morphology-content": {
+      "units": 71,
+      "cards": 167,
+      "greekUnits": 16,
+      "sources": 175,
+      "sourceHtmlSync": true,
+      "scope": "46–48 course content; 0–45 remains separate"
+    },
+    "connections-content": {
+      "newCards": 192,
+      "courses": 2,
+      "existingCardsRead": 6715,
+      "priorReferences": 418,
+      "explicitAcceptedAnswers": 476,
+      "allExamples": "one blank; length and explanation bounds checked",
+      "cardAndSourceSync": "passed",
+      "legacyAliasIsolation": "passed"
+    },
+    "connections-input": {
+      "cards": 192,
+      "acceptedAnswers": 476,
+      "typingPaths": 1336,
+      "canonicalPaths": 384,
+      "alternativePaths": 952,
+      "automaticPaths": 896,
+      "manualAlternativePaths": 440,
+      "spacedAndCompactInput": "passed",
+      "actualMirrorAndSubmit": "passed",
+      "prematureSubmission": "none",
+      "canonicalPrefixCollisions": "none",
+      "canonicalAlphabetThreshold": "unchanged",
+      "correctAnswersRejected": 0
+    }
+  },
+  "localHtmlSha256": "95c870d6152d7d30383cb5e4952345f434dfb13e8ac6a42dfc873934a7115dd5"
+}

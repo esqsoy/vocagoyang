@@ -1,0 +1,3371 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-09-19",
+  "status": "selection-and-order-complete; example-and-explanation-authoring-next",
+  "constraints": [
+    "현재 타이핑·출제·오답 복습·시간 체계 유지",
+    "게임 방식 변경은 사전 논의",
+    "단어 밖 설명 최소화",
+    "선정·순서 먼저, 이후 예문·짧은 해설",
+    "간격 복습 보류"
+  ],
+  "countNote": "32관계 단위와76핵심 뜻의 선정안이며108개 완성 카드라는 뜻이 아니다. 구동사·전치사·여러 단어 동사구를 포함한다. 같은 표현의 다른 뜻과 능동/수동 문형을 표제어 수와 혼동하지 않는다.",
+  "currentAppSets": [
+    {
+      "set": 46,
+      "title": "잘못 알기 쉬운 단어들",
+      "cards": 95
+    },
+    {
+      "set": 47,
+      "title": "접사로 뜻과 품사 읽기",
+      "cards": 71
+    },
+    {
+      "set": 48,
+      "title": "어근과 단어 가족",
+      "cards": 96
+    }
+  ],
+  "plannedSets": [
+    {
+      "set": 49,
+      "schemaVersion": 1,
+      "status": "selection-and-order-only",
+      "proposedSet": 49,
+      "title": "전치사가 잇는 관계",
+      "unitCount": 32,
+      "countingRule": "32개는 표제어 수나 카드 수가 아니라 대조·관계 학습 단위 수다. 한 표제어가 다른 의미 관계로 여러 번 등장할 수 있다.",
+      "scope": "기존 게임을 유지한 채 후속 예문·짧은 해설을 작성하기 위한 편집 계획. 이 파일에는 학습 카드나 UI를 만들지 않는다.",
+      "orderingRationale": "기준·방향·경계를 짧게 재검토한 뒤 시간, 수량, 명사 관계, 논지 관계로 확장한다. 공간의 한 그림에서 모든 뜻이 기계적으로 나온다고 설명하지 않는다.",
+      "existingCoverageBasis": {
+        "directory": "work/source/vocagoyang-main/pipeline/out",
+        "files": "lesson00~04.json 및 set05~45.json의 표제어·뜻·예문 대조",
+        "note": "독립 표제어가 없다는 말은 기존 예문 어디에도 등장하지 않는다는 뜻이 아니다."
+      },
+      "authoringConstraints": [
+        "개별 동사의 필수 결합(result in/from, depend on 등)과 구동사는 다음 과정에서 다룬다.",
+        "기본 의미 재검토 단위는 새 단어 추가로 계산하지 않고, 기존 카드와 역할이 겹치면 새 의미에 카드 비중을 둔다.",
+        "표현이 겹쳐 둘 다 자연스러운 문맥은 한 전치사만 임의로 정답 처리하지 않는다. 단어 타이핑 방식 안에서 후속 예문의 답이 분명하도록 작성한다.",
+        "여기의 relation·selectionReason·scopeLimit는 편집자용 메타데이터다. 학생 화면에 긴 설명으로 노출하는 계획이 아니다.",
+        "실제 카드 작성 때 복합 전치사·문장 구조의 독립 난도와 허용 정답을 별도로 확인한다."
+      ],
+      "groups": [
+        {
+          "id": "spatial-boundaries",
+          "order": 1,
+          "title": "기준·방향·경계",
+          "intent": "이미 배운 공간 뜻을 짧게 재검토한 뒤 관계와 범위로 확장"
+        },
+        {
+          "id": "time-relations",
+          "order": 2,
+          "title": "시간의 길이·기한·경과",
+          "intent": "같은 한국어 번역으로 뭉개지는 시간 관계 구별"
+        },
+        {
+          "id": "quantity-relations",
+          "order": 3,
+          "title": "수량·변화·비교",
+          "intent": "수치와 비교 기준의 오독 방지"
+        },
+        {
+          "id": "noun-relations",
+          "order": 4,
+          "title": "명사 사이의 관계",
+          "intent": "소유·수단·수혜·주제·측면을 구별"
+        },
+        {
+          "id": "argument-relations",
+          "order": 5,
+          "title": "조건·배경·출처·논리",
+          "intent": "독해의 범위와 논지 방향을 결정하는 관계 구별"
+        }
+      ],
+      "items": [
+        {
+          "order": 1,
+          "id": "place-viewpoint",
+          "expression": "at / in / on",
+          "senseKo": "활동 지점 / 내부·영역 / 표면·접촉",
+          "relation": "같은 장소를 어떤 관점에서 지칭하는가",
+          "contrastWith": [
+            "in: 상태·분야",
+            "at: 수치·수준",
+            "on: 주제·시점"
+          ],
+          "selectionReason": "뒤의 추상 용법을 이해할 기준만 재확인한다. 쉬운 위치 뜻에 새 카드 수를 과도하게 쓰지 않는다.",
+          "group": "spatial-boundaries",
+          "existingCoverage": {
+            "status": "기본 의미 재검토",
+            "refs": [
+              "5세트 1과 in ①",
+              "5세트 2과 on ①",
+              "5세트 3과 at ①"
+            ],
+            "focus": "at의 활동 장소와 in의 물리적 내부 구별을 보강"
+          },
+          "scopeLimit": "at=작은 곳, in=큰 곳 같은 크기 규칙으로 일반화하지 않는다.",
+          "sources": [
+            "https://dictionary.cambridge.org/grammar/british-grammar/at",
+            "https://dictionary.cambridge.org/grammar/british-grammar/on",
+            "https://dictionary.cambridge.org/us/grammar/british-grammar/in-into"
+          ]
+        },
+        {
+          "order": 2,
+          "id": "location-entry",
+          "expression": "in / into; on / onto",
+          "senseKo": "안에·위에 있음 / 안으로·위로 이동",
+          "relation": "현재 위치와 경계 안·표면 위로의 이동을 구별",
+          "contrastWith": [
+            "to / toward"
+          ],
+          "selectionReason": "상태와 변화를 가르는 최소 기초를 재검토한다. 이후 구동사의 in·on을 모두 장소 뜻으로 읽지 않게 한다.",
+          "group": "spatial-boundaries",
+          "existingCoverage": {
+            "status": "기본 의미 재검토",
+            "refs": [
+              "5세트 1과 in ①",
+              "5세트 2과 on ①",
+              "5세트 6과 into ①②",
+              "23세트 7과 onto ①"
+            ],
+            "focus": "위치와 진입의 대조만 짧게 검토"
+          },
+          "scopeLimit": "in/on도 동사와 문맥에 따라 이동을 나타낸다. into=변화의 개별 동사 결합은 다음 과정에 넘긴다.",
+          "sources": [
+            "https://dictionary.cambridge.org/us/grammar/british-grammar/in-into",
+            "https://dictionary.cambridge.org/grammar/british-grammar/on"
+          ]
+        },
+        {
+          "order": 3,
+          "id": "destination-direction",
+          "expression": "to / toward(s)",
+          "senseKo": "목적지·끝점 쪽으로 / 어떤 방향으로",
+          "relation": "경로의 목표를 제시하는가, 향하는 방향을 제시하는가",
+          "contrastWith": [
+            "from ... to ..."
+          ],
+          "selectionReason": "추상 목표와 태도에도 이어지는 방향 구별이다. toward와 towards를 서로 다른 어휘로 세지 않는다.",
+          "group": "spatial-boundaries",
+          "existingCoverage": {
+            "status": "기본 의미 재검토와 전이",
+            "refs": [
+              "5세트 1과 to ①",
+              "11세트 6과 towards ①",
+              "23세트 2과 toward ①②"
+            ],
+            "focus": "단순 이동보다 목표·태도의 방향을 다시 검토"
+          },
+          "scopeLimit": "to만으로 실제 도착을 보장한다고 가르치지 않는다. 동사가 요구하는 전치사는 별도 결합 과정에서 다룬다.",
+          "sources": [
+            "https://dictionary.cambridge.org/us/grammar/british-grammar/at-in-and-to-movement",
+            "https://dictionary.cambridge.org/dictionary/english/towards"
+          ]
+        },
+        {
+          "order": 4,
+          "id": "individual-group",
+          "expression": "between / among",
+          "senseKo": "개별 대상 사이 / 집단 가운데·일원으로",
+          "relation": "각 대상을 구별한 관계와 집단 안의 포함 관계",
+          "contrastWith": [
+            "within"
+          ],
+          "selectionReason": "둘과 셋 이상의 숫자 공식 때문에 협력·차이·분배 관계를 오독하는 문제를 바로잡는다.",
+          "group": "spatial-boundaries",
+          "existingCoverage": {
+            "status": "기존 뜻의 재검토와 확장",
+            "refs": [
+              "5세트 9과 between ①",
+              "3세트 7과 among ①"
+            ],
+            "focus": "공간 사이에서 개별 관계·집단 포함으로 확장"
+          },
+          "scopeLimit": "between도 셋 이상 개별 대상 사이에 쓴다. among이 항상 물리적으로 둘러싸였다는 뜻은 아니다.",
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/between",
+            "https://dictionary.cambridge.org/da/grammatik/british-grammar/between-or-among"
+          ]
+        },
+        {
+          "order": 5,
+          "id": "scope-limit",
+          "expression": "within / beyond",
+          "senseKo": "범위 안 / 한계 너머",
+          "relation": "허용·능력·통제·이해의 한계에 포함되는가",
+          "contrastWith": [
+            "under: 적용 조건"
+          ],
+          "selectionReason": "범위가 뒤집히면 가능성·권한·주장의 강도가 뒤집힌다. 공간에서 추상 관계로 넘어가는 첫 핵심 단위다.",
+          "group": "spatial-boundaries",
+          "existingCoverage": {
+            "status": "기존 뜻의 재검토와 확장",
+            "refs": [
+              "6세트 2과 within ①",
+              "7세트 10과 beyond ①"
+            ],
+            "focus": "within의 비공간적 범위와 beyond의 한계 관계 보강"
+          },
+          "scopeLimit": "beyond를 모두 불가능으로 번역하지 않는다. beyond doubt처럼 뒤 명사에 따라 전체 의미가 달라진다.",
+          "sources": [
+            "https://dictionary.cambridge.org/grammar/british-grammar/within",
+            "https://dictionary.cambridge.org/grammar/british-grammar/beyond"
+          ]
+        },
+        {
+          "order": 6,
+          "id": "time-location",
+          "expression": "at / on / in + 시간",
+          "senseKo": "시점 / 날짜·특정한 날 / 기간 안",
+          "relation": "시간을 시점·날짜·기간으로 지정",
+          "contrastWith": [
+            "by / until",
+            "in / within + 기간"
+          ],
+          "selectionReason": "기간·기한 단위로 들어가기 전에 기존 기본 뜻을 짧게 재검토한다.",
+          "group": "time-relations",
+          "existingCoverage": {
+            "status": "기본 의미 재검토",
+            "refs": [
+              "5세트 3과 at ②",
+              "5세트 2과 on ②",
+              "5세트 1과 in ②"
+            ],
+            "focus": "기본 시간 뜻은 신규 어휘로 세지 않음"
+          },
+          "scopeLimit": "달력의 크기만으로 모든 표현을 설명하지 않는다. 관용·지역 차이가 있는 표현은 후속 카드에서 개별 확인한다.",
+          "sources": [
+            "https://dictionary.cambridge.org/grammar/british-grammar/at-on-in-time"
+          ]
+        },
+        {
+          "order": 7,
+          "id": "duration-event",
+          "expression": "for / during / throughout + 기간",
+          "senseKo": "얼마 동안 / 어떤 기간에 / 기간 내내",
+          "relation": "지속 길이와 사건의 시간대, 전체 기간의 포괄을 구별",
+          "contrastWith": [
+            "over + 기간"
+          ],
+          "selectionReason": "한국어 ~동안에 겹치는 세 관계를 풀어 시간 정보 손실을 줄인다.",
+          "group": "time-relations",
+          "existingCoverage": {
+            "status": "기본 의미의 대조 재검토",
+            "refs": [
+              "5세트 2과 for ②",
+              "5세트 10과 during ①",
+              "23세트 7과 throughout ①"
+            ],
+            "focus": "각 단어를 알더라도 문장 안의 기간 역할을 구별하도록 검토"
+          },
+          "scopeLimit": "during이 항상 기간의 일부만 뜻하는 것은 아니다. 특정 기간 전체에도 쓸 수 있다.",
+          "sources": [
+            "https://dictionary.cambridge.org/us/grammar/british-grammar/word-choice-during-or-for",
+            "https://dictionary.cambridge.org/grammar/british-grammar/during",
+            "https://dictionary.cambridge.org/dictionary/english/throughout"
+          ]
+        },
+        {
+          "order": 8,
+          "id": "time-start",
+          "expression": "since / from ... to ...",
+          "senseKo": "기준 시점까지 이어지는 시작점 / 구간의 출발점",
+          "relation": "과거 시작점에서 기준 시점까지의 관계와 시작·끝 구간",
+          "contrastWith": [
+            "for + 기간"
+          ],
+          "selectionReason": "since의 이유 접속사 뜻과 시간 전치사 뜻을 섞지 않고, 시간의 출발점을 읽게 한다.",
+          "group": "time-relations",
+          "existingCoverage": {
+            "status": "기존 뜻의 대조 재검토와 확장",
+            "refs": [
+              "1세트 6과 since ①",
+              "5세트 3과 from ①"
+            ],
+            "focus": "from의 시간 시작점과 from ... to ... 범위 확장"
+          },
+          "scopeLimit": "since를 무조건 현재완료와만 연결하지 않는다. 여기서는 전치사·시간 관계에 한정한다.",
+          "sources": [
+            "https://dictionary.cambridge.org/us/grammar/british-grammar/word-choice-since-from-or-for",
+            "https://dictionary.cambridge.org/us/grammar/british-grammar/from"
+          ]
+        },
+        {
+          "order": 9,
+          "id": "deadline-continuation",
+          "expression": "by / until",
+          "senseKo": "늦어도 그때까지 / 그때까지 계속",
+          "relation": "완료 기한과 지속의 끝점을 구별",
+          "contrastWith": [
+            "not until: 그때가 되어서야"
+          ],
+          "selectionReason": "한국어 ~까지로 합쳐져 완료와 지속을 거꾸로 이해하는 대표 오독을 바로잡는다.",
+          "group": "time-relations",
+          "existingCoverage": {
+            "status": "기본 의미의 대조 재검토",
+            "refs": [
+              "5세트 3과 by ③",
+              "6세트 1과 until ①"
+            ],
+            "focus": "개별 뜻은 이미 있으므로 대조 복습으로 집계"
+          },
+          "scopeLimit": "not until의 부정 범위는 후속 예문에서 별도로 검토한다. by와 until을 기계적으로 교체하지 않는다.",
+          "sources": [
+            "https://dictionary.cambridge.org/us/grammar/british-grammar/until",
+            "https://dictionary.cambridge.org/us/grammar/british-grammar/by"
+          ]
+        },
+        {
+          "order": 10,
+          "id": "elapsed-deadline",
+          "expression": "in / within + 기간",
+          "senseKo": "걸린 시간·지금부터 뒤 / 정해진 시간 이내",
+          "relation": "경과·소요 시간과 허용되는 최대 시간을 구별",
+          "contrastWith": [
+            "for: 지속 길이",
+            "by: 달력상의 기한"
+          ],
+          "selectionReason": "in ten minutes의 소요와 미래 해석, within의 기한을 구분해 시간 추론을 정확하게 한다.",
+          "group": "time-relations",
+          "existingCoverage": {
+            "status": "기존 뜻 재검토와 새 의미 보강",
+            "refs": [
+              "5세트 1과 in ③④",
+              "6세트 2과 within ①"
+            ],
+            "focus": "in의 두 시간 뜻은 재검토, within의 시간 한계는 새 검토 영역"
+          },
+          "scopeLimit": "in이 언제나 정확히 그 시간이라는 뜻은 아니다. 완료 소요 문맥에서 within과 의미가 겹칠 수 있다.",
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/in?topic=general",
+            "https://dictionary.cambridge.org/grammar/british-grammar/at-on-in-time",
+            "https://dictionary.cambridge.org/grammar/british-grammar/within"
+          ]
+        },
+        {
+          "order": 11,
+          "id": "event-trigger",
+          "expression": "on / upon + 명사·동명사",
+          "senseKo": "어떤 일이 일어나자·하자마자",
+          "relation": "기준 사건 직후에 이어지는 사건",
+          "contrastWith": [
+            "after: 일반적인 뒤"
+          ],
+          "selectionReason": "on을 표면이나 요일로만 알아 문장 첫머리의 사건 연결을 놓치는 문제를 보강한다.",
+          "group": "time-relations",
+          "existingCoverage": {
+            "status": "새 의미 보강",
+            "refs": [
+              "5세트 2과 on ①②"
+            ],
+            "focus": "on의 사건 직후 뜻과 문어적인 upon을 새로 검토"
+          },
+          "scopeLimit": "모든 on+명사에 즉시성을 적용하지 않는다. upon은 이 용법에서 격식 있는 대안이다.",
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/upon"
+          ]
+        },
+        {
+          "order": 12,
+          "id": "time-span",
+          "expression": "over + 기간",
+          "senseKo": "그 기간에 걸쳐",
+          "relation": "시간 구간 전체를 배경으로 한 진행·변화",
+          "contrastWith": [
+            "over + 수량: 초과",
+            "during: 기간에 일어남"
+          ],
+          "selectionReason": "over를 언제나 이상으로 번역하면 변화가 일어난 기간 자체를 잘못 읽는다.",
+          "group": "time-relations",
+          "existingCoverage": {
+            "status": "새 의미 보강",
+            "refs": [
+              "5세트 8과 over ①②③"
+            ],
+            "focus": "기존의 위·초과·끝남과 별도로 기간에 걸친 진행 추가"
+          },
+          "scopeLimit": "over는 항상 쉬지 않고 지속했다는 뜻이 아니다. throughout의 전 기간 강조와 구별한다.",
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/over",
+            "https://dictionary.cambridge.org/dictionary/english/period"
+          ]
+        },
+        {
+          "order": 13,
+          "id": "change-amount-endpoint",
+          "expression": "by / to / from + 수량",
+          "senseKo": "변화량 / 변화 후 값 / 출발 값",
+          "relation": "얼마나 변했는지와 어디에서 어디로 변했는지 구별",
+          "contrastWith": [
+            "increase in / of"
+          ],
+          "selectionReason": "과학·사회 지문의 비율과 수치를 반대로 읽는 직접적인 원인을 해결한다.",
+          "group": "quantity-relations",
+          "existingCoverage": {
+            "status": "새 의미 보강",
+            "refs": [
+              "5세트 3과 by ①~④",
+              "5세트 1과 to ①",
+              "5세트 3과 from ①"
+            ],
+            "focus": "by 변화량, to 결과 수준, from 기준 수준은 별도 검토 영역"
+          },
+          "scopeLimit": "증가·감소 동사 자체는 다음 결합 과정과 중복 출제하지 않는다. 퍼센트와 퍼센트포인트는 후속 수치 예문에서 구별한다.",
+          "sources": [
+            "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+            "https://dictionary.cambridge.org/us/grammar/british-grammar/from",
+            "https://dictionary.cambridge.org/dictionary/english/gain-by"
+          ]
+        },
+        {
+          "order": 14,
+          "id": "change-thing-amount",
+          "expression": "increase/decrease in / of",
+          "senseKo": "변하는 항목 / 변화한 양",
+          "relation": "변화 명사 뒤의 측정 대상과 크기를 구별",
+          "contrastWith": [
+            "by / to + 수량"
+          ],
+          "selectionReason": "an increase in과 an increase of 뒤 명사가 무엇을 가리키는지 가려 수치 정보를 연결한다.",
+          "group": "quantity-relations",
+          "existingCoverage": {
+            "status": "새 결합 관계 보강",
+            "refs": [
+              "5세트 1과 in·of 기본 뜻"
+            ],
+            "focus": "일반 소유·내부 뜻으로 해결되지 않는 명사 관계"
+          },
+          "scopeLimit": "독해용 명사 관계 단위다. 동사 increase by/to와 섞어 모든 품사에 같은 공식을 적용하지 않는다.",
+          "sources": [
+            "https://dictionary.cambridge.org/grammar/british-grammar/prepositions-increase-in-or-increase-of",
+            "https://dictionary.cambridge.org/us/dictionary/english/decrease"
+          ]
+        },
+        {
+          "order": 15,
+          "id": "rate-unit",
+          "expression": "at / per; by the + 단위",
+          "senseKo": "어떤 가격·속도·수준으로 / 단위당 / 단위를 기준으로",
+          "relation": "측정값과 나누어 세는 단위를 구별",
+          "contrastWith": [
+            "for + 가격: 대가"
+          ],
+          "selectionReason": "숫자 앞 at을 장소로 읽거나 per의 분모를 놓치는 것을 막는다.",
+          "group": "quantity-relations",
+          "existingCoverage": {
+            "status": "기존 뜻 재검토와 새 의미 보강",
+            "refs": [
+              "5세트 3과 at ①②",
+              "7세트 4과 per ①",
+              "5세트 3과 by ①~④"
+            ],
+            "focus": "per 단위당은 재검토, at 수치·by the 단위는 확장"
+          },
+          "scopeLimit": "at과 per가 한 표현 안에 함께 올 수 있다. 서로 대체해야 하는 정답 경쟁쌍으로 만들지 않는다.",
+          "sources": [
+            "https://dictionary.cambridge.org/grammar/british-grammar/at",
+            "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+            "https://dictionary.cambridge.org/dictionary/english/per"
+          ]
+        },
+        {
+          "order": 16,
+          "id": "numeric-threshold",
+          "expression": "over / under; above / below",
+          "senseKo": "기준을 넘음 / 기준보다 낮음",
+          "relation": "수량·온도·수준을 기준과 비교",
+          "contrastWith": [
+            "within / beyond: 범위"
+          ],
+          "selectionReason": "공간 번역과 실제 수치 관계를 분리하고 기준 포함 여부를 정확히 읽는다.",
+          "group": "quantity-relations",
+          "existingCoverage": {
+            "status": "기본 뜻의 대조 재검토",
+            "refs": [
+              "5세트 8과 over ②",
+              "5세트 10과 under ②",
+              "9세트 1과 above ①",
+              "11세트 1과 below ①"
+            ],
+            "focus": "일반 세트 뜻을 다시 연결해 검토"
+          },
+          "scopeLimit": "over=숫자, above=위치라는 배타적 규칙을 만들지 않는다. 숫자 문맥에서도 겹칠 수 있다.",
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/over",
+            "https://dictionary.cambridge.org/dictionary/english/under",
+            "https://dictionary.cambridge.org/dictionary/english/above",
+            "https://dictionary.cambridge.org/dictionary/english/below"
+          ]
+        },
+        {
+          "order": 17,
+          "id": "relative-expectation",
+          "expression": "for + 나이·조건·집단",
+          "senseKo": "그 조건을 고려하면·~치고는",
+          "relation": "판단의 기대 수준을 정하는 비교 기준",
+          "contrastWith": [
+            "for: 수혜·목적"
+          ],
+          "selectionReason": "for her age 같은 구문에서 평가 기준을 목적이나 수혜자로 오독하는 것을 막는다.",
+          "group": "quantity-relations",
+          "existingCoverage": {
+            "status": "새 의미 보강",
+            "refs": [
+              "5세트 2과 for ①②③"
+            ],
+            "focus": "기본 수혜·기간·이유 외에 비교 기준 의미 추가"
+          },
+          "scopeLimit": "for 자체에 반드시 반전이나 비난이 있는 것은 아니다. 앞의 평가와 함께 상대적 기준으로 읽는다.",
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/for"
+          ]
+        },
+        {
+          "order": 18,
+          "id": "of-quality",
+          "expression": "of + 추상명사",
+          "senseKo": "어떤 성질·가치가 있는",
+          "relation": "명사로 성질·중요성·유용성을 서술",
+          "contrastWith": [
+            "of: 소유·부분"
+          ],
+          "selectionReason": "of importance/use/value 같은 표현을 소유 관계로만 분석해 서술 내용을 놓치는 문제를 해결한다.",
+          "group": "noun-relations",
+          "existingCoverage": {
+            "status": "새 의미 보강",
+            "refs": [
+              "5세트 1과 of ①②"
+            ],
+            "focus": "소속·부분 외에 성질을 서술하는 of 추가"
+          },
+          "scopeLimit": "아무 추상명사나 be of 뒤에 놓을 수 있다는 생산 규칙으로 가르치지 않는다. 관용적으로 확인된 결합을 선정한다.",
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/importance",
+            "https://dictionary.cambridge.org/dictionary/english/of-paramount-importance",
+            "https://dictionary.cambridge.org/dictionary/english/use",
+            "https://dictionary.cambridge.org/us/dictionary/english/value"
+          ]
+        },
+        {
+          "order": 19,
+          "id": "presence-condition",
+          "expression": "with / without",
+          "senseKo": "무엇이 있는·없는 / 어떤 조건을 갖춘·갖추지 않은",
+          "relation": "동반·소유·부재에서 조건의 유무로 확장",
+          "contrastWith": [
+            "by / with: 행위자·도구"
+          ],
+          "selectionReason": "without의 부재가 사건 성립 조건을 가르는 부분과 with의 상태 동반을 읽게 한다.",
+          "group": "noun-relations",
+          "existingCoverage": {
+            "status": "기존 뜻 재검토와 조건 확장",
+            "refs": [
+              "5세트 2과 with ①②",
+              "5세트 10과 without ①"
+            ],
+            "focus": "단순 동반·물건 부재에서 추상 조건으로 확장"
+          },
+          "scopeLimit": "with가 항상 원인이고 without이 항상 가정인 것은 아니다. 실제 문장의 관계를 확인한다.",
+          "sources": [
+            "https://dictionary.cambridge.org/pl/grammar/british-grammar/with",
+            "https://dictionary.cambridge.org/grammar/british-grammar/without"
+          ]
+        },
+        {
+          "order": 20,
+          "id": "agent-instrument",
+          "expression": "by / with",
+          "senseKo": "행위자·원인 / 사용하는 도구",
+          "relation": "누가·무엇이 일으켰는가와 무엇을 사용했는가 구별",
+          "contrastWith": [
+            "by + -ing: 방법"
+          ],
+          "selectionReason": "수동문의 원인과 도구를 구별한다. 기본 세트에 있으므로 어려운 문장에 전이하는 복습이다.",
+          "group": "noun-relations",
+          "existingCoverage": {
+            "status": "기본 의미의 대조 재검토",
+            "refs": [
+              "5세트 3과 by ④",
+              "5세트 2과 with ②"
+            ],
+            "focus": "사람 아닌 자연 현상도 by의 원인이 될 수 있음을 재검토"
+          },
+          "scopeLimit": "by=사람, with=사물이라는 규칙은 틀리다. 행위자·원인과 도구라는 역할을 본다.",
+          "sources": [
+            "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+            "https://dictionary.cambridge.org/pl/grammar/british-grammar/with"
+          ]
+        },
+        {
+          "order": 21,
+          "id": "means-channel",
+          "expression": "by / through",
+          "senseKo": "방법으로 / 경로·매개·과정을 통해",
+          "relation": "방법과 매개가 사건을 가능하게 하는 관계",
+          "contrastWith": [
+            "with: 도구",
+            "from: 출처"
+          ],
+          "selectionReason": "매개자의 존재나 과정을 물리적인 통과로만 읽지 않게 한다.",
+          "group": "noun-relations",
+          "existingCoverage": {
+            "status": "기존 뜻 재검토와 확장",
+            "refs": [
+              "5세트 3과 by ②",
+              "5세트 8과 through ②"
+            ],
+            "focus": "by의 행동 방법과 through의 비물리적 매개·과정 연결"
+          },
+          "scopeLimit": "의미가 겹치는 문맥이 많다. 무조건 두 단어 중 하나만 정답이 되도록 만들지 않는다.",
+          "sources": [
+            "https://dictionary.cambridge.org/us/grammar/british-grammar/by",
+            "https://dictionary.cambridge.org/us/dictionary/english/through"
+          ]
+        },
+        {
+          "order": 22,
+          "id": "beneficiary-recipient",
+          "expression": "for / to + 대상",
+          "senseKo": "누구를 위한 / 누구에게 향하는",
+          "relation": "수혜·의도한 사용자와 전달의 도착 대상을 구별",
+          "contrastWith": [
+            "from: 출발 대상"
+          ],
+          "selectionReason": "한국어 ~에게에 합쳐지는 두 관계를 구별해 사건 참여자의 역할을 이해한다.",
+          "group": "noun-relations",
+          "existingCoverage": {
+            "status": "기본 의미의 대조 재검토",
+            "refs": [
+              "5세트 2과 for ①",
+              "5세트 1과 to ①"
+            ],
+            "focus": "기본 뜻을 알고도 수혜 대상과 전달 대상을 혼동하는지 검토"
+          },
+          "scopeLimit": "개별 동사 뒤의 허용 결합은 다음 과정에서 다룬다. 목적의 to 부정사와 전치사 to도 구별한다.",
+          "sources": [
+            "https://dictionary.cambridge.org/grammar/british-grammar/for",
+            "https://dictionary.cambridge.org/dictionary/english/for",
+            "https://dictionary.cambridge.org/dictionary/learner-english/to"
+          ]
+        },
+        {
+          "order": 23,
+          "id": "support-opposition",
+          "expression": "for / against",
+          "senseKo": "찬성·지지 / 반대·대항",
+          "relation": "주장이나 입장을 지지하는 방향",
+          "contrastWith": [
+            "against: 배경"
+          ],
+          "selectionReason": "for를 위해서로만 읽을 때 논증의 찬반 방향을 놓치는 문제를 보강한다.",
+          "group": "noun-relations",
+          "existingCoverage": {
+            "status": "기존 뜻 재검토와 새 의미 보강",
+            "refs": [
+              "5세트 2과 for ①②③",
+              "1세트 7과 against ①"
+            ],
+            "focus": "against 반대는 재검토, for 지지는 새 검토 영역"
+          },
+          "scopeLimit": "against의 접촉·배경 뜻을 반대로만 옮기지 않는다. 두 단어를 하나의 문맥에서 입장으로 확인한다.",
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/for",
+            "https://dictionary.cambridge.org/dictionary/english/against"
+          ]
+        },
+        {
+          "order": 24,
+          "id": "topic-relation",
+          "expression": "about / on / regarding",
+          "senseKo": "무엇에 관하여",
+          "relation": "발화·글·정보와 그 주제의 관계",
+          "contrastWith": [
+            "on: 표면·시간"
+          ],
+          "selectionReason": "on의 주제 뜻을 추가하고 이미 아는 about·regarding과 연결한다.",
+          "group": "noun-relations",
+          "existingCoverage": {
+            "status": "기존 뜻 재검토와 새 의미 보강",
+            "refs": [
+              "5세트 4과 about ①",
+              "24세트 10과 regarding ①",
+              "5세트 2과 on ①②"
+            ],
+            "focus": "on 주제 의미 중심, about·regarding은 대조 복습"
+          },
+          "scopeLimit": "on은 더 격식 있거나 집중된 주제에 자주 쓰지만 about과 항상 배타적이지 않다. 특정 동사 결합은 별도 과정이다.",
+          "sources": [
+            "https://dictionary.cambridge.org/grammar/british-grammar/about",
+            "https://dictionary.cambridge.org/dictionary/english/regarding"
+          ]
+        },
+        {
+          "order": 25,
+          "id": "domain-respect",
+          "expression": "in + 분야·측면",
+          "senseKo": "어느 분야·측면에서",
+          "relation": "주장이 적용되는 측면이나 분야를 제한",
+          "contrastWith": [
+            "of + 추상명사: 성질 자체"
+          ],
+          "selectionReason": "in size/colour/education 같은 표현을 물리적 내부로 읽지 않고 비교와 주장의 적용 면을 잡는다.",
+          "group": "noun-relations",
+          "existingCoverage": {
+            "status": "새 의미 보강",
+            "refs": [
+              "5세트 1과 in ①~④"
+            ],
+            "focus": "장소·시간에 이어 분야·측면 의미 추가"
+          },
+          "scopeLimit": "in과 함께 쓰는 명사·문맥을 확인한다. 모든 한국어 ~에서를 in으로 바꾸는 규칙이 아니다.",
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/size",
+            "https://dictionary.cambridge.org/dictionary/learner-english/in"
+          ]
+        },
+        {
+          "order": 26,
+          "id": "condition-authority",
+          "expression": "under + 조건·지배·진행 중인 절차",
+          "senseKo": "어떤 조건 아래·영향 아래·절차를 받는",
+          "relation": "사람·사건에 적용되는 조건과 진행 상태",
+          "contrastWith": [
+            "within: 허용 범위",
+            "against: 반대"
+          ],
+          "selectionReason": "under pressure/investigation 같은 추상 관계가 아래라는 공간 뜻으로 막히는 문제를 해결한다.",
+          "group": "argument-relations",
+          "existingCoverage": {
+            "status": "새 의미 보강",
+            "refs": [
+              "5세트 10과 under ①②"
+            ],
+            "focus": "물리적 아래·수량 미만 외의 적용 조건·진행 상태 추가"
+          },
+          "scopeLimit": "조건·권한·진행 상태는 서로 같은 뜻이 아니다. 후속 카드에서는 한 의미씩 나누어 다룬다.",
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/under",
+            "https://dictionary.cambridge.org/dictionary/english/under-investigation",
+            "https://dictionary.cambridge.org/dictionary/english/under-the-circumstances"
+          ]
+        },
+        {
+          "order": 27,
+          "id": "background-contrast",
+          "expression": "against + 배경",
+          "senseKo": "어떤 배경을 뒤로 하여·그 배경 속에서",
+          "relation": "대상을 두드러지게 하거나 해석하게 하는 배경",
+          "contrastWith": [
+            "against: 반대"
+          ],
+          "selectionReason": "against가 반대가 아닌 문맥을 별도로 복습해 역사·사회 지문의 배경을 바르게 연결한다.",
+          "group": "argument-relations",
+          "existingCoverage": {
+            "status": "새 의미 보강",
+            "refs": [
+              "1세트 7과 against ①②"
+            ],
+            "focus": "반대·접촉 외의 물리적·사회적 배경 의미 추가"
+          },
+          "scopeLimit": "일반적인 ~와 대조적으로를 모두 against로 바꾸지 않는다. 비교 기준을 요구하는 개별 동사 결합은 제외한다.",
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/against",
+            "https://dictionary.cambridge.org/dictionary/english/background",
+            "https://dictionary.cambridge.org/grammar/british-grammar/against"
+          ]
+        },
+        {
+          "order": 28,
+          "id": "source-attribution",
+          "expression": "from / according to",
+          "senseKo": "어디서 나온 / 누구의 말·자료에 따르면",
+          "relation": "정보의 출처와 진술의 인용 근거",
+          "contrastWith": [
+            "by: 행위자"
+          ],
+          "selectionReason": "정보의 기원과 글쓴이가 인용한 주장을 구별해 발화 주체를 놓치지 않게 한다.",
+          "group": "argument-relations",
+          "existingCoverage": {
+            "status": "기존 뜻 확장과 새 표현",
+            "refs": [
+              "5세트 3과 from ①"
+            ],
+            "focus": "from의 정보 출처 확장, according to는 일반 세트 독립 표제어 없음"
+          },
+          "scopeLimit": "from과 according to는 교체쌍이 아니다. according to의 기준·방식에 따라라는 뜻은 별도 확장 후보로 남긴다.",
+          "sources": [
+            "https://dictionary.cambridge.org/us/grammar/british-grammar/from",
+            "https://dictionary.cambridge.org/us/grammar/british-grammar/according-to"
+          ]
+        },
+        {
+          "order": 29,
+          "id": "cause-concession",
+          "expression": "because of / despite / in spite of",
+          "senseKo": "때문에 / 그럼에도 불구하고",
+          "relation": "이유가 결과를 설명하는가, 예상과 다른 결과인가",
+          "contrastWith": [
+            "for: 이유"
+          ],
+          "selectionReason": "내용어를 알아도 인과와 양보를 반대로 연결하면 논지가 뒤집히므로 포함한다.",
+          "group": "argument-relations",
+          "existingCoverage": {
+            "status": "기존 뜻 재검토와 새 표현",
+            "refs": [
+              "23세트 4과 despite ①"
+            ],
+            "focus": "despite는 재검토, 복합 전치사와 인과·양보 관계 연결"
+          },
+          "scopeLimit": "despite of는 쓰지 않는다. because/although의 절 연결 문법은 이 단위의 주목적이 아니다.",
+          "sources": [
+            "https://dictionary.cambridge.org/grammar/british-grammar/in-spite-of-and-despite?q=In+spite+of+and+despite",
+            "https://dictionary.cambridge.org/dictionary/english/because-of"
+          ]
+        },
+        {
+          "order": 30,
+          "id": "exception-addition",
+          "expression": "except (for) / apart from / besides",
+          "senseKo": "제외하고 / 제외하거나 덧붙여 / 더하여",
+          "relation": "명시한 대상이 전체 범위에서 빠지는가 더해지는가",
+          "contrastWith": [
+            "without: 부재"
+          ],
+          "selectionReason": "한국어 ~외에는·~외에로 겹치는 배제와 추가가 논리 범위를 바꾸므로 재검토한다.",
+          "group": "argument-relations",
+          "existingCoverage": {
+            "status": "기존 뜻 재검토와 새 표현",
+            "refs": [
+              "12세트 3과 except ①",
+              "15세트 7과 besides ②"
+            ],
+            "focus": "apart from의 두 방향을 새로 연결"
+          },
+          "scopeLimit": "apart from은 문맥에 따라 추가와 제외가 모두 가능하다. besides 부사의 담화 용법은 따로 센다.",
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/apart",
+            "https://dictionary.cambridge.org/grammar/british-grammar/except-or-except-for",
+            "https://dictionary.cambridge.org/us/grammar/british-grammar/word-choice-besides-or-also"
+          ]
+        },
+        {
+          "order": 31,
+          "id": "role-resemblance",
+          "expression": "as / like + 명사",
+          "senseKo": "역할·자격으로 / 비슷하게·마치",
+          "relation": "실제 맡는 역할과 유사성의 비교를 구별",
+          "contrastWith": [
+            "as ... as: 정도 비교"
+          ],
+          "selectionReason": "역할을 사실로 제시하는지 비유하는지 구별한다. 기본 어휘 뜻의 재검토 가치가 크다.",
+          "group": "argument-relations",
+          "existingCoverage": {
+            "status": "기본 의미의 대조 재검토",
+            "refs": [
+              "5세트 4과 as ①",
+              "1세트 1과 like ②"
+            ],
+            "focus": "쉬운 두 표제어의 문장 해석 차이를 재검토"
+          },
+          "scopeLimit": "as와 like의 모든 용법을 이 구별 하나로 설명하지 않는다. 이 단위는 명사 앞 역할·유사성에 한정한다.",
+          "sources": [
+            "https://dictionary.cambridge.org/uk/grammar/british-grammar/as-or-like",
+            "https://dictionary.cambridge.org/us/grammar/british-grammar/like"
+          ]
+        },
+        {
+          "order": 32,
+          "id": "distribution-extent",
+          "expression": "across / throughout + 범위",
+          "senseKo": "여러 곳·집단에 걸쳐 / 전체 범위에 두루",
+          "relation": "이동이 아닌 분포와 적용 범위",
+          "contrastWith": [
+            "within: 경계 안"
+          ],
+          "selectionReason": "across를 가로질러로만 읽지 않고 사회·문화·지역 전체의 분포로 확장한다.",
+          "group": "argument-relations",
+          "existingCoverage": {
+            "status": "기존 뜻 재검토와 새 의미 보강",
+            "refs": [
+              "6세트 3과 across ①",
+              "23세트 7과 throughout ②"
+            ],
+            "focus": "across의 분포 의미 추가, throughout의 전체 범위는 재검토"
+          },
+          "scopeLimit": "문맥에 따라 두 단어가 겹친다. across several groups가 모든 개인을 빠짐없이 포함한다고 단정하지 않는다.",
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/across",
+            "https://dictionary.cambridge.org/dictionary/english/throughout"
+          ]
+        }
+      ],
+      "stage": "선정 완료·카드 작성 전"
+    },
+    {
+      "set": 50,
+      "title": "독해에 필요한 동사 결합",
+      "status": "pool-and-order-only",
+      "reviewedAt": "2026-09-19",
+      "meaningUnitCount": 76,
+      "uniqueExpressionCount": 67,
+      "selectionBasis": "인과·논증·구성·연구 과정·변화의 독해 가치와 오해 가능성을 기준으로 선정. 수능 빈도 실측 순위가 아님.",
+      "countingRule": "표현의 핵심 뜻 하나를 한 단위로 셈. 같은 뜻의 능동·수동 및 자동·타동 교대는 중복 산정하지 않음.",
+      "orderRule": "관계별 개념 순서를 따르되 같은 표현의 다른 뜻은 떨어뜨림. 실게임 출제 순서와 섞기는 후속 구현에서 적용.",
+      "kindNote": "편집용 분류: phrasal은 불변화사 결합과 구동사+전치사, prepositional은 선택된 뜻의 동사+전치사 결합, multiword는 그 밖의 관용적 동사구. 사전의 넓은 phrasal verb 분류와 구별될 수 있음.",
+      "evidenceNote": "Fable 0–45와 마더텅 2027의 기존 인벤토리 기준. Fable 표현 표제는 0개지만 예문·해설 노출은 별도로 존재. 미조사 결합을 없다고 단정하지 않음.",
+      "sourceNote": "각 의미는 Cambridge 사전 본문 또는 검색 도구가 제공한 해당 사전 본문에서 확인. 웹페이지의 사전 예문을 새 학습 예문으로 복사하지 않음.",
+      "deferredSenses": [
+        "make up: 화해·화장",
+        "turn down: 기기 음량·출력 낮추기",
+        "pick up: 데리러 가기·집어 들기",
+        "take off: 이륙·옷 벗기",
+        "work out: 운동",
+        "set up: 기기 설치",
+        "sort out: 여럿 중 특정 종류의 것을 선별하기"
+      ],
+      "groups": [
+        {
+          "id": "cause",
+          "title": "원인·결과·조건",
+          "meaningUnits": 9
+        },
+        {
+          "id": "evidence",
+          "title": "주장·근거·발견",
+          "meaningUnits": 9
+        },
+        {
+          "id": "composition",
+          "title": "구성·비중·역할",
+          "meaningUnits": 9
+        },
+        {
+          "id": "action",
+          "title": "수행·조사·발전",
+          "meaningUnits": 9
+        },
+        {
+          "id": "change",
+          "title": "변화·소멸·결과",
+          "meaningUnits": 9
+        },
+        {
+          "id": "constraint",
+          "title": "지속·억제·부족",
+          "meaningUnits": 9
+        },
+        {
+          "id": "information",
+          "title": "정보 처리·제시·판단",
+          "meaningUnits": 9
+        },
+        {
+          "id": "extension",
+          "title": "관계·재검토·핵심 다의",
+          "meaningUnits": 13
+        }
+      ],
+      "items": [
+        {
+          "id": "result-in-cause",
+          "expression": "result in",
+          "senseKo": "~라는 결과를 낳다",
+          "kind": "prepositional",
+          "pattern": "원인 + result in + 결과(명사/-ing)",
+          "priorityGroup": "cause",
+          "selectionReason": "인과관계의 방향을 바로 읽는 핵심 결합",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "auditedInInventory",
+              "counts": {
+                "targetExact": 0,
+                "targetContains": 0,
+                "headwordClozeUsesConstruction": 0,
+                "exampleOnly": 0,
+                "explanationOnly": 1
+              },
+              "locations": [
+                {
+                  "category": "explanationOnly",
+                  "id": "fable:4:2026:7:8:result:2",
+                  "set": 4,
+                  "exercise": 7,
+                  "scope": "2026",
+                  "head": "result",
+                  "meaning": "② (결과로) 생기다 (result from/in)"
+                }
+              ]
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "inventoryQuery": "result in",
+            "note": "Fable의 해당 결합은 해설에만 발견됐고, result from과 별도 문맥 학습이 필요."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/result-in"
+          ]
+        },
+        {
+          "id": "account-for-explain",
+          "expression": "account for",
+          "senseKo": "~의 이유를 설명하다",
+          "kind": "prepositional",
+          "pattern": "설명·요인 + account for + 현상",
+          "priorityGroup": "cause",
+          "selectionReason": "account를 계산·계좌로만 읽는 오류 교정",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "auditedInInventory",
+              "counts": {
+                "targetExact": 0,
+                "targetContains": 0,
+                "headwordClozeUsesConstruction": 2,
+                "exampleOnly": 0,
+                "explanationOnly": 0
+              },
+              "locations": [
+                {
+                  "category": "headwordClozeUsesConstruction",
+                  "id": "fable:4:2026:4:7:account:3",
+                  "set": 4,
+                  "exercise": 4,
+                  "scope": "2026",
+                  "head": "account",
+                  "meaning": "③ 설명하다 (account for)"
+                },
+                {
+                  "category": "headwordClozeUsesConstruction",
+                  "id": "fable:4:2026:4:8:account:4",
+                  "set": 4,
+                  "exercise": 4,
+                  "scope": "2026",
+                  "head": "account",
+                  "meaning": "④ (비율을) 차지하다 (account for)"
+                }
+              ]
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "inventoryQuery": "account for",
+            "senseEvidence": [
+              "fable:4:2026:4:7:account:3"
+            ],
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/account-for"
+          ]
+        },
+        {
+          "id": "depend-on-condition",
+          "expression": "depend on",
+          "senseKo": "~에 달려 있다",
+          "kind": "prepositional",
+          "pattern": "결과 + depend on/upon + 조건",
+          "priorityGroup": "cause",
+          "selectionReason": "조건과 결과를 연결하는 핵심 관계",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "auditedInInventory",
+              "counts": {
+                "targetExact": 0,
+                "targetContains": 0,
+                "headwordClozeUsesConstruction": 3,
+                "exampleOnly": 0,
+                "explanationOnly": 0
+              },
+              "locations": [
+                {
+                  "category": "headwordClozeUsesConstruction",
+                  "id": "fable:11:2026:5:10:depend:1",
+                  "set": 11,
+                  "exercise": 5,
+                  "scope": "2026",
+                  "head": "depend",
+                  "meaning": "① ~에 달려 있다"
+                },
+                {
+                  "category": "headwordClozeUsesConstruction",
+                  "id": "fable:11:2026:5:11:depend:2",
+                  "set": 11,
+                  "exercise": 5,
+                  "scope": "2026",
+                  "head": "depend",
+                  "meaning": "② 의지하다, 의존하다"
+                },
+                {
+                  "category": "headwordClozeUsesConstruction",
+                  "id": "fable:27:2026:5:0:depending:1",
+                  "set": 27,
+                  "exercise": 5,
+                  "scope": "2026",
+                  "head": "depending",
+                  "meaning": "① (depending on) ~에 따라"
+                }
+              ]
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "inventoryQuery": "depend on",
+            "senseEvidence": [
+              "fable:11:2026:5:10:depend:1",
+              "fable:27:2026:5:0:depending:1"
+            ],
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/depend"
+          ]
+        },
+        {
+          "id": "bring-about-cause",
+          "expression": "bring about",
+          "senseKo": "~을 일어나게 하다",
+          "kind": "phrasal",
+          "pattern": "bring about + 결과 / bring + 목적어 + about; 대명사는 가운데",
+          "priorityGroup": "cause",
+          "selectionReason": "구체적 이동이 아닌 변화 유발 뜻 확립",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/bring-about"
+          ]
+        },
+        {
+          "id": "stem-from-origin",
+          "expression": "stem from",
+          "senseKo": "~에서 비롯되다",
+          "kind": "prepositional",
+          "pattern": "현상 + stem from + 원인·근원",
+          "priorityGroup": "cause",
+          "selectionReason": "원인·기원을 거슬러 설명하는 관계",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/stem-from?topic=origins-and-sources"
+          ]
+        },
+        {
+          "id": "contribute-to-cause",
+          "expression": "contribute to",
+          "senseKo": "결과가 생기는 데 한몫하다",
+          "kind": "prepositional",
+          "pattern": "요인 + contribute to + 결과(명사/-ing)",
+          "priorityGroup": "cause",
+          "selectionReason": "긍정·부정 결과 모두 가능하며 원인의 일부를 나타냄",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/contribute-to?q=contribute-to-something"
+          ]
+        },
+        {
+          "id": "lead-to-cause",
+          "expression": "lead to",
+          "senseKo": "~로 이어지다",
+          "kind": "prepositional",
+          "pattern": "원인·행동 + lead to + 결과(명사/-ing)",
+          "priorityGroup": "cause",
+          "selectionReason": "결과를 목적지로 연결하는 추상적 쓰임",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "auditedInInventory",
+              "counts": {
+                "targetExact": 0,
+                "targetContains": 0,
+                "headwordClozeUsesConstruction": 1,
+                "exampleOnly": 2,
+                "explanationOnly": 0
+              },
+              "locations": [
+                {
+                  "category": "headwordClozeUsesConstruction",
+                  "id": "fable:4:2026:5:15:lead:2",
+                  "set": 4,
+                  "exercise": 5,
+                  "scope": "2026",
+                  "head": "lead",
+                  "meaning": "② ~로 이어지다 (lead to)"
+                },
+                {
+                  "category": "exampleOnly",
+                  "id": "fable:4:2026:2:3:road:1",
+                  "set": 4,
+                  "exercise": 2,
+                  "scope": "2026",
+                  "head": "road",
+                  "meaning": "① 길, 도로"
+                },
+                {
+                  "category": "exampleOnly",
+                  "id": "fable:21:2026:7:12:footpath:1",
+                  "set": 21,
+                  "exercise": 7,
+                  "scope": "2026",
+                  "head": "footpath",
+                  "meaning": "① 보행로, 산책로"
+                }
+              ]
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "inventoryQuery": "lead to",
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/lead-to"
+          ]
+        },
+        {
+          "id": "result-from-cause",
+          "expression": "result from",
+          "senseKo": "~의 결과로 생기다",
+          "kind": "prepositional",
+          "pattern": "결과 + result from + 원인(명사/-ing)",
+          "priorityGroup": "cause",
+          "selectionReason": "result in과 원인·결과의 위치를 구별",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "auditedInInventory",
+              "counts": {
+                "targetExact": 0,
+                "targetContains": 0,
+                "headwordClozeUsesConstruction": 1,
+                "exampleOnly": 0,
+                "explanationOnly": 0
+              },
+              "locations": [
+                {
+                  "category": "headwordClozeUsesConstruction",
+                  "id": "fable:4:2026:7:8:result:2",
+                  "set": 4,
+                  "exercise": 7,
+                  "scope": "2026",
+                  "head": "result",
+                  "meaning": "② (결과로) 생기다 (result from/in)"
+                }
+              ]
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "inventoryQuery": "result from",
+            "note": "Fable result 표제의 빈칸에서 사용되지만 결합 전체가 입력 정답은 아님."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/result-from"
+          ]
+        },
+        {
+          "id": "give-rise-to-cause",
+          "expression": "give rise to",
+          "senseKo": "~을 발생시키다",
+          "kind": "multiword",
+          "pattern": "원인 + give rise to + 현상·결과",
+          "priorityGroup": "cause",
+          "selectionReason": "단어별 직역으로 놓치기 쉬운 인과 표현",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "auditedInInventory",
+              "counts": {
+                "targetExact": 0,
+                "targetContains": 0,
+                "headwordClozeUsesConstruction": 0,
+                "exampleOnly": 0,
+                "explanationOnly": 0
+              },
+              "locations": []
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "inventoryQuery": "give rise to",
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/give-rise-to"
+          ]
+        },
+        {
+          "id": "point-out-identify",
+          "expression": "point out",
+          "senseKo": "~을 지적하여 알리다",
+          "kind": "phrasal",
+          "pattern": "point out + 대상 / point + 목적어 + out; point out + that절; 대명사는 가운데",
+          "priorityGroup": "evidence",
+          "selectionReason": "본인이 주목하는 것과 남에게 알려 주는 것 구별",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 1,
+              "locations": [
+                {
+                  "id": "motherTongue:14:2026:9:0:point out:point out",
+                  "set": 14,
+                  "exercise": 9,
+                  "scope": "2026",
+                  "head": "point out",
+                  "meaning": "주목하다, 지적하다"
+                }
+              ]
+            },
+            "note": "마더텅 주목하다·지적하다 중 남에게 지적하여 알리는 의미로 한정."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/point-out"
+          ]
+        },
+        {
+          "id": "refer-to-mention",
+          "expression": "refer to",
+          "senseKo": "~을 언급하다",
+          "kind": "prepositional",
+          "pattern": "refer to + 사람·사물·사건",
+          "priorityGroup": "evidence",
+          "selectionReason": "글쓴이가 지시하거나 언급하는 대상 파악",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/refer-to?q=refer-sb-sth-to-sb-"
+          ]
+        },
+        {
+          "id": "rule-out-exclude",
+          "expression": "rule out",
+          "senseKo": "가능성에서 ~을 제외하다",
+          "kind": "phrasal",
+          "pattern": "rule out + 가능성 / rule + 목적어 + out; 대명사는 가운데",
+          "priorityGroup": "evidence",
+          "selectionReason": "가설·대안의 배제를 정확히 읽기",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/rule-out"
+          ]
+        },
+        {
+          "id": "back-up-support",
+          "expression": "back up",
+          "senseKo": "주장 등을 뒷받침하다",
+          "kind": "phrasal",
+          "pattern": "back up + 주장 / back + 목적어 + up; 대명사는 가운데",
+          "priorityGroup": "evidence",
+          "selectionReason": "주장과 증거의 관계를 나타내는 뜻",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/back-up"
+          ]
+        },
+        {
+          "id": "draw-on-use",
+          "expression": "draw on",
+          "senseKo": "지식·경험 등을 활용하다",
+          "kind": "prepositional",
+          "pattern": "draw on/upon + 지식·경험·자원",
+          "priorityGroup": "evidence",
+          "selectionReason": "draw의 그림·끌기 밖 추상적 활용 뜻",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/draw-on"
+          ]
+        },
+        {
+          "id": "put-forward-propose",
+          "expression": "put forward",
+          "senseKo": "생각·제안을 내놓다",
+          "kind": "phrasal",
+          "pattern": "put forward + 제안 / put + 목적어 + forward; 대명사는 가운데",
+          "priorityGroup": "evidence",
+          "selectionReason": "주장과 해결책이 제시되는 지점 파악",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 1,
+              "locations": [
+                {
+                  "id": "motherTongue:11:prev:25:10:put forward:put forward",
+                  "set": 11,
+                  "exercise": 25,
+                  "scope": "prev",
+                  "head": "put forward",
+                  "meaning": "제기하다, 내세우다"
+                }
+              ]
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/put-forward"
+          ]
+        },
+        {
+          "id": "make-out-discern",
+          "expression": "make out",
+          "senseKo": "간신히 알아보거나 이해하다",
+          "kind": "phrasal",
+          "pattern": "make out + 대상 / make + 목적어 + out; make out + 의문사절; 대명사는 가운데",
+          "priorityGroup": "evidence",
+          "selectionReason": "인지의 어려움이 포함된 뜻을 구별",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/make-out"
+          ],
+          "notes": "예문 작성 때 시각·청각의 분간과 내용 이해를 별도 카드로 나눌 수 있음. 선정 단위 수와 최종 카드 수는 다를 수 있음."
+        },
+        {
+          "id": "figure-out-understand",
+          "expression": "figure out",
+          "senseKo": "생각하여 알아내다",
+          "kind": "phrasal",
+          "pattern": "figure out + 대상 / figure + 목적어 + out; figure out + 의문사절; 대명사는 가운데",
+          "priorityGroup": "evidence",
+          "selectionReason": "추론·문제 해결의 인지 활동",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/figure-out"
+          ]
+        },
+        {
+          "id": "find-out-discover",
+          "expression": "find out",
+          "senseKo": "사실·정보를 알아내다",
+          "kind": "phrasal",
+          "pattern": "find out + 사실 / find + 목적어 + out; find out + that절·의문사절; 대명사는 가운데",
+          "priorityGroup": "evidence",
+          "selectionReason": "발견한 위치보다 얻은 정보에 초점을 두는 뜻",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/find-out"
+          ]
+        },
+        {
+          "id": "make-up-compose",
+          "expression": "make up",
+          "senseKo": "전체를 구성하다",
+          "kind": "phrasal",
+          "pattern": "구성 요소 + make up + 전체; 전체 + be made up of + 구성 요소",
+          "priorityGroup": "composition",
+          "selectionReason": "구성과 수동형의 방향을 함께 확립",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "auditedInInventory",
+              "counts": {
+                "targetExact": 0,
+                "targetContains": 0,
+                "headwordClozeUsesConstruction": 0,
+                "exampleOnly": 2,
+                "explanationOnly": 1
+              },
+              "locations": [
+                {
+                  "category": "exampleOnly",
+                  "id": "fable:2:2026:9:7:mind:1",
+                  "set": 2,
+                  "exercise": 9,
+                  "scope": "2026",
+                  "head": "mind",
+                  "meaning": "① 마음, 정신"
+                },
+                {
+                  "category": "exampleOnly",
+                  "id": "fable:2:2026:10:6:true:1",
+                  "set": 2,
+                  "exercise": 10,
+                  "scope": "2026",
+                  "head": "true",
+                  "meaning": "① 사실인, 참인 (↔ false)"
+                },
+                {
+                  "category": "explanationOnly",
+                  "id": "fable:35:2026:6:1:made-up:1",
+                  "set": 35,
+                  "exercise": 6,
+                  "scope": "2026",
+                  "head": "made-up",
+                  "meaning": "① 지어낸, 꾸며 낸"
+                }
+              ]
+            },
+            "motherTongue": {
+              "expressionTargetCards": 1,
+              "locations": [
+                {
+                  "id": "motherTongue:16:2026:7:5:make up:make up",
+                  "set": 16,
+                  "exercise": 7,
+                  "scope": "2026",
+                  "head": "make up",
+                  "meaning": "구성하다, 보충하다"
+                }
+              ]
+            },
+            "inventoryQuery": "make up",
+            "note": "마더텅 한 카드의 구성하다·보충하다 중 구성 뜻을 별도 의미로 편성."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/make-up"
+          ]
+        },
+        {
+          "id": "consist-of-components",
+          "expression": "consist of",
+          "senseKo": "~로 구성되어 있다",
+          "kind": "prepositional",
+          "pattern": "전체 + consist of + 구성 요소; 수동형으로 쓰지 않음",
+          "priorityGroup": "composition",
+          "selectionReason": "전체에서 구성 요소로 이어지는 관계",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/consist-of"
+          ]
+        },
+        {
+          "id": "account-for-proportion",
+          "expression": "account for",
+          "senseKo": "비중을 차지하다",
+          "kind": "prepositional",
+          "pattern": "부분·집단 + account for + 비율·전체량",
+          "priorityGroup": "composition",
+          "selectionReason": "설명하다와 다른 통계·비율 뜻을 분리",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "auditedInInventory",
+              "counts": {
+                "targetExact": 0,
+                "targetContains": 0,
+                "headwordClozeUsesConstruction": 2,
+                "exampleOnly": 0,
+                "explanationOnly": 0
+              },
+              "locations": [
+                {
+                  "category": "headwordClozeUsesConstruction",
+                  "id": "fable:4:2026:4:7:account:3",
+                  "set": 4,
+                  "exercise": 4,
+                  "scope": "2026",
+                  "head": "account",
+                  "meaning": "③ 설명하다 (account for)"
+                },
+                {
+                  "category": "headwordClozeUsesConstruction",
+                  "id": "fable:4:2026:4:8:account:4",
+                  "set": 4,
+                  "exercise": 4,
+                  "scope": "2026",
+                  "head": "account",
+                  "meaning": "④ (비율을) 차지하다 (account for)"
+                }
+              ]
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "inventoryQuery": "account for",
+            "senseEvidence": [
+              "fable:4:2026:4:8:account:4"
+            ],
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/account-for"
+          ]
+        },
+        {
+          "id": "take-up-occupy",
+          "expression": "take up",
+          "senseKo": "시간·공간을 차지하다",
+          "kind": "phrasal",
+          "pattern": "take up + 시간·공간 / take + 목적어 + up; 대명사는 가운데",
+          "priorityGroup": "composition",
+          "selectionReason": "학습·행동 시작 뜻과 구별할 독해 핵심 다의",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "auditedInInventory",
+              "counts": {
+                "targetExact": 0,
+                "targetContains": 0,
+                "headwordClozeUsesConstruction": 0,
+                "exampleOnly": 1,
+                "explanationOnly": 0
+              },
+              "locations": [
+                {
+                  "category": "exampleOnly",
+                  "id": "fable:23:2026:3:1:media:1",
+                  "set": 23,
+                  "exercise": 3,
+                  "scope": "2026",
+                  "head": "media",
+                  "meaning": "① 언론, 매체"
+                }
+              ]
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "inventoryQuery": "take up",
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/take-up"
+          ]
+        },
+        {
+          "id": "take-on-responsibility",
+          "expression": "take on",
+          "senseKo": "일·책임을 맡다",
+          "kind": "phrasal",
+          "pattern": "take on + 일·책임 / take + 목적어 + on; 대명사는 가운데",
+          "priorityGroup": "composition",
+          "selectionReason": "역할·책임을 떠맡는 추상적 쓰임",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 1,
+              "locations": [
+                {
+                  "id": "motherTongue:16:prev:8:2:take on:take on",
+                  "set": 16,
+                  "exercise": 8,
+                  "scope": "prev",
+                  "head": "take on",
+                  "meaning": "다루다, 떠맡다"
+                }
+              ]
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/take-on"
+          ]
+        },
+        {
+          "id": "serve-as-function",
+          "expression": "serve as",
+          "senseKo": "~의 역할을 하다",
+          "kind": "prepositional",
+          "pattern": "대상 + serve as + 역할",
+          "priorityGroup": "composition",
+          "selectionReason": "음식 제공을 넘어 기능·역할을 읽기",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/serve"
+          ]
+        },
+        {
+          "id": "consist-in-essence",
+          "expression": "consist in",
+          "senseKo": "본질·핵심이 ~에 있다",
+          "kind": "prepositional",
+          "pattern": "본질·특징 + consist in + 명사/-ing",
+          "priorityGroup": "composition",
+          "selectionReason": "consist of와 관계가 달라지는 전치사 구별",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/consist-in"
+          ]
+        },
+        {
+          "id": "amount-to-equivalent",
+          "expression": "amount to",
+          "senseKo": "사실상 ~와 같다",
+          "kind": "prepositional",
+          "pattern": "행위·상황 + amount to + 명사/-ing",
+          "priorityGroup": "composition",
+          "selectionReason": "총액 계산 밖의 실질적 동등 관계",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/amount-to"
+          ]
+        },
+        {
+          "id": "make-up-for-compensate",
+          "expression": "make up for",
+          "senseKo": "손실·부족을 보상하다",
+          "kind": "phrasal",
+          "pattern": "make up for + 손실·부족(명사/-ing)",
+          "priorityGroup": "composition",
+          "selectionReason": "make up 단독과 for가 있는 보상 관계 구별",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/make-up-for"
+          ]
+        },
+        {
+          "id": "carry-out-perform",
+          "expression": "carry out",
+          "senseKo": "계획·실험 등을 수행하다",
+          "kind": "phrasal",
+          "pattern": "carry out + 과업 / carry + 목적어 + out; 대명사는 가운데",
+          "priorityGroup": "action",
+          "selectionReason": "연구·정책·절차의 수행을 읽는 기본 결합",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "auditedInInventory",
+              "counts": {
+                "targetExact": 0,
+                "targetContains": 0,
+                "headwordClozeUsesConstruction": 0,
+                "exampleOnly": 0,
+                "explanationOnly": 0
+              },
+              "locations": []
+            },
+            "motherTongue": {
+              "expressionTargetCards": 2,
+              "locations": [
+                {
+                  "id": "motherTongue:7:prev:20:3:carry out:carry out",
+                  "set": 7,
+                  "exercise": 20,
+                  "scope": "prev",
+                  "head": "carry out",
+                  "meaning": "수행하다, 실시하다"
+                },
+                {
+                  "id": "motherTongue:11:prev:57:8:carry out:carry out",
+                  "set": 11,
+                  "exercise": 57,
+                  "scope": "prev",
+                  "head": "carry out",
+                  "meaning": "수행하다"
+                }
+              ]
+            },
+            "inventoryQuery": "carry out",
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/carry-out"
+          ]
+        },
+        {
+          "id": "look-into-investigate",
+          "expression": "look into",
+          "senseKo": "문제·가능성을 조사하다",
+          "kind": "prepositional",
+          "pattern": "look into + 조사 대상(명사/-ing)",
+          "priorityGroup": "action",
+          "selectionReason": "공간 안을 보는 뜻을 넘어 검토·조사 읽기",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/look-into"
+          ]
+        },
+        {
+          "id": "deal-with-handle",
+          "expression": "deal with",
+          "senseKo": "문제·상황에 대처하다",
+          "kind": "prepositional",
+          "pattern": "deal with + 문제·상황",
+          "priorityGroup": "action",
+          "selectionReason": "교환·거래가 아닌 문제 처리 뜻",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/deal-with"
+          ]
+        },
+        {
+          "id": "work-out-solve",
+          "expression": "work out",
+          "senseKo": "문제의 답을 생각해 내다",
+          "kind": "phrasal",
+          "pattern": "work out + 문제·답 / work + 목적어 + out; work out + 의문사절; 대명사는 가운데",
+          "priorityGroup": "action",
+          "selectionReason": "운동하다로 고정되지 않도록 사고·해결 뜻 선정",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/work-out"
+          ]
+        },
+        {
+          "id": "set-up-establish",
+          "expression": "set up",
+          "senseKo": "조직·제도를 세우다",
+          "kind": "phrasal",
+          "pattern": "set up + 조직·제도 / set + 목적어 + up; 대명사는 가운데",
+          "priorityGroup": "action",
+          "selectionReason": "설립·체계 형성의 뜻을 기기 설치와 구별",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 1,
+              "locations": [
+                {
+                  "id": "motherTongue:6:prev:4:7:set up:set up",
+                  "set": 6,
+                  "exercise": 4,
+                  "scope": "prev",
+                  "head": "set up",
+                  "meaning": "마련하다, 설립하다"
+                }
+              ]
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/set-up?q=set+up"
+          ]
+        },
+        {
+          "id": "come-up-with-devise",
+          "expression": "come up with",
+          "senseKo": "생각·계획을 떠올리다",
+          "kind": "phrasal",
+          "pattern": "come up with + 생각·계획",
+          "priorityGroup": "action",
+          "selectionReason": "새 해결책과 아이디어를 만들어 내는 결합",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/come-up-with"
+          ]
+        },
+        {
+          "id": "take-up-start",
+          "expression": "take up",
+          "senseKo": "새 활동을 시작하다",
+          "kind": "phrasal",
+          "pattern": "take up + 활동(명사/-ing); 명사 목적어 분리 가능, 대명사는 가운데",
+          "priorityGroup": "action",
+          "selectionReason": "시간·공간 차지 뜻과 떨어뜨려 인출",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "auditedInInventory",
+              "counts": {
+                "targetExact": 0,
+                "targetContains": 0,
+                "headwordClozeUsesConstruction": 0,
+                "exampleOnly": 1,
+                "explanationOnly": 0
+              },
+              "locations": [
+                {
+                  "category": "exampleOnly",
+                  "id": "fable:23:2026:3:1:media:1",
+                  "set": 23,
+                  "exercise": 3,
+                  "scope": "2026",
+                  "head": "media",
+                  "meaning": "① 언론, 매체"
+                }
+              ]
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "inventoryQuery": "take up",
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/take-up"
+          ]
+        },
+        {
+          "id": "build-on-develop",
+          "expression": "build on",
+          "senseKo": "기존 성과를 토대로 발전시키다",
+          "kind": "prepositional",
+          "pattern": "build on + 성과·기반",
+          "priorityGroup": "action",
+          "selectionReason": "누적되는 지식·성과의 발전 관계",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/build-on"
+          ]
+        },
+        {
+          "id": "follow-up-pursue",
+          "expression": "follow up",
+          "senseKo": "후속 조사·조치를 하다",
+          "kind": "phrasal",
+          "pattern": "follow up + 대상 / follow + 목적어 + up; follow it up / follow up on it; on 뒤 목적어는 이동하지 않음",
+          "priorityGroup": "action",
+          "selectionReason": "이미 한 일에 이어 조사를 계속하는 뜻",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/follow-up"
+          ]
+        },
+        {
+          "id": "turn-into-transform",
+          "expression": "turn into",
+          "senseKo": "~로 변하다",
+          "kind": "prepositional",
+          "pattern": "A + turn into + B; turn + A + into + B(변하게 하다)",
+          "priorityGroup": "change",
+          "selectionReason": "변화 전후의 대상과 방향을 읽기",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/turn-into"
+          ]
+        },
+        {
+          "id": "give-way-to-replace",
+          "expression": "give way to",
+          "senseKo": "~로 대체되다",
+          "kind": "multiword",
+          "pattern": "이전 상태·대상 + give way to + 새 상태·대상",
+          "priorityGroup": "change",
+          "selectionReason": "양보라는 직역에서 놓치는 교체 관계",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/give-way-to"
+          ]
+        },
+        {
+          "id": "give-up-quit",
+          "expression": "give up",
+          "senseKo": "하던 시도를 포기하다",
+          "kind": "phrasal",
+          "pattern": "give up / give up + 명사/-ing; 대명사 목적어는 가운데",
+          "priorityGroup": "change",
+          "selectionReason": "시도·목표를 중단하는 변화의 뜻",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/give-up"
+          ]
+        },
+        {
+          "id": "break-down-fail",
+          "expression": "break down",
+          "senseKo": "기능·체계가 무너지다",
+          "kind": "phrasal",
+          "pattern": "기계·체계·관계 + break down; 직접 목적어 없음",
+          "priorityGroup": "change",
+          "selectionReason": "물리적 파괴가 아닌 작동·관계의 실패",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/break-down"
+          ]
+        },
+        {
+          "id": "die-out-disappear",
+          "expression": "die out",
+          "senseKo": "점차 사라져 없어지다",
+          "kind": "phrasal",
+          "pattern": "생물·관습 등 + die out; 직접 목적어 없음",
+          "priorityGroup": "change",
+          "selectionReason": "개체의 죽음과 종·관습의 소멸 구별",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/die-out?topic=death-and-dying"
+          ]
+        },
+        {
+          "id": "wear-out-damage",
+          "expression": "wear out",
+          "senseKo": "쓰다가 닳아 못 쓰게 되다",
+          "kind": "phrasal",
+          "pattern": "물건 + wear out; wear out + 물건 / wear + 목적어 + out; 대명사는 가운데",
+          "priorityGroup": "change",
+          "selectionReason": "반복 사용에 따른 기능 상실",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/wear-out"
+          ]
+        },
+        {
+          "id": "phase-out-discontinue",
+          "expression": "phase out",
+          "senseKo": "단계적으로 사용을 중단하다",
+          "kind": "phrasal",
+          "pattern": "phase out + 대상 / phase + 목적어 + out; 대명사는 가운데",
+          "priorityGroup": "change",
+          "selectionReason": "정책·기술 전환에서 점진적 폐지를 읽기",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/phase-out"
+          ]
+        },
+        {
+          "id": "turn-out-prove",
+          "expression": "turn out",
+          "senseKo": "결국 ~임이 밝혀지다",
+          "kind": "phrasal",
+          "pattern": "대상 + turn out to be + 보어; it + turn out + that절",
+          "priorityGroup": "change",
+          "selectionReason": "단순 회전·외출과 다른 판명 결과",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/turn-out"
+          ]
+        },
+        {
+          "id": "come-about-happen",
+          "expression": "come about",
+          "senseKo": "일이 생기다",
+          "kind": "phrasal",
+          "pattern": "사건·변화 + come about; 직접 목적어 없음",
+          "priorityGroup": "change",
+          "selectionReason": "bring about과 발생·유발의 주체 구별",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/come-about?q=come-about_1"
+          ]
+        },
+        {
+          "id": "carry-on-continue",
+          "expression": "carry on",
+          "senseKo": "하던 일을 계속하다",
+          "kind": "phrasal",
+          "pattern": "carry on / carry on + -ing / carry on with + 일",
+          "priorityGroup": "constraint",
+          "selectionReason": "수행 carry out과 구별할 지속의 뜻",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/carry-on"
+          ]
+        },
+        {
+          "id": "keep-up-with-match",
+          "expression": "keep up with",
+          "senseKo": "속도·수준을 따라가다",
+          "kind": "phrasal",
+          "pattern": "keep up with + 사람·변화·수요",
+          "priorityGroup": "constraint",
+          "selectionReason": "변화·수요와 진도가 맞는지 읽기",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/keep-up-with"
+          ]
+        },
+        {
+          "id": "hold-back-hinder",
+          "expression": "hold back",
+          "senseKo": "발전·진행을 억제하다",
+          "kind": "phrasal",
+          "pattern": "hold back + 대상 / hold + 목적어 + back; 대명사는 가운데",
+          "priorityGroup": "constraint",
+          "selectionReason": "성장·행동의 제한 요인을 읽기",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 1,
+              "locations": [
+                {
+                  "id": "motherTongue:10:prev:17:5:hold back:hold back",
+                  "set": 10,
+                  "exercise": 17,
+                  "scope": "prev",
+                  "head": "hold back",
+                  "meaning": "기다리다, 저지하다, 비밀로 하다"
+                }
+              ]
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/hold-back"
+          ]
+        },
+        {
+          "id": "cut-down-on-reduce",
+          "expression": "cut down on",
+          "senseKo": "사용·소비를 줄이다",
+          "kind": "phrasal",
+          "pattern": "cut down on + 줄일 대상(명사/-ing)",
+          "priorityGroup": "constraint",
+          "selectionReason": "정도·자원 사용을 낮추는 결합",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/cut-down"
+          ]
+        },
+        {
+          "id": "run-out-of-exhaust",
+          "expression": "run out of",
+          "senseKo": "~을 다 써서 없게 되다",
+          "kind": "phrasal",
+          "pattern": "사용 주체 + run out of + 자원; 자원 + run out",
+          "priorityGroup": "constraint",
+          "selectionReason": "고갈된 자원과 사용하는 주체의 위치 구별",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/run-out"
+          ]
+        },
+        {
+          "id": "fall-short-of-insufficient",
+          "expression": "fall short of",
+          "senseKo": "기대·기준에 못 미치다",
+          "kind": "multiword",
+          "pattern": "결과 + fall short of + 기대·기준",
+          "priorityGroup": "constraint",
+          "selectionReason": "성취가 기준에 미달하는 평가 관계",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/fall-short"
+          ]
+        },
+        {
+          "id": "fall-behind-lag",
+          "expression": "fall behind",
+          "senseKo": "진도·진행에서 뒤처지다",
+          "kind": "phrasal",
+          "pattern": "fall behind / fall behind + 비교 대상·schedule / fall behind in + 영역",
+          "priorityGroup": "constraint",
+          "selectionReason": "물리적 위치를 넘어 진행 속도 차이를 읽기",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 1,
+              "locations": [
+                {
+                  "id": "motherTongue:14:prev:25:9:fall behind:fall behind",
+                  "set": 14,
+                  "exercise": 25,
+                  "scope": "prev",
+                  "head": "fall behind",
+                  "meaning": "뒤처지다, 늦어지다"
+                }
+              ]
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/fall-behind"
+          ],
+          "notes": "behind의 기능은 문형에 따라 달라짐. 직접 목적어 없이 쓰는 fall behind를 기준으로 phrasal로 분류."
+        },
+        {
+          "id": "get-over-recover",
+          "expression": "get over",
+          "senseKo": "충격·질병에서 회복하다",
+          "kind": "prepositional",
+          "pattern": "get over + 충격·질병",
+          "priorityGroup": "constraint",
+          "selectionReason": "넘어가는 이동이 아닌 회복 뜻을 선정",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/get-over"
+          ]
+        },
+        {
+          "id": "put-up-with-tolerate",
+          "expression": "put up with",
+          "senseKo": "불쾌한 일·상대를 참다",
+          "kind": "phrasal",
+          "pattern": "put up with + 사람·상황(명사/-ing)",
+          "priorityGroup": "constraint",
+          "selectionReason": "단어별 해석으로 놓치는 인내 결합",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 1,
+              "locations": [
+                {
+                  "id": "motherTongue:7:2026:4:3:put up with:put up with",
+                  "set": 7,
+                  "exercise": 4,
+                  "scope": "2026",
+                  "head": "put up with",
+                  "meaning": "참다, 견디다"
+                }
+              ]
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/put-up-with?topic=tolerating-and-enduring"
+          ]
+        },
+        {
+          "id": "make-up-invent",
+          "expression": "make up",
+          "senseKo": "이야기·핑계를 지어내다",
+          "kind": "phrasal",
+          "pattern": "make up + 이야기 / make + 목적어 + up; 대명사는 가운데",
+          "priorityGroup": "information",
+          "selectionReason": "구성 뜻과 분리하여 허구·조작 뜻 확립",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "auditedInInventory",
+              "counts": {
+                "targetExact": 0,
+                "targetContains": 0,
+                "headwordClozeUsesConstruction": 0,
+                "exampleOnly": 2,
+                "explanationOnly": 1
+              },
+              "locations": [
+                {
+                  "category": "exampleOnly",
+                  "id": "fable:2:2026:9:7:mind:1",
+                  "set": 2,
+                  "exercise": 9,
+                  "scope": "2026",
+                  "head": "mind",
+                  "meaning": "① 마음, 정신"
+                },
+                {
+                  "category": "exampleOnly",
+                  "id": "fable:2:2026:10:6:true:1",
+                  "set": 2,
+                  "exercise": 10,
+                  "scope": "2026",
+                  "head": "true",
+                  "meaning": "① 사실인, 참인 (↔ false)"
+                },
+                {
+                  "category": "explanationOnly",
+                  "id": "fable:35:2026:6:1:made-up:1",
+                  "set": 35,
+                  "exercise": 6,
+                  "scope": "2026",
+                  "head": "made-up",
+                  "meaning": "① 지어낸, 꾸며 낸"
+                }
+              ]
+            },
+            "motherTongue": {
+              "expressionTargetCards": 1,
+              "locations": [
+                {
+                  "id": "motherTongue:16:2026:7:5:make up:make up",
+                  "set": 16,
+                  "exercise": 7,
+                  "scope": "2026",
+                  "head": "make up",
+                  "meaning": "구성하다, 보충하다"
+                }
+              ]
+            },
+            "inventoryQuery": "make up",
+            "note": "기존 make up 표제는 있으나 마더텅 해당 카드에 지어내다 뜻은 없음."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/make-up"
+          ]
+        },
+        {
+          "id": "take-in-understand",
+          "expression": "take in",
+          "senseKo": "정보·의미를 충분히 이해하다",
+          "kind": "phrasal",
+          "pattern": "take in + 정보 / take + 목적어 + in; 대명사는 가운데",
+          "priorityGroup": "information",
+          "selectionReason": "안으로 들이다를 정보 이해로 확장",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/take-in"
+          ]
+        },
+        {
+          "id": "pick-up-learn",
+          "expression": "pick up",
+          "senseKo": "경험을 통해 자연스럽게 익히다",
+          "kind": "phrasal",
+          "pattern": "pick up + 언어·기술 / pick + 목적어 + up; 대명사는 가운데",
+          "priorityGroup": "information",
+          "selectionReason": "데리러 가기 밖에 빠진 학습 뜻 보강",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 1,
+              "locations": [
+                {
+                  "id": "motherTongue:17:prev:13:2:pick up:pick up",
+                  "set": 17,
+                  "exercise": 13,
+                  "scope": "prev",
+                  "head": "pick up",
+                  "meaning": "데리러 가다, 들고 오다"
+                }
+              ]
+            },
+            "note": "마더텅의 데리러 가다·들고 오다 표제 등재는 이번 자연 습득 뜻의 기학습 증거가 아님."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/pick-up?q=pick-up_1"
+          ]
+        },
+        {
+          "id": "bring-up-mention",
+          "expression": "bring up",
+          "senseKo": "화제를 꺼내다",
+          "kind": "phrasal",
+          "pattern": "bring up + 화제 / bring + 목적어 + up; 대명사는 가운데",
+          "priorityGroup": "information",
+          "selectionReason": "대화·논의에서 문제를 제기하는 기능",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/bring-up"
+          ]
+        },
+        {
+          "id": "turn-down-reject",
+          "expression": "turn down",
+          "senseKo": "제안·요청을 거절하다",
+          "kind": "phrasal",
+          "pattern": "turn down + 제안 / turn + 목적어 + down; 대명사는 가운데",
+          "priorityGroup": "information",
+          "selectionReason": "음량 낮추기와 섞인 기존 의미를 분리",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "auditedInInventory",
+              "counts": {
+                "targetExact": 0,
+                "targetContains": 0,
+                "headwordClozeUsesConstruction": 0,
+                "exampleOnly": 2,
+                "explanationOnly": 0
+              },
+              "locations": [
+                {
+                  "category": "exampleOnly",
+                  "id": "fable:42:2026:7:5:brightness:1",
+                  "set": 42,
+                  "exercise": 7,
+                  "scope": "2026",
+                  "head": "brightness",
+                  "meaning": "① 밝기"
+                },
+                {
+                  "category": "exampleOnly",
+                  "id": "fable:43:2026:5:6:politely:1",
+                  "set": 43,
+                  "exercise": 5,
+                  "scope": "2026",
+                  "head": "politely",
+                  "meaning": "① 공손하게, 예의 바르게"
+                }
+              ]
+            },
+            "motherTongue": {
+              "expressionTargetCards": 1,
+              "locations": [
+                {
+                  "id": "motherTongue:4:prev:7:8:turn down:turn down",
+                  "set": 4,
+                  "exercise": 7,
+                  "scope": "prev",
+                  "head": "turn down",
+                  "meaning": "낮추다, 거절하다"
+                }
+              ]
+            },
+            "inventoryQuery": "turn down",
+            "note": "마더텅 낮추다·거절하다 합친 카드에서 거절 뜻을 분리."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/turn-down"
+          ]
+        },
+        {
+          "id": "sort-out-resolve",
+          "expression": "sort out",
+          "senseKo": "문제·혼란을 정리해 해결하다",
+          "kind": "phrasal",
+          "pattern": "sort out + 문제·혼란 / sort + 목적어 + out; 대명사는 가운데",
+          "priorityGroup": "information",
+          "selectionReason": "여럿 중 선별하는 뜻보다 문제 해결 뜻을 우선",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 1,
+              "locations": [
+                {
+                  "id": "motherTongue:4:prev:15:8:sort out:sort out",
+                  "set": 4,
+                  "exercise": 15,
+                  "scope": "prev",
+                  "head": "sort out",
+                  "meaning": "(문제를) 해결하다, 선별하다"
+                }
+              ]
+            },
+            "note": "마더텅 문제 해결·선별을 묶은 카드에서 문제 해결 뜻을 우선 선택."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/sort-out"
+          ]
+        },
+        {
+          "id": "set-out-explain",
+          "expression": "set out",
+          "senseKo": "내용을 체계적으로 제시하다",
+          "kind": "phrasal",
+          "pattern": "set out + 내용 / set + 목적어 + out; 대명사는 가운데",
+          "priorityGroup": "information",
+          "selectionReason": "출발하다 외에 글·주장의 제시 뜻",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/set-out"
+          ]
+        },
+        {
+          "id": "stand-out-notice",
+          "expression": "stand out",
+          "senseKo": "눈에 띄다",
+          "kind": "phrasal",
+          "pattern": "대상 + stand out; stand out from/against + 비교 대상·배경",
+          "priorityGroup": "information",
+          "selectionReason": "뛰어나다로만 고정하지 않고 주목성 확립",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 3,
+              "locations": [
+                {
+                  "id": "motherTongue:8:2026:2:3:stand out:stand out",
+                  "set": 8,
+                  "exercise": 2,
+                  "scope": "2026",
+                  "head": "stand out",
+                  "meaning": "두드러지다, 뛰어나다"
+                },
+                {
+                  "id": "motherTongue:11:prev:45:5:stand out:stand out",
+                  "set": 11,
+                  "exercise": 45,
+                  "scope": "prev",
+                  "head": "stand out",
+                  "meaning": "두드러지다, 눈에 띄다"
+                },
+                {
+                  "id": "motherTongue:17:2026:1:2:stand out:stand out",
+                  "set": 17,
+                  "exercise": 1,
+                  "scope": "2026",
+                  "head": "stand out",
+                  "meaning": "두드러지다, 눈에 띄다"
+                }
+              ]
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/stand-out"
+          ]
+        },
+        {
+          "id": "go-over-examine",
+          "expression": "go over",
+          "senseKo": "세부를 꼼꼼히 검토하다",
+          "kind": "prepositional",
+          "pattern": "go over + 검토 대상",
+          "priorityGroup": "information",
+          "selectionReason": "이동이 아닌 재검토 과정을 읽기",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/go-over"
+          ]
+        },
+        {
+          "id": "fit-in-with-compatible",
+          "expression": "fit in with",
+          "senseKo": "~와 조화를 이루다",
+          "kind": "phrasal",
+          "pattern": "fit in with + 사람·집단·상황",
+          "priorityGroup": "extension",
+          "selectionReason": "기존 fit in을 관계 대상까지 읽도록 확장",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": [],
+              "relatedTarget": {
+                "expression": "fit in",
+                "locations": [
+                  {
+                    "id": "motherTongue:5:2026:6:4:fit in:fit in",
+                    "set": 5,
+                    "exercise": 6,
+                    "scope": "2026",
+                    "head": "fit in",
+                    "meaning": "어울리다, 조화되다"
+                  }
+                ],
+                "note": "with까지 포함한 완성 표현 표제는 아님"
+              }
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/fit-in"
+          ]
+        },
+        {
+          "id": "refer-to-consult",
+          "expression": "refer to",
+          "senseKo": "자료를 찾아 참조하다",
+          "kind": "prepositional",
+          "pattern": "refer to + 자료",
+          "priorityGroup": "extension",
+          "selectionReason": "언급하다와 다른 자료 확인 행동 구별",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/refer-to?q=refer-sb-sth-to-sb-"
+          ]
+        },
+        {
+          "id": "break-down-divide",
+          "expression": "break down",
+          "senseKo": "작은 부분으로 나누다",
+          "kind": "phrasal",
+          "pattern": "break down + 대상 / break + 목적어 + down + into 부분; 대명사는 가운데",
+          "priorityGroup": "extension",
+          "selectionReason": "기능 실패와 다른 분석·분해 뜻",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/break-down"
+          ]
+        },
+        {
+          "id": "take-on-quality",
+          "expression": "take on",
+          "senseKo": "성질·모습을 띠게 되다",
+          "kind": "phrasal",
+          "pattern": "대상 + take on + 성질·모습",
+          "priorityGroup": "extension",
+          "selectionReason": "책임을 맡는 뜻으로 오독하기 쉬운 변화",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 1,
+              "locations": [
+                {
+                  "id": "motherTongue:16:prev:8:2:take on:take on",
+                  "set": 16,
+                  "exercise": 8,
+                  "scope": "prev",
+                  "head": "take on",
+                  "meaning": "다루다, 떠맡다"
+                }
+              ]
+            },
+            "note": "마더텅 다루다·떠맡다는 이번 성질을 띠다 뜻의 기학습 증거가 아님."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/take-on"
+          ]
+        },
+        {
+          "id": "relate-to-connect",
+          "expression": "relate to",
+          "senseKo": "~와 관련되다",
+          "kind": "prepositional",
+          "pattern": "relate to + 관련 대상",
+          "priorityGroup": "extension",
+          "selectionReason": "대상 간 관련성을 표시하는 기본 결합",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/relate-to"
+          ]
+        },
+        {
+          "id": "make-up-complete",
+          "expression": "make up",
+          "senseKo": "부족한 양을 채우다",
+          "kind": "phrasal",
+          "pattern": "make up + 차이·부족분 / make + 목적어 + up; 대명사는 가운데",
+          "priorityGroup": "extension",
+          "selectionReason": "기존 보충 뜻을 구성·지어내기와 구별",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "auditedInInventory",
+              "counts": {
+                "targetExact": 0,
+                "targetContains": 0,
+                "headwordClozeUsesConstruction": 0,
+                "exampleOnly": 2,
+                "explanationOnly": 1
+              },
+              "locations": [
+                {
+                  "category": "exampleOnly",
+                  "id": "fable:2:2026:9:7:mind:1",
+                  "set": 2,
+                  "exercise": 9,
+                  "scope": "2026",
+                  "head": "mind",
+                  "meaning": "① 마음, 정신"
+                },
+                {
+                  "category": "exampleOnly",
+                  "id": "fable:2:2026:10:6:true:1",
+                  "set": 2,
+                  "exercise": 10,
+                  "scope": "2026",
+                  "head": "true",
+                  "meaning": "① 사실인, 참인 (↔ false)"
+                },
+                {
+                  "category": "explanationOnly",
+                  "id": "fable:35:2026:6:1:made-up:1",
+                  "set": 35,
+                  "exercise": 6,
+                  "scope": "2026",
+                  "head": "made-up",
+                  "meaning": "① 지어낸, 꾸며 낸"
+                }
+              ]
+            },
+            "motherTongue": {
+              "expressionTargetCards": 1,
+              "locations": [
+                {
+                  "id": "motherTongue:16:2026:7:5:make up:make up",
+                  "set": 16,
+                  "exercise": 7,
+                  "scope": "2026",
+                  "head": "make up",
+                  "meaning": "구성하다, 보충하다"
+                }
+              ]
+            },
+            "inventoryQuery": "make up",
+            "note": "마더텅 한 카드의 구성하다·보충하다 중 부족분 보충을 별도 의미로 편성."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/make-up"
+          ]
+        },
+        {
+          "id": "appeal-to-attract",
+          "expression": "appeal to",
+          "senseKo": "~의 흥미를 끌다",
+          "kind": "prepositional",
+          "pattern": "매력을 가진 대상 + appeal to + 사람",
+          "priorityGroup": "extension",
+          "selectionReason": "요청·호소로만 읽으면 주객관계가 바뀌는 뜻",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/appeal?q=appeal_2"
+          ]
+        },
+        {
+          "id": "take-over-control",
+          "expression": "take over",
+          "senseKo": "관리·지배를 넘겨받다",
+          "kind": "phrasal",
+          "pattern": "take over / take over + 대상 / take + 목적어 + over; 대명사는 가운데",
+          "priorityGroup": "extension",
+          "selectionReason": "주도권·관리 주체가 바뀌는 관계",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/take-over"
+          ]
+        },
+        {
+          "id": "deal-with-topic",
+          "expression": "deal with",
+          "senseKo": "글·작품이 ~을 다루다",
+          "kind": "prepositional",
+          "pattern": "글·작품 + deal with + 주제",
+          "priorityGroup": "extension",
+          "selectionReason": "문제 대처와 다른 내용·주제 관계",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/deal-with"
+          ]
+        },
+        {
+          "id": "turn-out-produce",
+          "expression": "turn out",
+          "senseKo": "제품 등을 생산해 내다",
+          "kind": "phrasal",
+          "pattern": "turn out + 생산물 / turn + 목적어 + out; 대명사는 가운데",
+          "priorityGroup": "extension",
+          "selectionReason": "판명되다와 다른 타동사 생산 뜻",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/turn-out"
+          ]
+        },
+        {
+          "id": "respond-to-react",
+          "expression": "respond to",
+          "senseKo": "자극·상황에 반응하다",
+          "kind": "prepositional",
+          "pattern": "반응 주체 + respond to + 자극·상황",
+          "priorityGroup": "extension",
+          "selectionReason": "실험·행동 설명의 반응 대상 파악",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/respond"
+          ]
+        },
+        {
+          "id": "pay-off-reward",
+          "expression": "pay off",
+          "senseKo": "노력이 성과를 내다",
+          "kind": "phrasal",
+          "pattern": "노력·계획 + pay off; 직접 목적어 없음",
+          "priorityGroup": "extension",
+          "selectionReason": "돈을 지불하는 뜻과 다른 노력의 결실",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 1,
+              "locations": [
+                {
+                  "id": "motherTongue:5:2026:5:4:pay off:pay off",
+                  "set": 5,
+                  "exercise": 5,
+                  "scope": "2026",
+                  "head": "pay off",
+                  "meaning": "보상이 따르다"
+                }
+              ]
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/pay-off?topic=borrowing-lending"
+          ]
+        },
+        {
+          "id": "call-for-require",
+          "expression": "call for",
+          "senseKo": "상황·과업이 ~을 필요로 하다",
+          "kind": "prepositional",
+          "pattern": "상황·과업 + call for + 필요한 행동·능력",
+          "priorityGroup": "extension",
+          "selectionReason": "사람이 부르는 뜻과 다른 필요 조건",
+          "existingEvidence": {
+            "inventoryFile": "multiword-inventory.json",
+            "fable": {
+              "expressionTargetCards": 0,
+              "constructionAudit": "notAuditedForThisExpression"
+            },
+            "motherTongue": {
+              "expressionTargetCards": 0,
+              "locations": []
+            },
+            "note": "표현 등재와 현재 선정한 뜻의 학습 여부는 같지 않음. 상세 근거는 원 인벤토리 참조."
+          },
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/call-for"
+          ]
+        }
+      ],
+      "stage": "선정 완료·카드 작성 전"
+    }
+  ],
+  "sourceReferences": [
+    "https://www.norbertschmitt.co.uk/_files/ugd/5f2482_d8db13bba81943958d4a4ae1a870d780.pdf"
+  ],
+  "inventoryFile": "review-20260919/구동사전치사-기존등재조사.json",
+  "organizationNote": "48~50을 48로 통합. 예정 전치사·동사 결합은 49·50으로 이동. 카드 내용·학습 순서·게임 방식은 그대로."
+}
