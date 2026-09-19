@@ -1,0 +1,5615 @@
+{
+  "baseline": "Published Mother Tongue pronunciation edition, before Fable UI transfer",
+  "dataSha256": "3a8b01d1d9163af053408752dd812476df53e37bfc76d3eae487c7f029022719",
+  "pronunciationSha256": "0ae2b7a09b04a4374985e24289f9f47e42ed211badd75772946c1868deaab57e",
+  "storage": {
+    "STORAGE": "goyang-seoul-v1",
+    "MODEKEY": "goyang-mode-v1",
+    "UNIKEY": "goyang-uni-v1"
+  },
+  "functions": {
+    "buildLessons": "6ffa8262085f20003d62897d28dd9cf0c2a3769bd5d25a558659b13af80bd286",
+    "visEx": "ca2c4fceaae3a35d87fcf2563e000cc1260bc941a9172bf534cada42b57550d7",
+    "nextLessonIndex": "b1b793d1f83d7c3122045b7cfb6b8efcdbea75a401480788f2f014a079cb394b",
+    "loadProgress": "207e01fa91a2d0008bce96f295d5b994ba52e9bd0b2280aaa2fc5d6dea3deda0",
+    "saveProgress": "b40024035ea84d1e2cc7314c30e213bebbf958320b792294555dd41de661eaa2",
+    "getRec": "1aa8d6dfc6365e558f8e4000a5c788db47cf6b4f98d9fc3918a2f20d40ee4dfd",
+    "setRec": "5bf1580e0cde91b0421a2623a7c966a78a8cb8aad40f3f24384e6f60f3a7c5c4",
+    "totalExercises": "714f2447f3b288eaec96346fae6082e8ed725bfee93262a23e56b9fc941f2d81",
+    "clearedExercises": "f7b54634f4543b4cff6ba50821d21b57412c412455b859052f53804185264496",
+    "limitFor": "347079908e4529ae74918845587e6480a5f2db8366512997926c200a2ce76894",
+    "normalize": "441851bf3c9980e73493af7e1c33057cd797837121eeddf9aabc45d5339f5566",
+    "isCorrect": "b8148e1ee96f81c05028c4660ee35ed6aa1e784f2c474293298b3a95a3756c21",
+    "variantKey": "18a5c5a3549a0b92c0d02d65a96a1f7d34f5e8f006be1790adc98eee7342d57f",
+    "isSpellingVariant": "397108660da93ae85e7f77d46375de717b10b768b65faf76f67d903bd4649b6a",
+    "startRound": "3edbdde955e4ad5a8f7445cd7c3efb2325979f48c6c767b9f055d79645ab7afe",
+    "applyCorrect": "d1ebb46970acaa716dbc9ca024a5abe19dbc0466f2e11fd61e97ce2b8be15b80",
+    "applyWrong": "75b6e1a909920a65b3b6e3e215eb46f74c969c7b57c411e8349b06a6d9aa4481",
+    "defer": "77542621cfb1801ed0321aa0897ca72571697cba2e846dd20dd14622d38d7fe9",
+    "remain": "db1f7c09b562c4759ed047f1c6a6c406f39b1c577ee9a3d9a1fc6394fa26701c",
+    "roundDone": "8613b806d896c4684bdd298f3dd0533620589e7bb1831fa3f18c516c0ac69071",
+    "startTicker": "4cb0c7e2ae952548d6479a0037eafab8230b21795bfc5a9515cb9afff5092d9d",
+    "stopTicker": "433d7a456ba29374dd040582651e610d23a83058a387e3d4585c34bd10dd465d"
+  },
+  "progressKeys": [
+    {
+      "id": "01강",
+      "exercises": [
+        {
+          "title": "Exercise 1",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 2",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 3",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 4",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 5",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 6",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 7",
+          "scope": "2026"
+        },
+        {
+          "title": "이전기출 1",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 2",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 3",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 4",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 5",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 6",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 7",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 8",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 9",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 10",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 11",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 12",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 13",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 14",
+          "scope": "prev"
+        }
+      ]
+    },
+    {
+      "id": "02강",
+      "exercises": [
+        {
+          "title": "Exercise 1",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 2",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 3",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 4",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 5",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 6",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 7",
+          "scope": "2026"
+        },
+        {
+          "title": "이전기출 1",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 2",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 3",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 4",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 5",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 6",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 7",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 8",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 9",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 10",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 11",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 12",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 13",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 14",
+          "scope": "prev"
+        }
+      ]
+    },
+    {
+      "id": "03강",
+      "exercises": [
+        {
+          "title": "Exercise 1",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 2",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 3",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 4",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 5",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 6",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 7",
+          "scope": "2026"
+        },
+        {
+          "title": "이전기출 1",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 2",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 3",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 4",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 5",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 6",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 7",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 8",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 9",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 10",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 11",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 12",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 13",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 14",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 15",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 16",
+          "scope": "prev"
+        }
+      ]
+    },
+    {
+      "id": "04강",
+      "exercises": [
+        {
+          "title": "Exercise 1",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 2",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 3",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 4",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 5",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 6",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 7",
+          "scope": "2026"
+        },
+        {
+          "title": "이전기출 1",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 2",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 3",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 4",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 5",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 6",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 7",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 8",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 9",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 10",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 11",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 12",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 13",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 14",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 15",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 16",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 17",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 18",
+          "scope": "prev"
+        }
+      ]
+    },
+    {
+      "id": "05강",
+      "exercises": [
+        {
+          "title": "Exercise 1",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 2",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 3",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 4",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 5",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 6",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 7",
+          "scope": "2026"
+        },
+        {
+          "title": "이전기출 1",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 2",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 3",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 4",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 5",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 6",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 7",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 8",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 9",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 10",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 11",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 12",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 13",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 14",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 15",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 16",
+          "scope": "prev"
+        }
+      ]
+    },
+    {
+      "id": "06강",
+      "exercises": [
+        {
+          "title": "Exercise 1",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 2",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 3",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 4",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 5",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 6",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 7",
+          "scope": "2026"
+        },
+        {
+          "title": "이전기출 1",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 2",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 3",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 4",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 5",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 6",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 7",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 8",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 9",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 10",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 11",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 12",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 13",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 14",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 15",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 16",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 17",
+          "scope": "prev"
+        }
+      ]
+    },
+    {
+      "id": "07강",
+      "exercises": [
+        {
+          "title": "Exercise 1",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 2",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 3",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 4",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 5",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 6",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 7",
+          "scope": "2026"
+        },
+        {
+          "title": "이전기출 1",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 2",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 3",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 4",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 5",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 6",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 7",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 8",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 9",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 10",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 11",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 12",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 13",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 14",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 15",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 16",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 17",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 18",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 19",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 20",
+          "scope": "prev"
+        }
+      ]
+    },
+    {
+      "id": "08강",
+      "exercises": [
+        {
+          "title": "Exercise 1",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 2",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 3",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 4",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 5",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 6",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 7",
+          "scope": "2026"
+        },
+        {
+          "title": "이전기출 1",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 2",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 3",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 4",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 5",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 6",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 7",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 8",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 9",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 10",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 11",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 12",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 13",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 14",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 15",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 16",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 17",
+          "scope": "prev"
+        }
+      ]
+    },
+    {
+      "id": "09강",
+      "exercises": [
+        {
+          "title": "Exercise 1",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 2",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 3",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 4",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 5",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 6",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 7",
+          "scope": "2026"
+        },
+        {
+          "title": "이전기출 1",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 2",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 3",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 4",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 5",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 6",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 7",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 8",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 9",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 10",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 11",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 12",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 13",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 14",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 15",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 16",
+          "scope": "prev"
+        }
+      ]
+    },
+    {
+      "id": "10강",
+      "exercises": [
+        {
+          "title": "Exercise 1",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 2",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 3",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 4",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 5",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 6",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 7",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 8",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 9",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 10",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 11",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 12",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 13",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 14",
+          "scope": "2026"
+        },
+        {
+          "title": "이전기출 1",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 2",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 3",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 4",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 5",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 6",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 7",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 8",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 9",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 10",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 11",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 12",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 13",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 14",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 15",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 16",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 17",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 18",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 19",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 20",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 21",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 22",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 23",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 24",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 25",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 26",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 27",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 28",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 29",
+          "scope": "prev"
+        }
+      ]
+    },
+    {
+      "id": "11강",
+      "exercises": [
+        {
+          "title": "Exercise 1",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 2",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 3",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 4",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 5",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 6",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 7",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 8",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 9",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 10",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 11",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 12",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 13",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 14",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 15",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 16",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 17",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 18",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 19",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 20",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 21",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 22",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 23",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 24",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 25",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 26",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 27",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 28",
+          "scope": "2026"
+        },
+        {
+          "title": "이전기출 1",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 2",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 3",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 4",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 5",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 6",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 7",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 8",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 9",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 10",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 11",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 12",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 13",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 14",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 15",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 16",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 17",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 18",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 19",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 20",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 21",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 22",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 23",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 24",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 25",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 26",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 27",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 28",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 29",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 30",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 31",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 32",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 33",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 34",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 35",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 36",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 37",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 38",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 39",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 40",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 41",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 42",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 43",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 44",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 45",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 46",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 47",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 48",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 49",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 50",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 51",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 52",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 53",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 54",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 55",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 56",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 57",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 58",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 59",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 60",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 61",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 62",
+          "scope": "prev"
+        }
+      ]
+    },
+    {
+      "id": "12강",
+      "exercises": [
+        {
+          "title": "Exercise 1",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 2",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 3",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 4",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 5",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 6",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 7",
+          "scope": "2026"
+        },
+        {
+          "title": "이전기출 1",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 2",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 3",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 4",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 5",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 6",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 7",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 8",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 9",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 10",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 11",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 12",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 13",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 14",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 15",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 16",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 17",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 18",
+          "scope": "prev"
+        }
+      ]
+    },
+    {
+      "id": "13강",
+      "exercises": [
+        {
+          "title": "Exercise 1",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 2",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 3",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 4",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 5",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 6",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 7",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 8",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 9",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 10",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 11",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 12",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 13",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 14",
+          "scope": "2026"
+        },
+        {
+          "title": "이전기출 1",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 2",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 3",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 4",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 5",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 6",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 7",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 8",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 9",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 10",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 11",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 12",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 13",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 14",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 15",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 16",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 17",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 18",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 19",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 20",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 21",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 22",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 23",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 24",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 25",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 26",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 27",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 28",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 29",
+          "scope": "prev"
+        }
+      ]
+    },
+    {
+      "id": "14강",
+      "exercises": [
+        {
+          "title": "Exercise 1",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 2",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 3",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 4",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 5",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 6",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 7",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 8",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 9",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 10",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 11",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 12",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 13",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 14",
+          "scope": "2026"
+        },
+        {
+          "title": "이전기출 1",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 2",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 3",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 4",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 5",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 6",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 7",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 8",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 9",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 10",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 11",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 12",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 13",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 14",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 15",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 16",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 17",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 18",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 19",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 20",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 21",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 22",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 23",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 24",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 25",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 26",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 27",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 28",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 29",
+          "scope": "prev"
+        }
+      ]
+    },
+    {
+      "id": "15강",
+      "exercises": [
+        {
+          "title": "Exercise 1",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 2",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 3",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 4",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 5",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 6",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 7",
+          "scope": "2026"
+        },
+        {
+          "title": "이전기출 1",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 2",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 3",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 4",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 5",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 6",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 7",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 8",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 9",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 10",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 11",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 12",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 13",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 14",
+          "scope": "prev"
+        }
+      ]
+    },
+    {
+      "id": "16강",
+      "exercises": [
+        {
+          "title": "Exercise 1",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 2",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 3",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 4",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 5",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 6",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 7",
+          "scope": "2026"
+        },
+        {
+          "title": "이전기출 1",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 2",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 3",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 4",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 5",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 6",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 7",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 8",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 9",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 10",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 11",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 12",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 13",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 14",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 15",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 16",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 17",
+          "scope": "prev"
+        }
+      ]
+    },
+    {
+      "id": "17강",
+      "exercises": [
+        {
+          "title": "Exercise 1",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 2",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 3",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 4",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 5",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 6",
+          "scope": "2026"
+        },
+        {
+          "title": "Exercise 7",
+          "scope": "2026"
+        },
+        {
+          "title": "이전기출 1",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 2",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 3",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 4",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 5",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 6",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 7",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 8",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 9",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 10",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 11",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 12",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 13",
+          "scope": "prev"
+        },
+        {
+          "title": "이전기출 14",
+          "scope": "prev"
+        }
+      ]
+    }
+  ],
+  "qaCases": [
+    {
+      "term": "flextime (working)",
+      "ko": "유연 근무, 근무 시간 자유 선택제",
+      "lesson": 1,
+      "exercise": 13,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "flextime (working)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "flextime working",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "flextimeworking",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "FLEXTIME (WORKING)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "flextime(working)",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "flextime",
+          "quiz": false,
+          "copy": false,
+          "path": "parenthetical-omitted"
+        }
+      ]
+    },
+    {
+      "term": "glow of the (setting) sun",
+      "ko": "노을",
+      "lesson": 2,
+      "exercise": 4,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "glow of the (setting) sun",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "glow of the setting sun",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "glowofthesettingsun",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "GLOW OF THE (SETTING) SUN",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "glowofthe(setting)sun",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "glow of the (zetting) zun",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "glow of the  sun",
+          "quiz": false,
+          "copy": false,
+          "path": "parenthetical-omitted"
+        }
+      ]
+    },
+    {
+      "term": "see the light (of day)",
+      "ko": "세상에 나오다, 태어나다",
+      "lesson": 2,
+      "exercise": 14,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "see the light (of day)",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "see the light of day",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "seethelightofday",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "SEE THE LIGHT (OF DAY)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "seethelight(ofday)",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "zee the light (of day)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "see the light",
+          "quiz": false,
+          "copy": false,
+          "path": "parenthetical-omitted"
+        }
+      ]
+    },
+    {
+      "term": "pathway(=path)",
+      "ko": "길, 경로",
+      "lesson": 3,
+      "exercise": 11,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "pathway(=path)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "pathway =path",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "pathway=path",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "PATHWAY(=PATH)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "pathway",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "path",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "pathway(path)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "smart(=smartly)",
+      "ko": "영리하게, 재빨리",
+      "lesson": 3,
+      "exercise": 14,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "smart(=smartly)",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "smart =smartly",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "smart=smartly",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "SMART(=SMARTLY)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "zmart(=zmartly)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "smart",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "smartly",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "smart(smartly)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "at the top of one’s game",
+      "ko": "최고 기량을 보여 주는, 기량이 최고인",
+      "lesson": 4,
+      "exercise": 3,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "at the top of one’s game",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "at the top of ones game",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "atthetopofonesgame",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "AT THE TOP OF ONE’S GAME",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "atthetopofone’sgame",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "at the top of one’z game",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        }
+      ]
+    },
+    {
+      "term": "modularise (=modularize)",
+      "ko": "모듈화하다, 모듈 방식으로 하다",
+      "lesson": 4,
+      "exercise": 7,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "modularise (=modularize)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "modularise =modularize",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "modularise=modularize",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "MODULARISE (=MODULARIZE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "modularise(=modularize)",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "modularise (=modularise)",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "modularize (=modularize)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "modularise",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "modularize",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "modularise (modularize)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "commoditise (=commoditize)",
+      "ko": "상품화하다",
+      "lesson": 4,
+      "exercise": 7,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "commoditise (=commoditize)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "commoditise =commoditize",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "commoditise=commoditize",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "COMMODITISE (=COMMODITIZE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "commoditise(=commoditize)",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "commoditise (=commoditise)",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "commoditize (=commoditize)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "commoditise",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "commoditize",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "commoditise (commoditize)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "standardise (=standardize)",
+      "ko": "표준화하다",
+      "lesson": 4,
+      "exercise": 7,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "standardise (=standardize)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "standardise =standardize",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "standardise=standardize",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "STANDARDISE (=STANDARDIZE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "standardise(=standardize)",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "standardise (=standardise)",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "ztandardize (=ztandardize)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "standardise",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "standardize",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "standardise (standardize)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "maximise(=maximize)",
+      "ko": "극대화하다",
+      "lesson": 6,
+      "exercise": 13,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "maximise(=maximize)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "maximise =maximize",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "maximise=maximize",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "MAXIMISE(=MAXIMIZE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "maximise(=maximise)",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "maximize(=maximize)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "maximise",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "maximize",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "maximise(maximize)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "emphasise(=emphasize)",
+      "ko": "강조하다",
+      "lesson": 6,
+      "exercise": 15,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "emphasise(=emphasize)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "emphasise =emphasize",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "emphasise=emphasize",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "EMPHASISE(=EMPHASIZE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "emphasise(=emphasise)",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "emphazize(=emphazize)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "emphasise",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "emphasize",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "emphasise(emphasize)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "modernise(=modernize)",
+      "ko": "현대화하다",
+      "lesson": 6,
+      "exercise": 15,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "modernise(=modernize)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "modernise =modernize",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "modernise=modernize",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "MODERNISE(=MODERNIZE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "modernise(=modernise)",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "modernize(=modernize)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "modernise",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "modernize",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "modernise(modernize)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "prioritise(=prioritize)",
+      "ko": "우선시하다, 우선순위를 매기다",
+      "lesson": 6,
+      "exercise": 15,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "prioritise(=prioritize)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "prioritise =prioritize",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "prioritise=prioritize",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "PRIORITISE(=PRIORITIZE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "prioritise(=prioritise)",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "prioritize(=prioritize)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "prioritise",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "prioritize",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "prioritise(prioritize)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "modernisation(=modernization)",
+      "ko": "현대화, 근대화",
+      "lesson": 6,
+      "exercise": 15,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "modernisation(=modernization)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "modernisation =modernization",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "modernisation=modernization",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "MODERNISATION(=MODERNIZATION)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "modernisation(=modernisation)",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "modernization(=modernization)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "modernisation",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "modernization",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "modernisation(modernization)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "specialised(=specialized)",
+      "ko": "전문화된",
+      "lesson": 7,
+      "exercise": 5,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "specialised(=specialized)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "specialised =specialized",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "specialised=specialized",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "SPECIALISED(=SPECIALIZED)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "specialised(=specialised)",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "zpecialized(=zpecialized)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "specialised",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "specialized",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "specialised(specialized)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "sheep dog(=sheepdog)",
+      "ko": "양몰이 개, 양치기 개",
+      "lesson": 7,
+      "exercise": 6,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "sheep dog(=sheepdog)",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "sheep dog =sheepdog",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "sheepdog=sheepdog",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "SHEEP DOG(=SHEEPDOG)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "sheepdog(=sheepdog)",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "zheep dog(=zheepdog)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "sheep dog",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "sheepdog",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "sheep dog(sheepdog)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "(percentage) share",
+      "ko": "점유율",
+      "lesson": 8,
+      "exercise": 2,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "(percentage) share",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "percentage share",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "percentageshare",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "(PERCENTAGE) SHARE",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "(percentage)share",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "(percentage) zhare",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "share",
+          "quiz": false,
+          "copy": false,
+          "path": "parenthetical-omitted"
+        }
+      ]
+    },
+    {
+      "term": "virtual reality(=VR)",
+      "ko": "가상 현실",
+      "lesson": 8,
+      "exercise": 12,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "virtual reality(=VR)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "virtual reality =vr",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "virtualreality=vr",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "VIRTUAL REALITY(=VR)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "virtualreality(=VR)",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "virtual reality",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "VR",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "virtual reality(VR)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "augmented reality(=AR)",
+      "ko": "증강 현실",
+      "lesson": 8,
+      "exercise": 12,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "augmented reality(=AR)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "augmented reality =ar",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "augmentedreality=ar",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "AUGMENTED REALITY(=AR)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "augmentedreality(=AR)",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "augmented reality",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "AR",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "augmented reality(AR)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "master’s degree",
+      "ko": "석사 학위",
+      "lesson": 9,
+      "exercise": 3,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "master’s degree",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "masters degree",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "mastersdegree",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "MASTER’S DEGREE",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "master’sdegree",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "mazter’z degree",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        }
+      ]
+    },
+    {
+      "term": "lab(=laboratory)",
+      "ko": "실험실",
+      "lesson": 10,
+      "exercise": 6,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "lab(=laboratory)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "lab =laboratory",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "lab=laboratory",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "LAB(=LABORATORY)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "lab",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "laboratory",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "lab(laboratory)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "paralyse(=paralyze)",
+      "ko": "마비시키다",
+      "lesson": 11,
+      "exercise": 4,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "paralyse(=paralyze)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "paralyse =paralyze",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "paralyse=paralyze",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "PARALYSE(=PARALYZE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "paralyse(=paralyse)",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "paralyze(=paralyze)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "paralyse",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "paralyze",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "paralyse(paralyze)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "harbour(=harbor)",
+      "ko": "(감정 등을) 품다, 숨겨 주다, (세균 등의) 온상이다 / 항구",
+      "lesson": 11,
+      "exercise": 5,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "harbour(=harbor)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "harbour =harbor",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "harbour=harbor",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "HARBOUR(=HARBOR)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "harbour",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "harbor",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "harbour(harbor)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "hypothesise(=hypothesize)",
+      "ko": "가정하다, 가설을 세우다",
+      "lesson": 11,
+      "exercise": 7,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "hypothesise(=hypothesize)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "hypothesise =hypothesize",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "hypothesise=hypothesize",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "HYPOTHESISE(=HYPOTHESIZE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "hypothesise(=hypothesise)",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "hypothezize(=hypothezize)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "hypothesise",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "hypothesize",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "hypothesise(hypothesize)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "licence(=license)",
+      "ko": "자유, 면허, 자격",
+      "lesson": 11,
+      "exercise": 5,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "licence(=license)",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "licence =license",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "licence=license",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "LICENCE(=LICENSE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "licence(=licenze)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "licence",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "license",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "licence(license)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "embed(=imbed)",
+      "ko": "끼워 넣다, 깊이 새겨 두다",
+      "lesson": 11,
+      "exercise": 6,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "embed(=imbed)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "embed =imbed",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "embed=imbed",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "EMBED(=IMBED)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "embed",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "imbed",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "embed(imbed)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "craftsman(=craftsperson)",
+      "ko": "장인, 공예가",
+      "lesson": 11,
+      "exercise": 21,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "craftsman(=craftsperson)",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "craftsman =craftsperson",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "craftsman=craftsperson",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "CRAFTSMAN(=CRAFTSPERSON)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "craftzman(=craftzperzon)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "craftsman",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "craftsperson",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "craftsman(craftsperson)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "cliché",
+      "ko": "상투적인 문구",
+      "lesson": 11,
+      "exercise": 30,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "cliché",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "CLICHÉ",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "cliche",
+          "quiz": false,
+          "copy": false,
+          "path": "unaccented"
+        }
+      ]
+    },
+    {
+      "term": "internalise(=internalize)",
+      "ko": "내면화하다",
+      "lesson": 11,
+      "exercise": 43,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "internalise(=internalize)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "internalise =internalize",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "internalise=internalize",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "INTERNALISE(=INTERNALIZE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "internalise(=internalise)",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "internalize(=internalize)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "internalise",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "internalize",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "internalise(internalize)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "utilise(=utilize)",
+      "ko": "이용하다, 활용하다",
+      "lesson": 11,
+      "exercise": 61,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "utilise(=utilize)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "utilise =utilize",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "utilise=utilize",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "UTILISE(=UTILIZE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "utilise(=utilise)",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "utilize(=utilize)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "utilise",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "utilize",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "utilise(utilize)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "democratise(=democratize)",
+      "ko": "민주화하다",
+      "lesson": 11,
+      "exercise": 61,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "democratise(=democratize)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "democratise =democratize",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "democratise=democratize",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "DEMOCRATISE(=DEMOCRATIZE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "democratise(=democratise)",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "democratize(=democratize)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "democratise",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "democratize",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "democratise(democratize)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "make/take a decision",
+      "ko": "결정을 내리다",
+      "lesson": 12,
+      "exercise": 3,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "make/take a decision",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "make take a decision",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "maketakeadecision",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "MAKE/TAKE A DECISION",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "maketake a decision",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "make/takeadecision",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "make/take a decizion",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "make a decision",
+          "quiz": false,
+          "copy": false,
+          "path": "slash-first-alternative"
+        },
+        {
+          "input": "take a decision",
+          "quiz": false,
+          "copy": false,
+          "path": "slash-second-alternative"
+        }
+      ]
+    },
+    {
+      "term": "recognise(=recognize)",
+      "ko": "알아보다, 인정하다",
+      "lesson": 13,
+      "exercise": 10,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "recognise(=recognize)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "recognise =recognize",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "recognise=recognize",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "RECOGNISE(=RECOGNIZE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "recognise(=recognise)",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "recognize(=recognize)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "recognise",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "recognize",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "recognise(recognize)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "favourable(=favorable)",
+      "ko": "호의적인",
+      "lesson": 13,
+      "exercise": 6,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "favourable(=favorable)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "favourable =favorable",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "favourable=favorable",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "FAVOURABLE(=FAVORABLE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "favourable",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "favorable",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "favourable(favorable)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "polarise(=polarize)",
+      "ko": "양극화시키다, 양극화되다",
+      "lesson": 13,
+      "exercise": 23,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "polarise(=polarize)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "polarise =polarize",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "polarise=polarize",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "POLARISE(=POLARIZE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "polarise(=polarise)",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "polarize(=polarize)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "polarise",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "polarize",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "polarise(polarize)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "categorise(=categorize)",
+      "ko": "분류하다, 범주에 넣다",
+      "lesson": 14,
+      "exercise": 1,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "categorise(=categorize)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "categorise =categorize",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "categorise=categorize",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "CATEGORISE(=CATEGORIZE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "categorise(=categorise)",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "categorize(=categorize)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "categorise",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "categorize",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "categorise(categorize)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "favour(=favor)",
+      "ko": "지지, 인정",
+      "lesson": 14,
+      "exercise": 7,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "favour(=favor)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "favour =favor",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "favour=favor",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "FAVOUR(=FAVOR)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "favour",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "favor",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "favour(favor)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "disassociate(=dissociate)",
+      "ko": "분리시키다, 분리하여 생각하다",
+      "lesson": 15,
+      "exercise": 4,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "disassociate(=dissociate)",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "disassociate =dissociate",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "disassociate=dissociate",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "DISASSOCIATE(=DISSOCIATE)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "dizazzociate(=dizzociate)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "disassociate",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "dissociate",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "disassociate(dissociate)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "without[beyond] doubt",
+      "ko": "의심할 여지가 없이",
+      "lesson": 15,
+      "exercise": 3,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "without[beyond] doubt",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "without beyond doubt",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "withoutbeyonddoubt",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "WITHOUT[BEYOND] DOUBT",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "without[beyond]doubt",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "without doubt",
+          "quiz": false,
+          "copy": false,
+          "path": "bracket-primary"
+        },
+        {
+          "input": "beyond doubt",
+          "quiz": false,
+          "copy": false,
+          "path": "bracket-alternative"
+        }
+      ]
+    },
+    {
+      "term": "artefact(=artifact)",
+      "ko": "인공물",
+      "lesson": 15,
+      "exercise": 6,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "artefact(=artifact)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "artefact =artifact",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "artefact=artifact",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "ARTEFACT(=ARTIFACT)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "artefact",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "artifact",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "artefact(artifact)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "finding(s)",
+      "ko": "연구 결과(들)",
+      "lesson": 16,
+      "exercise": 14,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "finding(s)",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "finding s",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "findings",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "FINDING(S)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "finding(z)",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "finding",
+          "quiz": false,
+          "copy": false,
+          "path": "parenthetical-omitted"
+        }
+      ]
+    },
+    {
+      "term": "hold one’s breath",
+      "ko": "숨을 참다, 숨을 죽이다",
+      "lesson": 17,
+      "exercise": 5,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "hold one’s breath",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "hold ones breath",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "holdonesbreath",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "HOLD ONE’S BREATH",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "holdone’sbreath",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "hold one’z breath",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        }
+      ]
+    },
+    {
+      "term": "make up one’s mind",
+      "ko": "결심하다",
+      "lesson": 17,
+      "exercise": 6,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "make up one’s mind",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "make up ones mind",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "makeuponesmind",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "MAKE UP ONE’S MIND",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "makeupone’smind",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "make up one’z mind",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        }
+      ]
+    },
+    {
+      "term": "dorm(=dormitory)",
+      "ko": "기숙사",
+      "lesson": 17,
+      "exercise": 3,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "dorm(=dormitory)",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "dorm =dormitory",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "dorm=dormitory",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "DORM(=DORMITORY)",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "dorm",
+          "quiz": false,
+          "copy": false,
+          "path": "primary-only"
+        },
+        {
+          "input": "dormitory",
+          "quiz": false,
+          "copy": false,
+          "path": "alias-only"
+        },
+        {
+          "input": "dorm(dormitory)",
+          "quiz": false,
+          "copy": false,
+          "path": "equals-omitted"
+        }
+      ]
+    },
+    {
+      "term": "(art) gallery",
+      "ko": "미술관",
+      "lesson": 17,
+      "exercise": 4,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "(art) gallery",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "art gallery",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "artgallery",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "(ART) GALLERY",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "(art)gallery",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "gallery",
+          "quiz": false,
+          "copy": false,
+          "path": "parenthetical-omitted"
+        }
+      ]
+    },
+    {
+      "term": "(just) around the corner",
+      "ko": "곧, 임박한, 아주 가까운",
+      "lesson": 17,
+      "exercise": 5,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "(just) around the corner",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "just around the corner",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "justaroundthecorner",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "(JUST) AROUND THE CORNER",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "(just)aroundthecorner",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "(juzt) around the corner",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "around the corner",
+          "quiz": false,
+          "copy": false,
+          "path": "parenthetical-omitted"
+        }
+      ]
+    },
+    {
+      "term": "official",
+      "ko": "직원, 공무원 / 공식적인, 공무상의",
+      "lesson": 1,
+      "exercise": 1,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "official",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "OFFICIAL",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        }
+      ]
+    },
+    {
+      "term": "upcoming",
+      "ko": "다가오는, 곧 있을",
+      "lesson": 1,
+      "exercise": 1,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "upcoming",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "UPCOMING",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        }
+      ]
+    },
+    {
+      "term": "organization",
+      "ko": "단체, 기관, 조직",
+      "lesson": 1,
+      "exercise": 1,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "organization",
+          "quiz": true,
+          "copy": true,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "ORGANIZATION",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "organisation",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        }
+      ]
+    },
+    {
+      "term": "recognize",
+      "ko": "인정하다, 인식하다",
+      "lesson": 3,
+      "exercise": 7,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "recognize",
+          "quiz": true,
+          "copy": true,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "RECOGNIZE",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "recognise",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        }
+      ]
+    },
+    {
+      "term": "prioritize",
+      "ko": "우선순위를 매기다",
+      "lesson": 5,
+      "exercise": 7,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "prioritize",
+          "quiz": true,
+          "copy": true,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "PRIORITIZE",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "prioritise",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        }
+      ]
+    },
+    {
+      "term": "realize",
+      "ko": "깨닫다, 인식하다",
+      "lesson": 7,
+      "exercise": 16,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "realize",
+          "quiz": true,
+          "copy": true,
+          "path": "s-to-z-existing-overbroad-rule"
+        },
+        {
+          "input": "REALIZE",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "realise",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        }
+      ]
+    },
+    {
+      "term": "time-honored",
+      "ko": "전통 있는, 유서 깊은",
+      "lesson": 5,
+      "exercise": 1,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "time-honored",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "time honored",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "timehonored",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "TIME-HONORED",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        }
+      ]
+    },
+    {
+      "term": "well-being",
+      "ko": "행복, 안녕",
+      "lesson": 11,
+      "exercise": 1,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "well-being",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "well being",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "wellbeing",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "WELL-BEING",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        }
+      ]
+    },
+    {
+      "term": "long-term",
+      "ko": "장기적인",
+      "lesson": 13,
+      "exercise": 12,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "long-term",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "long term",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "longterm",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "LONG-TERM",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        }
+      ]
+    },
+    {
+      "term": "carry out",
+      "ko": "수행하다, 실시하다",
+      "lesson": 7,
+      "exercise": 20,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "carry out",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "carryout",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "CARRY OUT",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        }
+      ]
+    },
+    {
+      "term": "wind turbine",
+      "ko": "풍력 발전기",
+      "lesson": 11,
+      "exercise": 24,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "wind turbine",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "windturbine",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "WIND TURBINE",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        }
+      ]
+    },
+    {
+      "term": "read between the lines",
+      "ko": "(숨겨진) 행간을 읽다",
+      "lesson": 4,
+      "exercise": 5,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "read between the lines",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "readbetweenthelines",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "READ BETWEEN THE LINES",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "read between the linez",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        }
+      ]
+    },
+    {
+      "term": "on ones own",
+      "ko": "스스로",
+      "lesson": 13,
+      "exercise": 27,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "on ones own",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "ononesown",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "ON ONES OWN",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "on onez own",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        }
+      ]
+    },
+    {
+      "term": "lose ones cool",
+      "ko": "냉정을 잃다",
+      "lesson": 16,
+      "exercise": 7,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "lose ones cool",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "loseonescool",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "LOSE ONES COOL",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "loze onez cool",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        }
+      ]
+    },
+    {
+      "term": "masters degree",
+      "ko": "석사 학위",
+      "lesson": 9,
+      "exercise": 15,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "masters degree",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "mastersdegree",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "MASTERS DEGREE",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "mazterz degree",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        }
+      ]
+    },
+    {
+      "term": "faux pas",
+      "ko": "실수, 실례",
+      "lesson": 13,
+      "exercise": 6,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "faux pas",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "fauxpas",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "FAUX PAS",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "faux paz",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        }
+      ]
+    },
+    {
+      "term": "worn-out",
+      "ko": "낡은, 닳고 닳은",
+      "lesson": 1,
+      "exercise": 2,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "worn-out",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "worn out",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "wornout",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "WORN-OUT",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        }
+      ]
+    },
+    {
+      "term": "in-laws",
+      "ko": "처가, 시댁, 인척",
+      "lesson": 2,
+      "exercise": 4,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "in-laws",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "in laws",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "inlaws",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "IN-LAWS",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "in-lawz",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        }
+      ]
+    },
+    {
+      "term": "run-down",
+      "ko": "황폐한, 쇠퇴한",
+      "lesson": 2,
+      "exercise": 11,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "run-down",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "run down",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "rundown",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "RUN-DOWN",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        }
+      ]
+    },
+    {
+      "term": "short-sighted",
+      "ko": "근시안적인, 근시의",
+      "lesson": 3,
+      "exercise": 1,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "short-sighted",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "short sighted",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "shortsighted",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "SHORT-SIGHTED",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "zhort-zighted",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        }
+      ]
+    },
+    {
+      "term": "toe-to-toe",
+      "ko": "정면으로 맞서",
+      "lesson": 3,
+      "exercise": 6,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "toe-to-toe",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "toe to toe",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "toetotoe",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "TOE-TO-TOE",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        }
+      ]
+    },
+    {
+      "term": "age-related",
+      "ko": "나이와 관련된",
+      "lesson": 3,
+      "exercise": 9,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "age-related",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "age related",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "agerelated",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "AGE-RELATED",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        }
+      ]
+    },
+    {
+      "term": "ever-expanding",
+      "ko": "계속 확대되는",
+      "lesson": 3,
+      "exercise": 15,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "ever-expanding",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "ever expanding",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "everexpanding",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "EVER-EXPANDING",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        }
+      ]
+    },
+    {
+      "term": "self-driving car",
+      "ko": "자율 주행차",
+      "lesson": 3,
+      "exercise": 15,
+      "scope": "prev",
+      "answers": [
+        {
+          "input": "self-driving car",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "self driving car",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "selfdrivingcar",
+          "quiz": true,
+          "copy": true,
+          "path": "compact-normalized"
+        },
+        {
+          "input": "SELF-DRIVING CAR",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "selfdriving car",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "self-drivingcar",
+          "quiz": true,
+          "copy": true,
+          "path": "spaces-omitted"
+        },
+        {
+          "input": "zelf-driving car",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        }
+      ]
+    },
+    {
+      "term": "self-evidence",
+      "ko": "자명함",
+      "lesson": 4,
+      "exercise": 1,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "self-evidence",
+          "quiz": true,
+          "copy": true,
+          "path": "z-to-s"
+        },
+        {
+          "input": "self evidence",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "selfevidence",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "SELF-EVIDENCE",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "zelf-evidence",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        }
+      ]
+    },
+    {
+      "term": "de-emphasize",
+      "ko": "덜 강조하다, 경시하다",
+      "lesson": 4,
+      "exercise": 1,
+      "scope": "2026",
+      "answers": [
+        {
+          "input": "de-emphasize",
+          "quiz": true,
+          "copy": true,
+          "path": "canonical"
+        },
+        {
+          "input": "de emphasize",
+          "quiz": true,
+          "copy": true,
+          "path": "normalized"
+        },
+        {
+          "input": "deemphasize",
+          "quiz": true,
+          "copy": true,
+          "path": "punctuation-omitted"
+        },
+        {
+          "input": "DE-EMPHASIZE",
+          "quiz": true,
+          "copy": true,
+          "path": "uppercase"
+        },
+        {
+          "input": "de-emphasise",
+          "quiz": true,
+          "copy": false,
+          "path": "z-to-s"
+        },
+        {
+          "input": "de-emphazize",
+          "quiz": true,
+          "copy": false,
+          "path": "s-to-z-existing-overbroad-rule"
+        }
+      ]
+    }
+  ]
+}
