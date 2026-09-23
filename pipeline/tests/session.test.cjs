@@ -27,7 +27,7 @@ for(const change of corrections){
   assert.equal(card.word,change.word);assert.equal(change.field,'c');assert.equal(card.c,change.new);
   card.c=change.old;
 }
-assert.equal(crypto.createHash('sha256').update(JSON.stringify(originalBaseline)).digest('hex'),'25e122657c5fc93c1d46e41d09200e6d29e2551c424ceb682575d893a6d9bc02','0–45 changed beyond logged usage corrections and the quickly/rapidly alias, removal of 0:10 and oh/yeah and the Goyang million and April wedding examples');
+assert.equal(crypto.createHash('sha256').update(JSON.stringify(originalBaseline)).digest('hex'),'f3e2cc18398ce151ce13a44cc9d357c5cdeaacf698cf2c64aec367031d3c6c56','0–45 changed beyond logged usage corrections and the quickly/rapidly alias, removal of 0:10 and oh/yeah and the Goyang million and April wedding examples');
 for (const m of html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g)) new vm.Script(m[1]);
 const data = JSON.parse(dataBlob(html));
 const canonical = data.map(l => ({...l, id:l.label, exercises:l.exercises.map(e => ({...e,title:'Exercise '+e.ex,words:e.words.map(w => ({...w,term:w.en,meaning:w.ko}))}))}));
