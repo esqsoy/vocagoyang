@@ -181,9 +181,6 @@ body.playing .app{gap:8px;padding:max(6px,env(safe-area-inset-top)) 6px max(8px,
 .quiz .ainput{position:absolute;inset:0;width:100%;height:100%;min-height:0;opacity:0;font-size:16px;border:0;border-radius:0;padding:0;margin:0;
   background:transparent;color:transparent;caret-color:transparent;box-shadow:none;-webkit-user-select:text;user-select:text;}
 .quiz .ainput:focus{box-shadow:none;border:0;}
-.input-help{margin:0;color:var(--gold);font-size:.82rem;line-height:1.45;text-align:center;}
-.input-focus{align-self:center;}
-.input-focus[hidden]{display:none;}
 /* 뜻(문제)은 카드 폭을 통째로 쓴다. 전에는 💡와 고양이 사이에 끼어 69%(245px)만 써서
    390px 폭에서 26%가 두 줄로 쪼개졌다 — 지금은 6%. 한글 뜻은 어절 단위로 끊겨
    줄이 좁을수록 읽는 리듬이 끊기고, 줄 수가 문제마다 달라져 카드 높이도 요동쳤다. */
@@ -214,7 +211,6 @@ body.playing .app{gap:8px;padding:max(6px,env(safe-area-inset-top)) 6px max(8px,
 .ov-ghost{font-family:ui-monospace,monospace;font-size:clamp(1.5rem,8vw,2.4rem);font-weight:900;
   letter-spacing:2px;word-break:break-all;color:#6a4c86;}
 .ov-ghost b{color:var(--mint);} .ov-ghost .x{color:var(--bad);}
-.ov-hint{color:var(--muted);font-size:.78rem;}
 .qoverlay.wrong{animation:sh .3s;}
 .timewrap i{display:block;height:100%;width:100%;border-radius:99px;background:var(--mint);
   transition:width .15s linear, background .3s;}
@@ -435,7 +431,6 @@ body.roaring{animation:roarshake .5s .15s;}
 .rv .ov-c{font-size:1.26rem;line-height:1.6;padding:11px 13px;}
 .rv .ov-say{font-size:.98rem;}
 .rv .ov-c{margin-top:2px;width:100%;}
-.rv .ov-hint{font-size:.8rem;}
 
 
 /* ============ 연습마다 돌아가는 꽃 효과(유리꽃 화약 제외) ============ */
@@ -1235,8 +1230,6 @@ body.playing .appbar{padding:0 5px;}
             <div class="fb" id="fb" aria-live="polite"></div>
           </form>
         </div>
-        <p class="input-help" id="inputHelp" aria-live="polite" hidden></p>
-        <button class="ghost small input-focus" id="focusInputBtn" type="button" hidden>⌨ 키보드로 입력하기</button>
         <div class="qmini" id="qmini"></div>
         <div class="rv" id="reveal" aria-live="polite"></div>
         <div class="qoverlay" id="quizOverlay" hidden></div>
@@ -1793,12 +1786,11 @@ function nextCard(){
     $("#qmini").style.display="";$("#timeWrap").style.visibility="";
     const _h=hintFor(w.term);
     $("#mHint").innerHTML=_h?("💡 "+esc(_h)):"";$("#mHint").hidden=!_h;$("#mHint").style.display=_h?"block":"none";
-    $("#qmini").textContent = s.round>=2 ? ((w.roundStreak>=1)?"한 번 더 맞히면 통과 (2/2)":"2연속 정답이면 통과 (1/2)") : "뜻에 맞는 영어 단어를 입력";
+    $("#qmini").textContent="";
     $("#ainput").value="";$("#ainput").className="ainput";$("#ainput").disabled=false;
     $("#submitBtn").disabled=false;$("#hintBtn").disabled=false;
     $("#fb").className="fb";$("#fb").innerHTML="";
     $("#ainput").oninput=null;
-    $("#inputHelp").hidden=true;$("#focusInputBtn").hidden=true;
     setCat('quizCat','evil');
     updateStats();mirrorTyped();
     focusAnswerInput();requestAnimationFrame(focusAnswerInput);
@@ -1824,7 +1816,6 @@ function submit(opt={}){
   // first-try accuracy
   if(!s.seenSet.has(w.id)){s.seenSet.add(w.id);s.firstSeen++;if(correct&&s.hintLevel===0&&!opt.timeout)s.firstCorrect++;}
   $("#submitBtn").disabled=true;$("#hintBtn").disabled=true;
-  $("#inputHelp").hidden=true;$("#focusInputBtn").hidden=true;
 
   if(correct){
     w.corrects++;$("#ainput").classList.add("ok");
@@ -1854,13 +1845,7 @@ function defer(id){const s=state.session;s.queue.splice(Math.min(3,s.queue.lengt
 function answerInputActive(){const s=state.session;return !!(s&&s.currentId!==null&&(!s.answered||s.copyMode)&&$("#gameScreen").classList.contains("active"));}
 function hasHangul(v){return /[\u1100-\u11ff\u3130-\u318f\uac00-\ud7af]/.test(v);}
 function composingKey(e){return state.composing||e.isComposing||e.keyCode===229;}
-function updateInputNotice(){
-  const active=answerInputActive(),a=$("#ainput"),korean=active&&hasHangul(a.value);
-  $("#inputHelp").textContent=korean?"한글이 입력되고 있어. 한글을 지우고 한/영 키나 언어 버튼으로 영어로 바꿔 줘.":"";
-  $("#inputHelp").hidden=!korean;
-  $("#focusInputBtn").hidden=!active||(document.activeElement===a&&document.hasFocus());
-}
-function focusAnswerInput(){if(!answerInputActive())return;$("#ainput").focus({preventScroll:true});updateInputNotice();}
+function focusAnswerInput(){if(!answerInputActive())return;$("#ainput").focus({preventScroll:true});}
 function handleCopyInput(){const s=state.session;if(!s||!s.copyMode)return;const v=$("#ainput").value;renderCopyBlank(v);if(!state.composing&&isCorrect(v,s.copyAns)){$("#ainput").oninput=null;submitCopy();}}
 function mirrorTyped(){
   const s=state.session;if(!s||s.answered||s.copyMode||s.currentId===null)return;
@@ -1932,7 +1917,7 @@ function startCopy(term,meaning,line){
   const s=state.session;s.copyMode=true;s.copyAns=term;
   growCard(()=>{
     $("#hoeCtx").innerHTML=`<div class="ex">${slots(term)}</div>`;
-    openReveal("bad").innerHTML=`${rvWord(term,meaning)}<div class="ov-say">${esc(line)}</div><div class="ov-hint">똑같이 따라 쓰면 넘어간다고양</div>`;
+    openReveal("bad").innerHTML=`${rvWord(term,meaning)}<div class="ov-say">${esc(line)}</div>`;
     renderCopyBlank("");
   });
   $("#ainput").value="";$("#ainput").className="ainput";$("#ainput").disabled=false;
@@ -1947,7 +1932,6 @@ function submitCopy(){
     const p=$("#quizCard");p.classList.remove("wrong");void p.offsetWidth;p.classList.add("wrong");return;
   }
   s.copyMode=false;s.copyAns="";$("#ainput").oninput=null;$("#submitBtn").disabled=true;
-  $("#inputHelp").hidden=true;$("#focusInputBtn").hidden=true;
   fx(true);beep("ok");scheduleNext(650);
 }
 
@@ -3217,15 +3201,10 @@ function toast(msg){const t=$("#toast");t.textContent=msg;t.classList.add("show"
 $("#aform").addEventListener("submit",e=>{e.preventDefault();submit();});
 $("#ainput").addEventListener("keydown",e=>{if(composingKey(e))return;if(e.key==="Enter"||e.keyCode===13){e.preventDefault();e.stopPropagation();submit();}});
 $("#gameScreen").addEventListener("mousedown",e=>{if(e.target&&e.target.closest&&e.target.closest("input,textarea,select,[contenteditable]"))return;e.preventDefault();if(!e.target.closest("#exitBtn,a"))focusAnswerInput();});
-$("#ainput").addEventListener("input",updateInputNotice);
 $("#ainput").addEventListener("input",mirrorTyped);
 $("#ainput").addEventListener("compositionstart",()=>{state.composing=true;});
-$("#ainput").addEventListener("compositionend",()=>{state.composing=false;updateInputNotice();if(state.session?.copyMode)handleCopyInput();else mirrorTyped();});
-$("#ainput").addEventListener("focus",updateInputNotice);
-$("#ainput").addEventListener("blur",updateInputNotice);
-$("#focusInputBtn").addEventListener("click",focusAnswerInput);
+$("#ainput").addEventListener("compositionend",()=>{state.composing=false;if(state.session?.copyMode)handleCopyInput();else mirrorTyped();});
 window.addEventListener("focus",()=>requestAnimationFrame(focusAnswerInput));
-window.addEventListener("blur",updateInputNotice);
 $("#catSubmit").addEventListener("click",e=>{e.preventDefault();e.stopPropagation();submit();});
 $("#submitBtn").addEventListener("click",e=>{e.preventDefault();e.stopPropagation();submit();});
 $("#hintBtn").addEventListener("click",giveHint);

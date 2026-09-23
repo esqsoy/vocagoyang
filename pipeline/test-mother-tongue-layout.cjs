@@ -17,7 +17,9 @@ assert.deepEqual(plain(h.state.lessons.map(l=>({id:l.id,exercises:l.exercises.ma
 assert.equal(h.ctx.totalExercises(),161);assert.equal(h.state.lessons.reduce((n,l)=>n+h.ctx.visEx(l).reduce((s,e)=>s+e.words.length,0),0),2089);
 h.state.prevOn=true;
 assert.equal(h.ctx.totalExercises(),521);assert.equal(h.state.lessons.reduce((n,l)=>n+h.ctx.visEx(l).reduce((s,e)=>s+e.words.length,0),0),6498);
-for(const id of ['prevBtn','hoeCtx','reveal','catSubmit','ainput','focusInputBtn','inputHelp','muteBtn2'])assert(h.els.has(id),`${id} exists`);
+for(const id of ['prevBtn','hoeCtx','reveal','catSubmit','ainput','muteBtn2'])assert(h.els.has(id),`${id} exists`);
+for(const id of ['focusInputBtn','inputHelp'])assert(!h.els.has(id),`${id} helper removed`);
+assert(!h.html.includes('똑같이 따라 쓰면 넘어간다고양'),'No copy-mode instructions');
 assert(!h.els.has('muteBtn'));assert(!h.els.has('resetBtn'));
 assert(!/<button\b[^>]*class="[^\"]*mt-speak/.test(h.html),'No separate pronunciation replay button');
 const appbar=h.html.match(/<div class="appbar">([\s\S]*?)<\/div>/)?.[1]||'';
@@ -92,23 +94,36 @@ for(const input of ['read between the lines','readbetweenthelines','READ BETWEEN
 }
 
 // IME: neither input nor Enter can grade an unfinished composition. Hangul is
-// shown, with a language-switch notice, rather than disappearing into opacity.
+// shown in the slots without extra language-switch instructions.
 let s=mountWord(h);h.fire('ainput','compositionstart');h.type('official');
 h.fire('ainput','keydown',{key:'Enter',keyCode:229,isComposing:true});h.fire('aform','submit');
 assert(!s.answered);assert.equal(h.state.composing,true);
 h.fire('ainput','compositionend');assert(s.answered&&!s.copyMode);assert.equal(s.attempts,1);
 s=mountWord(h);h.fire('ainput','compositionstart');h.type('오피셜');h.fire('ainput','compositionend');
-assert(!s.answered);assert.equal(h.els.get('inputHelp').hidden,false);assert(h.blank.innerHTML.includes('오'));
-h.type('official');assert(s.answered&&!s.copyMode);assert.equal(h.els.get('inputHelp').hidden,true);
+assert(!s.answered);assert(h.blank.innerHTML.includes('오'));
+h.type('official');assert(s.answered&&!s.copyMode);
 s=mountWord(h);h.ctx.submit({forced:true});h.fire('ainput','compositionstart');h.type('official');h.fire('aform','submit');assert(s.copyMode);
 h.fire('ainput','compositionend');assert(!s.copyMode);assert.equal(s.attempts,1,'Copy does not count as a fresh attempt');
 h.advance(649);assert.equal(s.currentId,0);h.advance(1);assert.equal(s.currentId,1,'Copy completes after 650 ms');
 
 // Hints, forced skips and timeouts keep the original grading semantics.
-s=mountWord(h);h.ctx.giveHint();h.type('official');assert.equal(s.firstCorrect,0);assert.equal(s.errors,0);
+s=mountWord(h);assert.equal(h.els.get('qmini').textContent,'');h.ctx.giveHint();assert(h.els.get('qmini').innerHTML.includes('힌트①'));h.type('official');assert.equal(s.firstCorrect,0);assert.equal(s.errors,0);
 s=mountWord(h);h.els.get('ainput').value='official';h.ctx.submit({timeout:true});assert(s.copyMode);assert.equal(s.errors,1);assert.equal(s.firstCorrect,0);
 s=mountWord(h);h.els.get('ainput').value='official';h.ctx.submit({forced:true});assert(s.copyMode);assert.equal(s.errors,1);
 s=mountWord(h);h.advance(s.cardLimit*1000);h.ctx.updateStats();assert(s.copyMode);assert.equal(s.errors,1,'Timer expiration is still an incorrect attempt');
+
+// Focus returns through the actual UI events without a separate helper button,
+// both while answering and while copying a missed answer.
+s=mountWord(h);
+for(const copy of [false,true]){
+ if(copy)h.ctx.submit({forced:true});
+ assert.equal(h.doc.activeElement,h.els.get('ainput'));
+ h.els.get('ainput').blur();h.events['win:focus'].forEach(f=>f());
+ assert.equal(h.doc.activeElement,h.els.get('ainput'));
+ h.els.get('ainput').blur();h.fire('gameScreen','mousedown',{target:h.els.get('hoeCtx')});
+ assert.equal(h.doc.activeElement,h.els.get('ainput'));
+}
+h.type('official');assert(!s.copyMode);h.advance(650);assert.equal(s.currentId,1);
 
 // Retry rounds: correct first-pass words stay out; wrong words require two
 // consecutive later answers, and wrong retries reset their streak.
