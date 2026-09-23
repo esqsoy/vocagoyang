@@ -7,6 +7,14 @@ const dataBlob = h => h.match(/const DATA = (\[.*?\]);\r?\n/s)[1];
 const baseline = JSON.parse(dataBlob(html)).slice(0,46);
 const corrections=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../connection-legacy-corrections.json'),'utf8')).changes;
 const originalBaseline=JSON.parse(JSON.stringify(baseline));
+const usageCorrections=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../bathroom-usage-corrections.json'),'utf8')).changes;
+assert.equal(usageCorrections.length,3);
+for(const change of usageCorrections){
+  const [set,exercise,index]=change.id.split(':').map(Number);
+  const card=originalBaseline[set].exercises.find(e=>e.ex===exercise).words[index];
+  assert.equal(card.word,change.word);assert.equal(card[change.field],change.new);
+  card[change.field]=change.old;
+}
 assert.equal(corrections.length,4,'Review any additional legacy edits explicitly');
 for(const change of corrections){
   const [set,exercise,index]=change.id.split(':').map(Number);
