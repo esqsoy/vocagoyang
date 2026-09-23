@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-24",
+  "scope": "September 예문의 학교 소재지를 잉글랜드로 명시하고 한국·영미의 초중등 학년 시작 시기 차이를 해설로 제시",
+  "sources": [
+    {"url": "https://star.moe.go.kr/web/contents/m30103.do?id=3060&schM=view", "finding": "한국 초중등학교의 학년도는 3월부터 다음 해 2월까지. 실제 첫 등교일과 학년도 시작일은 구별한다."},
+    {"url": "https://www.gov.uk/schools-admissions/school-starting-age", "finding": "잉글랜드의 일반적인 입학 시기는 9월."},
+    {"url": "https://www.surreycc.gov.uk/schools-and-learning/schools/term-dates", "finding": "잉글랜드 서리의 2026/27 가을 학기 시작은 2026-09-01. 학교별 일정과 INSET 일은 다를 수 있다."},
+    {"url": "https://www.schools.nyc.gov/calendar/2026-2027-school-year-calendar", "finding": "뉴욕시 공립학교 2026/27 첫 등교일은 2026-09-10."},
+    {"url": "https://communications.lausd.org/apps/pages/index.jsp?pREC_ID=2654752&type=d&uREC_ID=4401650", "finding": "로스앤젤레스 통합교육구 2026/27 첫 수업일은 2026-08-12. 미국 전체를 9월로 단정하지 않는다."},
+    {"url": "https://www.edinburgh.gov.uk/termdates", "finding": "스코틀랜드 에든버러의 2026/27 가을 학기 시작은 2026-08-12. 영국 전체를 9월로 단정하지 않는다."}
+  ],
+  "changes": [
+    {"set": 0, "exercise": 3, "word": "September", "field": "ex", "old": "Our new school year starts in {{BLANK}}.", "new": "In England, the school year usually starts in {{BLANK}}."},
+    {"set": 0, "exercise": 3, "word": "September", "field": "tr", "old": "우리 학교 새 학년은 9월에 시작해.", "new": "잉글랜드에서는 새 학년이 보통 9월에 시작해."},
+    {"set": 0, "exercise": 3, "word": "September", "field": "c", "old": "sept=7인데 9월인 이유: 옛 로마 달력은 3월부터 셌다.", "new": "초·중·고 새 학년은 한국 3월, 잉글랜드 보통 9월. 미국은 지역·학교에 따라 주로 8~9월이야. 영국 안에서도 에든버러는 8월에 시작해."}
+  ]
+}

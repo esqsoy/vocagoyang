@@ -7,6 +7,11 @@ const dataBlob = h => h.match(/const DATA = (\[.*?\]);\r?\n/s)[1];
 const baseline = JSON.parse(dataBlob(html)).slice(0,46);
 const corrections=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../connection-legacy-corrections.json'),'utf8')).changes;
 const originalBaseline=JSON.parse(JSON.stringify(baseline));
+const septemberCorrections=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../september-usage-corrections.json'),'utf8')).changes;
+for(const change of septemberCorrections){
+  const card=originalBaseline[change.set].exercises.find(e=>e.ex===change.exercise).words.find(w=>w.word===change.word);
+  assert.equal(card[change.field],change.new);card[change.field]=change.old;
+}
 const usageCorrections=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../bathroom-usage-corrections.json'),'utf8')).changes;
 assert.equal(usageCorrections.length,3);
 for(const change of usageCorrections){
