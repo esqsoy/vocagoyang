@@ -25,8 +25,8 @@ for(const [number,kinds] of [[47,['affix']],[48,['latin','greek','germanic']]]){
 }
 assert.equal(DATA[47].exercises.length,10);assert.equal(DATA[48].exercises.length,16);
 assert.equal(DATA[47].exercises.flatMap(e=>e.words).length,71);assert.equal(DATA[48].exercises.flatMap(e=>e.words).length,96);
-assert.equal(DATA.slice(0,49).reduce((n,L)=>n+L.exercises.length,0),501);
-assert.equal(DATA.slice(0,49).flatMap(L=>L.exercises.flatMap(e=>e.words)).length,6715);
+assert.equal(DATA.slice(0,49).reduce((n,L)=>n+L.exercises.length,0),500);
+assert.equal(DATA.slice(0,49).flatMap(L=>L.exercises.flatMap(e=>e.words)).length,6696);
 assert.deepEqual(CONNECTIONS.courses.map(c=>c.lesson),[49,50]);
 assert.equal(DATA[49].name,'전치사가 잇는 관계');assert.equal(DATA[50].name,'동사 결합으로 읽는 뜻');
 for(const L of DATA.slice(49)){assert.equal(L.kind,'connections');assert(L.progressId.startsWith('connections-'));}
@@ -69,6 +69,13 @@ let legacyRecords=0;
 for(const old of legacy.lessons){
   const L=state.lessons.find(l=>l.lesson===old.lesson);assert.equal(L.id,old.id);state.progress[old.id]={};
   for(const e of old.exercises){
+    if(old.lesson===0 && e.title==='Exercise 10 · 생활 구어'){
+      assert(!L.exercises.some(x=>x.title===e.title),'Retired exercise is still active');
+      const before=ctx.clearedExercises();
+      state.progress[old.id][e.title]={completed:true};
+      assert.equal(ctx.clearedExercises(),before,'Retired record counted toward completion');
+      continue;
+    }
     assert(L.exercises.some(x=>x.title===e.title&&x.scope===e.scope),'Legacy exercise renamed: '+old.id+' / '+e.title);
     state.progress[old.id][e.title]={completed:true,legacyMarker:old.lesson};assert(ctx.getRec(old.id,e.title)?.completed);
     if(e.scope!=='prev')legacyRecords++;

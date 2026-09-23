@@ -14,7 +14,7 @@ for(const change of corrections){
   assert.equal(card.word,change.word);assert.equal(change.field,'c');assert.equal(card.c,change.new);
   card.c=change.old;
 }
-assert.equal(crypto.createHash('sha256').update(JSON.stringify(originalBaseline)).digest('hex'),'0559b0b661d39fb6b6c9808817b91c9ab3712b3f68f6df81245ed0419fba7205','0–45 changed beyond the four reviewed explanation corrections');
+assert.equal(crypto.createHash('sha256').update(JSON.stringify(originalBaseline)).digest('hex'),'00a6219b449ab28ca5be7375df61617642217d757243abb429d20d460acf63dc','0–45 changed beyond the four reviewed explanation corrections and removal of lesson 0 exercise 10');
 for (const m of html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g)) new vm.Script(m[1]);
 const data = JSON.parse(dataBlob(html));
 const canonical = data.map(l => ({...l, id:l.label, exercises:l.exercises.map(e => ({...e,title:'Exercise '+e.ex,words:e.words.map(w => ({...w,term:w.en,meaning:w.ko}))}))}));
@@ -106,5 +106,5 @@ const textCtx=vm.createContext({esc:s=>s});vm.runInContext(between('function ans
 assert.equal(textCtx.answerInSentence('{{BLANK}} is useful.','iPhone'),'iPhone');
 assert.equal(textCtx.answerInSentence('I won. {{BLANK}}, she lost.','however'),'However');
 assert.equal(textCtx.answerInSentence('It is {{BLANK}}.','good'),'good');
-const result={sessions,exercises:lessons.reduce((n,l)=>n+l.exercises.length,0),seeds:12,firstOrders:firstOrders.size,partialRetry:'passed',allCardLimits:'exactly +1 second',cardData:'0–45 only four logged explanation corrections; original full data hash verified after reversal',scriptSyntax:'passed',nonAdjacentRule:'passed except when no other headword remains',existingProgressKeys:oldKeys.length,newProgressKeys:addedProgressKeys,brandAndSentenceCasing:'passed'};
+const result={sessions,exercises:lessons.reduce((n,l)=>n+l.exercises.length,0),seeds:12,firstOrders:firstOrders.size,partialRetry:'passed',allCardLimits:'exactly +1 second',cardData:'0–45 only four logged explanation corrections and removal of 0:10; remaining data hash verified',scriptSyntax:'passed',nonAdjacentRule:'passed except when no other headword remains',existingProgressKeys:oldKeys.length,newProgressKeys:addedProgressKeys,brandAndSentenceCasing:'passed'};
 console.log(JSON.stringify(result));

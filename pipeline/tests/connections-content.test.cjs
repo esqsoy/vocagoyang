@@ -8,12 +8,16 @@ const seen=new Set(),entries=new Map(CONNECTIONS.entries.map(e=>[e.id,e]));
 assert.equal(entries.size,CONNECTIONS.entries.length);
 assert.equal(CONNECTIONS.review.cards,6715);
 const checked=new Set();
+// The historical reread included the 19 cards retired on 2026-09-24.
+const retired=new Set(Array.from({length:19},(_,i)=>`0:10:${i}`));
+for(const id of retired)assert(!prior.has(id),'Retired card remains active: '+id);
 for(const filename of CONNECTIONS.review.auditFiles){
   const audit=JSON.parse(fs.readFileSync(path.join(repo,'pipeline',filename),'utf8'));
   assert.equal(audit.readCardIds.length,audit.readCardCount);
-  for(const id of audit.readCardIds){assert(prior.has(id),id);assert(!checked.has(id),'Repeated audit card '+id);checked.add(id);}
+  for(const id of audit.readCardIds){assert(prior.has(id)||retired.has(id),id);assert(!checked.has(id),'Repeated audit card '+id);checked.add(id);}
 }
 assert.equal(checked.size,6715,'Full reread is incomplete');
+assert.equal(prior.size,6696);for(const id of prior.keys())assert(checked.has(id),'Active card was not reviewed: '+id);
 const between=(a,b)=>html.slice(html.indexOf(a),html.indexOf(b,html.indexOf(a)+a.length));
 const ctx=vm.createContext({ALT:{}});
 vm.runInContext(between('function normalize(','function shuffle(')+'\n'+between('function isAliasHit(','const SYNLINES='),ctx);
