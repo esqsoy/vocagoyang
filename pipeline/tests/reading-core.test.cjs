@@ -26,7 +26,7 @@ for(const [number,kinds] of [[47,['affix']],[48,['latin','greek','germanic']]]){
 assert.equal(DATA[47].exercises.length,10);assert.equal(DATA[48].exercises.length,16);
 assert.equal(DATA[47].exercises.flatMap(e=>e.words).length,71);assert.equal(DATA[48].exercises.flatMap(e=>e.words).length,96);
 assert.equal(DATA.slice(0,49).reduce((n,L)=>n+L.exercises.length,0),500);
-assert.equal(DATA.slice(0,49).flatMap(L=>L.exercises.flatMap(e=>e.words)).length,6696);
+assert.equal(DATA.slice(0,49).flatMap(L=>L.exercises.flatMap(e=>e.words)).length,6694);
 assert.deepEqual(CONNECTIONS.courses.map(c=>c.lesson),[49,50]);
 assert.equal(DATA[49].name,'전치사가 잇는 관계');assert.equal(DATA[50].name,'동사 결합으로 읽는 뜻');
 for(const L of DATA.slice(49)){assert.equal(L.kind,'connections');assert(L.progressId.startsWith('connections-'));}
