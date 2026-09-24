@@ -1,4 +1,10 @@
-# Fable 11카드 중심 연습 · 2026-09-25
+# Fable beach / shore 허용 답 · 2026-09-25
+
+- 0세트 beach의 `We swam at the {{BLANK}} all day.`에서 shore도 정답으로 인정한다. 해당 카드의 acceptedAnswers로 한정한다.
+- 예문은 유지하고, beach는 모래·자갈이 있는 해변이고 shore는 바다·호수 등의 물가를 넓게 가리킨다는 차이를 해설에 넣었다. [Cambridge beach](https://dictionary.cambridge.org/dictionary/english/beach), [Cambridge shore](https://dictionary.cambridge.org/dictionary/english/shore).
+- beach·shore 입력 검사 통과. 기존 배포와 비교해 이 카드의 해설·허용 답만 변경한 것을 확인했다. 연습 구성과 기록 키는 동일하다.
+
+## Fable 11카드 중심 연습 · 2026-09-25
 
 - 51세트 / 613연습 / 6,886카드. 평균 11.2카드, 575연습(약 94%)이 8~15카드다. 짧은 주제·표제어 경계에 따른 38연습은 4~7카드로 유지한다.
 - 11카드를 중심으로 하되 같은 표제어는 나누지 않는다. 14~15장은 한 판으로 유지하고 22장은 11+11, 24장은 12+12로 구성한다. get의 6뜻은 like·no·time과 함께 12카드로 유지한다.
