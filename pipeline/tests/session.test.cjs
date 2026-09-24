@@ -30,8 +30,6 @@ for(const change of corrections){
 assert.equal(crypto.createHash('sha256').update(JSON.stringify(originalBaseline)).digest('hex'),'f3e2cc18398ce151ce13a44cc9d357c5cdeaacf698cf2c64aec367031d3c6c56','0–45 changed beyond logged usage corrections and the quickly/rapidly alias, removal of 0:10 and oh/yeah and the Goyang million and April wedding examples');
 for (const m of html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g)) new vm.Script(m[1]);
 const data = JSON.parse(dataBlob(html));
-const canonical = data.map(l => ({...l, id:l.label, exercises:l.exercises.map(e => ({...e,title:'Exercise '+e.ex,words:e.words.map(w => ({...w,term:w.en,meaning:w.ko}))}))}));
-const lessons=canonical;
 function between(start,end) {
   const a=html.indexOf(start), b=html.indexOf(end,a+start.length);
   assert(a>=0 && b>a, start);
@@ -43,11 +41,10 @@ seededMath.random=()=>{rngSeed=(Math.imul(1664525,rngSeed)+1013904223)>>>0;retur
 const elements=new Map();
 let previous=null, shown=0, lastShow=null;
 const ctx = vm.createContext({
-  Math:seededMath,Date,Set,console,
-  state:{lessons:canonical,li:0,ei:0,session:null},
-  activeLesson:()=>canonical[ctx.state.li],
+  Math:seededMath,Date,Set,console,DATA:data,
+  state:{lessons:[],li:0,ei:0,session:null,prevOn:true},
   $:id=>{if(!elements.has(id))elements.set(id,{textContent:'',innerHTML:'',value:'',style:{},classList:{add(){},remove(){}},focus(){}});return elements.get(id);},
-  visEx:l=>l.exercises, saveLast(){}, setCat(){}, show(){}, startTicker(){}, toast(){}, pick(){}, LINES:{start:[]},
+  saveLast(){}, setCat(){}, show(){}, startTicker(){}, toast(){}, pick(){}, LINES:{start:[]},
   updateStats(){},mirrorTyped(){},focusAnswerInput(){},requestAnimationFrame:f=>f(),
   finishExercise(){ctx.state.session.finished=true;},
   hoeCtxHtml(w){
@@ -60,11 +57,13 @@ const ctx = vm.createContext({
   }
 });
 const code=[
+  between('function buildLessons()', '/* ===== progress / route ===== */'),
   between('function limitFor(', 'function isCorrect('),
   between('function shuffle(', 'function submit('),
   between('function applyCorrect(', '/* 입력창에 친 글자를')
 ].join('\n');
 vm.runInContext(code,ctx);
+const lessons=ctx.state.lessons;
 let sessions=0,firstOrders=new Set();
 for(let seed=1;seed<=12;seed++){
   rngSeed=seed;
@@ -109,12 +108,13 @@ for(const l of lessons)for(const e of l.exercises)for(const w of e.words){
   const old=Math.min(45,Math.max(14,Math.round(8+letters*1.6+Math.max(0,count-1)*4)));
   assert.equal(ctx.limitFor(w.term),old+1);
 }
-// Progress uses unchanged lesson labels and exercise titles, not card counts.
+// Authored topic groups keep their keys; reading-core.test.cjs also checks the
+// playable parts and their inherited completion/resume records.
 const progressKey=(l,e)=>l.label+'|'+(e.scope==='prev'?'이전기출 ':'Exercise ')+e.ex+(e.name?' · '+e.name:'');
 const oldKeys=baseline.slice(0,46).flatMap(l=>l.exercises.map(e=>progressKey(l,e))),newKeys=data.flatMap(l=>l.exercises.map(e=>progressKey(l,e)));
 assert.equal(new Set(newKeys).size,newKeys.length);for(const k of oldKeys)assert(newKeys.includes(k),'Lost progress key '+k);
 const addedProgressKeys=newKeys.filter(k=>!oldKeys.includes(k)).length;
-assert.equal(addedProgressKeys,lessons.slice(46).reduce((n,l)=>n+l.exercises.length,0));
+assert.equal(addedProgressKeys,data.slice(46).reduce((n,l)=>n+l.exercises.length,0));
 const textCtx=vm.createContext({esc:s=>s});vm.runInContext(between('function answerInSentence(', 'function hoeCtxHtml('),textCtx);
 assert.equal(textCtx.answerInSentence('{{BLANK}} is useful.','iPhone'),'iPhone');
 assert.equal(textCtx.answerInSentence('I won. {{BLANK}}, she lost.','however'),'However');

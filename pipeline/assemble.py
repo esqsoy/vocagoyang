@@ -114,6 +114,8 @@ for name, value in constants:
     elif n != 1:
         raise ValueError(f'Expected one {name} declaration; found {n}')
 HTML.write_text(src, encoding='utf-8')
-print(json.dumps({'sets':len(data), 'exercises':sum(len(L['exercises']) for L in data),
+# DATA keeps the authored topic groups. The app's splitExercises() builds the
+# balanced, at-most-eight-card playable exercises without changing this source.
+print(json.dumps({'sets':len(data), 'sourceGroups':sum(len(L['exercises']) for L in data),
                   'cards':sum(len(e['words']) for L in data for e in L['exercises']),
                   'morphologyUnits':len(units)}, ensure_ascii=False))

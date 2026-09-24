@@ -64,6 +64,10 @@ vm.runInContext([
   between('$("#nextEx").addEventListener','$("#muteBtn").addEventListener')
 ].join('\n'),ctx);
 
+// Historical course/record fixtures describe the authored topic groups. Keep
+// checking those identities here; the live short parts are checked below.
+state.lessons=ctx.buildLessons();
+
 // The fixture freezes legacy keys instead of deriving expected values from the new implementation.
 let legacyRecords=0;
 for(const old of legacy.lessons){
@@ -204,4 +208,82 @@ for(const L of DATA.filter(l=>l.kind==='morphology'))for(const e of L.exercises)
   assert.equal(expected.length,e.words.length);e.words.forEach((w,i)=>{for(const k of ['word','en','ko','ex','tr','c','ipa','pos'])assert.equal(w[k],expected[i][k]);});
 }
 assert.equal(ids.size,MORPHOLOGY.units.length);
+
+// The live course uses short parts, while DATA remains the editable topic source.
+const sourceLessons=ctx.buildLessons();state.lessons=ctx.splitExercises(sourceLessons);
+const flatParts=state.lessons.flatMap((L,li)=>L.exercises.map((e,ei)=>({L,li,e,ei})));
+assert.equal(ctx.totalExercises(),1079);
+assert.equal(flatParts.reduce((n,x)=>n+x.e.words.length,0),6886);
+assert.equal(Math.min(...flatParts.map(x=>x.e.words.length)),4);
+assert.equal(Math.max(...flatParts.map(x=>x.e.words.length)),8);
+const sizes={},recordKeys=new Set();let sourceGroups=0,splitGroups=0,oldLocations=0,newLocations=0;
+for(const {L,e} of flatParts){
+  sizes[e.words.length]=(sizes[e.words.length]||0)+1;
+  const key=JSON.stringify(ctx.recordKey(L.id,e.title));assert(!recordKeys.has(key),'Duplicate part record');recordKeys.add(key);
+}
+for(const [li,source] of sourceLessons.entries()){
+  const L=state.lessons[li];
+  assert.equal(JSON.stringify(L.exercises.flatMap(e=>e.words)),JSON.stringify(source.exercises.flatMap(e=>e.words)),'Splitting changed card contents or order');
+  assert.equal(new Set(L.exercises.map(e=>e.title)).size,L.exercises.length,'Duplicate visible title');
+  for(const original of source.exercises){
+    sourceGroups++;
+    const parts=flatParts.filter(x=>x.li===li&&x.e.sourceTitle===original.title);
+    assert(parts.length>0);if(parts.length>1)splitGroups++;
+    assert.equal(JSON.stringify(parts.flatMap(x=>x.e.words)),JSON.stringify(original.words),'A topic lost or gained cards');
+    assert(Math.max(...parts.map(x=>x.e.words.length))-Math.min(...parts.map(x=>x.e.words.length))<=1,'Tiny remainder in '+original.title);
+    if(original.words.length===14)assert.deepEqual(parts.map(x=>x.e.words.length),[7,7]);
+    if(original.words.length===17)assert.deepEqual(parts.map(x=>x.e.words.length),[6,6,5]);
+    if(original.words.length===37)assert.deepEqual(parts.map(x=>x.e.words.length),[8,8,7,7,7]);
+    const oldId=original.progressId||source.progressId||source.id,oldTitle=original.progressTitle||original.title;
+    const rec={completed:true,legacyMarker:original.title};state.progress={[oldId]:{[oldTitle]:rec}};
+    const untouched=JSON.stringify(state.progress);
+    for(const {e} of parts)assert.equal(ctx.getRec(L.id,e.title),rec,'Old completion must clear every descendant');
+    assert.equal(ctx.clearedExercises(),parts.length,'A legacy record cleared an unrelated exercise');
+    assert.equal(JSON.stringify(state.progress),untouched,'Reading old completions rewrote storage');
+    state.progress={[oldId]:{[oldTitle]:{completed:false}}};
+    for(const {e} of parts)assert(!ctx.getRec(L.id,e.title)?.completed,'An unfinished parent cleared a part');
+
+    // Last location from both the previous release and the old root courses.
+    const locations=[{lid:source.id,title:original.title},...(original.legacyLocation?[original.legacyLocation]:[])];
+    for(const old of locations){
+      state.progress={};ctx.saveLast(old.lid,old.title);
+      let target=ctx.resumeTarget();assert.equal(target.li,li);assert.equal(target.ei,parts[0].ei);oldLocations++;
+      ctx.setRec(L.id,parts[0].e.title,{});
+      if(parts.length>1){
+        target=ctx.resumeTarget();assert.equal(target.li,li);assert.equal(target.ei,parts[1].ei,'Resume should select the first unfinished part');
+        assert(!state.progress[oldId]?.[oldTitle],'One part incorrectly completed the whole topic');
+        for(const {e} of parts.slice(1))assert.equal(ctx.getRec(L.id,e.title),null);
+      }
+    }
+    for(const {e,ei} of parts){
+      state.progress={};ctx.saveLast(L.id,e.title);
+      const target=ctx.resumeTarget();assert.equal(target.li,li);assert.equal(target.ei,ei);newLocations++;
+    }
+  }
+}
+assert.equal(sourceGroups,520);assert.equal(newLocations,1079);
+
+// Completing, retrying and advancing a real short part must affect that part only.
+state.progress={};timed.length=0;ctx.openLesson(0);ctx.openExercise(0);
+const firstPart=state.lessons[0].exercises[0],secondPart=state.lessons[0].exercises[1];
+assert.equal(state.session.words.length,8);
+ctx.finishExercise();assert(ctx.getRec('0세트',firstPart.title)?.completed);assert.equal(ctx.getRec('0세트',secondPart.title),null);
+assert.equal(JSON.stringify(ctx.loadProgress()),JSON.stringify(state.progress),'New part records survive reload');
+$('#retryEx').click();assertPlaying(0,0);
+$('#nextEx').click();assertPlaying(0,1);assert.equal(state.session.words.length,7);
+assert.equal($('#gTitle').textContent,'Exercise 1-2');
+ctx.openExercise(1,new Set([secondPart.words[0].term]));ctx.finishExercise();assert.equal(ctx.getRec('0세트',secondPart.title),null,'Partial review cleared a short part');
+
+// Completion still requires every displayed part; legacy full completions work too.
+state.progress={};
+for(const L of sourceLessons)for(const e of L.exercises){
+  const id=e.progressId||L.progressId||L.id;(state.progress[id]??={})[e.progressTitle||e.title]={completed:true};
+}
+assert.equal(ctx.clearedExercises(),1079);
+state.progress={};timed.length=0;
+for(const {L,e} of flatParts.slice(0,-1))ctx.setRec(L.id,e.title,{});
+assert.equal(ctx.clearedExercises(),1078);
+const lastPart=flatParts.at(-1);ctx.openLesson(lastPart.li);ctx.openExercise(lastPart.ei);ctx.finishExercise();
+assert.equal(ctx.clearedExercises(),1079);assert.equal(timed.length,1);assert($('#nextEx').disabled);
+console.log(JSON.stringify({shortExercises:1079,sourceGroups,splitGroups,cards:6886,sizes,oldLocations,newLocations,completionInheritance:'all source groups checked',shortPartNavigation:'pass',shortPartEnding:'pass'}));
 console.log(JSON.stringify({sets:DATA.length,reviewReferences,legacyProgressKeys:legacyRecords,legacyProgress:'preserved',reviewProgress:'former track retained',mergedProgress:'26 historical exercise keys preserved; 16 consolidated exercises',newProgress:'49/50 isolated from historical root-course records',migratedResumes,courseNavigation:'45→46→47→48→49→50 directly to game',guideUI:'removed',greekResearchUnits:greekUnits,ending:'all 51 sets required',syntax:'passed'}));

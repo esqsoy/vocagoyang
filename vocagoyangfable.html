@@ -1811,7 +1811,24 @@ function buildLessons(){
     }))
   }));
 }
-state.lessons=buildLessons();
+// Keep the authored topic groups intact; play each group in balanced short parts.
+function splitExercises(lessons){
+  const maxCards=8;
+  return lessons.map(L=>({...L,exercises:L.exercises.flatMap(ex=>{
+    const count=Math.ceil(ex.words.length/maxCards);
+    if(count<=1)return [{...ex,sourceTitle:ex.title,part:1,parts:1}];
+    const size=Math.floor(ex.words.length/count),extra=ex.words.length%count;
+    const parentRecord={id:ex.progressId||L.progressId||L.id,title:ex.progressTitle||ex.title};
+    let start=0;
+    return Array.from({length:count},(_,i)=>{
+      const end=start+size+(i<extra?1:0),words=ex.words.slice(start,end);start=end;
+      return {...ex,title:ex.title.replace(/^((?:Exercise|이전기출) \d+)/,`$1-${i+1}`),
+        sourceTitle:ex.title,part:i+1,parts:count,parentRecord,
+        progressTitle:`${parentRecord.title} :: short-v1 ${i+1}/${count}`,words};
+    });
+  })}));
+}
+state.lessons=splitExercises(buildLessons());
 function activeLesson(){return state.lessons[state.li];}
 function visEx(L){return state.prevOn?L.exercises:L.exercises.filter(e=>e.scope!=='prev');}
 function nextLessonIndex(li){for(let i=li+1;i<state.lessons.length;i++){if(visEx(state.lessons[i]).length>0)return i;}return -1;}
@@ -1823,7 +1840,13 @@ function recordKey(lid,t){
   const L=state.lessons.find(l=>l.id===lid),e=L?.exercises.find(e=>e.title===t);
   return [e?.progressId||L?.progressId||lid,e?.progressTitle||t];
 }
-function getRec(lid,t){const [key,title]=recordKey(lid,t);return state.progress?.[key]?.[title]||null;}
+function getRec(lid,t){
+  const [key,title]=recordKey(lid,t),rec=state.progress?.[key]?.[title];
+  if(rec)return rec;
+  const parent=state.lessons.find(L=>L.id===lid)?.exercises.find(e=>e.title===t)?.parentRecord;
+  const old=parent&&state.progress?.[parent.id]?.[parent.title];
+  return old?.completed?old:null;
+}
 /* 최고 기록은 두지 않는다(26.9.14 영신). 남기던 bestMs·lastMs·attempts·errors·first는
    타일에 '최근 정답률 · 역대 최고 시간'을 라벨 없이 붙여 존재한 적 없는 판을 보여줬고,
    bestMs 말고는 어디서도 읽지 않는 쓰기 전용 필드였다. 클리어 여부만 남긴다.
@@ -1855,7 +1878,7 @@ const LASTKEY="goyang-hoe-last-v1";
 function saveLast(lid,title){try{localStorage.setItem(LASTKEY,JSON.stringify({lid,title}));}catch(e){}}
 function resumeTarget(){let last=null;try{last=JSON.parse(localStorage.getItem(LASTKEY));}catch(e){}
   const flat=[];state.lessons.forEach((L,li)=>visEx(L).forEach((e,ei)=>flat.push({li,ei,L,e})));if(!flat.length)return null;
-  let start=0;if(last){const k=flat.findIndex(x=>(x.L.id===last.lid&&x.e.title===last.title)||(x.e.legacyLocation?.lid===last.lid&&x.e.legacyLocation?.title===last.title));if(k>=0)start=k;}
+  let start=0;if(last){const k=flat.findIndex(x=>(x.L.id===last.lid&&(x.e.title===last.title||x.e.sourceTitle===last.title))||(x.e.legacyLocation?.lid===last.lid&&x.e.legacyLocation?.title===last.title));if(k>=0)start=k;}
   for(let j=0;j<flat.length;j++){const x=flat[(start+j)%flat.length];if(!getRec(x.L.id,x.e.title)?.completed)return x;}
   return flat[start];}
 /* 발음 읽어주기(브라우저 내장 음성) */
