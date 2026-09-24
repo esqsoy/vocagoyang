@@ -27,7 +27,7 @@ for(const change of corrections){
   assert.equal(card.word,change.word);assert.equal(change.field,'c');assert.equal(card.c,change.new);
   card.c=change.old;
 }
-assert.equal(crypto.createHash('sha256').update(JSON.stringify(originalBaseline)).digest('hex'),'a1b835c5b60f1ee78b6a1e65b475ec5951635f7e859b952c5bc869b2208d52e1','0–45 changed beyond logged usage corrections and the quickly/rapidly and beach/shore aliases, removal of 0:10 and oh/yeah and the Goyang million and April wedding examples');
+assert.equal(crypto.createHash('sha256').update(JSON.stringify(originalBaseline)).digest('hex'),'303f2e2e2b33d4fddad71ecd26fd99ca112a9c4ee26d431bc6e6311bae8e2358','0–45 changed beyond logged usage corrections and the quickly/rapidly alias, removal of 0:10 and oh/yeah and the Goyang million, April wedding and beach volleyball examples');
 for (const m of html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g)) new vm.Script(m[1]);
 const data = JSON.parse(dataBlob(html));
 function between(start,end) {
@@ -119,5 +119,5 @@ const textCtx=vm.createContext({esc:s=>s});vm.runInContext(between('function ans
 assert.equal(textCtx.answerInSentence('{{BLANK}} is useful.','iPhone'),'iPhone');
 assert.equal(textCtx.answerInSentence('I won. {{BLANK}}, she lost.','however'),'However');
 assert.equal(textCtx.answerInSentence('It is {{BLANK}}.','good'),'good');
-const result={sessions,exercises:lessons.reduce((n,l)=>n+l.exercises.length,0),seeds:12,firstOrders:firstOrders.size,partialRetry:'passed',allCardLimits:'exactly +1 second',cardData:'0–45 logged usage corrections and the quickly/rapidly and beach/shore aliases, removal of 0:10 and oh/yeah and Goyang million / April wedding examples; remaining data hash verified',scriptSyntax:'passed',nonAdjacentRule:'passed except when no other headword remains',existingProgressKeys:oldKeys.length,newProgressKeys:addedProgressKeys,brandAndSentenceCasing:'passed'};
+const result={sessions,exercises:lessons.reduce((n,l)=>n+l.exercises.length,0),seeds:12,firstOrders:firstOrders.size,partialRetry:'passed',allCardLimits:'exactly +1 second',cardData:'0–45 logged usage corrections and the quickly/rapidly alias, removal of 0:10 and oh/yeah and Goyang million / April wedding / beach volleyball examples; remaining data hash verified',scriptSyntax:'passed',nonAdjacentRule:'passed except when no other headword remains',existingProgressKeys:oldKeys.length,newProgressKeys:addedProgressKeys,brandAndSentenceCasing:'passed'};
 console.log(JSON.stringify(result));

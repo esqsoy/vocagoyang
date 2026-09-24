@@ -1,4 +1,10 @@
-# Fable beach / shore 허용 답 · 2026-09-25
+# Fable beach 예문 구분 · 2026-09-25
+
+- beach 예문을 `We played {{BLANK}} volleyball on the sand.`로 교체했다. 번역은 '우리는 모래 위에서 비치발리볼을 했어.'다.
+- shore 허용 답을 제거했다. [beach volleyball](https://dictionary.cambridge.org/dictionary/english/beach-volleyball)이라는 종목명으로 두 단어를 구분하고, 차이는 해설로 설명한다.
+- shore는 18세트 Exercise 2 · 1711~1720에 독립 표제어로 유지한다. 연습 구성과 기록 키는 동일하다.
+
+## Fable beach / shore 허용 답 · 2026-09-25 (아래 변경은 위 예문 교체로 대체됨)
 
 - 0세트 beach의 `We swam at the {{BLANK}} all day.`에서 shore도 정답으로 인정한다. 해당 카드의 acceptedAnswers로 한정한다.
 - 예문은 유지하고, beach는 모래·자갈이 있는 해변이고 shore는 바다·호수 등의 물가를 넓게 가리킨다는 차이를 해설에 넣었다. [Cambridge beach](https://dictionary.cambridge.org/dictionary/english/beach), [Cambridge shore](https://dictionary.cambridge.org/dictionary/english/shore).
