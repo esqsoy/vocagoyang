@@ -212,10 +212,10 @@ assert.equal(ids.size,MORPHOLOGY.units.length);
 // The live course uses short parts, while DATA remains the editable topic source.
 const sourceLessons=ctx.buildLessons();state.lessons=ctx.splitExercises(sourceLessons);
 const flatParts=state.lessons.flatMap((L,li)=>L.exercises.map((e,ei)=>({L,li,e,ei})));
-assert.equal(ctx.totalExercises(),1079);
+assert.equal(ctx.totalExercises(),931);
 assert.equal(flatParts.reduce((n,x)=>n+x.e.words.length,0),6886);
 assert.equal(Math.min(...flatParts.map(x=>x.e.words.length)),4);
-assert.equal(Math.max(...flatParts.map(x=>x.e.words.length)),8);
+assert.equal(Math.max(...flatParts.map(x=>x.e.words.length)),13);
 const sizes={},recordKeys=new Set();let sourceGroups=0,splitGroups=0,oldLocations=0,newLocations=0;
 for(const {L,e} of flatParts){
   sizes[e.words.length]=(sizes[e.words.length]||0)+1;
@@ -230,10 +230,12 @@ for(const [li,source] of sourceLessons.entries()){
     const parts=flatParts.filter(x=>x.li===li&&x.e.sourceTitle===original.title);
     assert(parts.length>0);if(parts.length>1)splitGroups++;
     assert.equal(JSON.stringify(parts.flatMap(x=>x.e.words)),JSON.stringify(original.words),'A topic lost or gained cards');
-    assert(Math.max(...parts.map(x=>x.e.words.length))-Math.min(...parts.map(x=>x.e.words.length))<=1,'Tiny remainder in '+original.title);
-    if(original.words.length===14)assert.deepEqual(parts.map(x=>x.e.words.length),[7,7]);
-    if(original.words.length===17)assert.deepEqual(parts.map(x=>x.e.words.length),[6,6,5]);
-    if(original.words.length===37)assert.deepEqual(parts.map(x=>x.e.words.length),[8,8,7,7,7]);
+    const owners=new Map();
+    for(const {e} of parts)for(const w of e.words){
+      const key=(w.word||w.term).trim().toLowerCase();
+      if(owners.has(key))assert.equal(owners.get(key),e.title,'Headword split across parts: '+key);
+      owners.set(key,e.title);
+    }
     const oldId=original.progressId||source.progressId||source.id,oldTitle=original.progressTitle||original.title;
     const rec={completed:true,legacyMarker:original.title};state.progress={[oldId]:{[oldTitle]:rec}};
     const untouched=JSON.stringify(state.progress);
@@ -261,7 +263,65 @@ for(const [li,source] of sourceLessons.entries()){
     }
   }
 }
-assert.equal(sourceGroups,520);assert.equal(newLocations,1079);
+assert.equal(sourceGroups,520);assert.equal(newLocations,931);
+
+// Preserve all meanings of get and other vocabulary heads across an entire
+// ordinary set. Later topic-based review intentionally repeats some headwords.
+for(const L of state.lessons.slice(0,46)){
+  const owner=new Map();
+  for(const e of L.exercises)for(const w of e.words){
+    const key=(w.word||w.term).trim().toLowerCase();
+    if(owner.has(key))assert.equal(owner.get(key),e.title,`${L.id}: split ${key}`);owner.set(key,e.title);
+  }
+}
+const getParts=state.lessons[1].exercises.filter(e=>e.words.some(w=>w.word==='get'));
+assert.equal(getParts.length,1);assert.equal(getParts[0].words.filter(w=>w.word==='get').length,6);
+assert.equal(getParts[0].words.length,12);
+assert.equal(JSON.stringify([...new Set(getParts[0].words.map(w=>w.word))]),JSON.stringify(['like','no','time','get']),'Keep varied heads alongside get');
+const uniqueWords=n=>Array.from({length:n},(_,i)=>({word:'word'+i,term:'word'+i}));
+const rangeSizes=words=>Array.from(ctx.headwordRanges(words),([a,b])=>b-a);
+assert.deepEqual(rangeSizes(uniqueWords(14)),[7,7]);
+assert.deepEqual(rangeSizes(uniqueWords(17)),[9,8]);
+assert.deepEqual(rangeSizes(uniqueWords(37)),[8,8,7,7,7]);
+assert.deepEqual(rangeSizes(Array.from({length:15},()=>({word:'one-head'}))),[15],'Never force an oversized headword into separate parts');
+assert.deepEqual(rangeSizes([{word:'repeat'},...uniqueWords(8),{word:'repeat'}]),[10],'Non-adjacent senses must remain together too');
+
+// Freeze the previous published eight-card partition algorithm independently.
+// A changed part is complete only if all of its cards were already completed,
+// not merely because its visible ordinal happens to match an old part.
+let priorPartLocations=0,coverageCases=0;
+for(const [li,source] of sourceLessons.entries())for(const original of source.exercises){
+  const parts=flatParts.filter(x=>x.li===li&&x.e.sourceTitle===original.title);
+  const oldCount=Math.ceil(original.words.length/8),q=Math.floor(original.words.length/oldCount),r=original.words.length%oldCount;
+  const oldId=original.progressId||source.progressId||source.id,base=original.progressTitle||original.title;
+  const previous=[];let offset=0;
+  for(let i=0;i<oldCount;i++){
+    const start=offset;offset+=q+(i<r?1:0);
+    previous.push({start,end:offset,title:oldCount===1?original.title:original.title.replace(/^((?:Exercise|이전기출) \d+)/,`$1-${i+1}`),key:oldCount===1?base:`${base} :: short-v1 ${i+1}/${oldCount}`});
+  }
+  for(const {e} of parts){
+    const start=original.words.indexOf(e.words[0]),end=start+e.words.length;
+    const covers=previous.filter(p=>p.start<end&&p.end>start);
+    assert.equal(JSON.stringify(e.priorParts),JSON.stringify(oldCount>1?covers.map(p=>({id:oldId,title:p.key})):[]));
+    if(parts.length>1)assert(!previous.some(p=>p.key===e.progressTitle),'Reused a v1 key for different card coverage');
+  }
+  for(let mask=0;mask<(1<<oldCount);mask++){
+    state.progress={[oldId]:{}};const completed=new Set();
+    previous.forEach((p,i)=>{if(mask&(1<<i)){state.progress[oldId][p.key]={completed:true};for(let n=p.start;n<p.end;n++)completed.add(n);}});
+    const before=JSON.stringify(state.progress);
+    for(const {L,e} of parts){
+      const expected=e.words.every(w=>completed.has(original.words.indexOf(w)));
+      assert.equal(!!ctx.getRec(L.id,e.title)?.completed,expected,`${L.id} ${e.title}: incorrect old-part inheritance`);coverageCases++;
+    }
+    assert.equal(JSON.stringify(state.progress),before,'Migration rewrote existing records');
+  }
+  for(const old of previous){
+    state.progress={};storage.set('test-last',JSON.stringify({lid:source.id,title:old.title}));
+    const expected=parts.find(x=>{const start=original.words.indexOf(x.e.words[0]);return start<old.end&&start+x.e.words.length>old.start;});
+    const target=ctx.resumeTarget();assert.equal(target.li,li);assert.equal(target.ei,expected.ei,'Old split location resumed at an unrelated ordinal');priorPartLocations++;
+  }
+}
+assert.equal(priorPartLocations,1079);
 
 // Completing, retrying and advancing a real short part must affect that part only.
 state.progress={};timed.length=0;ctx.openLesson(0);ctx.openExercise(0);
@@ -279,11 +339,11 @@ state.progress={};
 for(const L of sourceLessons)for(const e of L.exercises){
   const id=e.progressId||L.progressId||L.id;(state.progress[id]??={})[e.progressTitle||e.title]={completed:true};
 }
-assert.equal(ctx.clearedExercises(),1079);
+assert.equal(ctx.clearedExercises(),931);
 state.progress={};timed.length=0;
 for(const {L,e} of flatParts.slice(0,-1))ctx.setRec(L.id,e.title,{});
-assert.equal(ctx.clearedExercises(),1078);
+assert.equal(ctx.clearedExercises(),930);
 const lastPart=flatParts.at(-1);ctx.openLesson(lastPart.li);ctx.openExercise(lastPart.ei);ctx.finishExercise();
-assert.equal(ctx.clearedExercises(),1079);assert.equal(timed.length,1);assert($('#nextEx').disabled);
-console.log(JSON.stringify({shortExercises:1079,sourceGroups,splitGroups,cards:6886,sizes,oldLocations,newLocations,completionInheritance:'all source groups checked',shortPartNavigation:'pass',shortPartEnding:'pass'}));
+assert.equal(ctx.clearedExercises(),931);assert.equal(timed.length,1);assert($('#nextEx').disabled);
+console.log(JSON.stringify({shortExercises:931,sourceGroups,splitGroups,cards:6886,sizes,oldLocations,newLocations,priorPartLocations,coverageCases,getSensesTogether:6,headwordSplits:0,completionInheritance:'all source groups and previous short-part combinations checked',shortPartNavigation:'pass',shortPartEnding:'pass'}));
 console.log(JSON.stringify({sets:DATA.length,reviewReferences,legacyProgressKeys:legacyRecords,legacyProgress:'preserved',reviewProgress:'former track retained',mergedProgress:'26 historical exercise keys preserved; 16 consolidated exercises',newProgress:'49/50 isolated from historical root-course records',migratedResumes,courseNavigation:'45→46→47→48→49→50 directly to game',guideUI:'removed',greekResearchUnits:greekUnits,ending:'all 51 sets required',syntax:'passed'}));

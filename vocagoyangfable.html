@@ -1811,20 +1811,46 @@ function buildLessons(){
     }))
   }));
 }
-// Keep the authored topic groups intact; play each group in balanced short parts.
+// A headword's senses stay together, including non-adjacent appearances within
+// one topic. Prefer parts near eight cards, with other heads alongside a
+// many-sense word when possible so a short part is not mostly one repeated answer.
+function headwordRanges(words){
+  const key=w=>(w.word||w.term).trim().toLowerCase(),last=new Map();
+  words.forEach((w,i)=>last.set(key(w),i));
+  const cuts=[0];let right=0;
+  words.forEach((w,i)=>{right=Math.max(right,last.get(key(w)));if(i===right)cuts.push(i+1);});
+  const best=Array(cuts.length);best[cuts.length-1]={cost:0,parts:0};
+  for(let i=cuts.length-2;i>=0;i--){
+    const counts=new Map();let largest=0;
+    for(let j=i+1;j<cuts.length;j++){
+      for(let k=cuts[j-1];k<cuts[j];k++){const head=key(words[k]),n=(counts.get(head)||0)+1;counts.set(head,n);largest=Math.max(largest,n);}
+      const n=cuts[j]-cuts[i],dominance=Math.max(0,2*largest-n);
+      const cost=2*(n-8)**2+dominance**2+best[j].cost,parts=1+best[j].parts,old=best[i];
+      if(!old||cost<old.cost||(cost===old.cost&&(parts<old.parts||(parts===old.parts&&j>old.next))))best[i]={cost,parts,next:j};
+    }
+  }
+  const ranges=[];for(let i=0;i<cuts.length-1;){const j=best[i].next;ranges.push([cuts[i],cuts[j]]);i=j;}
+  return ranges;
+}
 function splitExercises(lessons){
-  const maxCards=8;
   return lessons.map(L=>({...L,exercises:L.exercises.flatMap(ex=>{
-    const count=Math.ceil(ex.words.length/maxCards);
-    if(count<=1)return [{...ex,sourceTitle:ex.title,part:1,parts:1}];
-    const size=Math.floor(ex.words.length/count),extra=ex.words.length%count;
+    const ranges=headwordRanges(ex.words),count=ranges.length;
     const parentRecord={id:ex.progressId||L.progressId||L.id,title:ex.progressTitle||ex.title};
-    let start=0;
-    return Array.from({length:count},(_,i)=>{
-      const end=start+size+(i<extra?1:0),words=ex.words.slice(start,end);start=end;
-      return {...ex,title:ex.title.replace(/^((?:Exercise|이전기출) \d+)/,`$1-${i+1}`),
-        sourceTitle:ex.title,part:i+1,parts:count,parentRecord,
-        progressTitle:`${parentRecord.title} :: short-v1 ${i+1}/${count}`,words};
+    const partTitle=i=>ex.title.replace(/^((?:Exercise|이전기출) \d+)/,`$1-${i+1}`);
+    // The previous release split solely by card count. Keep its coverage so a
+    // new part inherits completion only when every old part covering it is done.
+    const oldCount=Math.ceil(ex.words.length/8),size=Math.floor(ex.words.length/oldCount),extra=ex.words.length%oldCount;
+    let offset=0;
+    const previous=oldCount>1?Array.from({length:oldCount},(_,i)=>{
+      const start=offset,end=start+size+(i<extra?1:0);offset=end;
+      return {start,end,title:partTitle(i),record:{id:parentRecord.id,title:`${parentRecord.title} :: short-v1 ${i+1}/${oldCount}`}};
+    }):[];
+    return ranges.map(([start,end],i)=>{
+      const covered=previous.filter(p=>p.start<end&&p.end>start);
+      return {...ex,title:count===1?ex.title:partTitle(i),sourceTitle:ex.title,part:i+1,parts:count,
+        parentRecord,priorParts:covered.map(p=>p.record),priorTitles:covered.map(p=>p.title),
+        progressTitle:count===1?ex.progressTitle:`${parentRecord.title} :: heads-v2 ${start+1}-${end}`,
+        words:ex.words.slice(start,end)};
     });
   })}));
 }
@@ -1842,10 +1868,12 @@ function recordKey(lid,t){
 }
 function getRec(lid,t){
   const [key,title]=recordKey(lid,t),rec=state.progress?.[key]?.[title];
-  if(rec)return rec;
-  const parent=state.lessons.find(L=>L.id===lid)?.exercises.find(e=>e.title===t)?.parentRecord;
+  if(rec?.completed)return rec;
+  const ex=state.lessons.find(L=>L.id===lid)?.exercises.find(e=>e.title===t),parent=ex?.parentRecord;
   const old=parent&&state.progress?.[parent.id]?.[parent.title];
-  return old?.completed?old:null;
+  if(old?.completed)return old;
+  if(ex?.priorParts?.length&&ex.priorParts.every(p=>state.progress?.[p.id]?.[p.title]?.completed))return {completed:true};
+  return rec||null;
 }
 /* 최고 기록은 두지 않는다(26.9.14 영신). 남기던 bestMs·lastMs·attempts·errors·first는
    타일에 '최근 정답률 · 역대 최고 시간'을 라벨 없이 붙여 존재한 적 없는 판을 보여줬고,
@@ -1875,10 +1903,14 @@ const screens={home:$("#homeScreen"),lesson:$("#lessonScreen"),game:$("#gameScre
 function show(n){Object.values(screens).forEach(s=>s.classList.remove("active"));screens[n].classList.add("active");document.body.classList.toggle("playing",n==="game");if(n!=="game")window.scrollTo(0,0);}
 /* 마지막으로 한 연습 → 홈 '이어 하기' */
 const LASTKEY="goyang-hoe-last-v1";
-function saveLast(lid,title){try{localStorage.setItem(LASTKEY,JSON.stringify({lid,title}));}catch(e){}}
+function saveLast(lid,title){try{localStorage.setItem(LASTKEY,JSON.stringify({lid,title,layout:"heads-v2"}));}catch(e){}}
 function resumeTarget(){let last=null;try{last=JSON.parse(localStorage.getItem(LASTKEY));}catch(e){}
   const flat=[];state.lessons.forEach((L,li)=>visEx(L).forEach((e,ei)=>flat.push({li,ei,L,e})));if(!flat.length)return null;
-  let start=0;if(last){const k=flat.findIndex(x=>(x.L.id===last.lid&&(x.e.title===last.title||x.e.sourceTitle===last.title))||(x.e.legacyLocation?.lid===last.lid&&x.e.legacyLocation?.title===last.title));if(k>=0)start=k;}
+  let start=0;if(last){
+    let k=last.layout!=="heads-v2"?flat.findIndex(x=>x.L.id===last.lid&&x.e.priorTitles?.includes(last.title)):-1;
+    if(k<0)k=flat.findIndex(x=>(x.L.id===last.lid&&(x.e.title===last.title||x.e.sourceTitle===last.title))||(x.e.legacyLocation?.lid===last.lid&&x.e.legacyLocation?.title===last.title));
+    if(k>=0)start=k;
+  }
   for(let j=0;j<flat.length;j++){const x=flat[(start+j)%flat.length];if(!getRec(x.L.id,x.e.title)?.completed)return x;}
   return flat[start];}
 /* 발음 읽어주기(브라우저 내장 음성) */
