@@ -73,7 +73,7 @@
         "pos": "v.",
         "word": "shoot",
         "si": 1,
-        "sn": 4
+        "sn": 3
       },
       {
         "en": "shoot",
@@ -85,7 +85,7 @@
         "pos": "v.",
         "word": "shoot",
         "si": 2,
-        "sn": 4
+        "sn": 3
       },
       {
         "en": "shoot",
@@ -97,27 +97,15 @@
         "pos": "v.",
         "word": "shoot",
         "si": 3,
-        "sn": 4,
+        "sn": 3,
         "meow": "일산에서 shoot, 찍으면 다 명작이라고양. 내가 나오니까양."
-      },
-      {
-        "en": "shoot",
-        "ko": "④ [shit의 완곡어] 이런, 아이코",
-        "ex": "{{BLANK}}! I left my bag at home.",
-        "tr": "이런! 가방을 집에 두고 왔네.",
-        "c": "실망·짜증을 나타내는 비격식 감탄사. shit보다 순한 표현으로, '이런!' 정도.",
-        "ipa": "ʃut",
-        "pos": "int.",
-        "word": "shoot",
-        "si": 4,
-        "sn": 4
       },
       {
         "en": "figure",
         "ko": "① (자료의) 수치",
         "ex": "Look at the {{BLANK}}s in this report.",
         "tr": "이 보고서의 수치들을 봐.",
-        "c": "통계·자료 속 숫자. number보다 딱딱한 서류 냄새.",
+        "c": "자료·통계의 수치. sales figures는 판매 실적 수치, a six-figure salary는 여섯 자리 액수의 연봉.",
         "ipa": "ˈfɪɡjɚ",
         "pos": "n.",
         "word": "figure",
@@ -201,7 +189,7 @@
         "ko": "① 잊다, 깜빡하다",
         "ex": "Don't {{BLANK}} your homework again.",
         "tr": "숙제 또 잊지 마.",
-        "c": "forget-forgot-forgotten. to lock은 잠그는 걸 잊다, locking은 잠근 기억을 잊다.",
+        "c": "forget–forgot–forgotten. forget to lock은 잠그는 일을 잊다, forget locking은 잠갔다는 기억을 잊다.",
         "ipa": "fɚˈɡɛt",
         "pos": "v.",
         "word": "forget",
@@ -292,6 +280,104 @@
         "pos": "n.",
         "si": 3,
         "sn": 3
+      }
+    ],
+    "legacyWords": [
+      {
+        "word": "organization",
+        "si": 1
+      },
+      {
+        "word": "organization",
+        "si": 2
+      },
+      {
+        "word": "character",
+        "si": 1
+      },
+      {
+        "word": "character",
+        "si": 2
+      },
+      {
+        "word": "character",
+        "si": 3
+      },
+      {
+        "word": "shoot",
+        "si": 1
+      },
+      {
+        "word": "shoot",
+        "si": 2
+      },
+      {
+        "word": "shoot",
+        "si": 3
+      },
+      {
+        "word": "shoot",
+        "si": 4
+      },
+      {
+        "word": "figure",
+        "si": 1
+      },
+      {
+        "word": "figure",
+        "si": 2
+      },
+      {
+        "word": "figure",
+        "si": 3
+      },
+      {
+        "word": "figure",
+        "si": 4
+      },
+      {
+        "word": "figure",
+        "si": 5
+      },
+      {
+        "word": "figure",
+        "si": 6
+      },
+      {
+        "word": "attention",
+        "si": 1
+      },
+      {
+        "word": "forget",
+        "si": 1
+      },
+      {
+        "word": "risk",
+        "si": 1
+      },
+      {
+        "word": "risk",
+        "si": 2
+      },
+      {
+        "word": "dog",
+        "si": 1
+      },
+      {
+        "word": "hair",
+        "si": 1
+      },
+      {
+        "word": "condition",
+        "si": 1
+      },
+      {
+        "word": "condition",
+        "si": 2
+      },
+      {
+        "word": "condition",
+        "si": 3
       }
     ]
   },
@@ -502,7 +588,7 @@
         "ko": "① 인구",
         "ex": "The {{BLANK}} of this city is growing fast.",
         "tr": "이 도시 인구는 빠르게 늘고 있어.",
-        "c": "인구가 많다=large population. many(X). 크기로 말한다.",
+        "c": "인구가 많다는 a large population, 적다는 a small population. the population of는 ‘~의 인구’.",
         "ipa": "ˌpɑpjəˈleɪʃən",
         "pos": "n.",
         "word": "population",
@@ -647,7 +733,7 @@
         "ko": "① 지구",
         "ex": "The {{BLANK}} goes around the sun.",
         "tr": "지구는 태양 주위를 돌아.",
-        "c": "지구는 the earth. 흙·땅 뜻도 있어서 '흙으로 된 별' 그림.",
+        "c": "지구는 the earth 또는 Earth라고 쓴다. go around the sun은 태양 주위를 돌다.",
         "ipa": "ɝθ",
         "pos": "n.",
         "word": "earth",
@@ -786,7 +872,7 @@
         "ko": "① 궁금하다",
         "ex": "I {{BLANK}} why she is so quiet today.",
         "tr": "걔가 오늘 왜 저렇게 조용한지 궁금해.",
-        "c": "I wonder why/if ~: ~일까 궁금해하다. 혼잣말 질문.",
+        "c": "I wonder why/if는 ‘왜 그런지/~인지 궁금하다’. I wonder if you can help는 도움을 조심스럽게 부탁하는 표현도 된다.",
         "ipa": "ˈwʌndɚ",
         "pos": "v.",
         "word": "wonder",
@@ -998,7 +1084,7 @@
         "ko": "① 병원",
         "ex": "My aunt works at the {{BLANK}}.",
         "tr": "우리 이모는 병원에서 일하셔.",
-        "c": "미국은 go to the hospital, 영국은 go to hospital. 가벼운 진료는 see a doctor.",
+        "c": "환자로 병원에 가는 것은 영국식 go to hospital, 미국식 go to the hospital. 영국에서도 특정 병원 건물에 가면 the hospital이라고 한다.",
         "ipa": "ˈhɑspɪtəl",
         "pos": "n.",
         "word": "hospital",
@@ -1162,7 +1248,7 @@
         "ko": "① 마일 (거리 단위)",
         "ex": "The beach is two {{BLANK}}s from here.",
         "tr": "해변은 여기서 2마일이야.",
-        "c": "미국 거리 단위. 1 mile은 약 1.6km.",
+        "c": "미국·영국 등에서 쓰는 거리 단위. 1 mile은 약 1.6km.",
         "ipa": "maɪl",
         "pos": "n.",
         "word": "mile",
@@ -1409,7 +1495,7 @@
         "ko": "① 질, 품질",
         "ex": "I buy shoes of good {{BLANK}}.",
         "tr": "난 질 좋은 신발을 사.",
-        "c": "질(quality)과 양(quantity). 철자가 닮아 시험 단골.",
+        "c": "quality는 질·품질, quantity는 양. quality over quantity는 양보다 질.",
         "ipa": "ˈkwɑləti",
         "pos": "n.",
         "word": "quality",
@@ -1547,7 +1633,7 @@
         "ko": "② (사건) 현장",
         "ex": "The police arrived at the {{BLANK}} fast.",
         "tr": "경찰이 현장에 빨리 도착했어.",
-        "c": "사건 현장: the scene of the crime. 곧 배울 crime과 세트.",
+        "c": "the scene of the crime은 범죄 현장. at the scene은 그 현장에서.",
         "ipa": "sin",
         "pos": "n.",
         "word": "scene",
@@ -1685,7 +1771,7 @@
         "ko": "① 지식",
         "ex": "She has a deep {{BLANK}} of Korean history.",
         "tr": "걔는 한국사 지식이 깊어.",
-        "c": "know의 명사인데 발음은 /날리지/. k는 묵음.",
+        "c": "know(알다)와 관련된 명사. k는 묵음. knowledge of history는 역사에 관한 지식.",
         "ipa": "ˈnɑlɪdʒ",
         "pos": "n.",
         "word": "knowledge",
@@ -1758,7 +1844,7 @@
         "ko": "② 주장하다",
         "ex": "He {{BLANK}}d for a longer break at the meeting.",
         "tr": "걔는 회의에서 휴식 시간을 늘리자고 주장했어.",
-        "c": "근거를 대며 '주장하다'. claim보다 논리적인 냄새.",
+        "c": "이유·근거를 들어 주장하다. argue for는 ~에 찬성하는 주장을 펴다, argue against는 ~에 반대하는 주장을 펴다.",
         "ipa": "ˈɑrɡju",
         "pos": "v.",
         "word": "argue",
@@ -1932,7 +2018,7 @@
         "ko": "① 외국의",
         "ex": "She wants to study in a {{BLANK}} country.",
         "tr": "걔는 외국에서 공부하고 싶어 해.",
-        "c": "g는 묵음: /포런/. foreign country 외국, foreigner 외국인.",
+        "c": "g는 묵음. foreign country는 외국, foreigner는 외국인.",
         "ipa": "ˈfɔrən",
         "pos": "adj.",
         "word": "foreign",

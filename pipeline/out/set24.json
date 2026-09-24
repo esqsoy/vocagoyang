@@ -188,7 +188,7 @@
         "ko": "② 관련, 관계",
         "ex": "There is a clear {{BLANK}} between these two events.",
         "tr": "이 두 사건 사이에는 분명한 관련이 있어.",
-        "c": "connection between A and B가 짝. 전치사 between을 기억하자.",
+        "c": "connection between A and B는 A와 B 사이의 관련. a connection with도 ~와의 관련을 뜻한다.",
         "ipa": "kəˈnɛkʃən",
         "pos": "n.",
         "word": "connection",
@@ -206,7 +206,7 @@
         "ko": "① 트럭, 화물차",
         "ex": "A big {{BLANK}} blocked our street this morning.",
         "tr": "오늘 아침에 큰 트럭이 우리 길을 막았어.",
-        "c": "미국식 말. 영국에서는 lorry라고 한다.",
+        "c": "물건을 실어 나르는 화물차. 영국에서는 lorry라는 말도 흔히 쓴다.",
         "ipa": "trʌk",
         "pos": "n.",
         "word": "truck",
@@ -230,7 +230,7 @@
         "ko": "① 학습, 배움",
         "ex": "Playing a game can be a fun way of {{BLANK}}.",
         "tr": "게임을 하는 것도 재미있는 학습 방법이 될 수 있어.",
-        "c": "셀 수 없어서 a learning은 안 쓴다.",
+        "c": "학습·배움이라는 뜻에서는 셀 수 없는 명사. a way of learning은 학습 방법.",
         "ipa": "ˈlɝnɪŋ",
         "pos": "n.",
         "word": "learning",
@@ -381,7 +381,7 @@
         "ko": "① 완전히, 충분히",
         "ex": "My phone is not {{BLANK}} charged yet.",
         "tr": "내 폰 아직 완전히 충전 안 됐어.",
-        "c": "full+-ly라서 l이 둘. fully charged(완전히 충전된), fully aware(충분히 아는).",
+        "c": "full의 부사형은 fully로 l이 두 개다. fully charged는 완전히 충전된, fully aware는 충분히 알고 있는.",
         "ipa": "ˈfʊli",
         "pos": "adv.",
         "word": "fully",
@@ -429,7 +429,7 @@
         "ko": "② 생계, 생활비",
         "ex": "My aunt makes a {{BLANK}} by selling bread.",
         "tr": "우리 이모는 빵을 팔아서 생계를 꾸려.",
-        "c": "make a living(생계를 꾸리다)이 대표 표현. 관사 a를 꼭 쓴다.",
+        "c": "make a living은 생계를 꾸리다. earn a living도 같은 뜻이다.",
         "ipa": "ˈlɪvɪŋ",
         "pos": "n.",
         "word": "living",
@@ -453,7 +453,7 @@
         "ko": "① 기본적으로, 한마디로",
         "ex": "{{BLANK}}, we just need more time.",
         "tr": "한마디로, 우리는 시간이 더 필요해.",
-        "c": "basic+-ally(-ic 뒤엔 -ally). 말 앞에서 '한마디로'라는 뜻.",
+        "c": "basic의 부사형은 basically. 핵심만 간단히 말할 때 기본적으로·한마디로라는 뜻으로 쓴다.",
         "ipa": "ˈbeɪsɪkli",
         "pos": "adv.",
         "word": "basically",
@@ -501,7 +501,7 @@
         "ko": "① 천천히, 느리게",
         "ex": "Read the question {{BLANK}} and think again.",
         "tr": "문제를 천천히 읽고 다시 생각해 봐.",
-        "c": "slow+-ly. slow도 부사로 쓰지만 slowly가 표준이다.",
+        "c": "slow의 일반적인 부사형은 slowly. go slow, drive slow처럼 slow 자체도 부사로 쓴다.",
         "ipa": "ˈsloʊli",
         "pos": "adv.",
         "word": "slowly",
@@ -519,7 +519,7 @@
         "ko": "① 반응, 반작용",
         "ex": "Her {{BLANK}} to my joke was pretty cold.",
         "tr": "내 농담에 대한 걔 반응은 꽤 차가웠어.",
-        "c": "react(반응하다)+-ion. reaction to ~ 가 짝. 전치사 to 주의.",
+        "c": "reaction to는 ~에 대한 반응. 동사는 react, react to도 ~에 반응하다라는 뜻이다.",
         "ipa": "riˈækʃən",
         "pos": "n.",
         "word": "reaction",
@@ -531,7 +531,7 @@
         "ko": "① 성적, 점수",
         "ex": "I got a good {{BLANK}} on the science test.",
         "tr": "나 과학 시험에서 좋은 등급 받았어.",
-        "c": "get a good grade가 대표 짝. 영국에서는 mark를 쓴다.",
+        "c": "grade는 성취 수준을 나타내는 등급·성적. mark는 시험·과제의 점수나 평가를 뜻하며 특히 영국에서 흔하다.",
         "ipa": "ɡreɪd",
         "pos": "n.",
         "word": "grade",
@@ -562,18 +562,6 @@
         "pos": "v.",
         "si": 3,
         "sn": 3
-      },
-      {
-        "en": "wow",
-        "ko": "① 와, 우와",
-        "ex": "{{BLANK}}, your new bike looks amazing!",
-        "tr": "우와, 네 새 자전거 진짜 멋지다!",
-        "c": "놀람과 감탄의 감탄사. informal이라 글보다 말에서 쓴다.",
-        "ipa": "waʊ",
-        "pos": "int.",
-        "word": "wow",
-        "si": 1,
-        "sn": 1
       },
       {
         "en": "troop",
@@ -659,6 +647,56 @@
         "word": "african",
         "si": 1,
         "sn": 1
+      }
+    ],
+    "legacyWords": [
+      {
+        "word": "reaction",
+        "si": 1
+      },
+      {
+        "word": "grade",
+        "si": 1
+      },
+      {
+        "word": "grade",
+        "si": 2
+      },
+      {
+        "word": "grade",
+        "si": 3
+      },
+      {
+        "word": "wow",
+        "si": 1
+      },
+      {
+        "word": "troop",
+        "si": 1
+      },
+      {
+        "word": "mental",
+        "si": 1
+      },
+      {
+        "word": "software",
+        "si": 1
+      },
+      {
+        "word": "tradition",
+        "si": 1
+      },
+      {
+        "word": "technique",
+        "si": 1
+      },
+      {
+        "word": "impossible",
+        "si": 1
+      },
+      {
+        "word": "african",
+        "si": 1
       }
     ]
   },
@@ -827,7 +865,7 @@
         "ko": "② 학대하다, 남용하다",
         "ex": "Some people {{BLANK}} their power at work.",
         "tr": "어떤 사람들은 직장에서 자기 권력을 남용해.",
-        "c": "'잘못 쓰다·학대하다'로 use보다 훨씬 강한 말이다.",
+        "c": "권한·약물 등을 잘못 쓰거나 남용하다. 사람·동물에게 쓰면 학대하다는 뜻.",
         "ipa": "əˈbjuz",
         "pos": "v.",
         "word": "abuse",
@@ -942,7 +980,7 @@
         "ko": "① 인치",
         "ex": "My hair grew almost an {{BLANK}} this month.",
         "tr": "내 머리카락이 이번 달에 거의 1인치 자랐어.",
-        "c": "1인치는 약 2.54cm. 복수는 inches로 -es를 붙인다.",
+        "c": "1인치는 2.54cm. 복수는 inches로 -es를 붙인다.",
         "ipa": "ɪntʃ",
         "pos": "n.",
         "word": "inch",
@@ -980,18 +1018,6 @@
     "ex": 7,
     "name": "2344~2353",
     "words": [
-      {
-        "en": "fucking",
-        "ko": "① 빌어먹을, 진짜 (강조)",
-        "ex": "That {{BLANK}} test was way too long.",
-        "tr": "그 빌어먹을 시험 진짜 너무 길었어.",
-        "c": "offensive. 강조용 비속어라 어른 앞이나 글에서는 금지.",
-        "ipa": "ˈfʌkɪŋ",
-        "pos": "adj.",
-        "word": "fucking",
-        "si": 1,
-        "sn": 1
-      },
       {
         "en": "studio",
         "ko": "① 작업실, 스튜디오",
@@ -1045,7 +1071,7 @@
         "ko": "① 영웅",
         "ex": "That doctor is a real {{BLANK}} to me.",
         "tr": "그 의사 선생님은 나한테 진짜 영웅이야.",
-        "c": "복수는 heroes로 -es를 붙인다. 여자 영웅은 heroine.",
+        "c": "용기나 업적으로 존경받는 영웅. 복수는 heroes. 여성 영웅을 heroine이라 하기도 하며 hero도 성별과 관계없이 쓴다.",
         "ipa": "ˈhɪroʊ",
         "pos": "n.",
         "word": "hero",
@@ -1057,7 +1083,7 @@
         "ko": "② (이야기의) 주인공",
         "ex": "The {{BLANK}} of the movie saves the city.",
         "tr": "그 영화의 주인공이 도시를 구해.",
-        "c": "이야기 속 남자 주인공. 여자 주인공은 heroine이라 한다.",
+        "c": "이야기의 중심에서 활약하는 주인공. 여성 주인공을 heroine이라 하기도 한다.",
         "ipa": "ˈhɪroʊ",
         "pos": "n.",
         "word": "hero",
@@ -1093,7 +1119,7 @@
         "ko": "① 사라지다",
         "ex": "My pen just {{BLANK}}ed from my desk.",
         "tr": "내 펜이 책상에서 그냥 사라졌어.",
-        "c": "dis-(반대)+appear(나타나다). 자동사라 목적어를 못 쓴다.",
+        "c": "dis-(반대) + appear(나타나다). 사라지다는 뜻에서는 목적어 없이 The cat disappeared처럼 쓴다.",
         "ipa": "ˌdɪsəˈpɪr",
         "pos": "v.",
         "word": "disappear",
@@ -1129,12 +1155,66 @@
         "ko": "② (이야기의) 배경 설정",
         "ex": "The {{BLANK}} of the story is a small town.",
         "tr": "그 이야기의 무대 배경은 작은 마을이야.",
-        "c": "이야기의 시간·장소 배경. 소설의 '배경'은 background가 아니라 setting이다.",
+        "c": "이야기가 펼쳐지는 시간·장소. background는 사건을 이해하는 데 필요한 배경 사정·정보를 가리킬 수 있다.",
         "ipa": "ˈsɛtɪŋ",
         "pos": "n.",
         "word": "setting",
         "si": 2,
         "sn": 2
+      }
+    ],
+    "legacyWords": [
+      {
+        "word": "fucking",
+        "si": 1
+      },
+      {
+        "word": "studio",
+        "si": 1
+      },
+      {
+        "word": "via",
+        "si": 1
+      },
+      {
+        "word": "panel",
+        "si": 1
+      },
+      {
+        "word": "panel",
+        "si": 2
+      },
+      {
+        "word": "hero",
+        "si": 1
+      },
+      {
+        "word": "hero",
+        "si": 2
+      },
+      {
+        "word": "solve",
+        "si": 1
+      },
+      {
+        "word": "episode",
+        "si": 1
+      },
+      {
+        "word": "disappear",
+        "si": 1
+      },
+      {
+        "word": "democracy",
+        "si": 1
+      },
+      {
+        "word": "setting",
+        "si": 1
+      },
+      {
+        "word": "setting",
+        "si": 2
       }
     ]
   },
@@ -1255,8 +1335,8 @@
         "en": "crew",
         "ko": "① 승무원, 작업조",
         "ex": "The {{BLANK}} cleaned the plane before we got on.",
-        "tr": "승무원들이 우리가 타기 전에 비행기를 청소했어.",
-        "c": "배·비행기의 승무원 전체. 집합명사라 단수 취급이 흔하다.",
+        "tr": "작업조가 우리가 타기 전에 비행기를 청소했어.",
+        "c": "배·비행기의 승무원이나 함께 작업하는 사람들. a film crew는 영화 촬영팀.",
         "ipa": "kru",
         "pos": "n.",
         "word": "crew",
@@ -1419,7 +1499,7 @@
         "ko": "① 조직하다, (행사를) 주관하다",
         "ex": "Who will {{BLANK}} the school festival this year?",
         "tr": "올해 학교 축제는 누가 주관할 거야?",
-        "c": "organ(기관)+-ize. 영국식 철자는 organise다.",
+        "c": "행사·활동을 계획하고 준비하다. 영국에서는 organise 철자도 쓴다.",
         "ipa": "ˈɔrɡənaɪz",
         "pos": "v.",
         "word": "organize",
@@ -1485,7 +1565,7 @@
         "ko": "① 비율, 백분율",
         "ex": "A large {{BLANK}} of my class plays soccer.",
         "tr": "우리 반은 축구 하는 애들 퍼센트가 높아.",
-        "c": "percent는 숫자와, percentage는 large/small과 함께 쓴다.",
+        "c": "숫자 뒤에는 percent(20 percent), 비율 자체를 가리키는 명사는 percentage. a large percentage는 높은 비율.",
         "ipa": "pɚˈsɛntɪdʒ",
         "pos": "n.",
         "word": "percentage",
@@ -1522,7 +1602,7 @@
         "ko": "① 더하기, ~을 더하여",
         "ex": "Two {{BLANK}} three is five.",
         "tr": "2 더하기 3은 5야.",
-        "c": "더하기 기호. 반대는 minus. 뒤 동사는 단수로 받는다.",
+        "c": "더하기를 나타내는 전치사. Two plus three is five는 2 더하기 3은 5라는 뜻. 빼기는 minus.",
         "ipa": "plʌs",
         "pos": "prep.",
         "word": "plus",
@@ -1580,9 +1660,9 @@
       {
         "en": "tip",
         "ko": "③ 팁, 봉사료",
-        "ex": "In America you should leave a {{BLANK}}.",
-        "tr": "미국에서는 팁을 남겨야 해.",
-        "c": "미국 식당에서는 보통 15~20%의 팁을 남긴다.",
+        "ex": "We left a {{BLANK}} for the waiter.",
+        "tr": "우리는 웨이터에게 팁을 남겼어.",
+        "c": "서비스에 대한 감사로 추가로 주는 돈. leave a tip은 팁을 남기다. 봉사료가 계산서에 포함되는 경우와는 구별한다.",
         "ipa": "tɪp",
         "pos": "n.",
         "word": "tip",
@@ -1606,7 +1686,7 @@
         "ko": "① 인도의, 인도인의",
         "ex": "We tried {{BLANK}} food for the first time.",
         "tr": "우리 처음으로 인도 음식을 먹어 봤어.",
-        "c": "항상 대문자로 씀. 아메리카 원주민을 뜻하던 옛 용법은 피한다.",
+        "c": "인도와 관련된 형용사. 문맥에 따라 아메리카 원주민을 가리키기도 하며, 특정 부족을 말할 때는 그 부족의 이름을 쓴다.",
         "ipa": "ˈɪndiən",
         "pos": "adj.",
         "word": "indian",

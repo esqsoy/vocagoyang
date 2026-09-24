@@ -129,7 +129,7 @@
         "ko": "① 혐의를 받는, 고발당한",
         "ex": "The {{BLANK}} man said he was home.",
         "tr": "혐의를 받는 그 남자는 집에 있었다고 말했어.",
-        "c": "accuse(고발하다)+-ed. 「be accused of+명사」 짝을 외운다.",
+        "c": "accuse는 고발하거나 혐의를 제기하다. be accused of 뒤에는 혐의에 해당하는 명사나 -ing형이 온다.",
         "ipa": "əˈkjuzd",
         "pos": "adj.",
         "word": "accused",
@@ -195,7 +195,7 @@
         "ko": "① 트랜스젠더의",
         "ex": "My cousin is {{BLANK}} and very open about it.",
         "tr": "내 사촌은 트랜스젠더고 그걸 아주 떳떳하게 말해.",
-        "c": "transgender의 줄임말. 사람을 가리키니 예의를 갖춰 쓴다.",
+        "c": "transgender의 줄임말. 출생 시 지정된 성별과 성 정체성이 다른 사람을 가리키는 형용사.",
         "ipa": "trænz",
         "pos": "adj.",
         "word": "trans",
@@ -207,7 +207,7 @@
         "ko": "① 짜증나는, 성가신",
         "ex": "That {{BLANK}} song is stuck in my head.",
         "tr": "그 짜증나는 노래가 머리에서 안 떠나.",
-        "c": "annoy(짜증나게 하다)+-ing. 사람 기분은 annoyed로 쓴다.",
+        "c": "짜증을 일으키는 쪽은 annoying, 짜증을 느끼는 쪽은 annoyed. an annoying person은 짜증나게 구는 사람.",
         "ipa": "əˈnɔɪɪŋ",
         "pos": "adj.",
         "word": "annoying",
@@ -429,8 +429,8 @@
       {
         "en": "educated",
         "ko": "① 교육받은, 학식 있는",
-        "ex": "My grandma is well {{BLANK}} for her age.",
-        "tr": "우리 할머니는 연세에 비해 교육을 많이 받으셨어.",
+        "ex": "My grandma is well {{BLANK}} and loves history.",
+        "tr": "우리 할머니는 학식이 풍부하시고 역사를 좋아하셔.",
         "c": "educate(교육하다)+-ed. an educated guess는 '근거 있는 추측'.",
         "ipa": "ˈɛdʒʊkeɪtɪd",
         "pos": "adj.",
@@ -491,7 +491,7 @@
         "ko": "① 만족한",
         "ex": "Mom was {{BLANK}} with my final grade.",
         "tr": "엄마는 내 최종 성적에 만족하셨어.",
-        "c": "satisfy(만족시키다)+-ed. 짝은 with가 기본. 일이면 satisfying.",
+        "c": "만족을 느끼는 쪽은 satisfied, 만족을 주는 쪽은 satisfying. be satisfied with는 ~에 만족하다.",
         "ipa": "ˈsætɪsfaɪd",
         "pos": "adj.",
         "word": "satisfied",
@@ -521,7 +521,7 @@
         "ko": "① 거듭된, 되풀이되는",
         "ex": "She passed the test after {{BLANK}} tries.",
         "tr": "걔는 거듭 시도한 끝에 그 시험에 붙었어.",
-        "c": "repeat(반복하다)+-ed. 명사 앞에서만 쓰는 형용사다.",
+        "c": "한 번으로 끝나지 않고 거듭된. repeated attempts는 거듭된 시도, repeatedly는 반복해서라는 부사.",
         "ipa": "rɪˈpitɪd",
         "pos": "adj.",
         "word": "repeated",
@@ -593,7 +593,7 @@
         "ko": "① 충격받은, 깜짝 놀란",
         "ex": "We were all {{BLANK}} by the news.",
         "tr": "우리 모두 그 소식에 충격을 받았어.",
-        "c": "shock(충격을 주다)+-ed. 짝은 by나 at. 일이면 shocking.",
+        "c": "충격을 받은 쪽은 shocked, 충격을 주는 쪽은 shocking. be shocked by 또는 at은 ~에 충격을 받다.",
         "ipa": "ʃɑkt",
         "pos": "adj.",
         "word": "shocked",
@@ -624,18 +624,52 @@
         "word": "hilarious",
         "si": 1,
         "sn": 1
+      }
+    ],
+    "legacyWords": [
+      {
+        "word": "printing",
+        "si": 1
       },
       {
-        "en": "nope",
-        "ko": "① 아니, 아니야",
-        "ex": "\"Did you finish?\" \"{{BLANK}}, not yet.\"",
-        "tr": "\"다 했어?\" \"아니, 아직.\"",
-        "c": "informal. no의 구어형. 어른 앞이나 글에서는 no를 쓴다.",
-        "ipa": "noʊp",
-        "pos": "int.",
+        "word": "repeated",
+        "si": 1
+      },
+      {
+        "word": "bass",
+        "si": 1
+      },
+      {
+        "word": "bass",
+        "si": 2
+      },
+      {
+        "word": "dual",
+        "si": 1
+      },
+      {
+        "word": "feeding",
+        "si": 1
+      },
+      {
+        "word": "logo",
+        "si": 1
+      },
+      {
+        "word": "shocked",
+        "si": 1
+      },
+      {
+        "word": "auction",
+        "si": 1
+      },
+      {
+        "word": "hilarious",
+        "si": 1
+      },
+      {
         "word": "nope",
-        "si": 1,
-        "sn": 1
+        "si": 1
       }
     ]
   },
@@ -660,7 +694,7 @@
         "ko": "① (soon의 비교급) 더 빨리, 더 일찍",
         "ex": "You should've told me {{BLANK}}.",
         "tr": "너 나한테 좀 더 빨리 말해 줬어야지.",
-        "c": "soon의 비교급. sooner or later는 '조만간'을 뜻한다.",
+        "c": "soon의 비교급. sooner or later는 빠르든 늦든 결국·언젠가는이라는 뜻으로, 반드시 가까운 미래라는 뜻은 아니다.",
         "ipa": "ˈsunɚ",
         "pos": "adv.",
         "word": "sooner",
@@ -733,7 +767,7 @@
         "ko": "① 역겨운, 정말 싫은",
         "ex": "This milk smells {{BLANK}}. Throw it out.",
         "tr": "이 우유 냄새 역겨워. 버려.",
-        "c": "disgust(역겹게 하다)+-ing. 사람 기분은 disgusted로 쓴다.",
+        "c": "역겨움을 일으키는 쪽은 disgusting, 역겨움을 느끼는 쪽은 disgusted. disgusting behavior는 역겨운 행동.",
         "ipa": "dɪsˈɡʌstɪŋ",
         "pos": "adj.",
         "word": "disgusting",
@@ -746,7 +780,7 @@
         "ko": "① 헛간, 창고",
         "ex": "Dad keeps his tools in the {{BLANK}}.",
         "tr": "아빠는 연장을 헛간에 두셔.",
-        "c": "she와는 상관없는 말이다. 마당에 있는 작은 창고를 뜻한다.",
+        "c": "연장·자전거 등을 보관하는 작은 별채나 창고. a garden shed는 정원용 창고.",
         "ipa": "ʃɛd",
         "pos": "n.",
         "word": "shed",
@@ -758,7 +792,7 @@
         "ko": "② 흘리다, 떨어뜨리다",
         "ex": "She {{BLANK}} tears during the last scene.",
         "tr": "걔는 마지막 장면에서 눈물을 흘렸어.",
-        "c": "shed-shed-shed로 꼴이 안 변한다. shed light on도 함께.",
+        "c": "과거·과거분사도 shed. shed tears는 눈물을 흘리다, shed light on은 ~을 밝혀 주다.",
         "ipa": "ʃɛd",
         "pos": "v.",
         "word": "shed",
@@ -962,7 +996,7 @@
         "ko": "① 배려하는, 잘 돌보는",
         "ex": "My aunt is a very {{BLANK}} person.",
         "tr": "우리 이모는 참 남을 잘 챙기는 분이야.",
-        "c": "car(차)가 아니라 care(돌보다)+-ing에서 온 말이다.",
+        "c": "care(돌보다)에서 온 말. 다른 사람을 배려하고 잘 돌보는. a caring teacher는 학생을 잘 챙기는 선생님.",
         "ipa": "ˈkɛrɪŋ",
         "pos": "adj.",
         "word": "caring",
@@ -1232,7 +1266,7 @@
         "ko": "① 댐",
         "ex": "The {{BLANK}} holds back the river water.",
         "tr": "그 댐이 강물을 막아 줘.",
-        "c": "damn(젠장)과 소리가 같으니 철자를 헷갈리지 않게 쓴다.",
+        "c": "물을 막아 저장하거나 흐름을 조절하는 둑. build a dam은 댐을 건설하다.",
         "ipa": "dæm",
         "pos": "n.",
         "word": "dam",
@@ -1311,7 +1345,7 @@
         "ko": "① 창피한, 난처한",
         "ex": "Falling in class was so {{BLANK}}.",
         "tr": "수업 시간에 넘어진 건 정말 창피했어.",
-        "c": "embarrass(창피하게 하다)+-ing. 사람 기분은 embarrassed.",
+        "c": "창피함을 일으키는 쪽은 embarrassing, 창피함을 느끼는 쪽은 embarrassed. an embarrassing question은 난처하게 만드는 질문.",
         "ipa": "ɪmˈbɛrəsɪŋ",
         "pos": "adj.",
         "word": "embarrassing",
@@ -1335,7 +1369,7 @@
         "ko": "① 이온",
         "ex": "Salt breaks into {{BLANK}}s in water.",
         "tr": "소금은 물에서 이온으로 나뉘어.",
-        "c": "전기를 띤 아주 작은 알갱이. 과학 시간에 나오는 말이다.",
+        "c": "전자를 잃거나 얻어 전하를 띤 원자 또는 원자단. positive ion은 양이온, negative ion은 음이온.",
         "ipa": "ˈaɪɑn",
         "pos": "n.",
         "word": "ion",
@@ -1437,7 +1471,7 @@
         "ko": "① 원반, 디스크",
         "ex": "The old game came on a {{BLANK}}.",
         "tr": "그 옛날 게임은 디스크로 나왔어.",
-        "c": "미국에선 disk로도 쓴다. 둥글고 납작한 것을 가리킨다.",
+        "c": "둥글고 납작한 물체. CD·DVD에는 보통 disc, 컴퓨터 저장 장치인 hard disk에는 disk라는 철자를 쓴다.",
         "ipa": "dɪsk",
         "pos": "n.",
         "word": "disc",
@@ -1509,7 +1543,7 @@
         "ko": "① 더 작은, 덜한",
         "ex": "Skipping lunch was the {{BLANK}} evil here.",
         "tr": "점심 거르는 게 여기선 그나마 덜 나쁜 쪽이었어.",
-        "c": "little의 또 다른 비교급. 명사 앞에만 쓰고 than과 안 쓴다.",
+        "c": "크기·중요성·정도가 더 작은. the lesser evil은 두 나쁜 선택지 중 덜 나쁜 쪽.",
         "ipa": "ˈlɛsɚ",
         "pos": "adj.",
         "word": "lesser",

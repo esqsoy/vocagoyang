@@ -104,7 +104,7 @@
         "ko": "① 병장, (경찰) 경사",
         "ex": "The {{BLANK}} told the young soldiers to run.",
         "tr": "그 병장이 어린 병사들에게 뛰라고 했어.",
-        "c": "철자와 달리 [사전트]로 읽는다. 이름 앞에서는 대문자로 씀.",
+        "c": "군대·경찰의 계급 이름. 군 계급의 한국어 대응은 국가에 따라 달라 병장·하사관 등으로 번역한다. 이름 앞에서는 대문자로 쓴다.",
         "ipa": "ˈsɑrdʒənt",
         "pos": "n.",
         "word": "sergeant",
@@ -116,7 +116,7 @@
         "ko": "① 걷기, 보행",
         "ex": "The store is within {{BLANK}} distance of my house.",
         "tr": "그 가게는 우리 집에서 걸어갈 만한 거리야.",
-        "c": "walk(걷다)+ing. within walking distance를 통째로 외운다.",
+        "c": "within walking distance는 걸어서 갈 만한 거리 안에. walking shoes는 걷기 편한 신발.",
         "ipa": "ˈwɔkɪŋ",
         "pos": "n.",
         "word": "walking",
@@ -128,7 +128,7 @@
         "ko": "① 접근하기 쉬운, 이용할 수 있는",
         "ex": "The beach is only {{BLANK}} by boat.",
         "tr": "그 해변은 배로만 접근할 수 있어.",
-        "c": "access(접근)+ible. 짝은 be accessible to ~이다.",
+        "c": "accessible to는 ~가 이용하거나 접근할 수 있는. accessible by boat는 배로 접근할 수 있는.",
         "ipa": "əkˈsɛsəbəl",
         "pos": "adj.",
         "word": "accessible",
@@ -290,7 +290,7 @@
         "ko": "① 잘 작동하는, 기능적인",
         "ex": "These boots are more {{BLANK}} than pretty.",
         "tr": "이 부츠는 예쁘다기보다 기능적이야.",
-        "c": "function(기능)+al. 예쁘진 않아도 제 기능을 한다는 뜻.",
+        "c": "제 기능을 하는 또는 실용성을 중시한. 기능적이라는 말 자체가 못생겼다는 뜻은 아니다.",
         "ipa": "ˈfʌŋkʃənəl",
         "pos": "adj.",
         "word": "functional",
@@ -362,7 +362,7 @@
         "ko": "① 힌트, 암시",
         "ex": "Can you give me a {{BLANK}} about the answer?",
         "tr": "답에 대해서 힌트 좀 줄 수 있어?",
-        "c": "give a hint, drop a hint로 쓴다. 짝은 a hint of ~이다.",
+        "c": "give/drop a hint는 힌트를 주다·넌지시 비치다. a hint about the answer는 답에 관한 힌트.",
         "ipa": "hɪnt",
         "pos": "n.",
         "word": "hint",
@@ -505,31 +505,69 @@
         "pos": "adj.",
         "word": "bloody",
         "si": 1,
-        "sn": 2
-      },
-      {
-        "en": "bloody",
-        "ko": "② (영, 비속) 엄청, 지독하게",
-        "ex": "That was a {{BLANK}} good game last night.",
-        "tr": "어젯밤 그거 엄청 좋은 경기였어.",
-        "c": "주로 영국 구어의 비속한 강조어. bloody good처럼 형용사 앞에서 정도를 강조한다.",
-        "ipa": "ˈblʌdi",
-        "pos": "adv.",
-        "word": "bloody",
-        "si": 2,
-        "sn": 2
+        "sn": 1
       },
       {
         "en": "occasional",
         "ko": "① 가끔의, 이따금의",
         "ex": "We have {{BLANK}} tests on Friday mornings.",
         "tr": "우리는 금요일 아침에 이따금 시험을 봐.",
-        "c": "occasion(때, 경우)+al. 부사 occasionally가 더 흔하다.",
+        "c": "항상이나 규칙적으로 일어나지 않고 가끔 있는. occasional visits는 가끔 하는 방문. 부사는 occasionally.",
         "ipa": "əˈkeɪʒənəl",
         "pos": "adj.",
         "word": "occasional",
         "si": 1,
         "sn": 1
+      }
+    ],
+    "legacyWords": [
+      {
+        "word": "administer",
+        "si": 1
+      },
+      {
+        "word": "administer",
+        "si": 2
+      },
+      {
+        "word": "christianity",
+        "si": 1
+      },
+      {
+        "word": "alleged",
+        "si": 1
+      },
+      {
+        "word": "statute",
+        "si": 1
+      },
+      {
+        "word": "biology",
+        "si": 1
+      },
+      {
+        "word": "follower",
+        "si": 1
+      },
+      {
+        "word": "confess",
+        "si": 1
+      },
+      {
+        "word": "eligible",
+        "si": 1
+      },
+      {
+        "word": "bloody",
+        "si": 1
+      },
+      {
+        "word": "bloody",
+        "si": 2
+      },
+      {
+        "word": "occasional",
+        "si": 1
       }
     ]
   },
@@ -656,18 +694,52 @@
         "word": "handsome",
         "si": 1,
         "sn": 1
+      }
+    ],
+    "legacyWords": [
+      {
+        "word": "prohibit",
+        "si": 1
       },
       {
-        "en": "bullshit",
-        "ko": "① (비속) 헛소리, 개소리",
-        "ex": "That excuse is total {{BLANK}}, and he knows it.",
-        "tr": "그 변명은 완전 헛소리고, 걔도 알아.",
-        "c": "매우 무례한 말. 어른 앞·방송 금지. 완곡어는 nonsense.",
-        "ipa": "ˈbʊlʃɪt",
-        "pos": "n.",
+        "word": "belly",
+        "si": 1
+      },
+      {
+        "word": "banking",
+        "si": 1
+      },
+      {
+        "word": "journalism",
+        "si": 1
+      },
+      {
+        "word": "ridge",
+        "si": 1
+      },
+      {
+        "word": "apology",
+        "si": 1
+      },
+      {
+        "word": "tumor",
+        "si": 1
+      },
+      {
+        "word": "harbor",
+        "si": 1
+      },
+      {
+        "word": "harbor",
+        "si": 2
+      },
+      {
+        "word": "handsome",
+        "si": 1
+      },
+      {
         "word": "bullshit",
-        "si": 1,
-        "sn": 1
+        "si": 1
       }
     ]
   },
@@ -801,7 +873,7 @@
         "ko": "② (as ~ to) ~와는 달리",
         "ex": "I take the bus, as {{BLANK}} to walking.",
         "tr": "나는 걷는 대신에 버스를 타.",
-        "c": "as opposed to는 통째로 외운다. 뒤에는 명사나 -ing.",
+        "c": "as opposed to는 ~와는 달리·~대신에. 두 선택이나 방식을 대비할 때 쓴다.",
         "ipa": "əˈpoʊzd",
         "pos": "adj.",
         "word": "opposed",
@@ -867,7 +939,7 @@
         "ko": "① 양육권",
         "ex": "His mother won {{BLANK}} of both children.",
         "tr": "걔 엄마가 두 아이의 양육권을 얻었어.",
-        "c": "이혼 뒤 아이를 기를 권리. get/win custody of ~.",
+        "c": "아이를 돌보고 보호할 법적 권리·책임. win custody of는 ~의 양육권을 얻다.",
         "ipa": "ˈkʌstədi",
         "pos": "n.",
         "word": "custody",
@@ -1042,7 +1114,7 @@
         "ko": "① 기어가다",
         "ex": "The baby {{BLANK}}ed under the table again.",
         "tr": "아기가 또 탁자 밑으로 기어갔어.",
-        "c": "무릎으로 기다. 차가 아주 느리게 갈 때도 crawl.",
+        "c": "손과 무릎으로 기거나 몸을 바닥 가까이 낮춰 움직이다. 차가 아주 느리게 움직일 때도 crawl.",
         "ipa": "krɔl",
         "pos": "v.",
         "word": "crawl",
@@ -1357,7 +1429,7 @@
         "ko": "① 올림픽",
         "ex": "The whole family watched the {{BLANK}} together.",
         "tr": "온 가족이 함께 올림픽을 봤어.",
-        "c": "항상 the Olympics로 대문자·복수. 형용사는 Olympic.",
+        "c": "대회 이름은 the Olympics. Olympic은 형용사로 Olympic Games·Olympic team처럼 쓴다.",
         "ipa": "əˈlɪmpɪks",
         "pos": "n.",
         "word": "olympics",
@@ -1369,7 +1441,7 @@
         "ko": "① (전기) 콘센트",
         "ex": "Is there an {{BLANK}} near my desk?",
         "tr": "내 책상 근처에 콘센트 있어?",
-        "c": "미국말. (영)은 socket. 한국식 '콘센트'는 영어가 아니다.",
+        "c": "전기 플러그를 꽂는 곳. 미국에서는 outlet, 영국에서는 보통 socket이라고 한다.",
         "ipa": "ˈaʊtlɛt",
         "pos": "n.",
         "word": "outlet",
@@ -1429,7 +1501,7 @@
         "ko": "① 달력, 일정표",
         "ex": "Mark the exam date on the {{BLANK}}.",
         "tr": "시험 날짜를 달력에 표시해.",
-        "c": "철자 주의: -dar로 끝난다(calender는 틀린 철자).",
+        "c": "달력은 calendar로 끝이 -dar다. calendar year는 1월부터 12월까지의 역년.",
         "ipa": "ˈkæləndɚ",
         "pos": "n.",
         "word": "calendar",
@@ -1466,7 +1538,7 @@
         "ko": "① 탐구, 추구",
         "ex": "Her {{BLANK}} for the perfect pizza never ends.",
         "tr": "완벽한 피자를 향한 걔의 탐구는 끝이 없어.",
-        "c": "짝은 a quest for ~. 게임의 '퀘스트'도 같은 말이다.",
+        "c": "가치 있는 목표를 찾아 나서는 긴 탐구. a quest for는 ~을 향한 탐구·추구. 게임의 퀘스트도 같은 말이다.",
         "ipa": "kwɛst",
         "pos": "n.",
         "word": "quest",
@@ -1478,7 +1550,7 @@
         "ko": "① 기업가, 창업자",
         "ex": "That young {{BLANK}} started a delivery app.",
         "tr": "그 젊은 창업자가 배달 앱을 만들었어.",
-        "c": "프랑스어에서 온 말이라 철자가 길다. [안트러프러너].",
+        "c": "새 사업을 시작하고 위험을 감수하며 운영하는 사람. entrepreneurship은 기업가 정신·창업 활동.",
         "ipa": "ˌɑntrəprəˈnɝ",
         "pos": "n.",
         "word": "entrepreneur",
@@ -1521,18 +1593,68 @@
         "si": 1,
         "sn": 1,
         "meow": "noon, 정오까지 이러고 있을 거냐고양?"
+      }
+    ],
+    "legacyWords": [
+      {
+        "word": "olympics",
+        "si": 1
       },
       {
-        "en": "uh-huh",
-        "ko": "① 응, 그래(맞장구)",
-        "ex": "{{BLANK}}, that's exactly what I said.",
-        "tr": "응, 내가 딱 그렇게 말했잖아.",
-        "c": "informal. 동의는 uh-huh, 부정은 uh-uh로 소리가 다르다.",
-        "ipa": "əˈhʌ",
-        "pos": "int.",
+        "word": "outlet",
+        "si": 1
+      },
+      {
+        "word": "outlet",
+        "si": 2
+      },
+      {
+        "word": "outlet",
+        "si": 3
+      },
+      {
+        "word": "outlet",
+        "si": 4
+      },
+      {
+        "word": "immune",
+        "si": 1
+      },
+      {
+        "word": "calendar",
+        "si": 1
+      },
+      {
+        "word": "regret",
+        "si": 1
+      },
+      {
+        "word": "regret",
+        "si": 2
+      },
+      {
+        "word": "quest",
+        "si": 1
+      },
+      {
+        "word": "entrepreneur",
+        "si": 1
+      },
+      {
+        "word": "stumble",
+        "si": 1
+      },
+      {
+        "word": "stumble",
+        "si": 2
+      },
+      {
+        "word": "noon",
+        "si": 1
+      },
+      {
         "word": "uh-huh",
-        "si": 1,
-        "sn": 1
+        "si": 1
       }
     ]
   },
@@ -1581,7 +1703,7 @@
         "ko": "① 북서쪽",
         "ex": "The wind comes from the {{BLANK}} in winter.",
         "tr": "겨울에는 바람이 북서쪽에서 불어와.",
-        "c": "north+west. 지역 이름일 때는 the Northwest로 대문자.",
+        "c": "north+west. north-west로도 쓴다. 특정 지역의 이름으로 쓰면 the Northwest처럼 대문자로 적는다.",
         "ipa": "ˌnɔrθˈwɛst",
         "pos": "n.",
         "word": "northwest",
@@ -1750,7 +1872,7 @@
         "ko": "① 헌장, 설립 강령",
         "ex": "The club wrote a short {{BLANK}} for its rules.",
         "tr": "그 동아리는 규칙을 담은 짧은 헌장을 썼어.",
-        "c": "단체의 목적·권리를 적은 공식 문서. chart(도표)와 딴 말.",
+        "c": "단체의 목적·권리·원칙을 정한 공식 문서. the UN Charter는 유엔 헌장.",
         "ipa": "ˈtʃɑrtɚ",
         "pos": "n.",
         "word": "charter",

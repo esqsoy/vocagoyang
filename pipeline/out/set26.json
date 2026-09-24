@@ -182,7 +182,7 @@
         "ko": "① 교도소, 감옥",
         "ex": "He spent a night in {{BLANK}} after the fight.",
         "tr": "걔는 그 싸움 뒤에 감옥에서 하룻밤을 보냈어.",
-        "c": "in jail은 관사 없이 쓴다. prison보다 짧게 갇히는 곳이다.",
+        "c": "감옥·구치소. in jail은 수감 중이라는 뜻으로 관사 없이 쓴다.",
         "ipa": "dʒeɪl",
         "pos": "n.",
         "word": "jail",
@@ -256,7 +256,7 @@
         "ko": "① 민족의, 인종의",
         "ex": "Our class has students from many {{BLANK}} groups.",
         "tr": "우리 반에는 여러 민족 집단에서 온 학생들이 있어.",
-        "c": "ethnic group이 대표 연어. 피부색을 앞세울 때는 racial.",
+        "c": "공통된 문화·언어·조상 등을 가진 집단과 관련된. ethnic group은 민족 집단.",
         "ipa": "ˈɛθnɪk",
         "pos": "adj.",
         "word": "ethnic",
@@ -443,7 +443,7 @@
         "ko": "① 소리 지르다, 고함치다",
         "ex": "Don't {{BLANK}} at your little brother.",
         "tr": "네 동생한테 고함치지 마.",
-        "c": "yell at + 사람이 짝. shout보다 화난 느낌이 세다.",
+        "c": "큰 소리로 외치거나 고함치다. yell at someone은 누구에게 소리 지르다. 화뿐 아니라 흥분·기쁨으로 외칠 때도 쓴다.",
         "ipa": "jɛl",
         "pos": "v.",
         "word": "yell",
@@ -510,7 +510,7 @@
         "ko": "① 인종의",
         "ex": "The movie is about {{BLANK}} problems in America.",
         "tr": "그 영화는 미국의 인종 문제에 관한 거야.",
-        "c": "race(인종)+-ial. 문화·혈통을 앞세울 때는 ethnic을 쓴다.",
+        "c": "인종과 관련된. racial discrimination은 인종 차별, racial equality는 인종 평등.",
         "ipa": "ˈreɪʃəl",
         "pos": "adj.",
         "word": "racial",
@@ -522,7 +522,7 @@
         "ko": "① 교통, 수송",
         "ex": "Public {{BLANK}} in this city is cheap and fast.",
         "tr": "이 도시의 대중교통은 싸고 빨라.",
-        "c": "transport+-ation. 영국에서는 transport라고만 한다.",
+        "c": "사람·물건을 나르는 교통·수송. 영국에서는 이 뜻에 transport를 더 흔히 쓴다.",
         "ipa": "ˌtrænspɚˈteɪʃən",
         "pos": "n.",
         "word": "transportation",
@@ -582,7 +582,7 @@
         "ko": "① 드물게, 좀처럼 ~않다",
         "ex": "He {{BLANK}} eats breakfast before school.",
         "tr": "걔는 학교 가기 전에 좀처럼 아침을 안 먹어.",
-        "c": "rare+-ly. 이미 부정의 뜻이라 not과 같이 쓰지 않는다.",
+        "c": "드물게·좀처럼 ~않다. rarely eats breakfast는 아침을 먹는 일이 드물다는 뜻.",
         "ipa": "ˈrɛrli",
         "pos": "adv.",
         "word": "rarely",
@@ -930,7 +930,7 @@
         "ko": "① 폭행, 공격",
         "ex": "The man was arrested for {{BLANK}} last night.",
         "tr": "그 남자는 어젯밤 폭행으로 체포됐어.",
-        "c": "사람을 때리는 범죄를 가리키는 법률 용어다. attack보다 딱딱하다.",
+        "c": "폭력적인 공격이나 폭행. an assault on은 ~에 대한 공격.",
         "ipa": "əˈsɔlt",
         "pos": "n.",
         "word": "assault",
@@ -985,18 +985,64 @@
         "word": "mood",
         "si": 2,
         "sn": 2
+      }
+    ],
+    "legacyWords": [
+      {
+        "word": "fiction",
+        "si": 1
       },
       {
-        "en": "mm-hmm",
-        "ko": "① 응, 그래(입 다문 콧소리)",
-        "ex": "{{BLANK}}, I heard you the first time.",
-        "tr": "응, 처음에 들었어.",
-        "c": "informal. 입을 다물고 내는 동의 소리. 부정은 uh-uh다.",
-        "ipa": "mˈhm",
-        "pos": "int.",
+        "word": "fiction",
+        "si": 2
+      },
+      {
+        "word": "mama",
+        "si": 1
+      },
+      {
+        "word": "pant",
+        "si": 1
+      },
+      {
+        "word": "pant",
+        "si": 2
+      },
+      {
+        "word": "criteria",
+        "si": 1
+      },
+      {
+        "word": "arab",
+        "si": 1
+      },
+      {
+        "word": "potentially",
+        "si": 1
+      },
+      {
+        "word": "assault",
+        "si": 1
+      },
+      {
+        "word": "assault",
+        "si": 2
+      },
+      {
+        "word": "math",
+        "si": 1
+      },
+      {
+        "word": "mood",
+        "si": 1
+      },
+      {
+        "word": "mood",
+        "si": 2
+      },
+      {
         "word": "mm-hmm",
-        "si": 1,
-        "sn": 1
+        "si": 1
       }
     ]
   },
@@ -1106,7 +1152,7 @@
         "ko": "① 게다가, 더욱이",
         "ex": "It's late. {{BLANK}}, we're all tired.",
         "tr": "늦었어. 게다가 우리 다 피곤하잖아.",
-        "c": "격식 있는 연결 부사. 문장 맨 앞에 쓰고 뒤에 쉼표를 찍는다.",
+        "c": "앞말을 뒷받침할 내용을 덧붙이는 격식 있는 연결 부사. 게다가·더욱이라는 뜻이다.",
         "ipa": "mɔrˈoʊvɚ",
         "pos": "adv.",
         "word": "moreover",
@@ -1118,7 +1164,7 @@
         "ko": "① 이른바, 소위",
         "ex": "His {{BLANK}} friends never helped him at all.",
         "tr": "그의 이른바 친구들은 그를 전혀 도와주지 않았어.",
-        "c": "이름만 그렇다는 비꼬는 느낌이 있다. 명사 앞에만 쓴다.",
+        "c": "명사 앞에서 이른바·소위라는 뜻. 이름만 그렇다는 비꼼에도 쓰지만, 어떤 명칭을 소개할 때도 쓴다.",
         "ipa": "ˌsoʊˈkɔld",
         "pos": "adj.",
         "word": "so-called",
@@ -1183,7 +1229,7 @@
         "en": "drama",
         "ko": "① 연극, 드라마",
         "ex": "She joined the {{BLANK}} club at school last year.",
-        "tr": "그 애는 작년에 학교 드라마 동아리에 들었어.",
+        "tr": "그 애는 작년에 학교 연극 동아리에 들었어.",
         "c": "무대극과 방송극 둘 다. 학교 과목 이름으로도 쓴다.",
         "ipa": "ˈdrɑmə",
         "pos": "n.",
@@ -1221,7 +1267,7 @@
         "ko": "① 강간",
         "ex": "The man went to jail for {{BLANK}}.",
         "tr": "그 남자는 강간죄로 감옥에 갔어.",
-        "c": "무거운 성범죄를 가리키는 말이라 농담으로 쓰면 안 된다.",
+        "c": "동의 없이 성행위를 강요하는 범죄. 명사와 동사의 형태가 같다.",
         "ipa": "reɪp",
         "pos": "n.",
         "word": "rape",
@@ -1317,7 +1363,7 @@
         "ko": "① 원래, 처음에는",
         "ex": "This song was {{BLANK}} written for a movie.",
         "tr": "이 노래는 원래 영화를 위해 쓰였어.",
-        "c": "original+-ly. 처음과 지금이 다를 때 대비해서 쓴다.",
+        "c": "처음에는·본래라는 뜻. 현재와 비교할 때도 쓰고, 시작 당시의 상황만 설명할 때도 쓴다.",
         "ipa": "əˈrɪdʒənəli",
         "pos": "adv.",
         "word": "originally",
@@ -1383,7 +1429,7 @@
         "ko": "① 배터리, 건전지",
         "ex": "My phone {{BLANK}} died in the middle of class.",
         "tr": "수업 도중에 내 폰 배터리가 나갔어.",
-        "c": "다 닳으면 The battery is dead라고 한다. bat과는 무관하다.",
+        "c": "배터리가 다 닳으면 The battery is dead, 충전하려면 charge the battery라고 한다.",
         "ipa": "ˈbætɚi",
         "pos": "n.",
         "word": "battery",
@@ -1455,8 +1501,8 @@
         "en": "junior",
         "ko": "② (고교·대학) 3학년생",
         "ex": "My cousin is a {{BLANK}} in high school.",
-        "tr": "내 사촌은 고등학교 3학년이야.",
-        "c": "미국 학제의 3학년. 중학교는 junior high school이라 한다.",
+        "tr": "내 사촌은 미국 고등학교 3학년이야.",
+        "c": "미국의 4년제 고교·대학에서 3학년생. 고교 junior는 11학년으로, 한국의 고2에 해당한다.",
         "ipa": "ˈdʒunjɚ",
         "pos": "n.",
         "word": "junior",
@@ -1608,7 +1654,7 @@
         "ko": "① 큰 숟가락, 테이블스푼(양)",
         "ex": "Add two {{BLANK}}s of sugar to the sauce.",
         "tr": "그 소스에 설탕 두 큰술을 넣어.",
-        "c": "table+spoon. 한 큰술은 teaspoon 세 개와 같고 Tbsp로 줄인다.",
+        "c": "요리에서 큰술. 미국 기준으로 1 tablespoon은 3 teaspoons이며 Tbsp로 줄여 쓴다.",
         "ipa": "ˈteɪbəlspun",
         "pos": "n.",
         "word": "tablespoon",
@@ -1616,28 +1662,66 @@
         "sn": 1
       },
       {
-        "en": "hmm",
-        "ko": "① 음, 흠(생각하는 소리)",
-        "ex": "{{BLANK}}, let me think about that for a minute.",
-        "tr": "음, 그거 잠깐 생각해 볼게.",
-        "c": "생각 중일 때 내는 소리. 글에서는 m을 두세 개 붙여 쓴다.",
-        "ipa": "hm",
-        "pos": "int.",
-        "word": "hmm",
-        "si": 1,
-        "sn": 1
-      },
-      {
         "en": "AIDS",
         "ko": "① 에이즈",
-        "ex": "Doctors are still looking for an {{BLANK}} cure.",
-        "tr": "의사들은 아직도 에이즈 치료법을 찾고 있어.",
-        "c": "대문자 AIDS로 씀. aid(도움)와는 상관없는 병 이름이다.",
+        "ex": "The lesson covered HIV and {{BLANK}}.",
+        "tr": "그 수업에서는 HIV와 에이즈를 다뤘어.",
+        "c": "후천성 면역 결핍증의 영어 이름을 줄인 말. 대문자 AIDS로 쓰고 /eɪdz/로 읽는다.",
         "ipa": "eɪdz",
         "pos": "n.",
         "word": "aids",
         "si": 1,
         "sn": 1
+      }
+    ],
+    "legacyWords": [
+      {
+        "word": "cute",
+        "si": 1
+      },
+      {
+        "word": "deputy",
+        "si": 1
+      },
+      {
+        "word": "buddy",
+        "si": 1
+      },
+      {
+        "word": "lane",
+        "si": 1
+      },
+      {
+        "word": "lane",
+        "si": 2
+      },
+      {
+        "word": "sauce",
+        "si": 1
+      },
+      {
+        "word": "testing",
+        "si": 1
+      },
+      {
+        "word": "symbol",
+        "si": 1
+      },
+      {
+        "word": "symbol",
+        "si": 2
+      },
+      {
+        "word": "tablespoon",
+        "si": 1
+      },
+      {
+        "word": "hmm",
+        "si": 1
+      },
+      {
+        "word": "aids",
+        "si": 1
       }
     ]
   }

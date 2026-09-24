@@ -116,7 +116,7 @@
         "ko": "① 민망한, 쑥스러운",
         "ex": "I was so {{BLANK}} when I fell down.",
         "tr": "나 넘어졌을 때 진짜 민망했어.",
-        "c": "사람이 창피하면 -ed, 창피하게 만드는 쪽은 embarrassing이다.",
+        "c": "창피함을 느끼는 쪽은 embarrassed, 창피하게 만드는 쪽은 embarrassing. an embarrassing mistake는 창피한 실수.",
         "ipa": "ɪmˈbɛrəst",
         "pos": "adj.",
         "word": "embarrassed",
@@ -231,7 +231,7 @@
         "ko": "① 줄무늬, 줄",
         "ex": "She has a blue {{BLANK}} in her hair.",
         "tr": "걔 머리에 파란 줄무늬 한 가닥이 있어.",
-        "c": "가늘고 긴 자국. steak(스테이크)와 철자를 헷갈리지 마라.",
+        "c": "머리나 표면에 길고 가늘게 난 다른 색의 줄. a streak of blue는 파란 줄 한 가닥.",
         "ipa": "strik",
         "pos": "n.",
         "word": "streak",
@@ -256,7 +256,7 @@
         "ko": "① 스테이크",
         "ex": "My mom cooked {{BLANK}} for my birthday dinner.",
         "tr": "엄마가 내 생일 저녁으로 스테이크를 구워 주셨어.",
-        "c": "[스테이크]로 읽는다. 소고기를 두툼하게 자른 조각이다.",
+        "c": "두툼하게 썬 고기·생선이나 이를 구운 요리. beef steak는 소고기 스테이크.",
         "ipa": "steɪk",
         "pos": "n.",
         "word": "steak",
@@ -419,8 +419,8 @@
         "ko": "① 업그레이드하다, 개선하다",
         "ex": "I want to {{BLANK}} my old phone.",
         "tr": "나 오래된 내 폰을 업그레이드하고 싶어.",
-        "c": "명사(② 업그레이드)와 같은 꼴이다. 반대말은 downgrade(등급을 낮추다).",
-        "ipa": "ˈʌpɡreɪd",
+        "c": "성능이나 등급을 높이다. upgrade a computer는 컴퓨터를 업그레이드하다. 동사는 뒤 음절에 강세가 온다.",
+        "ipa": "ʌpˈɡreɪd",
         "pos": "v.",
         "word": "upgrade",
         "si": 1,
@@ -431,7 +431,7 @@
         "ko": "② 업그레이드, 등급 상향",
         "ex": "We got a free {{BLANK}} to a bigger room.",
         "tr": "우리 더 큰 방으로 무료 업그레이드 받았어.",
-        "c": "동사와 같은 꼴, 강세도 앞. get a free upgrade(무료 업그레이드를 받다) 꼴로 자주 쓴다.",
+        "c": "성능·등급의 향상 또는 개선된 제품. get an upgrade는 업그레이드를 받다. 명사는 앞 음절에 강세가 온다.",
         "ipa": "ˈʌpɡreɪd",
         "pos": "n.",
         "word": "upgrade",
@@ -545,7 +545,7 @@
         "ko": "① 허벅지",
         "ex": "My {{BLANK}}s hurt after climbing all those stairs.",
         "tr": "그 계단을 다 오르고 나서 허벅지가 아파.",
-        "c": "무릎 위쪽 다리. gh는 소리 나지 않고 th는 혀를 물고 낸다.",
+        "c": "엉덩이와 무릎 사이의 허벅지. gh는 묵음이며 /θaɪ/로 읽는다. calf는 종아리.",
         "ipa": "θaɪ",
         "pos": "n.",
         "word": "thigh",
@@ -610,9 +610,9 @@
       {
         "en": "vocabulary",
         "ko": "① 어휘, 단어",
-        "ex": "Reading books grows your English {{BLANK}}.",
+        "ex": "Reading books expands your English {{BLANK}}.",
         "tr": "책을 읽으면 영어 어휘가 늘어.",
-        "c": "한 사람이 아는 단어 전체. 낱개를 셀 때는 words를 쓴다.",
+        "c": "한 사람·언어·분야의 단어 전체. 낱개 단어는 word, 어휘력을 키우다는 build 또는 expand one's vocabulary.",
         "ipa": "voʊˈkæbjəlɛri",
         "pos": "n.",
         "word": "vocabulary",
@@ -658,8 +658,8 @@
       {
         "en": "burger",
         "ko": "① 햄버거",
-        "ex": "I ordered a cheese {{BLANK}} and a soda.",
-        "tr": "나는 치즈버거랑 탄산음료를 시켰어.",
+        "ex": "I ordered a {{BLANK}} and a soda.",
+        "tr": "나는 햄버거와 탄산음료를 주문했어.",
         "c": "hamburger의 줄임말. 다른 말과 붙어 cheeseburger처럼도 쓴다.",
         "ipa": "ˈbɝɡɚ",
         "pos": "n.",
@@ -709,7 +709,7 @@
         "ko": "② 교과서적인, 전형적인",
         "ex": "His answer was a {{BLANK}} example of good writing.",
         "tr": "걔의 답은 좋은 글쓰기의 교과서적인 예였어.",
-        "c": "a textbook example[case]가 대표 연어다. 명사 앞에서만 쓴다.",
+        "c": "교과서에 실릴 만큼 전형적이거나 모범적인. a textbook example은 전형적인 본보기.",
         "ipa": "ˈtɛkstbʊk",
         "pos": "adj.",
         "word": "textbook",
@@ -796,18 +796,6 @@
         "sn": 1
       },
       {
-        "en": "long-time",
-        "ko": "① 오랜, 오랫동안의",
-        "ex": "She is a {{BLANK}} fan of that band.",
-        "tr": "걔는 그 밴드의 오랜 팬이야.",
-        "c": "미국식은 longtime으로 붙여 쓴다. 명사 앞에서만 쓴다.",
-        "ipa": "ˈlɔŋtaɪm",
-        "pos": "adj.",
-        "word": "long-time",
-        "si": 1,
-        "sn": 1
-      },
-      {
         "en": "set-to",
         "ko": "① 실랑이, 한바탕 다툼",
         "ex": "They had a little {{BLANK}} over the game.",
@@ -848,7 +836,7 @@
         "ko": "① ~에 근거한, ~을 바탕으로 한",
         "ex": "The movie is {{BLANK}} on a true story.",
         "tr": "그 영화는 실화를 바탕으로 만들어졌어.",
-        "c": "be based on(~에 근거하다)이 기본 꼴이다. of를 쓰면 틀린다.",
+        "c": "be based on은 ~에 근거하다. a story based on facts는 사실에 기초한 이야기.",
         "ipa": "beɪst",
         "pos": "adj.",
         "word": "based",
@@ -896,12 +884,58 @@
         "ko": "① 비-, ~이 아닌",
         "ex": "This is a {{BLANK}}-smoking restaurant.",
         "tr": "여기는 금연 식당이야.",
-        "c": "뒷말을 부정하는 접두사. 미국식은 nonstop처럼 붙여 쓴다.",
+        "c": "non-은 아닌·없는이라는 뜻의 접두사. non-smoking은 금연, nonprofit은 비영리의. 하이픈 사용은 단어마다 다르다.",
         "ipa": "nɑn",
         "pos": "prefix",
         "word": "non",
         "si": 1,
         "sn": 1
+      }
+    ],
+    "legacyWords": [
+      {
+        "word": "know-how",
+        "si": 1
+      },
+      {
+        "word": "made-up",
+        "si": 1
+      },
+      {
+        "word": "long-time",
+        "si": 1
+      },
+      {
+        "word": "set-to",
+        "si": 1
+      },
+      {
+        "word": "making",
+        "si": 1
+      },
+      {
+        "word": "live-in",
+        "si": 1
+      },
+      {
+        "word": "based",
+        "si": 1
+      },
+      {
+        "word": "based",
+        "si": 2
+      },
+      {
+        "word": "saying",
+        "si": 1
+      },
+      {
+        "word": "well-known",
+        "si": 1
+      },
+      {
+        "word": "non",
+        "si": 1
       }
     ]
   },
@@ -914,46 +948,10 @@
         "ko": "① 노동자 계급의",
         "ex": "He grew up in a {{BLANK}} neighborhood.",
         "tr": "걔는 노동자 계급 동네에서 자랐어.",
-        "c": "몸으로 일하는 계층을 뜻한다. 명사 앞에서 하이픈을 넣어 쓴다.",
+        "c": "주로 임금을 받는 육체·서비스 노동자 계층과 관련된. a working-class family는 노동자 계층의 가정.",
         "ipa": "ˌwɝkɪŋˈklæs",
         "pos": "adj.",
         "word": "working-class",
-        "si": 1,
-        "sn": 1
-      },
-      {
-        "en": "pick-up",
-        "ko": "① 픽업트럭",
-        "ex": "My uncle drives an old blue {{BLANK}}.",
-        "tr": "우리 삼촌은 낡은 파란 픽업트럭을 몰아.",
-        "c": "pickup truck의 줄임말. 미국식은 하이픈 없이 pickup으로 쓴다.",
-        "ipa": "ˈpɪkʌp",
-        "pos": "n.",
-        "word": "pick-up",
-        "si": 1,
-        "sn": 2
-      },
-      {
-        "en": "pick-up",
-        "ko": "② (차로) 태우러 감, 수거",
-        "ex": "What time is your {{BLANK}} after school?",
-        "tr": "방과 후에 데리러 오는 시간이 몇 시야?",
-        "c": "동사 pick up(태우러 가다)에서 온 명사. 쓰레기 수거에도 쓴다.",
-        "ipa": "ˈpɪkʌp",
-        "pos": "n.",
-        "word": "pick-up",
-        "si": 2,
-        "sn": 2
-      },
-      {
-        "en": "south-west",
-        "ko": "① 남서(쪽)",
-        "ex": "The wind blew in from the {{BLANK}}.",
-        "tr": "바람이 남서쪽에서 불어왔어.",
-        "c": "미국식은 southwest. from the south-west(남서쪽에서), head south-west(남서로 가다).",
-        "ipa": "ˌsaʊθˈwɛst",
-        "pos": "n.",
-        "word": "south-west",
         "si": 1,
         "sn": 1
       },
@@ -966,18 +964,6 @@
         "ipa": "ɪnˈkludɪd",
         "pos": "adj.",
         "word": "included",
-        "si": 1,
-        "sn": 1
-      },
-      {
-        "en": "north-west",
-        "ko": "① 북서(쪽)",
-        "ex": "Their farm sits in the {{BLANK}} of the country.",
-        "tr": "걔네 농장은 그 나라 북서쪽에 있어.",
-        "c": "미국식은 northwest. north-western은 '북서쪽의'라는 형용사다.",
-        "ipa": "ˌnɔrθˈwɛst",
-        "pos": "n.",
-        "word": "north-west",
         "si": 1,
         "sn": 1
       },
@@ -1040,18 +1026,56 @@
         "word": "pre",
         "si": 1,
         "sn": 1
+      }
+    ],
+    "legacyWords": [
+      {
+        "word": "working-class",
+        "si": 1
       },
       {
-        "en": "north-east",
-        "ko": "① 북동(쪽)",
-        "ex": "Snow is falling across the {{BLANK}} today.",
-        "tr": "오늘 북동쪽 지역 전체에 눈이 내리고 있어.",
-        "c": "미국식은 northeast. 지역을 가리킬 때는 the를 꼭 붙인다.",
-        "ipa": "ˌnɔrθˈist",
-        "pos": "n.",
+        "word": "pick-up",
+        "si": 1
+      },
+      {
+        "word": "pick-up",
+        "si": 2
+      },
+      {
+        "word": "south-west",
+        "si": 1
+      },
+      {
+        "word": "included",
+        "si": 1
+      },
+      {
+        "word": "north-west",
+        "si": 1
+      },
+      {
+        "word": "anti",
+        "si": 1
+      },
+      {
+        "word": "winning",
+        "si": 1
+      },
+      {
+        "word": "winning",
+        "si": 2
+      },
+      {
+        "word": "middle-class",
+        "si": 1
+      },
+      {
+        "word": "pre",
+        "si": 1
+      },
+      {
         "word": "north-east",
-        "si": 1,
-        "sn": 1
+        "si": 1
       }
     ]
   },
@@ -1064,7 +1088,7 @@
         "ko": "① 최신의, 가장 최근의",
         "ex": "Did you hear the {{BLANK}} news about our teacher?",
         "tr": "우리 선생님에 대한 최신 소식 들었어?",
-        "c": "late의 최상급. the와 함께 쓴다. at the latest는 '늦어도'.",
+        "c": "가장 최근의. the latest news는 최신 소식, at the latest는 늦어도라는 뜻.",
         "ipa": "ˈleɪtɪst",
         "pos": "adj.",
         "word": "latest",
@@ -1172,7 +1196,7 @@
         "ko": "① ~라면, ~하기만 하면",
         "ex": "You can go out, {{BLANK}} you finish your homework.",
         "tr": "숙제를 끝내기만 하면 너 나가도 돼.",
-        "c": "providing (that)은 if의 격식체. 뒤에 조건절이 온다.",
+        "c": "providing (that)은 ~라는 조건으로. provided (that)도 같은 뜻으로 쓴다.",
         "ipa": "prəˈvaɪdɪŋ",
         "pos": "conj.",
         "word": "providing",
@@ -1286,7 +1310,7 @@
         "ko": "③ (긴 빵) 서브 샌드위치",
         "ex": "I ordered a foot-long {{BLANK}} at Subway.",
         "tr": "서브웨이에서 30센티짜리 서브를 시켰어.",
-        "c": "submarine(잠수함) 모양 긴 샌드위치라 sub. 미국 고교생 점심 단골 메뉴.",
+        "c": "길쭉한 빵에 속을 채운 샌드위치. 모양이 잠수함을 닮아 submarine sandwich라고 하며 줄여서 sub라고 한다.",
         "ipa": "sʌb",
         "pos": "n.",
         "word": "sub",
@@ -1484,7 +1508,7 @@
         "ko": "① 조직된, 체계적인",
         "ex": "The trip was well {{BLANK}} from start to finish.",
         "tr": "그 여행은 처음부터 끝까지 체계가 잘 잡혀 있었어.",
-        "c": "organize+-ed. 영국식은 organised로 s를 쓴다.",
+        "c": "일을 체계적으로 정리하고 준비하는. an organized person은 정리와 계획을 잘하는 사람. 영국에서는 organised로도 쓴다.",
         "ipa": "ˈɔrɡənaɪzd",
         "pos": "adj.",
         "word": "organized",

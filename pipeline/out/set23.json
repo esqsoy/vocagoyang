@@ -8,7 +8,7 @@
         "ko": "① 남자, 녀석",
         "ex": "That {{BLANK}} in the blue shirt is my cousin.",
         "tr": "파란 셔츠 입은 저 녀석은 내 사촌이야.",
-        "c": "informal. 남자 한 명을 가리키는 가장 흔한 구어체 말이다.",
+        "c": "격식을 차리지 않는 말로 남자 한 명을 가리킨다. that guy는 저 남자·저 녀석.",
         "ipa": "ɡaɪ",
         "pos": "n.",
         "word": "guy",
@@ -105,7 +105,7 @@
         "ko": "① 아이, 애",
         "ex": "The {{BLANK}}s next door play soccer every evening.",
         "tr": "옆집 꼬마들은 매일 저녁 축구를 해.",
-        "c": "child보다 편한 구어. 복수 kids가 훨씬 흔하게 쓰인다.",
+        "c": "child보다 편한 구어체 표현. kid는 아이 한 명, kids는 아이들.",
         "ipa": "kɪd",
         "pos": "n.",
         "word": "kid",
@@ -117,7 +117,7 @@
         "ko": "② 농담하다, 놀리다",
         "ex": "Are you {{BLANK}}ding me right now?",
         "tr": "너 지금 나 놀리는 거야?",
-        "c": "You're kidding!은 '말도 안 돼!'. Just kidding도 통째로 외운다.",
+        "c": "You're kidding!은 말도 안 돼!, Just kidding은 농담이야라는 뜻.",
         "ipa": "kɪd",
         "pos": "v.",
         "word": "kid",
@@ -130,7 +130,7 @@
         "ko": "① 괜찮은, 좋아",
         "ex": "Is it {{BLANK}} if I borrow your pen?",
         "tr": "네 펜 좀 빌려도 괜찮아?",
-        "c": "Is it okay if ~?로 허락을 구한다. OK, ok로도 쓴다. 대답·확인은 ②.",
+        "c": "Is it okay if ~?로 허락을 구한다. OK, ok로도 쓴다.",
         "ipa": "oʊˈkeɪ",
         "pos": "adj.",
         "word": "okay",
@@ -150,24 +150,11 @@
         "sn": 2
       },
       {
-        "en": "hey",
-        "ko": "① 야, 이봐",
-        "ex": "{{BLANK}}, wait for me at the bus stop!",
-        "tr": "야, 버스 정류장에서 나 좀 기다려!",
-        "c": "친근한 인사나 주의를 끄는 말. 격식을 차려 불러야 할 때는 Excuse me.",
-        "ipa": "heɪ",
-        "pos": "int.",
-        "word": "hey",
-        "si": 1,
-        "sn": 1,
-        "meow": "Hey, 여기 보라고양. 친근하게 부를 때 쓰는 말이라고양."
-      },
-      {
         "en": "able",
         "ko": "① ~할 수 있는",
         "ex": "I wasn't {{BLANK}} to sleep before the test.",
         "tr": "나 시험 전에 잠을 잘 수가 없었어.",
-        "c": "be able to+동사원형. 과거의 성공은 was able to로 쓴다.",
+        "c": "be able to + 동사원형은 ~할 수 있다. 과거의 특정 상황에서 실제로 해냈다는 뜻에는 was/were able to를 쓴다.",
         "ipa": "ˈeɪbəl",
         "pos": "adj.",
         "word": "able",
@@ -197,6 +184,72 @@
         "pos": "v.",
         "si": 2,
         "sn": 2
+      }
+    ],
+    "legacyWords": [
+      {
+        "word": "guy",
+        "si": 1
+      },
+      {
+        "word": "guy",
+        "si": 2
+      },
+      {
+        "word": "american",
+        "si": 1
+      },
+      {
+        "word": "american",
+        "si": 2
+      },
+      {
+        "word": "program",
+        "si": 1
+      },
+      {
+        "word": "program",
+        "si": 2
+      },
+      {
+        "word": "percent",
+        "si": 1
+      },
+      {
+        "word": "actually",
+        "si": 1
+      },
+      {
+        "word": "kid",
+        "si": 1
+      },
+      {
+        "word": "kid",
+        "si": 2
+      },
+      {
+        "word": "okay",
+        "si": 1
+      },
+      {
+        "word": "okay",
+        "si": 2
+      },
+      {
+        "word": "hey",
+        "si": 1
+      },
+      {
+        "word": "able",
+        "si": 1
+      },
+      {
+        "word": "research",
+        "si": 1
+      },
+      {
+        "word": "research",
+        "si": 2
       }
     ]
   },
@@ -269,7 +322,7 @@
         "ko": "① 역할, 배역",
         "ex": "Sleep plays a big {{BLANK}} in your health.",
         "tr": "잠은 네 건강에 큰 역할을 해.",
-        "c": "play a role in ~(~에서 역할을 하다)이 단골 연어. 연극 배역도 role.",
+        "c": "play a role in은 ~에서 역할을 하다. 연극의 배역도 role.",
         "ipa": "roʊl",
         "pos": "n.",
         "word": "role",
@@ -306,7 +359,7 @@
         "ko": "① ~쪽으로, ~을 향하여",
         "ex": "He ran {{BLANK}} the gym when the bell rang.",
         "tr": "종이 울리자 걔는 체육관 쪽으로 뛰어갔어.",
-        "c": "미국은 toward, (영)은 towards. 방향만 뜻하고 도착은 아니다.",
+        "c": "toward와 towards 모두 쓴다. 방향을 나타내며, 그곳에 도착했다는 뜻까지는 포함하지 않는다.",
         "ipa": "tɔrd",
         "pos": "prep.",
         "word": "toward",
@@ -354,7 +407,7 @@
         "ko": "② 전공하다",
         "ex": "She wants to {{BLANK}} in art at college.",
         "tr": "걔는 대학에서 미술을 전공하고 싶어 해.",
-        "c": "major in+분야=그 분야를 전공하다. 명사 전공은 별도 예문으로 익힌다.",
+        "c": "major in + 분야는 그 분야를 전공하다. major in art는 미술을 전공하다.",
         "ipa": "ˈmeɪdʒɚ",
         "pos": "v.",
         "word": "major",
@@ -504,7 +557,7 @@
         "ko": "① 작가, 저자",
         "ex": "Who is the {{BLANK}} of this book?",
         "tr": "이 책 저자가 누구야?",
-        "c": "책·글을 쓴 사람. writer보다 격식체다. 발음은 [어써].",
+        "c": "책·글을 쓴 사람. the author of a book은 책의 저자. writer는 글을 쓰는 사람을 더 넓게 가리킨다.",
         "ipa": "ˈɔθɚ",
         "pos": "n.",
         "word": "author",
@@ -654,7 +707,7 @@
         "ko": "① ~에도 불구하고",
         "ex": "{{BLANK}} the rain, we walked to school.",
         "tr": "비가 오는데도 우리는 학교까지 걸어갔어.",
-        "c": "전치사라 뒤에 명사·동명사만 온다. despite of는 틀린 꼴.",
+        "c": "despite + 명사·동명사는 ~에도 불구하고. 절을 연결하려면 despite the fact that ~를 쓴다. despite of는 표준 표현이 아니다.",
         "ipa": "dɪˈspaɪt",
         "pos": "prep.",
         "word": "despite",
@@ -666,7 +719,7 @@
         "ko": "① 병, 질병",
         "ex": "Heart {{BLANK}} runs in his family.",
         "tr": "걔네 집안은 심장병이 잘 생겨.",
-        "c": "이름이 붙은 구체적인 병. 앓고 있는 상태 전체는 illness라고 한다.",
+        "c": "신체 기능에 이상이 생기는 질병. illness는 병이나 몸이 아픈 상태를 두루 가리켜 뜻이 겹친다.",
         "ipa": "dɪˈziz",
         "pos": "n.",
         "word": "disease",
@@ -732,7 +785,7 @@
         "ko": "① 지역, 지방",
         "ex": "This {{BLANK}} is famous for its apples.",
         "tr": "이 지방은 사과로 유명해.",
-        "c": "area보다 넓고 경계가 흐린 땅. 형용사는 regional(지역의).",
+        "c": "특정한 특징·위치로 구분되는 지역. a mountainous region은 산악 지방, regional은 지역의.",
         "ipa": "ˈridʒən",
         "pos": "n.",
         "word": "region",
@@ -780,7 +833,7 @@
         "ko": "① 교수",
         "ex": "My cousin's {{BLANK}} gave the class extra time.",
         "tr": "우리 사촌의 교수님이 그 수업에 시간을 더 주셨어.",
-        "c": "대학에서만 쓴다. 고등학교 선생님은 teacher. 줄임말은 Prof.",
+        "c": "대학 등 고등교육 기관의 교수. 고등학교 선생님은 보통 teacher라 부른다. 줄임말은 Prof.",
         "ipa": "prəˈfɛsɚ",
         "pos": "n.",
         "word": "professor",
@@ -804,7 +857,7 @@
         "ko": "① 환경, 자연환경",
         "ex": "Plastic bags are bad for the {{BLANK}}.",
         "tr": "비닐봉지는 환경에 나빠.",
-        "c": "자연을 뜻할 땐 늘 the environment. 형용사는 environmental.",
+        "c": "자연환경을 통틀어 말할 때는 보통 the environment. environmental은 환경의.",
         "ipa": "ɪnˈvaɪrənmənt",
         "pos": "n.",
         "word": "environment",
@@ -870,7 +923,7 @@
         "ko": "① 신용, 외상",
         "ex": "My dad paid for dinner with his {{BLANK}} card.",
         "tr": "우리 아빠는 저녁값을 신용카드로 냈어.",
-        "c": "credit card는 통째로. buy on credit이면 '외상으로 사다'.",
+        "c": "credit card는 신용카드, buy on credit은 외상으로 사다.",
         "ipa": "ˈkrɛdɪt",
         "pos": "n.",
         "word": "credit",
@@ -1051,7 +1104,7 @@
         "ko": "② (고기가) 질긴",
         "ex": "This meat is too {{BLANK}} to eat.",
         "tr": "이 고기는 너무 질겨서 못 먹겠어.",
-        "c": "고기가 질긴 것. 반대는 tender(연한). 사람 성격은 ③.",
+        "c": "고기가 질겨서 씹기 힘든. 반대말은 tender(연한).",
         "ipa": "tʌf",
         "pos": "adj.",
         "word": "tough",
@@ -1292,7 +1345,7 @@
         "ko": "① 시민의, 민간의",
         "ex": "We learned about {{BLANK}} rights in class today.",
         "tr": "우리 오늘 수업에서 시민권에 대해 배웠어.",
-        "c": "civil rights(시민권), civil war(내전)처럼 통째로 외운다.",
+        "c": "civil rights는 시민의 권리, civil war는 내전. civil에는 군대와 대비되는 민간의라는 뜻도 있다.",
         "ipa": "ˈsɪvəl",
         "pos": "adj.",
         "word": "civil",
@@ -1406,7 +1459,7 @@
         "ko": "① 문화의, 문화적인",
         "ex": "The museum showed {{BLANK}} differences between countries.",
         "tr": "박물관은 나라 간 문화적 차이를 보여 줬어.",
-        "c": "culture(문화)+-al. cultural difference가 단골 연어다.",
+        "c": "culture는 문화, cultural은 문화의. cultural differences는 문화적 차이.",
         "ipa": "ˈkʌltʃɚəl",
         "pos": "adj.",
         "word": "cultural",
@@ -1454,7 +1507,7 @@
         "ko": "① 연구원, 연구자",
         "ex": "The {{BLANK}}s asked a thousand students about sleep.",
         "tr": "연구원들이 학생 천 명에게 잠에 대해 물었어.",
-        "c": "research(연구)+-er. 연구를 직업으로 하는 사람이다.",
+        "c": "research는 연구·조사, researcher는 이를 수행하는 연구자. 반드시 직업으로 하는 사람만 뜻하지는 않는다.",
         "ipa": "ˈrisɝtʃɚ",
         "pos": "n.",
         "word": "researcher",
@@ -1508,7 +1561,7 @@
         "ko": "① 기타 등등",
         "ex": "Pack your books, pens, {{BLANK}}. in one bag.",
         "tr": "책, 펜 등등 다 한 가방에 넣어.",
-        "c": "et cetera의 줄임말이라 늘 마침표를 찍는다. 사람에겐 안 쓴다.",
+        "c": "라틴어 et cetera의 줄임말. books, pens, etc.처럼 예를 나열한 뒤 등등이라는 뜻으로 쓴다.",
         "ipa": "ɛtˈsɛtɚə",
         "pos": "adv.",
         "word": "etc",
@@ -1589,19 +1642,6 @@
         "sn": 1
       },
       {
-        "en": "huh",
-        "ko": "① 응?, 뭐라고?",
-        "ex": "{{BLANK}}? Say that again, please.",
-        "tr": "응? 다시 한번 말해 줘.",
-        "c": "informal. 못 알아들었을 때. 어른께는 Pardon?을 쓴다.",
-        "ipa": "hʌ",
-        "pos": "int.",
-        "word": "huh",
-        "si": 1,
-        "sn": 1,
-        "meow": "Huh? 응? 하고 되묻기 전에 외우라고양."
-      },
-      {
         "en": "understanding",
         "ko": "① 이해, 이해력",
         "ex": "Her {{BLANK}} of the story was really deep.",
@@ -1673,6 +1713,64 @@
         "si": 1,
         "sn": 1,
         "meow": "네 단어장에 hole, 구멍이 숭숭 뚫렸다고양."
+      }
+    ],
+    "legacyWords": [
+      {
+        "word": "etc",
+        "si": 1
+      },
+      {
+        "word": "due",
+        "si": 1
+      },
+      {
+        "word": "due",
+        "si": 2
+      },
+      {
+        "word": "screen",
+        "si": 1
+      },
+      {
+        "word": "screen",
+        "si": 2
+      },
+      {
+        "word": "generally",
+        "si": 1
+      },
+      {
+        "word": "basic",
+        "si": 1
+      },
+      {
+        "word": "huh",
+        "si": 1
+      },
+      {
+        "word": "understanding",
+        "si": 1
+      },
+      {
+        "word": "understanding",
+        "si": 2
+      },
+      {
+        "word": "sample",
+        "si": 1
+      },
+      {
+        "word": "sample",
+        "si": 2
+      },
+      {
+        "word": "mostly",
+        "si": 1
+      },
+      {
+        "word": "hole",
+        "si": 1
       }
     ]
   }

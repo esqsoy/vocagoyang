@@ -1,0 +1,163 @@
+{
+  "testedAt": "2026-09-24T18:59:10.672Z",
+  "tests": [
+    {
+      "name": "session",
+      "exitCode": 0,
+      "results": [
+        {
+          "sessions": 7344,
+          "exercises": 612,
+          "seeds": 12,
+          "firstOrders": 12,
+          "partialRetry": "passed",
+          "allCardLimits": "exactly +1 second",
+          "cardData": "0–45 logged usage corrections and the quickly/rapidly alias, removal of 0:10 and oh/yeah and Goyang million / April wedding / beach volleyball examples; remaining data hash verified",
+          "scriptSyntax": "passed",
+          "nonAdjacentRule": "passed except when no other headword remains",
+          "existingProgressKeys": 465,
+          "newProgressKeys": 55,
+          "brandAndSentenceCasing": "passed"
+        }
+      ]
+    },
+    {
+      "name": "reading-core",
+      "exitCode": 0,
+      "results": [
+        {
+          "shortExercises": 612,
+          "sourceGroups": 520,
+          "splitGroups": 90,
+          "cards": 6859,
+          "sizes": {
+            "4": 4,
+            "5": 3,
+            "6": 10,
+            "7": 22,
+            "8": 65,
+            "9": 61,
+            "10": 60,
+            "11": 79,
+            "12": 99,
+            "13": 87,
+            "14": 73,
+            "15": 49
+          },
+          "oldLocations": 536,
+          "newLocations": 612,
+          "priorPartLocations": 1079,
+          "headPartLocations": 931,
+          "elevenPartLocations": 613,
+          "coverageCases": 3050,
+          "mixedCoverageCases": 16294,
+          "getSensesTogether": 6,
+          "headwordSplits": 0,
+          "completionInheritance": "source groups, short-v1, heads-v2, pre-deletion heads-v3 and mixed-version coverage checked",
+          "shortPartNavigation": "pass",
+          "shortPartEnding": "pass"
+        },
+        {
+          "sets": 51,
+          "reviewReferences": 95,
+          "legacyProgressKeys": 465,
+          "legacyProgress": "preserved",
+          "reviewProgress": "former track retained",
+          "mergedProgress": "26 historical exercise keys preserved; 16 consolidated exercises",
+          "newProgress": "49/50 isolated from historical root-course records",
+          "migratedResumes": 26,
+          "courseNavigation": "45→46→47→48→49→50 directly to game",
+          "guideUI": "removed",
+          "greekResearchUnits": 16,
+          "ending": "all 51 sets required",
+          "syntax": "passed"
+        }
+      ]
+    },
+    {
+      "name": "morphology-content",
+      "exitCode": 0,
+      "results": [
+        {
+          "units": 71,
+          "cards": 167,
+          "greekUnits": 16,
+          "sources": 175,
+          "sourceHtmlSync": true,
+          "scope": "46–48 course content; 0–45 remains separate"
+        }
+      ]
+    },
+    {
+      "name": "connections-content",
+      "exitCode": 0,
+      "results": [
+        {
+          "newCards": 192,
+          "courses": 2,
+          "existingCardsRead": 6715,
+          "priorReferences": 418,
+          "explicitAcceptedAnswers": 476,
+          "allExamples": "one blank; length and explanation bounds checked",
+          "cardAndSourceSync": "passed",
+          "legacyAliasIsolation": "passed"
+        }
+      ]
+    },
+    {
+      "name": "connections-input",
+      "exitCode": 0,
+      "results": [
+        {
+          "cards": 192,
+          "acceptedAnswers": 476,
+          "typingPaths": 1336,
+          "canonicalPaths": 384,
+          "alternativePaths": 952,
+          "automaticPaths": 896,
+          "manualAlternativePaths": 440,
+          "spacedAndCompactInput": "passed",
+          "actualMirrorAndSubmit": "passed",
+          "prematureSubmission": "none",
+          "canonicalPrefixCollisions": "none",
+          "canonicalAlphabetThreshold": "unchanged",
+          "correctAnswersRejected": 0
+        }
+      ]
+    },
+    {
+      "name": "keyboard",
+      "exitCode": 0,
+      "results": [
+        {
+          "hangulVisible": true,
+          "imeEnterProtected": true,
+          "compositionDoesNotAutoSubmit": true,
+          "englishAndCopyInput": true,
+          "focusRecovery": true,
+          "nonGameFocusPreserved": true,
+          "newCardLongerAcceptedAnswer": true,
+          "legacyInputThresholdUnchanged": true,
+          "aliasesScopedToCard": true
+        }
+      ]
+    },
+    {
+      "name": "spacing",
+      "exitCode": 0,
+      "results": [
+        {
+          "wordBoundaries": "prompt, typing and copy mode",
+          "explicitSpaces": "preserved without consuming slots",
+          "spacelessAnswers": "accepted",
+          "copyFeedback": "spaces and punctuation do not shift letters",
+          "longAliases": "preserved",
+          "IME": "protected",
+          "responsiveRules": "word wrapping enabled"
+        }
+      ]
+    }
+  ],
+  "progress": "Historical source groups, short-v1, heads-v2 and heads-v3 records are matched to surviving card identities; no storage reset.",
+  "contentAudit": "All 6,886 baseline cards and all 71 morphology units read; recorded changes reverse exactly to baseline DATA SHA-256 f9aaab01e26c57c171be1ed705bb27b87b502fdd4fdc458e282e8f3b2813061d."
+}

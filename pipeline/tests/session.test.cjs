@@ -6,7 +6,7 @@ const html = fs.readFileSync(path.resolve(__dirname,'../../vocagoyangfable.html'
 const dataBlob = h => h.match(/const DATA = (\[.*?\]);\r?\n/s)[1];
 const baseline = JSON.parse(dataBlob(html)).slice(0,46);
 const corrections=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../connection-legacy-corrections.json'),'utf8')).changes;
-const originalBaseline=JSON.parse(JSON.stringify(baseline));
+const originalBaseline=require('./helpers/editorial-review.cjs').restoreReviewedBaseline(JSON.parse(dataBlob(html))).slice(0,46);
 const septemberCorrections=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../september-usage-corrections.json'),'utf8')).changes;
 for(const change of septemberCorrections){
   const card=originalBaseline[change.set].exercises.find(e=>e.ex===change.exercise).words.find(w=>w.word===change.word);
@@ -27,7 +27,7 @@ for(const change of corrections){
   assert.equal(card.word,change.word);assert.equal(change.field,'c');assert.equal(card.c,change.new);
   card.c=change.old;
 }
-assert.equal(crypto.createHash('sha256').update(JSON.stringify(originalBaseline)).digest('hex'),'303f2e2e2b33d4fddad71ecd26fd99ca112a9c4ee26d431bc6e6311bae8e2358','0–45 changed beyond logged usage corrections and the quickly/rapidly alias, removal of 0:10 and oh/yeah and the Goyang million, April wedding and beach volleyball examples');
+assert.equal(crypto.createHash('sha256').update(JSON.stringify(originalBaseline)).digest('hex'),'303f2e2e2b33d4fddad71ecd26fd99ca112a9c4ee26d431bc6e6311bae8e2358','0–45 changed beyond the recorded editorial and prior usage corrections');
 for (const m of html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g)) new vm.Script(m[1]);
 const data = JSON.parse(dataBlob(html));
 function between(start,end) {

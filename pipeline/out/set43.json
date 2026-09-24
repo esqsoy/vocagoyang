@@ -44,7 +44,7 @@
         "ko": "① 계획표, 플래너",
         "ex": "I write every test date in my {{BLANK}}.",
         "tr": "나는 시험 날짜를 전부 플래너에 적어.",
-        "c": "plan(계획)+ner. n을 겹쳐 쓴다. 철자 주의.",
+        "c": "plan에 -er가 붙으며 n을 겹쳐 쓴다. 일정이나 할 일을 적는 수첩·계획표.",
         "ipa": "ˈplænɚ",
         "pos": "n.",
         "word": "planner",
@@ -218,7 +218,7 @@
         "en": "subscriber",
         "ko": "① 구독자, 가입자",
         "ex": "This channel just hit a million {{BLANK}}s.",
-        "tr": "이 채널 구독자가 방금 백만 명을 넘었어.",
+        "tr": "이 채널 구독자가 방금 백만 명에 도달했어.",
         "c": "subscribe(구독하다)+-er. a subscriber to ~처럼 to와 쓴다.",
         "ipa": "səbˈskraɪbɚ",
         "pos": "n.",
@@ -395,7 +395,7 @@
         "ko": "① 관중, 구경꾼",
         "ex": "Every {{BLANK}} stood up and cheered loudly.",
         "tr": "관중 모두가 일어나 크게 환호했어.",
-        "c": "spect(보다)+-ator. 경기는 spectator, 공연은 audience.",
+        "c": "경기·행사 등을 현장에서 지켜보는 관중 한 사람. audience는 공연·방송 등의 관객 전체를 가리키는 집합 명사.",
         "ipa": "ˈspɛkteɪtɚ",
         "pos": "n.",
         "word": "spectator",
@@ -442,8 +442,8 @@
       {
         "en": "antibiotic",
         "ko": "① 항생제",
-        "ex": "The doctor gave me an {{BLANK}} for my sore throat.",
-        "tr": "내가 목이 아파서 의사가 항생제를 줬어.",
+        "ex": "The doctor prescribed an {{BLANK}} for my bacterial infection.",
+        "tr": "의사가 내 세균 감염을 치료할 항생제를 처방했어.",
         "c": "anti-(맞서)+bio(생명). 세균에 듣고 감기에는 소용없다.",
         "ipa": "ˌæntibaɪˈɑtɪk",
         "pos": "n.",
@@ -456,7 +456,7 @@
         "ko": "① 나들이, 야유회",
         "ex": "Our class {{BLANK}} to the beach was fun.",
         "tr": "우리 반 바닷가 나들이는 재미있었어.",
-        "c": "out+-ing. go on an outing. 하루짜리 짧은 나들이다.",
+        "c": "즐기거나 활동하려고 함께 나가는 짧은 나들이. go on an outing은 나들이를 가다.",
         "ipa": "ˈaʊtɪŋ",
         "pos": "n.",
         "word": "outing",
@@ -686,7 +686,7 @@
         "ko": "① 경사(도), 기울기",
         "ex": "The road has a steep {{BLANK}} near the top.",
         "tr": "그 길은 꼭대기 근처에서 경사가 가팔라.",
-        "c": "grade(경사)와 뿌리가 같다. 과학에서는 '농도 차'도 뜻한다.",
+        "c": "경사나 기울기. concentration gradient는 위치에 따른 농도 변화인 농도 기울기. grade와 어원이 연결된다.",
         "ipa": "ˈɡreɪdiənt",
         "pos": "n.",
         "word": "gradient",
@@ -770,7 +770,7 @@
         "ko": "① 표기법, 기호",
         "ex": "Music {{BLANK}} looks hard at first.",
         "tr": "악보 표기법은 처음엔 어려워 보여.",
-        "c": "not(아니다)이 아니라 note(적다)에서. 기호 체계를 뜻한다.",
+        "c": "숫자·음·개념 등을 기호로 나타내는 표기법. musical notation은 악보 표기법, scientific notation은 과학적 표기법.",
         "ipa": "noʊˈteɪʃən",
         "pos": "n.",
         "word": "notation",
@@ -820,30 +820,6 @@
     "name": "4234~4243",
     "words": [
       {
-        "en": "dialog",
-        "ko": "① 대화, 의견 교환",
-        "ex": "We need an open {{BLANK}} between the two sides.",
-        "tr": "우리는 양쪽 사이에 열린 대화가 필요해.",
-        "c": "미국에서도 dialogue로 더 많이 쓴다. dia-(사이)+log(말).",
-        "ipa": "ˈdaɪəlɔɡ",
-        "pos": "n.",
-        "word": "dialog",
-        "si": 1,
-        "sn": 2
-      },
-      {
-        "en": "dialog",
-        "ko": "② (영화·소설의) 대사",
-        "ex": "The {{BLANK}} in that movie was really funny.",
-        "tr": "그 영화 대사가 정말 웃겼어.",
-        "c": "인물들이 주고받는 말. 혼자 하는 말은 monologue.",
-        "ipa": "ˈdaɪəlɔɡ",
-        "pos": "n.",
-        "word": "dialog",
-        "si": 2,
-        "sn": 2
-      },
-      {
         "en": "motorway",
         "ko": "① (영) 고속도로",
         "ex": "We drove north on the {{BLANK}} all morning.",
@@ -872,7 +848,7 @@
         "ko": "① 기준, 척도",
         "ex": "Speed is not the only {{BLANK}} for a good essay.",
         "tr": "속도가 좋은 글의 유일한 기준은 아니야.",
-        "c": "복수는 criteria. 단수·복수 형태를 시험에서 자주 묻는다.",
+        "c": "판단이나 평가의 기준 한 가지. 복수는 criteria. meet the criteria는 기준들을 충족하다.",
         "ipa": "kraɪˈtɪriən",
         "pos": "n.",
         "word": "criterion",
@@ -963,6 +939,56 @@
         "si": 1,
         "sn": 1,
         "meow": "simplify, 단순하게 가자고양. 외우면 끝이고양."
+      }
+    ],
+    "legacyWords": [
+      {
+        "word": "dialog",
+        "si": 1
+      },
+      {
+        "word": "dialog",
+        "si": 2
+      },
+      {
+        "word": "motorway",
+        "si": 1
+      },
+      {
+        "word": "advert",
+        "si": 1
+      },
+      {
+        "word": "criterion",
+        "si": 1
+      },
+      {
+        "word": "wrongly",
+        "si": 1
+      },
+      {
+        "word": "antibody",
+        "si": 1
+      },
+      {
+        "word": "applaud",
+        "si": 1
+      },
+      {
+        "word": "applaud",
+        "si": 2
+      },
+      {
+        "word": "extremist",
+        "si": 1
+      },
+      {
+        "word": "globalization",
+        "si": 1
+      },
+      {
+        "word": "simplify",
+        "si": 1
       }
     ]
   },
@@ -1119,7 +1145,7 @@
         "ko": "① 인위적으로, 인공적으로",
         "ex": "This drink is {{BLANK}} colored.",
         "tr": "이 음료는 인공적으로 색을 넣었어.",
-        "c": "뒤의 형용사·분사를 꾸민다.",
+        "c": "사람의 기술이나 개입으로 인공적으로. artificially colored는 인공 색소로 색을 낸, artificially created는 인공적으로 만든.",
         "ipa": "ˌɑrtəˈfɪʃəli",
         "pos": "adv.",
         "word": "artificially",
@@ -1324,7 +1350,7 @@
         "ko": "② (설명·믿음을) 뛰어넘다",
         "ex": "That trick seems to {{BLANK}} belief.",
         "tr": "그 마술은 믿기 힘들 만큼 대단해 보여.",
-        "c": "defy belief[description]은 '말로 못 할 만큼 대단하다'.",
+        "c": "defy belief는 믿기 어려울 정도이다, defy description은 말로 묘사하기 어렵다. 좋은 일과 나쁜 일 모두에 쓴다.",
         "ipa": "dɪˈfaɪ",
         "pos": "v.",
         "word": "defy",
@@ -1372,7 +1398,7 @@
         "ko": "① 계산하다, 산출하다",
         "ex": "This app can {{BLANK}} your average grade.",
         "tr": "이 앱이 네 평균 성적을 계산해 줄 수 있어.",
-        "c": "computer의 원형. calculate와 뜻은 같고 더 딱딱하다.",
+        "c": "수치나 자료로 값을 계산하다. computer는 원래 계산하는 사람·기계라는 뜻. computation은 계산.",
         "ipa": "kəmˈpjut",
         "pos": "v.",
         "word": "compute",
@@ -1440,7 +1466,7 @@
         "ko": "① 심사숙고하다, 곰곰이 생각하다",
         "ex": "I will {{BLANK}} my future during the break.",
         "tr": "나는 방학 동안 내 진로를 심사숙고해 볼 거야.",
-        "c": "contemplate ~ing 형태로 쓴다. to부정사는 쓰지 않는다.",
+        "c": "곰곰이 생각하거나 고려하다. contemplate one's future는 진로를 숙고하다, contemplate moving은 이사를 고려하다.",
         "ipa": "ˈkɑntəmpleɪt",
         "pos": "v.",
         "word": "contemplate",
@@ -1488,7 +1514,7 @@
         "ko": "① 대체, 대신 씀",
         "ex": "The {{BLANK}} of honey for sugar worked well.",
         "tr": "설탕 대신 꿀을 쓴 게 잘 통했어.",
-        "c": "substitute(대신하다)+-ion. substitution of A for B.",
+        "c": "substitution of A for B는 B 대신 A를 쓰는 것. substitute A for B도 같은 방향이다.",
         "ipa": "ˌsʌbstəˈtuʃən",
         "pos": "n.",
         "word": "substitution",
@@ -1584,7 +1610,7 @@
         "ko": "① 억제, 억제 작용",
         "ex": "The drug causes the {{BLANK}} of cell growth.",
         "tr": "그 약은 세포 성장의 억제를 일으켜.",
-        "c": "inhibit(억제하다)+-ion. 과학 글에 자주 나온다.",
+        "c": "inhibit(억제하다)의 명사. inhibition of cell growth는 세포 성장 억제.",
         "ipa": "ˌɪnhɪˈbɪʃən",
         "pos": "n.",
         "word": "inhibition",

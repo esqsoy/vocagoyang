@@ -4,13 +4,16 @@ const readConst=name=>JSON.parse(html.match(new RegExp('const '+name+' = ([^\\n]
 const DATA=readConst('DATA'),CONNECTIONS=readConst('CONNECTIONS');
 assert.deepEqual(CONNECTIONS,JSON.parse(fs.readFileSync(path.join(repo,'pipeline/connections.json'),'utf8')));
 // Keep historical audit IDs after removing yeah/oh at indices 4 and 5 of 0:4.
-const prior=new Map(DATA.slice(0,49).flatMap(L=>L.exercises.flatMap(e=>e.words.map((w,i)=>[`${L.lesson}:${e.ex}:${L.lesson===0&&e.ex===4&&i>=4?i+2:i}`,w]))));
+const prior=new Map(DATA.slice(0,49).flatMap(L=>L.exercises.flatMap(e=>e.words.map((w,i)=>{
+  const oldIndex=e.legacyWords?e.legacyWords.findIndex(x=>x.word===w.word&&x.si===w.si):i;assert(oldIndex>=0);
+  return [`${L.lesson}:${e.ex}:${L.lesson===0&&e.ex===4&&oldIndex>=4?oldIndex+2:oldIndex}`,w];
+}))));
 const seen=new Set(),entries=new Map(CONNECTIONS.entries.map(e=>[e.id,e]));
 assert.equal(entries.size,CONNECTIONS.entries.length);
 assert.equal(CONNECTIONS.review.cards,6715);
 const checked=new Set();
 // The historical reread included the retired slang unit plus yeah and oh.
-const retired=new Set([...Array.from({length:19},(_,i)=>`0:10:${i}`),'0:4:4','0:4:5']);
+const retired=new Set([...Array.from({length:19},(_,i)=>`0:10:${i}`),'0:4:4','0:4:5',...require('./helpers/editorial-review.cjs').audit.removals.map(r=>r.id)]);
 for(const id of retired)assert(!prior.has(id),'Retired card remains active: '+id);
 for(const filename of CONNECTIONS.review.auditFiles){
   const audit=JSON.parse(fs.readFileSync(path.join(repo,'pipeline',filename),'utf8'));
@@ -18,7 +21,7 @@ for(const filename of CONNECTIONS.review.auditFiles){
   for(const id of audit.readCardIds){assert(prior.has(id)||retired.has(id),id);assert(!checked.has(id),'Repeated audit card '+id);checked.add(id);}
 }
 assert.equal(checked.size,6715,'Full reread is incomplete');
-assert.equal(prior.size,6694);for(const id of prior.keys())assert(checked.has(id),'Active card was not reviewed: '+id);
+assert.equal(prior.size,6667);for(const id of prior.keys())assert(checked.has(id),'Active card was not reviewed: '+id);
 const between=(a,b)=>html.slice(html.indexOf(a),html.indexOf(b,html.indexOf(a)+a.length));
 const ctx=vm.createContext({ALT:{}});
 vm.runInContext(between('function normalize(','function shuffle(')+'\n'+between('function isAliasHit(','const SYNLINES='),ctx);

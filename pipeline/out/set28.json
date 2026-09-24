@@ -44,7 +44,7 @@
         "ko": "① 연장, 기한 연기",
         "ex": "Can I get an {{BLANK}} on this homework?",
         "tr": "이 숙제 기한 좀 늘려 주실 수 있어요?",
-        "c": "extend(늘리다)+-sion. get an extension on ~ 이 대표 짝.",
+        "c": "extend는 늘리다, extension은 연장. get an extension on a deadline은 마감 기한을 연장받다.",
         "ipa": "ɪkˈstɛnʃən",
         "pos": "n.",
         "word": "extension",
@@ -116,7 +116,7 @@
         "ko": "② (카드) 한 벌",
         "ex": "Hand me that {{BLANK}} of cards, please.",
         "tr": "그 카드 한 벌 좀 건네줘.",
-        "c": "a deck of cards가 굳은 표현. 영국은 a pack of cards.",
+        "c": "a deck of cards는 카드 한 벌. a pack of cards라고도 한다.",
         "ipa": "dɛk",
         "pos": "n.",
         "word": "deck",
@@ -140,7 +140,7 @@
         "ko": "① 일상의, 매일의",
         "ex": "Checking my phone became an {{BLANK}} habit.",
         "tr": "휴대폰 확인하는 게 일상적인 습관이 됐어.",
-        "c": "명사 앞에만 쓰는 형용사. 부사구 every day(매일)와 구별.",
+        "c": "주로 명사 앞에서 일상의·평범한이라는 뜻. everyday life는 일상생활, every day는 띄어서 매일이라는 뜻.",
         "ipa": "ˈɛvrideɪ",
         "pos": "adj.",
         "word": "everyday",
@@ -230,7 +230,7 @@
         "ko": "① 인상적인, 훌륭한",
         "ex": "Your test result this time is really {{BLANK}}.",
         "tr": "이번 시험 결과 진짜 인상적이다.",
-        "c": "impress(감동시키다)+-ive. 사람 감정은 impressed로 쓴다.",
+        "c": "감탄이나 깊은 인상을 주는 쪽은 impressive, 그 인상을 받은 쪽은 impressed.",
         "ipa": "ɪmˈprɛsɪv",
         "pos": "adj.",
         "word": "impressive",
@@ -266,7 +266,7 @@
         "ko": "① 무서운",
         "ex": "That movie was too {{BLANK}} to watch alone.",
         "tr": "그 영화는 혼자 보기엔 너무 무서웠어.",
-        "c": "informal. scare(겁주다)+-y. 사람이 느끼면 scared를 쓴다.",
+        "c": "겁을 주는 쪽은 scary, 겁을 느끼는 쪽은 scared. a scary person은 무서운 사람, a scared person은 겁먹은 사람.",
         "ipa": "ˈskɛri",
         "pos": "adj.",
         "word": "scary",
@@ -327,7 +327,7 @@
         "ko": "② 추첨, 제비뽑기",
         "ex": "The prize {{BLANK}} starts right after lunch.",
         "tr": "경품 추첨은 점심 바로 뒤에 시작해.",
-        "c": "제비를 '뽑는' 데서 나온 뜻. 영국은 draw를 쓴다.",
+        "c": "당첨자를 무작위로 뽑는 추첨. a prize drawing은 경품 추첨. 특히 영국에서는 draw라는 명사를 흔히 쓴다.",
         "ipa": "ˈdrɔɪŋ",
         "pos": "n.",
         "word": "drawing",
@@ -361,18 +361,6 @@
         "ipa": "ˈskændəl",
         "pos": "n.",
         "word": "scandal",
-        "si": 1,
-        "sn": 1
-      },
-      {
-        "en": "ooh",
-        "ko": "① 우와, 오",
-        "ex": "{{BLANK}}, that cake looks so good!",
-        "tr": "우와, 저 케이크 진짜 맛있어 보여!",
-        "c": "놀람·감탄의 소리. 글에서는 쉼표를 찍고 문장을 잇는다.",
-        "ipa": "u",
-        "pos": "int.",
-        "word": "ooh",
         "si": 1,
         "sn": 1
       },
@@ -430,7 +418,7 @@
         "ko": "① 공포, 경악",
         "ex": "I watched in {{BLANK}} as the glass fell.",
         "tr": "나는 유리가 떨어지는 걸 경악하며 지켜봤어.",
-        "c": "in horror(공포에 질려)가 흔한 짝. fear보다 훨씬 센 감정.",
+        "c": "공포뿐 아니라 경악·혐오가 섞인 강한 감정에도 쓴다. in horror는 공포나 경악에 질려.",
         "ipa": "ˈhɔrɚ",
         "pos": "n.",
         "word": "horror",
@@ -452,9 +440,9 @@
       {
         "en": "prevention",
         "ko": "① 예방, 방지",
-        "ex": "Hand washing is the best {{BLANK}} of colds.",
-        "tr": "손 씻기가 감기를 막는 가장 좋은 예방법이야.",
-        "c": "prevent(막다)+-ion. Prevention is better than cure.",
+        "ex": "The school ran a fire {{BLANK}} campaign.",
+        "tr": "학교에서 화재 예방 캠페인을 벌였어.",
+        "c": "prevent는 막다, prevention은 예방·방지. fire prevention은 화재 예방, disease prevention은 질병 예방.",
         "ipa": "prɪˈvɛnʃən",
         "pos": "n.",
         "word": "prevention",
@@ -521,6 +509,68 @@
         "si": 1,
         "sn": 1
       }
+    ],
+    "legacyWords": [
+      {
+        "word": "newly",
+        "si": 1
+      },
+      {
+        "word": "scandal",
+        "si": 1
+      },
+      {
+        "word": "ooh",
+        "si": 1
+      },
+      {
+        "word": "bench",
+        "si": 1
+      },
+      {
+        "word": "bench",
+        "si": 2
+      },
+      {
+        "word": "odds",
+        "si": 1
+      },
+      {
+        "word": "odds",
+        "si": 2
+      },
+      {
+        "word": "horror",
+        "si": 1
+      },
+      {
+        "word": "horror",
+        "si": 2
+      },
+      {
+        "word": "prevention",
+        "si": 1
+      },
+      {
+        "word": "ban",
+        "si": 1
+      },
+      {
+        "word": "ban",
+        "si": 2
+      },
+      {
+        "word": "badly",
+        "si": 1
+      },
+      {
+        "word": "badly",
+        "si": 2
+      },
+      {
+        "word": "implementation",
+        "si": 1
+      }
     ]
   },
   {
@@ -532,7 +582,7 @@
         "ko": "① 합법적인",
         "ex": "Is this shop a {{BLANK}} business?",
         "tr": "이 가게 적법한 업체 맞아?",
-        "c": "법이 허용하는. 반대말은 illegal. 발음은 [러지터멋].",
+        "c": "법이나 규칙에 맞는. 반대말은 illegitimate. a legitimate business는 합법적인 사업체.",
         "ipa": "lɪˈdʒɪtəmət",
         "pos": "adj.",
         "word": "legitimate",
@@ -568,7 +618,7 @@
         "ko": "② 몹시 ~하고 싶은",
         "ex": "I'm {{BLANK}} for a cold drink right now.",
         "tr": "나 지금 찬 음료가 너무너무 마시고 싶어.",
-        "c": "be desperate for+명사, be desperate to+동사원형을 외운다.",
+        "c": "be desperate for + 명사는 ~을 간절히 원하다, be desperate to + 동사는 몹시 ~하고 싶다.",
         "ipa": "ˈdɛspɚət",
         "pos": "adj.",
         "word": "desperate",
@@ -628,7 +678,7 @@
         "ko": "① 상세한, 자세한",
         "ex": "She wrote a {{BLANK}} plan for the trip.",
         "tr": "걔는 그 여행에 대한 자세한 계획을 썼어.",
-        "c": "detail(세부)의 굴절꼴. a detailed plan처럼 명사 앞에 쓴다.",
+        "c": "세부 내용까지 담은 상세한. a detailed plan은 상세한 계획, in detail은 자세하게.",
         "ipa": "ˈditeɪld",
         "pos": "adj.",
         "word": "detailed",
@@ -640,7 +690,7 @@
         "ko": "① 구매자, 사는 사람",
         "ex": "The {{BLANK}} paid cash for the old bike.",
         "tr": "그 구매자는 낡은 자전거값을 현금으로 냈어.",
-        "c": "buy(사다)+-er. 파는 쪽은 seller. 짝으로 외워 둔다.",
+        "c": "buy는 사다, buyer는 구매자. 파는 쪽은 seller.",
         "ipa": "ˈbaɪɚ",
         "pos": "n.",
         "word": "buyer",
@@ -664,7 +714,7 @@
         "ko": "② 믿기 어렵게도",
         "ex": "{{BLANK}}, he passed the test without studying.",
         "tr": "믿기 어렵게도, 걔는 공부도 안 하고 시험에 붙었어.",
-        "c": "문장 맨 앞에서 쉼표와 함께 문장 전체를 꾸민다.",
+        "c": "문장 전체를 꾸미면 믿기 어렵게도라는 뜻. 뒤에 오는 사실에 대한 놀라움을 표현한다.",
         "ipa": "ɪnˈkrɛdəbli",
         "pos": "adv.",
         "word": "incredibly",
@@ -814,22 +864,10 @@
         "ko": "① 제안된, 계획된",
         "ex": "The {{BLANK}} rule would end all phone use.",
         "tr": "제안된 그 규칙은 휴대폰 사용을 전부 없앨 거야.",
-        "c": "propose(제안하다)의 굴절꼴. 명사 앞에서 '아직 안 정해진'.",
+        "c": "propose는 제안하다, proposed는 제안된. proposed changes는 제안된 변경 사항.",
         "ipa": "prəˈpoʊzd",
         "pos": "adj.",
         "word": "proposed",
-        "si": 1,
-        "sn": 1
-      },
-      {
-        "en": "iPhone",
-        "ko": "① 아이폰",
-        "ex": "My old {{BLANK}} still takes clear pictures.",
-        "tr": "내 오래된 아이폰도 아직 사진이 선명하게 찍혀.",
-        "c": "상표명이라 i는 소문자, P는 대문자로 iPhone처럼 쓴다.",
-        "ipa": "ˈaɪfoʊn",
-        "pos": "n.",
-        "word": "iphone",
         "si": 1,
         "sn": 1
       },
@@ -856,6 +894,60 @@
         "word": "romantic",
         "si": 1,
         "sn": 1
+      }
+    ],
+    "legacyWords": [
+      {
+        "word": "photographer",
+        "si": 1
+      },
+      {
+        "word": "running",
+        "si": 1
+      },
+      {
+        "word": "running",
+        "si": 2
+      },
+      {
+        "word": "divorce",
+        "si": 1
+      },
+      {
+        "word": "divorce",
+        "si": 2
+      },
+      {
+        "word": "canadian",
+        "si": 1
+      },
+      {
+        "word": "flee",
+        "si": 1
+      },
+      {
+        "word": "memorial",
+        "si": 1
+      },
+      {
+        "word": "memorial",
+        "si": 2
+      },
+      {
+        "word": "proposed",
+        "si": 1
+      },
+      {
+        "word": "iphone",
+        "si": 1
+      },
+      {
+        "word": "pill",
+        "si": 1
+      },
+      {
+        "word": "romantic",
+        "si": 1
       }
     ]
   },
@@ -904,7 +996,7 @@
         "ko": "① 파이",
         "ex": "Mom baked an apple {{BLANK}} for my birthday.",
         "tr": "엄마가 내 생일에 애플파이를 구우셨어.",
-        "c": "a piece of pie로 센다. easy as pie는 '아주 쉽다'.",
+        "c": "파이 한 개는 a pie, 한 조각은 a piece/slice of pie. easy as pie는 아주 쉽다는 뜻.",
         "ipa": "paɪ",
         "pos": "n.",
         "word": "pie",
@@ -952,7 +1044,7 @@
         "ko": "① 솔직히 말해서",
         "ex": "{{BLANK}}, I don't like that song.",
         "tr": "터놓고 말해서, 난 그 노래 별로야.",
-        "c": "frank(솔직한)+-ly. 문장 맨 앞에서 쉼표와 함께 쓴다.",
+        "c": "frank의 부사형. frankly speaking은 솔직히 말해서. 말을 에둘러 하지 않고 의견을 꺼낼 때 쓴다.",
         "ipa": "ˈfræŋkli",
         "pos": "adv.",
         "word": "frankly",
@@ -978,7 +1070,7 @@
         "ko": "① 여백, 가장자리",
         "ex": "Write your name in the {{BLANK}} of the page.",
         "tr": "종이 여백에 네 이름을 써.",
-        "c": "in the margin(여백에)이 대표 짝. 전치사 in에 주의.",
+        "c": "본문이 인쇄된 부분 바깥의 빈 공간. in the margin은 여백에.",
         "ipa": "ˈmɑrdʒən",
         "pos": "n.",
         "word": "margin",
@@ -1026,7 +1118,7 @@
         "ko": "① 초상화",
         "ex": "An old {{BLANK}} of the king hangs there.",
         "tr": "그곳엔 왕의 오래된 초상화가 걸려 있어.",
-        "c": "사람 얼굴을 그린 그림·사진. 세로 화면 방향도 뜻한다.",
+        "c": "사람의 모습을 담은 그림·사진. portrait orientation은 화면·종이의 세로 방향.",
         "ipa": "ˈpɔrtrət",
         "pos": "n.",
         "word": "portrait",
@@ -1057,7 +1149,7 @@
         "ko": "① 물가 상승, 인플레이션",
         "ex": "{{BLANK}} made lunch at the shop cost more.",
         "tr": "인플레이션 때문에 가게 점심값이 더 비싸졌어.",
-        "c": "inflate(부풀리다)+-ion. 돈 가치가 떨어져 물가가 오르는 일.",
+        "c": "전반적인 물가가 오르는 현상. 같은 돈으로 살 수 있는 양이 줄어든다. inflate는 부풀리다.",
         "ipa": "ɪnˈfleɪʃən",
         "pos": "n.",
         "word": "inflation",
@@ -1093,7 +1185,7 @@
         "ko": "① 신체적으로, 육체적으로",
         "ex": "Soccer is {{BLANK}} harder than it looks.",
         "tr": "축구는 보기보다 몸이 더 힘들어.",
-        "c": "physical(신체의)+-ly. 마음은 mentally와 짝지어 외운다.",
+        "c": "신체·육체의 측면에서. physically tired는 몸이 지친, mentally tired는 정신적으로 지친.",
         "ipa": "ˈfɪzɪkli",
         "pos": "adv.",
         "word": "physically",
@@ -1559,7 +1651,7 @@
         "ko": "① 주교",
         "ex": "The {{BLANK}} spoke to the crowd at church.",
         "tr": "주교가 교회에서 사람들에게 말했어.",
-        "c": "여러 교회를 맡아 이끄는 높은 성직자. 체스 말 뜻은 별도로 익힌다.",
+        "c": "여러 교회를 맡아 이끄는 성직자. bishop이라는 체스 말도 있다.",
         "ipa": "ˈbɪʃəp",
         "pos": "n.",
         "word": "bishop",
