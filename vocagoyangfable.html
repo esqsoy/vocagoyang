@@ -1160,6 +1160,86 @@ body.roaring{animation:roarshake .5s .15s;}
 
 /* 남은 시간 막대는 민무늬로 둔다. 한때 쥐가 고양이한테서 도망치는 연출을 얹었는데,
    재미있긴 해도 문제를 푸는 동안 눈이 그쪽으로 끌려가서 걷어냈다(26.9.15 영신). */
+
+/* Stable feedback layout: reserve speech space and a small top inset. */
+body.playing .app{
+  padding-top:max(16px,env(safe-area-inset-top));
+}
+.time-slot{
+  --speech-font-size:clamp(.85rem,3.5vw,.98rem);
+  min-height:calc(var(--speech-font-size) * 2.9 + 16px);
+}
+.cat-speech{font-size:var(--speech-font-size);}
+/* A known, longer card-specific line reserves its actual wrapping height before
+   the answer. The invisible copy is excluded from the accessibility tree. */
+.speech-reserve{visibility:hidden;pointer-events:none;}
+.quiz.good .meaning,.quiz.bad .meaning{
+  font-size:clamp(1.55rem,7vw,2.2rem);
+}
+@media(max-width:380px){
+  .quiz.good .meaning,.quiz.bad .meaning{font-size:clamp(1.5rem,8.5vw,2.6rem);}
+}
+@media(max-height:500px){
+  body.playing .app{padding-top:max(10px,env(safe-area-inset-top));}
+}
+
+/* IPA and explanation share one paragraph, with ordinary line wrapping. */
+.rv .rv-note{display:block;text-align:left;}
+.rv .rv-inline-ipa{
+  all:unset;display:inline;color:var(--cyansoft);font-family:inherit;
+  font-size:1.05rem;font-weight:600;line-height:inherit;letter-spacing:0;
+  cursor:pointer;overflow-wrap:anywhere;
+}
+.rv .rv-inline-ipa b{font-size:1.2rem;}
+.rv .rv-inline-ipa i{font-size:1.1rem;}
+.rv .rv-inline-ipa:focus-visible{outline:2px solid var(--cyansoft);outline-offset:3px;border-radius:3px;}
+
+/* Reserve classic scrollbar space before a long explanation needs scrolling. */
+html{scrollbar-gutter:stable;background:var(--bg1);}
+/* One universal wide-letter cell, with no answer-dependent sizing or JS metrics. */
+.hoectx .blanks{display:inline;margin:0 2px;vertical-align:baseline;}
+.hoectx .slot-word{gap:0;vertical-align:baseline;}
+.hoectx .slot{
+  position:relative;flex:0 0 auto;width:auto;min-width:1em;padding:0;
+  font-size:inherit;border-bottom-color:transparent;
+}
+.hoectx .slot::before{content:"W";visibility:hidden;white-space:pre;}
+.hoectx .slot-glyph{
+  position:absolute;left:0;right:0;bottom:0;display:block;white-space:pre;
+  line-height:1;text-align:center;
+}
+.hoectx .slot::after{
+  content:"";position:absolute;left:1px;right:1px;bottom:-3px;height:3px;
+  background:currentColor;border-radius:1px;
+}
+.hoectx .slot.cur,.hoectx .slot.gh,.hoectx .slot.ok,.hoectx .slot.x,.hoectx .slot.over{
+  border-bottom-color:transparent;animation:none;
+}
+.hoectx .slot.cur::after{animation:slot-caret 1s steps(1) infinite;}
+@keyframes slot-caret{50%{background:#fff;}}
+.hoectx .slot.over::after{background:var(--bad);}
+.hoectx .blanks.revealed .slot::after{visibility:hidden;animation:none;}
+.hoectx .slot-punctuation{
+  display:inline-flex;flex:0 0 auto;align-items:flex-end;height:1.05em;
+  border-bottom:3px solid transparent;font-size:inherit;font-weight:900;
+  line-height:1;white-space:pre;visibility:hidden;color:var(--gold);
+}
+.hoectx .slot-punctuation.shown{visibility:visible;}
+.quiz.bad .slot-punctuation{color:#8a6aa8;}
+.answer-spoken{
+  position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+  clip-path:inset(50%);white-space:nowrap;border:0;
+}
+
+/* Touching the first cell reveals only the first letter, once per card. */
+.slot-hint{
+  all:unset;position:absolute;z-index:3;box-sizing:border-box;display:block;
+  cursor:help;touch-action:manipulation;border-radius:5px;
+}
+.slot-hint[hidden]{display:none;}
+.slot-hint:disabled{pointer-events:none;}
+.slot-hint:focus-visible{outline:2px solid var(--cyansoft);outline-offset:1px;}
+
 </style>
 </head>
 <body>
@@ -1223,9 +1303,9 @@ body.roaring{animation:roarshake .5s .15s;}
              이 줄이 중간에 있으면 공개 뒤 힌트·고양이가 본문 한가운데 끼어 갈 곳을 잃는다.
              공개 때는 같은 칸의 막대 위에 말풍선을 띄운다. 긴 대사는 머리줄 안에서 줄바꿈한다. -->
         <div class="trow">
-          <button class="ghost ibtn" id="hintBtn" type="button" aria-label="힌트">💡</button>
           <div class="time-slot">
             <div class="timewrap" id="timeWrap" aria-hidden="true"><i id="timeFill"></i></div>
+            <p class="cat-speech speech-reserve" id="catSpeechReserve" aria-hidden="true"></p>
             <p class="cat-speech" id="catSpeech" role="status" aria-live="polite" aria-atomic="true" hidden></p>
           </div>
           <button class="catbtn" id="catSubmit" type="button" aria-label="확인 (고양고양이 탭)">
@@ -1241,6 +1321,7 @@ body.roaring{animation:roarshake .5s .15s;}
                    autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="영어 정답">
             <button class="btn" id="submitBtn" type="submit" aria-hidden="true" tabindex="-1">확인</button>
             <div class="fb" id="fb" aria-live="polite"></div>
+            <button class="slot-hint" id="hintBtn" type="button" aria-label="첫 번째 칸 힌트" aria-controls="ainput hoeCtx" title="첫 번째 칸을 누르면 글자 힌트" hidden></button>
           </form>
         </div>
         <p class="input-help" id="inputHelp" aria-live="polite" hidden></p>
@@ -2095,6 +2176,7 @@ function nextCard(){
     $("#qmini").textContent = s.round>=2 ? ((w.roundStreak>=1)?"한 번 더 (2/2)":"2연속 정답이면 통과 (1/2)") : (w.sn>1?`뜻 ${w.si}/${w.sn}`:"");
     $("#qmini").style.display="";$("#timeWrap").style.visibility="";
     $("#catSpeech").textContent="";$("#catSpeech").hidden=true;
+    $("#catSpeechReserve").textContent=w.meow||"";
     const rv=$("#reveal");rv.className="rv";rv.innerHTML="";
     $("#ainput").value="";$("#ainput").className="ainput";$("#ainput").disabled=false;
     $("#submitBtn").disabled=false;$("#hintBtn").disabled=false;
@@ -2181,7 +2263,7 @@ function updateInputNotice(){
 }
 function focusAnswerInput(){if(!answerInputActive())return;$("#ainput").focus({preventScroll:true});updateInputNotice();}
 function handleCopyInput(){const s=state.session;if(!s||!s.copyMode)return;const v=$("#ainput").value;renderCopyBlank(v);if(!state.composing&&isCorrect(v,s.copyAns)){$("#ainput").oninput=null;submitCopy();}}
-function mirrorTyped(){const s=state.session;if(!s||s.answered||s.copyMode||s.currentId===null)return;const wrap=$("#hoeCtx .blanks");if(!wrap)return;
+function mirrorTyped(options={}){const s=state.session;if(!s||s.answered||s.copyMode||s.currentId===null)return;const wrap=$("#hoeCtx .blanks");if(!wrap)return;
   const w=s.words[s.currentId];const n=(w.term||"").replace(/[^A-Za-z]/g,"").length||3;const raw=$("#ainput").value;
   // 한글도 화면에 드러내 입력이 사라진 것처럼 보이지 않게 한다. IME 조합 중에는 채점하지 않는다.
   const chars=raw.replace(/[^A-Za-z\u1100-\u11ff\u3130-\u318f\uac00-\ud7af]/g,"");
@@ -2191,7 +2273,7 @@ function mirrorTyped(){const s=state.session;if(!s||s.answered||s.copyMode||s.cu
   const pendingAlternative=w.constructionId&&!isCorrect(raw,w.term)&&(w.acceptedAnswers||[]).some(answer=>{
     const letters=answer.toLowerCase().replace(/[^a-z]/g,"");return letters.length>entered.length&&letters.startsWith(entered);
   });
-  if(!state.composing&&!hasHangul(raw)&&chars.length>=n&&n>0&&!pendingAlternative)submit(); /* 기존 자동 확인, 새 허용어를 입력 중인 경우만 완성까지 기다림 */}
+  if(!options.fromHint&&!state.composing&&!hasHangul(raw)&&chars.length>=n&&n>0&&!pendingAlternative)submit(); /* 기존 자동 확인, 새 허용어를 입력 중인 경우만 완성까지 기다림 */}
 function blankParts(value){
   const clean=String(value||"").replace(/[^A-Za-z\u1100-\u11ff\u3130-\u318f\uac00-\ud7af\s]/g,"");
   let chars="",pending=false;const breaks=new Set();
@@ -2199,22 +2281,29 @@ function blankParts(value){
   if(pending)breaks.add(chars.length);
   return {chars,breaks,spaced:/\s/.test(clean.trimStart())};
 }
+// Every letter uses the same CSS-sized cell; punctuation has no input cell.
 function blankSlots(answer,typed="",copy=false){
   const expected=blankParts(answer),entered=blankParts(typed),n=expected.chars.length||3;
-  // 붙여 쓴 입력에도 정답의 단어 경계를 보여 준다. 직접 친 공백은 입력한 구간에 반영한다.
   const breaks=new Set([...expected.breaks].filter(i=>!entered.spaced||i>=entered.chars.length));
   for(const i of entered.breaks)breaks.add(i);
-  const words=[];let word="",start=0;
+  const punctuation=new Map();let letters=0;
+  for(const c of String(answer||"")){
+    if(/[A-Za-z\u1100-\u11ff\u3130-\u318f\uac00-\ud7af]/.test(c))letters++;
+    else if(!/\s/.test(c))punctuation.set(letters,(punctuation.get(letters)||"")+c);
+  }
+  const mark=i=>punctuation.has(i)?`<span class="slot-punctuation${copy?" shown":""}" aria-hidden="true">${esc(punctuation.get(i))}</span>`:"";
+  const words=[];let word=mark(0),start=0;
   for(let i=0;i<Math.max(n,entered.chars.length);i++){
     if(i>start&&breaks.has(i)){words.push(word);word="";start=i;}
     const c=entered.chars[i]||"",target=expected.chars[i]||"";
     const cls=copy?(c?(c.toLowerCase()===target.toLowerCase()?" ok":" x"):" gh"):(i>=n?" over":"");
     const letter=copy&&!c?target:c;
-    word+=`<span class="slot${cls}${i===entered.chars.length?" cur":""}">${esc(letter)}</span>`;
+    word+=`<span class="slot${cls}${i===entered.chars.length?" cur":""}"><span class="slot-glyph">${esc(letter)}</span></span>${mark(i+1)}`;
   }
   if(word)words.push(word);
   return words.map(w=>`<span class="slot-word">${w}</span>`).join(" ");
 }
+
 function slots(answer){return `<span class="blanks">${blankSlots(answer)}</span>`;}
 function maskBlank(ex,ans){return esc(ex||"").split("{{BLANK}}").join(slots(ans));}
 function answerInSentence(ex,ans){
@@ -2227,7 +2316,7 @@ function hoeCtxHtml(w){return w.ex?`<div class="ex">${maskBlank(w.ex,w.term)}</d
 function catNote(c){return `<div class="ov-c">${esc(c)}</div>`;}
 function hoeMid(w){let h="";if(w.ex)h+=`<div class="ov-ex">${fillBlank(w.ex,w.term)}</div>`;if(w.tr)h+=`<div class="ov-tr">${esc(w.tr)}</div>`;return h;}
 function revealDelay(w){var d=w.c?Math.min(15000,Math.round(1900+w.c.length*75)):2200;var s=state.session;if(s&&s.round>=2)d=Math.min(d,5000);return d;}
-function onRevealKey(e){if(composingKey(e))return;if(e.key==="Enter"||e.key===" "||e.code==="Space"){const s=state.session;if(s&&s.answered&&!s.copyMode){e.preventDefault();doNext();}}}
+function onRevealKey(e){if(composingKey(e)||e.target?.closest?.(".rv-inline-ipa"))return;if(e.key==="Enter"||e.key===" "||e.code==="Space"){const s=state.session;if(s&&s.answered&&!s.copyMode){e.preventDefault();doNext();}}}
 function onRevealTap(e){const s=state.session;if(!s||!s.answered||s.copyMode)return;if(s.revealAt&&(Date.now()-s.revealAt)<280)return;if(e.target&&e.target.closest&&e.target.closest("button,a,textarea,select")||(e.target.closest("input")&&e.target.id!=="ainput"))return;doNext();}
 function doNext(){const s=state.session;if(!s||!s.answered||s.copyMode)return;if(s.revealTimer){clearTimeout(s.revealTimer);s.revealTimer=null;}document.removeEventListener("keydown",onRevealKey);document.removeEventListener("click",onRevealTap);nextCard();}
 function armReveal(w){const s=state.session;s.revealAt=Date.now();s.revealTimer=setTimeout(doNext,revealDelay(w));document.addEventListener("keydown",onRevealKey);document.addEventListener("click",onRevealTap);}
@@ -2241,7 +2330,8 @@ function setCatSpeech(w,line){
    철자 변형·대체 정답·동의어 안내(always)는 해설 옆에 남겨 판정 이유를 보존한다. */
 function rvBody(w,line,always){
   const say=line&&always&&w.meow?`<div class="ov-say ov-why">${esc(line)}</div>`:"";
-  return `${say}${w.c?catNote(w.c):""}`;}
+  const pronunciation=w.ipa?`<button type="button" class="ov-ipa rv-inline-ipa" aria-label="발음 듣기">/${fmtIpa(w.ipa)}/</button>`:"";
+  return `${say}${w.ipa||w.c?`<div class="ov-c rv-note">${pronunciation}${w.ipa&&w.c?" ":""}${esc(w.c||"")}</div>`:""}`;}
 
 /* 정답·오답 순간 카드가 182px쯤 한 프레임에 늘어나 화면이 통째로 찢어지듯 밀렸다.
    높이를 고정하는 건 답이 아니다 — 문제 상태 157~284px, 공개 상태 254~501px로
@@ -2270,23 +2360,42 @@ function openReveal(kind){const card=$("#quizCard");card.classList.add(kind);$("
   /* scrollTo(0)은 아래로 스크롤해 둔 상태에서 화면을 통째로 튕긴다. 카드가 이미 보이면 건드리지 않는다 */
   if(card.getBoundingClientRect().top<-8)card.scrollIntoView({block:"start",behavior:"smooth"});
   return rv;}
+// Keep the same letter cells and word groups when revealing the answer.
+function revealInPlace(w){
+  const blank=$("#hoeCtx .blanks");if(!blank)return;
+  const answer=answerInSentence(w.ex,w.term);
+  blank.innerHTML=blankSlots(w.term,answer);
+  blank.classList.add("revealed");
+  addAnswerPunctuation(blank,answer);
+
+  // Assistive technology reads the whole word rather than separate letters.
+  blank.querySelectorAll(".slot-word").forEach(group=>group.setAttribute("aria-hidden","true"));
+  const label=document.createElement("span");label.className="answer-spoken";label.textContent=answer;
+  blank.appendChild(label);
+}
+
+function addAnswerPunctuation(blank,answer){
+  // Punctuation already reserves its natural width in the question.
+  blank.querySelectorAll(".slot-punctuation").forEach(mark=>mark.classList.add("shown"));
+}
+
 function showReveal(type,w,line,always){
   /* 빈칸 채움 → 안내줄·타이머 숨김 → 공개 내용 채움을 한 덩어리로 묶어 전환한다.
      따로 하면 카드가 201→152로 먼저 49px 줄었다가 383으로 뛰어 점프가 두 번 난다. */
   growCard(()=>{
-    const b=$("#hoeCtx .blanks");if(b)b.outerHTML=`<b class="fill">${esc(answerInSentence(w.ex,w.term))}</b>`;
+    revealInPlace(w);
     setCatSpeech(w,line);
-    openReveal("good").innerHTML=`${rvTr(w)}${rvWord(w)}${rvBody(w,line,always)}`;
+    openReveal("good").innerHTML=`${rvTr(w)}${rvBody(w,line,always)}`;
   });
   speak(w.term);
 }
 function renderCopyBlank(v){const s=state.session;if(!s||!s.copyMode)return;const wrap=$("#hoeCtx .blanks")||$("#ghostTar");if(!wrap)return;
-  wrap.innerHTML=blankSlots(s.copyAns,v,true);}
+  wrap.innerHTML=blankSlots(s.copyAns,v,true);addAnswerPunctuation(wrap,s.copyAns);}
 function startCopy(w,line,always){
   const term=w.term;const s=state.session;s.copyMode=true;s.copyAns=term;
   growCard(()=>{
     setCatSpeech(w,line);
-    openReveal("bad").innerHTML=`${rvTr(w)}${rvWord(w)}${rvBody(w,line,always)}${w.ex?"":`<div class="blanks" id="ghostTar"></div>`}`;
+    openReveal("bad").innerHTML=`${rvTr(w)}${rvBody(w,line,always)}${w.ex?"":`<div class="blanks" id="ghostTar"></div>`}`;
   });
   renderCopyBlank("");
   $("#ainput").value="";$("#ainput").className="ainput";$("#ainput").disabled=false;
@@ -2305,17 +2414,37 @@ function submitCopy(){
   $("#submitBtn").disabled=true;
   fx(true);beep("ok");s.revealAt=Date.now();s.revealTimer=setTimeout(doNext,650);
 }
+// Reveal only the first letter, once per card; typing continues after it.
 function giveHint(){
-  const s=state.session;if(!s||s.answered)return;const w=s.words[s.currentId];s.hintLevel=(s.hintLevel||0)+1;s.hints=(s.hints||0)+1;
-  /* 힌트를 꺼내 들면 고양이가 히죽한다. 적수라서 고소해하는 게 아니라 —
-     고양고양이는 츤데레 싸이코다. 결국 자기한테 기대는 게 재밌는 것뿐이다.
-     다음 카드에서 evil로 초기화된다 */
+  const s=state.session;
+  if(!s||s.currentId===null||s.answered||s.copyMode||s.hintLevel>=1||state.composing||$("#hintBtn").disabled)return;
+  const w=s.words[s.currentId],answer=answerInSentence(w.ex,w.term);
+  if(!/[A-Za-z]/.test(answer))return;
+  s.hintLevel=1;s.hints=(s.hints||0)+1;
+  $("#hintBtn").disabled=true;
   if(CAT.wicked)setCat('quizCat','wicked');
-  const en=w.term,m=$("#qmini");
-  if(s.hintLevel===1)m.innerHTML=`힌트① 첫 글자 <b style="color:var(--gold)">${esc(en[0])}</b> · ${en.replace(/\s/g,'').length}자`;
-  else{let pat='';for(let i=0;i<en.length;i++){const ch=en[i];pat+=/[a-zA-Z]/.test(ch)?(i<Math.ceil(en.length/2)?ch:'_'):ch;}
-    m.innerHTML=`힌트② <b style="color:var(--gold);letter-spacing:2px">${esc(pat)}</b>`;$("#hintBtn").disabled=true;}
+  const count=1;
+
+  // Keep punctuation and a following word separator in the opened prefix.
+  let end=0,letters=0;
+  while(end<answer.length&&letters<count){if(/[A-Za-z]/.test(answer[end]))letters++;end++;}
+  while(end<answer.length&&!/[A-Za-z]/.test(answer[end]))end++;
+  const prefix=answer.slice(0,end),input=$("#ainput"),typed=input.value;
+
+  // Preserve anything already typed after the opened cells, including spaces.
+  let tail=0,entered=0;
+  while(tail<typed.length&&entered<count){
+    if(/[A-Za-z\u1100-\u11ff\u3130-\u318f\uac00-\ud7af]/.test(typed[tail]))entered++;
+    tail++;
+  }
+  while(tail<typed.length&&!/[A-Za-z\u1100-\u11ff\u3130-\u318f\uac00-\ud7af]/.test(typed[tail]))tail++;
+  input.value=prefix+typed.slice(tail);
+  input.setSelectionRange(input.value.length,input.value.length);
+  // A one-letter word must still be confirmed; opening a hint never grades it.
+  mirrorTyped({fromHint:true});
+  updateInputNotice();
 }
+
 
 function updateStats(){
   const s=state.session;if(!s)return;
@@ -3601,7 +3730,40 @@ window.addEventListener("focus",()=>requestAnimationFrame(focusAnswerInput));
 window.addEventListener("blur",updateInputNotice);
 $("#catSubmit").addEventListener("click",e=>{e.preventDefault();e.stopPropagation();submit();});
 $("#submitBtn")&&$("#submitBtn").addEventListener("click",e=>{e.preventDefault();e.stopPropagation();submit();});
-$("#hintBtn").addEventListener("click",giveHint);
+// A transparent native button sits over the first cell, above the typing input.
+// The other cells continue to tap the input directly (including on mobile).
+(()=>{
+  const hint=$("#hintBtn"),context=$("#hoeCtx"),form=$("#aform");
+  let pending=0;
+  function positionHint(){
+    const s=state.session,cell=context.querySelector(".slot");
+    if(!s||s.currentId===null||s.answered||s.copyMode||hint.disabled||!cell){hint.hidden=true;return;}
+    const r=cell.getBoundingClientRect(),f=form.getBoundingClientRect();
+    if(!r.width||!r.height||!f.width){hint.hidden=true;return;}
+    // Extend left of the first glyph; never cover the adjacent letter.
+    const width=r.width+6,height=Math.max(44,r.height);
+    hint.style.left=(r.left-f.left-6)+"px";
+    hint.style.top=(r.top-f.top-(height-r.height)/2)+"px";
+    hint.style.width=width+"px";hint.style.height=height+"px";
+    hint.hidden=false;
+  }
+  function schedulePosition(){
+    if(pending)return;
+    pending=requestAnimationFrame(()=>{pending=0;positionHint();});
+  }
+  hint.addEventListener("pointerdown",e=>e.preventDefault());
+  hint.addEventListener("click",e=>{
+    e.preventDefault();e.stopPropagation();
+    if(hint.disabled||hint.hidden)return;
+    giveHint();positionHint();focusAnswerInput();
+  });
+  new MutationObserver(schedulePosition).observe(context,{childList:true,subtree:true});
+  new MutationObserver(schedulePosition).observe(hint,{attributes:true,attributeFilter:["disabled"]});
+  if(typeof ResizeObserver==="function")new ResizeObserver(schedulePosition).observe(context);
+  window.addEventListener("resize",schedulePosition);
+  positionHint();
+})();
+
 $("#exitBtn").addEventListener("click",()=>{$("#ainput").blur();stopTicker();state.session=null;renderExList();show("lesson");});
 $("#backHome").addEventListener("click",()=>{renderHome();show("home");});
 $("#sumList").addEventListener("click",()=>{state.session=null;renderExList();show("lesson");});
@@ -3610,7 +3772,7 @@ $("#retryWrong").addEventListener("click",()=>{if(state.lastWrong&&state.lastWro
 /* 결과 화면 틀린 단어: 탭하면 발음 + 그 줄이 사라짐. 마지막 줄까지 사라지면 '다음 연습'과 같은 동작(없으면 연습 목록) */
 $("#sumWrong").addEventListener("click",e=>{const b=e.target.closest(".wrow");if(!b||b.classList.contains("gone"))return;speak(b.dataset.t);fxHeart(b);b.classList.add("gone");
   setTimeout(()=>{b.remove();if(!$("#sumWrong").querySelector(".wrow")){const n=$("#nextEx");setTimeout(()=>{if(!n.disabled)n.click();else $("#sumList").click();},350);}},260);});
-$("#reveal").addEventListener("click",e=>{const b=e.target.closest(".rv-w");if(b){e.stopPropagation();const s=state.session;if(s&&s.currentId!==null)speak(s.words[s.currentId].term);}});
+$("#reveal").addEventListener("click",e=>{const b=e.target.closest(".rv-w, .rv-inline-ipa");if(b){e.stopPropagation();const s=state.session;if(s&&s.currentId!==null)speak(s.words[s.currentId].term);}});
 $("#muteBtn2").addEventListener("click",()=>setMuted(!state.muted));
 $("#nextEx").addEventListener("click",()=>{const L=activeLesson();const ev=visEx(L);
   if(state.ei<ev.length-1){openExercise(state.ei+1);return;}

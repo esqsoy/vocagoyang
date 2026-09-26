@@ -46,7 +46,7 @@ vm.runInContext([
   between('function variantKey(', 'const ALT='),
   between('function isAliasHit(', 'const SYNLINES='),
   between('function hasHangul(', 'function composingKey('),
-  between('function mirrorTyped()', 'function slots('),
+  between('function mirrorTyped(', 'function slots('),
   between('function submit(', 'function applyCorrect('),
 ].join('\n'), ctx);
 

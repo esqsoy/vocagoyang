@@ -7,7 +7,7 @@ function $(id){if(!els.has(id))els.set(id,{value:'',innerHTML:'',textContent:'',
 const state={composing:false,session:{currentId:0,answered:false,copyMode:false,words:[{term:'case'}]}};
 const ctx=vm.createContext({state,$,document,window:{addEventListener:(n,f)=>windowEvents[n]=f},requestAnimationFrame:f=>f(),Date,
  esc:s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;'),
- submit:()=>submitted++,submitCopy:()=>copied++,doNext:()=>advanced++});
+ submit:()=>submitted++,submitCopy:()=>copied++,doNext:()=>advanced++,addAnswerPunctuation:()=>{}});
 vm.runInContext([
  between('function normalize(','function shuffle('),
  between('function answerInputActive()','function slots('),
