@@ -19,7 +19,8 @@ for(const u of morph.units){
    assert(w.en&&w.ko&&w.tr&&w.pos,w.word);
  }
 }
-for(const L of data){
+// The topic manifest validates its additions before restoring the authored pool.
+for(const L of require('./helpers/editorial-review.cjs').restoreTopicGrouping(data)){
  const file=L.lesson<5?`lesson${String(L.lesson).padStart(2,'0')}.json`:`set${String(L.lesson).padStart(2,'0')}.json`;
  const canonical=JSON.parse(fs.readFileSync(path.join(root,'pipeline/out',file),'utf8'));
  assert.deepEqual(L.exercises,Array.isArray(canonical)?canonical:canonical.exercises,file);

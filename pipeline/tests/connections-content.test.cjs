@@ -4,7 +4,8 @@ const readConst=name=>JSON.parse(html.match(new RegExp('const '+name+' = ([^\\n]
 const DATA=readConst('DATA'),CONNECTIONS=readConst('CONNECTIONS');
 assert.deepEqual(CONNECTIONS,JSON.parse(fs.readFileSync(path.join(repo,'pipeline/connections.json'),'utf8')));
 // Keep historical audit IDs after removing yeah/oh at indices 4 and 5 of 0:4.
-const prior=new Map(DATA.slice(0,49).flatMap(L=>L.exercises.flatMap(e=>e.words.map((w,i)=>{
+const priorData=require('./helpers/editorial-review.cjs').restoreTopicGrouping(DATA);
+const prior=new Map(priorData.slice(0,49).flatMap(L=>L.exercises.flatMap(e=>e.words.map((w,i)=>{
   const oldIndex=e.legacyWords?e.legacyWords.findIndex(x=>x.word===w.word&&x.si===w.si):i;assert(oldIndex>=0);
   return [`${L.lesson}:${e.ex}:${L.lesson===0&&e.ex===4&&oldIndex>=4?oldIndex+2:oldIndex}`,w];
 }))));
@@ -39,7 +40,9 @@ for(const course of CONNECTIONS.courses){
     for(const [j,id] of g.entryIds.entries()){
       assert(!seen.has(id),'Card assigned twice '+id);seen.add(id);
       const entry=entries.get(id);assert(entry,id);const w=entry.card,raw=actual.words[j];
-      for(const field of ['word','en','ko','ex','tr','c','ipa','pos'])assert(typeof w[field]==='string'&&w[field].trim(),id+' '+field);
+      for(const field of ['word','en','ko','ex','tr','ipa','pos'])assert(typeof w[field]==='string'&&w[field].trim(),id+' '+field);
+      // Explanations may be empty when meaning and example already cover them.
+      assert.equal(typeof w.c,'string',id+' explanation');
       assert.equal(w.word,w.en,id);assert.equal((w.ex.match(/\{\{BLANK\}\}/g)||[]).length,1,id+' blank');
       assert(!/[<>]/.test(w.ex+w.tr+w.c),id+' markup');
       assert(w.c.length<=70,id+' explanation length');

@@ -98,6 +98,36 @@ for n in (49, 50):
     if n not in active_numbers:
         (P / f'out/set{n}.json').unlink(missing_ok=True)
 
+# Explicit teaching boundaries override the default short-part splitter only
+# for reviewed groups. Keep source ordering/identities for prior progress.
+topics = read(P / 'exercise-topics.json')
+for group in topics['groups']:
+    lesson = next(L for L in data if L['lesson'] == group['lesson'])
+    exercise = next(e for e in lesson['exercises'] if e['ex'] == group['ex'])
+    exercise['topicPreviousWords'] = [{'word': w['word'], 'si': w['si']} for w in exercise['words']]
+    for addition in group.get('additions', []):
+        ref = addition['ref']
+        card = copy.deepcopy(index[(ref['set'], ref['word'], ref['si'])])
+        card.update(addition.get('overrides', {}))
+        card['topicReviewOf'] = copy.deepcopy(ref)
+        position = next(i for i, w in enumerate(exercise['words']) if w['word'] == addition['before'])
+        exercise['words'].insert(position, card)
+    parts, start = [], 0
+    for part in group['parts']:
+        matches = [i for i, w in enumerate(exercise['words']) if w['word'].lower() == part['through'].lower()]
+        if not matches or max(matches) < start:
+            raise ValueError(f"Invalid topic boundary: {group['lesson']}:{group['ex']} {part['through']}")
+        end = max(matches) + 1
+        left = {w['word'].lower() for w in exercise['words'][:end]}
+        right = {w['word'].lower() for w in exercise['words'][end:]}
+        if left & right:
+            raise ValueError('Topic boundary splits a headword')
+        parts.append({'start': start, 'end': end, 'name': part['name']})
+        start = end
+    if start != len(exercise['words']):
+        raise ValueError('Topic boundaries do not cover the full exercise')
+    exercise['practiceParts'] = parts
+
 src = HTML.read_text(encoding='utf-8')
 constants = [('DATA', data), ('READING_CORE', core), ('MORPHOLOGY', morph)]
 if connections:

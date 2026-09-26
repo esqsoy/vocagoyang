@@ -27,7 +27,7 @@ for(const [number,kinds] of [[47,['affix']],[48,['latin','greek','germanic']]]){
 assert.equal(DATA[47].exercises.length,10);assert.equal(DATA[48].exercises.length,16);
 assert.equal(DATA[47].exercises.flatMap(e=>e.words).length,71);assert.equal(DATA[48].exercises.flatMap(e=>e.words).length,96);
 assert.equal(DATA.slice(0,49).reduce((n,L)=>n+L.exercises.length,0),500);
-assert.equal(DATA.slice(0,49).flatMap(L=>L.exercises.flatMap(e=>e.words)).length,6667);
+assert.equal(DATA.slice(0,49).flatMap(L=>L.exercises.flatMap(e=>e.words)).length,6669);
 assert.deepEqual(CONNECTIONS.courses.map(c=>c.lesson),[49,50]);
 assert.equal(DATA[49].name,'전치사가 잇는 관계');assert.equal(DATA[50].name,'동사 결합으로 읽는 뜻');
 for(const L of DATA.slice(49)){assert.equal(L.kind,'connections');assert(L.progressId.startsWith('connections-'));}
@@ -214,7 +214,7 @@ assert.equal(ids.size,MORPHOLOGY.units.length);
 const sourceLessons=ctx.buildLessons();state.lessons=ctx.splitExercises(sourceLessons);
 const flatParts=state.lessons.flatMap((L,li)=>L.exercises.map((e,ei)=>({L,li,e,ei})));
 assert.equal(ctx.totalExercises(),612);
-assert.equal(flatParts.reduce((n,x)=>n+x.e.words.length,0),6859);
+assert.equal(flatParts.reduce((n,x)=>n+x.e.words.length,0),6861);
 assert.equal(Math.min(...flatParts.map(x=>x.e.words.length)),4);
 assert.equal(Math.max(...flatParts.map(x=>x.e.words.length)),15);
 const sizes={},recordKeys=new Set();let sourceGroups=0,splitGroups=0,oldLocations=0,newLocations=0;
@@ -240,8 +240,8 @@ for(const [li,source] of sourceLessons.entries()){
     const oldId=original.progressId||source.progressId||source.id,oldTitle=original.progressTitle||original.title;
     const rec={completed:true,legacyMarker:original.title};state.progress={[oldId]:{[oldTitle]:rec}};
     const untouched=JSON.stringify(state.progress);
-    for(const {e} of parts)assert.equal(ctx.getRec(L.id,e.title),rec,'Old completion must clear every descendant');
-    assert.equal(ctx.clearedExercises(),parts.length,'A legacy record cleared an unrelated exercise');
+    for(const {e} of parts)assert.equal(ctx.getRec(L.id,e.title)?.completed||false,!!e.parentRecord,'Old completion must cover all cards before clearing a descendant');
+    assert.equal(ctx.clearedExercises(),parts.filter(x=>x.e.parentRecord).length,'A legacy record cleared an unrelated or newly expanded exercise');
     assert.equal(JSON.stringify(state.progress),untouched,'Reading old completions rewrote storage');
     state.progress={[oldId]:{[oldTitle]:{completed:false}}};
     for(const {e} of parts)assert(!ctx.getRec(L.id,e.title)?.completed,'An unfinished parent cleared a part');
@@ -300,9 +300,9 @@ assert.equal(headsV3.layout,'heads-v3');assert.equal(headsV3.groups.length,520);
 let priorPartLocations=0,coverageCases=0,headPartLocations=0,elevenPartLocations=0,mixedCoverageCases=0;
 for(const [li,source] of sourceLessons.entries())for(const original of source.exercises){
   const parts=flatParts.filter(x=>x.li===li&&x.e.sourceTitle===original.title);
-  const priorWords=original.legacyWords||original.words;
+  const priorWords=original.legacyWords||original.topicPreviousWords||original.words;
   const oldIndex=w=>priorWords.findIndex(p=>p.word===w.word&&p.si===w.si);
-  assert(original.words.every(w=>oldIndex(w)>=0),'Surviving card missing from prior layout');
+  assert(original.words.every(w=>oldIndex(w)>=0||w.topicReviewOf),'Surviving card missing from prior layout');
   const overlaps=(e,p)=>e.words.some(w=>oldIndex(w)>=p.start&&oldIndex(w)<p.end);
   const oldCount=Math.ceil(priorWords.length/8),q=Math.floor(priorWords.length/oldCount),r=priorWords.length%oldCount;
   const oldId=original.progressId||source.progressId||source.id,base=original.progressTitle||original.title;
@@ -369,14 +369,58 @@ for(const [li,source] of sourceLessons.entries())for(const original of source.ex
 assert.equal(priorPartLocations,1079);
 assert.equal(headPartLocations,931);assert.equal(elevenPartLocations,613);
 
+// These boundaries encode actual teaching units, independently of card counts.
+const topicParts=ex=>state.lessons[0].exercises.filter(e=>e.ex===ex);
+const days=topicParts(3)[0],months=topicParts(3)[1];
+assert.equal(JSON.stringify(days.words.map(w=>w.term)),JSON.stringify(['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']));
+assert.equal(JSON.stringify(months.words.map(w=>w.term)),JSON.stringify(['January','February','March','April','May','June','July','August','September','October','November','December']));
+assert.equal(topicParts(1)[0].words.at(-1).word,'ten');
+assert.equal(topicParts(1)[1].words[0].word,'eleven');
+assert.equal(topicParts(5)[1].words[0].word,'teacher');
+assert(['spelling','reading','writing','dialogue'].every(w=>topicParts(6)[0].words.some(c=>c.word===w)));
+assert(['lunch','sandwich','salad','carrot','tomato','diet','menu'].every(w=>topicParts(7)[1].words.some(c=>c.word===w)));
+assert(['negative','positive'].every(w=>topicParts(8)[1].words.some(c=>c.word===w)));
+assert.equal(DATA[3].exercises.flatMap(e=>e.words).filter(w=>w.word==='march').length,2,'Original March/march lesson retained');
+assert.equal(DATA[5].exercises.flatMap(e=>e.words).filter(w=>w.word==='may').length,3,'Original may/May lesson retained');
+
+// Freeze the most recent published boundaries, including the post-deletion
+// record keys. Never infer coverage from a reused visible exercise number.
+const editorialParts=JSON.parse(fs.readFileSync(path.join(repo,'pipeline/tests/headword-parts-editorial.fixture.json'),'utf8'));
+assert.equal(editorialParts.layout,'heads-v3-editorial-20260925');assert.equal(editorialParts.groups.length,6);
+let topicCoverageCases=0,topicResumeCases=0;
+const cardKey=w=>`${w.word}/${w.si}`;
+for(const old of editorialParts.groups){
+  const L=state.lessons[old.lesson],parts=L.exercises.filter(e=>e.ex===old.ex);
+  for(let mask=0;mask<(1<<old.parts.length);mask++){
+    state.progress={};const covered=new Set();
+    old.parts.forEach((p,i)=>{if(mask&(1<<i)){
+      (state.progress[p.progressId]??={})[p.progressTitle]={completed:true};
+      p.words.forEach(w=>covered.add(cardKey(w)));
+    }});
+    const snapshot=JSON.stringify(state.progress);
+    for(const e of parts){assert.equal(!!ctx.getRec(L.id,e.title)?.completed,e.words.every(w=>covered.has(cardKey(w))),`Topic migration: ${e.title}`);topicCoverageCases++;}
+    assert.equal(JSON.stringify(state.progress),snapshot,'Topic migration rewrote saved records');
+  }
+  for(const p of old.parts){
+    state.progress={};storage.set('test-last',JSON.stringify({lid:L.id,title:p.title,layout:editorialParts.layout}));
+    const expected=parts.find(e=>e.words.some(w=>p.words.some(v=>cardKey(v)===cardKey(w))));
+    const target=ctx.resumeTarget();assert.equal(target.li,old.lesson);assert.equal(L.exercises[target.ei],expected);topicResumeCases++;
+  }
+}
+state.progress={'0세트':{'Exercise 3 · 요일·월':{completed:true}}};
+assert(ctx.getRec('0세트',days.title)?.completed);
+assert(!ctx.getRec('0세트',months.title)?.completed,'A 17-card calendar record cannot clear two newly added cards');
+ctx.setRec('0세트',months.title,{});assert(ctx.getRec('0세트',months.title)?.completed);
+console.log(JSON.stringify({topicCoverageCases,topicResumeCases,days:7,months:12,addedReviewCards:2}));
+
 // Completing, retrying and advancing a real short part must affect that part only.
 state.progress={};timed.length=0;ctx.openLesson(0);ctx.openExercise(0);
 const firstPart=state.lessons[0].exercises[0],secondPart=state.lessons[0].exercises[1];
-assert.equal(state.session.words.length,11);
+assert.equal(state.session.words.length,13);
 ctx.finishExercise();assert(ctx.getRec('0세트',firstPart.title)?.completed);assert.equal(ctx.getRec('0세트',secondPart.title),null);
 assert.equal(JSON.stringify(ctx.loadProgress()),JSON.stringify(state.progress),'New part records survive reload');
 $('#retryEx').click();assertPlaying(0,0);
-$('#nextEx').click();assertPlaying(0,1);assert.equal(state.session.words.length,11);
+$('#nextEx').click();assertPlaying(0,1);assert.equal(state.session.words.length,9);
 assert.equal($('#gTitle').textContent,'Exercise 1-2');
 ctx.openExercise(1,new Set([secondPart.words[0].term]));ctx.finishExercise();assert.equal(ctx.getRec('0세트',secondPart.title),null,'Partial review cleared a short part');
 
@@ -385,11 +429,11 @@ state.progress={};
 for(const L of sourceLessons)for(const e of L.exercises){
   const id=e.progressId||L.progressId||L.id;(state.progress[id]??={})[e.progressTitle||e.title]={completed:true};
 }
-assert.equal(ctx.clearedExercises(),612);
+assert.equal(ctx.clearedExercises(),611,'The expanded month exercise still requires March and May');
 state.progress={};timed.length=0;
 for(const {L,e} of flatParts.slice(0,-1))ctx.setRec(L.id,e.title,{});
 assert.equal(ctx.clearedExercises(),611);
 const lastPart=flatParts.at(-1);ctx.openLesson(lastPart.li);ctx.openExercise(lastPart.ei);ctx.finishExercise();
 assert.equal(ctx.clearedExercises(),612);assert.equal(timed.length,1);assert($('#nextEx').disabled);
-console.log(JSON.stringify({shortExercises:612,sourceGroups,splitGroups,cards:6859,sizes,oldLocations,newLocations,priorPartLocations,headPartLocations,elevenPartLocations,coverageCases,mixedCoverageCases,getSensesTogether:6,headwordSplits:0,completionInheritance:'source groups, short-v1, heads-v2, pre-deletion heads-v3 and mixed-version coverage checked',shortPartNavigation:'pass',shortPartEnding:'pass'}));
+console.log(JSON.stringify({shortExercises:612,sourceGroups,splitGroups,cards:6861,sizes,oldLocations,newLocations,priorPartLocations,headPartLocations,elevenPartLocations,coverageCases,mixedCoverageCases,getSensesTogether:6,headwordSplits:0,completionInheritance:'source groups, short-v1, heads-v2, pre-deletion heads-v3 and mixed-version coverage checked',shortPartNavigation:'pass',shortPartEnding:'pass'}));
 console.log(JSON.stringify({sets:DATA.length,reviewReferences,legacyProgressKeys:legacyRecords,legacyProgress:'preserved',reviewProgress:'former track retained',mergedProgress:'26 historical exercise keys preserved; 16 consolidated exercises',newProgress:'49/50 isolated from historical root-course records',migratedResumes,courseNavigation:'45→46→47→48→49→50 directly to game',guideUI:'removed',greekResearchUnits:greekUnits,ending:'all 51 sets required',syntax:'passed'}));

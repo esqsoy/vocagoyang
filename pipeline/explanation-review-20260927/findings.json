@@ -1,0 +1,6176 @@
+{
+  "summary": {
+    "status": "included_in_release_20260927",
+    "sourceCommit": "4c993cca763be5f8deb688e06337352aa800fcb9",
+    "sourceHtmlSha256": "98f08db4f2776d8f7af0415de61dfa86bd4d57e0a4b90bdb9c988cab010ca48e",
+    "lessons": 51,
+    "cards": 6859,
+    "nonemptyExplanations": 6259,
+    "uniqueExplanations": 6161,
+    "emptyExplanations": 600,
+    "reviewedExplanations": 6259,
+    "changedCards": 341,
+    "shortened": 314,
+    "removedExplanations": 27,
+    "mirroredCopies": 1,
+    "categories": {
+      "redundancy": 66,
+      "study_filler": 159,
+      "pronunciation": 73,
+      "side_note": 21,
+      "definition_only": 22
+    },
+    "beforeCharacters": 265896,
+    "proposedCharacters": 261290,
+    "removedCharacters": 4606,
+    "changedCommentsReductionPercent": 34.1,
+    "overallReductionPercent": 1.7,
+    "bySet": [
+      {
+        "set": 0,
+        "cards": 303,
+        "comments": 293,
+        "changes": 32
+      },
+      {
+        "set": 1,
+        "cards": 207,
+        "comments": 179,
+        "changes": 3
+      },
+      {
+        "set": 2,
+        "cards": 175,
+        "comments": 141,
+        "changes": 7
+      },
+      {
+        "set": 3,
+        "cards": 159,
+        "comments": 118,
+        "changes": 1
+      },
+      {
+        "set": 4,
+        "cards": 177,
+        "comments": 125,
+        "changes": 2
+      },
+      {
+        "set": 5,
+        "cards": 195,
+        "comments": 162,
+        "changes": 7
+      },
+      {
+        "set": 6,
+        "cards": 154,
+        "comments": 128,
+        "changes": 5
+      },
+      {
+        "set": 7,
+        "cards": 158,
+        "comments": 130,
+        "changes": 4
+      },
+      {
+        "set": 8,
+        "cards": 151,
+        "comments": 129,
+        "changes": 1
+      },
+      {
+        "set": 9,
+        "cards": 138,
+        "comments": 114,
+        "changes": 5
+      },
+      {
+        "set": 10,
+        "cards": 132,
+        "comments": 109,
+        "changes": 0
+      },
+      {
+        "set": 11,
+        "cards": 139,
+        "comments": 118,
+        "changes": 4
+      },
+      {
+        "set": 12,
+        "cards": 138,
+        "comments": 112,
+        "changes": 6
+      },
+      {
+        "set": 13,
+        "cards": 137,
+        "comments": 112,
+        "changes": 1
+      },
+      {
+        "set": 14,
+        "cards": 140,
+        "comments": 116,
+        "changes": 4
+      },
+      {
+        "set": 15,
+        "cards": 132,
+        "comments": 106,
+        "changes": 1
+      },
+      {
+        "set": 16,
+        "cards": 129,
+        "comments": 108,
+        "changes": 7
+      },
+      {
+        "set": 17,
+        "cards": 134,
+        "comments": 111,
+        "changes": 6
+      },
+      {
+        "set": 18,
+        "cards": 128,
+        "comments": 106,
+        "changes": 7
+      },
+      {
+        "set": 19,
+        "cards": 126,
+        "comments": 103,
+        "changes": 5
+      },
+      {
+        "set": 20,
+        "cards": 121,
+        "comments": 97,
+        "changes": 4
+      },
+      {
+        "set": 21,
+        "cards": 116,
+        "comments": 93,
+        "changes": 4
+      },
+      {
+        "set": 22,
+        "cards": 98,
+        "comments": 81,
+        "changes": 3
+      },
+      {
+        "set": 23,
+        "cards": 132,
+        "comments": 132,
+        "changes": 3
+      },
+      {
+        "set": 24,
+        "cards": 129,
+        "comments": 129,
+        "changes": 13
+      },
+      {
+        "set": 25,
+        "cards": 141,
+        "comments": 141,
+        "changes": 10
+      },
+      {
+        "set": 26,
+        "cards": 129,
+        "comments": 129,
+        "changes": 13
+      },
+      {
+        "set": 27,
+        "cards": 134,
+        "comments": 134,
+        "changes": 3
+      },
+      {
+        "set": 28,
+        "cards": 135,
+        "comments": 135,
+        "changes": 15
+      },
+      {
+        "set": 29,
+        "cards": 141,
+        "comments": 141,
+        "changes": 12
+      },
+      {
+        "set": 30,
+        "cards": 132,
+        "comments": 132,
+        "changes": 10
+      },
+      {
+        "set": 31,
+        "cards": 139,
+        "comments": 139,
+        "changes": 7
+      },
+      {
+        "set": 32,
+        "cards": 122,
+        "comments": 122,
+        "changes": 7
+      },
+      {
+        "set": 33,
+        "cards": 128,
+        "comments": 127,
+        "changes": 5
+      },
+      {
+        "set": 34,
+        "cards": 121,
+        "comments": 121,
+        "changes": 4
+      },
+      {
+        "set": 35,
+        "cards": 115,
+        "comments": 115,
+        "changes": 12
+      },
+      {
+        "set": 36,
+        "cards": 123,
+        "comments": 123,
+        "changes": 10
+      },
+      {
+        "set": 37,
+        "cards": 129,
+        "comments": 129,
+        "changes": 9
+      },
+      {
+        "set": 38,
+        "cards": 130,
+        "comments": 130,
+        "changes": 5
+      },
+      {
+        "set": 39,
+        "cards": 122,
+        "comments": 122,
+        "changes": 10
+      },
+      {
+        "set": 40,
+        "cards": 124,
+        "comments": 124,
+        "changes": 7
+      },
+      {
+        "set": 41,
+        "cards": 133,
+        "comments": 133,
+        "changes": 11
+      },
+      {
+        "set": 42,
+        "cards": 124,
+        "comments": 124,
+        "changes": 8
+      },
+      {
+        "set": 43,
+        "cards": 126,
+        "comments": 124,
+        "changes": 13
+      },
+      {
+        "set": 44,
+        "cards": 121,
+        "comments": 121,
+        "changes": 7
+      },
+      {
+        "set": 45,
+        "cards": 88,
+        "comments": 87,
+        "changes": 4
+      },
+      {
+        "set": 46,
+        "cards": 95,
+        "comments": 95,
+        "changes": 1
+      },
+      {
+        "set": 47,
+        "cards": 71,
+        "comments": 71,
+        "changes": 9
+      },
+      {
+        "set": 48,
+        "cards": 96,
+        "comments": 96,
+        "changes": 7
+      },
+      {
+        "set": 49,
+        "cards": 90,
+        "comments": 90,
+        "changes": 3
+      },
+      {
+        "set": 50,
+        "cards": 102,
+        "comments": 102,
+        "changes": 4
+      }
+    ],
+    "constraints": [
+      "Only c fields changed in app data.",
+      "Vocabulary cards, order, examples, translations, IPA, audio, UI, gameplay and progress were preserved.",
+      "No commit or deployment."
+    ],
+    "validation": [
+      "All 6,259 nonempty explanations covered by 21 manually read packets; every edit compared with meaning and example.",
+      "All 341 applied edits match the reviewed plan; all 6,859 cards and non-explanation fields remain identical.",
+      "Existing morphology-content, connections-content, and reading-core test suites passed, including progress migration checks.",
+      "Local preview serves the edited content; UI, etymology research, and connection research match the saved baseline.",
+      "Git diff --check passed."
+    ],
+    "appliedCharacters": 261290
+  },
+  "changes": [
+    {
+      "id": "0:1:13",
+      "word": "eleven",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "둘째 음절에 강세: e-LEV-en. 서수는 eleventh.",
+      "new": "서수는 eleventh.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 열하나, 11",
+        "ex": "The game ends at {{BLANK}}.",
+        "tr": "경기는 11시에 끝나."
+      }
+    },
+    {
+      "id": "0:1:16",
+      "word": "fourteen",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "remove_explanation",
+      "old": "강세는 teen에.",
+      "new": "",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 열넷, 14",
+        "ex": "Our class has {{BLANK}} boys.",
+        "tr": "우리 반에 남자애가 열넷이야."
+      }
+    },
+    {
+      "id": "0:2:12",
+      "word": "trillion",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "1조. 천×billion=trillion(0 열두 개). 1 trillion=1조, 우리말 단위와 딱 맞는 자리.",
+      "new": "천×billion=trillion(0 열두 개).",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 조(10¹²)",
+        "ex": "The country's debt is over a {{BLANK}} dollars.",
+        "tr": "그 나라 빚이 1조 달러가 넘어."
+      }
+    },
+    {
+      "id": "0:3:1",
+      "word": "Tuesday",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "발음 [투즈데이]. 게르만 전쟁의 신 Tiw의 날.",
+      "new": "게르만 전쟁의 신 Tiw의 날.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 화요일",
+        "ex": "We have music class on {{BLANK}}.",
+        "tr": "우리 화요일에 음악 수업 있어."
+      }
+    },
+    {
+      "id": "0:3:5",
+      "word": "Saturday",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "Satur-: 토성 Saturn의 날. 주말은 Saturday와 Sunday.",
+      "new": "Satur-: 토성 Saturn의 날.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 토요일",
+        "ex": "Let's play soccer on {{BLANK}}.",
+        "tr": "토요일에 축구 하자."
+      }
+    },
+    {
+      "id": "0:3:8",
+      "word": "February",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "철자 함정: Feb-ru-ary, r이 두 개. 발음 [페뷰어리].",
+      "new": "철자 함정: Feb-ru-ary, r이 두 개.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 2월",
+        "ex": "It is very cold in {{BLANK}}.",
+        "tr": "2월은 아주 추워."
+      }
+    },
+    {
+      "id": "0:3:11",
+      "word": "July",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "remove_explanation",
+      "old": "강세 뒤: ju-LY. June과 구별.",
+      "new": "",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 7월",
+        "ex": "We go to the beach in {{BLANK}}.",
+        "tr": "우리 7월에 바다 가."
+      }
+    },
+    {
+      "id": "0:3:12",
+      "word": "August",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "강세 앞: AU-gust. 줄임 Aug.",
+      "new": "줄임 Aug.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 8월",
+        "ex": "It's hottest in {{BLANK}}.",
+        "tr": "8월이 제일 더워."
+      }
+    },
+    {
+      "id": "0:3:16",
+      "word": "December",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "decem=10. 줄임 Dec. 크리스마스의 달.",
+      "new": "decem=10. 줄임 Dec.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 12월",
+        "ex": "We have a party in {{BLANK}}.",
+        "tr": "우리 12월에 파티 해."
+      }
+    },
+    {
+      "id": "0:4:1",
+      "word": "hi",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "hello보다 가볍고 친근하다. 친구에겐 hi.",
+      "new": "hello보다 가볍고 친근하다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 안녕 (가벼운 인사)",
+        "ex": "{{BLANK}}, Amy! How are you?",
+        "tr": "안녕, 에이미! 잘 지내?"
+      }
+    },
+    {
+      "id": "0:5:0",
+      "word": "I",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "항상 대문자 I. 문장 어디에 있어도 대문자.",
+      "new": "항상 대문자 I.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 나는, 내가",
+        "ex": "{{BLANK}} am a student.",
+        "tr": "나는 학생이야."
+      }
+    },
+    {
+      "id": "0:5:5",
+      "word": "cousin",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "발음 [커즌]. 남녀 구별 없이 cousin.",
+      "new": "남녀 구별 없이 cousin.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 사촌",
+        "ex": "My {{BLANK}} lives in Busan.",
+        "tr": "내 사촌은 부산에 살아."
+      }
+    },
+    {
+      "id": "0:6:4",
+      "word": "paragraph",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "문장이 모여 한 덩어리. 독해 지시문의 단골.",
+      "new": "문장이 모여 한 덩어리.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 문단, 단락",
+        "ex": "Read the first {{BLANK}} again.",
+        "tr": "첫 문단 다시 읽어 봐."
+      }
+    },
+    {
+      "id": "0:6:5",
+      "word": "section",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "자른 한 부분. 신문의 스포츠 면도 section.",
+      "new": "신문의 스포츠 면도 section.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 부분, 구역",
+        "ex": "This {{BLANK}} of the book is easy.",
+        "tr": "이 책의 이 부분은 쉬워."
+      }
+    },
+    {
+      "id": "0:6:6",
+      "word": "statement",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "state(말하다)+ment. 시험 문제의 '다음 진술 중'.",
+      "new": "state(말하다)+ment.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 진술, 서술",
+        "ex": "Which {{BLANK}} is true?",
+        "tr": "어느 진술이 맞아?"
+      }
+    },
+    {
+      "id": "0:6:11",
+      "word": "reading",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "영어 시험의 '독해' 영역.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "① 읽기, 독서",
+        "ex": "{{BLANK}} is my favorite hobby.",
+        "tr": "독서가 제일 좋은 취미야."
+      }
+    },
+    {
+      "id": "0:6:12",
+      "word": "writing",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "e가 빠진다: writing. 영어 시험의 '작문' 영역.",
+      "new": "e가 빠진다: writing.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 쓰기, 글",
+        "ex": "Her {{BLANK}} is clear and simple.",
+        "tr": "걔 글은 명료하고 단순해."
+      }
+    },
+    {
+      "id": "0:6:14",
+      "word": "geography",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "geo(땅)+graphy(기록). 강세는 og에: ge-OG-raphy.",
+      "new": "geo(땅)+graphy(기록).",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 지리 (과목)",
+        "ex": "We learned about rivers in {{BLANK}} class.",
+        "tr": "지리 시간에 강에 대해 배웠어."
+      }
+    },
+    {
+      "id": "0:6:18",
+      "word": "career",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "a career in+분야: 그 분야에서 쌓는 직업 경력. 강세는 뒤 음절.",
+      "new": "a career in+분야: 그 분야에서 쌓는 직업 경력.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 직업 경력, 진로",
+        "ex": "She wants a {{BLANK}} in music.",
+        "tr": "걔는 음악 쪽으로 경력을 쌓고 싶어 해."
+      }
+    },
+    {
+      "id": "0:6:20",
+      "word": "routine",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "매일 반복하는 순서. 강세 뒤: rou-TINE.",
+      "new": "매일 반복하는 순서.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 일과, 정해진 순서",
+        "ex": "Exercise is part of my morning {{BLANK}}.",
+        "tr": "운동은 내 아침 일과의 일부야."
+      }
+    },
+    {
+      "id": "0:7:7",
+      "word": "umbrella",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "remove_explanation",
+      "old": "강세 가운데: um-BREL-la.",
+      "new": "",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 우산",
+        "ex": "Take an {{BLANK}}. It may rain.",
+        "tr": "우산 챙겨. 비 올지도 몰라."
+      }
+    },
+    {
+      "id": "0:7:12",
+      "word": "salad",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "remove_explanation",
+      "old": "강세 앞: SAL-ad.",
+      "new": "",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 샐러드",
+        "ex": "I'll have a chicken {{BLANK}}.",
+        "tr": "치킨 샐러드로 할게요."
+      }
+    },
+    {
+      "id": "0:7:14",
+      "word": "tomato",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "복수 tomatoes(-es). 미국 발음 [터메이토].",
+      "new": "복수 tomatoes(-es).",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 토마토",
+        "ex": "Add a {{BLANK}} to the salad.",
+        "tr": "샐러드에 토마토 하나 넣어."
+      }
+    },
+    {
+      "id": "0:7:20",
+      "word": "passport",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "해외에서 신원과 국적을 증명하는 여권. boarding pass는 비행기 탑승권.",
+      "new": "boarding pass는 비행기 탑승권.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 여권",
+        "ex": "Don't forget your {{BLANK}}.",
+        "tr": "여권 잊지 마."
+      }
+    },
+    {
+      "id": "0:7:22",
+      "word": "museum",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "remove_explanation",
+      "old": "강세 가운데: mu-SE-um.",
+      "new": "",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 박물관, 미술관",
+        "ex": "The {{BLANK}} is closed on Mondays.",
+        "tr": "그 박물관은 월요일에 문 닫아."
+      }
+    },
+    {
+      "id": "0:7:26",
+      "word": "video",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "움직이는 그림. 강세 앞: VID-eo.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "① 동영상",
+        "ex": "I watched a funny {{BLANK}} online.",
+        "tr": "온라인에서 웃긴 영상 봤어."
+      }
+    },
+    {
+      "id": "0:7:33",
+      "word": "DVD",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "영상을 저장해 재생하는 디스크.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "① 디브이디",
+        "ex": "We watched a {{BLANK}} together.",
+        "tr": "우리 같이 DVD 봤어."
+      }
+    },
+    {
+      "id": "0:8:3",
+      "word": "delicious",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "맛있다의 강한 말. 강세 가운데: de-LI-cious.",
+      "new": "맛있다의 강한 말.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 아주 맛있는",
+        "ex": "This soup is {{BLANK}}!",
+        "tr": "이 수프 진짜 맛있다!"
+      }
+    },
+    {
+      "id": "0:8:23",
+      "word": "design",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "모양·구조를 짜는 일이나 그 결과인 설계를 뜻해. 동사와 발음은 같아.",
+      "new": "모양·구조를 짜는 일이나 그 결과인 설계를 뜻해.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "② 디자인, 설계",
+        "ex": "I like the {{BLANK}} of this building.",
+        "tr": "이 건물의 디자인이 마음에 들어."
+      }
+    },
+    {
+      "id": "0:9:11",
+      "word": "guitar",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "play the guitar가 흔해. play guitar도 써. 강세는 뒤 음절. 연주자는 guitarist.",
+      "new": "play the guitar가 흔해. play guitar도 써. 연주자는 guitarist.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 기타",
+        "ex": "My brother plays the {{BLANK}} every night.",
+        "tr": "우리 형은 매일 밤 기타를 쳐."
+      }
+    },
+    {
+      "id": "0:9:14",
+      "word": "cafe",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "미국식 발음은 뒤에 강세: [카페이]. café라고 쓰기도 해.",
+      "new": "café라고 쓰기도 해.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 카페, 찻집",
+        "ex": "We studied at a {{BLANK}} near school.",
+        "tr": "우리 학교 근처 카페에서 공부했어."
+      }
+    },
+    {
+      "id": "0:13:0",
+      "word": "solution",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson00.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "a solution to+문제. solve(해결하다)와 연결해서 기억.",
+      "new": "a solution to+문제. 동사는 solve(해결하다).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 해결책, 해답",
+        "ex": "We need a better {{BLANK}} to this problem.",
+        "tr": "우리는 이 문제에 더 나은 해결책이 필요해."
+      }
+    },
+    {
+      "id": "1:2:18",
+      "word": "well",
+      "si": 4,
+      "field": "c",
+      "source": "pipeline/out/lesson01.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "물을 얻으려고 땅을 깊이 판 구멍. 명사로는 셀 수 있다.",
+      "new": "명사로는 셀 수 있다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "④ 우물",
+        "ex": "The old {{BLANK}} still has clean water.",
+        "tr": "그 오래된 우물에는 아직 깨끗한 물이 있어."
+      }
+    },
+    {
+      "id": "1:3:23",
+      "word": "take",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/lesson01.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "시간을 '잡아먹는다'는 감각. It takes + 시간은 통째로 익혀 둘 관용 표현이다.",
+      "new": "시간을 '잡아먹는다'는 감각. It takes + 시간.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② (시간이) 걸리다",
+        "ex": "It {{BLANK}}s an hour to get there.",
+        "tr": "거기 가는 데 한 시간 걸려."
+      }
+    },
+    {
+      "id": "1:10:15",
+      "word": "god",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson01.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "숭배의 대상인 신. god(소문자)은 여러 신 가운데 하나, God(대문자)은 유일신을 가리킨다. 첫 글자로 구별한다.",
+      "new": "god(소문자)은 여러 신 가운데 하나, God(대문자)은 유일신을 가리킨다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 신",
+        "ex": "Long ago, people believed the sun was a {{BLANK}}.",
+        "tr": "옛날 사람들은 해가 신이라고 믿었어."
+      }
+    },
+    {
+      "id": "2:1:12",
+      "word": "system",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson02.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "짜임새 있게 맞물린 구조. 학술·기술 글의 단골이다.",
+      "new": "짜임새 있게 맞물린 구조.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 체계, 시스템",
+        "ex": "The subway {{BLANK}} in Seoul is easy to use.",
+        "tr": "서울 지하철 시스템은 이용하기 쉬워."
+      }
+    },
+    {
+      "id": "2:2:12",
+      "word": "change",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson02.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "바꾸다·달라지다. change your mind(마음을 바꾸다), change into ~(~로 갈아입다)가 대표 연어다.",
+      "new": "change your mind(마음을 바꾸다), change into ~(~로 갈아입다).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 바꾸다, 변하다",
+        "ex": "You should {{BLANK}} your wet clothes.",
+        "tr": "젖은 옷을 갈아입는 게 좋겠어."
+      }
+    },
+    {
+      "id": "2:3:11",
+      "word": "bad",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson02.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "질·상태가 좋지 않은. 비교급 불규칙 bad-worse-worst — good-better-best와 짝으로 외운다.",
+      "new": "비교급 불규칙 bad-worse-worst. good-better-best.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 나쁜, 안 좋은 (↔ good)",
+        "ex": "Smoking is {{BLANK}} for your health.",
+        "tr": "흡연은 건강에 나빠."
+      }
+    },
+    {
+      "id": "2:7:1",
+      "word": "law",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson02.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "지켜야 할 규칙. obey[break] the law(법을 지키다·어기다), against the law(불법인)가 대표 연어다.",
+      "new": "obey[break] the law(법을 지키다·어기다), against the law(불법인).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 법, 법률",
+        "ex": "Everyone must follow the {{BLANK}}.",
+        "tr": "누구나 법을 지켜야 해."
+      }
+    },
+    {
+      "id": "2:8:1",
+      "word": "hope",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson02.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "바라는 일이 일어나기를 기대할 때 쓴다. hope to go, hope (that) she comes처럼 쓴다.",
+      "new": "hope to go, hope (that) she comes처럼 쓴다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 바라다, 희망하다",
+        "ex": "I {{BLANK}} you get well soon.",
+        "tr": "네가 곧 낫길 바라."
+      }
+    },
+    {
+      "id": "2:9:1",
+      "word": "social",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson02.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "society(사회)의 형용사. social media, social problem처럼 학술·시사 글의 단골이다.",
+      "new": "society(사회)의 형용사. social media, social problem.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 사회의, 사회적인",
+        "ex": "Humans are {{BLANK}} animals.",
+        "tr": "인간은 사회적 동물이야."
+      }
+    },
+    {
+      "id": "2:9:6",
+      "word": "fact",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson02.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "in fact(사실은). fact=사실(검증할 수 있음) / opinion=의견(주관적) — 학술 글은 이 둘을 가른다.",
+      "new": "in fact(사실은). fact=사실(검증할 수 있음) / opinion=의견(주관적).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 사실 (↔ opinion)",
+        "ex": "It is a {{BLANK}} that the earth is round.",
+        "tr": "지구가 둥글다는 건 사실이야."
+      }
+    },
+    {
+      "id": "3:6:1",
+      "word": "red",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/lesson03.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "빨간색. 신호등의 red = 정지.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "① 빨간, 빨강",
+        "ex": "She painted the door {{BLANK}}.",
+        "tr": "그녀는 문을 빨갛게 칠했어."
+      }
+    },
+    {
+      "id": "4:2:2",
+      "word": "field",
+      "si": 3,
+      "field": "c",
+      "source": "pipeline/out/lesson04.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "운동 경기에 쓰는 넓은 땅. a football field = 축구 경기장.",
+      "new": "a football field = 축구 경기장.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "③ 경기장, 운동장",
+        "ex": "The players ran onto the {{BLANK}}.",
+        "tr": "선수들이 경기장으로 뛰어나갔어."
+      }
+    },
+    {
+      "id": "4:10:12",
+      "word": "rate",
+      "si": 3,
+      "field": "c",
+      "source": "pipeline/out/lesson04.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "대상의 질이나 가치를 판단하다.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "③ 평가하다",
+        "ex": "How would you {{BLANK}} this book?",
+        "tr": "이 책을 어떻게 평가하겠어?"
+      }
+    },
+    {
+      "id": "5:2:9",
+      "word": "he",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set05.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "주어 자리엔 he, 목적어면 him, '그의'는 his. 자리마다 옷을 갈아입는다.",
+      "new": "주어 자리엔 he, 목적어면 him, '그의'는 his.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 그가, 그 남자가",
+        "ex": "{{BLANK}} is my best friend, Minsu.",
+        "tr": "걔는 내 제일 친한 친구 민수야."
+      }
+    },
+    {
+      "id": "5:3:6",
+      "word": "his",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set05.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "명사 앞에 붙는 소유격. he-his-him 한 세트로 외워 둔다.",
+      "new": "명사 앞에 붙는 소유격. he-his-him.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 그의",
+        "ex": "I like {{BLANK}} new hair.",
+        "tr": "걔 새 머리 마음에 든다."
+      }
+    },
+    {
+      "id": "5:4:1",
+      "word": "as",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set05.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "as soon as+문장 = ~하자마자. 도착 직후 바로 전화하라는 뜻이다.",
+      "new": "as soon as+문장 = ~하자마자.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "② (as soon as) ~하자마자",
+        "ex": "Call me {{BLANK}} soon as you arrive.",
+        "tr": "도착하자마자 전화해."
+      }
+    },
+    {
+      "id": "5:9:12",
+      "word": "write",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set05.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "write-wrote-written. 소리 안 나는 w까지 써야 진짜 쓰기.",
+      "new": "write-wrote-written. w는 묵음.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 쓰다, 적다",
+        "ex": "{{BLANK}} your name here, please.",
+        "tr": "여기에 이름 써 주세요."
+      }
+    },
+    {
+      "id": "5:10:0",
+      "word": "without",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set05.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "with(함께)의 반대말로 기억하면 쉽다 — '~없이'. (원래는 '바깥쪽에'라는 뜻)",
+      "new": "with(함께)의 반대 — '~없이'. (원래는 '바깥쪽에'라는 뜻)",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① ~없이",
+        "ex": "I went out {{BLANK}} my phone today.",
+        "tr": "오늘 폰 없이 나갔다 왔어."
+      }
+    },
+    {
+      "id": "5:10:8",
+      "word": "under",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set05.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "숫자 앞 under = ~미만. over(~넘게)와 짝으로 외운다.",
+      "new": "숫자 앞 under = ~미만. over는 ~넘게.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② ~미만의",
+        "ex": "Children {{BLANK}} five ride free.",
+        "tr": "5세 미만 어린이는 공짜로 타요."
+      }
+    },
+    {
+      "id": "5:10:16",
+      "word": "yet",
+      "si": 3,
+      "field": "c",
+      "source": "pipeline/out/set05.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "접속사 yet은 but보다 '놀랍게도'가 강한 그런데도. and yet, simple yet strong 꼴이 단골.",
+      "new": "접속사 yet은 but보다 '놀랍게도'가 강한 그런데도. and yet, simple yet strong.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "③ (접속사) 그런데도, 그렇지만",
+        "ex": "It's so cold, and {{BLANK}} she wears shorts.",
+        "tr": "엄청 추운데, 그런데도 걔는 반바지를 입어."
+      }
+    },
+    {
+      "id": "6:2:6",
+      "word": "door",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set06.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "옆집은 next door. 문 하나 옆이라는 그림.",
+      "new": "옆집은 next door.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 문",
+        "ex": "Someone is at the {{BLANK}}.",
+        "tr": "문 앞에 누가 왔어."
+      }
+    },
+    {
+      "id": "6:3:10",
+      "word": "across",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set06.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "cross(건너다)의 전치사 짝꿍. across from = ~의 맞은편.",
+      "new": "cross(건너다)의 전치사. across from = ~의 맞은편.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 건너서, 맞은편에",
+        "ex": "My school is just {{BLANK}} the street.",
+        "tr": "우리 학교 바로 길 건너에 있어."
+      }
+    },
+    {
+      "id": "6:4:9",
+      "word": "pass",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set06.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "식탁 필수 문장 Pass me the ~. 손에서 손으로 지나가게 하기.",
+      "new": "Pass me the ~.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 건네주다",
+        "ex": "{{BLANK}} the ball to me!",
+        "tr": "공 나한테 패스해!"
+      }
+    },
+    {
+      "id": "6:8:1",
+      "word": "yourself",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set06.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "Help yourself(마음껏 드세요) — 손님 접대 단골 표현.",
+      "new": "손님에게 Help yourself(마음껏 드세요).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 너 자신, 직접",
+        "ex": "Help {{BLANK}} to the pizza.",
+        "tr": "피자 마음껏 먹어."
+      }
+    },
+    {
+      "id": "6:9:5",
+      "word": "catch",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set06.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "감기는 '잡는' 것: catch a cold. 날아다니는 병이 나한테 잡히는 그림.",
+      "new": "감기는 '잡는' 것: catch a cold.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② (감기에) 걸리다",
+        "ex": "Stay away, or you'll {{BLANK}} my cold.",
+        "tr": "떨어져, 안 그럼 내 감기 옮아."
+      }
+    },
+    {
+      "id": "7:5:11",
+      "word": "protect",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set07.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "protect A from B: B로부터 A를 지키다. from이 단짝.",
+      "new": "protect A from B: B로부터 A를 지키다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 보호하다, 지키다",
+        "ex": "This coat {{BLANK}}s you from the cold.",
+        "tr": "이 코트가 추위로부터 널 지켜 줘."
+      }
+    },
+    {
+      "id": "7:7:1",
+      "word": "vote",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set07.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "vote for+사람/안: ~에 찬성표를 던지다. for가 단짝.",
+      "new": "vote for+사람/안: ~에 찬성표를 던지다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 투표하다",
+        "ex": "Who will you {{BLANK}} for this time?",
+        "tr": "이번엔 누구 뽑을 거야?"
+      }
+    },
+    {
+      "id": "7:7:17",
+      "word": "worry",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set07.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "worry about+~: ~에 대해 걱정하다. about이 단짝.",
+      "new": "worry about+~: ~에 대해 걱정하다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 걱정하다",
+        "ex": "Don't {{BLANK}} about the test result.",
+        "tr": "시험 결과 걱정하지 마."
+      }
+    },
+    {
+      "id": "7:10:1",
+      "word": "sign",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set07.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "표지판은 말을 한다: The sign says ~. 자주 나오는 그림.",
+      "new": "표지판은 말을 한다: The sign says ~.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 표지판, 간판",
+        "ex": "The {{BLANK}} says the store is closed.",
+        "tr": "간판에 가게 문 닫았다고 쓰여 있어."
+      }
+    },
+    {
+      "id": "8:4:3",
+      "word": "sun",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set08.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "태양을 말할 때는 보통 the sun. the moon, the sky도 함께 기억.",
+      "new": "태양을 말할 때는 보통 the sun. the moon, the sky도 마찬가지.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 해, 태양",
+        "ex": "Don't look at the {{BLANK}}!",
+        "tr": "해를 똑바로 보지 마!"
+      }
+    },
+    {
+      "id": "9:1:4",
+      "word": "fly",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set09.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "날아다니는 벌레라서 이름이 fly. 파리채로 잡는 그 파리 맞다.",
+      "new": "날아다니는 벌레라서 이름이 fly.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 파리",
+        "ex": "A {{BLANK}} is on my pizza!",
+        "tr": "파리가 내 피자에 앉았어!"
+      }
+    },
+    {
+      "id": "9:3:2",
+      "word": "sea",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set09.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "see(보다)와 발음이 같다[si]. 철자로 구별할 것.",
+      "new": "see(보다)와 발음이 같다[si].",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 바다",
+        "ex": "The {{BLANK}} is calm today.",
+        "tr": "오늘은 바다가 잔잔하네."
+      }
+    },
+    {
+      "id": "9:4:7",
+      "word": "sexual",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set09.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "sex(성)+ual. 보건·법 지문에서 만나는 격식어.",
+      "new": "sex(성)+ual.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 성적인, 성의",
+        "ex": "We learned about {{BLANK}} health in class.",
+        "tr": "우리 수업에서 성 건강에 대해 배웠어."
+      }
+    },
+    {
+      "id": "9:4:9",
+      "word": "prevent",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set09.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "prevent A from -ing: A가 못 하게 막다. from이 세트.",
+      "new": "prevent A from -ing: A가 못 하게 막다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 막다, 예방하다",
+        "ex": "Wash your hands to {{BLANK}} colds.",
+        "tr": "감기 예방하려면 손 씻어."
+      }
+    },
+    {
+      "id": "9:9:11",
+      "word": "restaurant",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set09.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "restore(되살리다)와 한 뿌리: 먹고 기운 차리는 곳. 철자 주의.",
+      "new": "restore(되살리다)와 한 뿌리: 먹고 기운 차리는 곳.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 식당",
+        "ex": "This {{BLANK}} is famous for its soup.",
+        "tr": "이 식당 국물 요리로 유명해."
+      }
+    },
+    {
+      "id": "11:2:6",
+      "word": "shop",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set11.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "shop for ~: ~을 사러 다니다. go shopping도 함께 기억.",
+      "new": "shop for ~: ~을 사러 다니다. go shopping.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 쇼핑하다, 물건을 사다",
+        "ex": "We {{BLANK}} for food on Sundays.",
+        "tr": "우리는 일요일마다 먹을 것을 사러 가."
+      }
+    },
+    {
+      "id": "11:2:14",
+      "word": "enemy",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set11.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "friend의 반대. 만화 속 '숙적'이 enemy다.",
+      "new": "friend의 반대.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 적",
+        "ex": "He doesn't have a single {{BLANK}} at school.",
+        "tr": "걔는 학교에 적이 하나도 없어."
+      }
+    },
+    {
+      "id": "11:3:9",
+      "word": "female",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set11.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "male(남성의)↔female(여성의). 서류 성별 칸의 그 단어.",
+      "new": "male(남성의)↔female(여성의).",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 여성의",
+        "ex": "A {{BLANK}} voice answered the phone.",
+        "tr": "여자 목소리가 전화를 받았어."
+      }
+    },
+    {
+      "id": "11:4:4",
+      "word": "lord",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set11.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "성과 땅의 주인. 게임·판타지 속 '영주·군주'가 lord.",
+      "new": "성과 땅의 주인.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 군주, 영주",
+        "ex": "The {{BLANK}} lived in a great castle.",
+        "tr": "그 영주는 큰 성에 살았어."
+      }
+    },
+    {
+      "id": "12:3:5",
+      "word": "male",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set12.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "male(남) ↔ female(여). 사람과 동물 모두에 쓰는 담백한 말.",
+      "new": "male(남) ↔ female(여). 사람과 동물 모두에 쓴다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 남성의, 수컷의",
+        "ex": "The {{BLANK}} bird sings to attract a mate.",
+        "tr": "수컷 새는 짝을 끌어들이려고 노래해."
+      }
+    },
+    {
+      "id": "12:7:7",
+      "word": "profit",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set12.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "make a profit(이익을 내다) ↔ loss(손해). 장사의 두 얼굴.",
+      "new": "make a profit(이익을 내다) ↔ loss(손해).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 이익, 수익",
+        "ex": "The store made a big {{BLANK}} last month.",
+        "tr": "그 가게는 지난달에 큰 수익을 냈어."
+      }
+    },
+    {
+      "id": "12:8:8",
+      "word": "request",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set12.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "request+명사: ~을 요청하다. 명사와 철자·발음이 같다.",
+      "new": "request+명사: ~을 요청하다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "② 요청하다",
+        "ex": "You can {{BLANK}} more time to finish.",
+        "tr": "끝낼 시간을 더 달라고 요청할 수 있어."
+      }
+    },
+    {
+      "id": "12:8:9",
+      "word": "appearance",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set12.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "겉으로 '보이는' 모든 것.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "① 외모, 겉모습",
+        "ex": "Don't judge people by their {{BLANK}}.",
+        "tr": "사람을 겉모습으로 판단하지 마."
+      }
+    },
+    {
+      "id": "12:9:7",
+      "word": "shirt",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set12.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "발음 [셔트] 주의. t-shirt(티셔츠)도 shirt 가족.",
+      "new": "t-shirt(티셔츠)도 shirt 가족.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 셔츠",
+        "ex": "Your {{BLANK}} is inside out!",
+        "tr": "너 셔츠 뒤집어 입었어!"
+      }
+    },
+    {
+      "id": "12:9:14",
+      "word": "meat",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set12.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "meet(만나다)와 발음이 같다[미트]. 철자로 구분.",
+      "new": "meet(만나다)와 발음이 같다[미트].",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 고기",
+        "ex": "I eat more vegetables than {{BLANK}} these days.",
+        "tr": "요즘 난 고기보다 채소를 많이 먹어."
+      }
+    },
+    {
+      "id": "13:6:6",
+      "word": "slip",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set13.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "과거형 slipped: p 두 개. 쭉 미끄러지는 그림.",
+      "new": "과거형 slipped: p 두 개.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 미끄러지다",
+        "ex": "She {{BLANK}}ped on the ice and fell.",
+        "tr": "걔 얼음에서 미끄러져서 넘어졌어."
+      }
+    },
+    {
+      "id": "14:1:10",
+      "word": "engineer",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set14.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "기계·건축·소프트웨어 등을 설계·개발하는 기술 전문가. 강세는 뒤 [엔지니어].",
+      "new": "기계·건축·소프트웨어 등을 설계·개발하는 기술 전문가.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 기술자, 엔지니어",
+        "ex": "My uncle is an {{BLANK}} at a car company.",
+        "tr": "우리 삼촌은 자동차 회사 엔지니어야."
+      }
+    },
+    {
+      "id": "14:7:9",
+      "word": "advance",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set14.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "동사도 강세는 뒤(ad-VANCE). 앞으로 나아가다 → 진출·발전. advance to the final.",
+      "new": "앞으로 나아가다 → 진출·발전. advance to the final.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "② 전진하다, 진출·발전하다",
+        "ex": "Korea {{BLANK}}d to the final again!",
+        "tr": "한국이 또 결승에 진출했어!"
+      }
+    },
+    {
+      "id": "14:8:3",
+      "word": "severe",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set14.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "아픔·날씨·처벌이 '심한' 것. 발음은 [서비어].",
+      "new": "아픔·날씨·처벌이 '심한' 것.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 심각한, 극심한",
+        "ex": "She is in bed with a {{BLANK}} cold.",
+        "tr": "걔 극심한 감기로 몸져누웠어."
+      }
+    },
+    {
+      "id": "14:8:8",
+      "word": "entertainment",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set14.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "entertain(즐겁게 하다)+ment. 연예 기획사 이름의 그 단어.",
+      "new": "entertain(즐겁게 하다)+ment.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 오락, 연예",
+        "ex": "The hotel offers music and other {{BLANK}}.",
+        "tr": "그 호텔은 음악이랑 다른 오락거리도 제공해."
+      }
+    },
+    {
+      "id": "15:8:2",
+      "word": "wire",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set15.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "금속으로 만든 가는 줄. 전선에는 구리도 쓰인다. wireless는 선 없는, 무선의.",
+      "new": "금속으로 만든 가는 줄. wireless는 선 없는, 무선의.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 철사, 전선",
+        "ex": "The fence is made of thin {{BLANK}}.",
+        "tr": "그 울타리는 가는 철사로 돼 있어."
+      }
+    },
+    {
+      "id": "16:1:4",
+      "word": "calculate",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set16.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "수를 따져 계산하다. calculator(계산기)가 하는 일이 바로 이것.",
+      "new": "calculator는 계산기.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 계산하다",
+        "ex": "{{BLANK}} the total cost of the trip.",
+        "tr": "여행 총비용을 계산해 봐."
+      }
+    },
+    {
+      "id": "16:2:8",
+      "word": "electricity",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set16.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "강세는 -tric-에 있다. save electricity는 전기를 절약하다, electricity bill은 전기 요금 청구서.",
+      "new": "save electricity는 전기를 절약하다, electricity bill은 전기 요금 청구서.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 전기",
+        "ex": "Turn off the lights to save {{BLANK}}.",
+        "tr": "전기 아끼게 불 꺼."
+      }
+    },
+    {
+      "id": "16:2:13",
+      "word": "laughter",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set16.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "laugh(웃다)의 명사형. 철자에 gh가 숨어 있다: laughter.",
+      "new": "laugh(웃다)의 명사형.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 웃음, 웃음소리",
+        "ex": "Loud {{BLANK}} came from the next room.",
+        "tr": "옆방에서 큰 웃음소리가 들려왔어."
+      }
+    },
+    {
+      "id": "16:3:5",
+      "word": "tube",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set16.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "속이 빈 관. 치약 튜브, 몸속 관 다 tube. 미국 발음은 [투브].",
+      "new": "속이 빈 관. 치약 튜브, 몸속 관 다 tube.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 관, 튜브",
+        "ex": "The doctor put a thin {{BLANK}} in his nose.",
+        "tr": "의사가 걔 코에 가는 관을 넣었어."
+      }
+    },
+    {
+      "id": "16:3:15",
+      "word": "wise",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set16.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "상황을 잘 이해하고 올바르게 판단하는. a wise choice는 현명한 선택.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "① 지혜로운, 현명한",
+        "ex": "Asking for help was a {{BLANK}} choice.",
+        "tr": "도움을 청한 건 현명한 선택이었어."
+      }
+    },
+    {
+      "id": "16:6:5",
+      "word": "funeral",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set16.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "죽은 사람을 보내는 장례식. attend a funeral은 장례식에 참석하다.",
+      "new": "attend a funeral은 장례식에 참석하다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 장례식",
+        "ex": "He wore black to the {{BLANK}}.",
+        "tr": "걔는 장례식에 검은 옷을 입고 갔어."
+      }
+    },
+    {
+      "id": "16:9:5",
+      "word": "acid",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set16.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "신맛 나고 녹이는 성질. acid rain: 산성비.",
+      "new": "acid rain: 산성비.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 산(酸)",
+        "ex": "This {{BLANK}} can even burn through metal.",
+        "tr": "이 산은 금속까지 뚫고 태울 수 있어."
+      }
+    },
+    {
+      "id": "17:3:0",
+      "word": "garage",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set17.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "차를 넣는 곳, 고치는 곳. 발음은 [거라지].",
+      "new": "차를 넣는 곳, 고치는 곳.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 차고, 정비소",
+        "ex": "Dad parked the car in the {{BLANK}}.",
+        "tr": "아빠가 차를 차고에 넣으셨어."
+      }
+    },
+    {
+      "id": "17:5:5",
+      "word": "delay",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set17.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "명사 delay: a two-hour delay, without delay = 지체 없이. 강세는 뒤 -lay.",
+      "new": "명사 delay: a two-hour delay, without delay = 지체 없이.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "② 지연, 지체",
+        "ex": "The bus had a twenty-minute {{BLANK}}.",
+        "tr": "버스가 20분이나 지연됐어."
+      }
+    },
+    {
+      "id": "17:6:12",
+      "word": "stroke",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set17.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "have a stroke 뇌졸중이 오다. 갑자기 '탁' 치는 병.",
+      "new": "have a stroke 뇌졸중이 오다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 뇌졸중",
+        "ex": "Grandfather had a {{BLANK}} last spring.",
+        "tr": "할아버지가 지난봄에 뇌졸중을 겪으셨어."
+      }
+    },
+    {
+      "id": "17:7:13",
+      "word": "rent",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set17.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "pay the rent 집세를 내다. 매달 나가는 그 돈.",
+      "new": "pay the rent 집세를 내다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 집세, 임대료",
+        "ex": "The {{BLANK}} for this room is high.",
+        "tr": "이 방은 월세가 비싸."
+      }
+    },
+    {
+      "id": "17:8:4",
+      "word": "monthly",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set17.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "weekly 매주, monthly 매달, yearly 매년. ly 삼형제.",
+      "new": "weekly 매주, monthly 매달, yearly 매년.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 매달의, 월 1회의",
+        "ex": "She reads a {{BLANK}} fashion magazine.",
+        "tr": "그녀는 월간 패션 잡지를 봐."
+      }
+    },
+    {
+      "id": "17:10:10",
+      "word": "eager",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set17.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "be eager to ~하고 싶어 못 참다. 눈빛이 반짝이는 상태.",
+      "new": "be eager to ~하고 싶어 못 참다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 열심인, 간절히 바라는",
+        "ex": "The new student is {{BLANK}} to learn.",
+        "tr": "그 전학생은 배우려는 열의가 넘쳐."
+      }
+    },
+    {
+      "id": "18:1:13",
+      "word": "swallow",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set18.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "긴 날개로 빠르게 나는 작은 새.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "② 제비",
+        "ex": "A {{BLANK}} built its nest under our roof.",
+        "tr": "제비가 우리 지붕 아래에 둥지를 지었어."
+      }
+    },
+    {
+      "id": "18:2:6",
+      "word": "govern",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set18.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "명사는 government(정부). '정부'가 하는 일이 govern.",
+      "new": "명사는 government(정부).",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 다스리다, 통치하다",
+        "ex": "The president {{BLANK}}s the country.",
+        "tr": "대통령이 나라를 통치하지."
+      }
+    },
+    {
+      "id": "18:4:3",
+      "word": "peaceful",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set18.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "peace(평화)+ful(가득한). -ful은 '~가 가득한'.",
+      "new": "peace(평화)+ful(가득한).",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 평화로운",
+        "ex": "The village looked calm and {{BLANK}}.",
+        "tr": "그 마을은 고요하고 평화로워 보였어."
+      }
+    },
+    {
+      "id": "18:6:3",
+      "word": "probability",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set18.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "수학 시간의 '확률'이 이 단어.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "① 확률, 가능성",
+        "ex": "What is the {{BLANK}} of winning the game?",
+        "tr": "그 경기 이길 확률이 얼마나 돼?"
+      }
+    },
+    {
+      "id": "18:6:8",
+      "word": "horn",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set18.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "차량에서 경고 소리를 내는 장치.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "② 경적",
+        "ex": "The driver sounded the {{BLANK}}.",
+        "tr": "운전자가 경적을 울렸어."
+      }
+    },
+    {
+      "id": "18:7:8",
+      "word": "mud",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set18.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "형용사는 muddy(진흙투성이의). 비 온 날 흙길 그림.",
+      "new": "형용사는 muddy(진흙투성이의).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 진흙",
+        "ex": "My shoes are covered in {{BLANK}}.",
+        "tr": "내 신발 진흙투성이야."
+      }
+    },
+    {
+      "id": "18:8:3",
+      "word": "declaration",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set18.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "동사는 declare(선언하다). 3·1 독립 선언서의 '선언'.",
+      "new": "동사는 declare(선언하다).",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 선언, 선포",
+        "ex": "The {{BLANK}} of war shocked the whole world.",
+        "tr": "선전 포고에 온 세계가 충격받았어."
+      }
+    },
+    {
+      "id": "19:1:2",
+      "word": "chin",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set19.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "chin은 턱 끝, jaw는 턱 전체(턱뼈). 턱 괴는 자세가 chin.",
+      "new": "chin은 턱 끝, jaw는 턱 전체(턱뼈).",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 턱, 턱 끝",
+        "ex": "He rested his {{BLANK}} on his hand.",
+        "tr": "걔는 손으로 턱을 괴고 있었어."
+      }
+    },
+    {
+      "id": "19:4:3",
+      "word": "envelope",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set19.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "편지를 감싸는 봉투. 우표(stamp)를 붙여서 보낸다.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "① 봉투",
+        "ex": "Write her address on the {{BLANK}}.",
+        "tr": "봉투에 걔네 주소를 써."
+      }
+    },
+    {
+      "id": "19:5:2",
+      "word": "delicate",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set19.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "깨지기 쉽고 조심스러운 것. 발음은 [델리컷].",
+      "new": "깨지기 쉽고 조심스러운 것.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 연약한, 섬세한",
+        "ex": "Be careful; the glass is very {{BLANK}}.",
+        "tr": "조심해, 그 유리잔 섬세해서 잘 깨져."
+      }
+    },
+    {
+      "id": "19:5:7",
+      "word": "excite",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set19.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "남을 들뜨게 하면 exciting, 내가 들뜨면 excited. 방향 주의.",
+      "new": "남을 들뜨게 하면 exciting, 내가 들뜨면 excited.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 들뜨게 하다",
+        "ex": "The concert news {{BLANK}}d all my friends.",
+        "tr": "콘서트 소식에 내 친구들이 다 들떴어."
+      }
+    },
+    {
+      "id": "19:7:13",
+      "word": "drawer",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set19.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "draw(당기다)+er=당겨서 여는 서랍. 발음은 [드로어].",
+      "new": "draw(당기다)+er=당겨서 여는 서랍.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 서랍",
+        "ex": "Your pens are in the top {{BLANK}}.",
+        "tr": "네 펜 맨 위 서랍에 있어."
+      }
+    },
+    {
+      "id": "20:1:1",
+      "word": "sensible",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set20.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "sensible은 '분별 있는', sensitive는 '예민한'. 뜻이 완전 다르니 주의.",
+      "new": "sensible은 '분별 있는', sensitive는 '예민한'.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 분별 있는, 현명한",
+        "ex": "Be {{BLANK}} and save your money.",
+        "tr": "분별 있게 굴고 돈 좀 아껴."
+      }
+    },
+    {
+      "id": "20:4:4",
+      "word": "determined",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set20.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "be determined to+동사=꼭 ~하기로 마음먹다. 눈빛이 굳은 상태.",
+      "new": "be determined to+동사=꼭 ~하기로 마음먹다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 굳게 결심한",
+        "ex": "She is {{BLANK}} to win the game.",
+        "tr": "걔는 그 경기 이기겠다고 단단히 마음먹었어."
+      }
+    },
+    {
+      "id": "20:10:3",
+      "word": "parcel",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set20.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "영국식 소포. 미국은 package. 우체국에서 부치는 상자.",
+      "new": "영국식 소포. 미국은 package.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① (영) 소포",
+        "ex": "A {{BLANK}} arrived for you this morning.",
+        "tr": "오늘 아침에 네 앞으로 소포 왔어."
+      }
+    },
+    {
+      "id": "20:10:5",
+      "word": "rubber",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set20.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "고무 재질. 타이어나 고무줄처럼 잘 늘어나는 물건을 만드는 데 쓴다.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "① 고무",
+        "ex": "Car tires are made of {{BLANK}}.",
+        "tr": "자동차 타이어는 고무로 만들지."
+      }
+    },
+    {
+      "id": "21:3:2",
+      "word": "amusing",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set21.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "이야기가 amusing(웃긴), 듣는 나는 amused. -ing/-ed 구분!",
+      "new": "이야기가 amusing(웃긴), 듣는 나는 amused.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 재미있는, 웃긴",
+        "ex": "She told an {{BLANK}} story about her cat.",
+        "tr": "걔가 자기 고양이 웃긴 얘기를 해줬어."
+      }
+    },
+    {
+      "id": "21:4:6",
+      "word": "careless",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set21.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "care+less(~이 없는). 반대는 careful(-ful=가득한). 접미사 짝!",
+      "new": "care+less(~이 없는). 반대는 careful(-ful=가득한).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 부주의한",
+        "ex": "A {{BLANK}} mistake cost me ten points.",
+        "tr": "덜렁대다 실수해서 10점 날렸어."
+      }
+    },
+    {
+      "id": "21:9:5",
+      "word": "harmless",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set21.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "harm+less(없는)=무해한. -ful↔-less 대표 짝.",
+      "new": "harm+less(없는)=무해한. -ful↔-less.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 무해한",
+        "ex": "This insect is ugly but quite {{BLANK}}.",
+        "tr": "이 곤충 못생겼지만 아주 무해해."
+      }
+    },
+    {
+      "id": "21:10:2",
+      "word": "hopeless",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set21.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "hope+less: 희망이 빠져나간. -ful/-less 짝의 대표선수.",
+      "new": "hope+less: 희망이 빠져나간.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 가망 없는",
+        "ex": "The game looked {{BLANK}}, but we never stopped.",
+        "tr": "경기는 가망 없어 보였지만 우린 멈추지 않았어."
+      }
+    },
+    {
+      "id": "22:5:5",
+      "word": "senseless",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set22.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "sense(분별)+-less(없는)=분별없는. -less='~ 없는' 접미사.",
+      "new": "sense(분별)+-less(없는)=분별없는.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 무의미한, 분별없는",
+        "ex": "It is {{BLANK}} to fight over such things.",
+        "tr": "그런 일로 싸우는 건 정말 무의미해."
+      }
+    },
+    {
+      "id": "22:7:9",
+      "word": "thirsty",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set22.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "thirst(갈증)+-y=목마른. hungry(배고픈)와 짝꿍.",
+      "new": "thirst(갈증)+-y=목마른.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 목마른",
+        "ex": "After soccer I always get so {{BLANK}}.",
+        "tr": "축구를 하고 나면 늘 엄청 목말라."
+      }
+    },
+    {
+      "id": "22:9:2",
+      "word": "wrongdoing",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set22.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "wrong(잘못된)+doing(행함)=잘못 저지르기. 뉴스 단골 명사.",
+      "new": "wrong(잘못된)+doing(행함)=잘못 저지르기.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 나쁜 짓, 비행(非行)",
+        "ex": "The police found no {{BLANK}} in this case.",
+        "tr": "경찰은 이 사건에서 나쁜 짓을 한 흔적을 못 찾았어."
+      }
+    },
+    {
+      "id": "23:7:5",
+      "word": "unless",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set23.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "if~not(~하지 않으면)으로 기억하자. 보통 부정을 중복하지 않고, 미래 조건도 현재형.",
+      "new": "if~not(~하지 않으면). 보통 부정을 중복하지 않고, 미래 조건도 현재형.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① ~하지 않으면, ~가 아닌 한",
+        "ex": "We'll be late {{BLANK}} we leave right now.",
+        "tr": "지금 당장 안 나가면 우리 늦을 거야."
+      }
+    },
+    {
+      "id": "23:7:7",
+      "word": "crazy",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set23.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "be crazy about ~(~에 푹 빠지다). 전치사는 about이다.",
+      "new": "be crazy about ~(~에 푹 빠지다).",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "② 열광하는, 푹 빠진",
+        "ex": "My sister is {{BLANK}} about that singer.",
+        "tr": "우리 언니는 그 가수한테 푹 빠져 있어."
+      }
+    },
+    {
+      "id": "23:10:2",
+      "word": "due",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set23.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "be due to+명사=~때문이다. 원인을 설명하는 표현으로 익힌다.",
+      "new": "be due to+명사=~때문이다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② ~에 기인하는(due to)",
+        "ex": "The delay was {{BLANK}} to heavy rain.",
+        "tr": "지연은 폭우 때문이었어."
+      }
+    },
+    {
+      "id": "24:1:6",
+      "word": "planet",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set24.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "the planet은 흔히 '지구'를 뜻한다. 첫음절에 강세가 온다.",
+      "new": "the planet은 흔히 '지구'를 뜻한다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 행성, (the ~) 지구",
+        "ex": "Which {{BLANK}} is closest to the sun?",
+        "tr": "어느 행성이 태양에 가장 가까워?"
+      }
+    },
+    {
+      "id": "24:2:8",
+      "word": "attitude",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set24.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "attitude to[toward] ~ 가 짝. '마음가짐'을 뜻한다.",
+      "new": "attitude to[toward] ~. '마음가짐'을 뜻한다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 태도, 자세",
+        "ex": "His {{BLANK}} toward homework is really bad.",
+        "tr": "걔의 숙제에 대한 태도는 정말 나빠."
+      }
+    },
+    {
+      "id": "24:2:9",
+      "word": "seriously",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set24.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "serious+-ly. take ~ seriously(진지하게 받아들이다)가 대표 짝.",
+      "new": "serious+-ly. take ~ seriously(진지하게 받아들이다).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 심각하게, 진지하게",
+        "ex": "You should take this test more {{BLANK}}.",
+        "tr": "너 이 시험을 좀 더 진지하게 받아들여야 해."
+      }
+    },
+    {
+      "id": "24:3:4",
+      "word": "link",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set24.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "link A to[with] B가 짝. 두 가지를 이어 준다는 뜻.",
+      "new": "link A to[with] B. 두 가지를 이어 준다는 뜻.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 연결하다, 관련짓다",
+        "ex": "Some studies {{BLANK}} sleep to better grades.",
+        "tr": "어떤 연구들은 잠을 더 좋은 성적과 연결 지어."
+      }
+    },
+    {
+      "id": "24:3:9",
+      "word": "poll",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set24.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "여론 조사. 동사로 '조사하다'도 된다. [폴]로 발음한다.",
+      "new": "동사로 '조사하다'도 된다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 여론 조사",
+        "ex": "A class {{BLANK}} showed most students want pizza.",
+        "tr": "반 여론 조사에서 대부분 학생이 피자를 원한다고 나왔어."
+      }
+    },
+    {
+      "id": "24:4:5",
+      "word": "mental",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set24.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "mental health(정신 건강)가 대표 짝. 반대는 physical.",
+      "new": "mental health(정신 건강). 반대는 physical.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 정신의, 마음의",
+        "ex": "Sleep is important for your {{BLANK}} health.",
+        "tr": "잠은 네 정신 건강에 중요해."
+      }
+    },
+    {
+      "id": "24:6:4",
+      "word": "native",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set24.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "native language[speaker]가 대표 짝. '타고난'이란 뜻도 있다.",
+      "new": "native language[speaker]. '타고난'이란 뜻도 있다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 태어난 곳의, 모국의",
+        "ex": "My {{BLANK}} language is not English.",
+        "tr": "내 모국어는 영어가 아니야."
+      }
+    },
+    {
+      "id": "24:6:7",
+      "word": "growing",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set24.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "grow+-ing. a growing number of ~(점점 늘어나는)가 대표 짝.",
+      "new": "grow+-ing. a growing number of ~(점점 늘어나는).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 늘어나는, 커지는",
+        "ex": "There is a {{BLANK}} number of cats here.",
+        "tr": "여기 고양이 수가 점점 늘고 있어."
+      }
+    },
+    {
+      "id": "24:7:1",
+      "word": "via",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set24.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "라틴어에서 온 전치사로 [바이어]. 수단이나 경유지를 나타낸다.",
+      "new": "라틴어에서 온 전치사. 수단이나 경유지를 나타낸다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① ~를 통해, ~를 거쳐",
+        "ex": "We flew to Paris {{BLANK}} London.",
+        "tr": "우리 런던 경유해서 파리로 날아갔어."
+      }
+    },
+    {
+      "id": "24:7:6",
+      "word": "solve",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set24.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "solve a problem(문제를 풀다)이 대표 짝. 명사는 solution.",
+      "new": "solve a problem(문제를 풀다). 명사는 solution.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 풀다, 해결하다",
+        "ex": "I cannot {{BLANK}} the last science problem.",
+        "tr": "나 마지막 과학 문제를 못 풀겠어."
+      }
+    },
+    {
+      "id": "24:7:9",
+      "word": "democracy",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set24.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "그리스어 demos(민중)+kratia(지배). 강세는 -moc-에 있다.",
+      "new": "그리스어 demos(민중)+kratia(지배).",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 민주주의",
+        "ex": "In a {{BLANK}}, people choose their leaders.",
+        "tr": "민주주의에서는 사람들이 지도자를 뽑아."
+      }
+    },
+    {
+      "id": "24:9:10",
+      "word": "circumstance",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set24.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "보통 복수. under the circumstances(그런 상황에서)가 대표 짝.",
+      "new": "보통 복수. under the circumstances(그런 상황에서).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 상황, 사정",
+        "ex": "Under the {{BLANK}}s, she did really well.",
+        "tr": "그런 사정을 생각하면 걔는 정말 잘한 거야."
+      }
+    },
+    {
+      "id": "24:10:3",
+      "word": "rely",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set24.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "rely on[upon]이 짝. 전치사 없이 목적어를 쓰지 못한다.",
+      "new": "rely on[upon]. 전치사 없이 목적어를 쓰지 못한다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 의지하다, 믿다",
+        "ex": "You can {{BLANK}} on me for the group project.",
+        "tr": "그 모둠 과제는 나한테 의지해도 돼."
+      }
+    },
+    {
+      "id": "25:1:3",
+      "word": "investor",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set25.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "invest(투자하다)+-or. 사람 명사다. invest in ~에 투자하다.",
+      "new": "invest(투자하다)+-or. invest in ~에 투자하다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 투자자",
+        "ex": "The company needs one more big {{BLANK}} this year.",
+        "tr": "그 회사는 올해 큰 투자자가 한 명 더 필요해."
+      }
+    },
+    {
+      "id": "25:1:10",
+      "word": "catholic",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set25.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "대문자로 씀. 명사로 '가톨릭 신자'도 된다. [캐설릭].",
+      "new": "대문자로 씀. 명사로 '가톨릭 신자'도 된다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 가톨릭의, 천주교의",
+        "ex": "My friend goes to a {{BLANK}} church downtown.",
+        "tr": "내 친구는 시내에 있는 가톨릭 교회에 다녀."
+      }
+    },
+    {
+      "id": "25:2:7",
+      "word": "accuse",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set25.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "accuse A of B가 짝. of 뒤에 잘못이 온다. blame A for B와 구별.",
+      "new": "accuse A of B. of 뒤에 잘못이 온다. blame A for B와 구별.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 비난하다, 고발하다",
+        "ex": "They {{BLANK}}d me of copying his homework.",
+        "tr": "걔네가 내가 걔 숙제를 베꼈다고 몰아붙였어."
+      }
+    },
+    {
+      "id": "25:2:14",
+      "word": "speaker",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set25.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "소리를 밖으로 내보내는 장치. 이어폰과 달리 여럿이 함께 듣는다.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "② 스피커, 확성기",
+        "ex": "Turn the {{BLANK}}s down or Dad will shout.",
+        "tr": "스피커 소리 줄여, 안 그러면 아빠가 소리치실 거야."
+      }
+    },
+    {
+      "id": "25:3:4",
+      "word": "expose",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set25.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "expose A to B가 짝. be exposed to(~에 노출되다)로 많이 쓴다.",
+      "new": "expose A to B. be exposed to(~에 노출되다)로 많이 쓴다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 드러내다, 노출시키다",
+        "ex": "Don't {{BLANK}} your skin to strong sun.",
+        "tr": "강한 햇빛에 피부를 노출시키지 마."
+      }
+    },
+    {
+      "id": "25:5:3",
+      "word": "revolution",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set25.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "the French Revolution처럼 대문자로도 쓴다. 세상을 한 바퀴 뒤집는 그림.",
+      "new": "the French Revolution처럼 대문자로도 쓴다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 혁명",
+        "ex": "The phone started a {{BLANK}} in how we talk.",
+        "tr": "휴대폰은 우리가 대화하는 방식에 혁명을 일으켰어."
+      }
+    },
+    {
+      "id": "25:8:6",
+      "word": "column",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set25.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "건물을 받치는 기둥. 돌뿐 아니라 다른 재료로 만들 수도 있다.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "② 기둥",
+        "ex": "Tall stone {{BLANK}}s hold up the old building.",
+        "tr": "높은 돌기둥들이 그 오래된 건물을 받치고 있어."
+      }
+    },
+    {
+      "id": "25:8:12",
+      "word": "deficit",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set25.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "돈이 모자란 상태. 반대말은 surplus(흑자). [데퍼싯].",
+      "new": "반대말은 surplus(흑자).",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 적자, 부족액",
+        "ex": "The club has a big {{BLANK}} this month.",
+        "tr": "동아리가 이번 달에 적자가 커."
+      }
+    },
+    {
+      "id": "25:9:1",
+      "word": "capable",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set25.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "be capable of -ing가 짝. of 뒤에 동사원형을 쓰면 틀린다.",
+      "new": "be capable of -ing. of 뒤에 동사원형을 쓰면 틀린다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① ~할 수 있는, 유능한",
+        "ex": "She is {{BLANK}} of running ten miles.",
+        "tr": "걔는 10마일을 뛸 수 있어."
+      }
+    },
+    {
+      "id": "25:10:12",
+      "word": "commander",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set25.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "command(명령하다)+-er. 명령을 내리는 사람이다.",
+      "new": "command(명령하다)+-er.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 지휘관, 사령관",
+        "ex": "The army {{BLANK}} spoke to the whole town.",
+        "tr": "군 지휘관이 마을 전체에 연설했어."
+      }
+    },
+    {
+      "id": "26:1:0",
+      "word": "championship",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set26.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "champion(챔피언)+-ship. win the championship이 대표 연어다.",
+      "new": "champion(챔피언)+-ship. win the championship.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 선수권 대회, 우승",
+        "ex": "Our school won the {{BLANK}} again this year.",
+        "tr": "우리 학교가 올해도 그 선수권 대회에서 우승했어."
+      }
+    },
+    {
+      "id": "26:1:8",
+      "word": "recovery",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set26.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "make a full recovery가 대표 연어.",
+      "new": "make a full recovery.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 회복",
+        "ex": "The doctor said her {{BLANK}} would take months.",
+        "tr": "의사가 그 애의 회복은 몇 달 걸릴 거라고 했어."
+      }
+    },
+    {
+      "id": "26:3:4",
+      "word": "mode",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set26.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "격식 있는 말. a mode of ~처럼 of와 짝으로 쓴다.",
+      "new": "격식 있는 말. a mode of ~.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 방식, 방법",
+        "ex": "Walking is my usual {{BLANK}} of travel here.",
+        "tr": "걷는 게 여기서 내가 다니는 보통 방식이야."
+      }
+    },
+    {
+      "id": "26:3:8",
+      "word": "scenario",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set26.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "the worst-case scenario가 대표 연어. 영화 대본 뜻도 있다.",
+      "new": "the worst-case scenario. 영화 대본 뜻도 있다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 상황, 시나리오",
+        "ex": "The worst {{BLANK}} is that it rains tomorrow.",
+        "tr": "최악의 시나리오는 내일 비가 오는 거야."
+      }
+    },
+    {
+      "id": "26:4:0",
+      "word": "spanish",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set26.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "대문자로 씀. Spain+-ish이며 span(기간)과는 무관하다.",
+      "new": "대문자로 씀. Spain+-ish.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 스페인의, 스페인어의",
+        "ex": "We visited a {{BLANK}} city last year.",
+        "tr": "우리는 작년에 스페인의 한 도시를 방문했어."
+      }
+    },
+    {
+      "id": "26:5:3",
+      "word": "license",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set26.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "(영)licence. a driver's license가 대표 연어다.",
+      "new": "(영)licence. a driver's license.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 면허(증), 허가증",
+        "ex": "My sister got her driver's {{BLANK}} last month.",
+        "tr": "우리 누나는 지난달에 운전면허를 땄어."
+      }
+    },
+    {
+      "id": "26:5:7",
+      "word": "investigator",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set26.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "investigate(조사하다)+-or. -er가 아니라 -or로 끝난다.",
+      "new": "investigate(조사하다)+-or.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 수사관, 조사관",
+        "ex": "The {{BLANK}}s looked for the cause of the fire.",
+        "tr": "수사관들이 화재의 원인을 찾았어."
+      }
+    },
+    {
+      "id": "26:5:11",
+      "word": "communicate",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set26.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "communicate with + 사람이 짝. 목적어 없이도 쓴다.",
+      "new": "communicate with + 사람. 목적어 없이도 쓴다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 의사소통하다, 전하다",
+        "ex": "We {{BLANK}} with our cousins by video call.",
+        "tr": "우리는 사촌들과 영상 통화로 의사소통해."
+      }
+    },
+    {
+      "id": "26:6:11",
+      "word": "mood",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set26.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "in a good/bad mood처럼 in을 짝으로 쓴다.",
+      "new": "in a good/bad mood.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 기분",
+        "ex": "Mom is in a good {{BLANK}} this morning.",
+        "tr": "엄마는 오늘 아침 기분이 좋으셔."
+      }
+    },
+    {
+      "id": "26:7:11",
+      "word": "fishing",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set26.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "fish+-ing. go fishing처럼 go+-ing 놀이 표현으로 익힌다.",
+      "new": "fish+-ing. go fishing.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 낚시",
+        "ex": "We went {{BLANK}} with my uncle last Sunday.",
+        "tr": "우리는 지난 일요일에 삼촌이랑 낚시하러 갔어."
+      }
+    },
+    {
+      "id": "26:9:6",
+      "word": "delivery",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set26.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "아기를 낳는 과정. 배달 의미와 구별한다.",
+      "new": "배달뿐 아니라 출산도 뜻한다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "② 분만, 출산",
+        "ex": "She had a safe {{BLANK}} at the hospital.",
+        "tr": "그녀는 병원에서 안전하게 출산했어."
+      }
+    },
+    {
+      "id": "26:9:8",
+      "word": "junior",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set26.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "junior to + 사람이 짝. than을 쓰지 않는 데 주의한다.",
+      "new": "junior to + 사람. than을 쓰지 않는다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 손아래의, 하급의",
+        "ex": "She started as a {{BLANK}} editor at the paper.",
+        "tr": "그 애는 그 신문사에서 하급 편집자로 시작했어."
+      }
+    },
+    {
+      "id": "26:10:7",
+      "word": "symbol",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set26.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "a symbol of ~가 대표 연어다.",
+      "new": "a symbol of ~.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 상징",
+        "ex": "A red rose is a {{BLANK}} of love.",
+        "tr": "빨간 장미는 사랑의 상징이야."
+      }
+    },
+    {
+      "id": "27:1:9",
+      "word": "missile",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set27.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "[미슬]에 가깝게 읽는다. 쏘는 것은 launch a missile.",
+      "new": "launch a missile은 미사일을 쏘다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 미사일",
+        "ex": "The news showed a {{BLANK}} test on TV.",
+        "tr": "뉴스에서 TV로 미사일 시험을 보여 줬어."
+      }
+    },
+    {
+      "id": "27:2:3",
+      "word": "elite",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set27.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "[일리트]로 읽는다. 명사·형용사 둘 다. elite school(명문교).",
+      "new": "명사·형용사 둘 다. elite school(명문교).",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 엘리트층, 정예",
+        "ex": "Only the {{BLANK}} can join that tennis club.",
+        "tr": "그 테니스 클럽엔 최상류층만 들어갈 수 있어."
+      }
+    },
+    {
+      "id": "27:7:7",
+      "word": "refugee",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set27.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "refuge(피난처)+-ee. 강세가 맨 뒤에 오는 점에 주의.",
+      "new": "refuge(피난처)+-ee.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 난민, 피난민",
+        "ex": "Her family came here as {{BLANK}}s.",
+        "tr": "걔네 가족은 난민으로 여기에 왔어."
+      }
+    },
+    {
+      "id": "28:1:14",
+      "word": "naked",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set28.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "the naked eye(육안)가 대표 짝. '도구 없이 맨-'의 뜻.",
+      "new": "the naked eye(육안). '도구 없이 맨-'의 뜻.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 맨-, 그대로 드러난",
+        "ex": "You can see the star with the {{BLANK}} eye.",
+        "tr": "그 별은 맨눈으로도 볼 수 있어."
+      }
+    },
+    {
+      "id": "28:2:2",
+      "word": "measurement",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set28.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "잰 '결과'를 뜻할 땐 보통 복수형. take measurements 짝.",
+      "new": "잰 '결과'를 뜻할 땐 보통 복수형. take measurements.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 치수, 크기",
+        "ex": "Take my {{BLANK}}s before you make the shirt.",
+        "tr": "셔츠 만들기 전에 내 치수를 재."
+      }
+    },
+    {
+      "id": "28:2:9",
+      "word": "acre",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set28.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "약 4,047㎡로 축구장 절반쯤. 발음 [에이커]에 주의.",
+      "new": "약 4,047㎡.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 에이커(넓이 단위)",
+        "ex": "His farm covers about ten {{BLANK}}s of land.",
+        "tr": "걔네 농장은 땅 10에이커쯤 돼."
+      }
+    },
+    {
+      "id": "28:3:2",
+      "word": "bench",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set28.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "여럿이 앉는 긴 의자. sit on a bench처럼 on과 짝짓는다.",
+      "new": "여럿이 앉는 긴 의자. sit on a bench.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 벤치, 긴 의자",
+        "ex": "We sat on a {{BLANK}} near the river.",
+        "tr": "우리는 강 근처 벤치에 앉았어."
+      }
+    },
+    {
+      "id": "28:3:5",
+      "word": "odds",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set28.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "against (all) the odds가 대표 짝. '불리함을 무릅쓰고'.",
+      "new": "against (all) the odds: 불리함을 무릅쓰고.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 역경, 불리한 조건",
+        "ex": "She won against all {{BLANK}}.",
+        "tr": "걔는 온갖 역경을 딛고 이겼어."
+      }
+    },
+    {
+      "id": "28:4:4",
+      "word": "politically",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set28.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "political(정치의)+-ly. politically correct가 대표 짝.",
+      "new": "political(정치의)+-ly. politically correct.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 정치적으로",
+        "ex": "That word is not {{BLANK}} correct.",
+        "tr": "그 말은 정치적으로 올바르지 않아."
+      }
+    },
+    {
+      "id": "28:5:1",
+      "word": "running",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set28.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "run의 굴절꼴. go running(달리러 가다)이 흔한 짝.",
+      "new": "run의 굴절꼴. go running(달리러 가다).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 달리기",
+        "ex": "{{BLANK}} every morning keeps me awake in class.",
+        "tr": "매일 아침 달리기가 수업 시간에 나를 깨어 있게 해."
+      }
+    },
+    {
+      "id": "28:5:3",
+      "word": "divorce",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set28.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "get a divorce가 대표 짝. 동사로는 divorce him처럼 쓴다.",
+      "new": "get a divorce. 동사로는 divorce him처럼 쓴다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 이혼",
+        "ex": "Her parents got a {{BLANK}} last spring.",
+        "tr": "걔네 부모님은 지난봄에 이혼하셨어."
+      }
+    },
+    {
+      "id": "28:5:5",
+      "word": "canadian",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set28.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "항상 대문자로 씀. Canada+-ian이고 강세는 na에 온다.",
+      "new": "항상 대문자로 씀. Canada+-ian.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 캐나다의, 캐나다인의",
+        "ex": "My {{BLANK}} friend moved here two years ago.",
+        "tr": "내 캐나다인 친구는 2년 전에 여기로 이사 왔어."
+      }
+    },
+    {
+      "id": "28:6:0",
+      "word": "economist",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set28.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "economy(경제)+-ist. 강세는 con에 온다: [이카너미스트].",
+      "new": "economy(경제)+-ist.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 경제학자",
+        "ex": "The {{BLANK}} said prices will rise next year.",
+        "tr": "그 경제학자는 내년에 물가가 오를 거라고 말했어."
+      }
+    },
+    {
+      "id": "28:7:5",
+      "word": "physically",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set28.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "physically impossible이 대표 짝. 자연 법칙상 안 된다는 뜻.",
+      "new": "physically impossible: 자연 법칙상 안 된다는 뜻.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 물리적으로, 실제로",
+        "ex": "It's {{BLANK}} impossible to be in both places.",
+        "tr": "두 곳에 동시에 있는 건 물리적으로 불가능해."
+      }
+    },
+    {
+      "id": "28:8:8",
+      "word": "oven",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set28.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "발음 [어븐]으로 o를 [오]로 읽지 않는다. in the oven이 짝.",
+      "new": "발음 [어븐]으로 o를 [오]로 읽지 않는다. in the oven.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 오븐",
+        "ex": "Put the bread in the {{BLANK}} for ten minutes.",
+        "tr": "빵을 오븐에 10분 넣어 둬."
+      }
+    },
+    {
+      "id": "28:9:3",
+      "word": "restriction",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set28.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "restrict(제한하다)+-ion. a restriction on ~처럼 on과 짝.",
+      "new": "restrict(제한하다)+-ion. a restriction on ~.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 제한, 규제",
+        "ex": "There is a {{BLANK}} on phone use at school.",
+        "tr": "학교에서 휴대폰 사용에 제한이 있어."
+      }
+    },
+    {
+      "id": "28:10:8",
+      "word": "pizza",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set28.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "a slice of pizza로 한 조각을 센다. 발음 [피짜]에 주의.",
+      "new": "a slice of pizza로 한 조각을 센다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 피자",
+        "ex": "Let's order {{BLANK}} after the test.",
+        "tr": "시험 끝나고 피자 시키자."
+      }
+    },
+    {
+      "id": "28:10:13",
+      "word": "treaty",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set28.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "나라끼리 맺는 공식 약속. sign a treaty가 대표 짝.",
+      "new": "나라끼리 맺는 공식 약속. sign a treaty.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 조약",
+        "ex": "The two countries signed a peace {{BLANK}}.",
+        "tr": "두 나라는 평화 조약에 서명했어."
+      }
+    },
+    {
+      "id": "29:1:7",
+      "word": "operator",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set29.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "operate(조작하다)+or. 사람 명사를 만드는 -or에 주의.",
+      "new": "operate(조작하다)+or.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① (기계) 기사, 조작하는 사람",
+        "ex": "The machine {{BLANK}} showed us how to start it.",
+        "tr": "그 기계 기사가 우리한테 그거 켜는 법을 보여 줬어."
+      }
+    },
+    {
+      "id": "29:2:0",
+      "word": "vaccine",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set29.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "get[have] a vaccine. 동사는 vaccinate. 강세는 뒤에 [백씬].",
+      "new": "get[have] a vaccine. 동사는 vaccinate.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 백신",
+        "ex": "I got a {{BLANK}} at the health center yesterday.",
+        "tr": "나는 어제 보건소에서 백신을 맞았어."
+      }
+    },
+    {
+      "id": "29:2:7",
+      "word": "nomination",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set29.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "nominate(지명하다)+ion. 원형은 nominate이고 nominee는 '지명된 사람'.",
+      "new": "nominate(지명하다)+ion. nominee는 '지명된 사람'.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 지명, 후보 지명",
+        "ex": "Her movie got three {{BLANK}}s this year.",
+        "tr": "그 영화는 올해 세 개 부문 후보에 올랐어."
+      }
+    },
+    {
+      "id": "29:3:1",
+      "word": "robot",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set29.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "체코어 '노동'에서 온 말. 강세는 앞에 [로밧].",
+      "new": "체코어 '노동'에서 온 말.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 로봇",
+        "ex": "Our school club built a small {{BLANK}}.",
+        "tr": "우리 학교 동아리가 작은 로봇을 만들었어."
+      }
+    },
+    {
+      "id": "29:4:11",
+      "word": "uncomfortable",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set29.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "comfortable(편안한)에 un-을 붙였다. 강세는 -com-에.",
+      "new": "comfortable(편안한)에 un-을 붙였다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 불편한",
+        "ex": "These new shoes are really {{BLANK}}.",
+        "tr": "이 새 신발은 정말 불편해."
+      }
+    },
+    {
+      "id": "29:4:13",
+      "word": "execute",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set29.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "명사는 execution. 강세가 앞이라 [엑시큐트]로 읽는다.",
+      "new": "명사는 execution.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 실행하다, 수행하다",
+        "ex": "The team {{BLANK}}d the plan very well.",
+        "tr": "그 팀은 계획을 아주 잘 실행했어."
+      }
+    },
+    {
+      "id": "29:6:9",
+      "word": "minimum",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set29.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "명사와 같은 꼴·같은 강세. 뒤에 명사가 오면 형용사: minimum wage 최저 임금, minimum age 최소 연령.",
+      "new": "뒤에 명사가 오면 형용사: minimum wage 최저 임금, minimum age 최소 연령.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "② 최소한의, 최저의",
+        "ex": "Is $10 the {{BLANK}} wage around here?",
+        "tr": "여기 최저 임금이 10달러야?"
+      }
+    },
+    {
+      "id": "29:8:9",
+      "word": "poster",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set29.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "post(붙이다)+er. 붙이는 종이라서 poster다.",
+      "new": "post(붙이다)+er.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 포스터, 벽보",
+        "ex": "I put a band {{BLANK}} on my wall.",
+        "tr": "나는 벽에 밴드 포스터를 붙였어."
+      }
+    },
+    {
+      "id": "29:8:12",
+      "word": "lemon",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set29.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "한 조각은 a slice of lemon. 강세는 앞에 [레먼].",
+      "new": "한 조각은 a slice of lemon.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 레몬",
+        "ex": "Put some {{BLANK}} in your tea.",
+        "tr": "차에 레몬을 좀 넣어."
+      }
+    },
+    {
+      "id": "29:9:0",
+      "word": "bankruptcy",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set29.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "bankrupt(파산한)+cy. go into bankruptcy가 대표 짝이다.",
+      "new": "bankrupt(파산한)+cy. go into bankruptcy.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 파산",
+        "ex": "The store closed after its {{BLANK}}.",
+        "tr": "그 가게는 파산 후에 문을 닫았어."
+      }
+    },
+    {
+      "id": "29:9:3",
+      "word": "sacred",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set29.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "sacred to ~에게 신성한. 첫소리를 [세이]로 읽는 데 주의.",
+      "new": "sacred to ~에게 신성한.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 신성한, 성스러운",
+        "ex": "This mountain is {{BLANK}} to many people.",
+        "tr": "이 산은 많은 사람들에게 신성해."
+      }
+    },
+    {
+      "id": "29:9:13",
+      "word": "cabin",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set29.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "나무로 지은 작고 소박한 집. log cabin이 대표 짝이다.",
+      "new": "나무로 지은 작고 소박한 집. log cabin.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 오두막, 통나무집",
+        "ex": "We stayed in a log {{BLANK}} in the woods.",
+        "tr": "우리는 숲속 통나무 오두막에서 지냈어."
+      }
+    },
+    {
+      "id": "30:2:4",
+      "word": "helicopter",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set30.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "helico(나선)+pter(날개). 줄여서 chopper라고도 한다. [헬리캅터]",
+      "new": "helico(나선)+pter(날개). 줄여서 chopper라고도 한다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 헬리콥터",
+        "ex": "A {{BLANK}} landed on the hospital roof.",
+        "tr": "헬리콥터가 병원 옥상에 내렸어."
+      }
+    },
+    {
+      "id": "30:3:10",
+      "word": "basement",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set30.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "base(바닥)+-ment. 건물 맨 아래층. in the basement로 쓴다.",
+      "new": "base(바닥)+-ment. in the basement로 쓴다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 지하실",
+        "ex": "Our band practices in his {{BLANK}} on Fridays.",
+        "tr": "우리 밴드는 금요일마다 걔네 지하실에서 연습해."
+      }
+    },
+    {
+      "id": "30:4:2",
+      "word": "driving",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set30.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "driving force(원동력)가 대표 짝. 뒤에서 밀어붙이는 힘이다.",
+      "new": "driving force(원동력).",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "② 추진하는, 몰아붙이는",
+        "ex": "Money was the {{BLANK}} force behind his plan.",
+        "tr": "돈이 그 계획의 원동력이었어."
+      }
+    },
+    {
+      "id": "30:5:3",
+      "word": "tackle",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set30.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "tackle a problem이 대표 짝. 어려운 일에 맞붙는다는 뜻이다.",
+      "new": "tackle a problem. 어려운 일에 맞붙는다는 뜻이다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① (문제와) 씨름하다, 달려들다",
+        "ex": "Let's {{BLANK}} the hardest math problem first.",
+        "tr": "제일 어려운 수학 문제부터 붙잡고 씨름해 보자."
+      }
+    },
+    {
+      "id": "30:5:8",
+      "word": "kit",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set30.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "tool kit, first aid kit처럼 앞말과 짝을 이룬다. 한 벌의 도구.",
+      "new": "한 벌의 도구. tool kit, first aid kit.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① (도구) 세트, 키트",
+        "ex": "Dad keeps a tool {{BLANK}} under the car seat.",
+        "tr": "아빠는 차 좌석 밑에 공구 키트를 둬."
+      }
+    },
+    {
+      "id": "30:6:9",
+      "word": "rhythm",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set30.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "반복되는 소리·움직임의 일정한 흐름. the rhythm of a song은 노래의 리듬.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "① 리듬, 박자",
+        "ex": "Move your body to the {{BLANK}} of the song.",
+        "tr": "그 노래 리듬에 맞춰 몸을 움직여 봐."
+      }
+    },
+    {
+      "id": "30:8:2",
+      "word": "spill",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set30.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "an oil spill(기름 유출)이 대표 짝. 사고로 쏟아진 것을 뜻한다.",
+      "new": "an oil spill(기름 유출). 사고로 쏟아진 것을 뜻한다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 유출, 쏟아진 것",
+        "ex": "The oil {{BLANK}} killed fish along the coast.",
+        "tr": "그 기름 유출로 해안을 따라 물고기가 죽었어."
+      }
+    },
+    {
+      "id": "30:8:7",
+      "word": "slam",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set30.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "slam the door가 대표 짝. 소리 나게 세게 닫는다는 뜻이다.",
+      "new": "slam the door. 소리 나게 세게 닫는다는 뜻이다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 쾅 닫다, 세게 놓다",
+        "ex": "Don't {{BLANK}} the door when you leave.",
+        "tr": "나갈 때 문 쾅 닫지 마."
+      }
+    },
+    {
+      "id": "30:9:11",
+      "word": "genre",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set30.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "문학·음악·영화 등의 종류나 갈래. a film genre는 영화 장르.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "① 장르, 갈래",
+        "ex": "Horror is my favorite movie {{BLANK}}.",
+        "tr": "공포물이 내가 제일 좋아하는 영화 장르야."
+      }
+    },
+    {
+      "id": "30:10:13",
+      "word": "warming",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set30.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "warm+-ing. global warming(지구 온난화)이 대표 짝이다.",
+      "new": "warm+-ing. global warming(지구 온난화).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 온난화, 따뜻해짐",
+        "ex": "{{BLANK}} is melting ice at the North Pole.",
+        "tr": "온난화가 북극의 얼음을 녹이고 있어."
+      }
+    },
+    {
+      "id": "31:1:12",
+      "word": "spouse",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set31.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "남편·아내를 함께 가리키는 격식어. 발음은 [스파우스].",
+      "new": "남편·아내를 함께 가리키는 격식어.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 배우자",
+        "ex": "Each teacher may bring one {{BLANK}} to the party.",
+        "tr": "선생님마다 배우자 한 명을 파티에 데려와도 돼."
+      }
+    },
+    {
+      "id": "31:2:16",
+      "word": "hint",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set31.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "hint at ~처럼 at과 짝을 이룬다. 대놓고 말하지 않는 것.",
+      "new": "hint at ~. 대놓고 말하지 않는 것.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "② 넌지시 말하다, 암시하다",
+        "ex": "She {{BLANK}}ed at a surprise party for me.",
+        "tr": "걔는 나 깜짝 파티 해 줄 거라고 넌지시 비쳤어."
+      }
+    },
+    {
+      "id": "31:4:5",
+      "word": "apology",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set31.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "owe/make an apology로 쓴다. 짝은 an apology for ~.",
+      "new": "owe/make an apology. an apology for ~.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 사과",
+        "ex": "I owe you an {{BLANK}} for yesterday.",
+        "tr": "어제 일은 내가 너한테 사과할게."
+      }
+    },
+    {
+      "id": "31:7:3",
+      "word": "homeland",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set31.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "태어나 자란 나라.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "① 조국, 고국",
+        "ex": "He missed his {{BLANK}} after ten years abroad.",
+        "tr": "걔는 외국에서 십 년을 지낸 뒤 조국을 그리워했어."
+      }
+    },
+    {
+      "id": "31:7:4",
+      "word": "technological",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set31.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "technology(기술)+ical. 짝은 technological change.",
+      "new": "technology(기술)+ical. technological change.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 기술의, 과학 기술의",
+        "ex": "{{BLANK}} change makes some old jobs go away.",
+        "tr": "기술 변화는 오래된 일자리를 없어지게 해."
+      }
+    },
+    {
+      "id": "31:9:5",
+      "word": "immune",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set31.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "짝은 be immune to ~. immune system은 면역 체계.",
+      "new": "be immune to ~. immune system은 면역 체계.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 면역이 있는",
+        "ex": "Some people are naturally {{BLANK}} to this disease.",
+        "tr": "어떤 사람들은 이 병에 선천적으로 면역이 있어."
+      }
+    },
+    {
+      "id": "31:9:9",
+      "word": "quest",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set31.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "가치 있는 목표를 찾아 나서는 긴 탐구. a quest for는 ~을 향한 탐구·추구. 게임의 퀘스트도 같은 말이다.",
+      "new": "가치 있는 목표를 찾아 나서는 긴 탐구. a quest for는 ~을 향한 탐구·추구.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 탐구, 추구",
+        "ex": "Her {{BLANK}} for the perfect pizza never ends.",
+        "tr": "완벽한 피자를 향한 걔의 탐구는 끝이 없어."
+      }
+    },
+    {
+      "id": "32:1:3",
+      "word": "courtesy",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set32.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "out of courtesy(예의상)가 흔한 짝. 형용사는 courteous.",
+      "new": "out of courtesy(예의상). 형용사는 courteous.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 예의, 공손함",
+        "ex": "He held the door open out of {{BLANK}}.",
+        "tr": "걔는 예의상 문을 잡아 줬어."
+      }
+    },
+    {
+      "id": "32:3:6",
+      "word": "iranian",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set32.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "항상 대문자로 씀. Iran+ian. [이레이니언]으로 읽는다.",
+      "new": "항상 대문자로 씀. Iran+ian.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 이란의, 이란인의",
+        "ex": "My {{BLANK}} friend taught me a few words.",
+        "tr": "이란 사람인 내 친구가 나에게 몇 마디를 가르쳐 줬어."
+      }
+    },
+    {
+      "id": "32:4:6",
+      "word": "whale",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set32.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "고래는 물고기가 아니라 젖먹이 동물. wh는 [w]로 읽는다.",
+      "new": "wh는 [w]로 읽는다.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 고래",
+        "ex": "We saw a huge {{BLANK}} jump out of the sea.",
+        "tr": "우리는 커다란 고래가 바다에서 뛰어오르는 걸 봤어."
+      }
+    },
+    {
+      "id": "32:4:7",
+      "word": "credibility",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set32.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "credible(믿을 만한)+ity. lose/gain credibility가 흔한 짝.",
+      "new": "credible(믿을 만한)+ity. lose/gain credibility.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 신뢰성, 신빙성",
+        "ex": "That excuse cost him all his {{BLANK}} with us.",
+        "tr": "그 변명 때문에 걔는 우리한테 신뢰성을 다 잃었어."
+      }
+    },
+    {
+      "id": "32:6:12",
+      "word": "theology",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set32.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "theo(신)+logy(학문). 신을 연구하는 학문이다.",
+      "new": "theo(신)+logy(학문).",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 신학",
+        "ex": "My cousin studies {{BLANK}} at a church college.",
+        "tr": "내 사촌은 기독교계 대학에서 신학을 공부해."
+      }
+    },
+    {
+      "id": "32:9:5",
+      "word": "patrol",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set32.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "on patrol(순찰 중). 강세는 뒤에 있어 [퍼트롤].",
+      "new": "on patrol(순찰 중).",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 순찰하다",
+        "ex": "Police cars {{BLANK}} the streets at night.",
+        "tr": "경찰차가 밤에 거리를 순찰해."
+      }
+    },
+    {
+      "id": "32:10:8",
+      "word": "syndrome",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set32.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "함께 나타나는 여러 증상이나 특징의 묶음. [신드롬].",
+      "new": "함께 나타나는 여러 증상이나 특징의 묶음.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 증후군",
+        "ex": "The doctor explained the strange {{BLANK}} to us.",
+        "tr": "의사가 우리에게 그 이상한 증후군을 설명해 줬어."
+      }
+    },
+    {
+      "id": "33:2:4",
+      "word": "likelihood",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set33.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "likely(있음 직한)+-hood. the likelihood of ~ 로 of와 짝.",
+      "new": "likely(있음 직한)+-hood. the likelihood of ~.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 가능성, 개연성",
+        "ex": "There's little {{BLANK}} of snow this week.",
+        "tr": "이번 주에 눈이 올 가능성은 거의 없어."
+      }
+    },
+    {
+      "id": "33:3:0",
+      "word": "believer",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set33.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "believe(믿다)+-er. a believer in ~ 처럼 in과 짝을 이룬다.",
+      "new": "believe(믿다)+-er. a believer in ~.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 믿는 사람, 신자",
+        "ex": "I'm a big {{BLANK}} in getting enough sleep.",
+        "tr": "나는 잠을 충분히 자야 한다고 굳게 믿는 사람이야."
+      }
+    },
+    {
+      "id": "33:5:11",
+      "word": "harassment",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set33.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "harass(괴롭히다)+-ment. 발음은 [허래스먼트]가 흔하다.",
+      "new": "harass(괴롭히다)+-ment.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 희롱, (집요한) 괴롭힘",
+        "ex": "The school has clear rules about {{BLANK}}.",
+        "tr": "학교에는 희롱·괴롭힘에 관한 분명한 규칙이 있어."
+      }
+    },
+    {
+      "id": "33:8:12",
+      "word": "juror",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set33.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "배심원단 jury의 구성원 한 사람. 양쪽의 증거와 주장을 듣고 사건의 사실을 판단하는 데 참여한다.",
+      "new": "배심원단 jury의 구성원 한 사람.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 배심원",
+        "ex": "Each {{BLANK}} listened to both sides carefully.",
+        "tr": "배심원마다 양쪽 말을 주의 깊게 들었어."
+      }
+    },
+    {
+      "id": "33:10:13",
+      "word": "shortage",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set33.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "short(부족한)+-age. a shortage of ~ 로 of와 짝을 이룬다.",
+      "new": "short(부족한)+-age. a shortage of ~.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 부족, 모자람",
+        "ex": "Our town had a water {{BLANK}} last summer.",
+        "tr": "우리 동네는 지난여름에 물 부족 사태를 겪었어."
+      }
+    },
+    {
+      "id": "34:1:13",
+      "word": "sodium",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set34.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "원소 기호는 Na. 식염인 염화나트륨(NaCl)을 이루는 원소 중 하나이며 영양 표시에 나트륨 함량이 나온다.",
+      "new": "원소 기호는 Na. 식염인 염화나트륨(NaCl)을 이루는 원소 중 하나.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 나트륨",
+        "ex": "Fast food is full of {{BLANK}} and fat.",
+        "tr": "패스트푸드에는 나트륨이랑 지방이 잔뜩 들어 있어."
+      }
+    },
+    {
+      "id": "34:4:7",
+      "word": "halloween",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set34.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "대문자로 씀. 10월 31일 밤이고 trick or treat이 대표 표현이다.",
+      "new": "대문자로 씀. 10월 31일 밤. trick or treat.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 핼러윈",
+        "ex": "We wore costumes to the {{BLANK}} party.",
+        "tr": "우리는 핼러윈 파티에 분장하고 갔어."
+      }
+    },
+    {
+      "id": "34:4:11",
+      "word": "technically",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set34.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "기술이나 기법의 면에서라는 뜻. technically difficult가 흔한 짝.",
+      "new": "기술이나 기법의 면에서라는 뜻. technically difficult.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 기술적으로",
+        "ex": "This song is {{BLANK}} hard to sing well.",
+        "tr": "이 노래는 기술적으로 잘 부르기 어려워."
+      }
+    },
+    {
+      "id": "34:5:2",
+      "word": "midst",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set34.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "거의 늘 in the midst of 꼴로 쓴다. middle의 문어체 사촌이다.",
+      "new": "거의 늘 in the midst of 꼴로 쓴다. middle의 문어체.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 한가운데",
+        "ex": "She called me in the {{BLANK}} of dinner.",
+        "tr": "걔가 저녁 먹는 도중에 나한테 전화했어."
+      }
+    },
+    {
+      "id": "35:1:1",
+      "word": "ray",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set35.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "a ray of sunlight처럼 of와 짝을 이룬다. X-rays는 엑스선이다.",
+      "new": "a ray of sunlight. X-rays는 엑스선이다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 광선, 빛줄기",
+        "ex": "A {{BLANK}} of sunlight came through the window.",
+        "tr": "햇빛 한 줄기가 창문으로 들어왔어."
+      }
+    },
+    {
+      "id": "35:1:2",
+      "word": "ray",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set35.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "a ray of hope(한 줄기 희망)가 대표 연어다. 비유로만 쓴다.",
+      "new": "a ray of hope(한 줄기 희망). 비유로만 쓴다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 한 줄기(희망)",
+        "ex": "Her smile was a {{BLANK}} of hope for us.",
+        "tr": "걔의 미소는 우리에게 한 줄기 희망이었어."
+      }
+    },
+    {
+      "id": "35:1:4",
+      "word": "depressed",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set35.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "경제나 지역이 가라앉은 상태. a depressed economy가 흔한 짝이다.",
+      "new": "경제나 지역이 가라앉은 상태. a depressed economy.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② (경기가) 침체된",
+        "ex": "Shops are closing in this {{BLANK}} town.",
+        "tr": "이 침체된 동네에서는 가게들이 문을 닫고 있어."
+      }
+    },
+    {
+      "id": "35:2:7",
+      "word": "streak",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set35.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "a winning[losing] streak(연승·연패). on a streak가 짝이다.",
+      "new": "a winning[losing] streak(연승·연패). on a streak.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 연속 기록",
+        "ex": "Our team is on a five-game winning {{BLANK}}.",
+        "tr": "우리 팀은 5연승 중이야."
+      }
+    },
+    {
+      "id": "35:3:3",
+      "word": "warrant",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set35.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "법원이 내주는 서류. a search[arrest] warrant가 대표 연어다.",
+      "new": "법원이 내주는 서류. a search[arrest] warrant.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 영장",
+        "ex": "The police showed a search {{BLANK}} at the door.",
+        "tr": "경찰이 문 앞에서 수색 영장을 보여 줬어."
+      }
+    },
+    {
+      "id": "35:3:5",
+      "word": "tattoo",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set35.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "get a tattoo(문신을 하다)로 쓴다. 강세는 뒤쪽 -too에 있다.",
+      "new": "get a tattoo(문신을 하다)로 쓴다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 문신",
+        "ex": "My cousin got a small {{BLANK}} on her arm.",
+        "tr": "내 사촌은 팔에 작은 문신을 하나 했어."
+      }
+    },
+    {
+      "id": "35:4:10",
+      "word": "merchant",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set35.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "물건을 사고파는 사람. 요즘은 판매업자라는 뜻으로도 쓴다.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "① 상인",
+        "ex": "The {{BLANK}} sold silk from a small boat.",
+        "tr": "그 상인은 작은 배에서 비단을 팔았어."
+      }
+    },
+    {
+      "id": "35:5:3",
+      "word": "stunning",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set35.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "예상 밖의 일에도 쓴다. a stunning victory[defeat]가 흔한 짝이다.",
+      "new": "예상 밖의 일에도 쓴다. a stunning victory[defeat].",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 놀라운, 충격적인",
+        "ex": "That was a {{BLANK}} win for our school.",
+        "tr": "그건 우리 학교에겐 놀라운 승리였어."
+      }
+    },
+    {
+      "id": "35:5:12",
+      "word": "make-up",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set35.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "미국식은 makeup으로 붙여 쓴다. wear[put on] make-up이 짝이다.",
+      "new": "미국식은 makeup으로 붙여 쓴다. wear[put on] make-up.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 화장, 화장품",
+        "ex": "My sister puts on {{BLANK}} before school.",
+        "tr": "우리 언니는 학교 가기 전에 화장을 해."
+      }
+    },
+    {
+      "id": "35:6:8",
+      "word": "well-known",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set35.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "well+known. be well-known for(~로 유명하다)가 대표 연어다.",
+      "new": "well+known. be well-known for(~로 유명하다).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 잘 알려진",
+        "ex": "This street is {{BLANK}} for its cheap food.",
+        "tr": "이 거리는 싼 음식으로 잘 알려져 있어."
+      }
+    },
+    {
+      "id": "35:9:2",
+      "word": "connected",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set35.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "be connected to[with]가 짝이다. 사람 사이의 인연에도 쓴다.",
+      "new": "be connected to[with]. 사람 사이의 인연에도 쓴다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 연결된, 관련된",
+        "ex": "My phone isn't {{BLANK}} to the internet.",
+        "tr": "내 폰이 인터넷에 연결이 안 돼 있어."
+      }
+    },
+    {
+      "id": "35:9:3",
+      "word": "accepted",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set35.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "a widely accepted fact[idea]가 대표 연어다. 명사 앞에 쓴다.",
+      "new": "a widely accepted fact[idea]. 명사 앞에 쓴다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 널리 인정되는, 받아들여지는",
+        "ex": "It's an {{BLANK}} fact that plants need light.",
+        "tr": "식물한테 빛이 필요하다는 건 널리 인정되는 사실이야."
+      }
+    },
+    {
+      "id": "36:3:2",
+      "word": "impressed",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set36.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "impress(감동시키다)+-ed. 짝은 by 또는 with를 쓴다.",
+      "new": "impress(감동시키다)+-ed. 뒤에는 by/with.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 감명받은, 감탄한",
+        "ex": "I was {{BLANK}} by how fast she learned.",
+        "tr": "나는 걔가 얼마나 빨리 배우는지 보고 감탄했어."
+      }
+    },
+    {
+      "id": "36:4:3",
+      "word": "bass",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set36.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "물고기 뜻일 땐 [배스]로 읽는다. 철자가 같아 헷갈리기 쉽다.",
+      "new": "물고기 뜻일 땐 [배스]로 읽는다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 배스, 농어류의 물고기",
+        "ex": "Dad caught a big {{BLANK}} at the lake.",
+        "tr": "아빠가 호수에서 큰 배스를 잡으셨어."
+      }
+    },
+    {
+      "id": "36:6:11",
+      "word": "excess",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set36.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "「an excess of+명사」로 '~의 과다'. 짝은 of를 쓴다.",
+      "new": "「an excess of+명사」로 '~의 과다'.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 과다, 지나침",
+        "ex": "An {{BLANK}} of sugar is bad for you.",
+        "tr": "설탕이 지나치면 몸에 안 좋아."
+      }
+    },
+    {
+      "id": "36:6:12",
+      "word": "excess",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set36.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "명사 앞에서 '기준을 넘는'. excess baggage가 대표 짝이다.",
+      "new": "명사 앞에서 '기준을 넘는'. excess baggage.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 초과한, 여분의",
+        "ex": "We paid for our {{BLANK}} bags at the airport.",
+        "tr": "우리는 공항에서 초과 수하물 값을 냈어."
+      }
+    },
+    {
+      "id": "36:8:5",
+      "word": "balanced",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set36.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "balance(균형)+-ed. balanced diet가 대표 짝이다.",
+      "new": "balance(균형)+-ed. balanced diet.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 균형 잡힌",
+        "ex": "A {{BLANK}} meal keeps you healthy.",
+        "tr": "균형 잡힌 식사가 너를 건강하게 해 줘."
+      }
+    },
+    {
+      "id": "36:8:6",
+      "word": "parliamentary",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set36.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "parliament(의회)+-ary. 영국 정치 기사에 자주 나온다.",
+      "new": "parliament(의회)+-ary.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 의회의",
+        "ex": "The {{BLANK}} vote is next Tuesday.",
+        "tr": "의회 투표는 다음 주 화요일이야."
+      }
+    },
+    {
+      "id": "36:8:8",
+      "word": "contrary",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set36.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "「contrary to+명사」로 '~와 반대로'. 짝 전치사는 to.",
+      "new": "「contrary to+명사」로 '~와 반대로'.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 반대되는, 반대의",
+        "ex": "His plan is {{BLANK}} to what we agreed.",
+        "tr": "걔 계획은 우리가 합의한 것과 상반돼."
+      }
+    },
+    {
+      "id": "36:9:1",
+      "word": "preliminary",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set36.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "본 경기·본 조사 앞에 오는 것. 대표 짝은 round와 test.",
+      "new": "본 경기·본 조사 앞에 오는 것. round·test와 쓴다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 예비의, 예선의",
+        "ex": "We passed the {{BLANK}} round last week.",
+        "tr": "우리는 지난주에 예선을 통과했어."
+      }
+    },
+    {
+      "id": "36:10:0",
+      "word": "vertical",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set36.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "위아래 방향. 가로는 horizontal이니 짝으로 외운다.",
+      "new": "위아래 방향. 가로는 horizontal.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 수직의, 세로의",
+        "ex": "Draw a {{BLANK}} line down the middle.",
+        "tr": "가운데로 세로선을 하나 그어."
+      }
+    },
+    {
+      "id": "36:10:4",
+      "word": "applicable",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set36.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "apply(적용하다)+-able. 짝은 to를 쓴다.",
+      "new": "apply(적용하다)+-able. 뒤에는 to.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 해당되는, 적용되는",
+        "ex": "This rule is not {{BLANK}} to first-year students.",
+        "tr": "이 규칙은 1학년 학생들에게는 해당되지 않아."
+      }
+    },
+    {
+      "id": "37:1:2",
+      "word": "adjacent",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set37.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "adjacent to ~와 인접한. 전치사 to와 짝을 이룬다.",
+      "new": "adjacent to ~와 인접한.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 인접한, 바로 옆의",
+        "ex": "We booked two {{BLANK}} rooms at the hotel.",
+        "tr": "우리는 호텔에서 서로 인접한 방 두 개를 잡았어."
+      }
+    },
+    {
+      "id": "37:2:3",
+      "word": "harmony",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set37.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "in harmony with ~와 조화를 이루어. 전치사 with와 짝을 이룬다.",
+      "new": "in harmony with ~와 조화를 이루어.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 조화, 화합",
+        "ex": "The two colors are in perfect {{BLANK}}.",
+        "tr": "그 두 색깔은 완벽하게 조화를 이뤄."
+      }
+    },
+    {
+      "id": "37:2:6",
+      "word": "molecular",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set37.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "molecule(분자)의 형용사. 명사와 철자가 다르니 주의.",
+      "new": "molecule(분자)의 형용사.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 분자의",
+        "ex": "Water has a simple {{BLANK}} structure.",
+        "tr": "물은 분자 구조가 단순해."
+      }
+    },
+    {
+      "id": "37:3:11",
+      "word": "smash",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set37.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "break보다 훨씬 세다. 산산조각 나는 그림을 떠올려라.",
+      "new": "break보다 훨씬 세다. 산산조각 나다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 박살내다, 부수다",
+        "ex": "He {{BLANK}}ed the window with a ball.",
+        "tr": "걔가 공으로 창문을 박살냈어."
+      }
+    },
+    {
+      "id": "37:4:12",
+      "word": "warehouse",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set37.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "ware(상품)+house(집). 물건을 크게 쌓아 두는 곳이다.",
+      "new": "ware(상품)+house(집).",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 창고",
+        "ex": "The store keeps extra shoes in a {{BLANK}}.",
+        "tr": "그 가게는 여분의 신발을 창고에 보관해."
+      }
+    },
+    {
+      "id": "37:6:11",
+      "word": "martial",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set37.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "[마셜]. martial arts 무술, martial law 계엄령으로 외운다.",
+      "new": "martial arts 무술, martial law 계엄령.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 무술의, 군사의",
+        "ex": "My brother learns {{BLANK}} arts after school.",
+        "tr": "우리 형은 방과 후에 무술을 배워."
+      }
+    },
+    {
+      "id": "37:9:2",
+      "word": "badge",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set37.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "[배지]. 옷에 다는 표식. 경찰 신분증도 badge라 한다.",
+      "new": "경찰 신분증도 badge라 한다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 배지, 명찰",
+        "ex": "Every worker wears a name {{BLANK}} here.",
+        "tr": "여기서는 모든 직원이 명찰을 달아."
+      }
+    },
+    {
+      "id": "37:9:7",
+      "word": "gauge",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set37.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "[게이지]. gas gauge(연료 계기). 미국 영어에서 gage로 쓰기도 한다.",
+      "new": "gas gauge(연료 계기). 미국 영어에서 gage로 쓰기도 한다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 계기, 측정기",
+        "ex": "The car's gas {{BLANK}} is broken.",
+        "tr": "차 연료 계기판이 고장 났어."
+      }
+    },
+    {
+      "id": "37:10:5",
+      "word": "orchestra",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set37.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "[오케스트라]. 원래 그리스 극장의 무대 앞 공간을 뜻했다.",
+      "new": "원래 그리스 극장의 무대 앞 공간을 뜻했다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 관현악단, 오케스트라",
+        "ex": "Our school {{BLANK}} plays every spring.",
+        "tr": "우리 학교 오케스트라는 매년 봄에 공연해."
+      }
+    },
+    {
+      "id": "38:2:0",
+      "word": "insult",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set38.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "동사는 뒤 음절, 명사는 앞 음절에 강세가 온다. 뜻은 같다.",
+      "new": "동사는 뒤 음절, 명사는 앞 음절에 강세가 온다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 모욕하다",
+        "ex": "Don't {{BLANK}} my cooking in front of Mom.",
+        "tr": "엄마 앞에서 내 요리를 모욕하지 마."
+      }
+    },
+    {
+      "id": "38:6:5",
+      "word": "polar",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set38.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "polar opposites가 통째로 쓰이는 짝이다. 성격 대비에 자주.",
+      "new": "polar opposites. 성격 대비에 쓴다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 정반대의",
+        "ex": "My sister and I are {{BLANK}} opposites.",
+        "tr": "언니랑 나는 정반대야."
+      }
+    },
+    {
+      "id": "38:6:7",
+      "word": "superb",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set38.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "good보다 훨씬 센 칭찬. 강세는 뒤에 있어 [수퍼브].",
+      "new": "good보다 훨씬 센 칭찬.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 최고의, 훌륭한",
+        "ex": "Our team played a {{BLANK}} game last night.",
+        "tr": "우리 팀은 어젯밤에 최상급의 경기를 했어."
+      }
+    },
+    {
+      "id": "38:6:9",
+      "word": "absurd",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set38.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "말이 안 될 만큼 우스울 때 쓴다. 강세는 뒤 [업서드].",
+      "new": "말이 안 될 만큼 우스울 때 쓴다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 터무니없는, 어이없는",
+        "ex": "That excuse sounds totally {{BLANK}} to me.",
+        "tr": "그 변명 나한테는 완전 터무니없게 들려."
+      }
+    },
+    {
+      "id": "38:8:3",
+      "word": "robust",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set38.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "사람·물건·체계에 두루 쓴다. 강세는 뒤 [로버스트].",
+      "new": "사람·물건·체계에 두루 쓴다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 튼튼한, 탄탄한",
+        "ex": "My old bike is still pretty {{BLANK}}.",
+        "tr": "내 낡은 자전거는 아직 꽤 탄탄하고 견고해."
+      }
+    },
+    {
+      "id": "39:1:1",
+      "word": "velocity",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set39.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "speed의 과학 용어. 방향까지 따지는 속도라 물리 지문에 나온다.",
+      "new": "speed의 과학 용어. 방향까지 따지는 속도.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 속도",
+        "ex": "The ball's {{BLANK}} was too high to catch.",
+        "tr": "그 공의 속도가 너무 빨라서 잡을 수 없었어."
+      }
+    },
+    {
+      "id": "39:2:2",
+      "word": "massacre",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set39.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "많은 사람을 한꺼번에 죽임. [매서커]로 읽고 동사로도 쓴다.",
+      "new": "동사로도 쓴다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 대학살",
+        "ex": "The book describes a terrible {{BLANK}} in that village.",
+        "tr": "그 책은 그 마을에서 있었던 끔찍한 대학살을 다뤄."
+      }
+    },
+    {
+      "id": "39:3:3",
+      "word": "discretion",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set39.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "at your discretion(네 재량대로)이 핵심 짝. 판단할 권한을 뜻한다.",
+      "new": "at your discretion(네 재량대로). 판단할 권한을 뜻한다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 재량, 판단에 맡김",
+        "ex": "The final grade is at the teacher's {{BLANK}}.",
+        "tr": "최종 성적은 선생님 재량이야."
+      }
+    },
+    {
+      "id": "39:5:6",
+      "word": "sadness",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set39.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "sad(슬픈)+-ness. 형용사를 명사로 만드는 -ness다. 셀 수 없다.",
+      "new": "sad(슬픈)+-ness. 셀 수 없다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 슬픔",
+        "ex": "I heard the {{BLANK}} in her voice.",
+        "tr": "걔 목소리에 슬픔이 묻어났어."
+      }
+    },
+    {
+      "id": "39:7:8",
+      "word": "scroll",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set39.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "scroll down/up이 짝. 두루마리를 펴듯 화면을 미는 것이다.",
+      "new": "scroll down/up. 두루마리를 펴듯 화면을 미는 것이다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 스크롤하다, 화면을 밀다",
+        "ex": "I {{BLANK}} down my feed before bed.",
+        "tr": "난 자기 전에 피드를 아래로 쭉 내려 봐."
+      }
+    },
+    {
+      "id": "39:7:11",
+      "word": "symbolic",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set39.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "symbol(상징)+-ic. be symbolic of ~(~을 상징하다)로 외운다.",
+      "new": "symbol(상징)+-ic. be symbolic of ~(~을 상징하다).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 상징적인",
+        "ex": "The white bird is {{BLANK}} of peace.",
+        "tr": "흰 새는 평화를 상징해."
+      }
+    },
+    {
+      "id": "39:8:3",
+      "word": "allowance",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set39.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "make allowances for ~(~을 참작하다)가 핵심 짝이다.",
+      "new": "make allowances for ~(~을 참작하다).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 참작, 고려",
+        "ex": "Make {{BLANK}}s for how young he is.",
+        "tr": "걔가 얼마나 어린지를 좀 감안해 줘."
+      }
+    },
+    {
+      "id": "39:9:2",
+      "word": "exile",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set39.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "in exile(망명 중인)이 핵심 짝. 동사로 '추방하다'도 된다.",
+      "new": "in exile(망명 중인). 동사로 '추방하다'도 된다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 망명, 추방",
+        "ex": "The writer lived in {{BLANK}} for twenty years.",
+        "tr": "그 작가는 20년 동안 망명 생활을 했어."
+      }
+    },
+    {
+      "id": "39:9:7",
+      "word": "urine",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set39.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "의학·과학의 격식체다. [유린]으로 읽고 셀 수 없이 쓴다.",
+      "new": "의학·과학의 격식체다. 셀 수 없이 쓴다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 소변",
+        "ex": "The doctor asked for a {{BLANK}} test.",
+        "tr": "의사가 소변 검사를 하자고 했어."
+      }
+    },
+    {
+      "id": "39:10:2",
+      "word": "cone",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set39.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "밑면이 둥글고 끝이 뾰족한 도형. 수학 지문에 자주 나온다.",
+      "new": "밑면이 둥글고 끝이 뾰족한 도형.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 원뿔",
+        "ex": "Draw a {{BLANK}} next to the circle.",
+        "tr": "원 옆에 원뿔을 하나 그려."
+      }
+    },
+    {
+      "id": "40:1:12",
+      "word": "broadly",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set40.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "smile broadly = 입을 크게 벌려 활짝 웃다. smile과 짝지어 쓴다.",
+      "new": "smile broadly = 입을 크게 벌려 활짝 웃다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "② 활짝(웃다)",
+        "ex": "Grandpa smiled {{BLANK}} when I called him.",
+        "tr": "할아버지는 내가 전화드렸을 때 활짝 웃으셨어."
+      }
+    },
+    {
+      "id": "40:1:13",
+      "word": "calcium",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set40.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "물질 이름이라 셀 수 없다. 발음은 [캘시엄]에 가깝다.",
+      "new": "물질 이름이라 셀 수 없다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 칼슘",
+        "ex": "Milk gives you {{BLANK}} for strong bones.",
+        "tr": "우유는 뼈를 튼튼하게 하는 칼슘을 줘."
+      }
+    },
+    {
+      "id": "40:3:3",
+      "word": "surge",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set40.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "a surge in A(A의 급증). 전치사 in과 짝지어 쓴다.",
+      "new": "a surge in A(A의 급증).",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 급증, 급등",
+        "ex": "There was a {{BLANK}} in ticket sales today.",
+        "tr": "오늘 표 판매가 급증했어."
+      }
+    },
+    {
+      "id": "40:4:7",
+      "word": "sausage",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set40.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "고기를 갈아 넣어 만든 것. 발음은 [사시지]에 가깝다.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "① 소시지",
+        "ex": "I put two {{BLANK}}s in my lunch box.",
+        "tr": "나 도시락에 소시지 두 개 넣었어."
+      }
+    },
+    {
+      "id": "40:5:14",
+      "word": "faction",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set40.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "한 집단 안에서 갈라진 무리. 정치 기사에 자주 나온다.",
+      "new": "한 집단 안에서 갈라진 무리.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 파벌, 분파",
+        "ex": "Our class split into two {{BLANK}}s over the trip.",
+        "tr": "우리 반은 여행 문제로 두 파벌로 갈렸어."
+      }
+    },
+    {
+      "id": "40:7:3",
+      "word": "lick",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set40.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "혀로 핥다. 아이스크림을 먹을 때도 lick을 쓴다.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "① 핥다",
+        "ex": "My dog likes to {{BLANK}} my hand.",
+        "tr": "우리 개는 내 손 핥는 걸 좋아해."
+      }
+    },
+    {
+      "id": "40:9:7",
+      "word": "nitrogen",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set40.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "공기의 약 78%를 차지하는 기체다. 물질명이라 셀 수 없다.",
+      "new": "물질명이라 셀 수 없다.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 질소",
+        "ex": "Most of the air around us is {{BLANK}}.",
+        "tr": "우리 주변 공기는 대부분 질소야."
+      }
+    },
+    {
+      "id": "41:1:2",
+      "word": "frightened",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set41.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "frighten(겁주다)의 형용사. 짝은 be frightened of[about] ~.",
+      "new": "frighten(겁주다)의 형용사. be frightened of[about] ~.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 겁먹은, 무서워하는",
+        "ex": "The {{BLANK}} cat hid under the bed all day.",
+        "tr": "겁먹은 고양이가 하루 종일 침대 밑에 숨어 있었어."
+      }
+    },
+    {
+      "id": "41:1:3",
+      "word": "expenditure",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set41.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "격식체. 짝은 expenditure on ~. 동사는 expend(쓰다)다.",
+      "new": "격식체. expenditure on ~. 동사는 expend(쓰다)다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 지출, 경비",
+        "ex": "Our club cut its {{BLANK}} on snacks.",
+        "tr": "우리 동아리는 간식 지출을 줄였어."
+      }
+    },
+    {
+      "id": "41:1:4",
+      "word": "allocation",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set41.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "짝은 allocation of ~.",
+      "new": "allocation of ~.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 할당(량), 배분",
+        "ex": "Each team got an equal {{BLANK}} of time.",
+        "tr": "각 팀은 똑같은 시간 할당량을 받았어."
+      }
+    },
+    {
+      "id": "41:1:11",
+      "word": "scrutiny",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set41.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "under scrutiny(조사받는 중), close scrutiny가 흔한 짝이다.",
+      "new": "under scrutiny(조사받는 중), close scrutiny.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 면밀한 조사, 정밀 검토",
+        "ex": "Our school rules are under close {{BLANK}}.",
+        "tr": "우리 학교 규칙이 면밀한 검토를 받고 있어."
+      }
+    },
+    {
+      "id": "41:3:3",
+      "word": "confrontation",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set41.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "confront(맞서다)+-ation. 짝은 confrontation with[between].",
+      "new": "confront(맞서다)+-ation. confrontation with[between].",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 대립, 대치",
+        "ex": "I want to avoid a {{BLANK}} with my dad.",
+        "tr": "아빠랑 정면으로 대립하는 건 피하고 싶어."
+      }
+    },
+    {
+      "id": "41:3:7",
+      "word": "philosopher",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set41.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "philosophy(철학)의 사람 명사. 강세는 둘째 음절 [필라서퍼].",
+      "new": "philosophy(철학)의 사람 명사.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 철학자",
+        "ex": "That Greek {{BLANK}} asked what a good life is.",
+        "tr": "그 그리스 철학자는 좋은 삶이 뭔지 물었어."
+      }
+    },
+    {
+      "id": "41:4:8",
+      "word": "proudly",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set41.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "proud(자랑스러운)+-ly. 형용사 짝은 be proud of ~.",
+      "new": "proud(자랑스러운)+-ly. be proud of ~.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 자랑스럽게",
+        "ex": "She {{BLANK}} showed us her new bike.",
+        "tr": "걔는 새 자전거를 자랑스럽게 우리한테 보여 줬어."
+      }
+    },
+    {
+      "id": "41:5:17",
+      "word": "tract",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set41.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "몸속 통로. digestive[respiratory] tract처럼 앞말과 짝짓는다.",
+      "new": "몸속 통로. digestive[respiratory] tract.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② (몸속의) 관, 계통",
+        "ex": "Air goes down the respiratory {{BLANK}} to your lungs.",
+        "tr": "공기가 호흡 계통의 관을 타고 폐로 내려가."
+      }
+    },
+    {
+      "id": "41:7:4",
+      "word": "broadband",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set41.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "빠른 인터넷 연결.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "① 초고속 인터넷",
+        "ex": "Our {{BLANK}} is slow when everyone is home.",
+        "tr": "다들 집에 있으면 우리 집 광대역 인터넷이 느려져."
+      }
+    },
+    {
+      "id": "41:8:0",
+      "word": "takeover",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set41.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "take over(인수하다)를 붙여 만든 명사. 강세는 앞에 있다.",
+      "new": "take over(인수하다)를 붙여 만든 명사.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① (기업) 인수",
+        "ex": "A bigger company tried a hostile {{BLANK}} last year.",
+        "tr": "더 큰 회사가 작년에 적대적 인수를 시도했어."
+      }
+    },
+    {
+      "id": "41:8:2",
+      "word": "smoothly",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set41.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "go[run] smoothly(순조롭게 진행되다)가 가장 흔한 짝이다.",
+      "new": "go[run] smoothly(순조롭게 진행되다).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 순조롭게",
+        "ex": "The show went {{BLANK}} from start to end.",
+        "tr": "그 공연은 처음부터 끝까지 순조롭게 흘러갔어."
+      }
+    },
+    {
+      "id": "42:3:7",
+      "word": "fuss",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set42.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "make a fuss about/over ~: ~로 소란을 피우다. 대표 연어다.",
+      "new": "make a fuss about/over ~: ~로 소란을 피우다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 야단법석, 호들갑",
+        "ex": "Don't make a {{BLANK}} over one bad grade.",
+        "tr": "성적 하나 나쁘다고 호들갑 떨지 마."
+      }
+    },
+    {
+      "id": "42:6:1",
+      "word": "congratulate",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set42.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "congratulate 사람 on 일. 사람이 목적어라는 점을 꼭 기억해라.",
+      "new": "congratulate 사람 on 일.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 축하하다",
+        "ex": "I want to {{BLANK}} you on your new job.",
+        "tr": "네 새 일자리 축하한다고 말하고 싶어."
+      }
+    },
+    {
+      "id": "42:6:5",
+      "word": "wicket",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set42.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "크리켓에서 공으로 맞히는 세 기둥. 영국 글에 자주 나온다.",
+      "new": "크리켓에서 공으로 맞히는 세 기둥.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① (크리켓) 위킷, 삼주문",
+        "ex": "He knocked down the {{BLANK}} with one ball.",
+        "tr": "걔는 공 하나로 위킷을 쓰러뜨렸어."
+      }
+    },
+    {
+      "id": "42:6:7",
+      "word": "cushion",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set42.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "cushion the blow/fall: 충격을 덜어 주다. 대표 연어다.",
+      "new": "cushion the blow/fall: 충격을 덜어 주다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② 충격을 줄이다, 덜어 주다",
+        "ex": "The thick grass {{BLANK}}ed my fall.",
+        "tr": "두꺼운 풀이 쿠션처럼 넘어질 때 충격을 덜어 줬어."
+      }
+    },
+    {
+      "id": "42:7:2",
+      "word": "potassium",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set42.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "원소 기호 K. 셀 수 없는 명사다. 신경과 근육에 꼭 필요하다.",
+      "new": "원소 기호 K. 셀 수 없는 명사다.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 칼륨, 포타슘",
+        "ex": "Bananas are full of {{BLANK}}, my mom says.",
+        "tr": "엄마 말로는 바나나에 칼륨이 많대."
+      }
+    },
+    {
+      "id": "42:7:5",
+      "word": "brightness",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set42.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "bright(밝은)+-ness. 형용사를 명사로 바꾸는 흔한 꼬리다.",
+      "new": "bright(밝은)+-ness.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 밝기",
+        "ex": "Turn down the {{BLANK}} on your phone at night.",
+        "tr": "밤에는 폰 밝기를 낮춰."
+      }
+    },
+    {
+      "id": "42:7:6",
+      "word": "mummy",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set42.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "건조나 방부 처리 등으로 보존된 시신. 이집트 미라는 천으로 감싼 모습이 유명하다. 복수는 mummies.",
+      "new": "건조나 방부 처리 등으로 보존된 시신. 복수는 mummies.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 미라",
+        "ex": "We saw a real {{BLANK}} at the museum.",
+        "tr": "우리는 박물관에서 진짜 미라를 봤어."
+      }
+    },
+    {
+      "id": "42:7:10",
+      "word": "windy",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set42.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "wind(바람)+-y. 날씨는 It를 주어로 쓴다. [윈디]로 읽는다.",
+      "new": "wind(바람)+-y. 날씨는 It를 주어로 쓴다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 바람이 센",
+        "ex": "It was too {{BLANK}} to ride our bikes.",
+        "tr": "자전거 타기엔 바람이 너무 셌어."
+      }
+    },
+    {
+      "id": "43:1:5",
+      "word": "quota",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set43.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "meet[fill] a quota(할당량을 채우다)가 짝. [쿼우터]로 읽는다.",
+      "new": "meet[fill] a quota(할당량을 채우다).",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 할당량, 몫",
+        "ex": "I finished my daily {{BLANK}} of math problems.",
+        "tr": "나는 오늘 할당된 수학 문제를 다 끝냈어."
+      }
+    },
+    {
+      "id": "43:1:6",
+      "word": "residue",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set43.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "leave a residue(찌꺼기를 남기다). 과학·요리 글에 자주 나온다.",
+      "new": "leave a residue(찌꺼기를 남기다).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 잔여물, 찌꺼기",
+        "ex": "There was soap {{BLANK}} left in the cup.",
+        "tr": "컵에 비누 찌꺼기가 남아 있었어."
+      }
+    },
+    {
+      "id": "43:1:7",
+      "word": "watershed",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set43.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "a watershed moment(중대한 전환점)가 짝. 물길이 양쪽으로 갈리는 산등성이에서 온 비유다.",
+      "new": "a watershed moment(중대한 전환점). 물길이 양쪽으로 갈리는 산등성이에서 온 비유다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 분수령, 전환점",
+        "ex": "That win was a {{BLANK}} for our team.",
+        "tr": "그 승리는 우리 팀에 분수령이었어."
+      }
+    },
+    {
+      "id": "43:2:2",
+      "word": "hepatitis",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set43.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "hepat-(간)+-itis(염증). [헤퍼타이티스] 강세는 ti에.",
+      "new": "hepat-(간)+-itis(염증).",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 간염",
+        "ex": "He got a shot to guard against {{BLANK}}.",
+        "tr": "걔는 간염을 막으려고 주사를 맞았어."
+      }
+    },
+    {
+      "id": "43:3:0",
+      "word": "boast",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set43.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "boast about[of]와 짝. 부정적 느낌이라 show off와 비슷.",
+      "new": "boast about[of]. 부정적 느낌이라 show off와 비슷.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 자랑하다, 뽐내다",
+        "ex": "He likes to {{BLANK}} about his game skills.",
+        "tr": "걔는 자기 게임 실력을 자랑하기 좋아해."
+      }
+    },
+    {
+      "id": "43:3:7",
+      "word": "nuisance",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set43.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "[누선스]. What a nuisance!(참 성가시네!) 사람에게도 쓴다.",
+      "new": "What a nuisance!(참 성가시네!) 사람에게도 쓴다.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 성가신 것, 골칫거리",
+        "ex": "My younger brother is such a {{BLANK}} at night.",
+        "tr": "내 남동생은 밤에 정말 성가신 녀석이야."
+      }
+    },
+    {
+      "id": "43:4:4",
+      "word": "swimmer",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set43.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "swim+m+er. m을 겹쳐 쓴다. 철자에 주의한다.",
+      "new": "swim+m+er. m을 겹쳐 쓴다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 수영하는 사람, 수영 선수",
+        "ex": "She is the fastest {{BLANK}} on our team.",
+        "tr": "걔가 우리 팀에서 제일 빠른 수영 선수야."
+      }
+    },
+    {
+      "id": "43:6:0",
+      "word": "motorway",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set43.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "(영) 영국말. 미국에서는 freeway·expressway를 쓴다.",
+      "new": "영국말. 미국에서는 freeway·expressway를 쓴다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① (영) 고속도로",
+        "ex": "We drove north on the {{BLANK}} all morning.",
+        "tr": "우리는 아침 내내 고속도로로 북쪽으로 달렸어."
+      }
+    },
+    {
+      "id": "43:7:2",
+      "word": "biscuit",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set43.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "(영) 영국의 biscuit은 미국의 cookie를 가리킨다.",
+      "new": "영국의 biscuit은 미국의 cookie를 가리킨다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① (영) 비스킷, 과자",
+        "ex": "She ate two chocolate {{BLANK}}s with her tea.",
+        "tr": "걔는 차와 함께 초콜릿 비스킷을 두 개 먹었어."
+      }
+    },
+    {
+      "id": "43:7:3",
+      "word": "biscuit",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set43.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "(미) 미국의 biscuit은 단맛 없는 부드러운 빵이다.",
+      "new": "미국의 biscuit은 단맛 없는 부드러운 빵이다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "② (미) 비스킷(부드러운 빵)",
+        "ex": "We had warm {{BLANK}}s and soup for lunch.",
+        "tr": "우리는 점심으로 따뜻한 비스킷과 수프를 먹었어."
+      }
+    },
+    {
+      "id": "43:8:0",
+      "word": "daft",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set43.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "(영) informal. 영국 구어. 미국에서는 silly·dumb를 쓴다.",
+      "new": "영국 구어. 미국에서는 silly·dumb를 쓴다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① (영) 어리석은, 멍청한",
+        "ex": "Don't be {{BLANK}}; just ask the teacher.",
+        "tr": "바보같이 굴지 말고 그냥 선생님께 여쭤봐."
+      }
+    },
+    {
+      "id": "43:9:7",
+      "word": "embarrass",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set43.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "r 둘, s 둘. 철자 주의. '내가 창피하다'는 be embarrassed.",
+      "new": "r 둘, s 둘. '내가 창피하다'는 be embarrassed.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 창피하게 하다, 당황하게 하다",
+        "ex": "Don't {{BLANK}} me in front of my friends.",
+        "tr": "친구들 앞에서 나 창피하게 하지 마."
+      }
+    },
+    {
+      "id": "43:10:3",
+      "word": "seeker",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set43.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "seek(찾다)+-er. job seeker(구직자)처럼 앞말과 짝을 이룬다.",
+      "new": "seek(찾다)+-er. job seeker(구직자).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 찾는 사람, 추구자",
+        "ex": "The room was full of young job {{BLANK}}s.",
+        "tr": "그 방은 젊은 구직자들로 가득했어."
+      }
+    },
+    {
+      "id": "44:1:1",
+      "word": "soar",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set44.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "새·비행기가 높이 떠오르다. watch+목적어+원형 구조에 주의.",
+      "new": "새·비행기가 높이 떠오르다.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "② 날아오르다, 솟구치다",
+        "ex": "We watched an eagle {{BLANK}} over the hill.",
+        "tr": "우리는 독수리가 언덕 위로 높이 날아오르는 걸 봤어."
+      }
+    },
+    {
+      "id": "44:1:8",
+      "word": "designate",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set44.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "designate A as B(A를 B로 지정하다) 짝을 함께 외운다.",
+      "new": "designate A as B(A를 B로 지정하다).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 지정하다",
+        "ex": "They {{BLANK}}d this room as a study area.",
+        "tr": "걔네는 이 방을 공부 구역으로 지정했어."
+      }
+    },
+    {
+      "id": "44:3:0",
+      "word": "grammatical",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set44.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "grammar의 형용사인데 t가 들어간다. 철자에 주의한다.",
+      "new": "grammar의 형용사인데 t가 들어간다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 문법의",
+        "ex": "Our teacher wrote three {{BLANK}} rules on the board.",
+        "tr": "선생님이 칠판에 문법 규칙 세 개를 쓰셨어."
+      }
+    },
+    {
+      "id": "44:3:8",
+      "word": "lunchtime",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set44.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "lunch+time. 전치사는 at을 써서 at lunchtime으로 쓴다.",
+      "new": "lunch+time. at lunchtime으로 쓴다.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 점심시간",
+        "ex": "School {{BLANK}} is only forty minutes long.",
+        "tr": "학교 점심시간은 40분밖에 안 돼."
+      }
+    },
+    {
+      "id": "44:6:7",
+      "word": "converge",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set44.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "con(함께)+verge(향하다). converge on(~로 모여들다) 짝이다.",
+      "new": "con(함께)+verge(향하다). converge on(~로 모여들다).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① 모여들다, 한데 모이다",
+        "ex": "Fans {{BLANK}}d on the stage after the show.",
+        "tr": "공연이 끝나고 팬들이 무대로 모여들었어."
+      }
+    },
+    {
+      "id": "44:8:0",
+      "word": "amaze",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set44.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "be amazed at/by(~에 놀라다) 짝. 감탄에 가까운 놀람이다.",
+      "new": "be amazed at/by(~에 놀라다). 감탄에 가까운 놀람이다.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① (감탄할 만큼) 깜짝 놀라게 하다",
+        "ex": "Her singing will {{BLANK}} the whole school.",
+        "tr": "그 애 노래는 학교 전체를 감탄하게 만들 거야."
+      }
+    },
+    {
+      "id": "44:8:1",
+      "word": "deprive",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set44.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "deprive A of B(A에게서 B를 빼앗다). of를 꼭 기억한다.",
+      "new": "deprive A of B(A에게서 B를 빼앗다).",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "① 박탈하다, 빼앗다",
+        "ex": "Games {{BLANK}} me of sleep every night.",
+        "tr": "게임이 매일 밤 내 잠을 박탈해."
+      }
+    },
+    {
+      "id": "45:4:7",
+      "word": "secrete",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set45.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "몸에서 액체를 내보내다. 명사는 secretion. 강세가 뒤에 있다.",
+      "new": "명사는 secretion.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "① 분비하다",
+        "ex": "Your skin {{BLANK}}s oil when it's hot.",
+        "tr": "더울 때는 피부가 기름을 분비해."
+      }
+    },
+    {
+      "id": "45:4:12",
+      "word": "photocopy",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set45.json",
+      "category": "pronunciation",
+      "action": "shorten",
+      "old": "명사와 같은 꼴. copy와 뜻이 같지만 '복사기로 뜬다'는 게 분명한 말. 강세는 pho-.",
+      "new": "명사와 같은 꼴. copy와 뜻이 같지만 '복사기로 뜬다'는 게 분명한 말.",
+      "reason": "발음기호·음성으로 제공되는 단순 읽기·강세 설명을 덜어냄. 품사별 발음 대조·철자 함정은 별도로 유지.",
+      "context": {
+        "ko": "② (복사기로) 복사하다",
+        "ex": "I'll {{BLANK}} the map at the library.",
+        "tr": "지도는 내가 도서관 복사기로 복사해 올게."
+      }
+    },
+    {
+      "id": "45:5:4",
+      "word": "confound",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/out/set45.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "confound expectations(예상을 뒤엎다)가 대표 연어다.",
+      "new": "confound expectations(예상을 뒤엎다).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "② (예상을) 뒤엎다",
+        "ex": "The team {{BLANK}}ed all predictions and won the game.",
+        "tr": "그 팀은 모든 예측을 뒤엎고 경기를 이겼어."
+      }
+    },
+    {
+      "id": "45:7:6",
+      "word": "sixtieth",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/out/set45.json",
+      "category": "side_note",
+      "action": "shorten",
+      "old": "sixty의 서수. 예순 번째 생일을 우리말로는 환갑이라고 한다.",
+      "new": "sixty의 서수.",
+      "reason": "배경 상식·생활 장면 등 현재 단어의 뜻이나 쓰임을 익히는 데 기여가 낮은 부분을 덜어냄.",
+      "context": {
+        "ko": "① 예순 번째의, 60번째의",
+        "ex": "We celebrated my grandpa's {{BLANK}} birthday together.",
+        "tr": "우리는 할아버지의 예순 번째 생신을 함께 축하했어."
+      }
+    },
+    {
+      "id": "46:8:10",
+      "word": "unless",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/reading-core.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "if~not(~하지 않으면)으로 기억하자. 보통 부정을 중복하지 않고, 미래 조건도 현재형.",
+      "new": "if~not(~하지 않으면). 보통 부정을 중복하지 않고, 미래 조건도 현재형.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "① ~하지 않으면, ~가 아닌 한",
+        "ex": "We'll be late {{BLANK}} we leave right now.",
+        "tr": "지금 당장 안 나가면 우리 늦을 거야."
+      },
+      "mirroredFrom": "23:7:5"
+    },
+    {
+      "id": "47:1:5",
+      "word": "inactive",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/morphology.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "in-(아닌)+active(활동하는). active와 inactive를 한 쌍으로 기억해.",
+      "new": "in-(아닌)+active(활동하는).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "활동하지 않는, 비활성의",
+        "ex": "The account is {{BLANK}} now.",
+        "tr": "그 계정은 지금 비활성 상태야."
+      }
+    },
+    {
+      "id": "47:3:7",
+      "word": "postwar",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/morphology.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "post-(이후)+war(전쟁). 문맥에서 어떤 전쟁 이후인지 확인해.",
+      "new": "post-(이후)+war(전쟁).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "전후의, 전쟁 이후의",
+        "ex": "The book examines {{BLANK}} society.",
+        "tr": "그 책은 전쟁 이후의 사회를 살펴봐."
+      }
+    },
+    {
+      "id": "47:6:5",
+      "word": "adaptation",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/morphology.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "adapt(적응하다)→adaptation(적응). 행동을 명사로 바꾸어 문장의 주제·대상으로 삼아.",
+      "new": "adapt(적응하다)→adaptation(적응).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "적응, 적응 과정",
+        "ex": "The change requires {{BLANK}}.",
+        "tr": "그 변화에는 적응이 필요해."
+      }
+    },
+    {
+      "id": "47:6:6",
+      "word": "expansion",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/morphology.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "expand(확장하다)→expansion(확장). 철자와 발음이 함께 바뀌어.",
+      "new": "expand(확장하다)→expansion(확장).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "확장, 팽창",
+        "ex": "The city plans further {{BLANK}}.",
+        "tr": "그 도시는 추가 확장을 계획해."
+      }
+    },
+    {
+      "id": "47:6:7",
+      "word": "observation",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/morphology.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "observe(관찰하다)→observation(관찰). 명사가 된 행동이 문장의 주어로 쓰였어.",
+      "new": "observe(관찰하다)→observation(관찰).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "관찰",
+        "ex": "Careful {{BLANK}} can show small differences.",
+        "tr": "주의 깊은 관찰은 작은 차이들을 보여줄 수 있어."
+      }
+    },
+    {
+      "id": "47:7:6",
+      "word": "capitalism",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/morphology.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "capital(자본)+-ism(체계). 단어의 구체적 경제적 뜻은 접미사만으로 결정되지 않아.",
+      "new": "capital(자본)+-ism(체계).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "자본주의",
+        "ex": "The article discusses modern {{BLANK}}.",
+        "tr": "그 글은 현대 자본주의를 논해."
+      }
+    },
+    {
+      "id": "47:8:4",
+      "word": "accessible",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/morphology.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "access(접근)+-ible로 연결해 기억해. accessible to로 이용 가능한 대상을 이어.",
+      "new": "access(접근)+-ible. accessible to로 이용 가능한 대상을 이어.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "접근하거나 이용할 수 있는",
+        "ex": "The information is {{BLANK}} to everyone.",
+        "tr": "그 정보는 누구나 이용할 수 있어."
+      }
+    },
+    {
+      "id": "47:9:1",
+      "word": "protective",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/morphology.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "protect(보호하다)+-ive. 옷이 보호하는 기능을 한다는 뜻이야.",
+      "new": "protect(보호하다)+-ive.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "보호하는, 보호용의",
+        "ex": "Workers must wear {{BLANK}} clothing.",
+        "tr": "작업자들은 보호복을 입어야 해."
+      }
+    },
+    {
+      "id": "47:10:2",
+      "word": "simplify",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/morphology.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "simple(단순한)→simplify(단순하게 하다). 철자가 바뀌는 어형을 함께 익혀.",
+      "new": "simple(단순한)→simplify(단순하게 하다).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "단순하게 하다, 간소화하다",
+        "ex": "The diagram can {{BLANK}} the explanation.",
+        "tr": "그 도표는 설명을 더 간단하게 만들 수 있어."
+      }
+    },
+    {
+      "id": "48:1:1",
+      "word": "reduce",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/morphology.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "reducere는 본래 도로 이끌다. 현대의 ‘줄이다’는 별도로 익혀.",
+      "new": "reducere는 본래 도로 이끌다. 현대 뜻은 ‘줄이다’.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "줄이다, 감소시키다",
+        "ex": "We must {{BLANK}} the time we spend online.",
+        "tr": "우리는 온라인에서 보내는 시간을 줄여야 해."
+      }
+    },
+    {
+      "id": "48:2:3",
+      "word": "permit",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/morphology.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "permit 뒤에는 명사나 -ing가 올 수 있어. permit someone to do도 익혀.",
+      "new": "permit+명사/-ing. permit someone to do도 가능해.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "허락하다, 허용하다",
+        "ex": "We do not {{BLANK}} smoking in this room.",
+        "tr": "우리는 이 방에서 흡연을 허용하지 않아."
+      }
+    },
+    {
+      "id": "48:6:1",
+      "word": "extract",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/morphology.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "ex-는 밖으로, tract-는 끌다 계열. extract A from B로 익혀.",
+      "new": "ex-는 밖으로, tract-는 끌다 계열. extract A from B.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "추출하다, 뽑아내다",
+        "ex": "We can {{BLANK}} oil from these seeds.",
+        "tr": "우리는 이 씨앗들에서 기름을 추출할 수 있어."
+      }
+    },
+    {
+      "id": "48:7:0",
+      "word": "proceed",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/morphology.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "proceed는 앞으로 나아가 진행하다. proceed with a plan도 함께 익혀.",
+      "new": "proceed는 앞으로 나아가 진행하다. proceed with a plan.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "진행하다, 계속하다",
+        "ex": "We cannot {{BLANK}} until everyone is ready.",
+        "tr": "모두 준비되기 전에는 진행할 수 없어."
+      }
+    },
+    {
+      "id": "48:10:2",
+      "word": "telephone",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/morphology.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "tele-(멀리)와 phon-(소리). 전화라는 완성 단어로 익혀.",
+      "new": "tele-(멀리)와 phon-(소리).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "전화기, 전화",
+        "ex": "The {{BLANK}} lets us speak across long distances.",
+        "tr": "전화는 우리가 먼 거리를 두고 말할 수 있게 해."
+      }
+    },
+    {
+      "id": "48:14:2",
+      "word": "democracy",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/morphology.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "demo-(민중)와 -cracy(통치). 제도의 뜻을 어근 두 개만으로 축소하지 않아.",
+      "new": "demo-(민중)와 -cracy(통치).",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "민주주의, 민주 정치",
+        "ex": "Free elections are an important part of {{BLANK}}.",
+        "tr": "자유로운 선거는 민주주의의 중요한 부분이야."
+      }
+    },
+    {
+      "id": "48:15:1",
+      "word": "bleed",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/morphology.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "blood와 연결해 기억해. 과거·과거분사는 bled이고 /bled/로 읽어.",
+      "new": "blood와 연결돼. 과거·과거분사는 bled이고 /bled/로 읽어.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "피를 흘리다, 출혈하다",
+        "ex": "A deep cut can {{BLANK}} heavily.",
+        "tr": "깊은 상처에서는 피가 많이 날 수 있어."
+      }
+    },
+    {
+      "id": "49:7:3",
+      "word": "as opposed to",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/connections.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "A as opposed to B는 B와 대비되는 A. 여기서는 guesses 대신 evidence가 필요해.",
+      "new": "A as opposed to B는 B와 대비되는 A.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "~와 달리, ~가 아니라",
+        "ex": "We need evidence {{BLANK}} guesses.",
+        "tr": "우리는 추측이 아니라 증거가 필요해."
+      }
+    },
+    {
+      "id": "49:9:1",
+      "word": "except for",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/connections.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "except for는 전체 진술에서 예외를 덜어내. 여기서는 의자 하나만 남아 있었어.",
+      "new": "except for는 전체 진술에서 예외를 덜어내.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "~을 제외하면",
+        "ex": "The room was empty {{BLANK}} one chair.",
+        "tr": "의자 하나를 제외하면 그 방은 비어 있었어."
+      }
+    },
+    {
+      "id": "49:9:2",
+      "word": "apart from",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/connections.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "apart from이 예외를 빼면 except for와 같은 뜻. 여기서는 한 학생만 이해하지 못했어.",
+      "new": "apart from이 예외를 빼면 except for와 같은 뜻.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "~을 제외하고",
+        "ex": "Everyone understood {{BLANK}} one student.",
+        "tr": "학생 한 명을 제외하고 모두 이해했어."
+      }
+    },
+    {
+      "id": "50:2:0",
+      "word": "account for",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/connections.json",
+      "category": "definition_only",
+      "action": "remove_explanation",
+      "old": "account의 설명 뜻을 떠올려. account for는 이유를 설명해.",
+      "new": "",
+      "reason": "뜻풀이와 예문 번역으로 충분하며 별도 설명에 추가되는 용법·구별 정보가 없어 빈 해설을 제안.",
+      "context": {
+        "ko": "~의 이유를 설명하다",
+        "ex": "Can luck alone {{BLANK}} her success?",
+        "tr": "행운만으로 그녀의 성공을 설명할 수 있을까?"
+      }
+    },
+    {
+      "id": "50:2:10",
+      "word": "shed light on",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/connections.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "evidence가 빛을 비추듯 문제를 밝혀 줘. explain과 연결해서 기억해.",
+      "new": "evidence가 빛을 비추듯 문제를 밝혀 줘. explain과 연결돼.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "문제를 더 잘 이해하게 해 주다",
+        "ex": "New evidence may {{BLANK}} the cause.",
+        "tr": "새 증거가 원인을 더 잘 이해하게 해 줄 수 있어."
+      }
+    },
+    {
+      "id": "50:3:2",
+      "word": "account for",
+      "si": 2,
+      "field": "c",
+      "source": "pipeline/connections.json",
+      "category": "redundancy",
+      "action": "shorten",
+      "old": "이번 account for는 비중이야. make up도 이 문장에서 같은 뜻이 돼.",
+      "new": "make up도 이 문장에서 같은 뜻이 돼.",
+      "reason": "뜻·예문 또는 같은 해설 안에서 이미 전달한 내용을 덜어냄. 남은 구문·구별 정보는 유지.",
+      "context": {
+        "ko": "비중을 차지하다",
+        "ex": "Online sales {{BLANK}} half our income.",
+        "tr": "온라인 판매가 우리 수입의 절반을 차지해."
+      }
+    },
+    {
+      "id": "50:5:3",
+      "word": "break down",
+      "si": 1,
+      "field": "c",
+      "source": "pipeline/connections.json",
+      "category": "study_filler",
+      "action": "shorten",
+      "old": "기계뿐 아니라 협상·체계도 무너질 수 있어. fail과 연결해 기억해.",
+      "new": "기계뿐 아니라 협상·체계도 무너질 수 있어. fail과 연결돼.",
+      "reason": "외우라는 지시, 대표 표현이라는 표지, 빈도에 대한 막연한 말, 장식적 문구를 덜어냄.",
+      "context": {
+        "ko": "기능·체계가 무너지다",
+        "ex": "Without trust, talks can {{BLANK}} completely.",
+        "tr": "신뢰가 없으면 협상이 완전히 결렬될 수 있어."
+      }
+    }
+  ],
+  "retainedCandidates": {
+    "1:8:4": "스포츠 밖 업무의 팀에도 쓰인다는 적용 범위가 추가된다.",
+    "8:8:15": "depth라는 어족과 심호흡 구문 모두 새 정보다.",
+    "12:3:8": "묵음 k와 다른 kn- 단어의 연결을 유지한다.",
+    "13:3:1": "th 발음의 구체적인 주의점은 이번 단순 강세 정리에서 제외한다.",
+    "13:9:8": "가로 방향과 in a row의 연속 의미가 추가된다.",
+    "14:9:7": "예문 자체가 속담이므로 한국어 대응은 비유 해석에 필요하다.",
+    "16:7:1": "한국어식 오독을 구체적으로 바로잡는 대조는 유지한다.",
+    "21:1:7": "추상적 문법 용어를 실제 단어로 설명하므로 유지한다.",
+    "23:6:7": "구어라는 사용역 정보가 있으므로 유지한다.",
+    "29:7:12": "s의 유성음이라는 구체적인 오독 방지 정보는 유지한다.",
+    "31:5:2": "정신적 충격과 신체 외상의 의미 구별에 기여한다.",
+    "31:7:6": "한국어 차용어와 다른 미국식 첫소리를 짚는 안내는 유지한다.",
+    "37:5:2": "한국어 컴퓨팅만으로 불명확할 수 있는 분야의 범위를 풀어 준다.",
+    "39:3:9": "물질의 투명함과 정보 공개의 비유적 투명성을 구별한다.",
+    "40:7:7": "to 결합과 compliment의 철자·의미 대조 모두 필요하다.",
+    "40:7:8": "quer의 읽기와 명사 conquest를 유지한다.",
+    "41:8:3": "th의 유성음이라는 구체적 읽기 정보는 유지한다.",
+    "41:10:4": "액체 단위의 실제 크기와 i의 예외적인 읽기를 유지한다.",
+    "43:3:2": "명사라는 품사를 특정한 강세 설명은 이번 단순 강세 정리에서 제외한다.",
+    "44:2:9": "계산이라는 번역어의 사용 분야를 좁혀 준다.",
+    "44:6:6": "in-과 un-의 실제 선택 대조는 유용하다.",
+    "45:4:10": "발화라는 낯선 용어의 단위를 풀어 준다.",
+    "49:3:2": "from/to의 값과 by의 변화량을 숫자로 구별하는 연습에 기여한다.",
+    "50:6:3": "기존 reduce와 구동사의 뜻·목적어 연결을 유지한다."
+  }
+}
