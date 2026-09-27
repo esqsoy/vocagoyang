@@ -3,7 +3,20 @@ const audit=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../editorial-r
 const explanationReview=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../explanation-review-20260927/findings.json'),'utf8'));
 const stressReview=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../stress-review-20260927/findings.json'),'utf8'));
 const topicReview=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../topic-review-20260927/findings.json'),'utf8'));
-function restoreTopicGrouping(data){
+const contentReview=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../content-review-20260927/findings.json'),'utf8'));
+function restoreContentReview(data){
+  const restored=structuredClone(data);
+  for(const change of contentReview.changes){
+    const [set,exercise,index]=change.id.split(':').map(Number);
+    const card=restored[set].exercises.find(e=>e.ex===exercise).words[index];
+    assert.equal(card.word,change.word);assert.equal(card.si,change.si);
+    assert.deepEqual(card[change.field],change.new,change.id+' '+change.field);
+    card[change.field]=structuredClone(change.old);
+  }
+  assert.equal(crypto.createHash('sha256').update(JSON.stringify(restored)).digest('hex'),contentReview.baselineDataSha256,'Changes exceed the 2026-09-27 full content review');
+  return restored;
+}
+function restoreTopicGrouping(data,{beforeContentReview=false}={}){
   const restored=structuredClone(data);
   // Remove only the two audited calendar repeats and their grouping metadata
   // before restoring explanation snapshots at their historical card indexes.
@@ -13,12 +26,18 @@ function restoreTopicGrouping(data){
   }
   for(const added of [...topicReview.additions].sort((a,b)=>b.index-a.index)){
     const words=restored[added.lesson].exercises.find(e=>e.ex===added.ex).words;
-    assert.deepEqual(words[added.index],added.card);words.splice(added.index,1);
+    const expected=structuredClone(added.card);
+    if(!beforeContentReview)for(const change of contentReview.changes){
+      if(change.id===`${added.lesson}:${added.ex}:${added.index}`){
+        assert.deepEqual(expected[change.field],change.old);expected[change.field]=structuredClone(change.new);
+      }
+    }
+    assert.deepEqual(words[added.index],expected);words.splice(added.index,1);
   }
   return restored;
 }
 function restoreReviewedBaseline(data){
-  const restored=restoreTopicGrouping(data);
+  const restored=restoreTopicGrouping(restoreContentReview(data),{beforeContentReview:true});
   // Reverse the later explanation-only review before checking the original audit.
   // The historical baseline hash remains unchanged and still rejects unlogged edits.
   for(const review of [stressReview,explanationReview])for(const change of review.changes){
@@ -52,4 +71,4 @@ function restoreReviewedBaseline(data){
   assert.equal(crypto.createHash('sha256').update(JSON.stringify(restored)).digest('hex'),'f9aaab01e26c57c171be1ed705bb27b87b502fdd4fdc458e282e8f3b2813061d','Changes exceed the complete editorial audit');
   return restored;
 }
-module.exports={audit,restoreReviewedBaseline,restoreTopicGrouping};
+module.exports={audit,contentReview,restoreContentReview,restoreReviewedBaseline,restoreTopicGrouping};

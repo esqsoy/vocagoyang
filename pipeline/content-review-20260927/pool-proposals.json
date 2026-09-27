@@ -1,0 +1,937 @@
+{
+  "status": "recommendations-only-no-pool-mutations",
+  "scope": {
+    "source": "work/content-review-20260927/before/data.json",
+    "sha256": "1307c38ed0c46d5a5afb836c2f31869812e6a9bef1e5f21ad43a726876212ee2",
+    "sets": 51,
+    "cards": 6861,
+    "method": "전체 JSON의 표제어·예문·해설·고양이 대사·허용 정답에서 후보와 관련 의미를 검색하고, 위 증거 카드들의 실제 내용을 직접 읽어 중복을 판단했다. 나머지 세트 내용 전체를 이 추가 작업에서 다시 읽었다고 주장하지 않는다."
+  },
+  "criteria": [
+    "짧은 학습으로 문장의 긍정·부정, 조건·사실, 원인·결과, 목록 대응을 잘못 읽는 문제를 얼마나 줄이는가",
+    "아는 단어의 첫 뜻으로 오독하는 의미인가",
+    "같은 철자·같은 뜻을 직접 회상하는 카드가 이미 있는가, 아니면 동의어·해설·허용 정답에 간접 등장할 뿐인가",
+    "기존 카드 가까이에 적은 수의 뜻 카드로 넣을 수 있는가"
+  ],
+  "limits": [
+    "우선순위는 교재 내용과 언어 기능에 근거한 독립적인 편집 판단이다. 실제 학생 오답률, 수능 코퍼스별 빈도, 효과 크기를 측정한 연구 결과는 아니다.",
+    "상/중은 모두 추가 가치가 있다는 뜻이다. 이번에 전달받은 후보들은 이미 선별되어 있어 억지로 하 등급을 만들지 않았다. 수업에서 감정 유발 타동사 사용을 당장 연습한다면 worry·surprise의 수업 우선순위는 상이다.",
+    "의미가 비슷한 표제어를 이미 배웠다는 사실과 해당 철자로 읽을 수 있다는 사실은 같지 않다. 동의어가 있다는 이유만으로 후보를 삭제하지 않는다."
+  ],
+  "summary": {
+    "high": [
+      "virtually",
+      "respectively",
+      "thereby",
+      "given",
+      "nothing but",
+      "anything but",
+      "even if",
+      "even though",
+      "entertain"
+    ],
+    "medium": [
+      "eventually",
+      "worry",
+      "surprise",
+      "bill",
+      "furnish"
+    ],
+    "low": [],
+    "firstTeachingGroups": [
+      [
+        "nothing but",
+        "anything but"
+      ],
+      [
+        "even if",
+        "even though"
+      ],
+      [
+        "given",
+        "thereby",
+        "respectively",
+        "virtually"
+      ],
+      [
+        "entertain"
+      ]
+    ],
+    "additionalLimitedTo": [
+      "essential",
+      "as long as"
+    ]
+  },
+  "reviews": [
+    {
+      "term": "eventually",
+      "meaning": "결국, 시간이 지나 마침내",
+      "priority": "medium",
+      "priorityKorean": "중",
+      "coverageEvidence": [
+        {
+          "id": "23:2:6",
+          "word": "finally",
+          "ko": "① 마침내, 드디어",
+          "ex": "The rain {{BLANK}} stopped after three days.",
+          "c": "final(마지막의)+ly. 오래 기다린 끝에 일어난 일에 쓴다.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "23:2:7",
+          "word": "finally",
+          "ko": "② 마지막으로, 끝으로",
+          "ex": "{{BLANK}}, I want to thank my parents.",
+          "c": "글·발표의 마지막 항목을 꺼낼 때. First ~, Second ~, Finally ~.",
+          "acceptedAnswers": []
+        }
+      ],
+      "gap": "eventually 자체는 표제어·예문·해설·허용 정답 모두에 없다. 다만 finally의 시간 경과 후 결과와 나열의 마지막이라는 두 의미를 이미 직접 학습한다.",
+      "reason": "새 철자를 알아보는 효용은 분명하다. 그러나 마지막에 도달한다는 핵심 개념의 중복이 커서, 부정 방향·대응 관계를 새로 구별하는 후보보다 뒤에 둔다. eventually는 finally의 나열 마지막 용법까지 대체하지 않는다.",
+      "recommendation": "추가에 찬성하되 두 번째 묶음에 배치. finally와의 중복 때문에 불필요하다고 판단하지는 않는다.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/eventually"
+      ]
+    },
+    {
+      "term": "virtually",
+      "meaning": "거의, 사실상",
+      "priority": "high",
+      "priorityKorean": "상",
+      "coverageEvidence": [
+        {
+          "id": "3:1:6",
+          "word": "almost",
+          "ko": "① 거의",
+          "ex": "I'm {{BLANK}} finished with my work.",
+          "c": "almost all students는 ‘거의 모든 학생’, most students는 ‘대부분의 학생’. almost students처럼 바로 명사 앞에 붙이지 않는다.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "7:2:9",
+          "word": "nearly",
+          "ko": "① 거의",
+          "ex": "It's {{BLANK}} ten o'clock. Go to bed.",
+          "c": "almost와 거의 같다. 다만 never·nobody 같은 부정어 앞엔 almost만 쓴다.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "30:8:11",
+          "word": "practically",
+          "ko": "① 거의",
+          "ex": "We are {{BLANK}} done with this project.",
+          "c": "almost와 같은 뜻으로 가장 흔하다. practically every day도 쓴다.",
+          "acceptedAnswers": []
+        }
+      ],
+      "gap": "virtually·virtual은 전체 데이터에 없다. almost·nearly·practically의 거의라는 뜻은 이미 직접 연습한다.",
+      "reason": "뜻의 개념은 겹치지만 이 철자의 비컴퓨터 용법을 스스로 끌어내기는 어렵다. virtually impossible/all/the same 같은 표현에서 실제 차이가 거의 없다는 뜻을 놓치면 명제의 범위를 잘못 읽게 된다.",
+      "recommendation": "독립 표제어로 추가할 가치가 높다. 처음에는 거의·사실상 뜻에 집중하고 온라인·가상 현실 뜻까지 자동 확장하지 않는다.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/virtually"
+      ]
+    },
+    {
+      "term": "respectively",
+      "meaning": "앞서 말한 순서대로 각각",
+      "priority": "high",
+      "priorityKorean": "상",
+      "coverageEvidence": [
+        {
+          "id": "5:10:5",
+          "word": "each",
+          "ko": "① 각각의, 하나하나",
+          "ex": "{{BLANK}} room has two windows.",
+          "c": "each+단수 명사+단수 동사. every보다 '하나씩'에 힘이 실린다.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "39:3:6",
+          "word": "individually",
+          "ko": "① 개별적으로, 따로따로",
+          "ex": "The teacher checked our homework {{BLANK}}.",
+          "c": "각각 따로. individually wrapped는 낱개 포장된, treat people individually는 사람을 개별적으로 대하다.",
+          "acceptedAnswers": []
+        }
+      ],
+      "gap": "respectively·respective은 전체 데이터에 없다. each와 individually는 있지만 두 목록의 순서 대응을 연습하지 않는다.",
+      "reason": "단순 각각과 달리 A-B와 X-Y의 대응을 고정하는 기능이다. 수치·사례·비교를 읽을 때 관계 자체를 틀리는 오독을 짧은 카드 한 장으로 교정할 수 있다.",
+      "recommendation": "상 우선순위. 짧은 두 목록 예문을 쓰고 번역에서도 대응을 명시한다.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/respectively"
+      ]
+    },
+    {
+      "term": "thereby",
+      "meaning": "그렇게 함으로써, 그 결과로",
+      "priority": "high",
+      "priorityKorean": "상",
+      "coverageEvidence": [
+        {
+          "id": "7:8:2",
+          "word": "thus",
+          "ko": "① 따라서, 그러므로",
+          "ex": "He failed. {{BLANK}}, we need a new plan.",
+          "c": "so(그래서)의 격식체. 말보단 글에서 만난다.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "9:1:6",
+          "word": "therefore",
+          "ko": "① 그러므로, 따라서",
+          "ex": "I think; {{BLANK}}, I am.",
+          "c": "앞의 내용을 근거로 결과·결론을 이끌 때 쓴다. 말보다는 글에서 흔한 ‘그러므로’.",
+          "acceptedAnswers": []
+        }
+      ],
+      "gap": "thereby는 전체 데이터에 없다. thus와 therefore는 결과·결론 뜻으로 직접 학습하지만 thereby를 쓰는 행위-결과 연결은 없다.",
+      "reason": "따라서라는 일반 결론 표지와 상당히 겹치지만, 앞의 행위가 뒤의 결과를 낳는 구조를 가리키는 철자와 용법은 별도로 알아야 한다. 특히 앞절과 -ing 구문의 원인·결과 연결을 복원하는 데 직접적이다.",
+      "recommendation": "상 우선순위. 단, thereby 뒤에는 항상 -ing만 온다고 새 절대 규칙을 만들지 않는다.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/thereby"
+      ]
+    },
+    {
+      "term": "given",
+      "meaning": "~을 고려하면",
+      "priority": "high",
+      "priorityKorean": "상",
+      "coverageEvidence": [
+        {
+          "id": "1:7:6",
+          "word": "give",
+          "ko": "① 주다",
+          "ex": "Please {{BLANK}} me a glass of water.",
+          "c": "give + 사람 + 사물(give me water). 가진 것을 건네는 동작, 반대는 take. give-gave-given.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "1:7:7",
+          "word": "give",
+          "ko": "② (행동을) 하다 (give a call 전화하다)",
+          "ex": "{{BLANK}} me a call tonight.",
+          "c": "give a speech(연설하다), give a smile(미소 짓다)처럼 행동을 '하다'. (give-gave-given)",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "41:5:3",
+          "word": "deduction",
+          "ko": "① 연역(법)",
+          "ex": "We used {{BLANK}} to draw a conclusion from the given rules.",
+          "c": "일반 법칙에서 개별 결론을 끌어내는 추론. 반대는 induction(귀납).",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "31:7:5",
+          "word": "considering",
+          "ko": "① ~를 고려하면",
+          "ex": "{{BLANK}} the rain, our team played well.",
+          "c": "consider(고려하다)+ing. 뒤에 명사나 that절이 온다.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "49:1:2",
+          "word": "for",
+          "ko": "나이·조건에 비추어 보면, ~치고는",
+          "ex": "He reads well {{BLANK}} his age.",
+          "c": "for his age는 그 나이를 기준으로 보면. 누군가를 위한 for와 달라.",
+          "acceptedAnswers": [
+            "considering",
+            "given"
+          ]
+        },
+        {
+          "id": "49:5:4",
+          "word": "with",
+          "ko": "어떤 도움·여건이 있다면",
+          "ex": "We can finish today {{BLANK}} a little help.",
+          "c": "with a little help는 약간의 도움이 있다면. 함께한다는 뜻에서 여건으로 이어져.",
+          "acceptedAnswers": [
+            "given"
+          ]
+        },
+        {
+          "id": "49:6:3",
+          "word": "in light of",
+          "ko": "새 정보·사정을 고려하여",
+          "ex": "We changed our plan {{BLANK}} the new evidence.",
+          "c": "in light of는 새 정보·사정을 판단에 반영할 때 써. in the light of도 같아.",
+          "acceptedAnswers": [
+            "in the light of",
+            "given",
+            "considering",
+            "because of"
+          ]
+        }
+      ],
+      "gap": "전치사 given을 목표 답으로 하는 카드는 없다. give의 과거분사 설명 2회와 given rules의 수식어 용법 1회, 허용 정답 3곳은 있다. considering·in light of로 의미는 배운다.",
+      "reason": "허용 정답에 들어 있다는 사실은 given을 새로 학습했다는 뜻이 아니다. 익숙한 give의 분사로만 읽기 쉬운 형태가 문장 전체의 판단 근거를 여는 전치사라는 점을 직접 알아야 하므로 상으로 본다.",
+      "recommendation": "독립 전치사 뜻 카드에 찬성. 새 어족으로 집계하지 않고 give 계열의 학습 의미 확장으로 계산하는 것이 적절하다.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/given_2"
+      ]
+    },
+    {
+      "term": "nothing but",
+      "meaning": "오직, ~밖에 없는",
+      "priority": "high",
+      "priorityKorean": "상",
+      "coverageEvidence": [
+        {
+          "id": "2:2:7",
+          "word": "nothing",
+          "ko": "① 아무것도 (~아니다)",
+          "ex": "There is {{BLANK}} in the box.",
+          "c": "그 자체가 부정이라 not과 같이 안 쓴다. There isn't nothing(X).",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "5:2:20",
+          "word": "but",
+          "ko": "③ ~을 제외하고",
+          "ex": "Everyone {{BLANK}} Mina was there.",
+          "c": "여기서 but은 except처럼 '~을 제외하고'. 앞뒤 문장을 잇는 '하지만'과 다르다.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "5:7:11",
+          "word": "only",
+          "ko": "① 오직, ~만",
+          "ex": "{{BLANK}} you can help me now.",
+          "c": "",
+          "acceptedAnswers": []
+        }
+      ],
+      "gap": "표현 자체의 직접·간접 제시가 없다. nothing, but=except, only는 있다.",
+      "reason": "구성 단어는 배웠으나 nothing의 표면 부정에서 긍정적 한정으로 넘어가는 결합을 직접 확인하지 않았다. anything but와 묶어서 대비하면 독해 방향을 뒤집는 오독을 막는다.",
+      "recommendation": "anything but와 같은 작은 묶음으로 추가에 찬성. 일반 but 카드 삭제·대체는 하지 않는다.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/but_2"
+      ]
+    },
+    {
+      "term": "anything but",
+      "meaning": "결코 ~이 아닌",
+      "priority": "high",
+      "priorityKorean": "상",
+      "coverageEvidence": [
+        {
+          "id": "2:2:5",
+          "word": "anything",
+          "ko": "① (의문) 무엇; (부정) 아무것도 ~않다",
+          "ex": "I can't see {{BLANK}} in the dark.",
+          "c": "부정문에서는 ‘아무것도’, 의문문에서는 ‘무엇’. 긍정문에서는 ‘무엇이든’도 된다.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "2:2:6",
+          "word": "anything",
+          "ko": "② 무엇이든, 아무거나",
+          "ex": "You can choose {{BLANK}} from this box.",
+          "c": "긍정문에서 선택을 제한하지 않는다는 뜻. anything you like = 네가 원하는 무엇이든.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "5:2:20",
+          "word": "but",
+          "ko": "③ ~을 제외하고",
+          "ex": "Everyone {{BLANK}} Mina was there.",
+          "c": "여기서 but은 except처럼 '~을 제외하고'. 앞뒤 문장을 잇는 '하지만'과 다르다.",
+          "acceptedAnswers": []
+        }
+      ],
+      "gap": "표현 자체가 없다. anything과 but=except는 별개로 존재한다.",
+      "reason": "nothing but와 비슷하게 생겼지만 명제의 긍정·부정 방향이 반대다. 단기간 독해 개선이라는 기준에서 가장 먼저 보완할 종류의 공백이다.",
+      "recommendation": "nothing but와 묶어 최우선 제안. 예문은 The task was anything but easy.처럼 부정의 범위가 명확한 짧은 문장으로.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/but_2"
+      ]
+    },
+    {
+      "term": "even if",
+      "meaning": "설령 ~하더라도",
+      "priority": "high",
+      "priorityKorean": "상",
+      "coverageEvidence": [
+        {
+          "id": "5:4:5",
+          "word": "if",
+          "ko": "① 만약 ~라면",
+          "ex": "{{BLANK}} it rains tomorrow, I'll stay home.",
+          "c": "조건의 if절은 내일 일도 현재형: if it rains(O), will rain(X).",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "5:7:8",
+          "word": "even",
+          "ko": "① ~조차, ~까지도",
+          "ex": "{{BLANK}} my cat knows that.",
+          "c": "'설마 이것까지?' 하는 놀람을 더한다. 여기서는 my cat 앞에 와서 '고양이조차'라는 뜻.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "2:5:6",
+          "word": "though",
+          "ko": "① 비록 ~이지만",
+          "ex": "{{BLANK}} it was cold, we went out.",
+          "c": "although와 같은 '~인데도'(although가 더 격식). however(그러나)는 부사라 자리가 다르다.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "3:7:11",
+          "word": "although",
+          "ko": "① 비록 ~이지만",
+          "ex": "{{BLANK}} it rained, we enjoyed the trip.",
+          "c": "though와 같은 뜻, although가 더 격식. [!] but을 겹치지 않는다 — Although ~, but ~(X).",
+          "acceptedAnswers": []
+        }
+      ],
+      "gap": "even if 자체가 없고, even·if·though·although를 각각 배우는 정도다.",
+      "reason": "가정한 조건이 성립해도 결론이 달라지지 않는 관계를 읽는 것은 단어 뜻을 더한 것 이상이다. 사실을 인정하는 양보와 대비시키면 문장 논리를 정확히 읽게 된다.",
+      "recommendation": "even though와 짝으로 추가에 찬성. 사실 문맥에서도 even if를 쓰는 용례가 있으므로 둘은 언제나 배타적이라는 판정 규칙은 만들지 않는다.",
+      "sources": [
+        "https://dictionary.cambridge.org/de/grammatik/british-grammar/even"
+      ]
+    },
+    {
+      "term": "even though",
+      "meaning": "실제로 ~인데도",
+      "priority": "high",
+      "priorityKorean": "상",
+      "coverageEvidence": [
+        {
+          "id": "2:5:6",
+          "word": "though",
+          "ko": "① 비록 ~이지만",
+          "ex": "{{BLANK}} it was cold, we went out.",
+          "c": "although와 같은 '~인데도'(although가 더 격식). however(그러나)는 부사라 자리가 다르다.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "3:7:11",
+          "word": "although",
+          "ko": "① 비록 ~이지만",
+          "ex": "{{BLANK}} it rained, we enjoyed the trip.",
+          "c": "though와 같은 뜻, although가 더 격식. [!] but을 겹치지 않는다 — Although ~, but ~(X).",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "5:7:8",
+          "word": "even",
+          "ko": "① ~조차, ~까지도",
+          "ex": "{{BLANK}} my cat knows that.",
+          "c": "'설마 이것까지?' 하는 놀람을 더한다. 여기서는 my cat 앞에 와서 '고양이조차'라는 뜻.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "23:4:7",
+          "word": "despite",
+          "ko": "① ~에도 불구하고",
+          "ex": "{{BLANK}} the rain, we walked to school.",
+          "c": "despite + 명사·동명사는 ~에도 불구하고. 절을 연결하려면 despite the fact that ~를 쓴다. despite of는 표준 표현이 아니다.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "49:7:1",
+          "word": "despite",
+          "ko": "~에도 불구하고",
+          "ex": "They kept walking {{BLANK}} the heavy rain.",
+          "c": "despite와 in spite of 뒤에는 명사·-ing가 와. despite of로 쓰지는 않아.",
+          "acceptedAnswers": [
+            "in spite of"
+          ]
+        }
+      ],
+      "gap": "though·although·despite의 양보 의미는 이미 직접 학습하지만 even though라는 결합은 없다.",
+      "reason": "이 항목만 떼면 기존 though와 겹침이 커서 중에 가깝다. 다만 even if와 나란히 사실 인정과 조건 가정의 차이를 배우는 구성에서는 상 우선순위다.",
+      "recommendation": "even if와 함께 추가하되 학습 비용을 작게 유지. 양보 접속사를 하나 더 나열하는 데 그치지 않는다.",
+      "sources": [
+        "https://dictionary.cambridge.org/de/grammatik/british-grammar/even"
+      ]
+    },
+    {
+      "term": "worry",
+      "meaning": "걱정시키다",
+      "priority": "medium",
+      "priorityKorean": "중",
+      "coverageEvidence": [
+        {
+          "id": "7:7:17",
+          "word": "worry",
+          "ko": "① 걱정하다",
+          "ex": "Don't {{BLANK}} about the test result.",
+          "c": "worry about+~: ~에 대해 걱정하다.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "27:8:12",
+          "word": "worried",
+          "ko": "① 걱정하는",
+          "ex": "My mom looks {{BLANK}} about my grades.",
+          "c": "worry는 걱정하게 하다, worried는 걱정하는. be worried about은 ~을 걱정하다.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "37:1:1",
+          "word": "worrying",
+          "ko": "① 걱정스러운, 우려되는",
+          "ex": "His grades are really {{BLANK}} this year.",
+          "c": "걱정을 일으키면 worrying, 걱정을 느끼면 worried. a worrying sign(걱정스러운 징후).",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "8:1:2",
+          "word": "concern",
+          "ko": "② 걱정시키다",
+          "ex": "Her health {{BLANK}}s me.",
+          "c": "주어가 걱정의 '원인'. 내가 걱정할 땐 be concerned about.",
+          "acceptedAnswers": []
+        }
+      ],
+      "gap": "worry의 목표 카드에는 자동사 걱정하다만 있다. worried 해설에 worry=걱정하게 하다가 이미 명시되어 있고, worrying 및 concern 타동사도 학습한다.",
+      "reason": "감정의 원인과 경험자를 바꾸어 읽는 연습 가치가 있다. 다만 이 개념과 형용사 가족은 이미 수록되어 있으므로 독해 풀의 순증 효과만 보면 상 후보 뒤의 보강이다.",
+      "recommendation": "추가에 찬성. 기존 worry 옆에 타동사 뜻 카드 한 장이면 충분하다. 감정 유발 동사 수업 자체가 다음 목표라면 수업 우선순위는 상으로 올려도 된다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/learner-english/worry"
+      ]
+    },
+    {
+      "term": "surprise",
+      "meaning": "놀라게 하다",
+      "priority": "medium",
+      "priorityKorean": "중",
+      "coverageEvidence": [
+        {
+          "id": "11:8:13",
+          "word": "surprise",
+          "ko": "① 놀람, 뜻밖의 일",
+          "ex": "What a {{BLANK}}! I didn't expect you here.",
+          "c": "surprised는 놀람을 느끼는, surprising은 놀람을 일으키는. a surprising person처럼 사람도 놀라움을 줄 수 있다.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "24:10:0",
+          "word": "surprised",
+          "ko": "① 놀란",
+          "ex": "I was {{BLANK}} to see my old friend there.",
+          "c": "놀라움을 느끼는 쪽은 surprised, 놀라움을 주는 쪽은 surprising.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "27:8:9",
+          "word": "surprising",
+          "ko": "① 놀라운",
+          "ex": "It's not {{BLANK}} that he failed the test.",
+          "c": "놀라움을 주는 쪽은 surprising, 놀라움을 느끼는 쪽은 surprised.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "15:2:9",
+          "word": "shock",
+          "ko": "② 충격을 주다, 놀라게 하다",
+          "ex": "The news will {{BLANK}} everyone.",
+          "c": "shock+사람: 사람에게 큰 충격을 주다.",
+          "acceptedAnswers": []
+        }
+      ],
+      "gap": "명사 surprise와 형용사 surprised·surprising은 목표 카드가 있다. surprise someone 동사는 없으며 shock가 유사한 원인 주어 문형을 연습한다.",
+      "reason": "이미 아는 분사에서 동사를 회상하는 짧은 보강으로 유익하다. 다만 아주 새로운 독해 개념을 여는 것은 아니어서 중으로 둔다. 명사·형용사가 있다는 이유로 동사 회상을 학습 완료로 치지는 않는다.",
+      "recommendation": "worry와 함께 타동사 뜻 카드 추가에 찬성. 추가 어족 수는 증가시키지 않는다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/learner-english/surprise"
+      ]
+    },
+    {
+      "term": "bill",
+      "meaning": "법안",
+      "priority": "medium",
+      "priorityKorean": "중",
+      "coverageEvidence": [
+        {
+          "id": "4:10:6",
+          "word": "bill",
+          "ko": "① 청구서, 계산서",
+          "ex": "The phone {{BLANK}} was very high this month.",
+          "c": "식당 계산서는 영국에서 주로 bill, 미국에서 주로 check라고 한다. 전기·전화 요금 청구서는 미국에서도 bill.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "4:10:7",
+          "word": "bill",
+          "ko": "② 지폐 / 법안",
+          "ex": "He paid with a ten-dollar {{BLANK}}.",
+          "c": "",
+          "acceptedAnswers": []
+        }
+      ],
+      "gap": "법안은 기존 카드 ko에 지폐와 함께 쓰여 있고 대사에도 있으므로 의미가 완전히 빠진 것은 아니다. 그러나 목표 예문이 지폐여서 법안을 회상할 상황은 없다.",
+      "reason": "사회·정책 문장을 읽는 데 중요한 의미이며 금전 의미로만 고정하면 오독한다. 이미 글로 노출되는 뜻이므로 완전 신규 개념보다는 적극 회상 보강으로 판단한다.",
+      "recommendation": "지폐·법안을 별도 뜻 카드로 나누는 데 찬성. 사용자 승인 전에는 현 카드 수와 복합 뜻을 임의로 바꾸지 않는다.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/bill?topic=bills-and-invoices"
+      ]
+    },
+    {
+      "term": "furnish",
+      "meaning": "정보·증거 등을 제공하다",
+      "priority": "medium",
+      "priorityKorean": "중",
+      "coverageEvidence": [
+        {
+          "id": "20:10:10",
+          "word": "furnish",
+          "ko": "① 가구를 갖추다",
+          "ex": "They {{BLANK}}ed the new house with old furniture.",
+          "c": "furniture(가구)를 들이는 것. a furnished room=가구 딸린 방.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "4:10:5",
+          "word": "provide",
+          "ko": "① 제공하다, 공급하다",
+          "ex": "The hotel {{BLANK}}s guests with free breakfast.",
+          "c": "provide A with B는 A에 B를 제공하다. provide B for A로 순서를 바꿔 쓸 수도 있어.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "11:9:11",
+          "word": "supply",
+          "ko": "① 공급하다",
+          "ex": "The river will {{BLANK}} water to the farms.",
+          "c": "필요한 것을 대 주다. supply A to B = supply B with A.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "48:5:0",
+          "word": "provide",
+          "ko": "제공하다",
+          "ex": "The school will {{BLANK}} every child with lunch.",
+          "c": "provide A with B는 A에게 B를 제공하다. 미리 본다는 유래와 현대 뜻을 구별해.",
+          "acceptedAnswers": []
+        }
+      ],
+      "gap": "furnish는 가구를 갖추다 한 카드뿐이다. provide/supply는 이미 학습한다.",
+      "reason": "가구 뜻에서 추론하기 어려운 격식체 의미라 보완 가치가 있다. 다만 제한된 학습 시간에서는 문장 전체의 논리·극성을 바꾸는 표현보다 뒤에 배치한다. 이 순위는 시험 출현 빈도를 측정한 결과가 아니다.",
+      "recommendation": "추가에 찬성하되 두 번째 묶음. furnish evidence 또는 furnish someone with information을 한 예문으로 다룬다.",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/furnish"
+      ]
+    },
+    {
+      "term": "entertain",
+      "meaning": "생각·가능성을 고려하다",
+      "priority": "high",
+      "priorityKorean": "상",
+      "coverageEvidence": [
+        {
+          "id": "20:7:2",
+          "word": "entertain",
+          "ko": "① 즐겁게 하다",
+          "ex": "The magician {{BLANK}}ed the children for an hour.",
+          "c": "명사는 entertainment(오락). 손님을 entertain하면 '대접하다'.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "20:7:3",
+          "word": "entertain",
+          "ko": "② 손님을 대접하다",
+          "ex": "We often {{BLANK}} friends at home.",
+          "c": "손님을 초대해 음식 등을 대접하며 시간을 보내다.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "6:2:12",
+          "word": "consider",
+          "ko": "① 고려하다, 곰곰이 생각하다",
+          "ex": "You should {{BLANK}} his age.",
+          "c": "행동을 고려할 때는 consider doing. 누구를 ~로 여기는 consider A (to be) B도 있어.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "43:10:0",
+          "word": "contemplate",
+          "ko": "① 심사숙고하다, 곰곰이 생각하다",
+          "ex": "I will {{BLANK}} my future during the break.",
+          "c": "곰곰이 생각하거나 고려하다. contemplate one's future는 진로를 숙고하다, contemplate moving은 이사를 고려하다.",
+          "acceptedAnswers": []
+        }
+      ],
+      "gap": "즐겁게 하다·손님 대접하다만 있고, 생각이나 가능성을 검토하는 entertain은 없다. consider/contemplate라는 다른 철자의 유사 뜻은 있다.",
+      "reason": "익숙한 표제어를 안다고 느끼면서 추상적 목적어를 틀리게 읽기 쉬운 의미다. 사용자가 원한 오개념 교정형 재학습에 정확히 맞고, 단어 추가보다 작은 비용으로 기존 표제어의 독해 범위를 넓힌다.",
+      "recommendation": "기존 표제어의 새 뜻 카드로 우선 제안. entertain the possibility/idea의 짧은 예문을 쓰되 실제로 믿거나 받아들였다는 뜻까지 넣지 않는다.",
+      "sources": [
+        "https://www.collinsdictionary.com/us/dictionary/english/entertain-an-idea"
+      ]
+    }
+  ],
+  "additionalCandidates": [
+    {
+      "term": "essential",
+      "type": "add",
+      "priority": "high",
+      "priorityKorean": "상",
+      "meaning": "필수적인; 본질적인",
+      "coverageEvidence": [
+        {
+          "id": "30:4:0",
+          "word": "essence",
+          "ko": "① 본질",
+          "ex": "In {{BLANK}}, he just wants more free time.",
+          "c": "in essence는 '본질적으로'. essential(필수적인)의 명사 짝이다.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "8:7:5",
+          "word": "necessary",
+          "ko": "① 필요한",
+          "ex": "Take only the {{BLANK}} things with you.",
+          "c": "It is necessary to+동사 꼴로 자주 쓴다. if necessary는 '필요하면'.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "23:10:6",
+          "word": "basic",
+          "ko": "① 기본적인, 기초의",
+          "ex": "You need to know the {{BLANK}} rules first.",
+          "c": "base(바탕)+-ic. 명사 basics는 '기초, 기본기'를 뜻한다.",
+          "acceptedAnswers": []
+        }
+      ],
+      "gap": "표제어·목표 예문·허용 정답에는 없다. essence 카드 해설에 essential(필수적인)이 한 번 등장한다.",
+      "reason": "기초 형용사에 가까운 학습 공백이고, 필수와 본질의 두 뜻 모두 설명문 핵심 판단을 읽는 데 쓰인다. necessary·basic이라는 동의어가 있다고 이 철자의 해독을 완료한 것은 아니다.",
+      "recommendation": "추가에 찬성. 새 목록을 무한히 늘리기보다 이처럼 명시적 기본 공백을 먼저 보완할 것. 두 뜻을 한 문장에 욱여넣지 말고 카드 수는 승인 후 결정.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/essential"
+      ]
+    },
+    {
+      "term": "as long as",
+      "type": "add",
+      "priority": "high",
+      "priorityKorean": "상",
+      "meaning": "~하기만 하면, ~하는 한(조건)",
+      "coverageEvidence": [
+        {
+          "id": "1:5:1",
+          "word": "long",
+          "ko": "② (시간이) 오랜",
+          "ex": "I waited for a {{BLANK}} time.",
+          "c": "a long time = 오랜 시간.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "30:10:10",
+          "word": "provided",
+          "ko": "② ~라는 조건으로",
+          "ex": "You can go {{BLANK}} you finish your homework.",
+          "c": "provided (that)은 if보다 조건을 딱 잘라 말한다. 접속사다.",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "35:8:9",
+          "word": "providing",
+          "ko": "① ~라면, ~하기만 하면",
+          "ex": "You can go out, {{BLANK}} you finish your homework.",
+          "c": "providing (that)은 ~라는 조건으로. provided (that)도 같은 뜻으로 쓴다.",
+          "acceptedAnswers": []
+        }
+      ],
+      "gap": "전체 데이터에 이 표현이 없다. long의 기간 의미와 provided/providing 조건 의미는 따로 있다.",
+      "reason": "시간의 길이로만 읽기 쉬운 결합이 문장의 조건 범위를 정한다. 새 어휘를 많이 넣지 않고 기본 단어의 결합 해석을 바로잡는 효과가 있다.",
+      "recommendation": "추가 후보는 essential과 이것 두 가지로 제한. 장차 기간의 as long as와의 차이는 해설 또는 대비 예문으로 최소한만 보완.",
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/as-long-"
+      ]
+    }
+  ],
+  "coverage": {
+    "eventually": {
+      "headCards": [],
+      "otherVisibleMentions": [],
+      "acceptedAnswerOnlyOrAlso": []
+    },
+    "virtually": {
+      "headCards": [],
+      "otherVisibleMentions": [],
+      "acceptedAnswerOnlyOrAlso": []
+    },
+    "respectively": {
+      "headCards": [],
+      "otherVisibleMentions": [],
+      "acceptedAnswerOnlyOrAlso": []
+    },
+    "thereby": {
+      "headCards": [],
+      "otherVisibleMentions": [],
+      "acceptedAnswerOnlyOrAlso": []
+    },
+    "given": {
+      "headCards": [],
+      "otherVisibleMentions": [
+        "1:7:6",
+        "1:7:7",
+        "41:5:3"
+      ],
+      "acceptedAnswerOnlyOrAlso": [
+        "49:1:2",
+        "49:5:4",
+        "49:6:3"
+      ]
+    },
+    "nothing but": {
+      "headCards": [],
+      "otherVisibleMentions": [],
+      "acceptedAnswerOnlyOrAlso": []
+    },
+    "anything but": {
+      "headCards": [],
+      "otherVisibleMentions": [],
+      "acceptedAnswerOnlyOrAlso": []
+    },
+    "even if": {
+      "headCards": [],
+      "otherVisibleMentions": [],
+      "acceptedAnswerOnlyOrAlso": []
+    },
+    "even though": {
+      "headCards": [],
+      "otherVisibleMentions": [],
+      "acceptedAnswerOnlyOrAlso": []
+    },
+    "worry": {
+      "headCards": [
+        "7:7:17"
+      ],
+      "otherVisibleMentions": [
+        "3:3:1",
+        "7:6:7",
+        "7:7:17",
+        "8:1:1",
+        "9:7:11",
+        "11:7:6",
+        "16:1:7",
+        "27:8:12",
+        "36:8:0"
+      ],
+      "acceptedAnswerOnlyOrAlso": []
+    },
+    "surprise": {
+      "headCards": [
+        "11:8:13"
+      ],
+      "otherVisibleMentions": [
+        "0:14:7",
+        "10:3:2",
+        "12:8:10",
+        "18:7:11",
+        "31:2:16",
+        "49:10:7"
+      ],
+      "acceptedAnswerOnlyOrAlso": []
+    },
+    "bill": {
+      "headCards": [
+        "4:10:6",
+        "4:10:7"
+      ],
+      "otherVisibleMentions": [
+        "2:10:8",
+        "4:10:6",
+        "4:10:7",
+        "15:10:14",
+        "16:2:8",
+        "19:2:4"
+      ],
+      "acceptedAnswerOnlyOrAlso": []
+    },
+    "furnish": {
+      "headCards": [
+        "20:10:10"
+      ],
+      "otherVisibleMentions": [],
+      "acceptedAnswerOnlyOrAlso": []
+    },
+    "entertain": {
+      "headCards": [
+        "20:7:2",
+        "20:7:3"
+      ],
+      "otherVisibleMentions": [
+        "14:8:8",
+        "20:7:2",
+        "43:7:6"
+      ],
+      "acceptedAnswerOnlyOrAlso": []
+    },
+    "essential": {
+      "headCards": [],
+      "otherVisibleMentions": [
+        "30:4:0"
+      ],
+      "acceptedAnswerOnlyOrAlso": []
+    },
+    "as long as": {
+      "headCards": [],
+      "otherVisibleMentions": [],
+      "acceptedAnswerOnlyOrAlso": []
+    },
+    "far from": {
+      "headCards": [],
+      "otherVisibleMentions": [],
+      "acceptedAnswerOnlyOrAlso": []
+    },
+    "in that": {
+      "headCards": [],
+      "otherVisibleMentions": [
+        "1:5:4",
+        "2:2:1",
+        "7:3:8",
+        "14:1:1",
+        "22:3:5",
+        "25:3:2",
+        "26:9:1",
+        "26:10:0",
+        "27:1:3",
+        "27:6:14",
+        "28:6:6",
+        "30:6:2",
+        "31:5:12",
+        "31:8:1",
+        "31:8:12",
+        "33:2:7",
+        "34:9:9",
+        "37:4:5",
+        "38:9:1",
+        "39:2:2",
+        "39:4:9",
+        "39:6:4",
+        "42:3:2",
+        "42:3:4",
+        "46:1:9"
+      ],
+      "acceptedAnswerOnlyOrAlso": []
+    },
+    "rather than": {
+      "headCards": [],
+      "otherVisibleMentions": [
+        "3:5:15",
+        "46:9:2"
+      ],
+      "acceptedAnswerOnlyOrAlso": [
+        "49:7:3",
+        "49:9:4"
+      ]
+    },
+    "let alone": {
+      "headCards": [],
+      "otherVisibleMentions": [],
+      "acceptedAnswerOnlyOrAlso": []
+    }
+  },
+  "notes": [
+    "given은 root-pool의 contextCards 3곳 외에 49:1:2·49:5:4·49:6:3의 acceptedAnswers에도 있다. 이 메타데이터는 packets의 일반 텍스트 검색만으로는 누락될 수 있으므로 before/data.json으로 확인했다.",
+    "in that 검색 25건은 모두 in that case, in that old palace 등 전치사 in+지시 한정사 that의 연속이며, ~라는 점에서라는 접속사 in that을 실제 학습한 증거로 보지 않았다. 추가 후보 목록에는 이번에 넣지 않았다.",
+    "far from·let alone도 직접 등장하지 않지만, 이번 제안에서는 목록을 늘리기보다 위의 우선 묶음과 essential·as long as 두 공백에 집중한다.",
+    "given은 give와, worry·surprise·bill·furnish·entertain의 추가 뜻은 기존 표제어와 연결한다. 카드 수의 증가를 새로운 독립 표제어나 어족 증가와 같은 수치로 세지 않는다."
+  ]
+}

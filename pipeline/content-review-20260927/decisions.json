@@ -1,0 +1,83 @@
+{
+  "files": [
+    "agent-00-15.json",
+    "agent-16-32.json",
+    "agent-33-45.json",
+    "root-46-50.json",
+    "root-pool.json",
+    "agent-morphology.json"
+  ],
+  "overrides": {
+    "38:2:4/c": {
+      "action": "revise",
+      "new": "짚을 통틀어 말하면 셀 수 없다. the last straw는 더는 참을 수 없게 만든 마지막 사건이다.",
+      "reason": "분노 폭발만으로 한정하지 않고 인내의 한계를 넘기게 하는 사건이라는 뜻을 보존. 독립 교차검토 의견 반영."
+    },
+    "4:8:10/c": {
+      "action": "revise",
+      "new": "study는 공부하는 활동, learn은 지식·기술을 익히는 것. I am learning처럼 배우는 과정에도 써.",
+      "reason": "교정한 핵심 의미와 용법은 유지하면서 휴대폰 해설 길이를 줄임."
+    },
+    "6:5:8/c": {
+      "action": "revise",
+      "new": "drive는 어떤 상태로 몰아가다. drive A crazy/mad는 A를 미치게 하다·몹시 짜증 나게 하다.",
+      "reason": "교정한 핵심 의미와 용법은 유지하면서 휴대폰 해설 길이를 줄임."
+    },
+    "21:2:7/c": {
+      "action": "revise",
+      "new": "My head aches(머리가 아프다). headache·toothache·stomachache는 두통·치통·복통(명사).",
+      "reason": "교정한 핵심 의미와 용법은 유지하면서 휴대폰 해설 길이를 줄임."
+    },
+    "32:6:4/c": {
+      "action": "revise",
+      "new": "tuck A into B는 A를 B 안에 밀어 넣다. tuck someone in은 잠자리에서 이불을 잘 덮어 주다.",
+      "reason": "교정한 핵심 의미와 용법은 유지하면서 휴대폰 해설 길이를 줄임."
+    },
+    "36:1:3/c": {
+      "action": "revise",
+      "new": "복수형. 한 벌은 a pair of pants. 미국에선 바지, 영국에선 주로 속옷. 영국에서 바지는 trousers.",
+      "reason": "교정한 핵심 의미와 용법은 유지하면서 휴대폰 해설 길이를 줄임."
+    },
+    "37:7:7/c": {
+      "action": "revise",
+      "new": "thesis statement는 글 전체의 중심 주장 문장. topic sentence는 한 문단의 중심 문장.",
+      "reason": "교정한 핵심 의미와 용법은 유지하면서 휴대폰 해설 길이를 줄임."
+    },
+    "39:4:7/c": {
+      "action": "revise",
+      "new": "destroy(파괴하다)·destruction(파괴)과 한 어근. destructive criticism은 파괴적인 비판.",
+      "reason": "교정한 핵심 의미와 용법은 유지하면서 휴대폰 해설 길이를 줄임."
+    },
+    "39:9:4/c": {
+      "action": "revise",
+      "new": "mono-(하나)+그리스어 pōlein(팔다). poly-(많은)와 별개. a monopoly on은 ~의 독점.",
+      "reason": "교정한 핵심 의미와 용법은 유지하면서 휴대폰 해설 길이를 줄임."
+    },
+    "43:6:3/c": {
+      "action": "revise",
+      "new": "wrongly assume(잘못 가정하다), be wrongly accused(잘못 고발되다)처럼 동사·분사와 쓴다.",
+      "reason": "교정한 핵심 의미와 용법은 유지하면서 휴대폰 해설 길이를 줄임."
+    },
+    "43:7:2/c": {
+      "action": "revise",
+      "new": "영국 biscuit 중 달콤한 것은 미국의 cookie에 해당해. 짭짤한 과자도 biscuit에 포함돼.",
+      "reason": "교정한 핵심 의미와 용법은 유지하면서 휴대폰 해설 길이를 줄임."
+    },
+    "48:9:0/c": {
+      "action": "revise",
+      "new": "그리스어 βίος(bios, 삶·생명)+-logy(학문). 생물과 생명 현상을 연구해.",
+      "reason": "영어 결합형 bio-의 독립 발음을 biology 안의 소리로 오해하지 않도록 삭제. 전체 단어 발음은 기존 IPA가 제시하므로 원어와 의미에 집중."
+    },
+    "48:1:6/c": {
+      "action": "revise",
+      "new": "라틴어 trans-(건너)+portare(나르다). 한 곳에서 다른 곳으로 실어 나르다.",
+      "reason": "접두사 trans-가 어근 앞에 오도록 표시 순서를 맞춤."
+    },
+    "48:14:2/c": {
+      "action": "revise",
+      "new": "그리스어 δῆμος(dēmos, 민중)+κράτος(kratos, 권력). 민중이 다스리는 체제.",
+      "reason": "그리스어 kratos의 권력·힘 의미를 원형 뜻으로 제시."
+    }
+  },
+  "reviewDecision": "6861개 카드 전량 및 형태소 71개를 읽음. 모든 변경 제안을 원문·이유와 대조하고 승인하되, 의미가 좁아지는 straw 및 간결화·원어 표기의 13개 필드를 다듬음. 단어와 뜻 카드 추가·삭제는 제안만 기록."
+}

@@ -1,0 +1,38 @@
+{
+  "reviewedCards": 6861,
+  "editedCards": 175,
+  "editedFields": 195,
+  "fields": {
+    "ex": 20,
+    "c": 142,
+    "ko": 11,
+    "meow": 4,
+    "tr": 18
+  },
+  "cardIdentityAndOrder": "unchanged",
+  "exerciseOrderAndMetadata": "unchanged",
+  "answerAliases": "unchanged",
+  "gameplayAndUI": "unchanged",
+  "derivedValues": "match approved source edits",
+  "tests": [
+    "reading-core",
+    "keyboard",
+    "spacing",
+    "session",
+    "morphology-content",
+    "connections-content",
+    "connections-input"
+  ],
+  "testResult": "all passed",
+  "simulatedSessions": 7344,
+  "typingPaths": 1336,
+  "resultDataSha256": "9a25a4b1ca7b344c2b77223c7c5486a975c7eadae4bcdb626847c2ef0e6ae6c7",
+  "localPreview": "http://127.0.0.1:8774/?layout=space",
+  "localPreviewDataMatches": true,
+  "githubPublished": false,
+  "quota": {
+    "remainingAtStartPercent": 81,
+    "remainingAtFinishPercent": 64,
+    "measurement": "account-wide weekly allowance; not exact tokens"
+  }
+}
