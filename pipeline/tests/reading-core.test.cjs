@@ -40,7 +40,7 @@ for(const e of DATA[46].exercises)for(const w of e.words){
   const r=w.reviewOf,original=DATA[r.set].exercises.flatMap(e=>e.words).find(x=>x.word===r.word&&x.si===r.si);
   const {reviewOf,...copy}=w;assert.deepEqual(copy,original,'Review copy drifted');reviewReferences++;
 }
-const elements=new Map(),storage=new Map(),timed=[],events=[];
+const elements=new Map(),storage=new Map(),timed=[],events=[],roarCounts=[];
 let tickerStarts=0,currentScreen='home';
 function element(){
   const handlers={};let html='';
@@ -56,15 +56,16 @@ const ctx=vm.createContext({DATA,READING_CORE,MORPHOLOGY,CONNECTIONS,state,$,Set
   localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},document:{createElement:element},window:{scrollTo(){}},
   setCat(){},pick:a=>a?.[0]||'',LINES:{welcome:[],start:[],exerciseDone:[],allDone:['ending']},LESSONCLEAR:{},
   show:n=>{currentScreen=n;events.push(n);},startRound(){},startTicker(){tickerStarts++;state.ticker={};},stopTicker(){state.ticker=null;},
-  toast(){},esc:s=>String(s),fmt:()=>'',setTimeout:f=>timed.push(f),showEnding:()=>events.push('ENDING'),showRoar:()=>events.push('ROAR')});
+  toast(){},esc:s=>String(s),fmt:()=>'',setTimeout:f=>timed.push(f),showEnding:()=>events.push('ENDING'),showRoar:n=>{roarCounts.push(n);events.push('ROAR');}});
 vm.runInContext([
   between('function buildLessons()','/* ===== progress / route ===== */'),
   between('function loadProgress()','/* ===== screens ===== */'),
   between('function saveLast(','/* 발음 읽어주기'),
   between('function renderHome()','/* ===== game ===== */'),
   between('function normalize(','function shuffle('),
-  between('function startExercise(','function startRound('),
+  between('function abandonPerfectRun(','function startRound('),
   between('function finishExercise()','/* ===== fx + audio ===== */'),
+  between('$("#exitBtn").addEventListener','$("#retryEx").addEventListener'),
   between('$("#retryEx").addEventListener','/* 결과 화면 틀린 단어:'),
   between('$("#nextEx").addEventListener','$("#muteBtn").addEventListener')
 ].join('\n'),ctx);
@@ -441,3 +442,26 @@ const lastPart=flatParts.at(-1);ctx.openLesson(lastPart.li);ctx.openExercise(las
 assert.equal(ctx.clearedExercises(),612);assert.equal(timed.length,1);assert($('#nextEx').disabled);
 console.log(JSON.stringify({shortExercises:612,sourceGroups,splitGroups,cards:6861,sizes,oldLocations,newLocations,priorPartLocations,headPartLocations,elevenPartLocations,coverageCases,mixedCoverageCases,getSensesTogether:6,headwordSplits:0,completionInheritance:'source groups, short-v1, heads-v2, pre-deletion heads-v3 and mixed-version coverage checked',shortPartNavigation:'pass',shortPartEnding:'pass'}));
 console.log(JSON.stringify({sets:DATA.length,reviewReferences,legacyProgressKeys:legacyRecords,legacyProgress:'preserved',reviewProgress:'former track retained',mergedProgress:'26 historical exercise keys preserved; 16 consolidated exercises',newProgress:'49/50 isolated from historical root-course records',migratedResumes,courseNavigation:'45→46→47→48→49→50 directly to game',guideUI:'removed',greekResearchUnits:greekUnits,ending:'all 51 sets required',syntax:'passed'}));
+
+// Consecutive perfect exercises cross the result/list screens, but not a miss or abandonment.
+state.progress={};state.session=null;state.perfectStreak=0;timed.length=0;roarCounts.length=0;
+const completeForCombo=(errors=0)=>{
+  const s=state.session;Object.assign(s,{firstSeen:s.words.length,firstCorrect:s.words.length,errors});
+  ctx.finishExercise();
+};
+ctx.openLesson(0);ctx.openExercise(0);completeForCombo();assert.equal(state.perfectStreak,1);
+$('#sumList').click();ctx.openExercise(1);completeForCombo();assert.equal(state.perfectStreak,2);
+assert.deepEqual(roarCounts,[1,2]);
+ctx.finishExercise();assert.equal(state.perfectStreak,2,'Duplicate completion counted twice');
+ctx.openExercise(1,new Set([state.lessons[0].exercises[1].words[0].term]));completeForCombo();
+assert.equal(state.perfectStreak,2,'Partial review changed the full-exercise streak');
+ctx.openExercise(2);completeForCombo();assert.equal(state.perfectStreak,3);
+ctx.openExercise(0);completeForCombo(1);assert.equal(state.perfectStreak,0,'Non-perfect clear kept the streak');
+ctx.openExercise(0);completeForCombo();assert.equal(state.perfectStreak,1);
+ctx.openExercise(1);$('#exitBtn').click();assert.equal(state.perfectStreak,0,'Abandonment kept the streak');
+ctx.openExercise(0);completeForCombo();ctx.openExercise(1);ctx.openExercise(2);
+assert.equal(state.perfectStreak,0,'Restarting an unfinished exercise kept the streak');
+completeForCombo();ctx.openExercise(0);
+Object.assign(state.session,{firstSeen:10,firstCorrect:9,errors:0});ctx.finishExercise();
+assert.equal(state.perfectStreak,0,'First-pass accuracy below 100% counted as perfect');
+console.log(JSON.stringify({perfectExerciseCombo:'list navigation, duplicate completion, partial review, misses, abandonment, restart and first-pass accuracy passed'}));
