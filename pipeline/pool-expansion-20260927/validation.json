@@ -1,0 +1,134 @@
+{
+  "date": "2026-09-27",
+  "status": "passed",
+  "scope": "Approved pool expansion and preceding full content review",
+  "tests": [
+    {
+      "name": "keyboard",
+      "exitCode": 0,
+      "executedBy": "root",
+      "result": {
+        "hangulVisible": true,
+        "imeEnterProtected": true,
+        "compositionDoesNotAutoSubmit": true,
+        "englishAndCopyInput": true,
+        "focusRecovery": true,
+        "nonGameFocusPreserved": true,
+        "newCardLongerAcceptedAnswer": true,
+        "legacyInputThresholdUnchanged": true,
+        "aliasesScopedToCard": true
+      }
+    },
+    {
+      "name": "spacing",
+      "exitCode": 0,
+      "executedBy": "root",
+      "result": {
+        "wordBoundaries": "prompt, typing and copy mode",
+        "explicitSpaces": "preserved without consuming slots",
+        "spacelessAnswers": "accepted",
+        "copyFeedback": "spaces and punctuation do not shift letters",
+        "longAliases": "preserved",
+        "IME": "protected",
+        "responsiveRules": "word wrapping enabled"
+      }
+    },
+    {
+      "name": "morphology-content",
+      "exitCode": 0,
+      "executedBy": "root",
+      "result": {
+        "units": 71,
+        "cards": 167,
+        "greekUnits": 16,
+        "sources": 175,
+        "sourceHtmlSync": true,
+        "scope": "46–48 course content; 0–45 remains separate"
+      }
+    },
+    {
+      "name": "connections-input",
+      "exitCode": 0,
+      "executedBy": "root",
+      "result": {
+        "cards": 192,
+        "acceptedAnswers": 476,
+        "typingPaths": 1336,
+        "canonicalPaths": 384,
+        "alternativePaths": 952,
+        "automaticPaths": 896,
+        "manualAlternativePaths": 440,
+        "spacedAndCompactInput": "passed",
+        "actualMirrorAndSubmit": "passed",
+        "prematureSubmission": "none",
+        "canonicalPrefixCollisions": "none",
+        "canonicalAlphabetThreshold": "unchanged",
+        "correctAnswersRejected": 0
+      }
+    },
+    {
+      "name": "reading-core",
+      "exitCode": 0,
+      "executedBy": "content_review_16_32",
+      "result": {
+        "dataScope": "pre-expansion historical baseline restored",
+        "historicalCards": 6861,
+        "coverageCases": 3050,
+        "mixedCoverageCases": 16294,
+        "topicCoverageCases": 64,
+        "historicalFixturesPreserved": true
+      }
+    },
+    {
+      "name": "connections-content",
+      "exitCode": 0,
+      "executedBy": "content_review_16_32",
+      "result": {
+        "cards": 192,
+        "historicalCardsRead": 6715,
+        "priorReferences": 418,
+        "acceptedAnswers": 476
+      }
+    },
+    {
+      "name": "session",
+      "exitCode": 0,
+      "executedBy": "content_review_16_32",
+      "result": {
+        "dataScope": "live expanded pool",
+        "sessions": 7344,
+        "exercises": 612,
+        "seedsPerExercise": 12
+      }
+    },
+    {
+      "name": "pool-expansion",
+      "exitCode": 0,
+      "executedBy": "content_review_16_32",
+      "result": {
+        "cards": 6876,
+        "sourceGroups": 520,
+        "playableExercises": 612,
+        "resetGroups": 16,
+        "resetParts": 22,
+        "retainedParts": 590,
+        "newRecordAndResumeCases": 612,
+        "typingPaths": 40,
+        "aliasPaths": 6,
+        "phrasePaths": 12,
+        "headwordSplits": 0,
+        "fixedHistoricalHashRestored": true
+      }
+    }
+  ],
+  "checks": {
+    "addedCards": 17,
+    "consolidatedCards": 2,
+    "cardMeaningReview": "All 17 new cards independently read and cross-reviewed",
+    "unchangedRuntimeStyleAndOtherConstants": true,
+    "unlistedDataUnchanged": true,
+    "baselineDataSha256": "9a25a4b1ca7b344c2b77223c7c5486a975c7eadae4bcdb626847c2ef0e6ae6c7",
+    "afterDataSha256": "1704ec16ef54d3e42a6b088a649fa7bd35a380a02adfc59f9ef269fbfed0fd11"
+  },
+  "release": "Pre-deployment validation; public deployment verified separately"
+}

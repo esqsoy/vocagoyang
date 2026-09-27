@@ -5,8 +5,12 @@ const h=fs.readFileSync(path.join(repo,'vocagoyangfable.html'),'utf8');
 const legacy=JSON.parse(fs.readFileSync(path.join(repo,'pipeline/tests/legacy-progress.fixture.json'),'utf8'));
 const priorMorph=JSON.parse(fs.readFileSync(path.join(repo,'pipeline/tests/morphology-progress-before-merge.fixture.json'),'utf8'));
 const readConst=name=>JSON.parse(h.match(new RegExp('const '+name+' = ([^\\n]+);\\r?\\n'))[1]);
-const DATA=readConst('DATA'),READING_CORE=readConst('READING_CORE'),MORPHOLOGY=readConst('MORPHOLOGY'),CONNECTIONS=readConst('CONNECTIONS');
-const reviewedBaseline=require('./helpers/editorial-review.cjs').restoreReviewedBaseline(DATA);
+const LIVE_DATA=readConst('DATA'),reviewHelpers=require('./helpers/editorial-review.cjs');
+// Keep every published migration fixture and historical coverage combination
+// frozen. The live expanded pool and its deliberate per-group resets are
+// checked separately by pool-expansion.test.cjs; session.test.cjs plays it all.
+const DATA=reviewHelpers.restorePoolExpansion(LIVE_DATA),READING_CORE=readConst('READING_CORE'),MORPHOLOGY=readConst('MORPHOLOGY'),CONNECTIONS=readConst('CONNECTIONS');
+const reviewedBaseline=reviewHelpers.restoreReviewedBaseline(LIVE_DATA);
 const between=(a,b)=>{const i=h.indexOf(a),j=h.indexOf(b,i+a.length);assert(i>=0&&j>i,a);return h.slice(i,j);};
 for(const s of h.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g))new vm.Script(s[1]);
 assert.deepEqual(DATA.map(L=>L.lesson),Array.from({length:51},(_,i)=>i));

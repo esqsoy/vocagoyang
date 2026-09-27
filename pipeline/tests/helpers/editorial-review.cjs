@@ -4,6 +4,22 @@ const explanationReview=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../..
 const stressReview=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../stress-review-20260927/findings.json'),'utf8'));
 const topicReview=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../topic-review-20260927/findings.json'),'utf8'));
 const contentReview=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../content-review-20260927/findings.json'),'utf8'));
+const poolExpansion=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../pool-expansion-20260927/findings.json'),'utf8'));
+function restorePoolExpansion(data){
+  const restored=structuredClone(data),seen=new Set();
+  const hash=value=>crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
+  assert.equal(poolExpansion.baselineDataSha256,'9a25a4b1ca7b344c2b77223c7c5486a975c7eadae4bcdb626847c2ef0e6ae6c7','Do not rewrite the pre-expansion content baseline');
+  assert.equal(hash(data),poolExpansion.afterDataSha256,'Unlogged change after the pool expansion');
+  for(const change of poolExpansion.groupChanges){
+    const key=`${change.lesson}:${change.ex}`;assert(!seen.has(key),'Duplicate pool group '+key);seen.add(key);
+    const lesson=restored.find(L=>L.lesson===change.lesson);assert(lesson,key);
+    const index=lesson.exercises.findIndex(e=>e.ex===change.ex);assert(index>=0,key);
+    assert.deepEqual(lesson.exercises[index],change.new,'Expanded group drifted: '+key);
+    lesson.exercises[index]=structuredClone(change.old);
+  }
+  assert.equal(hash(restored),poolExpansion.baselineDataSha256,'Changes exceed the approved 17 additions and 2 consolidations');
+  return restored;
+}
 function restoreContentReview(data){
   const restored=structuredClone(data);
   for(const change of contentReview.changes){
@@ -37,7 +53,7 @@ function restoreTopicGrouping(data,{beforeContentReview=false}={}){
   return restored;
 }
 function restoreReviewedBaseline(data){
-  const restored=restoreTopicGrouping(restoreContentReview(data),{beforeContentReview:true});
+  const restored=restoreTopicGrouping(restoreContentReview(restorePoolExpansion(data)),{beforeContentReview:true});
   // Reverse the later explanation-only review before checking the original audit.
   // The historical baseline hash remains unchanged and still rejects unlogged edits.
   for(const review of [stressReview,explanationReview])for(const change of review.changes){
@@ -71,4 +87,4 @@ function restoreReviewedBaseline(data){
   assert.equal(crypto.createHash('sha256').update(JSON.stringify(restored)).digest('hex'),'f9aaab01e26c57c171be1ed705bb27b87b502fdd4fdc458e282e8f3b2813061d','Changes exceed the complete editorial audit');
   return restored;
 }
-module.exports={audit,contentReview,restoreContentReview,restoreReviewedBaseline,restoreTopicGrouping};
+module.exports={audit,contentReview,poolExpansion,restorePoolExpansion,restoreContentReview,restoreReviewedBaseline,restoreTopicGrouping};

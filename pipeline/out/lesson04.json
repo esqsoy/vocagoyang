@@ -2063,11 +2063,11 @@
           "pos": "n.",
           "word": "bill",
           "si": 1,
-          "sn": 2
+          "sn": 3
         },
         {
           "en": "bill",
-          "ko": "② 지폐 / 법안",
+          "ko": "② 지폐",
           "ex": "He paid with a ten-dollar {{BLANK}}.",
           "tr": "걔는 10달러 지폐로 냈어.",
           "c": "",
@@ -2075,8 +2075,20 @@
           "pos": "n.",
           "word": "bill",
           "si": 2,
-          "sn": 2,
+          "sn": 3,
           "meow": "bill, 청구서도 지폐도 법안도 다 같은 단어라고양. 법안은 돈 얘기가 아닐 수도 있다고양."
+        },
+        {
+          "en": "bill",
+          "word": "bill",
+          "ko": "③ 법안",
+          "ex": "Parliament will vote on the new {{BLANK}} tomorrow.",
+          "tr": "의회는 내일 새 법안을 표결할 거야.",
+          "c": "법으로 만들려고 의회에 제출한 안. 이미 성립한 법 law와 구별해.",
+          "ipa": "bɪl",
+          "pos": "n.",
+          "si": 3,
+          "sn": 3
         },
         {
           "en": "cool",
@@ -2210,7 +2222,8 @@
           "si": 2,
           "sn": 2
         }
-      ]
+      ],
+      "progressId": "fable-pool-20260927-set4-ex10"
     }
   ]
 }

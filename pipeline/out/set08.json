@@ -1214,6 +1214,33 @@
         "meow": "necessary, 필요한. c 하나에 s 둘이고양. 틀리면 다시 쓰라고양."
       },
       {
+        "en": "essential",
+        "word": "essential",
+        "ko": "① 필수적인, 꼭 필요한",
+        "ex": "Water is {{BLANK}} for life.",
+        "tr": "물은 생명 유지에 필수적이야.",
+        "c": "꼭 필요한. essential for/to ~는 ~에 필수적이라는 뜻.",
+        "ipa": "ɪˈsɛnʃəl",
+        "pos": "adj.",
+        "si": 1,
+        "sn": 2,
+        "acceptedAnswers": [
+          "necessary"
+        ]
+      },
+      {
+        "en": "essential",
+        "word": "essential",
+        "ko": "② 본질적인, 근본적인",
+        "ex": "The house kept its {{BLANK}} character after repairs.",
+        "tr": "그 집은 수리 후에도 본질적인 특성을 유지했어.",
+        "c": "대상을 그답게 만드는 근본적인 성질. 여기서는 ‘필수적인’이 아니야.",
+        "ipa": "ɪˈsɛnʃəl",
+        "pos": "adj.",
+        "si": 2,
+        "sn": 2
+      },
+      {
         "en": "bar",
         "ko": "① 막대(기)",
         "ex": "I ate a chocolate {{BLANK}} for a snack.",
@@ -1358,7 +1385,8 @@
         "si": 3,
         "sn": 3
       }
-    ]
+    ],
+    "progressId": "fable-pool-20260927-set8-ex7"
   },
   {
     "ex": 8,

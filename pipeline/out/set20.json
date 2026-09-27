@@ -927,18 +927,6 @@
         "sn": 1
       },
       {
-        "en": "tyre",
-        "ko": "① 타이어",
-        "ex": "The car has a flat {{BLANK}}.",
-        "tr": "차 타이어에 바람이 빠졌어.",
-        "c": "영국식 철자, 미국은 tire. a flat tyre=바람 빠진 타이어.",
-        "ipa": "ˈtaɪɚ",
-        "pos": "n.",
-        "word": "tyre",
-        "si": 1,
-        "sn": 1
-      },
-      {
         "en": "pencil",
         "ko": "① 연필",
         "ex": "Write your name with a {{BLANK}}.",
@@ -950,7 +938,8 @@
         "si": 1,
         "sn": 1
       }
-    ]
+    ],
+    "progressId": "fable-pool-20260927-set20-ex6"
   },
   {
     "ex": 7,
@@ -990,7 +979,7 @@
         "pos": "v.",
         "word": "entertain",
         "si": 1,
-        "sn": 2
+        "sn": 3
       },
       {
         "en": "entertain",
@@ -1002,7 +991,19 @@
         "ipa": "ˌɛntɚˈteɪn",
         "pos": "v.",
         "si": 2,
-        "sn": 2
+        "sn": 3
+      },
+      {
+        "en": "entertain",
+        "word": "entertain",
+        "ko": "③ (생각·가능성을) 고려하다",
+        "ex": "We should {{BLANK}} the possibility that we are wrong.",
+        "tr": "우리가 틀렸을 가능성도 고려해야 해.",
+        "c": "entertain an idea/possibility는 생각·가능성을 고려하다. 동의했다는 뜻은 아니야.",
+        "ipa": "ˌɛntɚˈteɪn",
+        "pos": "v.",
+        "si": 3,
+        "sn": 3
       },
       {
         "en": "lid",
@@ -1101,7 +1102,8 @@
         "si": 1,
         "sn": 1
       }
-    ]
+    ],
+    "progressId": "fable-pool-20260927-set20-ex7"
   },
   {
     "ex": 8,
@@ -1518,8 +1520,24 @@
         "pos": "v.",
         "word": "furnish",
         "si": 1,
-        "sn": 1
+        "sn": 2
+      },
+      {
+        "en": "furnish",
+        "word": "furnish",
+        "ko": "② (정보·증거 등을) 제공하다",
+        "ex": "The witness can {{BLANK}} us with more details.",
+        "tr": "그 증인은 우리에게 더 자세한 정보를 제공할 수 있어.",
+        "c": "furnish A with B는 A에게 B를 제공하다. 정보·증거에도 써.",
+        "ipa": "ˈfɝnɪʃ",
+        "pos": "v.",
+        "si": 2,
+        "sn": 2,
+        "acceptedAnswers": [
+          "provide"
+        ]
       }
-    ]
+    ],
+    "progressId": "fable-pool-20260927-set20-ex10"
   }
 ]

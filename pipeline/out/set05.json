@@ -587,8 +587,33 @@
         "pos": "prep.",
         "si": 3,
         "sn": 3
+      },
+      {
+        "en": "nothing but",
+        "word": "nothing but",
+        "ko": "① 오직 ~뿐, ~밖에 없는",
+        "ex": "The box held {{BLANK}} old photos.",
+        "tr": "그 상자에는 오래된 사진밖에 없었어.",
+        "c": "but이 ‘제외하고’라는 뜻. nothing but A는 A 외에는 아무것도 없는 것.",
+        "ipa": "ˈnʌθɪŋ bʌt",
+        "pos": "phr.",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "anything but",
+        "word": "anything but",
+        "ko": "① 결코 ~이 아닌",
+        "ex": "The test was {{BLANK}} easy.",
+        "tr": "그 시험은 결코 쉽지 않았어.",
+        "c": "anything but easy는 전혀 쉽지 않다는 뜻. nothing but(오직)와 구별해.",
+        "ipa": "ˈɛniθɪŋ bʌt",
+        "pos": "phr.",
+        "si": 1,
+        "sn": 1
       }
-    ]
+    ],
+    "progressId": "fable-pool-20260927-set5-ex2"
   },
   {
     "ex": 3,
@@ -1716,6 +1741,30 @@
         "sn": 3
       },
       {
+        "en": "even if",
+        "word": "even if",
+        "ko": "① 설령 ~하더라도",
+        "ex": "I'll go running tomorrow {{BLANK}} it rains.",
+        "tr": "내일 비가 오더라도 달리러 나갈 거야.",
+        "c": "비가 올지는 몰라도, 와도 결심은 같아. even though는 사실을 인정하며 양보해.",
+        "ipa": "ˈivən ɪf",
+        "pos": "conj.",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "even though",
+        "word": "even though",
+        "ko": "① (실제로) ~인데도",
+        "ex": "We kept walking {{BLANK}} it was raining.",
+        "tr": "실제로 비가 오고 있었는데도 우리는 계속 걸었어.",
+        "c": "비가 왔다는 사실을 인정하면서, 예상과 다른 결과를 말해.",
+        "ipa": "ˈivən ðoʊ",
+        "pos": "conj.",
+        "si": 1,
+        "sn": 1
+      },
+      {
         "en": "only",
         "ko": "① 오직, ~만",
         "ex": "{{BLANK}} you can help me now.",
@@ -1775,7 +1824,8 @@
         "si": 1,
         "sn": 1
       }
-    ]
+    ],
+    "progressId": "fable-pool-20260927-set5-ex7"
   },
   {
     "ex": 8,

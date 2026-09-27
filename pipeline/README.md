@@ -1,6 +1,6 @@
 # Fable 데이터와 검증 파이프라인
 
-현재 구성과 교육적 합의는 [WORK_PLAN.md](../WORK_PLAN.md)를 기준으로 한다. 현재 0세트 포함 51세트, 612연습, 6,861카드다. 원본은 520개 주제 묶음이며 각 묶음을 표제어가 갈라지지 않는 11카드 중심의 연습으로 나눈다. 평균 11.2카드, 약 93%가 8~15카드다. 일부 기초 주제는 exercise-topics.json의 경계를 우선한다. 카드 수·표제어 수·어족 수는 서로 다른 집계다.
+현재 구성과 교육적 합의는 [WORK_PLAN.md](../WORK_PLAN.md)를 기준으로 한다. 현재 0세트 포함 51세트, 612연습, 6,876카드다. 원본은 520개 주제 묶음이며 각 묶음을 표제어가 갈라지지 않는 11카드 중심의 연습으로 나눈다. 평균 11.2카드, 약 93%가 8~15카드다. 일부 기초 주제는 exercise-topics.json의 경계를 우선한다. 카드 수·표제어 수·어족 수는 서로 다른 집계다.
 
 ## 원본
 
@@ -31,6 +31,7 @@ node pipeline/tests/session.test.cjs
 node pipeline/tests/morphology-content.test.cjs
 node pipeline/tests/connections-content.test.cjs
 node pipeline/tests/connections-input.test.cjs
+node pipeline/tests/pool-expansion.test.cjs
 ```
 
 스크립트는 자신의 위치를 기준으로 경로를 해석한다. HTML에서 원본을 복원해야 할 때는 python pipeline/disassemble.py를 사용한다. 수정 후 조립하고 관련 검사를 실행한다.
@@ -50,3 +51,7 @@ node pipeline/tests/connections-input.test.cjs
 `exercise-topics.json`은 기본 11카드 분할을 덮어쓸 소수의 주제 경계를 정의한다. `through`는 해당 표제어의 마지막 뜻까지 포함한다. `assemble.py`가 경계를 검증하고 `practiceParts`와 기존 카드 위치를 생성한다. March·May의 월 의미는 원래 세트의 카드를 참조해 복습용으로 추가하며 원본 단어장에서는 옮기지 않는다. 이전 카드 목록은 진도 보존에 사용하므로 직접 고치지 않는다.
 
 현재 변경 목록과 검증: [주제 경계 검토](topic-review-20260927/report.md). `reading-core.test.cjs`는 요일·월의 완결성, 관련 단어의 경계, 이전 완료·이어하기 기록을 검사한다.
+
+## 승인된 어휘 풀 보완 (2026-09-27)
+
+17카드 추가·중복 2카드 통합으로 6,876카드가 됐다. 구성 변경 원본 16묶음에만 새 progressId를 적용하며 저장된 기록은 삭제하지 않는다. 나머지 완료·이어하기는 그대로다. [변경 전체](pool-expansion-20260927/REPORT.md), [전후 데이터](pool-expansion-20260927/findings.json)를 참고한다. restorePoolExpansion()은 최신 풀을 직전 검수 기준으로 되돌려 과거 참조·검수 해시를 보존한다.

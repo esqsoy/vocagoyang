@@ -4,7 +4,10 @@ const readConst=name=>JSON.parse(html.match(new RegExp('const '+name+' = ([^\\n]
 const DATA=readConst('DATA'),CONNECTIONS=readConst('CONNECTIONS');
 assert.deepEqual(CONNECTIONS,JSON.parse(fs.readFileSync(path.join(repo,'pipeline/connections.json'),'utf8')));
 // Keep historical audit IDs after removing yeah/oh at indices 4 and 5 of 0:4.
-const priorData=require('./helpers/editorial-review.cjs').restoreTopicGrouping(DATA);
+const reviewHelpers=require('./helpers/editorial-review.cjs');
+// priorRefs and the 6,715-card audit identify the historical curriculum. New
+// cards must not take another card's old positional ID after insertion.
+const priorData=reviewHelpers.restoreTopicGrouping(reviewHelpers.restorePoolExpansion(DATA));
 const prior=new Map(priorData.slice(0,49).flatMap(L=>L.exercises.flatMap(e=>e.words.map((w,i)=>{
   const oldIndex=e.legacyWords?e.legacyWords.findIndex(x=>x.word===w.word&&x.si===w.si):i;assert(oldIndex>=0);
   return [`${L.lesson}:${e.ex}:${L.lesson===0&&e.ex===4&&oldIndex>=4?oldIndex+2:oldIndex}`,w];
