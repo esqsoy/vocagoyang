@@ -5,11 +5,24 @@ const stressReview=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../stre
 const topicReview=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../topic-review-20260927/findings.json'),'utf8'));
 const contentReview=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../content-review-20260927/findings.json'),'utf8'));
 const poolExpansion=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../pool-expansion-20260927/findings.json'),'utf8'));
+const playerFeedback=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../player-feedback-20260927.json'),'utf8'));
+function restorePlayerFeedback(data){
+  const restored=structuredClone(data),hash=value=>crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
+  assert.equal(hash(restored),playerFeedback.afterDataSha256,'Unlogged change after player feedback');
+  for(const change of [...playerFeedback.changes].reverse()){
+    const group=restored.find(L=>L.lesson===change.lesson)?.exercises.find(e=>e.ex===change.exercise);
+    const card=group?.words.find(w=>w.word===change.word&&w.si===change.si);assert(card);
+    assert.equal(change.field,'c','This feedback edits explanations only');
+    assert.equal(card.c,change.new);card.c=change.old;
+  }
+  assert.equal(hash(restored),playerFeedback.baselineDataSha256,'Changes exceed recorded player feedback');
+  return restored;
+}
 function restorePoolExpansion(data){
-  const restored=structuredClone(data),seen=new Set();
+  const restored=restorePlayerFeedback(data),seen=new Set();
   const hash=value=>crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
   assert.equal(poolExpansion.baselineDataSha256,'9a25a4b1ca7b344c2b77223c7c5486a975c7eadae4bcdb626847c2ef0e6ae6c7','Do not rewrite the pre-expansion content baseline');
-  assert.equal(hash(data),poolExpansion.afterDataSha256,'Unlogged change after the pool expansion');
+  assert.equal(hash(restored),poolExpansion.afterDataSha256,'Unlogged change after the pool expansion');
   for(const change of poolExpansion.groupChanges){
     const key=`${change.lesson}:${change.ex}`;assert(!seen.has(key),'Duplicate pool group '+key);seen.add(key);
     const lesson=restored.find(L=>L.lesson===change.lesson);assert(lesson,key);
@@ -87,4 +100,4 @@ function restoreReviewedBaseline(data){
   assert.equal(crypto.createHash('sha256').update(JSON.stringify(restored)).digest('hex'),'f9aaab01e26c57c171be1ed705bb27b87b502fdd4fdc458e282e8f3b2813061d','Changes exceed the complete editorial audit');
   return restored;
 }
-module.exports={audit,contentReview,poolExpansion,restorePoolExpansion,restoreContentReview,restoreReviewedBaseline,restoreTopicGrouping};
+module.exports={audit,contentReview,poolExpansion,restorePlayerFeedback,restorePoolExpansion,restoreContentReview,restoreReviewedBaseline,restoreTopicGrouping};

@@ -1,9 +1,10 @@
 const fs=require('fs'),path=require('path'),vm=require('vm'),assert=require('assert/strict');
 const repo=path.resolve(__dirname,'../..');
 const html=fs.readFileSync(path.join(repo,'vocagoyangfable.html'),'utf8');
-const DATA=JSON.parse(html.match(/const DATA = ([^\n]+);\r?\n/)[1]);
-const {poolExpansion:review,restorePoolExpansion}=require('./helpers/editorial-review.cjs');
-const before=restorePoolExpansion(DATA),json=JSON.stringify;
+const LIVE_DATA=JSON.parse(html.match(/const DATA = ([^\n]+);\r?\n/)[1]);
+const {poolExpansion:review,restorePlayerFeedback,restorePoolExpansion}=require('./helpers/editorial-review.cjs');
+// Freeze this historical expansion audit; later explanation edits have their own ledger.
+const DATA=restorePlayerFeedback(LIVE_DATA),before=restorePoolExpansion(LIVE_DATA),json=JSON.stringify;
 const group=(data,l,e)=>data.find(L=>L.lesson===l).exercises.find(x=>x.ex===e);
 const cardAt=(data,id)=>{const[l,e,i]=id.split(':').map(Number);return group(data,l,e).words[i];};
 const cardKey=w=>w.word+'/'+w.si,groupKey=(l,e)=>l+':'+e;

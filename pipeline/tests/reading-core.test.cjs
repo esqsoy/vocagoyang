@@ -209,7 +209,9 @@ ctx.openLesson(50);ctx.openExercise(state.lessons[50].exercises.length-1);ctx.fi
 assert.equal(timed.length,1);assert.equal(ctx.clearedExercises(),ctx.totalExercises());assert($('#nextEx').disabled);
 timed[0]();assert.equal(events.at(-1),'ENDING');
 const ids=new Set();
-for(const L of DATA.filter(l=>l.kind==='morphology'))for(const e of L.exercises){
+// Compare the current source with current cards. DATA above is deliberately
+// restored to the historical progress fixture, including its old explanations.
+for(const L of LIVE_DATA.filter(l=>l.kind==='morphology'))for(const e of L.exercises){
   const expected=e.unitIds.flatMap(id=>{ids.add(id);const u=MORPHOLOGY.units.find(u=>u.id===id);assert(u);return u.cards;});
   assert.equal(expected.length,e.words.length);e.words.forEach((w,i)=>{for(const k of ['word','en','ko','ex','tr','c','ipa','pos'])assert.equal(w[k],expected[i][k]);});
 }

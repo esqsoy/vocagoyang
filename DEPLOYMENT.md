@@ -1,3 +1,18 @@
+# Fable 해설 문장·군더더기 전수 검수 · 2026-09-27
+
+- 51세트·6,876카드 전체를 확인했다. 해설 481곳을 수정했으며 앞선 topic/subject 3곳을 포함해 총 484카드가 바뀐다.
+- 독립된 내용을 단문으로 나누고 막연한 동의어 연결·학습 독려·무관한 설명을 줄였다. 7카드는 해설만 지웠다. 어원 원문과 실제 쓰임의 차이는 유지한다.
+- 해설 필드만 바뀌었다. 단어·예문·순서·51세트·612연습·6,876카드·UI·게임 코드·기존 완료/이어하기 키는 그대로다.
+- 기존 검사 8종 통과: 모의 플레이 7,344회, 결합 입력 1,336경로, 과거 진도 승계 및 현재 원본 동기화 확인.
+- [검수 결과](pipeline/explanation-clarity-20260927/REPORT.md), [전체 전후 문구](pipeline/explanation-clarity-20260927/findings.json), [검증 결과](pipeline/explanation-clarity-20260927/validation.json).
+- 배포 전 기준은 b99dd9bfdb39806a1319d5c71448723bf03df324다.
+
+배포 대상: https://esqsoy.github.io/vocagoyang/vocagoyangfable.html
+
+실제 공개 상태는 GitHub Pages 결과와 공개 HTML 파일로 확인한다. 아래는 이전 배포 기록이다.
+
+---
+
 # Fable 장미·하트 효과와 퍼펙트 연습 콤보 · 2026-09-27
 
 - 본문 하트는 약 20% 크게, 재생 시간은 8% 짧게 조정했다.
