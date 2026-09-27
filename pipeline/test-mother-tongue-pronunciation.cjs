@@ -9,9 +9,9 @@ assert.equal(h.html.match(/^function fmtIpa\(.*$/m)[0],fable.match(/^function fm
 assert(!h.html.includes('class="mt-speak"'));assert(!h.els.has('muteBtn'));assert(!h.els.has('resetBtn'));
 assert(h.els.has('muteBtn2'));
 let markup=h.ctx.pronunciationMarkup('house','소장하다, 보관하다');
-assert(markup.includes('class="ov-ipa"'));assert(clean(markup).includes('동사 /haʊz/'));assert(!clean(markup).includes('haʊs'));
+assert(markup.includes('class="ov-ipa rv-inline-ipa"'));assert(clean(markup).includes('동사 /haʊz/'));assert(!clean(markup).includes('haʊs'));
 markup=h.ctx.pronunciationMarkup('house','보관하다 / 집');assert(clean(markup).includes('동사 /haʊz/ · 명사 /haʊs/'));
-assert(!/<button|role=/.test(markup),'IPA has no separate replay button');
+assert(markup.startsWith('<button type="button"'),'The inline IPA itself is keyboard accessible');assert(!markup.includes('다시 듣기'),'No separate replay label');
 assert(h.ctx.pronunciationMarkup('official','').includes('<b>'),'Primary stress retains Fable emphasis');
 h.run('MT_PRONUNCIATIONS["unsafe"]={ipa:"ˈa<&",label:"<명사>",speech:"safe",alternatives:[{ipa:"b>&",label:"동사"}]}');
 markup=h.ctx.pronunciationMarkup('unsafe','');assert(markup.includes('&lt;명사&gt;'));assert(markup.includes('&lt;&amp;'));assert(!markup.includes('<명사>'));
@@ -23,7 +23,7 @@ assert.equal(h.els.get('reveal').innerHTML,'');assert.equal(h.spoken.length,0);
 h.ctx.speakPronunciation(term,'');assert.equal(h.spoken.length,0);
 h.type(term);assert.equal(h.state.session.answered,true);assert.equal(h.spoken.length,1);
 assert.equal(h.spoken[0].text,term);assert.equal(h.spoken[0].rate,.88);assert.equal(h.spoken[0].lang,'en-US');
-assert(h.els.get('reveal').innerHTML.includes('ov-ipa'));assert(h.els.get('reveal').innerHTML.includes('class="rv-w"'));
+assert(h.els.get('reveal').innerHTML.includes('rv-inline-ipa'));assert(!h.els.get('reveal').innerHTML.includes('class="rv-w"'));assert(h.blank.innerHTML.includes('slot-glyph'),'Answer remains in the original cells');
 const afterStart=h.cancels;h.advance(1500);
 assert.equal(h.state.session.answered,false);assert.equal(h.els.get('reveal').innerHTML,'');assert.equal(h.cancels,afterStart,'Started audio may finish across the next question');
 
@@ -31,9 +31,9 @@ assert.equal(h.state.session.answered,false);assert.equal(h.els.get('reveal').in
 h=harness(filename);h.start();h.els.get('ainput').value='wrong';h.ctx.submit();
 assert(h.state.session.copyMode);assert.equal(h.spoken.length,1);assert(h.els.get('reveal').innerHTML.includes('ov-ipa'));
 const word=h.state.session.words[0];
-const wordTarget={closest:q=>q==='.rv-w'?{}:null};
+const wordTarget={closest:q=>q==='.rv-inline-ipa'?{}:null};
 h.fire('reveal','click',{target:wordTarget});assert.equal(h.spoken.length,2,'Fable word tap replays, with no standalone control');assert.equal(h.doc.activeElement,h.els.get('ainput'));
-h.fire('reveal','keydown',{target:wordTarget,key:'Enter'});assert.equal(h.spoken.length,3,'Revealed word remains keyboard accessible');
+h.fire('reveal','click',{target:wordTarget});assert.equal(h.spoken.length,3,'Native Enter/Space click replays the inline IPA');
 const count=h.spoken.length;h.fire('reveal','click',{target:{closest:()=>null}});assert.equal(h.spoken.length,count);
 const cancelBefore=h.cancels;h.fire('muteBtn2','click');assert(h.state.muted);assert(h.cancels>cancelBefore);
 h.ctx.speakPronunciation(word.term,word.meaning);assert.equal(h.spoken.length,count);

@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-28",
+  "baseline": "c0e5b5e5fec3ac094c0f87c1b417080a55ff0f56",
+  "files": {
+    "ksat": {
+      "file": "vocagoyangksat2027.html",
+      "backup": "backups/vocagoyangksat2027-20260928-before-final-fable-ui.html",
+      "originalSha256": "44a48977dcfe6ef08b01cd239887dedee8cd3b481f8bcf78f036accbd2ede5db",
+      "currentSha256": "dc60b8d14322654e70db53da58c925eb388bd2b3c46ea380b5264f925f675421",
+      "dataUnchanged": true,
+      "lessons": 17,
+      "exercises": 521,
+      "cards": 6498
+    },
+    "ebs": {
+      "file": "vocagoyangebs2027.html",
+      "backup": "backups/vocagoyangebs2027-20260928-before-final-fable-ui.html",
+      "originalSha256": "8528faf8bcc03bd3e3b9c14fa2636eb198d7f2dc709b2c28191aaa12996f7e76",
+      "currentSha256": "94b62122ce101b154ff5e736f1d7c7904fc8da9305241f8cb499eaaa618e4be3",
+      "dataUnchanged": true,
+      "lessons": 4,
+      "exercises": 48,
+      "cards": 597
+    }
+  },
+  "fableUnchanged": true,
+  "fablePublishedSha256": "a76b6d18e5f2a5cfd2f3ee13810573cf72ffb4aaf9ba07b47b49ae157f4bd650",
+  "tests": [
+    {
+      "name": "test-mother-tongue-layout",
+      "exitCode": 0,
+      "output": "PASS Mother Tongue Fable UI: 6,498 canonical cards (56,193 character events), 72 special terms / 460 quiz + 460 copy paths; IME, slots, timers, retry rules and legacy records preserved."
+    },
+    {
+      "name": "test-mother-tongue-pronunciation",
+      "exitCode": 0,
+      "output": "PASS pronunciation UI: Fable IPA formatting, no separate replay button, reveal-only automatic TTS, word tap/keyboard replay, meaning-aware audio, mute/exit/lazy/unsupported safety."
+    },
+    {
+      "name": "test-mother-tongue-pronunciation-data",
+      "exitCode": 0,
+      "output": "PASS pronunciation coverage: 17 lessons, 6,498 unchanged cards, 4,028 expressions; semantic IPA, clean speech, provenance and embedded-data parity."
+    },
+    {
+      "name": "test-textbook-ui",
+      "exitCode": 0,
+      "output": "{\"ebs\":[{\"book\":\"ebs\",\"cards\":597,\"characterEvents\":5304}],\"allPassageAndStorageKeysPreserved\":true,\"firstCellHint\":\"one letter only, one-letter answers require confirmation\",\"input\":\"correct, copy, IME and retries\",\"feedback\":\"answer remains in cells; cat dialogue above\",\"perfectStreak\":\"duplicate completion and miss reset verified\"}"
+    }
+  ],
+  "browser": {
+    "engine": "Codex in-app browser",
+    "checks": [
+      "Original title row and Mother Tongue 2026/all control",
+      "Correct answer stays in original cells; IPA inline without duplicate word",
+      "nineteen hint reveals n once",
+      "Compact multiword input accepted; display retains spaces",
+      "EBS wrong answer, copy input and summary rose animation",
+      "320px viewport: read between the lines wraps at word boundaries without horizontal overflow"
+    ],
+    "stableCorrectAnswer": {
+      "meaning": {
+        "x": 18,
+        "y": 144.796875,
+        "width": 366,
+        "height": 67.53125
+      },
+      "firstSlot": {
+        "x": 98.09375,
+        "y": 239.046875,
+        "width": 25.7265625,
+        "height": 27.0078125
+      },
+      "sameBeforeAndAfter": true
+    }
+  }
+}

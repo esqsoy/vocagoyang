@@ -85,7 +85,7 @@ for(const c of fixture.qaCases){
 // accepted without moving the letter cursor before the answer is complete.
 assert.equal(h.ctx.blankParts('cliché').chars.length,6);
 assert(h.ctx.blankSlots('cliché','cliché').includes('é'));
-assert(h.ctx.blankSlots('lab(=laboratory)').includes('>=</span>'),'Required editorial equals is visible');
+assert(h.ctx.blankSlots('lab(=laboratory)').includes('slot-glyph">=</span>'),'Required editorial equals is visible');
 assert.equal((h.ctx.blankSlots('read between the lines').match(/class="slot-word"/g)||[]).length,4);
 assert.equal((h.ctx.blankSlots('read between the lines','readbetweenthelines').match(/class="slot-word"/g)||[]).length,4);
 assert.equal((h.ctx.blankSlots('read between the lines','read between').match(/class="slot-word"/g)||[]).length,4);
@@ -107,7 +107,7 @@ h.fire('ainput','compositionend');assert(!s.copyMode);assert.equal(s.attempts,1,
 h.advance(649);assert.equal(s.currentId,0);h.advance(1);assert.equal(s.currentId,1,'Copy completes after 650 ms');
 
 // Hints, forced skips and timeouts keep the original grading semantics.
-s=mountWord(h);assert.equal(h.els.get('qmini').textContent,'');h.ctx.giveHint();assert(h.els.get('qmini').innerHTML.includes('힌트①'));h.type('official');assert.equal(s.firstCorrect,0);assert.equal(s.errors,0);
+s=mountWord(h);assert.equal(h.els.get('qmini').textContent,'');h.ctx.giveHint();assert.equal(h.els.get('ainput').value,'o');assert.equal(h.els.get('qmini').textContent,'');h.ctx.giveHint();assert.equal(h.els.get('ainput').value,'o');assert.equal(s.hints,1);h.type('official');assert.equal(s.firstCorrect,0);assert.equal(s.errors,0);
 s=mountWord(h);h.els.get('ainput').value='official';h.ctx.submit({timeout:true});assert(s.copyMode);assert.equal(s.errors,1);assert.equal(s.firstCorrect,0);
 s=mountWord(h);h.els.get('ainput').value='official';h.ctx.submit({forced:true});assert(s.copyMode);assert.equal(s.errors,1);
 s=mountWord(h);h.advance(s.cardLimit*1000);h.ctx.updateStats();assert(s.copyMode);assert.equal(s.errors,1,'Timer expiration is still an incorrect attempt');

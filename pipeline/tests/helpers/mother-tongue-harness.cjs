@@ -12,7 +12,7 @@ function harness(filename=path.join(root,'vocagoyangksat2027.html'),seed={}){
    appendChild(c){this.children.push(c);c.parentNode=this;return c;},append(...children){children.forEach(c=>this.appendChild(c));},
    removeChild(c){this.children=this.children.filter(x=>x!==c);c.parentNode=null;},remove(){this.parentNode?.removeChild(this);this.isConnected=false;},
    setAttribute(k,v){this.attributes[k]=String(v);},getAttribute(k){return this.attributes[k]??null;},removeAttribute(k){delete this.attributes[k];},
-   focus(){if(!this.disabled){doc.activeElement=this;this.events.focus?.forEach(f=>f({target:this}));}},blur(){if(doc.activeElement===this)doc.activeElement=null;},
+   focus(){if(!this.disabled){doc.activeElement=this;this.events.focus?.forEach(f=>f({target:this}));}},blur(){if(doc.activeElement===this)doc.activeElement=null;},setSelectionRange(a,b){this.selectionStart=a;this.selectionEnd=b;},
    click(){fire(this,'click',{target:this,preventDefault(){},stopPropagation(){}});this.onclick?.({target:this,preventDefault(){},stopPropagation(){}});},
    getBoundingClientRect(){return {x:50,y:50,left:50,top:50,width:600,height:260,bottom:310,right:650};},scrollIntoView(){},offsetWidth:600,offsetHeight:260,
    querySelector(q){return query(q,this);},querySelectorAll(){return [];},closest(q){return q.split(',').map(x=>x.trim()).some(x=>x==='#'+this.id||x.toUpperCase()===this.tagName||x.startsWith('.')&&this.classList.contains(x.slice(1)))?this:null;},
@@ -23,13 +23,16 @@ function harness(filename=path.join(root,'vocagoyangksat2027.html'),seed={}){
  for(const m of html.slice(0,html.indexOf('<script>')).matchAll(/<([\w-]+)\b[^>]*\bid="([^"]+)"[^>]*>/g)){
   const e=element(m[2],m[0].match(/\bclass="([^"]*)"/)?.[1]||'');e.tagName=m[1].toUpperCase();e.hidden=/\bhidden(?:[\s>])/.test(m[0]);els.set(m[2],e);
  }
- const body=element('',''),maproute=element('','maproute'),blank=element('','blanks');
+ const body=element('',''),maproute=element('','maproute'),blank=element('','blanks'),firstSlot=element('','slot'),roarTitle=element(),roarChant=element();
  function query(q,within){
   if(q==='.maproute')return maproute;
   if(q==='#hoeCtx .blanks'||q==='.blanks')return els.get('hoeCtx')?.innerHTML.includes('blanks')?blank:null;
   if(q==='#hoeCtx .fill'||q==='.fill')return null;
   if(/^#[\w-]+$/.test(q))return els.get(q.slice(1))??null;
   if(q==='.rv-w')return null;
+  if(q==='.slot')return blank.innerHTML.includes('slot')?firstSlot:null;
+  if(q==='.roar-txt b')return roarTitle;
+  if(q==='.roar-txt span')return roarChant;
   if(q==='body')return body;
   throw Error('Harness needs selector: '+q);
  }
@@ -42,6 +45,7 @@ function harness(filename=path.join(root,'vocagoyangksat2027.html'),seed={}){
   speechSynthesis:{getVoices:()=>[voice],cancel:()=>cancels++,speak:u=>spoken.push(u)},SpeechSynthesisUtterance:function(text){this.text=text;}};
  const sandbox={console,document:doc,window,navigator:{},localStorage:{getItem:k=>storage.get(k)??null,setItem:(k,v)=>storage.set(k,String(v)),removeItem:k=>storage.delete(k)},
   location:window.location,SpeechSynthesisUtterance:window.SpeechSynthesisUtterance,speechSynthesis:window.speechSynthesis,Date:fakeDate,performance:{now:()=>clock},
+  MutationObserver:class{observe(){}disconnect(){}},ResizeObserver:class{observe(){}disconnect(){}},
   setTimeout:(f,ms=0)=>{const id=++timer;timeouts.set(id,{f,ms,at:clock+ms});return id;},clearTimeout:id=>timeouts.delete(id),
   setInterval:(f,ms)=>{const id=++timer;intervals.set(id,{f,ms});return id;},clearInterval:id=>intervals.delete(id),
   requestAnimationFrame:f=>{f();return 0;},cancelAnimationFrame(){},getComputedStyle:()=>({getPropertyValue:()=>''}),confirm:()=>{throw Error('Unexpected destructive confirmation');}};
