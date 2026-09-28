@@ -58,6 +58,11 @@ button,input{font:inherit;}
 .iconbtn{width:40px;height:40px;border-radius:11px;border:2px solid var(--line);
   background:var(--panel2);color:#fff;font-size:1.05rem;cursor:pointer;display:grid;place-items:center;}
 .iconbtn:active{transform:translateY(1px);}
+.appbar > .iconbtn{flex-shrink:0;}
+.course-home{text-decoration:none;}
+.course-home svg{display:block;width:20px;height:20px;}
+.course-home:focus-visible{outline:2px solid var(--gold);outline-offset:3px;}
+body.playing .course-home{display:none;}
 
 /* map progress (Ilsan -> Seoul) */
 .maproute{order:5;border:2px solid var(--line);border-radius:var(--radius);background:
@@ -1319,6 +1324,9 @@ body.playing .appbar{display:flex;padding:0 5px;}
   <div class="appbar">
     <h1>꽃과 단어의 도시를 <b>벗어나고양!</b></h1>
     <span class="spacer"></span>
+    <a class="iconbtn course-home" href="index.html" title="교재 선택" aria-label="교재 선택으로 돌아가기">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"/></svg>
+    </a>
     <button class="iconbtn" id="prevBtn" type="button" title="이전 기출 포함 ON/OFF" aria-label="출제 범위: 2026 또는 전체">2026</button>
   </div>
 
