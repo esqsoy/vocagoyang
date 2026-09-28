@@ -17,15 +17,17 @@ h.run('MT_PRONUNCIATIONS["unsafe"]={ipa:"ˈa<&",label:"<명사>",speech:"safe",a
 markup=h.ctx.pronunciationMarkup('unsafe','');assert(markup.includes('&lt;명사&gt;'));assert(markup.includes('&lt;&amp;'));assert(!markup.includes('<명사>'));
 
 // A real quiz answer triggers one utterance, never before the reveal.
-h=harness(filename);h.start();
+h=harness(filename,{},{manualSpeech:true});h.start();
 const term=h.state.session.words[h.state.session.currentId].term;
 assert.equal(h.els.get('reveal').innerHTML,'');assert.equal(h.spoken.length,0);
 h.ctx.speakPronunciation(term,'');assert.equal(h.spoken.length,0);
 h.type(term);assert.equal(h.state.session.answered,true);assert.equal(h.spoken.length,1);
 assert.equal(h.spoken[0].text,term);assert.equal(h.spoken[0].rate,.88);assert.equal(h.spoken[0].lang,'en-US');
 assert(h.els.get('reveal').innerHTML.includes('rv-inline-ipa'));assert(!h.els.get('reveal').innerHTML.includes('class="rv-w"'));assert(h.blank.innerHTML.includes('slot-glyph'),'Answer remains in the original cells');
-const afterStart=h.cancels;h.advance(1500);
-assert.equal(h.state.session.answered,false);assert.equal(h.els.get('reveal').innerHTML,'');assert.equal(h.cancels,afterStart,'Started audio may finish across the next question');
+const afterStart=h.cancels;h.spoken[0].onstart();h.advance(1500);
+assert.equal(h.state.session.answered,true,'An active voice may finish before automatic navigation');
+h.spoken[0].onend();h.advance(100);
+assert.equal(h.state.session.answered,false);assert.equal(h.els.get('reveal').innerHTML,'');assert(h.cancels>afterStart,'The new question invalidates the previous speech and overlay');
 
 // Wrong answers use the same Fable word/IPA reveal and automatic TTS during copy.
 h=harness(filename);h.start();h.els.get('ainput').value='wrong';h.ctx.submit();
@@ -52,7 +54,7 @@ assert.equal(h.ctx.pickPronunciationVoice().lang,'en-US');
 
 // Lazy voice loading may not start a stale question's audio after a transition.
 h=harness(filename);h.ctx.window.speechSynthesis.getVoices=()=>[];h.start();h.type(h.state.session.words[0].term);
-assert(h.spoken.every(u=>u.text===' '));h.advance(1500);
+assert(h.spoken.every(u=>u.text===' '));h.advance(1500);h.ctx.advanceRevealed();
 h.ctx.window.speechSynthesis.getVoices=()=>[{name:'US',lang:'en-US'}];
 for(const task of [...h.intervals.values()])task.f();
 assert(h.spoken.every(u=>u.text===' '),'Pending old pronunciation was invalidated');

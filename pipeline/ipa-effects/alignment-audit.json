@@ -1,0 +1,8997 @@
+{
+  "schemaVersion": 1,
+  "principles": [
+    "Existing IPA and word lists are unchanged.",
+    "No proportional letter-count split is used.",
+    "Only complete grapheme-to-supplied-IPA matches receive alignment.",
+    "Whole mode preserves the full IPA without claiming a local correspondence.",
+    "Syllable groups and internal times are approximate visual cues, not audio measurements.",
+    "Punctuation-bearing terms conservatively use whole mode."
+  ],
+  "summary": {
+    "fable": {
+      "entries": 6876,
+      "aligned": 6076,
+      "whole": 800,
+      "reasons": {
+        "no complete rule match": 699,
+        "unresolved syllable group": 49,
+        "punctuation or non-ASCII spelling": 22,
+        "unresolved phrase component": 30
+      }
+    },
+    "motherTongue": {
+      "entries": 4028,
+      "aligned": 3264,
+      "whole": 764,
+      "reasons": {
+        "punctuation or non-ASCII spelling": 141,
+        "no complete rule match": 482,
+        "unresolved phrase component": 74,
+        "unresolved syllable group": 66,
+        "ambiguous vowel alignment": 1
+      }
+    },
+    "ebs": {
+      "entries": 545,
+      "aligned": 446,
+      "whole": 99,
+      "reasons": {
+        "unresolved phrase component": 11,
+        "no complete rule match": 62,
+        "punctuation or non-ASCII spelling": 16,
+        "unresolved syllable group": 10
+      }
+    }
+  },
+  "uniquePairs": 8568,
+  "alignedPairs": 7185,
+  "wholePairs": 1383,
+  "inspection": [
+    {
+      "term": "zero",
+      "ipa": "ˈzɪroʊ",
+      "parts": [
+        {
+          "spelling": "ze",
+          "ipa": "ˈzɪ",
+          "beat": 0
+        },
+        {
+          "spelling": "ro",
+          "ipa": "roʊ",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "reader",
+      "ipa": "ˈridɚ",
+      "parts": [
+        {
+          "spelling": "rea",
+          "ipa": "ˈri",
+          "beat": 0
+        },
+        {
+          "spelling": "der",
+          "ipa": "dɚ",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "phone",
+      "ipa": "foʊn",
+      "parts": [
+        {
+          "spelling": "phone",
+          "ipa": "foʊn",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "get",
+      "ipa": "ɡɛt",
+      "parts": [
+        {
+          "spelling": "get",
+          "ipa": "ɡɛt",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "big",
+      "ipa": "bɪɡ",
+      "parts": [
+        {
+          "spelling": "big",
+          "ipa": "bɪɡ",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "order",
+      "ipa": "ˈɔrdɚ",
+      "parts": [
+        {
+          "spelling": "or",
+          "ipa": "ˈɔr",
+          "beat": 0
+        },
+        {
+          "spelling": "der",
+          "ipa": "dɚ",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "else",
+      "ipa": "ɛls",
+      "parts": [
+        {
+          "spelling": "else",
+          "ipa": "ɛls",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "meet",
+      "ipa": "mit",
+      "parts": [
+        {
+          "spelling": "meet",
+          "ipa": "mit",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "break",
+      "ipa": "breɪk",
+      "parts": [
+        {
+          "spelling": "break",
+          "ipa": "breɪk",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "if",
+      "ipa": "ɪf",
+      "parts": [
+        {
+          "spelling": "if",
+          "ipa": "ɪf",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "until",
+      "ipa": "ənˈtɪl",
+      "parts": [
+        {
+          "spelling": "un",
+          "ipa": "ən",
+          "beat": 0
+        },
+        {
+          "spelling": "til",
+          "ipa": "ˈtɪl",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "brother",
+      "ipa": "ˈbrʌðɚ",
+      "parts": [
+        {
+          "spelling": "bro",
+          "ipa": "ˈbrʌ",
+          "beat": 0
+        },
+        {
+          "spelling": "ther",
+          "ipa": "ðɚ",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "defense",
+      "ipa": "dɪˈfɛns",
+      "parts": [
+        {
+          "spelling": "de",
+          "ipa": "dɪ",
+          "beat": 0
+        },
+        {
+          "spelling": "fense",
+          "ipa": "ˈfɛns",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "remove",
+      "ipa": "rɪˈmuv",
+      "parts": [
+        {
+          "spelling": "re",
+          "ipa": "rɪ",
+          "beat": 0
+        },
+        {
+          "spelling": "move",
+          "ipa": "ˈmuv",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "direction",
+      "ipa": "dəˈrɛkʃən",
+      "parts": [
+        {
+          "spelling": "di",
+          "ipa": "də",
+          "beat": 0
+        },
+        {
+          "spelling": "rec",
+          "ipa": "ˈrɛk",
+          "beat": 1
+        },
+        {
+          "spelling": "tion",
+          "ipa": "ʃən",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "track",
+      "ipa": "træk",
+      "parts": [
+        {
+          "spelling": "track",
+          "ipa": "træk",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "alive",
+      "ipa": "əˈlaɪv",
+      "parts": [
+        {
+          "spelling": "a",
+          "ipa": "ə",
+          "beat": 0
+        },
+        {
+          "spelling": "live",
+          "ipa": "ˈlaɪv",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "birth",
+      "ipa": "bɝθ",
+      "parts": [
+        {
+          "spelling": "birth",
+          "ipa": "bɝθ",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "bottom",
+      "ipa": "ˈbɑtəm",
+      "parts": [
+        {
+          "spelling": "bo",
+          "ipa": "ˈbɑ",
+          "beat": 0
+        },
+        {
+          "spelling": "ttom",
+          "ipa": "təm",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "tea",
+      "ipa": "ti",
+      "parts": [
+        {
+          "spelling": "tea",
+          "ipa": "ti",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "brown",
+      "ipa": "braʊn",
+      "parts": [
+        {
+          "spelling": "brown",
+          "ipa": "braʊn",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "upper",
+      "ipa": "ˈʌpɚ",
+      "parts": [
+        {
+          "spelling": "u",
+          "ipa": "ˈʌ",
+          "beat": 0
+        },
+        {
+          "spelling": "pper",
+          "ipa": "pɚ",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "narrow",
+      "ipa": "ˈnæroʊ",
+      "parts": [
+        {
+          "spelling": "na",
+          "ipa": "ˈnæ",
+          "beat": 0
+        },
+        {
+          "spelling": "rrow",
+          "ipa": "roʊ",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "clock",
+      "ipa": "klɑk",
+      "parts": [
+        {
+          "spelling": "clock",
+          "ipa": "klɑk",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "fate",
+      "ipa": "feɪt",
+      "parts": [
+        {
+          "spelling": "fate",
+          "ipa": "feɪt",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "calm",
+      "ipa": "kɑm",
+      "parts": [
+        {
+          "spelling": "calm",
+          "ipa": "kɑm",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "arrival",
+      "ipa": "əˈraɪvəl",
+      "parts": [
+        {
+          "spelling": "a",
+          "ipa": "ə",
+          "beat": 0
+        },
+        {
+          "spelling": "rri",
+          "ipa": "ˈraɪ",
+          "beat": 1
+        },
+        {
+          "spelling": "val",
+          "ipa": "vəl",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "greet",
+      "ipa": "ɡrit",
+      "parts": [
+        {
+          "spelling": "greet",
+          "ipa": "ɡrit",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "worthy",
+      "ipa": "ˈwɝði",
+      "parts": [
+        {
+          "spelling": "wor",
+          "ipa": "ˈwɝ",
+          "beat": 0
+        },
+        {
+          "spelling": "thy",
+          "ipa": "ði",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "cinema",
+      "ipa": "ˈsɪnəmə",
+      "parts": [
+        {
+          "spelling": "ci",
+          "ipa": "ˈsɪ",
+          "beat": 0
+        },
+        {
+          "spelling": "ne",
+          "ipa": "nə",
+          "beat": 1
+        },
+        {
+          "spelling": "ma",
+          "ipa": "mə",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "dip",
+      "ipa": "dɪp",
+      "parts": [
+        {
+          "spelling": "dip",
+          "ipa": "dɪp",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "farmyard",
+      "ipa": "ˈfɑrmjɑrd",
+      "parts": [
+        {
+          "spelling": "far",
+          "ipa": "ˈfɑr",
+          "beat": 0
+        },
+        {
+          "spelling": "myard",
+          "ipa": "mjɑrd",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "skillful",
+      "ipa": "ˈskɪlfəl",
+      "parts": [
+        {
+          "spelling": "skill",
+          "ipa": "ˈskɪl",
+          "beat": 0
+        },
+        {
+          "spelling": "ful",
+          "ipa": "fəl",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "professor",
+      "ipa": "prəˈfɛsɚ",
+      "parts": [
+        {
+          "spelling": "pro",
+          "ipa": "prə",
+          "beat": 0
+        },
+        {
+          "spelling": "fe",
+          "ipa": "ˈfɛ",
+          "beat": 1
+        },
+        {
+          "spelling": "ssor",
+          "ipa": "sɚ",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "aware",
+      "ipa": "əˈwɛr",
+      "parts": [
+        {
+          "spelling": "a",
+          "ipa": "ə",
+          "beat": 0
+        },
+        {
+          "spelling": "ware",
+          "ipa": "ˈwɛr",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "regarding",
+      "ipa": "rɪˈɡɑrdɪŋ",
+      "parts": [
+        {
+          "spelling": "re",
+          "ipa": "rɪ",
+          "beat": 0
+        },
+        {
+          "spelling": "gar",
+          "ipa": "ˈɡɑr",
+          "beat": 1
+        },
+        {
+          "spelling": "ding",
+          "ipa": "dɪŋ",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "therapy",
+      "ipa": "ˈθɛrəpi",
+      "parts": [
+        {
+          "spelling": "the",
+          "ipa": "ˈθɛ",
+          "beat": 0
+        },
+        {
+          "spelling": "ra",
+          "ipa": "rə",
+          "beat": 1
+        },
+        {
+          "spelling": "py",
+          "ipa": "pi",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "criteria",
+      "ipa": "kraɪˈtɪriə",
+      "parts": [
+        {
+          "spelling": "cri",
+          "ipa": "kraɪ",
+          "beat": 0
+        },
+        {
+          "spelling": "te",
+          "ipa": "ˈtɪ",
+          "beat": 1
+        },
+        {
+          "spelling": "ri",
+          "ipa": "ri",
+          "beat": 2
+        },
+        {
+          "spelling": "a",
+          "ipa": "ə",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "term": "wealthy",
+      "ipa": "ˈwɛlθi",
+      "parts": [
+        {
+          "spelling": "weal",
+          "ipa": "ˈwɛl",
+          "beat": 0
+        },
+        {
+          "spelling": "thy",
+          "ipa": "θi",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "scary",
+      "ipa": "ˈskɛri",
+      "parts": [
+        {
+          "spelling": "sca",
+          "ipa": "ˈskɛ",
+          "beat": 0
+        },
+        {
+          "spelling": "ry",
+          "ipa": "ri",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "anniversary",
+      "ipa": "ˌænəˈvɝsɚi",
+      "parts": [
+        {
+          "spelling": "a",
+          "ipa": "ˌæ",
+          "beat": 0
+        },
+        {
+          "spelling": "nni",
+          "ipa": "nə",
+          "beat": 1
+        },
+        {
+          "spelling": "ver",
+          "ipa": "ˈvɝ",
+          "beat": 2
+        },
+        {
+          "spelling": "sar",
+          "ipa": "sɚ",
+          "beat": 3
+        },
+        {
+          "spelling": "y",
+          "ipa": "i",
+          "beat": 4
+        }
+      ]
+    },
+    {
+      "term": "adoption",
+      "ipa": "əˈdɑpʃən",
+      "parts": [
+        {
+          "spelling": "a",
+          "ipa": "ə",
+          "beat": 0
+        },
+        {
+          "spelling": "dop",
+          "ipa": "ˈdɑp",
+          "beat": 1
+        },
+        {
+          "spelling": "tion",
+          "ipa": "ʃən",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "shrug",
+      "ipa": "ʃrʌɡ",
+      "parts": [
+        {
+          "spelling": "shrug",
+          "ipa": "ʃrʌɡ",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "alleged",
+      "ipa": "əˈlɛdʒd",
+      "parts": [
+        {
+          "spelling": "a",
+          "ipa": "ə",
+          "beat": 0
+        },
+        {
+          "spelling": "lleged",
+          "ipa": "ˈlɛdʒd",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "charter",
+      "ipa": "ˈtʃɑrtɚ",
+      "parts": [
+        {
+          "spelling": "char",
+          "ipa": "ˈtʃɑr",
+          "beat": 0
+        },
+        {
+          "spelling": "ter",
+          "ipa": "tɚ",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "interior",
+      "ipa": "ɪnˈtɪriɚ",
+      "parts": [
+        {
+          "spelling": "in",
+          "ipa": "ɪn",
+          "beat": 0
+        },
+        {
+          "spelling": "te",
+          "ipa": "ˈtɪ",
+          "beat": 1
+        },
+        {
+          "spelling": "ri",
+          "ipa": "ri",
+          "beat": 2
+        },
+        {
+          "spelling": "or",
+          "ipa": "ɚ",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "term": "sadly",
+      "ipa": "ˈsædli",
+      "parts": [
+        {
+          "spelling": "sad",
+          "ipa": "ˈsæd",
+          "beat": 0
+        },
+        {
+          "spelling": "ly",
+          "ipa": "li",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "theft",
+      "ipa": "θɛft",
+      "parts": [
+        {
+          "spelling": "theft",
+          "ipa": "θɛft",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "jungle",
+      "ipa": "ˈdʒʌŋɡəl",
+      "parts": [
+        {
+          "spelling": "jun",
+          "ipa": "ˈdʒʌŋ",
+          "beat": 0
+        },
+        {
+          "spelling": "gle",
+          "ipa": "ɡəl",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "injured",
+      "ipa": "ˈɪndʒɚd",
+      "parts": [
+        {
+          "spelling": "in",
+          "ipa": "ˈɪn",
+          "beat": 0
+        },
+        {
+          "spelling": "jured",
+          "ipa": "dʒɚd",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "spray",
+      "ipa": "spreɪ",
+      "parts": [
+        {
+          "spelling": "spray",
+          "ipa": "spreɪ",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "unhappy",
+      "ipa": "ʌnˈhæpi",
+      "parts": [
+        {
+          "spelling": "un",
+          "ipa": "ʌn",
+          "beat": 0
+        },
+        {
+          "spelling": "ha",
+          "ipa": "ˈhæ",
+          "beat": 1
+        },
+        {
+          "spelling": "ppy",
+          "ipa": "pi",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "bump",
+      "ipa": "bʌmp",
+      "parts": [
+        {
+          "spelling": "bump",
+          "ipa": "bʌmp",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "amazed",
+      "ipa": "əˈmeɪzd",
+      "parts": [
+        {
+          "spelling": "a",
+          "ipa": "ə",
+          "beat": 0
+        },
+        {
+          "spelling": "mazed",
+          "ipa": "ˈmeɪzd",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "bracket",
+      "ipa": "ˈbrækɪt",
+      "parts": [
+        {
+          "spelling": "bra",
+          "ipa": "ˈbræ",
+          "beat": 0
+        },
+        {
+          "spelling": "cket",
+          "ipa": "kɪt",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "fertility",
+      "ipa": "fɚˈtɪləti",
+      "parts": [
+        {
+          "spelling": "fer",
+          "ipa": "fɚ",
+          "beat": 0
+        },
+        {
+          "spelling": "ti",
+          "ipa": "ˈtɪ",
+          "beat": 1
+        },
+        {
+          "spelling": "li",
+          "ipa": "lə",
+          "beat": 2
+        },
+        {
+          "spelling": "ty",
+          "ipa": "ti",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "term": "steer",
+      "ipa": "stɪr",
+      "parts": [
+        {
+          "spelling": "steer",
+          "ipa": "stɪr",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "dub",
+      "ipa": "dʌb",
+      "parts": [
+        {
+          "spelling": "dub",
+          "ipa": "dʌb",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "ethic",
+      "ipa": "ˈɛθɪk",
+      "parts": [
+        {
+          "spelling": "e",
+          "ipa": "ˈɛ",
+          "beat": 0
+        },
+        {
+          "spelling": "thic",
+          "ipa": "θɪk",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "roach",
+      "ipa": "roʊtʃ",
+      "parts": [
+        {
+          "spelling": "roach",
+          "ipa": "roʊtʃ",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "helix",
+      "ipa": "ˈhilɪks",
+      "parts": [
+        {
+          "spelling": "he",
+          "ipa": "ˈhi",
+          "beat": 0
+        },
+        {
+          "spelling": "lix",
+          "ipa": "lɪks",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "carelessness",
+      "ipa": "ˈkɛrləsnəs",
+      "parts": [
+        {
+          "spelling": "care",
+          "ipa": "ˈkɛr",
+          "beat": 0
+        },
+        {
+          "spelling": "le",
+          "ipa": "lə",
+          "beat": 1
+        },
+        {
+          "spelling": "ssness",
+          "ipa": "snəs",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "antisocial",
+      "ipa": "ˌæntiˈsoʊʃəl",
+      "parts": [
+        {
+          "spelling": "an",
+          "ipa": "ˌæn",
+          "beat": 0
+        },
+        {
+          "spelling": "ti",
+          "ipa": "ti",
+          "beat": 1
+        },
+        {
+          "spelling": "so",
+          "ipa": "ˈsoʊ",
+          "beat": 2
+        },
+        {
+          "spelling": "cial",
+          "ipa": "ʃəl",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "term": "ecology",
+      "ipa": "iˈkɑːlədʒi",
+      "parts": [
+        {
+          "spelling": "e",
+          "ipa": "i",
+          "beat": 0
+        },
+        {
+          "spelling": "co",
+          "ipa": "ˈkɑː",
+          "beat": 1
+        },
+        {
+          "spelling": "lo",
+          "ipa": "lə",
+          "beat": 2
+        },
+        {
+          "spelling": "gy",
+          "ipa": "dʒi",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "term": "account for",
+      "ipa": "əˈkaʊnt fɔr",
+      "parts": [
+        {
+          "spelling": "a",
+          "ipa": "ə",
+          "beat": 0
+        },
+        {
+          "spelling": "ccount",
+          "ipa": "ˈkaʊnt",
+          "beat": 1
+        },
+        {
+          "spelling": "for",
+          "ipa": "fɔr",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "run into",
+      "ipa": "ˌrʌn ˈɪntu",
+      "parts": [
+        {
+          "spelling": "run",
+          "ipa": "ˌrʌn",
+          "beat": 0
+        },
+        {
+          "spelling": "in",
+          "ipa": "ˈɪn",
+          "beat": 1
+        },
+        {
+          "spelling": "to",
+          "ipa": "tu",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "affective",
+      "ipa": "əˈfɛktɪv",
+      "parts": [
+        {
+          "spelling": "a",
+          "ipa": "ə",
+          "beat": 0
+        },
+        {
+          "spelling": "ffec",
+          "ipa": "ˈfɛk",
+          "beat": 1
+        },
+        {
+          "spelling": "tive",
+          "ipa": "tɪv",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "architect",
+      "ipa": "ˈɑrkəˌtɛkt",
+      "parts": [
+        {
+          "spelling": "ar",
+          "ipa": "ˈɑr",
+          "beat": 0
+        },
+        {
+          "spelling": "chi",
+          "ipa": "kə",
+          "beat": 1
+        },
+        {
+          "spelling": "tect",
+          "ipa": "ˌtɛkt",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "automatic",
+      "ipa": "ˌɔtəˈmætɪk",
+      "parts": [
+        {
+          "spelling": "au",
+          "ipa": "ˌɔ",
+          "beat": 0
+        },
+        {
+          "spelling": "to",
+          "ipa": "tə",
+          "beat": 1
+        },
+        {
+          "spelling": "ma",
+          "ipa": "ˈmæ",
+          "beat": 2
+        },
+        {
+          "spelling": "tic",
+          "ipa": "tɪk",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "term": "blueprint",
+      "ipa": "ˈbluˌprɪnt",
+      "parts": [
+        {
+          "spelling": "blue",
+          "ipa": "ˈblu",
+          "beat": 0
+        },
+        {
+          "spelling": "print",
+          "ipa": "ˌprɪnt",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "causally",
+      "ipa": "ˈkɔzəli",
+      "parts": [
+        {
+          "spelling": "cau",
+          "ipa": "ˈkɔ",
+          "beat": 0
+        },
+        {
+          "spelling": "sa",
+          "ipa": "zə",
+          "beat": 1
+        },
+        {
+          "spelling": "lly",
+          "ipa": "li",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "collaborate",
+      "ipa": "kəˈlæbɚˌeɪt",
+      "parts": [
+        {
+          "spelling": "co",
+          "ipa": "kə",
+          "beat": 0
+        },
+        {
+          "spelling": "lla",
+          "ipa": "ˈlæ",
+          "beat": 1
+        },
+        {
+          "spelling": "bor",
+          "ipa": "bɚ",
+          "beat": 2
+        },
+        {
+          "spelling": "ate",
+          "ipa": "ˌeɪt",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "term": "computing power",
+      "ipa": "kəmˈpjutɪŋ ˈpaʊɚ",
+      "parts": [
+        {
+          "spelling": "com",
+          "ipa": "kəm",
+          "beat": 0
+        },
+        {
+          "spelling": "pu",
+          "ipa": "ˈpju",
+          "beat": 1
+        },
+        {
+          "spelling": "ting",
+          "ipa": "tɪŋ",
+          "beat": 2
+        },
+        {
+          "spelling": "pow",
+          "ipa": "ˈpaʊ",
+          "beat": 3
+        },
+        {
+          "spelling": "er",
+          "ipa": "ɚ",
+          "beat": 4
+        }
+      ]
+    },
+    {
+      "term": "contour",
+      "ipa": "ˈkɑnˌtʊr",
+      "parts": [
+        {
+          "spelling": "con",
+          "ipa": "ˈkɑn",
+          "beat": 0
+        },
+        {
+          "spelling": "tour",
+          "ipa": "ˌtʊr",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "culinary",
+      "ipa": "ˈkjulɪˌnɛri",
+      "parts": [
+        {
+          "spelling": "cu",
+          "ipa": "ˈkju",
+          "beat": 0
+        },
+        {
+          "spelling": "li",
+          "ipa": "lɪ",
+          "beat": 1
+        },
+        {
+          "spelling": "na",
+          "ipa": "ˌnɛ",
+          "beat": 2
+        },
+        {
+          "spelling": "ry",
+          "ipa": "ri",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "term": "deserted",
+      "ipa": "dɪˈzɝtɪd",
+      "parts": [
+        {
+          "spelling": "de",
+          "ipa": "dɪ",
+          "beat": 0
+        },
+        {
+          "spelling": "ser",
+          "ipa": "ˈzɝ",
+          "beat": 1
+        },
+        {
+          "spelling": "ted",
+          "ipa": "tɪd",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "disposition",
+      "ipa": "ˌdɪspəˈzɪʃən",
+      "parts": [
+        {
+          "spelling": "di",
+          "ipa": "ˌdɪ",
+          "beat": 0
+        },
+        {
+          "spelling": "spo",
+          "ipa": "spə",
+          "beat": 1
+        },
+        {
+          "spelling": "si",
+          "ipa": "ˈzɪ",
+          "beat": 2
+        },
+        {
+          "spelling": "tion",
+          "ipa": "ʃən",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "term": "electrical",
+      "ipa": "ɪˈlɛktrɪkəl",
+      "parts": [
+        {
+          "spelling": "e",
+          "ipa": "ɪ",
+          "beat": 0
+        },
+        {
+          "spelling": "lec",
+          "ipa": "ˈlɛk",
+          "beat": 1
+        },
+        {
+          "spelling": "tri",
+          "ipa": "trɪ",
+          "beat": 2
+        },
+        {
+          "spelling": "cal",
+          "ipa": "kəl",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "term": "ergonomist",
+      "ipa": "ɚˈɡɑnəmɪst",
+      "parts": [
+        {
+          "spelling": "er",
+          "ipa": "ɚ",
+          "beat": 0
+        },
+        {
+          "spelling": "go",
+          "ipa": "ˈɡɑ",
+          "beat": 1
+        },
+        {
+          "spelling": "no",
+          "ipa": "nə",
+          "beat": 2
+        },
+        {
+          "spelling": "mist",
+          "ipa": "mɪst",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "term": "finite",
+      "ipa": "ˈfaɪˌnaɪt",
+      "parts": [
+        {
+          "spelling": "fi",
+          "ipa": "ˈfaɪ",
+          "beat": 0
+        },
+        {
+          "spelling": "nite",
+          "ipa": "ˌnaɪt",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "gamification",
+      "ipa": "ˌɡeɪməfəˈkeɪʃən",
+      "parts": [
+        {
+          "spelling": "ga",
+          "ipa": "ˌɡeɪ",
+          "beat": 0
+        },
+        {
+          "spelling": "mi",
+          "ipa": "mə",
+          "beat": 1
+        },
+        {
+          "spelling": "fi",
+          "ipa": "fə",
+          "beat": 2
+        },
+        {
+          "spelling": "ca",
+          "ipa": "ˈkeɪ",
+          "beat": 3
+        },
+        {
+          "spelling": "tion",
+          "ipa": "ʃən",
+          "beat": 4
+        }
+      ]
+    },
+    {
+      "term": "hardworking",
+      "ipa": "ˈhɑrˌdwɝkɪŋ",
+      "parts": [
+        {
+          "spelling": "har",
+          "ipa": "ˈhɑr",
+          "beat": 0
+        },
+        {
+          "spelling": "dwor",
+          "ipa": "ˌdwɝ",
+          "beat": 1
+        },
+        {
+          "spelling": "king",
+          "ipa": "kɪŋ",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "illustrate",
+      "ipa": "ˈɪləˌstreɪt",
+      "parts": [
+        {
+          "spelling": "i",
+          "ipa": "ˈɪ",
+          "beat": 0
+        },
+        {
+          "spelling": "llu",
+          "ipa": "lə",
+          "beat": 1
+        },
+        {
+          "spelling": "strate",
+          "ipa": "ˌstreɪt",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "inactivity",
+      "ipa": "ˌɪnækˈtɪvɪti",
+      "parts": [
+        {
+          "spelling": "i",
+          "ipa": "ˌɪ",
+          "beat": 0
+        },
+        {
+          "spelling": "nac",
+          "ipa": "næk",
+          "beat": 1
+        },
+        {
+          "spelling": "ti",
+          "ipa": "ˈtɪ",
+          "beat": 2
+        },
+        {
+          "spelling": "vi",
+          "ipa": "vɪ",
+          "beat": 3
+        },
+        {
+          "spelling": "ty",
+          "ipa": "ti",
+          "beat": 4
+        }
+      ]
+    },
+    {
+      "term": "innovate",
+      "ipa": "ˈɪnəˌveɪt",
+      "parts": [
+        {
+          "spelling": "i",
+          "ipa": "ˈɪ",
+          "beat": 0
+        },
+        {
+          "spelling": "nno",
+          "ipa": "nə",
+          "beat": 1
+        },
+        {
+          "spelling": "vate",
+          "ipa": "ˌveɪt",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "invalidate",
+      "ipa": "ˌɪnˈvælɪˌdeɪt",
+      "parts": [
+        {
+          "spelling": "in",
+          "ipa": "ˌɪn",
+          "beat": 0
+        },
+        {
+          "spelling": "va",
+          "ipa": "ˈvæ",
+          "beat": 1
+        },
+        {
+          "spelling": "li",
+          "ipa": "lɪ",
+          "beat": 2
+        },
+        {
+          "spelling": "date",
+          "ipa": "ˌdeɪt",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "term": "legislature",
+      "ipa": "ˈlɛdʒəˌsleɪtʃɚ",
+      "parts": [
+        {
+          "spelling": "le",
+          "ipa": "ˈlɛ",
+          "beat": 0
+        },
+        {
+          "spelling": "gi",
+          "ipa": "dʒə",
+          "beat": 1
+        },
+        {
+          "spelling": "sla",
+          "ipa": "ˌsleɪ",
+          "beat": 2
+        },
+        {
+          "spelling": "ture",
+          "ipa": "tʃɚ",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "term": "marine",
+      "ipa": "məˈrin",
+      "parts": [
+        {
+          "spelling": "ma",
+          "ipa": "mə",
+          "beat": 0
+        },
+        {
+          "spelling": "rine",
+          "ipa": "ˈrin",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "misconception",
+      "ipa": "mɪskənˈsɛpʃən",
+      "parts": [
+        {
+          "spelling": "mi",
+          "ipa": "mɪ",
+          "beat": 0
+        },
+        {
+          "spelling": "scon",
+          "ipa": "skən",
+          "beat": 1
+        },
+        {
+          "spelling": "cep",
+          "ipa": "ˈsɛp",
+          "beat": 2
+        },
+        {
+          "spelling": "tion",
+          "ipa": "ʃən",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "term": "navigational",
+      "ipa": "ˌnævəˈɡeɪʃənəl",
+      "parts": [
+        {
+          "spelling": "na",
+          "ipa": "ˌnæ",
+          "beat": 0
+        },
+        {
+          "spelling": "vi",
+          "ipa": "və",
+          "beat": 1
+        },
+        {
+          "spelling": "ga",
+          "ipa": "ˈɡeɪ",
+          "beat": 2
+        },
+        {
+          "spelling": "tion",
+          "ipa": "ʃən",
+          "beat": 3
+        },
+        {
+          "spelling": "al",
+          "ipa": "əl",
+          "beat": 4
+        }
+      ]
+    },
+    {
+      "term": "opening",
+      "ipa": "ˈoʊpənɪŋ",
+      "parts": [
+        {
+          "spelling": "o",
+          "ipa": "ˈoʊ",
+          "beat": 0
+        },
+        {
+          "spelling": "pe",
+          "ipa": "pə",
+          "beat": 1
+        },
+        {
+          "spelling": "ning",
+          "ipa": "nɪŋ",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "paramount",
+      "ipa": "ˈpɛrəˌmaʊnt",
+      "parts": [
+        {
+          "spelling": "pa",
+          "ipa": "ˈpɛ",
+          "beat": 0
+        },
+        {
+          "spelling": "ra",
+          "ipa": "rə",
+          "beat": 1
+        },
+        {
+          "spelling": "mount",
+          "ipa": "ˌmaʊnt",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "physiology",
+      "ipa": "ˌfɪziˈɑlədʒi",
+      "parts": [
+        {
+          "spelling": "phy",
+          "ipa": "ˌfɪ",
+          "beat": 0
+        },
+        {
+          "spelling": "si",
+          "ipa": "zi",
+          "beat": 1
+        },
+        {
+          "spelling": "o",
+          "ipa": "ˈɑ",
+          "beat": 2
+        },
+        {
+          "spelling": "lo",
+          "ipa": "lə",
+          "beat": 3
+        },
+        {
+          "spelling": "gy",
+          "ipa": "dʒi",
+          "beat": 4
+        }
+      ]
+    },
+    {
+      "term": "preferential",
+      "ipa": "ˌprɛfɚˈɛnʃəl",
+      "parts": [
+        {
+          "spelling": "pre",
+          "ipa": "ˌprɛ",
+          "beat": 0
+        },
+        {
+          "spelling": "fer",
+          "ipa": "fɚ",
+          "beat": 1
+        },
+        {
+          "spelling": "en",
+          "ipa": "ˈɛn",
+          "beat": 2
+        },
+        {
+          "spelling": "tial",
+          "ipa": "ʃəl",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "term": "promising",
+      "ipa": "ˈprɑməsɪŋ",
+      "parts": [
+        {
+          "spelling": "pro",
+          "ipa": "ˈprɑ",
+          "beat": 0
+        },
+        {
+          "spelling": "mi",
+          "ipa": "mə",
+          "beat": 1
+        },
+        {
+          "spelling": "sing",
+          "ipa": "sɪŋ",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "realization",
+      "ipa": "ˌriələˈzeɪʃən",
+      "parts": [
+        {
+          "spelling": "re",
+          "ipa": "ˌri",
+          "beat": 0
+        },
+        {
+          "spelling": "a",
+          "ipa": "ə",
+          "beat": 1
+        },
+        {
+          "spelling": "li",
+          "ipa": "lə",
+          "beat": 2
+        },
+        {
+          "spelling": "za",
+          "ipa": "ˈzeɪ",
+          "beat": 3
+        },
+        {
+          "spelling": "tion",
+          "ipa": "ʃən",
+          "beat": 4
+        }
+      ]
+    },
+    {
+      "term": "relevance",
+      "ipa": "ˈrɛləvəns",
+      "parts": [
+        {
+          "spelling": "re",
+          "ipa": "ˈrɛ",
+          "beat": 0
+        },
+        {
+          "spelling": "le",
+          "ipa": "lə",
+          "beat": 1
+        },
+        {
+          "spelling": "vance",
+          "ipa": "vəns",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "term": "restraint",
+      "ipa": "rɪˈstreɪnt",
+      "parts": [
+        {
+          "spelling": "re",
+          "ipa": "rɪ",
+          "beat": 0
+        },
+        {
+          "spelling": "straint",
+          "ipa": "ˈstreɪnt",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "scribe",
+      "ipa": "skraɪb",
+      "parts": [
+        {
+          "spelling": "scribe",
+          "ipa": "skraɪb",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "significance",
+      "ipa": "səɡˈnɪfɪkəns",
+      "parts": [
+        {
+          "spelling": "sig",
+          "ipa": "səɡ",
+          "beat": 0
+        },
+        {
+          "spelling": "ni",
+          "ipa": "ˈnɪ",
+          "beat": 1
+        },
+        {
+          "spelling": "fi",
+          "ipa": "fɪ",
+          "beat": 2
+        },
+        {
+          "spelling": "cance",
+          "ipa": "kəns",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "term": "staff",
+      "ipa": "stæf",
+      "parts": [
+        {
+          "spelling": "staff",
+          "ipa": "stæf",
+          "beat": 0
+        }
+      ]
+    },
+    {
+      "term": "suited",
+      "ipa": "ˈsutɪd",
+      "parts": [
+        {
+          "spelling": "sui",
+          "ipa": "ˈsu",
+          "beat": 0
+        },
+        {
+          "spelling": "ted",
+          "ipa": "tɪd",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "temporarily",
+      "ipa": "ˌtɛmpəˈrɛrəli",
+      "parts": [
+        {
+          "spelling": "tem",
+          "ipa": "ˌtɛm",
+          "beat": 0
+        },
+        {
+          "spelling": "po",
+          "ipa": "pə",
+          "beat": 1
+        },
+        {
+          "spelling": "ra",
+          "ipa": "ˈrɛ",
+          "beat": 2
+        },
+        {
+          "spelling": "ri",
+          "ipa": "rə",
+          "beat": 3
+        },
+        {
+          "spelling": "ly",
+          "ipa": "li",
+          "beat": 4
+        }
+      ]
+    },
+    {
+      "term": "transportation network",
+      "ipa": "ˌtrænspɚˈteɪʃən ˈnɛˌtwɝk",
+      "parts": [
+        {
+          "spelling": "tran",
+          "ipa": "ˌtræn",
+          "beat": 0
+        },
+        {
+          "spelling": "spor",
+          "ipa": "spɚ",
+          "beat": 1
+        },
+        {
+          "spelling": "ta",
+          "ipa": "ˈteɪ",
+          "beat": 2
+        },
+        {
+          "spelling": "tion",
+          "ipa": "ʃən",
+          "beat": 3
+        },
+        {
+          "spelling": "ne",
+          "ipa": "ˈnɛ",
+          "beat": 4
+        },
+        {
+          "spelling": "twork",
+          "ipa": "ˌtwɝk",
+          "beat": 5
+        }
+      ]
+    },
+    {
+      "term": "unorganized",
+      "ipa": "əˈnɔrɡəˌnaɪzd",
+      "parts": [
+        {
+          "spelling": "u",
+          "ipa": "ə",
+          "beat": 0
+        },
+        {
+          "spelling": "nor",
+          "ipa": "ˈnɔr",
+          "beat": 1
+        },
+        {
+          "spelling": "ga",
+          "ipa": "ɡə",
+          "beat": 2
+        },
+        {
+          "spelling": "nized",
+          "ipa": "ˌnaɪzd",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "term": "volume",
+      "ipa": "ˈvɑljum",
+      "parts": [
+        {
+          "spelling": "vol",
+          "ipa": "ˈvɑl",
+          "beat": 0
+        },
+        {
+          "spelling": "ume",
+          "ipa": "jum",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "bear out",
+      "ipa": "bɛr aʊt",
+      "parts": [
+        {
+          "spelling": "bear",
+          "ipa": "bɛr",
+          "beat": 0
+        },
+        {
+          "spelling": "out",
+          "ipa": "aʊt",
+          "beat": 1
+        }
+      ]
+    },
+    {
+      "term": "rub off on",
+      "ipa": "rʌb ɔf ɑn",
+      "parts": [
+        {
+          "spelling": "rub",
+          "ipa": "rʌb",
+          "beat": 0
+        },
+        {
+          "spelling": "off",
+          "ipa": "ɔf",
+          "beat": 1
+        },
+        {
+          "spelling": "on",
+          "ipa": "ɑn",
+          "beat": 2
+        }
+      ]
+    }
+  ],
+  "fallback": [
+    {
+      "term": "one",
+      "ipa": "wʌn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "two",
+      "ipa": "tu",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sixteen",
+      "ipa": "sɪkˈstin",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "nineteen",
+      "ipa": "ˌnaɪnˈtin",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "ninety",
+      "ipa": "ˈnaɪnti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "million",
+      "ipa": "ˈmɪljən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "billion",
+      "ipa": "ˈbɪljən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "trillion",
+      "ipa": "ˈtrɪljən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "Wednesday",
+      "ipa": "ˈwɛnzdeɪ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "February",
+      "ipa": "ˈfɛbjəˌwɛri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "usually",
+      "ipa": "ˈjuʒuəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "everybody",
+      "ipa": "ˈɛvriˌbɑdi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "somebody",
+      "ipa": "ˈsʌmbɑdi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "boyfriend",
+      "ipa": "ˈbɔɪfrɛnd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "girlfriend",
+      "ipa": "ˈɡɝlfrɛnd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "policeman",
+      "ipa": "pəˈlismən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "exam",
+      "ipa": "ɪɡˈzæm",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "interview",
+      "ipa": "ˈɪntɚˌvju",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "euro",
+      "ipa": "ˈjʊroʊ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "TV",
+      "ipa": "ˌtiˈvi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "CD",
+      "ipa": "ˌsiˈdi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "DVD",
+      "ipa": "ˌdiviˈdi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "interested",
+      "ipa": "ˈɪntrəstɪd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "tired",
+      "ipa": "ˈtaɪɚd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "natural",
+      "ipa": "ˈnætʃərəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "design",
+      "ipa": "dɪˈzaɪn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "homework",
+      "ipa": "ˈhoʊmwɝk",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "cafe",
+      "ipa": "kæˈfeɪ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "require",
+      "ipa": "rɪˈkwaɪɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "exempt",
+      "ipa": "ɪɡˈzɛmpt",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "distinguish",
+      "ipa": "dɪˈstɪŋɡwɪʃ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "discern",
+      "ipa": "dɪˈsɝn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "people",
+      "ipa": "ˈpipəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "something",
+      "ipa": "ˈsʌmθɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "someone",
+      "ipa": "ˈsʌmwʌn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "thought",
+      "ipa": "θɔt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "business",
+      "ipa": "ˈbɪznəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "everything",
+      "ipa": "ˈɛvriθɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "once",
+      "ipa": "wʌns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "everyone",
+      "ipa": "ˈɛvriwʌn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "anyone",
+      "ipa": "ˈɛniwʌn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "friend",
+      "ipa": "frɛnd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "question",
+      "ipa": "ˈkwɛstʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "buy",
+      "ipa": "baɪ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "heart",
+      "ipa": "hɑrt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "fire",
+      "ipa": "ˈfaɪɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sometimes",
+      "ipa": "ˈsʌmtaɪmz",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "education",
+      "ipa": "ˌɛdʒəˈkeɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "experience",
+      "ipa": "ɪkˈspɪriəns",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "current",
+      "ipa": "ˈkɝənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "example",
+      "ipa": "ɪɡˈzæmpəl",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "beautiful",
+      "ipa": "ˈbjutɪfəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "especially",
+      "ipa": "ɪˈspɛʃəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "view",
+      "ipa": "vju",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "hour",
+      "ipa": "ˈaʊɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "answer",
+      "ipa": "ˈænsɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "interest",
+      "ipa": "ˈɪntrəst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "guess",
+      "ipa": "ɡɛs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "of",
+      "ipa": "ʌv",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "what",
+      "ipa": "wʌt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "their",
+      "ipa": "ðɛr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "our",
+      "ipa": "ˈaʊɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "every",
+      "ipa": "ˈɛvri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "eye",
+      "ipa": "aɪ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "door",
+      "ipa": "dɔr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "several",
+      "ipa": "ˈsɛvrəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "expect",
+      "ipa": "ɪkˈspɛkt",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "explain",
+      "ipa": "ɪkˈspleɪn",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "difference",
+      "ipa": "ˈdɪfrəns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "science",
+      "ipa": "ˈsaɪəns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "patient",
+      "ipa": "ˈpeɪʃənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "whatever",
+      "ipa": "wʌtˈɛvɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "figure",
+      "ipa": "ˈfɪɡjɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "behavior",
+      "ipa": "bɪˈheɪvjɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "language",
+      "ipa": "ˈlæŋɡwɪdʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "population",
+      "ipa": "ˌpɑpjəˈleɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "century",
+      "ipa": "ˈsɛntʃəri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "floor",
+      "ipa": "flɔr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "serious",
+      "ipa": "ˈsɪriəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "worry",
+      "ipa": "ˈwɝi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "scene",
+      "ipa": "sin",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "interesting",
+      "ipa": "ˈɪntrəstɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "knowledge",
+      "ipa": "ˈnɑlɪdʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sign",
+      "ipa": "saɪn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "foreign",
+      "ipa": "ˈfɔrən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "laugh",
+      "ipa": "læf",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "opinion",
+      "ipa": "əˈpɪnjən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "exist",
+      "ipa": "ɪɡˈzɪst",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "union",
+      "ipa": "ˈjunjən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "pressure",
+      "ipa": "ˈprɛʃɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "various",
+      "ipa": "ˈvɛriəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "argument",
+      "ipa": "ˈɑrɡjəmənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "island",
+      "ipa": "ˈaɪlənd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "marriage",
+      "ipa": "ˈmærɪdʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "religious",
+      "ipa": "rɪˈlɪdʒəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "particular",
+      "ipa": "pɚˈtɪkjəlɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "popular",
+      "ipa": "ˈpɑpjəlɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "insurance",
+      "ipa": "ɪnˈʃʊrəns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "scientist",
+      "ipa": "ˈsaɪəntɪst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sexual",
+      "ipa": "ˈsɛkʃuəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "evening",
+      "ipa": "ˈivnɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "safety",
+      "ipa": "ˈseɪfti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "soldier",
+      "ipa": "ˈsoʊldʒɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "restaurant",
+      "ipa": "ˈrɛstəˌrɑnt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "religion",
+      "ipa": "rɪˈlɪdʒən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "express",
+      "ipa": "ɪkˈsprɛs",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "encourage",
+      "ipa": "ɪnˈkɝɪdʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "vehicle",
+      "ipa": "ˈviɪkəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "examine",
+      "ipa": "ɪɡˈzæmɪn",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "strength",
+      "ipa": "strɛŋkθ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "failure",
+      "ipa": "ˈfeɪljɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "guest",
+      "ipa": "ɡɛst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "somewhere",
+      "ipa": "ˈsʌmwɛr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "regular",
+      "ipa": "ˈrɛɡjəlɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "dangerous",
+      "ipa": "ˈdeɪndʒərəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "guard",
+      "ipa": "ɡɑrd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "hire",
+      "ipa": "ˈhaɪɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "captain",
+      "ipa": "ˈkæptɪn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "threaten",
+      "ipa": "ˈθrɛtn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "towards",
+      "ipa": "tɔrdz",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "expression",
+      "ipa": "ɪkˈsprɛʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "somehow",
+      "ipa": "ˈsʌmhaʊ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "scientific",
+      "ipa": "ˌsaɪənˈtɪfɪk",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "broad",
+      "ipa": "brɔd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "ourselves",
+      "ipa": "aʊɚˈsɛlvz",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "excuse",
+      "ipa": "ɪkˈskjus",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "excuse",
+      "ipa": "ɪkˈskjuz",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "familiar",
+      "ipa": "fəˈmɪljɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "desire",
+      "ipa": "dɪˈzaɪɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "famous",
+      "ipa": "ˈfeɪməs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "except",
+      "ipa": "ɪkˈsɛpt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "expensive",
+      "ipa": "ɪkˈspɛnsɪv",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "comfortable",
+      "ipa": "ˈkʌmftɚbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sugar",
+      "ipa": "ˈʃʊɡɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "ocean",
+      "ipa": "ˈoʊʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "excellent",
+      "ipa": "ˈɛksələnt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "beauty",
+      "ipa": "ˈbjuti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "uncle",
+      "ipa": "ˈʌŋkəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "everywhere",
+      "ipa": "ˈɛvriˌwɛr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "guide",
+      "ipa": "ɡaɪd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "ancient",
+      "ipa": "ˈeɪnʃənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "ought",
+      "ipa": "ɔt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "fashion",
+      "ipa": "ˈfæʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "muscle",
+      "ipa": "ˈmʌsəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "judgment",
+      "ipa": "ˈdʒʌdʒmənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "prayer",
+      "ipa": "prɛr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "existence",
+      "ipa": "ɪɡˈzɪstəns",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "journey",
+      "ipa": "ˈdʒɝni",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "pure",
+      "ipa": "pjʊr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "extreme",
+      "ipa": "ɪkˈstrim",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "vegetable",
+      "ipa": "ˈvɛdʒtəbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "nervous",
+      "ipa": "ˈnɝvəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "bury",
+      "ipa": "ˈbɛri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "usual",
+      "ipa": "ˈjuʒuəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "iron",
+      "ipa": "ˈaɪɚn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "aunt",
+      "ipa": "ænt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "anxiety",
+      "ipa": "æŋˈzaɪəti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "excited",
+      "ipa": "ɪkˈsaɪtɪd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "exciting",
+      "ipa": "ɪkˈsaɪtɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "friendly",
+      "ipa": "ˈfrɛndli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "wire",
+      "ipa": "ˈwaɪɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "exact",
+      "ipa": "ɪɡˈzækt",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "chocolate",
+      "ipa": "ˈtʃɔklət",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "grandmother",
+      "ipa": "ˈɡrænmʌðɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "calculate",
+      "ipa": "ˈkælkjəleɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "hurry",
+      "ipa": "ˈhɝi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "fortune",
+      "ipa": "ˈfɔrtʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "laughter",
+      "ipa": "ˈlæftɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "tongue",
+      "ipa": "tʌŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "educate",
+      "ipa": "ˈɛdʒəkeɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "onion",
+      "ipa": "ˈʌnjən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "permission",
+      "ipa": "pɚˈmɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "profession",
+      "ipa": "prəˈfɛʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "explosion",
+      "ipa": "ɪkˈsploʊʒən",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "garage",
+      "ipa": "ɡəˈrɑʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "possession",
+      "ipa": "pəˈzɛʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "tire",
+      "ipa": "ˈtaɪɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "explode",
+      "ipa": "ɪkˈsploʊd",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "courage",
+      "ipa": "ˈkɝɪdʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "examination",
+      "ipa": "ɪɡˌzæmɪˈneɪʃən",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "inquiry",
+      "ipa": "ɪnˈkwaɪəri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "admire",
+      "ipa": "ədˈmaɪɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sword",
+      "ipa": "sɔrd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "guidance",
+      "ipa": "ˈɡaɪdəns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "widespread",
+      "ipa": "ˈwaɪdsprɛd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "ours",
+      "ipa": "ˈaʊɚz",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "abroad",
+      "ipa": "əˈbrɔd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "companion",
+      "ipa": "kəmˈpænjən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "persuade",
+      "ipa": "pɚˈsweɪd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "cotton",
+      "ipa": "kɑtn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "parliament",
+      "ipa": "ˈpɑrləmənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "generous",
+      "ipa": "ˈdʒɛnərəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "conscious",
+      "ipa": "ˈkɑnʃəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "continuous",
+      "ipa": "kənˈtɪnjuəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "curtain",
+      "ipa": "kɝtn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "mysterious",
+      "ipa": "mɪˈstɪriəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "flour",
+      "ipa": "ˈflaʊɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "patience",
+      "ipa": "ˈpeɪʃəns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "outdoor",
+      "ipa": "ˈaʊtdɔr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "broadcast",
+      "ipa": "ˈbrɔdkæst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "forehead",
+      "ipa": "ˈfɔrhɛd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "popularity",
+      "ipa": "ˌpɑpjəˈlɛrəti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "descend",
+      "ipa": "dɪˈsɛnd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "anxious",
+      "ipa": "ˈæŋkʃəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "conscience",
+      "ipa": "ˈkɑnʃəns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "cure",
+      "ipa": "kjʊr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "excite",
+      "ipa": "ɪkˈsaɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "o'clock",
+      "ipa": "əˈklɑk",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "eighth",
+      "ipa": "eɪtθ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "doorway",
+      "ipa": "ˈdɔrweɪ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "jealous",
+      "ipa": "ˈdʒɛləs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "discourage",
+      "ipa": "dɪˈskɝɪdʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "autumn",
+      "ipa": "ˈɔtəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "carriage",
+      "ipa": "ˈkærɪdʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "dictionary",
+      "ipa": "ˈdɪkʃəˌnɛri",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "convenient",
+      "ipa": "kənˈvinjənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "cupboard",
+      "ipa": "ˈkʌbɚd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "fierce",
+      "ipa": "fɪrs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "encouragement",
+      "ipa": "ɪnˈkɝɪdʒmənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "timetable",
+      "ipa": "ˈtaɪmteɪbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "fortunate",
+      "ipa": "ˈfɔrtʃənət",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "circular",
+      "ipa": "ˈsɝkjəlɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "foreigner",
+      "ipa": "ˈfɔrənɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "fashionable",
+      "ipa": "ˈfæʃənəbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "old-fashioned",
+      "ipa": "oʊldˈfæʃənd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "burial",
+      "ipa": "ˈbɛriəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "adjective",
+      "ipa": "ˈædʒɪktɪv",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "theirs",
+      "ipa": "ðɛrz",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "calculator",
+      "ipa": "ˈkælkjəˌleɪtɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "cough",
+      "ipa": "kɔf",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "discouragement",
+      "ipa": "dɪˈskɝɪdʒmənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "explosive",
+      "ipa": "ɪkˈsploʊsɪv",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "eyelid",
+      "ipa": "ˈaɪlɪd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "fireplace",
+      "ipa": "ˈfaɪɚpleɪs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "handkerchief",
+      "ipa": "ˈhæŋkɚtʃɪf",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "hourly",
+      "ipa": "ˈaʊɚli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "humorous",
+      "ipa": "ˈhjumərəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "indoor",
+      "ipa": "ˈɪndɔr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "indoors",
+      "ipa": "ˈɪndɔrz",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "inquire",
+      "ipa": "ɪnˈkwaɪɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "jealousy",
+      "ipa": "ˈdʒɛləsi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "lodging",
+      "ipa": "ˈlɑdʒɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "millionth",
+      "ipa": "ˈmɪljənθ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "oneself",
+      "ipa": "wʌnˈsɛlf",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "outdoors",
+      "ipa": "ˌaʊtˈdɔrz",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "poisonous",
+      "ipa": "ˈpɔɪzənəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "procession",
+      "ipa": "prəˈsɛʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "scenery",
+      "ipa": "ˈsinəri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "scissors",
+      "ipa": "ˈsɪzɚz",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sew",
+      "ipa": "soʊ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sideways",
+      "ipa": "ˈsaɪdweɪz",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "singular",
+      "ipa": "ˈsɪŋɡjəlɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "solemn",
+      "ipa": "ˈsɑləm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sour",
+      "ipa": "ˈsaʊɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "spacecraft",
+      "ipa": "ˈspeɪskræft",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "guy",
+      "ipa": "ɡaɪ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "toward",
+      "ipa": "tɔrd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "exactly",
+      "ipa": "ɪɡˈzæktli",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "campaign",
+      "ipa": "kæmˈpeɪn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "certainly",
+      "ipa": "ˈsɝtnli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "region",
+      "ipa": "ˈridʒən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "particularly",
+      "ipa": "pɚˈtɪkjəlɚli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "obviously",
+      "ipa": "ˈɑbviəsli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "mission",
+      "ipa": "ˈmɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "previous",
+      "ipa": "ˈpriviəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "cultural",
+      "ipa": "ˈkʌltʃɚəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "etc",
+      "ipa": "ɛtˈsɛtɚə",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "Christian",
+      "ipa": "ˈkrɪstʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "currently",
+      "ipa": "ˈkɝəntli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "seriously",
+      "ipa": "ˈsɪriəsli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "European",
+      "ipa": "ˌjʊrəˈpiən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "basically",
+      "ipa": "ˈbeɪsɪkli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "baseball",
+      "ipa": "ˈbeɪsbɔl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unfortunately",
+      "ipa": "ʌnˈfɔrtʃənətli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "educational",
+      "ipa": "ˌɛdʒəˈkeɪʃənəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "used",
+      "ipa": "just",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "Russian",
+      "ipa": "ˈrʌʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "experiment",
+      "ipa": "ɪkˈspɛrəmənt",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "experiment",
+      "ipa": "ɪkˈspɛrəˌmɛnt",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "expose",
+      "ipa": "ɪkˈspoʊz",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "regional",
+      "ipa": "ˈridʒənəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "increased",
+      "ipa": "ɪnˈkrist",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "e-mail",
+      "ipa": "ˈimeɪl",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "household",
+      "ipa": "ˈhaʊshoʊld",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "journalist",
+      "ipa": "ˈdʒɝnəlɪst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "depression",
+      "ipa": "dɪˈprɛʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "CEO",
+      "ipa": "ˌsiiˈoʊ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "column",
+      "ipa": "ˈkɑləm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "Israeli",
+      "ipa": "ɪzˈreɪli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "passion",
+      "ipa": "ˈpæʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "DNA",
+      "ipa": "ˌdiɛnˈeɪ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "anonymous",
+      "ipa": "əˈnɑnəməs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "awesome",
+      "ipa": "ˈɔsəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "designer",
+      "ipa": "dɪˈzaɪnɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "retire",
+      "ipa": "rɪˈtaɪɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "elsewhere",
+      "ipa": "ˈɛlswɛr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "scenario",
+      "ipa": "səˈnɛrioʊ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "retirement",
+      "ipa": "rɪˈtaɪɚmənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "congressional",
+      "ipa": "kənˈɡrɛʃənəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "curriculum",
+      "ipa": "kəˈrɪkjələm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "hurricane",
+      "ipa": "ˈhɝəkeɪn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "potentially",
+      "ipa": "pəˈtɛnʃəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "moreover",
+      "ipa": "mɔrˈoʊvɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "so-called",
+      "ipa": "ˌsoʊˈkɔld",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "bureau",
+      "ipa": "ˈbjʊroʊ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "junior",
+      "ipa": "ˈdʒunjɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "deputy",
+      "ipa": "ˈdɛpjəti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "Asian",
+      "ipa": "ˈeɪʒən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "viewer",
+      "ipa": "ˈvjuɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "ridiculous",
+      "ipa": "rɪˈdɪkjələs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "naturally",
+      "ipa": "ˈnætʃərəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "hopefully",
+      "ipa": "ˈhoʊpfəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "brilliant",
+      "ipa": "ˈbrɪljənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "curious",
+      "ipa": "ˈkjʊriəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "ratio",
+      "ipa": "ˈreɪʃioʊ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "laboratory",
+      "ipa": "ˈlæbrətɔri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "GOP",
+      "ipa": "ˌdʒiˌoʊˈpi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "terrorism",
+      "ipa": "ˈtɛrərɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "refugee",
+      "ipa": "ˌrɛfjʊˈdʒi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "worried",
+      "ipa": "ˈwɝid",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "efficient",
+      "ipa": "ɪˈfɪʃənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "friendship",
+      "ipa": "ˈfrɛndʃɪp",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "differently",
+      "ipa": "ˈdɪfrəntli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "spokesman",
+      "ipa": "ˈspoʊksmən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "extension",
+      "ipa": "ɪkˈstɛnʃən",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "everyday",
+      "ipa": "ˈɛvrideɪ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "lifestyle",
+      "ipa": "ˈlaɪfstaɪl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sidebar",
+      "ipa": "ˈsaɪdbɑr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "lieutenant",
+      "ipa": "luˈtɛnənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "acre",
+      "ipa": "ˈeɪkɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "drawing",
+      "ipa": "ˈdrɔɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "politically",
+      "ipa": "pəˈlɪtɪkli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "Italian",
+      "ipa": "ɪˈtæljən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "buyer",
+      "ipa": "ˈbaɪɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "physically",
+      "ipa": "ˈfɪzɪkli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "commissioner",
+      "ipa": "kəˈmɪʃənɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "tremendous",
+      "ipa": "trɪˈmɛndəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "recession",
+      "ipa": "rɪˈsɛʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "pizza",
+      "ipa": "ˈpitsə",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "manufacturing",
+      "ipa": "ˌmænjəˈfæktʃərɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "genius",
+      "ipa": "ˈdʒinjəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "communist",
+      "ipa": "ˈkɑmjənɪst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "uncomfortable",
+      "ipa": "ʌnˈkʌmftɚbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "experimental",
+      "ipa": "ɪkˌspɛrɪˈmɛntəl",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "Corps",
+      "ipa": "kɔr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "virtue",
+      "ipa": "ˈvɝtʃu",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "resign",
+      "ipa": "rɪˈzaɪn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "racism",
+      "ipa": "ˈreɪsɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "marijuana",
+      "ipa": "ˌmɛrəˈwɑnə",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "colonel",
+      "ipa": "ˈkɝnəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "fascinating",
+      "ipa": "ˈfæsəneɪtɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "officially",
+      "ipa": "əˈfɪʃəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unexpected",
+      "ipa": "ˌʌnɪkˈspɛktɪd",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "occupation",
+      "ipa": "ˌɑkjəˈpeɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "stimulus",
+      "ipa": "ˈstɪmjələs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "rhythm",
+      "ipa": "ˈrɪðəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "nonetheless",
+      "ipa": "ˌnʌnðəˈlɛs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "civilian",
+      "ipa": "səˈvɪljən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "T-shirt",
+      "ipa": "ˈtiʃɝt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "rhetoric",
+      "ipa": "ˈrɛtərɪk",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "practically",
+      "ipa": "ˈpræktɪkli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "genre",
+      "ipa": "ˈʒɑnrə",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "bombing",
+      "ipa": "ˈbɑmɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "surgeon",
+      "ipa": "ˈsɝdʒən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "treasury",
+      "ipa": "ˈtrɛʒɚi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "Treasury",
+      "ipa": "ˈtrɛʒɚi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sergeant",
+      "ipa": "ˈsɑrdʒənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "excitement",
+      "ipa": "ɪkˈsaɪtmənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "adolescent",
+      "ipa": "ˌædəˈlɛsənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "functional",
+      "ipa": "ˈfʌŋkʃənəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "Christianity",
+      "ipa": "ˌkrɪstʃiˈænəti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "statute",
+      "ipa": "ˈstætʃut",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "journalism",
+      "ipa": "ˈdʒɝnəlɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "handsome",
+      "ipa": "ˈhænsəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "suite",
+      "ipa": "swit",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "African-American",
+      "ipa": "ˈæfrɪkən əˈmɛrɪkən",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "condemn",
+      "ipa": "kənˈdɛm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "homeland",
+      "ipa": "ˈhoʊmlænd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "historically",
+      "ipa": "hɪˈstɔrɪkli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "entrepreneur",
+      "ipa": "ˌɑntrəprəˈnɝ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "someday",
+      "ipa": "ˈsʌmdeɪ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "courtesy",
+      "ipa": "ˈkɝtəsi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "retired",
+      "ipa": "rɪˈtaɪɚd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sexually",
+      "ipa": "ˈsɛkʃuəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "debut",
+      "ipa": "deɪˈbju",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "suspicion",
+      "ipa": "səˈspɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "grandma",
+      "ipa": "ˈɡrænmɑ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "traveler",
+      "ipa": "ˈtrævlɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "export",
+      "ipa": "ɪkˈspɔrt",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "expected",
+      "ipa": "ɪkˈspɛktɪd",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "casual",
+      "ipa": "ˈkæʒuəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "resume",
+      "ipa": "ˈrɛzəmeɪ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "full-time",
+      "ipa": "ˌfʊlˈtaɪm",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "questionnaire",
+      "ipa": "ˌkwɛstʃəˈnɛr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "behalf",
+      "ipa": "bɪˈhæf",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "herb",
+      "ipa": "ɝb",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "accusation",
+      "ipa": "ˌækjəˈzeɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "contributor",
+      "ipa": "kənˈtrɪbjətɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "likelihood",
+      "ipa": "ˈlaɪklihʊd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "gorgeous",
+      "ipa": "ˈɡɔrdʒəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "required",
+      "ipa": "rɪˈkwaɪɚd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "fortunately",
+      "ipa": "ˈfɔrtʃənətli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "threshold",
+      "ipa": "ˈθrɛʃhoʊld",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unfortunate",
+      "ipa": "ʌnˈfɔrtʃənət",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "businessman",
+      "ipa": "ˈbɪznəsmæn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sometime",
+      "ipa": "ˈsʌmtaɪm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "secular",
+      "ipa": "ˈsɛkjəlɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "speculation",
+      "ipa": "ˌspɛkjəˈleɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "mixed",
+      "ipa": "mɪkst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "vampire",
+      "ipa": "ˈvæmpaɪɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "encouraging",
+      "ipa": "ɪnˈkɝɪdʒɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "technically",
+      "ipa": "ˈtɛknɪkli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "explicitly",
+      "ipa": "ɪkˈsplɪsɪtli",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "short-term",
+      "ipa": "ˌʃɔrtˈtɝm",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "re-election",
+      "ipa": "ˌriɪˈlɛkʃən",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "socially",
+      "ipa": "ˈsoʊʃəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "pipeline",
+      "ipa": "ˈpaɪplaɪn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "depressed",
+      "ipa": "dɪˈprɛst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "embarrassed",
+      "ipa": "ɪmˈbɛrəst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "monument",
+      "ipa": "ˈmɑnjəmənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "consecutive",
+      "ipa": "kənˈsɛkjətɪv",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "accurately",
+      "ipa": "ˈækjərətli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "casualty",
+      "ipa": "ˈkæʒuəlti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "eyebrow",
+      "ipa": "ˈaɪbraʊ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "vocabulary",
+      "ipa": "voʊˈkæbjəlɛri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "align",
+      "ipa": "əˈlaɪn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "make-up",
+      "ipa": "ˈmeɪkʌp",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "know-how",
+      "ipa": "ˈnoʊhaʊ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "made-up",
+      "ipa": "ˌmeɪdˈʌp",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "set-to",
+      "ipa": "ˈsɛtˌtu",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "live-in",
+      "ipa": "ˈlɪvɪn",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "based",
+      "ipa": "beɪst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "well-known",
+      "ipa": "ˌwɛlˈnoʊn",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "working-class",
+      "ipa": "ˌwɝkɪŋˈklæs",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "middle-class",
+      "ipa": "ˌmɪdəlˈklæs",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "secretary-general",
+      "ipa": "ˌsɛkrətɛriˈdʒɛnərəl",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "right-wing",
+      "ipa": "ˌraɪtˈwɪŋ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "left-wing",
+      "ipa": "ˌlɛftˈwɪŋ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "dressed",
+      "ipa": "drɛst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "shaped",
+      "ipa": "ʃeɪpt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "luxury",
+      "ipa": "ˈlʌkʃəri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "impressed",
+      "ipa": "ɪmˈprɛst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "educated",
+      "ipa": "ˈɛdʒʊkeɪtɪd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "shocked",
+      "ipa": "ʃɑkt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "hilarious",
+      "ipa": "hɪˈlɛriəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "amateur",
+      "ipa": "ˈæmətʃʊr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "excess",
+      "ipa": "ˈɛksɛs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "balanced",
+      "ipa": "ˈbælənst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "parliamentary",
+      "ipa": "ˌpɑrləˈmɛntəri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "worrying",
+      "ipa": "ˈwɝiɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "adjacent",
+      "ipa": "əˈdʒeɪsənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "molecular",
+      "ipa": "məˈlɛkjəlɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "overview",
+      "ipa": "ˈoʊvɚvju",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "purely",
+      "ipa": "ˈpjʊrli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "calculated",
+      "ipa": "ˈkælkjəleɪtɪd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "fatal",
+      "ipa": "ˈfeɪtl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "forecast",
+      "ipa": "ˈfɔrkæst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "fabulous",
+      "ipa": "ˈfæbjələs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "assured",
+      "ipa": "əˈʃʊrd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "reign",
+      "ipa": "reɪn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "ambulance",
+      "ipa": "ˈæmbjələns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "divorced",
+      "ipa": "dəˈvɔrst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "convenience",
+      "ipa": "kənˈvinjəns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "gauge",
+      "ipa": "ɡeɪdʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "mercury",
+      "ipa": "ˈmɝkjəri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "relaxed",
+      "ipa": "rɪˈlækst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "coup",
+      "ipa": "ku",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "whatsoever",
+      "ipa": "ˌwʌtsoʊˈɛvɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "manufacture",
+      "ipa": "ˌmænjəˈfæktʃɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "furious",
+      "ipa": "ˈfjʊriəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "continuously",
+      "ipa": "kənˈtɪnjuəsli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sexuality",
+      "ipa": "ˌsɛkʃuˈæləti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "ballet",
+      "ipa": "bæˈleɪ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "bargain",
+      "ipa": "ˈbɑrɡɪn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "rebellion",
+      "ipa": "rɪˈbɛljən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "simulation",
+      "ipa": "ˌsɪmjəˈleɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "conjunction",
+      "ipa": "kənˈdʒʌŋkʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "descent",
+      "ipa": "dɪˈsɛnt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "tenure",
+      "ipa": "ˈtɛnjɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "debris",
+      "ipa": "dəˈbri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "massacre",
+      "ipa": "ˈmæsəkɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "aggression",
+      "ipa": "əˈɡrɛʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "progression",
+      "ipa": "prəˈɡrɛʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "reservoir",
+      "ipa": "ˈrɛzɚvwɑr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "module",
+      "ipa": "ˈmɑdʒul",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "trademark",
+      "ipa": "ˈtreɪdmɑrk",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "choir",
+      "ipa": "ˈkwaɪɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "militia",
+      "ipa": "məˈlɪʃə",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "prestigious",
+      "ipa": "prɛˈstɪdʒəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sovereignty",
+      "ipa": "ˈsɑvrənti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "urine",
+      "ipa": "ˈjʊrɪn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "economically",
+      "ipa": "ˌɛkəˈnɑmɪkli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "nationalism",
+      "ipa": "ˈnæʃənəlɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "notorious",
+      "ipa": "noʊˈtɔriəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "thoughtful",
+      "ipa": "ˈθɔtfəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "broadly",
+      "ipa": "ˈbrɔdli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "yacht",
+      "ipa": "jɑt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "exhaust",
+      "ipa": "ɪɡˈzɔst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "communism",
+      "ipa": "ˈkɑmjəˌnɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "grandpa",
+      "ipa": "ˈɡrænpɑ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "efficiently",
+      "ipa": "ɪˈfɪʃəntli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "alignment",
+      "ipa": "əˈlaɪnmənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "conquer",
+      "ipa": "ˈkɑŋkɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "memoir",
+      "ipa": "ˈmɛmwɑr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "occurrence",
+      "ipa": "əˈkɝəns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "nineteenth",
+      "ipa": "ˌnaɪnˈtinθ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "infamous",
+      "ipa": "ˈɪnfəməs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "lifelong",
+      "ipa": "ˈlaɪflɔŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "expenditure",
+      "ipa": "ɪkˈspɛndɪtʃɚ",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "ironically",
+      "ipa": "aɪˈrɑnɪkli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "notebook",
+      "ipa": "ˈnoʊtbʊk",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "homosexual",
+      "ipa": "ˌhoʊməˈsɛkʃuəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "spontaneous",
+      "ipa": "spɑnˈteɪniəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "indictment",
+      "ipa": "ɪnˈdaɪtmənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sewing",
+      "ipa": "ˈsoʊɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "broadband",
+      "ipa": "ˈbrɔdbænd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "constituency",
+      "ipa": "kənˈstɪtʃuənsi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "firearm",
+      "ipa": "ˈfaɪɚɑrm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "takeover",
+      "ipa": "ˈteɪkoʊvɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "disastrous",
+      "ipa": "dɪˈzæstrəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "stimulate",
+      "ipa": "ˈstɪmjəleɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "activism",
+      "ipa": "ˈæktɪvɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "statistically",
+      "ipa": "stəˈtɪstɪkli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "optimism",
+      "ipa": "ˈɑptəmɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "rouge",
+      "ipa": "ruʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "spokesperson",
+      "ipa": "ˈspoʊksˌpɝsən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "Buddhism",
+      "ipa": "ˈbudɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "broadcaster",
+      "ipa": "ˈbrɔdˌkæstɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "regulator",
+      "ipa": "ˈrɛɡjəˌleɪtɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "calculus",
+      "ipa": "ˈkælkjələs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "congratulate",
+      "ipa": "kənˈɡrætʃəleɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "cushion",
+      "ipa": "ˈkʊʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "archaeology",
+      "ipa": "ˌɑrkiˈɑlədʒi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "concession",
+      "ipa": "kənˈsɛʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "furry",
+      "ipa": "ˈfɝi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "impatient",
+      "ipa": "ɪmˈpeɪʃənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "bureaucracy",
+      "ipa": "bjʊˈrɑkrəsi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "articulate",
+      "ipa": "ɑrˈtɪkjələt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "articulate",
+      "ipa": "ɑrˈtɪkjəleɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "expire",
+      "ipa": "ɪkˈspaɪr",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "marvelous",
+      "ipa": "ˈmɑrvələs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "dishonest",
+      "ipa": "dɪsˈɑnɪst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "bilingual",
+      "ipa": "baɪˈlɪŋɡwəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "initiation",
+      "ipa": "ɪˌnɪʃiˈeɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "tsunami",
+      "ipa": "suˈnɑmi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "excerpt",
+      "ipa": "ˈɛksɝpt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "interviewer",
+      "ipa": "ˈɪntɚvjuɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "tighten",
+      "ipa": "ˈtaɪtn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "regression",
+      "ipa": "rɪˈɡrɛʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "speculate",
+      "ipa": "ˈspɛkjəleɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "rewrite",
+      "ipa": "riˈraɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "turbulent",
+      "ipa": "ˈtɝbjələnt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "extremist",
+      "ipa": "ɪkˈstrimɪst",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "wavelength",
+      "ipa": "ˈweɪvlɛŋθ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "artificially",
+      "ipa": "ˌɑrtəˈfɪʃəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "soluble",
+      "ipa": "ˈsɑljəbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "linguistics",
+      "ipa": "lɪŋˈɡwɪstɪks",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "coefficient",
+      "ipa": "ˌkoʊəˈfɪʃənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "guerrilla",
+      "ipa": "ɡəˈrɪlə",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "tiring",
+      "ipa": "ˈtaɪərɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "beneficiary",
+      "ipa": "ˌbɛnəˈfɪʃiɛri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "firefighter",
+      "ipa": "ˈfaɪɚˌfaɪtɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "indifference",
+      "ipa": "ɪnˈdɪfrəns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "ceasefire",
+      "ipa": "ˈsisfaɪɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "reassure",
+      "ipa": "ˌriəˈʃʊr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "generously",
+      "ipa": "ˈdʒɛnərəsli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "spokeswoman",
+      "ipa": "ˈspoʊkswʊmən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unfriendly",
+      "ipa": "ʌnˈfrɛndli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "nervousness",
+      "ipa": "ˈnɝvəsnəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "aerosol",
+      "ipa": "ˈɛrəsɑl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "oscillation",
+      "ipa": "ˌɑsəˈleɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "businesswoman",
+      "ipa": "ˈbɪznəsˌwʊmən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "herbicide",
+      "ipa": "ˈɝbəˌsaɪd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "congratulation",
+      "ipa": "kənˌɡrætʃəˈleɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "fascinate",
+      "ipa": "ˈfæsəˌneɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "humorously",
+      "ipa": "ˈhjumɚəsli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "dishonestly",
+      "ipa": "dɪsˈɑnəstli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sourness",
+      "ipa": "ˈsaʊɚnəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "ninetieth",
+      "ipa": "ˈnaɪntiəθ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unfair",
+      "ipa": "ʌnˈfer",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unaware",
+      "ipa": "ˌʌnəˈwer",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "irregular",
+      "ipa": "ɪˈreɡjələr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "nonverbal",
+      "ipa": "ˌnɑːnˈvɝːbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "misinterpret",
+      "ipa": "ˌmɪsɪnˈtɝːprɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "preview",
+      "ipa": "ˈpriːvjuː",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "preexisting",
+      "ipa": "ˌpriːɪɡˈzɪstɪŋ",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "underdeveloped",
+      "ipa": "ˌʌndərdɪˈveləpt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "intracellular",
+      "ipa": "ˌɪntrəˈseljələr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "subconscious",
+      "ipa": "ˌsʌbˈkɑːnʃəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "coexist",
+      "ipa": "ˌkoʊɪɡˈzɪst",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "awareness",
+      "ipa": "əˈwernəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "expansion",
+      "ipa": "ɪkˈspænʃən",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "researcher",
+      "ipa": "ˈriːsɝːtʃər",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "capitalism",
+      "ipa": "ˈkæpɪtəlɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "realism",
+      "ipa": "ˈriːəlɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "cultural",
+      "ipa": "ˈkʌltʃərəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "broaden",
+      "ipa": "ˈbrɔːdən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "transfer",
+      "ipa": "trænsˈfɝː",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "infer",
+      "ipa": "ɪnˈfɝː",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "refer",
+      "ipa": "rɪˈfɝː",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "convert",
+      "ipa": "kənˈvɝːt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "reverse",
+      "ipa": "rɪˈvɝːs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "manuscript",
+      "ipa": "ˈmænjəskrɪpt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "extract",
+      "ipa": "ɪkˈstrækt",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "broad",
+      "ipa": "brɔːd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "breadth",
+      "ipa": "bredθ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "in terms of",
+      "ipa": "ɪn ˈtɝːmz ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "per",
+      "ipa": "pɝː",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "lack of",
+      "ipa": "læk ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "awareness of",
+      "ipa": "əˈwer.nəs ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "under review",
+      "ipa": "ˈʌn.dɚ rɪˈvjuː",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "in the absence of",
+      "ipa": "ɪn ði ˈæb.səns ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "in light of",
+      "ipa": "ɪn ˈlaɪt ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "on the basis of",
+      "ipa": "ɑːn ðə ˈbeɪ.sɪs ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "out of",
+      "ipa": "aʊt ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "regardless of",
+      "ipa": "rɪˈɡɑːrd.ləs ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "in favor of",
+      "ipa": "ɪn ˈfeɪ.vɚ ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "against",
+      "ipa": "əˈɡenst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "on behalf of",
+      "ipa": "ɑːn bɪˈhæf ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "at the expense of",
+      "ipa": "æt ði ɪkˈspens ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "in addition to",
+      "ipa": "ɪn əˈdɪʃ.ən tuː",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "except for",
+      "ipa": "ɪkˈsept fɔːr",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "instead of",
+      "ipa": "ɪnˈsted ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "in search of",
+      "ipa": "ɪn ˈsɝːtʃ ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "capable of",
+      "ipa": "ˈkeɪ.pə.bəl ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "refer to",
+      "ipa": "rɪˈfɝː tə",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "figure out",
+      "ipa": "ˈfɪɡjɚ aʊt",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "consist of",
+      "ipa": "kənˈsɪst əv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "serve as",
+      "ipa": "sɝːv æz",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "work out",
+      "ipa": "wɝːk aʊt",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "turn into",
+      "ipa": "tɝːn ˈɪntu",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "wear out",
+      "ipa": "wer aʊt",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "turn out",
+      "ipa": "tɝːn aʊt",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "run out of",
+      "ipa": "ˌrʌn ˈaʊt əv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "fall short of",
+      "ipa": "ˌfɔl ˈʃɔrt əv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "take advantage of",
+      "ipa": "ˌteɪk ədˈvæntɪdʒ əv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "opt out of",
+      "ipa": "ˌɑpt ˈaʊt əv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "(art) gallery",
+      "ipa": "ɑrt ˈɡælɚi",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "(just) around the corner",
+      "ipa": "dʒʌst ɚˈaʊnd ðə ˈkɔrnɚ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "(percentage) share",
+      "ipa": "pɚˈsɛntədʒ ʃɛr",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "ATM",
+      "ipa": "ˈeɪˌtiˈɛm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "Buddhist",
+      "ipa": "ˈbudəst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "a body of water",
+      "ipa": "ə ˈbɑdi ʌv ˈwɔtɚ",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "a handful of",
+      "ipa": "ə ˈhændˌfʊl ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "a host of",
+      "ipa": "ə hoʊst ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "a modicum of",
+      "ipa": "ə ˈmɑdɪkəm ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "a multitude of",
+      "ipa": "ə ˈmʌltəˌtud ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "a number of",
+      "ipa": "ə ˈnʌmbɚ ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "a range of",
+      "ipa": "ə reɪndʒ ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "a selection of",
+      "ipa": "ə səˈlɛkʃən ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "a series of",
+      "ipa": "ə ˈsɪriz ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "a variety of",
+      "ipa": "ə vɚˈaɪəti ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "a wide range of",
+      "ipa": "ə waɪd reɪndʒ ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "abusive language",
+      "ipa": "əˈbjusɪv ˈlæŋɡwədʒ",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "accumulate",
+      "ipa": "əˈkjumjəˌleɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "accumulation",
+      "ipa": "əˌkjumjəˈleɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "accuracy",
+      "ipa": "ˈækjɚəsi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "accurate",
+      "ipa": "ˈækjɚət",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "acknowledge",
+      "ipa": "ækˈnɑlɪdʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "acknowledgement",
+      "ipa": "ækˈnɑlɪdʒmənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "acquaintance",
+      "ipa": "əˈkweɪntəns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "acquire",
+      "ipa": "əˈkwaɪɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "acquisition",
+      "ipa": "ˌækwəˈzɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "actuate",
+      "ipa": "ˈæktʃəˌweɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "adjunct",
+      "ipa": "ˈæˌdʒʌŋkt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "adjust",
+      "ipa": "əˈdʒʌst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "adjustment",
+      "ipa": "əˈdʒʌstmənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "admission",
+      "ipa": "ædˈmɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "adolescence",
+      "ipa": "ˌædəˈlɛsəns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "advanced",
+      "ipa": "ədˈvænst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "advantageous",
+      "ipa": "ˌædvənˈteɪdʒəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "adventurous",
+      "ipa": "ædˈvɛntʃɚəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "aesthetic",
+      "ipa": "ɛsˈθɛtɪk",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "aesthetically",
+      "ipa": "ɛsˈθɛtɪkli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "aesthetics",
+      "ipa": "ɛsˈθɛtɪks",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "age-related",
+      "ipa": "eɪdʒ rɪˈleɪtɪd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "agricultural",
+      "ipa": "ˌæɡrəˈkʌltʃɚəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "aisle",
+      "ipa": "aɪl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "algorithm",
+      "ipa": "ˈælɡɚˌɪðəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "all of a sudden",
+      "ipa": "ɔl ʌv ə ˈsʌdən",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "all-or-nothing",
+      "ipa": "ɔl ɔr ˈnʌθɪŋ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "ambiguous",
+      "ipa": "æmˈbɪɡjuəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "amnesia",
+      "ipa": "æmˈniʒə",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "anchor",
+      "ipa": "ˈæŋkɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "ancient",
+      "ipa": "ˈeɪntʃənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "anonymously",
+      "ipa": "əˈnɑnəməsli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "anxiously",
+      "ipa": "ˈæŋkʃəsli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "aphorism",
+      "ipa": "ˈæfɚˌɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "appreciate",
+      "ipa": "əˈpriʃiˌeɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "appreciation",
+      "ipa": "əˌpriʃiˈeɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "appreciatively",
+      "ipa": "əˈpriʃiˌeɪtɪvli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "archaeological",
+      "ipa": "ˌɑrkiəˈlɑdʒɪkəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "architectural",
+      "ipa": "ˌɑrkəˈtɛktʃɚəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "argumentation",
+      "ipa": "ˌɑrɡjəmɛnˈteɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "artefact(=artifact)",
+      "ipa": "ˈɑrtəˌfækt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "assign",
+      "ipa": "əˈsaɪn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "assignment",
+      "ipa": "əˈsaɪnmənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "assurance",
+      "ipa": "əˈʃʊrəns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "assure",
+      "ipa": "əˈʃʊr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "astonished",
+      "ipa": "əˈstɑnɪʃt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "at the top of one’s game",
+      "ipa": "æt ðə tɑp ʌv wʌnz ɡeɪm",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "augmented reality(=AR)",
+      "ipa": "ɑɡˈmɛntɪd riˈæləti",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "authentic",
+      "ipa": "əˈθɛntɪk",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "authoritative",
+      "ipa": "əˈθɔrəˌteɪtɪv",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "authorities",
+      "ipa": "əˈθɔrətiz",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "authority",
+      "ipa": "əˈθɔrəti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "automatically",
+      "ipa": "ˌɔtəˈmætɪkli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "bazaar",
+      "ipa": "bəˈzɑr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "be lost in thought",
+      "ipa": "bi lɔst ɪn θɔt",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "beforehand",
+      "ipa": "bɪˈfɔrˌhænd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "behavioral",
+      "ipa": "bɪˈheɪvjɚəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "best of all",
+      "ipa": "bɛst ʌv ɔl",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "biased",
+      "ipa": "ˈbaɪəst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "breadcrumbs",
+      "ipa": "ˈbrɛdˌkrʌmz",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "broadcasting",
+      "ipa": "ˈbrɔdˌkæstɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "bucketfuls of",
+      "ipa": "ˈbʌkɪtfʊlz əv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "budget",
+      "ipa": "ˈbʌdʒɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "built-in",
+      "ipa": "ˈbɪlˌtɪn",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "bureaucrat",
+      "ipa": "ˈbjʊrəˌkræt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "bureaucratic",
+      "ipa": "ˌbjʊrəˈkrætɪk",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "by design",
+      "ipa": "baɪ dɪˈzaɪn",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "by oneself",
+      "ipa": "baɪ ˌwʌnˈsɛlf",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "calculate",
+      "ipa": "ˈkælkjəˌleɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "calculation",
+      "ipa": "ˌkælkjəˈleɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "camouflage",
+      "ipa": "ˈkæməˌflɑʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "capitalism",
+      "ipa": "ˈkæpɪtəˌlɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "carbon dioxide",
+      "ipa": "ˈkɑrbən daɪˈɑkˌsaɪd",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "categorise(=categorize)",
+      "ipa": "ˈkætəɡəˌraɪz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "celestial",
+      "ipa": "səˈlɛstʃəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "cetacean",
+      "ipa": "sɪˈteɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "circuit",
+      "ipa": "ˈsɝkət",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "circularity",
+      "ipa": "ˌsɝkjəˈlɛrəti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "circulate",
+      "ipa": "ˈsɝkjəˌleɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "circulation",
+      "ipa": "ˌsɝkjəˈleɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "civil government",
+      "ipa": "ˈsɪvəl ˈɡʌvɚmənt",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "clear-cut",
+      "ipa": "ˈklɪrˌkʌt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "cliché",
+      "ipa": "kliˈʃeɪ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "co-residence",
+      "ipa": "koʊ ˈrɛzɪdəns",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "code of conduct",
+      "ipa": "koʊd ʌv ˈkɑndəkt",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "commercialize",
+      "ipa": "kəˈmɝʃəˌlaɪz",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "commission",
+      "ipa": "kəˈmɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "commoditise (=commoditize)",
+      "ipa": "kəˈmɑdəˌtaɪz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "companionship",
+      "ipa": "kəmˈpænjənˌʃɪp",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "compassion",
+      "ipa": "kəmˈpæʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "complementary",
+      "ipa": "ˌkɑmpləˈmɛntri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "compression",
+      "ipa": "kəmˈprɛʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "confession",
+      "ipa": "kənˈfɛʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "configuration",
+      "ipa": "kənˌfɪɡjɚˈeɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "consciously",
+      "ipa": "ˈkɑnʃəsli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "consciousness",
+      "ipa": "ˈkɑnʃəsnəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "consequentially",
+      "ipa": "ˌkɑnsəˈkwɛnʃəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "conspicuous",
+      "ipa": "kənˈspɪkjuəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "consumerism",
+      "ipa": "kənˈsumɚˌɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "contagion",
+      "ipa": "kənˈteɪdʒən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "contradict oneself",
+      "ipa": "ˌkɑntrəˈdɪkt ˌwʌnˈsɛlf",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "controversial",
+      "ipa": "ˌkɑntrəˈvɝʃəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "conventionality",
+      "ipa": "kənˌvɛnʃəˈnæləti",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "convinced",
+      "ipa": "kənˈvɪnst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "cost-effective",
+      "ipa": "kɑst ɪˈfɛktɪv",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "counter-example",
+      "ipa": "ˈkaʊntɚ ɪɡˈzæmpəl",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "courage",
+      "ipa": "ˈkɝədʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "craftsman(=craftsperson)",
+      "ipa": "ˈkræftsmən",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "criticism",
+      "ipa": "ˈkrɪtɪˌsɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "crucially",
+      "ipa": "ˈkruʃəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "cuisine",
+      "ipa": "kwɪˈzin",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "cumulative",
+      "ipa": "ˈkjumjələtɪv",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "curiosity",
+      "ipa": "ˌkjʊriˈɑsəti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "curiously",
+      "ipa": "ˈkjʊriəsli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "currency",
+      "ipa": "ˈkɝənsi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "cutting-edge",
+      "ipa": "ˈkʌtɪŋˌɛdʒ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "dancefloor",
+      "ipa": "ˈdænsˌflɔr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "day-to-day",
+      "ipa": "ˈdeɪtuˌdeɪ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "de-emphasize",
+      "ipa": "di ˈɛmfəˌsaɪz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "defense mechanism",
+      "ipa": "dɪˈfɛns ˈmɛkəˌnɪzəm",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "deficiency",
+      "ipa": "dɪˈfɪʃənsi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "dementia",
+      "ipa": "dɪˈmɛnʃiə",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "democratise(=democratize)",
+      "ipa": "dɪˈmɑkrəˌtaɪz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "departmental",
+      "ipa": "dɪˌpɑrtˈmɛnəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "descendant",
+      "ipa": "dɪˈsɛndənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "descendent",
+      "ipa": "dɪˈsɛndənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "desired",
+      "ipa": "dɪˈzaɪɚd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "detached",
+      "ipa": "dɪˈtætʃt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "dexterity",
+      "ipa": "dɛkˈstɛrəti",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "differentiate",
+      "ipa": "ˌdɪfəˈrɛnʃiˌeɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "differentiation",
+      "ipa": "ˌdɪfəˌrɛnʃiˈeɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "disadvantageous",
+      "ipa": "ˌdɪˌsædˌvænˈteɪdʒəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "disassociate(=dissociate)",
+      "ipa": "ˌdɪsəˈsoʊʃieɪt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "disciplinary",
+      "ipa": "ˈdɪsəpləˌnɛri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "discipline",
+      "ipa": "ˈdɪsəplən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "discussion",
+      "ipa": "dɪˈskʌʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "disheartened",
+      "ipa": "dɪsˈhɑrtənd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "disheartening",
+      "ipa": "dɪsˈhɑrtənɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "dishonesty",
+      "ipa": "dɪˈsɑnəsti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "distinct",
+      "ipa": "dɪˈstɪŋkt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "distinction",
+      "ipa": "dɪˈstɪŋkʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "distinctive",
+      "ipa": "dɪˈstɪŋktɪv",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "distinguishable",
+      "ipa": "dɪˈstɪŋɡwɪʃəbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "distinguished",
+      "ipa": "dɪˈstɪŋɡwɪʃt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "distinguishing",
+      "ipa": "dɪˈstɪŋɡwɪʃɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "document",
+      "ipa": "ˈdɑkjəˌmɛnt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "documentary",
+      "ipa": "ˌdɑkjəˈmɛntɚi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "documentation",
+      "ipa": "ˌdɑkjəmɛnˈteɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "dorm(=dormitory)",
+      "ipa": "dɔrm",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "dramatically",
+      "ipa": "drəˈmætɪkli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "drive-in",
+      "ipa": "draɪv ɪn",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "dysfunction",
+      "ipa": "dɪsˈfʌŋkʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "earthquake-resistant",
+      "ipa": "ˈɝθˌkweɪk rɪˈzɪstənt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "eco-friendly",
+      "ipa": "ˈikoʊ ˈfrɛndli",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "educator",
+      "ipa": "ˈɛdʒəˌkeɪtɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "efficiency",
+      "ipa": "ɪˈfɪʃənsi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "egalitarianism",
+      "ipa": "iˌɡæləˈtɛriəˌnɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "egregious",
+      "ipa": "ɪˈɡridʒəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "elementary",
+      "ipa": "ˌɛləˈmɛntri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "embed(=imbed)",
+      "ipa": "ɪmˈbɛd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "emission",
+      "ipa": "ɪˈmɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "emphasise(=emphasize)",
+      "ipa": "ˈɛmfəˌsaɪz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "encourage",
+      "ipa": "ɛnˈkɝɪdʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "endure",
+      "ipa": "ɛnˈdjʊr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "enduring",
+      "ipa": "ɛnˈdjʊrɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "enforceable",
+      "ipa": "ɛnˈfɔrsəbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "enhanced",
+      "ipa": "ɛnˈhænst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "enormous",
+      "ipa": "ɪˈnɔrməs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "enormously",
+      "ipa": "ɪˈnɔrməsli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "enquire",
+      "ipa": "ɪnˈkwaɪɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "enthusiasm",
+      "ipa": "ɪnˈθuziˌæzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "entire",
+      "ipa": "ɪnˈtaɪɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "entirely",
+      "ipa": "ɪnˈtaɪɚli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "entrepreneurial",
+      "ipa": "ˌɑntrəprəˈnɝiəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "entrepreneurship",
+      "ipa": "ˌɑntrəprəˈnɝʃɪp",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "equation",
+      "ipa": "ɪˈkweɪʒən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "essentially",
+      "ipa": "ɛˈsɛnʃəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "established",
+      "ipa": "ɪˈstæblɪʃt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "eventually",
+      "ipa": "ɪˈvɛntʃəwəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "ever-expanding",
+      "ipa": "ˈɛvɚ ɪkˈspændɪŋ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "evolutionary",
+      "ipa": "ˌɛvəˈluʃəˌnɛri",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "exaggerate",
+      "ipa": "ɪɡˈzædʒɚˌeɪt",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "exaggerated",
+      "ipa": "ɪɡˈzædʒɚˌeɪtəd",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "examination",
+      "ipa": "ɪɡˌzæməˈneɪʃən",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "exceed",
+      "ipa": "ɪkˈsid",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "excel",
+      "ipa": "ɪkˈsɛl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "excellence",
+      "ipa": "ˈɛksələns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "exception",
+      "ipa": "ɪkˈsɛpʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "exceptional",
+      "ipa": "ɪkˈsɛpʃənəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "excessive",
+      "ipa": "ɪkˈsɛsɪv",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "excessively",
+      "ipa": "ɪkˈsɛsɪvli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "excitedly",
+      "ipa": "ɪkˈsaɪtədli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "exclaim",
+      "ipa": "ɪkˈskleɪm",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "exclude",
+      "ipa": "ɪkˈsklud",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "exclusion",
+      "ipa": "ɪkˈskluʒən",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "exclusive",
+      "ipa": "ɪkˈsklusɪv",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "exclusively",
+      "ipa": "ɪkˈsklusɪvli",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "executive",
+      "ipa": "ɪɡˈzɛkjətɪv",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "exemplify",
+      "ipa": "ɪɡˈzɛmpləˌfaɪ",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "exert",
+      "ipa": "ɪɡˈzɝt",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "exhausting",
+      "ipa": "ɪɡˈzɔstɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "exhaustion",
+      "ipa": "ɪɡˈzɔstʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "exhibit",
+      "ipa": "ɪɡˈzɪbɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "exhibition",
+      "ipa": "ˌɛksəˈbɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "existence",
+      "ipa": "ɛɡˈzɪstəns",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "existential",
+      "ipa": "ˌɛɡˌzɪˈstɛnʃəl",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "existing",
+      "ipa": "ɪɡˈzɪstɪŋ",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "exotic",
+      "ipa": "ɪɡˈzɑtɪk",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "expand",
+      "ipa": "ɪkˈspænd",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "expend",
+      "ipa": "ɪkˈspɛnd",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "expense",
+      "ipa": "ɪkˈspɛns",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "experienced",
+      "ipa": "ɪkˈspɪriənst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "experiential",
+      "ipa": "ɛkˌspɛriˈɛnʃəl",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "experimental group",
+      "ipa": "ɪkˌspɛrɪˈmɛntəl ɡrup",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "explicit",
+      "ipa": "ɪkˈsplɪsət",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "exploit",
+      "ipa": "ɪkˈsplɔɪt",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "exploitation",
+      "ipa": "ˌɛkˌsplɔɪˈteɪʃən",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "explore",
+      "ipa": "ɪkˈsplɔr",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "exposed",
+      "ipa": "ɪkˈspoʊzd",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "exposure",
+      "ipa": "ɪkˈspoʊʒɚ",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "expressionistic",
+      "ipa": "ɪkˌsprɛʃəˈnɪstɪk",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "expropriation",
+      "ipa": "ˌɛkˌsproʊpriˈeɪʃən",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "extend",
+      "ipa": "ɪkˈstɛnd",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "extended",
+      "ipa": "ɪkˈstɛndəd",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "extensive",
+      "ipa": "ɪkˈstɛnsɪv",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "extensively",
+      "ipa": "ɪkˈstɛnsɪvli",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "extent",
+      "ipa": "ɪkˈstɛnt",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "exterior",
+      "ipa": "ɪkˈstɪriɚ",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "external",
+      "ipa": "ɪkˈstɝnəl",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "externality",
+      "ipa": "ˌɛkˌstɝˈnæləti",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "externally",
+      "ipa": "ɪkˈstɝnəli",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "extinct",
+      "ipa": "ɪkˈstɪŋkt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "extractive",
+      "ipa": "ɪkˈstræktɪv",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "extracurricular",
+      "ipa": "ˌɛkstrəkəˈrɪkjəlɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "extreme",
+      "ipa": "ɛkˈstrim",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "extremely",
+      "ipa": "ɛkˈstrimli",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "eyesight",
+      "ipa": "ˈaɪˌsaɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "face-to-face",
+      "ipa": "ˈfeɪstuˈfeɪs",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "familiarity",
+      "ipa": "fəˌmɪˈljɛrəti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "far-reaching",
+      "ipa": "fɑr ˈritʃɪŋ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "fascinated",
+      "ipa": "ˈfæsəˌneɪtəd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "fascination",
+      "ipa": "ˌfæsəˈneɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "faux pas",
+      "ipa": "ˈfoʊ ˌpɑ",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "favour(=favor)",
+      "ipa": "ˈfeɪvɚ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "favourable(=favorable)",
+      "ipa": "ˈfeɪvɚəbəl",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "fiercely",
+      "ipa": "ˈfɪrsli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "finding(s)",
+      "ipa": "ˈfaɪndɪŋz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "fine-tune",
+      "ipa": "faɪn tun",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "firework",
+      "ipa": "ˈfaɪrˌwɝk",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "fixate",
+      "ipa": "ˈfɪkˌseɪt",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "fixed",
+      "ipa": "fɪkst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "fixed star",
+      "ipa": "fɪkst stɑr",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "fixedness",
+      "ipa": "ˈfɪkstnəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "flat-out",
+      "ipa": "flæt aʊt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "flextime (working)",
+      "ipa": "ˈflɛkˌstaɪm",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "flourish",
+      "ipa": "ˈflɝɪʃ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "fluctuate",
+      "ipa": "ˈflʌktʃəˌweɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "foliage",
+      "ipa": "ˈfoʊlɪdʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "forced",
+      "ipa": "fɔrst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "foreground",
+      "ipa": "ˈfɔrˌɡraʊnd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "foreseeable future",
+      "ipa": "fɔrˈsiəbəl ˈfjutʃɚ",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "formula",
+      "ipa": "ˈfɔrmjələ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "formulate",
+      "ipa": "ˈfɔrmjəˌleɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "formulation",
+      "ipa": "ˌfɔrmjəˈleɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "fractionate",
+      "ipa": "ˈfrækʃəˌneɪt",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "framework",
+      "ipa": "ˈfreɪmˌwɝk",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "function",
+      "ipa": "ˈfʌŋkʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "functional architecture",
+      "ipa": "ˈfʌŋkʃənəl ˈɑrkəˌtɛktʃɚ",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "functionality",
+      "ipa": "ˌfʌŋkʃəˈnælɪti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "futuristic",
+      "ipa": "ˌfjutʃɚˈɪstɪk",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "gaseous",
+      "ipa": "ˈɡæsiəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "general interest",
+      "ipa": "ˈdʒɛnɚəl ˈɪntrəst",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "genetically",
+      "ipa": "dʒəˈnɛtɪkli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "genuine",
+      "ipa": "ˈdʒɛnjəwən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "get-together",
+      "ipa": "ˈɡɛttəˈɡɛðɚ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "give a second thought",
+      "ipa": "ɡɪv ə ˈsɛkənd θɔt",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "glacier",
+      "ipa": "ˈɡleɪʃɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "glorious",
+      "ipa": "ˈɡlɔriəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "glow of the (setting) sun",
+      "ipa": "ɡloʊ ʌv ðə ˈsɛtɪŋ sʌn",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "go hand-in-hand",
+      "ipa": "ɡoʊ hænd ɪn hænd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "gourmet",
+      "ipa": "ˈɡʊrˌmeɪ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "graduate student",
+      "ipa": "ˈɡrædʒəwət ˈstudənt",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "ground-breaking",
+      "ipa": "ɡraʊnd ˈbreɪkɪŋ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "guarantee",
+      "ipa": "ˌɡɛrənˈti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "guardian",
+      "ipa": "ˈɡɑrdiən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "guideline",
+      "ipa": "ˈɡaɪdˌlaɪn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "halve",
+      "ipa": "hæv",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "harbour(=harbor)",
+      "ipa": "ˈhɑrbɚ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "hard-nosed",
+      "ipa": "hɑrd noʊzd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "hardwired",
+      "ipa": "ˌhɑrˈdwaɪɚd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "hazardous",
+      "ipa": "ˈhæzɚdəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "health-care",
+      "ipa": "hɛlθ kɛr",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "heart rate",
+      "ipa": "hɑrt reɪt",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "henceforth",
+      "ipa": "ˈhɛnsˌfɔrθ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "high-minded",
+      "ipa": "ˌhaɪˈmaɪndɪd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "high-profile",
+      "ipa": "ˌhaɪˈproʊfaɪl",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "high-tech",
+      "ipa": "ˌhaɪˈtɛk",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "high-volume",
+      "ipa": "haɪ ˈvɑljum",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "hold one’s breath",
+      "ipa": "hoʊld wʌnz brɛθ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "home-school",
+      "ipa": "ˈhoʊmˈskul",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "homogeneous",
+      "ipa": "ˌhoʊməˈdʒiniəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "hopelessly",
+      "ipa": "ˈhoʊpləsli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "household appliance",
+      "ipa": "ˈhaʊsˌhoʊld əˈplaɪəns",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "hunter-gatherer",
+      "ipa": "ˈhʌntɚ ˈɡæðɚɚ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "hypothesise(=hypothesize)",
+      "ipa": "haɪˈpɑθəˌsaɪz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "iceberg",
+      "ipa": "ˈaɪsbɚɡ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "ill-equipped",
+      "ipa": "ɪl ɪˈkwɪpt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "imagery",
+      "ipa": "ˈɪmədʒri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "immeasurability",
+      "ipa": "ɪˌmɛʒɚəˈbɪləti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "impartiality",
+      "ipa": "ˌɪmˌpɑrʃiˈælɪti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "impartially",
+      "ipa": "ˌɪmˈpɑrʃəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "impoverished",
+      "ipa": "ˌɪmˈpɑvrɪʃt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "impression",
+      "ipa": "ˌɪmˈprɛʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "in a vacuum",
+      "ipa": "ɪn ə ˈvækjum",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "in particular",
+      "ipa": "ɪn pɚˈtɪkjəlɚ",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "in-depth",
+      "ipa": "ɪnˈdɛpθ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "in-laws",
+      "ipa": "ɪnˈlɔz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "inaccuracy",
+      "ipa": "ˌɪˈnækjɚəsi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "inaccurate",
+      "ipa": "ˌɪˈnækjɚət",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "indifferent",
+      "ipa": "ˌɪnˈdɪfrənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "indigenous",
+      "ipa": "ˌɪnˈdɪdʒənəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "indistinguishable",
+      "ipa": "ˌɪndɪˈstɪŋɡwɪʃəbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "individual",
+      "ipa": "ˌɪndəˈvɪdʒəwəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "indoors",
+      "ipa": "ˈɪnˌdɔrz",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "inexperienced",
+      "ipa": "ɪnɪkˈspɪriənst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "inexplicable",
+      "ipa": "ˌɪnəkˈsplɪsəbəl",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "inextricably",
+      "ipa": "ˌɪˈnɛkstrɪˌkʌbli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "ingenious",
+      "ipa": "ˌɪnˈdʒinjəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "initially",
+      "ipa": "ˌɪˈnɪʃəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "initiate",
+      "ipa": "ˌɪˈnɪʃiˌeɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "initiative",
+      "ipa": "ˌɪˈnɪʃətɪv",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "insecure",
+      "ipa": "ˈɪnsəkjɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "insignificant",
+      "ipa": "ˌɪnsɪɡˈnjɪfɪkənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "instantaneous",
+      "ipa": "ˌɪnstənˈtæniəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "instinct",
+      "ipa": "ˈɪnstɪŋkt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "instinctive",
+      "ipa": "ˌɪnˈstɪŋktɪv",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "insufficient",
+      "ipa": "ˌɪnsəˈfɪʃənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "intention",
+      "ipa": "ˌɪnˈtɛntʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "intentionality",
+      "ipa": "ɪnˌtɛnʃəˈnæləti",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "inter-dependence",
+      "ipa": "ˌɪntɚdɪˈpɛndəns",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "intercultural",
+      "ipa": "ˌɪntɚˈkʌltʃɚəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "interdisciplinary",
+      "ipa": "ˌɪntɚˈdɪsəpləˌnɛri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "internalise(=internalize)",
+      "ipa": "ɪnˈtɝnəˌlaɪz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "interruption",
+      "ipa": "ˌɪntɚˈʌpʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "invaluable",
+      "ipa": "ˌɪnˈvæljəbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "irrealism",
+      "ipa": "ɪˈriəlɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "irregular",
+      "ipa": "ˌɪˈrɛɡjəlɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "irreplaceable",
+      "ipa": "ˌɪrəˈpleɪsəbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "issue",
+      "ipa": "ˈɪʃu",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "journal",
+      "ipa": "ˈdʒɝnəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "judging",
+      "ipa": "ˈdʒʌdʒɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "judgingly",
+      "ipa": "ˈdʒʌdʒɪŋli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "junction",
+      "ipa": "ˈdʒʌŋkʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "kind-hearted",
+      "ipa": "kaɪnd ˈhɑrtəd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "lab(=laboratory)",
+      "ipa": "læb",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "large-scale",
+      "ipa": "ˈlɑrdʒˌskeɪl",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "laughable",
+      "ipa": "ˈlæfəbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "leisure",
+      "ipa": "ˈlɛʒɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "length",
+      "ipa": "lɛŋkθ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "licence(=license)",
+      "ipa": "ˈlaɪsəns",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "licensed",
+      "ipa": "ˈlaɪsənst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "life-long",
+      "ipa": "laɪf lɔŋ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "lifecycle",
+      "ipa": "ˈlaɪfˌsaɪkəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "lifeline",
+      "ipa": "ˈlaɪˌflaɪn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "lifespan",
+      "ipa": "ˈlaɪfˌspæn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "lifetime",
+      "ipa": "ˈlaɪfˌtaɪm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "like-minded",
+      "ipa": "laɪk ˈmaɪndəd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "likewise",
+      "ipa": "ˈlaɪˌkwaɪz",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "linguistic",
+      "ipa": "lɪŋˈɡwɪstɪk",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "livelihood",
+      "ipa": "ˈlaɪvliˌhʊd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "loneliness",
+      "ipa": "ˈloʊnlinəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "long-term",
+      "ipa": "ˈlɔŋˈtɝm",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "lose ones cool",
+      "ipa": "luz wʌnz kul",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "make a calculation",
+      "ipa": "meɪk ə ˌkælkjəˈleɪʃən",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "make up one’s mind",
+      "ipa": "meɪk ʌp wʌnz maɪnd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "make/take a decision",
+      "ipa": "meɪk ə dɪˈsɪʒən",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "makeup",
+      "ipa": "ˈmeɪˌkʌp",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "manageable",
+      "ipa": "ˈmænɪdʒəbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "manipulate",
+      "ipa": "məˈnɪpjəˌleɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "manipulation",
+      "ipa": "məˌnɪpjəˈleɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "manufacturer",
+      "ipa": "ˌmænjəˈfæktʃɚɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "manuscript",
+      "ipa": "ˈmænjəˌskrɪpt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "marked",
+      "ipa": "mɑrkt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "marriage",
+      "ipa": "ˈmɛrɪdʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "master’s degree",
+      "ipa": "ˈmæstɚz dɪˈɡri",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "maturity",
+      "ipa": "məˈtʃʊrəti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "maximise(=maximize)",
+      "ipa": "ˈmæksəˌmaɪz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "mean-spirited",
+      "ipa": "min ˈspɪrɪtɪd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "measurable",
+      "ipa": "ˈmɛʒɚəbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "measuring stick",
+      "ipa": "ˈmɛʒɚɪŋ stɪk",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "mechanism",
+      "ipa": "ˈmɛkəˌnɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "metabolism",
+      "ipa": "məˈtæbəˌlɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "microorganism",
+      "ipa": "ˌmaɪkroʊˈɔrɡəˌnɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "mileage",
+      "ipa": "ˈmaɪlədʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "missionary",
+      "ipa": "ˈmɪʃəˌnɛri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "modernisation(=modernization)",
+      "ipa": "ˌmɑdɚnəˈzeɪʃən",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "modernise(=modernize)",
+      "ipa": "ˈmɑdɚˌnaɪz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "modularise (=modularize)",
+      "ipa": "ˈmɑdʒələraɪz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "monasticism",
+      "ipa": "məˈnæstəˌsɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "mortgage",
+      "ipa": "ˈmɔrɡədʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "multiculturalism",
+      "ipa": "ˌmʌltiˈkʌltʃɚəˌlɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "multiculturalist",
+      "ipa": "ˌmʌltiˈkʌltʃɚəlɪst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "natural resource",
+      "ipa": "ˈnætʃɚəl ˈrisɔrs",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "near-term",
+      "ipa": "nɪr tɝm",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "negotiable",
+      "ipa": "nəˈɡoʊʃəbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "negotiate",
+      "ipa": "nəˈɡoʊʃiˌeɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "negotiation",
+      "ipa": "nɪˌɡoʊʃiˈeɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "negotiator",
+      "ipa": "nəˈɡoʊʃiˌeɪtɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "nervous system",
+      "ipa": "ˈnɝvəs ˈsɪstəm",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "neural",
+      "ipa": "ˈnʊrəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "neural network",
+      "ipa": "ˈnʊrəl ˈnɛˌtwɝk",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "neurally",
+      "ipa": "ˈnʊrəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "neurobiologist",
+      "ipa": "ˌnʊroʊˌbaɪˈɑlədʒɪst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "neuroimaging",
+      "ipa": "ˌnʊroʊˈɪmədʒɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "neurological",
+      "ipa": "ˌnʊrəˈlɑdʒɪkəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "neuron",
+      "ipa": "ˈnʊrɑn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "neuropsychological",
+      "ipa": "ˌnʊroʊˌsaɪkəˈlɑdʒɪkəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "neuroscience",
+      "ipa": "ˈnjʊroʊˌsaɪəns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "neutral",
+      "ipa": "ˈnutrəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "neutrality",
+      "ipa": "nuˈtræləti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "no-nonsense",
+      "ipa": "noʊ ˈnɑnsɛns",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "non-chaotic",
+      "ipa": "nɑn keɪˈɑtɪk",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "non-empirical",
+      "ipa": "nɑn ˌɛmˈpɪrɪkəl",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "non-random",
+      "ipa": "nɑn ˈrændəm",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "non-verbal",
+      "ipa": "nɑnˈvɝbəl",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "nonexpert",
+      "ipa": "ˌnɑnˈɛkˌspɝt",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "nostalgia",
+      "ipa": "nɔˈstældʒə",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "noticeable",
+      "ipa": "ˈnoʊtəsəbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "noticeably",
+      "ipa": "ˈnoʊtɪsəbli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "nuanced",
+      "ipa": "ˈnuɑnst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "numbers of",
+      "ipa": "ˈnʌmbɚz ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "numerous",
+      "ipa": "ˈnumɚəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "obscure",
+      "ipa": "əbsˈkjʊr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "obscurity",
+      "ipa": "əbsˈkjʊrəti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "obsession",
+      "ipa": "əbˈsɛʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "obvious",
+      "ipa": "ˈɑbviəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "occupational",
+      "ipa": "ɑkjəˈpeɪʃənəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "occupy",
+      "ipa": "ˈɑkjəˌpaɪ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "of interest",
+      "ipa": "ʌv ˈɪntrəst",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "on a regular basis",
+      "ipa": "ɑn ə ˈrɛɡjəlɚ ˈbeɪsəs",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "on one occasion",
+      "ipa": "ɑn wʌn əˈkeɪʒən",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "on ones own",
+      "ipa": "ɑn wʌnz oʊn",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "one-of-a-kind",
+      "ipa": "wʌn ʌv ə kaɪnd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "one-off",
+      "ipa": "ˌwʌˈnɔf",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "organism",
+      "ipa": "ˈɔrɡəˌnɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "out of fashion",
+      "ipa": "aʊt ʌv ˈfæʃən",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "out of interest",
+      "ipa": "aʊt ʌv ˈɪntrəst",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "out of proportion",
+      "ipa": "aʊt ʌv prəˈpɔrʃən",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "out of reach",
+      "ipa": "aʊt ʌv ritʃ",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "out of the loop",
+      "ipa": "aʊt ʌv ðə lup",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "out-of-date",
+      "ipa": "aʊt ʌv deɪt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "paradigm",
+      "ipa": "ˈpɛrəˌdaɪm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "paralyse(=paralyze)",
+      "ipa": "ˈpɛrəˌlaɪz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "partially",
+      "ipa": "ˈpɑrʃəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "particularity",
+      "ipa": "pɚˌtɪkjəˈlærəti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "passenger-kilometre",
+      "ipa": "ˈpæsəndʒɚ kəˈlɑmətɚ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "passionate",
+      "ipa": "ˈpæʃənət",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "passionately",
+      "ipa": "ˈpæʃənətli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "pathway(=path)",
+      "ipa": "ˈpæˌθweɪ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "peculiar",
+      "ipa": "pəˈkjuljɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "pendulum",
+      "ipa": "ˈpɛndʒələm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "people manager",
+      "ipa": "ˈpipəl ˈmænədʒɚ",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "perceptual",
+      "ipa": "pɚˈsɛptʃəwəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "personal",
+      "ipa": "ˈpɝsɪnəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "persuasion",
+      "ipa": "pɚˈsweɪʒən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "persuasive",
+      "ipa": "pɚˈsweɪsɪv",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "persuasiveness",
+      "ipa": "pɚˈsweɪsɪvnəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "plant oneself",
+      "ipa": "plænt ˌwʌnˈsɛlf",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "plant-based",
+      "ipa": "plænt beɪst",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "played-out",
+      "ipa": "pleɪd aʊt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "plumber",
+      "ipa": "ˈplʌmɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "polarise(=polarize)",
+      "ipa": "ˈpoʊləˌraɪz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "polished",
+      "ipa": "ˈpɑlɪʃt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "political science",
+      "ipa": "pəˈlɪtəkəl ˈsaɪəns",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "popularization",
+      "ipa": "ˌpɑpjəlɚəˈzeɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "populous",
+      "ipa": "ˈpɑpjələs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "practiced",
+      "ipa": "ˈpræktəst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "pre-emptive",
+      "ipa": "ˌpriˈɛmptɪv",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "preoccupation",
+      "ipa": "priˌɑkjəˈpeɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "prestige",
+      "ipa": "prɛˈstiʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "preview",
+      "ipa": "ˈpriˌvju",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "previously",
+      "ipa": "ˈpriviəsli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "prioritise(=prioritize)",
+      "ipa": "praɪˈɔrəˌtaɪz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "privilege",
+      "ipa": "ˈprɪvlədʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "procurement",
+      "ipa": "proʊˈkjʊrmənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "professional",
+      "ipa": "prəˈfɛʃənəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "professionalism",
+      "ipa": "prəˈfɛʃənəˌlɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "prohibition",
+      "ipa": "ˌproʊəˈbɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "pronounced",
+      "ipa": "prəˈnaʊnst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "property-based",
+      "ipa": "ˈprɑpɚti beɪst",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "proto-Earth",
+      "ipa": "ˌproʊtoʊ ˈɝθ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "proximity",
+      "ipa": "prɑkˈsɪməti",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "public document",
+      "ipa": "ˈpʌblɪk ˈdɑkjəmɛnt",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "public figure",
+      "ipa": "ˈpʌblɪk ˈfɪɡjɚ",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "puff of wind",
+      "ipa": "pʌf əv wɪnd",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "purification",
+      "ipa": "ˌpjʊrəfəˈkeɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "puzzling",
+      "ipa": "ˈpʌzəlɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "questionable",
+      "ipa": "ˈkwɛstʃənəbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "rationality",
+      "ipa": "ˌræʃəˈnælɪti",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "reactionary",
+      "ipa": "riˈækʃəˌnɛri",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "ready-made",
+      "ipa": "ˈrɛdi meɪd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "realism",
+      "ipa": "ˈriəlɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "rearrange",
+      "ipa": "ˌriɚˈeɪndʒ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "rearrangement",
+      "ipa": "riɚˈeɪndʒmənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "reassuring",
+      "ipa": "ˌriəˈʃʊrɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "recidivism",
+      "ipa": "rəˈsɪdɪˌvɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "reciprocal altruism",
+      "ipa": "rɪˈsɪprəkəl ˈæltruˌɪzəm",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "recognise(=recognize)",
+      "ipa": "ˈrɛkəɡˌnaɪz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "rectangular",
+      "ipa": "rɛkˈtæŋɡjəlɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "recurrent",
+      "ipa": "rɪˈkɝənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "recycling",
+      "ipa": "riˈsaɪkəlɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "reflect on oneself",
+      "ipa": "rɪˈflɛkt ɑn ˌwʌnˈsɛlf",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "regime",
+      "ipa": "rəˈʒim",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "regularity",
+      "ipa": "ˌrɛɡjəˈlɛrəti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "regularly",
+      "ipa": "ˈrɛɡjəlɚli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "regulate",
+      "ipa": "ˈrɛɡjəˌleɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "regulation",
+      "ipa": "ˌrɛɡjəˈleɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "regulatory",
+      "ipa": "ˈrɛɡjələˌtɔri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "relaxation",
+      "ipa": "ˌrilækˈseɪʃən",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "repercussion",
+      "ipa": "ˌripɚˈkʌʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "repertoire",
+      "ipa": "ˈrɛpɚˌtwɑr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "reputation",
+      "ipa": "ˌrɛpjəˈteɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "reputational",
+      "ipa": "ˌrɛpjəˈteɪʃənəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "require",
+      "ipa": "ˌriˈkwaɪɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "resident-bird",
+      "ipa": "ˈrɛzɪdənt bɝd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "reversed",
+      "ipa": "rɪˈvɝst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "review",
+      "ipa": "ˌriˈvju",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "rhetorical",
+      "ipa": "rɪˈtɔrɪkəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "rose-colored glasses",
+      "ipa": "roʊz ˈkʌlɚd ˈɡlæsəz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "run-down",
+      "ipa": "ˈrʌnˈdaʊn",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "safeguard",
+      "ipa": "ˈseɪfˌɡɑrd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sanction",
+      "ipa": "ˈsæŋkʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "say to oneself",
+      "ipa": "seɪ tu ˌwʌnˈsɛlf",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "scenery",
+      "ipa": "ˈsinɚi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "scent",
+      "ipa": "sɛnt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "schedule",
+      "ipa": "ˈskɛdʒʊl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "second-hand",
+      "ipa": "ˈsɛkənd hænd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "secure",
+      "ipa": "sɪˈkjʊr",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "security",
+      "ipa": "sɪˈkjʊrəti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "see the light (of day)",
+      "ipa": "si ðə laɪt ʌv deɪ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-awareness",
+      "ipa": "sɛlf əˈwɛrnəs",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-care",
+      "ipa": "sɛlf kɛr",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-centered",
+      "ipa": "ˈsɛlfˈsɛntɚd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-conception",
+      "ipa": "sɛlf kənˈsɛpʃən",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-consciousness",
+      "ipa": "ˌsɛlfˈkɑnʃəsnəs",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-contained",
+      "ipa": "ˈsɛlfkənˈteɪnd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-denying",
+      "ipa": "sɛlf dɪˈnaɪɪŋ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-determination",
+      "ipa": "ˈsɛlfdɪˌtɝməˈneɪʃən",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-development",
+      "ipa": "sɛlf dɪˈvɛləpmənt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-driving car",
+      "ipa": "sɛlf ˈdraɪvɪŋ kɑr",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-evidence",
+      "ipa": "sɛlf ˈɛvədəns",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-guidance",
+      "ipa": "sɛlf ˈɡaɪdəns",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-regulating",
+      "ipa": "sɛlf ˈrɛɡjəˌleɪtɪŋ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-regulation",
+      "ipa": "sɛlf ˌrɛɡjəˈleɪʃən",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-reliant",
+      "ipa": "sɛlf rɪˈlaɪənt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-serving",
+      "ipa": "sɛlf ˈsɝvɪŋ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-sufficiency",
+      "ipa": "ˌsɛlfsəˈfɪʃənˌsi",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-worth",
+      "ipa": "sɛlf wɝθ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "senescence",
+      "ipa": "səˈnɛsəns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "senior",
+      "ipa": "ˈsinjɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sense of pride",
+      "ipa": "sɛns ʌv praɪd",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "sense of self",
+      "ipa": "sɛns ʌv sɛlf",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "sentience",
+      "ipa": "ˈsɛnʃəns",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "seriousness",
+      "ipa": "ˈsɪriəsnəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "session",
+      "ipa": "ˈsɛʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "settler",
+      "ipa": "ˈsɛtəlɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sheep dog(=sheepdog)",
+      "ipa": "ˈʃipˌdɔɡ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "shoreline",
+      "ipa": "ˈʃɔrˌlaɪn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "short-sighted",
+      "ipa": "ˌʃɔrtˈsaɪtɪd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "sidetrack",
+      "ipa": "ˈsaɪdˌtræk",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sidewalk",
+      "ipa": "ˈsaɪˌdwɔk",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sightseeing",
+      "ipa": "ˈsaɪtˌsiɪŋ",
+      "reason": "ambiguous vowel alignment"
+    },
+    {
+      "term": "sign up for",
+      "ipa": "saɪn ʌp fɔr",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "silhouette",
+      "ipa": "ˌsɪləˈwɛt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "simulate",
+      "ipa": "ˈsɪmjəˌleɪt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "simulated",
+      "ipa": "ˈsɪmjəˌleɪtɪd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "simultaneous",
+      "ipa": "ˌsaɪməlˈteɪniəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "simultaneously",
+      "ipa": "ˌsaɪməlˈteɪniəsli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "skin-deep",
+      "ipa": "skɪn dip",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "sleep-wake cycle",
+      "ipa": "slip weɪk ˈsaɪkəl",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "smart(=smartly)",
+      "ipa": "smɑrt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "social science",
+      "ipa": "ˈsoʊʃəl ˈsaɪəns",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "socialize",
+      "ipa": "ˈsoʊʃəˌlaɪz",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "socio-economic",
+      "ipa": "ˈsoʊsioʊ ˌɛkəˈnɑmɪk",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "solely",
+      "ipa": "ˈsoʊəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "somewhat",
+      "ipa": "ˈsʌmˌwʌt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sought after",
+      "ipa": "sɔt ˈæftɚ",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "sound-bite",
+      "ipa": "saʊnd baɪt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "spatiotemporal",
+      "ipa": "ˌspeɪʃioʊˈtɛmpərəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "specialised(=specialized)",
+      "ipa": "ˈspɛʃəˌlaɪzd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "specialized",
+      "ipa": "ˈspɛʃəˌlaɪzd",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "species",
+      "ipa": "ˈspiʃiz",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "specifically",
+      "ipa": "spəˈsɪfɪkli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "spectacular",
+      "ipa": "spɛkˈtækjəlɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "spectacularly",
+      "ipa": "spɛkˈtækjəlɚli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "spontaneously",
+      "ipa": "spɑnˈteɪniəsli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "stakeholder",
+      "ipa": "ˈsteɪkˌhoʊldɚ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "standardise (=standardize)",
+      "ipa": "ˈstændɚˌdaɪz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "statue",
+      "ipa": "ˈstæˌtʃu",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "stimulation",
+      "ipa": "ˌstɪmjəˈleɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "storeroom",
+      "ipa": "ˈstɔrˌrum",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "string of",
+      "ipa": "strɪŋ ʌv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "structural",
+      "ipa": "ˈstrʌktʃɚəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "subconsciously",
+      "ipa": "səbˈkɑnʃəsli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "submission",
+      "ipa": "səbˈmɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "substantially",
+      "ipa": "səbˈstænʃəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "subtle",
+      "ipa": "ˈsʌtəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "succession",
+      "ipa": "səkˈsɛʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sufficient",
+      "ipa": "səˈfɪʃənt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sufficiently",
+      "ipa": "səˈfɪʃəntli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "suggestion",
+      "ipa": "səˈdʒɛstʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "surrounding",
+      "ipa": "sɚˈaʊndɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "surroundings",
+      "ipa": "sɚˈaʊndɪŋz",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "susceptible",
+      "ipa": "səˈsɛptəbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "sweetheart",
+      "ipa": "ˈswitˌhɑrt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "systematically",
+      "ipa": "ˌsɪstəˈmætɪkli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "taxation",
+      "ipa": "tækˈseɪʃən",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "tea-ceremony",
+      "ipa": "ti ˈsɛrəˌmoʊni",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "temptation",
+      "ipa": "tɛmˈteɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "textile",
+      "ipa": "ˈtɛkˌstaɪl",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "textuality",
+      "ipa": "ˌtɛkstʃəˈwæləti",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "the law of attraction",
+      "ipa": "ðə lɔ ʌv əˈtrækʃən",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "the tip of the iceberg",
+      "ipa": "ðə tɪp ʌv ðə ˈaɪsbɚɡ",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "theory",
+      "ipa": "ˈθɪri",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "thereof",
+      "ipa": "ˌðɛˈrʌv",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "time-consuming",
+      "ipa": "taɪm kənˈsumɪŋ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "time-honored",
+      "ipa": "taɪm ˈɑnɚd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "time-span",
+      "ipa": "taɪm spæn",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "timeframe",
+      "ipa": "ˈtaɪmˌfreɪm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "timetable",
+      "ipa": "ˈtaɪmˌteɪbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "tiresome",
+      "ipa": "ˈtaɪɚsəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "to a large extent",
+      "ipa": "tu ə lɑrdʒ ɪkˈstɛnt",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "to ones surprise",
+      "ipa": "tu wʌnz sɚˈpraɪz",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "to some extent",
+      "ipa": "tu sʌm ɪkˈstɛnt",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "toe-to-toe",
+      "ipa": "toʊ tu toʊ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "tourism",
+      "ipa": "ˈtʊˌrɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "townspeople",
+      "ipa": "ˈtaʊnzˌpipəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "trade-off",
+      "ipa": "ˈtreɪˌdɔf",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "translingual",
+      "ipa": "trænzˈlɪŋɡwəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "transmission",
+      "ipa": "trænˈsmɪʃən",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "trembling",
+      "ipa": "ˈtrɛmbəlɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "typically",
+      "ipa": "ˈtɪpɪkli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "ubiquitous",
+      "ipa": "juˈbɪkwɪtəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unanswered",
+      "ipa": "ˌʌˈnænsɚd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unbiased",
+      "ipa": "ˌʌnˈbaɪəst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unconceptualized",
+      "ipa": "ˌʌnkənˈsɛptʃwəˌlaɪzd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unconscious",
+      "ipa": "ˌʌnˈkɑnʃəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unconsciously",
+      "ipa": "ˌʌnˈkɑnʃəsli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "under-documented",
+      "ipa": "ˈʌndɚ ˈdɑkjəˌmɛntəd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "undergraduate",
+      "ipa": "ˌʌndɚˈɡrædʒəwət",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "undifferentiated",
+      "ipa": "əndɪfɚˈɛnʃiˌeɪtɪd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "undoubtedly",
+      "ipa": "ənˈdaʊtɪdli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unexpectedly",
+      "ipa": "ˌʌnɪkˈspɛktɪdli",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "unglamorous",
+      "ipa": "ənˈɡlæmɚəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "uninterrupted",
+      "ipa": "ˌʌnɪntɚˈʌptɪd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "universalism",
+      "ipa": "ˌjunəˈvɝsəˌlɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unknowingly",
+      "ipa": "ənˈnoʊɪŋli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unknown",
+      "ipa": "ənˈnoʊn",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unoccupied",
+      "ipa": "əˈnɑkjəˌpaɪd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unregulated",
+      "ipa": "ənˈrɛɡjəˌleɪtɪd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "untouched",
+      "ipa": "ənˈtʌtʃt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unusual",
+      "ipa": "əˈnjuˌʒuəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "upon arrival",
+      "ipa": "əˈpɑn ɚˈaɪvəl",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "urbanism",
+      "ipa": "ˈɝbənɪzəm",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "usefulness",
+      "ipa": "ˈjusfəlnəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "utilise(=utilize)",
+      "ipa": "ˈjutəˌlaɪz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "vacuum",
+      "ipa": "ˈvækjum",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "valuable",
+      "ipa": "ˈvæljəbəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "vertebral column",
+      "ipa": "ˈvɝtəbrəl ˈkɑləm",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "victorious",
+      "ipa": "vɪkˈtɔriəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "videoconferencing",
+      "ipa": "ˌvidioʊˈkɑnfrənsɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "viewpoint",
+      "ipa": "ˈvjuˌpɔɪnt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "virtual reality(=VR)",
+      "ipa": "ˈvɝtʃuəl riˈæləti",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "virtuoso",
+      "ipa": "vɚtʃuˈoʊsoʊ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "visceral",
+      "ipa": "ˈvɪsɚəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "visionary",
+      "ipa": "ˈvɪʒəˌnɛri",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "visual",
+      "ipa": "ˈvɪʒəwəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "visualize",
+      "ipa": "ˈvɪʒwəˌlaɪz",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "visually",
+      "ipa": "ˈvɪʒwəli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "wasteland",
+      "ipa": "ˈweɪstˌlænd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "well-being",
+      "ipa": "ˌwɛlˈbiɪŋ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "well-crafted",
+      "ipa": "wɛl ˈkræftɪd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "well-developed",
+      "ipa": "wɛl dɪˈvɛləpt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "well-spoken",
+      "ipa": "wɛl ˈspoʊkən",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "whereas",
+      "ipa": "wɛˈræz",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "wholeheartedly",
+      "ipa": "ˈhoʊlhɑrtɪdli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "widespread",
+      "ipa": "ˈwaɪdˈsprɛd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "without[beyond] doubt",
+      "ipa": "wɪˈθaʊt daʊt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "word of mouth",
+      "ipa": "wɝd ʌv maʊθ",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "worldview",
+      "ipa": "ˈwɝldˌvju",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "worn-out",
+      "ipa": "wɔrn aʊt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "year-to-year",
+      "ipa": "jɪr tu jɪr",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "barbarous",
+      "ipa": "ˈbɑrbɚəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "be anchored in",
+      "ipa": "bi ˈæŋkɚd ɪn",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "be exposed to",
+      "ipa": "bi ɪkˈspoʊzd tə",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "call-out",
+      "ipa": "ˈkɔlˌaʊt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "city-state",
+      "ipa": "ˈsɪti ˌsteɪt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "cognitive assignment",
+      "ipa": "ˈkɑɡnɪtɪv əˈsaɪnmənt",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "cognitively assign",
+      "ipa": "ˈkɑɡnɪtɪvli əˈsaɪn",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "condemn ~ to ...",
+      "ipa": "kənˈdɛm tə",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "doctor's surgery",
+      "ipa": "ˈdɑktɚz ˈsɝdʒɚi",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "dust ~ down",
+      "ipa": "dʌst daʊn",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "end-of-life treatment",
+      "ipa": "ˌɛnd əv ˈlaɪf ˈtritmənt",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "exemplar",
+      "ipa": "ɪɡˈzɛmplɑr",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "expressive",
+      "ipa": "ɪkˈsprɛsɪv",
+      "reason": "unresolved syllable group"
+    },
+    {
+      "term": "for one's own sake",
+      "ipa": "fɚ wʌnz oʊn seɪk",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "foresee",
+      "ipa": "fɔrˈsi",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "general opinion",
+      "ipa": "ˈdʒɛnərəl əˈpɪnjən",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "guidepost",
+      "ipa": "ˈɡaɪdˌpoʊst",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "illustrious",
+      "ipa": "ˌɪˈlʌstriəs",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "in one's own time",
+      "ipa": "ɪn wʌnz oʊn taɪm",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "make a mockery of",
+      "ipa": "meɪk ə ˈmɑkɚi əv",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "monumental",
+      "ipa": "ˌmɑnjəˈmɛntəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "neurobiological",
+      "ipa": "ˌnʊroʊˌbaɪəˈlɑdʒɪkəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "non-linear",
+      "ipa": "ˌnɑnˈlɪniɚ",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "noteworthy",
+      "ipa": "ˈnoʊtˌwɝði",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "pharmaceutical",
+      "ipa": "ˌfɑrməˈsutɪkəl",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "plant-based diet",
+      "ipa": "ˈplænt beɪst ˈdaɪət",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "pressure ~ into ...",
+      "ipa": "ˈprɛʃɚ ˈɪntu",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "privileged",
+      "ipa": "ˈprɪvlədʒd",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "radically",
+      "ipa": "ˈrædɪkli",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "refer to ~ as ...",
+      "ipa": "rɪˈfɝ tə æz",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "self-esteem",
+      "ipa": "ˌsɛlfɪˈstim",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "species-specific",
+      "ipa": "ˌspiʃiz spəˈsɪfɪk",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "take ~ for granted",
+      "ipa": "teɪk fɚ ˈɡræntɪd",
+      "reason": "punctuation or non-ASCII spelling"
+    },
+    {
+      "term": "thought leader",
+      "ipa": "ˈθɔt ˌlidɚ",
+      "reason": "unresolved phrase component"
+    },
+    {
+      "term": "undernourished",
+      "ipa": "ˌʌndɚˈnɝɪʃt",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "unsettling",
+      "ipa": "ənˈsɛtəlɪŋ",
+      "reason": "no complete rule match"
+    },
+    {
+      "term": "zero-waste",
+      "ipa": "ˌzɪroʊ ˈweɪst",
+      "reason": "punctuation or non-ASCII spelling"
+    }
+  ]
+}

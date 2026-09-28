@@ -10,7 +10,13 @@ const digest=s=>crypto.createHash('sha256').update(s).digest('hex');
 const plain=v=>JSON.parse(JSON.stringify(v));
 let h=harness(filename);
 assert.equal(digest(h.run('JSON.stringify(DATA)')),fixture.dataSha256,'All original cards and their order must remain unchanged');
-assert.equal(digest(h.run('JSON.stringify(MT_PRONUNCIATIONS)')),fixture.pronunciationSha256,'All published IPA and meaning-specific speech entries must remain unchanged');
+const originalPronunciations=plain(h.run('MT_PRONUNCIATIONS'));
+const pronunciationCorrections=require('./ipa-effects/pronunciation-corrections.json').changes;
+for(const change of pronunciationCorrections){
+ assert.equal(change.field,'ipa');assert.equal(originalPronunciations[change.term].ipa,change.after,change.term+' documented IPA correction');
+ originalPronunciations[change.term].ipa=change.before;
+}
+assert.equal(digest(JSON.stringify(originalPronunciations)),fixture.pronunciationSha256,'Published pronunciation data changes only in the explicitly recorded IPA corrections');
 for(const [name,value] of Object.entries(fixture.storage))assert.equal(h.run(name),value,`${name} progress key`);
 for(const [name,hash] of Object.entries(fixture.functions))assert.equal(digest(h.ctx[name].toString().replace(/\r\n/g,'\n')),hash,`${name} is an unchanged learning/progress rule`);
 assert.deepEqual(plain(h.state.lessons.map(l=>({id:l.id,exercises:l.exercises.map(e=>({title:e.title,scope:e.scope}))}))),fixture.progressKeys,'Every original record address remains valid');

@@ -31,7 +31,7 @@ for(const [book,fixture] of [['ksat',mt],['ebs',ebs]]){
      }
      assert(h.ctx.getRec(s.lesson.id,s.exercise.title).completed);
    }
-   assert.equal(cards,597);assert.equal(h.ctx.totalExercises(),48);assert.equal(h.spoken.length,0,'No unreviewed EBS pronunciation added');totals.push({book,cards,characterEvents:events});
+   assert.equal(cards,597);assert.equal(h.ctx.totalExercises(),48);assert.equal(h.spoken.filter(u=>u.text.trim()).length,cards,'Every reviewed EBS card receives its browser pronunciation');totals.push({book,cards,characterEvents:events});
    const progress=Object.fromEntries(h.storage);h=harness(path.join(root,'vocagoyangebs2027.html'),progress);
    assert.equal(h.ctx.clearedExercises(),48);assert(h.ctx.resumeTarget());assert(!h.storage.has('goyang-seoul-v1'));
  }

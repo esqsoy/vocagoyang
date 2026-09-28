@@ -1,6 +1,6 @@
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const root=path.resolve(__dirname,'../../..');
-function harness(filename=path.join(root,'vocagoyangksat2027.html'),seed={}){
+function harness(filename=path.join(root,'vocagoyangksat2027.html'),seed={},options={}){
  const html=fs.readFileSync(filename,'utf8'),els=new Map(),events={},timeouts=new Map(),intervals=new Map();
  const storage=new Map(Object.entries(seed)),spoken=[];let timer=0,clock=1000000,cancels=0;
  const fakeDate=class extends Date{constructor(...args){super(...(args.length?args:[clock]));}static now(){return clock;}};
@@ -39,10 +39,12 @@ function harness(filename=path.join(root,'vocagoyangksat2027.html'),seed={}){
  doc={activeElement:null,hidden:false,body,documentElement:element('html'),hasFocus:()=>true,querySelector:query,
   getElementById:id=>els.get(id)||null,querySelectorAll:()=>[],createElement:tag=>{const e=element();e.tagName=tag.toUpperCase();return e;},
   addEventListener:(n,f)=>(events['doc:'+n]??=[]).push(f),removeEventListener:(n,f)=>{events['doc:'+n]=(events['doc:'+n]||[]).filter(v=>v!==f);}};
+ // Learning/layout tests use an immediately completed fake voice. Timing tests
+ // opt into manualSpeech and explicitly drive start/end/error events.
  const voice={name:'Google US English',lang:'en-US',localService:true};
  const window={document:doc,innerWidth:1200,innerHeight:900,devicePixelRatio:1,location:{hash:''},matchMedia:()=>({matches:true,addEventListener(){}}),
   addEventListener:(n,f)=>(events['win:'+n]??=[]).push(f),removeEventListener(){},scrollTo(){},
-  speechSynthesis:{getVoices:()=>[voice],cancel:()=>cancels++,speak:u=>spoken.push(u)},SpeechSynthesisUtterance:function(text){this.text=text;}};
+  speechSynthesis:{getVoices:()=>[voice],cancel:()=>cancels++,speak:u=>{spoken.push(u);if(!options.manualSpeech){u.onstart?.();u.onend?.();}}},SpeechSynthesisUtterance:function(text){this.text=text;}};
  const sandbox={console,document:doc,window,navigator:{},localStorage:{getItem:k=>storage.get(k)??null,setItem:(k,v)=>storage.set(k,String(v)),removeItem:k=>storage.delete(k)},
   location:window.location,SpeechSynthesisUtterance:window.SpeechSynthesisUtterance,speechSynthesis:window.speechSynthesis,Date:fakeDate,performance:{now:()=>clock},
   MutationObserver:class{observe(){}disconnect(){}},ResizeObserver:class{observe(){}disconnect(){}},

@@ -55,6 +55,7 @@ const state={lessons:[],progress:{},li:0,ei:0,prevOn:false,session:null,ticker:n
 const ctx=vm.createContext({DATA,READING_CORE,MORPHOLOGY,CONNECTIONS,state,$,Set,Map,Math,Date,JSON,URL,STORAGE:'test-progress',LASTKEY:'test-last',
   localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},document:{createElement:element},window:{scrollTo(){}},
   setCat(){},pick:a=>a?.[0]||'',LINES:{welcome:[],start:[],exerciseDone:[],allDone:['ending']},LESSONCLEAR:{},
+  stopFablePronunciation(){},ipaEffectCancelAdvance(){},
   show:n=>{currentScreen=n;events.push(n);},startRound(){},startTicker(){tickerStarts++;state.ticker={};},stopTicker(){state.ticker=null;},
   toast(){},esc:s=>String(s),fmt:()=>'',setTimeout:f=>timed.push(f),showEnding:()=>events.push('ENDING'),showRoar:n=>{roarCounts.push(n);events.push('ROAR');}});
 vm.runInContext([
