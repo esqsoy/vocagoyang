@@ -31,7 +31,7 @@ The runtime and map appear immediately after the opening tag of the main inline 
 
 The existing browser voice selection and rate (.88) are unchanged. A request is scoped to its card; real SpeechSynthesis start/end events bound the effect. Internal syllable beats are estimates, with small in-memory timing caches; no audio assets or new network services are used. Manual navigation cancels speech immediately. Only the normal automatic reveal timer waits for unfinished speech. Missing start/end events have bounded deadlines, and replay/mute cannot discard the pending automatic advance. Copy input has no IPA overlay while typing. A completed copy uses the same revealed spelling, pronunciation, IPA effect, and automatic delay as an initially correct answer; its original incorrect-attempt record is preserved. Review roses are unchanged.
 
-The shared formatter preserves ˈ and ˌ and uses #ffd34d for both. Overlay and explanation tracking is .03em. Narrow/wrapped segments fall back to the intact IPA rather than crossing unrelated lines.
+The shared formatter preserves ˈ and ˌ and uses #ffd34d for both. Overlay tracking is .01em; explanation tracking remains .03em. Both stress levels use 1.14em, including whole-IPA fallback. Aligned segments share the available answer width and a single scale factor, so a dense stressed segment cannot shrink independently below its neighbours. If this would require a scale below .86, or a segment wraps, the intact IPA is shown instead. The previous halo/ray intensities, glyph colors and fade-in are restored. All segments pop from 1 to 1.06 and back; this bounded range keeps the 1.14 stress hierarchy intact even between beats. The base font-size clamp is reduced by about 8% to clamp(23px,6.25vw,31px).
 
 2026-09-29 release: FABLE 6,876 cards (6,076 mapped), Mother Tongue 6,498 cards (5,240 mapped), EBS 597 cards (466 mapped). All remaining cards display whole IPA. EBS has 545 authored pronunciation entries, selected by meaning where necessary. Four Mother Tongue IPA corrections are recorded in pronunciation-corrections.json.
 
@@ -41,6 +41,7 @@ Relevant checks:
 node pipeline/ipa-effects/tests/conservation.test.cjs
 node pipeline/ipa-effects/tests/advance.test.cjs
 node pipeline/ipa-effects/tests/stress.test.cjs
+node pipeline/ipa-effects/tests/layout.test.cjs
 node pipeline/ipa-effects/tests/host-hooks.test.cjs
 node pipeline/test-mother-tongue-layout.cjs
 node pipeline/test-mother-tongue-pronunciation-data.cjs

@@ -55,22 +55,50 @@ function ipaEffectBounds(slots){
 }
 function ipaEffectPosition(run){
   if(!ipaEffectCurrent(run)||!run.nodes.length)return;
+  const rows=[];
   for(const node of run.nodes){
     const r=ipaEffectBounds(node.slots);if(!r)continue;
     const left=Math.max(8,r.left),right=Math.min(window.innerWidth-8,r.right),width=Math.max(20,right-left);
     Object.assign(node.el.style,{left:left+'px',top:(r.top-5)+'px',width:width+'px',height:(r.height+10)+'px'});
-    // Measure only this revealed block, never individual answer letter widths.
-    // Keep the approved size where possible and shrink only to prevent overlap.
-    node.text.style.fontSize='';
-    const available=width/(node.whole?1:1.08),natural=node.text.scrollWidth||node.text.getBoundingClientRect().width;
-    if(natural>available){const fs=parseFloat(getComputedStyle(node.text).fontSize)||25;node.text.style.fontSize=Math.max(node.whole?13:14,fs*available/natural)+'px';}
+    node.el.style.fontSize='';
+    if(node.whole||node.part.silent)continue;
+    if(r.wrapped){ipaEffectBuild(run,true);return;}
+    let row=rows.find(x=>Math.abs(x.top-r.top)<5);
+    if(!row){row={top:r.top,left,right,items:[]};rows.push(row);}
+    row.left=Math.min(row.left,left);row.right=Math.max(row.right,right);
+    // offsetWidth is unaffected by the pop animation. Reserve its peak width.
+    const natural=node.text.offsetWidth*1.06;
+    row.items.push({node,center:(left+right)/2,natural,base:parseFloat(getComputedStyle(node.el).fontSize)||25});
+  }
+  // Share spare space across the word, then use ONE scale for every segment.
+  // Independently fitting a dense stressed segment made it smaller than its neighbours.
+  const gap=3;
+  let scale=1;
+  for(const row of rows){
+    const sum=row.items.reduce((s,x)=>s+x.natural,0);
+    scale=Math.min(scale,(row.right-row.left-gap*(row.items.length-1))/Math.max(1,sum));
+  }
+  if(scale<.86){ipaEffectBuild(run,true);return;}
+  for(const row of rows){
+    let cursor=row.left,remaining=row.items.reduce((s,x)=>s+x.natural*scale,0)+gap*(row.items.length-1);
+    for(const item of row.items){
+      const width=item.natural*scale;
+      const left=ipaEffectClamp(item.center-width/2,cursor,row.right-remaining);
+      Object.assign(item.node.el.style,{left:left+'px',width:width+'px',fontSize:item.base*scale+'px'});
+      cursor=left+width+gap;remaining-=width+gap;
+    }
   }
 }
-function ipaEffectBuild(run){
+function ipaEffectBuild(run,forceWhole=false){
   const slots=[...document.querySelectorAll('#hoeCtx .slot')];
   if(!slots.length)return false;
+  // A resize may require a whole-IPA fallback. Keep speech and advance timers intact.
+  const lit=run.nodes.some(n=>n.el.classList.contains('lit'));
+  const finishing=run.nodes.some(n=>n.el.classList.contains('finishing'));
+  if(run.layer)run.layer.remove();
+  (run.touched||[]).forEach(el=>el.classList.remove('ipa-under','ipa-silent'));run.touched=[];run.nodes=[];
   const letters=run.info.term.replace(/[^A-Za-z]/g,'').length;
-  let whole=run.map.mode==='whole'||slots.length!==letters;
+  let whole=forceWhole||run.map.mode==='whole'||slots.length!==letters;
   if(!whole)whole=run.map.parts.some(p=>p.end>slots.length||p.end<=p.start||ipaEffectBounds(slots.slice(p.start,p.end))?.wrapped);
   const layer=document.createElement('div');layer.className='ipa-effect-layer';layer.setAttribute('aria-hidden','true');document.body.appendChild(layer);run.layer=layer;
   const parts=whole?[{ipa:run.info.displayIpa||run.info.ipa,start:0,end:slots.length,beat:0,weight:1}]:run.map.parts;
@@ -80,7 +108,10 @@ function ipaEffectBuild(run){
     if(whole)text.innerHTML=ipaEffectStressMarkup(part.ipa);else text.textContent=part.silent?'묵음':part.ipa;
     el.appendChild(text);layer.appendChild(el);run.nodes.push({el,text,part,whole,slots:slots.slice(part.start,part.end)});
   }
-  ipaEffectPosition(run);return true;
+  ipaEffectPosition(run);
+  if(lit)ipaEffectLight(run,0,true);
+  if(finishing)run.nodes.forEach(n=>n.el.classList.add('finishing'));
+  return true;
 }
 function ipaEffectLight(run,beat,all=false){
   if(!ipaEffectCurrent(run))return;
