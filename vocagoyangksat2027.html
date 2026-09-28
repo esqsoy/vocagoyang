@@ -1919,7 +1919,7 @@ function scheduleNext(ms){
   cancelPendingAdvance();const s=state.session,id=s&&s.currentId;if(!s)return;
   const current=()=>state.session===s&&s.currentId===id&&s.answered&&!s.copyMode&&screens.game.classList.contains("active");
   s.nextTimer=setTimeout(()=>{s.nextTimer=null;if(!current())return;
-    // Only the normal correct-answer delay waits for speech. Copy remains 650ms.
+    // Every completed answer, including corrected copies, waits for its pronunciation.
     if(ms===1200)ipaEffectAdvance(nextCard,current);else nextCard();
   },ms);
 }
@@ -2272,9 +2272,12 @@ function openReveal(kind){const card=$("#quizCard");card.classList.add(kind);$("
   /* scrollTo(0)은 아래로 스크롤해 둔 상태에서 화면을 통째로 튕긴다. 카드가 이미 보이면 건드리지 않는다 */
   if(card.getBoundingClientRect().top<-8)card.scrollIntoView({block:"start",behavior:"smooth"});
   return rv;}
+function revealInPlace(term){
+  const wrap=$("#hoeCtx .blanks");if(wrap){wrap.innerHTML=blankSlots(term,term);wrap.classList.add("revealed");wrap.querySelectorAll(".slot-punctuation").forEach(el=>el.classList.add("shown"));}
+}
 function showReveal(type,term,meaning,line){
   growCard(()=>{
-    const wrap=$("#hoeCtx .blanks");if(wrap){wrap.innerHTML=blankSlots(term,term);wrap.classList.add("revealed");wrap.querySelectorAll(".slot-punctuation").forEach(el=>el.classList.add("shown"));}
+    revealInPlace(term);
     $("#catSpeech").textContent=line||"";$("#catSpeech").hidden=!line;
     openReveal(type==="good"?"good":"bad").innerHTML='<div class="ov-c rv-note">'+pronunciationMarkup(term,meaning)+'</div>';
   });
@@ -2301,7 +2304,8 @@ function submitCopy(){
     const p=$("#quizCard");p.classList.remove("wrong");void p.offsetWidth;p.classList.add("wrong");return;
   }
   s.copyMode=false;s.copyAns="";$("#ainput").oninput=null;$("#submitBtn").disabled=true;
-  fx(true);beep("ok");scheduleNext(650);
+  const w=s.words[s.currentId];s.revealedAt=Date.now();
+  revealInPlace(w.term);beep("ok");speakPronunciation(w.term,w.meaning);scheduleNext(1200);
 }
 
 function giveHint(){
@@ -2454,7 +2458,7 @@ let fxGen=0;
 function fx(good,combo){
   const card=$("#quizCard"),layer=$("#fxLayer");if(!card)return;
   layer.innerHTML="";const gen=++fxGen;
-  if(good&&combo)return; // Normal correct answers use the IPA effect; copy and review keep their effects.
+  if(good&&combo)return; // Completed answers use the IPA effect; review effects stay intact.
   /* 화면 흔들기는 오답에만 남긴다. 정답은 하트·꽃이 이미 축하하므로 흔들 이유가 없고,
      흔들림은 읽고 있던 글자까지 통째로 움직여 집중을 깬다(영신 지적). */
   if(!good)document.body.classList.add("shake");

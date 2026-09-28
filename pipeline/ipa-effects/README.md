@@ -29,7 +29,7 @@ The runtime and map appear immediately after the opening tag of the main inline 
 
 ## Playback and release validation
 
-The existing browser voice selection and rate (.88) are unchanged. A request is scoped to its card; real SpeechSynthesis start/end events bound the effect. Internal syllable beats are estimates, with small in-memory timing caches; no audio assets or new network services are used. Manual navigation cancels speech immediately. Only the normal automatic reveal timer waits for unfinished speech. Missing start/end events have bounded deadlines, and replay/mute cannot discard the pending automatic advance. Copy input has no IPA overlay and retains its 650 ms completion delay. Review roses are unchanged.
+The existing browser voice selection and rate (.88) are unchanged. A request is scoped to its card; real SpeechSynthesis start/end events bound the effect. Internal syllable beats are estimates, with small in-memory timing caches; no audio assets or new network services are used. Manual navigation cancels speech immediately. Only the normal automatic reveal timer waits for unfinished speech. Missing start/end events have bounded deadlines, and replay/mute cannot discard the pending automatic advance. Copy input has no IPA overlay while typing. A completed copy uses the same revealed spelling, pronunciation, effect, and automatic delay as an initially correct answer; its original incorrect-attempt record is preserved. Review roses are unchanged.
 
 The shared formatter preserves ˈ and ˌ and uses #ffd34d for both. Overlay and explanation tracking is .03em. Narrow/wrapped segments fall back to the intact IPA rather than crossing unrelated lines.
 
@@ -52,4 +52,6 @@ node pipeline/tests/session.test.cjs
 
 Browser QA covers 320 px, 390 px and desktop widths, the reviewed photographic mapping, dotted IPA, heteronyms/context speech, long phrases and wrapped words.
 
-2026-09-29 timing adjustment: reduce the normal reveal delay by 20%. Mother Tongue/EBS use 1,200 ms; FABLE keeps its explanation-length and retry-round rules, scaled to 80% (minimum no-note delay 1,760 ms, maximum 12 s, retry cap 4 s). Speech still finishes before automatic progression, while manual next and copy completion remain unchanged.
+2026-09-29 timing adjustment: reduce the normal reveal delay by 20%. Mother Tongue/EBS use 1,200 ms; FABLE keeps its explanation-length and retry-round rules, scaled to 80% (minimum no-note delay 1,760 ms, maximum 12 s, retry cap 4 s). Speech still finishes before automatic progression, while manual next remains unchanged. This replaced the original correct-answer timers; the subsequent copy-parity fix applies the same timers to completed copies.
+
+2026-09-29 copy parity: a completed correction restarts pronunciation and IPA effects over canonical revealed slots, cancels any older error-reveal audio, and follows the course's normal reveal delay plus speech completion. Wrong-attempt counts, retry requirements, and perfect-streak eligibility remain unchanged.

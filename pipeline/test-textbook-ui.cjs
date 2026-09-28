@@ -39,7 +39,7 @@ for(const [book,fixture] of [['ksat',mt],['ebs',ebs]]){
  const w=s.words[0];w.term='nineteen';h.ctx.giveHint();h.ctx.giveHint();assert.equal(h.els.get('ainput').value,'n');assert.equal(s.hints,1);
  assert.equal(h.els.get('qmini').textContent,'');assert(!s.answered);h.type('nineteen');assert(s.answered&&!s.copyMode);assert.equal(s.firstCorrect,0);
  h.ctx.cancelPendingAdvance();h.start();s=h.state.session;h.ctx.submit({forced:true});assert(s.copyMode);assert.equal(s.errors,1);
- h.type(s.words[0].term);assert(!s.copyMode);h.advance(650);assert.equal(s.currentId,1);
+ h.type(s.words[0].term);assert(!s.copyMode);h.advance(1200);assert.equal(s.currentId,1);
  h.ctx.giveHint();assert.equal(s.hints,1,'Per-exercise hint count');
  // Native one-letter hint never submits by itself.
  h.ctx.cancelPendingAdvance();h.start();s=h.state.session;s.words[0].term='I';h.ctx.giveHint();assert(!s.answered);h.fire('aform','submit');assert(s.answered);

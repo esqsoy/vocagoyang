@@ -2687,7 +2687,7 @@ function submitCopy(){
   }
   s.copyMode=false;s.copyAns="";$("#ainput").oninput=null;
   $("#submitBtn").disabled=true;
-  fx(true);beep("ok");s.revealAt=Date.now();s.revealTimer=setTimeout(()=>{if(state.session===s&&s.answered&&!s.copyMode&&screens.game.classList.contains("active"))doNext();},650);
+  const w=s.words[s.currentId];revealInPlace(w);beep("ok");speak(w.term);armReveal(w);
 }
 // Reveal only the first letter, once per card; typing continues after it.
 function giveHint(){
@@ -2870,7 +2870,7 @@ function fxOrigin(el){const r=(el||$("#quizCard")).getBoundingClientRect();retur
 /* 콤보: 꽃잎 수 = 연속 정답 수(1연속 1송이, 10연속 10송이, 최대 40). 5연속부터 링, 10연속부터 화면 가장자리 금빛. 숫자 텍스트는 쓰지 않는다(꽃 개수로 표현) */
 let fxGen=0;
 function fx(good,combo){
-  if(good&&combo){$("#fxLayer").innerHTML="";return;} // Correct answers use the pronunciation reveal; copy/review effects stay intact.
+  if(good&&combo){$("#fxLayer").innerHTML="";return;} // Completed answers use the pronunciation reveal; review effects stay intact.
   const card=$("#quizCard"),layer=$("#fxLayer");if(!card)return;
   layer.innerHTML="";const gen=++fxGen;
   /* 화면 흔들기는 오답에만 남긴다. 정답은 하트·꽃이 이미 축하하므로 흔들 이유가 없고,

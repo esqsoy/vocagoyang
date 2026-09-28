@@ -1,8 +1,18 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 function replaceOne(html,oldText,newText){assert.equal(html.split(oldText).length,2,'Expected one textbook hook: '+oldText.slice(0,75));return html.replace(oldText,newText);}
+function patchCopyCompletion(html){
+  html=html.replace('Normal correct answers use the IPA effect; copy and review keep their effects.','Completed answers use the IPA effect; review effects stay intact.');
+  if(html.includes('const w=s.words[s.currentId];s.revealedAt=Date.now();'))return html;
+  const oldReveal='const wrap=$("#hoeCtx .blanks");if(wrap){wrap.innerHTML=blankSlots(term,term);wrap.classList.add("revealed");wrap.querySelectorAll(".slot-punctuation").forEach(el=>el.classList.add("shown"));}';
+  html=replaceOne(html,'function showReveal(type,term,meaning,line){','function revealInPlace(term){\n  '+oldReveal+'\n}\nfunction showReveal(type,term,meaning,line){');
+  html=replaceOne(html,'    '+oldReveal,'    revealInPlace(term);');
+  html=replaceOne(html,'  fx(true);beep("ok");scheduleNext(650);','  const w=s.words[s.currentId];s.revealedAt=Date.now();\n  revealInPlace(w.term);beep("ok");speakPronunciation(w.term,w.meaning);scheduleNext(1200);');
+  html=html.replace('// Only the normal correct-answer delay waits for speech. Copy remains 650ms.','// Every completed answer, including corrected copies, waits for its pronunciation.');
+  return html;
+}
 function patch(html){
-  if(html.includes('function pronunciationEffectInfo('))return html;
   html=html.replace(/\r\n/g,'\n');
+  if(html.includes('function pronunciationEffectInfo('))return patchCopyCompletion(html);
   html=replaceOne(html,'function cancelPendingAdvance(){const s=state.session;', 'function cancelPendingAdvance(){ipaEffectCancelAdvance();const s=state.session;');
   html=replaceOne(html,`function scheduleNext(ms){
   cancelPendingAdvance();const s=state.session,id=s&&s.currentId;if(!s)return;
@@ -11,7 +21,7 @@ function patch(html){
   cancelPendingAdvance();const s=state.session,id=s&&s.currentId;if(!s)return;
   const current=()=>state.session===s&&s.currentId===id&&s.answered&&!s.copyMode&&screens.game.classList.contains("active");
   s.nextTimer=setTimeout(()=>{s.nextTimer=null;if(!current())return;
-    // Only the normal correct-answer delay waits for speech. Copy remains 650ms.
+    // Every completed answer, including corrected copies, waits for its pronunciation.
     if(ms===1200)ipaEffectAdvance(nextCard,current);else nextCard();
   },ms);
 }`);
@@ -55,9 +65,9 @@ function speakPronunciation(term,meaning){
 }
 `+html.slice(end);
   html=replaceOne(html,'// 이미 시작한 긴 발음은 마치게 두고, 아직 시작하지 않은 재생 예약만 취소한다.\n  stopPronunciation(false);cancelPendingAdvance();','// Manual navigation cancels speech and its overlay immediately.\n  stopPronunciation();cancelPendingAdvance();');
-  html=replaceOne(html,'layer.innerHTML="";const gen=++fxGen;','layer.innerHTML="";const gen=++fxGen;\n  if(good&&combo)return; // Normal correct answers use the IPA effect; copy and review keep their effects.');
+  html=replaceOne(html,'layer.innerHTML="";const gen=++fxGen;','layer.innerHTML="";const gen=++fxGen;\n  if(good&&combo)return; // Completed answers use the IPA effect; review effects stay intact.');
   html=replaceOne(html,'scheduleNext(1500);','scheduleNext(1200);');
-  return html;
+  return patchCopyCompletion(html);
 }
 module.exports={patch};
 if(require.main===module){const root=path.resolve(__dirname,'../..');for(const name of ['vocagoyangksat2027.html','vocagoyangebs2027.html']){const file=path.join(root,name);fs.writeFileSync(file,patch(fs.readFileSync(file,'utf8')));console.log('Updated IPA speech/navigation hooks: '+name);}}

@@ -110,7 +110,7 @@ assert(!s.answered);assert(h.blank.innerHTML.includes('오'));
 h.type('official');assert(s.answered&&!s.copyMode);
 s=mountWord(h);h.ctx.submit({forced:true});h.fire('ainput','compositionstart');h.type('official');h.fire('aform','submit');assert(s.copyMode);
 h.fire('ainput','compositionend');assert(!s.copyMode);assert.equal(s.attempts,1,'Copy does not count as a fresh attempt');
-h.advance(649);assert.equal(s.currentId,0);h.advance(1);assert.equal(s.currentId,1,'Copy completes after 650 ms');
+h.advance(1199);assert.equal(s.currentId,0);h.advance(1);assert.equal(s.currentId,1,'Copy uses the same 1200 ms reveal as a correct answer');
 
 // Hints, forced skips and timeouts keep the original grading semantics.
 s=mountWord(h);assert.equal(h.els.get('qmini').textContent,'');h.ctx.giveHint();assert.equal(h.els.get('ainput').value,'o');assert.equal(h.els.get('qmini').textContent,'');h.ctx.giveHint();assert.equal(h.els.get('ainput').value,'o');assert.equal(s.hints,1);h.type('official');assert.equal(s.firstCorrect,0);assert.equal(s.errors,0);
@@ -129,14 +129,14 @@ for(const copy of [false,true]){
  h.els.get('ainput').blur();h.fire('gameScreen','mousedown',{target:h.els.get('hoeCtx')});
  assert.equal(h.doc.activeElement,h.els.get('ainput'));
 }
-h.type('official');assert(!s.copyMode);h.advance(650);assert.equal(s.currentId,1);
+h.type('official');assert(!s.copyMode);h.advance(1200);assert.equal(s.currentId,1);
 
 // Retry rounds: correct first-pass words stay out; wrong words require two
 // consecutive later answers, and wrong retries reset their streak.
 s=mountWord(h);s.words[0].wrongEver=true;s.words[1].passed=true;s.queue=[];h.ctx.startRound(2);
 assert.deepEqual(plain(s.roundTargets),[0]);assert.equal(s.words[0].needed,2);
 h.type('official');assert.equal(s.words[0].roundStreak,1);assert.equal(s.words[0].passed,false);assert.deepEqual(plain(s.queue),[0]);
-h.advance(1200);h.ctx.submit({forced:true});assert.equal(s.words[0].roundStreak,0);h.type('official');h.advance(650);
+h.advance(1200);h.ctx.submit({forced:true});assert.equal(s.words[0].roundStreak,0);h.type('official');h.advance(1200);
 h.type('official');h.advance(1200);h.type('official');assert.equal(s.words[0].roundStreak,2);assert.equal(s.words[0].passed,true);
 
 // Leaving/changing scope must cancel the previous card's pending transition.
