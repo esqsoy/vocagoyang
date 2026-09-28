@@ -215,7 +215,7 @@
         "ko": "~을 지적하여 알리다",
         "ex": "Please {{BLANK}} any errors in my report.",
         "tr": "내 보고서에 오류가 있으면 지적해 줘.",
-        "c": "point out a fact: 사실을 짚어 알려 주다. raise an issue: 문제를 제기하다.",
+        "c": "point out a fact: 사실을 짚어 알리다. 대명사 목적어는 point it out.",
         "ipa": "pɔɪnt aʊt",
         "pos": "v.phr.",
         "acceptedAnswers": [
@@ -248,7 +248,7 @@
         "ko": "가능성에서 ~을 제외하다",
         "ex": "These facts {{BLANK}} that possibility.",
         "tr": "이 사실들은 그 가능성을 배제해.",
-        "c": "rule out a possibility: 가능성을 배제하다.",
+        "c": "rule out a possibility: 가능성을 배제하다. 여기서는 exclude도 가능.",
         "ipa": "ruːl aʊt",
         "pos": "v.phr.",
         "acceptedAnswers": [
@@ -319,7 +319,7 @@
         "ko": "희미한 것을 알아보거나 소리를 식별하다",
         "ex": "I can barely {{BLANK}} her voice.",
         "tr": "그녀의 목소리를 겨우 알아들을 수 있어.",
-        "c": "흐릿한 모습이나 소리를 식별하다.",
+        "c": "희미한 모습·소리를 식별하다. 여기서는 discern도 가능.",
         "ipa": "meɪk aʊt",
         "pos": "v.phr.",
         "acceptedAnswers": [
@@ -450,7 +450,7 @@
         "ko": "시간·공간을 차지하다",
         "ex": "This desk will {{BLANK}} too much space.",
         "tr": "이 책상은 공간을 너무 많이 차지할 거야.",
-        "c": "시간·공간을 차지하다. take up space: 공간을 차지하다.",
+        "c": "take up space: 공간을 차지하다. occupy로도 표현한다.",
         "ipa": "teɪk ʌp",
         "pos": "v.phr.",
         "acceptedAnswers": [
@@ -518,7 +518,7 @@
         "ko": "사실상 ~와 같다",
         "ex": "Saying nothing can {{BLANK}} saying yes.",
         "tr": "아무 말도 안 하는 것이 사실상 찬성하는 셈일 수 있어.",
-        "c": "양을 뜻하는 amount에서 확장돼, 여기서는 사실상 같다는 판단이야.",
+        "c": "amount to+-ing: 사실상 ~하는 셈이다. be equivalent to로도 표현한다.",
         "ipa": "əˈmaʊnt tə",
         "pos": "v.phr.",
         "acceptedAnswers": [
@@ -730,7 +730,7 @@
         "ko": "계획·문서를 작성하다",
         "ex": "Please {{BLANK}} a contract before we start.",
         "tr": "시작하기 전에 계약서를 작성해 줘.",
-        "c": "plan·contract 같은 계획·문서를 작성해. draw on은 경험 등을 활용해.",
+        "c": "draw up a contract: 계약서를 작성하다. 대명사 목적어는 draw it up.",
         "ipa": "drɔ ʌp",
         "pos": "v.phr.",
         "acceptedAnswers": [
@@ -931,7 +931,7 @@
         "ko": "하던 일을 계속하다",
         "ex": "We can {{BLANK}} working after lunch.",
         "tr": "우리는 점심 후에 하던 일을 계속할 수 있어.",
-        "c": "carry on+-ing: 계속 ~하다.",
+        "c": "carry on+-ing: 계속 ~하다. continue, keep on으로도 표현한다.",
         "ipa": "ˌkæri ˈɑn",
         "acceptedAnswers": [
           "continue",
@@ -1143,7 +1143,7 @@
         "ko": "정보·의미를 충분히 이해하다",
         "ex": "Nobody can {{BLANK}} all this information at once.",
         "tr": "누구도 이 많은 정보를 한꺼번에 전부 이해할 수는 없어.",
-        "c": "정보를 받아들여 이해하다. 대명사 목적어는 take it in.",
+        "c": "정보를 받아들여 이해하다. absorb도 가능. 대명사 목적어는 take it in.",
         "ipa": "ˌteɪk ˈɪn",
         "acceptedAnswers": [
           "absorb",
@@ -1274,7 +1274,7 @@
         "ko": "세부를 꼼꼼히 검토하다",
         "ex": "Please {{BLANK}} each answer before the test ends.",
         "tr": "시험이 끝나기 전에 답을 하나씩 꼼꼼히 검토해 줘.",
-        "c": "go over+답·자료: 답·자료를 자세히 검토하다.",
+        "c": "go over+답·자료: 꼼꼼히 검토하다. 여기서는 review도 가능.",
         "ipa": "ˌɡoʊ ˈoʊvɚ",
         "acceptedAnswers": [
           "check",
@@ -1470,7 +1470,7 @@
         "ko": "믿고 의지하다",
         "ex": "You can {{BLANK}} her to keep the secret.",
         "tr": "그녀가 비밀을 지킬 거라고 믿고 의지해도 돼.",
-        "c": "count on+사람·대상: 믿고 의지하다.",
+        "c": "count on+사람+to부정사: 그가 ~하리라 믿다. rely on으로도 표현한다.",
         "ipa": "ˈkaʊnt ɑn",
         "acceptedAnswers": [
           "rely on",
@@ -1530,7 +1530,7 @@
         "ko": "노력이 성과를 내다",
         "ex": "Years of practice will finally {{BLANK}}.",
         "tr": "오랜 연습이 마침내 성과를 낼 거야.",
-        "c": "여기서는 노력 자체가 주어로 성과를 내는 뜻. 뒤에 갚을 빚이 오는 뜻과 달라.",
+        "c": "노력+pay off: 노력이 성과를 내다. pay off a debt는 빚을 전부 갚다.",
         "ipa": "ˌpeɪ ˈɔf",
         "acceptedAnswers": [
           "bear fruit",
@@ -1643,7 +1643,7 @@
         "ko": "열·빛·냄새 등을 밖으로 내보내다",
         "ex": "Some flowers {{BLANK}} a strong smell at night.",
         "tr": "어떤 꽃들은 밤에 강한 냄새를 내뿜어.",
-        "c": "give off+열·빛·냄새: 열·빛·냄새를 내보내다.",
+        "c": "give off+열·빛·냄새: 내보내다. 여기서는 give out도 가능.",
         "ipa": "ˌɡɪv ˈɔf",
         "acceptedAnswers": [
           "emit",
@@ -1680,7 +1680,7 @@
         "ko": "일·계획이 잘 풀리다",
         "ex": "I hope our new plan will {{BLANK}}.",
         "tr": "우리 새 계획이 잘 풀리면 좋겠어.",
-        "c": "목적어 없이 계획·일이 잘 풀리다. work out a problem의 문제 해결과 달라.",
+        "c": "계획·일+work out: 잘 풀리다. work out a problem은 문제를 풀다.",
         "ipa": "ˌwɝk ˈaʊt",
         "acceptedAnswers": [
           "succeed",
@@ -1844,7 +1844,7 @@
         "ko": "어떤 조치를 공개적으로 요구하다",
         "ex": "At today's march, workers will {{BLANK}} safer conditions.",
         "tr": "오늘 행진에서 노동자들은 더 안전한 조건을 요구할 거야.",
-        "c": "demand·request처럼 사람이 조치를 요구하다. 상황이 필요로 하는 call for와 달라.",
+        "c": "call for: 공개적으로 요구하다. 여기서는 ask for도 가능.",
         "ipa": "ˈkɔl fɚ",
         "acceptedAnswers": [
           "demand",
@@ -1905,7 +1905,7 @@
         "ko": "빚을 전부 갚다",
         "ex": "She hopes to {{BLANK}} all her debt this year.",
         "tr": "그녀는 올해 자기 빚을 전부 갚기를 바라.",
-        "c": "debt(빚)를 목적어로 받아 전액 상환하다. 노력이 성과를 내는 pay off와 달라.",
+        "c": "pay off a debt: 빚을 전부 갚다. 노력+pay off는 성과를 내다.",
         "ipa": "ˌpeɪ ˈɔf",
         "acceptedAnswers": [
           "repay",

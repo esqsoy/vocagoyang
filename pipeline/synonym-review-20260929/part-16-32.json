@@ -1,0 +1,1777 @@
+{
+  "range": [
+    16,
+    32
+  ],
+  "readCards": 2191,
+  "reviewedFiles": [
+    "pipeline/out/set16.json",
+    "pipeline/out/set17.json",
+    "pipeline/out/set18.json",
+    "pipeline/out/set19.json",
+    "pipeline/out/set20.json",
+    "pipeline/out/set21.json",
+    "pipeline/out/set22.json",
+    "pipeline/out/set23.json",
+    "pipeline/out/set24.json",
+    "pipeline/out/set25.json",
+    "pipeline/out/set26.json",
+    "pipeline/out/set27.json",
+    "pipeline/out/set28.json",
+    "pipeline/out/set29.json",
+    "pipeline/out/set30.json",
+    "pipeline/out/set31.json",
+    "pipeline/out/set32.json"
+  ],
+  "changes": [
+    {
+      "lesson": 16,
+      "exercise": 1,
+      "word": "terror",
+      "si": 1,
+      "field": "c",
+      "new": "fear보다 강한 공포. horror는 공포에 충격·혐오가 섞일 때 쓴다.",
+      "reason": "동일 글자수 horror와 겹치는 공포 의미를 짧게 구별.",
+      "alternative": "horror",
+      "old": "fear보다 강한, 얼어붙는 공포. terrible(끔찍한)과 한 가족이다."
+    },
+    {
+      "lesson": 16,
+      "exercise": 2,
+      "word": "freeze",
+      "si": 1,
+      "field": "ex",
+      "new": "The lake {{BLANK}}s solid every winter.",
+      "reason": "호수가 꽁꽁 언다는 자연스러운 결합 freezes solid로 수정.",
+      "old": "The lake {{BLANK}}s hard every winter."
+    },
+    {
+      "lesson": 16,
+      "exercise": 3,
+      "word": "flat",
+      "si": 1,
+      "field": "c",
+      "new": "평평한 면이나 납작한 모양을 나타낸다.",
+      "reason": "같은 표제어의 뒤 카드에서 다루는 타이어·음료·아파트 의미의 중복 해설 삭제.",
+      "old": "바람 빠진 타이어는 flat tire, 김빠진 콜라도 flat. 영국에선 명사로 '아파트'."
+    },
+    {
+      "lesson": 16,
+      "exercise": 5,
+      "word": "custom",
+      "si": 1,
+      "field": "c",
+      "new": "전해 내려오는 관습. 복수 customs는 문맥에 따라 관습들 또는 세관.",
+      "reason": "복수형 뜻 구별을 보존하며 장문 축약.",
+      "old": "전해 내려오는 관습·풍습. customs는 여러 관습을 뜻할 수도 있고, 문맥에 따라 세관을 뜻하기도 한다."
+    },
+    {
+      "lesson": 16,
+      "exercise": 6,
+      "word": "drunk",
+      "si": 1,
+      "field": "c",
+      "new": "drink의 과거분사. drunk driver는 음주 운전자.",
+      "reason": "형용사 쓰임의 주변 설명을 줄이고 실제 결합 하나만 유지.",
+      "old": "drink의 과거분사가 형용사로 쓰인 것. 명사 앞에서는 drunken을 쓰기도 한다. drunk driver도 흔한 표현."
+    },
+    {
+      "lesson": 16,
+      "exercise": 3,
+      "word": "tongue",
+      "si": 1,
+      "field": "c",
+      "new": "mother tongue은 모국어.",
+      "reason": "이미 제공되는 발음기호와 겹치는 한글 발음·철자 함정 문구 삭제.",
+      "old": "철자 함정: tongue[텅]. mother tongue은 모국어."
+    },
+    {
+      "lesson": 17,
+      "exercise": 1,
+      "word": "harm",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 hurt도 가능. harm은 해를 끼치다, hurt는 다치게 하다·아프게 하다.",
+      "reason": "같은 네 글자 대안 hurt가 가능한 문맥을 인정하고 핵심 의미차 제시.",
+      "alternative": "hurt",
+      "old": "harmful은 해로운, harmless는 무해한. harm your skin은 피부를 해치다."
+    },
+    {
+      "lesson": 17,
+      "exercise": 1,
+      "word": "flesh",
+      "si": 1,
+      "field": "c",
+      "new": "사람·동물 몸의 살. 식용 고기는 보통 meat.",
+      "reason": "죽은 몸에 관한 불필요한 부연 삭제.",
+      "old": "뼈와 피부 사이 몸의 살. 식용 고기는 보통 meat. 죽은 몸의 살에도 flesh를 쓴다."
+    },
+    {
+      "lesson": 17,
+      "exercise": 2,
+      "word": "pile",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 heap도 가능. a pile of books는 책 무더기.",
+      "reason": "같은 네 글자 동의어가 자연스러운 예문임을 짧게 설명.",
+      "alternative": "heap",
+      "old": "a pile of books 책 무더기. 위로 쌓아 올린 그림."
+    },
+    {
+      "lesson": 17,
+      "exercise": 2,
+      "word": "grateful",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 thankful도 가능. grateful은 받은 호의에 대한 감사, thankful은 안도감도 자주 나타낸다.",
+      "reason": "동일 길이 대안 thankful을 배제하는 인상을 줄이고 문맥별 차이 명시.",
+      "alternative": "thankful",
+      "sources": [
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/grateful-or-thankful"
+      ],
+      "old": "be grateful (to 사람) for ~: 호의에 감사하다. thankful은 특히 다행이라는 안도에 자주 쓴다."
+    },
+    {
+      "lesson": 17,
+      "exercise": 2,
+      "word": "appoint",
+      "si": 1,
+      "field": "c",
+      "new": "appoint A (as) B: A를 B로 임명하다. appointment는 임명 또는 예약·약속.",
+      "reason": "문형과 명사 다의성을 짧은 문장으로 압축.",
+      "old": "appoint someone (as) captain은 누구를 주장으로 임명하다. appointment는 임명도 뜻하고, 별도로 예약·약속도 뜻한다."
+    },
+    {
+      "lesson": 17,
+      "exercise": 4,
+      "word": "tire",
+      "si": 2,
+      "field": "ex",
+      "new": "Do I {{BLANK}} you when I talk for hours?",
+      "reason": "wear out과 완전히 겹치는 구동사 예문을 바꾸고 사람이 상대를 지치게 한다는 타동사 감각 강화.",
+      "old": "Long meetings really {{BLANK}} me out."
+    },
+    {
+      "lesson": 17,
+      "exercise": 4,
+      "word": "tire",
+      "si": 2,
+      "field": "tr",
+      "new": "내가 몇 시간씩 이야기하면 네가 지쳐?",
+      "reason": "수정 예문에 맞춤.",
+      "old": "긴 회의는 정말 사람 진을 빼."
+    },
+    {
+      "lesson": 17,
+      "exercise": 4,
+      "word": "tire",
+      "si": 2,
+      "field": "c",
+      "new": "tire는 지치게 하다, bore는 지루하게 하다. 내가 피곤하면 I'm tired.",
+      "reason": "동일 글자수 bore와 실제 의미차, 원인 주어와 상태를 간결하게 연결.",
+      "alternative": "bore",
+      "old": "tired(피곤한)의 뿌리 동사. tire out 완전히 뻗게 하다."
+    },
+    {
+      "lesson": 17,
+      "exercise": 5,
+      "word": "invent",
+      "si": 2,
+      "field": "ex",
+      "new": "He {{BLANK}}ed an excuse for being late.",
+      "reason": "지각에 관한 이야기라는 모호한 맥락을 지각 핑계의 조작으로 선명하게 수정.",
+      "old": "He {{BLANK}}ed a story about being late."
+    },
+    {
+      "lesson": 17,
+      "exercise": 5,
+      "word": "invent",
+      "si": 2,
+      "field": "tr",
+      "new": "그는 지각한 데 대한 핑계를 지어냈어.",
+      "reason": "수정 예문에 맞춤.",
+      "old": "그는 지각에 관해 이야기를 꾸며 냈어."
+    },
+    {
+      "lesson": 18,
+      "exercise": 1,
+      "word": "guilt",
+      "si": 1,
+      "field": "c",
+      "new": "guilty는 죄책감을 느끼는, 또는 유죄인.",
+      "reason": "해당 예문의 단순 반복과 다른 카드에서 다루는 유·무죄 부연 축약.",
+      "old": "feel guilt는 죄책감을 느끼다. guilty는 죄책감을 느끼는, 또는 유죄인. 유죄의 반대인 무죄는 innocent."
+    },
+    {
+      "lesson": 18,
+      "exercise": 2,
+      "word": "lend",
+      "si": 1,
+      "field": "c",
+      "new": "lend A B: A에게 B를 빌려주다. 미국에서는 loan도 가능. borrow는 빌리다.",
+      "reason": "긴 예문 두 개를 문형으로 압축하고 동일 길이 loan의 호환 맥락 제시.",
+      "alternative": "loan",
+      "sources": [
+        "https://www.collinsdictionary.com/us/dictionary/english/loan"
+      ],
+      "old": "lend는 빌려주다, borrow는 빌리다. You lend me money는 네가 나에게 돈을 빌려주다, I borrow money from you는 내가 너에게서 빌리다."
+    },
+    {
+      "lesson": 18,
+      "exercise": 5,
+      "word": "nasty",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 awful도 가능. nasty는 냄새·말투 등이 고약하고 불쾌한 것.",
+      "reason": "동일 길이 대안 awful을 배제하지 않고 공통 의미 설명.",
+      "alternative": "awful",
+      "old": "불쾌한 냄새·날씨·말투 등에 쓴다."
+    },
+    {
+      "lesson": 18,
+      "exercise": 10,
+      "word": "altogether",
+      "si": 2,
+      "field": "c",
+      "new": "altogether는 완전히·전적으로. all together는 띄어 쓰며 ‘다 같이’.",
+      "reason": "all together와의 철자·의미 차이만 간단히 유지. 앞의 an 때문에 completely는 이 빈칸에 그대로 들어갈 수 없다.",
+      "old": "모두 더한 합계뿐 아니라 정도가 완전함을 나타낸다."
+    },
+    {
+      "lesson": 18,
+      "exercise": 10,
+      "word": "crush",
+      "si": 1,
+      "field": "c",
+      "new": "눌러서 으깨다. grind는 갈아서 잘게 만들다.",
+      "reason": "동일 글자수 grind와 조리 동작의 차이를 짧게 설명; 다른 카드의 crush 의미 중복 삭제.",
+      "alternative": "grind",
+      "old": "꽉 눌러 부수는 그림. 누구에게 반한 마음도 crush라 한다."
+    },
+    {
+      "lesson": 19,
+      "exercise": 3,
+      "word": "anxious",
+      "si": 1,
+      "field": "c",
+      "new": "걱정·초조가 큰 상태. 여기서는 worried도 자연스럽다.",
+      "reason": "동일 길이 대안의 자연스러운 호환 범위를 짧게 알림.",
+      "alternative": "worried",
+      "old": "걱정+초조가 섞인 불안. 명사는 anxiety(불안, 걱정)."
+    },
+    {
+      "lesson": 19,
+      "exercise": 4,
+      "word": "conscience",
+      "si": 1,
+      "field": "c",
+      "new": "옳고 그름을 판단하는 마음. conscious(의식이 있는)와 구별.",
+      "reason": "발음기호와 중복되는 한글 발음 대신 자주 혼동하는 별도 단어를 짧게 구별.",
+      "old": "발음 [칸션스]. science처럼 읽지 말 것. 마음속 재판관."
+    },
+    {
+      "lesson": 19,
+      "exercise": 5,
+      "word": "tender",
+      "si": 1,
+      "field": "ex",
+      "new": "The meat was so {{BLANK}} that I could cut it with a fork.",
+      "reason": "고기가 달다는 불필요한 단서 대신 부드러워 쉽게 잘리는 성질을 보여 줌.",
+      "sources": [
+        "https://www.collinsdictionary.com/dictionary/english/tender"
+      ],
+      "old": "The meat was so {{BLANK}} and sweet."
+    },
+    {
+      "lesson": 19,
+      "exercise": 5,
+      "word": "tender",
+      "si": 1,
+      "field": "tr",
+      "new": "고기가 아주 연해서 포크로도 자를 수 있었어.",
+      "reason": "수정 예문에 맞춤.",
+      "sources": [
+        "https://www.collinsdictionary.com/dictionary/english/tender"
+      ],
+      "old": "고기가 진짜 연하고 달았어."
+    },
+    {
+      "lesson": 19,
+      "exercise": 5,
+      "word": "tender",
+      "si": 2,
+      "field": "c",
+      "new": "여기서는 gentle도 가능. tender는 특히 애정·다정함을 강조한다.",
+      "reason": "동일 길이 gentle와 자연스러운 겹침 및 뉘앙스 간결화.",
+      "alternative": "gentle",
+      "sources": [
+        "https://www.collinsdictionary.com/dictionary/english/tender"
+      ],
+      "old": "마음이나 태도가 부드럽고 사랑이 담긴."
+    },
+    {
+      "lesson": 19,
+      "exercise": 7,
+      "word": "spite",
+      "si": 1,
+      "field": "c",
+      "new": "in spite of+명사·-ing: ~에도 불구하고. 같은 뜻의 despite에는 of를 붙이지 않는다.",
+      "reason": "해당 카드 학습에 불필요한 긴 접속사 우회 구조를 빼고 핵심 문형 유지.",
+      "old": "in spite of+명사·-ing는 ~에도 불구하고. 완전한 절을 잇고 싶으면 in spite of the fact that을 쓴다. despite에는 of를 붙이지 않는다."
+    },
+    {
+      "lesson": 19,
+      "exercise": 10,
+      "word": "pupil",
+      "si": 1,
+      "field": "c",
+      "new": "특히 어린 학생. 영국에서 흔하며, 미국에서는 student가 더 일반적.",
+      "reason": "지역·대상 범위는 보존하면서 반복 문구 축약.",
+      "old": "학교에서 배우는 학생, 특히 어린 학생을 가리킨다. 영국에서 흔하다. 미국에서는 student가 더 일반적이다."
+    },
+    {
+      "lesson": 19,
+      "exercise": 10,
+      "word": "ill",
+      "si": 1,
+      "field": "c",
+      "new": "be/look ill처럼 쓴다. 미국에서는 sick이 흔하다. 명사 앞에서는 a sick child.",
+      "reason": "예문으로 설명 가능한 긴 서술을 짧게 압축.",
+      "old": "be/look ill처럼 서술 용법이 흔하다. 미국 회화에서는 sick이 더 흔하다. 명사 앞에는 a sick child가 일반적이다."
+    },
+    {
+      "lesson": 19,
+      "exercise": 10,
+      "word": "autumn",
+      "si": 1,
+      "field": "c",
+      "new": "미국에서는 fall도 흔하다. in (the) autumn: 가을에.",
+      "reason": "영미 모두 쓰인다는 주변 설명과 전치사 반복 축약.",
+      "old": "autumn은 영미 모두에서 쓰는 가을. 미국에서는 fall도 흔하다. in autumn 또는 in the autumn은 가을에."
+    },
+    {
+      "lesson": 20,
+      "exercise": 2,
+      "word": "satisfactory",
+      "si": 1,
+      "field": "c",
+      "new": "요구·기준을 충족하는. 반드시 아주 훌륭하다는 뜻은 아니다.",
+      "reason": "‘봐줄 만한’이라는 지나친 낮춤을 피하고 사전적 평가 기준을 명료화.",
+      "old": "'기준은 넘어서 봐줄 만한' 느낌."
+    },
+    {
+      "lesson": 20,
+      "exercise": 3,
+      "word": "neat",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 tidy도 가능. 둘 다 잘 정돈된 상태를 나타낸다.",
+      "reason": "동일 글자수의 사실상 호환 가능한 tidy를 짧게 명시.",
+      "alternative": "tidy",
+      "old": ""
+    },
+    {
+      "lesson": 20,
+      "exercise": 4,
+      "word": "packet",
+      "si": 1,
+      "field": "c",
+      "new": "작게 포장된 봉지·묶음. 영국에서는 a packet of tea처럼 쓴다.",
+      "reason": "예문 반복과 일반화가 넓은 pack 비교를 덜어 축약.",
+      "old": "작게 포장된 봉지·묶음. a packet of tea는 차 한 봉지. 영국에서는 미국의 pack보다 넓은 범위에 packet을 쓴다."
+    },
+    {
+      "lesson": 20,
+      "exercise": 4,
+      "word": "splendid",
+      "si": 1,
+      "field": "c",
+      "new": "아주 훌륭하거나 멋진. great보다 격식 있거나 예스러운 느낌.",
+      "reason": "예문·정의를 반복하는 가운데 문장 삭제.",
+      "old": "아주 훌륭하거나 멋진. a splendid view는 멋진 경치. great보다 격식 있거나 예스러운 느낌을 줄 수 있다."
+    },
+    {
+      "lesson": 20,
+      "exercise": 5,
+      "word": "creep",
+      "si": 1,
+      "field": "c",
+      "new": "creep-crept-crept. 살금살금 움직이다. sneak은 남몰래 움직이는 데 초점.",
+      "reason": "동일 길이 sneak과 가능한 문맥·초점 차이 제시.",
+      "alternative": "sneak",
+      "old": "소리 없이 낮게 천천히 움직이는 것. creep-crept-crept."
+    },
+    {
+      "lesson": 20,
+      "exercise": 5,
+      "word": "supper",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 dinner도 가능. supper는 가벼운 저녁이나 늦은 식사를 가리키기도 한다.",
+      "reason": "동일 길이 dinner와 겹치는 일상 문맥을 인정하며 간결화.",
+      "alternative": "dinner",
+      "old": "저녁 식사를 뜻한다. 가벼운 저녁이나 잠들기 전 먹는 식사를 가리키기도 한다."
+    },
+    {
+      "lesson": 20,
+      "exercise": 9,
+      "word": "foreigner",
+      "si": 1,
+      "field": "c",
+      "new": "foreign(외국의)+er(사람). g는 묵음.",
+      "reason": "당사자 앞 사용 자체를 무례하다고 오해시키는 포괄적 주의 문구 삭제.",
+      "old": "foreign+er, g는 묵음. 당사자 앞에서 쓰면 무례하게 들릴 수 있다."
+    },
+    {
+      "lesson": 20,
+      "exercise": 10,
+      "word": "apparatus",
+      "si": 1,
+      "field": "c",
+      "new": "특정 목적의 기구·장비. 장비 전체는 셀 수 없지만, 개별 장치는 an apparatus.",
+      "reason": "가산·불가산 구별을 보존하면서 압축.",
+      "old": "특정 목적의 기구·장비. 장비를 통틀어 말하면 셀 수 없고, 하나의 장치로 구분하면 an apparatus라고도 한다."
+    },
+    {
+      "lesson": 20,
+      "exercise": 10,
+      "word": "furnish",
+      "si": 2,
+      "field": "c",
+      "new": "furnish A with B: A에게 B를 제공하다. 여기서는 provide로 바꿔도 된다.",
+      "reason": "동일 길이 provide가 같은 구조로 정확히 대응함을 제시.",
+      "alternative": "provide",
+      "old": "furnish A with B는 A에게 B를 제공하다. 정보·증거에도 써."
+    },
+    {
+      "lesson": 21,
+      "exercise": 1,
+      "word": "waiter",
+      "si": 1,
+      "field": "c",
+      "new": "미국에서는 server도 흔하다. waiter는 남성 종업원을 가리킬 때 주로 쓴다.",
+      "reason": "같은 글자수 server의 자연스러운 사용과 성별 범위를 제시.",
+      "alternative": "server",
+      "old": "wait on(시중들다)에서 온 말. 미국에선 server라고도 부른다."
+    },
+    {
+      "lesson": 21,
+      "exercise": 2,
+      "word": "admittance",
+      "si": 1,
+      "field": "c",
+      "new": "No admittance: 출입 금지. admission도 입장이지만, 입학에는 admission을 쓴다.",
+      "reason": "뜻·표지판 번역의 반복을 줄이고 두 명사의 유용한 구별만 보존.",
+      "old": "admittance: 장소에 들어가는 허가. No admittance: 출입 금지. admission도 입장을 뜻한다. 입학에는 admission을 쓴다."
+    },
+    {
+      "lesson": 21,
+      "exercise": 3,
+      "word": "annoy",
+      "si": 1,
+      "field": "c",
+      "new": "annoy는 짜증 나게 하다. 같은 자리에 anger를 쓰면 더 강한 분노에 초점.",
+      "reason": "동일 글자수 대안 anger의 의미 강도 차이를 간결하게 설명.",
+      "alternative": "anger",
+      "old": "거슬리는 일로 짜증이나 화가 나게 하다. be annoyed by/at는 ~ 때문에 짜증 난."
+    },
+    {
+      "lesson": 21,
+      "exercise": 3,
+      "word": "bathe",
+      "si": 1,
+      "field": "c",
+      "new": "bath는 목욕, bathe는 목욕하다·씻기다. 영국에서는 바다·강에서 수영하다는 뜻도 있다.",
+      "reason": "품사와 IPA의 중복 표현을 덜어 압축.",
+      "old": "bath는 목욕이라는 명사, bathe /beɪð/는 씻다·목욕시키다라는 동사. 영국에서는 바다·강에서 수영하다는 뜻으로도 쓴다."
+    },
+    {
+      "lesson": 21,
+      "exercise": 4,
+      "word": "beak",
+      "si": 1,
+      "field": "c",
+      "new": "새의 부리. bill도 같은 뜻으로 쓴다.",
+      "reason": "동일 글자수의 통용 동의어를 짧게 제시.",
+      "alternative": "bill",
+      "sources": [
+        "https://www.collinsdictionary.com/us/dictionary/english/beak"
+      ],
+      "old": ""
+    },
+    {
+      "lesson": 21,
+      "exercise": 5,
+      "word": "cultivate",
+      "si": 2,
+      "field": "c",
+      "new": "시간과 노력을 들여 관계·재능·습관 등을 기르다.",
+      "reason": "번호를 오가며 반복하는 비유를 줄여 현재 카드의 의미에 집중.",
+      "old": "밭을 갈듯 시간 들여 '가꾸다'. 관계·재능·습관이 목적어. ①의 그림이 사람 쪽으로 옮겨 온 것."
+    },
+    {
+      "lesson": 21,
+      "exercise": 7,
+      "word": "fasten",
+      "si": 1,
+      "field": "c",
+      "new": "t는 묵음. 여기서는 buckle(버클을 채우다)도 가능.",
+      "reason": "동일 길이 buckle가 안전벨트 문맥에 직접 호환됨을 알림.",
+      "alternative": "buckle",
+      "old": "t는 묵음."
+    },
+    {
+      "lesson": 21,
+      "exercise": 8,
+      "word": "fulfill",
+      "si": 1,
+      "field": "c",
+      "new": "fulfill a dream: 꿈을 이루다. 여기서는 realize도 가능.",
+      "reason": "동일 글자수 realize가 꿈 실현 문맥에 완전히 호환됨을 명시.",
+      "alternative": "realize",
+      "old": "fulfill a dream은 꿈을 이루다, fulfill a promise는 약속을 이행하다."
+    },
+    {
+      "lesson": 22,
+      "exercise": 1,
+      "word": "infectious",
+      "si": 1,
+      "field": "c",
+      "new": "웃음·열정이 남에게 옮는다는 비유. 여기서는 contagious도 가능.",
+      "reason": "같은 열 글자 contagious와 완전 호환되는 비유 문맥을 명확히 함.",
+      "alternative": "contagious",
+      "old": "다른 사람에게 쉽게 옮는. 감염병뿐 아니라 웃음·열정에도 쓴다."
+    },
+    {
+      "lesson": 22,
+      "exercise": 1,
+      "word": "jelly",
+      "si": 1,
+      "field": "c",
+      "new": "미국에서는 과일즙으로 만든 매끈한 잼. 영국에서는 주로 젤라틴 디저트.",
+      "reason": "긴 복문과 별도 jam 부연을 덜고 두 지역 의미 차이만 보존.",
+      "old": "미국에서는 주로 과일즙으로 만든 매끈한 잼, 영국에서는 주로 젤라틴 디저트를 뜻한다. 과육이 남는 jam과는 구별한다."
+    },
+    {
+      "lesson": 22,
+      "exercise": 2,
+      "word": "mend",
+      "si": 1,
+      "field": "c",
+      "new": "고치다·수선하다. 양말 구멍을 기울 때는 darn도 가능.",
+      "reason": "동일 길이 darn의 적절한 수선 맥락을 제시하고 주변 관계 비유 삭제.",
+      "alternative": "darn",
+      "old": "고장 나거나 찢어진 것을 고치다. mend socks는 양말을 깁다. 관계를 회복할 때도 mend a friendship처럼 쓴다."
+    },
+    {
+      "lesson": 22,
+      "exercise": 2,
+      "word": "merry",
+      "si": 1,
+      "field": "c",
+      "new": "Merry Christmas와 Happy Christmas 모두 쓰는 인사.",
+      "reason": "예문·뜻 반복을 대신해 동일 길이 happy의 실제 호환을 제시.",
+      "alternative": "happy",
+      "old": "즐겁고 명랑한. Merry Christmas(즐거운 크리스마스)라는 인사로 특히 익숙하다."
+    },
+    {
+      "lesson": 22,
+      "exercise": 4,
+      "word": "participle",
+      "si": 1,
+      "field": "c",
+      "new": "현재분사는 -ing, 과거분사는 -ed나 gone 같은 꼴. 진행·완료·수동태를 만들거나 형용사처럼 쓴다.",
+      "reason": "기초 문법 정보는 보존하며 서두와 중복 명사 축약.",
+      "old": "동사의 형태 가운데 현재분사는 -ing, 과거분사는 -ed나 gone처럼 불규칙한 꼴이다. 분사는 진행형·완료형·수동태를 만들거나 형용사처럼 쓰인다."
+    },
+    {
+      "lesson": 22,
+      "exercise": 5,
+      "word": "senseless",
+      "si": 1,
+      "field": "c",
+      "new": "분별없거나 무의미한. 여기서는 pointless(무익한)도 가능.",
+      "reason": "동일 길이 pointless의 해당 문맥 대체 가능성을 간결히 설명.",
+      "alternative": "pointless",
+      "old": "sense(분별)+-less(없는)=분별없는."
+    },
+    {
+      "lesson": 22,
+      "exercise": 5,
+      "word": "sincere",
+      "si": 1,
+      "field": "c",
+      "new": "거짓 없이 진심에서 나온. 여기서는 genuine도 가능.",
+      "reason": "동일 길이의 핵심 동의어를 해당 문맥에 한정해 알림.",
+      "alternative": "genuine",
+      "old": ""
+    },
+    {
+      "lesson": 22,
+      "exercise": 7,
+      "word": "tidy",
+      "si": 1,
+      "field": "c",
+      "new": "물건이 제자리에 있어 깔끔한. 여기서는 neat도 가능.",
+      "reason": "neat 카드와 상호 참조로 거의 완전 호환되는 정돈 의미를 학습.",
+      "alternative": "neat",
+      "old": "물건이 제자리에 있어 깔끔한. 반대말은 untidy."
+    },
+    {
+      "lesson": 23,
+      "exercise": 1,
+      "word": "guy",
+      "si": 1,
+      "field": "c",
+      "new": "구어체로 남자·녀석. 여기서는 man도 가능.",
+      "reason": "사전 뜻·예문 반복을 줄이고 같은 세 글자 대안 명시.",
+      "alternative": "man",
+      "old": "격식을 차리지 않는 말로 남자 한 명을 가리킨다. that guy는 저 남자·저 녀석."
+    },
+    {
+      "lesson": 23,
+      "exercise": 2,
+      "word": "role",
+      "si": 1,
+      "field": "c",
+      "new": "play a role in: ~에서 역할을 하다. 여기서는 part도 가능.",
+      "reason": "동일 길이 part가 같은 결합에서 완전히 호환됨을 설명.",
+      "alternative": "part",
+      "old": "play a role in은 ~에서 역할을 하다. 연극의 배역도 role."
+    },
+    {
+      "lesson": 23,
+      "exercise": 3,
+      "word": "author",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 writer도 가능. author는 특정 작품의 저자, writer는 글 쓰는 사람 전반.",
+      "reason": "가까운 동의어를 배제하지 않으면서 용법 범위 차이를 간결하게 설명.",
+      "alternative": "writer",
+      "old": "책·글을 쓴 사람. the author of a book은 책의 저자. writer는 글을 쓰는 사람을 더 넓게 가리킨다."
+    },
+    {
+      "lesson": 23,
+      "exercise": 4,
+      "word": "goal",
+      "si": 2,
+      "field": "ex",
+      "new": "He scored the winning {{BLANK}} in the last minute.",
+      "reason": "축구 득점을 나타내는 보편적인 결합 score a goal로 수정.",
+      "old": "He kicked the winning {{BLANK}} in the last minute."
+    },
+    {
+      "lesson": 23,
+      "exercise": 4,
+      "word": "despite",
+      "si": 1,
+      "field": "c",
+      "new": "despite+명사·-ing: ~에도 불구하고. in spite of와 달리 of를 붙이지 않는다.",
+      "reason": "긴 절 우회구조 설명을 덜고 혼동하기 쉬운 두 표현의 차이 보존.",
+      "old": "despite + 명사·동명사는 ~에도 불구하고. 절을 연결하려면 despite the fact that ~를 쓴다. despite of는 표준 표현이 아니다."
+    },
+    {
+      "lesson": 23,
+      "exercise": 4,
+      "word": "huge",
+      "si": 1,
+      "field": "ex",
+      "new": "A {{BLANK}} whale surfaced beside our small boat.",
+      "reason": "거대한 줄이라는 덜 구체적인 예문을 큰 고래와 작은 배의 대비로 바꿔 크기 의미를 직관화.",
+      "old": "There was a {{BLANK}} line in front of the store."
+    },
+    {
+      "lesson": 23,
+      "exercise": 4,
+      "word": "huge",
+      "si": 1,
+      "field": "tr",
+      "new": "거대한 고래가 우리 작은 배 옆으로 떠올랐어.",
+      "reason": "수정 예문에 맞춤.",
+      "old": "가게 앞에 거대한 줄이 있었어."
+    },
+    {
+      "lesson": 23,
+      "exercise": 5,
+      "word": "clearly",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 plainly도 가능. 둘 다 화난 모습이 분명히 드러났다는 뜻.",
+      "reason": "같은 일곱 글자 대안의 실제 호환 맥락 명시.",
+      "alternative": "plainly",
+      "old": "clear(분명한)+ly. 말·글이 '또렷하게'라는 뜻으로도 쓴다."
+    },
+    {
+      "lesson": 23,
+      "exercise": 5,
+      "word": "particularly",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 especially와 바꿔 쓸 수 있다.",
+      "reason": "모든 용례에서 교환 가능하다는 인상을 줄이고 중복 어형 설명 축약.",
+      "old": "particular(특정한)+ly. especially와 바꿔 쓸 수 있다."
+    },
+    {
+      "lesson": 23,
+      "exercise": 5,
+      "word": "anyway",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 ‘그래도’. anyhow도 같은 뜻으로 쓸 수 있다.",
+      "reason": "해당 문맥의 정확한 동의어를 알리고 불필요한 구어 변형 주의 문구 삭제.",
+      "alternative": "anyhow",
+      "old": "문장 끝에서 '그래도'. anyways는 구어 변형이라 글에선 피한다."
+    },
+    {
+      "lesson": 23,
+      "exercise": 9,
+      "word": "researcher",
+      "si": 1,
+      "field": "c",
+      "new": "연구·조사를 하는 사람. 직업 연구자만 뜻하지는 않는다.",
+      "reason": "세 단어 정의를 나열한 긴 서술을 해당 표제어 중심으로 압축.",
+      "old": "research는 연구·조사, researcher는 이를 수행하는 연구자. 반드시 직업으로 하는 사람만 뜻하지는 않는다."
+    },
+    {
+      "lesson": 24,
+      "exercise": 3,
+      "word": "lots",
+      "si": 1,
+      "field": "c",
+      "new": "lots of는 a lot of와 같다. 여기서는 tons of도 ‘엄청 많은’이라는 구어체 표현.",
+      "reason": "같은 네 글자 tons가 들어갈 수 있는 실제 문맥을 한정해 설명.",
+      "alternative": "tons",
+      "old": "lot의 복수꼴. lots of+명사는 a lot of와 같은 구어체다."
+    },
+    {
+      "lesson": 24,
+      "exercise": 3,
+      "word": "fully",
+      "si": 1,
+      "field": "c",
+      "new": "full+-ly → fully: l은 두 개. fully charged는 완전히 충전된.",
+      "reason": "현재 의미와 철자 포인트를 남기고 별도 결합의 부연 삭제.",
+      "old": "full의 부사형은 fully로 l이 두 개다. fully charged는 완전히 충전된, fully aware는 충분히 알고 있는."
+    },
+    {
+      "lesson": 24,
+      "exercise": 4,
+      "word": "reaction",
+      "si": 1,
+      "field": "c",
+      "new": "reaction to ~: ~에 대한 반응. 동사는 react to ~.",
+      "reason": "명사·동사 문형 설명의 반복을 압축.",
+      "old": "reaction to는 ~에 대한 반응. 동사는 react, react to도 ~에 반응하다라는 뜻이다."
+    },
+    {
+      "lesson": 24,
+      "exercise": 8,
+      "word": "crew",
+      "si": 1,
+      "field": "c",
+      "new": "배·비행기의 승무원이나 작업팀. 여기서는 team도 가능.",
+      "reason": "동일 길이 team가 작업조 문맥에서 호환됨을 안내.",
+      "alternative": "team",
+      "old": "배·비행기의 승무원이나 함께 작업하는 사람들. a film crew는 영화 촬영팀."
+    },
+    {
+      "lesson": 24,
+      "exercise": 10,
+      "word": "percentage",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 proportion도 가능. 숫자 뒤에는 percent: 20 percent.",
+      "reason": "동일 길이 proportion의 호환과 percent/percentage의 핵심 문법 구별만 유지.",
+      "alternative": "proportion",
+      "old": "숫자 뒤에는 percent(20 percent), 비율 자체를 가리키는 명사는 percentage. a large percentage는 높은 비율."
+    },
+    {
+      "lesson": 24,
+      "exercise": 10,
+      "word": "percentage",
+      "si": 1,
+      "field": "tr",
+      "new": "우리 반 학생 중 많은 비율이 축구를 해.",
+      "reason": "퍼센트가 높다는 다소 어색한 번역을 자연스럽게 수정.",
+      "old": "우리 반은 축구 하는 애들 퍼센트가 높아."
+    },
+    {
+      "lesson": 24,
+      "exercise": 10,
+      "word": "plus",
+      "si": 1,
+      "field": "c",
+      "new": "더하기를 나타낸다. 빼기는 minus.",
+      "reason": "예문 전체를 다시 번역한 불필요한 중복 삭제.",
+      "old": "더하기를 나타내는 전치사. Two plus three is five는 2 더하기 3은 5라는 뜻. 빼기는 minus."
+    },
+    {
+      "lesson": 24,
+      "exercise": 10,
+      "word": "indian",
+      "si": 1,
+      "field": "c",
+      "new": "인도의·인도인의. 문맥에 따라 아메리카 원주민을 가리키기도 한다.",
+      "reason": "추가 명명 조언을 덜어 실제 독해에 필요한 의미만 보존.",
+      "old": "인도와 관련된 형용사. 아메리카 원주민을 가리키기도 한다. 특정 부족을 말할 때는 그 부족의 이름을 쓴다."
+    },
+    {
+      "lesson": 25,
+      "exercise": 2,
+      "word": "scream",
+      "si": 1,
+      "field": "c",
+      "new": "높고 날카롭게 소리 지르다. 여기서는 shriek도 가능.",
+      "reason": "동일 길이 shriek의 실제 호환을 제시.",
+      "alternative": "shriek",
+      "old": "scream at ~에게 소리 지르다. shout보다 훨씬 날카로운 소리다."
+    },
+    {
+      "lesson": 25,
+      "exercise": 2,
+      "word": "scream",
+      "si": 2,
+      "field": "c",
+      "new": "높고 날카로운 비명. 여기서는 shriek도 가능.",
+      "reason": "동사뿐 아니라 명사에서도 동일 길이 대체어가 성립하는 점 명시.",
+      "alternative": "shriek",
+      "old": "높고 날카롭게 지르는 소리. a scream으로 센다."
+    },
+    {
+      "lesson": 25,
+      "exercise": 2,
+      "word": "super",
+      "si": 2,
+      "field": "c",
+      "new": "구어체로 아주 훌륭한. 여기서는 great도 가능.",
+      "reason": "동일 길이 동의어 great와 실제 맥락상 대응을 알림.",
+      "alternative": "great",
+      "old": "형용사로도 쓴다. 접두사 super-(초-)와 뿌리가 같다."
+    },
+    {
+      "lesson": 25,
+      "exercise": 3,
+      "word": "convince",
+      "si": 1,
+      "field": "c",
+      "new": "convince A to do: A를 설득해 ~하게 하다. 여기서는 persuade도 가능.",
+      "reason": "같은 여덟 글자의 핵심 동의어와 정확히 겹치는 용법 제시.",
+      "alternative": "persuade",
+      "old": "convince A to do 또는 convince A that ~ 꼴로 쓴다."
+    },
+    {
+      "lesson": 25,
+      "exercise": 3,
+      "word": "meanwhile",
+      "si": 1,
+      "field": "c",
+      "new": "동시에 진행되는 일을 연결한다. in the meantime도 ‘그동안에’.",
+      "reason": "뜻을 거듭 풀이하는 긴 설명 축약.",
+      "old": "그동안에·한편이라는 뜻으로 동시에 진행되는 일을 연결한다. in the meantime도 그동안에라는 뜻."
+    },
+    {
+      "lesson": 25,
+      "exercise": 5,
+      "word": "emotion",
+      "si": 1,
+      "field": "c",
+      "new": "hide emotions/feelings: 감정을 숨기다. feeling은 신체 감각도 포함한다.",
+      "reason": "단순 격식 차이 설명을 더 유용한 의미 범위 차이로 교체. 빈칸 뒤 s가 붙으므로 완성된 복수 결합으로 대체어를 안내한다.",
+      "alternative": "feeling",
+      "old": "형용사는 emotional(감정적인). feeling보다 격식 있는 말이다."
+    },
+    {
+      "lesson": 25,
+      "exercise": 6,
+      "word": "display",
+      "si": 1,
+      "field": "c",
+      "new": "작품 등을 볼 수 있게 내놓다. 여기서는 exhibit도 가능.",
+      "reason": "같은 일곱 글자 exhibit가 자연스럽게 호환되는 미술 전시 문맥 제시.",
+      "alternative": "exhibit",
+      "old": "물건·작품 등을 사람들이 볼 수 있게 내놓다."
+    },
+    {
+      "lesson": 25,
+      "exercise": 6,
+      "word": "enforcement",
+      "si": 1,
+      "field": "c",
+      "new": "enforce(시행하다)의 명사. law enforcement는 법 집행 또는 이를 맡는 경찰 등의 기관·업무.",
+      "reason": "집행이라는 정의와 파생 설명의 반복 축약.",
+      "old": "enforce는 법·규칙을 시행하다, enforcement는 집행. law enforcement는 법 집행, 또는 이를 맡는 경찰 등의 기관·업무를 가리킨다."
+    },
+    {
+      "lesson": 25,
+      "exercise": 8,
+      "word": "column",
+      "si": 2,
+      "field": "c",
+      "new": "건물을 받치는 기둥. 여기서는 pillar도 가능.",
+      "reason": "동일 여섯 글자 pillar의 정확히 겹치는 건축 용례 알림.",
+      "alternative": "pillar",
+      "old": ""
+    },
+    {
+      "lesson": 25,
+      "exercise": 9,
+      "word": "scared",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 afraid도 가능. be scared of: ~을 무서워하다.",
+      "reason": "동일 길이 afraid의 완전 호환 문맥을 짧게 안내.",
+      "alternative": "afraid",
+      "old": "scare(겁주다)+-ed. be scared of ~을 무서워하다."
+    },
+    {
+      "lesson": 25,
+      "exercise": 9,
+      "word": "buck",
+      "si": 2,
+      "field": "c",
+      "new": "수사슴은 stag라고도 한다. buck은 토끼 등 다른 동물의 수컷에도 쓴다.",
+      "reason": "동일 길이 stag와 사슴 맥락의 호환 및 단어 범위 차이 제시.",
+      "alternative": "stag",
+      "old": "암사슴은 doe. 수컷 짐승을 두루 가리키기도 한다."
+    },
+    {
+      "lesson": 26,
+      "exercise": 1,
+      "word": "liberty",
+      "si": 1,
+      "field": "c",
+      "new": "freedom과 비슷한 뜻의 격식어. 자유의 여신상 이름은 the Statue of Liberty.",
+      "reason": "고유명 예문에서 freedom으로 바꿀 수 있다는 오해를 막고 어휘 관계 명확화.",
+      "old": "freedom과 뜻이 같지만 더 딱딱한 말. at liberty to = ~해도 좋은."
+    },
+    {
+      "lesson": 26,
+      "exercise": 2,
+      "word": "academy",
+      "si": 1,
+      "field": "ex",
+      "new": "He trained as an officer at a military {{BLANK}}.",
+      "reason": "지역 맥락 없는 math academy 대신 널리 쓰이는 military academy로 핵심 전문 교육기관 의미를 보여 줌.",
+      "old": "I go to a math {{BLANK}} after school."
+    },
+    {
+      "lesson": 26,
+      "exercise": 2,
+      "word": "academy",
+      "si": 1,
+      "field": "tr",
+      "new": "그는 사관학교에서 장교 훈련을 받았어.",
+      "reason": "수정 예문에 맞춤.",
+      "old": "나는 방과 후에 수학 학원에 다녀."
+    },
+    {
+      "lesson": 26,
+      "exercise": 2,
+      "word": "academy",
+      "si": 1,
+      "field": "c",
+      "new": "military academy는 사관학교. 한국의 보습학원과 뜻이 꼭 일치하지는 않는다.",
+      "reason": "새 예문의 결합과 지역 의미 차이를 직접 연결.",
+      "old": "미국에선 사립·특수 학교를 뜻한다. 한국 '학원'과 딱 맞지는 않는다."
+    },
+    {
+      "lesson": 26,
+      "exercise": 3,
+      "word": "awesome",
+      "si": 1,
+      "field": "c",
+      "new": "구어체로 아주 멋진, 굉장한. 여기서는 amazing도 가능.",
+      "reason": "같은 일곱 글자 amazing의 호환 문맥 안내.",
+      "alternative": "amazing",
+      "old": "격식을 차리지 않는 칭찬: 아주 멋진, 굉장한."
+    },
+    {
+      "lesson": 26,
+      "exercise": 4,
+      "word": "rarely",
+      "si": 1,
+      "field": "c",
+      "new": "드물게, 좀처럼 ~않다. 여기서는 seldom도 가능.",
+      "reason": "단순 예문 재번역 대신 동일 길이의 정확한 동의어 연결.",
+      "alternative": "seldom",
+      "old": "드물게·좀처럼 ~않다. rarely eats breakfast는 아침을 먹는 일이 드물다는 뜻."
+    },
+    {
+      "lesson": 26,
+      "exercise": 4,
+      "word": "clip",
+      "si": 4,
+      "field": "c",
+      "new": "여기서는 trim도 가능. clip은 잘라 내다, trim은 깔끔하게 다듬다.",
+      "reason": "동일 길이 trim과 손톱을 자르는 맥락에서의 호환·초점 차이 명시.",
+      "alternative": "trim",
+      "old": "가위 등으로 짧게 자르거나 일부를 잘라 내다."
+    },
+    {
+      "lesson": 26,
+      "exercise": 7,
+      "word": "salary",
+      "si": 1,
+      "field": "c",
+      "new": "정기적으로 받는 고정 급여. 보통 연간 액수로 말한다.",
+      "reason": "임금 지급 주기의 긴 부연을 덜어 핵심 의미만 유지.",
+      "old": "정기적으로 받는 고정 급여. 보통 연봉으로 정하고 월별 등 일정 주기로 지급한다."
+    },
+    {
+      "lesson": 26,
+      "exercise": 7,
+      "word": "moreover",
+      "si": 1,
+      "field": "c",
+      "new": "앞말을 뒷받침할 내용을 덧붙이는 격식 있는 연결 부사.",
+      "reason": "이미 뜻란에 있는 한국어 정의 반복 삭제.",
+      "old": "앞말을 뒷받침할 내용을 덧붙이는 격식 있는 연결 부사. 게다가·더욱이라는 뜻이다."
+    },
+    {
+      "lesson": 26,
+      "exercise": 8,
+      "word": "minor",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 small도 가능. minor는 중요도·심각성이 낮다는 뜻.",
+      "reason": "동일 다섯 글자 small와 맥락상 호환 및 의미 초점 구별.",
+      "alternative": "small",
+      "old": "major(주요한)의 반대. 보통 명사 앞에 놓아 쓴다."
+    },
+    {
+      "lesson": 27,
+      "exercise": 1,
+      "word": "apologize",
+      "si": 1,
+      "field": "c",
+      "new": "apologize to+사람, for+잘못. 영국에서는 apologise도 쓴다.",
+      "reason": "문형을 거듭 풀어 쓴 한국어 문구 축약.",
+      "old": "apologize to + 사람은 누구에게 사과하다, apologize for + 잘못은 무엇에 대해 사과하다. 영국에서는 apologise 철자도 쓴다."
+    },
+    {
+      "lesson": 27,
+      "exercise": 2,
+      "word": "pace",
+      "si": 2,
+      "field": "c",
+      "new": "한 걸음의 거리. 여기서는 step도 가능.",
+      "reason": "같은 네 글자 step의 정확히 겹치는 걸음 수 용례 알림.",
+      "alternative": "step",
+      "old": "한 발짝 거리를 뜻한다. 걸음 수를 셀 때 쓴다."
+    },
+    {
+      "lesson": 27,
+      "exercise": 2,
+      "word": "horrible",
+      "si": 1,
+      "field": "c",
+      "new": "맛이 몹시 나쁘다는 뜻. 여기서는 terrible도 가능.",
+      "reason": "동일 여덟 글자 동의어와 예문의 평가 의미 연결.",
+      "alternative": "terrible",
+      "old": "horror(공포)와 같은 뿌리."
+    },
+    {
+      "lesson": 27,
+      "exercise": 4,
+      "word": "curious",
+      "si": 2,
+      "field": "c",
+      "new": "여기서는 strange도 가능. 낯설거나 특이해서 묘하다는 뜻.",
+      "reason": "호기심의 curious와 달리 같은 일곱 글자 strange로 바뀌는 뜻 명시.",
+      "alternative": "strange",
+      "old": "낯설거나 특이해서 이상한. a curious smell: 묘한 냄새."
+    },
+    {
+      "lesson": 27,
+      "exercise": 5,
+      "word": "depending",
+      "si": 1,
+      "field": "c",
+      "new": "depending on+명사: ~에 따라. depending on whether ~: ~인지에 따라.",
+      "reason": "같은 뜻을 세 번 반복한 설명을 문형 두 개로 압축.",
+      "old": "depending on은 ~에 따라. depending on the weather는 날씨에 따라, depending on whether ~는 ~인지에 따라."
+    },
+    {
+      "lesson": 27,
+      "exercise": 5,
+      "word": "awful",
+      "si": 1,
+      "field": "c",
+      "new": "날씨가 몹시 나쁘다는 뜻. 여기서는 nasty도 가능.",
+      "reason": "nasty와의 동일 길이·맥락상 호환을 실제 예문 범위로 설명.",
+      "alternative": "nasty",
+      "old": "awe(경외)+ful이었으나 지금은 '끔찍한'. an awful lot(엄청)."
+    },
+    {
+      "lesson": 27,
+      "exercise": 7,
+      "word": "chef",
+      "si": 1,
+      "field": "c",
+      "new": "ch는 /ʃ/. 여기서는 cook도 가능하지만 chef는 전문 요리사를 가리킨다.",
+      "reason": "발음 안내를 간결화하고 동일 길이 cook과 전문성 범위 차이 연결.",
+      "alternative": "cook",
+      "old": "[셰프]로 읽는다. ch를 [ㅊ]로 읽지 않도록 주의."
+    },
+    {
+      "lesson": 27,
+      "exercise": 8,
+      "word": "absolute",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 complete도 가능. 완전한 고요를 강조한다.",
+      "reason": "동일 길이 complete의 호환을 문맥에 한정해 안내.",
+      "alternative": "complete",
+      "old": "'완전한'을 강조하는 말. 부사는 absolutely(전적으로)."
+    },
+    {
+      "lesson": 27,
+      "exercise": 8,
+      "word": "worried",
+      "si": 1,
+      "field": "c",
+      "new": "be worried about: ~을 걱정하는. 여기서는 anxious도 가능하며, 걱정·초조를 강조한다.",
+      "reason": "anxious 카드와 상호 연결하며 짧은 뉘앙스 차이 제공.",
+      "alternative": "anxious",
+      "old": "worry는 걱정하게 하다, worried는 걱정하는. be worried about은 ~을 걱정하다."
+    },
+    {
+      "lesson": 27,
+      "exercise": 9,
+      "word": "rapidly",
+      "si": 1,
+      "field": "c",
+      "new": "빠른 변화의 속도를 강조한다. 여기서는 quickly도 자연스럽다.",
+      "reason": "사용자가 지적한 quickly/rapidly의 실제 호환을 이 성장 예문에서도 명확히 함.",
+      "alternative": "quickly",
+      "old": "rapid의 부사형. grow rapidly: 빠르게 성장하다. 변화의 속도를 나타낼 때 자주 쓴다."
+    },
+    {
+      "lesson": 27,
+      "exercise": 9,
+      "word": "clue",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 hint도 가능. clue는 답을 찾는 단서, hint는 간접적인 암시·조언.",
+      "reason": "동일 네 글자의 대안과 두 단어의 중심 의미를 짧게 구별.",
+      "alternative": "hint",
+      "old": "a clue to/about. I have no clue는 '전혀 모르겠어'."
+    },
+    {
+      "lesson": 27,
+      "exercise": 10,
+      "word": "efficient",
+      "si": 1,
+      "field": "ex",
+      "new": "An {{BLANK}} heater uses less electricity to warm the same room.",
+      "reason": "효율의 의미가 약한 버스 예문을 같은 효과·적은 에너지의 대비로 개선.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/efficient"
+      ],
+      "old": "This bus is the most {{BLANK}} way home."
+    },
+    {
+      "lesson": 27,
+      "exercise": 10,
+      "word": "efficient",
+      "si": 1,
+      "field": "tr",
+      "new": "효율적인 난방기는 같은 방을 데우는 데 전기를 덜 써.",
+      "reason": "수정 예문에 맞춤.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/efficient"
+      ],
+      "old": "이 버스가 집에 가는 가장 효율적인 방법이야."
+    },
+    {
+      "lesson": 27,
+      "exercise": 10,
+      "word": "efficient",
+      "si": 1,
+      "field": "c",
+      "new": "efficient는 시간·에너지 낭비가 적은, effective는 원하는 효과를 내는.",
+      "reason": "막연히 구별하라는 지시 대신 두 단어의 차이를 직접 설명.",
+      "alternative": "effective",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/efficient"
+      ],
+      "old": "적은 힘으로 큰 결과를 내는 것. effective(효과적인)와 구별."
+    },
+    {
+      "lesson": 27,
+      "exercise": 10,
+      "word": "scare",
+      "si": 1,
+      "field": "c",
+      "new": "scare+사람: 겁주다. be scared of ~: ~을 무서워하다.",
+      "reason": "짧은 문형으로 충분한 내용을 장황하게 풀어 쓴 부분 축약.",
+      "old": "scare + 사람은 그 사람을 겁주다. 겁을 느끼는 쪽은 be scared of로 ~을 무서워하다고 표현한다."
+    },
+    {
+      "lesson": 28,
+      "exercise": 1,
+      "word": "extension",
+      "si": 1,
+      "field": "c",
+      "new": "get an extension on ~: ~의 기한을 연장받다.",
+      "reason": "예문과 같은 뜻을 반복한 파생어·긴 문형 설명 축약.",
+      "old": "extend는 늘리다, extension은 연장. get an extension on a deadline은 마감 기한을 연장받다."
+    },
+    {
+      "lesson": 28,
+      "exercise": 2,
+      "word": "scary",
+      "si": 1,
+      "field": "c",
+      "new": "겁을 주는 쪽은 scary, 겁을 느끼는 쪽은 scared.",
+      "reason": "이미 충분한 대비 뒤에 반복되는 인물 예시 삭제.",
+      "old": "겁을 주는 쪽은 scary, 겁을 느끼는 쪽은 scared. a scary person은 무서운 사람, a scared person은 겁먹은 사람."
+    },
+    {
+      "lesson": 28,
+      "exercise": 3,
+      "word": "horror",
+      "si": 1,
+      "field": "ex",
+      "new": "She stared in {{BLANK}} at the wreckage of her home.",
+      "reason": "단순히 유리잔이 떨어지는 상황 대신 집의 잔해를 보는 경악으로 감정의 강도를 분명히 함.",
+      "old": "I watched in {{BLANK}} as the glass fell."
+    },
+    {
+      "lesson": 28,
+      "exercise": 3,
+      "word": "horror",
+      "si": 1,
+      "field": "tr",
+      "new": "그녀는 자기 집의 잔해를 경악하며 바라봤어.",
+      "reason": "수정 예문에 맞춤.",
+      "old": "나는 유리가 떨어지는 걸 경악하며 지켜봤어."
+    },
+    {
+      "lesson": 28,
+      "exercise": 3,
+      "word": "horror",
+      "si": 1,
+      "field": "c",
+      "new": "공포에 경악·혐오가 섞인 감정. terror는 극심한 두려움에 초점.",
+      "reason": "terror 카드와 상호 연결하며 두 감정의 중심 차이를 간결히 설명.",
+      "alternative": "terror",
+      "old": "공포뿐 아니라 경악·혐오가 섞인 강한 감정에도 쓴다. in horror는 공포나 경악에 질려."
+    },
+    {
+      "lesson": 28,
+      "exercise": 4,
+      "word": "desperate",
+      "si": 2,
+      "field": "c",
+      "new": "be desperate for+명사, to+동사: 몹시 ~을 원하다.",
+      "reason": "두 문형의 같은 번역을 한 번으로 압축.",
+      "old": "be desperate for + 명사는 ~을 간절히 원하다, be desperate to + 동사는 몹시 ~하고 싶다."
+    },
+    {
+      "lesson": 28,
+      "exercise": 8,
+      "word": "tremendous",
+      "si": 1,
+      "field": "ex",
+      "new": "She put {{BLANK}} effort into every practice.",
+      "reason": "노력을 들이다의 자연스러운 결합 put effort into로 학습효과 개선.",
+      "old": "She showed {{BLANK}} effort in every practice."
+    },
+    {
+      "lesson": 28,
+      "exercise": 8,
+      "word": "tremendous",
+      "si": 1,
+      "field": "tr",
+      "new": "걔는 연습 때마다 엄청난 노력을 쏟았어.",
+      "reason": "수정 예문에 맞춤.",
+      "old": "걔는 연습 때마다 엄청난 노력을 보여 줬어."
+    },
+    {
+      "lesson": 28,
+      "exercise": 9,
+      "word": "boom",
+      "si": 2,
+      "field": "c",
+      "new": "여기서는 bang도 가능. boom은 낮고 깊게 울리는 소리를 강조한다.",
+      "reason": "동일 길이 의성어 bang와 해당 소리 맥락의 호환·차이 안내.",
+      "alternative": "bang",
+      "old": "깊게 울리는 큰 소리. 소리를 흉내 낸 말이다."
+    },
+    {
+      "lesson": 28,
+      "exercise": 10,
+      "word": "carrier",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 airline도 가능. carrier는 항공사 외의 운송 회사도 포함한다.",
+      "reason": "동일 일곱 글자 airline와 일치하는 공항 맥락을 한정해 알림.",
+      "alternative": "airline",
+      "old": "사람·짐을 실어 나르는 회사."
+    },
+    {
+      "lesson": 29,
+      "exercise": 1,
+      "word": "genius",
+      "si": 2,
+      "field": "c",
+      "new": "천부적인 뛰어난 재능. have a genius for languages: 언어에 천재적 재능이 있다.",
+      "reason": "같은 의미의 반복과 불필요한 별도 예시를 줄임.",
+      "old": "뛰어난 창조적 능력. artistic genius는 예술적 천재성. have a genius for languages처럼 쓰면 언어에 천부적인 재능이 있다는 뜻."
+    },
+    {
+      "lesson": 29,
+      "exercise": 2,
+      "word": "integrity",
+      "si": 2,
+      "field": "ex",
+      "new": "The fire damaged the bridge's structural {{BLANK}}.",
+      "reason": "일반적인 건물의 온전함 대신 실제 독해에서 중요한 structural integrity 결합 제시.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/example/english/structural-integrity"
+      ],
+      "old": "The fire damaged the {{BLANK}} of the old building."
+    },
+    {
+      "lesson": 29,
+      "exercise": 2,
+      "word": "integrity",
+      "si": 2,
+      "field": "tr",
+      "new": "화재가 다리 구조의 온전성을 훼손했어.",
+      "reason": "수정 예문에 맞춤.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/example/english/structural-integrity"
+      ],
+      "old": "그 불이 오래된 건물의 온전함을 망가뜨렸어."
+    },
+    {
+      "lesson": 29,
+      "exercise": 2,
+      "word": "integrity",
+      "si": 2,
+      "field": "c",
+      "new": "structural integrity: 구조가 무너지지 않고 버틸 수 있는 온전성.",
+      "reason": "새 예문의 실제 의미를 간결하게 풀이.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/example/english/structural-integrity"
+      ],
+      "old": "integer(정수)와 뿌리가 같다. '깨지지 않은 상태'가 본뜻."
+    },
+    {
+      "lesson": 29,
+      "exercise": 3,
+      "word": "summary",
+      "si": 1,
+      "field": "c",
+      "new": "summary는 내용을 줄인 요약. outline은 큰 줄거리나 구성의 뼈대.",
+      "reason": "동일 길이 outline과 과제 맥락에서 겹치지만 다른 초점 명시.",
+      "alternative": "outline",
+      "old": "in summary는 '요약하면'. 동사는 summarize(요약하다)."
+    },
+    {
+      "lesson": 29,
+      "exercise": 4,
+      "word": "assert",
+      "si": 1,
+      "field": "c",
+      "new": "assert는 자신 있게 단언하다. insist는 반대에도 굽히지 않고 주장하다.",
+      "reason": "동일 길이 insist와 주장 강도의 차이를 구체적으로 설명.",
+      "alternative": "insist",
+      "old": "assert that+절: ~라고 단언하다. 격식 있는 표현."
+    },
+    {
+      "lesson": 29,
+      "exercise": 4,
+      "word": "globe",
+      "si": 1,
+      "field": "c",
+      "new": "across the globe: 전 세계에. 여기서는 world도 가능.",
+      "reason": "동일 길이 world의 완전 호환 문맥을 안내.",
+      "alternative": "world",
+      "old": "the globe로 관사와 함께 쓴다. 형용사는 global."
+    },
+    {
+      "lesson": 29,
+      "exercise": 5,
+      "word": "workshop",
+      "si": 2,
+      "field": "c",
+      "new": "물건을 만들거나 고치는 작업 공간.",
+      "reason": "첫 카드에서 이미 배우는 워크숍 의미의 반복 삭제.",
+      "old": "물건을 만들거나 고치는 작업 공간. 배우고 실습하는 워크숍이라는 뜻으로도 쓰인다."
+    },
+    {
+      "lesson": 29,
+      "exercise": 9,
+      "word": "resign",
+      "si": 1,
+      "field": "c",
+      "new": "resign은 직책에서 물러나다, retire는 직업 생활을 마치다. resign의 g는 묵음.",
+      "reason": "동일 길이 retire와 두 사건의 범위를 간결하게 구별.",
+      "alternative": "retire",
+      "old": "resign from ~에서 사임하다. 가운데 g는 소리 내지 않는다."
+    },
+    {
+      "lesson": 29,
+      "exercise": 9,
+      "word": "mate",
+      "si": 1,
+      "field": "c",
+      "new": "영국·호주에서 친구를 부르는 구어체. 여기서는 미국식 dude도 가능.",
+      "reason": "동일 길이 dude의 호칭 기능과 지역 차이 연결.",
+      "alternative": "dude",
+      "old": "영국·호주 등에서 친구나 상대를 친근하게 부르는 구어체 표현."
+    },
+    {
+      "lesson": 29,
+      "exercise": 10,
+      "word": "skip",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 miss도 가능. skip은 일부러 거르는 데 초점, miss는 못 먹은 경우도 포함.",
+      "reason": "동일 길이 miss의 호환과 의도성의 차이 설명.",
+      "alternative": "miss",
+      "old": "skip class는 '수업을 빼먹다'. 과거형은 skipped."
+    },
+    {
+      "lesson": 29,
+      "exercise": 10,
+      "word": "skip",
+      "si": 2,
+      "field": "c",
+      "new": "가볍게 번갈아 뛰며 나아가다. 영국에서는 jump rope(줄넘기하다)의 뜻도 있다.",
+      "reason": "영국식 줄넘기 설명과 번역의 반복 압축.",
+      "old": "가볍게 번갈아 뛰며 나아가다. 영국에서는 ‘줄넘기하다’라는 뜻도 있다. 줄넘기하다는 jump rope로도 표현한다."
+    },
+    {
+      "lesson": 30,
+      "exercise": 1,
+      "word": "combat",
+      "si": 2,
+      "field": "c",
+      "new": "여기서는 battle도 가능. 동사는 명사처럼 앞 강세를 두는 발음도 흔하다.",
+      "reason": "같은 여섯 글자 battle의 실제 호환을 추가하되 중요한 강세 변이 보존.",
+      "alternative": "battle",
+      "old": "combat crime=범죄와 싸우다. 명사처럼 앞에 강세를 두는 동사 발음도 흔하다."
+    },
+    {
+      "lesson": 30,
+      "exercise": 3,
+      "word": "fascinating",
+      "si": 1,
+      "field": "c",
+      "new": "시선을 사로잡을 만큼 흥미로운. interesting보다 강한 표현.",
+      "reason": "동일 길이 interesting의 단순 흥미와 더 강한 매혹의 차이 제시.",
+      "alternative": "interesting",
+      "old": "관심을 강하게 끄는 쪽은 fascinating, 깊이 매료된 쪽은 fascinated."
+    },
+    {
+      "lesson": 30,
+      "exercise": 4,
+      "word": "plead",
+      "si": 1,
+      "field": "c",
+      "new": "plead with+사람+to do: ~에게 ~해 달라고 애원하다.",
+      "reason": "이미 보여 주는 애원 뜻을 또 다른 문형으로 반복하는 부연 축약.",
+      "old": "plead with someone to do는 누구에게 ~해 달라고 애원하다. plead for help는 도움을 간청하다."
+    },
+    {
+      "lesson": 30,
+      "exercise": 5,
+      "word": "tackle",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 handle도 가능. tackle은 어려운 문제에 적극적으로 달려드는 느낌.",
+      "reason": "동일 길이 handle과 문제 처리 문맥의 호환·초점 차이 알림.",
+      "alternative": "handle",
+      "old": "tackle a problem. 어려운 일에 맞붙는다는 뜻이다."
+    },
+    {
+      "lesson": 30,
+      "exercise": 5,
+      "word": "kit",
+      "si": 1,
+      "field": "c",
+      "new": "tool kit는 공구 세트. 여기서는 set도 가능. first-aid kit는 구급상자.",
+      "reason": "도구 한 벌을 뜻하는 동일 길이 set의 실제 호환을 명시.",
+      "alternative": "set",
+      "old": "한 벌의 도구. tool kit, first aid kit."
+    },
+    {
+      "lesson": 30,
+      "exercise": 7,
+      "word": "garbage",
+      "si": 1,
+      "field": "c",
+      "new": "버리는 쓰레기 전체. 영국에서는 rubbish가 흔하다.",
+      "reason": "예문 번역의 반복을 덜고 동일 길이 지역 동의어 설명 유지.",
+      "alternative": "rubbish",
+      "old": "버리는 쓰레기를 통틀어 가리키는 말. take out the garbage는 쓰레기를 내다 버리다. 특히 영국에서는 rubbish를 흔히 쓴다."
+    },
+    {
+      "lesson": 30,
+      "exercise": 8,
+      "word": "cope",
+      "si": 1,
+      "field": "c",
+      "new": "cope with: 어려운 상황을 감당하다. 여기서는 deal with도 가능.",
+      "reason": "동일 길이 deal과의 호환을 알리며 긴 부연 압축.",
+      "alternative": "deal",
+      "old": "어려운 일이나 상황을 감당하다. cope with a problem은 문제에 대처하다. I can cope처럼 목적어 없이도 쓴다."
+    },
+    {
+      "lesson": 30,
+      "exercise": 8,
+      "word": "slam",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 bang도 가능. 둘 다 소리가 나도록 문을 세게 닫다.",
+      "reason": "동일 길이 bang이 완전히 호환되는 문맥을 간결하게 제시.",
+      "alternative": "bang",
+      "old": "slam the door. 소리 나게 세게 닫는다는 뜻이다."
+    },
+    {
+      "lesson": 30,
+      "exercise": 10,
+      "word": "omit",
+      "si": 1,
+      "field": "ex",
+      "new": "Don't {{BLANK}} your name from the form.",
+      "reason": "생략·누락 대상을 나타내는 자연스러운 omit A from B 문형으로 교체.",
+      "old": "Don't {{BLANK}} your name at the top."
+    },
+    {
+      "lesson": 30,
+      "exercise": 10,
+      "word": "omit",
+      "si": 1,
+      "field": "tr",
+      "new": "양식에 네 이름을 빠뜨리지 마.",
+      "reason": "수정 예문에 맞춤.",
+      "old": "맨 위에 이름 생략하지 마."
+    },
+    {
+      "lesson": 30,
+      "exercise": 10,
+      "word": "bombing",
+      "si": 1,
+      "field": "c",
+      "new": "bomb(폭탄·폭격하다)에서 온 말. bomb·bombing의 두 번째 b는 묵음.",
+      "reason": "뜻 중복을 줄이면서 발음 포인트 유지.",
+      "old": "bomb는 폭탄 또는 폭격하다. bombing은 폭격·폭탄 공격. bomb와 bombing 모두 두 번째 b는 묵음이다."
+    },
+    {
+      "lesson": 30,
+      "exercise": 10,
+      "word": "provided",
+      "si": 1,
+      "field": "c",
+      "new": "the space provided처럼 명사 뒤에서 ‘제공된’이라는 뜻으로 꾸민다.",
+      "reason": "같은 내용의 구조 설명과 예문 번역을 한 문장으로 통합.",
+      "old": "명사 뒤에서 제공된이라는 뜻으로 꾸밀 수 있다. the space provided는 제공된 공간."
+    },
+    {
+      "lesson": 31,
+      "exercise": 1,
+      "word": "surgeon",
+      "si": 1,
+      "field": "c",
+      "new": "수술을 하는 의사. surgery는 수술.",
+      "reason": "미국 physician의 넓은 의미까지 번지는 부연 삭제.",
+      "old": "수술을 하는 의사. surgery=수술. 미국 영어의 physician은 의사를 넓게 가리킨다."
+    },
+    {
+      "lesson": 31,
+      "exercise": 1,
+      "word": "sergeant",
+      "si": 1,
+      "field": "c",
+      "new": "국가에 따라 병장·하사관 등으로 옮긴다. 경찰 계급도 뜻한다. 이름 앞에서는 대문자.",
+      "reason": "국가별 번역 차이라는 필요한 주의점을 보존하면서 길이 축약.",
+      "old": "군대·경찰의 계급 이름. 군 계급의 한국어 대응은 국가에 따라 달라 병장·하사관 등으로 번역한다. 이름 앞에서는 대문자로 쓴다."
+    },
+    {
+      "lesson": 31,
+      "exercise": 1,
+      "word": "accessible",
+      "si": 1,
+      "field": "c",
+      "new": "accessible to+사람: ~가 이용할 수 있는. by+수단: ~로 접근할 수 있는.",
+      "reason": "전치사의 역할을 짧은 문형으로 압축.",
+      "old": "accessible to는 ~가 이용하거나 접근할 수 있는. accessible by boat는 배로 접근할 수 있는."
+    },
+    {
+      "lesson": 31,
+      "exercise": 2,
+      "word": "hint",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 clue도 가능. hint는 넌지시 주는 암시, clue는 답을 찾는 단서.",
+      "reason": "clue 카드와 상호 연결하며 동일 길이의 문맥상 호환 및 초점 구별.",
+      "alternative": "clue",
+      "old": "give/drop a hint는 힌트를 주다·넌지시 비치다. a hint about the answer는 답에 관한 힌트."
+    },
+    {
+      "lesson": 31,
+      "exercise": 3,
+      "word": "eligible",
+      "si": 1,
+      "field": "ex",
+      "new": "Only club members are {{BLANK}} for this discount.",
+      "reason": "불분명한 수학여행 자격 대신 회원이라는 명확한 자격 조건을 예문에 제시.",
+      "old": "Are you {{BLANK}} for the school trip this year?"
+    },
+    {
+      "lesson": 31,
+      "exercise": 3,
+      "word": "eligible",
+      "si": 1,
+      "field": "tr",
+      "new": "이 할인을 받을 자격은 동아리 회원에게만 있어.",
+      "reason": "수정 예문에 맞춤.",
+      "old": "너 올해 수학여행 갈 자격 돼?"
+    },
+    {
+      "lesson": 31,
+      "exercise": 6,
+      "word": "grip",
+      "si": 2,
+      "field": "c",
+      "new": "여기서는 hold도 가능. Get a grip!은 ‘정신 차려!’.",
+      "reason": "동일 길이 hold가 명사 결합에서 호환됨을 안내.",
+      "alternative": "hold",
+      "old": "Get a grip!은 '정신 차려!'라는 구어 표현이다."
+    },
+    {
+      "lesson": 31,
+      "exercise": 10,
+      "word": "default",
+      "si": 1,
+      "field": "c",
+      "new": "by default: 따로 정하지 않으면 기본으로.",
+      "reason": "뒤 카드에서 따로 다루는 채무 불이행 뜻의 중복 안내 삭제.",
+      "old": "by default는 '따로 정하지 않으면'. 돈을 못 갚는 것도 뜻함."
+    },
+    {
+      "lesson": 32,
+      "exercise": 1,
+      "word": "retired",
+      "si": 1,
+      "field": "c",
+      "new": "a retired coach: 은퇴한 코치. be retired: 은퇴한 상태다.",
+      "reason": "동사·형용사 뜻과 명사구 번역을 중복 설명한 부분 축약.",
+      "old": "retire는 은퇴하다, retired는 은퇴한. a retired coach는 은퇴한 코치, be retired는 은퇴한 상태다."
+    },
+    {
+      "lesson": 32,
+      "exercise": 2,
+      "word": "lobby",
+      "si": 2,
+      "field": "c",
+      "new": "lobby A to do: A가 ~하도록 영향력을 행사하다.",
+      "reason": "예문에 나온 문형으로 충분한 내용을 길게 다시 풀어 쓴 부분 축약.",
+      "old": "결정권자에게 요구를 전달해 정책·결정을 바꾸려 활동하다. lobby someone to do는 누구에게 ~하도록 영향력을 행사하다."
+    },
+    {
+      "lesson": 32,
+      "exercise": 2,
+      "word": "sensor",
+      "si": 1,
+      "field": "ex",
+      "new": "A {{BLANK}} detects movement near the door.",
+      "reason": "문을 여는 물건이라는 모호한 정의 대신 움직임 감지라는 센서의 기능을 보여 줌.",
+      "old": "The door has a {{BLANK}} that opens it."
+    },
+    {
+      "lesson": 32,
+      "exercise": 2,
+      "word": "sensor",
+      "si": 1,
+      "field": "tr",
+      "new": "센서가 문 근처의 움직임을 감지해.",
+      "reason": "수정 예문에 맞춤.",
+      "old": "그 문에는 문을 열어 주는 센서가 있어."
+    },
+    {
+      "lesson": 32,
+      "exercise": 3,
+      "word": "rage",
+      "si": 1,
+      "field": "c",
+      "new": "아주 강한 분노. 여기서는 fury도 가능.",
+      "reason": "동일 길이 fury가 같은 강도의 감정과 문형을 나타냄을 안내.",
+      "alternative": "fury",
+      "old": "anger보다 훨씬 센 분노. in a rage(격분해서)."
+    },
+    {
+      "lesson": 32,
+      "exercise": 4,
+      "word": "drift",
+      "si": 1,
+      "field": "c",
+      "new": "drift는 물·바람에 밀려 움직이다. float는 물에 떠 있는 상태에도 쓴다.",
+      "reason": "동일 길이 float와 표류/부유의 초점 차이를 간결하게 설명.",
+      "alternative": "float",
+      "old": "물·바람에 밀려 저절로 가는 것. drift off는 '스르르 잠들다'."
+    },
+    {
+      "lesson": 32,
+      "exercise": 6,
+      "word": "leap",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 jump도 가능. leap은 크고 힘찬 도약을 강조. 과거형은 leaped/leapt.",
+      "reason": "동일 길이 jump의 호환과 도약 뉘앙스를 설명하며 변화형 보존.",
+      "alternative": "jump",
+      "old": "크게 뛰어오르거나 뛰어넘다. 과거형·과거분사는 leaped 또는 leapt."
+    },
+    {
+      "lesson": 32,
+      "exercise": 6,
+      "word": "leap",
+      "si": 2,
+      "field": "c",
+      "new": "여기서는 jump도 가능. a leap in ~: ~의 급증. leap year는 윤년.",
+      "reason": "명사 도약 문맥에서도 동일 길이 jump가 호환됨을 짧게 제시.",
+      "alternative": "jump",
+      "old": "a leap in ~(~의 급증). 윤년은 a leap year."
+    },
+    {
+      "lesson": 32,
+      "exercise": 7,
+      "word": "terrific",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 splendid도 가능. a terrific noise에서는 ‘엄청난’이라는 뜻.",
+      "reason": "같은 여덟 글자 splendid의 칭찬 문맥 호환과 다의성 보존.",
+      "alternative": "splendid",
+      "old": "일상에서는 아주 좋다는 칭찬. a terrific noise처럼 엄청난이라는 뜻도 있다."
+    },
+    {
+      "lesson": 32,
+      "exercise": 9,
+      "word": "graph",
+      "si": 1,
+      "field": "c",
+      "new": "여기서는 chart도 가능. graph는 수치 관계를 선·막대 등으로 나타낸 그림.",
+      "reason": "동일 길이 chart가 넓은 범위로 호환되는 문맥을 알림.",
+      "alternative": "chart",
+      "old": "a graph shows ~(그래프가 ~을 보여 준다). 막대그래프는 bar graph."
+    },
+    {
+      "lesson": 32,
+      "exercise": 9,
+      "word": "continuing",
+      "si": 1,
+      "field": "c",
+      "new": "continuing은 계속되는, continuous는 끊김 없이 이어지는 데 초점.",
+      "reason": "동일 열 글자 continuous와 지속성 초점 차이 설명.",
+      "alternative": "continuous",
+      "old": "continue(계속하다)+ing. 명사 앞에서 '계속되는'."
+    }
+  ],
+  "unresolved": [],
+  "summary": "16~32세트의 모든 카드를 직접 읽고 예문·해석·해설을 검수했다. 정답과 게임방식은 유지하며, 실제 문맥에 맞는 동일 길이 대안과 필요한 의미 차이만 짧게 설명한다."
+}

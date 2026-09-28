@@ -353,7 +353,7 @@
           "ko": "불공평한",
           "ex": "The rule seems {{BLANK}} to smaller teams.",
           "tr": "그 규칙은 규모가 작은 팀들에 불공평해 보여.",
-          "c": "un-(아닌)+fair(공평한). unfair treatment는 불공정한 대우. unfairly는 부당하게라는 부사야.",
+          "c": "un-(아닌)+fair(공평한). unfairly는 부당하게, unfair treatment는 불공정한 대우.",
           "ipa": "ʌnˈfer",
           "pos": "adj."
         },
@@ -363,7 +363,7 @@
           "ko": "알지 못하는",
           "ex": "They were {{BLANK}} of the risk.",
           "tr": "그들은 그 위험을 알지 못했어.",
-          "c": "un-(아닌)+aware(아는). be unaware of로 무엇을 모르는지 연결해.",
+          "c": "un-(아닌)+aware(아는). be unaware of: ~을 알지 못하다.",
           "ipa": "ˌʌnəˈwer",
           "pos": "adj."
         }
@@ -555,7 +555,7 @@
           "ko": "논픽션, 사실에 바탕을 둔 글",
           "ex": "She reads {{BLANK}} to learn about history.",
           "tr": "그녀는 역사를 배우려고 논픽션을 읽어.",
-          "c": "non-(아닌)+fiction(허구). 사실 기반이라는 분류이지 무조건 정확하다는 보증은 아니야.",
+          "c": "non-(아닌)+fiction(허구). 실제 인물·사건·사실을 다루는 글.",
           "ipa": "ˌnɑːnˈfɪkʃən",
           "pos": "n."
         },
@@ -599,7 +599,7 @@
           "ko": "잘못된 생각을 하게 하다, 오도하다",
           "ex": "Small samples can {{BLANK}} us.",
           "tr": "작은 표본은 우리를 오도할 수 있어.",
-          "c": "mis-(잘못)+lead(이끌다). 거짓말뿐 아니라 정보가 잘못된 판단으로 이끄는 경우도 돼.",
+          "c": "mis-(잘못)+lead(이끌다). 잘못 믿게 하다는 뜻에서는 deceive도 가능.",
           "ipa": "ˌmɪsˈliːd",
           "pos": "v."
         },
@@ -609,7 +609,7 @@
           "ko": "잘못 해석하다",
           "ex": "Readers may {{BLANK}} the final sentence.",
           "tr": "독자들은 마지막 문장을 잘못 해석할 수 있어.",
-          "c": "mis-(잘못)+interpret(해석하다). ‘해석하지 않다’가 아니라 해석의 방향이 틀린 거야.",
+          "c": "mis-(잘못)+interpret(해석하다). 해석을 안 하는 것이 아니라 잘못하는 것.",
           "ipa": "ˌmɪsɪnˈtɝːprɪt",
           "pos": "v."
         }
@@ -653,7 +653,7 @@
           "ko": "다시 세우다, 재건하다",
           "ex": "They hope to {{BLANK}} public trust.",
           "tr": "그들은 대중의 신뢰를 다시 쌓길 바라.",
-          "c": "re-(다시)+build(짓다). 건물뿐 아니라 신뢰·관계의 회복에도 써.",
+          "c": "re-(다시)+build(쌓다). 이 문장의 rebuild trust는 restore trust로도 표현한다.",
           "ipa": "ˌriːˈbɪld",
           "pos": "v."
         },
@@ -696,7 +696,7 @@
           "en": "deactivate",
           "ko": "작동을 멈추게 하다, 비활성화하다",
           "ex": "You can {{BLANK}} the system here.",
-          "tr": "여기서 그 체계를 비활성화할 수 있어.",
+          "tr": "여기서 그 시스템을 비활성화할 수 있어.",
           "c": "de-(취소)+activate(작동시키다). inactive는 상태, deactivate는 그렇게 만드는 동작이야.",
           "ipa": "diːˈæktɪveɪt",
           "pos": "v."
@@ -807,7 +807,7 @@
           "ko": "과대평가하다, 너무 높게 잡다",
           "ex": "People often {{BLANK}} their own knowledge.",
           "tr": "사람들은 흔히 자기 지식을 과대평가해.",
-          "c": "over-(너무 높게)+estimate(추정하다). 실제보다 크게 잡는 거야.",
+          "c": "over-(지나치게)+estimate(추정하다). 실제보다 높게 평가하다.",
           "ipa": "ˌoʊvərˈestɪmeɪt",
           "pos": "v."
         },
@@ -865,8 +865,8 @@
           "word": "international",
           "en": "international",
           "ko": "국제적인, 국가 간의",
-          "ex": "The problem needs {{BLANK}} action.",
-          "tr": "그 문제는 국제적인 행동이 필요해.",
+          "ex": "Climate change calls for {{BLANK}} cooperation.",
+          "tr": "기후 변화에 대응하려면 국제 협력이 필요해.",
           "c": "inter-(사이에)+national(국가의). 여러 나라 사이의 관계를 나타내.",
           "ipa": "ˌɪntərˈnæʃənəl",
           "pos": "adj."
@@ -1023,8 +1023,8 @@
           "word": "cooperate",
           "en": "cooperate",
           "ko": "협력하다",
-          "ex": "The two teams must {{BLANK}}.",
-          "tr": "두 팀은 협력해야 해.",
+          "ex": "The two teams must {{BLANK}} to finish on time.",
+          "tr": "제시간에 끝내려면 두 팀이 협력해야 해.",
           "c": "co-(함께)+operate(작동하다·일하다). 공통 목적을 위해 함께 행동하는 거야.",
           "ipa": "koʊˈɑːpəreɪt",
           "pos": "v."
@@ -1107,8 +1107,8 @@
           "word": "awareness",
           "en": "awareness",
           "ko": "인식, 알고 있음",
-          "ex": "The campaign raised public {{BLANK}}.",
-          "tr": "그 캠페인은 대중의 인식을 높였어.",
+          "ex": "The campaign raised {{BLANK}} of water waste.",
+          "tr": "그 캠페인은 물 낭비에 대한 인식을 높였어.",
           "c": "aware(아는)+-ness(상태 명사). be aware of: ~을 알다. awareness of: ~에 대한 인식.",
           "ipa": "əˈwernəs",
           "pos": "n."
@@ -1210,9 +1210,9 @@
           "word": "adaptation",
           "en": "adaptation",
           "ko": "적응, 적응 과정",
-          "ex": "The change requires {{BLANK}}.",
-          "tr": "그 변화에는 적응이 필요해.",
-          "c": "adapt(적응하다)→adaptation(적응).",
+          "ex": "Moving to a new school requires {{BLANK}}.",
+          "tr": "새 학교로 옮기면 적응이 필요해.",
+          "c": "adapt(적응하다)→adaptation(적응). 여기서는 adjustment도 가능.",
           "ipa": "ˌædæpˈteɪʃən",
           "pos": "n."
         },
@@ -1380,8 +1380,8 @@
           "word": "specialist",
           "en": "specialist",
           "ko": "전문가",
-          "ex": "We asked a {{BLANK}} for advice.",
-          "tr": "우리는 전문가에게 조언을 구했어.",
+          "ex": "She consulted a heart {{BLANK}} about her symptoms.",
+          "tr": "그녀는 증상에 관해 심장 전문의와 상담했어.",
           "c": "special(특정한)+-ist(전문가). 특정 분야를 깊이 다루는 사람.",
           "ipa": "ˈspeʃəlɪst",
           "pos": "n."
@@ -1460,8 +1460,8 @@
           "word": "harmless",
           "en": "harmless",
           "ko": "해가 없는, 무해한",
-          "ex": "The change appears {{BLANK}}.",
-          "tr": "그 변화는 해가 없어 보여.",
+          "ex": "The spider looks scary, but it is {{BLANK}}.",
+          "tr": "그 거미는 무서워 보이지만 해가 없어.",
           "c": "harm(해)+-less(없는). 반대 방향의 형용사는 harmful이야.",
           "ipa": "ˈhɑːrmləs",
           "pos": "adj."
@@ -1513,7 +1513,7 @@
           "ko": "접근하거나 이용할 수 있는",
           "ex": "The information is {{BLANK}} to everyone.",
           "tr": "그 정보는 누구나 이용할 수 있어.",
-          "c": "access(접근)+-ible. accessible to everyone은 누구나 접근하거나 이용할 수 있다는 뜻.",
+          "c": "access(접근)+-ible. accessible to+사람: 그 사람이 접근·이용할 수 있는.",
           "ipa": "əkˈsesəbəl",
           "pos": "adj."
         },
@@ -1629,7 +1629,7 @@
           "ko": "창의적인",
           "ex": "We need a {{BLANK}} solution.",
           "tr": "우리는 창의적인 해결책이 필요해.",
-          "c": "create(창조하다)→creative(창의적인). 새로운 것을 만들어 내는 성향이야.",
+          "c": "create(창조하다)→creative(창의적인). an original solution으로도 표현한다.",
           "ipa": "kriˈeɪtɪv",
           "pos": "adj."
         },
@@ -1684,7 +1684,7 @@
           "ko": "널리, 폭넓게",
           "ex": "The idea is {{BLANK}} accepted.",
           "tr": "그 생각은 널리 받아들여져.",
-          "c": "wide(넓은)→widely(널리). 여기서는 accepted를 꾸며 받아들여지는 범위가 넓다는 뜻이야.",
+          "c": "wide(넓은)→widely(널리). widely accepted: 많은 사람이 받아들이는.",
           "ipa": "ˈwaɪdli",
           "pos": "adv."
         },
@@ -1692,8 +1692,8 @@
           "word": "hardly",
           "en": "hardly",
           "ko": "거의 ~않다",
-          "ex": "The results are {{BLANK}} different.",
-          "tr": "그 결과들은 거의 다르지 않아.",
+          "ex": "I can {{BLANK}} hear you over the music.",
+          "tr": "음악 소리 때문에 네 말이 거의 안 들려.",
           "c": "hardly는 ‘열심히’가 아니라 거의 없음을 나타내. work hard와 구별해.",
           "ipa": "ˈhɑːrdli",
           "pos": "adv."
@@ -1863,7 +1863,7 @@
           "ko": "실시하다, 수행하다",
           "ex": "They will {{BLANK}} a test on the water.",
           "tr": "그들은 그 물을 검사할 거야.",
-          "c": "conduct a test는 검사를 실시하다. 일을 이끌어 수행한다는 뜻이야.",
+          "c": "conduct a test: 검사를 실시하다. 여기서는 perform도 가능.",
           "ipa": "kənˈdʌkt",
           "pos": "v."
         }
@@ -1908,7 +1908,7 @@
           "ko": "추론하다",
           "ex": "We can {{BLANK}} his age from this photo.",
           "tr": "우리는 이 사진에서 그의 나이를 추론할 수 있어.",
-          "c": "infer A from B는 B를 근거로 A를 추론하다. 단서를 받는 쪽의 판단이야.",
+          "c": "infer A from B: B를 근거로 A를 추론하다. guess는 근거가 부족해도 짐작하는 것.",
           "ipa": "ɪnˈfɝː",
           "pos": "v."
         },
@@ -1916,9 +1916,9 @@
           "word": "refer",
           "en": "refer",
           "ko": "참조하다, 찾아보다",
-          "ex": "Please {{BLANK}} to the map for more help.",
-          "tr": "더 도움이 필요하면 지도를 참조해.",
-          "c": "refer to a map은 지도를 참조하다. 자료 쪽으로 주의를 돌리는 쓰임이야.",
+          "ex": "Please {{BLANK}} to the map to find the station.",
+          "tr": "역을 찾으려면 지도를 참조해 줘.",
+          "c": "refer to+자료: 자료를 참조하다. look up 뒤에는 자료에서 찾을 정보가 온다.",
           "ipa": "rɪˈfɝː",
           "pos": "v."
         }
@@ -1962,7 +1962,7 @@
           "ko": "뒷받침하다",
           "ex": "The facts {{BLANK}} her claim.",
           "tr": "그 사실들이 그녀의 주장을 뒷받침해.",
-          "c": "증거가 주장을 뒷받침하는 뜻.",
+          "c": "support는 주장을 뒷받침하다. confirm은 그 주장이 사실임을 확인하다.",
           "ipa": "səˈpɔːrt",
           "pos": "v."
         }
@@ -2001,7 +2001,7 @@
           "ko": "거절하다, 받아들이지 않다",
           "ex": "They may {{BLANK}} our plan because it costs too much.",
           "tr": "비용이 너무 많이 들어서 그들은 우리 계획을 거절할 수도 있어.",
-          "c": "라틴어 iacere(던지다)→reicere(뒤로 던지다). 제안 등을 받아들이지 않다.",
+          "c": "라틴어 reicere(뒤로 던지다). 여기서는 refuse도 가능. reject는 받아들이지 않다.",
           "ipa": "rɪˈdʒekt",
           "pos": "v."
         },
@@ -2109,7 +2109,7 @@
           "ko": "입장, 견해",
           "ex": "What is your {{BLANK}} on this matter?",
           "tr": "이 문제에 대한 네 입장은 뭐야?",
-          "c": "position on an issue는 그 문제에 대해 취하는 입장. 장소만 뜻하지 않아.",
+          "c": "position on an issue: 문제에 대한 입장. 장소만 뜻하지 않는다.",
           "ipa": "pəˈzɪʃən",
           "pos": "n."
         },
@@ -2167,7 +2167,7 @@
           "ko": "영향, 결과",
           "ex": "The change had no {{BLANK}} on our health.",
           "tr": "그 변화는 우리의 건강에 아무 영향도 미치지 않았어.",
-          "c": "have an effect on은 영향을 미치다. 여기서는 effect가 명사야.",
+          "c": "have an effect on: ~에 영향을 미치다. effect 대신 impact도 가능.",
           "ipa": "ɪˈfekt",
           "pos": "n."
         }
@@ -2360,8 +2360,8 @@
           "word": "describe",
           "en": "describe",
           "ko": "묘사하다, 설명하다",
-          "ex": "Can you {{BLANK}} how the machine works?",
-          "tr": "그 기계가 어떻게 작동하는지 설명해 줄래?",
+          "ex": "Can you {{BLANK}} the person you saw?",
+          "tr": "네가 본 사람이 어떻게 생겼는지 설명해 줄래?",
           "c": "라틴어 scribere(쓰다) 계열. describe는 말이나 글로 특징을 설명하다.",
           "ipa": "dɪˈskraɪb",
           "pos": "v."
@@ -2372,7 +2372,7 @@
           "ko": "처방하다",
           "ex": "A doctor may {{BLANK}} medicine for the pain.",
           "tr": "의사가 그 통증에 약을 처방할 수도 있어.",
-          "c": "prescribe는 약을 처방하거나 행동을 규정하다. 먼저 정해 쓴다는 계열이야.",
+          "c": "pre-(미리)+scribere(쓰다). 약을 처방하다. 규칙·방식을 정한다는 뜻도 있다.",
           "ipa": "prɪˈskraɪb",
           "pos": "v."
         },
@@ -2382,7 +2382,7 @@
           "ko": "원고",
           "ex": "The writer sent her {{BLANK}} to the publisher.",
           "tr": "그 작가는 출판사에 원고를 보냈어.",
-          "c": "원래는 손으로 쓴 문서. 지금은 타이핑한 것도 포함하여 출판 전 원고를 뜻한다.",
+          "c": "원래는 손으로 쓴 문서. 지금은 타이핑한 출판 전 원고도 포함한다.",
           "ipa": "ˈmænjəskrɪpt",
           "pos": "n."
         }
@@ -2490,7 +2490,7 @@
           "ko": "명백한, 분명한",
           "ex": "The difference was {{BLANK}} from the first day.",
           "tr": "그 차이는 첫날부터 분명했어.",
-          "c": "evident: 분명하게 드러나는. 같은 계열의 명사는 evidence(증거).",
+          "c": "evident는 분명하게 드러나는. 여기서는 obvious도 가능. evidence는 증거.",
           "ipa": "ˈevədənt",
           "pos": "adj."
         },
@@ -2498,8 +2498,8 @@
           "word": "vision",
           "en": "vision",
           "ko": "시력, 보는 능력",
-          "ex": "Good {{BLANK}} helps us see small details.",
-          "tr": "좋은 시력은 작은 세부를 보는 데 도움이 돼.",
+          "ex": "His {{BLANK}} is poor, so he wears glasses.",
+          "tr": "그는 시력이 나빠서 안경을 써.",
           "c": "라틴어 videre(보다)의 분사 어간 vis- 계열. 여기서는 시력이라는 뜻.",
           "ipa": "ˈvɪʒən",
           "pos": "n."
@@ -2809,7 +2809,7 @@
           "ko": "뒤를 잇다, 후임이 되다",
           "ex": "Who will {{BLANK}} her as head of the team?",
           "tr": "누가 그녀의 뒤를 이어 팀장이 될까?",
-          "c": "succeed A as B: A의 뒤를 이어 B가 되다.",
+          "c": "succeed A as B: A의 뒤를 이어 B가 되다. 여기서는 replace도 가능.",
           "ipa": "səkˈsiːd",
           "pos": "v."
         }
@@ -2847,8 +2847,8 @@
           "word": "agent",
           "en": "agent",
           "ko": "작용을 일으키는 것, 작용제",
-          "ex": "Water is an {{BLANK}} of change.",
-          "tr": "물은 변화를 일으키는 작용 요인이야.",
+          "ex": "Wind is an {{BLANK}} of soil erosion.",
+          "tr": "바람은 토양 침식을 일으키는 요인이야.",
           "c": "라틴어 agere(행하다)의 현재분사 계열. agent는 사람·물질·힘 등 작용의 주체야.",
           "ipa": "ˈeɪdʒənt",
           "pos": "n."
@@ -3610,7 +3610,7 @@
           "ko": "현미경으로 보아야 할 만큼 작은",
           "ex": "These {{BLANK}} living things are too small to see.",
           "tr": "이 미세한 생물들은 너무 작아서 눈에 보이지 않아.",
-          "c": "micro-(작은)와 scope 계열(보기). 현미경과 관련된이라는 뜻도 있어.",
+          "c": "micro-(작은)+scope 계열(보기). 현미경으로 볼 만큼 작은, 또는 현미경과 관련된.",
           "ipa": "ˌmaɪkrəˈskɑːpɪk",
           "pos": "adj."
         }
@@ -3708,7 +3708,7 @@
           "ko": "동정, 타인의 고통을 안타깝게 여기는 마음",
           "ex": "We felt deep {{BLANK}} for the injured child.",
           "tr": "우리는 다친 아이에게 깊은 동정을 느꼈어.",
-          "c": "여기서는 남의 고통을 안타깝게 여김. 문맥에 따라 공감·지지라는 뜻도 있어.",
+          "c": "남의 고통을 안타깝게 여기는 마음. empathy는 상대의 처지에서 감정을 이해·공유하는 것.",
           "ipa": "ˈsɪmpəθi",
           "pos": "n."
         }
@@ -3936,7 +3936,7 @@
           "ko": "폭, 폭넓음",
           "ex": "We admire the {{BLANK}} of her knowledge.",
           "tr": "우리는 그녀의 지식이 폭넓다는 점에 감탄해.",
-          "c": "broad(넓은)와 관련된 명사. 물리적인 폭뿐 아니라 지식·경험 등이 포괄하는 범위도 뜻해.",
+          "c": "broad(넓은)의 명사. 물리적인 폭, 또는 지식·경험의 범위.",
           "ipa": "bredθ",
           "pos": "n."
         }

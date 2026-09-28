@@ -11,7 +11,11 @@ function snapshot(file){
   const scoring=fable?slice(html,'function voiceScore(','function pickVoice('):slice(html,'function pronunciationVoiceScore(','function pickPronunciationVoice(');
   const picker=fable?slice(html,'function pickVoice(','if(window.speechSynthesis)'):slice(html,'function pickPronunciationVoice(','function stopPronunciation(');
   const roses=slice(html,'function fxHeart(el){','/* ===== misc ===== */');
-  return {data:hash(JSON.stringify(JSON.parse(data[1]))),storage,scoring:hash(scoring),picker:hash(picker),reviewRoses:hash(roses)};
+  // The approved example/synonym review changes only logged content fields.
+  // Reverse that delta, retaining the original conservation hash unchanged.
+  const parsed=JSON.parse(data[1]);
+  const conserved=fable?require('../../synonym-review-20260929/restore.cjs').restoreSynonymReview(parsed):parsed;
+  return {data:hash(JSON.stringify(conserved)),storage,scoring:hash(scoring),picker:hash(picker),reviewRoses:hash(roses)};
 }
 if(process.argv.includes('--capture')){
   assert(!fs.existsSync(baselineFile),'Baseline already exists; do not overwrite it to bless a regression.');

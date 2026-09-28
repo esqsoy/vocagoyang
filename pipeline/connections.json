@@ -645,7 +645,7 @@
         "ko": "지금부터 ~후에",
         "ex": "The bus will leave {{BLANK}} fifteen minutes.",
         "tr": "버스는 지금부터 15분 후에 출발할 거야.",
-        "c": "미래 시점의 in+시간은 그만큼 지난 뒤. in fifteen minutes는 15분 후야.",
+        "c": "미래 시점의 in+시간: 지금부터 그 시간이 지난 뒤.",
         "ipa": "ɪn",
         "pos": "prep.",
         "acceptedAnswers": [
@@ -763,7 +763,7 @@
         "ko": "수치가 ~만큼",
         "ex": "The price fell {{BLANK}} three dollars.",
         "tr": "가격이 3달러만큼 내렸어.",
-        "c": "by 뒤는 변한 양. fell by three dollars는 3달러만큼 내렸다는 뜻이야.",
+        "c": "by+수치: 변한 양. fell by three dollars는 3달러만큼 내렸다.",
         "ipa": "baɪ",
         "pos": "prep.",
         "acceptedAnswers": []
@@ -819,7 +819,7 @@
         "ko": "변화가 시작된 수치 ~에서",
         "ex": "The price rose {{BLANK}} five dollars to eight.",
         "tr": "가격이 5달러에서 8달러로 올랐어.",
-        "c": "from은 시작값, to는 최종값. 5에서 8로 오르면 변화량은 3이야.",
+        "c": "from은 시작값, to는 최종값. 변화량은 by로 나타낸다.",
         "ipa": "frʌm",
         "pos": "prep.",
         "acceptedAnswers": []
@@ -849,7 +849,7 @@
         "ko": "비교·경쟁에서 ~만큼 차이가 나게",
         "ex": "Our team won {{BLANK}} two points.",
         "tr": "우리 팀은 2점 차로 이겼어.",
-        "c": "win by two points는 2점 차로 이기다. 여기서 by는 변화량이 아닌 격차야.",
+        "c": "win by+점수: 그 점수 차로 이기다.",
         "ipa": "baɪ",
         "pos": "prep.",
         "acceptedAnswers": []
@@ -935,7 +935,7 @@
         "ko": "수준·수치가 ~인",
         "ex": "The price remained {{BLANK}} twenty dollars.",
         "tr": "가격은 20달러 수준에 머물렀어.",
-        "c": "at은 그 수치에 있는 상태. to는 변한 뒤의 값, by는 변화량을 나타내.",
+        "c": "여기서 at은 그 수치에 있는 상태. to는 변한 뒤의 값, by는 변화량.",
         "ipa": "æt",
         "pos": "prep.",
         "acceptedAnswers": []
@@ -1194,7 +1194,7 @@
         "ko": "~에 미치는 영향",
         "ex": "Noise has a harmful {{BLANK}} sleep.",
         "tr": "소음은 수면에 해로운 영향을 미쳐.",
-        "c": "an effect on sleep은 수면에 미치는 영향. 영향받는 대상이 on 뒤에 와.",
+        "c": "effect on+영향받는 대상. 여기서는 impact on으로도 쓴다.",
         "ipa": "ɪˈfekt ɑːn",
         "pos": "n.phr.",
         "acceptedAnswers": [
@@ -1280,7 +1280,7 @@
         "ko": "~에 대한 수요",
         "ex": "Hot weather increases {{BLANK}} cold drinks.",
         "tr": "더운 날씨는 차가운 음료의 수요를 늘려.",
-        "c": "demand for drinks는 음료에 대한 수요. 무엇을 사거나 쓰려는지 for 뒤에 나타내.",
+        "c": "demand for+상품·서비스: ~에 대한 수요.",
         "ipa": "dɪˈmænd fɔːr",
         "pos": "n.phr.",
         "acceptedAnswers": []
@@ -1309,7 +1309,7 @@
         "ko": "대상들 사이의 대조",
         "ex": "The painting shows a sharp {{BLANK}} light and dark.",
         "tr": "그 그림은 밝음과 어둠 사이의 뚜렷한 대조를 보여 줘.",
-        "c": "contrast between A and B는 A와 B 사이의 대조. 개별 대상을 서로 비교해.",
+        "c": "contrast between A and B: A와 B 사이의 뚜렷한 차이.",
         "ipa": "ˈkɑːn.træst bɪˈtwiːn",
         "pos": "n.phr.",
         "acceptedAnswers": [
@@ -1339,7 +1339,7 @@
         "ko": "~에 대한 인식",
         "ex": "Schools can raise {{BLANK}} online risks.",
         "tr": "학교는 온라인 위험에 대한 인식을 높일 수 있어.",
-        "c": "aware of에서 awareness of로. 명사가 되어도 인식하는 대상은 of로 이어.",
+        "c": "aware of(알고 있는)→awareness of(~에 대한 인식).",
         "ipa": "əˈwer.nəs ʌv",
         "pos": "n.phr.",
         "acceptedAnswers": [
@@ -1368,7 +1368,7 @@
         "ko": "~에 대한 책임",
         "ex": "Parents have {{BLANK}} their children's safety.",
         "tr": "부모는 자녀의 안전에 책임이 있어.",
-        "c": "responsible for에서 responsibility for로. for 뒤에 책임지는 일이 와.",
+        "c": "responsible for(책임이 있는)→responsibility for(~에 대한 책임).",
         "ipa": "rɪˌspɑːn.səˈbɪl.ə.ti fɔːr",
         "pos": "n.phr.",
         "acceptedAnswers": []
@@ -1394,7 +1394,7 @@
         "ko": "~에 대한 의존",
         "ex": "Solar power can reduce our {{BLANK}} foreign oil.",
         "tr": "태양 에너지는 외국산 석유에 대한 우리의 의존을 줄일 수 있어.",
-        "c": "depend on에서 dependence on으로. 조건이 달렸다는 뜻과 자원에 의존하는 뜻은 구별해.",
+        "c": "depend on(의존하다)→dependence on(~에 대한 의존). reliance on으로도 표현한다.",
         "ipa": "dɪˈpen.dəns ɑːn",
         "pos": "n.phr.",
         "acceptedAnswers": [
@@ -1598,7 +1598,7 @@
         "ko": "~이 없는 상황에서",
         "ex": "Use the stairs {{BLANK}} a working elevator.",
         "tr": "작동하는 엘리베이터가 없는 상황에서는 계단을 써.",
-        "c": "in the absence of는 ~이 없는 상황에서. absent의 명사 absence가 들어가.",
+        "c": "in the absence of: ~이 없는 상황에서. without으로도 표현한다.",
         "ipa": "ɪn ði ˈæb.səns ʌv",
         "pos": "prep.phr.",
         "acceptedAnswers": [
@@ -1712,7 +1712,7 @@
         "ko": "자료·사람이 전하는 내용에 따르면",
         "ex": "The road is closed, {{BLANK}} the local news.",
         "tr": "지역 뉴스에 따르면 그 도로는 폐쇄됐어.",
-        "c": "according to the news는 뉴스에 따르면. 말이나 정보가 나온 출처를 밝혀.",
+        "c": "according to+사람·자료: 그 출처가 전하는 내용에 따르면.",
         "ipa": "əˈkɔːr.dɪŋ tuː",
         "pos": "prep.phr.",
         "acceptedAnswers": [
@@ -1740,7 +1740,7 @@
         "ko": "규칙·기준에 맞추어",
         "ex": "Please act {{BLANK}} the school rules.",
         "tr": "학교 규칙에 맞게 행동해 줘.",
-        "c": "according to the rules는 규칙에 맞게. 정보의 출처가 아니라 따르는 기준이야.",
+        "c": "according to+규칙·기준: 그 기준에 맞게. in accordance with도 가능.",
         "ipa": "əˈkɔːr.dɪŋ tuː",
         "pos": "prep.phr.",
         "acceptedAnswers": [
@@ -1862,7 +1862,7 @@
         "ko": "어떤 감정·동기에서",
         "ex": "She stayed silent {{BLANK}} fear.",
         "tr": "그녀는 두려워서 침묵했어.",
-        "c": "out of fear는 두려움에서. out of money처럼 다 써서 없는 상태와 달라.",
+        "c": "out of fear: 두려워서. 감정·동기를 나타내는 from으로도 쓴다.",
         "ipa": "aʊt ʌv",
         "pos": "prep.phr.",
         "acceptedAnswers": [
@@ -2362,7 +2362,7 @@
         "ko": "~을 대신하거나 대표하여",
         "ex": "She thanked everyone {{BLANK}} the whole team.",
         "tr": "그녀는 팀 전체를 대표해 모두에게 감사했어.",
-        "c": "on behalf of the team은 팀을 대표해서. 단순히 팀에 이롭다는 뜻만은 아니야.",
+        "c": "on behalf of+사람·단체: 그를 대신하거나 대표하여.",
         "ipa": "ɑːn bɪˈhæf ʌv",
         "pos": "prep.phr.",
         "acceptedAnswers": [
@@ -2419,7 +2419,7 @@
         "ko": "~의 대가로, ~와 맞바꾸어",
         "ex": "She offered help {{BLANK}} a free ticket.",
         "tr": "그녀는 무료 표 한 장을 받는 대가로 도움을 제안했어.",
-        "c": "in exchange for는 ~의 대가로. exchange A for B는 A를 주고 B를 받다야.",
+        "c": "in exchange for: ~의 대가로. exchange A for B: A를 주고 B를 받다.",
         "ipa": "ɪn ɪksˈtʃeɪndʒ fɔːr",
         "pos": "prep.phr.",
         "acceptedAnswers": [
@@ -2666,7 +2666,7 @@
         "ko": "~에 관하여",
         "ex": "We have no news {{BLANK}} your request.",
         "tr": "네 요청에 관해서는 새로운 소식이 없어.",
-        "c": "with regard to는 ~에 관하여. in regard to, regarding도 같은 주제를 이어.",
+        "c": "with regard to: ~에 관하여. in regard to, regarding으로도 쓴다.",
         "ipa": "wɪð rɪˈɡɑːrd tuː",
         "pos": "prep.phr.",
         "acceptedAnswers": [
@@ -2700,7 +2700,7 @@
         "ko": "~와 비교하여, ~에 비추어",
         "ex": "The cost is high {{BLANK}} our income.",
         "tr": "그 비용은 우리 소득에 비해 높아.",
-        "c": "in relation to는 상대적으로 비교할 때도 써. 여기서는 소득이 비용 판단의 기준이야.",
+        "c": "여기서는 ~와 비교하여. relative to, compared with로도 표현한다.",
         "ipa": "ɪn rɪˈleɪ.ʃən tuː",
         "pos": "prep.phr.",
         "acceptedAnswers": [
@@ -2875,7 +2875,7 @@
         "ko": "면제되는 의무·부담 ~로부터",
         "ex": "Children under six are exempt {{BLANK}} payment.",
         "tr": "여섯 살 미만의 어린이는 요금을 내지 않아도 돼.",
-        "c": "be exempt from payment는 납부 의무가 면제된. from은 면제 대상을 이어.",
+        "c": "be exempt from+의무·부담: ~을 면제받다.",
         "ipa": "frʌm",
         "pos": "prep.",
         "acceptedAnswers": []
@@ -2926,7 +2926,7 @@
         "ko": "서로 관련되는 상대 ~와",
         "ex": "This symbol is associated {{BLANK}} peace.",
         "tr": "이 상징은 평화와 관련되어 있어.",
-        "c": "be associated with는 ~와 관련되다. 관련성이 있다고 반드시 원인이라는 뜻은 아니야.",
+        "c": "be associated with: ~와 관련되다, ~을 연상시키다.",
         "ipa": "wɪð",
         "pos": "prep.",
         "acceptedAnswers": []
@@ -3343,7 +3343,7 @@
         "ko": "~을 지적하여 알리다",
         "ex": "Please {{BLANK}} any errors in my report.",
         "tr": "내 보고서에 오류가 있으면 지적해 줘.",
-        "c": "point out a fact: 사실을 짚어 알려 주다. raise an issue: 문제를 제기하다.",
+        "c": "point out a fact: 사실을 짚어 알리다. 대명사 목적어는 point it out.",
         "ipa": "pɔɪnt aʊt",
         "pos": "v.phr.",
         "acceptedAnswers": [
@@ -3400,7 +3400,7 @@
         "ko": "가능성에서 ~을 제외하다",
         "ex": "These facts {{BLANK}} that possibility.",
         "tr": "이 사실들은 그 가능성을 배제해.",
-        "c": "rule out a possibility: 가능성을 배제하다.",
+        "c": "rule out a possibility: 가능성을 배제하다. 여기서는 exclude도 가능.",
         "ipa": "ruːl aʊt",
         "pos": "v.phr.",
         "acceptedAnswers": [
@@ -3521,7 +3521,7 @@
         "ko": "희미한 것을 알아보거나 소리를 식별하다",
         "ex": "I can barely {{BLANK}} her voice.",
         "tr": "그녀의 목소리를 겨우 알아들을 수 있어.",
-        "c": "흐릿한 모습이나 소리를 식별하다.",
+        "c": "희미한 모습·소리를 식별하다. 여기서는 discern도 가능.",
         "ipa": "meɪk aʊt",
         "pos": "v.phr.",
         "acceptedAnswers": [
@@ -3736,7 +3736,7 @@
         "ko": "시간·공간을 차지하다",
         "ex": "This desk will {{BLANK}} too much space.",
         "tr": "이 책상은 공간을 너무 많이 차지할 거야.",
-        "c": "시간·공간을 차지하다. take up space: 공간을 차지하다.",
+        "c": "take up space: 공간을 차지하다. occupy로도 표현한다.",
         "ipa": "teɪk ʌp",
         "pos": "v.phr.",
         "acceptedAnswers": [
@@ -3853,7 +3853,7 @@
         "ko": "사실상 ~와 같다",
         "ex": "Saying nothing can {{BLANK}} saying yes.",
         "tr": "아무 말도 안 하는 것이 사실상 찬성하는 셈일 수 있어.",
-        "c": "양을 뜻하는 amount에서 확장돼, 여기서는 사실상 같다는 판단이야.",
+        "c": "amount to+-ing: 사실상 ~하는 셈이다. be equivalent to로도 표현한다.",
         "ipa": "əˈmaʊnt tə",
         "pos": "v.phr.",
         "acceptedAnswers": [
@@ -4207,7 +4207,7 @@
         "ko": "계획·문서를 작성하다",
         "ex": "Please {{BLANK}} a contract before we start.",
         "tr": "시작하기 전에 계약서를 작성해 줘.",
-        "c": "plan·contract 같은 계획·문서를 작성해. draw on은 경험 등을 활용해.",
+        "c": "draw up a contract: 계약서를 작성하다. 대명사 목적어는 draw it up.",
         "ipa": "drɔ ʌp",
         "pos": "v.phr.",
         "acceptedAnswers": [
@@ -4539,7 +4539,7 @@
         "ko": "하던 일을 계속하다",
         "ex": "We can {{BLANK}} working after lunch.",
         "tr": "우리는 점심 후에 하던 일을 계속할 수 있어.",
-        "c": "carry on+-ing: 계속 ~하다.",
+        "c": "carry on+-ing: 계속 ~하다. continue, keep on으로도 표현한다.",
         "ipa": "ˌkæri ˈɑn",
         "acceptedAnswers": [
           "continue",
@@ -4948,7 +4948,7 @@
         "ko": "정보·의미를 충분히 이해하다",
         "ex": "Nobody can {{BLANK}} all this information at once.",
         "tr": "누구도 이 많은 정보를 한꺼번에 전부 이해할 수는 없어.",
-        "c": "정보를 받아들여 이해하다. 대명사 목적어는 take it in.",
+        "c": "정보를 받아들여 이해하다. absorb도 가능. 대명사 목적어는 take it in.",
         "ipa": "ˌteɪk ˈɪn",
         "acceptedAnswers": [
           "absorb",
@@ -5207,7 +5207,7 @@
         "ko": "세부를 꼼꼼히 검토하다",
         "ex": "Please {{BLANK}} each answer before the test ends.",
         "tr": "시험이 끝나기 전에 답을 하나씩 꼼꼼히 검토해 줘.",
-        "c": "go over+답·자료: 답·자료를 자세히 검토하다.",
+        "c": "go over+답·자료: 꼼꼼히 검토하다. 여기서는 review도 가능.",
         "ipa": "ˌɡoʊ ˈoʊvɚ",
         "acceptedAnswers": [
           "check",
@@ -5577,7 +5577,7 @@
         "ko": "믿고 의지하다",
         "ex": "You can {{BLANK}} her to keep the secret.",
         "tr": "그녀가 비밀을 지킬 거라고 믿고 의지해도 돼.",
-        "c": "count on+사람·대상: 믿고 의지하다.",
+        "c": "count on+사람+to부정사: 그가 ~하리라 믿다. rely on으로도 표현한다.",
         "ipa": "ˈkaʊnt ɑn",
         "acceptedAnswers": [
           "rely on",
@@ -5684,7 +5684,7 @@
         "ko": "노력이 성과를 내다",
         "ex": "Years of practice will finally {{BLANK}}.",
         "tr": "오랜 연습이 마침내 성과를 낼 거야.",
-        "c": "여기서는 노력 자체가 주어로 성과를 내는 뜻. 뒤에 갚을 빚이 오는 뜻과 달라.",
+        "c": "노력+pay off: 노력이 성과를 내다. pay off a debt는 빚을 전부 갚다.",
         "ipa": "ˌpeɪ ˈɔf",
         "acceptedAnswers": [
           "bear fruit",
@@ -5906,7 +5906,7 @@
         "ko": "열·빛·냄새 등을 밖으로 내보내다",
         "ex": "Some flowers {{BLANK}} a strong smell at night.",
         "tr": "어떤 꽃들은 밤에 강한 냄새를 내뿜어.",
-        "c": "give off+열·빛·냄새: 열·빛·냄새를 내보내다.",
+        "c": "give off+열·빛·냄새: 내보내다. 여기서는 give out도 가능.",
         "ipa": "ˌɡɪv ˈɔf",
         "acceptedAnswers": [
           "emit",
@@ -5976,7 +5976,7 @@
         "ko": "일·계획이 잘 풀리다",
         "ex": "I hope our new plan will {{BLANK}}.",
         "tr": "우리 새 계획이 잘 풀리면 좋겠어.",
-        "c": "목적어 없이 계획·일이 잘 풀리다. work out a problem의 문제 해결과 달라.",
+        "c": "계획·일+work out: 잘 풀리다. work out a problem은 문제를 풀다.",
         "ipa": "ˌwɝk ˈaʊt",
         "acceptedAnswers": [
           "succeed",
@@ -6269,7 +6269,7 @@
         "ko": "어떤 조치를 공개적으로 요구하다",
         "ex": "At today's march, workers will {{BLANK}} safer conditions.",
         "tr": "오늘 행진에서 노동자들은 더 안전한 조건을 요구할 거야.",
-        "c": "demand·request처럼 사람이 조치를 요구하다. 상황이 필요로 하는 call for와 달라.",
+        "c": "call for: 공개적으로 요구하다. 여기서는 ask for도 가능.",
         "ipa": "ˈkɔl fɚ",
         "acceptedAnswers": [
           "demand",
@@ -6379,7 +6379,7 @@
         "ko": "빚을 전부 갚다",
         "ex": "She hopes to {{BLANK}} all her debt this year.",
         "tr": "그녀는 올해 자기 빚을 전부 갚기를 바라.",
-        "c": "debt(빚)를 목적어로 받아 전액 상환하다. 노력이 성과를 내는 pay off와 달라.",
+        "c": "pay off a debt: 빚을 전부 갚다. 노력+pay off는 성과를 내다.",
         "ipa": "ˌpeɪ ˈɔf",
         "acceptedAnswers": [
           "repay",

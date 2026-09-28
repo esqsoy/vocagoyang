@@ -1,0 +1,1219 @@
+{
+  "range": [
+    33,
+    45
+  ],
+  "readCards": 1584,
+  "reviewedFiles": [
+    "pipeline/out/set33.json",
+    "pipeline/out/set34.json",
+    "pipeline/out/set35.json",
+    "pipeline/out/set36.json",
+    "pipeline/out/set37.json",
+    "pipeline/out/set38.json",
+    "pipeline/out/set39.json",
+    "pipeline/out/set40.json",
+    "pipeline/out/set41.json",
+    "pipeline/out/set42.json",
+    "pipeline/out/set43.json",
+    "pipeline/out/set44.json",
+    "pipeline/out/set45.json"
+  ],
+  "changes": [
+    {
+      "lesson": 33,
+      "exercise": 2,
+      "word": "gorgeous",
+      "si": 1,
+      "field": "c",
+      "old": "beautiful보다 감탄이 센 구어. 날씨·음식에도 쓴다.",
+      "new": "여기서는 stunning도 가능. 둘 다 감탄할 만큼 아름답다는 뜻. gorgeous는 날씨·음식에도 쓴다.",
+      "reason": "같은 8글자 stunning이 자연스러운 대안임을 짧게 인정.",
+      "alternative": "stunning"
+    },
+    {
+      "lesson": 33,
+      "exercise": 6,
+      "word": "delete",
+      "si": 1,
+      "field": "c",
+      "old": "화면·파일에서 없애다. 종이에 쓴 것은 erase가 자연스럽다.",
+      "new": "사진·파일을 삭제하다. 여기서는 remove도 가능. 종이에 쓴 것을 지울 때는 erase.",
+      "reason": "같은 6글자 remove도 사진을 지워 공간을 확보한다는 문맥에 들어감.",
+      "alternative": "remove"
+    },
+    {
+      "lesson": 33,
+      "exercise": 9,
+      "word": "elder",
+      "si": 1,
+      "field": "c",
+      "old": "주로 가족의 손위 관계에 쓴다. elder sister(언니·누나). 비교할 때는 older than.",
+      "new": "가족의 손위 관계에는 older도 가능. elder sister는 언니·누나. 나이를 비교할 때는 older than.",
+      "reason": "같은 5글자 older가 예문을 그대로 대체하며 기존 유용한 문형 차이는 유지.",
+      "alternative": "older"
+    },
+    {
+      "lesson": 33,
+      "exercise": 4,
+      "word": "pond",
+      "si": 1,
+      "field": "c",
+      "old": "lake보다 훨씬 작은 물웅덩이. 사람이 판 것도 pond다.",
+      "new": "여기서는 lake도 가능. pond는 보통 lake보다 작고 얕은 연못. 인공적으로 만든 연못에도 쓴다.",
+      "reason": "자연스러운 기존 예문을 유지하고 같은 글자수 후보와 연못의 범위를 안내.",
+      "alternative": "lake",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/pond"
+      ]
+    },
+    {
+      "lesson": 33,
+      "exercise": 3,
+      "word": "clause",
+      "si": 1,
+      "field": "ex",
+      "old": "The contract has a {{BLANK}} about late pay.",
+      "new": "The contract has a {{BLANK}} about late payments.",
+      "reason": "late pay보다 지급 지연을 뜻하는 late payments가 자연스러움."
+    },
+    {
+      "lesson": 33,
+      "exercise": 3,
+      "word": "clause",
+      "si": 1,
+      "field": "tr",
+      "old": "그 계약서에는 늦은 지급에 관한 조항이 있어.",
+      "new": "그 계약서에는 지급 지연에 관한 조항이 있어.",
+      "reason": "어색한 번역 늦은 지급을 자연스럽게 수정."
+    },
+    {
+      "lesson": 33,
+      "exercise": 10,
+      "word": "comic",
+      "si": 1,
+      "field": "tr",
+      "old": "걔의 희극적인 타이밍이 반 전체를 웃게 만들어.",
+      "new": "걔는 웃기는 타이밍을 잘 잡아서 반 전체를 웃게 해.",
+      "reason": "comic timing을 희극적인 타이밍으로 직역한 어색함 제거."
+    },
+    {
+      "lesson": 34,
+      "exercise": 2,
+      "word": "bang",
+      "si": 3,
+      "field": "c",
+      "old": "bang on the door(문을 쾅쾅 두드리다). 큰 소리를 내며 치거나 닫다.",
+      "new": "문을 쾅 닫다는 bang the door 또는 slam the door. bang on the door는 문을 쾅쾅 두드리다.",
+      "reason": "같은 4글자 slam이 예문에서 자연스럽게 대체됨. 다른 전치사 문형은 유지.",
+      "alternative": "slam"
+    },
+    {
+      "lesson": 34,
+      "exercise": 10,
+      "word": "peel",
+      "si": 1,
+      "field": "c",
+      "old": "과일이나 채소 껍질에 쓴다. peel off는 '벗겨 내다, 벗겨지다'.",
+      "new": "과일·채소의 껍질을 벗기다. 칼로 사과 껍질을 깎을 때는 pare도 쓴다. peel off는 벗겨 내다·벗겨지다.",
+      "reason": "같은 4글자 pare의 가능한 쓰임과 칼로 깎는 차이를 짧게 설명.",
+      "alternative": "pare",
+      "sources": [
+        "https://dictionary.cambridge.org/us/thesaurus/pare",
+        "https://www.dictionary.com/browse/peel"
+      ]
+    },
+    {
+      "lesson": 34,
+      "exercise": 10,
+      "word": "peel",
+      "si": 2,
+      "field": "c",
+      "old": "orange peel(오렌지 껍질). 동사로는 껍질을 벗기다.",
+      "new": "orange peel 또는 orange rind는 오렌지 껍질. rind는 특히 두껍고 단단한 겉껍질을 가리킨다.",
+      "reason": "같은 4글자 rind가 가능한 과일 문맥을 설명하고 중복된 동사 뜻 제거.",
+      "alternative": "rind",
+      "sources": [
+        "https://www.collinsdictionary.com/us/dictionary/english/rind"
+      ]
+    },
+    {
+      "lesson": 34,
+      "exercise": 9,
+      "word": "thou",
+      "si": 1,
+      "field": "ex",
+      "old": "Old poems use {{BLANK}} instead of you.",
+      "new": "In old poems, '{{BLANK}} art' means 'you are'.",
+      "reason": "thou/thee 양쪽이 가능한 메타 설명에서 주격 thou가 자연스럽게 드러나는 문구로 개선.",
+      "alternative": "thee"
+    },
+    {
+      "lesson": 34,
+      "exercise": 9,
+      "word": "thou",
+      "si": 1,
+      "field": "tr",
+      "old": "옛날 시들은 you 대신 '너'를 뜻하는 옛말을 써.",
+      "new": "옛 시에서 'thou art'는 'you are'라는 뜻이야.",
+      "reason": "바뀐 예문에 맞춤."
+    },
+    {
+      "lesson": 34,
+      "exercise": 4,
+      "word": "technically",
+      "si": 1,
+      "field": "c",
+      "old": "규칙·정의·사실을 엄밀히 적용하면이라는 뜻. 문장 전체를 꾸며 엄밀히 말하면이라고 표현한다.",
+      "new": "규칙·정의·사실을 엄밀히 적용하면이라는 뜻. technically speaking은 엄밀히 말하면.",
+      "reason": "같은 뜻을 두 문장에 반복하던 설명을 실용적인 결합 표현으로 정리."
+    },
+    {
+      "lesson": 34,
+      "exercise": 1,
+      "word": "booth",
+      "si": 1,
+      "field": "c",
+      "old": "phone booth(공중전화 박스), voting booth(투표소)처럼 작은 칸을 뜻한다.",
+      "new": "phone booth는 공중전화 박스, voting booth는 기표소의 칸막이 공간.",
+      "reason": "voting booth를 투표소 전체로 설명한 범위 오류 수정."
+    },
+    {
+      "lesson": 35,
+      "exercise": 5,
+      "word": "stunning",
+      "si": 1,
+      "field": "c",
+      "old": "stun(놀라게 하다)+-ing. beautiful보다 훨씬 센 칭찬이다.",
+      "new": "여기서는 gorgeous도 가능. 둘 다 감탄할 만큼 아름다운. stunning은 충격적인 일에도 쓴다.",
+      "reason": "gorgeous 카드와 상호 연결하며 같은 8글자 대안을 인정.",
+      "alternative": "gorgeous"
+    },
+    {
+      "lesson": 35,
+      "exercise": 2,
+      "word": "venue",
+      "si": 1,
+      "field": "c",
+      "old": "공연·경기·행사가 열리는 곳. place보다 격식 있는 말이다.",
+      "new": "공연·경기·행사가 열리는 장소. 여기서는 place도 가능하지만 venue는 행사 장소를 구체적으로 가리킨다.",
+      "reason": "같은 5글자 place가 가능하며 단순히 격식 차이라는 기존 설명을 구체화.",
+      "alternative": "place"
+    },
+    {
+      "lesson": 35,
+      "exercise": 3,
+      "word": "reluctant",
+      "si": 1,
+      "field": "c",
+      "old": "be reluctant to+동사원형이 기본 꼴이다. 마음이 안 내키는 상태.",
+      "new": "여기서는 unwilling도 가능. reluctant는 하기를 꺼리는, unwilling은 할 마음이 없는. 뒤에 to부정사.",
+      "reason": "같은 9글자 unwilling의 문맥상 대체 가능성과 의미 차이를 짧게 제시.",
+      "alternative": "unwilling"
+    },
+    {
+      "lesson": 35,
+      "exercise": 3,
+      "word": "warrant",
+      "si": 2,
+      "field": "c",
+      "old": "warrant attention: 주목할 만하다. warrant an investigation: 조사할 이유가 충분하다. 격식 있는 표현.",
+      "new": "여기서는 justify도 가능. warrant는 ~할 충분한 이유가 되다. warrant attention은 주목할 만하다.",
+      "reason": "같은 7글자 justify가 의미·문형 모두 들어맞는 대안.",
+      "alternative": "justify"
+    },
+    {
+      "lesson": 35,
+      "exercise": 3,
+      "word": "warrant",
+      "si": 2,
+      "field": "tr",
+      "old": "한 번 늦은 게 전화까지 정당화할 일은 아니야.",
+      "new": "한 번 지각했다고 전화까지 할 정도는 아니야.",
+      "reason": "정당화라는 추상적 직역보다 예문의 판단을 자연스럽게 전달."
+    },
+    {
+      "lesson": 35,
+      "exercise": 8,
+      "word": "latest",
+      "si": 1,
+      "field": "c",
+      "old": "가장 최근의. the latest news는 최신 소식, at the latest는 늦어도라는 뜻.",
+      "new": "recent는 최근의, latest는 가장 최근의. latest news는 최신 소식. at the latest는 늦어도.",
+      "reason": "같은 6글자 recent와의 핵심 차이를 짧게 설명.",
+      "alternative": "recent"
+    },
+    {
+      "lesson": 35,
+      "exercise": 10,
+      "word": "mining",
+      "si": 1,
+      "field": "ex",
+      "old": "Coal {{BLANK}} was the main job in this town.",
+      "new": "Coal {{BLANK}} was the main industry in this town.",
+      "reason": "광업 전체를 main job이라고 부른 어색함을 산업으로 수정."
+    },
+    {
+      "lesson": 35,
+      "exercise": 10,
+      "word": "mining",
+      "si": 1,
+      "field": "tr",
+      "old": "석탄 채굴이 이 동네의 주된 일이었어.",
+      "new": "석탄 채굴이 이 동네의 주된 산업이었어.",
+      "reason": "industry에 맞춘 번역."
+    },
+    {
+      "lesson": 36,
+      "exercise": 1,
+      "word": "audio",
+      "si": 1,
+      "field": "c",
+      "old": "video와 짝인 음향. 형용사로는 음향의: audio equipment(음향 장비).",
+      "new": "영상의 소리 부분. 여기서는 sound도 가능. audio equipment는 음향 장비.",
+      "reason": "같은 글자수의 자연스러운 대체어를 해당 문장에 한정해 안내.",
+      "alternative": "sound"
+    },
+    {
+      "lesson": 36,
+      "exercise": 1,
+      "word": "rear",
+      "si": 1,
+      "field": "c",
+      "old": "back보다 격식 있는 말. 형용사로 rear door(뒷문), rear seat(뒷좌석).",
+      "new": "여기서는 back도 가능. rear가 더 격식 있는 말. rear door는 뒷문, rear seat는 뒷좌석.",
+      "reason": "같은 글자수의 실제 대체어와 격식 차이를 연결.",
+      "alternative": "back"
+    },
+    {
+      "lesson": 36,
+      "exercise": 2,
+      "word": "ward",
+      "si": 1,
+      "field": "c",
+      "old": "병원 안의 큰 병실. 「in the ~ ward」로 어디인지 밝힌다.",
+      "new": "병원에서 특정 환자들을 모아 돌보는 병실이나 병동. children's ward는 소아 병동.",
+      "reason": "병동을 큰 병실로만 한정한 해설을 바로잡음."
+    },
+    {
+      "lesson": 36,
+      "exercise": 4,
+      "word": "shocked",
+      "si": 1,
+      "field": "c",
+      "old": "충격을 받은 쪽은 shocked, 충격을 주는 쪽은 shocking. be shocked by 또는 at은 ~에 충격을 받다.",
+      "new": "여기서는 stunned도 가능. shocked는 충격을 받은, shocking은 충격을 주는.",
+      "reason": "같은 글자수의 문맥 대체어를 안내하면서 -ed/-ing 대비 유지.",
+      "alternative": "stunned"
+    },
+    {
+      "lesson": 36,
+      "exercise": 5,
+      "word": "pub",
+      "si": 1,
+      "field": "c",
+      "old": "public house의 줄임말. 영국에선 밥도 파는 동네 술집이다.",
+      "new": "여기서는 bar도 가능. pub은 public house의 줄임말로, 특히 영국의 동네 술집을 가리킨다.",
+      "reason": "실제 예문에서 가능한 같은 글자수 대체어와 pub의 쓰임 안내.",
+      "alternative": "bar"
+    },
+    {
+      "lesson": 36,
+      "exercise": 5,
+      "word": "backing",
+      "si": 1,
+      "field": "c",
+      "old": "돈이나 힘으로 밀어주는 것.",
+      "new": "여기서는 support도 가능. backing은 돈·영향력 등으로 뒷받침해 주는 지지.",
+      "reason": "같은 글자수의 문맥상 대체어 안내.",
+      "alternative": "support"
+    },
+    {
+      "lesson": 36,
+      "exercise": 6,
+      "word": "serial",
+      "si": 2,
+      "field": "c",
+      "old": "여러 회로 나눠 나오는 이야기. cereal(곡물)과 발음이 같다.",
+      "new": "여기서는 series도 가능. serial은 이야기가 이어지는 연속물, series는 여러 회로 된 프로그램을 넓게 뜻한다.",
+      "reason": "연속물의 실제 대체 표현과 범위를 안내.",
+      "alternative": "series",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/serial?topic=books-and-parts-of-books",
+        "https://dictionary.cambridge.org/dictionary/english/series"
+      ]
+    },
+    {
+      "lesson": 36,
+      "exercise": 7,
+      "word": "bulk",
+      "si": 1,
+      "field": "c",
+      "old": "「the bulk of+명사」로 '~의 대부분'. most와 같은 뜻이다.",
+      "new": "the bulk of my time은 내 시간의 대부분. most of my time으로 바꿀 때는 the를 빼야 한다.",
+      "reason": "동의어 most를 기존 틀에 그대로 넣을 수 있다는 오해를 방지."
+    },
+    {
+      "lesson": 37,
+      "exercise": 2,
+      "word": "purely",
+      "si": 1,
+      "field": "c",
+      "old": "pure(순수한)+-ly. purely because of처럼 이유를 강조한다.",
+      "new": "여기서는 solely도 가능. purely for는 순전히 ~ 때문에라는 뜻으로 이유를 강조한다.",
+      "reason": "같은 글자수 대체어를 해당 이유 문맥에 한정해 안내.",
+      "alternative": "solely"
+    },
+    {
+      "lesson": 37,
+      "exercise": 3,
+      "word": "genuinely",
+      "si": 1,
+      "field": "c",
+      "old": "genuine(진짜의)+-ly. 꾸밈이나 거짓 없이 진심으로.",
+      "new": "여기서는 sincerely도 가능. genuinely sorry는 거짓 없이 진심으로 미안해하는.",
+      "reason": "동일 글자수이며 진심 어린 사과를 나타내는 대체어 안내.",
+      "alternative": "sincerely"
+    },
+    {
+      "lesson": 37,
+      "exercise": 3,
+      "word": "smash",
+      "si": 2,
+      "field": "c",
+      "old": "smash into ~에 세게 부딪치다. 충돌 소리를 담은 말이다.",
+      "new": "여기서는 crash도 가능. smash into는 세게 부딪치다. smash는 충돌로 부서지는 느낌이 더 강하다.",
+      "reason": "동일한 -ed 틀에 들어가는 대체어와 충돌의 뉘앙스를 안내.",
+      "alternative": "crash"
+    },
+    {
+      "lesson": 37,
+      "exercise": 4,
+      "word": "fabulous",
+      "si": 1,
+      "field": "c",
+      "old": "fable(우화)과 같은 뿌리다. 칭찬할 때 쓰는 강한 말이다.",
+      "new": "여기서는 gorgeous도 가능. fabulous는 굉장히 멋지다는 강한 칭찬. fable(우화)과 같은 뿌리다.",
+      "reason": "같은 글자수 대체어를 옷차림 칭찬 문맥에 한정.",
+      "alternative": "gorgeous"
+    },
+    {
+      "lesson": 37,
+      "exercise": 7,
+      "word": "slim",
+      "si": 1,
+      "field": "c",
+      "old": "날씬하다는 긍정적인 표현으로 자주 쓴다. skinny는 지나치게 말랐다는 부정적인 느낌을 줄 수 있다.",
+      "new": "여기서는 thin도 가능. slim은 날씬하다는 긍정적인 말. thin은 살이 적다는 뜻이며 문맥에 따라 평가가 달라진다.",
+      "reason": "same-length thin의 실제 대체 가능성과 평가 차이를 과도한 단정 없이 설명.",
+      "alternative": "thin"
+    },
+    {
+      "lesson": 37,
+      "exercise": 8,
+      "word": "audit",
+      "si": 2,
+      "field": "c",
+      "old": "audit accounts(회계를 감사하다). 기록이 정확한지 공식적으로 확인하다.",
+      "new": "여기서는 check도 가능. audit은 회계 기록 등을 공식적으로 검사하다. check는 확인·검사를 넓게 뜻한다.",
+      "reason": "같은 글자수이며 자연스럽게 들어가는 넓은 대체어의 범위를 안내.",
+      "alternative": "check"
+    },
+    {
+      "lesson": 37,
+      "exercise": 9,
+      "word": "gauge",
+      "si": 2,
+      "field": "c",
+      "old": "반응·능력·크기 등을 가늠하거나 판단하다.",
+      "new": "여기서는 judge도 가능. gauge는 반응·능력·정도 등을 가늠하다. judge는 판단하다.",
+      "reason": "감정을 판단하는 문맥의 동일 글자수 대체어 안내.",
+      "alternative": "judge"
+    },
+    {
+      "lesson": 37,
+      "exercise": 10,
+      "word": "relaxed",
+      "si": 2,
+      "field": "ex",
+      "old": "Our school has a {{BLANK}} hair rule.",
+      "new": "Our school has {{BLANK}} rules about hairstyles.",
+      "reason": "hair rule보다 자연스러운 규정 표현으로 수정."
+    },
+    {
+      "lesson": 37,
+      "exercise": 2,
+      "word": "overview",
+      "si": 1,
+      "field": "tr",
+      "old": "그 계획의 전체 개관을 빠르게 알려 줘.",
+      "new": "그 계획의 개요를 간단히 알려 줘.",
+      "reason": "전체 개관이라는 중복 표현을 간결한 번역으로 수정."
+    },
+    {
+      "lesson": 37,
+      "exercise": 9,
+      "word": "badge",
+      "si": 1,
+      "field": "c",
+      "old": "경찰 신분증도 badge라 한다.",
+      "new": "이름을 적어 다는 것은 name badge. 경찰이 신분을 나타내려고 다는 배지도 badge다.",
+      "reason": "badge를 신분증 카드 자체로 오해할 수 있는 설명을 수정."
+    },
+    {
+      "lesson": 37,
+      "exercise": 8,
+      "word": "navigation",
+      "si": 1,
+      "field": "c",
+      "old": "요즘은 지도 앱도 navigation.",
+      "new": "목적지까지 길을 찾아가는 일이나 기술. 지도 앱의 경로 안내도 navigation이다.",
+      "reason": "지도 앱 자체를 navigation이라고 뭉뚱그린 설명을 기능 중심으로 수정."
+    },
+    {
+      "lesson": 38,
+      "exercise": 1,
+      "word": "crude",
+      "si": 1,
+      "field": "c",
+      "old": "'거칠고 다듬어지지 않은'이 핵심. 말이 상스러울 때도 쓴다.",
+      "new": "여기서는 rough도 가능. crude는 거칠고 다듬어지지 않은. 말이나 농담에 쓰면 상스러운이라는 뜻이다.",
+      "reason": "거친 약도라는 문맥에 실제 가능한 동일 글자수 대체어 안내.",
+      "alternative": "rough"
+    },
+    {
+      "lesson": 38,
+      "exercise": 3,
+      "word": "bump",
+      "si": 1,
+      "field": "c",
+      "old": "bump one's head on: ~에 머리를 찧다. bump into: 부딪치다, 또는 우연히 만나다. 사람과 부딪칠 때도 쓴다.",
+      "new": "여기서는 bang도 가능. bump your head on은 ~에 머리를 찧다. bump into는 부딪치다·우연히 만나다.",
+      "reason": "동일 글자수의 머리를 찧는 표현 안내.",
+      "alternative": "bang"
+    },
+    {
+      "lesson": 38,
+      "exercise": 3,
+      "word": "dense",
+      "si": 1,
+      "field": "c",
+      "old": "명사는 density(밀도). densely populated 인구가 밀집한.",
+      "new": "여기서는 thick도 가능. dense forest는 나무가 빽빽한 숲. density는 밀도.",
+      "reason": "연기뿐 아니라 숲에도 가능한 동일 글자수 대체어 안내.",
+      "alternative": "thick"
+    },
+    {
+      "lesson": 38,
+      "exercise": 4,
+      "word": "gig",
+      "si": 2,
+      "field": "c",
+      "old": "gig economy는 단기 일감으로 굴러가는 경제를 뜻한다.",
+      "new": "여기서는 job도 가능. gig는 특히 단기 일감이나 임시 일자리. gig economy는 이런 일감 중심의 경제.",
+      "reason": "같은 글자수의 넓은 대체어와 핵심 의미 차이 안내.",
+      "alternative": "job"
+    },
+    {
+      "lesson": 38,
+      "exercise": 8,
+      "word": "robust",
+      "si": 1,
+      "field": "c",
+      "old": "사람·물건·체계에 두루 쓴다. 강세 주의.",
+      "new": "여기서는 sturdy도 가능. 둘 다 튼튼하고 견고하다는 뜻. robust는 경제·체계 등이 탄탄할 때도 쓴다.",
+      "reason": "자전거 문맥의 실제 대체어와 다른 쓰임 안내.",
+      "alternative": "sturdy"
+    },
+    {
+      "lesson": 38,
+      "exercise": 10,
+      "word": "debris",
+      "si": 1,
+      "field": "c",
+      "old": "프랑스어라 s를 읽지 않아 [더브리]. 셀 수 없는 명사다.",
+      "new": "부서져 흩어진 잔해. 건물의 돌·벽돌 잔해라면 rubble도 가능. s는 묵음이며 셀 수 없는 명사.",
+      "reason": "동일 글자수 대체어의 범위를 건물 잔해로 제한해 안내.",
+      "alternative": "rubble",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/rubble?topic=rubbish-and-waste"
+      ]
+    },
+    {
+      "lesson": 38,
+      "exercise": 10,
+      "word": "pasta",
+      "si": 1,
+      "field": "c",
+      "old": "이탈리아어. 셀 수 없어 a pasta라고 하지 않는다.",
+      "new": "보통 셀 수 없는 명사로 쓴다. 파스타 한 접시는 a plate of pasta.",
+      "reason": "a pasta가 절대 불가능하다는 단정을 일반적 용법으로 완화."
+    },
+    {
+      "lesson": 38,
+      "exercise": 10,
+      "word": "colored",
+      "si": 1,
+      "field": "c",
+      "old": "영국식 철자는 coloured. 사람 피부색에 쓰면 모욕이 된다.",
+      "new": "영국식 철자는 coloured. 사람을 가리킬 때는 특히 미국·영국에서 낡고 모욕적인 표현이다.",
+      "reason": "사람 피부색에 쓰면 언제나 모욕이라는 지역 구분 없는 단정을 수정.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/colored",
+        "https://www.ahdictionary.com/word/search.html?id=C5510100"
+      ]
+    },
+    {
+      "lesson": 39,
+      "exercise": 2,
+      "word": "accountable",
+      "si": 1,
+      "field": "c",
+      "old": "account(설명하다)+-able. 사람에게는 to, 일에는 for를 붙인다.",
+      "new": "여기서는 responsible도 가능. accountable은 설명하고 책임지는 것. 사람에게는 to, 일에는 for.",
+      "reason": "동일 글자수 대체어와 설명 책임의 뉘앙스 안내.",
+      "alternative": "responsible"
+    },
+    {
+      "lesson": 39,
+      "exercise": 2,
+      "word": "relaxing",
+      "si": 1,
+      "field": "c",
+      "old": "긴장을 풀어 주는 쪽은 relaxing, 긴장이 풀린 쪽은 relaxed. a relaxing bath는 긴장을 풀어 주는 목욕.",
+      "new": "여기서는 soothing도 가능. relaxing은 긴장을 풀어 주는, soothing은 마음·몸을 편안하게 하는.",
+      "reason": "목욕 문맥의 동일 글자수 대체어 안내.",
+      "alternative": "soothing"
+    },
+    {
+      "lesson": 39,
+      "exercise": 2,
+      "word": "lad",
+      "si": 1,
+      "field": "c",
+      "old": "(영) boy의 친근한 말. 미국에서는 거의 안 쓰고 guy를 쓴다.",
+      "new": "영국에서 소년·젊은 남자를 친근하게 부르는 말. 여기서는 boy나 guy도 가능.",
+      "reason": "지역 차이를 과장한 단정을 줄이고 동일 글자수 대체어 안내.",
+      "alternative": "boy"
+    },
+    {
+      "lesson": 39,
+      "exercise": 4,
+      "word": "sharply",
+      "si": 1,
+      "field": "c",
+      "old": "rise/fall sharply: 급격히 오르다/떨어지다.",
+      "new": "여기서는 rapidly도 가능. sharply는 변화 폭이 크거나 가파른 데, rapidly는 속도가 빠른 데 초점이 있다.",
+      "reason": "가격 상승 문맥의 동일 글자수 대체어와 초점 차이 안내.",
+      "alternative": "rapidly"
+    },
+    {
+      "lesson": 39,
+      "exercise": 4,
+      "word": "liable",
+      "si": 1,
+      "field": "c",
+      "old": "be liable to+동사원형. 나쁜 일이 일어나기 쉽다는 뜻이다.",
+      "new": "여기서는 likely도 가능. be liable to는 특히 좋지 않은 일이 일어나기 쉽다는 뜻.",
+      "reason": "동일 글자수 대체어와 전형적 사용 범위를 안내.",
+      "alternative": "likely"
+    },
+    {
+      "lesson": 39,
+      "exercise": 5,
+      "word": "immense",
+      "si": 1,
+      "field": "c",
+      "old": "라틴어 immensus(측정되지 않은)에서 왔다. ‘잴 수 없이 큰’ 느낌. 크기뿐 아니라 양·정도에도 쓴다.",
+      "new": "여기서는 massive도 가능. immense는 잴 수 없을 만큼 큰 느낌. 크기뿐 아니라 양·정도에도 쓴다.",
+      "reason": "같은 글자수이며 쇼핑몰의 거대함을 나타내는 대체어 안내.",
+      "alternative": "massive"
+    },
+    {
+      "lesson": 39,
+      "exercise": 6,
+      "word": "messy",
+      "si": 1,
+      "field": "c",
+      "old": "mess(엉망)+-y. 비교급은 messier. 방·책상·글씨에 쓴다.",
+      "new": "messy는 정리가 안 돼 어지러운. dirty도 이 자리에 올 수 있지만 때·먼지로 더럽다는 뜻이다.",
+      "reason": "동일 글자수 후보의 실제 의미 차이를 짧게 설명.",
+      "alternative": "dirty"
+    },
+    {
+      "lesson": 39,
+      "exercise": 10,
+      "word": "applause",
+      "si": 1,
+      "field": "c",
+      "old": "셀 수 없어 an applause는 틀리다. 동사는 applaud(박수 치다).",
+      "new": "보통 셀 수 없는 명사. a round of applause는 한 차례의 박수, applaud는 박수 치다.",
+      "reason": "오답 경고를 실제 쓸 수 있는 표현으로 교체."
+    },
+    {
+      "lesson": 40,
+      "exercise": 1,
+      "word": "thoughtful",
+      "si": 2,
+      "field": "c",
+      "old": "곰곰이 생각에 잠긴. a thoughtful look: 생각에 잠긴 표정.",
+      "new": "여기서는 reflective도 가능. thoughtful은 생각에 잠긴, reflective는 곰곰이 되돌아보는.",
+      "reason": "같은 글자수의 자연스러운 후보와 성찰의 뉘앙스 안내.",
+      "alternative": "reflective"
+    },
+    {
+      "lesson": 40,
+      "exercise": 2,
+      "word": "quiz",
+      "si": 1,
+      "field": "c",
+      "old": "미국 학교에서 test보다 짧고 가벼운 시험을 quiz라 한다.",
+      "new": "여기서는 test도 가능. quiz는 특히 미국 학교에서 짧고 가벼운 시험. test는 시험을 넓게 뜻한다.",
+      "reason": "동일 글자수 대체어가 가능한 범위 명시.",
+      "alternative": "test"
+    },
+    {
+      "lesson": 40,
+      "exercise": 3,
+      "word": "surge",
+      "si": 1,
+      "field": "c",
+      "old": "a surge in A(A의 급증).",
+      "new": "여기서는 spike도 가능. 둘 다 급증을 뜻한다. spike는 수치가 짧은 시간에 뾰족하게 치솟는 느낌.",
+      "reason": "판매 급증 문맥의 같은 글자수 후보와 뉘앙스 안내.",
+      "alternative": "spike"
+    },
+    {
+      "lesson": 40,
+      "exercise": 4,
+      "word": "memo",
+      "si": 1,
+      "field": "c",
+      "old": "memorandum의 줄임말. 복수는 memos로 s만 붙인다.",
+      "new": "여기서는 note도 가능. memo는 특히 직장에서 전달하는 짧은 공지·메모. memorandum의 줄임말.",
+      "reason": "같은 글자수 대체어와 memo의 전형적 용법 안내.",
+      "alternative": "note"
+    },
+    {
+      "lesson": 40,
+      "exercise": 5,
+      "word": "stall",
+      "si": 1,
+      "field": "c",
+      "old": "시장이나 거리의 작은 판매대. a food stall(먹거리 가판).",
+      "new": "여기서는 booth도 가능. stall은 시장·거리의 가판대, booth는 작은 판매·전시 공간 등에 쓴다.",
+      "reason": "자연스러운 동일 글자수 후보의 적용 범위 안내.",
+      "alternative": "booth"
+    },
+    {
+      "lesson": 40,
+      "exercise": 9,
+      "word": "reckon",
+      "si": 1,
+      "field": "c",
+      "old": "구어에서 ~라고 생각하거나 예상하다. I reckon은 내 생각엔이라는 뜻으로 영국·호주 등에서 흔히 쓴다.",
+      "new": "여기서는 figure도 가능. 내 생각엔이라는 구어로 I reckon은 영국·호주, I figure는 미국에서 흔하다.",
+      "reason": "같은 글자수의 구어 동의어와 지역 경향 안내.",
+      "alternative": "figure"
+    },
+    {
+      "lesson": 40,
+      "exercise": 10,
+      "word": "merge",
+      "si": 1,
+      "field": "c",
+      "old": "merge with는 ~와 합쳐지다, merge into는 ~로 합쳐지다. merger는 합병.",
+      "new": "여기서는 unite도 가능. merge into는 ~로 합쳐지다, merge with는 ~와 합쳐지다. merger는 합병.",
+      "reason": "동아리 합병 문맥에서 가능한 같은 글자수 대체어 안내.",
+      "alternative": "unite"
+    },
+    {
+      "lesson": 41,
+      "exercise": 2,
+      "word": "null",
+      "si": 1,
+      "field": "c",
+      "old": "무효라는 뜻. 법에서는 흔히 null and void라고 짝지어 쓴다.",
+      "new": "여기서는 void도 가능. null and void는 법적으로 무효라는 뜻의 관용 표현.",
+      "reason": "같은 글자수 대체어와 관용 결합의 관계를 명확히 함.",
+      "alternative": "void"
+    },
+    {
+      "lesson": 41,
+      "exercise": 2,
+      "word": "pact",
+      "si": 1,
+      "field": "c",
+      "old": "make[sign] a pact with ~. treaty보다 가벼운 약속에도 쓴다.",
+      "new": "여기서는 deal도 가능. pact는 서로 지키기로 한 약속·협정. make a pact with는 ~와 약속을 맺다.",
+      "reason": "친구 사이 약속에서 가능한 동일 글자수 대체어 안내.",
+      "alternative": "deal"
+    },
+    {
+      "lesson": 41,
+      "exercise": 3,
+      "word": "onset",
+      "si": 1,
+      "field": "c",
+      "old": "the onset of(~의 시작). 병·추위처럼 주로 반갑지 않은 일이 시작될 때 쓴다.",
+      "new": "여기서는 start도 가능. the onset of는 ~의 시작. 병·추위처럼 반갑지 않은 일의 시작에 흔히 쓴다.",
+      "reason": "겨울 시작 문맥의 동일 글자수 대체어 안내.",
+      "alternative": "start"
+    },
+    {
+      "lesson": 41,
+      "exercise": 3,
+      "word": "presently",
+      "si": 1,
+      "field": "c",
+      "old": "‘현재’ 또는 ‘곧, 잠시 후’라는 뜻이 있다.",
+      "new": "현재라는 뜻에서는 currently도 가능. presently는 곧, 잠시 후라는 뜻도 있다.",
+      "reason": "같은 글자수 대체어를 현재 의미로 정확히 제한.",
+      "alternative": "currently"
+    },
+    {
+      "lesson": 41,
+      "exercise": 4,
+      "word": "steer",
+      "si": 2,
+      "field": "c",
+      "old": "steer somebody toward ~. steer clear of는 '~을 피하다'.",
+      "new": "여기서는 guide도 가능. steer someone toward는 ~쪽으로 이끌다. steer clear of는 피하다.",
+      "reason": "진로 유도 문맥의 동일 글자수 후보 안내.",
+      "alternative": "guide"
+    },
+    {
+      "lesson": 41,
+      "exercise": 4,
+      "word": "friction",
+      "si": 2,
+      "field": "c",
+      "old": "사람·집단 사이의 불화나 갈등. friction between the two teams는 두 팀 사이의 마찰.",
+      "new": "사람·집단 사이의 갈등. 여기서는 conflict도 가능.",
+      "reason": "예문 직역을 반복하는 해설을 줄이고 실제 대체어 안내.",
+      "alternative": "conflict"
+    },
+    {
+      "lesson": 41,
+      "exercise": 6,
+      "word": "unwilling",
+      "si": 1,
+      "field": "c",
+      "old": "un-+willing. be unwilling to do로 to부정사가 따라온다.",
+      "new": "여기서는 reluctant도 가능. unwilling은 할 마음이 없는, reluctant는 꺼리는. 뒤에 to부정사.",
+      "reason": "같은 글자수 후보와 뉘앙스 차이 안내.",
+      "alternative": "reluctant"
+    },
+    {
+      "lesson": 41,
+      "exercise": 9,
+      "word": "noisy",
+      "si": 1,
+      "field": "c",
+      "old": "noise(소음)+-y. 비교급은 noisier로 y가 i로 바뀐다.",
+      "new": "여기서는 rowdy도 가능. noisy는 소리가 시끄러운, rowdy는 시끄럽고 떠들썩하거나 질서 없는.",
+      "reason": "같은 글자수 후보의 실제 의미 차이를 제한적으로 안내.",
+      "alternative": "rowdy"
+    },
+    {
+      "lesson": 41,
+      "exercise": 5,
+      "word": "litter",
+      "si": 1,
+      "field": "c",
+      "old": "길에 함부로 버린 쓰레기. 집에서 나오는 건 trash·garbage.",
+      "new": "길·공공장소에 버려진 쓰레기. trash·garbage는 쓰레기를 더 넓게 가리킨다.",
+      "reason": "trash·garbage를 가정에서 나온 쓰레기로만 제한하는 설명 수정."
+    },
+    {
+      "lesson": 41,
+      "exercise": 2,
+      "word": "caption",
+      "si": 1,
+      "field": "c",
+      "old": "사진·그림에 붙인 짧은 설명글. write a caption은 설명글을 쓰다. 영상의 자막도 caption이라고 한다.",
+      "new": "사진·그림에 붙인 짧은 설명글. 영상의 자막도 caption이라고 한다.",
+      "reason": "같은 뜻의 write a caption 직역 반복을 줄임."
+    },
+    {
+      "lesson": 42,
+      "exercise": 1,
+      "word": "fetch",
+      "si": 1,
+      "field": "c",
+      "old": "bring은 그냥 가져오다, fetch는 '가서' 가져오다. 개 놀이도 fetch다.",
+      "new": "여기서는 bring도 가능. fetch는 가서 가져오다, bring은 말하는 쪽으로 가져오다.",
+      "reason": "이미 Go가 있어 bring도 자연스럽게 들어가는 동일 글자수 후보 안내.",
+      "alternative": "bring"
+    },
+    {
+      "lesson": 42,
+      "exercise": 3,
+      "word": "presume",
+      "si": 1,
+      "field": "c",
+      "old": "사실일 가능성이 높다고 보고 추정하다. 흔히 정황을 근거로 그렇게 여기는 것.",
+      "new": "여기서는 suppose도 가능. presume은 정황상 사실일 것으로 여기다. suppose는 그렇게 생각하다.",
+      "reason": "동일 글자수 후보와 추정의 뉘앙스를 짧게 안내.",
+      "alternative": "suppose"
+    },
+    {
+      "lesson": 42,
+      "exercise": 7,
+      "word": "dictate",
+      "si": 2,
+      "field": "c",
+      "old": "명령하듯 정해 버리다. dictator(독재자)와 같은 뿌리다.",
+      "new": "여기서는 control도 가능. dictate는 명령하듯 정하거나 좌우하다. dictator는 독재자.",
+      "reason": "선택을 좌우하는 문맥에서 같은 글자수 대체어 안내.",
+      "alternative": "control"
+    },
+    {
+      "lesson": 42,
+      "exercise": 8,
+      "word": "circa",
+      "si": 1,
+      "field": "c",
+      "old": "대략을 뜻하며 특히 날짜·연도 앞에 쓴다. c. 또는 ca.로 줄이기도 한다.",
+      "new": "여기서는 about도 가능. circa는 특히 연도 앞에서 약, ~년경이라는 뜻. c. 또는 ca.로 줄인다.",
+      "reason": "연도를 대략 제시하는 동일 글자수 후보 안내.",
+      "alternative": "about"
+    },
+    {
+      "lesson": 42,
+      "exercise": 9,
+      "word": "amend",
+      "si": 1,
+      "field": "c",
+      "old": "법·규칙 같은 글을 고칠 때 쓴다. 명사는 amendment(수정안).",
+      "new": "여기서는 alter도 가능. amend는 법·규칙·문서의 내용을 고치다. amendment는 수정안.",
+      "reason": "규칙 개정 문맥의 동일 글자수 후보 안내.",
+      "alternative": "alter"
+    },
+    {
+      "lesson": 42,
+      "exercise": 7,
+      "word": "windy",
+      "si": 1,
+      "field": "c",
+      "old": "wind(바람)+-y. 날씨는 It를 주어로 쓴다.",
+      "new": "여기서는 gusty도 가능. windy는 바람이 센, gusty는 바람이 갑자기 세게 불었다 잦아드는.",
+      "reason": "바람의 양상 차이를 드러내되 대체 불가로 단정하지 않음.",
+      "alternative": "gusty"
+    },
+    {
+      "lesson": 42,
+      "exercise": 10,
+      "word": "marvelous",
+      "si": 1,
+      "field": "c",
+      "old": "marvel(놀라움)+-ous. 영국은 marvellous로 l을 겹쳐 쓴다.",
+      "new": "여기서는 wonderful도 가능. 둘 다 아주 훌륭하다는 뜻. 영국식은 marvellous로 l을 겹쳐 쓴다.",
+      "reason": "같은 글자수 대체어와 영미 철자 정보를 간결하게 유지.",
+      "alternative": "wonderful"
+    },
+    {
+      "lesson": 42,
+      "exercise": 10,
+      "word": "characterization",
+      "si": 1,
+      "field": "c",
+      "old": "characterize(특징을 묘사하다)의 명사. 소설 속 인물을 그리는 방식이나 대상의 성격 규정을 뜻한다. characterisation이라는 철자도 쓴다.",
+      "new": "소설 속 인물 묘사나 대상의 성격 규정. characterize의 명사. 영국식 철자는 characterisation.",
+      "reason": "중복된 의미 설명을 줄이고 파생·철자 정보를 유지."
+    },
+    {
+      "lesson": 43,
+      "exercise": 2,
+      "word": "erect",
+      "si": 1,
+      "field": "c",
+      "old": "격식체. build보다 딱딱하다. erect a building[tent].",
+      "new": "여기서는 build도 가능. erect는 건물·탑·천막 등을 세우다. build보다 격식 있는 말.",
+      "reason": "기존 비교를 동일 글자수의 실제 대체 가능성에 연결.",
+      "alternative": "build"
+    },
+    {
+      "lesson": 43,
+      "exercise": 2,
+      "word": "uphold",
+      "si": 1,
+      "field": "c",
+      "old": "up+hold. uphold a law[tradition]. 과거는 upheld.",
+      "new": "여기서는 affirm도 가능. 둘 다 판결을 유지한다는 뜻. uphold는 법·전통을 지키다에도 쓴다. 과거형은 upheld.",
+      "reason": "판결 유지 문맥에서 가능한 같은 글자수 후보 안내.",
+      "alternative": "affirm",
+      "sources": [
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/affirm"
+      ]
+    },
+    {
+      "lesson": 43,
+      "exercise": 4,
+      "word": "pragmatic",
+      "si": 1,
+      "field": "c",
+      "old": "이상보다 실제 결과를 중시하는.",
+      "new": "여기서는 practical도 가능. pragmatic은 실제 결과를 중시하는, practical은 실행 가능하거나 유용한.",
+      "reason": "같은 글자수 후보를 금지하지 않고 핵심 초점 차이를 설명.",
+      "alternative": "practical",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/pragmatic",
+        "https://www.collinsdictionary.com/us/dictionary/english/practical"
+      ]
+    },
+    {
+      "lesson": 43,
+      "exercise": 4,
+      "word": "slab",
+      "si": 1,
+      "field": "c",
+      "old": "돌·고기·케이크처럼 두껍고 넓적한 덩어리 하나.",
+      "new": "여기서는 tile도 가능. slab은 두껍고 넓적한 판·덩어리, tile은 바닥·벽에 붙이는 판.",
+      "reason": "돌 바닥 문맥의 실제 대체어와 형태·용도 차이를 안내.",
+      "alternative": "tile"
+    },
+    {
+      "lesson": 43,
+      "exercise": 6,
+      "word": "wrongly",
+      "si": 1,
+      "field": "c",
+      "old": "wrongly assume(잘못 가정하다), be wrongly accused(잘못 고발되다)처럼 동사·분사와 쓴다.",
+      "new": "여기서는 falsely도 가능. wrongly는 잘못·부당하게, falsely는 사실과 다르게라는 데 초점.",
+      "reason": "같은 글자수의 문맥상 대체어를 안내.",
+      "alternative": "falsely"
+    },
+    {
+      "lesson": 43,
+      "exercise": 8,
+      "word": "sniff",
+      "si": 1,
+      "field": "c",
+      "old": "sniff at ~의 냄새를 맡다. 코를 훌쩍일 때도 쓴다.",
+      "new": "여기서는 smell도 가능. sniff는 코로 짧게 들이마시며 냄새를 맡다. 코를 훌쩍일 때도 쓴다.",
+      "reason": "냄새 맡는 행동의 동일 글자수 후보와 동작 차이 안내.",
+      "alternative": "smell"
+    },
+    {
+      "lesson": 43,
+      "exercise": 3,
+      "word": "antibiotic",
+      "si": 1,
+      "field": "c",
+      "old": "anti-(맞서)+bio(생명). 세균에 듣고 감기에는 소용없다.",
+      "new": "anti-(맞서)+bio(생명). 세균 감염을 치료하는 약. 감기를 일으키는 바이러스에는 효과가 없다.",
+      "reason": "감기 전체에 대한 단정을 원인 바이러스에 대한 효과로 정확히 한정.",
+      "sources": [
+        "https://www.nhs.uk/medicines/antibiotics/"
+      ]
+    },
+    {
+      "lesson": 43,
+      "exercise": 10,
+      "word": "coefficient",
+      "si": 1,
+      "field": "c",
+      "old": "문자나 식에 곱해지는 수·인수. 3x에서는 3이 x에 곱해지므로 x의 계수는 3이다.",
+      "new": "문자나 식에 곱해지는 수·인수. 3x에서 3이 x의 계수다.",
+      "reason": "예문과 같은 설명을 한 번 더 풀어 쓴 중복 축약."
+    },
+    {
+      "lesson": 43,
+      "exercise": 10,
+      "word": "inhibition",
+      "si": 1,
+      "field": "c",
+      "old": "inhibit(억제하다)의 명사. inhibition of cell growth는 세포 성장 억제.",
+      "new": "inhibit(억제하다)의 명사. 작용이나 성장이 진행되지 못하게 억누르는 것.",
+      "reason": "예문 번역의 단순 반복 대신 일반적 의미를 간결하게 제시."
+    },
+    {
+      "lesson": 44,
+      "exercise": 1,
+      "word": "tiring",
+      "si": 1,
+      "field": "c",
+      "old": "tired는 피곤한 상태, tiring은 남을 피곤하게 하는 성질. a tiring day(피곤한 하루).",
+      "new": "여기서는 taxing도 가능. tiring은 지치게 하는, taxing은 힘·집중력을 많이 요구하는. 지친 상태는 tired.",
+      "reason": "같은 글자수의 실제 대체어와 부담에 대한 초점 차이 안내.",
+      "alternative": "taxing"
+    },
+    {
+      "lesson": 44,
+      "exercise": 2,
+      "word": "computation",
+      "si": 1,
+      "field": "c",
+      "old": "기계·수학의 계산.",
+      "new": "여기서는 calculation도 가능. computation은 특히 수학·컴퓨터를 이용한 계산에 쓴다.",
+      "reason": "계산이라는 뜻의 동일 글자수 후보 안내.",
+      "alternative": "calculation"
+    },
+    {
+      "lesson": 44,
+      "exercise": 2,
+      "word": "escalate",
+      "si": 2,
+      "field": "c",
+      "old": "값·비용이 빠르게 오르다. escalator와 같은 뿌리다.",
+      "new": "여기서는 increase도 가능. escalate는 급격히 또는 갈수록 더 오르는 데 초점. escalator와 같은 뿌리.",
+      "reason": "동일 글자수이며 실제 굴절틀에도 맞는 대체어 안내.",
+      "alternative": "increase"
+    },
+    {
+      "lesson": 44,
+      "exercise": 4,
+      "word": "linger",
+      "si": 2,
+      "field": "c",
+      "old": "곧 떠나지 않고 더 머물다. linger over a meal은 식사를 느긋하게 오래 하다. 늘 게으르다는 비난은 아니다.",
+      "new": "여기서는 loiter도 가능. linger는 더 머물다, loiter는 목적 없이 서성거리거나 시간을 보내다.",
+      "reason": "늑장이라는 문맥의 같은 글자수 후보와 뜻 범위 안내.",
+      "alternative": "loiter"
+    },
+    {
+      "lesson": 44,
+      "exercise": 8,
+      "word": "facet",
+      "si": 2,
+      "field": "c",
+      "old": "어떤 대상의 여러 특징 중 한 측면.",
+      "new": "여기서는 angle도 가능. facet은 대상의 한 측면, angle은 문제를 바라보는 관점에 초점.",
+      "reason": "문제의 여러 면을 논하는 문맥의 같은 글자수 후보 안내.",
+      "alternative": "angle"
+    },
+    {
+      "lesson": 44,
+      "exercise": 9,
+      "word": "leaflet",
+      "si": 1,
+      "field": "c",
+      "old": "leaf(잎)+let(작은 것). hand out leaflets: 전단을 나눠 주다.",
+      "new": "여기서는 handout도 가능. leaflet은 작은 안내·광고 인쇄물, handout은 나눠 주는 인쇄 자료.",
+      "reason": "전단 배포 문맥의 같은 글자수 대체어 안내.",
+      "alternative": "handout"
+    },
+    {
+      "lesson": 44,
+      "exercise": 10,
+      "word": "oblige",
+      "si": 1,
+      "field": "c",
+      "old": "oblige someone to do는 누군가에게 ~하도록 의무를 지우다. be obliged to do는 ~해야 한다.",
+      "new": "여기서는 compel도 가능. oblige A to do는 A에게 ~할 의무를 지우다. be obliged to는 ~해야 함.",
+      "reason": "의무 부과 문맥에서 가능한 같은 글자수 후보 안내.",
+      "alternative": "compel"
+    },
+    {
+      "lesson": 44,
+      "exercise": 10,
+      "word": "unify",
+      "si": 1,
+      "field": "c",
+      "old": "uni(하나)+fy. 통일하는 행위는 unification, 하나가 된 상태는 unity.",
+      "new": "여기서는 unite도 가능. unify는 하나의 체계로 통합하다. unification은 통일, unity는 하나 된 상태.",
+      "reason": "왕국 통일 문맥의 같은 글자수 후보와 핵심 의미 안내.",
+      "alternative": "unite"
+    },
+    {
+      "lesson": 45,
+      "exercise": 1,
+      "word": "handout",
+      "si": 1,
+      "field": "c",
+      "old": "동사구 hand out(나눠 주다)에서 온 명사. 명사는 붙여 쓴다.",
+      "new": "여기서는 leaflet도 가능. handout은 나눠 주는 자료, leaflet은 작은 안내 인쇄물. hand out은 동사.",
+      "reason": "44세트 leaflet과 실제 대체 가능성을 양쪽에서 안내.",
+      "alternative": "leaflet"
+    },
+    {
+      "lesson": 45,
+      "exercise": 3,
+      "word": "carelessness",
+      "si": 1,
+      "field": "c",
+      "old": "careless(부주의한)+-ness. 원인을 말할 때 out of carelessness.",
+      "new": "carelessness는 부주의. recklessness도 가능하지만 결과를 개의치 않는 무모함이 더 강하다.",
+      "reason": "같은 글자수 후보의 실제 의미 차이를 과도한 대체 불가 없이 안내.",
+      "alternative": "recklessness",
+      "sources": [
+        "https://ahdictionary.com/word/search.html?q=recklessness"
+      ]
+    },
+    {
+      "lesson": 45,
+      "exercise": 4,
+      "word": "terrify",
+      "si": 1,
+      "field": "c",
+      "old": "terrify: 극심한 두려움을 주다. horrify: 충격·혐오·두려움으로 경악하게 하다.",
+      "new": "terrify는 극심한 공포를 주다. 여기서는 horrify도 가능하며 충격·혐오로 경악시키는 뜻도 있다.",
+      "reason": "horrify에도 공포 의미가 있어 문맥상 불가능하다는 오해를 방지.",
+      "alternative": "horrify",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/terrify",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/horrify"
+      ]
+    },
+    {
+      "lesson": 45,
+      "exercise": 5,
+      "word": "confound",
+      "si": 1,
+      "field": "c",
+      "old": "라틴어 confundere(뒤섞다)에서. confuse와 뿌리가 같고 더 격식체다.",
+      "new": "여기서는 bewilder도 가능. 둘 다 혼란스럽게 하다. confound는 격식체이며 예상을 뒤엎다도 뜻한다.",
+      "reason": "동일한 -ed 틀에 맞는 동일 글자수 대체어 안내.",
+      "alternative": "bewilder"
+    },
+    {
+      "lesson": 45,
+      "exercise": 6,
+      "word": "fascinate",
+      "si": 1,
+      "field": "c",
+      "old": "be fascinated by ~(~에 푹 빠지다). 형용사 fascinating(아주 흥미로운).",
+      "new": "여기서는 captivate도 가능. fascinate는 흥미로 마음을 붙잡다, captivate는 매력으로 사로잡다.",
+      "reason": "같은 글자수의 실제 대체어와 관심·매력의 초점 차이 안내.",
+      "alternative": "captivate"
+    },
+    {
+      "lesson": 45,
+      "exercise": 8,
+      "word": "tidily",
+      "si": 1,
+      "field": "c",
+      "old": "tidy(정돈된)+-ly. y가 i로 바뀐다. 반대는 untidily.",
+      "new": "여기서는 neatly도 가능. 둘 다 깔끔하고 정돈되게라는 뜻. tidy의 y를 i로 바꾸고 -ly를 붙인다.",
+      "reason": "옷 개기 문맥의 같은 글자수 대체어 안내.",
+      "alternative": "neatly"
+    },
+    {
+      "lesson": 45,
+      "exercise": 2,
+      "word": "demonstrator",
+      "si": 1,
+      "field": "c",
+      "old": "demonstrate(시위하다)+-or. 거리에서 구호를 외치는 사람이다.",
+      "new": "demonstrate(시위하다)+-or. 의견·요구를 공개적으로 드러내는 시위에 참여하는 사람.",
+      "reason": "반드시 거리에서 구호를 외쳐야 한다는 불필요한 의미 제한을 제거."
+    }
+  ],
+  "unresolved": [],
+  "summary": "33~45세트 1,584카드를 모두 직접 읽음. 동일 글자수 후보의 실제 문법·문맥 호환성을 검토하고, 정답 추가 없이 해설에 범위와 미묘한 의미 차이를 안내. 중복 해설·부자연스러운 번역과 일부 의미 제한을 수정.",
+  "validation": {
+    "sourceCards": 1584,
+    "proposedFields": 106,
+    "proposedCards": 102,
+    "fields": {
+      "c": 96,
+      "ex": 4,
+      "tr": 6
+    },
+    "sameLengthAlternatives": 81,
+    "allOldValuesMatch": true,
+    "maxNewExplanationCharacters": 70,
+    "errors": []
+  }
+}

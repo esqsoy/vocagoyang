@@ -6,8 +6,9 @@ const topicReview=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../topic
 const contentReview=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../content-review-20260927/findings.json'),'utf8'));
 const poolExpansion=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../pool-expansion-20260927/findings.json'),'utf8'));
 const playerFeedbacks=['20260927','20260928'].map(date=>JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../player-feedback-'+date+'.json'),'utf8')));
+const {review:synonymReview,restoreSynonymReview}=require('../../synonym-review-20260929/restore.cjs');
 function restorePlayerFeedback(data){
-  const restored=structuredClone(data),hash=value=>crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
+  const restored=restoreSynonymReview(data),hash=value=>crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
   for(const playerFeedback of [...playerFeedbacks].reverse()){
     assert.equal(hash(restored),playerFeedback.afterDataSha256,'Unlogged change after player feedback');
     for(const change of [...playerFeedback.changes].reverse()){
@@ -50,6 +51,7 @@ function restoreContentReview(data){
 }
 function restoreTopicGrouping(data,{beforeContentReview=false}={}){
   const restored=structuredClone(data);
+  const currentReview=crypto.createHash('sha256').update(JSON.stringify(data)).digest('hex')===synonymReview.afterDataSha256;
   // Remove only the two audited calendar repeats and their grouping metadata
   // before restoring explanation snapshots at their historical card indexes.
   for(const change of topicReview.metadataChanges){
@@ -62,6 +64,11 @@ function restoreTopicGrouping(data,{beforeContentReview=false}={}){
     if(!beforeContentReview)for(const change of contentReview.changes){
       if(change.id===`${added.lesson}:${added.ex}:${added.index}`){
         assert.deepEqual(expected[change.field],change.old);expected[change.field]=structuredClone(change.new);
+      }
+    }
+    if(currentReview)for(const change of synonymReview.changes){
+      if(change.lesson===added.lesson&&change.exercise===added.ex&&change.index===added.index){
+        assert.equal(expected[change.field],change.old);expected[change.field]=change.new;
       }
     }
     assert.deepEqual(words[added.index],expected);words.splice(added.index,1);

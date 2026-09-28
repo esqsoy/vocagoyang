@@ -1,3 +1,17 @@
+# Fable 유의어·예문 전수 검수 · 2026-09-29
+
+- 51세트·6,876카드 전량 재독해. 441카드의 예문 40개·번역 43개·해설 407개를 교정했다.
+- 새 대체어는 해설에만 안내한다. 기존 정답·단어·뜻·카드 순서·612연습·UI·IPA·완료/이어하기 기록은 동일하다.
+- 11개 검사 명령 통과. 7,344회 모의 플레이·1,336개 결합 입력 경로와 원본/HTML 동기화·과거 기준 보존 확인.
+- 마더텅·EBS는 수정하지 않았다. 배포 전 기준은 `09ce564`다.
+- [검수 보고서](pipeline/synonym-review-20260929/REPORT.md), [전체 변경 기록](pipeline/synonym-review-20260929/findings.json).
+
+배포 대상: https://esqsoy.github.io/vocagoyang/vocagoyangfable.html
+
+실제 공개 상태는 GitHub Pages 결과와 공개 HTML 파일로 확인한다. 아래는 이전 배포 기록이다.
+
+---
+
 # Fable 학생 이스터에그 · 2026-09-28
 
 - corner 고양이 대사: “꼭 자습실 corner에서 공부하는 사람이 있다고양!”
