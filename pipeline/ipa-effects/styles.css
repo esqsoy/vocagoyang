@@ -1,5 +1,5 @@
 /* Shared pronunciation reveal. Answer cells keep their original size and position. */
-.ipa-effect-layer{position:fixed;inset:0;z-index:40;pointer-events:none;overflow:hidden;}
+.ipa-effect-layer{position:fixed;inset:0;z-index:41;pointer-events:none;overflow:hidden;}
 .ipa-trace{position:absolute;display:flex;align-items:center;justify-content:center;isolation:isolate;opacity:0;color:#fff5db;white-space:nowrap;font-family:Georgia,'Times New Roman',serif;font-size:clamp(25px,6.8vw,34px);font-weight:600;line-height:1;letter-spacing:.03em;transform:translateY(2px) scale(.93);}
 /* A small fixed increase preserves spelling alignment without per-letter sizing. */
 .ov-ipa,.rv .rv-inline-ipa{letter-spacing:.03em;}

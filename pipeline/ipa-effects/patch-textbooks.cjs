@@ -10,9 +10,13 @@ function patchCopyCompletion(html){
   html=html.replace('// Only the normal correct-answer delay waits for speech. Copy remains 650ms.','// Every completed answer, including corrected copies, waits for its pronunciation.');
   return html;
 }
+function patchCombinedEffects(html){
+  return html.replace('  if(good&&combo)return; // Completed answers use the IPA effect; review effects stay intact.\n','')
+    .replace('revealInPlace(w.term);beep("ok");speakPronunciation(w.term,w.meaning);','revealInPlace(w.term);fx(true);beep("ok");speakPronunciation(w.term,w.meaning);');
+}
 function patch(html){
   html=html.replace(/\r\n/g,'\n');
-  if(html.includes('function pronunciationEffectInfo('))return patchCopyCompletion(html);
+  if(html.includes('function pronunciationEffectInfo('))return patchCombinedEffects(patchCopyCompletion(html));
   html=replaceOne(html,'function cancelPendingAdvance(){const s=state.session;', 'function cancelPendingAdvance(){ipaEffectCancelAdvance();const s=state.session;');
   html=replaceOne(html,`function scheduleNext(ms){
   cancelPendingAdvance();const s=state.session,id=s&&s.currentId;if(!s)return;
@@ -67,7 +71,7 @@ function speakPronunciation(term,meaning){
   html=replaceOne(html,'// 이미 시작한 긴 발음은 마치게 두고, 아직 시작하지 않은 재생 예약만 취소한다.\n  stopPronunciation(false);cancelPendingAdvance();','// Manual navigation cancels speech and its overlay immediately.\n  stopPronunciation();cancelPendingAdvance();');
   html=replaceOne(html,'layer.innerHTML="";const gen=++fxGen;','layer.innerHTML="";const gen=++fxGen;\n  if(good&&combo)return; // Completed answers use the IPA effect; review effects stay intact.');
   html=replaceOne(html,'scheduleNext(1500);','scheduleNext(1200);');
-  return patchCopyCompletion(html);
+  return patchCombinedEffects(patchCopyCompletion(html));
 }
 module.exports={patch};
 if(require.main===module){const root=path.resolve(__dirname,'../..');for(const name of ['vocagoyangksat2027.html','vocagoyangebs2027.html']){const file=path.join(root,name);fs.writeFileSync(file,patch(fs.readFileSync(file,'utf8')));console.log('Updated IPA speech/navigation hooks: '+name);}}

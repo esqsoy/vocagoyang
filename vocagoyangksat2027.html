@@ -1282,7 +1282,7 @@ body.playing .appbar{display:flex;padding:0 5px;}
 .rv-note:empty{display:none;}
 /* IPA_EFFECT_STYLES_START */
 /* Shared pronunciation reveal. Answer cells keep their original size and position. */
-.ipa-effect-layer{position:fixed;inset:0;z-index:40;pointer-events:none;overflow:hidden;}
+.ipa-effect-layer{position:fixed;inset:0;z-index:41;pointer-events:none;overflow:hidden;}
 .ipa-trace{position:absolute;display:flex;align-items:center;justify-content:center;isolation:isolate;opacity:0;color:#fff5db;white-space:nowrap;font-family:Georgia,'Times New Roman',serif;font-size:clamp(25px,6.8vw,34px);font-weight:600;line-height:1;letter-spacing:.03em;transform:translateY(2px) scale(.93);}
 /* A small fixed increase preserves spelling alignment without per-letter sizing. */
 .ov-ipa,.rv .rv-inline-ipa{letter-spacing:.03em;}
@@ -2305,7 +2305,7 @@ function submitCopy(){
   }
   s.copyMode=false;s.copyAns="";$("#ainput").oninput=null;$("#submitBtn").disabled=true;
   const w=s.words[s.currentId];s.revealedAt=Date.now();
-  revealInPlace(w.term);beep("ok");speakPronunciation(w.term,w.meaning);scheduleNext(1200);
+  revealInPlace(w.term);fx(true);beep("ok");speakPronunciation(w.term,w.meaning);scheduleNext(1200);
 }
 
 function giveHint(){
@@ -2458,7 +2458,6 @@ let fxGen=0;
 function fx(good,combo){
   const card=$("#quizCard"),layer=$("#fxLayer");if(!card)return;
   layer.innerHTML="";const gen=++fxGen;
-  if(good&&combo)return; // Completed answers use the IPA effect; review effects stay intact.
   /* 화면 흔들기는 오답에만 남긴다. 정답은 하트·꽃이 이미 축하하므로 흔들 이유가 없고,
      흔들림은 읽고 있던 글자까지 통째로 움직여 집중을 깬다(영신 지적). */
   if(!good)document.body.classList.add("shake");

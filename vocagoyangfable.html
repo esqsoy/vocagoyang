@@ -1276,7 +1276,7 @@ html{scrollbar-gutter:stable;background:var(--bg1);}
 .roar-txt span{max-width:88vw;overflow-wrap:anywhere;font-size:clamp(1rem,calc(82vw / var(--roar-letters,7)),1.6rem);line-height:1.35;text-shadow:0 0 10px var(--roar-halo,var(--pink));}
 /* IPA_EFFECT_STYLES_START */
 /* Shared pronunciation reveal. Answer cells keep their original size and position. */
-.ipa-effect-layer{position:fixed;inset:0;z-index:40;pointer-events:none;overflow:hidden;}
+.ipa-effect-layer{position:fixed;inset:0;z-index:41;pointer-events:none;overflow:hidden;}
 .ipa-trace{position:absolute;display:flex;align-items:center;justify-content:center;isolation:isolate;opacity:0;color:#fff5db;white-space:nowrap;font-family:Georgia,'Times New Roman',serif;font-size:clamp(25px,6.8vw,34px);font-weight:600;line-height:1;letter-spacing:.03em;transform:translateY(2px) scale(.93);}
 /* A small fixed increase preserves spelling alignment without per-letter sizing. */
 .ov-ipa,.rv .rv-inline-ipa{letter-spacing:.03em;}
@@ -2687,7 +2687,7 @@ function submitCopy(){
   }
   s.copyMode=false;s.copyAns="";$("#ainput").oninput=null;
   $("#submitBtn").disabled=true;
-  const w=s.words[s.currentId];revealInPlace(w);beep("ok");speak(w.term);armReveal(w);
+  const w=s.words[s.currentId];revealInPlace(w);fx(true);beep("ok");speak(w.term);armReveal(w);
 }
 // Reveal only the first letter, once per card; typing continues after it.
 function giveHint(){
@@ -2870,7 +2870,6 @@ function fxOrigin(el){const r=(el||$("#quizCard")).getBoundingClientRect();retur
 /* 콤보: 꽃잎 수 = 연속 정답 수(1연속 1송이, 10연속 10송이, 최대 40). 5연속부터 링, 10연속부터 화면 가장자리 금빛. 숫자 텍스트는 쓰지 않는다(꽃 개수로 표현) */
 let fxGen=0;
 function fx(good,combo){
-  if(good&&combo){$("#fxLayer").innerHTML="";return;} // Completed answers use the pronunciation reveal; review effects stay intact.
   const card=$("#quizCard"),layer=$("#fxLayer");if(!card)return;
   layer.innerHTML="";const gen=++fxGen;
   /* 화면 흔들기는 오답에만 남긴다. 정답은 하트·꽃이 이미 축하하므로 흔들 이유가 없고,
