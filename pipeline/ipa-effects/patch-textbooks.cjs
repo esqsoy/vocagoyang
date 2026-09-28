@@ -12,7 +12,7 @@ function patchCopyCompletion(html){
 }
 function patchCombinedEffects(html){
   return html.replace('  if(good&&combo)return; // Completed answers use the IPA effect; review effects stay intact.\n','')
-    .replace('revealInPlace(w.term);beep("ok");speakPronunciation(w.term,w.meaning);','revealInPlace(w.term);fx(true);beep("ok");speakPronunciation(w.term,w.meaning);');
+    .replace('revealInPlace(w.term);fx(true);beep("ok");speakPronunciation(w.term,w.meaning);','revealInPlace(w.term);beep("ok");speakPronunciation(w.term,w.meaning);');
 }
 function patch(html){
   html=html.replace(/\r\n/g,'\n');
