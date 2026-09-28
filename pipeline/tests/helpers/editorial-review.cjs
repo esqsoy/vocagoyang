@@ -5,17 +5,20 @@ const stressReview=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../stre
 const topicReview=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../topic-review-20260927/findings.json'),'utf8'));
 const contentReview=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../content-review-20260927/findings.json'),'utf8'));
 const poolExpansion=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../pool-expansion-20260927/findings.json'),'utf8'));
-const playerFeedback=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../player-feedback-20260927.json'),'utf8'));
+const playerFeedbacks=['20260927','20260928'].map(date=>JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../player-feedback-'+date+'.json'),'utf8')));
 function restorePlayerFeedback(data){
   const restored=structuredClone(data),hash=value=>crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
-  assert.equal(hash(restored),playerFeedback.afterDataSha256,'Unlogged change after player feedback');
-  for(const change of [...playerFeedback.changes].reverse()){
-    const group=restored.find(L=>L.lesson===change.lesson)?.exercises.find(e=>e.ex===change.exercise);
-    const card=group?.words.find(w=>w.word===change.word&&w.si===change.si);assert(card);
-    assert.equal(change.field,'c','This feedback edits explanations only');
-    assert.equal(card.c,change.new);card.c=change.old;
+  for(const playerFeedback of [...playerFeedbacks].reverse()){
+    assert.equal(hash(restored),playerFeedback.afterDataSha256,'Unlogged change after player feedback');
+    for(const change of [...playerFeedback.changes].reverse()){
+      const group=restored.find(L=>L.lesson===change.lesson)?.exercises.find(e=>e.ex===change.exercise);
+      const card=group?.words.find(w=>w.word===change.word&&w.si===change.si);assert(card);
+      assert(['c','ex','tr','meow'].includes(change.field),'Only recorded content fields may change');
+      assert.equal(card[change.field],change.new);
+      if(change.oldExists===false)delete card[change.field];else card[change.field]=change.old;
+    }
+    assert.equal(hash(restored),playerFeedback.baselineDataSha256,'Changes exceed recorded player feedback');
   }
-  assert.equal(hash(restored),playerFeedback.baselineDataSha256,'Changes exceed recorded player feedback');
   return restored;
 }
 function restorePoolExpansion(data){

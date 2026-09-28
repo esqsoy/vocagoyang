@@ -1,3 +1,17 @@
+# Fable 학생 이스터에그 · 2026-09-28
+
+- corner 고양이 대사: “꼭 자습실 corner에서 공부하는 사람이 있다고양!”
+- artist 예문: “Painters, writers, and pianists are all artists.” 번역: “화가도, 작가도, 피아니스트도 모두 예술가야.”
+- 두 카드의 세 필드만 수정했다. 전체 6,876카드와 UI·게임 코드·기존 기록은 유지한다. 발음 효과 시제품은 별도 로컬 작업이다.
+- reading-core, pool-expansion, session, keyboard 검사 통과. 원본과 생성 DATA의 일치 및 기록된 변경 외 불변을 확인했다.
+- 변경 기록: [player-feedback-20260928.json](pipeline/player-feedback-20260928.json). 배포 전 기준은 ab2f0461233b4dcc08c7955d3f55e94a07139363이다.
+
+배포 대상: https://esqsoy.github.io/vocagoyang/vocagoyangfable.html
+
+실제 공개 상태는 GitHub Pages 결과와 공개 HTML 파일로 확인한다. 아래는 이전 배포 기록이다.
+
+---
+
 # 마더텅·EBS 최종 Fable UI 적용 · 2026-09-28
 
 - 마더텅과 EBS의 입력칸·첫 글자 힌트·고양이 대사 위치·시간 막대·정답 공개·클리어 효과를 완성된 Fable UI에 맞췄다.

@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-28",
+  "baselineCommit": "ab2f0461233b4dcc08c7955d3f55e94a07139363",
+  "baselineDataSha256": "bd3ac4297c58fe82bf53cbe2745bef45305c308603be1c934ac8cc64988bc9c8",
+  "afterDataSha256": "1e9c57ef6e25c517dcd09145fc91169eb8ba8c90d416a21d6e476819a3a5ff9c",
+  "reason": "Classroom Easter eggs requested by the operator: study-room corner cat dialogue and a pianist in the artist example.",
+  "changes": [
+    {
+      "lesson": 10,
+      "exercise": 1,
+      "word": "corner",
+      "si": 1,
+      "field": "meow",
+      "oldExists": false,
+      "old": null,
+      "new": "꼭 자습실 corner에서 공부하는 사람이 있다고양!"
+    },
+    {
+      "lesson": 0,
+      "exercise": 5,
+      "word": "artist",
+      "si": 1,
+      "field": "ex",
+      "oldExists": true,
+      "old": "Painters, writers, and singers are all {{BLANK}}s.",
+      "new": "Painters, writers, and pianists are all {{BLANK}}s."
+    },
+    {
+      "lesson": 0,
+      "exercise": 5,
+      "word": "artist",
+      "si": 1,
+      "field": "tr",
+      "oldExists": true,
+      "old": "화가도, 작가도, 가수도 모두 예술가야.",
+      "new": "화가도, 작가도, 피아니스트도 모두 예술가야."
+    }
+  ]
+}
