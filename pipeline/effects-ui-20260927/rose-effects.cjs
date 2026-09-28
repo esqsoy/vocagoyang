@@ -5,11 +5,9 @@ module.exports=function applyRoseEffects(html){
   replace('heartA:1, heartT:1, flowerA:1, flowerT:.72, petal:1.35, heartS:.94,',
     'heartA:1, heartT:.92, flowerA:1, flowerT:.72, petal:1.35, heartS:1.13,');
   const rose=fs.readFileSync(path.join(__dirname,'review-rose.svg'),'utf8');
-  const venus=fs.readFileSync(path.join(__dirname,'review-venus.svg'),'utf8');
   const start=html.indexOf('function fxHeart(el){'),end=html.indexOf('/* ===== misc ===== */',start);
   assert(start>=0&&end>start);
   html=html.slice(0,start)+`const REVIEW_ROSE_SVG=${JSON.stringify(rose)};
-const REVIEW_VENUS_SVG=${JSON.stringify(venus)};
 let reviewRoseTap=0;
 function fxHeart(el){
   const layer=$("#fxLayer");if(!layer)return;
@@ -28,9 +26,6 @@ function fxHeart(el){
   else if(style===2)burstV4(spray,x,y,{petals:18,dots:14,tw:8,flash:false,dist:1.75});
   else burstV3(spray,x,y,{petals:16,dots:10,pollen:18,rays:7,waves:0,flash:false,dist:1.5});
   calmFX(spray);
-  const echo=document.createElement("div");echo.className="review-venus";
-  echo.style.setProperty("--x",x+"px");echo.style.setProperty("--y",y+"px");
-  echo.innerHTML=REVIEW_VENUS_SVG;flowers.appendChild(echo);
   const core=document.createElement("div");core.className="review-rose-core";
   core.style.setProperty("--x",x+"px");core.style.setProperty("--y",y+"px");
   core.innerHTML=REVIEW_ROSE_SVG;
@@ -39,7 +34,7 @@ function fxHeart(el){
 }\n\n`+html.slice(end);
   replace('결과 화면에서 틀린 단어를 지울 때(fxHeart)는 합본 하트로 고정.',
     '결과 화면에서 틀린 단어를 지울 때(fxHeart)는 빨간 장미와 네 가지 꽃비를 순환.');
-  html=html.replace('</style>',`/* Review taps: one side-facing rose, four existing sprays, a fleeting Venus echo. */
+  html=html.replace('</style>',`/* Review taps: one side-facing rose and four existing sprays. */
 .review-roses,.review-spray{position:absolute;inset:0;pointer-events:none;}
 .review-spray{opacity:.76;}
 .review-roses .v1-fl{filter:drop-shadow(0 0 4px #ffa3c66b);}
@@ -48,20 +43,14 @@ function fxHeart(el){
 .review-rose-core{position:absolute;left:var(--x);top:var(--y);width:104px;height:176px;
   pointer-events:none;filter:drop-shadow(0 0 7px #ff779057);
   animation:reviewRoseBloom .82s cubic-bezier(.16,.8,.3,1) both;}
-.review-rose-core svg,.review-venus svg{display:block;width:100%;height:100%;}
-.review-venus{position:absolute;left:var(--x);top:var(--y);width:132px;height:224px;
-  pointer-events:none;filter:blur(.3px);animation:reviewVenusEcho .44s ease-out both;}
+.review-rose-core svg{display:block;width:100%;height:100%;}
 @keyframes reviewRoseBloom{
   0%{opacity:0;transform:translate(-50%,-45%) scale(.38) rotate(-7deg);}
   20%{opacity:.95;transform:translate(-50%,-50%) scale(1) rotate(-2deg);}
   60%{opacity:.86;transform:translate(-50%,-53%) scale(1.04) rotate(2deg);}
   100%{opacity:0;transform:translate(-50%,-58%) scale(1.08) rotate(5deg);}}
-@keyframes reviewVenusEcho{
-  0%{opacity:0;transform:translate(-45%,-48%) scale(.94);}
-  24%{opacity:.13;transform:translate(-45%,-50%) scale(1);}
-  100%{opacity:0;transform:translate(-45%,-53%) scale(1.04);}}
 @media (prefers-reduced-motion:reduce){
-  .review-spray,.review-venus{display:none;}
+  .review-spray{display:none;}
   .review-rose-core{animation:reviewRoseFade .2s ease-out both;}}
 @keyframes reviewRoseFade{from{opacity:.75;transform:translate(-50%,-50%);}to{opacity:0;transform:translate(-50%,-50%);}}
 </style>`);
