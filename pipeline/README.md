@@ -38,6 +38,8 @@ node pipeline/tests/pool-expansion.test.cjs
 
 ## 유지할 조건
 
+2026-09-29 후속 동의어 표현 개선: 같은 뜻으로 바꿔 쓰는 관계를 명시하고 의미 차이는 구별한다. 새 정답은 추가하지 않는다. [학습 목적과 221개 해설 수정](synonym-wording-20260929/REPORT.md). 검사는 `node pipeline/synonym-wording-20260929/check.cjs`로 실행한다.
+
 2026-09-29 유의어·예문 전수 검수는 [검수 기록](synonym-review-20260929/REPORT.md)과 `synonym-review-20260929/findings.json`에 남겼다. 이번에 발견한 대체어는 해설에만 안내하며 새 ALT·acceptedAnswers를 추가하지 않는다. `node pipeline/synonym-review-20260929/check.cjs`로 490필드 이외의 데이터·UI 불변과 참조 복습 동기화를 확인한다. 과거 검사 기준은 `restore.cjs`로 기록된 편집만 역변환해 유지한다.
 
 카드에는 표제어·정답·뜻·예문·번역·해설·발음·품사·뜻 번호가 들어간다. 예문은 하나의 {{BLANK}}를 사용하고 실제 뜻과 문맥이 일치해야 한다. 새 동사 결합의 대체 정답은 해당 카드의 acceptedAnswers로 관리하며 기존 일반 어휘 ALT와 섞지 않는다. 허용 답을 타이핑하는 중간에 자동으로 잘라 오답 처리하지 않는다.

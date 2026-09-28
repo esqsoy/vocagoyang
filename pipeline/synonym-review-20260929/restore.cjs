@@ -2,9 +2,10 @@
 // Never update an old hash to bless a new, unrecorded content edit.
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),assert=require('node:assert/strict');
 const review=JSON.parse(fs.readFileSync(path.join(__dirname,'findings.json'),'utf8'));
+const {restoreSynonymWording}=require('../synonym-wording-20260929/restore.cjs');
 const hash=x=>crypto.createHash('sha256').update(JSON.stringify(x)).digest('hex');
 function restoreSynonymReview(data){
- const restored=structuredClone(data),current=hash(restored);
+ const restored=restoreSynonymWording(data),current=hash(restored);
  if(current===review.baselineDataSha256)return restored;
  assert.equal(current,review.afterDataSha256,'Unlogged change after synonym/example review');
  const seen=new Set();
