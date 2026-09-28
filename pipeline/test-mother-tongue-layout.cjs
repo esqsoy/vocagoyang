@@ -52,7 +52,7 @@ for(let li=0;li<h.state.lessons.length;li++){
    assert(s.answered&&!s.copyMode,`${w.term}: canonical answer auto-submits correctly`);assert.equal(s.errors,0);
    assert(h.els.get('reveal').innerHTML.includes('ov-ipa'),`${w.term}: IPA after reveal`);
    assert.equal(s.words[wi].corrects,1);assert.equal(s.firstCorrect,wi+1);
-   h.advance(1499);assert.equal(s.currentId,wi,'Correct answer remains for 1500 ms');
+   h.advance(1199);assert.equal(s.currentId,wi,'Correct answer remains for 1200 ms');
    h.advance(1);cardCount++;
   }
   assert(h.els.get('sumScreen').classList.contains('active'),'Exercise completes');
@@ -136,12 +136,12 @@ h.type('official');assert(!s.copyMode);h.advance(650);assert.equal(s.currentId,1
 s=mountWord(h);s.words[0].wrongEver=true;s.words[1].passed=true;s.queue=[];h.ctx.startRound(2);
 assert.deepEqual(plain(s.roundTargets),[0]);assert.equal(s.words[0].needed,2);
 h.type('official');assert.equal(s.words[0].roundStreak,1);assert.equal(s.words[0].passed,false);assert.deepEqual(plain(s.queue),[0]);
-h.advance(1500);h.ctx.submit({forced:true});assert.equal(s.words[0].roundStreak,0);h.type('official');h.advance(650);
-h.type('official');h.advance(1500);h.type('official');assert.equal(s.words[0].roundStreak,2);assert.equal(s.words[0].passed,true);
+h.advance(1200);h.ctx.submit({forced:true});assert.equal(s.words[0].roundStreak,0);h.type('official');h.advance(650);
+h.type('official');h.advance(1200);h.type('official');assert.equal(s.words[0].roundStreak,2);assert.equal(s.words[0].passed,true);
 
 // Leaving/changing scope must cancel the previous card's pending transition.
 s=mountWord(h);h.type('official');h.fire('exitBtn','click');h.start(0,0);const fresh=h.state.session;
-h.advance(1500);assert.equal(h.state.session,fresh);assert.equal(fresh.currentId,0);assert(!fresh.answered);
+h.advance(1200);assert.equal(h.state.session,fresh);assert.equal(fresh.currentId,0);assert(!fresh.answered);
 h.type('official');h.fire('prevBtn','click');assert.equal(h.state.session,null);assert(h.els.get('homeScreen').classList.contains('active'));assert.equal(h.storage.get('goyang-mode-v1'),'1');h.advance(2000);assert.equal(h.state.session,null);
 
 // An actual old record fixture remains usable in both range modes.

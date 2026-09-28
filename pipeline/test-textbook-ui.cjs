@@ -27,7 +27,7 @@ for(const [book,fixture] of [['ksat',mt],['ebs',ebs]]){
        }
        assert(s.answered&&!s.copyMode,w.term);assert.equal(s.errors,0);
        assert(h.blank.innerHTML.includes('slot-glyph'));assert(!h.els.get('reveal').innerHTML.includes('rv-word'));
-       assert(h.els.get('catSpeech').textContent);h.advance(1500);cards++;
+       assert(h.els.get('catSpeech').textContent);h.advance(1200);cards++;
      }
      assert(h.ctx.getRec(s.lesson.id,s.exercise.title).completed);
    }

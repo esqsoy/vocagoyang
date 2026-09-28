@@ -12,7 +12,7 @@ function patch(html){
   const current=()=>state.session===s&&s.currentId===id&&s.answered&&!s.copyMode&&screens.game.classList.contains("active");
   s.nextTimer=setTimeout(()=>{s.nextTimer=null;if(!current())return;
     // Only the normal correct-answer delay waits for speech. Copy remains 650ms.
-    if(ms===1500)ipaEffectAdvance(nextCard,current);else nextCard();
+    if(ms===1200)ipaEffectAdvance(nextCard,current);else nextCard();
   },ms);
 }`);
   html=replaceOne(html,'function stopPronunciation(cancelSpeech=true){\n  pronunciationSeq++;','function stopPronunciation(cancelSpeech=true){\n  ipaEffectCancel();\n  pronunciationSeq++;');
@@ -56,6 +56,7 @@ function speakPronunciation(term,meaning){
 `+html.slice(end);
   html=replaceOne(html,'// 이미 시작한 긴 발음은 마치게 두고, 아직 시작하지 않은 재생 예약만 취소한다.\n  stopPronunciation(false);cancelPendingAdvance();','// Manual navigation cancels speech and its overlay immediately.\n  stopPronunciation();cancelPendingAdvance();');
   html=replaceOne(html,'layer.innerHTML="";const gen=++fxGen;','layer.innerHTML="";const gen=++fxGen;\n  if(good&&combo)return; // Normal correct answers use the IPA effect; copy and review keep their effects.');
+  html=replaceOne(html,'scheduleNext(1500);','scheduleNext(1200);');
   return html;
 }
 module.exports={patch};

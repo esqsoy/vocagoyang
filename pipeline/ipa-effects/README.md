@@ -51,3 +51,5 @@ node pipeline/tests/session.test.cjs
 ```
 
 Browser QA covers 320 px, 390 px and desktop widths, the reviewed photographic mapping, dotted IPA, heteronyms/context speech, long phrases and wrapped words.
+
+2026-09-29 timing adjustment: reduce the normal reveal delay by 20%. Mother Tongue/EBS use 1,200 ms; FABLE keeps its explanation-length and retry-round rules, scaled to 80% (minimum no-note delay 1,760 ms, maximum 12 s, retry cap 4 s). Speech still finishes before automatic progression, while manual next and copy completion remain unchanged.

@@ -2584,7 +2584,7 @@ function fillBlank(ex,ans){return esc(ex||"").split("{{BLANK}}").join(`<b class=
 function hoeCtxHtml(w){return w.ex?`<div class="ex">${maskBlank(w.ex,w.term)}</div>`:"";}
 function catNote(c){return `<div class="ov-c">${esc(c)}</div>`;}
 function hoeMid(w){let h="";if(w.ex)h+=`<div class="ov-ex">${fillBlank(w.ex,w.term)}</div>`;if(w.tr)h+=`<div class="ov-tr">${esc(w.tr)}</div>`;return h;}
-function revealDelay(w){var d=w.c?Math.min(15000,Math.round(1900+w.c.length*75)):2200;var s=state.session;if(s&&s.round>=2)d=Math.min(d,5000);return d;}
+function revealDelay(w){var d=w.c?Math.min(15000,Math.round(1900+w.c.length*75)):2200;var s=state.session;if(s&&s.round>=2)d=Math.min(d,5000);return Math.round(d*.8);}
 function onRevealKey(e){if(composingKey(e)||e.target?.closest?.(".rv-inline-ipa"))return;if(e.key==="Enter"||e.key===" "||e.code==="Space"){const s=state.session;if(s&&s.answered&&!s.copyMode){e.preventDefault();doNext();}}}
 function onRevealTap(e){const s=state.session;if(!s||!s.answered||s.copyMode)return;if(s.revealAt&&(Date.now()-s.revealAt)<280)return;if(e.target&&e.target.closest&&e.target.closest("button,a,textarea,select")||(e.target.closest("input")&&e.target.id!=="ainput"))return;doNext();}
 function doNext(){const s=state.session;if(!s||!s.answered||s.copyMode)return;if(s.revealTimer){clearTimeout(s.revealTimer);s.revealTimer=null;}document.removeEventListener("keydown",onRevealKey);document.removeEventListener("click",onRevealTap);nextCard();}

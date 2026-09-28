@@ -53,7 +53,7 @@ function collect(source){
  return {data,dictionary,maps:sorted,encoded,stats};
 }
 function insertBlock(source,start,end,payload,closingTag){
- const first=source.indexOf(start),last=source.indexOf(end),block=start+'\n'+payload.trim()+'\n'+end;
+ const first=source.indexOf(start),last=source.indexOf(end),block=start+'\n'+payload.trim().replace(/\r\n/g,'\n')+'\n'+end;
  assert((first===-1)===(last===-1),'Incomplete generated block '+start);
  if(first!==-1){
   assert(last>first&&source.indexOf(start,first+start.length)===-1&&source.indexOf(end,last+end.length)===-1,'Duplicate generated block '+start);
@@ -72,6 +72,7 @@ function insertBlock(source,start,end,payload,closingTag){
  return source.slice(0,index)+block+'\n'+source.slice(index);
 }
 function buildPage(source,{runtime,styles}){
+ source=source.replace(/\r\n/g,'\n');
  assert(typeof runtime==='string'&&typeof styles==='string','Runtime and styles must be supplied');
  const built=collect(source);
  let output=insertBlock(source,STYLES_START,STYLES_END,styles,'</style>');
@@ -87,7 +88,7 @@ function main(args=process.argv.slice(2)){
  const check=args.includes('--check'),dry=args.includes('--dry-run');
  const assets={runtime:fs.readFileSync(path.join(__dirname,'runtime.js'),'utf8'),styles:fs.readFileSync(path.join(__dirname,'styles.css'),'utf8')};
  // Validate all three pages before writing any page.
- const built=PAGES.map(file=>{const source=fs.readFileSync(path.join(ROOT,file),'utf8');return {file,source,...buildPage(source,assets)};});
+ const built=PAGES.map(file=>{const source=fs.readFileSync(path.join(ROOT,file),'utf8').replace(/\r\n/g,'\n');return {file,source,...buildPage(source,assets)};});
  for(const page of built){
   assert.equal(buildPage(page.html,assets).html,page.html,page.file+' effect builder is not idempotent');
   if(check)assert.equal(page.html,page.source,page.file+' generated effects are stale; run the IPA effect builder');

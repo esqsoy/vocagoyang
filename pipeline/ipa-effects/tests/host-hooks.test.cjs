@@ -2,7 +2,7 @@ const assert=require('node:assert/strict'),path=require('node:path');
 const {harness,root}=require('../../tests/helpers/mother-tongue-harness.cjs');
 const files=['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyangebs2027.html'];
 for(const file of files){
- const fable=file.includes('fable'),delay=fable?2200:1500;
+ const fable=file.includes('fable'),delay=fable?1760:1200;
  const make=()=>{const h=harness(path.join(root,file),{},{manualSpeech:true});h.start();return h;};
  const answer=h=>{
   const session=h.state.session,word=session.words[session.currentId],id=session.currentId;
