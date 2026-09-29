@@ -1,0 +1,6 @@
+.mt-source{max-width:38em;margin-inline:auto;overflow-wrap:anywhere;}
+.mt-gap{display:inline-block;min-width:1.7em;text-align:center;color:var(--gold);font-weight:800;}
+.mt-source-word{color:var(--gold);font-weight:700;}
+.mt-source-kind{color:var(--muted);font-size:.75rem;text-align:left;letter-spacing:.02em;}
+.rv .mt-translation{text-align:left;line-height:1.65;margin-top:8px!important;}
+@media(max-width:480px){.rv .mt-translation{font-size:1rem;}}

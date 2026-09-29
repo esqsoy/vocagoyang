@@ -23,13 +23,14 @@ function harness(filename=path.join(root,'vocagoyangksat2027.html'),seed={},opti
  for(const m of html.slice(0,html.indexOf('<script>')).matchAll(/<([\w-]+)\b[^>]*\bid="([^"]+)"[^>]*>/g)){
   const e=element(m[2],m[0].match(/\bclass="([^"]*)"/)?.[1]||'');e.tagName=m[1].toUpperCase();e.hidden=/\bhidden(?:[\s>])/.test(m[0]);els.set(m[2],e);
  }
- const body=element('',''),maproute=element('','maproute'),blank=element('','blanks'),firstSlot=element('','slot'),roarTitle=element(),roarChant=element();
+ const body=element('',''),maproute=element('','maproute'),blank=element('','blanks'),firstSlot=element('','slot'),roarTitle=element(),roarChant=element(),sourceExample=element('','mt-source');
  function query(q,within){
   if(q==='.maproute')return maproute;
   if(q==='#hoeCtx .blanks'||q==='.blanks')return els.get('hoeCtx')?.innerHTML.includes('blanks')?blank:null;
   if(q==='#hoeCtx .fill'||q==='.fill')return null;
   if(/^#[\w-]+$/.test(q))return els.get(q.slice(1))??null;
   if(q==='.rv-w')return null;
+  if(q==='#hoeCtx .mt-source')return els.get('hoeCtx')?.innerHTML.includes('mt-source')?sourceExample:null;
   if(q==='.slot')return blank.innerHTML.includes('slot')?firstSlot:null;
   if(q==='.roar-txt b')return roarTitle;
   if(q==='.roar-txt span')return roarChant;

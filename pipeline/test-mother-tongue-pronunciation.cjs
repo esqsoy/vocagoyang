@@ -23,7 +23,7 @@ assert.equal(h.els.get('reveal').innerHTML,'');assert.equal(h.spoken.length,0);
 h.ctx.speakPronunciation(term,'');assert.equal(h.spoken.length,0);
 h.type(term);assert.equal(h.state.session.answered,true);assert.equal(h.spoken.length,1);
 assert.equal(h.spoken[0].text,term);assert.equal(h.spoken[0].rate,.88);assert.equal(h.spoken[0].lang,'en-US');
-assert(h.els.get('reveal').innerHTML.includes('rv-inline-ipa'));assert(!h.els.get('reveal').innerHTML.includes('class="rv-w"'));assert(h.blank.innerHTML.includes('slot-glyph'),'Answer remains in the original cells');
+assert(!h.els.get('reveal').innerHTML.includes('rv-inline-ipa'));assert.equal(h.blank.getAttribute('role'),'button');assert(h.blank.innerHTML.includes('slot-glyph'),'Answer remains in the original cells');
 const afterStart=h.cancels;h.spoken[0].onstart();h.advance(1200);
 assert.equal(h.state.session.answered,true,'An active voice may finish before automatic navigation');
 h.spoken[0].onend();h.advance(100);
@@ -31,12 +31,12 @@ assert.equal(h.state.session.answered,false);assert.equal(h.els.get('reveal').in
 
 // Wrong answers use the same Fable word/IPA reveal and automatic TTS during copy.
 h=harness(filename);h.start();h.els.get('ainput').value='wrong';h.ctx.submit();
-assert(h.state.session.copyMode);assert.equal(h.spoken.length,1);assert(h.els.get('reveal').innerHTML.includes('ov-ipa'));
+assert(h.state.session.copyMode);assert.equal(h.spoken.length,1);assert(!h.els.get('reveal').innerHTML.includes('ov-ipa'));
 const word=h.state.session.words[0];
-const wordTarget={closest:q=>q==='.rv-inline-ipa'?{}:null};
-h.fire('reveal','click',{target:wordTarget});assert.equal(h.spoken.length,2,'Fable word tap replays, with no standalone control');assert.equal(h.doc.activeElement,h.els.get('ainput'));
-h.fire('reveal','click',{target:wordTarget});assert.equal(h.spoken.length,3,'Native Enter/Space click replays the inline IPA');
-const count=h.spoken.length;h.fire('reveal','click',{target:{closest:()=>null}});assert.equal(h.spoken.length,count);
+h.type(word.term);assert(!h.state.session.copyMode);assert.equal(h.spoken.length,2);
+h.fire('hoeCtx','click',{target:h.blank,type:'click'});assert.equal(h.spoken.length,3,'Revealed word tap replays, with no standalone control');
+h.fire('hoeCtx','keydown',{target:h.blank,type:'keydown',key:'Enter'});assert.equal(h.spoken.length,4,'Enter replays the answer word');
+const count=h.spoken.length;h.fire('hoeCtx','click',{target:{closest:()=>null}});assert.equal(h.spoken.length,count);
 const cancelBefore=h.cancels;h.fire('muteBtn2','click');assert(h.state.muted);assert(h.cancels>cancelBefore);
 h.ctx.speakPronunciation(word.term,word.meaning);assert.equal(h.spoken.length,count);
 h.fire('muteBtn2','click');h.ctx.speakPronunciation(word.term,word.meaning);assert.equal(h.spoken.length,count+1);
@@ -45,7 +45,7 @@ h.fire('exitBtn','click');assert.equal(h.state.session,null);assert(!h.doc.body.
 // Current meaning determines both transcription and spoken context for homographs.
 h=harness(filename);h.start();
 Object.assign(h.state.session.words[0],{term:'house',meaning:'소장하다, 보관하다'});h.state.session.answered=true;
-h.ctx.showReveal('good','house','소장하다, 보관하다','');assert.equal(h.spoken.at(-1).text,'to house');assert(clean(h.els.get('reveal').innerHTML).includes('동사 /haʊz/'));
+h.ctx.showReveal('good','house','소장하다, 보관하다','');assert.equal(h.spoken.at(-1).text,'to house');assert.equal(h.ctx.pronunciationEffectInfo('house','소장하다, 보관하다').ipa,'haʊz');assert(!h.els.get('reveal').innerHTML.includes('rv-inline-ipa'));
 
 // US candidates win even when another English voice has a preferred name.
 h=harness(filename);
@@ -66,7 +66,7 @@ for(const kind of ['missing','voices-throw','speak-throw']){
  if(kind==='voices-throw')h.ctx.window.speechSynthesis.getVoices=()=>{throw Error('voice failure');};
  if(kind==='speak-throw')h.ctx.window.speechSynthesis.speak=()=>{throw Error('speak failure');};
  assert.doesNotThrow(()=>{h.start();h.els.get('ainput').value='wrong';h.ctx.submit();});
- assert(h.state.session.copyMode);assert(h.els.get('reveal').innerHTML.includes('ov-ipa'));
+ assert(h.state.session.copyMode);assert(!h.els.get('reveal').innerHTML.includes('ov-ipa'));
  if(kind==='missing')assert(!h.els.get('reveal').innerHTML.includes('role="button"'));
  assert.doesNotThrow(()=>h.fire('exitBtn','click'));
 }

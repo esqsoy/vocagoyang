@@ -1,4 +1,7 @@
 /* Shared pronunciation reveal. Answer cells keep their original size and position. */
+.hoectx .answer-replay{position:relative;z-index:3;cursor:pointer;touch-action:manipulation;border-radius:3px;}
+.hoectx .answer-replay:focus-visible{outline:2px solid var(--cyansoft);outline-offset:4px;}
+.rv.show:empty{display:none;}
 .ipa-effect-layer{position:fixed;inset:0;z-index:41;pointer-events:none;overflow:hidden;}
 .ipa-trace{--ipa-light-strength:.22;--ipa-ray-strength:.18;position:absolute;display:flex;align-items:center;justify-content:center;isolation:isolate;opacity:0;color:#fff5db;white-space:nowrap;font-family:Georgia,'Times New Roman',serif;font-size:clamp(23px,6.25vw,31px);font-weight:600;line-height:1;letter-spacing:.01em;transform:translateY(2px);}
 /* A small fixed increase preserves spelling alignment without per-letter sizing. */

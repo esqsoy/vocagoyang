@@ -1,3 +1,16 @@
+/* The revealed spelling is the replay control; the typing overlay stays intact. */
+function enableAnswerReplay(blank,term){
+  blank.classList.add('answer-replay');blank.setAttribute('role','button');
+  blank.setAttribute('tabindex','0');blank.setAttribute('aria-label',term+' 발음 다시 듣기');
+}
+function replayAnswerFromEvent(e){
+  if(!e.target?.closest?.('.answer-replay'))return;
+  if(e.type==='keydown'&&(e.isComposing||e.repeat||!['Enter',' ','Spacebar'].includes(e.key)))return;
+  const s=state.session;if(!s||s.currentId===null||!s.answered||s.copyMode||!screens.game.classList.contains('active'))return;
+  e.preventDefault();e.stopPropagation();
+  const w=s.words[s.currentId];
+  if(typeof speakPronunciation==='function')speakPronunciation(w.term,w.meaning);else speak(w.term);
+}
 /* Browser TTS drives the start/end. Internal beats are estimates, never audio timestamps. */
 let ipaEffectRun=null,ipaEffectGeneration=0,ipaEffectGate=null;
 const ipaEffectDurations=new Map(),ipaEffectVoices=new Map();

@@ -50,9 +50,12 @@ for(let li=0;li<h.state.lessons.length;li++){
     if(s.answered)assert(h.ctx.isCorrect(prefix,w.term)||h.ctx.isSpellingVariant(prefix,w.term),`${w.term}: premature grading at ${JSON.stringify(prefix)}`);
    }
    assert(s.answered&&!s.copyMode,`${w.term}: canonical answer auto-submits correctly`);assert.equal(s.errors,0);
-   assert(h.els.get('reveal').innerHTML.includes('ov-ipa'),`${w.term}: IPA after reveal`);
+   assert(!h.els.get('reveal').innerHTML.includes('ov-ipa'),`${w.term}: no duplicate IPA in commentary`);
+   assert.equal(h.blank.getAttribute('aria-label'),w.term+' 발음 다시 듣기');
+   assert(h.ctx.pronunciationEffectInfo(w.term,w.meaning)?.ipa,`${w.term}: IPA available through answer replay`);
    assert.equal(s.words[wi].corrects,1);assert.equal(s.firstCorrect,wi+1);
-   h.advance(1199);assert.equal(s.currentId,wi,'Correct answer remains for 1200 ms');
+   const dwell=h.ctx.mtRevealDelay?h.ctx.mtRevealDelay(w):1200;
+   h.advance(dwell-1);assert.equal(s.currentId,wi,'Correct answer remains for its translation reading interval');
    h.advance(1);cardCount++;
   }
   assert(h.els.get('sumScreen').classList.contains('active'),'Exercise completes');
