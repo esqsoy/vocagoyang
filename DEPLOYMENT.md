@@ -1,3 +1,26 @@
+# 마더텅 원문 발췌·문장 안 입력과 공통 발음 재생 · 2026-09-29
+
+- 배포 커밋: [`b72f72376848a42c72229b66b1bd60c76f8e5a26`](https://github.com/esqsoy/vocagoyang/commit/b72f72376848a42c72229b66b1bd60c76f8e5a26). `origin/main`에 푸시 완료.
+- [GitHub Pages 실행 36531512560](https://github.com/esqsoy/vocagoyang/actions/runs/36531512560): `completed / success`, 2026-09-29 15:32 KST 확인.
+- 마더텅 6,498카드 중 6,422카드에 원문 발췌를 연결하고 문장 안에 입력칸을 배치했다. 입력은 표제어 기준이고 공개 시 원문 어형을 복원한다. 나머지 76카드는 단어형으로 유지한다. 227개 필수 주석은 고양이 대사에 표시한다.
+- FABLE·마더텅·EBS에서 공개된 정답 단어를 누르면 음성과 IPA 효과를 다시 재생한다. 해설칸의 정적 IPA는 제거하고 기존 FABLE 해설은 유지했다.
+- UI 표준, 작업 지침, 최신 인수인계와 누적 작업 기록을 저장소에 포함했다. 흰색 밝기 실험·후속 디자인·PDF 전체·OCR·로컬 점검 도구는 포함하지 않았다.
+- 빌드 일치, 발췌·입력·발음·재생·데이터 및 기록 보존, EBS 입력, FABLE 7,344회 모의 플레이까지 관련 검사 10개 명령 통과. [검사 목록](HANDOFF.md).
+- 공개 인덱스와 세 게임 파일을 HTTP 200으로 받아 로컬 검증본과 비교했다. 아래 SHA-256은 UTF-8 텍스트의 줄바꿈을 LF로 통일해 계산했다.
+
+| 파일 | 공개 내용 SHA-256 |
+| --- | --- |
+| `index.html` | `f45e4e3549829f8e0ac77d394c8808b9cfe8451561e8d89d20391a4591151372` |
+| `vocagoyangfable.html` | `c20fee7d8cc89c7ad9cf69c99ead83acf39095b2f8be72ff5131c6fbd0fea858` |
+| `vocagoyangksat2027.html` | `9c6185bf930f71a8537c2f386d408b42af280d326c88339833c406a0826be4fa` |
+| `vocagoyangebs2027.html` | `c3405c6fc29b34f7bb7f5ce8a66a00ed1996fac80c8c029ae2e794c99df1a098` |
+
+공개 페이지: [교재 선택](https://esqsoy.github.io/vocagoyang/), [마더텅](https://esqsoy.github.io/vocagoyang/vocagoyangksat2027.html?release=b72f723), [FABLE](https://esqsoy.github.io/vocagoyang/vocagoyangfable.html?release=b72f723), [EBS](https://esqsoy.github.io/vocagoyang/vocagoyangebs2027.html?release=b72f723).
+
+아래는 이전 배포 기록이다.
+
+---
+
 # 세 과정 예문을 흰색으로 조정 · 2026-09-29
 
 - FABLE·마더텅·EBS의 영어 예문 `.hoectx .ex`를 연분홍 `#f6e2ec`에서 흰색 `#ffffff`로 변경했다.
