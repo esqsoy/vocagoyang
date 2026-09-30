@@ -1,3 +1,28 @@
+# 어원·접미사 보강과 인덱스 자동 집계 · 2026-10-01
+
+- 앱 커밋: [cadd4fbb9f4c24a05b6d9565db308ffba50eb4a4](https://github.com/esqsoy/vocagoyang/commit/cadd4fbb9f4c24a05b6d9565db308ffba50eb4a4). origin/main 푸시 완료.
+- [GitHub Pages 36754934684](https://github.com/esqsoy/vocagoyang/actions/runs/36754934684): completed / success. 2026-10-01 02:57 KST에 인덱스·세 과정 공개 파일 HTTP 200과 로컬 검증본의 일치를 확인했다.
+- 어원·접미사 358카드·141개 개념 단위. 새 표제어 43개와 기존 어휘의 대비·복습을 추가했다. 전체 FABLE 7,067카드·620연습. awesome/troublesome의 일반 -some과 ribosome의 -some, microbiome 등의 -ome을 구별하고 word family 표기를 통일했다.
+- 월 해설을 정리하고 숫자 어원을 반영했다. 세 과정에서 음성이 일찍 끝날 때 일부 IPA가 누락되는 경로를 수정했다.
+- 인덱스는 데이터 빌드 때 자동 갱신한다. FABLE 4,916, 마더텅 추가 3,238·누적 8,154, EBS 추가 129·최종 8,283. 등록 표제어·구 표현·이전 기출 기준이다.
+- 개편한 47·48세트 진도는 새 구성으로 시작한다. 저장 기록을 삭제하지 않으며 다른 세트·과정의 진도는 유지한다. 47세트 Exercise 11은 troublesome 추가를 반영한 별도 키를 쓴다.
+- 배포 전 검사 19개 통과: [검사 목록·범위](HANDOFF.md#이번-배포-검사--2026-10-01). FABLE 7,440회 모의 플레이, 마더텅·EBS 입력, 발음·재생·내용 및 기록 보존을 확인했다. 보류한 흰색 밝기 실험과 관계없는 로컬 임시 파일은 포함하지 않았다.
+
+UTF-8 텍스트의 줄바꿈을 LF로 통일한 공개 파일 SHA-256:
+
+| 파일 | SHA-256 |
+| --- | --- |
+| index.html | c89abf0834676d0ec708a66babaae82ddfd9e5c9025c1f1f1e5f1c5057de42cb |
+| vocagoyangfable.html | d066f6b03ed0a462f72cd9af5f82ac166d950d50fa0f428f2d6536c773686bd2 |
+| vocagoyangksat2027.html | 0dece91a0587737b127c2a616a687e6510a8bb03bf67f2e8dbe599c82a1b63b8 |
+| vocagoyangebs2027.html | 172f9984d2b339797832ad2749a9289a8e642b298b60c6786460f4a07475723b |
+
+[교재 선택](https://esqsoy.github.io/vocagoyang/?release=cadd4fb) · [FABLE](https://esqsoy.github.io/vocagoyang/vocagoyangfable.html?release=cadd4fb)
+
+아래는 이전 배포 기록이다.
+
+---
+
 # 마더텅 원문 발췌·문장 안 입력과 공통 발음 재생 · 2026-09-29
 
 - 배포 커밋: [`b72f72376848a42c72229b66b1bd60c76f8e5a26`](https://github.com/esqsoy/vocagoyang/commit/b72f72376848a42c72229b66b1bd60c76f8e5a26). `origin/main`에 푸시 완료.

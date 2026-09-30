@@ -4,23 +4,15 @@
 
 ## 현재 결론과 배포 상태
 
-- **2026-10-01 전체 업데이트 배포 진행 중**: 사용자가 누적 변경의 공개 반영을 승인했다. 어원·접미사·troublesome·word family 표기, 월 해설, 세 과정 IPA 완료 처리, 인덱스 집계를 함께 배포한다. 배포 전 관련 검사 19개가 통과했으며 공개 확인은 아직 전이다. 아래의 로컬·미배포 설명은 이번 배포 직전 상태다. 최종 결과는 배포 확인 뒤 갱신한다.
-
-- **2026-10-01 인덱스 집계 자동화 로컬 완료, 미배포**: 수동 숫자를 실제 세 과정 DATA 기준으로 갱신했다. FABLE 등록 표제어 4,916개, 마더텅 중복 제외 추가 3,238개·누적 8,154개, EBS 추가 129개·누적 8,283개다. 구 표현과 이전 기출을 포함하며 word family 수는 아니다. FABLE 조립·마더텅 발췌·공통 IPA 빌드에 `pipeline/index-stats.cjs`를 연결했다. `--check`는 오래된 인덱스도 검출한다. 원본 JSON만 고쳤다면 해당 데이터 빌드부터 실행한다. [집계 기준·명령](pipeline/README.md#인덱스-단어-수-자동-갱신). 게임 데이터·진도는 바꾸지 않았다.
-
-- 2026-10-01 표현 선호: 어휘 관계의 명칭은 영어 소문자 **word family**로 통일했다. 48세트 제목은 ‘어근과 word family’다. 관련 연습 제목·해설·메타데이터와 현재 기준 문서를 정리했다. 이름이 바뀐 3연습의 이전 완료·이어하기는 유지된다. morphology-content, suffix-expansion, IPA build --check와 해당 3연습의 완료·미완료 이어하기를 확인했다. 과거 검수 원장은 바꾸지 않았으며 이번 용어 수정도 로컬 미배포 상태다. 이 항목의 검사는 troublesome 추가 전에 확인한 결과다.
-
-- **접미사·word family 후속 보강 로컬 완료, 미배포**: 기존 어원 327카드를 모두 유지하고 기존 표제어 복습 25카드와 승인된 새 표제어 6카드를 더해 총 **358카드·141개 개념 단위**다. 47세트 124카드·12연습, 48세트 234카드·22연습, 전체 FABLE **7,067카드·620연습**이다. 기존 해설 11개를 보완했다. 새 표제어는 biome·microbiome·genome·chromosome·ribosome·troublesome이다. awesome만으로는 접미사의 느낌이 잘 와 닿지 않는다는 사용자 의견과 명시적 추가 승인을 반영해 47세트 Exercise 11의 같은 -some 단위에 troublesome 1카드를 추가했다. [결과·보존 원장](pipeline/suffix-rebuild-20261001/REPORT.md).
-- 선행 357카드 개편에서 47·48의 기본 진도키를 `morphology-47-20261001`, `morphology-48-20261001`로 바꿨으며 과거 저장 기록은 삭제하지 않았다. 이번 troublesome 1카드 추가에서는 **47세트 Exercise 11만** `morphology-47-20261001-troublesome`으로 바꾼다. 이 연습의 이전 완료만으로 새 카드를 완료 처리하지 않으며, 나머지 어원 33연습의 진도키·기록은 그대로 유지한다. 전체 과정의 진도를 다시 초기화하는 변경이 아니다.
-- **세 과정 공통 IPA 완료 처리도 로컬 수정**: TTS의 정상 `onend`가 빨리 오면 아직 실행되지 않은 음절 표시 타이머가 취소되어 일부 IPA가 보이지 않을 수 있는 경로를 재현해 고쳤다. 미표시 음절이 있을 때만 나머지를 전부 표시하고 180ms 유지한 뒤 기존 250ms 사라짐 처리를 이어간다. 수동 건너뛰기는 즉시 종료한다. 이는 코드에서 확인한 결함이며 사용자가 처음 본 현상의 정확한 원인까지 확정한 것은 아니다.
-- 위 후속 보강과 공통 IPA 수정은 **아직 커밋·푸시·공개 배포하지 않았다**. 앞선 327카드 보강과 아래 월 해설 수정도 같은 미배포 변경에 포함된다. 공개 앱 기준은 여전히 `b72f723`이다.
-- 선행 어원 보강 이력: 기존 167카드 + 기존 표제어 복습 123카드 + 승인된 새 표제어 37카드 = 327카드였다. 그때의 47은 101카드·10연습, 48은 226카드·22연습, 전체는 7,036카드·618연습이다. 이 수치는 현재 구성이 아니라 후속 보강의 보존 기준이다. [선행 결과·출처](pipeline/morphology-rebuild-20260930/REPORT.md).
-- 2026-09-30 로컬 수정: FABLE September의 한국·영미권 개학 비교를 간결하게 쓰고, September~December 해설에 라틴어 septem=7·octo=8·novem=9·decem=10과 3월부터 세던 옛 로마력의 순서를 덧붙였다. 4개 해설만 변경했고 원본과 HTML에 반영했다. 아직 커밋·배포하지 않았으며 변경 기록은 `pipeline/player-feedback-20260930.json`이다.
-- 사용자가 마더텅 원문 발췌와 문장 안 입력 방식을 플레이하고 승인했다. **예문 있음 → FABLE 문장 안 입력 / 예문 없음 → 마더텅 독립 입력**을 모든 과정의 표준으로 확정했다. 자세한 기준은 [UI_STANDARD.md](UI_STANDARD.md).
-- 세 과정의 정답 단어 터치로 음성·IPA 효과를 재생하고 해설칸에서 발음기호를 제거하는 변경까지 배포했다. 마더텅의 짧은 필수 해설은 고양이 대사로 옮겼다.
-- 사용자 요청에 따라 승인된 작업과 문서를 커밋 `b72f723`으로 `origin/main`에 푸시했다. 관련 검사 10개 통과 후 GitHub Pages 실행 `36531512560`의 성공과 인덱스·세 과정 공개 HTML의 내용 일치를 확인했다. [배포 기록](DEPLOYMENT.md)을 참고한다.
-- 로컬 작업 브랜치는 `codex/fable-upgrade-20260919`다. 공개 앱 기준 커밋은 `b72f723`이며, 이후 배포 결과를 기록하는 문서 커밋은 게임 HTML을 바꾸지 않는다. 다음 작업 때 최신 HEAD와 원격 상태를 다시 확인한다.
-- 저장소: `https://github.com/esqsoy/vocagoyang.git`. 공개 사이트는 `https://esqsoy.github.io/vocagoyang/`. 배포 이력은 [DEPLOYMENT.md](DEPLOYMENT.md).
+- **2026-10-01 전체 업데이트 공개 배포 완료**. 앱 커밋 [cadd4fb](https://github.com/esqsoy/vocagoyang/commit/cadd4fbb9f4c24a05b6d9565db308ffba50eb4a4)을 origin/main에 푸시했다. [GitHub Pages 36754934684](https://github.com/esqsoy/vocagoyang/actions/runs/36754934684)의 success와 인덱스·세 과정 공개 HTML이 로컬 검증본과 일치함을 확인했다. 아래 배포 이전의 로컬 검수 이력도 이번 배포에 포함된다. 상세 해시는 [배포 기록](DEPLOYMENT.md).
+- 어원·접미사 과정은 기존 167카드를 보존하면서 327→357→358카드로 보강했다. 현재 **358카드·141개 개념 단위·34연습**, 47세트 124카드·12연습, 48세트 234카드·22연습이다. 전체 FABLE은 **7,067카드·620연습**. [선행 어원 보강](pipeline/morphology-rebuild-20260930/REPORT.md), [접미사 후속 보강](pipeline/suffix-rebuild-20261001/REPORT.md).
+- 새 표제어 37개와 후속 biome·microbiome·genome·chromosome·ribosome·troublesome을 포함한다. troublesome은 47세트 Exercise 11에서 awesome과 같은 -some 단위에 들어간다. 어휘 관계 명칭은 영어 소문자 **word family**, 48세트 제목은 ‘어근과 word family’로 통일한다. 과거 보고서·검수 원장은 해당 단계의 기록으로 유지한다.
+- **진도 안내**: 개편한 47·48세트는 새 구성으로 시작한다. 기본 키는 morphology-47-20261001 / morphology-48-20261001, troublesome이 추가된 47세트 Exercise 11은 morphology-47-20261001-troublesome이다. 과거 저장 기록 자체를 삭제하지 않고 다른 세트·과정의 진도는 유지한다. 명칭 변경만 있었던 연습은 기존 키를 이어 쓴다.
+- September의 한국·영미권 개학 비교를 간결하게 하고 September~December에 라틴어 septem=7·octo=8·novem=9·decem=10과 3월부터 세던 옛 로마력 해설을 반영했다. [변경 기록](pipeline/player-feedback-20260930.json).
+- 세 과정 공통 IPA: 정상 TTS 종료가 예상보다 빨라 미표시 음절이 남으면 전체를 표시하고 180ms 유지한 뒤 기존 250ms 사라짐을 이어간다. 이미 전부 표시됐으면 추가 대기 없이, 수동 건너뛰기는 즉시 종료한다. 코드에서 확인한 누락 경로를 수정했으며 최초 사용자 사례의 원인까지 특정한 것은 아니다.
+- 인덱스는 실제 DATA에서 등록 표제어를 자동 집계한다. FABLE **4,916**, 마더텅 추가 **3,238**·누적 **8,154**, EBS 추가 **129**·최종 **8,283**. 구 표현·이전 기출을 포함하며 word family 수는 아니다. FABLE 조립·마더텅 발췌·공통 IPA 빌드에 연결했고 --check로 오래된 수치를 검출한다. [집계 기준·명령](pipeline/README.md#인덱스-단어-수-자동-갱신).
+- 예문 있음 → 문장 안 입력 / 예문 없음 → 독립 입력, 정답 터치 음성·IPA 재생 등 기존 표준은 유지한다. [UI_STANDARD.md](UI_STANDARD.md).
+- 작업 브랜치는 codex/fable-upgrade-20260919, 저장소는 https://github.com/esqsoy/vocagoyang.git, 공개 사이트는 https://esqsoy.github.io/vocagoyang/ 다. 이번 앱 기준은 cadd4fb이며 후속 배포 기록 커밋은 게임 HTML을 바꾸지 않는다. 다음 작업에서 최신 HEAD·원격 상태와 git status를 확인한다.
 
 ## 마더텅 발췌 적용 범위
 
@@ -41,7 +33,7 @@
 
 원문 PDF와 전체 OCR은 로컬 참고 자료다. 저장소에는 검토한 발췌 데이터와 코드만 둔다. OCR 텍스트를 원문 검증 없이 확정하지 않는다.
 
-## 현재 로컬 검사 · 2026-10-01
+## 이번 배포 검사 · 2026-10-01
 
 전체 배포 요청 후 새로 실행한 19개 검사 모두 통과: index-stats, morphology-content, morphology-expansion, suffix-expansion, reading-core, pool-expansion, session; IPA build --check, 마더텅 발췌 build --check; IPA completion·advance·layout·stress·host-hooks·conservation; answer-replay, textbook-ui, mother-tongue-excerpts, mother-tongue-layout. 현재 FABLE 620연습·7,440회 모의 플레이, 마더텅 6,498카드 입력·6,422발췌, EBS 597카드 입력과 세 과정의 발음 완료·재생을 검증했다. 역사적 단계 검사는 해당 단계 복원 후 보존을 확인하는 것이며, 그 출력의 이전 카드 수를 현재 수치로 해석하지 않는다.
 
@@ -92,10 +84,10 @@ PDF의 전체 OCR은 작업 폴더의 `outputs/mother-tongue-2027-source/`에 �
 
 ## 아직 결정하거나 진행하지 않은 일
 
-- 2026-09-29 배포는 완료했다. 이후 어원·접미사 보강, 월 해설, 공통 IPA 완료 처리 수정은 로컬에만 있으며 공개 배포 요청 시 함께 검토한다.
+- 2026-10-01 승인된 누적 업데이트는 공개 배포했다. 현재 대기 중인 승인 작업은 없다.
 - `textTone=soft`의 흰색 밝기 실험: 사용자가 휴식 후 판단하기로 보류했다. 현재 표준에 반영하지 않는다.
 - 발췌 없는 76카드는 단어형으로 유지한다. 문장을 억지로 만들지 않고 후속 피드백이 있을 때 검토한다.
-- 숫자 어근·micro/macro 및 접미사·word family 보강은 로컬에 완료했다. 사용자 플레이 피드백이 오면 다듬고, 배포 요청 시 위 미배포 변경의 검사·공개 반영을 진행한다.
+- 숫자 어근·micro/macro 및 접미사·word family 보강은 공개 배포했다. 이후 사용자 플레이 피드백에 따라 다듬는다.
 - FABLE은 사용자 플레이 피드백에 따른 유지 보수 단계다. 간격 복습은 연구·설계부터 후속 진행한다.
 - 비너스·장미 분수 참고 이미지의 새로운 본문 클리어 효과는 별도 후속 디자인 과제다.
 
