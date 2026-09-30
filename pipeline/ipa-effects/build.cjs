@@ -93,6 +93,7 @@ function main(args=process.argv.slice(2)){
   assert.equal(buildPage(page.html,assets).html,page.html,page.file+' effect builder is not idempotent');
   if(check)assert.equal(page.html,page.source,page.file+' generated effects are stale; run the IPA effect builder');
  }
+ require('../index-stats.cjs').updateIndex({check,dry});
  if(!check&&!dry)for(const page of built)fs.writeFileSync(path.join(ROOT,page.file),page.html);
  for(const page of built)console.log(JSON.stringify({file:page.file,action:check?'verified':dry?'previewed':'embedded',...page.stats}));
 }

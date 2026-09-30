@@ -10,7 +10,8 @@ for(const u of morph.units){
  assert(u.title&&u.rule&&u.limits&&u.history.origin&&u.history.route&&u.sources.length,u.id);
  for(const url of u.sources)assert(/^https:\/\//.test(url),url);
  stats.sources+=u.sources.length;
- if(u.kind==='greek'){stats.greekUnits++;assert(/[\u0370-\u03ff\u1f00-\u1fff]/.test(u.history.greek),u.id);assert(u.history.romanization&&u.history.reading,u.id);}
+ if(u.kind==='greek')stats.greekUnits++;
+ if(u.kind==='greek'||u.kind==='mixed'||u.history.greek){assert(/[\u0370-\u03ff\u1f00-\u1fff]/.test(u.history.greek),u.id);assert(u.history.romanization&&u.history.reading,u.id);}
  for(const w of u.cards){
    stats.cards++;
    assert.equal((w.ex.match(/\{\{BLANK\}\}/g)||[]).length,1,w.word);
@@ -25,5 +26,5 @@ for(const L of require('./helpers/editorial-review.cjs').restoreTopicGrouping(da
  const canonical=JSON.parse(fs.readFileSync(path.join(root,'pipeline/out',file),'utf8'));
  assert.deepEqual(L.exercises,Array.isArray(canonical)?canonical:canonical.exercises,file);
 }
-assert.equal(stats.units,71);assert.equal(stats.cards,167);assert.equal(stats.greekUnits,16);
+assert.equal(stats.units,141);assert.equal(stats.cards,358);assert.equal(stats.greekUnits,24);
 console.log(JSON.stringify({...stats,sourceHtmlSync:true,scope:'46–48 course content; 0–45 remains separate'}));

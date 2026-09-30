@@ -1630,8 +1630,13 @@ function ipaEffectFinish(run,error=false){
   if(!error&&run.started!==null)ipaEffectRemember(run);
   (run.visualTimers||[]).forEach(clearTimeout);run.visualTimers=[];
   if(error){ipaEffectClearVisual(run);return;}
-  run.nodes.forEach(n=>n.el.classList.add('finishing'));
-  ipaEffectLater(run,()=>ipaEffectClearVisual(run),250);
+  const fade=()=>{run.nodes.forEach(n=>n.el.classList.add('finishing'));ipaEffectLater(run,()=>ipaEffectClearVisual(run),250);};
+  // The browser may finish before estimated later syllables. Show those sounds
+  // once before fading; already complete reveals keep their original timing.
+  if(run.nodes.some(n=>!n.part.silent&&!n.el.classList.contains('lit'))){
+    ipaEffectLight(run,0,true);run.visualUntil=performance.now()+180;
+    ipaEffectLater(run,fade,180);
+  }else fade();
 }
 function ipaEffectAttach(u,run){
   if(!run)return;
@@ -1656,7 +1661,12 @@ function ipaEffectAdvance(next,valid){
     if(ipaEffectGate!==gate)return;
     if(!valid()){ipaEffectCancelAdvance();return;}
     const run=ipaEffectRun;
-    if(!ipaEffectCurrent(run)||run.finished){ipaEffectCancelAdvance();next();return;}
+    if(!ipaEffectCurrent(run)||run.finished){
+      if(ipaEffectCurrent(run)&&!document.hidden&&performance.now()<run.visualUntil){
+        gate.timer=setTimeout(poll,Math.min(60,run.visualUntil-performance.now()));return;
+      }
+      ipaEffectCancelAdvance();next();return;
+    }
     const deadline=Math.min(gate.deadline,run.started===null?run.created+2500:Math.min(run.created+7500,run.started+6000));
     if(document.hidden||performance.now()>=deadline){
       run.unreliable=true;ipaEffectFinish(run,true);

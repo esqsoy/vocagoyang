@@ -1,0 +1,3639 @@
+{
+  "status": "approved_implemented_local_not_deployed",
+  "date": "2026-09-30",
+  "baselineDataSha256": "f8c2dc4994dd639f2d1d745cd88bd53fcd6253c1ddc2f91492cd6314cf4acb63",
+  "baselineMorphologySha256": "223e0dbfd6fb8cb526c6acae423676757e1162ce634b5b561df89a60db300d2b",
+  "statistics": {
+    "retainedCards": 167,
+    "retainedUnits": 71,
+    "additionalCards": 160,
+    "existingPoolReviewCards": 123,
+    "newHeadwords": 37,
+    "proposedCardsTotal": 327,
+    "addedUnits": 57,
+    "extendedUnits": 4,
+    "courseCards": {
+      "47": 101,
+      "48": 226
+    }
+  },
+  "keep": {
+    "allExistingMorphologyCards": true,
+    "deleteHeadwords": [],
+    "courseNumbers": [
+      47,
+      48
+    ],
+    "gameMechanics": "unchanged",
+    "exerciseTarget": "주제·어근 가족을 보존하며 10–12카드 중심, 자연스러운 대비묶음은 8–15카드 허용"
+  },
+  "existingUnits": [
+    {
+      "id": "affix-un-negative",
+      "title": "un- · 그렇지 않은",
+      "words": [
+        "unclear",
+        "unfair",
+        "unaware"
+      ]
+    },
+    {
+      "id": "affix-un-reversal",
+      "title": "un- · 하던 일을 되돌리는",
+      "words": [
+        "undo",
+        "unlock"
+      ]
+    },
+    {
+      "id": "affix-in-negative",
+      "title": "in- / im- / il- / ir- · 부정과 형태 변화",
+      "words": [
+        "inactive",
+        "impossible",
+        "irregular"
+      ]
+    },
+    {
+      "id": "affix-dis",
+      "title": "dis- · 반대와 분리",
+      "words": [
+        "disagree",
+        "disconnect"
+      ]
+    },
+    {
+      "id": "affix-non",
+      "title": "non- · 해당하지 않음",
+      "words": [
+        "nonfiction",
+        "nonverbal"
+      ]
+    },
+    {
+      "id": "affix-mis",
+      "title": "mis- · 잘못된 방식",
+      "words": [
+        "mislead",
+        "misinterpret"
+      ]
+    },
+    {
+      "id": "affix-re",
+      "title": "re- · 다시와 되돌려",
+      "words": [
+        "reconsider",
+        "rebuild",
+        "repay"
+      ]
+    },
+    {
+      "id": "affix-de",
+      "title": "de- · 없애고 되돌리는",
+      "words": [
+        "deactivate",
+        "devalue"
+      ]
+    },
+    {
+      "id": "affix-pre-post",
+      "title": "pre- / post- · 이전과 이후",
+      "words": [
+        "preview",
+        "preexisting",
+        "postwar"
+      ]
+    },
+    {
+      "id": "affix-over-under",
+      "title": "over- / under- · 지나침과 부족",
+      "words": [
+        "overestimate",
+        "underestimate",
+        "underdeveloped"
+      ]
+    },
+    {
+      "id": "affix-inter-intra",
+      "title": "inter- / intra- · 사이와 내부",
+      "words": [
+        "international",
+        "interdependent",
+        "intracellular"
+      ]
+    },
+    {
+      "id": "affix-sub-super",
+      "title": "sub- / super- · 아래와 너머",
+      "words": [
+        "subconscious",
+        "superhuman"
+      ]
+    },
+    {
+      "id": "affix-trans",
+      "title": "trans- · 가로지르고 바꾸는",
+      "words": [
+        "transform",
+        "transplant"
+      ]
+    },
+    {
+      "id": "affix-co",
+      "title": "co- · 함께",
+      "words": [
+        "coexist",
+        "cooperate"
+      ]
+    },
+    {
+      "id": "affix-anti",
+      "title": "anti- · 맞서고 억제하는",
+      "words": [
+        "antisocial",
+        "antibacterial"
+      ]
+    },
+    {
+      "id": "affix-ness-ity",
+      "title": "-ness / -ity · 성질을 명사로",
+      "words": [
+        "awareness",
+        "equality",
+        "flexibility"
+      ]
+    },
+    {
+      "id": "affix-ment",
+      "title": "-ment · 행동과 결과를 명사로",
+      "words": [
+        "improvement",
+        "judgment"
+      ]
+    },
+    {
+      "id": "affix-ion",
+      "title": "-tion / -sion · 동작을 개념으로",
+      "words": [
+        "adaptation",
+        "expansion",
+        "observation"
+      ]
+    },
+    {
+      "id": "affix-ance-ence",
+      "title": "-ance / -ence · 상태와 과정",
+      "words": [
+        "resistance",
+        "dependence"
+      ]
+    },
+    {
+      "id": "affix-agent",
+      "title": "-er / -or · 행동하는 주체",
+      "words": [
+        "researcher",
+        "consumer",
+        "predictor"
+      ]
+    },
+    {
+      "id": "affix-ist-ism",
+      "title": "-ist / -ism · 사람과 사상",
+      "words": [
+        "specialist",
+        "capitalism",
+        "realism"
+      ]
+    },
+    {
+      "id": "affix-ful-less",
+      "title": "-ful / -less · 있음과 없음",
+      "words": [
+        "meaningful",
+        "meaningless",
+        "harmless"
+      ]
+    },
+    {
+      "id": "affix-able-ible",
+      "title": "-able / -ible · 가능성과 성질",
+      "words": [
+        "predictable",
+        "accessible",
+        "flexible"
+      ]
+    },
+    {
+      "id": "affix-al-ic-ical",
+      "title": "-al / -ic / -ical · 관련된 성질",
+      "words": [
+        "cultural",
+        "economic",
+        "economical"
+      ]
+    },
+    {
+      "id": "affix-ive-ous",
+      "title": "-ive / -ous · 작용과 성질",
+      "words": [
+        "creative",
+        "protective",
+        "dangerous"
+      ]
+    },
+    {
+      "id": "affix-ly",
+      "title": "-ly · 어떻게, 어느 정도",
+      "words": [
+        "widely",
+        "hardly"
+      ]
+    },
+    {
+      "id": "affix-ize",
+      "title": "-ize / -ise · 그렇게 만들다",
+      "words": [
+        "modernize",
+        "standardize"
+      ]
+    },
+    {
+      "id": "affix-ify-en",
+      "title": "-ify / -en · 성질을 바꾸는 동사",
+      "words": [
+        "simplify",
+        "strengthen",
+        "broaden"
+      ]
+    },
+    {
+      "id": "lat-duc",
+      "title": "duc / duct · 이끌다",
+      "words": [
+        "produce",
+        "reduce",
+        "conduct"
+      ]
+    },
+    {
+      "id": "lat-fer",
+      "title": "fer · 나르다, 가져오다",
+      "words": [
+        "transfer",
+        "infer",
+        "refer"
+      ]
+    },
+    {
+      "id": "lat-port",
+      "title": "port · 나르다, 받치다",
+      "words": [
+        "transport",
+        "support"
+      ]
+    },
+    {
+      "id": "lat-ject",
+      "title": "ject · 던지다",
+      "words": [
+        "reject",
+        "project"
+      ]
+    },
+    {
+      "id": "lat-mit",
+      "title": "mit / miss · 보내다, 놓아주다",
+      "words": [
+        "transmit",
+        "permit",
+        "mission"
+      ]
+    },
+    {
+      "id": "lat-pon",
+      "title": "pon / posit · 놓다",
+      "words": [
+        "position",
+        "opponent"
+      ]
+    },
+    {
+      "id": "lat-fac",
+      "title": "fac / fic / fact / fect · 하다, 만들다",
+      "words": [
+        "affect",
+        "effect"
+      ]
+    },
+    {
+      "id": "lat-cap",
+      "title": "cap / cip / cept · 잡다, 받아들이다",
+      "words": [
+        "accept",
+        "concept"
+      ]
+    },
+    {
+      "id": "lat-ten",
+      "title": "ten / tin / tain · 잡아 두다, 유지하다",
+      "words": [
+        "contain",
+        "retain",
+        "maintain"
+      ]
+    },
+    {
+      "id": "lat-vert",
+      "title": "vert / vers · 돌리다",
+      "words": [
+        "convert",
+        "reverse"
+      ]
+    },
+    {
+      "id": "lat-scrib",
+      "title": "scrib / script · 쓰다",
+      "words": [
+        "describe",
+        "prescribe",
+        "manuscript"
+      ]
+    },
+    {
+      "id": "lat-spec",
+      "title": "spec / spic / spect · 보다",
+      "words": [
+        "inspect",
+        "respect",
+        "suspect"
+      ]
+    },
+    {
+      "id": "lat-vid",
+      "title": "vid / vis · 보다",
+      "words": [
+        "provide",
+        "evident",
+        "vision"
+      ]
+    },
+    {
+      "id": "lat-cred",
+      "title": "cred · 믿다, 맡기다",
+      "words": [
+        "credible",
+        "credit"
+      ]
+    },
+    {
+      "id": "lat-dict",
+      "title": "dic / dict · 말하다",
+      "words": [
+        "predict",
+        "contradict"
+      ]
+    },
+    {
+      "id": "lat-tract",
+      "title": "trah / tract · 끌다",
+      "words": [
+        "attract",
+        "extract",
+        "distract"
+      ]
+    },
+    {
+      "id": "lat-rupt",
+      "title": "rump / rupt · 깨뜨리다, 끊다",
+      "words": [
+        "interrupt",
+        "disrupt"
+      ]
+    },
+    {
+      "id": "lat-struct",
+      "title": "stru / struct · 쌓다, 짜다",
+      "words": [
+        "construct",
+        "structure"
+      ]
+    },
+    {
+      "id": "lat-ced",
+      "title": "ced / ceed / cess · 가다, 물러나다",
+      "words": [
+        "proceed",
+        "access",
+        "succeed"
+      ]
+    },
+    {
+      "id": "lat-ag",
+      "title": "ag / act · 움직이다, 행하다",
+      "words": [
+        "agent",
+        "active",
+        "react"
+      ]
+    },
+    {
+      "id": "lat-reg",
+      "title": "reg / rect · 곧게 하다, 이끌다",
+      "words": [
+        "direct",
+        "correct"
+      ]
+    },
+    {
+      "id": "lat-sequ",
+      "title": "sequ · 뒤따르다",
+      "words": [
+        "sequence",
+        "consequence"
+      ]
+    },
+    {
+      "id": "gr-bio",
+      "title": "bio- · 삶과 생명",
+      "words": [
+        "biology",
+        "biography"
+      ]
+    },
+    {
+      "id": "gr-geo",
+      "title": "geo- · 땅과 지구",
+      "words": [
+        "geography",
+        "geology"
+      ]
+    },
+    {
+      "id": "gr-graph",
+      "title": "graph · 쓰고 그리기",
+      "words": [
+        "graphic",
+        "photograph"
+      ]
+    },
+    {
+      "id": "gr-logy",
+      "title": "-logy · 설명과 학문",
+      "words": [
+        "sociology",
+        "ecology"
+      ]
+    },
+    {
+      "id": "gr-phon",
+      "title": "phon · 소리와 목소리",
+      "words": [
+        "telephone",
+        "microphone"
+      ]
+    },
+    {
+      "id": "gr-photo",
+      "title": "photo- · 빛",
+      "words": [
+        "photosynthesis",
+        "photographic"
+      ]
+    },
+    {
+      "id": "gr-therm",
+      "title": "therm · 열과 온도",
+      "words": [
+        "thermal",
+        "thermometer"
+      ]
+    },
+    {
+      "id": "gr-chron",
+      "title": "chron · 시간",
+      "words": [
+        "chronic",
+        "chronological"
+      ]
+    },
+    {
+      "id": "gr-psych",
+      "title": "psych · 마음과 정신",
+      "words": [
+        "psychology",
+        "psychological"
+      ]
+    },
+    {
+      "id": "gr-anthrop",
+      "title": "anthrop · 인간",
+      "words": [
+        "anthropology",
+        "philanthropy"
+      ]
+    },
+    {
+      "id": "gr-auto",
+      "title": "auto- · 스스로",
+      "words": [
+        "automatic",
+        "autonomy"
+      ]
+    },
+    {
+      "id": "gr-tele",
+      "title": "tele- · 먼 거리",
+      "words": [
+        "television",
+        "telecommunication"
+      ]
+    },
+    {
+      "id": "gr-micro",
+      "title": "micro- · 매우 작음",
+      "words": [
+        "microbe",
+        "microscopic"
+      ]
+    },
+    {
+      "id": "gr-scope",
+      "title": "-scope · 관찰하는 기구",
+      "words": [
+        "microscope",
+        "telescope"
+      ]
+    },
+    {
+      "id": "gr-path",
+      "title": "path · 겪음과 감정",
+      "words": [
+        "empathy",
+        "sympathy"
+      ]
+    },
+    {
+      "id": "gr-dem",
+      "title": "dem · 사람들과 인구",
+      "words": [
+        "democracy",
+        "demographic"
+      ]
+    },
+    {
+      "id": "en-blood",
+      "title": "blood ↔ bleed · 오래된 영어의 가족",
+      "words": [
+        "blood",
+        "bleed"
+      ]
+    },
+    {
+      "id": "en-food",
+      "title": "food ↔ feed · 음식과 먹이기",
+      "words": [
+        "food",
+        "feed"
+      ]
+    },
+    {
+      "id": "en-strong",
+      "title": "strong ↔ strength · 성질을 명사로",
+      "words": [
+        "strong",
+        "strength"
+      ]
+    },
+    {
+      "id": "en-broad",
+      "title": "broad ↔ breadth · 형태의 역사",
+      "words": [
+        "broad",
+        "breadth"
+      ]
+    },
+    {
+      "id": "en-long",
+      "title": "long ↔ length · 길이와 지속",
+      "words": [
+        "long",
+        "length"
+      ]
+    }
+  ],
+  "additionalUnitsAndCards": [
+    {
+      "lesson": 47,
+      "id": "affix-in-negative",
+      "title": "기존 부정 접사의 빠진 il- 보완",
+      "rootSummary": "in- → il- / l 앞의 동화",
+      "cards": [
+        {
+          "word": "illegal",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 24,
+              "exercise": 10,
+              "index": 12,
+              "word": "illegal",
+              "si": 1,
+              "ko": "① 불법의"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/illegal",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "extend_existing_unit"
+    },
+    {
+      "lesson": 47,
+      "id": "affix-ful-less",
+      "title": "기존 -ful / -less 대비 완성",
+      "rootSummary": "harm + -ful / -less",
+      "cards": [
+        {
+          "word": "harmful",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 21,
+              "exercise": 9,
+              "index": 4,
+              "word": "harmful",
+              "si": 1,
+              "ko": "① 해로운"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/harmful",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "extend_existing_unit"
+    },
+    {
+      "lesson": 47,
+      "id": "affix-inter-intra",
+      "title": "기존 inter- / intra- 대비 완성",
+      "rootSummary": "라틴어 inter(사이) / intra(안쪽)",
+      "cards": [
+        {
+          "word": "intercellular",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        }
+      ],
+      "representativeSource": "https://www.collinsdictionary.com/us/dictionary/english/intercellular",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "extend_existing_unit"
+    },
+    {
+      "lesson": 47,
+      "id": "add-in-out",
+      "title": "안으로 / 밖으로",
+      "rootSummary": "라틴어 in / ex + portare(나르다)",
+      "cards": [
+        {
+          "word": "import",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "export",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 32,
+              "exercise": 5,
+              "index": 2,
+              "word": "export",
+              "si": 1,
+              "ko": "① 수출하다"
+            },
+            {
+              "lesson": 32,
+              "exercise": 5,
+              "index": 3,
+              "word": "export",
+              "si": 2,
+              "ko": "② 수출품, 수출"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/import",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 47,
+      "id": "add-fore-time",
+      "title": "앞서 / 뒤로",
+      "rootSummary": "영어 fore-; 라틴어 prae / post",
+      "cards": [
+        {
+          "word": "forecast",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 37,
+              "exercise": 3,
+              "index": 4,
+              "word": "forecast",
+              "si": 1,
+              "ko": "① 예보, 예측"
+            },
+            {
+              "lesson": 37,
+              "exercise": 3,
+              "index": 5,
+              "word": "forecast",
+              "si": 2,
+              "ko": "② 예보하다, 예측하다"
+            }
+          ]
+        },
+        {
+          "word": "precede",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 45,
+              "exercise": 3,
+              "index": 4,
+              "word": "precede",
+              "si": 1,
+              "ko": "① ~에 앞서다, 먼저 오다"
+            }
+          ]
+        },
+        {
+          "word": "postpone",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/postpone",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 47,
+      "id": "add-together",
+      "title": "함께 결합하기",
+      "rootSummary": "라틴어 com-; 그리스어 syn- / sym-",
+      "cards": [
+        {
+          "word": "combine",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 11,
+              "exercise": 10,
+              "index": 9,
+              "word": "combine",
+              "si": 1,
+              "ko": "① 결합하다, 합치다"
+            }
+          ]
+        },
+        {
+          "word": "synthesis",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 39,
+              "exercise": 9,
+              "index": 6,
+              "word": "synthesis",
+              "si": 1,
+              "ko": "① 종합, 합성"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/synthesis",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 47,
+      "id": "add-counter",
+      "title": "맞서기 / 대응하기",
+      "rootSummary": "라틴어 contra → 프랑스어 contre → counter-",
+      "cards": [
+        {
+          "word": "counteract",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "counterpart",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 33,
+              "exercise": 2,
+              "index": 11,
+              "word": "counterpart",
+              "si": 1,
+              "ko": "① 대응하는 상대, 짝이 되는 것"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/counteract",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 47,
+      "id": "add-en",
+      "title": "그 상태로 만들기",
+      "rootSummary": "프랑스어 en- + able",
+      "cards": [
+        {
+          "word": "enable",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 25,
+              "exercise": 5,
+              "index": 12,
+              "word": "enable",
+              "si": 1,
+              "ko": "① 가능하게 하다, ~할 수 있게 하다"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/enable",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 47,
+      "id": "add-bene-mal",
+      "title": "좋게 / 나쁘게",
+      "rootSummary": "라틴어 bene(잘) / male(나쁘게)",
+      "cards": [
+        {
+          "word": "benefit",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 0,
+              "exercise": 12,
+              "index": 0,
+              "word": "benefit",
+              "si": 1,
+              "ko": "① 이점, 혜택"
+            },
+            {
+              "lesson": 0,
+              "exercise": 12,
+              "index": 1,
+              "word": "benefit",
+              "si": 2,
+              "ko": "② 도움이 되다, 이롭게 하다"
+            },
+            {
+              "lesson": 0,
+              "exercise": 12,
+              "index": 2,
+              "word": "benefit",
+              "si": 3,
+              "ko": "③ 이익을 얻다, 도움을 받다"
+            }
+          ]
+        },
+        {
+          "word": "beneficiary",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 44,
+              "exercise": 1,
+              "index": 7,
+              "word": "beneficiary",
+              "si": 1,
+              "ko": "① 수혜자, 수령인"
+            }
+          ]
+        },
+        {
+          "word": "malfunction",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/malfunction",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 47,
+      "id": "add-symmetry",
+      "title": "대칭 / 비대칭",
+      "rootSummary": "그리스어 syn(함께) + metron(척도); a-(없음)",
+      "cards": [
+        {
+          "word": "symmetry",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "asymmetry",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/symmetry",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 47,
+      "id": "add-homo-hetero",
+      "title": "같은 / 다른",
+      "rootSummary": "그리스어 homos(같은) / heteros(다른) + genos(종류)",
+      "cards": [
+        {
+          "word": "homogeneous",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "heterogeneous",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/homogeneous",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 47,
+      "id": "add-hyper-hypo",
+      "title": "기준보다 과함 / 낮음",
+      "rootSummary": "그리스어 hyper(위·넘어) / hypo(아래)",
+      "cards": [
+        {
+          "word": "hyperactive",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "hypothermia",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/hypothermia",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 47,
+      "id": "add-hood-ship",
+      "title": "시기·상태 / 관계·역할",
+      "rootSummary": "영어 -hood / -ship",
+      "cards": [
+        {
+          "word": "childhood",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 14,
+              "exercise": 4,
+              "index": 4,
+              "word": "childhood",
+              "si": 1,
+              "ko": "① 어린 시절"
+            }
+          ]
+        },
+        {
+          "word": "neighborhood",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 10,
+              "exercise": 2,
+              "index": 6,
+              "word": "neighborhood",
+              "si": 1,
+              "ko": "① 동네, 이웃"
+            }
+          ]
+        },
+        {
+          "word": "friendship",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 27,
+              "exercise": 10,
+              "index": 10,
+              "word": "friendship",
+              "si": 1,
+              "ko": "① 우정, 친구 관계"
+            }
+          ]
+        },
+        {
+          "word": "leadership",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 24,
+              "exercise": 2,
+              "index": 7,
+              "word": "leadership",
+              "si": 1,
+              "ko": "① 지도력, 리더십"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/-hood",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 47,
+      "id": "add-dom-ward",
+      "title": "상태·영역 / 방향",
+      "rootSummary": "영어 -dom / -ward",
+      "cards": [
+        {
+          "word": "freedom",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 9,
+              "exercise": 2,
+              "index": 8,
+              "word": "freedom",
+              "si": 1,
+              "ko": "① 자유"
+            }
+          ]
+        },
+        {
+          "word": "kingdom",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 17,
+              "exercise": 8,
+              "index": 12,
+              "word": "kingdom",
+              "si": 1,
+              "ko": "① 왕국"
+            }
+          ]
+        },
+        {
+          "word": "backward",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 21,
+              "exercise": 3,
+              "index": 8,
+              "word": "backward",
+              "si": 1,
+              "ko": "① 뒤로, 거꾸로"
+            },
+            {
+              "lesson": 21,
+              "exercise": 3,
+              "index": 9,
+              "word": "backward",
+              "si": 2,
+              "ko": "② 뒤쪽으로 향하는, 뒤로 가는"
+            }
+          ]
+        },
+        {
+          "word": "forward",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 7,
+              "exercise": 7,
+              "index": 4,
+              "word": "forward",
+              "si": 1,
+              "ko": "① 앞으로"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/-dom",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "gr-micro",
+      "title": "기존 micro-에 macro- 연결",
+      "rootSummary": "그리스어 mikros(작은) / makros(긴·큰)",
+      "cards": [
+        {
+          "word": "macroscopic",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "microeconomics",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "macroeconomics",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/macroscopic",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "extend_existing_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-one-many",
+      "title": "하나 / 둘 / 여럿",
+      "rootSummary": "라틴어 unus / bi- / multus; 그리스어 monos / polys",
+      "cards": [
+        {
+          "word": "unify",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 44,
+              "exercise": 10,
+              "index": 5,
+              "word": "unify",
+              "si": 1,
+              "ko": "① 통일하다, 하나로 만들다"
+            }
+          ]
+        },
+        {
+          "word": "uniform",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 16,
+              "exercise": 10,
+              "index": 10,
+              "word": "uniform",
+              "si": 1,
+              "ko": "① 교복, 제복"
+            },
+            {
+              "lesson": 16,
+              "exercise": 10,
+              "index": 11,
+              "word": "uniform",
+              "si": 2,
+              "ko": "② 일정한, 균일한"
+            }
+          ]
+        },
+        {
+          "word": "monologue",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "monolingual",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "bilingual",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 43,
+              "exercise": 1,
+              "index": 11,
+              "word": "bilingual",
+              "si": 1,
+              "ko": "① 2개 국어를 하는"
+            }
+          ]
+        },
+        {
+          "word": "multilingual",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "monopoly",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 39,
+              "exercise": 9,
+              "index": 4,
+              "word": "monopoly",
+              "si": 1,
+              "ko": "① 독점"
+            }
+          ]
+        },
+        {
+          "word": "polygon",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/monolingual",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-number-shape",
+      "title": "수와 모양",
+      "rootSummary": "bi=2, tri=3, quadr=4, penta=5, hexa=6, octo=8",
+      "cards": [
+        {
+          "word": "bicycle",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 19,
+              "exercise": 8,
+              "index": 6,
+              "word": "bicycle",
+              "si": 1,
+              "ko": "① 자전거"
+            }
+          ]
+        },
+        {
+          "word": "triangle",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 38,
+              "exercise": 10,
+              "index": 0,
+              "word": "triangle",
+              "si": 1,
+              "ko": "① 삼각형"
+            }
+          ]
+        },
+        {
+          "word": "quadrant",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "pentagon",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "hexagon",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "octopus",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/hexagon",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-number-calendar",
+      "title": "달 이름의 7·8·9·10",
+      "rootSummary": "라틴어 septem / octo / novem / decem",
+      "cards": [
+        {
+          "word": "September",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 0,
+              "exercise": 3,
+              "index": 15,
+              "word": "September",
+              "si": 1,
+              "ko": "① 9월"
+            }
+          ]
+        },
+        {
+          "word": "October",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 0,
+              "exercise": 3,
+              "index": 16,
+              "word": "October",
+              "si": 1,
+              "ko": "① 10월"
+            }
+          ]
+        },
+        {
+          "word": "November",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 0,
+              "exercise": 3,
+              "index": 17,
+              "word": "November",
+              "si": 1,
+              "ko": "① 11월"
+            }
+          ]
+        },
+        {
+          "word": "December",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 0,
+              "exercise": 3,
+              "index": 18,
+              "word": "December",
+              "si": 1,
+              "ko": "① 12월"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.britishmuseum.org/blog/whats-name-months-year",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-ten-hundred-thousand",
+      "title": "10 / 100 / 1000",
+      "rootSummary": "그리스어 deka; 라틴어 decem / centum / mille",
+      "cards": [
+        {
+          "word": "decade",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "decimal",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 21,
+              "exercise": 6,
+              "index": 7,
+              "word": "decimal",
+              "si": 1,
+              "ko": "① 소수"
+            }
+          ]
+        },
+        {
+          "word": "century",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 7,
+              "exercise": 5,
+              "index": 12,
+              "word": "century",
+              "si": 1,
+              "ko": "① 100년, 세기"
+            }
+          ]
+        },
+        {
+          "word": "percent",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 23,
+              "exercise": 1,
+              "index": 6,
+              "word": "percent",
+              "si": 1,
+              "ko": "① 퍼센트, 백분율"
+            }
+          ]
+        },
+        {
+          "word": "millennium",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/millennium",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-half-units",
+      "title": "절반과 측정 단위",
+      "rootSummary": "라틴어 semi-; 그리스어 hemi-; SI 배수는 별도 규칙",
+      "cards": [
+        {
+          "word": "semicircle",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "hemisphere",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "centimeter",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 21,
+              "exercise": 4,
+              "index": 8,
+              "word": "centimeter",
+              "si": 1,
+              "ko": "① 센티미터"
+            }
+          ]
+        },
+        {
+          "word": "millimeter",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 44,
+              "exercise": 9,
+              "index": 7,
+              "word": "millimeter",
+              "si": 1,
+              "ko": "① 밀리미터"
+            }
+          ]
+        },
+        {
+          "word": "kilometer",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 22,
+              "exercise": 2,
+              "index": 1,
+              "word": "kilometer",
+              "si": 1,
+              "ko": "① 킬로미터(km)"
+            }
+          ]
+        },
+        {
+          "word": "kilogram",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 22,
+              "exercise": 2,
+              "index": 0,
+              "word": "kilogram",
+              "si": 1,
+              "ko": "① 킬로그램(kg)"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/hemisphere",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-sta",
+      "title": "서다 / 안정된 상태",
+      "rootSummary": "라틴어 stare / stabilis",
+      "cards": [
+        {
+          "word": "state",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 1,
+              "exercise": 5,
+              "index": 11,
+              "word": "state",
+              "si": 1,
+              "ko": "① 상태"
+            },
+            {
+              "lesson": 1,
+              "exercise": 5,
+              "index": 12,
+              "word": "state",
+              "si": 2,
+              "ko": "② (미국 등의) 주"
+            },
+            {
+              "lesson": 1,
+              "exercise": 5,
+              "index": 13,
+              "word": "state",
+              "si": 3,
+              "ko": "③ (공식적으로) 말하다, 진술하다"
+            },
+            {
+              "lesson": 1,
+              "exercise": 5,
+              "index": 14,
+              "word": "state",
+              "si": 4,
+              "ko": "④ 국가, 정부"
+            },
+            {
+              "lesson": 46,
+              "exercise": 1,
+              "index": 10,
+              "word": "state",
+              "si": 3,
+              "ko": "③ (공식적으로) 말하다, 진술하다"
+            }
+          ]
+        },
+        {
+          "word": "establish",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 8,
+              "exercise": 9,
+              "index": 10,
+              "word": "establish",
+              "si": 1,
+              "ko": "① 세우다, 설립하다"
+            }
+          ]
+        },
+        {
+          "word": "instability",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 41,
+              "exercise": 5,
+              "index": 5,
+              "word": "instability",
+              "si": 1,
+              "ko": "① 불안정"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/establish",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-mov",
+      "title": "움직임 / 감정",
+      "rootSummary": "라틴어 movere / motus",
+      "cards": [
+        {
+          "word": "move",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 3,
+              "exercise": 4,
+              "index": 1,
+              "word": "move",
+              "si": 1,
+              "ko": "① 움직이다, 옮기다"
+            },
+            {
+              "lesson": 3,
+              "exercise": 4,
+              "index": 2,
+              "word": "move",
+              "si": 2,
+              "ko": "② 이사하다"
+            },
+            {
+              "lesson": 3,
+              "exercise": 4,
+              "index": 3,
+              "word": "move",
+              "si": 3,
+              "ko": "③ 감동시키다, 마음을 움직이다"
+            }
+          ]
+        },
+        {
+          "word": "motion",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 25,
+              "exercise": 4,
+              "index": 1,
+              "word": "motion",
+              "si": 1,
+              "ko": "① 움직임, 운동, 동작"
+            },
+            {
+              "lesson": 25,
+              "exercise": 4,
+              "index": 2,
+              "word": "motion",
+              "si": 2,
+              "ko": "② 동의안, 제안"
+            }
+          ]
+        },
+        {
+          "word": "emotion",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 25,
+              "exercise": 5,
+              "index": 6,
+              "word": "emotion",
+              "si": 1,
+              "ko": "① 감정, 정서"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/emotion",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-ven",
+      "title": "오다 / 일어나다",
+      "rootSummary": "라틴어 venire / ventus",
+      "cards": [
+        {
+          "word": "event",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 4,
+              "exercise": 7,
+              "index": 17,
+              "word": "event",
+              "si": 1,
+              "ko": "① 사건, 행사"
+            }
+          ]
+        },
+        {
+          "word": "invent",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 17,
+              "exercise": 5,
+              "index": 11,
+              "word": "invent",
+              "si": 1,
+              "ko": "① 발명하다"
+            },
+            {
+              "lesson": 17,
+              "exercise": 5,
+              "index": 12,
+              "word": "invent",
+              "si": 2,
+              "ko": "② 지어내다, 꾸며 내다"
+            }
+          ]
+        },
+        {
+          "word": "prevent",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 9,
+              "exercise": 4,
+              "index": 9,
+              "word": "prevent",
+              "si": 1,
+              "ko": "① 막다, 예방하다"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/prevent",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-clud",
+      "title": "안에 넣기 / 밖에 두기 / 마무리",
+      "rootSummary": "라틴어 claudere / clausus, 합성형 clud / clus",
+      "cards": [
+        {
+          "word": "include",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 4,
+              "exercise": 4,
+              "index": 17,
+              "word": "include",
+              "si": 1,
+              "ko": "① 포함하다 (↔ exclude)"
+            }
+          ]
+        },
+        {
+          "word": "exclude",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "conclusion",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 24,
+              "exercise": 5,
+              "index": 3,
+              "word": "conclusion",
+              "si": 1,
+              "ko": "① 결론, 결말"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/exclude",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-tend",
+      "title": "뻗다 / 향하다",
+      "rootSummary": "라틴어 tendere / tensus",
+      "cards": [
+        {
+          "word": "intend",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 11,
+              "exercise": 7,
+              "index": 2,
+              "word": "intend",
+              "si": 1,
+              "ko": "① 의도하다"
+            }
+          ]
+        },
+        {
+          "word": "extension",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 28,
+              "exercise": 1,
+              "index": 3,
+              "word": "extension",
+              "si": 1,
+              "ko": "① 연장, 기한 연기"
+            },
+            {
+              "lesson": 28,
+              "exercise": 1,
+              "index": 4,
+              "word": "extension",
+              "si": 2,
+              "ko": "② 확장, 증축"
+            },
+            {
+              "lesson": 28,
+              "exercise": 1,
+              "index": 5,
+              "word": "extension",
+              "si": 3,
+              "ko": "③ 내선 번호, 내선 전화"
+            },
+            {
+              "lesson": 28,
+              "exercise": 1,
+              "index": 6,
+              "word": "extension",
+              "si": 4,
+              "ko": "④ (파일의) 확장자"
+            }
+          ]
+        },
+        {
+          "word": "tense",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 22,
+              "exercise": 7,
+              "index": 6,
+              "word": "tense",
+              "si": 1,
+              "ko": "① 긴장한, 팽팽한"
+            },
+            {
+              "lesson": 22,
+              "exercise": 7,
+              "index": 7,
+              "word": "tense",
+              "si": 2,
+              "ko": "② (동사의) 시제"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/intend",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-pend",
+      "title": "매달림 / 의존 / 중단",
+      "rootSummary": "라틴어 pendere(매달다)",
+      "cards": [
+        {
+          "word": "depend",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 11,
+              "exercise": 5,
+              "index": 10,
+              "word": "depend",
+              "si": 1,
+              "ko": "① ~에 달려 있다"
+            },
+            {
+              "lesson": 11,
+              "exercise": 5,
+              "index": 11,
+              "word": "depend",
+              "si": 2,
+              "ko": "② 의지하다, 의존하다"
+            }
+          ]
+        },
+        {
+          "word": "suspension",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 36,
+              "exercise": 5,
+              "index": 5,
+              "word": "suspension",
+              "si": 1,
+              "ko": "① 정학, 정지"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/suspension",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-plic",
+      "title": "접힘 / 복잡함 / 드러냄",
+      "rootSummary": "라틴어 plicare(접다)",
+      "cards": [
+        {
+          "word": "imply",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 0,
+              "exercise": 15,
+              "index": 0,
+              "word": "imply",
+              "si": 1,
+              "ko": "① 암시하다, 넌지시 나타내다"
+            },
+            {
+              "lesson": 0,
+              "exercise": 15,
+              "index": 1,
+              "word": "imply",
+              "si": 2,
+              "ko": "② 필연적으로 수반하다, 뜻하다"
+            },
+            {
+              "lesson": 46,
+              "exercise": 4,
+              "index": 5,
+              "word": "imply",
+              "si": 1,
+              "ko": "① 암시하다, 넌지시 나타내다"
+            },
+            {
+              "lesson": 46,
+              "exercise": 5,
+              "index": 3,
+              "word": "imply",
+              "si": 2,
+              "ko": "② 필연적으로 수반하다, 뜻하다"
+            }
+          ]
+        },
+        {
+          "word": "complicate",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 44,
+              "exercise": 6,
+              "index": 1,
+              "word": "complicate",
+              "si": 1,
+              "ko": "① 복잡하게 만들다"
+            }
+          ]
+        },
+        {
+          "word": "explicitly",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 34,
+              "exercise": 5,
+              "index": 7,
+              "word": "explicitly",
+              "si": 1,
+              "ko": "① 명시적으로, 분명하게"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/imply",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-volv",
+      "title": "말기 / 펼치기 / 회전",
+      "rootSummary": "라틴어 volvere / volutus",
+      "cards": [
+        {
+          "word": "evolve",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "involve",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "revolution",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 25,
+              "exercise": 5,
+              "index": 3,
+              "word": "revolution",
+              "si": 1,
+              "ko": "① 혁명"
+            },
+            {
+              "lesson": 25,
+              "exercise": 5,
+              "index": 4,
+              "word": "revolution",
+              "si": 2,
+              "ko": "② (천체의) 공전, 회전"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/evolve",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-flu",
+      "title": "흐르다 / 영향",
+      "rootSummary": "라틴어 fluere / fluxus",
+      "cards": [
+        {
+          "word": "flux",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 42,
+              "exercise": 8,
+              "index": 3,
+              "word": "flux",
+              "si": 1,
+              "ko": "① 끊임없는 변화"
+            }
+          ]
+        },
+        {
+          "word": "influence",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 11,
+              "exercise": 4,
+              "index": 11,
+              "word": "influence",
+              "si": 1,
+              "ko": "① 영향"
+            },
+            {
+              "lesson": 11,
+              "exercise": 4,
+              "index": 12,
+              "word": "influence",
+              "si": 2,
+              "ko": "② 영향을 미치다"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/influence",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-grad",
+      "title": "한 걸음 / 전진 / 후퇴",
+      "rootSummary": "라틴어 gradus / gradi / gressus",
+      "cards": [
+        {
+          "word": "gradual",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 21,
+              "exercise": 1,
+              "index": 5,
+              "word": "gradual",
+              "si": 1,
+              "ko": "① 점진적인, 단계적인"
+            }
+          ]
+        },
+        {
+          "word": "progression",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 39,
+              "exercise": 3,
+              "index": 8,
+              "word": "progression",
+              "si": 1,
+              "ko": "① 진행, 진전"
+            }
+          ]
+        },
+        {
+          "word": "regression",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 43,
+              "exercise": 4,
+              "index": 2,
+              "word": "regression",
+              "si": 1,
+              "ko": "① 퇴행, 되돌아감"
+            },
+            {
+              "lesson": 43,
+              "exercise": 4,
+              "index": 3,
+              "word": "regression",
+              "si": 2,
+              "ko": "② (통계) 회귀, 회귀 분석"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/gradual",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-cogn",
+      "title": "알아보다 / 알지 못하다",
+      "rootSummary": "라틴어 cognoscere / (g)noscere 계열",
+      "cards": [
+        {
+          "word": "recognize",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 8,
+              "exercise": 1,
+              "index": 6,
+              "word": "recognize",
+              "si": 1,
+              "ko": "① (누군지) 알아보다"
+            },
+            {
+              "lesson": 8,
+              "exercise": 1,
+              "index": 7,
+              "word": "recognize",
+              "si": 2,
+              "ko": "② 인정하다"
+            }
+          ]
+        },
+        {
+          "word": "ignorant",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 34,
+              "exercise": 5,
+              "index": 6,
+              "word": "ignorant",
+              "si": 1,
+              "ko": "① 무지한, 잘 모르는"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/recognize",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-sci",
+      "title": "지식 / 양심",
+      "rootSummary": "라틴어 scire(알다)",
+      "cards": [
+        {
+          "word": "science",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 6,
+              "exercise": 7,
+              "index": 14,
+              "word": "science",
+              "si": 1,
+              "ko": "① 과학"
+            }
+          ]
+        },
+        {
+          "word": "conscience",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 19,
+              "exercise": 4,
+              "index": 0,
+              "word": "conscience",
+              "si": 1,
+              "ko": "① 양심"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/conscience",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-quir",
+      "title": "찾다 / 묻다 / 요구하다",
+      "rootSummary": "라틴어 quaerere, 합성형 quir",
+      "cards": [
+        {
+          "word": "inquire",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 22,
+              "exercise": 1,
+              "index": 3,
+              "word": "inquire",
+              "si": 1,
+              "ko": "① 묻다, 문의하다"
+            }
+          ]
+        },
+        {
+          "word": "require",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 0,
+              "exercise": 11,
+              "index": 7,
+              "word": "require",
+              "si": 1,
+              "ko": "① 필요로 하다"
+            },
+            {
+              "lesson": 0,
+              "exercise": 11,
+              "index": 8,
+              "word": "require",
+              "si": 2,
+              "ko": "② 요구하다, 의무로 정하다"
+            }
+          ]
+        },
+        {
+          "word": "inquiry",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 17,
+              "exercise": 7,
+              "index": 7,
+              "word": "inquiry",
+              "si": 1,
+              "ko": "① 문의, 질문"
+            },
+            {
+              "lesson": 17,
+              "exercise": 7,
+              "index": 8,
+              "word": "inquiry",
+              "si": 2,
+              "ko": "② 조사"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/require",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-leg",
+      "title": "모으다 / 고르다 / 읽다",
+      "rootSummary": "라틴어 legere / lectus",
+      "cards": [
+        {
+          "word": "collect",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 10,
+              "exercise": 7,
+              "index": 8,
+              "word": "collect",
+              "si": 1,
+              "ko": "① 모으다, 수집하다"
+            }
+          ]
+        },
+        {
+          "word": "elect",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 13,
+              "exercise": 8,
+              "index": 1,
+              "word": "elect",
+              "si": 1,
+              "ko": "① (투표로) 뽑다"
+            }
+          ]
+        },
+        {
+          "word": "selective",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 39,
+              "exercise": 5,
+              "index": 11,
+              "word": "selective",
+              "si": 1,
+              "ko": "① 까다롭게 고르는"
+            },
+            {
+              "lesson": 39,
+              "exercise": 5,
+              "index": 12,
+              "word": "selective",
+              "si": 2,
+              "ko": "② 선별적인, 일부만의"
+            }
+          ]
+        },
+        {
+          "word": "lecturer",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 41,
+              "exercise": 3,
+              "index": 5,
+              "word": "lecturer",
+              "si": 1,
+              "ko": "① 강사, 강연자"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/collect",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-aud",
+      "title": "듣다 / 청중 / 감사",
+      "rootSummary": "라틴어 audire / auditus",
+      "cards": [
+        {
+          "word": "audience",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 23,
+              "exercise": 8,
+              "index": 1,
+              "word": "audience",
+              "si": 1,
+              "ko": "① 관객, 청중"
+            }
+          ]
+        },
+        {
+          "word": "audio",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 36,
+              "exercise": 1,
+              "index": 5,
+              "word": "audio",
+              "si": 1,
+              "ko": "① 소리, 음향"
+            }
+          ]
+        },
+        {
+          "word": "audit",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 37,
+              "exercise": 8,
+              "index": 0,
+              "word": "audit",
+              "si": 1,
+              "ko": "① 회계 감사, 검사"
+            },
+            {
+              "lesson": 37,
+              "exercise": 8,
+              "index": 1,
+              "word": "audit",
+              "si": 2,
+              "ko": "② 감사하다, 검사하다"
+            },
+            {
+              "lesson": 37,
+              "exercise": 8,
+              "index": 2,
+              "word": "audit",
+              "si": 3,
+              "ko": "③ (학점을 받지 않고) 청강하다"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/audit",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-voc",
+      "title": "부르다 / 불러일으키다",
+      "rootSummary": "라틴어 vox / vocis / vocare",
+      "cards": [
+        {
+          "word": "vocal",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 34,
+              "exercise": 10,
+              "index": 6,
+              "word": "vocal",
+              "si": 1,
+              "ko": "① 목소리의, 발성의"
+            },
+            {
+              "lesson": 34,
+              "exercise": 10,
+              "index": 7,
+              "word": "vocal",
+              "si": 2,
+              "ko": "② 거리낌 없이 말하는"
+            },
+            {
+              "lesson": 34,
+              "exercise": 10,
+              "index": 8,
+              "word": "vocal",
+              "si": 3,
+              "ko": "③ 보컬, 노래 파트"
+            }
+          ]
+        },
+        {
+          "word": "evoke",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 44,
+              "exercise": 5,
+              "index": 11,
+              "word": "evoke",
+              "si": 1,
+              "ko": "① (감정·기억을) 불러일으키다"
+            }
+          ]
+        },
+        {
+          "word": "provoke",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 43,
+              "exercise": 4,
+              "index": 0,
+              "word": "provoke",
+              "si": 1,
+              "ko": "① 화나게 하다, 자극하다"
+            },
+            {
+              "lesson": 43,
+              "exercise": 4,
+              "index": 1,
+              "word": "provoke",
+              "si": 2,
+              "ko": "② (반응을) 불러일으키다"
+            }
+          ]
+        },
+        {
+          "word": "invoke",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 44,
+              "exercise": 3,
+              "index": 12,
+              "word": "invoke",
+              "si": 1,
+              "ko": "① (법·규칙을) 들먹이다, 발동하다"
+            },
+            {
+              "lesson": 44,
+              "exercise": 3,
+              "index": 13,
+              "word": "invoke",
+              "si": 2,
+              "ko": "② (신·힘의 도움을) 부르다, 빌다"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/provoke",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-sens",
+      "title": "느끼다 / 판단하다",
+      "rootSummary": "라틴어 sentire / sensus",
+      "cards": [
+        {
+          "word": "sense",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 4,
+              "exercise": 6,
+              "index": 14,
+              "word": "sense",
+              "si": 1,
+              "ko": "① 감각"
+            },
+            {
+              "lesson": 4,
+              "exercise": 6,
+              "index": 15,
+              "word": "sense",
+              "si": 2,
+              "ko": "② 의미, 뜻"
+            },
+            {
+              "lesson": 4,
+              "exercise": 6,
+              "index": 16,
+              "word": "sense",
+              "si": 3,
+              "ko": "③ 느낌, 의식"
+            }
+          ]
+        },
+        {
+          "word": "sensation",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 19,
+              "exercise": 9,
+              "index": 7,
+              "word": "sensation",
+              "si": 1,
+              "ko": "① (몸의) 감각"
+            },
+            {
+              "lesson": 19,
+              "exercise": 9,
+              "index": 8,
+              "word": "sensation",
+              "si": 2,
+              "ko": "② 큰 화제, 돌풍"
+            }
+          ]
+        },
+        {
+          "word": "sensitive",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 15,
+              "exercise": 9,
+              "index": 1,
+              "word": "sensitive",
+              "si": 1,
+              "ko": "① 민감한, 예민한"
+            }
+          ]
+        },
+        {
+          "word": "sensible",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 20,
+              "exercise": 1,
+              "index": 1,
+              "word": "sensible",
+              "si": 1,
+              "ko": "① 분별 있는, 현명한"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/sensation",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-val",
+      "title": "힘 / 가치 / 효력",
+      "rootSummary": "라틴어 valere(힘·효력이 있다)",
+      "cards": [
+        {
+          "word": "value",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 4,
+              "exercise": 10,
+              "index": 1,
+              "word": "value",
+              "si": 1,
+              "ko": "① 가치, 값어치"
+            },
+            {
+              "lesson": 4,
+              "exercise": 10,
+              "index": 2,
+              "word": "value",
+              "si": 2,
+              "ko": "② 소중히 여기다"
+            }
+          ]
+        },
+        {
+          "word": "valid",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "equivalence",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 44,
+              "exercise": 8,
+              "index": 10,
+              "word": "equivalence",
+              "si": 1,
+              "ko": "① 동등함, 등가"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/valid",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-equ",
+      "title": "같음 / 형평 / 균형",
+      "rootSummary": "라틴어 aequus(고른·같은)",
+      "cards": [
+        {
+          "word": "equilibrium",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 42,
+              "exercise": 5,
+              "index": 5,
+              "word": "equilibrium",
+              "si": 1,
+              "ko": "① 평형, 균형 상태"
+            }
+          ]
+        },
+        {
+          "word": "equity",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 31,
+              "exercise": 1,
+              "index": 0,
+              "word": "equity",
+              "si": 1,
+              "ko": "① 공정, 공평"
+            },
+            {
+              "lesson": 31,
+              "exercise": 1,
+              "index": 1,
+              "word": "equity",
+              "si": 2,
+              "ko": "② 자기 자본, 지분"
+            }
+          ]
+        },
+        {
+          "word": "inequality",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 39,
+              "exercise": 1,
+              "index": 0,
+              "word": "inequality",
+              "si": 1,
+              "ko": "① 불평등"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/equity",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-viv",
+      "title": "살다 / 생명",
+      "rootSummary": "라틴어 vivere / vita",
+      "cards": [
+        {
+          "word": "revive",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "vital",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "survivor",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 28,
+              "exercise": 1,
+              "index": 0,
+              "word": "survivor",
+              "si": 1,
+              "ko": "① 생존자"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/revive",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-mort",
+      "title": "죽음",
+      "rootSummary": "라틴어 mors / mortis",
+      "cards": [
+        {
+          "word": "mortality",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 32,
+              "exercise": 10,
+              "index": 5,
+              "word": "mortality",
+              "si": 1,
+              "ko": "① 사망률"
+            },
+            {
+              "lesson": 32,
+              "exercise": 10,
+              "index": 6,
+              "word": "mortality",
+              "si": 2,
+              "ko": "② 죽을 수밖에 없는 운명"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/mortality",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-gen",
+      "title": "유전과 발생",
+      "rootSummary": "그리스어 genea(세대) / genesis(발생) 계열; 근대 과학 조어",
+      "cards": [
+        {
+          "word": "gene",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 25,
+              "exercise": 2,
+              "index": 16,
+              "word": "gene",
+              "si": 1,
+              "ko": "① 유전자"
+            }
+          ]
+        },
+        {
+          "word": "genetics",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 39,
+              "exercise": 9,
+              "index": 3,
+              "word": "genetics",
+              "si": 1,
+              "ko": "① 유전학"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/gene",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-nat",
+      "title": "태어남 / 타고남",
+      "rootSummary": "라틴어 nasci / natus",
+      "cards": [
+        {
+          "word": "native",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 24,
+              "exercise": 6,
+              "index": 4,
+              "word": "native",
+              "si": 1,
+              "ko": "① 태어난 곳의, 모국의"
+            }
+          ]
+        },
+        {
+          "word": "nature",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 7,
+              "exercise": 4,
+              "index": 13,
+              "word": "nature",
+              "si": 1,
+              "ko": "① 자연"
+            },
+            {
+              "lesson": 7,
+              "exercise": 4,
+              "index": 14,
+              "word": "nature",
+              "si": 2,
+              "ko": "② 본성, 천성, 본질"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/native",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-manu",
+      "title": "손으로 다루기",
+      "rootSummary": "라틴어 manus(손)",
+      "cards": [
+        {
+          "word": "manual",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "manufacture",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 38,
+              "exercise": 3,
+              "index": 9,
+              "word": "manufacture",
+              "si": 1,
+              "ko": "① 제조하다, 생산하다"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/manual",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-liber",
+      "title": "자유 / 해방",
+      "rootSummary": "라틴어 liber(자유로운)",
+      "cards": [
+        {
+          "word": "liberty",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 26,
+              "exercise": 1,
+              "index": 1,
+              "word": "liberty",
+              "si": 1,
+              "ko": "① 자유"
+            }
+          ]
+        },
+        {
+          "word": "liberation",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 39,
+              "exercise": 2,
+              "index": 1,
+              "word": "liberation",
+              "si": 1,
+              "ko": "① 해방"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/liberty",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-ver",
+      "title": "참 / 확인 / 평결",
+      "rootSummary": "라틴어 verus(참된)",
+      "cards": [
+        {
+          "word": "verify",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 34,
+              "exercise": 6,
+              "index": 6,
+              "word": "verify",
+              "si": 1,
+              "ko": "① 확인하다, 검증하다"
+            }
+          ]
+        },
+        {
+          "word": "verdict",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 34,
+              "exercise": 6,
+              "index": 0,
+              "word": "verdict",
+              "si": 1,
+              "ko": "① (배심원의) 평결, 판정"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/verify",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-frag",
+      "title": "깨짐 / 조각",
+      "rootSummary": "라틴어 frangere / fractus",
+      "cards": [
+        {
+          "word": "fracture",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 41,
+              "exercise": 6,
+              "index": 10,
+              "word": "fracture",
+              "si": 1,
+              "ko": "① 골절, 부러진 곳"
+            }
+          ]
+        },
+        {
+          "word": "fragment",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 42,
+              "exercise": 8,
+              "index": 10,
+              "word": "fragment",
+              "si": 1,
+              "ko": "① 조각, 파편"
+            },
+            {
+              "lesson": 42,
+              "exercise": 8,
+              "index": 11,
+              "word": "fragment",
+              "si": 2,
+              "ko": "② 조각나다, 갈라지다"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/fracture",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-fin",
+      "title": "경계 / 한정 / 무한",
+      "rootSummary": "라틴어 finis(끝·경계)",
+      "cards": [
+        {
+          "word": "definite",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 40,
+              "exercise": 6,
+              "index": 3,
+              "word": "definite",
+              "si": 1,
+              "ko": "① 확실한, 확정된"
+            }
+          ]
+        },
+        {
+          "word": "infinity",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 40,
+              "exercise": 2,
+              "index": 7,
+              "word": "infinity",
+              "si": 1,
+              "ko": "① 무한, 무한대"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/infinity",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-termin",
+      "title": "경계 / 끝내기",
+      "rootSummary": "라틴어 terminus(경계·끝)",
+      "cards": [
+        {
+          "word": "terminate",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 42,
+              "exercise": 1,
+              "index": 15,
+              "word": "terminate",
+              "si": 1,
+              "ko": "① 끝내다, 종료하다"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/terminate",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-temp",
+      "title": "시간 / 같은 시대",
+      "rootSummary": "라틴어 tempus / temporis",
+      "cards": [
+        {
+          "word": "temporary",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "contemporary",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/contemporary",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-ann",
+      "title": "해와 기념일",
+      "rootSummary": "라틴어 annus(해)",
+      "cards": [
+        {
+          "word": "anniversary",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 28,
+              "exercise": 10,
+              "index": 7,
+              "word": "anniversary",
+              "si": 1,
+              "ko": "① 기념일"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/anniversary",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-soci",
+      "title": "사회 / 결합",
+      "rootSummary": "라틴어 socius(동료)",
+      "cards": [
+        {
+          "word": "society",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 4,
+              "exercise": 8,
+              "index": 0,
+              "word": "society",
+              "si": 1,
+              "ko": "① 사회"
+            }
+          ]
+        },
+        {
+          "word": "association",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 8,
+              "exercise": 8,
+              "index": 10,
+              "word": "association",
+              "si": 1,
+              "ko": "① 협회, 연합"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/association",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-form",
+      "title": "모양 / 형성",
+      "rootSummary": "라틴어 forma; informare(형태를 주다)",
+      "cards": [
+        {
+          "word": "form",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 3,
+              "exercise": 7,
+              "index": 3,
+              "word": "form",
+              "si": 1,
+              "ko": "① 형태, 모양"
+            },
+            {
+              "lesson": 3,
+              "exercise": 7,
+              "index": 4,
+              "word": "form",
+              "si": 2,
+              "ko": "② 서식, 양식"
+            },
+            {
+              "lesson": 3,
+              "exercise": 7,
+              "index": 5,
+              "word": "form",
+              "si": 3,
+              "ko": "③ 형성하다, 형성되다"
+            }
+          ]
+        },
+        {
+          "word": "information",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 2,
+              "exercise": 8,
+              "index": 9,
+              "word": "information",
+              "si": 1,
+              "ko": "① 정보"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/information",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-hydr-aqua",
+      "title": "물의 그리스어·라틴어 계열",
+      "rootSummary": "그리스어 hydor / hydr-; 라틴어 aqua",
+      "cards": [
+        {
+          "word": "hydrogen",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 38,
+              "exercise": 4,
+              "index": 3,
+              "word": "hydrogen",
+              "si": 1,
+              "ko": "① 수소"
+            }
+          ]
+        },
+        {
+          "word": "dehydrate",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        },
+        {
+          "word": "aquatic",
+          "status": "new_headword_proposal",
+          "sourceRefs": []
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/dehydrate",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-metr",
+      "title": "재다 / 척도",
+      "rootSummary": "그리스어 metron(척도)",
+      "cards": [
+        {
+          "word": "meter",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 17,
+              "exercise": 4,
+              "index": 3,
+              "word": "meter",
+              "si": 1,
+              "ko": "① 미터"
+            },
+            {
+              "lesson": 17,
+              "exercise": 4,
+              "index": 4,
+              "word": "meter",
+              "si": 2,
+              "ko": "② 계량기, 측정기"
+            }
+          ]
+        },
+        {
+          "word": "diameter",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 37,
+              "exercise": 4,
+              "index": 3,
+              "word": "diameter",
+              "si": 1,
+              "ko": "① 지름"
+            }
+          ]
+        },
+        {
+          "word": "metric",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 22,
+              "exercise": 3,
+              "index": 0,
+              "word": "metric",
+              "si": 1,
+              "ko": "① 미터법의"
+            },
+            {
+              "lesson": 22,
+              "exercise": 3,
+              "index": 1,
+              "word": "metric",
+              "si": 2,
+              "ko": "② 측정 기준, 지표"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/diameter",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-techn",
+      "title": "기술 / 기법",
+      "rootSummary": "그리스어 tekhne(기술)",
+      "cards": [
+        {
+          "word": "technique",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 24,
+              "exercise": 4,
+              "index": 8,
+              "word": "technique",
+              "si": 1,
+              "ko": "① 기법, 기술"
+            }
+          ]
+        },
+        {
+          "word": "technological",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 31,
+              "exercise": 7,
+              "index": 4,
+              "word": "technological",
+              "si": 1,
+              "ko": "① 기술의, 과학 기술의"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/technique",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-morph",
+      "title": "형태",
+      "rootSummary": "그리스어 morphe(형태)",
+      "cards": [
+        {
+          "word": "morphology",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 43,
+              "exercise": 10,
+              "index": 2,
+              "word": "morphology",
+              "si": 1,
+              "ko": "① 형태론, 형태학"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/morphology",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-crat",
+      "title": "통치 / 권력",
+      "rootSummary": "그리스어 kratos(권력)",
+      "cards": [
+        {
+          "word": "bureaucracy",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 42,
+              "exercise": 9,
+              "index": 5,
+              "word": "bureaucracy",
+              "si": 1,
+              "ko": "① 관료제, 번거로운 행정 절차"
+            }
+          ]
+        },
+        {
+          "word": "democratic",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 23,
+              "exercise": 6,
+              "index": 5,
+              "word": "democratic",
+              "si": 1,
+              "ko": "① 민주적인, 민주주의의"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/bureaucracy",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-nom",
+      "title": "법·규칙 / 관리",
+      "rootSummary": "그리스어 nomos(규칙) / nemein(나누다·관리하다) 계열",
+      "cards": [
+        {
+          "word": "economy",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 23,
+              "exercise": 3,
+              "index": 12,
+              "word": "economy",
+              "si": 1,
+              "ko": "① 경제"
+            }
+          ]
+        },
+        {
+          "word": "astronomy",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 42,
+              "exercise": 2,
+              "index": 9,
+              "word": "astronomy",
+              "si": 1,
+              "ko": "① 천문학"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/economy",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-soph",
+      "title": "지혜 / 의미 변화",
+      "rootSummary": "그리스어 sophos(지혜로운); sophistes 계열",
+      "cards": [
+        {
+          "word": "philosopher",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 41,
+              "exercise": 3,
+              "index": 7,
+              "word": "philosopher",
+              "si": 1,
+              "ko": "① 철학자"
+            }
+          ]
+        },
+        {
+          "word": "sophisticate",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 45,
+              "exercise": 8,
+              "index": 4,
+              "word": "sophisticate",
+              "si": 1,
+              "ko": "① 세련된 사람, 교양인"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/sophisticate",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    },
+    {
+      "lesson": 48,
+      "id": "add-phys",
+      "title": "자연 / 신체",
+      "rootSummary": "그리스어 physis(자연)",
+      "cards": [
+        {
+          "word": "physical",
+          "status": "existing_pool_review",
+          "sourceRefs": [
+            {
+              "lesson": 8,
+              "exercise": 1,
+              "index": 12,
+              "word": "physical",
+              "si": 1,
+              "ko": "① 몸의, 신체의"
+            },
+            {
+              "lesson": 8,
+              "exercise": 1,
+              "index": 13,
+              "word": "physical",
+              "si": 2,
+              "ko": "② 물질의, 물리적인"
+            }
+          ]
+        }
+      ],
+      "representativeSource": "https://www.etymonline.com/word/physical",
+      "sourceScope": "대표 어원의 검증 근거. 각 카드의 차용 경로·IPA·예문 검수는 적용 전에 별도로 완료한다.",
+      "operation": "new_teaching_unit"
+    }
+  ],
+  "implementationGates": [
+    "사용자에게 새 표제어와 복습 카드 확대 범위를 먼저 제시하고 승인받는다.",
+    "현재 원본 카드의 뜻을 확인해 어원 학습 뜻과 일치하는 sourceRefs를 고른다. 첫 카드를 자동 복사하지 않는다.",
+    "책 목차와 목록은 누락 점검용이다. 예문·번역·해설은 새로 작성하고 개별 사전으로 검수한다.",
+    "숫자 어근·SI 배수·고대 원형·현대 영어 뜻을 구분한다. 같은 철자라는 이유만으로 묶지 않는다.",
+    "그리스 원문·전사·영어 발음은 서로 다른 정보로 기록한다. 독립 발음이 일정하지 않은 결합형의 가짜 표준 IPA를 만들지 않는다.",
+    "47·48의 원본 morphology.json 수정, 신규 진도키/과거 완료 처리, 보존원장과 검사 갱신 후 빌드한다.",
+    "UI·정답 허용 범위를 바꾸지 않는다. 배포는 별도 요청 시 진행한다."
+  ],
+  "approvedNewHeadwords": [
+    "intercellular",
+    "import",
+    "postpone",
+    "counteract",
+    "malfunction",
+    "symmetry",
+    "asymmetry",
+    "homogeneous",
+    "heterogeneous",
+    "hyperactive",
+    "hypothermia",
+    "macroscopic",
+    "microeconomics",
+    "macroeconomics",
+    "monologue",
+    "monolingual",
+    "multilingual",
+    "polygon",
+    "quadrant",
+    "pentagon",
+    "hexagon",
+    "octopus",
+    "decade",
+    "millennium",
+    "semicircle",
+    "hemisphere",
+    "exclude",
+    "evolve",
+    "involve",
+    "valid",
+    "revive",
+    "vital",
+    "manual",
+    "temporary",
+    "contemporary",
+    "dehydrate",
+    "aquatic"
+  ],
+  "authorization": "37개 모두 추가합시다! 필요하면 더 해도 됩니다!",
+  "completedDate": "2026-10-01"
+}

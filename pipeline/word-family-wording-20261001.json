@@ -1,0 +1,382 @@
+{
+  "date": "2026-10-01",
+  "reason": "사용자 요청: 단어 가족 대신 영어 word family로 통일",
+  "status": "local-not-deployed",
+  "snapshots": {
+    "DATA": {
+      "beforeHash": "aafbe0c43957f97c44ea3f2207744198772be10721558a3e28c462f78893cabd",
+      "afterHash": "b8b8cb4b072ebbd0673e2d57c0b60462090b8ebc7c8cd8d02ce3917b84588d18",
+      "changes": [
+        {
+          "path": [
+            "47",
+            "exercises",
+            "6",
+            "name"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "한 단어 가족에서 뜻과 역할 연결하기",
+          "new": "word family로 뜻과 역할 연결하기"
+        },
+        {
+          "path": [
+            "47",
+            "exercises",
+            "6",
+            "progressTitle"
+          ],
+          "oldExists": false,
+          "newExists": true,
+          "new": "Exercise 7 · 한 단어 가족에서 뜻과 역할 연결하기"
+        },
+        {
+          "path": [
+            "47",
+            "exercises",
+            "6",
+            "legacyLocation"
+          ],
+          "oldExists": false,
+          "newExists": true,
+          "new": {
+            "lid": "47세트",
+            "title": "Exercise 7 · 한 단어 가족에서 뜻과 역할 연결하기"
+          }
+        },
+        {
+          "path": [
+            "48",
+            "name"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "어근과 단어 가족",
+          "new": "어근과 word family"
+        },
+        {
+          "path": [
+            "48",
+            "exercises",
+            "4",
+            "words",
+            "8",
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "라틴어 movere(움직이다)→프랑스어→move. motion과 같은 어원 가족.",
+          "new": "라틴어 movere(움직이다)→프랑스어→move. motion과 같은 어원의 word family."
+        },
+        {
+          "path": [
+            "48",
+            "exercises",
+            "10",
+            "name"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "보고 쓰고 기록하기 · 사진 가족",
+          "new": "보고 쓰고 기록하기 · photograph word family"
+        },
+        {
+          "path": [
+            "48",
+            "exercises",
+            "10",
+            "progressTitle"
+          ],
+          "oldExists": false,
+          "newExists": true,
+          "new": "Exercise 11 · 보고 쓰고 기록하기 · 사진 가족"
+        },
+        {
+          "path": [
+            "48",
+            "exercises",
+            "10",
+            "legacyLocation"
+          ],
+          "oldExists": false,
+          "newExists": true,
+          "new": {
+            "lid": "48세트",
+            "title": "Exercise 11 · 보고 쓰고 기록하기 · 사진 가족"
+          }
+        },
+        {
+          "path": [
+            "48",
+            "exercises",
+            "21",
+            "name"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "영어에 남은 오래된 단어 가족",
+          "new": "영어에 남은 오래된 word family"
+        },
+        {
+          "path": [
+            "48",
+            "exercises",
+            "21",
+            "progressTitle"
+          ],
+          "oldExists": false,
+          "newExists": true,
+          "new": "Exercise 22 · 영어에 남은 오래된 단어 가족"
+        },
+        {
+          "path": [
+            "48",
+            "exercises",
+            "21",
+            "legacyLocation"
+          ],
+          "oldExists": false,
+          "newExists": true,
+          "new": {
+            "lid": "48세트",
+            "title": "Exercise 22 · 영어에 남은 오래된 단어 가족"
+          }
+        }
+      ]
+    },
+    "MORPHOLOGY": {
+      "beforeHash": "eb4540d1e758a689e35d79279feb4fb51de7e9dad77c4bc1ac496fc3e9265d0c",
+      "afterHash": "c479ae58a0c063073c2da34513540c882fa5000839a0842cab6e1fa78611ad54",
+      "changes": [
+        {
+          "path": [
+            "courses",
+            "0",
+            "groups",
+            "6",
+            "name"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "한 단어 가족에서 뜻과 역할 연결하기",
+          "new": "word family로 뜻과 역할 연결하기"
+        },
+        {
+          "path": [
+            "courses",
+            "0",
+            "groups",
+            "6",
+            "progressTitle"
+          ],
+          "oldExists": false,
+          "newExists": true,
+          "new": "Exercise 7 · 한 단어 가족에서 뜻과 역할 연결하기"
+        },
+        {
+          "path": [
+            "courses",
+            "0",
+            "groups",
+            "6",
+            "legacyLocation"
+          ],
+          "oldExists": false,
+          "newExists": true,
+          "new": {
+            "lid": "47세트",
+            "title": "Exercise 7 · 한 단어 가족에서 뜻과 역할 연결하기"
+          }
+        },
+        {
+          "path": [
+            "courses",
+            "1",
+            "name"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "어근과 단어 가족",
+          "new": "어근과 word family"
+        },
+        {
+          "path": [
+            "courses",
+            "1",
+            "groups",
+            "10",
+            "name"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "보고 쓰고 기록하기 · 사진 가족",
+          "new": "보고 쓰고 기록하기 · photograph word family"
+        },
+        {
+          "path": [
+            "courses",
+            "1",
+            "groups",
+            "10",
+            "progressTitle"
+          ],
+          "oldExists": false,
+          "newExists": true,
+          "new": "Exercise 11 · 보고 쓰고 기록하기 · 사진 가족"
+        },
+        {
+          "path": [
+            "courses",
+            "1",
+            "groups",
+            "10",
+            "legacyLocation"
+          ],
+          "oldExists": false,
+          "newExists": true,
+          "new": {
+            "lid": "48세트",
+            "title": "Exercise 11 · 보고 쓰고 기록하기 · 사진 가족"
+          }
+        },
+        {
+          "path": [
+            "courses",
+            "1",
+            "groups",
+            "21",
+            "name"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "영어에 남은 오래된 단어 가족",
+          "new": "영어에 남은 오래된 word family"
+        },
+        {
+          "path": [
+            "courses",
+            "1",
+            "groups",
+            "21",
+            "progressTitle"
+          ],
+          "oldExists": false,
+          "newExists": true,
+          "new": "Exercise 22 · 영어에 남은 오래된 단어 가족"
+        },
+        {
+          "path": [
+            "courses",
+            "1",
+            "groups",
+            "21",
+            "legacyLocation"
+          ],
+          "oldExists": false,
+          "newExists": true,
+          "new": {
+            "lid": "48세트",
+            "title": "Exercise 22 · 영어에 남은 오래된 단어 가족"
+          }
+        },
+        {
+          "path": [
+            "units",
+            "39",
+            "title"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "care 가족 · 성질에서 방식과 상태로",
+          "new": "care word family · 성질에서 방식과 상태로"
+        },
+        {
+          "path": [
+            "units",
+            "40",
+            "title"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "employ 가족 · 행동과 양쪽 당사자",
+          "new": "employ word family · 행동과 양쪽 당사자"
+        },
+        {
+          "path": [
+            "units",
+            "41",
+            "title"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "predict 가족 · 예측과 예측 대상",
+          "new": "predict word family · 예측과 예측 대상"
+        },
+        {
+          "path": [
+            "units",
+            "74",
+            "history",
+            "notes"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "기록의 옛 방식인 긁어 표시하기와 쓰기의 관계는 확인되지만, 현대의 모든 graph 단어가 고대에 이미 존재한 것은 아니야. photography는 photo-+-graphy의 조어이고 photographer는 동사 photograph에서 만든 행위자 명사다. 카드의 화살표는 현대 단어 가족의 관계이며 반드시 시간 순서의 차용 경로를 뜻하지 않는다.",
+          "new": "기록의 옛 방식인 긁어 표시하기와 쓰기의 관계는 확인되지만, 현대의 모든 graph 단어가 고대에 이미 존재한 것은 아니야. photography는 photo-+-graphy의 조어이고 photographer는 동사 photograph에서 만든 행위자 명사다. 카드의 화살표는 현대 word family의 관계이며 반드시 시간 순서의 차용 경로를 뜻하지 않는다."
+        },
+        {
+          "path": [
+            "units",
+            "88",
+            "title"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "blood ↔ bleed · 오래된 영어의 가족",
+          "new": "blood ↔ bleed · 오래된 영어의 word family"
+        },
+        {
+          "path": [
+            "units",
+            "88",
+            "rule"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "철자와 모음이 달라도 혈액과 출혈이라는 뜻으로 연결되는 역사적 가족이야. 명사 blood와 동사 bleed를 함께 기억해.",
+          "new": "철자와 모음이 달라도 혈액과 출혈이라는 뜻으로 연결되는 역사적 word family이야. 명사 blood와 동사 bleed를 함께 기억해."
+        },
+        {
+          "path": [
+            "units",
+            "99",
+            "cards",
+            "0",
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "라틴어 movere(움직이다)→프랑스어→move. motion과 같은 어원 가족.",
+          "new": "라틴어 movere(움직이다)→프랑스어→move. motion과 같은 어원의 word family."
+        }
+      ]
+    },
+    "CONNECTIONS": {
+      "beforeHash": "a1510691fcb26a70f30d69d96dc426e053e2bbec698111599fd01805d5fc46da",
+      "afterHash": "afbe3c5855606e64c0bc6fa9c01829ec7717318d65bf3193c2ddd5779590bef8",
+      "changes": [
+        {
+          "path": [
+            "entries",
+            "87",
+            "connection"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "이미 associated와 link에서 학습한 결합을 단어 가족 간 연결로 정리한다.",
+          "new": "이미 associated와 link에서 학습한 결합을 word family 간 연결로 정리한다."
+        }
+      ]
+    }
+  }
+}

@@ -2,7 +2,7 @@
 
 전체 작업을 이어갈 때는 [최신 인수인계](../HANDOFF.md)를 먼저 확인한다. 과정 공통의 예문형·단어형 배치와 발음 재생은 [UI 표준](../UI_STANDARD.md)을 따른다. 의미 있는 변경은 [작업 기록](../WORK_LOG.md)에 남긴다. 이 문서는 FABLE의 데이터 원본과 조립 방법을 다룬다. 마더텅 원문 발췌는 [별도 파이프라인](mother-tongue-excerpts/README.md)에 있다.
 
-현재 구성과 교육적 합의는 [WORK_PLAN.md](../WORK_PLAN.md)를 기준으로 한다. 현재 0세트 포함 51세트, 612연습, 6,876카드다. 원본은 520개 주제 묶음이며 각 묶음을 표제어가 갈라지지 않는 11카드 중심의 연습으로 나눈다. 평균 11.2카드, 약 93%가 8~15카드다. 일부 기초 주제는 exercise-topics.json의 경계를 우선한다. 카드 수·표제어 수·어족 수는 서로 다른 집계다.
+현재 구성과 교육적 합의는 [WORK_PLAN.md](../WORK_PLAN.md), 최신 카드·연습 수와 배포 상태는 [HANDOFF.md](../HANDOFF.md)를 기준으로 한다. 원본의 주제 묶음을 표제어가 갈라지지 않는 11카드 중심의 연습으로 나눈다. 일부 기초 주제는 exercise-topics.json의 경계를 우선한다. 카드 수·표제어 수·word family 수는 서로 다른 집계다.
 
 ## 원본
 
@@ -31,6 +31,8 @@ node pipeline/tests/keyboard.test.cjs
 node pipeline/tests/spacing.test.cjs
 node pipeline/tests/session.test.cjs
 node pipeline/tests/morphology-content.test.cjs
+node pipeline/tests/morphology-expansion.test.cjs
+node pipeline/tests/suffix-expansion.test.cjs
 node pipeline/tests/connections-content.test.cjs
 node pipeline/tests/connections-input.test.cjs
 node pipeline/tests/pool-expansion.test.cjs
@@ -39,6 +41,27 @@ node pipeline/tests/pool-expansion.test.cjs
 스크립트는 자신의 위치를 기준으로 경로를 해석한다. HTML에서 원본을 복원해야 할 때는 python pipeline/disassemble.py를 사용한다. 수정 후 조립하고 관련 검사를 실행한다.
 
 ## 유지할 조건
+
+### 인덱스 단어 수 자동 갱신
+
+`index-stats.cjs`가 세 게임 HTML의 실제 `DATA`를 읽어 `index.html`의 `VOCAB_STATS` 구간만 갱신한다. 브라우저에서 게임 파일을 추가로 내려받거나 계산하지 않는다. 숫자를 손으로 고치지 않는다.
+
+- 표제어는 `word` 우선, 없으면 `en`이다. 대소문자·앞뒤 공백·중복 공백·유니코드 조합 차이를 통일한다. 다의어·복습 카드는 같은 표제어로 한 번만 센다.
+- 등록된 구 표현을 포함하고 마더텅은 `prev`를 포함한 전체 기출 기준이다. 현재 플레이어의 범위 선택·완료 기록과 무관하다.
+- FABLE → 마더텅 → EBS 순서로 집계한다. **중복 제외**는 앞 과정들에 없는 표제어 수, **누적**은 지금까지의 합집합이다.
+- `seam.py`와 같은 등록 표제어 문자열 기준을 따른다. 영미 철자·괄호 주석·선택형·동의어를 임의로 합치거나 자동 원형화하지 않는다. 예를 들어 `recognise(=recognize)`와 `recognize`는 다른 등록 표제어다. 사전적 어휘 수나 word family 수를 산정하는 도구가 아니다. `직독직해선 95%`라는 기존 문구는 이 계산의 산출값이 아니다.
+- `python pipeline/assemble.py` 실행 뒤 자동 갱신한다(**Node.js 필요**). 마더텅 발췌 빌더와 세 과정 공통 IPA 빌더에서도 자동 갱신하며, 두 빌더의 `--check`는 인덱스가 오래됐을 때도 실패한다. IPA의 `--dry-run`은 인덱스도 읽기만 한다.
+- 원본 JSON을 수정했다면 먼저 해당 데이터 빌드를 실행한다. HTML의 DATA를 직접 바꾼 경우에는 공통 IPA 빌드 또는 아래 명령으로 갱신한다. 배포 전 `--check`로 최신 수치임을 확인한다.
+
+```sh
+node pipeline/index-stats.cjs
+node pipeline/index-stats.cjs --check
+node pipeline/tests/index-stats.test.cjs
+```
+
+명령 출력에는 과정별 카드·고유 표제어·앞 과정과의 중복·추가·누적 수가 모두 포함된다. 과정 추가 시 `COURSES` 순서와 인덱스의 대응 구간을 함께 추가한다.
+
+### 내용·게임 유지 기준
 
 2026-09-29 후속 동의어 표현 개선: 같은 뜻으로 바꿔 쓰는 관계를 명시하고 의미 차이는 구별한다. 새 정답은 추가하지 않는다. [학습 목적과 221개 해설 수정](synonym-wording-20260929/REPORT.md). 검사는 `node pipeline/synonym-wording-20260929/check.cjs`로 실행한다.
 

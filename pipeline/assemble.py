@@ -4,6 +4,7 @@ from pathlib import Path
 import copy
 import json
 import re
+import subprocess
 
 P = Path(__file__).resolve().parent
 HTML = P.parent / 'vocagoyangfable.html'
@@ -144,6 +145,7 @@ for name, value in constants:
     elif n != 1:
         raise ValueError(f'Expected one {name} declaration; found {n}')
 HTML.write_text(src, encoding='utf-8')
+subprocess.run(['node', str(P / 'index-stats.cjs')], check=True)
 # DATA keeps the authored topic groups. The app's splitExercises() builds short
 # playable exercises without dividing a headword's senses or changing this source.
 print(json.dumps({'sets':len(data), 'sourceGroups':sum(len(L['exercises']) for L in data),

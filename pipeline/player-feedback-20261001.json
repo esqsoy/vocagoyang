@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-01",
+  "status": "local-not-deployed",
+  "patches": [
+    {
+      "id": "troublesome",
+      "approval": "User explicitly requested troublesome alongside awesome.",
+      "card": {
+        "word": "troublesome",
+        "en": "troublesome",
+        "ko": "골치 아픈, 성가신",
+        "ex": "The kitten's habit of biting cables is {{BLANK}}.",
+        "tr": "그 아기 고양이가 전선을 물어뜯는 버릇은 골칫거리야.",
+        "c": "trouble(문제)+-some: 문제를 일으키는. awesome과 같은 형용사 접미사야.",
+        "pos": "adj.",
+        "ipa": "ˈtrʌbəlsəm"
+      },
+      "source": "https://www.collinsdictionary.com/dictionary/english/troublesome",
+      "pronunciationNote": "Existing KSAT troublesome IPA reused and dictionary checked.",
+      "snapshots": {
+        "DATA": {
+          "beforeHash": "b8b8cb4b072ebbd0673e2d57c0b60462090b8ebc7c8cd8d02ce3917b84588d18",
+          "afterHash": "0c8213d78c447a89688470d0cda694ffbbd01e89b54c7d814de8d36584ce7a14",
+          "changes": [
+            {
+              "path": [
+                "47",
+                "exercises",
+                "10",
+                "words",
+                "11"
+              ],
+              "oldExists": false,
+              "newExists": true,
+              "new": {
+                "word": "troublesome",
+                "en": "troublesome",
+                "ko": "골치 아픈, 성가신",
+                "ex": "The kitten's habit of biting cables is {{BLANK}}.",
+                "tr": "그 아기 고양이가 전선을 물어뜯는 버릇은 골칫거리야.",
+                "c": "trouble(문제)+-some: 문제를 일으키는. awesome과 같은 형용사 접미사야.",
+                "pos": "adj.",
+                "ipa": "ˈtrʌbəlsəm",
+                "unitId": "suffix-some-quality",
+                "si": 1,
+                "sn": 1
+              }
+            },
+            {
+              "path": [
+                "47",
+                "exercises",
+                "10",
+                "progressId"
+              ],
+              "oldExists": false,
+              "newExists": true,
+              "new": "morphology-47-20261001-troublesome"
+            }
+          ]
+        },
+        "MORPHOLOGY": {
+          "beforeHash": "c479ae58a0c063073c2da34513540c882fa5000839a0842cab6e1fa78611ad54",
+          "afterHash": "65bef9a2ee6fe7fde275d6cc7d4618026cec28b366a39b6f0689397aaf97e1a8",
+          "changes": [
+            {
+              "path": [
+                "courses",
+                "0",
+                "groups",
+                "10",
+                "progressId"
+              ],
+              "oldExists": false,
+              "newExists": true,
+              "new": "morphology-47-20261001-troublesome"
+            },
+            {
+              "path": [
+                "units",
+                "49",
+                "forms",
+                "0",
+                "pronunciationNote"
+              ],
+              "oldExists": true,
+              "newExists": true,
+              "old": "awesome의 IPA와 음성으로 확인한다.",
+              "new": "troublesome과 awesome의 IPA·음성으로 확인한다."
+            },
+            {
+              "path": [
+                "units",
+                "49",
+                "rule"
+              ],
+              "oldExists": true,
+              "newExists": true,
+              "old": "awesome의 awe와 -some을 연결하되 지금의 일상적인 칭찬 뜻을 읽는다.",
+              "new": "trouble→troublesome과 awe→awesome으로 형용사형 -some의 뜻을 연결한다. awesome의 일상적인 칭찬 뜻도 구별한다."
+            },
+            {
+              "path": [
+                "units",
+                "49",
+                "history",
+                "origin"
+              ],
+              "oldExists": true,
+              "newExists": true,
+              "old": "형용사형 -some은 고대영어 -sum. awesome은 awe+-some으로 형성됐다.",
+              "new": "형용사형 -some은 고대영어 -sum. troublesome은 trouble+-some, awesome은 awe+-some으로 형성됐다."
+            },
+            {
+              "path": [
+                "units",
+                "49",
+                "sources",
+                "2"
+              ],
+              "oldExists": false,
+              "newExists": true,
+              "new": "https://www.collinsdictionary.com/dictionary/english/troublesome"
+            },
+            {
+              "path": [
+                "units",
+                "49",
+                "cards",
+                "1"
+              ],
+              "oldExists": false,
+              "newExists": true,
+              "new": {
+                "word": "troublesome",
+                "en": "troublesome",
+                "ko": "골치 아픈, 성가신",
+                "ex": "The kitten's habit of biting cables is {{BLANK}}.",
+                "tr": "그 아기 고양이가 전선을 물어뜯는 버릇은 골칫거리야.",
+                "c": "trouble(문제)+-some: 문제를 일으키는. awesome과 같은 형용사 접미사야.",
+                "pos": "adj.",
+                "ipa": "ˈtrʌbəlsəm"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

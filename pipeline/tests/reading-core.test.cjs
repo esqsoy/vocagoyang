@@ -9,7 +9,10 @@ const LIVE_DATA=readConst('DATA'),reviewHelpers=require('./helpers/editorial-rev
 // Keep every published migration fixture and historical coverage combination
 // frozen. The live expanded pool and its deliberate per-group resets are
 // checked separately by pool-expansion.test.cjs; session.test.cjs plays it all.
-const DATA=reviewHelpers.restorePoolExpansion(LIVE_DATA),READING_CORE=readConst('READING_CORE'),MORPHOLOGY=readConst('MORPHOLOGY'),CONNECTIONS=readConst('CONNECTIONS');
+const DATA=reviewHelpers.restorePoolExpansion(LIVE_DATA),READING_CORE=readConst('READING_CORE'),LIVE_MORPHOLOGY=readConst('MORPHOLOGY'),CONNECTIONS=readConst('CONNECTIONS');
+// Freeze the old 26-group migration audit with its actual course metadata.
+// The rebuilt 47/48 course and reset boundaries have a separate live test.
+const MORPHOLOGY=require('../morphology-rebuild-20260930/restore.cjs').beforeMorphology;
 const reviewedBaseline=reviewHelpers.restoreReviewedBaseline(LIVE_DATA);
 const between=(a,b)=>{const i=h.indexOf(a),j=h.indexOf(b,i+a.length);assert(i>=0&&j>i,a);return h.slice(i,j);};
 for(const s of h.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g))new vm.Script(s[1]);
@@ -213,10 +216,10 @@ const ids=new Set();
 // Compare the current source with current cards. DATA above is deliberately
 // restored to the historical progress fixture, including its old explanations.
 for(const L of LIVE_DATA.filter(l=>l.kind==='morphology'))for(const e of L.exercises){
-  const expected=e.unitIds.flatMap(id=>{ids.add(id);const u=MORPHOLOGY.units.find(u=>u.id===id);assert(u);return u.cards;});
+  const expected=e.unitIds.flatMap(id=>{ids.add(id);const u=LIVE_MORPHOLOGY.units.find(u=>u.id===id);assert(u);return u.cards;});
   assert.equal(expected.length,e.words.length);e.words.forEach((w,i)=>{for(const k of ['word','en','ko','ex','tr','c','ipa','pos'])assert.equal(w[k],expected[i][k]);});
 }
-assert.equal(ids.size,MORPHOLOGY.units.length);
+assert.equal(ids.size,LIVE_MORPHOLOGY.units.length);
 
 // The live course uses short parts, while DATA remains the editable topic source.
 const sourceLessons=ctx.buildLessons();state.lessons=ctx.splitExercises(sourceLessons);

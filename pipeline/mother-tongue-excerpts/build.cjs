@@ -1,4 +1,5 @@
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
+assert(process.argv.slice(2).length<=1&&process.argv.slice(2).every(arg=>arg==='--check'),'Usage: node pipeline/mother-tongue-excerpts/build.cjs [--check]');
 const dir=__dirname,file=path.join(dir,'../../vocagoyangksat2027.html');
 const html=fs.readFileSync(file,'utf8');
 const vocabulary=JSON.parse(html.match(/^const DATA = (\[.*\]);\s*$/m)[1]);
@@ -26,4 +27,5 @@ let result=section(html,'/* MT_EXCERPTS_RUNTIME_START */','/* MT_EXCERPTS_RUNTIM
 result=section(result,'/* MT_EXCERPTS_STYLE_START */','/* MT_EXCERPTS_STYLE_END */',fs.readFileSync(path.join(dir,'style.css'),'utf8').trimEnd());
 if(process.argv.includes('--check'))assert.equal(result,html,'Run node pipeline/mother-tongue-excerpts/build.cjs to refresh embedded excerpts');
 else fs.writeFileSync(file,result,'utf8');
+require('../index-stats.cjs').updateIndex({check:process.argv.includes('--check')});
 console.log(JSON.stringify(stats));

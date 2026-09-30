@@ -20,6 +20,8 @@ The reported `alignedCards` and `wholeCards` match the pronunciation-data branch
 
 `build.cjs --dry-run` reports the same counts without modifying HTML. `--check` fails if any generated section is stale. Every run verifies idempotence and preserves the DATA and pronunciation assignments exactly. All three pages are validated before any page is written.
 
+The builder also updates the static vocabulary counts on `index.html` through `../index-stats.cjs`. `--check` rejects stale index counts; `--dry-run` leaves them untouched. See the [counting rules](../README.md#인덱스-단어-수-자동-갱신). This adds no browser requests or game code.
+
 The runtime and map appear immediately after the opening tag of the main inline script containing DATA, so their variables are initialised before startup functions can call them. The shared stylesheet is inserted before the final closing style tag. Marker-delimited blocks are replaced on later builds:
 
 ```text
@@ -46,6 +48,7 @@ Relevant checks:
 ```sh
 node pipeline/ipa-effects/tests/conservation.test.cjs
 node pipeline/ipa-effects/tests/advance.test.cjs
+node pipeline/ipa-effects/tests/completion.test.cjs
 node pipeline/ipa-effects/tests/stress.test.cjs
 node pipeline/ipa-effects/tests/layout.test.cjs
 node pipeline/ipa-effects/tests/host-hooks.test.cjs
@@ -58,6 +61,8 @@ node pipeline/tests/session.test.cjs
 ```
 
 Browser QA covers 320 px, 390 px and desktop widths, the reviewed photographic mapping, dotted IPA, heteronyms/context speech, long phrases and wrapped words.
+
+2026-10-01 local fix (not deployed): a normal speech end used to cancel still-pending estimated syllables before they had appeared. When an aligned reveal still has unlit sounds at a successful end, show all remaining sounds for 180 ms before the existing 250 ms fade. Only this completion hold can briefly defer an already-due automatic advance. A fully revealed word, whole-IPA fallback, errors, and manual navigation retain their previous timing. Browser TTS voice/rate, alignment data and styles are unchanged. `completion.test.cjs` covers an early first end, changing replay timing, normal/whole/error paths, and cancellation during completion. A local browser fixture confirmed 1/4 → 4/4 visible segments on a simulated 100 ms end and no extra hold on a 2400 ms end. This reproduces a real code path; the user's original word was not identified and may instead have been manually skipped.
 
 2026-09-29 timing adjustment: reduce the normal reveal delay by 20%. Mother Tongue/EBS use 1,200 ms; FABLE keeps its explanation-length and retry-round rules, scaled to 80% (minimum no-note delay 1,760 ms, maximum 12 s, retry cap 4 s). Speech still finishes before automatic progression, while manual next remains unchanged. This replaced the original correct-answer timers; the subsequent copy-parity fix applies the same timers to completed copies.
 

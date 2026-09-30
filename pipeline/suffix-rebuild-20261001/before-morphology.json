@@ -1,11 +1,11 @@
 {
-  "version": "2026-10-01",
+  "version": "2026-09-30",
   "approach": "현대 영어의 형태·뜻 관계를 읽은 뒤 실제 단어를 회상한다. 역사적 원형·차용 경로·불확실성은 별도로 확인한다. 원문 전사는 현대 영어 발음과 다르다.",
   "courses": [
     {
       "lesson": 47,
       "name": "접사로 뜻과 품사 읽기",
-      "progressId": "morphology-47-20261001",
+      "progressId": "morphology-47-20260930",
       "groups": [
         {
           "name": "부정과 되돌리기",
@@ -63,63 +63,36 @@
           ]
         },
         {
-          "name": "word family로 뜻과 역할 연결하기",
+          "name": "성질·변화·상태를 명사로",
           "unitIds": [
-            "suffix-family-care",
-            "suffix-family-employ",
-            "suffix-ly-adjective"
-          ],
-          "progressTitle": "Exercise 7 · 한 단어 가족에서 뜻과 역할 연결하기",
-          "legacyLocation": {
-            "lid": "47세트",
-            "title": "Exercise 7 · 한 단어 가족에서 뜻과 역할 연결하기"
-          }
-        },
-        {
-          "name": "예측과 가능성 · 성질에서 명사로",
-          "unitIds": [
-            "affix-agent",
-            "affix-able-ible",
             "affix-ness-ity",
-            "suffix-family-predict"
-          ]
-        },
-        {
-          "name": "행동·상태를 명사로 · 사람과 성질",
-          "unitIds": [
             "affix-ment",
             "affix-ion",
-            "affix-ance-ence",
-            "suffix-nominal-al",
-            "suffix-ant-ent-functions"
+            "affix-ance-ence"
           ]
         },
         {
-          "name": "사람·관계와 집단을 나타내기",
+          "name": "사람·관계·역할을 명사로",
           "unitIds": [
+            "affix-agent",
             "affix-ist-ism",
-            "add-hood-ship",
-            "suffix-ery-collective"
+            "add-hood-ship"
           ]
         },
         {
-          "name": "성질·정도와 실제 뜻 구별하기",
+          "name": "가능성과 성질을 형용사로",
           "unitIds": [
+            "affix-able-ible",
             "affix-al-ic-ical",
-            "affix-ive-ous",
-            "suffix-ish-functions",
-            "suffix-y",
-            "suffix-some-quality"
-          ],
-          "progressId": "morphology-47-20261001-troublesome"
+            "affix-ive-ous"
+          ]
         },
         {
-          "name": "방식·방향·변화와 재료",
+          "name": "방식·방향·변화와 영역",
           "unitIds": [
             "affix-ly",
             "affix-ize",
             "affix-ify-en",
-            "suffix-en-material",
             "add-dom-ward"
           ]
         }
@@ -127,8 +100,8 @@
     },
     {
       "lesson": 48,
-      "name": "어근과 word family",
-      "progressId": "morphology-48-20261001",
+      "name": "어근과 단어 가족",
+      "progressId": "morphology-48-20260930",
       "groups": [
         {
           "name": "작은 규모와 큰 규모 · micro / macro",
@@ -216,19 +189,13 @@
           ]
         },
         {
-          "name": "보고 쓰고 기록하기 · photograph word family",
+          "name": "보고 쓰고 기록하기",
           "unitIds": [
             "lat-scrib",
             "lat-spec",
             "lat-vid",
-            "gr-graph",
-            "gr-photo"
-          ],
-          "progressTitle": "Exercise 11 · 보고 쓰고 기록하기 · 사진 가족",
-          "legacyLocation": {
-            "lid": "48세트",
-            "title": "Exercise 11 · 보고 쓰고 기록하기 · 사진 가족"
-          }
+            "gr-graph"
+          ]
         },
         {
           "name": "믿고 말하고 알고 묻기",
@@ -267,15 +234,13 @@
           ]
         },
         {
-          "name": "생명·유전·군집과 세포 구조",
+          "name": "생명·죽음·유전과 타고남",
           "unitIds": [
             "gr-bio",
             "add-viv",
             "add-mort",
             "add-gen",
-            "add-nat",
-            "add-ome-communities",
-            "add-some-bodies"
+            "add-nat"
           ]
         },
         {
@@ -308,9 +273,10 @@
           ]
         },
         {
-          "name": "학문·자기와 지혜",
+          "name": "학문·빛·자기와 지혜",
           "unitIds": [
             "gr-logy",
+            "gr-photo",
             "gr-auto",
             "add-nom",
             "add-soph"
@@ -327,19 +293,14 @@
           ]
         },
         {
-          "name": "영어에 남은 오래된 word family",
+          "name": "영어에 남은 오래된 단어 가족",
           "unitIds": [
             "en-blood",
             "en-food",
             "en-strong",
             "en-broad",
             "en-long"
-          ],
-          "progressTitle": "Exercise 22 · 영어에 남은 오래된 단어 가족",
-          "legacyLocation": {
-            "lid": "48세트",
-            "title": "Exercise 22 · 영어에 남은 오래된 단어 가족"
-          }
+          ]
         }
       ]
     }
@@ -1172,7 +1133,7 @@
           "ko": "평등, 동등함",
           "ex": "The law aims to achieve {{BLANK}}.",
           "tr": "그 법은 평등을 실현하는 것을 목표로 해.",
-          "c": "equal(동등한)→equality(동등함). -ity가 붙으며 강세도 이동해.",
+          "c": "equal(동등한)→equality(동등함). 형용사의 성질을 나타내는 명사.",
           "ipa": "iˈkwɑːləti",
           "pos": "n."
         },
@@ -1182,7 +1143,7 @@
           "ko": "유연성, 융통성",
           "ex": "The plan allows some {{BLANK}}.",
           "tr": "그 계획은 어느 정도 융통성을 허용해.",
-          "c": "flexible(유연한)→flexibility(유연성). -ible이 -ibility로 바뀌고 강세도 이동해.",
+          "c": "flexible(유연한)→flexibility(유연성). -ble이 -bility로 바뀐다.",
           "ipa": "ˌfleksəˈbɪləti",
           "pos": "n."
         }
@@ -1375,7 +1336,7 @@
           "ko": "연구자",
           "ex": "A {{BLANK}} checked the new data.",
           "tr": "한 연구자가 새 자료를 확인했어.",
-          "c": "research(연구하다)+-er(하는 사람). smaller(더 작은)의 비교급 -er와는 달라.",
+          "c": "research(연구하다)+-er(하는 사람).",
           "ipa": "ˈriːsɝːtʃər",
           "pos": "n."
         },
@@ -1633,7 +1594,7 @@
           "ko": "문화의, 문화적인",
           "ex": "The two groups have {{BLANK}} differences.",
           "tr": "두 집단에는 문화적 차이가 있어.",
-          "c": "culture(문화)→cultural(문화의). 이 -al은 형용사형. removal의 -al은 명사형.",
+          "c": "culture(문화)→cultural(문화의). 명사에서 형용사로 바뀐다.",
           "ipa": "ˈkʌltʃərəl",
           "pos": "adj."
         },
@@ -1797,7 +1758,7 @@
           "ko": "현대화하다",
           "ex": "The city plans to {{BLANK}} its buses.",
           "tr": "그 도시는 버스 체계를 현대화할 계획이야.",
-          "c": "modern(현대의)+-ize: 현대화하다. modernise도 영국식 철자야. advise의 -ise는 바꾸지 않아.",
+          "c": "modern(현대의)+-ize(만들다). 형용사에서 변화 동사로 바뀌어.",
           "ipa": "ˈmɑːdərnaɪz",
           "pos": "v."
         },
@@ -1871,1091 +1832,6 @@
           "c": "broad(넓은)+-en(그렇게 만들다). 범위·시야처럼 추상적인 대상에도 써.",
           "ipa": "ˈbrɔːdən",
           "pos": "v."
-        }
-      ]
-    },
-    {
-      "id": "add-in-out",
-      "title": "안으로 / 밖으로",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "in- / ex-",
-          "meaning": "안으로 / 밖으로",
-          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
-        }
-      ],
-      "rule": "안으로 / 밖으로의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
-      "limits": "모든 in-이 부정은 아니다. 단어 전체의 현대 뜻을 확인한다.",
-      "history": {
-        "origin": "라틴어 in(안으로), ex(밖으로), portare(나르다)",
-        "route": "라틴어 importare / exportare → 영어 import / export.",
-        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다."
-      },
-      "sources": [
-        "https://www.etymonline.com/word/import",
-        "https://www.collinsdictionary.com/dictionary/english/import"
-      ],
-      "cards": [
-        {
-          "word": "import",
-          "en": "import",
-          "ko": "수입하다",
-          "ex": "We {{BLANK}} coffee beans from Brazil.",
-          "tr": "우리는 브라질에서 커피 원두를 수입해.",
-          "c": "in-(안으로)+portare(나르다). import는 들여오고 export는 내보내.",
-          "pos": "v.",
-          "ipa": "ɪmˈpɔrt"
-        },
-        {
-          "word": "export",
-          "en": "export",
-          "ko": "수출하다",
-          "ex": "These farms {{BLANK}} apples to other countries.",
-          "tr": "이 농장들은 다른 나라에 사과를 수출해.",
-          "c": "ex-(밖으로)+portare(나르다). import(수입하다)와 방향이 반대야.",
-          "pos": "v.",
-          "ipa": "ɪkˈspɔrt"
-        }
-      ]
-    },
-    {
-      "id": "add-fore-time",
-      "title": "앞서 / 뒤로",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "fore- / pre- / post-",
-          "meaning": "앞서 / 뒤에",
-          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
-        }
-      ],
-      "rule": "앞서 / 뒤에의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
-      "limits": "fore-는 게르만계이고 pre-/post-는 라틴계다. 뜻의 대비가 같은 어원이라는 뜻은 아니다.",
-      "history": {
-        "origin": "고대영어 fore(앞에); 라틴어 prae(앞서), post(뒤에)",
-        "route": "forecast는 영어 fore+cast. precede는 라틴어 praecedere, postpone은 postponere 계열.",
-        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다."
-      },
-      "sources": [
-        "https://www.etymonline.com/word/postpone",
-        "https://www.collinsdictionary.com/dictionary/english/postpone"
-      ],
-      "cards": [
-        {
-          "word": "forecast",
-          "en": "forecast",
-          "ko": "예보, 예측",
-          "ex": "The weather {{BLANK}} predicts snow tomorrow.",
-          "tr": "일기예보는 내일 눈이 올 거라고 해.",
-          "c": "fore-(미리)+cast. 미래를 내다보는 예측. 기상 예보에도 써.",
-          "pos": "n.",
-          "ipa": "ˈfɔrkæst"
-        },
-        {
-          "word": "precede",
-          "en": "precede",
-          "ko": "~보다 앞서다",
-          "ex": "Dark clouds often {{BLANK}} a storm.",
-          "tr": "먹구름은 흔히 폭풍보다 먼저 나타나.",
-          "c": "pre-(앞서)+cedere(가다). precede는 앞서고 follow는 뒤따라.",
-          "pos": "v.",
-          "ipa": "prɪˈsid"
-        },
-        {
-          "word": "postpone",
-          "en": "postpone",
-          "ko": "연기하다, 뒤로 미루다",
-          "ex": "We must {{BLANK}} the picnic until the rain stops.",
-          "tr": "비가 그칠 때까지 소풍을 미뤄야 해.",
-          "c": "post-(뒤로)+ponere(놓다). 일정을 뒤로 미루다. cancel은 취소하다.",
-          "pos": "v.",
-          "ipa": "poʊstˈpoʊn"
-        }
-      ]
-    },
-    {
-      "id": "add-together",
-      "title": "함께 결합하기",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "com- / con- / co- / syn- / sym-",
-          "meaning": "함께",
-          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
-        }
-      ],
-      "rule": "함께의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
-      "limits": "co-와 syn-은 기원이 다르다. con/sym 등의 철자는 뒤 소리에 영향을 받는다.",
-      "history": {
-        "origin": "라틴어 com-(함께); 그리스어 syn(함께), thesis(놓음)",
-        "route": "combine은 라틴어 combinare 계열. synthesis는 그리스어 synthesis → 라틴어 → 영어.",
-        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다.",
-        "greek": "σύν; θέσις",
-        "romanization": "syn; thesis",
-        "reading": "위 원문 전사는 고대어 철자의 안내다. 현대 영어 결합형의 발음은 단어와 강세에 따라 달라진다."
-      },
-      "sources": [
-        "https://www.etymonline.com/word/synthesis"
-      ],
-      "cards": [
-        {
-          "word": "combine",
-          "en": "combine",
-          "ko": "결합하다, 합치다",
-          "ex": "We can {{BLANK}} the two small classes.",
-          "tr": "우리는 작은 두 반을 합칠 수 있어.",
-          "c": "com-(함께)+라틴어 bini(둘씩) 계열. 지금은 셋 이상도 합칠 수 있어.",
-          "pos": "v.",
-          "ipa": "kəmˈbaɪn"
-        },
-        {
-          "word": "synthesis",
-          "en": "synthesis",
-          "ko": "종합, 합성",
-          "ex": "The report offers a {{BLANK}} of several theories.",
-          "tr": "그 보고서는 여러 이론을 종합해 제시해.",
-          "c": "그리스어 σύν(syn, 함께)+θέσις(thesis, 놓음). 합쳐 하나로 구성함.",
-          "pos": "n.",
-          "ipa": "ˈsɪnθəsɪs"
-        }
-      ]
-    },
-    {
-      "id": "add-counter",
-      "title": "맞서기 / 대응하기",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "counter-",
-          "meaning": "맞서 / 대응하여",
-          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
-        }
-      ],
-      "rule": "맞서 / 대응하여의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
-      "limits": "counterpart는 적이나 반대자가 아니라 대응하는 역할의 상대다.",
-      "history": {
-        "origin": "라틴어 contra(반대편에) → 고대프랑스어 contre",
-        "route": "영어 counter-+act, counter-+part로 이루어진 결합.",
-        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다."
-      },
-      "sources": [
-        "https://www.etymonline.com/word/counteract",
-        "https://www.collinsdictionary.com/dictionary/english/counteract"
-      ],
-      "cards": [
-        {
-          "word": "counteract",
-          "en": "counteract",
-          "ko": "상쇄하다, 억제하다",
-          "ex": "These measures {{BLANK}} the harmful effects of pollution.",
-          "tr": "이 조치들은 오염의 해로운 영향을 줄여.",
-          "c": "counter-(맞서)+act(작용하다). 반대로 작용해 효과를 약화시키다.",
-          "pos": "v.",
-          "ipa": "ˌkaʊntərˈækt"
-        },
-        {
-          "word": "counterpart",
-          "en": "counterpart",
-          "ko": "대응하는 사람이나 것",
-          "ex": "The minister met her French {{BLANK}} in Paris.",
-          "tr": "그 장관은 파리에서 같은 직책의 프랑스 장관을 만났어.",
-          "c": "counter-(대응)+part. 다른 조직·나라에서 같은 역할을 맡는 상대.",
-          "pos": "n.",
-          "ipa": "ˈkaʊntɚpɑrt"
-        }
-      ]
-    },
-    {
-      "id": "add-en",
-      "title": "그 상태로 만들기",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "en- / em-",
-          "meaning": "그 상태로 만들다",
-          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
-        }
-      ],
-      "rule": "그 상태로 만들다의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
-      "limits": "enable은 이미 정착한 단어다. 모든 형용사에 en-을 붙일 수는 없다.",
-      "history": {
-        "origin": "프랑스어 en- < 라틴어 in-(안에)",
-        "route": "중세영어 enablen: en-+able.",
-        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다."
-      },
-      "sources": [
-        "https://www.etymonline.com/word/enable"
-      ],
-      "cards": [
-        {
-          "word": "enable",
-          "en": "enable",
-          "ko": "~할 수 있게 하다",
-          "ex": "These ramps {{BLANK}} wheelchair users to enter.",
-          "tr": "이 경사로들은 휠체어 이용자가 들어갈 수 있게 해.",
-          "c": "en-(~하게 만들다)+able(할 수 있는). enable A to do.",
-          "pos": "v.",
-          "ipa": "ɪˈneɪbəl"
-        }
-      ]
-    },
-    {
-      "id": "add-bene-mal",
-      "title": "좋게 / 나쁘게",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "bene- / mal-",
-          "meaning": "잘 / 나쁘게",
-          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
-        }
-      ],
-      "rule": "잘 / 나쁘게의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
-      "limits": "bene-/mal-을 포함한 단어 전체가 언제나 반의어 관계인 것은 아니다.",
-      "history": {
-        "origin": "라틴어 bene(잘), male(나쁘게), malus(나쁜)",
-        "route": "benefit은 라틴어 benefactum 계열이 프랑스어를 거쳤다. malfunction은 mal-+function.",
-        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다."
-      },
-      "sources": [
-        "https://www.etymonline.com/word/malfunction",
-        "https://www.collinsdictionary.com/dictionary/english/malfunction"
-      ],
-      "cards": [
-        {
-          "word": "benefit",
-          "en": "benefit",
-          "ko": "이점, 혜택",
-          "ex": "One {{BLANK}} of cycling is better health.",
-          "tr": "자전거 타기의 한 이점은 건강이 좋아지는 거야.",
-          "c": "라틴어 bene(잘)+facere(하다) 계열. 도움이 되는 점이나 혜택.",
-          "pos": "n.",
-          "ipa": "ˈbɛnəfɪt"
-        },
-        {
-          "word": "beneficiary",
-          "en": "beneficiary",
-          "ko": "수혜자",
-          "ex": "The scholarship's main {{BLANK}} was a talented pianist.",
-          "tr": "그 장학금의 주요 수혜자는 재능 있는 피아니스트였어.",
-          "c": "bene-(잘)+facere(하다) 계열. 돈·혜택 등을 받는 사람.",
-          "pos": "n.",
-          "ipa": "ˌbɛnəˈfɪʃiɛri"
-        },
-        {
-          "word": "malfunction",
-          "en": "malfunction",
-          "ko": "오작동하다",
-          "ex": "The printer may {{BLANK}} if it gets too hot.",
-          "tr": "프린터가 너무 뜨거워지면 오작동할 수 있어.",
-          "c": "mal-(나쁘게)+function(작동하다). 기능이 정상적으로 작동하지 않다.",
-          "pos": "v.",
-          "ipa": "mælˈfʌŋkʃən"
-        }
-      ]
-    },
-    {
-      "id": "add-symmetry",
-      "title": "대칭 / 비대칭",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "sym- / a-",
-          "meaning": "함께 / 없음",
-          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
-        }
-      ],
-      "rule": "함께 / 없음의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
-      "limits": "sym-은 syn-의 동화형이다. 모든 a-가 부정이라는 뜻은 아니다.",
-      "history": {
-        "origin": "그리스어 syn(함께), metron(척도), a-(부정)",
-        "route": "그리스어 symmetria(균형·비례) → 라틴어/프랑스어 → symmetry. asymmetry는 부정형.",
-        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다.",
-        "greek": "σύν; μέτρον",
-        "romanization": "syn; metron",
-        "reading": "위 원문 전사는 고대어 철자의 안내다. 현대 영어 결합형의 발음은 단어와 강세에 따라 달라진다."
-      },
-      "sources": [
-        "https://www.etymonline.com/word/symmetry",
-        "https://www.collinsdictionary.com/dictionary/english/symmetry",
-        "https://www.collinsdictionary.com/dictionary/english/asymmetry"
-      ],
-      "cards": [
-        {
-          "word": "symmetry",
-          "en": "symmetry",
-          "ko": "대칭",
-          "ex": "The butterfly's wings show almost perfect {{BLANK}}.",
-          "tr": "그 나비의 날개는 거의 완벽한 대칭을 보여.",
-          "c": "그리스어 σύν(syn, 함께)+μέτρον(metron, 척도). asymmetry는 비대칭.",
-          "pos": "n.",
-          "ipa": "ˈsɪmətri"
-        },
-        {
-          "word": "asymmetry",
-          "en": "asymmetry",
-          "ko": "비대칭",
-          "ex": "The building's {{BLANK}} makes its two sides look different.",
-          "tr": "그 건물은 비대칭이라 양쪽 모습이 달라.",
-          "c": "a-(없음)+symmetry(대칭). 양쪽의 모양·배치가 대칭을 이루지 않음.",
-          "pos": "n.",
-          "ipa": "eɪˈsɪmətri"
-        }
-      ]
-    },
-    {
-      "id": "add-homo-hetero",
-      "title": "같은 / 다른",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "homo- / hetero-",
-          "meaning": "같은 / 다른",
-          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
-        }
-      ],
-      "rule": "같은 / 다른의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
-      "limits": "homo-는 여기서 그리스어 같은이다. 라틴어 homo(사람)와 구별한다.",
-      "history": {
-        "origin": "그리스어 homos(같은), heteros(다른), genos(종류)",
-        "route": "그리스어 homogenēs / heterogenēs → 중세라틴어 계열 → homogeneous / heterogeneous.",
-        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다.",
-        "greek": "ὁμός; ἕτερος; γένος",
-        "romanization": "homos; heteros; genos",
-        "reading": "위 원문 전사는 고대어 철자의 안내다. 현대 영어 결합형의 발음은 단어와 강세에 따라 달라진다."
-      },
-      "sources": [
-        "https://www.etymonline.com/word/homogeneous",
-        "https://www.collinsdictionary.com/dictionary/english/homogeneous",
-        "https://www.collinsdictionary.com/dictionary/english/heterogeneous"
-      ],
-      "cards": [
-        {
-          "word": "homogeneous",
-          "en": "homogeneous",
-          "ko": "동질적인, 균질한",
-          "ex": "Stir until the mixture is {{BLANK}} throughout.",
-          "tr": "혼합물 전체가 균질해질 때까지 저어.",
-          "c": "ὁμός(homos, 같은)+γένος(genos, 종류). heterogeneous는 이질적인.",
-          "pos": "adj.",
-          "ipa": "ˌhoʊməˈdʒiniəs"
-        },
-        {
-          "word": "heterogeneous",
-          "en": "heterogeneous",
-          "ko": "이질적인, 서로 다른 것으로 이루어진",
-          "ex": "The group was {{BLANK}} in age and background.",
-          "tr": "그 집단은 나이와 배경이 다양했어.",
-          "c": "ἕτερος(heteros, 다른)+γένος(genos, 종류). homogeneous는 동질적인.",
-          "pos": "adj.",
-          "ipa": "ˌhɛtərəˈdʒiniəs"
-        }
-      ]
-    },
-    {
-      "id": "add-hyper-hypo",
-      "title": "기준보다 과함 / 낮음",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "hyper- / hypo-",
-          "meaning": "기준을 넘는 / 기준보다 아래",
-          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
-        }
-      ],
-      "rule": "기준을 넘는 / 기준보다 아래의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
-      "limits": "접두사의 대비다. hyperactive와 hypothermia 두 단어 자체가 반의어는 아니다.",
-      "history": {
-        "origin": "그리스어 hyper(위·넘어), hypo(아래), thermē(열)",
-        "route": "hyperactive는 hyper-+active. hypothermia는 그리스계 요소로 만든 의학 용어.",
-        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다.",
-        "greek": "ὑπέρ; ὑπό; θέρμη",
-        "romanization": "hyper; hypo; thermē",
-        "reading": "위 원문 전사는 고대어 철자의 안내다. 현대 영어 결합형의 발음은 단어와 강세에 따라 달라진다."
-      },
-      "sources": [
-        "https://www.etymonline.com/word/hypothermia",
-        "https://www.collinsdictionary.com/dictionary/english/hyperactive",
-        "https://www.collinsdictionary.com/dictionary/english/hypothermia"
-      ],
-      "cards": [
-        {
-          "word": "hyperactive",
-          "en": "hyperactive",
-          "ko": "지나치게 활동적인",
-          "ex": "The {{BLANK}} kitten would not sit still.",
-          "tr": "그 지나치게 활동적인 새끼 고양이는 가만히 앉아 있지 않았어.",
-          "c": "ὑπέρ(hyper, 넘어서)+active. 활동이 지나침. hypo-는 기준보다 아래.",
-          "pos": "adj.",
-          "ipa": "ˌhaɪpərˈæktɪv"
-        },
-        {
-          "word": "hypothermia",
-          "en": "hypothermia",
-          "ko": "저체온증",
-          "ex": "The rescued climber was suffering from {{BLANK}}.",
-          "tr": "구조된 등산객은 저체온증을 겪고 있었어.",
-          "c": "ὑπό(hypo, 아래)+θέρμη(thermē, 열). 체온이 비정상적으로 낮아진 상태.",
-          "pos": "n.",
-          "ipa": "ˌhaɪpoʊˈθɜrmiə"
-        }
-      ]
-    },
-    {
-      "id": "add-hood-ship",
-      "title": "시기·상태 / 관계·역할",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "-hood / -ship",
-          "meaning": "상태·시기 / 관계·역할",
-          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
-        }
-      ],
-      "rule": "상태·시기 / 관계·역할의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
-      "limits": "neighborhood는 지역·공동체 뜻으로 확대됐다. 모든 용례를 하나의 한국어 뜻으로 환원하지 않는다.",
-      "history": {
-        "origin": "고대영어 hād(상태·지위), -scipe(상태·성질)의 계통",
-        "route": "-hood/-ship은 물려받은 영어 접미사로 childhood, friendship 등에 남았다.",
-        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다."
-      },
-      "sources": [
-        "https://www.etymonline.com/word/-hood"
-      ],
-      "cards": [
-        {
-          "word": "childhood",
-          "en": "childhood",
-          "ko": "어린 시절",
-          "ex": "She spent her {{BLANK}} in Goyang.",
-          "tr": "그녀는 고양에서 어린 시절을 보냈어.",
-          "c": "child(아이)+-hood(시기·상태). 고대영어 hād는 상태·지위를 뜻했어.",
-          "pos": "n.",
-          "ipa": "ˈtʃaɪldhʊd"
-        },
-        {
-          "word": "neighborhood",
-          "en": "neighborhood",
-          "ko": "동네, 인근 지역",
-          "ex": "Everyone in the {{BLANK}} knows this cat.",
-          "tr": "동네 사람들은 모두 이 고양이를 알아.",
-          "c": "neighbor(이웃)+-hood. 이웃들이 사는 지역. 영국식은 neighbourhood.",
-          "pos": "n.",
-          "ipa": "ˈneɪbɚˌhʊd"
-        },
-        {
-          "word": "friendship",
-          "en": "friendship",
-          "ko": "우정",
-          "ex": "Their {{BLANK}} survived years of living apart.",
-          "tr": "그들의 우정은 여러 해 떨어져 살아도 이어졌어.",
-          "c": "friend(친구)+-ship(관계·상태). 이 -ship은 배를 뜻하는 ship과 달라.",
-          "pos": "n.",
-          "ipa": "ˈfrɛndʃɪp"
-        },
-        {
-          "word": "leadership",
-          "en": "leadership",
-          "ko": "지도력, 지도자로서의 역할",
-          "ex": "The team improved under her {{BLANK}}.",
-          "tr": "그녀의 지도 아래 팀은 발전했어.",
-          "c": "leader(지도자)+-ship(역할·능력). 지도력이나 지도부를 뜻해.",
-          "pos": "n.",
-          "ipa": "ˈlidɚʃɪp"
-        }
-      ]
-    },
-    {
-      "id": "add-dom-ward",
-      "title": "상태·영역 / 방향",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "-dom / -ward",
-          "meaning": "상태·영역 / 방향",
-          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
-        }
-      ],
-      "rule": "상태·영역 / 방향의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
-      "limits": "-dom과 -ward는 서로 다른 접미사다. 현대 표제어의 품사를 별도로 확인한다.",
-      "history": {
-        "origin": "고대영어 dōm(판단·권위 등), -weard(~쪽으로)",
-        "route": "freedom/kingdom의 -dom과 backward/forward의 -ward는 고대영어 계통이다.",
-        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다."
-      },
-      "sources": [
-        "https://www.etymonline.com/word/-dom"
-      ],
-      "cards": [
-        {
-          "word": "freedom",
-          "en": "freedom",
-          "ko": "자유",
-          "ex": "Students need the {{BLANK}} to ask questions.",
-          "tr": "학생들에게는 질문할 자유가 필요해.",
-          "c": "free(자유로운)+-dom(상태·영역). 고대영어 dōm은 판단·권위 등도 뜻했어.",
-          "pos": "n.",
-          "ipa": "ˈfridəm"
-        },
-        {
-          "word": "kingdom",
-          "en": "kingdom",
-          "ko": "왕국",
-          "ex": "A queen ruled the island {{BLANK}}.",
-          "tr": "여왕이 그 섬 왕국을 다스렸어.",
-          "c": "king(왕)+-dom(영역). 여왕이 다스려도 kingdom이라고 해.",
-          "pos": "n.",
-          "ipa": "ˈkɪŋdəm"
-        },
-        {
-          "word": "backward",
-          "en": "backward",
-          "ko": "뒤로",
-          "ex": "The cat took two steps {{BLANK}}.",
-          "tr": "고양이가 두 걸음 뒤로 물러났어.",
-          "c": "back(뒤)+-ward(~쪽으로). forward는 앞으로.",
-          "pos": "adv.",
-          "ipa": "ˈbækwɚd"
-        },
-        {
-          "word": "forward",
-          "en": "forward",
-          "ko": "앞으로",
-          "ex": "The line moved {{BLANK}} when the doors opened.",
-          "tr": "문이 열리자 줄이 앞으로 움직였어.",
-          "c": "fore(앞)와 -ward(~쪽으로) 계열. backward는 뒤로.",
-          "pos": "adv.",
-          "ipa": "ˈfɔrwɚd"
-        }
-      ]
-    },
-    {
-      "id": "suffix-family-care",
-      "title": "care word family · 성질에서 방식과 상태로",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "-ful / -less",
-          "meaning": "성질이 있음 / 없음",
-          "pronunciationNote": "해당 단어의 IPA와 음성으로 발음을 확인한다."
-        },
-        {
-          "form": "-ly / -ness",
-          "meaning": "방식 / 상태 명사",
-          "pronunciationNote": "해당 단어의 IPA와 음성으로 발음을 확인한다."
-        }
-      ],
-      "rule": "careful과 careless에서 각각 어떤 파생어가 이어지는지 읽는다. 부사와 명사가 문장에서 가리키는 역할을 구별한다.",
-      "limits": "carefully는 careful에서, carelessness는 careless에서 이어진다. 단순히 맨 뒤 철자만 떼어 뜻을 계산하지 않는다.",
-      "history": {
-        "origin": "care는 고대영어 caru/cearu(걱정·주의) 계열. -ful/-less/-ly/-ness도 게르만어 계통 접미사다.",
-        "route": "고대영어 care 계열과 접미사들이 영어에 이어졌다. 현대의 care→careful→carefully와 care→careless→carelessness 관계를 비교한다.",
-        "notes": "화살표는 현대의 형태·뜻 관계다. 각 단어가 영어 역사에서 같은 시점에 차례로 만들어졌다는 뜻은 아니다."
-      },
-      "sources": [
-        "https://www.etymonline.com/word/care",
-        "https://www.etymonline.com/word/-ness",
-        "https://www.etymonline.com/word/-ity",
-        "https://www.etymonline.com/word/-ful",
-        "https://www.etymonline.com/word/-less",
-        "https://www.etymonline.com/word/harmful",
-        "https://www.etymonline.com/word/-ly",
-        "https://www.oxfordlearnersdictionaries.com/us/definition/english/hardly"
-      ],
-      "cards": [
-        {
-          "word": "care",
-          "en": "care",
-          "ko": "주의, 조심",
-          "ex": "Handle the glass with {{BLANK}}.",
-          "tr": "그 유리잔을 조심해서 다뤄.",
-          "c": "care(주의)→careful(조심하는)→carefully(조심해서). with care는 조심해서.",
-          "pos": "n.",
-          "ipa": "kɛr"
-        },
-        {
-          "word": "careful",
-          "en": "careful",
-          "ko": "조심하는, 주의 깊은",
-          "ex": "Be {{BLANK}} with this sharp knife.",
-          "tr": "이 날카로운 칼을 조심해서 다뤄.",
-          "c": "care(주의)+-ful: 주의 깊은. with 뒤에는 조심해서 다룰 대상을 써.",
-          "pos": "adj.",
-          "ipa": "ˈkɛrfəl"
-        },
-        {
-          "word": "careless",
-          "en": "careless",
-          "ko": "부주의한",
-          "ex": "A {{BLANK}} mistake cost us ten points.",
-          "tr": "부주의한 실수로 우리는 10점을 잃었어.",
-          "c": "care(주의)+-less(없는). careless mistake는 주의를 기울이지 않아 생긴 실수.",
-          "pos": "adj.",
-          "ipa": "ˈkɛrləs"
-        },
-        {
-          "word": "carefully",
-          "en": "carefully",
-          "ko": "조심해서, 주의 깊게",
-          "ex": "Read each question {{BLANK}} before answering.",
-          "tr": "답하기 전에 각 문제를 주의 깊게 읽어.",
-          "c": "care→careful→carefully. -ly가 붙어 어떻게 읽어야 하는지 나타내.",
-          "pos": "adv.",
-          "ipa": "ˈkɛrfəli"
-        },
-        {
-          "word": "carelessness",
-          "en": "carelessness",
-          "ko": "부주의",
-          "ex": "His {{BLANK}} caused the accident.",
-          "tr": "그의 부주의가 그 사고를 일으켰어.",
-          "c": "care→careless→carelessness: 주의→부주의한→부주의. -ness는 성질을 명사로 나타내.",
-          "pos": "n.",
-          "ipa": "ˈkɛrləsnəs"
-        }
-      ]
-    },
-    {
-      "id": "suffix-family-employ",
-      "title": "employ word family · 행동과 양쪽 당사자",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "-er",
-          "meaning": "그 일을 하는 쪽",
-          "pronunciationNote": "해당 단어의 IPA와 음성으로 발음을 확인한다."
-        },
-        {
-          "form": "-ee",
-          "meaning": "행동의 대상·수혜자 등을 나타내는 사람 명사",
-          "pronunciationNote": "해당 단어의 IPA와 음성으로 발음을 확인한다."
-        },
-        {
-          "form": "-ment",
-          "meaning": "행위·상태를 나타내는 명사",
-          "pronunciationNote": "해당 단어의 IPA와 음성으로 발음을 확인한다."
-        }
-      ],
-      "rule": "고용하는 쪽과 고용된 쪽, 고용이라는 관계를 실제 예문에서 구별한다.",
-      "limits": "-ee가 항상 수동 대상만 뜻하는 것은 아니다. employ의 사용하다 뜻과 고용하다 뜻도 문맥으로 구별한다.",
-      "history": {
-        "origin": "employ는 라틴어 implicare에서 고프랑스어 emploiier를 거쳐 왔다. -ee는 앵글로프랑스어 과거분사형 -é와 연결된다.",
-        "route": "라틴어 implicare → 고프랑스어 emploiier → employ. employee는 프랑스어 employé 계열과 연결되며 현대에는 employ와 형태 관계가 선명하다.",
-        "notes": "현대의 고용 역할을 먼저 비교한다. employ의 앞부분을 새 영어 접두사로 억지 분해하지 않는다."
-      },
-      "sources": [
-        "https://www.etymonline.com/word/employ",
-        "https://www.merriam-webster.com/dictionary/-ee",
-        "https://www.etymonline.com/word/-ment",
-        "https://www.etymonline.com/word/-er",
-        "https://www.merriam-webster.com/dictionary/-or"
-      ],
-      "cards": [
-        {
-          "word": "employ",
-          "en": "employ",
-          "ko": "고용하다",
-          "ex": "The company plans to {{BLANK}} ten more workers.",
-          "tr": "그 회사는 직원 10명을 더 고용할 계획이야.",
-          "c": "employ(고용하다). employer는 고용하는 쪽, employee는 고용된 직원.",
-          "pos": "v.",
-          "ipa": "ɪmˈplɔɪ"
-        },
-        {
-          "word": "employer",
-          "en": "employer",
-          "ko": "고용주",
-          "ex": "My {{BLANK}} provides health insurance.",
-          "tr": "내 고용주는 건강보험을 제공해.",
-          "c": "employ(고용하다)+-er. 고용하는 사람·회사·기관. employee는 고용된 직원.",
-          "pos": "n.",
-          "ipa": "ɪmˈplɔɪɚ"
-        },
-        {
-          "word": "employee",
-          "en": "employee",
-          "ko": "직원, 고용된 사람",
-          "ex": "Every {{BLANK}} receives safety training.",
-          "tr": "모든 직원은 안전 교육을 받아.",
-          "c": "employ(고용하다)+-ee. employee는 고용된 직원, employer는 고용하는 쪽.",
-          "pos": "n.",
-          "ipa": "ɪmˈplɔɪi"
-        },
-        {
-          "word": "employment",
-          "en": "employment",
-          "ko": "고용, 일자리",
-          "ex": "She is looking for full-time {{BLANK}}.",
-          "tr": "그녀는 전일제 일자리를 찾고 있어.",
-          "c": "employ(고용하다)+-ment: 고용·일자리. 동작을 명사로 나타내.",
-          "pos": "n.",
-          "ipa": "ɪmˈplɔɪmənt"
-        }
-      ]
-    },
-    {
-      "id": "suffix-family-predict",
-      "title": "predict word family · 예측과 예측 대상",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "-ion / -or / -able",
-          "meaning": "행동 명사 / 주체·지표 / 가능성의 성질",
-          "pronunciationNote": "해당 단어의 IPA와 음성으로 발음을 확인한다."
-        }
-      ],
-      "rule": "prediction은 예측 내용·행동, predictor는 예측 지표, predictable은 예측의 대상이 가진 성질이다.",
-      "limits": "이 단위는 기존 predictor/predictable 단위와 같은 연습에 배치한다. 예측을 하는 쪽과 예측되는 대상을 바꾸지 않는다.",
-      "history": {
-        "origin": "라틴어 praedicere(미리 말하다)와 praedictio 계열.",
-        "route": "prediction은 프랑스어와 중세라틴어를 거쳐 영어에 들어왔다. predict는 prediction의 역형성 또는 라틴어 분사형의 영향으로 설명된다.",
-        "notes": "predict→prediction은 현대 형태 관계이며, 동사가 역사적으로 항상 먼저 만들어졌다는 설명이 아니다."
-      },
-      "sources": [
-        "https://www.etymonline.com/word/predict",
-        "https://www.etymonline.com/word/-tion",
-        "https://www.etymonline.com/word/-er",
-        "https://www.merriam-webster.com/dictionary/-or",
-        "https://www.etymonline.com/word/-able",
-        "https://www.etymonline.com/word/-ible",
-        "https://www.merriam-webster.com/dictionary/accessible"
-      ],
-      "cards": [
-        {
-          "word": "prediction",
-          "en": "prediction",
-          "ko": "예측",
-          "ex": "His {{BLANK}} about the election was correct.",
-          "tr": "선거에 대한 그의 예측은 맞았어.",
-          "c": "predict(예측하다)→prediction(예측). predictor는 예측 지표, predictable은 예측 가능한.",
-          "pos": "n.",
-          "ipa": "prɪˈdɪkʃən"
-        }
-      ]
-    },
-    {
-      "id": "suffix-ly-adjective",
-      "title": "-ly · 성질을 나타내는 경우",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "-ly",
-          "meaning": "그런 성질을 가진 형용사",
-          "pronunciationNote": "해당 단어의 IPA와 음성으로 발음을 확인한다."
-        }
-      ],
-      "rule": "friendly는 친구처럼 다정한 성질을 나타낸다. -ly 끝 철자만 보고 부사로 확정하지 않는다.",
-      "limits": "부사형 -ly와 형용사형 -ly는 현대 철자가 같다. 품사는 실제 문장 역할에서 확인한다.",
-      "history": {
-        "origin": "형용사형은 고대영어 -līc. 부사형은 -līce와 연결된다.",
-        "route": "고대영어 -līc/-līce → 중세영어 -li → 현대영어 -ly.",
-        "notes": "성질·방식의 역사적 관계는 있지만 현대의 friendly를 부사로 쓰지는 않는다."
-      },
-      "sources": [
-        "https://www.etymonline.com/word/-ly"
-      ],
-      "cards": [
-        {
-          "word": "friendly",
-          "en": "friendly",
-          "ko": "친절한, 다정한",
-          "ex": "The new teacher is very {{BLANK}}.",
-          "tr": "새 선생님은 무척 다정해.",
-          "c": "friend(친구)→friendly(친절한). -ly로 끝나지만 부사가 아닌 형용사야.",
-          "pos": "adj.",
-          "ipa": "ˈfrɛndli"
-        }
-      ]
-    },
-    {
-      "id": "suffix-en-material",
-      "title": "-en · 재료를 나타내는 경우",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "-en",
-          "meaning": "그 재료로 된 형용사",
-          "pronunciationNote": "해당 단어의 IPA와 음성으로 발음을 확인한다."
-        }
-      ],
-      "rule": "wooden은 무엇으로 만들어졌는지 나타낸다. strengthen의 변화 동사형과 구별한다.",
-      "limits": "모든 재료 명사에 -en을 붙이지 않는다. 현재 쓰이는 어형을 확인한다.",
-      "history": {
-        "origin": "재료·성질 형용사 -en은 게르만어의 형용사형 계열. 동사형 -en은 고대영어 -nian 계열이다.",
-        "route": "게르만어 재료 형용사형이 고대·중세영어를 거쳐 일부 단어에 남았다.",
-        "notes": "wooden과 strengthen의 끝 철자가 같아도 현대 기능은 다르다. 분사형 -en까지 이번 단위에 포함하지 않는다."
-      },
-      "sources": [
-        "https://www.etymonline.com/word/-en"
-      ],
-      "cards": [
-        {
-          "word": "wooden",
-          "en": "wooden",
-          "ko": "나무로 된",
-          "ex": "We sat at a {{BLANK}} table.",
-          "tr": "우리는 나무로 된 식탁에 앉았어.",
-          "c": "wood(나무)+-en: 나무로 된. strengthen의 동사형 -en과 다른 기능이야.",
-          "pos": "adj.",
-          "ipa": "ˈwʊdən"
-        }
-      ]
-    },
-    {
-      "id": "suffix-nominal-al",
-      "title": "-al · 행동을 나타내는 명사",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "-al",
-          "meaning": "행동·과정의 명사",
-          "pronunciationNote": "해당 단어의 IPA와 음성으로 발음을 확인한다."
-        }
-      ],
-      "rule": "remove→removal과 approve→approval에서 행동을 하나의 개념으로 읽는다.",
-      "limits": "cultural의 형용사형 -al과 구별한다. 모든 동사에서 같은 명사형을 만들 수 있는 것은 아니다.",
-      "history": {
-        "origin": "명사형 -al은 중세영어 -aille, 앵글로프랑스어, 라틴어 -alia 계열과 연결된다.",
-        "route": "라틴어 -alia → 앵글로프랑스어 → 중세영어 -aille 및 영어의 명사형 -al.",
-        "notes": "형용사형 -al과 닮은 역사적 계통이 있어도 현대의 기능 구별이 학습의 중심이다."
-      },
-      "sources": [
-        "https://www.merriam-webster.com/dictionary/-al"
-      ],
-      "cards": [
-        {
-          "word": "removal",
-          "en": "removal",
-          "ko": "제거",
-          "ex": "Snow {{BLANK}} takes hours after a storm.",
-          "tr": "폭설 뒤 눈을 치우는 데 몇 시간이 걸려.",
-          "c": "remove(제거하다)→removal(제거). 이 -al은 명사형. cultural의 -al은 형용사형.",
-          "pos": "n.",
-          "ipa": "rɪˈmuvəl"
-        },
-        {
-          "word": "approval",
-          "en": "approval",
-          "ko": "승인, 찬성",
-          "ex": "The project needs official {{BLANK}}.",
-          "tr": "그 사업에는 공식 승인이 필요해.",
-          "c": "approve(승인하다)→approval(승인). 명사형 -al이 붙으며 끝의 e가 빠져.",
-          "pos": "n.",
-          "ipa": "əˈpruvəl"
-        }
-      ]
-    },
-    {
-      "id": "suffix-ish-functions",
-      "title": "-ish · 성질과 대략의 정도",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "-ish",
-          "meaning": "그런 성질 / 약간 그러한",
-          "pronunciationNote": "해당 단어의 IPA와 음성으로 발음을 확인한다."
-        }
-      ],
-      "rule": "foolish는 어리석은 성질, yellowish는 노란색에 가까운 정도를 나타낸다.",
-      "limits": "-ish를 언제나 약간으로 번역하지 않는다. 국가·민족 형용사 등 다른 기능도 있다.",
-      "history": {
-        "origin": "고대영어 -isc라는 형용사 접미사.",
-        "route": "고대영어 -isc → 중세영어 → 현대영어 -ish.",
-        "notes": "현재의 단어별 뜻을 확인하고 성질과 근사 정도를 구별한다."
-      },
-      "sources": [
-        "https://www.merriam-webster.com/dictionary/-ish"
-      ],
-      "cards": [
-        {
-          "word": "yellowish",
-          "en": "yellowish",
-          "ko": "노르스름한",
-          "ex": "The old book has {{BLANK}} pages.",
-          "tr": "그 오래된 책은 책장이 노르스름해.",
-          "c": "yellow(노란)+-ish: 약간 노란. 색이나 정도에서 -ish는 ~에 가까운 뜻을 더해.",
-          "pos": "adj.",
-          "ipa": "ˈjɛloʊɪʃ"
-        },
-        {
-          "word": "foolish",
-          "en": "foolish",
-          "ko": "어리석은",
-          "ex": "It was {{BLANK}} to ignore the warning.",
-          "tr": "그 경고를 무시한 것은 어리석었어.",
-          "c": "fool(바보)+-ish: 어리석은. 여기서는 약간이 아니라 그런 성질이라는 뜻.",
-          "pos": "adj.",
-          "ipa": "ˈfulɪʃ"
-        }
-      ]
-    },
-    {
-      "id": "suffix-y",
-      "title": "-y · 명사에서 성질로",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "-y",
-          "meaning": "그 성질을 지닌 / 그러한 경향의",
-          "pronunciationNote": "해당 단어의 IPA와 음성으로 발음을 확인한다."
-        }
-      ],
-      "rule": "health→healthy와 noise→noisy에서 상태·성질을 읽고 끝 철자의 변화를 확인한다.",
-      "limits": "끝이 y라고 모두 이 접미사는 아니다. noisy에서 e를 빼는 변화도 해당 어형과 함께 확인한다.",
-      "history": {
-        "origin": "형용사형 -y는 고대영어 -ig 계열.",
-        "route": "고대영어 -ig → 중세영어 → 현대영어 -y.",
-        "notes": "다른 계통의 명사형 -y까지 같은 것으로 묶지 않는다."
-      },
-      "sources": [
-        "https://www.merriam-webster.com/dictionary/-y"
-      ],
-      "cards": [
-        {
-          "word": "healthy",
-          "en": "healthy",
-          "ko": "건강한, 건강에 좋은",
-          "ex": "Regular exercise keeps your heart {{BLANK}}.",
-          "tr": "규칙적인 운동은 심장을 건강하게 유지해.",
-          "c": "health→healthy: 건강→건강한. keep A healthy는 A를 건강하게 유지하다.",
-          "pos": "adj.",
-          "ipa": "ˈhɛlθi"
-        },
-        {
-          "word": "noisy",
-          "en": "noisy",
-          "ko": "시끄러운",
-          "ex": "The classroom became {{BLANK}} during lunch.",
-          "tr": "점심시간에 교실이 시끄러워졌어.",
-          "c": "noise(소음)→noisy(시끄러운). 마지막 e를 빼고 -y를 붙여.",
-          "pos": "adj.",
-          "ipa": "ˈnɔɪzi"
-        }
-      ]
-    },
-    {
-      "id": "suffix-ant-ent-functions",
-      "title": "-ant / -ent · 사람과 성질",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "-ant / -ent",
-          "meaning": "행동 주체를 나타내는 명사 / 상태·작용을 나타내는 형용사",
-          "pronunciationNote": "해당 단어의 IPA와 음성으로 발음을 확인한다."
-        }
-      ],
-      "rule": "consultant는 전문 조언을 하는 사람, dependent는 다른 대상에 의존하는 성질이다.",
-      "limits": "-ant는 명사이고 -ent는 형용사라는 규칙이 아니다. resident처럼 -ent 명사도 있고 -ant 형용사도 있다.",
-      "history": {
-        "origin": "라틴어 현재분사 계열 -ant-/-ans와 -ent-/-ens.",
-        "route": "라틴어 분사형 → 프랑스어 및 직접 차용 → 영어 -ant/-ent 계열.",
-        "notes": "영어의 어간과 형태 관계를 읽되 어원만으로 현대 품사를 확정하지 않는다."
-      },
-      "sources": [
-        "https://www.merriam-webster.com/dictionary/-ant",
-        "https://www.etymonline.com/word/-ent"
-      ],
-      "cards": [
-        {
-          "word": "dependent",
-          "en": "dependent",
-          "ko": "의존하는",
-          "ex": "Young birds are {{BLANK}} on their parents.",
-          "tr": "어린 새들은 부모에게 의존해.",
-          "c": "depend on→dependent on: ~에 의존하는. dependence on은 의존을 뜻하는 명사.",
-          "pos": "adj.",
-          "ipa": "dɪˈpɛndənt"
-        },
-        {
-          "word": "consultant",
-          "en": "consultant",
-          "ko": "상담역, 자문가",
-          "ex": "The company hired a {{BLANK}} for expert advice.",
-          "tr": "그 회사는 전문적인 조언을 받으려고 자문가를 고용했어.",
-          "c": "consult(상담하다)→consultant(자문가). -ant/-ent는 사람 명사와 형용사에 모두 나타나.",
-          "pos": "n.",
-          "ipa": "kənˈsʌltənt"
-        }
-      ]
-    },
-    {
-      "id": "suffix-ery-collective",
-      "title": "-ery · 함께 묶어 부르기",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "-ery / -ry",
-          "meaning": "집합·활동·장소·상태의 명사",
-          "pronunciationNote": "해당 단어의 IPA와 음성으로 발음을 확인한다."
-        }
-      ],
-      "rule": "machinery는 개별 기계 하나가 아니라 기계류를 통틀어 가리킨다.",
-      "limits": "모든 -ery가 집합 명사인 것은 아니다. 장소·활동 등 단어별 뜻도 확인해야 한다.",
-      "history": {
-        "origin": "앵글로프랑스어 -erie 계열. -ier와 -ie의 결합과 연결된다.",
-        "route": "앵글로프랑스어 -erie → 중세영어 -erie → 영어 -ery/-ry.",
-        "notes": "machinery의 집합·불가산 용법을 대표로 다룬다. 장소 명사를 늘리기 위해 새 표제어를 추가하지 않는다."
-      },
-      "sources": [
-        "https://www.merriam-webster.com/dictionary/-ery"
-      ],
-      "cards": [
-        {
-          "word": "machinery",
-          "en": "machinery",
-          "ko": "기계류",
-          "ex": "New {{BLANK}} makes farm work easier.",
-          "tr": "새로운 기계류는 농사일을 더 쉽게 만들어.",
-          "c": "machine+-ery: 기계류 전체. 셀 수 없는 명사. 기계 한 대는 a machine.",
-          "pos": "n.",
-          "ipa": "məˈʃinəri"
-        }
-      ]
-    },
-    {
-      "id": "suffix-some-quality",
-      "title": "-some · 성질과 의미 변화",
-      "kind": "affix",
-      "forms": [
-        {
-          "form": "-some",
-          "meaning": "특정 성질·상태·작용을 지닌",
-          "pronunciationNote": "troublesome과 awesome의 IPA·음성으로 확인한다."
-        }
-      ],
-      "rule": "trouble→troublesome과 awe→awesome으로 형용사형 -some의 뜻을 연결한다. awesome의 일상적인 칭찬 뜻도 구별한다.",
-      "limits": "ribosome의 몸·구조체를 뜻하는 그리스어계 -some은 다른 계통이다. 형용사 -some을 언제나 몸이나 집합으로 풀이하지 않는다.",
-      "history": {
-        "origin": "형용사형 -some은 고대영어 -sum. troublesome은 trouble+-some, awesome은 awe+-some으로 형성됐다.",
-        "route": "고대영어 -sum → 중세영어 -som → 현대영어 형용사형 -some. awesome은 경외감을 일으킨다는 뜻에서 구어의 굉장한·멋진으로도 쓰인다.",
-        "notes": "생물학의 -some은 그리스어 sōma(몸)에서 온 신라틴어 결합형이다. 철자가 같아도 두 요소의 유래와 기능은 다르다."
-      },
-      "sources": [
-        "https://www.merriam-webster.com/dictionary/awesome",
-        "https://www.merriam-webster.com/dictionary/-some",
-        "https://www.collinsdictionary.com/dictionary/english/troublesome"
-      ],
-      "cards": [
-        {
-          "word": "awesome",
-          "en": "awesome",
-          "ko": "굉장한, 아주 멋진",
-          "ex": "The concert was {{BLANK}} from start to finish.",
-          "tr": "그 공연은 처음부터 끝까지 정말 멋졌어.",
-          "c": "awe(경외감)+-some(그런 성질의). 본래 경외감을 자아내는. 일상에서는 멋진.",
-          "pos": "adj.",
-          "ipa": "ˈɔsəm"
-        },
-        {
-          "word": "troublesome",
-          "en": "troublesome",
-          "ko": "골치 아픈, 성가신",
-          "ex": "The kitten's habit of biting cables is {{BLANK}}.",
-          "tr": "그 아기 고양이가 전선을 물어뜯는 버릇은 골칫거리야.",
-          "c": "trouble(문제)+-some: 문제를 일으키는. awesome과 같은 형용사 접미사야.",
-          "pos": "adj.",
-          "ipa": "ˈtrʌbəlsəm"
         }
       ]
     },
@@ -4227,7 +3103,7 @@
           "englishPronunciation": "graphic /ˈɡræfɪk/ · photograph /ˈfoʊtəɡræf/"
         }
       ],
-      "rule": "graph 계열은 글·그림·기록을 연결해. photograph에서는 빛으로 남긴 그림, graphic에서는 그림이나 도표로 표현한 성질을 떠올려. photograph·photography·photographer·photographic은 사진/사진술/사진가/사진의로 기능이 달라지며 강세도 달라진다.",
+      "rule": "graph 계열은 글·그림·기록을 연결해. photograph에서는 빛으로 남긴 그림, graphic에서는 그림이나 도표로 표현한 성질을 떠올려.",
       "limits": "graphic은 생생하고 노골적이라는 뜻도 있어. 모든 문장에서 도표의라고 읽으면 안 돼.",
       "history": {
         "origin": "고대 그리스어 γράφω: 긁다, 그리다, 쓰다",
@@ -4235,15 +3111,13 @@
         "romanization": "graphō; graphein",
         "reading": "전사 ph는 그리스 문자 φ를 옮긴 거야. 영어 graph는 /ɡræf/로 읽어.",
         "route": "graphic은 그리스어 graphikos에서 라틴어 graphicus를 거쳤어. photograph는 그리스어 photo-와 -graph를 이용해 근대에 만든 영어 단어야.",
-        "notes": "기록의 옛 방식인 긁어 표시하기와 쓰기의 관계는 확인되지만, 현대의 모든 graph 단어가 고대에 이미 존재한 것은 아니야. photography는 photo-+-graphy의 조어이고 photographer는 동사 photograph에서 만든 행위자 명사다. 카드의 화살표는 현대 word family의 관계이며 반드시 시간 순서의 차용 경로를 뜻하지 않는다."
+        "notes": "기록의 옛 방식인 긁어 표시하기와 쓰기의 관계는 확인되지만, 현대의 모든 graph 단어가 고대에 이미 존재한 것은 아니야."
       },
       "sources": [
         "https://www.etymonline.com/word/-graphy",
         "https://www.etymonline.com/word/graphic",
         "https://www.etymonline.com/word/photograph",
-        "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionary-entries.atlas_v1%3Amiddle-liddell.perseus-eng2-n7087/",
-        "https://www.etymonline.com/word/photography",
-        "https://www.etymonline.com/word/photographer"
+        "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionary-entries.atlas_v1%3Amiddle-liddell.perseus-eng2-n7087/"
       ],
       "cards": [
         {
@@ -4262,29 +3136,9 @@
           "ko": "사진",
           "ex": "The {{BLANK}} shows the town before the flood.",
           "tr": "그 사진은 홍수가 나기 전의 마을을 보여줘.",
-          "c": "photo-(빛)+graph-(기록). photography는 사진술, photographer는 사진가.",
+          "c": "photo-(빛)와 -graph(기록). 빛으로 남긴 그림이라는 조어야.",
           "ipa": "ˈfoʊtəɡræf",
           "pos": "n."
-        },
-        {
-          "word": "photography",
-          "en": "photography",
-          "ko": "사진 촬영, 사진술",
-          "pos": "n.",
-          "ipa": "fəˈtɑɡrəfi",
-          "ex": "Her interest in {{BLANK}} began with a borrowed camera.",
-          "tr": "그녀는 빌린 카메라를 계기로 사진 촬영에 관심을 갖게 됐어.",
-          "c": "photograph(사진)→photography(사진술·촬영). -graphy는 기록·기술. 강세가 달라져."
-        },
-        {
-          "word": "photographer",
-          "en": "photographer",
-          "ko": "사진가, 사진사",
-          "pos": "n.",
-          "ipa": "fəˈtɑɡrəfɚ",
-          "ex": "The {{BLANK}} adjusted her camera before taking our picture.",
-          "tr": "그 사진사는 우리 사진을 찍기 전에 카메라를 조절했어.",
-          "c": "photograph(사진을 찍다)+-er(사람). photographer는 사진가, photographic은 사진의."
         }
       ]
     },
@@ -4332,7 +3186,7 @@
           "ko": "생태학",
           "ex": "{{BLANK}} studies relationships between living things and their environment.",
           "tr": "생태학은 생물과 그 환경 사이의 관계를 연구해.",
-          "c": "eco-(집·환경)+-logy(학문). ecological은 생태학의, ecologist는 생태학자.",
+          "c": "eco-는 원래 집·거처라는 말. 생물과 환경의 관계를 다루는 학문이야.",
           "ipa": "iˈkɑːlədʒi",
           "pos": "n."
         }
@@ -4432,7 +3286,7 @@
           "ko": "사진의, 사진으로 된",
           "ex": "They found {{BLANK}} evidence of the damage.",
           "tr": "그들은 피해를 보여주는 사진 증거를 찾았어.",
-          "c": "photograph→photographic. -ic이 붙어 '사진의'라는 형용사가 되고 강세가 이동해.",
+          "c": "photograph에 형용사형 -ic이 붙은 말. 강세 위치도 달라져.",
           "ipa": "ˌfoʊtəˈɡræfɪk",
           "pos": "adj."
         }
@@ -4549,7 +3403,7 @@
           "englishPronunciation": "psychology /saɪˈkɑːlədʒi/ · psychological /ˌsaɪkəˈlɑːdʒɪkəl/"
         }
       ],
-      "rule": "psych 계열은 마음이나 정신 작용에 관계돼. psychology는 학문 이름이고 psychological은 마음·심리에 관련된 성질이야. psychologist는 그 분야를 연구하거나 전문적으로 다루는 사람이다.",
+      "rule": "psych 계열은 마음이나 정신 작용에 관계돼. psychology는 학문 이름이고 psychological은 마음·심리에 관련된 성질이야.",
       "limits": "어원에 영혼이라는 뜻이 있었다고 현대 심리학을 영혼의 학문으로 정의하지 않아. 현대적 연구 대상은 별도로 확인해.",
       "history": {
         "origin": "고대 그리스어 ψυχή: 생명, 영혼, 마음",
@@ -4563,8 +3417,7 @@
         "https://www.etymonline.com/word/psycho-",
         "https://www.etymonline.com/word/psychology",
         "https://www.etymonline.com/word/psychological",
-        "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n115887/",
-        "https://www.etymonline.com/word/psychologist"
+        "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n115887/"
       ],
       "cards": [
         {
@@ -4583,19 +3436,9 @@
           "ko": "심리적인, 정신적인",
           "ex": "The accident had lasting {{BLANK}} effects on him.",
           "tr": "그 사고는 그에게 지속적인 심리적 영향을 미쳤어.",
-          "c": "psychology→psychological(심리적인). psychologist는 심리학자. physical은 신체의.",
+          "c": "psych-(마음·정신)+-logical 계열. 심리와 관련된. physical은 신체와 관련된.",
           "ipa": "ˌsaɪkəˈlɑːdʒɪkəl",
           "pos": "adj."
-        },
-        {
-          "word": "psychologist",
-          "en": "psychologist",
-          "ko": "심리학자",
-          "pos": "n.",
-          "ipa": "saɪˈkɑlədʒɪst",
-          "ex": "The {{BLANK}} studies how stress affects memory.",
-          "tr": "그 심리학자는 스트레스가 기억에 어떤 영향을 주는지 연구해.",
-          "c": "psychology(심리학)→psychologist(심리학자). psychological은 심리적인."
         }
       ]
     },
@@ -4784,8 +3627,7 @@
         "https://www.bipm.org/en/measurement-units/si-prefixes",
         "https://www.collinsdictionary.com/dictionary/english/macroscopic",
         "https://www.collinsdictionary.com/dictionary/english/microeconomics",
-        "https://www.collinsdictionary.com/dictionary/english/macroeconomics",
-        "https://www.merriam-webster.com/dictionary/microbiome"
+        "https://www.collinsdictionary.com/dictionary/english/macroeconomics"
       ],
       "cards": [
         {
@@ -4794,7 +3636,7 @@
           "ko": "미생물",
           "ex": "This {{BLANK}} lives in the soil.",
           "tr": "이 미생물은 토양 속에서 살아.",
-          "c": "μικρός(mikros, 작은)+βίος(bios, 생명). 병원균만 뜻하진 않아. 미생물 군집은 microbiome.",
+          "c": "그리스어 μικρός(mikros, 작은)+βίος(bios, 생명). 미생물이 모두 병원균은 아니야.",
           "ipa": "ˈmaɪkroʊb",
           "pos": "n."
         },
@@ -4989,7 +3831,7 @@
     },
     {
       "id": "en-blood",
-      "title": "blood ↔ bleed · 오래된 영어의 word family",
+      "title": "blood ↔ bleed · 오래된 영어의 가족",
       "kind": "germanic",
       "forms": [
         {
@@ -4998,7 +3840,7 @@
           "englishIpa": "/blʌd/; /bliːd/"
         }
       ],
-      "rule": "철자와 모음이 달라도 혈액과 출혈이라는 뜻으로 연결되는 역사적 word family이야. 명사 blood와 동사 bleed를 함께 기억해.",
+      "rule": "철자와 모음이 달라도 혈액과 출혈이라는 뜻으로 연결되는 역사적 가족이야. 명사 blood와 동사 bleed를 함께 기억해.",
       "limits": "oo를 ee로 바꾸면 동사가 된다는 현대 영어 규칙은 아니야. bleed의 과거·과거분사는 bled야.",
       "history": {
         "origin": "고대영어 blōd(피), blēdan(피를 흘리다)",
@@ -5207,6 +4049,562 @@
           "c": "long과 관련된 명사. length of time: 기간.",
           "ipa": "leŋθ",
           "pos": "n."
+        }
+      ]
+    },
+    {
+      "id": "add-in-out",
+      "title": "안으로 / 밖으로",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "in- / ex-",
+          "meaning": "안으로 / 밖으로",
+          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
+        }
+      ],
+      "rule": "안으로 / 밖으로의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
+      "limits": "모든 in-이 부정은 아니다. 단어 전체의 현대 뜻을 확인한다.",
+      "history": {
+        "origin": "라틴어 in(안으로), ex(밖으로), portare(나르다)",
+        "route": "라틴어 importare / exportare → 영어 import / export.",
+        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/import",
+        "https://www.collinsdictionary.com/dictionary/english/import"
+      ],
+      "cards": [
+        {
+          "word": "import",
+          "en": "import",
+          "ko": "수입하다",
+          "ex": "We {{BLANK}} coffee beans from Brazil.",
+          "tr": "우리는 브라질에서 커피 원두를 수입해.",
+          "c": "in-(안으로)+portare(나르다). import는 들여오고 export는 내보내.",
+          "pos": "v.",
+          "ipa": "ɪmˈpɔrt"
+        },
+        {
+          "word": "export",
+          "en": "export",
+          "ko": "수출하다",
+          "ex": "These farms {{BLANK}} apples to other countries.",
+          "tr": "이 농장들은 다른 나라에 사과를 수출해.",
+          "c": "ex-(밖으로)+portare(나르다). import(수입하다)와 방향이 반대야.",
+          "pos": "v.",
+          "ipa": "ɪkˈspɔrt"
+        }
+      ]
+    },
+    {
+      "id": "add-fore-time",
+      "title": "앞서 / 뒤로",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "fore- / pre- / post-",
+          "meaning": "앞서 / 뒤에",
+          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
+        }
+      ],
+      "rule": "앞서 / 뒤에의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
+      "limits": "fore-는 게르만계이고 pre-/post-는 라틴계다. 뜻의 대비가 같은 어원이라는 뜻은 아니다.",
+      "history": {
+        "origin": "고대영어 fore(앞에); 라틴어 prae(앞서), post(뒤에)",
+        "route": "forecast는 영어 fore+cast. precede는 라틴어 praecedere, postpone은 postponere 계열.",
+        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/postpone",
+        "https://www.collinsdictionary.com/dictionary/english/postpone"
+      ],
+      "cards": [
+        {
+          "word": "forecast",
+          "en": "forecast",
+          "ko": "예보, 예측",
+          "ex": "The weather {{BLANK}} predicts snow tomorrow.",
+          "tr": "일기예보는 내일 눈이 올 거라고 해.",
+          "c": "fore-(미리)+cast. 미래를 내다보는 예측. 기상 예보에도 써.",
+          "pos": "n.",
+          "ipa": "ˈfɔrkæst"
+        },
+        {
+          "word": "precede",
+          "en": "precede",
+          "ko": "~보다 앞서다",
+          "ex": "Dark clouds often {{BLANK}} a storm.",
+          "tr": "먹구름은 흔히 폭풍보다 먼저 나타나.",
+          "c": "pre-(앞서)+cedere(가다). precede는 앞서고 follow는 뒤따라.",
+          "pos": "v.",
+          "ipa": "prɪˈsid"
+        },
+        {
+          "word": "postpone",
+          "en": "postpone",
+          "ko": "연기하다, 뒤로 미루다",
+          "ex": "We must {{BLANK}} the picnic until the rain stops.",
+          "tr": "비가 그칠 때까지 소풍을 미뤄야 해.",
+          "c": "post-(뒤로)+ponere(놓다). 일정을 뒤로 미루다. cancel은 취소하다.",
+          "pos": "v.",
+          "ipa": "poʊstˈpoʊn"
+        }
+      ]
+    },
+    {
+      "id": "add-together",
+      "title": "함께 결합하기",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "com- / con- / co- / syn- / sym-",
+          "meaning": "함께",
+          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
+        }
+      ],
+      "rule": "함께의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
+      "limits": "co-와 syn-은 기원이 다르다. con/sym 등의 철자는 뒤 소리에 영향을 받는다.",
+      "history": {
+        "origin": "라틴어 com-(함께); 그리스어 syn(함께), thesis(놓음)",
+        "route": "combine은 라틴어 combinare 계열. synthesis는 그리스어 synthesis → 라틴어 → 영어.",
+        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다.",
+        "greek": "σύν; θέσις",
+        "romanization": "syn; thesis",
+        "reading": "위 원문 전사는 고대어 철자의 안내다. 현대 영어 결합형의 발음은 단어와 강세에 따라 달라진다."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/synthesis"
+      ],
+      "cards": [
+        {
+          "word": "combine",
+          "en": "combine",
+          "ko": "결합하다, 합치다",
+          "ex": "We can {{BLANK}} the two small classes.",
+          "tr": "우리는 작은 두 반을 합칠 수 있어.",
+          "c": "com-(함께)+라틴어 bini(둘씩) 계열. 지금은 셋 이상도 합칠 수 있어.",
+          "pos": "v.",
+          "ipa": "kəmˈbaɪn"
+        },
+        {
+          "word": "synthesis",
+          "en": "synthesis",
+          "ko": "종합, 합성",
+          "ex": "The report offers a {{BLANK}} of several theories.",
+          "tr": "그 보고서는 여러 이론을 종합해 제시해.",
+          "c": "그리스어 σύν(syn, 함께)+θέσις(thesis, 놓음). 합쳐 하나로 구성함.",
+          "pos": "n.",
+          "ipa": "ˈsɪnθəsɪs"
+        }
+      ]
+    },
+    {
+      "id": "add-counter",
+      "title": "맞서기 / 대응하기",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "counter-",
+          "meaning": "맞서 / 대응하여",
+          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
+        }
+      ],
+      "rule": "맞서 / 대응하여의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
+      "limits": "counterpart는 적이나 반대자가 아니라 대응하는 역할의 상대다.",
+      "history": {
+        "origin": "라틴어 contra(반대편에) → 고대프랑스어 contre",
+        "route": "영어 counter-+act, counter-+part로 이루어진 결합.",
+        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/counteract",
+        "https://www.collinsdictionary.com/dictionary/english/counteract"
+      ],
+      "cards": [
+        {
+          "word": "counteract",
+          "en": "counteract",
+          "ko": "상쇄하다, 억제하다",
+          "ex": "These measures {{BLANK}} the harmful effects of pollution.",
+          "tr": "이 조치들은 오염의 해로운 영향을 줄여.",
+          "c": "counter-(맞서)+act(작용하다). 반대로 작용해 효과를 약화시키다.",
+          "pos": "v.",
+          "ipa": "ˌkaʊntərˈækt"
+        },
+        {
+          "word": "counterpart",
+          "en": "counterpart",
+          "ko": "대응하는 사람이나 것",
+          "ex": "The minister met her French {{BLANK}} in Paris.",
+          "tr": "그 장관은 파리에서 같은 직책의 프랑스 장관을 만났어.",
+          "c": "counter-(대응)+part. 다른 조직·나라에서 같은 역할을 맡는 상대.",
+          "pos": "n.",
+          "ipa": "ˈkaʊntɚpɑrt"
+        }
+      ]
+    },
+    {
+      "id": "add-en",
+      "title": "그 상태로 만들기",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "en- / em-",
+          "meaning": "그 상태로 만들다",
+          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
+        }
+      ],
+      "rule": "그 상태로 만들다의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
+      "limits": "enable은 이미 정착한 단어다. 모든 형용사에 en-을 붙일 수는 없다.",
+      "history": {
+        "origin": "프랑스어 en- < 라틴어 in-(안에)",
+        "route": "중세영어 enablen: en-+able.",
+        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/enable"
+      ],
+      "cards": [
+        {
+          "word": "enable",
+          "en": "enable",
+          "ko": "~할 수 있게 하다",
+          "ex": "These ramps {{BLANK}} wheelchair users to enter.",
+          "tr": "이 경사로들은 휠체어 이용자가 들어갈 수 있게 해.",
+          "c": "en-(~하게 만들다)+able(할 수 있는). enable A to do.",
+          "pos": "v.",
+          "ipa": "ɪˈneɪbəl"
+        }
+      ]
+    },
+    {
+      "id": "add-bene-mal",
+      "title": "좋게 / 나쁘게",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "bene- / mal-",
+          "meaning": "잘 / 나쁘게",
+          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
+        }
+      ],
+      "rule": "잘 / 나쁘게의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
+      "limits": "bene-/mal-을 포함한 단어 전체가 언제나 반의어 관계인 것은 아니다.",
+      "history": {
+        "origin": "라틴어 bene(잘), male(나쁘게), malus(나쁜)",
+        "route": "benefit은 라틴어 benefactum 계열이 프랑스어를 거쳤다. malfunction은 mal-+function.",
+        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/malfunction",
+        "https://www.collinsdictionary.com/dictionary/english/malfunction"
+      ],
+      "cards": [
+        {
+          "word": "benefit",
+          "en": "benefit",
+          "ko": "이점, 혜택",
+          "ex": "One {{BLANK}} of cycling is better health.",
+          "tr": "자전거 타기의 한 이점은 건강이 좋아지는 거야.",
+          "c": "라틴어 bene(잘)+facere(하다) 계열. 도움이 되는 점이나 혜택.",
+          "pos": "n.",
+          "ipa": "ˈbɛnəfɪt"
+        },
+        {
+          "word": "beneficiary",
+          "en": "beneficiary",
+          "ko": "수혜자",
+          "ex": "The scholarship's main {{BLANK}} was a talented pianist.",
+          "tr": "그 장학금의 주요 수혜자는 재능 있는 피아니스트였어.",
+          "c": "bene-(잘)+facere(하다) 계열. 돈·혜택 등을 받는 사람.",
+          "pos": "n.",
+          "ipa": "ˌbɛnəˈfɪʃiɛri"
+        },
+        {
+          "word": "malfunction",
+          "en": "malfunction",
+          "ko": "오작동하다",
+          "ex": "The printer may {{BLANK}} if it gets too hot.",
+          "tr": "프린터가 너무 뜨거워지면 오작동할 수 있어.",
+          "c": "mal-(나쁘게)+function(작동하다). 기능이 정상적으로 작동하지 않다.",
+          "pos": "v.",
+          "ipa": "mælˈfʌŋkʃən"
+        }
+      ]
+    },
+    {
+      "id": "add-symmetry",
+      "title": "대칭 / 비대칭",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "sym- / a-",
+          "meaning": "함께 / 없음",
+          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
+        }
+      ],
+      "rule": "함께 / 없음의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
+      "limits": "sym-은 syn-의 동화형이다. 모든 a-가 부정이라는 뜻은 아니다.",
+      "history": {
+        "origin": "그리스어 syn(함께), metron(척도), a-(부정)",
+        "route": "그리스어 symmetria(균형·비례) → 라틴어/프랑스어 → symmetry. asymmetry는 부정형.",
+        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다.",
+        "greek": "σύν; μέτρον",
+        "romanization": "syn; metron",
+        "reading": "위 원문 전사는 고대어 철자의 안내다. 현대 영어 결합형의 발음은 단어와 강세에 따라 달라진다."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/symmetry",
+        "https://www.collinsdictionary.com/dictionary/english/symmetry",
+        "https://www.collinsdictionary.com/dictionary/english/asymmetry"
+      ],
+      "cards": [
+        {
+          "word": "symmetry",
+          "en": "symmetry",
+          "ko": "대칭",
+          "ex": "The butterfly's wings show almost perfect {{BLANK}}.",
+          "tr": "그 나비의 날개는 거의 완벽한 대칭을 보여.",
+          "c": "그리스어 σύν(syn, 함께)+μέτρον(metron, 척도). asymmetry는 비대칭.",
+          "pos": "n.",
+          "ipa": "ˈsɪmətri"
+        },
+        {
+          "word": "asymmetry",
+          "en": "asymmetry",
+          "ko": "비대칭",
+          "ex": "The building's {{BLANK}} makes its two sides look different.",
+          "tr": "그 건물은 비대칭이라 양쪽 모습이 달라.",
+          "c": "a-(없음)+symmetry(대칭). 양쪽의 모양·배치가 대칭을 이루지 않음.",
+          "pos": "n.",
+          "ipa": "eɪˈsɪmətri"
+        }
+      ]
+    },
+    {
+      "id": "add-homo-hetero",
+      "title": "같은 / 다른",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "homo- / hetero-",
+          "meaning": "같은 / 다른",
+          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
+        }
+      ],
+      "rule": "같은 / 다른의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
+      "limits": "homo-는 여기서 그리스어 같은이다. 라틴어 homo(사람)와 구별한다.",
+      "history": {
+        "origin": "그리스어 homos(같은), heteros(다른), genos(종류)",
+        "route": "그리스어 homogenēs / heterogenēs → 중세라틴어 계열 → homogeneous / heterogeneous.",
+        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다.",
+        "greek": "ὁμός; ἕτερος; γένος",
+        "romanization": "homos; heteros; genos",
+        "reading": "위 원문 전사는 고대어 철자의 안내다. 현대 영어 결합형의 발음은 단어와 강세에 따라 달라진다."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/homogeneous",
+        "https://www.collinsdictionary.com/dictionary/english/homogeneous",
+        "https://www.collinsdictionary.com/dictionary/english/heterogeneous"
+      ],
+      "cards": [
+        {
+          "word": "homogeneous",
+          "en": "homogeneous",
+          "ko": "동질적인, 균질한",
+          "ex": "Stir until the mixture is {{BLANK}} throughout.",
+          "tr": "혼합물 전체가 균질해질 때까지 저어.",
+          "c": "ὁμός(homos, 같은)+γένος(genos, 종류). heterogeneous는 이질적인.",
+          "pos": "adj.",
+          "ipa": "ˌhoʊməˈdʒiniəs"
+        },
+        {
+          "word": "heterogeneous",
+          "en": "heterogeneous",
+          "ko": "이질적인, 서로 다른 것으로 이루어진",
+          "ex": "The group was {{BLANK}} in age and background.",
+          "tr": "그 집단은 나이와 배경이 다양했어.",
+          "c": "ἕτερος(heteros, 다른)+γένος(genos, 종류). homogeneous는 동질적인.",
+          "pos": "adj.",
+          "ipa": "ˌhɛtərəˈdʒiniəs"
+        }
+      ]
+    },
+    {
+      "id": "add-hyper-hypo",
+      "title": "기준보다 과함 / 낮음",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "hyper- / hypo-",
+          "meaning": "기준을 넘는 / 기준보다 아래",
+          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
+        }
+      ],
+      "rule": "기준을 넘는 / 기준보다 아래의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
+      "limits": "접두사의 대비다. hyperactive와 hypothermia 두 단어 자체가 반의어는 아니다.",
+      "history": {
+        "origin": "그리스어 hyper(위·넘어), hypo(아래), thermē(열)",
+        "route": "hyperactive는 hyper-+active. hypothermia는 그리스계 요소로 만든 의학 용어.",
+        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다.",
+        "greek": "ὑπέρ; ὑπό; θέρμη",
+        "romanization": "hyper; hypo; thermē",
+        "reading": "위 원문 전사는 고대어 철자의 안내다. 현대 영어 결합형의 발음은 단어와 강세에 따라 달라진다."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/hypothermia",
+        "https://www.collinsdictionary.com/dictionary/english/hyperactive",
+        "https://www.collinsdictionary.com/dictionary/english/hypothermia"
+      ],
+      "cards": [
+        {
+          "word": "hyperactive",
+          "en": "hyperactive",
+          "ko": "지나치게 활동적인",
+          "ex": "The {{BLANK}} kitten would not sit still.",
+          "tr": "그 지나치게 활동적인 새끼 고양이는 가만히 앉아 있지 않았어.",
+          "c": "ὑπέρ(hyper, 넘어서)+active. 활동이 지나침. hypo-는 기준보다 아래.",
+          "pos": "adj.",
+          "ipa": "ˌhaɪpərˈæktɪv"
+        },
+        {
+          "word": "hypothermia",
+          "en": "hypothermia",
+          "ko": "저체온증",
+          "ex": "The rescued climber was suffering from {{BLANK}}.",
+          "tr": "구조된 등산객은 저체온증을 겪고 있었어.",
+          "c": "ὑπό(hypo, 아래)+θέρμη(thermē, 열). 체온이 비정상적으로 낮아진 상태.",
+          "pos": "n.",
+          "ipa": "ˌhaɪpoʊˈθɜrmiə"
+        }
+      ]
+    },
+    {
+      "id": "add-hood-ship",
+      "title": "시기·상태 / 관계·역할",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "-hood / -ship",
+          "meaning": "상태·시기 / 관계·역할",
+          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
+        }
+      ],
+      "rule": "상태·시기 / 관계·역할의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
+      "limits": "neighborhood는 지역·공동체 뜻으로 확대됐다. 모든 용례를 하나의 한국어 뜻으로 환원하지 않는다.",
+      "history": {
+        "origin": "고대영어 hād(상태·지위), -scipe(상태·성질)의 계통",
+        "route": "-hood/-ship은 물려받은 영어 접미사로 childhood, friendship 등에 남았다.",
+        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-hood"
+      ],
+      "cards": [
+        {
+          "word": "childhood",
+          "en": "childhood",
+          "ko": "어린 시절",
+          "ex": "She spent her {{BLANK}} in Goyang.",
+          "tr": "그녀는 고양에서 어린 시절을 보냈어.",
+          "c": "child(아이)+-hood(시기·상태). 고대영어 hād는 상태·지위를 뜻했어.",
+          "pos": "n.",
+          "ipa": "ˈtʃaɪldhʊd"
+        },
+        {
+          "word": "neighborhood",
+          "en": "neighborhood",
+          "ko": "동네, 인근 지역",
+          "ex": "Everyone in the {{BLANK}} knows this cat.",
+          "tr": "동네 사람들은 모두 이 고양이를 알아.",
+          "c": "neighbor(이웃)+-hood. 이웃들이 사는 지역. 영국식은 neighbourhood.",
+          "pos": "n.",
+          "ipa": "ˈneɪbɚˌhʊd"
+        },
+        {
+          "word": "friendship",
+          "en": "friendship",
+          "ko": "우정",
+          "ex": "Their {{BLANK}} survived years of living apart.",
+          "tr": "그들의 우정은 여러 해 떨어져 살아도 이어졌어.",
+          "c": "friend(친구)+-ship(관계·상태). 이 -ship은 배를 뜻하는 ship과 달라.",
+          "pos": "n.",
+          "ipa": "ˈfrɛndʃɪp"
+        },
+        {
+          "word": "leadership",
+          "en": "leadership",
+          "ko": "지도력, 지도자로서의 역할",
+          "ex": "The team improved under her {{BLANK}}.",
+          "tr": "그녀의 지도 아래 팀은 발전했어.",
+          "c": "leader(지도자)+-ship(역할·능력). 지도력이나 지도부를 뜻해.",
+          "pos": "n.",
+          "ipa": "ˈlidɚʃɪp"
+        }
+      ]
+    },
+    {
+      "id": "add-dom-ward",
+      "title": "상태·영역 / 방향",
+      "kind": "affix",
+      "forms": [
+        {
+          "form": "-dom / -ward",
+          "meaning": "상태·영역 / 방향",
+          "pronunciationNote": "고정 IPA를 부여하지 않는 결합형 비교. 실제 단어의 IPA 참조."
+        }
+      ],
+      "rule": "상태·영역 / 방향의 연결을 실제 단어의 뜻·용법과 함께 확인한다.",
+      "limits": "-dom과 -ward는 서로 다른 접미사다. 현대 표제어의 품사를 별도로 확인한다.",
+      "history": {
+        "origin": "고대영어 dōm(판단·권위 등), -weard(~쪽으로)",
+        "route": "freedom/kingdom의 -dom과 backward/forward의 -ward는 고대영어 계통이다.",
+        "notes": "전사는 고대 원형을 로마자로 옮긴 것이다. 현대 영어 발음은 각 카드의 IPA로 확인한다."
+      },
+      "sources": [
+        "https://www.etymonline.com/word/-dom"
+      ],
+      "cards": [
+        {
+          "word": "freedom",
+          "en": "freedom",
+          "ko": "자유",
+          "ex": "Students need the {{BLANK}} to ask questions.",
+          "tr": "학생들에게는 질문할 자유가 필요해.",
+          "c": "free(자유로운)+-dom(상태·영역). 고대영어 dōm은 판단·권위 등도 뜻했어.",
+          "pos": "n.",
+          "ipa": "ˈfridəm"
+        },
+        {
+          "word": "kingdom",
+          "en": "kingdom",
+          "ko": "왕국",
+          "ex": "A queen ruled the island {{BLANK}}.",
+          "tr": "여왕이 그 섬 왕국을 다스렸어.",
+          "c": "king(왕)+-dom(영역). 여왕이 다스려도 kingdom이라고 해.",
+          "pos": "n.",
+          "ipa": "ˈkɪŋdəm"
+        },
+        {
+          "word": "backward",
+          "en": "backward",
+          "ko": "뒤로",
+          "ex": "The cat took two steps {{BLANK}}.",
+          "tr": "고양이가 두 걸음 뒤로 물러났어.",
+          "c": "back(뒤)+-ward(~쪽으로). forward는 앞으로.",
+          "pos": "adv.",
+          "ipa": "ˈbækwɚd"
+        },
+        {
+          "word": "forward",
+          "en": "forward",
+          "ko": "앞으로",
+          "ex": "The line moved {{BLANK}} when the doors opened.",
+          "tr": "문이 열리자 줄이 앞으로 움직였어.",
+          "c": "fore(앞)와 -ward(~쪽으로) 계열. backward는 뒤로.",
+          "pos": "adv.",
+          "ipa": "ˈfɔrwɚd"
         }
       ]
     },
@@ -5728,7 +5126,7 @@
           "ko": "움직이다, 옮기다",
           "ex": "Please {{BLANK}} the chair closer to the desk.",
           "tr": "의자를 책상 쪽으로 더 옮겨 줘.",
-          "c": "라틴어 movere(움직이다)→프랑스어→move. motion과 같은 어원의 word family.",
+          "c": "라틴어 movere(움직이다)→프랑스어→move. motion과 같은 어원 가족.",
           "pos": "v.",
           "ipa": "muv"
         },
@@ -7502,7 +6900,7 @@
           "ko": "관료제, 관료 조직",
           "ex": "The proposal got lost in the {{BLANK}}.",
           "tr": "그 제안은 관료 조직 속에서 묻혀 버렸어.",
-          "c": "bureau(사무실)+-cracy(지배). 번거로운 행정도 뜻해. bureaucrat은 관료.",
+          "c": "프랑스어 bureau(사무실)+그리스어 -kratia(지배). 번거로운 행정 절차도 뜻해.",
           "pos": "n.",
           "ipa": "bjʊˈrɑkrəsi"
         },
@@ -7646,124 +7044,6 @@
           "c": "그리스어 φύσις(physis, 자연) 계열. 신체의 뜻에서는 psychological(심리의)과 대비돼.",
           "pos": "adj.",
           "ipa": "ˈfɪzɪkəl"
-        }
-      ]
-    },
-    {
-      "id": "add-ome-communities",
-      "title": "생물 군집과 유전체 · -ome",
-      "kind": "mixed",
-      "forms": [
-        {
-          "form": "-ome / micro- + biome",
-          "meaning": "현대 생물학의 집합·전체를 나타내는 조어 요소 / 미생물 군집",
-          "pronunciationNote": "실제 표제어 biome, microbiome, genome의 미국 IPA를 각각 확인. 고정 어근 IPA로 단순화하지 않음."
-        }
-      ],
-      "rule": "biome은 기후·생물로 특징지은 큰 생태 단위, microbiome은 특정 환경의 미생물 군집, genome은 유전물질 전체다. 같은 -ome이라도 대상은 다르다.",
-      "limits": "한국어 군/체를 접미사별 고정 번역으로 대응시키지 않는다. microbiome은 microbe의 다른 철자가 아니다. -ome으로 끝나는 모든 단어에 전체 집합 의미를 적용하지 않는다.",
-      "history": {
-        "origin": "그리스어 βίος(삶)와 명사형 -ωμα 계열을 활용한 근대 과학 조어. genome의 직접 원형은 독일어 Genom.",
-        "greek": "βίος; -ωμα; γενεά",
-        "romanization": "bios; -ōma; genea",
-        "reading": "그리스어 원문의 로마자 전사와 각 영어 단어의 미국 발음은 별개다.",
-        "route": "biome은 영어 bio-+-ome의 조어. microbiome은 micro-+biome. genome은 독일어 Genom에서 영어로 들어왔다.",
-        "notes": "Genom을 Gen+(Chromos)om으로 풀이하는 사전이 많으나 그 역사적 분석에는 이견도 있다. 현대 -ome의 집합 용법과 최초 조어 동기를 구별한다. 이 다섯 단어로 희귀 -ome 전문어의 무제한 암기를 유도하지 않는다."
-      },
-      "sources": [
-        "https://www.collinsdictionary.com/dictionary/english/biome",
-        "https://www.etymonline.com/word/biome",
-        "https://www.merriam-webster.com/dictionary/-ome",
-        "https://dictionary.cambridge.org/us/pronunciation/english/microbiome",
-        "https://www.merriam-webster.com/dictionary/microbiome",
-        "https://www.collinsdictionary.com/dictionary/english/genome",
-        "https://www.genome.gov/genetics-glossary/Genome",
-        "https://www.merriam-webster.com/dictionary/genome",
-        "https://lhncbc.nlm.nih.gov/LHC-publications/PDF/pub2001047.pdf"
-      ],
-      "cards": [
-        {
-          "word": "biome",
-          "en": "biome",
-          "ko": "생물군계",
-          "pos": "n.",
-          "ipa": "ˈbaɪˌoʊm",
-          "ex": "The desert {{BLANK}} supports plants adapted to dry conditions.",
-          "tr": "사막 생물군계에는 건조한 환경에 적응한 식물들이 살아.",
-          "c": "bio-(생명)+-ome(집합). 사막·초원처럼 기후와 생물이 특징을 이루는 큰 생태 단위."
-        },
-        {
-          "word": "microbiome",
-          "en": "microbiome",
-          "ko": "미생물 군집, 마이크로바이옴",
-          "pos": "n.",
-          "ipa": "ˌmaɪkroʊˈbaɪoʊm",
-          "ex": "Many different microbes live together in the gut {{BLANK}}.",
-          "tr": "장내 미생물 군집에는 다양한 미생물들이 함께 살아.",
-          "c": "micro-+biome. 특정 환경의 미생물 군집. 문맥에 따라 그 미생물의 유전체 전체."
-        },
-        {
-          "word": "genome",
-          "en": "genome",
-          "ko": "유전체, 게놈",
-          "pos": "n.",
-          "ipa": "ˈdʒiˌnoʊm",
-          "ex": "The human {{BLANK}} includes all our DNA.",
-          "tr": "인간의 유전체에는 우리의 모든 DNA가 포함돼.",
-          "c": "gene(유전자) 계열. -ome은 전체 집합을 뜻하는 과학 용어에 쓰여."
-        }
-      ]
-    },
-    {
-      "id": "add-some-bodies",
-      "title": "세포의 구조체 · -some",
-      "kind": "mixed",
-      "forms": [
-        {
-          "form": "-some / chromo- / ribo-",
-          "meaning": "몸·구조체 / 색 / RNA 계열",
-          "pronunciationNote": "chromosome과 ribosome의 실제 미국 IPA를 사용. awesome의 약화된 형용사 -some과 구별."
-        }
-      ],
-      "rule": "chromosome은 유전자를 지니는 염색체, ribosome은 RNA의 지시에 따라 단백질을 만드는 구조체다. 뒤 요소는 그리스어 몸에 해당하는 말에서 왔다.",
-      "limits": "생물학의 -some은 그리스어 σῶμα 계열이다. awesome의 형용사 -some은 게르만계라 같은 어원이 아니다. ribo-를 rib(갈비뼈)로 자르지 않는다.",
-      "history": {
-        "origin": "그리스어 χρῶμα(색), σῶμα(몸·구조체). ribo-는 ribonucleic acid의 앞부분과 연결된다.",
-        "greek": "χρῶμα; σῶμα",
-        "romanization": "khrōma; sōma",
-        "reading": "원어 전사는 현대 영어 발음이 아니다. 실제 카드 IPA에서는 -some이 /soʊm/으로 들린다.",
-        "route": "chromosome: 그리스어 요소로 만든 독일어 Chromosom → 영어. ribosome: 영어 ribo(nucleic acid)+그리스계 -some을 결합한 현대 조어.",
-        "notes": "chromosome은 염료에 잘 물드는 성질에서 이름을 얻었다. 두 단어 모두 고대 그리스어에 현대 세포 구조의 정의가 그대로 존재한 것은 아니다."
-      },
-      "sources": [
-        "https://www.collinsdictionary.com/dictionary/english/chromosome",
-        "https://www.genome.gov/genetics-glossary/Chromosome",
-        "https://www.etymonline.com/word/chromosome",
-        "https://www.merriam-webster.com/dictionary/-some",
-        "https://www.collinsdictionary.com/dictionary/english/ribosome",
-        "https://www.genome.gov/genetics-glossary/Ribosome",
-        "https://www.etymonline.com/word/ribosome"
-      ],
-      "cards": [
-        {
-          "word": "chromosome",
-          "en": "chromosome",
-          "ko": "염색체",
-          "pos": "n.",
-          "ipa": "ˈkroʊməˌsoʊm",
-          "ex": "Each {{BLANK}} carries genes along its DNA.",
-          "tr": "각 염색체는 그 DNA에 유전자를 지니고 있어.",
-          "c": "χρῶμα(khrōma, 색)+σῶμα(sōma, 몸). 염료로 잘 물드는 구조체라는 이름."
-        },
-        {
-          "word": "ribosome",
-          "en": "ribosome",
-          "ko": "리보솜, 단백질을 만드는 세포 구조체",
-          "pos": "n.",
-          "ipa": "ˈraɪbəˌsoʊm",
-          "ex": "A {{BLANK}} uses RNA instructions to build proteins.",
-          "tr": "리보솜은 RNA의 지시에 따라 단백질을 만들어.",
-          "c": "ribo-(RNA)+σῶμα(sōma, 몸) 계열. awesome의 형용사 -some과는 달라."
         }
       ]
     }

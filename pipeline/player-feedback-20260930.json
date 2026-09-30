@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-30",
+  "baselineCommit": "0a92bc967282df4a850c0b3d9eb3a4592ce4f669",
+  "baselineDataSha256": "dc78308376e532e0af98db3660f4c33bcc22bb85431b568e5d0772744ae43525",
+  "afterDataSha256": "f8c2dc4994dd639f2d1d745cd88bd53fcd6253c1ddc2f91492cd6314cf4acb63",
+  "reason": "Concise Korea/UK-US school-year comparison and Latin numeric month origins. Explain March-based Roman numbering; July and August were renamed, not inserted.",
+  "sources": [
+    "https://www.britishmuseum.org/blog/whats-name-months-year",
+    "https://www.dictionary.com/articles/september",
+    "https://www.dictionary.com/articles/october",
+    "https://ahdictionary.com/word/search.html?q=december"
+  ],
+  "changes": [
+    {
+      "lesson": 0,
+      "exercise": 3,
+      "word": "September",
+      "si": 1,
+      "field": "c",
+      "oldExists": true,
+      "old": "새 학년은 한국에서 3월, 잉글랜드에서는 보통 9월에 시작해.",
+      "new": "한국은 3월경, 영미권은 9월경 새 학년을 시작해. 라틴어 septem=7. 옛 로마력은 3월부터 세어 일곱째 달."
+    },
+    {
+      "lesson": 0,
+      "exercise": 3,
+      "word": "October",
+      "si": 1,
+      "field": "c",
+      "oldExists": true,
+      "old": "octo=8. 옛 달력 기준으로 여덟째 달.",
+      "new": "라틴어 octo=8. 옛 로마력은 3월부터 세어 여덟째 달."
+    },
+    {
+      "lesson": 0,
+      "exercise": 3,
+      "word": "November",
+      "si": 1,
+      "field": "c",
+      "oldExists": true,
+      "old": "novem은 라틴어로 9. 옛 로마 달력에서 아홉째 달이었던 이름이 남았어.",
+      "new": "라틴어 novem=9. 옛 로마력은 3월부터 세어 아홉째 달."
+    },
+    {
+      "lesson": 0,
+      "exercise": 3,
+      "word": "December",
+      "si": 1,
+      "field": "c",
+      "oldExists": true,
+      "old": "decem=10. 줄임 Dec.",
+      "new": "라틴어 decem=10. 옛 로마력은 3월부터 세어 열째 달."
+    }
+  ]
+}

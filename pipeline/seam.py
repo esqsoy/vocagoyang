@@ -5,7 +5,7 @@ import os as _os
 P = _os.path.dirname(_os.path.abspath(__file__))          # pipeline/
 REPO = _os.path.dirname(P)                                  # 레포 루트
 HTMLPATH = _os.path.join(REPO, 'vocagoyangfable.html')
-import re, json, sys, collections
+import re, json, sys, collections, unicodedata
 
 def words_of(path):
     h = open(path, encoding='utf-8').read()
@@ -16,7 +16,8 @@ def words_of(path):
         for e in L['exercises']:
             for w in e['words']:
                 k = w.get('word') or w['en']
-                k = k.strip().lower()
+                # Same registered-headword policy as index-stats.cjs.
+                k = re.sub(r'\s+', ' ', unicodedata.normalize('NFC', k).strip()).lower()
                 ws.setdefault(k, L.get('lesson'))
     return ws
 fable = words_of(f'{REPO}/vocagoyangfable.html')

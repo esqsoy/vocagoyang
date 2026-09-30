@@ -24,6 +24,87 @@
 - **검증:** 생성 일치 2개, 마더텅 발췌·입력·발음 3개, 공통 다시 듣기·연결·보존 3개, EBS 입력 1개, FABLE 7,344회 모의 플레이 1개로 총 10개 명령 통과. `origin/main`과 배포 전 HEAD `0124bd6`가 같은 상태임을 fetch 후 확인했다.
 - **상태:** 기능·문서 커밋 `b72f72376848a42c72229b66b1bd60c76f8e5a26`을 `origin/main`에 푸시했다. GitHub Pages 실행 `36531512560` 성공을 확인했고 인덱스와 세 과정 공개 HTML이 로컬 검증본과 일치했다. 후속 문서 커밋은 이 배포 결과와 발췌 manifest의 공개 상태만 갱신한다. 앞선 두 기록의 '로컬'은 해당 작업 단계의 상태이며 이번 배포로 완료되었다.
 
+## 2026-09-30 · September 해설 간소화
+
+- **요청·결정:** 잉글랜드에 한정한 해설을 한국과 영미권의 새 학년 시작 시기 비교로 바꾼다. 사용자는 ‘9월경’에 8월도 포함되므로 예외를 열거하지 말고 간결하게 쓰도록 확정했다.
+- **반영:** FABLE 0세트 September 해설을 “한국은 3월경, 영미권은 9월경 새 학년을 시작해.”로 수정했다. `pipeline/out/lesson00.json`을 조립해 HTML에 반영하고 `pipeline/player-feedback-20260930.json`에 변경을 기록했다. 과거 검수 해시를 유지하도록 검사 보조 함수에 이 변경의 역변환을 연결했다.
+- **검증:** September 해설 한 필드만 바뀌고 다른 카드·게임 코드는 동일함을 대조했다. 기존 `pipeline/tests/session.test.cjs`의 612연습·7,344회 모의 플레이가 통과했다.
+- **상태:** 로컬 반영 완료. 아직 커밋·배포하지 않았다.
+
+## 2026-09-30 · 숫자에서 온 달 이름의 어원
+
+- **요청·결정:** September~December의 숫자 어원을 빠르게 이해할 수 있도록 짧게 설명한다. July·August는 기존 달의 이름을 Caesar·Augustus에서 따서 바꾼 것이며, 새 달을 끼워 넣은 이야기는 사용하지 않는다. 숫자와 현재 달의 차이는 3월부터 세던 옛 로마력으로 설명한다. [근거: 대영박물관](https://www.britishmuseum.org/blog/whats-name-months-year).
+- **반영:** September의 승인된 개학 비교를 유지하며 septem=7을 덧붙였다. October·November·December는 각각 octo=8·novem=9·decem=10과 옛 달력 순서를 한 문장으로 정리했다. 원본 `pipeline/out/lesson00.json`과 HTML에 반영하고 당일 변경 기록을 4개 해설로 갱신했다.
+- **확인·제안:** 47·48세트의 71개 접사·어근 단위에 이 숫자 어근은 없다. 일반 어휘 풀에 있는 bicycle·triangle·decimal·century 등을 활용한 별도 숫자 어근 묶음을 제안한다. 어휘 풀이나 어근 과정은 이번에 변경하지 않았다.
+- **검증·상태:** 공개 기준 커밋과 대조해 4개 해설 외의 데이터·게임 코드가 같음을 확인했고 기존 7,344회 모의 플레이가 통과했다. 로컬 반영 완료, 아직 커밋·배포 전이다.
+
+## 2026-10-01 · 접미사 후속 작업의 범위 재검토
+
+- 요청: microbe/microbiome과 -ome/-some 논의에서 접미사 전반의 보강으로 관심이 확대됐다. 사용자는 보강 방향에 동의하되, 전체 단어력에 미치는 영향을 고려해 구현 전에 범위를 다시 숙고하도록 요청했다.
+- 조사: 현재 morphology.json과 FABLE DATA, 교재·연구 자료를 읽기 전용으로 검토했다. 기본 접미사의 상당수와 예외가 이미 있지만 일부는 화면에 나오지 않는 rule/limits/history에만 있었다. 기존 employ 가족, care 가족, photograph 가족 및 명사형 -al 등의 실제 학습 연결을 우선 검토 대상으로 삼았다.
+- 제안: 빈도·생산성·현대 의미/형태의 투명성을 먼저 보고, 어족 내부 연결과 같은 접사의 다른 기반 단어 사례를 함께 구성한다. 철자·발음 변화와 과잉 분해 방지를 필수 심화로, 학술 결합형은 선별 확장으로 둔다. 카드 수·신규 단어 수는 아직 확정하지 않는다. 자세한 범위 제안과 연구 출처는 WORK_PLAN.md에 기록했다.
+- 변경: WORK_PLAN.md, HANDOFF.md, WORK_LOG.md만 갱신했다. 단어·예문·해설·생성물·게임·진도는 이번 단계에서 수정하지 않았다.
+- 검증·상태: 문서 구조·참조 및 미구현/미배포 구분을 확인했다. 코드 변경이 없으므로 앞선 7,416회 검사 등을 다시 실행한 것으로 보고하지 않는다. 범위 논의 단계이며 기존 327카드 보강본은 계속 로컬 미배포 상태다.
+
+## 2026-10-01 · 승인된 어원 과정 327카드 보강 (조사 시작 2026-09-30)
+
+- 요청·승인: 검증된 어원 자료와 어원 학습서 목차/목록을 참조해 47·48을 보강. 제안한 새 표제어 37개에 사용자가 “37개 모두 추가합시다! 필요하면 더 해도 됩니다!”라고 승인했다. 추가 확대는 하지 않고 승인한 327카드 구성으로 완성했다.
+- 구성: 기존 167카드를 유지하고 기존 표제어 복습 123카드·새 표제어 37카드를 추가. 47은 101카드/10연습, 48은 226카드/22연습이다. 한 연습 8~13카드, 어근 단위·주요 대비쌍 분할 없음. 전체 FABLE은 7,036카드/618연습이다.
+- 내용: 추가 160카드의 예문·번역·뜻·해설을 작성했고 기존 33개 어원 카드 해설을 보강했다. micro/macro, inter/intra, 숫자·도형·달·SI 단위, 핵심 라틴계·그리스계·영어 접미사 등을 연결했다. monopoly/diameter 같은 가짜 분해와 옛 뜻을 현대 뜻으로 단정하는 설명을 피했다. 그리스 원형·전사는 대표 카드와 상세 자료에 유지했다.
+- 근거: NE능률 공식 목차, OUP English Vocabulary Elements 공식 목차/소개, Word Roots Level 1 공개 6쪽 목록/견본을 확인했다. 유료 책 본문 전체를 읽은 것으로 과장하지 않는다. 개별 어원·신규 37개 미국식 IPA 출처는 pipeline/morphology-rebuild-20260930/SOURCES.md 및 findings.json에 기록했다.
+- 변경 파일: pipeline/morphology.json, 생성물 out/set47.json·set48.json 및 vocagoyangfable.html, 보강 자료/보존 원장/역변환 도구, morphology-content·morphology-expansion·reading-core 검사, 기존 synonym-wording 복원 연결, WORK_PLAN·HANDOFF.
+- 진도: 재구성한 47·48에만 새 키 morphology-47-20260930/morphology-48-20260930 적용. 옛 저장 기록을 삭제하지 않는다. 다른 세트의 데이터·진도·이어하기와 마더텅·EBS, UI·게임 방식·음성 선택·효과는 유지한다. 과거 검사 기준 해시는 변경하지 않고 이번 변경을 정확히 역변환한다.
+- 검증: morphology-content, morphology-expansion, reading-core, pool-expansion, session, IPA build --check, IPA conservation 통과. 현재 618연습/7,416회 모의 플레이. 32개 새 연습의 기록·이어하기와 다른 세트 보존 확인. 브라우저 390px macroeconomics 및 320px heterogeneous에서 예문·그리스어·IPA와 가로 넘침 없음 확인. microeconomics/macroeconomics는 마침표가 별도 행으로 내려가지 않게 문장 중간에 배치했다.
+- 배포 상태: 로컬 완료. 커밋·푸시·공개 배포하지 않았다. 기존 0세트 September~December 미배포 해설 수정은 그대로 보존했다. 공개판은 b72f723 기준이다. 로컬 서버 8777/fable에서 플레이할 수 있게 열어 두었다.
+- 이어서: 이후 수정은 morphology.json을 원본으로 한다. 이번 apply.py·build-proposal.py는 역사적 변경 재현용이며 미래 수정 위에 다시 덮어쓰지 않는다. 전체 보고서는 pipeline/morphology-rebuild-20260930/REPORT.md.
+
+## 2026-10-01 · 접미사·단어 가족 보강과 awesome의 서로 다른 -some
+
+- 요청·결정: 사용자가 재검토한 접미사 보강 범위에 동의해 구현했다. 추가 제안 troublesome에 대해서는 어원과 awesome을 질문했으므로 신규 추가 승인으로 간주하지 않았다. awesome은 troublesome과 같은 고대영어계 형용사 -some이며 ribosome의 그리스어 σῶμα 계열과 다름을 설명했다. 기존 FABLE26의 awesome을 복습에 사용하고 troublesome 추가는 보류했다.
+- 반영: 기존 327카드를 모두 보존하고 기존 어휘 복습 25장·앞서 합의한 생물학 새 단어 5장을 추가했다. 11개 기존 해설을 보완했다. care·employ·predict·photograph·psychology 가족을 연결하고 friendly/-ly, removal/-al, wooden/-en, awesome/ribosome 등의 대비를 실제 해설에 넣었다. 새 표제어는 biome, microbiome, genome, chromosome, ribosome뿐이다.
+- 구성: 47세트 123카드/12연습, 48세트 234카드/22연습. 총 357카드/141개 개념 단위, 전체 FABLE 7,066카드/620연습이다. 같은 가족과 개념 단위를 나누지 않았다. 사진·생물학의 두 연습은 15장, 나머지까지 포함해 8~15장 범위다. 47의 앞 6연습은 내용·배치를 보존했다.
+- 원본·진도: morphology.json 및 생성물 out/set47·set48, FABLE DATA·IPA 맵을 갱신했다. 47·48만 morphology-47-20261001/morphology-48-20261001 새 키를 사용한다. 옛 기록을 삭제하지 않으며 다른 과정은 보존한다. 사용자에게 배포할 때 이 두 과정의 완료 상태가 새로 시작함을 안내한다.
+- 검증: suffix-expansion, morphology-content, historical morphology-expansion, reading-core, pool-expansion, session, IPA conservation, build --check 통과. 7,440회 모의 플레이 및 전체 620연습의 완료·이어하기 확인. 327카드 보존, 신규 5개·기존 복습 25개 출처/IPA, 다른 세트 불변, 같은 가족 묶음을 검사했다. 별도 재독해와 사전·NHGRI 대조를 마쳤다. 320px에서 microbiome/ribosome·그리스어 해설·IPA 표시와 가로 넘침 없음, 경고·오류 로그 없음 확인. 점검용 탭과 화면 폭은 정리했다.
+- 기록·상태: pipeline/suffix-rebuild-20261001/REPORT.md, SOURCES.md, overlays·findings·before-morphology·restore.cjs에 근거와 정확한 전후를 보존했다. 역사적 기준 해시는 바꾸지 않는다. WORK_PLAN/HANDOFF를 현재 상태로 갱신했다. 로컬 완료, 미커밋·미배포. 이전 월 해설과 327카드 확장도 함께 미배포 상태다.
+
+## 2026-10-01 · 정상 음성 종료 시 미표시 IPA 보완
+
+- 제보·구분: 사용자는 일부 발음이 발음기호로 바뀌지 않았던 단어를 기억하지 못하며 자신이 빨리 넘겼을 가능성도 있다고 했다. 해당 사용자 사례의 원인은 미확정이다. 별도로 코드에서 실제 누락 경로를 찾아 수정했다.
+- 원인: 예상 음절 시간보다 TTS onend가 먼저 오면 남은 표시 타이머를 취소해 후반 IPA가 한 번도 보이지 않았다. 원본 코드에 실제 photographic 대응을 넣어 추정 1,680ms·종료 850ms에서 마지막 /ɪk/ 누락을 재현했다.
+- 반영: 공통 ipa-effects/runtime.js에서 정상 종료 때 미표시 부분이 남은 경우에만 전체를 즉시 보여 주고 180ms 유지한 후 기존 250ms 사라짐을 적용한다. 이미 전부 표시된 경우·whole 방식은 새 지연이 없고 수동 진행은 즉시 취소한다. 세 과정 HTML에 동일 반영. 음성 선택·속도·스타일과 입력 방식은 유지했다. UI_STANDARD와 IPA README에 원칙·검사 추가.
+- 검증: completion 회귀검사(빠른 첫 발음·캐시 속도 변화·정상/whole/error/cancel/재생·180ms 진행 대기), advance/layout/stress/host-hooks/answer-replay 검사를 이 수정 단계에서 실행해 통과했다. 내용 통합 뒤 conservation과 build --check도 다시 통과했다. 브라우저 실제 렌더러에 시험 이벤트를 넣어 빠른 종료 100ms에서 1/4→4/4 표시·자동 진행 약 294ms, 보통 2,400ms에서는 4/4 표시·약 2,409ms 진행을 확인했다. 실제 기기 음성의 음절별 동기화 실측으로 해석하지 않는다.
+- 상태: 로컬 완료, 미커밋·미배포. 사용자 기기에서 같은 현상이 해결됐는지는 후속 플레이로 확인한다.
+
+## 2026-10-01 · word family 용어 통일
+
+- 요청·결정: 사용자가 ‘단어 가족’은 번역투이므로 영어 `word family`를 그대로 쓰도록 요청했다. 형태·어원 관계를 말할 때 이 표기를 유지한다. 실제 가족·가정을 뜻하는 어휘는 해당하지 않는다.
+- 반영: 48세트 제목을 ‘어근과 word family’로 바꾸고 관련 연습 제목 3곳, 어원 단위 제목·설명, move 해설과 연결 과정의 내부 설명을 정리했다. 원본 morphology.json·connections.json에서 수정해 HTML과 out/set47·set48에 반영했다. WORK_PLAN·HANDOFF에 지속할 용어 기준을 기록했다.
+- 기록 보존: 이름이 바뀐 연습 3개의 기존 완료 키와 예전 이어하기 위치를 명시적으로 유지했다. 단어·예문·순서·분량과 게임 코드는 바꾸지 않았다. 과거 검수 스냅샷은 고치지 않고 word-family-wording-20261001.json의 정확한 변경 원장·역변환을 연결했다.
+- 검증: morphology-content, suffix-expansion, IPA build --check 통과. 실제 게임 함수로 이름이 바뀐 세 연습의 이전 완료 기록, 미완료 이어하기와 완료 후 다음 연습 이동이 모두 유지됨을 확인했다. 이 용어 변경 때문에 7,440회 모의 플레이 전체를 다시 실행하지는 않았다.
+- 상태: 로컬 반영 완료. 미커밋·미배포. 이전 미배포 변경은 그대로 유지한다.
+
+## 2026-10-01 · troublesome 추가 승인·반영
+
+- 요청·결정: 사용자가 awesome만으로는 접미사가 와닿지 않는다며 troublesome도 추가하도록 명시적으로 승인했다. 앞선 보류 결정을 대체한다.
+- 반영: morphology.json의 suffix-some-quality에 troublesome 한 카드를 추가했다. 47세트 Exercise 11의 awesome과 같은 단위이며 연습은 11→12장이다. 뜻은 ‘골치 아픈, 성가신’, 예문은 “The kitten's habit of biting cables is troublesome.”, 해설은 “trouble(문제)+-some: 문제를 일으키는. awesome과 같은 형용사 접미사야.”다. 마더텅 IPA /ˈtrʌbəlsəm/을 Collins와 대조했다.
+- 범위: 47은 124카드/12연습, 48은 234카드/22연습, 어원 합계 358카드, 전체 FABLE 7,067카드/620연습이다. 새 표제어 추가 외 다른 카드·게임 방식은 유지했다. 해당 Exercise 11만 새 progressId로 새 단어를 학습하게 하고 다른 619연습의 기록은 유지한다.
+- 검증: morphology-content, historical suffix-expansion, session 7,440회, IPA build --check 통과. 실제 게임 함수로 이전 완료가 새 카드를 자동 완료시키지 않는지, 다른 619연습 완료·해당 연습 이어하기가 유지되는지 확인했다. 예문 8단어·해설 50자, 원본·생성물 일치와 새 IPA 대응 생성도 확인했다.
+- 기록·상태: player-feedback-20261001.json에 승인·출처·추가 카드·정확한 변경을 기록하고 기존 보존 검사에 역변환을 연결했다. WORK_PLAN/HANDOFF 현재 수치를 갱신했다. 로컬 완료, 미커밋·미배포.
+
+## 2026-10-01 · 인덱스 표제어 수 자동 집계
+
+- 요청·결정: 사용자가 최근 단어 추가를 반영한 표제어·중복 제외 수 갱신과 저비용 자동화를 요청했다. index.html의 기존 4,638 / 추가 3,381 / 추가 137은 수동 숫자였다.
+- 반영: pipeline/index-stats.cjs가 세 HTML의 실제 DATA를 읽고 인덱스의 표시 구간만 갱신한다. FABLE assemble.py, 마더텅 발췌 build.cjs, 공통 IPA build.cjs에서 자동 실행한다. 독립 --check, 빌더 --check로 오래된 표시를 검출하며 IPA --dry-run은 쓰지 않는다. 마더텅 빌더는 미지원 옵션을 거절하도록 보완했다. 브라우저의 추가 다운로드·계산은 없다.
+- 기준: word 우선/en fallback, 대소문자·공백·유니코드 조합을 통일한 등록 표제어 문자열 기준이다. 뜻별·복습 카드 중복을 제외하고 구 표현·이전 기출을 포함한다. 영미 철자·선택 괄호·동의어를 사전적 단위로 병합하지 않는다. seam.py도 같은 공백/NFC 규칙으로 맞췄다. 인덱스·UI_STANDARD·pipeline 안내에 집계 범위를 기록했다. 기존 95% 문구는 그대로이며 이 집계로 검증한 비율이 아니다.
+- 결과: FABLE 4,916, 마더텅 자체 4,026 / 앞 과정과 중복 788 / 추가 3,238 / 누적 8,154, EBS 자체 545 / 앞 과정과 중복 416 / 추가 129 / 누적 8,283. 독립 검산과 seam.py 결과가 일치했다.
+- 검증: index-stats 회귀검사(뜻별 중복·구 표현·prev 포함·누적·표시 구간·오래된 수치 검출·dry-run·재실행), IPA 및 발췌 빌더 --check 통과. assemble.py에서 자동 호출을 확인했다. 재조립으로 Windows 줄바꿈만 바뀐 FABLE은 실행 전 바이트와 같게 복원해 세 게임 HTML이 이 작업 전과 동일함을 확인했다. 별도 검토에서 독립 집계기·IPA dry-run 전후 네 HTML 해시가 동일했다. 게임 방식·내용·진도는 수정하지 않았다.
+- 상태: 로컬 반영, 미커밋·미푸시·미배포. 기존 어원·접미사·발음 보완도 아직 미배포다.
+
+## 2026-10-01 · 전체 업데이트 배포 준비
+
+- 요청·검증: 사용자가 누적 업데이트의 공개 배포를 승인했다. HANDOFF의 배포 전 검사 19개를 다시 실행해 모두 통과했다. 공개 반영 결과는 확인 후 별도 기록한다.
+- 범위: 관련 없는 __pycache__ 및 과거 검수의 baseline-data.json/root-review.cjs는 배포 커밋에 포함하지 않는다.
+
 ## 다음 기록 형식
 
 ```text
