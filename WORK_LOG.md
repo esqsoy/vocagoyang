@@ -111,6 +111,14 @@
 - 검증: 배포 전 19개 검사 통과. GitHub Pages 실행 36754934684 성공 후 인덱스와 FABLE·마더텅·EBS 공개 HTML을 내려받아 HTTP 200과 로컬 SHA-256 일치를 확인했다. 47·48세트의 개편 진도와 다른 세트 기록 유지 범위를 안내한다.
 - 기록: HANDOFF·WORK_PLAN을 현재 배포 상태로 갱신하고 DEPLOYMENT에 커밋·배포 실행·공개 해시·검사 범위를 남겼다. 공개 앱 기준은 cadd4fb다. 후속 기록 커밋은 앱 내용을 바꾸지 않는다.
 
+## 2026-10-01 · iPhone Safari IPA 상하 분리 대응
+
+- 제보: 대부분의 기기는 정상이나 한 학생의 iPhone Safari에서 모든 단어의 발음기호가 위아래로 분리됐다고 한다. 좌우 이동 여부는 미확인이다. 개별 단어 자료보다 좌표계 차이를 우선 조사했다.
+- 재현·구분: 기존 코드는 슬롯의 화면 좌표를 고정 레이어 안의 위치로 그대로 사용하고 window resize/scroll만 처리했다. 레이어 원점 -180px인 모의 검사에서 목표 95px가 -85px로 떨어져 실패했다. 이는 해당 코드 조건의 재현이며 학생의 Safari 실기기 원인 확정은 아니다.
+- 반영: 공통 runtime.js에서 레이어 실제 원점을 빼서 배치하고 visualViewport resize/scroll도 구독한다. 위치 갱신은 한 프레임으로 묶고 효과 종료·취소 시 대기 프레임을 취소한다. 정렬·전체 IPA 모두 같은 원칙을 적용한다. 세 과정 HTML을 공통 빌더로 갱신했으며 스타일·크기·음성·학습 데이터·진도는 유지했다.
+- 검증: IPA layout, completion, advance, stress, host-hooks, conservation, answer-replay, build --check 총 8개 통과. 위치 검사는 ±180px 원점·좌우 이동·기존 좌표·전체 표시·중복 이벤트·취소를 포함한다. Chromium 실제 화면의 photographic과 390px 화면에서 IPA/철자 중심 일치·가로 넘침 없음·경고/오류 없음 확인. iPhone Safari 자체 검사는 못 했으며 해당 학생 기기에서 재확인해야 한다.
+- 상태: 로컬 완료, 미커밋·미배포. 공개 앱은 cadd4fb 그대로다. 관련 설계·검사와 출처는 pipeline/ipa-effects/README.md에 기록했다.
+
 ## 다음 기록 형식
 
 ```text

@@ -1500,6 +1500,7 @@ const ipaEffectClamp=(n,a,b)=>Math.max(a,Math.min(b,n));
 const ipaEffectMedian=xs=>{const a=[...xs].sort((x,y)=>x-y),i=Math.floor(a.length/2);return a.length%2?a[i]:(a[i-1]+a[i])/2;};
 function ipaEffectClearVisual(run){
   if(!run)return;
+  if(run.positionFrame!=null){cancelAnimationFrame(run.positionFrame);run.positionFrame=null;}
   (run.visualTimers||[]).forEach(clearTimeout);run.visualTimers=[];
   (run.touched||[]).forEach(el=>el.classList.remove('ipa-under','ipa-silent'));run.touched=[];
   if(run.layer){run.layer.remove();run.layer=null;}run.nodes=[];
@@ -1549,12 +1550,16 @@ function ipaEffectBounds(slots){
   return {left,right,top,bottom,width:right-left,height:bottom-top,wrapped:rs.some(r=>Math.abs(r.top-top)>Math.max(5,r.height*.5))};
 }
 function ipaEffectPosition(run){
-  if(!ipaEffectCurrent(run)||!run.nodes.length)return;
+  if(!ipaEffectCurrent(run)||!run.layer||!run.nodes.length)return;
+  // Safari's keyboard/pan can offset the fixed layer from the rect coordinate
+  // origin. Measure both in the same space; never guess from the browser/OS or
+  // blindly add visualViewport.offsetTop (which would double-correct others).
+  const origin=run.layer.getBoundingClientRect();
   const rows=[];
   for(const node of run.nodes){
     const r=ipaEffectBounds(node.slots);if(!r)continue;
-    const left=Math.max(8,r.left),right=Math.min(window.innerWidth-8,r.right),width=Math.max(20,right-left);
-    Object.assign(node.el.style,{left:left+'px',top:(r.top-5)+'px',width:width+'px',height:(r.height+10)+'px'});
+    const left=Math.max(8,r.left)-origin.left,right=Math.min(window.innerWidth-8,r.right)-origin.left,width=Math.max(20,right-left);
+    Object.assign(node.el.style,{left:left+'px',top:(r.top-origin.top-5)+'px',width:width+'px',height:(r.height+10)+'px'});
     node.el.style.fontSize='';
     if(node.whole||node.part.silent)continue;
     if(r.wrapped){ipaEffectBuild(run,true);return;}
@@ -1677,10 +1682,19 @@ function ipaEffectAdvance(next,valid){
   }
   poll();
 }
-window.addEventListener('resize',()=>{if(ipaEffectRun)ipaEffectPosition(ipaEffectRun);});
-window.addEventListener('scroll',()=>{if(ipaEffectRun)ipaEffectPosition(ipaEffectRun);},true);
+function ipaEffectSchedulePosition(){
+  const run=ipaEffectRun;
+  if(!ipaEffectCurrent(run)||!run.layer||run.positionFrame!=null)return;
+  run.positionFrame=requestAnimationFrame(()=>{run.positionFrame=null;ipaEffectPosition(run);});
+}
+window.addEventListener('resize',ipaEffectSchedulePosition);
+window.addEventListener('scroll',ipaEffectSchedulePosition,true);
+// Mobile keyboard and browser chrome can move only the visual viewport, without
+// a window resize or a change to the quiz card's dimensions.
+window.visualViewport?.addEventListener('resize',ipaEffectSchedulePosition);
+window.visualViewport?.addEventListener('scroll',ipaEffectSchedulePosition);
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&ipaEffectRun){ipaEffectRun.unreliable=true;ipaEffectFinish(ipaEffectRun,true);ipaEffectClearVisual(ipaEffectRun);}});
-if(typeof ResizeObserver!=='undefined'&&document.querySelector('#quizCard'))new ResizeObserver(()=>{if(ipaEffectRun)ipaEffectPosition(ipaEffectRun);}).observe(document.querySelector('#quizCard'));
+if(typeof ResizeObserver!=='undefined'&&document.querySelector('#quizCard'))new ResizeObserver(ipaEffectSchedulePosition).observe(document.querySelector('#quizCard'));
 
 function ipaEffectEscape(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function ipaEffectStressMarkup(ipa){return String(ipa||'').split(/([\s/·;(),]+)/).map(s=>/[ˈˌ]/.test(s)?ipaEffectStressWord(s):ipaEffectEscape(s)).join('');}

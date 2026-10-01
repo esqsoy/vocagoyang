@@ -33,6 +33,24 @@ The runtime and map appear immediately after the opening tag of the main inline 
 
 ## Playback and release validation
 
+2026-10-01 viewport positioning follow-up (local; publication status in HANDOFF):
+`ipaEffectPosition` subtracts the live effect-layer rectangle origin from slot
+rectangles before setting absolute child coordinates. A fixed layer must not be
+assumed to start at (0, 0), and a visualViewport offset must not be blindly added
+on browsers that already account for it. Window and visualViewport resize/scroll,
+plus quiz ResizeObserver callbacks, coalesce into one requestAnimationFrame while
+an effect is present. Cleanup cancels pending positioning; no permanent polling
+or additional listeners per word are created. Styling and speech timing remain
+unchanged.
+
+Background: [WebKit's offset report](https://bugs.webkit.org/show_bug.cgi?id=257375)
+and [MDN VisualViewport](https://developer.mozilla.org/en-US/docs/Web/API/VisualViewport).
+They identify a relevant class of viewport problems, not the exact cause on the
+reported student's device. `tests/layout.test.cjs` reproduces the old 180px
+separation using a shifted layer origin and covers both directions, horizontal
+offsets, whole-word fallback, event batching and cancellation. Chromium desktop
+and 390px checks are not substitutes for an affected iPhone Safari retest.
+
 Revealed answer words are now the shared replay controls in all three editions. Click/tap or Enter/Space replays the existing voice plus IPA animation; it neither advances the card nor retriggers scoring/hearts. Correction input stays editable and becomes a replay control only after completion. Replay runs above the invisible input overlay, and preserves the speech-completion gate for automatic advance. Inline IPA has been removed from explanation panels; FABLE commentary remains, while Mother Tongue's short notes appear in the cat's speech. `node pipeline/test-answer-replay.cjs` covers these interactions.
 
 Mother Tongue embeds its headword input inside the original excerpt. Revealing an inflected or separated source form selects whole-IPA display at runtime, since the spoken headword's letter map must not be applied to different visible spelling. This is an additional display fallback and does not change the dictionary-based map counts below.

@@ -9,7 +9,7 @@ const maps={[info.term+'\t'+info.ipa]:mapped.parts.map(p=>[p.start,p.end,p.ipa,p
 function harness(){
   let now=0,serial=0,next=0,current=true;const timers=new Map();
   function element(){
-    const el={style:{},children:[],className:'',textContent:'',innerHTML:'',setAttribute(){},appendChild(x){this.children.push(x);},remove(){this.removed=true;}};
+    const el={style:{},children:[],className:'',textContent:'',innerHTML:'',getBoundingClientRect:()=>({left:0,top:0}),setAttribute(){},appendChild(x){this.children.push(x);},remove(){this.removed=true;}};
     el.classList={contains:x=>el.className.split(' ').includes(x),add(...xs){el.className=[...new Set([...el.className.split(' ').filter(Boolean),...xs])].join(' ');},remove(...xs){el.className=el.className.split(' ').filter(x=>!xs.includes(x)).join(' ');}};
     Object.defineProperty(el,'offsetWidth',{get(){return Math.max(1,(el.textContent||el.innerHTML.replace(/<[^>]+>/g,'')).length)*7;}});
     return el;

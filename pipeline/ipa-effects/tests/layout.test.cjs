@@ -1,20 +1,21 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const source=fs.readFileSync(path.resolve(__dirname,'../runtime.js'),'utf8');
-function fixture(widths,spans){
-  let slots=[];const layers=[];
+function fixture(widths,spans,origin={left:0,top:0}){
+  let slots=[],serial=0;const layers=[],events={},frames=new Map();
   function element(){
-    const e={style:{},children:[],className:'',setAttribute(){},appendChild(x){this.children.push(x);},remove(){this.removed=true;}};
+    const e={style:{},children:[],className:'',getBoundingClientRect:()=>({...origin}),setAttribute(){},appendChild(x){this.children.push(x);},remove(){this.removed=true;}};
     e.classList={contains:x=>e.className.split(' ').includes(x),add(...xs){e.className=[...new Set([...e.className.split(' '),...xs])].join(' ');},remove(...xs){e.className=e.className.split(' ').filter(x=>!xs.includes(x)).join(' ');}};
     return e;
   }
-  const ctx=vm.createContext({performance:{now:()=>0},window:{innerWidth:390,addEventListener(){}},document:{addEventListener(){},querySelector:()=>null,querySelectorAll:()=>slots,createElement:element,body:{appendChild:e=>layers.push(e)}},getComputedStyle:e=>({fontSize:e.style.fontSize||'25.5px'}),setTimeout,clearTimeout});
+  const viewport={offsetTop:180,offsetLeft:12,addEventListener:(type,fn)=>events['viewport:'+type]=fn};
+  const ctx=vm.createContext({performance:{now:()=>0},window:{innerWidth:390,visualViewport:viewport,addEventListener:(type,fn)=>events['window:'+type]=fn},document:{addEventListener(){},querySelector:()=>null,querySelectorAll:()=>slots,createElement:element,body:{appendChild:e=>layers.push(e)}},getComputedStyle:e=>({fontSize:e.style.fontSize||'25.5px'}),setTimeout,clearTimeout,requestAnimationFrame(fn){const id=++serial;frames.set(id,fn);return id;},cancelAnimationFrame:id=>frames.delete(id)});
   vm.runInContext(source,ctx);
   let start=0;
   const parts=spans.map((span,i)=>{const p={start,end:start+span,ipa:'a',stress:i===0,secondary:i===2,beat:i,weight:1};start+=span;return p;});
   slots=Array.from({length:start},(_,i)=>Object.assign(element(),{getBoundingClientRect:()=>({left:40+i*24,right:64+i*24,top:100,bottom:130,height:30})}));
   const run=ctx.ipaEffectRequest({term:'a'.repeat(start),ipa:'ˌsuːpərˈhjuːmən'},()=>true);
   run.map={mode:'aligned',parts};run.layer=element();run.nodes=parts.map((part,i)=>({part,slots:slots.slice(part.start,part.end),el:element(),text:{offsetWidth:widths[i]}}));
-  return {ctx,run,slots,layers};
+  return {ctx,run,slots,layers,origin,events,frames,flush(){const callbacks=[...frames.values()];frames.clear();callbacks.forEach(fn=>fn());}};
 }
 function verifyPacked(run,left,right){
   let previous=left-3;
@@ -54,4 +55,25 @@ function verifyPacked(run,left,right){
   const {ctx,run}=fixture([69,40],[2,3]);ctx.ipaEffectPosition(run);
   ctx.window.innerWidth=120;ctx.ipaEffectPosition(run);assert(run.nodes[0].whole);
 }
-console.log('PASS IPA layout: dense stress, shared scaling, stable packing, crowding/resize fallback and timer preservation.');
+// A keyboard/zoom can move the fixed layer origin independently of the slots.
+// Reconstruct the visible position; it must stay at the original answer.
+for(const top of [-180,180]){
+  const h=fixture([69,40],[2,3],{left:-12,top});h.ctx.ipaEffectPosition(h.run);
+  for(const n of h.run.nodes)assert.equal(parseFloat(n.el.style.top)+h.origin.top,95,'IPA detached vertically from the answer');
+  verifyPacked(h.run,52,172);
+  h.origin.top=0;h.origin.left=0;
+  h.events['viewport:resize']();h.events['viewport:scroll']();h.events['window:scroll']();
+  assert.equal(h.frames.size,1,'Coalesce viewport changes into one layout frame');h.flush();
+  assert(h.run.nodes.every(n=>parseFloat(n.el.style.top)===95));verifyPacked(h.run,40,160);
+  // Do not blindly add viewport offsets: they are nonzero even when the layer is aligned.
+  assert.equal(h.ctx.window.visualViewport.offsetTop,180);
+  h.events['viewport:scroll']();h.ctx.ipaEffectCancel();assert.equal(h.frames.size,0,'Cancel queued layout on navigation');
+  h.flush();h.events['viewport:resize']();assert.equal(h.frames.size,0,'No work without a visible effect');
+}
+// Whole-word fallback uses the same coordinate origin without losing timers.
+{
+  const h=fixture([100,100],[2,2],{left:0,top:-160});const timers=h.run.visualTimers=[123];
+  h.ctx.ipaEffectPosition(h.run);assert(h.run.nodes[0].whole);
+  assert.equal(parseFloat(h.run.nodes[0].el.style.top)-160,95);assert.equal(h.run.visualTimers,timers);
+}
+console.log('PASS IPA layout: shared sizing, packing, fallback, shifted viewport origins, resize/scroll batching and cleanup.');
