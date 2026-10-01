@@ -1,0 +1,3150 @@
+{
+  "date": "2026-10-02",
+  "reason": "Remove answer-revealing phrases from displayed meanings; distinguish figure from number through six-figure salary.",
+  "sources": [
+    "https://dictionary.cambridge.org/dictionary/english/figure",
+    "https://www.oxfordlearnersdictionaries.com/definition/english/figure_1",
+    "https://dictionary.cambridge.org/dictionary/english/six-figure-salary"
+  ],
+  "sourceChanges": [
+    {
+      "file": "pipeline/out/lesson00.json",
+      "lesson": 0,
+      "exercise": 4,
+      "word": "cannot",
+      "si": 1,
+      "field": "ko",
+      "old": "① ~할 수 없다 (can not)",
+      "new": "① ~할 수 없다"
+    },
+    {
+      "file": "pipeline/out/lesson00.json",
+      "lesson": 0,
+      "exercise": 18,
+      "word": "term",
+      "si": 6,
+      "field": "ko",
+      "old": "⑥ (~의) 면에서, 관점에서 (in terms of)",
+      "new": "⑥ (~의) 면에서, 관점에서"
+    },
+    {
+      "file": "pipeline/out/lesson00.json",
+      "lesson": 0,
+      "exercise": 19,
+      "word": "necessarily",
+      "si": 2,
+      "field": "ko",
+      "old": "② (not necessarily) 반드시 ~인 것은 아니다",
+      "new": "② 반드시 ~인 것은 아니다"
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "lesson": 1,
+      "exercise": 1,
+      "word": "get",
+      "si": 4,
+      "field": "ko",
+      "old": "④ (get to) 도착하다, 이르다",
+      "new": "④ 도착하다, 이르다"
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "lesson": 1,
+      "exercise": 3,
+      "word": "right",
+      "si": 4,
+      "field": "ko",
+      "old": "④ (right now) 바로, 당장",
+      "new": "④ 바로, 당장"
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "lesson": 1,
+      "exercise": 4,
+      "word": "while",
+      "si": 3,
+      "field": "ko",
+      "old": "③ (a while) 잠깐, 한동안",
+      "new": "③ 잠깐, 한동안"
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "lesson": 1,
+      "exercise": 5,
+      "word": "part",
+      "si": 2,
+      "field": "ko",
+      "old": "② 역할, 몫 (take part in 참여하다)",
+      "new": "② 역할, 몫"
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "lesson": 1,
+      "exercise": 6,
+      "word": "little",
+      "si": 1,
+      "field": "ko",
+      "old": "① 작은; (little sister) 어린",
+      "new": "① 작은; 어린"
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "lesson": 1,
+      "exercise": 7,
+      "word": "thing",
+      "si": 2,
+      "field": "ko",
+      "old": "② 일, 사정 (복수 things)",
+      "new": "② 일, 사정 (복수형)"
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "lesson": 1,
+      "exercise": 7,
+      "word": "give",
+      "si": 2,
+      "field": "ko",
+      "old": "② (행동을) 하다 (give a call 전화하다)",
+      "new": "② (행동을) 하다"
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "lesson": 1,
+      "exercise": 7,
+      "word": "next",
+      "si": 2,
+      "field": "ko",
+      "old": "② (next to) ~ 바로 옆에",
+      "new": "② ~ 바로 옆에"
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "lesson": 1,
+      "exercise": 8,
+      "word": "big",
+      "si": 2,
+      "field": "ko",
+      "old": "② 중요한, 중대한 (no big deal 별거 아닌)",
+      "new": "② 중요한, 중대한"
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "lesson": 1,
+      "exercise": 9,
+      "word": "lot",
+      "si": 1,
+      "field": "ko",
+      "old": "① 많음 (a lot of)",
+      "new": "① 많음"
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "lesson": 1,
+      "exercise": 10,
+      "word": "set",
+      "si": 1,
+      "field": "ko",
+      "old": "① 놓다, 두다; (set the table) 상을 차리다",
+      "new": "① 놓다, 두다; 상을 차리다"
+    },
+    {
+      "file": "pipeline/out/lesson02.json",
+      "lesson": 2,
+      "exercise": 5,
+      "word": "try",
+      "si": 2,
+      "field": "ko",
+      "old": "② 먹어 보다, 입어 보다 (try on)",
+      "new": "② 먹어 보다, 입어 보다"
+    },
+    {
+      "file": "pipeline/out/lesson02.json",
+      "lesson": 2,
+      "exercise": 6,
+      "word": "other",
+      "si": 2,
+      "field": "ko",
+      "old": "② (the other) 나머지 하나",
+      "new": "② 나머지 하나"
+    },
+    {
+      "file": "pipeline/out/lesson02.json",
+      "lesson": 2,
+      "exercise": 6,
+      "word": "other",
+      "si": 3,
+      "field": "ko",
+      "old": "③ (the others) 나머지 전부",
+      "new": "③ 나머지 전부 (복수형)"
+    },
+    {
+      "file": "pipeline/out/lesson02.json",
+      "lesson": 2,
+      "exercise": 6,
+      "word": "other",
+      "si": 4,
+      "field": "ko",
+      "old": "④ (others) 그 밖의 여럿",
+      "new": "④ 그 밖의 여럿 (복수형)"
+    },
+    {
+      "file": "pipeline/out/lesson02.json",
+      "lesson": 2,
+      "exercise": 6,
+      "word": "country",
+      "si": 2,
+      "field": "ko",
+      "old": "② (the country) 시골 (↔ city)",
+      "new": "② 시골 (↔ city)"
+    },
+    {
+      "file": "pipeline/out/lesson02.json",
+      "lesson": 2,
+      "exercise": 7,
+      "word": "course",
+      "si": 2,
+      "field": "ko",
+      "old": "② (of course) 물론",
+      "new": "② 물론"
+    },
+    {
+      "file": "pipeline/out/lesson02.json",
+      "lesson": 2,
+      "exercise": 10,
+      "word": "hand",
+      "si": 2,
+      "field": "ko",
+      "old": "② 건네주다 (hand in 제출하다)",
+      "new": "② 건네주다"
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "lesson": 3,
+      "exercise": 2,
+      "word": "matter",
+      "si": 4,
+      "field": "ko",
+      "old": "④ (no matter ...) ~하든 상관없이",
+      "new": "④ ~하든 상관없이"
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "lesson": 3,
+      "exercise": 3,
+      "word": "bit",
+      "si": 1,
+      "field": "ko",
+      "old": "① 조금, 약간 (a bit)",
+      "new": "① 조금, 약간"
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "lesson": 3,
+      "exercise": 5,
+      "word": "rather",
+      "si": 1,
+      "field": "ko",
+      "old": "① 차라리 (would rather)",
+      "new": "① 차라리"
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "lesson": 3,
+      "exercise": 5,
+      "word": "rather",
+      "si": 2,
+      "field": "ko",
+      "old": "② (rather than) ~보다는, ~ 대신",
+      "new": "② ~보다는, ~ 대신"
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "lesson": 3,
+      "exercise": 5,
+      "word": "rather",
+      "si": 4,
+      "field": "ko",
+      "old": "④ (or rather) 더 정확히 말하면",
+      "new": "④ 더 정확히 말하면"
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "lesson": 3,
+      "exercise": 6,
+      "word": "deal",
+      "si": 2,
+      "field": "ko",
+      "old": "② 다루다, 처리하다 (deal with)",
+      "new": "② 다루다, 처리하다"
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "lesson": 3,
+      "exercise": 6,
+      "word": "deal",
+      "si": 3,
+      "field": "ko",
+      "old": "③ (a great deal of) 많은 양(의)",
+      "new": "③ 많은 양(의)"
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "lesson": 3,
+      "exercise": 7,
+      "word": "act",
+      "si": 3,
+      "field": "ko",
+      "old": "③ (an act of ~) 행위",
+      "new": "③ 행위"
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "lesson": 3,
+      "exercise": 8,
+      "word": "according",
+      "si": 1,
+      "field": "ko",
+      "old": "① ~에 따르면 (according to)",
+      "new": "① ~에 따르면"
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "lesson": 3,
+      "exercise": 10,
+      "word": "march",
+      "si": 1,
+      "field": "ko",
+      "old": "① 3월 (대문자 March)",
+      "new": "① 3월 (대문자)"
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "lesson": 4,
+      "exercise": 1,
+      "word": "word",
+      "si": 2,
+      "field": "ko",
+      "old": "② 약속, 한 말 (one's word)",
+      "new": "② 약속, 한 말"
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "lesson": 4,
+      "exercise": 2,
+      "word": "rest",
+      "si": 3,
+      "field": "ko",
+      "old": "③ 나머지 (the rest)",
+      "new": "③ 나머지"
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "lesson": 4,
+      "exercise": 3,
+      "word": "force",
+      "si": 1,
+      "field": "ko",
+      "old": "① 힘, 무력 (by force 강제로)",
+      "new": "① 힘, 무력"
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "lesson": 4,
+      "exercise": 4,
+      "word": "account",
+      "si": 3,
+      "field": "ko",
+      "old": "③ 설명하다 (account for)",
+      "new": "③ 설명하다"
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "lesson": 4,
+      "exercise": 4,
+      "word": "account",
+      "si": 4,
+      "field": "ko",
+      "old": "④ (비율을) 차지하다 (account for)",
+      "new": "④ (비율을) 차지하다"
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "lesson": 4,
+      "exercise": 4,
+      "word": "account",
+      "si": 5,
+      "field": "ko",
+      "old": "⑤ 고려 (take ~ into account)",
+      "new": "⑤ 고려"
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "lesson": 4,
+      "exercise": 4,
+      "word": "account",
+      "si": 6,
+      "field": "ko",
+      "old": "⑥ 이유 (on account of: ~ 때문에)",
+      "new": "⑥ 이유"
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "lesson": 4,
+      "exercise": 5,
+      "word": "lead",
+      "si": 2,
+      "field": "ko",
+      "old": "② ~로 이어지다 (lead to)",
+      "new": "② ~로 이어지다"
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "lesson": 4,
+      "exercise": 7,
+      "word": "result",
+      "si": 2,
+      "field": "ko",
+      "old": "② (결과로) 생기다 (result from/in)",
+      "new": "② (결과로) 생기다"
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "lesson": 4,
+      "exercise": 7,
+      "word": "present",
+      "si": 4,
+      "field": "ko",
+      "old": "④ (at present) 현재, 지금",
+      "new": "④ 현재, 지금"
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "lesson": 4,
+      "exercise": 9,
+      "word": "press",
+      "si": 2,
+      "field": "ko",
+      "old": "② 언론, 신문 (the press)",
+      "new": "② 언론, 신문"
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "lesson": 4,
+      "exercise": 10,
+      "word": "ground",
+      "si": 2,
+      "field": "ko",
+      "old": "② 근거, 이유 (grounds)",
+      "new": "② 근거, 이유"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 1,
+      "word": "be",
+      "si": 3,
+      "field": "ko",
+      "old": "③ (be+~ing) ~하는 중이다",
+      "new": "③ ~하는 중이다"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 1,
+      "word": "be",
+      "si": 4,
+      "field": "ko",
+      "old": "④ (be+과거분사) ~되다, ~받다",
+      "new": "④ ~되다, ~받다"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 1,
+      "word": "to",
+      "si": 2,
+      "field": "ko",
+      "old": "② (to+동사원형) ~하기, ~하려고",
+      "new": "② ~하기, ~하려고"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 1,
+      "word": "it",
+      "si": 3,
+      "field": "ko",
+      "old": "③ (It is ~ to…) 가짜 주어 it",
+      "new": "③ 가주어"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 1,
+      "word": "have",
+      "si": 3,
+      "field": "ko",
+      "old": "③ (have+과거분사) ~했다, ~해 봤다",
+      "new": "③ ~했다, ~해 봤다"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 1,
+      "word": "have",
+      "si": 4,
+      "field": "ko",
+      "old": "④ (have to) ~해야 한다",
+      "new": "④ ~해야 한다"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 2,
+      "word": "but",
+      "si": 2,
+      "field": "ko",
+      "old": "② (not A but B) A가 아니라 B",
+      "new": "② A가 아니라 B"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 3,
+      "word": "what",
+      "si": 2,
+      "field": "ko",
+      "old": "② (What a ~!) 정말 ~구나!",
+      "new": "② 정말 ~구나!"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 4,
+      "word": "as",
+      "si": 2,
+      "field": "ko",
+      "old": "② (as soon as) ~하자마자",
+      "new": "② ~하자마자"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 4,
+      "word": "as",
+      "si": 3,
+      "field": "ko",
+      "old": "③ (as ~ as) ~만큼",
+      "new": "③ ~만큼"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 4,
+      "word": "will",
+      "si": 2,
+      "field": "ko",
+      "old": "② (Will you ~?) ~해 줄래?",
+      "new": "② ~해 줄래?"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 5,
+      "word": "would",
+      "si": 2,
+      "field": "ko",
+      "old": "② (Would you like ~?) ~하시겠어요?",
+      "new": "② ~하시겠어요?"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 5,
+      "word": "there",
+      "si": 2,
+      "field": "ko",
+      "old": "② (There is/are) ~이 있다",
+      "new": "② ~이 있다"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 5,
+      "word": "how",
+      "si": 2,
+      "field": "ko",
+      "old": "② (how+형용사) 얼마나 ~한지",
+      "new": "② 얼마나 ~한지"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 6,
+      "word": "could",
+      "si": 2,
+      "field": "ko",
+      "old": "② (Could you ~?) ~해 주시겠어요?",
+      "new": "② ~해 주시겠어요?"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 6,
+      "word": "into",
+      "si": 3,
+      "field": "ko",
+      "old": "③ (be into) ~에 관심이 많은",
+      "new": "③ ~에 관심이 많은"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 6,
+      "word": "more",
+      "si": 2,
+      "field": "ko",
+      "old": "② (more+형용사) 더 ~한",
+      "new": "② 더 ~한"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 7,
+      "word": "why",
+      "si": 2,
+      "field": "ko",
+      "old": "② (Why don't ~?) ~하는 게 어때?",
+      "new": "② ~하는 게 어때?"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 8,
+      "word": "may",
+      "si": 3,
+      "field": "ko",
+      "old": "③ (May) 5월",
+      "new": "③ 5월 (대문자)"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 9,
+      "word": "most",
+      "si": 2,
+      "field": "ko",
+      "old": "② (the most ~) 가장 ~한",
+      "new": "② 가장 ~한"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 9,
+      "word": "such",
+      "si": 2,
+      "field": "ko",
+      "old": "② (such a ~) 정말 ~한",
+      "new": "② 정말 ~한"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 10,
+      "word": "each",
+      "si": 2,
+      "field": "ko",
+      "old": "② (each other) 서로",
+      "new": "② 서로"
+    },
+    {
+      "file": "pipeline/out/set06.json",
+      "lesson": 6,
+      "exercise": 2,
+      "word": "grow",
+      "si": 3,
+      "field": "ko",
+      "old": "③ (grow up) 자라서 어른이 되다",
+      "new": "③ 자라서 어른이 되다"
+    },
+    {
+      "file": "pipeline/out/set06.json",
+      "lesson": 6,
+      "exercise": 4,
+      "word": "serve",
+      "si": 2,
+      "field": "ko",
+      "old": "② (serve as) ~로 일하다, 역할을 하다",
+      "new": "② ~로 일하다, 역할을 하다"
+    },
+    {
+      "file": "pipeline/out/set06.json",
+      "lesson": 6,
+      "exercise": 5,
+      "word": "base",
+      "si": 2,
+      "field": "ko",
+      "old": "② (be based on) ~에 근거하다",
+      "new": "② ~에 근거하다"
+    },
+    {
+      "file": "pipeline/out/set06.json",
+      "lesson": 6,
+      "exercise": 9,
+      "word": "arm",
+      "si": 2,
+      "field": "ko",
+      "old": "② (arms) 무기",
+      "new": "② 무기 (복수형)"
+    },
+    {
+      "file": "pipeline/out/set07.json",
+      "lesson": 7,
+      "exercise": 1,
+      "word": "figure",
+      "si": 1,
+      "field": "ko",
+      "old": "① (자료의) 수치",
+      "new": "① 수치, 숫자"
+    },
+    {
+      "file": "pipeline/out/set07.json",
+      "lesson": 7,
+      "exercise": 1,
+      "word": "figure",
+      "si": 1,
+      "field": "ex",
+      "old": "Look at the {{BLANK}}s in this report.",
+      "new": "The job pays a six-{{BLANK}} salary."
+    },
+    {
+      "file": "pipeline/out/set07.json",
+      "lesson": 7,
+      "exercise": 1,
+      "word": "figure",
+      "si": 1,
+      "field": "tr",
+      "old": "이 보고서의 수치들을 봐.",
+      "new": "그 일은 여섯 자리 액수의 연봉을 줘."
+    },
+    {
+      "file": "pipeline/out/set07.json",
+      "lesson": 7,
+      "exercise": 1,
+      "word": "figure",
+      "si": 1,
+      "field": "c",
+      "old": "수치라는 뜻에서는 number와 같은 말. a six-figure salary는 여섯 자리 액수의 연봉.",
+      "new": "six-figure salary는 한국의 ‘억대 연봉’ 같은 관용적 표현이다."
+    },
+    {
+      "file": "pipeline/out/set07.json",
+      "lesson": 7,
+      "exercise": 1,
+      "word": "figure",
+      "si": 3,
+      "field": "ko",
+      "old": "③ (figure out) 알아내다",
+      "new": "③ 알아내다"
+    },
+    {
+      "file": "pipeline/out/set07.json",
+      "lesson": 7,
+      "exercise": 3,
+      "word": "earth",
+      "si": 2,
+      "field": "ko",
+      "old": "② (on earth) 도대체",
+      "new": "② 도대체"
+    },
+    {
+      "file": "pipeline/out/set07.json",
+      "lesson": 7,
+      "exercise": 4,
+      "word": "wonder",
+      "si": 2,
+      "field": "ko",
+      "old": "② 놀랄 일 (No wonder ~)",
+      "new": "② 놀랄 일"
+    },
+    {
+      "file": "pipeline/out/set07.json",
+      "lesson": 7,
+      "exercise": 7,
+      "word": "subject",
+      "si": 5,
+      "field": "ko",
+      "old": "⑤ (be subject to) ~의 영향을 받는, ~되기 쉬운",
+      "new": "⑤ ~의 영향을 받는, ~되기 쉬운"
+    },
+    {
+      "file": "pipeline/out/set07.json",
+      "lesson": 7,
+      "exercise": 7,
+      "word": "subject",
+      "si": 6,
+      "field": "ko",
+      "old": "⑥ (be subject to) ~을 조건으로 하는",
+      "new": "⑥ ~을 조건으로 하는"
+    },
+    {
+      "file": "pipeline/out/set07.json",
+      "lesson": 7,
+      "exercise": 7,
+      "word": "subject",
+      "si": 7,
+      "field": "ko",
+      "old": "⑦ (be subject to) ~의 적용·지배를 받는",
+      "new": "⑦ ~의 적용·지배를 받는"
+    },
+    {
+      "file": "pipeline/out/set07.json",
+      "lesson": 7,
+      "exercise": 9,
+      "word": "hang",
+      "si": 2,
+      "field": "ko",
+      "old": "② (hang out) 놀다, 어울리다",
+      "new": "② 놀다, 어울리다"
+    },
+    {
+      "file": "pipeline/out/set08.json",
+      "lesson": 8,
+      "exercise": 6,
+      "word": "charge",
+      "si": 1,
+      "field": "ko",
+      "old": "① 요금 (free of charge 무료)",
+      "new": "① 요금"
+    },
+    {
+      "file": "pipeline/out/set08.json",
+      "lesson": 8,
+      "exercise": 6,
+      "word": "charge",
+      "si": 3,
+      "field": "ko",
+      "old": "③ (in charge of) 담당, 책임",
+      "new": "③ 담당, 책임"
+    },
+    {
+      "file": "pipeline/out/set08.json",
+      "lesson": 8,
+      "exercise": 7,
+      "word": "glass",
+      "si": 3,
+      "field": "ko",
+      "old": "③ (glasses) 안경",
+      "new": "③ 안경 (복수형)"
+    },
+    {
+      "file": "pipeline/out/set08.json",
+      "lesson": 8,
+      "exercise": 10,
+      "word": "direction",
+      "si": 2,
+      "field": "ko",
+      "old": "② (directions) 길 안내, 사용 지시",
+      "new": "② 길 안내, 사용 지시 (복수형)"
+    },
+    {
+      "file": "pipeline/out/set09.json",
+      "lesson": 9,
+      "exercise": 4,
+      "word": "key",
+      "si": 3,
+      "field": "ko",
+      "old": "③ (key point) 핵심적인",
+      "new": "③ 핵심적인"
+    },
+    {
+      "file": "pipeline/out/set11.json",
+      "lesson": 11,
+      "exercise": 3,
+      "word": "wood",
+      "si": 2,
+      "field": "ko",
+      "old": "② (woods) 숲",
+      "new": "② 숲 (복수형)"
+    },
+    {
+      "file": "pipeline/out/set12.json",
+      "lesson": 12,
+      "exercise": 10,
+      "word": "suppose",
+      "si": 2,
+      "field": "ko",
+      "old": "② (be supposed to) ~하기로 되어 있다",
+      "new": "② ~하기로 되어 있다"
+    },
+    {
+      "file": "pipeline/out/set13.json",
+      "lesson": 13,
+      "exercise": 4,
+      "word": "ought",
+      "si": 1,
+      "field": "ko",
+      "old": "① (ought to) ~해야 한다",
+      "new": "① ~해야 한다"
+    },
+    {
+      "file": "pipeline/out/set14.json",
+      "lesson": 14,
+      "exercise": 7,
+      "word": "advance",
+      "si": 1,
+      "field": "ko",
+      "old": "① (in advance) 미리",
+      "new": "① 미리"
+    },
+    {
+      "file": "pipeline/out/set15.json",
+      "lesson": 15,
+      "exercise": 1,
+      "word": "rid",
+      "si": 1,
+      "field": "ko",
+      "old": "① (get rid of) 없애다",
+      "new": "① 없애다"
+    },
+    {
+      "file": "pipeline/out/set15.json",
+      "lesson": 15,
+      "exercise": 7,
+      "word": "trick",
+      "si": 3,
+      "field": "ko",
+      "old": "③ (trick A into) 속여서 ~하게 하다",
+      "new": "③ 속여서 ~하게 하다"
+    },
+    {
+      "file": "pipeline/out/set15.json",
+      "lesson": 15,
+      "exercise": 10,
+      "word": "raw",
+      "si": 2,
+      "field": "ko",
+      "old": "② 가공하지 않은 (raw material)",
+      "new": "② 가공하지 않은"
+    },
+    {
+      "file": "pipeline/out/set16.json",
+      "lesson": 16,
+      "exercise": 3,
+      "word": "screw",
+      "si": 2,
+      "field": "ko",
+      "old": "② (screw up, 비격식) 망치다, 크게 실수하다",
+      "new": "② (비격식) 망치다, 크게 실수하다"
+    },
+    {
+      "file": "pipeline/out/set16.json",
+      "lesson": 16,
+      "exercise": 5,
+      "word": "custom",
+      "si": 2,
+      "field": "ko",
+      "old": "② (customs) 세관",
+      "new": "② 세관 (복수형)"
+    },
+    {
+      "file": "pipeline/out/set16.json",
+      "lesson": 16,
+      "exercise": 6,
+      "word": "ruin",
+      "si": 2,
+      "field": "ko",
+      "old": "② (ruins) 폐허, 유적",
+      "new": "② 폐허, 유적 (복수형)"
+    },
+    {
+      "file": "pipeline/out/set18.json",
+      "lesson": 18,
+      "exercise": 1,
+      "word": "stem",
+      "si": 2,
+      "field": "ko",
+      "old": "② (stem from) ~에서 비롯되다",
+      "new": "② ~에서 비롯되다"
+    },
+    {
+      "file": "pipeline/out/set18.json",
+      "lesson": 18,
+      "exercise": 7,
+      "word": "coin",
+      "si": 2,
+      "field": "ko",
+      "old": "② (coin a word) 새 말을 만들어 내다",
+      "new": "② 새 말을 만들어 내다"
+    },
+    {
+      "file": "pipeline/out/set19.json",
+      "lesson": 19,
+      "exercise": 3,
+      "word": "anxious",
+      "si": 2,
+      "field": "ko",
+      "old": "② (be anxious to) 간절히 ~하고 싶은",
+      "new": "② 간절히 ~하고 싶은"
+    },
+    {
+      "file": "pipeline/out/set19.json",
+      "lesson": 19,
+      "exercise": 7,
+      "word": "spite",
+      "si": 1,
+      "field": "ko",
+      "old": "① (in spite of) ~에도 불구하고",
+      "new": "① ~에도 불구하고"
+    },
+    {
+      "file": "pipeline/out/set20.json",
+      "lesson": 20,
+      "exercise": 2,
+      "word": "delight",
+      "si": 2,
+      "field": "ko",
+      "old": "② 기쁘게 하다 (be delighted 기뻐하다)",
+      "new": "② 기쁘게 하다"
+    },
+    {
+      "file": "pipeline/out/set23.json",
+      "lesson": 23,
+      "exercise": 10,
+      "word": "due",
+      "si": 2,
+      "field": "ko",
+      "old": "② ~에 기인하는(due to)",
+      "new": "② ~에 기인하는"
+    },
+    {
+      "file": "pipeline/out/set24.json",
+      "lesson": 24,
+      "exercise": 3,
+      "word": "lots",
+      "si": 1,
+      "field": "ko",
+      "old": "① 많음, 많은 것 (lots of)",
+      "new": "① 많음, 많은 것"
+    },
+    {
+      "file": "pipeline/out/set24.json",
+      "lesson": 24,
+      "exercise": 9,
+      "word": "locate",
+      "si": 2,
+      "field": "ko",
+      "old": "② (be located) ~에 위치하다",
+      "new": "② ~에 위치하다"
+    },
+    {
+      "file": "pipeline/out/set24.json",
+      "lesson": 24,
+      "exercise": 9,
+      "word": "used",
+      "si": 2,
+      "field": "ko",
+      "old": "② (used to) ~하곤 했다",
+      "new": "② ~하곤 했다"
+    },
+    {
+      "file": "pipeline/out/set27.json",
+      "lesson": 27,
+      "exercise": 5,
+      "word": "depending",
+      "si": 1,
+      "field": "ko",
+      "old": "① (depending on) ~에 따라",
+      "new": "① ~에 따라"
+    },
+    {
+      "file": "pipeline/out/set32.json",
+      "lesson": 32,
+      "exercise": 8,
+      "word": "behalf",
+      "si": 1,
+      "field": "ko",
+      "old": "① ~을 대신하여, ~을 대표하여(on behalf of)",
+      "new": "① ~을 대신하여, ~을 대표하여"
+    },
+    {
+      "file": "pipeline/exercise-topics.json",
+      "ref": {
+        "set": 5,
+        "word": "may",
+        "si": 3
+      },
+      "field": "override.ko",
+      "old": "① 5월 (대문자 May)",
+      "new": "① 5월 (대문자)"
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "lesson": 1,
+      "exercise": 10,
+      "word": "let",
+      "si": 2,
+      "field": "ko",
+      "old": "② (제안) Let's ~하자",
+      "new": "② (제안) ~하자"
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "lesson": 5,
+      "exercise": 1,
+      "word": "it",
+      "si": 2,
+      "field": "ko",
+      "old": "② (날씨·시간을 말하는) it",
+      "new": "② 비인칭 주어 (날씨·시간)"
+    },
+    {
+      "file": "pipeline/out/set27.json",
+      "lesson": 27,
+      "exercise": 6,
+      "word": "qualify",
+      "si": 3,
+      "field": "ex",
+      "old": "I must {{BLANK}} my claim: it applies only here.",
+      "new": "I must {{BLANK}} my claim: it applies only in this case."
+    },
+    {
+      "file": "pipeline/out/set27.json",
+      "lesson": 27,
+      "exercise": 6,
+      "word": "qualify",
+      "si": 3,
+      "field": "tr",
+      "old": "내 주장에 단서를 달아야겠어. 그건 여기서만 적용돼.",
+      "new": "내 주장에 단서를 달아야겠어. 이 경우에만 적용돼."
+    }
+  ],
+  "sourceSnapshots": {
+    "pipeline/out/lesson00.json": {
+      "beforeHash": "286174ab62b06d96190856f811f3d1dd76165ae0a5d9599c470efc853822bbb8",
+      "afterHash": "972209f320bf0e30057f0dc2916a5b30257596bfebd649975a8d416b3b3142cb"
+    },
+    "pipeline/out/lesson01.json": {
+      "beforeHash": "a49e97aa308a780b69a4cfb0154066331e9887f0347a64851fde344c1944d307",
+      "afterHash": "438f3dbdac412d7fff202a9c8c62205e908d497509ef3d962c6580ba8512ae44"
+    },
+    "pipeline/out/lesson02.json": {
+      "beforeHash": "6d996372577d4825a6d044e587f361b556d3b54f0879f6623f5b0768c924daf6",
+      "afterHash": "980608bc6daed9ee0023ffbe92300efb0985abb1d4d042ca9f181bec73527118"
+    },
+    "pipeline/out/lesson03.json": {
+      "beforeHash": "21442cb33cab152ef0bf4027cd4c88a17c07d44448e36669d58521e29b63a402",
+      "afterHash": "933d544a777abf74642aeaac29c2ba0c0704ed7d1957c0eb833146a7dfeaa036"
+    },
+    "pipeline/out/lesson04.json": {
+      "beforeHash": "7a68e86021093bfb05e780881c5c59eb70d1966c889ebc9ff599b1970ccd9afe",
+      "afterHash": "a64cdbaa9f2efb9c1f07e56a1c443b09ca626bbf2dbac1892511cbfe1aee6cd8"
+    },
+    "pipeline/out/set05.json": {
+      "beforeHash": "7d92594178064f70ffa3b9dc0f904327948b42842dac88609ae86a5c9f319cad",
+      "afterHash": "8ac721817431c0f197651a7deeecf87949756f1cead8bf3f1466ea470f731f5e"
+    },
+    "pipeline/out/set06.json": {
+      "beforeHash": "86fb67e4ebe91a3bd480006adb93f855a912cfb7d0ffe7b9f8a5632a37911b79",
+      "afterHash": "c4f030dd21025710fdf7af729108f5fc2f8336df3649dba93abfb8afa2a8b3ad"
+    },
+    "pipeline/out/set07.json": {
+      "beforeHash": "7401838972b54ae7ac00652bcb13ba8a04e72e66f327fab203fff2ad21c0fb39",
+      "afterHash": "6a867ee30f64e87ce7a960431aedef77269012649027372e0b41760b45e6b396"
+    },
+    "pipeline/out/set08.json": {
+      "beforeHash": "8fd1fcfa73ac689fb66804fadd329e9aeffee159de846fae17152186d0f11c5a",
+      "afterHash": "ad5877d1cba1ddd8c1c09d52bb2b089802372541a8c69e405ac2e900e637a53a"
+    },
+    "pipeline/out/set09.json": {
+      "beforeHash": "a1ff2285ee60cca5e7833a36f858b1bef5231449f1c3cdd1bf11ac5a587af869",
+      "afterHash": "f36fa0ded06d319490e24534396a596426fa214a22d821dbd718bb8a030f79c1"
+    },
+    "pipeline/out/set11.json": {
+      "beforeHash": "cbc69ebccd5a14fd3ca50941c69f52fed454c5c5abf29ac2b5d1c1da71a83563",
+      "afterHash": "146c59509e5814d7e68e4b01ea06f290c7bb389575b983c39bbf7227975044aa"
+    },
+    "pipeline/out/set12.json": {
+      "beforeHash": "23e263b2e72ae2c88ebf92139b2a71e8493c3c3f9934c0c6264ab2bcfd28e5fe",
+      "afterHash": "4a65e2705325c0eb1b27031fb379355ab48a49a5407b7d7f5b0f4dcaaba70794"
+    },
+    "pipeline/out/set13.json": {
+      "beforeHash": "236ddf1757dc67d4bb51c652e6907e1435b050206e7b64db4fa8c102db19804e",
+      "afterHash": "281b3a30bb5f203af8dd8eec9c771028f5a6ba1b17f3ff39631257956789b710"
+    },
+    "pipeline/out/set14.json": {
+      "beforeHash": "1a936ea4c845d6fea2bf7d90888015c1ff4e646606b91fca5f35f5bdca0dbe77",
+      "afterHash": "d8188cfe4cb0332d321704f0ae2a22ca0893e2240e7767b3ef4493491d0a1121"
+    },
+    "pipeline/out/set15.json": {
+      "beforeHash": "29b9618c3249e6c93f6de89e9e3550aa10bab8489eceeaa569a129b00fbcf414",
+      "afterHash": "ea2f0c6fc785e7fa56fde5ce77c1a9b153eac1815e3464fde797b5d4ad52e843"
+    },
+    "pipeline/out/set16.json": {
+      "beforeHash": "1475b03674b13bbd6be78279e9282a6f853c173088cc7949165427de86d1b327",
+      "afterHash": "f5696f0ce8364334f31b7f6cee547a196b261699467f89ad9bba9af80872a27a"
+    },
+    "pipeline/out/set18.json": {
+      "beforeHash": "c876c52e85dc50ebc15ccaf1bde9f48153ef131763666530476607c0d61ff76d",
+      "afterHash": "ebee92fc45f19e2c7a622de734e22fb692d1c81f5af9e4aed0979d1dc1f5f410"
+    },
+    "pipeline/out/set19.json": {
+      "beforeHash": "25c4a3759f5ef73008657b2974263f6ddd13738bef617993e85d96da385c04fa",
+      "afterHash": "37ca7360053f769f0b0a5f4cdb543ca6660cfc507725ca12045acbd872750654"
+    },
+    "pipeline/out/set20.json": {
+      "beforeHash": "62c9149d61e40104705edc644b76e34918335e3cd60ded86e91e7a3400e1c165",
+      "afterHash": "66b9e0da5c71002be881552d7c3f41211e62c09a50623c99274cbc3f3ca2a0e8"
+    },
+    "pipeline/out/set23.json": {
+      "beforeHash": "1ff49e38a2e46a703366acfcd9ce20a56ce5a3e95c17a19dfaa9db9013af5547",
+      "afterHash": "59c6a3660b95d96ba5ece51a78a176a3c87f0118395b15b619f9110732ef5693"
+    },
+    "pipeline/out/set24.json": {
+      "beforeHash": "5ec39753b275468a97d8cfb61da1bf35b7c1bcc36359e3e7a22c74142a0ee5d9",
+      "afterHash": "17d490eca45c4d3f73bc0a450bb0243b6470efcbb09c8a680b19b4daddc01e7e"
+    },
+    "pipeline/out/set27.json": {
+      "beforeHash": "88eb0c1e565cf58495e909fcc59b9b513a3295d70577a7049a1717b2cb81e438",
+      "afterHash": "d27935892e246eeb8879dcabb25670eb547cf5f0cf9cdf45f9a0c9295d952523"
+    },
+    "pipeline/out/set32.json": {
+      "beforeHash": "306f2ba0d349d63088a5dab69813973877fbed4b4e63b64b4df254ac5688a3a3",
+      "afterHash": "b91bc8acfdff9454ad501227af2baafe48c72080cddb011419919f4558e5d4e4"
+    },
+    "pipeline/exercise-topics.json": {
+      "beforeHash": "e45b6503f810fcc60e4e14121953e4d469167728f70c68be1c3e73201ee9f2cd",
+      "afterHash": "f5a2aeabd1be536407c3c30680a494595e06db4bbc2da1af6eb9d84694187030"
+    }
+  },
+  "snapshots": {
+    "DATA": {
+      "beforeHash": "0c8213d78c447a89688470d0cda694ffbbd01e89b54c7d814de8d36584ce7a14",
+      "afterHash": "79a1ae1a07cd70d46b449dffc0c47a01b3f9d091a5f0dbe650232ebd55819172",
+      "changes": [
+        {
+          "path": [
+            "0",
+            "exercises",
+            "2",
+            "words",
+            "9",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① 3월 (대문자 March)",
+          "new": "① 3월 (대문자)"
+        },
+        {
+          "path": [
+            "0",
+            "exercises",
+            "2",
+            "words",
+            "11",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① 5월 (대문자 May)",
+          "new": "① 5월 (대문자)"
+        },
+        {
+          "path": [
+            "0",
+            "exercises",
+            "3",
+            "words",
+            "11",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① ~할 수 없다 (can not)",
+          "new": "① ~할 수 없다"
+        },
+        {
+          "path": [
+            "0",
+            "exercises",
+            "16",
+            "words",
+            "5",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "⑥ (~의) 면에서, 관점에서 (in terms of)",
+          "new": "⑥ (~의) 면에서, 관점에서"
+        },
+        {
+          "path": [
+            "0",
+            "exercises",
+            "17",
+            "words",
+            "8",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (not necessarily) 반드시 ~인 것은 아니다",
+          "new": "② 반드시 ~인 것은 아니다"
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "0",
+            "words",
+            "9",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "④ (get to) 도착하다, 이르다",
+          "new": "④ 도착하다, 이르다"
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "2",
+            "words",
+            "10",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "④ (right now) 바로, 당장",
+          "new": "④ 바로, 당장"
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "3",
+            "words",
+            "14",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ (a while) 잠깐, 한동안",
+          "new": "③ 잠깐, 한동안"
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "4",
+            "words",
+            "10",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② 역할, 몫 (take part in 참여하다)",
+          "new": "② 역할, 몫"
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "5",
+            "words",
+            "6",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① 작은; (little sister) 어린",
+          "new": "① 작은; 어린"
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "6",
+            "words",
+            "1",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② 일, 사정 (복수 things)",
+          "new": "② 일, 사정 (복수형)"
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "6",
+            "words",
+            "7",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (행동을) 하다 (give a call 전화하다)",
+          "new": "② (행동을) 하다"
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "6",
+            "words",
+            "10",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (next to) ~ 바로 옆에",
+          "new": "② ~ 바로 옆에"
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "7",
+            "words",
+            "6",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② 중요한, 중대한 (no big deal 별거 아닌)",
+          "new": "② 중요한, 중대한"
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "8",
+            "words",
+            "12",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① 많음 (a lot of)",
+          "new": "① 많음"
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "9",
+            "words",
+            "6",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (제안) Let's ~하자",
+          "new": "② (제안) ~하자"
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "9",
+            "words",
+            "8",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① 놓다, 두다; (set the table) 상을 차리다",
+          "new": "① 놓다, 두다; 상을 차리다"
+        },
+        {
+          "path": [
+            "2",
+            "exercises",
+            "4",
+            "words",
+            "1",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② 먹어 보다, 입어 보다 (try on)",
+          "new": "② 먹어 보다, 입어 보다"
+        },
+        {
+          "path": [
+            "2",
+            "exercises",
+            "5",
+            "words",
+            "1",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (the other) 나머지 하나",
+          "new": "② 나머지 하나"
+        },
+        {
+          "path": [
+            "2",
+            "exercises",
+            "5",
+            "words",
+            "2",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ (the others) 나머지 전부",
+          "new": "③ 나머지 전부 (복수형)"
+        },
+        {
+          "path": [
+            "2",
+            "exercises",
+            "5",
+            "words",
+            "3",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "④ (others) 그 밖의 여럿",
+          "new": "④ 그 밖의 여럿 (복수형)"
+        },
+        {
+          "path": [
+            "2",
+            "exercises",
+            "5",
+            "words",
+            "8",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (the country) 시골 (↔ city)",
+          "new": "② 시골 (↔ city)"
+        },
+        {
+          "path": [
+            "2",
+            "exercises",
+            "6",
+            "words",
+            "14",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (of course) 물론",
+          "new": "② 물론"
+        },
+        {
+          "path": [
+            "2",
+            "exercises",
+            "9",
+            "words",
+            "2",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② 건네주다 (hand in 제출하다)",
+          "new": "② 건네주다"
+        },
+        {
+          "path": [
+            "3",
+            "exercises",
+            "1",
+            "words",
+            "3",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "④ (no matter ...) ~하든 상관없이",
+          "new": "④ ~하든 상관없이"
+        },
+        {
+          "path": [
+            "3",
+            "exercises",
+            "2",
+            "words",
+            "0",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① 조금, 약간 (a bit)",
+          "new": "① 조금, 약간"
+        },
+        {
+          "path": [
+            "3",
+            "exercises",
+            "4",
+            "words",
+            "14",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① 차라리 (would rather)",
+          "new": "① 차라리"
+        },
+        {
+          "path": [
+            "3",
+            "exercises",
+            "4",
+            "words",
+            "15",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (rather than) ~보다는, ~ 대신",
+          "new": "② ~보다는, ~ 대신"
+        },
+        {
+          "path": [
+            "3",
+            "exercises",
+            "4",
+            "words",
+            "17",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "④ (or rather) 더 정확히 말하면",
+          "new": "④ 더 정확히 말하면"
+        },
+        {
+          "path": [
+            "3",
+            "exercises",
+            "5",
+            "words",
+            "3",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② 다루다, 처리하다 (deal with)",
+          "new": "② 다루다, 처리하다"
+        },
+        {
+          "path": [
+            "3",
+            "exercises",
+            "5",
+            "words",
+            "4",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ (a great deal of) 많은 양(의)",
+          "new": "③ 많은 양(의)"
+        },
+        {
+          "path": [
+            "3",
+            "exercises",
+            "6",
+            "words",
+            "10",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ (an act of ~) 행위",
+          "new": "③ 행위"
+        },
+        {
+          "path": [
+            "3",
+            "exercises",
+            "7",
+            "words",
+            "11",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① ~에 따르면 (according to)",
+          "new": "① ~에 따르면"
+        },
+        {
+          "path": [
+            "3",
+            "exercises",
+            "9",
+            "words",
+            "8",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① 3월 (대문자 March)",
+          "new": "① 3월 (대문자)"
+        },
+        {
+          "path": [
+            "4",
+            "exercises",
+            "0",
+            "words",
+            "3",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② 약속, 한 말 (one's word)",
+          "new": "② 약속, 한 말"
+        },
+        {
+          "path": [
+            "4",
+            "exercises",
+            "1",
+            "words",
+            "14",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ 나머지 (the rest)",
+          "new": "③ 나머지"
+        },
+        {
+          "path": [
+            "4",
+            "exercises",
+            "2",
+            "words",
+            "3",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① 힘, 무력 (by force 강제로)",
+          "new": "① 힘, 무력"
+        },
+        {
+          "path": [
+            "4",
+            "exercises",
+            "3",
+            "words",
+            "7",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ 설명하다 (account for)",
+          "new": "③ 설명하다"
+        },
+        {
+          "path": [
+            "4",
+            "exercises",
+            "3",
+            "words",
+            "8",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "④ (비율을) 차지하다 (account for)",
+          "new": "④ (비율을) 차지하다"
+        },
+        {
+          "path": [
+            "4",
+            "exercises",
+            "3",
+            "words",
+            "9",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "⑤ 고려 (take ~ into account)",
+          "new": "⑤ 고려"
+        },
+        {
+          "path": [
+            "4",
+            "exercises",
+            "3",
+            "words",
+            "10",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "⑥ 이유 (on account of: ~ 때문에)",
+          "new": "⑥ 이유"
+        },
+        {
+          "path": [
+            "4",
+            "exercises",
+            "4",
+            "words",
+            "15",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② ~로 이어지다 (lead to)",
+          "new": "② ~로 이어지다"
+        },
+        {
+          "path": [
+            "4",
+            "exercises",
+            "6",
+            "words",
+            "8",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (결과로) 생기다 (result from/in)",
+          "new": "② (결과로) 생기다"
+        },
+        {
+          "path": [
+            "4",
+            "exercises",
+            "6",
+            "words",
+            "15",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "④ (at present) 현재, 지금",
+          "new": "④ 현재, 지금"
+        },
+        {
+          "path": [
+            "4",
+            "exercises",
+            "8",
+            "words",
+            "12",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② 언론, 신문 (the press)",
+          "new": "② 언론, 신문"
+        },
+        {
+          "path": [
+            "4",
+            "exercises",
+            "9",
+            "words",
+            "4",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② 근거, 이유 (grounds)",
+          "new": "② 근거, 이유"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "0",
+            "words",
+            "4",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ (be+~ing) ~하는 중이다",
+          "new": "③ ~하는 중이다"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "0",
+            "words",
+            "5",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "④ (be+과거분사) ~되다, ~받다",
+          "new": "④ ~되다, ~받다"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "0",
+            "words",
+            "13",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (to+동사원형) ~하기, ~하려고",
+          "new": "② ~하기, ~하려고"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "0",
+            "words",
+            "21",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (날씨·시간을 말하는) it",
+          "new": "② 비인칭 주어 (날씨·시간)"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "0",
+            "words",
+            "22",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ (It is ~ to…) 가짜 주어 it",
+          "new": "③ 가주어"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "0",
+            "words",
+            "25",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ (have+과거분사) ~했다, ~해 봤다",
+          "new": "③ ~했다, ~해 봤다"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "0",
+            "words",
+            "26",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "④ (have to) ~해야 한다",
+          "new": "④ ~해야 한다"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "1",
+            "words",
+            "19",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (not A but B) A가 아니라 B",
+          "new": "② A가 아니라 B"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "2",
+            "words",
+            "4",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (What a ~!) 정말 ~구나!",
+          "new": "② 정말 ~구나!"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "3",
+            "words",
+            "1",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (as soon as) ~하자마자",
+          "new": "② ~하자마자"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "3",
+            "words",
+            "2",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ (as ~ as) ~만큼",
+          "new": "③ ~만큼"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "3",
+            "words",
+            "17",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (Will you ~?) ~해 줄래?",
+          "new": "② ~해 줄래?"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "4",
+            "words",
+            "1",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (Would you like ~?) ~하시겠어요?",
+          "new": "② ~하시겠어요?"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "4",
+            "words",
+            "10",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (There is/are) ~이 있다",
+          "new": "② ~이 있다"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "4",
+            "words",
+            "19",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (how+형용사) 얼마나 ~한지",
+          "new": "② 얼마나 ~한지"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "5",
+            "words",
+            "5",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (Could you ~?) ~해 주시겠어요?",
+          "new": "② ~해 주시겠어요?"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "5",
+            "words",
+            "10",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ (be into) ~에 관심이 많은",
+          "new": "③ ~에 관심이 많은"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "5",
+            "words",
+            "16",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (more+형용사) 더 ~한",
+          "new": "② 더 ~한"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "6",
+            "words",
+            "16",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (Why don't ~?) ~하는 게 어때?",
+          "new": "② ~하는 게 어때?"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "7",
+            "words",
+            "4",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ (May) 5월",
+          "new": "③ 5월 (대문자)"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "8",
+            "words",
+            "1",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (the most ~) 가장 ~한",
+          "new": "② 가장 ~한"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "8",
+            "words",
+            "11",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (such a ~) 정말 ~한",
+          "new": "② 정말 ~한"
+        },
+        {
+          "path": [
+            "5",
+            "exercises",
+            "9",
+            "words",
+            "6",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (each other) 서로",
+          "new": "② 서로"
+        },
+        {
+          "path": [
+            "6",
+            "exercises",
+            "1",
+            "words",
+            "10",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ (grow up) 자라서 어른이 되다",
+          "new": "③ 자라서 어른이 되다"
+        },
+        {
+          "path": [
+            "6",
+            "exercises",
+            "3",
+            "words",
+            "1",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (serve as) ~로 일하다, 역할을 하다",
+          "new": "② ~로 일하다, 역할을 하다"
+        },
+        {
+          "path": [
+            "6",
+            "exercises",
+            "4",
+            "words",
+            "4",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (be based on) ~에 근거하다",
+          "new": "② ~에 근거하다"
+        },
+        {
+          "path": [
+            "6",
+            "exercises",
+            "8",
+            "words",
+            "3",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (arms) 무기",
+          "new": "② 무기 (복수형)"
+        },
+        {
+          "path": [
+            "7",
+            "exercises",
+            "0",
+            "words",
+            "8",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① (자료의) 수치",
+          "new": "① 수치, 숫자"
+        },
+        {
+          "path": [
+            "7",
+            "exercises",
+            "0",
+            "words",
+            "8",
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Look at the {{BLANK}}s in this report.",
+          "new": "The job pays a six-{{BLANK}} salary."
+        },
+        {
+          "path": [
+            "7",
+            "exercises",
+            "0",
+            "words",
+            "8",
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "이 보고서의 수치들을 봐.",
+          "new": "그 일은 여섯 자리 액수의 연봉을 줘."
+        },
+        {
+          "path": [
+            "7",
+            "exercises",
+            "0",
+            "words",
+            "8",
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "수치라는 뜻에서는 number와 같은 말. a six-figure salary는 여섯 자리 액수의 연봉.",
+          "new": "six-figure salary는 한국의 ‘억대 연봉’ 같은 관용적 표현이다."
+        },
+        {
+          "path": [
+            "7",
+            "exercises",
+            "0",
+            "words",
+            "10",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ (figure out) 알아내다",
+          "new": "③ 알아내다"
+        },
+        {
+          "path": [
+            "7",
+            "exercises",
+            "2",
+            "words",
+            "16",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (on earth) 도대체",
+          "new": "② 도대체"
+        },
+        {
+          "path": [
+            "7",
+            "exercises",
+            "3",
+            "words",
+            "9",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② 놀랄 일 (No wonder ~)",
+          "new": "② 놀랄 일"
+        },
+        {
+          "path": [
+            "7",
+            "exercises",
+            "6",
+            "words",
+            "9",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "⑤ (be subject to) ~의 영향을 받는, ~되기 쉬운",
+          "new": "⑤ ~의 영향을 받는, ~되기 쉬운"
+        },
+        {
+          "path": [
+            "7",
+            "exercises",
+            "6",
+            "words",
+            "10",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "⑥ (be subject to) ~을 조건으로 하는",
+          "new": "⑥ ~을 조건으로 하는"
+        },
+        {
+          "path": [
+            "7",
+            "exercises",
+            "6",
+            "words",
+            "11",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "⑦ (be subject to) ~의 적용·지배를 받는",
+          "new": "⑦ ~의 적용·지배를 받는"
+        },
+        {
+          "path": [
+            "7",
+            "exercises",
+            "8",
+            "words",
+            "3",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (hang out) 놀다, 어울리다",
+          "new": "② 놀다, 어울리다"
+        },
+        {
+          "path": [
+            "8",
+            "exercises",
+            "5",
+            "words",
+            "7",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① 요금 (free of charge 무료)",
+          "new": "① 요금"
+        },
+        {
+          "path": [
+            "8",
+            "exercises",
+            "5",
+            "words",
+            "9",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ (in charge of) 담당, 책임",
+          "new": "③ 담당, 책임"
+        },
+        {
+          "path": [
+            "8",
+            "exercises",
+            "6",
+            "words",
+            "19",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ (glasses) 안경",
+          "new": "③ 안경 (복수형)"
+        },
+        {
+          "path": [
+            "8",
+            "exercises",
+            "9",
+            "words",
+            "11",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (directions) 길 안내, 사용 지시",
+          "new": "② 길 안내, 사용 지시 (복수형)"
+        },
+        {
+          "path": [
+            "9",
+            "exercises",
+            "3",
+            "words",
+            "5",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ (key point) 핵심적인",
+          "new": "③ 핵심적인"
+        },
+        {
+          "path": [
+            "11",
+            "exercises",
+            "2",
+            "words",
+            "11",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (woods) 숲",
+          "new": "② 숲 (복수형)"
+        },
+        {
+          "path": [
+            "12",
+            "exercises",
+            "9",
+            "words",
+            "3",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (be supposed to) ~하기로 되어 있다",
+          "new": "② ~하기로 되어 있다"
+        },
+        {
+          "path": [
+            "13",
+            "exercises",
+            "3",
+            "words",
+            "13",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① (ought to) ~해야 한다",
+          "new": "① ~해야 한다"
+        },
+        {
+          "path": [
+            "14",
+            "exercises",
+            "6",
+            "words",
+            "8",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① (in advance) 미리",
+          "new": "① 미리"
+        },
+        {
+          "path": [
+            "15",
+            "exercises",
+            "0",
+            "words",
+            "8",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① (get rid of) 없애다",
+          "new": "① 없애다"
+        },
+        {
+          "path": [
+            "15",
+            "exercises",
+            "6",
+            "words",
+            "9",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ (trick A into) 속여서 ~하게 하다",
+          "new": "③ 속여서 ~하게 하다"
+        },
+        {
+          "path": [
+            "15",
+            "exercises",
+            "9",
+            "words",
+            "2",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② 가공하지 않은 (raw material)",
+          "new": "② 가공하지 않은"
+        },
+        {
+          "path": [
+            "16",
+            "exercises",
+            "2",
+            "words",
+            "8",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (screw up, 비격식) 망치다, 크게 실수하다",
+          "new": "② (비격식) 망치다, 크게 실수하다"
+        },
+        {
+          "path": [
+            "16",
+            "exercises",
+            "4",
+            "words",
+            "9",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (customs) 세관",
+          "new": "② 세관 (복수형)"
+        },
+        {
+          "path": [
+            "16",
+            "exercises",
+            "5",
+            "words",
+            "10",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (ruins) 폐허, 유적",
+          "new": "② 폐허, 유적 (복수형)"
+        },
+        {
+          "path": [
+            "18",
+            "exercises",
+            "0",
+            "words",
+            "5",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (stem from) ~에서 비롯되다",
+          "new": "② ~에서 비롯되다"
+        },
+        {
+          "path": [
+            "18",
+            "exercises",
+            "6",
+            "words",
+            "1",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (coin a word) 새 말을 만들어 내다",
+          "new": "② 새 말을 만들어 내다"
+        },
+        {
+          "path": [
+            "19",
+            "exercises",
+            "2",
+            "words",
+            "6",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (be anxious to) 간절히 ~하고 싶은",
+          "new": "② 간절히 ~하고 싶은"
+        },
+        {
+          "path": [
+            "19",
+            "exercises",
+            "6",
+            "words",
+            "6",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① (in spite of) ~에도 불구하고",
+          "new": "① ~에도 불구하고"
+        },
+        {
+          "path": [
+            "20",
+            "exercises",
+            "1",
+            "words",
+            "5",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② 기쁘게 하다 (be delighted 기뻐하다)",
+          "new": "② 기쁘게 하다"
+        },
+        {
+          "path": [
+            "23",
+            "exercises",
+            "9",
+            "words",
+            "2",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② ~에 기인하는(due to)",
+          "new": "② ~에 기인하는"
+        },
+        {
+          "path": [
+            "24",
+            "exercises",
+            "2",
+            "words",
+            "0",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① 많음, 많은 것 (lots of)",
+          "new": "① 많음, 많은 것"
+        },
+        {
+          "path": [
+            "24",
+            "exercises",
+            "8",
+            "words",
+            "1",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (be located) ~에 위치하다",
+          "new": "② ~에 위치하다"
+        },
+        {
+          "path": [
+            "24",
+            "exercises",
+            "8",
+            "words",
+            "4",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (used to) ~하곤 했다",
+          "new": "② ~하곤 했다"
+        },
+        {
+          "path": [
+            "27",
+            "exercises",
+            "4",
+            "words",
+            "0",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① (depending on) ~에 따라",
+          "new": "① ~에 따라"
+        },
+        {
+          "path": [
+            "32",
+            "exercises",
+            "7",
+            "words",
+            "11",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① ~을 대신하여, ~을 대표하여(on behalf of)",
+          "new": "① ~을 대신하여, ~을 대표하여"
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "0",
+            "words",
+            "3",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ 설명하다 (account for)",
+          "new": "③ 설명하다"
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "0",
+            "words",
+            "8",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "① (자료의) 수치",
+          "new": "① 수치, 숫자"
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "0",
+            "words",
+            "8",
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Look at the {{BLANK}}s in this report.",
+          "new": "The job pays a six-{{BLANK}} salary."
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "0",
+            "words",
+            "8",
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "이 보고서의 수치들을 봐.",
+          "new": "그 일은 여섯 자리 액수의 연봉을 줘."
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "0",
+            "words",
+            "8",
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "수치라는 뜻에서는 number와 같은 말. a six-figure salary는 여섯 자리 액수의 연봉.",
+          "new": "six-figure salary는 한국의 ‘억대 연봉’ 같은 관용적 표현이다."
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "1",
+            "words",
+            "5",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "④ (비율을) 차지하다 (account for)",
+          "new": "④ (비율을) 차지하다"
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "1",
+            "words",
+            "8",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "④ (no matter ...) ~하든 상관없이",
+          "new": "④ ~하든 상관없이"
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "1",
+            "words",
+            "9",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "③ (figure out) 알아내다",
+          "new": "③ 알아내다"
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "2",
+            "words",
+            "2",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "⑤ (be subject to) ~의 영향을 받는, ~되기 쉬운",
+          "new": "⑤ ~의 영향을 받는, ~되기 쉬운"
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "2",
+            "words",
+            "3",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "⑤ 고려 (take ~ into account)",
+          "new": "⑤ 고려"
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "2",
+            "words",
+            "5",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "⑥ (be subject to) ~을 조건으로 하는",
+          "new": "⑥ ~을 조건으로 하는"
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "2",
+            "words",
+            "6",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "⑥ 이유 (on account of: ~ 때문에)",
+          "new": "⑥ 이유"
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "2",
+            "words",
+            "7",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "⑥ (~의) 면에서, 관점에서 (in terms of)",
+          "new": "⑥ (~의) 면에서, 관점에서"
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "2",
+            "words",
+            "8",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "⑦ (be subject to) ~의 적용·지배를 받는",
+          "new": "⑦ ~의 적용·지배를 받는"
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "8",
+            "words",
+            "2",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (rather than) ~보다는, ~ 대신",
+          "new": "② ~보다는, ~ 대신"
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "8",
+            "words",
+            "9",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "② (not necessarily) 반드시 ~인 것은 아니다",
+          "new": "② 반드시 ~인 것은 아니다"
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "8",
+            "words",
+            "10",
+            "ko"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "④ (or rather) 더 정확히 말하면",
+          "new": "④ 더 정확히 말하면"
+        },
+        {
+          "path": [
+            "27",
+            "exercises",
+            "5",
+            "words",
+            "13",
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "I must {{BLANK}} my claim: it applies only here.",
+          "new": "I must {{BLANK}} my claim: it applies only in this case."
+        },
+        {
+          "path": [
+            "27",
+            "exercises",
+            "5",
+            "words",
+            "13",
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "내 주장에 단서를 달아야겠어. 그건 여기서만 적용돼.",
+          "new": "내 주장에 단서를 달아야겠어. 이 경우에만 적용돼."
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "1",
+            "words",
+            "3",
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "I must {{BLANK}} my claim: it applies only here.",
+          "new": "I must {{BLANK}} my claim: it applies only in this case."
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "1",
+            "words",
+            "3",
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "내 주장에 단서를 달아야겠어. 그건 여기서만 적용돼.",
+          "new": "내 주장에 단서를 달아야겠어. 이 경우에만 적용돼."
+        }
+      ]
+    }
+  },
+  "counts": {
+    "sourceCards": 107,
+    "meaningCards": 121,
+    "changedCards": 123,
+    "fields": 131
+  },
+  "followups": [
+    {
+      "date": "2026-10-02",
+      "reason": "Explain six-figure salary through the Korean 억대 연봉 analogy, with explicit US dollar range.",
+      "old": "수치를 가리킬 땐 number로 바꿔 쓸 수 있다. six-figure salary는 ‘여섯 자리 연봉’으로, number는 못 쓴다.",
+      "new": "미국에서 six-figure salary는 연 10만~100만 달러 미만, 한국의 ‘억대 연봉’ 같은 표현. 수치는 number로도 쓰지만 이 결합은 바꾸지 않는다.",
+      "beforeDataHash": "cbe8815643373c9b10a4fa1aaf87e2211da28a09b45104c8c6bfe0a9eb5cb509",
+      "afterDataHash": "32256062b6e0b2acc49ffb91889670cd22a37d25f7431f56ae1e2e26fd236b7e"
+    },
+    {
+      "date": "2026-10-02",
+      "reason": "User requested a single idiomatic comparison; remove dollar range and number discussion.",
+      "old": "미국에서 six-figure salary는 연 10만~100만 달러 미만, 한국의 ‘억대 연봉’ 같은 표현. 수치는 number로도 쓰지만 이 결합은 바꾸지 않는다.",
+      "new": "six-figure salary는 한국의 ‘억대 연봉’ 같은 관용적 표현이다.",
+      "beforeDataHash": "32256062b6e0b2acc49ffb91889670cd22a37d25f7431f56ae1e2e26fd236b7e",
+      "afterDataHash": "ad91d54a18afa64c81e906736ef867da7ad080d50cb39e1ca37ef65042824551"
+    },
+    {
+      "date": "2026-10-02",
+      "reason": "Replace vague here with only in this case in qualify, with matching translation.",
+      "changes": [
+        {
+          "path": [
+            "27",
+            "exercises",
+            "5",
+            "words",
+            "13",
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "I must {{BLANK}} my claim: it applies only here.",
+          "new": "I must {{BLANK}} my claim: it applies only in this case."
+        },
+        {
+          "path": [
+            "27",
+            "exercises",
+            "5",
+            "words",
+            "13",
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "내 주장에 단서를 달아야겠어. 그건 여기서만 적용돼.",
+          "new": "내 주장에 단서를 달아야겠어. 이 경우에만 적용돼."
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "1",
+            "words",
+            "3",
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "I must {{BLANK}} my claim: it applies only here.",
+          "new": "I must {{BLANK}} my claim: it applies only in this case."
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "1",
+            "words",
+            "3",
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "내 주장에 단서를 달아야겠어. 그건 여기서만 적용돼.",
+          "new": "내 주장에 단서를 달아야겠어. 이 경우에만 적용돼."
+        }
+      ],
+      "beforeDataHash": "ad91d54a18afa64c81e906736ef867da7ad080d50cb39e1ca37ef65042824551",
+      "afterDataHash": "79a1ae1a07cd70d46b449dffc0c47a01b3f9d091a5f0dbe650232ebd55819172"
+    }
+  ]
+}

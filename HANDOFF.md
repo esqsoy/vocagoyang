@@ -1,8 +1,14 @@
 # 보카고양 최신 인수인계
 
-갱신: 2026-10-01 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
+갱신: 2026-10-02 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
 
 ## 현재 결론과 배포 상태
+
+- **2026-10-02 qualify 예문 명료화 — 로컬, 미배포**: 27·46세트의 ‘단서를 달다’ 예문을 `I must {{BLANK}} my claim: it applies only in this case.`로 바꾸고 해석을 ‘내 주장에 단서를 달아야겠어. 이 경우에만 적용돼.’로 맞췄다. 뜻·해설은 유지했다. 원본 set27과 파생 복습 카드가 일치하며 morphology-content·IPA conservation을 통과했다. 변경 원장에 4필드를 추가해 현재 미배포 내용 변경은 누적 123카드·131필드다. 아래 figure 해설의 최종 간결화도 함께 유지한다.
+
+- **2026-10-02 figure 해설 최종 간결화 — 로컬, 미배포**: 사용자 최종 문구에 맞춰 7·46세트의 해설을 “six-figure salary는 한국의 ‘억대 연봉’ 같은 관용적 표현이다.” 한 문장으로 줄였다. 달러 범위와 number 관련 설명을 삭제했다. 예문·번역은 유지했다. 두 해설 외 DATA 변경이 없음을 확인했으며 이전 검사 이력과 이번 문구 수정은 구분한다. 변경 원장의 followups에 경위를 남겼다.
+
+- **2026-10-02 뜻의 정답 노출 제거·figure 예문 교체 — 로컬 완료, 미커밋·미배포**: FABLE 뜻의 account for·figure out·no matter 등 정답 노출을 119카드(복습 포함)에서 제거했다. figure의 원본·46세트 복습 2카드는 `The job pays a six-{{BLANK}} salary.`로 교체하고 뜻을 ‘수치, 숫자’로 조정했다. 예문으로 six-figure salary 결합을 보여 주며 최종 해설은 위의 간결한 문장을 따른다. 총 121카드·127필드 변경. 원본과 월 복습 override를 수정해 재조립했으며 단어·카드 수·순서·판정·진도·UI·IPA는 유지했다. 최종 데이터로 morphology-content, reading-core, session(620연습·7,440회), IPA conservation, build --check 통과. 별도 검사에서 원본·DATA 변경 원장, FABLE의 DATA 외 코드·스타일, 마더텅·EBS·인덱스 보존과 figure 6칸·number 오답 판정을 확인했다. [변경 원장](pipeline/meaning-hints-20261002.json), [표시 원칙](WORK_PLAN.md#유지할-합의). 공개 앱은 7032122 그대로이며 Safari 제보 학생의 실기기 재확인은 대기 중이다.
 
 - **2026-10-01 iPhone Safari 발음기호 위치 보정 공개 배포 완료**: 사용자 제보는 한 학생의 Safari에서 모든 단어의 IPA가 위아래로 분리되는 현상이다. 공통 runtime.js에서 고정 레이어의 실제 getBoundingClientRect 원점을 빼서 같은 좌표계로 배치하고 visualViewport resize/scroll에도 갱신한다. 위치 이벤트를 한 프레임으로 묶고 효과 종료 시 예약을 취소한다. 기존 코드는 원점이 -180px인 모의 조건에서 180px 어긋났고 보정 후 통과했다. 반대 방향·좌우 이동·전체 IPA·기존 배치·종료/취소도 검사했다. 학생 기기의 정확한 원인은 아직 미확정이며 실기기 재확인이 필요하다. 앱 커밋 7032122를 origin/main에 푸시했고 GitHub Pages 실행 36873498316 성공 및 인덱스·세 과정 공개 HTML 일치를 확인했다. 배포 요청 후 관련 검사 8개를 다시 실행해 통과했다. 공개판은 7032122다. [배포 기록](DEPLOYMENT.md).
 

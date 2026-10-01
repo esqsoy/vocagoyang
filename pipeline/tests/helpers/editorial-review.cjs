@@ -7,6 +7,7 @@ const contentReview=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../con
 const poolExpansion=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../pool-expansion-20260927/findings.json'),'utf8'));
 const playerFeedbacks=['20260927','20260928'].map(date=>JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../player-feedback-'+date+'.json'),'utf8')));
 const {review:synonymReview,restoreSynonymReview}=require('../../synonym-review-20260929/restore.cjs');
+const meaningHints=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../../meaning-hints-20261002.json'),'utf8'));
 function restorePlayerFeedback(data){
   const restored=restoreSynonymReview(data),hash=value=>crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
   for(const playerFeedback of [...playerFeedbacks].reverse()){
@@ -52,6 +53,7 @@ function restoreContentReview(data){
 function restoreTopicGrouping(data,{beforeContentReview=false}={}){
   const restored=structuredClone(data);
   const currentReview=crypto.createHash('sha256').update(JSON.stringify(data)).digest('hex')===synonymReview.afterDataSha256;
+  const currentMeaningReview=crypto.createHash('sha256').update(JSON.stringify(data)).digest('hex')===meaningHints.snapshots.DATA.afterHash;
   // Remove only the two audited calendar repeats and their grouping metadata
   // before restoring explanation snapshots at their historical card indexes.
   for(const change of topicReview.metadataChanges){
@@ -69,6 +71,14 @@ function restoreTopicGrouping(data,{beforeContentReview=false}={}){
     if(currentReview)for(const change of synonymReview.changes){
       if(change.lesson===added.lesson&&change.exercise===added.ex&&change.index===added.index){
         assert.equal(expected[change.field],change.old);expected[change.field]=change.new;
+      }
+    }
+    // Apply only the recorded calendar wording delta to the historical fixture.
+    // All other fields of these inserted review cards remain independently checked.
+    if(currentMeaningReview)for(const change of meaningHints.snapshots.DATA.changes){
+      const p=change.path,exerciseIndex=data[added.lesson].exercises.findIndex(e=>e.ex===added.ex);
+      if(p.join('/')===`${added.lesson}/exercises/${exerciseIndex}/words/${added.index}/ko`){
+        assert.equal(expected.ko,change.old);expected.ko=change.new;
       }
     }
     assert.deepEqual(words[added.index],expected);words.splice(added.index,1);

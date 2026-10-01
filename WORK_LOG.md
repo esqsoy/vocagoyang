@@ -125,6 +125,30 @@
 - 검증: 관련 8개 검사 재실행 통과. Pages 실행 36873498316 성공 후 인덱스와 세 게임의 HTTP 200 및 로컬/공개 SHA-256 일치를 확인했다. 실기기 해결 여부는 아직 확인하지 않았다.
 - 상태: 공개 배포 완료. HANDOFF·DEPLOYMENT와 IPA 안내를 갱신했다. 기존 미추적 임시 파일은 포함하지 않았다. 후속 기록 커밋은 게임 파일을 바꾸지 않는다.
 
+## 2026-10-02 · 뜻의 정답 노출 정리·figure 예문 구별
+
+- 요청·결정: account for·figure out·no matter처럼 문제의 뜻에 정답 표현이 쓰인 경우 제거한다. figure의 자료 수치 예문에서는 number도 자연스러우므로 결합 차이가 드러나는 예문으로 교체한다. 단어 추가·삭제와 게임 규칙 변경은 없다.
+- 반영: 정답을 보여 주던 괄호 117곳과 괄호 밖 Let's·it 2곳, 총 119카드의 뜻 표기를 정리했다. 대문자·복수형·비격식 표지는 한국어로 유지했다. figure 원본과 46세트 복습 2카드의 뜻·예문·해석·해설을 수정했다. 새 문장 `The job pays a six-{{BLANK}} salary.`는 number로 대체할 수 없는 결합을 보여 준다. 수치 의미의 상호 대체와 결합의 제약을 구별했다. Cambridge와 Oxford의 figure 항목을 대조했으며 출처는 변경 원장에 있다.
+- 원본: `pipeline/out/lesson00~04.json`과 해당 `set05~32.json`, `pipeline/exercise-topics.json`의 May override. assemble로 FABLE과 46세트 참조 카드를 재생성하고 IPA 빌드로 생성 상태를 맞췄다. 실제 변경은 121카드·127필드이며 `pipeline/meaning-hints-20261002.json`에 변경 전후 값과 DATA·원본 해시를 남겼다. 과거 검사 해시를 덮어쓰지 않고 복원 도우미에서 이번 변경만 되돌린 뒤 기존 보존 검사를 수행한다. WORK_PLAN에 표시 원칙을 기록했다.
+- 검증: 최종 자료로 morphology-content, reading-core, session(620연습·7,440회), IPA conservation, IPA build --check 통과. 추가 검사에서 공개 기준 HEAD와 원장의 이전 해시, 현재 원본 해시, FABLE의 DATA 외 코드·스타일 및 인덱스·마더텅·EBS 파일 보존을 확인했다. 실제 게임 함수로 six- 뒤 6개 입력칸·salary 표시, figure 정답·number 오답을 확인했다. 모든 FABLE 뜻에서 정답 단어의 영어 토큰이 그대로 남아 있는 사례가 없는지 검사했다. 브라우저 실화면 검사는 이번 내용 수정에서 별도로 실행하지 않았다.
+- 상태: 로컬 완료, 미커밋·미배포. 공개 앱은 7032122다. Safari 위치 보정의 해당 학생 기기 재확인은 수업 때 확인하기로 한 상태다.
+
+## 2026-10-02 · six-figure salary의 연봉 수준 설명
+
+- 요청·반영: ‘여섯 자리 액수’의 뜻이 짧은 플레이 중 와닿지 않는다는 피드백에 따라 figure 해설을 보완했다. 미국 기준 연 10만~100만 달러 미만을 밝히고 한국어의 ‘억대 연봉’ 같은 표현으로 설명한다. 원화 금액과 정확히 같다는 정의는 아니다. number와의 의미 공유·고정 결합 차이는 유지했다.
+- 원본·출처: `pipeline/out/set07.json`의 figure 첫 뜻 해설을 수정하고 46세트 복습·FABLE HTML을 재조립했다. Cambridge의 six-figure salary 정의와 대조했다. `pipeline/meaning-hints-20261002.json`에 출처와 후속 변경 이력을 추가하고 최초 보존 해시는 유지했다.
+- 검증·상태: 직전 수정본에서 7·46세트의 해설 두 곳만 바뀐 것을 확인했다. morphology-content·IPA conservation·build --check 통과. 로컬 완료, 미커밋·미배포. 공개판 7032122는 유지한다.
+
+## 2026-10-02 · figure 해설 한 문장으로 축약
+
+- 사용자 최종 요청: “six-figure salary는 한국의 ‘억대 연봉’ 같은 관용적 표현이다.”만 유지하고 달러 범위·number 비교를 삭제했다.
+- 원본 set07과 파생 set46·FABLE HTML에 반영했다. 변경 원장에 후속 이력을 추가했고 직전 데이터 대비 두 해설만 바뀐 것을 해시로 검증했다. 로컬 완료, 미커밋·미배포.
+
+## 2026-10-02 · qualify의 적용 범위 명료화
+
+- 사용자 요청에 따라 qualify의 세 번째 뜻 예문에서 `it applies only here`를 `it applies only in this case`로 바꿨다. 한국어 해석도 ‘이 경우에만 적용돼.’로 수정했다. 뜻과 기존 해설은 유지한다.
+- set27 원본과 46세트 복습·FABLE HTML에 반영했다. 변경 원장에 원본·복습의 예문·해석 4필드를 기록하고 기존 보존 해시는 유지했다. morphology-content와 IPA conservation 통과. 로컬 완료, 미커밋·미배포.
+
 ## 다음 기록 형식
 
 ```text

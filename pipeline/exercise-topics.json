@@ -16,7 +16,7 @@
       "reason": "요일 7개와 월 12개를 각각 완결한다. March와 May는 기존의 다의어 학습을 유지하면서 달의 뜻만 다시 다룬다.",
       "additions": [
         {"ref": {"set": 3, "word": "march", "si": 1}, "before": "April", "overrides": {"si": 1, "sn": 1, "c": "3월은 대문자 March. 소문자 march(행진하다)와는 어원이 다른 별개 단어로, 전쟁의 신 Mars의 달에서 왔다."}},
-        {"ref": {"set": 5, "word": "may", "si": 3}, "before": "June", "overrides": {"si": 1, "sn": 1, "ko": "① 5월 (대문자 May)"}}
+        {"ref": {"set": 5, "word": "may", "si": 3}, "before": "June", "overrides": {"si": 1, "sn": 1, "ko": "① 5월 (대문자)"}}
       ],
       "parts": [
         {"through": "Sunday", "name": "요일"},
