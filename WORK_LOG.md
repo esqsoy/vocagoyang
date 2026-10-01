@@ -119,6 +119,12 @@
 - 검증: IPA layout, completion, advance, stress, host-hooks, conservation, answer-replay, build --check 총 8개 통과. 위치 검사는 ±180px 원점·좌우 이동·기존 좌표·전체 표시·중복 이벤트·취소를 포함한다. Chromium 실제 화면의 photographic과 390px 화면에서 IPA/철자 중심 일치·가로 넘침 없음·경고/오류 없음 확인. iPhone Safari 자체 검사는 못 했으며 해당 학생 기기에서 재확인해야 한다.
 - 상태: 로컬 완료, 미커밋·미배포. 공개 앱은 cadd4fb 그대로다. 관련 설계·검사와 출처는 pipeline/ipa-effects/README.md에 기록했다.
 
+## 2026-10-01 · Safari 위치 보정 공개 배포
+
+- 요청·반영: 사용자가 위치 보정본 배포를 승인했다. 세 과정 공통 런타임과 관련 검사·문서를 앱 커밋 7032122로 origin/main에 푸시했다.
+- 검증: 관련 8개 검사 재실행 통과. Pages 실행 36873498316 성공 후 인덱스와 세 게임의 HTTP 200 및 로컬/공개 SHA-256 일치를 확인했다. 실기기 해결 여부는 아직 확인하지 않았다.
+- 상태: 공개 배포 완료. HANDOFF·DEPLOYMENT와 IPA 안내를 갱신했다. 기존 미추적 임시 파일은 포함하지 않았다. 후속 기록 커밋은 게임 파일을 바꾸지 않는다.
+
 ## 다음 기록 형식
 
 ```text

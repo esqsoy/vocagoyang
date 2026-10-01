@@ -1,3 +1,24 @@
+# 모바일 Safari 발음기호 위치 보정 · 2026-10-01
+
+- 앱 커밋: [7032122a2be6b670f03f325fa23ff4b4398cfef2](https://github.com/esqsoy/vocagoyang/commit/7032122a2be6b670f03f325fa23ff4b4398cfef2), origin/main 푸시 완료.
+- [GitHub Pages 36873498316](https://github.com/esqsoy/vocagoyang/actions/runs/36873498316): completed / success. 2026-10-01 23:05 KST 인덱스·세 과정 HTTP 200 및 검증본과의 일치를 확인했다.
+- FABLE·마더텅·EBS 공통 IPA가 고정 레이어의 실제 원점을 기준으로 배치되고 visualViewport의 resize/scroll을 따라간다. 위치 갱신을 한 프레임으로 묶고 효과 종료 시 예약을 취소한다. 스타일·발음 속도·단어 데이터·진도는 유지한다.
+- 배포 요청 후 검사 8개 재실행·통과: IPA layout, completion, advance, stress, host-hooks, conservation, answer-replay, build --check. 구현 단계에서 Chromium 일반 화면과 390px도 확인했다.
+- 학생의 iPhone Safari 실기기에서 해결됐는지는 아직 미확인이다. 모의 원점 이동에서 기존 분리 현상이 재현되고 보정 후 통과한 결과와 실기기 검증을 구분한다.
+
+공개 UTF-8 텍스트를 LF로 정규화한 SHA-256:
+
+| 파일 | SHA-256 |
+| --- | --- |
+| index.html | c89abf0834676d0ec708a66babaae82ddfd9e5c9025c1f1f1e5f1c5057de42cb |
+| vocagoyangfable.html | 2458c9339bb762e1b7dce96a7ff5bf97f66dadeaed6cbfae7b01df994d32ee0d |
+| vocagoyangksat2027.html | 9c9dee92b4bb4de5c5329d44ae9ee751c5f5cd27a3b844963891ff78ba20757f |
+| vocagoyangebs2027.html | 855c51369c700524d4780ecb5b3dbfd723bcc31def2009dea075732da14d311f |
+
+[교재 선택](https://esqsoy.github.io/vocagoyang/?release=7032122) · [FABLE](https://esqsoy.github.io/vocagoyang/vocagoyangfable.html?release=7032122)
+
+---
+
 # 어원·접미사 보강과 인덱스 자동 집계 · 2026-10-01
 
 - 앱 커밋: [cadd4fbb9f4c24a05b6d9565db308ffba50eb4a4](https://github.com/esqsoy/vocagoyang/commit/cadd4fbb9f4c24a05b6d9565db308ffba50eb4a4). origin/main 푸시 완료.

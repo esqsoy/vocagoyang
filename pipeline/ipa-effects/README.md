@@ -33,7 +33,7 @@ The runtime and map appear immediately after the opening tag of the main inline 
 
 ## Playback and release validation
 
-2026-10-01 viewport positioning follow-up (local; publication status in HANDOFF):
+2026-10-01 viewport positioning follow-up (published as 7032122; affected-device confirmation pending):
 `ipaEffectPosition` subtracts the live effect-layer rectangle origin from slot
 rectangles before setting absolute child coordinates. A fixed layer must not be
 assumed to start at (0, 0), and a visualViewport offset must not be blindly added
