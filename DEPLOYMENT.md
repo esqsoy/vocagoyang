@@ -1,3 +1,24 @@
+# 뜻의 정답 노출 정리·figure·qualify 수정 · 2026-10-02
+
+- 앱 커밋: [1764496dfcba928e382e6a69d57ec82634f969f5](https://github.com/esqsoy/vocagoyang/commit/1764496dfcba928e382e6a69d57ec82634f969f5), origin/main 푸시 완료.
+- [GitHub Pages 36904196964](https://github.com/esqsoy/vocagoyang/actions/runs/36904196964): completed / success. 인덱스·세 과정 HTTP 200과 로컬 검증본의 일치를 확인했다.
+- 뜻의 정답 노출 119곳을 정리했다. figure의 six-figure salary 예문과 한국의 ‘억대 연봉’ 비유 한 문장, qualify의 only in this case 예문을 반영했다. 원본·복습 포함 123카드·131필드다.
+- 단어 수·순서·정답 판정·진도·UI·IPA는 유지한다. 인덱스·마더텅·EBS 파일은 이전 공개본과 동일하다.
+- 배포 요청 후 검사 5개 재실행 통과: morphology-content, reading-core, session(620연습·7,440회), IPA conservation, IPA build --check. 변경 원장의 최초 보존 해시는 유지했다.
+
+공개 UTF-8 텍스트를 LF로 정규화한 SHA-256:
+
+| 파일 | SHA-256 |
+| --- | --- |
+| index.html | c89abf0834676d0ec708a66babaae82ddfd9e5c9025c1f1f1e5f1c5057de42cb |
+| vocagoyangfable.html | 0870a31258bd736557f71c7509a9ea883249b14cbe02dea46497f2db17185ea6 |
+| vocagoyangksat2027.html | 9c9dee92b4bb4de5c5329d44ae9ee751c5f5cd27a3b844963891ff78ba20757f |
+| vocagoyangebs2027.html | 855c51369c700524d4780ecb5b3dbfd723bcc31def2009dea075732da14d311f |
+
+[FABLE 열기](https://esqsoy.github.io/vocagoyang/vocagoyangfable.html?release=1764496)
+
+---
+
 # 모바일 Safari 발음기호 위치 보정 · 2026-10-01
 
 - 앱 커밋: [7032122a2be6b670f03f325fa23ff4b4398cfef2](https://github.com/esqsoy/vocagoyang/commit/7032122a2be6b670f03f325fa23ff4b4398cfef2), origin/main 푸시 완료.

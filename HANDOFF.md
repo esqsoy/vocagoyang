@@ -4,13 +4,9 @@
 
 ## 현재 결론과 배포 상태
 
-- **2026-10-02 qualify 예문 명료화 — 로컬, 미배포**: 27·46세트의 ‘단서를 달다’ 예문을 `I must {{BLANK}} my claim: it applies only in this case.`로 바꾸고 해석을 ‘내 주장에 단서를 달아야겠어. 이 경우에만 적용돼.’로 맞췄다. 뜻·해설은 유지했다. 원본 set27과 파생 복습 카드가 일치하며 morphology-content·IPA conservation을 통과했다. 변경 원장에 4필드를 추가해 현재 미배포 내용 변경은 누적 123카드·131필드다. 아래 figure 해설의 최종 간결화도 함께 유지한다.
+- **2026-10-02 뜻·예문 수정 공개 배포 완료**: 앱 커밋 1764496을 origin/main에 푸시했고 [GitHub Pages 36904196964](https://github.com/esqsoy/vocagoyang/actions/runs/36904196964) 성공, 인덱스·세 과정 HTTP 200 및 로컬 검증본과의 일치를 확인했다. FABLE 뜻의 정답 노출 119곳을 정리하고 figure·qualify 원본 및 복습 카드를 수정했다. 누적 123카드·131필드 변경이다. figure 해설은 “six-figure salary는 한국의 ‘억대 연봉’ 같은 관용적 표현이다.” 한 문장, qualify 예문은 `it applies only in this case`를 사용한다. 단어·카드 수·진도·판정·UI·IPA 및 마더텅·EBS·인덱스 내용은 유지했다. [변경 원장](pipeline/meaning-hints-20261002.json), [배포 기록](DEPLOYMENT.md). 현재 미배포 앱 변경은 없으며 Safari 제보 학생의 실기기 재확인은 계속 대기 중이다.
 
-- **2026-10-02 figure 해설 최종 간결화 — 로컬, 미배포**: 사용자 최종 문구에 맞춰 7·46세트의 해설을 “six-figure salary는 한국의 ‘억대 연봉’ 같은 관용적 표현이다.” 한 문장으로 줄였다. 달러 범위와 number 관련 설명을 삭제했다. 예문·번역은 유지했다. 두 해설 외 DATA 변경이 없음을 확인했으며 이전 검사 이력과 이번 문구 수정은 구분한다. 변경 원장의 followups에 경위를 남겼다.
-
-- **2026-10-02 뜻의 정답 노출 제거·figure 예문 교체 — 로컬 완료, 미커밋·미배포**: FABLE 뜻의 account for·figure out·no matter 등 정답 노출을 119카드(복습 포함)에서 제거했다. figure의 원본·46세트 복습 2카드는 `The job pays a six-{{BLANK}} salary.`로 교체하고 뜻을 ‘수치, 숫자’로 조정했다. 예문으로 six-figure salary 결합을 보여 주며 최종 해설은 위의 간결한 문장을 따른다. 총 121카드·127필드 변경. 원본과 월 복습 override를 수정해 재조립했으며 단어·카드 수·순서·판정·진도·UI·IPA는 유지했다. 최종 데이터로 morphology-content, reading-core, session(620연습·7,440회), IPA conservation, build --check 통과. 별도 검사에서 원본·DATA 변경 원장, FABLE의 DATA 외 코드·스타일, 마더텅·EBS·인덱스 보존과 figure 6칸·number 오답 판정을 확인했다. [변경 원장](pipeline/meaning-hints-20261002.json), [표시 원칙](WORK_PLAN.md#유지할-합의). 공개 앱은 7032122 그대로이며 Safari 제보 학생의 실기기 재확인은 대기 중이다.
-
-- **2026-10-01 iPhone Safari 발음기호 위치 보정 공개 배포 완료**: 사용자 제보는 한 학생의 Safari에서 모든 단어의 IPA가 위아래로 분리되는 현상이다. 공통 runtime.js에서 고정 레이어의 실제 getBoundingClientRect 원점을 빼서 같은 좌표계로 배치하고 visualViewport resize/scroll에도 갱신한다. 위치 이벤트를 한 프레임으로 묶고 효과 종료 시 예약을 취소한다. 기존 코드는 원점이 -180px인 모의 조건에서 180px 어긋났고 보정 후 통과했다. 반대 방향·좌우 이동·전체 IPA·기존 배치·종료/취소도 검사했다. 학생 기기의 정확한 원인은 아직 미확정이며 실기기 재확인이 필요하다. 앱 커밋 7032122를 origin/main에 푸시했고 GitHub Pages 실행 36873498316 성공 및 인덱스·세 과정 공개 HTML 일치를 확인했다. 배포 요청 후 관련 검사 8개를 다시 실행해 통과했다. 공개판은 7032122다. [배포 기록](DEPLOYMENT.md).
+- **2026-10-01 iPhone Safari 발음기호 위치 보정 공개 배포 완료**: 사용자 제보는 한 학생의 Safari에서 모든 단어의 IPA가 위아래로 분리되는 현상이다. 공통 runtime.js에서 고정 레이어의 실제 getBoundingClientRect 원점을 빼서 같은 좌표계로 배치하고 visualViewport resize/scroll에도 갱신한다. 위치 이벤트를 한 프레임으로 묶고 효과 종료 시 예약을 취소한다. 기존 코드는 원점이 -180px인 모의 조건에서 180px 어긋났고 보정 후 통과했다. 반대 방향·좌우 이동·전체 IPA·기존 배치·종료/취소도 검사했다. 학생 기기의 정확한 원인은 아직 미확정이며 실기기 재확인이 필요하다. 앱 커밋 7032122를 origin/main에 푸시했고 GitHub Pages 실행 36873498316 성공 및 인덱스·세 과정 공개 HTML 일치를 확인했다. 배포 요청 후 관련 검사 8개를 다시 실행해 통과했다. 당시 앱 커밋은 7032122다. [배포 기록](DEPLOYMENT.md).
 
 - **2026-10-01 전체 업데이트 공개 배포 완료**. 앱 커밋 [cadd4fb](https://github.com/esqsoy/vocagoyang/commit/cadd4fbb9f4c24a05b6d9565db308ffba50eb4a4)을 origin/main에 푸시했다. [GitHub Pages 36754934684](https://github.com/esqsoy/vocagoyang/actions/runs/36754934684)의 success와 인덱스·세 과정 공개 HTML이 로컬 검증본과 일치함을 확인했다. 아래 배포 이전의 로컬 검수 이력도 이번 배포에 포함된다. 상세 해시는 [배포 기록](DEPLOYMENT.md).
 - 어원·접미사 과정은 기존 167카드를 보존하면서 327→357→358카드로 보강했다. 현재 **358카드·141개 개념 단위·34연습**, 47세트 124카드·12연습, 48세트 234카드·22연습이다. 전체 FABLE은 **7,067카드·620연습**. [선행 어원 보강](pipeline/morphology-rebuild-20260930/REPORT.md), [접미사 후속 보강](pipeline/suffix-rebuild-20261001/REPORT.md).
@@ -20,7 +16,7 @@
 - 세 과정 공통 IPA: 정상 TTS 종료가 예상보다 빨라 미표시 음절이 남으면 전체를 표시하고 180ms 유지한 뒤 기존 250ms 사라짐을 이어간다. 이미 전부 표시됐으면 추가 대기 없이, 수동 건너뛰기는 즉시 종료한다. 코드에서 확인한 누락 경로를 수정했으며 최초 사용자 사례의 원인까지 특정한 것은 아니다.
 - 인덱스는 실제 DATA에서 등록 표제어를 자동 집계한다. FABLE **4,916**, 마더텅 추가 **3,238**·누적 **8,154**, EBS 추가 **129**·최종 **8,283**. 구 표현·이전 기출을 포함하며 word family 수는 아니다. FABLE 조립·마더텅 발췌·공통 IPA 빌드에 연결했고 --check로 오래된 수치를 검출한다. [집계 기준·명령](pipeline/README.md#인덱스-단어-수-자동-갱신).
 - 예문 있음 → 문장 안 입력 / 예문 없음 → 독립 입력, 정답 터치 음성·IPA 재생 등 기존 표준은 유지한다. [UI_STANDARD.md](UI_STANDARD.md).
-- 작업 브랜치는 codex/fable-upgrade-20260919, 저장소는 https://github.com/esqsoy/vocagoyang.git, 공개 사이트는 https://esqsoy.github.io/vocagoyang/ 다. 이번 앱 기준은 7032122이며 후속 배포 기록 커밋은 게임 HTML을 바꾸지 않는다. 다음 작업에서 최신 HEAD·원격 상태와 git status를 확인한다.
+- 작업 브랜치는 codex/fable-upgrade-20260919, 저장소는 https://github.com/esqsoy/vocagoyang.git, 공개 사이트는 https://esqsoy.github.io/vocagoyang/ 다. 이번 앱 기준은 1764496이며 후속 배포 기록 커밋은 게임 HTML을 바꾸지 않는다. 다음 작업에서 최신 HEAD·원격 상태와 git status를 확인한다.
 
 ## 마더텅 발췌 적용 범위
 
@@ -41,7 +37,11 @@
 
 원문 PDF와 전체 OCR은 로컬 참고 자료다. 저장소에는 검토한 발췌 데이터와 코드만 둔다. OCR 텍스트를 원문 검증 없이 확정하지 않는다.
 
-## 이번 배포 검사 · 2026-10-01
+## 이번 배포 검사 · 2026-10-02
+
+배포 요청 후 morphology-content, reading-core, session(620연습·7,440회), IPA conservation, IPA build --check의 5개 검사를 재실행해 모두 통과했다. 공개 4개 HTML은 HTTP 200과 LF 정규화 SHA-256 일치로 검증했다. 아래는 이전 배포의 별도 검사 이력이다.
+
+## 이전 배포 검사 · 2026-10-01
 
 위 공개 배포 이후 Safari 위치 보정에서 새로 실행한 검사: IPA layout/completion/advance/stress/host-hooks/conservation, answer-replay, build --check 총 8개 통과. 로컬 Chromium에서 photographic의 일반 화면과 390px 화면을 확인했고 IPA와 철자칸의 중심이 일치하며 가로 넘침·경고·오류가 없었다. 이는 iPhone Safari 자체를 실행한 검사가 아니다. 임시 탭과 화면 폭 설정은 정리했다.
 
