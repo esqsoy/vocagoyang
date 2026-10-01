@@ -1,3 +1,25 @@
+# 동의어 해설·공통 고양이 대사 수정 · 2026-10-02
+
+- 앱 커밋: [91a1b15ebbba72a2e3affd67724a2731b109a3bb](https://github.com/esqsoy/vocagoyang/commit/91a1b15ebbba72a2e3affd67724a2731b109a3bb), origin/main 푸시 완료.
+- [GitHub Pages 36912696092](https://github.com/esqsoy/vocagoyang/actions/runs/36912696092): completed / success. 공개 인덱스·세 과정 HTTP 200과 검증본의 일치를 확인했다.
+- FABLE implication·consequence의 해설 3개와 복습 3개를 보완했다. ‘영향·결과’ 뜻의 대체 가능성과 ‘암시’ 뜻의 차이를 명시했다.
+- FABLE·마더텅·EBS 공통 유사어 오답 대사를 “이번에 익힐 단어는 이거라고양!”으로 바꿨다. 한국어 뜻 중복만으로 영어의 쓰임이 다르다고 단정하지 않는다.
+- 단어·예문·정답 범위·진도는 유지했다. 동의어 검수 원칙은 문서에 확정했으며 기존 ALT·acceptedAnswers 개별 예외의 재검수는 후속 작업이다.
+- 배포 요청 후 검사 5개 통과: morphology-content, session(620연습·7,440회), IPA conservation, textbook-ui, IPA build --check.
+
+공개 UTF-8 텍스트를 LF로 정규화한 SHA-256:
+
+| 파일 | SHA-256 |
+| --- | --- |
+| index.html | c89abf0834676d0ec708a66babaae82ddfd9e5c9025c1f1f1e5f1c5057de42cb |
+| vocagoyangfable.html | 73b6137b6312d5a538c3207df389399d32a443cd2f0ff3ca6abd33b1a703a0a6 |
+| vocagoyangksat2027.html | 5fa45291af74556c71ec7dce737563d576857802b3e5d5ee8d063e101991bbe3 |
+| vocagoyangebs2027.html | e5f88c6fe629466d21c94e9ab5797511170b5b4569382c954ccf9ad2b838a027 |
+
+[FABLE 열기](https://esqsoy.github.io/vocagoyang/vocagoyangfable.html?release=91a1b15)
+
+---
+
 # 뜻의 정답 노출 정리·figure·qualify 수정 · 2026-10-02
 
 - 앱 커밋: [1764496dfcba928e382e6a69d57ec82634f969f5](https://github.com/esqsoy/vocagoyang/commit/1764496dfcba928e382e6a69d57ec82634f969f5), origin/main 푸시 완료.
