@@ -53,7 +53,8 @@ function restoreContentReview(data){
 function restoreTopicGrouping(data,{beforeContentReview=false}={}){
   const restored=structuredClone(data);
   const currentReview=crypto.createHash('sha256').update(JSON.stringify(data)).digest('hex')===synonymReview.afterDataSha256;
-  const currentMeaningReview=crypto.createHash('sha256').update(JSON.stringify(data)).digest('hex')===meaningHints.snapshots.DATA.afterHash;
+  const beforeSynonymPolicy=require('../../restore-word-family-wording.cjs').restoreSynonymPolicy(data);
+  const currentMeaningReview=crypto.createHash('sha256').update(JSON.stringify(beforeSynonymPolicy)).digest('hex')===meaningHints.snapshots.DATA.afterHash;
   // Remove only the two audited calendar repeats and their grouping metadata
   // before restoring explanation snapshots at their historical card indexes.
   for(const change of topicReview.metadataChanges){

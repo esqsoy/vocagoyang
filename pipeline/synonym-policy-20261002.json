@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-02",
+  "reason": "Meaning-specific synonym policy; neutral feedback never invents a usage difference from Korean gloss overlap.",
+  "sources": [
+    "https://www.oxfordlearnersdictionaries.com/definition/english/implication",
+    "https://www.oxfordlearnersdictionaries.com/definition/english/consequence"
+  ],
+  "sourceChanges": [
+    {
+      "file": "pipeline/out/lesson00.json",
+      "lesson": 0,
+      "exercise": 15,
+      "word": "implication",
+      "si": 1,
+      "field": "c",
+      "old": "결정이 앞으로 미칠 영향·결과. 이 뜻은 흔히 복수형 implications로 써.",
+      "new": "앞으로 미칠 영향·결과. 이 뜻은 consequence와 바꿔 쓸 수 있다. 흔히 복수형으로 쓴다."
+    },
+    {
+      "file": "pipeline/out/lesson00.json",
+      "lesson": 0,
+      "exercise": 15,
+      "word": "implication",
+      "si": 2,
+      "field": "c",
+      "old": "직접 말하지 않고 드러낸 뜻. implication that ~는 ~라는 암시.",
+      "new": "직접 말하지 않고 드러낸 뜻·암시. 결과를 뜻하는 consequence로 바꿔 쓰지 않는다."
+    },
+    {
+      "file": "pipeline/out/lesson00.json",
+      "lesson": 0,
+      "exercise": 15,
+      "word": "consequence",
+      "si": 1,
+      "field": "c",
+      "old": "행동·상황이 가져온 결과. 나쁜 결과에 자주 쓰지만 꼭 나쁜 뜻만은 아니야.",
+      "new": "행동·상황에 따른 결과. 앞으로 미칠 영향은 implication과 바꿔 쓴다. 나쁜 결과에 자주 쓴다."
+    }
+  ],
+  "sourceSnapshots": {
+    "pipeline/out/lesson00.json": {
+      "beforeHash": "972209f320bf0e30057f0dc2916a5b30257596bfebd649975a8d416b3b3142cb",
+      "afterHash": "2aff9dd0df9037b244c8ddf312dbffaa14a1f37af70066624314919df82a75b8"
+    }
+  },
+  "feedback": [
+    {
+      "file": "vocagoyangfable.html",
+      "old": "const SYNLINES=[\n  \"‘{w}’도 한글 뜻은 같다고양. 근데 영어에선 쓰임이 다르다고양 — 여기선 이 단어라고양!\",\n  \"‘{w}’? 뜻은 겹치는데 영어 맥락이 다르다고양. 지문에서 어떻게 쓰였는지 기억하라고양!\",\n  \"한글론 ‘{w}’도 맞다고양. 근데 영어는 단어마다 자리가 있다고양. 이번엔 이 단어라고양!\",\n  \"‘{w}’랑 뜻은 비슷해도 바꿔 쓰면 어색하다고양. 여기선 이 단어라고양!\",\n];",
+      "new": "const SYNLINES=[\n  \"이번에 익힐 단어는 이거라고양!\",\n];"
+    },
+    {
+      "file": "vocagoyangksat2027.html",
+      "old": "const SYNLINES=[\n  \"‘{w}’도 한글 뜻은 같다고양. 근데 영어에선 쓰임이 다르다고양 — 여기선 이 단어라고양!\",\n  \"‘{w}’? 뜻은 겹치는데 영어 맥락이 다르다고양. 지문에서 어떻게 쓰였는지 기억하라고양!\",\n  \"한글론 ‘{w}’도 맞다고양. 근데 영어는 단어마다 자리가 있다고양. 이번엔 이 단어라고양!\",\n  \"‘{w}’랑 뜻은 비슷해도 바꿔 쓰면 어색하다고양. 여기선 이 단어라고양!\",\n];",
+      "new": "const SYNLINES=[\n  \"이번에 익힐 단어는 이거라고양!\",\n];"
+    },
+    {
+      "file": "vocagoyangebs2027.html",
+      "old": "const SYNLINES=[\n  \"‘{w}’도 한글 뜻은 같다고양. 근데 영어에선 쓰임이 다르다고양 — 여기선 이 단어라고양!\",\n  \"‘{w}’? 뜻은 겹치는데 영어 맥락이 다르다고양. 지문에서 어떻게 쓰였는지 기억하라고양!\",\n  \"한글론 ‘{w}’도 맞다고양. 근데 영어는 단어마다 자리가 있다고양. 이번엔 이 단어라고양!\",\n  \"‘{w}’랑 뜻은 비슷해도 바꿔 쓰면 어색하다고양. 여기선 이 단어라고양!\",\n];",
+      "new": "const SYNLINES=[\n  \"이번에 익힐 단어는 이거라고양!\",\n];"
+    }
+  ],
+  "snapshots": {
+    "DATA": {
+      "beforeHash": "79a1ae1a07cd70d46b449dffc0c47a01b3f9d091a5f0dbe650232ebd55819172",
+      "afterHash": "3d85500ab4f4afb1946e62a2602645ee6c2428ba16d10271a2cfc660457d039e",
+      "changes": [
+        {
+          "path": [
+            "0",
+            "exercises",
+            "13",
+            "words",
+            "2",
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "결정이 앞으로 미칠 영향·결과. 이 뜻은 흔히 복수형 implications로 써.",
+          "new": "앞으로 미칠 영향·결과. 이 뜻은 consequence와 바꿔 쓸 수 있다. 흔히 복수형으로 쓴다."
+        },
+        {
+          "path": [
+            "0",
+            "exercises",
+            "13",
+            "words",
+            "3",
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "직접 말하지 않고 드러낸 뜻. implication that ~는 ~라는 암시.",
+          "new": "직접 말하지 않고 드러낸 뜻·암시. 결과를 뜻하는 consequence로 바꿔 쓰지 않는다."
+        },
+        {
+          "path": [
+            "0",
+            "exercises",
+            "13",
+            "words",
+            "6",
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "행동·상황이 가져온 결과. 나쁜 결과에 자주 쓰지만 꼭 나쁜 뜻만은 아니야.",
+          "new": "행동·상황에 따른 결과. 앞으로 미칠 영향은 implication과 바꿔 쓴다. 나쁜 결과에 자주 쓴다."
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "3",
+            "words",
+            "6",
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "결정이 앞으로 미칠 영향·결과. 이 뜻은 흔히 복수형 implications로 써.",
+          "new": "앞으로 미칠 영향·결과. 이 뜻은 consequence와 바꿔 쓸 수 있다. 흔히 복수형으로 쓴다."
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "4",
+            "words",
+            "4",
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "직접 말하지 않고 드러낸 뜻. implication that ~는 ~라는 암시.",
+          "new": "직접 말하지 않고 드러낸 뜻·암시. 결과를 뜻하는 consequence로 바꿔 쓰지 않는다."
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "5",
+            "words",
+            "1",
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "행동·상황이 가져온 결과. 나쁜 결과에 자주 쓰지만 꼭 나쁜 뜻만은 아니야.",
+          "new": "행동·상황에 따른 결과. 앞으로 미칠 영향은 implication과 바꿔 쓴다. 나쁜 결과에 자주 쓴다."
+        }
+      ]
+    }
+  }
+}
