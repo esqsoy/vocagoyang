@@ -1,3 +1,26 @@
+# 모아둔 카드·학습 배치 조정 통합 배포 · 2026-10-03
+
+- 앱 커밋: [843b189c54593731fcb2b799d600579679b302fd](https://github.com/esqsoy/vocagoyang/commit/843b189c54593731fcb2b799d600579679b302fd), origin/main 푸시 완료.
+- [GitHub Pages 37124186893](https://github.com/esqsoy/vocagoyang/actions/runs/37124186893): completed / success. 공개 인덱스·세 과정 HTTP 200, 로컬 검증본과 LF 정규화 SHA-256 일치를 확인했다.
+- 세 과정의 고양이 저장/해제, 번호 없는 ‘모아둔 카드’, 개인 복습·목록 펼치기·개별 해제·목록 복사를 배포했다. 기기·브라우저별 저장이며 정규 진도·이어하기·엔딩·콤보와 분리한다.
+- FABLE 독해 핵심 77카드 0→45, 기초 핵심 36카드 0→4, 서수 30카드→1, 방위 10카드→3, a/an·좌우파 대비쌍 결합, 45 잔여 두 연습 결합. 총 7,067카드·4,916표제어는 그대로, 연습은 620→623이다. 0세트는 305→192카드다.
+- qualification/certification의 사용자 확정 해설 3카드도 함께 반영했다. 정답 범위는 유지한다.
+- 배포 요청 후 검사: placement-regrouping(7,067 저장 ID, 74 부분 완료 조건, 이전 3,250/현재 623 이어하기), saved-cards 세 과정, 선행 lesson-placement, reading-core, session 7,476회, morphology-content, 교재 UI·6,498/597카드 입력·6,422발췌, answer-replay, IPA conservation·host-hooks, IPA·원문·saved 빌드 --check, index-stats --check. 조립 재현성·disassemble 보호·diff --check도 통과했다.
+- 공개 브라우저에서 ‘모아둔 카드’와 최종 세트·연습 수치 표시를 확인했다. 실제 iPhone Safari 검사는 아니다.
+
+공개 UTF-8 텍스트를 LF로 정규화한 SHA-256:
+
+| 파일 | SHA-256 |
+| --- | --- |
+| index.html | c89abf0834676d0ec708a66babaae82ddfd9e5c9025c1f1f1e5f1c5057de42cb |
+| vocagoyangfable.html | cc651be0a9c6682e2fbb253c1406c27c22bb53bb06be540b2de38615a0800466 |
+| vocagoyangksat2027.html | e7ac85d7aac94f7f29c64f3f4cbb4d251fd299ff9c9ae701a15c7b12cfb4512c |
+| vocagoyangebs2027.html | 317cbf3aa01fe22689fe117b2d9f842aa8c3185453709750f81256ea0bbc0d09 |
+
+[FABLE 열기](https://esqsoy.github.io/vocagoyang/vocagoyangfable.html?release=843b189)
+
+---
+
 # 동의어 해설·공통 고양이 대사 수정 · 2026-10-02
 
 - 앱 커밋: [91a1b15ebbba72a2e3affd67724a2731b109a3bb](https://github.com/esqsoy/vocagoyang/commit/91a1b15ebbba72a2e3affd67724a2731b109a3bb), origin/main 푸시 완료.

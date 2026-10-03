@@ -4,7 +4,7 @@
 
 ## 현재 결론과 배포 상태
 
-- **2026-10-03 배치 조정·모아둔 카드 배포 준비 완료**: 사용자가 제안 전부와 배포를 승인했다. 세 과정에 고양이 저장/해제와 번호 없는 ‘모아둔 카드’를 넣었다. 개인 복습·목록 펼치기·개별 해제·목록 복사를 지원하며 현재 기기·브라우저별 저장이다. 정규 진도·이어하기·콤보와 분리한다. FABLE 배치 조정과 qualification 해설 수정도 함께 배포할 준비를 마쳤다. 아직 이번 변경의 원격 푸시·Pages 성공은 확인 전이다. [공통 구현](pipeline/saved-cards/README.md), [배치 원장·결과](pipeline/placement-review-20261003/REPORT.md).
+- **2026-10-03 배치 조정·모아둔 카드 공개 배포 완료**: 사용자가 제안 전부와 배포를 승인했다. 세 과정에 고양이 저장/해제와 번호 없는 ‘모아둔 카드’를 넣었다. 개인 복습·목록 펼치기·개별 해제·목록 복사를 지원하며 현재 기기·브라우저별 저장이다. 정규 진도·이어하기·콤보와 분리한다. FABLE 배치 조정과 qualification 해설 수정도 함께 배포했다. 앱 커밋 [843b189](https://github.com/esqsoy/vocagoyang/commit/843b189c54593731fcb2b799d600579679b302fd)을 origin/main에 푸시했고 [GitHub Pages 37124186893](https://github.com/esqsoy/vocagoyang/actions/runs/37124186893) 성공, 공개 인덱스·세 과정 HTTP 200 및 검증본과의 일치를 확인했다. [공통 구현](pipeline/saved-cards/README.md), [배치 원장·결과](pipeline/placement-review-20261003/REPORT.md).
 
 - **최종 FABLE 구성: 51세트·623연습·7,067카드·등록 표제어 4,916개**. 전체 카드 내용·중복 횟수·저장 ID를 보존했다. 0세트의 독해 핵심 77카드는 45로, 기초 핵심 36카드는 4로 이동했다. 서수 30카드는 1세트 끝의 13/9/8장, 방위 10카드는 3세트 끝 한 판이다. a/an은 5세트 한 판(15장), left-wing/right-wing은 35세트 한 판(14장)이다. 서수를 뺀 45의 두 잔여 5장 묶음은 한 판 10장으로 합쳤다. 최종 0은 192카드·17연습, 1은 233·24, 3은 166·17, 4는 213·22, 45는 158·13이다. 4의 east도 방위로 이동했으므로 기초 보강만 더한 214가 아닌 213카드다.
 
@@ -26,7 +26,7 @@
 - 세 과정 공통 IPA: 정상 TTS 종료가 예상보다 빨라 미표시 음절이 남으면 전체를 표시하고 180ms 유지한 뒤 기존 250ms 사라짐을 이어간다. 이미 전부 표시됐으면 추가 대기 없이, 수동 건너뛰기는 즉시 종료한다. 코드에서 확인한 누락 경로를 수정했으며 최초 사용자 사례의 원인까지 특정한 것은 아니다.
 - 인덱스는 실제 DATA에서 등록 표제어를 자동 집계한다. FABLE **4,916**, 마더텅 추가 **3,238**·누적 **8,154**, EBS 추가 **129**·최종 **8,283**. 구 표현·이전 기출을 포함하며 word family 수는 아니다. FABLE 조립·마더텅 발췌·공통 IPA 빌드에 연결했고 --check로 오래된 수치를 검출한다. [집계 기준·명령](pipeline/README.md#인덱스-단어-수-자동-갱신).
 - 예문 있음 → 문장 안 입력 / 예문 없음 → 독립 입력, 정답 터치 음성·IPA 재생 등 기존 표준은 유지한다. [UI_STANDARD.md](UI_STANDARD.md).
-- 작업 브랜치는 codex/fable-upgrade-20260919, 저장소는 https://github.com/esqsoy/vocagoyang.git, 공개 사이트는 https://esqsoy.github.io/vocagoyang/ 다. 이번 앱 기준은 91a1b15이며 후속 배포 기록 커밋은 게임 HTML을 바꾸지 않는다. 다음 작업에서 최신 HEAD·원격 상태와 git status를 확인한다.
+- 작업 브랜치는 codex/fable-upgrade-20260919, 저장소는 https://github.com/esqsoy/vocagoyang.git, 공개 사이트는 https://esqsoy.github.io/vocagoyang/ 다. 이번 앱 기준은 843b189이며 후속 배포 기록 커밋은 게임 HTML을 바꾸지 않는다. 다음 작업에서 최신 HEAD·원격 상태와 git status를 확인한다.
 
 ## 마더텅 발췌 적용 범위
 
@@ -47,11 +47,11 @@
 
 원문 PDF와 전체 OCR은 로컬 참고 자료다. 저장소에는 검토한 발췌 데이터와 코드만 둔다. OCR 텍스트를 원문 검증 없이 확정하지 않는다.
 
-## 이번 배포 전 검사 · 2026-10-03
+## 이번 배포 검사 · 2026-10-03
 
 승인한 최종 배치 후 새로 실행한 검사: placement-regrouping(623연습·모든 카드/ID·완료 범위·이어하기), saved-cards(세 과정), lesson-placement(선행 77카드 이동 보존), reading-core(역사적 단계 보존), session(623연습·7,476회), morphology-content, textbook-ui(EBS 597카드 입력), mother-tongue-layout(6,498카드 입력), mother-tongue-excerpts(6,422발췌), answer-replay(세 과정), IPA conservation·host-hooks, IPA/원문/saved 빌드 --check, index-stats --check 모두 통과했다. 최신 원본 조립의 재현성과 잘못된 disassemble 차단도 확인했다.
 
-앞선 기능 구현 단계에서 좁은 내장 브라우저로 세 과정 저장→목록→재플레이, FABLE 재로딩·펼치기·복사, 원문/발음과 진도 분리를 확인했다. 이번 배치 후 홈 623연습·세트 수치, 1세트 서수 묶음을 다시 확인했다. iPhone Safari 실기기 검사는 아니다.
+앞선 기능 구현 단계에서 좁은 내장 브라우저로 세 과정 저장→목록→재플레이, FABLE 재로딩·펼치기·복사, 원문/발음과 진도 분리를 확인했다. 이번 배치 후 홈 623연습·세트 수치, 1세트 서수 묶음을 다시 확인했다. 배포 후 실제 공개 브라우저에서 모아둔 카드와 623연습·0세트 192카드 표시도 확인했다. iPhone Safari 실기기 검사는 아니다.
 
 ## 이전 배포 검사 · 2026-10-02
 
