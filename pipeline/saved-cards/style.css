@@ -1,0 +1,19 @@
+/* Personal collection controls reuse the existing purple panels and text tones. */
+#catSubmit{position:relative;}
+#catSubmit::after{content:'☆';position:absolute;right:-3px;bottom:-1px;font-size:16px;line-height:1;color:var(--muted,#c4b8cf);text-shadow:0 1px 2px #20102c;pointer-events:none;}
+#catSubmit[aria-pressed="true"]::after{content:'★';color:var(--gold,#ffd54f);}
+#catSubmit:focus-visible{outline:2px solid var(--gold,#ffd54f);outline-offset:3px;border-radius:8px;}
+.saved-home{border-color:var(--line);}
+.saved-home .lid{color:var(--text,#fff);}
+#exList.saved-mode{display:block;}
+#exList.saved-mode>.exbtn{width:100%;margin-bottom:8px;}
+.saved-tools{display:flex;justify-content:flex-end;margin-bottom:8px;}
+.saved-list{margin-top:20px;display:grid;gap:8px;}
+.saved-row{display:flex;align-items:flex-start;gap:12px;border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:rgba(0,0,0,.08);}
+.saved-row details{flex:1;min-width:0;overflow-wrap:anywhere;}
+.saved-row summary{cursor:pointer;line-height:1.6;}
+.saved-row p{line-height:1.7;margin:10px 0 0;white-space:pre-wrap;}
+.saved-row .saved-source{font-size:.8rem;color:var(--muted,#c4b8cf);}
+.saved-remove{flex:none;border:1px solid var(--line);background:transparent;color:inherit;border-radius:8px;min-height:40px;padding:8px 10px;cursor:pointer;}
+.saved-empty{line-height:1.7;padding:12px 0;color:var(--muted,#c4b8cf);}
+.saved-copy-box{box-sizing:border-box;width:100%;min-height:180px;background:var(--panel,#281834);border:1px solid var(--line);color:inherit;padding:12px;border-radius:10px;margin-top:12px;}

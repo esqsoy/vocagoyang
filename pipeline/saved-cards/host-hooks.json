@@ -1,0 +1,218 @@
+{
+  "date": "2026-10-03",
+  "purpose": "Personal saved-card host integration; exact inverse patches retain existing learning-rule baselines.",
+  "files": {
+    "vocagoyangfable.html": [
+      {
+        "old": "aria-label=\"확인 (고양고양이 탭)\"",
+        "new": "aria-label=\"이 카드 담기\" aria-pressed=\"false\""
+      },
+      {
+        "old": "function activeLesson(){return state.lessons[state.li];}",
+        "new": "function activeLesson(){return state.savedLesson||state.lessons[state.li];}"
+      },
+      {
+        "old": "function visEx(L){return state.prevOn?L.exercises:L.exercises.filter(e=>e.scope!=='prev');}",
+        "new": "function visEx(L){return L.kind==='saved'||state.prevOn?L.exercises:L.exercises.filter(e=>e.scope!=='prev');}"
+      },
+      {
+        "old": "function nextLessonIndex(li){",
+        "new": "function nextLessonIndex(li){if(state.savedLesson)return -1;"
+      },
+      {
+        "old": "  state.lessons.forEach((L,i)=>{",
+        "new": "  if(typeof savedRenderHome===\"function\")savedRenderHome();\n  state.lessons.forEach((L,i)=>{"
+      },
+      {
+        "old": "function openLesson(i){",
+        "new": "function openLesson(i){\n  state.savedLesson=null;"
+      },
+      {
+        "old": "function renderExList(){",
+        "new": "function renderExList(){\n  if(typeof savedRenderList===\"function\"&&savedRenderList())return;"
+      },
+      {
+        "old": "function setRec(lid,t,rec){",
+        "new": "function setRec(lid,t,rec){\n  if(lid===\"모아둔 카드\")return;"
+      },
+      {
+        "old": "function saveLast(lid,title){",
+        "new": "function saveLast(lid,title){if(lid===\"모아둔 카드\")return;"
+      },
+      {
+        "old": "$(\"#catSubmit\").addEventListener(\"click\",e=>{e.preventDefault();e.stopPropagation();submit();});",
+        "new": "$(\"#catSubmit\").addEventListener(\"click\",e=>{e.preventDefault();e.stopPropagation();savedToggleCurrent();});\n$(\"#catSubmit\").addEventListener(\"keydown\",e=>{if(e.key===\"Enter\"||e.key===\" \")e.stopPropagation();});"
+      },
+      {
+        "old": "if(composingKey(e)||e.target?.closest?.(\".answer-replay\"))return;",
+        "new": "if(composingKey(e)||e.target?.closest?.(\".answer-replay,#catSubmit\"))return;"
+      },
+      {
+        "old": "    s.cardLimit=limitFor(w.term);",
+        "new": "    if(typeof savedSyncCat===\"function\")savedSyncCat();\n    s.cardLimit=limitFor(w.term);"
+      },
+      {
+        "old": "function completePerfectRun(s,first){",
+        "new": "function completePerfectRun(s,first){\n  if(s.lesson?.kind===\"saved\")return 0;"
+      },
+      {
+        "old": "if(s&&!s.partial&&!s.perfectRunSettled)",
+        "new": "if(s&&s.lesson?.kind!==\"saved\"&&!s.partial&&!s.perfectRunSettled)"
+      },
+      {
+        "old": "const allCleared=clearedExercises()>=totalExercises();",
+        "new": "const allCleared=s.lesson.kind!==\"saved\"&&clearedExercises()>=totalExercises();"
+      },
+      {
+        "old": "  if(s.partial){$(\"#sumTitle\").textContent=\"틀린 단어 복습 끝 ✦\";}",
+        "new": "  if(s.lesson.kind===\"saved\"){$(\"#sumTitle\").textContent=\"모아둔 카드 복습 끝 ✦\";}\n  else if(s.partial){$(\"#sumTitle\").textContent=\"틀린 단어 복습 끝 ✦\";}"
+      },
+      {
+        "old": "$(\"#backHome\").addEventListener(\"click\",()=>{renderHome();show(\"home\");});",
+        "new": "$(\"#backHome\").addEventListener(\"click\",()=>{state.savedLesson=null;renderHome();show(\"home\");});"
+      }
+    ],
+    "vocagoyangksat2027.html": [
+      {
+        "old": "aria-label=\"확인 (고양고양이 탭)\"",
+        "new": "aria-label=\"이 카드 담기\" aria-pressed=\"false\""
+      },
+      {
+        "old": "function visEx(L)",
+        "new": "function activeLesson(){return state.savedLesson||state.lessons[state.li];}\nfunction visEx(L)"
+      },
+      {
+        "old": "const L=state.lessons[state.li]",
+        "new": "const L=activeLesson()",
+        "count": 4
+      },
+      {
+        "old": "function visEx(L){return state.prevOn?L.exercises:L.exercises.filter(e=>e.scope!=='prev');}",
+        "new": "function visEx(L){return L.kind==='saved'||state.prevOn?L.exercises:L.exercises.filter(e=>e.scope!=='prev');}"
+      },
+      {
+        "old": "function nextLessonIndex(li){",
+        "new": "function nextLessonIndex(li){if(state.savedLesson)return -1;"
+      },
+      {
+        "old": "  state.lessons.forEach((L,i)=>{",
+        "new": "  if(typeof savedRenderHome===\"function\")savedRenderHome();\n  state.lessons.forEach((L,i)=>{"
+      },
+      {
+        "old": "function openLesson(i){",
+        "new": "function openLesson(i){\n  state.savedLesson=null;"
+      },
+      {
+        "old": "function renderExList(){",
+        "new": "function renderExList(){\n  if(typeof savedRenderList===\"function\"&&savedRenderList())return;"
+      },
+      {
+        "old": "function setRec(lid,t,rec){",
+        "new": "function setRec(lid,t,rec){\n  if(lid===\"모아둔 카드\")return;"
+      },
+      {
+        "old": "function saveLast(lid,title){",
+        "new": "function saveLast(lid,title){if(lid===\"모아둔 카드\")return;"
+      },
+      {
+        "old": "$(\"#catSubmit\").addEventListener(\"click\",e=>{e.preventDefault();e.stopPropagation();submit();});",
+        "new": "$(\"#catSubmit\").addEventListener(\"click\",e=>{e.preventDefault();e.stopPropagation();savedToggleCurrent();});\n$(\"#catSubmit\").addEventListener(\"keydown\",e=>{if(e.key===\"Enter\"||e.key===\" \")e.stopPropagation();});"
+      },
+      {
+        "old": "    s.cardLimit=limitFor(w.term);",
+        "new": "    if(typeof savedSyncCat===\"function\")savedSyncCat();\n    s.cardLimit=limitFor(w.term);"
+      },
+      {
+        "old": "function completePerfectRun(s,first){",
+        "new": "function completePerfectRun(s,first){\n  if(s.lesson?.kind===\"saved\")return 0;"
+      },
+      {
+        "old": "if(s&&!s.partial&&!s.perfectRunSettled)",
+        "new": "if(s&&s.lesson?.kind!==\"saved\"&&!s.partial&&!s.perfectRunSettled)"
+      },
+      {
+        "old": "const allCleared=clearedExercises()>=totalExercises();",
+        "new": "const allCleared=s.lesson.kind!==\"saved\"&&clearedExercises()>=totalExercises();"
+      },
+      {
+        "old": "  if(allCleared){line=pick(LINES.allDone);",
+        "new": "  if(s.lesson.kind===\"saved\"){$(\"#sumTitle\").textContent=\"모아둔 카드 복습 끝 ✦\";}\n  else if(allCleared){line=pick(LINES.allDone);"
+      },
+      {
+        "old": "$(\"#backHome\").addEventListener(\"click\",()=>{renderHome();show(\"home\");});",
+        "new": "$(\"#backHome\").addEventListener(\"click\",()=>{state.savedLesson=null;renderHome();show(\"home\");});"
+      }
+    ],
+    "vocagoyangebs2027.html": [
+      {
+        "old": "aria-label=\"확인 (고양고양이 탭)\"",
+        "new": "aria-label=\"이 카드 담기\" aria-pressed=\"false\""
+      },
+      {
+        "old": "function visEx(L)",
+        "new": "function activeLesson(){return state.savedLesson||state.lessons[state.li];}\nfunction visEx(L)"
+      },
+      {
+        "old": "const L=state.lessons[state.li]",
+        "new": "const L=activeLesson()",
+        "count": 4
+      },
+      {
+        "old": "function visEx(L){return state.prevOn?L.exercises:L.exercises.filter(e=>e.scope!=='prev');}",
+        "new": "function visEx(L){return L.kind==='saved'||state.prevOn?L.exercises:L.exercises.filter(e=>e.scope!=='prev');}"
+      },
+      {
+        "old": "function nextLessonIndex(li){",
+        "new": "function nextLessonIndex(li){if(state.savedLesson)return -1;"
+      },
+      {
+        "old": "  state.lessons.forEach((L,i)=>{",
+        "new": "  if(typeof savedRenderHome===\"function\")savedRenderHome();\n  state.lessons.forEach((L,i)=>{"
+      },
+      {
+        "old": "function openLesson(i){",
+        "new": "function openLesson(i){\n  state.savedLesson=null;"
+      },
+      {
+        "old": "function renderExList(){",
+        "new": "function renderExList(){\n  if(typeof savedRenderList===\"function\"&&savedRenderList())return;"
+      },
+      {
+        "old": "function setRec(lid,t,rec){",
+        "new": "function setRec(lid,t,rec){\n  if(lid===\"모아둔 카드\")return;"
+      },
+      {
+        "old": "function saveLast(lid,title){",
+        "new": "function saveLast(lid,title){if(lid===\"모아둔 카드\")return;"
+      },
+      {
+        "old": "$(\"#catSubmit\").addEventListener(\"click\",e=>{e.preventDefault();e.stopPropagation();submit();});",
+        "new": "$(\"#catSubmit\").addEventListener(\"click\",e=>{e.preventDefault();e.stopPropagation();savedToggleCurrent();});\n$(\"#catSubmit\").addEventListener(\"keydown\",e=>{if(e.key===\"Enter\"||e.key===\" \")e.stopPropagation();});"
+      },
+      {
+        "old": "    s.cardLimit=limitFor(w.term);",
+        "new": "    if(typeof savedSyncCat===\"function\")savedSyncCat();\n    s.cardLimit=limitFor(w.term);"
+      },
+      {
+        "old": "function completePerfectRun(s,first){",
+        "new": "function completePerfectRun(s,first){\n  if(s.lesson?.kind===\"saved\")return 0;"
+      },
+      {
+        "old": "if(s&&!s.partial&&!s.perfectRunSettled)",
+        "new": "if(s&&s.lesson?.kind!==\"saved\"&&!s.partial&&!s.perfectRunSettled)"
+      },
+      {
+        "old": "const allCleared=clearedExercises()>=totalExercises();",
+        "new": "const allCleared=s.lesson.kind!==\"saved\"&&clearedExercises()>=totalExercises();"
+      },
+      {
+        "old": "  if(allCleared){line=pick(LINES.allDone);",
+        "new": "  if(s.lesson.kind===\"saved\"){$(\"#sumTitle\").textContent=\"모아둔 카드 복습 끝 ✦\";}\n  else if(allCleared){line=pick(LINES.allDone);"
+      },
+      {
+        "old": "$(\"#backHome\").addEventListener(\"click\",()=>{renderHome();show(\"home\");});",
+        "new": "$(\"#backHome\").addEventListener(\"click\",()=>{state.savedLesson=null;renderHome();show(\"home\");});"
+      }
+    ]
+  }
+}

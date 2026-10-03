@@ -5,6 +5,7 @@ const review=JSON.parse(fs.readFileSync(path.join(__dirname,'word-family-wording
 const feedback=JSON.parse(fs.readFileSync(path.join(__dirname,'player-feedback-20261001.json'),'utf8'));
 const meaningHints=JSON.parse(fs.readFileSync(path.join(__dirname,'meaning-hints-20261002.json'),'utf8'));
 const synonymPolicy=JSON.parse(fs.readFileSync(path.join(__dirname,'synonym-policy-20261002.json'),'utf8'));
+const feedback20261003=JSON.parse(fs.readFileSync(path.join(__dirname,'player-feedback-20261003.json'),'utf8'));
 const hash=x=>crypto.createHash('sha256').update(JSON.stringify(x)).digest('hex');
 function restoreRecorded(value,record){
  const result=structuredClone(value);
@@ -19,7 +20,8 @@ function restoreRecorded(value,record){
  assert.equal(hash(result),record.beforeHash,'Changes exceed the recorded content delta');return result;
 }
 function restoreSynonymPolicy(value,kind='DATA'){
- return restoreRecorded(value,synonymPolicy.snapshots[kind]);
+ if(kind==='DATA')value=require('./restore-lesson-placement.cjs').restoreLessonPlacement(value);
+ return restoreRecorded(restoreRecorded(value,feedback20261003.snapshots[kind]),synonymPolicy.snapshots[kind]);
 }
 function restorePlayerFeedback(value,kind='DATA'){
  let result=restoreRecorded(restoreSynonymPolicy(value,kind),meaningHints.snapshots[kind]);

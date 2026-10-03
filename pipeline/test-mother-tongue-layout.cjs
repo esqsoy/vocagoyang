@@ -18,7 +18,7 @@ for(const change of pronunciationCorrections){
 }
 assert.equal(digest(JSON.stringify(originalPronunciations)),fixture.pronunciationSha256,'Published pronunciation data changes only in the explicitly recorded IPA corrections');
 for(const [name,value] of Object.entries(fixture.storage))assert.equal(h.run(name),value,`${name} progress key`);
-for(const [name,hash] of Object.entries(fixture.functions))assert.equal(digest(h.ctx[name].toString().replace(/\r\n/g,'\n')),hash,`${name} is an unchanged learning/progress rule`);
+for(const [name,hash] of Object.entries(fixture.functions))assert.equal(digest(require('./saved-cards/restore-host.cjs').restoreHostFunction(h.ctx[name].toString(),'vocagoyangksat2027.html')),hash,`${name} is an unchanged learning/progress rule outside personal review`);
 assert.deepEqual(plain(h.state.lessons.map(l=>({id:l.id,exercises:l.exercises.map(e=>({title:e.title,scope:e.scope}))}))),fixture.progressKeys,'Every original record address remains valid');
 assert.equal(h.ctx.totalExercises(),161);assert.equal(h.state.lessons.reduce((n,l)=>n+h.ctx.visEx(l).reduce((s,e)=>s+e.words.length,0),0),2089);
 h.state.prevOn=true;

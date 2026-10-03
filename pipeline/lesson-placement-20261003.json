@@ -1,0 +1,89 @@
+{
+  "id": "reading-core-placement-20261003",
+  "reason": "Move abstract reading reinforcement out of the introductory set while keeping authored card identities and progress.",
+  "titleChanges": [
+    {
+      "lesson": 45,
+      "old": "4384~4460",
+      "new": "4384~4460 · 독해 핵심 보강"
+    }
+  ],
+  "moves": [
+    {
+      "fromLesson": 0,
+      "fromExercise": 14,
+      "fromIndex": 12,
+      "toLesson": 45,
+      "toExercise": 9,
+      "cards": 14,
+      "originalMetadata": {
+        "ex": 14,
+        "name": "독해 핵심 보강 1"
+      }
+    },
+    {
+      "fromLesson": 0,
+      "fromExercise": 15,
+      "fromIndex": 13,
+      "toLesson": 45,
+      "toExercise": 10,
+      "cards": 13,
+      "originalMetadata": {
+        "ex": 15,
+        "name": "독해 핵심 보강 2"
+      }
+    },
+    {
+      "fromLesson": 0,
+      "fromExercise": 16,
+      "fromIndex": 14,
+      "toLesson": 45,
+      "toExercise": 11,
+      "cards": 14,
+      "originalMetadata": {
+        "ex": 16,
+        "name": "독해 핵심 보강 3"
+      }
+    },
+    {
+      "fromLesson": 0,
+      "fromExercise": 17,
+      "fromIndex": 15,
+      "toLesson": 45,
+      "toExercise": 12,
+      "cards": 13,
+      "originalMetadata": {
+        "ex": 17,
+        "name": "독해 핵심 보강 4"
+      }
+    },
+    {
+      "fromLesson": 0,
+      "fromExercise": 18,
+      "fromIndex": 16,
+      "toLesson": 45,
+      "toExercise": 13,
+      "cards": 14,
+      "originalMetadata": {
+        "ex": 18,
+        "name": "독해 핵심 보강 5"
+      }
+    },
+    {
+      "fromLesson": 0,
+      "fromExercise": 19,
+      "fromIndex": 17,
+      "toLesson": 45,
+      "toExercise": 14,
+      "cards": 9,
+      "originalMetadata": {
+        "ex": 19,
+        "name": "독해 핵심 보강 6"
+      }
+    }
+  ],
+  "audit": {
+    "beforeDataSha256": "4a66afe0ef030e5b637fab7d6e177f05a4e7c2984a97725fc72a8bbd3b3fe5d6",
+    "afterDataSha256": "8d4b27a25f0be1b4d4d05472635e1cb56ada4703e55f36a95820c85ba8dce75c"
+  }
+}

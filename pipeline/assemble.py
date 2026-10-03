@@ -129,6 +129,33 @@ for group in topics['groups']:
         raise ValueError('Topic boundaries do not cover the full exercise')
     exercise['practiceParts'] = parts
 
+# Display placement is separate from authored locations used by review refs.
+# Keep each moved exercise's existing storage identity and resume location.
+placement = read(P / 'lesson-placement-20261003.json')
+for move in placement['moves']:
+    source = next(L for L in data if L['lesson'] == move['fromLesson'])
+    target = next(L for L in data if L['lesson'] == move['toLesson'])
+    exercise = next(e for e in source['exercises'] if e['ex'] == move['fromExercise'])
+    if len(exercise['words']) != move['cards']:
+        raise ValueError('Review placement manifest after changing the card pool')
+    if any(e['ex'] == move['toExercise'] for e in target['exercises']):
+        raise ValueError('Duplicate exercise at relocation destination')
+    title = f"Exercise {exercise['ex']} · {exercise['name']}"
+    exercise.update(progressId=source['label'], progressTitle=title,
+                    legacyLocation={'lid': source['label'], 'title': title},
+                    relocatedFrom={'lid': source['label'], 'title': title})
+    source['exercises'].remove(exercise)
+    exercise['ex'] = move['toExercise']
+    target['exercises'].append(exercise)
+for change in placement['titleChanges']:
+    lesson = next(L for L in data if L['lesson'] == change['lesson'])
+    if lesson['name'] != change['old']:
+        raise ValueError('Unexpected lesson title before relocation')
+    lesson['name'] = change['new']
+
+from placement_regrouping import apply_regrouping
+data = apply_regrouping(data)
+
 src = HTML.read_text(encoding='utf-8')
 constants = [('DATA', data), ('READING_CORE', core), ('MORPHOLOGY', morph)]
 if connections:

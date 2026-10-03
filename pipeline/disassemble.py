@@ -12,6 +12,9 @@ HTML = sys.argv[1] if len(sys.argv) > 1 else HTMLPATH
 src = open(HTML, encoding='utf-8').read()
 m = re.search(r'const DATA = (\[.*?\]);\n', src, re.S)
 data = json.loads(m.group(1))
+if any(L.get('placementHistory') or any(e.get('relocatedFrom') for e in L['exercises']) for L in data):
+    raise SystemExit('이 HTML에는 원본과 다른 학습 배치가 적용돼 있어 직접 분해하지 않습니다. '
+                     'Git의 pipeline/out 원본과 배치 원장을 복원하세요. pipeline/README.md 참조.')
 os.makedirs(f'{P}/out', exist_ok=True)
 for L in data:
     n = L['lesson']

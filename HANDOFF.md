@@ -1,17 +1,25 @@
 # 보카고양 최신 인수인계
 
-갱신: 2026-10-02 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
+갱신: 2026-10-03 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
 
 ## 현재 결론과 배포 상태
 
-- **2026-10-02 동의어 검수 원칙·안내 수정 공개 배포 완료**: 앱 커밋 91a1b15을 origin/main에 푸시했다. [GitHub Pages 36912696092](https://github.com/esqsoy/vocagoyang/actions/runs/36912696092) 성공, 인덱스·세 과정 HTTP 200 및 로컬 검증본과의 일치를 확인했다. implication 영향/암시와 consequence 결과의 해설 3개 및 46세트 복습 3개를 보완했다. 세 과정 SYNLINES는 “이번에 익힐 단어는 이거라고양!”으로 통일해 근거 없는 대체 불가 단정을 제거했다. WORK_PLAN의 뜻·문맥별 원칙을 AGENTS·UI_STANDARD에서 참조한다. 배포 전 morphology-content, session(7,440회), IPA conservation, textbook-ui, build --check를 재실행해 통과했다. 예문·정답 범위·기록은 유지하며 기존 ALT·acceptedAnswers의 개별 예외는 별도 검수 대상이다. [변경 원장](pipeline/synonym-policy-20261002.json), [배포 기록](DEPLOYMENT.md). 미배포 앱 변경은 없다.
+- **2026-10-03 배치 조정·모아둔 카드 배포 준비 완료**: 사용자가 제안 전부와 배포를 승인했다. 세 과정에 고양이 저장/해제와 번호 없는 ‘모아둔 카드’를 넣었다. 개인 복습·목록 펼치기·개별 해제·목록 복사를 지원하며 현재 기기·브라우저별 저장이다. 정규 진도·이어하기·콤보와 분리한다. FABLE 배치 조정과 qualification 해설 수정도 함께 배포할 준비를 마쳤다. 아직 이번 변경의 원격 푸시·Pages 성공은 확인 전이다. [공통 구현](pipeline/saved-cards/README.md), [배치 원장·결과](pipeline/placement-review-20261003/REPORT.md).
+
+- **최종 FABLE 구성: 51세트·623연습·7,067카드·등록 표제어 4,916개**. 전체 카드 내용·중복 횟수·저장 ID를 보존했다. 0세트의 독해 핵심 77카드는 45로, 기초 핵심 36카드는 4로 이동했다. 서수 30카드는 1세트 끝의 13/9/8장, 방위 10카드는 3세트 끝 한 판이다. a/an은 5세트 한 판(15장), left-wing/right-wing은 35세트 한 판(14장)이다. 서수를 뺀 45의 두 잔여 5장 묶음은 한 판 10장으로 합쳤다. 최종 0은 192카드·17연습, 1은 233·24, 3은 166·17, 4는 213·22, 45는 158·13이다. 4의 east도 방위로 이동했으므로 기초 보강만 더한 214가 아닌 213카드다.
+
+- **원본과 기록 보존**: 이동한 카드의 저작 원본 주소는 그대로다. lesson00의 보강 내용 수정은 계속 lesson00에서 하며 다른 이동 카드도 `placement.json`의 cards 참조를 따른다. 새 묶음에는 새 완료 키를 주고, 카드별 과거 완료 범위를 모두 충족할 때만 완료로 이어받는다. 전체 7,067개 저장 카드 ID, 이전 이어하기 3,250가지·현재 623가지와 일부 완료 오인 방지 74가지를 검사했다. 어휘·예문·해설·정답 범위는 배치로 변하지 않았다. 직접 disassemble로 원본을 덮어쓰는 것은 차단했다.
+
+- **qualification 해설 3카드**: 공식 자격 뜻은 “교사 자격처럼 공식 자격은 certification과 바꿔 쓸 수 있다.”, 자격 요건 뜻은 “일에 필요한 능력·경험·조건. 이 경우는 certification은 쓸 수 없다.”로 확정했다. 원본 2카드와 46세트 복습 1카드다. 예문·뜻·정답 범위는 유지하고 certification을 정답에 추가하지 않는다. [변경 원장](pipeline/player-feedback-20261003.json).
+
+- **2026-10-02 동의어 검수 원칙·안내 수정 공개 배포 완료**: 앱 커밋 91a1b15을 origin/main에 푸시했다. [GitHub Pages 36912696092](https://github.com/esqsoy/vocagoyang/actions/runs/36912696092) 성공, 인덱스·세 과정 HTTP 200 및 로컬 검증본과의 일치를 확인했다. implication 영향/암시와 consequence 결과의 해설 3개 및 46세트 복습 3개를 보완했다. 세 과정 SYNLINES는 “이번에 익힐 단어는 이거라고양!”으로 통일해 근거 없는 대체 불가 단정을 제거했다. WORK_PLAN의 뜻·문맥별 원칙을 AGENTS·UI_STANDARD에서 참조한다. 배포 전 morphology-content, session(7,440회), IPA conservation, textbook-ui, build --check를 재실행해 통과했다. 예문·정답 범위·기록은 유지하며 기존 ALT·acceptedAnswers의 개별 예외는 별도 검수 대상이다. [변경 원장](pipeline/synonym-policy-20261002.json), [배포 기록](DEPLOYMENT.md).
 
 - **2026-10-02 뜻·예문 수정 공개 배포 완료**: 앱 커밋 1764496을 origin/main에 푸시했고 [GitHub Pages 36904196964](https://github.com/esqsoy/vocagoyang/actions/runs/36904196964) 성공, 인덱스·세 과정 HTTP 200 및 로컬 검증본과의 일치를 확인했다. FABLE 뜻의 정답 노출 119곳을 정리하고 figure·qualify 원본 및 복습 카드를 수정했다. 누적 123카드·131필드 변경이다. figure 해설은 “six-figure salary는 한국의 ‘억대 연봉’ 같은 관용적 표현이다.” 한 문장, qualify 예문은 `it applies only in this case`를 사용한다. 단어·카드 수·진도·판정·UI·IPA 및 마더텅·EBS·인덱스 내용은 유지했다. [변경 원장](pipeline/meaning-hints-20261002.json), [배포 기록](DEPLOYMENT.md). Safari 제보 학생의 실기기 재확인은 계속 대기 중이다.
 
 - **2026-10-01 iPhone Safari 발음기호 위치 보정 공개 배포 완료**: 사용자 제보는 한 학생의 Safari에서 모든 단어의 IPA가 위아래로 분리되는 현상이다. 공통 runtime.js에서 고정 레이어의 실제 getBoundingClientRect 원점을 빼서 같은 좌표계로 배치하고 visualViewport resize/scroll에도 갱신한다. 위치 이벤트를 한 프레임으로 묶고 효과 종료 시 예약을 취소한다. 기존 코드는 원점이 -180px인 모의 조건에서 180px 어긋났고 보정 후 통과했다. 반대 방향·좌우 이동·전체 IPA·기존 배치·종료/취소도 검사했다. 학생 기기의 정확한 원인은 아직 미확정이며 실기기 재확인이 필요하다. 앱 커밋 7032122를 origin/main에 푸시했고 GitHub Pages 실행 36873498316 성공 및 인덱스·세 과정 공개 HTML 일치를 확인했다. 배포 요청 후 관련 검사 8개를 다시 실행해 통과했다. 당시 앱 커밋은 7032122다. [배포 기록](DEPLOYMENT.md).
 
 - **2026-10-01 전체 업데이트 공개 배포 완료**. 앱 커밋 [cadd4fb](https://github.com/esqsoy/vocagoyang/commit/cadd4fbb9f4c24a05b6d9565db308ffba50eb4a4)을 origin/main에 푸시했다. [GitHub Pages 36754934684](https://github.com/esqsoy/vocagoyang/actions/runs/36754934684)의 success와 인덱스·세 과정 공개 HTML이 로컬 검증본과 일치함을 확인했다. 아래 배포 이전의 로컬 검수 이력도 이번 배포에 포함된다. 상세 해시는 [배포 기록](DEPLOYMENT.md).
-- 어원·접미사 과정은 기존 167카드를 보존하면서 327→357→358카드로 보강했다. 현재 **358카드·141개 개념 단위·34연습**, 47세트 124카드·12연습, 48세트 234카드·22연습이다. 전체 FABLE은 **7,067카드·620연습**. [선행 어원 보강](pipeline/morphology-rebuild-20260930/REPORT.md), [접미사 후속 보강](pipeline/suffix-rebuild-20261001/REPORT.md).
+- 어원·접미사 과정은 기존 167카드를 보존하면서 327→357→358카드로 보강했다. 현재 **358카드·141개 개념 단위·34연습**, 47세트 124카드·12연습, 48세트 234카드·22연습이다. 현재 전체 FABLE은 배치 조정 후 **7,067카드·623연습**. [선행 어원 보강](pipeline/morphology-rebuild-20260930/REPORT.md), [접미사 후속 보강](pipeline/suffix-rebuild-20261001/REPORT.md).
 - 새 표제어 37개와 후속 biome·microbiome·genome·chromosome·ribosome·troublesome을 포함한다. troublesome은 47세트 Exercise 11에서 awesome과 같은 -some 단위에 들어간다. 어휘 관계 명칭은 영어 소문자 **word family**, 48세트 제목은 ‘어근과 word family’로 통일한다. 과거 보고서·검수 원장은 해당 단계의 기록으로 유지한다.
 - **진도 안내**: 개편한 47·48세트는 새 구성으로 시작한다. 기본 키는 morphology-47-20261001 / morphology-48-20261001, troublesome이 추가된 47세트 Exercise 11은 morphology-47-20261001-troublesome이다. 과거 저장 기록 자체를 삭제하지 않고 다른 세트·과정의 진도는 유지한다. 명칭 변경만 있었던 연습은 기존 키를 이어 쓴다.
 - September의 한국·영미권 개학 비교를 간결하게 하고 September~December에 라틴어 septem=7·octo=8·novem=9·decem=10과 3월부터 세던 옛 로마력 해설을 반영했다. [변경 기록](pipeline/player-feedback-20260930.json).
@@ -39,7 +47,13 @@
 
 원문 PDF와 전체 OCR은 로컬 참고 자료다. 저장소에는 검토한 발췌 데이터와 코드만 둔다. OCR 텍스트를 원문 검증 없이 확정하지 않는다.
 
-## 이번 배포 검사 · 2026-10-02
+## 이번 배포 전 검사 · 2026-10-03
+
+승인한 최종 배치 후 새로 실행한 검사: placement-regrouping(623연습·모든 카드/ID·완료 범위·이어하기), saved-cards(세 과정), lesson-placement(선행 77카드 이동 보존), reading-core(역사적 단계 보존), session(623연습·7,476회), morphology-content, textbook-ui(EBS 597카드 입력), mother-tongue-layout(6,498카드 입력), mother-tongue-excerpts(6,422발췌), answer-replay(세 과정), IPA conservation·host-hooks, IPA/원문/saved 빌드 --check, index-stats --check 모두 통과했다. 최신 원본 조립의 재현성과 잘못된 disassemble 차단도 확인했다.
+
+앞선 기능 구현 단계에서 좁은 내장 브라우저로 세 과정 저장→목록→재플레이, FABLE 재로딩·펼치기·복사, 원문/발음과 진도 분리를 확인했다. 이번 배치 후 홈 623연습·세트 수치, 1세트 서수 묶음을 다시 확인했다. iPhone Safari 실기기 검사는 아니다.
+
+## 이전 배포 검사 · 2026-10-02
 
 동의어 안내 배포 요청 후 morphology-content, session(620연습·7,440회), IPA conservation, textbook-ui(EBS 597카드 입력 및 교재 공통 UI), IPA build --check의 5개 검사를 재실행해 통과했다. Pages 실행 36912696092 성공과 공개 4개 HTML의 HTTP 200·LF 정규화 SHA-256 일치를 확인했다. 아래 뜻·예문 배포와 이전 배포의 검사는 별도 이력이다.
 

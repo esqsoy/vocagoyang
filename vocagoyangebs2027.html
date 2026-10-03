@@ -1323,6 +1323,27 @@ body.playing .appbar{display:flex;padding:0 5px;}
 .ipa-whole .ipa-sound b,.ipa-whole .ipa-sound i{font-size:1.14em;}
 /* IPA_EFFECT_STYLES_END */
 </style>
+<style id="saved-cards-style">
+/* Personal collection controls reuse the existing purple panels and text tones. */
+#catSubmit{position:relative;}
+#catSubmit::after{content:'☆';position:absolute;right:-3px;bottom:-1px;font-size:16px;line-height:1;color:var(--muted,#c4b8cf);text-shadow:0 1px 2px #20102c;pointer-events:none;}
+#catSubmit[aria-pressed="true"]::after{content:'★';color:var(--gold,#ffd54f);}
+#catSubmit:focus-visible{outline:2px solid var(--gold,#ffd54f);outline-offset:3px;border-radius:8px;}
+.saved-home{border-color:var(--line);}
+.saved-home .lid{color:var(--text,#fff);}
+#exList.saved-mode{display:block;}
+#exList.saved-mode>.exbtn{width:100%;margin-bottom:8px;}
+.saved-tools{display:flex;justify-content:flex-end;margin-bottom:8px;}
+.saved-list{margin-top:20px;display:grid;gap:8px;}
+.saved-row{display:flex;align-items:flex-start;gap:12px;border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:rgba(0,0,0,.08);}
+.saved-row details{flex:1;min-width:0;overflow-wrap:anywhere;}
+.saved-row summary{cursor:pointer;line-height:1.6;}
+.saved-row p{line-height:1.7;margin:10px 0 0;white-space:pre-wrap;}
+.saved-row .saved-source{font-size:.8rem;color:var(--muted,#c4b8cf);}
+.saved-remove{flex:none;border:1px solid var(--line);background:transparent;color:inherit;border-radius:8px;min-height:40px;padding:8px 10px;cursor:pointer;}
+.saved-empty{line-height:1.7;padding:12px 0;color:var(--muted,#c4b8cf);}
+.saved-copy-box{box-sizing:border-box;width:100%;min-height:180px;background:var(--panel,#281834);border:1px solid var(--line);color:inherit;padding:12px;border-radius:10px;margin-top:12px;}
+</style>
 </head>
 <body>
 <div class="app">
@@ -1391,7 +1412,7 @@ body.playing .appbar{display:flex;padding:0 5px;}
             <p class="cat-speech speech-reserve" id="catSpeechReserve" aria-hidden="true"></p>
             <p class="cat-speech" id="catSpeech" role="status" aria-live="polite" aria-atomic="true" hidden></p>
           </div>
-          <button class="catbtn" id="catSubmit" type="button" aria-label="확인 (고양고양이 탭)">
+          <button class="catbtn" id="catSubmit" type="button" aria-label="이 카드 담기" aria-pressed="false">
             <img id="quizCat" alt="고양고양이">
           </button>
         </div>
@@ -1953,14 +1974,16 @@ function buildLessons(){
   }));
 }
 state.lessons=buildLessons();
-function visEx(L){return state.prevOn?L.exercises:L.exercises.filter(e=>e.scope!=='prev');}
-function nextLessonIndex(li){for(let i=li+1;i<state.lessons.length;i++){if(visEx(state.lessons[i]).length>0)return i;}return -1;}
+function activeLesson(){return state.savedLesson||state.lessons[state.li];}
+function visEx(L){return L.kind==='saved'||state.prevOn?L.exercises:L.exercises.filter(e=>e.scope!=='prev');}
+function nextLessonIndex(li){if(state.savedLesson)return -1;for(let i=li+1;i<state.lessons.length;i++){if(visEx(state.lessons[i]).length>0)return i;}return -1;}
 
 /* ===== progress / route ===== */
 function loadProgress(){try{return JSON.parse(localStorage.getItem(STORAGE))||{};}catch{return{};}}
 function saveProgress(){localStorage.setItem(STORAGE,JSON.stringify(state.progress));}
 function getRec(lid,t){return state.progress?.[lid]?.[t]||null;}
 function setRec(lid,t,rec){
+  if(lid==="모아둔 카드")return;
   state.progress[lid]=state.progress[lid]||{};
   const ex=state.progress[lid][t];
   state.progress[lid][t]={completed:true,bestMs:ex?.bestMs?Math.min(ex.bestMs,rec.timeMs):rec.timeMs,
@@ -1998,7 +2021,7 @@ function scheduleNext(ms){
 }
 /* Fable-style resume uses its own Mother Tongue key; existing progress stays intact. */
 const LASTKEY="goyang-ebs-seoul-last-v1";
-function saveLast(lid,title){try{localStorage.setItem(LASTKEY,JSON.stringify({lid,title}));}catch(e){}}
+function saveLast(lid,title){if(lid==="모아둔 카드")return;try{localStorage.setItem(LASTKEY,JSON.stringify({lid,title}));}catch(e){}}
 function resumeTarget(){let last=null;try{last=JSON.parse(localStorage.getItem(LASTKEY));}catch(e){}
   const flat=[];state.lessons.forEach((L,li)=>visEx(L).forEach((e,ei)=>flat.push({li,ei,L,e})));if(!flat.length)return null;
   const k=last?flat.findIndex(x=>x.L.id===last.lid&&x.e.title===last.title):-1,start=Math.max(0,k);
@@ -2096,6 +2119,7 @@ function renderHome(){
   if(rt&&clearedExercises()>0){rb.hidden=false;$("#resumeSub").textContent=`${rt.L.id} · ${rt.e.title}`;rb.onclick=()=>{state.li=rt.li;openLesson(rt.li);startExercise(rt.ei);};}
   else rb.hidden=true;
   const g=$("#lessonGrid");g.innerHTML="";
+  if(typeof savedRenderHome==="function")savedRenderHome();
   state.lessons.forEach((L,i)=>{
     const ev=visEx(L);
     const cleared=ev.filter(e=>getRec(L.id,e.title)?.completed).length;
@@ -2110,13 +2134,15 @@ function renderHome(){
   updateRoute();
 }
 function openLesson(i){
+  state.savedLesson=null;
   state.li=i;const L=state.lessons[i];const ev=visEx(L);
   $("#lessonTitle").textContent=L.id+(L.name?" · "+L.name:"");
   $("#lessonMeta").textContent=`${ev.length}개 연습 · ${ev.reduce((a,e)=>a+e.words.length,0)}개 단어`;
   renderExList();show("lesson");
 }
 function renderExList(){
-  const L=state.lessons[state.li];const ev=visEx(L);const list=$("#exList");list.innerHTML="";
+  if(typeof savedRenderList==="function"&&savedRenderList())return;
+  const L=activeLesson();const ev=visEx(L);const list=$("#exList");list.innerHTML="";
   ev.forEach((ex,i)=>{
     const rec=getRec(L.id,ex.title);
     const b=document.createElement("button");b.className="exbtn"+(rec?.completed?" cleared":"");b.type="button";
@@ -2147,9 +2173,10 @@ function shuffle(a){const c=[...a];for(let i=c.length-1;i>0;i--){const j=Math.fl
 
 function abandonPerfectRun(){
   const s=state.session;
-  if(s&&!s.partial&&!s.perfectRunSettled)state.perfectStreak=0;
+  if(s&&s.lesson?.kind!=="saved"&&!s.partial&&!s.perfectRunSettled)state.perfectStreak=0;
 }
 function completePerfectRun(s,first){
+  if(s.lesson?.kind==="saved")return 0;
   if(s.perfectRunSettled)return s.perfectRunCount;
   s.perfectRunSettled=true;
   if(s.partial){s.perfectRunCount=0;return 0;}
@@ -2162,7 +2189,7 @@ function completePerfectRun(s,first){
 function startExercise(i){
   abandonPerfectRun();
   cancelPendingAdvance();stopPronunciation();
-  const L=state.lessons[state.li],ex=visEx(L)[i];state.ei=i;
+  const L=activeLesson(),ex=visEx(L)[i];state.ei=i;
   // anti-unfair: same lesson same meaning -> any matching english accepted
   const koToEn={};
   L.exercises.forEach(e=>e.words.forEach(w=>{(koToEn[w.meaning]=koToEn[w.meaning]||new Set()).add(normalize(w.term));}));
@@ -2213,6 +2240,7 @@ function nextCard(){
     const id=s.queue.shift();const w=s.words[id];
     if(s.round!==1&&w.passed)continue;
     s.currentId=id;s.answered=false;s.fbMode=false;s.copyMode=false;s.copyAns="";state.composing=false;
+    if(typeof savedSyncCat==="function")savedSyncCat();
     s.cardLimit=limitFor(w.term);s.cardStart=Date.now();s.hintLevel=0;
     const card=$("#quizCard");clearTimeout(card._growT);card.style.height="";card.style.transition="";card.className="panel quiz";
     $("#meaning").textContent=w.meaning;
@@ -2423,12 +2451,13 @@ function finishExercise(){
   setRec(s.lesson.id,s.exercise.title,{timeMs,attempts:s.attempts,errors:s.errors,first});
   // lesson fully cleared?
   const lessonCleared=visEx(s.lesson).every(e=>getRec(s.lesson.id,e.title)?.completed);
-  const allCleared=clearedExercises()>=totalExercises();
+  const allCleared=s.lesson.kind!=="saved"&&clearedExercises()>=totalExercises();
   $("#sumSub").textContent=`${s.lesson.id} · ${s.exercise.title}`;
   $("#sumTime").textContent=fmt(timeMs);$("#sumAtt").textContent=s.attempts;
   $("#sumErr").textContent=s.errors;$("#sumFirst").textContent=first+"%";$("#sumHint").textContent=s.hints||0;
   let line=pick(LINES.exerciseDone),expr='evil';
-  if(allCleared){line=pick(LINES.allDone);expr='win';$("#sumTitle").textContent="BIG MOUNTAIN 입성! 🎓";}
+  if(s.lesson.kind==="saved"){$("#sumTitle").textContent="모아둔 카드 복습 끝 ✦";}
+  else if(allCleared){line=pick(LINES.allDone);expr='win';$("#sumTitle").textContent="BIG MOUNTAIN 입성! 🎓";}
   else if(lessonCleared){const _cnt=visEx(s.lesson).reduce((a,e)=>a+e.words.length,0);line=_cnt+"개 단어를 다 확인했다고양! "+(LESSONCLEAR[s.lesson.lesson]||"한 강을 통째로 정복했다고양!");expr='win';$("#sumTitle").textContent=s.lesson.id+" 완전 정복!";}
   else $("#sumTitle").textContent="연습 클리어 ✦";
   const perfectRun=completePerfectRun(s,first);if(!allCleared&&perfectRun>0)showRoar(perfectRun);
@@ -2437,7 +2466,7 @@ function finishExercise(){
   if(allCleared)setTimeout(()=>{if(state.session===s&&screens.sum.classList.contains("active"))showEnding();},750);
   setCat('sumCat',expr);
   $("#sumBubble").innerHTML=`<span><span class="nm">고양고양이</span> ${line}</span>`;
-  const L=state.lessons[state.li];const ev=visEx(L);
+  const L=activeLesson();const ev=visEx(L);
   const lastInLesson=state.ei>=ev.length-1;const _ni=nextLessonIndex(state.li);
   $("#nextEx").disabled=lastInLesson&&_ni<0;
   $("#nextEx").textContent=lastInLesson&&_ni>=0?"다음 강 ▶":"다음 연습 ▶";
@@ -3698,7 +3727,8 @@ $("#ainput").addEventListener("input",mirrorTyped);
 $("#ainput").addEventListener("compositionstart",()=>{state.composing=true;});
 $("#ainput").addEventListener("compositionend",()=>{state.composing=false;if(state.session?.copyMode)handleCopyInput();else mirrorTyped();});
 window.addEventListener("focus",()=>requestAnimationFrame(focusAnswerInput));
-$("#catSubmit").addEventListener("click",e=>{e.preventDefault();e.stopPropagation();submit();});
+$("#catSubmit").addEventListener("click",e=>{e.preventDefault();e.stopPropagation();savedToggleCurrent();});
+$("#catSubmit").addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" ")e.stopPropagation();});
 $("#submitBtn").addEventListener("click",e=>{e.preventDefault();e.stopPropagation();submit();});
 // A transparent native button sits over the first cell, above the typing input.
 // The other cells continue to tap the input directly (including on mobile).
@@ -3736,10 +3766,10 @@ $("#submitBtn").addEventListener("click",e=>{e.preventDefault();e.stopPropagatio
 
 
 $("#exitBtn").addEventListener("click",()=>{abandonPerfectRun();cancelPendingAdvance();$("#ainput").blur();stopTicker();state.session=null;renderExList();show("lesson");});
-$("#backHome").addEventListener("click",()=>{renderHome();show("home");});
+$("#backHome").addEventListener("click",()=>{state.savedLesson=null;renderHome();show("home");});
 $("#sumList").addEventListener("click",()=>{cancelPendingAdvance();state.session=null;renderExList();show("lesson");});
 $("#retryEx").addEventListener("click",()=>startExercise(state.ei));
-$("#nextEx").addEventListener("click",()=>{const L=state.lessons[state.li];const ev=visEx(L);
+$("#nextEx").addEventListener("click",()=>{const L=activeLesson();const ev=visEx(L);
   if(state.ei<ev.length-1){startExercise(state.ei+1);return;}
   const ni=nextLessonIndex(state.li);if(ni>=0){state.li=ni;openLesson(ni);startExercise(0);}});
 function replayCurrentPronunciation(){const s=state.session;if(s&&s.currentId!==null&&s.answered){const w=s.words[s.currentId];speakPronunciation(w.term,w.meaning);if(s.copyMode)focusAnswerInput();}}
@@ -3810,6 +3840,140 @@ $("#endClose").addEventListener("click",()=>{const ov=$("#ending");ov.classList.
 document.querySelector(".maproute").addEventListener("click",()=>{
   if(totalExercises()>0 && clearedExercises()>=totalExercises()) showEnding();
 });
+/* SAVED_CARDS_START */
+const SAVED_COURSE="EBS";
+/* Personal cards refer to the current course content; they never enter DATA or progress. */
+var savedStoreKey=STORAGE+'-saved-cards-v1';
+var savedCatalog=new Map(),savedRecords=[];
+function savedRead(){
+  try{const rows=JSON.parse(localStorage.getItem(savedStoreKey)||'[]');
+    if(!Array.isArray(rows))return [];
+    const seen=new Set();return rows.filter(r=>r&&typeof r.id==='string'&&!seen.has(r.id)&&seen.add(r.id)).map(r=>({id:r.id,addedAt:Number(r.addedAt)||0}));
+  }catch{return [];}
+}
+function savedInit(){
+  savedCatalog.clear();
+  state.lessons.forEach(L=>L.exercises.forEach(e=>e.words.forEach((w,index)=>{
+    const id=w.savedId||(SAVED_COURSE==='FABLE'
+      ?JSON.stringify([e.progressId||L.progressId||L.id,e.parentRecord?.title||e.progressTitle||e.sourceTitle||e.title,w.word||w.term,w.si||1,w.unitId||w.constructionId||''])
+      :JSON.stringify([L.lesson,e.scope,e.ex,index]));
+    w.savedCardId=id;
+    savedCatalog.set(id,{id,word:w,source:L.id+' · '+e.title});
+  })));
+  savedRecords=savedRead();savedSyncCat();
+}
+function savedItems(){return savedRecords.map(r=>savedCatalog.get(r.id)).filter(Boolean);}
+function savedHas(id){return savedRecords.some(r=>r.id===id);}
+function savedSet(id,on){
+  if(!savedCatalog.has(id))return false;
+  const records=savedRead().filter(r=>r.id!==id);
+  if(on)records.push({id,addedAt:Date.now()});
+  try{localStorage.setItem(savedStoreKey,JSON.stringify(records));}
+  catch{toast('카드를 저장하지 못했어. 브라우저 저장 공간을 확인해줘.');return false;}
+  savedRecords=records;savedSyncCat();return true;
+}
+function savedCurrentWord(){const s=state.session;return s&&s.currentId!==null?s.words[s.currentId]:null;}
+function savedSyncCat(){
+  const button=$('#catSubmit'),word=savedCurrentWord();if(!button)return;
+  const active=!!word?.savedCardId,on=active&&savedHas(word.savedCardId);
+  button.disabled=!active;button.setAttribute('aria-pressed',String(!!on));
+  button.setAttribute('aria-label',on?'모아둔 카드에서 빼기':'이 카드 담기');
+  button.title=on?'모아둔 카드에서 빼기':'이 카드 담기';
+}
+function savedToggleCurrent(){
+  const w=savedCurrentWord();if(!w?.savedCardId)return false;
+  const on=!savedHas(w.savedCardId);if(!savedSet(w.savedCardId,on))return false;
+  toast(on?'모아뒀다고양!':'모아둔 카드에서 뺐다고양.');
+  const s=state.session;
+  // Give the save action its own feedback time; a tap must not also advance.
+  if(s.answered&&!s.copyMode){
+    if(typeof armReveal==='function'){
+      if(s.revealTimer)clearTimeout(s.revealTimer);
+      ipaEffectCancelAdvance();armReveal(w);
+    }else scheduleNext(1200);
+  }else focusAnswerInput();
+  return true;
+}
+function savedRenderHome(){
+  const b=document.createElement('button');b.type='button';b.className='lessonbtn saved-home';
+  const count=savedItems().length;
+  b.innerHTML='<span class="lh"><b class="lid">★ 모아둔 카드</b></span><span class="lmeta">'+count+'카드 · 다시 학습</span>';
+  b.onclick=savedOpen;$('#lessonGrid').appendChild(b);
+}
+function savedGroups(items){
+  const groups=new Map();for(const item of items){
+    const head=(item.word.word||item.word.term).toLowerCase();
+    if(!groups.has(head))groups.set(head,[]);groups.get(head).push(item.word);
+  }
+  const parts=[];let words=[];
+  for(const group of groups.values()){
+    if(words.length&&words.length+group.length>12){parts.push(words);words=[];}
+    words.push(...group);
+  }
+  if(words.length)parts.push(words);
+  return parts.map((words,i)=>({title:'복습 '+(i+1),scope:'2026',words}));
+}
+function savedOpen(){
+  stopTicker();state.session=null;savedRecords=savedRead();
+  state.savedLesson={id:'모아둔 카드',kind:'saved',name:'',exercises:savedGroups(savedItems())};
+  state.ei=0;
+  $('#lessonTitle').textContent='모아둔 카드';
+  savedRenderList();show('lesson');
+}
+function savedCopyText(){
+  return [SAVED_COURSE+' · 모아둔 카드',...savedItems().map((item,i)=>{
+    const w=item.word,example=w.context?.example||(w.ex||'').split('{{BLANK}}').join(w.term);
+    return [(i+1)+'. '+w.term+' — '+w.meaning,item.source,example,w.context?.translation||w.tr,w.context?.note||w.c].filter(Boolean).join('\n');
+  })].join('\n\n');
+}
+async function savedCopy(){
+  const text=savedCopyText();
+  try{if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(text);toast('목록을 복사했어.');return;}}catch{}
+  // The selectable fallback also works in browsers without Clipboard API access.
+  let box=$('#savedCopyBox');
+  if(!box){box=document.createElement('textarea');box.id='savedCopyBox';box.className='saved-copy-box';box.readOnly=true;box.setAttribute('aria-label','모아둔 카드 목록');$('#exList').appendChild(box);}
+  box.value=text;box.focus();box.select();
+  try{if(document.execCommand?.('copy')){toast('목록을 복사했어.');return;}}catch{}
+  toast('목록을 선택해 복사해줘.');
+}
+function savedRenderList(){
+  const L=state.savedLesson;
+  if(!L){$('#exList').classList.remove('saved-mode');return false;}
+  // Only rebuild after leaving play. Removing a saved card never mutates a live queue.
+  if(!state.session){savedRecords=savedRead();L.exercises=savedGroups(savedItems());}
+  const items=savedItems(),list=$('#exList');list.innerHTML='';list.classList.add('saved-mode');
+  $('#lessonMeta').textContent=items.length+'개 카드 · 이 브라우저에 저장';
+  if(!items.length){const p=document.createElement('p');p.className='saved-empty';p.textContent='다시 보고 싶은 카드에서 고양이를 눌러줘.';list.appendChild(p);return true;}
+  const tools=document.createElement('div');tools.className='saved-tools';
+  const copy=document.createElement('button');copy.type='button';copy.className='saved-remove';copy.textContent='목록 복사';copy.onclick=savedCopy;tools.appendChild(copy);list.appendChild(tools);
+  L.exercises.forEach((ex,i)=>{
+    const button=document.createElement('button');button.type='button';button.className='exbtn';
+    button.innerHTML='<span class="t">'+esc(ex.title)+'</span><span class="meta">'+ex.words.length+'개 · 다시 학습 ▶</span>';
+    button.onclick=()=>startExercise(i);list.appendChild(button);
+  });
+  const cards=document.createElement('div');cards.className='saved-list';
+  items.forEach(item=>{
+    const row=document.createElement('div');row.className='saved-row';
+    const details=document.createElement('details'),summary=document.createElement('summary');
+    const word=item.word;summary.textContent=word.term+' · '+word.meaning;details.appendChild(summary);
+    const source=document.createElement('p');source.className='saved-source';source.textContent=item.source;details.appendChild(source);
+    for(const text of [word.context?.example||(word.ex||'').split('{{BLANK}}').join(word.term),word.context?.translation||word.tr,word.context?.note||word.c]){
+      if(!text)continue;const p=document.createElement('p');p.textContent=text;details.appendChild(p);
+    }
+    const remove=document.createElement('button');remove.type='button';remove.className='saved-remove';remove.textContent='빼기';remove.setAttribute('aria-label',word.term+' 카드 빼기');
+    remove.onclick=()=>{if(savedSet(item.id,false)){state.session=null;savedRenderList();}};
+    row.appendChild(details);row.appendChild(remove);cards.appendChild(row);
+  });
+  list.appendChild(cards);return true;
+}
+window.addEventListener('storage',event=>{
+  if(event.key!==savedStoreKey&&event.key!==null)return;
+  savedRecords=savedRead();savedSyncCat();
+  if(screens.home.classList.contains('active'))renderHome();
+  if(state.savedLesson&&screens.lesson.classList.contains('active')){state.session=null;savedRenderList();}
+});
+savedInit();
+/* SAVED_CARDS_END */
 renderHome();
 </script>
 </body>

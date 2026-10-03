@@ -4,6 +4,22 @@
 
 현재 구성과 교육적 합의는 [WORK_PLAN.md](../WORK_PLAN.md), 최신 카드·연습 수와 배포 상태는 [HANDOFF.md](../HANDOFF.md)를 기준으로 한다. 원본의 주제 묶음을 표제어가 갈라지지 않는 11카드 중심의 연습으로 나눈다. 일부 기초 주제는 exercise-topics.json의 경계를 우선한다. 카드 수·표제어 수·word family 수는 서로 다른 집계다.
 
+## 개인 복습 카드
+
+세 과정의 ‘모아둔 카드’ 원본은 `saved-cards/runtime.js`·`style.css`이며 `node pipeline/saved-cards/build.cjs`로 삽입한다. 검사 명령은 `node pipeline/saved-cards/build.cjs --check`와 `node pipeline/tests/saved-cards.test.cjs`다. 각 게임의 DATA·집계·정규 진도에는 넣지 않는다. [저장 범위·ID·게임 연결·검증](saved-cards/README.md)을 참고한다.
+
+## 학습 위치 조정 · 2026-10-03
+
+`lesson-placement-20261003.json`은 0세트의 독해 핵심 보강 6묶음(77카드)을 화면상 45세트 뒤로 옮긴다. 조립 마지막 단계에서 적용하며, 단어 원본은 계속 `out/lesson00.json`이다. 46세트 등의 `ref.set=0`은 저작 원본 주소이므로 화면 위치에 맞춰 바꾸지 않는다. 표시 번호는 45세트 Exercise 9~14, 저장 키는 기존 0세트의 키를 유지한다. 원본을 직접 45세트에 중복 추가하지 않는다.
+
+`restore-lesson-placement.cjs`는 기록된 이동만 역변환해 과거 검수의 고정 해시를 보존한다. `node pipeline/tests/lesson-placement.test.cjs`로 전체 카드 보존·완료 키와 이전/현재 이어하기를 확인한다.
+
+후속 승인 배치는 `placement-review-20261003/placement.json`과 `placement_regrouping.py`가 적용한다. 기초 보강 36카드는 0→4, 서수 30카드는 1, 방위 10카드는 3으로 이동하고 a/an·left-wing/right-wing을 결합한다. 45의 잔여 5+5카드는 한 연습으로 합친다. 저작 원본은 이동하지 않으며 각 `cards` 참조는 `[원본 세트, 원본 exercise, 카드 인덱스]`다. 배치 변경 카드에는 원래 저장 ID를 남긴다. 원본 묶음·순서·카드 수를 바꾸려면 이 원장도 검토해야 한다.
+
+`placementHistory`는 영향을 받은 이전 연습의 표제어·뜻 번호·기록 메타데이터만 보관한다. 표시 DATA를 다시 분할해 카드별 과거 완료 범위를 이행하고, 새 연습의 모든 카드가 완료됐을 때만 클리어를 상속한다. `node pipeline/tests/placement-regrouping.test.cjs`로 7,067개 ID·카드 내용, 부분 완료, 과거/현재 이어하기를 검사한다. `restore-lesson-placement.cjs`는 후속 배치를 먼저 역변환한 뒤 선행 0→45 이동을 복원한다. 역사적 해시를 새 값으로 덮어쓰지 않는다.
+
+이 배치가 포함된 HTML은 `disassemble.py`로 원본에 직접 덮어쓸 수 없다. 잘못된 저작 위치 복원과 중복 배치를 막기 위해 실행을 중단한다. 원본 분실 시 Git에서 `pipeline/out`·선정 자료·배치 원장을 함께 복구한다.
+
 ## 원본
 
 - 0~4세트: out/lesson00.json ~ lesson04.json의 exercises.

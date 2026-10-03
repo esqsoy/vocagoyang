@@ -10,7 +10,7 @@ for(const [book,fixture] of [['ksat',mt],['ebs',ebs]]){
  assert.equal(hash(h.run('JSON.stringify(DATA)')),fixture.dataSha256,'Vocabulary stays unchanged');
  assert.deepEqual(plain(h.state.lessons.map(l=>({id:l.id,exercises:l.exercises.map(e=>({title:e.title,scope:e.scope}))}))),fixture.progressKeys);
  for(const [key,value] of Object.entries(fixture.storage))assert.equal(h.run(key),value);
- for(const [name,expected] of Object.entries(mt.functions))assert.equal(hash(h.ctx[name].toString().replaceAll('\r\n','\n')),expected,'Original textbook rule '+name);
+ for(const [name,expected] of Object.entries(mt.functions))assert.equal(hash(require('./saved-cards/restore-host.cjs').restoreHostFunction(h.ctx[name].toString(),'vocagoyang'+book+'2027.html')),expected,'Original textbook rule '+name);
  assert(h.html.includes('class="slot-hint"'));assert(h.html.includes('class="cat-speech"'));
  assert(h.html.includes('background:#b8a2d4'));assert(h.html.includes('background:#b97882'));
  assert(!h.html.includes('힌트②'));assert(!h.els.has('focusInputBtn'));assert(!h.els.has('resetBtn'));

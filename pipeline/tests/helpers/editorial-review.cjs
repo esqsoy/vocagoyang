@@ -51,7 +51,7 @@ function restoreContentReview(data){
   return restored;
 }
 function restoreTopicGrouping(data,{beforeContentReview=false}={}){
-  const restored=structuredClone(data);
+  const restored=require('../../restore-lesson-placement.cjs').restoreLessonPlacement(data);
   const currentReview=crypto.createHash('sha256').update(JSON.stringify(data)).digest('hex')===synonymReview.afterDataSha256;
   const beforeSynonymPolicy=require('../../restore-word-family-wording.cjs').restoreSynonymPolicy(data);
   const currentMeaningReview=crypto.createHash('sha256').update(JSON.stringify(beforeSynonymPolicy)).digest('hex')===meaningHints.snapshots.DATA.afterHash;

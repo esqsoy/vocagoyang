@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-03",
+  "reason": "Apply the agreed synonym policy to qualification/certification without adding an accepted answer.",
+  "sources": [
+    "https://dictionary.cambridge.org/dictionary/english/qualification",
+    "https://dictionary.cambridge.org/dictionary/english/certification"
+  ],
+  "sourceChanges": [
+    {
+      "file": "pipeline/out/lesson00.json",
+      "lesson": 0,
+      "exercise": 18,
+      "word": "qualification",
+      "si": 1,
+      "field": "c",
+      "old": "시험·교육 과정을 거쳐 얻은 자격. 이 뜻은 특히 영국에서 자주 쓴다.",
+      "new": "교사 자격처럼 공식 자격은 certification과 바꿔 쓸 수 있다."
+    },
+    {
+      "file": "pipeline/out/lesson00.json",
+      "lesson": 0,
+      "exercise": 18,
+      "word": "qualification",
+      "si": 2,
+      "field": "c",
+      "old": "어떤 일에 필요한 능력·경험·조건. qualifications for a job(일의 자격 요건).",
+      "new": "일에 필요한 능력·경험·조건. 이 경우는 certification은 쓸 수 없다."
+    }
+  ],
+  "sourceSnapshots": {
+    "pipeline/out/lesson00.json": {
+      "beforeHash": "2aff9dd0df9037b244c8ddf312dbffaa14a1f37af70066624314919df82a75b8",
+      "afterHash": "7667f2153170fca580991dcb51de2a6c3344e246432cf47b8f20f78d88ec7da3"
+    }
+  },
+  "snapshots": {
+    "DATA": {
+      "beforeHash": "3d85500ab4f4afb1946e62a2602645ee6c2428ba16d10271a2cfc660457d039e",
+      "afterHash": "4a66afe0ef030e5b637fab7d6e177f05a4e7c2984a97725fc72a8bbd3b3fe5d6",
+      "changes": [
+        {
+          "path": [
+            "0",
+            "exercises",
+            "16",
+            "words",
+            "7",
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "시험·교육 과정을 거쳐 얻은 자격. 이 뜻은 특히 영국에서 자주 쓴다.",
+          "new": "교사 자격처럼 공식 자격은 certification과 바꿔 쓸 수 있다."
+        },
+        {
+          "path": [
+            "0",
+            "exercises",
+            "16",
+            "words",
+            "8",
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "어떤 일에 필요한 능력·경험·조건. qualifications for a job(일의 자격 요건).",
+          "new": "일에 필요한 능력·경험·조건. 이 경우는 certification은 쓸 수 없다."
+        },
+        {
+          "path": [
+            "46",
+            "exercises",
+            "0",
+            "words",
+            "2",
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "어떤 일에 필요한 능력·경험·조건. qualifications for a job(일의 자격 요건).",
+          "new": "일에 필요한 능력·경험·조건. 이 경우는 certification은 쓸 수 없다."
+        }
+      ]
+    }
+  },
+  "followups": [
+    {
+      "date": "2026-10-03",
+      "reason": "User requested shorter explanations.",
+      "changes": [
+        {
+          "old": "교사 자격처럼 공식 인증을 받은 자격은 certification과 바꿔 쓸 수 있다.",
+          "new": "교사 자격처럼 공식 자격은 certification과 바꿔 쓸 수 있다."
+        },
+        {
+          "old": "일에 필요한 능력·경험·조건. 공식 인증인 certification으로는 바꿔 쓰지 않는다.",
+          "new": "일에 필요한 능력·경험·조건. 이 경우는 certification은 쓸 수 없다."
+        }
+      ]
+    }
+  ]
+}
