@@ -244,6 +244,13 @@
 - 재검증: card-search, saved-cards, saved 빌드 --check, IPA conservation, textbook-ui, answer-replay, index-stats --check, git diff --check 통과. 검색·저장/해제/실패/다른 탭 동기화, 한글 조합, 교재 원문·입력·발음 재생과 기존 기록 보존을 확인했다. 별도 코드 검수에서 세 HTML의 생성 CSS·runtime 외 부분과 DATA가 HEAD와 동일함을 확인했다. 브라우저 화면 검증은 앞선 구현 기록을 따른다.
 - 상태: 배포 준비 완료. 커밋·푸시와 Pages 및 공개 파일 확인 결과를 후속 기록한다.
 
+## 2026-10-06 · 검색 기능 개정 공개 배포 완료
+
+- 사용자 요청에 따라 앱 커밋 [571900c](https://github.com/esqsoy/vocagoyang/commit/571900c8a9ea9830cd465827c6631334a8eddb16)을 origin/main에 푸시했다. [GitHub Pages 37424922011](https://github.com/esqsoy/vocagoyang/actions/runs/37424922011) completed / success를 확인했다.
+- 공개 인덱스와 FABLE·마더텅·EBS를 모두 HTTP 200으로 받아 로컬 검증본과 LF 정규화 SHA-256 일치를 확인했다. 홈의 단어/뜻 검색·카드 상세·저장을 세 과정에 배포했다.
+- 배포 요청 후 실제 재실행한 검사는 위 배포 준비 기록의 8개이며 모두 통과했다. 별도 코드 검수에서 HTML 변경이 공통 검색/저장 생성 구간에 한정되고 DATA가 이전 HEAD와 동일함을 확인했다. 실제 화면 검증은 앞선 구현 기록의 내장 브라우저 결과이며 iPhone Safari 실기기 검사는 아니다.
+- 기존 어휘·정답·진도·모아둔 카드 저장 ID와 인덱스 수치는 유지했다. plausible은 사용자 확인대로 현행 유지, ODE는 계획 문서만 포함한다. 배포 증거와 현재 상태를 DEPLOYMENT·HANDOFF에 기록했다.
+
 ## 다음 기록 형식
 
 ```text

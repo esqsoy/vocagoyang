@@ -1,3 +1,25 @@
+# 단어·뜻 검색과 카드 저장 통합 배포 · 2026-10-06
+
+- 앱 커밋: [571900c](https://github.com/esqsoy/vocagoyang/commit/571900c8a9ea9830cd465827c6631334a8eddb16), origin/main 푸시 완료.
+- [GitHub Pages 37424922011](https://github.com/esqsoy/vocagoyang/actions/runs/37424922011): completed / success. 공개 인덱스·세 과정 HTTP 200 및 로컬 검증본과 LF 정규화 SHA-256 일치를 확인했다.
+- FABLE·마더텅·EBS 홈의 단어·뜻 검색, 예문/해석/해설/출처 펼치기, 기존 ‘모아둔 카드’ 저장/해제를 배포했다. 영어 표제어·표시형과 한국어 뜻을 검색하며 마더텅의 이전 기출·원래 뜻도 포함한다. 정확한 단어 우선, 결과 24장씩 더 보기를 지원한다.
+- 기존 단어 데이터·정답·게임·진도·저장 카드 ID와 집계 수치는 유지했다. plausible은 현행 유지, ODE 목표/로드맵은 문서로만 반영했다.
+- 배포 요청 후 card-search, saved-cards, saved 빌드 --check, IPA conservation, textbook-ui, answer-replay, index-stats --check, git diff --check 통과. 독립 코드 검수에서 세 HTML의 공통 생성 CSS/runtime 외 부분과 DATA가 이전 HEAD와 동일함을 확인했다.
+- 구현 단계의 내장 브라우저에서 세 과정 검색·카드 저장·상세와 FABLE 개인 복습, 390/320px 표시를 확인했다. 실제 iPhone Safari 검사는 아니다.
+
+공개 UTF-8 텍스트를 LF로 정규화한 SHA-256:
+
+| 파일 | SHA-256 |
+| --- | --- |
+| index.html | c89abf0834676d0ec708a66babaae82ddfd9e5c9025c1f1f1e5f1c5057de42cb |
+| vocagoyangfable.html | c14666cb9f1a9f6519e615fd686737e3accabc3d8c74279793658293dc3badc4 |
+| vocagoyangksat2027.html | 4606030c61b1876600befebd89a20486bc06c1e775626b6aa10d83e8e61e7ad5 |
+| vocagoyangebs2027.html | af3ca244d101d6075550585cf89ba32113411454ab083acc79cf0edda867f0d2 |
+
+[교재 선택](https://esqsoy.github.io/vocagoyang/?release=571900c) · [FABLE](https://esqsoy.github.io/vocagoyang/vocagoyangfable.html?release=571900c)
+
+---
+
 # 모아둔 카드·학습 배치 조정 통합 배포 · 2026-10-03
 
 - 앱 커밋: [843b189c54593731fcb2b799d600579679b302fd](https://github.com/esqsoy/vocagoyang/commit/843b189c54593731fcb2b799d600579679b302fd), origin/main 푸시 완료.
