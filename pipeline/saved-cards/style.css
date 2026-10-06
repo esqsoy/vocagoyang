@@ -17,3 +17,17 @@
 .saved-remove{flex:none;border:1px solid var(--line);background:transparent;color:inherit;border-radius:8px;min-height:40px;padding:8px 10px;cursor:pointer;}
 .saved-empty{line-height:1.7;padding:12px 0;color:var(--muted,#c4b8cf);}
 .saved-copy-box{box-sizing:border-box;width:100%;min-height:180px;background:var(--panel,#281834);border:1px solid var(--line);color:inherit;padding:12px;border-radius:10px;margin-top:12px;}
+.saved-search{grid-column:1/-1;min-width:0;}
+.saved-search-form{display:flex;gap:8px;margin:0 0 3px;}
+.saved-search-form input{box-sizing:border-box;width:100%;min-width:0;min-height:42px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:rgba(0,0,0,.12);color:var(--text,#fff);font:inherit;font-size:16px;}
+.saved-search-form input::placeholder{color:var(--muted,#c4b8cf);opacity:1;}
+.saved-search-form input:focus-visible,.saved-search button:focus-visible{outline:2px solid var(--line2,#9d6bca);outline-offset:2px;}
+.saved-search [hidden]{display:none!important;}
+#lessonGrid.saved-search-active>.lessonbtn{display:none;}
+.saved-search-tools{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:12px 0;font-size:.85rem;color:var(--muted,#c4b8cf);}
+.saved-search-list{display:grid;gap:8px;}
+.saved-search .saved-row{display:block;position:relative;padding:10px 12px;}
+.saved-search .saved-row summary{box-sizing:border-box;min-height:40px;padding-right:78px;}
+.saved-search .saved-row>.saved-remove{position:absolute;top:10px;right:12px;}
+.saved-search .saved-remove[aria-pressed="true"]{color:var(--gold,#ffd54f);}
+.saved-search-more{display:block;margin:12px auto 0;}

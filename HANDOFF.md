@@ -1,8 +1,16 @@
 # 보카고양 최신 인수인계
 
-갱신: 2026-10-03 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
+갱신: 2026-10-06 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
 
 ## 현재 결론과 배포 상태
+
+- **2026-10-06 최종 목표 ODE 확정**: 사용자가 ODE를 최종 목표로 삼는 방향을 명시적으로 확인했다. 최신 신조어 등을 제외한 ODE 전체 어휘 풀이 장기 목표이며 GRE·GMAT과 OALD는 중간 단계다. 출판사 단어장도 참고한다. 구체 판본·데이터 기준일·제외 기준·전체 목록과 사용 조건은 아직 확보·확정하지 않았다. 희귀·전문어는 삭제가 아닌 후순위로 관리한다. [범위와 근거](WORK_PLAN.md#장기-목표-주요-현대-영영사전의-전체-어휘-풀--2026-10-06). 목표 확정을 문서에 기록했으며 새 카드 제작·게임 수정·배포는 하지 않았다.
+
+- **2026-10-06 GRE·GMAT 확장 로드맵 제안**: 게임 방식을 유지하고 FABLE·마더텅 뒤 고급 독해 과정을 단계적으로 구성하는 요청이다. 실제 기존 어휘 수와 대표 후보의 뜻·원문을 확인하고 ETS/GMAC 및 AWL/AVL 원자료를 검토했다. 공통 고급 300 → 논증·자료 300 → GRE 600~900 → 선택 300~600카드의 잠정 제작 범위, 첫 120카드 시범과 후속 300카드 단위를 제안한다. 상세는 [WORK_PLAN](WORK_PLAN.md#gregmat-수준-확장-로드맵--2026-10-06-제안-미확정). 후보 전체 감사·수록 확정·카드 제작은 아직 하지 않았다. 어휘·게임 파일을 수정하지 않았고 검색 기능의 기존 미배포 변경은 유지했다.
+
+- **2026-10-06 단어·뜻 검색 배포 준비**: 세 과정 홈에 작은 검색칸을 추가했다. 현재 과정 전체에서 영어 표제어·표시형과 한국어 뜻으로 찾고, 예문·해석·해설·수록 위치를 펼쳐 기존 ‘모아둔 카드’에 저장/해제한다. 마더텅은 선택한 출제 연도와 별개로 이전 기출과 원래 뜻도 검색한다. 정확한 단어를 먼저 표시하고 결과는 24장씩 더 본다. 카드별 뜻·출처를 합치지 않으며 게임 화면·정답·진도·저장 키는 유지한다. 공통 원본은 [saved-cards](pipeline/saved-cards/README.md). 사용자의 배포 요청 후 card-search, saved-cards, 교재 UI, 정답 재생, IPA 보존, saved 빌드, index-stats 및 diff 검사를 다시 통과했다. 구현 단계의 내장 브라우저에서 FABLE 검색→저장→개인 복습, 마더텅 원래 뜻/원문, EBS 검색과 390/320px 화면을 확인했다. 실제 iPhone Safari 검사는 아니다. 공개 배포 결과는 성공 확인 후 이 문서와 DEPLOYMENT에 기록한다.
+
+- **plausible 유지 확인**: FABLE의 ‘그럴듯한, 타당해 보이는’과 증명이 필요하다는 예문·해설, 마더텅/EBS의 ‘그럴듯한’ 수록 상태를 확인했다. 사용자가 현행 유지에 동의해 내용은 바꾸지 않았다.
 
 - **2026-10-03 배치 조정·모아둔 카드 공개 배포 완료**: 사용자가 제안 전부와 배포를 승인했다. 세 과정에 고양이 저장/해제와 번호 없는 ‘모아둔 카드’를 넣었다. 개인 복습·목록 펼치기·개별 해제·목록 복사를 지원하며 현재 기기·브라우저별 저장이다. 정규 진도·이어하기·콤보와 분리한다. FABLE 배치 조정과 qualification 해설 수정도 함께 배포했다. 앱 커밋 [843b189](https://github.com/esqsoy/vocagoyang/commit/843b189c54593731fcb2b799d600579679b302fd)을 origin/main에 푸시했고 [GitHub Pages 37124186893](https://github.com/esqsoy/vocagoyang/actions/runs/37124186893) 성공, 공개 인덱스·세 과정 HTTP 200 및 검증본과의 일치를 확인했다. [공통 구현](pipeline/saved-cards/README.md), [배치 원장·결과](pipeline/placement-review-20261003/REPORT.md).
 
@@ -43,6 +51,7 @@
 | 마더텅 발췌·해석·최소 주석 | `pipeline/mother-tongue-excerpts/records.jsonl`. 표제어·카드 식별자는 원본 카드와 일치시킨다. |
 | 마더텅 문장 안 입력·표시 | `pipeline/mother-tongue-excerpts/runtime.js`, `style.css`. `node pipeline/mother-tongue-excerpts/build.cjs`로 HTML의 해당 구간을 갱신한다. |
 | 공통 IPA·단어 터치 재생 | `pipeline/ipa-effects/runtime.js`, `styles.css`. `node pipeline/ipa-effects/build.cjs`로 세 HTML에 반영한다. 발음 자료도 바꿀 때의 생성 순서는 [IPA 안내](pipeline/ipa-effects/README.md) 참조. |
+| 모아둔 카드·홈 단어 검색 | `pipeline/saved-cards/runtime.js`, `style.css`. `node pipeline/saved-cards/build.cjs`로 세 HTML에 반영한다. [공통 안내](pipeline/saved-cards/README.md) 참조. |
 | 각 과정 게임과 공통 기능 연결 | `vocagoyangfable.html`, `vocagoyangksat2027.html`, `vocagoyangebs2027.html`의 생성 구간 밖 코드. 연결 함수는 공통 빌더가 만들어 주지 않으므로 함께 확인한다. |
 
 원문 PDF와 전체 OCR은 로컬 참고 자료다. 저장소에는 검토한 발췌 데이터와 코드만 둔다. OCR 텍스트를 원문 검증 없이 확정하지 않는다.
