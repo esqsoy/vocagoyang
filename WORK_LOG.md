@@ -281,6 +281,13 @@
 - 이번 배포 요청 후 card-search, saved-cards, textbook-ui, IPA conservation, saved build --check, index-stats --check, git diff --check를 다시 실행해 통과했다. 독립 검수에서 DATA·기록 키·완료 판정·이어갈 대상 계산·범위 선택 코드가 HEAD와 동일함을 확인했다.
 - 실제 브라우저 확인은 앞선 구현 단계의 기본/390/320px 결과를 따른다. 공개 결과는 Pages 성공과 공개 파일 일치를 확인한 뒤 기록한다.
 
+## 2026-10-07 · 홈 제목·이어하기 UI 공개 배포 완료
+
+- 앱 커밋 [fe71060](https://github.com/esqsoy/vocagoyang/commit/fe710608e73e02029e91edd95535071f8594b424)을 origin/main에 푸시했고 [GitHub Pages 37507350892](https://github.com/esqsoy/vocagoyang/actions/runs/37507350892) completed/success와 공개 인덱스·세 과정 HTTP 200, 검증본과 LF 정규화 SHA-256 일치를 확인했다.
+- 세 과정 이어하기 버튼의 전체 너비·통계 통합과 FABLE 4/45, 마더텅 14/16/17 제목 단축을 배포했다. 첫 방문 통계 표시와 마더텅 출제 범위를 유지한다.
+- 이번 배포 요청 후 다시 실행한 검사는 앞선 배포 준비 기록의 7개다. 독립 코드 검수에서 어휘 DATA·기록 키·완료 판정·이어갈 대상·연도 필터 코드 보존을 확인했다. 화면 검증은 앞선 구현 단계 결과를 따른다.
+- 사전 비교는 미확정 제안 문서이며 새 어휘나 사전 변경은 포함하지 않는다. DEPLOYMENT·HANDOFF를 실제 공개 상태로 갱신했다.
+
 ## 다음 기록 형식
 
 ```text

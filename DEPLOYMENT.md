@@ -1,3 +1,25 @@
+# 홈 제목·이어하기 UI 통합 배포 · 2026-10-07
+
+- 앱 커밋 [fe71060](https://github.com/esqsoy/vocagoyang/commit/fe710608e73e02029e91edd95535071f8594b424)을 origin/main에 푸시했고 [GitHub Pages 37507350892](https://github.com/esqsoy/vocagoyang/actions/runs/37507350892) completed/success와 공개 인덱스·세 과정 HTTP 200, 검증본과 LF 정규화 SHA-256 일치를 확인했다.
+- FABLE 4/45의 제목을 ‘기초 보강’/‘핵심 보강’으로, 마더텅 14/16/17을 ‘문장 위치’/‘장문 - 단일 지문’/‘장문 - 복합 지문’으로 줄였다.
+- 세 과정 이어하기를 목록 전체 너비로 넓히고 윗줄에 동작명·다음 연습, 아랫줄에 세트/강·카드 수·클리어 현황을 통합했다. 이어하기가 없는 첫 방문에는 제목 아래 통계를 유지한다. 마더텅 통계는 출제 범위를 따른다.
+- 어휘·게임·진도·저장 키와 이어갈 대상 계산을 유지했다. MW12/ODE 비교는 미확정 문서만 포함한다.
+- 배포 요청 후 card-search, saved-cards, textbook-ui, IPA conservation, saved build --check, index-stats --check, git diff --check 통과. 독립 검수에서도 DATA와 진행 관련 코드 보존을 확인했다.
+- 구현 단계의 기본/390/320px 브라우저 및 일회성 harness에서 첫 방문·일부/전체 완료·통계 이동·범위 전환·실제 이어하기·개인 복습 후 진도 보존을 확인했다. 실제 iPhone Safari 검사는 아니다.
+
+공개 UTF-8 텍스트를 LF로 정규화한 SHA-256:
+
+| 파일 | SHA-256 |
+| --- | --- |
+| index.html | c89abf0834676d0ec708a66babaae82ddfd9e5c9025c1f1f1e5f1c5057de42cb |
+| vocagoyangfable.html | 2e58f255e92dedd3d9d61443d030a0a3b594593259b9467616615f01d079578f |
+| vocagoyangksat2027.html | 5ff5df3dc4cb719da03ef594a658d545606e014e344981ab2df62e426090eda8 |
+| vocagoyangebs2027.html | 9e0e797b7f3c7a83a7b5da056a5a9a459f398cbb3dec96f7e826c62f9f41b97e |
+
+[교재 선택](https://esqsoy.github.io/vocagoyang/?release=fe71060) · [FABLE](https://esqsoy.github.io/vocagoyang/vocagoyangfable.html?release=fe71060)
+
+---
+
 # 단어·뜻 검색과 카드 저장 통합 배포 · 2026-10-06
 
 - 앱 커밋: [571900c](https://github.com/esqsoy/vocagoyang/commit/571900c8a9ea9830cd465827c6631334a8eddb16), origin/main 푸시 완료.
