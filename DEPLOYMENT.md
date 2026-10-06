@@ -1,3 +1,22 @@
+# FABLE 보강 제목 + 표시 배포 · 2026-10-07
+
+- 앱 커밋 [0bae266](https://github.com/esqsoy/vocagoyang/commit/0bae2665416dcb0728e32248cfe425f156a435dd)을 origin/main에 푸시했다. [GitHub Pages 37514294209](https://github.com/esqsoy/vocagoyang/actions/runs/37514294209) completed/success와 공개 인덱스·세 과정 HTTP 200 및 검증본과 LF 정규화 SHA-256 일치를 확인했다.
+- 4세트는 ‘301~400+’, 45세트는 ‘4384~4460+’로 표시한다. 보강 설명 때문에 발생하는 추가 줄바꿈을 줄였다. 46세트 이후의 주제 제목은 유지한다.
+- 어휘·카드·진도·이어하기는 바뀌지 않았다. 배포 전 diff 검사와 독립 범위 검수를 통과했다. 구현 단계의 390/320px 브라우저에서 주변 숫자 세트와 제목 행 높이 일치, 가로 넘침 없음과 세트 안 제목을 확인했다.
+
+공개 UTF-8 텍스트를 LF로 정규화한 SHA-256:
+
+| 파일 | SHA-256 |
+| --- | --- |
+| index.html | c89abf0834676d0ec708a66babaae82ddfd9e5c9025c1f1f1e5f1c5057de42cb |
+| vocagoyangfable.html | 47cf5cde8df50c7a3eea25a1276d15d489425e30a54b9ab40857ae1b1274ad04 |
+| vocagoyangksat2027.html | 5ff5df3dc4cb719da03ef594a658d545606e014e344981ab2df62e426090eda8 |
+| vocagoyangebs2027.html | 9e0e797b7f3c7a83a7b5da056a5a9a459f398cbb3dec96f7e826c62f9f41b97e |
+
+[FABLE 열기](https://esqsoy.github.io/vocagoyang/vocagoyangfable.html?release=0bae266)
+
+---
+
 # 홈 제목·이어하기 UI 통합 배포 · 2026-10-07
 
 - 앱 커밋 [fe71060](https://github.com/esqsoy/vocagoyang/commit/fe710608e73e02029e91edd95535071f8594b424)을 origin/main에 푸시했고 [GitHub Pages 37507350892](https://github.com/esqsoy/vocagoyang/actions/runs/37507350892) completed/success와 공개 인덱스·세 과정 HTTP 200, 검증본과 LF 정규화 SHA-256 일치를 확인했다.

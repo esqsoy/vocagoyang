@@ -4,7 +4,7 @@
 
 ## 현재 결론과 배포 상태
 
-- **2026-10-07 FABLE 보강 제목 ‘+’로 재축약, 로컬 미배포**: 공개판의 ‘기초 보강’/‘핵심 보강’도 줄바꿈을 유발한다는 사용자 피드백에 따라 4는 ‘301~400+’, 45는 ‘4384~4460+’로 표시한다. 46세트부터는 주제 제목과 줄바꿈을 유지한다. 생성 구간 밖 lessonDisplayNames 한 줄만 바꿨고 DATA·기록·게임은 그대로다. 내장 브라우저 390px에서 4/45의 제목 줄이 주변 숫자 세트와 같은 한 줄, 320px에서는 주변과 같은 두 줄이며 제목 자체의 추가 줄바꿈·가로 넘침이 없음을 확인했다. 45세트 안 제목도 확인했다. 아직 커밋·푸시·배포하지 않았으며 공개 앱 기준은 아래 fe71060이다.
+- **2026-10-07 FABLE 보강 제목 ‘+’ 공개 배포 완료**: 공개판의 ‘기초 보강’/‘핵심 보강’도 줄바꿈을 유발한다는 사용자 피드백에 따라 4는 ‘301~400+’, 45는 ‘4384~4460+’로 표시한다. 46세트부터는 주제 제목과 줄바꿈을 유지한다. 생성 구간 밖 lessonDisplayNames 한 줄만 바꿨고 DATA·기록·게임은 그대로다. 내장 브라우저 390px에서 4/45의 제목 줄이 주변 숫자 세트와 같은 한 줄, 320px에서는 주변과 같은 두 줄이며 제목 자체의 추가 줄바꿈·가로 넘침이 없음을 확인했다. 45세트 안 제목도 확인했다. 앱 커밋 [0bae266](https://github.com/esqsoy/vocagoyang/commit/0bae2665416dcb0728e32248cfe425f156a435dd)을 origin/main에 푸시했다. [GitHub Pages 37514294209](https://github.com/esqsoy/vocagoyang/actions/runs/37514294209) completed/success와 공개 인덱스·세 과정 HTTP 200 및 검증본과 LF 정규화 SHA-256 일치를 확인했다. 배포 요청 후 diff 검사와 독립 범위 검수를 통과했다. 단순 표시명 수정이므로 새 자동 테스트는 추가하지 않았다. [배포 기록](DEPLOYMENT.md).
 
 - **2026-10-07 홈 제목·이어하기 통합 공개 배포 완료**: 세 과정의 이어하기 윗줄에는 동작명과 다음 연습, 아랫줄에는 세트/강·카드 수·클리어 현황을 둔다. 같은 `homeMeta` 요소를 버튼 안으로 이동하며 이어하기가 숨겨지면 제목 아래로 돌려 첫 방문에도 통계를 유지한다. 마더텅/EBS에도 기존 함수로 클리어 수를 표시한다. 마더텅은 출제 범위를 따라 수치가 갱신된다. 생성 구간 밖 세 HTML이 원본이다. card-search, saved-cards, textbook-ui, saved build --check 통과. 내장 브라우저 기본/390/320px에서 FABLE 버튼과 첫 방문 대체 표시, 마더텅 범위 전환, EBS를 확인했다. 앱 커밋 [fe71060](https://github.com/esqsoy/vocagoyang/commit/fe710608e73e02029e91edd95535071f8594b424)을 origin/main에 푸시했고 [GitHub Pages 37507350892](https://github.com/esqsoy/vocagoyang/actions/runs/37507350892) completed/success와 공개 인덱스·세 과정 HTTP 200, 검증본과 LF 정규화 SHA-256 일치를 확인했다. 아래 제목 단축·너비 변경을 함께 배포했다. 배포 요청 후 card-search, saved-cards, textbook-ui, IPA conservation, saved build --check, index-stats --check, diff 검사를 다시 통과했다. [배포 기록](DEPLOYMENT.md).
 
@@ -42,7 +42,7 @@
 - 세 과정 공통 IPA: 정상 TTS 종료가 예상보다 빨라 미표시 음절이 남으면 전체를 표시하고 180ms 유지한 뒤 기존 250ms 사라짐을 이어간다. 이미 전부 표시됐으면 추가 대기 없이, 수동 건너뛰기는 즉시 종료한다. 코드에서 확인한 누락 경로를 수정했으며 최초 사용자 사례의 원인까지 특정한 것은 아니다.
 - 인덱스는 실제 DATA에서 등록 표제어를 자동 집계한다. FABLE **4,916**, 마더텅 추가 **3,238**·누적 **8,154**, EBS 추가 **129**·최종 **8,283**. 구 표현·이전 기출을 포함하며 word family 수는 아니다. FABLE 조립·마더텅 발췌·공통 IPA 빌드에 연결했고 --check로 오래된 수치를 검출한다. [집계 기준·명령](pipeline/README.md#인덱스-단어-수-자동-갱신).
 - 예문 있음 → 문장 안 입력 / 예문 없음 → 독립 입력, 정답 터치 음성·IPA 재생 등 기존 표준은 유지한다. [UI_STANDARD.md](UI_STANDARD.md).
-- 작업 브랜치는 codex/fable-upgrade-20260919, 저장소는 https://github.com/esqsoy/vocagoyang.git, 공개 사이트는 https://esqsoy.github.io/vocagoyang/ 다. 현재 앱 기준은 fe71060이며 후속 배포 기록 커밋은 게임 HTML을 바꾸지 않는다. 다음 작업에서 최신 HEAD·원격 상태와 git status를 확인한다.
+- 작업 브랜치는 codex/fable-upgrade-20260919, 저장소는 https://github.com/esqsoy/vocagoyang.git, 공개 사이트는 https://esqsoy.github.io/vocagoyang/ 다. 현재 앱 기준은 0bae266이며 후속 배포 기록 커밋은 게임 HTML을 바꾸지 않는다. 다음 작업에서 최신 HEAD·원격 상태와 git status를 확인한다.
 
 ## 마더텅 발췌 적용 범위
 
