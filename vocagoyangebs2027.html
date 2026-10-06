@@ -149,8 +149,12 @@ body.playing .app{gap:8px;padding:max(6px,env(safe-area-inset-top)) 6px max(8px,
 .lessonbtn.morph{border-color:#2f7d95;background:linear-gradient(160deg,#153a4d,#1a1d3a 62%,#170824);}
 .lessonbtn.morph .lname{color:var(--cyan);}
 .lessonbtn .lbar{height:4px;margin-top:2px;}
-.btn.resume{margin:0 13px 10px;min-height:52px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;line-height:1.15;}
+.btn.resume{margin:0 13px 10px;width:calc(100% - 26px);min-height:52px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:9px 12px;line-height:1.15;}
 .btn.resume small{font-weight:800;font-size:.76rem;opacity:.85;}
+.resume-heading{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:center;column-gap:10px;row-gap:2px;}
+#homeMeta{display:block;line-height:1.35;}
+#homeHeading #homeMeta{margin-top:3px;color:var(--muted);font-size:.82rem;}
+.btn.resume #homeMeta{font-size:.72rem;font-weight:700;}
 .btn.resume[hidden]{display:none;}
 .exgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;padding:0 13px 13px;}
 .exbtn .done{color:var(--gold);font-weight:800;}
@@ -1388,12 +1392,12 @@ body.playing .appbar{display:flex;padding:0 5px;}
       </div>
       <div class="panel">
         <div class="phead">
-          <div style="flex:1;">
+          <div id="homeHeading" style="flex:1;">
             <h2>2027 EBS 수능특강 영어</h2>
-            <p id="homeMeta">불러오는 중…</p>
+            <small id="homeMeta">불러오는 중…</small>
           </div>
         </div>
-        <button class="btn resume" id="resumeBtn" type="button" hidden><span>▶ 이어 하기</span><small id="resumeSub"></small></button>
+        <button class="btn resume" id="resumeBtn" type="button" hidden><span class="resume-heading"><span>▶ 이어 하기</span><small id="resumeSub"></small></span></button>
         <div class="grid" id="lessonGrid" style="padding:0 13px 13px;"></div>
       </div>
     </section>
@@ -2126,12 +2130,13 @@ setMuted(false);
 /* ===== home ===== */
 function renderHome(){
   const total=state.lessons.reduce((s,L)=>s+visEx(L).reduce((a,e)=>a+e.words.length,0),0);
-  $("#homeMeta").textContent=`총 ${total}개 단어 · 1강~${state.lessons.length}강`;
+  $("#homeMeta").textContent=`${state.lessons.length}강 · ${total.toLocaleString()}카드 · 클리어 ${clearedExercises()}/${totalExercises()} 연습`;
   $("#homeBubble").innerHTML=`<span><span class="nm">고양고양이</span> ${pick(LINES.welcome)}</span>`;
   setCat('homeCat','normal');
   const rt=resumeTarget(),rb=$("#resumeBtn");
   if(rt&&clearedExercises()>0){rb.hidden=false;$("#resumeSub").textContent=`${rt.L.id} · ${rt.e.title}`;rb.onclick=()=>{state.li=rt.li;openLesson(rt.li);startExercise(rt.ei);};}
   else rb.hidden=true;
+  (rb.hidden?$("#homeHeading"):rb).appendChild($("#homeMeta"));
   const g=$("#lessonGrid");g.innerHTML="";
   if(typeof savedRenderHome==="function")savedRenderHome();
   state.lessons.forEach((L,i)=>{

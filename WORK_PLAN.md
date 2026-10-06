@@ -9,6 +9,16 @@
 
 마더텅 PDF 발췌와 문장 안 입력, 세 과정 정답 단어 터치 발음 재생·해설칸 IPA 제거는 사용자 확인 후 `b72f723`으로 배포했다. 최신 구현·배포 상태는 HANDOFF를 기준으로 확인한다.
 
+## 기준 사전 변경 검토 · 2026-10-07, 미확정
+
+사용자가 Merriam-Webster's Collegiate Dictionary 12판(ISBN 9780877794066)을 구입했고 ODE와 수록 규모·작업 편의성을 비교해 달라고 요청했다. OED는 오타라고 정정했으므로 비교 대상에서 제외한다. 구매는 기준 변경 검토의 계기이며 최종 변경 승인은 아직 아니다. 아래 10월 6일의 ODE 합의를 임의로 교체하지 않는다.
+
+- 수량: ODE 3판의 공식 350,000+는 words/phrases/meanings 합산이고 순수 표제어 수가 아니다. 2024년 NAACL 논문은 ODE(2010)를 약 100,000 headwords로 설명한다. MW12 공식 상품·발표에서 확인한 것은 새 단어 5,000+와 새 구/관용구 1,000이며 전체 표제어 총수는 확인하지 못했다. 학술 서평의 165,000 entries / 225,000 definitions는 MW11판 수치다. 단순히 5,000을 더하거나 서로 다른 단위를 비교해 우열·차이를 확정하지 않는다.
+- 편의성 판단: 현재는 ODE 전체 목록을 확보하거나 그 목록에 맞춘 새 카드 제작을 시작하지 않았으므로 기준을 바꿔도 기존 앱·카드 제작을 되돌릴 필요가 없다. 운영자가 가진 MW12를 범위·검수 기준으로 쓰고 ODE 등을 의미·용법의 보완 자료로 쓰는 안을 권고한다. 게임·IPA·예문 제작 방식은 기준 사전과 별도로 유지할 수 있다.
+- 남은 관건: 종이판의 전체 표제어/파생어/구 표현을 누락 없이 대조할 수 있는 목록 확보. Oxford는 Word Lists 데이터 상품을 명시적으로 제공하지만 그 상품의 480,000+는 영미 자료의 변형·굴절·다어절을 포함해 단일 ODE 종이판 표제어 수가 아니다. MW의 개별 조회 API는 공식 문서에서 MW12 고정 목록과 일치하거나 전체 목록을 내려받는다고 확인되지 않는다. MW 웹사전도 종이판과 구별되는 갱신형 자료다. 어느 쪽도 현재 확보한 전체 목록은 없다.
+
+근거: [MW12 공식 상품](https://shop.merriam-webster.com/products/merriam-websters-collegiate-dictionary-twelfth-edition), [출판사 발표](https://www.globenewswire.com/news-release/2025/09/25/3156051/0/en/merriam-webster-announces-twelfth-edition-of-its-iconic-collegiate-dictionary.html), [ODE3 공식 소개](https://www.oupjapan.co.jp/en/node/6630), [NAACL 2024 논문](https://aclanthology.org/2024.naacl-long.194/), [MW12 학술 서평·저자 공개본](https://www.researchgate.net/publication/399614903_Merriam-Webster%27s_Collegiate_Dictionary), [Oxford Word Lists](https://languages.oup.com/products/word-lists/), [MW API](https://dictionaryapi.com/products/api-collegiate-dictionary), [MW 웹사전 FAQ](https://www.merriam-webster.com/about-us/faq).
+
 ## 장기 목표: 주요 현대 영영사전의 전체 어휘 풀 · 2026-10-06
 
 사용자는 주요 출판사 단어장의 표제어 참조를 허용하고, 최신 신조어 등을 제외한 주요 영영사전 하나의 전체 어휘를 학습할 수 있는 풀을 원한다고 밝혔다. 이어 “최종목표를 ode로 놓자는 말이지? 딱 내가 원하던 바야”라고 확인해 **ODE를 최종 기준 사전으로 확정했다.** GRE·GMAT은 중간 목표다. 구체 판본·데이터 기준일·세부 분류와 제외 기준은 아직 미확정이고 전체 목록도 확보하지 않았다. 게임 방식 유지와 작은 제작 단위는 계속 적용한다.
