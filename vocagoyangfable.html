@@ -2329,7 +2329,7 @@ function splitExercises(lessons){
 }
 state.lessons=splitExercises(buildLessons());
 // Short display titles leave source metadata and progress identities intact.
-const lessonDisplayNames={4:'301~400 · 기초 보강',45:'4384~4460 · 핵심 보강'};
+const lessonDisplayNames={4:'301~400+',45:'4384~4460+'};
 state.lessons.forEach(L=>{L.name=lessonDisplayNames[L.lesson]||L.name;});
 function activeLesson(){return state.savedLesson||state.lessons[state.li];}
 function visEx(L){return L.kind==='saved'||state.prevOn?L.exercises:L.exercises.filter(e=>e.scope!=='prev');}
