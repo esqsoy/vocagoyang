@@ -41,18 +41,24 @@
     "dataUnchanged": false,
     "newEnglishExamplesWritten": 21,
     "appliedCardsThisAudit": 30,
-    "deployment": false,
+    "deployment": true,
     "proposalBatchCards": 30,
-    "proposalStatus": "applied_locally_not_deployed",
+    "proposalStatus": "applied_and_deployed",
     "dataUnchangedDuringSelection": true,
     "currentDataHash": "c4f71f2424643f10ff5f1932fde09fd212167b25a5590927f95411400600ff47",
     "approvedBatchCards": 30,
     "changedCardsThisAudit": 30,
     "appliedNewCandidateCards": 21,
-    "remainingCandidateCards": 591,
+    "remainingCandidateCards": 577,
     "pendingExistingAtSelection": 9,
     "pendingExistingNow": 0,
-    "appliedExistingProposalCards": 9
+    "appliedExistingProposalCards": 9,
+    "release": "release-01.json",
+    "draftedCandidateCards": 26,
+    "withdrawnCandidateCards": 14,
+    "remainingUnwrittenCandidateCards": 551,
+    "pendingReviewProposalCards": 26,
+    "latestDraft": "proposal-02.json"
   },
   "candidates": [
     {
@@ -74,7 +80,7 @@
       "headword": "thirteen",
       "exercise": 1,
       "exerciseName": "수사 I (0~19)",
-      "decision": "candidate_not_applied",
+      "decision": "keep_after_drafting",
       "reason": "나이만 든 임의 수량 문장이라 미국 독립의 13개 식민지로 수량 의미를 살릴 여지가 있음.",
       "preserve": "수사+복수 명사; 쉬운 어휘와 짧은 길이",
       "factIds": [
@@ -83,7 +89,8 @@
       "topicLinks": [
         "미국 독립"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "postDraftDecisionReason": "thirteen years old는 수사를 처음 배우는 단계의 핵심 나이 표현이다. 13개 식민지로 바꾸면 colonies와 independence까지 알아야 하므로 초급 학습 실익이 줄어든다."
     },
     {
       "id": "C0047",
@@ -104,7 +111,7 @@
       "headword": "may",
       "exercise": 3,
       "exerciseName": "요일·월",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "시험 종료월만 제시한 문장이라 유럽의 제2차 세계대전 종전월로 바꿀 여지가 있음.",
       "preserve": "대문자 May와 in+월; 전쟁 전체 종전과 유럽 종전 구분",
       "factIds": [
@@ -113,7 +120,9 @@
       "topicLinks": [
         "제2차 세계대전"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 31
     },
     {
       "id": "C0049",
@@ -134,7 +143,7 @@
       "headword": "july",
       "exercise": 3,
       "exerciseName": "요일·월",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "해변 방문 시기만 보여 주므로 독립선언 또는 프랑스혁명의 중요한 달로 바꿀 여지가 있음.",
       "preserve": "in+월 또는 on+월 날짜를 명확하게 유지",
       "factIds": [
@@ -145,7 +154,9 @@
         "미국 독립",
         "프랑스혁명"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 32
     },
     {
       "id": "C0050",
@@ -166,7 +177,7 @@
       "headword": "august",
       "exercise": 3,
       "exerciseName": "요일·월",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "계절 체감 진술을 일본의 항복 발표 시점으로 연결할 여지가 있음.",
       "preserve": "대문자 월 이름; 발표와 서명 구분; 초급 길이",
       "factIds": [
@@ -175,7 +186,9 @@
       "topicLinks": [
         "원폭과 일본 항복"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 33
     },
     {
       "id": "C0053",
@@ -196,7 +209,7 @@
       "headword": "november",
       "exercise": 3,
       "exerciseName": "요일·월",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "시험 월만 제시해 제1차 세계대전 휴전 시점으로 바꿀 여지가 있음.",
       "preserve": "in+월; 휴전과 평화조약 구분",
       "factIds": [
@@ -205,7 +218,9 @@
       "topicLinks": [
         "제1차 세계대전"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 34
     },
     {
       "id": "C0080",
@@ -226,7 +241,7 @@
       "headword": "worker",
       "exercise": 5,
       "exerciseName": "사람",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "특정 도로 공사 인부라는 임의 문맥을 산업혁명의 공장 노동으로 바꿀 여지가 있음.",
       "preserve": "worker의 사람 뜻과 복수형; 초급 기본 문장",
       "factIds": [
@@ -235,7 +250,9 @@
       "topicLinks": [
         "산업혁명"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 35
     },
     {
       "id": "C0090",
@@ -256,7 +273,7 @@
       "headword": "project",
       "exercise": 6,
       "exerciseName": "학교·공부",
-      "decision": "candidate_not_applied",
+      "decision": "keep_after_drafting",
       "reason": "이름 없는 과제를 인간 게놈 프로젝트라는 중요한 과학 공동작업으로 연결 가능.",
       "preserve": "project의 목표 있는 작업 뜻; 생물학 설명 과적재 금지",
       "factIds": [
@@ -265,7 +282,8 @@
       "topicLinks": [
         "인간 게놈 프로젝트"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "postDraftDecisionReason": "do a science project는 학생의 학교 과제라는 현행 뜻과 바로 연결되는 좋은 결합이다. Human Genome Project로 바꾸면 genome의 설명을 요구하고 '과제' 의미의 접근성이 줄어든다."
     },
     {
       "id": "C0103",
@@ -286,7 +304,7 @@
       "headword": "culture",
       "exercise": 6,
       "exerciseName": "학교·공부",
-      "decision": "candidate_not_applied",
+      "decision": "keep_after_drafting",
       "reason": "현대 인기 진술만 있는 문장이라 실크로드의 문화 교류로 사회 문화 의미를 넓힐 수 있음.",
       "preserve": "culture의 사회 생활 방식 뜻; 짧은 문장",
       "factIds": [
@@ -295,7 +313,8 @@
       "topicLinks": [
         "실크로드 교류"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "postDraftDecisionReason": "한국 문화라는 익숙한 대상이 culture의 의미를 즉시 잡게 해 준다. 실크로드로 바꾸면 교역·문화 교류의 추상적인 관계와 고유명사가 추가되어 0세트의 장점이 줄어든다."
     },
     {
       "id": "C0123",
@@ -316,7 +335,7 @@
       "headword": "tomato",
       "exercise": 7,
       "exerciseName": "집·생활",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "샐러드 재료 지시만 있는 문장이라 콜럼버스 교환의 대표 작물 이동으로 연결 가능.",
       "preserve": "셀 수 있는 tomato와 복수 tomatoes; 작물 원산지·이동 세부는 검증 필요",
       "factIds": [
@@ -325,7 +344,9 @@
       "topicLinks": [
         "콜럼버스 교환"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 36
     },
     {
       "id": "C0167",
@@ -346,7 +367,7 @@
       "headword": "create",
       "exercise": 8,
       "exerciseName": "형용사·동사",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "익명 학생의 앱 제작보다 웹의 탄생을 통해 만들다의 쓰임을 살릴 여지가 있음.",
       "preserve": "create의 새로 만들다 뜻과 수동태; internet과 web 혼동 금지",
       "factIds": [
@@ -355,7 +376,9 @@
       "topicLinks": [
         "월드와이드웹"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 37
     },
     {
       "id": "C0270",
@@ -376,7 +399,7 @@
       "headword": "life",
       "exercise": 4,
       "exerciseName": "31~40",
-      "decision": "candidate_not_applied",
+      "decision": "keep_after_drafting",
       "reason": "도시 생활의 안부 질문만 제시해 산업화가 생활을 바꾼 사실로 연결할 여지가 있음.",
       "preserve": "life의 생활 방식 뜻; 생명·한 사람의 인생 뜻과 구별",
       "factIds": [
@@ -385,7 +408,8 @@
       "topicLinks": [
         "산업혁명"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "postDraftDecisionReason": "How's life in ...?는 실제로 재사용할 수 있는 안부 표현이다. 산업화가 삶을 바꿨다는 일반적 사실보다 생활이라는 다의어 뜻이 직접 드러난다."
     },
     {
       "id": "C0279",
@@ -406,7 +430,7 @@
       "headword": "last",
       "exercise": 4,
       "exerciseName": "31~40",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "배터리의 임의 사용 시간을 전쟁 지속 기간으로 바꾸어 동일 동사 문형을 보존 가능.",
       "preserve": "last+기간 자동사; 역사 시작·종료 연도에 맞는 기간 표현",
       "factIds": [
@@ -417,7 +441,9 @@
         "제1차 세계대전",
         "제2차 세계대전"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 38
     },
     {
       "id": "C0343",
@@ -438,7 +464,7 @@
       "headword": "show",
       "exercise": 7,
       "exerciseName": "61~70",
-      "decision": "candidate_not_applied",
+      "decision": "keep_after_drafting",
       "reason": "무슨 결과인지 없는 계획 성공 문장이라 실험 결과가 유전·세균설을 보인 사실로 연결 가능.",
       "preserve": "결과·자료+show that 문형; 입증 강도 과장 금지",
       "factIds": [
@@ -449,7 +475,8 @@
         "유전 법칙",
         "세균설"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "postDraftDecisionReason": "results show that+절은 입증하다/보여 주다 뜻의 대표 문형이다. 유전 실험이나 세균설을 얹으면 실험 설계·형질·미생물 같은 주변 정보가 show보다 어려워진다."
     },
     {
       "id": "C0345",
@@ -470,7 +497,7 @@
       "headword": "end",
       "exercise": 7,
       "exerciseName": "61~70",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "수업 종료 시각만 든 문장이라 세계대전 종전 시점을 동일한 끝나다 뜻으로 학습 가능.",
       "preserve": "자동사 end와 시간 표현; 휴전·종전 날짜 구별",
       "factIds": [
@@ -481,7 +508,9 @@
         "제1차 세계대전",
         "제2차 세계대전"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 39
     },
     {
       "id": "C0377",
@@ -502,7 +531,7 @@
       "headword": "city",
       "exercise": 9,
       "exerciseName": "81~90",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "서울이 크다는 진술만 있어 초기 도시 발달의 핵심 흐름을 담을 여지가 있음.",
       "preserve": "city 도시 뜻과 쉬운 어휘; 지나친 고대 지명 나열 금지",
       "factIds": [
@@ -513,7 +542,9 @@
         "메소포타미아 문자",
         "신석기 농업"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 40
     },
     {
       "id": "C0426",
@@ -534,7 +565,7 @@
       "headword": "government",
       "exercise": 1,
       "exerciseName": "101~110",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "정부가 세금을 올렸다는 익명 진술을 러시아혁명의 정부 변화로 대체할 여지가 있음.",
       "preserve": "government 명사 뜻; 혁명의 단계·정부 주체 혼동 금지",
       "factIds": [
@@ -543,7 +574,9 @@
       "topicLinks": [
         "러시아혁명"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 41
     },
     {
       "id": "C0455",
@@ -564,7 +597,7 @@
       "headword": "change",
       "exercise": 2,
       "exerciseName": "111~120",
-      "decision": "candidate_not_applied",
+      "decision": "keep_after_drafting",
       "reason": "임의의 날씨 변화만 설명해 산업·과학혁명의 변화라는 핵심 사실로 연결 가능.",
       "preserve": "a change in 문형; 명사 변화 뜻",
       "factIds": [
@@ -575,7 +608,8 @@
         "산업혁명",
         "과학혁명"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "postDraftDecisionReason": "a change in the weather는 명사 change의 전형적인 결합이다. '산업화는 큰 변화를 가져왔다'라는 포괄적 문장만으로 바꾸면 정보도 모호하고 현행 문형 이상의 실익이 적다."
     },
     {
       "id": "C0491",
@@ -596,7 +630,7 @@
       "headword": "power",
       "exercise": 4,
       "exerciseName": "131~140",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "이름 없는 왕의 권력이 너무 많았다는 평가 대신 혁명 전후 권력 변화로 뜻을 선명히 할 수 있음.",
       "preserve": "power의 정치 권력 뜻; lose/gain power 등 자연스러운 결합",
       "factIds": [
@@ -607,7 +641,9 @@
         "러시아혁명",
         "프랑스혁명"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 42
     },
     {
       "id": "C0498",
@@ -628,7 +664,7 @@
       "headword": "national",
       "exercise": 4,
       "exerciseName": "131~140",
-      "decision": "candidate_not_applied",
+      "decision": "keep_after_drafting",
       "reason": "태권도 국기 진술보다 탈식민화의 국가 독립 흐름에 연결할 여지가 있음.",
       "preserve": "national의 국가의 뜻; nation별 범위가 다른 사실을 전칭화하지 않기",
       "factIds": [
@@ -637,7 +673,8 @@
       "topicLinks": [
         "탈식민화"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "postDraftDecisionReason": "national sport는 국가의라는 형용사 뜻이 즉시 드러나고 national team 해설과도 연결된다. national independence로 바꾸면 더 어려운 independence가 의미 이해의 중심이 된다."
     },
     {
       "id": "C0518",
@@ -658,7 +695,7 @@
       "headword": "party",
       "exercise": 5,
       "exerciseName": "141~150",
-      "decision": "candidate_not_applied",
+      "decision": "keep_after_drafting",
       "reason": "정당 지지 여부를 묻는 일반 질문이라 러시아혁명의 권력 획득 정당으로 연결 가능.",
       "preserve": "political party 정당 뜻; party 모임 뜻과 구별; 시기 구분",
       "factIds": [
@@ -667,7 +704,8 @@
       "topicLinks": [
         "러시아혁명"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "postDraftDecisionReason": "political party와 support의 조합이 모임과 정당의 뜻 차이를 매우 명료하게 보여 준다. Bolshevik party로 바꾸면 초급 단계에 생소한 이름을 추가하고 political이라는 직접 단서를 잃는다."
     },
     {
       "id": "C0521",
@@ -688,7 +726,7 @@
       "headword": "run",
       "exercise": 5,
       "exerciseName": "141~150",
-      "decision": "candidate_not_applied",
+      "decision": "keep_after_drafting",
       "reason": "현대 전기차 작동 설명을 증기철도의 동력 변화로 바꾸어 동일 문형 보존 가능.",
       "preserve": "run on+동력원; run 달리다와 구별; 초기 철도 일반화 범위 주의",
       "factIds": [
@@ -697,7 +735,8 @@
       "topicLinks": [
         "증기와 철도"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "postDraftDecisionReason": "run on + 동력원과 전기/기름의 대비가 '달리다'와 다른 기계 작동 뜻을 즉시 보여 준다. 증기철도 문장으로 바꾸면 오히려 동력 관련 새 어휘를 늘리므로 보존한다."
     },
     {
       "id": "C0533",
@@ -718,7 +757,7 @@
       "headword": "country",
       "exercise": 6,
       "exerciseName": "151~160",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "나라가 아름답다는 평가만 있어 독립이라는 확립된 사건으로 나라 뜻을 살릴 수 있음.",
       "preserve": "country 명사; 초급 문장 길이; 식민지 분할 맥락 정확성",
       "factIds": [
@@ -729,7 +768,9 @@
         "인도·파키스탄",
         "탈식민화"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 43
     },
     {
       "id": "C0542",
@@ -750,7 +791,7 @@
       "headword": "war",
       "exercise": 6,
       "exerciseName": "151~160",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "이름 없는 전쟁 사망 진술을 두 세계대전의 핵심 시기로 구체화할 여지가 큼.",
       "preserve": "war 전쟁 명사 뜻; 세계대전 명칭과 보통명사 구별",
       "factIds": [
@@ -761,7 +802,9 @@
         "제1차 세계대전",
         "제2차 세계대전"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 44
     },
     {
       "id": "C0565",
@@ -782,7 +825,7 @@
       "headword": "book",
       "exercise": 8,
       "exerciseName": "171~180",
-      "decision": "candidate_not_applied",
+      "decision": "keep_after_drafting",
       "reason": "책의 임의 쪽수만 있어 지동설·진화론을 전한 책으로 구체화 가능.",
       "preserve": "book 보통명사 뜻; 낯선 책 제목 부담 최소화",
       "factIds": [
@@ -793,7 +836,8 @@
         "지동설",
         "진화론"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "postDraftDecisionReason": "book/pages의 구체적 관계가 초급 명사 의미를 바로 보여 준다. 다윈·코페르니쿠스의 책으로 바꾸면 쉬운 표제어에 과학 개념과 인명을 더 알아야 하므로 유지한다."
     },
     {
       "id": "C0594",
@@ -814,7 +858,7 @@
       "headword": "death",
       "exercise": 10,
       "exerciseName": "191~200",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "익명 인물의 사망 소식을 대규모 역사 사건의 인명 피해로 바꿀 여지가 있음.",
       "preserve": "death 명사 뜻과 가산·불가산 용법; Black Death 고유명 철자 맞추기로 대체 금지",
       "factIds": [
@@ -825,7 +869,9 @@
         "흑사병",
         "홀로코스트"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 45
     },
     {
       "id": "C0604",
@@ -846,7 +892,7 @@
       "headword": "history",
       "exercise": 1,
       "exerciseName": "201~210",
-      "decision": "candidate_not_applied",
+      "decision": "keep_after_drafting",
       "reason": "한국사 읽기를 좋아한다는 취향 진술만 있어 역사 흐름을 바꾼 농업·산업화로 연결 가능.",
       "preserve": "history의 역사 뜻; 핵심 변화가 드러나게 하고 인명 나열 피하기",
       "factIds": [
@@ -857,7 +903,8 @@
         "산업혁명",
         "신석기 농업"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "postDraftDecisionReason": "read about history의 친숙한 결합으로 history 뜻이 선명하다. 산업혁명이 역사를 바꿨다는 식의 문장은 더 길고 추상적이며 실제 변화도 설명하지 못하므로 유지한다."
     },
     {
       "id": "C0635",
@@ -878,7 +925,7 @@
       "headword": "international",
       "exercise": 3,
       "exerciseName": "221~230",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "영어가 국제어라는 포괄 진술을 국제연합 설립과 국제 기구 성격으로 연결 가능.",
       "preserve": "international의 나라 사이 뜻; 명사 수식 형용사",
       "factIds": [
@@ -887,7 +934,9 @@
       "topicLinks": [
         "국제연합"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 46
     },
     {
       "id": "C0649",
@@ -908,7 +957,7 @@
       "headword": "move",
       "exercise": 4,
       "exerciseName": "231~240",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "익명 가족의 이사만 든 문장이라 산업혁명의 도시 이동으로 바꾸기 자연스러움.",
       "preserve": "move to+장소의 이사하다 의미",
       "factIds": [
@@ -917,7 +966,9 @@
       "topicLinks": [
         "산업혁명"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 47
     },
     {
       "id": "C0653",
@@ -938,7 +989,7 @@
       "headword": "question",
       "exercise": 4,
       "exerciseName": "231~240",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "공정하지 않아 보이는 생각을 의심하라는 일반 교훈을 계몽·과학혁명의 검토 태도로 연결 가능.",
       "preserve": "question+주장·권위의 의문 제기 의미; 단순 질문하다로 바꾸지 않기",
       "factIds": [
@@ -949,7 +1000,9 @@
         "계몽사상",
         "과학혁명"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 48
     },
     {
       "id": "C0683",
@@ -970,7 +1023,7 @@
       "headword": "reason",
       "exercise": 5,
       "exerciseName": "241~250",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "인간은 이성의 지배를 받는다는 일반론보다 계몽사상의 이성 중시가 뜻을 구체화함.",
       "preserve": "reason의 이성 뜻; 원인·이유 뜻과 구별",
       "factIds": [
@@ -979,7 +1032,9 @@
       "topicLinks": [
         "계몽사상"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 49
     },
     {
       "id": "C0693",
@@ -1000,7 +1055,7 @@
       "headword": "age",
       "exercise": 6,
       "exerciseName": "251~260",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "정보 시대라는 추상적 현황을 인공위성 발사와 우주 시대의 시작으로 연결 가능.",
       "preserve": "age 시대 뜻; 시대 구분은 관용적인 표현으로 한정",
       "factIds": [
@@ -1009,7 +1064,9 @@
       "topicLinks": [
         "인공위성"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 50
     },
     {
       "id": "C0723",
@@ -1030,7 +1087,7 @@
       "headword": "art",
       "exercise": 8,
       "exerciseName": "271~280",
-      "decision": "candidate_not_applied",
+      "decision": "keep_after_drafting",
       "reason": "대학에서 미술을 공부한다는 임의 문장이라 르네상스의 예술 변화로 연결 가능.",
       "preserve": "art의 예술·미술 명사 뜻; 쉬운 주변 어휘",
       "factIds": [
@@ -1039,7 +1096,8 @@
       "topicLinks": [
         "르네상스"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "postDraftDecisionReason": "study modern art의 자연스러운 결합과 대학 전공 맥락이 예술 뜻을 분명하게 보여 준다. 르네상스 명칭·시기를 붙이는 교체는 단어 학습 실익 없이 배경 부담만 늘 수 있어 유지한다."
     },
     {
       "id": "C0724",
@@ -1060,7 +1118,7 @@
       "headword": "political",
       "exercise": 8,
       "exerciseName": "271~280",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "익명 인물들의 정치 견해 차이만 있어 혁명의 정치 변화로 연결 가능.",
       "preserve": "political+명사 형용사; 정치적 평가 단정 피하기",
       "factIds": [
@@ -1071,7 +1129,9 @@
         "프랑스혁명",
         "러시아혁명"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 51
     },
     {
       "id": "C0733",
@@ -1092,7 +1152,7 @@
       "headword": "former",
       "exercise": 9,
       "exerciseName": "281~290",
-      "decision": "candidate_not_applied",
+      "decision": "keep_after_drafting",
       "reason": "동아리 전직 회장이라는 임의 예를 독립한 옛 식민지로 바꾸어 former 용법을 유지 가능.",
       "preserve": "former를 명사 앞에 두기; the former 전자 뜻으로 바꾸지 않기",
       "factIds": [
@@ -1101,7 +1161,8 @@
       "topicLinks": [
         "탈식민화"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "postDraftDecisionReason": "former president는 현재와 과거의 지위를 짧게 보여 주는 대표 결합이다. colony와 independent를 함께 요구하는 새 역사 문장은 이 기초 카드에서 실익이 부족해 유지한다."
     },
     {
       "id": "C0737",
@@ -1122,7 +1183,7 @@
       "headword": "experience",
       "exercise": 9,
       "exerciseName": "281~290",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "누가 무슨 어려움을 겪었는지 없는 문장을 대공황의 경제난으로 구체화 가능.",
       "preserve": "experience+명사 타동사; endured와 구별할 감정 평가를 추가하지 않기",
       "factIds": [
@@ -1131,7 +1192,9 @@
       "topicLinks": [
         "대공황"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 52
     },
     {
       "id": "C0754",
@@ -1152,7 +1215,7 @@
       "headword": "study",
       "exercise": 10,
       "exerciseName": "291~300",
-      "decision": "candidate_not_applied",
+      "decision": "keep_after_drafting",
       "reason": "출처 없는 새 수면 연구 진술을 유전·세균설 연구의 역사로 연결 가능.",
       "preserve": "study의 명사 연구 뜻; 조사 결과 강도 정확성",
       "factIds": [
@@ -1163,7 +1226,8 @@
         "유전 법칙",
         "세균설"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "postDraftDecisionReason": "a study shows that의 대표 학술 문형과 익숙한 수면 주제를 보존한다. 멘델의 완두 연구로 바꾸려면 유전 결과를 설명하는 데 추가 개념이 필요하고, 연구 시작 연도만 넣으면 사소한 연보 정보가 된다."
     },
     {
       "id": "C0784",
@@ -1184,7 +1248,7 @@
       "headword": "field",
       "exercise": 2,
       "exerciseName": "311~320",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "이름 없는 인물이 과학 분야에서 유명하다는 평가를 핵심 이론의 분야 변화로 구체화 가능.",
       "preserve": "in the field of+학문; 분야 뜻",
       "factIds": [
@@ -1195,7 +1259,9 @@
         "상대성이론",
         "판구조론"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 53
     },
     {
       "id": "C0794",
@@ -1216,7 +1282,7 @@
       "headword": "space",
       "exercise": 2,
       "exerciseName": "311~320",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "우주비행사는 우주를 여행한다는 정의 반복보다 최초 유인 비행의 핵심 사실을 담기 좋음.",
       "preserve": "space 우주 뜻; 관사 없는 in/into space; 최초 범위 정확히",
       "factIds": [
@@ -1225,7 +1291,9 @@
       "topicLinks": [
         "유인 우주비행"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 54
     },
     {
       "id": "C0819",
@@ -1256,7 +1324,9 @@
         "달 착륙"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C0848",
@@ -1277,7 +1347,7 @@
       "headword": "share",
       "exercise": 5,
       "exerciseName": "341~350",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "익명 회사 주식 매입만 다뤄 대공황기의 주식 가치 하락으로 연결 가능.",
       "preserve": "share 가산명사 주식 한 주 뜻; 주가 폭락을 대공황의 유일 원인으로 단정 금지",
       "factIds": [
@@ -1286,7 +1356,9 @@
       "topicLinks": [
         "대공황"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 55
     },
     {
       "id": "C0851",
@@ -1307,7 +1379,7 @@
       "headword": "lead",
       "exercise": 5,
       "exerciseName": "341~350",
-      "decision": "candidate_not_applied",
+      "decision": "proposal_pending_user_review",
       "reason": "이름 없는 팀 인솔을 나폴레옹의 군대 지휘·워털루 패배로 연결 가능.",
       "preserve": "lead+사람·집단 타동사; 지휘자·전투 세부 확인",
       "factIds": [
@@ -1316,7 +1388,9 @@
       "topicLinks": [
         "나폴레옹 전쟁"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "proposal": "proposal-02.json",
+      "proposalNumber": 56
     },
     {
       "id": "C0865",
@@ -2191,7 +2265,9 @@
         "산업혁명"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C1333",
@@ -2624,7 +2700,9 @@
         "이슬람권 학문 교류"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C1472",
@@ -2685,7 +2763,9 @@
         "실크로드 교류"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C1502",
@@ -2900,7 +2980,9 @@
         "실크로드 교류"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C1608",
@@ -3055,7 +3137,9 @@
         "중화인민공화국"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C1631",
@@ -3151,7 +3235,9 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "application": "application-01.json",
-      "latestRevision": "difficulty-revision-02.json"
+      "latestRevision": "difficulty-revision-02.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C1668",
@@ -3274,7 +3360,9 @@
         "DNA 구조"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C1688",
@@ -4061,7 +4149,9 @@
         "나일강과 이집트"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C2055",
@@ -4122,7 +4212,9 @@
         "증기와 철도"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C2073",
@@ -4463,7 +4555,9 @@
         "원폭과 일본 항복"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C2267",
@@ -4556,7 +4650,9 @@
         "인도·파키스탄"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C2299",
@@ -5579,7 +5675,9 @@
         "나일강과 이집트"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C2871",
@@ -5702,7 +5800,9 @@
         "근대 화학"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C2933",
@@ -6534,7 +6634,9 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "application": "application-01.json",
-      "latestRevision": "difficulty-revision-02.json"
+      "latestRevision": "difficulty-revision-02.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C3478",
@@ -7377,7 +7479,9 @@
         "아테네 민주정"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C3670",
@@ -7684,7 +7788,9 @@
         "실크로드 교류"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C3761",
@@ -7747,7 +7853,9 @@
         "몽골 제국"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C3788",
@@ -8776,7 +8884,9 @@
         "산업혁명"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C4272",
@@ -9025,7 +9135,9 @@
         "망원경 관측"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C4342",
@@ -9678,7 +9790,9 @@
         "판구조론"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "application": "application-01.json"
+      "application": "application-01.json",
+      "applicationStatus": "applied_and_deployed",
+      "deployment": "release-01.json"
     },
     {
       "id": "C4602",

@@ -1,6 +1,6 @@
 # FABLE 세계사·과학사 예문 선별 · 2026-10-07
 
-이 폴더는 **검토 자료와 승인된 적용 이력**을 보관한다. `facts.json`의 사실 목록이나 후보 판정은 게임 DATA에 자동으로 들어가지 않는다. 새 영어 예문·해석을 대화에서 모두 보여 준 후 확인받아 적용한다. 첫 30장은 사용자 확인과 시기 보강 지시 후 로컬 반영했으며 공개 배포하지 않았다.
+이 폴더는 **검토 자료와 승인된 적용 이력**을 보관한다. `facts.json`의 사실 목록이나 후보 판정은 게임 DATA에 자동으로 들어가지 않는다. 새 영어 예문·해석을 대화에서 모두 보여 준 후 확인받아 적용한다. 첫 30장은 사용자 확인, 시기 보강 및 난도 조정을 거쳐 1d0f859으로 공개 배포했다. 최신 공개 검증은 [release-01.json](release-01.json)을 따른다.
 
 ## 목적과 범위
 
@@ -46,10 +46,18 @@
 
 최초 후보 612장 중 21장을 적용해 나머지는 591장이다. 기존 서수 9장도 이번 묶음에 포함됐다. summary의 candidates/keep/pendingExisting는 선정 당시 분류이고, 현재 대기는 pendingExistingNow와 remainingCandidateCards, 적용 내역은 applicationStatus/decision으로 구별한다.
 
-현재 DATA·저작 원본의 양방향 복원, 기록된 ex/tr/c만 변경됨, UI 코드·다른 카드 필드·46~50 데이터 불변을 확인했다. placement-regrouping, morphology-content, session, IPA conservation, index-stats --check 통과. 커밋·푸시·공개 배포는 하지 않았다.
+현재 DATA·저작 원본의 양방향 복원, 기록된 ex/tr/c만 변경됨, UI 코드·다른 카드 필드·46~50 데이터 불변을 확인했다. placement-regrouping, morphology-content, session, IPA conservation, index-stats --check 통과. 해당 적용 당시에는 배포 전이었으며 이후 release-01.json의 공개 배포에 포함했다.
 
 ## 예문 난도 피드백
 
 earthquake는 plate tectonics와 plate boundaries를 배경으로 요구하지 않도록 1906년 샌프란시스코 지진의 쉬운 문장으로 교체했다. difficulty-revision-01.json은 두 필드와 추가 검증 사실을 기록하며 기존 application-01.json은 그대로 보존한다. 현재 복원은 최신 수정부터 역순으로 수행한다. 최신 DATA 해시는 manifest의 currentDataHash를 따른다. 최초 72주제 밖의 이번 사실은 후속 원장 supplementalFact에 출처와 함께 남겼다. difficulty-review-01.json은 첫 30장 재검토 결과다. 추가 7안은 대화에 영어·해석을 모두 제시한 뒤 사용자가 승인해 difficulty-revision-02.json으로 적용했다. pending은 비우고 approved 내용을 applied에 보관한다. 난도 기준 전문은 WORK_PLAN을 따른다.
 
-두 번째 난도 조정은 승인된 7장의 ex/tr 14필드, 저작 원본 5개 파일에 한정된다. 첫 묶음의 누적 실제 변경은 30카드·64필드다. 최신 수정부터 역순으로 복원하며 이전 원장 파일은 수정하지 않았다. 기록·이어하기, 어원 원본 동기화, IPA 보존 검사 및 승인 문장 일치·허용 변경 범위 검증을 통과했다. 공개 배포는 하지 않았다.
+두 번째 난도 조정은 승인된 7장의 ex/tr 14필드, 저작 원본 5개 파일에 한정된다. 첫 묶음의 누적 실제 변경은 30카드·64필드다. 최신 수정부터 역순으로 복원하며 이전 원장 파일은 수정하지 않았다. 기록·이어하기, 어원 원본 동기화, IPA 보존 검사 및 승인 문장 일치·허용 변경 범위 검증을 통과했다. 이 조정은 release-01.json의 공개 배포에 포함했다.
+
+적용 원장 application-01.json 및 difficulty-revision-01/02.json의 status는 그 적용 시점의 기록이다. 변경 이력은 그대로 두고 실제 공개 상태는 release-01.json, manifest 및 proposal의 최신 상태로 확인한다. 전체 개정의 후속 초안은 사용자 확인 전까지 앱에 반영하지 않는다.
+
+## 두 번째 묶음 검토
+
+후속 후보 40장의 기존 학습 가치와 새 문장을 함께 대조했다. proposal-02.json의 26개 영어·해석은 대화 번호 31~56의 확인 대기안이며 앱에는 아직 반영하지 않았다. batch-02-review.json은 14개 유지 결정과 26개 제안의 근거·출처·난도 판단을 담는다. root 검수로 November는 더 간단하게, death는 수천만 규모가 드러나도록 고쳤고 former는 기존 former president 결합을 보존했다.
+
+최초 612후보는 21개 적용 + 14개 현행 유지 전환 + 26개 검토안 + 551개 미작성이다. remainingCandidateCards=577은 아직 반영하지 않은 교체 후보이며 그중 pendingReviewProposalCards=26, remainingUnwrittenCandidateCards=551이다. 최초 선정 집계와 현재 진행 집계를 구별한다. 새 초안 작성 전후 DATA는 공개판과 동일하다.

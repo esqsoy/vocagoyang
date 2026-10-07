@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
   "batch": 1,
-  "status": "applied_locally_not_deployed",
+  "status": "applied_and_deployed",
   "dataHash": "60105b7239890b278ba471ff680575cbbac7fbe6997cf3bf779d98f45dbaa06c",
   "totalCards": 30,
   "newProposals": 21,
@@ -49,7 +49,7 @@
         "https://www.iwm.org.uk/sites/default/files/files/2023-10/first_world_war_large_print_guide.pdf"
       ],
       "reviewNote": "사용자가 영어·해석을 확인한 난도 단순화안. armistice를 쉬운 표현으로 바꿨으며 사건·연대·목표 뜻을 유지한다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "appliedBeforeApprovedSimplification": {
         "proposed": {
           "ex": "Germany signed the World War I armistice on November {{BLANK}}, 1918.",
@@ -91,7 +91,7 @@
         "https://www.aoc.gov/explore-capitol-campus/art/landing-columbus"
       ],
       "reviewNote": "Arrival at Guanahani in the Bahamas. Do not call this the first arrival or a discovery of an uninhabited continent.",
-      "status": "applied_locally_not_deployed"
+      "status": "applied_and_deployed"
     },
     {
       "number": 3,
@@ -126,7 +126,7 @@
         "https://www.metmuseum.org/essays/the-legacy-of-genghis-khan"
       ],
       "reviewNote": "사용자가 영어·해석을 확인한 난도 단순화안. expanded + Eurasia를 쉬운 표현으로 바꿨으며 사건·연대·목표 뜻을 유지한다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "appliedBeforeApprovedSimplification": {
         "proposed": {
           "ex": "The Mongol Empire expanded across much of Eurasia in the {{BLANK}} century.",
@@ -169,7 +169,7 @@
         "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/14-juillet-la-fete-qui-nous-rassemble"
       ],
       "reviewNote": "사용자가 영어·해석을 확인한 난도 단순화안. stormed + 설명 없는 Bastille를 쉬운 표현으로 바꿨으며 사건·연대·목표 뜻을 유지한다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "appliedBeforeApprovedSimplification": {
         "proposed": {
           "ex": "A crowd stormed the Bastille on July {{BLANK}}, 1789.",
@@ -211,7 +211,7 @@
         "https://history.blog.gov.uk/2020/08/14/whats-the-context-vj-day-15-august-1945/"
       ],
       "reviewNote": "Announcement on August 15; formal surrender signing on September 2. Replaces the Korea-liberation example.",
-      "status": "applied_locally_not_deployed"
+      "status": "applied_and_deployed"
     },
     {
       "number": 6,
@@ -245,7 +245,7 @@
         "https://www.openbookpublishers.com/books/10.11647/obp.0054"
       ],
       "reviewNote": "사용자가 영어·해석을 확인한 난도 단순화안. transformed European thought를 쉬운 표현으로 바꿨으며 사건·연대·목표 뜻을 유지한다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "appliedBeforeApprovedSimplification": {
         "proposed": {
           "ex": "The Scientific Revolution transformed European thought in the {{BLANK}} century.",
@@ -287,7 +287,7 @@
         "https://openstax.org/books/world-history-volume-2/pages/9-1-the-second-industrial-revolution"
       ],
       "reviewNote": "Replaces the Gwangju Uprising example.",
-      "status": "applied_locally_not_deployed"
+      "status": "applied_and_deployed"
     },
     {
       "number": 8,
@@ -322,7 +322,7 @@
         "https://openstax.org/books/world-history-volume-2/pages/9-3-colonial-empires"
       ],
       "reviewNote": "사용자가 영어·해석을 확인한 난도 단순화안. powers의 특수 뜻 + colonized를 쉬운 표현으로 바꿨으며 사건·연대·목표 뜻을 유지한다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "appliedBeforeApprovedSimplification": {
         "proposed": {
           "ex": "European powers colonized much of Africa in the late {{BLANK}} century.",
@@ -368,7 +368,7 @@
         "https://wmr.iwm.org.uk/war/second-world-war-1939-1945"
       ],
       "reviewNote": "Replaces the lunar landing example and its UTC/Korean date explanation.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "reviewedProposal": {
         "ex": "The two world wars took place in the {{BLANK}} century.",
         "tr": "두 차례의 세계대전은 20세기에 일어났어.",
@@ -408,7 +408,7 @@
         "https://www.nasa.gov/history/apollo-11-mission-overview/"
       ],
       "reviewNote": "land on의 착륙 뜻. Humans로 최초 유인 착륙임을 한정한다.",
-      "status": "applied_locally_not_deployed"
+      "status": "applied_and_deployed"
     },
     {
       "number": 11,
@@ -442,7 +442,7 @@
         "https://openstax.org/books/world-history-volume-2/pages/9-1-the-second-industrial-revolution"
       ],
       "reviewNote": "produce goods의 타동사 용법과 공장 생산을 보여 준다. 임의 생산량을 쓰지 않는다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "reviewedProposal": {
         "ex": "Factories used machines to {{BLANK}} goods during the Industrial Revolution.",
         "tr": "산업혁명 때 공장들은 기계를 이용해 상품을 생산했어."
@@ -483,7 +483,7 @@
         "https://www.bnf.fr/en/agendaEN/printing-gutenbergs-europe"
       ],
       "reviewNote": "knowledge 불가산명사. 유럽 인쇄술의 세계 최초 주장을 하지 않는다. 해설의 기존 history 예시를 일반 결합으로 바꾼다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "reviewedProposal": {
         "ex": "Printing helped spread {{BLANK}} across Europe.",
         "tr": "인쇄술은 유럽 전역에 지식을 퍼뜨리는 데 도움이 되었어.",
@@ -523,7 +523,7 @@
         "https://www.unesco.org/en/silk-roads/about-silk-roads?hub=196704"
       ],
       "reviewNote": "network of의 연결 구조. 실크로드를 단일 도로로 설명하지 않는다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "reviewedProposal": {
         "ex": "The Silk Roads were a {{BLANK}} of trade routes.",
         "tr": "실크로드는 교역로의 연결망이었어."
@@ -562,7 +562,7 @@
         "https://www.unesco.org/en/silk-roads/about-silk-roads?hub=196704"
       ],
       "reviewNote": "명사 trade. network 카드와 달리 물품·사상 교류의 역할에 초점을 둔다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "reviewedProposal": {
         "ex": "Silk Road {{BLANK}} spread both goods and ideas.",
         "tr": "실크로드 무역을 통해 물품과 사상이 함께 퍼졌어."
@@ -601,7 +601,7 @@
         "https://www.un.org/en/about-us/history-of-the-un"
       ],
       "reviewNote": "조직 설립의 수동태. 1945년 6월 헌장 서명이 아니라 10월 공식 출범을 가리킨다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "reviewedProposal": {
         "ex": "The United Nations was {{BLANK}}ed after World War II.",
         "tr": "국제연합은 제2차 세계대전 뒤에 설립되었어."
@@ -640,7 +640,7 @@
         "https://www.genome.gov/25520255/online-education-kit-1953-dna-double-helix"
       ],
       "reviewNote": "사용자가 영어·해석을 확인한 난도 단순화안. double-helix를 쉬운 표현으로 바꿨으며 사건·연대·목표 뜻을 유지한다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "appliedBeforeApprovedSimplification": {
         "proposed": {
           "ex": "In 1953, scientists proposed a model of DNA's double-helix {{BLANK}}.",
@@ -682,7 +682,7 @@
         "https://www.genome.gov/25520255/online-education-kit-1953-dna-double-helix"
       ],
       "reviewNote": "photograph의 명사 복수. X선 회절 사진을 뜻하며 일반 카메라로 찍은 DNA 직접 사진이나 모형 그림이 아니다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "reviewedProposal": {
         "ex": "X-ray {{BLANK}}s helped scientists understand DNA's structure.",
         "tr": "X선 사진은 과학자들이 DNA의 구조를 이해하는 데 도움이 되었어."
@@ -721,7 +721,7 @@
         "https://artsandculture.google.com/story/farming-in-the-nile-valley-the-british-museum/kAWxk-YaOyfgJw?hl=en"
       ],
       "reviewNote": "supply A to B와 강·농업 관계를 보존한다.",
-      "status": "applied_locally_not_deployed"
+      "status": "applied_and_deployed"
     },
     {
       "number": 19,
@@ -755,7 +755,7 @@
         "https://openstax.org/books/world-history-volume-2/pages/9-1-the-second-industrial-revolution"
       ],
       "reviewNote": "기차 명사. 증기 철도가 교통에 가져온 변화를 표현한다.",
-      "status": "applied_locally_not_deployed"
+      "status": "applied_and_deployed"
     },
     {
       "number": 20,
@@ -789,7 +789,7 @@
         "https://www.archives.gov/news/topics/hiroshima-nagasaki-75"
       ],
       "reviewNote": "drop bombs on의 결합과 행위자. 일본 항복의 유일 원인이라고 단정하지 않는다.",
-      "status": "applied_locally_not_deployed"
+      "status": "applied_and_deployed"
     },
     {
       "number": 21,
@@ -823,7 +823,7 @@
         "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/"
       ],
       "reviewNote": "separate countries의 형용사. 현재 형용사·동사 발음 대비 해설과 양립한다.",
-      "status": "applied_locally_not_deployed"
+      "status": "applied_and_deployed"
     },
     {
       "number": 22,
@@ -857,7 +857,7 @@
         "https://artsandculture.google.com/story/farming-in-the-nile-valley-the-british-museum/kAWxk-YaOyfgJw?hl=en"
       ],
       "reviewNote": "명사 flood. 고대의 범람과 농업 관계로 한정해 현대 댐 이후 상태와 구별한다.",
-      "status": "applied_locally_not_deployed"
+      "status": "applied_and_deployed"
     },
     {
       "number": 23,
@@ -891,7 +891,7 @@
         "https://openstax.org/books/business-ethics/pages/2-1-the-concept-of-ethical-business-in-ancient-athens"
       ],
       "reviewNote": "정치 체제 명사. 고대 민주정의 제한을 다루며 현대 보통선거와 구별한다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "reviewedProposal": {
         "ex": "In ancient Athenian {{BLANK}}, women could not vote.",
         "tr": "고대 아테네 민주정에서 여성은 투표할 수 없었어."
@@ -930,7 +930,7 @@
         "https://www.unesco.org/en/silk-roads/about-silk-roads?hub=196704"
       ],
       "reviewNote": "interaction between의 결합을 보존한다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "reviewedProposal": {
         "ex": "Silk Road trade encouraged {{BLANK}} between different cultures.",
         "tr": "실크로드 무역은 서로 다른 문화 사이의 교류를 촉진했어."
@@ -969,7 +969,7 @@
         "https://www.metmuseum.org/essays/the-legacy-of-genghis-khan"
       ],
       "reviewNote": "vast의 공간적 넓이. 유럽 전체 정복이나 최대라는 주장은 하지 않는다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "reviewedProposal": {
         "ex": "The Mongols built a {{BLANK}} empire stretching from Asia into Europe.",
         "tr": "몽골인들은 아시아에서 유럽까지 뻗은 광대한 제국을 세웠어."
@@ -1009,7 +1009,7 @@
         "https://blog.sciencemuseum.org.uk/steaming-through-the-centuries/"
       ],
       "reviewNote": "산업 전체를 가리키는 불가산명사. 모든 초기 공장이 증기를 사용했다고 확대하지 않는다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "reviewedProposal": {
         "ex": "Steam-powered machines transformed {{BLANK}} during Britain's Industrial Revolution.",
         "tr": "영국의 산업혁명 시기에 증기로 움직이는 기계들이 제조업을 바꾸어 놓았어."
@@ -1048,7 +1048,7 @@
         "https://www.nasa.gov/general/415-years-ago-astronomer-galileo-discovers-jupiters-moons/"
       ],
       "reviewNote": "through a telescope의 결합. 여러 날의 관측을 요약하며 망원경의 발명자라고 주장하지 않는다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "reviewedProposal": {
         "ex": "Through a {{BLANK}}, Galileo saw four moons orbiting Jupiter.",
         "tr": "갈릴레오는 망원경으로 목성 주위를 도는 위성 네 개를 보았어."
@@ -1087,7 +1087,7 @@
         "https://www.acs.org/education/whatischemistry/landmarks/lavoisier.html"
       ],
       "reviewNote": "물질명 불가산명사. 산소 최초 발견 주장 없음. 초안의 combustion을 burning으로 바꿔 주변 어휘 부담을 줄였다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "reviewedProposal": {
         "ex": "Lavoisier explained the role of {{BLANK}} in burning.",
         "tr": "라부아지에는 연소에서 산소가 하는 역할을 설명했어."
@@ -1126,7 +1126,7 @@
         "https://www.genome.gov/25520255/online-education-kit-1953-dna-double-helix"
       ],
       "reviewNote": "사용자가 영어·해석을 확인한 난도 단순화안. double-helix를 쉬운 표현으로 바꿨으며 사건·연대·목표 뜻을 유지한다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "reviewedProposal": {
         "ex": "X-ray {{BLANK}} helped reveal DNA's double-helix structure.",
         "tr": "X선 자료는 DNA의 이중 나선 구조를 밝히는 데 도움을 주었어."
@@ -1171,7 +1171,7 @@
         "https://earthquake.usgs.gov/earthquakes/events/1906calif/18april/"
       ],
       "reviewNote": "earthquake의 뜻은 strong + hit + 익숙한 도시명으로 파악한다. plate tectonics, cluster, plate boundaries를 제거했다.",
-      "status": "applied_locally_not_deployed",
+      "status": "applied_and_deployed",
       "reviewedProposal": {
         "ex": "Plate tectonics helped explain why {{BLANK}}s cluster near plate boundaries.",
         "tr": "판구조론은 지진이 왜 판 경계 부근에 집중되는지 설명하는 데 도움을 주었어."
@@ -1211,5 +1211,6 @@
   "revisions": [
     "difficulty-revision-01.json",
     "difficulty-revision-02.json"
-  ]
+  ],
+  "deployment": "release-01.json"
 }

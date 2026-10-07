@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-07",
+  "appCommit": "1d0f8593ca083db4c6a30e8739ffb4f692cce7d7",
+  "run": {
+    "id": 37608852000,
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "1d0f8593ca083db4c6a30e8739ffb4f692cce7d7",
+    "html_url": "https://github.com/esqsoy/vocagoyang/actions/runs/37608852000"
+  },
+  "files": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "local": "c89abf0834676d0ec708a66babaae82ddfd9e5c9025c1f1f1e5f1c5057de42cb",
+      "public": "c89abf0834676d0ec708a66babaae82ddfd9e5c9025c1f1f1e5f1c5057de42cb",
+      "match": true
+    },
+    {
+      "file": "vocagoyangfable.html",
+      "status": 200,
+      "local": "0bdce99daabf3b41aa553c080dbab21acfb9a7b86c3c46b5fd53a6ae0337002f",
+      "public": "0bdce99daabf3b41aa553c080dbab21acfb9a7b86c3c46b5fd53a6ae0337002f",
+      "match": true
+    },
+    {
+      "file": "vocagoyangksat2027.html",
+      "status": 200,
+      "local": "5ff5df3dc4cb719da03ef594a658d545606e014e344981ab2df62e426090eda8",
+      "public": "5ff5df3dc4cb719da03ef594a658d545606e014e344981ab2df62e426090eda8",
+      "match": true
+    },
+    {
+      "file": "vocagoyangebs2027.html",
+      "status": 200,
+      "local": "9e0e797b7f3c7a83a7b5da056a5a9a459f398cbb3dec96f7e826c62f9f41b97e",
+      "public": "9e0e797b7f3c7a83a7b5da056a5a9a459f398cbb3dec96f7e826c62f9f41b97e",
+      "match": true
+    }
+  ],
+  "verified": true,
+  "scope": "Approved history batch 01 and both difficulty revisions; 30 cards / 64 ex,tr,c fields versus prior public app. New batches are not deployed."
+}

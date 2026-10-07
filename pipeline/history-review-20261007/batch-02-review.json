@@ -1,0 +1,1267 @@
+{
+  "date": "2026-10-07",
+  "status": "drafting_review_complete_no_app_changes",
+  "dataHash": "c4f71f2424643f10ff5f1932fde09fd212167b25a5590927f95411400600ff47",
+  "selectedCandidates": 40,
+  "proposals": 26,
+  "kept": 14,
+  "entries": [
+    {
+      "id": "C0016",
+      "decision": "keep",
+      "reason": "thirteen years old는 수사를 처음 배우는 단계의 핵심 나이 표현이다. 13개 식민지로 바꾸면 colonies와 independence까지 알아야 하므로 초급 학습 실익이 줄어든다.",
+      "proposed": null,
+      "completedEnglish": "My cousin is thirteen years old.",
+      "factIds": [],
+      "sources": [],
+      "verificationNote": "역사 사실을 추가하지 않고 현행 예문을 유지한다.",
+      "difficultyNote": "숫자+years old의 직접적인 생활 문형을 보존한다.",
+      "en": "thirteen",
+      "set": 0,
+      "path": [
+        0,
+        "exercises",
+        0,
+        "words",
+        15
+      ],
+      "original": {
+        "ex": "My cousin is {{BLANK}} years old.",
+        "tr": "내 사촌은 열세 살이야.",
+        "c": "-teen은 뒤, -ty는 앞에 강세. thirty(30)와 구별."
+      },
+      "sourceHash": "591909dff30a39313319bc924776a0bf957dd1a7cd1929ca347c883df4274225"
+    },
+    {
+      "id": "C0047",
+      "decision": "propose",
+      "reason": "초급 end, Europe와 월 표현만으로 유럽에서의 제2차 세계대전 종전을 배울 수 있다.",
+      "proposed": {
+        "ex": "World War II ended in Europe in {{BLANK}} 1945.",
+        "tr": "유럽에서는 제2차 세계대전이 1945년 5월에 끝났어."
+      },
+      "completedEnglish": "World War II ended in Europe in May 1945.",
+      "factIds": [
+        "H35"
+      ],
+      "sources": [
+        "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/second-world-war/ve-day-8-may-1945/"
+      ],
+      "verificationNote": "영국 국립문서보관소의 VE Day 자료에서 1945년 5월 유럽 전쟁 종료와 당시 일본과의 전쟁 지속을 함께 확인했다. 세계 전체 종전이라고 확대하지 않는다.",
+      "difficultyNote": "in+월을 유지한다. surrender/hostilities 같은 전문적 전쟁어는 넣지 않는다.",
+      "en": "May",
+      "set": 0,
+      "path": [
+        0,
+        "exercises",
+        2,
+        "words",
+        11
+      ],
+      "original": {
+        "ex": "Our exams end in {{BLANK}} this year.",
+        "tr": "올해 우리 시험은 5월에 끝나.",
+        "c": "달 이름 May는 항상 대문자로 시작한다. 조동사 may와 발음은 같고 뜻은 다르다."
+      },
+      "sourceHash": "f6e8a71d520476f6d6f8b374ee18708bb1436f5cd8f5d1f81c438c17171c104d"
+    },
+    {
+      "id": "C0049",
+      "decision": "propose",
+      "reason": "월을 배우며 제1차 세계대전의 시작 날짜를 함께 익힌다. 기존 fourteenth 예문의 바스티유 문장에서 빈칸만 옮기는 중복을 피했다.",
+      "proposed": {
+        "ex": "World War I began on {{BLANK}} 28, 1914.",
+        "tr": "제1차 세계대전은 1914년 7월 28일에 시작됐어."
+      },
+      "completedEnglish": "World War I began on July 28, 1914.",
+      "factIds": [
+        "H31"
+      ],
+      "sources": [
+        "https://www.iwm.org.uk/sites/default/files/press-release/4_August_1914_Factsheet.pdf",
+        "https://ww1.nam.ac.uk/timeline/"
+      ],
+      "verificationNote": "IWM 공식 연표 설명 및 영국 국립육군박물관 연표에서 1914년 7월 28일 오스트리아-헝가리의 세르비아 선전포고를 확인했다. 전쟁 발발의 통상 날짜를 쓰며 영국 참전일 8월 4일과 구별한다.",
+      "difficultyNote": "begin의 과거형과 on+날짜만 사용한다. 선전포고의 여러 나라 이름과 연쇄 과정을 한 문장에 넣지 않는다.",
+      "en": "July",
+      "set": 0,
+      "path": [
+        0,
+        "exercises",
+        2,
+        "words",
+        13
+      ],
+      "original": {
+        "ex": "We go to the beach in {{BLANK}}.",
+        "tr": "우리 7월에 바다 가.",
+        "c": "강세 주의."
+      },
+      "sourceHash": "0ddb0e607dc44bc28938bcc374792f349a1fd23b5e1a3b324a6172c349625b2c"
+    },
+    {
+      "id": "C0050",
+      "decision": "propose",
+      "reason": "일본의 전쟁 중단 결정을 agree to stop fighting으로 풀어 쓰면 surrender를 몰라도 월을 학습할 수 있다.",
+      "proposed": {
+        "ex": "Japan agreed to stop fighting in {{BLANK}} 1945.",
+        "tr": "1945년 8월에 일본은 전투를 멈추기로 합의했어."
+      },
+      "completedEnglish": "Japan agreed to stop fighting in August 1945.",
+      "factIds": [
+        "H37"
+      ],
+      "sources": [
+        "https://history.blog.gov.uk/2020/08/14/whats-the-context-vj-day-15-august-1945/",
+        "https://www.archives.gov/exhibits/featured-documents/japanese-surrender-document"
+      ],
+      "verificationNote": "영국 정부 역사 자료의 8월 14일 항복 결정·15일 방송, 미국 국립문서보관소의 9월 2일 서명 구분을 확인했다. 8월의 결정이므로 9월의 문서 서명으로 서술하지 않았다.",
+      "difficultyNote": "짧은 agree to stop fighting 구문. 연합국 명칭이나 항복 문서 이름을 추가하지 않는다.",
+      "en": "August",
+      "set": 0,
+      "path": [
+        0,
+        "exercises",
+        2,
+        "words",
+        14
+      ],
+      "original": {
+        "ex": "It's hottest in {{BLANK}}.",
+        "tr": "8월이 제일 더워.",
+        "c": "줄임 Aug."
+      },
+      "sourceHash": "6f19560ddc7bc1ccd2c148cd1f2d1172140349729a51fecd130bebc5817f06e6"
+    },
+    {
+      "id": "C0053",
+      "decision": "propose",
+      "reason": "휴전이라는 전문어 대신 전투 중단 합의라는 구체적인 뜻으로 중요한 날짜를 제시한다.",
+      "proposed": {
+        "ex": "On {{BLANK}} 11, 1918, Germany agreed to stop fighting.",
+        "tr": "1918년 11월 11일에 독일은 전투를 멈추기로 합의했어."
+      },
+      "completedEnglish": "On November 11, 1918, Germany agreed to stop fighting.",
+      "factIds": [
+        "H31"
+      ],
+      "sources": [
+        "https://www.iwm.org.uk/sites/default/files/files/2023-10/first_world_war_large_print_guide.pdf",
+        "https://api.parliament.uk/historic-hansard/commons/1918/nov/11/prime-ministers-statement"
+      ],
+      "verificationNote": "IWM 공식 해설 및 당일 영국 의회 발표에서 1918년 11월 11일 독일의 휴전 조건 수락을 확인했다. 평화조약을 서명했다고 하지 않는다.",
+      "difficultyNote": "armistice 대신 agreement to stop fighting. sign an agreement는 유용한 결합이지만 초급의 signed/agreement가 부담이면 root 검토에서 더 줄일 수 있다.",
+      "preRootReview": {
+        "ex": "On {{BLANK}} 11, 1918, Germany signed an agreement to stop fighting.",
+        "tr": "1918년 11월 11일에 독일은 전투를 멈추기로 하는 합의에 서명했어."
+      },
+      "rootReview": "signed an agreement를 agreed로 줄여 초급 주변 어휘와 길이를 낮춘다. 서명 사실 자체보다 전투 중단 합의에 초점.",
+      "en": "November",
+      "set": 0,
+      "path": [
+        0,
+        "exercises",
+        2,
+        "words",
+        17
+      ],
+      "original": {
+        "ex": "The big test is in {{BLANK}}.",
+        "tr": "큰 시험은 11월에 있어.",
+        "c": "라틴어 novem=9. 옛 로마력은 3월부터 세어 아홉째 달."
+      },
+      "sourceHash": "319e6fdf96e049103ad9688ea9a82b11ed1c0acf66ce162230541bbfc1b0e787"
+    },
+    {
+      "id": "C0080",
+      "decision": "propose",
+      "reason": "factory worker라는 대표 결합으로 노동자 뜻을 보여 주면서 산업혁명기의 아동 노동을 짧게 알린다.",
+      "proposed": {
+        "ex": "In Britain in the 1800s, many factory {{BLANK}}s were children.",
+        "tr": "19세기 영국에서는 공장 노동자 중 어린이가 많았어."
+      },
+      "completedEnglish": "In Britain in the 1800s, many factory workers were children.",
+      "factIds": [
+        "H24"
+      ],
+      "sources": [
+        "https://www.nationalarchives.gov.uk/education/resources/1833-factory-act/"
+      ],
+      "verificationNote": "영국 국립문서보관소의 산업혁명·1833년 공장법 교육 자료가 어린이의 광범위한 공장 노동을 설명한다. 전체 노동자의 과반이라는 수량을 주장하지 않는다.",
+      "difficultyNote": "factory workers+were children의 단순 구조. child labour/industrialization을 요구하지 않는다. 기존 office worker/co-worker 해설도 유효하다.",
+      "en": "worker",
+      "set": 0,
+      "path": [
+        0,
+        "exercises",
+        4,
+        "words",
+        13
+      ],
+      "original": {
+        "ex": "The {{BLANK}}s built the road in a month.",
+        "tr": "일꾼들이 한 달 만에 길을 냈어.",
+        "c": "office worker 회사원, co-worker 동료."
+      },
+      "sourceHash": "cd73214cb82c3ed564b87ed9d6c4bc9d416cd003cf942ec704051a028cdd5dc2"
+    },
+    {
+      "id": "C0090",
+      "decision": "keep",
+      "reason": "do a science project는 학생의 학교 과제라는 현행 뜻과 바로 연결되는 좋은 결합이다. Human Genome Project로 바꾸면 genome의 설명을 요구하고 '과제' 의미의 접근성이 줄어든다.",
+      "proposed": null,
+      "completedEnglish": "We did a science project together.",
+      "factIds": [],
+      "sources": [],
+      "verificationNote": "역사 사실 추가 없음. 다른 고급 표제어에서 인간 게놈 프로젝트를 다루는 편이 적합하다.",
+      "difficultyNote": "school/science project의 초급 생활 쓰임을 보존한다.",
+      "en": "project",
+      "set": 0,
+      "path": [
+        0,
+        "exercises",
+        5,
+        "words",
+        2
+      ],
+      "original": {
+        "ex": "We did a science {{BLANK}} together.",
+        "tr": "우리 과학 과제를 같이 했어.",
+        "c": "일정한 목표를 두고 진행하는 일. 혼자 하는 과제도 project라고 해."
+      },
+      "sourceHash": "9d3aa805ab73a2976779ffe01ca5fd6303b20f2e03b0ddf128844912ec837732"
+    },
+    {
+      "id": "C0103",
+      "decision": "keep",
+      "reason": "한국 문화라는 익숙한 대상이 culture의 의미를 즉시 잡게 해 준다. 실크로드로 바꾸면 교역·문화 교류의 추상적인 관계와 고유명사가 추가되어 0세트의 장점이 줄어든다.",
+      "proposed": null,
+      "completedEnglish": "Korean culture is popular around the world.",
+      "factIds": [],
+      "sources": [],
+      "verificationNote": "현행의 생활 예문을 보존한다. 새 역사 사실을 제안하지 않는다.",
+      "difficultyNote": "국가 형용사+culture, around the world의 유용한 결합을 유지한다.",
+      "en": "culture",
+      "set": 0,
+      "path": [
+        0,
+        "exercises",
+        5,
+        "words",
+        15
+      ],
+      "original": {
+        "ex": "Korean {{BLANK}} is popular around the world.",
+        "tr": "한국 문화는 세계적으로 인기야.",
+        "c": "한 사회의 생활 방식·예술 전부."
+      },
+      "sourceHash": "170d479c7d27b006effaaaf0207073d9ab691659beea42cef31fa651c15ffe35"
+    },
+    {
+      "id": "C0123",
+      "decision": "propose",
+      "reason": "작물의 대륙 간 이동을 쉬운 bring A from B to C로 보여 주고, 기존 복수 tomatoes 해설을 실제 예문과 연결한다.",
+      "proposed": {
+        "ex": "In the 1500s, people brought {{BLANK}}es from the Americas to Europe.",
+        "tr": "16세기에 사람들은 아메리카에서 유럽으로 토마토를 가져왔어."
+      },
+      "completedEnglish": "In the 1500s, people brought tomatoes from the Americas to Europe.",
+      "factIds": [
+        "H16"
+      ],
+      "sources": [
+        "https://www.kew.org/plants/tomato"
+      ],
+      "verificationNote": "큐 왕립식물원의 토마토 소개에서 아메리카 기원과 16세기 유럽 도입을 확인했다. 모든 유럽인이 곧바로 먹었다거나 특정 연도 최초라고 추가하지 않는다.",
+      "difficultyNote": "식물학 전문어 없이 people brought, from/to를 쓴다. Americas는 두 대륙을 포괄하며 한국어도 아메리카로 둔다. 접미 es는 빈칸 밖이다.",
+      "en": "tomato",
+      "set": 0,
+      "path": [
+        0,
+        "exercises",
+        6,
+        "words",
+        14
+      ],
+      "original": {
+        "ex": "Add a {{BLANK}} to the salad.",
+        "tr": "샐러드에 토마토 하나 넣어.",
+        "c": "복수 tomatoes(-es)."
+      },
+      "sourceHash": "1e69828b71288c31ef6d50e4c18dd143089797ff02e838669af8b2c94d285531"
+    },
+    {
+      "id": "C0167",
+      "decision": "propose",
+      "reason": "불특정 앱 제작을 웹의 탄생으로 바꾸면서 be created의 수동태를 그대로 익힌다.",
+      "proposed": {
+        "ex": "The World Wide Web was {{BLANK}}d in 1989.",
+        "tr": "월드 와이드 웹은 1989년에 만들어졌어."
+      },
+      "completedEnglish": "The World Wide Web was created in 1989.",
+      "factIds": [
+        "S26"
+      ],
+      "sources": [
+        "https://home.cern/science/computing/the-birth-of-the-web/where-web-was-born/"
+      ],
+      "verificationNote": "CERN은 WWW가 1989년에 발명되었다고 직접 설명한다. 인터넷 자체의 창설이나 최초 브라우저 공개 시점으로 바꾸지 않는다.",
+      "difficultyNote": "긴 인명·연구기관 이름을 빼고 익숙한 WWW 정식 명칭 하나만 남긴다. created는 create+d로 입력 규칙을 유지한다.",
+      "en": "create",
+      "set": 0,
+      "path": [
+        0,
+        "exercises",
+        7,
+        "words",
+        21
+      ],
+      "original": {
+        "ex": "This app was {{BLANK}}d by a high school student.",
+        "tr": "이 앱은 고등학생이 만든 거야.",
+        "c": "없던 것을 새로 만들다. creative 창의적인."
+      },
+      "sourceHash": "1f5068e69c2579101989dbb98b7e4bb8ea42e5de4f4d8679149794abad9f1c51"
+    },
+    {
+      "id": "C0270",
+      "decision": "keep",
+      "reason": "How's life in ...?는 실제로 재사용할 수 있는 안부 표현이다. 산업화가 삶을 바꿨다는 일반적 사실보다 생활이라는 다의어 뜻이 직접 드러난다.",
+      "proposed": null,
+      "completedEnglish": "How's life in the big city?",
+      "factIds": [],
+      "sources": [],
+      "verificationNote": "역사 사실 추가 없음. 관용적 일상 질문을 보존한다.",
+      "difficultyNote": "life의 생명과 생활의 차이를 짧게 인식하는 기존 문형을 유지한다.",
+      "en": "life",
+      "set": 1,
+      "path": [
+        1,
+        "exercises",
+        3,
+        "words",
+        8
+      ],
+      "original": {
+        "ex": "How's {{BLANK}} in the big city?",
+        "tr": "대도시 생활은 어때?",
+        "c": "어떻게 살아가느냐의 '생활'. city life처럼 관사 없이 쓰지만, 사람마다의 생활은 their daily lives."
+      },
+      "sourceHash": "83fcfd16789211b931dac93e5dd5319f0f757d8806c00b94e57417bd2d2459c2"
+    },
+    {
+      "id": "C0279",
+      "decision": "propose",
+      "reason": "last의 지속되다 뜻을 전쟁의 시작·종료 연도로 명확하게 보여 준다.",
+      "proposed": {
+        "ex": "World War I {{BLANK}}ed from 1914 to 1918.",
+        "tr": "제1차 세계대전은 1914년부터 1918년까지 이어졌어."
+      },
+      "completedEnglish": "World War I lasted from 1914 to 1918.",
+      "factIds": [
+        "H31"
+      ],
+      "sources": [
+        "https://memorials.iwm.org.uk/memorial/1184",
+        "https://ww1.nam.ac.uk/timeline/"
+      ],
+      "verificationNote": "IWM의 제1차 세계대전 기간 표기와 국립육군박물관 연표를 확인했다. 1919년 평화조약과 전쟁의 통상적 기간을 혼동하지 않는다.",
+      "difficultyNote": "lasted from A to B는 쉬운 기간 표현. 기존 battery lasts 설명은 다른 유용한 예시로 여전히 유효하다.",
+      "en": "last",
+      "set": 1,
+      "path": [
+        1,
+        "exercises",
+        3,
+        "words",
+        17
+      ],
+      "original": {
+        "ex": "The battery {{BLANK}}s two days.",
+        "tr": "배터리가 이틀 가.",
+        "c": "동사로 쓰이면 '(시간이) 이어지다'. The battery lasts long = 배터리가 오래간다."
+      },
+      "sourceHash": "f1a38103b5a9616a18eab3399deaabcb7e62094159e8ce3413e8914de1136923"
+    },
+    {
+      "id": "C0343",
+      "decision": "keep",
+      "reason": "results show that+절은 입증하다/보여 주다 뜻의 대표 문형이다. 유전 실험이나 세균설을 얹으면 실험 설계·형질·미생물 같은 주변 정보가 show보다 어려워진다.",
+      "proposed": null,
+      "completedEnglish": "The results show that our plan works.",
+      "factIds": [],
+      "sources": [],
+      "verificationNote": "역사 사실 추가 없음. 특정 실험을 엄밀히 설명하려다 문장이 길어지는 교체를 철회한다.",
+      "difficultyNote": "results show that의 전형적인 쓰임을 보존한다.",
+      "en": "show",
+      "set": 1,
+      "path": [
+        1,
+        "exercises",
+        6,
+        "words",
+        15
+      ],
+      "original": {
+        "ex": "The results {{BLANK}} that our plan works.",
+        "tr": "그 결과는 우리 계획이 효과가 있음을 보여 줘.",
+        "c": "자료·결과가 어떤 사실을 드러낼 때도 show를 쓴다."
+      },
+      "sourceHash": "d1977feea2fef0662ae98d147734e662587e9f702338c4f8ee06dadc516da16e"
+    },
+    {
+      "id": "C0345",
+      "decision": "propose",
+      "reason": "end의 자동사 뜻을 짧은 종전 문장으로 연습한다. May와 달리 전 세계 전쟁의 최종 종료 연도에 초점을 둔다.",
+      "proposed": {
+        "ex": "World War II {{BLANK}}ed in 1945.",
+        "tr": "제2차 세계대전은 1945년에 끝났어."
+      },
+      "completedEnglish": "World War II ended in 1945.",
+      "factIds": [
+        "H35",
+        "H37"
+      ],
+      "sources": [
+        "https://www.archives.gov/exhibits/featured-documents/japanese-surrender-document",
+        "https://memorials.iwm.org.uk/memorial/1184"
+      ],
+      "verificationNote": "일본의 1945년 항복 자료와 IWM 1939~1945년 전쟁 구분을 확인했다. 사건 전체의 종료 연도만 쓴다.",
+      "difficultyNote": "주어+동사+연도의 단순 구조. end+ed를 빈칸 밖으로 처리한다.",
+      "en": "end",
+      "set": 1,
+      "path": [
+        1,
+        "exercises",
+        6,
+        "words",
+        17
+      ],
+      "original": {
+        "ex": "The class {{BLANK}}s at three o'clock.",
+        "tr": "수업은 3시에 끝나.",
+        "c": ""
+      },
+      "sourceHash": "e6b40a1de91cc27087bd7d9e4a771b361cb066df970b04e1eb108436d78727eb"
+    },
+    {
+      "id": "C0377",
+      "decision": "propose",
+      "reason": "도시가 크다는 설명을 산업화기의 도시 이동으로 바꾸면서 move to the city라는 실용적 결합을 익힌다.",
+      "proposed": {
+        "ex": "In Britain in the 1800s, many people moved to the {{BLANK}} for work.",
+        "tr": "19세기 영국에서는 많은 사람이 일자리를 찾아 도시로 이주했어."
+      },
+      "completedEnglish": "In Britain in the 1800s, many people moved to the city for work.",
+      "factIds": [
+        "H24"
+      ],
+      "sources": [
+        "https://www.parliament.uk/about/living-heritage/evolutionofparliament/houseofcommons/reformacts/overview/changes/",
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/towncountry/towns/overview/towns/"
+      ],
+      "verificationNote": "영국 의회 역사 자료에서 산업화로 인한 도시의 공장 일자리 유입과 19세기 산업 도시 팽창을 확인했다. 모두가 이주했거나 유럽 전체가 같은 속도로 변했다고 하지 않는다.",
+      "difficultyNote": "urbanization 대신 moved to the city for work. city는 도시 생활 공간을 총칭하는 관용적 단수로 자연스럽다.",
+      "en": "city",
+      "set": 1,
+      "path": [
+        1,
+        "exercises",
+        8,
+        "words",
+        15
+      ],
+      "original": {
+        "ex": "Seoul is a very large {{BLANK}}.",
+        "tr": "서울은 아주 큰 도시야.",
+        "c": "town보다 큰 도시. (복수는 city → cities)"
+      },
+      "sourceHash": "a547c5da930453aaa43070db7c275d967a40ae0116efb6745d5c49abc57266f7"
+    },
+    {
+      "id": "C0426",
+      "decision": "propose",
+      "reason": "정부의 구체적 역할인 노동자 보호 법률을 보여 준다. 볼셰비키/임시정부 등 여러 새 고유명사를 필요로 하는 잠정 러시아혁명 소재보다 쉽다.",
+      "proposed": {
+        "ex": "In 1833, the British {{BLANK}} passed a law to protect children working in factories.",
+        "tr": "1833년에 영국 정부는 공장에서 일하는 어린이들을 보호하는 법을 통과시켰어."
+      },
+      "completedEnglish": "In 1833, the British government passed a law to protect children working in factories.",
+      "factIds": [
+        "H24"
+      ],
+      "sources": [
+        "https://www.nationalarchives.gov.uk/education/resources/1833-factory-act/",
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/19thcentury/overview/factoryact/"
+      ],
+      "verificationNote": "국립문서보관소와 의회 자료의 1833년 공장법 도입 목적을 확인했다. 실제 법 적용은 주로 섬유공장이며 이 문장은 보호를 목적으로 한 법 제정을 말한다. 모든 공장 아동 노동이 금지·해결됐다고 서술하지 않는다.",
+      "difficultyNote": "passed a law, protect children은 government의 구체적인 행동을 설명한다. 법 이름·노동시간 숫자·검사관 제도를 넣지 않는다.",
+      "en": "government",
+      "set": 2,
+      "path": [
+        2,
+        "exercises",
+        0,
+        "words",
+        0
+      ],
+      "original": {
+        "ex": "The {{BLANK}} raised taxes this year.",
+        "tr": "정부는 올해 세금을 올렸어.",
+        "c": ""
+      },
+      "sourceHash": "9525a20e27ccd03030d751a8110bc208ec043746759c97960fce1b345cc359bc"
+    },
+    {
+      "id": "C0455",
+      "decision": "keep",
+      "reason": "a change in the weather는 명사 change의 전형적인 결합이다. '산업화는 큰 변화를 가져왔다'라는 포괄적 문장만으로 바꾸면 정보도 모호하고 현행 문형 이상의 실익이 적다.",
+      "proposed": null,
+      "completedEnglish": "There has been a big change in the weather.",
+      "factIds": [],
+      "sources": [],
+      "verificationNote": "새 역사 사실을 추가하지 않는다.",
+      "difficultyNote": "현재 예문은 해설의 a change in the weather와 직접 연결되어 있다.",
+      "en": "change",
+      "set": 2,
+      "path": [
+        2,
+        "exercises",
+        1,
+        "words",
+        13
+      ],
+      "original": {
+        "ex": "There has been a big {{BLANK}} in the weather.",
+        "tr": "날씨에 큰 변화가 있었어.",
+        "c": "명사로 ‘변화’. a change in the weather = 날씨의 변화."
+      },
+      "sourceHash": "2f34874bfce5c4e8b62d56a7f8d8b93ad0948f724d9493261baa352858487ab6"
+    },
+    {
+      "id": "C0491",
+      "decision": "propose",
+      "reason": "익명 왕에 대한 평가 대신 실제 왕조 붕괴 사건과 lose power라는 정치적 결합을 제시한다.",
+      "proposed": {
+        "ex": "Russia's emperor lost {{BLANK}} in 1917.",
+        "tr": "러시아 황제는 1917년에 권력을 잃었어."
+      },
+      "completedEnglish": "Russia's emperor lost power in 1917.",
+      "factIds": [
+        "H32"
+      ],
+      "sources": [
+        "https://www.nationalarchives.gov.uk/education/students/videos/spotlight-on/spotlight-on-russian-revolution/"
+      ],
+      "verificationNote": "영국 국립문서보관소가 1917년 첫 혁명으로 차르 체제가 끝나고 니콜라이 2세가 퇴위했다고 설명한다. 같은 해 볼셰비키 집권과 단일 사건으로 합치지 않는다.",
+      "difficultyNote": "tsar/abdicate 대신 emperor/lost power. 인명이나 2월·3월의 역법 차이를 추가하지 않는다.",
+      "en": "power",
+      "set": 2,
+      "path": [
+        2,
+        "exercises",
+        3,
+        "words",
+        5
+      ],
+      "original": {
+        "ex": "The king had too much {{BLANK}}.",
+        "tr": "그 왕은 권력을 너무 많이 가졌어.",
+        "c": "사람이나 일을 통제할 수 있는 힘. in power = 집권 중인."
+      },
+      "sourceHash": "c84d9fa1b6a9c4851a75f0ba73aa9d55de7b7c6fe50525ed7c187aa8bafcbba2"
+    },
+    {
+      "id": "C0498",
+      "decision": "keep",
+      "reason": "national sport는 국가의라는 형용사 뜻이 즉시 드러나고 national team 해설과도 연결된다. national independence로 바꾸면 더 어려운 independence가 의미 이해의 중심이 된다.",
+      "proposed": null,
+      "completedEnglish": "Taekwondo is Korea's national sport.",
+      "factIds": [],
+      "sources": [],
+      "verificationNote": "현재 예문의 유지 판단이며 새로운 역사 주장을 추가하지 않는다.",
+      "difficultyNote": "기초 국가 관련 결합을 보존하고 탈식민화 전문어는 다른 표제어에서 다룬다.",
+      "en": "national",
+      "set": 2,
+      "path": [
+        2,
+        "exercises",
+        3,
+        "words",
+        12
+      ],
+      "original": {
+        "ex": "Taekwondo is Korea's {{BLANK}} sport.",
+        "tr": "태권도는 한국의 국민 스포츠야.",
+        "c": "national team = 국가대표팀."
+      },
+      "sourceHash": "b8a6ab804f75bbc52ccd086670bf03ddc079044c0785e3620c5ccca2f6b10fd0"
+    },
+    {
+      "id": "C0518",
+      "decision": "keep",
+      "reason": "political party와 support의 조합이 모임과 정당의 뜻 차이를 매우 명료하게 보여 준다. Bolshevik party로 바꾸면 초급 단계에 생소한 이름을 추가하고 political이라는 직접 단서를 잃는다.",
+      "proposed": null,
+      "completedEnglish": "Which political party do you support?",
+      "factIds": [],
+      "sources": [],
+      "verificationNote": "역사 사실 추가 없이 정당 뜻을 구별하는 현행 질문을 유지한다.",
+      "difficultyNote": "표제어보다 배경지식이 어려워지는 교체를 철회한다.",
+      "en": "party",
+      "set": 2,
+      "path": [
+        2,
+        "exercises",
+        4,
+        "words",
+        15
+      ],
+      "original": {
+        "ex": "Which political {{BLANK}} do you support?",
+        "tr": "넌 어느 정당을 지지해?",
+        "c": ""
+      },
+      "sourceHash": "82be641a4d2f62c9d08aa32dfd03e97c5491efcca001cd437617528fe63984e0"
+    },
+    {
+      "id": "C0521",
+      "decision": "keep",
+      "reason": "run on + 동력원과 전기/기름의 대비가 '달리다'와 다른 기계 작동 뜻을 즉시 보여 준다. 증기철도 문장으로 바꾸면 오히려 동력 관련 새 어휘를 늘리므로 보존한다.",
+      "proposed": null,
+      "completedEnglish": "This car runs on electricity, not gas.",
+      "factIds": [],
+      "sources": [],
+      "verificationNote": "역사 주장 추가 없음. 현행 문장의 학습 가치를 재평가해 후보 철회.",
+      "difficultyNote": "기초 run의 다의어 학습에 유용한 일상 문장과 대비 구조를 유지.",
+      "en": "run",
+      "set": 2,
+      "path": [
+        2,
+        "exercises",
+        4,
+        "words",
+        18
+      ],
+      "original": {
+        "ex": "This car {{BLANK}}s on electricity, not gas.",
+        "tr": "이 차는 기름이 아니라 전기로 돌아가.",
+        "c": ""
+      },
+      "sourceHash": "e6fa8accf56c24c5dee29bbb6e6f78fd34642f6420cc9d044afec82ebc034088"
+    },
+    {
+      "id": "C0533",
+      "decision": "propose",
+      "reason": "막연한 아름다움 평가를 1947년 파키스탄 성립으로 바꾼다. country 주변을 become/new 같은 쉬운 말로 유지한다.",
+      "proposed": {
+        "ex": "Pakistan became a new {{BLANK}} in 1947.",
+        "tr": "파키스탄은 1947년에 새로운 나라가 되었어."
+      },
+      "completedEnglish": "Pakistan became a new country in 1947.",
+      "factIds": [
+        "H40"
+      ],
+      "sources": [
+        "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/"
+      ],
+      "verificationNote": "영국 국립문서보관소 자료의 1947년 인도·파키스탄 두 국가 성립 및 8월 독립 확인. 원문 직접 열기는 403이지만 동일 공식 페이지의 검색 반환 본문에서 확인. 당시 파키스탄의 영토가 현재와 같다고 말하지 않는다.",
+      "difficultyNote": "짧은 단문. independent/partition 같은 추가 추상어 없이 고유명사 하나와 쉬운 문형 사용.",
+      "en": "country",
+      "set": 2,
+      "path": [
+        2,
+        "exercises",
+        5,
+        "words",
+        7
+      ],
+      "original": {
+        "ex": "Korea is a beautiful {{BLANK}}.",
+        "tr": "한국은 아름다운 나라야.",
+        "c": "복수는 countries."
+      },
+      "sourceHash": "6796981eaec4f57051e20da1aec15bc10c292225c5d092f2419984a632d63806"
+    },
+    {
+      "id": "C0542",
+      "decision": "propose",
+      "reason": "이름 없는 전쟁을 영국의 제2차 세계대전 참전 사건으로 구체화하며 declare war on이라는 전형적 결합을 함께 보여 준다.",
+      "proposed": {
+        "ex": "Britain declared {{BLANK}} on Germany on September 3, 1939.",
+        "tr": "영국은 1939년 9월 3일에 독일에 선전포고했어."
+      },
+      "completedEnglish": "Britain declared war on Germany on September 3, 1939.",
+      "factIds": [
+        "H35"
+      ],
+      "sources": [
+        "https://www.iwm.org.uk/sites/default/files/files/2020-09/HANGAR_4_Largeprint.pdf"
+      ],
+      "verificationNote": "Imperial War Museums 연표가 1939-09-03 영국·프랑스의 대독 선전포고를 명시한다. 세계대전 자체의 발발일을 9월 3일이라고 쓰지 않는다.",
+      "difficultyNote": "declare는 새로 접할 수 있으나 declare war on 전체가 목표 단어의 대표 결합이라 학습 실익이 있다. 나머지는 익숙한 국가명과 날짜이며 종속절 없음.",
+      "en": "war",
+      "set": 2,
+      "path": [
+        2,
+        "exercises",
+        5,
+        "words",
+        16
+      ],
+      "original": {
+        "ex": "Many people died in the {{BLANK}}.",
+        "tr": "많은 사람이 그 전쟁에서 죽었어.",
+        "c": "at war = 교전 중."
+      },
+      "sourceHash": "4fefb10f686e0093ea897fb8d63369421ed107cc263e3929e0a5d2188e11fd38"
+    },
+    {
+      "id": "C0565",
+      "decision": "keep",
+      "reason": "book/pages의 구체적 관계가 초급 명사 의미를 바로 보여 준다. 다윈·코페르니쿠스의 책으로 바꾸면 쉬운 표제어에 과학 개념과 인명을 더 알아야 하므로 유지한다.",
+      "proposed": null,
+      "completedEnglish": "This book has 300 pages.",
+      "factIds": [],
+      "sources": [],
+      "verificationNote": "역사 주장 추가 없음. 과학사 대체안은 단어 난도에 비해 이점이 작아 작성하지 않음.",
+      "difficultyNote": "단순하다는 이유만으로 교체하지 않는다. 책과 쪽수의 쉬운 일상 문장을 보존.",
+      "en": "book",
+      "set": 2,
+      "path": [
+        2,
+        "exercises",
+        7,
+        "words",
+        6
+      ],
+      "original": {
+        "ex": "This {{BLANK}} has 300 pages.",
+        "tr": "이 책은 300쪽이야.",
+        "c": ""
+      },
+      "sourceHash": "ce1fe03c4a893a1de1a41f9b7d92642d205165eecc17c0a7e16d4fe3cab86006"
+    },
+    {
+      "id": "C0594",
+      "decision": "propose",
+      "reason": "익명 인물의 죽음을 세계대전의 대규모 인명 피해로 구체화한다. 고유명 Black Death를 맞히는 문제가 아니라 death의 일반명사 용법을 유지한다.",
+      "proposed": {
+        "ex": "World War II (1939–1945) caused tens of millions of {{BLANK}}s.",
+        "tr": "제2차 세계대전(1939~1945년)은 수천만 명의 죽음을 초래했어."
+      },
+      "completedEnglish": "World War II (1939–1945) caused tens of millions of deaths.",
+      "factIds": [
+        "H35"
+      ],
+      "sources": [
+        "https://www.iwm.org.uk/sites/default/files/Transforming_IWM_London_Phase_2.pdf",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-in-europe"
+      ],
+      "verificationNote": "IWM 공식 자료는 1939~1945년 전쟁이 5,500만 명을 훨씬 넘는 사망자를 냈다고 설명한다. 예문은 정확한 합계를 단정하지 않고 millions로 제한한다.",
+      "difficultyNote": "원래의 shocked the whole town보다 단순한 원인-결과 구조. 복수 s는 빈칸 밖에 두어 표제어 death를 입력.",
+      "preRootReview": {
+        "ex": "World War II (1939–1945) caused millions of {{BLANK}}s.",
+        "tr": "제2차 세계대전(1939~1945년)은 수백만 명의 죽음을 초래했어."
+      },
+      "rootReview": "millions를 수백만으로 옮겨 피해 규모가 작게 인식되지 않게 tens of millions/수천만으로 정리했다. IWM의 5,500만 초과 및 USHMM의 5,500만 추정으로 규모를 확인했으며 정확한 합계는 단정하지 않는다.",
+      "en": "death",
+      "set": 2,
+      "path": [
+        2,
+        "exercises",
+        9,
+        "words",
+        6
+      ],
+      "original": {
+        "ex": "News of his {{BLANK}} shocked the whole town.",
+        "tr": "그의 죽음 소식에 온 마을이 충격을 받았어.",
+        "c": "die: 죽다(동사). dead: 죽은(형용사). death: 죽음(명사)."
+      },
+      "sourceHash": "afb4ecb35a037dabe229c8eafeb31ad31de241e5261abf44fcac19ac35bac6e9"
+    },
+    {
+      "id": "C0604",
+      "decision": "keep",
+      "reason": "read about history의 친숙한 결합으로 history 뜻이 선명하다. 산업혁명이 역사를 바꿨다는 식의 문장은 더 길고 추상적이며 실제 변화도 설명하지 못하므로 유지한다.",
+      "proposed": null,
+      "completedEnglish": "I love reading about Korean history.",
+      "factIds": [],
+      "sources": [],
+      "verificationNote": "현행 문장은 한국사의 개별 사건을 넣은 역사 개정안이 아니라 일상 취향 예문이다. 이번 세계사 우선 방침을 모든 생활 예문에서 Korea를 삭제하는 지시로 확대하지 않는다.",
+      "difficultyNote": "기초 history에 Industrial Revolution 같은 높은 난도 표현을 억지로 붙이지 않음.",
+      "en": "history",
+      "set": 3,
+      "path": [
+        3,
+        "exercises",
+        0,
+        "words",
+        4
+      ],
+      "original": {
+        "ex": "I love reading about Korean {{BLANK}}.",
+        "tr": "난 한국 역사 읽는 걸 좋아해.",
+        "c": "형용사는 historic(역사에 남을 만한)·historical(역사에 관한)."
+      },
+      "sourceHash": "baa7eb21b115d2054027a33bdc5c5bab972e1c54b0b299d4343e7d449878eb02"
+    },
+    {
+      "id": "C0635",
+      "decision": "propose",
+      "reason": "international organization이라는 대표 결합을 UN의 1945년 창설과 연결한다.",
+      "proposed": {
+        "ex": "The UN began as an {{BLANK}} organization in 1945.",
+        "tr": "유엔은 1945년에 국제기구로 출범했어."
+      },
+      "completedEnglish": "The UN began as an international organization in 1945.",
+      "factIds": [
+        "H38"
+      ],
+      "sources": [
+        "https://www.un.org/en/about-us/",
+        "https://www.un.org/en/about-us/history-of-the-un"
+      ],
+      "verificationNote": "UN 공식 소개는 1945년에 설립된 국제기구라고 명시하며 역사 페이지는 1945-10-24 공식 출범을 설명한다. 6월 서명과 10월 출범을 혼동하지 않는다.",
+      "difficultyNote": "약칭 UN을 사용해 고유명사 길이를 줄이고 founded/charter/ratification을 쓰지 않았다. organization은 international의 유용한 기본 결합.",
+      "en": "international",
+      "set": 3,
+      "path": [
+        3,
+        "exercises",
+        2,
+        "words",
+        5
+      ],
+      "original": {
+        "ex": "English is an {{BLANK}} language.",
+        "tr": "영어는 국제어야.",
+        "c": "inter(사이)+national(국가의)=나라 사이의. local(지역)<national(전국)<international."
+      },
+      "sourceHash": "8744369ddf80d27c7580f751a909cd24176e12784380ab7c3e647fe4d5837db0"
+    },
+    {
+      "id": "C0649",
+      "decision": "propose",
+      "reason": "이사하다의 move to를 유지하면서 19세기 영국의 도시화를 구체적으로 설명한다.",
+      "proposed": {
+        "ex": "In 19th-century Britain, people {{BLANK}}d to cities for factory work.",
+        "tr": "19세기 영국에서 사람들은 공장 일을 하러 도시로 이사했어."
+      },
+      "completedEnglish": "In 19th-century Britain, people moved to cities for factory work.",
+      "factIds": [
+        "H24"
+      ],
+      "sources": [
+        "https://www.nationalarchives.gov.uk/education/resources/victorian-homes/",
+        "https://www.parliament.uk/about/living-heritage/evolutionofparliament/houseofcommons/reformacts/overview/changes/"
+      ],
+      "verificationNote": "영국 국립문서보관소 Victorian homes는 19세기 사람들이 공장 일자리를 찾아 도시로 이주했다고 명시한다. 모든 사람이 이사했다는 수량 단정은 하지 않는다.",
+      "difficultyNote": "단순 주절과 목적 표현 for factory work. moved의 d는 빈칸 밖에 둔다.",
+      "en": "move",
+      "set": 3,
+      "path": [
+        3,
+        "exercises",
+        3,
+        "words",
+        2
+      ],
+      "original": {
+        "ex": "They {{BLANK}}d to a new city.",
+        "tr": "그들은 새 도시로 이사했어.",
+        "c": ""
+      },
+      "sourceHash": "d2af01e993708863399fefb12821247a0888ccbc3fdf36f82aabd6e6e2d9a222"
+    },
+    {
+      "id": "C0653",
+      "decision": "propose",
+      "reason": "question이 단순히 묻다가 아니라 기존 권력의 정당성에 의문을 제기하는 뜻임을 계몽사상 맥락으로 보여 준다.",
+      "proposed": {
+        "ex": "In the 18th century, some European thinkers {{BLANK}}ed the power of kings.",
+        "tr": "18세기에 일부 유럽 사상가들은 왕들의 권력에 의문을 제기했어."
+      },
+      "completedEnglish": "In the 18th century, some European thinkers questioned the power of kings.",
+      "factIds": [
+        "H20"
+      ],
+      "sources": [
+        "https://plato.stanford.edu/archives/fall2014/entries/enlightenment/"
+      ],
+      "verificationNote": "Stanford Encyclopedia of Philosophy의 계몽사상 정치이론 절은 왕권신수설·신분제·국가권력에 대한 비판과 논쟁을 다룬다. some을 넣어 모든 사상가가 같은 정치 입장이었다고 일반화하지 않았다.",
+      "difficultyNote": "Enlightenment/absolute monarchy/divine right 대신 thinkers/power/kings로 풀었다. 현행 question 해설은 그대로 유효.",
+      "en": "question",
+      "set": 3,
+      "path": [
+        3,
+        "exercises",
+        3,
+        "words",
+        6
+      ],
+      "original": {
+        "ex": "We should {{BLANK}} ideas that seem unfair.",
+        "tr": "우리는 불공평해 보이는 생각에 의문을 제기해야 해.",
+        "c": "주장·판단이 옳은지 따져 묻는 뜻. 단순히 질문한다는 뜻과 구별해."
+      },
+      "sourceHash": "3b9933f79ecfee504bf1f92ea80e2bcfb425f20cbf846844717b58223dcb2477"
+    },
+    {
+      "id": "C0683",
+      "decision": "propose",
+      "reason": "이성이라는 뜻을 계몽사상기의 전통과 이성 대비로 구체화한다. '모든 인간은 이성에 따라 움직인다'라는 현행 과도한 일반론도 피한다.",
+      "proposed": {
+        "ex": "Many 18th-century European thinkers trusted {{BLANK}} more than tradition.",
+        "tr": "18세기의 많은 유럽 사상가들은 전통보다 이성을 더 신뢰했어."
+      },
+      "completedEnglish": "Many 18th-century European thinkers trusted reason more than tradition.",
+      "factIds": [
+        "H20"
+      ],
+      "sources": [
+        "https://plato.stanford.edu/archives/fall2014/entries/enlightenment/"
+      ],
+      "verificationNote": "해당 학술 자료는 인간의 지적 능력에 대한 신뢰와 전통·미신 등 기존 권위에 대한 의심을 계몽사상의 일반 경향으로 설명한다. many를 써 전부의 일치로 확대하지 않았다.",
+      "difficultyNote": "reason의 '이유'와 구별되는 이성 뜻을 trust와 tradition의 대비로 만든다. rationalism/Enlightenment 같은 전문어 없음.",
+      "en": "reason",
+      "set": 3,
+      "path": [
+        3,
+        "exercises",
+        4,
+        "words",
+        19
+      ],
+      "original": {
+        "ex": "Humans are guided by {{BLANK}}.",
+        "tr": "인간은 이성에 따라 움직여.",
+        "c": ""
+      },
+      "sourceHash": "2de88c99f85b4c36167422880eb12bcd6827c83441f987412a4d19646bd6b655"
+    },
+    {
+      "id": "C0693",
+      "decision": "propose",
+      "reason": "age의 시대 뜻을 1957년 인공위성과 우주 시대의 시작으로 연결한다. 긴 우주선·소련 고유명사 나열 없이 대표 사건을 담는다.",
+      "proposed": {
+        "ex": "The space {{BLANK}} began with the first satellite in 1957.",
+        "tr": "우주 시대는 1957년 최초의 인공위성과 함께 시작되었어."
+      },
+      "completedEnglish": "The space age began with the first satellite in 1957.",
+      "factIds": [
+        "S22"
+      ],
+      "sources": [
+        "https://www.nasa.gov/history/65-years-ago-sputnik-ushers-in-the-space-age/",
+        "https://starchild.gsfc.nasa.gov/docs/StarChild/space_level1/travel.html"
+      ],
+      "verificationNote": "NASA는 1957년 10월 4일 스푸트니크 1호의 발사를 우주 시대 시작으로 설명한다. first satellite는 이 문맥의 인공위성이고 첫 자연 위성이라고 주장하지 않는다.",
+      "difficultyNote": "우주 시대라는 age의 전형적 결합. satellite 한 단어 외 전문 개념 없이 시작 사건을 설명; 이 낱말이 너무 어렵다면 현행 information age 유지가 차선.",
+      "en": "age",
+      "set": 3,
+      "path": [
+        3,
+        "exercises",
+        5,
+        "words",
+        9
+      ],
+      "original": {
+        "ex": "We live in the information {{BLANK}}.",
+        "tr": "우리는 정보화 시대에 살아.",
+        "c": "the Ice Age(빙하기)."
+      },
+      "sourceHash": "c4606c9329154e44f4106581ee26a3eb69f41e21244bbb8c13b34cd497edec2e"
+    },
+    {
+      "id": "C0723",
+      "decision": "keep",
+      "reason": "study modern art의 자연스러운 결합과 대학 전공 맥락이 예술 뜻을 분명하게 보여 준다. 르네상스 명칭·시기를 붙이는 교체는 단어 학습 실익 없이 배경 부담만 늘 수 있어 유지한다.",
+      "proposed": null,
+      "completedEnglish": "She studies modern art at college.",
+      "factIds": [],
+      "sources": [],
+      "verificationNote": "역사 주장 추가 없음. 생활 예문 보호.",
+      "difficultyNote": "art처럼 쉬운 단어는 익숙한 교육·생활 상황의 이점이 큼.",
+      "en": "art",
+      "set": 3,
+      "path": [
+        3,
+        "exercises",
+        7,
+        "words",
+        5
+      ],
+      "original": {
+        "ex": "She studies modern {{BLANK}} at college.",
+        "tr": "그녀는 대학에서 현대 미술을 공부해.",
+        "c": ""
+      },
+      "sourceHash": "5d61b699bef994dd73f3b7870b77df46006e1b5e5623aafb91ee9d12eddb4708"
+    },
+    {
+      "id": "C0724",
+      "decision": "propose",
+      "reason": "정치 견해가 다르다는 일반 진술을 프랑스혁명에 의한 정치 제도 변화로 구체화하며 political system 결합을 익히게 한다.",
+      "proposed": {
+        "ex": "The French Revolution began in 1789 and changed France's {{BLANK}} system.",
+        "tr": "프랑스혁명은 1789년에 시작되어 프랑스의 정치 제도를 바꾸었어."
+      },
+      "completedEnglish": "The French Revolution began in 1789 and changed France's political system.",
+      "factIds": [
+        "H22"
+      ],
+      "sources": [
+        "https://plato.stanford.edu/archives/fall2014/entries/enlightenment/",
+        "https://www.nam.ac.uk/explore/battle-waterloo"
+      ],
+      "verificationNote": "Stanford 학술 자료는 프랑스혁명에서 전통 정치 질서가 변화한 점을 설명하고 영국 국립육군박물관은 French Revolution(1789–99) 기간을 명시한다. 모든 변화가 1789년에 완료됐다고 말하지 않는다.",
+      "difficultyNote": "political 수준에 맞는 system과 유명 사건명 하나. monarchy/constitutional/feudal 등을 생략.",
+      "en": "political",
+      "set": 3,
+      "path": [
+        3,
+        "exercises",
+        7,
+        "words",
+        6
+      ],
+      "original": {
+        "ex": "They have different {{BLANK}} views.",
+        "tr": "그들은 정치적 견해가 달라.",
+        "c": "political party = 정당."
+      },
+      "sourceHash": "5324cd917c79574e67d13e95c0e6e4ae24263a83ebb745ff08842ea0a6cf629d"
+    },
+    {
+      "id": "C0733",
+      "decision": "keep",
+      "reason": "former president는 현재와 과거의 지위를 짧게 보여 주는 대표 결합이다. colony와 independent를 함께 요구하는 새 역사 문장은 이 기초 카드에서 실익이 부족해 유지한다.",
+      "proposed": null,
+      "completedEnglish": "She is a former president of the club.",
+      "factIds": [
+        "H40",
+        "H42"
+      ],
+      "sources": [
+        "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/"
+      ],
+      "verificationNote": "영국 국립문서보관소의 1947년 식민 통치 종료·독립 자료를 대조. a former colony는 현재 관점의 설명이며 1947년 이전에 이미 독립했다는 뜻이 아니다.",
+      "difficultyNote": "짧은 동격구 하나로 명사 앞 former 용법을 보존. colony/independent는 뜻의 전후 대비에 직접 필요한 어휘이나 기초 수준 검토 시 유지안과 비교할 카드.",
+      "rejectedDraft": {
+        "ex": "India, a {{BLANK}} British colony, became independent in 1947.",
+        "tr": "과거 영국의 식민지였던 인도는 1947년에 독립했어."
+      },
+      "rootReview": "최종 검수에서 교체 후보 철회. 표제어·카드 삭제 아님.",
+      "en": "former",
+      "set": 3,
+      "path": [
+        3,
+        "exercises",
+        8,
+        "words",
+        4
+      ],
+      "original": {
+        "ex": "She is a {{BLANK}} president of the club.",
+        "tr": "그녀는 그 동아리의 전 회장이야.",
+        "c": "명사 앞에서만 쓴다 — a former president. the former(전자)는 the latter(후자)와 짝을 이룬다."
+      },
+      "sourceHash": "ab313c96db9a4c0dd24fd2c343341aa1c48987bc72e6c32699ba52df30e78ce5"
+    },
+    {
+      "id": "C0737",
+      "decision": "propose",
+      "reason": "누가 무엇을 겪었는지 없는 hardships를 대공황기 미국인의 빈곤으로 구체화한다.",
+      "proposed": {
+        "ex": "In the 1930s, many Americans {{BLANK}}d poverty during the Great Depression.",
+        "tr": "1930년대에 많은 미국인이 대공황 동안 빈곤을 겪었어."
+      },
+      "completedEnglish": "In the 1930s, many Americans experienced poverty during the Great Depression.",
+      "factIds": [
+        "H34"
+      ],
+      "sources": [
+        "https://www.federalreservehistory.org/essays/great-depression"
+      ],
+      "verificationNote": "연방준비은행 역사 자료는 1929년 시작된 대공황의 1930년대 실업·가계 고통·파산을 설명한다. 미국인 전체가 가난해졌다고 일반화하지 않는다.",
+      "difficultyNote": "추상어 hardships를 구체적인 poverty로 교체. Great Depression 한 사건명 외 복잡한 금융 용어 없음.",
+      "en": "experience",
+      "set": 3,
+      "path": [
+        3,
+        "exercises",
+        8,
+        "words",
+        8
+      ],
+      "original": {
+        "ex": "They {{BLANK}}d many hardships.",
+        "tr": "그들은 많은 고난을 경험했어.",
+        "c": ""
+      },
+      "sourceHash": "64a9a69dc8657df9249b71a3393c3e964b1863a69b2b0e991b9adc5cbc3166e4"
+    },
+    {
+      "id": "C0754",
+      "decision": "keep",
+      "reason": "a study shows that의 대표 학술 문형과 익숙한 수면 주제를 보존한다. 멘델의 완두 연구로 바꾸려면 유전 결과를 설명하는 데 추가 개념이 필요하고, 연구 시작 연도만 넣으면 사소한 연보 정보가 된다.",
+      "proposed": null,
+      "completedEnglish": "A new study shows that sleep is important.",
+      "factIds": [],
+      "sources": [],
+      "verificationNote": "역사 예문 교체는 보류. 현행은 특정 실재 연구를 인용한 사실문이 아니라 용례 문장임; 출처 없는 구체 과학 결과를 추가하지 않음.",
+      "difficultyNote": "study의 '연구' 뜻을 최초 학습할 때 유전·형질·우열 개념보다 sleep 문맥이 접근하기 쉬움.",
+      "en": "study",
+      "set": 3,
+      "path": [
+        3,
+        "exercises",
+        9,
+        "words",
+        13
+      ],
+      "original": {
+        "ex": "A new {{BLANK}} shows that sleep is important.",
+        "tr": "새 연구는 수면이 중요하다는 걸 보여줘.",
+        "c": "학술의 '연구'. studies(연구들)로 자주 쓴다. 한국어 '스터디(모임)'는 영어로 a study group."
+      },
+      "sourceHash": "de39ef46b43013c59fe803d3575cb69298de46f42603a4c6ada2075b154e85a3"
+    },
+    {
+      "id": "C0784",
+      "decision": "propose",
+      "reason": "이름 없는 과학자에 대한 유명하다는 평가를 1905년 아인슈타인 논문의 영향으로 구체화한다. field of physics라는 학문 분야 결합을 유지한다.",
+      "proposed": {
+        "ex": "Einstein's 1905 papers changed the {{BLANK}} of physics.",
+        "tr": "아인슈타인의 1905년 논문들은 물리학 분야를 바꾸어 놓았어."
+      },
+      "completedEnglish": "Einstein's 1905 papers changed the field of physics.",
+      "factIds": [
+        "S15"
+      ],
+      "sources": [
+        "https://guides.loc.gov/einstein-annus-mirabilis/1905-papers",
+        "https://einstein-annalen.mpiwg-berlin.mpg.de/home"
+      ],
+      "verificationNote": "미국 의회도서관은 1905년 논문들을 물리학 세계를 바꾼 논문으로 소개하며, 막스플랑크 과학사연구소는 공간·시간·물질·복사 이해에 준 변화를 설명한다. 1905년 일반상대성이론 발표라고 잘못 말하지 않는다.",
+      "difficultyNote": "8단어, 상대성이론·광전효과 전문어를 빼고 papers/physics 정도의 학술 기본어로 표현.",
+      "en": "field",
+      "set": 4,
+      "path": [
+        4,
+        "exercises",
+        1,
+        "words",
+        1
+      ],
+      "original": {
+        "ex": "She is famous in the {{BLANK}} of science.",
+        "tr": "걔는 과학 분야에서 유명해.",
+        "c": ""
+      },
+      "sourceHash": "48034bcf8def9e303f412c38d23ff9aeda7d6be0f2aa45ecc4e0de34592c913c"
+    },
+    {
+      "id": "C0794",
+      "decision": "propose",
+      "reason": "우주비행사가 우주를 여행한다는 일반 진술에 최초 유인 우주비행의 인물과 날짜를 넣는다.",
+      "proposed": {
+        "ex": "On April 12, 1961, Yuri Gagarin became the first person in {{BLANK}}.",
+        "tr": "1961년 4월 12일에 유리 가가린은 최초로 우주에 간 사람이 되었어."
+      },
+      "completedEnglish": "On April 12, 1961, Yuri Gagarin became the first person in space.",
+      "factIds": [
+        "S23"
+      ],
+      "sources": [
+        "https://science.nasa.gov/resource/yuri-gagarin-first-human-in-space/",
+        "https://science.nasa.gov/image-article/apod-1996-april-12-man-enters-space/"
+      ],
+      "verificationNote": "NASA 자료 두 곳에서 날짜와 인류 최초의 우주 비행을 확인. 첫 우주 유영이나 달 착륙과 혼동하지 않는다.",
+      "difficultyNote": "orbit/cosmonaut/spacecraft 없이 first person in space로 표현. 단일 인명과 날짜만 추가.",
+      "en": "space",
+      "set": 4,
+      "path": [
+        4,
+        "exercises",
+        1,
+        "words",
+        11
+      ],
+      "original": {
+        "ex": "Astronauts travel in {{BLANK}}.",
+        "tr": "우주비행사들은 우주를 여행해.",
+        "c": "outer space = 우주 공간."
+      },
+      "sourceHash": "bb25703ab98f0b0280a0cfad066bc741c9b98eabb6f626a249fbd7f9d8e05f10"
+    },
+    {
+      "id": "C0848",
+      "decision": "propose",
+      "reason": "익명 주식 매입을 1929년 미국 주가 폭락으로 구체화하며 주식 뜻의 share와 price의 결합을 보여 준다.",
+      "proposed": {
+        "ex": "In October 1929, American {{BLANK}} prices fell sharply.",
+        "tr": "1929년 10월에 미국 주식 가격이 급격히 떨어졌어."
+      },
+      "completedEnglish": "In October 1929, American share prices fell sharply.",
+      "factIds": [
+        "H34"
+      ],
+      "sources": [
+        "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+      ],
+      "verificationNote": "연방준비은행 역사 자료의 1929년 10월 28~29일 급락 확인. 주가 폭락이 대공황의 유일한 원인이라고 주장하지 않음.",
+      "difficultyNote": "share prices라는 유용한 결합과 fell sharply라는 짧은 변화 표현. 퍼센트·증거금·금융 전문어 없음.",
+      "en": "share",
+      "set": 4,
+      "path": [
+        4,
+        "exercises",
+        4,
+        "words",
+        11
+      ],
+      "original": {
+        "ex": "She bought {{BLANK}}s in the company.",
+        "tr": "그녀는 그 회사의 주식을 샀어.",
+        "c": "회사 소유권을 나눈 단위. a share = 주식 한 주."
+      },
+      "sourceHash": "337906dc9068b80e7394cc06debed72b48eef7167dcd2c7f5e28bb18ecdca7ea"
+    },
+    {
+      "id": "C0851",
+      "decision": "propose",
+      "reason": "lead + 집단 + to victory의 지휘 뜻과 워털루 패배를 연결한다. 불규칙 과거형 led를 입력시키도록 카드 표제어를 바꾸지 않고 failed to + 원형으로 처리한다.",
+      "proposed": {
+        "ex": "Napoleon failed to {{BLANK}} his army to victory at Waterloo in 1815.",
+        "tr": "나폴레옹은 1815년 워털루에서 자신의 군대를 승리로 이끌지 못했어."
+      },
+      "completedEnglish": "Napoleon failed to lead his army to victory at Waterloo in 1815.",
+      "factIds": [
+        "H26"
+      ],
+      "sources": [
+        "https://www.nam.ac.uk/explore/battle-waterloo"
+      ],
+      "verificationNote": "영국 국립육군박물관이 1815년 6월 18일 나폴레옹군의 지휘와 패배를 설명한다. 영국 단독 승리라고 하지 않으며 다른 동맹군 역할에 대해 문장은 주장하지 않는다.",
+      "difficultyNote": "실제 역사 사건을 문장에 넣으면서 lead 원형을 유지하는 자연스러운 failed to 문형. 두 고유명사는 비교적 널리 알려진 핵심 사건의 요소이나 제시 시 길이를 점검.",
+      "en": "lead",
+      "set": 4,
+      "path": [
+        4,
+        "exercises",
+        4,
+        "words",
+        14
+      ],
+      "original": {
+        "ex": "She will {{BLANK}} the team this year.",
+        "tr": "걔가 올해 그 팀을 이끌 거야.",
+        "c": "leader(지도자)가 여기에서 나온 말이다. 불규칙 lead-led-led."
+      },
+      "sourceHash": "46a2db882a51651c57d50a6d0652db088c32aba5dcccc50aa93502712634c4ce"
+    }
+  ]
+}

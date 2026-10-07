@@ -41,7 +41,7 @@
   "dataUnchanged": false,
   "newEnglishExamplesWritten": 21,
   "appliedCardsThisAudit": 30,
-  "deployment": false,
+  "deployment": true,
   "readBatches": [
     {
       "firstId": "C0001",
@@ -479,21 +479,27 @@
     "Game DATA hash unchanged during this audit"
   ],
   "remaining": [
-    "Draft the remaining 591 selected candidate cards with verified time context",
-    "Show each new batch in chat before applying; batch 01 is already approved and applied",
-    "Deploy only when requested"
+    "User review of batch 02: 26 complete English examples and Korean translations; no app changes yet",
+    "Draft remaining 551 unreviewed candidates, preserving strong current examples",
+    "Apply only reviewed batches; prior approved batch is publicly deployed"
   ],
   "headwordCounting": "lowercase(word || en), matching the existing headword field",
   "proposalBatchCards": 30,
-  "proposalStatus": "applied_locally_not_deployed",
+  "proposalStatus": "applied_and_deployed",
   "dataUnchangedDuringSelection": true,
   "currentDataHash": "c4f71f2424643f10ff5f1932fde09fd212167b25a5590927f95411400600ff47",
   "approvedBatchCards": 30,
   "changedCardsThisAudit": 30,
   "appliedNewCandidateCards": 21,
-  "remainingCandidateCards": 591,
+  "remainingCandidateCards": 577,
   "pendingExistingAtSelection": 9,
   "pendingExistingNow": 0,
   "appliedExistingProposalCards": 9,
-  "latestRevision": "difficulty-revision-02.json"
+  "latestRevision": "difficulty-revision-02.json",
+  "release": "release-01.json",
+  "draftedCandidateCards": 26,
+  "withdrawnCandidateCards": 14,
+  "remainingUnwrittenCandidateCards": 551,
+  "pendingReviewProposalCards": 26,
+  "latestDraft": "proposal-02.json"
 }

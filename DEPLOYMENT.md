@@ -1,3 +1,21 @@
+# 역사 예문·난도 조정 배포 · 2026-10-07
+
+- 앱 커밋 [1d0f859](https://github.com/esqsoy/vocagoyang/commit/1d0f8593ca083db4c6a30e8739ffb4f692cce7d7)을 origin/main에 푸시했고 [GitHub Pages 37608852000](https://github.com/esqsoy/vocagoyang/actions/runs/37608852000) completed/success 및 공개 인덱스·세 과정 HTTP 200, 로컬 검증본과 LF 정규화 SHA-256 일치를 확인했다.
+- 승인된 FABLE 30카드의 예문·해석·해설 64필드를 변경했다. 역사적 시기를 명시하고 표제어보다 주변 표현이 과도하게 어려운 문장을 단순화했다.
+- 표제어·정답 범위·IPA·카드 수·진도·UI와 마더텅/EBS/인덱스는 유지했다. 새 전체 개정 초안은 아직 앱에 포함하지 않았다.
+- 배포 요청 후 session(7,476회), placement-regrouping, morphology-content, IPA conservation, index-stats --check, diff 검사와 독립 범위 검수 통과. 공개 네 페이지 HTTP 200 및 정규화 해시 일치 확인. 새 브라우저/실기기 검사는 하지 않았다.
+
+| 파일 | 공개 UTF-8 텍스트의 LF 정규화 SHA-256 |
+| --- | --- |
+| index.html | c89abf0834676d0ec708a66babaae82ddfd9e5c9025c1f1f1e5f1c5057de42cb |
+| vocagoyangfable.html | 0bdce99daabf3b41aa553c080dbab21acfb9a7b86c3c46b5fd53a6ae0337002f |
+| vocagoyangksat2027.html | 5ff5df3dc4cb719da03ef594a658d545606e014e344981ab2df62e426090eda8 |
+| vocagoyangebs2027.html | 9e0e797b7f3c7a83a7b5da056a5a9a459f398cbb3dec96f7e826c62f9f41b97e |
+
+[FABLE 열기](https://esqsoy.github.io/vocagoyang/vocagoyangfable.html?release=1d0f859)
+
+---
+
 # FABLE 보강 제목 + 표시 배포 · 2026-10-07
 
 - 앱 커밋 [0bae266](https://github.com/esqsoy/vocagoyang/commit/0bae2665416dcb0728e32248cfe425f156a435dd)을 origin/main에 푸시했다. [GitHub Pages 37514294209](https://github.com/esqsoy/vocagoyang/actions/runs/37514294209) completed/success와 공개 인덱스·세 과정 HTTP 200 및 검증본과 LF 정규화 SHA-256 일치를 확인했다.
