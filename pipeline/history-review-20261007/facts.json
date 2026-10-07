@@ -1,0 +1,830 @@
+{
+  "date": "2026-10-07",
+  "status": "planning_and_audit_not_applied",
+  "facts": [
+    {
+      "id": "H01",
+      "topic": "신석기 농업",
+      "claim": "농업과 가축 사육의 확산은 정착 생활과 도시 발달의 기반이 되었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://openstax.org/books/world-history-volume-1/pages/2-3-the-neolithic-revolution",
+        "https://openstax.org/books/world-history-volume-1/pages/3-1-early-civilizations"
+      ],
+      "note": "농업·정착·도시 발달은 장기간의 복합 과정. 모든 지역에서 같은 순서나 한 번의 사건으로 일어났다고 단정하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H02",
+      "topic": "메소포타미아 문자",
+      "claim": "메소포타미아의 초기 도시 사회에서 쐐기문자가 발달했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/325500"
+      ],
+      "note": "문자와 도시의 발달을 연결하되 기록 자체를 인류가 한 번에 발명했다고 일반화하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H03",
+      "topic": "나일강과 이집트",
+      "claim": "나일강의 물과 범람은 고대 이집트의 농업을 뒷받침했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.britishmuseum.org/sites/default/files/2025-08/Life_in_ancient_Egypt_Visit_Resource.pdf",
+        "https://artsandculture.google.com/story/farming-in-the-nile-valley-the-british-museum/kAWxk-YaOyfgJw?hl=en"
+      ],
+      "note": "고대 나일강 범람과 비옥한 토양. 현대 댐 건설 이후의 상태와 구별한다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H04",
+      "topic": "아테네 민주정",
+      "claim": "고대 아테네에서 시민이 정치에 참여하는 민주정이 발달했으며 참여 자격은 제한적이었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://openstax.org/books/business-ethics/pages/2-1-the-concept-of-ethical-business-in-ancient-athens"
+      ],
+      "note": "시민권·성별·신분에 따른 참여 제한. 현대의 보통선거와 같다고 설명하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H05",
+      "topic": "로마 제국",
+      "claim": "로마는 지중해를 둘러싼 광대한 제국을 형성했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/roman.pdf",
+        "https://openstax.org/books/world-history-volume-1/pages/7-3-the-roman-economy-trade-taxes-and-conquest"
+      ],
+      "note": "제국의 영토는 시기에 따라 달랐다. 전 유럽·전 세계를 지배했다고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H06",
+      "topic": "기독교 확산",
+      "claim": "기독교는 로마 제국 안에서 확산되었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://openstax.org/books/world-history-volume-1/pages/7-4-religion-in-the-roman-empire"
+      ],
+      "note": "종교의 확산이라는 역사적 사실만 다룬다. 신앙 내용의 진위를 판정하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H07",
+      "topic": "이슬람의 성립",
+      "claim": "이슬람은 7세기 아라비아반도에서 성립했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.metmuseum.org/exhibitions/listings/2012/byzantium-and-islam"
+      ],
+      "note": "7세기 아라비아에서 성립·확산. 종교의 신앙 주장은 역사 사실과 구별한다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H08",
+      "topic": "실크로드 교류",
+      "claim": "실크로드를 통한 교역은 상품뿐 아니라 사상·종교·기술의 교류를 촉진했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.unesco.org/en/silk-roads/about-silk-roads?hub=196704"
+      ],
+      "note": "하나의 고정 길이 아니라 육로·해로를 포함한 교역망. 물품·사상·종교·기술의 교류.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H09",
+      "topic": "몽골 제국",
+      "claim": "몽골 제국은 13세기 유라시아의 넓은 지역으로 팽창했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-legacy-of-genghis-khan"
+      ],
+      "note": "13세기 팽창과 유라시아 연결. 유럽 전체나 유라시아 전체를 정복했다고 하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H10",
+      "topic": "흑사병",
+      "claim": "14세기 흑사병은 유라시아에서 확산되어 유럽 인구에 큰 피해를 주었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://openstax.org/books/world-history-volume-1/pages/16-3-the-black-death-from-east-to-west"
+      ],
+      "note": "정확한 사망률·최초 발원지·단일 전파 경로를 단정하지 않는다. 괴담이나 특정 집단 비난을 사실로 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H11",
+      "topic": "르네상스",
+      "claim": "르네상스는 이탈리아에서 발달하여 유럽의 예술과 학문에 큰 변화를 가져왔다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/renaissance.pdf",
+        "https://www.metmuseum.org/exhibitions/listings/2011/the-renaissance-portrait-from-donatello-to-bellini"
+      ],
+      "note": "이탈리아에서 시작된 장기 문화 변화. 한 해·한 사람의 사건으로 단정하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H12",
+      "topic": "인쇄술 확산",
+      "claim": "15세기 유럽의 활판 인쇄술 발달은 책과 지식의 보급을 확대했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.loc.gov/resource/myloc8/",
+        "https://guides.loc.gov/gutenberg/the-printer"
+      ],
+      "note": "동아시아의 앞선 인쇄술과 구별하여 15세기 유럽의 활판 인쇄 확산으로 한정한다. 구텐베르크가 세계 최초로 인쇄를 발명했다고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H13",
+      "topic": "비잔티움 멸망",
+      "claim": "오스만 제국은 1453년 콘스탄티노폴리스를 함락했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.metmuseum.org/ko/essays/the-art-of-the-ottomans-before-1600"
+      ],
+      "note": "1453년 콘스탄티노폴리스 함락. 그 순간 모든 비잔티움 잔존 국가가 사라졌다고 확대하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H14",
+      "topic": "대서양 항해",
+      "claim": "콜럼버스는 1492년 대서양을 건너 아메리카에 도착했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.aoc.gov/explore-capitol-campus/art/landing-columbus"
+      ],
+      "note": "1492-10-12 바하마의 섬에 도착. 최초 발견·최초 인간 도착·미국 도착이라고 하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H15",
+      "topic": "인도 항로",
+      "claim": "바스쿠 다가마는 1498년 아프리카를 돌아 인도에 도착했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://exploration.marinersmuseum.org/subject/vasco-da-gama/"
+      ],
+      "note": "1498년 유럽에서 아프리카를 돌아 인도로 간 항로. 인도 자체를 발견했다거나 그 전에는 인도양 교역이 없었다고 하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H16",
+      "topic": "콜럼버스 교환",
+      "claim": "1492년 이후 아메리카와 구대륙 사이에 작물·동물·질병이 이동했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://openstax.org/books/us-history/pages/2-4-new-worlds-in-the-americas-labor-commerce-and-the-columbian-exchange"
+      ],
+      "note": "식물·동물·질병 이동의 쌍방향성과 원주민에 대한 피해. 개별 질병의 최초 기원은 단정하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H17",
+      "topic": "대서양 노예무역",
+      "claim": "대서양 노예무역으로 수많은 아프리카인이 강제로 아메리카로 이송되었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://whc.unesco.org/en/list/1548"
+      ],
+      "note": "강제 이송·노예화를 이주·자발적 노동으로 완곡하게 바꾸지 않는다. 근거 없이 정확한 총수 추정치를 붙이지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H18",
+      "topic": "종교개혁",
+      "claim": "16세기 종교개혁으로 서유럽 기독교의 분열과 개신교 교회의 성립이 이어졌다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://openstax.org/books/world-history-volume-2/pages/5-1-the-protestant-reformation"
+      ],
+      "note": "다양한 종파·정치사회적 과정. 루터가 교회의 문에 문서를 못박았다는 일화 등은 제외.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H19",
+      "topic": "과학혁명",
+      "claim": "16~17세기 과학혁명은 유럽의 자연에 대한 이해와 연구 방법을 바꾸었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.openbookpublishers.com/books/10.11647/obp.0054"
+      ],
+      "note": "16~17세기를 중심으로 이어진 변화. 유럽 외 과학 전통을 부정하거나 단 한 인물이 과학을 시작했다고 하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H20",
+      "topic": "계몽사상",
+      "claim": "계몽사상은 이성·권리·통치 제도에 관한 논의를 발전시켰다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://plato.stanford.edu/archives/fall2014/entries/enlightenment/"
+      ],
+      "note": "다양한 사상가·논쟁을 포함한 흐름. 당대 모든 사람이 보편적 권리를 실제로 누렸다고 하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H21",
+      "topic": "미국 독립",
+      "claim": "북아메리카의 13개 식민지는 1776년 영국으로부터 독립을 선언했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.archives.gov/founding-docs/declaration-history",
+        "https://prologue.blogs.archives.gov/2024/06/27/lee-resolution-declaring-the-thirteen-colonies-free/"
+      ],
+      "note": "1776년 독립 선언과 1783년 전쟁 종결·영국의 독립 승인을 구별한다. 7월 4일은 선언문 채택이며 전원이 그날 서명한 것은 아니다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H22",
+      "topic": "프랑스혁명",
+      "claim": "프랑스혁명은 1789년에 시작되었으며 왕정과 사회 질서에 큰 변화를 가져왔다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/14-juillet-la-fete-qui-nous-rassemble"
+      ],
+      "note": "1789-07-14 바스티유 습격은 주요 사건. 혁명의 모든 과정·왕정 붕괴가 하루에 완료됐다고 하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H23",
+      "topic": "아이티 독립",
+      "claim": "아이티는 노예 반란과 혁명을 거쳐 1804년 독립했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://history.state.gov/milestones/1784-1800/haitian-rev",
+        "https://history.state.gov/countries/haiti"
+      ],
+      "note": "1804년 독립과 1825년 프랑스의 승인을 구별한다. 노예들의 저항과 혁명을 지우지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H24",
+      "topic": "산업혁명",
+      "claim": "산업혁명은 18세기 영국에서 시작되어 공장 생산과 도시화를 확대했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://openstax.org/books/world-history-volume-2/pages/9-1-the-second-industrial-revolution"
+      ],
+      "note": "첫 산업혁명 18세기 영국. 전 세계가 동시에 산업화됐다고 하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H25",
+      "topic": "증기와 철도",
+      "claim": "증기기관과 철도의 보급은 19세기의 생산과 교통을 변화시켰다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://blog.sciencemuseum.org.uk/steaming-through-the-centuries/",
+        "https://researchbriefings.files.parliament.uk/documents/RP10-28/RP10-28.pdf"
+      ],
+      "note": "고정식 증기기관은 철도보다 먼저 산업에서 쓰였다. 와트가 증기기관 자체를 최초 발명했다고 하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H26",
+      "topic": "나폴레옹 전쟁",
+      "claim": "나폴레옹은 1815년 워털루 전투에서 패배했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.nam.ac.uk/explore/battle-waterloo"
+      ],
+      "note": "1815-06-18. 웰링턴과 블뤼허의 연합군. 영국이 홀로 승리했다고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H27",
+      "topic": "중남미 독립",
+      "claim": "19세기 초 중남미의 여러 지역이 유럽 식민 통치에서 독립했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://openstax.org/books/world-history-volume-2/pages/8-section-summary"
+      ],
+      "note": "지역별 독립 시기와 과정은 다르다. 19세기 초 모든 식민지가 일시에 독립한 것으로 표현하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H28",
+      "topic": "미국 노예제 폐지",
+      "claim": "1865년 미국 수정헌법 제13조는 노예제를 폐지했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.archives.gov/milestone-documents/13th-amendment"
+      ],
+      "note": "1865년 수정헌법 제13조. 범죄 처벌에 관한 예외 조항이 있으며 이후 모든 강제 노동과 인종차별이 사라졌다고 확대하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H29",
+      "topic": "아프리카 식민지화",
+      "claim": "19세기 후반 유럽 열강은 아프리카의 넓은 지역을 식민지로 삼았다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://openstax.org/books/world-history-volume-2/pages/9-3-colonial-empires"
+      ],
+      "note": "아프리카의 대부분·넓은 지역. 모든 나라가 식민지가 되었다거나 식민지화가 처음 시작된 시기를 19세기 후반으로 단정하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H30",
+      "topic": "메이지 유신",
+      "claim": "1868년 메이지 유신 이후 일본은 국가 제도 개편과 산업화를 추진했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.gov-online.go.jp/eng/publicity/book/hlj/html/201810/201810_01_en.html",
+        "https://www.ndl.go.jp/modern/e/utility/chronology.html"
+      ],
+      "note": "1868년의 정치 변화와 이후 개혁·산업화를 구별한다. 산업화가 그해 완성됐다고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H31",
+      "topic": "제1차 세계대전",
+      "claim": "제1차 세계대전은 1914~1918년에 벌어졌다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.iwm.org.uk/sites/default/files/files/2023-10/first_world_war_large_print_guide.pdf",
+        "https://memorials.iwm.org.uk/memorial/1184"
+      ],
+      "note": "1918-11-11 독일 휴전·서부 전선 전투 종료. 평화조약은 후속 사건이며 모든 지역의 전쟁이 즉시 종료됐다고 하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H32",
+      "topic": "러시아혁명",
+      "claim": "1917년 러시아혁명으로 제정이 무너지고 볼셰비키가 권력을 잡았다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://openstax.org/books/world-history-volume-2/pages/12-2-the-formation-of-the-soviet-union",
+        "https://openstax.org/books/world-history-volume-2/pages/11-5-the-war-ends"
+      ],
+      "note": "2월 혁명의 제정 붕괴와 10월 혁명의 볼셰비키 집권을 혼동하지 않는다. 소련 성립은 1922년이다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H33",
+      "topic": "베르사유조약",
+      "claim": "1919년 베르사유조약은 독일과 연합국 사이의 전후 평화 조건을 정했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.nationalarchives.gov.uk/explore-the-collection/stories/the-treaty-of-versailles/",
+        "https://www.census.gov/history/pdf/treaty_of_versailles-112018.pdf"
+      ],
+      "note": "1918년 휴전과 1919년 평화조약을 구별한다. 독일과 연합국 간 조약이며 다른 패전국에는 별도 조약이 있었다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H34",
+      "topic": "대공황",
+      "claim": "1929년 시작된 대공황은 세계 여러 나라의 경제와 고용에 큰 타격을 주었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+      ],
+      "note": "미국에서 1929년 시작되어 세계로 확산된 침체로 다룬다. 주가 폭락만을 유일한 원인으로 단정하거나 모든 나라의 시작·종료 시점이 같다고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H35",
+      "topic": "제2차 세계대전",
+      "claim": "제2차 세계대전은 통상 1939~1945년으로 구분하며 유럽에서는 독일의 폴란드 침공으로 시작됐다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.ushmm.org/learn/holocaust/world-war-ii-and-the-holocaust-1939-1945"
+      ],
+      "note": "1939~1945년이라는 통상적 기간을 쓴다. 폴란드 침공은 유럽 전쟁의 발발이며 아시아의 앞선 전쟁을 없었던 것으로 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H36",
+      "topic": "홀로코스트",
+      "claim": "나치 독일과 협력자들은 홀로코스트에서 약 600만 명의 유대인을 학살했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust?parent=en%2F28"
+      ],
+      "note": "유대인 약 600만 명은 다른 박해 피해자를 포함한 전체 전쟁 사망자 수가 아니다. 부정·미화하거나 장난스러운 예문으로 만들지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H37",
+      "topic": "원폭과 일본 항복",
+      "claim": "1945년 히로시마·나가사키 원폭 투하 후 일본은 8월 15일 항복을 발표하고 9월 2일 서명했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.archives.gov/news/topics/hiroshima-nagasaki-75",
+        "https://history.blog.gov.uk/2020/08/14/whats-the-context-vj-day-15-august-1945/",
+        "https://www.archives.gov/exhibits/featured-documents/japanese-surrender-document"
+      ],
+      "note": "원폭 투하 8월 6·9일, 항복 발표 8월 15일, 문서 서명 9월 2일을 구별한다. 원폭을 항복의 유일한 원인으로 단정하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H38",
+      "topic": "국제연합",
+      "claim": "국제연합은 제2차 세계대전 이후 1945년에 창설되었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.un.org/en/about-us/history-of-the-un",
+        "https://www.un.org/en/about-us/un-charter"
+      ],
+      "note": "헌장 서명(6월)과 공식 출범(10월)을 구별한다. '전쟁 뒤 설립'은 1945년 출범을 뜻한다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H39",
+      "topic": "냉전",
+      "claim": "제2차 세계대전 이후 미국과 소련의 대립은 냉전의 중심축이었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://diplomacy.state.gov/discover-diplomacy/period/cold-war-diplomacy/"
+      ],
+      "note": "미국·소련과 각 진영의 대립이다. 냉전기에 실제 전쟁이 전혀 없었다고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H40",
+      "topic": "인도·파키스탄",
+      "claim": "1947년 영국령 인도는 독립하면서 인도와 파키스탄으로 분할되었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/"
+      ],
+      "note": "1947년 독립과 분할을 함께 다룬다. 당시 파키스탄에는 후일 방글라데시가 된 동부도 있었다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H41",
+      "topic": "중화인민공화국",
+      "claim": "중국 공산당은 1949년 중화인민공화국 수립을 선포했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://history.state.gov/milestones/1945-1952/chinese-rev"
+      ],
+      "note": "1949년 중화인민공화국 수립과 국공내전의 관계만 쓴다. 1911년 혁명이나 중국의 전체 역사를 같은 사건으로 혼동하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H42",
+      "topic": "탈식민화",
+      "claim": "제2차 세계대전 이후 아시아와 아프리카의 많은 나라가 독립했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.un.org/en/global-issues/decolonization",
+        "https://www.un.org/dppa/decolonization/about"
+      ],
+      "note": "전후 수십 년간 이어진 탈식민화다. 모든 식민지가 한꺼번에 독립했다거나 유엔만의 성과라고 단정하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H43",
+      "topic": "베를린 장벽",
+      "claim": "베를린 장벽은 1961년 세워지기 시작했고 1989년 개방되었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.stiftung-berliner-mauer.de/en/topics/berlin-wall"
+      ],
+      "note": "1961년 봉쇄·건설 시작, 1989년 국경 개방, 이후 철거를 구별한다. 독일 통일은 1990년이다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H44",
+      "topic": "소련 해체",
+      "claim": "소련은 1991년에 해체되었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://history.state.gov//milestones/1989-1992/collapse-soviet-union"
+      ],
+      "note": "소련 해체는 1991년이다. 베를린 장벽 개방(1989), 독일 통일(1990)과 구별한다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "H45",
+      "topic": "유럽연합",
+      "claim": "유럽연합은 1993년 마스트리흐트조약 발효로 출범했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://european-union.europa.eu/principles-countries-history/history-eu/1990-99_en",
+        "https://www.europarl.europa.eu/about-parliament/en/in-the-past/the-parliament-and-the-treaties/maastricht-treaty"
+      ],
+      "note": "조약 서명 1992년과 발효·EU 출범 1993년을 구별한다. 유럽 협력 자체가 1993년 처음 시작됐다고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S01",
+      "topic": "고대 수학",
+      "claim": "고대 그리스의 기하학은 증명에 바탕을 둔 수학의 발전에 중요한 역할을 했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/DSB/Euclid.pdf"
+      ],
+      "note": "증명·논리적 체계를 설명하되 그리스만 수학을 발전시켰거나 유클리드가 모든 명제를 처음 발견했다고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S02",
+      "topic": "이슬람권 학문 교류",
+      "claim": "중세 이슬람권에서 고대 그리스 등의 지식이 번역·연구되며 수학과 과학이 발전했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.metmuseum.org/learn/educators/curriculum-resources/art-of-the-islamic-world/unit-four",
+        "https://www.metmuseum.org/fr/essays/astronomy-and-astrology-in-the-medieval-islamic-world"
+      ],
+      "note": "고대 지식 보존뿐 아니라 새로운 연구·계산법·이론 발전도 포함한다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S03",
+      "topic": "지동설",
+      "claim": "코페르니쿠스는 1543년 태양 중심 우주 모형을 설명한 책을 출판했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://science.nasa.gov/earth/earth-observatory/planetary-motion/"
+      ],
+      "note": "1543년 출판과 태양 중심 모형을 다룬다. 최초의 태양중심설, 즉각적인 보편 수용, 현대 우주 전체의 중심이라는 주장은 피한다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S04",
+      "topic": "망원경 관측",
+      "claim": "갈릴레오는 망원경으로 목성의 위성 등을 관측해 당시 우주관의 변화에 기여했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.nasa.gov/general/415-years-ago-astronomer-galileo-discovers-jupiters-moons/"
+      ],
+      "note": "1610년 망원경 관측의 의미를 쓴다. 망원경 자체를 갈릴레오가 발명했다고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S05",
+      "topic": "행성 궤도",
+      "claim": "케플러는 행성의 공전 궤도가 타원임을 제시했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://science.nasa.gov/solar-system/orbits-and-keplers-laws/"
+      ],
+      "note": "행성 궤도는 완전한 원이 아니라 타원이라는 케플러 법칙을 다룬다. 모든 천체 궤도가 언제나 타원이라고 일반화하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S06",
+      "topic": "뉴턴 역학",
+      "claim": "뉴턴은 1687년 운동 법칙과 만유인력을 다룬 프린키피아를 출판했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.trin.cam.ac.uk/library/highlights/",
+        "https://wwwe.lib.cam.ac.uk/CUL/exhibitions/Footprints_of_the_Lion/gravity_glory.html"
+      ],
+      "note": "1687년 책에서 운동 법칙·만유인력을 체계화했다. 사과 일화나 중력 현상 자체를 최초 발견했다는 말은 피한다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S07",
+      "topic": "근대 화학",
+      "claim": "라부아지에는 연소에서 산소의 역할을 설명하여 근대 화학 발전에 기여했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.acs.org/education/whatischemistry/landmarks/lavoisier.html"
+      ],
+      "note": "산소의 연소 역할과 정량적 화학을 다룬다. 산소를 혼자 최초 발견했다거나 모든 연소에 산소가 필요하다고 일반화하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S08",
+      "topic": "백신",
+      "claim": "제너는 1796년 우두를 이용한 천연두 예방접종 실험을 했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.who.int/emergencies/situations/smallpox/"
+      ],
+      "note": "1796년 제너의 우두 접종 실험을 다룬다. 이전 인두법 등 예방 시도를 없었던 것으로 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S09",
+      "topic": "진화론",
+      "claim": "다윈은 1859년 종의 기원에서 자연선택에 의한 진화를 설명했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://darwin-online.org.uk/converted/published/1859_Origin_F373/1859_Origin_F373.html"
+      ],
+      "note": "1859년 출판과 자연선택을 다룬다. 진화가 목적을 향한 발전이라거나 현대 유전학을 다윈이 알았다고 쓰지 않는다. 공동발견 맥락에서는 월리스도 구별한다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S10",
+      "topic": "유전 법칙",
+      "claim": "멘델은 완두콩 실험을 통해 유전의 일정한 규칙을 발견했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.genome.gov/25520230/online-education-kit-1865-mendels-peas",
+        "https://www.genome.gov/genetics-glossary/Gregor-Johann-Mendel"
+      ],
+      "note": "완두 실험의 유전 양식을 다룬다. 모든 형질에 단순 우열·독립 법칙이 그대로 적용된다고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S11",
+      "topic": "세균설",
+      "claim": "파스퇴르와 코흐 등의 연구는 미생물이 질병을 일으킨다는 이해를 발전시켰다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.pasteur.fr/en/file/44615/download",
+        "https://www.pasteur.fr/en/about-us/middle-years-1862-1877"
+      ],
+      "note": "특정 미생물이 특정 감염병을 일으킨다는 실험적 근거다. 모든 미생물이 해롭다거나 모든 질병이 세균성이라고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S12",
+      "topic": "주기율표",
+      "claim": "멘델레예프는 1869년 원소의 성질에 주기성이 있음을 나타내는 주기율표를 제시했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://periodic-table.rsc.org/about"
+      ],
+      "note": "1869년 멘델레예프의 원자량·성질을 이용한 배열과 예측을 다룬다. 당시 이미 원자번호로 배열했다고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S13",
+      "topic": "엑스선",
+      "claim": "뢴트겐은 1895년 엑스선을 발견했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.nobelprize.org/prizes/physics/1901/rontgen/biographical/"
+      ],
+      "note": "1895년 X선 발견을 다룬다. 당시 이미 오늘날의 방사선 위험이나 정체를 모두 알았다고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S14",
+      "topic": "방사능",
+      "claim": "베크렐과 퀴리 부부의 연구는 방사능에 대한 이해를 발전시켰다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/",
+        "https://www.nobelprize.org/uploads/2018/06/becquerel-lecture.pdf"
+      ],
+      "note": "베크렐의 1896년 현상 발견과 퀴리 부부의 후속 연구를 구별한다. 방사능·방사선·방사성 원소를 혼동하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S15",
+      "topic": "상대성이론",
+      "claim": "아인슈타인은 1905년 특수상대성이론, 1915년 일반상대성이론을 발표했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.einstein-online.info/en/spotlight/equivalence_principle/",
+        "https://www.mpg.de/9700434/chronology"
+      ],
+      "note": "1905년 특수상대성이론과 1915년 일반상대성이론을 구별한다. 상대성이론이 노벨상 수상 사유였다고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S16",
+      "topic": "양자역학",
+      "claim": "20세기 초 발전한 양자역학은 원자와 입자의 행동을 설명하는 기반이 되었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.nobelprize.org/prizes/physics/1932/heisenberg/facts/",
+        "https://educationalgames.nobelprize.org/educational/physics/quantised_world/final-1.html"
+      ],
+      "note": "20세기 초 여러 연구자의 양자론·양자역학 발전을 다룬다. 한 사람이 한순간에 완성했다고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S17",
+      "topic": "페니실린",
+      "claim": "플레밍은 1928년 페니실린을 발견했고 다른 연구진의 개발로 1940년대 치료에 널리 쓰이게 되었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.acs.org/education/whatischemistry/landmarks/flemingpenicillin.html"
+      ],
+      "note": "1928년 관찰·발견과 1940년대 플로리·체인 등 팀의 치료제 개발·대량생산을 구별한다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S18",
+      "topic": "DNA 구조",
+      "claim": "1953년 DNA의 이중나선 구조 모형이 제시되었고 X선 회절 자료가 중요한 근거가 되었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.genome.gov/25520255/online-education-kit-1953-dna-double-helix"
+      ],
+      "note": "1953년 이중나선 모형과 프랭클린·윌킨스 등의 X선 자료를 구별해 함께 다룬다. DNA 물질 자체의 최초 발견이라고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S19",
+      "topic": "판구조론",
+      "claim": "20세기 중반 발전한 판구조론은 지진·화산·대륙 이동을 통합적으로 설명했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://volcanoes.usgs.gov/about/edu/dynamicplanet/nutshell.php",
+        "https://www.usgs.gov/publications/earthquakes-and-plate-tectonics"
+      ],
+      "note": "1960년대 정착된 통합 이론이다. 베게너가 현대 판구조론을 완성했다거나 모든 지진·화산이 판 경계에만 있다고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S20",
+      "topic": "트랜지스터",
+      "claim": "1947년 개발된 트랜지스터는 현대 전자기기 발전의 핵심 요소가 되었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/",
+        "https://www.computerhistory.org/revolution/story/273"
+      ],
+      "note": "1947년 점접촉 트랜지스터와 1948년 쇼클리의 접합형 구상을 구별한다. 소형화·전자기기 변화의 큰 흐름을 우선한다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S21",
+      "topic": "전자 컴퓨터",
+      "claim": "20세기 중반 전자 컴퓨터가 발전하며 계산과 정보처리 방식이 바뀌었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.computerhistory.org/revolution/story/78",
+        "https://www.computerhistory.org/timeline/computers/?pStoreID=intuit%2F1000"
+      ],
+      "note": "1940년대 전자식 컴퓨터와 이후 발전을 다룬다. '최초 컴퓨터'는 정의에 따라 달라 단정하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S22",
+      "topic": "인공위성",
+      "claim": "소련은 1957년 세계 최초의 인공위성 스푸트니크 1호를 발사했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.nasa.gov/history/friendship7/index.html",
+        "https://www.nasa.gov/history/sputnik/chap11.html"
+      ],
+      "note": "1957년 스푸트니크 1호는 최초의 인공 지구 위성이다. 인류 최초의 우주 물체나 최초 유인 비행과 혼동하지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S23",
+      "topic": "유인 우주비행",
+      "claim": "가가린은 1961년 인류 최초의 우주비행을 했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.nasa.gov/history/friendship7/index.html",
+        "https://www.nasa.gov/wp-content/uploads/2022/05/afrc_contributions_to_shuttle_ebook_tagged.pdf?emrc=684436c868e88"
+      ],
+      "note": "1961년 가가린의 최초 유인 우주 비행이다. 최초 달 착륙과 구별한다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S24",
+      "topic": "달 착륙",
+      "claim": "아폴로 11호는 1969년 인류 최초의 유인 달 착륙을 이루었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.nasa.gov/mission/apollo-11/",
+        "https://www.nasa.gov/history/apollo-11-mission-overview/"
+      ],
+      "note": "1969년 아폴로 11호의 최초 유인 달 착륙이다. 착륙과 최초 발걸음의 시각은 다르며 날짜 문장은 기준 시간대를 확인한다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S25",
+      "topic": "천연두 퇴치",
+      "claim": "WHO는 1980년 천연두가 박멸되었음을 선언했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.who.int/emergencies/situations/smallpox/"
+      ],
+      "note": "1980년 WHO 박멸 선언과 마지막 자연 감염 사례 1977년을 구별한다. 모든 감염병이 박멸됐다고 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S26",
+      "topic": "월드와이드웹",
+      "claim": "팀 버너스리는 1989년 CERN에서 월드와이드웹을 고안했다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://home.cern/science/computing/the-birth-of-the-web/where-web-was-born/"
+      ],
+      "note": "1989년 WWW 구상·개발과 인터넷 자체를 구별한다. 1993년 공개 소프트웨어 정책과도 구별한다.",
+      "checkedDate": "2026-10-07"
+    },
+    {
+      "id": "S27",
+      "topic": "인간 게놈 프로젝트",
+      "claim": "인간 게놈 프로젝트는 2003년에 완료되었다.",
+      "status": "core_claim_verified",
+      "sources": [
+        "https://www.genome.gov/11006929/2003-release-international-consortium-completes-hgp",
+        "https://www.genome.gov/about-genomics/educational-resources/infographics/Completing-the-human-genome-sequence"
+      ],
+      "note": "2003년은 프로젝트 목표 달성이다. 모든 염기를 빠짐없이 읽은 시점이나 인간 유전자의 모든 기능을 안 시점으로 쓰지 않는다.",
+      "checkedDate": "2026-10-07"
+    }
+  ],
+  "verificationScope": "핵심 사실만 확인. 카드별 새 예문의 구체적 주장·인과·수치는 문장 작성 후 추가 검증한다."
+}

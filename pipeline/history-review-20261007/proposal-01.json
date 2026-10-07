@@ -1,0 +1,1215 @@
+{
+  "date": "2026-10-07",
+  "batch": 1,
+  "status": "applied_locally_not_deployed",
+  "dataHash": "60105b7239890b278ba471ff680575cbbac7fbe6997cf3bf779d98f45dbaa06c",
+  "totalCards": 30,
+  "newProposals": 21,
+  "existingOrdinalProposals": 9,
+  "appliedCards": 30,
+  "review": {
+    "targetSenseAndPartOfSpeech": "Reviewed against current full cards",
+    "insertion": "One blank; current en plus visible regular suffix yields complete sentence",
+    "relatedExplanations": "Four concise explanation proposals; remaining c and meow reviewed for compatibility",
+    "facts": "Specific proposed claims checked against linked institutional sources",
+    "presentation": "First 30 were shown in chat; user confirmed them and requested the recorded timing revisions.",
+    "userConfirmation": "확인했어. 역사 시기를 알려주는게 좋을거 같아 이를테면 25번의 경우는 현대몽골인들 이야기가 아니니까 그리고 연대가 나오는 역사적 사실은 연대를 명시하는게 도움이 돼",
+    "timingPolicy": "날짜·연도를 확인할 수 있는 사건은 명시하고, 장기간의 변화는 검증된 세기·시대 범위로 표현한다."
+  },
+  "proposals": [
+    {
+      "number": 1,
+      "id": "C0409",
+      "set": 1,
+      "path": [
+        1,
+        "exercises",
+        10,
+        "words",
+        13
+      ],
+      "en": "eleventh",
+      "ko": "① 열한 번째(의)",
+      "original": {
+        "ex": "Germany signed an armistice on November {{BLANK}}, 1918.",
+        "tr": "독일은 1918년 11월 11일에 휴전 협정에 서명했어.",
+        "c": "eleven+th. at the eleventh hour는 '막판에'라는 뜻."
+      },
+      "sourceHash": "ff679935cd4cf4371c91e3b20e72c2455bf1d3df191ad759e5aab2de2cbcc29c",
+      "proposed": {
+        "ex": "Germany agreed to stop fighting in World War I on November {{BLANK}}, 1918.",
+        "tr": "독일은 1918년 11월 11일에 제1차 세계대전에서 싸움을 멈추기로 합의했어."
+      },
+      "completedEnglish": "Germany agreed to stop fighting in World War I on November eleventh, 1918.",
+      "origin": "existing_ordinal_proposal",
+      "factIds": [
+        "H31"
+      ],
+      "sources": [
+        "https://www.iwm.org.uk/sites/default/files/files/2023-10/first_world_war_large_print_guide.pdf"
+      ],
+      "reviewNote": "사용자가 영어·해석을 확인한 난도 단순화안. armistice를 쉬운 표현으로 바꿨으며 사건·연대·목표 뜻을 유지한다.",
+      "status": "applied_locally_not_deployed",
+      "appliedBeforeApprovedSimplification": {
+        "proposed": {
+          "ex": "Germany signed the World War I armistice on November {{BLANK}}, 1918.",
+          "tr": "독일은 1918년 11월 11일에 제1차 세계대전 휴전 협정에 서명했어."
+        },
+        "reviewNote": "Armistice, not a peace treaty; the agreement ended Western Front fighting."
+      },
+      "difficultyRevision": "difficulty-revision-02.json"
+    },
+    {
+      "number": 2,
+      "id": "C0410",
+      "set": 1,
+      "path": [
+        1,
+        "exercises",
+        10,
+        "words",
+        14
+      ],
+      "en": "twelfth",
+      "ko": "① 열두 번째(의)",
+      "original": {
+        "ex": "Yuri Gagarin became the first human in space on April {{BLANK}}, 1961.",
+        "tr": "유리 가가린은 1961년 4월 12일에 인류 최초로 우주에 갔어.",
+        "c": "twelve의 ve가 f로 바뀐다. twelveth로 쓰면 틀린다."
+      },
+      "sourceHash": "d3bdb4741f95bde8367391919fcab665c9df7fab3fd5d14f4058c7b489fc11d4",
+      "proposed": {
+        "ex": "Columbus reached the Americas on October {{BLANK}}, 1492.",
+        "tr": "콜럼버스는 1492년 10월 12일에 아메리카에 도착했어."
+      },
+      "completedEnglish": "Columbus reached the Americas on October twelfth, 1492.",
+      "origin": "existing_ordinal_proposal",
+      "factIds": [
+        "H14"
+      ],
+      "sources": [
+        "https://www.aoc.gov/explore-capitol-campus/art/landing-columbus"
+      ],
+      "reviewNote": "Arrival at Guanahani in the Bahamas. Do not call this the first arrival or a discovery of an uninhabited continent.",
+      "status": "applied_locally_not_deployed"
+    },
+    {
+      "number": 3,
+      "id": "C0411",
+      "set": 1,
+      "path": [
+        1,
+        "exercises",
+        10,
+        "words",
+        15
+      ],
+      "en": "thirteenth",
+      "ko": "① 열세 번째의, 13일",
+      "original": {
+        "ex": "Construction of the Berlin Wall began on August {{BLANK}}, 1961.",
+        "tr": "베를린 장벽 건설은 1961년 8월 13일에 시작됐어.",
+        "c": "13th. August thirteenth = the thirteenth of August(8월 13일)."
+      },
+      "sourceHash": "b8fe604a8ec42dad5cfc74ea525e3fd25f7b76ee93fe3b1ae3aa0f2fa3efeb45",
+      "proposed": {
+        "ex": "The Mongol Empire grew across much of Asia and into Europe in the {{BLANK}} century.",
+        "tr": "몽골 제국은 13세기에 아시아의 넓은 지역을 거쳐 유럽까지 커졌어.",
+        "c": "13th. 세기는 서수로 읽는다."
+      },
+      "completedEnglish": "The Mongol Empire grew across much of Asia and into Europe in the thirteenth century.",
+      "origin": "existing_ordinal_proposal",
+      "factIds": [
+        "H09"
+      ],
+      "sources": [
+        "https://www.metmuseum.org/essays/the-legacy-of-genghis-khan"
+      ],
+      "reviewNote": "사용자가 영어·해석을 확인한 난도 단순화안. expanded + Eurasia를 쉬운 표현으로 바꿨으며 사건·연대·목표 뜻을 유지한다.",
+      "status": "applied_locally_not_deployed",
+      "appliedBeforeApprovedSimplification": {
+        "proposed": {
+          "ex": "The Mongol Empire expanded across much of Eurasia in the {{BLANK}} century.",
+          "tr": "몽골 제국은 13세기에 유라시아의 넓은 지역으로 세력을 확대했어.",
+          "c": "13th. 세기는 서수로 읽는다."
+        },
+        "reviewNote": "Century use replaces the earlier Berlin Wall date. Update the old August-date explanation when approved."
+      },
+      "difficultyRevision": "difficulty-revision-02.json"
+    },
+    {
+      "number": 4,
+      "id": "C0412",
+      "set": 1,
+      "path": [
+        1,
+        "exercises",
+        10,
+        "words",
+        16
+      ],
+      "en": "fourteenth",
+      "ko": "① 열네 번째의",
+      "original": {
+        "ex": "A crowd stormed the Bastille on July {{BLANK}}, 1789.",
+        "tr": "1789년 7월 14일, 군중이 바스티유 감옥을 습격했어.",
+        "c": "four+teen+th. 철자에서 u를 빠뜨리지 않도록 주의한다."
+      },
+      "sourceHash": "e1b84be746594a5933c1b76eb8a3b9f182401aa39558de1f049f60e3d6486291",
+      "proposed": {
+        "ex": "People attacked the Bastille prison on July {{BLANK}}, 1789.",
+        "tr": "1789년 7월 14일에 사람들이 바스티유 감옥을 공격했어."
+      },
+      "completedEnglish": "People attacked the Bastille prison on July fourteenth, 1789.",
+      "origin": "existing_ordinal_proposal",
+      "factIds": [
+        "H22"
+      ],
+      "sources": [
+        "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/14-juillet-la-fete-qui-nous-rassemble"
+      ],
+      "reviewNote": "사용자가 영어·해석을 확인한 난도 단순화안. stormed + 설명 없는 Bastille를 쉬운 표현으로 바꿨으며 사건·연대·목표 뜻을 유지한다.",
+      "status": "applied_locally_not_deployed",
+      "appliedBeforeApprovedSimplification": {
+        "proposed": {
+          "ex": "A crowd stormed the Bastille on July {{BLANK}}, 1789.",
+          "tr": "1789년 7월 14일, 군중이 바스티유 감옥을 습격했어."
+        },
+        "reviewNote": "Major French Revolution event; keep the existing sentence."
+      },
+      "difficultyRevision": "difficulty-revision-02.json"
+    },
+    {
+      "number": 5,
+      "id": "C0413",
+      "set": 1,
+      "path": [
+        1,
+        "exercises",
+        10,
+        "words",
+        17
+      ],
+      "en": "fifteenth",
+      "ko": "① 열다섯 번째의",
+      "original": {
+        "ex": "Korea was freed from Japanese rule on August {{BLANK}}, 1945.",
+        "tr": "한국은 1945년 8월 15일에 일본의 지배에서 해방됐어.",
+        "c": "five가 fif로 바뀐다. fifth, fifty와 같은 변화다."
+      },
+      "sourceHash": "20af702d59803de9321db4d633fd7886457b4ba389c486ac76c6484d549c1e1e",
+      "proposed": {
+        "ex": "Japan announced its surrender on August {{BLANK}}, 1945.",
+        "tr": "일본은 1945년 8월 15일에 항복을 발표했어."
+      },
+      "completedEnglish": "Japan announced its surrender on August fifteenth, 1945.",
+      "origin": "existing_ordinal_proposal",
+      "factIds": [
+        "H37"
+      ],
+      "sources": [
+        "https://history.blog.gov.uk/2020/08/14/whats-the-context-vj-day-15-august-1945/"
+      ],
+      "reviewNote": "Announcement on August 15; formal surrender signing on September 2. Replaces the Korea-liberation example.",
+      "status": "applied_locally_not_deployed"
+    },
+    {
+      "number": 6,
+      "id": "C0414",
+      "set": 1,
+      "path": [
+        1,
+        "exercises",
+        10,
+        "words",
+        18
+      ],
+      "en": "seventeenth",
+      "ko": "① 열일곱 번째의",
+      "original": {
+        "ex": "South Korea's first constitution was proclaimed on July {{BLANK}}, 1948.",
+        "tr": "대한민국의 제헌헌법은 1948년 7월 17일에 공포됐어.",
+        "c": "17th. 나이를 말할 때는 서수가 아니라 seventeen을 쓴다."
+      },
+      "sourceHash": "b2590c86b8be331b6486729a77b50c4a67b9ca99802a6f35398e0eb8baa477bb",
+      "proposed": {
+        "ex": "In the {{BLANK}} century, new scientific ideas changed how Europeans understood the world.",
+        "tr": "17세기에 새로운 과학적 생각들은 유럽인들이 세상을 이해하는 방식을 바꾸었어."
+      },
+      "completedEnglish": "In the seventeenth century, new scientific ideas changed how Europeans understood the world.",
+      "origin": "existing_ordinal_proposal",
+      "factIds": [
+        "H19"
+      ],
+      "sources": [
+        "https://www.openbookpublishers.com/books/10.11647/obp.0054"
+      ],
+      "reviewNote": "사용자가 영어·해석을 확인한 난도 단순화안. transformed European thought를 쉬운 표현으로 바꿨으며 사건·연대·목표 뜻을 유지한다.",
+      "status": "applied_locally_not_deployed",
+      "appliedBeforeApprovedSimplification": {
+        "proposed": {
+          "ex": "The Scientific Revolution transformed European thought in the {{BLANK}} century.",
+          "tr": "17세기의 과학혁명은 유럽의 사고방식을 바꾸었어."
+        },
+        "reviewNote": "Does not claim that the Scientific Revolution began in the seventeenth century. Replaces the Korean constitution example."
+      },
+      "difficultyRevision": "difficulty-revision-02.json"
+    },
+    {
+      "number": 7,
+      "id": "C0415",
+      "set": 1,
+      "path": [
+        1,
+        "exercises",
+        10,
+        "words",
+        19
+      ],
+      "en": "eighteenth",
+      "ko": "① 열여덟 번째(의)",
+      "original": {
+        "ex": "The Gwangju Uprising began on the {{BLANK}} of May, 1980.",
+        "tr": "광주민주화운동은 1980년 5월 18일에 시작됐어.",
+        "c": "eighteen+th. 서수 앞에는 보통 the나 소유격을 쓴다."
+      },
+      "sourceHash": "28d0a5873e84b07023e8f9501d4fb96c7881b7c3afd595fa5aee3963f2d138af",
+      "proposed": {
+        "ex": "The Industrial Revolution began in Britain in the {{BLANK}} century.",
+        "tr": "산업혁명은 18세기에 영국에서 시작됐어."
+      },
+      "completedEnglish": "The Industrial Revolution began in Britain in the eighteenth century.",
+      "origin": "existing_ordinal_proposal",
+      "factIds": [
+        "H24"
+      ],
+      "sources": [
+        "https://openstax.org/books/world-history-volume-2/pages/9-1-the-second-industrial-revolution"
+      ],
+      "reviewNote": "Replaces the Gwangju Uprising example.",
+      "status": "applied_locally_not_deployed"
+    },
+    {
+      "number": 8,
+      "id": "C0416",
+      "set": 1,
+      "path": [
+        1,
+        "exercises",
+        10,
+        "words",
+        20
+      ],
+      "en": "nineteenth",
+      "ko": "① 열아홉 번째의",
+      "original": {
+        "ex": "Koreans protested against dictatorship on April {{BLANK}}, 1960.",
+        "tr": "1960년 4월 19일, 한국인들이 독재에 맞서 시위했어.",
+        "c": "19th. 예문은 4·19혁명 당시의 시위를 말한다."
+      },
+      "sourceHash": "aa924a1e4ad80121f341f841855c9feddf966e9fc3ea5ce35fa00ab6386d9b2d",
+      "proposed": {
+        "ex": "European countries took control of much of Africa in the late {{BLANK}} century.",
+        "tr": "유럽 국가들은 19세기 후반 아프리카의 넓은 지역을 지배하게 되었어.",
+        "c": "19th. the late nineteenth century는 19세기 후반."
+      },
+      "completedEnglish": "European countries took control of much of Africa in the late nineteenth century.",
+      "origin": "existing_ordinal_proposal",
+      "factIds": [
+        "H29"
+      ],
+      "sources": [
+        "https://openstax.org/books/world-history-volume-2/pages/9-3-colonial-empires"
+      ],
+      "reviewNote": "사용자가 영어·해석을 확인한 난도 단순화안. powers의 특수 뜻 + colonized를 쉬운 표현으로 바꿨으며 사건·연대·목표 뜻을 유지한다.",
+      "status": "applied_locally_not_deployed",
+      "appliedBeforeApprovedSimplification": {
+        "proposed": {
+          "ex": "European powers colonized much of Africa in the late {{BLANK}} century.",
+          "tr": "유럽 열강은 19세기 후반 아프리카의 넓은 지역을 식민지로 삼았어.",
+          "c": "19th. the late nineteenth century는 19세기 후반."
+        },
+        "reviewNote": "Much, not all, of Africa. Replaces April Revolution example; remove the now-unrelated April Revolution explanation when approved."
+      },
+      "difficultyRevision": "difficulty-revision-02.json"
+    },
+    {
+      "number": 9,
+      "id": "C0417",
+      "set": 1,
+      "path": [
+        1,
+        "exercises",
+        10,
+        "words",
+        21
+      ],
+      "en": "twentieth",
+      "ko": "① 스무 번째의",
+      "original": {
+        "ex": "Apollo 11 landed on the Moon on July {{BLANK}}, 1969.",
+        "tr": "아폴로 11호는 1969년 7월 20일에 달에 착륙했어.",
+        "c": "twenty의 y가 ie로 바뀐다. 달 착륙은 UTC 기준 7월 20일(한국 시간 21일)."
+      },
+      "sourceHash": "1b4a80d4af64b6f0b31244dffecf6f63ac821ea85a82e29a99395c26be97bfc7",
+      "proposed": {
+        "ex": "The two world wars (1914–1918 and 1939–1945) took place in the {{BLANK}} century.",
+        "tr": "두 차례의 세계대전(1914~1918년, 1939~1945년)은 20세기에 일어났어.",
+        "c": "twenty의 y가 ie로 바뀐다."
+      },
+      "completedEnglish": "The two world wars (1914–1918 and 1939–1945) took place in the twentieth century.",
+      "origin": "existing_ordinal_proposal",
+      "factIds": [
+        "H31",
+        "H35"
+      ],
+      "sources": [
+        "https://memorials.iwm.org.uk/memorial/1184",
+        "https://wmr.iwm.org.uk/war/second-world-war-1939-1945"
+      ],
+      "reviewNote": "Replaces the lunar landing example and its UTC/Korean date explanation.",
+      "status": "applied_locally_not_deployed",
+      "reviewedProposal": {
+        "ex": "The two world wars took place in the {{BLANK}} century.",
+        "tr": "두 차례의 세계대전은 20세기에 일어났어.",
+        "c": "twenty의 y가 ie로 바뀐다. 제1차 세계대전은 1914~1918년, 제2차는 1939~1945년."
+      },
+      "timingRevision": "20세기와 각 세계대전의 실제 기간을 예문에 함께 표시한다."
+    },
+    {
+      "number": 10,
+      "id": "C0819",
+      "set": 4,
+      "path": [
+        4,
+        "exercises",
+        3,
+        "words",
+        4
+      ],
+      "en": "land",
+      "ko": "② 착륙하다 (↔ take off)",
+      "original": {
+        "ex": "The plane will {{BLANK}} in ten minutes.",
+        "tr": "비행기가 10분 뒤에 착륙해.",
+        "c": ""
+      },
+      "sourceHash": "c1270558b403071b6d4ea4d9f3228d74bed06633821c2037667181fa96294a65",
+      "proposed": {
+        "ex": "Humans first {{BLANK}}ed on the moon in 1969.",
+        "tr": "인간은 1969년에 처음으로 달에 착륙했어."
+      },
+      "completedEnglish": "Humans first landed on the moon in 1969.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "S24"
+      ],
+      "sources": [
+        "https://www.nasa.gov/history/apollo-11-mission-overview/"
+      ],
+      "reviewNote": "land on의 착륙 뜻. Humans로 최초 유인 착륙임을 한정한다.",
+      "status": "applied_locally_not_deployed"
+    },
+    {
+      "number": 11,
+      "id": "C1323",
+      "set": 6,
+      "path": [
+        6,
+        "exercises",
+        9,
+        "words",
+        4
+      ],
+      "en": "produce",
+      "ko": "① 생산하다, 만들어 내다",
+      "original": {
+        "ex": "The farm {{BLANK}}s 1,000 eggs a day.",
+        "tr": "그 농장은 하루에 달걀 1,000개를 생산해.",
+        "c": "만들어 낸 결과물이 product(제품). 동사 ‘생산하다’는 뒤, 명사 ‘농산물’은 앞에 강세."
+      },
+      "sourceHash": "b76bf716ec177c82be2de795807297198bca90c113f219ea55124c0cdd973ac9",
+      "proposed": {
+        "ex": "In the 18th and 19th centuries, British factories used machines to {{BLANK}} goods.",
+        "tr": "18~19세기 영국 공장들은 기계를 이용해 상품을 생산했어."
+      },
+      "completedEnglish": "In the 18th and 19th centuries, British factories used machines to produce goods.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "H24"
+      ],
+      "sources": [
+        "https://openstax.org/books/world-history-volume-2/pages/9-1-the-second-industrial-revolution"
+      ],
+      "reviewNote": "produce goods의 타동사 용법과 공장 생산을 보여 준다. 임의 생산량을 쓰지 않는다.",
+      "status": "applied_locally_not_deployed",
+      "reviewedProposal": {
+        "ex": "Factories used machines to {{BLANK}} goods during the Industrial Revolution.",
+        "tr": "산업혁명 때 공장들은 기계를 이용해 상품을 생산했어."
+      },
+      "timingRevision": "기계 생산이 확대된 긴 변화는 두 세기의 범위로 제시한다."
+    },
+    {
+      "number": 12,
+      "id": "C1468",
+      "set": 7,
+      "path": [
+        7,
+        "exercises",
+        8,
+        "words",
+        1
+      ],
+      "en": "knowledge",
+      "ko": "① 지식",
+      "original": {
+        "ex": "She has a deep {{BLANK}} of Korean history.",
+        "tr": "걔는 한국사 지식이 깊어.",
+        "c": "know(알다)와 관련된 명사. k는 묵음. knowledge of history는 역사에 관한 지식."
+      },
+      "sourceHash": "5b9f472a919f160d2a8095a5edbdbd1e97c0b95b1d87c30d8d42338dcb860cba",
+      "proposed": {
+        "ex": "From the 15th century onward, printing helped spread {{BLANK}} across Europe.",
+        "tr": "15세기부터 인쇄술은 유럽 전역에 지식을 퍼뜨리는 데 도움이 되었어.",
+        "c": "know(알다)와 관련된 명사. k는 묵음. knowledge of ~: ~에 관한 지식."
+      },
+      "completedEnglish": "From the 15th century onward, printing helped spread knowledge across Europe.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "H12"
+      ],
+      "sources": [
+        "https://loc.gov/exhibits/bibles/the-gutenberg-bible.html",
+        "https://www.bnf.fr/en/agendaEN/printing-gutenbergs-europe"
+      ],
+      "reviewNote": "knowledge 불가산명사. 유럽 인쇄술의 세계 최초 주장을 하지 않는다. 해설의 기존 history 예시를 일반 결합으로 바꾼다.",
+      "status": "applied_locally_not_deployed",
+      "reviewedProposal": {
+        "ex": "Printing helped spread {{BLANK}} across Europe.",
+        "tr": "인쇄술은 유럽 전역에 지식을 퍼뜨리는 데 도움이 되었어.",
+        "c": "know(알다)와 관련된 명사. k는 묵음. knowledge of ~: ~에 관한 지식."
+      },
+      "timingRevision": "유럽에서 15세기 발달한 인쇄술의 확산이며 세계 최초 인쇄술이라는 주장은 아니다."
+    },
+    {
+      "number": 13,
+      "id": "C1501",
+      "set": 8,
+      "path": [
+        8,
+        "exercises",
+        0,
+        "words",
+        9
+      ],
+      "en": "network",
+      "ko": "① 망, 네트워크",
+      "original": {
+        "ex": "The subway {{BLANK}} in Seoul is very large.",
+        "tr": "서울 지하철망은 정말 크다.",
+        "c": "net(그물)+work: 그물처럼 이어진 망. 사람 인맥도 network."
+      },
+      "sourceHash": "a998b22567f82dbc54cc97ded369ef29c1369d9f8648388e1a2c37cb07ea3867",
+      "proposed": {
+        "ex": "In ancient and medieval times, the Silk Roads were a {{BLANK}} of trade routes.",
+        "tr": "고대와 중세에 실크로드는 교역로의 연결망이었어."
+      },
+      "completedEnglish": "In ancient and medieval times, the Silk Roads were a network of trade routes.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "H08"
+      ],
+      "sources": [
+        "https://www.unesco.org/en/silk-roads/about-silk-roads?hub=196704"
+      ],
+      "reviewNote": "network of의 연결 구조. 실크로드를 단일 도로로 설명하지 않는다.",
+      "status": "applied_locally_not_deployed",
+      "reviewedProposal": {
+        "ex": "The Silk Roads were a {{BLANK}} of trade routes.",
+        "tr": "실크로드는 교역로의 연결망이었어."
+      },
+      "timingRevision": "교역이 활발했던 시대를 보여 주되 중세에 끝났다는 종료 연대는 주장하지 않는다."
+    },
+    {
+      "number": 14,
+      "id": "C1605",
+      "set": 8,
+      "path": [
+        8,
+        "exercises",
+        7,
+        "words",
+        2
+      ],
+      "en": "trade",
+      "ko": "① 무역, 거래",
+      "original": {
+        "ex": "{{BLANK}} between the two countries grew fast.",
+        "tr": "두 나라 사이 무역이 빠르게 늘었다.",
+        "c": ""
+      },
+      "sourceHash": "e89e85b938ff1a9102d4b7415705e05eae9d5d6a8ee760d877806bdb2a17ddf1",
+      "proposed": {
+        "ex": "In ancient and medieval times, Silk Road {{BLANK}} spread both goods and ideas.",
+        "tr": "고대와 중세에 실크로드 무역을 통해 물품과 사상이 함께 퍼졌어."
+      },
+      "completedEnglish": "In ancient and medieval times, Silk Road trade spread both goods and ideas.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "H08"
+      ],
+      "sources": [
+        "https://www.unesco.org/en/silk-roads/about-silk-roads?hub=196704"
+      ],
+      "reviewNote": "명사 trade. network 카드와 달리 물품·사상 교류의 역할에 초점을 둔다.",
+      "status": "applied_locally_not_deployed",
+      "reviewedProposal": {
+        "ex": "Silk Road {{BLANK}} spread both goods and ideas.",
+        "tr": "실크로드 무역을 통해 물품과 사상이 함께 퍼졌어."
+      },
+      "timingRevision": "고대·중세의 교역과 문화 교류를 명시한다."
+    },
+    {
+      "number": 15,
+      "id": "C1630",
+      "set": 8,
+      "path": [
+        8,
+        "exercises",
+        8,
+        "words",
+        10
+      ],
+      "en": "establish",
+      "ko": "① 세우다, 설립하다",
+      "original": {
+        "ex": "They {{BLANK}}ed the school in 1990.",
+        "tr": "그들은 1990년에 그 학교를 설립했어.",
+        "c": "건물은 build, 회사·학교·제도는 establish로 세운다."
+      },
+      "sourceHash": "75141e4fa91f0da5d09604b73534980a4f16cebfec0f4674e5f8cdbc6f47cb95",
+      "proposed": {
+        "ex": "The United Nations was {{BLANK}}ed in 1945, after World War II.",
+        "tr": "국제연합은 제2차 세계대전이 끝난 뒤인 1945년에 설립되었어."
+      },
+      "completedEnglish": "The United Nations was established in 1945, after World War II.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "H38"
+      ],
+      "sources": [
+        "https://www.un.org/en/about-us/history-of-the-un"
+      ],
+      "reviewNote": "조직 설립의 수동태. 1945년 6월 헌장 서명이 아니라 10월 공식 출범을 가리킨다.",
+      "status": "applied_locally_not_deployed",
+      "reviewedProposal": {
+        "ex": "The United Nations was {{BLANK}}ed after World War II.",
+        "tr": "국제연합은 제2차 세계대전 뒤에 설립되었어."
+      },
+      "timingRevision": "1945년 10월 공식 출범이며 6월 헌장 서명과 구별한다."
+    },
+    {
+      "number": 16,
+      "id": "C1664",
+      "set": 9,
+      "path": [
+        9,
+        "exercises",
+        1,
+        "words",
+        6
+      ],
+      "en": "structure",
+      "ko": "① 구조, 구조물",
+      "original": {
+        "ex": "Look at the {{BLANK}} of this sentence.",
+        "tr": "이 문장의 구조를 봐.",
+        "c": ""
+      },
+      "sourceHash": "8afdc1c57d21ccb1ff9a8b73686622808b513f487dd4fa88b900fb141a583e09",
+      "proposed": {
+        "ex": "In 1953, scientists made a model of DNA's {{BLANK}}.",
+        "tr": "1953년에 과학자들은 DNA 구조의 모형을 만들었어."
+      },
+      "completedEnglish": "In 1953, scientists made a model of DNA's structure.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "S18"
+      ],
+      "sources": [
+        "https://www.genome.gov/25520255/online-education-kit-1953-dna-double-helix"
+      ],
+      "reviewNote": "사용자가 영어·해석을 확인한 난도 단순화안. double-helix를 쉬운 표현으로 바꿨으며 사건·연대·목표 뜻을 유지한다.",
+      "status": "applied_locally_not_deployed",
+      "appliedBeforeApprovedSimplification": {
+        "proposed": {
+          "ex": "In 1953, scientists proposed a model of DNA's double-helix {{BLANK}}.",
+          "tr": "1953년에 과학자들은 DNA의 이중 나선 구조 모형을 제안했어."
+        },
+        "reviewNote": "구조 명사. DNA 물질 자체의 최초 발견이 아닌 구조 모형 제안이다."
+      },
+      "difficultyRevision": "difficulty-revision-02.json"
+    },
+    {
+      "number": 17,
+      "id": "C1684",
+      "set": 9,
+      "path": [
+        9,
+        "exercises",
+        3,
+        "words",
+        1
+      ],
+      "en": "photograph",
+      "ko": "① 사진",
+      "original": {
+        "ex": "This old {{BLANK}} shows my grandmother.",
+        "tr": "이 옛날 사진에 우리 할머니가 있어.",
+        "c": "photo(빛)+graph(그림). 줄여서 photo. picture는 그림도 된다."
+      },
+      "sourceHash": "98214cb64a9bad5be9955899d1c8d1218b1086d378d78f28311bfdc812342e96",
+      "proposed": {
+        "ex": "In 1953, X-ray {{BLANK}}s helped scientists understand DNA's structure.",
+        "tr": "1953년에 X선 사진은 과학자들이 DNA의 구조를 이해하는 데 도움이 되었어."
+      },
+      "completedEnglish": "In 1953, X-ray photographs helped scientists understand DNA's structure.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "S18"
+      ],
+      "sources": [
+        "https://www.genome.gov/25520255/online-education-kit-1953-dna-double-helix"
+      ],
+      "reviewNote": "photograph의 명사 복수. X선 회절 사진을 뜻하며 일반 카메라로 찍은 DNA 직접 사진이나 모형 그림이 아니다.",
+      "status": "applied_locally_not_deployed",
+      "reviewedProposal": {
+        "ex": "X-ray {{BLANK}}s helped scientists understand DNA's structure.",
+        "tr": "X선 사진은 과학자들이 DNA의 구조를 이해하는 데 도움이 되었어."
+      },
+      "timingRevision": "1953년은 구조 규명 시기이며 모든 사진의 촬영 연도라는 뜻은 아니다."
+    },
+    {
+      "number": 18,
+      "id": "C2041",
+      "set": 11,
+      "path": [
+        11,
+        "exercises",
+        8,
+        "words",
+        11
+      ],
+      "en": "supply",
+      "ko": "① 공급하다",
+      "original": {
+        "ex": "The river will {{BLANK}} water to the farms.",
+        "tr": "그 강이 농장들에 물을 공급할 거야.",
+        "c": "필요한 것을 대 주다. supply A to B = supply B with A."
+      },
+      "sourceHash": "ada9f74b660d69eb6606331d98be612f6b263f4638fc78a83dabda4146cbe6e8",
+      "proposed": {
+        "ex": "Ancient Egyptians used the Nile to {{BLANK}} water to farms.",
+        "tr": "고대 이집트인들은 농장에 물을 공급하려고 나일강을 이용했어."
+      },
+      "completedEnglish": "Ancient Egyptians used the Nile to supply water to farms.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "H03"
+      ],
+      "sources": [
+        "https://artsandculture.google.com/story/farming-in-the-nile-valley-the-british-museum/kAWxk-YaOyfgJw?hl=en"
+      ],
+      "reviewNote": "supply A to B와 강·농업 관계를 보존한다.",
+      "status": "applied_locally_not_deployed"
+    },
+    {
+      "number": 19,
+      "id": "C2060",
+      "set": 12,
+      "path": [
+        12,
+        "exercises",
+        0,
+        "words",
+        4
+      ],
+      "en": "train",
+      "ko": "① 기차",
+      "original": {
+        "ex": "The {{BLANK}} to Busan leaves at seven.",
+        "tr": "부산행 기차는 7시에 떠나.",
+        "c": ""
+      },
+      "sourceHash": "4dc9aa0874884b81dd3d32141a417e5cb4e4576dba7e92ad420b60d3102a4f50",
+      "proposed": {
+        "ex": "Steam {{BLANK}}s changed travel in the nineteenth century.",
+        "tr": "증기 기차는 19세기에 사람들이 이동하는 방식을 바꾸었어."
+      },
+      "completedEnglish": "Steam trains changed travel in the nineteenth century.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "H25"
+      ],
+      "sources": [
+        "https://openstax.org/books/world-history-volume-2/pages/9-1-the-second-industrial-revolution"
+      ],
+      "reviewNote": "기차 명사. 증기 철도가 교통에 가져온 변화를 표현한다.",
+      "status": "applied_locally_not_deployed"
+    },
+    {
+      "number": 20,
+      "id": "C2263",
+      "set": 13,
+      "path": [
+        13,
+        "exercises",
+        5,
+        "words",
+        5
+      ],
+      "en": "bomb",
+      "ko": "① 폭탄",
+      "original": {
+        "ex": "The old {{BLANK}} did not explode.",
+        "tr": "그 낡은 폭탄은 터지지 않았어.",
+        "c": "끝의 b는 묵음."
+      },
+      "sourceHash": "676c12e042a9503d4b73171109b4ffaeac5e373311ab18d89d3143981eee44c3",
+      "proposed": {
+        "ex": "In 1945, the United States dropped atomic {{BLANK}}s on Japan.",
+        "tr": "1945년에 미국은 일본에 원자폭탄을 투하했어."
+      },
+      "completedEnglish": "In 1945, the United States dropped atomic bombs on Japan.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "H37"
+      ],
+      "sources": [
+        "https://www.archives.gov/news/topics/hiroshima-nagasaki-75"
+      ],
+      "reviewNote": "drop bombs on의 결합과 행위자. 일본 항복의 유일 원인이라고 단정하지 않는다.",
+      "status": "applied_locally_not_deployed"
+    },
+    {
+      "number": 21,
+      "id": "C2273",
+      "set": 13,
+      "path": [
+        13,
+        "exercises",
+        6,
+        "words",
+        1
+      ],
+      "en": "separate",
+      "ko": "② 분리된, 별개의",
+      "original": {
+        "ex": "We sleep in {{BLANK}} rooms.",
+        "tr": "우린 별개의 방에서 자.",
+        "c": "형용사 발음은 [세퍼럿]: 끝이 짧다. 동사[레이트]와 구분!"
+      },
+      "sourceHash": "b200581d3c1de2c1fefcf29c02c111737a7547fe76092c99db7c50cf14886cfc",
+      "proposed": {
+        "ex": "India and Pakistan became {{BLANK}} countries in 1947.",
+        "tr": "인도와 파키스탄은 1947년에 별개의 나라가 되었어."
+      },
+      "completedEnglish": "India and Pakistan became separate countries in 1947.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "H40"
+      ],
+      "sources": [
+        "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/"
+      ],
+      "reviewNote": "separate countries의 형용사. 현재 형용사·동사 발음 대비 해설과 양립한다.",
+      "status": "applied_locally_not_deployed"
+    },
+    {
+      "number": 22,
+      "id": "C2870",
+      "set": 18,
+      "path": [
+        18,
+        "exercises",
+        0,
+        "words",
+        6
+      ],
+      "en": "flood",
+      "ko": "① 홍수",
+      "original": {
+        "ex": "The {{BLANK}} destroyed many houses last summer.",
+        "tr": "지난여름 홍수로 집이 많이 부서졌어.",
+        "c": "oo를 /ʌ/로 발음한다."
+      },
+      "sourceHash": "cf273a5c451913dd3e5a5d60ce2715aed69f7713e443597ec31ef3f63927e12f",
+      "proposed": {
+        "ex": "The Nile's annual {{BLANK}} left fertile soil for ancient Egyptian farmers.",
+        "tr": "해마다 일어난 나일강의 홍수는 고대 이집트 농민들에게 비옥한 흙을 남겼어."
+      },
+      "completedEnglish": "The Nile's annual flood left fertile soil for ancient Egyptian farmers.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "H03"
+      ],
+      "sources": [
+        "https://artsandculture.google.com/story/farming-in-the-nile-valley-the-british-museum/kAWxk-YaOyfgJw?hl=en"
+      ],
+      "reviewNote": "명사 flood. 고대의 범람과 농업 관계로 한정해 현대 댐 이후 상태와 구별한다.",
+      "status": "applied_locally_not_deployed"
+    },
+    {
+      "number": 23,
+      "id": "C3667",
+      "set": 24,
+      "path": [
+        24,
+        "exercises",
+        6,
+        "words",
+        9
+      ],
+      "en": "democracy",
+      "ko": "① 민주주의",
+      "original": {
+        "ex": "In a {{BLANK}}, people choose their leaders.",
+        "tr": "민주주의에서는 사람들이 지도자를 뽑아.",
+        "c": "그리스어 demos(민중)+kratia(지배). 강세 주의."
+      },
+      "sourceHash": "b71fa096106015493d8c0fc0bad59db0dae50c9a50fe814552a563797ab2f4cb",
+      "proposed": {
+        "ex": "In fifth-century BCE Athenian {{BLANK}}, women could not vote.",
+        "tr": "기원전 5세기 아테네 민주정에서 여성은 투표할 수 없었어."
+      },
+      "completedEnglish": "In fifth-century BCE Athenian democracy, women could not vote.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "H04"
+      ],
+      "sources": [
+        "https://openstax.org/books/business-ethics/pages/2-1-the-concept-of-ethical-business-in-ancient-athens"
+      ],
+      "reviewNote": "정치 체제 명사. 고대 민주정의 제한을 다루며 현대 보통선거와 구별한다.",
+      "status": "applied_locally_not_deployed",
+      "reviewedProposal": {
+        "ex": "In ancient Athenian {{BLANK}}, women could not vote.",
+        "tr": "고대 아테네 민주정에서 여성은 투표할 수 없었어."
+      },
+      "timingRevision": "해당 시대의 참여 제한. 민주정이 그때 처음 시작됐다고 단정하지 않는다."
+    },
+    {
+      "number": 24,
+      "id": "C3739",
+      "set": 25,
+      "path": [
+        25,
+        "exercises",
+        1,
+        "words",
+        15
+      ],
+      "en": "interaction",
+      "ko": "① 상호 작용, 교류",
+      "original": {
+        "ex": "Games need {{BLANK}} between players to stay fun.",
+        "tr": "게임이 재미있으려면 플레이어들 사이의 상호 작용이 필요해.",
+        "c": "interaction between A and B. inter-(사이)+act(행동)에서 왔다."
+      },
+      "sourceHash": "8fa6ed96ec53d280515baff8585ea4e3a8eb334c35652f4fcd18612cb1ca4418",
+      "proposed": {
+        "ex": "Silk Road trade encouraged {{BLANK}} between cultures in ancient and medieval times.",
+        "tr": "고대와 중세에 실크로드 무역은 문화 사이의 교류를 촉진했어."
+      },
+      "completedEnglish": "Silk Road trade encouraged interaction between cultures in ancient and medieval times.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "H08"
+      ],
+      "sources": [
+        "https://www.unesco.org/en/silk-roads/about-silk-roads?hub=196704"
+      ],
+      "reviewNote": "interaction between의 결합을 보존한다.",
+      "status": "applied_locally_not_deployed",
+      "reviewedProposal": {
+        "ex": "Silk Road trade encouraged {{BLANK}} between different cultures.",
+        "tr": "실크로드 무역은 서로 다른 문화 사이의 교류를 촉진했어."
+      },
+      "timingRevision": "network·trade와 같은 역사 소재를 상호 교류 의미로 반복한다."
+    },
+    {
+      "number": 25,
+      "id": "C3787",
+      "set": 25,
+      "path": [
+        25,
+        "exercises",
+        5,
+        "words",
+        5
+      ],
+      "en": "vast",
+      "ko": "① 광대한, 막대한",
+      "original": {
+        "ex": "A {{BLANK}} field of grass lay behind the school.",
+        "tr": "학교 뒤에 광대한 풀밭이 펼쳐져 있었어.",
+        "c": "a vast amount of ~(엄청난 양의). huge보다 넓이를 강조한다."
+      },
+      "sourceHash": "a848a1d3449905a46ab2fe67d75387974f8ba945808221199f880ea991d6d824",
+      "proposed": {
+        "ex": "In the 13th century, the Mongols' {{BLANK}} empire stretched from Asia into Europe.",
+        "tr": "13세기에 몽골인들의 광대한 제국은 아시아에서 유럽까지 뻗어 있었어."
+      },
+      "completedEnglish": "In the 13th century, the Mongols' vast empire stretched from Asia into Europe.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "H09"
+      ],
+      "sources": [
+        "https://www.metmuseum.org/essays/the-legacy-of-genghis-khan"
+      ],
+      "reviewNote": "vast의 공간적 넓이. 유럽 전체 정복이나 최대라는 주장은 하지 않는다.",
+      "status": "applied_locally_not_deployed",
+      "reviewedProposal": {
+        "ex": "The Mongols built a {{BLANK}} empire stretching from Asia into Europe.",
+        "tr": "몽골인들은 아시아에서 유럽까지 뻗은 광대한 제국을 세웠어."
+      },
+      "timingRevision": "현대 몽골인에 관한 설명으로 읽히지 않도록 13세기를 명시한다."
+    },
+    {
+      "number": 26,
+      "id": "C4250",
+      "set": 29,
+      "path": [
+        29,
+        "exercises",
+        0,
+        "words",
+        1
+      ],
+      "en": "manufacturing",
+      "ko": "① 제조업, 제조",
+      "original": {
+        "ex": "My uncle got a job in car {{BLANK}}.",
+        "tr": "우리 삼촌은 자동차 제조업 쪽에 취직했어.",
+        "c": "산업 전체를 가리킨다."
+      },
+      "sourceHash": "68643225cac2ae61292689bed504f7855c812a40c30c0f2494333bec7103459a",
+      "proposed": {
+        "ex": "In 18th- and 19th-century Britain, steam-powered machines transformed {{BLANK}}.",
+        "tr": "18~19세기 영국에서 증기로 움직이는 기계들이 제조업을 바꾸어 놓았어."
+      },
+      "completedEnglish": "In 18th- and 19th-century Britain, steam-powered machines transformed manufacturing.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "H24"
+      ],
+      "sources": [
+        "https://openstax.org/books/world-history-volume-2/pages/9-1-the-second-industrial-revolution",
+        "https://blog.sciencemuseum.org.uk/steaming-through-the-centuries/"
+      ],
+      "reviewNote": "산업 전체를 가리키는 불가산명사. 모든 초기 공장이 증기를 사용했다고 확대하지 않는다.",
+      "status": "applied_locally_not_deployed",
+      "reviewedProposal": {
+        "ex": "Steam-powered machines transformed {{BLANK}} during Britain's Industrial Revolution.",
+        "tr": "영국의 산업혁명 시기에 증기로 움직이는 기계들이 제조업을 바꾸어 놓았어."
+      },
+      "timingRevision": "점진적인 제조업 변화를 한 해의 발명·완료 사건으로 만들지 않는다."
+    },
+    {
+      "number": 27,
+      "id": "C4339",
+      "set": 29,
+      "path": [
+        29,
+        "exercises",
+        6,
+        "words",
+        7
+      ],
+      "en": "telescope",
+      "ko": "① 망원경",
+      "original": {
+        "ex": "We watched the moon through a {{BLANK}}.",
+        "tr": "우리는 망원경으로 달을 봤어.",
+        "c": "tele(멀리)+scope(보는 기구). 작은 것은 microscope."
+      },
+      "sourceHash": "55a35aa613c32c2a9281d79afc9a664de885a8807fc3b75d3f74411e0bc44d00",
+      "proposed": {
+        "ex": "In 1610, Galileo saw four moons orbiting Jupiter through a {{BLANK}}.",
+        "tr": "1610년 갈릴레오는 망원경으로 목성 주위를 도는 위성 네 개를 보았어."
+      },
+      "completedEnglish": "In 1610, Galileo saw four moons orbiting Jupiter through a telescope.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "S04"
+      ],
+      "sources": [
+        "https://www.nasa.gov/general/415-years-ago-astronomer-galileo-discovers-jupiters-moons/"
+      ],
+      "reviewNote": "through a telescope의 결합. 여러 날의 관측을 요약하며 망원경의 발명자라고 주장하지 않는다.",
+      "status": "applied_locally_not_deployed",
+      "reviewedProposal": {
+        "ex": "Through a {{BLANK}}, Galileo saw four moons orbiting Jupiter.",
+        "tr": "갈릴레오는 망원경으로 목성 주위를 도는 위성 네 개를 보았어."
+      },
+      "timingRevision": "1610년 1월의 여러 날에 걸친 관측이다."
+    },
+    {
+      "number": 28,
+      "id": "C2913",
+      "set": 18,
+      "path": [
+        18,
+        "exercises",
+        3,
+        "words",
+        11
+      ],
+      "en": "oxygen",
+      "ko": "① 산소",
+      "original": {
+        "ex": "There is less {{BLANK}} high in the mountains.",
+        "tr": "높은 산에서는 산소가 부족해.",
+        "c": ""
+      },
+      "sourceHash": "fec1bbf62a9174c4f97fb3630c67d834fcc90b1b911766f54b7fd7f231908b7d",
+      "proposed": {
+        "ex": "In the 1770s, Lavoisier explained the role of {{BLANK}} in burning.",
+        "tr": "1770년대에 라부아지에는 연소에서 산소가 하는 역할을 설명했어."
+      },
+      "completedEnglish": "In the 1770s, Lavoisier explained the role of oxygen in burning.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "S07"
+      ],
+      "sources": [
+        "https://www.acs.org/education/whatischemistry/landmarks/lavoisier.html"
+      ],
+      "reviewNote": "물질명 불가산명사. 산소 최초 발견 주장 없음. 초안의 combustion을 burning으로 바꿔 주변 어휘 부담을 줄였다.",
+      "status": "applied_locally_not_deployed",
+      "reviewedProposal": {
+        "ex": "Lavoisier explained the role of {{BLANK}} in burning.",
+        "tr": "라부아지에는 연소에서 산소가 하는 역할을 설명했어."
+      },
+      "timingRevision": "1772~1777년 연구·실험·이론 발전에 맞춘 연대이며 burning의 쉬운 표현을 유지한다."
+    },
+    {
+      "number": 29,
+      "id": "C3463",
+      "set": 23,
+      "path": [
+        23,
+        "exercises",
+        1,
+        "words",
+        0
+      ],
+      "en": "data",
+      "ko": "① 자료, 데이터",
+      "original": {
+        "ex": "The app keeps all my {{BLANK}} on the phone.",
+        "tr": "그 앱은 내 데이터를 전부 폰에 저장해.",
+        "c": "라틴어 복수형. 요즘은 단수 취급(The data is ~)도 널리 쓴다."
+      },
+      "sourceHash": "1731be8d517db5a819e741929ef59cb091f2cc7d0d565ffe05100d095d1371e2",
+      "proposed": {
+        "ex": "In 1953, X-ray {{BLANK}} helped scientists understand DNA's structure.",
+        "tr": "1953년에 X선 자료는 과학자들이 DNA의 구조를 이해하는 데 도움이 되었어."
+      },
+      "completedEnglish": "In 1953, X-ray data helped scientists understand DNA's structure.",
+      "origin": "new_history_proposal",
+      "factIds": [
+        "S18"
+      ],
+      "sources": [
+        "https://www.genome.gov/25520255/online-education-kit-1953-dna-double-helix"
+      ],
+      "reviewNote": "사용자가 영어·해석을 확인한 난도 단순화안. double-helix를 쉬운 표현으로 바꿨으며 사건·연대·목표 뜻을 유지한다.",
+      "status": "applied_locally_not_deployed",
+      "reviewedProposal": {
+        "ex": "X-ray {{BLANK}} helped reveal DNA's double-helix structure.",
+        "tr": "X선 자료는 DNA의 이중 나선 구조를 밝히는 데 도움을 주었어."
+      },
+      "timingRevision": "1953년 구조 규명 시점. 이미 줄인 인명은 다시 추가하지 않는다.",
+      "appliedBeforeApprovedSimplification": {
+        "proposed": {
+          "ex": "In 1953, X-ray {{BLANK}} helped reveal DNA's double-helix structure.",
+          "tr": "1953년에 X선 자료는 DNA의 이중 나선 구조를 밝히는 데 도움을 주었어."
+        },
+        "reviewNote": "연구 자료 명사. 인명 두 개를 생략해 짧게 줄였으며 자료가 구조 규명에 기여했다는 범위를 지킨다."
+      },
+      "difficultyRevision": "difficulty-revision-02.json"
+    },
+    {
+      "number": 30,
+      "id": "C4594",
+      "set": 31,
+      "path": [
+        31,
+        "exercises",
+        5,
+        "words",
+        4
+      ],
+      "en": "earthquake",
+      "ko": "① 지진",
+      "original": {
+        "ex": "A small {{BLANK}} shook our whole apartment.",
+        "tr": "작은 지진이 우리 아파트 전체를 흔들었어.",
+        "c": "earth(땅)+quake(흔들림). 구어로 quake만 쓰기도 한다."
+      },
+      "sourceHash": "41c3cf4e9810dcd4ab1cf05ce252e2ab97c2fdc5701e1a17bd9e35c352d20dfb",
+      "proposed": {
+        "ex": "A strong {{BLANK}} hit San Francisco in 1906.",
+        "tr": "1906년에 강한 지진이 샌프란시스코를 강타했어."
+      },
+      "completedEnglish": "A strong earthquake hit San Francisco in 1906.",
+      "origin": "new_history_proposal",
+      "factIds": [],
+      "sources": [
+        "https://earthquake.usgs.gov/earthquakes/events/1906calif/18april/"
+      ],
+      "reviewNote": "earthquake의 뜻은 strong + hit + 익숙한 도시명으로 파악한다. plate tectonics, cluster, plate boundaries를 제거했다.",
+      "status": "applied_locally_not_deployed",
+      "reviewedProposal": {
+        "ex": "Plate tectonics helped explain why {{BLANK}}s cluster near plate boundaries.",
+        "tr": "판구조론은 지진이 왜 판 경계 부근에 집중되는지 설명하는 데 도움을 주었어."
+      },
+      "timingRevision": "1906년을 명시한다. 기존 1960년대 판구조론 문장은 난도 피드백으로 대체했다.",
+      "appliedBeforeDifficultyRevision": {
+        "proposed": {
+          "ex": "Plate tectonics, developed in the 1960s, helped explain why {{BLANK}}s cluster near plate boundaries.",
+          "tr": "1960년대에 발전한 판구조론은 지진이 왜 판 경계 부근에 집중되는지 설명하는 데 도움을 주었어."
+        },
+        "completedEnglish": "Plate tectonics, developed in the 1960s, helped explain why earthquakes cluster near plate boundaries.",
+        "factIds": [
+          "S19"
+        ],
+        "sources": [
+          "https://www.usgs.gov/publications/earthquakes-and-plate-tectonics",
+          "https://volcanoes.usgs.gov/about/edu/dynamicplanet/nutshell.php"
+        ],
+        "reviewNote": "earthquake+s의 정상 복수. 모든 지진이 경계에서만 발생한다고 단정하지 않는다.",
+        "timingRevision": "1960년대는 이론 발전 시기이며 지진 발생 시기나 모든 지진의 위치를 제한하지 않는다."
+      },
+      "supplementalFact": {
+        "claim": "A strong earthquake hit San Francisco in 1906.",
+        "sources": [
+          "https://earthquake.usgs.gov/earthquakes/events/1906calif/18april/"
+        ],
+        "checkedDate": "2026-10-07",
+        "note": "USGS verifies the major earthquake on 18 April 1906. No size, casualty count or fire-only damage is attributed to shaking."
+      },
+      "difficultyRevision": "difficulty-revision-01.json"
+    }
+  ],
+  "timingRevisedCards": 15,
+  "changedCards": 30,
+  "currentDataHash": "c4f71f2424643f10ff5f1932fde09fd212167b25a5590927f95411400600ff47",
+  "appliedDate": "2026-10-07",
+  "revisions": [
+    "difficulty-revision-01.json",
+    "difficulty-revision-02.json"
+  ]
+}

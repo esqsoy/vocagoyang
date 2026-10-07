@@ -1,0 +1,2628 @@
+{
+  "date": "2026-10-07",
+  "batch": 1,
+  "status": "applied_locally_not_deployed",
+  "authorization": "확인했어. 역사 시기를 알려주는게 좋을거 같아 이를테면 25번의 경우는 현대몽골인들 이야기가 아니니까 그리고 연대가 나오는 역사적 사실은 연대를 명시하는게 도움이 돼",
+  "reviewedCards": 30,
+  "changedCards": 29,
+  "changedFields": 62,
+  "timingRevisedProposalCards": 15,
+  "sourceChanges": [
+    {
+      "file": "pipeline/out/set43.json",
+      "exercise": 5,
+      "word": "eleventh",
+      "si": 1,
+      "sourcePath": [
+        4,
+        "words",
+        0,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "Germany signed an armistice on November {{BLANK}}, 1918.",
+      "new": "Germany signed the World War I armistice on November {{BLANK}}, 1918.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set43.json",
+      "exercise": 5,
+      "word": "eleventh",
+      "si": 1,
+      "sourcePath": [
+        4,
+        "words",
+        0,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "독일은 1918년 11월 11일에 휴전 협정에 서명했어.",
+      "new": "독일은 1918년 11월 11일에 제1차 세계대전 휴전 협정에 서명했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set43.json",
+      "exercise": 2,
+      "word": "twelfth",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        12,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "Yuri Gagarin became the first human in space on April {{BLANK}}, 1961.",
+      "new": "Columbus reached the Americas on October {{BLANK}}, 1492.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set43.json",
+      "exercise": 2,
+      "word": "twelfth",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        12,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "유리 가가린은 1961년 4월 12일에 인류 최초로 우주에 갔어.",
+      "new": "콜럼버스는 1492년 10월 12일에 아메리카에 도착했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "thirteenth",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        3,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "Construction of the Berlin Wall began on August {{BLANK}}, 1961.",
+      "new": "The Mongol Empire expanded across much of Eurasia in the {{BLANK}} century.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "thirteenth",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        3,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "베를린 장벽 건설은 1961년 8월 13일에 시작됐어.",
+      "new": "몽골 제국은 13세기에 유라시아의 넓은 지역으로 세력을 확대했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "thirteenth",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        3,
+        "c"
+      ],
+      "field": "c",
+      "old": "13th. August thirteenth = the thirteenth of August(8월 13일).",
+      "new": "13th. 세기는 서수로 읽는다.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 4,
+      "word": "fifteenth",
+      "si": 1,
+      "sourcePath": [
+        3,
+        "words",
+        8,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "Korea was freed from Japanese rule on August {{BLANK}}, 1945.",
+      "new": "Japan announced its surrender on August {{BLANK}}, 1945.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 4,
+      "word": "fifteenth",
+      "si": 1,
+      "sourcePath": [
+        3,
+        "words",
+        8,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "한국은 1945년 8월 15일에 일본의 지배에서 해방됐어.",
+      "new": "일본은 1945년 8월 15일에 항복을 발표했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "seventeenth",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        8,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "South Korea's first constitution was proclaimed on July {{BLANK}}, 1948.",
+      "new": "The Scientific Revolution transformed European thought in the {{BLANK}} century.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "seventeenth",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        8,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "대한민국의 제헌헌법은 1948년 7월 17일에 공포됐어.",
+      "new": "17세기의 과학혁명은 유럽의 사고방식을 바꾸었어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set43.json",
+      "exercise": 4,
+      "word": "eighteenth",
+      "si": 1,
+      "sourcePath": [
+        3,
+        "words",
+        12,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "The Gwangju Uprising began on the {{BLANK}} of May, 1980.",
+      "new": "The Industrial Revolution began in Britain in the {{BLANK}} century.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set43.json",
+      "exercise": 4,
+      "word": "eighteenth",
+      "si": 1,
+      "sourcePath": [
+        3,
+        "words",
+        12,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "광주민주화운동은 1980년 5월 18일에 시작됐어.",
+      "new": "산업혁명은 18세기에 영국에서 시작됐어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set40.json",
+      "exercise": 9,
+      "word": "nineteenth",
+      "si": 1,
+      "sourcePath": [
+        8,
+        "words",
+        3,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "Koreans protested against dictatorship on April {{BLANK}}, 1960.",
+      "new": "European powers colonized much of Africa in the late {{BLANK}} century.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set40.json",
+      "exercise": 9,
+      "word": "nineteenth",
+      "si": 1,
+      "sourcePath": [
+        8,
+        "words",
+        3,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "1960년 4월 19일, 한국인들이 독재에 맞서 시위했어.",
+      "new": "유럽 열강은 19세기 후반 아프리카의 넓은 지역을 식민지로 삼았어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set40.json",
+      "exercise": 9,
+      "word": "nineteenth",
+      "si": 1,
+      "sourcePath": [
+        8,
+        "words",
+        3,
+        "c"
+      ],
+      "field": "c",
+      "old": "19th. 예문은 4·19혁명 당시의 시위를 말한다.",
+      "new": "19th. the late nineteenth century는 19세기 후반.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set40.json",
+      "exercise": 4,
+      "word": "twentieth",
+      "si": 1,
+      "sourcePath": [
+        3,
+        "words",
+        9,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "Apollo 11 landed on the Moon on July {{BLANK}}, 1969.",
+      "new": "The two world wars (1914–1918 and 1939–1945) took place in the {{BLANK}} century.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set40.json",
+      "exercise": 4,
+      "word": "twentieth",
+      "si": 1,
+      "sourcePath": [
+        3,
+        "words",
+        9,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "아폴로 11호는 1969년 7월 20일에 달에 착륙했어.",
+      "new": "두 차례의 세계대전(1914~1918년, 1939~1945년)은 20세기에 일어났어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set40.json",
+      "exercise": 4,
+      "word": "twentieth",
+      "si": 1,
+      "sourcePath": [
+        3,
+        "words",
+        9,
+        "c"
+      ],
+      "field": "c",
+      "old": "twenty의 y가 ie로 바뀐다. 달 착륙은 UTC 기준 7월 20일(한국 시간 21일).",
+      "new": "twenty의 y가 ie로 바뀐다.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "exercise": 4,
+      "word": "land",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        3,
+        "words",
+        4,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "The plane will {{BLANK}} in ten minutes.",
+      "new": "Humans first {{BLANK}}ed on the moon in 1969.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "exercise": 4,
+      "word": "land",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        3,
+        "words",
+        4,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "비행기가 10분 뒤에 착륙해.",
+      "new": "인간은 1969년에 처음으로 달에 착륙했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set06.json",
+      "exercise": 10,
+      "word": "produce",
+      "si": 1,
+      "sourcePath": [
+        9,
+        "words",
+        4,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "The farm {{BLANK}}s 1,000 eggs a day.",
+      "new": "In the 18th and 19th centuries, British factories used machines to {{BLANK}} goods.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set06.json",
+      "exercise": 10,
+      "word": "produce",
+      "si": 1,
+      "sourcePath": [
+        9,
+        "words",
+        4,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "그 농장은 하루에 달걀 1,000개를 생산해.",
+      "new": "18~19세기 영국 공장들은 기계를 이용해 상품을 생산했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set07.json",
+      "exercise": 9,
+      "word": "knowledge",
+      "si": 1,
+      "sourcePath": [
+        8,
+        "words",
+        1,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "She has a deep {{BLANK}} of Korean history.",
+      "new": "From the 15th century onward, printing helped spread {{BLANK}} across Europe.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set07.json",
+      "exercise": 9,
+      "word": "knowledge",
+      "si": 1,
+      "sourcePath": [
+        8,
+        "words",
+        1,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "걔는 한국사 지식이 깊어.",
+      "new": "15세기부터 인쇄술은 유럽 전역에 지식을 퍼뜨리는 데 도움이 되었어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set07.json",
+      "exercise": 9,
+      "word": "knowledge",
+      "si": 1,
+      "sourcePath": [
+        8,
+        "words",
+        1,
+        "c"
+      ],
+      "field": "c",
+      "old": "know(알다)와 관련된 명사. k는 묵음. knowledge of history는 역사에 관한 지식.",
+      "new": "know(알다)와 관련된 명사. k는 묵음. knowledge of ~: ~에 관한 지식.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set08.json",
+      "exercise": 1,
+      "word": "network",
+      "si": 1,
+      "sourcePath": [
+        0,
+        "words",
+        9,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "The subway {{BLANK}} in Seoul is very large.",
+      "new": "In ancient and medieval times, the Silk Roads were a {{BLANK}} of trade routes.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set08.json",
+      "exercise": 1,
+      "word": "network",
+      "si": 1,
+      "sourcePath": [
+        0,
+        "words",
+        9,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "서울 지하철망은 정말 크다.",
+      "new": "고대와 중세에 실크로드는 교역로의 연결망이었어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set08.json",
+      "exercise": 8,
+      "word": "trade",
+      "si": 1,
+      "sourcePath": [
+        7,
+        "words",
+        2,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "{{BLANK}} between the two countries grew fast.",
+      "new": "In ancient and medieval times, Silk Road {{BLANK}} spread both goods and ideas.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set08.json",
+      "exercise": 8,
+      "word": "trade",
+      "si": 1,
+      "sourcePath": [
+        7,
+        "words",
+        2,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "두 나라 사이 무역이 빠르게 늘었다.",
+      "new": "고대와 중세에 실크로드 무역을 통해 물품과 사상이 함께 퍼졌어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set08.json",
+      "exercise": 9,
+      "word": "establish",
+      "si": 1,
+      "sourcePath": [
+        8,
+        "words",
+        10,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "They {{BLANK}}ed the school in 1990.",
+      "new": "The United Nations was {{BLANK}}ed in 1945, after World War II.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set08.json",
+      "exercise": 9,
+      "word": "establish",
+      "si": 1,
+      "sourcePath": [
+        8,
+        "words",
+        10,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "그들은 1990년에 그 학교를 설립했어.",
+      "new": "국제연합은 제2차 세계대전이 끝난 뒤인 1945년에 설립되었어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set09.json",
+      "exercise": 2,
+      "word": "structure",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        6,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "Look at the {{BLANK}} of this sentence.",
+      "new": "In 1953, scientists proposed a model of DNA's double-helix {{BLANK}}.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set09.json",
+      "exercise": 2,
+      "word": "structure",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        6,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "이 문장의 구조를 봐.",
+      "new": "1953년에 과학자들은 DNA의 이중 나선 구조 모형을 제안했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set09.json",
+      "exercise": 4,
+      "word": "photograph",
+      "si": 1,
+      "sourcePath": [
+        3,
+        "words",
+        1,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "This old {{BLANK}} shows my grandmother.",
+      "new": "In 1953, X-ray {{BLANK}}s helped scientists understand DNA's structure.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set09.json",
+      "exercise": 4,
+      "word": "photograph",
+      "si": 1,
+      "sourcePath": [
+        3,
+        "words",
+        1,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "이 옛날 사진에 우리 할머니가 있어.",
+      "new": "1953년에 X선 사진은 과학자들이 DNA의 구조를 이해하는 데 도움이 되었어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set11.json",
+      "exercise": 9,
+      "word": "supply",
+      "si": 1,
+      "sourcePath": [
+        8,
+        "words",
+        11,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "The river will {{BLANK}} water to the farms.",
+      "new": "Ancient Egyptians used the Nile to {{BLANK}} water to farms.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set11.json",
+      "exercise": 9,
+      "word": "supply",
+      "si": 1,
+      "sourcePath": [
+        8,
+        "words",
+        11,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "그 강이 농장들에 물을 공급할 거야.",
+      "new": "고대 이집트인들은 농장에 물을 공급하려고 나일강을 이용했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set12.json",
+      "exercise": 1,
+      "word": "train",
+      "si": 1,
+      "sourcePath": [
+        0,
+        "words",
+        4,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "The {{BLANK}} to Busan leaves at seven.",
+      "new": "Steam {{BLANK}}s changed travel in the nineteenth century.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set12.json",
+      "exercise": 1,
+      "word": "train",
+      "si": 1,
+      "sourcePath": [
+        0,
+        "words",
+        4,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "부산행 기차는 7시에 떠나.",
+      "new": "증기 기차는 19세기에 사람들이 이동하는 방식을 바꾸었어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set13.json",
+      "exercise": 6,
+      "word": "bomb",
+      "si": 1,
+      "sourcePath": [
+        5,
+        "words",
+        5,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "The old {{BLANK}} did not explode.",
+      "new": "In 1945, the United States dropped atomic {{BLANK}}s on Japan.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set13.json",
+      "exercise": 6,
+      "word": "bomb",
+      "si": 1,
+      "sourcePath": [
+        5,
+        "words",
+        5,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "그 낡은 폭탄은 터지지 않았어.",
+      "new": "1945년에 미국은 일본에 원자폭탄을 투하했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set13.json",
+      "exercise": 7,
+      "word": "separate",
+      "si": 2,
+      "sourcePath": [
+        6,
+        "words",
+        1,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "We sleep in {{BLANK}} rooms.",
+      "new": "India and Pakistan became {{BLANK}} countries in 1947.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set13.json",
+      "exercise": 7,
+      "word": "separate",
+      "si": 2,
+      "sourcePath": [
+        6,
+        "words",
+        1,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "우린 별개의 방에서 자.",
+      "new": "인도와 파키스탄은 1947년에 별개의 나라가 되었어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set18.json",
+      "exercise": 1,
+      "word": "flood",
+      "si": 1,
+      "sourcePath": [
+        0,
+        "words",
+        7,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "The {{BLANK}} destroyed many houses last summer.",
+      "new": "The Nile's annual {{BLANK}} left fertile soil for ancient Egyptian farmers.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set18.json",
+      "exercise": 1,
+      "word": "flood",
+      "si": 1,
+      "sourcePath": [
+        0,
+        "words",
+        7,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "지난여름 홍수로 집이 많이 부서졌어.",
+      "new": "해마다 일어난 나일강의 홍수는 고대 이집트 농민들에게 비옥한 흙을 남겼어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set24.json",
+      "exercise": 7,
+      "word": "democracy",
+      "si": 1,
+      "sourcePath": [
+        6,
+        "words",
+        9,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "In a {{BLANK}}, people choose their leaders.",
+      "new": "In fifth-century BCE Athenian {{BLANK}}, women could not vote.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set24.json",
+      "exercise": 7,
+      "word": "democracy",
+      "si": 1,
+      "sourcePath": [
+        6,
+        "words",
+        9,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "민주주의에서는 사람들이 지도자를 뽑아.",
+      "new": "기원전 5세기 아테네 민주정에서 여성은 투표할 수 없었어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set25.json",
+      "exercise": 2,
+      "word": "interaction",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        15,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "Games need {{BLANK}} between players to stay fun.",
+      "new": "Silk Road trade encouraged {{BLANK}} between cultures in ancient and medieval times.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set25.json",
+      "exercise": 2,
+      "word": "interaction",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        15,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "게임이 재미있으려면 플레이어들 사이의 상호 작용이 필요해.",
+      "new": "고대와 중세에 실크로드 무역은 문화 사이의 교류를 촉진했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set25.json",
+      "exercise": 6,
+      "word": "vast",
+      "si": 1,
+      "sourcePath": [
+        5,
+        "words",
+        5,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "A {{BLANK}} field of grass lay behind the school.",
+      "new": "In the 13th century, the Mongols' {{BLANK}} empire stretched from Asia into Europe.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set25.json",
+      "exercise": 6,
+      "word": "vast",
+      "si": 1,
+      "sourcePath": [
+        5,
+        "words",
+        5,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "학교 뒤에 광대한 풀밭이 펼쳐져 있었어.",
+      "new": "13세기에 몽골인들의 광대한 제국은 아시아에서 유럽까지 뻗어 있었어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set29.json",
+      "exercise": 1,
+      "word": "manufacturing",
+      "si": 1,
+      "sourcePath": [
+        0,
+        "words",
+        1,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "My uncle got a job in car {{BLANK}}.",
+      "new": "In 18th- and 19th-century Britain, steam-powered machines transformed {{BLANK}}.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set29.json",
+      "exercise": 1,
+      "word": "manufacturing",
+      "si": 1,
+      "sourcePath": [
+        0,
+        "words",
+        1,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "우리 삼촌은 자동차 제조업 쪽에 취직했어.",
+      "new": "18~19세기 영국에서 증기로 움직이는 기계들이 제조업을 바꾸어 놓았어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set29.json",
+      "exercise": 7,
+      "word": "telescope",
+      "si": 1,
+      "sourcePath": [
+        6,
+        "words",
+        7,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "We watched the moon through a {{BLANK}}.",
+      "new": "In 1610, Galileo saw four moons orbiting Jupiter through a {{BLANK}}.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set29.json",
+      "exercise": 7,
+      "word": "telescope",
+      "si": 1,
+      "sourcePath": [
+        6,
+        "words",
+        7,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "우리는 망원경으로 달을 봤어.",
+      "new": "1610년 갈릴레오는 망원경으로 목성 주위를 도는 위성 네 개를 보았어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set18.json",
+      "exercise": 4,
+      "word": "oxygen",
+      "si": 1,
+      "sourcePath": [
+        3,
+        "words",
+        11,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "There is less {{BLANK}} high in the mountains.",
+      "new": "In the 1770s, Lavoisier explained the role of {{BLANK}} in burning.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set18.json",
+      "exercise": 4,
+      "word": "oxygen",
+      "si": 1,
+      "sourcePath": [
+        3,
+        "words",
+        11,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "높은 산에서는 산소가 부족해.",
+      "new": "1770년대에 라부아지에는 연소에서 산소가 하는 역할을 설명했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set23.json",
+      "exercise": 2,
+      "word": "data",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        0,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "The app keeps all my {{BLANK}} on the phone.",
+      "new": "In 1953, X-ray {{BLANK}} helped reveal DNA's double-helix structure.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set23.json",
+      "exercise": 2,
+      "word": "data",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        0,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "그 앱은 내 데이터를 전부 폰에 저장해.",
+      "new": "1953년에 X선 자료는 DNA의 이중 나선 구조를 밝히는 데 도움을 주었어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set31.json",
+      "exercise": 6,
+      "word": "earthquake",
+      "si": 1,
+      "sourcePath": [
+        5,
+        "words",
+        4,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "A small {{BLANK}} shook our whole apartment.",
+      "new": "Plate tectonics, developed in the 1960s, helped explain why {{BLANK}}s cluster near plate boundaries.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set31.json",
+      "exercise": 6,
+      "word": "earthquake",
+      "si": 1,
+      "sourcePath": [
+        5,
+        "words",
+        4,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "작은 지진이 우리 아파트 전체를 흔들었어.",
+      "new": "1960년대에 발전한 판구조론은 지진이 왜 판 경계 부근에 집중되는지 설명하는 데 도움을 주었어.",
+      "oldExists": true,
+      "newExists": true
+    }
+  ],
+  "sourceSnapshots": {
+    "pipeline/out/lesson04.json": {
+      "beforeHash": "a64cdbaa9f2efb9c1f07e56a1c443b09ca626bbf2dbac1892511cbfe1aee6cd8",
+      "afterHash": "0894da11906506df6d449f9ee004bb3831d33a4349024e4860129455e1b983a4"
+    },
+    "pipeline/out/set06.json": {
+      "beforeHash": "c4f030dd21025710fdf7af729108f5fc2f8336df3649dba93abfb8afa2a8b3ad",
+      "afterHash": "85ee8b78b5a9b1af64b320d3f2b74c1bf32a704b6f44f95b6464155067a927ca"
+    },
+    "pipeline/out/set07.json": {
+      "beforeHash": "6a867ee30f64e87ce7a960431aedef77269012649027372e0b41760b45e6b396",
+      "afterHash": "5e2e20606fa3424d4a4d34c0e503402e83eb04e24d0112adcea73fce98a8248d"
+    },
+    "pipeline/out/set08.json": {
+      "beforeHash": "ad5877d1cba1ddd8c1c09d52bb2b089802372541a8c69e405ac2e900e637a53a",
+      "afterHash": "58d9b32a2f8cb9c47b72f6b522467c98f7a6f493a24f7a712c58799acb478a1b"
+    },
+    "pipeline/out/set09.json": {
+      "beforeHash": "f36fa0ded06d319490e24534396a596426fa214a22d821dbd718bb8a030f79c1",
+      "afterHash": "3d39a5c22c39eed8c6734e760726952f25a0c3fdd0feadab893c68883970e849"
+    },
+    "pipeline/out/set11.json": {
+      "beforeHash": "146c59509e5814d7e68e4b01ea06f290c7bb389575b983c39bbf7227975044aa",
+      "afterHash": "129449fa8c9ff6c80361fec988c58d946ef803c0de302f88fd78684268a2030f"
+    },
+    "pipeline/out/set12.json": {
+      "beforeHash": "4a65e2705325c0eb1b27031fb379355ab48a49a5407b7d7f5b0f4dcaaba70794",
+      "afterHash": "f1f10d6a3549b2e2cf54198581141acb9dbddae5c86580bd4bfdbd995476f603"
+    },
+    "pipeline/out/set13.json": {
+      "beforeHash": "281b3a30bb5f203af8dd8eec9c771028f5a6ba1b17f3ff39631257956789b710",
+      "afterHash": "37cb8f4615443caf1f8d71ec469d8842e51563057f297854c9b552c6170f9059"
+    },
+    "pipeline/out/set18.json": {
+      "beforeHash": "ebee92fc45f19e2c7a622de734e22fb692d1c81f5af9e4aed0979d1dc1f5f410",
+      "afterHash": "1f182cb5152ea4a12ff3a8f17c7786e4fb528e86c63759cc3c8a66783509c66a"
+    },
+    "pipeline/out/set23.json": {
+      "beforeHash": "59c6a3660b95d96ba5ece51a78a176a3c87f0118395b15b619f9110732ef5693",
+      "afterHash": "f61132a0f7ecdec0d472afbe68014a359421c7efb2bee07f5ee6840163d0c6f5"
+    },
+    "pipeline/out/set24.json": {
+      "beforeHash": "17d490eca45c4d3f73bc0a450bb0243b6470efcbb09c8a680b19b4daddc01e7e",
+      "afterHash": "d8593780b2708c09354aa54f7427411ff435ce49f34ae494c3992572dfca440b"
+    },
+    "pipeline/out/set25.json": {
+      "beforeHash": "131a5acd4e64b9f2d229b8106f3e70eaa9b464ca513970566c5c5916f2fb7f8c",
+      "afterHash": "dcc0e4291589549dc02bb3901b6b1799a2038604d3466432b17193cc15eec1cf"
+    },
+    "pipeline/out/set29.json": {
+      "beforeHash": "7616991d73334082472aeb104859ec10a77046e5cb2ad63190c144fa46cd0ab4",
+      "afterHash": "aea65cd1ca741c6ff15881db3891cb8df5fce138d0b461a99daeac396cf34ef8"
+    },
+    "pipeline/out/set31.json": {
+      "beforeHash": "ab99a6868b1b48ed2ba510f42817206217316a54b4d00bc11e7105755e509d27",
+      "afterHash": "5aeca8991ddd5e5fae82ba302e05c083141b47fb7cd3af8aaee312442403182e"
+    },
+    "pipeline/out/set40.json": {
+      "beforeHash": "3515ac5cb9fd22f141a3ff79b95f077bd15f86658d238f0945a3df7686bc4414",
+      "afterHash": "f4d1ff8266652c648e12198182dfe579c70a8e19e9a7e105d0c284e94fdcdabf"
+    },
+    "pipeline/out/set43.json": {
+      "beforeHash": "5df2390352d012f22d3f2f808e2fcfff4dd16bb7e9b2179ba2a7a51418a9673b",
+      "afterHash": "624e06ad9adf1dbb96a8d0c19cad18ee1205c4fe00e29433696a7b035f4f55ed"
+    },
+    "pipeline/out/set44.json": {
+      "beforeHash": "6c5cdeb246686487693f71bd3c829e60a8ac3b304241e7f36355bfa2616a5eb9",
+      "afterHash": "ecd7961fae37be198f2a4f051108144696d27a85a8b1eae8fdb265541b414f54"
+    }
+  },
+  "snapshots": {
+    "DATA": {
+      "beforeHash": "60105b7239890b278ba471ff680575cbbac7fbe6997cf3bf779d98f45dbaa06c",
+      "afterHash": "daa18c212aea94c742598f067f9b5fd50590e6d94d4ca2fd53181571889044a5",
+      "changes": [
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            13,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Germany signed an armistice on November {{BLANK}}, 1918.",
+          "new": "Germany signed the World War I armistice on November {{BLANK}}, 1918."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            13,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "독일은 1918년 11월 11일에 휴전 협정에 서명했어.",
+          "new": "독일은 1918년 11월 11일에 제1차 세계대전 휴전 협정에 서명했어."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            14,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Yuri Gagarin became the first human in space on April {{BLANK}}, 1961.",
+          "new": "Columbus reached the Americas on October {{BLANK}}, 1492."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            14,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "유리 가가린은 1961년 4월 12일에 인류 최초로 우주에 갔어.",
+          "new": "콜럼버스는 1492년 10월 12일에 아메리카에 도착했어."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            15,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Construction of the Berlin Wall began on August {{BLANK}}, 1961.",
+          "new": "The Mongol Empire expanded across much of Eurasia in the {{BLANK}} century."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            15,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "베를린 장벽 건설은 1961년 8월 13일에 시작됐어.",
+          "new": "몽골 제국은 13세기에 유라시아의 넓은 지역으로 세력을 확대했어."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            15,
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "13th. August thirteenth = the thirteenth of August(8월 13일).",
+          "new": "13th. 세기는 서수로 읽는다."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            17,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Korea was freed from Japanese rule on August {{BLANK}}, 1945.",
+          "new": "Japan announced its surrender on August {{BLANK}}, 1945."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            17,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "한국은 1945년 8월 15일에 일본의 지배에서 해방됐어.",
+          "new": "일본은 1945년 8월 15일에 항복을 발표했어."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            18,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "South Korea's first constitution was proclaimed on July {{BLANK}}, 1948.",
+          "new": "The Scientific Revolution transformed European thought in the {{BLANK}} century."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            18,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "대한민국의 제헌헌법은 1948년 7월 17일에 공포됐어.",
+          "new": "17세기의 과학혁명은 유럽의 사고방식을 바꾸었어."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            19,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "The Gwangju Uprising began on the {{BLANK}} of May, 1980.",
+          "new": "The Industrial Revolution began in Britain in the {{BLANK}} century."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            19,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "광주민주화운동은 1980년 5월 18일에 시작됐어.",
+          "new": "산업혁명은 18세기에 영국에서 시작됐어."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            20,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Koreans protested against dictatorship on April {{BLANK}}, 1960.",
+          "new": "European powers colonized much of Africa in the late {{BLANK}} century."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            20,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "1960년 4월 19일, 한국인들이 독재에 맞서 시위했어.",
+          "new": "유럽 열강은 19세기 후반 아프리카의 넓은 지역을 식민지로 삼았어."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            20,
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "19th. 예문은 4·19혁명 당시의 시위를 말한다.",
+          "new": "19th. the late nineteenth century는 19세기 후반."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            21,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Apollo 11 landed on the Moon on July {{BLANK}}, 1969.",
+          "new": "The two world wars (1914–1918 and 1939–1945) took place in the {{BLANK}} century."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            21,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "아폴로 11호는 1969년 7월 20일에 달에 착륙했어.",
+          "new": "두 차례의 세계대전(1914~1918년, 1939~1945년)은 20세기에 일어났어."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            21,
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "twenty의 y가 ie로 바뀐다. 달 착륙은 UTC 기준 7월 20일(한국 시간 21일).",
+          "new": "twenty의 y가 ie로 바뀐다."
+        },
+        {
+          "path": [
+            4,
+            "exercises",
+            3,
+            "words",
+            4,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "The plane will {{BLANK}} in ten minutes.",
+          "new": "Humans first {{BLANK}}ed on the moon in 1969."
+        },
+        {
+          "path": [
+            4,
+            "exercises",
+            3,
+            "words",
+            4,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "비행기가 10분 뒤에 착륙해.",
+          "new": "인간은 1969년에 처음으로 달에 착륙했어."
+        },
+        {
+          "path": [
+            6,
+            "exercises",
+            9,
+            "words",
+            4,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "The farm {{BLANK}}s 1,000 eggs a day.",
+          "new": "In the 18th and 19th centuries, British factories used machines to {{BLANK}} goods."
+        },
+        {
+          "path": [
+            6,
+            "exercises",
+            9,
+            "words",
+            4,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "그 농장은 하루에 달걀 1,000개를 생산해.",
+          "new": "18~19세기 영국 공장들은 기계를 이용해 상품을 생산했어."
+        },
+        {
+          "path": [
+            7,
+            "exercises",
+            8,
+            "words",
+            1,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "She has a deep {{BLANK}} of Korean history.",
+          "new": "From the 15th century onward, printing helped spread {{BLANK}} across Europe."
+        },
+        {
+          "path": [
+            7,
+            "exercises",
+            8,
+            "words",
+            1,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "걔는 한국사 지식이 깊어.",
+          "new": "15세기부터 인쇄술은 유럽 전역에 지식을 퍼뜨리는 데 도움이 되었어."
+        },
+        {
+          "path": [
+            7,
+            "exercises",
+            8,
+            "words",
+            1,
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "know(알다)와 관련된 명사. k는 묵음. knowledge of history는 역사에 관한 지식.",
+          "new": "know(알다)와 관련된 명사. k는 묵음. knowledge of ~: ~에 관한 지식."
+        },
+        {
+          "path": [
+            8,
+            "exercises",
+            0,
+            "words",
+            9,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "The subway {{BLANK}} in Seoul is very large.",
+          "new": "In ancient and medieval times, the Silk Roads were a {{BLANK}} of trade routes."
+        },
+        {
+          "path": [
+            8,
+            "exercises",
+            0,
+            "words",
+            9,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "서울 지하철망은 정말 크다.",
+          "new": "고대와 중세에 실크로드는 교역로의 연결망이었어."
+        },
+        {
+          "path": [
+            8,
+            "exercises",
+            7,
+            "words",
+            2,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "{{BLANK}} between the two countries grew fast.",
+          "new": "In ancient and medieval times, Silk Road {{BLANK}} spread both goods and ideas."
+        },
+        {
+          "path": [
+            8,
+            "exercises",
+            7,
+            "words",
+            2,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "두 나라 사이 무역이 빠르게 늘었다.",
+          "new": "고대와 중세에 실크로드 무역을 통해 물품과 사상이 함께 퍼졌어."
+        },
+        {
+          "path": [
+            8,
+            "exercises",
+            8,
+            "words",
+            10,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "They {{BLANK}}ed the school in 1990.",
+          "new": "The United Nations was {{BLANK}}ed in 1945, after World War II."
+        },
+        {
+          "path": [
+            8,
+            "exercises",
+            8,
+            "words",
+            10,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "그들은 1990년에 그 학교를 설립했어.",
+          "new": "국제연합은 제2차 세계대전이 끝난 뒤인 1945년에 설립되었어."
+        },
+        {
+          "path": [
+            9,
+            "exercises",
+            1,
+            "words",
+            6,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Look at the {{BLANK}} of this sentence.",
+          "new": "In 1953, scientists proposed a model of DNA's double-helix {{BLANK}}."
+        },
+        {
+          "path": [
+            9,
+            "exercises",
+            1,
+            "words",
+            6,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "이 문장의 구조를 봐.",
+          "new": "1953년에 과학자들은 DNA의 이중 나선 구조 모형을 제안했어."
+        },
+        {
+          "path": [
+            9,
+            "exercises",
+            3,
+            "words",
+            1,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "This old {{BLANK}} shows my grandmother.",
+          "new": "In 1953, X-ray {{BLANK}}s helped scientists understand DNA's structure."
+        },
+        {
+          "path": [
+            9,
+            "exercises",
+            3,
+            "words",
+            1,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "이 옛날 사진에 우리 할머니가 있어.",
+          "new": "1953년에 X선 사진은 과학자들이 DNA의 구조를 이해하는 데 도움이 되었어."
+        },
+        {
+          "path": [
+            11,
+            "exercises",
+            8,
+            "words",
+            11,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "The river will {{BLANK}} water to the farms.",
+          "new": "Ancient Egyptians used the Nile to {{BLANK}} water to farms."
+        },
+        {
+          "path": [
+            11,
+            "exercises",
+            8,
+            "words",
+            11,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "그 강이 농장들에 물을 공급할 거야.",
+          "new": "고대 이집트인들은 농장에 물을 공급하려고 나일강을 이용했어."
+        },
+        {
+          "path": [
+            12,
+            "exercises",
+            0,
+            "words",
+            4,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "The {{BLANK}} to Busan leaves at seven.",
+          "new": "Steam {{BLANK}}s changed travel in the nineteenth century."
+        },
+        {
+          "path": [
+            12,
+            "exercises",
+            0,
+            "words",
+            4,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "부산행 기차는 7시에 떠나.",
+          "new": "증기 기차는 19세기에 사람들이 이동하는 방식을 바꾸었어."
+        },
+        {
+          "path": [
+            13,
+            "exercises",
+            5,
+            "words",
+            5,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "The old {{BLANK}} did not explode.",
+          "new": "In 1945, the United States dropped atomic {{BLANK}}s on Japan."
+        },
+        {
+          "path": [
+            13,
+            "exercises",
+            5,
+            "words",
+            5,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "그 낡은 폭탄은 터지지 않았어.",
+          "new": "1945년에 미국은 일본에 원자폭탄을 투하했어."
+        },
+        {
+          "path": [
+            13,
+            "exercises",
+            6,
+            "words",
+            1,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "We sleep in {{BLANK}} rooms.",
+          "new": "India and Pakistan became {{BLANK}} countries in 1947."
+        },
+        {
+          "path": [
+            13,
+            "exercises",
+            6,
+            "words",
+            1,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "우린 별개의 방에서 자.",
+          "new": "인도와 파키스탄은 1947년에 별개의 나라가 되었어."
+        },
+        {
+          "path": [
+            18,
+            "exercises",
+            0,
+            "words",
+            6,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "The {{BLANK}} destroyed many houses last summer.",
+          "new": "The Nile's annual {{BLANK}} left fertile soil for ancient Egyptian farmers."
+        },
+        {
+          "path": [
+            18,
+            "exercises",
+            0,
+            "words",
+            6,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "지난여름 홍수로 집이 많이 부서졌어.",
+          "new": "해마다 일어난 나일강의 홍수는 고대 이집트 농민들에게 비옥한 흙을 남겼어."
+        },
+        {
+          "path": [
+            24,
+            "exercises",
+            6,
+            "words",
+            9,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "In a {{BLANK}}, people choose their leaders.",
+          "new": "In fifth-century BCE Athenian {{BLANK}}, women could not vote."
+        },
+        {
+          "path": [
+            24,
+            "exercises",
+            6,
+            "words",
+            9,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "민주주의에서는 사람들이 지도자를 뽑아.",
+          "new": "기원전 5세기 아테네 민주정에서 여성은 투표할 수 없었어."
+        },
+        {
+          "path": [
+            25,
+            "exercises",
+            1,
+            "words",
+            15,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Games need {{BLANK}} between players to stay fun.",
+          "new": "Silk Road trade encouraged {{BLANK}} between cultures in ancient and medieval times."
+        },
+        {
+          "path": [
+            25,
+            "exercises",
+            1,
+            "words",
+            15,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "게임이 재미있으려면 플레이어들 사이의 상호 작용이 필요해.",
+          "new": "고대와 중세에 실크로드 무역은 문화 사이의 교류를 촉진했어."
+        },
+        {
+          "path": [
+            25,
+            "exercises",
+            5,
+            "words",
+            5,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "A {{BLANK}} field of grass lay behind the school.",
+          "new": "In the 13th century, the Mongols' {{BLANK}} empire stretched from Asia into Europe."
+        },
+        {
+          "path": [
+            25,
+            "exercises",
+            5,
+            "words",
+            5,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "학교 뒤에 광대한 풀밭이 펼쳐져 있었어.",
+          "new": "13세기에 몽골인들의 광대한 제국은 아시아에서 유럽까지 뻗어 있었어."
+        },
+        {
+          "path": [
+            29,
+            "exercises",
+            0,
+            "words",
+            1,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "My uncle got a job in car {{BLANK}}.",
+          "new": "In 18th- and 19th-century Britain, steam-powered machines transformed {{BLANK}}."
+        },
+        {
+          "path": [
+            29,
+            "exercises",
+            0,
+            "words",
+            1,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "우리 삼촌은 자동차 제조업 쪽에 취직했어.",
+          "new": "18~19세기 영국에서 증기로 움직이는 기계들이 제조업을 바꾸어 놓았어."
+        },
+        {
+          "path": [
+            29,
+            "exercises",
+            6,
+            "words",
+            7,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "We watched the moon through a {{BLANK}}.",
+          "new": "In 1610, Galileo saw four moons orbiting Jupiter through a {{BLANK}}."
+        },
+        {
+          "path": [
+            29,
+            "exercises",
+            6,
+            "words",
+            7,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "우리는 망원경으로 달을 봤어.",
+          "new": "1610년 갈릴레오는 망원경으로 목성 주위를 도는 위성 네 개를 보았어."
+        },
+        {
+          "path": [
+            18,
+            "exercises",
+            3,
+            "words",
+            11,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "There is less {{BLANK}} high in the mountains.",
+          "new": "In the 1770s, Lavoisier explained the role of {{BLANK}} in burning."
+        },
+        {
+          "path": [
+            18,
+            "exercises",
+            3,
+            "words",
+            11,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "높은 산에서는 산소가 부족해.",
+          "new": "1770년대에 라부아지에는 연소에서 산소가 하는 역할을 설명했어."
+        },
+        {
+          "path": [
+            23,
+            "exercises",
+            1,
+            "words",
+            0,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "The app keeps all my {{BLANK}} on the phone.",
+          "new": "In 1953, X-ray {{BLANK}} helped reveal DNA's double-helix structure."
+        },
+        {
+          "path": [
+            23,
+            "exercises",
+            1,
+            "words",
+            0,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "그 앱은 내 데이터를 전부 폰에 저장해.",
+          "new": "1953년에 X선 자료는 DNA의 이중 나선 구조를 밝히는 데 도움을 주었어."
+        },
+        {
+          "path": [
+            31,
+            "exercises",
+            5,
+            "words",
+            4,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "A small {{BLANK}} shook our whole apartment.",
+          "new": "Plate tectonics, developed in the 1960s, helped explain why {{BLANK}}s cluster near plate boundaries."
+        },
+        {
+          "path": [
+            31,
+            "exercises",
+            5,
+            "words",
+            4,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "작은 지진이 우리 아파트 전체를 흔들었어.",
+          "new": "1960년대에 발전한 판구조론은 지진이 왜 판 경계 부근에 집중되는지 설명하는 데 도움을 주었어."
+        }
+      ]
+    }
+  },
+  "cards": [
+    {
+      "id": "C0409",
+      "number": 1,
+      "en": "eleventh",
+      "file": "pipeline/out/set43.json",
+      "sourcePath": [
+        4,
+        "words",
+        0
+      ],
+      "gamePath": [
+        1,
+        "exercises",
+        10,
+        "words",
+        13
+      ],
+      "changed": true,
+      "afterCardHash": "e419d4b7968958b3802e162c328e4f9d16342f4352a140b125eb71432ae9c70c"
+    },
+    {
+      "id": "C0410",
+      "number": 2,
+      "en": "twelfth",
+      "file": "pipeline/out/set43.json",
+      "sourcePath": [
+        1,
+        "words",
+        12
+      ],
+      "gamePath": [
+        1,
+        "exercises",
+        10,
+        "words",
+        14
+      ],
+      "changed": true,
+      "afterCardHash": "fc3967b18f4da2bf9ff418d39111a5cf3a9822a791d398fe08987e5f9994ab10"
+    },
+    {
+      "id": "C0411",
+      "number": 3,
+      "en": "thirteenth",
+      "file": "pipeline/out/set44.json",
+      "sourcePath": [
+        1,
+        "words",
+        3
+      ],
+      "gamePath": [
+        1,
+        "exercises",
+        10,
+        "words",
+        15
+      ],
+      "changed": true,
+      "afterCardHash": "0062c9469f9ce60272c0ab43c3011098c0d1da687e83279a61da0316b1c25a50"
+    },
+    {
+      "id": "C0412",
+      "number": 4,
+      "en": "fourteenth",
+      "file": "pipeline/out/set44.json",
+      "sourcePath": [
+        1,
+        "words",
+        6
+      ],
+      "gamePath": [
+        1,
+        "exercises",
+        10,
+        "words",
+        16
+      ],
+      "changed": false,
+      "afterCardHash": "e1b84be746594a5933c1b76eb8a3b9f182401aa39558de1f049f60e3d6486291"
+    },
+    {
+      "id": "C0413",
+      "number": 5,
+      "en": "fifteenth",
+      "file": "pipeline/out/set44.json",
+      "sourcePath": [
+        3,
+        "words",
+        8
+      ],
+      "gamePath": [
+        1,
+        "exercises",
+        10,
+        "words",
+        17
+      ],
+      "changed": true,
+      "afterCardHash": "8180cdff364516dd464b585b8bdca3cb8f29b339b6243ea4452bf8c954452b77"
+    },
+    {
+      "id": "C0414",
+      "number": 6,
+      "en": "seventeenth",
+      "file": "pipeline/out/set44.json",
+      "sourcePath": [
+        1,
+        "words",
+        8
+      ],
+      "gamePath": [
+        1,
+        "exercises",
+        10,
+        "words",
+        18
+      ],
+      "changed": true,
+      "afterCardHash": "ff39a5edbf1da094430af69b9190566c7e86c1e52996cf19bbc6261c5d3298ba"
+    },
+    {
+      "id": "C0415",
+      "number": 7,
+      "en": "eighteenth",
+      "file": "pipeline/out/set43.json",
+      "sourcePath": [
+        3,
+        "words",
+        12
+      ],
+      "gamePath": [
+        1,
+        "exercises",
+        10,
+        "words",
+        19
+      ],
+      "changed": true,
+      "afterCardHash": "08c2d7cb8e9b2129c33fb216f19c0c8ebae655f9219071df1cdbcce30ceb8ca1"
+    },
+    {
+      "id": "C0416",
+      "number": 8,
+      "en": "nineteenth",
+      "file": "pipeline/out/set40.json",
+      "sourcePath": [
+        8,
+        "words",
+        3
+      ],
+      "gamePath": [
+        1,
+        "exercises",
+        10,
+        "words",
+        20
+      ],
+      "changed": true,
+      "afterCardHash": "c7658004c3ae8f3981fb42a7ccccf4fbe7087dfa2dc12821b89ab7bbf04b771c"
+    },
+    {
+      "id": "C0417",
+      "number": 9,
+      "en": "twentieth",
+      "file": "pipeline/out/set40.json",
+      "sourcePath": [
+        3,
+        "words",
+        9
+      ],
+      "gamePath": [
+        1,
+        "exercises",
+        10,
+        "words",
+        21
+      ],
+      "changed": true,
+      "afterCardHash": "df979423b0c063aa4c2e11606ca73ebbb42a56572186b47834e42d9b7ae6a049"
+    },
+    {
+      "id": "C0819",
+      "number": 10,
+      "en": "land",
+      "file": "pipeline/out/lesson04.json",
+      "sourcePath": [
+        "exercises",
+        3,
+        "words",
+        4
+      ],
+      "gamePath": [
+        4,
+        "exercises",
+        3,
+        "words",
+        4
+      ],
+      "changed": true,
+      "afterCardHash": "ab9a4f416c2dc39a73be53c293d3f58bf65fe7e14cb6ac67b68e255513deec96"
+    },
+    {
+      "id": "C1323",
+      "number": 11,
+      "en": "produce",
+      "file": "pipeline/out/set06.json",
+      "sourcePath": [
+        9,
+        "words",
+        4
+      ],
+      "gamePath": [
+        6,
+        "exercises",
+        9,
+        "words",
+        4
+      ],
+      "changed": true,
+      "afterCardHash": "36103eb235954bb125acaf89e445968fb473907b76441491276fcacd54c041f2"
+    },
+    {
+      "id": "C1468",
+      "number": 12,
+      "en": "knowledge",
+      "file": "pipeline/out/set07.json",
+      "sourcePath": [
+        8,
+        "words",
+        1
+      ],
+      "gamePath": [
+        7,
+        "exercises",
+        8,
+        "words",
+        1
+      ],
+      "changed": true,
+      "afterCardHash": "b59fc7a783fbac1536638e50836897897668d9b01d3c39146118e5bb618528b7"
+    },
+    {
+      "id": "C1501",
+      "number": 13,
+      "en": "network",
+      "file": "pipeline/out/set08.json",
+      "sourcePath": [
+        0,
+        "words",
+        9
+      ],
+      "gamePath": [
+        8,
+        "exercises",
+        0,
+        "words",
+        9
+      ],
+      "changed": true,
+      "afterCardHash": "4e509120677600b24e8317e192e4b1daf1d19e4211e9fc7b80dbba4fb3ba2c03"
+    },
+    {
+      "id": "C1605",
+      "number": 14,
+      "en": "trade",
+      "file": "pipeline/out/set08.json",
+      "sourcePath": [
+        7,
+        "words",
+        2
+      ],
+      "gamePath": [
+        8,
+        "exercises",
+        7,
+        "words",
+        2
+      ],
+      "changed": true,
+      "afterCardHash": "acb8d06fdaf8f104f2a6e5d4a47eca4be36873908df654c0b637cf66d9a47cb9"
+    },
+    {
+      "id": "C1630",
+      "number": 15,
+      "en": "establish",
+      "file": "pipeline/out/set08.json",
+      "sourcePath": [
+        8,
+        "words",
+        10
+      ],
+      "gamePath": [
+        8,
+        "exercises",
+        8,
+        "words",
+        10
+      ],
+      "changed": true,
+      "afterCardHash": "f787579d80fe6605b5abb7c24a51d44e2cf0e606e4200840fdc9ae7b7a46288a"
+    },
+    {
+      "id": "C1664",
+      "number": 16,
+      "en": "structure",
+      "file": "pipeline/out/set09.json",
+      "sourcePath": [
+        1,
+        "words",
+        6
+      ],
+      "gamePath": [
+        9,
+        "exercises",
+        1,
+        "words",
+        6
+      ],
+      "changed": true,
+      "afterCardHash": "21318a3b2b578a1f8e4363ef4ca6ea3831e0674e76628902fe0e1b78dbfe2bff"
+    },
+    {
+      "id": "C1684",
+      "number": 17,
+      "en": "photograph",
+      "file": "pipeline/out/set09.json",
+      "sourcePath": [
+        3,
+        "words",
+        1
+      ],
+      "gamePath": [
+        9,
+        "exercises",
+        3,
+        "words",
+        1
+      ],
+      "changed": true,
+      "afterCardHash": "be06eef00e6fb7d243a91a4735940ca11ac6ee5fd65ae5c07a83f2bbee91ec9d"
+    },
+    {
+      "id": "C2041",
+      "number": 18,
+      "en": "supply",
+      "file": "pipeline/out/set11.json",
+      "sourcePath": [
+        8,
+        "words",
+        11
+      ],
+      "gamePath": [
+        11,
+        "exercises",
+        8,
+        "words",
+        11
+      ],
+      "changed": true,
+      "afterCardHash": "e8437ca0f219e6aa471d6f0d308d6af2a68028fcd0c4caa65f8c39bdc512ff38"
+    },
+    {
+      "id": "C2060",
+      "number": 19,
+      "en": "train",
+      "file": "pipeline/out/set12.json",
+      "sourcePath": [
+        0,
+        "words",
+        4
+      ],
+      "gamePath": [
+        12,
+        "exercises",
+        0,
+        "words",
+        4
+      ],
+      "changed": true,
+      "afterCardHash": "683b283b52fd231ab3b27d4c8a5b8a0e3028dfaf3e4b54db03ddaecbe3df905a"
+    },
+    {
+      "id": "C2263",
+      "number": 20,
+      "en": "bomb",
+      "file": "pipeline/out/set13.json",
+      "sourcePath": [
+        5,
+        "words",
+        5
+      ],
+      "gamePath": [
+        13,
+        "exercises",
+        5,
+        "words",
+        5
+      ],
+      "changed": true,
+      "afterCardHash": "4755cabb2144c90c3e00dbf9bc5273c4ddfb9267151a3b03452c7e49abccb9b3"
+    },
+    {
+      "id": "C2273",
+      "number": 21,
+      "en": "separate",
+      "file": "pipeline/out/set13.json",
+      "sourcePath": [
+        6,
+        "words",
+        1
+      ],
+      "gamePath": [
+        13,
+        "exercises",
+        6,
+        "words",
+        1
+      ],
+      "changed": true,
+      "afterCardHash": "e8772599622c0aa3b1f6e2147a4d77a5992df4469c31499120a81c3fb4034592"
+    },
+    {
+      "id": "C2870",
+      "number": 22,
+      "en": "flood",
+      "file": "pipeline/out/set18.json",
+      "sourcePath": [
+        0,
+        "words",
+        7
+      ],
+      "gamePath": [
+        18,
+        "exercises",
+        0,
+        "words",
+        6
+      ],
+      "changed": true,
+      "afterCardHash": "e4e1da9dc4138d840ac18e9090976cf8b40f297e2bfda755c53ad6403805529e"
+    },
+    {
+      "id": "C3667",
+      "number": 23,
+      "en": "democracy",
+      "file": "pipeline/out/set24.json",
+      "sourcePath": [
+        6,
+        "words",
+        9
+      ],
+      "gamePath": [
+        24,
+        "exercises",
+        6,
+        "words",
+        9
+      ],
+      "changed": true,
+      "afterCardHash": "b2986b6421279903bf090ce681c4835976d47e3f4b64e545570f7f941b6668de"
+    },
+    {
+      "id": "C3739",
+      "number": 24,
+      "en": "interaction",
+      "file": "pipeline/out/set25.json",
+      "sourcePath": [
+        1,
+        "words",
+        15
+      ],
+      "gamePath": [
+        25,
+        "exercises",
+        1,
+        "words",
+        15
+      ],
+      "changed": true,
+      "afterCardHash": "93e4b4b15a895902ee163bec9b9d9d7515e46fc53366e45f01140c1937cee687"
+    },
+    {
+      "id": "C3787",
+      "number": 25,
+      "en": "vast",
+      "file": "pipeline/out/set25.json",
+      "sourcePath": [
+        5,
+        "words",
+        5
+      ],
+      "gamePath": [
+        25,
+        "exercises",
+        5,
+        "words",
+        5
+      ],
+      "changed": true,
+      "afterCardHash": "c64d2bee0c3d9b5ce92c722accb2a4800d549de73f0d650af59f3e6dceb48dc8"
+    },
+    {
+      "id": "C4250",
+      "number": 26,
+      "en": "manufacturing",
+      "file": "pipeline/out/set29.json",
+      "sourcePath": [
+        0,
+        "words",
+        1
+      ],
+      "gamePath": [
+        29,
+        "exercises",
+        0,
+        "words",
+        1
+      ],
+      "changed": true,
+      "afterCardHash": "b24ad3a3621fc9d35f48c87c5a202b4fb6c2c4d621bdb78c3ee7017d077b4038"
+    },
+    {
+      "id": "C4339",
+      "number": 27,
+      "en": "telescope",
+      "file": "pipeline/out/set29.json",
+      "sourcePath": [
+        6,
+        "words",
+        7
+      ],
+      "gamePath": [
+        29,
+        "exercises",
+        6,
+        "words",
+        7
+      ],
+      "changed": true,
+      "afterCardHash": "41dca14bca659ac5b70dff8fc7365632e2f120b2a124ccb1d76a97c87434bada"
+    },
+    {
+      "id": "C2913",
+      "number": 28,
+      "en": "oxygen",
+      "file": "pipeline/out/set18.json",
+      "sourcePath": [
+        3,
+        "words",
+        11
+      ],
+      "gamePath": [
+        18,
+        "exercises",
+        3,
+        "words",
+        11
+      ],
+      "changed": true,
+      "afterCardHash": "4cf4f1aa35aafa6a9540b78a68f30fe9d0c8a70d86e53333f8c48d30d26626c3"
+    },
+    {
+      "id": "C3463",
+      "number": 29,
+      "en": "data",
+      "file": "pipeline/out/set23.json",
+      "sourcePath": [
+        1,
+        "words",
+        0
+      ],
+      "gamePath": [
+        23,
+        "exercises",
+        1,
+        "words",
+        0
+      ],
+      "changed": true,
+      "afterCardHash": "4c99fc4d53c186039193cf7e9b64f52334c63a7d19e9a7659e56d520a9a77dc2"
+    },
+    {
+      "id": "C4594",
+      "number": 30,
+      "en": "earthquake",
+      "file": "pipeline/out/set31.json",
+      "sourcePath": [
+        5,
+        "words",
+        4
+      ],
+      "gamePath": [
+        31,
+        "exercises",
+        5,
+        "words",
+        4
+      ],
+      "changed": true,
+      "afterCardHash": "4131827c526b4660a722fe3597c8f05a7d2cc3b8eb7889aa65c666790c792949"
+    }
+  ],
+  "verification": {
+    "reviewedCards": 30,
+    "changedCards": 29,
+    "changedFields": 62,
+    "timingRevisedCards": 15,
+    "totalCards": 7067,
+    "unrelatedFieldsAndUi": "unchanged",
+    "courses46to50": "unchanged",
+    "sourceAndDataRestoration": "passed",
+    "currentDataHash": "daa18c212aea94c742598f067f9b5fd50590e6d94d4ca2fd53181571889044a5"
+  }
+}

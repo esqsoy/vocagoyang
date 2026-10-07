@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-07",
+  "status": "second_pass_complete_not_applied",
+  "reviewedCandidateCount": 630,
+  "readCoverage": [
+    {"file": "early-audit.json", "candidateNotesStart": 0, "candidateNotesEndExclusive": 153},
+    {"file": "middle-audit.json", "candidateNotesStart": 0, "candidateNotesEndExclusive": 165},
+    {"file": "late-audit.json", "candidateNotesStart": 0, "candidateNotesEndExclusive": 312}
+  ],
+  "method": "구간별 후보 630개의 표제어·뜻·현재 예문·소재 연결·보존 조건을 전부 다시 읽었다. 보존 여부가 애매한 16개는 현재 DATA의 전체 카드 필드와 대사를 추가 확인했다. 새 문장은 작성·적용하지 않았다.",
+  "overrides": [
+    {"id": "C0033", "decision": "keep", "reason": "사용자가 직접 정한 Goyang 인구 예문이다. 고양시 정체성과 a million people 결합을 보존한다."},
+    {"id": "C1928", "decision": "keep", "reason": "Ilsan을 활용한 지역 예문이며 settle in의 정착 용법이 선명하다. 역사 교체 대상으로 삼지 않는다."},
+    {"id": "C4749", "decision": "keep", "reason": "스마트폰이 revolutionary하다는 비유적 혁신 의미가 가치 있다. 정치 혁명의 문자적 뜻으로 바꾸지 않는다."},
+    {"id": "C4937", "decision": "keep", "reason": "fleet of trucks는 함대 외에 차량단에도 쓰이는 확장 용법을 보여 준다. 역사 속 선단으로 바꾸면 이 장점이 사라진다."},
+    {"id": "C5563", "decision": "keep", "reason": "온라인 강좌의 module은 교육 단원 용법을 선명히 보여 준다. 달 착륙선 부품으로 바꾸면 다른 뜻을 가르치게 된다."},
+    {"id": "C5743", "decision": "keep", "reason": "은행의 trader는 금융 거래 담당자라는 중요한 현대 용법이다. 실크로드 상인으로 대체하지 않는다."},
+    {"id": "C5864", "decision": "keep", "reason": "첫 요리를 disastrous라고 하는 일상적 비유·과장 용법에 가치가 있다. 실제 전쟁 재앙으로 바꾸지 않는다."},
+    {"id": "C5562", "decision": "keep", "reason": "시험 전 한 주를 pure misery라고 표현하는 자연스러운 일상적 과장과 결합을 보존한다."},
+    {"id": "C6059", "decision": "keep", "reason": "prescribe an antibiotic과 bacterial infection을 함께 배운다. 실제 치료 용법과 세균·바이러스 구분이 이미 유익하다."},
+    {"id": "C5890", "decision": "keep", "reason": "효모가 빵 반죽을 부풀린다는 기능을 즉시 이해하게 하는 과학 예문이다. 역사 이름을 덧붙이는 것보다 어휘 의미가 선명하다."},
+    {"id": "C6026", "decision": "keep", "reason": "버섯도 fungus라는 분류 지식이 의미 학습에 직접 도움이 된다. 페니실린 곰팡이 사례로만 좁히지 않는다."},
+    {"id": "C6061", "decision": "keep", "reason": "a primer on의 자연스러운 결합을 보여 준다. 한국사라는 책 주제를 세계사로만 바꿔도 새로운 역사 사실을 가르치는 문장은 되지 않는다."},
+    {"id": "C5639", "decision": "keep", "reason": "diagnostic test의 교육 진단 평가 용법을 보존한다. X선 진단으로 바꾸면 의료 용법만 남는다."},
+    {"id": "C6208", "decision": "keep", "reason": "DNA의 double helix 구조를 이미 짧고 직접적으로 가르친다. 발견 연도나 연구자 이름을 붙일 필요가 없다."},
+    {"id": "C6336", "decision": "keep", "reason": "습한 공기에서 쇠가 녹스는 현상으로 oxidize를 이해하게 한다. 기존의 구체적 현상 설명을 보존한다."},
+    {"id": "C6419", "decision": "keep", "reason": "원근법이 물체를 멀리 보이게 한다는 기능을 이미 설명한다. 르네상스 시대 이름보다 목표 뜻의 직접 이해를 우선한다."},
+    {"id": "C6716", "decision": "keep", "reason": "수면 부족이 기억력에 미치는 영향을 통해 affect의 목적어 관계를 보여 준다. 실용적인 과학 내용이 이미 있다."},
+    {"id": "C6288", "decision": "keep", "reason": "imprison 카드에는 일산·단어 열쇠를 활용한 개인화 대사가 있다. 무거운 박해사 소재로 바꾸어 대사와 충돌시키기보다 현재 문장을 보존한다."}
+  ],
+  "factBankReview": {
+    "reviewedTopics": 72,
+    "result": "기록된 핵심 주장과 주의점에서 명백한 오류를 추가로 발견하지 않았다. 72개는 제작 출발 목록이며 세계사를 빠짐없이 대표하는 완결 목차가 아니다.",
+    "guardrails": [
+      "세계대전·산업혁명·우주 개발에 예문이 과도하게 몰리는지 문장 작성 단계에서 살핀다. 반복 자체는 사용자 의도에 맞게 허용한다.",
+      "중국·인도 및 비유럽 지역의 주요 역사, 시민권 변화 등 중요한 소재가 카드와 잘 맞으면 별도 검증 후 목록에 추가할 수 있다.",
+      "사건명·사람 이름·연도만 붙이는 교체보다 교류·사회 변화·과학적 의미가 드러나는 짧은 문장을 우선한다.",
+      "후보 연결은 최종 사실·예문 검증이 아니다. 목표 뜻이나 좋은 결합을 잃으면 작성 단계에서도 후보를 철회한다."
+    ]
+  }
+}

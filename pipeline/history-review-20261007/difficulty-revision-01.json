@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-07",
+  "status": "applied_locally_not_deployed",
+  "authorization": "User flagged plate tectonics as too advanced for earthquake and required surrounding language to match the target word level.",
+  "changedCards": 1,
+  "changedFields": 2,
+  "supplementalFact": {
+    "claim": "A strong earthquake hit San Francisco in 1906.",
+    "sources": [
+      "https://earthquake.usgs.gov/earthquakes/events/1906calif/18april/"
+    ],
+    "checkedDate": "2026-10-07",
+    "note": "USGS verifies the major earthquake on 18 April 1906. No size, casualty count or fire-only damage is attributed to shaking."
+  },
+  "sourceChanges": [
+    {
+      "file": "pipeline/out/set31.json",
+      "exercise": 6,
+      "word": "earthquake",
+      "si": 1,
+      "sourcePath": [
+        5,
+        "words",
+        4,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "Plate tectonics, developed in the 1960s, helped explain why {{BLANK}}s cluster near plate boundaries.",
+      "new": "A strong {{BLANK}} hit San Francisco in 1906.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set31.json",
+      "exercise": 6,
+      "word": "earthquake",
+      "si": 1,
+      "sourcePath": [
+        5,
+        "words",
+        4,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "1960년대에 발전한 판구조론은 지진이 왜 판 경계 부근에 집중되는지 설명하는 데 도움을 주었어.",
+      "new": "1906년에 강한 지진이 샌프란시스코를 강타했어.",
+      "oldExists": true,
+      "newExists": true
+    }
+  ],
+  "sourceSnapshots": {
+    "pipeline/out/set31.json": {
+      "beforeHash": "5aeca8991ddd5e5fae82ba302e05c083141b47fb7cd3af8aaee312442403182e",
+      "afterHash": "890602888ca8a4c896ec1649610c97b33ff9a3ef452d9d58b234aca7f39407ed"
+    }
+  },
+  "snapshots": {
+    "DATA": {
+      "beforeHash": "daa18c212aea94c742598f067f9b5fd50590e6d94d4ca2fd53181571889044a5",
+      "afterHash": "a17c13665db5dbd3ab7a0d6d1d56d5a67bfd72de9e05f157da38415032a9bd22",
+      "changes": [
+        {
+          "path": [
+            31,
+            "exercises",
+            5,
+            "words",
+            4,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Plate tectonics, developed in the 1960s, helped explain why {{BLANK}}s cluster near plate boundaries.",
+          "new": "A strong {{BLANK}} hit San Francisco in 1906."
+        },
+        {
+          "path": [
+            31,
+            "exercises",
+            5,
+            "words",
+            4,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "1960년대에 발전한 판구조론은 지진이 왜 판 경계 부근에 집중되는지 설명하는 데 도움을 주었어.",
+          "new": "1906년에 강한 지진이 샌프란시스코를 강타했어."
+        }
+      ]
+    }
+  },
+  "verification": {
+    "changedFields": 2,
+    "sourceDataSync": "passed",
+    "recordedEditsOnly": "passed",
+    "fullRestoration": "passed",
+    "all30CurrentProposalsMatch": "passed",
+    "uiCode": "unchanged",
+    "tests": [
+      "placement-regrouping",
+      "morphology-content",
+      "ipa-effects/conservation"
+    ],
+    "browserCheck": "not_run",
+    "deployment": "not_deployed"
+  }
+}

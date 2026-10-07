@@ -1,0 +1,646 @@
+{
+  "date": "2026-10-07",
+  "status": "applied_locally_not_deployed",
+  "authorization": "User approved the seven full English sentences and Korean translations shown in the preceding assistant response: 좋습니다 이렇게 작업합시다",
+  "changedCards": 7,
+  "changedFields": 14,
+  "sourceChanges": [
+    {
+      "file": "pipeline/out/set43.json",
+      "exercise": 5,
+      "word": "eleventh",
+      "si": 1,
+      "sourcePath": [
+        4,
+        "words",
+        0,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "Germany signed the World War I armistice on November {{BLANK}}, 1918.",
+      "new": "Germany agreed to stop fighting in World War I on November {{BLANK}}, 1918.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set43.json",
+      "exercise": 5,
+      "word": "eleventh",
+      "si": 1,
+      "sourcePath": [
+        4,
+        "words",
+        0,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "독일은 1918년 11월 11일에 제1차 세계대전 휴전 협정에 서명했어.",
+      "new": "독일은 1918년 11월 11일에 제1차 세계대전에서 싸움을 멈추기로 합의했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "thirteenth",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        3,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "The Mongol Empire expanded across much of Eurasia in the {{BLANK}} century.",
+      "new": "The Mongol Empire grew across much of Asia and into Europe in the {{BLANK}} century.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "thirteenth",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        3,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "몽골 제국은 13세기에 유라시아의 넓은 지역으로 세력을 확대했어.",
+      "new": "몽골 제국은 13세기에 아시아의 넓은 지역을 거쳐 유럽까지 커졌어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "fourteenth",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        6,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "A crowd stormed the Bastille on July {{BLANK}}, 1789.",
+      "new": "People attacked the Bastille prison on July {{BLANK}}, 1789.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "fourteenth",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        6,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "1789년 7월 14일, 군중이 바스티유 감옥을 습격했어.",
+      "new": "1789년 7월 14일에 사람들이 바스티유 감옥을 공격했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "seventeenth",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        8,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "The Scientific Revolution transformed European thought in the {{BLANK}} century.",
+      "new": "In the {{BLANK}} century, new scientific ideas changed how Europeans understood the world.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "seventeenth",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        8,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "17세기의 과학혁명은 유럽의 사고방식을 바꾸었어.",
+      "new": "17세기에 새로운 과학적 생각들은 유럽인들이 세상을 이해하는 방식을 바꾸었어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set40.json",
+      "exercise": 9,
+      "word": "nineteenth",
+      "si": 1,
+      "sourcePath": [
+        8,
+        "words",
+        3,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "European powers colonized much of Africa in the late {{BLANK}} century.",
+      "new": "European countries took control of much of Africa in the late {{BLANK}} century.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set40.json",
+      "exercise": 9,
+      "word": "nineteenth",
+      "si": 1,
+      "sourcePath": [
+        8,
+        "words",
+        3,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "유럽 열강은 19세기 후반 아프리카의 넓은 지역을 식민지로 삼았어.",
+      "new": "유럽 국가들은 19세기 후반 아프리카의 넓은 지역을 지배하게 되었어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set09.json",
+      "exercise": 2,
+      "word": "structure",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        6,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "In 1953, scientists proposed a model of DNA's double-helix {{BLANK}}.",
+      "new": "In 1953, scientists made a model of DNA's {{BLANK}}.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set09.json",
+      "exercise": 2,
+      "word": "structure",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        6,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "1953년에 과학자들은 DNA의 이중 나선 구조 모형을 제안했어.",
+      "new": "1953년에 과학자들은 DNA 구조의 모형을 만들었어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set23.json",
+      "exercise": 2,
+      "word": "data",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        0,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "In 1953, X-ray {{BLANK}} helped reveal DNA's double-helix structure.",
+      "new": "In 1953, X-ray {{BLANK}} helped scientists understand DNA's structure.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set23.json",
+      "exercise": 2,
+      "word": "data",
+      "si": 1,
+      "sourcePath": [
+        1,
+        "words",
+        0,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "1953년에 X선 자료는 DNA의 이중 나선 구조를 밝히는 데 도움을 주었어.",
+      "new": "1953년에 X선 자료는 과학자들이 DNA의 구조를 이해하는 데 도움이 되었어.",
+      "oldExists": true,
+      "newExists": true
+    }
+  ],
+  "sourceSnapshots": {
+    "pipeline/out/set43.json": {
+      "beforeHash": "624e06ad9adf1dbb96a8d0c19cad18ee1205c4fe00e29433696a7b035f4f55ed",
+      "afterHash": "9e8b5f4ce02c0f2b1a0779d09103adadef158ac3282039933d140e5eebb2c72e"
+    },
+    "pipeline/out/set44.json": {
+      "beforeHash": "ecd7961fae37be198f2a4f051108144696d27a85a8b1eae8fdb265541b414f54",
+      "afterHash": "0cbc87c5d038def4553bb89ce1d215900cd6bfef839021021ccee870ab967e4d"
+    },
+    "pipeline/out/set40.json": {
+      "beforeHash": "f4d1ff8266652c648e12198182dfe579c70a8e19e9a7e105d0c284e94fdcdabf",
+      "afterHash": "fe215f12bef30f51e0f1198f6f4be90f48726fae26b218ca0b7d4c526bc541c2"
+    },
+    "pipeline/out/set09.json": {
+      "beforeHash": "3d39a5c22c39eed8c6734e760726952f25a0c3fdd0feadab893c68883970e849",
+      "afterHash": "328231de5437c67de53c065f27f41b86f60317378fd7574633cf6be62cc72243"
+    },
+    "pipeline/out/set23.json": {
+      "beforeHash": "f61132a0f7ecdec0d472afbe68014a359421c7efb2bee07f5ee6840163d0c6f5",
+      "afterHash": "f2c5019edf4f0f2192336221337499dbcec1ba03deed4c9e07f0dcc27ee61695"
+    }
+  },
+  "snapshots": {
+    "DATA": {
+      "beforeHash": "a17c13665db5dbd3ab7a0d6d1d56d5a67bfd72de9e05f157da38415032a9bd22",
+      "afterHash": "c4f71f2424643f10ff5f1932fde09fd212167b25a5590927f95411400600ff47",
+      "changes": [
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            13,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Germany signed the World War I armistice on November {{BLANK}}, 1918.",
+          "new": "Germany agreed to stop fighting in World War I on November {{BLANK}}, 1918."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            13,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "독일은 1918년 11월 11일에 제1차 세계대전 휴전 협정에 서명했어.",
+          "new": "독일은 1918년 11월 11일에 제1차 세계대전에서 싸움을 멈추기로 합의했어."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            15,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "The Mongol Empire expanded across much of Eurasia in the {{BLANK}} century.",
+          "new": "The Mongol Empire grew across much of Asia and into Europe in the {{BLANK}} century."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            15,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "몽골 제국은 13세기에 유라시아의 넓은 지역으로 세력을 확대했어.",
+          "new": "몽골 제국은 13세기에 아시아의 넓은 지역을 거쳐 유럽까지 커졌어."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            16,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "A crowd stormed the Bastille on July {{BLANK}}, 1789.",
+          "new": "People attacked the Bastille prison on July {{BLANK}}, 1789."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            16,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "1789년 7월 14일, 군중이 바스티유 감옥을 습격했어.",
+          "new": "1789년 7월 14일에 사람들이 바스티유 감옥을 공격했어."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            18,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "The Scientific Revolution transformed European thought in the {{BLANK}} century.",
+          "new": "In the {{BLANK}} century, new scientific ideas changed how Europeans understood the world."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            18,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "17세기의 과학혁명은 유럽의 사고방식을 바꾸었어.",
+          "new": "17세기에 새로운 과학적 생각들은 유럽인들이 세상을 이해하는 방식을 바꾸었어."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            20,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "European powers colonized much of Africa in the late {{BLANK}} century.",
+          "new": "European countries took control of much of Africa in the late {{BLANK}} century."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            10,
+            "words",
+            20,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "유럽 열강은 19세기 후반 아프리카의 넓은 지역을 식민지로 삼았어.",
+          "new": "유럽 국가들은 19세기 후반 아프리카의 넓은 지역을 지배하게 되었어."
+        },
+        {
+          "path": [
+            9,
+            "exercises",
+            1,
+            "words",
+            6,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "In 1953, scientists proposed a model of DNA's double-helix {{BLANK}}.",
+          "new": "In 1953, scientists made a model of DNA's {{BLANK}}."
+        },
+        {
+          "path": [
+            9,
+            "exercises",
+            1,
+            "words",
+            6,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "1953년에 과학자들은 DNA의 이중 나선 구조 모형을 제안했어.",
+          "new": "1953년에 과학자들은 DNA 구조의 모형을 만들었어."
+        },
+        {
+          "path": [
+            23,
+            "exercises",
+            1,
+            "words",
+            0,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "In 1953, X-ray {{BLANK}} helped reveal DNA's double-helix structure.",
+          "new": "In 1953, X-ray {{BLANK}} helped scientists understand DNA's structure."
+        },
+        {
+          "path": [
+            23,
+            "exercises",
+            1,
+            "words",
+            0,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "1953년에 X선 자료는 DNA의 이중 나선 구조를 밝히는 데 도움을 주었어.",
+          "new": "1953년에 X선 자료는 과학자들이 DNA의 구조를 이해하는 데 도움이 되었어."
+        }
+      ]
+    }
+  },
+  "cards": [
+    {
+      "number": 1,
+      "id": "C0409",
+      "en": "eleventh",
+      "file": "pipeline/out/set43.json",
+      "sourcePath": [
+        4,
+        "words",
+        0
+      ],
+      "gamePath": [
+        1,
+        "exercises",
+        10,
+        "words",
+        13
+      ],
+      "sources": [
+        "https://www.iwm.org.uk/sites/default/files/files/2023-10/first_world_war_large_print_guide.pdf"
+      ],
+      "afterCardHash": "6072fc81fcfcf1e0d56b7f2420c8ab165eb278b0113dc6518b95248f9d0b77c2"
+    },
+    {
+      "number": 3,
+      "id": "C0411",
+      "en": "thirteenth",
+      "file": "pipeline/out/set44.json",
+      "sourcePath": [
+        1,
+        "words",
+        3
+      ],
+      "gamePath": [
+        1,
+        "exercises",
+        10,
+        "words",
+        15
+      ],
+      "sources": [
+        "https://www.metmuseum.org/essays/the-legacy-of-genghis-khan"
+      ],
+      "afterCardHash": "1a55d0934f342464daa29a8545adeb4f4384b6375658d9438884c435db14bc75"
+    },
+    {
+      "number": 4,
+      "id": "C0412",
+      "en": "fourteenth",
+      "file": "pipeline/out/set44.json",
+      "sourcePath": [
+        1,
+        "words",
+        6
+      ],
+      "gamePath": [
+        1,
+        "exercises",
+        10,
+        "words",
+        16
+      ],
+      "sources": [
+        "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/14-juillet-la-fete-qui-nous-rassemble"
+      ],
+      "afterCardHash": "da92b55976cc9053e2665cc12a957280b6e6ff3cff715cca27acf3b10240e53c"
+    },
+    {
+      "number": 6,
+      "id": "C0414",
+      "en": "seventeenth",
+      "file": "pipeline/out/set44.json",
+      "sourcePath": [
+        1,
+        "words",
+        8
+      ],
+      "gamePath": [
+        1,
+        "exercises",
+        10,
+        "words",
+        18
+      ],
+      "sources": [
+        "https://www.openbookpublishers.com/books/10.11647/obp.0054"
+      ],
+      "afterCardHash": "d4c02864bb25838847d59ebd333dc618dbadd3f4ad12c74d9ca5da91414def3c"
+    },
+    {
+      "number": 8,
+      "id": "C0416",
+      "en": "nineteenth",
+      "file": "pipeline/out/set40.json",
+      "sourcePath": [
+        8,
+        "words",
+        3
+      ],
+      "gamePath": [
+        1,
+        "exercises",
+        10,
+        "words",
+        20
+      ],
+      "sources": [
+        "https://openstax.org/books/world-history-volume-2/pages/9-3-colonial-empires"
+      ],
+      "afterCardHash": "923a2c90788ce902c7e4c67ee528e06cd88940a64313c85000070e04683eee9c"
+    },
+    {
+      "number": 16,
+      "id": "C1664",
+      "en": "structure",
+      "file": "pipeline/out/set09.json",
+      "sourcePath": [
+        1,
+        "words",
+        6
+      ],
+      "gamePath": [
+        9,
+        "exercises",
+        1,
+        "words",
+        6
+      ],
+      "sources": [
+        "https://www.genome.gov/25520255/online-education-kit-1953-dna-double-helix"
+      ],
+      "afterCardHash": "5def27a41bdc9fb68822aa1ca480511d78afe47dfdf29c7909b32430db2bdc47"
+    },
+    {
+      "number": 29,
+      "id": "C3463",
+      "en": "data",
+      "file": "pipeline/out/set23.json",
+      "sourcePath": [
+        1,
+        "words",
+        0
+      ],
+      "gamePath": [
+        23,
+        "exercises",
+        1,
+        "words",
+        0
+      ],
+      "sources": [
+        "https://www.genome.gov/25520255/online-education-kit-1953-dna-double-helix"
+      ],
+      "afterCardHash": "c9428c3dd229b00b295db50c525755dc9cb228aacb0cab61a9f8e30eb5a4fd44"
+    }
+  ],
+  "verification": {
+    "approvedExamplesAndTranslations": "all_7_exact",
+    "changedFields": 14,
+    "changedSourceFiles": 5,
+    "cumulativeChangedCardsInBatch": 30,
+    "cumulativeChangedFieldsInBatch": 64,
+    "otherFieldsAndUi": "unchanged",
+    "sourceDataSync": "passed",
+    "reverseHistory": "passed",
+    "tests": [
+      "placement-regrouping",
+      "morphology-content",
+      "ipa-effects/conservation"
+    ],
+    "browserCheck": "not_run",
+    "deployment": "not_deployed"
+  }
+}

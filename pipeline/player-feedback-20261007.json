@@ -1,0 +1,586 @@
+{
+  "date": "2026-10-07",
+  "reason": "FABLE set 1 Exercise 11-2: replace all nine examples with verified historical dates, superseding the earlier three-card birthday revision.",
+  "verifiedFacts": [
+    {
+      "word": "eleventh",
+      "date": "1918-11-11",
+      "sources": [
+        "https://www.iwm.org.uk/sites/default/files/files/2023-10/first_world_war_large_print_guide.pdf"
+      ],
+      "note": "German armistice; do not claim the legal end of the entire war."
+    },
+    {
+      "word": "twelfth",
+      "date": "1961-04-12",
+      "sources": [
+        "https://science.nasa.gov/resource/yuri-gagarin-first-human-in-space/"
+      ]
+    },
+    {
+      "word": "thirteenth",
+      "date": "1961-08-13",
+      "sources": [
+        "https://www.stiftung-berliner-mauer.de/en/east-side-gallery/historical-site/berlin-wall-muehlenstrasse",
+        "https://www.berlin.de/en/news/9094422-5559700-berlin-commemorates-the-building-of-the-.en.html"
+      ],
+      "note": "Construction began, not completed."
+    },
+    {
+      "word": "fourteenth",
+      "date": "1789-07-14",
+      "sources": [
+        "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/14-juillet-la-fete-qui-nous-rassemble"
+      ]
+    },
+    {
+      "word": "fifteenth",
+      "date": "1945-08-15",
+      "sources": [
+        "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148797800"
+      ],
+      "note": "Liberation in 1945, not the establishment of the ROK government in 1948."
+    },
+    {
+      "word": "seventeenth",
+      "date": "1948-07-17",
+      "sources": [
+        "https://www.ccourt.go.kr/site/eng/01/10103010000002020081101.jsp",
+        "https://db.history.go.kr/contemp/level.do?levelId=dh_007_1948_07_17_0080&types=o"
+      ],
+      "note": "Promulgated July 17; adopted July 12."
+    },
+    {
+      "word": "eighteenth",
+      "date": "1980-05-18",
+      "sources": [
+        "https://www.518archives.go.kr/dcma/DcmaPageLink.do?baseMenuNo=1000000&link=1010000"
+      ],
+      "note": "Official archive gives the uprising period as May 18–27, 1980."
+    },
+    {
+      "word": "nineteenth",
+      "date": "1960-04-19",
+      "sources": [
+        "https://www.mpva.go.kr/419/contents.do?key=300"
+      ],
+      "note": "Describe the protests that day; earlier protests also formed part of the revolution."
+    },
+    {
+      "word": "twentieth",
+      "date": "1969-07-20",
+      "sources": [
+        "https://www.nasa.gov/wp-content/uploads/static/history/ap11ann/ap11events.html",
+        "https://airandspace.si.edu/explore/stories/apollo-missions/apollo-11-moon-landing/apollo-11-timeline"
+      ],
+      "note": "Landing at 20:17 UTC July 20, distinct from the first step on July 21 UTC."
+    }
+  ],
+  "sourceChanges": [
+    {
+      "file": "pipeline/out/set43.json",
+      "exercise": 5,
+      "word": "eleventh",
+      "si": 1,
+      "field": "ex",
+      "old": "He came in {{BLANK}} in the school race.",
+      "new": "Germany signed an armistice on November {{BLANK}}, 1918."
+    },
+    {
+      "file": "pipeline/out/set43.json",
+      "exercise": 5,
+      "word": "eleventh",
+      "si": 1,
+      "field": "tr",
+      "old": "걔는 학교 달리기에서 열한 번째로 들어왔어.",
+      "new": "독일은 1918년 11월 11일에 휴전 협정에 서명했어."
+    },
+    {
+      "file": "pipeline/out/set43.json",
+      "exercise": 2,
+      "word": "twelfth",
+      "si": 1,
+      "field": "ex",
+      "old": "Today is the {{BLANK}} day of our trip.",
+      "new": "Yuri Gagarin became the first human in space on April {{BLANK}}, 1961."
+    },
+    {
+      "file": "pipeline/out/set43.json",
+      "exercise": 2,
+      "word": "twelfth",
+      "si": 1,
+      "field": "tr",
+      "old": "오늘이 우리 여행 열두째 날이야.",
+      "new": "유리 가가린은 1961년 4월 12일에 인류 최초로 우주에 갔어."
+    },
+    {
+      "file": "pipeline/out/set43.json",
+      "exercise": 4,
+      "word": "eighteenth",
+      "si": 1,
+      "field": "ex",
+      "old": "My sister's {{BLANK}} birthday is next month.",
+      "new": "The Gwangju Uprising began on the {{BLANK}} of May, 1980."
+    },
+    {
+      "file": "pipeline/out/set43.json",
+      "exercise": 4,
+      "word": "eighteenth",
+      "si": 1,
+      "field": "tr",
+      "old": "우리 누나 열여덟 번째 생일이 다음 달이야.",
+      "new": "광주민주화운동은 1980년 5월 18일에 시작됐어."
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "thirteenth",
+      "si": 1,
+      "field": "ex",
+      "old": "Many buildings skip the {{BLANK}} floor.",
+      "new": "Construction of the Berlin Wall began on August {{BLANK}}, 1961."
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "thirteenth",
+      "si": 1,
+      "field": "tr",
+      "old": "많은 건물이 13층을 건너뛰어.",
+      "new": "베를린 장벽 건설은 1961년 8월 13일에 시작됐어."
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "thirteenth",
+      "si": 1,
+      "field": "c",
+      "old": "13th로 줄여 쓴다. the thirteenth of May는 5월 13일. May thirteenth라는 순서로도 읽는다.",
+      "new": "13th. August thirteenth = the thirteenth of August(8월 13일)."
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "fourteenth",
+      "si": 1,
+      "field": "ex",
+      "old": "She won her {{BLANK}} game in a row.",
+      "new": "A crowd stormed the Bastille on July {{BLANK}}, 1789."
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "fourteenth",
+      "si": 1,
+      "field": "tr",
+      "old": "그 애는 14연승을 거뒀어.",
+      "new": "1789년 7월 14일, 군중이 바스티유 감옥을 습격했어."
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 4,
+      "word": "fifteenth",
+      "si": 1,
+      "field": "ex",
+      "old": "Today is the {{BLANK}} day of the month.",
+      "new": "Korea was freed from Japanese rule on August {{BLANK}}, 1945."
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 4,
+      "word": "fifteenth",
+      "si": 1,
+      "field": "tr",
+      "old": "오늘은 그 달의 열다섯 번째 날이야.",
+      "new": "한국은 1945년 8월 15일에 일본의 지배에서 해방됐어."
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "seventeenth",
+      "si": 1,
+      "field": "ex",
+      "old": "My brother had his {{BLANK}} birthday party.",
+      "new": "South Korea's first constitution was proclaimed on July {{BLANK}}, 1948."
+    },
+    {
+      "file": "pipeline/out/set44.json",
+      "exercise": 2,
+      "word": "seventeenth",
+      "si": 1,
+      "field": "tr",
+      "old": "우리 오빠는 열일곱 번째 생일 파티를 했어.",
+      "new": "대한민국의 제헌헌법은 1948년 7월 17일에 공포됐어."
+    },
+    {
+      "file": "pipeline/out/set40.json",
+      "exercise": 9,
+      "word": "nineteenth",
+      "si": 1,
+      "field": "ex",
+      "old": "My birthday is on the {{BLANK}} of May.",
+      "new": "Koreans protested against dictatorship on April {{BLANK}}, 1960."
+    },
+    {
+      "file": "pipeline/out/set40.json",
+      "exercise": 9,
+      "word": "nineteenth",
+      "si": 1,
+      "field": "tr",
+      "old": "내 생일은 5월 19일이야.",
+      "new": "1960년 4월 19일, 한국인들이 독재에 맞서 시위했어."
+    },
+    {
+      "file": "pipeline/out/set40.json",
+      "exercise": 9,
+      "word": "nineteenth",
+      "si": 1,
+      "field": "c",
+      "old": "nineteen+th. 날짜를 읽을 때 앞에 the를 붙인다.",
+      "new": "19th. 예문은 4·19혁명 당시의 시위를 말한다."
+    },
+    {
+      "file": "pipeline/out/set40.json",
+      "exercise": 4,
+      "word": "twentieth",
+      "si": 1,
+      "field": "ex",
+      "old": "Today is my sister's {{BLANK}} birthday.",
+      "new": "Apollo 11 landed on the Moon on July {{BLANK}}, 1969."
+    },
+    {
+      "file": "pipeline/out/set40.json",
+      "exercise": 4,
+      "word": "twentieth",
+      "si": 1,
+      "field": "tr",
+      "old": "오늘은 우리 누나 스무 번째 생일이야.",
+      "new": "아폴로 11호는 1969년 7월 20일에 달에 착륙했어."
+    },
+    {
+      "file": "pipeline/out/set40.json",
+      "exercise": 4,
+      "word": "twentieth",
+      "si": 1,
+      "field": "c",
+      "old": "twenty의 y가 ie로 바뀐다. 명사 a twentieth는 20분의 1.",
+      "new": "twenty의 y가 ie로 바뀐다. 달 착륙은 UTC 기준 7월 20일(한국 시간 21일)."
+    }
+  ],
+  "sourceSnapshots": {
+    "pipeline/out/set43.json": {
+      "beforeHash": "f7b1f031f9f813a210b93bfafe642444b44b0fccf412fbbb1e43ae50fc64eec2",
+      "afterHash": "5df2390352d012f22d3f2f808e2fcfff4dd16bb7e9b2179ba2a7a51418a9673b"
+    },
+    "pipeline/out/set44.json": {
+      "beforeHash": "641a3a044edec8ab914d8b6bc0d401a49ca54e682828173be6a9ed1828364432",
+      "afterHash": "6c5cdeb246686487693f71bd3c829e60a8ac3b304241e7f36355bfa2616a5eb9"
+    },
+    "pipeline/out/set40.json": {
+      "beforeHash": "43493895fc396ffa16ac6bb2fb773c014be577a285f4b4d731c430e147c058e4",
+      "afterHash": "3515ac5cb9fd22f141a3ff79b95f077bd15f86658d238f0945a3df7686bc4414"
+    }
+  },
+  "snapshots": {
+    "DATA": {
+      "beforeHash": "0acc304e4da9a05f25b86b715d7a26b107c607b41f677c25157304bc9b232b81",
+      "afterHash": "60105b7239890b278ba471ff680575cbbac7fbe6997cf3bf779d98f45dbaa06c",
+      "changes": [
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "13",
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "He came in {{BLANK}} in the school race.",
+          "new": "Germany signed an armistice on November {{BLANK}}, 1918."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "13",
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "걔는 학교 달리기에서 열한 번째로 들어왔어.",
+          "new": "독일은 1918년 11월 11일에 휴전 협정에 서명했어."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "14",
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Today is the {{BLANK}} day of our trip.",
+          "new": "Yuri Gagarin became the first human in space on April {{BLANK}}, 1961."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "14",
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "오늘이 우리 여행 열두째 날이야.",
+          "new": "유리 가가린은 1961년 4월 12일에 인류 최초로 우주에 갔어."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "15",
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Many buildings skip the {{BLANK}} floor.",
+          "new": "Construction of the Berlin Wall began on August {{BLANK}}, 1961."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "15",
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "많은 건물이 13층을 건너뛰어.",
+          "new": "베를린 장벽 건설은 1961년 8월 13일에 시작됐어."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "15",
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "13th로 줄여 쓴다. the thirteenth of May는 5월 13일. May thirteenth라는 순서로도 읽는다.",
+          "new": "13th. August thirteenth = the thirteenth of August(8월 13일)."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "16",
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "She won her {{BLANK}} game in a row.",
+          "new": "A crowd stormed the Bastille on July {{BLANK}}, 1789."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "16",
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "그 애는 14연승을 거뒀어.",
+          "new": "1789년 7월 14일, 군중이 바스티유 감옥을 습격했어."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "17",
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Today is the {{BLANK}} day of the month.",
+          "new": "Korea was freed from Japanese rule on August {{BLANK}}, 1945."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "17",
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "오늘은 그 달의 열다섯 번째 날이야.",
+          "new": "한국은 1945년 8월 15일에 일본의 지배에서 해방됐어."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "18",
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "My brother had his {{BLANK}} birthday party.",
+          "new": "South Korea's first constitution was proclaimed on July {{BLANK}}, 1948."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "18",
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "우리 오빠는 열일곱 번째 생일 파티를 했어.",
+          "new": "대한민국의 제헌헌법은 1948년 7월 17일에 공포됐어."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "19",
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "My sister's {{BLANK}} birthday is next month.",
+          "new": "The Gwangju Uprising began on the {{BLANK}} of May, 1980."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "19",
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "우리 누나 열여덟 번째 생일이 다음 달이야.",
+          "new": "광주민주화운동은 1980년 5월 18일에 시작됐어."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "20",
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "My birthday is on the {{BLANK}} of May.",
+          "new": "Koreans protested against dictatorship on April {{BLANK}}, 1960."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "20",
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "내 생일은 5월 19일이야.",
+          "new": "1960년 4월 19일, 한국인들이 독재에 맞서 시위했어."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "20",
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "nineteen+th. 날짜를 읽을 때 앞에 the를 붙인다.",
+          "new": "19th. 예문은 4·19혁명 당시의 시위를 말한다."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "21",
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Today is my sister's {{BLANK}} birthday.",
+          "new": "Apollo 11 landed on the Moon on July {{BLANK}}, 1969."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "21",
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "오늘은 우리 누나 스무 번째 생일이야.",
+          "new": "아폴로 11호는 1969년 7월 20일에 달에 착륙했어."
+        },
+        {
+          "path": [
+            "1",
+            "exercises",
+            "10",
+            "words",
+            "21",
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "twenty의 y가 ie로 바뀐다. 명사 a twentieth는 20분의 1.",
+          "new": "twenty의 y가 ie로 바뀐다. 달 착륙은 UTC 기준 7월 20일(한국 시간 21일)."
+        }
+      ]
+    }
+  }
+}

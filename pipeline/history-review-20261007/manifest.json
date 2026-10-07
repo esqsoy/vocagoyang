@@ -1,0 +1,499 @@
+{
+  "date": "2026-10-07",
+  "status": "batch_01_applied_locally_remaining_candidates",
+  "dataHash": "60105b7239890b278ba471ff680575cbbac7fbe6997cf3bf779d98f45dbaa06c",
+  "totalCards": 7067,
+  "sets": 51,
+  "ranges": {
+    "early": {
+      "reviewed": 2329,
+      "candidates": 151,
+      "keep": 2169,
+      "pendingExisting": 9,
+      "initialCandidates": 153
+    },
+    "middle": {
+      "reviewed": 2331,
+      "candidates": 165,
+      "keep": 2166,
+      "pendingExisting": 0,
+      "initialCandidates": 165
+    },
+    "late": {
+      "reviewed": 2407,
+      "candidates": 296,
+      "keep": 2111,
+      "pendingExisting": 0,
+      "initialCandidates": 312
+    }
+  },
+  "inputLocation": "work/history-audit-20261007",
+  "uniqueHeadwords": 4916,
+  "initialCandidates": 630,
+  "candidates": 612,
+  "candidateHeadwords": 568,
+  "rootKept": 18,
+  "keep": 6446,
+  "pendingExisting": 9,
+  "facts": 72,
+  "scienceFacts": 27,
+  "sourceUrls": 101,
+  "dataUnchanged": false,
+  "newEnglishExamplesWritten": 21,
+  "appliedCardsThisAudit": 30,
+  "deployment": false,
+  "readBatches": [
+    {
+      "firstId": "C0001",
+      "lastId": "C0100",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C0101",
+      "lastId": "C0200",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C0201",
+      "lastId": "C0300",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C0301",
+      "lastId": "C0400",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C0401",
+      "lastId": "C0500",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C0501",
+      "lastId": "C0600",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C0601",
+      "lastId": "C0700",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C0701",
+      "lastId": "C0800",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C0801",
+      "lastId": "C0900",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C0901",
+      "lastId": "C1000",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C1001",
+      "lastId": "C1100",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C1101",
+      "lastId": "C1200",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C1201",
+      "lastId": "C1300",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C1301",
+      "lastId": "C1400",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C1401",
+      "lastId": "C1500",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C1501",
+      "lastId": "C1600",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C1601",
+      "lastId": "C1700",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C1701",
+      "lastId": "C1800",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C1801",
+      "lastId": "C1900",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C1901",
+      "lastId": "C2000",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C2001",
+      "lastId": "C2100",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C2101",
+      "lastId": "C2200",
+      "count": 100,
+      "range": "early"
+    },
+    {
+      "firstId": "C2201",
+      "lastId": "C2329",
+      "count": 129,
+      "range": "early"
+    },
+    {
+      "firstId": "C2330",
+      "lastId": "C2429",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C2430",
+      "lastId": "C2529",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C2530",
+      "lastId": "C2629",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C2630",
+      "lastId": "C2729",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C2730",
+      "lastId": "C2829",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C2830",
+      "lastId": "C2929",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C2930",
+      "lastId": "C3029",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C3030",
+      "lastId": "C3129",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C3130",
+      "lastId": "C3229",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C3230",
+      "lastId": "C3329",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C3330",
+      "lastId": "C3429",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C3430",
+      "lastId": "C3529",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C3530",
+      "lastId": "C3629",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C3630",
+      "lastId": "C3729",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C3730",
+      "lastId": "C3829",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C3830",
+      "lastId": "C3929",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C3930",
+      "lastId": "C4029",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C4030",
+      "lastId": "C4129",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C4130",
+      "lastId": "C4229",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C4230",
+      "lastId": "C4329",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C4330",
+      "lastId": "C4429",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C4430",
+      "lastId": "C4529",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C4530",
+      "lastId": "C4629",
+      "count": 100,
+      "range": "middle"
+    },
+    {
+      "firstId": "C4630",
+      "lastId": "C4660",
+      "count": 31,
+      "range": "middle"
+    },
+    {
+      "firstId": "C4661",
+      "lastId": "C4760",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C4761",
+      "lastId": "C4860",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C4861",
+      "lastId": "C4960",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C4961",
+      "lastId": "C5060",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C5061",
+      "lastId": "C5160",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C5161",
+      "lastId": "C5260",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C5261",
+      "lastId": "C5360",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C5361",
+      "lastId": "C5460",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C5461",
+      "lastId": "C5560",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C5561",
+      "lastId": "C5660",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C5661",
+      "lastId": "C5760",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C5761",
+      "lastId": "C5860",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C5861",
+      "lastId": "C5960",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C5961",
+      "lastId": "C6060",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C6061",
+      "lastId": "C6160",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C6161",
+      "lastId": "C6260",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C6261",
+      "lastId": "C6360",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C6361",
+      "lastId": "C6460",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C6461",
+      "lastId": "C6560",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C6561",
+      "lastId": "C6660",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C6661",
+      "lastId": "C6760",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C6761",
+      "lastId": "C6860",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C6861",
+      "lastId": "C6960",
+      "count": 100,
+      "range": "late"
+    },
+    {
+      "firstId": "C6961",
+      "lastId": "C7067",
+      "count": 107,
+      "range": "late"
+    }
+  ],
+  "verification": [
+    "All 7067 IDs reviewed exactly once in range reviews",
+    "Read batches cover assigned ranges without gaps",
+    "Root read all 630 initial candidates and retained 18 current examples",
+    "Every remaining candidate has fact links and preservation requirements",
+    "Every fact has verified core claim, sources and guardrails",
+    "Game DATA hash unchanged during this audit"
+  ],
+  "remaining": [
+    "Draft the remaining 591 selected candidate cards with verified time context",
+    "Show each new batch in chat before applying; batch 01 is already approved and applied",
+    "Deploy only when requested"
+  ],
+  "headwordCounting": "lowercase(word || en), matching the existing headword field",
+  "proposalBatchCards": 30,
+  "proposalStatus": "applied_locally_not_deployed",
+  "dataUnchangedDuringSelection": true,
+  "currentDataHash": "c4f71f2424643f10ff5f1932fde09fd212167b25a5590927f95411400600ff47",
+  "approvedBatchCards": 30,
+  "changedCardsThisAudit": 30,
+  "appliedNewCandidateCards": 21,
+  "remainingCandidateCards": 591,
+  "pendingExistingAtSelection": 9,
+  "pendingExistingNow": 0,
+  "appliedExistingProposalCards": 9,
+  "latestRevision": "difficulty-revision-02.json"
+}

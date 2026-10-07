@@ -3,7 +3,7 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
 const plan=JSON.parse(fs.readFileSync(path.join(__dirname,'placement.json'),'utf8'));
 const hash=x=>crypto.createHash('sha256').update(JSON.stringify(x)).digest('hex');
 function restoreRegrouping(data){
- const restored=structuredClone(data);
+ const restored=require('../restore-player-feedback-20261007.cjs').restorePlayerFeedback20261007(data);
  if(!restored.some(L=>L.placementHistory))return restored;
  assert.equal(hash(restored),plan.audit.afterDataSha256,'Unlogged edit after the approved regrouping');
  const lessons=new Map(restored.map(L=>[L.lesson,L])),cards=new Map();

@@ -58,6 +58,10 @@ node pipeline/tests/pool-expansion.test.cjs
 
 ## 유지할 조건
 
+세계사·과학사 예문 교체의 현재 검토 자료는 [history-review-20261007](history-review-20261007/README.md)에 있다. 전체 7,067카드의 유지/후보 판정과 72개 사실 목록을 보관한다. 사용자 확인 전의 후보·문장 제안은 조립 입력이 아니며 게임에 자동 반영하지 않는다. 확인된 첫 30장은 시기 보강 후 원본에 적용했고, 적용 원장은 history-review-20261007/application-01.json이다. 실제 반영 단계에서 원본 경로를 찾아 수정하고 해당 변경만 보존 검사의 원장에 추가한다.
+
+2026-10-07 FABLE 1세트 Exercise 11-2 역사 날짜 예문과 공식 확인 출처는 `player-feedback-20261007.json`에 기록한다. 저작 원본은 `out/set40.json`·`out/set43.json`·`out/set44.json`이며 학습 배치에서 1세트로 이동한 것이다. 9카드의 예문·해석 및 관련 해설 3개를 바꿨고, 같은 날 앞선 3카드 초안을 대체한다. `restore-player-feedback-20261007.cjs`가 기록된 21필드만 역변환해 과거 배치·내용 검사의 고정 해시를 유지한다. 실제 최신 카드·학습 결과와 과거 단계 보존 검사를 구분한다.
+
 ### 인덱스 단어 수 자동 갱신
 
 `index-stats.cjs`가 세 게임 HTML의 실제 `DATA`를 읽어 `index.html`의 `VOCAB_STATS` 구간만 갱신한다. 브라우저에서 게임 파일을 추가로 내려받거나 계산하지 않는다. 숫자를 손으로 고치지 않는다.

@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-07",
+  "reviewedCards": 30,
+  "appliedRevision": "difficulty-revision-01.json",
+  "pendingStatus": "none_all_seven_approved_and_applied",
+  "pending": [],
+  "retained": [
+    2,
+    5,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "rule": "주변 어휘·문형·전문지식 부담을 표제어의 해당 뜻을 처음 배우는 학습자 수준에 맞춘다. 세트 번호나 글자 수만으로 판정하지 않는다.",
+  "applied": [
+    {
+      "number": 1,
+      "en": "eleventh",
+      "issue": "armistice",
+      "ex": "Germany agreed to stop fighting in World War I on November {{BLANK}}, 1918.",
+      "tr": "독일은 1918년 11월 11일에 제1차 세계대전에서 싸움을 멈추기로 합의했어."
+    },
+    {
+      "number": 3,
+      "en": "thirteenth",
+      "issue": "expanded + Eurasia",
+      "ex": "The Mongol Empire grew across much of Asia and into Europe in the {{BLANK}} century.",
+      "tr": "몽골 제국은 13세기에 아시아의 넓은 지역을 거쳐 유럽까지 커졌어."
+    },
+    {
+      "number": 4,
+      "en": "fourteenth",
+      "issue": "stormed + 설명 없는 Bastille",
+      "ex": "People attacked the Bastille prison on July {{BLANK}}, 1789.",
+      "tr": "1789년 7월 14일에 사람들이 바스티유 감옥을 공격했어."
+    },
+    {
+      "number": 6,
+      "en": "seventeenth",
+      "issue": "transformed European thought",
+      "ex": "In the {{BLANK}} century, new scientific ideas changed how Europeans understood the world.",
+      "tr": "17세기에 새로운 과학적 생각들은 유럽인들이 세상을 이해하는 방식을 바꾸었어."
+    },
+    {
+      "number": 8,
+      "en": "nineteenth",
+      "issue": "powers의 특수 뜻 + colonized",
+      "ex": "European countries took control of much of Africa in the late {{BLANK}} century.",
+      "tr": "유럽 국가들은 19세기 후반 아프리카의 넓은 지역을 지배하게 되었어."
+    },
+    {
+      "number": 16,
+      "en": "structure",
+      "issue": "double-helix",
+      "ex": "In 1953, scientists made a model of DNA's {{BLANK}}.",
+      "tr": "1953년에 과학자들은 DNA 구조의 모형을 만들었어."
+    },
+    {
+      "number": 29,
+      "en": "data",
+      "issue": "double-helix",
+      "ex": "In 1953, X-ray {{BLANK}} helped scientists understand DNA's structure.",
+      "tr": "1953년에 X선 자료는 과학자들이 DNA의 구조를 이해하는 데 도움이 되었어."
+    }
+  ],
+  "appliedRevisions": [
+    "difficulty-revision-01.json",
+    "difficulty-revision-02.json"
+  ],
+  "latestRevision": "difficulty-revision-02.json",
+  "status": "applied_locally_not_deployed"
+}

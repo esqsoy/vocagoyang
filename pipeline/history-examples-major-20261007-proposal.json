@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-07",
+  "status": "superseded_by_applied_batch_01",
+  "scope": "FABLE set 1 Exercise 11-2, nine existing ordinal cards",
+  "userDirection": "Only well-established major world-history facts that help explain the broad historical narrative. Replace Korean-history examples. Show all proposed English examples and translations in chat before applying.",
+  "currentDraftDataHash": "60105b7239890b278ba471ff680575cbbac7fbe6997cf3bf779d98f45dbaa06c",
+  "cards": [
+    {
+      "word": "eleventh",
+      "ex": "Germany signed the World War I armistice on November {{BLANK}}, 1918.",
+      "tr": "독일은 1918년 11월 11일에 제1차 세계대전 휴전 협정에 서명했어.",
+      "sources": [
+        "https://www.iwm.org.uk/sites/default/files/files/2023-10/first_world_war_large_print_guide.pdf"
+      ],
+      "note": "Armistice, not a peace treaty; the agreement ended Western Front fighting."
+    },
+    {
+      "word": "twelfth",
+      "ex": "Columbus reached the Americas on October {{BLANK}}, 1492.",
+      "tr": "콜럼버스는 1492년 10월 12일에 아메리카에 도착했어.",
+      "sources": [
+        "https://www.aoc.gov/explore-capitol-campus/art/landing-columbus"
+      ],
+      "note": "Arrival at Guanahani in the Bahamas. Do not call this the first arrival or a discovery of an uninhabited continent."
+    },
+    {
+      "word": "thirteenth",
+      "ex": "The Mongol Empire expanded across much of Eurasia in the {{BLANK}} century.",
+      "tr": "몽골 제국은 13세기에 유라시아의 넓은 지역으로 세력을 확대했어.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-legacy-of-genghis-khan"
+      ],
+      "note": "Century use replaces the earlier Berlin Wall date. Update the old August-date explanation when approved."
+    },
+    {
+      "word": "fourteenth",
+      "ex": "A crowd stormed the Bastille on July {{BLANK}}, 1789.",
+      "tr": "1789년 7월 14일, 군중이 바스티유 감옥을 습격했어.",
+      "sources": [
+        "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/14-juillet-la-fete-qui-nous-rassemble"
+      ],
+      "note": "Major French Revolution event; keep the existing sentence."
+    },
+    {
+      "word": "fifteenth",
+      "ex": "Japan announced its surrender on August {{BLANK}}, 1945.",
+      "tr": "일본은 1945년 8월 15일에 항복을 발표했어.",
+      "sources": [
+        "https://history.blog.gov.uk/2020/08/14/whats-the-context-vj-day-15-august-1945/"
+      ],
+      "note": "Announcement on August 15; formal surrender signing on September 2. Replaces the Korea-liberation example."
+    },
+    {
+      "word": "seventeenth",
+      "ex": "The Scientific Revolution transformed European thought in the {{BLANK}} century.",
+      "tr": "17세기의 과학혁명은 유럽의 사고방식을 바꾸었어.",
+      "sources": [
+        "https://www.openbookpublishers.com/books/10.11647/obp.0054"
+      ],
+      "note": "Does not claim that the Scientific Revolution began in the seventeenth century. Replaces the Korean constitution example."
+    },
+    {
+      "word": "eighteenth",
+      "ex": "The Industrial Revolution began in Britain in the {{BLANK}} century.",
+      "tr": "산업혁명은 18세기에 영국에서 시작됐어.",
+      "sources": [
+        "https://openstax.org/books/world-history-volume-2/pages/9-1-the-second-industrial-revolution"
+      ],
+      "note": "Replaces the Gwangju Uprising example."
+    },
+    {
+      "word": "nineteenth",
+      "ex": "European powers colonized much of Africa in the late {{BLANK}} century.",
+      "tr": "유럽 열강은 19세기 후반 아프리카의 넓은 지역을 식민지로 삼았어.",
+      "sources": [
+        "https://openstax.org/books/world-history-volume-2/pages/9-3-colonial-empires"
+      ],
+      "note": "Much, not all, of Africa. Replaces April Revolution example; remove the now-unrelated April Revolution explanation when approved."
+    },
+    {
+      "word": "twentieth",
+      "ex": "The two world wars took place in the {{BLANK}} century.",
+      "tr": "두 차례의 세계대전은 20세기에 일어났어.",
+      "explanationProposal": "twenty의 y가 ie로 바뀐다. 제1차 세계대전은 1914~1918년, 제2차는 1939~1945년.",
+      "sources": [
+        "https://memorials.iwm.org.uk/memorial/1184",
+        "https://wmr.iwm.org.uk/war/second-world-war-1939-1945"
+      ],
+      "note": "Replaces the lunar landing example and its UTC/Korean date explanation."
+    }
+  ],
+  "currentVersion": "history-review-20261007/proposal-01.json",
+  "application": "history-review-20261007/application-01.json"
+}

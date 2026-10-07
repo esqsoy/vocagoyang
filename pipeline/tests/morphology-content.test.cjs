@@ -1,4 +1,5 @@
 const fs=require('fs'),path=require('path'),assert=require('assert/strict');
+const {restorePlayerFeedbackSource20261007}=require('../restore-player-feedback-20261007.cjs');
 const root=path.resolve(__dirname,'../..');
 const h=fs.readFileSync(path.join(root,'vocagoyangfable.html'),'utf8');
 const data=JSON.parse(h.match(/const DATA = (\[.*?\]);\r?\n/s)[1]);
@@ -23,7 +24,8 @@ for(const u of morph.units){
 // The topic manifest validates its additions before restoring the authored pool.
 for(const L of require('./helpers/editorial-review.cjs').restoreTopicGrouping(data)){
  const file=L.lesson<5?`lesson${String(L.lesson).padStart(2,'0')}.json`:`set${String(L.lesson).padStart(2,'0')}.json`;
- const canonical=JSON.parse(fs.readFileSync(path.join(root,'pipeline/out',file),'utf8'));
+ // Compare both sides before the later, recorded example edits.
+ const canonical=restorePlayerFeedbackSource20261007(JSON.parse(fs.readFileSync(path.join(root,'pipeline/out',file),'utf8')),`pipeline/out/${file}`);
  assert.deepEqual(L.exercises,Array.isArray(canonical)?canonical:canonical.exercises,file);
 }
 assert.equal(stats.units,141);assert.equal(stats.cards,358);assert.equal(stats.greekUnits,24);

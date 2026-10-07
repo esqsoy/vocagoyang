@@ -3,7 +3,8 @@
 // exact coverage represented by an already stored completion.
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'../..'),html=fs.readFileSync(path.join(root,'vocagoyangfable.html'),'utf8');
-const data=JSON.parse(html.match(/^const DATA = (\[.*\]);\s*$/m)[1]);
+// Restore later, recorded wording edits before checking this historical layout change.
+const data=require('../restore-player-feedback-20261007.cjs').restorePlayerFeedback20261007(JSON.parse(html.match(/^const DATA = (\[.*\]);\s*$/m)[1]));
 const before=require('../placement-review-20261003/restore.cjs').restoreRegrouping(data);
 const savedRuntime=fs.readFileSync(path.join(root,'pipeline/saved-cards/runtime.js'),'utf8');
 const plain=value=>JSON.parse(JSON.stringify(value));
