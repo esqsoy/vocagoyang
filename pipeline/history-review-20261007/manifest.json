@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "status": "batch_02_applied_locally_43_pending",
+  "status": "batch_02_deployed_country_pending",
   "dataHash": "60105b7239890b278ba471ff680575cbbac7fbe6997cf3bf779d98f45dbaa06c",
   "totalCards": 7067,
   "sets": 51,
@@ -41,7 +41,7 @@
   "dataUnchanged": false,
   "newEnglishExamplesWritten": 21,
   "appliedCardsThisAudit": 56,
-  "deployment": false,
+  "deployment": true,
   "readBatches": [
     {
       "firstId": "C0001",
@@ -484,7 +484,7 @@
   ],
   "headwordCounting": "lowercase(word || en), matching the existing headword field",
   "proposalBatchCards": 30,
-  "proposalStatus": "applied_and_deployed",
+  "proposalStatus": "25_proposals_deployed_country_pending",
   "dataUnchangedDuringSelection": true,
   "currentDataHash": "d4ade06db2c5d62ee80bb6c49427c410700c7b65f9ee9bac10ae8a15343e0cff",
   "approvedBatchCards": 30,
@@ -495,7 +495,7 @@
   "pendingExistingNow": 0,
   "appliedExistingProposalCards": 9,
   "latestRevision": "application-02.json",
-  "release": "release-01.json",
+  "release": "release-02.json",
   "draftedCandidateCards": 26,
   "withdrawnCandidateCards": 14,
   "remainingUnwrittenCandidateCards": 550,

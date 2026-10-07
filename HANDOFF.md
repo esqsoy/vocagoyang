@@ -4,6 +4,8 @@
 
 ## 현재 결론과 배포 상태
 
+- **2026-10-08 승인 예문 두 번째 묶음 공개 배포 완료**: 앱 [cba570b](https://github.com/esqsoy/vocagoyang/commit/cba570b4db3e2ca99f50593ea3c801cedc6e8e72)를 origin/main에 푸시했고 [Pages 37666526957](https://github.com/esqsoy/vocagoyang/actions/runs/37666526957) completed/success, 공개 인덱스·세 과정 HTTP 200 및 로컬 검증본과 LF 정규화 SHA-256 일치를 확인했다. 43 country를 제외한 25안과 공유 원본 May까지 총 26카드·54필드를 배포했다. 43 새 제안은 앱 미반영이다. 남은 후보 551장(43 검토안 1+미작성 550). 사용자는 남은 전체 작업 전에 방향 토의를 원하므로 추가 대량 작성은 아직 시작하지 않는다. 아래 배포 준비·미반영 설명은 각 기록 시점의 이력이다.
+
 - **2026-10-08 두 번째 묶음 승인분 적용·배포 준비**: 43 country만 제외한 25안과 같은 원본을 쓰는 5세트 May까지 총 26카드·54필드(ex/tr/c)를 원본 6파일에 반영했다. 게임 조립 및 session 7,476회·기록/이어하기·어원 동기화·IPA 보존·인덱스 집계 검증 통과. DATA 외 UI는 동일하다. country 새 안은 “India became an independent country in 1947.” / “인도는 1947년에 독립 국가가 되었어.”이며 아직 미반영이다. 남은 후보는 551장(이 1안+미작성 550장). **나머지 전량 작성은 사용자와 방향 토의 후 시작한다.** 아래 과거 미반영 설명은 이전 검토 시점이며 현재 상태는 이 항목을 따른다.
 
 - **2026-10-08 최신: 짧게 읽고 기억할 예문으로 6안 재작성**. country·war·move·question은 대비·경구·일상 조언으로, age는 digital age로, space는 우주비행사와 무전 통신으로 변경했다. power 해설은 `demo-(민중) + -cracy(통치).`만 남겼다. 32/33/42/45/46/49는 유지 승인 완료이며 재승인을 요구하지 않는다. [현행 26안](pipeline/history-review-20261007/proposal-02.json), [이번 6안과 해설 변경](pipeline/history-review-20261007/topic-revision-04.json). 새 6안은 대화에서 영어·해석을 제시하는 단계다. 전체 26장은 앱 미반영이고 커밋·푸시·배포는 하지 않았다. 다른 19안 내용·게임 DATA/원본은 그대로다. 역사만으로 소재를 제한하지 않는 최신 기준은 WORK_PLAN을 따른다.

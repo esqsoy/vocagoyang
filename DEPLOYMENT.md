@@ -1,3 +1,12 @@
+# 기억할 예문 두 번째 묶음 배포 · 2026-10-08
+
+- 앱 [cba570b](https://github.com/esqsoy/vocagoyang/commit/cba570b4db3e2ca99f50593ea3c801cedc6e8e72)를 origin/main에 푸시했고 [Pages 37666526957](https://github.com/esqsoy/vocagoyang/actions/runs/37666526957) completed/success, 공개 인덱스·세 과정 HTTP 200 및 로컬 검증본과 LF 정규화 SHA-256 일치를 확인했다.
+- 43 country 제외 25안 + 공유 원본 May 1장: 26카드·54필드. 원본 6파일과 조립 DATA만 학습 내용 변경. 단어 수·정답 범위·IPA·진도·저장 ID·UI 유지. 마더텅/EBS/인덱스 불변.
+- session 7,476회, placement-regrouping, morphology-content, IPA conservation, index-stats --check, DATA/원본 변경 범위 및 diff 검사 통과. 새 브라우저/실기기 검사는 하지 않았다.
+- [검증 원장](pipeline/history-review-20261007/release-02.json). country 재제안과 남은 전체 개정은 이번 배포에 포함하지 않았다.
+
+---
+
 # 역사 예문·난도 조정 배포 · 2026-10-07
 
 - 앱 커밋 [1d0f859](https://github.com/esqsoy/vocagoyang/commit/1d0f8593ca083db4c6a30e8739ffb4f692cce7d7)을 origin/main에 푸시했고 [GitHub Pages 37608852000](https://github.com/esqsoy/vocagoyang/actions/runs/37608852000) completed/success 및 공개 인덱스·세 과정 HTTP 200, 로컬 검증본과 LF 정규화 SHA-256 일치를 확인했다.

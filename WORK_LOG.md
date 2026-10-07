@@ -424,6 +424,10 @@
 - 검증: 조립 결과가 기록한 54필드 변경과 정확히 일치하고 다른 DATA/UI 불변. session 7,476회, placement-regrouping의 저장 ID/이어하기, morphology-content, IPA conservation, index-stats 통과. 새 브라우저/실기기 검사는 안 함.
 - 상태: 로컬 적용, 배포 준비. 현재 남은 551후보 중 country 1개 검토안, 미작성 550개. 전량 작성은 방향 토의 후.
 
+## 2026-10-08 · 두 번째 예문 묶음 공개 배포 확인
+
+앱 [cba570b](https://github.com/esqsoy/vocagoyang/commit/cba570b4db3e2ca99f50593ea3c801cedc6e8e72)를 origin/main에 푸시했고 [Pages 37666526957](https://github.com/esqsoy/vocagoyang/actions/runs/37666526957) completed/success, 공개 인덱스·세 과정 HTTP 200 및 로컬 검증본과 LF 정규화 SHA-256 일치를 확인했다. 승인된 25안과 원본 공유 May를 배포했다. country 43은 새 제안 상태로 남겼다. 검증 결과는 release-02.json에 기록했다. 후속 작업은 제작 기준 토의 후이며 이 기록 커밋은 앱 파일을 변경하지 않는다.
+
 ## 다음 기록 형식
 
 

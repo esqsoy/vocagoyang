@@ -1,7 +1,7 @@
 {
   "summary": {
     "date": "2026-10-07",
-    "status": "batch_02_applied_locally_43_pending",
+    "status": "batch_02_deployed_country_pending",
     "totalCards": 7067,
     "uniqueHeadwords": 4916,
     "headwordCounting": "lowercase(word || en), matching the existing headword field",
@@ -41,9 +41,9 @@
     "dataUnchanged": false,
     "newEnglishExamplesWritten": 21,
     "appliedCardsThisAudit": 56,
-    "deployment": false,
+    "deployment": true,
     "proposalBatchCards": 30,
-    "proposalStatus": "applied_and_deployed",
+    "proposalStatus": "25_proposals_deployed_country_pending",
     "dataUnchangedDuringSelection": true,
     "currentDataHash": "d4ade06db2c5d62ee80bb6c49427c410700c7b65f9ee9bac10ae8a15343e0cff",
     "approvedBatchCards": 30,
@@ -53,7 +53,7 @@
     "pendingExistingAtSelection": 9,
     "pendingExistingNow": 0,
     "appliedExistingProposalCards": 9,
-    "release": "release-01.json",
+    "release": "release-02.json",
     "draftedCandidateCards": 26,
     "withdrawnCandidateCards": 14,
     "remainingUnwrittenCandidateCards": 550,
@@ -133,9 +133,10 @@
       "draftTopic": "5월 1일 노동절",
       "draftReviewNote": "세계대전 유럽 종전의 세부 월 대신, 5월과 직접 연결되는 노동절로 교체한다.",
       "draftRevision": "topic-revision-02.json",
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0049",
@@ -177,9 +178,10 @@
         "date": "2026-10-08",
         "decision": "retain_accepted_pending_batch_application"
       },
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0050",
@@ -219,9 +221,10 @@
         "date": "2026-10-08",
         "decision": "retain_accepted_pending_batch_application"
       },
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0053",
@@ -254,9 +257,10 @@
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
       "proposalNumber": 34,
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0080",
@@ -289,9 +293,10 @@
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
       "proposalNumber": 35,
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0090",
@@ -386,9 +391,10 @@
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
       "proposalNumber": 36,
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0167",
@@ -421,9 +427,10 @@
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
       "proposalNumber": 37,
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0270",
@@ -489,9 +496,10 @@
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
       "proposalNumber": 38,
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0343",
@@ -559,9 +567,10 @@
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
       "proposalNumber": 39,
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0377",
@@ -596,9 +605,10 @@
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
       "proposalNumber": 40,
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0426",
@@ -631,9 +641,10 @@
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
       "proposalNumber": 41,
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0455",
@@ -708,9 +719,10 @@
         "date": "2026-10-08",
         "decision": "accepted_with_requested_explanation_trim_pending_batch_application"
       },
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0498",
@@ -879,9 +891,10 @@
       "draftTopic": "전쟁의 승리와 평화의 구별",
       "draftReviewNote": "winning a war/guarantee peace의 자연스러운 결합. 승리와 평화를 구별하는 짧은 경구형 문장으로 역사 배경이나 숨은 함의를 요구하지 않는다.",
       "draftRevision": "topic-revision-04.json",
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0565",
@@ -956,9 +969,10 @@
         "date": "2026-10-08",
         "decision": "retain_accepted_pending_batch_application"
       },
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0604",
@@ -1031,9 +1045,10 @@
         "date": "2026-10-08",
         "decision": "retain_accepted_pending_batch_application"
       },
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0649",
@@ -1069,9 +1084,10 @@
       "draftTopic": "이사 결정에서 급여와 생활비 함께 고려",
       "draftReviewNote": "move의 거주지 이전 뜻을 유지한다. 높은 급여만 보지 말고 생활비도 고려하라는 일상적 조언과 cost of living 결합을 함께 담는다. 실제 특정 지역의 가격이나 투자 판단은 제시하지 않는다.",
       "draftRevision": "topic-revision-04.json",
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0653",
@@ -1109,9 +1125,10 @@
       "draftTopic": "자기 신념도 검토하는 태도",
       "draftReviewNote": "question은 단순 질문하기가 아닌 의문을 제기하다. own/not just의 명확한 대비를 쓰며 과학사 전제를 추론하지 않아도 한 번 읽고 요지를 이해할 수 있다.",
       "draftRevision": "topic-revision-04.json",
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0683",
@@ -1151,9 +1168,10 @@
         "date": "2026-10-08",
         "decision": "retain_accepted_pending_batch_application"
       },
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0693",
@@ -1189,9 +1207,10 @@
       "draftTopic": "디지털 시대의 관심 경쟁",
       "draftReviewNote": "익숙하게 쓰이는 digital age 결합으로 시대 뜻을 보여 준다. 기업들의 관심 경쟁이라는 한 가지 내용을 문장 자체에 담는다. 역사적 농경의 정식 용어를 초반 수준에 맞춘다는 이유로 임의의 이름으로 바꾸지 않는다.",
       "draftRevision": "topic-revision-04.json",
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0723",
@@ -1257,9 +1276,10 @@
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
       "proposalNumber": 51,
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0733",
@@ -1323,9 +1343,10 @@
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
       "proposalNumber": 52,
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0754",
@@ -1393,9 +1414,10 @@
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
       "proposalNumber": 53,
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0794",
@@ -1431,9 +1453,10 @@
       "draftTopic": "우주에서의 무전 통신과 진공",
       "draftReviewNote": "Astronauts와 radios로 우주의 뜻을 명시한다. 뉴턴 법칙은 이 카드에서 빼고 소리는 진공을 통과하지 못한다는 과학 내용을 직접 제시한다. 공기가 있는 우주선 내부에서도 소리가 나지 않는다고 쓰지 않는다.",
       "draftRevision": "topic-revision-04.json",
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0819",
@@ -1499,9 +1522,10 @@
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
       "proposalNumber": 55,
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0851",
@@ -1534,9 +1558,10 @@
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
       "proposalNumber": 56,
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0865",
@@ -1907,9 +1932,10 @@
         "제2차 세계대전"
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C1166",

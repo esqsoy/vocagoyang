@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
   "batch": 2,
-  "status": "25_approved_proposals_applied_43_pending",
+  "status": "25_proposals_deployed_country_pending",
   "dataHash": "c4f71f2424643f10ff5f1932fde09fd212167b25a5590927f95411400600ff47",
   "totalCards": 26,
   "reviewedCandidates": 40,
@@ -81,14 +81,15 @@
       "verificationNote": "ILO official report states that workers across the globe celebrate International Labour Day every year on May 1, and documents Zambia, Malawi and Mozambique in 2024. Page opened and inspected. Many countries avoids universal observance; annual holiday does not need a one-time event year.",
       "difficultyNote": "짧은 현재형으로 매년 돌아오는 대표 기념일을 보여 준다. workers/day는 쉬운 구성어이며 노동절 이름의 이해를 돕는다. on+월/일의 기본 문형.",
       "reviewNote": "세계대전 유럽 종전의 세부 월 대신, 5월과 직접 연결되는 노동절로 교체한다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "topic": "5월 1일 노동절",
       "topicRevision": "topic-revision-02.json",
       "application": "application-02.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 32,
@@ -123,14 +124,15 @@
       "verificationNote": "독립선언서 채택일을 정확하게 명시한다. 영국의 독립 승인이나 전원의 서명 날짜와 혼동하지 않는다.",
       "difficultyNote": "독립선언서라는 핵심 명칭과 채택을 뜻하는 adopted를 남기고 대륙회의·전쟁 경과를 추가하지 않는다.",
       "reviewNote": "매년의 기념일 소개에서 사건 자체의 연도와 날짜로 변경하라는 사용자 요청.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "topic": "1776년 미국 독립선언서 채택",
       "topicRevision": "topic-revision-03.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
       },
-      "application": "application-02.json"
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "number": 33,
@@ -165,14 +167,15 @@
       "verificationNote": "French presidency official page states that articles were voted on August 20–26, 1789 and reproduces Article 1: men are born and remain free and equal in rights. Page opened and inspected. The proposed sentence paraphrases the declaration's stated principle; it does not claim universal equality was actually implemented in 1789. Royal ratification in October is a separate step and not the event named here.",
       "difficultyNote": "긴 선언문 제목 대신 declared that과 born free and equal로 내용을 직접 풀어 쓴다. 하나의 that절이며 고유명사는 France 하나만 있다.",
       "reviewNote": "전후 항복 결정 대신 근대 인권·시민 평등의 큰 흐름을 담는다. 로마황제의 월 명명 일화보다 큰 세계사적 의의를 가진 사건으로 선정했다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "topic": "1789년 프랑스 인권선언",
       "topicRevision": "topic-revision-02.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
       },
-      "application": "application-02.json"
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "number": 34,
@@ -208,12 +211,13 @@
       "verificationNote": "IWM 공식 해설 및 당일 영국 의회 발표에서 1918년 11월 11일 독일의 휴전 조건 수락을 확인했다. 평화조약을 서명했다고 하지 않는다.",
       "difficultyNote": "armistice 대신 agreement to stop fighting. sign an agreement는 유용한 결합이지만 초급의 signed/agreement가 부담이면 root 검토에서 더 줄일 수 있다.",
       "reviewNote": "signed an agreement를 agreed로 줄여 초급 주변 어휘와 길이를 낮춘다. 서명 사실 자체보다 전투 중단 합의에 초점.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "application": "application-02.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 35,
@@ -248,12 +252,13 @@
       "verificationNote": "영국 국립문서보관소의 산업혁명·1833년 공장법 교육 자료가 어린이의 광범위한 공장 노동을 설명한다. 전체 노동자의 과반이라는 수량을 주장하지 않는다.",
       "difficultyNote": "factory workers+were children의 단순 구조. child labour/industrialization을 요구하지 않는다. 기존 office worker/co-worker 해설도 유효하다.",
       "reviewNote": "factory worker라는 대표 결합으로 노동자 뜻을 보여 주면서 산업혁명기의 아동 노동을 짧게 알린다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "application": "application-02.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 36,
@@ -288,12 +293,13 @@
       "verificationNote": "큐 왕립식물원의 토마토 소개에서 아메리카 기원과 16세기 유럽 도입을 확인했다. 모든 유럽인이 곧바로 먹었다거나 특정 연도 최초라고 추가하지 않는다.",
       "difficultyNote": "식물학 전문어 없이 people brought, from/to를 쓴다. Americas는 두 대륙을 포괄하며 한국어도 아메리카로 둔다. 접미 es는 빈칸 밖이다.",
       "reviewNote": "작물의 대륙 간 이동을 쉬운 bring A from B to C로 보여 주고, 기존 복수 tomatoes 해설을 실제 예문과 연결한다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "application": "application-02.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 37,
@@ -328,12 +334,13 @@
       "verificationNote": "CERN은 WWW가 1989년에 발명되었다고 직접 설명한다. 인터넷 자체의 창설이나 최초 브라우저 공개 시점으로 바꾸지 않는다.",
       "difficultyNote": "긴 인명·연구기관 이름을 빼고 익숙한 WWW 정식 명칭 하나만 남긴다. created는 create+d로 입력 규칙을 유지한다.",
       "reviewNote": "불특정 앱 제작을 웹의 탄생으로 바꾸면서 be created의 수동태를 그대로 익힌다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "application": "application-02.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 38,
@@ -369,12 +376,13 @@
       "verificationNote": "IWM의 제1차 세계대전 기간 표기와 국립육군박물관 연표를 확인했다. 1919년 평화조약과 전쟁의 통상적 기간을 혼동하지 않는다.",
       "difficultyNote": "lasted from A to B는 쉬운 기간 표현. 기존 battery lasts 설명은 다른 유용한 예시로 여전히 유효하다.",
       "reviewNote": "last의 지속되다 뜻을 전쟁의 시작·종료 연도로 명확하게 보여 준다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "application": "application-02.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 39,
@@ -411,12 +419,13 @@
       "verificationNote": "일본의 1945년 항복 자료와 IWM 1939~1945년 전쟁 구분을 확인했다. 사건 전체의 종료 연도만 쓴다.",
       "difficultyNote": "주어+동사+연도의 단순 구조. end+ed를 빈칸 밖으로 처리한다.",
       "reviewNote": "end의 자동사 뜻을 짧은 종전 문장으로 연습한다. May와 달리 전 세계 전쟁의 최종 종료 연도에 초점을 둔다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "application": "application-02.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 40,
@@ -452,12 +461,13 @@
       "verificationNote": "영국 의회 역사 자료에서 산업화로 인한 도시의 공장 일자리 유입과 19세기 산업 도시 팽창을 확인했다. 모두가 이주했거나 유럽 전체가 같은 속도로 변했다고 하지 않는다.",
       "difficultyNote": "urbanization 대신 moved to the city for work. city는 도시 생활 공간을 총칭하는 관용적 단수로 자연스럽다.",
       "reviewNote": "도시가 크다는 설명을 산업화기의 도시 이동으로 바꾸면서 move to the city라는 실용적 결합을 익힌다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "application": "application-02.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 41,
@@ -493,12 +503,13 @@
       "verificationNote": "국립문서보관소와 의회 자료의 1833년 공장법 도입 목적을 확인했다. 실제 법 적용은 주로 섬유공장이며 이 문장은 보호를 목적으로 한 법 제정을 말한다. 모든 공장 아동 노동이 금지·해결됐다고 서술하지 않는다.",
       "difficultyNote": "passed a law, protect children은 government의 구체적인 행동을 설명한다. 법 이름·노동시간 숫자·검사관 제도를 넣지 않는다.",
       "reviewNote": "정부의 구체적 역할인 노동자 보호 법률을 보여 준다. 볼셰비키/임시정부 등 여러 새 고유명사를 필요로 하는 잠정 러시아혁명 소재보다 쉽다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "application": "application-02.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 42,
@@ -537,14 +548,15 @@
       "verificationNote": "대영박물관 Luxury and power 전시 해설 48쪽의 성인 남성 시민 정치 참여 및 여성·노예·외국인 거주자 배제 확인. MW -cracy에서 통치 형태의 결합형과 그리스어 어원을 확인.",
       "difficultyNote": "held political power를 익히며 참여 자격을 adult male citizens로 명시한다. -cracy 연결은 짧은 해설에 둔다.",
       "reviewNote": "민주정에서 민중의 실제 범위는 어디까지였는지 보여 주는 역사적 사실과 권력 배분의 통찰. 여성의 시민 신분 자체나 비공식 영향력 전부를 부정하지 않는다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "topic": "고대 아테네 민주정의 정치 참여 범위",
       "topicRevision": "topic-revision-04.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
       },
-      "application": "application-02.json"
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "number": 43,
@@ -611,7 +623,7 @@
       "verificationNote": "역사적 사건이나 특정 인물의 인용을 제시하지 않는 자체 작성 일반 예문. 특정 연구 결과·통계 수치를 주장하지 않는다. 목표 뜻·문형·한국어 대응 및 단정 범위를 검토했다.",
       "difficultyNote": "짧은 일상 문형으로 한 가지 뜻을 직접 전달한다. 별도 인명·연대·제도 설명 없이 이해할 수 있으며 목표 뜻을 유지한다.",
       "reviewNote": "winning a war/guarantee peace의 자연스러운 결합. 승리와 평화를 구별하는 짧은 경구형 문장으로 역사 배경이나 숨은 함의를 요구하지 않는다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "topic": "전쟁의 승리와 평화의 구별",
       "topicRevision": "topic-revision-04.json",
       "exampleKind": "original_general_example_not_attributed_quote",
@@ -619,7 +631,8 @@
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 45,
@@ -653,14 +666,15 @@
       "verificationNote": "과거 높은 영아·아동 사망이 출생 시 기대수명을 낮췄으며, 동시에 현대의 수명 향상은 아동 사망 감소만이 아니라 모든 연령대의 생존 개선으로 이루어졌음을 자료로 보여 준다.",
       "difficultyNote": "10단어. infant death rate와 life expectancy는 개념상의 전문 결합이지만 짧고 한국어 대응이 선명하며 배경 이해의 실익이 크다.",
       "reviewNote": "흑사병 사망자 수를 다시 나열하는 대신 역사와 현재 통계를 읽는 데 쓰이는 개념을 담는다. death rate라는 중요한 결합도 드러난다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "topic": "영아 사망률과 평균수명 해석",
       "topicRevision": "topic-revision-03.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
       },
-      "application": "application-02.json"
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "number": 46,
@@ -693,14 +707,15 @@
       "verificationNote": "The official Panathenaic Stadium history, linked to the Hellenic Olympic Committee, states that modern Olympic Games were revived at an international level with their first organization in Athens in 1896. Page opened and inspected (history section). Greek Ministry of Culture search results and IOC official archive search result independently corroborated 1896 Athens. Their open requests were timeout/cookie blocked, so the accessible stadium page is the primary citation.",
       "difficultyNote": "international sports event라는 자연스러운 결합. 전문어 없이 first/modern/sports/event로 설명하고 쿠베르탱·참가국 수 등의 부수 정보를 넣지 않는다.",
       "reviewNote": "제2차 세계대전 직후 UN 설립에서 국제 스포츠 교류의 시작으로 시대와 주제를 넓힌다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "topic": "1896년 첫 근대 올림픽",
       "topicRevision": "topic-revision-02.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
       },
-      "application": "application-02.json"
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "number": 47,
@@ -731,7 +746,7 @@
       "verificationNote": "역사적 사건이나 특정 인물의 인용을 제시하지 않는 자체 작성 일반 예문. 특정 연구 결과·통계 수치를 주장하지 않는다. 목표 뜻·문형·한국어 대응 및 단정 범위를 검토했다.",
       "difficultyNote": "짧은 일상 문형으로 한 가지 뜻을 직접 전달한다. 별도 인명·연대·제도 설명 없이 이해할 수 있으며 목표 뜻을 유지한다.",
       "reviewNote": "move의 거주지 이전 뜻을 유지한다. 높은 급여만 보지 말고 생활비도 고려하라는 일상적 조언과 cost of living 결합을 함께 담는다. 실제 특정 지역의 가격이나 투자 판단은 제시하지 않는다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "topic": "이사 결정에서 급여와 생활비 함께 고려",
       "topicRevision": "topic-revision-04.json",
       "exampleKind": "original_general_example_not_attributed_quote",
@@ -739,7 +754,8 @@
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 48,
@@ -770,7 +786,7 @@
       "verificationNote": "역사적 사건이나 특정 인물의 인용을 제시하지 않는 자체 작성 일반 예문. 특정 연구 결과·통계 수치를 주장하지 않는다. 목표 뜻·문형·한국어 대응 및 단정 범위를 검토했다.",
       "difficultyNote": "짧은 일상 문형으로 한 가지 뜻을 직접 전달한다. 별도 인명·연대·제도 설명 없이 이해할 수 있으며 목표 뜻을 유지한다.",
       "reviewNote": "question은 단순 질문하기가 아닌 의문을 제기하다. own/not just의 명확한 대비를 쓰며 과학사 전제를 추론하지 않아도 한 번 읽고 요지를 이해할 수 있다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "topic": "자기 신념도 검토하는 태도",
       "topicRevision": "topic-revision-04.json",
       "exampleKind": "original_general_example_not_attributed_quote",
@@ -778,7 +794,8 @@
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 49,
@@ -812,14 +829,15 @@
       "verificationNote": "OpenStax 세계사 고전기 설명은 자연을 비판적으로 검토한 철학자들 및 아리스토텔레스 학파의 reasoned study of the natural world를 다룬다. 철학 교재는 고대의 이성으로 우주를 이해할 수 있다는 널리 퍼진 생각과 그리스·인도 철학을 함께 다룬다. 그리스가 유일하거나 최초였다고 주장하지 않는다.",
       "difficultyNote": "reason의 이성 뜻을 used ... to understand의 간단한 틀에 둔다. philosophers/rationalism보다 쉬운 thinkers를 쓰고 시기는 Ancient Greek으로 밝힌다.",
       "reviewNote": "18세기 유럽에서 고대 그리스의 자연 탐구로 시대를 분산한다. 이성과 자연 탐구의 연결이라는 큰 흐름을 쉬운 한 문장으로 제시한다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "topic": "고대 그리스의 이성적 자연 탐구",
       "topicRevision": "topic-revision-02.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
       },
-      "application": "application-02.json"
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "number": 50,
@@ -852,7 +870,7 @@
       "verificationNote": "UN Internet Governance Forum 공식 페이지의 검색 반환 본문에서 디지털 기업의 관심 확보 사업 모형을 확인했다. 직접 페이지 열기는 캐시 오류로 실패했으므로 전체 본문을 읽었다고 주장하지 않는다.",
       "difficultyNote": "짧은 일상 문형으로 한 가지 뜻을 직접 전달한다. 별도 인명·연대·제도 설명 없이 이해할 수 있으며 목표 뜻을 유지한다.",
       "reviewNote": "익숙하게 쓰이는 digital age 결합으로 시대 뜻을 보여 준다. 기업들의 관심 경쟁이라는 한 가지 내용을 문장 자체에 담는다. 역사적 농경의 정식 용어를 초반 수준에 맞춘다는 이유로 임의의 이름으로 바꾸지 않는다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "topic": "디지털 시대의 관심 경쟁",
       "topicRevision": "topic-revision-04.json",
       "exampleKind": "original_example_with_verified_concept",
@@ -860,7 +878,8 @@
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 51,
@@ -896,12 +915,13 @@
       "verificationNote": "Stanford 학술 자료는 프랑스혁명에서 전통 정치 질서가 변화한 점을 설명하고 영국 국립육군박물관은 French Revolution(1789–99) 기간을 명시한다. 모든 변화가 1789년에 완료됐다고 말하지 않는다.",
       "difficultyNote": "political 수준에 맞는 system과 유명 사건명 하나. monarchy/constitutional/feudal 등을 생략.",
       "reviewNote": "정치 견해가 다르다는 일반 진술을 프랑스혁명에 의한 정치 제도 변화로 구체화하며 political system 결합을 익히게 한다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "application": "application-02.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 52,
@@ -936,12 +956,13 @@
       "verificationNote": "연방준비은행 역사 자료는 1929년 시작된 대공황의 1930년대 실업·가계 고통·파산을 설명한다. 미국인 전체가 가난해졌다고 일반화하지 않는다.",
       "difficultyNote": "추상어 hardships를 구체적인 poverty로 교체. Great Depression 한 사건명 외 복잡한 금융 용어 없음.",
       "reviewNote": "누가 무엇을 겪었는지 없는 hardships를 대공황기 미국인의 빈곤으로 구체화한다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "application": "application-02.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 53,
@@ -977,12 +998,13 @@
       "verificationNote": "미국 의회도서관은 1905년 논문들을 물리학 세계를 바꾼 논문으로 소개하며, 막스플랑크 과학사연구소는 공간·시간·물질·복사 이해에 준 변화를 설명한다. 1905년 일반상대성이론 발표라고 잘못 말하지 않는다.",
       "difficultyNote": "8단어, 상대성이론·광전효과 전문어를 빼고 papers/physics 정도의 학술 기본어로 표현.",
       "reviewNote": "이름 없는 과학자에 대한 유명하다는 평가를 1905년 아인슈타인 논문의 영향으로 구체화한다. field of physics라는 학문 분야 결합을 유지한다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "application": "application-02.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 54,
@@ -1016,7 +1038,7 @@
       "verificationNote": "NASA 교육자료 Activity 1.9의 PDF 본문에서 진공의 소리 전달 불가와 우주유영 중 전파를 통한 통신을 확인했다. Cosmicopia 본문은 진공에서의 음파 전달 불가와 공기가 있는 우주선 내부에서는 대화할 수 있다는 범위를 확인하는 데 사용했다.",
       "difficultyNote": "짧은 일상 문형으로 한 가지 뜻을 직접 전달한다. 별도 인명·연대·제도 설명 없이 이해할 수 있으며 목표 뜻을 유지한다.",
       "reviewNote": "Astronauts와 radios로 우주의 뜻을 명시한다. 뉴턴 법칙은 이 카드에서 빼고 소리는 진공을 통과하지 못한다는 과학 내용을 직접 제시한다. 공기가 있는 우주선 내부에서도 소리가 나지 않는다고 쓰지 않는다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "topic": "우주에서의 무전 통신과 진공",
       "topicRevision": "topic-revision-04.json",
       "exampleKind": "original_example_with_verified_concept",
@@ -1024,7 +1046,8 @@
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 55,
@@ -1059,12 +1082,13 @@
       "verificationNote": "연방준비은행 역사 자료의 1929년 10월 28~29일 급락 확인. 주가 폭락이 대공황의 유일한 원인이라고 주장하지 않음.",
       "difficultyNote": "share prices라는 유용한 결합과 fell sharply라는 짧은 변화 표현. 퍼센트·증거금·금융 전문어 없음.",
       "reviewNote": "익명 주식 매입을 1929년 미국 주가 폭락으로 구체화하며 주식 뜻의 share와 price의 결합을 보여 준다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "application": "application-02.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "number": 56,
@@ -1099,12 +1123,13 @@
       "verificationNote": "영국 국립육군박물관이 1815년 6월 18일 나폴레옹군의 지휘와 패배를 설명한다. 영국 단독 승리라고 하지 않으며 다른 동맹군 역할에 대해 문장은 주장하지 않는다.",
       "difficultyNote": "실제 역사 사건을 문장에 넣으면서 lead 원형을 유지하는 자연스러운 failed to 문형. 두 고유명사는 비교적 널리 알려진 핵심 사건의 요소이나 제시 시 길이를 점검.",
       "reviewNote": "lead + 집단 + to victory의 지휘 뜻과 워털루 패배를 연결한다. 불규칙 과거형 led를 입력시키도록 카드 표제어를 바꾸지 않고 failed to + 원형으로 처리한다.",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "application": "application-02.json",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     }
   ],
   "updated": "2026-10-08",
@@ -1112,5 +1137,6 @@
   "changedGameCards": 26,
   "pendingNumbers": [
     43
-  ]
+  ],
+  "deployment": "release-02.json"
 }

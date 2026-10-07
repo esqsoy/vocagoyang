@@ -1,3 +1,7 @@
+# 최신 공개 상태 · 2026-10-08
+
+앱 [cba570b](https://github.com/esqsoy/vocagoyang/commit/cba570b4db3e2ca99f50593ea3c801cedc6e8e72)를 origin/main에 푸시했고 [Pages 37666526957](https://github.com/esqsoy/vocagoyang/actions/runs/37666526957) completed/success, 공개 인덱스·세 과정 HTTP 200 및 로컬 검증본과 LF 정규화 SHA-256 일치를 확인했다. [release-02.json](release-02.json)을 따른다. 승인한 25안과 공유 May 한 장만 공개 적용했고 43 country는 새 제안 확인 대기다. 남은 전량 작업 전 방향 토의가 먼저다.
+
 # FABLE 세계사·과학사 예문 선별 · 2026-10-07
 
 이 폴더는 **검토 자료와 승인된 적용 이력**을 보관한다. `facts.json`의 사실 목록이나 후보 판정은 게임 DATA에 자동으로 들어가지 않는다. 새 영어 예문·해석을 대화에서 모두 보여 준 후 확인받아 적용한다. 첫 30장은 사용자 확인, 시기 보강 및 난도 조정을 거쳐 1d0f859으로 공개 배포했다. 최신 공개 검증은 [release-01.json](release-01.json)을 따른다.

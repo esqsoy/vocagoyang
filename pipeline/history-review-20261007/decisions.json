@@ -1,7 +1,7 @@
 {
   "summary": {
     "date": "2026-10-07",
-    "status": "batch_02_applied_locally_43_pending",
+    "status": "batch_02_deployed_country_pending",
     "totalCards": 7067,
     "uniqueHeadwords": 4916,
     "headwordCounting": "lowercase(word || en), matching the existing headword field",
@@ -41,9 +41,9 @@
     "dataUnchanged": false,
     "newEnglishExamplesWritten": 21,
     "appliedCardsThisAudit": 56,
-    "deployment": false,
+    "deployment": true,
     "proposalBatchCards": 30,
-    "proposalStatus": "applied_and_deployed",
+    "proposalStatus": "25_proposals_deployed_country_pending",
     "dataUnchangedDuringSelection": true,
     "currentDataHash": "d4ade06db2c5d62ee80bb6c49427c410700c7b65f9ee9bac10ae8a15343e0cff",
     "approvedBatchCards": 30,
@@ -53,7 +53,7 @@
     "pendingExistingAtSelection": 9,
     "pendingExistingNow": 0,
     "appliedExistingProposalCards": 9,
-    "release": "release-01.json",
+    "release": "release-02.json",
     "draftedCandidateCards": 26,
     "withdrawnCandidateCards": 14,
     "remainingUnwrittenCandidateCards": 550,
@@ -412,8 +412,9 @@
       "postDraftReason": "세계대전 유럽 종전의 세부 월 대신, 5월과 직접 연결되는 노동절로 교체한다.",
       "nextBatchReview": "batch-02-review.json",
       "draftRevision": "topic-revision-02.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0048",
@@ -439,8 +440,9 @@
         "date": "2026-10-08",
         "decision": "retain_accepted_pending_batch_application"
       },
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0050",
@@ -458,8 +460,9 @@
         "date": "2026-10-08",
         "decision": "retain_accepted_pending_batch_application"
       },
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0051",
@@ -486,8 +489,9 @@
       "postDraftDecision": "applied_locally",
       "postDraftReason": "signed an agreement를 agreed로 줄여 초급 주변 어휘와 길이를 낮춘다. 서명 사실 자체보다 전투 중단 합의에 초점.",
       "nextBatchReview": "batch-02-review.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0054",
@@ -682,8 +686,9 @@
       "postDraftDecision": "applied_locally",
       "postDraftReason": "factory worker라는 대표 결합으로 노동자 뜻을 보여 주면서 산업혁명기의 아동 노동을 짧게 알린다.",
       "nextBatchReview": "batch-02-review.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0081",
@@ -1000,8 +1005,9 @@
       "postDraftDecision": "applied_locally",
       "postDraftReason": "작물의 대륙 간 이동을 쉬운 bring A from B to C로 보여 주고, 기존 복수 tomatoes 해설을 실제 예문과 연결한다.",
       "nextBatchReview": "batch-02-review.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0124",
@@ -1315,8 +1321,9 @@
       "postDraftDecision": "applied_locally",
       "postDraftReason": "불특정 앱 제작을 웹의 탄생으로 바꾸면서 be created의 수동태를 그대로 익힌다.",
       "nextBatchReview": "batch-02-review.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0168",
@@ -2112,8 +2119,9 @@
       "postDraftDecision": "applied_locally",
       "postDraftReason": "last의 지속되다 뜻을 전쟁의 시작·종료 연도로 명확하게 보여 준다.",
       "nextBatchReview": "batch-02-review.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0280",
@@ -2588,8 +2596,9 @@
       "postDraftDecision": "applied_locally",
       "postDraftReason": "end의 자동사 뜻을 짧은 종전 문장으로 연습한다. May와 달리 전 세계 전쟁의 최종 종료 연도에 초점을 둔다.",
       "nextBatchReview": "batch-02-review.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0346",
@@ -2820,8 +2829,9 @@
       "postDraftDecision": "applied_locally",
       "postDraftReason": "도시가 크다는 설명을 산업화기의 도시 이동으로 바꾸면서 move to the city라는 실용적 결합을 익힌다.",
       "nextBatchReview": "batch-02-review.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0378",
@@ -3193,8 +3203,9 @@
       "postDraftDecision": "applied_locally",
       "postDraftReason": "정부의 구체적 역할인 노동자 보호 법률을 보여 준다. 볼셰비키/임시정부 등 여러 새 고유명사를 필요로 하는 잠정 러시아혁명 소재보다 쉽다.",
       "nextBatchReview": "batch-02-review.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0427",
@@ -3667,8 +3678,9 @@
         "date": "2026-10-08",
         "decision": "accepted_with_requested_explanation_trim_pending_batch_application"
       },
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0492",
@@ -4057,8 +4069,9 @@
       "postDraftReason": "winning a war/guarantee peace의 자연스러운 결합. 승리와 평화를 구별하는 짧은 경구형 문장으로 역사 배경이나 숨은 함의를 요구하지 않는다.",
       "nextBatchReview": "batch-02-review.json",
       "draftRevision": "topic-revision-04.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0543",
@@ -4440,8 +4453,9 @@
         "date": "2026-10-08",
         "decision": "retain_accepted_pending_batch_application"
       },
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0595",
@@ -4745,8 +4759,9 @@
         "date": "2026-10-08",
         "decision": "retain_accepted_pending_batch_application"
       },
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0636",
@@ -4851,8 +4866,9 @@
       "postDraftReason": "move의 거주지 이전 뜻을 유지한다. 높은 급여만 보지 말고 생활비도 고려하라는 일상적 조언과 cost of living 결합을 함께 담는다. 실제 특정 지역의 가격이나 투자 판단은 제시하지 않는다.",
       "nextBatchReview": "batch-02-review.json",
       "draftRevision": "topic-revision-04.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0650",
@@ -4888,8 +4904,9 @@
       "postDraftReason": "question은 단순 질문하기가 아닌 의문을 제기하다. own/not just의 명확한 대비를 쓰며 과학사 전제를 추론하지 않아도 한 번 읽고 요지를 이해할 수 있다.",
       "nextBatchReview": "batch-02-review.json",
       "draftRevision": "topic-revision-04.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0654",
@@ -5110,8 +5127,9 @@
         "date": "2026-10-08",
         "decision": "retain_accepted_pending_batch_application"
       },
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0684",
@@ -5188,8 +5206,9 @@
       "postDraftReason": "익숙하게 쓰이는 digital age 결합으로 시대 뜻을 보여 준다. 기업들의 관심 경쟁이라는 한 가지 내용을 문장 자체에 담는다. 역사적 농경의 정식 용어를 초반 수준에 맞춘다는 이유로 임의의 이름으로 바꾸지 않는다.",
       "nextBatchReview": "batch-02-review.json",
       "draftRevision": "topic-revision-04.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0694",
@@ -5418,8 +5437,9 @@
       "postDraftDecision": "applied_locally",
       "postDraftReason": "정치 견해가 다르다는 일반 진술을 프랑스혁명에 의한 정치 제도 변화로 구체화하며 political system 결합을 익히게 한다.",
       "nextBatchReview": "batch-02-review.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0725",
@@ -5521,8 +5541,9 @@
       "postDraftDecision": "applied_locally",
       "postDraftReason": "누가 무엇을 겪었는지 없는 hardships를 대공황기 미국인의 빈곤으로 구체화한다.",
       "nextBatchReview": "batch-02-review.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0738",
@@ -5864,8 +5885,9 @@
       "postDraftDecision": "applied_locally",
       "postDraftReason": "이름 없는 과학자에 대한 유명하다는 평가를 1905년 아인슈타인 논문의 영향으로 구체화한다. field of physics라는 학문 분야 결합을 유지한다.",
       "nextBatchReview": "batch-02-review.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0785",
@@ -5942,8 +5964,9 @@
       "postDraftReason": "Astronauts와 radios로 우주의 뜻을 명시한다. 뉴턴 법칙은 이 카드에서 빼고 소리는 진공을 통과하지 못한다는 과학 내용을 직접 제시한다. 공기가 있는 우주선 내부에서도 소리가 나지 않는다고 쓰지 않는다.",
       "nextBatchReview": "batch-02-review.json",
       "draftRevision": "topic-revision-04.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0795",
@@ -6331,8 +6354,9 @@
       "postDraftDecision": "applied_locally",
       "postDraftReason": "익명 주식 매입을 1929년 미국 주가 폭락으로 구체화하며 주식 뜻의 share와 price의 결합을 보여 준다.",
       "nextBatchReview": "batch-02-review.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0849",
@@ -6359,8 +6383,9 @@
       "postDraftDecision": "applied_locally",
       "postDraftReason": "lead + 집단 + to victory의 지휘 뜻과 워털루 패배를 연결한다. 불규칙 과거형 led를 입력시키도록 카드 표제어를 바꾸지 않고 failed to + 원형으로 처리한다.",
       "nextBatchReview": "batch-02-review.json",
-      "applicationStatus": "applied_locally",
-      "application": "application-02.json"
+      "applicationStatus": "applied_and_deployed",
+      "application": "application-02.json",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0852",
@@ -8357,9 +8382,10 @@
         "H35"
       ],
       "reviewerRange": "early",
-      "applicationStatus": "applied_locally",
+      "applicationStatus": "applied_and_deployed",
       "application": "application-02.json",
-      "postDraftDecision": "applied_locally"
+      "postDraftDecision": "applied_locally",
+      "deployment": "release-02.json"
     },
     {
       "id": "C1133",

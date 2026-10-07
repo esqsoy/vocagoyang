@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "status": "25_approved_proposals_applied_43_pending",
+  "status": "25_proposals_deployed_country_pending",
   "dataHash": "c4f71f2424643f10ff5f1932fde09fd212167b25a5590927f95411400600ff47",
   "selectedCandidates": 40,
   "proposals": 26,
@@ -64,11 +64,12 @@
       "sourceHash": "f6e8a71d520476f6d6f8b374ee18708bb1436f5cd8f5d1f81c438c17171c104d",
       "topic": "5월 1일 노동절",
       "topicRevision": "topic-revision-02.json",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0049",
@@ -108,7 +109,8 @@
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
       },
-      "status": "applied_locally"
+      "status": "applied_and_deployed",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0050",
@@ -148,7 +150,8 @@
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
       },
-      "status": "applied_locally"
+      "status": "applied_and_deployed",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0053",
@@ -188,11 +191,12 @@
         "c": "라틴어 novem=9. 옛 로마력은 3월부터 세어 아홉째 달."
       },
       "sourceHash": "319e6fdf96e049103ad9688ea9a82b11ed1c0acf66ce162230541bbfc1b0e787",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0080",
@@ -226,11 +230,12 @@
         "c": "office worker 회사원, co-worker 동료."
       },
       "sourceHash": "cd73214cb82c3ed564b87ed9d6c4bc9d416cd003cf942ec704051a028cdd5dc2",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0090",
@@ -316,11 +321,12 @@
         "c": "복수 tomatoes(-es)."
       },
       "sourceHash": "1e69828b71288c31ef6d50e4c18dd143089797ff02e838669af8b2c94d285531",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0167",
@@ -354,11 +360,12 @@
         "c": "없던 것을 새로 만들다. creative 창의적인."
       },
       "sourceHash": "1f5068e69c2579101989dbb98b7e4bb8ea42e5de4f4d8679149794abad9f1c51",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0270",
@@ -419,11 +426,12 @@
         "c": "동사로 쓰이면 '(시간이) 이어지다'. The battery lasts long = 배터리가 오래간다."
       },
       "sourceHash": "f1a38103b5a9616a18eab3399deaabcb7e62094159e8ce3413e8914de1136923",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0343",
@@ -485,11 +493,12 @@
         "c": ""
       },
       "sourceHash": "e6b40a1de91cc27087bd7d9e4a771b361cb066df970b04e1eb108436d78727eb",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0377",
@@ -524,11 +533,12 @@
         "c": "town보다 큰 도시. (복수는 city → cities)"
       },
       "sourceHash": "a547c5da930453aaa43070db7c275d967a40ae0116efb6745d5c49abc57266f7",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0426",
@@ -563,11 +573,12 @@
         "c": ""
       },
       "sourceHash": "9525a20e27ccd03030d751a8110bc208ec043746759c97960fce1b345cc359bc",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0455",
@@ -637,7 +648,8 @@
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
       },
-      "status": "applied_locally"
+      "status": "applied_and_deployed",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0498",
@@ -783,11 +795,12 @@
       "topic": "전쟁의 승리와 평화의 구별",
       "topicRevision": "topic-revision-04.json",
       "exampleKind": "original_general_example_not_attributed_quote",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0565",
@@ -857,7 +870,8 @@
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
       },
-      "status": "applied_locally"
+      "status": "applied_and_deployed",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0604",
@@ -921,7 +935,8 @@
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
       },
-      "status": "applied_locally"
+      "status": "applied_and_deployed",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0649",
@@ -954,11 +969,12 @@
       "topic": "이사 결정에서 급여와 생활비 함께 고려",
       "topicRevision": "topic-revision-04.json",
       "exampleKind": "original_general_example_not_attributed_quote",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0653",
@@ -991,11 +1007,12 @@
       "topic": "자기 신념도 검토하는 태도",
       "topicRevision": "topic-revision-04.json",
       "exampleKind": "original_general_example_not_attributed_quote",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0683",
@@ -1034,7 +1051,8 @@
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
       },
-      "status": "applied_locally"
+      "status": "applied_and_deployed",
+      "deployment": "release-02.json"
     },
     {
       "id": "C0693",
@@ -1069,11 +1087,12 @@
       "topic": "디지털 시대의 관심 경쟁",
       "topicRevision": "topic-revision-04.json",
       "exampleKind": "original_example_with_verified_concept",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0723",
@@ -1134,11 +1153,12 @@
         "c": "political party = 정당."
       },
       "sourceHash": "5324cd917c79574e67d13e95c0e6e4ae24263a83ebb745ff08842ea0a6cf629d",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0733",
@@ -1208,11 +1228,12 @@
         "c": ""
       },
       "sourceHash": "64a9a69dc8657df9249b71a3393c3e964b1863a69b2b0e991b9adc5cbc3166e4",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0754",
@@ -1273,11 +1294,12 @@
         "c": ""
       },
       "sourceHash": "48034bcf8def9e303f412c38d23ff9aeda7d6be0f2aa45ecc4e0de34592c913c",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0794",
@@ -1313,11 +1335,12 @@
       "topic": "우주에서의 무전 통신과 진공",
       "topicRevision": "topic-revision-04.json",
       "exampleKind": "original_example_with_verified_concept",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0848",
@@ -1351,11 +1374,12 @@
         "c": "회사 소유권을 나눈 단위. a share = 주식 한 주."
       },
       "sourceHash": "337906dc9068b80e7394cc06debed72b48eef7167dcd2c7f5e28bb18ecdca7ea",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     },
     {
       "id": "C0851",
@@ -1389,11 +1413,12 @@
         "c": "leader(지도자)가 여기에서 나온 말이다. 불규칙 lead-led-led."
       },
       "sourceHash": "46a2db882a51651c57d50a6d0652db088c32aba5dcccc50aa93502712634c4ce",
-      "status": "applied_locally",
+      "status": "applied_and_deployed",
       "userFeedback": {
         "date": "2026-10-08",
         "decision": "approved_for_deployment_except_43"
-      }
+      },
+      "deployment": "release-02.json"
     }
   ],
   "updated": "2026-10-08",
