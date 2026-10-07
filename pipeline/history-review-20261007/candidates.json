@@ -1,7 +1,7 @@
 {
   "summary": {
     "date": "2026-10-07",
-    "status": "batch_01_applied_locally_remaining_candidates",
+    "status": "batch_02_applied_locally_43_pending",
     "totalCards": 7067,
     "uniqueHeadwords": 4916,
     "headwordCounting": "lowercase(word || en), matching the existing headword field",
@@ -40,25 +40,32 @@
     "dataHash": "60105b7239890b278ba471ff680575cbbac7fbe6997cf3bf779d98f45dbaa06c",
     "dataUnchanged": false,
     "newEnglishExamplesWritten": 21,
-    "appliedCardsThisAudit": 30,
-    "deployment": true,
+    "appliedCardsThisAudit": 56,
+    "deployment": false,
     "proposalBatchCards": 30,
     "proposalStatus": "applied_and_deployed",
     "dataUnchangedDuringSelection": true,
-    "currentDataHash": "c4f71f2424643f10ff5f1932fde09fd212167b25a5590927f95411400600ff47",
+    "currentDataHash": "d4ade06db2c5d62ee80bb6c49427c410700c7b65f9ee9bac10ae8a15343e0cff",
     "approvedBatchCards": 30,
-    "changedCardsThisAudit": 30,
-    "appliedNewCandidateCards": 21,
-    "remainingCandidateCards": 577,
+    "changedCardsThisAudit": 56,
+    "appliedNewCandidateCards": 47,
+    "remainingCandidateCards": 551,
     "pendingExistingAtSelection": 9,
     "pendingExistingNow": 0,
     "appliedExistingProposalCards": 9,
     "release": "release-01.json",
     "draftedCandidateCards": 26,
     "withdrawnCandidateCards": 14,
-    "remainingUnwrittenCandidateCards": 551,
-    "pendingReviewProposalCards": 26,
-    "latestDraft": "proposal-02.json"
+    "remainingUnwrittenCandidateCards": 550,
+    "pendingReviewProposalCards": 1,
+    "latestDraft": "proposal-02.json",
+    "latestRevision": "application-02.json",
+    "latestDraftRevision": "topic-revision-05.json",
+    "pendingReviewProposalCardsScope": "43 country only; 25 approved proposals plus shared May source applied",
+    "remaining": [
+      "43 country new sentence awaits user review",
+      "Discuss approach before writing remaining 550 candidates; do not begin bulk revision yet"
+    ]
   },
   "candidates": [
     {
@@ -111,7 +118,7 @@
       "headword": "may",
       "exercise": 3,
       "exerciseName": "요일·월",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "시험 종료월만 제시한 문장이라 유럽의 제2차 세계대전 종전월로 바꿀 여지가 있음.",
       "preserve": "대문자 May와 in+월; 전쟁 전체 종전과 유럽 종전 구분",
       "factIds": [
@@ -122,7 +129,13 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 31
+      "proposalNumber": 31,
+      "draftTopic": "5월 1일 노동절",
+      "draftReviewNote": "세계대전 유럽 종전의 세부 월 대신, 5월과 직접 연결되는 노동절로 교체한다.",
+      "draftRevision": "topic-revision-02.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0049",
@@ -143,7 +156,7 @@
       "headword": "july",
       "exercise": 3,
       "exerciseName": "요일·월",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "해변 방문 시기만 보여 주므로 독립선언 또는 프랑스혁명의 중요한 달로 바꿀 여지가 있음.",
       "preserve": "in+월 또는 on+월 날짜를 명확하게 유지",
       "factIds": [
@@ -156,7 +169,17 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 32
+      "proposalNumber": 32,
+      "draftTopic": "1776년 미국 독립선언서 채택",
+      "draftReviewNote": "매년의 기념일 소개에서 사건 자체의 연도와 날짜로 변경하라는 사용자 요청.",
+      "draftRevision": "topic-revision-03.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "retain_accepted_pending_batch_application"
+      },
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0050",
@@ -177,7 +200,7 @@
       "headword": "august",
       "exercise": 3,
       "exerciseName": "요일·월",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "계절 체감 진술을 일본의 항복 발표 시점으로 연결할 여지가 있음.",
       "preserve": "대문자 월 이름; 발표와 서명 구분; 초급 길이",
       "factIds": [
@@ -188,7 +211,17 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 33
+      "proposalNumber": 33,
+      "draftTopic": "1789년 프랑스 인권선언",
+      "draftReviewNote": "전후 항복 결정 대신 근대 인권·시민 평등의 큰 흐름을 담는다. 로마황제의 월 명명 일화보다 큰 세계사적 의의를 가진 사건으로 선정했다.",
+      "draftRevision": "topic-revision-02.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "retain_accepted_pending_batch_application"
+      },
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0053",
@@ -209,7 +242,7 @@
       "headword": "november",
       "exercise": 3,
       "exerciseName": "요일·월",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "시험 월만 제시해 제1차 세계대전 휴전 시점으로 바꿀 여지가 있음.",
       "preserve": "in+월; 휴전과 평화조약 구분",
       "factIds": [
@@ -220,7 +253,10 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 34
+      "proposalNumber": 34,
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0080",
@@ -241,7 +277,7 @@
       "headword": "worker",
       "exercise": 5,
       "exerciseName": "사람",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "특정 도로 공사 인부라는 임의 문맥을 산업혁명의 공장 노동으로 바꿀 여지가 있음.",
       "preserve": "worker의 사람 뜻과 복수형; 초급 기본 문장",
       "factIds": [
@@ -252,7 +288,10 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 35
+      "proposalNumber": 35,
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0090",
@@ -335,7 +374,7 @@
       "headword": "tomato",
       "exercise": 7,
       "exerciseName": "집·생활",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "샐러드 재료 지시만 있는 문장이라 콜럼버스 교환의 대표 작물 이동으로 연결 가능.",
       "preserve": "셀 수 있는 tomato와 복수 tomatoes; 작물 원산지·이동 세부는 검증 필요",
       "factIds": [
@@ -346,7 +385,10 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 36
+      "proposalNumber": 36,
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0167",
@@ -367,7 +409,7 @@
       "headword": "create",
       "exercise": 8,
       "exerciseName": "형용사·동사",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "익명 학생의 앱 제작보다 웹의 탄생을 통해 만들다의 쓰임을 살릴 여지가 있음.",
       "preserve": "create의 새로 만들다 뜻과 수동태; internet과 web 혼동 금지",
       "factIds": [
@@ -378,7 +420,10 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 37
+      "proposalNumber": 37,
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0270",
@@ -430,7 +475,7 @@
       "headword": "last",
       "exercise": 4,
       "exerciseName": "31~40",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "배터리의 임의 사용 시간을 전쟁 지속 기간으로 바꾸어 동일 동사 문형을 보존 가능.",
       "preserve": "last+기간 자동사; 역사 시작·종료 연도에 맞는 기간 표현",
       "factIds": [
@@ -443,7 +488,10 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 38
+      "proposalNumber": 38,
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0343",
@@ -497,7 +545,7 @@
       "headword": "end",
       "exercise": 7,
       "exerciseName": "61~70",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "수업 종료 시각만 든 문장이라 세계대전 종전 시점을 동일한 끝나다 뜻으로 학습 가능.",
       "preserve": "자동사 end와 시간 표현; 휴전·종전 날짜 구별",
       "factIds": [
@@ -510,7 +558,10 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 39
+      "proposalNumber": 39,
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0377",
@@ -531,7 +582,7 @@
       "headword": "city",
       "exercise": 9,
       "exerciseName": "81~90",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "서울이 크다는 진술만 있어 초기 도시 발달의 핵심 흐름을 담을 여지가 있음.",
       "preserve": "city 도시 뜻과 쉬운 어휘; 지나친 고대 지명 나열 금지",
       "factIds": [
@@ -544,7 +595,10 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 40
+      "proposalNumber": 40,
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0426",
@@ -565,7 +619,7 @@
       "headword": "government",
       "exercise": 1,
       "exerciseName": "101~110",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "정부가 세금을 올렸다는 익명 진술을 러시아혁명의 정부 변화로 대체할 여지가 있음.",
       "preserve": "government 명사 뜻; 혁명의 단계·정부 주체 혼동 금지",
       "factIds": [
@@ -576,7 +630,10 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 41
+      "proposalNumber": 41,
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0455",
@@ -630,7 +687,7 @@
       "headword": "power",
       "exercise": 4,
       "exerciseName": "131~140",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "이름 없는 왕의 권력이 너무 많았다는 평가 대신 혁명 전후 권력 변화로 뜻을 선명히 할 수 있음.",
       "preserve": "power의 정치 권력 뜻; lose/gain power 등 자연스러운 결합",
       "factIds": [
@@ -643,7 +700,17 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 42
+      "proposalNumber": 42,
+      "draftTopic": "고대 아테네 민주정의 정치 참여 범위",
+      "draftReviewNote": "민주정에서 민중의 실제 범위는 어디까지였는지 보여 주는 역사적 사실과 권력 배분의 통찰. 여성의 시민 신분 자체나 비공식 영향력 전부를 부정하지 않는다.",
+      "draftRevision": "topic-revision-04.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "accepted_with_requested_explanation_trim_pending_batch_application"
+      },
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0498",
@@ -770,7 +837,11 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 43
+      "proposalNumber": 43,
+      "draftTopic": "1947년 인도 독립",
+      "draftReviewNote": "큰 역사적 사실과 independent country의 결합을 짧게 전달한다.",
+      "draftRevision": "topic-revision-05.json",
+      "postDraftReason": "큰 역사적 사실과 independent country의 결합을 짧게 전달한다."
     },
     {
       "id": "C0542",
@@ -791,7 +862,7 @@
       "headword": "war",
       "exercise": 6,
       "exerciseName": "151~160",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "이름 없는 전쟁 사망 진술을 두 세계대전의 핵심 시기로 구체화할 여지가 큼.",
       "preserve": "war 전쟁 명사 뜻; 세계대전 명칭과 보통명사 구별",
       "factIds": [
@@ -804,7 +875,13 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 44
+      "proposalNumber": 44,
+      "draftTopic": "전쟁의 승리와 평화의 구별",
+      "draftReviewNote": "winning a war/guarantee peace의 자연스러운 결합. 승리와 평화를 구별하는 짧은 경구형 문장으로 역사 배경이나 숨은 함의를 요구하지 않는다.",
+      "draftRevision": "topic-revision-04.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0565",
@@ -858,7 +935,7 @@
       "headword": "death",
       "exercise": 10,
       "exerciseName": "191~200",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "익명 인물의 사망 소식을 대규모 역사 사건의 인명 피해로 바꿀 여지가 있음.",
       "preserve": "death 명사 뜻과 가산·불가산 용법; Black Death 고유명 철자 맞추기로 대체 금지",
       "factIds": [
@@ -871,7 +948,17 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 45
+      "proposalNumber": 45,
+      "draftTopic": "영아 사망률과 평균수명 해석",
+      "draftReviewNote": "흑사병 사망자 수를 다시 나열하는 대신 역사와 현재 통계를 읽는 데 쓰이는 개념을 담는다. death rate라는 중요한 결합도 드러난다.",
+      "draftRevision": "topic-revision-03.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "retain_accepted_pending_batch_application"
+      },
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0604",
@@ -925,7 +1012,7 @@
       "headword": "international",
       "exercise": 3,
       "exerciseName": "221~230",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "영어가 국제어라는 포괄 진술을 국제연합 설립과 국제 기구 성격으로 연결 가능.",
       "preserve": "international의 나라 사이 뜻; 명사 수식 형용사",
       "factIds": [
@@ -936,7 +1023,17 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 46
+      "proposalNumber": 46,
+      "draftTopic": "1896년 첫 근대 올림픽",
+      "draftReviewNote": "제2차 세계대전 직후 UN 설립에서 국제 스포츠 교류의 시작으로 시대와 주제를 넓힌다.",
+      "draftRevision": "topic-revision-02.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "retain_accepted_pending_batch_application"
+      },
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0649",
@@ -957,7 +1054,7 @@
       "headword": "move",
       "exercise": 4,
       "exerciseName": "231~240",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "익명 가족의 이사만 든 문장이라 산업혁명의 도시 이동으로 바꾸기 자연스러움.",
       "preserve": "move to+장소의 이사하다 의미",
       "factIds": [
@@ -968,7 +1065,13 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 47
+      "proposalNumber": 47,
+      "draftTopic": "이사 결정에서 급여와 생활비 함께 고려",
+      "draftReviewNote": "move의 거주지 이전 뜻을 유지한다. 높은 급여만 보지 말고 생활비도 고려하라는 일상적 조언과 cost of living 결합을 함께 담는다. 실제 특정 지역의 가격이나 투자 판단은 제시하지 않는다.",
+      "draftRevision": "topic-revision-04.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0653",
@@ -989,7 +1092,7 @@
       "headword": "question",
       "exercise": 4,
       "exerciseName": "231~240",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "공정하지 않아 보이는 생각을 의심하라는 일반 교훈을 계몽·과학혁명의 검토 태도로 연결 가능.",
       "preserve": "question+주장·권위의 의문 제기 의미; 단순 질문하다로 바꾸지 않기",
       "factIds": [
@@ -1002,7 +1105,13 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 48
+      "proposalNumber": 48,
+      "draftTopic": "자기 신념도 검토하는 태도",
+      "draftReviewNote": "question은 단순 질문하기가 아닌 의문을 제기하다. own/not just의 명확한 대비를 쓰며 과학사 전제를 추론하지 않아도 한 번 읽고 요지를 이해할 수 있다.",
+      "draftRevision": "topic-revision-04.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0683",
@@ -1023,7 +1132,7 @@
       "headword": "reason",
       "exercise": 5,
       "exerciseName": "241~250",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "인간은 이성의 지배를 받는다는 일반론보다 계몽사상의 이성 중시가 뜻을 구체화함.",
       "preserve": "reason의 이성 뜻; 원인·이유 뜻과 구별",
       "factIds": [
@@ -1034,7 +1143,17 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 49
+      "proposalNumber": 49,
+      "draftTopic": "고대 그리스의 이성적 자연 탐구",
+      "draftReviewNote": "18세기 유럽에서 고대 그리스의 자연 탐구로 시대를 분산한다. 이성과 자연 탐구의 연결이라는 큰 흐름을 쉬운 한 문장으로 제시한다.",
+      "draftRevision": "topic-revision-02.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "retain_accepted_pending_batch_application"
+      },
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0693",
@@ -1055,7 +1174,7 @@
       "headword": "age",
       "exercise": 6,
       "exerciseName": "251~260",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "정보 시대라는 추상적 현황을 인공위성 발사와 우주 시대의 시작으로 연결 가능.",
       "preserve": "age 시대 뜻; 시대 구분은 관용적인 표현으로 한정",
       "factIds": [
@@ -1066,7 +1185,13 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 50
+      "proposalNumber": 50,
+      "draftTopic": "디지털 시대의 관심 경쟁",
+      "draftReviewNote": "익숙하게 쓰이는 digital age 결합으로 시대 뜻을 보여 준다. 기업들의 관심 경쟁이라는 한 가지 내용을 문장 자체에 담는다. 역사적 농경의 정식 용어를 초반 수준에 맞춘다는 이유로 임의의 이름으로 바꾸지 않는다.",
+      "draftRevision": "topic-revision-04.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0723",
@@ -1118,7 +1243,7 @@
       "headword": "political",
       "exercise": 8,
       "exerciseName": "271~280",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "익명 인물들의 정치 견해 차이만 있어 혁명의 정치 변화로 연결 가능.",
       "preserve": "political+명사 형용사; 정치적 평가 단정 피하기",
       "factIds": [
@@ -1131,7 +1256,10 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 51
+      "proposalNumber": 51,
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0733",
@@ -1183,7 +1311,7 @@
       "headword": "experience",
       "exercise": 9,
       "exerciseName": "281~290",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "누가 무슨 어려움을 겪었는지 없는 문장을 대공황의 경제난으로 구체화 가능.",
       "preserve": "experience+명사 타동사; endured와 구별할 감정 평가를 추가하지 않기",
       "factIds": [
@@ -1194,7 +1322,10 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 52
+      "proposalNumber": 52,
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0754",
@@ -1248,7 +1379,7 @@
       "headword": "field",
       "exercise": 2,
       "exerciseName": "311~320",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "이름 없는 인물이 과학 분야에서 유명하다는 평가를 핵심 이론의 분야 변화로 구체화 가능.",
       "preserve": "in the field of+학문; 분야 뜻",
       "factIds": [
@@ -1261,7 +1392,10 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 53
+      "proposalNumber": 53,
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0794",
@@ -1282,7 +1416,7 @@
       "headword": "space",
       "exercise": 2,
       "exerciseName": "311~320",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "우주비행사는 우주를 여행한다는 정의 반복보다 최초 유인 비행의 핵심 사실을 담기 좋음.",
       "preserve": "space 우주 뜻; 관사 없는 in/into space; 최초 범위 정확히",
       "factIds": [
@@ -1293,7 +1427,13 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 54
+      "proposalNumber": 54,
+      "draftTopic": "우주에서의 무전 통신과 진공",
+      "draftReviewNote": "Astronauts와 radios로 우주의 뜻을 명시한다. 뉴턴 법칙은 이 카드에서 빼고 소리는 진공을 통과하지 못한다는 과학 내용을 직접 제시한다. 공기가 있는 우주선 내부에서도 소리가 나지 않는다고 쓰지 않는다.",
+      "draftRevision": "topic-revision-04.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0819",
@@ -1347,7 +1487,7 @@
       "headword": "share",
       "exercise": 5,
       "exerciseName": "341~350",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "익명 회사 주식 매입만 다뤄 대공황기의 주식 가치 하락으로 연결 가능.",
       "preserve": "share 가산명사 주식 한 주 뜻; 주가 폭락을 대공황의 유일 원인으로 단정 금지",
       "factIds": [
@@ -1358,7 +1498,10 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 55
+      "proposalNumber": 55,
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0851",
@@ -1379,7 +1522,7 @@
       "headword": "lead",
       "exercise": 5,
       "exerciseName": "341~350",
-      "decision": "proposal_pending_user_review",
+      "decision": "applied_locally",
       "reason": "이름 없는 팀 인솔을 나폴레옹의 군대 지휘·워털루 패배로 연결 가능.",
       "preserve": "lead+사람·집단 타동사; 지휘자·전투 세부 확인",
       "factIds": [
@@ -1390,7 +1533,10 @@
       ],
       "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
       "proposal": "proposal-02.json",
-      "proposalNumber": 56
+      "proposalNumber": 56,
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C0865",
@@ -1751,7 +1897,7 @@
       "headword": "may",
       "exercise": 8,
       "exerciseName": "471~480",
-      "decision": "candidate_not_applied",
+      "decision": "applied_locally",
       "reason": "0세트 May와 같은 임의 시험 종료월 문장이라 유럽의 제2차 세계대전 종전월로 연결 가능.",
       "preserve": "대문자 May와 in+월; 유럽 종전과 전체 전쟁 종전 구분",
       "factIds": [
@@ -1760,7 +1906,10 @@
       "topicLinks": [
         "제2차 세계대전"
       ],
-      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요."
+      "factScope": "잠정 소재 연결. 새 문장의 세부 사실·용법은 작성 후 검증 필요.",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C1166",

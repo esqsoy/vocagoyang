@@ -1,0 +1,2281 @@
+{
+  "date": "2026-10-08",
+  "batch": 2,
+  "status": "applied_locally_verified",
+  "authorization": "43만 다시합시다. 지금까지 변경내역은 배포하고",
+  "reviewedCards": 25,
+  "changedCards": 26,
+  "changedFields": 54,
+  "sourceChanges": [
+    {
+      "file": "pipeline/out/set05.json",
+      "exercise": 8,
+      "word": "may",
+      "si": 3,
+      "sourcePath": [
+        7,
+        "words",
+        4,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "Our exams end in {{BLANK}} this year.",
+      "new": "Many countries celebrate Workers' Day on {{BLANK}} 1.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/set05.json",
+      "exercise": 8,
+      "word": "may",
+      "si": 3,
+      "sourcePath": [
+        7,
+        "words",
+        4,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "올해 우리 시험은 5월에 끝나.",
+      "new": "많은 나라에서는 5월 1일에 노동절을 기념해.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson00.json",
+      "exercise": 3,
+      "word": "July",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        2,
+        "words",
+        11,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "We go to the beach in {{BLANK}}.",
+      "new": "The American Declaration of Independence was adopted on {{BLANK}} 4, 1776.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson00.json",
+      "exercise": 3,
+      "word": "July",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        2,
+        "words",
+        11,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "우리 7월에 바다 가.",
+      "new": "미국 독립선언서는 1776년 7월 4일에 채택됐어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson00.json",
+      "exercise": 3,
+      "word": "August",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        2,
+        "words",
+        12,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "It's hottest in {{BLANK}}.",
+      "new": "In {{BLANK}} 1789, France declared that people were born free and equal.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson00.json",
+      "exercise": 3,
+      "word": "August",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        2,
+        "words",
+        12,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "8월이 제일 더워.",
+      "new": "1789년 8월에 프랑스는 인간이 자유롭고 평등하게 태어난다고 선언했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson00.json",
+      "exercise": 3,
+      "word": "November",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        2,
+        "words",
+        15,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "The big test is in {{BLANK}}.",
+      "new": "On {{BLANK}} 11, 1918, Germany agreed to stop fighting.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson00.json",
+      "exercise": 3,
+      "word": "November",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        2,
+        "words",
+        15,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "큰 시험은 11월에 있어.",
+      "new": "1918년 11월 11일에 독일은 전투를 멈추기로 합의했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson00.json",
+      "exercise": 5,
+      "word": "worker",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        4,
+        "words",
+        13,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "The {{BLANK}}s built the road in a month.",
+      "new": "In Britain in the 1800s, many factory {{BLANK}}s were children.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson00.json",
+      "exercise": 5,
+      "word": "worker",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        4,
+        "words",
+        13,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "일꾼들이 한 달 만에 길을 냈어.",
+      "new": "19세기 영국에서는 공장 노동자 중 어린이가 많았어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson00.json",
+      "exercise": 7,
+      "word": "tomato",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        6,
+        "words",
+        14,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "Add a {{BLANK}} to the salad.",
+      "new": "In the 1500s, people brought {{BLANK}}es from the Americas to Europe.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson00.json",
+      "exercise": 7,
+      "word": "tomato",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        6,
+        "words",
+        14,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "샐러드에 토마토 하나 넣어.",
+      "new": "16세기에 사람들은 아메리카에서 유럽으로 토마토를 가져왔어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson00.json",
+      "exercise": 8,
+      "word": "create",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        7,
+        "words",
+        21,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "This app was {{BLANK}}d by a high school student.",
+      "new": "The World Wide Web was {{BLANK}}d in 1989.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson00.json",
+      "exercise": 8,
+      "word": "create",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        7,
+        "words",
+        21,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "이 앱은 고등학생이 만든 거야.",
+      "new": "월드 와이드 웹은 1989년에 만들어졌어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "exercise": 4,
+      "word": "last",
+      "si": 3,
+      "sourcePath": [
+        "exercises",
+        3,
+        "words",
+        17,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "The battery {{BLANK}}s two days.",
+      "new": "World War I {{BLANK}}ed from 1914 to 1918.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "exercise": 4,
+      "word": "last",
+      "si": 3,
+      "sourcePath": [
+        "exercises",
+        3,
+        "words",
+        17,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "배터리가 이틀 가.",
+      "new": "제1차 세계대전은 1914년부터 1918년까지 이어졌어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "exercise": 7,
+      "word": "end",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        6,
+        "words",
+        17,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "The class {{BLANK}}s at three o'clock.",
+      "new": "World War II {{BLANK}}ed in 1945.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "exercise": 7,
+      "word": "end",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        6,
+        "words",
+        17,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "수업은 3시에 끝나.",
+      "new": "제2차 세계대전은 1945년에 끝났어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "exercise": 9,
+      "word": "city",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        8,
+        "words",
+        17,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "Seoul is a very large {{BLANK}}.",
+      "new": "In Britain in the 1800s, many people moved to the {{BLANK}} for work.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson01.json",
+      "exercise": 9,
+      "word": "city",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        8,
+        "words",
+        17,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "서울은 아주 큰 도시야.",
+      "new": "19세기 영국에서는 많은 사람이 일자리를 찾아 도시로 이주했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson02.json",
+      "exercise": 1,
+      "word": "government",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        0,
+        "words",
+        0,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "The {{BLANK}} raised taxes this year.",
+      "new": "In 1833, the British {{BLANK}} passed a law to protect children working in factories.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson02.json",
+      "exercise": 1,
+      "word": "government",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        0,
+        "words",
+        0,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "정부는 올해 세금을 올렸어.",
+      "new": "1833년에 영국 정부는 공장에서 일하는 어린이들을 보호하는 법을 통과시켰어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson02.json",
+      "exercise": 4,
+      "word": "power",
+      "si": 3,
+      "sourcePath": [
+        "exercises",
+        3,
+        "words",
+        5,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "The king had too much {{BLANK}}.",
+      "new": "In ancient Athenian democracy, only adult male citizens held political {{BLANK}}.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson02.json",
+      "exercise": 4,
+      "word": "power",
+      "si": 3,
+      "sourcePath": [
+        "exercises",
+        3,
+        "words",
+        5,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "그 왕은 권력을 너무 많이 가졌어.",
+      "new": "고대 아테네 민주정에서는 성인 남성 시민만 정치적 권력을 행사했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson02.json",
+      "exercise": 4,
+      "word": "power",
+      "si": 3,
+      "sourcePath": [
+        "exercises",
+        3,
+        "words",
+        5,
+        "c"
+      ],
+      "field": "c",
+      "old": "사람이나 일을 통제할 수 있는 힘. in power = 집권 중인.",
+      "new": "demo-(민중) + -cracy(통치).",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson02.json",
+      "exercise": 6,
+      "word": "war",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        5,
+        "words",
+        16,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "Many people died in the {{BLANK}}.",
+      "new": "Winning a {{BLANK}} does not guarantee peace.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson02.json",
+      "exercise": 6,
+      "word": "war",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        5,
+        "words",
+        16,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "많은 사람이 그 전쟁에서 죽었어.",
+      "new": "전쟁에서 이긴다고 평화가 보장되지는 않아.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson02.json",
+      "exercise": 10,
+      "word": "death",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        9,
+        "words",
+        7,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "News of his {{BLANK}} shocked the whole town.",
+      "new": "In the past, high infant {{BLANK}} rates lowered life expectancy.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson02.json",
+      "exercise": 10,
+      "word": "death",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        9,
+        "words",
+        7,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "그의 죽음 소식에 온 마을이 충격을 받았어.",
+      "new": "과거에는 높은 영아 사망률이 평균수명을 낮췄어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson02.json",
+      "exercise": 10,
+      "word": "death",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        9,
+        "words",
+        7,
+        "c"
+      ],
+      "field": "c",
+      "old": "die: 죽다(동사). dead: 죽은(형용사). death: 죽음(명사).",
+      "new": "평균수명이 낮았다고 모두 그 나이에 죽었다는 뜻은 아니다. die(죽다)·dead(죽은)·death(죽음).",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "exercise": 3,
+      "word": "international",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        2,
+        "words",
+        5,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "English is an {{BLANK}} language.",
+      "new": "The first modern Olympics were an {{BLANK}} sports event in Athens in 1896.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "exercise": 3,
+      "word": "international",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        2,
+        "words",
+        5,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "영어는 국제어야.",
+      "new": "첫 근대 올림픽은 1896년 아테네에서 열린 국제 스포츠 대회였어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "exercise": 4,
+      "word": "move",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        3,
+        "words",
+        2,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "They {{BLANK}}d to a new city.",
+      "new": "Before you {{BLANK}} for higher pay, check the cost of living.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "exercise": 4,
+      "word": "move",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        3,
+        "words",
+        2,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "그들은 새 도시로 이사했어.",
+      "new": "급여가 더 높은 곳으로 이사하기 전에 생활비를 확인해 봐.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "exercise": 4,
+      "word": "question",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        3,
+        "words",
+        6,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "We should {{BLANK}} ideas that seem unfair.",
+      "new": "We should {{BLANK}} our own beliefs, not just other people's.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "exercise": 4,
+      "word": "question",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        3,
+        "words",
+        6,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "우리는 불공평해 보이는 생각에 의문을 제기해야 해.",
+      "new": "남의 신념뿐 아니라 자신의 신념에도 의문을 제기해야 해.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "exercise": 5,
+      "word": "reason",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        4,
+        "words",
+        19,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "Humans are guided by {{BLANK}}.",
+      "new": "Ancient Greek thinkers used {{BLANK}} to understand nature.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "exercise": 5,
+      "word": "reason",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        4,
+        "words",
+        19,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "인간은 이성에 따라 움직여.",
+      "new": "고대 그리스 사상가들은 자연을 이해하는 데 이성을 사용했어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "exercise": 6,
+      "word": "age",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        5,
+        "words",
+        9,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "We live in the information {{BLANK}}.",
+      "new": "In the digital {{BLANK}}, companies compete for our attention.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "exercise": 6,
+      "word": "age",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        5,
+        "words",
+        9,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "우리는 정보화 시대에 살아.",
+      "new": "디지털 시대에는 기업들이 우리의 관심을 차지하려고 경쟁해.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "exercise": 8,
+      "word": "political",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        7,
+        "words",
+        6,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "They have different {{BLANK}} views.",
+      "new": "The French Revolution began in 1789 and changed France's {{BLANK}} system.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "exercise": 8,
+      "word": "political",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        7,
+        "words",
+        6,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "그들은 정치적 견해가 달라.",
+      "new": "프랑스혁명은 1789년에 시작되어 프랑스의 정치 제도를 바꾸었어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "exercise": 9,
+      "word": "experience",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        8,
+        "words",
+        8,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "They {{BLANK}}d many hardships.",
+      "new": "In the 1930s, many Americans {{BLANK}}d poverty during the Great Depression.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson03.json",
+      "exercise": 9,
+      "word": "experience",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        8,
+        "words",
+        8,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "그들은 많은 고난을 경험했어.",
+      "new": "1930년대에 많은 미국인이 대공황 동안 빈곤을 겪었어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "exercise": 2,
+      "word": "field",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        1,
+        "words",
+        1,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "She is famous in the {{BLANK}} of science.",
+      "new": "Einstein's 1905 papers changed the {{BLANK}} of physics.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "exercise": 2,
+      "word": "field",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        1,
+        "words",
+        1,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "걔는 과학 분야에서 유명해.",
+      "new": "아인슈타인의 1905년 논문들은 물리학 분야를 바꾸어 놓았어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "exercise": 2,
+      "word": "space",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        1,
+        "words",
+        11,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "Astronauts travel in {{BLANK}}.",
+      "new": "Astronauts use radios in {{BLANK}} because sound cannot travel through a vacuum.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "exercise": 2,
+      "word": "space",
+      "si": 2,
+      "sourcePath": [
+        "exercises",
+        1,
+        "words",
+        11,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "우주비행사들은 우주를 여행해.",
+      "new": "우주비행사들은 우주에서 무전기를 써. 진공에서는 소리가 전달되지 않거든.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "exercise": 5,
+      "word": "share",
+      "si": 3,
+      "sourcePath": [
+        "exercises",
+        4,
+        "words",
+        11,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "She bought {{BLANK}}s in the company.",
+      "new": "In October 1929, American {{BLANK}} prices fell sharply.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "exercise": 5,
+      "word": "share",
+      "si": 3,
+      "sourcePath": [
+        "exercises",
+        4,
+        "words",
+        11,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "그녀는 그 회사의 주식을 샀어.",
+      "new": "1929년 10월에 미국 주식 가격이 급격히 떨어졌어.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "exercise": 5,
+      "word": "lead",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        4,
+        "words",
+        14,
+        "ex"
+      ],
+      "field": "ex",
+      "old": "She will {{BLANK}} the team this year.",
+      "new": "Napoleon failed to {{BLANK}} his army to victory at Waterloo in 1815.",
+      "oldExists": true,
+      "newExists": true
+    },
+    {
+      "file": "pipeline/out/lesson04.json",
+      "exercise": 5,
+      "word": "lead",
+      "si": 1,
+      "sourcePath": [
+        "exercises",
+        4,
+        "words",
+        14,
+        "tr"
+      ],
+      "field": "tr",
+      "old": "걔가 올해 그 팀을 이끌 거야.",
+      "new": "나폴레옹은 1815년 워털루에서 자신의 군대를 승리로 이끌지 못했어.",
+      "oldExists": true,
+      "newExists": true
+    }
+  ],
+  "sourceSnapshots": {
+    "pipeline/out/lesson00.json": {
+      "beforeHash": "7667f2153170fca580991dcb51de2a6c3344e246432cf47b8f20f78d88ec7da3",
+      "afterHash": "97edf0a9abd6f30a3270281ba62080ca69c7c8426bd0db1ea510b52376f4320d"
+    },
+    "pipeline/out/lesson01.json": {
+      "beforeHash": "438f3dbdac412d7fff202a9c8c62205e908d497509ef3d962c6580ba8512ae44",
+      "afterHash": "b390af9aae8d428d4885513bbf248f12965061be4de7c9800da17488e74fe53b"
+    },
+    "pipeline/out/lesson02.json": {
+      "beforeHash": "980608bc6daed9ee0023ffbe92300efb0985abb1d4d042ca9f181bec73527118",
+      "afterHash": "e6872ce704bbf0355d788eb85870fc3d3f917caf333f32791b2294dcdb848fd8"
+    },
+    "pipeline/out/lesson03.json": {
+      "beforeHash": "933d544a777abf74642aeaac29c2ba0c0704ed7d1957c0eb833146a7dfeaa036",
+      "afterHash": "57aec29d22539fec3e2abf329f78a6d8f8e30a9b295e35829fbd667475a29cc6"
+    },
+    "pipeline/out/lesson04.json": {
+      "beforeHash": "0894da11906506df6d449f9ee004bb3831d33a4349024e4860129455e1b983a4",
+      "afterHash": "ea7c4e2482259d4aaae8bb0bd11a94fedb7abb1e8c78d985e06416058d1a2729"
+    },
+    "pipeline/out/set05.json": {
+      "beforeHash": "8ac721817431c0f197651a7deeecf87949756f1cead8bf3f1466ea470f731f5e",
+      "afterHash": "e1f33bf577b74c99fd9828dd0059fc67864f5174f41856f0483983a37f85efe6"
+    }
+  },
+  "snapshots": {
+    "DATA": {
+      "beforeHash": "c4f71f2424643f10ff5f1932fde09fd212167b25a5590927f95411400600ff47",
+      "afterHash": "d4ade06db2c5d62ee80bb6c49427c410700c7b65f9ee9bac10ae8a15343e0cff",
+      "changes": [
+        {
+          "path": [
+            0,
+            "exercises",
+            2,
+            "words",
+            11,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Our exams end in {{BLANK}} this year.",
+          "new": "Many countries celebrate Workers' Day on {{BLANK}} 1."
+        },
+        {
+          "path": [
+            0,
+            "exercises",
+            2,
+            "words",
+            11,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "올해 우리 시험은 5월에 끝나.",
+          "new": "많은 나라에서는 5월 1일에 노동절을 기념해."
+        },
+        {
+          "path": [
+            0,
+            "exercises",
+            2,
+            "words",
+            13,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "We go to the beach in {{BLANK}}.",
+          "new": "The American Declaration of Independence was adopted on {{BLANK}} 4, 1776."
+        },
+        {
+          "path": [
+            0,
+            "exercises",
+            2,
+            "words",
+            13,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "우리 7월에 바다 가.",
+          "new": "미국 독립선언서는 1776년 7월 4일에 채택됐어."
+        },
+        {
+          "path": [
+            0,
+            "exercises",
+            2,
+            "words",
+            14,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "It's hottest in {{BLANK}}.",
+          "new": "In {{BLANK}} 1789, France declared that people were born free and equal."
+        },
+        {
+          "path": [
+            0,
+            "exercises",
+            2,
+            "words",
+            14,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "8월이 제일 더워.",
+          "new": "1789년 8월에 프랑스는 인간이 자유롭고 평등하게 태어난다고 선언했어."
+        },
+        {
+          "path": [
+            0,
+            "exercises",
+            2,
+            "words",
+            17,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "The big test is in {{BLANK}}.",
+          "new": "On {{BLANK}} 11, 1918, Germany agreed to stop fighting."
+        },
+        {
+          "path": [
+            0,
+            "exercises",
+            2,
+            "words",
+            17,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "큰 시험은 11월에 있어.",
+          "new": "1918년 11월 11일에 독일은 전투를 멈추기로 합의했어."
+        },
+        {
+          "path": [
+            0,
+            "exercises",
+            4,
+            "words",
+            13,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "The {{BLANK}}s built the road in a month.",
+          "new": "In Britain in the 1800s, many factory {{BLANK}}s were children."
+        },
+        {
+          "path": [
+            0,
+            "exercises",
+            4,
+            "words",
+            13,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "일꾼들이 한 달 만에 길을 냈어.",
+          "new": "19세기 영국에서는 공장 노동자 중 어린이가 많았어."
+        },
+        {
+          "path": [
+            0,
+            "exercises",
+            6,
+            "words",
+            14,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Add a {{BLANK}} to the salad.",
+          "new": "In the 1500s, people brought {{BLANK}}es from the Americas to Europe."
+        },
+        {
+          "path": [
+            0,
+            "exercises",
+            6,
+            "words",
+            14,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "샐러드에 토마토 하나 넣어.",
+          "new": "16세기에 사람들은 아메리카에서 유럽으로 토마토를 가져왔어."
+        },
+        {
+          "path": [
+            0,
+            "exercises",
+            7,
+            "words",
+            21,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "This app was {{BLANK}}d by a high school student.",
+          "new": "The World Wide Web was {{BLANK}}d in 1989."
+        },
+        {
+          "path": [
+            0,
+            "exercises",
+            7,
+            "words",
+            21,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "이 앱은 고등학생이 만든 거야.",
+          "new": "월드 와이드 웹은 1989년에 만들어졌어."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            3,
+            "words",
+            17,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "The battery {{BLANK}}s two days.",
+          "new": "World War I {{BLANK}}ed from 1914 to 1918."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            3,
+            "words",
+            17,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "배터리가 이틀 가.",
+          "new": "제1차 세계대전은 1914년부터 1918년까지 이어졌어."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            6,
+            "words",
+            17,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "The class {{BLANK}}s at three o'clock.",
+          "new": "World War II {{BLANK}}ed in 1945."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            6,
+            "words",
+            17,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "수업은 3시에 끝나.",
+          "new": "제2차 세계대전은 1945년에 끝났어."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            8,
+            "words",
+            15,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Seoul is a very large {{BLANK}}.",
+          "new": "In Britain in the 1800s, many people moved to the {{BLANK}} for work."
+        },
+        {
+          "path": [
+            1,
+            "exercises",
+            8,
+            "words",
+            15,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "서울은 아주 큰 도시야.",
+          "new": "19세기 영국에서는 많은 사람이 일자리를 찾아 도시로 이주했어."
+        },
+        {
+          "path": [
+            2,
+            "exercises",
+            0,
+            "words",
+            0,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "The {{BLANK}} raised taxes this year.",
+          "new": "In 1833, the British {{BLANK}} passed a law to protect children working in factories."
+        },
+        {
+          "path": [
+            2,
+            "exercises",
+            0,
+            "words",
+            0,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "정부는 올해 세금을 올렸어.",
+          "new": "1833년에 영국 정부는 공장에서 일하는 어린이들을 보호하는 법을 통과시켰어."
+        },
+        {
+          "path": [
+            2,
+            "exercises",
+            3,
+            "words",
+            5,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "The king had too much {{BLANK}}.",
+          "new": "In ancient Athenian democracy, only adult male citizens held political {{BLANK}}."
+        },
+        {
+          "path": [
+            2,
+            "exercises",
+            3,
+            "words",
+            5,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "그 왕은 권력을 너무 많이 가졌어.",
+          "new": "고대 아테네 민주정에서는 성인 남성 시민만 정치적 권력을 행사했어."
+        },
+        {
+          "path": [
+            2,
+            "exercises",
+            3,
+            "words",
+            5,
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "사람이나 일을 통제할 수 있는 힘. in power = 집권 중인.",
+          "new": "demo-(민중) + -cracy(통치)."
+        },
+        {
+          "path": [
+            2,
+            "exercises",
+            5,
+            "words",
+            16,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Many people died in the {{BLANK}}.",
+          "new": "Winning a {{BLANK}} does not guarantee peace."
+        },
+        {
+          "path": [
+            2,
+            "exercises",
+            5,
+            "words",
+            16,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "많은 사람이 그 전쟁에서 죽었어.",
+          "new": "전쟁에서 이긴다고 평화가 보장되지는 않아."
+        },
+        {
+          "path": [
+            2,
+            "exercises",
+            9,
+            "words",
+            6,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "News of his {{BLANK}} shocked the whole town.",
+          "new": "In the past, high infant {{BLANK}} rates lowered life expectancy."
+        },
+        {
+          "path": [
+            2,
+            "exercises",
+            9,
+            "words",
+            6,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "그의 죽음 소식에 온 마을이 충격을 받았어.",
+          "new": "과거에는 높은 영아 사망률이 평균수명을 낮췄어."
+        },
+        {
+          "path": [
+            2,
+            "exercises",
+            9,
+            "words",
+            6,
+            "c"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "die: 죽다(동사). dead: 죽은(형용사). death: 죽음(명사).",
+          "new": "평균수명이 낮았다고 모두 그 나이에 죽었다는 뜻은 아니다. die(죽다)·dead(죽은)·death(죽음)."
+        },
+        {
+          "path": [
+            3,
+            "exercises",
+            2,
+            "words",
+            5,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "English is an {{BLANK}} language.",
+          "new": "The first modern Olympics were an {{BLANK}} sports event in Athens in 1896."
+        },
+        {
+          "path": [
+            3,
+            "exercises",
+            2,
+            "words",
+            5,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "영어는 국제어야.",
+          "new": "첫 근대 올림픽은 1896년 아테네에서 열린 국제 스포츠 대회였어."
+        },
+        {
+          "path": [
+            3,
+            "exercises",
+            3,
+            "words",
+            2,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "They {{BLANK}}d to a new city.",
+          "new": "Before you {{BLANK}} for higher pay, check the cost of living."
+        },
+        {
+          "path": [
+            3,
+            "exercises",
+            3,
+            "words",
+            2,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "그들은 새 도시로 이사했어.",
+          "new": "급여가 더 높은 곳으로 이사하기 전에 생활비를 확인해 봐."
+        },
+        {
+          "path": [
+            3,
+            "exercises",
+            3,
+            "words",
+            6,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "We should {{BLANK}} ideas that seem unfair.",
+          "new": "We should {{BLANK}} our own beliefs, not just other people's."
+        },
+        {
+          "path": [
+            3,
+            "exercises",
+            3,
+            "words",
+            6,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "우리는 불공평해 보이는 생각에 의문을 제기해야 해.",
+          "new": "남의 신념뿐 아니라 자신의 신념에도 의문을 제기해야 해."
+        },
+        {
+          "path": [
+            3,
+            "exercises",
+            4,
+            "words",
+            19,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Humans are guided by {{BLANK}}.",
+          "new": "Ancient Greek thinkers used {{BLANK}} to understand nature."
+        },
+        {
+          "path": [
+            3,
+            "exercises",
+            4,
+            "words",
+            19,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "인간은 이성에 따라 움직여.",
+          "new": "고대 그리스 사상가들은 자연을 이해하는 데 이성을 사용했어."
+        },
+        {
+          "path": [
+            3,
+            "exercises",
+            5,
+            "words",
+            9,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "We live in the information {{BLANK}}.",
+          "new": "In the digital {{BLANK}}, companies compete for our attention."
+        },
+        {
+          "path": [
+            3,
+            "exercises",
+            5,
+            "words",
+            9,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "우리는 정보화 시대에 살아.",
+          "new": "디지털 시대에는 기업들이 우리의 관심을 차지하려고 경쟁해."
+        },
+        {
+          "path": [
+            3,
+            "exercises",
+            7,
+            "words",
+            6,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "They have different {{BLANK}} views.",
+          "new": "The French Revolution began in 1789 and changed France's {{BLANK}} system."
+        },
+        {
+          "path": [
+            3,
+            "exercises",
+            7,
+            "words",
+            6,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "그들은 정치적 견해가 달라.",
+          "new": "프랑스혁명은 1789년에 시작되어 프랑스의 정치 제도를 바꾸었어."
+        },
+        {
+          "path": [
+            3,
+            "exercises",
+            8,
+            "words",
+            8,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "They {{BLANK}}d many hardships.",
+          "new": "In the 1930s, many Americans {{BLANK}}d poverty during the Great Depression."
+        },
+        {
+          "path": [
+            3,
+            "exercises",
+            8,
+            "words",
+            8,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "그들은 많은 고난을 경험했어.",
+          "new": "1930년대에 많은 미국인이 대공황 동안 빈곤을 겪었어."
+        },
+        {
+          "path": [
+            4,
+            "exercises",
+            1,
+            "words",
+            1,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "She is famous in the {{BLANK}} of science.",
+          "new": "Einstein's 1905 papers changed the {{BLANK}} of physics."
+        },
+        {
+          "path": [
+            4,
+            "exercises",
+            1,
+            "words",
+            1,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "걔는 과학 분야에서 유명해.",
+          "new": "아인슈타인의 1905년 논문들은 물리학 분야를 바꾸어 놓았어."
+        },
+        {
+          "path": [
+            4,
+            "exercises",
+            1,
+            "words",
+            11,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Astronauts travel in {{BLANK}}.",
+          "new": "Astronauts use radios in {{BLANK}} because sound cannot travel through a vacuum."
+        },
+        {
+          "path": [
+            4,
+            "exercises",
+            1,
+            "words",
+            11,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "우주비행사들은 우주를 여행해.",
+          "new": "우주비행사들은 우주에서 무전기를 써. 진공에서는 소리가 전달되지 않거든."
+        },
+        {
+          "path": [
+            4,
+            "exercises",
+            4,
+            "words",
+            11,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "She bought {{BLANK}}s in the company.",
+          "new": "In October 1929, American {{BLANK}} prices fell sharply."
+        },
+        {
+          "path": [
+            4,
+            "exercises",
+            4,
+            "words",
+            11,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "그녀는 그 회사의 주식을 샀어.",
+          "new": "1929년 10월에 미국 주식 가격이 급격히 떨어졌어."
+        },
+        {
+          "path": [
+            4,
+            "exercises",
+            4,
+            "words",
+            14,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "She will {{BLANK}} the team this year.",
+          "new": "Napoleon failed to {{BLANK}} his army to victory at Waterloo in 1815."
+        },
+        {
+          "path": [
+            4,
+            "exercises",
+            4,
+            "words",
+            14,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "걔가 올해 그 팀을 이끌 거야.",
+          "new": "나폴레옹은 1815년 워털루에서 자신의 군대를 승리로 이끌지 못했어."
+        },
+        {
+          "path": [
+            5,
+            "exercises",
+            7,
+            "words",
+            4,
+            "ex"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "Our exams end in {{BLANK}} this year.",
+          "new": "Many countries celebrate Workers' Day on {{BLANK}} 1."
+        },
+        {
+          "path": [
+            5,
+            "exercises",
+            7,
+            "words",
+            4,
+            "tr"
+          ],
+          "oldExists": true,
+          "newExists": true,
+          "old": "올해 우리 시험은 5월에 끝나.",
+          "new": "많은 나라에서는 5월 1일에 노동절을 기념해."
+        }
+      ]
+    }
+  },
+  "cards": [
+    {
+      "id": "C0047",
+      "number": 31,
+      "en": "May",
+      "file": "pipeline/out/set05.json",
+      "sourcePath": [
+        7,
+        "words",
+        4
+      ],
+      "gamePath": [
+        0,
+        "exercises",
+        2,
+        "words",
+        11
+      ],
+      "changed": true,
+      "afterCardHash": "a114caa1d402cf86fbdd8af36e0b6abf467d9701f46620f7ad9ab85558b0ff91"
+    },
+    {
+      "id": "C0049",
+      "number": 32,
+      "en": "July",
+      "file": "pipeline/out/lesson00.json",
+      "sourcePath": [
+        "exercises",
+        2,
+        "words",
+        11
+      ],
+      "gamePath": [
+        0,
+        "exercises",
+        2,
+        "words",
+        13
+      ],
+      "changed": true,
+      "afterCardHash": "8262120a534ecdc1e121b63d876fd6d65e9f0739efef0843f4665e25b2cd41a5"
+    },
+    {
+      "id": "C0050",
+      "number": 33,
+      "en": "August",
+      "file": "pipeline/out/lesson00.json",
+      "sourcePath": [
+        "exercises",
+        2,
+        "words",
+        12
+      ],
+      "gamePath": [
+        0,
+        "exercises",
+        2,
+        "words",
+        14
+      ],
+      "changed": true,
+      "afterCardHash": "e9cc769912c630b8f6d6defa8d7b3fdbd9b03610744fa132d87ed2735b2d8d16"
+    },
+    {
+      "id": "C0053",
+      "number": 34,
+      "en": "November",
+      "file": "pipeline/out/lesson00.json",
+      "sourcePath": [
+        "exercises",
+        2,
+        "words",
+        15
+      ],
+      "gamePath": [
+        0,
+        "exercises",
+        2,
+        "words",
+        17
+      ],
+      "changed": true,
+      "afterCardHash": "d8028150f2414169207253a32fb6ef8d133fdc134437a13847261d79576ce7c7"
+    },
+    {
+      "id": "C0080",
+      "number": 35,
+      "en": "worker",
+      "file": "pipeline/out/lesson00.json",
+      "sourcePath": [
+        "exercises",
+        4,
+        "words",
+        13
+      ],
+      "gamePath": [
+        0,
+        "exercises",
+        4,
+        "words",
+        13
+      ],
+      "changed": true,
+      "afterCardHash": "20168bcc8998073949c3ae2ab4da1f7a116fed6b7f127f1bfa6eb360a7ec45b1"
+    },
+    {
+      "id": "C0123",
+      "number": 36,
+      "en": "tomato",
+      "file": "pipeline/out/lesson00.json",
+      "sourcePath": [
+        "exercises",
+        6,
+        "words",
+        14
+      ],
+      "gamePath": [
+        0,
+        "exercises",
+        6,
+        "words",
+        14
+      ],
+      "changed": true,
+      "afterCardHash": "9b8184e3cbc07df8441ed9553a7400596df15d2c7d6aa99456e7e3258ca5de1b"
+    },
+    {
+      "id": "C0167",
+      "number": 37,
+      "en": "create",
+      "file": "pipeline/out/lesson00.json",
+      "sourcePath": [
+        "exercises",
+        7,
+        "words",
+        21
+      ],
+      "gamePath": [
+        0,
+        "exercises",
+        7,
+        "words",
+        21
+      ],
+      "changed": true,
+      "afterCardHash": "d3e31cb6ebf9c21e68eef26180e11a36130751461474a5ea40d7485c6e6a54e6"
+    },
+    {
+      "id": "C0279",
+      "number": 38,
+      "en": "last",
+      "file": "pipeline/out/lesson01.json",
+      "sourcePath": [
+        "exercises",
+        3,
+        "words",
+        17
+      ],
+      "gamePath": [
+        1,
+        "exercises",
+        3,
+        "words",
+        17
+      ],
+      "changed": true,
+      "afterCardHash": "27b09dec2cb852a973628a1af9a9c2ba1a8c445321214902991b1da6ab30b226"
+    },
+    {
+      "id": "C0345",
+      "number": 39,
+      "en": "end",
+      "file": "pipeline/out/lesson01.json",
+      "sourcePath": [
+        "exercises",
+        6,
+        "words",
+        17
+      ],
+      "gamePath": [
+        1,
+        "exercises",
+        6,
+        "words",
+        17
+      ],
+      "changed": true,
+      "afterCardHash": "45305ee146f340131c388ad883b434fa7b8e7b2004388e078abbc9e31bd956da"
+    },
+    {
+      "id": "C0377",
+      "number": 40,
+      "en": "city",
+      "file": "pipeline/out/lesson01.json",
+      "sourcePath": [
+        "exercises",
+        8,
+        "words",
+        17
+      ],
+      "gamePath": [
+        1,
+        "exercises",
+        8,
+        "words",
+        15
+      ],
+      "changed": true,
+      "afterCardHash": "a1beda61d555e3f72a67310b9565b1a85c8ff95bb6d5794f91d2514d64c15121"
+    },
+    {
+      "id": "C0426",
+      "number": 41,
+      "en": "government",
+      "file": "pipeline/out/lesson02.json",
+      "sourcePath": [
+        "exercises",
+        0,
+        "words",
+        0
+      ],
+      "gamePath": [
+        2,
+        "exercises",
+        0,
+        "words",
+        0
+      ],
+      "changed": true,
+      "afterCardHash": "026877d8b01f4ae6f8c450fece47a27ef21c45682b4a0ff08ff23c14814a1ecb"
+    },
+    {
+      "id": "C0491",
+      "number": 42,
+      "en": "power",
+      "file": "pipeline/out/lesson02.json",
+      "sourcePath": [
+        "exercises",
+        3,
+        "words",
+        5
+      ],
+      "gamePath": [
+        2,
+        "exercises",
+        3,
+        "words",
+        5
+      ],
+      "changed": true,
+      "afterCardHash": "91afbe1d1b2d57f5936151d53aa3429e34a66540d2b06d0b64d25868d7a04d0d"
+    },
+    {
+      "id": "C0542",
+      "number": 44,
+      "en": "war",
+      "file": "pipeline/out/lesson02.json",
+      "sourcePath": [
+        "exercises",
+        5,
+        "words",
+        16
+      ],
+      "gamePath": [
+        2,
+        "exercises",
+        5,
+        "words",
+        16
+      ],
+      "changed": true,
+      "afterCardHash": "8cd02191b94b5631c859da3b2b6568223d914ec3ab72fbb0504b8c76666c9724"
+    },
+    {
+      "id": "C0594",
+      "number": 45,
+      "en": "death",
+      "file": "pipeline/out/lesson02.json",
+      "sourcePath": [
+        "exercises",
+        9,
+        "words",
+        7
+      ],
+      "gamePath": [
+        2,
+        "exercises",
+        9,
+        "words",
+        6
+      ],
+      "changed": true,
+      "afterCardHash": "2a25e245f0ee0cba45b8cc2b305bef5ef76daed1de808c597bf03637414efe04"
+    },
+    {
+      "id": "C0635",
+      "number": 46,
+      "en": "international",
+      "file": "pipeline/out/lesson03.json",
+      "sourcePath": [
+        "exercises",
+        2,
+        "words",
+        5
+      ],
+      "gamePath": [
+        3,
+        "exercises",
+        2,
+        "words",
+        5
+      ],
+      "changed": true,
+      "afterCardHash": "6c1794678e15bb1270f383b40e97a8e15ab11c3bda6957a768bebca1b23812ba"
+    },
+    {
+      "id": "C0649",
+      "number": 47,
+      "en": "move",
+      "file": "pipeline/out/lesson03.json",
+      "sourcePath": [
+        "exercises",
+        3,
+        "words",
+        2
+      ],
+      "gamePath": [
+        3,
+        "exercises",
+        3,
+        "words",
+        2
+      ],
+      "changed": true,
+      "afterCardHash": "7fd9c6bb1c5712fd6ce458a827f2a067872c6a0e461b0ad26ad7e9aa506f180e"
+    },
+    {
+      "id": "C0653",
+      "number": 48,
+      "en": "question",
+      "file": "pipeline/out/lesson03.json",
+      "sourcePath": [
+        "exercises",
+        3,
+        "words",
+        6
+      ],
+      "gamePath": [
+        3,
+        "exercises",
+        3,
+        "words",
+        6
+      ],
+      "changed": true,
+      "afterCardHash": "ce8f19b9fc1e5c39863b43a8090a9762c298d4bf16d9aa1c327aeeafa63cf27d"
+    },
+    {
+      "id": "C0683",
+      "number": 49,
+      "en": "reason",
+      "file": "pipeline/out/lesson03.json",
+      "sourcePath": [
+        "exercises",
+        4,
+        "words",
+        19
+      ],
+      "gamePath": [
+        3,
+        "exercises",
+        4,
+        "words",
+        19
+      ],
+      "changed": true,
+      "afterCardHash": "8122768ea1f8320ecb17b65c0b20e21080db654951864d0292c83b99f983b54a"
+    },
+    {
+      "id": "C0693",
+      "number": 50,
+      "en": "age",
+      "file": "pipeline/out/lesson03.json",
+      "sourcePath": [
+        "exercises",
+        5,
+        "words",
+        9
+      ],
+      "gamePath": [
+        3,
+        "exercises",
+        5,
+        "words",
+        9
+      ],
+      "changed": true,
+      "afterCardHash": "98a400ba5ef570c16249a099ebe3d7582a7d2b1e70890bc4421da8e32a8bb8bf"
+    },
+    {
+      "id": "C0724",
+      "number": 51,
+      "en": "political",
+      "file": "pipeline/out/lesson03.json",
+      "sourcePath": [
+        "exercises",
+        7,
+        "words",
+        6
+      ],
+      "gamePath": [
+        3,
+        "exercises",
+        7,
+        "words",
+        6
+      ],
+      "changed": true,
+      "afterCardHash": "8729859077160e9986f9ee18f61a2d1a7fd2ec782d50ecd4c7a9ba9184de4755"
+    },
+    {
+      "id": "C0737",
+      "number": 52,
+      "en": "experience",
+      "file": "pipeline/out/lesson03.json",
+      "sourcePath": [
+        "exercises",
+        8,
+        "words",
+        8
+      ],
+      "gamePath": [
+        3,
+        "exercises",
+        8,
+        "words",
+        8
+      ],
+      "changed": true,
+      "afterCardHash": "79dbdde35e7e1eeba18df12c9b8d9939f0727a2c1dd4bde1de19c318d032258a"
+    },
+    {
+      "id": "C0784",
+      "number": 53,
+      "en": "field",
+      "file": "pipeline/out/lesson04.json",
+      "sourcePath": [
+        "exercises",
+        1,
+        "words",
+        1
+      ],
+      "gamePath": [
+        4,
+        "exercises",
+        1,
+        "words",
+        1
+      ],
+      "changed": true,
+      "afterCardHash": "3dba5ec575fe8fd9418382300457875a7aed425f862985df62274371500d63f3"
+    },
+    {
+      "id": "C0794",
+      "number": 54,
+      "en": "space",
+      "file": "pipeline/out/lesson04.json",
+      "sourcePath": [
+        "exercises",
+        1,
+        "words",
+        11
+      ],
+      "gamePath": [
+        4,
+        "exercises",
+        1,
+        "words",
+        11
+      ],
+      "changed": true,
+      "afterCardHash": "17593bef8216e40a2fa16ffc54d994572e40a71e734eaba975e61a2cf1b8edb6"
+    },
+    {
+      "id": "C0848",
+      "number": 55,
+      "en": "share",
+      "file": "pipeline/out/lesson04.json",
+      "sourcePath": [
+        "exercises",
+        4,
+        "words",
+        11
+      ],
+      "gamePath": [
+        4,
+        "exercises",
+        4,
+        "words",
+        11
+      ],
+      "changed": true,
+      "afterCardHash": "ac5a88237f6c1af52e75674df0a8997f670582451229e7f9b0ee01b4c623e2b8"
+    },
+    {
+      "id": "C0851",
+      "number": 56,
+      "en": "lead",
+      "file": "pipeline/out/lesson04.json",
+      "sourcePath": [
+        "exercises",
+        4,
+        "words",
+        14
+      ],
+      "gamePath": [
+        4,
+        "exercises",
+        4,
+        "words",
+        14
+      ],
+      "changed": true,
+      "afterCardHash": "a423bb62b77f84bfa91ae1f96555dd723af83a02d5b78d0639223e1017208aac"
+    },
+    {
+      "en": "May",
+      "gamePath": [
+        5,
+        "exercises",
+        7,
+        "words",
+        4
+      ],
+      "changed": true,
+      "reason": "shared authoring source for calendar and polysemy"
+    }
+  ],
+  "tests": [
+    "session 7476",
+    "placement-regrouping saved IDs and resumes",
+    "morphology-content",
+    "IPA conservation",
+    "index-stats --check",
+    "26 cards / 54 fields exact diff; UI unchanged"
+  ]
+}

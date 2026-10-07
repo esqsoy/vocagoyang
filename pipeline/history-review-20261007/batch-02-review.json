@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "status": "drafting_review_complete_no_app_changes",
+  "status": "25_approved_proposals_applied_43_pending",
   "dataHash": "c4f71f2424643f10ff5f1932fde09fd212167b25a5590927f95411400600ff47",
   "selectedCandidates": 40,
   "proposals": 26,
@@ -35,20 +35,18 @@
     {
       "id": "C0047",
       "decision": "propose",
-      "reason": "초급 end, Europe와 월 표현만으로 유럽에서의 제2차 세계대전 종전을 배울 수 있다.",
+      "reason": "세계대전 유럽 종전의 세부 월 대신, 5월과 직접 연결되는 노동절로 교체한다.",
       "proposed": {
-        "ex": "World War II ended in Europe in {{BLANK}} 1945.",
-        "tr": "유럽에서는 제2차 세계대전이 1945년 5월에 끝났어."
+        "ex": "Many countries celebrate Workers' Day on {{BLANK}} 1.",
+        "tr": "많은 나라에서는 5월 1일에 노동절을 기념해."
       },
-      "completedEnglish": "World War II ended in Europe in May 1945.",
-      "factIds": [
-        "H35"
-      ],
+      "completedEnglish": "Many countries celebrate Workers' Day on May 1.",
+      "factIds": [],
       "sources": [
-        "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/second-world-war/ve-day-8-may-1945/"
+        "https://www.ilo.org/resource/news/zambia-malawi-and-mozambique-celebrate-labour-day"
       ],
-      "verificationNote": "영국 국립문서보관소의 VE Day 자료에서 1945년 5월 유럽 전쟁 종료와 당시 일본과의 전쟁 지속을 함께 확인했다. 세계 전체 종전이라고 확대하지 않는다.",
-      "difficultyNote": "in+월을 유지한다. surrender/hostilities 같은 전문적 전쟁어는 넣지 않는다.",
+      "verificationNote": "ILO official report states that workers across the globe celebrate International Labour Day every year on May 1, and documents Zambia, Malawi and Mozambique in 2024. Page opened and inspected. Many countries avoids universal observance; annual holiday does not need a one-time event year.",
+      "difficultyNote": "짧은 현재형으로 매년 돌아오는 대표 기념일을 보여 준다. workers/day는 쉬운 구성어이며 노동절 이름의 이해를 돕는다. on+월/일의 기본 문형.",
       "en": "May",
       "set": 0,
       "path": [
@@ -63,26 +61,32 @@
         "tr": "올해 우리 시험은 5월에 끝나.",
         "c": "달 이름 May는 항상 대문자로 시작한다. 조동사 may와 발음은 같고 뜻은 다르다."
       },
-      "sourceHash": "f6e8a71d520476f6d6f8b374ee18708bb1436f5cd8f5d1f81c438c17171c104d"
+      "sourceHash": "f6e8a71d520476f6d6f8b374ee18708bb1436f5cd8f5d1f81c438c17171c104d",
+      "topic": "5월 1일 노동절",
+      "topicRevision": "topic-revision-02.json",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0049",
       "decision": "propose",
-      "reason": "월을 배우며 제1차 세계대전의 시작 날짜를 함께 익힌다. 기존 fourteenth 예문의 바스티유 문장에서 빈칸만 옮기는 중복을 피했다.",
+      "reason": "매년의 기념일 소개에서 사건 자체의 연도와 날짜로 변경하라는 사용자 요청.",
       "proposed": {
-        "ex": "World War I began on {{BLANK}} 28, 1914.",
-        "tr": "제1차 세계대전은 1914년 7월 28일에 시작됐어."
+        "ex": "The American Declaration of Independence was adopted on {{BLANK}} 4, 1776.",
+        "tr": "미국 독립선언서는 1776년 7월 4일에 채택됐어."
       },
-      "completedEnglish": "World War I began on July 28, 1914.",
+      "completedEnglish": "The American Declaration of Independence was adopted on July 4, 1776.",
       "factIds": [
-        "H31"
+        "H21"
       ],
       "sources": [
-        "https://www.iwm.org.uk/sites/default/files/press-release/4_August_1914_Factsheet.pdf",
-        "https://ww1.nam.ac.uk/timeline/"
+        "https://www.archives.gov/founding-docs/declaration-history"
       ],
-      "verificationNote": "IWM 공식 연표 설명 및 영국 국립육군박물관 연표에서 1914년 7월 28일 오스트리아-헝가리의 세르비아 선전포고를 확인했다. 전쟁 발발의 통상 날짜를 쓰며 영국 참전일 8월 4일과 구별한다.",
-      "difficultyNote": "begin의 과거형과 on+날짜만 사용한다. 선전포고의 여러 나라 이름과 연쇄 과정을 한 문장에 넣지 않는다.",
+      "verificationNote": "독립선언서 채택일을 정확하게 명시한다. 영국의 독립 승인이나 전원의 서명 날짜와 혼동하지 않는다.",
+      "difficultyNote": "독립선언서라는 핵심 명칭과 채택을 뜻하는 adopted를 남기고 대륙회의·전쟁 경과를 추가하지 않는다.",
       "en": "July",
       "set": 0,
       "path": [
@@ -97,26 +101,32 @@
         "tr": "우리 7월에 바다 가.",
         "c": "강세 주의."
       },
-      "sourceHash": "0ddb0e607dc44bc28938bcc374792f349a1fd23b5e1a3b324a6172c349625b2c"
+      "sourceHash": "0ddb0e607dc44bc28938bcc374792f349a1fd23b5e1a3b324a6172c349625b2c",
+      "topic": "1776년 미국 독립선언서 채택",
+      "topicRevision": "topic-revision-03.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      },
+      "status": "applied_locally"
     },
     {
       "id": "C0050",
       "decision": "propose",
-      "reason": "일본의 전쟁 중단 결정을 agree to stop fighting으로 풀어 쓰면 surrender를 몰라도 월을 학습할 수 있다.",
+      "reason": "전후 항복 결정 대신 근대 인권·시민 평등의 큰 흐름을 담는다. 로마황제의 월 명명 일화보다 큰 세계사적 의의를 가진 사건으로 선정했다.",
       "proposed": {
-        "ex": "Japan agreed to stop fighting in {{BLANK}} 1945.",
-        "tr": "1945년 8월에 일본은 전투를 멈추기로 합의했어."
+        "ex": "In {{BLANK}} 1789, France declared that people were born free and equal.",
+        "tr": "1789년 8월에 프랑스는 인간이 자유롭고 평등하게 태어난다고 선언했어."
       },
-      "completedEnglish": "Japan agreed to stop fighting in August 1945.",
+      "completedEnglish": "In August 1789, France declared that people were born free and equal.",
       "factIds": [
-        "H37"
+        "H22"
       ],
       "sources": [
-        "https://history.blog.gov.uk/2020/08/14/whats-the-context-vj-day-15-august-1945/",
-        "https://www.archives.gov/exhibits/featured-documents/japanese-surrender-document"
+        "https://www.elysee.fr/en/french-presidency/the-declaration-of-the-rights-of-man-and-of-the-citizen"
       ],
-      "verificationNote": "영국 정부 역사 자료의 8월 14일 항복 결정·15일 방송, 미국 국립문서보관소의 9월 2일 서명 구분을 확인했다. 8월의 결정이므로 9월의 문서 서명으로 서술하지 않았다.",
-      "difficultyNote": "짧은 agree to stop fighting 구문. 연합국 명칭이나 항복 문서 이름을 추가하지 않는다.",
+      "verificationNote": "French presidency official page states that articles were voted on August 20–26, 1789 and reproduces Article 1: men are born and remain free and equal in rights. Page opened and inspected. The proposed sentence paraphrases the declaration's stated principle; it does not claim universal equality was actually implemented in 1789. Royal ratification in October is a separate step and not the event named here.",
+      "difficultyNote": "긴 선언문 제목 대신 declared that과 born free and equal로 내용을 직접 풀어 쓴다. 하나의 that절이며 고유명사는 France 하나만 있다.",
       "en": "August",
       "set": 0,
       "path": [
@@ -131,7 +141,14 @@
         "tr": "8월이 제일 더워.",
         "c": "줄임 Aug."
       },
-      "sourceHash": "6f19560ddc7bc1ccd2c148cd1f2d1172140349729a51fecd130bebc5817f06e6"
+      "sourceHash": "6f19560ddc7bc1ccd2c148cd1f2d1172140349729a51fecd130bebc5817f06e6",
+      "topic": "1789년 프랑스 인권선언",
+      "topicRevision": "topic-revision-02.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      },
+      "status": "applied_locally"
     },
     {
       "id": "C0053",
@@ -170,7 +187,12 @@
         "tr": "큰 시험은 11월에 있어.",
         "c": "라틴어 novem=9. 옛 로마력은 3월부터 세어 아홉째 달."
       },
-      "sourceHash": "319e6fdf96e049103ad9688ea9a82b11ed1c0acf66ce162230541bbfc1b0e787"
+      "sourceHash": "319e6fdf96e049103ad9688ea9a82b11ed1c0acf66ce162230541bbfc1b0e787",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0080",
@@ -203,7 +225,12 @@
         "tr": "일꾼들이 한 달 만에 길을 냈어.",
         "c": "office worker 회사원, co-worker 동료."
       },
-      "sourceHash": "cd73214cb82c3ed564b87ed9d6c4bc9d416cd003cf942ec704051a028cdd5dc2"
+      "sourceHash": "cd73214cb82c3ed564b87ed9d6c4bc9d416cd003cf942ec704051a028cdd5dc2",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0090",
@@ -288,7 +315,12 @@
         "tr": "샐러드에 토마토 하나 넣어.",
         "c": "복수 tomatoes(-es)."
       },
-      "sourceHash": "1e69828b71288c31ef6d50e4c18dd143089797ff02e838669af8b2c94d285531"
+      "sourceHash": "1e69828b71288c31ef6d50e4c18dd143089797ff02e838669af8b2c94d285531",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0167",
@@ -321,7 +353,12 @@
         "tr": "이 앱은 고등학생이 만든 거야.",
         "c": "없던 것을 새로 만들다. creative 창의적인."
       },
-      "sourceHash": "1f5068e69c2579101989dbb98b7e4bb8ea42e5de4f4d8679149794abad9f1c51"
+      "sourceHash": "1f5068e69c2579101989dbb98b7e4bb8ea42e5de4f4d8679149794abad9f1c51",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0270",
@@ -381,7 +418,12 @@
         "tr": "배터리가 이틀 가.",
         "c": "동사로 쓰이면 '(시간이) 이어지다'. The battery lasts long = 배터리가 오래간다."
       },
-      "sourceHash": "f1a38103b5a9616a18eab3399deaabcb7e62094159e8ce3413e8914de1136923"
+      "sourceHash": "f1a38103b5a9616a18eab3399deaabcb7e62094159e8ce3413e8914de1136923",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0343",
@@ -442,7 +484,12 @@
         "tr": "수업은 3시에 끝나.",
         "c": ""
       },
-      "sourceHash": "e6b40a1de91cc27087bd7d9e4a771b361cb066df970b04e1eb108436d78727eb"
+      "sourceHash": "e6b40a1de91cc27087bd7d9e4a771b361cb066df970b04e1eb108436d78727eb",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0377",
@@ -476,7 +523,12 @@
         "tr": "서울은 아주 큰 도시야.",
         "c": "town보다 큰 도시. (복수는 city → cities)"
       },
-      "sourceHash": "a547c5da930453aaa43070db7c275d967a40ae0116efb6745d5c49abc57266f7"
+      "sourceHash": "a547c5da930453aaa43070db7c275d967a40ae0116efb6745d5c49abc57266f7",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0426",
@@ -510,7 +562,12 @@
         "tr": "정부는 올해 세금을 올렸어.",
         "c": ""
       },
-      "sourceHash": "9525a20e27ccd03030d751a8110bc208ec043746759c97960fce1b345cc359bc"
+      "sourceHash": "9525a20e27ccd03030d751a8110bc208ec043746759c97960fce1b345cc359bc",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0455",
@@ -541,20 +598,24 @@
     {
       "id": "C0491",
       "decision": "propose",
-      "reason": "익명 왕에 대한 평가 대신 실제 왕조 붕괴 사건과 lose power라는 정치적 결합을 제시한다.",
+      "reason": "민주정에서 민중의 실제 범위는 어디까지였는지 보여 주는 역사적 사실과 권력 배분의 통찰. 여성의 시민 신분 자체나 비공식 영향력 전부를 부정하지 않는다.",
       "proposed": {
-        "ex": "Russia's emperor lost {{BLANK}} in 1917.",
-        "tr": "러시아 황제는 1917년에 권력을 잃었어."
+        "ex": "In ancient Athenian democracy, only adult male citizens held political {{BLANK}}.",
+        "tr": "고대 아테네 민주정에서는 성인 남성 시민만 정치적 권력을 행사했어.",
+        "c": "demo-(민중) + -cracy(통치)."
       },
-      "completedEnglish": "Russia's emperor lost power in 1917.",
+      "completedEnglish": "In ancient Athenian democracy, only adult male citizens held political power.",
       "factIds": [
-        "H32"
+        "H04"
       ],
       "sources": [
-        "https://www.nationalarchives.gov.uk/education/students/videos/spotlight-on/spotlight-on-russian-revolution/"
+        "https://www.merriam-webster.com/dictionary/democracy",
+        "https://www.merriam-webster.com/dictionary/-cracy",
+        "https://www.merriam-webster.com/dictionary/aristocracy",
+        "https://www.britishmuseum.org/sites/default/files/2023-04/Luxury_and_power_large_print_guide.pdf"
       ],
-      "verificationNote": "영국 국립문서보관소가 1917년 첫 혁명으로 차르 체제가 끝나고 니콜라이 2세가 퇴위했다고 설명한다. 같은 해 볼셰비키 집권과 단일 사건으로 합치지 않는다.",
-      "difficultyNote": "tsar/abdicate 대신 emperor/lost power. 인명이나 2월·3월의 역법 차이를 추가하지 않는다.",
+      "verificationNote": "대영박물관 Luxury and power 전시 해설 48쪽의 성인 남성 시민 정치 참여 및 여성·노예·외국인 거주자 배제 확인. MW -cracy에서 통치 형태의 결합형과 그리스어 어원을 확인.",
+      "difficultyNote": "held political power를 익히며 참여 자격을 adult male citizens로 명시한다. -cracy 연결은 짧은 해설에 둔다.",
       "en": "power",
       "set": 2,
       "path": [
@@ -569,7 +630,14 @@
         "tr": "그 왕은 권력을 너무 많이 가졌어.",
         "c": "사람이나 일을 통제할 수 있는 힘. in power = 집권 중인."
       },
-      "sourceHash": "c84d9fa1b6a9c4851a75f0ba73aa9d55de7b7c6fe50525ed7c187aa8bafcbba2"
+      "sourceHash": "c84d9fa1b6a9c4851a75f0ba73aa9d55de7b7c6fe50525ed7c187aa8bafcbba2",
+      "topic": "고대 아테네 민주정의 정치 참여 범위",
+      "topicRevision": "topic-revision-04.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      },
+      "status": "applied_locally"
     },
     {
       "id": "C0498",
@@ -652,20 +720,18 @@
     {
       "id": "C0533",
       "decision": "propose",
-      "reason": "막연한 아름다움 평가를 1947년 파키스탄 성립으로 바꾼다. country 주변을 become/new 같은 쉬운 말로 유지한다.",
+      "reason": "큰 역사적 사실과 independent country의 결합을 짧게 전달한다.",
       "proposed": {
-        "ex": "Pakistan became a new {{BLANK}} in 1947.",
-        "tr": "파키스탄은 1947년에 새로운 나라가 되었어."
+        "ex": "India became an independent {{BLANK}} in 1947.",
+        "tr": "인도는 1947년에 독립 국가가 되었어."
       },
-      "completedEnglish": "Pakistan became a new country in 1947.",
-      "factIds": [
-        "H40"
-      ],
+      "completedEnglish": "India became an independent country in 1947.",
+      "factIds": [],
       "sources": [
-        "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/"
+        "https://www.presidentofindia.gov.in/speeches/address-nation-honble-president-india-smt-droupadi-murmu-eve-77th-independence-day"
       ],
-      "verificationNote": "영국 국립문서보관소 자료의 1947년 인도·파키스탄 두 국가 성립 및 8월 독립 확인. 원문 직접 열기는 403이지만 동일 공식 페이지의 검색 반환 본문에서 확인. 당시 파키스탄의 영토가 현재와 같다고 말하지 않는다.",
-      "difficultyNote": "짧은 단문. independent/partition 같은 추가 추상어 없이 고유명사 하나와 쉬운 문형 사용.",
+      "verificationNote": "인도 대통령실의 독립기념일 연설에서 1947년 8월 15일 독립을 확인했다. 공화국 수립일이나 헌법 채택일과 혼동하지 않는다.",
+      "difficultyNote": "인도라는 익숙한 나라와 독립 연도를 한 문장으로 제시한다.",
       "en": "country",
       "set": 2,
       "path": [
@@ -680,25 +746,25 @@
         "tr": "한국은 아름다운 나라야.",
         "c": "복수는 countries."
       },
-      "sourceHash": "6796981eaec4f57051e20da1aec15bc10c292225c5d092f2419984a632d63806"
+      "sourceHash": "6796981eaec4f57051e20da1aec15bc10c292225c5d092f2419984a632d63806",
+      "topic": "1947년 인도 독립",
+      "topicRevision": "topic-revision-05.json",
+      "exampleKind": "original_general_example_not_attributed_quote",
+      "status": "pending_user_review_not_applied"
     },
     {
       "id": "C0542",
       "decision": "propose",
-      "reason": "이름 없는 전쟁을 영국의 제2차 세계대전 참전 사건으로 구체화하며 declare war on이라는 전형적 결합을 함께 보여 준다.",
+      "reason": "winning a war/guarantee peace의 자연스러운 결합. 승리와 평화를 구별하는 짧은 경구형 문장으로 역사 배경이나 숨은 함의를 요구하지 않는다.",
       "proposed": {
-        "ex": "Britain declared {{BLANK}} on Germany on September 3, 1939.",
-        "tr": "영국은 1939년 9월 3일에 독일에 선전포고했어."
+        "ex": "Winning a {{BLANK}} does not guarantee peace.",
+        "tr": "전쟁에서 이긴다고 평화가 보장되지는 않아."
       },
-      "completedEnglish": "Britain declared war on Germany on September 3, 1939.",
-      "factIds": [
-        "H35"
-      ],
-      "sources": [
-        "https://www.iwm.org.uk/sites/default/files/files/2020-09/HANGAR_4_Largeprint.pdf"
-      ],
-      "verificationNote": "Imperial War Museums 연표가 1939-09-03 영국·프랑스의 대독 선전포고를 명시한다. 세계대전 자체의 발발일을 9월 3일이라고 쓰지 않는다.",
-      "difficultyNote": "declare는 새로 접할 수 있으나 declare war on 전체가 목표 단어의 대표 결합이라 학습 실익이 있다. 나머지는 익숙한 국가명과 날짜이며 종속절 없음.",
+      "completedEnglish": "Winning a war does not guarantee peace.",
+      "factIds": [],
+      "sources": [],
+      "verificationNote": "역사적 사건이나 특정 인물의 인용을 제시하지 않는 자체 작성 일반 예문. 특정 연구 결과·통계 수치를 주장하지 않는다. 목표 뜻·문형·한국어 대응 및 단정 범위를 검토했다.",
+      "difficultyNote": "짧은 일상 문형으로 한 가지 뜻을 직접 전달한다. 별도 인명·연대·제도 설명 없이 이해할 수 있으며 목표 뜻을 유지한다.",
       "en": "war",
       "set": 2,
       "path": [
@@ -713,7 +779,15 @@
         "tr": "많은 사람이 그 전쟁에서 죽었어.",
         "c": "at war = 교전 중."
       },
-      "sourceHash": "4fefb10f686e0093ea897fb8d63369421ed107cc263e3929e0a5d2188e11fd38"
+      "sourceHash": "4fefb10f686e0093ea897fb8d63369421ed107cc263e3929e0a5d2188e11fd38",
+      "topic": "전쟁의 승리와 평화의 구별",
+      "topicRevision": "topic-revision-04.json",
+      "exampleKind": "original_general_example_not_attributed_quote",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0565",
@@ -744,21 +818,19 @@
     {
       "id": "C0594",
       "decision": "propose",
-      "reason": "익명 인물의 죽음을 세계대전의 대규모 인명 피해로 구체화한다. 고유명 Black Death를 맞히는 문제가 아니라 death의 일반명사 용법을 유지한다.",
+      "reason": "흑사병 사망자 수를 다시 나열하는 대신 역사와 현재 통계를 읽는 데 쓰이는 개념을 담는다. death rate라는 중요한 결합도 드러난다.",
       "proposed": {
-        "ex": "World War II (1939–1945) caused tens of millions of {{BLANK}}s.",
-        "tr": "제2차 세계대전(1939~1945년)은 수천만 명의 죽음을 초래했어."
+        "ex": "In the past, high infant {{BLANK}} rates lowered life expectancy.",
+        "tr": "과거에는 높은 영아 사망률이 평균수명을 낮췄어.",
+        "c": "평균수명이 낮았다고 모두 그 나이에 죽었다는 뜻은 아니다. die(죽다)·dead(죽은)·death(죽음)."
       },
-      "completedEnglish": "World War II (1939–1945) caused tens of millions of deaths.",
-      "factIds": [
-        "H35"
-      ],
+      "completedEnglish": "In the past, high infant death rates lowered life expectancy.",
+      "factIds": [],
       "sources": [
-        "https://www.iwm.org.uk/sites/default/files/Transforming_IWM_London_Phase_2.pdf",
-        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-in-europe"
+        "https://ourworldindata.org/its-not-just-about-child-mortality-life-expectancy-improved-at-all-ages"
       ],
-      "verificationNote": "IWM 공식 자료는 1939~1945년 전쟁이 5,500만 명을 훨씬 넘는 사망자를 냈다고 설명한다. 예문은 정확한 합계를 단정하지 않고 millions로 제한한다.",
-      "difficultyNote": "원래의 shocked the whole town보다 단순한 원인-결과 구조. 복수 s는 빈칸 밖에 두어 표제어 death를 입력.",
+      "verificationNote": "과거 높은 영아·아동 사망이 출생 시 기대수명을 낮췄으며, 동시에 현대의 수명 향상은 아동 사망 감소만이 아니라 모든 연령대의 생존 개선으로 이루어졌음을 자료로 보여 준다.",
+      "difficultyNote": "10단어. infant death rate와 life expectancy는 개념상의 전문 결합이지만 짧고 한국어 대응이 선명하며 배경 이해의 실익이 크다.",
       "preRootReview": {
         "ex": "World War II (1939–1945) caused millions of {{BLANK}}s.",
         "tr": "제2차 세계대전(1939~1945년)은 수백만 명의 죽음을 초래했어."
@@ -778,7 +850,14 @@
         "tr": "그의 죽음 소식에 온 마을이 충격을 받았어.",
         "c": "die: 죽다(동사). dead: 죽은(형용사). death: 죽음(명사)."
       },
-      "sourceHash": "afb4ecb35a037dabe229c8eafeb31ad31de241e5261abf44fcac19ac35bac6e9"
+      "sourceHash": "afb4ecb35a037dabe229c8eafeb31ad31de241e5261abf44fcac19ac35bac6e9",
+      "topic": "영아 사망률과 평균수명 해석",
+      "topicRevision": "topic-revision-03.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      },
+      "status": "applied_locally"
     },
     {
       "id": "C0604",
@@ -809,21 +888,18 @@
     {
       "id": "C0635",
       "decision": "propose",
-      "reason": "international organization이라는 대표 결합을 UN의 1945년 창설과 연결한다.",
+      "reason": "제2차 세계대전 직후 UN 설립에서 국제 스포츠 교류의 시작으로 시대와 주제를 넓힌다.",
       "proposed": {
-        "ex": "The UN began as an {{BLANK}} organization in 1945.",
-        "tr": "유엔은 1945년에 국제기구로 출범했어."
+        "ex": "The first modern Olympics were an {{BLANK}} sports event in Athens in 1896.",
+        "tr": "첫 근대 올림픽은 1896년 아테네에서 열린 국제 스포츠 대회였어."
       },
-      "completedEnglish": "The UN began as an international organization in 1945.",
-      "factIds": [
-        "H38"
-      ],
+      "completedEnglish": "The first modern Olympics were an international sports event in Athens in 1896.",
+      "factIds": [],
       "sources": [
-        "https://www.un.org/en/about-us/",
-        "https://www.un.org/en/about-us/history-of-the-un"
+        "https://www.panathenaicstadium.gr/en/sigxrono-stadio-2/"
       ],
-      "verificationNote": "UN 공식 소개는 1945년에 설립된 국제기구라고 명시하며 역사 페이지는 1945-10-24 공식 출범을 설명한다. 6월 서명과 10월 출범을 혼동하지 않는다.",
-      "difficultyNote": "약칭 UN을 사용해 고유명사 길이를 줄이고 founded/charter/ratification을 쓰지 않았다. organization은 international의 유용한 기본 결합.",
+      "verificationNote": "The official Panathenaic Stadium history, linked to the Hellenic Olympic Committee, states that modern Olympic Games were revived at an international level with their first organization in Athens in 1896. Page opened and inspected (history section). Greek Ministry of Culture search results and IOC official archive search result independently corroborated 1896 Athens. Their open requests were timeout/cookie blocked, so the accessible stadium page is the primary citation.",
+      "difficultyNote": "international sports event라는 자연스러운 결합. 전문어 없이 first/modern/sports/event로 설명하고 쿠베르탱·참가국 수 등의 부수 정보를 넣지 않는다.",
       "en": "international",
       "set": 3,
       "path": [
@@ -838,26 +914,28 @@
         "tr": "영어는 국제어야.",
         "c": "inter(사이)+national(국가의)=나라 사이의. local(지역)<national(전국)<international."
       },
-      "sourceHash": "8744369ddf80d27c7580f751a909cd24176e12784380ab7c3e647fe4d5837db0"
+      "sourceHash": "8744369ddf80d27c7580f751a909cd24176e12784380ab7c3e647fe4d5837db0",
+      "topic": "1896년 첫 근대 올림픽",
+      "topicRevision": "topic-revision-02.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      },
+      "status": "applied_locally"
     },
     {
       "id": "C0649",
       "decision": "propose",
-      "reason": "이사하다의 move to를 유지하면서 19세기 영국의 도시화를 구체적으로 설명한다.",
+      "reason": "move의 거주지 이전 뜻을 유지한다. 높은 급여만 보지 말고 생활비도 고려하라는 일상적 조언과 cost of living 결합을 함께 담는다. 실제 특정 지역의 가격이나 투자 판단은 제시하지 않는다.",
       "proposed": {
-        "ex": "In 19th-century Britain, people {{BLANK}}d to cities for factory work.",
-        "tr": "19세기 영국에서 사람들은 공장 일을 하러 도시로 이사했어."
+        "ex": "Before you {{BLANK}} for higher pay, check the cost of living.",
+        "tr": "급여가 더 높은 곳으로 이사하기 전에 생활비를 확인해 봐."
       },
-      "completedEnglish": "In 19th-century Britain, people moved to cities for factory work.",
-      "factIds": [
-        "H24"
-      ],
-      "sources": [
-        "https://www.nationalarchives.gov.uk/education/resources/victorian-homes/",
-        "https://www.parliament.uk/about/living-heritage/evolutionofparliament/houseofcommons/reformacts/overview/changes/"
-      ],
-      "verificationNote": "영국 국립문서보관소 Victorian homes는 19세기 사람들이 공장 일자리를 찾아 도시로 이주했다고 명시한다. 모든 사람이 이사했다는 수량 단정은 하지 않는다.",
-      "difficultyNote": "단순 주절과 목적 표현 for factory work. moved의 d는 빈칸 밖에 둔다.",
+      "completedEnglish": "Before you move for higher pay, check the cost of living.",
+      "factIds": [],
+      "sources": [],
+      "verificationNote": "역사적 사건이나 특정 인물의 인용을 제시하지 않는 자체 작성 일반 예문. 특정 연구 결과·통계 수치를 주장하지 않는다. 목표 뜻·문형·한국어 대응 및 단정 범위를 검토했다.",
+      "difficultyNote": "짧은 일상 문형으로 한 가지 뜻을 직접 전달한다. 별도 인명·연대·제도 설명 없이 이해할 수 있으며 목표 뜻을 유지한다.",
       "en": "move",
       "set": 3,
       "path": [
@@ -872,25 +950,29 @@
         "tr": "그들은 새 도시로 이사했어.",
         "c": ""
       },
-      "sourceHash": "d2af01e993708863399fefb12821247a0888ccbc3fdf36f82aabd6e6e2d9a222"
+      "sourceHash": "d2af01e993708863399fefb12821247a0888ccbc3fdf36f82aabd6e6e2d9a222",
+      "topic": "이사 결정에서 급여와 생활비 함께 고려",
+      "topicRevision": "topic-revision-04.json",
+      "exampleKind": "original_general_example_not_attributed_quote",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0653",
       "decision": "propose",
-      "reason": "question이 단순히 묻다가 아니라 기존 권력의 정당성에 의문을 제기하는 뜻임을 계몽사상 맥락으로 보여 준다.",
+      "reason": "question은 단순 질문하기가 아닌 의문을 제기하다. own/not just의 명확한 대비를 쓰며 과학사 전제를 추론하지 않아도 한 번 읽고 요지를 이해할 수 있다.",
       "proposed": {
-        "ex": "In the 18th century, some European thinkers {{BLANK}}ed the power of kings.",
-        "tr": "18세기에 일부 유럽 사상가들은 왕들의 권력에 의문을 제기했어."
+        "ex": "We should {{BLANK}} our own beliefs, not just other people's.",
+        "tr": "남의 신념뿐 아니라 자신의 신념에도 의문을 제기해야 해."
       },
-      "completedEnglish": "In the 18th century, some European thinkers questioned the power of kings.",
-      "factIds": [
-        "H20"
-      ],
-      "sources": [
-        "https://plato.stanford.edu/archives/fall2014/entries/enlightenment/"
-      ],
-      "verificationNote": "Stanford Encyclopedia of Philosophy의 계몽사상 정치이론 절은 왕권신수설·신분제·국가권력에 대한 비판과 논쟁을 다룬다. some을 넣어 모든 사상가가 같은 정치 입장이었다고 일반화하지 않았다.",
-      "difficultyNote": "Enlightenment/absolute monarchy/divine right 대신 thinkers/power/kings로 풀었다. 현행 question 해설은 그대로 유효.",
+      "completedEnglish": "We should question our own beliefs, not just other people's.",
+      "factIds": [],
+      "sources": [],
+      "verificationNote": "역사적 사건이나 특정 인물의 인용을 제시하지 않는 자체 작성 일반 예문. 특정 연구 결과·통계 수치를 주장하지 않는다. 목표 뜻·문형·한국어 대응 및 단정 범위를 검토했다.",
+      "difficultyNote": "짧은 일상 문형으로 한 가지 뜻을 직접 전달한다. 별도 인명·연대·제도 설명 없이 이해할 수 있으며 목표 뜻을 유지한다.",
       "en": "question",
       "set": 3,
       "path": [
@@ -905,25 +987,32 @@
         "tr": "우리는 불공평해 보이는 생각에 의문을 제기해야 해.",
         "c": "주장·판단이 옳은지 따져 묻는 뜻. 단순히 질문한다는 뜻과 구별해."
       },
-      "sourceHash": "3b9933f79ecfee504bf1f92ea80e2bcfb425f20cbf846844717b58223dcb2477"
+      "sourceHash": "3b9933f79ecfee504bf1f92ea80e2bcfb425f20cbf846844717b58223dcb2477",
+      "topic": "자기 신념도 검토하는 태도",
+      "topicRevision": "topic-revision-04.json",
+      "exampleKind": "original_general_example_not_attributed_quote",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0683",
       "decision": "propose",
-      "reason": "이성이라는 뜻을 계몽사상기의 전통과 이성 대비로 구체화한다. '모든 인간은 이성에 따라 움직인다'라는 현행 과도한 일반론도 피한다.",
+      "reason": "18세기 유럽에서 고대 그리스의 자연 탐구로 시대를 분산한다. 이성과 자연 탐구의 연결이라는 큰 흐름을 쉬운 한 문장으로 제시한다.",
       "proposed": {
-        "ex": "Many 18th-century European thinkers trusted {{BLANK}} more than tradition.",
-        "tr": "18세기의 많은 유럽 사상가들은 전통보다 이성을 더 신뢰했어."
+        "ex": "Ancient Greek thinkers used {{BLANK}} to understand nature.",
+        "tr": "고대 그리스 사상가들은 자연을 이해하는 데 이성을 사용했어."
       },
-      "completedEnglish": "Many 18th-century European thinkers trusted reason more than tradition.",
-      "factIds": [
-        "H20"
-      ],
+      "completedEnglish": "Ancient Greek thinkers used reason to understand nature.",
+      "factIds": [],
       "sources": [
-        "https://plato.stanford.edu/archives/fall2014/entries/enlightenment/"
+        "https://openstax.org/books/world-history-volume-1/pages/6-2-ancient-greece",
+        "https://openstax.org/books/introduction-philosophy/pages/6-1-substance"
       ],
-      "verificationNote": "해당 학술 자료는 인간의 지적 능력에 대한 신뢰와 전통·미신 등 기존 권위에 대한 의심을 계몽사상의 일반 경향으로 설명한다. many를 써 전부의 일치로 확대하지 않았다.",
-      "difficultyNote": "reason의 '이유'와 구별되는 이성 뜻을 trust와 tradition의 대비로 만든다. rationalism/Enlightenment 같은 전문어 없음.",
+      "verificationNote": "OpenStax 세계사 고전기 설명은 자연을 비판적으로 검토한 철학자들 및 아리스토텔레스 학파의 reasoned study of the natural world를 다룬다. 철학 교재는 고대의 이성으로 우주를 이해할 수 있다는 널리 퍼진 생각과 그리스·인도 철학을 함께 다룬다. 그리스가 유일하거나 최초였다고 주장하지 않는다.",
+      "difficultyNote": "reason의 이성 뜻을 used ... to understand의 간단한 틀에 둔다. philosophers/rationalism보다 쉬운 thinkers를 쓰고 시기는 Ancient Greek으로 밝힌다.",
       "en": "reason",
       "set": 3,
       "path": [
@@ -938,26 +1027,30 @@
         "tr": "인간은 이성에 따라 움직여.",
         "c": ""
       },
-      "sourceHash": "2de88c99f85b4c36167422880eb12bcd6827c83441f987412a4d19646bd6b655"
+      "sourceHash": "2de88c99f85b4c36167422880eb12bcd6827c83441f987412a4d19646bd6b655",
+      "topic": "고대 그리스의 이성적 자연 탐구",
+      "topicRevision": "topic-revision-02.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      },
+      "status": "applied_locally"
     },
     {
       "id": "C0693",
       "decision": "propose",
-      "reason": "age의 시대 뜻을 1957년 인공위성과 우주 시대의 시작으로 연결한다. 긴 우주선·소련 고유명사 나열 없이 대표 사건을 담는다.",
+      "reason": "익숙하게 쓰이는 digital age 결합으로 시대 뜻을 보여 준다. 기업들의 관심 경쟁이라는 한 가지 내용을 문장 자체에 담는다. 역사적 농경의 정식 용어를 초반 수준에 맞춘다는 이유로 임의의 이름으로 바꾸지 않는다.",
       "proposed": {
-        "ex": "The space {{BLANK}} began with the first satellite in 1957.",
-        "tr": "우주 시대는 1957년 최초의 인공위성과 함께 시작되었어."
+        "ex": "In the digital {{BLANK}}, companies compete for our attention.",
+        "tr": "디지털 시대에는 기업들이 우리의 관심을 차지하려고 경쟁해."
       },
-      "completedEnglish": "The space age began with the first satellite in 1957.",
-      "factIds": [
-        "S22"
-      ],
+      "completedEnglish": "In the digital age, companies compete for our attention.",
+      "factIds": [],
       "sources": [
-        "https://www.nasa.gov/history/65-years-ago-sputnik-ushers-in-the-space-age/",
-        "https://starchild.gsfc.nasa.gov/docs/StarChild/space_level1/travel.html"
+        "https://media.intgovforum.org/en/content/igf-2020-of-20-attention-economy-and-free-expression"
       ],
-      "verificationNote": "NASA는 1957년 10월 4일 스푸트니크 1호의 발사를 우주 시대 시작으로 설명한다. first satellite는 이 문맥의 인공위성이고 첫 자연 위성이라고 주장하지 않는다.",
-      "difficultyNote": "우주 시대라는 age의 전형적 결합. satellite 한 단어 외 전문 개념 없이 시작 사건을 설명; 이 낱말이 너무 어렵다면 현행 information age 유지가 차선.",
+      "verificationNote": "UN Internet Governance Forum의 attention economy 설명에서 디지털 기업이 경제적 이익을 위해 이용자 관심을 관리·확보하는 사업 모형을 확인했다.",
+      "difficultyNote": "짧은 일상 문형으로 한 가지 뜻을 직접 전달한다. 별도 인명·연대·제도 설명 없이 이해할 수 있으며 목표 뜻을 유지한다.",
       "en": "age",
       "set": 3,
       "path": [
@@ -972,7 +1065,15 @@
         "tr": "우리는 정보화 시대에 살아.",
         "c": "the Ice Age(빙하기)."
       },
-      "sourceHash": "c4606c9329154e44f4106581ee26a3eb69f41e21244bbb8c13b34cd497edec2e"
+      "sourceHash": "c4606c9329154e44f4106581ee26a3eb69f41e21244bbb8c13b34cd497edec2e",
+      "topic": "디지털 시대의 관심 경쟁",
+      "topicRevision": "topic-revision-04.json",
+      "exampleKind": "original_example_with_verified_concept",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0723",
@@ -1032,7 +1133,12 @@
         "tr": "그들은 정치적 견해가 달라.",
         "c": "political party = 정당."
       },
-      "sourceHash": "5324cd917c79574e67d13e95c0e6e4ae24263a83ebb745ff08842ea0a6cf629d"
+      "sourceHash": "5324cd917c79574e67d13e95c0e6e4ae24263a83ebb745ff08842ea0a6cf629d",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0733",
@@ -1101,7 +1207,12 @@
         "tr": "그들은 많은 고난을 경험했어.",
         "c": ""
       },
-      "sourceHash": "64a9a69dc8657df9249b71a3393c3e964b1863a69b2b0e991b9adc5cbc3166e4"
+      "sourceHash": "64a9a69dc8657df9249b71a3393c3e964b1863a69b2b0e991b9adc5cbc3166e4",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0754",
@@ -1161,26 +1272,29 @@
         "tr": "걔는 과학 분야에서 유명해.",
         "c": ""
       },
-      "sourceHash": "48034bcf8def9e303f412c38d23ff9aeda7d6be0f2aa45ecc4e0de34592c913c"
+      "sourceHash": "48034bcf8def9e303f412c38d23ff9aeda7d6be0f2aa45ecc4e0de34592c913c",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0794",
       "decision": "propose",
-      "reason": "우주비행사가 우주를 여행한다는 일반 진술에 최초 유인 우주비행의 인물과 날짜를 넣는다.",
+      "reason": "Astronauts와 radios로 우주의 뜻을 명시한다. 뉴턴 법칙은 이 카드에서 빼고 소리는 진공을 통과하지 못한다는 과학 내용을 직접 제시한다. 공기가 있는 우주선 내부에서도 소리가 나지 않는다고 쓰지 않는다.",
       "proposed": {
-        "ex": "On April 12, 1961, Yuri Gagarin became the first person in {{BLANK}}.",
-        "tr": "1961년 4월 12일에 유리 가가린은 최초로 우주에 간 사람이 되었어."
+        "ex": "Astronauts use radios in {{BLANK}} because sound cannot travel through a vacuum.",
+        "tr": "우주비행사들은 우주에서 무전기를 써. 진공에서는 소리가 전달되지 않거든."
       },
-      "completedEnglish": "On April 12, 1961, Yuri Gagarin became the first person in space.",
-      "factIds": [
-        "S23"
-      ],
+      "completedEnglish": "Astronauts use radios in space because sound cannot travel through a vacuum.",
+      "factIds": [],
       "sources": [
-        "https://science.nasa.gov/resource/yuri-gagarin-first-human-in-space/",
-        "https://science.nasa.gov/image-article/apod-1996-april-12-man-enters-space/"
+        "https://science.gsfc.nasa.gov/attic/cosmicopia.gsfc.nasa.gov/qa_sp_ev.html",
+        "https://www.nasa.gov/wp-content/uploads/2017/05/esfl_es_depending_on_others.pdf"
       ],
-      "verificationNote": "NASA 자료 두 곳에서 날짜와 인류 최초의 우주 비행을 확인. 첫 우주 유영이나 달 착륙과 혼동하지 않는다.",
-      "difficultyNote": "orbit/cosmonaut/spacecraft 없이 first person in space로 표현. 단일 인명과 날짜만 추가.",
+      "verificationNote": "NASA Cosmicopia 본문에서 진공을 통과하지 못하는 음파와 진공을 통과하는 전파, 우주인의 무전 통신을 확인했다. 공기가 있는 우주선/정거장 내부에서는 말할 수 있다는 범위도 확인했다. NASA 교육자료 검색 반환도 우주유영 중의 무전 사용을 뒷받침한다.",
+      "difficultyNote": "짧은 일상 문형으로 한 가지 뜻을 직접 전달한다. 별도 인명·연대·제도 설명 없이 이해할 수 있으며 목표 뜻을 유지한다.",
       "en": "space",
       "set": 4,
       "path": [
@@ -1195,7 +1309,15 @@
         "tr": "우주비행사들은 우주를 여행해.",
         "c": "outer space = 우주 공간."
       },
-      "sourceHash": "bb25703ab98f0b0280a0cfad066bc741c9b98eabb6f626a249fbd7f9d8e05f10"
+      "sourceHash": "bb25703ab98f0b0280a0cfad066bc741c9b98eabb6f626a249fbd7f9d8e05f10",
+      "topic": "우주에서의 무전 통신과 진공",
+      "topicRevision": "topic-revision-04.json",
+      "exampleKind": "original_example_with_verified_concept",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0848",
@@ -1228,7 +1350,12 @@
         "tr": "그녀는 그 회사의 주식을 샀어.",
         "c": "회사 소유권을 나눈 단위. a share = 주식 한 주."
       },
-      "sourceHash": "337906dc9068b80e7394cc06debed72b48eef7167dcd2c7f5e28bb18ecdca7ea"
+      "sourceHash": "337906dc9068b80e7394cc06debed72b48eef7167dcd2c7f5e28bb18ecdca7ea",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     },
     {
       "id": "C0851",
@@ -1261,7 +1388,26 @@
         "tr": "걔가 올해 그 팀을 이끌 거야.",
         "c": "leader(지도자)가 여기에서 나온 말이다. 불규칙 lead-led-led."
       },
-      "sourceHash": "46a2db882a51651c57d50a6d0652db088c32aba5dcccc50aa93502712634c4ce"
+      "sourceHash": "46a2db882a51651c57d50a6d0652db088c32aba5dcccc50aa93502712634c4ce",
+      "status": "applied_locally",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "approved_for_deployment_except_43"
+      }
     }
+  ],
+  "updated": "2026-10-08",
+  "topicRevision": "topic-revision-04.json",
+  "acceptedRetainedNumbers": [
+    32,
+    33,
+    42,
+    45,
+    46,
+    49
+  ],
+  "appliedProposalCards": 25,
+  "pendingNumbers": [
+    43
   ]
 }

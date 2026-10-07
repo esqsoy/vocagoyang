@@ -1,7 +1,7 @@
 {
   "summary": {
     "date": "2026-10-07",
-    "status": "batch_01_applied_locally_remaining_candidates",
+    "status": "batch_02_applied_locally_43_pending",
     "totalCards": 7067,
     "uniqueHeadwords": 4916,
     "headwordCounting": "lowercase(word || en), matching the existing headword field",
@@ -40,25 +40,32 @@
     "dataHash": "60105b7239890b278ba471ff680575cbbac7fbe6997cf3bf779d98f45dbaa06c",
     "dataUnchanged": false,
     "newEnglishExamplesWritten": 21,
-    "appliedCardsThisAudit": 30,
-    "deployment": true,
+    "appliedCardsThisAudit": 56,
+    "deployment": false,
     "proposalBatchCards": 30,
     "proposalStatus": "applied_and_deployed",
     "dataUnchangedDuringSelection": true,
-    "currentDataHash": "c4f71f2424643f10ff5f1932fde09fd212167b25a5590927f95411400600ff47",
+    "currentDataHash": "d4ade06db2c5d62ee80bb6c49427c410700c7b65f9ee9bac10ae8a15343e0cff",
     "approvedBatchCards": 30,
-    "changedCardsThisAudit": 30,
-    "appliedNewCandidateCards": 21,
-    "remainingCandidateCards": 577,
+    "changedCardsThisAudit": 56,
+    "appliedNewCandidateCards": 47,
+    "remainingCandidateCards": 551,
     "pendingExistingAtSelection": 9,
     "pendingExistingNow": 0,
     "appliedExistingProposalCards": 9,
     "release": "release-01.json",
     "draftedCandidateCards": 26,
     "withdrawnCandidateCards": 14,
-    "remainingUnwrittenCandidateCards": 551,
-    "pendingReviewProposalCards": 26,
-    "latestDraft": "proposal-02.json"
+    "remainingUnwrittenCandidateCards": 550,
+    "pendingReviewProposalCards": 1,
+    "latestDraft": "proposal-02.json",
+    "latestRevision": "application-02.json",
+    "latestDraftRevision": "topic-revision-05.json",
+    "pendingReviewProposalCardsScope": "43 country only; 25 approved proposals plus shared May source applied",
+    "remaining": [
+      "43 country new sentence awaits user review",
+      "Discuss approach before writing remaining 550 candidates; do not begin bulk revision yet"
+    ]
   },
   "decisions": [
     {
@@ -401,9 +408,12 @@
         "H35"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
-      "postDraftReason": "초급 end, Europe와 월 표현만으로 유럽에서의 제2차 세계대전 종전을 배울 수 있다.",
-      "nextBatchReview": "batch-02-review.json"
+      "postDraftDecision": "applied_locally",
+      "postDraftReason": "세계대전 유럽 종전의 세부 월 대신, 5월과 직접 연결되는 노동절로 교체한다.",
+      "nextBatchReview": "batch-02-review.json",
+      "draftRevision": "topic-revision-02.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0048",
@@ -421,9 +431,16 @@
         "H22"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
-      "postDraftReason": "월을 배우며 제1차 세계대전의 시작 날짜를 함께 익힌다. 기존 fourteenth 예문의 바스티유 문장에서 빈칸만 옮기는 중복을 피했다.",
-      "nextBatchReview": "batch-02-review.json"
+      "postDraftDecision": "applied_locally",
+      "postDraftReason": "매년의 기념일 소개에서 사건 자체의 연도와 날짜로 변경하라는 사용자 요청.",
+      "nextBatchReview": "batch-02-review.json",
+      "draftRevision": "topic-revision-03.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "retain_accepted_pending_batch_application"
+      },
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0050",
@@ -433,9 +450,16 @@
         "H37"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
-      "postDraftReason": "일본의 전쟁 중단 결정을 agree to stop fighting으로 풀어 쓰면 surrender를 몰라도 월을 학습할 수 있다.",
-      "nextBatchReview": "batch-02-review.json"
+      "postDraftDecision": "applied_locally",
+      "postDraftReason": "전후 항복 결정 대신 근대 인권·시민 평등의 큰 흐름을 담는다. 로마황제의 월 명명 일화보다 큰 세계사적 의의를 가진 사건으로 선정했다.",
+      "nextBatchReview": "batch-02-review.json",
+      "draftRevision": "topic-revision-02.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "retain_accepted_pending_batch_application"
+      },
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0051",
@@ -459,9 +483,11 @@
         "H31"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
+      "postDraftDecision": "applied_locally",
       "postDraftReason": "signed an agreement를 agreed로 줄여 초급 주변 어휘와 길이를 낮춘다. 서명 사실 자체보다 전투 중단 합의에 초점.",
-      "nextBatchReview": "batch-02-review.json"
+      "nextBatchReview": "batch-02-review.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0054",
@@ -653,9 +679,11 @@
         "H24"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
+      "postDraftDecision": "applied_locally",
       "postDraftReason": "factory worker라는 대표 결합으로 노동자 뜻을 보여 주면서 산업혁명기의 아동 노동을 짧게 알린다.",
-      "nextBatchReview": "batch-02-review.json"
+      "nextBatchReview": "batch-02-review.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0081",
@@ -969,9 +997,11 @@
         "H16"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
+      "postDraftDecision": "applied_locally",
       "postDraftReason": "작물의 대륙 간 이동을 쉬운 bring A from B to C로 보여 주고, 기존 복수 tomatoes 해설을 실제 예문과 연결한다.",
-      "nextBatchReview": "batch-02-review.json"
+      "nextBatchReview": "batch-02-review.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0124",
@@ -1282,9 +1312,11 @@
         "S26"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
+      "postDraftDecision": "applied_locally",
       "postDraftReason": "불특정 앱 제작을 웹의 탄생으로 바꾸면서 be created의 수동태를 그대로 익힌다.",
-      "nextBatchReview": "batch-02-review.json"
+      "nextBatchReview": "batch-02-review.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0168",
@@ -2077,9 +2109,11 @@
         "H35"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
+      "postDraftDecision": "applied_locally",
       "postDraftReason": "last의 지속되다 뜻을 전쟁의 시작·종료 연도로 명확하게 보여 준다.",
-      "nextBatchReview": "batch-02-review.json"
+      "nextBatchReview": "batch-02-review.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0280",
@@ -2551,9 +2585,11 @@
         "H35"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
+      "postDraftDecision": "applied_locally",
       "postDraftReason": "end의 자동사 뜻을 짧은 종전 문장으로 연습한다. May와 달리 전 세계 전쟁의 최종 종료 연도에 초점을 둔다.",
-      "nextBatchReview": "batch-02-review.json"
+      "nextBatchReview": "batch-02-review.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0346",
@@ -2781,9 +2817,11 @@
         "H01"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
+      "postDraftDecision": "applied_locally",
       "postDraftReason": "도시가 크다는 설명을 산업화기의 도시 이동으로 바꾸면서 move to the city라는 실용적 결합을 익힌다.",
-      "nextBatchReview": "batch-02-review.json"
+      "nextBatchReview": "batch-02-review.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0378",
@@ -3152,9 +3190,11 @@
         "H32"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
+      "postDraftDecision": "applied_locally",
       "postDraftReason": "정부의 구체적 역할인 노동자 보호 법률을 보여 준다. 볼셰비키/임시정부 등 여러 새 고유명사를 필요로 하는 잠정 러시아혁명 소재보다 쉽다.",
-      "nextBatchReview": "batch-02-review.json"
+      "nextBatchReview": "batch-02-review.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0427",
@@ -3619,9 +3659,16 @@
         "H22"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
-      "postDraftReason": "익명 왕에 대한 평가 대신 실제 왕조 붕괴 사건과 lose power라는 정치적 결합을 제시한다.",
-      "nextBatchReview": "batch-02-review.json"
+      "postDraftDecision": "applied_locally",
+      "postDraftReason": "민주정에서 민중의 실제 범위는 어디까지였는지 보여 주는 역사적 사실과 권력 배분의 통찰. 여성의 시민 신분 자체나 비공식 영향력 전부를 부정하지 않는다.",
+      "nextBatchReview": "batch-02-review.json",
+      "draftRevision": "topic-revision-04.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "accepted_with_requested_explanation_trim_pending_batch_application"
+      },
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0492",
@@ -3935,8 +3982,11 @@
       ],
       "reviewerRange": "early",
       "postDraftDecision": "proposal_pending_user_review",
-      "postDraftReason": "막연한 아름다움 평가를 1947년 파키스탄 성립으로 바꾼다. country 주변을 become/new 같은 쉬운 말로 유지한다.",
-      "nextBatchReview": "batch-02-review.json"
+      "postDraftReason": "큰 역사적 사실과 independent country의 결합을 짧게 전달한다.",
+      "nextBatchReview": "batch-02-review.json",
+      "draftRevision": "topic-revision-05.json",
+      "draftTopic": "1947년 인도 독립",
+      "draftReviewNote": "큰 역사적 사실과 independent country의 결합을 짧게 전달한다."
     },
     {
       "id": "C0534",
@@ -4003,9 +4053,12 @@
         "H35"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
-      "postDraftReason": "이름 없는 전쟁을 영국의 제2차 세계대전 참전 사건으로 구체화하며 declare war on이라는 전형적 결합을 함께 보여 준다.",
-      "nextBatchReview": "batch-02-review.json"
+      "postDraftDecision": "applied_locally",
+      "postDraftReason": "winning a war/guarantee peace의 자연스러운 결합. 승리와 평화를 구별하는 짧은 경구형 문장으로 역사 배경이나 숨은 함의를 요구하지 않는다.",
+      "nextBatchReview": "batch-02-review.json",
+      "draftRevision": "topic-revision-04.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0543",
@@ -4379,9 +4432,16 @@
         "H36"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
-      "postDraftReason": "millions를 수백만으로 옮겨 피해 규모가 작게 인식되지 않게 tens of millions/수천만으로 정리했다. IWM의 5,500만 초과 및 USHMM의 5,500만 추정으로 규모를 확인했으며 정확한 합계는 단정하지 않는다.",
-      "nextBatchReview": "batch-02-review.json"
+      "postDraftDecision": "applied_locally",
+      "postDraftReason": "흑사병 사망자 수를 다시 나열하는 대신 역사와 현재 통계를 읽는 데 쓰이는 개념을 담는다. death rate라는 중요한 결합도 드러난다.",
+      "nextBatchReview": "batch-02-review.json",
+      "draftRevision": "topic-revision-03.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "retain_accepted_pending_batch_application"
+      },
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0595",
@@ -4677,9 +4737,16 @@
         "H38"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
-      "postDraftReason": "international organization이라는 대표 결합을 UN의 1945년 창설과 연결한다.",
-      "nextBatchReview": "batch-02-review.json"
+      "postDraftDecision": "applied_locally",
+      "postDraftReason": "제2차 세계대전 직후 UN 설립에서 국제 스포츠 교류의 시작으로 시대와 주제를 넓힌다.",
+      "nextBatchReview": "batch-02-review.json",
+      "draftRevision": "topic-revision-02.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "retain_accepted_pending_batch_application"
+      },
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0636",
@@ -4780,9 +4847,12 @@
         "H24"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
-      "postDraftReason": "이사하다의 move to를 유지하면서 19세기 영국의 도시화를 구체적으로 설명한다.",
-      "nextBatchReview": "batch-02-review.json"
+      "postDraftDecision": "applied_locally",
+      "postDraftReason": "move의 거주지 이전 뜻을 유지한다. 높은 급여만 보지 말고 생활비도 고려하라는 일상적 조언과 cost of living 결합을 함께 담는다. 실제 특정 지역의 가격이나 투자 판단은 제시하지 않는다.",
+      "nextBatchReview": "batch-02-review.json",
+      "draftRevision": "topic-revision-04.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0650",
@@ -4814,9 +4884,12 @@
         "H19"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
-      "postDraftReason": "question이 단순히 묻다가 아니라 기존 권력의 정당성에 의문을 제기하는 뜻임을 계몽사상 맥락으로 보여 준다.",
-      "nextBatchReview": "batch-02-review.json"
+      "postDraftDecision": "applied_locally",
+      "postDraftReason": "question은 단순 질문하기가 아닌 의문을 제기하다. own/not just의 명확한 대비를 쓰며 과학사 전제를 추론하지 않아도 한 번 읽고 요지를 이해할 수 있다.",
+      "nextBatchReview": "batch-02-review.json",
+      "draftRevision": "topic-revision-04.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0654",
@@ -5029,9 +5102,16 @@
         "H20"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
-      "postDraftReason": "이성이라는 뜻을 계몽사상기의 전통과 이성 대비로 구체화한다. '모든 인간은 이성에 따라 움직인다'라는 현행 과도한 일반론도 피한다.",
-      "nextBatchReview": "batch-02-review.json"
+      "postDraftDecision": "applied_locally",
+      "postDraftReason": "18세기 유럽에서 고대 그리스의 자연 탐구로 시대를 분산한다. 이성과 자연 탐구의 연결이라는 큰 흐름을 쉬운 한 문장으로 제시한다.",
+      "nextBatchReview": "batch-02-review.json",
+      "draftRevision": "topic-revision-02.json",
+      "userFeedback": {
+        "date": "2026-10-08",
+        "decision": "retain_accepted_pending_batch_application"
+      },
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0684",
@@ -5104,9 +5184,12 @@
         "S22"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
-      "postDraftReason": "age의 시대 뜻을 1957년 인공위성과 우주 시대의 시작으로 연결한다. 긴 우주선·소련 고유명사 나열 없이 대표 사건을 담는다.",
-      "nextBatchReview": "batch-02-review.json"
+      "postDraftDecision": "applied_locally",
+      "postDraftReason": "익숙하게 쓰이는 digital age 결합으로 시대 뜻을 보여 준다. 기업들의 관심 경쟁이라는 한 가지 내용을 문장 자체에 담는다. 역사적 농경의 정식 용어를 초반 수준에 맞춘다는 이유로 임의의 이름으로 바꾸지 않는다.",
+      "nextBatchReview": "batch-02-review.json",
+      "draftRevision": "topic-revision-04.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0694",
@@ -5332,9 +5415,11 @@
         "H32"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
+      "postDraftDecision": "applied_locally",
       "postDraftReason": "정치 견해가 다르다는 일반 진술을 프랑스혁명에 의한 정치 제도 변화로 구체화하며 political system 결합을 익히게 한다.",
-      "nextBatchReview": "batch-02-review.json"
+      "nextBatchReview": "batch-02-review.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0725",
@@ -5433,9 +5518,11 @@
         "H34"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
+      "postDraftDecision": "applied_locally",
       "postDraftReason": "누가 무엇을 겪었는지 없는 hardships를 대공황기 미국인의 빈곤으로 구체화한다.",
-      "nextBatchReview": "batch-02-review.json"
+      "nextBatchReview": "batch-02-review.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0738",
@@ -5774,9 +5861,11 @@
         "S19"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
+      "postDraftDecision": "applied_locally",
       "postDraftReason": "이름 없는 과학자에 대한 유명하다는 평가를 1905년 아인슈타인 논문의 영향으로 구체화한다. field of physics라는 학문 분야 결합을 유지한다.",
-      "nextBatchReview": "batch-02-review.json"
+      "nextBatchReview": "batch-02-review.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0785",
@@ -5849,9 +5938,12 @@
         "S23"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
-      "postDraftReason": "우주비행사가 우주를 여행한다는 일반 진술에 최초 유인 우주비행의 인물과 날짜를 넣는다.",
-      "nextBatchReview": "batch-02-review.json"
+      "postDraftDecision": "applied_locally",
+      "postDraftReason": "Astronauts와 radios로 우주의 뜻을 명시한다. 뉴턴 법칙은 이 카드에서 빼고 소리는 진공을 통과하지 못한다는 과학 내용을 직접 제시한다. 공기가 있는 우주선 내부에서도 소리가 나지 않는다고 쓰지 않는다.",
+      "nextBatchReview": "batch-02-review.json",
+      "draftRevision": "topic-revision-04.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0795",
@@ -6236,9 +6328,11 @@
         "H34"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
+      "postDraftDecision": "applied_locally",
       "postDraftReason": "익명 주식 매입을 1929년 미국 주가 폭락으로 구체화하며 주식 뜻의 share와 price의 결합을 보여 준다.",
-      "nextBatchReview": "batch-02-review.json"
+      "nextBatchReview": "batch-02-review.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0849",
@@ -6262,9 +6356,11 @@
         "H26"
       ],
       "reviewerRange": "early",
-      "postDraftDecision": "proposal_pending_user_review",
+      "postDraftDecision": "applied_locally",
       "postDraftReason": "lead + 집단 + to victory의 지휘 뜻과 워털루 패배를 연결한다. 불규칙 과거형 led를 입력시키도록 카드 표제어를 바꾸지 않고 failed to + 원형으로 처리한다.",
-      "nextBatchReview": "batch-02-review.json"
+      "nextBatchReview": "batch-02-review.json",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json"
     },
     {
       "id": "C0852",
@@ -8260,7 +8356,10 @@
       "factIds": [
         "H35"
       ],
-      "reviewerRange": "early"
+      "reviewerRange": "early",
+      "applicationStatus": "applied_locally",
+      "application": "application-02.json",
+      "postDraftDecision": "applied_locally"
     },
     {
       "id": "C1133",

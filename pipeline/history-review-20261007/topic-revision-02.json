@@ -1,0 +1,1174 @@
+{
+  "date": "2026-10-08",
+  "status": "proposal_revision_pending_user_review_not_applied",
+  "request": "11월 예문은 유지. 나머지 제안 월과 power/country/war/death/international/move/question/reason/age/space를 세계대전 전후에 집중하지 않고 주요 세계사·과학사로 분산한다.",
+  "proposal": "proposal-02.json",
+  "changedProposals": 13,
+  "unchangedProposals": 13,
+  "dataHash": "c4f71f2424643f10ff5f1932fde09fd212167b25a5590927f95411400600ff47",
+  "appDataChanged": false,
+  "approvedForApplication": false,
+  "previousProposalReview": {
+    "target": "주요 세계사·과학사와 표제어 수준에 맞는 쉬운 주변 문장",
+    "rootChanges": [
+      "November 단순화",
+      "former 현행 유지",
+      "death 수천만 규모 표시"
+    ],
+    "independentCheck": "40개 판정 및 제안의 목표뜻·입력형·현행 해설/대사 대조 통과",
+    "sourcesChecked": "각 새 문장 사실·시기를 공식 기관 및 학술 자료로 확인; 직접 열기가 차단된 일부 자료는 공식 출처 검색 반환 내용으로 확인",
+    "remaining": "대화에 모든 영어·해석을 제시해 확인받은 뒤 원본 적용"
+  },
+  "preservedNovember": {
+    "number": 34,
+    "id": "C0053",
+    "set": 0,
+    "path": [
+      0,
+      "exercises",
+      2,
+      "words",
+      17
+    ],
+    "en": "November",
+    "ko": "① 11월",
+    "original": {
+      "ex": "The big test is in {{BLANK}}.",
+      "tr": "큰 시험은 11월에 있어.",
+      "c": "라틴어 novem=9. 옛 로마력은 3월부터 세어 아홉째 달."
+    },
+    "sourceHash": "319e6fdf96e049103ad9688ea9a82b11ed1c0acf66ce162230541bbfc1b0e787",
+    "proposed": {
+      "ex": "On {{BLANK}} 11, 1918, Germany agreed to stop fighting.",
+      "tr": "1918년 11월 11일에 독일은 전투를 멈추기로 합의했어."
+    },
+    "completedEnglish": "On November 11, 1918, Germany agreed to stop fighting.",
+    "factIds": [
+      "H31"
+    ],
+    "sources": [
+      "https://www.iwm.org.uk/sites/default/files/files/2023-10/first_world_war_large_print_guide.pdf",
+      "https://api.parliament.uk/historic-hansard/commons/1918/nov/11/prime-ministers-statement"
+    ],
+    "verificationNote": "IWM 공식 해설 및 당일 영국 의회 발표에서 1918년 11월 11일 독일의 휴전 조건 수락을 확인했다. 평화조약을 서명했다고 하지 않는다.",
+    "difficultyNote": "armistice 대신 agreement to stop fighting. sign an agreement는 유용한 결합이지만 초급의 signed/agreement가 부담이면 root 검토에서 더 줄일 수 있다.",
+    "reviewNote": "signed an agreement를 agreed로 줄여 초급 주변 어휘와 길이를 낮춘다. 서명 사실 자체보다 전투 중단 합의에 초점.",
+    "status": "pending_user_review"
+  },
+  "revisions": [
+    {
+      "number": 31,
+      "id": "C0047",
+      "en": "May",
+      "topic": "5월 1일 노동절",
+      "before": {
+        "number": 31,
+        "id": "C0047",
+        "set": 0,
+        "path": [
+          0,
+          "exercises",
+          2,
+          "words",
+          11
+        ],
+        "en": "May",
+        "ko": "① 5월 (대문자)",
+        "original": {
+          "ex": "Our exams end in {{BLANK}} this year.",
+          "tr": "올해 우리 시험은 5월에 끝나.",
+          "c": "달 이름 May는 항상 대문자로 시작한다. 조동사 may와 발음은 같고 뜻은 다르다."
+        },
+        "sourceHash": "f6e8a71d520476f6d6f8b374ee18708bb1436f5cd8f5d1f81c438c17171c104d",
+        "proposed": {
+          "ex": "World War II ended in Europe in {{BLANK}} 1945.",
+          "tr": "유럽에서는 제2차 세계대전이 1945년 5월에 끝났어."
+        },
+        "completedEnglish": "World War II ended in Europe in May 1945.",
+        "factIds": [
+          "H35"
+        ],
+        "sources": [
+          "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/second-world-war/ve-day-8-may-1945/"
+        ],
+        "verificationNote": "영국 국립문서보관소의 VE Day 자료에서 1945년 5월 유럽 전쟁 종료와 당시 일본과의 전쟁 지속을 함께 확인했다. 세계 전체 종전이라고 확대하지 않는다.",
+        "difficultyNote": "in+월을 유지한다. surrender/hostilities 같은 전문적 전쟁어는 넣지 않는다.",
+        "reviewNote": "초급 end, Europe와 월 표현만으로 유럽에서의 제2차 세계대전 종전을 배울 수 있다.",
+        "status": "pending_user_review"
+      },
+      "after": {
+        "number": 31,
+        "id": "C0047",
+        "set": 0,
+        "path": [
+          0,
+          "exercises",
+          2,
+          "words",
+          11
+        ],
+        "en": "May",
+        "ko": "① 5월 (대문자)",
+        "original": {
+          "ex": "Our exams end in {{BLANK}} this year.",
+          "tr": "올해 우리 시험은 5월에 끝나.",
+          "c": "달 이름 May는 항상 대문자로 시작한다. 조동사 may와 발음은 같고 뜻은 다르다."
+        },
+        "sourceHash": "f6e8a71d520476f6d6f8b374ee18708bb1436f5cd8f5d1f81c438c17171c104d",
+        "proposed": {
+          "ex": "Many countries celebrate Workers' Day on {{BLANK}} 1.",
+          "tr": "많은 나라에서는 5월 1일에 노동절을 기념해."
+        },
+        "completedEnglish": "Many countries celebrate Workers' Day on May 1.",
+        "factIds": [],
+        "sources": [
+          "https://www.ilo.org/resource/news/zambia-malawi-and-mozambique-celebrate-labour-day"
+        ],
+        "verificationNote": "ILO official report states that workers across the globe celebrate International Labour Day every year on May 1, and documents Zambia, Malawi and Mozambique in 2024. Page opened and inspected. Many countries avoids universal observance; annual holiday does not need a one-time event year.",
+        "difficultyNote": "짧은 현재형으로 매년 돌아오는 대표 기념일을 보여 준다. workers/day는 쉬운 구성어이며 노동절 이름의 이해를 돕는다. on+월/일의 기본 문형.",
+        "reviewNote": "세계대전 유럽 종전의 세부 월 대신, 5월과 직접 연결되는 노동절로 교체한다.",
+        "status": "pending_user_review",
+        "topic": "5월 1일 노동절",
+        "topicRevision": "topic-revision-02.json"
+      },
+      "sourceEvidence": [
+        "https://www.ilo.org/resource/news/zambia-malawi-and-mozambique-celebrate-labour-day"
+      ]
+    },
+    {
+      "number": 32,
+      "id": "C0049",
+      "en": "July",
+      "topic": "미국 독립기념일",
+      "before": {
+        "number": 32,
+        "id": "C0049",
+        "set": 0,
+        "path": [
+          0,
+          "exercises",
+          2,
+          "words",
+          13
+        ],
+        "en": "July",
+        "ko": "① 7월",
+        "original": {
+          "ex": "We go to the beach in {{BLANK}}.",
+          "tr": "우리 7월에 바다 가.",
+          "c": "강세 주의."
+        },
+        "sourceHash": "0ddb0e607dc44bc28938bcc374792f349a1fd23b5e1a3b324a6172c349625b2c",
+        "proposed": {
+          "ex": "World War I began on {{BLANK}} 28, 1914.",
+          "tr": "제1차 세계대전은 1914년 7월 28일에 시작됐어."
+        },
+        "completedEnglish": "World War I began on July 28, 1914.",
+        "factIds": [
+          "H31"
+        ],
+        "sources": [
+          "https://www.iwm.org.uk/sites/default/files/press-release/4_August_1914_Factsheet.pdf",
+          "https://ww1.nam.ac.uk/timeline/"
+        ],
+        "verificationNote": "IWM 공식 연표 설명 및 영국 국립육군박물관 연표에서 1914년 7월 28일 오스트리아-헝가리의 세르비아 선전포고를 확인했다. 전쟁 발발의 통상 날짜를 쓰며 영국 참전일 8월 4일과 구별한다.",
+        "difficultyNote": "begin의 과거형과 on+날짜만 사용한다. 선전포고의 여러 나라 이름과 연쇄 과정을 한 문장에 넣지 않는다.",
+        "reviewNote": "월을 배우며 제1차 세계대전의 시작 날짜를 함께 익힌다. 기존 fourteenth 예문의 바스티유 문장에서 빈칸만 옮기는 중복을 피했다.",
+        "status": "pending_user_review"
+      },
+      "after": {
+        "number": 32,
+        "id": "C0049",
+        "set": 0,
+        "path": [
+          0,
+          "exercises",
+          2,
+          "words",
+          13
+        ],
+        "en": "July",
+        "ko": "① 7월",
+        "original": {
+          "ex": "We go to the beach in {{BLANK}}.",
+          "tr": "우리 7월에 바다 가.",
+          "c": "강세 주의."
+        },
+        "sourceHash": "0ddb0e607dc44bc28938bcc374792f349a1fd23b5e1a3b324a6172c349625b2c",
+        "proposed": {
+          "ex": "Americans celebrate Independence Day on {{BLANK}} 4.",
+          "tr": "미국인들은 7월 4일에 독립기념일을 기념해."
+        },
+        "completedEnglish": "Americans celebrate Independence Day on July 4.",
+        "factIds": [
+          "H21"
+        ],
+        "sources": [
+          "https://www.archives.gov/exhibits/american_originals/declarat.html"
+        ],
+        "verificationNote": "US National Archives identifies July 4 as the annual celebration of adoption of the Declaration of Independence. Page opened and inspected. Avoids claiming that the July 2 independence vote or all signatures occurred on July 4. The sentence describes an annual holiday, so no historical year is needed.",
+        "difficultyNote": "Independence Day는 핵심 기념일의 이름 하나로 남긴다. 짧은 현재형과 on+월/일만 사용하며 독립선언서·대륙회의 명칭을 더 넣지 않는다.",
+        "reviewNote": "전쟁 발발의 월·일 세분화 대신 7월의 대표적 국제 문화상식인 미국 독립기념일을 제시한다.",
+        "status": "pending_user_review",
+        "topic": "미국 독립기념일",
+        "topicRevision": "topic-revision-02.json"
+      },
+      "sourceEvidence": [
+        "https://www.archives.gov/exhibits/american_originals/declarat.html"
+      ]
+    },
+    {
+      "number": 33,
+      "id": "C0050",
+      "en": "August",
+      "topic": "1789년 프랑스 인권선언",
+      "before": {
+        "number": 33,
+        "id": "C0050",
+        "set": 0,
+        "path": [
+          0,
+          "exercises",
+          2,
+          "words",
+          14
+        ],
+        "en": "August",
+        "ko": "① 8월",
+        "original": {
+          "ex": "It's hottest in {{BLANK}}.",
+          "tr": "8월이 제일 더워.",
+          "c": "줄임 Aug."
+        },
+        "sourceHash": "6f19560ddc7bc1ccd2c148cd1f2d1172140349729a51fecd130bebc5817f06e6",
+        "proposed": {
+          "ex": "Japan agreed to stop fighting in {{BLANK}} 1945.",
+          "tr": "1945년 8월에 일본은 전투를 멈추기로 합의했어."
+        },
+        "completedEnglish": "Japan agreed to stop fighting in August 1945.",
+        "factIds": [
+          "H37"
+        ],
+        "sources": [
+          "https://history.blog.gov.uk/2020/08/14/whats-the-context-vj-day-15-august-1945/",
+          "https://www.archives.gov/exhibits/featured-documents/japanese-surrender-document"
+        ],
+        "verificationNote": "영국 정부 역사 자료의 8월 14일 항복 결정·15일 방송, 미국 국립문서보관소의 9월 2일 서명 구분을 확인했다. 8월의 결정이므로 9월의 문서 서명으로 서술하지 않았다.",
+        "difficultyNote": "짧은 agree to stop fighting 구문. 연합국 명칭이나 항복 문서 이름을 추가하지 않는다.",
+        "reviewNote": "일본의 전쟁 중단 결정을 agree to stop fighting으로 풀어 쓰면 surrender를 몰라도 월을 학습할 수 있다.",
+        "status": "pending_user_review"
+      },
+      "after": {
+        "number": 33,
+        "id": "C0050",
+        "set": 0,
+        "path": [
+          0,
+          "exercises",
+          2,
+          "words",
+          14
+        ],
+        "en": "August",
+        "ko": "① 8월",
+        "original": {
+          "ex": "It's hottest in {{BLANK}}.",
+          "tr": "8월이 제일 더워.",
+          "c": "줄임 Aug."
+        },
+        "sourceHash": "6f19560ddc7bc1ccd2c148cd1f2d1172140349729a51fecd130bebc5817f06e6",
+        "proposed": {
+          "ex": "In {{BLANK}} 1789, France declared that people were born free and equal.",
+          "tr": "1789년 8월에 프랑스는 인간이 자유롭고 평등하게 태어난다고 선언했어."
+        },
+        "completedEnglish": "In August 1789, France declared that people were born free and equal.",
+        "factIds": [
+          "H22"
+        ],
+        "sources": [
+          "https://www.elysee.fr/en/french-presidency/the-declaration-of-the-rights-of-man-and-of-the-citizen"
+        ],
+        "verificationNote": "French presidency official page states that articles were voted on August 20–26, 1789 and reproduces Article 1: men are born and remain free and equal in rights. Page opened and inspected. The proposed sentence paraphrases the declaration's stated principle; it does not claim universal equality was actually implemented in 1789. Royal ratification in October is a separate step and not the event named here.",
+        "difficultyNote": "긴 선언문 제목 대신 declared that과 born free and equal로 내용을 직접 풀어 쓴다. 하나의 that절이며 고유명사는 France 하나만 있다.",
+        "reviewNote": "전후 항복 결정 대신 근대 인권·시민 평등의 큰 흐름을 담는다. 로마황제의 월 명명 일화보다 큰 세계사적 의의를 가진 사건으로 선정했다.",
+        "status": "pending_user_review",
+        "topic": "1789년 프랑스 인권선언",
+        "topicRevision": "topic-revision-02.json"
+      },
+      "sourceEvidence": [
+        "https://www.elysee.fr/en/french-presidency/the-declaration-of-the-rights-of-man-and-of-the-citizen"
+      ]
+    },
+    {
+      "number": 42,
+      "id": "C0491",
+      "en": "power",
+      "topic": "고대 이집트의 왕권과 종교",
+      "before": {
+        "number": 42,
+        "id": "C0491",
+        "set": 2,
+        "path": [
+          2,
+          "exercises",
+          3,
+          "words",
+          5
+        ],
+        "en": "power",
+        "ko": "③ 권력, 권한",
+        "original": {
+          "ex": "The king had too much {{BLANK}}.",
+          "tr": "그 왕은 권력을 너무 많이 가졌어.",
+          "c": "사람이나 일을 통제할 수 있는 힘. in power = 집권 중인."
+        },
+        "sourceHash": "c84d9fa1b6a9c4851a75f0ba73aa9d55de7b7c6fe50525ed7c187aa8bafcbba2",
+        "proposed": {
+          "ex": "Russia's emperor lost {{BLANK}} in 1917.",
+          "tr": "러시아 황제는 1917년에 권력을 잃었어."
+        },
+        "completedEnglish": "Russia's emperor lost power in 1917.",
+        "factIds": [
+          "H32"
+        ],
+        "sources": [
+          "https://www.nationalarchives.gov.uk/education/students/videos/spotlight-on/spotlight-on-russian-revolution/"
+        ],
+        "verificationNote": "영국 국립문서보관소가 1917년 첫 혁명으로 차르 체제가 끝나고 니콜라이 2세가 퇴위했다고 설명한다. 같은 해 볼셰비키 집권과 단일 사건으로 합치지 않는다.",
+        "difficultyNote": "tsar/abdicate 대신 emperor/lost power. 인명이나 2월·3월의 역법 차이를 추가하지 않는다.",
+        "reviewNote": "익명 왕에 대한 평가 대신 실제 왕조 붕괴 사건과 lose power라는 정치적 결합을 제시한다.",
+        "status": "pending_user_review"
+      },
+      "after": {
+        "number": 42,
+        "id": "C0491",
+        "set": 2,
+        "path": [
+          2,
+          "exercises",
+          3,
+          "words",
+          5
+        ],
+        "en": "power",
+        "ko": "③ 권력, 권한",
+        "original": {
+          "ex": "The king had too much {{BLANK}}.",
+          "tr": "그 왕은 권력을 너무 많이 가졌어.",
+          "c": "사람이나 일을 통제할 수 있는 힘. in power = 집권 중인."
+        },
+        "sourceHash": "c84d9fa1b6a9c4851a75f0ba73aa9d55de7b7c6fe50525ed7c187aa8bafcbba2",
+        "proposed": {
+          "ex": "In ancient Egypt, the king's {{BLANK}} was linked to the gods.",
+          "tr": "고대 이집트에서는 왕의 권력이 신들과 연결되어 있었어."
+        },
+        "completedEnglish": "In ancient Egypt, the king's power was linked to the gods.",
+        "factIds": [],
+        "sources": [
+          "https://www.metmuseum.org/essays/kings-and-queens-of-egypt"
+        ],
+        "verificationNote": "고대 이집트 왕권은 신성한 것으로 여겨졌고 왕은 신들과 연결되었다. 모든 파라오가 실제 신이라는 부정확한 단정은 하지 않는다.",
+        "difficultyNote": "king, gods, linked to만으로 왕권과 종교의 결합을 보여 준다. pharaoh/divine/authority 같은 새 전문어를 피했다.",
+        "reviewNote": "러시아혁명 1917에서 고대 이집트의 왕권으로 소재를 옮겨 시대 분산. power는 정치적 권력의 뜻으로 보존.",
+        "status": "pending_user_review",
+        "topic": "고대 이집트의 왕권과 종교",
+        "topicRevision": "topic-revision-02.json"
+      },
+      "sourceEvidence": [
+        {
+          "title": "The Met — Kings and Queens of Egypt",
+          "url": "https://www.metmuseum.org/essays/kings-and-queens-of-egypt",
+          "checked": "2026-10-08",
+          "support": "The king was society's apex; the power of kingship was considered divine. The living king was associated with Horus and the dead king with Osiris."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "id": "C0533",
+      "en": "country",
+      "topic": "기원전 221년 중국 통일",
+      "before": {
+        "number": 43,
+        "id": "C0533",
+        "set": 2,
+        "path": [
+          2,
+          "exercises",
+          5,
+          "words",
+          7
+        ],
+        "en": "country",
+        "ko": "① 나라, 국가",
+        "original": {
+          "ex": "Korea is a beautiful {{BLANK}}.",
+          "tr": "한국은 아름다운 나라야.",
+          "c": "복수는 countries."
+        },
+        "sourceHash": "6796981eaec4f57051e20da1aec15bc10c292225c5d092f2419984a632d63806",
+        "proposed": {
+          "ex": "Pakistan became a new {{BLANK}} in 1947.",
+          "tr": "파키스탄은 1947년에 새로운 나라가 되었어."
+        },
+        "completedEnglish": "Pakistan became a new country in 1947.",
+        "factIds": [
+          "H40"
+        ],
+        "sources": [
+          "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/"
+        ],
+        "verificationNote": "영국 국립문서보관소 자료의 1947년 인도·파키스탄 두 국가 성립 및 8월 독립 확인. 원문 직접 열기는 403이지만 동일 공식 페이지의 검색 반환 본문에서 확인. 당시 파키스탄의 영토가 현재와 같다고 말하지 않는다.",
+        "difficultyNote": "짧은 단문. independent/partition 같은 추가 추상어 없이 고유명사 하나와 쉬운 문형 사용.",
+        "reviewNote": "막연한 아름다움 평가를 1947년 파키스탄 성립으로 바꾼다. country 주변을 become/new 같은 쉬운 말로 유지한다.",
+        "status": "pending_user_review"
+      },
+      "after": {
+        "number": 43,
+        "id": "C0533",
+        "set": 2,
+        "path": [
+          2,
+          "exercises",
+          5,
+          "words",
+          7
+        ],
+        "en": "country",
+        "ko": "① 나라, 국가",
+        "original": {
+          "ex": "Korea is a beautiful {{BLANK}}.",
+          "tr": "한국은 아름다운 나라야.",
+          "c": "복수는 countries."
+        },
+        "sourceHash": "6796981eaec4f57051e20da1aec15bc10c292225c5d092f2419984a632d63806",
+        "proposed": {
+          "ex": "In 221 BCE, China's first emperor united the {{BLANK}}.",
+          "tr": "기원전 221년에 중국의 첫 황제가 나라를 통일했어."
+        },
+        "completedEnglish": "In 221 BCE, China's first emperor united the country.",
+        "factIds": [],
+        "sources": [
+          "https://www.britishmuseum.org/research/projects/horsepower-china-mongolia-and-steppe",
+          "https://www.metmuseum.org/exhibitions/listings/2017/age-of-empires/exhibition-galleries"
+        ],
+        "verificationNote": "진의 시황제가 기원전 221년 중국을 통일. 오늘날 중국 영토와 일치한다거나 현대 국민국가가 생겼다는 주장은 하지 않는다.",
+        "difficultyNote": "고유명사를 길게 넣지 않고 China's first emperor로 설명한다. united는 통일 사건을 담는 필수 동사 하나.",
+        "reviewNote": "세계대전 직후 파키스탄 독립에서 세계사의 큰 고대 통일 사건으로 변경. country=나라 그대로.",
+        "status": "pending_user_review",
+        "topic": "기원전 221년 중국 통일",
+        "topicRevision": "topic-revision-02.json"
+      },
+      "sourceEvidence": [
+        {
+          "title": "British Museum — Horsepower: China, Mongolia and the steppe",
+          "url": "https://www.britishmuseum.org/research/projects/horsepower-china-mongolia-and-steppe",
+          "checked": "2026-10-08",
+          "support": "Official indexed description says the Qin unified China from 221 BC; direct open failed, search result exposed this exact claim."
+        },
+        {
+          "title": "The Met — Age of Empires exhibition galleries",
+          "url": "https://www.metmuseum.org/exhibitions/listings/2017/age-of-empires/exhibition-galleries",
+          "checked": "2026-10-08",
+          "support": "Qin begins 221 BCE; first emperor brought all China under his rule and centralized government."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "id": "C0542",
+      "en": "war",
+      "topic": "고대 로마의 제국 확대",
+      "before": {
+        "number": 44,
+        "id": "C0542",
+        "set": 2,
+        "path": [
+          2,
+          "exercises",
+          5,
+          "words",
+          16
+        ],
+        "en": "war",
+        "ko": "① 전쟁 (↔ peace)",
+        "original": {
+          "ex": "Many people died in the {{BLANK}}.",
+          "tr": "많은 사람이 그 전쟁에서 죽었어.",
+          "c": "at war = 교전 중."
+        },
+        "sourceHash": "4fefb10f686e0093ea897fb8d63369421ed107cc263e3929e0a5d2188e11fd38",
+        "proposed": {
+          "ex": "Britain declared {{BLANK}} on Germany on September 3, 1939.",
+          "tr": "영국은 1939년 9월 3일에 독일에 선전포고했어."
+        },
+        "completedEnglish": "Britain declared war on Germany on September 3, 1939.",
+        "factIds": [
+          "H35"
+        ],
+        "sources": [
+          "https://www.iwm.org.uk/sites/default/files/files/2020-09/HANGAR_4_Largeprint.pdf"
+        ],
+        "verificationNote": "Imperial War Museums 연표가 1939-09-03 영국·프랑스의 대독 선전포고를 명시한다. 세계대전 자체의 발발일을 9월 3일이라고 쓰지 않는다.",
+        "difficultyNote": "declare는 새로 접할 수 있으나 declare war on 전체가 목표 단어의 대표 결합이라 학습 실익이 있다. 나머지는 익숙한 국가명과 날짜이며 종속절 없음.",
+        "reviewNote": "이름 없는 전쟁을 영국의 제2차 세계대전 참전 사건으로 구체화하며 declare war on이라는 전형적 결합을 함께 보여 준다.",
+        "status": "pending_user_review"
+      },
+      "after": {
+        "number": 44,
+        "id": "C0542",
+        "set": 2,
+        "path": [
+          2,
+          "exercises",
+          5,
+          "words",
+          16
+        ],
+        "en": "war",
+        "ko": "① 전쟁 (↔ peace)",
+        "original": {
+          "ex": "Many people died in the {{BLANK}}.",
+          "tr": "많은 사람이 그 전쟁에서 죽었어.",
+          "c": "at war = 교전 중."
+        },
+        "sourceHash": "4fefb10f686e0093ea897fb8d63369421ed107cc263e3929e0a5d2188e11fd38",
+        "proposed": {
+          "ex": "In ancient times, Rome gained much of its empire through {{BLANK}}.",
+          "tr": "고대 로마는 전쟁을 통해 제국 영토의 상당 부분을 얻었어."
+        },
+        "completedEnglish": "In ancient times, Rome gained much of its empire through war.",
+        "factIds": [
+          "H05"
+        ],
+        "sources": [
+          "https://www.britishmuseum.org/exhibitions/legion-life-roman-army",
+          "https://www.britishmuseum.org/learn/schools/ages-7-11/ancient-rome/timeline-roman-britain"
+        ],
+        "verificationNote": "로마의 대규모 영토 확장에서 군사 정복이 핵심 역할을 했다. 모든 땅을 전쟁만으로 얻었다고 단정하지 않도록 much of 사용.",
+        "difficultyNote": "conquest/military expansion 없이 gained ... through war로 표현. ancient times는 긴 팽창 과정에 맞는 시기.",
+        "reviewNote": "영국의 특정 선전포고 날짜에서 로마 제국 형성의 큰 흐름으로 이동. war=전쟁 유지.",
+        "status": "pending_user_review",
+        "topic": "고대 로마의 제국 확대",
+        "topicRevision": "topic-revision-02.json"
+      },
+      "sourceEvidence": [
+        {
+          "title": "British Museum — Legion: life in the Roman army",
+          "url": "https://www.britishmuseum.org/exhibitions/legion-life-roman-army",
+          "checked": "2026-10-08",
+          "support": "Official indexed exhibition description: empire spanned more than a million square miles and owed its existence to military might. Direct open errored; indexed full description available."
+        },
+        {
+          "title": "British Museum — Timeline of Roman Britain",
+          "url": "https://www.britishmuseum.org/learn/schools/ages-7-11/ancient-rome/timeline-roman-britain",
+          "checked": "2026-10-08",
+          "support": "Chronicles conquests of Gaul and Britain and military incorporation into the empire."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "id": "C0594",
+      "en": "death",
+      "topic": "14세기 흑사병",
+      "before": {
+        "number": 45,
+        "id": "C0594",
+        "set": 2,
+        "path": [
+          2,
+          "exercises",
+          9,
+          "words",
+          6
+        ],
+        "en": "death",
+        "ko": "① 죽음 (↔ life/birth)",
+        "original": {
+          "ex": "News of his {{BLANK}} shocked the whole town.",
+          "tr": "그의 죽음 소식에 온 마을이 충격을 받았어.",
+          "c": "die: 죽다(동사). dead: 죽은(형용사). death: 죽음(명사)."
+        },
+        "sourceHash": "afb4ecb35a037dabe229c8eafeb31ad31de241e5261abf44fcac19ac35bac6e9",
+        "proposed": {
+          "ex": "World War II (1939–1945) caused tens of millions of {{BLANK}}s.",
+          "tr": "제2차 세계대전(1939~1945년)은 수천만 명의 죽음을 초래했어."
+        },
+        "completedEnglish": "World War II (1939–1945) caused tens of millions of deaths.",
+        "factIds": [
+          "H35"
+        ],
+        "sources": [
+          "https://www.iwm.org.uk/sites/default/files/Transforming_IWM_London_Phase_2.pdf",
+          "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-in-europe"
+        ],
+        "verificationNote": "IWM 공식 자료는 1939~1945년 전쟁이 5,500만 명을 훨씬 넘는 사망자를 냈다고 설명한다. 예문은 정확한 합계를 단정하지 않고 millions로 제한한다.",
+        "difficultyNote": "원래의 shocked the whole town보다 단순한 원인-결과 구조. 복수 s는 빈칸 밖에 두어 표제어 death를 입력.",
+        "reviewNote": "millions를 수백만으로 옮겨 피해 규모가 작게 인식되지 않게 tens of millions/수천만으로 정리했다. IWM의 5,500만 초과 및 USHMM의 5,500만 추정으로 규모를 확인했으며 정확한 합계는 단정하지 않는다.",
+        "status": "pending_user_review"
+      },
+      "after": {
+        "number": 45,
+        "id": "C0594",
+        "set": 2,
+        "path": [
+          2,
+          "exercises",
+          9,
+          "words",
+          6
+        ],
+        "en": "death",
+        "ko": "① 죽음 (↔ life/birth)",
+        "original": {
+          "ex": "News of his {{BLANK}} shocked the whole town.",
+          "tr": "그의 죽음 소식에 온 마을이 충격을 받았어.",
+          "c": "die: 죽다(동사). dead: 죽은(형용사). death: 죽음(명사)."
+        },
+        "sourceHash": "afb4ecb35a037dabe229c8eafeb31ad31de241e5261abf44fcac19ac35bac6e9",
+        "proposed": {
+          "ex": "In the 14th century, a terrible disease caused tens of millions of {{BLANK}}s in Europe.",
+          "tr": "14세기에 무서운 전염병이 유럽에서 수천만 명의 죽음을 초래했어.",
+          "c": "이 전염병은 흑사병(Black Death). die: 죽다(동사). dead: 죽은(형용사). death: 죽음(명사)."
+        },
+        "completedEnglish": "In the 14th century, a terrible disease caused tens of millions of deaths in Europe.",
+        "factIds": [
+          "H10"
+        ],
+        "sources": [
+          "https://www.nih.gov/news-events/nih-research-matters/how-black-death-shaped-human-evolution",
+          "https://www.worldhistory.org/Black_Death/"
+        ],
+        "verificationNote": "NIH는 14세기 흑사병의 대규모 인명 피해를 설명한다. World History Encyclopedia 본문은 1347~1352년 유럽 사망자를 2,500만~3,000만으로 추정한다. 정확한 사망자 수를 확정하지 않고 tens of millions/수천만의 규모만 쓴다.",
+        "difficultyNote": "Black Death를 예문에 넣으면 정답이 노출되므로 a terrible disease로 풀고, 해설에서만 흑사병임을 밝힌다. deaths는 death+s. 어형 구별 해설은 유지한다.",
+        "reviewNote": "세계대전 사망에서 중세 세계를 바꾼 흑사병으로 이동. deaths는 정답 death 뒤 s를 빈칸 밖에 붙인다.",
+        "status": "pending_user_review",
+        "topic": "14세기 흑사병",
+        "topicRevision": "topic-revision-02.json"
+      },
+      "sourceEvidence": [
+        {
+          "title": "NIH — How the Black Death shaped human evolution",
+          "url": "https://www.nih.gov/news-events/nih-research-matters/how-black-death-shaped-human-evolution",
+          "checked": "2026-10-08",
+          "support": "14th-century bubonic plague caused death of up to half population in Europe, Middle East, North Africa."
+        },
+        {
+          "title": "World History Encyclopedia — Black Death",
+          "url": "https://www.worldhistory.org/Black_Death/",
+          "checked": "2026-10-08",
+          "support": "Reviewed encyclopedia article estimates 25–30 million deaths in Europe, 1347–1352."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "id": "C0635",
+      "en": "international",
+      "topic": "1896년 첫 근대 올림픽",
+      "before": {
+        "number": 46,
+        "id": "C0635",
+        "set": 3,
+        "path": [
+          3,
+          "exercises",
+          2,
+          "words",
+          5
+        ],
+        "en": "international",
+        "ko": "① 국제적인, 나라 간의",
+        "original": {
+          "ex": "English is an {{BLANK}} language.",
+          "tr": "영어는 국제어야.",
+          "c": "inter(사이)+national(국가의)=나라 사이의. local(지역)<national(전국)<international."
+        },
+        "sourceHash": "8744369ddf80d27c7580f751a909cd24176e12784380ab7c3e647fe4d5837db0",
+        "proposed": {
+          "ex": "The UN began as an {{BLANK}} organization in 1945.",
+          "tr": "유엔은 1945년에 국제기구로 출범했어."
+        },
+        "completedEnglish": "The UN began as an international organization in 1945.",
+        "factIds": [
+          "H38"
+        ],
+        "sources": [
+          "https://www.un.org/en/about-us/",
+          "https://www.un.org/en/about-us/history-of-the-un"
+        ],
+        "verificationNote": "UN 공식 소개는 1945년에 설립된 국제기구라고 명시하며 역사 페이지는 1945-10-24 공식 출범을 설명한다. 6월 서명과 10월 출범을 혼동하지 않는다.",
+        "difficultyNote": "약칭 UN을 사용해 고유명사 길이를 줄이고 founded/charter/ratification을 쓰지 않았다. organization은 international의 유용한 기본 결합.",
+        "reviewNote": "international organization이라는 대표 결합을 UN의 1945년 창설과 연결한다.",
+        "status": "pending_user_review"
+      },
+      "after": {
+        "number": 46,
+        "id": "C0635",
+        "set": 3,
+        "path": [
+          3,
+          "exercises",
+          2,
+          "words",
+          5
+        ],
+        "en": "international",
+        "ko": "① 국제적인, 나라 간의",
+        "original": {
+          "ex": "English is an {{BLANK}} language.",
+          "tr": "영어는 국제어야.",
+          "c": "inter(사이)+national(국가의)=나라 사이의. local(지역)<national(전국)<international."
+        },
+        "sourceHash": "8744369ddf80d27c7580f751a909cd24176e12784380ab7c3e647fe4d5837db0",
+        "proposed": {
+          "ex": "The first modern Olympics were an {{BLANK}} sports event in Athens in 1896.",
+          "tr": "첫 근대 올림픽은 1896년 아테네에서 열린 국제 스포츠 대회였어."
+        },
+        "completedEnglish": "The first modern Olympics were an international sports event in Athens in 1896.",
+        "factIds": [],
+        "sources": [
+          "https://www.panathenaicstadium.gr/en/sigxrono-stadio-2/"
+        ],
+        "verificationNote": "The official Panathenaic Stadium history, linked to the Hellenic Olympic Committee, states that modern Olympic Games were revived at an international level with their first organization in Athens in 1896. Page opened and inspected (history section). Greek Ministry of Culture search results and IOC official archive search result independently corroborated 1896 Athens. Their open requests were timeout/cookie blocked, so the accessible stadium page is the primary citation.",
+        "difficultyNote": "international sports event라는 자연스러운 결합. 전문어 없이 first/modern/sports/event로 설명하고 쿠베르탱·참가국 수 등의 부수 정보를 넣지 않는다.",
+        "reviewNote": "제2차 세계대전 직후 UN 설립에서 국제 스포츠 교류의 시작으로 시대와 주제를 넓힌다.",
+        "status": "pending_user_review",
+        "topic": "1896년 첫 근대 올림픽",
+        "topicRevision": "topic-revision-02.json"
+      },
+      "sourceEvidence": [
+        "https://www.panathenaicstadium.gr/en/sigxrono-stadio-2/"
+      ]
+    },
+    {
+      "number": 47,
+      "id": "C0649",
+      "en": "move",
+      "topic": "19세기 유럽인의 미국 이주",
+      "before": {
+        "number": 47,
+        "id": "C0649",
+        "set": 3,
+        "path": [
+          3,
+          "exercises",
+          3,
+          "words",
+          2
+        ],
+        "en": "move",
+        "ko": "② 이사하다",
+        "original": {
+          "ex": "They {{BLANK}}d to a new city.",
+          "tr": "그들은 새 도시로 이사했어.",
+          "c": ""
+        },
+        "sourceHash": "d2af01e993708863399fefb12821247a0888ccbc3fdf36f82aabd6e6e2d9a222",
+        "proposed": {
+          "ex": "In 19th-century Britain, people {{BLANK}}d to cities for factory work.",
+          "tr": "19세기 영국에서 사람들은 공장 일을 하러 도시로 이사했어."
+        },
+        "completedEnglish": "In 19th-century Britain, people moved to cities for factory work.",
+        "factIds": [
+          "H24"
+        ],
+        "sources": [
+          "https://www.nationalarchives.gov.uk/education/resources/victorian-homes/",
+          "https://www.parliament.uk/about/living-heritage/evolutionofparliament/houseofcommons/reformacts/overview/changes/"
+        ],
+        "verificationNote": "영국 국립문서보관소 Victorian homes는 19세기 사람들이 공장 일자리를 찾아 도시로 이주했다고 명시한다. 모든 사람이 이사했다는 수량 단정은 하지 않는다.",
+        "difficultyNote": "단순 주절과 목적 표현 for factory work. moved의 d는 빈칸 밖에 둔다.",
+        "reviewNote": "이사하다의 move to를 유지하면서 19세기 영국의 도시화를 구체적으로 설명한다.",
+        "status": "pending_user_review"
+      },
+      "after": {
+        "number": 47,
+        "id": "C0649",
+        "set": 3,
+        "path": [
+          3,
+          "exercises",
+          3,
+          "words",
+          2
+        ],
+        "en": "move",
+        "ko": "② 이사하다",
+        "original": {
+          "ex": "They {{BLANK}}d to a new city.",
+          "tr": "그들은 새 도시로 이사했어.",
+          "c": ""
+        },
+        "sourceHash": "d2af01e993708863399fefb12821247a0888ccbc3fdf36f82aabd6e6e2d9a222",
+        "proposed": {
+          "ex": "In the 1800s, millions of Europeans {{BLANK}}d to the United States.",
+          "tr": "19세기에 수백만 명의 유럽인이 미국으로 이주했어."
+        },
+        "completedEnglish": "In the 1800s, millions of Europeans moved to the United States.",
+        "factIds": [],
+        "sources": [
+          "https://www.nps.gov/articles/nationofnations.htm",
+          "https://www.loc.gov/classroom-materials/immigration/german/new-surge-of-growth/"
+        ],
+        "verificationNote": "19세기 유럽에서 미국으로 수백만 명이 이주. 이주가 모두 자유로운 선택이거나 모두 영구 정착이었다는 단정은 없다.",
+        "difficultyNote": "migrate/immigrant 대신 move to의 거주지 변경을 직접 보여 준다. moved는 move + d. 19세기 산업혁명의 도시화와 다른 대서양 이주로 분산.",
+        "reviewNote": "산업혁명 시기 영국 도시 이주에서 이민 국가 미국의 형성이라는 더 넓은 이동으로 교체. 농경 정착은 move의 이사하다 뜻이 애매해져 우선하지 않았다.",
+        "status": "pending_user_review",
+        "topic": "19세기 유럽인의 미국 이주",
+        "topicRevision": "topic-revision-02.json"
+      },
+      "sourceEvidence": [
+        {
+          "title": "National Park Service — America, the Nation of Nations",
+          "url": "https://www.nps.gov/articles/nationofnations.htm",
+          "checked": "2026-10-08",
+          "support": "Between 1840 and 1860, 4.5 million immigrants arrived, mostly from northern and western Europe; another major late-19th-century wave from south/east Europe."
+        },
+        {
+          "title": "Library of Congress — A New Surge of Growth",
+          "url": "https://www.loc.gov/classroom-materials/immigration/german/new-surge-of-growth/",
+          "checked": "2026-10-08",
+          "support": "More than five million Germans moved to US in 19th century. Exact indexed source text; direct open 403."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "id": "C0653",
+      "en": "question",
+      "topic": "1543년 코페르니쿠스의 지동설 출판",
+      "before": {
+        "number": 48,
+        "id": "C0653",
+        "set": 3,
+        "path": [
+          3,
+          "exercises",
+          3,
+          "words",
+          6
+        ],
+        "en": "question",
+        "ko": "② 의문을 제기하다, 의심하다",
+        "original": {
+          "ex": "We should {{BLANK}} ideas that seem unfair.",
+          "tr": "우리는 불공평해 보이는 생각에 의문을 제기해야 해.",
+          "c": "주장·판단이 옳은지 따져 묻는 뜻. 단순히 질문한다는 뜻과 구별해."
+        },
+        "sourceHash": "3b9933f79ecfee504bf1f92ea80e2bcfb425f20cbf846844717b58223dcb2477",
+        "proposed": {
+          "ex": "In the 18th century, some European thinkers {{BLANK}}ed the power of kings.",
+          "tr": "18세기에 일부 유럽 사상가들은 왕들의 권력에 의문을 제기했어."
+        },
+        "completedEnglish": "In the 18th century, some European thinkers questioned the power of kings.",
+        "factIds": [
+          "H20"
+        ],
+        "sources": [
+          "https://plato.stanford.edu/archives/fall2014/entries/enlightenment/"
+        ],
+        "verificationNote": "Stanford Encyclopedia of Philosophy의 계몽사상 정치이론 절은 왕권신수설·신분제·국가권력에 대한 비판과 논쟁을 다룬다. some을 넣어 모든 사상가가 같은 정치 입장이었다고 일반화하지 않았다.",
+        "difficultyNote": "Enlightenment/absolute monarchy/divine right 대신 thinkers/power/kings로 풀었다. 현행 question 해설은 그대로 유효.",
+        "reviewNote": "question이 단순히 묻다가 아니라 기존 권력의 정당성에 의문을 제기하는 뜻임을 계몽사상 맥락으로 보여 준다.",
+        "status": "pending_user_review"
+      },
+      "after": {
+        "number": 48,
+        "id": "C0653",
+        "set": 3,
+        "path": [
+          3,
+          "exercises",
+          3,
+          "words",
+          6
+        ],
+        "en": "question",
+        "ko": "② 의문을 제기하다, 의심하다",
+        "original": {
+          "ex": "We should {{BLANK}} ideas that seem unfair.",
+          "tr": "우리는 불공평해 보이는 생각에 의문을 제기해야 해.",
+          "c": "주장·판단이 옳은지 따져 묻는 뜻. 단순히 질문한다는 뜻과 구별해."
+        },
+        "sourceHash": "3b9933f79ecfee504bf1f92ea80e2bcfb425f20cbf846844717b58223dcb2477",
+        "proposed": {
+          "ex": "Copernicus's 1543 book {{BLANK}}ed the idea that Earth stood still.",
+          "tr": "코페르니쿠스의 1543년 책은 지구가 움직이지 않는다는 생각에 의문을 제기했어."
+        },
+        "completedEnglish": "Copernicus's 1543 book questioned the idea that Earth stood still.",
+        "factIds": [
+          "S03"
+        ],
+        "sources": [
+          "https://science.nasa.gov/earth/earth-observatory/planetary-motion/",
+          "https://www.loc.gov/item/92516339/"
+        ],
+        "verificationNote": "NASA 본문은 고정된 지구 모형과 코페르니쿠스의 1543년 지동설 출판을 대조한다. 1543년은 책 출판에 붙였으며 그가 그 해 처음 의심했다고 주장하지 않는다. Library of Congress 서지 검색 반환으로 출판 연도를 교차 확인했다(직접 열기는 오류).",
+        "difficultyNote": "geocentric, heliocentric, stationary 대신 idea, stood still을 쓴다. 코페르니쿠스라는 한 인명과 책의 출판 연도만 남긴다. 현행 question 해설과도 맞는다.",
+        "reviewNote": "왕권을 의심한 계몽사상 대신 지동설이라는 과학사의 큰 전환으로 옮긴다. question의 단순 질문이 아닌 기존 생각에 의문을 제기하는 뜻이 선명하다.",
+        "status": "pending_user_review",
+        "topic": "1543년 코페르니쿠스의 지동설 출판",
+        "topicRevision": "topic-revision-02.json"
+      },
+      "sourceEvidence": [
+        "https://science.nasa.gov/earth/earth-observatory/planetary-motion/",
+        "https://www.loc.gov/item/92516339/"
+      ]
+    },
+    {
+      "number": 49,
+      "id": "C0683",
+      "en": "reason",
+      "topic": "고대 그리스의 이성적 자연 탐구",
+      "before": {
+        "number": 49,
+        "id": "C0683",
+        "set": 3,
+        "path": [
+          3,
+          "exercises",
+          4,
+          "words",
+          19
+        ],
+        "en": "reason",
+        "ko": "② 이성, 사고력",
+        "original": {
+          "ex": "Humans are guided by {{BLANK}}.",
+          "tr": "인간은 이성에 따라 움직여.",
+          "c": ""
+        },
+        "sourceHash": "2de88c99f85b4c36167422880eb12bcd6827c83441f987412a4d19646bd6b655",
+        "proposed": {
+          "ex": "Many 18th-century European thinkers trusted {{BLANK}} more than tradition.",
+          "tr": "18세기의 많은 유럽 사상가들은 전통보다 이성을 더 신뢰했어."
+        },
+        "completedEnglish": "Many 18th-century European thinkers trusted reason more than tradition.",
+        "factIds": [
+          "H20"
+        ],
+        "sources": [
+          "https://plato.stanford.edu/archives/fall2014/entries/enlightenment/"
+        ],
+        "verificationNote": "해당 학술 자료는 인간의 지적 능력에 대한 신뢰와 전통·미신 등 기존 권위에 대한 의심을 계몽사상의 일반 경향으로 설명한다. many를 써 전부의 일치로 확대하지 않았다.",
+        "difficultyNote": "reason의 '이유'와 구별되는 이성 뜻을 trust와 tradition의 대비로 만든다. rationalism/Enlightenment 같은 전문어 없음.",
+        "reviewNote": "이성이라는 뜻을 계몽사상기의 전통과 이성 대비로 구체화한다. '모든 인간은 이성에 따라 움직인다'라는 현행 과도한 일반론도 피한다.",
+        "status": "pending_user_review"
+      },
+      "after": {
+        "number": 49,
+        "id": "C0683",
+        "set": 3,
+        "path": [
+          3,
+          "exercises",
+          4,
+          "words",
+          19
+        ],
+        "en": "reason",
+        "ko": "② 이성, 사고력",
+        "original": {
+          "ex": "Humans are guided by {{BLANK}}.",
+          "tr": "인간은 이성에 따라 움직여.",
+          "c": ""
+        },
+        "sourceHash": "2de88c99f85b4c36167422880eb12bcd6827c83441f987412a4d19646bd6b655",
+        "proposed": {
+          "ex": "Ancient Greek thinkers used {{BLANK}} to understand nature.",
+          "tr": "고대 그리스 사상가들은 자연을 이해하는 데 이성을 사용했어."
+        },
+        "completedEnglish": "Ancient Greek thinkers used reason to understand nature.",
+        "factIds": [],
+        "sources": [
+          "https://openstax.org/books/world-history-volume-1/pages/6-2-ancient-greece",
+          "https://openstax.org/books/introduction-philosophy/pages/6-1-substance"
+        ],
+        "verificationNote": "OpenStax 세계사 고전기 설명은 자연을 비판적으로 검토한 철학자들 및 아리스토텔레스 학파의 reasoned study of the natural world를 다룬다. 철학 교재는 고대의 이성으로 우주를 이해할 수 있다는 널리 퍼진 생각과 그리스·인도 철학을 함께 다룬다. 그리스가 유일하거나 최초였다고 주장하지 않는다.",
+        "difficultyNote": "reason의 이성 뜻을 used ... to understand의 간단한 틀에 둔다. philosophers/rationalism보다 쉬운 thinkers를 쓰고 시기는 Ancient Greek으로 밝힌다.",
+        "reviewNote": "18세기 유럽에서 고대 그리스의 자연 탐구로 시대를 분산한다. 이성과 자연 탐구의 연결이라는 큰 흐름을 쉬운 한 문장으로 제시한다.",
+        "status": "pending_user_review",
+        "topic": "고대 그리스의 이성적 자연 탐구",
+        "topicRevision": "topic-revision-02.json"
+      },
+      "sourceEvidence": [
+        "https://openstax.org/books/world-history-volume-1/pages/6-2-ancient-greece",
+        "https://openstax.org/books/introduction-philosophy/pages/6-1-substance"
+      ]
+    },
+    {
+      "number": 50,
+      "id": "C0693",
+      "en": "age",
+      "topic": "기원전 1만 년경 근동의 농경 전환",
+      "before": {
+        "number": 50,
+        "id": "C0693",
+        "set": 3,
+        "path": [
+          3,
+          "exercises",
+          5,
+          "words",
+          9
+        ],
+        "en": "age",
+        "ko": "② 시대",
+        "original": {
+          "ex": "We live in the information {{BLANK}}.",
+          "tr": "우리는 정보화 시대에 살아.",
+          "c": "the Ice Age(빙하기)."
+        },
+        "sourceHash": "c4606c9329154e44f4106581ee26a3eb69f41e21244bbb8c13b34cd497edec2e",
+        "proposed": {
+          "ex": "The space {{BLANK}} began with the first satellite in 1957.",
+          "tr": "우주 시대는 1957년 최초의 인공위성과 함께 시작되었어."
+        },
+        "completedEnglish": "The space age began with the first satellite in 1957.",
+        "factIds": [
+          "S22"
+        ],
+        "sources": [
+          "https://www.nasa.gov/history/65-years-ago-sputnik-ushers-in-the-space-age/",
+          "https://starchild.gsfc.nasa.gov/docs/StarChild/space_level1/travel.html"
+        ],
+        "verificationNote": "NASA는 1957년 10월 4일 스푸트니크 1호의 발사를 우주 시대 시작으로 설명한다. first satellite는 이 문맥의 인공위성이고 첫 자연 위성이라고 주장하지 않는다.",
+        "difficultyNote": "우주 시대라는 age의 전형적 결합. satellite 한 단어 외 전문 개념 없이 시작 사건을 설명; 이 낱말이 너무 어렵다면 현행 information age 유지가 차선.",
+        "reviewNote": "age의 시대 뜻을 1957년 인공위성과 우주 시대의 시작으로 연결한다. 긴 우주선·소련 고유명사 나열 없이 대표 사건을 담는다.",
+        "status": "pending_user_review"
+      },
+      "after": {
+        "number": 50,
+        "id": "C0693",
+        "set": 3,
+        "path": [
+          3,
+          "exercises",
+          5,
+          "words",
+          9
+        ],
+        "en": "age",
+        "ko": "② 시대",
+        "original": {
+          "ex": "We live in the information {{BLANK}}.",
+          "tr": "우리는 정보화 시대에 살아.",
+          "c": "the Ice Age(빙하기)."
+        },
+        "sourceHash": "c4606c9329154e44f4106581ee26a3eb69f41e21244bbb8c13b34cd497edec2e",
+        "proposed": {
+          "ex": "Around 10,000 BCE, parts of the Middle East entered a new {{BLANK}} of farming.",
+          "tr": "기원전 1만 년경, 중동 일부 지역은 농사를 짓는 새로운 시대로 접어들었어."
+        },
+        "completedEnglish": "Around 10,000 BCE, parts of the Middle East entered a new age of farming.",
+        "factIds": [
+          "H01"
+        ],
+        "sources": [
+          "https://openstax.org/books/world-history-volume-1/pages/2-3-the-neolithic-revolution"
+        ],
+        "verificationNote": "OpenStax는 약 12,000년 전 근동 일부 지역의 농경 시작과 지역마다 달랐던 독립적 발생을 설명한다. Around와 parts로 시기·지역의 범위를 한정하며 전 세계의 동시 전환을 주장하지 않는다.",
+        "difficultyNote": "entered a new age로 시대 뜻을 보여 준다. farming으로 전문어를 풀고, 소문자 age를 그대로 입력·표시할 수 있다.",
+        "reviewNote": "우주 개발 대신 농경 혁명의 큰 변화를 담는다. 석기시대의 정식 대문자 명칭을 위해 표제어나 화면 처리를 바꾸지 않는다.",
+        "status": "pending_user_review",
+        "topic": "기원전 1만 년경 근동의 농경 전환",
+        "topicRevision": "topic-revision-02.json"
+      },
+      "sourceEvidence": [
+        "https://openstax.org/books/world-history-volume-1/pages/2-3-the-neolithic-revolution"
+      ]
+    },
+    {
+      "number": 54,
+      "id": "C0794",
+      "en": "space",
+      "topic": "1687년 뉴턴의 중력 법칙",
+      "before": {
+        "number": 54,
+        "id": "C0794",
+        "set": 4,
+        "path": [
+          4,
+          "exercises",
+          1,
+          "words",
+          11
+        ],
+        "en": "space",
+        "ko": "② 우주",
+        "original": {
+          "ex": "Astronauts travel in {{BLANK}}.",
+          "tr": "우주비행사들은 우주를 여행해.",
+          "c": "outer space = 우주 공간."
+        },
+        "sourceHash": "bb25703ab98f0b0280a0cfad066bc741c9b98eabb6f626a249fbd7f9d8e05f10",
+        "proposed": {
+          "ex": "On April 12, 1961, Yuri Gagarin became the first person in {{BLANK}}.",
+          "tr": "1961년 4월 12일에 유리 가가린은 최초로 우주에 간 사람이 되었어."
+        },
+        "completedEnglish": "On April 12, 1961, Yuri Gagarin became the first person in space.",
+        "factIds": [
+          "S23"
+        ],
+        "sources": [
+          "https://science.nasa.gov/resource/yuri-gagarin-first-human-in-space/",
+          "https://science.nasa.gov/image-article/apod-1996-april-12-man-enters-space/"
+        ],
+        "verificationNote": "NASA 자료 두 곳에서 날짜와 인류 최초의 우주 비행을 확인. 첫 우주 유영이나 달 착륙과 혼동하지 않는다.",
+        "difficultyNote": "orbit/cosmonaut/spacecraft 없이 first person in space로 표현. 단일 인명과 날짜만 추가.",
+        "reviewNote": "우주비행사가 우주를 여행한다는 일반 진술에 최초 유인 우주비행의 인물과 날짜를 넣는다.",
+        "status": "pending_user_review"
+      },
+      "after": {
+        "number": 54,
+        "id": "C0794",
+        "set": 4,
+        "path": [
+          4,
+          "exercises",
+          1,
+          "words",
+          11
+        ],
+        "en": "space",
+        "ko": "② 우주",
+        "original": {
+          "ex": "Astronauts travel in {{BLANK}}.",
+          "tr": "우주비행사들은 우주를 여행해.",
+          "c": "outer space = 우주 공간."
+        },
+        "sourceHash": "bb25703ab98f0b0280a0cfad066bc741c9b98eabb6f626a249fbd7f9d8e05f10",
+        "proposed": {
+          "ex": "In 1687, Newton showed that gravity acts both on Earth and in {{BLANK}}.",
+          "tr": "1687년에 뉴턴은 중력이 지구에서도 우주에서도 작용함을 보여 주었어."
+        },
+        "completedEnglish": "In 1687, Newton showed that gravity acts both on Earth and in space.",
+        "factIds": [
+          "S06"
+        ],
+        "sources": [
+          "https://science.nasa.gov/earth/earth-observatory/planetary-motion/"
+        ],
+        "verificationNote": "NASA는 뉴턴이 지상의 사과와 달의 운동을 같은 원리로 통합했고 1687년에 이를 출판했다고 설명한다. 우주에 중력이 없다는 흔한 오개념도 피하는 문장이다. 뉴턴이 중력의 존재를 처음 발견했다거나 현대 상대성이론까지 완성했다는 주장은 아니다.",
+        "difficultyNote": "gravity 한 개 외 전문어 없이 Earth와 space를 대비한다. both ... and를 익힐 수 있다. 만유인력의 공식이나 universal gravitation, celestial bodies 등을 쓰지 않는다.",
+        "reviewNote": "1961년 최초 유인 비행 대신 1687년의 지상·천상 공통 물리 법칙이라는 핵심 과학사로 전환한다. first-person 날짜 외우기보다 우주의 개념을 설명한다.",
+        "status": "pending_user_review",
+        "topic": "1687년 뉴턴의 중력 법칙",
+        "topicRevision": "topic-revision-02.json"
+      },
+      "sourceEvidence": [
+        "https://science.nasa.gov/earth/earth-observatory/planetary-motion/"
+      ]
+    }
+  ],
+  "verification": [
+    "13개 지정 제안만 변경; November와 나머지 12개 제안은 원문 그대로 유지",
+    "정답 표제어+빈칸 밖 접미사로 완성 문장 정확 일치",
+    "대화용 영어·한국어와 출처·시기·난도 판단 포함",
+    "게임 DATA와 저작 원본 변경 없음; 전체 26안은 여전히 확인 대기",
+    "별도 검토자가 13안의 목표뜻·영문/한글·사실범위·난도를 재독해해 수정 필수 문제 없음을 확인"
+  ],
+  "scopeNote": "최초 72주제의 사실 목록은 그대로 보존한다. 기존 factIds에 없는 추가 소재는 각 제안의 topic, sources, verificationNote와 이 원장으로 추적한다."
+}

@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-08",
+  "status": "draft_only_not_applied",
+  "before": {
+    "number": 43,
+    "id": "C0533",
+    "set": 2,
+    "path": [
+      2,
+      "exercises",
+      5,
+      "words",
+      7
+    ],
+    "en": "country",
+    "ko": "① 나라, 국가",
+    "original": {
+      "ex": "Korea is a beautiful {{BLANK}}.",
+      "tr": "한국은 아름다운 나라야.",
+      "c": "복수는 countries."
+    },
+    "sourceHash": "6796981eaec4f57051e20da1aec15bc10c292225c5d092f2419984a632d63806",
+    "proposed": {
+      "ex": "A rich {{BLANK}} can still have poor citizens.",
+      "tr": "부유한 나라에도 가난한 국민이 있을 수 있어."
+    },
+    "completedEnglish": "A rich country can still have poor citizens.",
+    "factIds": [],
+    "sources": [],
+    "verificationNote": "역사적 사건이나 특정 인물의 인용을 제시하지 않는 자체 작성 일반 예문. 특정 연구 결과·통계 수치를 주장하지 않는다. 목표 뜻·문형·한국어 대응 및 단정 범위를 검토했다.",
+    "difficultyNote": "짧은 일상 문형으로 한 가지 뜻을 직접 전달한다. 별도 인명·연대·제도 설명 없이 이해할 수 있으며 목표 뜻을 유지한다.",
+    "reviewNote": "rich country와 poor citizens의 즉시 이해되는 대비. 국가의 부가 모든 국민의 부를 뜻하지 않는다는 한 가지 개념을 담고 can으로 범위를 한정한다.",
+    "status": "pending_user_review",
+    "topic": "국가의 부와 개인의 형편 구별",
+    "topicRevision": "topic-revision-04.json",
+    "exampleKind": "original_general_example_not_attributed_quote"
+  },
+  "after": {
+    "number": 43,
+    "id": "C0533",
+    "set": 2,
+    "path": [
+      2,
+      "exercises",
+      5,
+      "words",
+      7
+    ],
+    "en": "country",
+    "ko": "① 나라, 국가",
+    "original": {
+      "ex": "Korea is a beautiful {{BLANK}}.",
+      "tr": "한국은 아름다운 나라야.",
+      "c": "복수는 countries."
+    },
+    "sourceHash": "6796981eaec4f57051e20da1aec15bc10c292225c5d092f2419984a632d63806",
+    "proposed": {
+      "ex": "India became an independent {{BLANK}} in 1947.",
+      "tr": "인도는 1947년에 독립 국가가 되었어."
+    },
+    "completedEnglish": "India became an independent country in 1947.",
+    "factIds": [],
+    "sources": [
+      "https://www.presidentofindia.gov.in/speeches/address-nation-honble-president-india-smt-droupadi-murmu-eve-77th-independence-day"
+    ],
+    "verificationNote": "인도 대통령실의 독립기념일 연설에서 1947년 8월 15일 독립을 확인했다. 공화국 수립일이나 헌법 채택일과 혼동하지 않는다.",
+    "difficultyNote": "인도라는 익숙한 나라와 독립 연도를 한 문장으로 제시한다.",
+    "reviewNote": "큰 역사적 사실과 independent country의 결합을 짧게 전달한다.",
+    "status": "pending_user_review_not_applied",
+    "topic": "1947년 인도 독립",
+    "topicRevision": "topic-revision-05.json",
+    "exampleKind": "original_example_with_verified_concept"
+  },
+  "request": "43만 다시합시다. 나머지 변경은 배포하고 후속 전체 작업 전 토의."
+}

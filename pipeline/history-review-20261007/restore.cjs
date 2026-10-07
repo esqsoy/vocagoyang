@@ -1,7 +1,7 @@
 'use strict';
 // Reverse only the approved, recorded wording edits for historical-content checks.
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),crypto=require('node:crypto');
-const reviews=['difficulty-revision-02.json','difficulty-revision-01.json','application-01.json'].map(file=>JSON.parse(fs.readFileSync(path.join(__dirname,file),'utf8')));
+const reviews=['application-02.json','difficulty-revision-02.json','difficulty-revision-01.json','application-01.json'].map(file=>JSON.parse(fs.readFileSync(path.join(__dirname,file),'utf8')));
 const hash=v=>crypto.createHash('sha256').update(JSON.stringify(v)).digest('hex');
 function restoreHistoryExamples(data){
  const restored=structuredClone(data);

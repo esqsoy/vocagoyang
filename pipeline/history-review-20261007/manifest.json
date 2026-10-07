@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "status": "batch_01_applied_locally_remaining_candidates",
+  "status": "batch_02_applied_locally_43_pending",
   "dataHash": "60105b7239890b278ba471ff680575cbbac7fbe6997cf3bf779d98f45dbaa06c",
   "totalCards": 7067,
   "sets": 51,
@@ -40,8 +40,8 @@
   "sourceUrls": 101,
   "dataUnchanged": false,
   "newEnglishExamplesWritten": 21,
-  "appliedCardsThisAudit": 30,
-  "deployment": true,
+  "appliedCardsThisAudit": 56,
+  "deployment": false,
   "readBatches": [
     {
       "firstId": "C0001",
@@ -479,27 +479,36 @@
     "Game DATA hash unchanged during this audit"
   ],
   "remaining": [
-    "User review of batch 02: 26 complete English examples and Korean translations; no app changes yet",
-    "Draft remaining 551 unreviewed candidates, preserving strong current examples",
-    "Apply only reviewed batches; prior approved batch is publicly deployed"
+    "43 country new sentence awaits user review",
+    "Discuss approach before writing remaining 550 candidates; do not begin bulk revision yet"
   ],
   "headwordCounting": "lowercase(word || en), matching the existing headword field",
   "proposalBatchCards": 30,
   "proposalStatus": "applied_and_deployed",
   "dataUnchangedDuringSelection": true,
-  "currentDataHash": "c4f71f2424643f10ff5f1932fde09fd212167b25a5590927f95411400600ff47",
+  "currentDataHash": "d4ade06db2c5d62ee80bb6c49427c410700c7b65f9ee9bac10ae8a15343e0cff",
   "approvedBatchCards": 30,
-  "changedCardsThisAudit": 30,
-  "appliedNewCandidateCards": 21,
-  "remainingCandidateCards": 577,
+  "changedCardsThisAudit": 56,
+  "appliedNewCandidateCards": 47,
+  "remainingCandidateCards": 551,
   "pendingExistingAtSelection": 9,
   "pendingExistingNow": 0,
   "appliedExistingProposalCards": 9,
-  "latestRevision": "difficulty-revision-02.json",
+  "latestRevision": "application-02.json",
   "release": "release-01.json",
   "draftedCandidateCards": 26,
   "withdrawnCandidateCards": 14,
-  "remainingUnwrittenCandidateCards": 551,
-  "pendingReviewProposalCards": 26,
-  "latestDraft": "proposal-02.json"
+  "remainingUnwrittenCandidateCards": 550,
+  "pendingReviewProposalCards": 1,
+  "latestDraft": "proposal-02.json",
+  "latestDraftRevision": "topic-revision-05.json",
+  "acceptedRetainedDraftNumbers": [
+    32,
+    33,
+    42,
+    45,
+    46,
+    49
+  ],
+  "pendingReviewProposalCardsScope": "43 country only; 25 approved proposals plus shared May source applied"
 }
