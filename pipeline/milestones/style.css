@@ -39,6 +39,9 @@
   box-shadow:0 0 30px var(--gold,#ffd34d),0 0 60px var(--pink,#ff4fa3),inset 0 0 30px #fff;animation:msRing 1s ease-out forwards;}
 .ms-ring.r2{border-color:var(--pink,#ff4fa3);animation-delay:.08s;animation-duration:1.1s;}
 .ms-ring.r3{border-color:var(--cyan,#5ce6ff);animation-delay:.16s;animation-duration:1.2s;}
+.ms-ring.r4{border-color:#c399ff;animation-delay:.24s;animation-duration:1.3s;}
+.ms-ring.r5{border-color:var(--mint,#7cffb2);animation-delay:.32s;animation-duration:1.4s;}
+.ms-ring.r6{border-color:#fff;animation-delay:.4s;animation-duration:1.5s;}
 .ms-shock{position:absolute;left:var(--x,50%);top:var(--y,40%);width:20px;height:20px;border-radius:50%;border:6px solid var(--gold,#ffd34d);
   transform:translate(-50%,-50%);animation:msShock 2.2s ease-out forwards;}
 .ms-rays{position:absolute;left:var(--x,50%);top:var(--y,40%);width:0;height:0;animation:msSpin 5s linear infinite;}

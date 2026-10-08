@@ -95,6 +95,15 @@ let progressAt2500=null;
   assert(!h.storage.has(SEEN));
 }
 
-// 9) 세 HTML의 삽입 구간이 원본(runtime.js·style.css)과 같다.
+// 9) 문턱이 높을수록 유성우가 길고 연출이 화려하다(영신: "갈수록 더 길게", "1000개나 외웠는데 좀 길어도").
+{
+  const h=harness(path.join(root,'vocagoyangfable.html')),P=[1000,2000,3000,4000].map(m=>h.ctx.msPlan(m));
+  assert.equal(P[0].T,5400,'1,000은 약 5.4초 동안 센다');
+  for(let i=1;i<P.length;i++){assert(P[i].T>P[i-1].T);assert(P[i].shells>P[i-1].shells);assert(P[i].rings>P[i-1].rings);assert(P[i].rays>P[i-1].rays);}
+  assert.equal(P[0].rain,0);assert(P[1].rain>0,'2,000부터 금빛 비');
+  assert(h.ctx.msPlan(8000).T<=15000,'가장 길어도 15초');
+}
+
+// 10) 세 HTML의 삽입 구간이 원본(runtime.js·style.css)과 같다.
 cp.execFileSync(process.execPath,[path.join(root,'pipeline/milestones/build.cjs'),'--check'],{stdio:'pipe'});
-console.log('PASS milestones: 세 교재 합집합 8,309, 1,000 단위 한 번씩, 업데이트 전 학생은 가장 큰 문턱 한 번, 복습 판 제외, 엔딩·포효 순서, 미리 보기 저장 없음');
+console.log('PASS milestones: 세 교재 합집합 8,309, 1,000 단위 한 번씩, 업데이트 전 학생은 가장 큰 문턱 한 번, 복습 판 제외, 엔딩·포효 순서, 미리 보기 저장 없음, 문턱마다 길고 화려하게');

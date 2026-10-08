@@ -76,12 +76,19 @@ function msStreak(rgb,len,ang){
   x.strokeStyle=g;x.lineCap='round';x.lineWidth=2.4;x.beginPath();x.moveTo(tx,ty);x.lineTo(hx,hy);x.stroke();
   return {c,hx,hy};
 }
-function msLight(layer,x,y){
+/* 문턱이 높을수록 길고 화려하게(26.10.08 영신: "갈수록 더 길게 유성우가 쏟아지게", "1000개나 외웠는데 좀 길어도").
+   유성은 문턱 수만큼, 곧 지금까지 외운 단어가 하나씩 다 떨어진다. 1,000은 약 5.4초, 한 단계마다 2초씩 길어진다(최대 15초). */
+function msPlan(m){
+  const L=Math.max(1,Math.round(m/msStep)),k=Math.min(4,L);
+  return {level:L,T:Math.min(15000,3400+2000*L),ease:Math.max(1.4,1.9-.15*(L-1)),
+    shells:Math.min(18,5+2*L),rings:2+k,rays:8+4*k,rain:L>=2?Math.min(8,1.5*L):0};
+}
+function msLight(layer,x,y,plan){
   const at=el=>{el.style.setProperty('--x',x+'px');el.style.setProperty('--y',y+'px');layer.appendChild(el);return el;};
   const mk=cls=>{const el=document.createElement('div');el.className=cls;return at(el);};
-  mk('ms-flash');mk('ms-ring');mk('ms-ring r2');mk('ms-ring r3');mk('ms-shock');
+  mk('ms-flash');for(let i=1;i<=plan.rings;i++)mk('ms-ring'+(i>1?' r'+i:''));mk('ms-shock');
   const rays=mk('ms-rays');
-  for(let i=0;i<12;i++){const r=document.createElement('div');r.className='ms-ray';r.style.transform=`rotate(${i*30}deg) translateX(-50%)`;rays.appendChild(r);}
+  for(let i=0;i<plan.rays;i++){const r=document.createElement('div');r.className='ms-ray';r.style.transform=`rotate(${i*360/plan.rays}deg) translateX(-50%)`;rays.appendChild(r);}
 }
 function msShow(info){
   msClose(true);msBusy=true;
@@ -102,7 +109,7 @@ function msShow(info){
   const btn=mk('button','ms-close',inner,'계속하기 ▶');btn.type='button';
   document.body.appendChild(ov);msNode=ov;msOpenedAt=Date.now();
   if(typeof setCat==='function')setCat('msCat','win');
-  ov.addEventListener('click',()=>{if(Date.now()-msOpenedAt>1200)msClose();});
+  ov.addEventListener('click',()=>{if(ov._skip&&ov._skip())return;if(Date.now()-msOpenedAt>1200)msClose();});
   btn.addEventListener('click',e=>{e.stopPropagation();msClose();});
   if(still){ov.classList.add('popped','still');msSound('fanfare');return;}
   const cx=canvas.getContext&&canvas.getContext('2d');
@@ -118,18 +125,19 @@ function msRun(ov,canvas,cx,info,num,light){
   const glow=msColors.map(c=>msSprite(c,48)),streak=msColors.map(c=>msStreak(c,150,ang));
   const FONT='"Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif',SIZES=[10,12,14,17];
   const rnd=a=>a[Math.floor(Math.random()*a.length)];
-  const meteors=[],sparks=[],flashes=[];
-  const T=Math.min(4200,2400+m*.35);                                    // 1부터 m까지 세는 시간(ms). 갈수록 빨라진다
-  let t0=performance.now(),spawned=0,popped=false,popAt=0,shells=[],slow=0,low=false,last=t0,shownCount=0,nextAmbient=0,wi=m;
+  const meteors=[],sparks=[],flashes=[],rains=[];
+  const plan=msPlan(m),T=plan.T;                                          // 1부터 m까지 세는 시간. 처음엔 천천히, 갈수록 빠르게
+  let t0=performance.now(),spawned=0,popped=false,popAt=0,shells=[],slow=0,low=false,last=t0,shownCount=0,nextAmbient=0,wi=m,rush=false;
+  ov._skip=()=>{if(popped)return false;rush=true;return true;};          // 세는 중에 누르면 바로 문턱으로
   const spawnMeteor=i=>{
-    const sp=(H+W)*(.019+Math.random()*.011);
+    const sp=(H+W)*(.010+Math.random()*.007);                              // 글자가 읽히는 속도(26.10.08 영신: "너무 빠르게 하지 않아도")
     meteors.push({x:Math.random()*(W+H*drift),y:-20-Math.random()*80,vx:dirx*sp,vy:diry*sp,t:word(i),k:Math.floor(Math.random()*msColors.length),s:rnd(SIZES),scale:.55+Math.random()*.7,i});
   };
   /* 불꽃은 가운데 글자(숫자·고양이)를 피해 위·아래·양옆에서 터진다 */
   const SPOTS=[[.2,.15],[.8,.15],[.14,.52],[.86,.52],[.25,.85],[.75,.85],[.5,.93],[.5,.07],[.35,.1],[.65,.1]];
   const shell=(x,y,k,n)=>({at:0,x:W*x+(Math.random()-.5)*W*.08,y:H*y+(Math.random()-.5)*H*.05,k,n,fired:false});
-  const planShells=()=>{const n=Math.max(7,Math.min(10,Math.round(m/400)+6)),out=[];
-    for(let i=0;i<n;i++){const [x,y]=SPOTS[i%SPOTS.length],sh=shell(x,y,i%msColors.length,Math.round(34+Math.random()*14));sh.at=250+i*430+Math.random()*120;out.push(sh);}
+  const planShells=()=>{const n=plan.shells,out=[];
+    for(let i=0;i<n;i++){const [x,y]=SPOTS[i%SPOTS.length],sh=shell(x,y,i%msColors.length,Math.round(34+Math.random()*14));sh.at=250+i*(430-12*Math.min(4,plan.level))+Math.random()*120;out.push(sh);}
     return out;};
   const burst=sh=>{
     flashes.push({x:sh.x,y:sh.y,k:sh.k,life:0});msSound('pop');
@@ -143,7 +151,7 @@ function msRun(ov,canvas,cx,info,num,light){
   const pop=now=>{
     popped=true;popAt=now;num.textContent=m.toLocaleString('en-US');
     const r=num.getBoundingClientRect(),o=ov.getBoundingClientRect();
-    msLight(light,r.left-o.left+r.width/2,r.top-o.top+r.height/2);
+    msLight(light,r.left-o.left+r.width/2,r.top-o.top+r.height/2,plan);
     ov.classList.add('popped');num.parentNode.classList.add('pop');
     msSound('fanfare');if(navigator.vibrate)try{navigator.vibrate([60,50,140]);}catch(e){}
     shells=planShells();nextAmbient=shells[shells.length-1].at+1400;
@@ -154,7 +162,8 @@ function msRun(ov,canvas,cx,info,num,light){
     if(dt>34)slow++;else if(slow>0)slow-=.25;if(slow>24)low=true;          // 느린 기기는 빛 번짐과 일부 글자를 줄인다
     cx.clearRect(0,0,W,H);cx.globalCompositeOperation='lighter';
     if(!popped){
-      const want=Math.min(m,Math.ceil(m*Math.pow(Math.min(1,(now-t0)/T),2.2)));
+      const want=rush?m:Math.min(m,Math.ceil(m*Math.pow(Math.min(1,(now-t0)/T),plan.ease)));
+      if(rush)spawned=Math.max(spawned,want-24);                          // 건너뛸 때 남은 유성을 한꺼번에 띄우지 않는다
       while(spawned<want){spawnMeteor(spawned);spawned++;}
       if(spawned!==shownCount){shownCount=spawned;num.textContent=spawned.toLocaleString('en-US');}
       if(spawned>=m)pop(now);
@@ -168,11 +177,14 @@ function msRun(ov,canvas,cx,info,num,light){
     if(popped){
       const since=now-popAt;
       for(const sh of shells)if(!sh.fired&&since>=sh.at){sh.fired=true;burst(sh);}
+      if(plan.rain&&!low&&since<2800)for(let n=0;n<plan.rain*f;n++)rains.push({x:Math.random()*W,y:-10-Math.random()*40,vx:(Math.random()-.5)*.5,vy:3+Math.random()*4,k:Math.random()<.8?0:5,r:1.5+Math.random()*2.5});   // 2,000부터 금빛 비
       if(since>nextAmbient){const [x,y]=rnd(SPOTS);burst(shell(x,y,Math.floor(Math.random()*msColors.length),26));nextAmbient=since+1500+Math.random()*700;}
       for(let i=flashes.length-1;i>=0;i--){const fl=flashes[i];fl.life+=f;const a=1-fl.life/14;if(a<=0){flashes.splice(i,1);continue;}
         const r=50+fl.life*9;cx.globalAlpha=a;cx.drawImage(glow[fl.k],fl.x-r,fl.y-r,r*2,r*2);}
       for(let i=sparks.length-1;i>=0;i--){const p=sparks[i];p.life+=f;if(p.life>p.max){sparks.splice(i,1);continue;}
         const d=Math.pow(.955,f);p.vx*=d;p.vy=p.vy*d+.05*f;p.x+=p.vx*f;p.y+=p.vy*f;}
+      for(let i=rains.length-1;i>=0;i--){const p=rains[i];p.x+=p.vx*f;p.y+=p.vy*f;if(p.y>H+10){rains.splice(i,1);continue;}
+        cx.globalAlpha=Math.random()<.9?.85:.3;cx.drawImage(glow[p.k],p.x-p.r*2,p.y-p.r*2,p.r*4,p.r*4);}
       cx.lineWidth=1.4;
       for(const p of sparks){const a=alphaOf(p);
         if(p.dot){const r=2.5+Math.random()*3;cx.globalAlpha=a*(Math.random()<.85?1:.25);cx.drawImage(glow[p.k],p.x-r,p.y-r,r*2,r*2);continue;}
