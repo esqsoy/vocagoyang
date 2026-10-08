@@ -4317,7 +4317,7 @@ function msRun(ov,canvas,cx,info,num,light){
   };
   /* warp: 소실점(숫자 뒤)에서 태어나 학생 쪽으로 다가온다. 원근 배율 s=ZN/z라 가까울수록 커지고 밝아진다.
      정면 단어(초당 다섯 남짓)는 크게 다가와 눈앞에서 섬광이 되고, 나머지는 작게 화면 밖으로 스쳐 간다. 도착할 때마다 1씩 센다.
-     단어 말고는 날아오는 빛이 없다(영신: "오직 단어만이 어둠을 밝히는 식"). */
+     단어 말고는 날아오는 빛이 없다(영신: "오직 단어만이 어둠을 밝히는 식"). 단어에 붙은 꼬리선과 섬광의 불티는 둔다(영신: "좋은 거 같아"). */
   const Z0=8,ZN=.5,minD=Math.min(W,H);
   const nr=num.getBoundingClientRect(),orc=ov.getBoundingClientRect(),VX=nr.left-orc.left+nr.width/2||W/2,VY=nr.top-orc.top+nr.height/2||H*.3;
   const rateNow=t=>plan.ease*m/T*Math.pow(Math.max(.02,Math.min(1,t/T)),plan.ease-1)*1000;   // 초당 도착 수
@@ -4328,7 +4328,8 @@ function msRun(ov,canvas,cx,info,num,light){
     const rf=head?minD*(.16+Math.random()*.4):minD*(.62+Math.random()*1.1);
     warps.push({dx:Math.cos(a)*rf,dy:Math.sin(a)*rf,z:Z0,vz:(Z0-ZN)/(60*(1.9+Math.random()*.6)),t:word(i),k:Math.floor(Math.random()*msColors.length),big:head?36+Math.random()*22:16+Math.random()*10,head});
   };
-  const blast=(x,y,k,r)=>blasts.push({x,y,k,r,life:0});                     // 단어가 제 빛으로 터진다
+  const blast=(x,y,k,r)=>{blasts.push({x,y,k,r,life:0});                   // 단어가 제 빛으로 터지며 불티가 튄다
+    for(let i=0;i<7;i++){const a=Math.random()*Math.PI*2,sp=1.5+Math.random()*3.5;sparks.push({x,y,vx:Math.cos(a)*sp,vy:Math.sin(a)*sp,dot:true,k,life:0,max:22+Math.random()*16});}};
   /* 불꽃은 가운데 글자(숫자·고양이)를 피해 위·아래·양옆에서 터진다 */
   const SPOTS=[[.2,.15],[.8,.15],[.14,.52],[.86,.52],[.25,.85],[.75,.85],[.5,.93],[.5,.07],[.35,.1],[.65,.1]];
   const shell=(x,y,k,n)=>({at:0,x:W*x+(Math.random()-.5)*W*.08,y:H*y+(Math.random()-.5)*H*.05,k,n,fired:false});
@@ -4375,11 +4376,12 @@ function msRun(ov,canvas,cx,info,num,light){
       const st=streak[p.k];cx.globalAlpha=.85;cx.drawImage(st.c,p.x-st.hx*p.scale,p.y-st.hy*p.scale,st.c.width*p.scale,st.c.height*p.scale);
       if(!low){cx.globalAlpha=.5;cx.drawImage(glow[p.k],p.x-13,p.y-13,26,26);}
     }
-    for(let i=warps.length-1;i>=0;i--){const p=warps[i];p.z-=p.vz*f;
+    for(let i=warps.length-1;i>=0;i--){const p=warps[i],z1=p.z;p.z-=p.vz*f;
       const s2=ZN/Math.max(ZN,p.z),x=VX+p.dx*s2,y=VY+p.dy*s2;p.x=x;p.y=y;p.s=s2;
       if(p.z<=ZN){warps.splice(i,1);if(!popped&&!rush)arrived++;if(p.head&&x>-40&&x<W+40&&y>-40&&y<H+40)blast(x,y,p.k,p.big*2);continue;}
       if(x<-300||x>W+300||y<-200||y>H+200){p.off=true;continue;}
-      const a=Math.min(1,(Z0-p.z)/1.2)*(p.head?1:.6);p.a=a;
+      const a=Math.min(1,(Z0-p.z)/1.2)*(p.head?1:.6),s1=ZN/z1;p.a=a;
+      cx.globalAlpha=a*.5;cx.strokeStyle=`rgb(${msColors[p.k]})`;cx.lineWidth=Math.max(.8,s2*4);cx.beginPath();cx.moveTo(VX+p.dx*s1*.82,VY+p.dy*s1*.82);cx.lineTo(x,y);cx.stroke();   // 단어 뒤 꼬리선(영신: 좋다)
       if(!low&&p.head&&s2>.3){const r=p.big*s2*(1+s2*.5);cx.globalAlpha=a*(.18+.3*s2);cx.drawImage(glow[p.k],x-r,y-r,r*2,r*2);}}   // 가까워진 단어의 제 빛
     for(let i=blasts.length-1;i>=0;i--){const b=blasts[i];b.life+=f;const q=1-b.life/13;if(q<=0){blasts.splice(i,1);continue;}
       const r=b.r*(.7+b.life*.22);cx.globalAlpha=Math.pow(q,1.4)*.85;cx.drawImage(glow[b.k],b.x-r,b.y-r,r*2,r*2);
