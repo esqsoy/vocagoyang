@@ -1,0 +1,1760 @@
+{
+ "date": "2026-10-08",
+ "name": "knowledge-05",
+ "status": "applied_locally_verified",
+ "authorization": "영신(2026-10-08): \"이제 예문작업을 완성해버리자! 전부!\"",
+ "summary": "지식 지도 6장 시민혁명, 7장 산업혁명과 근대 사회 26장: 미국 독립(1760년대 과세 반대·1775·1783), 프랑스 혁명의 이념·미터법·아이티 노예 봉기·1793·1848년 혁명, 볼리바르, 나폴레옹(1804·1812), 석탄·면직·철도·증기기관·동력 직기, 경제 성장, 노동조합·노동 계급, 애덤 스미스와 리카도, 노예제 폐지(1833 영국·1865 미국). F였던 lead·coal·slavery·abolish를 고쳤다. 목록 pipeline/knowledge-map/batch-05.json.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "474c42ad067f90755ff154f87607ec61aab030c80463d022071e615b6f34d4f4",
+   "afterHash": "9ca1c33f9de6fb3d6416e46a06bf760541fee58a1a3b9c9d201986334038040d",
+   "changes": [
+    {
+     "path": [
+      3,
+      "exercises",
+      7,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The job {{BLANK}} is really hard right now.",
+     "new": "In 1776, Adam Smith said that in a free {{BLANK}}, self-interest can benefit all."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      7,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "요즘 취업 시장이 정말 어려워.",
+     "new": "1776년 애덤 스미스는 자유 시장에서는 저마다의 이익 추구가 모두에게 이로울 수 있다고 했어."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      7,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "",
+     "new": "free market(자유 시장), job market(취업 시장), stock market(주식 시장)."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      4,
+      "words",
+      14,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Napoleon failed to {{BLANK}} his army to victory at Waterloo in 1815.",
+     "new": "By 1825, Simon Bolivar had helped {{BLANK}} much of South America to freedom."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      4,
+      "words",
+      14,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "나폴레옹은 1815년 워털루에서 자신의 군대를 승리로 이끌지 못했어.",
+     "new": "1825년까지 시몬 볼리바르는 남아메리카의 많은 지역이 자유를 얻도록 앞장서 이끌었어."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      2,
+      "words",
+      14,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "There's a 10% {{BLANK}} on this.",
+     "new": "In the 1760s, Americans opposed British {{BLANK}}es they had no vote on."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      2,
+      "words",
+      14,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이거엔 10% 세금이 붙어.",
+     "new": "1760년대에 아메리카 식민지 사람들은 자기들이 표결에 참여하지 못한 영국의 세금에 반대했어."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      2,
+      "words",
+      14,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "pay tax는 세금을 내다. income tax는 소득세, sales tax는 판매세.",
+     "new": "pay tax는 세금을 내다. No taxation without representation=대표 없이 과세 없다."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      0,
+      "words",
+      14,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The city's {{BLANK}} was very fast.",
+     "new": "Since the 1800s, economic {{BLANK}} has made the average person far richer."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      0,
+      "words",
+      14,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 도시의 성장은 정말 빨랐다.",
+     "new": "1800년대 이후 경제 성장은 평균적인 사람을 훨씬 더 부유하게 만들었어."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      0,
+      "words",
+      14,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "grow(자라다)+th=명사. health, truth도 같은 -th 가족.",
+     "new": "grow(자라다)+th=명사. economic growth는 경제 성장. health·truth도 같은 -th 가족."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      2,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "They formed a {{BLANK}} at the factory.",
+     "new": "In 1824, Britain made it legal for workers to form {{BLANK}}s."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      2,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그들은 공장에서 조합을 결성했다.",
+     "new": "1824년 영국은 노동자가 노동조합을 만드는 것을 합법화했어."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      2,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "uni(하나)로 뭉친 단체. the European Union(EU)의 U가 이것.",
+     "new": "uni(하나)로 뭉친 단체. trade union은 노동조합. the European Union(EU)의 U도 이것."
+    },
+    {
+     "path": [
+      10,
+      "exercises",
+      1,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The work needs years of hard {{BLANK}}.",
+     "new": "Adam Smith explained the division of {{BLANK}} with a pin factory."
+    },
+    {
+     "path": [
+      10,
+      "exercises",
+      1,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 일엔 수년간의 고된 노동이 필요해.",
+     "new": "애덤 스미스는 핀 공장을 예로 들어 분업을 설명했어."
+    },
+    {
+     "path": [
+      10,
+      "exercises",
+      1,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "노력이나 힘이 드는 일, 또는 노동력. manual labor는 육체노동, labor costs는 인건비.",
+     "new": "division of labor는 분업, manual labor는 육체노동. 영국 철자는 labour."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      3,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Good health is worth more than {{BLANK}}.",
+     "new": "Adam Smith argued that a nation's {{BLANK}} comes from work, not gold."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      3,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "건강이 부(富)보다 더 값진 거야.",
+     "new": "애덤 스미스는 나라의 부가 금이 아니라 노동에서 나온다고 주장했어."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      3,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "-th를 붙인 명사. growth·health·truth와 한 가족. 형용사는 wealthy.",
+     "new": "형용사는 wealthy. 애덤 스미스의 『국부론』은 영어로 The Wealth of Nations."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      4,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "There are many factories in this {{BLANK}} area.",
+     "new": "By 1850, Britain was the world's leading {{BLANK}} power."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      4,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 공업 지역엔 공장이 많아.",
+     "new": "1850년에 이르러 영국은 세계를 이끄는 공업 강국이 되어 있었어."
+    },
+    {
+     "path": [
+      16,
+      "exercises",
+      9,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Old trains burned {{BLANK}} for power.",
+     "new": "{{BLANK}} fueled the steam engines of Britain's Industrial Revolution."
+    },
+    {
+     "path": [
+      16,
+      "exercises",
+      9,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "옛날 기차는 석탄을 때서 달렸어.",
+     "new": "영국 산업혁명의 증기기관은 석탄을 연료로 움직였어."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      3,
+      "words",
+      13,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This shirt is made of pure {{BLANK}}.",
+     "new": "{{BLANK}} mills led Britain's Industrial Revolution in the late 1700s."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      3,
+      "words",
+      13,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 셔츠 순면이야.",
+     "new": "1700년대 후반 영국의 산업혁명은 면직 공장이 이끌었어."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      5,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "They want {{BLANK}} between men and women.",
+     "new": "The French Revolution spread ideas of liberty and {{BLANK}} in Europe."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      5,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 사람들은 남녀평등을 원해.",
+     "new": "프랑스 혁명은 자유와 평등이라는 이념을 유럽에 퍼뜨렸어."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      0,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Hot {{BLANK}} rose from the soup.",
+     "new": "From the 1780s, {{BLANK}} engines let factories be built far from rivers."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      0,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "국에서 뜨거운 김이 피어올랐어.",
+     "new": "1780년대부터 증기기관 덕분에 강에서 멀리 떨어진 곳에도 공장을 지을 수 있게 됐어."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      0,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "물이 끓을 때 나는 김·증기. steam train은 증기 기관차.",
+     "new": "물이 끓을 때 나는 김·증기. steam engine은 증기기관, steam train은 증기 기관차."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      9,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "They built a {{BLANK}} across the desert.",
+     "new": "In 1825, the first public {{BLANK}} with steam trains opened in England."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      9,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "사막을 가로질러 철도를 놓았어.",
+     "new": "1825년 증기 기관차가 달리는 첫 공공 철도가 잉글랜드에서 문을 열었어."
+    },
+    {
+     "path": [
+      22,
+      "exercises",
+      2,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "We use the {{BLANK}} system in science class.",
+     "new": "Revolutionary France created the {{BLANK}} system in the 1790s."
+    },
+    {
+     "path": [
+      22,
+      "exercises",
+      2,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리는 과학 시간에 미터법을 써.",
+     "new": "혁명기의 프랑스는 1790년대에 미터법을 만들었어."
+    },
+    {
+     "path": [
+      23,
+      "exercises",
+      0,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "My uncle married an {{BLANK}} teacher last year.",
+     "new": "The {{BLANK}} Revolution, which began in 1775, influenced the French one."
+    },
+    {
+     "path": [
+      23,
+      "exercises",
+      0,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 삼촌은 작년에 미국인 선생님과 결혼했어.",
+     "new": "1775년에 시작된 미국 혁명은 프랑스 혁명에 영향을 주었어."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      4,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "We bought some {{BLANK}} cheese.",
+     "new": "In 1791, slaves rose up in Haiti, then a {{BLANK}} colony."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      4,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리는 프랑스 치즈를 좀 샀어.",
+     "new": "1791년, 당시 프랑스 식민지였던 아이티에서 노예들이 들고일어났어."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      4,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The phone started a {{BLANK}} in how we talk.",
+     "new": "In 1848, {{BLANK}}s broke out across Europe, from Paris to Vienna."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      4,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "휴대폰은 우리가 대화하는 방식에 혁명을 일으켰어.",
+     "new": "1848년에는 파리에서 빈까지 유럽 곳곳에서 혁명이 일어났어."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      0,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Moving out gave me a real sense of {{BLANK}}.",
+     "new": "In 1783, Britain recognized the {{BLANK}} of the United States."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      0,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "따로 나와 사니까 진짜 자립했다는 기분이 들었어.",
+     "new": "1783년 영국은 미국의 독립을 인정했어."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      2,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "My mom is a {{BLANK}} mother with two jobs.",
+     "new": "In the 1800s, factories created a new {{BLANK}} class that lived on wages."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      2,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 엄마는 일자리가 두 개인 워킹맘이야.",
+     "new": "1800년대에 공장은 임금으로 살아가는 새로운 노동 계급을 만들어 냈어."
+    },
+    {
+     "path": [
+      29,
+      "exercises",
+      3,
+      "words",
+      14,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The king {{BLANK}}d two of his own men.",
+     "new": "In 1793, King Louis XVI of France was {{BLANK}}d in Paris."
+    },
+    {
+     "path": [
+      29,
+      "exercises",
+      3,
+      "words",
+      14,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 왕은 자기 부하 두 명을 처형했어.",
+     "new": "1793년 프랑스의 왕 루이 16세가 파리에서 처형됐어."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      7,
+      "words",
+      12,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The war finally ended {{BLANK}} in that country.",
+     "new": "In 1865, after its Civil War, the United States ended {{BLANK}}."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      7,
+      "words",
+      12,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 전쟁이 마침내 그 나라의 노예제를 끝냈어.",
+     "new": "1865년 남북전쟁을 치른 뒤 미국은 노예제를 끝냈어."
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      2,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This shop {{BLANK}}s in old comic books.",
+     "new": "In 1817, Ricardo showed how countries gain if they {{BLANK}} and trade."
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      2,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 가게는 오래된 만화책을 전문으로 다뤄.",
+     "new": "1817년 리카도는 나라들이 저마다 전문화해서 교역하면 어떻게 이득을 보는지 보여 줬어."
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      2,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "전문 분야를 말할 때 specialize in+(명사): specialize in music(음악을 전공하다).",
+     "new": "specialize in+(명사): specialize in music(음악을 전공하다). 경제학에서는 '특화하다'."
+    },
+    {
+     "path": [
+      35,
+      "exercises",
+      0,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} lived in a huge stone palace.",
+     "new": "In 1804, Napoleon made himself {{BLANK}} of the French."
+    },
+    {
+     "path": [
+      35,
+      "exercises",
+      0,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 황제는 거대한 돌 궁전에서 살았어.",
+     "new": "1804년 나폴레옹은 스스로 프랑스인의 황제가 되었어."
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      9,
+      "words",
+      9,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The army had to {{BLANK}} across the river.",
+     "new": "In 1812, Napoleon's army had to {{BLANK}} from Moscow as winter came."
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      9,
+      "words",
+      9,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "군대는 강을 건너 후퇴해야 했어.",
+     "new": "1812년 나폴레옹의 군대는 겨울이 닥쳐오자 모스크바에서 후퇴해야 했어."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      4,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Many countries chose to {{BLANK}} slavery.",
+     "new": "In 1833, Britain {{BLANK}}ed slavery in most of its empire."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      4,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "많은 나라가 노예제를 폐지하기로 했어.",
+     "new": "1833년 영국은 제국 대부분에서 노예제를 폐지했어."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      2,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The old woman made cloth on a {{BLANK}}.",
+     "new": "In the 1800s, power {{BLANK}}s took work from people who made cloth by hand."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      2,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 할머니는 베틀로 천을 짰어.",
+     "new": "1800년대에 동력 직기는 손으로 천을 짜던 사람들의 일거리를 빼앗았어."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      2,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "실로 천을 짜는 기계. 동사 뜻과는 뿌리가 다르다.",
+     "new": "실로 천을 짜는 기계. power loom은 동력 직기(역직기). 동사 뜻과는 뿌리가 다르다."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson03.json": {
+   "beforeHash": "ba822294f52b1456097bd3339fc9326349bf4ef2135e77e9dcb65a4abb9c5627",
+   "afterHash": "929a3514e15b7d4de9f2aaad6d98ff5f84a0110c0aaebf8b929f9257ac0ad261"
+  },
+  "pipeline/out/lesson04.json": {
+   "beforeHash": "3797b797fdab4870b441bb78fee48e0cdf362efdb699009a97ff8b7c23d01e8e",
+   "afterHash": "b0e2c65a0c37487c2275a93aece6368b3cff077e92881df453f9dec541f29905"
+  },
+  "pipeline/out/set06.json": {
+   "beforeHash": "ad12fec4ce08539996350c47e3e37cf2030047e641490569b7327264790932bc",
+   "afterHash": "4b236f0a396be8a5a58dd12aa6944bbd94cc68d9104d532383c6e7ebaf30950f"
+  },
+  "pipeline/out/set08.json": {
+   "beforeHash": "464a0c5133110d5fcfd8b8a56afe337b0ad6108e2e989cee5e3350d039799917",
+   "afterHash": "9dc55f77f625e6e3b6df1771dbc1264162cf7ea62f966d2e1da94a4dedca4fa4"
+  },
+  "pipeline/out/set10.json": {
+   "beforeHash": "773df3249dad2bdfce385a8e0c60451b43b72dd171a08035f5ebeed455628697",
+   "afterHash": "3bfcb0bf0916d10d28c7b8223096b3c788fb81342fa43b2e4565bb72f5455adb"
+  },
+  "pipeline/out/set14.json": {
+   "beforeHash": "679824cbc05d3bd3bc411161e6f0866f2a9de5dd93a4e9e905415332a52730cd",
+   "afterHash": "67c19dfbc5b5df6a041eb6534a9d7870ea73247115f33e9a22845d6597f7a238"
+  },
+  "pipeline/out/set16.json": {
+   "beforeHash": "9825378cca8007078aab5c12dcb991029afed91a08de6c10f4ce9ca6fc70ce18",
+   "afterHash": "7bb069540546c162979ec5dcee082b4ad5a482a38e265b924d5c23fcb8429613"
+  },
+  "pipeline/out/set18.json": {
+   "beforeHash": "b78639582501a54e4b2fdf29a2fd477a3e349991a0485fbaa956d034ae6ab140",
+   "afterHash": "47403cd00ab018b0cd06b2ac6d2dc2a9f13c91310ed668a9e63afeafba87f3fc"
+  },
+  "pipeline/out/set19.json": {
+   "beforeHash": "338d74caadce9f3c5edd0314a8bfb5262586573e91e126f7dbe13a00fc7e767a",
+   "afterHash": "0ea3af0712d6770f7731babfe0d2954e5084e7843518b9e5e13e1275bddc7dca"
+  },
+  "pipeline/out/set22.json": {
+   "beforeHash": "271874ac4c58faf09a34746c4c73fbec9bbb8f2632bfd70dca24644a5ba05bd6",
+   "afterHash": "c05f5e677509b97a4959d57802f34cd31953ffe5e67b02a84832d556ae8f0703"
+  },
+  "pipeline/out/set23.json": {
+   "beforeHash": "5756b65911eed5172dee4a2486916e5d8d5cf3bcb95ca7f1cff323a6ec3856be",
+   "afterHash": "96ae7491620a427bf43c7c5adb538d57e63b28417637434dc2a2b5cd78d1d94d"
+  },
+  "pipeline/out/set24.json": {
+   "beforeHash": "9726dec4bcc526215e9f163c249bdd976316f782f2b22a093557c23814dbc62c",
+   "afterHash": "ce6e91501e4798eb47888069429017a7e91216e772b0eb75eaef946bfdcea13b"
+  },
+  "pipeline/out/set25.json": {
+   "beforeHash": "28a96de22117aecf36d8d9e905b977d199cfef064f6b90d4d6199e34f6a8e56b",
+   "afterHash": "26474d79dbe8c6ec61558aadbab20d38ca892892077d2f8abb9628b7dbc4da24"
+  },
+  "pipeline/out/set27.json": {
+   "beforeHash": "5a8eba6e94a05b49202ac88f15f01c6e68f2d2c178e6ccf169b76b6b30b52dd1",
+   "afterHash": "50ee2243e61725087dc825b5ad995ba5ac862fbac51e0f304bbcf6e96b4f3a77"
+  },
+  "pipeline/out/set29.json": {
+   "beforeHash": "4abd37dac7e312042e7badc52156e31b8fc8a8cf6f840fb0f3e2a2943df56c89",
+   "afterHash": "55efb201c01edfd67dbeb07c6f350d433d5a9697252d4a572fe395f12319cf3a"
+  },
+  "pipeline/out/set31.json": {
+   "beforeHash": "016e331a4cdb558bed00d0c6f8be7fb5271b14f1c096458e46d40e8f8447af50",
+   "afterHash": "6b12a5117b8587635a17bc2655243cbb36a28aab1b7be079207ffb068cba76e2"
+  },
+  "pipeline/out/set34.json": {
+   "beforeHash": "908e0217f8a9acba90de79190b993234869a50fdd708572c1dbf3945e102f768",
+   "afterHash": "eca0075742c88562abf75c4762a77c7025bb6c5b90926d507a3f5984a681c0e7"
+  },
+  "pipeline/out/set35.json": {
+   "beforeHash": "2b00acec280d31526e2db90bc131a5bfccc04958cc08551c556c2c4e9bbd500f",
+   "afterHash": "dfe705019012aab1726e3ff59d95a9ad1f7585ea398089054d8e27e630ea2f09"
+  },
+  "pipeline/out/set36.json": {
+   "beforeHash": "3cfe7a7dcf008eff83af281906cb614b8c743a1ac7937490972459dde3a16201",
+   "afterHash": "f65618bcb8eac9891b269adcc9beca1a4b8682d33e50f6fe80c63a08e3c5d68f"
+  },
+  "pipeline/out/set43.json": {
+   "beforeHash": "c7923f44678f83b8cc5f75f272b8b69ece452cb73d9d00740e36e8d9625e8643",
+   "afterHash": "d15b77563915d9bd022207afe4694672d4933a74cef25dbdef920447e903310c"
+  },
+  "pipeline/out/set44.json": {
+   "beforeHash": "e2c7ffffcf05f83e5fc09a94817056d8ed03cfafc1c1bc2684858b4548f1d83d",
+   "afterHash": "809f379ae3af3f79b8e9c4746b25b392a1114fd3e22726128bb57a3c1c7801ce"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson03.json": [
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The job {{BLANK}} is really hard right now.",
+    "new": "In 1776, Adam Smith said that in a free {{BLANK}}, self-interest can benefit all."
+   },
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "요즘 취업 시장이 정말 어려워.",
+    "new": "1776년 애덤 스미스는 자유 시장에서는 저마다의 이익 추구가 모두에게 이로울 수 있다고 했어."
+   },
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "",
+    "new": "free market(자유 시장), job market(취업 시장), stock market(주식 시장)."
+   }
+  ],
+  "pipeline/out/lesson04.json": [
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     14,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Napoleon failed to {{BLANK}} his army to victory at Waterloo in 1815.",
+    "new": "By 1825, Simon Bolivar had helped {{BLANK}} much of South America to freedom."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     14,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "나폴레옹은 1815년 워털루에서 자신의 군대를 승리로 이끌지 못했어.",
+    "new": "1825년까지 시몬 볼리바르는 남아메리카의 많은 지역이 자유를 얻도록 앞장서 이끌었어."
+   }
+  ],
+  "pipeline/out/set06.json": [
+   {
+    "path": [
+     2,
+     "words",
+     14,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "There's a 10% {{BLANK}} on this.",
+    "new": "In the 1760s, Americans opposed British {{BLANK}}es they had no vote on."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     14,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이거엔 10% 세금이 붙어.",
+    "new": "1760년대에 아메리카 식민지 사람들은 자기들이 표결에 참여하지 못한 영국의 세금에 반대했어."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     14,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "pay tax는 세금을 내다. income tax는 소득세, sales tax는 판매세.",
+    "new": "pay tax는 세금을 내다. No taxation without representation=대표 없이 과세 없다."
+   }
+  ],
+  "pipeline/out/set08.json": [
+   {
+    "path": [
+     0,
+     "words",
+     14,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The city's {{BLANK}} was very fast.",
+    "new": "Since the 1800s, economic {{BLANK}} has made the average person far richer."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     14,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 도시의 성장은 정말 빨랐다.",
+    "new": "1800년대 이후 경제 성장은 평균적인 사람을 훨씬 더 부유하게 만들었어."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     14,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "grow(자라다)+th=명사. health, truth도 같은 -th 가족.",
+    "new": "grow(자라다)+th=명사. economic growth는 경제 성장. health·truth도 같은 -th 가족."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "They formed a {{BLANK}} at the factory.",
+    "new": "In 1824, Britain made it legal for workers to form {{BLANK}}s."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그들은 공장에서 조합을 결성했다.",
+    "new": "1824년 영국은 노동자가 노동조합을 만드는 것을 합법화했어."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "uni(하나)로 뭉친 단체. the European Union(EU)의 U가 이것.",
+    "new": "uni(하나)로 뭉친 단체. trade union은 노동조합. the European Union(EU)의 U도 이것."
+   }
+  ],
+  "pipeline/out/set10.json": [
+   {
+    "path": [
+     1,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The work needs years of hard {{BLANK}}.",
+    "new": "Adam Smith explained the division of {{BLANK}} with a pin factory."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 일엔 수년간의 고된 노동이 필요해.",
+    "new": "애덤 스미스는 핀 공장을 예로 들어 분업을 설명했어."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "노력이나 힘이 드는 일, 또는 노동력. manual labor는 육체노동, labor costs는 인건비.",
+    "new": "division of labor는 분업, manual labor는 육체노동. 영국 철자는 labour."
+   }
+  ],
+  "pipeline/out/set14.json": [
+   {
+    "path": [
+     3,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Good health is worth more than {{BLANK}}.",
+    "new": "Adam Smith argued that a nation's {{BLANK}} comes from work, not gold."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "건강이 부(富)보다 더 값진 거야.",
+    "new": "애덤 스미스는 나라의 부가 금이 아니라 노동에서 나온다고 주장했어."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "-th를 붙인 명사. growth·health·truth와 한 가족. 형용사는 wealthy.",
+    "new": "형용사는 wealthy. 애덤 스미스의 『국부론』은 영어로 The Wealth of Nations."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "There are many factories in this {{BLANK}} area.",
+    "new": "By 1850, Britain was the world's leading {{BLANK}} power."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 공업 지역엔 공장이 많아.",
+    "new": "1850년에 이르러 영국은 세계를 이끄는 공업 강국이 되어 있었어."
+   }
+  ],
+  "pipeline/out/set16.json": [
+   {
+    "path": [
+     9,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Old trains burned {{BLANK}} for power.",
+    "new": "{{BLANK}} fueled the steam engines of Britain's Industrial Revolution."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "옛날 기차는 석탄을 때서 달렸어.",
+    "new": "영국 산업혁명의 증기기관은 석탄을 연료로 움직였어."
+   }
+  ],
+  "pipeline/out/set18.json": [
+   {
+    "path": [
+     3,
+     "words",
+     13,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This shirt is made of pure {{BLANK}}.",
+    "new": "{{BLANK}} mills led Britain's Industrial Revolution in the late 1700s."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     13,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 셔츠 순면이야.",
+    "new": "1700년대 후반 영국의 산업혁명은 면직 공장이 이끌었어."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "They want {{BLANK}} between men and women.",
+    "new": "The French Revolution spread ideas of liberty and {{BLANK}} in Europe."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 사람들은 남녀평등을 원해.",
+    "new": "프랑스 혁명은 자유와 평등이라는 이념을 유럽에 퍼뜨렸어."
+   }
+  ],
+  "pipeline/out/set19.json": [
+   {
+    "path": [
+     0,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Hot {{BLANK}} rose from the soup.",
+    "new": "From the 1780s, {{BLANK}} engines let factories be built far from rivers."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "국에서 뜨거운 김이 피어올랐어.",
+    "new": "1780년대부터 증기기관 덕분에 강에서 멀리 떨어진 곳에도 공장을 지을 수 있게 됐어."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "물이 끓을 때 나는 김·증기. steam train은 증기 기관차.",
+    "new": "물이 끓을 때 나는 김·증기. steam engine은 증기기관, steam train은 증기 기관차."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "They built a {{BLANK}} across the desert.",
+    "new": "In 1825, the first public {{BLANK}} with steam trains opened in England."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "사막을 가로질러 철도를 놓았어.",
+    "new": "1825년 증기 기관차가 달리는 첫 공공 철도가 잉글랜드에서 문을 열었어."
+   }
+  ],
+  "pipeline/out/set22.json": [
+   {
+    "path": [
+     2,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "We use the {{BLANK}} system in science class.",
+    "new": "Revolutionary France created the {{BLANK}} system in the 1790s."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리는 과학 시간에 미터법을 써.",
+    "new": "혁명기의 프랑스는 1790년대에 미터법을 만들었어."
+   }
+  ],
+  "pipeline/out/set23.json": [
+   {
+    "path": [
+     0,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "My uncle married an {{BLANK}} teacher last year.",
+    "new": "The {{BLANK}} Revolution, which began in 1775, influenced the French one."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 삼촌은 작년에 미국인 선생님과 결혼했어.",
+    "new": "1775년에 시작된 미국 혁명은 프랑스 혁명에 영향을 주었어."
+   }
+  ],
+  "pipeline/out/set24.json": [
+   {
+    "path": [
+     4,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "We bought some {{BLANK}} cheese.",
+    "new": "In 1791, slaves rose up in Haiti, then a {{BLANK}} colony."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리는 프랑스 치즈를 좀 샀어.",
+    "new": "1791년, 당시 프랑스 식민지였던 아이티에서 노예들이 들고일어났어."
+   }
+  ],
+  "pipeline/out/set25.json": [
+   {
+    "path": [
+     4,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The phone started a {{BLANK}} in how we talk.",
+    "new": "In 1848, {{BLANK}}s broke out across Europe, from Paris to Vienna."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "휴대폰은 우리가 대화하는 방식에 혁명을 일으켰어.",
+    "new": "1848년에는 파리에서 빈까지 유럽 곳곳에서 혁명이 일어났어."
+   }
+  ],
+  "pipeline/out/set27.json": [
+   {
+    "path": [
+     0,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Moving out gave me a real sense of {{BLANK}}.",
+    "new": "In 1783, Britain recognized the {{BLANK}} of the United States."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "따로 나와 사니까 진짜 자립했다는 기분이 들었어.",
+    "new": "1783년 영국은 미국의 독립을 인정했어."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "My mom is a {{BLANK}} mother with two jobs.",
+    "new": "In the 1800s, factories created a new {{BLANK}} class that lived on wages."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 엄마는 일자리가 두 개인 워킹맘이야.",
+    "new": "1800년대에 공장은 임금으로 살아가는 새로운 노동 계급을 만들어 냈어."
+   }
+  ],
+  "pipeline/out/set29.json": [
+   {
+    "path": [
+     3,
+     "words",
+     14,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The king {{BLANK}}d two of his own men.",
+    "new": "In 1793, King Louis XVI of France was {{BLANK}}d in Paris."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     14,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 왕은 자기 부하 두 명을 처형했어.",
+    "new": "1793년 프랑스의 왕 루이 16세가 파리에서 처형됐어."
+   }
+  ],
+  "pipeline/out/set31.json": [
+   {
+    "path": [
+     7,
+     "words",
+     12,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The war finally ended {{BLANK}} in that country.",
+    "new": "In 1865, after its Civil War, the United States ended {{BLANK}}."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 전쟁이 마침내 그 나라의 노예제를 끝냈어.",
+    "new": "1865년 남북전쟁을 치른 뒤 미국은 노예제를 끝냈어."
+   }
+  ],
+  "pipeline/out/set34.json": [
+   {
+    "path": [
+     2,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This shop {{BLANK}}s in old comic books.",
+    "new": "In 1817, Ricardo showed how countries gain if they {{BLANK}} and trade."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 가게는 오래된 만화책을 전문으로 다뤄.",
+    "new": "1817년 리카도는 나라들이 저마다 전문화해서 교역하면 어떻게 이득을 보는지 보여 줬어."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "전문 분야를 말할 때 specialize in+(명사): specialize in music(음악을 전공하다).",
+    "new": "specialize in+(명사): specialize in music(음악을 전공하다). 경제학에서는 '특화하다'."
+   }
+  ],
+  "pipeline/out/set35.json": [
+   {
+    "path": [
+     0,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} lived in a huge stone palace.",
+    "new": "In 1804, Napoleon made himself {{BLANK}} of the French."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 황제는 거대한 돌 궁전에서 살았어.",
+    "new": "1804년 나폴레옹은 스스로 프랑스인의 황제가 되었어."
+   }
+  ],
+  "pipeline/out/set36.json": [
+   {
+    "path": [
+     9,
+     "words",
+     9,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The army had to {{BLANK}} across the river.",
+    "new": "In 1812, Napoleon's army had to {{BLANK}} from Moscow as winter came."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "군대는 강을 건너 후퇴해야 했어.",
+    "new": "1812년 나폴레옹의 군대는 겨울이 닥쳐오자 모스크바에서 후퇴해야 했어."
+   }
+  ],
+  "pipeline/out/set43.json": [
+   {
+    "path": [
+     4,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Many countries chose to {{BLANK}} slavery.",
+    "new": "In 1833, Britain {{BLANK}}ed slavery in most of its empire."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "많은 나라가 노예제를 폐지하기로 했어.",
+    "new": "1833년 영국은 제국 대부분에서 노예제를 폐지했어."
+   }
+  ],
+  "pipeline/out/set44.json": [
+   {
+    "path": [
+     2,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The old woman made cloth on a {{BLANK}}.",
+    "new": "In the 1800s, power {{BLANK}}s took work from people who made cloth by hand."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 할머니는 베틀로 천을 짰어.",
+    "new": "1800년대에 동력 직기는 손으로 천을 짜던 사람들의 일거리를 빼앗았어."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "실로 천을 짜는 기계. 동사 뜻과는 뿌리가 다르다.",
+    "new": "실로 천을 짜는 기계. power loom은 동력 직기(역직기). 동사 뜻과는 뿌리가 다르다."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson03.json": [],
+  "pipeline/out/lesson04.json": [],
+  "pipeline/out/set06.json": [],
+  "pipeline/out/set08.json": [],
+  "pipeline/out/set10.json": [],
+  "pipeline/out/set14.json": [],
+  "pipeline/out/set16.json": [],
+  "pipeline/out/set18.json": [],
+  "pipeline/out/set19.json": [],
+  "pipeline/out/set22.json": [],
+  "pipeline/out/set23.json": [],
+  "pipeline/out/set24.json": [],
+  "pipeline/out/set25.json": [],
+  "pipeline/out/set27.json": [],
+  "pipeline/out/set29.json": [],
+  "pipeline/out/set31.json": [],
+  "pipeline/out/set34.json": [],
+  "pipeline/out/set35.json": [],
+  "pipeline/out/set36.json": [],
+  "pipeline/out/set43.json": [],
+  "pipeline/out/set44.json": []
+ }
+}

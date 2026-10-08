@@ -1,0 +1,228 @@
+{
+ "batch": 5,
+ "date": "2026-10-08",
+ "status": "applied",
+ "note": "6장 시민혁명(W22~24)·7장 산업혁명과 근대 사회(W25~28). 미국 혁명은 세금(1760년대)→혁명 시작(1775, 프랑스에 영향)→독립 인정(1783)으로 july(1776)와 겹치지 않게 나눴다. 프랑스 혁명은 이미 1789년을 맡은 august·fourteenth·political을 두고, 새 카드는 다른 사실로 썼다: 이념의 확산(equality), 미터법(metric), 혁명기 아이티 노예 봉기 1791(French, 세계 연결), 1793 처형(execute), 1848 유럽 혁명(revolution 25세트, MAP의 '같은 사실'을 피해 각도를 바꿈). lead의 워털루는 빼고 볼리바르의 남아메리카 독립(1825까지)으로 옮겼다. 축은 '이끌다'이고, 나폴레옹의 스페인 점령 뒤 이어진 흐름이라 W24에 두었다. 산업혁명은 kept 4장(eighteenth·produce·train·manufacturing)과 겹치지 않게 썼다: 면직 공장, 석탄 연료, 증기기관으로 강에서 떨어진 곳에도 공장, 1825 첫 공공 철도, 1850 최대 공업국, 동력 직기와 손 직조공. growth는 city와 겹쳐서 1800년대 이후 경제 성장으로 바꾸고 W25에 두었다. 경제학은 스미스 1776의 서로 다른 세 주장(자유 시장·분업·부의 원천)과 리카도 1817(specialize)로 나눴다. American·French 빈칸은 'the ___ Revolution' 안에 있지만, 원래 대문자인 표제어라 2-7 예외에 든다(BRIEF 5). 측정 26장 모두 OK, !!어휘 0. 360px 문장도 모두 3줄 이하다. 검수(Claude): French는 빈칸이 축이 되게 \"당시 프랑스 식민지였던 아이티\"로 바꿨다. 애덤 스미스 1776은 market 한 장에만 연도를 두고 labor·wealth는 연도 없이 다른 각도로 썼다.",
+ "kept": {
+  "july": "이미 지식 예문(1776년 7월 4일 독립선언). 미국 혁명의 다른 카드는 1760년대·1775·1783로 나눴다",
+  "august": "이미 지식 예문(1789년 8월 인권선언)",
+  "fourteenth": "이미 지식 예문(1789년 7월 14일 바스티유)",
+  "political": "이미 지식 예문(1789년 혁명이 정치 제도를 바꿈). 이 사실이 있어 French·revolution에서는 1789년을 다시 쓰지 않았다",
+  "eighteenth": "이미 지식 예문(18세기 영국에서 산업혁명 시작). industrial은 '1850년 세계 최대 공업국'으로 각도를 달리함",
+  "produce": "이미 지식 예문(1700년대 영국 공장의 기계 생산)",
+  "train": "이미 지식 예문(19세기 증기 기차). railway는 1825년 첫 공공 철도로 다른 사실을 맡음",
+  "manufacturing": "이미 지식 예문(증기기관이 제조업을 바꿈). steam은 '강에서 먼 곳에도 공장'으로 각도를 달리함",
+  "worker": "이미 지식 예문(1800년대 영국 공장의 아동 노동)",
+  "city": "이미 지식 예문(1800년대 영국, 일자리 찾아 도시로). 그래서 growth는 도시 성장 대신 경제 성장으로 옮김"
+ },
+ "new_word_proposals": [
+  {
+   "word": "invisible",
+   "why": "스미스의 '보이지 않는 손(invisible hand)'은 시장을 설명할 때 교과서가 그대로 쓰는 표현이다. 지금은 'self-interest can benefit all'로 풀어 썼다",
+   "sentence": "In 1776, Adam Smith said an 'invisible hand' guides a free {{BLANK}}. (market ②, 측정 OK 3/3, invisible만 어휘 밖)"
+  },
+  {
+   "word": "crown",
+   "why": "1804년 나폴레옹이 스스로 관을 쓴 장면이 핵심인데, crown/crowned가 표제어 밖이라 'made himself'로 썼다. crown(왕관·즉위시키다)은 기본어이기도 하다",
+   "sentence": "In 1804, Napoleon crowned himself {{BLANK}} of the French. (emperor, 측정 OK 3/3, crowned만 어휘 밖)"
+  },
+  {
+   "word": "inspire",
+   "why": "혁명이 다른 혁명에 '영감을 주다'는 역사 예문에 자주 필요하다. 지금은 influenced로 썼다(뜻은 맞음)",
+   "sentence": "The {{BLANK}} Revolution, which began in 1775, inspired the French one. (American, 측정 OK 3/4, inspired만 어휘 밖)"
+  }
+ ],
+ "cards": [
+  {
+   "node": "W22 미국 독립혁명",
+   "word": "tax",
+   "old_ex": "There's a 10% {{BLANK}} on this.",
+   "ex": "In the 1760s, Americans opposed British {{BLANK}}es they had no vote on.",
+   "tr": "1760년대에 아메리카 식민지 사람들은 자기들이 표결에 참여하지 못한 영국의 세금에 반대했어.",
+   "c": "pay tax는 세금을 내다. No taxation without representation=대표 없이 과세 없다."
+  },
+  {
+   "node": "W22 미국 독립혁명",
+   "word": "American",
+   "old_ex": "My uncle married an {{BLANK}} teacher last year.",
+   "ex": "The {{BLANK}} Revolution, which began in 1775, influenced the French one.",
+   "tr": "1775년에 시작된 미국 혁명은 프랑스 혁명에 영향을 주었어."
+  },
+  {
+   "node": "W22 미국 독립혁명",
+   "word": "independence",
+   "old_ex": "Moving out gave me a real sense of {{BLANK}}.",
+   "ex": "In 1783, Britain recognized the {{BLANK}} of the United States.",
+   "tr": "1783년 영국은 미국의 독립을 인정했어."
+  },
+  {
+   "node": "W23 프랑스 혁명",
+   "word": "equality",
+   "old_ex": "They want {{BLANK}} between men and women.",
+   "ex": "The French Revolution spread ideas of liberty and {{BLANK}} in Europe.",
+   "tr": "프랑스 혁명은 자유와 평등이라는 이념을 유럽에 퍼뜨렸어."
+  },
+  {
+   "node": "W23 프랑스 혁명",
+   "word": "metric",
+   "old_ex": "We use the {{BLANK}} system in science class.",
+   "ex": "Revolutionary France created the {{BLANK}} system in the 1790s.",
+   "tr": "혁명기의 프랑스는 1790년대에 미터법을 만들었어."
+  },
+  {
+   "node": "W23 프랑스 혁명",
+   "word": "French",
+   "old_ex": "We bought some {{BLANK}} cheese.",
+   "ex": "In 1791, slaves rose up in Haiti, then a {{BLANK}} colony.",
+   "tr": "1791년, 당시 프랑스 식민지였던 아이티에서 노예들이 들고일어났어."
+  },
+  {
+   "node": "W23 프랑스 혁명",
+   "word": "revolution",
+   "old_ex": "The phone started a {{BLANK}} in how we talk.",
+   "ex": "In 1848, {{BLANK}}s broke out across Europe, from Paris to Vienna.",
+   "tr": "1848년에는 파리에서 빈까지 유럽 곳곳에서 혁명이 일어났어."
+  },
+  {
+   "node": "W23 프랑스 혁명",
+   "word": "execute",
+   "old_ex": "The king {{BLANK}}d two of his own men.",
+   "ex": "In 1793, King Louis XVI of France was {{BLANK}}d in Paris.",
+   "tr": "1793년 프랑스의 왕 루이 16세가 파리에서 처형됐어."
+  },
+  {
+   "node": "W24 나폴레옹",
+   "word": "lead",
+   "old_ex": "Napoleon failed to {{BLANK}} his army to victory at Waterloo in 1815.",
+   "ex": "By 1825, Simon Bolivar had helped {{BLANK}} much of South America to freedom.",
+   "tr": "1825년까지 시몬 볼리바르는 남아메리카의 많은 지역이 자유를 얻도록 앞장서 이끌었어."
+  },
+  {
+   "node": "W24 나폴레옹",
+   "word": "emperor",
+   "old_ex": "The {{BLANK}} lived in a huge stone palace.",
+   "ex": "In 1804, Napoleon made himself {{BLANK}} of the French.",
+   "tr": "1804년 나폴레옹은 스스로 프랑스인의 황제가 되었어."
+  },
+  {
+   "node": "W24 나폴레옹",
+   "word": "retreat",
+   "old_ex": "The army had to {{BLANK}} across the river.",
+   "ex": "In 1812, Napoleon's army had to {{BLANK}} from Moscow as winter came.",
+   "tr": "1812년 나폴레옹의 군대는 겨울이 닥쳐오자 모스크바에서 후퇴해야 했어."
+  },
+  {
+   "node": "W25 산업혁명",
+   "word": "industrial",
+   "old_ex": "There are many factories in this {{BLANK}} area.",
+   "ex": "By 1850, Britain was the world's leading {{BLANK}} power.",
+   "tr": "1850년에 이르러 영국은 세계를 이끄는 공업 강국이 되어 있었어."
+  },
+  {
+   "node": "W25 산업혁명",
+   "word": "coal",
+   "old_ex": "Old trains burned {{BLANK}} for power.",
+   "ex": "{{BLANK}} fueled the steam engines of Britain's Industrial Revolution.",
+   "tr": "영국 산업혁명의 증기기관은 석탄을 연료로 움직였어."
+  },
+  {
+   "node": "W25 산업혁명",
+   "word": "cotton",
+   "old_ex": "This shirt is made of pure {{BLANK}}.",
+   "ex": "{{BLANK}} mills led Britain's Industrial Revolution in the late 1700s.",
+   "tr": "1700년대 후반 영국의 산업혁명은 면직 공장이 이끌었어."
+  },
+  {
+   "node": "W25 산업혁명",
+   "word": "railway",
+   "old_ex": "They built a {{BLANK}} across the desert.",
+   "ex": "In 1825, the first public {{BLANK}} with steam trains opened in England.",
+   "tr": "1825년 증기 기관차가 달리는 첫 공공 철도가 잉글랜드에서 문을 열었어."
+  },
+  {
+   "node": "W25 산업혁명",
+   "word": "steam",
+   "old_ex": "Hot {{BLANK}} rose from the soup.",
+   "ex": "From the 1780s, {{BLANK}} engines let factories be built far from rivers.",
+   "tr": "1780년대부터 증기기관 덕분에 강에서 멀리 떨어진 곳에도 공장을 지을 수 있게 됐어.",
+   "c": "물이 끓을 때 나는 김·증기. steam engine은 증기기관, steam train은 증기 기관차."
+  },
+  {
+   "node": "W25 산업혁명",
+   "word": "loom",
+   "old_ex": "The old woman made cloth on a {{BLANK}}.",
+   "ex": "In the 1800s, power {{BLANK}}s took work from people who made cloth by hand.",
+   "tr": "1800년대에 동력 직기는 손으로 천을 짜던 사람들의 일거리를 빼앗았어.",
+   "c": "실로 천을 짜는 기계. power loom은 동력 직기(역직기). 동사 뜻과는 뿌리가 다르다."
+  },
+  {
+   "node": "W25 산업혁명",
+   "word": "growth",
+   "old_ex": "The city's {{BLANK}} was very fast.",
+   "ex": "Since the 1800s, economic {{BLANK}} has made the average person far richer.",
+   "tr": "1800년대 이후 경제 성장은 평균적인 사람을 훨씬 더 부유하게 만들었어.",
+   "c": "grow(자라다)+th=명사. economic growth는 경제 성장. health·truth도 같은 -th 가족."
+  },
+  {
+   "node": "W26 도시와 노동",
+   "word": "union",
+   "old_ex": "They formed a {{BLANK}} at the factory.",
+   "ex": "In 1824, Britain made it legal for workers to form {{BLANK}}s.",
+   "tr": "1824년 영국은 노동자가 노동조합을 만드는 것을 합법화했어.",
+   "c": "uni(하나)로 뭉친 단체. trade union은 노동조합. the European Union(EU)의 U도 이것."
+  },
+  {
+   "node": "W26 도시와 노동",
+   "word": "working",
+   "old_ex": "My mom is a {{BLANK}} mother with two jobs.",
+   "ex": "In the 1800s, factories created a new {{BLANK}} class that lived on wages.",
+   "tr": "1800년대에 공장은 임금으로 살아가는 새로운 노동 계급을 만들어 냈어."
+  },
+  {
+   "node": "W27 경제학의 탄생",
+   "word": "market",
+   "old_ex": "The job {{BLANK}} is really hard right now.",
+   "ex": "In 1776, Adam Smith said that in a free {{BLANK}}, self-interest can benefit all.",
+   "tr": "1776년 애덤 스미스는 자유 시장에서는 저마다의 이익 추구가 모두에게 이로울 수 있다고 했어.",
+   "c": "free market(자유 시장), job market(취업 시장), stock market(주식 시장)."
+  },
+  {
+   "node": "W27 경제학의 탄생",
+   "word": "labor",
+   "old_ex": "The work needs years of hard {{BLANK}}.",
+   "ex": "Adam Smith explained the division of {{BLANK}} with a pin factory.",
+   "tr": "애덤 스미스는 핀 공장을 예로 들어 분업을 설명했어.",
+   "c": "division of labor는 분업, manual labor는 육체노동. 영국 철자는 labour."
+  },
+  {
+   "node": "W27 경제학의 탄생",
+   "word": "wealth",
+   "old_ex": "Good health is worth more than {{BLANK}}.",
+   "ex": "Adam Smith argued that a nation's {{BLANK}} comes from work, not gold.",
+   "tr": "애덤 스미스는 나라의 부가 금이 아니라 노동에서 나온다고 주장했어.",
+   "c": "형용사는 wealthy. 애덤 스미스의 『국부론』은 영어로 The Wealth of Nations."
+  },
+  {
+   "node": "W27 경제학의 탄생",
+   "word": "specialize",
+   "old_ex": "This shop {{BLANK}}s in old comic books.",
+   "ex": "In 1817, Ricardo showed how countries gain if they {{BLANK}} and trade.",
+   "tr": "1817년 리카도는 나라들이 저마다 전문화해서 교역하면 어떻게 이득을 보는지 보여 줬어.",
+   "c": "specialize in+(명사): specialize in music(음악을 전공하다). 경제학에서는 '특화하다'."
+  },
+  {
+   "node": "W28 노예제 폐지",
+   "word": "slavery",
+   "old_ex": "The war finally ended {{BLANK}} in that country.",
+   "ex": "In 1865, after its Civil War, the United States ended {{BLANK}}.",
+   "tr": "1865년 남북전쟁을 치른 뒤 미국은 노예제를 끝냈어."
+  },
+  {
+   "node": "W28 노예제 폐지",
+   "word": "abolish",
+   "old_ex": "Many countries chose to {{BLANK}} slavery.",
+   "ex": "In 1833, Britain {{BLANK}}ed slavery in most of its empire.",
+   "tr": "1833년 영국은 제국 대부분에서 노예제를 폐지했어."
+  }
+ ]
+}
