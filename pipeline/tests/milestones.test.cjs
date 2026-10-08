@@ -82,6 +82,8 @@ let progressAt2500=null;
   const h=harness(path.join(root,'vocagoyangfable.html'));
   assert.doesNotThrow(()=>h.ctx.msShow({m:3000,total:3012,retro:false,words:['apple']}));
   assert(h.doc.body.children.some(c=>c.id==='msFx'));
+  const fx=h.doc.body.children.find(c=>c.id==='msFx'),poem=fx.children.find(c=>c.className==='ms-inner').children.find(c=>/ms-poem/.test(c.className));
+  assert(poem&&poem.children.slice(0,5).map(c=>c.textContent).join(' ').includes('you came to me'),'동작 줄이기에서도 「꽃」 패러디는 다 보인다');
   h.ctx.msClose();assert(!h.doc.body.children.some(c=>c.id==='msFx'));assert.equal(h.run('msBusy'),false);
   h.ctx.localStorage.setItem=()=>{throw Error('blocked');};clearAll(h);
   assert.doesNotThrow(()=>h.ctx.msAfterClear(0));
@@ -95,7 +97,8 @@ let progressAt2500=null;
   assert(!h.storage.has(SEEN));
   h.run("location.hash='#milestone=1000&fx=warp'");h.ctx.msPreview();h.advance(700);
   assert.deepEqual(shows.map(s=>s.mode),[undefined,'warp'],'&fx=warp로 다가오는 단어(B) 후보를 미리 본다');
-  assert.equal(h.run('msMode'),'rain','정식 축하는 아직 A(대각선 유성우)');
+  assert.equal(h.run('msMode'),'flower','정식 축하는 C(다가오는 단어 + 「꽃」 + 장미)');
+  assert.equal(h.run('msPoem').at(-1),'and became a flower.');
 }
 
 // 9) 문턱이 높을수록 유성우가 길고 연출이 화려하다(영신: "갈수록 더 길게", "1000개나 외웠는데 좀 길어도").
