@@ -163,6 +163,15 @@ body.playing .app{gap:8px;padding:max(6px,env(safe-area-inset-top)) 6px max(8px,
 .exbtn .done{color:var(--gold);font-weight:800;}
 .exbtn.cleared{border-color:var(--gold2);}
 .exbtn.cleared::after{content:"★";color:var(--gold);position:absolute;}
+/* 연습·세트 타일(26.10.08 영신 제보, iPhone Safari 화면):
+   - Safari는 keep-all에서 "백·천·백만"처럼 가운뎃점으로 이은 한국어를 한 덩어리로 보고 끊지 않는다. 그 폭이 1fr 칸의 최소 폭이 되어 왼쪽 칸만 넓어졌다. → 두 칸을 내용과 상관없이 같은 폭으로.
+   - 별이 제목 첫 글자(E)를 덮었다(위치 없는 absolute). → 별을 제목 앞 글자로.
+   - 구분점 " · "이 혼자 한 줄을 차지했다. → tileTitleHtml()에서 앞말에 붙이고, 낱말 사이 "·" 뒤에서는 줄을 바꿀 수 있게 한다. */
+body .grid,body .exgrid{grid-template-columns:repeat(2,minmax(0,1fr));}
+.lessonbtn .t,.exbtn .t{overflow-wrap:anywhere;}
+.exbtn.cleared::after{content:none;}
+.exbtn.cleared .t::before{content:"★";color:var(--gold);margin-right:.3em;}
+.exbtn .t .nb{white-space:nowrap;}
 
 /* ---------- game ---------- */
 .gtop{display:grid;gap:8px;padding:9px 12px;}
@@ -1340,8 +1349,12 @@ body.playing .appbar{display:flex;padding:0 5px;}
 <style id="saved-cards-style">
 /* Personal collection controls reuse the existing purple panels and text tones. */
 #catSubmit{position:relative;}
-#catSubmit::after{content:'☆';position:absolute;right:-3px;bottom:-1px;font-size:16px;line-height:1;color:var(--muted,#c4b8cf);text-shadow:0 1px 2px #20102c;pointer-events:none;}
-#catSubmit[aria-pressed="true"]::after{content:'★';color:var(--gold,#ffd54f);}
+/* 담김 표시(26.10.08 영신): 별이 고양이 장식과 겹쳐 보기 나빴다. 담기 전에는 아무것도 띄우지 않고,
+   담은 뒤에만 고양이 왼쪽에 하트를 띄운다. 상태는 aria-pressed·레이블로도 알린다. */
+#catSubmit::after{content:none;}
+#catSubmit[aria-pressed="true"]::after{content:'♥';position:absolute;right:100%;bottom:3px;margin-right:5px;font-size:17px;line-height:1;color:var(--pink,#ff4fa3);pointer-events:none;}
+/* 하트 자리만큼 말풍선·시간 막대와 고양이 사이를 벌린다. 하트는 아래쪽에 두어 가운데 높이의 말풍선 꼬리를 피한다. */
+.trow:has(#catSubmit[aria-pressed="true"]){gap:30px;}
 #catSubmit:focus-visible{outline:2px solid var(--gold,#ffd54f);outline-offset:3px;border-radius:8px;}
 .saved-home{border-color:var(--line);}
 .saved-home .lid{color:var(--text,#fff);}
@@ -2175,6 +2188,10 @@ function openLesson(i){
   $("#lessonMeta").textContent=`${ev.length}개 연습 · ${ev.reduce((a,e)=>a+e.words.length,0)}개 단어`;
   renderExList();show("lesson");
 }
+/* 타일 제목 줄바꿈: 구분점 " · "은 앞말에 붙여 점이 혼자 줄을 차지하지 않게 하고,
+   "백·천·백만"처럼 낱말 사이 "·" 뒤에서는 줄을 바꿀 수 있게 한다(Safari는 keep-all에서 여기서 끊지 않는다).
+   1-1·201~210 같은 번호는 "1-"/"1"로 쪼개지지 않게 묶고, 끝의 짧은 번호("순서·날짜 1"의 1)는 앞말에 붙인다. 26.10.08 */
+function tileTitleHtml(t){return esc(t).replace(/\d+(?:[-~]\d+)+/g,'<span class="nb">$&</span>').replace(/ · /g,"\u00a0· ").replace(/·(?=\S)/g,"·<wbr>").replace(/ (\S{1,2})$/,"\u00a0$1");}
 function renderExList(){
   if(typeof savedRenderList==="function"&&savedRenderList())return;
   const L=activeLesson();const ev=visEx(L);const list=$("#exList");list.innerHTML="";
@@ -2182,7 +2199,7 @@ function renderExList(){
     const rec=getRec(L.id,ex.title);
     const b=document.createElement("button");b.className="exbtn"+(rec?.completed?" cleared":"");b.type="button";
     b.style.position="relative";
-    b.innerHTML=`<span class="t" style="font-size:1.02rem;">${esc(ex.title)}</span>
+    b.innerHTML=`<span class="t" style="font-size:1.02rem;">${tileTitleHtml(ex.title)}</span>
       <span class="meta"><span>${ex.words.length}개</span><span class="${rec?'done':''}">${rec?.completed?"클리어":"미클리어"}</span></span>`;
     b.onclick=()=>startExercise(i);list.appendChild(b);
   });
@@ -3935,7 +3952,7 @@ function savedRenderHome(){
   savedRenderSearch();
   const b=document.createElement('button');b.type='button';b.className='lessonbtn saved-home';
   const count=savedItems().length;
-  b.innerHTML='<span class="lh"><b class="lid">★ 모아둔 카드</b></span>';
+  b.innerHTML='<span class="lh"><b class="lid">♥ 모아둔 카드</b></span>'; // 담김 표시는 하트(★은 클리어 표시와 겹친다). 26.10.08
   const meta=document.createElement('span');meta.className='lmeta';meta.textContent=count+'카드 · 다시 학습';b.appendChild(meta);savedSearchUI.homeCount=meta;
   b.onclick=savedOpen;$('#lessonGrid').appendChild(b);
 }
@@ -3972,7 +3989,7 @@ function savedSearchRefresh(){
   if(ui.homeCount)ui.homeCount.textContent=count+'카드 · 다시 학습';
   ui.collection.textContent='모아둔 카드 · '+count;
   for(const {item,button} of ui.buttons){
-    const on=savedHas(item.id);button.textContent=on?'★ 담김':'☆ 담기';
+    const on=savedHas(item.id);button.textContent=on?'♥ 담김':'담기';
     button.setAttribute('aria-pressed',String(on));button.setAttribute('aria-label',item.word.term+(on?' 카드 빼기':' 카드 담기'));
   }
 }

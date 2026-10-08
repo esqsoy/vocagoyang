@@ -1,0 +1,270 @@
+{
+ "date": "2026-10-08",
+ "name": "academic-terms",
+ "status": "applied_locally_verified",
+ "authorization": "26.10.08 영신: anthropology·geography 예문을 예문만으로 정의가 완결되게.",
+ "summary": "48세트 anthropology·geography의 ex·tr·c를 정의가 예문 안에서 완결되도록 바꿨다(형태론 10단어 규칙 안).",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "fcb5e2aa5df98201cb96963ba416e517e9c74b41a810f02e5f28714fd7bd4b5c",
+   "afterHash": "080446be261340a75965a740cc1ac8f1959608b0b6d2df407e1ab9be92dfe85d",
+   "changes": [
+    {
+     "path": [
+      48,
+      "exercises",
+      16,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "{{BLANK}} studies human societies and cultures.",
+     "new": "{{BLANK}} studies humans as a whole, from bodies to cultures."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      16,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "인류학은 인간의 사회와 문화를 연구해.",
+     "new": "인류학은 몸에서 문화까지, 인간을 전체로 연구해."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      16,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그리스어 ἄνθρωπος(anthrōpos, 인간)와 -logy(학문). 생물학적 인간 연구도 포함해.",
+     "new": "그리스어 ἄνθρωπος(anthrōpos, 인간)와 -logy(학문). 언어와 먼 과거(고고학)도 다뤄."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      18,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In {{BLANK}}, we study regions and their people.",
+     "new": "{{BLANK}} studies land, climate, people, and how they interact."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      18,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "지리에서는 지역과 그곳의 사람들을 공부해.",
+     "new": "지리학은 땅과 기후, 사람, 그리고 이들 사이의 상호 작용을 연구해."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      18,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그리스어 γῆ(gē, 땅)→geo-. 지리학은 자연환경뿐 아니라 사람과 지역도 다뤄.",
+     "new": "그리스어 γῆ(gē, 땅)+-graphy(기록). 땅을 기록·서술하는 학문에서 출발했어."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/set48.json": {
+   "beforeHash": "85099967b442eaf16842124d7ccd6eae66898eb36ba556510134f718b073bf85",
+   "afterHash": "b91b96251aafb07280635ef167c21407a01c9245970867be43c20f16aec4b89c"
+  },
+  "pipeline/morphology.json": {
+   "beforeHash": "3b1c1e2beed5b4bad219ff92c568aa09d2494beda38269c09496e3701e1a6b07",
+   "afterHash": "8065c5b454d1a3e66aed21188f10b1a40967eadf8dfc9e366d9896635f987a62"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/set48.json": [
+   {
+    "path": [
+     16,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "{{BLANK}} studies human societies and cultures.",
+    "new": "{{BLANK}} studies humans as a whole, from bodies to cultures."
+   },
+   {
+    "path": [
+     16,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "인류학은 인간의 사회와 문화를 연구해.",
+    "new": "인류학은 몸에서 문화까지, 인간을 전체로 연구해."
+   },
+   {
+    "path": [
+     16,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그리스어 ἄνθρωπος(anthrōpos, 인간)와 -logy(학문). 생물학적 인간 연구도 포함해.",
+    "new": "그리스어 ἄνθρωπος(anthrōpos, 인간)와 -logy(학문). 언어와 먼 과거(고고학)도 다뤄."
+   },
+   {
+    "path": [
+     18,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In {{BLANK}}, we study regions and their people.",
+    "new": "{{BLANK}} studies land, climate, people, and how they interact."
+   },
+   {
+    "path": [
+     18,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "지리에서는 지역과 그곳의 사람들을 공부해.",
+    "new": "지리학은 땅과 기후, 사람, 그리고 이들 사이의 상호 작용을 연구해."
+   },
+   {
+    "path": [
+     18,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그리스어 γῆ(gē, 땅)→geo-. 지리학은 자연환경뿐 아니라 사람과 지역도 다뤄.",
+    "new": "그리스어 γῆ(gē, 땅)+-graphy(기록). 땅을 기록·서술하는 학문에서 출발했어."
+   }
+  ],
+  "pipeline/morphology.json": [
+   {
+    "path": [
+     "units",
+     73,
+     "cards",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In {{BLANK}}, we study regions and their people.",
+    "new": "{{BLANK}} studies land, climate, people, and how they interact."
+   },
+   {
+    "path": [
+     "units",
+     73,
+     "cards",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "지리에서는 지역과 그곳의 사람들을 공부해.",
+    "new": "지리학은 땅과 기후, 사람, 그리고 이들 사이의 상호 작용을 연구해."
+   },
+   {
+    "path": [
+     "units",
+     73,
+     "cards",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그리스어 γῆ(gē, 땅)→geo-. 지리학은 자연환경뿐 아니라 사람과 지역도 다뤄.",
+    "new": "그리스어 γῆ(gē, 땅)+-graphy(기록). 땅을 기록·서술하는 학문에서 출발했어."
+   },
+   {
+    "path": [
+     "units",
+     81,
+     "cards",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "{{BLANK}} studies human societies and cultures.",
+    "new": "{{BLANK}} studies humans as a whole, from bodies to cultures."
+   },
+   {
+    "path": [
+     "units",
+     81,
+     "cards",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "인류학은 인간의 사회와 문화를 연구해.",
+    "new": "인류학은 몸에서 문화까지, 인간을 전체로 연구해."
+   },
+   {
+    "path": [
+     "units",
+     81,
+     "cards",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그리스어 ἄνθρωπος(anthrōpos, 인간)와 -logy(학문). 생물학적 인간 연구도 포함해.",
+    "new": "그리스어 ἄνθρωπος(anthrōpos, 인간)와 -logy(학문). 언어와 먼 과거(고고학)도 다뤄."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/set48.json": [],
+  "pipeline/morphology.json": []
+ }
+}

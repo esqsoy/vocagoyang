@@ -56,7 +56,7 @@ function savedRenderHome(){
   savedRenderSearch();
   const b=document.createElement('button');b.type='button';b.className='lessonbtn saved-home';
   const count=savedItems().length;
-  b.innerHTML='<span class="lh"><b class="lid">★ 모아둔 카드</b></span>';
+  b.innerHTML='<span class="lh"><b class="lid">♥ 모아둔 카드</b></span>'; // 담김 표시는 하트(★은 클리어 표시와 겹친다). 26.10.08
   const meta=document.createElement('span');meta.className='lmeta';meta.textContent=count+'카드 · 다시 학습';b.appendChild(meta);savedSearchUI.homeCount=meta;
   b.onclick=savedOpen;$('#lessonGrid').appendChild(b);
 }
@@ -93,7 +93,7 @@ function savedSearchRefresh(){
   if(ui.homeCount)ui.homeCount.textContent=count+'카드 · 다시 학습';
   ui.collection.textContent='모아둔 카드 · '+count;
   for(const {item,button} of ui.buttons){
-    const on=savedHas(item.id);button.textContent=on?'★ 담김':'☆ 담기';
+    const on=savedHas(item.id);button.textContent=on?'♥ 담김':'담기';
     button.setAttribute('aria-pressed',String(on));button.setAttribute('aria-label',item.word.term+(on?' 카드 빼기':' 카드 담기'));
   }
 }

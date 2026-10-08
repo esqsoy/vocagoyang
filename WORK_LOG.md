@@ -513,6 +513,26 @@
   - 실기기 Safari는 확인하지 않았다.
 - 상태: 영신 "진짜 훌륭하다! 배포갑시다!" → 0d2d1ab를 main에 fast-forward로 푸시했다. main의 네 HTML blob이 로컬 검증본과 같다. Pages 37742755620 completed/success. github.io 직접 확인은 이 세션에서 할 수 없다.
 
+## 2026-10-08 · 연습 타일 깨짐·담김 하트·anthropology·geography
+
+- 요청·결정(영신):
+  - iPhone 화면 캡처(0세트 목록)와 함께 "1,3세트 제안대로 갑시다".
+  - "예문만으로 정의가 완결되게 갑시다"(anthropology·geography).
+  - 게임 안 담김 별이 고양이 장식과 겹친다. 고양이 왼쪽으로 옮기고 하트로 바꾸고, 누르기 전에는 테두리 모양도 띄우지 않고 누른 뒤에만 하트를 띄우자.
+  - "country 제안 뭐였지?"
+- 반영:
+  - 세 HTML 공통 CSS·JS: 두 칸 `repeat(2,minmax(0,1fr))`, 타일 제목 `overflow-wrap:anywhere`. 클리어 별은 `::after` 대신 제목 앞 `::before`로 옮겼다. `tileTitleHtml()`은 세 가지를 한다: 구분점 " · "은 앞말에 붙인다. 낱말 사이 "·" 뒤에 `<wbr>`을 둔다. 번호(1-1, 201~210)와 끝 번호는 쪼개지지 않게 묶는다.
+  - `pipeline/saved-cards/style.css`·`runtime.js`: 담김 하트를 고양이 왼쪽 아래에 두었다. 하트가 있을 때만 `.trow` 간격을 30px로 벌려 말풍선 꼬리와 겹치지 않게 했다. 홈 '♥ 모아둔 카드', 검색 '담기/♥ 담김'.
+  - `pipeline/morphology.json`: anthropology "studies humans as a whole, from bodies to cultures.", geography "studies land, climate, people, and how they interact."이다. 형태론 10단어 검사에 한 번 걸려 줄였다. 원장은 `academic-terms.json`이다.
+  - 문서: PRINCIPLES 2-5·8, UI_STANDARD, saved-cards README, HANDOFF.
+- 검증:
+  - Chromium으로 393·360px 51세트 타일을 검사했다. 칸 너비 차이, 혼자 남은 구분점, 넘침이 모두 0이다. Safari가 "·"에서 끊지 않는 것을 흉내 낸 검사도 같다.
+  - 320px에서는 "1101~1110" 같은 번호가 Chromium 기본 글꼴에서 안쪽 여백을 2px쯤 넘는다(수정 전과 같다).
+  - 담김 하트: 문제 화면(담기 전 표시 없음 → 담은 뒤 ♥), 정답 공개 말풍선과의 간격(9px)을 캡처와 좌표로 확인했다.
+  - Codex 테스트 32/32. saved build --check 통과.
+  - 실기기 Safari는 확인하지 않았다(이 세션에 WebKit 없음).
+- 상태: 브랜치 커밋·푸시, main 미배포. country는 영신 선택 대기다.
+
 ## 다음 기록 형식
 
 
