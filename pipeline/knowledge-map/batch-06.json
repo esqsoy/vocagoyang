@@ -1,0 +1,292 @@
+{
+ "batch": 6,
+ "date": "2026-10-08",
+ "status": "applied",
+ "note": "8~10장(민족주의·제국주의·세계대전·전후). 세계대전 카드는 기존 8장에서 end를 1960 아프리카 독립으로 옮기고 treaty(1919 베르사유)·jew(홀로코스트)만 더해 9장(1930년대 독재 dictator는 전쟁 전 사실로 따로 셈). 공산주의는 1848 마르크스(communist)→1917 러시아(russian)→1949 이후 세계 인구 3분의 1(communism)로 나선형을 만들고, 냉전 이념 대립은 ideological 하나에만 실었음. 인도는 1857·1930·1947 세 장으로 두고 indian은 둠. 대공황은 share(폭락)·unemployment(실업률)와 겹치지 않게 depression에 '세계로 번짐'만 실음.",
+ "kept": {
+  "nineteenth": "이미 지식 예문(19세기 후반 아프리카 분할). european은 겹치지 않게 유럽 이민(1815~1930)으로 씀.",
+  "november": "이미 지식 예문(1989년 11월 베를린 장벽). 지금 저장소 카드가 이미 바뀌어 있어 eleventh(1918.11.11)와 겹치지 않음.",
+  "eleventh": "이미 지식 예문(1918.11.11 휴전).",
+  "last": "이미 지식 예문(1차 대전 1914~1918).",
+  "twentieth": "이미 지식 예문(두 세계대전은 20세기).",
+  "tank": "세계대전 쏠림 방지(1916년 첫 실전은 무기 세부 사실). ①통·② 전차 카드 그대로.",
+  "precipitate": "세계대전 쏠림 방지. 1차 대전은 last·eleventh·treaty가 맡음.",
+  "share": "이미 지식 예문(③ 1929년 10월 주가 폭락). W34의 1929 폭락은 이 카드 하나만.",
+  "plunge": "1929 주가 폭락은 share ③이 맡음(같은 사실 하나만). unemployment(대공황 실업률 25%)와도 겹치지 않게 둠.",
+  "fifteenth": "이미 지식 예문(1945.8.15 일본 항복 발표). 같은 1945 종전을 담던 end를 1960 아프리카 독립으로 옮겨 겹침을 풂.",
+  "bomb": "이미 지식 예문(1945 원폭). 담담한 서술이라 둠. 다만 13세트 기본어에 원폭이 얹힌 카드라 영신 확인 권장.",
+  "occupation": "세계대전 쏠림 방지(파리 점령은 전쟁 세부). ① 직업 카드도 그대로.",
+  "propaganda": "세계대전 쏠림 방지. 1930년대 독재는 dictator가 맡음.",
+  "tribunal": "세계대전 쏠림 방지(뉘른베르크 재판은 전후 세부).",
+  "december": "이미 지식 예문(1948.12.10 세계인권선언). equal은 같은 선언의 제1조 문구로 각도를 달리함.",
+  "establish": "이미 지식 예문(1945 유엔 설립). charter는 설립이 아니라 헌장의 첫째 목표(평화)로 씀.",
+  "dignity": "이미 지식 예문(존엄하게 살 권리).",
+  "division": "냉전 쏠림 방지(냉전 카드가 november·arms·soviet·alliance·ideological·communism으로 이미 여럿). 독일 분단은 november(베를린 장벽)와 가깝고, ① 나눗셈 뜻을 남김.",
+  "separate": "이미 지식 예문(1947 인도·파키스탄 분리).",
+  "indian": "인도 쏠림 방지(인도는 rebellion 1857·march 1930·separate 1947이 맡음). 생활 예문 유지.",
+  "create": "이미 지식 예문(1989 월드와이드웹).",
+  "internet": "이미 지식 예문.",
+  "land": "이미 지식 예문(1969 달 착륙).",
+  "moon": "달 착륙은 land(1969)·astronaut(암스트롱)가 맡음(같은 사실). 생활 예문 유지.",
+  "leap": "달 착륙이 이미 land·astronaut 두 장. 암스트롱 인용문은 mankind가 표제어 밖이라 그대로 쓸 수 없음. 미국 사건 쏠림도 피함. 생활 예문 유지."
+ },
+ "new_word_proposals": [],
+ "cards": [
+  {
+   "node": "W29 민족주의와 통일",
+   "word": "nationalist",
+   "set": 39,
+   "ko": "① 민족주의자, 국가주의자",
+   "old_ex": "My grandma says he was a famous {{BLANK}}.",
+   "ex": "Italian {{BLANK}}s like Garibaldi united most of Italy by 1861.",
+   "tr": "가리발디 같은 이탈리아 민족주의자들은 1861년까지 이탈리아 대부분을 통일했어."
+  },
+  {
+   "node": "W29 민족주의와 통일",
+   "word": "nationalism",
+   "set": 39,
+   "ko": "① 민족주의, 국가주의",
+   "old_ex": "The teacher explained how {{BLANK}} started wars.",
+   "ex": "In the 1800s, {{BLANK}} spread: the idea that each nation should rule itself.",
+   "tr": "1800년대에 민족주의가 퍼졌어. 민족마다 스스로 다스려야 한다는 생각이야."
+  },
+  {
+   "node": "W29 민족주의와 통일",
+   "word": "unify",
+   "set": 44,
+   "ko": "① 통일하다, 하나로 만들다",
+   "old_ex": "The king hoped to {{BLANK}} the small kingdoms.",
+   "ex": "In 1871, Bismarck managed to {{BLANK}} the German states into one empire.",
+   "tr": "1871년 비스마르크는 독일의 여러 나라를 하나의 제국으로 통일해 냈어."
+  },
+  {
+   "node": "W30 제국주의",
+   "word": "navy",
+   "set": 15,
+   "ko": "① 해군",
+   "old_ex": "My uncle was in the {{BLANK}} for ten years.",
+   "ex": "In the 1800s, Britain's {{BLANK}} controlled the world's seas.",
+   "tr": "1800년대에 영국 해군은 세계의 바다를 장악했어."
+  },
+  {
+   "node": "W30 제국주의",
+   "word": "raw",
+   "set": 15,
+   "ko": "② 가공하지 않은",
+   "old_ex": "We buy most {{BLANK}} materials from other countries.",
+   "ex": "In the 1800s, colonies sent {{BLANK}} materials like cotton to Europe.",
+   "tr": "1800년대에 식민지들은 면화 같은 원료를 유럽으로 보냈어."
+  },
+  {
+   "node": "W30 제국주의",
+   "word": "british",
+   "set": 24,
+   "ko": "① 영국의, 영국인의",
+   "old_ex": "My cousin married a {{BLANK}} man last spring.",
+   "ex": "By 1920, the {{BLANK}} Empire covered about a quarter of the world's land.",
+   "tr": "1920년 무렵 영국 제국은 세계 땅의 약 4분의 1을 차지했어."
+  },
+  {
+   "node": "W30 제국주의",
+   "word": "european",
+   "set": 24,
+   "ko": "① 유럽의, 유럽인의",
+   "old_ex": "Many {{BLANK}} cities are easy to walk in.",
+   "ex": "From 1815 to 1930, about 60 million people left {{BLANK}} countries.",
+   "tr": "1815년부터 1930년까지 약 6천만 명이 유럽 나라들을 떠났어."
+  },
+  {
+   "node": "W30 제국주의",
+   "word": "rebellion",
+   "set": 38,
+   "ko": "① 반란, 반항",
+   "old_ex": "The students led a small {{BLANK}} against the rule.",
+   "ex": "In 1857, Indian soldiers began a {{BLANK}} against British rule.",
+   "tr": "1857년 인도 병사들이 영국의 지배에 맞서 반란을 일으켰어."
+  },
+  {
+   "node": "W31 동아시아의 근대화",
+   "word": "modernize",
+   "set": "47-48",
+   "ko": "현대화하다",
+   "old_ex": "The city plans to {{BLANK}} its buses.",
+   "ex": "After 1868, Meiji Japan quickly {{BLANK}}d its army and industry.",
+   "tr": "1868년 이후 메이지 시대 일본은 군대와 산업을 빠르게 현대화했어."
+  },
+  {
+   "node": "W32 제1차 세계대전",
+   "word": "treaty",
+   "set": 28,
+   "ko": "① 조약",
+   "old_ex": "The two countries signed a peace {{BLANK}}.",
+   "ex": "In 1919, Germany signed a peace {{BLANK}} at Versailles after World War I.",
+   "tr": "1919년 독일은 제1차 세계대전 뒤 베르사유에서 평화 조약에 서명했어.",
+   "c": "나라끼리 맺는 공식 약속. sign a treaty. 베르사유 조약은 the Treaty of Versailles."
+  },
+  {
+   "node": "W33 러시아 혁명",
+   "word": "russian",
+   "set": 24,
+   "ko": "① 러시아의, 러시아인의",
+   "old_ex": "My new neighbor is a {{BLANK}} student.",
+   "ex": "The {{BLANK}} Revolution of 1917 created the world's first communist state.",
+   "tr": "1917년 러시아 혁명은 세계 최초의 공산주의 국가를 세웠어."
+  },
+  {
+   "node": "W33 러시아 혁명",
+   "word": "communist",
+   "set": 29,
+   "ko": "② 공산주의자",
+   "old_ex": "He became a {{BLANK}} as a young man.",
+   "ex": "In 1848, Marx and Engels said {{BLANK}}s aim to abolish private property.",
+   "tr": "1848년 마르크스와 엥겔스는 공산주의자들의 목표가 사유 재산 폐지라고 밝혔어."
+  },
+  {
+   "node": "W34 대공황",
+   "word": "depression",
+   "set": 25,
+   "ko": "② 불경기, 불황",
+   "old_ex": "Many people lost jobs during the economic {{BLANK}}.",
+   "ex": "In the 1930s, an economic {{BLANK}} spread from the US around the world.",
+   "tr": "1930년대에 경제 불황이 미국에서 전 세계로 번졌어."
+  },
+  {
+   "node": "W38 탈식민과 인권 운동 (W35 end를 옮김: fifteenth와 같은 1945 종전)",
+   "word": "end",
+   "set": 1,
+   "ko": "② 끝나다, 끝내다",
+   "old_ex": "World War II {{BLANK}}ed in 1945.",
+   "ex": "In 1960, European rule {{BLANK}}ed in 17 African countries.",
+   "tr": "1960년에 아프리카 17개 나라에서 유럽의 지배가 끝났어."
+  },
+  {
+   "node": "W35 전체주의와 제2차 세계대전",
+   "word": "jew",
+   "set": 39,
+   "ko": "① 유대인",
+   "old_ex": "Many {{BLANK}}s live in that part of the city.",
+   "ex": "In the Holocaust, Nazi Germany murdered about six million {{BLANK}}s.",
+   "tr": "홀로코스트 때 나치 독일은 유대인 약 600만 명을 학살했어."
+  },
+  {
+   "node": "W35 전체주의와 제2차 세계대전",
+   "word": "dictator",
+   "set": 41,
+   "ko": "① 독재자",
+   "old_ex": "The country lived under a {{BLANK}} for years.",
+   "ex": "In the 1930s, Germany, Italy, and the Soviet Union were ruled by {{BLANK}}s.",
+   "tr": "1930년대에 독일, 이탈리아, 소련은 독재자가 다스렸어."
+  },
+  {
+   "node": "W36 국제연합과 인권",
+   "word": "equal",
+   "set": 12,
+   "ko": "① 같은, 평등한",
+   "old_ex": "Cut the cake into four {{BLANK}} pieces.",
+   "ex": "\"All human beings are born free and {{BLANK}} in dignity and rights,\" says the UN.",
+   "tr": "유엔은 \"모든 인간은 태어날 때부터 자유롭고, 존엄과 권리에서 평등하다\"고 말해."
+  },
+  {
+   "node": "W36 국제연합과 인권",
+   "word": "charter",
+   "set": 31,
+   "ko": "① 헌장, 설립 강령",
+   "old_ex": "The club wrote a short {{BLANK}} for its rules.",
+   "ex": "Keeping world peace is the first goal in the UN's {{BLANK}}.",
+   "tr": "세계 평화를 지키는 것이 유엔 헌장의 첫째 목표야."
+  },
+  {
+   "node": "W37 냉전",
+   "word": "arms",
+   "set": 21,
+   "ko": "① 무기, 군비",
+   "old_ex": "The two countries started an {{BLANK}} race.",
+   "ex": "In the Cold War {{BLANK}} race, nuclear weapons grew to about 70,000 by 1986.",
+   "tr": "냉전의 군비 경쟁 속에 핵무기는 1986년까지 약 7만 개로 늘었어."
+  },
+  {
+   "node": "W37 냉전",
+   "word": "soviet",
+   "set": 24,
+   "ko": "① 소련의",
+   "old_ex": "My grandfather read old {{BLANK}} history books.",
+   "ex": "In 1991, the {{BLANK}} Union broke up into 15 countries.",
+   "tr": "1991년 소련은 15개 나라로 해체됐어.",
+   "c": "러시아어 sovet(평의회)에서. the Soviet Union(소련)처럼 대문자로 쓴다."
+  },
+  {
+   "node": "W37 냉전",
+   "word": "alliance",
+   "set": 27,
+   "ko": "① 동맹, 연합",
+   "old_ex": "The two clubs formed an {{BLANK}} for the festival.",
+   "ex": "In 1949, twelve countries formed a military {{BLANK}} called NATO.",
+   "tr": "1949년 12개 나라가 나토(NATO)라는 군사 동맹을 맺었어."
+  },
+  {
+   "node": "W37 냉전",
+   "word": "ideological",
+   "set": 34,
+   "ko": "① 이념적인",
+   "old_ex": "The two parties have deep {{BLANK}} differences.",
+   "ex": "In the Cold War, capitalism and communism fought an {{BLANK}} battle.",
+   "tr": "냉전 때 자본주의와 공산주의는 이념 대결을 벌였어."
+  },
+  {
+   "node": "W37 냉전",
+   "word": "communism",
+   "set": 40,
+   "ko": "① 공산주의",
+   "old_ex": "Our history book has a chapter on {{BLANK}}.",
+   "ex": "After China's revolution in 1949, a third of the world lived under {{BLANK}}.",
+   "tr": "1949년 중국 혁명 이후 세계 인구의 3분의 1이 공산주의 체제에서 살았어."
+  },
+  {
+   "node": "W38 탈식민과 인권 운동",
+   "word": "march",
+   "set": 3,
+   "ko": "② 행진하다",
+   "old_ex": "The soldiers {{BLANK}}ed through the town.",
+   "ex": "In 1930, Gandhi {{BLANK}}ed to the sea to fight Britain's tax on salt.",
+   "tr": "1930년 간디는 영국의 소금세에 맞서 바다까지 행진했어."
+  },
+  {
+   "node": "W38 탈식민과 인권 운동",
+   "word": "racial",
+   "set": 26,
+   "ko": "① 인종의",
+   "old_ex": "The movie is about {{BLANK}} problems in America.",
+   "ex": "From 1948 to the early 1990s, South Africa had laws for {{BLANK}} separation.",
+   "tr": "1948년부터 1990년대 초까지 남아프리카 공화국에는 인종 분리 법이 있었어.",
+   "c": "race(인종)+-al. ethnic(민족의)은 언어·문화로 묶인 집단. racial discrimination은 인종 차별."
+  },
+  {
+   "node": "W38 탈식민과 인권 운동",
+   "word": "imprisonment",
+   "set": 39,
+   "ko": "① 투옥, 징역",
+   "old_ex": "He faced ten years of {{BLANK}}.",
+   "ex": "Nelson Mandela was freed in 1990 after 27 years of {{BLANK}}.",
+   "tr": "넬슨 만델라는 27년의 수감 생활 끝에 1990년에 풀려났어."
+  },
+  {
+   "node": "W39 우주 시대와 정보 혁명",
+   "word": "welfare",
+   "set": 25,
+   "ko": "① 복지, 안녕",
+   "old_ex": "The school cares about student {{BLANK}} first.",
+   "ex": "After 1945, many European countries became {{BLANK}} states.",
+   "tr": "1945년 이후 많은 유럽 나라가 복지 국가가 됐어.",
+   "c": "well(잘)+fare(지내다). welfare state는 복지 국가. 미국에선 '생활 보조금'도 뜻한다."
+  },
+  {
+   "node": "W39 우주 시대와 정보 혁명",
+   "word": "globalization",
+   "set": 43,
+   "ko": "① 세계화",
+   "old_ex": "Many jobs moved because of {{BLANK}}.",
+   "ex": "{{BLANK}} links the world's economies and cultures ever more closely.",
+   "tr": "세계화는 세계의 경제와 문화를 점점 더 긴밀하게 이어 줘."
+  }
+ ]
+}
