@@ -1,3 +1,11 @@
+# 담김 하트 위치 조정 배포 · 2026-10-08
+
+- 앱 커밋 [79291eb](https://github.com/esqsoy/vocagoyang/commit/79291eb)를 origin/main에 fast-forward로 푸시했다. [Pages 37746779315](https://github.com/esqsoy/vocagoyang/actions/runs/37746779315): completed/success. main의 세 과정 HTML blob이 로컬 검증본과 같다. github.io 직접 확인은 이 세션에서 할 수 없다.
+- 변경: 담김 하트를 고양이 칸 안 목 왼쪽으로 옮겼다. 시간 막대·말풍선 폭은 담기 전후로 같다(영신 지적: 하트가 시간 진행 바를 줄였다). `pipeline/saved-cards/style.css`만 바뀌었다.
+- 검사: Codex 검사 32/32, saved build --check, 393·320px 막대 폭 전후 동일, 확대 캡처로 겹침 없음 확인. 실기기 Safari는 확인하지 않았다.
+
+---
+
 # 연습 타일·담김 하트·학문 용어 2장·country 배포 · 2026-10-08
 
 - 앱 커밋 [3ade2f7](https://github.com/esqsoy/vocagoyang/commit/3ade2f7)을 origin/main에 fast-forward로 푸시했다(7368e82 다음 2커밋). [Pages 37745476960](https://github.com/esqsoy/vocagoyang/actions/runs/37745476960): completed/success.
