@@ -1,0 +1,2423 @@
+{
+ "date": "2026-10-08",
+ "name": "knowledge-07",
+ "status": "applied_locally_verified",
+ "authorization": "영신(2026-10-08): \"이제 예문작업을 완성해버리자! 전부!\"",
+ "summary": "지식 지도 11장 과학사 36장: 지동설(1543)·뉴턴(빛·인력·운동 법칙·반작용)·세포와 현미경·돌턴·주기율표·유전자와 멘델·세균과 백신·항생제 내성·원자로·전자기 유도·질량-에너지 등가·판게아와 대륙 이동·빅뱅과 우주 팽창·과학적 방법과 무작위 배정·유클리드·미적분. F였던 data는 티코 브라헤의 관측 자료, field는 이븐 시나의 여러 분야로 고쳤다. smallpox·magnet 추가를 제안한다. 목록 pipeline/knowledge-map/batch-07.json.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "7905c3b0e5e242d670ddd7bd73fdf20c775b3486a4e367b4da83bb8b3e8e7dc7",
+   "afterHash": "474c42ad067f90755ff154f87607ec61aab030c80463d022071e615b6f34d4f4",
+   "changes": [
+    {
+     "path": [
+      2,
+      "exercises",
+      2,
+      "words",
+      16,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This town was {{BLANK}} very quiet.",
+     "new": "Earth's continents were {{BLANK}} joined in one giant continent, Pangaea."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      2,
+      "words",
+      16,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 마을은 예전에는 아주 조용했어.",
+     "new": "지구의 대륙들은 한때 판게아라는 거대한 대륙 하나로 붙어 있었어."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      3,
+      "words",
+      13,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Snow is {{BLANK}}.",
+     "new": "In the 1660s, Newton showed that {{BLANK}} light is a mix of colors."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      3,
+      "words",
+      13,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "눈은 하얗다.",
+     "new": "1660년대에 뉴턴은 흰빛이 여러 색이 섞인 것임을 보여 주었어."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      1,
+      "words",
+      1,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Einstein's 1905 papers changed the {{BLANK}} of physics.",
+     "new": "In the 1000s, Ibn Sina wrote on many {{BLANK}}s, from medicine to philosophy."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      1,
+      "words",
+      1,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "아인슈타인의 1905년 논문들은 물리학 분야를 바꾸어 놓았어.",
+     "new": "1000년대에 이븐 시나는 의학에서 철학까지 여러 분야에 관해 글을 썼어."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      5,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "There's a big tree in the {{BLANK}} of the park.",
+     "new": "In 1543, Copernicus placed the Sun, not the Earth, at the {{BLANK}} of the universe."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      5,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "공원 중심에 큰 나무가 있어.",
+     "new": "1543년 코페르니쿠스는 지구가 아니라 태양을 우주의 중심에 두었어."
+    },
+    {
+     "path": [
+      7,
+      "exercises",
+      4,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Every living thing is made of {{BLANK}}s.",
+     "new": "In 1665, Robert Hooke saw tiny boxes in a plant and named them {{BLANK}}s."
+    },
+    {
+     "path": [
+      7,
+      "exercises",
+      4,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "모든 생물은 세포로 이루어져 있어.",
+     "new": "1665년 로버트 훅은 식물에서 작은 상자 같은 칸들을 보고 세포라고 이름 붙였어."
+    },
+    {
+     "path": [
+      7,
+      "exercises",
+      4,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "생물의 '세포'. 미국에선 휴대폰도 cell phone.",
+     "new": "라틴어 cella(작은 방)에서. 감방도 cell. 미국에선 휴대폰도 cell phone."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      1,
+      "words",
+      12,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Our teacher has a strange teaching {{BLANK}}.",
+     "new": "The scientific {{BLANK}} tests ideas by checking them against evidence."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      1,
+      "words",
+      12,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 선생님은 교수법이 좀 특이해.",
+     "new": "과학적 방법은 생각을 증거에 비추어 확인하며 검증해."
+    },
+    {
+     "path": [
+      12,
+      "exercises",
+      5,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "How many stars are in the {{BLANK}}?",
+     "new": "The {{BLANK}} began with the Big Bang about 13.8 billion years ago."
+    },
+    {
+     "path": [
+      12,
+      "exercises",
+      5,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "온 우주에는 별이 몇 개나 있을까?",
+     "new": "우주는 약 138억 년 전 빅뱅과 함께 시작되었어."
+    },
+    {
+     "path": [
+      13,
+      "exercises",
+      8,
+      "words",
+      14,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Free pizza {{BLANK}}ed a big crowd.",
+     "new": "Newton's law of gravity says that all objects {{BLANK}} one another."
+    },
+    {
+     "path": [
+      13,
+      "exercises",
+      8,
+      "words",
+      14,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "공짜 피자가 엄청난 인파를 끌어들였어.",
+     "new": "뉴턴의 중력 법칙에 따르면 모든 물체는 서로 끌어당겨."
+    },
+    {
+     "path": [
+      13,
+      "exercises",
+      8,
+      "words",
+      14,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "시선·마음을 잡아끌다. attractive 매력적인.",
+     "new": "자석·중력처럼 물체를 끌어당기다. 사람·관심을 끌 때도 쓴다. attractive 매력적인."
+    },
+    {
+     "path": [
+      15,
+      "exercises",
+      4,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Draw a line at a 45-degree {{BLANK}}.",
+     "new": "On a flat surface, a triangle's three {{BLANK}}s add up to 180 degrees."
+    },
+    {
+     "path": [
+      15,
+      "exercises",
+      4,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "45도 각도로 선을 그어 봐.",
+     "new": "평면에서 삼각형의 세 각을 더하면 180도가 돼."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      0,
+      "words",
+      13,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The scientist found {{BLANK}} in the water.",
+     "new": "In 1928, Fleming saw that a mold could kill {{BLANK}}."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      0,
+      "words",
+      13,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "과학자가 그 물에서 세균을 발견했어.",
+     "new": "1928년 플레밍은 곰팡이가 세균을 죽일 수 있다는 것을 알아냈어."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      5,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The telephone was a great {{BLANK}}.",
+     "new": "The telephone, a great {{BLANK}} of 1876, carried voices over wires."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      5,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "전화기는 위대한 발명품이었지.",
+     "new": "1876년의 위대한 발명품인 전화는 전선으로 목소리를 실어 날랐어."
+    },
+    {
+     "path": [
+      20,
+      "exercises",
+      4,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "All things are made of very small {{BLANK}}s.",
+     "new": "In the early 1800s, John Dalton said each element has its own kind of {{BLANK}}."
+    },
+    {
+     "path": [
+      20,
+      "exercises",
+      4,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "모든 물질은 아주 작은 원자로 되어 있어.",
+     "new": "1800년대 초 존 돌턴은 원소마다 저마다의 원자가 있다고 말했어."
+    },
+    {
+     "path": [
+      20,
+      "exercises",
+      4,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "",
+     "new": "그리스어 atomos(더 쪼갤 수 없는)에서. 형용사는 atomic."
+    },
+    {
+     "path": [
+      22,
+      "exercises",
+      2,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "We looked at blood cells under a {{BLANK}}.",
+     "new": "In the 1670s, Leeuwenhoek saw tiny living things through a {{BLANK}}."
+    },
+    {
+     "path": [
+      22,
+      "exercises",
+      2,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 현미경으로 혈액 세포를 봤어.",
+     "new": "1670년대에 레이우엔훅은 현미경으로 아주 작은 생물들을 보았어."
+    },
+    {
+     "path": [
+      23,
+      "exercises",
+      1,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In 1953, X-ray {{BLANK}} helped scientists understand DNA's structure.",
+     "new": "Tycho Brahe's careful {{BLANK}} helped Kepler find out how planets move."
+    },
+    {
+     "path": [
+      23,
+      "exercises",
+      1,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1953년에 X선 자료는 과학자들이 DNA의 구조를 이해하는 데 도움이 되었어.",
+     "new": "티코 브라헤의 꼼꼼한 관측 자료 덕분에 케플러는 행성이 어떻게 움직이는지 알아냈어."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      0,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Which {{BLANK}} is closest to the sun?",
+     "new": "In 1995, scientists first found a {{BLANK}} circling another star like the Sun."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      0,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "어느 행성이 태양에 가장 가까워?",
+     "new": "1995년 과학자들은 태양 같은 다른 별을 도는 행성을 처음으로 찾아냈어."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      2,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This is the only {{BLANK}} thing in my room.",
+     "new": "Cell theory says that all {{BLANK}} things are made of cells."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      2,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이게 내 방에서 유일하게 살아 있는 거야.",
+     "new": "세포설에 따르면 모든 살아 있는 것은 세포로 이루어져 있어."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      3,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Her {{BLANK}} to my joke was pretty cold.",
+     "new": "Newton's third law says every action has an equal and opposite {{BLANK}}."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      3,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "내 농담에 대한 걔 반응은 꽤 차가웠어.",
+     "new": "뉴턴의 제3법칙에 따르면 모든 작용에는 크기가 같고 방향이 반대인 반작용이 있어."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      3,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "reaction to ~: ~에 대한 반응. 동사는 react to ~.",
+     "new": "action and reaction은 작용과 반작용. reaction to ~: ~에 대한 반응. 동사는 react."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      1,
+      "words",
+      16,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Some {{BLANK}}s affect eye color.",
+     "new": "{{BLANK}}s are parts of DNA, and most carry instructions for making proteins."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      1,
+      "words",
+      16,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "어떤 유전자는 눈 색깔에 영향을 줘.",
+     "new": "유전자는 DNA의 일부이고, 대부분은 단백질을 만드는 정보를 담고 있어."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      1,
+      "words",
+      16,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "유전 정보를 지닌 단위. 유전자가 키나 눈 색깔 같은 특징에 영향을 준다.",
+     "new": "유전 정보를 지닌 단위. genetic(유전의)·genetics(유전학)와 한 가족."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      3,
+      "words",
+      1,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Don't stand up while the bus is in {{BLANK}}.",
+     "new": "In 1687, Newton published his three laws of {{BLANK}}."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      3,
+      "words",
+      1,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "버스가 움직이는 중일 땐 일어서지 마.",
+     "new": "1687년 뉴턴은 운동의 세 법칙을 발표했어."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      4,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "A {{BLANK}} kept half the class home last week.",
+     "new": "Antibiotics fight bacteria, but they don't work on {{BLANK}}es."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      4,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "바이러스 때문에 지난주에 반의 절반이 집에 있었어.",
+     "new": "항생제는 세균과 싸우지만, 바이러스에는 듣지 않아."
+    },
+    {
+     "path": [
+      29,
+      "exercises",
+      1,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "I got a {{BLANK}} at the health center yesterday.",
+     "new": "In 1796, Edward Jenner made the world's first {{BLANK}}."
+    },
+    {
+     "path": [
+      29,
+      "exercises",
+      1,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "나는 어제 보건소에서 백신을 맞았어.",
+     "new": "1796년 에드워드 제너는 세계 최초의 백신을 만들었어."
+    },
+    {
+     "path": [
+      29,
+      "exercises",
+      1,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "get[have] a vaccine. 동사는 vaccinate. 강세 주의.",
+     "new": "라틴어 vacca(소)에서. 첫 백신이 소의 병(우두)에서 나왔다. get a vaccine. 강세는 뒤."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      8,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Some people are naturally {{BLANK}} to this disease.",
+     "new": "A vaccine trains the {{BLANK}} system to recognize a germ."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      8,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "어떤 사람들은 이 병에 선천적으로 면역이 있어.",
+     "new": "백신은 면역 체계가 병원균을 알아보도록 훈련시켜."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      9,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "My little brother folds paper {{BLANK}}s all day.",
+     "new": "The age of {{BLANK}}s began with the Wright brothers' first flight in 1903."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      9,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "내 남동생은 하루 종일 종이비행기를 접어.",
+     "new": "비행기의 시대는 1903년 라이트 형제의 첫 비행과 함께 시작되었어."
+    },
+    {
+     "path": [
+      32,
+      "exercises",
+      3,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The empty boat began to {{BLANK}} out to sea.",
+     "new": "In 1912, Wegener argued that the continents slowly {{BLANK}} across the Earth."
+    },
+    {
+     "path": [
+      32,
+      "exercises",
+      3,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "빈 배가 바다로 떠내려가기 시작했어.",
+     "new": "1912년 베게너는 대륙들이 지구 위를 천천히 떠간다고 주장했어."
+    },
+    {
+     "path": [
+      32,
+      "exercises",
+      3,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "drift는 물·바람에 밀려 움직이다. float는 물에 떠 있는 상태에도 쓴다.",
+     "new": "물·바람에 밀려 떠가다. continental drift는 대륙 이동(설). float는 떠 있는 상태."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      8,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Our science teacher loves teaching {{BLANK}}.",
+     "new": "Mendel's 1866 paper on garden plants became the basis of {{BLANK}}."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      8,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 과학 선생님은 유전학 가르치는 걸 좋아하셔.",
+     "new": "멘델이 1866년에 정원 식물에 관해 쓴 논문은 유전학의 바탕이 되었어."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      0,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "My science teacher showed us a {{BLANK}} on video.",
+     "new": "In 1942, Enrico Fermi's team built the first nuclear {{BLANK}}."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      0,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "과학 선생님이 영상으로 원자로를 보여 주셨어.",
+     "new": "1942년 엔리코 페르미의 연구팀은 최초의 원자로를 만들었어."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      4,
+      "words",
+      1,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "We cook with {{BLANK}}, not with gas.",
+     "new": "Faraday's discovery of {{BLANK}} in 1831 led to electric power plants."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      4,
+      "words",
+      1,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 집은 가스 말고 인덕션으로 요리해.",
+     "new": "1831년 패러데이의 전자기 유도 발견은 발전소로 이어졌어."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      4,
+      "words",
+      15,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "We used a math {{BLANK}} to solve it.",
+     "new": "In about 300 BC, Euclid proved many {{BLANK}}s from a few basic rules."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      4,
+      "words",
+      15,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리는 그걸 풀려고 수학 정리를 썼어.",
+     "new": "기원전 300년쯤 유클리드는 몇 가지 기본 규칙(공리)에서 출발해 많은 정리를 증명했어."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      2,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} table hangs on the science room wall.",
+     "new": "Mendeleev's {{BLANK}} table of 1869 left spaces for elements not yet found."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      2,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "주기율표가 과학실 벽에 걸려 있어.",
+     "new": "멘델레예프가 1869년에 만든 주기율표는 아직 발견되지 않은 원소들의 자리를 비워 두었어."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      4,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "My brother is taking {{BLANK}} this year.",
+     "new": "In the late 1600s, Newton and Leibniz each developed {{BLANK}}."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      4,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 형은 올해 미적분을 배워.",
+     "new": "1600년대 후반 뉴턴과 라이프니츠는 각자 미적분을 발전시켰어."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      2,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The doctor prescribed an {{BLANK}} for my bacterial infection.",
+     "new": "If {{BLANK}}s are used too often, bacteria can evolve resistance."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      2,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "의사가 내 세균 감염을 치료할 항생제를 처방했어.",
+     "new": "항생제를 너무 자주 쓰면 세균이 내성을 갖도록 진화할 수 있어."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      7,
+      "words",
+      10,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "There is no exact {{BLANK}} between the two words.",
+     "new": "In 1905, Einstein proposed the {{BLANK}} of mass and energy."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      7,
+      "words",
+      10,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 두 단어 사이에 정확한 등가는 없어.",
+     "new": "1905년 아인슈타인은 질량과 에너지의 등가를 제안했어."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      6,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The app will {{BLANK}} the song order for us.",
+     "new": "For a fair test, scientists {{BLANK}} which patients get the new drug."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      6,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 앱이 우리 대신 노래 순서를 무작위화해 줄 거야.",
+     "new": "공정한 실험을 위해 과학자들은 어느 환자가 새 약을 받을지 무작위로 정해."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      6,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "random(무작위의)+-ize. 실험에서 순서를 무작위로 정할 때 쓴다.",
+     "new": "random(무작위의)+-ize. 실험에서 대상이나 순서를 무작위로 정할 때 쓴다."
+    },
+    {
+     "path": [
+      47,
+      "exercises",
+      8,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Moving to a new school requires {{BLANK}}.",
+     "new": "Thick fur is an {{BLANK}} to cold climates."
+    },
+    {
+     "path": [
+      47,
+      "exercises",
+      8,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "새 학교로 옮기면 적응이 필요해.",
+     "new": "두꺼운 털은 추운 기후에 대한 적응이야."
+    },
+    {
+     "path": [
+      47,
+      "exercises",
+      8,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "adapt(적응하다)+-ation(명사). 적응이라는 뜻에서 adjustment와 바꿔 쓸 수 있어.",
+     "new": "adapt(적응하다)+-ation. 생물의 적응은 adaptation, 생활 속 적응엔 adjustment도 써."
+    },
+    {
+     "path": [
+      47,
+      "exercises",
+      8,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The city plans further {{BLANK}}.",
+     "new": "In 1929, Hubble found evidence of the universe's {{BLANK}}."
+    },
+    {
+     "path": [
+      47,
+      "exercises",
+      8,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 도시는 추가 확장을 계획해.",
+     "new": "1929년 허블은 우주 팽창의 증거를 찾아냈어."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      0,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This {{BLANK}} lives in the soil.",
+     "new": "Trillions of {{BLANK}}s in our gut help us digest food."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      0,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 미생물은 토양 속에서 살아.",
+     "new": "장 속의 수조 마리 미생물은 우리가 음식을 소화하도록 도와."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson02.json": {
+   "beforeHash": "1b6b8acb5bb5565fa57b5eb3124d9cdff23b1a2230db93e51b22d17e15d778ab",
+   "afterHash": "8ab11bbaf167a4c2be0de800d0903b10bd649e586873c45a540005d2ff5cebb0"
+  },
+  "pipeline/out/lesson04.json": {
+   "beforeHash": "6d9cd1dbb4fbc95f7b80774adc5c11a3302c726a7daeb7c07cfc1c00d410e958",
+   "afterHash": "3797b797fdab4870b441bb78fee48e0cdf362efdb699009a97ff8b7c23d01e8e"
+  },
+  "pipeline/out/set07.json": {
+   "beforeHash": "4ac7f0d6dfc91480a9df9893de83ce4a4f4e1c21471f7cb87a3b464f2648b1b2",
+   "afterHash": "fbf02b214e0d6b6a629c86d484546a6b6e522b3aa0045ac989e71eefd03c0d35"
+  },
+  "pipeline/out/set08.json": {
+   "beforeHash": "8a0fe38902bc9e6575dd2f30b58b918b766dfe30caf25f7e13ccde7303839af1",
+   "afterHash": "464a0c5133110d5fcfd8b8a56afe337b0ad6108e2e989cee5e3350d039799917"
+  },
+  "pipeline/out/set12.json": {
+   "beforeHash": "fbb49145062bec0d5fe3f6009a403abf59c1fbaf2dbe04c373c8b3ed0a01dad9",
+   "afterHash": "e15274e9ec88eae5eeb95f4d2ffc38162d878a571d7ba515d7a1aab041c4879c"
+  },
+  "pipeline/out/set13.json": {
+   "beforeHash": "a7f3f837561e106519850a659a296188bce88af977e0ee8c7a655266fec7b7a7",
+   "afterHash": "3ba9ae1bfec88c691801f044f9616f701484bd90fc71af1241299ddf37d56f5f"
+  },
+  "pipeline/out/set15.json": {
+   "beforeHash": "7ddf2c7aad69dfdf4655dfc6c2000f967dfc01a9c744737165e091f1984dc36c",
+   "afterHash": "98eb28f430335d7ea14d34f34c2fd5260681544e77c80d46ad1bd7f04a2af5f7"
+  },
+  "pipeline/out/set18.json": {
+   "beforeHash": "f873e19c667f135f6328797969c159ba986408aff2e957f9940f11f0cf5ab9aa",
+   "afterHash": "b78639582501a54e4b2fdf29a2fd477a3e349991a0485fbaa956d034ae6ab140"
+  },
+  "pipeline/out/set19.json": {
+   "beforeHash": "d2d4c12c05c10cc21e7940f1de0a20b19b4a5931f6459c9e649f9d744fc00a2f",
+   "afterHash": "338d74caadce9f3c5edd0314a8bfb5262586573e91e126f7dbe13a00fc7e767a"
+  },
+  "pipeline/out/set20.json": {
+   "beforeHash": "9918d2eeeca2f7990c43613407a970d5e75d9fb5c5226ddbeee169539aef04be",
+   "afterHash": "e47c24f0340d3885bf441ad3558271951f7cec601405425217bea0aaca9b6480"
+  },
+  "pipeline/out/set22.json": {
+   "beforeHash": "228be1e7fad84ad3676124482722af5584b85987e3eb4bf659c72832d2575de9",
+   "afterHash": "271874ac4c58faf09a34746c4c73fbec9bbb8f2632bfd70dca24644a5ba05bd6"
+  },
+  "pipeline/out/set23.json": {
+   "beforeHash": "f3591ff015accbc1d24122ef4a9926b9729f807f288fb9332aeb0ff62995d7c9",
+   "afterHash": "5756b65911eed5172dee4a2486916e5d8d5cf3bcb95ca7f1cff323a6ec3856be"
+  },
+  "pipeline/out/set24.json": {
+   "beforeHash": "b40d0a9f8400919a9f75dafaeec53b888d847cd2b4922846e8a0df107a83b6d8",
+   "afterHash": "9726dec4bcc526215e9f163c249bdd976316f782f2b22a093557c23814dbc62c"
+  },
+  "pipeline/out/set25.json": {
+   "beforeHash": "9c27c5c0567fca89add07b5162132266bb6a0e691d9ec0a812b566ea8203920d",
+   "afterHash": "28a96de22117aecf36d8d9e905b977d199cfef064f6b90d4d6199e34f6a8e56b"
+  },
+  "pipeline/out/set26.json": {
+   "beforeHash": "ece5c94137135086c64c9f0ea43db01ad09eba28f3b47a60704f775c90695b11",
+   "afterHash": "f8412fc07fd67371d02c71a3d1cc41938d256e038d73e88072f97f7ad99a2648"
+  },
+  "pipeline/out/set29.json": {
+   "beforeHash": "888dd5ab3b9a2741ff1e3f293e5959af16aa611e6b898440ff0dce0492c12aec",
+   "afterHash": "4abd37dac7e312042e7badc52156e31b8fc8a8cf6f840fb0f3e2a2943df56c89"
+  },
+  "pipeline/out/set31.json": {
+   "beforeHash": "3e410daae2fb8101af6957c0a8843dcefe14a92f8c482c03302213627028fa73",
+   "afterHash": "016e331a4cdb558bed00d0c6f8be7fb5271b14f1c096458e46d40e8f8447af50"
+  },
+  "pipeline/out/set32.json": {
+   "beforeHash": "2ce1219cd0182dcb7c997e319912e35ba42569e96a5ecfb6661f53e03ec730bf",
+   "afterHash": "598090096647d41570e587a94ea5f7687d9e7a5c23cd021d3643b735790048a0"
+  },
+  "pipeline/out/set39.json": {
+   "beforeHash": "0930508979e85960737ed6674f732d163549e5094f030df1d65ebf7f8950c04b",
+   "afterHash": "2381c687436d8c2ab6d4467485d25eaf875e934514f095acf5615d40a321469f"
+  },
+  "pipeline/out/set40.json": {
+   "beforeHash": "d60a1cdbd3d398b8aa05e0c7f652eba5b86bf7b41182c58162e6ca12fc6c55b7",
+   "afterHash": "a54a5d2f5c5bda2174588ba1e5911e8d24a7ded1102161b1630f262aefd26441"
+  },
+  "pipeline/out/set41.json": {
+   "beforeHash": "37206c80a85c4c810dff98c444c5999496761a1aeb4cc7a5e7503f172c460f78",
+   "afterHash": "17e9ab0cdb9a03a6e896ba54e592bc3d8c6481f82c6fa42c3a13b7dda4c2f591"
+  },
+  "pipeline/out/set42.json": {
+   "beforeHash": "cba071caddc40737b90e490069fc6ac27e674a9a4039c59124438a111190a443",
+   "afterHash": "665c7b615d6c834880d2f3a3227f546697c0047b3ad97c0ffb5857bf0ecc1840"
+  },
+  "pipeline/out/set43.json": {
+   "beforeHash": "300e1a52fc6440b953b622990841404e551e9fc055d25e05be0476791aa0eaec",
+   "afterHash": "c7923f44678f83b8cc5f75f272b8b69ece452cb73d9d00740e36e8d9625e8643"
+  },
+  "pipeline/out/set44.json": {
+   "beforeHash": "46fb37fa6d43e9da85c7b68e5db82993cafab70e97fd099fe51e13e2dc95e3b6",
+   "afterHash": "e2c7ffffcf05f83e5fc09a94817056d8ed03cfafc1c1bc2684858b4548f1d83d"
+  },
+  "pipeline/out/set45.json": {
+   "beforeHash": "d51d093631474f5b8f9335712c98ceb6c12f620304c96fab1df983c3364f7fc3",
+   "afterHash": "b9e4316b80078a401d378bb37f791f6aad84710d4ff17e8ab92242dc7ea2cd80"
+  },
+  "pipeline/out/set47.json": {
+   "beforeHash": "fd57fd8bb19ed759834275c3307249349ed12c944516522352141d1a65493df3",
+   "afterHash": "06fa080ec90c299bd87ba614ca77f35a833bfa5815fc42e3b19738bf2a83977a"
+  },
+  "pipeline/out/set48.json": {
+   "beforeHash": "44200511c49e220239f8011d82a37574cd93f66a03b612ffa18618fd1e5c5817",
+   "afterHash": "a3001b53d2aaa9c8008222532c62f82ce97503dcf89162c7d0b35555b7b4cb13"
+  },
+  "pipeline/morphology.json": {
+   "beforeHash": "01e7764227b7b589c0ba7597b7855079e179ef0a95b76ec26bcc7d7ca754cd87",
+   "afterHash": "66f328a1156839465e860a6b0e8820840a292c1d35cd05b7868c080033aee90b"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson02.json": [
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     16,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This town was {{BLANK}} very quiet.",
+    "new": "Earth's continents were {{BLANK}} joined in one giant continent, Pangaea."
+   },
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     16,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 마을은 예전에는 아주 조용했어.",
+    "new": "지구의 대륙들은 한때 판게아라는 거대한 대륙 하나로 붙어 있었어."
+   },
+   {
+    "path": [
+     "exercises",
+     3,
+     "words",
+     13,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Snow is {{BLANK}}.",
+    "new": "In the 1660s, Newton showed that {{BLANK}} light is a mix of colors."
+   },
+   {
+    "path": [
+     "exercises",
+     3,
+     "words",
+     13,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "눈은 하얗다.",
+    "new": "1660년대에 뉴턴은 흰빛이 여러 색이 섞인 것임을 보여 주었어."
+   }
+  ],
+  "pipeline/out/lesson04.json": [
+   {
+    "path": [
+     "exercises",
+     1,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Einstein's 1905 papers changed the {{BLANK}} of physics.",
+    "new": "In the 1000s, Ibn Sina wrote on many {{BLANK}}s, from medicine to philosophy."
+   },
+   {
+    "path": [
+     "exercises",
+     1,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "아인슈타인의 1905년 논문들은 물리학 분야를 바꾸어 놓았어.",
+    "new": "1000년대에 이븐 시나는 의학에서 철학까지 여러 분야에 관해 글을 썼어."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "There's a big tree in the {{BLANK}} of the park.",
+    "new": "In 1543, Copernicus placed the Sun, not the Earth, at the {{BLANK}} of the universe."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "공원 중심에 큰 나무가 있어.",
+    "new": "1543년 코페르니쿠스는 지구가 아니라 태양을 우주의 중심에 두었어."
+   }
+  ],
+  "pipeline/out/set07.json": [
+   {
+    "path": [
+     4,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Every living thing is made of {{BLANK}}s.",
+    "new": "In 1665, Robert Hooke saw tiny boxes in a plant and named them {{BLANK}}s."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "모든 생물은 세포로 이루어져 있어.",
+    "new": "1665년 로버트 훅은 식물에서 작은 상자 같은 칸들을 보고 세포라고 이름 붙였어."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "생물의 '세포'. 미국에선 휴대폰도 cell phone.",
+    "new": "라틴어 cella(작은 방)에서. 감방도 cell. 미국에선 휴대폰도 cell phone."
+   }
+  ],
+  "pipeline/out/set08.json": [
+   {
+    "path": [
+     1,
+     "words",
+     12,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Our teacher has a strange teaching {{BLANK}}.",
+    "new": "The scientific {{BLANK}} tests ideas by checking them against evidence."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 선생님은 교수법이 좀 특이해.",
+    "new": "과학적 방법은 생각을 증거에 비추어 확인하며 검증해."
+   }
+  ],
+  "pipeline/out/set12.json": [
+   {
+    "path": [
+     5,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "How many stars are in the {{BLANK}}?",
+    "new": "The {{BLANK}} began with the Big Bang about 13.8 billion years ago."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "온 우주에는 별이 몇 개나 있을까?",
+    "new": "우주는 약 138억 년 전 빅뱅과 함께 시작되었어."
+   }
+  ],
+  "pipeline/out/set13.json": [
+   {
+    "path": [
+     8,
+     "words",
+     14,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Free pizza {{BLANK}}ed a big crowd.",
+    "new": "Newton's law of gravity says that all objects {{BLANK}} one another."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     14,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "공짜 피자가 엄청난 인파를 끌어들였어.",
+    "new": "뉴턴의 중력 법칙에 따르면 모든 물체는 서로 끌어당겨."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     14,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "시선·마음을 잡아끌다. attractive 매력적인.",
+    "new": "자석·중력처럼 물체를 끌어당기다. 사람·관심을 끌 때도 쓴다. attractive 매력적인."
+   }
+  ],
+  "pipeline/out/set15.json": [
+   {
+    "path": [
+     4,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Draw a line at a 45-degree {{BLANK}}.",
+    "new": "On a flat surface, a triangle's three {{BLANK}}s add up to 180 degrees."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "45도 각도로 선을 그어 봐.",
+    "new": "평면에서 삼각형의 세 각을 더하면 180도가 돼."
+   }
+  ],
+  "pipeline/out/set18.json": [
+   {
+    "path": [
+     0,
+     "words",
+     14,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The scientist found {{BLANK}} in the water.",
+    "new": "In 1928, Fleming saw that a mold could kill {{BLANK}}."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     14,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "과학자가 그 물에서 세균을 발견했어.",
+    "new": "1928년 플레밍은 곰팡이가 세균을 죽일 수 있다는 것을 알아냈어."
+   }
+  ],
+  "pipeline/out/set19.json": [
+   {
+    "path": [
+     5,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The telephone was a great {{BLANK}}.",
+    "new": "The telephone, a great {{BLANK}} of 1876, carried voices over wires."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "전화기는 위대한 발명품이었지.",
+    "new": "1876년의 위대한 발명품인 전화는 전선으로 목소리를 실어 날랐어."
+   }
+  ],
+  "pipeline/out/set20.json": [
+   {
+    "path": [
+     4,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "All things are made of very small {{BLANK}}s.",
+    "new": "In the early 1800s, John Dalton said each element has its own kind of {{BLANK}}."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "모든 물질은 아주 작은 원자로 되어 있어.",
+    "new": "1800년대 초 존 돌턴은 원소마다 저마다의 원자가 있다고 말했어."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "",
+    "new": "그리스어 atomos(더 쪼갤 수 없는)에서. 형용사는 atomic."
+   }
+  ],
+  "pipeline/out/set22.json": [
+   {
+    "path": [
+     2,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "We looked at blood cells under a {{BLANK}}.",
+    "new": "In the 1670s, Leeuwenhoek saw tiny living things through a {{BLANK}}."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 현미경으로 혈액 세포를 봤어.",
+    "new": "1670년대에 레이우엔훅은 현미경으로 아주 작은 생물들을 보았어."
+   }
+  ],
+  "pipeline/out/set23.json": [
+   {
+    "path": [
+     1,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In 1953, X-ray {{BLANK}} helped scientists understand DNA's structure.",
+    "new": "Tycho Brahe's careful {{BLANK}} helped Kepler find out how planets move."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1953년에 X선 자료는 과학자들이 DNA의 구조를 이해하는 데 도움이 되었어.",
+    "new": "티코 브라헤의 꼼꼼한 관측 자료 덕분에 케플러는 행성이 어떻게 움직이는지 알아냈어."
+   }
+  ],
+  "pipeline/out/set24.json": [
+   {
+    "path": [
+     0,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Which {{BLANK}} is closest to the sun?",
+    "new": "In 1995, scientists first found a {{BLANK}} circling another star like the Sun."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "어느 행성이 태양에 가장 가까워?",
+    "new": "1995년 과학자들은 태양 같은 다른 별을 도는 행성을 처음으로 찾아냈어."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This is the only {{BLANK}} thing in my room.",
+    "new": "Cell theory says that all {{BLANK}} things are made of cells."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이게 내 방에서 유일하게 살아 있는 거야.",
+    "new": "세포설에 따르면 모든 살아 있는 것은 세포로 이루어져 있어."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Her {{BLANK}} to my joke was pretty cold.",
+    "new": "Newton's third law says every action has an equal and opposite {{BLANK}}."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "내 농담에 대한 걔 반응은 꽤 차가웠어.",
+    "new": "뉴턴의 제3법칙에 따르면 모든 작용에는 크기가 같고 방향이 반대인 반작용이 있어."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "reaction to ~: ~에 대한 반응. 동사는 react to ~.",
+    "new": "action and reaction은 작용과 반작용. reaction to ~: ~에 대한 반응. 동사는 react."
+   }
+  ],
+  "pipeline/out/set25.json": [
+   {
+    "path": [
+     1,
+     "words",
+     16,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Some {{BLANK}}s affect eye color.",
+    "new": "{{BLANK}}s are parts of DNA, and most carry instructions for making proteins."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     16,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "어떤 유전자는 눈 색깔에 영향을 줘.",
+    "new": "유전자는 DNA의 일부이고, 대부분은 단백질을 만드는 정보를 담고 있어."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     16,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "유전 정보를 지닌 단위. 유전자가 키나 눈 색깔 같은 특징에 영향을 준다.",
+    "new": "유전 정보를 지닌 단위. genetic(유전의)·genetics(유전학)와 한 가족."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Don't stand up while the bus is in {{BLANK}}.",
+    "new": "In 1687, Newton published his three laws of {{BLANK}}."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "버스가 움직이는 중일 땐 일어서지 마.",
+    "new": "1687년 뉴턴은 운동의 세 법칙을 발표했어."
+   }
+  ],
+  "pipeline/out/set26.json": [
+   {
+    "path": [
+     4,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "A {{BLANK}} kept half the class home last week.",
+    "new": "Antibiotics fight bacteria, but they don't work on {{BLANK}}es."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "바이러스 때문에 지난주에 반의 절반이 집에 있었어.",
+    "new": "항생제는 세균과 싸우지만, 바이러스에는 듣지 않아."
+   }
+  ],
+  "pipeline/out/set29.json": [
+   {
+    "path": [
+     1,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "I got a {{BLANK}} at the health center yesterday.",
+    "new": "In 1796, Edward Jenner made the world's first {{BLANK}}."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "나는 어제 보건소에서 백신을 맞았어.",
+    "new": "1796년 에드워드 제너는 세계 최초의 백신을 만들었어."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "get[have] a vaccine. 동사는 vaccinate. 강세 주의.",
+    "new": "라틴어 vacca(소)에서. 첫 백신이 소의 병(우두)에서 나왔다. get a vaccine. 강세는 뒤."
+   }
+  ],
+  "pipeline/out/set31.json": [
+   {
+    "path": [
+     8,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Some people are naturally {{BLANK}} to this disease.",
+    "new": "A vaccine trains the {{BLANK}} system to recognize a germ."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "어떤 사람들은 이 병에 선천적으로 면역이 있어.",
+    "new": "백신은 면역 체계가 병원균을 알아보도록 훈련시켜."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "My little brother folds paper {{BLANK}}s all day.",
+    "new": "The age of {{BLANK}}s began with the Wright brothers' first flight in 1903."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "내 남동생은 하루 종일 종이비행기를 접어.",
+    "new": "비행기의 시대는 1903년 라이트 형제의 첫 비행과 함께 시작되었어."
+   }
+  ],
+  "pipeline/out/set32.json": [
+   {
+    "path": [
+     3,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The empty boat began to {{BLANK}} out to sea.",
+    "new": "In 1912, Wegener argued that the continents slowly {{BLANK}} across the Earth."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "빈 배가 바다로 떠내려가기 시작했어.",
+    "new": "1912년 베게너는 대륙들이 지구 위를 천천히 떠간다고 주장했어."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "drift는 물·바람에 밀려 움직이다. float는 물에 떠 있는 상태에도 쓴다.",
+    "new": "물·바람에 밀려 떠가다. continental drift는 대륙 이동(설). float는 떠 있는 상태."
+   }
+  ],
+  "pipeline/out/set39.json": [
+   {
+    "path": [
+     8,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Our science teacher loves teaching {{BLANK}}.",
+    "new": "Mendel's 1866 paper on garden plants became the basis of {{BLANK}}."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 과학 선생님은 유전학 가르치는 걸 좋아하셔.",
+    "new": "멘델이 1866년에 정원 식물에 관해 쓴 논문은 유전학의 바탕이 되었어."
+   }
+  ],
+  "pipeline/out/set40.json": [
+   {
+    "path": [
+     0,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "My science teacher showed us a {{BLANK}} on video.",
+    "new": "In 1942, Enrico Fermi's team built the first nuclear {{BLANK}}."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "과학 선생님이 영상으로 원자로를 보여 주셨어.",
+    "new": "1942년 엔리코 페르미의 연구팀은 최초의 원자로를 만들었어."
+   }
+  ],
+  "pipeline/out/set41.json": [
+   {
+    "path": [
+     4,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "We cook with {{BLANK}}, not with gas.",
+    "new": "Faraday's discovery of {{BLANK}} in 1831 led to electric power plants."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 집은 가스 말고 인덕션으로 요리해.",
+    "new": "1831년 패러데이의 전자기 유도 발견은 발전소로 이어졌어."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     15,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "We used a math {{BLANK}} to solve it.",
+    "new": "In about 300 BC, Euclid proved many {{BLANK}}s from a few basic rules."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     15,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리는 그걸 풀려고 수학 정리를 썼어.",
+    "new": "기원전 300년쯤 유클리드는 몇 가지 기본 규칙(공리)에서 출발해 많은 정리를 증명했어."
+   }
+  ],
+  "pipeline/out/set42.json": [
+   {
+    "path": [
+     2,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} table hangs on the science room wall.",
+    "new": "Mendeleev's {{BLANK}} table of 1869 left spaces for elements not yet found."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "주기율표가 과학실 벽에 걸려 있어.",
+    "new": "멘델레예프가 1869년에 만든 주기율표는 아직 발견되지 않은 원소들의 자리를 비워 두었어."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "My brother is taking {{BLANK}} this year.",
+    "new": "In the late 1600s, Newton and Leibniz each developed {{BLANK}}."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 형은 올해 미적분을 배워.",
+    "new": "1600년대 후반 뉴턴과 라이프니츠는 각자 미적분을 발전시켰어."
+   }
+  ],
+  "pipeline/out/set43.json": [
+   {
+    "path": [
+     2,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The doctor prescribed an {{BLANK}} for my bacterial infection.",
+    "new": "If {{BLANK}}s are used too often, bacteria can evolve resistance."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "의사가 내 세균 감염을 치료할 항생제를 처방했어.",
+    "new": "항생제를 너무 자주 쓰면 세균이 내성을 갖도록 진화할 수 있어."
+   }
+  ],
+  "pipeline/out/set44.json": [
+   {
+    "path": [
+     7,
+     "words",
+     10,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "There is no exact {{BLANK}} between the two words.",
+    "new": "In 1905, Einstein proposed the {{BLANK}} of mass and energy."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     10,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 두 단어 사이에 정확한 등가는 없어.",
+    "new": "1905년 아인슈타인은 질량과 에너지의 등가를 제안했어."
+   }
+  ],
+  "pipeline/out/set45.json": [
+   {
+    "path": [
+     7,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The app will {{BLANK}} the song order for us.",
+    "new": "For a fair test, scientists {{BLANK}} which patients get the new drug."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 앱이 우리 대신 노래 순서를 무작위화해 줄 거야.",
+    "new": "공정한 실험을 위해 과학자들은 어느 환자가 새 약을 받을지 무작위로 정해."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "random(무작위의)+-ize. 실험에서 순서를 무작위로 정할 때 쓴다.",
+    "new": "random(무작위의)+-ize. 실험에서 대상이나 순서를 무작위로 정할 때 쓴다."
+   }
+  ],
+  "pipeline/out/set47.json": [
+   {
+    "path": [
+     8,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Moving to a new school requires {{BLANK}}.",
+    "new": "Thick fur is an {{BLANK}} to cold climates."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "새 학교로 옮기면 적응이 필요해.",
+    "new": "두꺼운 털은 추운 기후에 대한 적응이야."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "adapt(적응하다)+-ation(명사). 적응이라는 뜻에서 adjustment와 바꿔 쓸 수 있어.",
+    "new": "adapt(적응하다)+-ation. 생물의 적응은 adaptation, 생활 속 적응엔 adjustment도 써."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The city plans further {{BLANK}}.",
+    "new": "In 1929, Hubble found evidence of the universe's {{BLANK}}."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 도시는 추가 확장을 계획해.",
+    "new": "1929년 허블은 우주 팽창의 증거를 찾아냈어."
+   }
+  ],
+  "pipeline/out/set48.json": [
+   {
+    "path": [
+     0,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This {{BLANK}} lives in the soil.",
+    "new": "Trillions of {{BLANK}}s in our gut help us digest food."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 미생물은 토양 속에서 살아.",
+    "new": "장 속의 수조 마리 미생물은 우리가 음식을 소화하도록 도와."
+   }
+  ],
+  "pipeline/morphology.json": [
+   {
+    "path": [
+     "units",
+     17,
+     "cards",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Moving to a new school requires {{BLANK}}.",
+    "new": "Thick fur is an {{BLANK}} to cold climates."
+   },
+   {
+    "path": [
+     "units",
+     17,
+     "cards",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "새 학교로 옮기면 적응이 필요해.",
+    "new": "두꺼운 털은 추운 기후에 대한 적응이야."
+   },
+   {
+    "path": [
+     "units",
+     17,
+     "cards",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "adapt(적응하다)+-ation(명사). 적응이라는 뜻에서 adjustment와 바꿔 쓸 수 있어.",
+    "new": "adapt(적응하다)+-ation. 생물의 적응은 adaptation, 생활 속 적응엔 adjustment도 써."
+   },
+   {
+    "path": [
+     "units",
+     17,
+     "cards",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The city plans further {{BLANK}}.",
+    "new": "In 1929, Hubble found evidence of the universe's {{BLANK}}."
+   },
+   {
+    "path": [
+     "units",
+     17,
+     "cards",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 도시는 추가 확장을 계획해.",
+    "new": "1929년 허블은 우주 팽창의 증거를 찾아냈어."
+   },
+   {
+    "path": [
+     "units",
+     84,
+     "cards",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This {{BLANK}} lives in the soil.",
+    "new": "Trillions of {{BLANK}}s in our gut help us digest food."
+   },
+   {
+    "path": [
+     "units",
+     84,
+     "cards",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 미생물은 토양 속에서 살아.",
+    "new": "장 속의 수조 마리 미생물은 우리가 음식을 소화하도록 도와."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson02.json": [],
+  "pipeline/out/lesson04.json": [],
+  "pipeline/out/set07.json": [],
+  "pipeline/out/set08.json": [],
+  "pipeline/out/set12.json": [],
+  "pipeline/out/set13.json": [],
+  "pipeline/out/set15.json": [],
+  "pipeline/out/set18.json": [],
+  "pipeline/out/set19.json": [],
+  "pipeline/out/set20.json": [],
+  "pipeline/out/set22.json": [],
+  "pipeline/out/set23.json": [],
+  "pipeline/out/set24.json": [],
+  "pipeline/out/set25.json": [],
+  "pipeline/out/set26.json": [],
+  "pipeline/out/set29.json": [],
+  "pipeline/out/set31.json": [],
+  "pipeline/out/set32.json": [],
+  "pipeline/out/set39.json": [],
+  "pipeline/out/set40.json": [],
+  "pipeline/out/set41.json": [],
+  "pipeline/out/set42.json": [],
+  "pipeline/out/set43.json": [],
+  "pipeline/out/set44.json": [],
+  "pipeline/out/set45.json": [],
+  "pipeline/out/set47.json": [],
+  "pipeline/out/set48.json": [],
+  "pipeline/morphology.json": []
+ }
+}

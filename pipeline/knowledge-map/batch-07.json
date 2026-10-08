@@ -1,0 +1,363 @@
+{
+ "batch": 7,
+ "date": "2026-10-08",
+ "status": "applied",
+ "note": "11장 과학사 S01~S11 36장. 겹침 피하기: 세균설(germ)·1859 다윈(evolution)·관성/가속도(inertia·acceleration)·상대성(relativity)·핵분열 발전(nuclear)은 기존 카드가 맡아 bacteria는 1928 플레밍, origin은 그대로, motion은 1687 운동 법칙 발표, equivalence는 질량-에너지 등가로 썼다. 하나만 쌍: center(코페르니쿠스)/planet(1995 외계 행성), virus(항생제는 바이러스에 안 듣는다)/antibiotic(남용과 내성), bacteria(플레밍)/microbe(장내 미생물). data(F)는 S05 사실이 모두 차 있어 S01의 티코→케플러(자료가 법칙을 낳음)로 옮겼고, field ②(F)는 1905년을 빼고 '여러 분야'가 축인 이븐 시나로 바꿨다. once(판게아)와 drift(1912 베게너의 주장)는 과거 상태와 학설로 나눴다. b08(protein·antibody·star)·b10(scientific=포퍼, method는 b07)와도 겹치지 않게 했다.",
+ "kept": {
+  "seventeenth": "● 이미 지식 예문(17세기 과학혁명). F 없음.",
+  "telescope": "● 이미 지식 예문(1610년 갈릴레이, 목성의 위성 넷). 47·48 카드는 생활 쓰임으로 둔다.",
+  "law": "● ② 법칙 카드가 이미 'Newton's laws…'. 1687년 운동 법칙은 motion, 만유인력은 attract가 맡아 겹치지 않는다.",
+  "oxygen": "● 이미 지식 예문(1770년대 라부아지에, 연소와 산소).",
+  "photograph": "● 이미 지식 예문(1952년 X선 사진과 DNA).",
+  "structure": "● 이미 지식 예문(1953년 DNA 구조 모형).",
+  "origin": "1859년 다윈의 책은 evolution(26) 카드가 이미 맡았다. 책 제목 On the Origin of Species는 고유명사라 빈칸 금지(2-7). 지금의 '단어의 기원' 문장을 둔다.",
+  "medium": "● ② 매체 카드가 이미 지식 예문(라디오가 한때 뉴스의 주 매체)."
+ },
+ "new_word_proposals": [
+  {
+   "word": "smallpox",
+   "why": "S06 '1980년 천연두 박멸'은 사람이 백신으로 없앤 첫 병이라는 핵심 사실인데 smallpox가 표제어 밖이라 쓰지 못했다(vaccine은 대신 1796 제너로 씀). W16 콜럼버스 교환의 '유럽에서 온 병'도 대표가 천연두다.",
+   "sentence": "Thanks to {{BLANK}}s, smallpox was gone from the world by 1980. (vaccine 카드)"
+  },
+  {
+   "word": "magnet",
+   "why": "자석은 기본 과학어인데 표제어 밖이다. 1831년 패러데이 전자기 유도를 '움직이는 자석이 전류를 만든다'로 풀 수 없어 induction은 '발전소로 이어졌다'로 썼다.",
+   "sentence": "In 1831, Faraday found {{BLANK}}: a moving magnet makes electricity flow in a wire. (induction 카드)"
+  }
+ ],
+ "cards": [
+  {
+   "node": "S01 지동설과 망원경",
+   "word": "center",
+   "set": 4,
+   "si": 1,
+   "old_ex": "There's a big tree in the {{BLANK}} of the park.",
+   "ex": "In 1543, Copernicus placed the Sun, not the Earth, at the {{BLANK}} of the universe.",
+   "tr": "1543년 코페르니쿠스는 지구가 아니라 태양을 우주의 중심에 두었어."
+  },
+  {
+   "node": "S01 지동설과 망원경",
+   "word": "planet",
+   "set": 24,
+   "si": 1,
+   "old_ex": "Which {{BLANK}} is closest to the sun?",
+   "ex": "In 1995, scientists first found a {{BLANK}} circling another star like the Sun.",
+   "tr": "1995년 과학자들은 태양 같은 다른 별을 도는 행성을 처음으로 찾아냈어."
+  },
+  {
+   "node": "S01 지동설과 망원경",
+   "word": "data",
+   "set": 23,
+   "si": 1,
+   "old_ex": "In 1953, X-ray {{BLANK}} helped scientists understand DNA's structure.",
+   "ex": "Tycho Brahe's careful {{BLANK}} helped Kepler find out how planets move.",
+   "tr": "티코 브라헤의 꼼꼼한 관측 자료 덕분에 케플러는 행성이 어떻게 움직이는지 알아냈어."
+  },
+  {
+   "node": "S02 뉴턴",
+   "word": "white",
+   "set": 2,
+   "si": 1,
+   "old_ex": "Snow is {{BLANK}}.",
+   "ex": "In the 1660s, Newton showed that {{BLANK}} light is a mix of colors.",
+   "tr": "1660년대에 뉴턴은 흰빛이 여러 색이 섞인 것임을 보여 주었어."
+  },
+  {
+   "node": "S02 뉴턴",
+   "word": "attract",
+   "set": 13,
+   "si": 1,
+   "old_ex": "Free pizza {{BLANK}}ed a big crowd.",
+   "ex": "Newton's law of gravity says that all objects {{BLANK}} one another.",
+   "tr": "뉴턴의 중력 법칙에 따르면 모든 물체는 서로 끌어당겨.",
+   "c": "자석·중력처럼 물체를 끌어당기다. 사람·관심을 끌 때도 쓴다. attractive 매력적인."
+  },
+  {
+   "node": "S02 뉴턴",
+   "word": "reaction",
+   "set": 24,
+   "si": 1,
+   "old_ex": "Her {{BLANK}} to my joke was pretty cold.",
+   "ex": "Newton's third law says every action has an equal and opposite {{BLANK}}.",
+   "tr": "뉴턴의 제3법칙에 따르면 모든 작용에는 크기가 같고 방향이 반대인 반작용이 있어.",
+   "c": "action and reaction은 작용과 반작용. reaction to ~: ~에 대한 반응. 동사는 react."
+  },
+  {
+   "node": "S02 뉴턴",
+   "word": "motion",
+   "set": 25,
+   "si": 1,
+   "old_ex": "Don't stand up while the bus is in {{BLANK}}.",
+   "ex": "In 1687, Newton published his three laws of {{BLANK}}.",
+   "tr": "1687년 뉴턴은 운동의 세 법칙을 발표했어."
+  },
+  {
+   "node": "S03 세포와 현미경",
+   "word": "cell",
+   "set": 7,
+   "si": 1,
+   "old_ex": "Every living thing is made of {{BLANK}}s.",
+   "ex": "In 1665, Robert Hooke saw tiny boxes in a plant and named them {{BLANK}}s.",
+   "tr": "1665년 로버트 훅은 식물에서 작은 상자 같은 칸들을 보고 세포라고 이름 붙였어.",
+   "c": "라틴어 cella(작은 방)에서. 감방도 cell. 미국에선 휴대폰도 cell phone."
+  },
+  {
+   "node": "S03 세포와 현미경",
+   "word": "microscope",
+   "set": 22,
+   "si": 1,
+   "old_ex": "We looked at blood cells under a {{BLANK}}.",
+   "ex": "In the 1670s, Leeuwenhoek saw tiny living things through a {{BLANK}}.",
+   "tr": "1670년대에 레이우엔훅은 현미경으로 아주 작은 생물들을 보았어."
+  },
+  {
+   "node": "S03 세포와 현미경",
+   "word": "living",
+   "set": 24,
+   "si": 1,
+   "old_ex": "This is the only {{BLANK}} thing in my room.",
+   "ex": "Cell theory says that all {{BLANK}} things are made of cells.",
+   "tr": "세포설에 따르면 모든 살아 있는 것은 세포로 이루어져 있어."
+  },
+  {
+   "node": "S04 근대 화학",
+   "word": "atom",
+   "set": 20,
+   "si": 1,
+   "old_ex": "All things are made of very small {{BLANK}}s.",
+   "ex": "In the early 1800s, John Dalton said each element has its own kind of {{BLANK}}.",
+   "tr": "1800년대 초 존 돌턴은 원소마다 저마다의 원자가 있다고 말했어.",
+   "c": "그리스어 atomos(더 쪼갤 수 없는)에서. 형용사는 atomic."
+  },
+  {
+   "node": "S04 근대 화학",
+   "word": "periodic",
+   "set": 42,
+   "si": 1,
+   "old_ex": "The {{BLANK}} table hangs on the science room wall.",
+   "ex": "Mendeleev's {{BLANK}} table of 1869 left spaces for elements not yet found.",
+   "tr": "멘델레예프가 1869년에 만든 주기율표는 아직 발견되지 않은 원소들의 자리를 비워 두었어."
+  },
+  {
+   "node": "S05 진화와 유전",
+   "word": "gene",
+   "set": 25,
+   "si": 1,
+   "old_ex": "Some {{BLANK}}s affect eye color.",
+   "ex": "{{BLANK}}s are parts of DNA, and most carry instructions for making proteins.",
+   "tr": "유전자는 DNA의 일부이고, 대부분은 단백질을 만드는 정보를 담고 있어.",
+   "c": "유전 정보를 지닌 단위. genetic(유전의)·genetics(유전학)와 한 가족."
+  },
+  {
+   "node": "S05 진화와 유전",
+   "word": "genetics",
+   "set": 39,
+   "si": 1,
+   "old_ex": "Our science teacher loves teaching {{BLANK}}.",
+   "ex": "Mendel's 1866 paper on garden plants became the basis of {{BLANK}}.",
+   "tr": "멘델이 1866년에 정원 식물에 관해 쓴 논문은 유전학의 바탕이 되었어."
+  },
+  {
+   "node": "S05 진화와 유전",
+   "word": "adaptation",
+   "set": "47-48",
+   "si": null,
+   "old_ex": "Moving to a new school requires {{BLANK}}.",
+   "ex": "Thick fur is an {{BLANK}} to cold climates.",
+   "tr": "두꺼운 털은 추운 기후에 대한 적응이야.",
+   "c": "adapt(적응하다)+-ation. 생물의 적응은 adaptation, 생활 속 적응엔 adjustment도 써."
+  },
+  {
+   "node": "S06 세균과 백신",
+   "word": "bacteria",
+   "set": 18,
+   "si": 1,
+   "old_ex": "The scientist found {{BLANK}} in the water.",
+   "ex": "In 1928, Fleming saw that a mold could kill {{BLANK}}.",
+   "tr": "1928년 플레밍은 곰팡이가 세균을 죽일 수 있다는 것을 알아냈어."
+  },
+  {
+   "node": "S06 세균과 백신",
+   "word": "virus",
+   "set": 26,
+   "si": 1,
+   "old_ex": "A {{BLANK}} kept half the class home last week.",
+   "ex": "Antibiotics fight bacteria, but they don't work on {{BLANK}}es.",
+   "tr": "항생제는 세균과 싸우지만, 바이러스에는 듣지 않아."
+  },
+  {
+   "node": "S06 세균과 백신",
+   "word": "vaccine",
+   "set": 29,
+   "si": 1,
+   "old_ex": "I got a {{BLANK}} at the health center yesterday.",
+   "ex": "In 1796, Edward Jenner made the world's first {{BLANK}}.",
+   "tr": "1796년 에드워드 제너는 세계 최초의 백신을 만들었어.",
+   "c": "라틴어 vacca(소)에서. 첫 백신이 소의 병(우두)에서 나왔다. get a vaccine. 강세는 뒤."
+  },
+  {
+   "node": "S06 세균과 백신",
+   "word": "immune",
+   "set": 31,
+   "si": 1,
+   "old_ex": "Some people are naturally {{BLANK}} to this disease.",
+   "ex": "A vaccine trains the {{BLANK}} system to recognize a germ.",
+   "tr": "백신은 면역 체계가 병원균을 알아보도록 훈련시켜."
+  },
+  {
+   "node": "S06 세균과 백신",
+   "word": "antibiotic",
+   "set": 43,
+   "si": 1,
+   "old_ex": "The doctor prescribed an {{BLANK}} for my bacterial infection.",
+   "ex": "If {{BLANK}}s are used too often, bacteria can evolve resistance.",
+   "tr": "항생제를 너무 자주 쓰면 세균이 내성을 갖도록 진화할 수 있어."
+  },
+  {
+   "node": "S06 세균과 백신",
+   "word": "microbe",
+   "set": "47-48",
+   "si": null,
+   "old_ex": "This {{BLANK}} lives in the soil.",
+   "ex": "Trillions of {{BLANK}}s in our gut help us digest food.",
+   "tr": "장 속의 수조 마리 미생물은 우리가 음식을 소화하도록 도와."
+  },
+  {
+   "node": "S07 전기와 현대 물리",
+   "word": "field",
+   "set": 4,
+   "si": 2,
+   "old_ex": "Einstein's 1905 papers changed the {{BLANK}} of physics.",
+   "ex": "In the 1000s, Ibn Sina wrote on many {{BLANK}}s, from medicine to philosophy.",
+   "tr": "1000년대에 이븐 시나는 의학에서 철학까지 여러 분야에 관해 글을 썼어."
+  },
+  {
+   "node": "S07 전기와 현대 물리",
+   "word": "reactor",
+   "set": 40,
+   "si": 1,
+   "old_ex": "My science teacher showed us a {{BLANK}} on video.",
+   "ex": "In 1942, Enrico Fermi's team built the first nuclear {{BLANK}}.",
+   "tr": "1942년 엔리코 페르미의 연구팀은 최초의 원자로를 만들었어."
+  },
+  {
+   "node": "S07 전기와 현대 물리",
+   "word": "induction",
+   "set": 41,
+   "si": 2,
+   "old_ex": "We cook with {{BLANK}}, not with gas.",
+   "ex": "Faraday's discovery of {{BLANK}} in 1831 led to electric power plants.",
+   "tr": "1831년 패러데이의 전자기 유도 발견은 발전소로 이어졌어."
+  },
+  {
+   "node": "S07 전기와 현대 물리",
+   "word": "equivalence",
+   "set": 44,
+   "si": 1,
+   "old_ex": "There is no exact {{BLANK}} between the two words.",
+   "ex": "In 1905, Einstein proposed the {{BLANK}} of mass and energy.",
+   "tr": "1905년 아인슈타인은 질량과 에너지의 등가를 제안했어."
+  },
+  {
+   "node": "S08 지구와 우주의 역사",
+   "word": "once",
+   "set": 2,
+   "si": 3,
+   "old_ex": "This town was {{BLANK}} very quiet.",
+   "ex": "Earth's continents were {{BLANK}} joined in one giant continent, Pangaea.",
+   "tr": "지구의 대륙들은 한때 판게아라는 거대한 대륙 하나로 붙어 있었어."
+  },
+  {
+   "node": "S08 지구와 우주의 역사",
+   "word": "universe",
+   "set": 12,
+   "si": 1,
+   "old_ex": "How many stars are in the {{BLANK}}?",
+   "ex": "The {{BLANK}} began with the Big Bang about 13.8 billion years ago.",
+   "tr": "우주는 약 138억 년 전 빅뱅과 함께 시작되었어."
+  },
+  {
+   "node": "S08 지구와 우주의 역사",
+   "word": "drift",
+   "set": 32,
+   "si": 1,
+   "old_ex": "The empty boat began to {{BLANK}} out to sea.",
+   "ex": "In 1912, Wegener argued that the continents slowly {{BLANK}} across the Earth.",
+   "tr": "1912년 베게너는 대륙들이 지구 위를 천천히 떠간다고 주장했어.",
+   "c": "물·바람에 밀려 떠가다. continental drift는 대륙 이동(설). float는 떠 있는 상태."
+  },
+  {
+   "node": "S08 지구와 우주의 역사",
+   "word": "expansion",
+   "set": "47-48",
+   "si": null,
+   "old_ex": "The city plans further {{BLANK}}.",
+   "ex": "In 1929, Hubble found evidence of the universe's {{BLANK}}.",
+   "tr": "1929년 허블은 우주 팽창의 증거를 찾아냈어."
+  },
+  {
+   "node": "S10 발명과 기술",
+   "word": "invention",
+   "set": 19,
+   "si": 1,
+   "old_ex": "The telephone was a great {{BLANK}}.",
+   "ex": "The telephone, a great {{BLANK}} of 1876, carried voices over wires.",
+   "tr": "1876년의 위대한 발명품인 전화는 전선으로 목소리를 실어 날랐어."
+  },
+  {
+   "node": "S10 발명과 기술",
+   "word": "airplane",
+   "set": 31,
+   "si": 1,
+   "old_ex": "My little brother folds paper {{BLANK}}s all day.",
+   "ex": "The age of {{BLANK}}s began with the Wright brothers' first flight in 1903.",
+   "tr": "비행기의 시대는 1903년 라이트 형제의 첫 비행과 함께 시작되었어."
+  },
+  {
+   "node": "S11 과학적 방법",
+   "word": "method",
+   "set": 8,
+   "si": 1,
+   "old_ex": "Our teacher has a strange teaching {{BLANK}}.",
+   "ex": "The scientific {{BLANK}} tests ideas by checking them against evidence.",
+   "tr": "과학적 방법은 생각을 증거에 비추어 확인하며 검증해."
+  },
+  {
+   "node": "S11 과학적 방법",
+   "word": "randomize",
+   "set": 45,
+   "si": 1,
+   "old_ex": "The app will {{BLANK}} the song order for us.",
+   "ex": "For a fair test, scientists {{BLANK}} which patients get the new drug.",
+   "tr": "공정한 실험을 위해 과학자들은 어느 환자가 새 약을 받을지 무작위로 정해.",
+   "c": "random(무작위의)+-ize. 실험에서 대상이나 순서를 무작위로 정할 때 쓴다."
+  },
+  {
+   "node": "S09 수학사",
+   "word": "angle",
+   "set": 15,
+   "si": 1,
+   "old_ex": "Draw a line at a 45-degree {{BLANK}}.",
+   "ex": "On a flat surface, a triangle's three {{BLANK}}s add up to 180 degrees.",
+   "tr": "평면에서 삼각형의 세 각을 더하면 180도가 돼."
+  },
+  {
+   "node": "S09 수학사",
+   "word": "theorem",
+   "set": 41,
+   "si": 1,
+   "old_ex": "We used a math {{BLANK}} to solve it.",
+   "ex": "In about 300 BC, Euclid proved many {{BLANK}}s from a few basic rules.",
+   "tr": "기원전 300년쯤 유클리드는 몇 가지 기본 규칙(공리)에서 출발해 많은 정리를 증명했어."
+  },
+  {
+   "node": "S09 수학사",
+   "word": "calculus",
+   "set": 42,
+   "si": 1,
+   "old_ex": "My brother is taking {{BLANK}} this year.",
+   "ex": "In the late 1600s, Newton and Leibniz each developed {{BLANK}}.",
+   "tr": "1600년대 후반 뉴턴과 라이프니츠는 각자 미적분을 발전시켰어."
+  }
+ ]
+}
