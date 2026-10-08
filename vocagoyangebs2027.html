@@ -4389,19 +4389,20 @@ function msRun(ov,canvas,cx,info,num,light){
   const blast=(x,y,k,r)=>{blasts.push({x,y,k,r,life:0});                   // 단어가 제 빛으로 터지며 불티가 튄다
     for(let i=0;i<7;i++){const a=Math.random()*Math.PI*2,sp=1.5+Math.random()*3.5;sparks.push({x,y,vx:Math.cos(a)*sp,vy:Math.sin(a)*sp,dot:true,k,life:0,max:22+Math.random()*16,drag:1,g:0});}};
   /* 앞선 단어의 폭죽(2,000부터, 26.10.08 영신): 천 단어 묶음마다 한 발이 아래에서 솟아 터지고, 숫자가 천씩 뛴다.
-     한 발의 알갱이 천 개가 곧 그 천 단어다. 백스무 개는 글자로 보이고(틀렸던 단어 먼저, 금빛), 나머지는 빛 알갱이다. */
-  const SKY=[[.42,.6],[.6,.68],[.5,.54],[.4,.72],[.6,.57],[.5,.66]];       // 숫자 아래 빈 어둠에서, 화면 안으로
+     한 발의 알갱이 천 개가 곧 그 천 단어다. 백스무 개는 글자로 보이고(틀렸던 단어 먼저, 금빛), 나머지는 빛 알갱이다.
+     화면 전체로 터진다(영신: "폭죽 크기만 최대한 키우자 어차피 식별이 중요한 게 아니니까 화면 전체에"). 가운데서 터져 알갱이가 네 귀퉁이 너머까지 간다. */
+  const SKY=[[.5,.56],[.44,.6],[.56,.52],[.48,.64],[.54,.58],[.5,.5]];       // 숫자 아래 화면 가운데
   const recap=warp?msChunks(m).map(([a,b],c)=>{const [x,y]=SKY[c%SKY.length];return {a,b,at:c*plan.recapGap,x:W*x+(Math.random()-.5)*W*.06,y:H*y+(Math.random()-.5)*H*.04,k:1+c%5,up:false};}):[];
   const bump=()=>{const b=num.parentNode;b.classList.remove('pop');void b.offsetWidth;b.classList.add('pop');};   // 숫자가 뛸 때마다 다시 튄다
   const firework=r=>{
-    fired++;bump();flashes.push({x:r.x,y:r.y,k:r.k,life:0});msSound('boom');
-    const R=Math.min(W*.4,H*.24)*(.92+Math.random()*.1),TXT=low?50:120,gw=[],pw=[];
+    fired++;bump();flashes.push({x:r.x,y:r.y,k:r.k,life:0,s:2.6});msSound('boom');
+    const R=Math.hypot(W,H)*(.5+Math.random()*.08),TXT=low?50:120,gw=[],pw=[];   // 가운데에서 귀퉁이까지가 대각선의 절반
     for(let i=r.a;i<r.b;i++)(gold[i]?gw:pw).push(i);
     const txt=new Set(gw.slice(0,TXT>>1)),need=TXT-txt.size;
     for(let s=0;s<need&&pw.length;s++)txt.add(pw[Math.floor(s*pw.length/need)]);   // 나머지 글자는 묶음 안에서 고르게
     for(let i=r.a;i<r.b;i++){const a=Math.random()*Math.PI*2,k=gold[i]?0:Math.random()<.8?r.k:1+Math.floor(Math.random()*5);   // 금빛은 틀렸던 단어에만
-      if(txt.has(i)){const sp=(.2+.8*Math.sqrt(Math.random()))*R*.05;sparks.push({x:r.x,y:r.y,vx:Math.cos(a)*sp,vy:Math.sin(a)*sp,t:word(i),k,s:rnd(SIZES.slice(0,3)),life:0,max:62+Math.random()*30,drag:.955,g:.035});}
-      else if(!low||i%3===0){const sp=(.15+.85*Math.sqrt(Math.random()))*R*.056;sparks.push({x:r.x,y:r.y,vx:Math.cos(a)*sp,vy:Math.sin(a)*sp,dot:true,r:1+Math.random()*1.4,k,life:0,max:38+Math.random()*44,drag:.95,g:.05});}}
+      if(txt.has(i)){const sp=(.2+.8*Math.sqrt(Math.random()))*R*.05;sparks.push({x:r.x,y:r.y,vx:Math.cos(a)*sp,vy:Math.sin(a)*sp,t:word(i),k,s:rnd(SIZES),life:0,max:72+Math.random()*32,drag:.955,g:.035});}
+      else if(!low||i%3===0){const sp=(.15+.85*Math.sqrt(Math.random()))*R*.056;sparks.push({x:r.x,y:r.y,vx:Math.cos(a)*sp,vy:Math.sin(a)*sp,dot:true,r:1.4+Math.random()*1.6,k,life:0,max:56+Math.random()*40,drag:.95,g:.05});}}
   };
   const launch=now=>{const el=now-t0;
     for(const r of recap)if(!r.up&&el>=r.at){r.up=true;rockets.push({r,x0:r.x+(Math.random()-.5)*W*.12,y0:H+12});}};
@@ -4518,7 +4519,7 @@ function msRun(ov,canvas,cx,info,num,light){
         cx.globalAlpha=Math.random()<.9?.85:.3;cx.drawImage(glow[p.k],p.x-p.r*2,p.y-p.r*2,p.r*4,p.r*4);}
     }
     for(let i=flashes.length-1;i>=0;i--){const fl=flashes[i];fl.life+=f;const a=1-fl.life/14;if(a<=0){flashes.splice(i,1);continue;}
-      const r=50+fl.life*9;cx.globalAlpha=a;cx.drawImage(glow[fl.k],fl.x-r,fl.y-r,r*2,r*2);}
+      const r=(50+fl.life*9)*(fl.s||1);cx.globalAlpha=a;cx.drawImage(glow[fl.k],fl.x-r,fl.y-r,r*2,r*2);}
     cx.lineWidth=1.4;
     for(const p of sparks){const a=alphaOf(p);
       if(p.dot){const r=p.r?p.r+Math.random()*1.2:2.5+Math.random()*3;cx.globalAlpha=a*(Math.random()<.85?1:.25);cx.drawImage(glow[p.k],p.x-r,p.y-r,r*2,r*2);continue;}
