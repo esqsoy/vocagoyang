@@ -84,6 +84,8 @@ Browser QA covers 320 px, 390 px and desktop widths, the reviewed photographic m
 
 2026-09-29 timing adjustment: reduce the normal reveal delay by 20%. Mother Tongue/EBS use 1,200 ms; FABLE keeps its explanation-length and retry-round rules, scaled to 80% (minimum no-note delay 1,760 ms, maximum 12 s, retry cap 4 s). Speech still finishes before automatic progression, while manual next remains unchanged. This replaced the original correct-answer timers; the subsequent copy-parity fix applies the same timers to completed copies.
 
+2026-10-08 FABLE restored: the operator reconfirmed that FABLE's reveal delay is a reading-time budget for the explanation (75 ms per character + 1.9 s, max 15 s, retry cap 5 s), decided on 2026-09-17, so the 80% scaling was removed from FABLE only. Mother Tongue/EBS keep 1,200 ms pending a separate decision.
+
 2026-09-29 copy parity: a completed correction restarts pronunciation and IPA effects over canonical revealed slots, cancels any older error-reveal audio, and follows the course's normal reveal delay plus speech completion. Wrong-attempt counts, retry requirements, and perfect-streak eligibility remain unchanged.
 
 2026-09-29 combined feedback: restored the original heart burst for correct answers and completed copies alongside pronunciation. Heart sizing, speed, opacity and combo behaviour are unchanged. IPA is at z-index 41 above the existing effect layer at 40, so the heart outline cannot cover the phonetic symbols. Replay taps only replay pronunciation; they do not retrigger the answer heart.

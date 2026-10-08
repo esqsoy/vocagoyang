@@ -22,6 +22,9 @@ html,body{height:100%;margin:0;}
 body{
   font-family:"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",system-ui,sans-serif;
   color:var(--ink);
+  /* 한국어는 낱말 단위로 줄을 바꾼다. 없으면 "가리/켜"처럼 낱말 중간에서 끊겨
+     폰(390px)에서 해설의 43%가 읽다 걸린다(26.10.08 실측). 칸을 넘칠 만큼 긴 낱말만 쪼갠다. */
+  word-break:keep-all;overflow-wrap:break-word;
   background:
     radial-gradient(circle at 16% 14%, rgba(255,79,163,.30), transparent 30%),
     radial-gradient(circle at 84% 10%, rgba(92,230,255,.16), transparent 26%),
@@ -167,7 +170,7 @@ body.playing .app{gap:8px;padding:max(6px,env(safe-area-inset-top)) 6px max(8px,
 .gtl{display:flex;align-items:baseline;gap:6px;min-width:0;}
 .kick{color:var(--ink);font-size:.74rem;font-weight:900;flex:none;}
 .gtitle{font-size:.86rem;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--muted);}
-.gstat{display:flex;align-items:center;gap:8px;flex:none;font-size:.82rem;}
+.gstat{display:flex;align-items:center;gap:8px;flex:none;font-size:.82rem;flex-wrap:wrap;justify-content:flex-end;row-gap:2px;} /* wrap: 낱말을 쪼개지 않아도(keep-all) 320px에서 넘치지 않게. 실제로는 한 줄 유지 */
 .gstat b{font-weight:900;} .gstat .t-time{color:var(--cyansoft);font-variant-numeric:tabular-nums;} .gstat .t-err{color:var(--bad2);}
 .gstat .t-err i{font-style:normal;color:var(--muted);font-weight:700;font-size:.72rem;}
 .roundpill{flex:none;color:var(--muted);font-weight:800;font-size:.82rem;}

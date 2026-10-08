@@ -2,7 +2,7 @@ const assert=require('node:assert/strict'),path=require('node:path');
 const {harness,root}=require('../../tests/helpers/mother-tongue-harness.cjs');
 const files=['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyangebs2027.html'];
 for(const file of files){
- const fable=file.includes('fable'),delay=fable?1760:1200;
+ const fable=file.includes('fable'),delay=fable?2200:1200; // FABLE은 해설 읽을 시간 예산 원값(26.10.08 복원)
  const make=()=>{const h=harness(path.join(root,file),{},{manualSpeech:true});h.start();return h;};
  const answer=h=>{
   const session=h.state.session,word=session.words[session.currentId],id=session.currentId;

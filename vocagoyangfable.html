@@ -22,6 +22,9 @@ html,body{height:100%;margin:0;}
 body{
   font-family:"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",system-ui,sans-serif;
   color:var(--ink);
+  /* 한국어는 낱말 단위로 줄을 바꾼다. 없으면 "가리/켜"처럼 낱말 중간에서 끊겨
+     폰(390px)에서 해설의 43%가 읽다 걸린다(26.10.08 실측). 칸을 넘칠 만큼 긴 낱말만 쪼갠다. */
+  word-break:keep-all;overflow-wrap:break-word;
   background:
     radial-gradient(circle at 16% 14%, rgba(255,79,163,.30), transparent 30%),
     radial-gradient(circle at 84% 10%, rgba(92,230,255,.16), transparent 26%),
@@ -167,7 +170,7 @@ body.playing .app{gap:8px;padding:max(6px,env(safe-area-inset-top)) 6px max(8px,
 .gtl{display:flex;align-items:baseline;gap:6px;min-width:0;}
 .kick{color:var(--ink);font-size:.74rem;font-weight:900;flex:none;}
 .gtitle{font-size:.86rem;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--muted);}
-.gstat{display:flex;align-items:center;gap:8px;flex:none;font-size:.82rem;}
+.gstat{display:flex;align-items:center;gap:8px;flex:none;font-size:.82rem;flex-wrap:wrap;justify-content:flex-end;row-gap:2px;} /* wrap: 낱말을 쪼개지 않아도(keep-all) 320px에서 넘치지 않게. 실제로는 한 줄 유지 */
 .gstat b{font-weight:900;} .gstat .t-time{color:var(--cyansoft);font-variant-numeric:tabular-nums;} .gstat .t-err{color:var(--bad2);}
 .gstat .t-err i{font-style:normal;color:var(--muted);font-weight:700;font-size:.72rem;}
 .roundpill{flex:none;color:var(--muted);font-weight:800;font-size:.82rem;}
@@ -2745,7 +2748,10 @@ function fillBlank(ex,ans){return esc(ex||"").split("{{BLANK}}").join(`<b class=
 function hoeCtxHtml(w){return w.ex?`<div class="ex">${maskBlank(w.ex,w.term)}</div>`:"";}
 function catNote(c){return `<div class="ov-c">${esc(c)}</div>`;}
 function hoeMid(w){let h="";if(w.ex)h+=`<div class="ov-ex">${fillBlank(w.ex,w.term)}</div>`;if(w.tr)h+=`<div class="ov-tr">${esc(w.tr)}</div>`;return h;}
-function revealDelay(w){var d=w.c?Math.min(15000,Math.round(1900+w.c.length*75)):2200;var s=state.session;if(s&&s.round>=2)d=Math.min(d,5000);return Math.round(d*.8);}
+/* 해설 읽을 시간 예산: 1자당 75ms(초당 약 13자) + 기본 1.9초, 최대 15초. 줄이지 말 것.
+   맞힌 학생은 뜻을 이미 알지만 해설은 처음 본다 — "맞혀서 해설을 못 보게 되는" 것이 이 게임의 약점이라
+   읽을 시간을 보장한다(26.9.17 영신과 토론해 확정). 26.9.29에 80%로 줄었던 것을 26.10.08 영신 지시로 복원. */
+function revealDelay(w){var d=w.c?Math.min(15000,Math.round(1900+w.c.length*75)):2200;var s=state.session;if(s&&s.round>=2)d=Math.min(d,5000);return d;}
 function onRevealKey(e){if(composingKey(e)||e.target?.closest?.(".answer-replay,#catSubmit"))return;if(e.key==="Enter"||e.key===" "||e.code==="Space"){const s=state.session;if(s&&s.answered&&!s.copyMode){e.preventDefault();doNext();}}}
 function onRevealTap(e){const s=state.session;if(!s||!s.answered||s.copyMode)return;if(s.revealAt&&(Date.now()-s.revealAt)<280)return;if(e.target&&e.target.closest&&e.target.closest("button,a,textarea,select")||(e.target.closest("input")&&e.target.id!=="ainput"))return;doNext();}
 function doNext(){const s=state.session;if(!s||!s.answered||s.copyMode)return;if(s.revealTimer){clearTimeout(s.revealTimer);s.revealTimer=null;}document.removeEventListener("keydown",onRevealKey);document.removeEventListener("click",onRevealTap);nextCard();}

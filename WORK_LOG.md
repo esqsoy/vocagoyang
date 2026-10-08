@@ -428,6 +428,13 @@
 
 앱 [cba570b](https://github.com/esqsoy/vocagoyang/commit/cba570b4db3e2ca99f50593ea3c801cedc6e8e72)를 origin/main에 푸시했고 [Pages 37666526957](https://github.com/esqsoy/vocagoyang/actions/runs/37666526957) completed/success, 공개 인덱스·세 과정 HTTP 200 및 로컬 검증본과 LF 정규화 SHA-256 일치를 확인했다. 승인된 25안과 원본 공유 May를 배포했다. country 43은 새 제안 상태로 남겼다. 검증 결과는 release-02.json에 기록했다. 후속 작업은 제작 기준 토의 후이며 이 기록 커밋은 앱 파일을 변경하지 않는다.
 
+## 2026-10-08 · Claude 리뷰 후속: 해설 읽을 시간 복원·한국어 줄바꿈
+
+- 요청·결정: Claude가 최신판 전체를 리뷰했다(테스트 32개·플레이·카드 1,794장 검수). 영신 결정: (C) FABLE 정답 공개 대기 시간을 원값으로 복원. 이 값은 26.9.17 영신과 토론해 정한 **해설 읽을 시간 예산**(1자당 75ms+1.9초, 최대 15초)이다. 26.9.29에 80%로 줄었는데, 그 근거가 문서에 남지 않아 생긴 일로 보고 복원한다. 줄바꿈 수정은 Claude 제안이다.
+- 반영: `vocagoyangfable.html` `revealDelay`에서 ×0.8을 제거하고 이유를 주석으로 남겼다. `pipeline/ipa-effects/tests/host-hooks.test.cjs`의 FABLE 기대값을 1760→2200ms로 바꿨다. `pipeline/ipa-effects/README.md`에 복원 사유를 적었다. 마더텅·EBS의 1,200ms는 별도 결정 대기라 그대로다. 세 과정과 index의 body에 `word-break:keep-all; overflow-wrap:break-word`를 넣었다. 그 결과 320px 진행 패널이 5px 넘쳐서 `.gstat`에 `flex-wrap:wrap`을 넣어 고쳤다. 화면은 이전과 같다.
+- 검증: 해설이 낱말 중간에서 끊기는 카드는 390px 기준 2,793/6,449 → 12. 세 과정 × 320/360/390px × 앞·중간·끝 세트의 문제·정답·오답·따라쓰기 화면에서 가로 넘침 0, 스크립트 오류 0. Codex 검사 32개를 연속 2회 통과했다. 원본 재조립 뒤에도 변경이 유지된다(생성 구간 밖). 실기기 Safari는 확인하지 않았다.
+- 상태: 로컬 커밋, 작업 브랜치 `claude/brave-clarke-rixqvy`. 배포하지 않았다.
+
 ## 다음 기록 형식
 
 
