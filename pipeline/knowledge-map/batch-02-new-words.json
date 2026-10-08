@@ -1,8 +1,8 @@
 {
  "batch": 2,
  "date": "2026-10-08",
- "status": "draft_for_youngsin_review",
- "note": "새 표제어 46개. 지식 어휘 Ⅰ~Ⅳ 연습으로 16·26·34·42세트 끝에 붙인다. burial(1묶음)은 pyramid와 함께.",
+ "status": "applied_20261008",
+ "note": "새 표제어 46개. 지식 어휘 Ⅰ~Ⅳ 연습으로 16·26·34·42세트 끝에 붙인다. burial(1묶음)은 pyramid와 함께. 영신 26.10.08: theory·selection·fuel·ape도 추가, 상대성은 'theory of relativity'로. 적용: 26.10.08 원장 claude-review-20261008/knowledge-02.json.",
  "cards": [
   {
    "word": "dinosaur",
@@ -685,14 +685,74 @@
    "pos": "n.",
    "ipa": "ˌrɛləˈtɪvəti",
    "ko": "① 상대성",
-   "ex": "Einstein's {{BLANK}} showed that time can pass at different speeds.",
-   "tr": "아인슈타인의 상대성 이론은 시간이 서로 다른 빠르기로 흐를 수 있음을 보여 주었어.",
-   "c": "relative(상대적인)의 명사. 특수 상대성(1905)과 일반 상대성(1915).",
+   "ex": "Einstein's theory of {{BLANK}} says that time can slow down.",
+   "tr": "아인슈타인의 상대성 이론에 따르면 시간은 느려질 수 있어.",
+   "c": "relative(상대적인)의 명사. 특수 상대성 이론(1905)과 일반 상대성 이론(1915).",
    "si": 1,
    "sn": 1,
    "node": "S07 현대 물리",
    "group": "지식 어휘 Ⅳ",
    "set": 42
+  },
+  {
+   "word": "theory",
+   "en": "theory",
+   "pos": "n.",
+   "ipa": "ˈθiəri",
+   "ko": "① 이론",
+   "ex": "In science, a {{BLANK}} is an explanation backed by a lot of evidence.",
+   "tr": "과학에서 이론은 많은 증거로 뒷받침되는 설명이야.",
+   "c": "일상에서는 '추측'처럼도 쓰지만, 과학의 theory는 검증된 설명. 검증 전의 생각은 hypothesis(가설).",
+   "si": 1,
+   "sn": 1,
+   "node": "S11 과학적 방법",
+   "group": "지식 어휘 Ⅰ",
+   "set": 16
+  },
+  {
+   "word": "fuel",
+   "en": "fuel",
+   "pos": "n.",
+   "ipa": "ˈfjuəl",
+   "ko": "① 연료",
+   "ex": "Burning fossil {{BLANK}}s is the main cause of climate change.",
+   "tr": "화석 연료를 태우는 것이 기후 변화의 주된 원인이야.",
+   "c": "fossil fuel(화석 연료): 석탄·석유·천연가스.",
+   "si": 1,
+   "sn": 1,
+   "node": "C05 기후와 환경",
+   "group": "지식 어휘 Ⅰ",
+   "set": 16
+  },
+  {
+   "word": "selection",
+   "en": "selection",
+   "pos": "n.",
+   "ipa": "sɪˈlɛkʃən",
+   "ko": "① 선택, 선발",
+   "ex": "Natural {{BLANK}} favors living things that fit their environment.",
+   "tr": "자연선택은 환경에 잘 맞는 생물에게 유리하게 작용해.",
+   "c": "동사는 select. natural selection(자연선택)은 다윈 진화론의 핵심.",
+   "si": 1,
+   "sn": 1,
+   "node": "S05 진화와 유전",
+   "group": "지식 어휘 Ⅱ",
+   "set": 26
+  },
+  {
+   "word": "ape",
+   "en": "ape",
+   "pos": "n.",
+   "ipa": "eɪp",
+   "ko": "① 유인원",
+   "ex": "Humans and {{BLANK}}s share a common ancestor.",
+   "tr": "인간과 유인원은 공통 조상을 가지고 있어.",
+   "c": "침팬지·고릴라처럼 꼬리 없는 큰 원숭이류. 꼬리 있는 원숭이는 monkey.",
+   "si": 1,
+   "sn": 1,
+   "node": "W01 인류의 기원",
+   "group": "지식 어휘 Ⅱ",
+   "set": 26
   }
  ]
 }

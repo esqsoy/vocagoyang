@@ -19,7 +19,8 @@ for n in range(5, 46):
     if n < 23:
         start, end = (n-5)*100+401, min((n-4)*100+400, 2183)
     else:
-        start, end = exs[0]['name'].split('~')[0], exs[-1]['name'].split('~')[1]
+        ranged = [e['name'] for e in exs if '~' in e['name']]   # 26.10.08 지식 어휘 연습(범위 없는 이름)은 제외
+        start, end = ranged[0].split('~')[0], ranged[-1].split('~')[1]
     data.append({'lesson':n, 'label':f'{n}세트', 'name':f'{start}~{end}', 'exercises':exs})
 
 core = read(P / 'reading-core.json')

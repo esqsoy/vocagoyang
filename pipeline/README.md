@@ -30,6 +30,8 @@
 - 후속 선정·전수 재독해 근거: connection-review/. selection-before-reread.json은 수정 이전의 역사적 선정안이다.
 - 앱 코드와 스타일: ../vocagoyangfable.html.
 
+5~45세트 원본의 묶음 이름은 보통 번호 범위(`2484~2493`)다. 26.10.08 지식 예문 작업으로 16·26·34·42세트 끝에 붙인 '지식 어휘 Ⅰ~Ⅳ'는 범위가 없는 이름이고, 세트 이름의 범위는 범위가 있는 묶음만으로 계산한다([근거](../PRINCIPLES.md#2-6-지식-예문은-지도부터-막히는-어휘는-더한다)).
+
 out/set46~50.json은 조립 과정에서 생성된다. 이를 직접 수정하지 말고 해당 원본 JSON을 수정한다. assemble.py는 DATA와 READING_CORE, MORPHOLOGY, CONNECTIONS 메타데이터를 HTML에 함께 반영한다. HTML을 잃으면 Git에서 복원하고, 원본 JSON이 없거나 손상된 경우에만 disassemble.py로 HTML에서 복원한다.
 
 DATA와 JSON의 exercises는 편집용 주제 묶음이다. 실제 연습은 HTML의 splitExercises(buildLessons())에서 구성한다. headwordRanges()는 같은 표제어의 첫 등장부터 마지막 등장 사이를 자르지 않는 경계만 허용한다. 그 경계 중에서 11카드에 가까운 분량과 여러 표제어의 혼합을 선호한다. 다의어를 한곳에 모으는 조건이 장수보다 우선하며 고정 상한은 없다. 현재 최대 15카드다. 원래 짧은 주제나 표제어 경계 때문에 일부 4~7카드 연습도 유지한다. 원본 순서·카드 내용·과정 참조는 유지한다.

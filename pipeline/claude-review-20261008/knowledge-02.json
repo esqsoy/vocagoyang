@@ -1,0 +1,1421 @@
+{
+ "date": "2026-10-08",
+ "name": "knowledge-02",
+ "status": "applied_locally_verified",
+ "authorization": "26.10.08 영신: '예술이야! 완벽합니다' — 새 단어 46개와 theory·selection·fuel·ape 추가, burial 반영, 상대성은 theory of relativity로.",
+ "summary": "지식 어휘 Ⅰ~Ⅳ(16·26·34·42세트 끝) 새 표제어 50개와 burial 예문.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "d07ca9bb41b18f0a24e1b19cb655d3c8069093364c7fdc34f5d262229071c938",
+   "afterHash": "1f63dc420476fdb5b2cde709c0c58af30f68fab619d0bccb2e43a7b9f6a307e3",
+   "changes": [
+    {
+     "path": [
+      16,
+      "exercises",
+      10
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": {
+      "ex": 11,
+      "name": "지식 어휘 Ⅰ",
+      "words": [
+       {
+        "en": "dinosaur",
+        "ko": "① 공룡",
+        "ex": "Scientists say that birds evolved from {{BLANK}}s.",
+        "tr": "과학자들은 새가 공룡에서 진화했다고 말해.",
+        "c": "그리스어 deinos(무서운)+sauros(도마뱀): '무서운 도마뱀'.",
+        "ipa": "ˈdaɪnəˌsɔr",
+        "pos": "n.",
+        "word": "dinosaur",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "astronaut",
+        "ko": "① 우주비행사",
+        "ex": "Neil Armstrong was the first {{BLANK}} to walk on the Moon.",
+        "tr": "닐 암스트롱은 달 위를 걸은 첫 우주비행사였어.",
+        "c": "astro(별)+naut(항해자): '별의 항해자'.",
+        "ipa": "ˈæstrəˌnɔt",
+        "pos": "n.",
+        "word": "astronaut",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "volcano",
+        "ko": "① 화산",
+        "ex": "In AD 79, a {{BLANK}} buried the Roman city of Pompeii.",
+        "tr": "서기 79년, 화산이 로마 도시 폼페이를 묻어 버렸어.",
+        "c": "로마 불의 신 Vulcan에서 온 말. 화산이 터지는 것은 erupt.",
+        "ipa": "vɑlˈkeɪnoʊ",
+        "pos": "n.",
+        "word": "volcano",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "explore",
+        "ko": "① 탐험하다, 탐구하다",
+        "ex": "In the 1400s, Portuguese sailors began to {{BLANK}} the coast of Africa.",
+        "tr": "1400년대에 포르투갈 선원들은 아프리카 해안을 탐험하기 시작했어.",
+        "c": "탐험가는 explorer, 탐험은 exploration.",
+        "ipa": "ɪkˈsplɔr",
+        "pos": "v.",
+        "word": "explore",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "poverty",
+        "ko": "① 가난, 빈곤",
+        "ex": "Since 1990, the share of people in extreme {{BLANK}} has fallen sharply.",
+        "tr": "1990년 이후 극심한 빈곤 속에 사는 사람의 비율은 크게 줄었어.",
+        "c": "형용사는 poor. live in poverty는 가난하게 살다.",
+        "ipa": "ˈpɑvɚti",
+        "pos": "n.",
+        "word": "poverty",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "philosophy",
+        "ko": "① 철학",
+        "ex": "{{BLANK}} comes from Greek words meaning 'love of wisdom.'",
+        "tr": "철학이라는 말은 '지혜를 사랑함'이라는 뜻의 그리스어에서 왔어.",
+        "c": "philo(사랑)+sophia(지혜). 철학자는 philosopher.",
+        "ipa": "fəˈlɑsəfi",
+        "pos": "n.",
+        "word": "philosophy",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "pyramid",
+        "ko": "① 피라미드",
+        "ex": "The Great {{BLANK}} of Giza was built about 4,500 years ago.",
+        "tr": "기자의 대피라미드는 약 4,500년 전에 지어졌어.",
+        "c": "고대 이집트 왕의 무덤. 모양을 가리킬 때도 pyramid.",
+        "ipa": "ˈpɪrəmɪd",
+        "pos": "n.",
+        "word": "pyramid",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "ancestor",
+        "ko": "① 조상, 선조",
+        "ex": "All humans alive today share {{BLANK}}s who lived in Africa.",
+        "tr": "오늘날 살아 있는 모든 인류는 아프리카에 살았던 조상을 공유해.",
+        "c": "↔ descendant(자손).",
+        "ipa": "ˈænˌsɛstɚ",
+        "pos": "n.",
+        "word": "ancestor",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "continent",
+        "ko": "① 대륙",
+        "ex": "There are seven {{BLANK}}s on Earth, and Asia is the largest.",
+        "tr": "지구에는 일곱 대륙이 있고, 그중 아시아가 가장 커.",
+        "c": "형용사는 continental. 대륙 이동은 continental drift.",
+        "ipa": "ˈkɑntənənt",
+        "pos": "n.",
+        "word": "continent",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "element",
+        "ko": "① 원소, (구성) 요소",
+        "ex": "Hydrogen is the lightest {{BLANK}}.",
+        "tr": "수소는 가장 가벼운 원소야.",
+        "c": "원소들은 주기율표(periodic table)에 늘어서 있다. 일반적인 '요소'라는 뜻으로도 많이 쓴다.",
+        "ipa": "ˈɛləmənt",
+        "pos": "n.",
+        "word": "element",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "observe",
+        "ko": "① 관찰하다",
+        "ex": "Darwin {{BLANK}}d birds on the Galapagos Islands.",
+        "tr": "다윈은 갈라파고스 제도에서 새들을 관찰했어.",
+        "c": "명사는 observation(관찰). 과학은 관찰에서 시작한다.",
+        "ipa": "əbˈzɝv",
+        "pos": "v.",
+        "word": "observe",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "compass",
+        "ko": "① 나침반",
+        "ex": "The Chinese were the first to use a {{BLANK}} to find direction.",
+        "tr": "방향을 찾는 데 나침반을 처음 쓴 사람들은 중국인이었어.",
+        "c": "바늘이 북쪽을 가리킨다. 제도용 컴퍼스도 compass.",
+        "ipa": "ˈkʌmpəs",
+        "pos": "n.",
+        "word": "compass",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "theory",
+        "ko": "① 이론",
+        "ex": "In science, a {{BLANK}} is an explanation backed by a lot of evidence.",
+        "tr": "과학에서 이론은 많은 증거로 뒷받침되는 설명이야.",
+        "c": "일상에서는 '추측'처럼도 쓰지만, 과학의 theory는 검증된 설명. 검증 전의 생각은 hypothesis(가설).",
+        "ipa": "ˈθiəri",
+        "pos": "n.",
+        "word": "theory",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "fuel",
+        "ko": "① 연료",
+        "ex": "Burning fossil {{BLANK}}s is the main cause of climate change.",
+        "tr": "화석 연료를 태우는 것이 기후 변화의 주된 원인이야.",
+        "c": "fossil fuel(화석 연료): 석탄·석유·천연가스.",
+        "ipa": "ˈfjuəl",
+        "pos": "n.",
+        "word": "fuel",
+        "si": 1,
+        "sn": 1
+       }
+      ]
+     }
+    },
+    {
+     "path": [
+      21,
+      "exercises",
+      0,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} was held on a cold morning.",
+     "new": "The ancient Egyptians built pyramids for the {{BLANK}} of their kings."
+    },
+    {
+     "path": [
+      21,
+      "exercises",
+      0,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "매장은 추운 아침에 치러졌어.",
+     "new": "고대 이집트인들은 왕을 묻으려고 피라미드를 지었어."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      10
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": {
+      "ex": 11,
+      "name": "지식 어휘 Ⅱ",
+      "words": [
+       {
+        "en": "species",
+        "ko": "① (생물의) 종",
+        "ex": "Scientists think there are about 8 million {{BLANK}} on Earth.",
+        "tr": "과학자들은 지구에 약 800만 종의 생물이 있다고 생각해.",
+        "c": "단수와 복수가 같다(a species, two species).",
+        "ipa": "ˈspiʃiz",
+        "pos": "n.",
+        "word": "species",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "colony",
+        "ko": "① 식민지",
+        "ex": "The United States began as thirteen British {{BLANK}}s.",
+        "tr": "미국은 영국의 13개 식민지에서 시작되었어.",
+        "c": "형용사는 colonial, 식민지로 만들다는 colonize.",
+        "ipa": "ˈkɑləni",
+        "pos": "n.",
+        "word": "colony",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "invade",
+        "ko": "① 침략하다",
+        "ex": "World War II began when Germany {{BLANK}}d Poland in 1939.",
+        "tr": "제2차 세계대전은 1939년 독일이 폴란드를 침공하면서 시작되었어.",
+        "c": "명사는 invasion. attack(공격하다)과 달리 남의 땅에 쳐들어가 차지하려는 것.",
+        "ipa": "ɪnˈveɪd",
+        "pos": "v.",
+        "word": "invade",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "carbon",
+        "ko": "① 탄소",
+        "ex": "Diamonds are made of pure {{BLANK}}.",
+        "tr": "다이아몬드는 순수한 탄소로 이루어져 있어.",
+        "c": "carbon dioxide(이산화탄소)는 대표적인 온실가스.",
+        "ipa": "ˈkɑrbən",
+        "pos": "n.",
+        "word": "carbon",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "gravity",
+        "ko": "① 중력",
+        "ex": "{{BLANK}} keeps the planets moving around the Sun.",
+        "tr": "중력 덕분에 행성들은 태양 둘레를 계속 돌아.",
+        "c": "뉴턴의 만유인력. 무게(weight)는 중력이 끌어당기는 힘.",
+        "ipa": "ˈɡrævəti",
+        "pos": "n.",
+        "word": "gravity",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "evolution",
+        "ko": "① 진화",
+        "ex": "In 1859, Charles Darwin published a famous book on {{BLANK}}.",
+        "tr": "1859년 찰스 다윈은 진화에 관한 유명한 책을 펴냈어.",
+        "c": "동사는 evolve. 생물이 오랜 세월에 걸쳐 변해 가는 것.",
+        "ipa": "ˌɛvəˈluʃən",
+        "pos": "n.",
+        "word": "evolution",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "fossil",
+        "ko": "① 화석",
+        "ex": "{{BLANK}}s show that the ancestors of whales once walked on land.",
+        "tr": "화석을 보면 고래의 조상은 한때 땅 위를 걸었어.",
+        "c": "석탄·석유처럼 옛 생물에서 나온 연료는 fossil fuels.",
+        "ipa": "ˈfɑsəl",
+        "pos": "n.",
+        "word": "fossil",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "extinct",
+        "ko": "① 멸종한",
+        "ex": "Most dinosaurs became {{BLANK}} about 66 million years ago.",
+        "tr": "대부분의 공룡은 약 6,600만 년 전에 멸종했어.",
+        "c": "명사는 extinction. go extinct(멸종하다).",
+        "ipa": "ɪkˈstɪŋkt",
+        "pos": "adj.",
+        "word": "extinct",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "orbit",
+        "ko": "① 궤도를 돌다, 궤도",
+        "ex": "The Moon takes about 27 days to {{BLANK}} the Earth.",
+        "tr": "달이 지구 둘레를 한 바퀴 도는 데 약 27일이 걸려.",
+        "c": "명사로 '궤도'. in orbit(궤도에 있는).",
+        "ipa": "ˈɔrbɪt",
+        "pos": "v.",
+        "word": "orbit",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "satellite",
+        "ko": "① 위성",
+        "ex": "In 1957, the Soviet Union sent the first {{BLANK}} into space.",
+        "tr": "1957년 소련은 첫 인공위성을 우주로 쏘아 올렸어.",
+        "c": "달처럼 행성을 도는 천체도 satellite.",
+        "ipa": "ˈsætəˌlaɪt",
+        "pos": "n.",
+        "word": "satellite",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "nuclear",
+        "ko": "① 핵의, 원자력의",
+        "ex": "{{BLANK}} power plants make electricity by splitting atoms.",
+        "tr": "원자력 발전소는 원자를 쪼개 전기를 만들어.",
+        "c": "nucleus(핵)의 형용사.",
+        "ipa": "ˈnukliɚ",
+        "pos": "adj.",
+        "word": "nuclear",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "migrate",
+        "ko": "① 이주하다, 이동하다",
+        "ex": "Modern humans began to {{BLANK}} out of Africa about 60,000 years ago.",
+        "tr": "현생 인류는 약 6만 년 전 아프리카를 떠나 이주하기 시작했어.",
+        "c": "명사는 migration. 철새는 migratory birds.",
+        "ipa": "ˈmaɪˌɡreɪt",
+        "pos": "v.",
+        "word": "migrate",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "selection",
+        "ko": "① 선택, 선발",
+        "ex": "Natural {{BLANK}} favors living things that fit their environment.",
+        "tr": "자연선택은 환경에 잘 맞는 생물에게 유리하게 작용해.",
+        "c": "동사는 select. natural selection(자연선택)은 다윈 진화론의 핵심.",
+        "ipa": "sɪˈlɛkʃən",
+        "pos": "n.",
+        "word": "selection",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "ape",
+        "ko": "① 유인원",
+        "ex": "Humans and {{BLANK}}s share a common ancestor.",
+        "tr": "인간과 유인원은 공통 조상을 가지고 있어.",
+        "c": "침팬지·고릴라처럼 꼬리 없는 큰 원숭이류. 꼬리 있는 원숭이는 monkey.",
+        "ipa": "eɪp",
+        "pos": "n.",
+        "word": "ape",
+        "si": 1,
+        "sn": 1
+       }
+      ]
+     }
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      10
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": {
+      "ex": 11,
+      "name": "지식 어휘 Ⅲ",
+      "words": [
+       {
+        "en": "unemployment",
+        "ko": "① 실업, 실업률",
+        "ex": "In 1933, US {{BLANK}} reached about 25 percent.",
+        "tr": "1933년 미국의 실업률은 약 25퍼센트에 이르렀어.",
+        "c": "un+employ(고용하다)+ment. 1929년 시작된 대공황의 한복판.",
+        "ipa": "ˌʌnɪmˈplɔɪmənt",
+        "pos": "n.",
+        "word": "unemployment",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "reform",
+        "ko": "① 개혁",
+        "ex": "In 1517, Martin Luther called for {{BLANK}} of the Catholic Church.",
+        "tr": "1517년 마르틴 루터는 가톨릭교회의 개혁을 요구했어.",
+        "c": "re(다시)+form(만들다). 종교개혁은 the Reformation.",
+        "ipa": "rɪˈfɔrm",
+        "pos": "n.",
+        "word": "reform",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "logic",
+        "ko": "① 논리, 논리학",
+        "ex": "Aristotle is often called the father of {{BLANK}}.",
+        "tr": "아리스토텔레스는 흔히 논리학의 아버지로 불려.",
+        "c": "형용사는 logical. 그리스어 logos(말·이성).",
+        "ipa": "ˈlɑdʒɪk",
+        "pos": "n.",
+        "word": "logic",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "urban",
+        "ko": "① 도시의",
+        "ex": "Today, more than half of the world's people live in {{BLANK}} areas.",
+        "tr": "오늘날 세계 인구의 절반 넘게 도시 지역에 살아.",
+        "c": "↔ rural(시골의). 도시화는 urbanization.",
+        "ipa": "ˈɝbən",
+        "pos": "adj.",
+        "word": "urban",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "galaxy",
+        "ko": "① 은하",
+        "ex": "The Sun is just one of over 100 billion stars in our {{BLANK}}.",
+        "tr": "태양은 우리 은하에 있는 천억 개가 넘는 별 가운데 하나일 뿐이야.",
+        "c": "우리 은하는 the Milky Way. 그리스어 gala(우유)에서.",
+        "ipa": "ˈɡæləksi",
+        "pos": "n.",
+        "word": "galaxy",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "equator",
+        "ko": "① 적도",
+        "ex": "Places near the {{BLANK}} are hot all year round.",
+        "tr": "적도 가까운 곳은 일 년 내내 더워.",
+        "c": "지구를 남북으로 똑같이(equal) 나누는 선.",
+        "ipa": "ɪˈkweɪtɚ",
+        "pos": "n.",
+        "word": "equator",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "knight",
+        "ko": "① (중세의) 기사",
+        "ex": "In medieval Europe, {{BLANK}}s fought on horses for their lords.",
+        "tr": "중세 유럽에서 기사들은 영주를 위해 말을 타고 싸웠어.",
+        "c": "k는 소리 나지 않는다. night(밤)와 발음이 같다.",
+        "ipa": "naɪt",
+        "pos": "n.",
+        "word": "knight",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "germ",
+        "ko": "① 세균, 병균",
+        "ex": "In the 1860s, Louis Pasteur showed that {{BLANK}}s cause many diseases.",
+        "tr": "1860년대에 루이 파스퇴르는 세균이 많은 병을 일으킨다는 것을 보여 주었어.",
+        "c": "bacteria와 virus를 함께 아우르는 일상어.",
+        "ipa": "dʒɝm",
+        "pos": "n.",
+        "word": "germ",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "molecule",
+        "ko": "① 분자",
+        "ex": "A water {{BLANK}} has two hydrogen atoms and one oxygen atom.",
+        "tr": "물 분자 하나에는 수소 원자 둘과 산소 원자 하나가 있어.",
+        "c": "원자(atom)가 모여 분자를 이룬다. H₂O.",
+        "ipa": "ˈmɑləˌkjul",
+        "pos": "n.",
+        "word": "molecule",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "glacier",
+        "ko": "① 빙하",
+        "ex": "As the Earth warms, many {{BLANK}}s are melting.",
+        "tr": "지구가 따뜻해지면서 많은 빙하가 녹고 있어.",
+        "c": "오랜 세월 쌓인 눈이 얼어 천천히 흐르는 얼음.",
+        "ipa": "ˈɡleɪʃɚ",
+        "pos": "n.",
+        "word": "glacier",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "ecosystem",
+        "ko": "① 생태계",
+        "ex": "An {{BLANK}} includes living things and the place where they live.",
+        "tr": "생태계에는 생물과 그 생물이 사는 환경이 함께 들어 있어.",
+        "c": "eco(집·환경)+system. 생태학은 ecology.",
+        "ipa": "ˈikoʊˌsɪstəm",
+        "pos": "n.",
+        "word": "ecosystem",
+        "si": 1,
+        "sn": 1
+       }
+      ]
+     }
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": {
+      "ex": 11,
+      "name": "지식 어휘 Ⅳ",
+      "words": [
+       {
+        "en": "plague",
+        "ko": "① 전염병, 역병",
+        "ex": "In the 1340s, a deadly {{BLANK}} called the Black Death swept across Europe.",
+        "tr": "1340년대에 흑사병이라 불린 치명적인 전염병이 유럽을 휩쓸었어.",
+        "c": "흑사병은 유럽 인구의 약 3분의 1을 앗아갔다.",
+        "ipa": "pleɪɡ",
+        "pos": "n.",
+        "word": "plague",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "monarch",
+        "ko": "① 군주",
+        "ex": "Louis XIV of France was an absolute {{BLANK}} who ruled for 72 years.",
+        "tr": "프랑스의 루이 14세는 72년 동안 다스린 절대 군주였어.",
+        "c": "mono(하나)+arch(다스리다). 군주제는 monarchy.",
+        "ipa": "ˈmɑnɚk",
+        "pos": "n.",
+        "word": "monarch",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "dynasty",
+        "ko": "① 왕조",
+        "ex": "The Qin {{BLANK}} united China for the first time in 221 BC.",
+        "tr": "진 왕조는 기원전 221년에 처음으로 중국을 통일했어.",
+        "c": "한 집안이 대를 이어 다스리는 시대. 한·당·명도 dynasty.",
+        "ipa": "ˈdaɪnəsti",
+        "pos": "n.",
+        "word": "dynasty",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "socialism",
+        "ko": "① 사회주의",
+        "ex": "{{BLANK}} calls for workers or the state to own factories and land.",
+        "tr": "사회주의는 공장과 땅을 노동자나 국가가 소유하자고 주장해.",
+        "c": "↔ capitalism(자본주의). communism(공산주의)과 구별해 쓴다.",
+        "ipa": "ˈsoʊʃəˌlɪzəm",
+        "pos": "n.",
+        "word": "socialism",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "tariff",
+        "ko": "① 관세",
+        "ex": "A {{BLANK}} is a tax on goods brought in from other countries.",
+        "tr": "관세는 다른 나라에서 들여오는 상품에 붙는 세금이야.",
+        "c": "관세를 매기면 수입품 값이 오른다.",
+        "ipa": "ˈtɛrɪf",
+        "pos": "n.",
+        "word": "tariff",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "scarcity",
+        "ko": "① 부족, 희소성",
+        "ex": "Economics begins with {{BLANK}}: we can't have everything we want.",
+        "tr": "경제학은 희소성에서 시작해. 원하는 것을 다 가질 수는 없거든.",
+        "c": "형용사는 scarce. shortage는 일시적 부족, scarcity는 근본적 희소.",
+        "ipa": "ˈskɛrsəti",
+        "pos": "n.",
+        "word": "scarcity",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "eclipse",
+        "ko": "① (일식·월식의) 식",
+        "ex": "In a solar {{BLANK}}, the Moon passes between the Sun and the Earth.",
+        "tr": "일식 때는 달이 태양과 지구 사이를 지나가.",
+        "c": "solar eclipse는 일식, lunar eclipse는 월식.",
+        "ipa": "ɪˈklɪps",
+        "pos": "n.",
+        "word": "eclipse",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "inertia",
+        "ko": "① 관성",
+        "ex": "Because of {{BLANK}}, you move forward when a bus stops suddenly.",
+        "tr": "관성 때문에 버스가 갑자기 서면 몸이 앞으로 쏠려.",
+        "c": "뉴턴 운동 제1법칙: 움직이던 것은 계속 움직이려 한다.",
+        "ipa": "ɪˈnɝʃə",
+        "pos": "n.",
+        "word": "inertia",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "acceleration",
+        "ko": "① 가속, 가속도",
+        "ex": "Force equals mass times {{BLANK}}.",
+        "tr": "힘은 질량 곱하기 가속도야.",
+        "c": "뉴턴 운동 제2법칙(F=ma). 동사는 accelerate.",
+        "ipa": "ækˌsɛləˈreɪʃən",
+        "pos": "n.",
+        "word": "acceleration",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "radioactive",
+        "ko": "① 방사성의",
+        "ex": "Marie Curie won two Nobel Prizes for her work on {{BLANK}} elements.",
+        "tr": "마리 퀴리는 방사성 원소 연구로 노벨상을 두 번 받았어.",
+        "c": "명사는 radioactivity(방사능).",
+        "ipa": "ˌreɪdioʊˈæktɪv",
+        "pos": "adj.",
+        "word": "radioactive",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "en": "relativity",
+        "ko": "① 상대성",
+        "ex": "Einstein's theory of {{BLANK}} says that time can slow down.",
+        "tr": "아인슈타인의 상대성 이론에 따르면 시간은 느려질 수 있어.",
+        "c": "relative(상대적인)의 명사. 특수 상대성 이론(1905)과 일반 상대성 이론(1915).",
+        "ipa": "ˌrɛləˈtɪvəti",
+        "pos": "n.",
+        "word": "relativity",
+        "si": 1,
+        "sn": 1
+       }
+      ]
+     }
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/set16.json": {
+   "beforeHash": "942dcf590b1de0599007216435fb579ce32fde3c477ddb1e45681bf69b65bbb9",
+   "afterHash": "067dde26f6dc6613b05ff20784ee10bfab5139e6f1015f4c696516a4b50d56b6"
+  },
+  "pipeline/out/set21.json": {
+   "beforeHash": "594d494d97bd040a744115fd05d3c5981487708eb943b08c42d51fb311e5b78d",
+   "afterHash": "d49818eb4ccd187a972e97a5c7b4444ac75520d26980c775020ac7c1d328e3db"
+  },
+  "pipeline/out/set26.json": {
+   "beforeHash": "505b1f35f1a055247c5eb0834c2d0febd6d7a0527a4ea93067100a91abd39632",
+   "afterHash": "b0b90625006a156829e37d5e34fafa42a828dbaef8f66ef912269330eaf6b0b4"
+  },
+  "pipeline/out/set34.json": {
+   "beforeHash": "83181785a06e6b391efc707b187b8db405fa483ca3032eef0f0bda35101bcb32",
+   "afterHash": "a0ad5431c9ec6c8385306f9d7a49d06fd389f4779e761db798d991a95348f183"
+  },
+  "pipeline/out/set42.json": {
+   "beforeHash": "2783fa5297654386f18e7239c326b4071ff256e99266fe58e4a6fe34fdfd10de",
+   "afterHash": "ac308d6d37e95dc31ae7a4fca07b14f1e3f2fcc4480efe59dfd605185fa12152"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/set16.json": [
+   {
+    "path": [
+     10
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "ex": 11,
+     "name": "지식 어휘 Ⅰ",
+     "words": [
+      {
+       "en": "dinosaur",
+       "ko": "① 공룡",
+       "ex": "Scientists say that birds evolved from {{BLANK}}s.",
+       "tr": "과학자들은 새가 공룡에서 진화했다고 말해.",
+       "c": "그리스어 deinos(무서운)+sauros(도마뱀): '무서운 도마뱀'.",
+       "ipa": "ˈdaɪnəˌsɔr",
+       "pos": "n.",
+       "word": "dinosaur",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "astronaut",
+       "ko": "① 우주비행사",
+       "ex": "Neil Armstrong was the first {{BLANK}} to walk on the Moon.",
+       "tr": "닐 암스트롱은 달 위를 걸은 첫 우주비행사였어.",
+       "c": "astro(별)+naut(항해자): '별의 항해자'.",
+       "ipa": "ˈæstrəˌnɔt",
+       "pos": "n.",
+       "word": "astronaut",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "volcano",
+       "ko": "① 화산",
+       "ex": "In AD 79, a {{BLANK}} buried the Roman city of Pompeii.",
+       "tr": "서기 79년, 화산이 로마 도시 폼페이를 묻어 버렸어.",
+       "c": "로마 불의 신 Vulcan에서 온 말. 화산이 터지는 것은 erupt.",
+       "ipa": "vɑlˈkeɪnoʊ",
+       "pos": "n.",
+       "word": "volcano",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "explore",
+       "ko": "① 탐험하다, 탐구하다",
+       "ex": "In the 1400s, Portuguese sailors began to {{BLANK}} the coast of Africa.",
+       "tr": "1400년대에 포르투갈 선원들은 아프리카 해안을 탐험하기 시작했어.",
+       "c": "탐험가는 explorer, 탐험은 exploration.",
+       "ipa": "ɪkˈsplɔr",
+       "pos": "v.",
+       "word": "explore",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "poverty",
+       "ko": "① 가난, 빈곤",
+       "ex": "Since 1990, the share of people in extreme {{BLANK}} has fallen sharply.",
+       "tr": "1990년 이후 극심한 빈곤 속에 사는 사람의 비율은 크게 줄었어.",
+       "c": "형용사는 poor. live in poverty는 가난하게 살다.",
+       "ipa": "ˈpɑvɚti",
+       "pos": "n.",
+       "word": "poverty",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "philosophy",
+       "ko": "① 철학",
+       "ex": "{{BLANK}} comes from Greek words meaning 'love of wisdom.'",
+       "tr": "철학이라는 말은 '지혜를 사랑함'이라는 뜻의 그리스어에서 왔어.",
+       "c": "philo(사랑)+sophia(지혜). 철학자는 philosopher.",
+       "ipa": "fəˈlɑsəfi",
+       "pos": "n.",
+       "word": "philosophy",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "pyramid",
+       "ko": "① 피라미드",
+       "ex": "The Great {{BLANK}} of Giza was built about 4,500 years ago.",
+       "tr": "기자의 대피라미드는 약 4,500년 전에 지어졌어.",
+       "c": "고대 이집트 왕의 무덤. 모양을 가리킬 때도 pyramid.",
+       "ipa": "ˈpɪrəmɪd",
+       "pos": "n.",
+       "word": "pyramid",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "ancestor",
+       "ko": "① 조상, 선조",
+       "ex": "All humans alive today share {{BLANK}}s who lived in Africa.",
+       "tr": "오늘날 살아 있는 모든 인류는 아프리카에 살았던 조상을 공유해.",
+       "c": "↔ descendant(자손).",
+       "ipa": "ˈænˌsɛstɚ",
+       "pos": "n.",
+       "word": "ancestor",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "continent",
+       "ko": "① 대륙",
+       "ex": "There are seven {{BLANK}}s on Earth, and Asia is the largest.",
+       "tr": "지구에는 일곱 대륙이 있고, 그중 아시아가 가장 커.",
+       "c": "형용사는 continental. 대륙 이동은 continental drift.",
+       "ipa": "ˈkɑntənənt",
+       "pos": "n.",
+       "word": "continent",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "element",
+       "ko": "① 원소, (구성) 요소",
+       "ex": "Hydrogen is the lightest {{BLANK}}.",
+       "tr": "수소는 가장 가벼운 원소야.",
+       "c": "원소들은 주기율표(periodic table)에 늘어서 있다. 일반적인 '요소'라는 뜻으로도 많이 쓴다.",
+       "ipa": "ˈɛləmənt",
+       "pos": "n.",
+       "word": "element",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "observe",
+       "ko": "① 관찰하다",
+       "ex": "Darwin {{BLANK}}d birds on the Galapagos Islands.",
+       "tr": "다윈은 갈라파고스 제도에서 새들을 관찰했어.",
+       "c": "명사는 observation(관찰). 과학은 관찰에서 시작한다.",
+       "ipa": "əbˈzɝv",
+       "pos": "v.",
+       "word": "observe",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "compass",
+       "ko": "① 나침반",
+       "ex": "The Chinese were the first to use a {{BLANK}} to find direction.",
+       "tr": "방향을 찾는 데 나침반을 처음 쓴 사람들은 중국인이었어.",
+       "c": "바늘이 북쪽을 가리킨다. 제도용 컴퍼스도 compass.",
+       "ipa": "ˈkʌmpəs",
+       "pos": "n.",
+       "word": "compass",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "theory",
+       "ko": "① 이론",
+       "ex": "In science, a {{BLANK}} is an explanation backed by a lot of evidence.",
+       "tr": "과학에서 이론은 많은 증거로 뒷받침되는 설명이야.",
+       "c": "일상에서는 '추측'처럼도 쓰지만, 과학의 theory는 검증된 설명. 검증 전의 생각은 hypothesis(가설).",
+       "ipa": "ˈθiəri",
+       "pos": "n.",
+       "word": "theory",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "fuel",
+       "ko": "① 연료",
+       "ex": "Burning fossil {{BLANK}}s is the main cause of climate change.",
+       "tr": "화석 연료를 태우는 것이 기후 변화의 주된 원인이야.",
+       "c": "fossil fuel(화석 연료): 석탄·석유·천연가스.",
+       "ipa": "ˈfjuəl",
+       "pos": "n.",
+       "word": "fuel",
+       "si": 1,
+       "sn": 1
+      }
+     ]
+    }
+   }
+  ],
+  "pipeline/out/set21.json": [
+   {
+    "path": [
+     0,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} was held on a cold morning.",
+    "new": "The ancient Egyptians built pyramids for the {{BLANK}} of their kings."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "매장은 추운 아침에 치러졌어.",
+    "new": "고대 이집트인들은 왕을 묻으려고 피라미드를 지었어."
+   }
+  ],
+  "pipeline/out/set26.json": [
+   {
+    "path": [
+     10
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "ex": 11,
+     "name": "지식 어휘 Ⅱ",
+     "words": [
+      {
+       "en": "species",
+       "ko": "① (생물의) 종",
+       "ex": "Scientists think there are about 8 million {{BLANK}} on Earth.",
+       "tr": "과학자들은 지구에 약 800만 종의 생물이 있다고 생각해.",
+       "c": "단수와 복수가 같다(a species, two species).",
+       "ipa": "ˈspiʃiz",
+       "pos": "n.",
+       "word": "species",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "colony",
+       "ko": "① 식민지",
+       "ex": "The United States began as thirteen British {{BLANK}}s.",
+       "tr": "미국은 영국의 13개 식민지에서 시작되었어.",
+       "c": "형용사는 colonial, 식민지로 만들다는 colonize.",
+       "ipa": "ˈkɑləni",
+       "pos": "n.",
+       "word": "colony",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "invade",
+       "ko": "① 침략하다",
+       "ex": "World War II began when Germany {{BLANK}}d Poland in 1939.",
+       "tr": "제2차 세계대전은 1939년 독일이 폴란드를 침공하면서 시작되었어.",
+       "c": "명사는 invasion. attack(공격하다)과 달리 남의 땅에 쳐들어가 차지하려는 것.",
+       "ipa": "ɪnˈveɪd",
+       "pos": "v.",
+       "word": "invade",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "carbon",
+       "ko": "① 탄소",
+       "ex": "Diamonds are made of pure {{BLANK}}.",
+       "tr": "다이아몬드는 순수한 탄소로 이루어져 있어.",
+       "c": "carbon dioxide(이산화탄소)는 대표적인 온실가스.",
+       "ipa": "ˈkɑrbən",
+       "pos": "n.",
+       "word": "carbon",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "gravity",
+       "ko": "① 중력",
+       "ex": "{{BLANK}} keeps the planets moving around the Sun.",
+       "tr": "중력 덕분에 행성들은 태양 둘레를 계속 돌아.",
+       "c": "뉴턴의 만유인력. 무게(weight)는 중력이 끌어당기는 힘.",
+       "ipa": "ˈɡrævəti",
+       "pos": "n.",
+       "word": "gravity",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "evolution",
+       "ko": "① 진화",
+       "ex": "In 1859, Charles Darwin published a famous book on {{BLANK}}.",
+       "tr": "1859년 찰스 다윈은 진화에 관한 유명한 책을 펴냈어.",
+       "c": "동사는 evolve. 생물이 오랜 세월에 걸쳐 변해 가는 것.",
+       "ipa": "ˌɛvəˈluʃən",
+       "pos": "n.",
+       "word": "evolution",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "fossil",
+       "ko": "① 화석",
+       "ex": "{{BLANK}}s show that the ancestors of whales once walked on land.",
+       "tr": "화석을 보면 고래의 조상은 한때 땅 위를 걸었어.",
+       "c": "석탄·석유처럼 옛 생물에서 나온 연료는 fossil fuels.",
+       "ipa": "ˈfɑsəl",
+       "pos": "n.",
+       "word": "fossil",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "extinct",
+       "ko": "① 멸종한",
+       "ex": "Most dinosaurs became {{BLANK}} about 66 million years ago.",
+       "tr": "대부분의 공룡은 약 6,600만 년 전에 멸종했어.",
+       "c": "명사는 extinction. go extinct(멸종하다).",
+       "ipa": "ɪkˈstɪŋkt",
+       "pos": "adj.",
+       "word": "extinct",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "orbit",
+       "ko": "① 궤도를 돌다, 궤도",
+       "ex": "The Moon takes about 27 days to {{BLANK}} the Earth.",
+       "tr": "달이 지구 둘레를 한 바퀴 도는 데 약 27일이 걸려.",
+       "c": "명사로 '궤도'. in orbit(궤도에 있는).",
+       "ipa": "ˈɔrbɪt",
+       "pos": "v.",
+       "word": "orbit",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "satellite",
+       "ko": "① 위성",
+       "ex": "In 1957, the Soviet Union sent the first {{BLANK}} into space.",
+       "tr": "1957년 소련은 첫 인공위성을 우주로 쏘아 올렸어.",
+       "c": "달처럼 행성을 도는 천체도 satellite.",
+       "ipa": "ˈsætəˌlaɪt",
+       "pos": "n.",
+       "word": "satellite",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "nuclear",
+       "ko": "① 핵의, 원자력의",
+       "ex": "{{BLANK}} power plants make electricity by splitting atoms.",
+       "tr": "원자력 발전소는 원자를 쪼개 전기를 만들어.",
+       "c": "nucleus(핵)의 형용사.",
+       "ipa": "ˈnukliɚ",
+       "pos": "adj.",
+       "word": "nuclear",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "migrate",
+       "ko": "① 이주하다, 이동하다",
+       "ex": "Modern humans began to {{BLANK}} out of Africa about 60,000 years ago.",
+       "tr": "현생 인류는 약 6만 년 전 아프리카를 떠나 이주하기 시작했어.",
+       "c": "명사는 migration. 철새는 migratory birds.",
+       "ipa": "ˈmaɪˌɡreɪt",
+       "pos": "v.",
+       "word": "migrate",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "selection",
+       "ko": "① 선택, 선발",
+       "ex": "Natural {{BLANK}} favors living things that fit their environment.",
+       "tr": "자연선택은 환경에 잘 맞는 생물에게 유리하게 작용해.",
+       "c": "동사는 select. natural selection(자연선택)은 다윈 진화론의 핵심.",
+       "ipa": "sɪˈlɛkʃən",
+       "pos": "n.",
+       "word": "selection",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "ape",
+       "ko": "① 유인원",
+       "ex": "Humans and {{BLANK}}s share a common ancestor.",
+       "tr": "인간과 유인원은 공통 조상을 가지고 있어.",
+       "c": "침팬지·고릴라처럼 꼬리 없는 큰 원숭이류. 꼬리 있는 원숭이는 monkey.",
+       "ipa": "eɪp",
+       "pos": "n.",
+       "word": "ape",
+       "si": 1,
+       "sn": 1
+      }
+     ]
+    }
+   }
+  ],
+  "pipeline/out/set34.json": [
+   {
+    "path": [
+     10
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "ex": 11,
+     "name": "지식 어휘 Ⅲ",
+     "words": [
+      {
+       "en": "unemployment",
+       "ko": "① 실업, 실업률",
+       "ex": "In 1933, US {{BLANK}} reached about 25 percent.",
+       "tr": "1933년 미국의 실업률은 약 25퍼센트에 이르렀어.",
+       "c": "un+employ(고용하다)+ment. 1929년 시작된 대공황의 한복판.",
+       "ipa": "ˌʌnɪmˈplɔɪmənt",
+       "pos": "n.",
+       "word": "unemployment",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "reform",
+       "ko": "① 개혁",
+       "ex": "In 1517, Martin Luther called for {{BLANK}} of the Catholic Church.",
+       "tr": "1517년 마르틴 루터는 가톨릭교회의 개혁을 요구했어.",
+       "c": "re(다시)+form(만들다). 종교개혁은 the Reformation.",
+       "ipa": "rɪˈfɔrm",
+       "pos": "n.",
+       "word": "reform",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "logic",
+       "ko": "① 논리, 논리학",
+       "ex": "Aristotle is often called the father of {{BLANK}}.",
+       "tr": "아리스토텔레스는 흔히 논리학의 아버지로 불려.",
+       "c": "형용사는 logical. 그리스어 logos(말·이성).",
+       "ipa": "ˈlɑdʒɪk",
+       "pos": "n.",
+       "word": "logic",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "urban",
+       "ko": "① 도시의",
+       "ex": "Today, more than half of the world's people live in {{BLANK}} areas.",
+       "tr": "오늘날 세계 인구의 절반 넘게 도시 지역에 살아.",
+       "c": "↔ rural(시골의). 도시화는 urbanization.",
+       "ipa": "ˈɝbən",
+       "pos": "adj.",
+       "word": "urban",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "galaxy",
+       "ko": "① 은하",
+       "ex": "The Sun is just one of over 100 billion stars in our {{BLANK}}.",
+       "tr": "태양은 우리 은하에 있는 천억 개가 넘는 별 가운데 하나일 뿐이야.",
+       "c": "우리 은하는 the Milky Way. 그리스어 gala(우유)에서.",
+       "ipa": "ˈɡæləksi",
+       "pos": "n.",
+       "word": "galaxy",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "equator",
+       "ko": "① 적도",
+       "ex": "Places near the {{BLANK}} are hot all year round.",
+       "tr": "적도 가까운 곳은 일 년 내내 더워.",
+       "c": "지구를 남북으로 똑같이(equal) 나누는 선.",
+       "ipa": "ɪˈkweɪtɚ",
+       "pos": "n.",
+       "word": "equator",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "knight",
+       "ko": "① (중세의) 기사",
+       "ex": "In medieval Europe, {{BLANK}}s fought on horses for their lords.",
+       "tr": "중세 유럽에서 기사들은 영주를 위해 말을 타고 싸웠어.",
+       "c": "k는 소리 나지 않는다. night(밤)와 발음이 같다.",
+       "ipa": "naɪt",
+       "pos": "n.",
+       "word": "knight",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "germ",
+       "ko": "① 세균, 병균",
+       "ex": "In the 1860s, Louis Pasteur showed that {{BLANK}}s cause many diseases.",
+       "tr": "1860년대에 루이 파스퇴르는 세균이 많은 병을 일으킨다는 것을 보여 주었어.",
+       "c": "bacteria와 virus를 함께 아우르는 일상어.",
+       "ipa": "dʒɝm",
+       "pos": "n.",
+       "word": "germ",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "molecule",
+       "ko": "① 분자",
+       "ex": "A water {{BLANK}} has two hydrogen atoms and one oxygen atom.",
+       "tr": "물 분자 하나에는 수소 원자 둘과 산소 원자 하나가 있어.",
+       "c": "원자(atom)가 모여 분자를 이룬다. H₂O.",
+       "ipa": "ˈmɑləˌkjul",
+       "pos": "n.",
+       "word": "molecule",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "glacier",
+       "ko": "① 빙하",
+       "ex": "As the Earth warms, many {{BLANK}}s are melting.",
+       "tr": "지구가 따뜻해지면서 많은 빙하가 녹고 있어.",
+       "c": "오랜 세월 쌓인 눈이 얼어 천천히 흐르는 얼음.",
+       "ipa": "ˈɡleɪʃɚ",
+       "pos": "n.",
+       "word": "glacier",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "ecosystem",
+       "ko": "① 생태계",
+       "ex": "An {{BLANK}} includes living things and the place where they live.",
+       "tr": "생태계에는 생물과 그 생물이 사는 환경이 함께 들어 있어.",
+       "c": "eco(집·환경)+system. 생태학은 ecology.",
+       "ipa": "ˈikoʊˌsɪstəm",
+       "pos": "n.",
+       "word": "ecosystem",
+       "si": 1,
+       "sn": 1
+      }
+     ]
+    }
+   }
+  ],
+  "pipeline/out/set42.json": [
+   {
+    "path": [
+     10
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "ex": 11,
+     "name": "지식 어휘 Ⅳ",
+     "words": [
+      {
+       "en": "plague",
+       "ko": "① 전염병, 역병",
+       "ex": "In the 1340s, a deadly {{BLANK}} called the Black Death swept across Europe.",
+       "tr": "1340년대에 흑사병이라 불린 치명적인 전염병이 유럽을 휩쓸었어.",
+       "c": "흑사병은 유럽 인구의 약 3분의 1을 앗아갔다.",
+       "ipa": "pleɪɡ",
+       "pos": "n.",
+       "word": "plague",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "monarch",
+       "ko": "① 군주",
+       "ex": "Louis XIV of France was an absolute {{BLANK}} who ruled for 72 years.",
+       "tr": "프랑스의 루이 14세는 72년 동안 다스린 절대 군주였어.",
+       "c": "mono(하나)+arch(다스리다). 군주제는 monarchy.",
+       "ipa": "ˈmɑnɚk",
+       "pos": "n.",
+       "word": "monarch",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "dynasty",
+       "ko": "① 왕조",
+       "ex": "The Qin {{BLANK}} united China for the first time in 221 BC.",
+       "tr": "진 왕조는 기원전 221년에 처음으로 중국을 통일했어.",
+       "c": "한 집안이 대를 이어 다스리는 시대. 한·당·명도 dynasty.",
+       "ipa": "ˈdaɪnəsti",
+       "pos": "n.",
+       "word": "dynasty",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "socialism",
+       "ko": "① 사회주의",
+       "ex": "{{BLANK}} calls for workers or the state to own factories and land.",
+       "tr": "사회주의는 공장과 땅을 노동자나 국가가 소유하자고 주장해.",
+       "c": "↔ capitalism(자본주의). communism(공산주의)과 구별해 쓴다.",
+       "ipa": "ˈsoʊʃəˌlɪzəm",
+       "pos": "n.",
+       "word": "socialism",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "tariff",
+       "ko": "① 관세",
+       "ex": "A {{BLANK}} is a tax on goods brought in from other countries.",
+       "tr": "관세는 다른 나라에서 들여오는 상품에 붙는 세금이야.",
+       "c": "관세를 매기면 수입품 값이 오른다.",
+       "ipa": "ˈtɛrɪf",
+       "pos": "n.",
+       "word": "tariff",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "scarcity",
+       "ko": "① 부족, 희소성",
+       "ex": "Economics begins with {{BLANK}}: we can't have everything we want.",
+       "tr": "경제학은 희소성에서 시작해. 원하는 것을 다 가질 수는 없거든.",
+       "c": "형용사는 scarce. shortage는 일시적 부족, scarcity는 근본적 희소.",
+       "ipa": "ˈskɛrsəti",
+       "pos": "n.",
+       "word": "scarcity",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "eclipse",
+       "ko": "① (일식·월식의) 식",
+       "ex": "In a solar {{BLANK}}, the Moon passes between the Sun and the Earth.",
+       "tr": "일식 때는 달이 태양과 지구 사이를 지나가.",
+       "c": "solar eclipse는 일식, lunar eclipse는 월식.",
+       "ipa": "ɪˈklɪps",
+       "pos": "n.",
+       "word": "eclipse",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "inertia",
+       "ko": "① 관성",
+       "ex": "Because of {{BLANK}}, you move forward when a bus stops suddenly.",
+       "tr": "관성 때문에 버스가 갑자기 서면 몸이 앞으로 쏠려.",
+       "c": "뉴턴 운동 제1법칙: 움직이던 것은 계속 움직이려 한다.",
+       "ipa": "ɪˈnɝʃə",
+       "pos": "n.",
+       "word": "inertia",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "acceleration",
+       "ko": "① 가속, 가속도",
+       "ex": "Force equals mass times {{BLANK}}.",
+       "tr": "힘은 질량 곱하기 가속도야.",
+       "c": "뉴턴 운동 제2법칙(F=ma). 동사는 accelerate.",
+       "ipa": "ækˌsɛləˈreɪʃən",
+       "pos": "n.",
+       "word": "acceleration",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "radioactive",
+       "ko": "① 방사성의",
+       "ex": "Marie Curie won two Nobel Prizes for her work on {{BLANK}} elements.",
+       "tr": "마리 퀴리는 방사성 원소 연구로 노벨상을 두 번 받았어.",
+       "c": "명사는 radioactivity(방사능).",
+       "ipa": "ˌreɪdioʊˈæktɪv",
+       "pos": "adj.",
+       "word": "radioactive",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "en": "relativity",
+       "ko": "① 상대성",
+       "ex": "Einstein's theory of {{BLANK}} says that time can slow down.",
+       "tr": "아인슈타인의 상대성 이론에 따르면 시간은 느려질 수 있어.",
+       "c": "relative(상대적인)의 명사. 특수 상대성 이론(1905)과 일반 상대성 이론(1915).",
+       "ipa": "ˌrɛləˈtɪvəti",
+       "pos": "n.",
+       "word": "relativity",
+       "si": 1,
+       "sn": 1
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/set16.json": [],
+  "pipeline/out/set21.json": [],
+  "pipeline/out/set26.json": [],
+  "pipeline/out/set34.json": [],
+  "pipeline/out/set42.json": []
+ }
+}

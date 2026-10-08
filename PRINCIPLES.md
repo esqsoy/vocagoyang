@@ -100,6 +100,18 @@
 - 정의를 다 담지 못하면 해설(c)이 보완하되, 예문이 틀린 정의를 말하게 두지 않는다. 같은 날 학문 이름 카드의 예문 약 20장을 다시 읽었다(psychology, sociology, anthropology, geography 등). 틀린 정의는 없었다.
 - **정의는 예문만으로 완결한다.** (26.10.08 영신: "예문만으로 정의가 완결되게 갑시다.") anthropology와 geography는 예문이 한쪽 면만 말하고 해설이 나머지를 채우고 있었다. 지금은 "Anthropology studies humans as a whole, from bodies to cultures.", "Geography studies land, climate, people, and how they interact."이다. 47·48세트 예문은 Codex 형태론 검사(10단어 이내)도 함께 지킨다.
 
+### 2-6. 지식 예문은 지도부터, 막히는 어휘는 더한다
+
+- **카드마다 고르지 않고 지식 지도(노드)를 먼저 짠 뒤 단어를 건다.** (26.10.08 Claude 제안, 영신 "완벽히 찬성")
+  - 왜: 전수 조사에서 카드마다 따로 고른 교체 후보를 모아 보니 같은 사실이 몰렸다(프랑스혁명 5장, 산업혁명 6장, 2차 대전 8장). 20세기 전쟁으로 쏠렸고, 기본어에 무거운 내용이 얹혔다(million에 홀로코스트). 르네상스·아시아·아프리카·과학사는 비었다. [조사 기록](pipeline/knowledge-survey-20261008/README.md)
+  - 단어가 난도 순이라, 노드에 단어를 걸면 앞 세트에는 날짜·사건, 뒤 세트에는 개념·해석이 오는 나선형이 된다. 1세트 서수는 세기의 척추다(fourth=로마 국교, fifth=서로마 멸망, seventh=이슬람). 지도: [MAP.md](pipeline/knowledge-map/MAP.md)
+- **어휘 통제(2-1)에 막히면 문장을 돌려 쓰지 말고 단어를 더한다.** (26.10.08 영신: "어휘 제약은 오히려 그 어휘들이 추가되어야 마땅하니 추가해서 해결하자.")
+  - 왜: 지식 문장을 쓰다 막힌 단어(dinosaur, volcano, gravity, evolution, theory, fuel…)는 대부분 교과서의 기본 지식어였다. 막혔다는 것은 문장이 어려워서가 아니라 단어 풀이 모자라다는 신호다. 피해서 돌려 쓰면 지식이 흐려지거나 2-1을 깬다.
+  - 26.10.08 50개를 더했다. Claude 제안 46개에, 영신이 theory·selection·fuel·ape를 더했다("다 fable에 추가하고"). 16·26·34·42세트 끝에 '지식 어휘 Ⅰ~Ⅳ' 연습으로 붙였다. 위치는 난도에 맞는 세트이고, 기존 연습·진도 키는 건드리지 않는다. 예문은 각 단어가 지도 노드의 지식 예문이 되게 썼다. [목록](pipeline/knowledge-map/batch-02-new-words.json)
+  - 더한 단어는 다음 묶음부터 다른 예문에서도 쓸 수 있다(2-1 통제 범위가 넓어진다).
+  - 단어 추가는 여전히 먼저 의견을 낸다(AGENTS). 이 결정은 지식 예문에 필요한 단어를 더하는 방향을 정한 것이지, 사전 확인 없이 더해도 된다는 뜻이 아니다.
+- 사례: relativity 초안은 theory가 표제어 밖이라 "Einstein's ___ showed…"로 돌려 썼다. 정식 이름 '상대성 이론(theory of relativity)'이 깨진 문장이었다. theory를 더하면서 영신이 "아인슈타인의 이론도 상대성이론으로 하자"고 했다. 지금은 "Einstein's theory of relativity says that time can slow down."이다. 돌려 쓰기가 지식을 흐린 실제 사례이고, 정식 명칭은 그대로 쓴다는 WORK_PLAN '용어·난도·뜻의 명료성'과도 맞는다.
+
 ## 3. 빈칸 중의성: 맞는 영어를 치고 틀리게 하지 않는다
 
 - 문제 화면에서 학생이 보는 것은 뜻(ko), 빈칸 예문, 글자 칸 수뿐이다. 이 셋만 보고 다른 영어 단어를 넣어도 말이 되면 결함이다.
@@ -172,7 +184,7 @@
 
 | 도구 | 지키는 원칙 | 26.10.08 기준값 |
 |---|---|---|
-| `python3 pipeline/exaudit.py` | 2-1 어휘 통제 | 기준 밖 예문 27장 |
+| `python3 pipeline/exaudit.py` | 2-1 어휘 통제 | 기준 밖 예문 26장 |
 | `node pipeline/linecheck.cjs` | 2-2 한눈에(문장 3줄·화면 4줄) | 390·360px 문장 초과 0장, 화면 초과 0장 |
 | `python3 pipeline/collide.py` | 3 빈칸 중의성(후보를 좁히는 체) | 새 카드를 만들 때마다 |
 | `python3 pipeline/deepcheck.py` | 뜻 번호·IPA·품사·교차 중복 | A1~A5 0건 |

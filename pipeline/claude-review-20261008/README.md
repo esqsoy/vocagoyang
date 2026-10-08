@@ -51,3 +51,13 @@ Claude가 Codex 3주 작업(78커밋) 후의 최신판을 리뷰했다. 리뷰 �
   - government는 법을 만드는 주체(의회)를 정부로 쓴 문장이라 입법·집행을 가르는 문장으로 바꿨다.
   - interaction은 더 좋은 지식 예문(아기의 언어 습득)으로 바꿨다.
   - 거시·미시경제학은 정의의 범위를 바로잡았다([PRINCIPLES 2-5](../../PRINCIPLES.md#2-5-학문-용어는-짧아도-철저하게)).
+
+## 지식 예문(`knowledge-01.json`, `knowledge-02.json`)
+
+영신 구상(26.10.08): 5,000단어를 다 보고 나면 세계사·과학사의 틀이 남게 예문을 쓰자. 지식 지도를 먼저 짜고 단어를 거는 방식은 [PRINCIPLES 2-6](../../PRINCIPLES.md#2-6-지식-예문은-지도부터-막히는-어휘는-더한다), 지도는 [MAP.md](../knowledge-map/MAP.md)에 있다.
+
+- **1묶음(`knowledge-01`, 25카드):** 1세트 서수를 세기의 척추로 쓰고(fourth=로마 국교, fifth=서로마 멸망, seventh=이슬람), 달·하루·한 해와 1장 '인류의 시작'(human·stone·cave·wheat·corn·river·irrigation·history·clay·alphabet 등)을 걸었다. 영신 "tight!". 문장 목록: `../knowledge-map/batch-01-applied.json`.
+- **2묶음(`knowledge-02`, 새 표제어 50개 + burial):** 지식 문장을 쓰다 막힌 단어를 더했다(영신 "어휘 제약은 … 추가해서 해결하자"). 16·26·34·42세트 끝에 '지식 어휘 Ⅰ~Ⅳ' 연습(14·14·11·11장)으로 붙였다. burial은 pyramid와 함께 쓸 수 있게 되어 21세트 예문을 고대 이집트 문장으로 바꿨다. 목록: `../knowledge-map/batch-02-new-words.json`.
+  - 새 연습은 이름에 번호 범위가 없다. `assemble.py`의 세트 이름(예: 26세트 2484~2583)은 범위가 있는 연습만으로 계산한다.
+  - 개수: FABLE 7,081→7,131카드, 624→628연습, 표제어 4,928→4,978. 테스트는 개수를 DATA에서 읽어 단언을 바꾸지 않고 32/32 통과했다.
+

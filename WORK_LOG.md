@@ -574,6 +574,20 @@
 - 검증(1묶음): exaudit 27, linecheck 390·360px 초과 0, deepcheck A1~A5 0, Codex 테스트 32/32.
 - 상태: 2묶음은 영신 확인 대기.
 
+## 2026-10-08 · 지식 예문 2묶음: 새 표제어 50개(지식 어휘 Ⅰ~Ⅳ)와 burial
+
+- 요청(영신): "예술이야! 완벽합니다 theory, selection, fuel, ape 그리고 burial 다 fable에 추가하고 아인슈타인의 이론도 상대성이론으로 하자."
+- 반영(로컬·브랜치, 미배포):
+  - 새 표제어 50개(초안 46 + theory·selection·fuel·ape)를 16·26·34·42세트 끝에 '지식 어휘 Ⅰ~Ⅳ'(14·14·11·11장)로 붙였다. 각 단어의 예문은 지식 지도 노드의 지식 예문이다.
+  - relativity: "Einstein's theory of ___ says that time can slow down." theory를 더하면서 정식 명칭으로 바꿨다.
+  - burial(21세트): "The ancient Egyptians built pyramids for the ___ of their kings."
+  - `pipeline/assemble.py`: 세트 이름의 범위를 범위가 있는 묶음만으로 계산한다(새 연습은 이름에 범위가 없다).
+  - 원장 `claude-review-20261008/knowledge-02.json`을 복원 체인 맨 위에 얹었다. `knowledge-map/batch-02-new-words.json`은 적용 상태로 바꿨다.
+  - 문서: PRINCIPLES 2-6(지도 먼저, 막히는 어휘는 더한다, 이유와 결정자), WORK_PLAN 구성, pipeline README, 원장 README.
+- 개수: FABLE 7,081→7,131카드, 624→628연습, 표제어 4,928→4,978. 인덱스 수치는 조립 때 자동 갱신.
+- 검증(이번에 실행): exaudit 26장(1묶음 뒤 27), linecheck 390·360px 문장·화면 초과 0, deepcheck A1~A5 0, collide 새 카드 결함 없음, IPA·모아둔 카드 빌드, Codex 테스트 32/32(session 7,536회·628연습), 393px 화면에서 16세트 '지식 어휘 Ⅰ' 타일과 문제 화면(compass) 확인, 페이지 오류 0. 실기기 Safari는 확인하지 않았다.
+- 상태: 커밋·브랜치 푸시. **main 배포 전**(1·2묶음 함께 배포 대기). 다음은 3묶음(2장 고대 제국과 사상, 3장 중세와 교류).
+
 ## 다음 기록 형식
 
 
