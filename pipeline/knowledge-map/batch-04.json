@@ -1,0 +1,174 @@
+{
+ "batch": 4,
+ "date": "2026-10-08",
+ "status": "draft_for_youngsin_review",
+ "note": "4장 르네상스와 대항해, 5장 종교개혁·절대왕정·계몽. 새 단어 예문이 맡은 사실(explore=포르투갈 항해, reform=루터 1517, monarch=루이 14세)과 겹치지 않게 썼다. absolute·constitutional은 monarchy(표제어 아님)를 써서 표제어 추가를 제안한다. collide: parliamentary↔congressional(13자)을 해설로 구별.",
+ "kept": {
+  "knowledge": "이미 인쇄술 지식 예문",
+  "twelfth": "이미 콜럼버스 1492",
+  "tomato": "이미 1500년대 토마토",
+  "print": "출력하다 생활 쓰임(print ten copies)을 남긴다. 구텐베르크는 printing이 맡음",
+  "introduce": "potato와 겹쳐 뺌",
+  "sugar": "No sugar in my coffee 생활 쓰임을 남김",
+  "scripture": "'오직 성경'은 Scripture(고유명사)라 빈칸에 두지 않음, reform·protestant로 충분",
+  "reason": "② 이성은 이미 그리스 사상가 지식 예문"
+ },
+ "cards": [
+  {
+   "node": "W14 르네상스와 인쇄술",
+   "word": "Italian",
+   "old_ex": "We had dinner at a small {{BLANK}} restaurant.",
+   "ex": "The Renaissance began in {{BLANK}} cities like Florence in the 1300s.",
+   "tr": "르네상스는 1300년대에 피렌체 같은 이탈리아 도시들에서 시작되었어."
+  },
+  {
+   "node": "W14 르네상스와 인쇄술",
+   "word": "printing",
+   "old_ex": "The {{BLANK}} of our school paper costs money.",
+   "ex": "In the 1450s, Gutenberg's {{BLANK}} press made books much cheaper.",
+   "tr": "1450년대에 구텐베르크의 인쇄기 덕분에 책값이 훨씬 싸졌어."
+  },
+  {
+   "node": "W15 대항해 시대",
+   "word": "sail",
+   "old_ex": "We will {{BLANK}} to the island tomorrow.",
+   "ex": "In 1492, Columbus {{BLANK}}ed west across the Atlantic Ocean.",
+   "tr": "1492년 콜럼버스는 대서양을 건너 서쪽으로 항해했어."
+  },
+  {
+   "node": "W15 대항해 시대",
+   "word": "voyage",
+   "old_ex": "The {{BLANK}} across the Pacific took two months.",
+   "ex": "The first {{BLANK}} around the world took three years, from 1519 to 1522.",
+   "tr": "세계를 한 바퀴 돈 첫 항해는 1519년부터 1522년까지 3년이 걸렸어.",
+   "c": "마젤란이 이끈 함대의 항해. 마젤란은 도중에 죽었다. 주로 배·우주선으로 가는 긴 여행."
+  },
+  {
+   "node": "W15 대항해 시대",
+   "word": "spice",
+   "old_ex": "Mom adds a hot {{BLANK}} to almost every dish.",
+   "ex": "Europeans in the late 1400s sailed to Asia for {{BLANK}}s like pepper.",
+   "tr": "1400년대 말 유럽인들은 후추 같은 향신료를 찾아 아시아로 항해했어.",
+   "c": "형용사는 spicy. 향신료는 금·선교와 함께 대항해의 큰 동기였다."
+  },
+  {
+   "node": "W16 콜럼버스 교환",
+   "word": "horse",
+   "old_ex": "She rides a {{BLANK}} every weekend.",
+   "ex": "In the 1500s, the Spanish brought {{BLANK}}s to the Americas.",
+   "tr": "1500년대에 스페인 사람들은 아메리카에 말을 들여왔어.",
+   "c": "아메리카의 말은 빙하기 뒤 사라졌다가 이때 다시 들어왔다."
+  },
+  {
+   "node": "W16 콜럼버스 교환",
+   "word": "potato",
+   "old_ex": "We baked {{BLANK}}es in the fire.",
+   "ex": "{{BLANK}}es were first grown in the Andes mountains of South America.",
+   "tr": "감자는 남아메리카 안데스 산지에서 처음 재배되었어."
+  },
+  {
+   "node": "W16 콜럼버스 교환",
+   "word": "disease",
+   "old_ex": "Heart {{BLANK}} runs in his family.",
+   "ex": "After 1492, {{BLANK}}s from Europe killed millions of people in the Americas.",
+   "tr": "1492년 이후 유럽에서 건너온 병으로 아메리카에서 수백만 명이 죽었어.",
+   "c": "heart disease(심장병). 퍼지는 병은 주로 disease, illness는 앓는 상태 쪽이다."
+  },
+  {
+   "node": "W17 노예무역과 플랜테이션",
+   "word": "slave",
+   "old_ex": "Long ago, {{BLANK}}s worked without pay.",
+   "ex": "Over 10 million Africans were taken to the Americas as {{BLANK}}s.",
+   "tr": "천만 명이 넘는 아프리카인이 노예로 아메리카에 끌려갔어.",
+   "c": "1500~1800년대 대서양 노예무역. 주인에게 매인 사람. '폰의 노예'처럼 비유로도 쓴다."
+  },
+  {
+   "node": "W17 노예무역과 플랜테이션",
+   "word": "plantation",
+   "old_ex": "They grow coffee on a huge {{BLANK}}.",
+   "ex": "Slaves in the Americas were forced to work on sugar {{BLANK}}s.",
+   "tr": "아메리카의 노예들은 사탕수수 대농장에서 강제로 일해야 했어."
+  },
+  {
+   "node": "W18 종교개혁",
+   "word": "Catholic",
+   "old_ex": "My friend goes to a {{BLANK}} church downtown.",
+   "ex": "The Pope leads the {{BLANK}} Church from Vatican City.",
+   "tr": "교황은 바티칸 시국에서 가톨릭교회를 이끌어."
+  },
+  {
+   "node": "W18 종교개혁",
+   "word": "Protestant",
+   "old_ex": "Most of my family is {{BLANK}}, not Catholic.",
+   "ex": "In the 1500s, {{BLANK}} churches broke away from the Catholic Church.",
+   "tr": "1500년대에 개신교 교회들이 가톨릭교회에서 갈라져 나왔어."
+  },
+  {
+   "node": "W18 종교개혁",
+   "word": "Anglican",
+   "old_ex": "My aunt goes to an {{BLANK}} church downtown.",
+   "ex": "In 1534, Henry VIII broke from the Pope and started the {{BLANK}} Church.",
+   "tr": "1534년 헨리 8세는 교황과 갈라서고 성공회(영국 국교회)를 세웠어."
+  },
+  {
+   "node": "W19 절대왕정",
+   "word": "absolute",
+   "old_ex": "You need {{BLANK}} quiet during the test.",
+   "ex": "In an {{BLANK}} monarchy, the ruler's power has no legal limits.",
+   "tr": "절대 군주제에서는 통치자의 권력에 법적인 한계가 없어.",
+   "c": "absolute power(절대 권력). absolute/complete quiet처럼 '완전한'의 뜻도 있다."
+  },
+  {
+   "node": "W19 절대왕정",
+   "word": "divine",
+   "old_ex": "The old book tells of {{BLANK}} power.",
+   "ex": "In the 1600s, many European kings claimed a {{BLANK}} right to rule.",
+   "tr": "1600년대 유럽의 많은 왕은 신이 내린 통치권을 주장했어."
+  },
+  {
+   "node": "W20 의회 정치",
+   "word": "constitutional",
+   "old_ex": "Free speech is a {{BLANK}} right here.",
+   "ex": "In a {{BLANK}} monarchy, the king's power is limited by law.",
+   "tr": "입헌 군주제에서는 왕의 권력이 법으로 제한돼."
+  },
+  {
+   "node": "W20 의회 정치",
+   "word": "parliament",
+   "old_ex": "The British {{BLANK}} will vote on the new law.",
+   "ex": "Many countries have an elected {{BLANK}} that makes their laws.",
+   "tr": "많은 나라에는 선거로 뽑혀 법을 만드는 의회가 있어.",
+   "c": "영국 의회는 the Parliament. 1689년 뒤 영국 왕은 의회 동의 없이 세금을 걷지 못했다. 미국 의회는 Congress."
+  },
+  {
+   "node": "W20 의회 정치",
+   "word": "parliamentary",
+   "old_ex": "The {{BLANK}} vote is next Tuesday.",
+   "ex": "In a {{BLANK}} system, lawmakers choose the head of government.",
+   "tr": "의원 내각제에서는 의원들이 정부의 수반을 뽑아.",
+   "c": "parliament(의회)+-ary. 의원들이 정부 수반을 뽑는 건 parliamentary system. congressional은 미국 의회(Congress)의."
+  },
+  {
+   "node": "W21 계몽사상",
+   "word": "separation",
+   "old_ex": "The {{BLANK}} from her best friend was hard.",
+   "ex": "The {{BLANK}} of powers divides government into three branches.",
+   "tr": "권력 분립은 정부를 세 갈래로 나눠.",
+   "c": "separate+ion. 권력 분립은 몽테스키외(1748)가 정리한 입법·행정·사법의 나눔."
+  },
+  {
+   "node": "W21 계몽사상",
+   "word": "morality",
+   "old_ex": "The book asks big questions about {{BLANK}}.",
+   "ex": "In the 1700s, Kant argued that {{BLANK}} must rest on reason, not feelings.",
+   "tr": "1700년대에 칸트는 도덕이 감정이 아니라 이성에 바탕을 두어야 한다고 주장했어."
+  },
+  {
+   "node": "W21 계몽사상",
+   "word": "inequality",
+   "old_ex": "Our history teacher talked about {{BLANK}} in pay.",
+   "ex": "In 1755, Rousseau argued that private property led to {{BLANK}}.",
+   "tr": "1755년 루소는 사유 재산이 불평등을 낳았다고 주장했어."
+  }
+ ]
+}
