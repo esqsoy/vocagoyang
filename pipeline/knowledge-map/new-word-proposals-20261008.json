@@ -1,0 +1,61 @@
+{
+ "date": "2026-10-08",
+ "status": "proposal_for_youngsin",
+ "note": "지식 예문 5~10묶음을 쓰다 표제어 밖이라 막힌 단어. 카드는 모두 표제어 안 단어로 먼저 써 두었다(또는 지금 예문을 두었다). 승인하면 표제어로 더하고 해당 카드를 아래 문장으로 바꾼다(AGENTS: 단어 추가는 먼저 의견을 낸다).",
+ "proposals": [
+  {
+   "word": "invisible",
+   "why": "스미스의 '보이지 않는 손(invisible hand)'은 시장을 설명할 때 교과서가 그대로 쓰는 표현이다. 지금은 'self-interest can benefit all'로 풀어 썼다",
+   "sentence": "In 1776, Adam Smith said an 'invisible hand' guides a free {{BLANK}}. (market ②, 측정 OK 3/3, invisible만 어휘 밖)",
+   "batch": 5
+  },
+  {
+   "word": "crown",
+   "why": "1804년 나폴레옹이 스스로 관을 쓴 장면이 핵심인데, crown/crowned가 표제어 밖이라 'made himself'로 썼다. crown(왕관·즉위시키다)은 기본어이기도 하다",
+   "sentence": "In 1804, Napoleon crowned himself {{BLANK}} of the French. (emperor, 측정 OK 3/3, crowned만 어휘 밖)",
+   "batch": 5
+  },
+  {
+   "word": "inspire",
+   "why": "혁명이 다른 혁명에 '영감을 주다'는 역사 예문에 자주 필요하다. 지금은 influenced로 썼다(뜻은 맞음)",
+   "sentence": "The {{BLANK}} Revolution, which began in 1775, inspired the French one. (American, 측정 OK 3/4, inspired만 어휘 밖)",
+   "batch": 5
+  },
+  {
+   "word": "smallpox",
+   "why": "S06 '1980년 천연두 박멸'은 사람이 백신으로 없앤 첫 병이라는 핵심 사실인데 smallpox가 표제어 밖이라 쓰지 못했다(vaccine은 대신 1796 제너로 씀). W16 콜럼버스 교환의 '유럽에서 온 병'도 대표가 천연두다.",
+   "sentence": "Thanks to {{BLANK}}s, smallpox was gone from the world by 1980. (vaccine 카드)",
+   "batch": 7
+  },
+  {
+   "word": "magnet",
+   "why": "자석은 기본 과학어인데 표제어 밖이다. 1831년 패러데이 전자기 유도를 '움직이는 자석이 전류를 만든다'로 풀 수 없어 induction은 '발전소로 이어졌다'로 썼다.",
+   "sentence": "In 1831, Faraday found {{BLANK}}: a moving magnet makes electricity flow in a wire. (induction 카드)",
+   "batch": 7
+  },
+  {
+   "word": "domestic",
+   "why": "GDP의 정식 이름(gross domestic product)에 꼭 필요하다. 없으면 gross ②의 GDP 지식 예문을 쓸 수 없다(돌려 쓰면 total과 겹친다). domestic market·domestic flight 등 수능 기본어.",
+   "sentence": "{{BLANK}} domestic product is the value of all goods and services a country makes. (빈칸=gross, 390px 문장3/화면4. 'in a year'를 넣으려면 'GDP, or {{BLANK}} domestic product, is the value of all a country makes in a year.'도 3/4)",
+   "batch": 8
+  },
+  {
+   "word": "mammal",
+   "why": "'포유류'는 생물 분류의 기본어인데 표제어 밖이다. 박쥐(유일하게 나는 포유류)·고래 같은 지식 문장이 막힌다. 지금 bat 카드는 표제어 안 단어로 쓴 대안(반향정위)을 넣었다.",
+   "sentence": "{{BLANK}}s are the only mammals that can truly fly. (빈칸=bat ②, 390px 2/2)",
+   "batch": 8
+  },
+  {
+   "word": "policy",
+   "why": "수능 기본어(정책·방침)인데 표제어에 없다. 실제 격언 'Honesty is the best policy'를 쓰려면 필요하다(정치·경제 지식 예문에도 쓸 데가 많다). 표제어 안 대안으로 제퍼슨의 'Honesty is the first chapter in the book of wisdom.'(1819 편지, 390px 2줄 OK)도 있으나 덜 알려져 있어 넣지 않았다.",
+   "sentence": "{{BLANK}} is the best policy. (word=honesty, tr: 정직이 최선의 방책이야.)",
+   "batch": 9
+  },
+  {
+   "word": "spinal",
+   "why": "중추신경계=뇌+척수라는 완결된 정의를 쓰려면 spinal cord가 필요하다(cord는 표제어). 지금 카드는 표제어 안 대안('뇌는 신경계의 지휘 중심')으로 썼고, 급하지 않은 제안이다.",
+   "sentence": "The brain and the spinal cord form the central {{BLANK}} system.",
+   "batch": 10
+  }
+ ]
+}

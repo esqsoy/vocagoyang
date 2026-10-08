@@ -52,7 +52,7 @@ Claude가 Codex 3주 작업(78커밋) 후의 최신판을 리뷰했다. 리뷰 �
   - interaction은 더 좋은 지식 예문(아기의 언어 습득)으로 바꿨다.
   - 거시·미시경제학은 정의의 범위를 바로잡았다([PRINCIPLES 2-5](../../PRINCIPLES.md#2-5-학문-용어는-짧아도-철저하게)).
 
-## 지식 예문(`knowledge-01.json`~`knowledge-04.json`)
+## 지식 예문(`knowledge-01.json`~`knowledge-10.json`)
 
 영신 구상(26.10.08): 5,000단어를 다 보고 나면 세계사·과학사의 틀이 남게 예문을 쓰자. 지식 지도를 먼저 짜고 단어를 거는 방식은 [PRINCIPLES 2-6](../../PRINCIPLES.md#2-6-지식-예문은-지도부터-막히는-어휘는-더한다), 지도는 [MAP.md](../knowledge-map/MAP.md)에 있다.
 
@@ -66,6 +66,16 @@ Claude가 Codex 3주 작업(78커밋) 후의 최신판을 리뷰했다. 리뷰 �
   - monarchy는 absolute·constitutional 예문이 쓰는 말이라 표제어로 더했다(42세트 지식 어휘 Ⅳ, monarch 다음). FABLE 7,132카드·표제어 4,979, 세 교재 합집합 8,310.
   - 영신 검토에서 해설 규칙이 생겼다(아래 '해설은 단어에 관한 것만'). 초안 해설의 마젤란·1689년·몽테스키외·말의 빙하기 소멸·대항해의 동기를 뺐고, 노예무역의 시기는 slave·plantation 예문으로 옮겼다.
   - parliament(18세트)는 "Many countries have an elected parliament…"로 바꿔 2-7 경계 사례도 정리했다. parliamentary와 congressional(13자)은 해설로 구별한다.
+- **5~10묶음(`knowledge-05`~`knowledge-10`, 174카드):** 영신 "이제 예문작업을 완성해버리자! 전부!" 지도 6~14장을 모두 쓰고, 지도 밖에서 조사가 F(수정 필요)로 판정한 14장도 고쳤다. 지도의 노드는 이것으로 모두 끝났다.
+  - 5묶음 26장: 시민혁명(미국·프랑스·아이티·1848·볼리바르·나폴레옹), 산업혁명(석탄·면직·철도·증기·동력 직기), 노동조합·노동 계급, 애덤 스미스·리카도, 노예제 폐지. F였던 lead·coal·slavery·abolish를 고쳤다.
+  - 6묶음 28장: 민족주의·통일, 제국주의(해군·원료·유럽 이민 6천만·1857 인도), 메이지, 러시아 혁명과 공산주의, 불황, 홀로코스트, 유엔·인권선언, 냉전, 소금 행진·아파르트헤이트·만델라, 복지 국가, 세계화. 세계대전 카드는 9장으로 묶었다(아래).
+  - 7묶음 36장: 과학사. 지동설·뉴턴·세포·돌턴·주기율표·유전자·세균과 백신·항생제 내성·원자로·전자기 유도·질량-에너지 등가·판게아·빅뱅·과학적 방법·유클리드·미적분. data는 티코 브라헤, field는 이븐 시나로 고쳤다.
+  - 8묶음 56장: 핵심 개념(수능 독서 배경). 무게와 질량, 벡터·속도·빗면·마찰, 빛·소리, 계절·조석, 광합성·심장·면역, 기후·온실가스, 기회비용·수요·공급·균형·탄력성·독점, 무역 적자·최저임금, 헌법·주권·형평, 학문 이름, 생물 다양성. 예문만으로 정의가 완결되게 썼다(PRINCIPLES 2-5).
+  - 9묶음 14장: 세계 지리 3장과 경구 11장. corrupt는 액턴의 실제 문구("power tends to corrupt")로 바로잡았다.
+  - 10묶음 14장: 지도 밖 F 판정. international·scientific(포퍼)·nervous·invent·civilization·liberty(로크, 표제어 철자 en을 소문자로)·earthquake·capitalist·linguistics·inversion·locus·syntactic·industrialize·revolution(48).
+  - **세계대전 쏠림 방지:** 영신이 앞서 세계대전 세부 날짜·전후 사건 쏠림을 지적했다. 그래서 전쟁 카드는 9장(last·eleventh·twentieth·invade·fifteenth·bomb·establish·treaty·Jew)으로 묶었다. 같은 1945년 종전을 담던 end는 1960년 '아프리카의 해'로 옮겼다. tank·precipitate·occupation·propaganda·tribunal은 두었다.
+  - **만든 방법:** 지침(`../knowledge-map/BRIEF.md`)을 써서 하위 에이전트 6개가 장별로 초안을 썼다. Claude가 모든 카드를 다시 읽고 사실·축·중의성을 확인하고, 몇 장은 고쳐 썼다(예: French는 '당시 프랑스 식민지 아이티', season은 lean 대신 'the Earth leans as it goes around the Sun', 애덤 스미스 1776은 한 장에만). 묶음마다 exaudit·linecheck 390·360px·deepcheck·collide를 돌렸다. 묶음마다 원장을 만들었다.
+  - **표제어 밖이라 막힌 단어 9개**(policy·domestic·mammal·smallpox·magnet·spinal·invisible·crown·inspire)는 더하지 않았다. 표제어 안 단어로 먼저 썼고, 승인을 기다린다. 목록: `../knowledge-map/new-word-proposals-20261008.json`.
 
 ## 해설은 단어에 관한 것만(`word-notes.json`)
 

@@ -10,6 +10,11 @@
   - 변경 원장은 `pipeline/claude-review-20261008/`에 있다. 내용을 고치면 같은 방식으로 원장을 남기고 복원 체인에 얹는다(그 폴더 README 참고).
   - 다음 일: 1·3세트 타일 줄바꿈이 남아 있다. 43 country 제안도 아직 미반영이다.
 
+- **2026-10-08 지식 예문 5~10묶음 — 미배포(브랜치 `claude/brave-clarke-rixqvy`에 푸시)**: 지도 6~14장과 지도 밖 F 14장, 174카드. 지식 지도의 노드는 모두 끝났다. 경위는 [WORK_LOG](WORK_LOG.md), 묶음별 내용은 [리뷰 README](pipeline/claude-review-20261008/README.md). 배포는 영신 요청 뒤.
+  - 원장 knowledge-05~10(복원 체인 맨 위는 knowledge-05). 검사: exaudit 25, linecheck 초과 0, deepcheck A1~A5 0, Codex 33/33.
+  - **영신 결정 대기:** 표제어 밖이라 막힌 단어 9개(policy·domestic·mammal·smallpox·magnet·spinal·invisible·crown·inspire). 승인하면 표제어로 더하고 해당 카드를 제안 문장으로 바꾼다. 목록 `pipeline/knowledge-map/new-word-proposals-20261008.json`.
+  - 다음 지식 예문 작업은 `pipeline/knowledge-map/BRIEF.md` 지침을 쓴다.
+
 - **2026-10-08 지식 4묶음·monarchy·해설 규칙·돌파 축하 폭죽 — main 배포(영신 "배포하고")**: 앱 a7299ad, Pages 37832018030 completed/success. 기록은 [DEPLOYMENT](DEPLOYMENT.md). 경위는 [WORK_LOG](WORK_LOG.md).
   - 다음(영신 "예문작업을 완성해버리자! 전부!"): 지식 지도 6~14장.
   - FABLE 7,132카드·표제어 4,979, 세 교재 합집합 8,310.
@@ -37,10 +42,9 @@
   - 3묶음 26장(2장 고대 제국과 사상, 3장 중세와 교류): 원장 `knowledge-03.json`(복원 체인 맨 위), 목록 `knowledge-map/batch-03.json`. 영신 "tight!!!!!!".
   - 검사(3묶음 후): exaudit 26, linecheck 390·360 초과 0, deepcheck 0, Codex 테스트 32/32.
   - 고유명사 안 빈칸 5장(empire·pyramid·pole②·hemisphere·lunar)을 영신 제안대로 고쳤다: 단어는 일반 명사로 쓰고 이름은 해설에 적는다([PRINCIPLES 2-7](PRINCIPLES.md#2-7-고유명사-안에-빈칸을-두지-않는다)). 원장 `proper-nouns.json`(체인 맨 위). parliament는 4묶음에서 다시 본다.
-  - 지도에서 끝난 노드: W01~W21(1~5장). 지도의 ●○◇ 표시는 작성 전 기준이라, 어느 단어를 바꿨는지는 batch 파일로 확인한다.
+  - 지도에서 끝난 노드: 전부(1~14장). 5~10묶음은 미배포. 지도의 ●○◇ 표시는 작성 전 기준이라, 어느 단어를 바꿨는지는 batch 파일로 확인한다.
   - **다음**:
-    - 4묶음은 썼다(위 미배포 항목). 다음은 6장(시민혁명) 이후다. 새 단어 예문이 맡은 사실과 겹치지 않게 한다.
-    - 지도에 남은 일: 세계대전 노드 4~5장으로 줄이기. 조사의 F(수정 필요) 28장(corrupt "Power tends to corrupt" 등)은 해당 묶음에서 고친다.
+    - 세계대전 쏠림 정리와 조사 F 판정 수정은 5~10묶음에서 끝냈다.
     - 새 지식 예문을 쓸 때마다 exaudit·linecheck·collide를 돌리고, 원장을 만들어 복원 체인에 얹는다.
 
 - **2026-10-08 연습 타일·담김 하트·학문 용어 2장·country — main 배포(영신 "배포해주십쇼")**: 앱 3ade2f7, Pages 37745476960 completed/success. 기록은 [DEPLOYMENT](DEPLOYMENT.md).
