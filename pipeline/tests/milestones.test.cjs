@@ -20,7 +20,10 @@ for(const [file,id] of COURSES){
   assert.equal(total,union.size,id+': 앞 교재와 겹치는 단어는 한 번만 센다');
   carry={[KEY]:h.storage.get(KEY)};
 }
-assert.equal(union.size,8309,'세 교재 합집합(중복 제외)');
+{ // 표제어를 더하면 수가 바뀌므로 고정값 대신 선택 화면(index.html)의 누적 수와 맞춘다.
+  const shown=+fs.readFileSync(path.join(root,'index.html'),'utf8').match(/VOCAB_STATS:ebs:START -->.*?누적 <b>([\d,]+)<\/b>/)[1].replace(/,/g,'');
+  assert.equal(union.size,shown,'세 교재 합집합(중복 제외)이 선택 화면의 누적 수와 같다');
+}
 
 // 1-2) 날아오는 단어는 배운 순서대로다: 교재 안에서는 세트·연습 순서, 교재 사이는 FABLE → 마더텅 → EBS.
 {
@@ -151,4 +154,4 @@ let progressAt2500=null;
 
 // 13) 세 HTML의 삽입 구간이 원본(runtime.js·style.css)과 같다.
 cp.execFileSync(process.execPath,[path.join(root,'pipeline/milestones/build.cjs'),'--check'],{stdio:'pipe'});
-console.log('PASS milestones: 세 교재 합집합 8,309, 1,000 단위 한 번씩, 업데이트 전 학생은 가장 큰 문턱 한 번, 복습 판 제외, 엔딩·포효 순서, 미리 보기 저장 없음, 문턱마다 길고 화려하게, 틀린 단어 기록, 단어 벽 배치, 익힌 단어');
+console.log('PASS milestones: 세 교재 합집합(선택 화면 누적 수와 같음), 1,000 단위 한 번씩, 업데이트 전 학생은 가장 큰 문턱 한 번, 복습 판 제외, 엔딩·포효 순서, 미리 보기 저장 없음, 문턱마다 길고 화려하게, 틀린 단어 기록, 단어 벽 배치, 익힌 단어');

@@ -1,8 +1,8 @@
 {
  "batch": 4,
  "date": "2026-10-08",
- "status": "draft_for_youngsin_review",
- "note": "4장 르네상스와 대항해, 5장 종교개혁·절대왕정·계몽. 새 단어 예문이 맡은 사실(explore=포르투갈 항해, reform=루터 1517, monarch=루이 14세)과 겹치지 않게 썼다. absolute·constitutional은 monarchy(표제어 아님)를 써서 표제어 추가를 제안한다. collide: parliamentary↔congressional(13자)을 해설로 구별.",
+ "status": "applied",
+ "note": "4장 르네상스와 대항해, 5장 종교개혁·절대왕정·계몽. 새 단어 예문이 맡은 사실(explore=포르투갈 항해, reform=루터 1517, monarch=루이 14세)과 겹치지 않게 썼다. absolute·constitutional은 monarchy(표제어 아님)를 써서 표제어 추가를 제안한다. collide: parliamentary↔congressional(13자)을 해설로 구별. 영신 검토(10/8): 전부 동의. 해설에는 단어와 관련된 것만 남기고(마젤란의 죽음·1689년·몽테스키외·말의 빙하기 소멸·대항해의 동기 삭제), 꼭 필요한 사실(노예무역의 시기)은 예문으로 옮겼다. c가 없는 카드는 원래 해설을 그대로 둔다.",
  "kept": {
   "knowledge": "이미 인쇄술 지식 예문",
   "twelfth": "이미 콜럼버스 1492",
@@ -41,23 +41,21 @@
    "old_ex": "The {{BLANK}} across the Pacific took two months.",
    "ex": "The first {{BLANK}} around the world took three years, from 1519 to 1522.",
    "tr": "세계를 한 바퀴 돈 첫 항해는 1519년부터 1522년까지 3년이 걸렸어.",
-   "c": "마젤란이 이끈 함대의 항해. 마젤란은 도중에 죽었다. 주로 배·우주선으로 가는 긴 여행."
+   "c": "주로 배·우주선으로 가는 긴 여행."
   },
   {
    "node": "W15 대항해 시대",
    "word": "spice",
    "old_ex": "Mom adds a hot {{BLANK}} to almost every dish.",
    "ex": "Europeans in the late 1400s sailed to Asia for {{BLANK}}s like pepper.",
-   "tr": "1400년대 말 유럽인들은 후추 같은 향신료를 찾아 아시아로 항해했어.",
-   "c": "형용사는 spicy. 향신료는 금·선교와 함께 대항해의 큰 동기였다."
+   "tr": "1400년대 말 유럽인들은 후추 같은 향신료를 찾아 아시아로 항해했어."
   },
   {
    "node": "W16 콜럼버스 교환",
    "word": "horse",
    "old_ex": "She rides a {{BLANK}} every weekend.",
    "ex": "In the 1500s, the Spanish brought {{BLANK}}s to the Americas.",
-   "tr": "1500년대에 스페인 사람들은 아메리카에 말을 들여왔어.",
-   "c": "아메리카의 말은 빙하기 뒤 사라졌다가 이때 다시 들어왔다."
+   "tr": "1500년대에 스페인 사람들은 아메리카에 말을 들여왔어."
   },
   {
    "node": "W16 콜럼버스 교환",
@@ -78,16 +76,15 @@
    "node": "W17 노예무역과 플랜테이션",
    "word": "slave",
    "old_ex": "Long ago, {{BLANK}}s worked without pay.",
-   "ex": "Over 10 million Africans were taken to the Americas as {{BLANK}}s.",
-   "tr": "천만 명이 넘는 아프리카인이 노예로 아메리카에 끌려갔어.",
-   "c": "1500~1800년대 대서양 노예무역. 주인에게 매인 사람. '폰의 노예'처럼 비유로도 쓴다."
+   "ex": "From the 1500s, over 10 million Africans were taken to the Americas as {{BLANK}}s.",
+   "tr": "1500년대부터 천만 명이 넘는 아프리카인이 노예로 아메리카에 끌려갔어."
   },
   {
    "node": "W17 노예무역과 플랜테이션",
    "word": "plantation",
    "old_ex": "They grow coffee on a huge {{BLANK}}.",
-   "ex": "Slaves in the Americas were forced to work on sugar {{BLANK}}s.",
-   "tr": "아메리카의 노예들은 사탕수수 대농장에서 강제로 일해야 했어."
+   "ex": "From the 1600s, slaves in the Americas worked on sugar {{BLANK}}s.",
+   "tr": "1600년대부터 아메리카의 노예들은 사탕수수 대농장에서 일해야 했어."
   },
   {
    "node": "W18 종교개혁",
@@ -138,7 +135,7 @@
    "old_ex": "The British {{BLANK}} will vote on the new law.",
    "ex": "Many countries have an elected {{BLANK}} that makes their laws.",
    "tr": "많은 나라에는 선거로 뽑혀 법을 만드는 의회가 있어.",
-   "c": "영국 의회는 the Parliament. 1689년 뒤 영국 왕은 의회 동의 없이 세금을 걷지 못했다. 미국 의회는 Congress."
+   "c": "영국 의회는 the Parliament(대문자), 미국 의회는 Congress."
   },
   {
    "node": "W20 의회 정치",
@@ -146,7 +143,7 @@
    "old_ex": "The {{BLANK}} vote is next Tuesday.",
    "ex": "In a {{BLANK}} system, lawmakers choose the head of government.",
    "tr": "의원 내각제에서는 의원들이 정부의 수반을 뽑아.",
-   "c": "parliament(의회)+-ary. 의원들이 정부 수반을 뽑는 건 parliamentary system. congressional은 미국 의회(Congress)의."
+   "c": "parliament(의회)+-ary. congressional은 미국 의회(Congress)의."
   },
   {
    "node": "W21 계몽사상",
@@ -154,7 +151,7 @@
    "old_ex": "The {{BLANK}} from her best friend was hard.",
    "ex": "The {{BLANK}} of powers divides government into three branches.",
    "tr": "권력 분립은 정부를 세 갈래로 나눠.",
-   "c": "separate+ion. 권력 분립은 몽테스키외(1748)가 정리한 입법·행정·사법의 나눔."
+   "c": "separate+ion. separation of powers(권력 분립): 입법·행정·사법."
   },
   {
    "node": "W21 계몽사상",

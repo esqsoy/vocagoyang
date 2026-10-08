@@ -1,0 +1,3111 @@
+{
+ "date": "2026-10-08",
+ "name": "knowledge-04",
+ "status": "applied_locally_verified",
+ "authorization": "영신(2026-10-08): \"전부 동의. 2,000부터 하자 근데 이게 영단어장이니까 가급적이면 단어와 관련된 것만 해설로 하자. 마젤란 죽은건 안넣어도 될듯. 만약 필수적인 정보라면 예문화하는게 맞다고 봄\"",
+ "summary": "지식 예문 4묶음(4장 르네상스와 대항해·5장 종교개혁·절대왕정·계몽) 21장 교체와 새 표제어 monarchy(set42 지식 어휘 Ⅳ). 해설에는 단어와 관련된 것만 남겼다. 원본 초안은 pipeline/knowledge-map/batch-04.json.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "251533669ecd7423171d41960f4118c9d6c8c0ded3d0f76609f73d58d6efa2cb",
+   "afterHash": "567368fe36346d017fa7ddb23a6f39965db97d145f08eef8ef77f5be6badcdea",
+   "changes": [
+    {
+     "path": [
+      10,
+      "exercises",
+      4,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "She rides a {{BLANK}} every weekend.",
+     "new": "In the 1500s, the Spanish brought {{BLANK}}s to the Americas."
+    },
+    {
+     "path": [
+      10,
+      "exercises",
+      4,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "걔는 주말마다 말을 타.",
+     "new": "1500년대에 스페인 사람들은 아메리카에 말을 들여왔어."
+    },
+    {
+     "path": [
+      15,
+      "exercises",
+      0,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Long ago, {{BLANK}}s worked without pay.",
+     "new": "From the 1500s, over 10 million Africans were taken to the Americas as {{BLANK}}s."
+    },
+    {
+     "path": [
+      15,
+      "exercises",
+      0,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "옛날에 노예들은 돈도 못 받고 일했어.",
+     "new": "1500년대부터 천만 명이 넘는 아프리카인이 노예로 아메리카에 끌려갔어."
+    },
+    {
+     "path": [
+      15,
+      "exercises",
+      4,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "We baked {{BLANK}}es in the fire.",
+     "new": "{{BLANK}}es were first grown in the Andes mountains of South America."
+    },
+    {
+     "path": [
+      15,
+      "exercises",
+      4,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리는 불에 감자를 구워 먹었어.",
+     "new": "감자는 남아메리카 안데스 산지에서 처음 재배되었어."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      5,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The British {{BLANK}} will vote on the new law.",
+     "new": "Many countries have an elected {{BLANK}} that makes their laws."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      5,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "영국 의회가 새 법에 대해 표결할 거야.",
+     "new": "많은 나라에는 선거로 뽑혀 법을 만드는 의회가 있어."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      5,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "영국을 비롯한 여러 나라의 의회. 미국 의회는 Congress.",
+     "new": "영국 의회는 the Parliament(대문자), 미국 의회는 Congress."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      4,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "We will {{BLANK}} to the island tomorrow.",
+     "new": "In 1492, Columbus {{BLANK}}ed west across the Atlantic Ocean."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      4,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 내일 배 타고 그 섬에 가.",
+     "new": "1492년 콜럼버스는 대서양을 건너 서쪽으로 항해했어."
+    },
+    {
+     "path": [
+      22,
+      "exercises",
+      7,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} across the Pacific took two months.",
+     "new": "The first {{BLANK}} around the world took three years, from 1519 to 1522."
+    },
+    {
+     "path": [
+      22,
+      "exercises",
+      7,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "태평양 횡단 항해는 두 달 걸렸어.",
+     "new": "세계를 한 바퀴 돈 첫 항해는 1519년부터 1522년까지 3년이 걸렸어."
+    },
+    {
+     "path": [
+      23,
+      "exercises",
+      3,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Heart {{BLANK}} runs in his family.",
+     "new": "After 1492, {{BLANK}}s from Europe killed millions of people in the Americas."
+    },
+    {
+     "path": [
+      23,
+      "exercises",
+      3,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "걔네 집안은 심장병이 잘 생겨.",
+     "new": "1492년 이후 유럽에서 건너온 병으로 아메리카에서 수백만 명이 죽었어."
+    },
+    {
+     "path": [
+      23,
+      "exercises",
+      3,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "신체 기능에 이상이 생기는 질병.",
+     "new": "heart disease(심장병). 퍼지는 병은 주로 disease, illness는 앓는 상태 쪽이다."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      0,
+      "words",
+      10,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "My friend goes to a {{BLANK}} church downtown.",
+     "new": "The Pope leads the {{BLANK}} Church from Vatican City."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      0,
+      "words",
+      10,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "내 친구는 시내에 있는 가톨릭 교회에 다녀.",
+     "new": "교황은 바티칸 시국에서 가톨릭교회를 이끌어."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      1,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Free speech is a {{BLANK}} right here.",
+     "new": "In a {{BLANK}} monarchy, the king's power is limited by law."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      1,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "표현의 자유는 여기서 헌법상의 권리야.",
+     "new": "입헌 군주제에서는 왕의 권력이 법으로 제한돼."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      7,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "You need {{BLANK}} quiet during the test.",
+     "new": "In an {{BLANK}} monarchy, the ruler's power has no legal limits."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      7,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "시험 중에는 절대적으로 조용해야 해.",
+     "new": "절대 군주제에서는 통치자의 권력에 법적인 한계가 없어."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      7,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "absolute/complete quiet는 같은 뜻: 완전한 고요.",
+     "new": "absolute power(절대 권력). absolute/complete quiet처럼 '완전한'의 뜻도 있다."
+    },
+    {
+     "path": [
+      28,
+      "exercises",
+      3,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "We had dinner at a small {{BLANK}} restaurant.",
+     "new": "The Renaissance began in {{BLANK}} cities like Florence in the 1300s."
+    },
+    {
+     "path": [
+      28,
+      "exercises",
+      3,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리는 작은 이탈리아 식당에서 저녁을 먹었어.",
+     "new": "르네상스는 1300년대에 피렌체 같은 이탈리아 도시들에서 시작되었어."
+    },
+    {
+     "path": [
+      30,
+      "exercises",
+      5,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The old book tells of {{BLANK}} power.",
+     "new": "In the 1600s, many European kings claimed a {{BLANK}} right to rule."
+    },
+    {
+     "path": [
+      30,
+      "exercises",
+      5,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 오래된 책은 신의 힘에 대해 이야기해.",
+     "new": "1600년대 유럽의 많은 왕은 신이 내린 통치권을 주장했어."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      4,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} from her best friend was hard.",
+     "new": "The {{BLANK}} of powers divides government into three branches."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      4,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "가장 친한 친구와의 이별은 힘들었어.",
+     "new": "권력 분립은 정부를 세 갈래로 나눠."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      4,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "separate(분리하다)+ion. 부부의 '별거'도 뜻한다.",
+     "new": "separate+ion. separation of powers(권력 분립): 입법·행정·사법."
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      7,
+      "words",
+      9,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The book asks big questions about {{BLANK}}.",
+     "new": "In the 1700s, Kant argued that {{BLANK}} must rest on reason, not feelings."
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      7,
+      "words",
+      9,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 책은 도덕에 관한 큰 질문을 던져.",
+     "new": "1700년대에 칸트는 도덕이 감정이 아니라 이성에 바탕을 두어야 한다고 주장했어."
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      3,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} of our school paper costs money.",
+     "new": "In the 1450s, Gutenberg's {{BLANK}} press made books much cheaper."
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      3,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 학교 신문 인쇄에는 돈이 들어.",
+     "new": "1450년대에 구텐베르크의 인쇄기 덕분에 책값이 훨씬 싸졌어."
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      7,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} vote is next Tuesday.",
+     "new": "In a {{BLANK}} system, lawmakers choose the head of government."
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      7,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "의회 투표는 다음 주 화요일이야.",
+     "new": "의원 내각제에서는 의원들이 정부의 수반을 뽑아."
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      7,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "parliament(의회)+-ary.",
+     "new": "parliament(의회)+-ary. congressional은 미국 의회(Congress)의."
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      7,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Mom adds a hot {{BLANK}} to almost every dish.",
+     "new": "Europeans in the late 1400s sailed to Asia for {{BLANK}}s like pepper."
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      7,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "엄마는 거의 모든 요리에 매운 향신료를 넣으셔.",
+     "new": "1400년대 말 유럽인들은 후추 같은 향신료를 찾아 아시아로 항해했어."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      0,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Our history teacher talked about {{BLANK}} in pay.",
+     "new": "In 1755, Rousseau argued that private property led to {{BLANK}}."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      0,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 역사 선생님이 임금 불평등에 대해 말씀하셨어.",
+     "new": "1755년 루소는 사유 재산이 불평등을 낳았다고 주장했어."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      2,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Most of my family is {{BLANK}}, not Catholic.",
+     "new": "In the 1500s, {{BLANK}} churches broke away from the Catholic Church."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      2,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 가족 대부분은 천주교가 아니라 개신교야.",
+     "new": "1500년대에 개신교 교회들이 가톨릭교회에서 갈라져 나왔어."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      2,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "They grow coffee on a huge {{BLANK}}.",
+     "new": "From the 1600s, slaves in the Americas worked on sugar {{BLANK}}s."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      2,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 사람들은 커다란 대농장에서 커피를 길러.",
+     "new": "1600년대부터 아메리카의 노예들은 사탕수수 대농장에서 일해야 했어."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      2,
+      "en"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "dynasty",
+     "new": "monarchy"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      2,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "① 왕조",
+     "new": "① 군주제, 군주국"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The Qin {{BLANK}} united China for the first time in 221 BC.",
+     "new": "Britain is still a {{BLANK}}, but its king has little real power."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "진 왕조는 기원전 221년에 처음으로 중국을 통일했어.",
+     "new": "영국은 지금도 군주국이지만, 왕에게는 실권이 거의 없어."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "한 집안이 대를 이어 다스리는 시대. 한·당·명도 dynasty.",
+     "new": "monarch(군주)+-y. absolute·constitutional monarchy(절대·입헌 군주제)."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      2,
+      "ipa"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "ˈdaɪnəsti",
+     "new": "ˈmɑnɚki"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      2,
+      "word"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "dynasty",
+     "new": "monarchy"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      3,
+      "en"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "socialism",
+     "new": "dynasty"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      3,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "① 사회주의",
+     "new": "① 왕조"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "{{BLANK}} calls for workers or the state to own factories and land.",
+     "new": "The Qin {{BLANK}} united China for the first time in 221 BC."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "사회주의는 공장과 땅을 노동자나 국가가 소유하자고 주장해.",
+     "new": "진 왕조는 기원전 221년에 처음으로 중국을 통일했어."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "↔ capitalism(자본주의). communism(공산주의)과 구별해 쓴다.",
+     "new": "한 집안이 대를 이어 다스리는 시대. 한·당·명도 dynasty."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      3,
+      "ipa"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "ˈsoʊʃəˌlɪzəm",
+     "new": "ˈdaɪnəsti"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      3,
+      "word"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "socialism",
+     "new": "dynasty"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      4,
+      "en"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "tariff",
+     "new": "socialism"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      4,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "① 관세",
+     "new": "① 사회주의"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "A {{BLANK}} is a tax on goods brought in from other countries.",
+     "new": "{{BLANK}} calls for workers or the state to own factories and land."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "관세는 다른 나라에서 들여오는 상품에 붙는 세금이야.",
+     "new": "사회주의는 공장과 땅을 노동자나 국가가 소유하자고 주장해."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "관세를 매기면 수입품 값이 오른다.",
+     "new": "↔ capitalism(자본주의). communism(공산주의)과 구별해 쓴다."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      4,
+      "ipa"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "ˈtɛrɪf",
+     "new": "ˈsoʊʃəˌlɪzəm"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      4,
+      "word"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "tariff",
+     "new": "socialism"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      5,
+      "en"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "scarcity",
+     "new": "tariff"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      5,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "① 부족, 희소성",
+     "new": "① 관세"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Economics begins with {{BLANK}}: we can't have everything we want.",
+     "new": "A {{BLANK}} is a tax on goods brought in from other countries."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "경제학은 희소성에서 시작해. 원하는 것을 다 가질 수는 없거든.",
+     "new": "관세는 다른 나라에서 들여오는 상품에 붙는 세금이야."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "형용사는 scarce. shortage는 일시적 부족, scarcity는 근본적 희소.",
+     "new": "관세를 매기면 수입품 값이 오른다."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      5,
+      "ipa"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "ˈskɛrsəti",
+     "new": "ˈtɛrɪf"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      5,
+      "word"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "scarcity",
+     "new": "tariff"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      6,
+      "en"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "eclipse",
+     "new": "scarcity"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      6,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "① (일식·월식의) 식",
+     "new": "① 부족, 희소성"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In a solar {{BLANK}}, the Moon passes between the Sun and the Earth.",
+     "new": "Economics begins with {{BLANK}}: we can't have everything we want."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "일식 때는 달이 태양과 지구 사이를 지나가.",
+     "new": "경제학은 희소성에서 시작해. 원하는 것을 다 가질 수는 없거든."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "solar eclipse는 일식, lunar eclipse는 월식.",
+     "new": "형용사는 scarce. shortage는 일시적 부족, scarcity는 근본적 희소."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      6,
+      "ipa"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "ɪˈklɪps",
+     "new": "ˈskɛrsəti"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      6,
+      "word"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "eclipse",
+     "new": "scarcity"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      7,
+      "en"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "inertia",
+     "new": "eclipse"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      7,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "① 관성",
+     "new": "① (일식·월식의) 식"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Because of {{BLANK}}, you move forward when a bus stops suddenly.",
+     "new": "In a solar {{BLANK}}, the Moon passes between the Sun and the Earth."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "관성 때문에 버스가 갑자기 서면 몸이 앞으로 쏠려.",
+     "new": "일식 때는 달이 태양과 지구 사이를 지나가."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "뉴턴 운동 제1법칙: 움직이던 것은 계속 움직이려 한다.",
+     "new": "solar eclipse는 일식, lunar eclipse는 월식."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      7,
+      "ipa"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "ɪˈnɝʃə",
+     "new": "ɪˈklɪps"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      7,
+      "word"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "inertia",
+     "new": "eclipse"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      8,
+      "en"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "acceleration",
+     "new": "inertia"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      8,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "① 가속, 가속도",
+     "new": "① 관성"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Force equals mass times {{BLANK}}.",
+     "new": "Because of {{BLANK}}, you move forward when a bus stops suddenly."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "힘은 질량 곱하기 가속도야.",
+     "new": "관성 때문에 버스가 갑자기 서면 몸이 앞으로 쏠려."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "뉴턴 운동 제2법칙(F=ma). 동사는 accelerate.",
+     "new": "뉴턴 운동 제1법칙: 움직이던 것은 계속 움직이려 한다."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      8,
+      "ipa"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "ækˌsɛləˈreɪʃən",
+     "new": "ɪˈnɝʃə"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      8,
+      "word"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "acceleration",
+     "new": "inertia"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      9,
+      "en"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "radioactive",
+     "new": "acceleration"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      9,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "① 방사성의",
+     "new": "① 가속, 가속도"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      9,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Marie Curie won two Nobel Prizes for her work on {{BLANK}} elements.",
+     "new": "Force equals mass times {{BLANK}}."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      9,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "마리 퀴리는 방사성 원소 연구로 노벨상을 두 번 받았어.",
+     "new": "힘은 질량 곱하기 가속도야."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "명사는 radioactivity(방사능).",
+     "new": "뉴턴 운동 제2법칙(F=ma). 동사는 accelerate."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      9,
+      "ipa"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "ˌreɪdioʊˈæktɪv",
+     "new": "ækˌsɛləˈreɪʃən"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      9,
+      "pos"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "adj.",
+     "new": "n."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      9,
+      "word"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "radioactive",
+     "new": "acceleration"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      10,
+      "en"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "relativity",
+     "new": "radioactive"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      10,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "① 상대성",
+     "new": "① 방사성의"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      10,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Einstein's theory of {{BLANK}} says that time can slow down.",
+     "new": "Marie Curie won two Nobel Prizes for her work on {{BLANK}} elements."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      10,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "아인슈타인의 상대성 이론에 따르면 시간은 느려질 수 있어.",
+     "new": "마리 퀴리는 방사성 원소 연구로 노벨상을 두 번 받았어."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "relative(상대적인)의 명사. 특수 상대성 이론(1905)과 일반 상대성 이론(1915).",
+     "new": "명사는 radioactivity(방사능)."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      10,
+      "ipa"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "ˌrɛləˈtɪvəti",
+     "new": "ˌreɪdioʊˈæktɪv"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      10,
+      "pos"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "n.",
+     "new": "adj."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      10,
+      "word"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "relativity",
+     "new": "radioactive"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      11
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": {
+      "en": "relativity",
+      "ko": "① 상대성",
+      "ex": "Einstein's theory of {{BLANK}} says that time can slow down.",
+      "tr": "아인슈타인의 상대성 이론에 따르면 시간은 느려질 수 있어.",
+      "c": "relative(상대적인)의 명사. 특수 상대성 이론(1905)과 일반 상대성 이론(1915).",
+      "ipa": "ˌrɛləˈtɪvəti",
+      "pos": "n.",
+      "word": "relativity",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      1,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "My aunt goes to an {{BLANK}} church downtown.",
+     "new": "In 1534, Henry VIII broke from the Pope and started the {{BLANK}} Church."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      1,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 이모는 시내 성공회 교회에 다녀.",
+     "new": "1534년 헨리 8세는 교황과 갈라서고 성공회(영국 국교회)를 세웠어."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/set10.json": {
+   "beforeHash": "7a4f906a7a2dabb35beb34b7933b6139006801db8d43ff51e981c65f4270991e",
+   "afterHash": "16c5ee0efcc1ad9ebd589ff186dce31b30e86df869ac099c09fc260765c64a7c"
+  },
+  "pipeline/out/set15.json": {
+   "beforeHash": "7e4bdebd3115139b54e610bf7e7ce089b2da6b431990a3831c8b4e22b975c7bf",
+   "afterHash": "e3d23f425da70c1648fcee75fa638147c5f99d91ec07ac687feb18ea3ffed1a5"
+  },
+  "pipeline/out/set18.json": {
+   "beforeHash": "8358c2c4e00dd7daa1f759718b71f86f9b9b1d6632c0a3b784d6dff9eff79613",
+   "afterHash": "7606102c7a693c48ab4195eafa0ed1cfc3e3b75f859f649e1f7acca9fd4a74c4"
+  },
+  "pipeline/out/set19.json": {
+   "beforeHash": "e540da6b8e46278f71f1f75ae36ff7ca5d989924d9e3164fe7ffb4331e7ba801",
+   "afterHash": "b6e2d95bd8905806ec1b718686a424af13f23f897c5d984a4bbc50f6599b4e97"
+  },
+  "pipeline/out/set22.json": {
+   "beforeHash": "2e15b6a6a7852887452d6e3549ba9203fa415d9a0595cb0f6edce2bdb54d7356",
+   "afterHash": "2abf367b9818137619f8ee4d4916cc809c517eb6c96c5ec163cd891315fdde1b"
+  },
+  "pipeline/out/set23.json": {
+   "beforeHash": "d55b191d289a44c648cf520230aae9c4a5fdf0dc6182c43a99a607d57bf3be51",
+   "afterHash": "f3591ff015accbc1d24122ef4a9926b9729f807f288fb9332aeb0ff62995d7c9"
+  },
+  "pipeline/out/set25.json": {
+   "beforeHash": "888e7e5ccdd0ab801e38e01a8f7443a883a38f5d0baf2f9d738102972c6bb389",
+   "afterHash": "2e86af9c4e0e294aad6264955971f26656f8cc03402c0740f909651ca3a1f34d"
+  },
+  "pipeline/out/set27.json": {
+   "beforeHash": "cf21c3e996630e807686972e94b19fe0982ff412a49d157775a093fe1fbe5057",
+   "afterHash": "58658e8809e3881840fa8bab4a71237909b40925f0dc3725d1951f0d456f8c4d"
+  },
+  "pipeline/out/set28.json": {
+   "beforeHash": "009506cdbe95c68a3f91611fb30f5a770ee1a4c89091c52f43fed0d11048d59d",
+   "afterHash": "32f1d5763edc8b29971b96e6a13cc7f083039e0e6f678d546a48f1b43cdf2c2d"
+  },
+  "pipeline/out/set30.json": {
+   "beforeHash": "b1297acc88b011b1ee9725f0b561cd96101f3990cfbb933445ae729f2f44fb2e",
+   "afterHash": "c543c5035bfed953cf346c866e7e2f5111018298712aa948dcc3f57a9e8385fe"
+  },
+  "pipeline/out/set31.json": {
+   "beforeHash": "ee26ae42283aefd9048639a6ecc6f8ffda792f023c5270118d09ebf079159b58",
+   "afterHash": "524273a86fdcf60419e6091ebed7db4a493e1f48c2bdabaf820af65680a02841"
+  },
+  "pipeline/out/set34.json": {
+   "beforeHash": "a0ad5431c9ec6c8385306f9d7a49d06fd389f4779e761db798d991a95348f183",
+   "afterHash": "7440da799b784d70fa940305cde21ec10d6cef4b68532040bad7d52fd92abc20"
+  },
+  "pipeline/out/set36.json": {
+   "beforeHash": "82f88cd2adc7c40417a53a4ecfb4466fab15b326a0917f979757a4ff6c2bddab",
+   "afterHash": "4751ba9f6dba50d4500c685ffe9c3fcc8356eb7806ffdc4a92a28df4f50c29f2"
+  },
+  "pipeline/out/set38.json": {
+   "beforeHash": "634bda5ec89fc43dce0aa0b337c73d027d4e0129384848316484179cd966460e",
+   "afterHash": "8d23ee3b6300a54724e9cc029438e656606ba0e96a4dc322c784033e5450413f"
+  },
+  "pipeline/out/set39.json": {
+   "beforeHash": "58b4a6b12edcba1f30be5f8dceec0b4695c7bfcadc75c2d7eac6ab7671de6261",
+   "afterHash": "7f73c913c0ac984f53529365286da32c9c79ccbfd3858979e308e96660938fa1"
+  },
+  "pipeline/out/set40.json": {
+   "beforeHash": "6d9bdfc815fb8fb78f168ae4ef7221f03ebcce6f6f2a77644a87a2b2c3a2eaa3",
+   "afterHash": "05ea25393cb73bee21529390f40ad3d3b116fc1b6758dbc00451333dd61fed8a"
+  },
+  "pipeline/out/set41.json": {
+   "beforeHash": "4767dbfc1ea716d92c2a5defa366e4617f61c542757994341d654f74dccb82e3",
+   "afterHash": "e99e5b7f79dbcc048db18a2d4bf4d270bf52dfc393b11be96bfeb248f36eca11"
+  },
+  "pipeline/out/set42.json": {
+   "beforeHash": "9db0505c83d21acd205c79914a3e5575be04e52ca4767265d329b92f6e0a25e2",
+   "afterHash": "329ed05152dd7f71131784396657081b9609c634e44457793e48f0a1df33f967"
+  },
+  "pipeline/out/set44.json": {
+   "beforeHash": "5ac8d8e098273992acb9b019fd3185b734b7721009732830c522054c1010beae",
+   "afterHash": "6b2b661d7c66ba36f115d4dbba3cd7b6cf099e39fdaac2a1b9090bd85d4c13ec"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/set10.json": [
+   {
+    "path": [
+     4,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "She rides a {{BLANK}} every weekend.",
+    "new": "In the 1500s, the Spanish brought {{BLANK}}s to the Americas."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "걔는 주말마다 말을 타.",
+    "new": "1500년대에 스페인 사람들은 아메리카에 말을 들여왔어."
+   }
+  ],
+  "pipeline/out/set15.json": [
+   {
+    "path": [
+     0,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Long ago, {{BLANK}}s worked without pay.",
+    "new": "From the 1500s, over 10 million Africans were taken to the Americas as {{BLANK}}s."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "옛날에 노예들은 돈도 못 받고 일했어.",
+    "new": "1500년대부터 천만 명이 넘는 아프리카인이 노예로 아메리카에 끌려갔어."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "We baked {{BLANK}}es in the fire.",
+    "new": "{{BLANK}}es were first grown in the Andes mountains of South America."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리는 불에 감자를 구워 먹었어.",
+    "new": "감자는 남아메리카 안데스 산지에서 처음 재배되었어."
+   }
+  ],
+  "pipeline/out/set18.json": [
+   {
+    "path": [
+     5,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The British {{BLANK}} will vote on the new law.",
+    "new": "Many countries have an elected {{BLANK}} that makes their laws."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "영국 의회가 새 법에 대해 표결할 거야.",
+    "new": "많은 나라에는 선거로 뽑혀 법을 만드는 의회가 있어."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "영국을 비롯한 여러 나라의 의회. 미국 의회는 Congress.",
+    "new": "영국 의회는 the Parliament(대문자), 미국 의회는 Congress."
+   }
+  ],
+  "pipeline/out/set19.json": [
+   {
+    "path": [
+     4,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "We will {{BLANK}} to the island tomorrow.",
+    "new": "In 1492, Columbus {{BLANK}}ed west across the Atlantic Ocean."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 내일 배 타고 그 섬에 가.",
+    "new": "1492년 콜럼버스는 대서양을 건너 서쪽으로 항해했어."
+   }
+  ],
+  "pipeline/out/set22.json": [
+   {
+    "path": [
+     7,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} across the Pacific took two months.",
+    "new": "The first {{BLANK}} around the world took three years, from 1519 to 1522."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "태평양 횡단 항해는 두 달 걸렸어.",
+    "new": "세계를 한 바퀴 돈 첫 항해는 1519년부터 1522년까지 3년이 걸렸어."
+   }
+  ],
+  "pipeline/out/set23.json": [
+   {
+    "path": [
+     3,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Heart {{BLANK}} runs in his family.",
+    "new": "After 1492, {{BLANK}}s from Europe killed millions of people in the Americas."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "걔네 집안은 심장병이 잘 생겨.",
+    "new": "1492년 이후 유럽에서 건너온 병으로 아메리카에서 수백만 명이 죽었어."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "신체 기능에 이상이 생기는 질병.",
+    "new": "heart disease(심장병). 퍼지는 병은 주로 disease, illness는 앓는 상태 쪽이다."
+   }
+  ],
+  "pipeline/out/set25.json": [
+   {
+    "path": [
+     0,
+     "words",
+     10,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "My friend goes to a {{BLANK}} church downtown.",
+    "new": "The Pope leads the {{BLANK}} Church from Vatican City."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     10,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "내 친구는 시내에 있는 가톨릭 교회에 다녀.",
+    "new": "교황은 바티칸 시국에서 가톨릭교회를 이끌어."
+   }
+  ],
+  "pipeline/out/set27.json": [
+   {
+    "path": [
+     1,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Free speech is a {{BLANK}} right here.",
+    "new": "In a {{BLANK}} monarchy, the king's power is limited by law."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "표현의 자유는 여기서 헌법상의 권리야.",
+    "new": "입헌 군주제에서는 왕의 권력이 법으로 제한돼."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "You need {{BLANK}} quiet during the test.",
+    "new": "In an {{BLANK}} monarchy, the ruler's power has no legal limits."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "시험 중에는 절대적으로 조용해야 해.",
+    "new": "절대 군주제에서는 통치자의 권력에 법적인 한계가 없어."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "absolute/complete quiet는 같은 뜻: 완전한 고요.",
+    "new": "absolute power(절대 권력). absolute/complete quiet처럼 '완전한'의 뜻도 있다."
+   }
+  ],
+  "pipeline/out/set28.json": [
+   {
+    "path": [
+     3,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "We had dinner at a small {{BLANK}} restaurant.",
+    "new": "The Renaissance began in {{BLANK}} cities like Florence in the 1300s."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리는 작은 이탈리아 식당에서 저녁을 먹었어.",
+    "new": "르네상스는 1300년대에 피렌체 같은 이탈리아 도시들에서 시작되었어."
+   }
+  ],
+  "pipeline/out/set30.json": [
+   {
+    "path": [
+     5,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The old book tells of {{BLANK}} power.",
+    "new": "In the 1600s, many European kings claimed a {{BLANK}} right to rule."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 오래된 책은 신의 힘에 대해 이야기해.",
+    "new": "1600년대 유럽의 많은 왕은 신이 내린 통치권을 주장했어."
+   }
+  ],
+  "pipeline/out/set31.json": [
+   {
+    "path": [
+     4,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} from her best friend was hard.",
+    "new": "The {{BLANK}} of powers divides government into three branches."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "가장 친한 친구와의 이별은 힘들었어.",
+    "new": "권력 분립은 정부를 세 갈래로 나눠."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "separate(분리하다)+ion. 부부의 '별거'도 뜻한다.",
+    "new": "separate+ion. separation of powers(권력 분립): 입법·행정·사법."
+   }
+  ],
+  "pipeline/out/set34.json": [
+   {
+    "path": [
+     7,
+     "words",
+     9,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The book asks big questions about {{BLANK}}.",
+    "new": "In the 1700s, Kant argued that {{BLANK}} must rest on reason, not feelings."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 책은 도덕에 관한 큰 질문을 던져.",
+    "new": "1700년대에 칸트는 도덕이 감정이 아니라 이성에 바탕을 두어야 한다고 주장했어."
+   }
+  ],
+  "pipeline/out/set36.json": [
+   {
+    "path": [
+     3,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} of our school paper costs money.",
+    "new": "In the 1450s, Gutenberg's {{BLANK}} press made books much cheaper."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 학교 신문 인쇄에는 돈이 들어.",
+    "new": "1450년대에 구텐베르크의 인쇄기 덕분에 책값이 훨씬 싸졌어."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} vote is next Tuesday.",
+    "new": "In a {{BLANK}} system, lawmakers choose the head of government."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "의회 투표는 다음 주 화요일이야.",
+    "new": "의원 내각제에서는 의원들이 정부의 수반을 뽑아."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "parliament(의회)+-ary.",
+    "new": "parliament(의회)+-ary. congressional은 미국 의회(Congress)의."
+   }
+  ],
+  "pipeline/out/set38.json": [
+   {
+    "path": [
+     7,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Mom adds a hot {{BLANK}} to almost every dish.",
+    "new": "Europeans in the late 1400s sailed to Asia for {{BLANK}}s like pepper."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "엄마는 거의 모든 요리에 매운 향신료를 넣으셔.",
+    "new": "1400년대 말 유럽인들은 후추 같은 향신료를 찾아 아시아로 항해했어."
+   }
+  ],
+  "pipeline/out/set39.json": [
+   {
+    "path": [
+     0,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Our history teacher talked about {{BLANK}} in pay.",
+    "new": "In 1755, Rousseau argued that private property led to {{BLANK}}."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 역사 선생님이 임금 불평등에 대해 말씀하셨어.",
+    "new": "1755년 루소는 사유 재산이 불평등을 낳았다고 주장했어."
+   }
+  ],
+  "pipeline/out/set40.json": [
+   {
+    "path": [
+     2,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Most of my family is {{BLANK}}, not Catholic.",
+    "new": "In the 1500s, {{BLANK}} churches broke away from the Catholic Church."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 가족 대부분은 천주교가 아니라 개신교야.",
+    "new": "1500년대에 개신교 교회들이 가톨릭교회에서 갈라져 나왔어."
+   }
+  ],
+  "pipeline/out/set41.json": [
+   {
+    "path": [
+     2,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "They grow coffee on a huge {{BLANK}}.",
+    "new": "From the 1600s, slaves in the Americas worked on sugar {{BLANK}}s."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 사람들은 커다란 대농장에서 커피를 길러.",
+    "new": "1600년대부터 아메리카의 노예들은 사탕수수 대농장에서 일해야 했어."
+   }
+  ],
+  "pipeline/out/set42.json": [
+   {
+    "path": [
+     10,
+     "words",
+     2,
+     "en"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "dynasty",
+    "new": "monarchy"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     2,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "① 왕조",
+    "new": "① 군주제, 군주국"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The Qin {{BLANK}} united China for the first time in 221 BC.",
+    "new": "Britain is still a {{BLANK}}, but its king has little real power."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "진 왕조는 기원전 221년에 처음으로 중국을 통일했어.",
+    "new": "영국은 지금도 군주국이지만, 왕에게는 실권이 거의 없어."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "한 집안이 대를 이어 다스리는 시대. 한·당·명도 dynasty.",
+    "new": "monarch(군주)+-y. absolute·constitutional monarchy(절대·입헌 군주제)."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     2,
+     "ipa"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "ˈdaɪnəsti",
+    "new": "ˈmɑnɚki"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     2,
+     "word"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "dynasty",
+    "new": "monarchy"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     3,
+     "en"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "socialism",
+    "new": "dynasty"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     3,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "① 사회주의",
+    "new": "① 왕조"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "{{BLANK}} calls for workers or the state to own factories and land.",
+    "new": "The Qin {{BLANK}} united China for the first time in 221 BC."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "사회주의는 공장과 땅을 노동자나 국가가 소유하자고 주장해.",
+    "new": "진 왕조는 기원전 221년에 처음으로 중국을 통일했어."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "↔ capitalism(자본주의). communism(공산주의)과 구별해 쓴다.",
+    "new": "한 집안이 대를 이어 다스리는 시대. 한·당·명도 dynasty."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     3,
+     "ipa"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "ˈsoʊʃəˌlɪzəm",
+    "new": "ˈdaɪnəsti"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     3,
+     "word"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "socialism",
+    "new": "dynasty"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     4,
+     "en"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "tariff",
+    "new": "socialism"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     4,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "① 관세",
+    "new": "① 사회주의"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "A {{BLANK}} is a tax on goods brought in from other countries.",
+    "new": "{{BLANK}} calls for workers or the state to own factories and land."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "관세는 다른 나라에서 들여오는 상품에 붙는 세금이야.",
+    "new": "사회주의는 공장과 땅을 노동자나 국가가 소유하자고 주장해."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "관세를 매기면 수입품 값이 오른다.",
+    "new": "↔ capitalism(자본주의). communism(공산주의)과 구별해 쓴다."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     4,
+     "ipa"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "ˈtɛrɪf",
+    "new": "ˈsoʊʃəˌlɪzəm"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     4,
+     "word"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "tariff",
+    "new": "socialism"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     5,
+     "en"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "scarcity",
+    "new": "tariff"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     5,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "① 부족, 희소성",
+    "new": "① 관세"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Economics begins with {{BLANK}}: we can't have everything we want.",
+    "new": "A {{BLANK}} is a tax on goods brought in from other countries."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "경제학은 희소성에서 시작해. 원하는 것을 다 가질 수는 없거든.",
+    "new": "관세는 다른 나라에서 들여오는 상품에 붙는 세금이야."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "형용사는 scarce. shortage는 일시적 부족, scarcity는 근본적 희소.",
+    "new": "관세를 매기면 수입품 값이 오른다."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     5,
+     "ipa"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "ˈskɛrsəti",
+    "new": "ˈtɛrɪf"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     5,
+     "word"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "scarcity",
+    "new": "tariff"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     6,
+     "en"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "eclipse",
+    "new": "scarcity"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     6,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "① (일식·월식의) 식",
+    "new": "① 부족, 희소성"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In a solar {{BLANK}}, the Moon passes between the Sun and the Earth.",
+    "new": "Economics begins with {{BLANK}}: we can't have everything we want."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "일식 때는 달이 태양과 지구 사이를 지나가.",
+    "new": "경제학은 희소성에서 시작해. 원하는 것을 다 가질 수는 없거든."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "solar eclipse는 일식, lunar eclipse는 월식.",
+    "new": "형용사는 scarce. shortage는 일시적 부족, scarcity는 근본적 희소."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     6,
+     "ipa"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "ɪˈklɪps",
+    "new": "ˈskɛrsəti"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     6,
+     "word"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "eclipse",
+    "new": "scarcity"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     7,
+     "en"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "inertia",
+    "new": "eclipse"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     7,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "① 관성",
+    "new": "① (일식·월식의) 식"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Because of {{BLANK}}, you move forward when a bus stops suddenly.",
+    "new": "In a solar {{BLANK}}, the Moon passes between the Sun and the Earth."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "관성 때문에 버스가 갑자기 서면 몸이 앞으로 쏠려.",
+    "new": "일식 때는 달이 태양과 지구 사이를 지나가."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "뉴턴 운동 제1법칙: 움직이던 것은 계속 움직이려 한다.",
+    "new": "solar eclipse는 일식, lunar eclipse는 월식."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     7,
+     "ipa"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "ɪˈnɝʃə",
+    "new": "ɪˈklɪps"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     7,
+     "word"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "inertia",
+    "new": "eclipse"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     8,
+     "en"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "acceleration",
+    "new": "inertia"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     8,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "① 가속, 가속도",
+    "new": "① 관성"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Force equals mass times {{BLANK}}.",
+    "new": "Because of {{BLANK}}, you move forward when a bus stops suddenly."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "힘은 질량 곱하기 가속도야.",
+    "new": "관성 때문에 버스가 갑자기 서면 몸이 앞으로 쏠려."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "뉴턴 운동 제2법칙(F=ma). 동사는 accelerate.",
+    "new": "뉴턴 운동 제1법칙: 움직이던 것은 계속 움직이려 한다."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     8,
+     "ipa"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "ækˌsɛləˈreɪʃən",
+    "new": "ɪˈnɝʃə"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     8,
+     "word"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "acceleration",
+    "new": "inertia"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     9,
+     "en"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "radioactive",
+    "new": "acceleration"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     9,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "① 방사성의",
+    "new": "① 가속, 가속도"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     9,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Marie Curie won two Nobel Prizes for her work on {{BLANK}} elements.",
+    "new": "Force equals mass times {{BLANK}}."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "마리 퀴리는 방사성 원소 연구로 노벨상을 두 번 받았어.",
+    "new": "힘은 질량 곱하기 가속도야."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "명사는 radioactivity(방사능).",
+    "new": "뉴턴 운동 제2법칙(F=ma). 동사는 accelerate."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     9,
+     "ipa"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "ˌreɪdioʊˈæktɪv",
+    "new": "ækˌsɛləˈreɪʃən"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     9,
+     "pos"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "adj.",
+    "new": "n."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     9,
+     "word"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "radioactive",
+    "new": "acceleration"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     10,
+     "en"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "relativity",
+    "new": "radioactive"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     10,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "① 상대성",
+    "new": "① 방사성의"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     10,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Einstein's theory of {{BLANK}} says that time can slow down.",
+    "new": "Marie Curie won two Nobel Prizes for her work on {{BLANK}} elements."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     10,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "아인슈타인의 상대성 이론에 따르면 시간은 느려질 수 있어.",
+    "new": "마리 퀴리는 방사성 원소 연구로 노벨상을 두 번 받았어."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "relative(상대적인)의 명사. 특수 상대성 이론(1905)과 일반 상대성 이론(1915).",
+    "new": "명사는 radioactivity(방사능)."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     10,
+     "ipa"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "ˌrɛləˈtɪvəti",
+    "new": "ˌreɪdioʊˈæktɪv"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     10,
+     "pos"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "n.",
+    "new": "adj."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     10,
+     "word"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "relativity",
+    "new": "radioactive"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     11
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "en": "relativity",
+     "ko": "① 상대성",
+     "ex": "Einstein's theory of {{BLANK}} says that time can slow down.",
+     "tr": "아인슈타인의 상대성 이론에 따르면 시간은 느려질 수 있어.",
+     "c": "relative(상대적인)의 명사. 특수 상대성 이론(1905)과 일반 상대성 이론(1915).",
+     "ipa": "ˌrɛləˈtɪvəti",
+     "pos": "n.",
+     "word": "relativity",
+     "si": 1,
+     "sn": 1
+    }
+   }
+  ],
+  "pipeline/out/set44.json": [
+   {
+    "path": [
+     1,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "My aunt goes to an {{BLANK}} church downtown.",
+    "new": "In 1534, Henry VIII broke from the Pope and started the {{BLANK}} Church."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 이모는 시내 성공회 교회에 다녀.",
+    "new": "1534년 헨리 8세는 교황과 갈라서고 성공회(영국 국교회)를 세웠어."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/set10.json": [],
+  "pipeline/out/set15.json": [],
+  "pipeline/out/set18.json": [],
+  "pipeline/out/set19.json": [],
+  "pipeline/out/set22.json": [],
+  "pipeline/out/set23.json": [],
+  "pipeline/out/set25.json": [],
+  "pipeline/out/set27.json": [],
+  "pipeline/out/set28.json": [],
+  "pipeline/out/set30.json": [],
+  "pipeline/out/set31.json": [],
+  "pipeline/out/set34.json": [],
+  "pipeline/out/set36.json": [],
+  "pipeline/out/set38.json": [],
+  "pipeline/out/set39.json": [],
+  "pipeline/out/set40.json": [],
+  "pipeline/out/set41.json": [],
+  "pipeline/out/set42.json": [],
+  "pipeline/out/set44.json": []
+ }
+}
