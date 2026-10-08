@@ -1,0 +1,418 @@
+[
+ {
+  "file": "pipeline/out/lesson03.json",
+  "word": "third",
+  "si": 1,
+  "field": "ex",
+  "old": "March is the {{BLANK}} month.",
+  "new": "Earth is the {{BLANK}} planet from the Sun."
+ },
+ {
+  "file": "pipeline/out/lesson03.json",
+  "word": "third",
+  "si": 1,
+  "field": "tr",
+  "old": "3월은 세 번째 달이야.",
+  "new": "지구는 태양에서 세 번째 행성이야."
+ },
+ {
+  "file": "pipeline/out/set12.json",
+  "word": "fourth",
+  "si": 1,
+  "field": "ex",
+  "old": "Our office is on the {{BLANK}} floor.",
+  "new": "Christianity became Rome's official religion in the {{BLANK}} century."
+ },
+ {
+  "file": "pipeline/out/set12.json",
+  "word": "fourth",
+  "si": 1,
+  "field": "tr",
+  "old": "우리 사무실은 4층이야.",
+  "new": "기독교는 4세기에 로마의 국교가 되었어."
+ },
+ {
+  "file": "pipeline/out/set15.json",
+  "word": "fifth",
+  "si": 1,
+  "field": "ex",
+  "old": "Our class is on the {{BLANK}} floor.",
+  "new": "The Western Roman Empire fell in the {{BLANK}} century."
+ },
+ {
+  "file": "pipeline/out/set15.json",
+  "word": "fifth",
+  "si": 1,
+  "field": "tr",
+  "old": "우리 반은 5층에 있어.",
+  "new": "서로마 제국은 5세기에 무너졌어."
+ },
+ {
+  "file": "pipeline/out/set18.json",
+  "word": "seventh",
+  "si": 1,
+  "field": "ex",
+  "old": "His office is on the {{BLANK}} floor.",
+  "new": "Islam began in Arabia in the {{BLANK}} century."
+ },
+ {
+  "file": "pipeline/out/set18.json",
+  "word": "seventh",
+  "si": 1,
+  "field": "tr",
+  "old": "그분 사무실은 7층이야.",
+  "new": "이슬람교는 7세기에 아라비아에서 시작되었어."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "zero",
+  "si": 1,
+  "field": "ex",
+  "old": "Count down from ten to {{BLANK}}.",
+  "new": "People in India were the first to use {{BLANK}} as a number."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "zero",
+  "si": 1,
+  "field": "tr",
+  "old": "10부터 0까지 거꾸로 세 봐.",
+  "new": "0을 하나의 수로 처음 쓴 사람들은 인도 사람들이었어."
+ },
+ {
+  "file": "pipeline/out/lesson01.json",
+  "word": "day",
+  "si": 1,
+  "field": "ex",
+  "old": "There are seven {{BLANK}}s in a week.",
+  "new": "The Earth spins around once a {{BLANK}}."
+ },
+ {
+  "file": "pipeline/out/lesson01.json",
+  "word": "day",
+  "si": 1,
+  "field": "tr",
+  "old": "일주일은 7일이야.",
+  "new": "지구는 하루에 한 바퀴 돌아."
+ },
+ {
+  "file": "pipeline/out/lesson01.json",
+  "word": "year",
+  "si": 1,
+  "field": "ex",
+  "old": "There are twelve months in a {{BLANK}}.",
+  "new": "The Earth goes around the Sun once a {{BLANK}}."
+ },
+ {
+  "file": "pipeline/out/lesson01.json",
+  "word": "year",
+  "si": 1,
+  "field": "tr",
+  "old": "일 년은 열두 달이야.",
+  "new": "지구는 1년에 한 번 태양 둘레를 돌아."
+ },
+ {
+  "file": "pipeline/out/lesson03.json",
+  "word": "march",
+  "si": 1,
+  "field": "ex",
+  "old": "{{BLANK}} is the third month of the year.",
+  "new": "International Women's Day is on {{BLANK}} 8."
+ },
+ {
+  "file": "pipeline/out/lesson03.json",
+  "word": "march",
+  "si": 1,
+  "field": "tr",
+  "old": "3월은 한 해의 세 번째 달이야.",
+  "new": "세계 여성의 날은 3월 8일이야."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "November",
+  "si": 1,
+  "field": "ex",
+  "old": "On {{BLANK}} 11, 1918, Germany agreed to stop fighting.",
+  "new": "The Berlin Wall fell in {{BLANK}} 1989."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "November",
+  "si": 1,
+  "field": "tr",
+  "old": "1918년 11월 11일에 독일은 전투를 멈추기로 합의했어.",
+  "new": "베를린 장벽은 1989년 11월에 무너졌어."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "December",
+  "si": 1,
+  "field": "ex",
+  "old": "We have a party in {{BLANK}}.",
+  "new": "On {{BLANK}} 10, 1948, the UN declared human rights for all people."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "December",
+  "si": 1,
+  "field": "tr",
+  "old": "우리 12월에 파티 해.",
+  "new": "1948년 12월 10일, 유엔은 모든 사람의 인권을 선언했어."
+ },
+ {
+  "file": "pipeline/out/lesson01.json",
+  "word": "state",
+  "si": 2,
+  "field": "ex",
+  "old": "Texas is the second largest {{BLANK}} in the US.",
+  "new": "The United States is made up of fifty {{BLANK}}s."
+ },
+ {
+  "file": "pipeline/out/lesson01.json",
+  "word": "state",
+  "si": 2,
+  "field": "tr",
+  "old": "텍사스는 미국에서 두 번째로 큰 주야.",
+  "new": "미국은 50개 주로 이루어져 있어."
+ },
+ {
+  "file": "pipeline/out/lesson01.json",
+  "word": "god",
+  "si": 1,
+  "field": "ex",
+  "old": "Long ago, people believed the sun was a {{BLANK}}.",
+  "new": "The ancient Greeks believed Zeus was the king of the {{BLANK}}s."
+ },
+ {
+  "file": "pipeline/out/lesson01.json",
+  "word": "god",
+  "si": 1,
+  "field": "tr",
+  "old": "옛날 사람들은 해가 신이라고 믿었어.",
+  "new": "고대 그리스인들은 제우스를 신들의 왕이라고 믿었어."
+ },
+ {
+  "file": "pipeline/out/lesson03.json",
+  "word": "human",
+  "si": 1,
+  "field": "ex",
+  "old": "{{BLANK}}s need water to live.",
+  "new": "Modern {{BLANK}}s first appeared in Africa about 300,000 years ago."
+ },
+ {
+  "file": "pipeline/out/lesson03.json",
+  "word": "human",
+  "si": 1,
+  "field": "tr",
+  "old": "인간은 살려면 물이 필요해.",
+  "new": "현생 인류는 약 30만 년 전 아프리카에서 처음 나타났어."
+ },
+ {
+  "file": "pipeline/out/set10.json",
+  "word": "stone",
+  "si": 1,
+  "field": "ex",
+  "old": "The old bridge is made of {{BLANK}}.",
+  "new": "The oldest tools ever found are made of {{BLANK}}."
+ },
+ {
+  "file": "pipeline/out/set10.json",
+  "word": "stone",
+  "si": 1,
+  "field": "tr",
+  "old": "그 오래된 다리는 돌로 만들어졌어.",
+  "new": "지금까지 발견된 가장 오래된 도구는 돌로 만들어졌어."
+ },
+ {
+  "file": "pipeline/out/set30.json",
+  "word": "cave",
+  "si": 1,
+  "field": "ex",
+  "old": "We found a dark {{BLANK}} near the river.",
+  "new": "Stone Age people painted animals on {{BLANK}} walls."
+ },
+ {
+  "file": "pipeline/out/set30.json",
+  "word": "cave",
+  "si": 1,
+  "field": "tr",
+  "old": "우리는 강 근처에서 어두운 동굴을 찾았어.",
+  "new": "석기 시대 사람들은 동굴 벽에 동물을 그렸어."
+ },
+ {
+  "file": "pipeline/out/set06.json",
+  "word": "grow",
+  "si": 2,
+  "field": "ex",
+  "old": "My father {{BLANK}}s vegetables.",
+  "new": "About 10,000 years ago, people began to {{BLANK}} their own food."
+ },
+ {
+  "file": "pipeline/out/set06.json",
+  "word": "grow",
+  "si": 2,
+  "field": "tr",
+  "old": "우리 아빠는 채소를 재배해.",
+  "new": "약 1만 년 전, 사람들은 먹을 것을 직접 기르기 시작했어."
+ },
+ {
+  "file": "pipeline/out/set11.json",
+  "word": "gather",
+  "si": 1,
+  "field": "ex",
+  "old": "We all {{BLANK}}ed in the school gym.",
+  "new": "Before farming, people lived by hunting and {{BLANK}}ing food."
+ },
+ {
+  "file": "pipeline/out/set11.json",
+  "word": "gather",
+  "si": 1,
+  "field": "tr",
+  "old": "우리 모두 학교 체육관에 모였어.",
+  "new": "농사를 짓기 전에 사람들은 사냥하고 먹을 것을 모으며 살았어."
+ },
+ {
+  "file": "pipeline/out/set11.json",
+  "word": "gather",
+  "si": 1,
+  "field": "c",
+  "old": "gather in the gym은 체육관에 모이다. gather people은 사람들을 모으다, gather information은 정보를 모으다.",
+  "new": "hunting and gathering은 수렵·채집. gather information은 정보를 모으다."
+ },
+ {
+  "file": "pipeline/out/set11.json",
+  "word": "settle",
+  "si": 1,
+  "field": "ex",
+  "old": "My family {{BLANK}}d in Ilsan ten years ago.",
+  "new": "Early farmers {{BLANK}}d in villages near their fields."
+ },
+ {
+  "file": "pipeline/out/set11.json",
+  "word": "settle",
+  "si": 1,
+  "field": "tr",
+  "old": "우리 가족은 10년 전에 일산에 정착했어.",
+  "new": "초기 농부들은 밭 가까운 마을에 정착했어."
+ },
+ {
+  "file": "pipeline/out/set19.json",
+  "word": "wheat",
+  "si": 1,
+  "field": "ex",
+  "old": "Bread is made from {{BLANK}} flour.",
+  "new": "People first grew {{BLANK}} in the Middle East about 10,000 years ago."
+ },
+ {
+  "file": "pipeline/out/set19.json",
+  "word": "wheat",
+  "si": 1,
+  "field": "tr",
+  "old": "빵은 밀가루로 만들지.",
+  "new": "사람들은 약 1만 년 전 중동에서 처음 밀을 길렀어."
+ },
+ {
+  "file": "pipeline/out/set16.json",
+  "word": "corn",
+  "si": 1,
+  "field": "ex",
+  "old": "We grew sweet {{BLANK}} in the garden.",
+  "new": "{{BLANK}} was first grown in Mexico about 9,000 years ago."
+ },
+ {
+  "file": "pipeline/out/set16.json",
+  "word": "corn",
+  "si": 1,
+  "field": "tr",
+  "old": "우리는 텃밭에서 단옥수수를 길렀어.",
+  "new": "옥수수는 약 9천 년 전 멕시코에서 처음 재배되었어."
+ },
+ {
+  "file": "pipeline/out/set08.json",
+  "word": "river",
+  "si": 1,
+  "field": "ex",
+  "old": "We walked along the {{BLANK}}.",
+  "new": "The first great civilizations grew up along big {{BLANK}}s."
+ },
+ {
+  "file": "pipeline/out/set08.json",
+  "word": "river",
+  "si": 1,
+  "field": "tr",
+  "old": "우리는 강을 따라 걸었어.",
+  "new": "최초의 큰 문명들은 큰 강을 따라 생겨났어."
+ },
+ {
+  "file": "pipeline/out/set41.json",
+  "word": "irrigation",
+  "si": 1,
+  "field": "ex",
+  "old": "The farm uses {{BLANK}} to water its fields.",
+  "new": "Ancient Mesopotamian farmers used {{BLANK}} to water dry land."
+ },
+ {
+  "file": "pipeline/out/set41.json",
+  "word": "irrigation",
+  "si": 1,
+  "field": "tr",
+  "old": "그 농장은 밭에 물을 대려고 관개를 써.",
+  "new": "고대 메소포타미아 농부들은 관개로 메마른 땅에 물을 댔어."
+ },
+ {
+  "file": "pipeline/out/lesson03.json",
+  "word": "history",
+  "si": 1,
+  "field": "ex",
+  "old": "I love reading about Korean {{BLANK}}.",
+  "new": "Written {{BLANK}} began about 5,000 years ago."
+ },
+ {
+  "file": "pipeline/out/lesson03.json",
+  "word": "history",
+  "si": 1,
+  "field": "tr",
+  "old": "난 한국 역사 읽는 걸 좋아해.",
+  "new": "문자로 남긴 역사는 약 5천 년 전에 시작되었어."
+ },
+ {
+  "file": "pipeline/out/set18.json",
+  "word": "clay",
+  "si": 1,
+  "field": "ex",
+  "old": "We made little animals out of {{BLANK}}.",
+  "new": "People in Mesopotamia wrote by pressing marks into {{BLANK}}."
+ },
+ {
+  "file": "pipeline/out/set18.json",
+  "word": "clay",
+  "si": 1,
+  "field": "tr",
+  "old": "우리 찰흙으로 작은 동물들 만들었어.",
+  "new": "메소포타미아 사람들은 점토에 자국을 눌러 글을 썼어."
+ },
+ {
+  "file": "pipeline/out/set21.json",
+  "word": "alphabet",
+  "si": 1,
+  "field": "ex",
+  "old": "English has 26 letters in its {{BLANK}}.",
+  "new": "The English {{BLANK}} comes from one that the Phoenicians made."
+ },
+ {
+  "file": "pipeline/out/set21.json",
+  "word": "alphabet",
+  "si": 1,
+  "field": "tr",
+  "old": "영어 알파벳은 글자가 26개야.",
+  "new": "영어 알파벳은 페니키아인이 만든 문자에서 왔어."
+ },
+ {
+  "file": "pipeline/out/set21.json",
+  "word": "alphabet",
+  "si": 1,
+  "field": "c",
+  "old": "",
+  "new": "그리스 문자의 첫 두 글자 alpha+beta에서 온 말. 페니키아→그리스→로마 문자를 거쳤다."
+ }
+]
