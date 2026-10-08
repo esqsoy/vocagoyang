@@ -28,5 +28,6 @@ for(const L of require('./helpers/editorial-review.cjs').restoreTopicGrouping(da
  const canonical=restorePlayerFeedbackSource20261007(JSON.parse(fs.readFileSync(path.join(root,'pipeline/out',file),'utf8')),`pipeline/out/${file}`);
  assert.deepEqual(L.exercises,Array.isArray(canonical)?canonical:canonical.exercises,file);
 }
-assert.equal(stats.units,141);assert.equal(stats.cards,358);assert.equal(stats.greekUnits,24);
+// 26.10.08 그림 법칙 사촌 쌍(단위 5·카드 14) 추가: 141→146 단위, 358→372 카드. 이전 단계는 claude-review-20261008 원장으로 되돌려 검사한다.
+assert.equal(stats.units,146);assert.equal(stats.cards,372);assert.equal(stats.greekUnits,24);
 console.log(JSON.stringify({...stats,sourceHtmlSync:true,scope:'46–48 course content; 0–45 remains separate'}));

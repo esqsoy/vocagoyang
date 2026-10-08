@@ -1,0 +1,787 @@
+{
+ "date": "2026-10-08",
+ "name": "cousin-pairs",
+ "status": "applied_locally_verified",
+ "authorization": "영신 26.10.08: 'D. 넣자. 기존의 구성에 조화시킬 수 있겠어?', '2. 넣자'(lunar·oral 포함)",
+ "summary": "48세트 마지막 연습으로 그림 법칙 사촌 쌍 14카드(신규 표제어 12 + maternal 복습 + novel 2뜻)와 단위 5개 추가",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "55f21dc7881b6e24dbb337a8f0310bee860d652be6cac8980e2e0a689ee91164",
+   "afterHash": "1277af610d8ad2501848cdcc7fd2f207d5c139e93bb6825651b1c433af0b8395",
+   "changes": [
+    {
+     "path": [
+      48,
+      "exercises",
+      22
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": {
+      "ex": 23,
+      "name": "그림 법칙 · 아는 단어로 여는 사촌 단어",
+      "unitIds": [
+       "cousin-p-f",
+       "cousin-t-th-d-t",
+       "cousin-k-h",
+       "cousin-other",
+       "cousin-false"
+      ],
+      "words": [
+       {
+        "word": "paternal",
+        "en": "paternal",
+        "ko": "아버지의, 친가 쪽의",
+        "ex": "My {{BLANK}} grandmother is my father's mother.",
+        "tr": "우리 친할머니는 아빠의 엄마야.",
+        "c": "라틴어 pater = father. p가 f로 바뀌었어(그림 법칙). 외가 쪽은 maternal.",
+        "ipa": "pəˈtɝnəl",
+        "pos": "adj.",
+        "unitId": "cousin-p-f",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "word": "pedestrian",
+        "en": "pedestrian",
+        "ko": "보행자",
+        "ex": "Drivers must stop when a {{BLANK}} is crossing the road.",
+        "tr": "보행자가 길을 건너고 있으면 운전자는 멈춰야 해.",
+        "c": "ped(발) = foot. p는 f로, d는 t로 두 번 바뀌었어. 걸어 다니는 사람이 보행자.",
+        "ipa": "pəˈdɛstriən",
+        "pos": "n.",
+        "unitId": "cousin-p-f",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "word": "maternal",
+        "en": "maternal",
+        "ko": "어머니의, 외가 쪽의",
+        "ex": "My {{BLANK}} grandfather is my mother's father.",
+        "tr": "우리 외할아버지는 엄마의 아빠야.",
+        "c": "mater = mother. 외할아버지는 maternal grandfather, 친가 쪽은 paternal.",
+        "ipa": "məˈtɝnəl",
+        "pos": "adj.",
+        "unitId": "cousin-t-th-d-t",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "word": "triple",
+        "en": "triple",
+        "ko": "세 배의, 3중의",
+        "ex": "I ordered a {{BLANK}} shot: three shots of coffee.",
+        "tr": "샷을 세 개 넣은 트리플 샷으로 주문했어.",
+        "c": "tres(셋) = three. t가 th로 바뀌었어. 두 배는 double, 세 배는 triple.",
+        "ipa": "ˈtrɪpəl",
+        "pos": "adj.",
+        "unitId": "cousin-t-th-d-t",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "word": "dental",
+        "en": "dental",
+        "ko": "이의, 치과의",
+        "ex": "The {{BLANK}} clinic fixed my broken tooth.",
+        "tr": "치과에서 부러진 이를 고쳐 줬어.",
+        "c": "dent(이) = tooth. d가 t로 바뀌었어. dentist(치과 의사)도 같은 뿌리.",
+        "ipa": "ˈdɛntəl",
+        "pos": "adj.",
+        "unitId": "cousin-t-th-d-t",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "word": "cardiac",
+        "en": "cardiac",
+        "ko": "심장의",
+        "ex": "A {{BLANK}} arrest means the heart suddenly stops.",
+        "tr": "심정지는 심장이 갑자기 멈추는 거야.",
+        "c": "그리스어 καρδία(kardia) = heart. k가 h로 약해졌어. cardio 운동도 같은 뿌리.",
+        "ipa": "ˈkɑrdiˌæk",
+        "pos": "adj.",
+        "unitId": "cousin-k-h",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "word": "unicorn",
+        "en": "unicorn",
+        "ko": "유니콘, 외뿔 짐승",
+        "ex": "A {{BLANK}} is a horse with one horn.",
+        "tr": "유니콘은 뿔이 하나 달린 말이야.",
+        "c": "uni(하나)+cornu(뿔). 라틴어 c(k)가 영어 h가 되어 cornu와 horn이 짝이야.",
+        "ipa": "ˈjunəˌkɔrn",
+        "pos": "n.",
+        "unitId": "cousin-k-h",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "word": "fraternal",
+        "en": "fraternal",
+        "ko": "형제의, (쌍둥이가) 이란성의",
+        "ex": "{{BLANK}} twins can look as different as ordinary brothers.",
+        "tr": "이란성 쌍둥이는 보통 형제만큼 다르게 생길 수 있어.",
+        "c": "frater = brother. f와 b가 짝이야. 이란성은 fraternal, 일란성은 identical.",
+        "ipa": "frəˈtɝnəl",
+        "pos": "adj.",
+        "unitId": "cousin-other",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "word": "nocturnal",
+        "en": "nocturnal",
+        "ko": "야행성의, 밤의",
+        "ex": "Owls are {{BLANK}}: they hunt at night.",
+        "tr": "올빼미는 야행성이야. 밤에 사냥하거든.",
+        "c": "noct(밤) = night. 라틴어 ct가 영어에선 ght야. 밤에 움직이는 동물이 nocturnal.",
+        "ipa": "nɑkˈtɝnəl",
+        "pos": "adj.",
+        "unitId": "cousin-other",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "word": "novel",
+        "en": "novel",
+        "ko": "새로운, 참신한",
+        "ex": "Scientists found a {{BLANK}} way to clean the ocean.",
+        "tr": "과학자들이 바다를 청소하는 새로운 방법을 찾아냈어.",
+        "c": "novus = new. 라틴어 v는 원래 w 소리라 new와 짝이야. fresh보다 '처음 보는' 쪽.",
+        "ipa": "ˈnɑvəl",
+        "pos": "adj.",
+        "unitId": "cousin-other",
+        "si": 1,
+        "sn": 2
+       },
+       {
+        "word": "novel",
+        "en": "novel",
+        "ko": "소설",
+        "ex": "Mary Shelley's {{BLANK}} Frankenstein came out in 1818.",
+        "tr": "메리 셸리의 소설 『프랑켄슈타인』은 1818년에 나왔어.",
+        "c": "새로 지어낸 긴 이야기라 novel. 이탈리아어 novella(새 이야기)에서 왔어. 작가는 novelist.",
+        "ipa": "ˈnɑvəl",
+        "pos": "n.",
+        "unitId": "cousin-other",
+        "si": 2,
+        "sn": 2
+       },
+       {
+        "word": "stellar",
+        "en": "stellar",
+        "ko": "별의",
+        "ex": "{{BLANK}} light tells scientists what a star is made of.",
+        "tr": "과학자들은 별빛으로 별이 무엇으로 이루어졌는지 알아내.",
+        "c": "stella = star. s 뒤의 t는 바뀌지 않아서 둘 다 st야(그림 법칙의 예외).",
+        "ipa": "ˈstɛlɚ",
+        "pos": "adj.",
+        "unitId": "cousin-other",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "word": "lunar",
+        "en": "lunar",
+        "ko": "달의, 음력의",
+        "ex": "Koreans celebrate the {{BLANK}} New Year in January or February.",
+        "tr": "한국 사람들은 1월이나 2월에 음력 설을 쇠.",
+        "c": "luna와 moon은 사촌이 아니야. 뜻이 같아도 소리 대응이 없으면 남이야.",
+        "ipa": "ˈlunɚ",
+        "pos": "adj.",
+        "unitId": "cousin-false",
+        "si": 1,
+        "sn": 1
+       },
+       {
+        "word": "oral",
+        "en": "oral",
+        "ko": "입의, 말로 하는",
+        "ex": "We have an {{BLANK}} test in English class tomorrow.",
+        "tr": "내일 영어 시간에 말하기 시험이 있어.",
+        "c": "os(입)에서 왔지만 mouth와 뿌리가 달라. oral test는 말하기 시험.",
+        "ipa": "ˈɔrəl",
+        "pos": "adj.",
+        "unitId": "cousin-false",
+        "si": 1,
+        "sn": 1
+       }
+      ]
+     }
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/set48.json": {
+   "beforeHash": "5406e10baf74646cd0d454d005540669b12f2c9accfb77c092c564fd440185f9",
+   "afterHash": "59fc2a71fcb4579b6b106b2ec841b518a1ab709fe070a45e3b6edf270a379f2a"
+  },
+  "pipeline/morphology.json": {
+   "beforeHash": "932beb5cd37f6cd4b7089cce8bc2ef43f54ea1b77319209a4e6153d00e8ded27",
+   "afterHash": "22055fd09dc67035ad4bc976fa701a5772a9933a4e0b16bd588e986af8002279"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/set48.json": [
+   {
+    "path": [
+     22
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "ex": 23,
+     "name": "그림 법칙 · 아는 단어로 여는 사촌 단어",
+     "unitIds": [
+      "cousin-p-f",
+      "cousin-t-th-d-t",
+      "cousin-k-h",
+      "cousin-other",
+      "cousin-false"
+     ],
+     "words": [
+      {
+       "word": "paternal",
+       "en": "paternal",
+       "ko": "아버지의, 친가 쪽의",
+       "ex": "My {{BLANK}} grandmother is my father's mother.",
+       "tr": "우리 친할머니는 아빠의 엄마야.",
+       "c": "라틴어 pater = father. p가 f로 바뀌었어(그림 법칙). 외가 쪽은 maternal.",
+       "ipa": "pəˈtɝnəl",
+       "pos": "adj.",
+       "unitId": "cousin-p-f",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "word": "pedestrian",
+       "en": "pedestrian",
+       "ko": "보행자",
+       "ex": "Drivers must stop when a {{BLANK}} is crossing the road.",
+       "tr": "보행자가 길을 건너고 있으면 운전자는 멈춰야 해.",
+       "c": "ped(발) = foot. p는 f로, d는 t로 두 번 바뀌었어. 걸어 다니는 사람이 보행자.",
+       "ipa": "pəˈdɛstriən",
+       "pos": "n.",
+       "unitId": "cousin-p-f",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "word": "maternal",
+       "en": "maternal",
+       "ko": "어머니의, 외가 쪽의",
+       "ex": "My {{BLANK}} grandfather is my mother's father.",
+       "tr": "우리 외할아버지는 엄마의 아빠야.",
+       "c": "mater = mother. 외할아버지는 maternal grandfather, 친가 쪽은 paternal.",
+       "ipa": "məˈtɝnəl",
+       "pos": "adj.",
+       "unitId": "cousin-t-th-d-t",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "word": "triple",
+       "en": "triple",
+       "ko": "세 배의, 3중의",
+       "ex": "I ordered a {{BLANK}} shot: three shots of coffee.",
+       "tr": "샷을 세 개 넣은 트리플 샷으로 주문했어.",
+       "c": "tres(셋) = three. t가 th로 바뀌었어. 두 배는 double, 세 배는 triple.",
+       "ipa": "ˈtrɪpəl",
+       "pos": "adj.",
+       "unitId": "cousin-t-th-d-t",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "word": "dental",
+       "en": "dental",
+       "ko": "이의, 치과의",
+       "ex": "The {{BLANK}} clinic fixed my broken tooth.",
+       "tr": "치과에서 부러진 이를 고쳐 줬어.",
+       "c": "dent(이) = tooth. d가 t로 바뀌었어. dentist(치과 의사)도 같은 뿌리.",
+       "ipa": "ˈdɛntəl",
+       "pos": "adj.",
+       "unitId": "cousin-t-th-d-t",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "word": "cardiac",
+       "en": "cardiac",
+       "ko": "심장의",
+       "ex": "A {{BLANK}} arrest means the heart suddenly stops.",
+       "tr": "심정지는 심장이 갑자기 멈추는 거야.",
+       "c": "그리스어 καρδία(kardia) = heart. k가 h로 약해졌어. cardio 운동도 같은 뿌리.",
+       "ipa": "ˈkɑrdiˌæk",
+       "pos": "adj.",
+       "unitId": "cousin-k-h",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "word": "unicorn",
+       "en": "unicorn",
+       "ko": "유니콘, 외뿔 짐승",
+       "ex": "A {{BLANK}} is a horse with one horn.",
+       "tr": "유니콘은 뿔이 하나 달린 말이야.",
+       "c": "uni(하나)+cornu(뿔). 라틴어 c(k)가 영어 h가 되어 cornu와 horn이 짝이야.",
+       "ipa": "ˈjunəˌkɔrn",
+       "pos": "n.",
+       "unitId": "cousin-k-h",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "word": "fraternal",
+       "en": "fraternal",
+       "ko": "형제의, (쌍둥이가) 이란성의",
+       "ex": "{{BLANK}} twins can look as different as ordinary brothers.",
+       "tr": "이란성 쌍둥이는 보통 형제만큼 다르게 생길 수 있어.",
+       "c": "frater = brother. f와 b가 짝이야. 이란성은 fraternal, 일란성은 identical.",
+       "ipa": "frəˈtɝnəl",
+       "pos": "adj.",
+       "unitId": "cousin-other",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "word": "nocturnal",
+       "en": "nocturnal",
+       "ko": "야행성의, 밤의",
+       "ex": "Owls are {{BLANK}}: they hunt at night.",
+       "tr": "올빼미는 야행성이야. 밤에 사냥하거든.",
+       "c": "noct(밤) = night. 라틴어 ct가 영어에선 ght야. 밤에 움직이는 동물이 nocturnal.",
+       "ipa": "nɑkˈtɝnəl",
+       "pos": "adj.",
+       "unitId": "cousin-other",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "word": "novel",
+       "en": "novel",
+       "ko": "새로운, 참신한",
+       "ex": "Scientists found a {{BLANK}} way to clean the ocean.",
+       "tr": "과학자들이 바다를 청소하는 새로운 방법을 찾아냈어.",
+       "c": "novus = new. 라틴어 v는 원래 w 소리라 new와 짝이야. fresh보다 '처음 보는' 쪽.",
+       "ipa": "ˈnɑvəl",
+       "pos": "adj.",
+       "unitId": "cousin-other",
+       "si": 1,
+       "sn": 2
+      },
+      {
+       "word": "novel",
+       "en": "novel",
+       "ko": "소설",
+       "ex": "Mary Shelley's {{BLANK}} Frankenstein came out in 1818.",
+       "tr": "메리 셸리의 소설 『프랑켄슈타인』은 1818년에 나왔어.",
+       "c": "새로 지어낸 긴 이야기라 novel. 이탈리아어 novella(새 이야기)에서 왔어. 작가는 novelist.",
+       "ipa": "ˈnɑvəl",
+       "pos": "n.",
+       "unitId": "cousin-other",
+       "si": 2,
+       "sn": 2
+      },
+      {
+       "word": "stellar",
+       "en": "stellar",
+       "ko": "별의",
+       "ex": "{{BLANK}} light tells scientists what a star is made of.",
+       "tr": "과학자들은 별빛으로 별이 무엇으로 이루어졌는지 알아내.",
+       "c": "stella = star. s 뒤의 t는 바뀌지 않아서 둘 다 st야(그림 법칙의 예외).",
+       "ipa": "ˈstɛlɚ",
+       "pos": "adj.",
+       "unitId": "cousin-other",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "word": "lunar",
+       "en": "lunar",
+       "ko": "달의, 음력의",
+       "ex": "Koreans celebrate the {{BLANK}} New Year in January or February.",
+       "tr": "한국 사람들은 1월이나 2월에 음력 설을 쇠.",
+       "c": "luna와 moon은 사촌이 아니야. 뜻이 같아도 소리 대응이 없으면 남이야.",
+       "ipa": "ˈlunɚ",
+       "pos": "adj.",
+       "unitId": "cousin-false",
+       "si": 1,
+       "sn": 1
+      },
+      {
+       "word": "oral",
+       "en": "oral",
+       "ko": "입의, 말로 하는",
+       "ex": "We have an {{BLANK}} test in English class tomorrow.",
+       "tr": "내일 영어 시간에 말하기 시험이 있어.",
+       "c": "os(입)에서 왔지만 mouth와 뿌리가 달라. oral test는 말하기 시험.",
+       "ipa": "ˈɔrəl",
+       "pos": "adj.",
+       "unitId": "cousin-false",
+       "si": 1,
+       "sn": 1
+      }
+     ]
+    }
+   }
+  ],
+  "pipeline/morphology.json": [
+   {
+    "path": [
+     "courses",
+     1,
+     "groups",
+     22
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "name": "그림 법칙 · 아는 단어로 여는 사촌 단어",
+     "unitIds": [
+      "cousin-p-f",
+      "cousin-t-th-d-t",
+      "cousin-k-h",
+      "cousin-other",
+      "cousin-false"
+     ]
+    }
+   },
+   {
+    "path": [
+     "units",
+     141
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "id": "cousin-p-f",
+     "title": "pater·ped ↔ father·foot · 라틴어 p는 영어 f",
+     "kind": "latin",
+     "forms": [
+      {
+       "form": "pater- / ped-",
+       "meaning": "아버지 / 발",
+       "pronunciationNote": "결합형 비교. 고정 IPA를 부여하지 않으며 실제 단어의 IPA를 참조."
+      }
+     ],
+     "rule": "라틴어의 p가 영어에서는 f로 나타나. 이미 아는 father·foot으로 paternal·pedestrian을 열어.",
+     "limits": "라틴어가 영어로 바뀐 게 아니라, 같은 조상어에서 따로 갈라진 사촌이야. 모든 p가 f가 된다는 공식으로 쓰지 마.",
+     "history": {
+      "origin": "인도유럽조어 *ph₂tḗr(아버지), *pṓds(발). 라틴어 pater, pes(속격 pedis). 게르만어에서는 p가 f로 바뀌어 고대영어 fæder, fōt이 됐어.",
+      "route": "paternal: 라틴어 pater → 중세 라틴어 paternalis → 영어. pedestrian: 라틴어 pedester(걸어서 가는) → 영어. father·foot: 게르만어 → 고대영어 → 현대 영어.",
+      "notes": "이 대응을 그림 법칙이라 해. 1822년 야코프 그림이 정리한 게르만어의 자음 변화야. 실제 짝은 단어마다 사전으로 확인해."
+     },
+     "sources": [
+      "https://www.etymonline.com/word/paternal",
+      "https://www.etymonline.com/word/pedestrian",
+      "https://www.etymonline.com/word/father",
+      "https://www.etymonline.com/word/foot",
+      "https://www.britannica.com/topic/Grimms-law"
+     ],
+     "cards": [
+      {
+       "word": "paternal",
+       "en": "paternal",
+       "ko": "아버지의, 친가 쪽의",
+       "ex": "My {{BLANK}} grandmother is my father's mother.",
+       "tr": "우리 친할머니는 아빠의 엄마야.",
+       "c": "라틴어 pater = father. p가 f로 바뀌었어(그림 법칙). 외가 쪽은 maternal.",
+       "ipa": "pəˈtɝnəl",
+       "pos": "adj."
+      },
+      {
+       "word": "pedestrian",
+       "en": "pedestrian",
+       "ko": "보행자",
+       "ex": "Drivers must stop when a {{BLANK}} is crossing the road.",
+       "tr": "보행자가 길을 건너고 있으면 운전자는 멈춰야 해.",
+       "c": "ped(발) = foot. p는 f로, d는 t로 두 번 바뀌었어. 걸어 다니는 사람이 보행자.",
+       "ipa": "pəˈdɛstriən",
+       "pos": "n."
+      }
+     ]
+    }
+   },
+   {
+    "path": [
+     "units",
+     142
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "id": "cousin-t-th-d-t",
+     "title": "tres·dent·mater ↔ three·tooth·mother · t는 th, d는 t",
+     "kind": "latin",
+     "forms": [
+      {
+       "form": "tri- / dent- / mater-",
+       "meaning": "셋 / 이 / 어머니",
+       "pronunciationNote": "결합형 비교. 고정 IPA를 부여하지 않으며 실제 단어의 IPA를 참조."
+      }
+     ],
+     "rule": "라틴어 t는 영어에서 th로, d는 t로 나타나. three·tooth·mother로 triple·dental·maternal을 열어.",
+     "limits": "소리 대응은 어원을 알아보는 고리지 새 단어를 만드는 규칙이 아니야. mother처럼 대응이 한 번 더 꺾인 짝도 있어.",
+     "history": {
+      "origin": "인도유럽조어 *tréyes(셋), *h₃dónts(이), *méh₂tēr(어머니). 라틴어 tres, dens(속격 dentis), mater. 게르만어에서 t는 th, d는 t로 바뀌어 고대영어 þrēo, tōþ이 됐어.",
+      "route": "triple: 라틴어 triplus → 고프랑스어 triple → 영어. dental: 라틴어 dens → 근대 라틴어 dentalis → 영어. maternal: 라틴어 maternus → 중세 프랑스어 maternel → 영어.",
+      "notes": "mother의 th는 그림 법칙이 바로 만든 게 아니야. 고대영어는 mōdor(d)였고 15세기 무렵 영어에서 th로 바뀌었어. father(fæder)도 같아."
+     },
+     "sources": [
+      "https://www.etymonline.com/word/triple",
+      "https://www.etymonline.com/word/three",
+      "https://www.etymonline.com/word/dental",
+      "https://www.etymonline.com/word/tooth",
+      "https://www.etymonline.com/word/maternal",
+      "https://www.etymonline.com/word/mother"
+     ],
+     "cards": [
+      {
+       "word": "maternal",
+       "en": "maternal",
+       "ko": "어머니의, 외가 쪽의",
+       "ex": "My {{BLANK}} grandfather is my mother's father.",
+       "tr": "우리 외할아버지는 엄마의 아빠야.",
+       "c": "mater = mother. 외할아버지는 maternal grandfather, 친가 쪽은 paternal.",
+       "ipa": "məˈtɝnəl",
+       "pos": "adj."
+      },
+      {
+       "word": "triple",
+       "en": "triple",
+       "ko": "세 배의, 3중의",
+       "ex": "I ordered a {{BLANK}} shot: three shots of coffee.",
+       "tr": "샷을 세 개 넣은 트리플 샷으로 주문했어.",
+       "c": "tres(셋) = three. t가 th로 바뀌었어. 두 배는 double, 세 배는 triple.",
+       "ipa": "ˈtrɪpəl",
+       "pos": "adj."
+      },
+      {
+       "word": "dental",
+       "en": "dental",
+       "ko": "이의, 치과의",
+       "ex": "The {{BLANK}} clinic fixed my broken tooth.",
+       "tr": "치과에서 부러진 이를 고쳐 줬어.",
+       "c": "dent(이) = tooth. d가 t로 바뀌었어. dentist(치과 의사)도 같은 뿌리.",
+       "ipa": "ˈdɛntəl",
+       "pos": "adj."
+      }
+     ]
+    }
+   },
+   {
+    "path": [
+     "units",
+     143
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "id": "cousin-k-h",
+     "title": "kardia·cornu ↔ heart·horn · k는 h",
+     "kind": "mixed",
+     "forms": [
+      {
+       "form": "cardi- / corn-",
+       "meaning": "심장 / 뿔",
+       "pronunciationNote": "결합형 비교. 고정 IPA를 부여하지 않으며 실제 단어의 IPA를 참조."
+      }
+     ],
+     "rule": "그리스어·라틴어의 k(c) 소리가 영어에서는 h로 약해졌어. heart·horn으로 cardiac·unicorn을 열어.",
+     "limits": "c가 늘 k 소리인 건 아니야(city의 c는 s 소리). 이 짝은 옛 소리끼리의 대응이야.",
+     "history": {
+      "origin": "인도유럽조어 *ḱḗr(심장), *ḱerh₂-(뿔·머리). 그리스어 καρδία, 라틴어 cornu. 게르만어에서 k가 h로 바뀌어 고대영어 heorte, horn이 됐어.",
+      "route": "cardiac: 그리스어 kardiakos → 라틴어 cardiacus → 프랑스어 cardiaque → 영어. unicorn: 라틴어 unicornis(uni- 하나 + cornu 뿔) → 고프랑스어 → 영어.",
+      "notes": "같은 뿌리의 라틴어 cor(심장)는 영어 cordial로 이어져. 전사는 고대 철자의 안내야.",
+      "greek": "καρδία",
+      "romanization": "kardia",
+      "reading": "원문 전사 kardia와 영어 cardiac /ˈkɑrdiˌæk/를 구별해."
+     },
+     "sources": [
+      "https://www.etymonline.com/word/cardiac",
+      "https://www.etymonline.com/word/heart",
+      "https://www.etymonline.com/word/unicorn",
+      "https://www.etymonline.com/word/horn"
+     ],
+     "cards": [
+      {
+       "word": "cardiac",
+       "en": "cardiac",
+       "ko": "심장의",
+       "ex": "A {{BLANK}} arrest means the heart suddenly stops.",
+       "tr": "심정지는 심장이 갑자기 멈추는 거야.",
+       "c": "그리스어 καρδία(kardia) = heart. k가 h로 약해졌어. cardio 운동도 같은 뿌리.",
+       "ipa": "ˈkɑrdiˌæk",
+       "pos": "adj."
+      },
+      {
+       "word": "unicorn",
+       "en": "unicorn",
+       "ko": "유니콘, 외뿔 짐승",
+       "ex": "A {{BLANK}} is a horse with one horn.",
+       "tr": "유니콘은 뿔이 하나 달린 말이야.",
+       "c": "uni(하나)+cornu(뿔). 라틴어 c(k)가 영어 h가 되어 cornu와 horn이 짝이야.",
+       "ipa": "ˈjunəˌkɔrn",
+       "pos": "n."
+      }
+     ]
+    }
+   },
+   {
+    "path": [
+     "units",
+     144
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "id": "cousin-other",
+     "title": "frater·noct·novus·stella ↔ brother·night·new·star · 그 밖의 짝과 예외",
+     "kind": "latin",
+     "forms": [
+      {
+       "form": "frater- / noct- / nov- / stell-",
+       "meaning": "형제 / 밤 / 새로운 / 별",
+       "pronunciationNote": "결합형 비교. 고정 IPA를 부여하지 않으며 실제 단어의 IPA를 참조."
+      }
+     ],
+     "rule": "라틴어 f는 영어 b, ct는 ght, v(옛 w 소리)는 w와 짝이야. stella와 star처럼 s 뒤의 t는 바뀌지 않았어.",
+     "limits": "짝을 안다고 뜻이 저절로 나오진 않아. novel의 소설 뜻처럼 실제 쓰임으로 확인해.",
+     "history": {
+      "origin": "인도유럽조어 *bʰréh₂tēr(형제), *nókʷts(밤), *néwos(새로운), *h₂stḗr(별). 라틴어 frater, nox(속격 noctis), novus, stella.",
+      "route": "fraternal: 중세 라틴어 fraternalis → 영어. nocturnal: 후기 라틴어 nocturnalis → 영어. novel(새로운): 라틴어 novellus → 고프랑스어 → 영어. novel(소설): 이탈리아어 novella(새 이야기) → 영어. stellar: 후기 라틴어 stellaris → 영어.",
+      "notes": "frater의 f와 brother의 b는 같은 옛 소리(bʰ)가 라틴어와 게르만어에서 다르게 변한 결과야. s 뒤의 t가 그대로인 것은 그림 법칙의 알려진 예외야."
+     },
+     "sources": [
+      "https://www.etymonline.com/word/fraternal",
+      "https://www.etymonline.com/word/brother",
+      "https://www.etymonline.com/word/nocturnal",
+      "https://www.etymonline.com/word/night",
+      "https://www.etymonline.com/word/novel",
+      "https://www.etymonline.com/word/new",
+      "https://www.etymonline.com/word/stellar",
+      "https://www.etymonline.com/word/star"
+     ],
+     "cards": [
+      {
+       "word": "fraternal",
+       "en": "fraternal",
+       "ko": "형제의, (쌍둥이가) 이란성의",
+       "ex": "{{BLANK}} twins can look as different as ordinary brothers.",
+       "tr": "이란성 쌍둥이는 보통 형제만큼 다르게 생길 수 있어.",
+       "c": "frater = brother. f와 b가 짝이야. 이란성은 fraternal, 일란성은 identical.",
+       "ipa": "frəˈtɝnəl",
+       "pos": "adj."
+      },
+      {
+       "word": "nocturnal",
+       "en": "nocturnal",
+       "ko": "야행성의, 밤의",
+       "ex": "Owls are {{BLANK}}: they hunt at night.",
+       "tr": "올빼미는 야행성이야. 밤에 사냥하거든.",
+       "c": "noct(밤) = night. 라틴어 ct가 영어에선 ght야. 밤에 움직이는 동물이 nocturnal.",
+       "ipa": "nɑkˈtɝnəl",
+       "pos": "adj."
+      },
+      {
+       "word": "novel",
+       "en": "novel",
+       "ko": "새로운, 참신한",
+       "ex": "Scientists found a {{BLANK}} way to clean the ocean.",
+       "tr": "과학자들이 바다를 청소하는 새로운 방법을 찾아냈어.",
+       "c": "novus = new. 라틴어 v는 원래 w 소리라 new와 짝이야. fresh보다 '처음 보는' 쪽.",
+       "ipa": "ˈnɑvəl",
+       "pos": "adj."
+      },
+      {
+       "word": "novel",
+       "en": "novel",
+       "ko": "소설",
+       "ex": "Mary Shelley's {{BLANK}} Frankenstein came out in 1818.",
+       "tr": "메리 셸리의 소설 『프랑켄슈타인』은 1818년에 나왔어.",
+       "c": "새로 지어낸 긴 이야기라 novel. 이탈리아어 novella(새 이야기)에서 왔어. 작가는 novelist.",
+       "ipa": "ˈnɑvəl",
+       "pos": "n."
+      },
+      {
+       "word": "stellar",
+       "en": "stellar",
+       "ko": "별의",
+       "ex": "{{BLANK}} light tells scientists what a star is made of.",
+       "tr": "과학자들은 별빛으로 별이 무엇으로 이루어졌는지 알아내.",
+       "c": "stella = star. s 뒤의 t는 바뀌지 않아서 둘 다 st야(그림 법칙의 예외).",
+       "ipa": "ˈstɛlɚ",
+       "pos": "adj."
+      }
+     ]
+    }
+   },
+   {
+    "path": [
+     "units",
+     145
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "id": "cousin-false",
+     "title": "lunar·oral · 사촌처럼 보이지만 남",
+     "kind": "latin",
+     "forms": [
+      {
+       "form": "luna- / or-",
+       "meaning": "달 / 입",
+       "pronunciationNote": "결합형 비교. 고정 IPA를 부여하지 않으며 실제 단어의 IPA를 참조."
+      }
+     ],
+     "rule": "뜻이 짝지어진다고 다 사촌은 아니야. lunar와 moon, oral과 mouth는 소리 대응이 없어. 법칙을 아무 데나 갖다 붙이지 마.",
+     "limits": "그림 법칙은 소리의 대응이야. 뜻이 같다는 것만으로는 사촌이 아니야.",
+     "history": {
+      "origin": "라틴어 luna는 '빛나다'의 뿌리(*leuk-)에서 와서 영어 light와 닿아. moon은 '재다'의 뿌리(*meh₁-)로 month와 닿아. 라틴어 os(속격 oris, 입)는 영어 mouth와 뿌리가 달라.",
+      "route": "lunar: 라틴어 lunaris → 영어. oral: 후기 라틴어 oralis → 영어.",
+      "notes": "moon과 month는 사촌이야(달로 시간을 쟀어). luna와 light도 먼 사촌이지만 소리 대응이 복잡해 어원 고리로만 기억해."
+     },
+     "sources": [
+      "https://www.etymonline.com/word/lunar",
+      "https://www.etymonline.com/word/moon",
+      "https://www.etymonline.com/word/oral",
+      "https://www.etymonline.com/word/mouth"
+     ],
+     "cards": [
+      {
+       "word": "lunar",
+       "en": "lunar",
+       "ko": "달의, 음력의",
+       "ex": "Koreans celebrate the {{BLANK}} New Year in January or February.",
+       "tr": "한국 사람들은 1월이나 2월에 음력 설을 쇠.",
+       "c": "luna와 moon은 사촌이 아니야. 뜻이 같아도 소리 대응이 없으면 남이야.",
+       "ipa": "ˈlunɚ",
+       "pos": "adj."
+      },
+      {
+       "word": "oral",
+       "en": "oral",
+       "ko": "입의, 말로 하는",
+       "ex": "We have an {{BLANK}} test in English class tomorrow.",
+       "tr": "내일 영어 시간에 말하기 시험이 있어.",
+       "c": "os(입)에서 왔지만 mouth와 뿌리가 달라. oral test는 말하기 시험.",
+       "ipa": "ˈɔrəl",
+       "pos": "adj."
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/set48.json": [],
+  "pipeline/morphology.json": []
+ }
+}
