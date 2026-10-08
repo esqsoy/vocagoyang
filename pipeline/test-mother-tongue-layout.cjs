@@ -54,7 +54,7 @@ for(let li=0;li<h.state.lessons.length;li++){
    assert.equal(h.blank.getAttribute('aria-label'),w.term+' 발음 다시 듣기');
    assert(h.ctx.pronunciationEffectInfo(w.term,w.meaning)?.ipa,`${w.term}: IPA available through answer replay`);
    assert.equal(s.words[wi].corrects,1);assert.equal(s.firstCorrect,wi+1);
-   const dwell=h.ctx.mtRevealDelay?h.ctx.mtRevealDelay(w):1200;
+   const dwell=h.ctx.mtRevealDelay?h.ctx.mtRevealDelay(w):1500;
    h.advance(dwell-1);assert.equal(s.currentId,wi,'Correct answer remains for its translation reading interval');
    h.advance(1);cardCount++;
   }
@@ -113,7 +113,7 @@ assert(!s.answered);assert(h.blank.innerHTML.includes('오'));
 h.type('official');assert(s.answered&&!s.copyMode);
 s=mountWord(h);h.ctx.submit({forced:true});h.fire('ainput','compositionstart');h.type('official');h.fire('aform','submit');assert(s.copyMode);
 h.fire('ainput','compositionend');assert(!s.copyMode);assert.equal(s.attempts,1,'Copy does not count as a fresh attempt');
-h.advance(1199);assert.equal(s.currentId,0);h.advance(1);assert.equal(s.currentId,1,'Copy uses the same 1200 ms reveal as a correct answer');
+h.advance(1499);assert.equal(s.currentId,0);h.advance(1);assert.equal(s.currentId,1,'Copy uses the same 1500 ms reveal as a correct answer');
 
 // Hints, forced skips and timeouts keep the original grading semantics.
 s=mountWord(h);assert.equal(h.els.get('qmini').textContent,'');h.ctx.giveHint();assert.equal(h.els.get('ainput').value,'o');assert.equal(h.els.get('qmini').textContent,'');h.ctx.giveHint();assert.equal(h.els.get('ainput').value,'o');assert.equal(s.hints,1);h.type('official');assert.equal(s.firstCorrect,0);assert.equal(s.errors,0);
@@ -132,19 +132,19 @@ for(const copy of [false,true]){
  h.els.get('ainput').blur();h.fire('gameScreen','mousedown',{target:h.els.get('hoeCtx')});
  assert.equal(h.doc.activeElement,h.els.get('ainput'));
 }
-h.type('official');assert(!s.copyMode);h.advance(1200);assert.equal(s.currentId,1);
+h.type('official');assert(!s.copyMode);h.advance(1500);assert.equal(s.currentId,1);
 
 // Retry rounds: correct first-pass words stay out; wrong words require two
 // consecutive later answers, and wrong retries reset their streak.
 s=mountWord(h);s.words[0].wrongEver=true;s.words[1].passed=true;s.queue=[];h.ctx.startRound(2);
 assert.deepEqual(plain(s.roundTargets),[0]);assert.equal(s.words[0].needed,2);
 h.type('official');assert.equal(s.words[0].roundStreak,1);assert.equal(s.words[0].passed,false);assert.deepEqual(plain(s.queue),[0]);
-h.advance(1200);h.ctx.submit({forced:true});assert.equal(s.words[0].roundStreak,0);h.type('official');h.advance(1200);
-h.type('official');h.advance(1200);h.type('official');assert.equal(s.words[0].roundStreak,2);assert.equal(s.words[0].passed,true);
+h.advance(1500);h.ctx.submit({forced:true});assert.equal(s.words[0].roundStreak,0);h.type('official');h.advance(1500);
+h.type('official');h.advance(1500);h.type('official');assert.equal(s.words[0].roundStreak,2);assert.equal(s.words[0].passed,true);
 
 // Leaving/changing scope must cancel the previous card's pending transition.
 s=mountWord(h);h.type('official');h.fire('exitBtn','click');h.start(0,0);const fresh=h.state.session;
-h.advance(1200);assert.equal(h.state.session,fresh);assert.equal(fresh.currentId,0);assert(!fresh.answered);
+h.advance(1500);assert.equal(h.state.session,fresh);assert.equal(fresh.currentId,0);assert(!fresh.answered);
 h.type('official');h.fire('prevBtn','click');assert.equal(h.state.session,null);assert(h.els.get('homeScreen').classList.contains('active'));assert.equal(h.storage.get('goyang-mode-v1'),'1');h.advance(2000);assert.equal(h.state.session,null);
 
 // An actual old record fixture remains usable in both range modes.

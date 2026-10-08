@@ -1,7 +1,7 @@
 /* Passage excerpts preserve original headword grading and exercise IDs. */
 function mtAttachContexts(lessons){for(const l of lessons)for(const e of l.exercises)e.words.forEach((w,index)=>{const c=MT_CONTEXTS[[l.lesson,e.scope,e.ex,index].join('/')];w.originalMeaning=w.meaning;if(c){w.context=c;if(c.contextMeaning)w.meaning=c.contextMeaning;}});}
 function mtCurrentWord(){const s=state.session;return s&&s.currentId!==null?s.words[s.currentId]:null;}
-function mtRevealDelay(w){const c=w?.context;if(!c)return 1200;const chars=(c.translation||'').length+(c.note||'').length;return Math.min(state.session?.round>=2?3500:6500,Math.max(1200,500+chars*45));}
+function mtRevealDelay(w){const c=w?.context;if(!c)return 1500;const chars=(c.translation||'').length+(c.note||'').length;return Math.min(state.session?.round>=2?3500:6500,Math.max(1500,500+chars*45));}
 function mtEscapeRegex(v){return String(v).replace(/[.*+?^${}()|[\]\\]/g,'\\$&');}
 function mtRanges(context,term=''){
  const text=context.example,ranges=[];

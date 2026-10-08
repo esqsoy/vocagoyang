@@ -24,7 +24,7 @@ h.ctx.speakPronunciation(term,'');assert.equal(h.spoken.length,0);
 h.type(term);assert.equal(h.state.session.answered,true);assert.equal(h.spoken.length,1);
 assert.equal(h.spoken[0].text,term);assert.equal(h.spoken[0].rate,.88);assert.equal(h.spoken[0].lang,'en-US');
 assert(!h.els.get('reveal').innerHTML.includes('rv-inline-ipa'));assert.equal(h.blank.getAttribute('role'),'button');assert(h.blank.innerHTML.includes('slot-glyph'),'Answer remains in the original cells');
-const afterStart=h.cancels;h.spoken[0].onstart();h.advance(1200);
+const afterStart=h.cancels;h.spoken[0].onstart();h.advance(1500);
 assert.equal(h.state.session.answered,true,'An active voice may finish before automatic navigation');
 h.spoken[0].onend();h.advance(100);
 assert.equal(h.state.session.answered,false);assert.equal(h.els.get('reveal').innerHTML,'');assert(h.cancels>afterStart,'The new question invalidates the previous speech and overlay');
@@ -54,7 +54,7 @@ assert.equal(h.ctx.pickPronunciationVoice().lang,'en-US');
 
 // Lazy voice loading may not start a stale question's audio after a transition.
 h=harness(filename);h.ctx.window.speechSynthesis.getVoices=()=>[];h.start();h.type(h.state.session.words[0].term);
-assert(h.spoken.every(u=>u.text===' '));h.advance(1200);h.ctx.advanceRevealed();
+assert(h.spoken.every(u=>u.text===' '));h.advance(1500);h.ctx.advanceRevealed();
 h.ctx.window.speechSynthesis.getVoices=()=>[{name:'US',lang:'en-US'}];
 for(const task of [...h.intervals.values()])task.f();
 assert(h.spoken.every(u=>u.text===' '),'Pending old pronunciation was invalidated');

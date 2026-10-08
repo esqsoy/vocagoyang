@@ -6,7 +6,7 @@ function patchCopyCompletion(html){
   const oldReveal='const wrap=$("#hoeCtx .blanks");if(wrap){wrap.innerHTML=blankSlots(term,term);wrap.classList.add("revealed");wrap.querySelectorAll(".slot-punctuation").forEach(el=>el.classList.add("shown"));}';
   html=replaceOne(html,'function showReveal(type,term,meaning,line){','function revealInPlace(term){\n  '+oldReveal+'\n}\nfunction showReveal(type,term,meaning,line){');
   html=replaceOne(html,'    '+oldReveal,'    revealInPlace(term);');
-  html=replaceOne(html,'  fx(true);beep("ok");scheduleNext(650);','  const w=s.words[s.currentId];s.revealedAt=Date.now();\n  revealInPlace(w.term);beep("ok");speakPronunciation(w.term,w.meaning);scheduleNext(1200);');
+  html=replaceOne(html,'  fx(true);beep("ok");scheduleNext(650);','  const w=s.words[s.currentId];s.revealedAt=Date.now();\n  revealInPlace(w.term);beep("ok");speakPronunciation(w.term,w.meaning);scheduleNext(1500);');
   html=html.replace('// Only the normal correct-answer delay waits for speech. Copy remains 650ms.','// Every completed answer, including corrected copies, waits for its pronunciation.');
   return html;
 }
@@ -26,7 +26,7 @@ function patch(html){
   const current=()=>state.session===s&&s.currentId===id&&s.answered&&!s.copyMode&&screens.game.classList.contains("active");
   s.nextTimer=setTimeout(()=>{s.nextTimer=null;if(!current())return;
     // Every completed answer, including corrected copies, waits for its pronunciation.
-    if(ms===1200)ipaEffectAdvance(nextCard,current);else nextCard();
+    if(ms===1500)ipaEffectAdvance(nextCard,current);else nextCard();
   },ms);
 }`);
   html=replaceOne(html,'function stopPronunciation(cancelSpeech=true){\n  pronunciationSeq++;','function stopPronunciation(cancelSpeech=true){\n  ipaEffectCancel();\n  pronunciationSeq++;');
@@ -70,7 +70,7 @@ function speakPronunciation(term,meaning){
 `+html.slice(end);
   html=replaceOne(html,'// 이미 시작한 긴 발음은 마치게 두고, 아직 시작하지 않은 재생 예약만 취소한다.\n  stopPronunciation(false);cancelPendingAdvance();','// Manual navigation cancels speech and its overlay immediately.\n  stopPronunciation();cancelPendingAdvance();');
   html=replaceOne(html,'layer.innerHTML="";const gen=++fxGen;','layer.innerHTML="";const gen=++fxGen;\n  if(good&&combo)return; // Completed answers use the IPA effect; review effects stay intact.');
-  html=replaceOne(html,'scheduleNext(1500);','scheduleNext(1200);');
+  // 26.10.08 복원: 정답 공개 대기는 원래의 1500ms를 유지한다(26.9.29의 20% 단축을 되돌림, 영신 결정).
   return patchCombinedEffects(patchCopyCompletion(html));
 }
 module.exports={patch};

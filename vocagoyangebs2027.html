@@ -2037,7 +2037,7 @@ function scheduleNext(ms){
   const current=()=>state.session===s&&s.currentId===id&&s.answered&&!s.copyMode&&screens.game.classList.contains("active");
   s.nextTimer=setTimeout(()=>{s.nextTimer=null;if(!current())return;
     // Every completed answer, including corrected copies, waits for its pronunciation.
-    if(ms===1200)ipaEffectAdvance(nextCard,current);else nextCard();
+    if(ms===1500)ipaEffectAdvance(nextCard,current);else nextCard();
   },ms);
 }
 /* Fable-style resume uses its own Mother Tongue key; existing progress stays intact. */
@@ -2310,7 +2310,7 @@ function submit(opt={}){
       : (passed ? ((s.streak||0)>=3?pick(LINES.correctStreak):pick(LINES.correct)) : "정답이라고양! 한 번 더 가자고양.");
     showReveal("good",w.term,w.meaning,line);
     s.streak=(s.streak||0)+1;
-    scheduleNext(1200);
+    scheduleNext(1500);
   } else {
     s.errors++;w.errors++;w.wrongEver=true;s.streak=0;
     if(s.round===1)w.firstWrong=true;
@@ -2428,7 +2428,7 @@ function submitCopy(){
   }
   s.copyMode=false;s.copyAns="";$("#ainput").oninput=null;$("#submitBtn").disabled=true;
   const w=s.words[s.currentId];s.revealedAt=Date.now();
-  revealInPlace(w.term);beep("ok");speakPronunciation(w.term,w.meaning);scheduleNext(1200);
+  revealInPlace(w.term);beep("ok");speakPronunciation(w.term,w.meaning);scheduleNext(1500);
 }
 
 function giveHint(){
@@ -3914,7 +3914,7 @@ function savedToggleCurrent(){
     if(typeof armReveal==='function'){
       if(s.revealTimer)clearTimeout(s.revealTimer);
       ipaEffectCancelAdvance();armReveal(w);
-    }else scheduleNext(1200);
+    }else scheduleNext(1500);
   }else focusAnswerInput();
   return true;
 }
