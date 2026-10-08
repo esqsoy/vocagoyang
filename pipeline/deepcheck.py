@@ -104,8 +104,9 @@ for ln,exn,w in cards:
     if m:
         if len(m)>48: F['A6'].append((ln,tag,f"meow {len(m)}자"))
         if '고양' not in m: F['A6'].append((ln,tag,f"meow 고양체 아님: {m[:24]}"))
-    nw=len(re.findall(r"[A-Za-z'{}]+",w.get('ex') or ''))
-    if nw>10: F['A6'].append((ln,tag,f"예문 {nw}단어"))
+    # 예문 길이는 단어 수가 아니라 폰 화면 줄 수로 잰다(26.10.08 영신 확정: 390px 문제 화면 3줄 이내).
+    # 단어 수는 줄 수를 잘 예측하지 못해(긴 정답은 7단어도 빈칸이 한 줄을 먹는다) 여기서 빼고 linecheck.cjs로 넘겼다.
+    #   node pipeline/linecheck.cjs
 
 NAME={'A1':'si/sn 무결성','A2':'IPA 일관성','A3':'pos↔빈칸 자리',
       'A5':'예문 교차 중복','A6':'형식 규칙'}

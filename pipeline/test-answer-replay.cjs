@@ -17,8 +17,11 @@ for(const file of ['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyange
  assert.equal(learning(),before);assert.equal(hearts,0,'Replay must not reward another answer');
  let count=h.spoken.length;event('keydown',{key:'Enter'});event('keydown',{key:' '});assert.equal(h.spoken.length,count+2,'Enter and Space replay');
  count=h.spoken.length;event('keydown',{key:'Enter',repeat:true});event('keydown',{key:'Enter',isComposing:true});event('keydown',{key:'Tab'});assert.equal(h.spoken.length,count,'Ignore composing/repeated/unrelated keys');
- const current=h.spoken.at(-1);current.onstart();const delay=h.ctx.revealDelay?h.ctx.revealDelay(w):h.ctx.mtRevealDelay?h.ctx.mtRevealDelay(w):1200;
- h.advance(delay+100);initial.onend();replay.onend();h.advance(50);assert.equal(s.currentId,id,'Old audio completion cannot cut off replay');
+ const delay=h.ctx.revealDelay?h.ctx.revealDelay(w):h.ctx.mtRevealDelay?h.ctx.mtRevealDelay(w):1500;
+ // 다시 듣기는 자동 진행 직전에 시작한다. 발음 효과는 '시작 후 6초' 안전 상한이 있는데, FABLE 해설 읽을 시간(26.10.08 원값 복원)은
+ // 긴 해설에서 6초를 넘는다. 실제 단어 발음은 1초 남짓이라 그 상한에 닿지 않는다. 확인할 성질은 해설 길이와 무관하다.
+ h.advance(Math.max(0,delay-400));event();const current=h.spoken.at(-1);assert.notEqual(current,replay);current.onstart();
+ h.advance(500);initial.onend();replay.onend();h.advance(50);assert.equal(s.currentId,id,'Old audio completion cannot cut off replay');
  current.onend();h.advance(100);assert.notEqual(s.currentId,id,'Replay retains automatic advance');
  // The correction remains an input until complete, then becomes the same replay control.
  h.start();const copyWord=h.state.session.words[h.state.session.currentId];h.ctx.submit({forced:true});count=h.spoken.length;event();assert.equal(h.spoken.length,count,'Do not intercept correction typing');

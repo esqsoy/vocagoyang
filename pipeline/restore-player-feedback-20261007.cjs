@@ -4,9 +4,10 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
 const ledger=JSON.parse(fs.readFileSync(path.join(__dirname,'player-feedback-20261007.json'),'utf8'));
 const review=ledger.snapshots.DATA;
 const history=require('./history-review-20261007/restore.cjs');
+const claude=require('./claude-review-20261008/restore.cjs'); // 26.10.08 이후 층을 먼저 되돌린다
 const hash=value=>crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
 function restorePlayerFeedback20261007(data){
- const restored=history.restoreHistoryExamples(data);
+ const restored=history.restoreHistoryExamples(claude.restoreClaudeReview20261008(data));
  if(hash(restored)!==review.afterHash)return restored;
  for(const change of [...review.changes].reverse()){
   const p=change.path,key=p.at(-1);
@@ -21,7 +22,7 @@ function restorePlayerFeedback20261007(data){
  return restored;
 }
 function restorePlayerFeedbackSource20261007(value,file){
- const restored=history.restoreHistorySource(value,file),snap=ledger.sourceSnapshots[file];
+ const restored=history.restoreHistorySource(claude.restoreClaudeReviewSource20261008(value,file),file),snap=ledger.sourceSnapshots[file];
  if(!snap||hash(restored)!==snap.afterHash)return restored;
  for(const change of [...ledger.sourceChanges].reverse().filter(c=>c.file===file)){
   assert(['ex','tr','c'].includes(change.field));

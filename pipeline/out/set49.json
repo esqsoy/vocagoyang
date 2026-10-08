@@ -165,12 +165,10 @@
         "ko": "지금부터 ~후에",
         "ex": "The bus will leave {{BLANK}} fifteen minutes.",
         "tr": "버스는 지금부터 15분 후에 출발할 거야.",
-        "c": "미래 시점의 in+시간: 지금부터 그 시간이 지난 뒤.",
+        "c": "미래 시점의 in+시간: 지금부터 그 시간이 지난 뒤. 지금부터 15분 뒤는 after가 아니라 in.",
         "ipa": "ɪn",
         "pos": "prep.",
-        "acceptedAnswers": [
-          "after"
-        ],
+        "acceptedAnswers": [],
         "constructionId": "prep-in-elapsed",
         "si": 1,
         "sn": 3

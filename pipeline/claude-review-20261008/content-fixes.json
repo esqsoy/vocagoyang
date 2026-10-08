@@ -1,0 +1,3327 @@
+{
+ "date": "2026-10-08",
+ "name": "content-fixes",
+ "status": "applied_locally_verified",
+ "authorization": "영신 26.10.08: '4. 이건 어서 수정하자', '3. 마음에 듭니다 … 다른 것도 찰지게'",
+ "summary": "Claude 리뷰 검증 결함 62건(빈칸 중의성 52·수준 2·부자연 4·해설 2·사실 1·허용 정답 1) + 고양이 meow 12개",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "d4ade06db2c5d62ee80bb6c49427c410700c7b65f9ee9bac10ae8a15343e0cff",
+   "afterHash": "55f21dc7881b6e24dbb337a8f0310bee860d652be6cac8980e2e0a689ee91164",
+   "changes": [
+    {
+     "path": [
+      0,
+      "exercises",
+      2,
+      "words",
+      17,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "November, 큰 시험 앞에서도 고양이는 도망 안 간다고양.",
+     "new": "November, 수능 달이라고양. 여기서 꼬리 내리면 비웃어 준다고양."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      6,
+      "words",
+      3,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "변기 자체를 말할 땐 미국에서도 toilet이 맞다고양.",
+     "new": "변기는 미국서도 toilet이라고양. 화장실 찾을 땐 bathroom이라고양."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      7,
+      "words",
+      5,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "boring은 지루하게 만들고, bored는 지루함을 느낀다고양. I'm boring이면 네가 남을 지루하게 한다고양.",
+     "new": "boring은 영화, bored는 너라고양. I'm boring이면 네가 노잼이라고양."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      3,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In ancient Athenian democracy, only adult male citizens held political {{BLANK}}.",
+     "new": "In ancient Athens, only men could hold political {{BLANK}}."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      3,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "고대 아테네 민주정에서는 성인 남성 시민만 정치적 권력을 행사했어.",
+     "new": "고대 아테네에서는 남자만 정치 권력을 가질 수 있었어."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      3,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "demo-(민중) + -cracy(통치).",
+     "new": "political power = 정치 권력. hold power = 권력을 쥐다."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      9,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In the past, high infant {{BLANK}} rates lowered life expectancy.",
+     "new": "Ancient Egyptians believed life continued after {{BLANK}}."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      9,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "과거에는 높은 영아 사망률이 평균수명을 낮췄어.",
+     "new": "고대 이집트인들은 죽은 뒤에도 삶이 이어진다고 믿었어."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      9,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "평균수명이 낮았다고 모두 그 나이에 죽었다는 뜻은 아니다. die(죽다)·dead(죽은)·death(죽음).",
+     "new": "die(죽다)·dead(죽은)·death(죽음)."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      5,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "deal with ~(~을 처리하다·상대하다)처럼 쓴다. (불규칙 deal-dealt-dealt)",
+     "new": "deal with ~: ~을 처리하다(deal-dealt-dealt). cope with(힘든 일에 대처하다)도 비슷하다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      1,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Astronauts use radios in {{BLANK}} because sound cannot travel through a vacuum.",
+     "new": "There is no air in {{BLANK}}, so sound cannot travel there."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      1,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우주비행사들은 우주에서 무전기를 써. 진공에서는 소리가 전달되지 않거든.",
+     "new": "우주에는 공기가 없어서 소리가 전달되지 않아."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      4,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "회사 소유권을 나눈 단위. a share = 주식 한 주.",
+     "new": "회사 소유권을 나눈 한 주가 a share. 주가는 stock prices라고도 하고, 미국에선 그쪽이 더 흔하다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      5,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This bus can {{BLANK}} forty people.",
+     "new": "This bottle can {{BLANK}} two liters of water."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      5,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 버스는 마흔 명을 태울 수 있어.",
+     "new": "이 병에는 물이 2리터 들어가."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      8,
+      "words",
+      15,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "sound advice = 타당한 조언. sound는 상태가 튼튼하다는 뜻도 있다.",
+     "new": "sound advice = 타당한 조언. 이 뜻에서는 solid·valid도 비슷하게 쓴다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      9,
+      "words",
+      7,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "bill, 청구서도 지폐도 법안도 다 같은 단어라고양. 법안은 돈 얘기가 아닐 수도 있다고양.",
+     "new": "청구서도 지폐도 법안도 다 bill이라고양. 지갑 열 때마다 이 단어 보게 될 거라고양."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      11,
+      "words",
+      7,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "② 실현하다, 이루다",
+     "new": "② (꿈·계획을) 실현하다"
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      11,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "꿈·목표를 현실로 이루는 뜻. 알아차리다와 구별하자.",
+     "new": "꿈·계획을 현실로 만드는 뜻. 알아차리다와 구별하자. 이 뜻에서는 achieve·fulfill과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      11,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "말뿐 아니라 행동·몸의 변화로 나타나는 반응도 response.",
+     "new": "말뿐 아니라 행동·표정으로 보이는 반응도 response. 이 뜻에서는 reaction과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      5,
+      "exercises",
+      0,
+      "words",
+      1,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "오늘의 해를 말할 땐 the sun이라고양. 어느 해인지 서로 안다고양.",
+     "new": "해는 하나뿐이라 the sun이라고양. 해가 두 개로 보이면 문법 말고 눈을 걱정하라고양."
+    },
+    {
+     "path": [
+      5,
+      "exercises",
+      5,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "과거가 아니라 공손 모드. Can you~?보다 정중한 부탁.",
+     "new": "과거가 아니라 공손 모드. Can you~?보다 정중한 부탁. Would you~?도 같은 정중한 부탁이다."
+    },
+    {
+     "path": [
+      7,
+      "exercises",
+      0,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "미국 회화의 I figure (that)는 '~라고 생각해'. out 없이도 동사로 쓴다.",
+     "new": "미국 회화의 I figure (that)는 '~라고 생각해'. out 없이도 동사로 쓴다. 영국 구어 I reckon도 같은 뜻."
+    },
+    {
+     "path": [
+      7,
+      "exercises",
+      0,
+      "words",
+      12,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "A tall {{BLANK}} stood near the door.",
+     "new": "She keeps a slim {{BLANK}} by swimming every day."
+    },
+    {
+     "path": [
+      7,
+      "exercises",
+      0,
+      "words",
+      12,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "키 큰 사람이 문 근처에 서 있었어.",
+     "new": "그녀는 매일 수영해서 날씬한 몸매를 유지해."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      1,
+      "words",
+      15,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "committee, 위원회. m·t·e가 두 개씩이라고양.",
+     "new": "committee, m·t·e 두 개씩이라고양. 빠뜨리면 위원회에서 쫓겨난다고양."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      2,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "be central to ~: ~에서 핵심이다.",
+     "new": "be central to ~: ~에서 핵심이다. crucial to(결정적으로 중요한)도 비슷하게 쓴다."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      8,
+      "words",
+      9,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Be careful not to {{BLANK}} over that bag.",
+     "new": "I {{BLANK}}ped over a stone and fell."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      8,
+      "words",
+      9,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 가방에 발이 걸려 넘어지지 않게 조심해.",
+     "new": "나는 돌에 걸려 넘어졌어."
+    },
+    {
+     "path": [
+      9,
+      "exercises",
+      9,
+      "words",
+      10,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "② 잘못 알다, 혼동하다",
+     "new": "② (A를 B로) 잘못 알다, 착각하다"
+    },
+    {
+     "path": [
+      9,
+      "exercises",
+      9,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "mistake A for B: A를 B로 잘못 알다. 과거 mistook.",
+     "new": "mistake A for B: A를 B로 잘못 알다. 과거 mistook. confuse A with B(혼동하다)와 구별."
+    },
+    {
+     "path": [
+      10,
+      "exercises",
+      8,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "chief reason은 주된 이유.",
+     "new": "chief reason은 주된 이유. major·main과 비슷하지만 chief는 여럿 중 으뜸인 하나다."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      5,
+      "words",
+      0,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "clothes는 옷이라고양. th를 살짝 내거나 생략해도 된다고양.",
+     "new": "clothes에서 혀 꼬이면 그냥 [클로즈]라고양. 원어민도 그런다고양."
+    },
+    {
+     "path": [
+      13,
+      "exercises",
+      9,
+      "words",
+      9,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "여기까지 꾸준히 왔다면 이미 반은 succeed, 성공이라고양. 나머지도 가 보자고양.",
+     "new": "반은 succeed했다고양. 남은 반에서 넘어지면 실컷 웃어 준다고양."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      2,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "비가 아주 세게 오는 것. It’s pouring.",
+     "new": "비가 아주 세게 오는 것. It’s pouring. 그냥 비가 오면 rain, 세차게 쏟아지면 pour."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      4,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "주로 남자를 가리키는 비격식 명사.",
+     "new": "주로 남자를 친근하게 이르는 비격식 명사. 이 문장에는 person도 들어간다."
+    },
+    {
+     "path": [
+      15,
+      "exercises",
+      1,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "편지를 보내다는 미국식 mail a letter, 영국식 post a letter.",
+     "new": "미국식 mail a letter, 영국식 post a letter. send는 그냥 보내다, mail은 우편으로 보내다."
+    },
+    {
+     "path": [
+      15,
+      "exercises",
+      9,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "준비·계획은 make arrangements처럼 복수로 자주 쓴다.",
+     "new": "준비·계획은 make arrangements처럼 복수로 자주 쓴다. make preparations도 같은 뜻이다."
+    },
+    {
+     "path": [
+      16,
+      "exercises",
+      1,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "rank A among ~: A를 ~중에 넣어 평가하다.",
+     "new": "rank A among ~: A를 ~중에 넣어 평가하다. 점수로 평가하는 rate도 비슷하게 쓴다."
+    },
+    {
+     "path": [
+      16,
+      "exercises",
+      3,
+      "words",
+      2,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "일산엔 port, 항구가 없어서 배 대신 버스라고양.",
+     "new": "port, 항구라고양. 일산엔 항구가 없으니 도망칠 배도 없다고양."
+    },
+    {
+     "path": [
+      16,
+      "exercises",
+      4,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "슬픔·걱정을 덜어 주다.",
+     "new": "슬픔·걱정을 덜어 주다. console도 같은 뜻의 격식어."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      4,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "격식 있는 말. 말할 땐 보통 exam이나 test. 병원 검사·조사에도 쓴다.",
+     "new": "격식 있는 말. 병원 진찰은 일상에서 checkup이나 exam이라고도 한다."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      8,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "hunt for ~: ~을 애써 찾아다니다.",
+     "new": "hunt for ~: ~을 애써 찾아다니다. look for와 바꿔 쓸 수 있고, hunt는 여기저기 뒤지는 느낌이다."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      9,
+      "words",
+      8,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "털 고를 땐 혀가 brush, 솔이라고양. 오늘도 단장하느라 바쁘고양.",
+     "new": "고양이 혀는 털 고르는 brush라고양. 너도 그 머리 좀 brush 하고 오라고양."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      0,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "stem from ~: ~에서 비롯되다. 줄기가 뿌리에서 자라듯 원인을 나타내는 표현.",
+     "new": "stem from ~: ~에서 비롯되다. 줄기가 뿌리에서 자라듯 원인을 말한다. come from과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      0,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "stem+대상: 흐름이나 확산을 멈추거나 줄이다.",
+     "new": "stem+대상: 흐름이나 확산을 막다. 이 뜻에서는 stop과 바꿔 쓸 수 있다(stem이 더 격식)."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      6,
+      "words",
+      11,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "② (크림·달걀을) 휘젓다",
+     "new": "② (크림·달걀을) 휘저어 거품을 내다"
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      6,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "{{BLANK}} the cream before serving the cake.",
+     "new": "{{BLANK}} the cream until it becomes thick."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      6,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "케이크를 내놓기 전에 크림을 휘저어 거품을 내.",
+     "new": "크림이 걸쭉해질 때까지 휘저어."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      6,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "빠르게 저어 공기를 넣다. whipped cream은 휘핑크림.",
+     "new": "빠르게 저어 거품을 내다. 크림은 whip이 대표적이고 beat도 쓴다. 그냥 젓는 건 stir."
+    },
+    {
+     "path": [
+      20,
+      "exercises",
+      8,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "수나 양이 크게 늘거나 늘게 하다. 곱셈 뜻에서 연결된다.",
+     "new": "곱셈에서 온 뜻으로, 몇 배로 불어나는 느낌이다. 이 뜻에서는 increase와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      22,
+      "exercises",
+      3,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Use a {{BLANK}} noun after these.",
+     "new": "Use a {{BLANK}} noun after 'these'."
+    },
+    {
+     "path": [
+      22,
+      "exercises",
+      6,
+      "words",
+      2,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "sting, 벌에 쏘이면 아프다고양. 함부로 건드리지 말라고양.",
+     "new": "꿀벌은 한 번 sting 하면 죽는다고양. 너는 틀려도 안 죽으니 다시 하라고양."
+    },
+    {
+     "path": [
+      22,
+      "exercises",
+      7,
+      "words",
+      14,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "I slept {{BLANK}} on the train.",
+     "new": "Of all the nights on our trip, I slept {{BLANK}} on the train."
+    },
+    {
+     "path": [
+      22,
+      "exercises",
+      7,
+      "words",
+      14,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "나는 기차에서 잠을 가장 못 잤어.",
+     "new": "여행 중에 기차에서 잔 날 잠을 제일 못 잤어."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      0,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Please {{BLANK}} these letters by date.",
+     "new": "Please {{BLANK}} this letter under 'Bills.'"
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      0,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 편지들을 날짜별로 정리해 보관해 줘.",
+     "new": "이 편지를 '청구서' 항목에 정리해 넣어 줘."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      0,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "문서 등을 쉽게 찾도록 분류해 넣어 두다.",
+     "new": "문서 등을 쉽게 찾도록 분류해 넣어 두다. 단순히 분류만 하는 것은 sort."
+    },
+    {
+     "path": [
+      28,
+      "exercises",
+      4,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "memory(기억)와 한 뿌리. a memorial service는 추도식.",
+     "new": "memory(기억)와 한 뿌리. 죽은 이를 기리는 기념물. monument는 기념비 일반."
+    },
+    {
+     "path": [
+      29,
+      "exercises",
+      2,
+      "words",
+      1,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "robot, 로봇처럼 치기만 말고 뜻도 떠올리라고양.",
+     "new": "뜻 생각 없이 손가락만 놀리면 너도 robot이라고양."
+    },
+    {
+     "path": [
+      29,
+      "exercises",
+      6,
+      "words",
+      14,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "정보·지식 등을 머릿속에 받아들여 이해하다.",
+     "new": "정보·지식 등을 머릿속에 받아들여 이해하다. 이 뜻에서는 digest와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      4,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "사고 등으로 몸에 입은 심각한 손상. 정신적 충격과 구별한다.",
+     "new": "사고 등으로 몸에 입은 심각한 손상. 정신적 충격과 구별한다. 이 뜻에서는 injury와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      5,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The teacher set clear {{BLANK}}s for our project.",
+     "new": "We have to work within the {{BLANK}}s of our budget."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      5,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "선생님이 우리 과제에 분명한 기준을 정해 주셨어.",
+     "new": "우리는 예산이 정한 범위 안에서 일해야 해."
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      3,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "미국식 과거형은 보통 spit. spit out은 '뱉어 내다, 내뱉듯 말하다'.",
+     "new": "과거형·과거분사는 spat. 미국에서는 spit도 쓴다. spit out은 '뱉어 내다, 내뱉듯 말하다'."
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      2,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "probe into ~를 깊이 파헤치다. 명사로 '조사'도 된다.",
+     "new": "probe into ~를 깊이 파헤치다. 명사로 '조사'도 된다. 이 뜻에서는 delve into와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      7,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The temple was built {{BLANK}} eight hundred.",
+     "new": "The temple was built {{BLANK}} AD 800."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      7,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 절은 800년경에 지어졌어.",
+     "new": "그 절은 서기 800년경에 지어졌어."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      8,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "impatient to do(~을 어서 하고 싶은), impatient for(~을 간절히 기다리는).",
+     "new": "impatient to do/for: 어서 하고 싶어 조바심 내는. desperate to도 비슷하게 쓴다."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      6,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "implicit trust/faith(전적인 신뢰). 아무런 의심이나 유보가 없다는 뜻.",
+     "new": "implicit trust(전적인 신뢰): 의심 없이 믿는 것. 이 뜻에서는 complete·absolute와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      5,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "To go is an {{BLANK}} in this sentence.",
+     "new": "In 'I want to go,' 'to go' is an {{BLANK}}."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      5,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 문장에서 To go가 부정사야.",
+     "new": "'I want to go'에서 'to go'는 부정사야."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      8,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "implication in a crime은 범죄에 연루됨. 이 뜻은 보통 불가산.",
+     "new": "범죄에 연루됨. 이 뜻은 보통 불가산. involvement와 바꿔 쓸 수 있고, 그쪽이 더 흔하다."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      8,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "행동을 제한하는 조건. 시간·예산 부족에는 constraint, 규정으로 정한 제한에는 restriction을 주로 써.",
+     "new": "시간·예산 부족은 constraint, 규정으로 정한 제한은 restriction. limitation과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      8,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "exempt A from B는 A에게 B의 의무를 면제하다.",
+     "new": "exempt A from B: A에게 B를 면제하다. excuse A from B도 비슷하지만 exempt가 더 공식적이다."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      10,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Long dry periods {{BLANK}} the lake's water supply.",
+     "new": "Long dry periods can {{BLANK}} the lake's water supply by half."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      10,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "오랜 건기는 호수의 물 공급량을 크게 줄여.",
+     "new": "오랜 건기는 호수의 물을 절반으로 줄일 수 있어."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      10,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "자원·힘·저장량을 크게 줄이거나 고갈시키다. 명사 depletion(고갈).",
+     "new": "자원·저장량을 크게 줄이다. 완전히 바닥내는 건 exhaust. 명사 depletion(고갈)."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      10,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "판단·결과가 한쪽으로 기울게 하다. biased는 편향된.",
+     "new": "판단·결과가 한쪽으로 기울게 하다. biased는 편향된. 결과를 왜곡한다는 뜻에서는 skew와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      11,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그림·연주 등으로 표현하다. render a scene(장면을 묘사하다).",
+     "new": "그림·연주 등으로 표현하다. render a scene(장면을 묘사하다). 이 뜻에서는 depict와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      12,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "안전·원칙·신뢰 등을 약화시키거나 위험에 빠뜨리다. compromise safety(안전을 해치다).",
+     "new": "compromise safety = 안전을 해치다. 신뢰·원칙에도 쓴다. 이 뜻에서는 jeopardize와 같다."
+    },
+    {
+     "path": [
+      46,
+      "exercises",
+      4,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "판단·결과가 한쪽으로 기울게 하다. biased는 편향된.",
+     "new": "판단·결과가 한쪽으로 기울게 하다. biased는 편향된. 결과를 왜곡한다는 뜻에서는 skew와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      46,
+      "exercises",
+      5,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Long dry periods {{BLANK}} the lake's water supply.",
+     "new": "Long dry periods can {{BLANK}} the lake's water supply by half."
+    },
+    {
+     "path": [
+      46,
+      "exercises",
+      5,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "오랜 건기는 호수의 물 공급량을 크게 줄여.",
+     "new": "오랜 건기는 호수의 물을 절반으로 줄일 수 있어."
+    },
+    {
+     "path": [
+      46,
+      "exercises",
+      5,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "자원·힘·저장량을 크게 줄이거나 고갈시키다. 명사 depletion(고갈).",
+     "new": "자원·저장량을 크게 줄이다. 완전히 바닥내는 건 exhaust. 명사 depletion(고갈)."
+    },
+    {
+     "path": [
+      46,
+      "exercises",
+      6,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "안전·원칙·신뢰 등을 약화시키거나 위험에 빠뜨리다. compromise safety(안전을 해치다).",
+     "new": "compromise safety = 안전을 해치다. 신뢰·원칙에도 쓴다. 이 뜻에서는 jeopardize와 같다."
+    },
+    {
+     "path": [
+      46,
+      "exercises",
+      7,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "행동을 제한하는 조건. 시간·예산 부족에는 constraint, 규정으로 정한 제한에는 restriction을 주로 써.",
+     "new": "시간·예산 부족은 constraint, 규정으로 정한 제한은 restriction. limitation과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      46,
+      "exercises",
+      8,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "exempt A from B는 A에게 B의 의무를 면제하다.",
+     "new": "exempt A from B: A에게 B를 면제하다. excuse A from B도 비슷하지만 exempt가 더 공식적이다."
+    },
+    {
+     "path": [
+      47,
+      "exercises",
+      8,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "depend on(의존하다)→dependence on(의존). 명사가 되어도 on 관계가 이어져.",
+     "new": "depend on→dependence on. 명사가 되어도 on이 이어져. dependency도 같은 뜻으로 써."
+    },
+    {
+     "path": [
+      47,
+      "exercises",
+      10,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "awe(경외감)+-some(그런 성질의). 본래 경외감을 자아내는. 일상에서는 멋진.",
+     "new": "awe(경외감)+-some(그런 성질의). 본래 경외감을 자아내는. 일상 칭찬으로는 amazing과 같아."
+    },
+    {
+     "path": [
+      47,
+      "exercises",
+      11,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "hardly는 ‘열심히’가 아니라 거의 없음을 나타내. work hard와 구별해.",
+     "new": "hardly는 '열심히'가 아니라 '거의 ~않다'. work hard와 구별해. barely와 바꿔 쓸 수 있어."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      1,
+      "words",
+      0,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "통일하다, 하나로 합치다",
+     "new": "통일하다, 하나로 통합하다"
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      1,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "라틴어 unus(하나)+-fy(~하게 만들다). 여러 부분을 하나로 통합하다.",
+     "new": "unus(하나)+-fy(~하게 만들다). 하나의 체계로 통합하다. 이 문장에선 unite·merge도 쓸 수 있어."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      5,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "ceed-는 가다. 뒤따라가다에서 후임이 되다로 이어져. succeed A as B.",
+     "new": "ceed-는 가다. 뒤따라가다→후임이 되다. succeed A as B. 이 문장에선 replace도 가능해."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      7,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "fac-/fect-는 하다·만들다. effect는 작용해서 생긴 결과·영향.",
+     "new": "fac-/fect-는 하다·만들다. effect는 작용해서 생긴 결과·영향. 이 뜻에서는 impact와 바꿔 쓸 수 있어."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      8,
+      "words",
+      3,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "수반하다, 포함하다",
+     "new": "수반하다, (일에) 따르다"
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      8,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "in-(안으로)+volvere(말다)→안에 감싸다. involve doing: ~하는 일을 수반하다.",
+     "new": "in-(안으로)+volvere(말다). 일에 필연적으로 따르는 것. 이 문장에선 include도 쓸 수 있어."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      10,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "라틴어 specere(보다) 계열. inspect는 자세히 검사하다. in-은 부정이 아니야.",
+     "new": "라틴어 specere(보다) 계열. in-은 부정이 아니야. 이 문장에선 examine과 바꿔 쓸 수 있어."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      10,
+      "words",
+      5,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "~일 것이라고 생각하다, 추측하다",
+     "new": "(좋지 않은 일을) ~일 것이라고 짐작하다"
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      10,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "spic-/spect-는 보다. suspect that: 충분한 증거 없이 ~일 것이라고 생각하다.",
+     "new": "spect-는 보다. 증거 없이 ~라고 의심하다. suppose와 달리 좋지 않은 일을 짐작할 때 써."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      12,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "라틴어 audire(듣다) 계열. video는 영상, audio는 소리.",
+     "new": "라틴어 audire(듣다) 계열. video는 영상, audio는 소리. 이 문장에서는 sound와 바꿔 쓸 수 있어."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      12,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "pro-(앞으로)+vocare(부르다). 특히 분노·논쟁 같은 반응을 일으키다.",
+     "new": "pro-(앞으로)+vocare(부르다). 특히 분노·논쟁 같은 반응을 일으키다. 이 문장에서는 trigger도 쓸 수 있어."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      13,
+      "words",
+      3,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "분별 있는, 합리적인",
+     "new": "분별 있는, 현명한"
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      13,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "sens-(느끼다·판단하다) 계열. sensible은 분별 있는, sensitive는 민감한.",
+     "new": "sens-(느끼다·판단하다) 계열. sensitive(민감한)와 구별해. 이 문장에선 rational도 쓸 수 있어."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      16,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "라틴어 liber(자유로운) 계열. library의 liber(책)와 다른 말.",
+     "new": "라틴어 liber(자유로운) 계열. library의 liber(책)와 다른 말. freedom과 바꿔 쓸 수 있어."
+    },
+    {
+     "path": [
+      49,
+      "exercises",
+      1,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "미래 시점의 in+시간: 지금부터 그 시간이 지난 뒤.",
+     "new": "미래 시점의 in+시간: 지금부터 그 시간이 지난 뒤. 지금부터 15분 뒤는 after가 아니라 in."
+    },
+    {
+     "path": [
+      49,
+      "exercises",
+      1,
+      "words",
+      2,
+      "acceptedAnswers",
+      0
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": "after"
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson00.json": {
+   "beforeHash": "97edf0a9abd6f30a3270281ba62080ca69c7c8426bd0db1ea510b52376f4320d",
+   "afterHash": "a98c22fd9336ebbcdb1301e412d2135080f0613bcd6dea98408d7369e09954dd"
+  },
+  "pipeline/out/lesson02.json": {
+   "beforeHash": "e6872ce704bbf0355d788eb85870fc3d3f917caf333f32791b2294dcdb848fd8",
+   "afterHash": "55390003e4effd54bb2f69b2efbf6f84278cc46a357cb291b98eff441ec193c8"
+  },
+  "pipeline/out/lesson03.json": {
+   "beforeHash": "57aec29d22539fec3e2abf329f78a6d8f8e30a9b295e35829fbd667475a29cc6",
+   "afterHash": "d0548e6e62746ff7a17394bb67698aa9e257b4da6bc70dd01bd3075779f501d6"
+  },
+  "pipeline/out/lesson04.json": {
+   "beforeHash": "ea7c4e2482259d4aaae8bb0bd11a94fedb7abb1e8c78d985e06416058d1a2729",
+   "afterHash": "637e8a3cbf7567e5f741260c24550edd902953e4013a9221527d52e82b8bd291"
+  },
+  "pipeline/out/set05.json": {
+   "beforeHash": "e1f33bf577b74c99fd9828dd0059fc67864f5174f41856f0483983a37f85efe6",
+   "afterHash": "a0d4e2093175aec640a53576236094dc86cd912e44a649e58c4167b276605b66"
+  },
+  "pipeline/out/set07.json": {
+   "beforeHash": "5e2e20606fa3424d4a4d34c0e503402e83eb04e24d0112adcea73fce98a8248d",
+   "afterHash": "20db325827e8acb2f081b453ab9533da504a07dbc8dea0c5f0be20ed9ab138db"
+  },
+  "pipeline/out/set08.json": {
+   "beforeHash": "58d9b32a2f8cb9c47b72f6b522467c98f7a6f493a24f7a712c58799acb478a1b",
+   "afterHash": "e6d0978e0b75102e18d1f63ac9f49a36eb5fff96e5fe802800564dca89e827f5"
+  },
+  "pipeline/out/set09.json": {
+   "beforeHash": "328231de5437c67de53c065f27f41b86f60317378fd7574633cf6be62cc72243",
+   "afterHash": "26387d24e83107b7b443e80b608b176fc29c6a332a6afa2ce9edd49177dabaf1"
+  },
+  "pipeline/out/set10.json": {
+   "beforeHash": "cff8b566b71aaa58bcff67299d9a5bb1df17df6f11a89f1ecb4422e7c54e5836",
+   "afterHash": "1921f498d2516fee33fb96e089326901b6ec06ed32c57f4d51f95c73d12d3076"
+  },
+  "pipeline/out/set11.json": {
+   "beforeHash": "129449fa8c9ff6c80361fec988c58d946ef803c0de302f88fd78684268a2030f",
+   "afterHash": "f9cc428bf2e39b7968522b306bc92d1fd6eb39ebbff6e8937a7bc615a40942d7"
+  },
+  "pipeline/out/set13.json": {
+   "beforeHash": "37cb8f4615443caf1f8d71ec469d8842e51563057f297854c9b552c6170f9059",
+   "afterHash": "a7f3f837561e106519850a659a296188bce88af977e0ee8c7a655266fec7b7a7"
+  },
+  "pipeline/out/set14.json": {
+   "beforeHash": "d8188cfe4cb0332d321704f0ae2a22ca0893e2240e7767b3ef4493491d0a1121",
+   "afterHash": "7487e3687c98bc4524711998b8c2323338480c94b279890e36623aba49eb719c"
+  },
+  "pipeline/out/set15.json": {
+   "beforeHash": "ea2f0c6fc785e7fa56fde5ce77c1a9b153eac1815e3464fde797b5d4ad52e843",
+   "afterHash": "3651daa872b90d54dba35a169e5f58a07af6e0a4e0752bf8c83ed48d108d54f0"
+  },
+  "pipeline/out/set16.json": {
+   "beforeHash": "f5696f0ce8364334f31b7f6cee547a196b261699467f89ad9bba9af80872a27a",
+   "afterHash": "b7f59ab8b4b7df78c4cb58478e1cd84eef218e87b659b70469b3ec4dbb7a7760"
+  },
+  "pipeline/out/set17.json": {
+   "beforeHash": "b8d8f3ca9087bfef792a27b20db694748eb95c2c75c3518e7de22e44ff9d6506",
+   "afterHash": "65332fae60f7be410184f6ede383eb2dba61009ba1321c80ddb2e1ff0deabedc"
+  },
+  "pipeline/out/set18.json": {
+   "beforeHash": "1f182cb5152ea4a12ff3a8f17c7786e4fb528e86c63759cc3c8a66783509c66a",
+   "afterHash": "1dc99818630ff6ac743971095f4f766b964ffb0765e74f67f88cf958a54c3d04"
+  },
+  "pipeline/out/set19.json": {
+   "beforeHash": "37ca7360053f769f0b0a5f4cdb543ca6660cfc507725ca12045acbd872750654",
+   "afterHash": "c975b845f5f44393d5ff7b5fe981b4400438ff0db1307c2935dc0f707ad4b5a5"
+  },
+  "pipeline/out/set20.json": {
+   "beforeHash": "66b9e0da5c71002be881552d7c3f41211e62c09a50623c99274cbc3f3ca2a0e8",
+   "afterHash": "861c1a1e8e2e512710b4848f5511b13e95b3e331d1fba77fac457d7a84d99dca"
+  },
+  "pipeline/out/set22.json": {
+   "beforeHash": "590644ea99ba62eaccc854b67b36b931d6b025059a6ef915f3e59fdc344b0eeb",
+   "afterHash": "2e15b6a6a7852887452d6e3549ba9203fa415d9a0595cb0f6edce2bdb54d7356"
+  },
+  "pipeline/out/set24.json": {
+   "beforeHash": "d8593780b2708c09354aa54f7427411ff435ce49f34ae494c3992572dfca440b",
+   "afterHash": "434f90ac47d7e5e10b4ef046f172dc9b1d06619b236a80b6777f5553e22b8f24"
+  },
+  "pipeline/out/set28.json": {
+   "beforeHash": "a691a40320313639504a38fff5f7887b62eb2d812c569c5a07383ae4abdecd5b",
+   "afterHash": "009506cdbe95c68a3f91611fb30f5a770ee1a4c89091c52f43fed0d11048d59d"
+  },
+  "pipeline/out/set29.json": {
+   "beforeHash": "aea65cd1ca741c6ff15881db3891cb8df5fce138d0b461a99daeac396cf34ef8",
+   "afterHash": "2e128eee9a04a989fb70baf4374ccd971188f4fbf24a79716a00da28f532ff5d"
+  },
+  "pipeline/out/set31.json": {
+   "beforeHash": "890602888ca8a4c896ec1649610c97b33ff9a3ef452d9d58b234aca7f39407ed",
+   "afterHash": "dad00d95a5ca88400212a15ab18e00f879c5267b22c70ca0b9ee5c77814a7f6a"
+  },
+  "pipeline/out/set34.json": {
+   "beforeHash": "d5db5d773ad485c99f1fee6237f9f794740ba9048069757c1116654a405ff450",
+   "afterHash": "83181785a06e6b391efc707b187b8db405fa483ca3032eef0f0bda35101bcb32"
+  },
+  "pipeline/out/set38.json": {
+   "beforeHash": "5800f25b49893aa5a794b576f5425f77ce526a9242ee10a3f0d0e5dada5fb85d",
+   "afterHash": "634bda5ec89fc43dce0aa0b337c73d027d4e0129384848316484179cd966460e"
+  },
+  "pipeline/out/set42.json": {
+   "beforeHash": "85f83012246cf58fe1ddbe034cbaccf4d7afc87064ef6d10041f9ca05e7cd78a",
+   "afterHash": "2783fa5297654386f18e7239c326b4071ff256e99266fe58e4a6fe34fdfd10de"
+  },
+  "pipeline/out/set43.json": {
+   "beforeHash": "9e8b5f4ce02c0f2b1a0779d09103adadef158ac3282039933d140e5eebb2c72e",
+   "afterHash": "74d55acf9d9f63bffd70e3e6bf2e921a3814ad25dd84ea72a55fac9b928a3744"
+  },
+  "pipeline/out/set45.json": {
+   "beforeHash": "ccf04e1f926a01b11b35d5526705a02f71e73016f0fa21f3d6e85c25813650d5",
+   "afterHash": "9127a5040c4a5fc303c1c332094df02b741844ea809a1248dee1bdf21ad23e40"
+  },
+  "pipeline/out/set46.json": {
+   "beforeHash": "d94480eed60dc3e3078b3a0d12db1e4fd5822b6900972a9e5cd110f584d39b38",
+   "afterHash": "eea44f1cc729d85cce5298a1994811ee9d8e06219eb489ee7410a1bb9e03f136"
+  },
+  "pipeline/out/set47.json": {
+   "beforeHash": "9d549dd058f7ef3defd790969eea45f665e35071f87bebf36857711093e89949",
+   "afterHash": "80cc4ad68d89f308cdb875563b2a349ce14a6f823fb7597caa82f3a89a46968d"
+  },
+  "pipeline/out/set48.json": {
+   "beforeHash": "eab0b81c4198601bc24714e0c9de7f5bbb6999d591e6e3da8bacdae7bb07f3ed",
+   "afterHash": "5406e10baf74646cd0d454d005540669b12f2c9accfb77c092c564fd440185f9"
+  },
+  "pipeline/out/set49.json": {
+   "beforeHash": "2540236d5d6e60c97df4d5c3f4b76e5d397fc5f01c74ccae505d0dd93cb47d44",
+   "afterHash": "e7243ebbe5443fd828bd19c719eae4939dd4deff20de387f5e3292a19d6b3a55"
+  },
+  "pipeline/morphology.json": {
+   "beforeHash": "65bef9a2ee6fe7fde275d6cc7d4618026cec28b366a39b6f0689397aaf97e1a8",
+   "afterHash": "932beb5cd37f6cd4b7089cce8bc2ef43f54ea1b77319209a4e6153d00e8ded27"
+  },
+  "pipeline/connections.json": {
+   "beforeHash": "afbe3c5855606e64c0bc6fa9c01829ec7717318d65bf3193c2ddd5779590bef8",
+   "afterHash": "705846ed63fa9fe163101104f73c1aec5732eb3f194b8da8164ff829665e99b9"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson00.json": [
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     15,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "November, 큰 시험 앞에서도 고양이는 도망 안 간다고양.",
+    "new": "November, 수능 달이라고양. 여기서 꼬리 내리면 비웃어 준다고양."
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     3,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "변기 자체를 말할 땐 미국에서도 toilet이 맞다고양.",
+    "new": "변기는 미국서도 toilet이라고양. 화장실 찾을 땐 bathroom이라고양."
+   },
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     5,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "boring은 지루하게 만들고, bored는 지루함을 느낀다고양. I'm boring이면 네가 남을 지루하게 한다고양.",
+    "new": "boring은 영화, bored는 너라고양. I'm boring이면 네가 노잼이라고양."
+   },
+   {
+    "path": [
+     "exercises",
+     10,
+     "words",
+     7,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "② 실현하다, 이루다",
+    "new": "② (꿈·계획을) 실현하다"
+   },
+   {
+    "path": [
+     "exercises",
+     10,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "꿈·목표를 현실로 이루는 뜻. 알아차리다와 구별하자.",
+    "new": "꿈·계획을 현실로 만드는 뜻. 알아차리다와 구별하자. 이 뜻에서는 achieve·fulfill과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     10,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "말뿐 아니라 행동·몸의 변화로 나타나는 반응도 response.",
+    "new": "말뿐 아니라 행동·표정으로 보이는 반응도 response. 이 뜻에서는 reaction과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     13,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "implication in a crime은 범죄에 연루됨. 이 뜻은 보통 불가산.",
+    "new": "범죄에 연루됨. 이 뜻은 보통 불가산. involvement와 바꿔 쓸 수 있고, 그쪽이 더 흔하다."
+   },
+   {
+    "path": [
+     "exercises",
+     13,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "행동을 제한하는 조건. 시간·예산 부족에는 constraint, 규정으로 정한 제한에는 restriction을 주로 써.",
+    "new": "시간·예산 부족은 constraint, 규정으로 정한 제한은 restriction. limitation과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     13,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "exempt A from B는 A에게 B의 의무를 면제하다.",
+    "new": "exempt A from B: A에게 B를 면제하다. excuse A from B도 비슷하지만 exempt가 더 공식적이다."
+   },
+   {
+    "path": [
+     "exercises",
+     15,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Long dry periods {{BLANK}} the lake's water supply.",
+    "new": "Long dry periods can {{BLANK}} the lake's water supply by half."
+   },
+   {
+    "path": [
+     "exercises",
+     15,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "오랜 건기는 호수의 물 공급량을 크게 줄여.",
+    "new": "오랜 건기는 호수의 물을 절반으로 줄일 수 있어."
+   },
+   {
+    "path": [
+     "exercises",
+     15,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "자원·힘·저장량을 크게 줄이거나 고갈시키다. 명사 depletion(고갈).",
+    "new": "자원·저장량을 크게 줄이다. 완전히 바닥내는 건 exhaust. 명사 depletion(고갈)."
+   },
+   {
+    "path": [
+     "exercises",
+     15,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "판단·결과가 한쪽으로 기울게 하다. biased는 편향된.",
+    "new": "판단·결과가 한쪽으로 기울게 하다. biased는 편향된. 결과를 왜곡한다는 뜻에서는 skew와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     16,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그림·연주 등으로 표현하다. render a scene(장면을 묘사하다).",
+    "new": "그림·연주 등으로 표현하다. render a scene(장면을 묘사하다). 이 뜻에서는 depict와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     17,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "안전·원칙·신뢰 등을 약화시키거나 위험에 빠뜨리다. compromise safety(안전을 해치다).",
+    "new": "compromise safety = 안전을 해치다. 신뢰·원칙에도 쓴다. 이 뜻에서는 jeopardize와 같다."
+   }
+  ],
+  "pipeline/out/lesson02.json": [
+   {
+    "path": [
+     "exercises",
+     3,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In ancient Athenian democracy, only adult male citizens held political {{BLANK}}.",
+    "new": "In ancient Athens, only men could hold political {{BLANK}}."
+   },
+   {
+    "path": [
+     "exercises",
+     3,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "고대 아테네 민주정에서는 성인 남성 시민만 정치적 권력을 행사했어.",
+    "new": "고대 아테네에서는 남자만 정치 권력을 가질 수 있었어."
+   },
+   {
+    "path": [
+     "exercises",
+     3,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "demo-(민중) + -cracy(통치).",
+    "new": "political power = 정치 권력. hold power = 권력을 쥐다."
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In the past, high infant {{BLANK}} rates lowered life expectancy.",
+    "new": "Ancient Egyptians believed life continued after {{BLANK}}."
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "과거에는 높은 영아 사망률이 평균수명을 낮췄어.",
+    "new": "고대 이집트인들은 죽은 뒤에도 삶이 이어진다고 믿었어."
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "평균수명이 낮았다고 모두 그 나이에 죽었다는 뜻은 아니다. die(죽다)·dead(죽은)·death(죽음).",
+    "new": "die(죽다)·dead(죽은)·death(죽음)."
+   }
+  ],
+  "pipeline/out/lesson03.json": [
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "deal with ~(~을 처리하다·상대하다)처럼 쓴다. (불규칙 deal-dealt-dealt)",
+    "new": "deal with ~: ~을 처리하다(deal-dealt-dealt). cope with(힘든 일에 대처하다)도 비슷하다."
+   }
+  ],
+  "pipeline/out/lesson04.json": [
+   {
+    "path": [
+     "exercises",
+     1,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Astronauts use radios in {{BLANK}} because sound cannot travel through a vacuum.",
+    "new": "There is no air in {{BLANK}}, so sound cannot travel there."
+   },
+   {
+    "path": [
+     "exercises",
+     1,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우주비행사들은 우주에서 무전기를 써. 진공에서는 소리가 전달되지 않거든.",
+    "new": "우주에는 공기가 없어서 소리가 전달되지 않아."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "회사 소유권을 나눈 단위. a share = 주식 한 주.",
+    "new": "회사 소유권을 나눈 한 주가 a share. 주가는 stock prices라고도 하고, 미국에선 그쪽이 더 흔하다."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This bus can {{BLANK}} forty people.",
+    "new": "This bottle can {{BLANK}} two liters of water."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 버스는 마흔 명을 태울 수 있어.",
+    "new": "이 병에는 물이 2리터 들어가."
+   },
+   {
+    "path": [
+     "exercises",
+     8,
+     "words",
+     16,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "sound advice = 타당한 조언. sound는 상태가 튼튼하다는 뜻도 있다.",
+    "new": "sound advice = 타당한 조언. 이 뜻에서는 solid·valid도 비슷하게 쓴다."
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     7,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "bill, 청구서도 지폐도 법안도 다 같은 단어라고양. 법안은 돈 얘기가 아닐 수도 있다고양.",
+    "new": "청구서도 지폐도 법안도 다 bill이라고양. 지갑 열 때마다 이 단어 보게 될 거라고양."
+   }
+  ],
+  "pipeline/out/set05.json": [
+   {
+    "path": [
+     0,
+     "words",
+     1,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "오늘의 해를 말할 땐 the sun이라고양. 어느 해인지 서로 안다고양.",
+    "new": "해는 하나뿐이라 the sun이라고양. 해가 두 개로 보이면 문법 말고 눈을 걱정하라고양."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "과거가 아니라 공손 모드. Can you~?보다 정중한 부탁.",
+    "new": "과거가 아니라 공손 모드. Can you~?보다 정중한 부탁. Would you~?도 같은 정중한 부탁이다."
+   }
+  ],
+  "pipeline/out/set07.json": [
+   {
+    "path": [
+     0,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "미국 회화의 I figure (that)는 '~라고 생각해'. out 없이도 동사로 쓴다.",
+    "new": "미국 회화의 I figure (that)는 '~라고 생각해'. out 없이도 동사로 쓴다. 영국 구어 I reckon도 같은 뜻."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     12,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "A tall {{BLANK}} stood near the door.",
+    "new": "She keeps a slim {{BLANK}} by swimming every day."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "키 큰 사람이 문 근처에 서 있었어.",
+    "new": "그녀는 매일 수영해서 날씬한 몸매를 유지해."
+   }
+  ],
+  "pipeline/out/set08.json": [
+   {
+    "path": [
+     1,
+     "words",
+     15,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "committee, 위원회. m·t·e가 두 개씩이라고양.",
+    "new": "committee, m·t·e 두 개씩이라고양. 빠뜨리면 위원회에서 쫓겨난다고양."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "be central to ~: ~에서 핵심이다.",
+    "new": "be central to ~: ~에서 핵심이다. crucial to(결정적으로 중요한)도 비슷하게 쓴다."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     9,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Be careful not to {{BLANK}} over that bag.",
+    "new": "I {{BLANK}}ped over a stone and fell."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 가방에 발이 걸려 넘어지지 않게 조심해.",
+    "new": "나는 돌에 걸려 넘어졌어."
+   }
+  ],
+  "pipeline/out/set09.json": [
+   {
+    "path": [
+     9,
+     "words",
+     10,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "② 잘못 알다, 혼동하다",
+    "new": "② (A를 B로) 잘못 알다, 착각하다"
+   },
+   {
+    "path": [
+     9,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "mistake A for B: A를 B로 잘못 알다. 과거 mistook.",
+    "new": "mistake A for B: A를 B로 잘못 알다. 과거 mistook. confuse A with B(혼동하다)와 구별."
+   }
+  ],
+  "pipeline/out/set10.json": [
+   {
+    "path": [
+     8,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "chief reason은 주된 이유.",
+    "new": "chief reason은 주된 이유. major·main과 비슷하지만 chief는 여럿 중 으뜸인 하나다."
+   }
+  ],
+  "pipeline/out/set11.json": [
+   {
+    "path": [
+     5,
+     "words",
+     0,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "clothes는 옷이라고양. th를 살짝 내거나 생략해도 된다고양.",
+    "new": "clothes에서 혀 꼬이면 그냥 [클로즈]라고양. 원어민도 그런다고양."
+   }
+  ],
+  "pipeline/out/set13.json": [
+   {
+    "path": [
+     9,
+     "words",
+     9,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "여기까지 꾸준히 왔다면 이미 반은 succeed, 성공이라고양. 나머지도 가 보자고양.",
+    "new": "반은 succeed했다고양. 남은 반에서 넘어지면 실컷 웃어 준다고양."
+   }
+  ],
+  "pipeline/out/set14.json": [
+   {
+    "path": [
+     2,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "비가 아주 세게 오는 것. It’s pouring.",
+    "new": "비가 아주 세게 오는 것. It’s pouring. 그냥 비가 오면 rain, 세차게 쏟아지면 pour."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "주로 남자를 가리키는 비격식 명사.",
+    "new": "주로 남자를 친근하게 이르는 비격식 명사. 이 문장에는 person도 들어간다."
+   }
+  ],
+  "pipeline/out/set15.json": [
+   {
+    "path": [
+     1,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "편지를 보내다는 미국식 mail a letter, 영국식 post a letter.",
+    "new": "미국식 mail a letter, 영국식 post a letter. send는 그냥 보내다, mail은 우편으로 보내다."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "준비·계획은 make arrangements처럼 복수로 자주 쓴다.",
+    "new": "준비·계획은 make arrangements처럼 복수로 자주 쓴다. make preparations도 같은 뜻이다."
+   }
+  ],
+  "pipeline/out/set16.json": [
+   {
+    "path": [
+     1,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "rank A among ~: A를 ~중에 넣어 평가하다.",
+    "new": "rank A among ~: A를 ~중에 넣어 평가하다. 점수로 평가하는 rate도 비슷하게 쓴다."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     2,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "일산엔 port, 항구가 없어서 배 대신 버스라고양.",
+    "new": "port, 항구라고양. 일산엔 항구가 없으니 도망칠 배도 없다고양."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "슬픔·걱정을 덜어 주다.",
+    "new": "슬픔·걱정을 덜어 주다. console도 같은 뜻의 격식어."
+   }
+  ],
+  "pipeline/out/set17.json": [
+   {
+    "path": [
+     4,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "격식 있는 말. 말할 땐 보통 exam이나 test. 병원 검사·조사에도 쓴다.",
+    "new": "격식 있는 말. 병원 진찰은 일상에서 checkup이나 exam이라고도 한다."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "hunt for ~: ~을 애써 찾아다니다.",
+    "new": "hunt for ~: ~을 애써 찾아다니다. look for와 바꿔 쓸 수 있고, hunt는 여기저기 뒤지는 느낌이다."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     8,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "털 고를 땐 혀가 brush, 솔이라고양. 오늘도 단장하느라 바쁘고양.",
+    "new": "고양이 혀는 털 고르는 brush라고양. 너도 그 머리 좀 brush 하고 오라고양."
+   }
+  ],
+  "pipeline/out/set18.json": [
+   {
+    "path": [
+     0,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "stem from ~: ~에서 비롯되다. 줄기가 뿌리에서 자라듯 원인을 나타내는 표현.",
+    "new": "stem from ~: ~에서 비롯되다. 줄기가 뿌리에서 자라듯 원인을 말한다. come from과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "stem+대상: 흐름이나 확산을 멈추거나 줄이다.",
+    "new": "stem+대상: 흐름이나 확산을 막다. 이 뜻에서는 stop과 바꿔 쓸 수 있다(stem이 더 격식)."
+   }
+  ],
+  "pipeline/out/set19.json": [
+   {
+    "path": [
+     6,
+     "words",
+     12,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "② (크림·달걀을) 휘젓다",
+    "new": "② (크림·달걀을) 휘저어 거품을 내다"
+   },
+   {
+    "path": [
+     6,
+     "words",
+     12,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "{{BLANK}} the cream before serving the cake.",
+    "new": "{{BLANK}} the cream until it becomes thick."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "케이크를 내놓기 전에 크림을 휘저어 거품을 내.",
+    "new": "크림이 걸쭉해질 때까지 휘저어."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "빠르게 저어 공기를 넣다. whipped cream은 휘핑크림.",
+    "new": "빠르게 저어 거품을 내다. 크림은 whip이 대표적이고 beat도 쓴다. 그냥 젓는 건 stir."
+   }
+  ],
+  "pipeline/out/set20.json": [
+   {
+    "path": [
+     8,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "수나 양이 크게 늘거나 늘게 하다. 곱셈 뜻에서 연결된다.",
+    "new": "곱셈에서 온 뜻으로, 몇 배로 불어나는 느낌이다. 이 뜻에서는 increase와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set22.json": [
+   {
+    "path": [
+     3,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Use a {{BLANK}} noun after these.",
+    "new": "Use a {{BLANK}} noun after 'these'."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     2,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "sting, 벌에 쏘이면 아프다고양. 함부로 건드리지 말라고양.",
+    "new": "꿀벌은 한 번 sting 하면 죽는다고양. 너는 틀려도 안 죽으니 다시 하라고양."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     14,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "I slept {{BLANK}} on the train.",
+    "new": "Of all the nights on our trip, I slept {{BLANK}} on the train."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     14,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "나는 기차에서 잠을 가장 못 잤어.",
+    "new": "여행 중에 기차에서 잔 날 잠을 제일 못 잤어."
+   }
+  ],
+  "pipeline/out/set24.json": [
+   {
+    "path": [
+     0,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Please {{BLANK}} these letters by date.",
+    "new": "Please {{BLANK}} this letter under 'Bills.'"
+   },
+   {
+    "path": [
+     0,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 편지들을 날짜별로 정리해 보관해 줘.",
+    "new": "이 편지를 '청구서' 항목에 정리해 넣어 줘."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "문서 등을 쉽게 찾도록 분류해 넣어 두다.",
+    "new": "문서 등을 쉽게 찾도록 분류해 넣어 두다. 단순히 분류만 하는 것은 sort."
+   }
+  ],
+  "pipeline/out/set28.json": [
+   {
+    "path": [
+     4,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "memory(기억)와 한 뿌리. a memorial service는 추도식.",
+    "new": "memory(기억)와 한 뿌리. 죽은 이를 기리는 기념물. monument는 기념비 일반."
+   }
+  ],
+  "pipeline/out/set29.json": [
+   {
+    "path": [
+     2,
+     "words",
+     1,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "robot, 로봇처럼 치기만 말고 뜻도 떠올리라고양.",
+    "new": "뜻 생각 없이 손가락만 놀리면 너도 robot이라고양."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     14,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "정보·지식 등을 머릿속에 받아들여 이해하다.",
+    "new": "정보·지식 등을 머릿속에 받아들여 이해하다. 이 뜻에서는 digest와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set31.json": [
+   {
+    "path": [
+     4,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "사고 등으로 몸에 입은 심각한 손상. 정신적 충격과 구별한다.",
+    "new": "사고 등으로 몸에 입은 심각한 손상. 정신적 충격과 구별한다. 이 뜻에서는 injury와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The teacher set clear {{BLANK}}s for our project.",
+    "new": "We have to work within the {{BLANK}}s of our budget."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "선생님이 우리 과제에 분명한 기준을 정해 주셨어.",
+    "new": "우리는 예산이 정한 범위 안에서 일해야 해."
+   }
+  ],
+  "pipeline/out/set34.json": [
+   {
+    "path": [
+     3,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "미국식 과거형은 보통 spit. spit out은 '뱉어 내다, 내뱉듯 말하다'.",
+    "new": "과거형·과거분사는 spat. 미국에서는 spit도 쓴다. spit out은 '뱉어 내다, 내뱉듯 말하다'."
+   }
+  ],
+  "pipeline/out/set38.json": [
+   {
+    "path": [
+     2,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "probe into ~를 깊이 파헤치다. 명사로 '조사'도 된다.",
+    "new": "probe into ~를 깊이 파헤치다. 명사로 '조사'도 된다. 이 뜻에서는 delve into와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set42.json": [
+   {
+    "path": [
+     7,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The temple was built {{BLANK}} eight hundred.",
+    "new": "The temple was built {{BLANK}} AD 800."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 절은 800년경에 지어졌어.",
+    "new": "그 절은 서기 800년경에 지어졌어."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "impatient to do(~을 어서 하고 싶은), impatient for(~을 간절히 기다리는).",
+    "new": "impatient to do/for: 어서 하고 싶어 조바심 내는. desperate to도 비슷하게 쓴다."
+   }
+  ],
+  "pipeline/out/set43.json": [
+   {
+    "path": [
+     6,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "implicit trust/faith(전적인 신뢰). 아무런 의심이나 유보가 없다는 뜻.",
+    "new": "implicit trust(전적인 신뢰): 의심 없이 믿는 것. 이 뜻에서는 complete·absolute와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set45.json": [
+   {
+    "path": [
+     5,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "To go is an {{BLANK}} in this sentence.",
+    "new": "In 'I want to go,' 'to go' is an {{BLANK}}."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 문장에서 To go가 부정사야.",
+    "new": "'I want to go'에서 'to go'는 부정사야."
+   }
+  ],
+  "pipeline/out/set46.json": [
+   {
+    "path": [
+     4,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "판단·결과가 한쪽으로 기울게 하다. biased는 편향된.",
+    "new": "판단·결과가 한쪽으로 기울게 하다. biased는 편향된. 결과를 왜곡한다는 뜻에서는 skew와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Long dry periods {{BLANK}} the lake's water supply.",
+    "new": "Long dry periods can {{BLANK}} the lake's water supply by half."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "오랜 건기는 호수의 물 공급량을 크게 줄여.",
+    "new": "오랜 건기는 호수의 물을 절반으로 줄일 수 있어."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "자원·힘·저장량을 크게 줄이거나 고갈시키다. 명사 depletion(고갈).",
+    "new": "자원·저장량을 크게 줄이다. 완전히 바닥내는 건 exhaust. 명사 depletion(고갈)."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "안전·원칙·신뢰 등을 약화시키거나 위험에 빠뜨리다. compromise safety(안전을 해치다).",
+    "new": "compromise safety = 안전을 해치다. 신뢰·원칙에도 쓴다. 이 뜻에서는 jeopardize와 같다."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "행동을 제한하는 조건. 시간·예산 부족에는 constraint, 규정으로 정한 제한에는 restriction을 주로 써.",
+    "new": "시간·예산 부족은 constraint, 규정으로 정한 제한은 restriction. limitation과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "exempt A from B는 A에게 B의 의무를 면제하다.",
+    "new": "exempt A from B: A에게 B를 면제하다. excuse A from B도 비슷하지만 exempt가 더 공식적이다."
+   }
+  ],
+  "pipeline/out/set47.json": [
+   {
+    "path": [
+     8,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "depend on(의존하다)→dependence on(의존). 명사가 되어도 on 관계가 이어져.",
+    "new": "depend on→dependence on. 명사가 되어도 on이 이어져. dependency도 같은 뜻으로 써."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "awe(경외감)+-some(그런 성질의). 본래 경외감을 자아내는. 일상에서는 멋진.",
+    "new": "awe(경외감)+-some(그런 성질의). 본래 경외감을 자아내는. 일상 칭찬으로는 amazing과 같아."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "hardly는 ‘열심히’가 아니라 거의 없음을 나타내. work hard와 구별해.",
+    "new": "hardly는 '열심히'가 아니라 '거의 ~않다'. work hard와 구별해. barely와 바꿔 쓸 수 있어."
+   }
+  ],
+  "pipeline/out/set48.json": [
+   {
+    "path": [
+     1,
+     "words",
+     0,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "통일하다, 하나로 합치다",
+    "new": "통일하다, 하나로 통합하다"
+   },
+   {
+    "path": [
+     1,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "라틴어 unus(하나)+-fy(~하게 만들다). 여러 부분을 하나로 통합하다.",
+    "new": "unus(하나)+-fy(~하게 만들다). 하나의 체계로 통합하다. 이 문장에선 unite·merge도 쓸 수 있어."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "ceed-는 가다. 뒤따라가다에서 후임이 되다로 이어져. succeed A as B.",
+    "new": "ceed-는 가다. 뒤따라가다→후임이 되다. succeed A as B. 이 문장에선 replace도 가능해."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "fac-/fect-는 하다·만들다. effect는 작용해서 생긴 결과·영향.",
+    "new": "fac-/fect-는 하다·만들다. effect는 작용해서 생긴 결과·영향. 이 뜻에서는 impact와 바꿔 쓸 수 있어."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     3,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "수반하다, 포함하다",
+    "new": "수반하다, (일에) 따르다"
+   },
+   {
+    "path": [
+     8,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "in-(안으로)+volvere(말다)→안에 감싸다. involve doing: ~하는 일을 수반하다.",
+    "new": "in-(안으로)+volvere(말다). 일에 필연적으로 따르는 것. 이 문장에선 include도 쓸 수 있어."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "라틴어 specere(보다) 계열. inspect는 자세히 검사하다. in-은 부정이 아니야.",
+    "new": "라틴어 specere(보다) 계열. in-은 부정이 아니야. 이 문장에선 examine과 바꿔 쓸 수 있어."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     5,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "~일 것이라고 생각하다, 추측하다",
+    "new": "(좋지 않은 일을) ~일 것이라고 짐작하다"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "spic-/spect-는 보다. suspect that: 충분한 증거 없이 ~일 것이라고 생각하다.",
+    "new": "spect-는 보다. 증거 없이 ~라고 의심하다. suppose와 달리 좋지 않은 일을 짐작할 때 써."
+   },
+   {
+    "path": [
+     12,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "라틴어 audire(듣다) 계열. video는 영상, audio는 소리.",
+    "new": "라틴어 audire(듣다) 계열. video는 영상, audio는 소리. 이 문장에서는 sound와 바꿔 쓸 수 있어."
+   },
+   {
+    "path": [
+     12,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "pro-(앞으로)+vocare(부르다). 특히 분노·논쟁 같은 반응을 일으키다.",
+    "new": "pro-(앞으로)+vocare(부르다). 특히 분노·논쟁 같은 반응을 일으키다. 이 문장에서는 trigger도 쓸 수 있어."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     3,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "분별 있는, 합리적인",
+    "new": "분별 있는, 현명한"
+   },
+   {
+    "path": [
+     13,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "sens-(느끼다·판단하다) 계열. sensible은 분별 있는, sensitive는 민감한.",
+    "new": "sens-(느끼다·판단하다) 계열. sensitive(민감한)와 구별해. 이 문장에선 rational도 쓸 수 있어."
+   },
+   {
+    "path": [
+     16,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "라틴어 liber(자유로운) 계열. library의 liber(책)와 다른 말.",
+    "new": "라틴어 liber(자유로운) 계열. library의 liber(책)와 다른 말. freedom과 바꿔 쓸 수 있어."
+   }
+  ],
+  "pipeline/out/set49.json": [
+   {
+    "path": [
+     1,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "미래 시점의 in+시간: 지금부터 그 시간이 지난 뒤.",
+    "new": "미래 시점의 in+시간: 지금부터 그 시간이 지난 뒤. 지금부터 15분 뒤는 after가 아니라 in."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     2,
+     "acceptedAnswers",
+     0
+    ],
+    "oldExists": true,
+    "newExists": false,
+    "old": "after"
+   }
+  ],
+  "pipeline/morphology.json": [
+   {
+    "path": [
+     "units",
+     18,
+     "cards",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "depend on(의존하다)→dependence on(의존). 명사가 되어도 on 관계가 이어져.",
+    "new": "depend on→dependence on. 명사가 되어도 on이 이어져. dependency도 같은 뜻으로 써."
+   },
+   {
+    "path": [
+     "units",
+     25,
+     "cards",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "hardly는 ‘열심히’가 아니라 거의 없음을 나타내. work hard와 구별해.",
+    "new": "hardly는 '열심히'가 아니라 '거의 ~않다'. work hard와 구별해. barely와 바꿔 쓸 수 있어."
+   },
+   {
+    "path": [
+     "units",
+     49,
+     "cards",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "awe(경외감)+-some(그런 성질의). 본래 경외감을 자아내는. 일상에서는 멋진.",
+    "new": "awe(경외감)+-some(그런 성질의). 본래 경외감을 자아내는. 일상 칭찬으로는 amazing과 같아."
+   },
+   {
+    "path": [
+     "units",
+     56,
+     "cards",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "fac-/fect-는 하다·만들다. effect는 작용해서 생긴 결과·영향.",
+    "new": "fac-/fect-는 하다·만들다. effect는 작용해서 생긴 결과·영향. 이 뜻에서는 impact와 바꿔 쓸 수 있어."
+   },
+   {
+    "path": [
+     "units",
+     61,
+     "cards",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "라틴어 specere(보다) 계열. inspect는 자세히 검사하다. in-은 부정이 아니야.",
+    "new": "라틴어 specere(보다) 계열. in-은 부정이 아니야. 이 문장에선 examine과 바꿔 쓸 수 있어."
+   },
+   {
+    "path": [
+     "units",
+     61,
+     "cards",
+     2,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "~일 것이라고 생각하다, 추측하다",
+    "new": "(좋지 않은 일을) ~일 것이라고 짐작하다"
+   },
+   {
+    "path": [
+     "units",
+     61,
+     "cards",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "spic-/spect-는 보다. suspect that: 충분한 증거 없이 ~일 것이라고 생각하다.",
+    "new": "spect-는 보다. 증거 없이 ~라고 의심하다. suppose와 달리 좋지 않은 일을 짐작할 때 써."
+   },
+   {
+    "path": [
+     "units",
+     68,
+     "cards",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "ceed-는 가다. 뒤따라가다에서 후임이 되다로 이어져. succeed A as B.",
+    "new": "ceed-는 가다. 뒤따라가다→후임이 되다. succeed A as B. 이 문장에선 replace도 가능해."
+   },
+   {
+    "path": [
+     "units",
+     93,
+     "cards",
+     0,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "통일하다, 하나로 합치다",
+    "new": "통일하다, 하나로 통합하다"
+   },
+   {
+    "path": [
+     "units",
+     93,
+     "cards",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "라틴어 unus(하나)+-fy(~하게 만들다). 여러 부분을 하나로 통합하다.",
+    "new": "unus(하나)+-fy(~하게 만들다). 하나의 체계로 통합하다. 이 문장에선 unite·merge도 쓸 수 있어."
+   },
+   {
+    "path": [
+     "units",
+     105,
+     "cards",
+     1,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "수반하다, 포함하다",
+    "new": "수반하다, (일에) 따르다"
+   },
+   {
+    "path": [
+     "units",
+     105,
+     "cards",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "in-(안으로)+volvere(말다)→안에 감싸다. involve doing: ~하는 일을 수반하다.",
+    "new": "in-(안으로)+volvere(말다). 일에 필연적으로 따르는 것. 이 문장에선 include도 쓸 수 있어."
+   },
+   {
+    "path": [
+     "units",
+     112,
+     "cards",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "라틴어 audire(듣다) 계열. video는 영상, audio는 소리.",
+    "new": "라틴어 audire(듣다) 계열. video는 영상, audio는 소리. 이 문장에서는 sound와 바꿔 쓸 수 있어."
+   },
+   {
+    "path": [
+     "units",
+     113,
+     "cards",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "pro-(앞으로)+vocare(부르다). 특히 분노·논쟁 같은 반응을 일으키다.",
+    "new": "pro-(앞으로)+vocare(부르다). 특히 분노·논쟁 같은 반응을 일으키다. 이 문장에서는 trigger도 쓸 수 있어."
+   },
+   {
+    "path": [
+     "units",
+     114,
+     "cards",
+     3,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "분별 있는, 합리적인",
+    "new": "분별 있는, 현명한"
+   },
+   {
+    "path": [
+     "units",
+     114,
+     "cards",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "sens-(느끼다·판단하다) 계열. sensible은 분별 있는, sensitive는 민감한.",
+    "new": "sens-(느끼다·판단하다) 계열. sensitive(민감한)와 구별해. 이 문장에선 rational도 쓸 수 있어."
+   },
+   {
+    "path": [
+     "units",
+     122,
+     "cards",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "라틴어 liber(자유로운) 계열. library의 liber(책)와 다른 말.",
+    "new": "라틴어 liber(자유로운) 계열. library의 liber(책)와 다른 말. freedom과 바꿔 쓸 수 있어."
+   }
+  ],
+  "pipeline/connections.json": [
+   {
+    "path": [
+     "entries",
+     9,
+     "ambiguityNote"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "기다릴 15분이 기준이 되는 after fifteen minutes도 이 문장에서 자연스러워 허용한다.",
+    "new": "after는 허용하지 않는다(26.10.08 영신 결정). 지금부터의 미래 시점은 in으로 말하고 after는 쓰지 않는 것이 표준이다(Cambridge Grammar: in ten minutes, not after ten minutes). '~후에'를 after로 옮기는 것이 한국 학습자의 대표 오류라, 이 카드는 바로 그 구별을 가르친다. 이전 메모: 기다릴 15분이 기준이 되는 after fifteen minutes도 이 문장에서 자연스러워 허용한다."
+   },
+   {
+    "path": [
+     "entries",
+     9,
+     "card",
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "미래 시점의 in+시간: 지금부터 그 시간이 지난 뒤.",
+    "new": "미래 시점의 in+시간: 지금부터 그 시간이 지난 뒤. 지금부터 15분 뒤는 after가 아니라 in."
+   },
+   {
+    "path": [
+     "entries",
+     9,
+     "card",
+     "acceptedAnswers",
+     0
+    ],
+    "oldExists": true,
+    "newExists": false,
+    "old": "after"
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson00.json": [],
+  "pipeline/out/lesson02.json": [],
+  "pipeline/out/lesson03.json": [],
+  "pipeline/out/lesson04.json": [],
+  "pipeline/out/set05.json": [],
+  "pipeline/out/set07.json": [],
+  "pipeline/out/set08.json": [],
+  "pipeline/out/set09.json": [],
+  "pipeline/out/set10.json": [],
+  "pipeline/out/set11.json": [],
+  "pipeline/out/set13.json": [],
+  "pipeline/out/set14.json": [],
+  "pipeline/out/set15.json": [],
+  "pipeline/out/set16.json": [],
+  "pipeline/out/set17.json": [],
+  "pipeline/out/set18.json": [],
+  "pipeline/out/set19.json": [],
+  "pipeline/out/set20.json": [],
+  "pipeline/out/set22.json": [],
+  "pipeline/out/set24.json": [],
+  "pipeline/out/set28.json": [],
+  "pipeline/out/set29.json": [],
+  "pipeline/out/set31.json": [],
+  "pipeline/out/set34.json": [],
+  "pipeline/out/set38.json": [],
+  "pipeline/out/set42.json": [],
+  "pipeline/out/set43.json": [],
+  "pipeline/out/set45.json": [],
+  "pipeline/out/set46.json": [],
+  "pipeline/out/set47.json": [],
+  "pipeline/out/set48.json": [],
+  "pipeline/out/set49.json": [],
+  "pipeline/morphology.json": [],
+  "pipeline/connections.json": []
+ }
+}

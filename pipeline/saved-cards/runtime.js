@@ -48,7 +48,7 @@ function savedToggleCurrent(){
     if(typeof armReveal==='function'){
       if(s.revealTimer)clearTimeout(s.revealTimer);
       ipaEffectCancelAdvance();armReveal(w);
-    }else scheduleNext(1200);
+    }else scheduleNext(1500); // 교재의 정상 공개 대기(1500)와 같아야 발음 끝까지 기다린다(26.10.08 복원)
   }else focusAnswerInput();
   return true;
 }

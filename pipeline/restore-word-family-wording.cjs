@@ -21,6 +21,8 @@ function restoreRecorded(value,record){
 }
 function restoreSynonymPolicy(value,kind='DATA'){
  if(kind==='DATA')value=require('./restore-lesson-placement.cjs').restoreLessonPlacement(value);
+ // 26.10.08 Claude 리뷰 층: 47~50세트 메타데이터는 원본 파일(morphology/connections.json)과 같은 값이라 그 원장으로 되돌린다.
+ else if(kind==='MORPHOLOGY'||kind==='CONNECTIONS')value=require('./claude-review-20261008/restore.cjs').restoreClaudeReviewSource20261008(value,'pipeline/'+kind.toLowerCase()+'.json');
  return restoreRecorded(restoreRecorded(value,feedback20261003.snapshots[kind]),synonymPolicy.snapshots[kind]);
 }
 function restorePlayerFeedback(value,kind='DATA'){

@@ -1,0 +1,711 @@
+[
+ {
+  "file": "pipeline/out/lesson04.json",
+  "word": "share",
+  "field": "c",
+  "old": "회사 소유권을 나눈 단위. a share = 주식 한 주.",
+  "new": "회사 소유권을 나눈 한 주가 a share. 주가는 stock prices라고도 하고, 미국에선 그쪽이 더 흔하다."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "response",
+  "field": "c",
+  "old": "말뿐 아니라 행동·몸의 변화로 나타나는 반응도 response.",
+  "new": "말뿐 아니라 행동·표정으로 보이는 반응도 response. 이 뜻에서는 reaction과 바꿔 쓸 수 있다."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "realize",
+  "field": "ko",
+  "old": "② 실현하다, 이루다",
+  "new": "② (꿈·계획을) 실현하다"
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "realize",
+  "field": "c",
+  "old": "꿈·목표를 현실로 이루는 뜻. 알아차리다와 구별하자.",
+  "new": "꿈·계획을 현실로 만드는 뜻. 알아차리다와 구별하자. 이 뜻에서는 achieve·fulfill과 바꿔 쓸 수 있다."
+ },
+ {
+  "file": "pipeline/out/set14.json",
+  "word": "fellow",
+  "field": "c",
+  "old": "주로 남자를 가리키는 비격식 명사.",
+  "new": "주로 남자를 친근하게 이르는 비격식 명사. 이 문장에는 person도 들어간다."
+ },
+ {
+  "file": "pipeline/out/set15.json",
+  "word": "arrangement",
+  "field": "c",
+  "old": "준비·계획은 make arrangements처럼 복수로 자주 쓴다.",
+  "new": "준비·계획은 make arrangements처럼 복수로 자주 쓴다. make preparations도 같은 뜻이다."
+ },
+ {
+  "file": "pipeline/out/set20.json",
+  "word": "multiply",
+  "field": "c",
+  "old": "수나 양이 크게 늘거나 늘게 하다. 곱셈 뜻에서 연결된다.",
+  "new": "곱셈에서 온 뜻으로, 몇 배로 불어나는 느낌이다. 이 뜻에서는 increase와 바꿔 쓸 수 있다."
+ },
+ {
+  "file": "pipeline/out/set31.json",
+  "word": "trauma",
+  "field": "c",
+  "old": "사고 등으로 몸에 입은 심각한 손상. 정신적 충격과 구별한다.",
+  "new": "사고 등으로 몸에 입은 심각한 손상. 정신적 충격과 구별한다. 이 뜻에서는 injury와 바꿔 쓸 수 있다."
+ },
+ {
+  "file": "pipeline/out/set43.json",
+  "word": "implicit",
+  "field": "c",
+  "old": "implicit trust/faith(전적인 신뢰). 아무런 의심이나 유보가 없다는 뜻.",
+  "new": "implicit trust(전적인 신뢰): 의심 없이 믿는 것. 이 뜻에서는 complete·absolute와 바꿔 쓸 수 있다."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "implication",
+  "field": "c",
+  "old": "implication in a crime은 범죄에 연루됨. 이 뜻은 보통 불가산.",
+  "new": "범죄에 연루됨. 이 뜻은 보통 불가산. involvement와 바꿔 쓸 수 있고, 그쪽이 더 흔하다."
+ },
+ {
+  "file": "pipeline/out/lesson02.json",
+  "word": "death",
+  "field": "ex",
+  "old": "In the past, high infant {{BLANK}} rates lowered life expectancy.",
+  "new": "Ancient Egyptians believed life continued after {{BLANK}}."
+ },
+ {
+  "file": "pipeline/out/lesson02.json",
+  "word": "death",
+  "field": "tr",
+  "old": "과거에는 높은 영아 사망률이 평균수명을 낮췄어.",
+  "new": "고대 이집트인들은 죽은 뒤에도 삶이 이어진다고 믿었어."
+ },
+ {
+  "file": "pipeline/out/lesson02.json",
+  "word": "death",
+  "field": "c",
+  "old": "평균수명이 낮았다고 모두 그 나이에 죽었다는 뜻은 아니다. die(죽다)·dead(죽은)·death(죽음).",
+  "new": "die(죽다)·dead(죽은)·death(죽음)."
+ },
+ {
+  "file": "pipeline/out/lesson02.json",
+  "word": "power",
+  "field": "ex",
+  "old": "In ancient Athenian democracy, only adult male citizens held political {{BLANK}}.",
+  "new": "In ancient Athens, only men could hold political {{BLANK}}."
+ },
+ {
+  "file": "pipeline/out/lesson02.json",
+  "word": "power",
+  "field": "tr",
+  "old": "고대 아테네 민주정에서는 성인 남성 시민만 정치적 권력을 행사했어.",
+  "new": "고대 아테네에서는 남자만 정치 권력을 가질 수 있었어."
+ },
+ {
+  "file": "pipeline/out/lesson02.json",
+  "word": "power",
+  "field": "c",
+  "old": "demo-(민중) + -cracy(통치).",
+  "new": "political power = 정치 권력. hold power = 권력을 쥐다."
+ },
+ {
+  "file": "pipeline/out/lesson04.json",
+  "word": "sound",
+  "field": "c",
+  "old": "sound advice = 타당한 조언. sound는 상태가 튼튼하다는 뜻도 있다.",
+  "new": "sound advice = 타당한 조언. 이 뜻에서는 solid·valid도 비슷하게 쓴다."
+ },
+ {
+  "file": "pipeline/out/set05.json",
+  "word": "could",
+  "field": "c",
+  "old": "과거가 아니라 공손 모드. Can you~?보다 정중한 부탁.",
+  "new": "과거가 아니라 공손 모드. Can you~?보다 정중한 부탁. Would you~?도 같은 정중한 부탁이다."
+ },
+ {
+  "file": "pipeline/out/set08.json",
+  "word": "trip",
+  "field": "ex",
+  "old": "Be careful not to {{BLANK}} over that bag.",
+  "new": "I {{BLANK}}ped over a stone and fell."
+ },
+ {
+  "file": "pipeline/out/set08.json",
+  "word": "trip",
+  "field": "tr",
+  "old": "그 가방에 발이 걸려 넘어지지 않게 조심해.",
+  "new": "나는 돌에 걸려 넘어졌어."
+ },
+ {
+  "file": "pipeline/out/set10.json",
+  "word": "chief",
+  "field": "c",
+  "old": "chief reason은 주된 이유.",
+  "new": "chief reason은 주된 이유. major·main과 비슷하지만 chief는 여럿 중 으뜸인 하나다."
+ },
+ {
+  "file": "pipeline/out/set17.json",
+  "word": "hunt",
+  "field": "c",
+  "old": "hunt for ~: ~을 애써 찾아다니다.",
+  "new": "hunt for ~: ~을 애써 찾아다니다. look for와 바꿔 쓸 수 있고, hunt는 여기저기 뒤지는 느낌이다."
+ },
+ {
+  "file": "pipeline/out/set18.json",
+  "word": "stem",
+  "field": "c",
+  "old": "stem from ~: ~에서 비롯되다. 줄기가 뿌리에서 자라듯 원인을 나타내는 표현.",
+  "new": "stem from ~: ~에서 비롯되다. 줄기가 뿌리에서 자라듯 원인을 말한다. come from과 바꿔 쓸 수 있다."
+ },
+ {
+  "file": "pipeline/out/set18.json",
+  "word": "stem",
+  "field": "c",
+  "old": "stem+대상: 흐름이나 확산을 멈추거나 줄이다.",
+  "new": "stem+대상: 흐름이나 확산을 막다. 이 뜻에서는 stop과 바꿔 쓸 수 있다(stem이 더 격식)."
+ },
+ {
+  "file": "pipeline/out/set19.json",
+  "word": "whip",
+  "field": "ko",
+  "old": "② (크림·달걀을) 휘젓다",
+  "new": "② (크림·달걀을) 휘저어 거품을 내다"
+ },
+ {
+  "file": "pipeline/out/set19.json",
+  "word": "whip",
+  "field": "ex",
+  "old": "{{BLANK}} the cream before serving the cake.",
+  "new": "{{BLANK}} the cream until it becomes thick."
+ },
+ {
+  "file": "pipeline/out/set19.json",
+  "word": "whip",
+  "field": "tr",
+  "old": "케이크를 내놓기 전에 크림을 휘저어 거품을 내.",
+  "new": "크림이 걸쭉해질 때까지 휘저어."
+ },
+ {
+  "file": "pipeline/out/set19.json",
+  "word": "whip",
+  "field": "c",
+  "old": "빠르게 저어 공기를 넣다. whipped cream은 휘핑크림.",
+  "new": "빠르게 저어 거품을 내다. 크림은 whip이 대표적이고 beat도 쓴다. 그냥 젓는 건 stir."
+ },
+ {
+  "file": "pipeline/out/set28.json",
+  "word": "memorial",
+  "field": "c",
+  "old": "memory(기억)와 한 뿌리. a memorial service는 추도식.",
+  "new": "memory(기억)와 한 뿌리. 죽은 이를 기리는 기념물. monument는 기념비 일반."
+ },
+ {
+  "file": "pipeline/out/set31.json",
+  "word": "parameter",
+  "field": "ex",
+  "old": "The teacher set clear {{BLANK}}s for our project.",
+  "new": "We have to work within the {{BLANK}}s of our budget."
+ },
+ {
+  "file": "pipeline/out/set31.json",
+  "word": "parameter",
+  "field": "tr",
+  "old": "선생님이 우리 과제에 분명한 기준을 정해 주셨어.",
+  "new": "우리는 예산이 정한 범위 안에서 일해야 해."
+ },
+ {
+  "file": "pipeline/out/set42.json",
+  "word": "impatient",
+  "field": "c",
+  "old": "impatient to do(~을 어서 하고 싶은), impatient for(~을 간절히 기다리는).",
+  "new": "impatient to do/for: 어서 하고 싶어 조바심 내는. desperate to도 비슷하게 쓴다."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "render",
+  "field": "c",
+  "old": "그림·연주 등으로 표현하다. render a scene(장면을 묘사하다).",
+  "new": "그림·연주 등으로 표현하다. render a scene(장면을 묘사하다). 이 뜻에서는 depict와 바꿔 쓸 수 있다."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "compromise",
+  "field": "c",
+  "old": "안전·원칙·신뢰 등을 약화시키거나 위험에 빠뜨리다. compromise safety(안전을 해치다).",
+  "new": "compromise safety = 안전을 해치다. 신뢰·원칙에도 쓴다. 이 뜻에서는 jeopardize와 같다."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "deplete",
+  "field": "ex",
+  "old": "Long dry periods {{BLANK}} the lake's water supply.",
+  "new": "Long dry periods can {{BLANK}} the lake's water supply by half."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "deplete",
+  "field": "tr",
+  "old": "오랜 건기는 호수의 물 공급량을 크게 줄여.",
+  "new": "오랜 건기는 호수의 물을 절반으로 줄일 수 있어."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "deplete",
+  "field": "c",
+  "old": "자원·힘·저장량을 크게 줄이거나 고갈시키다. 명사 depletion(고갈).",
+  "new": "자원·저장량을 크게 줄이다. 완전히 바닥내는 건 exhaust. 명사 depletion(고갈)."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "hardly",
+  "field": "c",
+  "old": "hardly는 ‘열심히’가 아니라 거의 없음을 나타내. work hard와 구별해.",
+  "new": "hardly는 '열심히'가 아니라 '거의 ~않다'. work hard와 구별해. barely와 바꿔 쓸 수 있어."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "awesome",
+  "field": "c",
+  "old": "awe(경외감)+-some(그런 성질의). 본래 경외감을 자아내는. 일상에서는 멋진.",
+  "new": "awe(경외감)+-some(그런 성질의). 본래 경외감을 자아내는. 일상 칭찬으로는 amazing과 같아."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "liberty",
+  "field": "c",
+  "old": "라틴어 liber(자유로운) 계열. library의 liber(책)와 다른 말.",
+  "new": "라틴어 liber(자유로운) 계열. library의 liber(책)와 다른 말. freedom과 바꿔 쓸 수 있어."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "involve",
+  "field": "ko",
+  "old": "수반하다, 포함하다",
+  "new": "수반하다, (일에) 따르다"
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "involve",
+  "field": "c",
+  "old": "in-(안으로)+volvere(말다)→안에 감싸다. involve doing: ~하는 일을 수반하다.",
+  "new": "in-(안으로)+volvere(말다). 일에 필연적으로 따르는 것. 이 문장에선 include도 쓸 수 있어."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "audio",
+  "field": "c",
+  "old": "라틴어 audire(듣다) 계열. video는 영상, audio는 소리.",
+  "new": "라틴어 audire(듣다) 계열. video는 영상, audio는 소리. 이 문장에서는 sound와 바꿔 쓸 수 있어."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "effect",
+  "field": "c",
+  "old": "fac-/fect-는 하다·만들다. effect는 작용해서 생긴 결과·영향.",
+  "new": "fac-/fect-는 하다·만들다. effect는 작용해서 생긴 결과·영향. 이 뜻에서는 impact와 바꿔 쓸 수 있어."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "unify",
+  "field": "ko",
+  "old": "통일하다, 하나로 합치다",
+  "new": "통일하다, 하나로 통합하다"
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "unify",
+  "field": "c",
+  "old": "라틴어 unus(하나)+-fy(~하게 만들다). 여러 부분을 하나로 통합하다.",
+  "new": "unus(하나)+-fy(~하게 만들다). 하나의 체계로 통합하다. 이 문장에선 unite·merge도 쓸 수 있어."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "sensible",
+  "field": "ko",
+  "old": "분별 있는, 합리적인",
+  "new": "분별 있는, 현명한"
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "sensible",
+  "field": "c",
+  "old": "sens-(느끼다·판단하다) 계열. sensible은 분별 있는, sensitive는 민감한.",
+  "new": "sens-(느끼다·판단하다) 계열. sensitive(민감한)와 구별해. 이 문장에선 rational도 쓸 수 있어."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "suspect",
+  "field": "ko",
+  "old": "~일 것이라고 생각하다, 추측하다",
+  "new": "(좋지 않은 일을) ~일 것이라고 짐작하다"
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "suspect",
+  "field": "c",
+  "old": "spic-/spect-는 보다. suspect that: 충분한 증거 없이 ~일 것이라고 생각하다.",
+  "new": "spect-는 보다. 증거 없이 ~라고 의심하다. suppose와 달리 좋지 않은 일을 짐작할 때 써."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "inspect",
+  "field": "c",
+  "old": "라틴어 specere(보다) 계열. inspect는 자세히 검사하다. in-은 부정이 아니야.",
+  "new": "라틴어 specere(보다) 계열. in-은 부정이 아니야. 이 문장에선 examine과 바꿔 쓸 수 있어."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "succeed",
+  "field": "c",
+  "old": "ceed-는 가다. 뒤따라가다에서 후임이 되다로 이어져. succeed A as B.",
+  "new": "ceed-는 가다. 뒤따라가다→후임이 되다. succeed A as B. 이 문장에선 replace도 가능해."
+ },
+ {
+  "file": "pipeline/connections.json",
+  "word": "in",
+  "field": "acceptedAnswers",
+  "old": [
+   "after"
+  ],
+  "new": []
+ },
+ {
+  "file": "pipeline/connections.json",
+  "word": "in",
+  "field": "c",
+  "old": "미래 시점의 in+시간: 지금부터 그 시간이 지난 뒤.",
+  "new": "미래 시점의 in+시간: 지금부터 그 시간이 지난 뒤. 지금부터 15분 뒤는 after가 아니라 in."
+ },
+ {
+  "file": "pipeline/out/lesson03.json",
+  "word": "deal",
+  "field": "c",
+  "old": "deal with ~(~을 처리하다·상대하다)처럼 쓴다. (불규칙 deal-dealt-dealt)",
+  "new": "deal with ~: ~을 처리하다(deal-dealt-dealt). cope with(힘든 일에 대처하다)도 비슷하다."
+ },
+ {
+  "file": "pipeline/out/lesson04.json",
+  "word": "hold",
+  "field": "ex",
+  "old": "This bus can {{BLANK}} forty people.",
+  "new": "This bottle can {{BLANK}} two liters of water."
+ },
+ {
+  "file": "pipeline/out/lesson04.json",
+  "word": "hold",
+  "field": "tr",
+  "old": "이 버스는 마흔 명을 태울 수 있어.",
+  "new": "이 병에는 물이 2리터 들어가."
+ },
+ {
+  "file": "pipeline/out/lesson04.json",
+  "word": "space",
+  "field": "ex",
+  "old": "Astronauts use radios in {{BLANK}} because sound cannot travel through a vacuum.",
+  "new": "There is no air in {{BLANK}}, so sound cannot travel there."
+ },
+ {
+  "file": "pipeline/out/lesson04.json",
+  "word": "space",
+  "field": "tr",
+  "old": "우주비행사들은 우주에서 무전기를 써. 진공에서는 소리가 전달되지 않거든.",
+  "new": "우주에는 공기가 없어서 소리가 전달되지 않아."
+ },
+ {
+  "file": "pipeline/out/set07.json",
+  "word": "figure",
+  "field": "ex",
+  "old": "A tall {{BLANK}} stood near the door.",
+  "new": "She keeps a slim {{BLANK}} by swimming every day."
+ },
+ {
+  "file": "pipeline/out/set07.json",
+  "word": "figure",
+  "field": "tr",
+  "old": "키 큰 사람이 문 근처에 서 있었어.",
+  "new": "그녀는 매일 수영해서 날씬한 몸매를 유지해."
+ },
+ {
+  "file": "pipeline/out/set07.json",
+  "word": "figure",
+  "field": "c",
+  "old": "미국 회화의 I figure (that)는 '~라고 생각해'. out 없이도 동사로 쓴다.",
+  "new": "미국 회화의 I figure (that)는 '~라고 생각해'. out 없이도 동사로 쓴다. 영국 구어 I reckon도 같은 뜻."
+ },
+ {
+  "file": "pipeline/out/set08.json",
+  "word": "central",
+  "field": "c",
+  "old": "be central to ~: ~에서 핵심이다.",
+  "new": "be central to ~: ~에서 핵심이다. crucial to(결정적으로 중요한)도 비슷하게 쓴다."
+ },
+ {
+  "file": "pipeline/out/set09.json",
+  "word": "mistake",
+  "field": "ko",
+  "old": "② 잘못 알다, 혼동하다",
+  "new": "② (A를 B로) 잘못 알다, 착각하다"
+ },
+ {
+  "file": "pipeline/out/set09.json",
+  "word": "mistake",
+  "field": "c",
+  "old": "mistake A for B: A를 B로 잘못 알다. 과거 mistook.",
+  "new": "mistake A for B: A를 B로 잘못 알다. 과거 mistook. confuse A with B(혼동하다)와 구별."
+ },
+ {
+  "file": "pipeline/out/set14.json",
+  "word": "pour",
+  "field": "c",
+  "old": "비가 아주 세게 오는 것. It’s pouring.",
+  "new": "비가 아주 세게 오는 것. It’s pouring. 그냥 비가 오면 rain, 세차게 쏟아지면 pour."
+ },
+ {
+  "file": "pipeline/out/set15.json",
+  "word": "mail",
+  "field": "c",
+  "old": "편지를 보내다는 미국식 mail a letter, 영국식 post a letter.",
+  "new": "미국식 mail a letter, 영국식 post a letter. send는 그냥 보내다, mail은 우편으로 보내다."
+ },
+ {
+  "file": "pipeline/out/set16.json",
+  "word": "comfort",
+  "field": "c",
+  "old": "슬픔·걱정을 덜어 주다.",
+  "new": "슬픔·걱정을 덜어 주다. console도 같은 뜻의 격식어."
+ },
+ {
+  "file": "pipeline/out/set16.json",
+  "word": "rank",
+  "field": "c",
+  "old": "rank A among ~: A를 ~중에 넣어 평가하다.",
+  "new": "rank A among ~: A를 ~중에 넣어 평가하다. 점수로 평가하는 rate도 비슷하게 쓴다."
+ },
+ {
+  "file": "pipeline/out/set17.json",
+  "word": "examination",
+  "field": "c",
+  "old": "격식 있는 말. 말할 땐 보통 exam이나 test. 병원 검사·조사에도 쓴다.",
+  "new": "격식 있는 말. 병원 진찰은 일상에서 checkup이나 exam이라고도 한다."
+ },
+ {
+  "file": "pipeline/out/set22.json",
+  "word": "plural",
+  "field": "ex",
+  "old": "Use a {{BLANK}} noun after these.",
+  "new": "Use a {{BLANK}} noun after 'these'."
+ },
+ {
+  "file": "pipeline/out/set22.json",
+  "word": "worst",
+  "field": "ex",
+  "old": "I slept {{BLANK}} on the train.",
+  "new": "Of all the nights on our trip, I slept {{BLANK}} on the train."
+ },
+ {
+  "file": "pipeline/out/set22.json",
+  "word": "worst",
+  "field": "tr",
+  "old": "나는 기차에서 잠을 가장 못 잤어.",
+  "new": "여행 중에 기차에서 잔 날 잠을 제일 못 잤어."
+ },
+ {
+  "file": "pipeline/out/set24.json",
+  "word": "file",
+  "field": "ex",
+  "old": "Please {{BLANK}} these letters by date.",
+  "new": "Please {{BLANK}} this letter under 'Bills.'"
+ },
+ {
+  "file": "pipeline/out/set24.json",
+  "word": "file",
+  "field": "tr",
+  "old": "이 편지들을 날짜별로 정리해 보관해 줘.",
+  "new": "이 편지를 '청구서' 항목에 정리해 넣어 줘."
+ },
+ {
+  "file": "pipeline/out/set24.json",
+  "word": "file",
+  "field": "c",
+  "old": "문서 등을 쉽게 찾도록 분류해 넣어 두다.",
+  "new": "문서 등을 쉽게 찾도록 분류해 넣어 두다. 단순히 분류만 하는 것은 sort."
+ },
+ {
+  "file": "pipeline/out/set29.json",
+  "word": "absorb",
+  "field": "c",
+  "old": "정보·지식 등을 머릿속에 받아들여 이해하다.",
+  "new": "정보·지식 등을 머릿속에 받아들여 이해하다. 이 뜻에서는 digest와 바꿔 쓸 수 있다."
+ },
+ {
+  "file": "pipeline/out/set34.json",
+  "word": "spit",
+  "field": "c",
+  "old": "미국식 과거형은 보통 spit. spit out은 '뱉어 내다, 내뱉듯 말하다'.",
+  "new": "과거형·과거분사는 spat. 미국에서는 spit도 쓴다. spit out은 '뱉어 내다, 내뱉듯 말하다'."
+ },
+ {
+  "file": "pipeline/out/set38.json",
+  "word": "probe",
+  "field": "c",
+  "old": "probe into ~를 깊이 파헤치다. 명사로 '조사'도 된다.",
+  "new": "probe into ~를 깊이 파헤치다. 명사로 '조사'도 된다. 이 뜻에서는 delve into와 바꿔 쓸 수 있다."
+ },
+ {
+  "file": "pipeline/out/set42.json",
+  "word": "circa",
+  "field": "ex",
+  "old": "The temple was built {{BLANK}} eight hundred.",
+  "new": "The temple was built {{BLANK}} AD 800."
+ },
+ {
+  "file": "pipeline/out/set42.json",
+  "word": "circa",
+  "field": "tr",
+  "old": "그 절은 800년경에 지어졌어.",
+  "new": "그 절은 서기 800년경에 지어졌어."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "constraint",
+  "field": "c",
+  "old": "행동을 제한하는 조건. 시간·예산 부족에는 constraint, 규정으로 정한 제한에는 restriction을 주로 써.",
+  "new": "시간·예산 부족은 constraint, 규정으로 정한 제한은 restriction. limitation과 바꿔 쓸 수 있다."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "exempt",
+  "field": "c",
+  "old": "exempt A from B는 A에게 B의 의무를 면제하다.",
+  "new": "exempt A from B: A에게 B를 면제하다. excuse A from B도 비슷하지만 exempt가 더 공식적이다."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "bias",
+  "field": "c",
+  "old": "판단·결과가 한쪽으로 기울게 하다. biased는 편향된.",
+  "new": "판단·결과가 한쪽으로 기울게 하다. biased는 편향된. 결과를 왜곡한다는 뜻에서는 skew와 바꿔 쓸 수 있다."
+ },
+ {
+  "file": "pipeline/out/set45.json",
+  "word": "infinitive",
+  "field": "ex",
+  "old": "To go is an {{BLANK}} in this sentence.",
+  "new": "In 'I want to go,' 'to go' is an {{BLANK}}."
+ },
+ {
+  "file": "pipeline/out/set45.json",
+  "word": "infinitive",
+  "field": "tr",
+  "old": "이 문장에서 To go가 부정사야.",
+  "new": "'I want to go'에서 'to go'는 부정사야."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "dependence",
+  "field": "c",
+  "old": "depend on(의존하다)→dependence on(의존). 명사가 되어도 on 관계가 이어져.",
+  "new": "depend on→dependence on. 명사가 되어도 on이 이어져. dependency도 같은 뜻으로 써."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "provoke",
+  "field": "c",
+  "old": "pro-(앞으로)+vocare(부르다). 특히 분노·논쟁 같은 반응을 일으키다.",
+  "new": "pro-(앞으로)+vocare(부르다). 특히 분노·논쟁 같은 반응을 일으키다. 이 문장에서는 trigger도 쓸 수 있어."
+ },
+ {
+  "file": "pipeline/out/set16.json",
+  "word": "port",
+  "field": "meow",
+  "old": "일산엔 port, 항구가 없어서 배 대신 버스라고양.",
+  "new": "port, 항구라고양. 일산엔 항구가 없으니 도망칠 배도 없다고양."
+ },
+ {
+  "file": "pipeline/out/set22.json",
+  "word": "sting",
+  "field": "meow",
+  "old": "sting, 벌에 쏘이면 아프다고양. 함부로 건드리지 말라고양.",
+  "new": "꿀벌은 한 번 sting 하면 죽는다고양. 너는 틀려도 안 죽으니 다시 하라고양."
+ },
+ {
+  "file": "pipeline/out/set29.json",
+  "word": "robot",
+  "field": "meow",
+  "old": "robot, 로봇처럼 치기만 말고 뜻도 떠올리라고양.",
+  "new": "뜻 생각 없이 손가락만 놀리면 너도 robot이라고양."
+ },
+ {
+  "file": "pipeline/out/set13.json",
+  "word": "succeed",
+  "field": "meow",
+  "old": "여기까지 꾸준히 왔다면 이미 반은 succeed, 성공이라고양. 나머지도 가 보자고양.",
+  "new": "반은 succeed했다고양. 남은 반에서 넘어지면 실컷 웃어 준다고양."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "November",
+  "field": "meow",
+  "old": "November, 큰 시험 앞에서도 고양이는 도망 안 간다고양.",
+  "new": "November, 수능 달이라고양. 여기서 꼬리 내리면 비웃어 준다고양."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "toilet",
+  "field": "meow",
+  "old": "변기 자체를 말할 땐 미국에서도 toilet이 맞다고양.",
+  "new": "변기는 미국서도 toilet이라고양. 화장실 찾을 땐 bathroom이라고양."
+ },
+ {
+  "file": "pipeline/out/lesson00.json",
+  "word": "bored",
+  "field": "meow",
+  "old": "boring은 지루하게 만들고, bored는 지루함을 느낀다고양. I'm boring이면 네가 남을 지루하게 한다고양.",
+  "new": "boring은 영화, bored는 너라고양. I'm boring이면 네가 노잼이라고양."
+ },
+ {
+  "file": "pipeline/out/lesson04.json",
+  "word": "bill",
+  "field": "meow",
+  "old": "bill, 청구서도 지폐도 법안도 다 같은 단어라고양. 법안은 돈 얘기가 아닐 수도 있다고양.",
+  "new": "청구서도 지폐도 법안도 다 bill이라고양. 지갑 열 때마다 이 단어 보게 될 거라고양."
+ },
+ {
+  "file": "pipeline/out/set05.json",
+  "word": "the",
+  "field": "meow",
+  "old": "오늘의 해를 말할 땐 the sun이라고양. 어느 해인지 서로 안다고양.",
+  "new": "해는 하나뿐이라 the sun이라고양. 해가 두 개로 보이면 문법 말고 눈을 걱정하라고양."
+ },
+ {
+  "file": "pipeline/out/set08.json",
+  "word": "committee",
+  "field": "meow",
+  "old": "committee, 위원회. m·t·e가 두 개씩이라고양.",
+  "new": "committee, m·t·e 두 개씩이라고양. 빠뜨리면 위원회에서 쫓겨난다고양."
+ },
+ {
+  "file": "pipeline/out/set11.json",
+  "word": "clothes",
+  "field": "meow",
+  "old": "clothes는 옷이라고양. th를 살짝 내거나 생략해도 된다고양.",
+  "new": "clothes에서 혀 꼬이면 그냥 [클로즈]라고양. 원어민도 그런다고양."
+ },
+ {
+  "file": "pipeline/out/set17.json",
+  "word": "brush",
+  "field": "meow",
+  "old": "털 고를 땐 혀가 brush, 솔이라고양. 오늘도 단장하느라 바쁘고양.",
+  "new": "고양이 혀는 털 고르는 brush라고양. 너도 그 머리 좀 brush 하고 오라고양."
+ },
+ {
+  "file": "pipeline/connections.json",
+  "word": "in",
+  "field": "ambiguityNote",
+  "old": "기다릴 15분이 기준이 되는 after fifteen minutes도 이 문장에서 자연스러워 허용한다.",
+  "new": "after는 허용하지 않는다(26.10.08 영신 결정). 지금부터의 미래 시점은 in으로 말하고 after는 쓰지 않는 것이 표준이다(Cambridge Grammar: in ten minutes, not after ten minutes). '~후에'를 after로 옮기는 것이 한국 학습자의 대표 오류라, 이 카드는 바로 그 구별을 가르친다. 이전 메모: 기다릴 15분이 기준이 되는 after fifteen minutes도 이 문장에서 자연스러워 허용한다."
+ }
+]

@@ -1968,8 +1968,14 @@ function isSpellingVariant(typed,term){
   return !!a && a===b && normalize(typed)!==normalize(term);
 }
 const SYNLINES=[
-  "이번에 익힐 단어는 이거라고양!",
+  "‘{w}’만 맨날 쓸 거냐고양! 새로운 걸 배우라고양!",
+  "‘{w}’가 아는 표현의 전부가 아니라고양! 이번엔 이 단어라고양.",
+  "‘{w}’ 말고도 쓸 말 있다고양. 아는 단어만 돌려막으면 제자리라고양!",
+  "또 ‘{w}’냐고양? 같은 반찬만 먹으면 질린다고양. 새 맛 좀 보라고양!",
 ];
+/* 동의어를 친 학생은 틀린 게 아니라 아는 말을 쓴 것이다 — "도망"으로 몰지 않는다.
+   아는 말에 머물지 말고 새 단어를 익히라고 갈군다. 영어로 틀렸다고 단정하지 않는다(26.10.02 원칙).
+   방향: 26.10.08 영신 ("맨날 똑같은 단어만 쓸 거냐고양! 새로운 걸 배우라고양!"). */
 
 /* ===== state ===== */
 const STORAGE="goyang-ebs-seoul-v1";
@@ -3914,7 +3920,7 @@ function savedToggleCurrent(){
     if(typeof armReveal==='function'){
       if(s.revealTimer)clearTimeout(s.revealTimer);
       ipaEffectCancelAdvance();armReveal(w);
-    }else scheduleNext(1500);
+    }else scheduleNext(1500); // 교재의 정상 공개 대기(1500)와 같아야 발음 끝까지 기다린다(26.10.08 복원)
   }else focusAnswerInput();
   return true;
 }
