@@ -1,0 +1,473 @@
+{
+ "date": "2026-10-08",
+ "name": "word-notes",
+ "status": "applied_locally_verified",
+ "authorization": "영신(2026-10-08): \"이게 영단어장이니까 가급적이면 단어와 관련된 것만 해설로 하자. 마젤란 죽은건 안넣어도 될듯. 만약 필수적인 정보라면 예문화하는게 맞다고 봄\"",
+ "summary": "지식 예문 1~3묶음 해설 12장에서 단어와 관련 없는 역사·과학 사실을 빼고 어원·파생어·연어·비유적 뜻으로 바꿨다. 꼭 필요한 사실(대공황, 흑사병의 피해)은 예문으로 옮겼다. 목록은 word-notes-edits.json.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "567368fe36346d017fa7ddb23a6f39965db97d145f08eef8ef77f5be6badcdea",
+   "afterHash": "1b739f72332c4a3e2611f27f2a53e02771c81d63243d33bcfea56fabbf5ff704",
+   "changes": [
+    {
+     "path": [
+      16,
+      "exercises",
+      10,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "원소들은 주기율표(periodic table)에 늘어서 있다. 일반적인 '요소'라는 뜻으로도 많이 쓴다.",
+     "new": "the periodic table of elements는 원소 주기율표. 일반적인 '요소'라는 뜻으로도 많이 쓴다."
+    },
+    {
+     "path": [
+      16,
+      "exercises",
+      10,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "명사는 observation(관찰). 과학은 관찰에서 시작한다.",
+     "new": "명사는 observation(관찰). 천문대는 observatory."
+    },
+    {
+     "path": [
+      21,
+      "exercises",
+      2,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그리스 문자의 첫 두 글자 alpha+beta에서 온 말. 페니키아→그리스→로마 문자를 거쳤다.",
+     "new": "그리스 문자의 첫 두 글자 alpha+beta에서 온 말."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      10,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "carbon dioxide(이산화탄소)는 대표적인 온실가스.",
+     "new": "carbon dioxide(이산화탄소), carbon footprint(탄소 발자국)."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      10,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "뉴턴의 만유인력. 무게(weight)는 중력이 끌어당기는 힘.",
+     "new": "형용사 grave(심각한)와 뿌리가 같다. the gravity of the situation은 '사태의 심각성'."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      10,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "동사는 select. natural selection(자연선택)은 다윈 진화론의 핵심.",
+     "new": "동사는 select. natural selection은 자연선택."
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      10,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In 1933, US {{BLANK}} reached about 25 percent.",
+     "new": "In the Great Depression, US {{BLANK}} hit 25 percent."
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      10,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1933년 미국의 실업률은 약 25퍼센트에 이르렀어.",
+     "new": "대공황 때 미국의 실업률은 25퍼센트까지 치솟았어."
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      10,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "un+employ(고용하다)+ment. 1929년 시작된 대공황의 한복판.",
+     "new": "un+employ(고용하다)+ment. 실업률은 the unemployment rate."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In the 1340s, a deadly {{BLANK}} called the Black Death swept across Europe.",
+     "new": "In the 1340s, a {{BLANK}} called the Black Death killed a third of Europe."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1340년대에 흑사병이라 불린 치명적인 전염병이 유럽을 휩쓸었어.",
+     "new": "1340년대에 흑사병이라 불린 전염병이 유럽 인구의 3분의 1을 앗아갔어."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "흑사병은 유럽 인구의 약 3분의 1을 앗아갔다.",
+     "new": "the plague는 흔히 흑사병. 동사로는 '괴롭히다': be plagued by(~에 시달리다)."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "관세를 매기면 수입품 값이 오른다.",
+     "new": "impose a tariff on ~은 '~에 관세를 매기다'."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "뉴턴 운동 제1법칙: 움직이던 것은 계속 움직이려 한다.",
+     "new": "비유로 '변하지 않으려는 타성'이라는 뜻도 있다."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "뉴턴 운동 제2법칙(F=ma). 동사는 accelerate.",
+     "new": "동사는 accelerate(가속하다). 자동차 액셀은 accelerator."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "relative(상대적인)의 명사. 특수 상대성 이론(1905)과 일반 상대성 이론(1915).",
+     "new": "relative(상대적인)의 명사. 특수·일반 상대성 이론은 special·general relativity."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/set16.json": {
+   "beforeHash": "46fdd3d196e6e6ede878a2a86cb3ba76511d936feb4aacb7b980c848ed5daab7",
+   "afterHash": "0a45edb94892688d2fe7af24fcc6506142c5f8279fe63b82c43fa2f5b19e077f"
+  },
+  "pipeline/out/set21.json": {
+   "beforeHash": "d49818eb4ccd187a972e97a5c7b4444ac75520d26980c775020ac7c1d328e3db",
+   "afterHash": "822eb97958caf3fc2f7d88d8440d409fd98e901dc44c3fbbabbf3ad62ebe38ff"
+  },
+  "pipeline/out/set26.json": {
+   "beforeHash": "fbc97727adea1f4212b99fdbfcacc674a0efa6ac0aba52f3b8366dc8ea3f74a2",
+   "afterHash": "75eaa773ecc98eb8c865c06dad57bef6c0b4c6631b77bea8e5d9ad9e7c9be440"
+  },
+  "pipeline/out/set34.json": {
+   "beforeHash": "7440da799b784d70fa940305cde21ec10d6cef4b68532040bad7d52fd92abc20",
+   "afterHash": "79a61f40cdd7a570a88f71fe63db5145238160ce83b25398a9be5d0229fe8027"
+  },
+  "pipeline/out/set42.json": {
+   "beforeHash": "329ed05152dd7f71131784396657081b9609c634e44457793e48f0a1df33f967",
+   "afterHash": "a97709b9fe5b23b4df905a70d29cb9432cc2842fb7fb84a24f96caf6d33c3870"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/set16.json": [
+   {
+    "path": [
+     10,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "원소들은 주기율표(periodic table)에 늘어서 있다. 일반적인 '요소'라는 뜻으로도 많이 쓴다.",
+    "new": "the periodic table of elements는 원소 주기율표. 일반적인 '요소'라는 뜻으로도 많이 쓴다."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "명사는 observation(관찰). 과학은 관찰에서 시작한다.",
+    "new": "명사는 observation(관찰). 천문대는 observatory."
+   }
+  ],
+  "pipeline/out/set21.json": [
+   {
+    "path": [
+     2,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그리스 문자의 첫 두 글자 alpha+beta에서 온 말. 페니키아→그리스→로마 문자를 거쳤다.",
+    "new": "그리스 문자의 첫 두 글자 alpha+beta에서 온 말."
+   }
+  ],
+  "pipeline/out/set26.json": [
+   {
+    "path": [
+     10,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "carbon dioxide(이산화탄소)는 대표적인 온실가스.",
+    "new": "carbon dioxide(이산화탄소), carbon footprint(탄소 발자국)."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "뉴턴의 만유인력. 무게(weight)는 중력이 끌어당기는 힘.",
+    "new": "형용사 grave(심각한)와 뿌리가 같다. the gravity of the situation은 '사태의 심각성'."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "동사는 select. natural selection(자연선택)은 다윈 진화론의 핵심.",
+    "new": "동사는 select. natural selection은 자연선택."
+   }
+  ],
+  "pipeline/out/set34.json": [
+   {
+    "path": [
+     10,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In 1933, US {{BLANK}} reached about 25 percent.",
+    "new": "In the Great Depression, US {{BLANK}} hit 25 percent."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1933년 미국의 실업률은 약 25퍼센트에 이르렀어.",
+    "new": "대공황 때 미국의 실업률은 25퍼센트까지 치솟았어."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "un+employ(고용하다)+ment. 1929년 시작된 대공황의 한복판.",
+    "new": "un+employ(고용하다)+ment. 실업률은 the unemployment rate."
+   }
+  ],
+  "pipeline/out/set42.json": [
+   {
+    "path": [
+     10,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In the 1340s, a deadly {{BLANK}} called the Black Death swept across Europe.",
+    "new": "In the 1340s, a {{BLANK}} called the Black Death killed a third of Europe."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1340년대에 흑사병이라 불린 치명적인 전염병이 유럽을 휩쓸었어.",
+    "new": "1340년대에 흑사병이라 불린 전염병이 유럽 인구의 3분의 1을 앗아갔어."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "흑사병은 유럽 인구의 약 3분의 1을 앗아갔다.",
+    "new": "the plague는 흔히 흑사병. 동사로는 '괴롭히다': be plagued by(~에 시달리다)."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "관세를 매기면 수입품 값이 오른다.",
+    "new": "impose a tariff on ~은 '~에 관세를 매기다'."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "뉴턴 운동 제1법칙: 움직이던 것은 계속 움직이려 한다.",
+    "new": "비유로 '변하지 않으려는 타성'이라는 뜻도 있다."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "뉴턴 운동 제2법칙(F=ma). 동사는 accelerate.",
+    "new": "동사는 accelerate(가속하다). 자동차 액셀은 accelerator."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "relative(상대적인)의 명사. 특수 상대성 이론(1905)과 일반 상대성 이론(1915).",
+    "new": "relative(상대적인)의 명사. 특수·일반 상대성 이론은 special·general relativity."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/set16.json": [],
+  "pipeline/out/set21.json": [],
+  "pipeline/out/set26.json": [],
+  "pipeline/out/set34.json": [],
+  "pipeline/out/set42.json": []
+ }
+}

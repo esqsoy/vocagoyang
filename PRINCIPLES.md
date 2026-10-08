@@ -119,7 +119,7 @@
 - 사례(26.10.08 전수 확인): 0~50세트에서 5장이었다. 모두 고쳤다.
   - empire: "In 27 BC, Rome became an empire ruled by Augustus." 해설 "로마 제국은 the Roman Empire". 영신 예시의 '2세기'는 영토가 가장 넓던 때라 제국이 된 해(기원전 27년)로 바로잡았다.
   - pyramid(Great Pyramid of Giza), pole ②(North Pole), hemisphere(Northern Hemisphere), lunar(Lunar New Year)도 같은 방식으로 바꿨다. wall은 처음부터 "a long wall"로 쓰고 해설에 the Great Wall of China를 적었다.
-  - 경계 사례 parliament(18세트 "The British parliament")는 소문자 표기도 쓰이므로 이번에는 두고, 4묶음(의회 정치)에서 다시 본다.
+  - 경계 사례 parliament(18세트 "The British parliament")는 소문자 표기도 쓰이므로 그때는 두었다. 4묶음(의회 정치)에서 "Many countries have an elected parliament that makes their laws."로 바꾸고, 해설에 영국 의회 the Parliament(대문자)를 적었다.
 - 확인 방법: 문장 첫머리가 아닌 대문자 단어 바로 앞뒤에 소문자 표제어 빈칸이 오는 카드를 뽑아 사람이 읽는다. 대부분은 English teacher, Korean custom처럼 정상이다.
 
 ## 3. 빈칸 중의성: 맞는 영어를 치고 틀리게 하지 않는다
@@ -151,6 +151,11 @@
   - ③ 구성 요소의 뜻이 그 표제어의 뜻과 다르면 살린다. (blog의 log = 기록)
 - 해설을 걷을 때는 그 해설이 다른 일, 예컨대 중의성 대비를 겸하고 있지 않은지 확인한다. 사례: marketplace 해설의 "market과의 대비".
 - 세트별 차등은 두지 않는다. Fable은 초보가 초·중 어휘를 한 번에 해결하는 용도다. (영신)
+- **해설은 단어에 관한 것만 둔다. 꼭 필요한 지식은 예문으로 옮긴다.** (26.10.08 영신: "이게 영단어장이니까 가급적이면 단어와 관련된 것만 해설로 하자. 마젤란 죽은건 안넣어도 될듯. 만약 필수적인 정보라면 예문화하는게 맞다고 봄")
+  - 왜: 지식 예문(2-4~2-6)을 쓰다 보면 남은 사실을 해설에 덧붙이고 싶어진다. 그러면 해설이 역사·과학 보충 설명이 되어 위 기준("없으면 무엇을 못 하나")을 벗어나고, 읽을 시간(5)도 단어가 아닌 사실에 쓰인다. 지식은 빈칸 단어와 함께 예문에 있어야 단어를 떠올리는 고리가 된다(2-4).
+  - 남는 것: 어원(March←Mars, volcano←Vulcan), 파생어·연어(observatory, carbon footprint), 다른 뜻·비유(gravity '심각성', inertia '타성'), 단어 사이 구별(ape/monkey), 단어가 든 고유명사(the Great Wall of China, 2-7).
+  - 빠지는 것: 그 단어와 상관없는 사건·인물·연도·수치. 4묶음 초안의 "마젤란은 도중에 죽었다", "1689년 뒤 영국 왕은…", "몽테스키외(1748)"와 1~3묶음 해설 12장의 "뉴턴 운동 제1법칙", "흑사병은 유럽 인구의 3분의 1을…" 등을 뺐다.
+  - 꼭 필요한 사실은 예문으로 옮겼다. 흑사병의 피해("…killed a third of Europe."), 대공황("In the Great Depression, US unemployment hit 25 percent."), 노예무역의 시기("From the 1500s, …"). 목록: [word-notes-edits.json](pipeline/claude-review-20261008/word-notes-edits.json)
 
 ## 5. 해설 읽을 시간
 

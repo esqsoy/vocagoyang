@@ -1,0 +1,20 @@
+{
+ "date": "2026-10-08",
+ "rule": "해설(c)에는 단어와 관련된 것(어원·파생어·연어·쓰임·구별)만 둔다. 꼭 필요한 사실은 예문으로 옮기고, 아니면 뺀다.",
+ "authorization": "영신(2026-10-08): \"이게 영단어장이니까 가급적이면 단어와 관련된 것만 해설로 하자. 마젤란 죽은건 안넣어도 될듯. 만약 필수적인 정보라면 예문화하는게 맞다고 봄\"",
+ "kept_examples": "남긴 해설: 어원(March·November·December·volcano·academy·algebra·holy·dinosaur·astronaut·equator·medieval), 이름에 단어가 든 고유명사(the Great Wall·the Great Pyramid of Giza·Silk Road·the Milky Way·the Roman Empire), 속담의 유래(road), 단어 사이 구별(ape/monkey, atom/molecule, theory/hypothesis).",
+ "edits": [
+  {"word":"element","old_c":"원소들은 주기율표(periodic table)에 늘어서 있다. 일반적인 '요소'라는 뜻으로도 많이 쓴다.","c":"the periodic table of elements는 원소 주기율표. 일반적인 '요소'라는 뜻으로도 많이 쓴다.","why":"주기율표 배열 사실 → 연어로"},
+  {"word":"observe","old_c":"명사는 observation(관찰). 과학은 관찰에서 시작한다.","c":"명사는 observation(관찰). 천문대는 observatory.","why":"격언 삭제, 파생어 추가"},
+  {"word":"alphabet","old_c":"그리스 문자의 첫 두 글자 alpha+beta에서 온 말. 페니키아→그리스→로마 문자를 거쳤다.","c":"그리스 문자의 첫 두 글자 alpha+beta에서 온 말.","why":"문자사 삭제(페니키아는 예문에 있음)"},
+  {"word":"carbon","old_c":"carbon dioxide(이산화탄소)는 대표적인 온실가스.","c":"carbon dioxide(이산화탄소), carbon footprint(탄소 발자국).","why":"온실가스 사실 → 연어"},
+  {"word":"gravity","old_c":"뉴턴의 만유인력. 무게(weight)는 중력이 끌어당기는 힘.","c":"형용사 grave(심각한)와 뿌리가 같다. the gravity of the situation은 '사태의 심각성'.","why":"뉴턴·물리 설명 → 어원과 ② 뜻"},
+  {"word":"selection","old_c":"동사는 select. natural selection(자연선택)은 다윈 진화론의 핵심.","c":"동사는 select. natural selection은 자연선택.","why":"진화론 평가 삭제"},
+  {"word":"unemployment","old_c":"un+employ(고용하다)+ment. 1929년 시작된 대공황의 한복판.","c":"un+employ(고용하다)+ment. 실업률은 the unemployment rate.","ex":"In the Great Depression, US {{BLANK}} hit 25 percent.","old_ex":"In 1933, US {{BLANK}} reached about 25 percent.","tr":"대공황 때 미국의 실업률은 25퍼센트까지 치솟았어.","why":"대공황은 이 예문의 요점이라 예문으로"},
+  {"word":"plague","old_c":"흑사병은 유럽 인구의 약 3분의 1을 앗아갔다.","c":"the plague는 흔히 흑사병. 동사로는 '괴롭히다': be plagued by(~에 시달리다).","ex":"In the 1340s, a {{BLANK}} called the Black Death killed a third of Europe.","old_ex":"In the 1340s, a deadly {{BLANK}} called the Black Death swept across Europe.","tr":"1340년대에 흑사병이라 불린 전염병이 유럽 인구의 3분의 1을 앗아갔어.","why":"인구 3분의 1은 흑사병의 요점이라 예문으로, 해설은 동사 뜻"},
+  {"word":"tariff","old_c":"관세를 매기면 수입품 값이 오른다.","c":"impose a tariff on ~은 '~에 관세를 매기다'.","why":"경제 사실 → 연어"},
+  {"word":"inertia","old_c":"뉴턴 운동 제1법칙: 움직이던 것은 계속 움직이려 한다.","c":"비유로 '변하지 않으려는 타성'이라는 뜻도 있다.","why":"물리 법칙 → 비유적 뜻"},
+  {"word":"acceleration","old_c":"뉴턴 운동 제2법칙(F=ma). 동사는 accelerate.","c":"동사는 accelerate(가속하다). 자동차 액셀은 accelerator.","why":"물리 법칙 → 파생어"},
+  {"word":"relativity","old_c":"relative(상대적인)의 명사. 특수 상대성 이론(1905)과 일반 상대성 이론(1915).","c":"relative(상대적인)의 명사. 특수·일반 상대성 이론은 special·general relativity.","why":"연도 삭제, 용어는 연어로"}
+ ]
+}

@@ -52,7 +52,7 @@ Claude가 Codex 3주 작업(78커밋) 후의 최신판을 리뷰했다. 리뷰 �
   - interaction은 더 좋은 지식 예문(아기의 언어 습득)으로 바꿨다.
   - 거시·미시경제학은 정의의 범위를 바로잡았다([PRINCIPLES 2-5](../../PRINCIPLES.md#2-5-학문-용어는-짧아도-철저하게)).
 
-## 지식 예문(`knowledge-01.json`, `knowledge-02.json`)
+## 지식 예문(`knowledge-01.json`~`knowledge-04.json`)
 
 영신 구상(26.10.08): 5,000단어를 다 보고 나면 세계사·과학사의 틀이 남게 예문을 쓰자. 지식 지도를 먼저 짜고 단어를 거는 방식은 [PRINCIPLES 2-6](../../PRINCIPLES.md#2-6-지식-예문은-지도부터-막히는-어휘는-더한다), 지도는 [MAP.md](../knowledge-map/MAP.md)에 있다.
 
@@ -62,6 +62,19 @@ Claude가 Codex 3주 작업(78커밋) 후의 최신판을 리뷰했다. 리뷰 �
   - 개수: FABLE 7,081→7,131카드, 624→628연습, 표제어 4,928→4,978. 테스트는 개수를 DATA에서 읽어 단언을 바꾸지 않고 32/32 통과했다.
 - **3묶음(`knowledge-03`, 26카드):** 2장 고대 제국과 사상(그리스·로마·중국·세계 종교), 3장 중세와 교류(중세 유럽·이슬람 학문·바이킹). 영신 "tight!!!!!!". 예문·해석과 해설 8장만 바꿨다. 목록: `../knowledge-map/batch-03.json`.
   - 고유명사 안에 빈칸을 두지 않는다. 화면(`answerInSentence`)은 문장 첫머리만 대문자로 바꾸므로 "the Roman empire"처럼 소문자로 보인다.
+- **4묶음(`knowledge-04`, 21카드 + 새 표제어 monarchy):** 4장 르네상스와 대항해(르네상스·인쇄술·항해·콜럼버스 교환·노예무역), 5장 종교개혁·절대왕정·의회 정치·계몽사상. 영신 "전부 동의". 목록: `../knowledge-map/batch-04.json`.
+  - monarchy는 absolute·constitutional 예문이 쓰는 말이라 표제어로 더했다(42세트 지식 어휘 Ⅳ, monarch 다음). FABLE 7,132카드·표제어 4,979, 세 교재 합집합 8,310.
+  - 영신 검토에서 해설 규칙이 생겼다(아래 '해설은 단어에 관한 것만'). 초안 해설의 마젤란·1689년·몽테스키외·말의 빙하기 소멸·대항해의 동기를 뺐고, 노예무역의 시기는 slave·plantation 예문으로 옮겼다.
+  - parliament(18세트)는 "Many countries have an elected parliament…"로 바꿔 2-7 경계 사례도 정리했다. parliamentary와 congressional(13자)은 해설로 구별한다.
+
+## 해설은 단어에 관한 것만(`word-notes.json`)
+
+영신 26.10.08: "이게 영단어장이니까 가급적이면 단어와 관련된 것만 해설로 하자. … 만약 필수적인 정보라면 예문화하는게 맞다고 봄". 원칙은 [PRINCIPLES 4](../../PRINCIPLES.md#4-해설은-꼭-필요한-것만).
+
+- 1~3묶음과 지식 어휘 카드 해설 124개를 다시 읽고, 단어와 상관없는 사건·인물·연도·수치가 든 12장을 고쳤다. 목록과 이유: `word-notes-edits.json`.
+- 바꾼 해설은 어원·파생어·연어·다른 뜻으로 채웠다(gravity '사태의 심각성', inertia '타성', plague 동사 '괴롭히다', acceleration→accelerator).
+- 꼭 필요한 사실 두 개는 예문으로 옮겼다. unemployment "In the Great Depression, US unemployment hit 25 percent.", plague "…called the Black Death killed a third of Europe."
+- 어원(March·volcano·November 등), 이름에 그 단어가 든 고유명사(the Great Wall of China 등), 속담의 유래(road)는 단어에 관한 것이라 남겼다.
 
 ## 고유명사 안 빈칸(`proper-nouns.json`)
 
