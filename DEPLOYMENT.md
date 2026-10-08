@@ -1,3 +1,19 @@
+# 익힌 단어 돌파 축하 배포 · 2026-10-08
+
+- 앱 커밋 [430928f](https://github.com/esqsoy/vocagoyang/commit/430928f)를 origin/main에 fast-forward로 푸시했다(c56d036 다음). [Pages 37819892553](https://github.com/esqsoy/vocagoyang/actions/runs/37819892553): completed/success. 영신: "미쳤다 마음에 듭니다 배포갑시다!"
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다. github.io 접속은 이 세션에서 막혀 공개 페이지는 직접 열어 보지 못했다.
+- 포함(세 과정 공통 생성 구간 `milestones` 추가. DATA·진도·저장 키·게임 코드는 그대로):
+  - 익힌 단어(클리어한 연습의 표제어, 세 교재 합집합·중복 제외)가 1,000 단위를 넘은 판의 결과 화면에서 축하를 한 번 띄운다. 업데이트 전에 이미 넘은 학생은 첫 클리어 때 가장 큰 문턱 하나만.
+  - 연출: 익힌 단어가 배운 순서대로 저 멀리서 날아온다. 그때마다 화면 가득한 단어 벽에 제자리 불이 켜진다. 문턱에서 빛 폭발이 터지고 벽 전체로 반짝임이 번진 뒤 고양이가 나온다.
+  - 틀린 단어 기록(`goyang-missed-words-v1`)을 이번 배포부터 시작한다. 그 단어는 금빛이다.
+  - 미리 보기: 주소 끝에 `#milestone=1000`(저장 안 함).
+  - 문서: PRINCIPLES 11, UI_STANDARD, `pipeline/milestones/README.md`.
+- 배포 전 검사(430928f 내용 그대로, 앞선 작업에서 실행): Codex 검사 32/32, milestones.test PASS, milestones·saved-cards 빌드 `--check`. 393px Chromium 녹화(중앙 프레임 간격 16.7ms), 마더텅·EBS 320px·동작 줄이기 화면을 확인했다. 실기기 Safari는 확인하지 않았다.
+
+[FABLE 미리 보기](https://esqsoy.github.io/vocagoyang/vocagoyangfable.html#milestone=1000)
+
+---
+
 # 지식 예문 1~3묶음·새 표제어 50개·고유명사 빈칸 배포 · 2026-10-08
 
 - 앱 커밋 [c56d036](https://github.com/esqsoy/vocagoyang/commit/c56d036)을 origin/main에 fast-forward로 푸시했다(c702b05 다음 8커밋). [Pages 37789424808](https://github.com/esqsoy/vocagoyang/actions/runs/37789424808): completed/success. 영신: "일단 지금까지 된 건 배포를 하면 될 것 같고".
