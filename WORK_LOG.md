@@ -531,7 +531,8 @@
   - 담김 하트: 문제 화면(담기 전 표시 없음 → 담은 뒤 ♥), 정답 공개 말풍선과의 간격(9px)을 캡처와 좌표로 확인했다.
   - Codex 테스트 32/32. saved build --check 통과.
   - 실기기 Safari는 확인하지 않았다(이 세션에 WebKit 없음).
-- 상태: 브랜치 커밋·푸시, main 미배포. country는 영신 선택 대기다.
+- country(영신: "네 제안이 적절하네 그렇게 합시다"): lesson02 country ①을 "Vatican City is the smallest country in the world."로 바꿨다. 빈칸 단어가 사실의 중심이다(PRINCIPLES 2-4). 원장은 `country.json`. exaudit 27 그대로, linecheck 초과 0, Codex 테스트 32/32.
+- 상태: 영신 "배포해주십쇼" → main에 fast-forward. Pages 결과는 DEPLOYMENT.md.
 
 ## 다음 기록 형식
 

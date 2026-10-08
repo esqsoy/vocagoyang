@@ -1,0 +1,83 @@
+{
+ "date": "2026-10-08",
+ "name": "country",
+ "status": "applied_locally_verified",
+ "authorization": "26.10.08 영신: country는 네 제안(바티칸)이 적절하네 그렇게 합시다.",
+ "summary": "43 country ①의 생활 문장을 'Vatican City is the smallest country in the world.'로 바꿨다(India 안은 independent가 표제어 밖).",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "080446be261340a75965a740cc1ac8f1959608b0b6d2df407e1ab9be92dfe85d",
+   "afterHash": "7082632ab52b7c7c6fc321af728d8b3f25a477a09e77247f69d20eb70e956dbf",
+   "changes": [
+    {
+     "path": [
+      2,
+      "exercises",
+      5,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Korea is a beautiful {{BLANK}}.",
+     "new": "Vatican City is the smallest {{BLANK}} in the world."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      5,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "한국은 아름다운 나라야.",
+     "new": "바티칸 시국은 세계에서 가장 작은 나라야."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson02.json": {
+   "beforeHash": "0485799b0fbe6ab700c46201771782674a0716b6467cb415163dd42247f2227b",
+   "afterHash": "5c87d0b0ab5926fc84e4f3437b003cdfd671f809668d74eaeb12b165161b81f5"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson02.json": [
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Korea is a beautiful {{BLANK}}.",
+    "new": "Vatican City is the smallest {{BLANK}} in the world."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "한국은 아름다운 나라야.",
+    "new": "바티칸 시국은 세계에서 가장 작은 나라야."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson02.json": []
+ }
+}
