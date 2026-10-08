@@ -1,0 +1,268 @@
+{
+ "batch": 1,
+ "date": "2026-10-08",
+ "status": "draft_for_youngsin_review",
+ "checks": "390·360px 3줄 이내, exaudit 이탈 0(burial의 pyramids는 새 단어 대기), 중의성은 뜻(ko)으로 좁혀짐",
+ "cards": [
+  {
+   "word": "third",
+   "set": 1,
+   "sense": "①",
+   "node": "S01 지구와 하늘",
+   "ex": "Earth is the {{BLANK}} planet from the Sun.",
+   "tr": "지구는 태양에서 세 번째 행성이야.",
+   "c": null,
+   "note": "March 카드와 빈칸만 옮긴 쌍 해소"
+  },
+  {
+   "word": "fourth",
+   "set": 1,
+   "sense": "①",
+   "node": "W08 세계 종교",
+   "ex": "Christianity became Rome's official religion in the {{BLANK}} century.",
+   "tr": "기독교는 4세기에 로마의 국교가 되었어.",
+   "c": null,
+   "note": "380년 테살로니카 칙령"
+  },
+  {
+   "word": "fifth",
+   "set": 1,
+   "sense": "①",
+   "node": "W06 로마",
+   "ex": "The Western Roman Empire fell in the {{BLANK}} century.",
+   "tr": "서로마 제국은 5세기에 무너졌어.",
+   "c": null,
+   "note": "476년"
+  },
+  {
+   "word": "seventh",
+   "set": 1,
+   "sense": "①",
+   "node": "W08 세계 종교",
+   "ex": "Islam began in Arabia in the {{BLANK}} century.",
+   "tr": "이슬람교는 7세기에 아라비아에서 시작되었어.",
+   "c": null,
+   "note": "610년경"
+  },
+  {
+   "word": "zero",
+   "set": 0,
+   "sense": "①",
+   "node": "W10 이슬람 세계의 학문",
+   "ex": "People in India were the first to use {{BLANK}} as a number.",
+   "tr": "0을 하나의 수로 처음 쓴 사람들은 인도 사람들이었어.",
+   "c": null,
+   "note": "브라마굽타 628년(arXiv 1601.05983). 바빌로니아·마야의 0은 자리 표시"
+  },
+  {
+   "word": "day",
+   "set": 1,
+   "sense": "①",
+   "node": "C03 지구와 하늘",
+   "ex": "The Earth spins around once a {{BLANK}}.",
+   "tr": "지구는 하루에 한 바퀴 돌아.",
+   "c": null,
+   "note": "week 카드와 겹치는 문장 해소"
+  },
+  {
+   "word": "year",
+   "set": 1,
+   "sense": "①",
+   "node": "C03 지구와 하늘",
+   "ex": "The Earth goes around the Sun once a {{BLANK}}.",
+   "tr": "지구는 1년에 한 번 태양 둘레를 돌아.",
+   "c": null,
+   "note": "twelve 카드와 겹치는 문장 해소"
+  },
+  {
+   "word": "March",
+   "set": 0,
+   "sense": "①",
+   "node": "W(기념일)",
+   "ex": "International Women's Day is on {{BLANK}} 8.",
+   "tr": "세계 여성의 날은 3월 8일이야.",
+   "c": null,
+   "note": "May 노동절과 같은 틀(달은 기념일 우선, WORK_PLAN)"
+  },
+  {
+   "word": "November",
+   "set": 0,
+   "sense": "①",
+   "node": "W37 냉전",
+   "ex": "The Berlin Wall fell in {{BLANK}} 1989.",
+   "tr": "베를린 장벽은 1989년 11월에 무너졌어.",
+   "c": null,
+   "note": "1989.11.9. eleventh와 같은 사실(1918 휴전)이던 것 해소"
+  },
+  {
+   "word": "December",
+   "set": 0,
+   "sense": "①",
+   "node": "W36 유엔과 인권",
+   "ex": "On {{BLANK}} 10, 1948, the UN declared human rights for all people.",
+   "tr": "1948년 12월 10일, 유엔은 모든 사람의 인권을 선언했어.",
+   "c": null,
+   "note": "세계인권선언 채택일(인권의 날)"
+  },
+  {
+   "word": "state",
+   "set": 1,
+   "sense": "②",
+   "node": "GEO",
+   "ex": "The United States is made up of fifty {{BLANK}}s.",
+   "tr": "미국은 50개 주로 이루어져 있어.",
+   "c": null,
+   "note": "텍사스 면적 2위 잡학(F) 대체"
+  },
+  {
+   "word": "god",
+   "set": 1,
+   "sense": "①",
+   "node": "W05 그리스",
+   "ex": "The ancient Greeks believed Zeus was the king of the {{BLANK}}s.",
+   "tr": "고대 그리스인들은 제우스를 신들의 왕이라고 믿었어.",
+   "c": null,
+   "note": "'Long ago, people' 막연(F) 대체"
+  },
+  {
+   "word": "human",
+   "set": 3,
+   "sense": "①",
+   "node": "W01 인류의 기원",
+   "ex": "Modern {{BLANK}}s first appeared in Africa about 300,000 years ago.",
+   "tr": "현생 인류는 약 30만 년 전 아프리카에서 처음 나타났어.",
+   "c": null,
+   "note": "제벨 이르후드 약 31만 5천 년(Nature 2017)"
+  },
+  {
+   "word": "stone",
+   "set": 10,
+   "sense": "①",
+   "node": "W01 인류의 기원",
+   "ex": "The oldest tools ever found are made of {{BLANK}}.",
+   "tr": "지금까지 발견된 가장 오래된 도구는 돌로 만들어졌어.",
+   "c": null,
+   "note": "로메퀴 3, 330만 년(Nature 2015)"
+  },
+  {
+   "word": "cave",
+   "set": 30,
+   "sense": "①",
+   "node": "W01 인류의 기원",
+   "ex": "Stone Age people painted animals on {{BLANK}} walls.",
+   "tr": "석기 시대 사람들은 동굴 벽에 동물을 그렸어.",
+   "c": null,
+   "note": "라스코·쇼베"
+  },
+  {
+   "word": "grow",
+   "set": 6,
+   "sense": "②",
+   "node": "W02 농업혁명",
+   "ex": "About 10,000 years ago, people began to {{BLANK}} their own food.",
+   "tr": "약 1만 년 전, 사람들은 먹을 것을 직접 기르기 시작했어.",
+   "c": null,
+   "note": "신석기 농업혁명"
+  },
+  {
+   "word": "gather",
+   "set": 11,
+   "sense": "①",
+   "node": "W02 농업혁명",
+   "ex": "Before farming, people lived by hunting and {{BLANK}}ing food.",
+   "tr": "농사를 짓기 전에 사람들은 사냥하고 먹을 것을 모으며 살았어.",
+   "c": "hunting and gathering은 수렵·채집. gather information은 정보를 모으다.",
+   "note": "해설의 'gather in the gym' 예시를 새 예문에 맞춤"
+  },
+  {
+   "word": "settle",
+   "set": 11,
+   "sense": "①",
+   "node": "W02 농업혁명",
+   "ex": "Early farmers {{BLANK}}d in villages near their fields.",
+   "tr": "초기 농부들은 밭 가까운 마을에 정착했어.",
+   "c": null,
+   "note": "지금 예문은 '일산에 정착' 문장(영신 확인 필요)"
+  },
+  {
+   "word": "wheat",
+   "set": 19,
+   "sense": "①",
+   "node": "W02 농업혁명",
+   "ex": "People first grew {{BLANK}} in the Middle East about 10,000 years ago.",
+   "tr": "사람들은 약 1만 년 전 중동에서 처음 밀을 길렀어.",
+   "c": null,
+   "note": "비옥한 초승달 지대"
+  },
+  {
+   "word": "corn",
+   "set": 16,
+   "sense": "①",
+   "node": "W02 농업혁명",
+   "ex": "{{BLANK}} was first grown in Mexico about 9,000 years ago.",
+   "tr": "옥수수는 약 9천 년 전 멕시코에서 처음 재배되었어.",
+   "c": null,
+   "note": "발사스강 유역(eLife 2015, Kistler 2018)"
+  },
+  {
+   "word": "river",
+   "set": 8,
+   "sense": "①",
+   "node": "W03 강 유역 문명",
+   "ex": "The first great civilizations grew up along big {{BLANK}}s.",
+   "tr": "최초의 큰 문명들은 큰 강을 따라 생겨났어.",
+   "c": null,
+   "note": "나일·티그리스·유프라테스·인더스·황허"
+  },
+  {
+   "word": "burial",
+   "set": 21,
+   "sense": "①",
+   "node": "W03 강 유역 문명",
+   "ex": "The ancient Egyptians built pyramids for the {{BLANK}} of their kings.",
+   "tr": "고대 이집트인들은 왕을 묻으려고 피라미드를 지었어.",
+   "c": null,
+   "note": "새 단어 pyramid가 들어올 때 함께 적용"
+  },
+  {
+   "word": "irrigation",
+   "set": 41,
+   "sense": "①",
+   "node": "W03 강 유역 문명",
+   "ex": "Ancient Mesopotamian farmers used {{BLANK}} to water dry land.",
+   "tr": "고대 메소포타미아 농부들은 관개로 메마른 땅에 물을 댔어.",
+   "c": null,
+   "note": "이집트 쏠림을 피해 메소포타미아로"
+  },
+  {
+   "word": "history",
+   "set": 3,
+   "sense": "①",
+   "node": "W04 문자와 역사",
+   "ex": "Written {{BLANK}} began about 5,000 years ago.",
+   "tr": "문자로 남긴 역사는 약 5천 년 전에 시작되었어.",
+   "c": null,
+   "note": "설형문자·상형문자 기원전 3200년경"
+  },
+  {
+   "word": "clay",
+   "set": 18,
+   "sense": "①",
+   "node": "W04 문자와 역사",
+   "ex": "People in Mesopotamia wrote by pressing marks into {{BLANK}}.",
+   "tr": "메소포타미아 사람들은 점토에 자국을 눌러 글을 썼어.",
+   "c": null,
+   "note": "쐐기 문자"
+  },
+  {
+   "word": "alphabet",
+   "set": 21,
+   "sense": "①",
+   "node": "W04 문자와 역사",
+   "ex": "The English {{BLANK}} comes from one that the Phoenicians made.",
+   "tr": "영어 알파벳은 페니키아인이 만든 문자에서 왔어.",
+   "c": "그리스 문자의 첫 두 글자 alpha+beta에서 온 말. 페니키아→그리스→로마 문자를 거쳤다.",
+   "note": "Britannica 'Latin alphabet'"
+  }
+ ]
+}
