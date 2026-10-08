@@ -1,10 +1,10 @@
 'use strict';
-// 26.10.08 Claude 리뷰 반영분(결함 수정·고양이 대사, 이후 사촌 쌍)을 기록대로만 되돌린다.
+// 26.10.08 Claude 리뷰 반영분(결함 수정·고양이 대사, 이후 사촌 쌍, 긴 예문 다시 쓰기)을 기록대로만 되돌린다.
 // Codex의 복원 체인(restore-player-feedback-20261007 → history-review …) 맨 위에서 먼저 실행된다.
 // 현재 상태가 각 원장의 '적용 후' 해시와 같을 때만 되돌리고, 되돌린 결과가 '적용 전' 해시와 정확히 같아야 한다.
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const {hash,reverse}=require('./ledger-lib.cjs');
-const LAYERS=['cousin-pairs','content-fixes']            // 최신 순
+const LAYERS=['long-examples','cousin-pairs','content-fixes']   // 최신 순
   .map(n=>path.join(__dirname,n+'.json')).filter(f=>fs.existsSync(f))
   .map(f=>JSON.parse(fs.readFileSync(f,'utf8')));
 function restoreClaudeReview20261008(data){

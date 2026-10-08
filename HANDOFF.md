@@ -8,7 +8,16 @@
   - FABLE 7,081카드·624연습·표제어 4,928이다. 48세트 마지막 연습으로 그림 법칙 사촌 쌍 14카드를 넣었다.
   - 결함 62건과 고양이 대사를 고쳤다. 정답 공개 대기는 FABLE 75ms/자, 마더텅·EBS 1.5초로 복원했다. 한국어 줄바꿈에 keep-all을 적용했다.
   - 변경 원장은 `pipeline/claude-review-20261008/`에 있다. 내용을 고치면 같은 방식으로 원장을 남기고 복원 체인에 얹는다(그 폴더 README 참고).
-  - 다음 일: 3줄 초과 예문 중 문장이 긴 40장을 다시 써서 영신 확인을 받는다. 긴 정답 칸 66장은 화면 해법을 논의한다. 1·3세트 타일 줄바꿈과 DNA 빈칸 쌍(photograph/data)이 남아 있다.
+  - 다음 일: 1·3세트 타일 줄바꿈이 남아 있다. 43 country 제안도 아직 미반영이다.
+
+- **2026-10-08 긴 예문 다시 쓰기·power 교체 — 브랜치 커밋·푸시, 미배포(영신 확인 대기)**:
+  - 3줄 기준 확정(영신): 정답을 채운 문장 3줄, 긴 정답 칸 때문에 문제 화면 4줄까지 허용. `pipeline/linecheck.cjs`가 두 값을 따로 잰다. 근거는 [PRINCIPLES 2-2](PRINCIPLES.md#2-2-한계-한눈에-들어오는-길이).
+  - 21장을 다시 썼다. 문장이 긴 17장, 화면 5줄이던 political, 360px에서만 넘던 eleventh·practice, 영신이 지적한 power다. power는 "In a democracy, all power comes from the people."로 바꾸고 해설은 `demo-(민중) + -cracy(통치·권력).`이다. 승인된 역사 예문은 뜻과 시기 표시를 지키며 줄였다.
+  - photograph를 1952년 X선 사진 한 장의 문장으로 바꿔 data와 빈칸만 옮긴 DNA 문장 쌍을 해소했다.
+  - 변경 원장: `pipeline/claude-review-20261008/long-examples.json`(복원 체인 맨 위), 사람이 읽는 목록: `long-examples-edits.json`.
+  - 검사: linecheck 390·360px 문장 초과 0, exaudit 27, deepcheck A1~A5 0, Codex 테스트 32/32. 영신이 21장을 확인하고 배포를 요청하면 main에 올린다.
+  - 새로 찾은 화면 문제: 13자 이상 정답 72장은 빈칸 칸이 "12칸 + 1칸"으로 두 줄에 갈라진다. 그중 22장은 화면이 5줄이다. 해당 단어의 칸만 함께 좁히는 안을 영신에게 제안했고, 판단을 기다린다([PRINCIPLES 2-2](PRINCIPLES.md#2-2-한계-한눈에-들어오는-길이)).
+  - `pipeline/collide.py`가 Claude 세션 임시 파일을 읽던 것을 HTML의 `const ALT`를 직접 읽도록 고쳤다(다른 세션에서도 돈다).
 
 - **2026-10-08 승인 예문 두 번째 묶음 공개 배포 완료**: 앱 [cba570b](https://github.com/esqsoy/vocagoyang/commit/cba570b4db3e2ca99f50593ea3c801cedc6e8e72)를 origin/main에 푸시했고 [Pages 37666526957](https://github.com/esqsoy/vocagoyang/actions/runs/37666526957) completed/success, 공개 인덱스·세 과정 HTTP 200 및 로컬 검증본과 LF 정규화 SHA-256 일치를 확인했다. 43 country를 제외한 25안과 공유 원본 May까지 총 26카드·54필드를 배포했다. 43 새 제안은 앱 미반영이다. 남은 후보 551장(43 검토안 1+미작성 550). 사용자는 남은 전체 작업 전에 방향 토의를 원하므로 추가 대량 작성은 아직 시작하지 않는다. 아래 배포 준비·미반영 설명은 각 기록 시점의 이력이다.
 

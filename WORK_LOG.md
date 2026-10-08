@@ -465,6 +465,29 @@
   - 1·3세트 타일 줄바꿈과 DNA 빈칸 쌍(photograph/data)은 이번에 손대지 않았다.
 - 상태: 커밋 후 origin/main 푸시. 공개 상태는 DEPLOYMENT.md를 따른다.
 
+## 2026-10-08 · 긴 예문 다시 쓰기·power 교체·4줄 허용
+
+- 요청·결정(영신):
+  - power: "In ancient Athens, only men could hold political power."는 예문 자체를 바꾸자. "고대 아테네는 민주정의 예시인데 마치 남자만의 정치권력의 예시가 되어버리니까 뉘앙스가 달라져."
+  - "문장이 긴 건 다시 쓰고, 정답이 긴 경우는 인지 부하를 주는 것도 아니고 화면이 모자란 것도 아니니 4줄 가능하게 하는 건 어때?"
+  - Claude 의견: 찬성. 다만 '정답이 길다'를 따로 판정하지 않고 두 값을 잰다. ① 정답을 글자로 채운 문장은 3줄 이내, ② 칸까지 그린 문제 화면은 4줄 이내. 긴 정답이 긴 문장의 핑계가 되지 않게 하려는 것이다.
+- 반영:
+  - `pipeline/linecheck.cjs`: ①·② 측정, `--quiz-max`, 360px 확인.
+  - 21장 다시 쓰기(ex·tr, power는 c도). 원본은 `pipeline/out/lesson02·03, set06~09·25·29·40·43·44.json`, `pipeline/morphology.json`이다. 사람이 읽는 목록은 `pipeline/claude-review-20261008/long-examples-edits.json`, 변경 원장은 `long-examples.json`(복원 체인 맨 위)이다.
+  - 처음 측정할 때 "문장이 긴 40장"이라고 했다. 정답을 채운 문장으로 다시 재 보니 390px에서 17장이었다. 나머지는 빈칸 칸 때문이었다.
+  - 승인된 역사 예문은 뜻과 시기 표시를 지키며 줄였다(WORK_PLAN 역사 시기 표시, 26.10.07 영신). 첫 초안에서는 몽골·실크로드·증기기관의 시기를 지우고 인물 이름(칭기즈 칸, 프랭클린)을 넣었다. 이 규칙을 보고 되돌렸다.
+  - experience②의 대공황 예문(PRINCIPLES 2-4의 나쁜 예)은 단어가 중심인 경구로 바꿨다.
+  - photograph는 "1952년에 찍은 X선 사진 한 장"으로 바꿔 data와 같은 문장에 빈칸만 옮긴 쌍을 해소했다. 연도는 촬영이라는 실제 행위에 붙였다.
+  - `pipeline/collide.py`: Claude 세션 임시 파일(alt.json)을 읽던 것을 HTML `const ALT`로 바꿨다. 내용은 같고(260항목) 결과도 같다(779).
+  - 문서: PRINCIPLES 2-2·2-4·9, UI_STANDARD, WORK_PLAN, HANDOFF, claude-review README.
+- 검증:
+  - linecheck 390px: 문장 3줄 초과 0. 360px도 0.
+  - 캡처에서 manufacturing의 칸이 "12칸 + 1칸"으로 갈라진 것을 보고 linecheck를 고쳤다. 칸은 Range에 첫 줄만 잡혀서, 칸마다 따로 세도록 했다. 고친 뒤 13자 이상 정답 72장이 칸 갈라짐이고, 그중 22장은 화면이 5줄이다(문장 탓 아님). 화면 해법은 영신 판단 대기다.
+  - exaudit 29 → 27. deepcheck A1~A5 0. collide 779(뜻 기준이라 예문 변경과 무관).
+  - Codex 테스트 32/32.
+  - 브라우저 플레이와 실기기 Safari는 이번에 다시 하지 않았다.
+- 상태: 브랜치 `claude/brave-clarke-rixqvy`에 커밋·푸시했다. main 배포는 하지 않았다. 영신이 21장을 확인한 뒤 배포한다.
+
 ## 다음 기록 형식
 
 

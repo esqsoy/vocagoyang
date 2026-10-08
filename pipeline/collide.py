@@ -21,7 +21,12 @@ def norm(v):
     v=re.sub(r"['’]","",(v or '').lower()); v=re.sub(r"[-/]"," ",v)
     return re.sub(r'\s+',' ',v).strip()
 
-ALT=json.load(open('/tmp/claude-0/-home-user-vocagoyang/6607e389-d1a5-5ab0-98ca-41fad42d433a/scratchpad/alt.json'))
+def load_alt():
+    # 이미 정답으로 받아 주는 말: FABLE HTML의 const ALT={...}를 그대로 읽는다(26.10.08 경로 독립으로 고침)
+    h=open(_os.path.join(_os.path.dirname(P),'vocagoyangfable.html'),encoding='utf-8').read()
+    i=h.index('const ALT={'); j=h.index('};',i)
+    return json.loads(re.sub(r'//.*','',h[i+len('const ALT='):j+1]))
+ALT=load_alt()
 cards=[c for c in load() if c[0]<46]
 SENSES=collections.defaultdict(list)          # 표제어 -> [(pos, frozenset(조각))]
 BYFRAG=collections.defaultdict(set)           # 조각 -> {표제어}
@@ -64,7 +69,8 @@ print("세트별 " + " ".join(f"{k}:{v}" for k,v in sorted(c.items())))
 out=[{'set':ln,'ex_name':exn,'word':w.get('word'),'si':w.get('si'),'pos':w.get('pos'),
       'ko':w.get('ko'),'ex':w.get('ex'),'tr':w.get('tr'),'c':w.get('c') or '',
       'rivals':[{'w':r,'set':WHERE[r]} for r in rv]} for ln,exn,w,rv in rows]
-json.dump(out,open('/tmp/claude-0/-home-user-vocagoyang/6607e389-d1a5-5ab0-98ca-41fad42d433a/scratchpad/collisions.json','w'),ensure_ascii=False,indent=1)
+for a in sys.argv:                            # --json=경로 : 후보 목록을 파일로 남긴다
+    if a.startswith('--json='): json.dump(out,open(a.split('=',1)[1],'w'),ensure_ascii=False,indent=1)
 if '--list' in sys.argv:
     only=[int(a.split('=')[1]) for a in sys.argv if a.startswith('--set=')]
     for ln,exn,w,rv in rows:

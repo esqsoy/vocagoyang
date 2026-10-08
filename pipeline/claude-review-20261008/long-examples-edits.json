@@ -1,0 +1,322 @@
+[
+ {
+  "file": "pipeline/out/set43.json",
+  "word": "eleventh",
+  "si": 1,
+  "field": "ex",
+  "old": "Germany agreed to stop fighting in World War I on November {{BLANK}}, 1918.",
+  "new": "The fighting in World War I stopped on November {{BLANK}}, 1918."
+ },
+ {
+  "file": "pipeline/out/set43.json",
+  "word": "eleventh",
+  "si": 1,
+  "field": "tr",
+  "old": "독일은 1918년 11월 11일에 제1차 세계대전에서 싸움을 멈추기로 합의했어.",
+  "new": "제1차 세계대전의 전투는 1918년 11월 11일에 멈췄어."
+ },
+ {
+  "file": "pipeline/out/set06.json",
+  "word": "practice",
+  "si": 3,
+  "field": "ex",
+  "old": "Taking off shoes before entering a home is common {{BLANK}} in Korea.",
+  "new": "In Korea, taking off shoes at home is common {{BLANK}}."
+ },
+ {
+  "file": "pipeline/out/set06.json",
+  "word": "practice",
+  "si": 3,
+  "field": "tr",
+  "old": "한국에선 집에 들어가기 전에 신발을 벗는 게 일반적인 관행이야.",
+  "new": "한국에선 집에서 신발을 벗는 게 일반적인 관행이야."
+ },
+ {
+  "file": "pipeline/out/set44.json",
+  "word": "seventeenth",
+  "si": 1,
+  "field": "ex",
+  "old": "In the {{BLANK}} century, new scientific ideas changed how Europeans understood the world.",
+  "new": "New scientific ideas changed Europe in the {{BLANK}} century."
+ },
+ {
+  "file": "pipeline/out/set44.json",
+  "word": "seventeenth",
+  "si": 1,
+  "field": "tr",
+  "old": "17세기에 새로운 과학적 생각들은 유럽인들이 세상을 이해하는 방식을 바꾸었어.",
+  "new": "17세기에 새로운 과학적 생각들이 유럽을 바꾸었어."
+ },
+ {
+  "file": "pipeline/out/set44.json",
+  "word": "thirteenth",
+  "si": 1,
+  "field": "ex",
+  "old": "The Mongol Empire grew across much of Asia and into Europe in the {{BLANK}} century.",
+  "new": "The Mongol Empire grew from Asia into Europe in the {{BLANK}} century."
+ },
+ {
+  "file": "pipeline/out/set44.json",
+  "word": "thirteenth",
+  "si": 1,
+  "field": "tr",
+  "old": "몽골 제국은 13세기에 아시아의 넓은 지역을 거쳐 유럽까지 커졌어.",
+  "new": "몽골 제국은 13세기에 아시아에서 유럽까지 커졌어."
+ },
+ {
+  "file": "pipeline/out/set40.json",
+  "word": "nineteenth",
+  "si": 1,
+  "field": "ex",
+  "old": "European countries took control of much of Africa in the late {{BLANK}} century.",
+  "new": "European countries took over much of Africa in the late {{BLANK}} century."
+ },
+ {
+  "file": "pipeline/out/set40.json",
+  "word": "twentieth",
+  "si": 1,
+  "field": "ex",
+  "old": "The two world wars (1914–1918 and 1939–1945) took place in the {{BLANK}} century.",
+  "new": "Both world wars (1914–18, 1939–45) were fought in the {{BLANK}} century."
+ },
+ {
+  "file": "pipeline/out/lesson02.json",
+  "word": "government",
+  "si": 1,
+  "field": "ex",
+  "old": "In 1833, the British {{BLANK}} passed a law to protect children working in factories.",
+  "new": "In 1833, the British {{BLANK}} passed a law to protect child workers."
+ },
+ {
+  "file": "pipeline/out/lesson02.json",
+  "word": "government",
+  "si": 1,
+  "field": "tr",
+  "old": "1833년에 영국 정부는 공장에서 일하는 어린이들을 보호하는 법을 통과시켰어.",
+  "new": "1833년에 영국 정부는 일하는 어린이들을 보호하는 법을 통과시켰어."
+ },
+ {
+  "file": "pipeline/out/lesson02.json",
+  "word": "power",
+  "si": 3,
+  "field": "ex",
+  "old": "In ancient Athens, only men could hold political {{BLANK}}.",
+  "new": "In a democracy, all {{BLANK}} comes from the people."
+ },
+ {
+  "file": "pipeline/out/lesson02.json",
+  "word": "power",
+  "si": 3,
+  "field": "tr",
+  "old": "고대 아테네에서는 남자만 정치 권력을 가질 수 있었어.",
+  "new": "민주주의에서 모든 권력은 국민으로부터 나와."
+ },
+ {
+  "file": "pipeline/out/lesson02.json",
+  "word": "power",
+  "si": 3,
+  "field": "c",
+  "old": "political power = 정치 권력. hold power = 권력을 쥐다.",
+  "new": "demo-(민중) + -cracy(통치·권력)."
+ },
+ {
+  "file": "pipeline/out/lesson03.json",
+  "word": "international",
+  "si": 1,
+  "field": "ex",
+  "old": "The first modern Olympics were an {{BLANK}} sports event in Athens in 1896.",
+  "new": "The first modern Olympics in 1896 were an {{BLANK}} event."
+ },
+ {
+  "file": "pipeline/out/lesson03.json",
+  "word": "international",
+  "si": 1,
+  "field": "tr",
+  "old": "첫 근대 올림픽은 1896년 아테네에서 열린 국제 스포츠 대회였어.",
+  "new": "1896년 첫 근대 올림픽은 국제 대회였어."
+ },
+ {
+  "file": "pipeline/out/lesson03.json",
+  "word": "political",
+  "si": 1,
+  "field": "ex",
+  "old": "The French Revolution began in 1789 and changed France's {{BLANK}} system.",
+  "new": "The French Revolution of 1789 changed France's {{BLANK}} system."
+ },
+ {
+  "file": "pipeline/out/lesson03.json",
+  "word": "political",
+  "si": 1,
+  "field": "tr",
+  "old": "프랑스혁명은 1789년에 시작되어 프랑스의 정치 제도를 바꾸었어.",
+  "new": "1789년 프랑스혁명은 프랑스의 정치 제도를 바꾸었어."
+ },
+ {
+  "file": "pipeline/out/lesson03.json",
+  "word": "experience",
+  "si": 2,
+  "field": "ex",
+  "old": "In the 1930s, many Americans {{BLANK}}d poverty during the Great Depression.",
+  "new": "We learn best when we {{BLANK}} things for ourselves."
+ },
+ {
+  "file": "pipeline/out/lesson03.json",
+  "word": "experience",
+  "si": 2,
+  "field": "tr",
+  "old": "1930년대에 많은 미국인이 대공황 동안 빈곤을 겪었어.",
+  "new": "우리는 직접 겪어 볼 때 가장 잘 배워."
+ },
+ {
+  "file": "pipeline/out/set06.json",
+  "word": "produce",
+  "si": 1,
+  "field": "ex",
+  "old": "In the 18th and 19th centuries, British factories used machines to {{BLANK}} goods.",
+  "new": "British factories began to {{BLANK}} goods by machine in the 1700s."
+ },
+ {
+  "file": "pipeline/out/set06.json",
+  "word": "produce",
+  "si": 1,
+  "field": "tr",
+  "old": "18~19세기 영국 공장들은 기계를 이용해 상품을 생산했어.",
+  "new": "1700년대에 영국 공장들은 기계로 상품을 생산하기 시작했어."
+ },
+ {
+  "file": "pipeline/out/set07.json",
+  "word": "knowledge",
+  "si": 1,
+  "field": "ex",
+  "old": "From the 15th century onward, printing helped spread {{BLANK}} across Europe.",
+  "new": "Printing helped spread {{BLANK}} across Europe from the 1400s."
+ },
+ {
+  "file": "pipeline/out/set07.json",
+  "word": "knowledge",
+  "si": 1,
+  "field": "tr",
+  "old": "15세기부터 인쇄술은 유럽 전역에 지식을 퍼뜨리는 데 도움이 되었어.",
+  "new": "1400년대부터 인쇄술은 유럽 전역에 지식을 퍼뜨리는 데 도움이 되었어."
+ },
+ {
+  "file": "pipeline/out/set08.json",
+  "word": "trade",
+  "si": 1,
+  "field": "ex",
+  "old": "In ancient and medieval times, Silk Road {{BLANK}} spread both goods and ideas.",
+  "new": "In ancient and medieval times, Silk Road {{BLANK}} spread goods and ideas."
+ },
+ {
+  "file": "pipeline/out/set09.json",
+  "word": "photograph",
+  "si": 1,
+  "field": "ex",
+  "old": "In 1953, X-ray {{BLANK}}s helped scientists understand DNA's structure.",
+  "new": "An X-ray {{BLANK}} taken in 1952 gave a key clue to DNA's shape."
+ },
+ {
+  "file": "pipeline/out/set09.json",
+  "word": "photograph",
+  "si": 1,
+  "field": "tr",
+  "old": "1953년에 X선 사진은 과학자들이 DNA의 구조를 이해하는 데 도움이 되었어.",
+  "new": "1952년에 찍은 X선 사진 한 장이 DNA 모양의 결정적 단서가 되었어."
+ },
+ {
+  "file": "pipeline/out/set25.json",
+  "word": "interaction",
+  "si": 1,
+  "field": "ex",
+  "old": "Silk Road trade encouraged {{BLANK}} between cultures in ancient and medieval times.",
+  "new": "For centuries, the Silk Road encouraged {{BLANK}} between cultures."
+ },
+ {
+  "file": "pipeline/out/set25.json",
+  "word": "interaction",
+  "si": 1,
+  "field": "tr",
+  "old": "고대와 중세에 실크로드 무역은 문화 사이의 교류를 촉진했어.",
+  "new": "수백 년 동안 실크로드는 문화 사이의 교류를 촉진했어."
+ },
+ {
+  "file": "pipeline/out/set25.json",
+  "word": "vast",
+  "si": 1,
+  "field": "ex",
+  "old": "In the 13th century, the Mongols' {{BLANK}} empire stretched from Asia into Europe.",
+  "new": "In the 13th century, the Mongols built a {{BLANK}} empire."
+ },
+ {
+  "file": "pipeline/out/set25.json",
+  "word": "vast",
+  "si": 1,
+  "field": "tr",
+  "old": "13세기에 몽골인들의 광대한 제국은 아시아에서 유럽까지 뻗어 있었어.",
+  "new": "13세기에 몽골인들은 광대한 제국을 세웠어."
+ },
+ {
+  "file": "pipeline/out/set29.json",
+  "word": "manufacturing",
+  "si": 1,
+  "field": "ex",
+  "old": "In 18th- and 19th-century Britain, steam-powered machines transformed {{BLANK}}.",
+  "new": "Steam engines transformed British {{BLANK}} in the 1700s and 1800s."
+ },
+ {
+  "file": "pipeline/out/set29.json",
+  "word": "manufacturing",
+  "si": 1,
+  "field": "tr",
+  "old": "18~19세기 영국에서 증기로 움직이는 기계들이 제조업을 바꾸어 놓았어.",
+  "new": "1700~1800년대에 증기기관은 영국의 제조업을 바꾸어 놓았어."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "macroeconomics",
+  "si": null,
+  "field": "ex",
+  "old": "We study {{BLANK}} to understand national inflation and unemployment.",
+  "new": "{{BLANK}} studies the economy of a whole country."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "macroeconomics",
+  "si": null,
+  "field": "tr",
+  "old": "국가의 물가 상승과 실업을 이해하려고 거시경제학을 공부해.",
+  "new": "거시경제학은 한 나라의 경제 전체를 연구해."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "microeconomics",
+  "si": null,
+  "field": "ex",
+  "old": "We study {{BLANK}} to understand individual consumers and firms.",
+  "new": "{{BLANK}} studies how consumers and firms make choices."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "microeconomics",
+  "si": null,
+  "field": "tr",
+  "old": "개별 소비자와 기업을 이해하려고 미시경제학을 공부해.",
+  "new": "미시경제학은 소비자와 기업이 어떻게 선택하는지 연구해."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "ecology",
+  "si": null,
+  "field": "ex",
+  "old": "{{BLANK}} studies relationships between living things and their environment.",
+  "new": "{{BLANK}} studies how living things relate to their environment."
+ },
+ {
+  "file": "pipeline/morphology.json",
+  "word": "ecology",
+  "si": null,
+  "field": "tr",
+  "old": "생태학은 생물과 그 환경 사이의 관계를 연구해.",
+  "new": "생태학은 생물이 환경과 어떻게 관계를 맺는지 연구해."
+ }
+]
