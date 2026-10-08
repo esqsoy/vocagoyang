@@ -28,6 +28,10 @@
 .ms-line{background:rgba(24,8,42,.86);border:2px solid var(--line,#6f3c95);border-radius:14px;padding:10px 14px;max-width:100%;
   font-weight:800;line-height:1.5;color:#fff;word-break:keep-all;overflow-wrap:anywhere;box-shadow:0 0 24px rgba(255,79,163,.25);}
 .ms-line .nm{color:var(--pink2,#ff8ac6);font-weight:900;}
+.ms-fx.warp .ms-sub{background:rgba(12,3,24,.88);padding:5px 12px;border-radius:10px;box-shadow:0 0 14px rgba(12,3,24,.9);}
+.ms-fx.warp .ms-close{background:linear-gradient(180deg,rgba(255,211,77,.22),rgba(255,79,163,.18)),#1a0a2e;}
+.ms-sub .gold{color:var(--gold,#ffd34d);text-shadow:0 0 8px rgba(255,211,77,.6);}
+.ms-fx.warp.popped .ms-inner::before{background:radial-gradient(closest-side,rgba(12,3,24,.9),rgba(12,3,24,.7) 60%,transparent);}
 .ms-sub{font-size:.82rem;line-height:1.45;color:var(--muted,#c6bcdd);word-break:keep-all;}
 .ms-close{margin-top:4px;min-height:48px;padding:0 26px;border-radius:999px;border:2px solid var(--gold2,#f5b301);cursor:pointer;
   background:linear-gradient(180deg,rgba(255,211,77,.22),rgba(255,79,163,.18));color:#fff;font:inherit;font-weight:900;font-size:1rem;

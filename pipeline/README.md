@@ -8,7 +8,7 @@
 
 세 과정의 ‘모아둔 카드’ 원본은 `saved-cards/runtime.js`·`style.css`이며 `node pipeline/saved-cards/build.cjs`로 삽입한다. 검사 명령은 `node pipeline/saved-cards/build.cjs --check`와 `node pipeline/tests/saved-cards.test.cjs`다. 각 게임의 DATA·집계·정규 진도에는 넣지 않는다. [저장 범위·ID·게임 연결·검증](saved-cards/README.md)을 참고한다.
 
-## 외운 단어 돌파 축하
+## 익힌 단어 돌파 축하
 
 세 과정 공통 연출의 원본은 `milestones/runtime.js`·`style.css`다. `node pipeline/milestones/build.cjs`로 넣고, `--check`와 `node pipeline/tests/milestones.test.cjs`로 검사한다. 생성 구간은 `MILESTONES_START`~`MILESTONES_END`와 `<style id="milestones-style">`다. [안내](milestones/README.md)
 

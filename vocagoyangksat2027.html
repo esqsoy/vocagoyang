@@ -1424,6 +1424,10 @@ body.playing .appbar{display:flex;padding:0 5px;}
 .ms-line{background:rgba(24,8,42,.86);border:2px solid var(--line,#6f3c95);border-radius:14px;padding:10px 14px;max-width:100%;
   font-weight:800;line-height:1.5;color:#fff;word-break:keep-all;overflow-wrap:anywhere;box-shadow:0 0 24px rgba(255,79,163,.25);}
 .ms-line .nm{color:var(--pink2,#ff8ac6);font-weight:900;}
+.ms-fx.warp .ms-sub{background:rgba(12,3,24,.88);padding:5px 12px;border-radius:10px;box-shadow:0 0 14px rgba(12,3,24,.9);}
+.ms-fx.warp .ms-close{background:linear-gradient(180deg,rgba(255,211,77,.22),rgba(255,79,163,.18)),#1a0a2e;}
+.ms-sub .gold{color:var(--gold,#ffd34d);text-shadow:0 0 8px rgba(255,211,77,.6);}
+.ms-fx.warp.popped .ms-inner::before{background:radial-gradient(closest-side,rgba(12,3,24,.9),rgba(12,3,24,.7) 60%,transparent);}
 .ms-sub{font-size:.82rem;line-height:1.45;color:var(--muted,#c6bcdd);word-break:keep-all;}
 .ms-close{margin-top:4px;min-height:48px;padding:0 26px;border-radius:999px;border:2px solid var(--gold2,#f5b301);cursor:pointer;
   background:linear-gradient(180deg,rgba(255,211,77,.22),rgba(255,79,163,.18));color:#fff;font:inherit;font-weight:900;font-size:1rem;
@@ -4274,10 +4278,11 @@ savedInit();
 /* SAVED_CARDS_END */
 /* MILESTONES_START */
 const MS_COURSE="ksat";
-/* 외운 단어 1,000개 단위 돌파 축하(26.10.08 영신).
-   세 교재는 같은 사이트 저장소를 쓴다. 교재마다 클리어한 연습의 표제어를 적어 두고, 합집합으로 센다(겹치는 단어는 한 번).
-   연출: 외운 단어가 유성우처럼 쏟아지며 1부터 세어 올라가고 → 문턱에서 빛 폭발(주기율표 게임의 광원 효과) → 단어 불꽃놀이. */
-var msLearnedKey='goyang-learned-words-v1',msSeenKey='goyang-milestone-v1',msStep=1000;
+/* 익힌 단어 1,000개 단위 돌파 축하(26.10.08 영신). '익힌 단어' = 클리어한 연습의 표제어(영신: "외운 단어"가 아니라 "익힌").
+   세 교재는 같은 사이트 저장소를 쓴다. 교재마다 클리어한 연습의 표제어를 배운 순서대로 적어 두고, 합집합으로 센다(겹치는 단어는 한 번).
+   연출: 익힌 단어가 배운 순서대로 저 멀리서 날아와 1부터 세고, 도착할 때마다 화면 가득한 단어 벽에 제자리 불이 켜진다
+   → 문턱에서 빛 폭발(주기율표 게임의 광원 효과) → 숫자부터 벽 전체로 반짝임이 번진다. 틀렸던 단어는 금빛. */
+var msLearnedKey='goyang-learned-words-v1',msSeenKey='goyang-milestone-v1',msMissKey='goyang-missed-words-v1',msStep=1000;
 var msBusy=false,msPendingEnding=false,msRaf=0,msNode=null,msOpenedAt=0;
 var msColors=['255,211,77','255,79,163','92,230,255','195,153,255','124,255,178','255,255,255'];
 /* 세는 연출(26.10.08 영신): warp = 외운 단어가 배운 순서대로 저 멀리에서 눈앞으로 날아와 섬광이 된다(확정). rain = 대각선 유성우(첫 후보, 미리 보기로만). */
@@ -4304,6 +4309,18 @@ function msSync(){
   }
   return msUnion(all);
 }
+/* 틀렸던 단어 기록(26.10.08 영신 "틀렸던 단어의 로그가 남나? 그러면 그 단어들은 특히 빛나게"). 전에는 판이 끝나면 사라졌다.
+   판이 끝나거나 중간에 나갈 때, 그 판에서 한 번이라도 틀린 단어를 표제어로 센다(판마다 한 번). 세 교재가 함께 쓴다. */
+function msMissed(){try{const o=JSON.parse(localStorage.getItem(msMissKey)||'{}');return o&&typeof o==='object'&&!Array.isArray(o)?o:{};}catch{return {};}}
+function msLogMisses(s){
+  if(!s||!Array.isArray(s.words))return 0;
+  const done=s._msMissed||(s._msMissed=new Set()),add=[];
+  s.words.forEach(w=>{if(w&&w.wrongEver){const k=msHead(w);if(k&&!done.has(k)){done.add(k);add.push(k);}}});
+  if(!add.length)return 0;
+  const o=msMissed();add.forEach(k=>{o[k]=(Number(o[k])||0)+1;});
+  try{localStorage.setItem(msMissKey,JSON.stringify(o));}catch{}
+  return add.length;
+}
 function msSeen(){try{return Math.max(0,Number(JSON.parse(localStorage.getItem(msSeenKey)||'{}').seen)||0);}catch{return 0;}}
 function msMarkSeen(m){try{localStorage.setItem(msSeenKey,JSON.stringify({seen:m}));}catch{}}
 /* 클리어 직후: 지금까지 넘은 문턱 중 가장 큰 것을 아직 축하하지 않았으면 한 번 띄운다.
@@ -4312,7 +4329,7 @@ function msAfterClear(before){
   const words=msSync(),total=words.size,m=Math.floor(total/msStep)*msStep;
   if(m<msStep||m<=msSeen())return null;
   msMarkSeen(m);
-  const info={m,total,retro:before>=m,words:[...words]};
+  const info={m,total,retro:before>=m,words:[...words],missed:Object.keys(msMissed())};
   msQueue(info);return info;
 }
 function msQueue(info){
@@ -4370,6 +4387,36 @@ function msLight(layer,x,y,plan){
   const rays=mk('ms-rays');
   for(let i=0;i<plan.rays;i++){const r=document.createElement('div');r.className='ms-ray';r.style.transform=`rotate(${i*360/plan.rays}deg) translateX(-50%)`;rays.appendChild(r);}
 }
+/* 단어 벽 배치: 배운 순서대로 줄을 맞춰(양끝 정렬, 벽돌처럼) 화면을 채운다. 1,000단어면 약 8px, 많을수록 작아져 빛의 결이 된다(최소 2.4px). */
+function msWallLayout(words,W,H,measure){
+  let fs=Math.max(2.4,Math.min(9,8.1*Math.sqrt(1000/Math.max(1,words.length))));
+  for(let tries=0;tries<30;tries++){
+    const lh=fs*1.19,pad=Math.max(4,fs*.6),gap=fs*.42,maxW=W-pad*2,rows=[];let row=[],w=0;
+    words.forEach((t,i)=>{const tw=measure(t,fs);if(row.length&&w+gap+tw>maxW){rows.push(row);row=[];w=0;}row.push({i,tw});w+=(row.length>1?gap:0)+tw;});
+    if(row.length)rows.push(row);
+    if(rows.length*lh<=H-8||fs<=2.4){
+      const top=Math.max(4,(H-rows.length*lh)/2),slots=new Array(words.length);
+      rows.forEach((r,ri)=>{const tot=r.reduce((a,b)=>a+b.tw,0),g=ri===rows.length-1||r.length<2?gap:(maxW-tot)/(r.length-1);let x=pad;
+        r.forEach(o=>{slots[o.i]={x,y:top+ri*lh+lh/2,w:o.tw};x+=o.tw+g;});});
+      return {fs,lh,rows:rows.length,slots};
+    }
+    fs=Math.max(2.4,fs*.95);
+  }
+}
+function msWallColor(i,gold){return gold?0:1+((i*7)%5);}                  // 금빛은 틀렸던 단어에만
+function msWallPaint(w,words,lay,gold,i,alpha){const s=lay.slots[i];if(!s)return;
+  if(gold){w.shadowColor='rgba(255,211,77,.9)';w.shadowBlur=6;w.globalAlpha=1;}else{w.shadowBlur=0;w.globalAlpha=alpha;}
+  w.fillStyle=`rgb(${msColors[msWallColor(i,gold)]})`;w.fillText(words[i],s.x,s.y);w.shadowBlur=0;}
+/* 동작 줄이기: 벽을 한 번에 다 켠 정지 화면 */
+function msWallStatic(ov,canvas,words,missed){
+  const cx=canvas.getContext&&canvas.getContext('2d');if(!cx)return;
+  const dpr=Math.min(2,window.devicePixelRatio||1),W=ov.clientWidth||innerWidth,H=ov.clientHeight||innerHeight;
+  canvas.width=W*dpr;canvas.height=H*dpr;cx.setTransform(dpr,0,0,dpr,0,0);
+  const FONT='"Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif',base={};cx.font=`700 10px ${FONT}`;
+  const lay=msWallLayout(words,W,H,(t,fs)=>(base[t]??=cx.measureText(t).width)*fs/10);
+  cx.font=`700 ${lay.fs}px ${FONT}`;cx.textBaseline='middle';cx.textAlign='left';
+  words.forEach((t,i)=>msWallPaint(cx,words,lay,missed.has(t),i,.6));
+}
 function msShow(info){
   msClose(true);msBusy=true;
   const m=info.m,label=m.toLocaleString('en-US'),still=!!window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
@@ -4380,18 +4427,19 @@ function msShow(info){
   mk('div','ms-glory',ov).setAttribute('aria-hidden','true');
   const light=mk('div','ms-light',ov);light.setAttribute('aria-hidden','true');
   const inner=mk('div','ms-inner',ov);
-  mk('div','ms-kicker',inner,'외운 단어');
+  mk('div','ms-kicker',inner,'익힌 단어');
   const numBox=mk('div','ms-num',inner),num=mk('b','',numBox);num.textContent=still?label:'0';
   mk('div','ms-title',inner,'단어 돌파!');
   mk('div','ms-cat',inner,'<img id="msCat" alt="고양고양이">');
   mk('div','ms-line',inner,'<span class="nm">고양고양이</span> '+esc(msLine(m,info.retro))).setAttribute('aria-live','polite');
-  mk('div','ms-sub',inner,info.preview?'미리 보기':'세 교재를 합쳐 겹치는 단어는 한 번만 셌다고양 · 지금 '+info.total.toLocaleString('en-US')+'단어');
+  const missed=new Set(info.missed||[]),goldN=info.words.slice(0,m).filter(k=>missed.has(k)).length;
+  mk('div','ms-sub',inner,(info.preview?'미리 보기':'세 교재를 합쳐 겹치는 단어는 한 번만 셌다고양 · 지금 '+info.total.toLocaleString('en-US')+'단어')+(goldN?'<br><span class="gold">금빛 '+goldN.toLocaleString('en-US')+'개는 한 번 틀렸다가 끝내 익힌 단어라고양</span>':''));
   const btn=mk('button','ms-close',inner,'계속하기 ▶');btn.type='button';
   document.body.appendChild(ov);msNode=ov;msOpenedAt=Date.now();
   if(typeof setCat==='function')setCat('msCat','win');
   ov.addEventListener('click',()=>{if(ov._skip&&ov._skip())return;if(Date.now()-msOpenedAt>1200)msClose();});
   btn.addEventListener('click',e=>{e.stopPropagation();msClose();});
-  if(still){ov.classList.add('popped','still');msSound('fanfare');return;}
+  if(still){ov.classList.add('popped','still');msSound('fanfare');try{msWallStatic(ov,canvas,info.words.slice(0,m),missed);}catch(e){}return;}
   const cx=canvas.getContext&&canvas.getContext('2d');
   if(!cx){num.textContent=label;ov.classList.add('popped');msSound('fanfare');return;}
   msRun(ov,canvas,cx,info,num,light);
@@ -4399,7 +4447,8 @@ function msShow(info){
 function msRun(ov,canvas,cx,info,num,light){
   const dpr=Math.min(2,window.devicePixelRatio||1);let W=0,H=0;
   const size=()=>{W=ov.clientWidth||innerWidth;H=ov.clientHeight||innerHeight;canvas.width=W*dpr;canvas.height=H*dpr;cx.setTransform(dpr,0,0,dpr,0,0);};
-  size();window.addEventListener('resize',size);ov._unsize=()=>window.removeEventListener('resize',size);
+  const onResize=()=>{size();if(wall)buildWall();};
+  size();window.addEventListener('resize',onResize);ov._unsize=()=>window.removeEventListener('resize',onResize);
   const m=info.m,mode=info.mode||msMode,pool=mode==='warp'?info.words.slice():msShuffle(info.words),word=i=>pool[i%pool.length];   // warp는 배운 순서대로
   const ang=Math.PI*0.64,dirx=Math.cos(ang),diry=Math.sin(ang),drift=-dirx/diry;   // 오른쪽 위 → 왼쪽 아래
   const glow=msColors.map(c=>msSprite(c,48)),streak=msColors.map(c=>msStreak(c,150,ang));
@@ -4407,7 +4456,8 @@ function msRun(ov,canvas,cx,info,num,light){
   const rnd=a=>a[Math.floor(Math.random()*a.length)];
   const meteors=[],sparks=[],flashes=[],rains=[],warps=[],blasts=[];
   const plan=msPlan(m),T=plan.T;                                          // 1부터 m까지 세는 시간. 처음엔 천천히, 갈수록 빠르게
-  let t0=performance.now(),spawned=0,arrived=0,popped=false,popAt=0,shells=[],slow=0,low=false,last=t0,shownCount=0,nextAmbient=0,wi=m,rush=false;
+  let t0=performance.now(),spawned=0,arrived=0,popped=false,popAt=0,shells=[],slow=0,low=false,last=t0,shownCount=0,nextAmbient=0,wi=m,rush=false,wall=null,shimmer=-1,wallA=1,twinkles=[],nextTwinkle=0;
+  const missed=new Set(info.missed||[]),gold=pool.slice(0,m).map(k=>missed.has(k)),goldIdx=gold.map((g,i)=>g?i:-1).filter(i=>i>=0);
   ov._skip=()=>{if(popped)return false;rush=true;return true;};          // 세는 중에 누르면 바로 문턱으로
   const spawnMeteor=i=>{
     const sp=(H+W)*(.010+Math.random()*.007);                              // 글자가 읽히는 속도(26.10.08 영신: "너무 빠르게 하지 않아도")
@@ -4421,14 +4471,47 @@ function msRun(ov,canvas,cx,info,num,light){
   const rateNow=t=>plan.ease*m/T*Math.pow(Math.max(.02,Math.min(1,t/T)),plan.ease-1)*1000;   // 초당 도착 수
   const introEnd=plan.intro*plan.introGap;
   const spawnWarp=(i,now,force)=>{
-    const head=force||Math.random()<Math.min(.6,5/rateNow(now-t0-introEnd));           // 크게 다가오는 단어는 초당 다섯 남짓
+    const r=rateNow(now-t0-introEnd),head=force||(gold[i]&&Math.random()<Math.min(1,10/r))||Math.random()<Math.min(.6,5/r);   // 크게 다가오는 단어는 초당 다섯 남짓, 틀렸던 단어는 되도록 정면으로
     let a=Math.random()*Math.PI*2;if(head&&Math.abs(Math.sin(a))<.5)a=Math.random()<.5?Math.PI*(.25+Math.random()*.5):Math.PI*(1.25+Math.random()*.5);   // 눈앞 섬광은 숫자 위아래로
     const rf=head?minD*(.16+Math.random()*.4):minD*(.62+Math.random()*1.1);
-    warps.push({dx:Math.cos(a)*rf,dy:Math.sin(a)*rf,z:Z0,vz:(Z0-ZN)/(60*(1.9+Math.random()*.6)),t:word(i),k:Math.floor(Math.random()*msColors.length),big:head?36+Math.random()*22:16+Math.random()*10,head});
+    warps.push({dx:Math.cos(a)*rf,dy:Math.sin(a)*rf,z:Z0,vz:(Z0-ZN)/(60*(1.9+Math.random()*.6)),t:word(i),k:msWallColor(i,gold[i]),big:(head?36+Math.random()*22:16+Math.random()*10)*(gold[i]?1.15:1),head,idx:i,gold:gold[i]});
   };
   const blast=(x,y,k,r)=>{blasts.push({x,y,k,r,life:0});                   // 단어가 제 빛으로 터지며 불티가 튄다
     for(let i=0;i<7;i++){const a=Math.random()*Math.PI*2,sp=1.5+Math.random()*3.5;sparks.push({x,y,vx:Math.cos(a)*sp,vy:Math.sin(a)*sp,dot:true,k,life:0,max:22+Math.random()*16});}};
-  /* 불꽃은 가운데 글자(숫자·고양이)를 피해 위·아래·양옆에서 터진다 */
+  /* 단어 벽(26.10.08 영신: "내 무지의 어둠이 단어의 빛으로 가득 차는 컨셉"): 날아올 m단어를 배운 순서대로 화면 가득 깔아 둔다.
+     처음엔 어둠이고, 단어가 도착할 때마다 제자리에 불이 켜진다. 문턱에서 숫자부터 벽 전체로 반짝임이 번진다. 불꽃놀이 대신이다. */
+  const commit=i=>{msWallPaint(wall.w,pool,wall,gold[i],i,.74);wall.lit[i]=2;};
+  const buildWall=()=>{
+    const base={};cx.font=`700 10px ${FONT}`;
+    const lay=msWallLayout(pool.slice(0,m),W,H,(t,fs)=>(base[t]??=cx.measureText(t).width)*fs/10);
+    const c=document.createElement('canvas');c.width=W*dpr;c.height=H*dpr;const w=c.getContext('2d');w.setTransform(dpr,0,0,dpr,0,0);
+    w.font=`700 ${lay.fs}px ${FONT}`;w.textBaseline='middle';w.textAlign='left';
+    const old=wall;wall={...lay,c,w,lit:old?old.lit:new Uint8Array(m),ign:old?old.ign:[],mask:document.createElement('canvas')};
+    wall.mask.width=c.width;wall.mask.height=c.height;
+    if(old)for(let i=0;i<m;i++)if(old.lit[i]===2)commit(i);
+  };
+  const ignite=(i,delay)=>{if(!wall||i>=m||wall.lit[i])return;wall.lit[i]=1;wall.ign.push({i,t:-(delay||0)});};
+  if(mode==='warp')buildWall();
+  const drawWall=f=>{
+    cx.globalCompositeOperation='source-over';cx.globalAlpha=wallA;cx.drawImage(wall.c,0,0,W,H);
+    cx.font=`700 ${wall.fs}px ${FONT}`;cx.textBaseline='middle';cx.textAlign='left';
+    for(let j=wall.ign.length-1;j>=0;j--){const g=wall.ign[j];g.t+=f;if(g.t<0)continue;
+      if(g.t>=18){wall.ign.splice(j,1);commit(g.i);continue;}
+      const s=wall.slots[g.i],q=g.t/18,k=msWallColor(g.i,gold[g.i]);if(!s)continue;
+      if(!low){const r=wall.fs*2*(1-q*.4);cx.globalCompositeOperation='lighter';cx.globalAlpha=(1-q)*.5;cx.drawImage(glow[k],s.x+s.w/2-r*1.5,s.y-r*.8,r*3,r*1.6);}   // 불이 켜지는 순간
+      cx.globalCompositeOperation='source-over';cx.globalAlpha=1;cx.fillStyle=q<.35?'#fff':`rgb(${msColors[k]})`;cx.fillText(pool[g.i],s.x,s.y);}
+    if(shimmer>=0){shimmer+=f;const maxD=Math.hypot(Math.max(VX,W-VX),Math.max(VY,H-VY)),R=shimmer/75*maxD,band=maxD*.2;   // 문턱: 숫자에서 벽 전체로 번지는 반짝임
+      if(R>maxD+band)shimmer=-1;
+      else if(!low){const mk=wall.mask.getContext('2d');mk.setTransform(1,0,0,1,0,0);mk.globalCompositeOperation='source-over';mk.clearRect(0,0,wall.mask.width,wall.mask.height);
+        const gr=mk.createRadialGradient(VX*dpr,VY*dpr,Math.max(0,R-band)*dpr,VX*dpr,VY*dpr,(R+band*.25)*dpr);
+        gr.addColorStop(0,'rgba(255,255,255,0)');gr.addColorStop(.75,'rgba(255,255,255,1)');gr.addColorStop(1,'rgba(255,255,255,0)');
+        mk.fillStyle=gr;mk.fillRect(0,0,wall.mask.width,wall.mask.height);mk.globalCompositeOperation='source-in';mk.drawImage(wall.c,0,0);
+        cx.globalCompositeOperation='lighter';cx.globalAlpha=1;cx.drawImage(wall.mask,0,0,W,H);cx.drawImage(wall.mask,0,0,W,H);}}
+    for(let j=twinkles.length-1;j>=0;j--){const tw=twinkles[j];tw.t+=f;if(tw.t>40){twinkles.splice(j,1);continue;}   // 금빛 벽돌이 가끔 반짝인다
+      const s=wall.slots[tw.i],a=Math.sin(Math.PI*tw.t/40);if(!s)continue;cx.globalCompositeOperation='lighter';cx.globalAlpha=a*.7;const r=wall.fs*2.4;cx.drawImage(glow[0],s.x+s.w/2-r*1.6,s.y-r,r*3.2,r*2);}
+    cx.textAlign='center';
+  };
+  /* 불꽃은 가운데 글자(숫자·고양이)를 피해 위·아래·양옆에서 터진다(첫 후보 rain에서만) */
   const SPOTS=[[.2,.15],[.8,.15],[.14,.52],[.86,.52],[.25,.85],[.75,.85],[.5,.93],[.5,.07],[.35,.1],[.65,.1]];
   const shell=(x,y,k,n)=>({at:0,x:W*x+(Math.random()-.5)*W*.08,y:H*y+(Math.random()-.5)*H*.05,k,n,fired:false});
   const planShells=()=>{const n=plan.shells,out=[];
@@ -4449,13 +4532,18 @@ function msRun(ov,canvas,cx,info,num,light){
     msLight(light,r.left-o.left+r.width/2,r.top-o.top+r.height/2,plan);
     ov.classList.add('popped');num.parentNode.classList.add('pop');
     msSound('fanfare');if(navigator.vibrate)try{navigator.vibrate([60,50,140]);}catch(e){}
-    shells=planShells();nextAmbient=shells[shells.length-1].at+1400;
+    if(wall){shimmer=0;nextAmbient=Infinity;for(let i=0;i<m;i++)ignite(i,Math.random()*30);}   // 남은 칸은 물결처럼 켠다
+    else{shells=planShells();nextAmbient=shells[shells.length-1].at+1400;}
   };
   const alphaOf=p=>p.life<p.max*.5?1:Math.max(0,1-(p.life-p.max*.5)/(p.max*.5));
   const frame=now=>{
     const dt=now-last;last=now;const f=Math.min(3,Math.max(.5,dt/16.7));                  // 프레임이 느려도 같은 속도로
     if(dt>34)slow++;else if(slow>0)slow-=.25;if(slow>24)low=true;          // 느린 기기는 빛 번짐과 일부 글자를 줄인다
-    cx.clearRect(0,0,W,H);cx.globalCompositeOperation='lighter';
+    cx.clearRect(0,0,W,H);
+    if(wall){if(popped&&now-popAt>2200)wallA=Math.max(.6,wallA-.012*f);   // 고양이가 나오면 벽은 한 걸음 물러나 액자가 된다
+      if(popped&&now-popAt>2500&&now>nextTwinkle&&goldIdx.length){twinkles.push({i:goldIdx[Math.floor(Math.random()*goldIdx.length)],t:0});nextTwinkle=now+350;}
+      drawWall(f);}
+    cx.globalCompositeOperation='lighter';
     if(!popped){
       const want=rush?m:Math.min(m,Math.ceil(m*Math.pow(Math.min(1,(now-t0)/T),plan.ease)));
       if(rush)spawned=Math.max(spawned,want-24);                          // 건너뛸 때 남은 유성을 한꺼번에 띄우지 않는다
@@ -4476,7 +4564,7 @@ function msRun(ov,canvas,cx,info,num,light){
     }
     for(let i=warps.length-1;i>=0;i--){const p=warps[i],z1=p.z;p.z-=p.vz*f;
       const s2=ZN/Math.max(ZN,p.z),x=VX+p.dx*s2,y=VY+p.dy*s2;p.x=x;p.y=y;p.s=s2;
-      if(p.z<=ZN){warps.splice(i,1);if(!popped&&!rush)arrived++;if(p.head&&x>-40&&x<W+40&&y>-40&&y<H+40)blast(x,y,p.k,p.big*2);continue;}
+      if(p.z<=ZN){warps.splice(i,1);ignite(p.idx);if(!popped&&!rush)arrived++;if(p.head&&x>-40&&x<W+40&&y>-40&&y<H+40)blast(x,y,p.k,p.big*2);continue;}
       if(x<-300||x>W+300||y<-200||y>H+200){p.off=true;continue;}
       const a=Math.min(1,(Z0-p.z)/1.2)*(p.head?1:.6),s1=ZN/z1;p.a=a;
       cx.globalAlpha=a*.5;cx.strokeStyle=`rgb(${msColors[p.k]})`;cx.lineWidth=Math.max(.8,s2*4);cx.beginPath();cx.moveTo(VX+p.dx*s1*.82,VY+p.dy*s1*.82);cx.lineTo(x,y);cx.stroke();   // 단어 뒤 꼬리선(영신: 좋다)
@@ -4490,7 +4578,7 @@ function msRun(ov,canvas,cx,info,num,light){
     if(popped){
       const since=now-popAt;
       for(const sh of shells)if(!sh.fired&&since>=sh.at){sh.fired=true;burst(sh);}
-      if(plan.rain&&!low&&since<2800)for(let n=0;n<plan.rain*f;n++)rains.push({x:Math.random()*W,y:-10-Math.random()*40,vx:(Math.random()-.5)*.5,vy:3+Math.random()*4,k:Math.random()<.8?0:5,r:1.5+Math.random()*2.5});   // 2,000부터 금빛 비
+      if(!wall&&plan.rain&&!low&&since<2800)for(let n=0;n<plan.rain*f;n++)rains.push({x:Math.random()*W,y:-10-Math.random()*40,vx:(Math.random()-.5)*.5,vy:3+Math.random()*4,k:Math.random()<.8?0:5,r:1.5+Math.random()*2.5});   // 2,000부터 금빛 비
       if(since>nextAmbient){const [x,y]=rnd(SPOTS);burst(shell(x,y,Math.floor(Math.random()*msColors.length),26));nextAmbient=since+1500+Math.random()*700;}
       for(let i=flashes.length-1;i>=0;i--){const fl=flashes[i];fl.life+=f;const a=1-fl.life/14;if(a<=0){flashes.splice(i,1);continue;}
         const r=50+fl.life*9;cx.globalAlpha=a;cx.drawImage(glow[fl.k],fl.x-r,fl.y-r,r*2,r*2);}
@@ -4535,16 +4623,20 @@ function msPreviewWords(n){
 function msPreview(){
   const m=/^#milestone(?:=(\d{4,5}))?(?:&fx=(rain|warp))?$/.exec(location.hash||'');if(!m)return false;
   const n=Math.max(msStep,Math.floor((Number(m[1])||msStep)/msStep)*msStep);
-  setTimeout(()=>msShow({m:n,total:n,retro:false,words:msPreviewWords(n),preview:true,mode:m[2]}),600);return true;
+  const words=msPreviewWords(n),miss=Object.keys(msMissed());
+  setTimeout(()=>msShow({m:n,total:n,retro:false,words,preview:true,mode:m[2],missed:miss.length?miss:words.filter((_,i)=>i%14===5)}),600);return true;   // 기록이 없으면 금빛 견본을 섞어 보여 준다
 }
 var msOrigFinish=finishExercise,msOrigEnding=showEnding;
 finishExercise=function(){
   const s=state.session,ok=!!s&&!s.partial&&s.lesson?.kind!=='saved';
+  try{msLogMisses(s);}catch(e){}
   const before=ok?msUnion(msRead()).size:0;
   const r=msOrigFinish.apply(this,arguments);
   if(ok)try{msAfterClear(before);}catch(e){}
   return r;
 };
+var msOrigShow=show;
+show=function(n){if(n!=='game')try{msLogMisses(state.session);}catch(e){}return msOrigShow.apply(this,arguments);};   // 판 중간에 나가도 틀린 단어는 남긴다
 showEnding=function(){if(msBusy){msPendingEnding=true;return;}return msOrigEnding.apply(this,arguments);};
 function msInit(){try{msSync();msPreview();}catch(e){}}
 msInit();

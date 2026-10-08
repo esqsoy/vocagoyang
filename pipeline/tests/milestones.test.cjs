@@ -117,6 +117,38 @@ let progressAt2500=null;
   assert(h.ctx.msPlan(8000).T<=15000,'가장 길어도 15초');
 }
 
-// 10) 세 HTML의 삽입 구간이 원본(runtime.js·style.css)과 같다.
+// 10) 틀렸던 단어 기록: 판이 끝나거나 중간에 나갈 때, 판마다 한 번씩 표제어로 센다(정규·틀린 것만·모아둔 카드 모두).
+{
+  const h=harness(path.join(root,'vocagoyangksat2027.html'));h.ctx.msOrigFinish=()=>'orig';h.ctx.msAfterClear=()=>{};
+  const words=[{term:'Apple',wrongEver:true},{term:'pear',wrongEver:false},{term:'apple',wrongEver:true}];
+  h.state.session={partial:true,lesson:{},words};h.ctx.finishExercise();h.ctx.finishExercise();
+  assert.deepEqual(JSON.parse(h.storage.get('goyang-missed-words-v1')),{apple:1},'같은 판은 한 번, 표제어 기준');
+  h.state.session={partial:false,lesson:{kind:'saved'},words:[{term:'apple',wrongEver:true},{term:'stone',wrongEver:true}]};
+  h.ctx.show('lesson');
+  assert.deepEqual(JSON.parse(h.storage.get('goyang-missed-words-v1')),{apple:2,stone:1},'중간에 나가도 남는다');
+  h.ctx.show('game');assert.equal(JSON.parse(h.storage.get('goyang-missed-words-v1')).stone,1,'게임 화면으로 갈 때는 세지 않는다');
+}
+
+// 11) 단어 벽은 1,000·2,000·4,000단어를 한 화면(393·320px)에 배운 순서대로, 줄을 넘치지 않게 깐다.
+{
+  const h=harness(path.join(root,'vocagoyangfable.html')),words=h.ctx.msPreviewWords(4000),measure=(t,fs)=>t.length*fs*.56;
+  for(const [W,H] of [[393,852],[320,640]])for(const n of [1000,2000,4000]){
+    const lay=h.ctx.msWallLayout(words.slice(0,n),W,H,measure);
+    assert(lay.rows*lay.lh<=H,`${n}단어 ${W}px: 화면 안`);assert(lay.fs>=2.4);
+    assert(lay.slots.every((s,i)=>s&&s.x>=0&&s.x+s.w<=W+.5),`${n}단어 ${W}px: 가로로 넘치지 않음`);
+    assert(lay.slots.every((s,i)=>i===0||s.y>lay.slots[i-1].y||(s.y===lay.slots[i-1].y&&s.x>lay.slots[i-1].x)),'배운 순서대로 왼쪽 위부터');
+  }
+  assert(h.ctx.msWallLayout(words.slice(0,1000),393,852,measure).fs>=7,'1,000단어는 8px 남짓');
+}
+
+// 12) 화면 문구: '외운'이 아니라 '익힌' 단어(영신).
+{
+  const h=harness(path.join(root,'vocagoyangebs2027.html'));h.ctx.msShow({m:1000,total:1003,retro:false,words:['a','b'],missed:['a']});
+  const fx=h.doc.body.children.find(c=>c.id==='msFx'),inner=fx.children.find(c=>c.className==='ms-inner');
+  assert.equal(inner.children[0].innerHTML,'익힌 단어');assert.match(inner.children.find(c=>c.className==='ms-sub').innerHTML,/금빛 1개는 한 번 틀렸다가/);
+  h.ctx.msClose();
+}
+
+// 13) 세 HTML의 삽입 구간이 원본(runtime.js·style.css)과 같다.
 cp.execFileSync(process.execPath,[path.join(root,'pipeline/milestones/build.cjs'),'--check'],{stdio:'pipe'});
-console.log('PASS milestones: 세 교재 합집합 8,309, 1,000 단위 한 번씩, 업데이트 전 학생은 가장 큰 문턱 한 번, 복습 판 제외, 엔딩·포효 순서, 미리 보기 저장 없음, 문턱마다 길고 화려하게');
+console.log('PASS milestones: 세 교재 합집합 8,309, 1,000 단위 한 번씩, 업데이트 전 학생은 가장 큰 문턱 한 번, 복습 판 제외, 엔딩·포효 순서, 미리 보기 저장 없음, 문턱마다 길고 화려하게, 틀린 단어 기록, 단어 벽 배치, 익힌 단어');
