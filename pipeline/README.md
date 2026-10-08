@@ -8,6 +8,10 @@
 
 세 과정의 ‘모아둔 카드’ 원본은 `saved-cards/runtime.js`·`style.css`이며 `node pipeline/saved-cards/build.cjs`로 삽입한다. 검사 명령은 `node pipeline/saved-cards/build.cjs --check`와 `node pipeline/tests/saved-cards.test.cjs`다. 각 게임의 DATA·집계·정규 진도에는 넣지 않는다. [저장 범위·ID·게임 연결·검증](saved-cards/README.md)을 참고한다.
 
+## 외운 단어 돌파 축하
+
+세 과정 공통 연출의 원본은 `milestones/runtime.js`·`style.css`다. `node pipeline/milestones/build.cjs`로 넣고, `--check`와 `node pipeline/tests/milestones.test.cjs`로 검사한다. 생성 구간은 `MILESTONES_START`~`MILESTONES_END`와 `<style id="milestones-style">`다. [안내](milestones/README.md)
+
 ## 학습 위치 조정 · 2026-10-03
 
 `lesson-placement-20261003.json`은 0세트의 독해 핵심 보강 6묶음(77카드)을 화면상 45세트 뒤로 옮긴다. 조립 마지막 단계에서 적용하며, 단어 원본은 계속 `out/lesson00.json`이다. 46세트 등의 `ref.set=0`은 저작 원본 주소이므로 화면 위치에 맞춰 바꾸지 않는다. 표시 번호는 45세트 Exercise 9~14, 저장 키는 기존 0세트의 키를 유지한다. 원본을 직접 45세트에 중복 추가하지 않는다.

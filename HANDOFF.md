@@ -10,6 +10,13 @@
   - 변경 원장은 `pipeline/claude-review-20261008/`에 있다. 내용을 고치면 같은 방식으로 원장을 남기고 복원 체인에 얹는다(그 폴더 README 참고).
   - 다음 일: 1·3세트 타일 줄바꿈이 남아 있다. 43 country 제안도 아직 미반영이다.
 
+- **2026-10-08 외운 단어 돌파 축하 — 브랜치 푸시, main 미배포(영신 확인 대기)**:
+  - 무엇: 세 교재 표제어 합집합(중복 제외)이 1,000 단위를 넘은 판의 결과 화면에서 띄운다.
+  - 연출: 유성우 카운트 → 빛 폭발 → 단어 불꽃놀이 → 고양이. 업데이트 전에 이미 넘은 학생은 첫 클리어 때 가장 큰 문턱 하나만.
+  - 원본은 `pipeline/milestones/`([안내](pipeline/milestones/README.md)), 근거는 [PRINCIPLES 11](PRINCIPLES.md#11-돌파-축하-노력이-끝난-순간에).
+  - 검사: milestones.test PASS, Codex 32/32.
+  - 다음: 영신이 미리 보기(GIF·`#milestone=1000`)를 본 뒤 배포. 실기기 Safari 확인 필요.
+
 - **2026-10-08 지식 예문(지식 지도 방식) — 1~3묶음·새 표제어 50개·고유명사 빈칸 5장 main 배포(영신 "지금까지 된 건 배포")**: 앱 c56d036, Pages 37789424808 completed/success. 기록은 [DEPLOYMENT](DEPLOYMENT.md).
   - 이 아래 항목의 '미배포' 표기는 배포 전 기록이다.
   - 근거: 영신 구상 "5,000단어를 다 보면 세계사 학습의 틀이 되게". 전수 조사([기록](pipeline/knowledge-survey-20261008/README.md)) 뒤 '지도 먼저, 단어를 건다'에 영신 찬성. 원칙은 [PRINCIPLES 2-6](PRINCIPLES.md#2-6-지식-예문은-지도부터-막히는-어휘는-더한다).
@@ -123,6 +130,7 @@
 | 마더텅 문장 안 입력·표시 | `pipeline/mother-tongue-excerpts/runtime.js`, `style.css`. `node pipeline/mother-tongue-excerpts/build.cjs`로 HTML의 해당 구간을 갱신한다. |
 | 공통 IPA·단어 터치 재생 | `pipeline/ipa-effects/runtime.js`, `styles.css`. `node pipeline/ipa-effects/build.cjs`로 세 HTML에 반영한다. 발음 자료도 바꿀 때의 생성 순서는 [IPA 안내](pipeline/ipa-effects/README.md) 참조. |
 | 모아둔 카드·홈 단어 검색 | `pipeline/saved-cards/runtime.js`, `style.css`. `node pipeline/saved-cards/build.cjs`로 세 HTML에 반영한다. [공통 안내](pipeline/saved-cards/README.md) 참조. |
+| 외운 단어 돌파 축하 | `pipeline/milestones/runtime.js`, `style.css`. `node pipeline/milestones/build.cjs`로 세 HTML에 반영한다. [안내](pipeline/milestones/README.md) 참조. |
 | 각 과정 게임과 공통 기능 연결 | `vocagoyangfable.html`, `vocagoyangksat2027.html`, `vocagoyangebs2027.html`의 생성 구간 밖 코드. 연결 함수는 공통 빌더가 만들어 주지 않으므로 함께 확인한다. |
 
 원문 PDF와 전체 OCR은 로컬 참고 자료다. 저장소에는 검토한 발췌 데이터와 코드만 둔다. OCR 텍스트를 원문 검증 없이 확정하지 않는다.
