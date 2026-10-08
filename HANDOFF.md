@@ -4,7 +4,11 @@
 
 ## 현재 결론과 배포 상태
 
-- **2026-10-08 미배포 로컬 변경(Claude, 작업 브랜치 `claude/brave-clarke-rixqvy`)**: FABLE 해설 읽을 시간 예산을 원값(75ms/자)으로 복원했고, 세 과정에 한국어 낱말 단위 줄바꿈(keep-all)을 넣었다. 검사 32개 통과, 320~390px 넘침 0. 배포 대기. 근거는 [WORK_LOG](WORK_LOG.md). 같은 리뷰의 후속: **[PRINCIPLES.md](PRINCIPLES.md) 신설(먼저 읽을 것)**, exaudit 경고 복원(이탈 30장). 예문 3줄 기준, 사촌 쌍 초안, 고양이 대사 복원안, 리뷰 결함 62건 수정은 영신 확인 대기다.
+- **2026-10-08 Claude 리뷰 후속 일괄 배포**: 커밋과 Pages 확인 결과는 [DEPLOYMENT](DEPLOYMENT.md)에 있다. **[PRINCIPLES.md](PRINCIPLES.md)를 먼저 읽을 것** — 고양이 정의, 예문 통제·3줄 한계, 빈칸 중의성, 해설 읽을 시간의 이유를 담았다.
+  - FABLE 7,081카드·624연습·표제어 4,928이다. 48세트 마지막 연습으로 그림 법칙 사촌 쌍 14카드를 넣었다.
+  - 결함 62건과 고양이 대사를 고쳤다. 정답 공개 대기는 FABLE 75ms/자, 마더텅·EBS 1.5초로 복원했다. 한국어 줄바꿈에 keep-all을 적용했다.
+  - 변경 원장은 `pipeline/claude-review-20261008/`에 있다. 내용을 고치면 같은 방식으로 원장을 남기고 복원 체인에 얹는다(그 폴더 README 참고).
+  - 다음 일: 3줄 초과 예문 중 문장이 긴 40장을 다시 써서 영신 확인을 받는다. 긴 정답 칸 66장은 화면 해법을 논의한다. 1·3세트 타일 줄바꿈과 DNA 빈칸 쌍(photograph/data)이 남아 있다.
 
 - **2026-10-08 승인 예문 두 번째 묶음 공개 배포 완료**: 앱 [cba570b](https://github.com/esqsoy/vocagoyang/commit/cba570b4db3e2ca99f50593ea3c801cedc6e8e72)를 origin/main에 푸시했고 [Pages 37666526957](https://github.com/esqsoy/vocagoyang/actions/runs/37666526957) completed/success, 공개 인덱스·세 과정 HTTP 200 및 로컬 검증본과 LF 정규화 SHA-256 일치를 확인했다. 43 country를 제외한 25안과 공유 원본 May까지 총 26카드·54필드를 배포했다. 43 새 제안은 앱 미반영이다. 남은 후보 551장(43 검토안 1+미작성 550). 사용자는 남은 전체 작업 전에 방향 토의를 원하므로 추가 대량 작성은 아직 시작하지 않는다. 아래 배포 준비·미반영 설명은 각 기록 시점의 이력이다.
 
