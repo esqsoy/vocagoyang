@@ -511,7 +511,7 @@
   - Codex 테스트 32/32.
   - 실제 게임 화면 캡처: international 입력 중, microeconomics 문제, manufacturing 정답 공개, government 오답 공개. 긴 단어가 한 줄에 들어가고 콘솔 오류는 없었다.
   - 실기기 Safari는 확인하지 않았다.
-- 상태: 브랜치 커밋·푸시, main 미배포. 영신이 새 5장을 확인하면 배포한다.
+- 상태: 영신 "진짜 훌륭하다! 배포갑시다!" → 0d2d1ab를 main에 fast-forward로 푸시했다. main의 네 HTML blob이 로컬 검증본과 같다. Pages 결과는 DEPLOYMENT.md에 적는다. github.io 직접 확인은 이 세션에서 할 수 없다.
 
 ## 다음 기록 형식
 

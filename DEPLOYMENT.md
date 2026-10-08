@@ -1,3 +1,18 @@
+# 긴 예문 다시 쓰기·학문 용어 예문·긴 정답 칸 배포 · 2026-10-08
+
+- 앱 커밋 [0d2d1ab](https://github.com/esqsoy/vocagoyang/commit/0d2d1ab)를 origin/main에 fast-forward로 푸시했다(3790f5c 다음 3커밋). [Pages 37742755620](https://github.com/esqsoy/vocagoyang/actions/runs/37742755620): build 성공, deploy 진행 중(기록 시점). 완료 결과는 아래 줄에 덧붙인다.
+- 확인 방법: 이 세션은 github.io 접속이 막혀 있다. 그래서 공개 페이지의 HTTP 200과 해시 대조는 **하지 못했다**. 대신 GitHub API로 main의 `index.html`과 세 과정 HTML의 blob SHA가 로컬 검증본과 같은 것을 확인했다.
+- 포함:
+  - 예문 22장(ex·tr, 일부 c): 폰에서 정답을 채운 문장이 3줄을 넘던 예문, political, eleventh·practice, power·democracy(24)·government·interaction·거시/미시경제학. 승인된 역사 예문은 뜻·시기 표시를 지켰다.
+  - 세 교재 공통 빈칸 CSS: 한 단어의 칸이 한 줄에 안 들어가면 그 단어 칸만 함께 좁힌다(13자 이상 정답 72장의 "12칸 + 1칸" 갈라짐 해소).
+  - 문서: PRINCIPLES 2-2(문장 3줄·화면 4줄), 2-4 사례, 2-5(학문 용어) 신설. linecheck·collide 도구 수정.
+- 배포 전 검사(앞선 작업에서 이 내용 그대로 실행): Codex 검사 32/32, linecheck 390·360px 문장 초과 0·화면 초과 0, 세 교재 320~390px 칸 갈라짐 0, exaudit 27, deepcheck A1~A5 0, 원장 역적용 해시 일치, 390px 실제 게임 화면 캡처(긴 정답 입력·공개·오답). 실기기 Safari는 확인하지 않았다.
+- 카드 수·표제어·정답 범위·IPA·진도·저장 키는 그대로다(FABLE 7,081카드·624연습·표제어 4,928). 마더텅·EBS는 빈칸 CSS만 바뀌었고 DATA는 그대로다.
+
+[FABLE 열기](https://esqsoy.github.io/vocagoyang/vocagoyangfable.html?release=0d2d1ab)
+
+---
+
 # Claude 리뷰 후속 일괄 배포 · 2026-10-08
 
 - 앱 커밋 [fdd33ee](https://github.com/esqsoy/vocagoyang/commit/fdd33ee)를 origin/main에 fast-forward로 푸시했다(59aaf81 다음 6커밋). [Pages 37721488700](https://github.com/esqsoy/vocagoyang/actions/runs/37721488700)은 completed/success다.
