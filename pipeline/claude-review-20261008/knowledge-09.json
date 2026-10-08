@@ -1,0 +1,940 @@
+{
+ "date": "2026-10-08",
+ "name": "knowledge-09",
+ "status": "applied_locally_verified",
+ "authorization": "영신(2026-10-08): \"이제 예문작업을 완성해버리자! 전부!\"",
+ "summary": "지식 지도 13장 세계 지리(mountain·ocean·desert)와 14장 경구 11장. corrupt는 액턴의 실제 문구 'power tends to corrupt'로 바로잡았다. honesty는 policy가 표제어 밖이라 두고 policy 추가를 제안한다. 목록 pipeline/knowledge-map/batch-09.json.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "1b739f72332c4a3e2611f27f2a53e02771c81d63243d33bcfea56fabbf5ff704",
+   "afterHash": "0c5a5dd806af51c46cfa2030f556c0c0c16b5300e90a8baeaf75fe6788049966",
+   "changes": [
+    {
+     "path": [
+      4,
+      "exercises",
+      4,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Her English is almost {{BLANK}}.",
+     "new": "Practice makes {{BLANK}}."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      4,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "걔 영어는 거의 완벽해.",
+     "new": "연습이 완벽을 만들어."
+    },
+    {
+     "path": [
+      9,
+      "exercises",
+      0,
+      "words",
+      12,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "That {{BLANK}} is covered with snow.",
+     "new": "Everest is the highest {{BLANK}} in the world."
+    },
+    {
+     "path": [
+      9,
+      "exercises",
+      0,
+      "words",
+      12,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "저 산은 눈으로 덮여 있어.",
+     "new": "에베레스트는 세계에서 가장 높은 산이야."
+    },
+    {
+     "path": [
+      9,
+      "exercises",
+      0,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "",
+     "new": "산 이름 앞에는 Mount를 붙인다(Mount Everest). 산맥은 mountain range."
+    },
+    {
+     "path": [
+      12,
+      "exercises",
+      6,
+      "words",
+      9,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This fish lives deep in the {{BLANK}}.",
+     "new": "The Pacific is the largest and deepest {{BLANK}} on Earth."
+    },
+    {
+     "path": [
+      12,
+      "exercises",
+      6,
+      "words",
+      9,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 물고기는 깊은 대양 속에 살아.",
+     "new": "태평양은 지구에서 가장 크고 가장 깊은 대양이야."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      0,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "There was a long {{BLANK}} after his question.",
+     "new": "Speech is silver, but {{BLANK}} is golden."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      0,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그의 질문 뒤에 긴 침묵이 흘렀어.",
+     "new": "말은 은이지만, 침묵은 금이야."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      0,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} to Busan takes three hours.",
+     "new": "A {{BLANK}} of a thousand miles begins with a single step."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      0,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "부산까지 가는 여정은 세 시간 걸려.",
+     "new": "천 리 길도 한 걸음부터 시작해."
+    },
+    {
+     "path": [
+      15,
+      "exercises",
+      4,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Rain is rare in this {{BLANK}}.",
+     "new": "The Sahara in North Africa is the largest hot {{BLANK}} on Earth."
+    },
+    {
+     "path": [
+      15,
+      "exercises",
+      4,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 사막에는 비가 드물게 와.",
+     "new": "북아프리카의 사하라는 지구에서 가장 큰 더운 사막이야."
+    },
+    {
+     "path": [
+      15,
+      "exercises",
+      4,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "dessert(후식)와 혼동 주의: s 하나면 사막, 둘이면 디저트.",
+     "new": "s 하나면 사막, 둘(dessert)이면 후식. 비가 아주 적은 땅이라 추운 사막(cold desert)도 있다."
+    },
+    {
+     "path": [
+      16,
+      "exercises",
+      1,
+      "words",
+      13,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Loud {{BLANK}} came from the next room.",
+     "new": "{{BLANK}} is the best medicine."
+    },
+    {
+     "path": [
+      16,
+      "exercises",
+      1,
+      "words",
+      13,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "옆방에서 큰 웃음소리가 들려왔어.",
+     "new": "웃음이 최고의 약이야."
+    },
+    {
+     "path": [
+      16,
+      "exercises",
+      1,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "laugh(웃다)의 명사형.",
+     "new": "laugh(웃다)의 명사형. 이 속담은 laughing이 아니라 laughter로 굳어 있다."
+    },
+    {
+     "path": [
+      16,
+      "exercises",
+      6,
+      "words",
+      9,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Children have such a rich {{BLANK}}.",
+     "new": "Einstein said that {{BLANK}} is more important than knowledge."
+    },
+    {
+     "path": [
+      16,
+      "exercises",
+      6,
+      "words",
+      9,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "애들은 상상력이 정말 풍부해.",
+     "new": "아인슈타인은 상상력이 지식보다 중요하다고 했어."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      2,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "What is the {{BLANK}} of these numbers?",
+     "new": "The whole is greater than the {{BLANK}} of its parts."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      2,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 숫자들 합이 얼마야?",
+     "new": "전체는 부분의 합보다 커."
+    },
+    {
+     "path": [
+      21,
+      "exercises",
+      1,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The bottle was marked '{{BLANK}}'.",
+     "new": "Paracelsus said that the dose makes the {{BLANK}}."
+    },
+    {
+     "path": [
+      21,
+      "exercises",
+      1,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "병에는 '독'이라고 표시되어 있었어.",
+     "new": "파라켈수스는 용량이 독을 만든다고 했어."
+    },
+    {
+     "path": [
+      29,
+      "exercises",
+      6,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Being honest is a great {{BLANK}}.",
+     "new": "Patience is a {{BLANK}}."
+    },
+    {
+     "path": [
+      29,
+      "exercises",
+      6,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "정직한 것은 훌륭한 미덕이야.",
+     "new": "인내는 미덕이야."
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      5,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Power {{BLANK}}s even the kindest people.",
+     "new": "Lord Acton wrote that power tends to {{BLANK}}."
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      5,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "권력은 가장 착한 사람까지 타락시켜.",
+     "new": "액턴 경은 권력은 사람을 타락시키기 쉽다고 썼어."
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      5,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "사람을 도덕적으로 타락시키거나 자료를 손상시키다. corrupt a file은 파일을 손상시키다.",
+     "new": "corrupt a file은 '파일을 손상시키다'. 뒤는 absolute power corrupts absolutely."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      1,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Pull the {{BLANK}} to open the machine door.",
+     "new": "Archimedes said that with a long enough {{BLANK}}, he could move the world."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      1,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "기계 문을 열려면 그 레버를 당겨.",
+     "new": "아르키메데스는 충분히 긴 지렛대만 있으면 세상을 움직일 수 있다고 했어."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      2,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Her {{BLANK}} to the news surprised me.",
+     "new": "The opposite of love is not hate, it's {{BLANK}}."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      2,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "걔가 그 소식에 무관심해서 놀랐어.",
+     "new": "사랑의 반대는 미움이 아니라 무관심이야."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson04.json": {
+   "beforeHash": "5ac321c51326e0d1a6c94c1aa3e8fd9cd5705fe6436343c48250db28ed5cd1fb",
+   "afterHash": "c0b74d62fada003be767b1cc2134e9ee5aaac3801d4a252dfde4fd13d8d01ae6"
+  },
+  "pipeline/out/set09.json": {
+   "beforeHash": "067d9abbeaf358120975f4242b42abc96ea8965e96c4f1dedf62941eb4405062",
+   "afterHash": "d2a1a069ffb6cc00437a4cbcf4926da9287e05e14db0e931b980b032c59c0e59"
+  },
+  "pipeline/out/set12.json": {
+   "beforeHash": "d6737114033aa1c43f7ed3eb8c028a0c33f56a80d36550c1112da31109eb65fe",
+   "afterHash": "01e9410e4e857983a0a5a25462a55edca6c10f935ec93aca96c0c25ee3d5c38d"
+  },
+  "pipeline/out/set14.json": {
+   "beforeHash": "7487e3687c98bc4524711998b8c2323338480c94b279890e36623aba49eb719c",
+   "afterHash": "3eff772706d24696957696b7f897cc17436cc1f5a94a1d8e383f41da0562a1c6"
+  },
+  "pipeline/out/set15.json": {
+   "beforeHash": "e3d23f425da70c1648fcee75fa638147c5f99d91ec07ac687feb18ea3ffed1a5",
+   "afterHash": "95d7f2addc914208afdb48a5194e8a1e6d562ad8bef708db62f8116e50122888"
+  },
+  "pipeline/out/set16.json": {
+   "beforeHash": "0a45edb94892688d2fe7af24fcc6506142c5f8279fe63b82c43fa2f5b19e077f",
+   "afterHash": "9825378cca8007078aab5c12dcb991029afed91a08de6c10f4ce9ca6fc70ce18"
+  },
+  "pipeline/out/set18.json": {
+   "beforeHash": "7606102c7a693c48ab4195eafa0ed1cfc3e3b75f859f649e1f7acca9fd4a74c4",
+   "afterHash": "afaaca182870f5ccfa0cb574c9b218acfdfd034e471e07fdb9ad09fa5e3493c1"
+  },
+  "pipeline/out/set21.json": {
+   "beforeHash": "822eb97958caf3fc2f7d88d8440d409fd98e901dc44c3fbbabbf3ad62ebe38ff",
+   "afterHash": "02fc90c2f64ef42454f8a40dfd05caa4336c1e44d5436d91b90b3d9f97018b4d"
+  },
+  "pipeline/out/set29.json": {
+   "beforeHash": "39626be5bb22ff6a71389aaaccdc3f902cbfe91dcaa3907e687f29812aec0f00",
+   "afterHash": "a420bc872ee5924b59e956db4e4e851f9a2d36a878aff413616b286be3e21261"
+  },
+  "pipeline/out/set34.json": {
+   "beforeHash": "79a61f40cdd7a570a88f71fe63db5145238160ce83b25398a9be5d0229fe8027",
+   "afterHash": "5ec286b7ec7c2bbf32bfc5946beaaa21f208797e870b96969c55e4c602147790"
+  },
+  "pipeline/out/set42.json": {
+   "beforeHash": "a97709b9fe5b23b4df905a70d29cb9432cc2842fb7fb84a24f96caf6d33c3870",
+   "afterHash": "9716de42165dae47efb4ab16d72f56244f2af477fdd8af5866f9aa35dc5038dc"
+  },
+  "pipeline/out/set44.json": {
+   "beforeHash": "6b2b661d7c66ba36f115d4dbba3cd7b6cf099e39fdaac2a1b9090bd85d4c13ec",
+   "afterHash": "53f5fe00801901744fc473c4321fb4ba0661470648b889ef6024895c81e493a6"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson04.json": [
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Her English is almost {{BLANK}}.",
+    "new": "Practice makes {{BLANK}}."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "걔 영어는 거의 완벽해.",
+    "new": "연습이 완벽을 만들어."
+   }
+  ],
+  "pipeline/out/set09.json": [
+   {
+    "path": [
+     0,
+     "words",
+     12,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "That {{BLANK}} is covered with snow.",
+    "new": "Everest is the highest {{BLANK}} in the world."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "저 산은 눈으로 덮여 있어.",
+    "new": "에베레스트는 세계에서 가장 높은 산이야."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "",
+    "new": "산 이름 앞에는 Mount를 붙인다(Mount Everest). 산맥은 mountain range."
+   }
+  ],
+  "pipeline/out/set12.json": [
+   {
+    "path": [
+     6,
+     "words",
+     9,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This fish lives deep in the {{BLANK}}.",
+    "new": "The Pacific is the largest and deepest {{BLANK}} on Earth."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 물고기는 깊은 대양 속에 살아.",
+    "new": "태평양은 지구에서 가장 크고 가장 깊은 대양이야."
+   }
+  ],
+  "pipeline/out/set14.json": [
+   {
+    "path": [
+     0,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "There was a long {{BLANK}} after his question.",
+    "new": "Speech is silver, but {{BLANK}} is golden."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그의 질문 뒤에 긴 침묵이 흘렀어.",
+    "new": "말은 은이지만, 침묵은 금이야."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} to Busan takes three hours.",
+    "new": "A {{BLANK}} of a thousand miles begins with a single step."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "부산까지 가는 여정은 세 시간 걸려.",
+    "new": "천 리 길도 한 걸음부터 시작해."
+   }
+  ],
+  "pipeline/out/set15.json": [
+   {
+    "path": [
+     4,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Rain is rare in this {{BLANK}}.",
+    "new": "The Sahara in North Africa is the largest hot {{BLANK}} on Earth."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 사막에는 비가 드물게 와.",
+    "new": "북아프리카의 사하라는 지구에서 가장 큰 더운 사막이야."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "dessert(후식)와 혼동 주의: s 하나면 사막, 둘이면 디저트.",
+    "new": "s 하나면 사막, 둘(dessert)이면 후식. 비가 아주 적은 땅이라 추운 사막(cold desert)도 있다."
+   }
+  ],
+  "pipeline/out/set16.json": [
+   {
+    "path": [
+     1,
+     "words",
+     13,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Loud {{BLANK}} came from the next room.",
+    "new": "{{BLANK}} is the best medicine."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     13,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "옆방에서 큰 웃음소리가 들려왔어.",
+    "new": "웃음이 최고의 약이야."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "laugh(웃다)의 명사형.",
+    "new": "laugh(웃다)의 명사형. 이 속담은 laughing이 아니라 laughter로 굳어 있다."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     9,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Children have such a rich {{BLANK}}.",
+    "new": "Einstein said that {{BLANK}} is more important than knowledge."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "애들은 상상력이 정말 풍부해.",
+    "new": "아인슈타인은 상상력이 지식보다 중요하다고 했어."
+   }
+  ],
+  "pipeline/out/set18.json": [
+   {
+    "path": [
+     2,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "What is the {{BLANK}} of these numbers?",
+    "new": "The whole is greater than the {{BLANK}} of its parts."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 숫자들 합이 얼마야?",
+    "new": "전체는 부분의 합보다 커."
+   }
+  ],
+  "pipeline/out/set21.json": [
+   {
+    "path": [
+     1,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The bottle was marked '{{BLANK}}'.",
+    "new": "Paracelsus said that the dose makes the {{BLANK}}."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "병에는 '독'이라고 표시되어 있었어.",
+    "new": "파라켈수스는 용량이 독을 만든다고 했어."
+   }
+  ],
+  "pipeline/out/set29.json": [
+   {
+    "path": [
+     6,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Being honest is a great {{BLANK}}.",
+    "new": "Patience is a {{BLANK}}."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "정직한 것은 훌륭한 미덕이야.",
+    "new": "인내는 미덕이야."
+   }
+  ],
+  "pipeline/out/set34.json": [
+   {
+    "path": [
+     5,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Power {{BLANK}}s even the kindest people.",
+    "new": "Lord Acton wrote that power tends to {{BLANK}}."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "권력은 가장 착한 사람까지 타락시켜.",
+    "new": "액턴 경은 권력은 사람을 타락시키기 쉽다고 썼어."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "사람을 도덕적으로 타락시키거나 자료를 손상시키다. corrupt a file은 파일을 손상시키다.",
+    "new": "corrupt a file은 '파일을 손상시키다'. 뒤는 absolute power corrupts absolutely."
+   }
+  ],
+  "pipeline/out/set42.json": [
+   {
+    "path": [
+     1,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Pull the {{BLANK}} to open the machine door.",
+    "new": "Archimedes said that with a long enough {{BLANK}}, he could move the world."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "기계 문을 열려면 그 레버를 당겨.",
+    "new": "아르키메데스는 충분히 긴 지렛대만 있으면 세상을 움직일 수 있다고 했어."
+   }
+  ],
+  "pipeline/out/set44.json": [
+   {
+    "path": [
+     2,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Her {{BLANK}} to the news surprised me.",
+    "new": "The opposite of love is not hate, it's {{BLANK}}."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "걔가 그 소식에 무관심해서 놀랐어.",
+    "new": "사랑의 반대는 미움이 아니라 무관심이야."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson04.json": [],
+  "pipeline/out/set09.json": [],
+  "pipeline/out/set12.json": [],
+  "pipeline/out/set14.json": [],
+  "pipeline/out/set15.json": [],
+  "pipeline/out/set16.json": [],
+  "pipeline/out/set18.json": [],
+  "pipeline/out/set21.json": [],
+  "pipeline/out/set29.json": [],
+  "pipeline/out/set34.json": [],
+  "pipeline/out/set42.json": [],
+  "pipeline/out/set44.json": []
+ }
+}
