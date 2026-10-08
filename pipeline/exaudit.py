@@ -5,13 +5,18 @@ audit.py의 어휘 통제는 LDV+used400+화이트리스트+0세트 기준이라
 영신 기준(26.9.16): "꼭 세트에 맞춰갈 필요는 없다. Fable 단어 수준이면 된다."
 → 허용 = 전 세트 표제어 4,713 + 화이트리스트 + 불규칙 변화형 + 수사.
 사용: python3 pipeline/exaudit.py   (레포 어디서 돌려도 된다)
-26.9.16 기준 0~45세트 5,752장 전수 위반 0장."""
+26.9.16 기준 0~45세트 5,752장 전수 위반 0장.
+
+26.10.08 영신 재확인: "통제는 필요해. 한계도 필요해." 예문은 이제 기억할 지식을 담는 도구다.
+그런데 학생이 모르는 단어가 섞이면 그 지식이 읽히지 않는다. 그래서 이 검사는 경고등으로 계속 돈다.
+판정은 사람이 한다(고유한 지식어 하나 정도는 허용할 수 있다). 다만 경고가 0에서 늘면 반드시 본다.
+26.9.19~10.8 사이 SPEC이 "과거 명세"로 분류되며 이 검사가 빠졌고, 0장이던 이탈이 36장이 됐다."""
 import re, json, glob, os, sys, collections
 import os as _os
 P=_os.path.dirname(_os.path.abspath(__file__))
 white=set(json.load(open(f'{P}/whitelist.json')))
 NUMS=set("one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty thirty forty fifty sixty seventy eighty ninety hundred thousand million billion first second third fourth fifth".split())
-IRR=set("was were is are am been being has had having does did done doing went gone goes going said says saw seen made got gotten took taken came gave given knew known thought told found felt kept left met ran sat stood heard held brought bought caught taught wore chose spoke spoken broke broken wrote written ate eaten drank drove driven fell fallen grew grown drew drawn flew threw thrown won lost paid sent spent built meant sold became children men women people feet teeth mice better best worse worst an froze frozen sank sunk swam swum rang rung sang sung bit bitten hid hidden shook shaken woke woken slid crept swept wept slept fed led bled bred bent lent spun stung strung swung hung dug stuck struck rode ridden rose risen shone shot sought fought bound ground wound blew withdrew forgave forgiven forgot forgotten chosen tore torn worn swore sworn bore borne began begun sprang sprung shrank shrunk stank laid lain lay dealt burnt learnt dreamt spat split spread shed hurt cut put set let hit quit read".split())
+IRR=set("understood kitty was were is are am been being has had having does did done doing went gone goes going said says saw seen made got gotten took taken came gave given knew known thought told found felt kept left met ran sat stood heard held brought bought caught taught wore chose spoke spoken broke broken wrote written ate eaten drank drove driven fell fallen grew grown drew drawn flew threw thrown won lost paid sent spent built meant sold became children men women people feet teeth mice better best worse worst an froze frozen sank sunk swam swum rang rung sang sung bit bitten hid hidden shook shaken woke woken slid crept swept wept slept fed led bled bred bent lent spun stung strung swung hung dug stuck struck rode ridden rose risen shone shot sought fought bound ground wound blew withdrew forgave forgiven forgot forgotten chosen tore torn worn swore sworn bore borne began begun sprang sprung shrank shrunk stank laid lain lay dealt burnt learnt dreamt spat split spread shed hurt cut put set let hit quit read".split())
 
 def load():
     fs=sorted(glob.glob(f'{P}/out/lesson0[0-4].json'))+sorted(glob.glob(f'{P}/out/set*.json'),
@@ -30,6 +35,16 @@ def load():
 cards=load()
 HEAD={ (w.get('word') or w.get('en') or '').lower() for _,_,w,_ in cards }
 HEAD.discard('')
+# 46~50세트는 set*.json이 아니라 별도 원본에서 조립되므로 HTML DATA에서 표제어를 보탠다(26.10.08).
+try:
+    _h=open(_os.path.join(_os.path.dirname(P),'vocagoyangfable.html'),encoding='utf-8').read()
+    for _L in json.loads(re.search(r'const DATA = (\[.*?\]);\n',_h,re.S).group(1)):
+        for _e in _L['exercises']:
+            for _w in _e['words']:
+                for _k in ('word','en'):
+                    _v=(_w.get(_k) or '').lower().strip()
+                    if _v: HEAD.add(_v); HEAD.update(_v.split())
+except Exception as _err: print('주의: HTML 표제어를 읽지 못함', _err)
 ALLOWED = HEAD | white | NUMS | IRR
 
 def tok_ok(t):
@@ -56,8 +71,9 @@ for ln,exname,w,f in cards:
     exs=w.get('ex','') or ''
     # 빈칸에 붙은 앞뒤 조각과 뒤따르는 축약(-'s, -n't …)까지 함께 지운다
     body=re.sub(r"[A-Za-z']*\{\{BLANK\}\}[a-z]*(?:'[a-z]+|n't)?",' ',exs)
+    body=re.sub(r"\b\d+[A-Za-z]*",' ',body)   # 1800s·18th·3x의 s/th/x 조각 제거
     toks=re.findall(r"[A-Za-z][A-Za-z']*",body)
-    miss=sorted({t for t in toks if not t[0].isupper() and not tok_ok(t)})
+    miss=sorted({t for t in toks if len(t)>1 and not t[0].isupper() and not tok_ok(t)})  # 한 글자(수식의 x 등)는 단어가 아니다
     if miss:
         bad[ln].append((w.get('word') or w.get('en'), w.get('si'), miss, exs))
         for m in miss: tally[m]+=1

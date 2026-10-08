@@ -2,6 +2,7 @@
 
 ## 시작할 때
 
+0. **[PRINCIPLES.md](PRINCIPLES.md)를 먼저 읽는다.** 규칙의 이유와, 이유를 놓쳤을 때 실제로 생긴 일이 있다. 고양이 말투·예문 통제·빈칸 중의성·해설 읽을 시간은 여기서 근거를 확인한다.
 1. `git status --short`로 진행 중인 변경을 확인한다. 기존 변경을 덮어쓰거나 정리하지 않는다.
 2. [HANDOFF.md](HANDOFF.md)에서 최신 상태·원본 경로·미배포 작업을 확인한다.
 3. 화면·입력·발음을 다루면 [UI_STANDARD.md](UI_STANDARD.md), 어휘·예문·구성을 다루면 [WORK_PLAN.md](WORK_PLAN.md)를 읽는다. [WORK_LOG.md](WORK_LOG.md)는 결정과 작업 경위 확인용이다.
@@ -22,6 +23,6 @@
 
 - 의미 있는 변경이나 결정이 생기면 [WORK_LOG.md](WORK_LOG.md)에 날짜, 요청·결정, 변경 파일, 실제 검증, 남은 일과 배포 상태를 추가한다.
 - [HANDOFF.md](HANDOFF.md)는 현재 상태로 갱신한다. 대기 중인 일을 완료나 배포로 표시하지 않는다.
-- 표시 원칙이 바뀌면 [UI_STANDARD.md](UI_STANDARD.md), 교육·어휘 합의가 바뀌면 [WORK_PLAN.md](WORK_PLAN.md)를 함께 고친다. 기준 전문을 여러 파일에 중복하지 않고 링크한다.
+- 표시 원칙이 바뀌면 [UI_STANDARD.md](UI_STANDARD.md), 교육·어휘 합의가 바뀌면 [WORK_PLAN.md](WORK_PLAN.md)를 함께 고친다. 원칙이 바뀌거나 새로 생기면 그 **이유와 결정자·날짜**를 [PRINCIPLES.md](PRINCIPLES.md)에 남긴다. 문서를 새 형식으로 옮길 때는 옮기기 전 문서의 "왜"가 빠지지 않았는지 대조한다. 기준 전문을 여러 파일에 중복하지 않고 링크한다.
 - 배포한 경우에만 [DEPLOYMENT.md](DEPLOYMENT.md)에 커밋과 확인한 공개 상태를 기록한다. 새로 실행한 검사와 앞선 작업에서 통과한 검사를 구분한다.
 - 문서만 바꾼 경우에는 링크·내용 일관성을 확인한다. 코드 변경에 필요한 검사는 HANDOFF와 해당 파이프라인 문서를 참고한다.
