@@ -1,3 +1,22 @@
+# Claude 리뷰 후속 일괄 배포 · 2026-10-08
+
+- 앱 커밋 [fdd33ee](https://github.com/esqsoy/vocagoyang/commit/fdd33ee)를 origin/main에 fast-forward로 푸시했다(59aaf81 다음 6커밋). [Pages 37721488700](https://github.com/esqsoy/vocagoyang/actions/runs/37721488700)은 completed/success다.
+- 확인 방법: 이 세션은 github.io 접속이 막혀 있다. 그래서 공개 페이지의 HTTP 200과 해시 대조는 **하지 못했다**. 대신 GitHub API로 main의 `vocagoyangfable.html`·`index.html` blob이 로컬 검증본과 같은 것을 확인했다. 공개 화면은 영신이 열어 확인한다.
+- 포함:
+  - FABLE 해설 읽을 시간 원값 복원(75ms/자), 마더텅·EBS 1.5초 복원
+  - 세 과정 한국어 낱말 단위 줄바꿈
+  - 결함 62건(중의성 52 등)과 meow 12개, 동의어 대사 4종
+  - in fifteen minutes의 after 허용 제거
+  - 48세트 그림 법칙 사촌 쌍 14카드
+  - PRINCIPLES.md 신설, linecheck/exaudit 도구
+- 배포 전 검사: Codex 검사 32/32 통과(session 624연습·7,488회 포함). 두 변경 원장 역적용 해시 일치. 세 과정 × 320/360/390px 넘침 0. 390px 플레이(정답·오답·따라쓰기·사촌 쌍 연습·검색)와 콘솔 오류 0. 실기기 Safari는 확인하지 않았다.
+- 카드 수: FABLE 7,067 → 7,081, 연습 623 → 624, 표제어 4,916 → 4,928. 인덱스는 자동 집계다(누적 8,292).
+- 진도: 48세트는 새 연습 하나만 늘었고 기존 22연습의 기록 키는 그대로다. 저장 키·다른 세트 진도도 변화 없다.
+
+[FABLE 열기](https://esqsoy.github.io/vocagoyang/vocagoyangfable.html?release=fdd33ee)
+
+---
+
 # 기억할 예문 두 번째 묶음 배포 · 2026-10-08
 
 - 앱 [cba570b](https://github.com/esqsoy/vocagoyang/commit/cba570b4db3e2ca99f50593ea3c801cedc6e8e72)를 origin/main에 푸시했고 [Pages 37666526957](https://github.com/esqsoy/vocagoyang/actions/runs/37666526957) completed/success, 공개 인덱스·세 과정 HTTP 200 및 로컬 검증본과 LF 정규화 SHA-256 일치를 확인했다.
