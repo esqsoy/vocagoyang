@@ -1,3 +1,17 @@
+# 지식 4묶음·monarchy·해설 규칙·돌파 축하 폭죽 배포 · 2026-10-08
+
+- 앱 커밋 [a7299ad](https://github.com/esqsoy/vocagoyang/commit/a7299ad)를 origin/main에 fast-forward로 푸시했다(430928f 다음 6커밋). [Pages 37832018030](https://github.com/esqsoy/vocagoyang/actions/runs/37832018030): completed/success. 영신: "시원하다! 완벽합니다! 배포하고"
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다. github.io는 이 세션에서 접속이 막혀 공개 페이지는 직접 열어 보지 못했다.
+- 포함:
+  - FABLE: 지식 예문 4묶음 21장, 새 표제어 monarchy(42세트 지식 어휘 Ⅳ), 지식 카드 해설 12장 정리(해설은 단어에 관한 것만). FABLE 7,132카드·표제어 4,979, 세 교재 합집합 8,310. 새 카드는 기존 연습에 붙어 그 연습의 진도 키를 그대로 쓴다.
+  - 세 과정 공통 `milestones`: 2,000부터 앞선 단어는 천 개씩 화면 전체로 터지는 폭죽, 최근 천 단어만 날아와 벽. '익힌 단어' 머리말 삭제.
+  - 문서: PRINCIPLES 2-7·4·11, UI_STANDARD, `pipeline/milestones/README.md`. 원장 knowledge-04, word-notes.
+- 배포 전 검사(이번에 실행): Codex 검사 33/33(milestones 포함), 빌드 `--check` 4종. 앞선 작업에서 실행: exaudit 26, linecheck 390·360px 초과 0, deepcheck A1~A5 0, collide 새 경쟁어 없음, 393px 3,000·5,000 녹화(프레임 간격 16.7ms), 320px 건너뛰기. 실기기 Safari는 확인하지 않았다.
+
+[FABLE 미리 보기(3,000)](https://esqsoy.github.io/vocagoyang/vocagoyangfable.html#milestone=3000)
+
+---
+
 # 익힌 단어 돌파 축하 배포 · 2026-10-08
 
 - 앱 커밋 [430928f](https://github.com/esqsoy/vocagoyang/commit/430928f)를 origin/main에 fast-forward로 푸시했다(c56d036 다음). [Pages 37819892553](https://github.com/esqsoy/vocagoyang/actions/runs/37819892553): completed/success. 영신: "미쳤다 마음에 듭니다 배포갑시다!"
