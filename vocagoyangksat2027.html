@@ -1359,11 +1359,10 @@ body.playing .appbar{display:flex;padding:0 5px;}
 /* Personal collection controls reuse the existing purple panels and text tones. */
 #catSubmit{position:relative;}
 /* 담김 표시(26.10.08 영신): 별이 고양이 장식과 겹쳐 보기 나빴다. 담기 전에는 아무것도 띄우지 않고,
-   담은 뒤에만 고양이 왼쪽에 하트를 띄운다. 상태는 aria-pressed·레이블로도 알린다. */
+   담은 뒤에만 고양이 목 왼쪽(고양이 칸 안의 빈자리)에 하트를 띄운다. 칸 밖에 두면 시간 막대를 줄여야 해서
+   (영신: "목 왼쪽에 놓으면 바가 굳이 줄지 않아도 될 것 같다") 칸 안에 넣었다. 상태는 aria-pressed·레이블로도 알린다. */
 #catSubmit::after{content:none;}
-#catSubmit[aria-pressed="true"]::after{content:'♥';position:absolute;right:100%;bottom:3px;margin-right:5px;font-size:17px;line-height:1;color:var(--pink,#ff4fa3);pointer-events:none;}
-/* 하트 자리만큼 말풍선·시간 막대와 고양이 사이를 벌린다. 하트는 아래쪽에 두어 가운데 높이의 말풍선 꼬리를 피한다. */
-.trow:has(#catSubmit[aria-pressed="true"]){gap:30px;}
+#catSubmit[aria-pressed="true"]::after{content:'♥';position:absolute;left:1px;bottom:0;font-size:12px;line-height:1;color:var(--pink,#ff4fa3);pointer-events:none;}
 #catSubmit:focus-visible{outline:2px solid var(--gold,#ffd54f);outline-offset:3px;border-radius:8px;}
 .saved-home{border-color:var(--line);}
 .saved-home .lid{color:var(--text,#fff);}

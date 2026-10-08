@@ -12,7 +12,7 @@
 
 - **2026-10-08 연습 타일·담김 하트·학문 용어 2장·country — main 배포(영신 "배포해주십쇼")**: 앱 3ade2f7, Pages 37745476960 completed/success. 기록은 [DEPLOYMENT](DEPLOYMENT.md).
   - 연습 타일(영신 제보, iPhone Safari): 왼쪽 칸만 넓어짐, 구분점 혼자 줄, 별이 첫 글자를 덮음. 세 교재 공통으로 고쳤다. 두 칸은 같은 폭, 제목은 `tileTitleHtml()`로 줄바꿈 자리를 정한다. 이유는 [PRINCIPLES 8](PRINCIPLES.md#8-한국어-표기화면-표시).
-  - 담김 표시(영신 제안): 게임 안에서는 담은 뒤에만 고양이 왼쪽에 ♥. 담기 전에는 아무 표시가 없다. 홈 '♥ 모아둔 카드'와 검색 '♥ 담김'도 하트로 맞췄다. 원본은 `pipeline/saved-cards/style.css`·`runtime.js`, `build.cjs`로 반영한다.
+  - 담김 표시(영신 제안): 게임 안에서는 담은 뒤에만 고양이 목 왼쪽(고양이 칸 안)에 ♥. 처음 배포 때는 칸 밖에 두고 간격을 벌려 시간 막대가 줄었다. 영신 지적으로 칸 안으로 옮겨 막대 폭이 그대로다. 담기 전에는 아무 표시가 없다. 홈 '♥ 모아둔 카드'와 검색 '♥ 담김'도 하트로 맞췄다. 원본은 `pipeline/saved-cards/style.css`·`runtime.js`, `build.cjs`로 반영한다.
   - anthropology·geography 예문을 예문만으로 정의가 완결되게 바꿨다(영신). 원장: `pipeline/claude-review-20261008/academic-terms.json`(복원 체인 맨 위).
   - 43 country ①: "Vatican City is the smallest country in the world." / 바티칸 시국은 세계에서 가장 작은 나라야. 걸려 있던 India 안은 independent가 Fable 표제어 밖이라, Claude 대안을 영신이 골랐다. 원장: `country.json`. 역사 예문 검토의 남은 후보(미작성 550장)는 여전히 영신과 방향 토의 후 시작한다.
   - 검사: Codex 테스트 32/32. 393·360px에서 51세트 타일 모두 이상 없음(Safari식 줄바꿈 흉내 포함). 담김 하트는 문제·담은 뒤·정답 공개(말풍선) 화면 캡처로 확인했다. 실기기 Safari는 확인하지 않았다.

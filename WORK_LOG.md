@@ -534,6 +534,13 @@
 - country(영신: "네 제안이 적절하네 그렇게 합시다"): lesson02 country ①을 "Vatican City is the smallest country in the world."로 바꿨다. 빈칸 단어가 사실의 중심이다(PRINCIPLES 2-4). 원장은 `country.json`. exaudit 27 그대로, linecheck 초과 0, Codex 테스트 32/32.
 - 상태: 영신 "배포해주십쇼" → 3ade2f7를 main에 fast-forward했다. Pages 37745476960 completed/success. main의 네 HTML blob이 로컬 검증본과 같다. github.io 직접 확인은 이 세션에서 할 수 없다.
 
+## 2026-10-08 · 담김 하트 위치 조정
+
+- 요청(영신): 하트가 시간 진행 바를 줄인다. 목 왼쪽에 놓으면 바가 줄지 않아도 될 것 같다.
+- 반영: `pipeline/saved-cards/style.css` — 하트를 고양이 버튼 칸 안 왼쪽 아래(목 왼쪽 빈자리, 12px)로 옮기고, 간격을 벌리던 `.trow:has(...)` 규칙을 지웠다. `build.cjs`로 세 HTML에 반영했다.
+- 검증: 393·320px 시간 막대 폭이 담기 전후 같다(FABLE 301→301, 228→228, 마더텅 301→301). 정답 공개 말풍선과 겹치지 않고, 고양이 윤곽에도 닿지 않는다(3배 확대 캡처). Codex 테스트 32/32, saved build --check 통과.
+- 상태: 커밋 후 main 배포(이전 배포의 하트 기능을 영신 지적대로 고친 것). 결과는 DEPLOYMENT.md.
+
 ## 다음 기록 형식
 
 
