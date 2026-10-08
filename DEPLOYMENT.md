@@ -1,6 +1,6 @@
 # 긴 예문 다시 쓰기·학문 용어 예문·긴 정답 칸 배포 · 2026-10-08
 
-- 앱 커밋 [0d2d1ab](https://github.com/esqsoy/vocagoyang/commit/0d2d1ab)를 origin/main에 fast-forward로 푸시했다(3790f5c 다음 3커밋). [Pages 37742755620](https://github.com/esqsoy/vocagoyang/actions/runs/37742755620): build 성공, deploy 진행 중(기록 시점). 완료 결과는 아래 줄에 덧붙인다.
+- 앱 커밋 [0d2d1ab](https://github.com/esqsoy/vocagoyang/commit/0d2d1ab)를 origin/main에 fast-forward로 푸시했다(3790f5c 다음 3커밋). [Pages 37742755620](https://github.com/esqsoy/vocagoyang/actions/runs/37742755620): completed/success.
 - 확인 방법: 이 세션은 github.io 접속이 막혀 있다. 그래서 공개 페이지의 HTTP 200과 해시 대조는 **하지 못했다**. 대신 GitHub API로 main의 `index.html`과 세 과정 HTML의 blob SHA가 로컬 검증본과 같은 것을 확인했다.
 - 포함:
   - 예문 22장(ex·tr, 일부 c): 폰에서 정답을 채운 문장이 3줄을 넘던 예문, political, eleventh·practice, power·democracy(24)·government·interaction·거시/미시경제학. 승인된 역사 예문은 뜻·시기 표시를 지켰다.
