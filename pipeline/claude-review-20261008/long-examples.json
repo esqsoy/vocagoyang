@@ -2,12 +2,12 @@
  "date": "2026-10-08",
  "name": "long-examples",
  "status": "applied_locally_verified",
- "authorization": "26.10.08 영신: power 예문 자체를 바꾸자(아테네가 민주정의 예가 아니라 남자만의 정치권력의 예가 됨). 문장이 긴 건 다시 쓰고, 정답이 긴 경우는 4줄 허용.",
- "summary": "폰에서 정답을 채운 문장이 3줄을 넘던 예문(390px 17장, 360px 2장)과 화면 5줄이던 political, 영신이 지적한 power를 다시 썼다. 승인된 역사 예문은 뜻·시기 표시를 지키며 줄였다.",
+ "authorization": "26.10.08 영신: power 예문 자체를 바꾸자. 문장이 긴 건 다시 쓰고, 정답이 긴 경우는 4줄 허용. 이어서 democracy(24)·government·interaction 교체, 거시·미시경제학은 오해 없게 철저히.",
+ "summary": "폰에서 정답을 채운 문장이 3줄을 넘던 예문과 화면 5줄이던 political, 영신이 지적한 power·democracy·government·interaction·거시/미시경제학을 다시 썼다. 승인된 역사 예문은 뜻·시기 표시를 지키며 줄였다.",
  "snapshots": {
   "DATA": {
    "beforeHash": "1277af610d8ad2501848cdcc7fd2f207d5c139e93bb6825651b1c433af0b8395",
-   "afterHash": "34a029c1ff1c665a9bd2e8ad8a3245496d7eca134cbc69540e8eb0a2f141828b",
+   "afterHash": "fcb5e2aa5df98201cb96963ba416e517e9c74b41a810f02e5f28714fd7bd4b5c",
    "changes": [
     {
      "path": [
@@ -133,7 +133,7 @@
      "oldExists": true,
      "newExists": true,
      "old": "In 1833, the British {{BLANK}} passed a law to protect children working in factories.",
-     "new": "In 1833, the British {{BLANK}} passed a law to protect child workers."
+     "new": "Lawmakers make laws, and the {{BLANK}} carries them out."
     },
     {
      "path": [
@@ -147,7 +147,21 @@
      "oldExists": true,
      "newExists": true,
      "old": "1833년에 영국 정부는 공장에서 일하는 어린이들을 보호하는 법을 통과시켰어.",
-     "new": "1833년에 영국 정부는 일하는 어린이들을 보호하는 법을 통과시켰어."
+     "new": "법은 국회가 만들고, 정부가 그 법을 집행해."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      0,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "",
+     "new": "좁게는 행정부, 넓게는 국회·법원까지 포함한 국가 기구 전체를 뜻하기도 한다."
     },
     {
      "path": [
@@ -403,6 +417,48 @@
     },
     {
      "path": [
+      24,
+      "exercises",
+      6,
+      "words",
+      9,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In fifth-century BCE Athenian {{BLANK}}, women could not vote.",
+     "new": "Ancient Athens was a direct {{BLANK}}: citizens voted on laws themselves."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      6,
+      "words",
+      9,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "기원전 5세기 아테네 민주정에서 여성은 투표할 수 없었어.",
+     "new": "고대 아테네는 직접 민주주의였어. 시민이 법을 직접 투표로 정했지."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      6,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그리스어 demos(민중)+kratia(지배). 강세 주의.",
+     "new": "그리스어 demos(민중)+kratia(지배). 대표를 뽑아 맡기는 방식은 representative democracy. 강세 주의."
+    },
+    {
+     "path": [
       25,
       "exercises",
       1,
@@ -413,7 +469,7 @@
      "oldExists": true,
      "newExists": true,
      "old": "Silk Road trade encouraged {{BLANK}} between cultures in ancient and medieval times.",
-     "new": "For centuries, the Silk Road encouraged {{BLANK}} between cultures."
+     "new": "Babies learn language best through {{BLANK}} with real people."
     },
     {
      "path": [
@@ -427,7 +483,21 @@
      "oldExists": true,
      "newExists": true,
      "old": "고대와 중세에 실크로드 무역은 문화 사이의 교류를 촉진했어.",
-     "new": "수백 년 동안 실크로드는 문화 사이의 교류를 촉진했어."
+     "new": "아기는 실제 사람과의 상호 작용을 통해 말을 가장 잘 배워."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      1,
+      "words",
+      15,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "interaction between A and B. inter-(사이)+act(행동)에서 왔다.",
+     "new": "interaction with ~ / between A and B. inter-(사이)+act(행동)에서 왔다."
     },
     {
      "path": [
@@ -525,7 +595,7 @@
      "oldExists": true,
      "newExists": true,
      "old": "We study {{BLANK}} to understand individual consumers and firms.",
-     "new": "{{BLANK}} studies how consumers and firms make choices."
+     "new": "{{BLANK}} studies how economic agents make choices in markets."
     },
     {
      "path": [
@@ -539,7 +609,21 @@
      "oldExists": true,
      "newExists": true,
      "old": "개별 소비자와 기업을 이해하려고 미시경제학을 공부해.",
-     "new": "미시경제학은 소비자와 기업이 어떻게 선택하는지 연구해."
+     "new": "미시경제학은 경제 주체들이 시장에서 어떻게 선택하는지 연구해."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      0,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "micro-(작은)+economics. 개별 경제 주체를 다뤄. macroeconomics는 경제 전체.",
+     "new": "micro-(작은)+economics. 가계·기업 같은 개별 경제 주체의 선택과 개별 시장을 다뤄."
     },
     {
      "path": [
@@ -553,7 +637,7 @@
      "oldExists": true,
      "newExists": true,
      "old": "We study {{BLANK}} to understand national inflation and unemployment.",
-     "new": "{{BLANK}} studies the economy of a whole country."
+     "new": "{{BLANK}} studies the whole economy, from inflation to exchange rates."
     },
     {
      "path": [
@@ -567,7 +651,21 @@
      "oldExists": true,
      "newExists": true,
      "old": "국가의 물가 상승과 실업을 이해하려고 거시경제학을 공부해.",
-     "new": "거시경제학은 한 나라의 경제 전체를 연구해."
+     "new": "거시경제학은 물가 상승부터 환율까지 경제 전체를 연구해."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      0,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "macro-(큰)+economics. 경제 전체를 다뤄. microeconomics는 개별 경제 주체.",
+     "new": "macro-(큰)+economics. 성장·물가·실업·환율 등 경제 전체를 다뤄(나라 사이 포함)."
     },
     {
      "path": [
@@ -604,7 +702,7 @@
  "sourceSnapshots": {
   "pipeline/out/lesson02.json": {
    "beforeHash": "55390003e4effd54bb2f69b2efbf6f84278cc46a357cb291b98eff441ec193c8",
-   "afterHash": "b891e52950b7b6af08f3bac5c5cc3e201c63d12ac06a63eeaf4d742217c52285"
+   "afterHash": "0485799b0fbe6ab700c46201771782674a0716b6467cb415163dd42247f2227b"
   },
   "pipeline/out/lesson03.json": {
    "beforeHash": "d0548e6e62746ff7a17394bb67698aa9e257b4da6bc70dd01bd3075779f501d6",
@@ -626,9 +724,13 @@
    "beforeHash": "26387d24e83107b7b443e80b608b176fc29c6a332a6afa2ce9edd49177dabaf1",
    "afterHash": "067d9abbeaf358120975f4242b42abc96ea8965e96c4f1dedf62941eb4405062"
   },
+  "pipeline/out/set24.json": {
+   "beforeHash": "434f90ac47d7e5e10b4ef046f172dc9b1d06619b236a80b6777f5553e22b8f24",
+   "afterHash": "517546b3083d24ca2f9ddf4cea3de2056b274437c7fdb022563fd7c6d86c1690"
+  },
   "pipeline/out/set25.json": {
    "beforeHash": "dcc0e4291589549dc02bb3901b6b1799a2038604d3466432b17193cc15eec1cf",
-   "afterHash": "30b7342e357bd12b1ce05fed7a906a6fd12ca7765642aa9736fe709d5130c4f6"
+   "afterHash": "888e7e5ccdd0ab801e38e01a8f7443a883a38f5d0baf2f9d738102972c6bb389"
   },
   "pipeline/out/set29.json": {
    "beforeHash": "2e128eee9a04a989fb70baf4374ccd971188f4fbf24a79716a00da28f532ff5d",
@@ -652,11 +754,11 @@
   },
   "pipeline/out/set48.json": {
    "beforeHash": "59fc2a71fcb4579b6b106b2ec841b518a1ab709fe070a45e3b6edf270a379f2a",
-   "afterHash": "ab2c387eda04114cf2e46d706d51a26bd2188df0cae91a1bf933013f26193f39"
+   "afterHash": "85099967b442eaf16842124d7ccd6eae66898eb36ba556510134f718b073bf85"
   },
   "pipeline/morphology.json": {
    "beforeHash": "22055fd09dc67035ad4bc976fa701a5772a9933a4e0b16bd588e986af8002279",
-   "afterHash": "51a24e2ca9f929bf1524d432ace2d9ebe52d3200d436621e812d9f8bcce58356"
+   "afterHash": "3b1c1e2beed5b4bad219ff92c568aa09d2494beda38269c09496e3701e1a6b07"
   }
  },
  "sourceChanges": {
@@ -672,7 +774,7 @@
     "oldExists": true,
     "newExists": true,
     "old": "In 1833, the British {{BLANK}} passed a law to protect children working in factories.",
-    "new": "In 1833, the British {{BLANK}} passed a law to protect child workers."
+    "new": "Lawmakers make laws, and the {{BLANK}} carries them out."
    },
    {
     "path": [
@@ -685,7 +787,20 @@
     "oldExists": true,
     "newExists": true,
     "old": "1833년에 영국 정부는 공장에서 일하는 어린이들을 보호하는 법을 통과시켰어.",
-    "new": "1833년에 영국 정부는 일하는 어린이들을 보호하는 법을 통과시켰어."
+    "new": "법은 국회가 만들고, 정부가 그 법을 집행해."
+   },
+   {
+    "path": [
+     "exercises",
+     0,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "",
+    "new": "좁게는 행정부, 넓게는 국회·법원까지 포함한 국가 기구 전체를 뜻하기도 한다."
    },
    {
     "path": [
@@ -923,6 +1038,44 @@
     "new": "1952년에 찍은 X선 사진 한 장이 DNA 모양의 결정적 단서가 되었어."
    }
   ],
+  "pipeline/out/set24.json": [
+   {
+    "path": [
+     6,
+     "words",
+     9,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In fifth-century BCE Athenian {{BLANK}}, women could not vote.",
+    "new": "Ancient Athens was a direct {{BLANK}}: citizens voted on laws themselves."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "기원전 5세기 아테네 민주정에서 여성은 투표할 수 없었어.",
+    "new": "고대 아테네는 직접 민주주의였어. 시민이 법을 직접 투표로 정했지."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그리스어 demos(민중)+kratia(지배). 강세 주의.",
+    "new": "그리스어 demos(민중)+kratia(지배). 대표를 뽑아 맡기는 방식은 representative democracy. 강세 주의."
+   }
+  ],
   "pipeline/out/set25.json": [
    {
     "path": [
@@ -934,7 +1087,7 @@
     "oldExists": true,
     "newExists": true,
     "old": "Silk Road trade encouraged {{BLANK}} between cultures in ancient and medieval times.",
-    "new": "For centuries, the Silk Road encouraged {{BLANK}} between cultures."
+    "new": "Babies learn language best through {{BLANK}} with real people."
    },
    {
     "path": [
@@ -946,7 +1099,19 @@
     "oldExists": true,
     "newExists": true,
     "old": "고대와 중세에 실크로드 무역은 문화 사이의 교류를 촉진했어.",
-    "new": "수백 년 동안 실크로드는 문화 사이의 교류를 촉진했어."
+    "new": "아기는 실제 사람과의 상호 작용을 통해 말을 가장 잘 배워."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     15,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "interaction between A and B. inter-(사이)+act(행동)에서 왔다.",
+    "new": "interaction with ~ / between A and B. inter-(사이)+act(행동)에서 왔다."
    },
    {
     "path": [
@@ -1138,7 +1303,7 @@
     "oldExists": true,
     "newExists": true,
     "old": "We study {{BLANK}} to understand individual consumers and firms.",
-    "new": "{{BLANK}} studies how consumers and firms make choices."
+    "new": "{{BLANK}} studies how economic agents make choices in markets."
    },
    {
     "path": [
@@ -1150,7 +1315,19 @@
     "oldExists": true,
     "newExists": true,
     "old": "개별 소비자와 기업을 이해하려고 미시경제학을 공부해.",
-    "new": "미시경제학은 소비자와 기업이 어떻게 선택하는지 연구해."
+    "new": "미시경제학은 경제 주체들이 시장에서 어떻게 선택하는지 연구해."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "micro-(작은)+economics. 개별 경제 주체를 다뤄. macroeconomics는 경제 전체.",
+    "new": "micro-(작은)+economics. 가계·기업 같은 개별 경제 주체의 선택과 개별 시장을 다뤄."
    },
    {
     "path": [
@@ -1162,7 +1339,7 @@
     "oldExists": true,
     "newExists": true,
     "old": "We study {{BLANK}} to understand national inflation and unemployment.",
-    "new": "{{BLANK}} studies the economy of a whole country."
+    "new": "{{BLANK}} studies the whole economy, from inflation to exchange rates."
    },
    {
     "path": [
@@ -1174,7 +1351,19 @@
     "oldExists": true,
     "newExists": true,
     "old": "국가의 물가 상승과 실업을 이해하려고 거시경제학을 공부해.",
-    "new": "거시경제학은 한 나라의 경제 전체를 연구해."
+    "new": "거시경제학은 물가 상승부터 환율까지 경제 전체를 연구해."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "macro-(큰)+economics. 경제 전체를 다뤄. microeconomics는 개별 경제 주체.",
+    "new": "macro-(큰)+economics. 성장·물가·실업·환율 등 경제 전체를 다뤄(나라 사이 포함)."
    },
    {
     "path": [
@@ -1239,7 +1428,7 @@
     "oldExists": true,
     "newExists": true,
     "old": "We study {{BLANK}} to understand individual consumers and firms.",
-    "new": "{{BLANK}} studies how consumers and firms make choices."
+    "new": "{{BLANK}} studies how economic agents make choices in markets."
    },
    {
     "path": [
@@ -1252,7 +1441,20 @@
     "oldExists": true,
     "newExists": true,
     "old": "개별 소비자와 기업을 이해하려고 미시경제학을 공부해.",
-    "new": "미시경제학은 소비자와 기업이 어떻게 선택하는지 연구해."
+    "new": "미시경제학은 경제 주체들이 시장에서 어떻게 선택하는지 연구해."
+   },
+   {
+    "path": [
+     "units",
+     84,
+     "cards",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "micro-(작은)+economics. 개별 경제 주체를 다뤄. macroeconomics는 경제 전체.",
+    "new": "micro-(작은)+economics. 가계·기업 같은 개별 경제 주체의 선택과 개별 시장을 다뤄."
    },
    {
     "path": [
@@ -1265,7 +1467,7 @@
     "oldExists": true,
     "newExists": true,
     "old": "We study {{BLANK}} to understand national inflation and unemployment.",
-    "new": "{{BLANK}} studies the economy of a whole country."
+    "new": "{{BLANK}} studies the whole economy, from inflation to exchange rates."
    },
    {
     "path": [
@@ -1278,7 +1480,20 @@
     "oldExists": true,
     "newExists": true,
     "old": "국가의 물가 상승과 실업을 이해하려고 거시경제학을 공부해.",
-    "new": "거시경제학은 한 나라의 경제 전체를 연구해."
+    "new": "거시경제학은 물가 상승부터 환율까지 경제 전체를 연구해."
+   },
+   {
+    "path": [
+     "units",
+     84,
+     "cards",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "macro-(큰)+economics. 경제 전체를 다뤄. microeconomics는 개별 경제 주체.",
+    "new": "macro-(큰)+economics. 성장·물가·실업·환율 등 경제 전체를 다뤄(나라 사이 포함)."
    }
   ]
  },
@@ -1289,6 +1504,7 @@
   "pipeline/out/set07.json": [],
   "pipeline/out/set08.json": [],
   "pipeline/out/set09.json": [],
+  "pipeline/out/set24.json": [],
   "pipeline/out/set25.json": [],
   "pipeline/out/set29.json": [],
   "pipeline/out/set40.json": [],

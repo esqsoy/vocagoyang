@@ -488,6 +488,31 @@
   - 브라우저 플레이와 실기기 Safari는 이번에 다시 하지 않았다.
 - 상태: 브랜치 `claude/brave-clarke-rixqvy`에 커밋·푸시했다. main 배포는 하지 않았다. 영신이 21장을 확인한 뒤 배포한다.
 
+## 2026-10-08 · 학문 용어 예문 5장 교체·긴 정답 칸 좁히기
+
+- 요청·결정(영신):
+  - democracy(24)의 "아테네 민주정에서 여성은 투표할 수 없었다"는 민주주의보다 여성의 권리 이야기다. 다른 예문으로.
+  - government 예문은 정부가 아니라 국회라고 해야 정확하다. 바꾸자.
+  - interaction은 원래 예문(실크로드)을 존중할 필요 없이 더 좋은 예문으로.
+  - 거시·미시경제학 예문이 오해를 부른다. 거시는 여러 나라 사이의 교역까지 다루고, 미시는 소비자·기업만이 아니라 경제 주체의 시장에서의 선택을 다룬다. "이런 사회과학, 자연과학 등의 용어는 짧게 하더라도 철저하게 다루자."
+  - 13자 이상 정답의 칸 갈라짐은 Claude 해결책(그 단어의 칸만 함께 좁히기)을 따른다.
+  - 나머지 다시 쓴 예문은 승인("나머지는 다 좋은데").
+- 반영:
+  - democracy: "Ancient Athens was a direct democracy: citizens voted on laws themselves." 해설에 representative democracy를 더했다.
+  - government: "Lawmakers make laws, and the government carries them out." 해설: 좁게는 행정부, 넓게는 국가 기구 전체.
+  - interaction: "Babies learn language best through interaction with real people." (Kuhl 등 2003: 9개월 아기는 실제 사람에게서는 외국어 소리 구별을 익혔지만, 영상·음성으로는 익히지 못했다.)
+  - macroeconomics: "…studies the whole economy, from inflation to exchange rates." / microeconomics: "…studies how economic agents make choices in markets." 해설도 범위를 맞췄다.
+  - 원본: `pipeline/out/lesson02.json`, `set24.json`, `set25.json`, `pipeline/morphology.json`. 원장 `long-examples.json`을 3790f5c 기준으로 다시 만들었다(22카드).
+  - 세 HTML 공통 빈칸 CSS: `.hoectx .ex`를 컨테이너로 삼고, 칸 수(`:has(> :nth-child(N))`)에 따라 한 줄에 안 들어갈 때만 그 단어의 글자 크기를 줄인다. `:has()`나 컨테이너 단위를 못 쓰는 브라우저는 예전처럼 줄을 바꾼다. 마크업과 생성 구간은 그대로다.
+  - 문서: PRINCIPLES 2-2·2-4·2-5(신설)·9, UI_STANDARD, HANDOFF, claude-review README.
+- 검증:
+  - 칸 갈라짐: FABLE 72장 → 0(320·360·375·390px). 마더텅 4,028·EBS 545 표현도 320·390px에서 0.
+  - linecheck 390·360px 문장 초과 0, 화면 초과 0. exaudit 27, deepcheck A1~A5 0.
+  - Codex 테스트 32/32.
+  - 실제 게임 화면 캡처: international 입력 중, microeconomics 문제, manufacturing 정답 공개, government 오답 공개. 긴 단어가 한 줄에 들어가고 콘솔 오류는 없었다.
+  - 실기기 Safari는 확인하지 않았다.
+- 상태: 브랜치 커밋·푸시, main 미배포. 영신이 새 5장을 확인하면 배포한다.
+
 ## 다음 기록 형식
 
 
