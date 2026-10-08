@@ -1,3 +1,19 @@
+# 지식 예문 1~3묶음·새 표제어 50개·고유명사 빈칸 배포 · 2026-10-08
+
+- 앱 커밋 [c56d036](https://github.com/esqsoy/vocagoyang/commit/c56d036)을 origin/main에 fast-forward로 푸시했다(c702b05 다음 8커밋). [Pages 37789424808](https://github.com/esqsoy/vocagoyang/actions/runs/37789424808): completed/success. 영신: "일단 지금까지 된 건 배포를 하면 될 것 같고".
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다. github.io는 이 세션에서 접속이 막혀 공개 페이지의 HTTP 200·해시 대조는 **하지 못했다**.
+- 포함(FABLE DATA와 인덱스 수치만 바뀜. 마더텅·EBS HTML은 그대로):
+  - 지식 예문 1묶음 25장(연표 척추, 인류의 시작), 3묶음 26장(고대 제국과 사상, 중세와 교류).
+  - 새 표제어 50개: 16·26·34·42세트 끝 '지식 어휘 Ⅰ~Ⅳ'. burial 예문(21세트).
+  - 고유명사 안 빈칸 5장(empire·pyramid·pole②·hemisphere·lunar).
+  - FABLE 7,081→7,131카드, 624→628연습, 표제어 4,928→4,978. 새 연습은 새 진도 키를 쓰고, 기존 연습의 진도·저장 키는 그대로다.
+  - 문서: PRINCIPLES 2-6(지도 먼저, 막히는 어휘는 더한다), 2-7(고유명사 안 빈칸). 원장 knowledge-01·02·03, proper-nouns.
+- 배포 전 검사(c56d036 내용 그대로, 앞선 작업에서 실행): Codex 검사 32/32, exaudit 26, linecheck 390·360px 문장·화면 초과 0, deepcheck A1~A5 0, collide 새 경쟁어 없음, 원장 역적용 해시 일치, IPA 빌드 검사. 393px 화면에서 16세트 '지식 어휘 Ⅰ' 타일·문제 화면을 확인했다. 실기기 Safari는 확인하지 않았다.
+
+[FABLE 열기](https://esqsoy.github.io/vocagoyang/vocagoyangfable.html?release=c56d036)
+
+---
+
 # 담김 하트 위치 조정 배포 · 2026-10-08
 
 - 앱 커밋 [79291eb](https://github.com/esqsoy/vocagoyang/commit/79291eb)를 origin/main에 fast-forward로 푸시했다. [Pages 37746779315](https://github.com/esqsoy/vocagoyang/actions/runs/37746779315): completed/success. main의 세 과정 HTML blob이 로컬 검증본과 같다. github.io 직접 확인은 이 세션에서 할 수 없다.
