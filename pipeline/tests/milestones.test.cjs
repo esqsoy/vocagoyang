@@ -22,6 +22,16 @@ for(const [file,id] of COURSES){
 }
 assert.equal(union.size,8309,'세 교재 합집합(중복 제외)');
 
+// 1-2) 날아오는 단어는 배운 순서대로다: 교재 안에서는 세트·연습 순서, 교재 사이는 FABLE → 마더텅 → EBS.
+{
+  const h=harness(path.join(root,'vocagoyangfable.html')),L=h.state.lessons[0],e=L.exercises[0];
+  h.ctx.setRec(L.id,e.title,{timeMs:1});const mine=[...new Set(e.words.map(w=>head(w.word?w:{en:w.term})))];
+  assert.deepEqual([...h.ctx.msSync()],mine,'첫 연습의 단어가 카드 순서 그대로');
+  assert.deepEqual([...h.ctx.msUnion({ebs:['zeta','alpha'],ksat:['beta','alpha'],fable:['gamma']})],['gamma','beta','alpha','zeta']);
+  const before=h.run('msUnion(msRead()).size');h.ctx.setRec(L.id,L.exercises[1].title,{timeMs:1});
+  assert.deepEqual([...h.ctx.msSync()].slice(0,mine.length),mine,'나중에 클리어한 연습은 뒤에 붙는다');assert(h.run('msUnion(msRead()).size')>before);
+}
+
 // 2) 처음 여는 학생은 아무것도 쓰지 않는다.
 {const h=harness(path.join(root,'vocagoyangfable.html'));assert(!h.storage.has(KEY));assert(!h.storage.has(SEEN));}
 
@@ -82,8 +92,6 @@ let progressAt2500=null;
   const h=harness(path.join(root,'vocagoyangfable.html'));
   assert.doesNotThrow(()=>h.ctx.msShow({m:3000,total:3012,retro:false,words:['apple']}));
   assert(h.doc.body.children.some(c=>c.id==='msFx'));
-  const fx=h.doc.body.children.find(c=>c.id==='msFx'),poem=fx.children.find(c=>c.className==='ms-inner').children.find(c=>/ms-poem/.test(c.className));
-  assert(poem&&poem.children.slice(0,5).map(c=>c.textContent).join(' ').includes('you came to me'),'동작 줄이기에서도 「꽃」 패러디는 다 보인다');
   h.ctx.msClose();assert(!h.doc.body.children.some(c=>c.id==='msFx'));assert.equal(h.run('msBusy'),false);
   h.ctx.localStorage.setItem=()=>{throw Error('blocked');};clearAll(h);
   assert.doesNotThrow(()=>h.ctx.msAfterClear(0));
@@ -97,14 +105,13 @@ let progressAt2500=null;
   assert(!h.storage.has(SEEN));
   h.run("location.hash='#milestone=1000&fx=warp'");h.ctx.msPreview();h.advance(700);
   assert.deepEqual(shows.map(s=>s.mode),[undefined,'warp'],'&fx=warp로 다가오는 단어(B) 후보를 미리 본다');
-  assert.equal(h.run('msMode'),'flower','정식 축하는 C(다가오는 단어 + 「꽃」 + 장미)');
-  assert.equal(h.run('msPoem').at(-1),'and became a flower.');
+  assert.equal(h.run('msMode'),'warp','정식 축하는 저 멀리에서 날아오는 단어(far to near)');
 }
 
 // 9) 문턱이 높을수록 유성우가 길고 연출이 화려하다(영신: "갈수록 더 길게", "1000개나 외웠는데 좀 길어도").
 {
   const h=harness(path.join(root,'vocagoyangfable.html')),P=[1000,2000,3000,4000].map(m=>h.ctx.msPlan(m));
-  assert.equal(P[0].T,5400,'1,000은 약 5.4초 동안 센다');
+  assert.equal(P[0].T,6000,'1,000은 첫 6단어 뒤 약 6초 동안 센다');assert.deepEqual([P[0].intro,P[0].introGap],[6,420],'처음 6단어는 0.42초 간격으로 하나씩');
   for(let i=1;i<P.length;i++){assert(P[i].T>P[i-1].T);assert(P[i].shells>P[i-1].shells);assert(P[i].rings>P[i-1].rings);assert(P[i].rays>P[i-1].rays);}
   assert.equal(P[0].rain,0);assert(P[1].rain>0,'2,000부터 금빛 비');
   assert(h.ctx.msPlan(8000).T<=15000,'가장 길어도 15초');

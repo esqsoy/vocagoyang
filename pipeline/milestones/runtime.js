@@ -4,19 +4,20 @@
 var msLearnedKey='goyang-learned-words-v1',msSeenKey='goyang-milestone-v1',msStep=1000;
 var msBusy=false,msPendingEnding=false,msRaf=0,msNode=null,msOpenedAt=0;
 var msColors=['255,211,77','255,79,163','92,230,255','195,153,255','124,255,178','255,255,255'];
-/* 세는 연출 후보(26.10.08 영신): rain = 대각선 유성우(A), warp = 저 멀리에서 눈앞으로 날아와 섬광이 되는 단어(B),
-   flower = 김춘수 「꽃」 패러디가 타자기처럼 적힌 뒤 외운 단어가 모두 불려 와 눈앞에서 장미로 피는 연출(C). */
-var msMode='flower';                                                   // 26.10.08 영신: 다가오는 단어(far to near) 확정, 「꽃」을 더해 C로
+/* 세는 연출(26.10.08 영신): warp = 외운 단어가 배운 순서대로 저 멀리에서 눈앞으로 날아와 섬광이 된다(확정). rain = 대각선 유성우(첫 후보, 미리 보기로만). */
+var msMode='warp';                                                     // 26.10.08 영신: far to near 확정
 function msHead(w){const t=w&&(w.word??w.en??w.term);return typeof t==='string'?t.normalize('NFC').trim().replace(/\s+/gu,' ').toLowerCase():'';}
 function msRead(){
   try{const o=JSON.parse(localStorage.getItem(msLearnedKey)||'{}');return o&&typeof o==='object'&&!Array.isArray(o)?o:{};}
   catch{return {};}
 }
-function msUnion(all){const u=new Set();Object.values(all).forEach(a=>Array.isArray(a)&&a.forEach(k=>typeof k==='string'&&k&&u.add(k)));return u;}
+/* 배운 순서를 지킨다: FABLE → 마더텅 → EBS, 교재 안에서는 세트·연습 순서. */
+function msUnion(all){const u=new Set(),order=['fable','ksat','ebs',...Object.keys(all).filter(k=>!['fable','ksat','ebs'].includes(k))];
+  order.forEach(c=>Array.isArray(all[c])&&all[c].forEach(k=>typeof k==='string'&&k&&u.add(k)));return u;}
 function msCourseWords(){
   const set=new Set();
   state.lessons.forEach(L=>L.exercises.forEach(e=>{if(getRec(L.id,e.title)?.completed)e.words.forEach(w=>{const k=msHead(w);if(k)set.add(k);});}));
-  return [...set].sort();
+  return [...set];
 }
 /* 이 교재의 몫만 다시 적는다. 바뀐 게 없으면 쓰지 않는다. */
 function msSync(){
@@ -44,9 +45,8 @@ function msQueue(info){
   setTimeout(go,700);
 }
 function msShuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-function msLine(m,retro,mode){
+function msLine(m,retro){
   const n=m.toLocaleString('en-US');
-  if(mode==='flower'&&!retro)return `${n}개의 단어를 써 줬더니 전부 꽃이 됐다고양 🌹 …딱히 감동한 건 아니고양.`;
   if(retro)return pick([`어느새 ${n}단어를 넘었다고양! 말도 없이 넘다니 괘씸하다고양 ✦`,`${n}단어, 몰래 넘었더라고양. 축하는 지금 몰아서 한다고양!`]);
   return {1000:'천 단어 돌파라고양! 일산 출구 표지판이 보이기 시작한다고양 ✦',
     2000:'2,000단어라고양! BIG MOUNTAIN 냄새가 나기 시작한다고양.',
@@ -57,8 +57,6 @@ function msSound(kind){
   if(state.muted)return;
   try{actx=actx||new(window.AudioContext||window.webkitAudioContext)();const n=actx.currentTime;
     if(kind==='fanfare'){if(typeof fanfare==='function')fanfare();return;}
-    if(kind==='tick'){const o=actx.createOscillator(),g=actx.createGain();o.type='square';o.frequency.value=1700+Math.random()*300;   // 타자기 소리, 아주 작게
-      g.gain.setValueAtTime(.012,n);g.gain.exponentialRampToValueAtTime(.0001,n+.018);o.connect(g);g.connect(actx.destination);o.start(n);o.stop(n+.02);return;}
     const len=Math.floor(actx.sampleRate*.35),buf=actx.createBuffer(1,len,actx.sampleRate),d=buf.getChannelData(0);
     for(let i=0;i<len;i++)d[i]=(Math.random()*2-1)*Math.pow(1-i/len,3);
     const src=actx.createBufferSource(),f=actx.createBiquadFilter(),g=actx.createGain();
@@ -82,21 +80,12 @@ function msStreak(rgb,len,ang){
   x.strokeStyle=g;x.lineCap='round';x.lineWidth=2.4;x.beginPath();x.moveTo(tx,ty);x.lineTo(hx,hy);x.stroke();
   return {c,hx,hy};
 }
-/* 문턱이 높을수록 길고 화려하게(26.10.08 영신: "갈수록 더 길게 유성우가 쏟아지게", "1000개나 외웠는데 좀 길어도").
-   유성은 문턱 수만큼, 곧 지금까지 외운 단어가 하나씩 다 떨어진다. 1,000은 약 5.4초, 한 단계마다 2초씩 길어진다(최대 15초). */
+/* 문턱이 높을수록 길고 화려하게(26.10.08 영신: "갈수록 더 길게", "1000개나 외웠는데 좀 길어도", "쪼끔만 더 느리게").
+   단어는 문턱 수만큼, 곧 지금까지 외운 단어가 하나씩 다 날아온다. 첫 6개는 하나씩(0.42초 간격), 나머지는 1,000에서 6초, 한 단계마다 2초씩 길어진다(최대 15초). */
 function msPlan(m){
   const L=Math.max(1,Math.round(m/msStep)),k=Math.min(4,L);
-  return {level:L,T:Math.min(15000,3400+2000*L),ease:Math.max(1.4,1.9-.15*(L-1)),
+  return {level:L,T:Math.min(15000,4000+2000*L),ease:Math.max(1.4,1.9-.15*(L-1)),intro:6,introGap:420,
     shells:Math.min(18,5+2*L),rings:2+k,rays:8+4*k,rain:L>=2?Math.min(8,1.5*L):0};
-}
-/* 「꽃」 패러디(영신: "내가 단어를 써 주었을 때, 단어는 나에게로 와서 꽃이 되었다"). 앞 두 줄은 1연을 본뜬 Claude 안. */
-var msPoem=['Before I wrote you down,','you were nothing but letters.','When I wrote you down,','you came to me','and became a flower.'];
-function msRoseSprite(){
-  const c=document.createElement('canvas');c.width=c.height=128;c._ok=false;
-  if(typeof roseSVG!=='function')return c;
-  try{const img=new Image();img.onload=()=>{try{c.getContext('2d').drawImage(img,0,0,128,128);c._ok=true;}catch(e){}};
-    img.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(roseSVG().replace('<svg ','<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" '));}catch(e){}
-  return c;
 }
 function msLight(layer,x,y,plan){
   const at=el=>{el.style.setProperty('--x',x+'px');el.style.setProperty('--y',y+'px');layer.appendChild(el);return el;};
@@ -109,7 +98,7 @@ function msShow(info){
   msClose(true);msBusy=true;
   const m=info.m,label=m.toLocaleString('en-US'),still=!!window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
   const mk=(tag,cls,parent,html)=>{const el=document.createElement(tag);el.className=cls;if(html!=null)el.innerHTML=html;parent.appendChild(el);return el;};
-  const mode=info.mode||msMode,ov=document.createElement('div');ov.className='ms-fx'+(mode==='rain'?'':' warp')+(mode==='flower'?' flower':'');ov.id='msFx';
+  const ov=document.createElement('div');ov.className='ms-fx'+((info.mode||msMode)==='warp'?' warp':'');ov.id='msFx';
   ov.setAttribute('role','dialog');ov.setAttribute('aria-modal','true');ov.setAttribute('aria-label',label+'단어 돌파 축하');
   const canvas=mk('canvas','ms-canvas',ov);canvas.setAttribute('aria-hidden','true');
   mk('div','ms-glory',ov).setAttribute('aria-hidden','true');
@@ -117,11 +106,9 @@ function msShow(info){
   const inner=mk('div','ms-inner',ov);
   mk('div','ms-kicker',inner,'외운 단어');
   const numBox=mk('div','ms-num',inner),num=mk('b','',numBox);num.textContent=still?label:'0';
-  const poem=mode==='flower'?mk('div','ms-poem'+(still?' still':''),inner):null;
-  if(poem){poem.setAttribute('aria-label',msPoem.join(' '));msPoem.forEach(l=>mk('div','ln',poem).textContent=still?l:'');mk('div','by'+(still?' on':''),poem,'— 김춘수 「꽃」 패러디');}
   mk('div','ms-title',inner,'단어 돌파!');
   mk('div','ms-cat',inner,'<img id="msCat" alt="고양고양이">');
-  mk('div','ms-line',inner,'<span class="nm">고양고양이</span> '+esc(msLine(m,info.retro,info.mode||msMode))).setAttribute('aria-live','polite');
+  mk('div','ms-line',inner,'<span class="nm">고양고양이</span> '+esc(msLine(m,info.retro))).setAttribute('aria-live','polite');
   mk('div','ms-sub',inner,info.preview?'미리 보기':'세 교재를 합쳐 겹치는 단어는 한 번만 셌다고양 · 지금 '+info.total.toLocaleString('en-US')+'단어');
   const btn=mk('button','ms-close',inner,'계속하기 ▶');btn.type='button';
   document.body.appendChild(ov);msNode=ov;msOpenedAt=Date.now();
@@ -131,51 +118,39 @@ function msShow(info){
   if(still){ov.classList.add('popped','still');msSound('fanfare');return;}
   const cx=canvas.getContext&&canvas.getContext('2d');
   if(!cx){num.textContent=label;ov.classList.add('popped');msSound('fanfare');return;}
-  msRun(ov,canvas,cx,info,num,light,poem);
+  msRun(ov,canvas,cx,info,num,light);
 }
-function msRun(ov,canvas,cx,info,num,light,poem){
+function msRun(ov,canvas,cx,info,num,light){
   const dpr=Math.min(2,window.devicePixelRatio||1);let W=0,H=0;
   const size=()=>{W=ov.clientWidth||innerWidth;H=ov.clientHeight||innerHeight;canvas.width=W*dpr;canvas.height=H*dpr;cx.setTransform(dpr,0,0,dpr,0,0);};
   size();window.addEventListener('resize',size);ov._unsize=()=>window.removeEventListener('resize',size);
-  const m=info.m,pool=msShuffle(info.words),word=i=>pool[i%pool.length];
+  const m=info.m,mode=info.mode||msMode,pool=mode==='warp'?info.words.slice():msShuffle(info.words),word=i=>pool[i%pool.length];   // warp는 배운 순서대로
   const ang=Math.PI*0.64,dirx=Math.cos(ang),diry=Math.sin(ang),drift=-dirx/diry;   // 오른쪽 위 → 왼쪽 아래
   const glow=msColors.map(c=>msSprite(c,48)),streak=msColors.map(c=>msStreak(c,150,ang));
   const FONT='"Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif',SIZES=[10,12,14,17];
   const rnd=a=>a[Math.floor(Math.random()*a.length)];
-  const meteors=[],sparks=[],flashes=[],rains=[],warps=[],stars=[],blasts=[],blooms=[],petals=[],mode=info.mode||msMode,flower=mode==='flower',warpLike=mode!=='rain';
-  const rose=flower?msRoseSprite():null;
+  const meteors=[],sparks=[],flashes=[],rains=[],warps=[],blasts=[];
   const plan=msPlan(m),T=plan.T;                                          // 1부터 m까지 세는 시간. 처음엔 천천히, 갈수록 빠르게
-  let summonAt=0,summonFrom=0,trickle=700,roseOn=false,typed=msPoem.map(()=>-1);
   let t0=performance.now(),spawned=0,arrived=0,popped=false,popAt=0,shells=[],slow=0,low=false,last=t0,shownCount=0,nextAmbient=0,wi=m,rush=false;
   ov._skip=()=>{if(popped)return false;rush=true;return true;};          // 세는 중에 누르면 바로 문턱으로
   const spawnMeteor=i=>{
     const sp=(H+W)*(.010+Math.random()*.007);                              // 글자가 읽히는 속도(26.10.08 영신: "너무 빠르게 하지 않아도")
     meteors.push({x:Math.random()*(W+H*drift),y:-20-Math.random()*80,vx:dirx*sp,vy:diry*sp,t:word(i),k:Math.floor(Math.random()*msColors.length),s:rnd(SIZES),scale:.55+Math.random()*.7,i});
   };
-  /* B: 소실점(숫자 뒤)에서 태어나 학생 쪽으로 다가온다. 원근 배율 s=ZN/z라 가까울수록 커지고,
-     화면 안으로 오는 단어는 눈앞에서 섬광이 되어 사라지고 나머지는 커지며 화면 밖으로 스쳐 간다. 도착할 때마다 1씩 센다. */
+  /* warp: 소실점(숫자 뒤)에서 태어나 학생 쪽으로 다가온다. 원근 배율 s=ZN/z라 가까울수록 커지고 밝아진다.
+     정면 단어(초당 다섯 남짓)는 크게 다가와 눈앞에서 섬광이 되고, 나머지는 작게 화면 밖으로 스쳐 간다. 도착할 때마다 1씩 센다.
+     단어 말고는 날아오는 빛이 없다(영신: "오직 단어만이 어둠을 밝히는 식"). */
   const Z0=8,ZN=.5,minD=Math.min(W,H);
   const nr=num.getBoundingClientRect(),orc=ov.getBoundingClientRect(),VX=nr.left-orc.left+nr.width/2||W/2,VY=nr.top-orc.top+nr.height/2||H*.3;
   const rateNow=t=>plan.ease*m/T*Math.pow(Math.max(.02,Math.min(1,t/T)),plan.ease-1)*1000;   // 초당 도착 수
+  const introEnd=plan.intro*plan.introGap;
   const spawnWarp=(i,now,force)=>{
-    const head=force||Math.random()<Math.min(.6,22/rateNow(now-(summonAt||t0)));      // 섬광(장미)은 초당 스무 남짓까지만
+    const head=force||Math.random()<Math.min(.6,5/rateNow(now-t0-introEnd));           // 크게 다가오는 단어는 초당 다섯 남짓
     let a=Math.random()*Math.PI*2;if(head&&Math.abs(Math.sin(a))<.5)a=Math.random()<.5?Math.PI*(.25+Math.random()*.5):Math.PI*(1.25+Math.random()*.5);   // 눈앞 섬광은 숫자 위아래로
     const rf=head?minD*(.16+Math.random()*.4):minD*(.62+Math.random()*1.1);
-    warps.push({dx:Math.cos(a)*rf,dy:Math.sin(a)*rf,z:Z0,vz:(Z0-ZN)/(60*(1.35+Math.random()*.6)),t:word(i),k:Math.floor(Math.random()*msColors.length),big:30+Math.random()*26,head,rose:roseOn});
+    warps.push({dx:Math.cos(a)*rf,dy:Math.sin(a)*rf,z:Z0,vz:(Z0-ZN)/(60*(1.9+Math.random()*.6)),t:word(i),k:Math.floor(Math.random()*msColors.length),big:head?36+Math.random()*22:16+Math.random()*10,head});
   };
-  if(warpLike)for(let i=0;i<110;i++){const a=Math.random()*Math.PI*2,r=minD*(.3+Math.random()*1.4);stars.push({dx:Math.cos(a)*r,dy:Math.sin(a)*r,z:ZN+Math.random()*(Z0-ZN),vz:(Z0-ZN)/(60*(.9+Math.random()*.5))});}
-  const blast=(x,y,k,r)=>{blasts.push({x,y,k,r,life:0});
-    for(let i=0;i<7;i++){const a=Math.random()*Math.PI*2,sp=1.5+Math.random()*3.5;sparks.push({x,y,vx:Math.cos(a)*sp,vy:Math.sin(a)*sp,dot:true,k,life:0,max:22+Math.random()*16});}};
-  const bloom=(x,y,size)=>{blooms.push({x,y,size,life:0,rot:(Math.random()-.5)*.6,vr:(Math.random()-.5)*.02});
-    for(let i=0;i<6;i++){const a=Math.random()*Math.PI*2,sp=1+Math.random()*2.5;sparks.push({x,y,vx:Math.cos(a)*sp,vy:Math.sin(a)*sp,dot:true,k:1,life:0,max:26+Math.random()*16});}};
-  /* 「꽃」 패러디를 타자기처럼 적는다: 한 글자 42ms, 줄 사이 0.48초. 1·2행 동안의 단어는 빛으로, 3행부터는 장미로 핀다. */
-  const CH=42,GAP=480,lineAt=[];let tt=700;msPoem.forEach(l=>{lineAt.push(tt);tt+=l.length*CH+GAP;});const poemEnd=tt-GAP+350;
-  if(poem)poem.style.top=(num.parentNode.offsetTop+num.parentNode.offsetHeight+6)+'px';
-  const typePoem=el=>{if(!poem)return;
-    let cur=msPoem.findIndex((l,i)=>el<lineAt[i]+l.length*CH);if(cur<0)cur=msPoem.length-1;
-    msPoem.forEach((l,i)=>{const n=rush?l.length:Math.max(0,Math.min(l.length,Math.floor((el-lineAt[i])/CH)));const key=n*2+(i===cur&&!rush?1:0);
-      if(typed[i]===key)return;if(!rush&&n>(typed[i]>>1)&&l[n-1]!==' ')msSound('tick');typed[i]=key;poem.children[i].innerHTML=esc(l.slice(0,n))+(i===cur&&!rush&&el>=lineAt[0]-500?'<span class="cur"></span>':'');});
-    if(rush||el>poemEnd)poem.lastChild.classList.add('on');};
+  const blast=(x,y,k,r)=>blasts.push({x,y,k,r,life:0});                     // 단어가 제 빛으로 터진다
   /* 불꽃은 가운데 글자(숫자·고양이)를 피해 위·아래·양옆에서 터진다 */
   const SPOTS=[[.2,.15],[.8,.15],[.14,.52],[.86,.52],[.25,.85],[.75,.85],[.5,.93],[.5,.07],[.35,.1],[.65,.1]];
   const shell=(x,y,k,n)=>({at:0,x:W*x+(Math.random()-.5)*W*.08,y:H*y+(Math.random()-.5)*H*.05,k,n,fired:false});
@@ -207,18 +182,11 @@ function msRun(ov,canvas,cx,info,num,light,poem){
     if(!popped){
       const want=rush?m:Math.min(m,Math.ceil(m*Math.pow(Math.min(1,(now-t0)/T),plan.ease)));
       if(rush)spawned=Math.max(spawned,want-24);                          // 건너뛸 때 남은 유성을 한꺼번에 띄우지 않는다
-      const el=now-t0;
-      if(flower){
-        typePoem(el);if(el>=lineAt[2])roseOn=true;
-        if(!summonAt&&(el>=poemEnd||rush)){summonAt=now;summonFrom=spawned;roseOn=true;msSound('pop');   // 마지막 행이 적히면 모든 단어를 불러낸다
-          const r=num.getBoundingClientRect(),o=ov.getBoundingClientRect(),ring=document.createElement('div');ring.className='ms-ring r2';
-          ring.style.setProperty('--x',(r.left-o.left+r.width/2)+'px');ring.style.setProperty('--y',(r.top-o.top+r.height/2)+'px');light.appendChild(ring);}
-        if(!summonAt)while(trickle<=el&&spawned<m){spawnWarp(spawned,now,true);spawned++;trickle+=380;}
-        else{const w2=rush?m:Math.min(m,summonFrom+Math.ceil((m-summonFrom)*Math.pow(Math.min(1,(now-summonAt)/T),plan.ease)));
+      if(mode==='warp'){const el=now-t0;
+        if(!rush&&el<introEnd+1){while(spawned<plan.intro&&spawned*plan.introGap<=el){spawnWarp(spawned,now,true);spawned++;}}   // 처음 몇 단어는 하나씩, 정면으로
+        else{const w2=rush?m:Math.min(m,plan.intro+Math.ceil((m-plan.intro)*Math.pow(Math.min(1,(el-introEnd)/T),plan.ease)));
           if(rush)spawned=Math.max(spawned,w2-24);while(spawned<w2){spawnWarp(spawned,now);spawned++;}}
-        if(rush)arrived=m;
-      }
-      else if(warpLike){while(spawned<want){spawnWarp(spawned,now);spawned++;}if(rush)arrived=m;}
+        if(rush)arrived=m;}
       else{while(spawned<want){spawnMeteor(spawned);spawned++;}arrived=spawned;}
       if(arrived!==shownCount){shownCount=arrived;num.textContent=arrived.toLocaleString('en-US');}
       if(arrived>=m)pop(now);
@@ -229,36 +197,22 @@ function msRun(ov,canvas,cx,info,num,light,poem){
       const st=streak[p.k];cx.globalAlpha=.85;cx.drawImage(st.c,p.x-st.hx*p.scale,p.y-st.hy*p.scale,st.c.width*p.scale,st.c.height*p.scale);
       if(!low){cx.globalAlpha=.5;cx.drawImage(glow[p.k],p.x-13,p.y-13,26,26);}
     }
-    for(const st of stars){const z0=st.z;st.z-=st.vz*f;
-      if(st.z<=ZN){st.z=Z0;continue;}
-      if(popped||low)continue;
-      const s1=ZN/z0,s2=ZN/st.z,x1=VX+st.dx*s1,y1=VY+st.dy*s1,x2=VX+st.dx*s2,y2=VY+st.dy*s2;
-      if(x2<-20||x2>W+20||y2<-20||y2>H+20){st.z=Z0;continue;}
-      cx.globalAlpha=Math.min(.8,s2*1.2);cx.strokeStyle='rgb(200,230,255)';cx.lineWidth=Math.max(.6,s2*2.2);cx.beginPath();cx.moveTo(x1,y1);cx.lineTo(x2,y2);cx.stroke();}
-    for(let i=warps.length-1;i>=0;i--){const p=warps[i],z1=p.z;p.z-=p.vz*f;
+    for(let i=warps.length-1;i>=0;i--){const p=warps[i];p.z-=p.vz*f;
       const s2=ZN/Math.max(ZN,p.z),x=VX+p.dx*s2,y=VY+p.dy*s2;p.x=x;p.y=y;p.s=s2;
-      if(p.z<=ZN){warps.splice(i,1);if(!popped&&!rush)arrived++;if(p.head&&x>-40&&x<W+40&&y>-40&&y<H+40){if(flower&&roseOn&&p.rose)bloom(x,y,p.big*1.9);else blast(x,y,flower?5:p.k,p.big*(flower?1.4:2));}continue;}
+      if(p.z<=ZN){warps.splice(i,1);if(!popped&&!rush)arrived++;if(p.head&&x>-40&&x<W+40&&y>-40&&y<H+40)blast(x,y,p.k,p.big*2);continue;}
       if(x<-300||x>W+300||y<-200||y>H+200){p.off=true;continue;}
-      const s1=ZN/z1,a=Math.min(1,(Z0-p.z)/1.2);p.a=a;
-      cx.globalAlpha=a*.55;cx.strokeStyle=`rgb(${msColors[p.k]})`;cx.lineWidth=Math.max(1,s2*5);cx.beginPath();cx.moveTo(VX+p.dx*s1*.82,VY+p.dy*s1*.82);cx.lineTo(x,y);cx.stroke();
-      if(s2<.2){const r=1.5+s2*12;cx.globalAlpha=a*.9;cx.drawImage(glow[p.k],x-r,y-r,r*2,r*2);}   // 멀리 있을 땐 별빛, 다가오면 글자
-      else if(!low){const r=p.big*s2*(1+s2*.6);cx.globalAlpha=a*(.3+.35*s2);cx.drawImage(glow[p.k],x-r,y-r,r*2,r*2);}}
+      const a=Math.min(1,(Z0-p.z)/1.2)*(p.head?1:.6);p.a=a;
+      if(!low&&p.head&&s2>.3){const r=p.big*s2*(1+s2*.5);cx.globalAlpha=a*(.18+.3*s2);cx.drawImage(glow[p.k],x-r,y-r,r*2,r*2);}}   // 가까워진 단어의 제 빛
     for(let i=blasts.length-1;i>=0;i--){const b=blasts[i];b.life+=f;const q=1-b.life/13;if(q<=0){blasts.splice(i,1);continue;}
       const r=b.r*(.7+b.life*.22);cx.globalAlpha=Math.pow(q,1.4)*.85;cx.drawImage(glow[b.k],b.x-r,b.y-r,r*2,r*2);
       const c=r*.5;cx.globalAlpha=Math.pow(q,2)*.95;cx.drawImage(glow[5],b.x-c,b.y-c,c*2,c*2);
       const fw=r*2.6,fh=r*.2;cx.globalAlpha=Math.pow(q,1.6)*.6;cx.drawImage(glow[5],b.x-fw,b.y-fh,fw*2,fh*2);}   // 가로 섬광
-    for(let i=blooms.length-1;i>=0;i--){const b=blooms[i];b.life+=f;const q=b.life/44;if(q>=1){blooms.splice(i,1);continue;}
-      const g=q<.3?.45+q/.3*.75:1.2+(q-.3)*.25,a=q<.55?1:Math.max(0,1-(q-.55)/.45),sz=b.size*g;b.rot+=b.vr*f;b.y-=.25*f;
-      cx.globalAlpha=a*.5;cx.drawImage(glow[1],b.x-sz,b.y-sz,sz*2,sz*2);
-      if(rose&&rose._ok){cx.globalCompositeOperation='source-over';cx.globalAlpha=a;cx.setTransform(dpr*Math.cos(b.rot),dpr*Math.sin(b.rot),-dpr*Math.sin(b.rot),dpr*Math.cos(b.rot),dpr*b.x,dpr*b.y);
-        cx.drawImage(rose,-sz/2,-sz/2,sz,sz);cx.setTransform(dpr,0,0,dpr,0,0);cx.globalCompositeOperation='lighter';}}
     if(!popped)for(let i=sparks.length-1;i>=0;i--){const p=sparks[i];p.life+=f;if(p.life>p.max){sparks.splice(i,1);continue;}p.x+=p.vx*f;p.y+=p.vy*f;
       const r=2+Math.random()*2.5;cx.globalAlpha=alphaOf(p);cx.drawImage(glow[p.k],p.x-r,p.y-r,r*2,r*2);}
     if(popped){
       const since=now-popAt;
       for(const sh of shells)if(!sh.fired&&since>=sh.at){sh.fired=true;burst(sh);}
-      if(flower&&rose&&rose._ok&&!low&&since<3600)for(let n=0;n<(1+plan.level*.6)*f;n++)petals.push({x:Math.random()*W,y:-20,vx:(Math.random()-.5)*.8,vy:1.4+Math.random()*1.8,rot:Math.random()*6,vr:(Math.random()-.5)*.08,sz:12+Math.random()*12,ph:Math.random()*6});   // 장미 꽃비
-      if(!flower&&plan.rain&&!low&&since<2800)for(let n=0;n<plan.rain*f;n++)rains.push({x:Math.random()*W,y:-10-Math.random()*40,vx:(Math.random()-.5)*.5,vy:3+Math.random()*4,k:Math.random()<.8?0:5,r:1.5+Math.random()*2.5});   // 2,000부터 금빛 비
+      if(plan.rain&&!low&&since<2800)for(let n=0;n<plan.rain*f;n++)rains.push({x:Math.random()*W,y:-10-Math.random()*40,vx:(Math.random()-.5)*.5,vy:3+Math.random()*4,k:Math.random()<.8?0:5,r:1.5+Math.random()*2.5});   // 2,000부터 금빛 비
       if(since>nextAmbient){const [x,y]=rnd(SPOTS);burst(shell(x,y,Math.floor(Math.random()*msColors.length),26));nextAmbient=since+1500+Math.random()*700;}
       for(let i=flashes.length-1;i>=0;i--){const fl=flashes[i];fl.life+=f;const a=1-fl.life/14;if(a<=0){flashes.splice(i,1);continue;}
         const r=50+fl.life*9;cx.globalAlpha=a;cx.drawImage(glow[fl.k],fl.x-r,fl.y-r,r*2,r*2);}
@@ -266,10 +220,6 @@ function msRun(ov,canvas,cx,info,num,light,poem){
         const d=Math.pow(.955,f);p.vx*=d;p.vy=p.vy*d+.05*f;p.x+=p.vx*f;p.y+=p.vy*f;}
       for(let i=rains.length-1;i>=0;i--){const p=rains[i];p.x+=p.vx*f;p.y+=p.vy*f;if(p.y>H+10){rains.splice(i,1);continue;}
         cx.globalAlpha=Math.random()<.9?.85:.3;cx.drawImage(glow[p.k],p.x-p.r*2,p.y-p.r*2,p.r*4,p.r*4);}
-      if(petals.length){cx.globalCompositeOperation='source-over';
-        for(let i=petals.length-1;i>=0;i--){const p=petals[i];p.ph+=.05*f;p.x+=(p.vx+Math.sin(p.ph)*.6)*f;p.y+=p.vy*f;p.rot+=p.vr*f;if(p.y>H+30){petals.splice(i,1);continue;}
-          cx.globalAlpha=.85;cx.setTransform(dpr*Math.cos(p.rot),dpr*Math.sin(p.rot),-dpr*Math.sin(p.rot),dpr*Math.cos(p.rot),dpr*p.x,dpr*p.y);cx.drawImage(rose,-p.sz/2,-p.sz/2,p.sz,p.sz);}
-        cx.setTransform(dpr,0,0,dpr,0,0);cx.globalCompositeOperation='lighter';}
       cx.lineWidth=1.4;
       for(const p of sparks){const a=alphaOf(p);
         if(p.dot){const r=2.5+Math.random()*3;cx.globalAlpha=a*(Math.random()<.85?1:.25);cx.drawImage(glow[p.k],p.x-r,p.y-r,r*2,r*2);continue;}
@@ -278,8 +228,8 @@ function msRun(ov,canvas,cx,info,num,light,poem){
     }
     cx.globalCompositeOperation='source-over';cx.textAlign='center';cx.textBaseline='middle';
     if(warps.length){cx.font=`800 40px ${FONT}`;
-      for(const p of warps){if(p.off||p.s==null||p.s<.2)continue;const sc=p.big/40*p.s;
-        cx.setTransform(dpr*sc,0,0,dpr*sc,dpr*p.x,dpr*p.y);cx.globalAlpha=p.a*Math.min(1,(p.s-.2)*4+.25);cx.fillStyle=`rgb(${msColors[p.k]})`;cx.fillText(p.t,0,0);}
+      for(const p of warps){if(p.off||p.s==null)continue;const sc=p.big/40*p.s;if(sc*40<3)continue;   // 너무 작으면 아직 어둠
+        cx.setTransform(dpr*sc,0,0,dpr*sc,dpr*p.x,dpr*p.y);cx.globalAlpha=p.a*Math.min(1,.12+p.s*1.5);cx.fillStyle=`rgb(${msColors[p.k]})`;cx.fillText(p.t,0,0);}
       cx.setTransform(dpr,0,0,dpr,0,0);}
     for(const s of SIZES){
       cx.font=`800 ${s}px ${FONT}`;
@@ -300,12 +250,12 @@ function msClose(silent){
 }
 function msPreviewWords(n){
   const u=new Set(msUnion(msRead()));
-  if(u.size<n)msShuffle(state.lessons.flatMap(L=>L.exercises.flatMap(e=>e.words.map(msHead)))).forEach(k=>{if(k&&u.size<n)u.add(k);});
+  if(u.size<n)state.lessons.flatMap(L=>L.exercises.flatMap(e=>e.words.map(msHead))).forEach(k=>{if(k&&u.size<n)u.add(k);});   // 배운 순서대로 채운다
   return [...u];
 }
-/* 주소 끝 #milestone 또는 #milestone=2000 → 저장하지 않고 연출만 미리 본다(영신 확인용). &fx=rain(A)·warp(B)·flower(C)로 세는 연출 후보를 고른다. */
+/* 주소 끝 #milestone 또는 #milestone=2000 → 저장하지 않고 연출만 미리 본다(영신 확인용). &fx=rain이면 첫 후보(대각선 유성우). */
 function msPreview(){
-  const m=/^#milestone(?:=(\d{4,5}))?(?:&fx=(rain|warp|flower))?$/.exec(location.hash||'');if(!m)return false;
+  const m=/^#milestone(?:=(\d{4,5}))?(?:&fx=(rain|warp))?$/.exec(location.hash||'');if(!m)return false;
   const n=Math.max(msStep,Math.floor((Number(m[1])||msStep)/msStep)*msStep);
   setTimeout(()=>msShow({m:n,total:n,retro:false,words:msPreviewWords(n),preview:true,mode:m[2]}),600);return true;
 }
