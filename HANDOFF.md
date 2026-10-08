@@ -15,7 +15,8 @@
   - 연출: 유성우 카운트 → 빛 폭발 → 단어 불꽃놀이 → 고양이. 업데이트 전에 이미 넘은 학생은 첫 클리어 때 가장 큰 문턱 하나만.
   - 원본은 `pipeline/milestones/`([안내](pipeline/milestones/README.md)), 근거는 [PRINCIPLES 11](PRINCIPLES.md#11-돌파-축하-노력이-끝난-순간에).
   - 검사: milestones.test PASS, Codex 32/32.
-  - 다음: 영신이 미리 보기(GIF·`#milestone=1000`)를 본 뒤 배포. 실기기 Safari 확인 필요.
+  - 세는 연출 후보: A 대각선 유성우(현재 기본, 문턱마다 길고 화려하게), B 저 멀리서 눈앞으로 날아와 섬광이 되는 단어(`&fx=warp`). 영신이 고를 차례다.
+  - 다음: 영신이 A·B를 고르면 `msMode`를 정하고 배포. 실기기 Safari 확인 필요.
 
 - **2026-10-08 지식 예문(지식 지도 방식) — 1~3묶음·새 표제어 50개·고유명사 빈칸 5장 main 배포(영신 "지금까지 된 건 배포")**: 앱 c56d036, Pages 37789424808 completed/success. 기록은 [DEPLOYMENT](DEPLOYMENT.md).
   - 이 아래 항목의 '미배포' 표기는 배포 전 기록이다.

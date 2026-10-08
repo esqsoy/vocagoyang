@@ -10,6 +10,7 @@
   max-height:96dvh;text-align:center;transform:translateY(-2vh);}
 .ms-inner::before{content:'';position:absolute;left:-12%;right:-12%;top:-4%;bottom:-4%;z-index:-1;pointer-events:none;
   background:radial-gradient(closest-side,rgba(12,3,24,.82),rgba(12,3,24,.55) 60%,transparent);}
+.ms-fx.warp:not(.popped) .ms-inner::before{opacity:.45;}
 .ms-kicker{font-size:.95rem;font-weight:900;letter-spacing:.4em;padding-left:.4em;color:var(--cyan,#5ce6ff);text-shadow:0 0 10px var(--cyan,#5ce6ff),0 0 22px rgba(92,230,255,.6);}
 .ms-num{line-height:.95;}
 .ms-num b{display:block;font-size:clamp(4rem,24vw,8rem);font-weight:900;color:var(--gold,#ffd34d);font-variant-numeric:tabular-nums;letter-spacing:.02em;

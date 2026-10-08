@@ -1397,6 +1397,7 @@ body.playing .appbar{display:flex;padding:0 5px;}
   max-height:96dvh;text-align:center;transform:translateY(-2vh);}
 .ms-inner::before{content:'';position:absolute;left:-12%;right:-12%;top:-4%;bottom:-4%;z-index:-1;pointer-events:none;
   background:radial-gradient(closest-side,rgba(12,3,24,.82),rgba(12,3,24,.55) 60%,transparent);}
+.ms-fx.warp:not(.popped) .ms-inner::before{opacity:.45;}
 .ms-kicker{font-size:.95rem;font-weight:900;letter-spacing:.4em;padding-left:.4em;color:var(--cyan,#5ce6ff);text-shadow:0 0 10px var(--cyan,#5ce6ff),0 0 22px rgba(92,230,255,.6);}
 .ms-num{line-height:.95;}
 .ms-num b{display:block;font-size:clamp(4rem,24vw,8rem);font-weight:900;color:var(--gold,#ffd34d);font-variant-numeric:tabular-nums;letter-spacing:.02em;
@@ -4181,6 +4182,8 @@ const MS_COURSE="ebs";
 var msLearnedKey='goyang-learned-words-v1',msSeenKey='goyang-milestone-v1',msStep=1000;
 var msBusy=false,msPendingEnding=false,msRaf=0,msNode=null,msOpenedAt=0;
 var msColors=['255,211,77','255,79,163','92,230,255','195,153,255','124,255,178','255,255,255'];
+/* 세는 연출 후보(26.10.08 영신): rain = 대각선 유성우(A), warp = 저 멀리에서 눈앞으로 날아와 섬광이 되는 단어(B). */
+var msMode='rain';
 function msHead(w){const t=w&&(w.word??w.en??w.term);return typeof t==='string'?t.normalize('NFC').trim().replace(/\s+/gu,' ').toLowerCase():'';}
 function msRead(){
   try{const o=JSON.parse(localStorage.getItem(msLearnedKey)||'{}');return o&&typeof o==='object'&&!Array.isArray(o)?o:{};}
@@ -4271,7 +4274,7 @@ function msShow(info){
   msClose(true);msBusy=true;
   const m=info.m,label=m.toLocaleString('en-US'),still=!!window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
   const mk=(tag,cls,parent,html)=>{const el=document.createElement(tag);el.className=cls;if(html!=null)el.innerHTML=html;parent.appendChild(el);return el;};
-  const ov=document.createElement('div');ov.className='ms-fx';ov.id='msFx';
+  const ov=document.createElement('div');ov.className='ms-fx'+((info.mode||msMode)==='warp'?' warp':'');ov.id='msFx';
   ov.setAttribute('role','dialog');ov.setAttribute('aria-modal','true');ov.setAttribute('aria-label',label+'단어 돌파 축하');
   const canvas=mk('canvas','ms-canvas',ov);canvas.setAttribute('aria-hidden','true');
   mk('div','ms-glory',ov).setAttribute('aria-hidden','true');
@@ -4302,14 +4305,28 @@ function msRun(ov,canvas,cx,info,num,light){
   const glow=msColors.map(c=>msSprite(c,48)),streak=msColors.map(c=>msStreak(c,150,ang));
   const FONT='"Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif',SIZES=[10,12,14,17];
   const rnd=a=>a[Math.floor(Math.random()*a.length)];
-  const meteors=[],sparks=[],flashes=[],rains=[];
+  const meteors=[],sparks=[],flashes=[],rains=[],warps=[],stars=[],blasts=[],mode=info.mode||msMode;
   const plan=msPlan(m),T=plan.T;                                          // 1부터 m까지 세는 시간. 처음엔 천천히, 갈수록 빠르게
-  let t0=performance.now(),spawned=0,popped=false,popAt=0,shells=[],slow=0,low=false,last=t0,shownCount=0,nextAmbient=0,wi=m,rush=false;
+  let t0=performance.now(),spawned=0,arrived=0,popped=false,popAt=0,shells=[],slow=0,low=false,last=t0,shownCount=0,nextAmbient=0,wi=m,rush=false;
   ov._skip=()=>{if(popped)return false;rush=true;return true;};          // 세는 중에 누르면 바로 문턱으로
   const spawnMeteor=i=>{
     const sp=(H+W)*(.010+Math.random()*.007);                              // 글자가 읽히는 속도(26.10.08 영신: "너무 빠르게 하지 않아도")
     meteors.push({x:Math.random()*(W+H*drift),y:-20-Math.random()*80,vx:dirx*sp,vy:diry*sp,t:word(i),k:Math.floor(Math.random()*msColors.length),s:rnd(SIZES),scale:.55+Math.random()*.7,i});
   };
+  /* B: 소실점(숫자 뒤)에서 태어나 학생 쪽으로 다가온다. 원근 배율 s=ZN/z라 가까울수록 커지고,
+     화면 안으로 오는 단어는 눈앞에서 섬광이 되어 사라지고 나머지는 커지며 화면 밖으로 스쳐 간다. 도착할 때마다 1씩 센다. */
+  const Z0=8,ZN=.5,minD=Math.min(W,H);
+  const nr=num.getBoundingClientRect(),orc=ov.getBoundingClientRect(),VX=nr.left-orc.left+nr.width/2||W/2,VY=nr.top-orc.top+nr.height/2||H*.3;
+  const rateNow=t=>plan.ease*m/T*Math.pow(Math.max(.02,Math.min(1,t/T)),plan.ease-1)*1000;   // 초당 도착 수
+  const spawnWarp=(i,now)=>{
+    const head=Math.random()<Math.min(.6,22/rateNow(now-t0));                          // 섬광은 초당 스무 남짓까지만
+    let a=Math.random()*Math.PI*2;if(head&&Math.abs(Math.sin(a))<.5)a=Math.random()<.5?Math.PI*(.25+Math.random()*.5):Math.PI*(1.25+Math.random()*.5);   // 눈앞 섬광은 숫자 위아래로
+    const rf=head?minD*(.16+Math.random()*.4):minD*(.62+Math.random()*1.1);
+    warps.push({dx:Math.cos(a)*rf,dy:Math.sin(a)*rf,z:Z0,vz:(Z0-ZN)/(60*(1.35+Math.random()*.6)),t:word(i),k:Math.floor(Math.random()*msColors.length),big:30+Math.random()*26,head});
+  };
+  if(mode==='warp')for(let i=0;i<110;i++){const a=Math.random()*Math.PI*2,r=minD*(.3+Math.random()*1.4);stars.push({dx:Math.cos(a)*r,dy:Math.sin(a)*r,z:ZN+Math.random()*(Z0-ZN),vz:(Z0-ZN)/(60*(.9+Math.random()*.5))});}
+  const blast=(x,y,k,r)=>{blasts.push({x,y,k,r,life:0});
+    for(let i=0;i<7;i++){const a=Math.random()*Math.PI*2,sp=1.5+Math.random()*3.5;sparks.push({x,y,vx:Math.cos(a)*sp,vy:Math.sin(a)*sp,dot:true,k,life:0,max:22+Math.random()*16});}};
   /* 불꽃은 가운데 글자(숫자·고양이)를 피해 위·아래·양옆에서 터진다 */
   const SPOTS=[[.2,.15],[.8,.15],[.14,.52],[.86,.52],[.25,.85],[.75,.85],[.5,.93],[.5,.07],[.35,.1],[.65,.1]];
   const shell=(x,y,k,n)=>({at:0,x:W*x+(Math.random()-.5)*W*.08,y:H*y+(Math.random()-.5)*H*.05,k,n,fired:false});
@@ -4341,9 +4358,10 @@ function msRun(ov,canvas,cx,info,num,light){
     if(!popped){
       const want=rush?m:Math.min(m,Math.ceil(m*Math.pow(Math.min(1,(now-t0)/T),plan.ease)));
       if(rush)spawned=Math.max(spawned,want-24);                          // 건너뛸 때 남은 유성을 한꺼번에 띄우지 않는다
-      while(spawned<want){spawnMeteor(spawned);spawned++;}
-      if(spawned!==shownCount){shownCount=spawned;num.textContent=spawned.toLocaleString('en-US');}
-      if(spawned>=m)pop(now);
+      if(mode==='warp'){while(spawned<want){spawnWarp(spawned,now);spawned++;}if(rush)arrived=m;}
+      else{while(spawned<want){spawnMeteor(spawned);spawned++;}arrived=spawned;}
+      if(arrived!==shownCount){shownCount=arrived;num.textContent=arrived.toLocaleString('en-US');}
+      if(arrived>=m)pop(now);
     }
     for(let i=meteors.length-1;i>=0;i--){
       const p=meteors[i];p.x+=p.vx*f;p.y+=p.vy*f;
@@ -4351,6 +4369,26 @@ function msRun(ov,canvas,cx,info,num,light){
       const st=streak[p.k];cx.globalAlpha=.85;cx.drawImage(st.c,p.x-st.hx*p.scale,p.y-st.hy*p.scale,st.c.width*p.scale,st.c.height*p.scale);
       if(!low){cx.globalAlpha=.5;cx.drawImage(glow[p.k],p.x-13,p.y-13,26,26);}
     }
+    for(const st of stars){const z0=st.z;st.z-=st.vz*f;
+      if(st.z<=ZN){st.z=Z0;continue;}
+      if(popped||low)continue;
+      const s1=ZN/z0,s2=ZN/st.z,x1=VX+st.dx*s1,y1=VY+st.dy*s1,x2=VX+st.dx*s2,y2=VY+st.dy*s2;
+      if(x2<-20||x2>W+20||y2<-20||y2>H+20){st.z=Z0;continue;}
+      cx.globalAlpha=Math.min(.8,s2*1.2);cx.strokeStyle='rgb(200,230,255)';cx.lineWidth=Math.max(.6,s2*2.2);cx.beginPath();cx.moveTo(x1,y1);cx.lineTo(x2,y2);cx.stroke();}
+    for(let i=warps.length-1;i>=0;i--){const p=warps[i],z1=p.z;p.z-=p.vz*f;
+      const s2=ZN/Math.max(ZN,p.z),x=VX+p.dx*s2,y=VY+p.dy*s2;p.x=x;p.y=y;p.s=s2;
+      if(p.z<=ZN){warps.splice(i,1);if(!popped&&!rush)arrived++;if(p.head&&x>-40&&x<W+40&&y>-40&&y<H+40)blast(x,y,p.k,p.big*2);continue;}
+      if(x<-300||x>W+300||y<-200||y>H+200){p.off=true;continue;}
+      const s1=ZN/z1,a=Math.min(1,(Z0-p.z)/1.2);p.a=a;
+      cx.globalAlpha=a*.55;cx.strokeStyle=`rgb(${msColors[p.k]})`;cx.lineWidth=Math.max(1,s2*5);cx.beginPath();cx.moveTo(VX+p.dx*s1*.82,VY+p.dy*s1*.82);cx.lineTo(x,y);cx.stroke();
+      if(s2<.2){const r=1.5+s2*12;cx.globalAlpha=a*.9;cx.drawImage(glow[p.k],x-r,y-r,r*2,r*2);}   // 멀리 있을 땐 별빛, 다가오면 글자
+      else if(!low){const r=p.big*s2*(1+s2*.6);cx.globalAlpha=a*(.3+.35*s2);cx.drawImage(glow[p.k],x-r,y-r,r*2,r*2);}}
+    for(let i=blasts.length-1;i>=0;i--){const b=blasts[i];b.life+=f;const q=1-b.life/13;if(q<=0){blasts.splice(i,1);continue;}
+      const r=b.r*(.7+b.life*.22);cx.globalAlpha=Math.pow(q,1.4)*.85;cx.drawImage(glow[b.k],b.x-r,b.y-r,r*2,r*2);
+      const c=r*.5;cx.globalAlpha=Math.pow(q,2)*.95;cx.drawImage(glow[5],b.x-c,b.y-c,c*2,c*2);
+      const fw=r*2.6,fh=r*.2;cx.globalAlpha=Math.pow(q,1.6)*.6;cx.drawImage(glow[5],b.x-fw,b.y-fh,fw*2,fh*2);}   // 가로 섬광
+    if(!popped)for(let i=sparks.length-1;i>=0;i--){const p=sparks[i];p.life+=f;if(p.life>p.max){sparks.splice(i,1);continue;}p.x+=p.vx*f;p.y+=p.vy*f;
+      const r=2+Math.random()*2.5;cx.globalAlpha=alphaOf(p);cx.drawImage(glow[p.k],p.x-r,p.y-r,r*2,r*2);}
     if(popped){
       const since=now-popAt;
       for(const sh of shells)if(!sh.fired&&since>=sh.at){sh.fired=true;burst(sh);}
@@ -4369,6 +4407,10 @@ function msRun(ov,canvas,cx,info,num,light){
           cx.globalAlpha=a*.5;cx.strokeStyle=`rgb(${msColors[p.k]})`;cx.beginPath();cx.moveTo(p.x-p.vx*5,p.y-p.vy*5);cx.lineTo(p.x,p.y);cx.stroke();}}
     }
     cx.globalCompositeOperation='source-over';cx.textAlign='center';cx.textBaseline='middle';
+    if(warps.length){cx.font=`800 40px ${FONT}`;
+      for(const p of warps){if(p.off||p.s==null||p.s<.2)continue;const sc=p.big/40*p.s;
+        cx.setTransform(dpr*sc,0,0,dpr*sc,dpr*p.x,dpr*p.y);cx.globalAlpha=p.a*Math.min(1,(p.s-.2)*4+.25);cx.fillStyle=`rgb(${msColors[p.k]})`;cx.fillText(p.t,0,0);}
+      cx.setTransform(dpr,0,0,dpr,0,0);}
     for(const s of SIZES){
       cx.font=`800 ${s}px ${FONT}`;
       for(const p of meteors)if(p.s===s&&!(low&&p.i%2)){cx.globalAlpha=.95;cx.fillStyle=`rgb(${msColors[p.k]})`;cx.fillText(p.t,p.x,p.y);}
@@ -4391,11 +4433,11 @@ function msPreviewWords(n){
   if(u.size<n)msShuffle(state.lessons.flatMap(L=>L.exercises.flatMap(e=>e.words.map(msHead)))).forEach(k=>{if(k&&u.size<n)u.add(k);});
   return [...u];
 }
-/* 주소 끝 #milestone 또는 #milestone=2000 → 저장하지 않고 연출만 미리 본다(영신 확인용). */
+/* 주소 끝 #milestone 또는 #milestone=2000 → 저장하지 않고 연출만 미리 본다(영신 확인용). &fx=warp·&fx=rain으로 세는 연출 후보를 고른다. */
 function msPreview(){
-  const m=/^#milestone(?:=(\d{4,5}))?$/.exec(location.hash||'');if(!m)return false;
+  const m=/^#milestone(?:=(\d{4,5}))?(?:&fx=(rain|warp))?$/.exec(location.hash||'');if(!m)return false;
   const n=Math.max(msStep,Math.floor((Number(m[1])||msStep)/msStep)*msStep);
-  setTimeout(()=>msShow({m:n,total:n,retro:false,words:msPreviewWords(n),preview:true}),600);return true;
+  setTimeout(()=>msShow({m:n,total:n,retro:false,words:msPreviewWords(n),preview:true,mode:m[2]}),600);return true;
 }
 var msOrigFinish=finishExercise,msOrigEnding=showEnding;
 finishExercise=function(){

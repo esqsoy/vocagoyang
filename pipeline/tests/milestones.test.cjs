@@ -93,6 +93,9 @@ let progressAt2500=null;
   h.run("location.hash='#milestone=2000'");assert.equal(h.ctx.msPreview(),true);h.advance(700);
   assert.deepEqual(shows.map(s=>[s.m,s.preview,s.words.length>=2000]),[[2000,true,true]]);
   assert(!h.storage.has(SEEN));
+  h.run("location.hash='#milestone=1000&fx=warp'");h.ctx.msPreview();h.advance(700);
+  assert.deepEqual(shows.map(s=>s.mode),[undefined,'warp'],'&fx=warp로 다가오는 단어(B) 후보를 미리 본다');
+  assert.equal(h.run('msMode'),'rain','정식 축하는 아직 A(대각선 유성우)');
 }
 
 // 9) 문턱이 높을수록 유성우가 길고 연출이 화려하다(영신: "갈수록 더 길게", "1000개나 외웠는데 좀 길어도").
