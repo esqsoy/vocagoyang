@@ -10,7 +10,7 @@
   - 변경 원장은 `pipeline/claude-review-20261008/`에 있다. 내용을 고치면 같은 방식으로 원장을 남기고 복원 체인에 얹는다(그 폴더 README 참고).
   - 다음 일: 1·3세트 타일 줄바꿈이 남아 있다. 43 country 제안도 아직 미반영이다.
 
-- **2026-10-08 연습 타일·담김 하트·학문 용어 2장·country — main 배포(영신 "배포해주십쇼")**: Pages 결과는 [DEPLOYMENT](DEPLOYMENT.md).
+- **2026-10-08 연습 타일·담김 하트·학문 용어 2장·country — main 배포(영신 "배포해주십쇼")**: 앱 3ade2f7, Pages 37745476960 completed/success. 기록은 [DEPLOYMENT](DEPLOYMENT.md).
   - 연습 타일(영신 제보, iPhone Safari): 왼쪽 칸만 넓어짐, 구분점 혼자 줄, 별이 첫 글자를 덮음. 세 교재 공통으로 고쳤다. 두 칸은 같은 폭, 제목은 `tileTitleHtml()`로 줄바꿈 자리를 정한다. 이유는 [PRINCIPLES 8](PRINCIPLES.md#8-한국어-표기화면-표시).
   - 담김 표시(영신 제안): 게임 안에서는 담은 뒤에만 고양이 왼쪽에 ♥. 담기 전에는 아무 표시가 없다. 홈 '♥ 모아둔 카드'와 검색 '♥ 담김'도 하트로 맞췄다. 원본은 `pipeline/saved-cards/style.css`·`runtime.js`, `build.cjs`로 반영한다.
   - anthropology·geography 예문을 예문만으로 정의가 완결되게 바꿨다(영신). 원장: `pipeline/claude-review-20261008/academic-terms.json`(복원 체인 맨 위).

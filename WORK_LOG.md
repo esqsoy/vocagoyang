@@ -532,7 +532,7 @@
   - Codex 테스트 32/32. saved build --check 통과.
   - 실기기 Safari는 확인하지 않았다(이 세션에 WebKit 없음).
 - country(영신: "네 제안이 적절하네 그렇게 합시다"): lesson02 country ①을 "Vatican City is the smallest country in the world."로 바꿨다. 빈칸 단어가 사실의 중심이다(PRINCIPLES 2-4). 원장은 `country.json`. exaudit 27 그대로, linecheck 초과 0, Codex 테스트 32/32.
-- 상태: 영신 "배포해주십쇼" → main에 fast-forward. Pages 결과는 DEPLOYMENT.md.
+- 상태: 영신 "배포해주십쇼" → 3ade2f7를 main에 fast-forward했다. Pages 37745476960 completed/success. main의 네 HTML blob이 로컬 검증본과 같다. github.io 직접 확인은 이 세션에서 할 수 없다.
 
 ## 다음 기록 형식
 

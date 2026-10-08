@@ -1,3 +1,18 @@
+# 연습 타일·담김 하트·학문 용어 2장·country 배포 · 2026-10-08
+
+- 앱 커밋 [3ade2f7](https://github.com/esqsoy/vocagoyang/commit/3ade2f7)을 origin/main에 fast-forward로 푸시했다(7368e82 다음 2커밋). [Pages 37745476960](https://github.com/esqsoy/vocagoyang/actions/runs/37745476960): completed/success.
+- 확인 방법: 이 세션은 github.io 접속이 막혀 공개 페이지의 HTTP 200·해시 대조는 **하지 못했다**. GitHub API로 main의 `index.html`과 세 과정 HTML의 blob SHA가 로컬 검증본과 같은 것을 확인했다.
+- 포함:
+  - 세 교재 연습·세트 타일. 두 칸은 같은 폭으로, 제목 줄바꿈을 정리했다(구분점·번호 묶기, "·" 뒤 줄바꿈 자리). 클리어 별은 제목 앞으로 옮겼다. 영신의 iPhone Safari 제보에서 나온 수정이다.
+  - 담김 표시: 담은 뒤에만 고양이 왼쪽에 ♥가 뜨고, 담기 전에는 표시가 없다. 홈 '♥ 모아둔 카드', 검색 '♥ 담김'.
+  - 48세트 anthropology·geography 예문(정의를 예문 안에서 완결)과 43 country ① 바티칸 문장.
+- 배포 전 검사(같은 내용으로 실행): Codex 검사 32/32, linecheck 390px 초과 0, exaudit 27, deepcheck A1~A5 0, 원장 역적용 해시 일치. Chromium 393·360px로 51세트 타일을 검사했다(Safari식 줄바꿈 흉내 포함). 담김 하트는 문제·담은 뒤·정답 공개 화면을 캡처로 봤다. 실기기 Safari는 확인하지 않았다.
+- 카드 수·표제어·정답 범위·IPA·진도·저장 키는 그대로다. 마더텅·EBS는 화면 코드(타일·하트)만 바뀌었고 DATA는 그대로다.
+
+[FABLE 열기](https://esqsoy.github.io/vocagoyang/vocagoyangfable.html?release=3ade2f7)
+
+---
+
 # 긴 예문 다시 쓰기·학문 용어 예문·긴 정답 칸 배포 · 2026-10-08
 
 - 앱 커밋 [0d2d1ab](https://github.com/esqsoy/vocagoyang/commit/0d2d1ab)를 origin/main에 fast-forward로 푸시했다(3790f5c 다음 3커밋). [Pages 37742755620](https://github.com/esqsoy/vocagoyang/actions/runs/37742755620): completed/success.
