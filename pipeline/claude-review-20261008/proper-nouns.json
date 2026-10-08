@@ -1,0 +1,460 @@
+{
+ "date": "2026-10-08",
+ "name": "proper-nouns",
+ "status": "applied_locally_verified",
+ "authorization": "영신 26.10.08: '이런 경우는 예문을 좀 변경하고 고유명사를 해설에 적시하면 어때?'",
+ "summary": "고유명사 안 빈칸 5장(empire·pyramid·pole②·hemisphere·lunar)을 일반 명사 쓰임 예문으로 바꾸고 고유명사는 해설에 적음.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "746f0ed7fc9d1d9c155b90cb076fa783a82e3965f930e24245c657356dce0c75",
+   "afterHash": "251533669ecd7423171d41960f4118c9d6c8c0ded3d0f76609f73d58d6efa2cb",
+   "changes": [
+    {
+     "path": [
+      16,
+      "exercises",
+      10,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The Great {{BLANK}} of Giza was built about 4,500 years ago.",
+     "new": "Egypt's largest {{BLANK}} was built about 4,500 years ago."
+    },
+    {
+     "path": [
+      16,
+      "exercises",
+      10,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "기자의 대피라미드는 약 4,500년 전에 지어졌어.",
+     "new": "이집트에서 가장 큰 피라미드는 약 4,500년 전에 지어졌어."
+    },
+    {
+     "path": [
+      16,
+      "exercises",
+      10,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "고대 이집트 왕의 무덤. 모양을 가리킬 때도 pyramid.",
+     "new": "고대 이집트 왕의 무덤. 기자의 대피라미드는 the Great Pyramid of Giza."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      0,
+      "words",
+      12,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Ice covers the North {{BLANK}}.",
+     "new": "The Earth spins around a line between its two {{BLANK}}s."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      0,
+      "words",
+      12,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "북극은 얼음으로 덮여 있어.",
+     "new": "지구는 두 극 사이를 잇는 선을 축으로 돌아."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      3,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In the 2nd century, Rome's {{BLANK}} stretched from Britain to Egypt.",
+     "new": "In 27 BC, Rome became an {{BLANK}} ruled by Augustus."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      3,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "2세기에 로마 제국은 브리튼섬에서 이집트까지 뻗어 있었어.",
+     "new": "기원전 27년, 로마는 아우구스투스가 다스리는 제국이 되었어."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      3,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "emperor(황제)가 다스리는 나라. 큰 기업 집단도 empire: a coffee empire(커피 제국).",
+     "new": "로마 제국은 the Roman Empire. emperor(황제)가 다스리는 나라. 큰 기업 집단도 empire."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      3,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Korea lies in the Northern {{BLANK}}.",
+     "new": "The equator divides the Earth into two {{BLANK}}s."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      3,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "한국은 북반구에 있어.",
+     "new": "적도는 지구를 두 반구로 나눠."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      3,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "ἡμι-(hēmi, 절반)+σφαῖρα(sphaira, 구). 구의 절반.",
+     "new": "ἡμι-(hēmi, 절반)+σφαῖρα(sphaira, 구). 북반구는 the Northern Hemisphere."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      22,
+      "words",
+      12,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Koreans celebrate the {{BLANK}} New Year in January or February.",
+     "new": "Seollal is New Year's Day on the {{BLANK}} calendar."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      22,
+      "words",
+      12,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "한국 사람들은 1월이나 2월에 음력 설을 쇠.",
+     "new": "설날은 음력으로 새해 첫날이야."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/set16.json": {
+   "beforeHash": "067dde26f6dc6613b05ff20784ee10bfab5139e6f1015f4c696516a4b50d56b6",
+   "afterHash": "46fdd3d196e6e6ede878a2a86cb3ba76511d936feb4aacb7b980c848ed5daab7"
+  },
+  "pipeline/out/set17.json": {
+   "beforeHash": "65332fae60f7be410184f6ede383eb2dba61009ba1321c80ddb2e1ff0deabedc",
+   "afterHash": "ba3e636958f8e116154205872e702f3d946ee24cdf087c653d7d6e8841cab87b"
+  },
+  "pipeline/out/set27.json": {
+   "beforeHash": "80eaa05cf5cf929c172b9aa1127ca0b9a86ca7a1e33f47c403282a7e19d33498",
+   "afterHash": "cf21c3e996630e807686972e94b19fe0982ff412a49d157775a093fe1fbe5057"
+  },
+  "pipeline/out/set48.json": {
+   "beforeHash": "b91b96251aafb07280635ef167c21407a01c9245970867be43c20f16aec4b89c",
+   "afterHash": "95f2a9e552100b2b660fb36ece954b51859f9038130d92d41d03752c0acaa945"
+  },
+  "pipeline/morphology.json": {
+   "beforeHash": "8065c5b454d1a3e66aed21188f10b1a40967eadf8dfc9e366d9896635f987a62",
+   "afterHash": "bef00cdf6ae48fdf91cf8cd6586a8a7131a78b542044c1522a6c0509b27d2423"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/set16.json": [
+   {
+    "path": [
+     10,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The Great {{BLANK}} of Giza was built about 4,500 years ago.",
+    "new": "Egypt's largest {{BLANK}} was built about 4,500 years ago."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "기자의 대피라미드는 약 4,500년 전에 지어졌어.",
+    "new": "이집트에서 가장 큰 피라미드는 약 4,500년 전에 지어졌어."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "고대 이집트 왕의 무덤. 모양을 가리킬 때도 pyramid.",
+    "new": "고대 이집트 왕의 무덤. 기자의 대피라미드는 the Great Pyramid of Giza."
+   }
+  ],
+  "pipeline/out/set17.json": [
+   {
+    "path": [
+     0,
+     "words",
+     12,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Ice covers the North {{BLANK}}.",
+    "new": "The Earth spins around a line between its two {{BLANK}}s."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "북극은 얼음으로 덮여 있어.",
+    "new": "지구는 두 극 사이를 잇는 선을 축으로 돌아."
+   }
+  ],
+  "pipeline/out/set27.json": [
+   {
+    "path": [
+     3,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In the 2nd century, Rome's {{BLANK}} stretched from Britain to Egypt.",
+    "new": "In 27 BC, Rome became an {{BLANK}} ruled by Augustus."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "2세기에 로마 제국은 브리튼섬에서 이집트까지 뻗어 있었어.",
+    "new": "기원전 27년, 로마는 아우구스투스가 다스리는 제국이 되었어."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "emperor(황제)가 다스리는 나라. 큰 기업 집단도 empire: a coffee empire(커피 제국).",
+    "new": "로마 제국은 the Roman Empire. emperor(황제)가 다스리는 나라. 큰 기업 집단도 empire."
+   }
+  ],
+  "pipeline/out/set48.json": [
+   {
+    "path": [
+     3,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Korea lies in the Northern {{BLANK}}.",
+    "new": "The equator divides the Earth into two {{BLANK}}s."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "한국은 북반구에 있어.",
+    "new": "적도는 지구를 두 반구로 나눠."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "ἡμι-(hēmi, 절반)+σφαῖρα(sphaira, 구). 구의 절반.",
+    "new": "ἡμι-(hēmi, 절반)+σφαῖρα(sphaira, 구). 북반구는 the Northern Hemisphere."
+   },
+   {
+    "path": [
+     22,
+     "words",
+     12,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Koreans celebrate the {{BLANK}} New Year in January or February.",
+    "new": "Seollal is New Year's Day on the {{BLANK}} calendar."
+   },
+   {
+    "path": [
+     22,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "한국 사람들은 1월이나 2월에 음력 설을 쇠.",
+    "new": "설날은 음력으로 새해 첫날이야."
+   }
+  ],
+  "pipeline/morphology.json": [
+   {
+    "path": [
+     "units",
+     97,
+     "cards",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Korea lies in the Northern {{BLANK}}.",
+    "new": "The equator divides the Earth into two {{BLANK}}s."
+   },
+   {
+    "path": [
+     "units",
+     97,
+     "cards",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "한국은 북반구에 있어.",
+    "new": "적도는 지구를 두 반구로 나눠."
+   },
+   {
+    "path": [
+     "units",
+     97,
+     "cards",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "ἡμι-(hēmi, 절반)+σφαῖρα(sphaira, 구). 구의 절반.",
+    "new": "ἡμι-(hēmi, 절반)+σφαῖρα(sphaira, 구). 북반구는 the Northern Hemisphere."
+   },
+   {
+    "path": [
+     "units",
+     145,
+     "cards",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Koreans celebrate the {{BLANK}} New Year in January or February.",
+    "new": "Seollal is New Year's Day on the {{BLANK}} calendar."
+   },
+   {
+    "path": [
+     "units",
+     145,
+     "cards",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "한국 사람들은 1월이나 2월에 음력 설을 쇠.",
+    "new": "설날은 음력으로 새해 첫날이야."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/set16.json": [],
+  "pipeline/out/set17.json": [],
+  "pipeline/out/set27.json": [],
+  "pipeline/out/set48.json": [],
+  "pipeline/morphology.json": []
+ }
+}

@@ -112,6 +112,16 @@
   - 단어 추가는 여전히 먼저 의견을 낸다(AGENTS). 이 결정은 지식 예문에 필요한 단어를 더하는 방향을 정한 것이지, 사전 확인 없이 더해도 된다는 뜻이 아니다.
 - 사례: relativity 초안은 theory가 표제어 밖이라 "Einstein's ___ showed…"로 돌려 썼다. 정식 이름 '상대성 이론(theory of relativity)'이 깨진 문장이었다. theory를 더하면서 영신이 "아인슈타인의 이론도 상대성이론으로 하자"고 했다. 지금은 "Einstein's theory of relativity says that time can slow down."이다. 돌려 쓰기가 지식을 흐린 실제 사례이고, 정식 명칭은 그대로 쓴다는 WORK_PLAN '용어·난도·뜻의 명료성'과도 맞는다.
 
+### 2-7. 고유명사 안에 빈칸을 두지 않는다
+
+- **빈칸 단어가 고유명사의 일부가 되면, 그 단어를 일반 명사로 쓰는 예문으로 바꾸고 고유명사는 해설에 적는다.** (26.10.08 영신: "이런 경우는 예문을 좀 변경하고 고유명사를 해설에 적시하면 어때? Rome became an empire 같이 쓰는 거지.")
+- 왜: 화면은 정답을 채울 때 문장 첫머리만 대문자로 바꾼다(`answerInSentence`). 그래서 "the Roman ___"에 empire를 넣으면 "the Roman empire"로 보인다. 학생에게 틀린 대소문자를 보여 주게 된다. 처음에는 "Rome's empire"처럼 이름을 피해 돌려 썼는데, 영신이 단어를 제자리에서 쓰는 문장으로 바꾸고 이름은 해설로 옮기자고 했다. 문장은 자연스러워지고 정식 이름도 남는다.
+- 사례(26.10.08 전수 확인): 0~50세트에서 5장이었다. 모두 고쳤다.
+  - empire: "In 27 BC, Rome became an empire ruled by Augustus." 해설 "로마 제국은 the Roman Empire". 영신 예시의 '2세기'는 영토가 가장 넓던 때라 제국이 된 해(기원전 27년)로 바로잡았다.
+  - pyramid(Great Pyramid of Giza), pole ②(North Pole), hemisphere(Northern Hemisphere), lunar(Lunar New Year)도 같은 방식으로 바꿨다. wall은 처음부터 "a long wall"로 쓰고 해설에 the Great Wall of China를 적었다.
+  - 경계 사례 parliament(18세트 "The British parliament")는 소문자 표기도 쓰이므로 이번에는 두고, 4묶음(의회 정치)에서 다시 본다.
+- 확인 방법: 문장 첫머리가 아닌 대문자 단어 바로 앞뒤에 소문자 표제어 빈칸이 오는 카드를 뽑아 사람이 읽는다. 대부분은 English teacher, Korean custom처럼 정상이다.
+
 ## 3. 빈칸 중의성: 맞는 영어를 치고 틀리게 하지 않는다
 
 - 문제 화면에서 학생이 보는 것은 뜻(ko), 빈칸 예문, 글자 칸 수뿐이다. 이 셋만 보고 다른 영어 단어를 넣어도 말이 되면 결함이다.

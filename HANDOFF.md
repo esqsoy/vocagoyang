@@ -17,6 +17,7 @@
   - 2묶음: 새 표제어 50개를 16·26·34·42세트 끝 '지식 어휘 Ⅰ~Ⅳ'로 추가했다. burial은 21세트 이집트 피라미드 문장, relativity는 "theory of relativity"다. 원장 `knowledge-02.json`(복원 체인 맨 위). FABLE 7,131카드·628연습·표제어 4,978.
   - 3묶음 26장(2장 고대 제국과 사상, 3장 중세와 교류): 원장 `knowledge-03.json`(복원 체인 맨 위), 목록 `knowledge-map/batch-03.json`. 영신 "tight!!!!!!".
   - 검사(3묶음 후): exaudit 26, linecheck 390·360 초과 0, deepcheck 0, Codex 테스트 32/32.
+  - 고유명사 안 빈칸 5장(empire·pyramid·pole②·hemisphere·lunar)을 영신 제안대로 고쳤다: 단어는 일반 명사로 쓰고 이름은 해설에 적는다([PRINCIPLES 2-7](PRINCIPLES.md#2-7-고유명사-안에-빈칸을-두지-않는다)). 원장 `proper-nouns.json`(체인 맨 위). parliament는 4묶음에서 다시 본다.
   - 지도에서 끝난 노드: W01~W13(1~3장). 지도의 ●○◇ 표시는 작성 전 기준이라, 어느 단어를 바꿨는지는 batch 파일로 확인한다.
   - **다음**:
     - 영신이 정하는 시점에 1~3묶음을 함께 배포한다.

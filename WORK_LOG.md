@@ -600,6 +600,18 @@
 - 검증(이번에 실행): exaudit 26(변화 없음), linecheck 390·360px 문장·화면 초과 0, deepcheck A1~A5 0, collide 새 경쟁어 없음(holy↔sacred는 글자 수가 달라 결함 아님), IPA 빌드 검사, Codex 테스트 32/32.
 - 상태: 커밋·브랜치 푸시. **main 배포 전**(1~3묶음 함께 대기). 다음은 4묶음(4장 르네상스와 대항해, 5장 종교개혁·절대왕정·계몽).
 
+## 2026-10-08 · 고유명사 안 빈칸 5장 고침(영신 제안)
+
+- 요청(영신): 고유명사 안에 빈칸이 오는 경우는 "예문을 좀 변경하고 고유명사를 해설에 적시하면 어때? Rome became an empire 같이."
+- 결정: 단어를 일반 명사로 쓰는 예문으로 바꾸고 정식 이름은 해설에 적는다. PRINCIPLES 2-7에 이유를 남겼다. 이유는 화면이 문장 첫머리만 대문자로 바꿔서, 고유명사 안 빈칸이 소문자로 보이기 때문이다. empire 예시의 '2세기'는 로마가 제국이 된 해(기원전 27년)로 바로잡았다. 2세기는 영토가 가장 넓던 때다.
+- 반영(로컬·브랜치, 미배포):
+  - 0~50세트를 훑어 5장을 찾았다: empire(27), pyramid(16), pole ②(17), hemisphere(48), lunar(48). pyramid와 lunar는 이번 주에 Claude가 쓴 카드였다.
+  - 원본 5파일. 원장 `claude-review-20261008/proper-nouns.json`을 복원 체인 맨 위에 얹었다. 목록 `proper-nouns-edits.json`.
+  - parliament(18, "The British parliament")는 소문자 표기도 쓰여서 경계 사례로 두고, 4묶음(의회 정치)에서 다시 본다.
+  - 문서: PRINCIPLES 2-7, WORK_PLAN 용어 항목에 링크, 원장 README.
+- 검증(이번에 실행): exaudit 26, linecheck 390·360px 초과 0, deepcheck A1~A5 0, collide 5장 경쟁어 없음, Codex 테스트 32/32(형태론 10단어·해설 70자 검사 포함).
+- 상태: 커밋·브랜치 푸시. **main 배포 전**(1~3묶음과 함께 대기).
+
 ## 다음 기록 형식
 
 

@@ -61,5 +61,16 @@ Claude가 Codex 3주 작업(78커밋) 후의 최신판을 리뷰했다. 리뷰 �
   - 새 연습은 이름에 번호 범위가 없다. `assemble.py`의 세트 이름(예: 26세트 2484~2583)은 범위가 있는 연습만으로 계산한다.
   - 개수: FABLE 7,081→7,131카드, 624→628연습, 표제어 4,928→4,978. 테스트는 개수를 DATA에서 읽어 단언을 바꾸지 않고 32/32 통과했다.
 - **3묶음(`knowledge-03`, 26카드):** 2장 고대 제국과 사상(그리스·로마·중국·세계 종교), 3장 중세와 교류(중세 유럽·이슬람 학문·바이킹). 영신 "tight!!!!!!". 예문·해석과 해설 8장만 바꿨다. 목록: `../knowledge-map/batch-03.json`.
-  - 고유명사 안에 빈칸을 두지 않는다. 화면(`answerInSentence`)은 문장 첫머리만 대문자로 바꾸므로 "the Roman empire"처럼 소문자로 보인다. 그래서 empire는 "Rome's empire", wall은 "a long wall"로 쓰고 이름은 해설에 넣었다.
+  - 고유명사 안에 빈칸을 두지 않는다. 화면(`answerInSentence`)은 문장 첫머리만 대문자로 바꾸므로 "the Roman empire"처럼 소문자로 보인다.
+
+## 고유명사 안 빈칸(`proper-nouns.json`)
+
+영신 26.10.08: "이런 경우는 예문을 좀 변경하고 고유명사를 해설에 적시하면 어때?" 단어를 일반 명사로 쓰는 예문으로 바꾸고 정식 이름은 해설에 적는다([PRINCIPLES 2-7](../../PRINCIPLES.md#2-7-고유명사-안에-빈칸을-두지-않는다)). 0~50세트를 훑어 5장을 고쳤다. 목록: `proper-nouns-edits.json`.
+
+- empire(27): "In 27 BC, Rome became an empire ruled by Augustus." 영신 예시의 '2세기'는 영토가 가장 넓던 때라, 제국이 된 해로 바로잡았다.
+- pyramid(16): "Egypt's largest pyramid was built about 4,500 years ago." 해설에 the Great Pyramid of Giza.
+- pole ②(17): "The Earth spins around a line between its two poles." 해설은 원래 the North Pole·South Pole을 담고 있었다.
+- hemisphere(48): "The equator divides the Earth into two hemispheres." 해설에 the Northern Hemisphere. 34세트 equator와 이어진다.
+- lunar(48): "Seollal is New Year's Day on the lunar calendar." 사촌 쌍 해설은 그대로다.
+- 47·48세트의 두 예문은 형태론 검사(10단어 이내, 해설 70자 이내)를 지킨다.
 
