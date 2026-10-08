@@ -1,0 +1,3545 @@
+{
+ "date": "2026-10-08",
+ "name": "knowledge-08",
+ "status": "applied_locally_verified",
+ "authorization": "영신(2026-10-08): \"이제 예문작업을 완성해버리자! 전부!\"",
+ "summary": "지식 지도 12장 핵심 개념(수능 독서 배경) 56장: 운동과 힘, 빛·소리·열, 지구와 하늘, 생명과 몸, 기후와 환경, 시장과 가격(기회비용·수요·공급·균형·탄력성·독점), 나라 경제, 민주주의와 헌법, 철학의 말, 학문 이름, 생물 다양성. 예문만으로 정의가 완결되게 썼다(PRINCIPLES 2-5). gross는 domestic이 표제어 밖이라 두고, domestic·mammal 추가를 제안한다. 목록 pipeline/knowledge-map/batch-08.json.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "c0da116cd4b2c7c034ba53cfaa1364f522455f568daba25839d0d2bb6c2561cc",
+   "afterHash": "0e24df01480b7747bd0595e33750ad8be39c58afc9846e7c6de3a8b507ab194a",
+   "changes": [
+    {
+     "path": [
+      1,
+      "exercises",
+      3,
+      "words",
+      24,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Fire changed the history of {{BLANK}}.",
+     "new": "Aristotle said that {{BLANK}} is by nature a political animal."
+    },
+    {
+     "path": [
+      1,
+      "exercises",
+      3,
+      "words",
+      24,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "불은 인류의 역사를 바꿨어.",
+     "new": "아리스토텔레스는 인간은 본래 정치적 동물이라고 말했어."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      5,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Spring is my favorite {{BLANK}}.",
+     "new": "We have {{BLANK}}s because the Earth leans as it goes around the Sun."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      5,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "봄은 내가 제일 좋아하는 계절이야.",
+     "new": "지구가 기울어진 채로 태양 둘레를 돌기 때문에 계절이 생겨."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      1,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} of living is rising.",
+     "new": "The opportunity {{BLANK}} of a choice is the value of the best thing you give up."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      1,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "생활비가 오르고 있어.",
+     "new": "어떤 선택의 기회비용은 포기한 것 가운데 가장 좋은 것의 가치야."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      1,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "at any cost = 어떤 대가를 치르더라도.",
+     "new": "opportunity cost는 기회비용. the cost of living은 생활비."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      5,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}}s shine brightly at night.",
+     "new": "Unlike planets, {{BLANK}}s like the Sun make their own light."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      5,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "별들이 밤에 밝게 빛나.",
+     "new": "행성과 달리, 태양 같은 별은 스스로 빛을 내."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      8,
+      "words",
+      13,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "I heard a strange {{BLANK}} at night.",
+     "new": "{{BLANK}} travels about four times faster in water than in air."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      8,
+      "words",
+      13,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "밤에 이상한 소리를 들었어.",
+     "new": "소리는 공기 중보다 물속에서 약 네 배 빠르게 전달돼."
+    },
+    {
+     "path": [
+      7,
+      "exercises",
+      7,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This {{BLANK}} needs water and sun.",
+     "new": "{{BLANK}}s use sunlight to make food from water and carbon dioxide."
+    },
+    {
+     "path": [
+      7,
+      "exercises",
+      7,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 식물은 물과 햇빛이 필요해.",
+     "new": "식물은 햇빛을 이용해 물과 이산화탄소로 양분을 만들어."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      8,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "I don't want to know my {{BLANK}}.",
+     "new": "On the Moon, your {{BLANK}} is about a sixth of what it is on Earth."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      8,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "내 몸무게 알고 싶지 않아.",
+     "new": "달에서 몸무게는 지구에서의 약 6분의 1이야."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      8,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "weigh(무게가 나가다, 동사)+t=명사. lose weight(살 빼다).",
+     "new": "weigh(무게가 나가다)의 명사. 질량은 mass. lose weight는 '살 빼다'."
+    },
+    {
+     "path": [
+      9,
+      "exercises",
+      5,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} of the lake is like glass.",
+     "new": "Water covers about 70 percent of the Earth's {{BLANK}}."
+    },
+    {
+     "path": [
+      9,
+      "exercises",
+      5,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "호수 수면이 유리 같아.",
+     "new": "물은 지구 표면의 약 70퍼센트를 덮고 있어."
+    },
+    {
+     "path": [
+      10,
+      "exercises",
+      3,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "A little {{BLANK}} is singing outside my window.",
+     "new": "Today, {{BLANK}}s are the only animals with feathers."
+    },
+    {
+     "path": [
+      10,
+      "exercises",
+      3,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "작은 새가 창밖에서 지저귀고 있어.",
+     "new": "오늘날 깃털이 있는 동물은 새뿐이야."
+    },
+    {
+     "path": [
+      10,
+      "exercises",
+      9,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} for the concert tickets was high.",
+     "new": "If {{BLANK}} rises but supply does not, prices go up."
+    },
+    {
+     "path": [
+      10,
+      "exercises",
+      9,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 콘서트 티켓 수요가 엄청났어.",
+     "new": "공급은 그대로인데 수요가 늘면 가격이 올라."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      5,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "She won first prize in the {{BLANK}}.",
+     "new": "{{BLANK}} among sellers usually pushes prices down."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      5,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "걔가 그 대회에서 1등 했어.",
+     "new": "판매자들 사이의 경쟁은 대개 가격을 끌어내려."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      5,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "노래 대회도 singing competition.",
+     "new": "compete(경쟁하다)의 명사. '대회'도 된다: a singing competition."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      8,
+      "words",
+      12,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The town needs a clean water {{BLANK}}.",
+     "new": "When {{BLANK}} is greater than demand, prices tend to fall."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      8,
+      "words",
+      12,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 마을에는 깨끗한 물 공급이 필요해.",
+     "new": "공급이 수요보다 많으면 가격은 떨어지는 경향이 있어."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      7,
+      "words",
+      1,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "My hourly {{BLANK}} at the cafe is ten dollars.",
+     "new": "The minimum {{BLANK}} is the lowest pay that the law allows."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      7,
+      "words",
+      1,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "카페에서 받는 내 시간당 임금은 10달러야.",
+     "new": "최저임금은 법이 허용하는 가장 낮은 임금이야."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      9,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This old bridge is made of {{BLANK}}.",
+     "new": "The center of the Earth is made mostly of {{BLANK}}."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      9,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 오래된 다리는 철로 만들어졌어.",
+     "new": "지구의 중심부는 대부분 철로 이루어져 있어."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      0,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The doctor touched a {{BLANK}} in my tooth.",
+     "new": "{{BLANK}}s carry messages between the brain and the rest of the body."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      0,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "의사 선생님이 내 치아 신경을 건드렸어.",
+     "new": "신경은 뇌와 온몸 사이에서 신호를 실어 날라."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      5,
+      "words",
+      10,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The sun set slowly below the {{BLANK}}.",
+     "new": "A ship sailing away drops below the {{BLANK}} because the Earth is round."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      5,
+      "words",
+      10,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "해가 수평선 아래로 천천히 넘어갔어.",
+     "new": "지구가 둥글어서, 멀어져 가는 배는 수평선 아래로 내려가."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      4,
+      "words",
+      14,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Small {{BLANK}}s are flying around the lamp.",
+     "new": "Spiders are not {{BLANK}}s, because they have eight legs, not six."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      4,
+      "words",
+      14,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "작은 곤충들이 램프 주위를 날아다녀.",
+     "new": "거미는 다리가 여섯 개가 아니라 여덟 개라서 곤충이 아니야."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      3,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "We mixed two liquids in {{BLANK}} class.",
+     "new": "{{BLANK}} studies what matter is made of and how it changes."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      3,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "화학 시간에 액체 두 개를 섞었어.",
+     "new": "화학은 물질이 무엇으로 이루어졌고 어떻게 변하는지 연구해."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      3,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "We saw {{BLANK}} far over the sea.",
+     "new": "Light is faster than sound, so we see {{BLANK}} before we hear thunder."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      3,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "저 멀리 바다 위로 번개 치는 거 봤어.",
+     "new": "빛이 소리보다 빨라서 우리는 천둥소리를 듣기 전에 번개를 먼저 봐."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      5,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Wait until the water {{BLANK}}s.",
+     "new": "On high mountains, low air pressure makes water {{BLANK}} at a lower temperature."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      5,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "물 끓을 때까지 기다려.",
+     "new": "높은 산에서는 기압이 낮아서 물이 더 낮은 온도에서 끓어."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      5,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "액체가 기포를 내며 끓다. The water boils에서는 물이 끓고, boil the water에서는 물을 끓인다.",
+     "new": "끓는점은 boiling point. 목적어 없이 '끓다', 목적어가 있으면 '끓이다'(②)."
+    },
+    {
+     "path": [
+      22,
+      "exercises",
+      6,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "My dog hides under the bed when he hears {{BLANK}}.",
+     "new": "{{BLANK}} is the sound made when lightning heats the air very suddenly."
+    },
+    {
+     "path": [
+      22,
+      "exercises",
+      6,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 개는 천둥소리 들리면 침대 밑에 숨어.",
+     "new": "천둥은 번개가 공기를 아주 갑자기 뜨겁게 달굴 때 나는 소리야."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      1,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} here is warm all year.",
+     "new": "{{BLANK}} is the average weather of a place over many years."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      1,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "여기 기후는 일 년 내내 따뜻해.",
+     "new": "기후는 한 지역의 여러 해에 걸친 평균적인 날씨야."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      9,
+      "words",
+      13,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Our teacher told us about the {{BLANK}} today.",
+     "new": "A country's {{BLANK}} sets up its government and protects basic rights."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      9,
+      "words",
+      13,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "오늘 선생님이 우리한테 헌법에 대해 얘기해 주셨어.",
+     "new": "한 나라의 헌법은 정부의 틀을 세우고 기본권을 보장해."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      6,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Eggs and milk are full of {{BLANK}}.",
+     "new": "{{BLANK}}s do most of the work in the cells of our bodies."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      6,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "달걀과 우유에는 단백질이 가득해.",
+     "new": "단백질은 우리 몸의 세포 속에서 대부분의 일을 해."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      7,
+      "words",
+      12,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The club has a big {{BLANK}} this month.",
+     "new": "A country has a trade {{BLANK}} when it imports more than it exports."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      7,
+      "words",
+      12,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "동아리가 이번 달에 적자가 커.",
+     "new": "한 나라가 수출보다 수입을 더 많이 하면 무역 적자가 나."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      4,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The old house had a secret {{BLANK}}.",
+     "new": "The human heart has four {{BLANK}}s."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      4,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 낡은 집에는 밀실이 하나 있었어.",
+     "new": "사람의 심장에는 방이 네 개 있어."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      8,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The store set a {{BLANK}} on ticket prices.",
+     "new": "A price {{BLANK}} is the highest price that the law allows."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      8,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 가게는 표 가격에 상한선을 정했어.",
+     "new": "가격 상한은 법이 허용하는 가장 높은 가격이야."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      9,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "My brother wants to study {{BLANK}} in college.",
+     "new": "{{BLANK}} studies how people make, trade, and use goods and services."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      9,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 형은 대학에서 경제학을 공부하고 싶어 해.",
+     "new": "경제학은 사람들이 재화와 서비스를 어떻게 만들고 거래하고 쓰는지 연구해."
+    },
+    {
+     "path": [
+      30,
+      "exercises",
+      3,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "A {{BLANK}} flew out of the dark cave.",
+     "new": "Many {{BLANK}}s find their way in the dark by listening to echoes."
+    },
+    {
+     "path": [
+      30,
+      "exercises",
+      3,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "박쥐 한 마리가 어두운 동굴에서 날아 나왔어.",
+     "new": "많은 박쥐는 메아리를 들으며 어둠 속에서 길을 찾아."
+    },
+    {
+     "path": [
+      30,
+      "exercises",
+      9,
+      "words",
+      14,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "{{BLANK}} is melting ice at the North Pole.",
+     "new": "Global {{BLANK}} is the rise in the Earth's average temperature."
+    },
+    {
+     "path": [
+      30,
+      "exercises",
+      9,
+      "words",
+      14,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "온난화가 북극의 얼음을 녹이고 있어.",
+     "new": "지구 온난화는 지구의 평균 기온이 오르는 거야."
+    },
+    {
+     "path": [
+      30,
+      "exercises",
+      9,
+      "words",
+      14,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "warm+-ing. global warming(지구 온난화).",
+     "new": "warm+-ing. 더 넓은 말로는 climate change(기후 변화)를 쓴다."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      0,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Our school talks a lot about {{BLANK}} these days.",
+     "new": "Equality gives everyone the same; {{BLANK}} gives each person what they need."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      0,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 학교는 요즘 형평성에 대해 많이 이야기해.",
+     "new": "평등은 모두에게 똑같이 주고, 형평은 각자에게 필요한 것을 줘."
+    },
+    {
+     "path": [
+      32,
+      "exercises",
+      3,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "We saw a huge {{BLANK}} jump out of the sea.",
+     "new": "The blue {{BLANK}} is the largest animal known to have ever lived."
+    },
+    {
+     "path": [
+      32,
+      "exercises",
+      3,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리는 커다란 고래가 바다에서 뛰어오르는 걸 봤어.",
+     "new": "대왕고래는 지금까지 살았던 것으로 알려진 동물 가운데 가장 커."
+    },
+    {
+     "path": [
+      32,
+      "exercises",
+      3,
+      "words",
+      9,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "We left the beach when the {{BLANK}} came in.",
+     "new": "{{BLANK}}s rise and fall mainly because of the Moon's gravity."
+    },
+    {
+     "path": [
+      32,
+      "exercises",
+      3,
+      "words",
+      9,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "밀물이 들어와서 우리는 해변을 떠났어.",
+     "new": "조수는 주로 달의 중력 때문에 높아졌다 낮아졌다 해."
+    },
+    {
+     "path": [
+      32,
+      "exercises",
+      3,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "주로 달과 태양의 인력에 따른 바닷물의 주기적인 오르내림. high tide는 만조, low tide는 간조.",
+     "new": "high tide는 만조, low tide는 간조. 밀물이 들어오는 건 the tide comes in."
+    },
+    {
+     "path": [
+      33,
+      "exercises",
+      5,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Warm {{BLANK}} came through the classroom window.",
+     "new": "{{BLANK}} takes about eight minutes to reach the Earth."
+    },
+    {
+     "path": [
+      33,
+      "exercises",
+      5,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "따뜻한 햇빛이 교실 창으로 들어왔어.",
+     "new": "햇빛이 지구에 닿기까지 약 8분이 걸려."
+    },
+    {
+     "path": [
+      33,
+      "exercises",
+      9,
+      "words",
+      13,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Our town had a water {{BLANK}} last summer.",
+     "new": "There is a {{BLANK}} when demand is greater than supply at the current price."
+    },
+    {
+     "path": [
+      33,
+      "exercises",
+      9,
+      "words",
+      13,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 동네는 지난여름에 물 부족 사태를 겪었어.",
+     "new": "지금 가격에서 수요가 공급보다 많으면 부족이 생겨."
+    },
+    {
+     "path": [
+      33,
+      "exercises",
+      9,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "short(부족한)+-age. a shortage of ~.",
+     "new": "short+-age. 그 가격에서의 부족. 늘 따르는 근본적인 모자람은 scarcity(희소성)."
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      9,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Dad closed the water {{BLANK}} under the sink.",
+     "new": "Heart {{BLANK}}s keep blood flowing in one direction."
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      9,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "아빠가 싱크대 밑 물 밸브를 잠그셨어.",
+     "new": "심장 판막은 피가 한 방향으로만 흐르게 해."
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      2,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In math class we drew a {{BLANK}} with an arrow.",
+     "new": "A {{BLANK}} has both size and direction, so it is drawn as an arrow."
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      2,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "수학 시간에 화살표로 벡터를 그렸어.",
+     "new": "벡터는 크기와 방향을 함께 가져서 화살표로 그려."
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      2,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "크기와 방향을 함께 가진 양. 생물에선 병을 옮기는 '매개체'.",
+     "new": "크기만 있는 양은 scalar. 생물에선 병을 옮기는 '매개체'도 vector."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      0,
+      "words",
+      1,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The ball's {{BLANK}} was too high to catch.",
+     "new": "A car going around a curve at a steady speed is changing its {{BLANK}}."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      0,
+      "words",
+      1,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 공의 속도가 너무 빨라서 잡을 수 없었어.",
+     "new": "일정한 빠르기로 커브를 도는 차도 속도는 계속 바뀌고 있어."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      5,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The road to my house is steeply {{BLANK}}.",
+     "new": "An {{BLANK}} plane lets you raise a load with less force, but over a longer distance."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      5,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 집 가는 길은 가파르게 경사져 있어.",
+     "new": "빗면을 쓰면 더 작은 힘으로 짐을 올릴 수 있지만, 대신 더 긴 거리를 움직여야 해."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      5,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "기울어진 면을 말한다. an inclined plane은 과학의 '빗면'.",
+     "new": "incline(기울다)에서. an inclined plane은 과학의 '빗면'."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      6,
+      "words",
+      10,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The island fight is about {{BLANK}}.",
+     "new": "{{BLANK}} is a state's supreme power to rule itself."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      6,
+      "words",
+      10,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 섬 다툼은 주권 문제야.",
+     "new": "주권은 국가가 스스로를 다스리는 최고의 권력이야."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      8,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "That company has a {{BLANK}} on school books.",
+     "new": "A {{BLANK}} is a market with only one seller, so prices can stay high."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      8,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 회사가 교과서를 독점하고 있어.",
+     "new": "독점은 판매자가 하나뿐인 시장이라 가격이 높게 유지될 수 있어."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      2,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} this month was twice the usual.",
+     "new": "A desert is a place that gets very little {{BLANK}} each year."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      2,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이번 달 강우량은 평소의 두 배였어.",
+     "new": "사막은 해마다 비가 아주 적게 내리는 곳이야."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      6,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "My aunt grows tomatoes in a small {{BLANK}}.",
+     "new": "Carbon dioxide is a {{BLANK}} gas: it traps heat in the air."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      6,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 이모는 작은 온실에서 토마토를 길러.",
+     "new": "이산화탄소는 온실가스야. 공기 중에 열을 가두거든."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      8,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The nurse couldn't find a {{BLANK}} in my arm.",
+     "new": "{{BLANK}}s carry blood back to the heart."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      8,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "간호사가 내 팔에서 혈관을 못 찾았어.",
+     "new": "정맥은 피를 심장으로 돌려보내."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      8,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "심장으로 피가 돌아오는 혈관. 나가는 쪽은 artery(동맥)다.",
+     "new": "피를 내보내는 혈관은 artery(동맥). 잎맥·광맥도 vein이라 한다."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      3,
+      "words",
+      10,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Rub your hands and feel the {{BLANK}}.",
+     "new": "Without {{BLANK}}, a ball rolling on flat ground would never stop."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      3,
+      "words",
+      10,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "손을 비벼서 마찰을 느껴 봐.",
+     "new": "마찰이 없다면 평평한 땅에서 구르는 공은 절대 멈추지 않을 거야."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      0,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "My cousin studies {{BLANK}} at college.",
+     "new": "{{BLANK}} tries to understand each culture by its own values, not ours."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      0,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 사촌은 대학에서 인류학을 공부해.",
+     "new": "인류학은 각 문화를 우리 기준이 아니라 그 문화의 가치로 이해하려고 해."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      0,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그리스어 anthropos(사람)+-logy(학문). 인간과 문화를 다룬다.",
+     "new": "그리스어 anthropos(사람)+-logy(학문). 이런 태도가 cultural relativism(문화 상대주의)."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      4,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The two forces reach {{BLANK}} at this point.",
+     "new": "At market {{BLANK}}, the amount buyers want equals the amount for sale."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      4,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 두 힘은 이 지점에서 평형 상태에 이르러.",
+     "new": "시장 균형에서는 사려는 양과 팔려고 내놓은 양이 같아."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      5,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The diagram shows the cell's {{BLANK}}.",
+     "new": "Most of the DNA in our cells is kept in the {{BLANK}}."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      5,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 그림은 세포의 핵을 보여 줘.",
+     "new": "우리 세포 속 DNA는 대부분 핵 안에 들어 있어."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      6,
+      "words",
+      13,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "He got into {{BLANK}} after a museum trip.",
+     "new": "{{BLANK}} studies the human past through the things people left behind."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      6,
+      "words",
+      13,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "걔는 박물관 견학 다녀오고 나서 고고학에 빠졌어.",
+     "new": "고고학은 사람들이 남긴 물건을 통해 인류의 과거를 연구해."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      7,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Our club plans are in {{BLANK}} right now.",
+     "new": "Heraclitus said that everything is in {{BLANK}}, like a flowing river."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      7,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 동아리 계획은 지금 계속 바뀌는 중이야.",
+     "new": "헤라클레이토스는 흐르는 강물처럼 모든 것이 끊임없이 변한다고 말했어."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      0,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This soup is made from bone {{BLANK}}.",
+     "new": "Most of our blood cells are made in bone {{BLANK}}."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      0,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 국은 사골 골수로 끓인 거야.",
+     "new": "우리 혈액 세포는 대부분 골수에서 만들어져."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      5,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The scientist studied how this {{BLANK}} fights infection.",
+     "new": "An {{BLANK}} is a protein the body makes to fight a particular germ."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      5,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 과학자는 이 항체가 감염에 맞서는 방식을 연구했어.",
+     "new": "항체는 몸이 특정한 병균과 싸우려고 만드는 단백질이야."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      5,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "특정 항원에 결합하는 면역 단백질. 세균·바이러스 등에 대한 방어에 관여한다.",
+     "new": "anti-(맞서는)+body. 복수는 antibodies."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      8,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Thick {{BLANK}} sat at the bottom of the lake.",
+     "new": "Over millions of years, {{BLANK}} piles up and hardens into rock."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      8,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "두꺼운 퇴적물이 호수 바닥에 쌓여 있었어.",
+     "new": "수백만 년에 걸쳐 퇴적물이 쌓이고 굳어서 암석이 돼."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      3,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "She studies {{BLANK}} at a medical school.",
+     "new": "{{BLANK}} studies how often diseases happen in a population, and why."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      3,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "걔는 의대에서 역학을 공부해.",
+     "new": "역학은 한 인구 집단에서 질병이 얼마나 자주, 왜 생기는지 연구해."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      3,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "집단에서 질병이 얼마나, 왜 발생하는지 연구하는 학문. 전염병 외의 질병도 다룬다.",
+     "new": "epidemic(유행병)과 같은 뿌리지만, 전염병이 아닌 질병도 다룬다."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      9,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This band lost its {{BLANK}} after a year.",
+     "new": "Price {{BLANK}} shows how much demand or supply changes as prices change."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      9,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 고무줄은 일 년 뒤에 탄력을 잃었어.",
+     "new": "가격 탄력성은 가격이 바뀔 때 수요나 공급이 얼마나 변하는지 보여 줘."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      9,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "늘어나거나 변형된 뒤 원래 상태로 돌아가는 탄력성. 경제에서는 가격 등에 반응해 수요·공급이 얼마나 변하는지에도 쓴다.",
+     "new": "elastic(탄력 있는)의 명사. 본래는 고무줄처럼 늘었다 돌아오는 성질."
+    },
+    {
+     "path": [
+      47,
+      "exercises",
+      9,
+      "words",
+      1,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The article discusses modern {{BLANK}}.",
+     "new": "{{BLANK}} is based on private property, markets, and profit."
+    },
+    {
+     "path": [
+      47,
+      "exercises",
+      9,
+      "words",
+      1,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 글은 현대 자본주의를 논해.",
+     "new": "자본주의는 사유 재산, 시장, 이윤에 바탕을 둬."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson01.json": {
+   "beforeHash": "8bac280809e37aaa7f2020e8310e0d1d4a744eea56b0882840f2dbed6e89477b",
+   "afterHash": "dc225eef95b75d38e2ea1578b7e04292bb14bb2b38e2ea3acddcac866f97a698"
+  },
+  "pipeline/out/lesson02.json": {
+   "beforeHash": "5c87d0b0ab5926fc84e4f3437b003cdfd671f809668d74eaeb12b165161b81f5",
+   "afterHash": "1b6b8acb5bb5565fa57b5eb3124d9cdff23b1a2230db93e51b22d17e15d778ab"
+  },
+  "pipeline/out/lesson04.json": {
+   "beforeHash": "c0b74d62fada003be767b1cc2134e9ee5aaac3801d4a252dfde4fd13d8d01ae6",
+   "afterHash": "6d9cd1dbb4fbc95f7b80774adc5c11a3302c726a7daeb7c07cfc1c00d410e958"
+  },
+  "pipeline/out/set07.json": {
+   "beforeHash": "d89683e73ec12a30c9a8fee06deeb50eb63dd377b90ef98f7a9ef6afec3d0ed8",
+   "afterHash": "4ac7f0d6dfc91480a9df9893de83ce4a4f4e1c21471f7cb87a3b464f2648b1b2"
+  },
+  "pipeline/out/set08.json": {
+   "beforeHash": "55437662ccf8d169613acea8bcb0cf0050047c1da5af35b248ba6afd65f24728",
+   "afterHash": "8a0fe38902bc9e6575dd2f30b58b918b766dfe30caf25f7e13ccde7303839af1"
+  },
+  "pipeline/out/set09.json": {
+   "beforeHash": "d2a1a069ffb6cc00437a4cbcf4926da9287e05e14db0e931b980b032c59c0e59",
+   "afterHash": "ac9223b48d2e12affe6f1667d6bd4e923d40c89d41b05e4b0060cc6698b4ef89"
+  },
+  "pipeline/out/set10.json": {
+   "beforeHash": "16c5ee0efcc1ad9ebd589ff186dce31b30e86df869ac099c09fc260765c64a7c",
+   "afterHash": "773df3249dad2bdfce385a8e0c60451b43b72dd171a08035f5ebeed455628697"
+  },
+  "pipeline/out/set11.json": {
+   "beforeHash": "8d690823b47ff32d850c9456dde8c33dd80cdfa04bff795516bb8503446914fe",
+   "afterHash": "333401da4337f5db332dfcfb8ba86afeb88fd5353a493977e84fee2e27c10e50"
+  },
+  "pipeline/out/set14.json": {
+   "beforeHash": "6e01d29202a956689d23bd56d701d1ef140de2a5510a739fd8651681b683f670",
+   "afterHash": "679824cbc05d3bd3bc411161e6f0866f2a9de5dd93a4e9e905415332a52730cd"
+  },
+  "pipeline/out/set17.json": {
+   "beforeHash": "76d580f4e6d6ae66e181bcea28d17acfd649198ba66d34c631483285358246b2",
+   "afterHash": "9bced95de1487beb5c3192867c31083852a9c714d55fa44f298706aeef1a8537"
+  },
+  "pipeline/out/set18.json": {
+   "beforeHash": "afaaca182870f5ccfa0cb574c9b218acfdfd034e471e07fdb9ad09fa5e3493c1",
+   "afterHash": "f873e19c667f135f6328797969c159ba986408aff2e957f9940f11f0cf5ab9aa"
+  },
+  "pipeline/out/set19.json": {
+   "beforeHash": "b6e2d95bd8905806ec1b718686a424af13f23f897c5d984a4bbc50f6599b4e97",
+   "afterHash": "d2d4c12c05c10cc21e7940f1de0a20b19b4a5931f6459c9e649f9d744fc00a2f"
+  },
+  "pipeline/out/set22.json": {
+   "beforeHash": "2abf367b9818137619f8ee4d4916cc809c517eb6c96c5ec163cd891315fdde1b",
+   "afterHash": "228be1e7fad84ad3676124482722af5584b85987e3eb4bf659c72832d2575de9"
+  },
+  "pipeline/out/set24.json": {
+   "beforeHash": "47535dedceab53135b59f1511c6af25095da2d1ac6e87c03ea34bf2ad20c9763",
+   "afterHash": "4b19c8eaf5b4ac3b64580c769b41aee755244929746b23ae1b8e0e2ca1b23ffb"
+  },
+  "pipeline/out/set25.json": {
+   "beforeHash": "2e86af9c4e0e294aad6264955971f26656f8cc03402c0740f909651ca3a1f34d",
+   "afterHash": "cabd6bbcd221ab80d72e7927ff03544ea60f138e3a9e6041847bc7aeffca26fd"
+  },
+  "pipeline/out/set27.json": {
+   "beforeHash": "58658e8809e3881840fa8bab4a71237909b40925f0dc3725d1951f0d456f8c4d",
+   "afterHash": "aa2538cdfb6b159b073fd08eef756a37b4d2617c62df0e89c7bdf88f513ca718"
+  },
+  "pipeline/out/set30.json": {
+   "beforeHash": "c543c5035bfed953cf346c866e7e2f5111018298712aa948dcc3f57a9e8385fe",
+   "afterHash": "099004ba4f7a0e32c35e58fb67437f2a922a21eb3a69512da220c3267a5c1b2a"
+  },
+  "pipeline/out/set31.json": {
+   "beforeHash": "ea226b0d63ace0d5a8fe2e2add32b68d201f5b91fc3e1bd11c0cf27f487bce54",
+   "afterHash": "7a1c1818accba2905bfa44b5f52f2127f8fe8f7e30b3f214b2abcfe2231fa5a3"
+  },
+  "pipeline/out/set32.json": {
+   "beforeHash": "b91bc8acfdff9454ad501227af2baafe48c72080cddb011419919f4558e5d4e4",
+   "afterHash": "2ce1219cd0182dcb7c997e319912e35ba42569e96a5ecfb6661f53e03ec730bf"
+  },
+  "pipeline/out/set33.json": {
+   "beforeHash": "679672ba7c49be4e7463ca6290350b1997eeaac764b553d865d1c51960198059",
+   "afterHash": "0d5185ac1f5142c4349a12edaebad532cecc857577208bad8f364001f6f01477"
+  },
+  "pipeline/out/set36.json": {
+   "beforeHash": "4751ba9f6dba50d4500c685ffe9c3fcc8356eb7806ffdc4a92a28df4f50c29f2",
+   "afterHash": "3cfe7a7dcf008eff83af281906cb614b8c743a1ac7937490972459dde3a16201"
+  },
+  "pipeline/out/set38.json": {
+   "beforeHash": "8d23ee3b6300a54724e9cc029438e656606ba0e96a4dc322c784033e5450413f",
+   "afterHash": "bf0f520308d1eb0f5ef61ae9836b872f14853fbcbc13fbbabe9f451993057123"
+  },
+  "pipeline/out/set39.json": {
+   "beforeHash": "7f73c913c0ac984f53529365286da32c9c79ccbfd3858979e308e96660938fa1",
+   "afterHash": "0faed46d5859936fbd9c4628be1d3228f9cbf7aec7aade3297c10e53e59248cd"
+  },
+  "pipeline/out/set40.json": {
+   "beforeHash": "d04336415c7dac3aa4878890eb3d675c41d2c766bf0033f0f569d3e53381e3dc",
+   "afterHash": "518ad5f0709d45e8de081923de12758f9258c9d63a78a5632c4e3707384bc7b1"
+  },
+  "pipeline/out/set41.json": {
+   "beforeHash": "e99e5b7f79dbcc048db18a2d4bf4d270bf52dfc393b11be96bfeb248f36eca11",
+   "afterHash": "ef31e724575c31ffa03aa7f1ebb17893e151ddcda07d33debef3a943675b299a"
+  },
+  "pipeline/out/set42.json": {
+   "beforeHash": "9716de42165dae47efb4ab16d72f56244f2af477fdd8af5866f9aa35dc5038dc",
+   "afterHash": "cba071caddc40737b90e490069fc6ac27e674a9a4039c59124438a111190a443"
+  },
+  "pipeline/out/set43.json": {
+   "beforeHash": "b2c161ed60e188a8de79158c9b9cc71b9a8bd5fa7ee11f8641a120e7dfc0b967",
+   "afterHash": "f92de888fc7feab4bb7d03c53413e049b9e8c80decfabd6bfd20a315ecec2c36"
+  },
+  "pipeline/out/set44.json": {
+   "beforeHash": "671700fad909ac7cb05893980625a7ac7382c8a55e071653b3fc24957d562e36",
+   "afterHash": "eed96a44be4df8339a9050ebbed5784cb786672cc4da5169102dc3fb59468ded"
+  },
+  "pipeline/out/set47.json": {
+   "beforeHash": "80cc4ad68d89f308cdb875563b2a349ce14a6f823fb7597caa82f3a89a46968d",
+   "afterHash": "f91ab2f1626724a99ca353ca9e28dce417ba4d6d700e4a0681ebbb692062e163"
+  },
+  "pipeline/morphology.json": {
+   "beforeHash": "073dbe52fb2074ad0e2710ab0d14938984db83be39c89f51e2899ffd734c9ec8",
+   "afterHash": "14db34898c06676de709b9b88deaaf74a7dba1259b14dd7f767a8323334eb46b"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson01.json": [
+   {
+    "path": [
+     "exercises",
+     3,
+     "words",
+     24,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Fire changed the history of {{BLANK}}.",
+    "new": "Aristotle said that {{BLANK}} is by nature a political animal."
+   },
+   {
+    "path": [
+     "exercises",
+     3,
+     "words",
+     24,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "불은 인류의 역사를 바꿨어.",
+    "new": "아리스토텔레스는 인간은 본래 정치적 동물이라고 말했어."
+   }
+  ],
+  "pipeline/out/lesson02.json": [
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Spring is my favorite {{BLANK}}.",
+    "new": "We have {{BLANK}}s because the Earth leans as it goes around the Sun."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "봄은 내가 제일 좋아하는 계절이야.",
+    "new": "지구가 기울어진 채로 태양 둘레를 돌기 때문에 계절이 생겨."
+   }
+  ],
+  "pipeline/out/lesson04.json": [
+   {
+    "path": [
+     "exercises",
+     1,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} of living is rising.",
+    "new": "The opportunity {{BLANK}} of a choice is the value of the best thing you give up."
+   },
+   {
+    "path": [
+     "exercises",
+     1,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "생활비가 오르고 있어.",
+    "new": "어떤 선택의 기회비용은 포기한 것 가운데 가장 좋은 것의 가치야."
+   },
+   {
+    "path": [
+     "exercises",
+     1,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "at any cost = 어떤 대가를 치르더라도.",
+    "new": "opportunity cost는 기회비용. the cost of living은 생활비."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}}s shine brightly at night.",
+    "new": "Unlike planets, {{BLANK}}s like the Sun make their own light."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "별들이 밤에 밝게 빛나.",
+    "new": "행성과 달리, 태양 같은 별은 스스로 빛을 내."
+   },
+   {
+    "path": [
+     "exercises",
+     8,
+     "words",
+     14,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "I heard a strange {{BLANK}} at night.",
+    "new": "{{BLANK}} travels about four times faster in water than in air."
+   },
+   {
+    "path": [
+     "exercises",
+     8,
+     "words",
+     14,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "밤에 이상한 소리를 들었어.",
+    "new": "소리는 공기 중보다 물속에서 약 네 배 빠르게 전달돼."
+   }
+  ],
+  "pipeline/out/set07.json": [
+   {
+    "path": [
+     7,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This {{BLANK}} needs water and sun.",
+    "new": "{{BLANK}}s use sunlight to make food from water and carbon dioxide."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 식물은 물과 햇빛이 필요해.",
+    "new": "식물은 햇빛을 이용해 물과 이산화탄소로 양분을 만들어."
+   }
+  ],
+  "pipeline/out/set08.json": [
+   {
+    "path": [
+     8,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "I don't want to know my {{BLANK}}.",
+    "new": "On the Moon, your {{BLANK}} is about a sixth of what it is on Earth."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "내 몸무게 알고 싶지 않아.",
+    "new": "달에서 몸무게는 지구에서의 약 6분의 1이야."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "weigh(무게가 나가다, 동사)+t=명사. lose weight(살 빼다).",
+    "new": "weigh(무게가 나가다)의 명사. 질량은 mass. lose weight는 '살 빼다'."
+   }
+  ],
+  "pipeline/out/set09.json": [
+   {
+    "path": [
+     5,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} of the lake is like glass.",
+    "new": "Water covers about 70 percent of the Earth's {{BLANK}}."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "호수 수면이 유리 같아.",
+    "new": "물은 지구 표면의 약 70퍼센트를 덮고 있어."
+   }
+  ],
+  "pipeline/out/set10.json": [
+   {
+    "path": [
+     3,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "A little {{BLANK}} is singing outside my window.",
+    "new": "Today, {{BLANK}}s are the only animals with feathers."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "작은 새가 창밖에서 지저귀고 있어.",
+    "new": "오늘날 깃털이 있는 동물은 새뿐이야."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} for the concert tickets was high.",
+    "new": "If {{BLANK}} rises but supply does not, prices go up."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 콘서트 티켓 수요가 엄청났어.",
+    "new": "공급은 그대로인데 수요가 늘면 가격이 올라."
+   }
+  ],
+  "pipeline/out/set11.json": [
+   {
+    "path": [
+     5,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "She won first prize in the {{BLANK}}.",
+    "new": "{{BLANK}} among sellers usually pushes prices down."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "걔가 그 대회에서 1등 했어.",
+    "new": "판매자들 사이의 경쟁은 대개 가격을 끌어내려."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "노래 대회도 singing competition.",
+    "new": "compete(경쟁하다)의 명사. '대회'도 된다: a singing competition."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     12,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The town needs a clean water {{BLANK}}.",
+    "new": "When {{BLANK}} is greater than demand, prices tend to fall."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 마을에는 깨끗한 물 공급이 필요해.",
+    "new": "공급이 수요보다 많으면 가격은 떨어지는 경향이 있어."
+   }
+  ],
+  "pipeline/out/set14.json": [
+   {
+    "path": [
+     7,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "My hourly {{BLANK}} at the cafe is ten dollars.",
+    "new": "The minimum {{BLANK}} is the lowest pay that the law allows."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "카페에서 받는 내 시간당 임금은 10달러야.",
+    "new": "최저임금은 법이 허용하는 가장 낮은 임금이야."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This old bridge is made of {{BLANK}}.",
+    "new": "The center of the Earth is made mostly of {{BLANK}}."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 오래된 다리는 철로 만들어졌어.",
+    "new": "지구의 중심부는 대부분 철로 이루어져 있어."
+   }
+  ],
+  "pipeline/out/set17.json": [
+   {
+    "path": [
+     0,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The doctor touched a {{BLANK}} in my tooth.",
+    "new": "{{BLANK}}s carry messages between the brain and the rest of the body."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "의사 선생님이 내 치아 신경을 건드렸어.",
+    "new": "신경은 뇌와 온몸 사이에서 신호를 실어 날라."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     10,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The sun set slowly below the {{BLANK}}.",
+    "new": "A ship sailing away drops below the {{BLANK}} because the Earth is round."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     10,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "해가 수평선 아래로 천천히 넘어갔어.",
+    "new": "지구가 둥글어서, 멀어져 가는 배는 수평선 아래로 내려가."
+   }
+  ],
+  "pipeline/out/set18.json": [
+   {
+    "path": [
+     4,
+     "words",
+     14,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Small {{BLANK}}s are flying around the lamp.",
+    "new": "Spiders are not {{BLANK}}s, because they have eight legs, not six."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     14,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "작은 곤충들이 램프 주위를 날아다녀.",
+    "new": "거미는 다리가 여섯 개가 아니라 여덟 개라서 곤충이 아니야."
+   }
+  ],
+  "pipeline/out/set19.json": [
+   {
+    "path": [
+     3,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "We mixed two liquids in {{BLANK}} class.",
+    "new": "{{BLANK}} studies what matter is made of and how it changes."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "화학 시간에 액체 두 개를 섞었어.",
+    "new": "화학은 물질이 무엇으로 이루어졌고 어떻게 변하는지 연구해."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "We saw {{BLANK}} far over the sea.",
+    "new": "Light is faster than sound, so we see {{BLANK}} before we hear thunder."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "저 멀리 바다 위로 번개 치는 거 봤어.",
+    "new": "빛이 소리보다 빨라서 우리는 천둥소리를 듣기 전에 번개를 먼저 봐."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Wait until the water {{BLANK}}s.",
+    "new": "On high mountains, low air pressure makes water {{BLANK}} at a lower temperature."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "물 끓을 때까지 기다려.",
+    "new": "높은 산에서는 기압이 낮아서 물이 더 낮은 온도에서 끓어."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "액체가 기포를 내며 끓다. The water boils에서는 물이 끓고, boil the water에서는 물을 끓인다.",
+    "new": "끓는점은 boiling point. 목적어 없이 '끓다', 목적어가 있으면 '끓이다'(②)."
+   }
+  ],
+  "pipeline/out/set22.json": [
+   {
+    "path": [
+     6,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "My dog hides under the bed when he hears {{BLANK}}.",
+    "new": "{{BLANK}} is the sound made when lightning heats the air very suddenly."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 개는 천둥소리 들리면 침대 밑에 숨어.",
+    "new": "천둥은 번개가 공기를 아주 갑자기 뜨겁게 달굴 때 나는 소리야."
+   }
+  ],
+  "pipeline/out/set24.json": [
+   {
+    "path": [
+     1,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} here is warm all year.",
+    "new": "{{BLANK}} is the average weather of a place over many years."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "여기 기후는 일 년 내내 따뜻해.",
+    "new": "기후는 한 지역의 여러 해에 걸친 평균적인 날씨야."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     13,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Our teacher told us about the {{BLANK}} today.",
+    "new": "A country's {{BLANK}} sets up its government and protects basic rights."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     13,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "오늘 선생님이 우리한테 헌법에 대해 얘기해 주셨어.",
+    "new": "한 나라의 헌법은 정부의 틀을 세우고 기본권을 보장해."
+   }
+  ],
+  "pipeline/out/set25.json": [
+   {
+    "path": [
+     6,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Eggs and milk are full of {{BLANK}}.",
+    "new": "{{BLANK}}s do most of the work in the cells of our bodies."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "달걀과 우유에는 단백질이 가득해.",
+    "new": "단백질은 우리 몸의 세포 속에서 대부분의 일을 해."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     12,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The club has a big {{BLANK}} this month.",
+    "new": "A country has a trade {{BLANK}} when it imports more than it exports."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "동아리가 이번 달에 적자가 커.",
+    "new": "한 나라가 수출보다 수입을 더 많이 하면 무역 적자가 나."
+   }
+  ],
+  "pipeline/out/set27.json": [
+   {
+    "path": [
+     4,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The old house had a secret {{BLANK}}.",
+    "new": "The human heart has four {{BLANK}}s."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 낡은 집에는 밀실이 하나 있었어.",
+    "new": "사람의 심장에는 방이 네 개 있어."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The store set a {{BLANK}} on ticket prices.",
+    "new": "A price {{BLANK}} is the highest price that the law allows."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 가게는 표 가격에 상한선을 정했어.",
+    "new": "가격 상한은 법이 허용하는 가장 높은 가격이야."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "My brother wants to study {{BLANK}} in college.",
+    "new": "{{BLANK}} studies how people make, trade, and use goods and services."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 형은 대학에서 경제학을 공부하고 싶어 해.",
+    "new": "경제학은 사람들이 재화와 서비스를 어떻게 만들고 거래하고 쓰는지 연구해."
+   }
+  ],
+  "pipeline/out/set30.json": [
+   {
+    "path": [
+     3,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "A {{BLANK}} flew out of the dark cave.",
+    "new": "Many {{BLANK}}s find their way in the dark by listening to echoes."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "박쥐 한 마리가 어두운 동굴에서 날아 나왔어.",
+    "new": "많은 박쥐는 메아리를 들으며 어둠 속에서 길을 찾아."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     14,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "{{BLANK}} is melting ice at the North Pole.",
+    "new": "Global {{BLANK}} is the rise in the Earth's average temperature."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     14,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "온난화가 북극의 얼음을 녹이고 있어.",
+    "new": "지구 온난화는 지구의 평균 기온이 오르는 거야."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     14,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "warm+-ing. global warming(지구 온난화).",
+    "new": "warm+-ing. 더 넓은 말로는 climate change(기후 변화)를 쓴다."
+   }
+  ],
+  "pipeline/out/set31.json": [
+   {
+    "path": [
+     0,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Our school talks a lot about {{BLANK}} these days.",
+    "new": "Equality gives everyone the same; {{BLANK}} gives each person what they need."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 학교는 요즘 형평성에 대해 많이 이야기해.",
+    "new": "평등은 모두에게 똑같이 주고, 형평은 각자에게 필요한 것을 줘."
+   }
+  ],
+  "pipeline/out/set32.json": [
+   {
+    "path": [
+     3,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "We saw a huge {{BLANK}} jump out of the sea.",
+    "new": "The blue {{BLANK}} is the largest animal known to have ever lived."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리는 커다란 고래가 바다에서 뛰어오르는 걸 봤어.",
+    "new": "대왕고래는 지금까지 살았던 것으로 알려진 동물 가운데 가장 커."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     9,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "We left the beach when the {{BLANK}} came in.",
+    "new": "{{BLANK}}s rise and fall mainly because of the Moon's gravity."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "밀물이 들어와서 우리는 해변을 떠났어.",
+    "new": "조수는 주로 달의 중력 때문에 높아졌다 낮아졌다 해."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "주로 달과 태양의 인력에 따른 바닷물의 주기적인 오르내림. high tide는 만조, low tide는 간조.",
+    "new": "high tide는 만조, low tide는 간조. 밀물이 들어오는 건 the tide comes in."
+   }
+  ],
+  "pipeline/out/set33.json": [
+   {
+    "path": [
+     5,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Warm {{BLANK}} came through the classroom window.",
+    "new": "{{BLANK}} takes about eight minutes to reach the Earth."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "따뜻한 햇빛이 교실 창으로 들어왔어.",
+    "new": "햇빛이 지구에 닿기까지 약 8분이 걸려."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     13,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Our town had a water {{BLANK}} last summer.",
+    "new": "There is a {{BLANK}} when demand is greater than supply at the current price."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     13,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 동네는 지난여름에 물 부족 사태를 겪었어.",
+    "new": "지금 가격에서 수요가 공급보다 많으면 부족이 생겨."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "short(부족한)+-age. a shortage of ~.",
+    "new": "short+-age. 그 가격에서의 부족. 늘 따르는 근본적인 모자람은 scarcity(희소성)."
+   }
+  ],
+  "pipeline/out/set36.json": [
+   {
+    "path": [
+     9,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Dad closed the water {{BLANK}} under the sink.",
+    "new": "Heart {{BLANK}}s keep blood flowing in one direction."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "아빠가 싱크대 밑 물 밸브를 잠그셨어.",
+    "new": "심장 판막은 피가 한 방향으로만 흐르게 해."
+   }
+  ],
+  "pipeline/out/set38.json": [
+   {
+    "path": [
+     2,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In math class we drew a {{BLANK}} with an arrow.",
+    "new": "A {{BLANK}} has both size and direction, so it is drawn as an arrow."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "수학 시간에 화살표로 벡터를 그렸어.",
+    "new": "벡터는 크기와 방향을 함께 가져서 화살표로 그려."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "크기와 방향을 함께 가진 양. 생물에선 병을 옮기는 '매개체'.",
+    "new": "크기만 있는 양은 scalar. 생물에선 병을 옮기는 '매개체'도 vector."
+   }
+  ],
+  "pipeline/out/set39.json": [
+   {
+    "path": [
+     0,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The ball's {{BLANK}} was too high to catch.",
+    "new": "A car going around a curve at a steady speed is changing its {{BLANK}}."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 공의 속도가 너무 빨라서 잡을 수 없었어.",
+    "new": "일정한 빠르기로 커브를 도는 차도 속도는 계속 바뀌고 있어."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The road to my house is steeply {{BLANK}}.",
+    "new": "An {{BLANK}} plane lets you raise a load with less force, but over a longer distance."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 집 가는 길은 가파르게 경사져 있어.",
+    "new": "빗면을 쓰면 더 작은 힘으로 짐을 올릴 수 있지만, 대신 더 긴 거리를 움직여야 해."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "기울어진 면을 말한다. an inclined plane은 과학의 '빗면'.",
+    "new": "incline(기울다)에서. an inclined plane은 과학의 '빗면'."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     10,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The island fight is about {{BLANK}}.",
+    "new": "{{BLANK}} is a state's supreme power to rule itself."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     10,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 섬 다툼은 주권 문제야.",
+    "new": "주권은 국가가 스스로를 다스리는 최고의 권력이야."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "That company has a {{BLANK}} on school books.",
+    "new": "A {{BLANK}} is a market with only one seller, so prices can stay high."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 회사가 교과서를 독점하고 있어.",
+    "new": "독점은 판매자가 하나뿐인 시장이라 가격이 높게 유지될 수 있어."
+   }
+  ],
+  "pipeline/out/set40.json": [
+   {
+    "path": [
+     2,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} this month was twice the usual.",
+    "new": "A desert is a place that gets very little {{BLANK}} each year."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이번 달 강우량은 평소의 두 배였어.",
+    "new": "사막은 해마다 비가 아주 적게 내리는 곳이야."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "My aunt grows tomatoes in a small {{BLANK}}.",
+    "new": "Carbon dioxide is a {{BLANK}} gas: it traps heat in the air."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 이모는 작은 온실에서 토마토를 길러.",
+    "new": "이산화탄소는 온실가스야. 공기 중에 열을 가두거든."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The nurse couldn't find a {{BLANK}} in my arm.",
+    "new": "{{BLANK}}s carry blood back to the heart."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "간호사가 내 팔에서 혈관을 못 찾았어.",
+    "new": "정맥은 피를 심장으로 돌려보내."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "심장으로 피가 돌아오는 혈관. 나가는 쪽은 artery(동맥)다.",
+    "new": "피를 내보내는 혈관은 artery(동맥). 잎맥·광맥도 vein이라 한다."
+   }
+  ],
+  "pipeline/out/set41.json": [
+   {
+    "path": [
+     3,
+     "words",
+     10,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Rub your hands and feel the {{BLANK}}.",
+    "new": "Without {{BLANK}}, a ball rolling on flat ground would never stop."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     10,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "손을 비벼서 마찰을 느껴 봐.",
+    "new": "마찰이 없다면 평평한 땅에서 구르는 공은 절대 멈추지 않을 거야."
+   }
+  ],
+  "pipeline/out/set42.json": [
+   {
+    "path": [
+     0,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "My cousin studies {{BLANK}} at college.",
+    "new": "{{BLANK}} tries to understand each culture by its own values, not ours."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 사촌은 대학에서 인류학을 공부해.",
+    "new": "인류학은 각 문화를 우리 기준이 아니라 그 문화의 가치로 이해하려고 해."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그리스어 anthropos(사람)+-logy(학문). 인간과 문화를 다룬다.",
+    "new": "그리스어 anthropos(사람)+-logy(학문). 이런 태도가 cultural relativism(문화 상대주의)."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The two forces reach {{BLANK}} at this point.",
+    "new": "At market {{BLANK}}, the amount buyers want equals the amount for sale."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 두 힘은 이 지점에서 평형 상태에 이르러.",
+    "new": "시장 균형에서는 사려는 양과 팔려고 내놓은 양이 같아."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The diagram shows the cell's {{BLANK}}.",
+    "new": "Most of the DNA in our cells is kept in the {{BLANK}}."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 그림은 세포의 핵을 보여 줘.",
+    "new": "우리 세포 속 DNA는 대부분 핵 안에 들어 있어."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     13,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "He got into {{BLANK}} after a museum trip.",
+    "new": "{{BLANK}} studies the human past through the things people left behind."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     13,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "걔는 박물관 견학 다녀오고 나서 고고학에 빠졌어.",
+    "new": "고고학은 사람들이 남긴 물건을 통해 인류의 과거를 연구해."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Our club plans are in {{BLANK}} right now.",
+    "new": "Heraclitus said that everything is in {{BLANK}}, like a flowing river."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 동아리 계획은 지금 계속 바뀌는 중이야.",
+    "new": "헤라클레이토스는 흐르는 강물처럼 모든 것이 끊임없이 변한다고 말했어."
+   }
+  ],
+  "pipeline/out/set43.json": [
+   {
+    "path": [
+     0,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This soup is made from bone {{BLANK}}.",
+    "new": "Most of our blood cells are made in bone {{BLANK}}."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 국은 사골 골수로 끓인 거야.",
+    "new": "우리 혈액 세포는 대부분 골수에서 만들어져."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The scientist studied how this {{BLANK}} fights infection.",
+    "new": "An {{BLANK}} is a protein the body makes to fight a particular germ."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 과학자는 이 항체가 감염에 맞서는 방식을 연구했어.",
+    "new": "항체는 몸이 특정한 병균과 싸우려고 만드는 단백질이야."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "특정 항원에 결합하는 면역 단백질. 세균·바이러스 등에 대한 방어에 관여한다.",
+    "new": "anti-(맞서는)+body. 복수는 antibodies."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Thick {{BLANK}} sat at the bottom of the lake.",
+    "new": "Over millions of years, {{BLANK}} piles up and hardens into rock."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "두꺼운 퇴적물이 호수 바닥에 쌓여 있었어.",
+    "new": "수백만 년에 걸쳐 퇴적물이 쌓이고 굳어서 암석이 돼."
+   }
+  ],
+  "pipeline/out/set44.json": [
+   {
+    "path": [
+     3,
+     "words",
+     9,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "She studies {{BLANK}} at a medical school.",
+    "new": "{{BLANK}} studies how often diseases happen in a population, and why."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "걔는 의대에서 역학을 공부해.",
+    "new": "역학은 한 인구 집단에서 질병이 얼마나 자주, 왜 생기는지 연구해."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "집단에서 질병이 얼마나, 왜 발생하는지 연구하는 학문. 전염병 외의 질병도 다룬다.",
+    "new": "epidemic(유행병)과 같은 뿌리지만, 전염병이 아닌 질병도 다룬다."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This band lost its {{BLANK}} after a year.",
+    "new": "Price {{BLANK}} shows how much demand or supply changes as prices change."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 고무줄은 일 년 뒤에 탄력을 잃었어.",
+    "new": "가격 탄력성은 가격이 바뀔 때 수요나 공급이 얼마나 변하는지 보여 줘."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "늘어나거나 변형된 뒤 원래 상태로 돌아가는 탄력성. 경제에서는 가격 등에 반응해 수요·공급이 얼마나 변하는지에도 쓴다.",
+    "new": "elastic(탄력 있는)의 명사. 본래는 고무줄처럼 늘었다 돌아오는 성질."
+   }
+  ],
+  "pipeline/out/set47.json": [
+   {
+    "path": [
+     9,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The article discusses modern {{BLANK}}.",
+    "new": "{{BLANK}} is based on private property, markets, and profit."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 글은 현대 자본주의를 논해.",
+    "new": "자본주의는 사유 재산, 시장, 이윤에 바탕을 둬."
+   }
+  ],
+  "pipeline/morphology.json": [
+   {
+    "path": [
+     "units",
+     20,
+     "cards",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The article discusses modern {{BLANK}}.",
+    "new": "{{BLANK}} is based on private property, markets, and profit."
+   },
+   {
+    "path": [
+     "units",
+     20,
+     "cards",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 글은 현대 자본주의를 논해.",
+    "new": "자본주의는 사유 재산, 시장, 이윤에 바탕을 둬."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson01.json": [],
+  "pipeline/out/lesson02.json": [],
+  "pipeline/out/lesson04.json": [],
+  "pipeline/out/set07.json": [],
+  "pipeline/out/set08.json": [],
+  "pipeline/out/set09.json": [],
+  "pipeline/out/set10.json": [],
+  "pipeline/out/set11.json": [],
+  "pipeline/out/set14.json": [],
+  "pipeline/out/set17.json": [],
+  "pipeline/out/set18.json": [],
+  "pipeline/out/set19.json": [],
+  "pipeline/out/set22.json": [],
+  "pipeline/out/set24.json": [],
+  "pipeline/out/set25.json": [],
+  "pipeline/out/set27.json": [],
+  "pipeline/out/set30.json": [],
+  "pipeline/out/set31.json": [],
+  "pipeline/out/set32.json": [],
+  "pipeline/out/set33.json": [],
+  "pipeline/out/set36.json": [],
+  "pipeline/out/set38.json": [],
+  "pipeline/out/set39.json": [],
+  "pipeline/out/set40.json": [],
+  "pipeline/out/set41.json": [],
+  "pipeline/out/set42.json": [],
+  "pipeline/out/set43.json": [],
+  "pipeline/out/set44.json": [],
+  "pipeline/out/set47.json": [],
+  "pipeline/morphology.json": []
+ }
+}

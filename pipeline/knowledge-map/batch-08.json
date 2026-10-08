@@ -1,0 +1,438 @@
+{
+ "batch": 8,
+ "date": "2026-10-08",
+ "status": "applied",
+ "note": "12장 핵심 개념 56장. 정의·원리에서 빈칸이 핵심어가 되게 썼다. 겹침 피하기: scarcity 카드가 '경제학은 희소성에서 시작'을 맡아 economics는 생산·거래·소비 정의로, b07 gene이 '유전자는 단백질의 설계'를 맡아 protein은 '세포 일의 대부분', dinosaur 카드가 '새는 공룡에서'를 맡아 bird는 깃털, glacier·fuel이 빙하·원인을 맡아 warming은 정의로 썼다. lightning(빛이 소리보다 빠름)과 thunder(천둥의 원인)는 각도를 나눴다. 시장 카드는 수요 증가→가격 상승, 초과 공급→가격 하락, 부족(현재 가격에서 수요>공급), 가격 상한(법정 최고가), 균형(사려는 양=팔려는 양)으로 나눴다. 검수(Claude): weight는 \"지구에서의 약 6분의 1\"로, season은 lean 대신 \"the Earth leans as it goes around the Sun\"으로 다듬어 tilt 제안은 거뒀다.",
+ "kept": {
+  "day": "①이 이미 지식 예문(The Earth spins around once a day: 자전 1회)이라 둔다.",
+  "year": "①이 이미 지식 예문(The Earth goes around the Sun once a year: 공전 1회)이라 둔다.",
+  "space": "● ②가 이미 노드를 담는다(우주에는 공기가 없어 소리가 전달되지 않음). 앞서 고쳐 쓴 카드.",
+  "leaf": "plant ①이 광합성(식물은 스스로 양분을 만든다)을 맡아 같은 사실이 겹친다. 카드가 하나뿐이고 복수 leaves 해설이 붙은 생활 문장이라 둔다.",
+  "inflation": "● 이미 물가 상승을 담고 F 표시가 없다.",
+  "government": "● 앞서 고쳐 쓴 카드(입법과 집행). 틀린 곳 없음.",
+  "power": "● 앞서 고쳐 쓴 카드(모든 권력은 국민으로부터). 틀린 곳 없음.",
+  "legislative": "● 이미 입법부를 담는다.",
+  "judicial": "● 이미 사법부를 담는다.",
+  "gross": "GDP(gross domestic product) 문장은 domestic이 표제어 밖이라 제안으로 돌린다. 'GDP measures the ___ value…'처럼 돌려 쓰면 total(5자)이 그대로 들어가 중의성이 생긴다. 승인 전까지 지금 예문(세전 급여)을 둔다."
+ },
+ "new_word_proposals": [
+  {
+   "word": "domestic",
+   "why": "GDP의 정식 이름(gross domestic product)에 꼭 필요하다. 없으면 gross ②의 GDP 지식 예문을 쓸 수 없다(돌려 쓰면 total과 겹친다). domestic market·domestic flight 등 수능 기본어.",
+   "sentence": "{{BLANK}} domestic product is the value of all goods and services a country makes. (빈칸=gross, 390px 문장3/화면4. 'in a year'를 넣으려면 'GDP, or {{BLANK}} domestic product, is the value of all a country makes in a year.'도 3/4)"
+  },
+  {
+   "word": "mammal",
+   "why": "'포유류'는 생물 분류의 기본어인데 표제어 밖이다. 박쥐(유일하게 나는 포유류)·고래 같은 지식 문장이 막힌다. 지금 bat 카드는 표제어 안 단어로 쓴 대안(반향정위)을 넣었다.",
+   "sentence": "{{BLANK}}s are the only mammals that can truly fly. (빈칸=bat ②, 390px 2/2)"
+  }
+ ],
+ "cards": [
+  {
+   "node": "C01 운동과 힘",
+   "word": "weight",
+   "old_ex": "I don't want to know my {{BLANK}}.",
+   "ex": "On the Moon, your {{BLANK}} is about a sixth of what it is on Earth.",
+   "tr": "달에서 몸무게는 지구에서의 약 6분의 1이야.",
+   "c": "weigh(무게가 나가다)의 명사. 질량은 mass. lose weight는 '살 빼다'."
+  },
+  {
+   "node": "C01 운동과 힘",
+   "word": "vector",
+   "old_ex": "In math class we drew a {{BLANK}} with an arrow.",
+   "ex": "A {{BLANK}} has both size and direction, so it is drawn as an arrow.",
+   "tr": "벡터는 크기와 방향을 함께 가져서 화살표로 그려.",
+   "c": "크기만 있는 양은 scalar. 생물에선 병을 옮기는 '매개체'도 vector."
+  },
+  {
+   "node": "C01 운동과 힘",
+   "word": "inclined",
+   "old_ex": "The road to my house is steeply {{BLANK}}.",
+   "ex": "An {{BLANK}} plane lets you raise a load with less force, but over a longer distance.",
+   "tr": "빗면을 쓰면 더 작은 힘으로 짐을 올릴 수 있지만, 대신 더 긴 거리를 움직여야 해.",
+   "c": "incline(기울다)에서. an inclined plane은 과학의 '빗면'."
+  },
+  {
+   "node": "C01 운동과 힘",
+   "word": "velocity",
+   "old_ex": "The ball's {{BLANK}} was too high to catch.",
+   "ex": "A car going around a curve at a steady speed is changing its {{BLANK}}.",
+   "tr": "일정한 빠르기로 커브를 도는 차도 속도는 계속 바뀌고 있어."
+  },
+  {
+   "node": "C01 운동과 힘",
+   "word": "friction",
+   "old_ex": "Rub your hands and feel the {{BLANK}}.",
+   "ex": "Without {{BLANK}}, a ball rolling on flat ground would never stop.",
+   "tr": "마찰이 없다면 평평한 땅에서 구르는 공은 절대 멈추지 않을 거야."
+  },
+  {
+   "node": "C02 빛·소리·열",
+   "word": "sound",
+   "old_ex": "I heard a strange {{BLANK}} at night.",
+   "ex": "{{BLANK}} travels about four times faster in water than in air.",
+   "tr": "소리는 공기 중보다 물속에서 약 네 배 빠르게 전달돼."
+  },
+  {
+   "node": "C02 빛·소리·열",
+   "word": "boil",
+   "old_ex": "Wait until the water {{BLANK}}s.",
+   "ex": "On high mountains, low air pressure makes water {{BLANK}} at a lower temperature.",
+   "tr": "높은 산에서는 기압이 낮아서 물이 더 낮은 온도에서 끓어.",
+   "c": "끓는점은 boiling point. 목적어 없이 '끓다', 목적어가 있으면 '끓이다'(②)."
+  },
+  {
+   "node": "C02 빛·소리·열",
+   "word": "lightning",
+   "old_ex": "We saw {{BLANK}} far over the sea.",
+   "ex": "Light is faster than sound, so we see {{BLANK}} before we hear thunder.",
+   "tr": "빛이 소리보다 빨라서 우리는 천둥소리를 듣기 전에 번개를 먼저 봐."
+  },
+  {
+   "node": "C02 빛·소리·열",
+   "word": "thunder",
+   "old_ex": "My dog hides under the bed when he hears {{BLANK}}.",
+   "ex": "{{BLANK}} is the sound made when lightning heats the air very suddenly.",
+   "tr": "천둥은 번개가 공기를 아주 갑자기 뜨겁게 달굴 때 나는 소리야."
+  },
+  {
+   "node": "C03 지구와 하늘",
+   "word": "season",
+   "old_ex": "Spring is my favorite {{BLANK}}.",
+   "ex": "We have {{BLANK}}s because the Earth leans as it goes around the Sun.",
+   "tr": "지구가 기울어진 채로 태양 둘레를 돌기 때문에 계절이 생겨."
+  },
+  {
+   "node": "C03 지구와 하늘",
+   "word": "star",
+   "old_ex": "The {{BLANK}}s shine brightly at night.",
+   "ex": "Unlike planets, {{BLANK}}s like the Sun make their own light.",
+   "tr": "행성과 달리, 태양 같은 별은 스스로 빛을 내."
+  },
+  {
+   "node": "C03 지구와 하늘",
+   "word": "surface",
+   "old_ex": "The {{BLANK}} of the lake is like glass.",
+   "ex": "Water covers about 70 percent of the Earth's {{BLANK}}.",
+   "tr": "물은 지구 표면의 약 70퍼센트를 덮고 있어."
+  },
+  {
+   "node": "C03 지구와 하늘",
+   "word": "iron",
+   "old_ex": "This old bridge is made of {{BLANK}}.",
+   "ex": "The center of the Earth is made mostly of {{BLANK}}.",
+   "tr": "지구의 중심부는 대부분 철로 이루어져 있어."
+  },
+  {
+   "node": "C03 지구와 하늘",
+   "word": "horizon",
+   "old_ex": "The sun set slowly below the {{BLANK}}.",
+   "ex": "A ship sailing away drops below the {{BLANK}} because the Earth is round.",
+   "tr": "지구가 둥글어서, 멀어져 가는 배는 수평선 아래로 내려가."
+  },
+  {
+   "node": "C03 지구와 하늘",
+   "word": "tide",
+   "old_ex": "We left the beach when the {{BLANK}} came in.",
+   "ex": "{{BLANK}}s rise and fall mainly because of the Moon's gravity.",
+   "tr": "조수는 주로 달의 중력 때문에 높아졌다 낮아졌다 해.",
+   "c": "high tide는 만조, low tide는 간조. 밀물이 들어오는 건 the tide comes in."
+  },
+  {
+   "node": "C03 지구와 하늘",
+   "word": "sunlight",
+   "old_ex": "Warm {{BLANK}} came through the classroom window.",
+   "ex": "{{BLANK}} takes about eight minutes to reach the Earth.",
+   "tr": "햇빛이 지구에 닿기까지 약 8분이 걸려."
+  },
+  {
+   "node": "C04 생명과 몸",
+   "word": "plant",
+   "old_ex": "This {{BLANK}} needs water and sun.",
+   "ex": "{{BLANK}}s use sunlight to make food from water and carbon dioxide.",
+   "tr": "식물은 햇빛을 이용해 물과 이산화탄소로 양분을 만들어."
+  },
+  {
+   "node": "C04 생명과 몸",
+   "word": "nerve",
+   "old_ex": "The doctor touched a {{BLANK}} in my tooth.",
+   "ex": "{{BLANK}}s carry messages between the brain and the rest of the body.",
+   "tr": "신경은 뇌와 온몸 사이에서 신호를 실어 날라."
+  },
+  {
+   "node": "C04 생명과 몸",
+   "word": "protein",
+   "old_ex": "Eggs and milk are full of {{BLANK}}.",
+   "ex": "{{BLANK}}s do most of the work in the cells of our bodies.",
+   "tr": "단백질은 우리 몸의 세포 속에서 대부분의 일을 해."
+  },
+  {
+   "node": "C04 생명과 몸",
+   "word": "chamber",
+   "old_ex": "The old house had a secret {{BLANK}}.",
+   "ex": "The human heart has four {{BLANK}}s.",
+   "tr": "사람의 심장에는 방이 네 개 있어."
+  },
+  {
+   "node": "C04 생명과 몸",
+   "word": "valve",
+   "old_ex": "Dad closed the water {{BLANK}} under the sink.",
+   "ex": "Heart {{BLANK}}s keep blood flowing in one direction.",
+   "tr": "심장 판막은 피가 한 방향으로만 흐르게 해."
+  },
+  {
+   "node": "C04 생명과 몸",
+   "word": "vein",
+   "old_ex": "The nurse couldn't find a {{BLANK}} in my arm.",
+   "ex": "{{BLANK}}s carry blood back to the heart.",
+   "tr": "정맥은 피를 심장으로 돌려보내.",
+   "c": "피를 내보내는 혈관은 artery(동맥). 잎맥·광맥도 vein이라 한다."
+  },
+  {
+   "node": "C04 생명과 몸",
+   "word": "nucleus",
+   "old_ex": "The diagram shows the cell's {{BLANK}}.",
+   "ex": "Most of the DNA in our cells is kept in the {{BLANK}}.",
+   "tr": "우리 세포 속 DNA는 대부분 핵 안에 들어 있어."
+  },
+  {
+   "node": "C04 생명과 몸",
+   "word": "antibody",
+   "old_ex": "The scientist studied how this {{BLANK}} fights infection.",
+   "ex": "An {{BLANK}} is a protein the body makes to fight a particular germ.",
+   "tr": "항체는 몸이 특정한 병균과 싸우려고 만드는 단백질이야.",
+   "c": "anti-(맞서는)+body. 복수는 antibodies."
+  },
+  {
+   "node": "C04 생명과 몸",
+   "word": "marrow",
+   "old_ex": "This soup is made from bone {{BLANK}}.",
+   "ex": "Most of our blood cells are made in bone {{BLANK}}.",
+   "tr": "우리 혈액 세포는 대부분 골수에서 만들어져."
+  },
+  {
+   "node": "C05 기후와 환경",
+   "word": "climate",
+   "old_ex": "The {{BLANK}} here is warm all year.",
+   "ex": "{{BLANK}} is the average weather of a place over many years.",
+   "tr": "기후는 한 지역의 여러 해에 걸친 평균적인 날씨야."
+  },
+  {
+   "node": "C05 기후와 환경",
+   "word": "warming",
+   "old_ex": "{{BLANK}} is melting ice at the North Pole.",
+   "ex": "Global {{BLANK}} is the rise in the Earth's average temperature.",
+   "tr": "지구 온난화는 지구의 평균 기온이 오르는 거야.",
+   "c": "warm+-ing. 더 넓은 말로는 climate change(기후 변화)를 쓴다."
+  },
+  {
+   "node": "C05 기후와 환경",
+   "word": "greenhouse",
+   "old_ex": "My aunt grows tomatoes in a small {{BLANK}}.",
+   "ex": "Carbon dioxide is a {{BLANK}} gas: it traps heat in the air.",
+   "tr": "이산화탄소는 온실가스야. 공기 중에 열을 가두거든."
+  },
+  {
+   "node": "C05 기후와 환경",
+   "word": "rainfall",
+   "old_ex": "The {{BLANK}} this month was twice the usual.",
+   "ex": "A desert is a place that gets very little {{BLANK}} each year.",
+   "tr": "사막은 해마다 비가 아주 적게 내리는 곳이야."
+  },
+  {
+   "node": "C05 기후와 환경",
+   "word": "sediment",
+   "old_ex": "Thick {{BLANK}} sat at the bottom of the lake.",
+   "ex": "Over millions of years, {{BLANK}} piles up and hardens into rock.",
+   "tr": "수백만 년에 걸쳐 퇴적물이 쌓이고 굳어서 암석이 돼."
+  },
+  {
+   "node": "C06 시장과 가격",
+   "word": "cost",
+   "old_ex": "The {{BLANK}} of living is rising.",
+   "ex": "The opportunity {{BLANK}} of a choice is the value of the best thing you give up.",
+   "tr": "어떤 선택의 기회비용은 포기한 것 가운데 가장 좋은 것의 가치야.",
+   "c": "opportunity cost는 기회비용. the cost of living은 생활비."
+  },
+  {
+   "node": "C06 시장과 가격",
+   "word": "demand",
+   "old_ex": "The {{BLANK}} for the concert tickets was high.",
+   "ex": "If {{BLANK}} rises but supply does not, prices go up.",
+   "tr": "공급은 그대로인데 수요가 늘면 가격이 올라."
+  },
+  {
+   "node": "C06 시장과 가격",
+   "word": "supply",
+   "old_ex": "The town needs a clean water {{BLANK}}.",
+   "ex": "When {{BLANK}} is greater than demand, prices tend to fall.",
+   "tr": "공급이 수요보다 많으면 가격은 떨어지는 경향이 있어."
+  },
+  {
+   "node": "C06 시장과 가격",
+   "word": "competition",
+   "old_ex": "She won first prize in the {{BLANK}}.",
+   "ex": "{{BLANK}} among sellers usually pushes prices down.",
+   "tr": "판매자들 사이의 경쟁은 대개 가격을 끌어내려.",
+   "c": "compete(경쟁하다)의 명사. '대회'도 된다: a singing competition."
+  },
+  {
+   "node": "C06 시장과 가격",
+   "word": "ceiling",
+   "old_ex": "The store set a {{BLANK}} on ticket prices.",
+   "ex": "A price {{BLANK}} is the highest price that the law allows.",
+   "tr": "가격 상한은 법이 허용하는 가장 높은 가격이야."
+  },
+  {
+   "node": "C06 시장과 가격",
+   "word": "shortage",
+   "old_ex": "Our town had a water {{BLANK}} last summer.",
+   "ex": "There is a {{BLANK}} when demand is greater than supply at the current price.",
+   "tr": "지금 가격에서 수요가 공급보다 많으면 부족이 생겨.",
+   "c": "short+-age. 그 가격에서의 부족. 늘 따르는 근본적인 모자람은 scarcity(희소성)."
+  },
+  {
+   "node": "C06 시장과 가격",
+   "word": "monopoly",
+   "old_ex": "That company has a {{BLANK}} on school books.",
+   "ex": "A {{BLANK}} is a market with only one seller, so prices can stay high.",
+   "tr": "독점은 판매자가 하나뿐인 시장이라 가격이 높게 유지될 수 있어."
+  },
+  {
+   "node": "C06 시장과 가격",
+   "word": "equilibrium",
+   "old_ex": "The two forces reach {{BLANK}} at this point.",
+   "ex": "At market {{BLANK}}, the amount buyers want equals the amount for sale.",
+   "tr": "시장 균형에서는 사려는 양과 팔려고 내놓은 양이 같아."
+  },
+  {
+   "node": "C06 시장과 가격",
+   "word": "elasticity",
+   "old_ex": "This band lost its {{BLANK}} after a year.",
+   "ex": "Price {{BLANK}} shows how much demand or supply changes as prices change.",
+   "tr": "가격 탄력성은 가격이 바뀔 때 수요나 공급이 얼마나 변하는지 보여 줘.",
+   "c": "elastic(탄력 있는)의 명사. 본래는 고무줄처럼 늘었다 돌아오는 성질."
+  },
+  {
+   "node": "C07 나라 경제",
+   "word": "wage",
+   "old_ex": "My hourly {{BLANK}} at the cafe is ten dollars.",
+   "ex": "The minimum {{BLANK}} is the lowest pay that the law allows.",
+   "tr": "최저임금은 법이 허용하는 가장 낮은 임금이야."
+  },
+  {
+   "node": "C07 나라 경제",
+   "word": "deficit",
+   "old_ex": "The club has a big {{BLANK}} this month.",
+   "ex": "A country has a trade {{BLANK}} when it imports more than it exports.",
+   "tr": "한 나라가 수출보다 수입을 더 많이 하면 무역 적자가 나."
+  },
+  {
+   "node": "C07 나라 경제",
+   "word": "economics",
+   "old_ex": "My brother wants to study {{BLANK}} in college.",
+   "ex": "{{BLANK}} studies how people make, trade, and use goods and services.",
+   "tr": "경제학은 사람들이 재화와 서비스를 어떻게 만들고 거래하고 쓰는지 연구해."
+  },
+  {
+   "node": "C07 나라 경제",
+   "word": "capitalism",
+   "old_ex": "The article discusses modern {{BLANK}}.",
+   "ex": "{{BLANK}} is based on private property, markets, and profit.",
+   "tr": "자본주의는 사유 재산, 시장, 이윤에 바탕을 둬."
+  },
+  {
+   "node": "C08 민주주의와 헌법",
+   "word": "constitution",
+   "old_ex": "Our teacher told us about the {{BLANK}} today.",
+   "ex": "A country's {{BLANK}} sets up its government and protects basic rights.",
+   "tr": "한 나라의 헌법은 정부의 틀을 세우고 기본권을 보장해."
+  },
+  {
+   "node": "C08 민주주의와 헌법",
+   "word": "equity",
+   "old_ex": "Our school talks a lot about {{BLANK}} these days.",
+   "ex": "Equality gives everyone the same; {{BLANK}} gives each person what they need.",
+   "tr": "평등은 모두에게 똑같이 주고, 형평은 각자에게 필요한 것을 줘."
+  },
+  {
+   "node": "C08 민주주의와 헌법",
+   "word": "sovereignty",
+   "old_ex": "The island fight is about {{BLANK}}.",
+   "ex": "{{BLANK}} is a state's supreme power to rule itself.",
+   "tr": "주권은 국가가 스스로를 다스리는 최고의 권력이야."
+  },
+  {
+   "node": "C10 학문 이름의 정의",
+   "word": "chemistry",
+   "old_ex": "We mixed two liquids in {{BLANK}} class.",
+   "ex": "{{BLANK}} studies what matter is made of and how it changes.",
+   "tr": "화학은 물질이 무엇으로 이루어졌고 어떻게 변하는지 연구해."
+  },
+  {
+   "node": "C10 학문 이름의 정의",
+   "word": "anthropology",
+   "old_ex": "My cousin studies {{BLANK}} at college.",
+   "ex": "{{BLANK}} tries to understand each culture by its own values, not ours.",
+   "tr": "인류학은 각 문화를 우리 기준이 아니라 그 문화의 가치로 이해하려고 해.",
+   "c": "그리스어 anthropos(사람)+-logy(학문). 이런 태도가 cultural relativism(문화 상대주의)."
+  },
+  {
+   "node": "C10 학문 이름의 정의",
+   "word": "archaeology",
+   "old_ex": "He got into {{BLANK}} after a museum trip.",
+   "ex": "{{BLANK}} studies the human past through the things people left behind.",
+   "tr": "고고학은 사람들이 남긴 물건을 통해 인류의 과거를 연구해."
+  },
+  {
+   "node": "C10 학문 이름의 정의",
+   "word": "epidemiology",
+   "old_ex": "She studies {{BLANK}} at a medical school.",
+   "ex": "{{BLANK}} studies how often diseases happen in a population, and why.",
+   "tr": "역학은 한 인구 집단에서 질병이 얼마나 자주, 왜 생기는지 연구해.",
+   "c": "epidemic(유행병)과 같은 뿌리지만, 전염병이 아닌 질병도 다룬다."
+  },
+  {
+   "node": "C11 생물의 다양성",
+   "word": "bird",
+   "old_ex": "A little {{BLANK}} is singing outside my window.",
+   "ex": "Today, {{BLANK}}s are the only animals with feathers.",
+   "tr": "오늘날 깃털이 있는 동물은 새뿐이야."
+  },
+  {
+   "node": "C11 생물의 다양성",
+   "word": "insect",
+   "old_ex": "Small {{BLANK}}s are flying around the lamp.",
+   "ex": "Spiders are not {{BLANK}}s, because they have eight legs, not six.",
+   "tr": "거미는 다리가 여섯 개가 아니라 여덟 개라서 곤충이 아니야."
+  },
+  {
+   "node": "C11 생물의 다양성",
+   "word": "bat",
+   "old_ex": "A {{BLANK}} flew out of the dark cave.",
+   "ex": "Many {{BLANK}}s find their way in the dark by listening to echoes.",
+   "tr": "많은 박쥐는 메아리를 들으며 어둠 속에서 길을 찾아."
+  },
+  {
+   "node": "C11 생물의 다양성",
+   "word": "whale",
+   "old_ex": "We saw a huge {{BLANK}} jump out of the sea.",
+   "ex": "The blue {{BLANK}} is the largest animal known to have ever lived.",
+   "tr": "대왕고래는 지금까지 살았던 것으로 알려진 동물 가운데 가장 커."
+  },
+  {
+   "node": "C09 철학의 말",
+   "word": "man",
+   "old_ex": "Fire changed the history of {{BLANK}}.",
+   "ex": "Aristotle said that {{BLANK}} is by nature a political animal.",
+   "tr": "아리스토텔레스는 인간은 본래 정치적 동물이라고 말했어."
+  },
+  {
+   "node": "C09 철학의 말",
+   "word": "flux",
+   "old_ex": "Our club plans are in {{BLANK}} right now.",
+   "ex": "Heraclitus said that everything is in {{BLANK}}, like a flowing river.",
+   "tr": "헤라클레이토스는 흐르는 강물처럼 모든 것이 끊임없이 변한다고 말했어."
+  }
+ ]
+}
