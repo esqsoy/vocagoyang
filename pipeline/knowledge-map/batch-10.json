@@ -1,0 +1,116 @@
+{
+ "batch": 10,
+ "date": "2026-10-08",
+ "status": "applied",
+ "note": "지식 지도 밖 F 판정 14장을 검수자가 짚은 결함만 고쳤다(뜻 카드 유지). 다른 묶음과 겹치지 않게 scientific은 과학적 방법(b07 method) 대신 포퍼의 반증 가능성, capitalist는 냉전 대립(b06 communism)·정의(b08 capitalism) 대신 1989년 이후 동유럽의 체제 전환, industrialize는 영국 최초·메이지 대신 1800년대 후반 독일·미국의 뒤따른 산업화, liberty는 프랑스 혁명 구호(b05 equality와 겹칠 수 있음) 대신 로크의 자연권, invent는 종이·나침반·인쇄·메소포타미아 문자(기존 카드) 대신 인도 숫자로 썼다. liberty 카드는 en이 'Liberty'(대문자, 여신상 시절 흔적)라 문장 중간에서 대문자로 보이므로 en을 'liberty'로 함께 고쳐야 한다. 검수(Claude): invent는 \"아라비아가 아니라 인도\"로 다듬었다. liberty는 표제어 철자(en)를 소문자로 바로잡았다(저장 키는 word라 그대로).",
+ "kept": {},
+ "new_word_proposals": [
+  {
+   "word": "spinal",
+   "why": "중추신경계=뇌+척수라는 완결된 정의를 쓰려면 spinal cord가 필요하다(cord는 표제어). 지금 카드는 표제어 안 대안('뇌는 신경계의 지휘 중심')으로 썼고, 급하지 않은 제안이다.",
+   "sentence": "The brain and the spinal cord form the central {{BLANK}} system."
+  }
+ ],
+ "cards": [
+  {
+   "node": "F 수정",
+   "word": "international",
+   "old_ex": "The first modern Olympics in 1896 were an {{BLANK}} event.",
+   "ex": "{{BLANK}} law sets rules for relations between countries.",
+   "tr": "국제법은 나라 사이의 관계에 관한 규칙을 정해."
+  },
+  {
+   "node": "F 수정",
+   "word": "scientific",
+   "old_ex": "{{BLANK}} studies show sleep helps memory.",
+   "ex": "Karl Popper said an idea is {{BLANK}} only if a test could prove it wrong.",
+   "tr": "칼 포퍼는 시험으로 틀렸음이 밝혀질 수 있는 생각만 과학적이라고 했어."
+  },
+  {
+   "node": "F 수정",
+   "word": "nervous",
+   "old_ex": "The brain controls the {{BLANK}} system.",
+   "ex": "The brain is the control center of the {{BLANK}} system.",
+   "tr": "뇌는 신경계를 지휘하는 중심이야."
+  },
+  {
+   "node": "F 수정",
+   "word": "invent",
+   "old_ex": "Edison {{BLANK}}ed many useful things.",
+   "ex": "The numbers 0 to 9 were {{BLANK}}ed in India, not in Arabia.",
+   "tr": "숫자 0부터 9는 아라비아가 아니라 인도에서 발명됐어."
+  },
+  {
+   "node": "F 수정",
+   "word": "civilization",
+   "old_ex": "This river gave birth to an ancient {{BLANK}}.",
+   "ex": "Mesopotamia and Egypt had the first {{BLANK}}s, about 5,000 years ago.",
+   "tr": "약 5,000년 전 메소포타미아와 이집트에서 최초의 문명들이 생겨났어."
+  },
+  {
+   "node": "F 수정",
+   "word": "liberty",
+   "old_ex": "The Statue of {{BLANK}} stands in New York.",
+   "ex": "John Locke said people have natural rights to life, {{BLANK}}, and property.",
+   "tr": "존 로크는 사람에게 생명, 자유, 재산에 대한 자연권이 있다고 했어.",
+   "c": "freedom과 비슷한 격식어로, 여기서는 바꿔 쓸 수 있다. 자유의 여신상은 the Statue of Liberty.",
+   "en": "liberty"
+  },
+  {
+   "node": "F 수정",
+   "word": "earthquake",
+   "old_ex": "A strong {{BLANK}} hit San Francisco in 1906.",
+   "ex": "{{BLANK}}s happen most often where the Earth's plates meet.",
+   "tr": "지진은 지구의 판들이 만나는 곳에서 가장 자주 일어나."
+  },
+  {
+   "node": "F 수정",
+   "word": "capitalist",
+   "old_ex": "Korea has a {{BLANK}} system like the United States.",
+   "ex": "After 1989, Eastern Europe moved from planned to {{BLANK}} economies.",
+   "tr": "1989년 이후 동유럽은 계획 경제에서 자본주의 경제로 넘어갔어."
+  },
+  {
+   "node": "F 수정",
+   "word": "linguistics",
+   "old_ex": "She reads about {{BLANK}} to learn how languages change.",
+   "ex": "{{BLANK}} studies the sounds, words, sentences, and meanings of language.",
+   "tr": "언어학은 언어의 소리, 단어, 문장, 의미를 연구해."
+  },
+  {
+   "node": "F 수정",
+   "word": "inversion",
+   "old_ex": "This sentence uses {{BLANK}} after a negative word.",
+   "ex": "{{BLANK}} puts a verb before its subject, as in 'Never have I seen it.'",
+   "tr": "도치는 'Never have I seen it'처럼 동사를 주어 앞에 두는 거야."
+  },
+  {
+   "node": "F 수정",
+   "word": "locus",
+   "old_ex": "The {{BLANK}} of these points is a circle.",
+   "ex": "On a flat surface, a circle is the {{BLANK}} of points equally distant from one point.",
+   "tr": "평면에서 원은 한 점에서 같은 거리에 있는 점들의 자취야."
+  },
+  {
+   "node": "F 수정",
+   "word": "syntactic",
+   "old_ex": "This sentence has a {{BLANK}} error, not a spelling one.",
+   "ex": "'Book the is red' has a {{BLANK}} error, not a spelling one.",
+   "tr": "'Book the is red'에는 철자 오류가 아니라 통사 오류가 있어."
+  },
+  {
+   "node": "F 수정",
+   "word": "industrialize",
+   "old_ex": "Korea began to {{BLANK}} very fast after the war.",
+   "ex": "After Britain, Germany and the US {{BLANK}}d fast in the late 1800s.",
+   "tr": "영국에 이어 독일과 미국도 1800년대 후반에 빠르게 산업화했어."
+  },
+  {
+   "node": "F 수정",
+   "word": "revolution",
+   "old_ex": "Printing brought a {{BLANK}} in the spread of knowledge.",
+   "ex": "In the 1400s, printing brought Europe a {{BLANK}} in knowledge.",
+   "tr": "1400년대에 인쇄술은 유럽에 지식의 혁명을 가져왔어."
+  }
+ ]
+}

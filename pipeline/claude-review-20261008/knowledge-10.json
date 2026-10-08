@@ -1,0 +1,914 @@
+{
+ "date": "2026-10-08",
+ "name": "knowledge-10",
+ "status": "applied_locally_verified",
+ "authorization": "영신(2026-10-08): \"이제 예문작업을 완성해버리자! 전부!\"",
+ "summary": "지식 지도 밖에서 전수 조사가 'F(지식 예문이지만 수정 필요)'로 판정한 14장을 고쳤다: international·scientific(포퍼의 반증 가능성)·nervous·invent·civilization·liberty(로크의 자연권, 표제어 철자 소문자로)·earthquake·capitalist·linguistics·inversion·locus·syntactic·industrialize·revolution(48). 목록 pipeline/knowledge-map/batch-10.json.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "0c5a5dd806af51c46cfa2030f556c0c0c16b5300e90a8baeaf75fe6788049966",
+   "afterHash": "c0da116cd4b2c7c034ba53cfaa1364f522455f568daba25839d0d2bb6c2561cc",
+   "changes": [
+    {
+     "path": [
+      3,
+      "exercises",
+      2,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The first modern Olympics in 1896 were an {{BLANK}} event.",
+     "new": "{{BLANK}} law sets rules for relations between countries."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      2,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1896년 첫 근대 올림픽은 국제 대회였어.",
+     "new": "국제법은 나라 사이의 관계에 관한 규칙을 정해."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      6,
+      "words",
+      9,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "{{BLANK}} studies show sleep helps memory.",
+     "new": "Karl Popper said an idea is {{BLANK}} only if a test could prove it wrong."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      6,
+      "words",
+      9,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "과학 연구에 따르면 잠이 기억력에 좋대.",
+     "new": "칼 포퍼는 시험으로 틀렸음이 밝혀질 수 있는 생각만 과학적이라고 했어."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      6,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The brain controls the {{BLANK}} system.",
+     "new": "The brain is the control center of the {{BLANK}} system."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      6,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "뇌는 신경계를 조절해.",
+     "new": "뇌는 신경계를 지휘하는 중심이야."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      4,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Edison {{BLANK}}ed many useful things.",
+     "new": "The numbers 0 to 9 were {{BLANK}}ed in India, not in Arabia."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      4,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "에디슨은 유용한 물건을 많이 발명했어.",
+     "new": "숫자 0부터 9는 아라비아가 아니라 인도에서 발명됐어."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      6,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This river gave birth to an ancient {{BLANK}}.",
+     "new": "Mesopotamia and Egypt had the first {{BLANK}}s, about 5,000 years ago."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      6,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 강에서 고대 문명이 태어났어.",
+     "new": "약 5,000년 전 메소포타미아와 이집트에서 최초의 문명들이 생겨났어."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      0,
+      "words",
+      1,
+      "en"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Liberty",
+     "new": "liberty"
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      0,
+      "words",
+      1,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The Statue of {{BLANK}} stands in New York.",
+     "new": "John Locke said people have natural rights to life, {{BLANK}}, and property."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      0,
+      "words",
+      1,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "자유의 여신상은 뉴욕에 있어.",
+     "new": "존 로크는 사람에게 생명, 자유, 재산에 대한 자연권이 있다고 했어."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      0,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "freedom과 비슷한 뜻의 격식어. 자유의 여신상 이름은 the Statue of Liberty.",
+     "new": "freedom과 비슷한 격식어로, 여기서는 바꿔 쓸 수 있다. 자유의 여신상은 the Statue of Liberty."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      5,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "A strong {{BLANK}} hit San Francisco in 1906.",
+     "new": "{{BLANK}}s happen most often where the Earth's plates meet."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      5,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1906년에 강한 지진이 샌프란시스코를 강타했어.",
+     "new": "지진은 지구의 판들이 만나는 곳에서 가장 자주 일어나."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      4,
+      "words",
+      12,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Korea has a {{BLANK}} system like the United States.",
+     "new": "After 1989, Eastern Europe moved from planned to {{BLANK}} economies."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      4,
+      "words",
+      12,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "한국은 미국처럼 자본주의 체제야.",
+     "new": "1989년 이후 동유럽은 계획 경제에서 자본주의 경제로 넘어갔어."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      7,
+      "words",
+      10,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "She reads about {{BLANK}} to learn how languages change.",
+     "new": "{{BLANK}} studies the sounds, words, sentences, and meanings of language."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      7,
+      "words",
+      10,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "걔는 언어가 어떻게 변하는지 알고 싶어서 언어학 책을 읽어.",
+     "new": "언어학은 언어의 소리, 단어, 문장, 의미를 연구해."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      5,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This sentence uses {{BLANK}} after a negative word.",
+     "new": "{{BLANK}} puts a verb before its subject, as in 'Never have I seen it.'"
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      5,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 문장은 부정어 뒤에 도치를 쓰고 있어.",
+     "new": "도치는 'Never have I seen it'처럼 동사를 주어 앞에 두는 거야."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      7,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} of these points is a circle.",
+     "new": "On a flat surface, a circle is the {{BLANK}} of points equally distant from one point."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      7,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 점들의 자취는 원이야.",
+     "new": "평면에서 원은 한 점에서 같은 거리에 있는 점들의 자취야."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      2,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This sentence has a {{BLANK}} error, not a spelling one.",
+     "new": "'Book the is red' has a {{BLANK}} error, not a spelling one."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      2,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 문장에는 철자 오류가 아니라 통사 오류가 있어.",
+     "new": "'Book the is red'에는 철자 오류가 아니라 통사 오류가 있어."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      6,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Korea began to {{BLANK}} very fast after the war.",
+     "new": "After Britain, Germany and the US {{BLANK}}d fast in the late 1800s."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      6,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "한국은 전쟁 뒤에 아주 빠르게 산업화하기 시작했어.",
+     "new": "영국에 이어 독일과 미국도 1800년대 후반에 빠르게 산업화했어."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      8,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Printing brought a {{BLANK}} in the spread of knowledge.",
+     "new": "In the 1400s, printing brought Europe a {{BLANK}} in knowledge."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      8,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "인쇄술은 지식의 전파에 혁명적인 변화를 가져왔어.",
+     "new": "1400년대에 인쇄술은 유럽에 지식의 혁명을 가져왔어."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson03.json": {
+   "beforeHash": "53da8405b8dab0c3e4272dcc66d445f214857e41e7fb451f4a7baffad14e81c5",
+   "afterHash": "ed3717471bdc54c859e8d8640c25008dfb912b21ba3e83134860583b6f9cd2fa"
+  },
+  "pipeline/out/set11.json": {
+   "beforeHash": "669e4ce0c66c43471bad833ea2480a1b602ca719ba653dd838c0774cce53e241",
+   "afterHash": "8d690823b47ff32d850c9456dde8c33dd80cdfa04bff795516bb8503446914fe"
+  },
+  "pipeline/out/set14.json": {
+   "beforeHash": "3eff772706d24696957696b7f897cc17436cc1f5a94a1d8e383f41da0562a1c6",
+   "afterHash": "6e01d29202a956689d23bd56d701d1ef140de2a5510a739fd8651681b683f670"
+  },
+  "pipeline/out/set17.json": {
+   "beforeHash": "ba3e636958f8e116154205872e702f3d946ee24cdf087c653d7d6e8841cab87b",
+   "afterHash": "76d580f4e6d6ae66e181bcea28d17acfd649198ba66d34c631483285358246b2"
+  },
+  "pipeline/out/set26.json": {
+   "beforeHash": "75eaa773ecc98eb8c865c06dad57bef6c0b4c6631b77bea8e5d9ad9e7c9be440",
+   "afterHash": "5f9fa043b3ad73303c2cda193bba7c72bd46a25d19ea2daa8bda61a775625738"
+  },
+  "pipeline/out/set31.json": {
+   "beforeHash": "524273a86fdcf60419e6091ebed7db4a493e1f48c2bdabaf820af65680a02841",
+   "afterHash": "ea226b0d63ace0d5a8fe2e2add32b68d201f5b91fc3e1bd11c0cf27f487bce54"
+  },
+  "pipeline/out/set40.json": {
+   "beforeHash": "05ea25393cb73bee21529390f40ad3d3b116fc1b6758dbc00451333dd61fed8a",
+   "afterHash": "d04336415c7dac3aa4878890eb3d675c41d2c766bf0033f0f569d3e53381e3dc"
+  },
+  "pipeline/out/set43.json": {
+   "beforeHash": "8b0d726b8ed12e5673cfd165b71f30b580be4e4b0cf89c446d03f2a60b5ac019",
+   "afterHash": "b2c161ed60e188a8de79158c9b9cc71b9a8bd5fa7ee11f8641a120e7dfc0b967"
+  },
+  "pipeline/out/set44.json": {
+   "beforeHash": "53f5fe00801901744fc473c4321fb4ba0661470648b889ef6024895c81e493a6",
+   "afterHash": "671700fad909ac7cb05893980625a7ac7382c8a55e071653b3fc24957d562e36"
+  },
+  "pipeline/out/set45.json": {
+   "beforeHash": "6129faa5668e10bdeed603f852a3b1cb048bad9acc1e09f0f9e695c095b60ff5",
+   "afterHash": "d51d093631474f5b8f9335712c98ceb6c12f620304c96fab1df983c3364f7fc3"
+  },
+  "pipeline/out/set48.json": {
+   "beforeHash": "95f2a9e552100b2b660fb36ece954b51859f9038130d92d41d03752c0acaa945",
+   "afterHash": "44200511c49e220239f8011d82a37574cd93f66a03b612ffa18618fd1e5c5817"
+  },
+  "pipeline/morphology.json": {
+   "beforeHash": "bef00cdf6ae48fdf91cf8cd6586a8a7131a78b542044c1522a6c0509b27d2423",
+   "afterHash": "073dbe52fb2074ad0e2710ab0d14938984db83be39c89f51e2899ffd734c9ec8"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson03.json": [
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The first modern Olympics in 1896 were an {{BLANK}} event.",
+    "new": "{{BLANK}} law sets rules for relations between countries."
+   },
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1896년 첫 근대 올림픽은 국제 대회였어.",
+    "new": "국제법은 나라 사이의 관계에 관한 규칙을 정해."
+   }
+  ],
+  "pipeline/out/set11.json": [
+   {
+    "path": [
+     6,
+     "words",
+     9,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "{{BLANK}} studies show sleep helps memory.",
+    "new": "Karl Popper said an idea is {{BLANK}} only if a test could prove it wrong."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "과학 연구에 따르면 잠이 기억력에 좋대.",
+    "new": "칼 포퍼는 시험으로 틀렸음이 밝혀질 수 있는 생각만 과학적이라고 했어."
+   }
+  ],
+  "pipeline/out/set14.json": [
+   {
+    "path": [
+     6,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The brain controls the {{BLANK}} system.",
+    "new": "The brain is the control center of the {{BLANK}} system."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "뇌는 신경계를 조절해.",
+    "new": "뇌는 신경계를 지휘하는 중심이야."
+   }
+  ],
+  "pipeline/out/set17.json": [
+   {
+    "path": [
+     4,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Edison {{BLANK}}ed many useful things.",
+    "new": "The numbers 0 to 9 were {{BLANK}}ed in India, not in Arabia."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "에디슨은 유용한 물건을 많이 발명했어.",
+    "new": "숫자 0부터 9는 아라비아가 아니라 인도에서 발명됐어."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This river gave birth to an ancient {{BLANK}}.",
+    "new": "Mesopotamia and Egypt had the first {{BLANK}}s, about 5,000 years ago."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 강에서 고대 문명이 태어났어.",
+    "new": "약 5,000년 전 메소포타미아와 이집트에서 최초의 문명들이 생겨났어."
+   }
+  ],
+  "pipeline/out/set26.json": [
+   {
+    "path": [
+     0,
+     "words",
+     1,
+     "en"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Liberty",
+    "new": "liberty"
+   },
+   {
+    "path": [
+     0,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The Statue of {{BLANK}} stands in New York.",
+    "new": "John Locke said people have natural rights to life, {{BLANK}}, and property."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "자유의 여신상은 뉴욕에 있어.",
+    "new": "존 로크는 사람에게 생명, 자유, 재산에 대한 자연권이 있다고 했어."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "freedom과 비슷한 뜻의 격식어. 자유의 여신상 이름은 the Statue of Liberty.",
+    "new": "freedom과 비슷한 격식어로, 여기서는 바꿔 쓸 수 있다. 자유의 여신상은 the Statue of Liberty."
+   }
+  ],
+  "pipeline/out/set31.json": [
+   {
+    "path": [
+     5,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "A strong {{BLANK}} hit San Francisco in 1906.",
+    "new": "{{BLANK}}s happen most often where the Earth's plates meet."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1906년에 강한 지진이 샌프란시스코를 강타했어.",
+    "new": "지진은 지구의 판들이 만나는 곳에서 가장 자주 일어나."
+   }
+  ],
+  "pipeline/out/set40.json": [
+   {
+    "path": [
+     4,
+     "words",
+     12,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Korea has a {{BLANK}} system like the United States.",
+    "new": "After 1989, Eastern Europe moved from planned to {{BLANK}} economies."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "한국은 미국처럼 자본주의 체제야.",
+    "new": "1989년 이후 동유럽은 계획 경제에서 자본주의 경제로 넘어갔어."
+   }
+  ],
+  "pipeline/out/set43.json": [
+   {
+    "path": [
+     7,
+     "words",
+     10,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "She reads about {{BLANK}} to learn how languages change.",
+    "new": "{{BLANK}} studies the sounds, words, sentences, and meanings of language."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     10,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "걔는 언어가 어떻게 변하는지 알고 싶어서 언어학 책을 읽어.",
+    "new": "언어학은 언어의 소리, 단어, 문장, 의미를 연구해."
+   }
+  ],
+  "pipeline/out/set44.json": [
+   {
+    "path": [
+     5,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This sentence uses {{BLANK}} after a negative word.",
+    "new": "{{BLANK}} puts a verb before its subject, as in 'Never have I seen it.'"
+   },
+   {
+    "path": [
+     5,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 문장은 부정어 뒤에 도치를 쓰고 있어.",
+    "new": "도치는 'Never have I seen it'처럼 동사를 주어 앞에 두는 거야."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} of these points is a circle.",
+    "new": "On a flat surface, a circle is the {{BLANK}} of points equally distant from one point."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 점들의 자취는 원이야.",
+    "new": "평면에서 원은 한 점에서 같은 거리에 있는 점들의 자취야."
+   }
+  ],
+  "pipeline/out/set45.json": [
+   {
+    "path": [
+     2,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This sentence has a {{BLANK}} error, not a spelling one.",
+    "new": "'Book the is red' has a {{BLANK}} error, not a spelling one."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 문장에는 철자 오류가 아니라 통사 오류가 있어.",
+    "new": "'Book the is red'에는 철자 오류가 아니라 통사 오류가 있어."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Korea began to {{BLANK}} very fast after the war.",
+    "new": "After Britain, Germany and the US {{BLANK}}d fast in the late 1800s."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "한국은 전쟁 뒤에 아주 빠르게 산업화하기 시작했어.",
+    "new": "영국에 이어 독일과 미국도 1800년대 후반에 빠르게 산업화했어."
+   }
+  ],
+  "pipeline/out/set48.json": [
+   {
+    "path": [
+     8,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Printing brought a {{BLANK}} in the spread of knowledge.",
+    "new": "In the 1400s, printing brought Europe a {{BLANK}} in knowledge."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "인쇄술은 지식의 전파에 혁명적인 변화를 가져왔어.",
+    "new": "1400년대에 인쇄술은 유럽에 지식의 혁명을 가져왔어."
+   }
+  ],
+  "pipeline/morphology.json": [
+   {
+    "path": [
+     "units",
+     105,
+     "cards",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Printing brought a {{BLANK}} in the spread of knowledge.",
+    "new": "In the 1400s, printing brought Europe a {{BLANK}} in knowledge."
+   },
+   {
+    "path": [
+     "units",
+     105,
+     "cards",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "인쇄술은 지식의 전파에 혁명적인 변화를 가져왔어.",
+    "new": "1400년대에 인쇄술은 유럽에 지식의 혁명을 가져왔어."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson03.json": [],
+  "pipeline/out/set11.json": [],
+  "pipeline/out/set14.json": [],
+  "pipeline/out/set17.json": [],
+  "pipeline/out/set26.json": [],
+  "pipeline/out/set31.json": [],
+  "pipeline/out/set40.json": [],
+  "pipeline/out/set43.json": [],
+  "pipeline/out/set44.json": [],
+  "pipeline/out/set45.json": [],
+  "pipeline/out/set48.json": [],
+  "pipeline/morphology.json": []
+ }
+}
