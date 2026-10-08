@@ -726,6 +726,22 @@
 - 앱 430928f를 main에 fast-forward, Pages 37819892553 성공, main의 네 HTML blob이 로컬과 같다. github.io 직접 확인은 못 했다. [DEPLOYMENT](DEPLOYMENT.md)
 - 영신 후속 제안(미구현): 5,000처럼 많아지면 지난 단어는 천 단어 단위 폭죽으로, 최근 천 단어만 벽에 세우자.
 
+## 2026-10-08 · 지식 4묶음·monarchy·해설 규칙·2,000부터 폭죽 회상·머리말 삭제
+
+- 요청·결정(영신): "전부 동의. 2,000부터 하자 근데 이게 영단어장이니까 가급적이면 단어와 관련된 것만 해설로 하자. 마젤란 죽은건 안넣어도 될듯. 만약 필수적인 정보라면 예문화하는게 맞다고 봄". 이어서 "천단위 축하화면에서 '익힌 단어' 아예 빼버립시다. 그게 더 깔끔할거 같음. 나머지 유지!"
+- 반영:
+  - 지식 4묶음 21장(4장 르네상스와 대항해, 5장 종교개혁·절대왕정·의회·계몽). 초안 해설의 마젤란·1689년·몽테스키외·말의 빙하기 소멸·대항해의 동기를 뺐고, 노예무역의 시기는 slave·plantation 예문으로 옮겼다. parliament 18세트는 2-7 경계 사례였는데 일반 명사 문장이 됐다. 목록 `pipeline/knowledge-map/batch-04.json`, 원장 `knowledge-04.json`.
+  - 새 표제어 monarchy(42세트 지식 어휘 Ⅳ, monarch 다음). FABLE 7,132카드·표제어 4,979, 세 교재 합집합 8,310. 해설 길이(72자)에 걸린 parliamentary·monarchy 해설을 줄였다.
+  - 해설 규칙: [PRINCIPLES 4](PRINCIPLES.md#4-해설은-꼭-필요한-것만)에 이유와 함께 적었다. 1~3묶음·지식 어휘 해설 124개를 다시 읽고 12장을 고쳤다(사건·인물·연도·수치 → 어원·파생어·연어·다른 뜻). 대공황(unemployment)과 흑사병의 피해(plague)는 예문으로 옮겼다. 목록 `claude-review-20261008/word-notes-edits.json`, 원장 `word-notes.json`. 복원 체인 맨 위는 word-notes → knowledge-04.
+  - 돌파 축하: 2,000부터 앞선 단어를 천 개씩 폭죽 한 발로 터뜨리고(숫자가 천씩 뜀), 최근 천 단어만 날아와 벽을 세운다. 벽 글자는 늘 약 8px이다. 날아오는 시간은 같고 폭죽 수만큼 길어진다. 불티와 폭죽 알갱이를 한 물리로 합쳤다. 화면 맨 위 '익힌 단어' 머리말을 뺐다. 원본 `pipeline/milestones/runtime.js`·`style.css`, 테스트 `pipeline/tests/milestones.test.cjs`(합집합 수는 index.html 누적 수에서 읽게 바꿈).
+  - 문서: PRINCIPLES 2-7·4·11, UI_STANDARD 돌파 축하, `pipeline/milestones/README.md`, `pipeline/claude-review-20261008/README.md`.
+- 검증(이번에 실행):
+  - exaudit 26(그대로), linecheck 390·360px 문장·화면 초과 0, deepcheck A1~A5 0·A6 93(작업 전과 같음), collide 새 경쟁어 없음.
+  - Codex 테스트 33/33(milestones 포함), IPA·모아둔 카드·마더텅·index 빌드 `--check` 통과.
+  - 393px 녹화: 3,000에서 폭죽 두 발(1,000 → 2,000) 뒤 2,001부터 날아와 벽이 서고, 5,000에서 네 발 뒤 4,001부터 온다. 중앙 프레임 간격 16.7ms(5,000의 90%도 16.8ms). 320px에서 폭죽 도중 누르면 바로 문턱으로 가고 닫힌다(세 교재, 페이지 오류 없음). 머리말 없는 화면을 다시 녹화해 확인했다.
+  - 실기기 Safari는 확인하지 않았다.
+- 상태: 커밋·브랜치 푸시. 배포는 영신 요청 뒤.
+
 ## 다음 기록 형식
 
 

@@ -111,13 +111,21 @@ let progressAt2500=null;
   assert.equal(h.run('msMode'),'warp','정식 축하는 저 멀리에서 날아오는 단어(far to near)');
 }
 
-// 9) 문턱이 높을수록 유성우가 길고 연출이 화려하다(영신: "갈수록 더 길게", "1000개나 외웠는데 좀 길어도").
+// 9) 문턱이 높을수록 길고 화려하다(영신: "갈수록 더 길게", "1000개나 외웠는데 좀 길어도").
+//    2,000부터 앞선 단어는 천 개씩 폭죽 한 발, 날아오는 것은 최근 천 단어(영신: "기존 단어들을 천 단어 단위로 폭죽 처리하고 최근 천 단어를 벽에").
 {
-  const h=harness(path.join(root,'vocagoyangfable.html')),P=[1000,2000,3000,4000].map(m=>h.ctx.msPlan(m));
+  const h=harness(path.join(root,'vocagoyangfable.html')),P=[1000,2000,3000,4000,5000].map(m=>h.ctx.msPlan(m));
   assert.equal(P[0].T,6000,'1,000은 첫 6단어 뒤 약 6초 동안 센다');assert.deepEqual([P[0].intro,P[0].introGap],[6,420],'처음 6단어는 0.42초 간격으로 하나씩');
-  for(let i=1;i<P.length;i++){assert(P[i].T>P[i-1].T);assert(P[i].shells>P[i-1].shells);assert(P[i].rings>P[i-1].rings);assert(P[i].rays>P[i-1].rays);}
-  assert.equal(P[0].rain,0);assert(P[1].rain>0,'2,000부터 금빛 비');
-  assert(h.ctx.msPlan(8000).T<=15000,'가장 길어도 15초');
+  assert(P.every(p=>p.T===6000&&p.recent===1000),'날아오는 것은 늘 최근 천 단어, 같은 6초');
+  assert.deepEqual(P.map(p=>p.recap),[0,1,2,3,4],'앞선 단어는 천 개마다 폭죽 한 발');assert.equal(P[0].recapDur,0,'1,000은 폭죽 없이 바로 날아온다');
+  for(let i=1;i<P.length;i++){assert(P[i].dur>P[i-1].dur,'폭죽 수만큼 길어진다');assert(P[i].rainT>=P[i-1].rainT);
+    assert(P[i].shells>=P[i-1].shells);assert(P[i].rings>=P[i-1].rings);assert(P[i].rays>=P[i-1].rays);}
+  for(let i=1;i<4;i++){assert(P[i].rings>P[i-1].rings);assert(P[i].rays>P[i-1].rays);}
+  assert.equal(P[0].rain,0);assert(P[1].rain>0,'2,000부터 금빛 비(rain 후보)');
+  assert(h.ctx.msPlan(8000).rainT<=15000,'rain 후보는 가장 길어도 15초');
+  for(let m=2000;m<=20000;m+=1000){const a=h.ctx.msPlan(m-1000),b=h.ctx.msPlan(m);assert(b.dur>a.dur&&b.dur<=16500,m+': 길어지되 16.5초 안');}
+  assert.deepEqual(JSON.parse(JSON.stringify(h.ctx.msChunks(1000))),[]);
+  assert.deepEqual(JSON.parse(JSON.stringify(h.ctx.msChunks(3000))),[[0,1000],[1000,2000]],'3,000: 앞선 2천 단어가 두 발, 최근 천 단어(2000~2999)가 벽');
 }
 
 // 10) 틀렸던 단어 기록: 판이 끝나거나 중간에 나갈 때, 판마다 한 번씩 표제어로 센다(정규·틀린 것만·모아둔 카드 모두).
@@ -144,14 +152,14 @@ let progressAt2500=null;
   assert(h.ctx.msWallLayout(words.slice(0,1000),393,852,measure).fs>=7,'1,000단어는 8px 남짓');
 }
 
-// 12) 화면 문구: '외운'이 아니라 '익힌' 단어(영신).
+// 12) 화면 위 '익힌 단어' 머리말은 없다(26.10.08 영신: "아예 빼버립시다. 그게 더 깔끔"). 숫자가 맨 위, 금빛 안내는 남는다.
 {
   const h=harness(path.join(root,'vocagoyangebs2027.html'));h.ctx.msShow({m:1000,total:1003,retro:false,words:['a','b'],missed:['a']});
   const fx=h.doc.body.children.find(c=>c.id==='msFx'),inner=fx.children.find(c=>c.className==='ms-inner');
-  assert.equal(inner.children[0].innerHTML,'익힌 단어');assert.match(inner.children.find(c=>c.className==='ms-sub').innerHTML,/금빛 1개는 한 번 틀렸다가/);
+  assert.equal(inner.children[0].className,'ms-num','숫자가 맨 위');assert(!inner.children.some(c=>c.className==='ms-kicker'||c.innerHTML==='익힌 단어'),'머리말 없음');assert.match(inner.children.find(c=>c.className==='ms-sub').innerHTML,/금빛 1개는 한 번 틀렸다가/);
   h.ctx.msClose();
 }
 
 // 13) 세 HTML의 삽입 구간이 원본(runtime.js·style.css)과 같다.
 cp.execFileSync(process.execPath,[path.join(root,'pipeline/milestones/build.cjs'),'--check'],{stdio:'pipe'});
-console.log('PASS milestones: 세 교재 합집합(선택 화면 누적 수와 같음), 1,000 단위 한 번씩, 업데이트 전 학생은 가장 큰 문턱 한 번, 복습 판 제외, 엔딩·포효 순서, 미리 보기 저장 없음, 문턱마다 길고 화려하게, 틀린 단어 기록, 단어 벽 배치, 익힌 단어');
+console.log('PASS milestones: 세 교재 합집합(선택 화면 누적 수와 같음), 1,000 단위 한 번씩, 업데이트 전 학생은 가장 큰 문턱 한 번, 복습 판 제외, 엔딩·포효 순서, 미리 보기 저장 없음, 문턱마다 길고 화려하게(2,000부터 천 단어 폭죽), 틀린 단어 기록, 단어 벽 배치, 머리말 없음');
