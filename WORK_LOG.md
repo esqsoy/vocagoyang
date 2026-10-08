@@ -588,6 +588,18 @@
 - 검증(이번에 실행): exaudit 26장(1묶음 뒤 27), linecheck 390·360px 문장·화면 초과 0, deepcheck A1~A5 0, collide 새 카드 결함 없음, IPA·모아둔 카드 빌드, Codex 테스트 32/32(session 7,536회·628연습), 393px 화면에서 16세트 '지식 어휘 Ⅰ' 타일과 문제 화면(compass) 확인, 페이지 오류 0. 실기기 Safari는 확인하지 않았다.
 - 상태: 커밋·브랜치 푸시. **main 배포 전**(1·2묶음 함께 배포 대기). 다음은 3묶음(2장 고대 제국과 사상, 3장 중세와 교류).
 
+## 2026-10-08 · 지식 예문 3묶음: 고대 제국과 사상, 중세와 교류 26장
+
+- 요청(영신): 3묶음 초안에 "솔직히... 내가 원한거보다 더 훌륭해...tight!!!!!!"
+- 반영(로컬·브랜치, 미배포):
+  - 2장 19장: 그리스(trial·academy·Greek·philosopher), 로마(road·arch·empire·Roman·assassination), 중국(paper·wall·silk·Chinese·standardize), 세계 종교(religion·holy·Islam·Christianity·Buddhism).
+  - 3장 7장: 중세 유럽(king·medieval·peasant), 이슬람 학문(Islamic·algebra·trader), 바이킹(raid).
+  - 원본 19파일 60필드(예문·해석 26장씩, 해설 8장). 원장 `claude-review-20261008/knowledge-03.json`을 복원 체인 맨 위에 얹었다. 문장 목록 `knowledge-map/batch-03.json`.
+  - 2묶음 새 단어가 맡은 사실(volcano=폼페이, dynasty=진의 통일, compass, knight, plague)과 겹치지 않게 썼다. erupt·unify·western·trading·prophet·lord·castle은 바꾸지 않았다(이유는 batch-03.json의 kept).
+  - 고유명사 안의 빈칸은 피했다(Roman Empire의 empire, Great Wall의 wall). 화면은 문장 첫머리만 대문자로 바꿔 주기 때문이다.
+- 검증(이번에 실행): exaudit 26(변화 없음), linecheck 390·360px 문장·화면 초과 0, deepcheck A1~A5 0, collide 새 경쟁어 없음(holy↔sacred는 글자 수가 달라 결함 아님), IPA 빌드 검사, Codex 테스트 32/32.
+- 상태: 커밋·브랜치 푸시. **main 배포 전**(1~3묶음 함께 대기). 다음은 4묶음(4장 르네상스와 대항해, 5장 종교개혁·절대왕정·계몽).
+
 ## 다음 기록 형식
 
 
