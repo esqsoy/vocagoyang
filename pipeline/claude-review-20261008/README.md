@@ -52,7 +52,7 @@ Claude가 Codex 3주 작업(78커밋) 후의 최신판을 리뷰했다. 리뷰 �
   - interaction은 더 좋은 지식 예문(아기의 언어 습득)으로 바꿨다.
   - 거시·미시경제학은 정의의 범위를 바로잡았다([PRINCIPLES 2-5](../../PRINCIPLES.md#2-5-학문-용어는-짧아도-철저하게)).
 
-## 지식 예문(`knowledge-01.json`~`knowledge-10.json`)
+## 지식 예문(`knowledge-01.json`~`knowledge-11.json`)
 
 영신 구상(26.10.08): 5,000단어를 다 보고 나면 세계사·과학사의 틀이 남게 예문을 쓰자. 지식 지도를 먼저 짜고 단어를 거는 방식은 [PRINCIPLES 2-6](../../PRINCIPLES.md#2-6-지식-예문은-지도부터-막히는-어휘는-더한다), 지도는 [MAP.md](../knowledge-map/MAP.md)에 있다.
 
@@ -75,7 +75,10 @@ Claude가 Codex 3주 작업(78커밋) 후의 최신판을 리뷰했다. 리뷰 �
   - 10묶음 14장: 지도 밖 F 판정. international·scientific(포퍼)·nervous·invent·civilization·liberty(로크, 표제어 철자 en을 소문자로)·earthquake·capitalist·linguistics·inversion·locus·syntactic·industrialize·revolution(48).
   - **세계대전 쏠림 방지:** 영신이 앞서 세계대전 세부 날짜·전후 사건 쏠림을 지적했다. 그래서 전쟁 카드는 9장(last·eleventh·twentieth·invade·fifteenth·bomb·establish·treaty·Jew)으로 묶었다. 같은 1945년 종전을 담던 end는 1960년 '아프리카의 해'로 옮겼다. tank·precipitate·occupation·propaganda·tribunal은 두었다.
   - **만든 방법:** 지침(`../knowledge-map/BRIEF.md`)을 써서 하위 에이전트 6개가 장별로 초안을 썼다. Claude가 모든 카드를 다시 읽고 사실·축·중의성을 확인하고, 몇 장은 고쳐 썼다(예: French는 '당시 프랑스 식민지 아이티', season은 lean 대신 'the Earth leans as it goes around the Sun', 애덤 스미스 1776은 한 장에만). 묶음마다 exaudit·linecheck 390·360px·deepcheck·collide를 돌렸다. 묶음마다 원장을 만들었다.
-  - **표제어 밖이라 막힌 단어 9개**(policy·domestic·mammal·smallpox·magnet·spinal·invisible·crown·inspire)는 더하지 않았다. 표제어 안 단어로 먼저 썼고, 승인을 기다린다. 목록: `../knowledge-map/new-word-proposals-20261008.json`.
+  - **표제어 밖이라 막힌 단어 9개**는 표제어 안 단어로 먼저 썼고 제안으로 남겼다(`../knowledge-map/new-word-proposals-20261008.json`).
+- **11묶음(`knowledge-11`, 26.10.09):** 영신 "smallpox 빼고 다 넣자". 8개(crown·mammal·policy·domestic·inspire·magnet·invisible·spinal)를 지식 어휘 Ⅰ~Ⅳ에 더했다. 연습 하나가 15장을 넘지 않게 나눴다(Ⅰ crown, Ⅱ mammal, Ⅲ policy·domestic·inspire·magnet, Ⅳ invisible·spinal).
+  - 그 단어로 쓰려던 카드 8장을 바꿨다: honesty "Honesty is the best policy.", gross GDP, bat 유일하게 나는 포유류, induction 패러데이, nervous 중추 신경계, market 보이지 않는 손, emperor 나폴레옹 대관, American 영감.
+  - 새 단어 카드의 예문은 바꾼 카드와 다른 사실을 담는다(예: magnet은 지구 자기장, mammal은 고래, inspire는 간디와 킹 목사). FABLE 7,140카드·표제어 4,987, 세 교재 합집합 8,311(7개는 마더텅·EBS에 이미 있었다).
 
 ## 해설은 단어에 관한 것만(`word-notes.json`)
 

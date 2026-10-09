@@ -769,6 +769,16 @@
   - 실기기 Safari는 확인하지 않았다.
 - 상태: 커밋·브랜치 푸시. 배포는 영신 요청 뒤. 새 표제어 9개는 영신 결정을 기다린다.
 
+## 2026-10-09 · 새 표제어 8개(11묶음)와 지식 예문 읽기 페이지
+
+- 요청(영신): "smallpox 빼고 다 넣자 예문 다 여기서 읽어볼 수 있게 해줘"
+- 반영:
+  - crown·mammal·policy·domestic·inspire·magnet·invisible·spinal을 지식 어휘 Ⅰ~Ⅳ에 더했다(연습마다 15장 이하). 그 단어로 쓰려던 카드 8장을 바꿨다(honesty·gross·bat·induction·nervous·market·emperor·American). 원장 knowledge-11, 목록 `pipeline/knowledge-map/batch-11.json`. smallpox는 넣지 않았다.
+  - FABLE 7,140카드·표제어 4,987, 세 교재 합집합 8,311.
+  - 지식 예문 310장(1~11묶음, 고유명사·해설 정리 포함)을 장별로 읽는 페이지를 Artifact로 올렸다: https://claude.ai/artifact/282UqU6JaZRwSbf3688xeg (비공개, 영신 계정). 정답을 채운 예문, 해석, 해설, 바꾸기 전 예문을 보여 준다. 검색과 '이번 작업(5~11묶음)' 보기가 있다. 데이터는 현재 원본에서 묶음 기록을 따라 모았다.
+- 검증(이번에 실행): exaudit 25, linecheck 390·360px 초과 0, deepcheck A1~A5 0, collide 결함 0(market↔marketplace는 글자 수가 다름), Codex 테스트 33/33. 페이지는 393px 다크에서 가로 넘침 없이 184장이 보이는 것을 한 번 확인했다.
+- 상태: 커밋·브랜치 푸시. 5~11묶음은 미배포다. 배포는 영신 요청 뒤.
+
 ## 다음 기록 형식
 
 

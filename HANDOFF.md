@@ -10,9 +10,10 @@
   - 변경 원장은 `pipeline/claude-review-20261008/`에 있다. 내용을 고치면 같은 방식으로 원장을 남기고 복원 체인에 얹는다(그 폴더 README 참고).
   - 다음 일: 1·3세트 타일 줄바꿈이 남아 있다. 43 country 제안도 아직 미반영이다.
 
-- **2026-10-08 지식 예문 5~10묶음 — 미배포(브랜치 `claude/brave-clarke-rixqvy`에 푸시)**: 지도 6~14장과 지도 밖 F 14장, 174카드. 지식 지도의 노드는 모두 끝났다. 경위는 [WORK_LOG](WORK_LOG.md), 묶음별 내용은 [리뷰 README](pipeline/claude-review-20261008/README.md). 배포는 영신 요청 뒤.
-  - 원장 knowledge-05~10(복원 체인 맨 위는 knowledge-05). 검사: exaudit 25, linecheck 초과 0, deepcheck A1~A5 0, Codex 33/33.
-  - **영신 결정 대기:** 표제어 밖이라 막힌 단어 9개(policy·domestic·mammal·smallpox·magnet·spinal·invisible·crown·inspire). 승인하면 표제어로 더하고 해당 카드를 제안 문장으로 바꾼다. 목록 `pipeline/knowledge-map/new-word-proposals-20261008.json`.
+- **2026-10-08~09 지식 예문 5~11묶음 — 미배포(브랜치 `claude/brave-clarke-rixqvy`에 푸시)**: 지도 6~14장과 지도 밖 F 14장, 174카드. 지식 지도의 노드는 모두 끝났다. 경위는 [WORK_LOG](WORK_LOG.md), 묶음별 내용은 [리뷰 README](pipeline/claude-review-20261008/README.md). 배포는 영신 요청 뒤.
+  - 원장 knowledge-05~11(복원 체인 맨 위는 knowledge-11). 검사: exaudit 25, linecheck 초과 0, deepcheck A1~A5 0, Codex 33/33.
+  - 새 표제어 8개는 영신 결정(10/9 "smallpox 빼고 다 넣자")대로 더했다(11묶음, knowledge-11). FABLE 7,140카드·표제어 4,987, 세 교재 합집합 8,311.
+  - 지식 예문 310장 읽기 페이지(Artifact): https://claude.ai/artifact/282UqU6JaZRwSbf3688xeg
   - 다음 지식 예문 작업은 `pipeline/knowledge-map/BRIEF.md` 지침을 쓴다.
 
 - **2026-10-08 지식 4묶음·monarchy·해설 규칙·돌파 축하 폭죽 — main 배포(영신 "배포하고")**: 앱 a7299ad, Pages 37832018030 completed/success. 기록은 [DEPLOYMENT](DEPLOYMENT.md). 경위는 [WORK_LOG](WORK_LOG.md).
