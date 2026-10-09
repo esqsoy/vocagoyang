@@ -11,12 +11,12 @@
   - 다음 일: 1·3세트 타일 줄바꿈이 남아 있다. 43 country 제안도 아직 미반영이다.
 
 - **2026-10-08~09 지식 예문 5~12묶음 — main 배포(앱 adc9399, Pages 37935985157 성공, [DEPLOYMENT](DEPLOYMENT.md))**: 지도 6~14장과 지도 밖 F 14장, 174카드. 지식 지도의 노드는 모두 끝났다. 경위는 [WORK_LOG](WORK_LOG.md), 묶음별 내용은 [리뷰 README](pipeline/claude-review-20261008/README.md).
-  - 원장 knowledge-05~12(복원 체인 맨 위는 knowledge-12). 검사: exaudit 25, linecheck 초과 0, deepcheck A1~A5 0, Codex 33/33.
+  - 원장 knowledge-05~13(복원 체인 맨 위는 knowledge-13). 13묶음은 미배포. 검사: exaudit 25, linecheck 초과 0, deepcheck A1~A5 0, Codex 33/33.
   - 새 표제어 8개는 영신 결정(10/9 "smallpox 빼고 다 넣자")대로 더했다(11묶음, knowledge-11). FABLE 7,140카드·표제어 4,987, 세 교재 합집합 8,311.
   - 지식 예문 310장 읽기 페이지(Artifact): https://claude.ai/artifact/282UqU6JaZRwSbf3688xeg
   - 다음 지식 예문 작업은 `pipeline/knowledge-map/BRIEF.md` 지침을 쓴다.
   - 영신이 읽기 페이지로 계속 검토하며 개정 의견을 낸다. 1차(5장)는 12묶음으로 반영했다.
-  - **영신 답 대기(4번 논의):** 서구 중심 서술의 Chinese 통칭. Claude 제안: 특정 왕조·인물의 일이면 문장에 왕조를 밝히고(paper→후한 채륜 105년, compass→송나라 항해, wall→진의 연결과 명의 재건축), 언어·사람·문명 전체를 말할 때만 Chinese를 쓴다. 해당 카드: paper ①·compass·wall ①·Chinese ①.
+  - 4번 논의(Chinese 통칭)는 끝났다: paper·compass 유지, wall은 기원전 600년대 시작, Chinese ①은 한자 3천 년(13묶음, 미배포). 이유는 PRINCIPLES 2-6.
 
 - **2026-10-08 지식 4묶음·monarchy·해설 규칙·돌파 축하 폭죽 — main 배포(영신 "배포하고")**: 앱 a7299ad, Pages 37832018030 completed/success. 기록은 [DEPLOYMENT](DEPLOYMENT.md). 경위는 [WORK_LOG](WORK_LOG.md).
   - 다음(영신 "예문작업을 완성해버리자! 전부!"): 지식 지도 6~14장.

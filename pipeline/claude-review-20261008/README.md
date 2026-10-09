@@ -52,7 +52,7 @@ Claude가 Codex 3주 작업(78커밋) 후의 최신판을 리뷰했다. 리뷰 �
   - interaction은 더 좋은 지식 예문(아기의 언어 습득)으로 바꿨다.
   - 거시·미시경제학은 정의의 범위를 바로잡았다([PRINCIPLES 2-5](../../PRINCIPLES.md#2-5-학문-용어는-짧아도-철저하게)).
 
-## 지식 예문(`knowledge-01.json`~`knowledge-12.json`)
+## 지식 예문(`knowledge-01.json`~`knowledge-13.json`)
 
 영신 구상(26.10.08): 5,000단어를 다 보고 나면 세계사·과학사의 틀이 남게 예문을 쓰자. 지식 지도를 먼저 짜고 단어를 거는 방식은 [PRINCIPLES 2-6](../../PRINCIPLES.md#2-6-지식-예문은-지도부터-막히는-어휘는-더한다), 지도는 [MAP.md](../knowledge-map/MAP.md)에 있다.
 
@@ -81,6 +81,8 @@ Claude가 Codex 3주 작업(78커밋) 후의 최신판을 리뷰했다. 리뷰 �
   - 새 단어 카드의 예문은 바꾼 카드와 다른 사실을 담는다(예: magnet은 지구 자기장, mammal은 고래, inspire는 간디와 킹 목사). FABLE 7,140카드·표제어 4,987, 세 교재 합집합 8,311(7개는 마더텅·EBS에 이미 있었다).
 
 - **12묶음(`knowledge-12`, 26.10.09 영신 검토 1차):** corn(예문은 멕시코 옥수수의 전파, 해설은 Indian corn→corn), academy(해설은 사관학교만), silk(비단이 무엇인지), plantation(수출용 단일 작물·노예 노동을 예문으로, 해설은 '식민지의 농장화'), communism(무엇인지 간결하게). 이유는 [PRINCIPLES 2-5](../../PRINCIPLES.md#2-5-학문-용어는-짧아도-철저하게).
+
+- **13묶음(`knowledge-13`, 26.10.09 영신 검토 4번):** 서구 중심의 Chinese 통칭 논의 끝에 paper·compass는 유지(문명권으로서의 중국), wall은 쌓기 시작한 시점(기원전 600년대), Chinese ①은 한자 3천 년으로 바꿨다. 이유는 [PRINCIPLES 2-6](../../PRINCIPLES.md#2-6-지식-예문은-지도부터-막히는-어휘는-더한다).
 
 ## 해설은 단어에 관한 것만(`word-notes.json`)
 

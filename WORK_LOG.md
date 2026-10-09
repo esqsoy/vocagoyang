@@ -787,6 +787,13 @@
 - 검증(이번에 실행): exaudit 25, linecheck 390·360px 초과 0, deepcheck A1~A5 0, collide 결함 0, Codex 테스트 33/33.
 - 배포: 앱 adc9399를 main에 fast-forward, Pages 37935985157 성공, main의 네 HTML blob이 로컬과 같다. [DEPLOYMENT](DEPLOYMENT.md). 읽기 페이지도 12묶음까지 반영해 다시 올렸다.
 
+## 2026-10-09 · Chinese 통칭 논의 결과(13묶음)
+
+- 영신: "paper은 기존 유지(문명권으로서의 중국으로 보고, 누가 발명했는지는 중요하지 않아. 마치 파피루스하면 이집트이듯) 나침반도 유지. 만리장성도 유지인데 쌓기 시작한 시점이 더 좋은 정보같아. chinese 바뀐 예문은 좋은거같음"
+- 반영: wall ① "China began building a long wall in the 600s BC to keep out enemies.", Chinese ① "Chinese characters have been written for more than 3,000 years." 원장 knowledge-13. 논의와 결정을 PRINCIPLES 2-6에 남겼다.
+- 검증(이번에 실행): exaudit 25, linecheck 390·360px 초과 0, deepcheck A1~A5 0, collide 결함 0, Codex 테스트(아래 커밋 직후).
+- 상태: 커밋·브랜치 푸시. 배포는 영신 요청 뒤.
+
 ## 다음 기록 형식
 
 

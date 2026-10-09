@@ -1,0 +1,140 @@
+{
+ "date": "2026-10-08",
+ "name": "knowledge-13",
+ "status": "applied_locally_verified",
+ "authorization": "영신(2026-10-09): \"paper은 기존 유지 … 나침반도 유지. 만리장성도 유지인데 쌓기 시작한 시점이 더 좋은 정보같아. chinese 바뀐 예문은 좋은거같음\"",
+ "summary": "영신 검토 4번 논의 결과 2장: wall(기원전 600년대에 쌓기 시작), Chinese ①(한자 3천 년). paper·compass는 유지. 목록 pipeline/knowledge-map/batch-13.json.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "4a0039d6670b1d11031550e58825dfe4a791fe0ab4c0e097d98773cbef44b55a",
+   "afterHash": "4034dbb94cc3ecc2d4228fc10dbc8d9bc60f7504985de5f72847310d7fca941a",
+   "changes": [
+    {
+     "path": [
+      7,
+      "exercises",
+      1,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Over many centuries, China built a long {{BLANK}} to keep out enemies.",
+     "new": "China began building a long {{BLANK}} in the 600s BC to keep out enemies."
+    },
+    {
+     "path": [
+      7,
+      "exercises",
+      1,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "중국은 수백 년에 걸쳐 적을 막으려고 긴 성벽을 쌓았어.",
+     "new": "중국은 적을 막으려고 기원전 600년대부터 긴 성벽을 쌓기 시작했어."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      0,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Paper, the compass, and printing were all {{BLANK}} inventions.",
+     "new": "{{BLANK}} characters have been written for more than 3,000 years."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      0,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "종이, 나침반, 인쇄술은 모두 중국의 발명품이야.",
+     "new": "한자는 3천 년 넘게 쓰여 왔어."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/set07.json": {
+   "beforeHash": "fbf02b214e0d6b6a629c86d484546a6b6e522b3aa0045ac989e71eefd03c0d35",
+   "afterHash": "cd58f1bae374f20162f47f6b226502baf5f675b371dc393eb6157fb0c9e98e79"
+  },
+  "pipeline/out/set24.json": {
+   "beforeHash": "ce6e91501e4798eb47888069429017a7e91216e772b0eb75eaef946bfdcea13b",
+   "afterHash": "e08fc660936b212431f0913d20cc1b9fd779edea02e8bb7b34be3f01993bdce4"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/set07.json": [
+   {
+    "path": [
+     1,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Over many centuries, China built a long {{BLANK}} to keep out enemies.",
+    "new": "China began building a long {{BLANK}} in the 600s BC to keep out enemies."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "중국은 수백 년에 걸쳐 적을 막으려고 긴 성벽을 쌓았어.",
+    "new": "중국은 적을 막으려고 기원전 600년대부터 긴 성벽을 쌓기 시작했어."
+   }
+  ],
+  "pipeline/out/set24.json": [
+   {
+    "path": [
+     0,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Paper, the compass, and printing were all {{BLANK}} inventions.",
+    "new": "{{BLANK}} characters have been written for more than 3,000 years."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "종이, 나침반, 인쇄술은 모두 중국의 발명품이야.",
+    "new": "한자는 3천 년 넘게 쓰여 왔어."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/set07.json": [],
+  "pipeline/out/set24.json": []
+ }
+}
