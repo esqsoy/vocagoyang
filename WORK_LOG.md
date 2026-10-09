@@ -779,6 +779,14 @@
 - 검증(이번에 실행): exaudit 25, linecheck 390·360px 초과 0, deepcheck A1~A5 0, collide 결함 0(market↔marketplace는 글자 수가 다름), Codex 테스트 33/33. 페이지는 393px 다크에서 가로 넘침 없이 184장이 보이는 것을 한 번 확인했다.
 - 상태: 커밋·브랜치 푸시. 5~11묶음은 미배포다. 배포는 영신 요청 뒤.
 
+## 2026-10-09 · 영신 검토 1차(12묶음)와 5~12묶음 배포
+
+- 요청(영신, 읽기 페이지를 보고): corn은 Indian corn이 corn이 된 내력을 알게, academy 해설은 사관학교만(학원 구별은 사족), silk는 비단이 무엇인지, plantation은 해설 내용을 예문화하고 해설은 '식민지의 농장화'를 짧고 굵게, communism은 무엇인지 간결하게. "먼저 배포해놓고 계속 검토후 개정의견낼게"
+- 반영: 5장(원장 knowledge-12, 목록 `pipeline/knowledge-map/batch-12.json`). 이유를 PRINCIPLES 2-5(사물·제도를 모를 수 있다고 전제)와 4(사족)에 남겼다.
+- 논의(영신 4번): 서구 중심 서술에서 Chinese가 왕조를 가리지 않고 통칭으로 쓰이는 문제. Claude 의견과 카드 제안은 대화로 냈고 영신 답을 기다린다(HANDOFF).
+- 검증(이번에 실행): exaudit 25, linecheck 390·360px 초과 0, deepcheck A1~A5 0, collide 결함 0, Codex 테스트 33/33.
+- 배포: 앱 adc9399를 main에 fast-forward, Pages 37935985157 성공, main의 네 HTML blob이 로컬과 같다. [DEPLOYMENT](DEPLOYMENT.md). 읽기 페이지도 12묶음까지 반영해 다시 올렸다.
+
 ## 다음 기록 형식
 
 

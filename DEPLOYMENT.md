@@ -1,3 +1,15 @@
+# 지식 예문 5~12묶음·새 표제어 8개 배포 · 2026-10-09
+
+- 앱 커밋 [adc9399](https://github.com/esqsoy/vocagoyang/commit/adc9399)를 origin/main에 fast-forward로 푸시했다(a7299ad 다음). [Pages 37935985157](https://github.com/esqsoy/vocagoyang/actions/runs/37935985157): completed/success. 영신: "먼저 배포해놓고 계속 검토후 개정의견낼게"
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다. github.io는 이 세션에서 접속이 막혀 공개 페이지는 직접 열어 보지 못했다.
+- 포함(FABLE DATA와 인덱스 수치. 마더텅·EBS 화면은 그대로):
+  - 지식 예문 5~10묶음 174장(지도 6~14장과 지도 밖 F 판정 14장), 11묶음(새 표제어 8개와 그 단어를 쓰는 카드 8장), 12묶음(영신 검토 1차 5장: corn·academy·silk·plantation·communism).
+  - FABLE 7,140카드·표제어 4,987, 세 교재 합집합 8,311. 새 카드는 지식 어휘 Ⅰ~Ⅳ 연습에 붙어 기존 진도 키를 쓴다.
+  - 원장 knowledge-05~12. 문서: PRINCIPLES 2-5·2-6·4, 리뷰 README, `pipeline/knowledge-map/BRIEF.md`.
+- 배포 전 검사(이번에 실행): Codex 검사 33/33, exaudit 25, linecheck 390·360px 문장·화면 초과 0, deepcheck A1~A5 0, collide 새 결함 없음. 실기기 Safari는 확인하지 않았다.
+
+---
+
 # 지식 4묶음·monarchy·해설 규칙·돌파 축하 폭죽 배포 · 2026-10-08
 
 - 앱 커밋 [a7299ad](https://github.com/esqsoy/vocagoyang/commit/a7299ad)를 origin/main에 fast-forward로 푸시했다(430928f 다음 6커밋). [Pages 37832018030](https://github.com/esqsoy/vocagoyang/actions/runs/37832018030): completed/success. 영신: "시원하다! 완벽합니다! 배포하고"

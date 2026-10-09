@@ -100,6 +100,11 @@
 - 정의를 다 담지 못하면 해설(c)이 보완하되, 예문이 틀린 정의를 말하게 두지 않는다. 같은 날 학문 이름 카드의 예문 약 20장을 다시 읽었다(psychology, sociology, anthropology, geography 등). 틀린 정의는 없었다.
 - **정의는 예문만으로 완결한다.** (26.10.08 영신: "예문만으로 정의가 완결되게 갑시다.") anthropology와 geography는 예문이 한쪽 면만 말하고 해설이 나머지를 채우고 있었다. 지금은 "Anthropology studies humans as a whole, from bodies to cultures.", "Geography studies land, climate, people, and how they interact."이다. 47·48세트 예문은 Codex 형태론 검사(10단어 이내)도 함께 지킨다.
 
+- **그 단어가 가리키는 사물·제도를 학생이 모를 수 있다고 전제한다.** (26.10.09 영신: "요즘 학생들이 비단이 뭔지 모르는 경우가 많더라구", "플랜테이션이 뭔지 모르는 사람이 보면 그냥 큰 농장으로 읽을껄?", communism은 "그냥 중국이 공산화되었다는 이야기를 어렵게 한 쪽에 가까워")
+  - 왜: 역사 맥락만 주면 단어가 무엇인지는 비어 있다. silk는 '중국에서 로마로 간 무언가', plantation은 '큰 농장', communism은 '1949년 중국'으로만 남는다. 지식 예문도 먼저 그 단어가 무엇인지 알게 해야 한다.
+  - 사례(26.10.09): silk "Silk is a soft, shiny cloth made from threads that certain worms spin." plantation은 수출용 단일 작물·노예 노동을 예문으로 옮기고("A plantation grew one crop, like sugar, with slave labor, for sale in Europe."), 해설은 '식민지를 통째로 수출용 단일 작물 농장으로 바꾼 체제'로 썼다. communism "In communism, people would give what they can and get what they need."
+  - 이름의 내력이 그 지식이면 예문과 해설이 나눠 맡는다. corn은 예문이 멕시코 옥수수의 전파(1492년 뒤)를, 해설이 '곡물 전체를 뜻하던 corn → Indian corn → 미국의 corn'을 맡는다(영신 제안).
+
 ### 2-6. 지식 예문은 지도부터, 막히는 어휘는 더한다
 
 - **카드마다 고르지 않고 지식 지도(노드)를 먼저 짠 뒤 단어를 건다.** (26.10.08 Claude 제안, 영신 "완벽히 찬성")
@@ -152,6 +157,7 @@
   - ③ 구성 요소의 뜻이 그 표제어의 뜻과 다르면 살린다. (blog의 log = 기록)
 - 해설을 걷을 때는 그 해설이 다른 일, 예컨대 중의성 대비를 겸하고 있지 않은지 확인한다. 사례: marketplace 해설의 "market과의 대비".
 - 세트별 차등은 두지 않는다. Fable은 초보가 초·중 어휘를 한 번에 해결하는 용도다. (영신)
+- 사족은 뺀다. 26.10.09 영신: academy 해설의 '한국의 보습학원과 꼭 같지 않다'는 사족이고, 어원(플라톤의 학교)은 예문이 밝히므로 해설에서 뺐다. 남긴 것은 military academy(사관학교)뿐이다.
 - **해설은 단어에 관한 것만 둔다. 꼭 필요한 지식은 예문으로 옮긴다.** (26.10.08 영신: "이게 영단어장이니까 가급적이면 단어와 관련된 것만 해설로 하자. 마젤란 죽은건 안넣어도 될듯. 만약 필수적인 정보라면 예문화하는게 맞다고 봄")
   - 왜: 지식 예문(2-4~2-6)을 쓰다 보면 남은 사실을 해설에 덧붙이고 싶어진다. 그러면 해설이 역사·과학 보충 설명이 되어 위 기준("없으면 무엇을 못 하나")을 벗어나고, 읽을 시간(5)도 단어가 아닌 사실에 쓰인다. 지식은 빈칸 단어와 함께 예문에 있어야 단어를 떠올리는 고리가 된다(2-4).
   - 남는 것: 어원(March←Mars, volcano←Vulcan), 파생어·연어(observatory, carbon footprint), 다른 뜻·비유(gravity '심각성', inertia '타성'), 단어 사이 구별(ape/monkey), 단어가 든 고유명사(the Great Wall of China, 2-7).
