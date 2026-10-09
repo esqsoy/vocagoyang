@@ -804,6 +804,11 @@
 - 검증(이번에 실행): exaudit 25, linecheck 390·360px 초과 0, deepcheck A1~A5 0, collide 새 후보 없음, Codex 테스트 33/33.
 - 상태: 커밋·브랜치 푸시. 13·14묶음은 미배포.
 
+## 2026-10-09 · 13·14묶음 배포
+
+- 요청(영신): "일단 배포하자 그리고 사실 내가 볼 때는 oxford 정의가 최고인데 브리태니커가 한문장이라 고른거임" → 선택 이유를 PRINCIPLES 2-5에 보완했다.
+- 배포: b46b84a를 main에 fast-forward, Pages 38005718422 성공, main의 네 HTML blob이 로컬과 같다. [DEPLOYMENT](DEPLOYMENT.md)
+
 ## 다음 기록 형식
 
 
