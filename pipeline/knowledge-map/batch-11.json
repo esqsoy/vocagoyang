@@ -1,0 +1,195 @@
+{
+ "batch": 11,
+ "date": "2026-10-09",
+ "status": "applied",
+ "note": "영신(10/9) \"smallpox 빼고 다 넣자\": 5~10묶음에서 표제어 밖이라 막힌 단어 8개(crown·mammal·policy·domestic·inspire·magnet·invisible·spinal)를 지식 어휘 Ⅰ~Ⅳ에 더하고, 그 단어로 쓰려던 카드 8장을 바꿨다. 새 단어 카드의 예문은 바꾼 카드와 다른 사실을 담는다.",
+ "new_headwords": [
+  {
+   "file": "set16.json",
+   "group": "지식 어휘 Ⅰ",
+   "card": {
+    "en": "crown",
+    "ko": "① 왕관",
+    "ex": "On Christmas Day in 800, the Pope placed a {{BLANK}} on Charlemagne's head.",
+    "tr": "800년 크리스마스에 교황은 샤를마뉴의 머리에 왕관을 씌웠어.",
+    "c": "동사로 '왕관을 씌우다'도 된다: crown a king. 치아에 씌우는 크라운도 crown.",
+    "ipa": "kraʊn",
+    "pos": "n.",
+    "word": "crown",
+    "si": 1,
+    "sn": 1
+   }
+  },
+  {
+   "file": "set26.json",
+   "group": "지식 어휘 Ⅱ",
+   "card": {
+    "en": "mammal",
+    "ko": "① 포유류, 포유동물",
+    "ex": "Whales are {{BLANK}}s, not fish: they breathe air and feed their babies milk.",
+    "tr": "고래는 물고기가 아니라 포유류야. 공기로 숨 쉬고 새끼에게 젖을 먹이거든.",
+    "c": "새끼를 젖으로 기르는 동물. 라틴어 mamma(젖)에서.",
+    "ipa": "ˈmæməl",
+    "pos": "n.",
+    "word": "mammal",
+    "si": 1,
+    "sn": 1
+   }
+  },
+  {
+   "file": "set34.json",
+   "group": "지식 어휘 Ⅲ",
+   "card": {
+    "en": "policy",
+    "ko": "① 정책, 방침",
+    "ex": "A country's foreign {{BLANK}} shapes how it deals with other countries.",
+    "tr": "한 나라의 외교 정책은 그 나라가 다른 나라를 대하는 방식을 정해.",
+    "c": "politics(정치)와 뿌리가 같다. economic policy는 경제 정책. 보험 증서도 policy.",
+    "ipa": "ˈpɑləsi",
+    "pos": "n.",
+    "word": "policy",
+    "si": 1,
+    "sn": 1
+   }
+  },
+  {
+   "file": "set34.json",
+   "group": "지식 어휘 Ⅲ",
+   "card": {
+    "en": "domestic",
+    "ko": "① 국내의, 나라 안의",
+    "ex": "A {{BLANK}} flight takes off and lands in the same country.",
+    "tr": "국내선 비행기는 같은 나라 안에서 뜨고 내려.",
+    "c": "라틴어 domus(집)에서. 집안의(domestic work), 길들인(domestic animals)도 된다.",
+    "ipa": "dəˈmɛstɪk",
+    "pos": "adj.",
+    "word": "domestic",
+    "si": 1,
+    "sn": 1
+   }
+  },
+  {
+   "file": "set34.json",
+   "group": "지식 어휘 Ⅲ",
+   "card": {
+    "en": "inspire",
+    "ko": "① 영감을 주다, 고무하다",
+    "ex": "Martin Luther King Jr. was {{BLANK}}d by Gandhi's peaceful methods.",
+    "tr": "마틴 루서 킹 주니어는 간디의 비폭력 방식에서 영감을 받았어.",
+    "c": "명사는 inspiration(영감). be inspired by는 '~에서 영감을 받다'.",
+    "ipa": "ɪnˈspaɪɚ",
+    "pos": "v.",
+    "word": "inspire",
+    "si": 1,
+    "sn": 1
+   }
+  },
+  {
+   "file": "set34.json",
+   "group": "지식 어휘 Ⅲ",
+   "card": {
+    "en": "magnet",
+    "ko": "① 자석",
+    "ex": "The Earth itself acts like a giant {{BLANK}}, so a compass points north.",
+    "tr": "지구 자체가 거대한 자석처럼 작용해서 나침반이 북쪽을 가리켜.",
+    "c": "형용사는 magnetic(자석의). 사람을 끌어모으는 곳·것도 magnet이라 한다.",
+    "ipa": "ˈmæɡnət",
+    "pos": "n.",
+    "word": "magnet",
+    "si": 1,
+    "sn": 1
+   }
+  },
+  {
+   "file": "set42.json",
+   "group": "지식 어휘 Ⅳ",
+   "card": {
+    "en": "invisible",
+    "ko": "① 눈에 보이지 않는",
+    "ex": "Air is {{BLANK}}, but it still has weight and pushes on everything.",
+    "tr": "공기는 눈에 보이지 않지만 무게가 있어서 모든 것을 누르고 있어.",
+    "c": "in-(아닌)+visible(보이는). 애덤 스미스의 '보이지 않는 손'은 the invisible hand.",
+    "ipa": "ɪnˈvɪzəbəl",
+    "pos": "adj.",
+    "word": "invisible",
+    "si": 1,
+    "sn": 1
+   }
+  },
+  {
+   "file": "set42.json",
+   "group": "지식 어휘 Ⅳ",
+   "card": {
+    "en": "spinal",
+    "ko": "① 척추의, 척수의",
+    "ex": "The bones in your back protect the {{BLANK}} cord inside them.",
+    "tr": "등뼈는 그 안의 척수를 보호해.",
+    "c": "spine(척추)의 형용사. spinal cord는 척수.",
+    "ipa": "ˈspaɪnəl",
+    "pos": "adj.",
+    "word": "spinal",
+    "si": 1,
+    "sn": 1
+   }
+  }
+ ],
+ "cards": [
+  {
+   "node": "새 표제어 사용",
+   "word": "honesty",
+   "old_ex": "{{BLANK}} is the best way to keep friends.",
+   "ex": "{{BLANK}} is the best policy.",
+   "tr": "정직이 최선의 방책이야."
+  },
+  {
+   "node": "새 표제어 사용",
+   "word": "gross",
+   "old_ex": "His {{BLANK}} pay is higher than mine.",
+   "ex": "GDP, or {{BLANK}} domestic product, is the value of all a country makes in a year.",
+   "tr": "GDP, 곧 국내총생산은 한 나라가 한 해에 만드는 모든 것의 가치야.",
+   "c": "세금·비용을 빼기 전의 총액(gross pay). 반대말은 net(순-). GDP의 G."
+  },
+  {
+   "node": "새 표제어 사용",
+   "word": "bat",
+   "old_ex": "Many {{BLANK}}s find their way in the dark by listening to echoes.",
+   "ex": "{{BLANK}}s are the only mammals that can truly fly.",
+   "tr": "박쥐는 진짜로 날 수 있는 유일한 포유류야."
+  },
+  {
+   "node": "새 표제어 사용",
+   "word": "induction",
+   "old_ex": "Faraday's discovery of {{BLANK}} in 1831 led to electric power plants.",
+   "ex": "In 1831, Faraday found {{BLANK}}: moving magnets make electricity.",
+   "tr": "1831년 패러데이는 전자기 유도를 발견했어. 움직이는 자석이 전기를 만들어 내는 거야."
+  },
+  {
+   "node": "새 표제어 사용",
+   "word": "nervous",
+   "old_ex": "The brain is the control center of the {{BLANK}} system.",
+   "ex": "The brain and the spinal cord form the central {{BLANK}} system.",
+   "tr": "뇌와 척수가 중추 신경계를 이뤄."
+  },
+  {
+   "node": "새 표제어 사용",
+   "word": "market",
+   "old_ex": "In 1776, Adam Smith said that in a free {{BLANK}}, self-interest can benefit all.",
+   "ex": "In 1776, Adam Smith said an 'invisible hand' guides a free {{BLANK}}.",
+   "tr": "1776년 애덤 스미스는 '보이지 않는 손'이 자유 시장을 이끈다고 했어."
+  },
+  {
+   "node": "새 표제어 사용",
+   "word": "emperor",
+   "old_ex": "In 1804, Napoleon made himself {{BLANK}} of the French.",
+   "ex": "In 1804, Napoleon crowned himself {{BLANK}} of the French.",
+   "tr": "1804년 나폴레옹은 스스로 왕관을 쓰고 프랑스인의 황제가 되었어."
+  },
+  {
+   "node": "새 표제어 사용",
+   "word": "American",
+   "old_ex": "The {{BLANK}} Revolution, which began in 1775, influenced the French one.",
+   "ex": "The {{BLANK}} Revolution, which began in 1775, inspired the French one.",
+   "tr": "1775년에 시작된 미국 혁명은 프랑스 혁명에 영감을 주었어."
+  }
+ ]
+}

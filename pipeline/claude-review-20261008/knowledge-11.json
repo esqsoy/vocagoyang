@@ -1,0 +1,902 @@
+{
+ "date": "2026-10-08",
+ "name": "knowledge-11",
+ "status": "applied_locally_verified",
+ "authorization": "영신(2026-10-08~09): \"이제 예문작업을 완성해버리자! 전부!\" · \"smallpox 빼고 다 넣자\"",
+ "summary": "새 표제어 8개(crown·mammal·policy·domestic·inspire·magnet·invisible·spinal)를 지식 어휘 Ⅰ~Ⅳ에 더하고, 그 단어로 쓰려던 카드 8장(honesty 'Honesty is the best policy.', gross GDP, bat 유일하게 나는 포유류, induction 패러데이, nervous 중추 신경계, market 보이지 않는 손, emperor 나폴레옹 대관, American 영감)을 바꿨다. smallpox는 영신 결정으로 뺐다. FABLE 7,140카드·표제어 4,987, 세 교재 합집합 8,311. 목록 pipeline/knowledge-map/batch-11.json.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "9ca1c33f9de6fb3d6416e46a06bf760541fee58a1a3b9c9d201986334038040d",
+   "afterHash": "0a2887a2efe3478b38d4e49f5382b786dfadf9ae858fc62eebcebfded64b5442",
+   "changes": [
+    {
+     "path": [
+      3,
+      "exercises",
+      7,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In 1776, Adam Smith said that in a free {{BLANK}}, self-interest can benefit all.",
+     "new": "In 1776, Adam Smith said an 'invisible hand' guides a free {{BLANK}}."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      7,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1776년 애덤 스미스는 자유 시장에서는 저마다의 이익 추구가 모두에게 이로울 수 있다고 했어.",
+     "new": "1776년 애덤 스미스는 '보이지 않는 손'이 자유 시장을 이끈다고 했어."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      6,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The brain is the control center of the {{BLANK}} system.",
+     "new": "The brain and the spinal cord form the central {{BLANK}} system."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      6,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "뇌는 신경계를 지휘하는 중심이야.",
+     "new": "뇌와 척수가 중추 신경계를 이뤄."
+    },
+    {
+     "path": [
+      16,
+      "exercises",
+      10,
+      "words",
+      14
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": {
+      "en": "crown",
+      "ko": "① 왕관",
+      "ex": "On Christmas Day in 800, the Pope placed a {{BLANK}} on Charlemagne's head.",
+      "tr": "800년 크리스마스에 교황은 샤를마뉴의 머리에 왕관을 씌웠어.",
+      "c": "동사로 '왕관을 씌우다'도 된다: crown a king. 치아에 씌우는 크라운도 crown.",
+      "ipa": "kraʊn",
+      "pos": "n.",
+      "word": "crown",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      21,
+      "exercises",
+      8,
+      "words",
+      9,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "{{BLANK}} is the best way to keep friends.",
+     "new": "{{BLANK}} is the best policy."
+    },
+    {
+     "path": [
+      21,
+      "exercises",
+      8,
+      "words",
+      9,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "정직이 친구를 지키는 최고의 방법이야.",
+     "new": "정직이 최선의 방책이야."
+    },
+    {
+     "path": [
+      23,
+      "exercises",
+      0,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} Revolution, which began in 1775, influenced the French one.",
+     "new": "The {{BLANK}} Revolution, which began in 1775, inspired the French one."
+    },
+    {
+     "path": [
+      23,
+      "exercises",
+      0,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1775년에 시작된 미국 혁명은 프랑스 혁명에 영향을 주었어.",
+     "new": "1775년에 시작된 미국 혁명은 프랑스 혁명에 영감을 주었어."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      10,
+      "words",
+      14
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": {
+      "en": "mammal",
+      "ko": "① 포유류, 포유동물",
+      "ex": "Whales are {{BLANK}}s, not fish: they breathe air and feed their babies milk.",
+      "tr": "고래는 물고기가 아니라 포유류야. 공기로 숨 쉬고 새끼에게 젖을 먹이거든.",
+      "c": "새끼를 젖으로 기르는 동물. 라틴어 mamma(젖)에서.",
+      "ipa": "ˈmæməl",
+      "pos": "n.",
+      "word": "mammal",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      30,
+      "exercises",
+      3,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Many {{BLANK}}s find their way in the dark by listening to echoes.",
+     "new": "{{BLANK}}s are the only mammals that can truly fly."
+    },
+    {
+     "path": [
+      30,
+      "exercises",
+      3,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "많은 박쥐는 메아리를 들으며 어둠 속에서 길을 찾아.",
+     "new": "박쥐는 진짜로 날 수 있는 유일한 포유류야."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      4,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "His {{BLANK}} pay is higher than mine.",
+     "new": "GDP, or {{BLANK}} domestic product, is the value of all a country makes in a year."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      4,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "걔 세전 월급이 내 것보다 많아.",
+     "new": "GDP, 곧 국내총생산은 한 나라가 한 해에 만드는 모든 것의 가치야."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      4,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "세금·비용을 빼기 전의 총액. 반대말은 net(순-)이다.",
+     "new": "세금·비용을 빼기 전의 총액(gross pay). 반대말은 net(순-). GDP의 G."
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      10,
+      "words",
+      11
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": {
+      "en": "policy",
+      "ko": "① 정책, 방침",
+      "ex": "A country's foreign {{BLANK}} shapes how it deals with other countries.",
+      "tr": "한 나라의 외교 정책은 그 나라가 다른 나라를 대하는 방식을 정해.",
+      "c": "politics(정치)와 뿌리가 같다. economic policy는 경제 정책. 보험 증서도 policy.",
+      "ipa": "ˈpɑləsi",
+      "pos": "n.",
+      "word": "policy",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      10,
+      "words",
+      12
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": {
+      "en": "domestic",
+      "ko": "① 국내의, 나라 안의",
+      "ex": "A {{BLANK}} flight takes off and lands in the same country.",
+      "tr": "국내선 비행기는 같은 나라 안에서 뜨고 내려.",
+      "c": "라틴어 domus(집)에서. 집안의(domestic work), 길들인(domestic animals)도 된다.",
+      "ipa": "dəˈmɛstɪk",
+      "pos": "adj.",
+      "word": "domestic",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      10,
+      "words",
+      13
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": {
+      "en": "inspire",
+      "ko": "① 영감을 주다, 고무하다",
+      "ex": "Martin Luther King Jr. was {{BLANK}}d by Gandhi's peaceful methods.",
+      "tr": "마틴 루서 킹 주니어는 간디의 비폭력 방식에서 영감을 받았어.",
+      "c": "명사는 inspiration(영감). be inspired by는 '~에서 영감을 받다'.",
+      "ipa": "ɪnˈspaɪɚ",
+      "pos": "v.",
+      "word": "inspire",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      10,
+      "words",
+      14
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": {
+      "en": "magnet",
+      "ko": "① 자석",
+      "ex": "The Earth itself acts like a giant {{BLANK}}, so a compass points north.",
+      "tr": "지구 자체가 거대한 자석처럼 작용해서 나침반이 북쪽을 가리켜.",
+      "c": "형용사는 magnetic(자석의). 사람을 끌어모으는 곳·것도 magnet이라 한다.",
+      "ipa": "ˈmæɡnət",
+      "pos": "n.",
+      "word": "magnet",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      35,
+      "exercises",
+      0,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In 1804, Napoleon made himself {{BLANK}} of the French.",
+     "new": "In 1804, Napoleon crowned himself {{BLANK}} of the French."
+    },
+    {
+     "path": [
+      35,
+      "exercises",
+      0,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1804년 나폴레옹은 스스로 프랑스인의 황제가 되었어.",
+     "new": "1804년 나폴레옹은 스스로 왕관을 쓰고 프랑스인의 황제가 되었어."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      4,
+      "words",
+      1,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Faraday's discovery of {{BLANK}} in 1831 led to electric power plants.",
+     "new": "In 1831, Faraday found {{BLANK}}: moving magnets make electricity."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      4,
+      "words",
+      1,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1831년 패러데이의 전자기 유도 발견은 발전소로 이어졌어.",
+     "new": "1831년 패러데이는 전자기 유도를 발견했어. 움직이는 자석이 전기를 만들어 내는 거야."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      12
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": {
+      "en": "invisible",
+      "ko": "① 눈에 보이지 않는",
+      "ex": "Air is {{BLANK}}, but it still has weight and pushes on everything.",
+      "tr": "공기는 눈에 보이지 않지만 무게가 있어서 모든 것을 누르고 있어.",
+      "c": "in-(아닌)+visible(보이는). 애덤 스미스의 '보이지 않는 손'은 the invisible hand.",
+      "ipa": "ɪnˈvɪzəbəl",
+      "pos": "adj.",
+      "word": "invisible",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      13
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": {
+      "en": "spinal",
+      "ko": "① 척추의, 척수의",
+      "ex": "The bones in your back protect the {{BLANK}} cord inside them.",
+      "tr": "등뼈는 그 안의 척수를 보호해.",
+      "c": "spine(척추)의 형용사. spinal cord는 척수.",
+      "ipa": "ˈspaɪnəl",
+      "pos": "adj.",
+      "word": "spinal",
+      "si": 1,
+      "sn": 1
+     }
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson03.json": {
+   "beforeHash": "929a3514e15b7d4de9f2aaad6d98ff5f84a0110c0aaebf8b929f9257ac0ad261",
+   "afterHash": "51dd966684374d0fa585be6c3cee1b3d1cb71bc16b6197141ad780c50763b409"
+  },
+  "pipeline/out/set14.json": {
+   "beforeHash": "67c19dfbc5b5df6a041eb6534a9d7870ea73247115f33e9a22845d6597f7a238",
+   "afterHash": "b47d64b35adb820311713dd464e6f8fb71b623175fba8e874de4bf6b9ae510df"
+  },
+  "pipeline/out/set16.json": {
+   "beforeHash": "7bb069540546c162979ec5dcee082b4ad5a482a38e265b924d5c23fcb8429613",
+   "afterHash": "3de99ae651062bb53f764c8a40aa0ce031ab274c4bc1ae08c28d9497493a3b81"
+  },
+  "pipeline/out/set21.json": {
+   "beforeHash": "a586ec2c66abd5395bd52738b97c956aa66525ee55d84cbc456671ba592a4493",
+   "afterHash": "f0560a45f05ea81485a0f03e119d8ed371f82088d34b2c0681cae9e373a81f5b"
+  },
+  "pipeline/out/set23.json": {
+   "beforeHash": "96ae7491620a427bf43c7c5adb538d57e63b28417637434dc2a2b5cd78d1d94d",
+   "afterHash": "10aa13fc8474ccf5d98c1a4c089d40ddba0b7fbe6559a448456a1d36c027605e"
+  },
+  "pipeline/out/set26.json": {
+   "beforeHash": "f8412fc07fd67371d02c71a3d1cc41938d256e038d73e88072f97f7ad99a2648",
+   "afterHash": "bd1f273b4666de84c123b0aabf5da0256393ea981797c89f7ce90067e43a4634"
+  },
+  "pipeline/out/set30.json": {
+   "beforeHash": "099004ba4f7a0e32c35e58fb67437f2a922a21eb3a69512da220c3267a5c1b2a",
+   "afterHash": "8ce03e2149012e1b50ea1285b16b69014f108a5c62d745410ddde0510c0284f9"
+  },
+  "pipeline/out/set31.json": {
+   "beforeHash": "6b12a5117b8587635a17bc2655243cbb36a28aab1b7be079207ffb068cba76e2",
+   "afterHash": "e0785efac62d12e5532fe5c74f936ba706016557076c6039b1d619be4b43e05e"
+  },
+  "pipeline/out/set34.json": {
+   "beforeHash": "eca0075742c88562abf75c4762a77c7025bb6c5b90926d507a3f5984a681c0e7",
+   "afterHash": "1b383a2af70facfa7427dbfc7fba274037a9ccdfc593559ec645b52ace916ad9"
+  },
+  "pipeline/out/set35.json": {
+   "beforeHash": "dfe705019012aab1726e3ff59d95a9ad1f7585ea398089054d8e27e630ea2f09",
+   "afterHash": "d4024cd15ee82c27540160d40c481a08129fbbaab234d05a17b9637a8f3255bb"
+  },
+  "pipeline/out/set41.json": {
+   "beforeHash": "17e9ab0cdb9a03a6e896ba54e592bc3d8c6481f82c6fa42c3a13b7dda4c2f591",
+   "afterHash": "34992be93f48131616cfbf1957e47d3d23263288d514483d1c4248b63ef2d504"
+  },
+  "pipeline/out/set42.json": {
+   "beforeHash": "665c7b615d6c834880d2f3a3227f546697c0047b3ad97c0ffb5857bf0ecc1840",
+   "afterHash": "098cb954389cafbda0aa2252a6b66568b5af754d61d835bd9619295d3f600562"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson03.json": [
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In 1776, Adam Smith said that in a free {{BLANK}}, self-interest can benefit all.",
+    "new": "In 1776, Adam Smith said an 'invisible hand' guides a free {{BLANK}}."
+   },
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1776년 애덤 스미스는 자유 시장에서는 저마다의 이익 추구가 모두에게 이로울 수 있다고 했어.",
+    "new": "1776년 애덤 스미스는 '보이지 않는 손'이 자유 시장을 이끈다고 했어."
+   }
+  ],
+  "pipeline/out/set14.json": [
+   {
+    "path": [
+     6,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The brain is the control center of the {{BLANK}} system.",
+    "new": "The brain and the spinal cord form the central {{BLANK}} system."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "뇌는 신경계를 지휘하는 중심이야.",
+    "new": "뇌와 척수가 중추 신경계를 이뤄."
+   }
+  ],
+  "pipeline/out/set16.json": [
+   {
+    "path": [
+     10,
+     "words",
+     14
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "en": "crown",
+     "ko": "① 왕관",
+     "ex": "On Christmas Day in 800, the Pope placed a {{BLANK}} on Charlemagne's head.",
+     "tr": "800년 크리스마스에 교황은 샤를마뉴의 머리에 왕관을 씌웠어.",
+     "c": "동사로 '왕관을 씌우다'도 된다: crown a king. 치아에 씌우는 크라운도 crown.",
+     "ipa": "kraʊn",
+     "pos": "n.",
+     "word": "crown",
+     "si": 1,
+     "sn": 1
+    }
+   }
+  ],
+  "pipeline/out/set21.json": [
+   {
+    "path": [
+     8,
+     "words",
+     9,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "{{BLANK}} is the best way to keep friends.",
+    "new": "{{BLANK}} is the best policy."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "정직이 친구를 지키는 최고의 방법이야.",
+    "new": "정직이 최선의 방책이야."
+   }
+  ],
+  "pipeline/out/set23.json": [
+   {
+    "path": [
+     0,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} Revolution, which began in 1775, influenced the French one.",
+    "new": "The {{BLANK}} Revolution, which began in 1775, inspired the French one."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1775년에 시작된 미국 혁명은 프랑스 혁명에 영향을 주었어.",
+    "new": "1775년에 시작된 미국 혁명은 프랑스 혁명에 영감을 주었어."
+   }
+  ],
+  "pipeline/out/set26.json": [
+   {
+    "path": [
+     10,
+     "words",
+     14
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "en": "mammal",
+     "ko": "① 포유류, 포유동물",
+     "ex": "Whales are {{BLANK}}s, not fish: they breathe air and feed their babies milk.",
+     "tr": "고래는 물고기가 아니라 포유류야. 공기로 숨 쉬고 새끼에게 젖을 먹이거든.",
+     "c": "새끼를 젖으로 기르는 동물. 라틴어 mamma(젖)에서.",
+     "ipa": "ˈmæməl",
+     "pos": "n.",
+     "word": "mammal",
+     "si": 1,
+     "sn": 1
+    }
+   }
+  ],
+  "pipeline/out/set30.json": [
+   {
+    "path": [
+     3,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Many {{BLANK}}s find their way in the dark by listening to echoes.",
+    "new": "{{BLANK}}s are the only mammals that can truly fly."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "많은 박쥐는 메아리를 들으며 어둠 속에서 길을 찾아.",
+    "new": "박쥐는 진짜로 날 수 있는 유일한 포유류야."
+   }
+  ],
+  "pipeline/out/set31.json": [
+   {
+    "path": [
+     4,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "His {{BLANK}} pay is higher than mine.",
+    "new": "GDP, or {{BLANK}} domestic product, is the value of all a country makes in a year."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "걔 세전 월급이 내 것보다 많아.",
+    "new": "GDP, 곧 국내총생산은 한 나라가 한 해에 만드는 모든 것의 가치야."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "세금·비용을 빼기 전의 총액. 반대말은 net(순-)이다.",
+    "new": "세금·비용을 빼기 전의 총액(gross pay). 반대말은 net(순-). GDP의 G."
+   }
+  ],
+  "pipeline/out/set34.json": [
+   {
+    "path": [
+     10,
+     "words",
+     11
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "en": "policy",
+     "ko": "① 정책, 방침",
+     "ex": "A country's foreign {{BLANK}} shapes how it deals with other countries.",
+     "tr": "한 나라의 외교 정책은 그 나라가 다른 나라를 대하는 방식을 정해.",
+     "c": "politics(정치)와 뿌리가 같다. economic policy는 경제 정책. 보험 증서도 policy.",
+     "ipa": "ˈpɑləsi",
+     "pos": "n.",
+     "word": "policy",
+     "si": 1,
+     "sn": 1
+    }
+   },
+   {
+    "path": [
+     10,
+     "words",
+     12
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "en": "domestic",
+     "ko": "① 국내의, 나라 안의",
+     "ex": "A {{BLANK}} flight takes off and lands in the same country.",
+     "tr": "국내선 비행기는 같은 나라 안에서 뜨고 내려.",
+     "c": "라틴어 domus(집)에서. 집안의(domestic work), 길들인(domestic animals)도 된다.",
+     "ipa": "dəˈmɛstɪk",
+     "pos": "adj.",
+     "word": "domestic",
+     "si": 1,
+     "sn": 1
+    }
+   },
+   {
+    "path": [
+     10,
+     "words",
+     13
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "en": "inspire",
+     "ko": "① 영감을 주다, 고무하다",
+     "ex": "Martin Luther King Jr. was {{BLANK}}d by Gandhi's peaceful methods.",
+     "tr": "마틴 루서 킹 주니어는 간디의 비폭력 방식에서 영감을 받았어.",
+     "c": "명사는 inspiration(영감). be inspired by는 '~에서 영감을 받다'.",
+     "ipa": "ɪnˈspaɪɚ",
+     "pos": "v.",
+     "word": "inspire",
+     "si": 1,
+     "sn": 1
+    }
+   },
+   {
+    "path": [
+     10,
+     "words",
+     14
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "en": "magnet",
+     "ko": "① 자석",
+     "ex": "The Earth itself acts like a giant {{BLANK}}, so a compass points north.",
+     "tr": "지구 자체가 거대한 자석처럼 작용해서 나침반이 북쪽을 가리켜.",
+     "c": "형용사는 magnetic(자석의). 사람을 끌어모으는 곳·것도 magnet이라 한다.",
+     "ipa": "ˈmæɡnət",
+     "pos": "n.",
+     "word": "magnet",
+     "si": 1,
+     "sn": 1
+    }
+   }
+  ],
+  "pipeline/out/set35.json": [
+   {
+    "path": [
+     0,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In 1804, Napoleon made himself {{BLANK}} of the French.",
+    "new": "In 1804, Napoleon crowned himself {{BLANK}} of the French."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1804년 나폴레옹은 스스로 프랑스인의 황제가 되었어.",
+    "new": "1804년 나폴레옹은 스스로 왕관을 쓰고 프랑스인의 황제가 되었어."
+   }
+  ],
+  "pipeline/out/set41.json": [
+   {
+    "path": [
+     4,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Faraday's discovery of {{BLANK}} in 1831 led to electric power plants.",
+    "new": "In 1831, Faraday found {{BLANK}}: moving magnets make electricity."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1831년 패러데이의 전자기 유도 발견은 발전소로 이어졌어.",
+    "new": "1831년 패러데이는 전자기 유도를 발견했어. 움직이는 자석이 전기를 만들어 내는 거야."
+   }
+  ],
+  "pipeline/out/set42.json": [
+   {
+    "path": [
+     10,
+     "words",
+     12
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "en": "invisible",
+     "ko": "① 눈에 보이지 않는",
+     "ex": "Air is {{BLANK}}, but it still has weight and pushes on everything.",
+     "tr": "공기는 눈에 보이지 않지만 무게가 있어서 모든 것을 누르고 있어.",
+     "c": "in-(아닌)+visible(보이는). 애덤 스미스의 '보이지 않는 손'은 the invisible hand.",
+     "ipa": "ɪnˈvɪzəbəl",
+     "pos": "adj.",
+     "word": "invisible",
+     "si": 1,
+     "sn": 1
+    }
+   },
+   {
+    "path": [
+     10,
+     "words",
+     13
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "en": "spinal",
+     "ko": "① 척추의, 척수의",
+     "ex": "The bones in your back protect the {{BLANK}} cord inside them.",
+     "tr": "등뼈는 그 안의 척수를 보호해.",
+     "c": "spine(척추)의 형용사. spinal cord는 척수.",
+     "ipa": "ˈspaɪnəl",
+     "pos": "adj.",
+     "word": "spinal",
+     "si": 1,
+     "sn": 1
+    }
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson03.json": [],
+  "pipeline/out/set14.json": [],
+  "pipeline/out/set16.json": [],
+  "pipeline/out/set21.json": [],
+  "pipeline/out/set23.json": [],
+  "pipeline/out/set26.json": [],
+  "pipeline/out/set30.json": [],
+  "pipeline/out/set31.json": [],
+  "pipeline/out/set34.json": [],
+  "pipeline/out/set35.json": [],
+  "pipeline/out/set41.json": [],
+  "pipeline/out/set42.json": []
+ }
+}
