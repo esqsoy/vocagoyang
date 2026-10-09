@@ -4,7 +4,7 @@
 // 현재 상태가 각 원장의 '적용 후' 해시와 같을 때만 되돌리고, 되돌린 결과가 '적용 전' 해시와 정확히 같아야 한다.
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const {hash,reverse}=require('./ledger-lib.cjs');
-const LAYERS=['knowledge-14','knowledge-13','knowledge-12','knowledge-11','knowledge-05','knowledge-07','knowledge-06','knowledge-08','knowledge-10','knowledge-09','word-notes','knowledge-04','proper-nouns','knowledge-03','knowledge-02','knowledge-01','country','academic-terms','long-examples','cousin-pairs','content-fixes']   // 최신 순
+const LAYERS=['knowledge-15','knowledge-14','knowledge-13','knowledge-12','knowledge-11','knowledge-05','knowledge-07','knowledge-06','knowledge-08','knowledge-10','knowledge-09','word-notes','knowledge-04','proper-nouns','knowledge-03','knowledge-02','knowledge-01','country','academic-terms','long-examples','cousin-pairs','content-fixes']   // 최신 순
   .map(n=>path.join(__dirname,n+'.json')).filter(f=>fs.existsSync(f))
   .map(f=>JSON.parse(fs.readFileSync(f,'utf8')));
 function restoreClaudeReview20261008(data){

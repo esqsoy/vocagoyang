@@ -220,7 +220,7 @@
 | `python3 pipeline/exaudit.py` | 2-1 어휘 통제 | 기준 밖 예문 26장 |
 | `node pipeline/linecheck.cjs` | 2-2 한눈에(문장 3줄·화면 4줄) | 390·360px 문장 초과 0장, 화면 초과 0장 |
 | `python3 pipeline/collide.py` | 3 빈칸 중의성(후보를 좁히는 체) | 새 카드를 만들 때마다 |
-| `python3 pipeline/deepcheck.py` | 뜻 번호·IPA·품사·교차 중복 | A1~A5 0건 |
+| `python3 pipeline/deepcheck.py` | 뜻 번호·IPA·품사·교차 중복, A7 빈칸 어미(정답 뒤에 붙는 어미가 불규칙 변화와 맞는지, 26.10.09 colony→'colonys' 결함 뒤 추가) | A1~A5·A7 0건 |
 | Codex 테스트(`pipeline/tests/` 등) | 진도·입력·발음·데이터 보존 | 32/32 |
 | `node pipeline/tests/milestones.test.cjs` | 11 돌파 축하(합집합 수·한 번씩·순서·폭죽 단계) | PASS(26.10.08 추가) |
 

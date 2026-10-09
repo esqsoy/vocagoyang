@@ -809,6 +809,17 @@
 - 요청(영신): "일단 배포하자 그리고 사실 내가 볼 때는 oxford 정의가 최고인데 브리태니커가 한문장이라 고른거임" → 선택 이유를 PRINCIPLES 2-5에 보완했다.
 - 배포: b46b84a를 main에 fast-forward, Pages 38005718422 성공, main의 네 HTML blob이 로컬과 같다. [DEPLOYMENT](DEPLOYMENT.md)
 
+## 2026-10-09 · communism 해설과 지식 예문 310장 재검토
+
+- 요청(영신): communism 해설을 옥스퍼드식 구분으로("해설도 그게 더 좋아보여"), "지금까지의 논의를 바탕으로 새 예문들 전체 한번 직접 읽고 검토해주라".
+- 반영(15묶음, 원장 knowledge-15):
+  - communism 해설 "common(공동의)과 한 뿌리. 공산당이 다스리는 체제를 가리킬 땐 대문자 Communism으로 쓰기도 한다."
+  - colony 결함: 게임은 빈칸 뒤 어미를 정답 뒤에 그대로 붙여서 "thirteen British colonys"로 보였다. "Each of the first thirteen US states began as a British colony."로 고쳤다. FABLE 7,140장 전체를 훑어 같은 결함은 이것 하나였다.
+  - deepcheck에 A7(빈칸 어미) 검사를 더했다. 옛 스냅숏에서 colony를 잡는 것을 확인했다.
+- 재검토: Claude가 310장을 모두 읽었다. 사실 오류는 찾지 못했다. 원칙에 비춘 개선안 8건(해설 사족·사실 덧붙임 4, 해설 이동 1, 예문 1, 해석 2)은 영신에게 제안했다(대화). 적용은 영신 결정 뒤.
+- 검증(이번에 실행): exaudit 25, linecheck 390·360px 초과 0, deepcheck A1~A5·A7 0, collide 새 후보 없음, Codex 테스트 33/33.
+- 상태: 커밋·브랜치 푸시. 15묶음은 미배포.
+
 ## 다음 기록 형식
 
 

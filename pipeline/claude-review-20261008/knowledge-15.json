@@ -1,0 +1,114 @@
+{
+ "date": "2026-10-09",
+ "name": "knowledge-15",
+ "status": "applied_locally_verified",
+ "authorization": "영신(2026-10-09): \"해설도 그게 더 좋아보여. 그거 바꾸고 지금까지의 논의를 바탕으로 새 예문들 전체 한번 직접읽고 검토해주라\"",
+ "summary": "communism 해설(옥스퍼드의 대문자 Communism 구분)과 colony 'colonys' 결함 수정. 목록 pipeline/knowledge-map/batch-15.json.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "bfcf08ec1e7adc1e31843143df41dcc54e609afcfc77a9763feb04b3083b374d",
+   "afterHash": "ff83a1f5b6d9dfad136fa55d95b55a52dde0fdc5f1d6b13ccce3c36c60a10a9b",
+   "changes": [
+    {
+     "path": [
+      26,
+      "exercises",
+      10,
+      "words",
+      1,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The United States began as thirteen British {{BLANK}}s.",
+     "new": "Each of the first thirteen US states began as a British {{BLANK}}."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      10,
+      "words",
+      1,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "미국은 영국의 13개 식민지에서 시작되었어.",
+     "new": "미국의 처음 13개 주는 모두 영국 식민지로 시작했어."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      3,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "common(공동의)과 한 뿌리. 지지자들은 socialism(사회주의)보다 한 단계 더 나아간 형태로 본다.",
+     "new": "common(공동의)과 한 뿌리. 공산당이 다스리는 체제를 가리킬 땐 대문자 Communism으로 쓰기도 한다."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/set26.json": {
+   "beforeHash": "a19865fed639f2c0c99213db726dbfcc24d5c400b3abf90649985ce3f7525193",
+   "afterHash": "aad67bdf3251fef7467634362baf4d2c4223fcace7a9f1a418bd3df4733726a2"
+  },
+  "pipeline/out/set40.json": {
+   "beforeHash": "9b20081e4d724b54918045dfcdf2643fb7063c36898917c4358d8e4b2ba2b647",
+   "afterHash": "1ac81466481ec1942e9308666efd61c2b1dc13ba1db8b4ab4ae9eb413569f3a2"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/set26.json": [
+   {
+    "path": [
+     10,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The United States began as thirteen British {{BLANK}}s.",
+    "new": "Each of the first thirteen US states began as a British {{BLANK}}."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "미국은 영국의 13개 식민지에서 시작되었어.",
+    "new": "미국의 처음 13개 주는 모두 영국 식민지로 시작했어."
+   }
+  ],
+  "pipeline/out/set40.json": [
+   {
+    "path": [
+     3,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "common(공동의)과 한 뿌리. 지지자들은 socialism(사회주의)보다 한 단계 더 나아간 형태로 본다.",
+    "new": "common(공동의)과 한 뿌리. 공산당이 다스리는 체제를 가리킬 땐 대문자 Communism으로 쓰기도 한다."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/set26.json": [],
+  "pipeline/out/set40.json": []
+ }
+}

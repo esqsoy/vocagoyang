@@ -11,7 +11,8 @@
   - 다음 일: 1·3세트 타일 줄바꿈이 남아 있다. 43 country 제안도 아직 미반영이다.
 
 - **2026-10-08~09 지식 예문 5~12묶음 — main 배포(앱 adc9399, Pages 37935985157 성공, [DEPLOYMENT](DEPLOYMENT.md))**: 지도 6~14장과 지도 밖 F 14장, 174카드. 지식 지도의 노드는 모두 끝났다. 경위는 [WORK_LOG](WORK_LOG.md), 묶음별 내용은 [리뷰 README](pipeline/claude-review-20261008/README.md).
-  - 원장 knowledge-05~14(복원 체인 맨 위는 knowledge-14). 13·14묶음(wall·Chinese, communism)도 배포했다(b46b84a, Pages 38005718422). 검사: exaudit 25, linecheck 초과 0, deepcheck A1~A5 0, Codex 33/33.
+  - 원장 knowledge-05~15(복원 체인 맨 위는 knowledge-15). 13·14묶음은 배포(b46b84a). 15묶음(communism 해설, colony 결함)은 미배포.
+  - 영신 답 대기: 310장 재검토 개선안 8건(antibiotic·poison·railway·wage 해설, socialism 해설, evolution 예문, fossil·perfect 해석). 검사: exaudit 25, linecheck 초과 0, deepcheck A1~A5 0, Codex 33/33.
   - 새 표제어 8개는 영신 결정(10/9 "smallpox 빼고 다 넣자")대로 더했다(11묶음, knowledge-11). FABLE 7,140카드·표제어 4,987, 세 교재 합집합 8,311.
   - 지식 예문 310장 읽기 페이지(Artifact): https://claude.ai/artifact/282UqU6JaZRwSbf3688xeg
   - 다음 지식 예문 작업은 `pipeline/knowledge-map/BRIEF.md` 지침을 쓴다.

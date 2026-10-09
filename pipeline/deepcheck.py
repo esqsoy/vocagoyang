@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """완성도 전수 검사 — 4절(중의성)·exaudit(어휘) 밖의 기준들 (26.9.17)
-   A1 si/sn 무결성 · A2 IPA 일관성 · A3 pos↔빈칸 자리 · A5 예문 교차 중복 · A6 형식 규칙
+   A1 si/sn 무결성 · A2 IPA 일관성 · A3 pos↔빈칸 자리 · A5 예문 교차 중복 · A6 형식 규칙 · A7 빈칸 어미
    (A4 tr↔뜻 대응은 설계에 실패해 폐기 — 아래 주석)
 사용: python3 pipeline/deepcheck.py [--list A3 A4 ...]"""
 import json,glob,re,os,sys,collections
@@ -108,10 +108,20 @@ for ln,exn,w in cards:
     # 단어 수는 줄 수를 잘 예측하지 못해(긴 정답은 7단어도 빈칸이 한 줄을 먹는다) 여기서 빼고 linecheck.cjs로 넘겼다.
     #   node pipeline/linecheck.cjs
 
+# ── A7 빈칸 어미: 화면은 정답 뒤에 {{BLANK}} 다음 어미를 그대로 붙인다(fillBlank).
+#    그래서 colony+s는 'colonys'로 보인다(26.10.09 재검토에서 발견). 불규칙하게 바뀌는 자리에는 빈칸을 두지 않는다.
+for ln,exn,w in cards:
+    t=(w.get('en') or '').lower(); mm=re.search(r'\{\{BLANK\}\}([a-z]+)',w.get('ex') or '')
+    if not mm or len(t)<2: continue
+    sf=mm.group(1); tag=f"{w.get('word')}({w.get('si')})"
+    if t[-1]=='y' and t[-2] not in 'aeiou' and sf[0] in 'se': F['A7'].append((ln,tag,f"y+{sf} → ies/ied로 바뀌어야 함"))
+    elif t[-1]=='e' and sf[0] in 'ei': F['A7'].append((ln,tag,f"e+{sf} → e가 겹치거나 빠져야 함"))
+    elif re.search(r'(s|x|z|ch|sh)$',t) and sf=='s': F['A7'].append((ln,tag,"-es가 필요함"))
+
 NAME={'A1':'si/sn 무결성','A2':'IPA 일관성','A3':'pos↔빈칸 자리',
-      'A5':'예문 교차 중복','A6':'형식 규칙'}
+      'A5':'예문 교차 중복','A6':'형식 규칙','A7':'빈칸 어미'}
 print(f"어휘 카드 {sum(1 for l,_,_ in cards if l<46)}장 검사\n")
-for k in ('A1','A2','A3','A5','A6'):
+for k in ('A1','A2','A3','A5','A6','A7'):
     print(f"  {k} {NAME[k]:<12} {len(F[k])}건")
 want=[a for a in sys.argv[1:] if a in NAME]
 for k in want:
