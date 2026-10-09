@@ -102,8 +102,13 @@
 
 - **그 단어가 가리키는 사물·제도를 학생이 모를 수 있다고 전제한다.** (26.10.09 영신: "요즘 학생들이 비단이 뭔지 모르는 경우가 많더라구", "플랜테이션이 뭔지 모르는 사람이 보면 그냥 큰 농장으로 읽을껄?", communism은 "그냥 중국이 공산화되었다는 이야기를 어렵게 한 쪽에 가까워")
   - 왜: 역사 맥락만 주면 단어가 무엇인지는 비어 있다. silk는 '중국에서 로마로 간 무언가', plantation은 '큰 농장', communism은 '1949년 중국'으로만 남는다. 지식 예문도 먼저 그 단어가 무엇인지 알게 해야 한다.
-  - 사례(26.10.09): silk "Silk is a soft, shiny cloth made from threads that certain worms spin." plantation은 수출용 단일 작물·노예 노동을 예문으로 옮기고("A plantation grew one crop, like sugar, with slave labor, for sale in Europe."), 해설은 '식민지를 통째로 수출용 단일 작물 농장으로 바꾼 체제'로 썼다. communism "In communism, people would give what they can and get what they need."
+  - 사례(26.10.09): silk "Silk is a soft, shiny cloth made from threads that certain worms spin." plantation은 수출용 단일 작물·노예 노동을 예문으로 옮기고("A plantation grew one crop, like sugar, with slave labor, for sale in Europe."), 해설은 '식민지를 통째로 수출용 단일 작물 농장으로 바꾼 체제'로 썼다. communism은 아래 사상 단어 원칙에 따라 "Communism aims at a society without classes, where factories belong to all."로 다시 썼다.
   - 이름의 내력이 그 지식이면 예문과 해설이 나눠 맡는다. corn은 예문이 멕시코 옥수수의 전파(1492년 뒤)를, 해설이 '곡물 전체를 뜻하던 corn → Indian corn → 미국의 corn'을 맡는다(영신 제안).
+- **사상(-ism) 단어는 그 사상이 무엇을 목표로 하는지로 정의한다. 그 사상을 내건 현실 체제의 모습으로 정의하지 않는다.** (26.10.09 영신)
+  - 경위: communism을 "능력껏 일하고 필요만큼 받는다"로 썼더니, 영신이 이상만 말해 오해를 부를 수 있다고 했다. Claude는 사전 조사 뒤 이상과 현실을 함께 담은 문장("…promised a society without classes, but in practice one party ruled.")을 제안했다. 옥스퍼드·메리엄-웹스터는 '공산당이 다스리는 체제'를 별도 뜻으로 싣는다.
+  - 영신 결정: "브리태니커가 적절해 보이는데? communism은 사상이니까. 현실 정치(체)에서 공산주의를 주장하며 일당독재를 하는 독재자들을 말한다고 단정 짓긴 아쉬움. 시장주의자들이 항상 시장의 합리적 배분을 외치지만 독점으로 귀결되는데도 시장주의는 그걸 목표한다는 점에서 시장주의를 '기업이 모든 자본을 독점하는 경제체제'라고 쓰지 않잖아." 쓰임을 중시하는 메리엄-웹스터의 태도는 그것대로 이해한다고 덧붙였다.
+  - 그래서 브리태니커의 정의(계급 없는 사회, 주요 생산 수단의 공공 소유)를 따른다: "Communism aims at a society without classes, where factories belong to all." 해설은 단어 이야기로 '지지자들은 socialism보다 한 단계 더 나아간 형태로 본다'(브리태니커).
+  - 현실 체제의 사실은 따로 사실로 쓴다(Russian: 1917년 첫 공산주의 국가, dictator: 1930년대 독재). 사상의 정의에 섞지 않는다.
 
 ### 2-6. 지식 예문은 지도부터, 막히는 어휘는 더한다
 

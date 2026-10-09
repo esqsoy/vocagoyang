@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-09",
+ "name": "knowledge-14",
+ "status": "applied_locally_verified",
+ "authorization": "영신(2026-10-09): \"난 브리태니커가 적절해보이는데? communism은 사상이니까\"",
+ "summary": "communism 1장을 브리태니커식 사상 정의(계급 없는 사회, 생산 수단의 공동 소유)로 다시 썼다. 목록 pipeline/knowledge-map/batch-14.json.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "4034dbb94cc3ecc2d4228fc10dbc8d9bc60f7504985de5f72847310d7fca941a",
+   "afterHash": "bfcf08ec1e7adc1e31843143df41dcc54e609afcfc77a9763feb04b3083b374d",
+   "changes": [
+    {
+     "path": [
+      40,
+      "exercises",
+      3,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In {{BLANK}}, people would give what they can and get what they need.",
+     "new": "{{BLANK}} aims at a society without classes, where factories belong to all."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      3,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "공산주의 사회에서는 저마다 할 수 있는 만큼 일하고 필요한 만큼 가져가게 돼.",
+     "new": "공산주의는 공장이 모두의 것인, 계급 없는 사회를 목표로 해."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      3,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "common(공동의)과 한 뿌리. socialism(사회주의)과 달리 계급 없는 사회를 목표로 한다.",
+     "new": "common(공동의)과 한 뿌리. 지지자들은 socialism(사회주의)보다 한 단계 더 나아간 형태로 본다."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/set40.json": {
+   "beforeHash": "ce2a4231b0f53ba1b1f43af6e0b95a812caa5ce901315f47c2043d6a57bf055a",
+   "afterHash": "9b20081e4d724b54918045dfcdf2643fb7063c36898917c4358d8e4b2ba2b647"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/set40.json": [
+   {
+    "path": [
+     3,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In {{BLANK}}, people would give what they can and get what they need.",
+    "new": "{{BLANK}} aims at a society without classes, where factories belong to all."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "공산주의 사회에서는 저마다 할 수 있는 만큼 일하고 필요한 만큼 가져가게 돼.",
+    "new": "공산주의는 공장이 모두의 것인, 계급 없는 사회를 목표로 해."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "common(공동의)과 한 뿌리. socialism(사회주의)과 달리 계급 없는 사회를 목표로 한다.",
+    "new": "common(공동의)과 한 뿌리. 지지자들은 socialism(사회주의)보다 한 단계 더 나아간 형태로 본다."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/set40.json": []
+ }
+}
