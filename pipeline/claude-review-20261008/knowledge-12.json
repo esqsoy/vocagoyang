@@ -1,0 +1,395 @@
+{
+ "date": "2026-10-08",
+ "name": "knowledge-12",
+ "status": "applied_locally_verified",
+ "authorization": "영신(2026-10-09) 검토 1차: corn(Indian corn→corn), academy 해설은 사관학교만, silk가 어떤 사물인지, plantation 해설의 예문화와 '식민지의 농장화', communism을 간결하게",
+ "summary": "영신 검토 1차 5장: corn·academy·silk·plantation·communism. 목록 pipeline/knowledge-map/batch-12.json.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "0a2887a2efe3478b38d4e49f5382b786dfadf9ae858fc62eebcebfded64b5442",
+   "afterHash": "4a0039d6670b1d11031550e58825dfe4a791fe0ab4c0e097d98773cbef44b55a",
+   "changes": [
+    {
+     "path": [
+      16,
+      "exercises",
+      0,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "{{BLANK}} was first grown in Mexico about 9,000 years ago.",
+     "new": "First grown in Mexico, {{BLANK}} spread around the world after 1492."
+    },
+    {
+     "path": [
+      16,
+      "exercises",
+      0,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "옥수수는 약 9천 년 전 멕시코에서 처음 재배되었어.",
+     "new": "멕시코에서 처음 재배된 옥수수는 1492년 이후 전 세계로 퍼졌어."
+    },
+    {
+     "path": [
+      16,
+      "exercises",
+      0,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "미국에서는 옥수수. 영국에서는 밀 등 주요 곡물을 통틀어 가리키기도 한다.",
+     "new": "본래 corn은 밀 등 곡물 전체. 아메리카 옥수수를 Indian corn이라 하다 미국에서 corn이 됐다. 영국은 maize."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      7,
+      "words",
+      12,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "About 2,000 years ago, Chinese {{BLANK}} reached as far as Rome.",
+     "new": "{{BLANK}} is a soft, shiny cloth made from threads that certain worms spin."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      7,
+      "words",
+      12,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "약 2천 년 전, 중국 비단은 멀리 로마까지 갔어.",
+     "new": "비단은 누에가 뽑아낸 실로 짠, 부드럽고 윤이 나는 천이야."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      7,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Silk Road(비단길)라는 이름도 이 비단 교역에서 왔다.",
+     "new": "실을 뽑는 벌레인 누에는 silkworm. silky는 '비단처럼 부드러운'."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      1,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "플라톤의 학교 Akademeia에서. 한국의 보습학원과 꼭 같지 않다. military academy는 사관학교.",
+     "new": "military academy는 사관학교."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      3,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "After China's revolution in 1949, a third of the world lived under {{BLANK}}.",
+     "new": "In {{BLANK}}, people would give what they can and get what they need."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      3,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1949년 중국 혁명 이후 세계 인구의 3분의 1이 공산주의 체제에서 살았어.",
+     "new": "공산주의 사회에서는 저마다 할 수 있는 만큼 일하고 필요한 만큼 가져가게 돼."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      3,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "common(공동의)과 한 뿌리다. 사상 이름이라 보통 소문자로 쓴다.",
+     "new": "common(공동의)과 한 뿌리. socialism(사회주의)과 달리 계급 없는 사회를 목표로 한다."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      2,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "From the 1600s, slaves in the Americas worked on sugar {{BLANK}}s.",
+     "new": "A {{BLANK}} grew one crop, like sugar, with slave labor, for sale in Europe."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      2,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1600년대부터 아메리카의 노예들은 사탕수수 대농장에서 일해야 했어.",
+     "new": "플랜테이션은 노예 노동으로 사탕수수 같은 한 가지 작물만 길러 유럽에 내다 파는 농장이었어."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      2,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "plant(심다)와 연결된 말. 커피·차·사탕수수 등을 대규모로 재배하는 농장이나 나무를 심어 기르는 조림지.",
+     "new": "식민지를 통째로 수출용 단일 작물 농장으로 바꾼 체제. 그냥 '큰 농장'이 아니다."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/set16.json": {
+   "beforeHash": "3de99ae651062bb53f764c8a40aa0ce031ab274c4bc1ae08c28d9497493a3b81",
+   "afterHash": "504958b05a17e85f50665d3dd228d8affd6f76c3662750f037d795b9b82e3d7e"
+  },
+  "pipeline/out/set19.json": {
+   "beforeHash": "0ea3af0712d6770f7731babfe0d2954e5084e7843518b9e5e13e1275bddc7dca",
+   "afterHash": "d2bf50541d9d5385543127a10db3275da1ff3e2de51fe9d44eea4deeb26184a6"
+  },
+  "pipeline/out/set26.json": {
+   "beforeHash": "bd1f273b4666de84c123b0aabf5da0256393ea981797c89f7ce90067e43a4634",
+   "afterHash": "a19865fed639f2c0c99213db726dbfcc24d5c400b3abf90649985ce3f7525193"
+  },
+  "pipeline/out/set40.json": {
+   "beforeHash": "a54a5d2f5c5bda2174588ba1e5911e8d24a7ded1102161b1630f262aefd26441",
+   "afterHash": "ce2a4231b0f53ba1b1f43af6e0b95a812caa5ce901315f47c2043d6a57bf055a"
+  },
+  "pipeline/out/set41.json": {
+   "beforeHash": "34992be93f48131616cfbf1957e47d3d23263288d514483d1c4248b63ef2d504",
+   "afterHash": "4e28081fb9d09c261a01af218a6613dcb208a16c907fc0d18a55c00db8764171"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/set16.json": [
+   {
+    "path": [
+     0,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "{{BLANK}} was first grown in Mexico about 9,000 years ago.",
+    "new": "First grown in Mexico, {{BLANK}} spread around the world after 1492."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "옥수수는 약 9천 년 전 멕시코에서 처음 재배되었어.",
+    "new": "멕시코에서 처음 재배된 옥수수는 1492년 이후 전 세계로 퍼졌어."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "미국에서는 옥수수. 영국에서는 밀 등 주요 곡물을 통틀어 가리키기도 한다.",
+    "new": "본래 corn은 밀 등 곡물 전체. 아메리카 옥수수를 Indian corn이라 하다 미국에서 corn이 됐다. 영국은 maize."
+   }
+  ],
+  "pipeline/out/set19.json": [
+   {
+    "path": [
+     7,
+     "words",
+     12,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "About 2,000 years ago, Chinese {{BLANK}} reached as far as Rome.",
+    "new": "{{BLANK}} is a soft, shiny cloth made from threads that certain worms spin."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "약 2천 년 전, 중국 비단은 멀리 로마까지 갔어.",
+    "new": "비단은 누에가 뽑아낸 실로 짠, 부드럽고 윤이 나는 천이야."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Silk Road(비단길)라는 이름도 이 비단 교역에서 왔다.",
+    "new": "실을 뽑는 벌레인 누에는 silkworm. silky는 '비단처럼 부드러운'."
+   }
+  ],
+  "pipeline/out/set26.json": [
+   {
+    "path": [
+     1,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "플라톤의 학교 Akademeia에서. 한국의 보습학원과 꼭 같지 않다. military academy는 사관학교.",
+    "new": "military academy는 사관학교."
+   }
+  ],
+  "pipeline/out/set40.json": [
+   {
+    "path": [
+     3,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "After China's revolution in 1949, a third of the world lived under {{BLANK}}.",
+    "new": "In {{BLANK}}, people would give what they can and get what they need."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1949년 중국 혁명 이후 세계 인구의 3분의 1이 공산주의 체제에서 살았어.",
+    "new": "공산주의 사회에서는 저마다 할 수 있는 만큼 일하고 필요한 만큼 가져가게 돼."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "common(공동의)과 한 뿌리다. 사상 이름이라 보통 소문자로 쓴다.",
+    "new": "common(공동의)과 한 뿌리. socialism(사회주의)과 달리 계급 없는 사회를 목표로 한다."
+   }
+  ],
+  "pipeline/out/set41.json": [
+   {
+    "path": [
+     2,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "From the 1600s, slaves in the Americas worked on sugar {{BLANK}}s.",
+    "new": "A {{BLANK}} grew one crop, like sugar, with slave labor, for sale in Europe."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1600년대부터 아메리카의 노예들은 사탕수수 대농장에서 일해야 했어.",
+    "new": "플랜테이션은 노예 노동으로 사탕수수 같은 한 가지 작물만 길러 유럽에 내다 파는 농장이었어."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "plant(심다)와 연결된 말. 커피·차·사탕수수 등을 대규모로 재배하는 농장이나 나무를 심어 기르는 조림지.",
+    "new": "식민지를 통째로 수출용 단일 작물 농장으로 바꾼 체제. 그냥 '큰 농장'이 아니다."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/set16.json": [],
+  "pipeline/out/set19.json": [],
+  "pipeline/out/set26.json": [],
+  "pipeline/out/set40.json": [],
+  "pipeline/out/set41.json": []
+ }
+}
