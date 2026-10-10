@@ -6,7 +6,7 @@
 
 - **2026-10-10 문법 체화 설계·표제어 정리·Oxford 보강 — 로컬 커밋, 배포 없음**: 5,000단어를 순서대로 플레이하면 예문과 해설로 영문법이 체화되게 한다(영신 결정, [PRINCIPLES 12](PRINCIPLES.md#12-문법-순서대로-플레이하면-몸에-밴다), 범위는 [WORK_PLAN](WORK_PLAN.md)).
   - 지금 할 일: 0세트 초안 검토·반영 → 5세트 → 1~4세트 → 6~45세트 조명 문법 예문 (문법 지도 143항목 승인됨). Oxford 신규는 영신 지시(10/10 "옥스포드 보강 단어를 일단 먼저 작업하자")로 먼저 넣었다(아래). 0세트 3개는 0세트 초안과 함께.
-  - Oxford 3000 보강(10/10, 로컬): 6~44세트 끝 새 연습 36개에 443개(508장). 지침 `pipeline/oxford/BRIEF.md`, 새 카드 검사 `python3 pipeline/oxford/cardcheck.py 초안.json`. FABLE 7,570장·표제어 5,359·화면 연습 671, 합집합 8,257. 원장 `oxford-20261010`. 세트별 조명 문법 작업 때 이 카드 예문도 다시 본다.
+  - Oxford 3000 보강(10/10, 로컬): 6~44세트 끝 새 연습 36개에 443개(508장). 지침 `pipeline/oxford/BRIEF.md`, 새 카드 검사 `python3 pipeline/oxford/cardcheck.py 초안.json`. FABLE 7,570장·표제어 5,359·화면 연습 671, 합집합 8,257. 원장 `oxford-20261010`. 세트별 조명 문법 작업 때 이 카드 예문도 다시 본다. 읽기 페이지 https://claude.ai/artifact/Cx6RgNsV5rSCvCprpSG2j5 (영신 검토 대기).
   - 측정: `python3 pipeline/grammar/measure.py`(spaCy 필요). 기준값 `pipeline/grammar/baseline-20261010.json`.
   - 초안: 문법 지도 143항목 `pipeline/grammar/syllabus-draft-20261010.json`(페이지 https://claude.ai/artifact/Dhp7PgRApVa9LctYUgmNV6 ), 0세트 전체 초안 234장 `set0-draft-20261010.json`(페이지 https://claude.ai/artifact/BB5W7HkzszXtuQ1H2UnC8E ), 영신 검토 대기·데이터 반영 전.
   - 영신 승인(10/10): 수능 문법 전체 포함, 구조 정정안(0세트 약 230장·1~4세트 순서 유지·5세트 문법 뜻 분산), 143항목, 작업 순서(0세트 → 5세트 → 1~4세트 → 6~45세트 → Oxford 신규). 남은 확인: goodness ② 삭제 여부, 2022 교육과정 원문 대조(ncic.re.kr 허용 필요).
