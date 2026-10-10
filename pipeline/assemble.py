@@ -157,6 +157,27 @@ for change in placement['titleChanges']:
 from placement_regrouping import apply_regrouping
 data = apply_regrouping(data)
 
+# 26.10.10 표제어 정리(PRINCIPLES 2-8): 저작 원본은 그대로 두고 화면 배치에서만 뺀다.
+# 카드를 뺀 연습에는 빼기 전 카드 목록(preDeletion)을 남겨 완료 기록을 이어받게 한다.
+prune = read(P / 'prune-20261010.json')
+drop = {w.lower() for w in prune['words']}
+removed, dropped_heads = 0, set()
+for lesson in data:
+    for exercise in lesson['exercises']:
+        keep = [w for w in exercise['words'] if (w.get('word') or w['en']).lower() not in drop]
+        if len(keep) == len(exercise['words']):
+            continue
+        if lesson['lesson'] > 45:
+            raise ValueError('Pruned headword appears in a review or topic set')
+        if not keep:
+            raise ValueError('Pruning would empty an exercise')
+        exercise['preDeletion'] = [{'word': w.get('word') or w['en'], 'si': w.get('si') or 1} for w in exercise['words']]
+        dropped_heads |= {(w.get('word') or w['en']).lower() for w in exercise['words']} & drop
+        removed += len(exercise['words']) - len(keep)
+        exercise['words'] = keep
+if removed != prune['cards'] or dropped_heads != drop:
+    raise ValueError(f'Pruning manifest mismatch: {removed} cards, {len(dropped_heads)} headwords')
+
 src = HTML.read_text(encoding='utf-8')
 constants = [('DATA', data), ('READING_CORE', core), ('MORPHOLOGY', morph)]
 if connections:

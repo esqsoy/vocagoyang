@@ -33,6 +33,11 @@ def load():
     return out
 
 cards=load()
+# 26.10.10 표제어 정리(PRINCIPLES 2-8): 화면에서 뺀 단어는 원본에 남아 있어도 표제어로 치지 않는다.
+PRUNED=set()
+for _f in glob.glob(f'{P}/prune-2*.json'):
+    PRUNED|={w.lower() for w in json.load(open(_f,encoding='utf-8'))['words']}
+cards=[c for c in cards if (c[2].get('word') or c[2].get('en') or '').lower() not in PRUNED]
 HEAD={ (w.get('word') or w.get('en') or '').lower() for _,_,w,_ in cards }
 HEAD.discard('')
 # 46~50세트는 set*.json이 아니라 별도 원본에서 조립되므로 HTML DATA에서 표제어를 보탠다(26.10.08).
@@ -53,7 +58,7 @@ try:
         for _w in _d.get('words',[])+_d.get('set0',[]):
             _v=_w['word'].lower(); PLANNED.add(_v); PLANNED.update(_v.split())
 except Exception as _err: print('주의: Oxford 배치안을 읽지 못함', _err)
-ALLOWED = HEAD | white | NUMS | IRR | PLANNED
+ALLOWED = (HEAD | white | NUMS | IRR | PLANNED) - PRUNED
 
 def tok_ok(t):
     t=t.lower().strip("'")

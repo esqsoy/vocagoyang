@@ -24,6 +24,12 @@
 
 이 배치가 포함된 HTML은 `disassemble.py`로 원본에 직접 덮어쓸 수 없다. 잘못된 저작 위치 복원과 중복 배치를 막기 위해 실행을 중단한다. 원본 분실 시 Git에서 `pipeline/out`·선정 자료·배치 원장을 함께 복구한다.
 
+## 표제어 정리 · 2026-10-10
+
+`prune-20261010.json`의 73개 표제어(90장)는 기초 5,000에서 먼저 다룰 필요가 없어 뺐다([PRINCIPLES 2-8](../PRINCIPLES.md#2-8-기초-5000에-둘지는-지금-먼저-다룰-필요로-정한다)). 저작 원본(out/*.json)은 그대로 두고 `assemble.py`가 배치(10-03 이동·재구성) 다음 단계에서 화면 DATA에서만 뺀다. 카드를 뺀 연습에는 `preDeletion`(빼기 전 카드 목록)을 남긴다. 게임의 `splitExercises`가 그 배치를 다시 나눠 옛 완료 기록을 남은 카드의 `priorCoverage`에 더하고, 모아둔 카드 ID를 빼기 전 기준으로 고정한다. 46~50세트에 나오는 단어나 연습을 비우는 삭제는 조립을 멈춘다.
+
+변경 원장은 `claude-review-20261008/prune-20261010.json`(복원 체인 맨 위)이고 `build-deletion-ledger.cjs`로 만들었다. 범용 diff는 뒤 카드가 당겨진 것을 값 변경으로 적어 되돌릴 때 키 순서가 어긋나서, 삭제 위치만 적는 원장을 따로 쓴다. 검사는 `node pipeline/tests/prune.test.cjs`. `exaudit.py`는 뺀 단어를 표제어로 치지 않는다.
+
 ## 원본
 
 - 0~4세트: out/lesson00.json ~ lesson04.json의 exercises.
