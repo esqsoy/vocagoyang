@@ -1,0 +1,2366 @@
+{
+ "status": "초안 — 영신 검토 대기(2026-10-10)",
+ "date": "2026-10-10",
+ "note": "band=처음 소개하는 세트 구간, tier=노출 목표 등급(core 15·std 8·peri 3회), korean_trap=한국 학습자 약점, csat=수능 어법 핵심, egp=Cambridge English Grammar Profile 첫 수준(판단으로 대응), measure=measure.py 태그, now=baseline-20261010 예문 수",
+ "page": "https://claude.ai/artifact/Dhp7PgRApVa9LctYUgmNV6",
+ "items": [
+  {
+   "id": "G001",
+   "band": "0",
+   "name": "인칭대명사 주격과 be 현재 일치 (I am / you are / he is)",
+   "carriers": [
+    "I",
+    "you",
+    "he",
+    "she",
+    "it",
+    "we",
+    "they",
+    "be"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": "be 현재",
+   "now": 1402
+  },
+  {
+   "id": "G002",
+   "band": "0",
+   "name": "be의 원형과 명령문 (Be quiet. Don't be late.)",
+   "carriers": [
+    "be"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G003",
+   "band": "0",
+   "name": "be = 있다 (I am at home.)",
+   "carriers": [
+    "be"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G004",
+   "band": "0",
+   "name": "not 부정과 축약 (I'm not, isn't, don't)",
+   "carriers": [
+    "not"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": "부정 not/never",
+   "now": 364
+  },
+  {
+   "id": "G005",
+   "band": "0",
+   "name": "yes/no 대답과 부정의문문 대답 (Aren't you…? Yes, I am.)",
+   "carriers": [
+    "yes",
+    "no"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G006",
+   "band": "0",
+   "name": "do/does 의문문과 짧은 대답 (Do you…? Yes, I do.)",
+   "carriers": [
+    "do"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": "yes/no 의문문",
+   "now": 184
+  },
+  {
+   "id": "G007",
+   "band": "0",
+   "name": "목적격 (help me, know him)",
+   "carriers": [
+    "me",
+    "him",
+    "her",
+    "us",
+    "them"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G008",
+   "band": "0",
+   "name": "소유격과 그 생략 금지 (lost his phone)",
+   "carriers": [
+    "my",
+    "your",
+    "his",
+    "her",
+    "its",
+    "our",
+    "their"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G009",
+   "band": "0",
+   "name": "소유대명사 (mine, yours, his)",
+   "carriers": [
+    "his",
+    "mine"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G010",
+   "band": "0",
+   "name": "its와 it's",
+   "carriers": [
+    "its"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G011",
+   "band": "0",
+   "name": "this/that, these/those + 수",
+   "carriers": [
+    "this",
+    "that"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G012",
+   "band": "0",
+   "name": "here·there 앞에 to를 쓰지 않음",
+   "carriers": [
+    "here",
+    "there"
+   ],
+   "tier": "std",
+   "korean_trap": true,
+   "csat": false,
+   "target": 8,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G013",
+   "band": "0",
+   "name": "a/an은 소리로 정한다",
+   "carriers": [
+    "a",
+    "an"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G014",
+   "band": "0",
+   "name": "처음 a, 다시 the",
+   "carriers": [
+    "the",
+    "a"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G015",
+   "band": "0",
+   "name": "and·or·but, A, B, and C, 선택의문문 대답",
+   "carriers": [
+    "and",
+    "or",
+    "but"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G016",
+   "band": "0",
+   "name": "의문사 의문문과 주어를 묻는 who",
+   "carriers": [
+    "what",
+    "who",
+    "where",
+    "how"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": "wh-의문문",
+   "now": 129
+  },
+  {
+   "id": "G017",
+   "band": "0",
+   "name": "주어를 빼지 않는 영어 (It is blue.)",
+   "carriers": [
+    "it"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G018",
+   "band": "0",
+   "name": "인사 덩어리 (How are you? / This is ~ / Thanks for)",
+   "carriers": [
+    "hello",
+    "hi",
+    "thanks"
+   ],
+   "tier": "peri",
+   "korean_trap": false,
+   "csat": false,
+   "target": 3,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G019",
+   "band": "1-2",
+   "name": "명사의 복수 -s/-es/-ies와 불규칙 복수",
+   "carriers": [
+    "숫자",
+    "child",
+    "foot",
+    "tooth"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": "복수 명사",
+   "now": 2043
+  },
+  {
+   "id": "G020",
+   "band": "1-2",
+   "name": "셀 수 없는 명사 (water, homework, advice, furniture, information)",
+   "carriers": [
+    "homework",
+    "water",
+    "money",
+    "advice",
+    "information"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G021",
+   "band": "1-2",
+   "name": "늘 복수인 명사 (jeans, glasses)",
+   "carriers": [
+    "jeans"
+   ],
+   "tier": "peri",
+   "korean_trap": false,
+   "csat": false,
+   "target": 3,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G022",
+   "band": "1-2",
+   "name": "수사와 복수, hundred에 -s 없음, hundreds of",
+   "carriers": [
+    "hundred",
+    "thousand",
+    "million"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G023",
+   "band": "1-2",
+   "name": "서수와 the (the first)",
+   "carriers": [
+    "first",
+    "second",
+    "third"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G024",
+   "band": "1-2",
+   "name": "There is/are와 수일치",
+   "carriers": [
+    "there"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": "There is/are",
+   "now": 77
+  },
+  {
+   "id": "G025",
+   "band": "1-2",
+   "name": "How many / How much",
+   "carriers": [
+    "many",
+    "much",
+    "how"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G026",
+   "band": "1-2",
+   "name": "some·any·no + 명사",
+   "carriers": [
+    "some",
+    "any",
+    "no"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G027",
+   "band": "1-2",
+   "name": "many·much·a lot of·a few·a little",
+   "carriers": [
+    "many",
+    "much",
+    "few",
+    "little"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G028",
+   "band": "1-2",
+   "name": "일반동사 현재와 3인칭 -s, does/doesn't",
+   "carriers": [
+    "like",
+    "have",
+    "go",
+    "do"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": "3인칭 단수 -s",
+   "now": 956
+  },
+  {
+   "id": "G029",
+   "band": "1-2",
+   "name": "빈도부사의 위치",
+   "carriers": [
+    "always",
+    "usually",
+    "often",
+    "sometimes",
+    "never"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G030",
+   "band": "1-2",
+   "name": "현재시제의 쓰임 (습관·변하지 않는 사실)",
+   "carriers": [
+    "usually",
+    "every"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G031",
+   "band": "1-2",
+   "name": "소유격 's와 of",
+   "carriers": [
+    "‘s",
+    "of"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G032",
+   "band": "1-2",
+   "name": "everyone·nobody 단수 취급, each/every + 단수",
+   "carriers": [
+    "everybody",
+    "nobody",
+    "each",
+    "every"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": true,
+   "target": 15,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G033",
+   "band": "1-2",
+   "name": "관사 없이 쓰는 말 (play soccer, have lunch, by bus)과 the (the sun, play the piano)",
+   "carriers": [
+    "lunch",
+    "soccer",
+    "bus",
+    "piano"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G034",
+   "band": "1-2",
+   "name": "형용사의 자리 (명사 앞 / be 뒤)",
+   "carriers": [
+    "new",
+    "big",
+    "happy"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G035",
+   "band": "3",
+   "name": "때의 전치사 at·on·in",
+   "carriers": [
+    "at",
+    "on",
+    "in",
+    "요일",
+    "월"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G036",
+   "band": "3",
+   "name": "곳의 전치사 at·on·in·under·next to",
+   "carriers": [
+    "at",
+    "on",
+    "in",
+    "under"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G037",
+   "band": "3",
+   "name": "명령문, Let's, Don't",
+   "carriers": [
+    "let",
+    "don't"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A2",
+   "measure": "명령문",
+   "now": 503
+  },
+  {
+   "id": "G038",
+   "band": "3",
+   "name": "시각·날짜 읽기 (seven thirty, May 1st)",
+   "carriers": [
+    "o'clock",
+    "숫자",
+    "월"
+   ],
+   "tier": "peri",
+   "korean_trap": false,
+   "csat": false,
+   "target": 3,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G039",
+   "band": "3",
+   "name": "날씨·시간·거리의 it",
+   "carriers": [
+    "it"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G040",
+   "band": "3",
+   "name": "for·during·before·after + 명사",
+   "carriers": [
+    "for",
+    "during",
+    "before",
+    "after"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G041",
+   "band": "4",
+   "name": "was/were",
+   "carriers": [
+    "be"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": "was/were·had·did",
+   "now": 567
+  },
+  {
+   "id": "G042",
+   "band": "4",
+   "name": "규칙 과거 -ed의 철자와 소리",
+   "carriers": [
+    "play",
+    "stop",
+    "study"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A1",
+   "measure": "과거(규칙)",
+   "now": 1179
+  },
+  {
+   "id": "G043",
+   "band": "4",
+   "name": "불규칙 과거",
+   "carriers": [
+    "go",
+    "eat",
+    "see",
+    "take"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": "과거(불규칙)",
+   "now": 1061
+  },
+  {
+   "id": "G044",
+   "band": "4",
+   "name": "did 의문·부정 + 동사원형 (didn't go)",
+   "carriers": [
+    "do"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G045",
+   "band": "4",
+   "name": "과거를 나타내는 말 (ago, last, yesterday)",
+   "carriers": [
+    "ago",
+    "last",
+    "yesterday"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G046",
+   "band": "5",
+   "name": "현재진행과 진행형을 쓰지 않는 동사 (know, like)",
+   "carriers": [
+    "be",
+    "know"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": "진행형",
+   "now": 118
+  },
+  {
+   "id": "G047",
+   "band": "5",
+   "name": "과거진행",
+   "carriers": [
+    "be"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G048",
+   "band": "5",
+   "name": "미래 will / be going to / 정해진 일정의 진행형",
+   "carriers": [
+    "will",
+    "going"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": "미래 will",
+   "now": 186
+  },
+  {
+   "id": "G049",
+   "band": "5",
+   "name": "can·could (능력·허락·부탁)와 조동사 뒤 동사원형",
+   "carriers": [
+    "can",
+    "could"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": true,
+   "target": 8,
+   "egp": "A1",
+   "measure": "조동사",
+   "now": 459
+  },
+  {
+   "id": "G050",
+   "band": "5",
+   "name": "must·have to·should, must not과 don't have to",
+   "carriers": [
+    "must",
+    "have",
+    "should"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G051",
+   "band": "5",
+   "name": "may·might (가능성)",
+   "carriers": [
+    "may",
+    "might"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G052",
+   "band": "5",
+   "name": "비교급 -er/more + than, 불규칙 비교",
+   "carriers": [
+    "than",
+    "more",
+    "better"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": false,
+   "target": 15,
+   "egp": "A2",
+   "measure": "비교급",
+   "now": 185
+  },
+  {
+   "id": "G053",
+   "band": "5",
+   "name": "최상급 the -est/most + in/of",
+   "carriers": [
+    "most",
+    "best"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A2",
+   "measure": "최상급",
+   "now": 97
+  },
+  {
+   "id": "G054",
+   "band": "5",
+   "name": "원급 비교 as ~ as",
+   "carriers": [
+    "as"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "B1",
+   "measure": "as ~ as",
+   "now": 4
+  },
+  {
+   "id": "G055",
+   "band": "5",
+   "name": "감각동사 + 형용사 (look happy, sound good)",
+   "carriers": [
+    "look",
+    "sound",
+    "feel",
+    "taste",
+    "smell"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": true,
+   "target": 15,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G056",
+   "band": "5",
+   "name": "would like, Would/Could you ~? (공손한 부탁)",
+   "carriers": [
+    "would",
+    "could"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G057",
+   "band": "6-12",
+   "name": "to부정사를 목적어로 쓰는 동사 (want/hope/decide to)",
+   "carriers": [
+    "want",
+    "hope",
+    "decide",
+    "plan"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": false,
+   "target": 15,
+   "egp": "A1",
+   "measure": "to부정사",
+   "now": 533
+  },
+  {
+   "id": "G058",
+   "band": "6-12",
+   "name": "동명사를 목적어로 쓰는 동사 (enjoy/finish/mind/avoid -ing)",
+   "carriers": [
+    "enjoy",
+    "finish",
+    "mind",
+    "avoid"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "A2",
+   "measure": "동명사",
+   "now": 193
+  },
+  {
+   "id": "G059",
+   "band": "6-12",
+   "name": "to부정사와 동명사로 뜻이 갈리는 동사 (stop/remember/try/forget)",
+   "carriers": [
+    "stop",
+    "remember",
+    "try",
+    "forget"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "B2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G060",
+   "band": "6-12",
+   "name": "명사를 꾸미는 to부정사 (something to drink)",
+   "carriers": [
+    "something",
+    "time"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G061",
+   "band": "6-12",
+   "name": "목적의 to부정사 (in order to)",
+   "carriers": [
+    "to",
+    "order"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G062",
+   "band": "6-12",
+   "name": "의문사 + to부정사 (how to)",
+   "carriers": [
+    "how"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G063",
+   "band": "6-12",
+   "name": "4형식 (give/send/show/tell + 사람 + 물건)과 to/for 전환",
+   "carriers": [
+    "give",
+    "send",
+    "show",
+    "buy"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": false,
+   "target": 15,
+   "egp": "A2",
+   "measure": "4형식",
+   "now": 129
+  },
+  {
+   "id": "G064",
+   "band": "6-12",
+   "name": "시간·조건 부사절의 현재 = 미래 (when it rains)",
+   "carriers": [
+    "when",
+    "if",
+    "until"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A2",
+   "measure": "시간 부사절",
+   "now": 96
+  },
+  {
+   "id": "G065",
+   "band": "6-12",
+   "name": "because와 because of, so, although",
+   "carriers": [
+    "because",
+    "so",
+    "although"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "A1",
+   "measure": "because 절",
+   "now": 11
+  },
+  {
+   "id": "G066",
+   "band": "6-12",
+   "name": "that 명사절 (I think that ~)",
+   "carriers": [
+    "think",
+    "know",
+    "hope"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A2",
+   "measure": "that 명사절",
+   "now": 53
+  },
+  {
+   "id": "G067",
+   "band": "6-12",
+   "name": "접속부사 however·therefore와 문장 연결",
+   "carriers": [
+    "however",
+    "therefore",
+    "moreover"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G068",
+   "band": "6-12",
+   "name": "-thing + 형용사 (something strange)",
+   "carriers": [
+    "something",
+    "nothing",
+    "anything"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G069",
+   "band": "6-12",
+   "name": "부가의문문",
+   "carriers": [
+    "isn't",
+    "don't"
+   ],
+   "tier": "peri",
+   "korean_trap": false,
+   "csat": false,
+   "target": 3,
+   "egp": "A2",
+   "measure": "부가의문문",
+   "now": 0
+  },
+  {
+   "id": "G070",
+   "band": "6-12",
+   "name": "감탄문 What a ~ / How ~",
+   "carriers": [
+    "what",
+    "how"
+   ],
+   "tier": "peri",
+   "korean_trap": false,
+   "csat": false,
+   "target": 3,
+   "egp": "A2",
+   "measure": "감탄문",
+   "now": 4
+  },
+  {
+   "id": "G071",
+   "band": "6-12",
+   "name": "동명사 주어와 전치사 뒤 동명사 (good at -ing)",
+   "carriers": [
+    "interested",
+    "good"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G072",
+   "band": "6-12",
+   "name": "형용사 + to부정사 (easy to, happy to)",
+   "carriers": [
+    "easy",
+    "happy",
+    "ready"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G073",
+   "band": "6-12",
+   "name": "가주어 It ~ to부정사",
+   "carriers": [
+    "it"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "B1",
+   "measure": "가주어 it",
+   "now": 0
+  },
+  {
+   "id": "G074",
+   "band": "6-12",
+   "name": "too ~ to / enough to",
+   "carriers": [
+    "too",
+    "enough"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "B1",
+   "measure": "too ~ to",
+   "now": 19
+  },
+  {
+   "id": "G075",
+   "band": "6-12",
+   "name": "재귀대명사 (myself, enjoy yourself)",
+   "carriers": [
+    "myself",
+    "yourself"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": true,
+   "target": 8,
+   "egp": "A2",
+   "measure": "재귀대명사",
+   "now": 28
+  },
+  {
+   "id": "G076",
+   "band": "6-12",
+   "name": "one·another·the other·others",
+   "carriers": [
+    "one",
+    "another",
+    "other"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": true,
+   "target": 8,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G077",
+   "band": "13-20",
+   "name": "현재완료 경험 (ever, never, have been to)",
+   "carriers": [
+    "ever",
+    "never",
+    "before"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A2",
+   "measure": "현재완료",
+   "now": 30
+  },
+  {
+   "id": "G078",
+   "band": "13-20",
+   "name": "현재완료 완료·결과 (just, already, yet)",
+   "carriers": [
+    "just",
+    "already",
+    "yet"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G079",
+   "band": "13-20",
+   "name": "현재완료 계속 (for, since)",
+   "carriers": [
+    "for",
+    "since"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G080",
+   "band": "13-20",
+   "name": "현재완료와 과거의 구별 (yesterday와 함께 쓰지 않음)",
+   "carriers": [
+    "ago",
+    "yesterday",
+    "recently"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G081",
+   "band": "13-20",
+   "name": "현재완료 진행",
+   "carriers": [
+    "since",
+    "all day"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G082",
+   "band": "13-20",
+   "name": "수동태 be + 과거분사, by",
+   "carriers": [
+    "be",
+    "by",
+    "invent",
+    "build"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "A2",
+   "measure": "수동태",
+   "now": 187
+  },
+  {
+   "id": "G083",
+   "band": "13-20",
+   "name": "수동태의 시제·조동사 (was built, can be seen)",
+   "carriers": [
+    "build",
+    "see"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G084",
+   "band": "13-20",
+   "name": "by 말고 다른 전치사를 쓰는 수동 (be made of, be known for)",
+   "carriers": [
+    "made",
+    "known",
+    "interested"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G085",
+   "band": "13-20",
+   "name": "관계대명사 who/which/that 주격",
+   "carriers": [
+    "who",
+    "which",
+    "that"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "A2",
+   "measure": "관계대명사",
+   "now": 36
+  },
+  {
+   "id": "G086",
+   "band": "13-20",
+   "name": "관계대명사 목적격과 생략",
+   "carriers": [
+    "which",
+    "that"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G087",
+   "band": "13-20",
+   "name": "관계대명사 whose",
+   "carriers": [
+    "whose"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": true,
+   "target": 8,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G088",
+   "band": "13-20",
+   "name": "5형식 make/keep/find + 목적어 + 형용사·명사",
+   "carriers": [
+    "make",
+    "keep",
+    "find",
+    "call"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "B1",
+   "measure": "5형식(목적격 보어)",
+   "now": 52
+  },
+  {
+   "id": "G089",
+   "band": "13-20",
+   "name": "want/ask/tell/allow + 목적어 + to부정사",
+   "carriers": [
+    "want",
+    "ask",
+    "tell",
+    "allow",
+    "expect"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G090",
+   "band": "13-20",
+   "name": "사역동사 make/let/have + 목적어 + 동사원형",
+   "carriers": [
+    "make",
+    "let",
+    "have"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": false,
+   "target": 15,
+   "egp": "B1",
+   "measure": "사역동사",
+   "now": 111
+  },
+  {
+   "id": "G091",
+   "band": "13-20",
+   "name": "지각동사 see/hear + 목적어 + 동사원형/-ing",
+   "carriers": [
+    "see",
+    "hear",
+    "watch",
+    "feel"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": false,
+   "target": 15,
+   "egp": "B2",
+   "measure": "지각동사",
+   "now": 6
+  },
+  {
+   "id": "G092",
+   "band": "13-20",
+   "name": "help + 목적어 + (to) 동사원형",
+   "carriers": [
+    "help"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": true,
+   "target": 8,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G093",
+   "band": "13-20",
+   "name": "비교급 강조 (much, even, far)와 the 비교급, the 비교급",
+   "carriers": [
+    "much",
+    "even",
+    "far"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "B2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G094",
+   "band": "13-20",
+   "name": "배수 비교 (twice as ~ as)",
+   "carriers": [
+    "twice",
+    "times"
+   ],
+   "tier": "peri",
+   "korean_trap": false,
+   "csat": false,
+   "target": 3,
+   "egp": "B2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G095",
+   "band": "13-20",
+   "name": "최상급의 뜻을 내는 비교 (No other ~ than)",
+   "carriers": [
+    "no",
+    "other"
+   ],
+   "tier": "peri",
+   "korean_trap": false,
+   "csat": false,
+   "target": 3,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G096",
+   "band": "13-20",
+   "name": "used to / be used to -ing / be used to 동사원형",
+   "carriers": [
+    "used"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": true,
+   "target": 15,
+   "egp": "B1",
+   "measure": "used to",
+   "now": 4
+  },
+  {
+   "id": "G097",
+   "band": "13-20",
+   "name": "감정 분사 -ing/-ed (boring/bored)",
+   "carriers": [
+    "bore",
+    "interest",
+    "excite",
+    "surprise"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": true,
+   "target": 15,
+   "egp": "A2",
+   "measure": "분사 형용사",
+   "now": 75
+  },
+  {
+   "id": "G098",
+   "band": "13-20",
+   "name": "had better, would rather",
+   "carriers": [
+    "better",
+    "rather"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G099",
+   "band": "13-20",
+   "name": "간접의문문 어순 (Do you know where he lives?)",
+   "carriers": [
+    "know",
+    "wonder"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": false,
+   "target": 15,
+   "egp": "A2",
+   "measure": "간접의문문·wh 명사절",
+   "now": 98
+  },
+  {
+   "id": "G100",
+   "band": "21-30",
+   "name": "관계대명사 what (= the thing that)과 that의 구별",
+   "carriers": [
+    "what"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "B2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G101",
+   "band": "21-30",
+   "name": "관계부사 where/when/why/how와 관계대명사의 구별",
+   "carriers": [
+    "where",
+    "when",
+    "why"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "B1",
+   "measure": "관계부사",
+   "now": 3
+  },
+  {
+   "id": "G102",
+   "band": "21-30",
+   "name": "전치사 + 관계대명사 (in which)",
+   "carriers": [
+    "which"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": true,
+   "target": 8,
+   "egp": "B2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G103",
+   "band": "21-30",
+   "name": "계속적 용법 (, which / , who)",
+   "carriers": [
+    "which",
+    "who"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": true,
+   "target": 8,
+   "egp": "B2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G104",
+   "band": "21-30",
+   "name": "명사를 꾸미는 분사 (a broken window, people living here)",
+   "carriers": [
+    "broken",
+    "living"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "B2",
+   "measure": "분사 후치 수식",
+   "now": 34
+  },
+  {
+   "id": "G105",
+   "band": "21-30",
+   "name": "whether/if 명사절과 what의 구별 (뒤 절이 완전하면 whether)",
+   "carriers": [
+    "whether",
+    "if"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G106",
+   "band": "21-30",
+   "name": "가정법 과거 (If I were ~, I would ~)",
+   "carriers": [
+    "if",
+    "were",
+    "would"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": false,
+   "target": 15,
+   "egp": "B1",
+   "measure": "가정법",
+   "now": 2
+  },
+  {
+   "id": "G107",
+   "band": "21-30",
+   "name": "I wish + 과거",
+   "carriers": [
+    "wish"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G108",
+   "band": "21-30",
+   "name": "과거완료 (had + 과거분사)",
+   "carriers": [
+    "had",
+    "by the time"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": false,
+   "target": 15,
+   "egp": "B1",
+   "measure": "과거완료",
+   "now": 1
+  },
+  {
+   "id": "G109",
+   "band": "21-30",
+   "name": "so ~ that / such ~ that / so that",
+   "carriers": [
+    "so",
+    "such"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "B1",
+   "measure": "so/such ~ that",
+   "now": 1
+  },
+  {
+   "id": "G110",
+   "band": "21-30",
+   "name": "상관접속사 both A and B, either/neither, not only A but also B",
+   "carriers": [
+    "both",
+    "either",
+    "neither"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": true,
+   "target": 8,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G111",
+   "band": "21-30",
+   "name": "긴 주어와 동사의 수일치",
+   "carriers": [
+    "(전 구간)"
+   ],
+   "tier": "core",
+   "korean_trap": true,
+   "csat": true,
+   "target": 15,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G112",
+   "band": "21-30",
+   "name": "문장의 동사와 준동사 구별",
+   "carriers": [
+    "(전 구간)"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G113",
+   "band": "21-30",
+   "name": "병렬 구조 (and·or 양쪽을 같은 모양으로)",
+   "carriers": [
+    "and",
+    "or",
+    "but"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G114",
+   "band": "21-30",
+   "name": "대명사 수 일치 (it/them, that/those)와 재귀·목적격 구별",
+   "carriers": [
+    "its",
+    "their",
+    "themselves",
+    "those"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G115",
+   "band": "21-30",
+   "name": "형용사와 부사의 자리 (목적격 보어는 형용사)",
+   "carriers": [
+    "(전 구간)"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G116",
+   "band": "21-30",
+   "name": "the + 형용사 = ~한 사람들 (복수 취급)",
+   "carriers": [
+    "rich",
+    "poor",
+    "old",
+    "young"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": true,
+   "target": 8,
+   "egp": "B2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G117",
+   "band": "21-30",
+   "name": "동격 명사구 (Ms. Kim, our teacher, ~)",
+   "carriers": [
+    "(전 구간)"
+   ],
+   "tier": "peri",
+   "korean_trap": false,
+   "csat": false,
+   "target": 3,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G118",
+   "band": "21-30",
+   "name": "to부정사의 의미상 주어 (for/of)와 not to",
+   "carriers": [
+    "for",
+    "of"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G119",
+   "band": "21-30",
+   "name": "동명사의 의미상 주어와 완료형",
+   "carriers": [
+    "(전 구간)"
+   ],
+   "tier": "peri",
+   "korean_trap": false,
+   "csat": false,
+   "target": 3,
+   "egp": "B2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G120",
+   "band": "21-30",
+   "name": "간접화법 기초 (said that, asked if)",
+   "carriers": [
+    "say",
+    "tell",
+    "ask"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "A2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G121",
+   "band": "31-45",
+   "name": "분사구문 (시간·이유·동시동작)과 수동 분사구문",
+   "carriers": [
+    "(전 구간)"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "B2",
+   "measure": "분사구문",
+   "now": 4
+  },
+  {
+   "id": "G122",
+   "band": "31-45",
+   "name": "with + 명사 + 분사",
+   "carriers": [
+    "with"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": true,
+   "target": 8,
+   "egp": "C1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G123",
+   "band": "31-45",
+   "name": "가정법 과거완료 (If I had p.p., I would have p.p.)",
+   "carriers": [
+    "had",
+    "would"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": false,
+   "target": 15,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G124",
+   "band": "31-45",
+   "name": "혼합 가정법",
+   "carriers": [
+    "if"
+   ],
+   "tier": "peri",
+   "korean_trap": false,
+   "csat": false,
+   "target": 3,
+   "egp": "C1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G125",
+   "band": "31-45",
+   "name": "as if / as though",
+   "carriers": [
+    "as"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "B2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G126",
+   "band": "31-45",
+   "name": "Without / But for / If it were not for",
+   "carriers": [
+    "without"
+   ],
+   "tier": "peri",
+   "korean_trap": false,
+   "csat": false,
+   "target": 3,
+   "egp": "C1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G127",
+   "band": "31-45",
+   "name": "if를 생략한 도치 (Had I known ~)",
+   "carriers": [
+    "had",
+    "were"
+   ],
+   "tier": "peri",
+   "korean_trap": false,
+   "csat": false,
+   "target": 3,
+   "egp": "C1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G128",
+   "band": "31-45",
+   "name": "조동사 + have p.p. (should have, must have, can't have)",
+   "carriers": [
+    "should",
+    "must",
+    "can't"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "B1",
+   "measure": "조동사+have p.p.",
+   "now": 0
+  },
+  {
+   "id": "G129",
+   "band": "31-45",
+   "name": "It is ~ that 강조 구문",
+   "carriers": [
+    "it"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": true,
+   "target": 8,
+   "egp": "C2",
+   "measure": "강조 It ~ that",
+   "now": 2
+  },
+  {
+   "id": "G130",
+   "band": "31-45",
+   "name": "do 강조 (I do like it)",
+   "carriers": [
+    "do"
+   ],
+   "tier": "peri",
+   "korean_trap": false,
+   "csat": true,
+   "target": 3,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G131",
+   "band": "31-45",
+   "name": "부정어 도치 (Never have I ~, Not only did ~)",
+   "carriers": [
+    "never",
+    "only",
+    "rarely"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": true,
+   "target": 8,
+   "egp": "B2",
+   "measure": "도치",
+   "now": 3
+  },
+  {
+   "id": "G132",
+   "band": "31-45",
+   "name": "장소·보어 도치 (Here comes ~, Among them was ~)",
+   "carriers": [
+    "here",
+    "among"
+   ],
+   "tier": "peri",
+   "korean_trap": false,
+   "csat": true,
+   "target": 3,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G133",
+   "band": "31-45",
+   "name": "so/neither + 조동사 + 주어",
+   "carriers": [
+    "so",
+    "neither"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G134",
+   "band": "31-45",
+   "name": "시제 일치와 그 예외",
+   "carriers": [
+    "said",
+    "knew"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G135",
+   "band": "31-45",
+   "name": "4·5형식의 수동태 (was given, was made to go)",
+   "carriers": [
+    "give",
+    "make"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": true,
+   "target": 8,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G136",
+   "band": "31-45",
+   "name": "대동사 do/does/did와 be/have (앞 동사의 종류·시제에 맞춤)",
+   "carriers": [
+    "do"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": true,
+   "target": 8,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G137",
+   "band": "31-45",
+   "name": "동격 that (the fact that)과 관계대명사 that의 구별",
+   "carriers": [
+    "fact",
+    "idea",
+    "news"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "B2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G138",
+   "band": "31-45",
+   "name": "복합관계사 whatever·whoever·however",
+   "carriers": [
+    "whatever",
+    "however"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": true,
+   "target": 8,
+   "egp": "C1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G139",
+   "band": "31-45",
+   "name": "접속사와 전치사의 구별 (while/during, although/despite)",
+   "carriers": [
+    "while",
+    "during",
+    "despite"
+   ],
+   "tier": "core",
+   "korean_trap": false,
+   "csat": true,
+   "target": 15,
+   "egp": "B2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G140",
+   "band": "31-45",
+   "name": "부분 부정과 부정 표현 (not always, hardly, no longer)",
+   "carriers": [
+    "hardly",
+    "always",
+    "longer"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": false,
+   "target": 8,
+   "egp": "C1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G141",
+   "band": "31-45",
+   "name": "가목적어 it (make it possible to)",
+   "carriers": [
+    "make",
+    "find"
+   ],
+   "tier": "std",
+   "korean_trap": false,
+   "csat": true,
+   "target": 8,
+   "egp": "B2",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G142",
+   "band": "31-45",
+   "name": "생략과 대용 (if possible, I think so)",
+   "carriers": [
+    "so",
+    "possible"
+   ],
+   "tier": "peri",
+   "korean_trap": false,
+   "csat": false,
+   "target": 3,
+   "egp": "B1",
+   "measure": null,
+   "now": null
+  },
+  {
+   "id": "G143",
+   "band": "31-45",
+   "name": "무생물 주어 (This road takes you to ~)",
+   "carriers": [
+    "take",
+    "lead",
+    "allow"
+   ],
+   "tier": "peri",
+   "korean_trap": false,
+   "csat": false,
+   "target": 3,
+   "egp": "B2",
+   "measure": null,
+   "now": null
+  }
+ ]
+}
