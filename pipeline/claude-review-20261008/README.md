@@ -110,6 +110,8 @@ Claude가 Codex 3주 작업(78커밋) 후의 최신판을 리뷰했다. 리뷰 �
 
 영신 결정(26.10.10): 같은 뜻의 표준어가 이미 있는 다른 꼴과 FABLE 범위와 상관없는 좁은 말 71개(78장)를 뺐다. 기준은 [PRINCIPLES 2-8](../../PRINCIPLES.md#2-8-fable-범위와-표제어-정리). 처음(커밋 2c1d109)에는 '기초 5,000'으로 읽고 73개(90장)를 뺐으나, 범위(거의 처음부터 고교 졸업·수능 수준)를 바로잡으며 71개를 되돌리고 2차 후보에서 69개를 더했다. 원장은 배포된 DATA(56005cc) 기준으로 다시 만들었다. 저작 원본은 바꾸지 않고 조립 단계에서 뺐으므로 이 원장에는 DATA만 있다(카드 78장 삭제 위치와 58개 연습의 preDeletion). 삭제만 있는 변경은 `build-deletion-ledger.cjs`로 만든다(범용 diff는 당겨진 카드를 값 변경으로 적어 키 순서가 어긋난다. `LEDGER_BASE`로 비교 기준 커밋을 정한다).
 
-**narrow-notes-20261010** (복원 체인 맨 위): 정리에서 뺀 좁은 말을 관련 카드 10장 해설 끝에 적었다(acre→area 등, PRINCIPLES 2-8). **oxford-20261010**: Oxford 3000 보강 443개(508장)를 6~44세트 끝 새 연습 36개로 넣고, 같은 칸 수 경쟁어 안내로 기존 카드 5장(thing·pretty·degree·chief·typical) 해설을 고쳤다. 지침은 `../oxford/BRIEF.md`. **variant-notes-20261010**: 뺀 다른 꼴을 표준어 카드 38장 해설 첫머리에 적었다.
+**set0-20261010** (복원 체인 맨 위): 0세트를 문법 순서 23연습·234장으로 다시 묶었다(5세트 38장·1세트 no를 옮기고 새 카드 3장, 68장 내용 수정, PRINCIPLES 12). DATA와 저작 원본 4개(lesson00·lesson01·set05·set19)를 담는다. 진도 잇기는 `../set0-20261010/`과 [pipeline README](../README.md#0세트-재구성--2026-10-10). 이 원장부터 범용 원장은 `build-ledger.cjs`로 만든다: `LEDGER_DATE=2026-10-10 node pipeline/claude-review-20261008/build-ledger.cjs <이름> <기준 커밋> '<승인>' '<요약>'`. 카드가 자리를 바꿔도 되도록 키 순서를 따로 적고, 배열 끝에서 여러 개가 빠지면 삭제를 내림차순으로 적는다(`ledger-lib.cjs`는 기존 원장 때문에 그대로 둔다).
+
+**narrow-notes-20261010**: 정리에서 뺀 좁은 말을 관련 카드 10장 해설 끝에 적었다(acre→area 등, PRINCIPLES 2-8). **oxford-20261010**: Oxford 3000 보강 443개(508장)를 6~44세트 끝 새 연습 36개로 넣고, 같은 칸 수 경쟁어 안내로 기존 카드 5장(thing·pretty·degree·chief·typical) 해설을 고쳤다. 지침은 `../oxford/BRIEF.md`. **variant-notes-20261010**: 뺀 다른 꼴을 표준어 카드 38장 해설 첫머리에 적었다.
 
 **cockroach-20261010**: roach를 표준형 cockroach로 바꿨다(영신 "roach의 교체에도 동의해"). 43세트 원본 카드의 표제어·IPA·해설만 바꾸고 예문·해석은 그대로 두었다. 모아둔 카드 ID는 배포된 roach ID로 고정했다(카드의 `savedId`). `pipeline/fable/in/set43.json`(선정 당시 목록)은 기록이라 roach로 둔다.

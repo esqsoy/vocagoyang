@@ -1,0 +1,7528 @@
+{
+ "id": "set0-20261010",
+ "base": "df95ea4",
+ "draft": "pipeline/grammar/set0-draft-20261010.json",
+ "progressId": "set0-20261010",
+ "note": "build-plan.cjs가 바꾸기 전 판에서 계산했다. 카드 참조의 lesson은 바꾸기 전 화면 세트다. resume의 from은 [세트 이름, 옛 제목, 판 이름들](판 이름 \"\"은 이름 없는 옛 저장).",
+ "exercises": [
+  {
+   "ex": 1,
+   "name": "인사와 나·너",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "hello",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 4 · 인사·담화\",\"hello\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: short-v1 1/2"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: heads-v2 1-7"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "hi",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 4 · 인사·담화\",\"hi\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: short-v1 1/2"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: heads-v2 1-7"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "bye",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 4 · 인사·담화\",\"bye\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: short-v1 1/2"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: heads-v2 1-7"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "thanks",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 4 · 인사·담화\",\"thanks\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: short-v1 1/2"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: heads-v2 1-7"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "I",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"I\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "you",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 1 · 401~410\",\"you\",1,\"\"]",
+     "priorKeys": [
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: topics-v4 16-28"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v3 15-27"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: short-v1 3/4"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v2 19-27"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "be",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 1 · 401~410\",\"be\",1,\"\"]",
+     "priorKeys": [
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: topics-v4 1-15"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v3 1-14"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: short-v1 1/4"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v2 1-10"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "be",
+     "si": 2,
+     "savedId": "[\"5세트\",\"Exercise 1 · 401~410\",\"be\",2,\"\"]",
+     "priorKeys": [
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: topics-v4 1-15"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v3 1-14"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: short-v1 1/4"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v2 1-10"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 2,
+   "name": "그·우리·그들과 대답",
+   "cards": [
+    {
+     "lesson": 5,
+     "word": "he",
+     "si": 1,
+     "savedId": "[\"fable-pool-20260927-set5-ex2\",\"Exercise 2 · 411~420\",\"he\",1,\"\"]",
+     "priorKeys": [
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: heads-v3 1-12"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: short-v1 2/3"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: heads-v2 10-16"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "she",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 3 · 421~430\",\"she\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v3 12-21"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: short-v1 3/3"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v2 16-21"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "it",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 1 · 401~410\",\"it\",1,\"\"]",
+     "priorKeys": [
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: topics-v4 16-28"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v3 15-27"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: short-v1 3/4"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v2 19-27"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "we",
+     "si": 1,
+     "savedId": "[\"fable-pool-20260927-set5-ex2\",\"Exercise 2 · 411~420\",\"we\",1,\"\"]",
+     "priorKeys": [
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: heads-v3 13-23"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: short-v1 3/3"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: heads-v2 17-23"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "they",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 3 · 421~430\",\"they\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v3 1-11"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: short-v1 1/3"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v2 1-8"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "yes",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 9 · 481~490\",\"yes\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 9 · 481~490"
+      ],
+      [
+       "5세트",
+       "Exercise 9 · 481~490 :: short-v1 1/2"
+      ],
+      [
+       "5세트",
+       "Exercise 9 · 481~490 :: heads-v2 1-7"
+      ]
+     ]
+    },
+    {
+     "lesson": 1,
+     "word": "no",
+     "si": 1,
+     "savedId": "[\"1세트\",\"Exercise 1 · 1~10\",\"no\",1,\"\"]",
+     "priorKeys": [
+      [
+       "1세트",
+       "Exercise 1 · 1~10 :: heads-v3 1-12"
+      ],
+      [
+       "1세트",
+       "Exercise 1 · 1~10 :: short-v1 1/3"
+      ],
+      [
+       "1세트",
+       "Exercise 1 · 1~10 :: heads-v2 1-12"
+      ],
+      [
+       "1세트",
+       "Exercise 1 · 1~10"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "not",
+     "si": 1,
+     "savedId": "[\"fable-pool-20260927-set5-ex2\",\"Exercise 2 · 411~420\",\"not\",1,\"\"]",
+     "priorKeys": [
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: heads-v3 13-23"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: short-v1 3/3"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: heads-v2 17-23"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "do",
+     "si": 2,
+     "savedId": "[\"fable-pool-20260927-set5-ex2\",\"Exercise 2 · 411~420\",\"do\",2,\"\"]",
+     "priorKeys": [
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: heads-v3 1-12"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: short-v1 1/3"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: heads-v2 1-9"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 3,
+   "name": "나를·나의",
+   "cards": [
+    {
+     "lesson": 5,
+     "word": "my",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 3 · 421~430\",\"my\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v3 12-21"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: short-v1 3/3"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v2 16-21"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "your",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 4 · 431~440\",\"your\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: heads-v3 1-11"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: short-v1 2/3"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: heads-v2 9-15"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "me",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 4 · 431~440\",\"me\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: heads-v3 1-11"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: short-v1 2/3"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: heads-v2 1-8"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "him",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 5 · 441~450\",\"him\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v3 12-20"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: short-v1 3/3"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v2 14-20"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "her",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 5 · 441~450\",\"her\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v3 12-20"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: short-v1 2/3"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v2 8-13"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "her",
+     "si": 2,
+     "savedId": "[\"5세트\",\"Exercise 5 · 441~450\",\"her\",2,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v3 12-20"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: short-v1 2/3"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v2 8-13"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "his",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 3 · 421~430\",\"his\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v3 1-11"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: short-v1 1/3"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v2 1-8"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "his",
+     "si": 2,
+     "savedId": "[\"5세트\",\"Exercise 3 · 421~430\",\"his\",2,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v3 1-11"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: short-v1 2/3"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v2 1-8"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "its",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 9 · 481~490\",\"its\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 9 · 481~490"
+      ],
+      [
+       "5세트",
+       "Exercise 9 · 481~490 :: short-v1 2/2"
+      ],
+      [
+       "5세트",
+       "Exercise 9 · 481~490 :: heads-v2 8-13"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "our",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 6 · 451~460\",\"our\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 6 · 451~460 :: heads-v3 1-8"
+      ],
+      [
+       "5세트",
+       "Exercise 6 · 451~460 :: short-v1 2/3"
+      ],
+      [
+       "5세트",
+       "Exercise 6 · 451~460 :: heads-v2 1-8"
+      ],
+      [
+       "5세트",
+       "Exercise 6 · 451~460"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "their",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 4 · 431~440\",\"their\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: heads-v3 12-21"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: short-v1 3/3"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: heads-v2 16-21"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "us",
+     "si": 1,
+     "savedId": "[\"fable-pool-20260927-set5-ex7\",\"Exercise 7 · 461~470\",\"us\",1,\"\"]",
+     "priorKeys": [
+      [
+       "fable-pool-20260927-set5-ex7",
+       "Exercise 7 · 461~470 :: heads-v3 1-8"
+      ],
+      [
+       "fable-pool-20260927-set5-ex7",
+       "Exercise 7 · 461~470 :: short-v1 1/3"
+      ],
+      [
+       "fable-pool-20260927-set5-ex7",
+       "Exercise 7 · 461~470 :: heads-v2 1-8"
+      ],
+      [
+       "fable-pool-20260927-set5-ex7",
+       "Exercise 7 · 461~470"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "them",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 5 · 441~450\",\"them\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v3 12-20"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: short-v1 3/3"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v2 14-20"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 4,
+   "name": "이것·저것과 a·the",
+   "cards": [
+    {
+     "lesson": 5,
+     "word": "this",
+     "si": 1,
+     "savedId": "[\"fable-pool-20260927-set5-ex2\",\"Exercise 2 · 411~420\",\"this\",1,\"\"]",
+     "priorKeys": [
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: heads-v3 13-23"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: short-v1 2/3"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: heads-v2 10-16"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "that",
+     "si": 1,
+     "savedId": "[\"fable-pool-20260927-set5-ex2\",\"Exercise 2 · 411~420\",\"that\",1,\"\"]",
+     "priorKeys": [
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: heads-v3 1-12"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: short-v1 1/3"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: heads-v2 1-9"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "here",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 6 · 451~460\",\"here\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 6 · 451~460 :: heads-v3 9-18"
+      ],
+      [
+       "5세트",
+       "Exercise 6 · 451~460 :: short-v1 2/3"
+      ],
+      [
+       "5세트",
+       "Exercise 6 · 451~460 :: heads-v2 9-18"
+      ],
+      [
+       "5세트",
+       "Exercise 6 · 451~460"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "there",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 5 · 441~450\",\"there\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v3 1-11"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: short-v1 2/3"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v2 8-13"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "a",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 1 · 401~410\",\"a\",1,\"\"]",
+     "priorKeys": [
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: topics-v4 1-15"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v3 1-14"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: short-v1 2/4"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v2 1-10"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "an",
+     "si": 1,
+     "savedId": "[\"19세트\",\"Exercise 10 · 1891~1900\",\"an\",1,\"\"]",
+     "priorKeys": [
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: topics-v4 1-15"
+      ],
+      [
+       "19세트",
+       "Exercise 10 · 1891~1900"
+      ],
+      [
+       "19세트",
+       "Exercise 10 · 1891~1900 :: short-v1 1/2"
+      ],
+      [
+       "19세트",
+       "Exercise 10 · 1891~1900 :: heads-v2 1-7"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "the",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 1 · 401~410\",\"the\",1,\"\"]",
+     "priorKeys": [
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: topics-v4 1-15"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v3 1-14"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: short-v1 1/4"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v2 1-10"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 5,
+   "name": "잇는 말과 묻는 말",
+   "cards": [
+    {
+     "lesson": 5,
+     "word": "and",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 1 · 401~410\",\"and\",1,\"\"]",
+     "priorKeys": [
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: topics-v4 1-15"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v3 1-14"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: short-v1 1/4"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v2 1-10"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "or",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 3 · 421~430\",\"or\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v3 1-11"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: short-v1 2/3"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v2 9-15"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "but",
+     "si": 1,
+     "savedId": "[\"fable-pool-20260927-set5-ex2\",\"Exercise 2 · 411~420\",\"but\",1,\"\"]",
+     "priorKeys": [
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: heads-v3 13-23"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: short-v1 3/3"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: heads-v2 17-23"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "what",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 3 · 421~430\",\"what\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v3 1-11"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: short-v1 1/3"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v2 1-8"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "who",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 4 · 431~440\",\"who\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: heads-v3 12-21"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: short-v1 2/3"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: heads-v2 9-15"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "where",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 8 · 471~480\",\"where\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 8 · 471~480 :: heads-v3 11-21"
+      ],
+      [
+       "5세트",
+       "Exercise 8 · 471~480 :: short-v1 3/3"
+      ],
+      [
+       "5세트",
+       "Exercise 8 · 471~480 :: heads-v2 16-21"
+      ],
+      [
+       "5세트",
+       "Exercise 8 · 471~480"
+      ]
+     ]
+    },
+    {
+     "lesson": 5,
+     "word": "how",
+     "si": 1,
+     "savedId": "[\"5세트\",\"Exercise 5 · 441~450\",\"how\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v3 12-20"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: short-v1 3/3"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v2 14-20"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "because of",
+     "si": 1,
+     "new": true
+    }
+   ]
+  },
+  {
+   "ex": 6,
+   "name": "수 I (0~10)",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "zero",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"zero\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 1-8"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "one",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"one\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 1-8"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "one",
+     "si": 2,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"one\",2,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 1-8"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "one",
+     "si": 3,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"one\",3,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 1-8"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "two",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"two\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 1-8"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "three",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"three\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 1-8"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "four",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"four\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 1-8"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "five",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"five\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 1-8"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "six",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"six\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 9-15"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "seven",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"seven\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 9-15"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "eight",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"eight\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 9-15"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "nine",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"nine\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 9-15"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 12-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "ten",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"ten\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 9-15"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 12-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 7,
+   "name": "수 II (11~19)",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "eleven",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"eleven\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 14-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 9-15"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 12-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "twelve",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"twelve\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 14-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 9-15"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 12-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "thirteen",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"thirteen\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 14-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 16-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 12-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "fourteen",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"fourteen\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 14-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 16-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 12-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "fifteen",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"fifteen\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 14-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 16-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 12-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "sixteen",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"sixteen\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 14-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 16-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 12-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "seventeen",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"seventeen\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 14-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 16-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 12-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "eighteen",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"eighteen\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 14-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 16-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 12-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "nineteen",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"nineteen\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: topics-v4 14-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v2 16-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19) :: heads-v3 12-22"
+      ],
+      [
+       "0세트",
+       "Exercise 1 · 수사 I (0~19)"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 8,
+   "name": "수 III (20~조)",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "twenty",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)\",\"twenty\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: short-v1 1/2"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: heads-v2 1-7"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "thirty",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)\",\"thirty\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: short-v1 1/2"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: heads-v2 1-7"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "forty",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)\",\"forty\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: short-v1 1/2"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: heads-v2 1-7"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "fifty",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)\",\"fifty\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: short-v1 1/2"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: heads-v2 1-7"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "sixty",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)\",\"sixty\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: short-v1 1/2"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: heads-v2 1-7"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "seventy",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)\",\"seventy\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: short-v1 1/2"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: heads-v2 1-7"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "eighty",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)\",\"eighty\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: short-v1 1/2"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: heads-v2 1-7"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "ninety",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)\",\"ninety\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: short-v1 2/2"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: heads-v2 8-13"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "hundred",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)\",\"hundred\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: short-v1 2/2"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: heads-v2 8-13"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "thousand",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)\",\"thousand\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: short-v1 2/2"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: heads-v2 8-13"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "million",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)\",\"million\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: short-v1 2/2"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: heads-v2 8-13"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "billion",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)\",\"billion\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: short-v1 2/2"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: heads-v2 8-13"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "trillion",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)\",\"trillion\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: short-v1 2/2"
+      ],
+      [
+       "0세트",
+       "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조) :: heads-v2 8-13"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 9,
+   "name": "요일과 on",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "Monday",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월\",\"Monday\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v3 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "Tuesday",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월\",\"Tuesday\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v3 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "Wednesday",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월\",\"Wednesday\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v3 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "Thursday",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월\",\"Thursday\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v3 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "Friday",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월\",\"Friday\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v3 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "Saturday",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월\",\"Saturday\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v3 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "Sunday",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월\",\"Sunday\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v3 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 10,
+   "name": "달과 in·on",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "January",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"January\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 8-19"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v3 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "February",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"February\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 8-19"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v3 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "march",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"march\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 8-19"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "April",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"April\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 8-19"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v2 10-17"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v3 10-17"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "may",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"may\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 8-19"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "June",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"June\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 8-19"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v2 10-17"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v3 10-17"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "July",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"July\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 8-19"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v2 10-17"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v3 10-17"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "August",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"August\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 8-19"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v2 10-17"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v3 10-17"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "September",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"September\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 8-19"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v2 10-17"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v3 10-17"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "October",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"October\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 8-19"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v2 10-17"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v3 10-17"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "November",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"November\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 8-19"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v2 10-17"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v3 10-17"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "December",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"December\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: topics-v4 8-19"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v2 10-17"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월 :: heads-v3 10-17"
+      ],
+      [
+       "0세트",
+       "Exercise 3 · 요일·월"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 11,
+   "name": "가족과 모두·아무도",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "dad",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"dad\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "cousin",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"cousin\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "grandparent",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"grandparent\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "boyfriend",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"boyfriend\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "girlfriend",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"girlfriend\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "teenager",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"teenager\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "everybody",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"everybody\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "somebody",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"somebody\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "nobody",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"nobody\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "no one",
+     "si": 1,
+     "new": true
+    }
+   ]
+  },
+  {
+   "ex": 12,
+   "name": "하는 사람 -er·-or·-ist",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "teacher",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"teacher\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 11-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "driver",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"driver\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 11-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "worker",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"worker\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 11-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "visitor",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"visitor\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 11-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "player",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"player\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 11-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "singer",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"singer\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 11-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "dancer",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"dancer\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 11-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "writer",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"writer\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 11-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "reader",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"reader\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 11-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "artist",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"artist\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 11-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "policeman",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 5 · 사람\",\"policeman\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: topics-v4 11-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 5 · 사람"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 13,
+   "name": "-ing가 된 말",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "reading",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"reading\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 1-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "writing",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"writing\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 1-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "spelling",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"spelling\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 1-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "swimming",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"swimming\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 5/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 31-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "cooking",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"cooking\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 5/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 31-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "dancing",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"dancing\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 5/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 31-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "shopping",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"shopping\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 11-20"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "hobby",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"hobby\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "routine",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"routine\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 14,
+   "name": "명사이자 동사",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "note",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"note\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 1-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "note",
+     "si": 2,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"note\",2,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 1-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "interview",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"interview\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "interview",
+     "si": 2,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"interview\",2,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "email",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"email\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "email",
+     "si": 2,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"email\",2,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "text",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"text\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 4/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 24-30"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "text",
+     "si": 2,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"text\",2,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 4/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 24-30"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "text",
+     "si": 3,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"text\",3,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 4/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 24-30"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "design",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"design\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 13-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 4/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 20-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 14-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "design",
+     "si": 2,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"design\",2,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 13-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 4/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 20-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 14-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 15,
+   "name": "학교와 공부",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "classroom",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"classroom\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 1-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "exam",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"exam\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 1-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "project",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"project\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 1-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "topic",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"topic\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 1-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "paragraph",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"paragraph\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 1-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "section",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"section\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 1-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "statement",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"statement\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 1-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "chart",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"chart\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 1-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 1-11"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "dialogue",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"dialogue\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 1-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "geography",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"geography\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "culture",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"culture\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "career",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"career\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: topics-v4 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v2 15-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부 :: heads-v3 12-21"
+      ],
+      [
+       "0세트",
+       "Exercise 6 · 학교·공부"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 16,
+   "name": "집과 옷",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "apartment",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"apartment\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 1/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 1-8"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "bathroom",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"bathroom\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 1/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 1-8"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "bedroom",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"bedroom\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 1/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 1-8"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "toilet",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"toilet\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 1/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 1-8"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "shower",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"shower\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 1/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 1-8"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "shower",
+     "si": 2,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"shower\",2,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 1/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 1-8"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "downstairs",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"downstairs\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 1/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 1-8"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "umbrella",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"umbrella\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 1/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 1-8"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "jacket",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"jacket\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 2/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 9-15"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "sweater",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"sweater\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 2/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 9-15"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "jeans",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"jeans\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 11-20"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 17,
+   "name": "먹는 것",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "lunch",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"lunch\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 11-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 2/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 9-15"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "sandwich",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"sandwich\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 11-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 2/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 9-15"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "salad",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"salad\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 11-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 2/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 9-15"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "carrot",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"carrot\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 11-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 2/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 9-15"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 14-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "tomato",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"tomato\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 11-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 2/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 9-15"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 14-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "diet",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"diet\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 11-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 2/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 16-23"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 14-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "diet",
+     "si": 2,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"diet\",2,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 11-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 3/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 16-23"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 14-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "menu",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"menu\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 11-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 3/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 16-23"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 14-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "ice cream",
+     "si": 1,
+     "new": true
+    }
+   ]
+  },
+  {
+   "ex": 18,
+   "name": "생활과 매체",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "midnight",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"midnight\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 11-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 3/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 16-23"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 14-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "vacation",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"vacation\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 11-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 3/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 16-23"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 14-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "passport",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"passport\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 11-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 3/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 16-23"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 14-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "euro",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"euro\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 11-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 3/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 16-23"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 14-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "museum",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"museum\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 11-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 3/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 16-23"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 14-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "supermarket",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"supermarket\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 11-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 4/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 24-30"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 14-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "festival",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"festival\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 11-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 4/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 24-30"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 14-25"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "photo",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"photo\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 4/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 24-30"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "video",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"video\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 4/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 24-30"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "blog",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"blog\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 5/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 31-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "TV",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"TV\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 5/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 31-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "CD",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"CD\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 5/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 31-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "DVD",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 7 · 집·생활\",\"DVD\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: topics-v4 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: short-v1 5/5"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v2 31-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활 :: heads-v3 26-37"
+      ],
+      [
+       "0세트",
+       "Exercise 7 · 집·생활"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 19,
+   "name": "인터넷과 앱",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "internet",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"internet\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "online",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"online\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "online",
+     "si": 2,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"online\",2,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "phone",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"phone\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "website",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"website\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 1/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 1-7"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "app",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"app\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 11-20"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 15-20"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "download",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"download\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 11-20"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 15-20"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "password",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"password\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 11-20"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 15-20"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 20,
+   "name": "주말과 놀이",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "movie",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"movie\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "weekend",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"weekend\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "homework",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"homework\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 1-10"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "gym",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"gym\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 11-20"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "guitar",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"guitar\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 11-20"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 2/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 8-14"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "cafe",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"cafe\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 11-20"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 15-20"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "beach",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"beach\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 11-20"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 15-20"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "bike",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 9 · 현대어\",\"bike\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v3 11-20"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: short-v1 3/3"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어 :: heads-v2 15-20"
+      ],
+      [
+       "0세트",
+       "Exercise 9 · 현대어"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 21,
+   "name": "느낌을 말하는 형용사",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "amazing",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"amazing\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 1-12"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 1/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "fantastic",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"fantastic\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 1-12"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 1/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "wonderful",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"wonderful\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 1-12"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 1/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "delicious",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"delicious\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 1-12"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 1/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "boring",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"boring\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 1-12"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 1/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "bored",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"bored\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 1-12"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 1/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "interested",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"interested\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 1-12"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 1/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "tired",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"tired\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 1-12"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 2/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "married",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"married\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 1-12"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 2/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 1-9"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 22,
+   "name": "형용사와 동사",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "natural",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"natural\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 1-12"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 2/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 10-19"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "natural",
+     "si": 2,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"natural\",2,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 1-12"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 2/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 10-19"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "natural",
+     "si": 3,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"natural\",3,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 1-12"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 2/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 10-19"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "negative",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"negative\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 13-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 2/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 10-19"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 1-13"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "positive",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"positive\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 13-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 2/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 10-19"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 14-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "positive",
+     "si": 2,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"positive\",2,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 13-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 3/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 10-19"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 14-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "extra",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"extra\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 13-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 3/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 10-19"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 14-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "final",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"final\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 13-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 3/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 10-19"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 14-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "final",
+     "si": 2,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"final\",2,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 13-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 3/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 10-19"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 14-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "final",
+     "si": 3,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"final\",3,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 13-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 3/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 10-19"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 14-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "blonde",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"blonde\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 13-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 3/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 20-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 14-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "create",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"create\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 13-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 4/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 20-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 14-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "discuss",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"discuss\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 13-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 4/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 20-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 14-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "prefer",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"prefer\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 13-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 4/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 20-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 14-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "relax",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"relax\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 13-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 4/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 20-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 14-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "ex": 23,
+   "name": "부사의 자리",
+   "cards": [
+    {
+     "lesson": 0,
+     "word": "maybe",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 4 · 인사·담화\",\"maybe\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: short-v1 1/2"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: heads-v2 1-7"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "however",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 4 · 인사·담화\",\"however\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: short-v1 1/2"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: heads-v2 1-7"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "however",
+     "si": 2,
+     "savedId": "[\"0세트\",\"Exercise 4 · 인사·담화\",\"however\",2,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: short-v1 2/2"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: heads-v2 1-7"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "later",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 4 · 인사·담화\",\"later\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: short-v1 2/2"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: heads-v2 8-12"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "probably",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 4 · 인사·담화\",\"probably\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: short-v1 2/2"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: heads-v2 8-12"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "usually",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 4 · 인사·담화\",\"usually\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: short-v1 2/2"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: heads-v2 8-12"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "quickly",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 4 · 인사·담화\",\"quickly\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: short-v1 2/2"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: heads-v2 8-12"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "angrily",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"angrily\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: topics-v4 13-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: short-v1 3/4"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v2 20-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사 :: heads-v3 14-27"
+      ],
+      [
+       "0세트",
+       "Exercise 8 · 형용사·동사"
+      ]
+     ]
+    },
+    {
+     "lesson": 0,
+     "word": "cannot",
+     "si": 1,
+     "savedId": "[\"0세트\",\"Exercise 4 · 인사·담화\",\"cannot\",1,\"\"]",
+     "priorKeys": [
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: short-v1 2/2"
+      ],
+      [
+       "0세트",
+       "Exercise 4 · 인사·담화 :: heads-v2 8-12"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "resume": [
+  {
+   "lesson": 0,
+   "word": "zero",
+   "si": 1,
+   "from": [
+    [
+     "0세트",
+     "Exercise 1-1 · 수사 · 0~10",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 1 · 수사 I (0~19)",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 1-1 · 수사 I (0~19)",
+     [
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 1-2 · 수사 I (0~19)",
+     [
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 0,
+   "word": "eleven",
+   "si": 1,
+   "from": [
+    [
+     "0세트",
+     "Exercise 1-2 · 수사 · 11~19",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 1-3 · 수사 I (0~19)",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 0,
+   "word": "twenty",
+   "si": 1,
+   "from": [
+    [
+     "0세트",
+     "Exercise 2 · 수사 II (20~90·백·천·백만·십억·조)",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 2-1 · 수사 II (20~90·백·천·백만·십억·조)",
+     [
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 2-2 · 수사 II (20~90·백·천·백만·십억·조)",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 0,
+   "word": "Monday",
+   "si": 1,
+   "from": [
+    [
+     "0세트",
+     "Exercise 3-1 · 요일",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 3 · 요일·월",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 3-1 · 요일·월",
+     [
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 3-2 · 요일·월",
+     [
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 0,
+   "word": "January",
+   "si": 1,
+   "from": [
+    [
+     "0세트",
+     "Exercise 3-2 · 요일·월",
+     [
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2"
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 3-2 · 월 · 1~12월",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 3-3 · 요일·월",
+     [
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 0,
+   "word": "hello",
+   "si": 1,
+   "from": [
+    [
+     "0세트",
+     "Exercise 4 · 인사·담화",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 4-1 · 인사·담화",
+     [
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 4-2 · 인사·담화",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 0,
+   "word": "I",
+   "si": 1,
+   "from": [
+    [
+     "0세트",
+     "Exercise 5-1 · 사람·가족·관계",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 5 · 사람",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 5-1 · 사람",
+     [
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 5-2 · 사람",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 0,
+   "word": "teacher",
+   "si": 1,
+   "from": [
+    [
+     "0세트",
+     "Exercise 5-2 · 사람",
+     [
+      "heads-v3-editorial-20260925",
+      "heads-v3"
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 5-2 · 직업·역할",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 5-3 · 사람",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 0,
+   "word": "classroom",
+   "si": 1,
+   "from": [
+    [
+     "0세트",
+     "Exercise 6-1 · 수업·읽기·쓰기",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 6 · 학교·공부",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 6-1 · 학교·공부",
+     [
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 6-2 · 학교·공부",
+     [
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 0,
+   "word": "geography",
+   "si": 1,
+   "from": [
+    [
+     "0세트",
+     "Exercise 6-2 · 과목·관심·진로",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 6-3 · 학교·공부",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 0,
+   "word": "apartment",
+   "si": 1,
+   "from": [
+    [
+     "0세트",
+     "Exercise 7-1 · 집·옷·소지품",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 7 · 집·생활",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 7-1 · 집·생활",
+     [
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 7-2 · 집·생활",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 0,
+   "word": "lunch",
+   "si": 1,
+   "from": [
+    [
+     "0세트",
+     "Exercise 7-2 · 집·생활",
+     [
+      "heads-v3-editorial-20260925",
+      "heads-v3"
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 7-2 · 음식·외출",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 7-3 · 집·생활",
+     [
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 7-4 · 집·생활",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 0,
+   "word": "photo",
+   "si": 1,
+   "from": [
+    [
+     "0세트",
+     "Exercise 7-3 · 집·생활",
+     [
+      "heads-v3-editorial-20260925",
+      "heads-v3"
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 7-3 · 미디어·취미",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 7-5 · 집·생활",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 0,
+   "word": "amazing",
+   "si": 1,
+   "from": [
+    [
+     "0세트",
+     "Exercise 8-1 · 감정·상태",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 8 · 형용사·동사",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 8-1 · 형용사·동사",
+     [
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 8-2 · 형용사·동사",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 0,
+   "word": "negative",
+   "si": 1,
+   "from": [
+    [
+     "0세트",
+     "Exercise 8-2 · 형용사·동사",
+     [
+      "heads-v3-editorial-20260925",
+      "heads-v3"
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 8-2 · 성질·행동",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 8-3 · 형용사·동사",
+     [
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 8-4 · 형용사·동사",
+     [
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 0,
+   "word": "email",
+   "si": 1,
+   "from": [
+    [
+     "0세트",
+     "Exercise 9-1 · 현대어",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 9 · 현대어",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 9-2 · 현대어",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 0,
+   "word": "gym",
+   "si": 1,
+   "from": [
+    [
+     "0세트",
+     "Exercise 9-2 · 현대어",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3"
+     ]
+    ],
+    [
+     "0세트",
+     "Exercise 9-3 · 현대어",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 1,
+   "word": "like",
+   "si": 1,
+   "from": [
+    [
+     "1세트",
+     "Exercise 1-1 · 1~10",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "1세트",
+     "Exercise 1 · 1~10",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "1세트",
+     "Exercise 1-2 · 1~10",
+     [
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 1,
+   "word": "people",
+   "si": 1,
+   "from": [
+    [
+     "1세트",
+     "Exercise 1-2 · 1~10",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2"
+     ]
+    ],
+    [
+     "1세트",
+     "Exercise 1-3 · 1~10",
+     [
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 5,
+   "word": "the",
+   "si": 2,
+   "from": [
+    [
+     "5세트",
+     "Exercise 1-1 · 기본 기능어 · a/an",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 1 · 401~410",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 1-1 · 401~410",
+     [
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 1-2 · 401~410",
+     [
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "19세트",
+     "Exercise 10 · 1891~1900",
+     [
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "19세트",
+     "Exercise 10-1 · 1891~1900",
+     [
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "19세트",
+     "Exercise 10-2 · 1891~1900",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 5,
+   "word": "in",
+   "si": 1,
+   "from": [
+    [
+     "5세트",
+     "Exercise 1-2 · 401~410",
+     [
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3"
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 1-3 · 401~410",
+     [
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 1-2 · 기본 기능어",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 1-4 · 401~410",
+     [
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 5,
+   "word": "that",
+   "si": 2,
+   "from": [
+    [
+     "5세트",
+     "Exercise 2-1 · 411~420",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 2 · 411~420",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 2-2 · 411~420",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 5,
+   "word": "on",
+   "si": 1,
+   "from": [
+    [
+     "5세트",
+     "Exercise 2-2 · 411~420",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3"
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 2-3 · 411~420",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 5,
+   "word": "at",
+   "si": 1,
+   "from": [
+    [
+     "5세트",
+     "Exercise 3-1 · 421~430",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 3 · 421~430",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 3-2 · 421~430",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 5,
+   "word": "by",
+   "si": 1,
+   "from": [
+    [
+     "5세트",
+     "Exercise 3-2 · 421~430",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3"
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 3-3 · 421~430",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 5,
+   "word": "as",
+   "si": 1,
+   "from": [
+    [
+     "5세트",
+     "Exercise 4-1 · 431~440",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 4 · 431~440",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 4-2 · 431~440",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 5,
+   "word": "who",
+   "si": 2,
+   "from": [
+    [
+     "5세트",
+     "Exercise 4-2 · 431~440",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3"
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 4-3 · 431~440",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 5,
+   "word": "would",
+   "si": 1,
+   "from": [
+    [
+     "5세트",
+     "Exercise 5-1 · 441~450",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 5 · 441~450",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 5-2 · 441~450",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 5,
+   "word": "out",
+   "si": 1,
+   "from": [
+    [
+     "5세트",
+     "Exercise 5-2 · 441~450",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3"
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 5-3 · 441~450",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 5,
+   "word": "when",
+   "si": 1,
+   "from": [
+    [
+     "5세트",
+     "Exercise 6-1 · 451~460",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 6 · 451~460",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 6-2 · 451~460",
+     [
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 5,
+   "word": "into",
+   "si": 1,
+   "from": [
+    [
+     "5세트",
+     "Exercise 6-2 · 451~460",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2"
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 6-3 · 451~460",
+     [
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 5,
+   "word": "also",
+   "si": 1,
+   "from": [
+    [
+     "5세트",
+     "Exercise 7-1 · 461~470",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 7 · 461~470",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 7-2 · 461~470",
+     [
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 5,
+   "word": "even",
+   "si": 1,
+   "from": [
+    [
+     "5세트",
+     "Exercise 7-2 · 461~470",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2"
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 7-3 · 461~470",
+     [
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 5,
+   "word": "too",
+   "si": 1,
+   "from": [
+    [
+     "5세트",
+     "Exercise 8-1 · 471~480",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 8 · 471~480",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 8-2 · 471~480",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 5,
+   "word": "over",
+   "si": 1,
+   "from": [
+    [
+     "5세트",
+     "Exercise 8-2 · 471~480",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3"
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 8-3 · 471~480",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  },
+  {
+   "lesson": 5,
+   "word": "most",
+   "si": 1,
+   "from": [
+    [
+     "5세트",
+     "Exercise 9 · 481~490",
+     [
+      "placement-v1",
+      "topics-v4",
+      "heads-v3-editorial-20260925",
+      "heads-v3",
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 9-1 · 481~490",
+     [
+      "heads-v2",
+      ""
+     ]
+    ],
+    [
+     "5세트",
+     "Exercise 9-2 · 481~490",
+     [
+      "heads-v2",
+      ""
+     ]
+    ]
+   ]
+  }
+ ]
+}

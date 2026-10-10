@@ -5,15 +5,17 @@
 ## 현재 결론과 배포 상태
 
 - **2026-10-10 문법 체화 설계·표제어 정리·Oxford 보강 — 로컬 커밋, 배포 없음**: 5,000단어를 순서대로 플레이하면 예문과 해설로 영문법이 체화되게 한다(영신 결정, [PRINCIPLES 12](PRINCIPLES.md#12-문법-순서대로-플레이하면-몸에-밴다), 범위는 [WORK_PLAN](WORK_PLAN.md)).
-  - 지금 할 일: 0세트 초안 검토·반영 → 5세트 → 1~4세트 → 6~45세트 조명 문법 예문 (문법 지도 143항목 승인됨). Oxford 신규는 영신 지시(10/10 "옥스포드 보강 단어를 일단 먼저 작업하자")로 먼저 넣었다(아래). 0세트 3개는 0세트 초안과 함께.
-  - Oxford 3000 보강(10/10, 로컬): 6~44세트 끝 새 연습 36개에 443개(508장). 지침 `pipeline/oxford/BRIEF.md`, 새 카드 검사 `python3 pipeline/oxford/cardcheck.py 초안.json`. FABLE 7,570장·표제어 5,359·화면 연습 671, 합집합 8,257. 원장 `oxford-20261010`. 세트별 조명 문법 작업 때 이 카드 예문도 다시 본다. 읽기 페이지 https://claude.ai/artifact/Cx6RgNsV5rSCvCprpSG2j5 (영신 검토 대기).
+  - 지금 할 일: 5세트 → 1~4세트 → 6~45세트 조명 문법 예문 (문법 지도 143항목 승인됨). Oxford 신규는 영신 지시(10/10 "옥스포드 보강 단어를 일단 먼저 작업하자")로 먼저 넣었다(아래).
+  - 0세트 반영(10/10 영신 "완벽합니다...갑시다!", 로컬): 문법 순서 23연습·234장. 5세트 기능어 38장·1세트 no를 옮기고 새 카드 3장(because of·no one·ice cream), 68장 내용 수정. 저작 위치는 그대로, `assemble.py`가 `pipeline/set0-20261010/plan.json`대로 화면만 묶는다. 모아둔 카드 ID·완료 기록·옛 이어하기는 바꾸기 전 판(df95ea4)에서 계산해 고정했다([pipeline README](pipeline/README.md#0세트-재구성--2026-10-10)). 검사 `node pipeline/tests/set0.test.cjs`. 원장 `set0-20261010`(복원 체인 맨 위). 범용 원장 도구 `pipeline/claude-review-20261008/build-ledger.cjs`. FABLE 7,573장·표제어 5,362·화면 연습 675, 합집합 8,260. 검사 35/35, exaudit 11, deepcheck A6 90, linecheck 0.
+  - 5세트에서 이어서 볼 것: 5세트 1-1 판 이름 "기본 기능어 · a/an"에 an이 없어졌다(제목·진도 키를 지키려고 그대로 둠). 0세트로 간 기능어의 다른 뜻(you ②, be ③④, that ②③ 등)은 5세트에 남아 있다.
+  - Oxford 3000 보강(10/10, 로컬): 6~44세트 끝 새 연습 36개에 443개(508장). 0세트 3개는 0세트 반영 때 넣었다. 지침 `pipeline/oxford/BRIEF.md`, 새 카드 검사 `python3 pipeline/oxford/cardcheck.py 초안.json`. (보강 직후 FABLE 7,570장·표제어 5,359·화면 연습 671, 합집합 8,257.) 원장 `oxford-20261010`. 세트별 조명 문법 작업 때 이 카드 예문도 다시 본다. 읽기 페이지 https://claude.ai/artifact/Cx6RgNsV5rSCvCprpSG2j5 (영신 검토 대기).
   - 측정: `python3 pipeline/grammar/measure.py`(spaCy 필요). 기준값 `pipeline/grammar/baseline-20261010.json`.
-  - 초안: 문법 지도 143항목 `pipeline/grammar/syllabus-draft-20261010.json`(페이지 https://claude.ai/artifact/Dhp7PgRApVa9LctYUgmNV6 ), 0세트 전체 초안 234장 `set0-draft-20261010.json`(페이지 https://claude.ai/artifact/BB5W7HkzszXtuQ1H2UnC8E ), 영신 검토 대기·데이터 반영 전.
+  - 초안: 문법 지도 143항목 `pipeline/grammar/syllabus-draft-20261010.json`(페이지 https://claude.ai/artifact/Dhp7PgRApVa9LctYUgmNV6 ), 0세트 전체 초안 234장 `set0-draft-20261010.json`(페이지 https://claude.ai/artifact/BB5W7HkzszXtuQ1H2UnC8E ), 반영됨(위).
   - 영신 승인(10/10): 수능 문법 전체 포함, 구조 정정안(0세트 약 230장·1~4세트 순서 유지·5세트 문법 뜻 분산), 143항목, 작업 순서(0세트 → 5세트 → 1~4세트 → 6~45세트 → Oxford 신규). 남은 확인: goodness ② 삭제 여부, 2022 교육과정 원문 대조(ncic.re.kr 허용 필요).
   - 범위·정리(10/10, [PRINCIPLES 2-8](PRINCIPLES.md#2-8-fable-범위와-표제어-정리)): FABLE은 거의 처음부터 고교 졸업·수능 수준까지 덮는다. 5,000은 이름이고 빼는 것은 목표가 아니다. 같은 뜻 다른 꼴과 범위와 상관없는 좁은 말 71개(78장)만 뺐다(로컬, 배포 전). 1차 73개 중 71개는 되돌렸고 roach는 cockroach로 바꿨다. (정리 직후 FABLE 7,062장·표제어 4,916·화면 연습 626.) 조립 단계에서 빼고 preDeletion으로 진도·모아둔 카드·이어하기를 잇는다([pipeline README](pipeline/README.md)). 검사 34/34, exaudit 12.
   - 정리 2차 후보(10/10): 750개 중 69개만 반영했다(위 항목). 목록·결정 `pipeline/prune-candidates-20261010-2.json`, 페이지 https://claude.ai/artifact/Ck1qfX4fER1pqcupE5rQwn
-  - 다른 꼴·좁은 말 해설(10/10, PRINCIPLES 2-8): 뺀 다른 꼴은 표준어 카드 해설 첫머리에(38장 + Oxford 4장), 좁은 말은 관련 카드 10장 해설 끝에. 붙일 곳이 없어 뺀 것: iranian·iraqi·israeli·palestinian·syrian·thou·neo·micro. 복원 체인 위에서부터 `narrow-notes-20261010`, `oxford-20261010`, `variant-notes-20261010`, `cockroach-20261010`, `prune-20261010`.
-  - 순서 통제(10/10, PRINCIPLES 2-1): 새로 쓰거나 고친 예문은 `python3 pipeline/ordercheck.py`로 본다. 기준값 앞당김 1개 493장·2개 이상 85장(Oxford 보강 후).
+  - 다른 꼴·좁은 말 해설(10/10, PRINCIPLES 2-8): 뺀 다른 꼴은 표준어 카드 해설 첫머리에(38장 + Oxford 4장), 좁은 말은 관련 카드 10장 해설 끝에. 붙일 곳이 없어 뺀 것: iranian·iraqi·israeli·palestinian·syrian·thou·neo·micro. 복원 체인 위에서부터 `set0-20261010`, `narrow-notes-20261010`, `oxford-20261010`, `variant-notes-20261010`, `cockroach-20261010`, `prune-20261010`.
+  - 순서 통제(10/10, PRINCIPLES 2-1): 새로 쓰거나 고친 예문은 `python3 pipeline/ordercheck.py`로 본다. 기준값 앞당김 1개 493장·2개 이상 78장(0세트 반영 후).
 
 - **2026-10-08 Claude 리뷰 후속 일괄 배포**: 커밋과 Pages 확인 결과는 [DEPLOYMENT](DEPLOYMENT.md)에 있다. **[PRINCIPLES.md](PRINCIPLES.md)를 먼저 읽을 것** — 고양이 정의, 예문 통제·3줄 한계, 빈칸 중의성, 해설 읽을 시간의 이유를 담았다.
   - FABLE 7,081카드·624연습·표제어 4,928이다. 48세트 마지막 연습으로 그림 법칙 사촌 쌍 14카드를 넣었다.

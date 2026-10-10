@@ -159,6 +159,23 @@ data = apply_regrouping(data)
 
 # 26.10.10 표제어 정리(PRINCIPLES 2-8): 범위와 상관없거나 같은 뜻 다른 꼴인 말을 저작 원본은 그대로 두고 화면 배치에서만 뺀다.
 # 카드를 뺀 연습에는 빼기 전 카드 목록(preDeletion)을 남겨 완료 기록을 이어받게 한다.
+def drop_cards(exercise, keep):
+    """화면 배치에서 카드를 빼고, 배포된 판(빼기 전 카드 목록·판 나눔)을 남긴다. 판 나눔은 남은 카드에 맞춘다."""
+    if 'preDeletion' in exercise:
+        raise ValueError('An exercise may lose cards only once per release')
+    exercise['preDeletion'] = [{'word': w.get('word') or w['en'], 'si': w.get('si') or 1} for w in exercise['words']]
+    if 'practiceParts' in exercise:
+        exercise['preDeletionParts'] = copy.deepcopy(exercise['practiceParts'])
+        kept, parts, start = {id(w) for w in keep}, [], 0
+        for part in exercise['practiceParts']:
+            n = sum(id(w) in kept for w in exercise['words'][part['start']:part['end']])
+            if n == 0:
+                raise ValueError('Removing cards would empty a practice part')
+            parts.append({**part, 'start': start, 'end': start + n})
+            start += n
+        exercise['practiceParts'] = parts
+    exercise['words'] = keep
+
 prune = read(P / 'prune-20261010.json')
 drop = {w.lower() for w in prune['words']}
 removed, dropped_heads = 0, set()
@@ -171,12 +188,53 @@ for lesson in data:
             raise ValueError('Pruned headword appears in a review or topic set')
         if not keep:
             raise ValueError('Pruning would empty an exercise')
-        exercise['preDeletion'] = [{'word': w.get('word') or w['en'], 'si': w.get('si') or 1} for w in exercise['words']]
         dropped_heads |= {(w.get('word') or w['en']).lower() for w in exercise['words']} & drop
         removed += len(exercise['words']) - len(keep)
-        exercise['words'] = keep
+        drop_cards(exercise, keep)
 if removed != prune['cards'] or dropped_heads != drop:
     raise ValueError(f'Pruning manifest mismatch: {removed} cards, {len(dropped_heads)} headwords')
+
+# 26.10.10 0세트 재구성(PRINCIPLES 12, 영신 승인): 0세트를 문법 순서 23연습으로 다시 묶고 5세트·1세트의 기초 카드 39장을 옮겨 온다.
+# 저작 위치는 그대로 두고 화면 배치만 바꾼다. 새 카드 3장은 lesson00.json 연습 20에 있다.
+# 계획(set0-20261010/plan.json)은 바꾸기 전 판에서 계산한 모아둔 카드 ID·완료 기록 키·옛 이어하기 위치를 카드에 단다.
+set0 = read(P / 'set0-20261010/plan.json')
+lessons = {L['lesson']: L for L in data}
+def find_card(lesson, word, si):
+    found = [(e, w) for e in lessons[lesson]['exercises'] for w in e['words']
+             if (w.get('word') or w['en']) == word and (w.get('si') or 1) == si]
+    if len(found) != 1:
+        raise ValueError(f'Set 0 plan expects one card {lesson}:{word}:{si}; found {len(found)}')
+    return found[0]
+before_set0 = sum(len(e['words']) for e in lessons[0]['exercises'])
+moved, set0_exercises = {}, []
+for group in set0['exercises']:
+    words = []
+    for ref in group['cards']:
+        source, card = find_card(ref['lesson'], ref['word'], ref['si'])
+        if ref['lesson'] != 0:
+            moved.setdefault(id(source), (source, []))[1].append(card)
+        card = copy.deepcopy(card)
+        if ref.get('new'):
+            if 'savedId' in card or 'priorKeys' in ref:
+                raise ValueError('A new set-0 card has no earlier identity')
+        else:
+            if card.get('savedId', ref['savedId']) != ref['savedId']:
+                raise ValueError('Set 0 plan disagrees with a fixed saved ID')
+            card['savedId'], card['priorKeys'] = ref['savedId'], ref['priorKeys']
+        words.append(card)
+    set0_exercises.append({'ex': group['ex'], 'name': group['name'], 'progressId': set0['progressId'],
+                           'progressTitle': f"Exercise {group['ex']} · {group['name']}", 'words': words})
+set0_cards = [w for e in set0_exercises for w in e['words']]
+if len(set0_cards) - sum(len(cards) for _, cards in moved.values()) != before_set0:
+    raise ValueError('Set 0 plan must keep every current set-0 card exactly once')
+if len({(w['word'], w['si']) for w in set0_cards}) != len(set0_cards):
+    raise ValueError('Duplicate card in the new set 0')
+for source, cards in moved.values():
+    drop_cards(source, [w for w in source['words'] if all(w is not c for c in cards)])
+lessons[0]['exercises'] = set0_exercises
+for ref in set0['resume']:
+    _, card = find_card(ref['lesson'], ref['word'], ref['si'])
+    card['resumeFrom'] = ref['from']
 
 src = HTML.read_text(encoding='utf-8')
 constants = [('DATA', data), ('READING_CORE', core), ('MORPHOLOGY', morph)]

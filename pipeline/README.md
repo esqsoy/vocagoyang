@@ -26,15 +26,25 @@
 
 ## 표제어 정리 · 2026-10-10
 
-`prune-20261010.json`의 71개 표제어(78장)는 같은 뜻의 표준어가 이미 있는 다른 꼴(영국식·속어·줄임말·다른 철자)이거나 FABLE 범위(거의 처음부터 고교 졸업·수능 수준)와 상관없는 좁은 말이라 뺐다([PRINCIPLES 2-8](../PRINCIPLES.md#2-8-fable-범위와-표제어-정리)). 1차로 뺀 73개 중 71개는 범위를 바로잡으며 되돌렸다. 저작 원본(out/*.json)은 그대로 두고 `assemble.py`가 배치(10-03 이동·재구성) 다음 단계에서 화면 DATA에서만 뺀다. 카드를 뺀 연습에는 `preDeletion`(배포된 배치의 카드 목록)을 남긴다. 게임의 `splitExercises`가 그 배치를 다시 나눠 옛 완료 기록을 남은 카드의 `priorCoverage`에 더하고, 모아둔 카드 ID를 빼기 전 기준으로 고정하고, 옛 판 제목을 첫 남은 카드가 있는 새 판으로 잇는다(`deletionResumeTitles`, 판이 합쳐져 제목이 바뀌는 경우). 정리 뒤 저장한 이어하기에는 `prune` 표시가 붙는다. 46~50세트에 나오는 단어나 연습을 비우는 삭제는 조립을 멈춘다. 배포 뒤 새로 정리할 때는 preDeletion이 그 배포의 배치를 가리키도록 다시 설계한다.
+`prune-20261010.json`의 71개 표제어(78장)는 같은 뜻의 표준어가 이미 있는 다른 꼴(영국식·속어·줄임말·다른 철자)이거나 FABLE 범위(거의 처음부터 고교 졸업·수능 수준)와 상관없는 좁은 말이라 뺐다([PRINCIPLES 2-8](../PRINCIPLES.md#2-8-fable-범위와-표제어-정리)). 1차로 뺀 73개 중 71개는 범위를 바로잡으며 되돌렸다. 저작 원본(out/*.json)은 그대로 두고 `assemble.py`가 배치(10-03 이동·재구성) 다음 단계에서 화면 DATA에서만 뺀다. 카드를 뺀 연습에는 `preDeletion`(배포된 배치의 카드 목록)을 남긴다. 게임의 `splitExercises`가 그 배치를 다시 나눠 옛 완료 기록을 남은 카드의 `priorCoverage`에 더하고, 모아둔 카드 ID를 빼기 전 기준으로 고정하고, 옛 판 제목을 첫 남은 카드가 있는 새 판으로 잇는다(`deletionResumeTitles`, 판이 합쳐져 제목이 바뀌는 경우). 정리 뒤 저장한 이어하기에는 `prune` 표시가 붙는다. 46~50세트에 나오는 단어나 연습을 비우는 삭제는 조립을 멈춘다. 배포 뒤 새로 정리할 때는 preDeletion이 그 배포의 배치를 가리키도록 다시 설계한다(한 연습에서 카드를 두 번 빼면 `drop_cards`가 조립을 멈춘다).
 
 새 카드 초안(Oxford 보강처럼 세트 끝 새 연습이나 세트 작업의 새 예문)은 `python3 pipeline/oxford/cardcheck.py 초안.json`으로 먼저 본다. 표제어 밖 단어, 뒤 세트 단어 앞당김(1개까지), 형식(ko ①·{{BLANK}}·해설 72자·IPA), 기존 예문과 같은 문장, 폰 화면 줄 수(390px 문장 3줄·문제 4줄)를 한 번에 잰다. 초안 형식과 작성 지침은 `pipeline/oxford/BRIEF.md`에 있다. 데이터에 넣은 뒤에는 collide.py로 같은 칸 수 경쟁어를 다시 본다.
 
 변경 원장은 `claude-review-20261008/prune-20261010.json`이고 `LEDGER_BASE=56005cc node pipeline/claude-review-20261008/build-deletion-ledger.cjs …`로 배포된 DATA 기준에서 만들었다. 범용 diff는 뒤 카드가 당겨진 것을 값 변경으로 적어 되돌릴 때 키 순서가 어긋나서, 삭제 위치만 적는 원장을 따로 쓴다. 검사는 `node pipeline/tests/prune.test.cjs`. `exaudit.py`는 뺀 단어를 표제어로 치지 않는다.
 
+## 0세트 재구성 · 2026-10-10
+
+0세트는 문법 순서 23연습·234장이다([PRINCIPLES 12](../PRINCIPLES.md#12-문법-순서대로-플레이하면-몸에-밴다), 초안 `grammar/set0-draft-20261010.json`). `assemble.py`가 표제어 정리 다음 단계에서 `set0-20261010/plan.json`대로 화면의 0세트를 다시 묶는다. 저작 원본의 카드 위치는 그대로다. 옛 0세트 카드 192장은 lesson00.json 연습 1~9, 새 카드 3장(because of·no one·ice cream)은 lesson00.json 연습 20, 옮겨 온 카드는 set05.json(an은 10-03 재구성으로 5세트에 온 set19.json 카드), no는 lesson01.json에 있다. 계획의 카드 참조 `lesson`은 바꾸기 전 화면 세트다.
+
+- 옮긴 카드에는 바꾸기 전 판에서 계산한 `savedId`(모아둔 카드 ID)와 `priorKeys`(그 카드를 덮던 완료 기록 키, 옛 판 포함)를 단다. 게임의 `splitExercises`가 priorKeys를 `priorCoverage`에 더한다.
+- 5세트 1~9·1세트 1 연습에서는 표제어 정리와 같은 `drop_cards`로 카드를 빼고 `preDeletion`을 남긴다. 판 나눔(practiceParts)이 있는 연습은 빼기 전 나눔을 `preDeletionParts`로 남기고 남은 카드에 맞춰 나눔을 줄인다. 게임은 카드를 뺀 연습의 옛 판(short-v1·heads-v2) 범위도 빼기 전 목록으로 잰다.
+- 옛 이어하기 저장값(세트 이름·옛 제목·판 이름)은 돌아갈 카드의 `resumeFrom`에 적는다. 게임은 `prune` 표시가 없는 저장값만 이 표로 옮긴다.
+- 계획은 `node pipeline/set0-20261010/build-plan.cjs df95ea4`로 만들었다(바꾸기 전 커밋의 게임 코드·DATA를 그대로 돌린다). 바꾼 뒤에는 다시 만들지 않는다. 같은 커밋으로 돌리면 같은 파일이 나온다.
+- 검사: `node pipeline/tests/set0.test.cjs`(초안 내용, 모아둔 카드 ID, 바뀌지 않은 연습의 기록 키, 완료 이어받기와 부분 완료, 옛 판까지의 이어하기 1,218개 후보). 원장은 `claude-review-20261008/set0-20261010.json`.
+
 ## 원본
 
-- 0~4세트: out/lesson00.json ~ lesson04.json의 exercises.
+- 0~4세트: out/lesson00.json ~ lesson04.json의 exercises. lesson00.json 연습 20은 0세트 새 카드의 저작 위치이고, 화면 0세트는 위 재구성이 묶는다.
 - 5~45세트: out/set05.json ~ set45.json.
 - 46세트: reading-core.json의 기존 카드 참조 목록.
 - 47~48세트: morphology.json의 접사·어근 선정과 대표 카드.
