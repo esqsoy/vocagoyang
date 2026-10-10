@@ -1530,5 +1530,168 @@
         "sn": 1
       }
     ]
+  },
+  {
+    "ex": 11,
+    "name": "드러남과 숨김",
+    "words": [
+      {
+        "en": "apparent",
+        "ko": "① 분명한, 명백한",
+        "ex": "After an hour, it became {{BLANK}} that we were lost.",
+        "tr": "한 시간쯤 지나자 우리가 길을 잃었다는 게 분명해졌어.",
+        "c": "It is apparent that ~ 꼴로 자주 쓴다. appear(보이다)에서 온 말.",
+        "ipa": "əˈpɛrənt",
+        "pos": "adj.",
+        "word": "apparent",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "apparent",
+        "ko": "② 겉보기의, 외견상의",
+        "ex": "Despite his {{BLANK}} calm, his hands were shaking.",
+        "tr": "겉으로는 침착해 보였지만 그의 손은 떨리고 있었어.",
+        "c": "명사 앞에서는 '겉보기에 그런(실제와 다를 수 있는)'이란 뜻이 된다.",
+        "ipa": "əˈpɛrənt",
+        "pos": "adj.",
+        "word": "apparent",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "apparently",
+        "ko": "① 보아하니, 듣자 하니",
+        "ex": "There's glass on the floor. {{BLANK}}, something happened while we were out.",
+        "tr": "바닥에 유리 조각이 있네. 보아하니 우리가 나간 사이에 무슨 일이 있었나 봐.",
+        "c": "'분명히'가 아니라 '보아하니·듣자 하니'. 보도를 전할 때는 reportedly.",
+        "ipa": "əˈpɛrəntli",
+        "pos": "adv.",
+        "word": "apparently",
+        "si": 1,
+        "sn": 1,
+        "meow": "'분명히'로 외웠냐고양? apparently, 보아하니 또 속았다고양."
+      },
+      {
+        "en": "reveal",
+        "ko": "① 드러내다, 밝히다",
+        "ex": "The X-ray {{BLANK}}ed a small crack in my arm bone.",
+        "tr": "엑스레이를 찍어 보니 팔뼈에 작은 금이 가 있었어.",
+        "c": "reveal a secret=비밀을 밝히다. ↔ hide(숨기다)",
+        "ipa": "rɪˈvil",
+        "pos": "v.",
+        "word": "reveal",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "detect",
+        "ko": "① 감지하다, 알아내다",
+        "ex": "Doctors can now {{BLANK}} some cancers before any signs appear.",
+        "tr": "이제 의사들은 어떤 징후가 나타나기 전에 일부 암을 찾아낼 수 있어.",
+        "c": "눈에 잘 안 띄는 것을 알아낸다. detector는 탐지기.",
+        "ipa": "dɪˈtɛkt",
+        "pos": "v.",
+        "word": "detect",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "emerge",
+        "ko": "① 나타나다, 드러나다",
+        "ex": "The sun finally {{BLANK}}d from behind the clouds.",
+        "tr": "마침내 해가 구름 뒤에서 나왔어.",
+        "c": "emerge from ~=~에서 나오다. 자동사라 수동태(was emerged)로 쓰지 않는다.",
+        "ipa": "ɪˈmɝdʒ",
+        "pos": "v.",
+        "word": "emerge",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "arise",
+        "ko": "① 생기다, 발생하다",
+        "ex": "Many health problems {{BLANK}} from a lack of sleep.",
+        "tr": "많은 건강 문제가 수면 부족에서 생겨.",
+        "c": "arise-arose-arisen. 자동사라 수동태로 쓰지 않는다. arise from ~=~에서 생기다.",
+        "ipa": "əˈraɪz",
+        "pos": "v.",
+        "word": "arise",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "unknown",
+        "ko": "① 알려지지 않은",
+        "ex": "Millions of species remain {{BLANK}} to science.",
+        "tr": "수백만 종이 아직 과학에 알려지지 않았어.",
+        "c": "an unknown singer처럼 '무명의'라는 뜻으로도 쓴다.",
+        "ipa": "ʌnˈnoʊn",
+        "pos": "adj.",
+        "word": "unknown",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "insight",
+        "ko": "① 통찰(력), 깊은 이해",
+        "ex": "This book gives great {{BLANK}} into how teenagers think.",
+        "tr": "이 책은 십대들이 어떻게 생각하는지 깊이 이해하게 해 줘.",
+        "c": "insight into ~=~에 대한 통찰. in(안)+sight(봄): 속을 들여다봄.",
+        "ipa": "ˈɪnˌsaɪt",
+        "pos": "n.",
+        "word": "insight",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "notion",
+        "ko": "① 개념, 생각",
+        "ex": "Young children have no clear {{BLANK}} of time.",
+        "tr": "어린아이들은 시간에 대한 개념이 뚜렷하지 않아.",
+        "c": "the notion of ~=~라는 개념. the notion that ~(~라는 생각)으로도 쓴다.",
+        "ipa": "ˈnoʊʃən",
+        "pos": "n.",
+        "word": "notion",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "aspect",
+        "ko": "① 측면, 양상",
+        "ex": "Smartphones have changed every {{BLANK}} of our daily lives.",
+        "tr": "스마트폰은 우리 일상의 모든 면을 바꿔 놓았어.",
+        "c": "a(~쪽으로)+spect(보다): 바라본 한 면. every aspect of ~=~의 모든 면.",
+        "ipa": "ˈæspɛkt",
+        "pos": "n.",
+        "word": "aspect",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "instance",
+        "ko": "① 사례, 경우",
+        "ex": "Some habits are disappearing. For {{BLANK}}, few people write letters now.",
+        "tr": "사라지는 습관도 있어. 예를 들어 이제 편지를 쓰는 사람은 거의 없어.",
+        "c": "for instance=for example(예를 들어). in this instance=이 경우에.",
+        "ipa": "ˈɪnstəns",
+        "pos": "n.",
+        "word": "instance",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "characteristic",
+        "ko": "① 특징, 특성",
+        "ex": "Feathers are a {{BLANK}} that only birds have today.",
+        "tr": "깃털은 오늘날 새만 가진 특징이야.",
+        "c": "character에서 온 말. 형용사로 '특유의'라는 뜻도 있다.",
+        "ipa": "ˌkɛrəktəˈrɪstɪk",
+        "pos": "n.",
+        "word": "characteristic",
+        "si": 1,
+        "sn": 1
+      }
+    ]
   }
 ]

@@ -1519,5 +1519,180 @@
         "sn": 1
       }
     ]
+  },
+  {
+    "ex": 11,
+    "name": "여러 가지",
+    "words": [
+      {
+        "en": "hell",
+        "ko": "① 지옥",
+        "ex": "She went through {{BLANK}} after the accident, but she's fine now.",
+        "tr": "그 애는 사고 뒤에 지옥 같은 시간을 보냈지만 지금은 괜찮아.",
+        "c": "↔ heaven(천국). go through hell은 '지옥 같은 일을 겪다'.",
+        "ipa": "hɛl",
+        "pos": "n.",
+        "word": "hell",
+        "si": 1,
+        "sn": 1,
+        "meow": "오답 노트 안 쓰면 그게 hell, 지옥이라고양."
+      },
+      {
+        "en": "complicated",
+        "ko": "① 복잡한",
+        "ex": "The tax form was so {{BLANK}} that even my dad needed help.",
+        "tr": "세금 서류가 너무 복잡해서 아빠도 도움이 필요했어.",
+        "c": "complicate(복잡하게 만들다)의 과거분사가 형용사로 굳은 말. complex와 비슷하다.",
+        "ipa": "ˈkɑmpləkeɪtɪd",
+        "pos": "adj.",
+        "word": "complicated",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "annual",
+        "ko": "① 매년의, 연간의",
+        "ex": "Deserts get less than 250 millimeters of {{BLANK}} rainfall.",
+        "tr": "사막은 연간 강수량이 250밀리미터도 안 돼.",
+        "c": "이 뜻에서는 yearly와 바꿔 쓸 수 있다. ann(해)은 anniversary(기념일)에도 있다.",
+        "ipa": "ˈænjuəl",
+        "pos": "adj.",
+        "word": "annual",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "brief",
+        "ko": "① 짧은, 간단한",
+        "ex": "Keep your speech {{BLANK}}; long speeches put people to sleep.",
+        "tr": "연설은 짧게 해. 긴 연설은 사람들을 잠들게 해.",
+        "c": "시간·말이 짧을 때 쓴다. 이 뜻에서는 short와 바꿔 쓸 수 있다.",
+        "ipa": "brif",
+        "pos": "adj.",
+        "word": "brief",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "concentration",
+        "ko": "① 집중, 집중력",
+        "ex": "Checking your phone every few minutes breaks your {{BLANK}}.",
+        "tr": "몇 분마다 휴대폰을 확인하면 집중이 깨져.",
+        "c": "concentrate(집중하다)+-ion. lose concentration은 '집중력을 잃다'.",
+        "ipa": "ˌkɑnsənˈtreɪʃən",
+        "pos": "n.",
+        "word": "concentration",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "concentration",
+        "ko": "② 농도",
+        "ex": "The {{BLANK}} of carbon dioxide in the air keeps rising.",
+        "tr": "공기 중 이산화탄소 농도가 계속 높아지고 있어.",
+        "c": "어떤 물질이 얼마나 짙게 들어 있는지. high concentration은 '높은 농도'.",
+        "ipa": "ˌkɑnsənˈtreɪʃən",
+        "pos": "n.",
+        "word": "concentration",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "discipline",
+        "ko": "① 규율, 훈육",
+        "ex": "Soldiers learn {{BLANK}}: they get up at six and follow every order.",
+        "tr": "군인은 규율을 배워. 6시에 일어나고 모든 명령을 따르지.",
+        "c": "규칙을 지키게 하는 훈련. self-discipline은 '자기 절제'.",
+        "ipa": "ˈdɪsəplɪn",
+        "pos": "n.",
+        "word": "discipline",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "discipline",
+        "ko": "② (학문) 분야",
+        "ex": "Climate science draws on many {{BLANK}}s, from physics to biology.",
+        "tr": "기후 과학은 물리학부터 생물학까지 여러 학문 분야를 활용해.",
+        "c": "대학에서 연구하는 한 학문 분야. interdisciplinary는 '여러 학문에 걸친'.",
+        "ipa": "ˈdɪsəplɪn",
+        "pos": "n.",
+        "word": "discipline",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "expectation",
+        "ko": "① 기대, 예상",
+        "ex": "The second movie didn't live up to my {{BLANK}}s.",
+        "tr": "두 번째 영화는 내 기대에 못 미쳤어.",
+        "c": "expect(기대하다)+-ation. live up to expectations는 '기대에 부응하다'.",
+        "ipa": "ˌɛkspɛkˈteɪʃən",
+        "pos": "n.",
+        "word": "expectation",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "stock",
+        "ko": "① 재고",
+        "ex": "The shoes I wanted were out of {{BLANK}} in my size.",
+        "tr": "내가 사고 싶던 신발이 내 사이즈만 품절이었어.",
+        "c": "in stock(재고가 있는), out of stock(품절인).",
+        "ipa": "stɑk",
+        "pos": "n.",
+        "word": "stock",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "stock",
+        "ko": "② 주식",
+        "ex": "The US {{BLANK}} market crashed in October 1929.",
+        "tr": "1929년 10월 미국 주식 시장이 폭락했어.",
+        "c": "stock market은 '주식 시장'. 주식은 share라고도 한다.",
+        "ipa": "stɑk",
+        "pos": "n.",
+        "word": "stock",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "monitor",
+        "ko": "① (컴퓨터) 모니터",
+        "ex": "Sitting too close to your {{BLANK}} can make your eyes tired.",
+        "tr": "모니터에 너무 가까이 앉으면 눈이 피곤해질 수 있어.",
+        "c": "이 뜻에서는 display(화면)와 바꿔 쓸 수 있다. 본래 '지켜보는 것'이라는 말이다.",
+        "ipa": "ˈmɑnətɚ",
+        "pos": "n.",
+        "word": "monitor",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "monitor",
+        "ko": "② 감시하다, 추적 관찰하다",
+        "ex": "The volcano is {{BLANK}}ed day and night by scientists.",
+        "tr": "그 화산은 과학자들이 밤낮으로 지켜보고 있어.",
+        "c": "변화를 계속 지켜보며 확인하다. monitor A for B는 'B가 있는지 A를 지켜보다'.",
+        "ipa": "ˈmɑnətɚ",
+        "pos": "v.",
+        "word": "monitor",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "facility",
+        "ko": "① 시설",
+        "ex": "The city built a new recycling {{BLANK}} near the river.",
+        "tr": "시는 강 근처에 새 재활용 시설을 지었어.",
+        "c": "복수형 facilities는 '편의 시설'(화장실·주차장 등). y를 i로 바꿔 -ies.",
+        "ipa": "fəˈsɪləti",
+        "pos": "n.",
+        "word": "facility",
+        "si": 1,
+        "sn": 1
+      }
+    ]
   }
 ]

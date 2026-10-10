@@ -1607,5 +1607,145 @@
         "sn": 1
       }
     ]
+  },
+  {
+    "ex": 11,
+    "name": "몸과 음식",
+    "words": [
+      {
+        "en": "fitness",
+        "ko": "① 건강, 체력",
+        "ex": "We took a {{BLANK}} test in PE class today.",
+        "tr": "오늘 체육 시간에 체력 검사를 받았어.",
+        "c": "fit(건강한)+-ness. 한국어 '헬스장'은 영어로 gym이나 fitness center.",
+        "ipa": "ˈfɪtnəs",
+        "pos": "n.",
+        "word": "fitness",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "symptom",
+        "ko": "① 증상",
+        "ex": "My {{BLANK}}s have gotten worse since yesterday.",
+        "tr": "어제부터 증상이 더 심해졌어.",
+        "c": "a symptom of a cold 감기 증상. 문제가 있다는 '징후'로도 쓴다.",
+        "ipa": "ˈsɪmptəm",
+        "pos": "n.",
+        "word": "symptom",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "injure",
+        "ko": "① 다치게 하다",
+        "ex": "He got {{BLANK}}d in the first game and missed the whole season.",
+        "tr": "걔는 첫 경기에서 다쳐서 시즌을 통째로 놓쳤어.",
+        "c": "get[be] injured 다치다. 명사는 injury(부상). 총·칼에 다치면 wound.",
+        "ipa": "ˈɪndʒɚ",
+        "pos": "v.",
+        "word": "injure",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "emergency",
+        "ko": "① 비상(사태), 응급",
+        "ex": "In an {{BLANK}}, call 119 right away.",
+        "tr": "비상시에는 바로 119에 전화해.",
+        "c": "emergency room 응급실, emergency exit 비상구.",
+        "ipa": "ɪˈmɝdʒənsi",
+        "pos": "n.",
+        "word": "emergency",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "alarm",
+        "ko": "① 경보(기), 알람",
+        "ex": "The fire {{BLANK}} went off in the middle of our exam.",
+        "tr": "시험 도중에 화재경보기가 울렸어.",
+        "c": "경보·알람이 울리다는 go off. alarm clock 자명종, set an alarm 알람을 맞추다.",
+        "ipa": "əˈlɑrm",
+        "pos": "n.",
+        "word": "alarm",
+        "si": 1,
+        "sn": 1,
+        "meow": "알람 다섯 개 맞춰 놓고 다 끄는 거 다 안다고양."
+      },
+      {
+        "en": "ingredient",
+        "ko": "① 재료, 성분",
+        "ex": "This cake needs only three {{BLANK}}s: eggs, sugar, and flour.",
+        "tr": "이 케이크는 달걀, 설탕, 밀가루 세 가지 재료만 있으면 돼.",
+        "c": "음식·약을 이루는 재료·성분. 옷·건물을 만드는 재료는 material.",
+        "ipa": "ɪnˈɡridiənt",
+        "pos": "n.",
+        "word": "ingredient",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "fry",
+        "ko": "① (기름에) 튀기다, 볶다",
+        "ex": "{{BLANK}} the onions in a little oil until they turn brown.",
+        "tr": "양파를 기름 조금 두르고 갈색이 될 때까지 볶아.",
+        "c": "fry-fried-fried(y→i). 프라이팬은 frying pan, 감자튀김은 French fries.",
+        "ipa": "fraɪ",
+        "pos": "v.",
+        "word": "fry",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "slice",
+        "ko": "① (얇은) 조각",
+        "ex": "I've already had three {{BLANK}}s of pizza.",
+        "tr": "나 벌써 피자 세 조각 먹었어.",
+        "c": "얇게 썬 조각. 이 뜻에서는 piece와 바꿔 쓸 수 있다. 동사로는 '얇게 썰다'.",
+        "ipa": "slaɪs",
+        "pos": "n.",
+        "word": "slice",
+        "si": 1,
+        "sn": 1,
+        "meow": "세 조각이나 먹었다고? 한 조각은 내 거라고양."
+      },
+      {
+        "en": "bubble",
+        "ko": "① 거품, 방울",
+        "ex": "Heat the milk until small {{BLANK}}s appear around the edge.",
+        "tr": "가장자리에 작은 거품이 생길 때까지 우유를 데워.",
+        "c": "soap bubble 비눗방울. 동사로는 '거품이 일다, 부글부글 끓다'.",
+        "ipa": "ˈbʌbəl",
+        "pos": "n.",
+        "word": "bubble",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "container",
+        "ko": "① 그릇, 용기",
+        "ex": "Put the rest of the soup in a {{BLANK}} and keep it cold.",
+        "tr": "남은 수프는 용기에 담아서 차갑게 보관해.",
+        "c": "contain(담다)+-er. 배·트럭으로 나르는 큰 화물 상자도 container.",
+        "ipa": "kənˈteɪnɚ",
+        "pos": "n.",
+        "word": "container",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "consume",
+        "ko": "① 소비하다, 먹다",
+        "ex": "People in Korea now {{BLANK}} about half as much rice as in 1990.",
+        "tr": "한국 사람들은 이제 1990년의 절반쯤밖에 쌀을 안 먹어.",
+        "c": "명사는 consumption(소비), 사람은 consumer(소비자). 먹고 마시는 것에도 쓴다.",
+        "ipa": "kənˈsum",
+        "pos": "v.",
+        "word": "consume",
+        "si": 1,
+        "sn": 1
+      }
+    ]
   }
 ]

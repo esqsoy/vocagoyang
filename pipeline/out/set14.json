@@ -1755,5 +1755,156 @@
         "sn": 2
       }
     ]
+  },
+  {
+    "ex": 11,
+    "name": "과거분사가 된 형용사",
+    "words": [
+      {
+        "en": "broken",
+        "ko": "① 고장 난, 부러진",
+        "ex": "My phone has been {{BLANK}} since I dropped it in the pool.",
+        "tr": "수영장에 빠뜨린 뒤로 폰이 계속 고장 나 있어.",
+        "c": "break-broke-broken. 과거분사는 형용사로도 쓴다: a broken leg 부러진 다리.",
+        "ipa": "ˈbroʊkən",
+        "pos": "adj.",
+        "word": "broken",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "lost",
+        "ko": "① 길을 잃은",
+        "ex": "We got {{BLANK}} in the old town, so we asked a police officer for help.",
+        "tr": "구시가지에서 길을 잃어서 경찰관에게 도움을 청했어.",
+        "c": "lose-lost-lost. get lost 길을 잃다. Get lost!는 '저리 가!'라는 무례한 말.",
+        "ipa": "lɔst",
+        "pos": "adj.",
+        "word": "lost",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "lost",
+        "ko": "② 잃어버린, 분실된",
+        "ex": "My {{BLANK}} bag was found on the bus two days later.",
+        "tr": "잃어버린 가방이 이틀 뒤에 버스에서 발견됐어.",
+        "c": "lost and found 분실물 보관소.",
+        "ipa": "lɔst",
+        "pos": "adj.",
+        "word": "lost",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "frozen",
+        "ko": "① 얼어붙은, 냉동된",
+        "ex": "The river was {{BLANK}} solid, so we could walk across it.",
+        "tr": "강이 꽁꽁 얼어서 걸어서 건널 수 있었어.",
+        "c": "freeze-froze-frozen. frozen food 냉동식품.",
+        "ipa": "ˈfroʊzən",
+        "pos": "adj.",
+        "word": "frozen",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "written",
+        "ko": "① 글로 쓴, 서면의",
+        "ex": "Many languages have no {{BLANK}} form; they are only spoken.",
+        "tr": "문자가 없는 언어가 많아. 말로만 쓰이는 거지.",
+        "c": "write-wrote-written. a written test 필기시험, a written promise 서면 약속.",
+        "ipa": "ˈrɪtən",
+        "pos": "adj.",
+        "word": "written",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "spoken",
+        "ko": "① 말로 하는, 구어의",
+        "ex": "This app lets you practice {{BLANK}} English with real people.",
+        "tr": "이 앱으로 실제 사람들과 영어 말하기를 연습할 수 있어.",
+        "c": "speak-spoke-spoken. 반대는 written(글로 쓴).",
+        "ipa": "ˈspoʊkən",
+        "pos": "adj.",
+        "word": "spoken",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "fixed",
+        "ko": "① 고정된, 정해진",
+        "ex": "Your abilities are not {{BLANK}}; they can grow with effort.",
+        "tr": "네 능력은 정해진 게 아니야. 노력하면 자라.",
+        "c": "fix의 과거분사. '고쳐진'보다 '고정된'으로 자주 쓴다: a fixed price 정가.",
+        "ipa": "fɪkst",
+        "pos": "adj.",
+        "word": "fixed",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "advanced",
+        "ko": "① 고급의, 발달한",
+        "ex": "I've moved up from the beginner class to the {{BLANK}} class.",
+        "tr": "나 초급반에서 고급반으로 올라갔어.",
+        "c": "advance(나아가다)에서: 앞서 나간. advanced technology 첨단 기술.",
+        "ipa": "ədˈvænst",
+        "pos": "adj.",
+        "word": "advanced",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "talent",
+        "ko": "① 재능",
+        "ex": "Everyone has a hidden {{BLANK}}; you just have to find it.",
+        "tr": "누구에게나 숨은 재능이 있어. 찾기만 하면 돼.",
+        "c": "a talent for music 음악에 재능. 한국어 '탤런트(배우)'는 영어로 actor.",
+        "ipa": "ˈtælənt",
+        "pos": "n.",
+        "word": "talent",
+        "si": 1,
+        "sn": 1,
+        "meow": "숨은 재능 찾기 전에 숨은 숙제부터 찾으라고양."
+      },
+      {
+        "en": "talented",
+        "ko": "① 재능 있는",
+        "ex": "She is the most {{BLANK}} singer I have ever heard.",
+        "tr": "걔는 내가 들어 본 가수 중에 제일 재능 있는 가수야.",
+        "c": "명사 talent에 -ed를 붙인 형용사. 동사 talent는 없다.",
+        "ipa": "ˈtæləntɪd",
+        "pos": "adj.",
+        "word": "talented",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "experienced",
+        "ko": "① 경험이 많은, 능숙한",
+        "ex": "She has been a nurse for 20 years, so she is very {{BLANK}}.",
+        "tr": "그녀는 20년째 간호사로 일해서 경험이 아주 많아.",
+        "c": "experience(경험)에서. experienced in ~에 경험이 많은.",
+        "ipa": "ɪkˈspɪriənst",
+        "pos": "adj.",
+        "word": "experienced",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "qualified",
+        "ko": "① 자격이 있는",
+        "ex": "I'm not {{BLANK}} for this job; I don't have the right degree.",
+        "tr": "나는 이 일에 자격이 안 돼. 맞는 학위가 없거든.",
+        "c": "be qualified for ~에 자격이 있다. 동사는 qualify(자격을 얻다).",
+        "ipa": "ˈkwɑləfaɪd",
+        "pos": "adj.",
+        "word": "qualified",
+        "si": 1,
+        "sn": 1
+      }
+    ]
   }
 ]

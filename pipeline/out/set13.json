@@ -1187,7 +1187,7 @@
         "ko": "① 전형적인",
         "ex": "It was a {{BLANK}} Monday morning.",
         "tr": "전형적인 월요일 아침이었어.",
-        "c": "type(유형)+ical: 딱 그 유형답다. Typical! 또 저러네!",
+        "c": "type(유형)+ical: 딱 그 유형답다. 이 뜻에서는 classic과 바꿔 쓸 수 있다. Typical! 또 저러네!",
         "ipa": "ˈtɪpɪkəl",
         "pos": "adj.",
         "word": "typical",
@@ -1713,6 +1713,193 @@
         "pos": "v.",
         "si": 2,
         "sn": 2
+      }
+    ]
+  },
+  {
+    "ex": 11,
+    "name": "여행과 숙소",
+    "words": [
+      {
+        "en": "accommodation",
+        "ko": "① 숙소, 숙박 시설",
+        "ex": "We haven't found {{BLANK}} near the beach yet.",
+        "tr": "아직 해변 근처에 숙소를 못 구했어.",
+        "c": "철자 주의: c도 m도 둘. 미국에서는 흔히 복수 accommodations로 쓴다.",
+        "ipa": "əˌkɑməˈdeɪʃən",
+        "pos": "n.",
+        "word": "accommodation",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "reservation",
+        "ko": "① 예약",
+        "ex": "Dad made a {{BLANK}} at an Italian restaurant for Mom's birthday.",
+        "tr": "아빠가 엄마 생신에 맞춰 이탈리아 식당을 예약했어.",
+        "c": "reserve(예약하다)의 명사. 식당·호텔·좌석은 reservation, 병원 진료 예약은 appointment.",
+        "ipa": "ˌrɛzɚˈveɪʃən",
+        "pos": "n.",
+        "word": "reservation",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "destination",
+        "ko": "① 목적지, 행선지",
+        "ex": "Our {{BLANK}} was a small island, three hours away by boat.",
+        "tr": "우리 목적지는 배로 세 시간 걸리는 작은 섬이었어.",
+        "c": "a popular tourist destination(인기 관광지)처럼 '여행지'로도 쓴다.",
+        "ipa": "ˌdɛstəˈneɪʃən",
+        "pos": "n.",
+        "word": "destination",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "departure",
+        "ko": "① 출발",
+        "ex": "You should arrive at the airport two hours before {{BLANK}}.",
+        "tr": "출발 두 시간 전에는 공항에 도착해야 해.",
+        "c": "동사는 depart(출발하다). 반대말은 arrival(도착).",
+        "ipa": "dɪˈpɑrtʃɚ",
+        "pos": "n.",
+        "word": "departure",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "attraction",
+        "ko": "① 명소, 볼거리",
+        "ex": "The night market has become a popular tourist {{BLANK}}.",
+        "tr": "그 야시장은 인기 있는 관광 명소가 됐어.",
+        "c": "attract(끌어당기다)+-ion: 사람을 끄는 것. '끌림, 매력'이라는 뜻도 있다.",
+        "ipa": "əˈtrækʃən",
+        "pos": "n.",
+        "word": "attraction",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "entry",
+        "ko": "① 입장, 들어감",
+        "ex": "{{BLANK}} to the museum is free on Sundays.",
+        "tr": "일요일에는 박물관 입장이 무료야.",
+        "c": "동사는 enter. entry fee 입장료, No entry 출입 금지.",
+        "ipa": "ˈɛntri",
+        "pos": "n.",
+        "word": "entry",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "entry",
+        "ko": "② (대회) 출품작, 응모작",
+        "ex": "Her photo was chosen as the best {{BLANK}} in the competition.",
+        "tr": "그녀의 사진이 대회 최고의 출품작으로 뽑혔어.",
+        "c": "대회에 내는 작품·답안. 사전의 '항목'이나 일기 한 편도 entry.",
+        "ipa": "ˈɛntri",
+        "pos": "n.",
+        "word": "entry",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "location",
+        "ko": "① 위치, 장소",
+        "ex": "I'm lost. Can you send me your {{BLANK}}?",
+        "tr": "나 길을 잃었어. 네 위치 좀 보내 줄래?",
+        "c": "locate(위치를 찾다), be located(~에 있다)의 명사. 영화 촬영지도 location.",
+        "ipa": "loʊˈkeɪʃən",
+        "pos": "n.",
+        "word": "location",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "stadium",
+        "ko": "① 경기장",
+        "ex": "We could hear the crowd celebrating from outside the {{BLANK}}.",
+        "tr": "경기장 밖에서도 관중이 환호하는 소리가 들렸어.",
+        "c": "발음 주의: '스타디움'이 아니라 [스테이디엄].",
+        "ipa": "ˈsteɪdiəm",
+        "pos": "n.",
+        "word": "stadium",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "exhibition",
+        "ko": "① 전시회",
+        "ex": "Our school is holding an {{BLANK}} of student art this week.",
+        "tr": "우리 학교에서 이번 주에 학생 미술 전시회를 해.",
+        "c": "동사는 exhibit(전시하다). 미국에서는 exhibit도 '전시회'라는 뜻으로 쓴다.",
+        "ipa": "ˌɛksəˈbɪʃən",
+        "pos": "n.",
+        "word": "exhibition",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "statue",
+        "ko": "① 조각상, 동상",
+        "ex": "A large {{BLANK}} of King Sejong sits in the middle of Gwanghwamun Square.",
+        "tr": "광화문 광장 한가운데에 커다란 세종대왕 동상이 앉아 있어.",
+        "c": "status(지위)와 철자 주의. 자유의 여신상은 the Statue of Liberty.",
+        "ipa": "ˈstætʃu",
+        "pos": "n.",
+        "word": "statue",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "leisure",
+        "ko": "① 여가",
+        "ex": "Since I started high school, I've had little {{BLANK}} time.",
+        "tr": "고등학교에 들어온 뒤로 여가 시간이 거의 없어.",
+        "c": "한국어 '레저'와 달리 미국 발음은 [리저]. leisure time = free time.",
+        "ipa": "ˈliʒɚ",
+        "pos": "n.",
+        "word": "leisure",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "receipt",
+        "ko": "① 영수증",
+        "ex": "Keep the {{BLANK}} in case you want to return it.",
+        "tr": "반품할 수도 있으니까 영수증 챙겨 둬.",
+        "c": "p는 소리 나지 않는다[리시트]. receive(받다)와 한 가족.",
+        "ipa": "rɪˈsit",
+        "pos": "n.",
+        "word": "receipt",
+        "si": 1,
+        "sn": 1,
+        "meow": "p 읽으면 영수증 찢어 버린다고양!"
+      },
+      {
+        "en": "announce",
+        "ko": "① 발표하다, 알리다",
+        "ex": "The pilot {{BLANK}}d that we would land in ten minutes.",
+        "tr": "기장이 10분 뒤에 착륙한다고 알렸어.",
+        "c": "여러 사람에게 공식적으로 알리다. announce that ~라고 발표하다.",
+        "ipa": "əˈnaʊns",
+        "pos": "v.",
+        "word": "announce",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "announcement",
+        "ko": "① 발표, 안내 방송",
+        "ex": "Did you hear the {{BLANK}}? Our train is twenty minutes late.",
+        "tr": "안내 방송 들었어? 우리 기차 20분 늦는대.",
+        "c": "announce+-ment. make an announcement 발표하다.",
+        "ipa": "əˈnaʊnsmənt",
+        "pos": "n.",
+        "word": "announcement",
+        "si": 1,
+        "sn": 1
       }
     ]
   }

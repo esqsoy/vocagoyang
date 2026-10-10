@@ -1922,5 +1922,168 @@
         "sn": 1
       }
     ]
+  },
+  {
+    "ex": 11,
+    "name": "일과 사람",
+    "words": [
+      {
+        "en": "assistant",
+        "ko": "① 조수, 보조원",
+        "ex": "I need an {{BLANK}} to help me with all this work.",
+        "tr": "이 일을 다 도와줄 조수가 필요해.",
+        "c": "assist(돕다)+-ant(사람). 개인 비서는 personal assistant.",
+        "ipa": "əˈsɪstənt",
+        "pos": "n.",
+        "word": "assistant",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "colleague",
+        "ko": "① 동료",
+        "ex": "She left the company, but her old {{BLANK}}s still miss her.",
+        "tr": "그녀는 회사를 그만뒀지만, 예전 동료들은 아직도 그녀를 그리워해.",
+        "c": "직장·직업이 같은 동료. 같은 회사 동료는 coworker라고도 한다.",
+        "ipa": "ˈkɑliɡ",
+        "pos": "n.",
+        "word": "colleague",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "director",
+        "ko": "① (영화) 감독, 책임자",
+        "ex": "The {{BLANK}} told the actors to say their lines again.",
+        "tr": "감독은 배우들에게 대사를 다시 해 보라고 했어.",
+        "c": "direct(지휘하다)+-or. 회사·기관의 책임자, 이사도 director다.",
+        "ipa": "dəˈrɛktɚ",
+        "pos": "n.",
+        "word": "director",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "expert",
+        "ko": "① 전문가",
+        "ex": "We asked an {{BLANK}} to check if the old painting was real.",
+        "tr": "우리는 전문가에게 그 오래된 그림이 진짜인지 봐 달라고 했어.",
+        "c": "an expert on/in ~: ~의 전문가. 형용사로 '전문적인'도 된다: expert advice.",
+        "ipa": "ˈɛkspɝt",
+        "pos": "n.",
+        "word": "expert",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "instructor",
+        "ko": "① 강사",
+        "ex": "My driving {{BLANK}} taught me how to park.",
+        "tr": "운전 강사가 나한테 주차하는 법을 가르쳐 줬어.",
+        "c": "instruct(가르치다)+-or. 운전·운동처럼 기술을 가르치는 사람에게 흔히 쓴다.",
+        "ipa": "ɪnˈstrʌktɚ",
+        "pos": "n.",
+        "word": "instructor",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "professional",
+        "ko": "① 전문적인, 프로의",
+        "ex": "He wants to become a {{BLANK}} soccer player.",
+        "tr": "걔는 프로 축구 선수가 되고 싶어 해.",
+        "c": "명사로 '전문가, 프로'도 된다. 반대는 amateur. profession은 (전문) 직업.",
+        "ipa": "prəˈfɛʃənəl",
+        "pos": "adj.",
+        "word": "professional",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "celebrity",
+        "ko": "① 유명인",
+        "ex": "The cafe became famous after a {{BLANK}} visited it.",
+        "tr": "그 카페는 한 유명인이 다녀간 뒤로 유명해졌어.",
+        "c": "구어로 줄여서 celeb이라고도 한다.",
+        "ipa": "səˈlɛbrəti",
+        "pos": "n.",
+        "word": "celebrity",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "couple",
+        "ko": "① 부부, 커플",
+        "ex": "The old {{BLANK}} next door has been married for fifty years.",
+        "tr": "옆집 노부부는 결혼한 지 50년 됐어.",
+        "c": "결혼했거나 사귀는 두 사람. 우리말 '커플'과 달리 부부에도 흔히 쓴다.",
+        "ipa": "ˈkʌpəl",
+        "pos": "n.",
+        "word": "couple",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "couple",
+        "ko": "② (a ~ of) 두어 개의, 몇몇의",
+        "ex": "Give me a {{BLANK}} of minutes. I'm almost ready.",
+        "tr": "몇 분만 줘. 거의 다 준비됐어.",
+        "c": "a couple of+복수 명사: 두어 개의, 몇몇의. 꼭 둘이 아니어도 된다.",
+        "ipa": "ˈkʌpəl",
+        "pos": "n.",
+        "word": "couple",
+        "si": 2,
+        "sn": 2,
+        "meow": "a couple of minutes, 몇 분이라더니 한 시간째라고양."
+      },
+      {
+        "en": "twin",
+        "ko": "① 쌍둥이 (중 한 명)",
+        "ex": "The two brothers are {{BLANK}}s, but one is taller than the other.",
+        "tr": "그 두 형제는 쌍둥이인데, 한 명이 다른 한 명보다 키가 더 커.",
+        "c": "쌍둥이 중 한 명은 a twin, 둘은 twins. 형용사로 '쌍둥이의': twin sister.",
+        "ipa": "twɪn",
+        "pos": "n.",
+        "word": "twin",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "individual",
+        "ko": "① 개인",
+        "ex": "Society is made up of {{BLANK}}s with different ideas.",
+        "tr": "사회는 생각이 저마다 다른 개인들로 이루어져.",
+        "c": "in(아닌)+divide(나누다): 더 나눌 수 없는 한 사람. 형용사로 '개별의'.",
+        "ipa": "ˌɪndəˈvɪdʒuəl",
+        "pos": "n.",
+        "word": "individual",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "personality",
+        "ko": "① 성격, 개성",
+        "ex": "She has a warm {{BLANK}}, so everyone likes her.",
+        "tr": "그녀는 성격이 따뜻해서 모두가 좋아해.",
+        "c": "personal(개인의)+-ity. 개성이 강하다는 have a strong personality.",
+        "ipa": "ˌpɝsəˈnæləti",
+        "pos": "n.",
+        "word": "personality",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "community",
+        "ko": "① 공동체, 지역 사회",
+        "ex": "In a small {{BLANK}}, everyone seems to know everyone.",
+        "tr": "작은 공동체에서는 다들 서로 아는 것 같아.",
+        "c": "common(공통의)과 뿌리가 같다. 같은 지역·관심사로 묶인 사람들.",
+        "ipa": "kəˈmjunəti",
+        "pos": "n.",
+        "word": "community",
+        "si": 1,
+        "sn": 1
+      }
+    ]
   }
 ]
