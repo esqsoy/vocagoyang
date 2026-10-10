@@ -45,7 +45,15 @@ try:
                     _v=(_w.get(_k) or '').lower().strip()
                     if _v: HEAD.add(_v); HEAD.update(_v.split())
 except Exception as _err: print('주의: HTML 표제어를 읽지 못함', _err)
-ALLOWED = HEAD | white | NUMS | IRR
+# 26.10.10 Oxford 3000 보강 배치안: 자리를 정한 새 표제어는 예문에 미리 쓸 수 있다(순서는 ordercheck.py가 본다).
+PLANNED=set()
+try:
+    for _f in sorted(glob.glob(f'{P}/oxford/placement-*.json')):
+        _d=json.load(open(_f,encoding='utf-8'))
+        for _w in _d.get('words',[])+_d.get('set0',[]):
+            _v=_w['word'].lower(); PLANNED.add(_v); PLANNED.update(_v.split())
+except Exception as _err: print('주의: Oxford 배치안을 읽지 못함', _err)
+ALLOWED = HEAD | white | NUMS | IRR | PLANNED
 
 def tok_ok(t):
     t=t.lower().strip("'")

@@ -9,6 +9,7 @@
 - 허용: 앞 세트와 같은 세트의 표제어, 그 활용형·파생형(-s, -ed, -ing, -er, -ly 등과 불규칙형).
 - 앞당김: 그 카드의 세트보다 뒤에서 처음 나오는 표제어. 예문당 1개까지는 사람이 판단해 둘 수 있다
   (빈칸을 찾는 단서가 아니고 해석이 풀어 줄 때). 2개 이상은 다시 쓴다.
+- Oxford 3000 보강 배치안(oxford/placement-*.json)의 새 단어는 정한 세트에서 배운 것으로 친다.
 - 46~50세트는 복습·주제 세트라 세지 않는다. 표제어 밖 단어는 exaudit.py가 본다.
 사용: python3 pipeline/ordercheck.py [--list 2] [--set N] [--json 경로]
 """
@@ -58,6 +59,13 @@ def load():
                     if li < first.get(k, 99):
                         first[k] = li
                 cards.append(dict(set=li, ex=ei, i=wi, name=ex.get('name'), word=w.get('word') or w['en'], si=w.get('si') or 1, text=w.get('ex') or ''))
+    # 26.10.10 Oxford 3000 보강 배치안: 데이터에 넣기 전에도 정한 자리(세트)에서 배운 것으로 친다.
+    for f in sorted(P.glob('oxford/placement-*.json')):
+        plan = json.loads(f.read_text(encoding='utf-8'))
+        for w in plan.get('words', []) + plan.get('set0', []):
+            k = w['word'].lower()
+            if ' ' not in k and w['set'] < first.get(k, 99):
+                first[k] = w['set']
     return first, cards
 
 

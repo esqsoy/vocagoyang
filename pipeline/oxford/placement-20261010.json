@@ -1,0 +1,6890 @@
+{
+ "date": "2026-10-10",
+ "status": "배치안 — 영신 검토 대기. 데이터에는 그 세트 예문을 쓸 때 넣는다.",
+ "excluded": {
+  "words": [
+   "wi-fi",
+   "AI"
+  ],
+  "why": "26.10.10 영신 \"wi-fi와 AI는 뺍시다\""
+ },
+ "rule": "자리를 먼저 정해 두면 그 세트 뒤 예문부터 이 단어를 쓸 수 있다(exaudit·ordercheck가 이 파일을 읽는다). 새 연습은 세트 끝에 붙이고 기존 연습·진도 키는 건드리지 않는다(지식 어휘와 같은 방식). 16·26·34·42세트(지식 어휘)는 피했다.",
+ "counts": {
+  "words": 446,
+  "placed": 443,
+  "set0": 3,
+  "exercises": 36
+ },
+ "set0": [
+  {
+   "word": "because of",
+   "set": 0,
+   "exercise": "잇는 말과 묻는 말"
+  },
+  {
+   "word": "no one",
+   "set": 0,
+   "exercise": "가족과 모두·아무도"
+  },
+  {
+   "word": "ice cream",
+   "set": 0,
+   "exercise": "먹는 것"
+  }
+ ],
+ "words": [
+  {
+   "word": "assistant",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n., adj.",
+   "ko": "조수, 보조원",
+   "set": 6,
+   "exercise": "일과 사람",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "colleague",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "동료",
+   "set": 6,
+   "exercise": "일과 사람",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "director",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "감독; 책임자, 이사",
+   "set": 6,
+   "exercise": "일과 사람",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "direct"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "expert",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n., adj.",
+   "ko": "전문가; 전문적인",
+   "set": 6,
+   "exercise": "일과 사람",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 3
+  },
+  {
+   "word": "instructor",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "강사",
+   "set": 6,
+   "exercise": "일과 사람",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "instruct"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "professional",
+   "ox": [
+    "A2",
+    "B2"
+   ],
+   "band": "A",
+   "pos": "adj., n.",
+   "ko": "전문적인, 직업의; 전문가",
+   "set": 6,
+   "exercise": "일과 사람",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "profession"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "celebrity",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "유명인",
+   "set": 6,
+   "exercise": "일과 사람",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "couple",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "두 사람, 부부·커플; (a couple of) 두어 개",
+   "set": 6,
+   "exercise": "일과 사람",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "twin",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n., adj.",
+   "ko": "쌍둥이; 쌍둥이의",
+   "set": 6,
+   "exercise": "일과 사람",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "individual",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n., adj.",
+   "ko": "개인; 개별의",
+   "set": 6,
+   "exercise": "일과 사람",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "personality",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "성격, 개성",
+   "set": 6,
+   "exercise": "일과 사람",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "personal"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "community",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "공동체, 지역 사회",
+   "set": 6,
+   "exercise": "일과 사람",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "lecture",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n., v.",
+   "ko": "강의; 강의하다",
+   "set": 7,
+   "exercise": "수업과 토론",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "lab",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "실험실 (laboratory의 줄임)",
+   "set": 7,
+   "exercise": "수업과 토론",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "physics",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "물리학",
+   "set": 7,
+   "exercise": "수업과 토론",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "conference",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "회의, 학회",
+   "set": 7,
+   "exercise": "수업과 토론",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "discussion",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "토론, 논의",
+   "set": 7,
+   "exercise": "수업과 토론",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "suggestion",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "제안",
+   "set": 7,
+   "exercise": "수업과 토론",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "comment",
+   "ox": [
+    "A2",
+    "B1"
+   ],
+   "band": "A",
+   "pos": "n., v.",
+   "ko": "논평, 댓글; 언급하다",
+   "set": 7,
+   "exercise": "수업과 토론",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "review",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n., v.",
+   "ko": "검토(하다); 논평, 리뷰; 복습하다",
+   "set": 7,
+   "exercise": "수업과 토론",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "document",
+   "ox": [
+    "A2",
+    "B2"
+   ],
+   "band": "A",
+   "pos": "n., v.",
+   "ko": "문서, 서류; 기록하다",
+   "set": 7,
+   "exercise": "수업과 토론",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "survey",
+   "ox": [
+    "A2",
+    "B2"
+   ],
+   "band": "A",
+   "pos": "n., v.",
+   "ko": "설문 조사; 조사하다",
+   "set": 7,
+   "exercise": "수업과 토론",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "score",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "v., n.",
+   "ko": "점수; 득점하다",
+   "set": 7,
+   "exercise": "수업과 토론",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 2
+  },
+  {
+   "word": "context",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "맥락, 문맥",
+   "set": 7,
+   "exercise": "수업과 토론",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "source",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "근원, 출처",
+   "set": 7,
+   "exercise": "수업과 토론",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "technology",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "기술",
+   "set": 8,
+   "exercise": "기기와 일정",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "device",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "장치, 기기",
+   "set": 8,
+   "exercise": "기기와 일정",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "tablet",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "알약; 태블릿",
+   "set": 8,
+   "exercise": "기기와 일정",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "platform",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "승강장; 단; (디지털) 플랫폼",
+   "set": 8,
+   "exercise": "기기와 일정",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "profile",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "옆얼굴; 개요, 프로필",
+   "set": 8,
+   "exercise": "기기와 일정",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "electrical",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "adj.",
+   "ko": "전기의",
+   "set": 8,
+   "exercise": "기기와 일정",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "electric"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "code",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "암호; 규칙; 코드",
+   "set": 8,
+   "exercise": "기기와 일정",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "site",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "장소, 현장; 웹사이트",
+   "set": 8,
+   "exercise": "기기와 일정",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "schedule",
+   "ox": [
+    "A2",
+    "B2"
+   ],
+   "band": "A",
+   "pos": "n., v.",
+   "ko": "일정; 일정을 잡다",
+   "set": 8,
+   "exercise": "기기와 일정",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "route",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "경로, 노선",
+   "set": 8,
+   "exercise": "기기와 일정",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "option",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "선택(지)",
+   "set": 8,
+   "exercise": "기기와 일정",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "hike",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n., v.",
+   "ko": "하이킹, 도보 여행; 하이킹하다",
+   "set": 9,
+   "exercise": "나들이와 예술",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "gallery",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "미술관, 화랑",
+   "set": 9,
+   "exercise": "나들이와 예술",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "architect",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "건축가",
+   "set": 9,
+   "exercise": "나들이와 예술",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "architecture",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "건축(학); 건축 양식",
+   "set": 9,
+   "exercise": "나들이와 예술",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "classical",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "adj.",
+   "ko": "고전의, 클래식의",
+   "set": 9,
+   "exercise": "나들이와 예술",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "award",
+   "ox": [
+    "A2",
+    "B1"
+   ],
+   "band": "A",
+   "pos": "n., v.",
+   "ko": "상; 수여하다",
+   "set": 9,
+   "exercise": "나들이와 예술",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "charity",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "자선 단체; 자선",
+   "set": 9,
+   "exercise": "나들이와 예술",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "tourism",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "관광(업)",
+   "set": 9,
+   "exercise": "나들이와 예술",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "chat",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "v., n.",
+   "ko": "수다 떨다; 잡담",
+   "set": 9,
+   "exercise": "나들이와 예술",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "recipe",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "요리법, 레시피",
+   "set": 9,
+   "exercise": "나들이와 예술",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "jam",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "잼; (교통) 혼잡",
+   "set": 9,
+   "exercise": "나들이와 예술",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "happily",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "adv.",
+   "ko": "행복하게; 기꺼이",
+   "set": 9,
+   "exercise": "정도와 성질",
+   "grammar": "-ly 부사와 형용사",
+   "two_sense": true,
+   "family": [
+    "happy"
+   ],
+   "uses_now": 2
+  },
+  {
+   "word": "definitely",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "adv.",
+   "ko": "분명히, 틀림없이",
+   "set": 9,
+   "exercise": "정도와 성질",
+   "grammar": "-ly 부사와 형용사",
+   "two_sense": false,
+   "family": [
+    "definite"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "extremely",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "adv.",
+   "ko": "극도로, 매우",
+   "set": 9,
+   "exercise": "정도와 성질",
+   "grammar": "-ly 부사와 형용사",
+   "two_sense": false,
+   "family": [
+    "extreme"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "enormous",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "adj.",
+   "ko": "거대한, 막대한",
+   "set": 9,
+   "exercise": "정도와 성질",
+   "grammar": "-ly 부사와 형용사",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "unusual",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "adj.",
+   "ko": "특이한, 드문",
+   "set": 9,
+   "exercise": "정도와 성질",
+   "grammar": "-ly 부사와 형용사",
+   "two_sense": false,
+   "family": [
+    "usual"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "ideal",
+   "ox": [
+    "A2",
+    "B2"
+   ],
+   "band": "A",
+   "pos": "adj., n.",
+   "ko": "이상적인; 이상",
+   "set": 9,
+   "exercise": "정도와 성질",
+   "grammar": "-ly 부사와 형용사",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "original",
+   "ox": [
+    "A2",
+    "B1"
+   ],
+   "band": "A",
+   "pos": "adj., n.",
+   "ko": "원래의; 독창적인; 원본",
+   "set": 9,
+   "exercise": "정도와 성질",
+   "grammar": "-ly 부사와 형용사",
+   "two_sense": true,
+   "family": [
+    "origin"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "specific",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "adj.",
+   "ko": "구체적인; 특정한",
+   "set": 9,
+   "exercise": "정도와 성질",
+   "grammar": "-ly 부사와 형용사",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "informal",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "adj.",
+   "ko": "비격식의, 편한",
+   "set": 9,
+   "exercise": "정도와 성질",
+   "grammar": "-ly 부사와 형용사",
+   "two_sense": false,
+   "family": [
+    "formal"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "independent",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "adj.",
+   "ko": "독립한; 독자적인",
+   "set": 9,
+   "exercise": "정도와 성질",
+   "grammar": "-ly 부사와 형용사",
+   "two_sense": false,
+   "family": [
+    "dependent"
+   ],
+   "uses_now": 1
+  },
+  {
+   "word": "strategy",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "전략",
+   "set": 10,
+   "exercise": "목표와 상태",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "target",
+   "ox": [
+    "A2",
+    "B2"
+   ],
+   "band": "A",
+   "pos": "n., v.",
+   "ko": "목표, 표적; 겨냥하다",
+   "set": 10,
+   "exercise": "목표와 상태",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "progress",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n., v.",
+   "ko": "진전, 발전; 진행하다",
+   "set": 10,
+   "exercise": "목표와 상태",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "factor",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "요인, 요소",
+   "set": 10,
+   "exercise": "목표와 상태",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "feature",
+   "ox": [
+    "A2",
+    "B1"
+   ],
+   "band": "A",
+   "pos": "n., v.",
+   "ko": "특징; (얼굴) 생김새; 특징으로 삼다",
+   "set": 10,
+   "exercise": "목표와 상태",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "gap",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "틈, 간격; 격차",
+   "set": 10,
+   "exercise": "목표와 상태",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "identify",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "v.",
+   "ko": "(신원 등을) 확인하다, 알아보다",
+   "set": 10,
+   "exercise": "목표와 상태",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "long-term",
+   "ox": [
+    "B2"
+   ],
+   "band": "A",
+   "pos": "adj., adv.",
+   "ko": "장기적인",
+   "set": 10,
+   "exercise": "목표와 상태",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "movement",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "움직임; (사회) 운동",
+   "set": 10,
+   "exercise": "목표와 상태",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "move"
+   ],
+   "uses_now": 1
+  },
+  {
+   "word": "stress",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n., v.",
+   "ko": "스트레스; 강조; 강조하다",
+   "set": 10,
+   "exercise": "목표와 상태",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "injury",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "부상",
+   "set": 10,
+   "exercise": "목표와 상태",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "well-being",
+   "ox": [
+    "B2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "행복, 웰빙",
+   "set": 10,
+   "exercise": "목표와 상태",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "disaster",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "n.",
+   "ko": "재난, 재해",
+   "set": 10,
+   "exercise": "목표와 상태",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "academic",
+   "ox": [
+    "B1",
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "adj., n.",
+   "ko": "학업의, 학문의",
+   "set": 11,
+   "exercise": "공부와 발표",
+   "grammar": "define/definition 계열",
+   "two_sense": false,
+   "family": [
+    "academy"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "assignment",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "과제; 임무",
+   "set": 11,
+   "exercise": "공부와 발표",
+   "grammar": "define/definition 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "presentation",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "발표; 제시",
+   "set": 11,
+   "exercise": "공부와 발표",
+   "grammar": "define/definition 계열",
+   "two_sense": false,
+   "family": [
+    "present"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "summarize",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "요약하다",
+   "set": 11,
+   "exercise": "공부와 발표",
+   "grammar": "define/definition 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "define",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "정의하다, 뜻을 밝히다",
+   "set": 11,
+   "exercise": "공부와 발표",
+   "grammar": "define/definition 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "definition",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "정의, 뜻풀이",
+   "set": 11,
+   "exercise": "공부와 발표",
+   "grammar": "define/definition 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "journal",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "학술지, 잡지; 일기",
+   "set": 11,
+   "exercise": "공부와 발표",
+   "grammar": "define/definition 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "reference",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "언급; 참고; 추천서",
+   "set": 11,
+   "exercise": "공부와 발표",
+   "grammar": "define/definition 계열",
+   "two_sense": false,
+   "family": [
+    "refer"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "quote",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v., n.",
+   "ko": "인용하다; 인용구",
+   "set": 11,
+   "exercise": "공부와 발표",
+   "grammar": "define/definition 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "theme",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "주제",
+   "set": 11,
+   "exercise": "공부와 발표",
+   "grammar": "define/definition 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "narrative",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n., adj.",
+   "ko": "이야기, 서술",
+   "set": 11,
+   "exercise": "공부와 발표",
+   "grammar": "define/definition 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "plot",
+   "ox": [
+    "B1",
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "n., v.",
+   "ko": "줄거리; 음모; 음모를 꾸미다",
+   "set": 11,
+   "exercise": "공부와 발표",
+   "grammar": "define/definition 계열",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "revise",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "수정하다; 복습하다",
+   "set": 11,
+   "exercise": "공부와 발표",
+   "grammar": "define/definition 계열",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "conclude",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "결론을 내리다; 끝내다",
+   "set": 11,
+   "exercise": "공부와 발표",
+   "grammar": "define/definition 계열",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "being",
+   "ox": [
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "존재, 생명체",
+   "set": 12,
+   "exercise": "-ing가 된 말 II",
+   "grammar": "-ing 명사(동명사에서 굳은 말)",
+   "two_sense": false,
+   "family": [
+    "be"
+   ],
+   "uses_now": 11
+  },
+  {
+   "word": "finding",
+   "ox": [
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "(조사·연구) 결과",
+   "set": 12,
+   "exercise": "-ing가 된 말 II",
+   "grammar": "-ing 명사(동명사에서 굳은 말)",
+   "two_sense": false,
+   "family": [
+    "find"
+   ],
+   "uses_now": 3
+  },
+  {
+   "word": "funding",
+   "ox": [
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "자금 지원",
+   "set": 12,
+   "exercise": "-ing가 된 말 II",
+   "grammar": "-ing 명사(동명사에서 굳은 말)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "opening",
+   "ox": [
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "개막, 개장; 열린 틈; 빈자리",
+   "set": 12,
+   "exercise": "-ing가 된 말 II",
+   "grammar": "-ing 명사(동명사에서 굳은 말)",
+   "two_sense": true,
+   "family": [
+    "open"
+   ],
+   "uses_now": 1
+  },
+  {
+   "word": "saving",
+   "ox": [
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "절약; (savings) 저축",
+   "set": 12,
+   "exercise": "-ing가 된 말 II",
+   "grammar": "-ing 명사(동명사에서 굳은 말)",
+   "two_sense": true,
+   "family": [
+    "save"
+   ],
+   "uses_now": 7
+  },
+  {
+   "word": "shooting",
+   "ox": [
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "총격; (영화) 촬영",
+   "set": 12,
+   "exercise": "-ing가 된 말 II",
+   "grammar": "-ing 명사(동명사에서 굳은 말)",
+   "two_sense": true,
+   "family": [
+    "shoot"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "spending",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "지출",
+   "set": 12,
+   "exercise": "-ing가 된 말 II",
+   "grammar": "-ing 명사(동명사에서 굳은 말)",
+   "two_sense": false,
+   "family": [
+    "spend"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "training",
+   "ox": [
+    "A2"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "훈련, 연수",
+   "set": 12,
+   "exercise": "-ing가 된 말 II",
+   "grammar": "-ing 명사(동명사에서 굳은 말)",
+   "two_sense": false,
+   "family": [
+    "train"
+   ],
+   "uses_now": 2
+  },
+  {
+   "word": "camping",
+   "ox": [
+    "A2"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "캠핑, 야영",
+   "set": 12,
+   "exercise": "-ing가 된 말 II",
+   "grammar": "-ing 명사(동명사에서 굳은 말)",
+   "two_sense": false,
+   "family": [
+    "camp"
+   ],
+   "uses_now": 1
+  },
+  {
+   "word": "accommodation",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "숙소",
+   "set": 13,
+   "exercise": "여행과 숙소",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "reservation",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "예약",
+   "set": 13,
+   "exercise": "여행과 숙소",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "reserve"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "destination",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "목적지",
+   "set": 13,
+   "exercise": "여행과 숙소",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "departure",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "출발",
+   "set": 13,
+   "exercise": "여행과 숙소",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "attraction",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "명소; 끌림, 매력",
+   "set": 13,
+   "exercise": "여행과 숙소",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "entry",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "입장, 들어감; 출품작; 항목",
+   "set": 13,
+   "exercise": "여행과 숙소",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "location",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "위치, 장소",
+   "set": 13,
+   "exercise": "여행과 숙소",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "locate"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "stadium",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "경기장",
+   "set": 13,
+   "exercise": "여행과 숙소",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "exhibition",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "전시회",
+   "set": 13,
+   "exercise": "여행과 숙소",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "statue",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "조각상, 동상",
+   "set": 13,
+   "exercise": "여행과 숙소",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "leisure",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "여가",
+   "set": 13,
+   "exercise": "여행과 숙소",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "receipt",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "영수증; 수령",
+   "set": 13,
+   "exercise": "여행과 숙소",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "announce",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "발표하다, 알리다",
+   "set": 13,
+   "exercise": "여행과 숙소",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "announcement",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "발표, 안내 방송",
+   "set": 13,
+   "exercise": "여행과 숙소",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "broken",
+   "ox": [
+    "A2"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "고장 난, 부러진",
+   "set": 14,
+   "exercise": "과거분사가 된 형용사",
+   "grammar": "과거분사 형용사 — 현재완료·수동태 소개 세트",
+   "two_sense": false,
+   "family": [
+    "break"
+   ],
+   "uses_now": 24
+  },
+  {
+   "word": "lost",
+   "ox": [
+    "A2"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "길을 잃은; 잃어버린",
+   "set": 14,
+   "exercise": "과거분사가 된 형용사",
+   "grammar": "과거분사 형용사 — 현재완료·수동태 소개 세트",
+   "two_sense": true,
+   "family": [
+    "lose"
+   ],
+   "uses_now": 36
+  },
+  {
+   "word": "frozen",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "얼어붙은, 냉동된",
+   "set": 14,
+   "exercise": "과거분사가 된 형용사",
+   "grammar": "과거분사 형용사 — 현재완료·수동태 소개 세트",
+   "two_sense": false,
+   "family": [
+    "freeze"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "written",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "글로 쓴, 서면의",
+   "set": 14,
+   "exercise": "과거분사가 된 형용사",
+   "grammar": "과거분사 형용사 — 현재완료·수동태 소개 세트",
+   "two_sense": false,
+   "family": [
+    "write"
+   ],
+   "uses_now": 4
+  },
+  {
+   "word": "spoken",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "말로 하는, 구어의",
+   "set": 14,
+   "exercise": "과거분사가 된 형용사",
+   "grammar": "과거분사 형용사 — 현재완료·수동태 소개 세트",
+   "two_sense": false,
+   "family": [
+    "speak"
+   ],
+   "uses_now": 2
+  },
+  {
+   "word": "fixed",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "고정된, 정해진",
+   "set": 14,
+   "exercise": "과거분사가 된 형용사",
+   "grammar": "과거분사 형용사 — 현재완료·수동태 소개 세트",
+   "two_sense": false,
+   "family": [
+    "fix"
+   ],
+   "uses_now": 5
+  },
+  {
+   "word": "advanced",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "고급의, 발달한",
+   "set": 14,
+   "exercise": "과거분사가 된 형용사",
+   "grammar": "과거분사 형용사 — 현재완료·수동태 소개 세트",
+   "two_sense": false,
+   "family": [
+    "advance"
+   ],
+   "uses_now": 1
+  },
+  {
+   "word": "talent",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "재능",
+   "set": 14,
+   "exercise": "과거분사가 된 형용사",
+   "grammar": "과거분사 형용사 — 현재완료·수동태 소개 세트",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "talented",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "재능 있는",
+   "set": 14,
+   "exercise": "과거분사가 된 형용사",
+   "grammar": "과거분사 형용사 — 현재완료·수동태 소개 세트",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "experienced",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "경험이 많은, 능숙한",
+   "set": 14,
+   "exercise": "과거분사가 된 형용사",
+   "grammar": "과거분사 형용사 — 현재완료·수동태 소개 세트",
+   "two_sense": false,
+   "family": [
+    "experience"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "qualified",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "자격이 있는",
+   "set": 14,
+   "exercise": "과거분사가 된 형용사",
+   "grammar": "과거분사 형용사 — 현재완료·수동태 소개 세트",
+   "two_sense": false,
+   "family": [
+    "qualify"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "financial",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "재정의, 금융의",
+   "set": 15,
+   "exercise": "돈과 일",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "currency",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "통화, 화폐",
+   "set": 15,
+   "exercise": "돈과 일",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "client",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "고객, 의뢰인",
+   "set": 15,
+   "exercise": "돈과 일",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "staff",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "직원",
+   "set": 15,
+   "exercise": "돈과 일",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "management",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "관리, 경영; 경영진",
+   "set": 15,
+   "exercise": "돈과 일",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "manage"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "candidate",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "후보자, 지원자",
+   "set": 15,
+   "exercise": "돈과 일",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "application",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "지원(서), 신청; 적용; 앱",
+   "set": 15,
+   "exercise": "돈과 일",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "commercial",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj., n.",
+   "ko": "상업의; 광고 방송",
+   "set": 15,
+   "exercise": "돈과 일",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "promote",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "촉진하다; 홍보하다; 승진시키다",
+   "set": 15,
+   "exercise": "돈과 일",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "producer",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "생산자; (영화 등의) 제작자",
+   "set": 15,
+   "exercise": "돈과 일",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "produce"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "package",
+   "ox": [
+    "B1",
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "n., v.",
+   "ko": "소포, 꾸러미; 포장하다",
+   "set": 15,
+   "exercise": "돈과 일",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "label",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n., v.",
+   "ko": "라벨, 꼬리표; 라벨을 붙이다",
+   "set": 15,
+   "exercise": "돈과 일",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "donate",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "기부하다, 기증하다",
+   "set": 15,
+   "exercise": "돈과 일",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "recommendation",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "추천; 권고",
+   "set": 15,
+   "exercise": "돈과 일",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "recommend"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "concerned",
+   "ox": [
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "걱정하는; 관련된",
+   "set": 17,
+   "exercise": "마음과 판단",
+   "grammar": "be + 과거분사 + 전치사(be concerned about)",
+   "two_sense": true,
+   "family": [
+    "concern"
+   ],
+   "uses_now": 2
+  },
+  {
+   "word": "convinced",
+   "ox": [
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "확신하는",
+   "set": 17,
+   "exercise": "마음과 판단",
+   "grammar": "be + 과거분사 + 전치사(be concerned about)",
+   "two_sense": false,
+   "family": [
+    "convince"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "involved",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "관련된, 참여하는",
+   "set": 17,
+   "exercise": "마음과 판단",
+   "grammar": "be + 과거분사 + 전치사(be concerned about)",
+   "two_sense": false,
+   "family": [
+    "involve"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "guilty",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "죄책감이 드는; 유죄의",
+   "set": 17,
+   "exercise": "마음과 판단",
+   "grammar": "be + 과거분사 + 전치사(be concerned about)",
+   "two_sense": false,
+   "family": [
+    "guilt"
+   ],
+   "uses_now": 1
+  },
+  {
+   "word": "innocent",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "무죄의, 결백한; 순진한",
+   "set": 17,
+   "exercise": "마음과 판단",
+   "grammar": "be + 과거분사 + 전치사(be concerned about)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "obvious",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "명백한, 뻔한",
+   "set": 17,
+   "exercise": "마음과 판단",
+   "grammar": "be + 과거분사 + 전치사(be concerned about)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "reliable",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "믿을 만한",
+   "set": 17,
+   "exercise": "마음과 판단",
+   "grammar": "be + 과거분사 + 전치사(be concerned about)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "unpleasant",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "불쾌한",
+   "set": 17,
+   "exercise": "마음과 판단",
+   "grammar": "be + 과거분사 + 전치사(be concerned about)",
+   "two_sense": false,
+   "family": [
+    "pleasant"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "mild",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "가벼운, 순한; (날씨가) 온화한",
+   "set": 17,
+   "exercise": "마음과 판단",
+   "grammar": "be + 과거분사 + 전치사(be concerned about)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "leading",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "선두의, 주요한",
+   "set": 17,
+   "exercise": "마음과 판단",
+   "grammar": "be + 과거분사 + 전치사(be concerned about)",
+   "two_sense": false,
+   "family": [
+    "lead"
+   ],
+   "uses_now": 1
+  },
+  {
+   "word": "surrounding",
+   "ox": [
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "주위의",
+   "set": 17,
+   "exercise": "마음과 판단",
+   "grammar": "be + 과거분사 + 전치사(be concerned about)",
+   "two_sense": false,
+   "family": [
+    "surround"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "fitness",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "건강, 체력",
+   "set": 18,
+   "exercise": "몸과 음식",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "fit"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "symptom",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "증상",
+   "set": 18,
+   "exercise": "몸과 음식",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "injure",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "다치게 하다",
+   "set": 18,
+   "exercise": "몸과 음식",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 2
+  },
+  {
+   "word": "emergency",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "비상(사태), 응급",
+   "set": 18,
+   "exercise": "몸과 음식",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "alarm",
+   "ox": [
+    "B1",
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "n., v.",
+   "ko": "경보(기), 알람; 놀람",
+   "set": 18,
+   "exercise": "몸과 음식",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "ingredient",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "재료, 성분",
+   "set": 18,
+   "exercise": "몸과 음식",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "fry",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "(기름에) 튀기다, 볶다",
+   "set": 18,
+   "exercise": "몸과 음식",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "slice",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n., v.",
+   "ko": "(얇은) 조각; 얇게 썰다",
+   "set": 18,
+   "exercise": "몸과 음식",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "bubble",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "거품, 방울",
+   "set": 18,
+   "exercise": "몸과 음식",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "container",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "그릇, 용기; 컨테이너",
+   "set": 18,
+   "exercise": "몸과 음식",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "contain"
+   ],
+   "uses_now": 1
+  },
+  {
+   "word": "consume",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "소비하다; 먹다",
+   "set": 18,
+   "exercise": "몸과 음식",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "environmental",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "환경의",
+   "set": 19,
+   "exercise": "과학과 환경",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "environment"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "renewable",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "재생 가능한",
+   "set": 19,
+   "exercise": "과학과 환경",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "global",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "세계적인, 전 지구의",
+   "set": 19,
+   "exercise": "과학과 환경",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "globe"
+   ],
+   "uses_now": 1
+  },
+  {
+   "word": "generation",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "세대; (전기 등의) 생성",
+   "set": 19,
+   "exercise": "과학과 환경",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "development",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "발달, 성장; 개발",
+   "set": 19,
+   "exercise": "과학과 환경",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "develop"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "layer",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "층, 겹",
+   "set": 19,
+   "exercise": "과학과 환경",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "atmosphere",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "대기; 분위기",
+   "set": 19,
+   "exercise": "과학과 환경",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "resource",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "자원, 자료",
+   "set": 19,
+   "exercise": "과학과 환경",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "function",
+   "ox": [
+    "B1",
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "n., v.",
+   "ko": "기능; 기능하다",
+   "set": 19,
+   "exercise": "과학과 환경",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "complex",
+   "ox": [
+    "B1",
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "adj., n.",
+   "ko": "복잡한; 단지, 복합 건물",
+   "set": 19,
+   "exercise": "과학과 환경",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "analyze",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "분석하다 (미국식 analyze)",
+   "set": 19,
+   "exercise": "과학과 환경",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "investigate",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "조사하다",
+   "set": 19,
+   "exercise": "과학과 환경",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "smart",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "똑똑한; 말쑥한; 스마트 (기기)",
+   "set": 19,
+   "exercise": "과학과 환경",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "whose",
+   "ox": [
+    "A2"
+   ],
+   "band": "A",
+   "pos": "det./pron.",
+   "ko": "누구의; (사람·사물 뒤) 그의 ~가",
+   "set": 20,
+   "exercise": "사회와 사람",
+   "grammar": "관계대명사 whose",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "immigrant",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "이민자",
+   "set": 20,
+   "exercise": "사회와 사람",
+   "grammar": "관계대명사 whose",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "folk",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n., adj.",
+   "ko": "사람들; 민속의",
+   "set": 20,
+   "exercise": "사회와 사람",
+   "grammar": "관계대명사 whose",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "identity",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "정체성; 신원",
+   "set": 20,
+   "exercise": "사회와 사람",
+   "grammar": "관계대명사 whose",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "authority",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "권한, 권위; 당국",
+   "set": 20,
+   "exercise": "사회와 사람",
+   "grammar": "관계대명사 whose",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "responsibility",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "책임",
+   "set": 20,
+   "exercise": "사회와 사람",
+   "grammar": "관계대명사 whose",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "security",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "보안, 안전",
+   "set": 20,
+   "exercise": "사회와 사람",
+   "grammar": "관계대명사 whose",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "protest",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n., v.",
+   "ko": "항의(하다), 시위",
+   "set": 20,
+   "exercise": "사회와 사람",
+   "grammar": "관계대명사 whose",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "victim",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "피해자, 희생자",
+   "set": 20,
+   "exercise": "사회와 사람",
+   "grammar": "관계대명사 whose",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "commit",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "(범죄를) 저지르다; 전념하다",
+   "set": 20,
+   "exercise": "사회와 사람",
+   "grammar": "관계대명사 whose",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "release",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v., n.",
+   "ko": "풀어 주다; 공개하다, 발매하다; 석방, 발매",
+   "set": 20,
+   "exercise": "사회와 사람",
+   "grammar": "관계대명사 whose",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "issue",
+   "ox": [
+    "B1",
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "n., v.",
+   "ko": "문제, 쟁점; (잡지의) 호; 발표하다",
+   "set": 20,
+   "exercise": "사회와 사람",
+   "grammar": "관계대명사 whose",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "communication",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "의사소통; 통신",
+   "set": 21,
+   "exercise": "생각과 소통",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "communicate"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "impression",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "인상",
+   "set": 21,
+   "exercise": "생각과 소통",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "intelligence",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "지능; 정보, 첩보",
+   "set": 21,
+   "exercise": "생각과 소통",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "appreciate",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "고마워하다; 진가를 알아보다",
+   "set": 21,
+   "exercise": "생각과 소통",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "indicate",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "나타내다, 가리키다",
+   "set": 21,
+   "exercise": "생각과 소통",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "confirm",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "확인하다, 사실임을 보여 주다",
+   "set": 21,
+   "exercise": "생각과 소통",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "determine",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "결정하다; 알아내다",
+   "set": 21,
+   "exercise": "생각과 소통",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "occur",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "일어나다, 발생하다; (생각이) 떠오르다",
+   "set": 21,
+   "exercise": "생각과 소통",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "reflect",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "반사하다; 반영하다; 깊이 생각하다",
+   "set": 21,
+   "exercise": "생각과 소통",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "concentrate",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "집중하다",
+   "set": 21,
+   "exercise": "생각과 소통",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "achievement",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "성취, 업적",
+   "set": 21,
+   "exercise": "생각과 소통",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "achieve"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "ambitious",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "야심 찬",
+   "set": 21,
+   "exercise": "생각과 소통",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "challenge",
+   "ox": [
+    "B1",
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "n., v.",
+   "ko": "도전, 어려운 과제; 이의를 제기하다",
+   "set": 21,
+   "exercise": "생각과 소통",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "impact",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n., v.",
+   "ko": "영향, 충격; 영향을 주다",
+   "set": 21,
+   "exercise": "생각과 소통",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "absolutely",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adv.",
+   "ko": "완전히; (대답) 물론이지",
+   "set": 22,
+   "exercise": "부사 I",
+   "grammar": "부사의 자리",
+   "two_sense": true,
+   "family": [
+    "absolute"
+   ],
+   "uses_now": 1
+  },
+  {
+   "word": "approximately",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adv.",
+   "ko": "대략, 약",
+   "set": 22,
+   "exercise": "부사 I",
+   "grammar": "부사의 자리",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "equally",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adv.",
+   "ko": "똑같이, 동등하게",
+   "set": 22,
+   "exercise": "부사 I",
+   "grammar": "부사의 자리",
+   "two_sense": false,
+   "family": [
+    "equal"
+   ],
+   "uses_now": 1
+  },
+  {
+   "word": "fairly",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adv.",
+   "ko": "꽤, 상당히; 공정하게",
+   "set": 22,
+   "exercise": "부사 I",
+   "grammar": "부사의 자리",
+   "two_sense": true,
+   "family": [
+    "fair"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "frequently",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adv.",
+   "ko": "자주",
+   "set": 22,
+   "exercise": "부사 I",
+   "grammar": "부사의 자리",
+   "two_sense": false,
+   "family": [
+    "frequent"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "highly",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adv.",
+   "ko": "매우, 높이",
+   "set": 22,
+   "exercise": "부사 I",
+   "grammar": "부사의 자리",
+   "two_sense": false,
+   "family": [
+    "high"
+   ],
+   "uses_now": 1
+  },
+  {
+   "word": "indeed",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adv.",
+   "ko": "정말로, 실제로",
+   "set": 22,
+   "exercise": "부사 I",
+   "grammar": "부사의 자리",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "previously",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adv.",
+   "ko": "이전에",
+   "set": 22,
+   "exercise": "부사 I",
+   "grammar": "부사의 자리",
+   "two_sense": false,
+   "family": [
+    "previous"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "podcast",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "팟캐스트",
+   "set": 23,
+   "exercise": "기술과 매체",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "documentary",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "다큐멘터리",
+   "set": 23,
+   "exercise": "기술과 매체",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "version",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "(다른) 판, 버전",
+   "set": 23,
+   "exercise": "기술과 매체",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "collection",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "수집(품), 소장품",
+   "set": 23,
+   "exercise": "기술과 매체",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "switch",
+   "ox": [
+    "B1",
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "v., n.",
+   "ko": "스위치; 바꾸다, 전환하다",
+   "set": 23,
+   "exercise": "기술과 매체",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "scan",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "훑어보다; 정밀 검사하다; 스캔",
+   "set": 23,
+   "exercise": "기술과 매체",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "attach",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "붙이다, 첨부하다",
+   "set": 23,
+   "exercise": "기술과 매체",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "remote",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "외딴, 먼; 원격의",
+   "set": 23,
+   "exercise": "기술과 매체",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "trend",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "추세, 유행",
+   "set": 23,
+   "exercise": "기술과 매체",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "category",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "범주, 부류",
+   "set": 23,
+   "exercise": "기술과 매체",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "basis",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "기초, 근거",
+   "set": 23,
+   "exercise": "기술과 매체",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 2
+  },
+  {
+   "word": "primary",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "주된, 주요한; 초등의",
+   "set": 23,
+   "exercise": "기술과 매체",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "secondary",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "부차적인; 중등의",
+   "set": 23,
+   "exercise": "기술과 매체",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "effectively",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adv.",
+   "ko": "효과적으로; 사실상",
+   "set": 24,
+   "exercise": "부사 II",
+   "grammar": "부사의 자리",
+   "two_sense": true,
+   "family": [
+    "effective"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "personally",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adv.",
+   "ko": "개인적으로; 직접",
+   "set": 24,
+   "exercise": "부사 II",
+   "grammar": "부사의 자리",
+   "two_sense": false,
+   "family": [
+    "personal"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "properly",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adv.",
+   "ko": "제대로, 적절히",
+   "set": 24,
+   "exercise": "부사 II",
+   "grammar": "부사의 자리",
+   "two_sense": false,
+   "family": [
+    "proper"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "regularly",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adv.",
+   "ko": "정기적으로, 자주",
+   "set": 24,
+   "exercise": "부사 II",
+   "grammar": "부사의 자리",
+   "two_sense": false,
+   "family": [
+    "regular"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "simply",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adv.",
+   "ko": "그저, 단순히; 간단히",
+   "set": 24,
+   "exercise": "부사 II",
+   "grammar": "부사의 자리",
+   "two_sense": false,
+   "family": [
+    "simple"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "slightly",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adv.",
+   "ko": "약간",
+   "set": 24,
+   "exercise": "부사 II",
+   "grammar": "부사의 자리",
+   "two_sense": false,
+   "family": [
+    "slight"
+   ],
+   "uses_now": 1
+  },
+  {
+   "word": "specifically",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adv.",
+   "ko": "구체적으로; 특별히",
+   "set": 24,
+   "exercise": "부사 II",
+   "grammar": "부사의 자리",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "surely",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adv.",
+   "ko": "분명히, 설마",
+   "set": 24,
+   "exercise": "부사 II",
+   "grammar": "부사의 자리",
+   "two_sense": false,
+   "family": [
+    "sure"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "typically",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adv.",
+   "ko": "보통, 일반적으로",
+   "set": 24,
+   "exercise": "부사 II",
+   "grammar": "부사의 자리",
+   "two_sense": false,
+   "family": [
+    "typical"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "participate",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "참가하다",
+   "set": 25,
+   "exercise": "참여와 행동",
+   "grammar": "quit -ing(동명사 목적어)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "expand",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "확장하다, 넓어지다",
+   "set": 25,
+   "exercise": "참여와 행동",
+   "grammar": "quit -ing(동명사 목적어)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "assist",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "돕다",
+   "set": 25,
+   "exercise": "참여와 행동",
+   "grammar": "quit -ing(동명사 목적어)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "quit",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "그만두다",
+   "set": 25,
+   "exercise": "참여와 행동",
+   "grammar": "quit -ing(동명사 목적어)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 2
+  },
+  {
+   "word": "survive",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "v.",
+   "ko": "살아남다, 견디다",
+   "set": 25,
+   "exercise": "참여와 행동",
+   "grammar": "quit -ing(동명사 목적어)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "shift",
+   "ox": [
+    "B1",
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "n., v.",
+   "ko": "변화; 교대 근무; 바꾸다, 옮기다",
+   "set": 25,
+   "exercise": "참여와 행동",
+   "grammar": "quit -ing(동명사 목적어)",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "historic",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "역사적으로 중요한",
+   "set": 25,
+   "exercise": "참여와 행동",
+   "grammar": "quit -ing(동명사 목적어)",
+   "two_sense": false,
+   "family": [
+    "history"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "competitive",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "경쟁의, 경쟁력 있는",
+   "set": 25,
+   "exercise": "참여와 행동",
+   "grammar": "quit -ing(동명사 목적어)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "immediate",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "즉각적인",
+   "set": 25,
+   "exercise": "참여와 행동",
+   "grammar": "quit -ing(동명사 목적어)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "indirect",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "간접적인",
+   "set": 25,
+   "exercise": "참여와 행동",
+   "grammar": "quit -ing(동명사 목적어)",
+   "two_sense": false,
+   "family": [
+    "direct"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "stuff",
+   "ox": [
+    "B1",
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "n., v.",
+   "ko": "것, 물건; 채워 넣다",
+   "set": 25,
+   "exercise": "참여와 행동",
+   "grammar": "quit -ing(동명사 목적어)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "graduate",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n., v.",
+   "ko": "졸업하다; 졸업생",
+   "set": 25,
+   "exercise": "참여와 행동",
+   "grammar": "quit -ing(동명사 목적어)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "performance",
+   "ox": [
+    "B1"
+   ],
+   "band": "B1",
+   "pos": "n.",
+   "ko": "공연; 성과, 실적",
+   "set": 25,
+   "exercise": "참여와 행동",
+   "grammar": "quit -ing(동명사 목적어)",
+   "two_sense": false,
+   "family": [
+    "perform"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "critic",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "비평가",
+   "set": 27,
+   "exercise": "비판과 평가",
+   "grammar": "critic 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "critical",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "비판적인; 결정적인",
+   "set": 27,
+   "exercise": "비판과 평가",
+   "grammar": "critic 계열",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "criticism",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "비판; 비평",
+   "set": 27,
+   "exercise": "비판과 평가",
+   "grammar": "critic 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "criticize",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "비판하다",
+   "set": 27,
+   "exercise": "비판과 평가",
+   "grammar": "critic 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "assess",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "평가하다",
+   "set": 27,
+   "exercise": "비판과 평가",
+   "grammar": "critic 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "assessment",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "평가",
+   "set": 27,
+   "exercise": "비판과 평가",
+   "grammar": "critic 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "evaluate",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "평가하다",
+   "set": 27,
+   "exercise": "비판과 평가",
+   "grammar": "critic 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "justify",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "정당화하다",
+   "set": 27,
+   "exercise": "비판과 평가",
+   "grammar": "critic 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "logical",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "논리적인",
+   "set": 27,
+   "exercise": "비판과 평가",
+   "grammar": "critic 계열",
+   "two_sense": false,
+   "family": [
+    "logic"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "realistic",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "현실적인; 사실적인",
+   "set": 27,
+   "exercise": "비판과 평가",
+   "grammar": "critic 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "relevant",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "관련 있는, 적절한",
+   "set": 27,
+   "exercise": "비판과 평가",
+   "grammar": "critic 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "appropriate",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "적절한",
+   "set": 27,
+   "exercise": "비판과 평가",
+   "grammar": "critic 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "accurate",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "정확한",
+   "set": 27,
+   "exercise": "비판과 평가",
+   "grammar": "critic 계열",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "contribute",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "기여하다; 기부하다",
+   "set": 28,
+   "exercise": "주고받기",
+   "grammar": "contribute to 계열, 전치사 + whom(to whom)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "contribution",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "기여; 기부(금)",
+   "set": 28,
+   "exercise": "주고받기",
+   "grammar": "contribute to 계열, 전치사 + whom(to whom)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "distribute",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "나누어 주다, 분배하다",
+   "set": 28,
+   "exercise": "주고받기",
+   "grammar": "contribute to 계열, 전치사 + whom(to whom)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "distribution",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "분배, 분포",
+   "set": 28,
+   "exercise": "주고받기",
+   "grammar": "contribute to 계열, 전치사 + whom(to whom)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "aid",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n., v.",
+   "ko": "원조; 돕다",
+   "set": 28,
+   "exercise": "주고받기",
+   "grammar": "contribute to 계열, 전치사 + whom(to whom)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "grant",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v., n.",
+   "ko": "(허락·돈을) 주다; 보조금",
+   "set": 28,
+   "exercise": "주고받기",
+   "grammar": "contribute to 계열, 전치사 + whom(to whom)",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "fund",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n., v.",
+   "ko": "기금, 자금; 자금을 대다",
+   "set": 28,
+   "exercise": "주고받기",
+   "grammar": "contribute to 계열, 전치사 + whom(to whom)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "budget",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "예산",
+   "set": 28,
+   "exercise": "주고받기",
+   "grammar": "contribute to 계열, 전치사 + whom(to whom)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "loan",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "대출(금); 빌려주다",
+   "set": 28,
+   "exercise": "주고받기",
+   "grammar": "contribute to 계열, 전치사 + whom(to whom)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "fee",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "요금, 수수료",
+   "set": 28,
+   "exercise": "주고받기",
+   "grammar": "contribute to 계열, 전치사 + whom(to whom)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 6
+  },
+  {
+   "word": "expense",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "비용, 지출",
+   "set": 28,
+   "exercise": "주고받기",
+   "grammar": "contribute to 계열, 전치사 + whom(to whom)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "purchase",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n., v.",
+   "ko": "구입하다; 구입",
+   "set": 28,
+   "exercise": "주고받기",
+   "grammar": "contribute to 계열, 전치사 + whom(to whom)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "sponsor",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v., n.",
+   "ko": "후원자; 후원하다",
+   "set": 28,
+   "exercise": "주고받기",
+   "grammar": "contribute to 계열, 전치사 + whom(to whom)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "whom",
+   "ox": [
+    "B2"
+   ],
+   "band": "A",
+   "pos": "pron.",
+   "ko": "누구를 (who의 목적격)",
+   "set": 28,
+   "exercise": "주고받기",
+   "grammar": "contribute to 계열, 전치사 + whom(to whom)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "emphasis",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "강조",
+   "set": 29,
+   "exercise": "말과 글",
+   "grammar": "propose that ~ (should) 동사원형",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "emphasize",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "강조하다",
+   "set": 29,
+   "exercise": "말과 글",
+   "grammar": "propose that ~ (should) 동사원형",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "propose",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "제안하다",
+   "set": 29,
+   "exercise": "말과 글",
+   "grammar": "propose that ~ (should) 동사원형",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 3
+  },
+  {
+   "word": "proposal",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "제안(서)",
+   "set": 29,
+   "exercise": "말과 글",
+   "grammar": "propose that ~ (should) 동사원형",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "cite",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "인용하다, (예로) 들다",
+   "set": 29,
+   "exercise": "말과 글",
+   "grammar": "propose that ~ (should) 동사원형",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "illustrate",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "(예를 들어) 보여 주다; 삽화를 넣다",
+   "set": 29,
+   "exercise": "말과 글",
+   "grammar": "propose that ~ (should) 동사원형",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "illustration",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "삽화; 예시",
+   "set": 29,
+   "exercise": "말과 글",
+   "grammar": "propose that ~ (should) 동사원형",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "interpret",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "해석하다; 통역하다",
+   "set": 29,
+   "exercise": "말과 글",
+   "grammar": "propose that ~ (should) 동사원형",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "draft",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n., v.",
+   "ko": "초안; 초안을 쓰다",
+   "set": 29,
+   "exercise": "말과 글",
+   "grammar": "propose that ~ (should) 동사원형",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "edition",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "(출판물의) 판, 호",
+   "set": 29,
+   "exercise": "말과 글",
+   "grammar": "propose that ~ (should) 동사원형",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "publication",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "출판(물), 발표",
+   "set": 29,
+   "exercise": "말과 글",
+   "grammar": "propose that ~ (should) 동사원형",
+   "two_sense": false,
+   "family": [
+    "public"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "outline",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n., v.",
+   "ko": "개요, 윤곽; 개요를 말하다",
+   "set": 29,
+   "exercise": "말과 글",
+   "grammar": "propose that ~ (should) 동사원형",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "tale",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "이야기",
+   "set": 29,
+   "exercise": "말과 글",
+   "grammar": "propose that ~ (should) 동사원형",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "tone",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "어조, 말투; 색조",
+   "set": 29,
+   "exercise": "말과 글",
+   "grammar": "propose that ~ (should) 동사원형",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "initial",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "처음의, 초기의",
+   "set": 30,
+   "exercise": "처음과 끝, 정도",
+   "grammar": "형용사·부사 짝",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "initially",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adv.",
+   "ko": "처음에",
+   "set": 30,
+   "exercise": "처음과 끝, 정도",
+   "grammar": "형용사·부사 짝",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "ultimately",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adv.",
+   "ko": "결국, 궁극적으로",
+   "set": 30,
+   "exercise": "처음과 끝, 정도",
+   "grammar": "형용사·부사 짝",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "gradually",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adv.",
+   "ko": "점차, 서서히",
+   "set": 30,
+   "exercise": "처음과 끝, 정도",
+   "grammar": "형용사·부사 짝",
+   "two_sense": false,
+   "family": [
+    "gradual"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "increasingly",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adv.",
+   "ko": "점점 더",
+   "set": 30,
+   "exercise": "처음과 끝, 정도",
+   "grammar": "형용사·부사 짝",
+   "two_sense": false,
+   "family": [
+    "increase"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "constant",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "끊임없는; 일정한",
+   "set": 30,
+   "exercise": "처음과 끝, 정도",
+   "grammar": "형용사·부사 짝",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "constantly",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adv.",
+   "ko": "끊임없이",
+   "set": 30,
+   "exercise": "처음과 끝, 정도",
+   "grammar": "형용사·부사 짝",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "entire",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "전체의",
+   "set": 30,
+   "exercise": "처음과 끝, 정도",
+   "grammar": "형용사·부사 짝",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "entirely",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adv.",
+   "ko": "완전히",
+   "set": 30,
+   "exercise": "처음과 끝, 정도",
+   "grammar": "형용사·부사 짝",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "largely",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adv.",
+   "ko": "주로, 대체로",
+   "set": 30,
+   "exercise": "처음과 끝, 정도",
+   "grammar": "형용사·부사 짝",
+   "two_sense": false,
+   "family": [
+    "large"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "relatively",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adv.",
+   "ko": "비교적",
+   "set": 30,
+   "exercise": "처음과 끝, 정도",
+   "grammar": "형용사·부사 짝",
+   "two_sense": false,
+   "family": [
+    "relative"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "somewhat",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adv.",
+   "ko": "다소, 어느 정도",
+   "set": 30,
+   "exercise": "처음과 끝, 정도",
+   "grammar": "형용사·부사 짝",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "occasionally",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adv.",
+   "ko": "가끔, 때때로",
+   "set": 30,
+   "exercise": "처음과 끝, 정도",
+   "grammar": "형용사·부사 짝",
+   "two_sense": false,
+   "family": [
+    "occasion",
+    "occasional"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "deeply",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adv.",
+   "ko": "깊이, 몹시",
+   "set": 30,
+   "exercise": "처음과 끝, 정도",
+   "grammar": "형용사·부사 짝",
+   "two_sense": false,
+   "family": [
+    "deep"
+   ],
+   "uses_now": 3
+  },
+  {
+   "word": "significant",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "중요한; 상당한",
+   "set": 31,
+   "exercise": "많고 큰 것",
+   "grammar": "the majority of + 복수 동사(수일치)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "significantly",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adv.",
+   "ko": "상당히; 의미 있게",
+   "set": 31,
+   "exercise": "많고 큰 것",
+   "grammar": "the majority of + 복수 동사(수일치)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "massive",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "거대한, 막대한",
+   "set": 31,
+   "exercise": "많고 큰 것",
+   "grammar": "the majority of + 복수 동사(수일치)",
+   "two_sense": false,
+   "family": [
+    "mass"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "numerous",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "수많은",
+   "set": 31,
+   "exercise": "많고 큰 것",
+   "grammar": "the majority of + 복수 동사(수일치)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "multiple",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "여러, 다수의",
+   "set": 31,
+   "exercise": "많고 큰 것",
+   "grammar": "the majority of + 복수 동사(수일치)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "maximum",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj., n.",
+   "ko": "최대의; 최대",
+   "set": 31,
+   "exercise": "많고 큰 것",
+   "grammar": "the majority of + 복수 동사(수일치)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "majority",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "대다수",
+   "set": 31,
+   "exercise": "많고 큰 것",
+   "grammar": "the majority of + 복수 동사(수일치)",
+   "two_sense": false,
+   "family": [
+    "major"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "minority",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "소수(집단)",
+   "set": 31,
+   "exercise": "많고 큰 것",
+   "grammar": "the majority of + 복수 동사(수일치)",
+   "two_sense": false,
+   "family": [
+    "minor"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "volume",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "양, 부피; 음량; (책의) 권",
+   "set": 31,
+   "exercise": "많고 큰 것",
+   "grammar": "the majority of + 복수 동사(수일치)",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "capacity",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "수용력, 용량; 능력",
+   "set": 31,
+   "exercise": "많고 큰 것",
+   "grammar": "the majority of + 복수 동사(수일치)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "extent",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "정도, 범위",
+   "set": 31,
+   "exercise": "많고 큰 것",
+   "grammar": "the majority of + 복수 동사(수일치)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "frequency",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "빈도; 주파수",
+   "set": 31,
+   "exercise": "많고 큰 것",
+   "grammar": "the majority of + 복수 동사(수일치)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "additional",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "추가의",
+   "set": 31,
+   "exercise": "많고 큰 것",
+   "grammar": "the majority of + 복수 동사(수일치)",
+   "two_sense": false,
+   "family": [
+    "addition"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "overall",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj., adv.",
+   "ko": "전반적인; 전반적으로",
+   "set": 31,
+   "exercise": "많고 큰 것",
+   "grammar": "the majority of + 복수 동사(수일치)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "apparent",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "분명한; 겉보기의",
+   "set": 32,
+   "exercise": "드러남과 숨김",
+   "grammar": "자동사 emerge·arise (수동태 불가)",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "apparently",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adv.",
+   "ko": "듣자 하니, 보아하니",
+   "set": 32,
+   "exercise": "드러남과 숨김",
+   "grammar": "자동사 emerge·arise (수동태 불가)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "reveal",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "드러내다, 밝히다",
+   "set": 32,
+   "exercise": "드러남과 숨김",
+   "grammar": "자동사 emerge·arise (수동태 불가)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "detect",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "감지하다, 알아내다",
+   "set": 32,
+   "exercise": "드러남과 숨김",
+   "grammar": "자동사 emerge·arise (수동태 불가)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "emerge",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "나타나다, 드러나다",
+   "set": 32,
+   "exercise": "드러남과 숨김",
+   "grammar": "자동사 emerge·arise (수동태 불가)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "arise",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "생기다, 발생하다",
+   "set": 32,
+   "exercise": "드러남과 숨김",
+   "grammar": "자동사 emerge·arise (수동태 불가)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "unknown",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "알려지지 않은",
+   "set": 32,
+   "exercise": "드러남과 숨김",
+   "grammar": "자동사 emerge·arise (수동태 불가)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "insight",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "통찰(력)",
+   "set": 32,
+   "exercise": "드러남과 숨김",
+   "grammar": "자동사 emerge·arise (수동태 불가)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "notion",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "개념, 생각",
+   "set": 32,
+   "exercise": "드러남과 숨김",
+   "grammar": "자동사 emerge·arise (수동태 불가)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "aspect",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "측면",
+   "set": 32,
+   "exercise": "드러남과 숨김",
+   "grammar": "자동사 emerge·arise (수동태 불가)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "instance",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "경우, 사례 (for instance 예를 들어)",
+   "set": 32,
+   "exercise": "드러남과 숨김",
+   "grammar": "자동사 emerge·arise (수동태 불가)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "characteristic",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n., adj.",
+   "ko": "특징; 특유의",
+   "set": 32,
+   "exercise": "드러남과 숨김",
+   "grammar": "자동사 emerge·arise (수동태 불가)",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "institute",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "연구소, 학회",
+   "set": 33,
+   "exercise": "기관과 제도",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "institution",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "기관, 제도",
+   "set": 33,
+   "exercise": "기관과 제도",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "administration",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "행정; 관리",
+   "set": 33,
+   "exercise": "기관과 제도",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "agency",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "대행사; (정부) 기관",
+   "set": 33,
+   "exercise": "기관과 제도",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "commission",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n., v.",
+   "ko": "위원회; 수수료; 의뢰하다",
+   "set": 33,
+   "exercise": "기관과 제도",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "executive",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n., adj.",
+   "ko": "경영진, 임원; 집행의",
+   "set": 33,
+   "exercise": "기관과 제도",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "corporate",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "기업의",
+   "set": 33,
+   "exercise": "기관과 제도",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "sector",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "부문, 분야",
+   "set": 33,
+   "exercise": "기관과 제도",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "regulation",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "규정, 규제",
+   "set": 33,
+   "exercise": "기관과 제도",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "scheme",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "계획, 제도",
+   "set": 33,
+   "exercise": "기관과 제도",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "procedure",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "절차",
+   "set": 33,
+   "exercise": "기관과 제도",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "agenda",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "의제, 안건",
+   "set": 33,
+   "exercise": "기관과 제도",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "session",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "시간, 회기",
+   "set": 33,
+   "exercise": "기관과 제도",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "register",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v., n.",
+   "ko": "등록하다; 명부",
+   "set": 33,
+   "exercise": "기관과 제도",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "submit",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "제출하다; 굴복하다",
+   "set": 33,
+   "exercise": "기관과 제도",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "crisis",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "위기",
+   "set": 35,
+   "exercise": "사건과 위기",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "incident",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "사건, 일",
+   "set": 35,
+   "exercise": "사건과 위기",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "conflict",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n., v.",
+   "ko": "갈등, 충돌; 상충하다",
+   "set": 35,
+   "exercise": "사건과 위기",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "collapse",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v., n.",
+   "ko": "무너지다; 붕괴",
+   "set": 35,
+   "exercise": "사건과 위기",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "rescue",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v., n.",
+   "ko": "구조하다; 구조",
+   "set": 35,
+   "exercise": "사건과 위기",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "surgery",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "수술",
+   "set": 35,
+   "exercise": "사건과 위기",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "unconscious",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "의식을 잃은; 무의식적인",
+   "set": 35,
+   "exercise": "사건과 위기",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "conscious"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "barrier",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "장벽, 장애물",
+   "set": 35,
+   "exercise": "사건과 위기",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "nightmare",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "악몽",
+   "set": 35,
+   "exercise": "사건과 위기",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "decline",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v., n.",
+   "ko": "감소하다; (정중히) 거절하다; 감소",
+   "set": 35,
+   "exercise": "사건과 위기",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "mount",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "(서서히) 늘어나다; 오르다",
+   "set": 35,
+   "exercise": "사건과 위기",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "investigation",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "조사, 수사",
+   "set": 35,
+   "exercise": "사건과 위기",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "enthusiasm",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "열정, 열의",
+   "set": 36,
+   "exercise": "마음과 태도",
+   "grammar": "deny·resist -ing, hesitate to",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "commitment",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "헌신, 전념; 약속",
+   "set": 36,
+   "exercise": "마음과 태도",
+   "grammar": "deny·resist -ing, hesitate to",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "obligation",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "의무",
+   "set": 36,
+   "exercise": "마음과 태도",
+   "grammar": "deny·resist -ing, hesitate to",
+   "two_sense": false,
+   "family": [
+    "oblige"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "hesitate",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "망설이다",
+   "set": 36,
+   "exercise": "마음과 태도",
+   "grammar": "deny·resist -ing, hesitate to",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "deliberately",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adv.",
+   "ko": "일부러, 고의로",
+   "set": 36,
+   "exercise": "마음과 태도",
+   "grammar": "deny·resist -ing, hesitate to",
+   "two_sense": false,
+   "family": [
+    "deliberate"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "aggressive",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "공격적인",
+   "set": 36,
+   "exercise": "마음과 태도",
+   "grammar": "deny·resist -ing, hesitate to",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "decent",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "괜찮은, 적절한; 품위 있는",
+   "set": 36,
+   "exercise": "마음과 태도",
+   "grammar": "deny·resist -ing, hesitate to",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "lively",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "활기찬",
+   "set": 36,
+   "exercise": "마음과 태도",
+   "grammar": "deny·resist -ing, hesitate to",
+   "two_sense": false,
+   "family": [
+    "live"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "intense",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "강렬한, 극심한",
+   "set": 36,
+   "exercise": "마음과 태도",
+   "grammar": "deny·resist -ing, hesitate to",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "strict",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "엄격한",
+   "set": 36,
+   "exercise": "마음과 태도",
+   "grammar": "deny·resist -ing, hesitate to",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "ethical",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "윤리적인",
+   "set": 36,
+   "exercise": "마음과 태도",
+   "grammar": "deny·resist -ing, hesitate to",
+   "two_sense": false,
+   "family": [
+    "ethic"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "guarantee",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v., n.",
+   "ko": "보장하다; 보장",
+   "set": 36,
+   "exercise": "마음과 태도",
+   "grammar": "deny·resist -ing, hesitate to",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "deny",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "부인하다",
+   "set": 36,
+   "exercise": "마음과 태도",
+   "grammar": "deny·resist -ing, hesitate to",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "resist",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "저항하다; 참다",
+   "set": 36,
+   "exercise": "마음과 태도",
+   "grammar": "deny·resist -ing, hesitate to",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "abandon",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "버리다, 포기하다",
+   "set": 36,
+   "exercise": "마음과 태도",
+   "grammar": "deny·resist -ing, hesitate to",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "alter",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "바꾸다, 고치다",
+   "set": 37,
+   "exercise": "변화와 발전",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "modify",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "수정하다, 바꾸다",
+   "set": 37,
+   "exercise": "변화와 발전",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "transition",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "전환, 이행",
+   "set": 37,
+   "exercise": "변화와 발전",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "phase",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "단계, 국면",
+   "set": 37,
+   "exercise": "변화와 발전",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "enhance",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "높이다, 향상시키다",
+   "set": 37,
+   "exercise": "변화와 발전",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "extend",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "늘리다, 연장하다; 뻗다",
+   "set": 37,
+   "exercise": "변화와 발전",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "generate",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "만들어 내다, 발생시키다",
+   "set": 37,
+   "exercise": "변화와 발전",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "launch",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v., n.",
+   "ko": "시작하다, 출시하다; (로켓을) 발사하다; 출시",
+   "set": 37,
+   "exercise": "변화와 발전",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "install",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "설치하다",
+   "set": 37,
+   "exercise": "변화와 발전",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "construction",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "건설, 공사",
+   "set": 37,
+   "exercise": "변화와 발전",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "creation",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "창조, 창작(물)",
+   "set": 37,
+   "exercise": "변화와 발전",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "create"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "exploration",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "탐험, 탐사",
+   "set": 37,
+   "exercise": "변화와 발전",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "explore"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "dominate",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "지배하다, 우세하다",
+   "set": 37,
+   "exercise": "변화와 발전",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "objective",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n., adj.",
+   "ko": "목표; 객관적인",
+   "set": 38,
+   "exercise": "목표와 결과",
+   "grammar": "ensure that",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "outcome",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "결과",
+   "set": 38,
+   "exercise": "목표와 결과",
+   "grammar": "ensure that",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "priority",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "우선 사항, 우선순위",
+   "set": 38,
+   "exercise": "목표와 결과",
+   "grammar": "ensure that",
+   "two_sense": false,
+   "family": [
+    "prior"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "prospect",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "가능성, 전망",
+   "set": 38,
+   "exercise": "목표와 결과",
+   "grammar": "ensure that",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "potential",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj., n.",
+   "ko": "잠재적인; 잠재력",
+   "set": 38,
+   "exercise": "목표와 결과",
+   "grammar": "ensure that",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "initiative",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "계획; 주도권, 진취성",
+   "set": 38,
+   "exercise": "목표와 결과",
+   "grammar": "ensure that",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "requirement",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "요구 사항, 필요조건",
+   "set": 38,
+   "exercise": "목표와 결과",
+   "grammar": "ensure that",
+   "two_sense": false,
+   "family": [
+    "require"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "ensure",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "확실하게 하다, 보장하다",
+   "set": 38,
+   "exercise": "목표와 결과",
+   "grammar": "ensure that",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "pursue",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "추구하다; 뒤쫓다",
+   "set": 38,
+   "exercise": "목표와 결과",
+   "grammar": "ensure that",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "seek",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "찾다, 구하다",
+   "set": 38,
+   "exercise": "목표와 결과",
+   "grammar": "ensure that",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "select",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "선택하다, 선발하다",
+   "set": 38,
+   "exercise": "목표와 결과",
+   "grammar": "ensure that",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "estimate",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v., n.",
+   "ko": "추정하다; 추정(치)",
+   "set": 38,
+   "exercise": "목표와 결과",
+   "grammar": "ensure that",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "demonstrate",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "보여 주다, 입증하다",
+   "set": 38,
+   "exercise": "목표와 결과",
+   "grammar": "ensure that",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "acquire",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "얻다, 습득하다",
+   "set": 38,
+   "exercise": "목표와 결과",
+   "grammar": "ensure that",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "gender",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "성별",
+   "set": 39,
+   "exercise": "사람과 땅",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "status",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "지위; 상태",
+   "set": 39,
+   "exercise": "사람과 땅",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "reputation",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "평판, 명성",
+   "set": 39,
+   "exercise": "사람과 땅",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "privacy",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "사생활",
+   "set": 39,
+   "exercise": "사람과 땅",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "senior",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "고위의; 연장자의; (졸업반) 학생",
+   "set": 39,
+   "exercise": "사람과 땅",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "participant",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "참가자",
+   "set": 39,
+   "exercise": "사람과 땅",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "rural",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "시골의",
+   "set": 39,
+   "exercise": "사람과 땅",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "district",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "지역, 구역",
+   "set": 39,
+   "exercise": "사람과 땅",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "landscape",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "풍경",
+   "set": 39,
+   "exercise": "사람과 땅",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "wildlife",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "야생 동물",
+   "set": 39,
+   "exercise": "사람과 땅",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "bond",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "유대; 결합",
+   "set": 39,
+   "exercise": "사람과 땅",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "accompany",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "동행하다; 동반하다",
+   "set": 39,
+   "exercise": "사람과 땅",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "adopt",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "입양하다; 채택하다",
+   "set": 39,
+   "exercise": "사람과 땅",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "associate",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "연관 짓다",
+   "set": 39,
+   "exercise": "사람과 땅",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 2
+  },
+  {
+   "word": "artistic",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "예술적인",
+   "set": 40,
+   "exercise": "예술과 무대",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "artist"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "classic",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj., n.",
+   "ko": "최고 수준의, 대표적인; 고전 (명작)",
+   "set": 40,
+   "exercise": "예술과 무대",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "dramatic",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "극적인, 급격한",
+   "set": 40,
+   "exercise": "예술과 무대",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "visual",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "시각의",
+   "set": 40,
+   "exercise": "예술과 무대",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "virtual",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "가상의; 사실상의",
+   "set": 40,
+   "exercise": "예술과 무대",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "cast",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n., v.",
+   "ko": "출연진; 던지다, (그림자를) 드리우다",
+   "set": 40,
+   "exercise": "예술과 무대",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "pitch",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "경기장; 음높이; (공을) 던지다",
+   "set": 40,
+   "exercise": "예술과 무대",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "contest",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n., v.",
+   "ko": "대회, 시합; 다투다",
+   "set": 40,
+   "exercise": "예술과 무대",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "extraordinary",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "놀라운, 비범한",
+   "set": 40,
+   "exercise": "예술과 무대",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "unique",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "유일한, 독특한",
+   "set": 40,
+   "exercise": "예술과 무대",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "stare",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "빤히 쳐다보다",
+   "set": 40,
+   "exercise": "예술과 무대",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 1
+  },
+  {
+   "word": "capture",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v., n.",
+   "ko": "붙잡다; 포착하다",
+   "set": 40,
+   "exercise": "예술과 무대",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "core",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n., adj.",
+   "ko": "핵심; 핵심의",
+   "set": 41,
+   "exercise": "성질과 구조",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "component",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "구성 요소, 부품",
+   "set": 41,
+   "exercise": "성질과 구조",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "fundamental",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "근본적인, 기본적인",
+   "set": 41,
+   "exercise": "성질과 구조",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "crucial",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "결정적인, 매우 중요한",
+   "set": 41,
+   "exercise": "성질과 구조",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "external",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "외부의",
+   "set": 41,
+   "exercise": "성질과 구조",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "internal",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "내부의",
+   "set": 41,
+   "exercise": "성질과 구조",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "stable",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "안정된",
+   "set": 41,
+   "exercise": "성질과 구조",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "permanent",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "영구적인",
+   "set": 41,
+   "exercise": "성질과 구조",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "secure",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v., adj.",
+   "ko": "안전한; 확보하다",
+   "set": 41,
+   "exercise": "성질과 구조",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "consistent",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "일관된, 한결같은",
+   "set": 41,
+   "exercise": "성질과 구조",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "prime",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "주된, 가장 중요한; 최상의",
+   "set": 41,
+   "exercise": "성질과 구조",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "acknowledge",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "인정하다",
+   "set": 43,
+   "exercise": "만나고 다루기",
+   "grammar": "found(설립하다)와 find의 과거 found 구별",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "encounter",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v., n.",
+   "ko": "(우연히) 마주치다; 만남",
+   "set": 43,
+   "exercise": "만나고 다루기",
+   "grammar": "found(설립하다)와 find의 과거 found 구별",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "engage",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "참여하다; (관심을) 끌다",
+   "set": 43,
+   "exercise": "만나고 다루기",
+   "grammar": "found(설립하다)와 find의 과거 found 구별",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 2
+  },
+  {
+   "word": "impose",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "부과하다, 강요하다",
+   "set": 43,
+   "exercise": "만나고 다루기",
+   "grammar": "found(설립하다)와 find의 과거 found 구별",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "pose",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "(문제를) 제기하다; 자세를 취하다",
+   "set": 43,
+   "exercise": "만나고 다루기",
+   "grammar": "found(설립하다)와 find의 과거 found 구별",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "recall",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "기억해 내다",
+   "set": 43,
+   "exercise": "만나고 다루기",
+   "grammar": "found(설립하다)와 find의 과거 found 구별",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "resolve",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "해결하다; 결심하다",
+   "set": 43,
+   "exercise": "만나고 다루기",
+   "grammar": "found(설립하다)와 find의 과거 found 구별",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "found",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "설립하다, 세우다",
+   "set": 43,
+   "exercise": "만나고 다루기",
+   "grammar": "found(설립하다)와 find의 과거 found 구별",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 32
+  },
+  {
+   "word": "grab",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "v.",
+   "ko": "붙잡다, 움켜쥐다",
+   "set": 43,
+   "exercise": "만나고 다루기",
+   "grammar": "found(설립하다)와 find의 과거 found 구별",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "approach",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n., v.",
+   "ko": "다가가다; 접근법",
+   "set": 43,
+   "exercise": "만나고 다루기",
+   "grammar": "found(설립하다)와 find의 과거 found 구별",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "hell",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "지옥",
+   "set": 44,
+   "exercise": "여러 가지",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "complicated",
+   "ox": [
+    "B2"
+   ],
+   "band": "B1",
+   "pos": "adj.",
+   "ko": "복잡한",
+   "set": 44,
+   "exercise": "여러 가지",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "complicate"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "annual",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "매년의, 연례의",
+   "set": 44,
+   "exercise": "여러 가지",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 2
+  },
+  {
+   "word": "brief",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "adj.",
+   "ko": "짧은, 간단한",
+   "set": 44,
+   "exercise": "여러 가지",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "concentration",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "집중; 농도",
+   "set": 44,
+   "exercise": "여러 가지",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "discipline",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "규율, 훈육; (학문) 분야",
+   "set": 44,
+   "exercise": "여러 가지",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "expectation",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "기대, 예상",
+   "set": 44,
+   "exercise": "여러 가지",
+   "grammar": "",
+   "two_sense": false,
+   "family": [
+    "expect"
+   ],
+   "uses_now": 0
+  },
+  {
+   "word": "stock",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "재고; 주식; 비축",
+   "set": 44,
+   "exercise": "여러 가지",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "monitor",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n., v.",
+   "ko": "모니터, 화면; 감시하다, 추적 관찰하다",
+   "set": 44,
+   "exercise": "여러 가지",
+   "grammar": "",
+   "two_sense": true,
+   "family": [],
+   "uses_now": 0
+  },
+  {
+   "word": "facility",
+   "ox": [
+    "B2"
+   ],
+   "band": "B2",
+   "pos": "n.",
+   "ko": "시설; 기능",
+   "set": 44,
+   "exercise": "여러 가지",
+   "grammar": "",
+   "two_sense": false,
+   "family": [],
+   "uses_now": 0
+  }
+ ]
+}
