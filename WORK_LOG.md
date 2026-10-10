@@ -861,3 +861,11 @@
 ## 2026-10-03 · 통합 공개 배포 확인
 
 앱 843b189을 origin/main에 푸시했다. GitHub Pages 37124186893 completed/success와 공개 인덱스·세 과정 HTTP 200, 로컬 검증본의 LF 정규화 SHA-256 일치를 확인했다. 실제 공개 FABLE 홈의 모아둔 카드·623연습·0세트 192카드도 확인했다. 배치 전수검수에서 승인한 우선 제안, 모아둔 카드, qualification 해설까지 모두 이번 배포에 포함된다. 검증 결과·해시는 DEPLOYMENT에 기록했다. 후속 기록 커밋은 앱 HTML을 바꾸지 않는다.
+
+## 2026-10-10 · Oxford 3000 보강 제안과 문법 체화 설계 착수
+
+- **요청·결정:** 영신이 Oxford 3000 중 FABLE에 없는 단어를 구·감탄사까지 전부 넣자고 했다(다음 언어판에도 기초 목록이 필요). 논의 중에 방향이 넓어져, 5,000단어를 순서대로 플레이하면 예문과 해설로 영문법이 체화되게 하기로 했다. 0세트는 기초 중의 기초이자 가장 기초 문법의 초석으로, 단어 순서는 통째로 바꾸지 않고 문법은 예문이 싣는다. Oxford 신규는 문법 지도 확정 뒤 쓴다. 감탄사 ah·oh·hey·wow·yeah는 넣지 않는다. 0세트 '알면 넘기기'는 제안했다가 영신이 취소했다. 이유와 인용은 [PRINCIPLES 12](PRINCIPLES.md#12-문법-순서대로-플레이하면-몸에-밴다).
+- **조사·제안:** FABLE에 없는 Oxford 단어 460개 중 6개는 다른 형태로 이미 있고(anymore·alright·okay·o'clock·used ②·next ②), have to는 have ④로 있어 신규는 453개다. 목록 페이지(Artifact): https://claude.ai/artifact/FiAqR6jPZeuUnPo7MePcZC . 0세트 192장 목록과 재조정 논의: https://claude.ai/artifact/HXzQdyRCr1L7D3Z5oTyqwL . 문법 설계안: https://claude.ai/artifact/Xna8LXFdhZcPm5BF3MqEdg
+- **반영:** 데이터·게임은 바꾸지 않았다. 문법 측정 도구 `pipeline/grammar/measure.py`와 기준값 `baseline-20261010.json`(7,140카드)을 더했다. PRINCIPLES 0·9·12절, WORK_PLAN 문법 체화 설계 절을 추가했다.
+- **검증:** 측정 도구를 현재 HTML에 실행해 기준값을 만들었다(spaCy 3.8, en_core_web_sm). 현재완료 약 30, 관계대명사 약 36, 가정법 2, 과거완료 1, 분사구문 4문장. 문서 링크는 새로 넣은 앵커를 확인했다.
+- **남은 일:** 최신 연구·교육과정 언어 형식·수능 어법 빈도 조사를 반영해 문법 지도(초안 139항목)를 확정하고, 0세트 시범본 44장을 보여 준다. 1~4세트 재배열 범위 정정(빈도 상위 400 내용어라 순서 유지)은 영신 확인 대기다. 배포 없음.

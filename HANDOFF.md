@@ -1,8 +1,14 @@
 # 보카고양 최신 인수인계
 
-갱신: 2026-10-08 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
+갱신: 2026-10-10 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
 
 ## 현재 결론과 배포 상태
+
+- **2026-10-10 문법 체화 설계 착수 — 데이터 변경 없음, 배포 없음**: 5,000단어를 순서대로 플레이하면 예문과 해설로 영문법이 체화되게 한다(영신 결정, [PRINCIPLES 12](PRINCIPLES.md#12-문법-순서대로-플레이하면-몸에-밴다), 범위는 [WORK_PLAN](WORK_PLAN.md)).
+  - 지금 할 일: 문법 지도(초안 139항목) 확정 → 0세트 시범본 44장 검토 → 0세트·5세트 재구성 → 1~45세트 조명 문법 예문 → Oxford 신규 453개.
+  - Oxford 3000 보강은 문법 지도 뒤로 미뤘다. 감탄사는 넣지 않는다. 목록 `pipeline/knowledge-map/oxford3000-coverage-20261010.json`.
+  - 측정: `python3 pipeline/grammar/measure.py`(spaCy 필요). 기준값 `pipeline/grammar/baseline-20261010.json`.
+  - 영신 확인 대기: 1~4세트는 순서 유지로 정정한 안, 수능 문법 전체 범위, goodness ② 삭제 여부.
 
 - **2026-10-08 Claude 리뷰 후속 일괄 배포**: 커밋과 Pages 확인 결과는 [DEPLOYMENT](DEPLOYMENT.md)에 있다. **[PRINCIPLES.md](PRINCIPLES.md)를 먼저 읽을 것** — 고양이 정의, 예문 통제·3줄 한계, 빈칸 중의성, 해설 읽을 시간의 이유를 담았다.
   - FABLE 7,081카드·624연습·표제어 4,928이다. 48세트 마지막 연습으로 그림 법칙 사촌 쌍 14카드를 넣었다.
