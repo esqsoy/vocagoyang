@@ -1,3 +1,18 @@
+# 표제어 정리·Oxford 보강·0세트 재구성 배포 · 2026-10-10
+
+- 커밋 [365a798](https://github.com/esqsoy/vocagoyang/commit/365a798)을 origin/main에 fast-forward로 푸시했다(a8a68c2 다음 22커밋). [Pages 38066295231](https://github.com/esqsoy/vocagoyang/actions/runs/38066295231): completed/success. 영신: "우선 배포합시다. 검수는 배포후에 계속해나갈게."
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다. github.io는 이 세션에서 접속이 막혀 공개 페이지는 직접 열어 보지 못했다.
+- 포함(FABLE 페이지와 인덱스 수치만 바뀜. 마더텅·EBS 화면은 그대로):
+  - 표제어 정리 71개(78장), roach→cockroach, 뺀 다른 꼴·좁은 말을 관련 카드 해설에(PRINCIPLES 2-8).
+  - Oxford 3000 보강 443개(508장), 6~44세트 끝 새 연습 36개.
+  - 0세트 재구성: 문법 순서 23연습·234장(5세트 38장·1세트 no 이동, 새 카드 3장, 68장 내용 수정, PRINCIPLES 12). 타일 제목의 짧은 영어 묶음 줄바꿈.
+  - FABLE 7,573장·표제어 5,362·화면 연습 675, 세 교재 합집합 8,260.
+  - 진도: 정리·재구성 전에 저장한 완료·모아둔 카드·이어하기는 이어진다(prune.test·set0.test). 새 카드가 든 0세트 연습 5·11·17은 다 했던 학생도 새로 해야 한다. 이번 배포부터 이어하기 저장에 `prune: "20261010"` 표시가 붙는다.
+  - 원장 prune·cockroach·variant-notes·oxford·narrow-notes·set0-20261010(복원 체인 맨 위).
+- 배포 전 검사: 이번에 실행 — Codex 검사 35/35, 빌드 `--check` 4종. 앞선 작업(같은 내용)에서 실행 — deepcheck A1~A5·A7 0(A6 90), linecheck 390·360px 초과 0, exaudit 11, ordercheck 2개 이상 78, collide 새 결함 없음, Chromium 390px 0세트 타일·입력. 실기기 Safari는 확인하지 않았다.
+
+---
+
 # 재검토 반영(15·16묶음) 배포 · 2026-10-10
 
 - 커밋 [a8a68c2](https://github.com/esqsoy/vocagoyang/commit/a8a68c2)를 origin/main에 fast-forward로 푸시했다(b46b84a 다음). [Pages 38012568319](https://github.com/esqsoy/vocagoyang/actions/runs/38012568319): completed/success. 영신: "다 반영하고"
