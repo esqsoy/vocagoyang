@@ -1,3 +1,12 @@
+# 재검토 반영(15·16묶음) 배포 · 2026-10-10
+
+- 커밋 [a8a68c2](https://github.com/esqsoy/vocagoyang/commit/a8a68c2)를 origin/main에 fast-forward로 푸시했다(b46b84a 다음). [Pages 38012568319](https://github.com/esqsoy/vocagoyang/actions/runs/38012568319): completed/success. 영신: "다 반영하고"
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다. github.io는 이 세션에서 접속이 막혀 공개 페이지는 직접 열어 보지 못했다.
+- 포함(FABLE DATA만 바뀜): communism 해설(옥스퍼드의 대문자 구분), colony 'colonys' 결함 수정, 재검토 개선안 8건(antibiotic·poison·railway·wage·socialism 해설, evolution 예문, fossil·perfect 해석). deepcheck A7(빈칸 어미) 추가. 원장 knowledge-15·16.
+- 배포 전 검사(이번에 실행): Codex 검사 33/33, exaudit 25, linecheck 390·360px 초과 0, deepcheck A1~A5·A7 0(A6 93→91), collide 새 후보 없음. 실기기 Safari는 확인하지 않았다.
+
+---
+
 # 영신 검토 반영(13·14묶음) 배포 · 2026-10-09
 
 - 커밋 [b46b84a](https://github.com/esqsoy/vocagoyang/commit/b46b84a)를 origin/main에 fast-forward로 푸시했다(adc9399 다음). [Pages 38005718422](https://github.com/esqsoy/vocagoyang/actions/runs/38005718422): completed/success. 영신: "일단 배포하자"

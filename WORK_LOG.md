@@ -820,6 +820,18 @@
 - 검증(이번에 실행): exaudit 25, linecheck 390·360px 초과 0, deepcheck A1~A5·A7 0, collide 새 후보 없음, Codex 테스트 33/33.
 - 상태: 커밋·브랜치 푸시. 15묶음은 미배포.
 
+## 2026-10-10 · 재검토 8건 반영·배포와 옥스퍼드 3000 대조
+
+- 요청(영신): "다 반영하고 이거 oxford 3000인데 우리 단어 풀이 다 커버하지?"(옥스퍼드 3000 PDF 제공)
+- 반영(16묶음, 원장 knowledge-16): 재검토 개선안 8건. A6 형식 경고가 93→91로 줄었다(railway·wage 해설이 72자 안으로).
+- 배포: a8a68c2(15·16묶음)를 main에 fast-forward, Pages 38012568319 성공, main의 네 HTML blob이 로컬과 같다. [DEPLOYMENT](DEPLOYMENT.md)
+- 옥스퍼드 3000 대조(`pipeline/knowledge-map/oxford3000-coverage-20261010.json`):
+  - 표제어 2,983개. 세 교재를 합치면 32개만 없다. 대부분 감탄사(ah·oh·ok·wow·yeah·hey·hell), 구·기능어(all right, because of, have to, next to, no one, used to, o'clock, any more, whom, whose), 분사형(broken·frozen·spoken·written·being·finding·camping)이다. 내용어는 gallery·hike·smart·lab·podcast·AI·wi-fi·ice cream 정도다.
+  - FABLE만 보면 460개가 없다(A1 10·A2 78·B1 154·B2 218). A1은 모두 구·감탄사다. A2에는 technology·community·context·individual·feature·source·specific·strategy 같은 기본 학술어가 있다. 대부분 마더텅·EBS에는 있다.
+  - 영국식 철자 29개(colour·centre·behaviour 등)는 미국식 표제어가 있어 있는 것으로 셌다.
+  - 단어 추가는 영신 결정을 기다린다(AGENTS).
+- 검증(이번에 실행): exaudit 25, linecheck 초과 0, deepcheck A1~A5·A7 0, Codex 33/33.
+
 ## 다음 기록 형식
 
 
