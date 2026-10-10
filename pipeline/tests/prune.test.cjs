@@ -1,5 +1,5 @@
 'use strict';
-// 26.10.10 표제어 정리(PRINCIPLES 2-8): 기초 5,000에서 뺀 73개 단어(90장).
+// 26.10.10 표제어 정리(PRINCIPLES 2-8): 범위와 상관없거나 같은 뜻 다른 꼴인 71개 단어(78장).
 // 남은 카드의 내용·저장 ID·완료 기록·이어하기가 빼기 전 그대로 이어지는지 본다.
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'../..'),html=fs.readFileSync(path.join(root,'vocagoyangfable.html'),'utf8');
@@ -34,7 +34,7 @@ const old=runtime(before),cur=runtime(now),key=(run,x)=>JSON.stringify(run.ctx.r
 const drop=new Set(prune.words);
 const isDropped=w=>drop.has((w.word||w.term).toLowerCase());
 
-// 1. 정확히 90장·73단어만 빠졌고 남은 카드의 내용은 그대로다.
+// 1. 목록의 78장·71단어만 빠졌고 남은 카드의 내용은 그대로다.
 assert.equal(old.cards.size-cur.cards.size,prune.cards);
 assert.equal([...old.cards.values()].filter(x=>isDropped(x.w)).length,prune.cards);
 assert(![...cur.cards.values()].some(x=>isDropped(x.w)),'A pruned headword is still playable');
@@ -65,13 +65,19 @@ for(const x of cur.flat.filter(x=>x.e.preDeletion)){
 }
 assert(pruned>0);cur.state.progress={};
 
-// 4. 빼기 전에 저장한 이어하기 위치는 같은 카드가 있는 연습으로 돌아온다.
+// 4. 빼기 전에 저장한 이어하기 위치는 그 판의 첫 남은 카드가 있는 연습으로 돌아온다(판이 합쳐져 제목이 바뀌어도).
 let resumes=0;
 for(const x of old.flat){
  const survivor=x.e.words.find(w=>!isDropped(w));if(!survivor)continue;
- old.ctx.saveLast(x.L.id,x.e.title);cur.storage.set('test-last',old.storage.get('test-last'));
+ // 배포된 게임이 남긴 꼴 그대로(정리 표시 없음) 넣는다.
+ cur.storage.set('test-last',JSON.stringify({lid:x.L.id,title:x.e.title,layout:'placement-v1'}));
  const actual=cur.ctx.resumeTarget(),expected=cur.cards.get(survivor.savedCardId);
  assert(actual&&expected);assert.equal(actual.li,expected.li);assert.equal(actual.ei,expected.ei,'Resume moved to unrelated cards: '+x.e.title);resumes++;
+}
+// 5. 정리 뒤에 저장한 이어하기는 그 판으로 돌아온다(옛 제목 연결이 새 제목을 가로채지 않는다).
+for(const x of cur.flat){
+ cur.state.progress={};cur.ctx.saveLast(x.L.id,x.e.title);
+ const actual=cur.ctx.resumeTarget();assert(actual&&actual.L.id===x.L.id&&actual.e.title===x.e.title,'New save resumed elsewhere: '+x.e.title);
 }
 console.log(JSON.stringify({removedCards:prune.cards,removedHeadwords:drop.size,cards:cur.cards.size,exercises:cur.flat.length,
  prunedExercises:pruned,untouchedExercises:untouched,incompleteCases:incomplete,resumes,savedIds:'stable'}));

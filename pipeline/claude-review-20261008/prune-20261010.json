@@ -2,1163 +2,122 @@
  "date": "2026-10-10",
  "name": "prune-20261010",
  "status": "applied_locally_verified",
- "authorization": "영신 26.10.10: 당장 5000개 풀에서 먼저 다룰 필요가 있는지가 기준, 빼자는 건 다 빼자(일상어는 남김)",
- "summary": "기초 5,000에서 먼저 다룰 필요가 없는 표제어 73개(90장)를 화면 배치에서 뺐다(PRINCIPLES 2-8). 저작 원본은 그대로이고 preDeletion으로 완료 기록을 이어받는다.",
+ "authorization": "영신 2026-10-10: 1차 \"빼자는 건 다 빼자\" → 범위 정정 \"5000은 완전히 기초만은 아니라 애초에 고등학교 졸업 수준까지 어느 정도 커버가 되기 위한 거였을 거야\", 1차 71개 되돌림(권장안 선택), 2차 \"그 69개는 빼도 되겠어\"",
+ "summary": "표제어 정리 최종: 같은 뜻 다른 꼴(영국식·속어·줄임말·다른 철자) 52, 범위와 상관없는 좁은 말 17, 접두사 카드 micro·neo. 71개 78장. 1차 73개 중 71개는 되돌림.",
  "snapshots": {
   "DATA": {
    "beforeHash": "0cfaca3a63940f2bb60bfe8c061ab364abbb7bc87100eb8cab7cfc31014403cb",
-   "afterHash": "e937576407cb79e61de39dc9d969f4a46bc8d3374a7a761019a200fdc39d1483",
+   "afterHash": "b4083d498e4ad333bf0757868acbc6c296f2c1f21d4630be6ec9b318d66b2878",
    "changes": [
     {
      "path": [
-      9,
+      20,
       "exercises",
       0,
-      "words",
-      7
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "thereby",
-      "word": "thereby",
-      "ko": "① 그렇게 함으로써, 그 결과",
-      "ex": "She shared her notes, {{BLANK}} helping the class.",
-      "tr": "그녀는 필기를 공유해서 반 친구들을 도왔어.",
-      "c": "앞의 행동이 뒤의 결과를 낳았다는 뜻. 여기서는 필기 공유가 도움의 수단이야.",
-      "ipa": "ˌðɛrˈbaɪ",
-      "pos": "adv.",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      9,
-      "exercises",
-      0,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "dinner",
-       "si": 1
-      },
-      {
-       "word": "partner",
-       "si": 1
-      },
-      {
-       "word": "above",
-       "si": 1
-      },
-      {
-       "word": "fly",
-       "si": 1
-      },
-      {
-       "word": "fly",
-       "si": 2
-      },
-      {
-       "word": "bag",
-       "si": 1
-      },
-      {
-       "word": "therefore",
-       "si": 1
-      },
-      {
-       "word": "thereby",
-       "si": 1
-      },
-      {
-       "word": "rich",
-       "si": 1
-      },
-      {
-       "word": "rich",
-       "si": 2
-      },
-      {
-       "word": "shall",
-       "si": 1
-      },
-      {
-       "word": "tool",
-       "si": 1
-      },
-      {
-       "word": "mountain",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      15,
-      "exercises",
-      1,
-      "words",
-      4
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "provision",
-      "word": "provision",
-      "ko": "② (계약·법의) 조항",
-      "ex": "Read every {{BLANK}} in the contract carefully.",
-      "tr": "계약서의 모든 조항을 꼼꼼히 읽어.",
-      "c": "계약이나 법에 정해 놓은 규정.",
-      "ipa": "prəˈvɪʒən",
-      "pos": "n.",
-      "si": 2,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      15,
-      "exercises",
-      1,
-      "words",
-      3
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "provision",
-      "ko": "① 준비, 공급",
-      "ex": "The city made {{BLANK}} for heavy snow.",
-      "tr": "시에서 폭설에 대비를 해 뒀어.",
-      "c": "미리 마련해 두는 것.",
-      "ipa": "prəˈvɪʒən",
-      "pos": "n.",
-      "word": "provision",
-      "si": 1,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      15,
-      "exercises",
-      1,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "tower",
-       "si": 1
-      },
-      {
-       "word": "mail",
-       "si": 1
-      },
-      {
-       "word": "mail",
-       "si": 2
-      },
-      {
-       "word": "provision",
-       "si": 1
-      },
-      {
-       "word": "provision",
-       "si": 2
-      },
-      {
-       "word": "vary",
-       "si": 1
-      },
-      {
-       "word": "bend",
-       "si": 1
-      },
-      {
-       "word": "bend",
-       "si": 2
-      },
-      {
-       "word": "shock",
-       "si": 1
-      },
-      {
-       "word": "shock",
-       "si": 2
-      },
-      {
-       "word": "dirty",
-       "si": 1
-      },
-      {
-       "word": "toy",
-       "si": 1
-      },
-      {
-       "word": "anger",
-       "si": 1
-      },
-      {
-       "word": "boot",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      15,
-      "exercises",
-      6,
-      "words",
-      14
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "recognition",
-      "word": "recognition",
-      "ko": "② 알아봄, 식별",
-      "ex": "His face showed no sign of {{BLANK}}.",
-      "tr": "그의 얼굴에는 알아본 기색이 전혀 없었어.",
-      "c": "전에 알던 사람·대상을 보고 무엇인지 아는 것.",
-      "ipa": "ˌrɛkəɡˈnɪʃən",
-      "pos": "n.",
-      "si": 2,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      15,
-      "exercises",
-      6,
-      "words",
-      13
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "recognition",
-      "ko": "① 인정, 공로 인정",
-      "ex": "He got no {{BLANK}} for all his work.",
-      "tr": "걔는 그 고생을 하고도 인정을 못 받았어.",
-      "c": "알아봐 주는 것 → 인정.",
-      "ipa": "ˌrɛkəɡˈnɪʃən",
-      "pos": "n.",
-      "word": "recognition",
-      "si": 1,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      15,
-      "exercises",
-      6,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "forgive",
-       "si": 1
-      },
-      {
-       "word": "string",
-       "si": 1
-      },
-      {
-       "word": "besides",
-       "si": 1
-      },
-      {
-       "word": "besides",
-       "si": 2
-      },
-      {
-       "word": "friendly",
-       "si": 1
-      },
-      {
-       "word": "hungry",
-       "si": 1
-      },
-      {
-       "word": "bean",
-       "si": 1
-      },
-      {
-       "word": "trick",
-       "si": 1
-      },
-      {
-       "word": "trick",
-       "si": 2
-      },
-      {
-       "word": "trick",
-       "si": 3
-      },
-      {
-       "word": "absence",
-       "si": 1
-      },
-      {
-       "word": "offensive",
-       "si": 1
-      },
-      {
-       "word": "offensive",
-       "si": 2
-      },
-      {
-       "word": "recognition",
-       "si": 1
-      },
-      {
-       "word": "recognition",
-       "si": 2
-      }
-     ]
-    },
-    {
-     "path": [
-      16,
-      "exercises",
-      8,
-      "words",
-      3
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "grace",
-      "ko": "① 우아함, 품위",
-      "ex": "She moves with the {{BLANK}} of a dancer.",
-      "tr": "걔는 무용수처럼 우아하게 움직여.",
-      "c": "",
-      "ipa": "ɡreɪs",
-      "pos": "n.",
-      "word": "grace",
-      "si": 1,
-      "sn": 1,
-      "meow": "grace, 우아함이라면 고양이가 살아 있는 교과서라고양."
-     }
-    },
-    {
-     "path": [
-      16,
-      "exercises",
-      8,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "orange",
-       "si": 1
-      },
-      {
-       "word": "orange",
-       "si": 2
-      },
-      {
-       "word": "stair",
-       "si": 1
-      },
-      {
-       "word": "grace",
-       "si": 1
-      },
-      {
-       "word": "pig",
-       "si": 1
-      },
-      {
-       "word": "acid",
-       "si": 1
-      },
-      {
-       "word": "punishment",
-       "si": 1
-      },
-      {
-       "word": "pause",
-       "si": 1
-      },
-      {
-       "word": "rub",
-       "si": 1
-      },
-      {
-       "word": "poetry",
-       "si": 1
-      },
-      {
-       "word": "thread",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      17,
-      "exercises",
-      8,
-      "words",
-      3
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "guidance",
-      "ko": "① 지도, 안내",
-      "ex": "Under her {{BLANK}}, I chose my future job.",
-      "tr": "그분의 지도 덕에 장래 직업을 정했어.",
-      "c": "",
-      "ipa": "ˈɡaɪdəns",
-      "pos": "n.",
-      "word": "guidance",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      17,
-      "exercises",
-      8,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "arrival",
-       "si": 1
-      },
-      {
-       "word": "nail",
-       "si": 1
-      },
-      {
-       "word": "nail",
-       "si": 2
-      },
-      {
-       "word": "guidance",
-       "si": 1
-      },
-      {
-       "word": "pen",
-       "si": 1
-      },
-      {
-       "word": "interrupt",
-       "si": 1
-      },
-      {
-       "word": "hunt",
-       "si": 1
-      },
-      {
-       "word": "hunt",
-       "si": 2
-      },
-      {
-       "word": "melt",
-       "si": 1
-      },
-      {
-       "word": "snake",
-       "si": 1
-      },
-      {
-       "word": "tobacco",
-       "si": 1
-      },
-      {
-       "word": "seize",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      18,
-      "exercises",
-      4,
       "words",
       0
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "determination",
-      "ko": "① 결심, 결단력",
-      "ex": "She trained with great {{BLANK}} every day.",
-      "tr": "걔는 매일 대단한 결의로 훈련했어.",
-      "c": "동사는 determine, 형용사는 determined(굳게 결심한).",
-      "ipa": "dɪˌtɝmɪˈneɪʃən",
+      "en": "cheque",
+      "ko": "① 수표",
+      "ex": "He paid for the car by {{BLANK}}.",
+      "tr": "그 사람 차를 수표로 결제했어.",
+      "c": "수표. 영국식 철자가 cheque, 미국식은 check. pay by cheque(수표로 내다).",
+      "ipa": "tʃɛk",
       "pos": "n.",
-      "word": "determination",
+      "word": "cheque",
       "si": 1,
       "sn": 1
      }
     },
     {
      "path": [
-      18,
+      20,
       "exercises",
-      4,
+      0,
       "preDeletion"
      ],
      "oldExists": false,
      "newExists": true,
      "new": [
       {
-       "word": "determination",
+       "word": "cheque",
        "si": 1
       },
       {
-       "word": "flash",
+       "word": "sensible",
        "si": 1
       },
       {
-       "word": "flash",
+       "word": "tin",
+       "si": 1
+      },
+      {
+       "word": "tin",
        "si": 2
       },
       {
-       "word": "shell",
+       "word": "grammar",
        "si": 1
       },
       {
-       "word": "nasty",
+       "word": "trousers",
        "si": 1
       },
       {
-       "word": "pump",
+       "word": "carriage",
        "si": 1
       },
       {
-       "word": "pump",
+       "word": "carriage",
        "si": 2
       },
       {
-       "word": "trunk",
+       "word": "machinery",
        "si": 1
       },
       {
-       "word": "trunk",
+       "word": "petrol",
+       "si": 1
+      },
+      {
+       "word": "mineral",
+       "si": 1
+      },
+      {
+       "word": "mineral",
        "si": 2
       },
       {
-       "word": "trunk",
-       "si": 3
-      },
-      {
-       "word": "cheer",
-       "si": 1
-      },
-      {
-       "word": "cheer",
-       "si": 2
-      },
-      {
-       "word": "wrist",
-       "si": 1
-      },
-      {
-       "word": "twist",
-       "si": 1
-      },
-      {
-       "word": "insect",
+       "word": "taxi",
        "si": 1
       }
      ]
     },
     {
      "path": [
-      18,
+      20,
       "exercises",
-      5,
-      "words",
-      3
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "probability",
-      "ko": "① 확률, 가능성",
-      "ex": "What is the {{BLANK}} of winning the game?",
-      "tr": "그 경기 이길 확률이 얼마나 돼?",
-      "c": "",
-      "ipa": "ˌprɑbəˈbɪləti",
-      "pos": "n.",
-      "word": "probability",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      18,
-      "exercises",
-      5,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "parliament",
-       "si": 1
-      },
-      {
-       "word": "fold",
-       "si": 1
-      },
-      {
-       "word": "equality",
-       "si": 1
-      },
-      {
-       "word": "probability",
-       "si": 1
-      },
-      {
-       "word": "generous",
-       "si": 1
-      },
-      {
-       "word": "generous",
-       "si": 2
-      },
-      {
-       "word": "greet",
-       "si": 1
-      },
-      {
-       "word": "horn",
-       "si": 1
-      },
-      {
-       "word": "horn",
-       "si": 2
-      },
-      {
-       "word": "spell",
-       "si": 1
-      },
-      {
-       "word": "spell",
-       "si": 2
-      },
-      {
-       "word": "spell",
-       "si": 3
-      },
-      {
-       "word": "conscious",
-       "si": 1
-      },
-      {
-       "word": "conscious",
-       "si": 2
-      },
-      {
-       "word": "photography",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      19,
-      "exercises",
-      3,
-      "words",
-      1
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "influential",
-      "ko": "① 영향력 있는",
-      "ex": "He is the most {{BLANK}} person in music.",
-      "tr": "걔가 음악계에서 제일 영향력 있는 사람이야.",
-      "c": "influence(영향)+ial=영향력 있는. 인플루언서와 같은 뿌리.",
-      "ipa": "ˌɪnfluˈɛnʃəl",
-      "pos": "adj.",
-      "word": "influential",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      19,
-      "exercises",
-      3,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "conscience",
-       "si": 1
-      },
-      {
-       "word": "influential",
-       "si": 1
-      },
-      {
-       "word": "gram",
-       "si": 1
-      },
-      {
-       "word": "envelope",
-       "si": 1
-      },
-      {
-       "word": "scatter",
-       "si": 1
-      },
-      {
-       "word": "cure",
-       "si": 1
-      },
-      {
-       "word": "cure",
-       "si": 2
-      },
-      {
-       "word": "worthy",
-       "si": 1
-      },
-      {
-       "word": "chemistry",
-       "si": 1
-      },
-      {
-       "word": "chemistry",
-       "si": 2
-      },
-      {
-       "word": "drown",
-       "si": 1
-      },
-      {
-       "word": "lightning",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      19,
-      "exercises",
-      4,
-      "words",
-      11
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "tender",
-      "word": "tender",
-      "ko": "② 다정한, 상냥한",
-      "ex": "He gave the child a {{BLANK}} smile.",
-      "tr": "그는 아이에게 다정한 미소를 지어 줬어.",
-      "c": "tender/gentle smile은 다정하고 부드러운 미소. tender는 특히 애정을 강조한다.",
-      "ipa": "ˈtɛndɚ",
-      "pos": "adj.",
-      "si": 2,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      19,
-      "exercises",
-      4,
+      6,
       "words",
       10
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "tender",
-      "ko": "① (고기 등이) 연한, 부드러운",
-      "ex": "The meat was so {{BLANK}} that I could cut it with a fork.",
-      "tr": "고기가 아주 연해서 포크로도 자를 수 있었어.",
-      "c": "고기가 연한 것도, 마음이 다정한 것도 tender.",
-      "ipa": "ˈtɛndɚ",
-      "pos": "adj.",
-      "word": "tender",
-      "si": 1,
-      "sn": 2,
-      "meow": "tender, 연한 생선 살 앞에서는 고양이도 무너진다고양."
-     }
-    },
-    {
-     "path": [
-      19,
-      "exercises",
-      4,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "sail",
-       "si": 1
-      },
-      {
-       "word": "sail",
-       "si": 2
-      },
-      {
-       "word": "delicate",
-       "si": 1
-      },
-      {
-       "word": "soap",
-       "si": 1
-      },
-      {
-       "word": "instruct",
-       "si": 1
-      },
-      {
-       "word": "instruct",
-       "si": 2
-      },
-      {
-       "word": "useless",
-       "si": 1
-      },
-      {
-       "word": "excite",
-       "si": 1
-      },
-      {
-       "word": "cruel",
-       "si": 1
-      },
-      {
-       "word": "sympathy",
-       "si": 1
-      },
-      {
-       "word": "tender",
-       "si": 1
-      },
-      {
-       "word": "tender",
-       "si": 2
-      },
-      {
-       "word": "o'clock",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      19,
-      "exercises",
-      7,
-      "words",
-      11
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "attendance",
-      "ko": "① 출석, 참석",
-      "ex": "The teacher takes {{BLANK}} every morning.",
-      "tr": "선생님이 매일 아침 출석을 부르셔.",
-      "c": "미국식은 take attendance(출석을 부르다).",
-      "ipa": "əˈtɛndəns",
+      "en": "pence",
+      "ko": "① 펜스(영국 화폐)",
+      "ex": "The newspaper cost fifty {{BLANK}}.",
+      "tr": "그 신문은 50펜스였어.",
+      "c": "영국 돈의 액수를 셀 때 penny의 복수는 pence. 동전 여러 개 자체는 pennies라고도 한다. 1 pound는 100 pence.",
+      "ipa": "pɛns",
       "pos": "n.",
-      "word": "attendance",
+      "word": "pence",
       "si": 1,
       "sn": 1
      }
-    },
-    {
-     "path": [
-      19,
-      "exercises",
-      7,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "ash",
-       "si": 1
-      },
-      {
-       "word": "stamp",
-       "si": 1
-      },
-      {
-       "word": "stamp",
-       "si": 2
-      },
-      {
-       "word": "stamp",
-       "si": 3
-      },
-      {
-       "word": "doorway",
-       "si": 1
-      },
-      {
-       "word": "cord",
-       "si": 1
-      },
-      {
-       "word": "bicycle",
-       "si": 1
-      },
-      {
-       "word": "jealous",
-       "si": 1
-      },
-      {
-       "word": "faithful",
-       "si": 1
-      },
-      {
-       "word": "discourage",
-       "si": 1
-      },
-      {
-       "word": "discourage",
-       "si": 2
-      },
-      {
-       "word": "attendance",
-       "si": 1
-      },
-      {
-       "word": "silk",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      20,
-      "exercises",
-      1,
-      "words",
-      6
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "desirable",
-      "ko": "① 바람직한",
-      "ex": "A quiet room is {{BLANK}} for study.",
-      "tr": "공부엔 조용한 방이 바람직하지.",
-      "c": "desire(바라다)+able=바랄 만한, 바람직한. 반대는 undesirable.",
-      "ipa": "dɪˈzaɪrəbəl",
-      "pos": "adj.",
-      "word": "desirable",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      20,
-      "exercises",
-      1,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "satisfactory",
-       "si": 1
-      },
-      {
-       "word": "cinema",
-       "si": 1
-      },
-      {
-       "word": "urgent",
-       "si": 1
-      },
-      {
-       "word": "dictionary",
-       "si": 1
-      },
-      {
-       "word": "delight",
-       "si": 1
-      },
-      {
-       "word": "delight",
-       "si": 2
-      },
-      {
-       "word": "desirable",
-       "si": 1
-      },
-      {
-       "word": "warmth",
-       "si": 1
-      },
-      {
-       "word": "refusal",
-       "si": 1
-      },
-      {
-       "word": "convenient",
-       "si": 1
-      },
-      {
-       "word": "formerly",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      20,
-      "exercises",
-      2,
-      "words",
-      1
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "breed",
-      "ko": "② 품종",
-      "ex": "What {{BLANK}} is your dog?",
-      "tr": "너네 개는 무슨 품종이야?",
-      "c": "명사로는 품종. 진돗개, 푸들 같은 '종류'를 말한다.",
-      "ipa": "brid",
-      "pos": "n.",
-      "word": "breed",
-      "si": 2,
-      "sn": 2,
-      "meow": "내 breed, 품종? 일산 최강 BIG MOUNTAIN 출신이라고양."
-     }
-    },
-    {
-     "path": [
-      20,
-      "exercises",
-      2,
-      "words",
-      0
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "breed",
-      "ko": "① 기르다, 번식시키다",
-      "ex": "They {{BLANK}} sheep on this farm.",
-      "tr": "여기 농장에서는 양을 번식시켜.",
-      "c": "동물을 새끼 낳게 해 기르는 것. breed-bred-bred.",
-      "ipa": "brid",
-      "pos": "v.",
-      "word": "breed",
-      "si": 1,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      20,
-      "exercises",
-      2,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "breed",
-       "si": 1
-      },
-      {
-       "word": "breed",
-       "si": 2
-      },
-      {
-       "word": "cupboard",
-       "si": 1
-      },
-      {
-       "word": "faint",
-       "si": 1
-      },
-      {
-       "word": "faint",
-       "si": 2
-      },
-      {
-       "word": "copper",
-       "si": 1
-      },
-      {
-       "word": "dull",
-       "si": 1
-      },
-      {
-       "word": "dull",
-       "si": 2
-      },
-      {
-       "word": "neat",
-       "si": 1
-      },
-      {
-       "word": "backwards",
-       "si": 1
-      },
-      {
-       "word": "wool",
-       "si": 1
-      },
-      {
-       "word": "pity",
-       "si": 1
-      },
-      {
-       "word": "pity",
-       "si": 2
-      },
-      {
-       "word": "pity",
-       "si": 3
-      },
-      {
-       "word": "parallel",
-       "si": 1
-      }
-     ]
     },
     {
      "path": [
@@ -1253,22 +212,21 @@
       "exercises",
       7,
       "words",
-      8
+      1
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "fond",
-      "ko": "① ~을 좋아하는",
-      "ex": "She is {{BLANK}} of sweet things.",
-      "tr": "걔는 단것을 좋아해.",
-      "c": "be fond of+명사/-ing. like보다 정들어 오래 좋아하는 느낌. fond memories는 '그리운'.",
-      "ipa": "fɑnd",
-      "pos": "adj.",
-      "word": "fond",
+      "en": "forwards",
+      "ko": "① 앞으로",
+      "ex": "The bus moved {{BLANK}} very slowly.",
+      "tr": "버스가 아주 천천히 앞으로 움직였어.",
+      "c": "앞쪽으로. backwards(뒤로)의 반대. 미국에선 보통 -s 없이 forward.",
+      "ipa": "ˈfɔrwɚdz",
+      "pos": "adv.",
+      "word": "forwards",
       "si": 1,
-      "sn": 1,
-      "meow": "I am fond of 츄르라고양. 좋아한다는 문장 완성이고양."
+      "sn": 1
      }
     },
     {
@@ -1322,29 +280,6 @@
        "si": 1
       }
      ]
-    },
-    {
-     "path": [
-      20,
-      "exercises",
-      9,
-      "words",
-      9
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "weave",
-      "ko": "① (천을) 짜다, 엮다",
-      "ex": "She {{BLANK}}s wool into warm cloth.",
-      "tr": "그분은 양털로 따뜻한 천을 짜.",
-      "c": "실을 엮어 천을 만들다. weave-wove-woven.",
-      "ipa": "wiv",
-      "pos": "v.",
-      "word": "weave",
-      "si": 1,
-      "sn": 1
-     }
     },
     {
      "path": [
@@ -1433,21 +368,21 @@
      "path": [
       21,
       "exercises",
-      0,
+      2,
       "words",
-      4
+      5
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "thorough",
-      "ko": "① 철저한, 꼼꼼한",
-      "ex": "The police made a {{BLANK}} search of the house.",
-      "tr": "경찰이 그 집을 철저하게 수색했어.",
-      "c": "thorough는 철저한, through는 ~을 통과하여. a thorough search는 철저한 수색.",
-      "ipa": "ˈθɝoʊ",
-      "pos": "adj.",
-      "word": "thorough",
+      "en": "anyhow",
+      "ko": "① 어쨌든, 아무튼",
+      "ex": "It was late, but I went out {{BLANK}}.",
+      "tr": "늦었지만 아무튼 나갔어.",
+      "c": "anyway와 같은 '어쨌든'. 말 돌릴 때: Anyhow, let's go.",
+      "ipa": "ˈɛniˌhaʊ",
+      "pos": "adv.",
+      "word": "anyhow",
       "si": 1,
       "sn": 1
      }
@@ -1456,74 +391,59 @@
      "path": [
       21,
       "exercises",
-      0,
-      "words",
-      3
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "wicked",
-      "ko": "① 사악한, 못된",
-      "ex": "A {{BLANK}} plan to cheat old people failed.",
-      "tr": "노인들을 속이려던 못된 계획은 실패했어.",
-      "c": "발음[위키드] 2음절. -ed지만 과거형 아님, '사악한' 형용사.",
-      "ipa": "ˈwɪkɪd",
-      "pos": "adj.",
-      "word": "wicked",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      0,
+      2,
       "preDeletion"
      ],
      "oldExists": false,
      "newExists": true,
      "new": [
       {
-       "word": "insure",
+       "word": "alphabet",
        "si": 1
       },
       {
-       "word": "fisherman",
+       "word": "amuse",
        "si": 1
       },
       {
-       "word": "burial",
+       "word": "amusing",
        "si": 1
       },
       {
-       "word": "wicked",
+       "word": "annoy",
        "si": 1
       },
       {
-       "word": "thorough",
+       "word": "annoyance",
        "si": 1
       },
       {
-       "word": "gradual",
+       "word": "anyhow",
        "si": 1
       },
       {
-       "word": "kneel",
+       "word": "armor",
        "si": 1
       },
       {
-       "word": "adjective",
+       "word": "arms",
        "si": 1
       },
       {
-       "word": "theirs",
+       "word": "backward",
        "si": 1
       },
       {
-       "word": "waiter",
+       "word": "backward",
+       "si": 2
+      },
+      {
+       "word": "bathe",
        "si": 1
+      },
+      {
+       "word": "bathe",
+       "si": 2
       }
      ]
     },
@@ -1531,533 +451,24 @@
      "path": [
       21,
       "exercises",
-      1,
-      "words",
-      8
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "admiration",
-      "ko": "① 감탄, 존경",
-      "ex": "She looked at the painting with {{BLANK}}.",
-      "tr": "걔는 감탄하며 그 그림을 바라봤어.",
-      "c": "admire(감탄하다)+ation. with admiration=감탄의 눈으로.",
-      "ipa": "ˌædməˈreɪʃən",
-      "pos": "n.",
-      "word": "admiration",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      1,
-      "words",
-      3
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "enjoyment",
-      "ko": "① 즐거움",
-      "ex": "She gets a lot of {{BLANK}} from her garden.",
-      "tr": "걔는 정원 가꾸면서 즐거움을 많이 얻어.",
-      "c": "enjoy+ment. -ment는 동사를 명사로 바꾸는 접미사(movement처럼).",
-      "ipa": "ɪnˈdʒɔɪmənt",
-      "pos": "n.",
-      "word": "enjoyment",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      1,
-      "words",
-      2
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "swell",
-      "ko": "① 붓다, 부풀다",
-      "ex": "My ankle started to {{BLANK}} after the fall.",
-      "tr": "넘어진 뒤에 발목이 붓기 시작했어.",
-      "c": "부딪힌 데가 풍선처럼 부푸는 그림. swell-swelled-swollen.",
-      "ipa": "swɛl",
-      "pos": "v.",
-      "word": "swell",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      1,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "poison",
-       "si": 1
-      },
-      {
-       "word": "poison",
-       "si": 2
-      },
-      {
-       "word": "swell",
-       "si": 1
-      },
-      {
-       "word": "enjoyment",
-       "si": 1
-      },
-      {
-       "word": "ant",
-       "si": 1
-      },
-      {
-       "word": "accordance",
-       "si": 1
-      },
-      {
-       "word": "ache",
-       "si": 1
-      },
-      {
-       "word": "ache",
-       "si": 2
-      },
-      {
-       "word": "admiration",
-       "si": 1
-      },
-      {
-       "word": "admittance",
-       "si": 1
-      },
-      {
-       "word": "adverb",
-       "si": 1
-      },
-      {
-       "word": "aloud",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      4,
+      6,
       "words",
       12
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "cultivate",
-      "ko": "② (관계·재능을) 가꾸다, 기르다",
-      "ex": "He {{BLANK}}d close ties with his neighbors.",
-      "tr": "걔는 이웃들과 친밀한 관계를 공들여 가꿨어.",
-      "c": "시간과 노력을 들여 관계·재능·습관 등을 기르다.",
-      "ipa": "ˈkʌltəveɪt",
-      "pos": "v.",
-      "word": "cultivate",
-      "si": 2,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      4,
-      "words",
-      11
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "cultivate",
-      "ko": "① 재배하다, 경작하다",
-      "ex": "Farmers {{BLANK}} rice in these wet fields.",
-      "tr": "농부들은 이 논에서 벼를 경작해.",
-      "c": "땅을 갈아 기르다. 우정·실력을 가꾸는 ②도 같은 그림.",
-      "ipa": "ˈkʌltəveɪt",
-      "pos": "v.",
-      "word": "cultivate",
-      "si": 1,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      4,
-      "words",
-      10
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "cruelty",
-      "ko": "① 잔인함, 잔혹 행위",
-      "ex": "We must stop {{BLANK}} to animals.",
-      "tr": "동물한테 잔인하게 구는 건 막아야 해.",
-      "c": "cruel은 잔인한, cruelty는 잔인함. cruelty to animals는 동물 학대.",
-      "ipa": "ˈkruəlti",
-      "pos": "n.",
-      "word": "cruelty",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      4,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "chalk",
-       "si": 1
-      },
-      {
-       "word": "chimney",
-       "si": 1
-      },
-      {
-       "word": "clockwork",
-       "si": 1
-      },
-      {
-       "word": "comb",
-       "si": 1
-      },
-      {
-       "word": "comb",
-       "si": 2
-      },
-      {
-       "word": "consonant",
-       "si": 1
-      },
-      {
-       "word": "cough",
-       "si": 1
-      },
-      {
-       "word": "cough",
-       "si": 2
-      },
-      {
-       "word": "coward",
-       "si": 1
-      },
-      {
-       "word": "cowardly",
-       "si": 1
-      },
-      {
-       "word": "cruelty",
-       "si": 1
-      },
-      {
-       "word": "cultivate",
-       "si": 1
-      },
-      {
-       "word": "cultivate",
-       "si": 2
-      }
-     ]
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      5,
-      "words",
-      8
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "descriptive",
-      "ko": "① 묘사하는",
-      "ex": "Her {{BLANK}} writing put the scene before my eyes.",
-      "tr": "걔 묘사 글은 장면이 눈앞에 그려져.",
-      "c": "descriptive writing = 묘사문.",
-      "ipa": "dɪˈskrɪptɪv",
-      "pos": "adj.",
-      "word": "descriptive",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      5,
-      "words",
-      6
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "deceive",
-      "ko": "① 속이다",
-      "ex": "He {{BLANK}}d us with a false name.",
-      "tr": "걔는 가짜 이름으로 우릴 속였어.",
-      "c": "사실이 아닌 것을 믿게 하다. deceive someone into doing은 누구를 속여 ~하게 하다.",
-      "ipa": "dɪˈsiv",
-      "pos": "v.",
-      "word": "deceive",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      5,
-      "words",
-      2
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "daring",
-      "ko": "① 대담한, 겁 없는",
-      "ex": "Their {{BLANK}} escape plan actually worked.",
-      "tr": "걔네 대담한 탈출 계획이 진짜 통했어.",
-      "c": "위험을 무릅쓰는 대담한. a daring escape는 대담한 탈출.",
-      "ipa": "ˈdɛrɪŋ",
-      "pos": "adj.",
-      "word": "daring",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      5,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "curse",
-       "si": 1
-      },
-      {
-       "word": "curse",
-       "si": 2
-      },
-      {
-       "word": "daring",
-       "si": 1
-      },
-      {
-       "word": "decay",
-       "si": 1
-      },
-      {
-       "word": "decay",
-       "si": 2
-      },
-      {
-       "word": "deceit",
-       "si": 1
-      },
-      {
-       "word": "deceive",
-       "si": 1
-      },
-      {
-       "word": "decimal",
-       "si": 1
-      },
-      {
-       "word": "descriptive",
-       "si": 1
-      },
-      {
-       "word": "disappoint",
-       "si": 1
-      },
-      {
-       "word": "discouragement",
-       "si": 1
-      },
-      {
-       "word": "ditch",
-       "si": 1
-      },
-      {
-       "word": "ditch",
-       "si": 2
-      }
-     ]
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      6,
-      "words",
-      10
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "favorable",
-      "word": "favorable",
-      "ko": "② 호의적인, 긍정적인",
-      "ex": "The teacher gave a {{BLANK}} report on her work.",
-      "tr": "선생님은 그녀의 과제에 호의적인 평가를 내렸어.",
-      "c": "반응·평가가 좋거나 찬성하는 것. 반대는 unfavorable.",
-      "ipa": "ˈfeɪvərəbəl",
-      "pos": "adj.",
-      "si": 2,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      6,
-      "words",
-      9
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "favorable",
-      "ko": "① 유리한",
-      "ex": "The weather is {{BLANK}} for our trip.",
-      "tr": "날씨가 우리 여행에 유리해.",
-      "c": "조건·상황이 일에 도움이 되는. favorable weather=유리한 날씨.",
-      "ipa": "ˈfeɪvərəbəl",
-      "pos": "adj.",
-      "word": "favorable",
-      "si": 1,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      6,
-      "words",
-      4
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "explosive",
-      "ko": "② 폭발물",
-      "ex": "The army found {{BLANK}}s under the old bridge.",
-      "tr": "군대가 오래된 다리 밑에서 폭발물을 발견했어.",
+      "en": "footpath",
+      "ko": "① 보행로, 산책로",
+      "ex": "A narrow {{BLANK}} leads to the top.",
+      "tr": "좁은 보행로가 정상까지 이어져.",
       "c": "",
-      "ipa": "ɪkˈsploʊsɪv",
+      "ipa": "ˈfʊtpæθ",
       "pos": "n.",
-      "word": "explosive",
-      "si": 2,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      6,
-      "words",
-      3
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "explosive",
-      "ko": "① 폭발하기 쉬운",
-      "ex": "This gas is {{BLANK}}, so no fire here.",
-      "tr": "이 가스는 폭발성이 있어서 여기서 불 쓰면 안 돼.",
-      "c": "explode(터지다)+sive. 사람 성격이 explosive=욱하는.",
-      "ipa": "ɪkˈsploʊsɪv",
-      "pos": "adj.",
-      "word": "explosive",
+      "word": "footpath",
       "si": 1,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      6,
-      "words",
-      2
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "enclosure",
-      "word": "enclosure",
-      "ko": "② 동봉물",
-      "ex": "The letter has two {{BLANK}}s.",
-      "tr": "그 편지에는 동봉물이 두 개 있어.",
-      "c": "편지와 함께 넣어 보내는 문서나 물건.",
-      "ipa": "ɪnˈkloʊʒɚ",
-      "pos": "n.",
-      "si": 2,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      6,
-      "words",
-      1
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "enclosure",
-      "ko": "① 울타리 친 구역",
-      "ex": "The sheep stay in a large {{BLANK}} at night.",
-      "tr": "양들은 밤에 울타리 친 넓은 구역 안에 있어.",
-      "c": "enclose(둘러싸다)+ure: 울타리로 두른 안쪽 공간.",
-      "ipa": "ɪnˈkloʊʒɚ",
-      "pos": "n.",
-      "word": "enclosure",
-      "si": 1,
-      "sn": 2
+      "sn": 1,
+      "meow": "BIG MOUNTAIN의 footpath, 오솔길은 내가 다 안다고양."
      }
     },
     {
@@ -2126,184 +537,26 @@
     },
     {
      "path": [
-      21,
+      22,
       "exercises",
-      7,
+      0,
       "words",
-      11
+      9
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "habitual",
-      "ko": "① 습관적인",
-      "ex": "Being late became {{BLANK}} for him.",
-      "tr": "지각이 걔한텐 습관이 됐어.",
-      "c": "habit(습관)+ual: 한 번이 아니라 '늘 그러는'. 상습적.",
-      "ipa": "həˈbɪtʃuəl",
-      "pos": "adj.",
-      "word": "habitual",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      7,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "footstep",
-       "si": 1
-      },
-      {
-       "word": "fort",
-       "si": 1
-      },
-      {
-       "word": "frightening",
-       "si": 1
-      },
-      {
-       "word": "fulfill",
-       "si": 1
-      },
-      {
-       "word": "fulfill",
-       "si": 2
-      },
-      {
-       "word": "glue",
-       "si": 1
-      },
-      {
-       "word": "glue",
-       "si": 2
-      },
-      {
-       "word": "goods",
-       "si": 1
-      },
-      {
-       "word": "graceful",
-       "si": 1
-      },
-      {
-       "word": "greeting",
-       "si": 1
-      },
-      {
-       "word": "grieve",
-       "si": 1
-      },
-      {
-       "word": "habitual",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      8,
-      "words",
-      6
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "hasty",
-      "ko": "① 성급한",
-      "ex": "Don't make a {{BLANK}} decision about your future.",
-      "tr": "네 미래를 성급하게 결정하지 마.",
-      "c": "서둘러서 충분히 생각하지 않은. a hasty decision은 성급한 결정.",
-      "ipa": "ˈheɪsti",
-      "pos": "adj.",
-      "word": "hasty",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      8,
-      "words",
-      3
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "hardship",
-      "ko": "① 고난, 고생",
-      "ex": "The family lived through years of {{BLANK}}.",
-      "tr": "그 가족은 몇 년의 고난을 견디며 살았어.",
-      "c": "hard+ship: 견뎌야 하는 어려움. -ship은 명사 접미사(friendship).",
-      "ipa": "ˈhɑrdʃɪp",
+      "en": "kilo",
+      "ko": "① 킬로(kg)",
+      "ex": "I lost two {{BLANK}}s this month.",
+      "tr": "나 이번 달에 2킬로 빠졌어.",
+      "c": "kilogram의 줄임말.",
+      "ipa": "ˈkiloʊ",
       "pos": "n.",
-      "word": "hardship",
+      "word": "kilo",
       "si": 1,
       "sn": 1
      }
-    },
-    {
-     "path": [
-      21,
-      "exercises",
-      8,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "hairy",
-       "si": 1
-      },
-      {
-       "word": "handkerchief",
-       "si": 1
-      },
-      {
-       "word": "harden",
-       "si": 1
-      },
-      {
-       "word": "hardship",
-       "si": 1
-      },
-      {
-       "word": "harmful",
-       "si": 1
-      },
-      {
-       "word": "harmless",
-       "si": 1
-      },
-      {
-       "word": "hasty",
-       "si": 1
-      },
-      {
-       "word": "hen",
-       "si": 1
-      },
-      {
-       "word": "hollow",
-       "si": 1
-      },
-      {
-       "word": "honesty",
-       "si": 1
-      }
-     ]
     },
     {
      "path": [
@@ -2311,19 +564,19 @@
       "exercises",
       0,
       "words",
-      4
+      5
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "interruption",
-      "ko": "① (말 도중) 끼어듦, 방해",
-      "ex": "Sorry for the {{BLANK}}; please go on.",
-      "tr": "말 끊어서 미안, 계속해.",
-      "c": "interrupt(중간에 끊다)+-ion=명사. 말 도중 끼어드는 것.",
-      "ipa": "ˌɪntəˈrʌpʃən",
-      "pos": "n.",
-      "word": "interruption",
+      "en": "inwards",
+      "ko": "① 안쪽으로",
+      "ex": "This door opens {{BLANK}}, so step back.",
+      "tr": "이 문은 안쪽으로 열리니까 물러서.",
+      "c": "-ward(s)=~쪽으로. 미국에선 보통 -s 없이 inward, outward.",
+      "ipa": "ˈɪnwɚdz",
+      "pos": "adv.",
+      "word": "inwards",
       "si": 1,
       "sn": 1
      }
@@ -2382,329 +635,114 @@
     },
     {
      "path": [
-      22,
+      25,
       "exercises",
-      1,
+      2,
       "words",
-      4
+      1
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "lodging",
-      "ko": "① 숙소, 하숙",
-      "ex": "We found cheap {{BLANK}} near the station.",
-      "tr": "우리 역 근처에 싼 숙소 찾았어.",
-      "c": "",
-      "ipa": "ˈlɑdʒɪŋ",
+      "en": "Daddy",
+      "ko": "① 아빠",
+      "ex": "My little sister still calls him {{BLANK}}.",
+      "tr": "내 여동생은 아직도 아빠를 대디라고 불러.",
+      "c": "아빠를 친근하게 부르는 말. 이름 대신 부를 때는 Daddy처럼 대문자로 쓴다.",
+      "ipa": "ˈdædi",
       "pos": "n.",
-      "word": "lodging",
+      "word": "daddy",
       "si": 1,
       "sn": 1
      }
     },
     {
      "path": [
-      22,
+      25,
       "exercises",
-      1,
+      2,
       "preDeletion"
      ],
      "oldExists": false,
      "newExists": true,
      "new": [
       {
-       "word": "kilogram",
+       "word": "weird",
        "si": 1
       },
       {
-       "word": "kilometer",
+       "word": "daddy",
        "si": 1
       },
       {
-       "word": "liter",
+       "word": "invest",
        "si": 1
       },
       {
-       "word": "loaf",
+       "word": "invest",
+       "si": 2
+      },
+      {
+       "word": "expose",
        "si": 1
       },
       {
-       "word": "lodging",
+       "word": "expose",
+       "si": 2
+      },
+      {
+       "word": "convince",
        "si": 1
       },
       {
-       "word": "magician",
+       "word": "channel",
        "si": 1
       },
       {
-       "word": "mat",
+       "word": "channel",
+       "si": 2
+      },
+      {
+       "word": "carefully",
        "si": 1
       },
       {
-       "word": "mend",
+       "word": "estate",
        "si": 1
       },
       {
-       "word": "merry",
+       "word": "estate",
+       "si": 2
+      },
+      {
+       "word": "forth",
        "si": 1
       },
       {
-       "word": "messenger",
+       "word": "meanwhile",
        "si": 1
       }
      ]
     },
     {
      "path": [
-      22,
+      25,
       "exercises",
-      2,
+      3,
       "words",
       8
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "obedient",
-      "ko": "① 순종하는, 말 잘 듣는",
-      "ex": "Their dog is quiet and {{BLANK}}.",
-      "tr": "걔네 개는 조용하고 말을 잘 들어.",
-      "c": "obey→obedient(순종하는)→obedience(순종). 어미 -ent/-ence.",
-      "ipa": "oʊˈbidiənt",
-      "pos": "adj.",
-      "word": "obedient",
-      "si": 1,
-      "sn": 1,
-      "meow": "고양이 사전에 obedient, 순종이란 단어는 없다고양.",
-      "savedId": "[\"22세트\",\"Exercise 3 · 2121~2130\",\"obedient\",1,\"\"]"
-     }
-    },
-    {
-     "path": [
-      22,
-      "exercises",
-      2,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "metric",
-       "si": 1
-      },
-      {
-       "word": "metric",
-       "si": 2
-      },
-      {
-       "word": "microscope",
-       "si": 1
-      },
-      {
-       "word": "millionth",
-       "si": 1
-      },
-      {
-       "word": "nobleman",
-       "si": 1
-      },
-      {
-       "word": "noun",
-       "si": 1
-      },
-      {
-       "word": "nylon",
-       "si": 1
-      },
-      {
-       "word": "obedience",
-       "si": 1
-      },
-      {
-       "word": "obedient",
-       "si": 1
-      },
-      {
-       "word": "oneself",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      22,
-      "exercises",
-      4,
-      "words",
-      4
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "secrecy",
-      "ko": "① 비밀 유지, 비밀스러움",
-      "ex": "The plan was made in total {{BLANK}}.",
-      "tr": "그 계획은 완전 비밀리에 세워졌어.",
-      "c": "",
-      "ipa": "ˈsikrəsi",
-      "pos": "n.",
-      "word": "secrecy",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      22,
-      "exercises",
-      4,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "respectful",
-       "si": 1
-      },
-      {
-       "word": "ripe",
-       "si": 1
-      },
-      {
-       "word": "scenery",
-       "si": 1
-      },
-      {
-       "word": "scissors",
-       "si": 1
-      },
-      {
-       "word": "secrecy",
-       "si": 1
-      },
-      {
-       "word": "senseless",
-       "si": 1
-      },
-      {
-       "word": "sew",
-       "si": 1
-      },
-      {
-       "word": "shopkeeper",
-       "si": 1
-      },
-      {
-       "word": "sideways",
-       "si": 1
-      },
-      {
-       "word": "sincere",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      22,
-      "exercises",
-      8,
-      "words",
-      4
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "yearly",
-      "word": "yearly",
-      "ko": "② 해마다, 매년",
-      "ex": "We visit our cousins {{BLANK}}.",
-      "tr": "우리는 사촌들을 해마다 만나러 가.",
-      "c": "동작을 꾸미는 부사로도 쓰인다. once a year와 같은 뜻.",
-      "ipa": "ˈjɪrli",
-      "pos": "adv.",
-      "si": 2,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      22,
-      "exercises",
-      8,
-      "words",
-      3
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "yearly",
-      "ko": "① 해마다의, 연 1회의",
-      "ex": "Our school sports day is a {{BLANK}} event.",
-      "tr": "우리 학교 운동회는 해마다 하는 행사야.",
-      "c": "a yearly event=an annual event(해마다 열리는 행사).",
-      "ipa": "ˈjɪrli",
-      "pos": "adj.",
-      "word": "yearly",
-      "si": 1,
-      "sn": 2,
-      "meow": "yearly, 해마다 한 번뿐인 날이라고양. BIG MOUNTAIN 완등이고양!"
-     }
-    },
-    {
-     "path": [
-      22,
-      "exercises",
-      8,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "wreck",
-       "si": 1
-      },
-      {
-       "word": "wreck",
-       "si": 2
-      },
-      {
-       "word": "wrongdoing",
-       "si": 1
-      },
-      {
-       "word": "yearly",
-       "si": 1
-      },
-      {
-       "word": "yearly",
-       "si": 2
-      }
-     ]
-    },
-    {
-     "path": [
-      25,
-      "exercises",
-      3,
-      "words",
-      11
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "rating",
-      "ko": "② (복수로) 시청률",
-      "ex": "The show's {{BLANK}}s dropped after season two.",
-      "tr": "그 프로 시청률이 시즌 2 이후로 떨어졌어.",
-      "c": "TV ratings는 프로그램의 시청자 수·시청 비율을 나타내는 수치.",
-      "ipa": "ˈreɪtɪŋ",
-      "pos": "n.",
-      "word": "rating",
+      "en": "e-mail",
+      "word": "e-mail",
+      "ko": "② 이메일을 보내다",
+      "ex": "Please {{BLANK}} me the class notes.",
+      "tr": "수업 필기를 이메일로 보내 줘.",
+      "c": "e-mail+사람+내용=누구에게 내용을 이메일로 보내다.",
+      "ipa": "ˈimeɪl",
+      "pos": "v.",
       "si": 2,
       "sn": 2
      }
@@ -2715,19 +753,19 @@
       "exercises",
       3,
       "words",
-      10
+      7
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "rating",
-      "ko": "① 평가, 등급, 평점",
-      "ex": "This movie got a low {{BLANK}} online.",
-      "tr": "이 영화 온라인에서 평점 낮게 받았어.",
-      "c": "rate는 평가하다, rating은 평가 결과나 등급. a five-star rating은 별 다섯 개 평점.",
-      "ipa": "ˈreɪtɪŋ",
+      "en": "e-mail",
+      "ko": "① 이메일, 전자 우편",
+      "ex": "Send me an {{BLANK}} with the class notes.",
+      "tr": "수업 필기 이메일로 보내 줘.",
+      "c": "email로도 쓴다. 동사로 e-mail me(나한테 메일 보내)도 된다.",
+      "ipa": "ˈimeɪl",
       "pos": "n.",
-      "word": "rating",
+      "word": "e-mail",
       "si": 1,
       "sn": 2
      }
@@ -2796,21 +834,117 @@
      "path": [
       25,
       "exercises",
-      7,
+      6,
       "words",
-      0
+      11
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "assistance",
-      "ko": "① 도움, 지원",
-      "ex": "She asked for {{BLANK}} with the heavy boxes.",
-      "tr": "걔가 무거운 상자 옮기는 데 지원을 요청했어.",
-      "c": "assist(돕다)+-ance. 셀 수 없다. help보다 격식 있는 말이다.",
-      "ipa": "əˈsɪstəns",
+      "en": "dude",
+      "ko": "① 녀석, 친구, 야",
+      "ex": "Hey {{BLANK}}, can I borrow your charger?",
+      "tr": "야, 나 충전기 좀 빌려도 돼?",
+      "c": "친한 사이에서 친구·녀석을 뜻하거나 상대를 부르는 구어체 말. 격식을 차리는 상황에는 어울리지 않는다.",
+      "ipa": "dud",
       "pos": "n.",
-      "word": "assistance",
+      "word": "dude",
+      "si": 1,
+      "sn": 1,
+      "meow": "Dude, 야 이 녀석아. 손가락 좀 움직이라고양."
+     }
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      6,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "angel",
+       "si": 1
+      },
+      {
+       "word": "tank",
+       "si": 1
+      },
+      {
+       "word": "tank",
+       "si": 2
+      },
+      {
+       "word": "perfectly",
+       "si": 1
+      },
+      {
+       "word": "perfectly",
+       "si": 2
+      },
+      {
+       "word": "veteran",
+       "si": 1
+      },
+      {
+       "word": "veteran",
+       "si": 2
+      },
+      {
+       "word": "protein",
+       "si": 1
+      },
+      {
+       "word": "fewer",
+       "si": 1
+      },
+      {
+       "word": "depression",
+       "si": 1
+      },
+      {
+       "word": "depression",
+       "si": 2
+      },
+      {
+       "word": "dude",
+       "si": 1
+      },
+      {
+       "word": "ceo",
+       "si": 1
+      },
+      {
+       "word": "japanese",
+       "si": 1
+      },
+      {
+       "word": "japanese",
+       "si": 2
+      }
+     ]
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      8,
+      "words",
+      9
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "tech",
+      "ko": "① (첨단) 기술",
+      "ex": "My brother works at a {{BLANK}} company.",
+      "tr": "우리 형은 기술 회사에서 일해.",
+      "c": "informal. technology의 줄임말. high-tech(첨단의)로 쓴다.",
+      "ipa": "tɛk",
+      "pos": "n.",
+      "word": "tech",
       "si": 1,
       "sn": 1
      }
@@ -2819,62 +953,657 @@
      "path": [
       25,
       "exercises",
-      7,
+      8,
+      "words",
+      8
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "buck",
+      "ko": "② 수사슴",
+      "ex": "A {{BLANK}} jumped across the road at night.",
+      "tr": "밤에 수사슴 한 마리가 길을 가로질러 뛰었어.",
+      "c": "수사슴은 stag라고도 한다. buck은 토끼 등 다른 동물의 수컷에도 쓴다.",
+      "ipa": "bʌk",
+      "pos": "n.",
+      "word": "buck",
+      "si": 2,
+      "sn": 2
+     }
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      8,
+      "words",
+      7
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "buck",
+      "ko": "① (구어) 달러, 불",
+      "ex": "That game costs only ten {{BLANK}}s online.",
+      "tr": "그 게임 온라인에서 겨우 10불이야.",
+      "c": "informal. dollar 대신 쓰는 구어. 숫자 뒤에 복수로 붙인다.",
+      "ipa": "bʌk",
+      "pos": "n.",
+      "word": "buck",
+      "si": 1,
+      "sn": 2,
+      "meow": "이 단어 하나에 1 buck, 1달러씩 받고 싶다고양."
+     }
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      8,
+      "words",
+      6
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "Israeli",
+      "ko": "① 이스라엘의, 이스라엘인의",
+      "ex": "We met an {{BLANK}} teacher at the museum.",
+      "tr": "우리 박물관에서 이스라엘 선생님을 만났어.",
+      "c": "대문자로 씀. 나라는 Israel, 사람과 형용사는 Israeli다.",
+      "ipa": "ɪzˈreɪli",
+      "pos": "adj.",
+      "word": "israeli",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      8,
       "preDeletion"
      ],
      "oldExists": false,
      "newExists": true,
      "new": [
       {
-       "word": "assistance",
+       "word": "solar",
        "si": 1
       },
       {
-       "word": "recover",
+       "word": "capable",
        "si": 1
       },
       {
-       "word": "recover",
+       "word": "scared",
+       "si": 1
+      },
+      {
+       "word": "supporter",
+       "si": 1
+      },
+      {
+       "word": "welfare",
+       "si": 1
+      },
+      {
+       "word": "spiritual",
+       "si": 1
+      },
+      {
+       "word": "israeli",
+       "si": 1
+      },
+      {
+       "word": "buck",
+       "si": 1
+      },
+      {
+       "word": "buck",
        "si": 2
       },
       {
-       "word": "therapy",
+       "word": "tech",
        "si": 1
       },
       {
-       "word": "killer",
+       "word": "detective",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      2,
+      "words",
+      1
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "Iraqi",
+      "ko": "① 이라크의, 이라크인의",
+      "ex": "My father once worked with an {{BLANK}} doctor.",
+      "tr": "우리 아빠는 예전에 이라크인 의사와 함께 일했어.",
+      "c": "대문자로 씀. Iraq+-i처럼 국적 형용사가 -i로 끝나기도 한다.",
+      "ipa": "ɪˈrɑki",
+      "pos": "adj.",
+      "word": "iraqi",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      2,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "awesome",
        "si": 1
       },
       {
-       "word": "column",
+       "word": "iraqi",
        "si": 1
       },
       {
-       "word": "column",
+       "word": "designer",
+       "si": 1
+      },
+      {
+       "word": "planning",
+       "si": 1
+      },
+      {
+       "word": "mode",
+       "si": 1
+      },
+      {
+       "word": "mode",
        "si": 2
       },
       {
-       "word": "column",
+       "word": "retire",
+       "si": 1
+      },
+      {
+       "word": "elsewhere",
+       "si": 1
+      },
+      {
+       "word": "scenario",
+       "si": 1
+      },
+      {
+       "word": "yell",
+       "si": 1
+      },
+      {
+       "word": "incredible",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      4,
+      "words",
+      5
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "twitter",
+      "ko": "① 지저귀다",
+      "ex": "Birds {{BLANK}} outside my window every morning.",
+      "tr": "새들이 아침마다 내 창밖에서 지저귀어.",
+      "c": "새가 높고 가는 소리로 지저귀다. 말소리를 가리키기도 한다.",
+      "ipa": "ˈtwɪtɚ",
+      "pos": "v.",
+      "word": "twitter",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      4,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "teen",
+       "si": 1
+      },
+      {
+       "word": "teen",
+       "si": 2
+      },
+      {
+       "word": "congressional",
+       "si": 1
+      },
+      {
+       "word": "license",
+       "si": 1
+      },
+      {
+       "word": "license",
+       "si": 2
+      },
+      {
+       "word": "twitter",
+       "si": 1
+      },
+      {
+       "word": "curriculum",
+       "si": 1
+      },
+      {
+       "word": "investigator",
+       "si": 1
+      },
+      {
+       "word": "virus",
+       "si": 1
+      },
+      {
+       "word": "virus",
+       "si": 2
+      },
+      {
+       "word": "hurricane",
+       "si": 1
+      },
+      {
+       "word": "communicate",
+       "si": 1
+      },
+      {
+       "word": "increasing",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      5,
+      "words",
+      2
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "mama",
+      "ko": "① 엄마",
+      "ex": "The baby called for his {{BLANK}} all night.",
+      "tr": "그 아기는 밤새 엄마를 불렀어.",
+      "c": "informal. 어린아이 말투. 부르는 말로 쓸 때는 대문자로 씀.",
+      "ipa": "ˈmɑmə",
+      "pos": "n.",
+      "word": "mama",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      5,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "fiction",
+       "si": 1
+      },
+      {
+       "word": "fiction",
+       "si": 2
+      },
+      {
+       "word": "mama",
+       "si": 1
+      },
+      {
+       "word": "pant",
+       "si": 1
+      },
+      {
+       "word": "pant",
+       "si": 2
+      },
+      {
+       "word": "criteria",
+       "si": 1
+      },
+      {
+       "word": "arab",
+       "si": 1
+      },
+      {
+       "word": "potentially",
+       "si": 1
+      },
+      {
+       "word": "assault",
+       "si": 1
+      },
+      {
+       "word": "assault",
+       "si": 2
+      },
+      {
+       "word": "math",
+       "si": 1
+      },
+      {
+       "word": "mood",
+       "si": 1
+      },
+      {
+       "word": "mood",
+       "si": 2
+      }
+     ]
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      8,
+      "words",
+      10
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "rep",
+      "ko": "① 대표, 담당자",
+      "ex": "Our class {{BLANK}} spoke to the teacher for us.",
+      "tr": "우리 반 대표가 우리를 대신해 선생님께 말했어.",
+      "c": "informal. representative의 줄임말. 판매원은 a sales rep.",
+      "ipa": "rɛp",
+      "pos": "n.",
+      "word": "rep",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      8,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "bureau",
+       "si": 1
+      },
+      {
+       "word": "wolf",
+       "si": 1
+      },
+      {
+       "word": "maker",
+       "si": 1
+      },
+      {
+       "word": "battery",
+       "si": 1
+      },
+      {
+       "word": "sake",
+       "si": 1
+      },
+      {
+       "word": "delivery",
+       "si": 1
+      },
+      {
+       "word": "delivery",
+       "si": 2
+      },
+      {
+       "word": "heavily",
+       "si": 1
+      },
+      {
+       "word": "junior",
+       "si": 1
+      },
+      {
+       "word": "junior",
+       "si": 2
+      },
+      {
+       "word": "rep",
+       "si": 1
+      },
+      {
+       "word": "lawsuit",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      5,
+      "words",
+      14
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "GOP",
+      "ko": "① (미국) 공화당",
+      "ex": "The {{BLANK}} won most seats in that state.",
+      "tr": "공화당이 그 주에서 의석 대부분을 차지했어.",
+      "c": "Grand Old Party의 약자. 모두 대문자로 씀. 공화당의 별칭.",
+      "ipa": "ˌdʒiˌoʊˈpi",
+      "pos": "n.",
+      "word": "gop",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      5,
+      "words",
+      1
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "quarterback",
+      "ko": "① 쿼터백",
+      "ex": "Their {{BLANK}} threw the ball fifty yards.",
+      "tr": "그쪽 쿼터백이 공을 50야드 던졌어.",
+      "c": "미식축구에서 공격을 이끄는 선수. 줄여서 QB.",
+      "ipa": "ˈkwɔrtɚbæk",
+      "pos": "n.",
+      "word": "quarterback",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      5,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "laboratory",
+       "si": 1
+      },
+      {
+       "word": "quarterback",
+       "si": 1
+      },
+      {
+       "word": "rocket",
+       "si": 1
+      },
+      {
+       "word": "rocket",
+       "si": 2
+      },
+      {
+       "word": "highlight",
+       "si": 1
+      },
+      {
+       "word": "highlight",
+       "si": 2
+      },
+      {
+       "word": "fighter",
+       "si": 1
+      },
+      {
+       "word": "fighter",
+       "si": 2
+      },
+      {
+       "word": "armed",
+       "si": 1
+      },
+      {
+       "word": "correspondent",
+       "si": 1
+      },
+      {
+       "word": "testify",
+       "si": 1
+      },
+      {
+       "word": "qualify",
+       "si": 1
+      },
+      {
+       "word": "qualify",
+       "si": 2
+      },
+      {
+       "word": "qualify",
        "si": 3
       },
       {
-       "word": "golf",
+       "word": "gop",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      6,
+      "words",
+      2
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "Palestinian",
+      "ko": "① 팔레스타인의, 팔레스타인인의",
+      "ex": "He met a {{BLANK}} student at camp.",
+      "tr": "걔는 캠프에서 팔레스타인 학생을 만났어.",
+      "c": "항상 대문자로 씀. Palestine+-ian. 사람·형용사 둘 다.",
+      "ipa": "ˌpæləˈstɪniən",
+      "pos": "adj.",
+      "word": "palestinian",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      6,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "versus",
        "si": 1
       },
       {
-       "word": "pregnant",
+       "word": "chef",
        "si": 1
       },
       {
-       "word": "unable",
+       "word": "palestinian",
        "si": 1
       },
       {
-       "word": "suicide",
+       "word": "fiscal",
        "si": 1
       },
       {
-       "word": "deficit",
+       "word": "creek",
+       "si": 1
+      },
+      {
+       "word": "hip",
+       "si": 1
+      },
+      {
+       "word": "terrorism",
+       "si": 1
+      },
+      {
+       "word": "refugee",
+       "si": 1
+      },
+      {
+       "word": "fraud",
+       "si": 1
+      },
+      {
+       "word": "fraud",
+       "si": 2
+      },
+      {
+       "word": "limitation",
        "si": 1
       }
      ]
@@ -2885,19 +1614,19 @@
       "exercises",
       1,
       "words",
-      4
+      9
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "adviser",
-      "ko": "① 조언자, 고문",
-      "ex": "The president's top {{BLANK}} is on the news tonight.",
-      "tr": "대통령의 최고 고문이 오늘 밤 뉴스에 나와.",
-      "c": "advise(조언하다)+-er. advisor로도 쓴다. advice와 철자 구별.",
-      "ipa": "ədˈvaɪzɚ",
+      "en": "acre",
+      "ko": "① 에이커(넓이 단위)",
+      "ex": "His farm covers about ten {{BLANK}}s of land.",
+      "tr": "걔네 농장은 땅 10에이커쯤 돼.",
+      "c": "약 4,047㎡.",
+      "ipa": "ˈeɪkɚ",
       "pos": "n.",
-      "word": "adviser",
+      "word": "acre",
       "si": 1,
       "sn": 1
      }
@@ -2966,228 +1695,121 @@
      "path": [
       28,
       "exercises",
-      2,
+      8,
       "words",
-      5
+      11
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "odds",
-      "ko": "② 역경, 불리한 조건",
-      "ex": "She won against all {{BLANK}}.",
-      "tr": "걔는 온갖 역경을 딛고 이겼어.",
-      "c": "against (all) the odds: 불리함을 무릅쓰고.",
-      "ipa": "ɑdz",
-      "pos": "n.",
-      "word": "odds",
-      "si": 2,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      28,
-      "exercises",
-      2,
-      "words",
-      4
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "odds",
-      "ko": "① 가능성, 확률",
-      "ex": "The {{BLANK}} of rain today are pretty high.",
-      "tr": "오늘 비 올 공산이 꽤 높아.",
-      "c": "늘 복수 취급. The odds are that ~(아마 ~일 것이다).",
-      "ipa": "ɑdz",
-      "pos": "n.",
-      "word": "odds",
-      "si": 1,
-      "sn": 2,
-      "meow": "네가 이번에 맞힐 odds, 확률은 낮다고양."
-     }
-    },
-    {
-     "path": [
-      28,
-      "exercises",
-      2,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "newly",
-       "si": 1
-      },
-      {
-       "word": "scandal",
-       "si": 1
-      },
-      {
-       "word": "bench",
-       "si": 1
-      },
-      {
-       "word": "bench",
-       "si": 2
-      },
-      {
-       "word": "odds",
-       "si": 1
-      },
-      {
-       "word": "odds",
-       "si": 2
-      },
-      {
-       "word": "horror",
-       "si": 1
-      },
-      {
-       "word": "horror",
-       "si": 2
-      },
-      {
-       "word": "prevention",
-       "si": 1
-      },
-      {
-       "word": "ban",
-       "si": 1
-      },
-      {
-       "word": "ban",
-       "si": 2
-      },
-      {
-       "word": "badly",
-       "si": 1
-      },
-      {
-       "word": "badly",
-       "si": 2
-      },
-      {
-       "word": "implementation",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      28,
-      "exercises",
-      3,
-      "words",
-      1
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "legitimate",
-      "ko": "② 정당한, 타당한",
-      "ex": "You have a {{BLANK}} reason to be angry.",
-      "tr": "네가 화날 만한 정당한 이유가 있어.",
-      "c": "a legitimate reason[question]처럼 '납득할 만한'의 뜻.",
-      "ipa": "lɪˈdʒɪtəmət",
+      "en": "Olympic",
+      "ko": "① 올림픽의",
+      "ex": "She dreams of joining the {{BLANK}} team.",
+      "tr": "걔는 올림픽 대표팀에 들어가는 걸 꿈꿔.",
+      "c": "항상 대문자로 씀. 대회 자체는 the Olympics로 복수형.",
+      "ipa": "əˈlɪmpɪk",
       "pos": "adj.",
-      "word": "legitimate",
-      "si": 2,
-      "sn": 2
+      "word": "olympic",
+      "si": 1,
+      "sn": 1
      }
     },
     {
      "path": [
       28,
       "exercises",
-      3,
+      8,
       "words",
-      0
+      8
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "legitimate",
-      "ko": "① 합법적인",
-      "ex": "Is this shop a {{BLANK}} business?",
-      "tr": "이 가게 적법한 업체 맞아?",
-      "c": "법이나 규칙에 맞는. 반대말은 illegitimate. a legitimate business는 합법적인 사업체.",
-      "ipa": "lɪˈdʒɪtəmət",
-      "pos": "adj.",
-      "word": "legitimate",
+      "en": "auto",
+      "ko": "① 자동차",
+      "ex": "His father works at an {{BLANK}} factory.",
+      "tr": "걔네 아버지는 자동차 공장에서 일하셔.",
+      "c": "automobile의 준말. 주로 명사 앞에서 '자동차의' 뜻으로.",
+      "ipa": "ˈɔtoʊ",
+      "pos": "n.",
+      "word": "auto",
       "si": 1,
-      "sn": 2
+      "sn": 1
      }
     },
     {
      "path": [
       28,
       "exercises",
-      3,
+      8,
       "preDeletion"
      ],
      "oldExists": false,
      "newExists": true,
      "new": [
       {
-       "word": "legitimate",
+       "word": "boom",
        "si": 1
       },
       {
-       "word": "legitimate",
+       "word": "boom",
        "si": 2
       },
       {
-       "word": "desperate",
+       "word": "boom",
+       "si": 3
+      },
+      {
+       "word": "restriction",
        "si": 1
       },
       {
-       "word": "desperate",
+       "word": "fake",
+       "si": 1
+      },
+      {
+       "word": "fake",
        "si": 2
       },
       {
-       "word": "politically",
+       "word": "fake",
+       "si": 3
+      },
+      {
+       "word": "playoff",
        "si": 1
       },
       {
-       "word": "feedback",
+       "word": "auto",
        "si": 1
       },
       {
-       "word": "italian",
+       "word": "headquarters",
        "si": 1
       },
       {
-       "word": "italian",
+       "word": "rip",
+       "si": 1
+      },
+      {
+       "word": "olympic",
+       "si": 1
+      },
+      {
+       "word": "celebration",
+       "si": 1
+      },
+      {
+       "word": "handful",
+       "si": 1
+      },
+      {
+       "word": "handful",
        "si": 2
       },
       {
-       "word": "detailed",
-       "si": 1
-      },
-      {
-       "word": "buyer",
-       "si": 1
-      },
-      {
-       "word": "incredibly",
-       "si": 1
-      },
-      {
-       "word": "incredibly",
-       "si": 2
-      },
-      {
-       "word": "killing",
-       "si": 1
-      },
-      {
-       "word": "sue",
-       "si": 1
+       "word": "handful",
+       "si": 3
       }
      ]
     },
@@ -3195,127 +1817,21 @@
      "path": [
       29,
       "exercises",
-      1,
+      4,
       "words",
-      5
+      11
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "integrity",
-      "ko": "② 온전함, 완전한 상태",
-      "ex": "The fire damaged the bridge's structural {{BLANK}}.",
-      "tr": "화재가 다리 구조의 온전성을 훼손했어.",
-      "c": "structural integrity: 구조가 무너지지 않고 버틸 수 있는 온전성.",
-      "ipa": "ɪnˈtɛɡrɪti",
+      "en": "touchdown",
+      "ko": "① 터치다운(미식축구 득점)",
+      "ex": "That {{BLANK}} won the game for us.",
+      "tr": "그 터치다운 덕분에 우리가 경기를 이겼어.",
+      "c": "touch+down. 미식축구에서 6점을 얻는 득점이다.",
+      "ipa": "ˈtʌtʃˌdaʊn",
       "pos": "n.",
-      "word": "integrity",
-      "si": 2,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      29,
-      "exercises",
-      1,
-      "words",
-      4
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "integrity",
-      "ko": "① 진실성, 청렴결백",
-      "ex": "Our coach is a man of great {{BLANK}}.",
-      "tr": "우리 코치님은 청렴결백하고 강직한 분이야.",
-      "c": "a person of integrity: 정직하고 원칙을 지키는 사람. 셀 수 없는 명사.",
-      "ipa": "ɪnˈtɛɡrɪti",
-      "pos": "n.",
-      "word": "integrity",
-      "si": 1,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      29,
-      "exercises",
-      1,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "vaccine",
-       "si": 1
-      },
-      {
-       "word": "bull",
-       "si": 1
-      },
-      {
-       "word": "lens",
-       "si": 1
-      },
-      {
-       "word": "presidency",
-       "si": 1
-      },
-      {
-       "word": "integrity",
-       "si": 1
-      },
-      {
-       "word": "integrity",
-       "si": 2
-      },
-      {
-       "word": "intelligent",
-       "si": 1
-      },
-      {
-       "word": "nomination",
-       "si": 1
-      },
-      {
-       "word": "meaningful",
-       "si": 1
-      },
-      {
-       "word": "communist",
-       "si": 1
-      },
-      {
-       "word": "communist",
-       "si": 2
-      },
-      {
-       "word": "doctrine",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      29,
-      "exercises",
-      7,
-      "words",
-      6
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "transformation",
-      "ko": "① 변화, 변신",
-      "ex": "His {{BLANK}} after the summer was amazing.",
-      "tr": "여름이 지난 뒤 걔의 변신은 놀라웠어.",
-      "c": "transform(바꾸다)+ation. change보다 크고 완전한 변화다.",
-      "ipa": "ˌtrænsfɚˈmeɪʃən",
-      "pos": "n.",
-      "word": "transformation",
+      "word": "touchdown",
       "si": 1,
       "sn": 1
      }
@@ -3324,63 +1840,268 @@
      "path": [
       29,
       "exercises",
-      7,
+      4,
       "preDeletion"
      ],
      "oldExists": false,
      "newExists": true,
      "new": [
       {
-       "word": "princess",
+       "word": "gospel",
        "si": 1
       },
       {
-       "word": "blanket",
-       "si": 1
-      },
-      {
-       "word": "bug",
-       "si": 1
-      },
-      {
-       "word": "bug",
+       "word": "gospel",
        "si": 2
       },
       {
-       "word": "bug",
+       "word": "fighting",
+       "si": 1
+      },
+      {
+       "word": "beast",
+       "si": 1
+      },
+      {
+       "word": "corruption",
+       "si": 1
+      },
+      {
+       "word": "greatly",
+       "si": 1
+      },
+      {
+       "word": "workshop",
+       "si": 1
+      },
+      {
+       "word": "workshop",
+       "si": 2
+      },
+      {
+       "word": "rifle",
+       "si": 1
+      },
+      {
+       "word": "closet",
+       "si": 1
+      },
+      {
+       "word": "reporting",
+       "si": 1
+      },
+      {
+       "word": "touchdown",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      29,
+      "exercises",
+      5,
+      "words",
+      11
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "Doc",
+      "ko": "① 의사 선생님",
+      "ex": "Thanks, {{BLANK}}, I feel much better now.",
+      "tr": "고마워요, 선생님, 이제 훨씬 나아요.",
+      "c": "informal. doctor의 줄임말. 부를 때는 Doc처럼 대문자로 씀.",
+      "ipa": "dɑk",
+      "pos": "n.",
+      "word": "doc",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      29,
+      "exercises",
+      5,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "experimental",
+       "si": 1
+      },
+      {
+       "word": "hunter",
+       "si": 1
+      },
+      {
+       "word": "tunnel",
+       "si": 1
+      },
+      {
+       "word": "corps",
+       "si": 1
+      },
+      {
+       "word": "attribute",
+       "si": 1
+      },
+      {
+       "word": "attribute",
+       "si": 2
+      },
+      {
+       "word": "attribute",
        "si": 3
       },
       {
-       "word": "nominee",
+       "word": "elderly",
        "si": 1
       },
       {
-       "word": "transformation",
+       "word": "minimum",
        "si": 1
       },
       {
-       "word": "changing",
-       "si": 1
-      },
-      {
-       "word": "pollution",
-       "si": 1
-      },
-      {
-       "word": "poster",
-       "si": 1
-      },
-      {
-       "word": "nonprofit",
-       "si": 1
-      },
-      {
-       "word": "nonprofit",
+       "word": "minimum",
        "si": 2
       },
       {
-       "word": "lemon",
+       "word": "weakness",
        "si": 1
+      },
+      {
+       "word": "doc",
+       "si": 1
+      },
+      {
+       "word": "medium",
+       "si": 1
+      },
+      {
+       "word": "medium",
+       "si": 2
+      }
+     ]
+    },
+    {
+     "path": [
+      29,
+      "exercises",
+      6,
+      "words",
+      2
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "ounce",
+      "word": "ounce",
+      "ko": "② 액량 온스, 액체 부피 단위",
+      "ex": "This bottle holds twelve {{BLANK}}s of water.",
+      "tr": "이 병에는 물이 액량 12온스 들어가.",
+      "c": "fluid ounce는 액체 부피 단위. 무게 단위인 ounce와 구별한다.",
+      "ipa": "aʊns",
+      "pos": "n.",
+      "si": 2,
+      "sn": 2
+     }
+    },
+    {
+     "path": [
+      29,
+      "exercises",
+      6,
+      "words",
+      1
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "ounce",
+      "ko": "① 온스(무게 단위)",
+      "ex": "The chocolate bar weighs three {{BLANK}}s.",
+      "tr": "이 초콜릿 바는 무게가 3온스야.",
+      "c": "무게 1온스는 약 28그램. 줄임말 oz. 액체 부피를 재는 fluid ounce와 구별.",
+      "ipa": "aʊns",
+      "pos": "n.",
+      "word": "ounce",
+      "si": 1,
+      "sn": 2
+     }
+    },
+    {
+     "path": [
+      29,
+      "exercises",
+      6,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "virtue",
+       "si": 1
+      },
+      {
+       "word": "ounce",
+       "si": 1
+      },
+      {
+       "word": "ounce",
+       "si": 2
+      },
+      {
+       "word": "athletic",
+       "si": 1
+      },
+      {
+       "word": "legislative",
+       "si": 1
+      },
+      {
+       "word": "summit",
+       "si": 1
+      },
+      {
+       "word": "summit",
+       "si": 2
+      },
+      {
+       "word": "telescope",
+       "si": 1
+      },
+      {
+       "word": "dose",
+       "si": 1
+      },
+      {
+       "word": "adoption",
+       "si": 1
+      },
+      {
+       "word": "adoption",
+       "si": 2
+      },
+      {
+       "word": "lawn",
+       "si": 1
+      },
+      {
+       "word": "absorb",
+       "si": 1
+      },
+      {
+       "word": "absorb",
+       "si": 2
+      },
+      {
+       "word": "absorb",
+       "si": 3
       }
      ]
     },
@@ -3390,19 +2111,19 @@
       "exercises",
       3,
       "words",
-      0
+      12
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "essence",
-      "ko": "① 본질",
-      "ex": "In {{BLANK}}, he just wants more free time.",
-      "tr": "본질적으로 걔는 그냥 자유 시간을 더 원하는 거야.",
-      "c": "in essence는 ‘본질적으로’. essential에는 ‘필수적인’ 외에 ‘본질적인’이라는 뜻도 있다.",
-      "ipa": "ˈɛsəns",
+      "en": "mommy",
+      "ko": "① 엄마(어린아이 말)",
+      "ex": "The little boy called for his {{BLANK}}.",
+      "tr": "그 어린 남자애가 엄마를 불렀어.",
+      "c": "어린아이 말. 부르는 말로 쓸 땐 대문자로 씀. 영국은 mummy.",
+      "ipa": "ˈmɑmi",
       "pos": "n.",
-      "word": "essence",
+      "word": "mommy",
       "si": 1,
       "sn": 1
      }
@@ -3477,174 +2198,102 @@
     },
     {
      "path": [
-      30,
+      32,
       "exercises",
-      4,
+      2,
       "words",
-      7
+      6
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "stimulus",
-      "ko": "① 자극",
-      "ex": "Loud noise is a strong {{BLANK}} for dogs.",
-      "tr": "큰 소리는 개들한테 강한 자극이야.",
-      "c": "복수는 stimuli[스티뮬라이]. 동사는 stimulate(자극하다)다.",
-      "ipa": "ˈstɪmjələs",
+      "en": "Iranian",
+      "ko": "① 이란의, 이란인의",
+      "ex": "My {{BLANK}} friend taught me a few words.",
+      "tr": "이란 사람인 내 친구가 나에게 몇 마디를 가르쳐 줬어.",
+      "c": "항상 대문자로 씀. Iran+ian.",
+      "ipa": "ɪˈreɪniən",
+      "pos": "adj.",
+      "word": "iranian",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      32,
+      "exercises",
+      2,
+      "words",
+      4
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "info",
+      "ko": "① 정보",
+      "ex": "Send me more {{BLANK}} about the club meeting.",
+      "tr": "동아리 모임에 대한 정보를 더 보내 줘.",
+      "c": "information의 줄임말이라 informal. 셀 수 없어 infos는 틀림.",
+      "ipa": "ˈɪnfoʊ",
       "pos": "n.",
-      "word": "stimulus",
+      "word": "info",
       "si": 1,
       "sn": 1
      }
     },
     {
      "path": [
-      30,
+      32,
       "exercises",
-      4,
+      2,
       "preDeletion"
      ],
      "oldExists": false,
      "newExists": true,
      "new": [
       {
-       "word": "shrug",
+       "word": "suspicion",
        "si": 1
       },
       {
-       "word": "dragon",
+       "word": "icon",
        "si": 1
       },
       {
-       "word": "pastor",
-       "si": 1
-      },
-      {
-       "word": "tackle",
-       "si": 1
-      },
-      {
-       "word": "tackle",
+       "word": "icon",
        "si": 2
       },
       {
-       "word": "occupation",
+       "word": "grandma",
        "si": 1
       },
       {
-       "word": "occupation",
-       "si": 2
-      },
-      {
-       "word": "stimulus",
+       "word": "info",
        "si": 1
       },
       {
-       "word": "kit",
+       "word": "jurisdiction",
        "si": 1
       },
       {
-       "word": "surprisingly",
+       "word": "iranian",
        "si": 1
       },
       {
-       "word": "correctly",
+       "word": "parade",
        "si": 1
       },
       {
-       "word": "shared",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      30,
-      "exercises",
-      7,
-      "words",
-      13
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "virtually",
-      "word": "virtually",
-      "ko": "① 거의, 사실상",
-      "ex": "The two copies are {{BLANK}} identical.",
-      "tr": "두 사본은 거의 똑같아.",
-      "c": "아주 작은 차이를 빼면 사실상 같다는 뜻. 여기서는 ‘가상으로’가 아니야.",
-      "ipa": "ˈvɝtʃuəli",
-      "pos": "adv.",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      30,
-      "exercises",
-      7,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "cope",
+       "word": "gifted",
        "si": 1
       },
       {
-       "word": "spill",
+       "word": "rage",
        "si": 1
       },
       {
-       "word": "spill",
-       "si": 2
-      },
-      {
-       "word": "trading",
-       "si": 1
-      },
-      {
-       "word": "revelation",
-       "si": 1
-      },
-      {
-       "word": "indicator",
-       "si": 1
-      },
-      {
-       "word": "rhetoric",
-       "si": 1
-      },
-      {
-       "word": "slam",
-       "si": 1
-      },
-      {
-       "word": "slam",
-       "si": 2
-      },
-      {
-       "word": "convict",
-       "si": 1
-      },
-      {
-       "word": "convict",
-       "si": 2
-      },
-      {
-       "word": "practically",
-       "si": 1
-      },
-      {
-       "word": "practically",
-       "si": 2
-      },
-      {
-       "word": "virtually",
+       "word": "ending",
        "si": 1
       }
      ]
@@ -3652,6 +2301,325 @@
     {
      "path": [
       32,
+      "exercises",
+      4,
+      "words",
+      12
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "alright",
+      "ko": "② 좋아, 알았어",
+      "ex": "{{BLANK}}, let's meet in front of the gym.",
+      "tr": "좋아, 체육관 앞에서 만나자.",
+      "c": "동의하며 말을 꺼낼 때 문장 맨 앞에 쓴다. informal.",
+      "ipa": "ɔlˈraɪt",
+      "pos": "int.",
+      "word": "alright",
+      "si": 2,
+      "sn": 2
+     }
+    },
+    {
+     "path": [
+      32,
+      "exercises",
+      4,
+      "words",
+      11
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "alright",
+      "ko": "① 괜찮은, 무사한",
+      "ex": "Are you {{BLANK}} after that bike accident?",
+      "tr": "그 자전거 사고 뒤에 너 괜찮아?",
+      "c": "all right의 다른 철자. 둘 다 ‘괜찮은’이라는 뜻. 격식 있는 글에서는 보통 all right를 쓴다.",
+      "ipa": "ɔlˈraɪt",
+      "pos": "adj.",
+      "word": "alright",
+      "si": 1,
+      "sn": 2
+     }
+    },
+    {
+     "path": [
+      32,
+      "exercises",
+      4,
+      "words",
+      8
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "kinda",
+      "ko": "① 좀, 약간",
+      "ex": "I'm {{BLANK}} tired after that long test.",
+      "tr": "그 긴 시험 끝나고 나니 좀 피곤해.",
+      "c": "kind of의 구어체 발음을 적은 철자. 격식 있는 글에서는 ‘좀·약간’이라는 뜻에 somewhat 등을 쓴다.",
+      "ipa": "ˈkaɪndə",
+      "pos": "adv.",
+      "word": "kinda",
+      "si": 1,
+      "sn": 1,
+      "meow": "kinda, 좀 아쉽다고양. 좀이 아니라 많이고양."
+     }
+    },
+    {
+     "path": [
+      32,
+      "exercises",
+      4,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "backup",
+       "si": 1
+      },
+      {
+       "word": "backup",
+       "si": 2
+      },
+      {
+       "word": "export",
+       "si": 1
+      },
+      {
+       "word": "export",
+       "si": 2
+      },
+      {
+       "word": "disclose",
+       "si": 1
+      },
+      {
+       "word": "pal",
+       "si": 1
+      },
+      {
+       "word": "chuckle",
+       "si": 1
+      },
+      {
+       "word": "correction",
+       "si": 1
+      },
+      {
+       "word": "kinda",
+       "si": 1
+      },
+      {
+       "word": "teammate",
+       "si": 1
+      },
+      {
+       "word": "corridor",
+       "si": 1
+      },
+      {
+       "word": "alright",
+       "si": 1
+      },
+      {
+       "word": "alright",
+       "si": 2
+      }
+     ]
+    },
+    {
+     "path": [
+      33,
+      "exercises",
+      3,
+      "words",
+      6
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "darling",
+      "ko": "① (애칭) 달링, 여보",
+      "ex": "Good night, {{BLANK}}, sleep well.",
+      "tr": "잘 자, 달링, 푹 자렴.",
+      "c": "가족·연인끼리 쓰는 애칭. 처음 본 사람에게는 안 쓴다.",
+      "ipa": "ˈdɑrlɪŋ",
+      "pos": "n.",
+      "word": "darling",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      33,
+      "exercises",
+      3,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "pond",
+       "si": 1
+      },
+      {
+       "word": "cartoon",
+       "si": 1
+      },
+      {
+       "word": "authorize",
+       "si": 1
+      },
+      {
+       "word": "combined",
+       "si": 1
+      },
+      {
+       "word": "graphic",
+       "si": 1
+      },
+      {
+       "word": "graphic",
+       "si": 2
+      },
+      {
+       "word": "darling",
+       "si": 1
+      },
+      {
+       "word": "traditionally",
+       "si": 1
+      },
+      {
+       "word": "vendor",
+       "si": 1
+      },
+      {
+       "word": "opt",
+       "si": 1
+      },
+      {
+       "word": "firmly",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      33,
+      "exercises",
+      8,
+      "words",
+      11
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "babe",
+      "ko": "① (연인끼리) 자기야",
+      "ex": "Call me later, {{BLANK}}, I have to go.",
+      "tr": "나중에 전화해, 자기야, 나 가야 해.",
+      "c": "informal. 연인끼리 쓰는 말이라 모르는 사람에겐 무례하다.",
+      "ipa": "beɪb",
+      "pos": "n.",
+      "word": "babe",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      33,
+      "exercises",
+      8,
+      "words",
+      7
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "gallon",
+      "ko": "① 갤런(약 3.8리터)",
+      "ex": "Dad bought two {{BLANK}}s of milk at the store.",
+      "tr": "아빠가 가게에서 우유 두 갤런을 사 오셨어.",
+      "c": "부피 단위로 미국 1갤런은 약 3.8리터, 영국식 1갤런은 약 4.5리터다.",
+      "ipa": "ˈɡælən",
+      "pos": "n.",
+      "word": "gallon",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      33,
+      "exercises",
+      8,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "businessman",
+       "si": 1
+      },
+      {
+       "word": "retailer",
+       "si": 1
+      },
+      {
+       "word": "liver",
+       "si": 1
+      },
+      {
+       "word": "pirate",
+       "si": 1
+      },
+      {
+       "word": "protester",
+       "si": 1
+      },
+      {
+       "word": "elder",
+       "si": 1
+      },
+      {
+       "word": "elder",
+       "si": 2
+      },
+      {
+       "word": "gallon",
+       "si": 1
+      },
+      {
+       "word": "sometime",
+       "si": 1
+      },
+      {
+       "word": "weed",
+       "si": 1
+      },
+      {
+       "word": "weed",
+       "si": 2
+      },
+      {
+       "word": "babe",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      34,
       "exercises",
       7,
       "words",
@@ -3660,21 +2628,21 @@
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "questionnaire",
-      "ko": "① 설문지",
-      "ex": "Please fill out this short {{BLANK}} about lunch.",
-      "tr": "점심에 관한 이 짧은 설문지를 작성해 주세요.",
-      "c": "fill out a questionnaire(설문지를 작성하다). n을 두 번 쓴다.",
-      "ipa": "ˌkwɛstʃəˈnɛr",
-      "pos": "n.",
-      "word": "questionnaire",
+      "en": "Syrian",
+      "ko": "① 시리아의, 시리아인의",
+      "ex": "A {{BLANK}} family moved into our building.",
+      "tr": "시리아 가족이 우리 건물로 이사 왔어.",
+      "c": "대문자로 씀. 나라 이름 Syria에 -n을 붙인 국적 형용사다.",
+      "ipa": "ˈsɪriən",
+      "pos": "adj.",
+      "word": "syrian",
       "si": 1,
       "sn": 1
      }
     },
     {
      "path": [
-      32,
+      34,
       "exercises",
       7,
       "preDeletion"
@@ -3683,509 +2651,70 @@
      "newExists": true,
      "new": [
       {
-       "word": "objection",
+       "word": "re-election",
        "si": 1
       },
       {
-       "word": "shove",
+       "word": "disappointment",
        "si": 1
       },
       {
-       "word": "revolutionary",
+       "word": "listener",
        "si": 1
       },
       {
-       "word": "reportedly",
+       "word": "developmental",
        "si": 1
       },
       {
-       "word": "resume",
+       "word": "socially",
        "si": 1
       },
       {
-       "word": "resume",
+       "word": "solo",
+       "si": 1
+      },
+      {
+       "word": "solo",
        "si": 2
       },
       {
-       "word": "carpet",
+       "word": "trainer",
        "si": 1
       },
       {
-       "word": "interior",
+       "word": "anytime",
        "si": 1
       },
       {
-       "word": "interior",
-       "si": 2
-      },
-      {
-       "word": "full-time",
+       "word": "morality",
        "si": 1
       },
       {
-       "word": "questionnaire",
-       "si": 1
-      },
-      {
-       "word": "behalf",
+       "word": "syrian",
        "si": 1
       }
      ]
     },
     {
      "path": [
-      32,
+      34,
       "exercises",
       8,
-      "words",
-      9
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "electoral",
-      "ko": "① 선거의",
-      "ex": "The {{BLANK}} rules changed before the last vote.",
-      "tr": "지난 투표 전에 선거 규칙이 바뀌었어.",
-      "c": "elect(선출하다)에서 온 말. electoral system(선거 제도).",
-      "ipa": "ɪˈlɛktərəl",
-      "pos": "adj.",
-      "word": "electoral",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      32,
-      "exercises",
-      8,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "graph",
-       "si": 1
-      },
-      {
-       "word": "diplomatic",
-       "si": 1
-      },
-      {
-       "word": "diplomatic",
-       "si": 2
-      },
-      {
-       "word": "herb",
-       "si": 1
-      },
-      {
-       "word": "subsidy",
-       "si": 1
-      },
-      {
-       "word": "patrol",
-       "si": 1
-      },
-      {
-       "word": "patrol",
-       "si": 2
-      },
-      {
-       "word": "pulse",
-       "si": 1
-      },
-      {
-       "word": "continuing",
-       "si": 1
-      },
-      {
-       "word": "electoral",
-       "si": 1
-      },
-      {
-       "word": "dignity",
-       "si": 1
-      },
-      {
-       "word": "prophet",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      33,
-      "exercises",
-      0,
-      "words",
-      7
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "tragic",
-      "ko": "① 비극적인, 참혹한",
-      "ex": "The movie about the fire had a {{BLANK}} ending.",
-      "tr": "그 화재를 다룬 영화는 결말이 비극적이었어.",
-      "c": "tragedy(비극)의 형용사. 죽음·큰 불행에 쓴다.",
-      "ipa": "ˈtrædʒɪk",
-      "pos": "adj.",
-      "word": "tragic",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      33,
-      "exercises",
-      0,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "pickup",
-       "si": 1
-      },
-      {
-       "word": "pickup",
-       "si": 2
-      },
-      {
-       "word": "shuttle",
-       "si": 1
-      },
-      {
-       "word": "shuttle",
-       "si": 2
-      },
-      {
-       "word": "improved",
-       "si": 1
-      },
-      {
-       "word": "innovative",
-       "si": 1
-      },
-      {
-       "word": "unfair",
-       "si": 1
-      },
-      {
-       "word": "tragic",
-       "si": 1
-      },
-      {
-       "word": "comprise",
-       "si": 1
-      },
-      {
-       "word": "faster",
-       "si": 1
-      },
-      {
-       "word": "mentor",
-       "si": 1
-      },
-      {
-       "word": "stance",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      33,
-      "exercises",
-      1,
-      "words",
-      4
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "likelihood",
-      "ko": "① 가능성, 개연성",
-      "ex": "There's little {{BLANK}} of snow this week.",
-      "tr": "이번 주에 눈이 올 가능성은 거의 없어.",
-      "c": "likely(있음 직한)+-hood. the likelihood of ~.",
-      "ipa": "ˈlaɪklihʊd",
-      "pos": "n.",
-      "word": "likelihood",
-      "si": 1,
-      "sn": 1,
-      "savedId": "[\"33세트\",\"Exercise 2 · 3194~3203\",\"likelihood\",1,\"\"]"
-     }
-    },
-    {
-     "path": [
-      33,
-      "exercises",
-      1,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "contributor",
-       "si": 1
-      },
-      {
-       "word": "disk",
-       "si": 1
-      },
-      {
-       "word": "disk",
-       "si": 2
-      },
-      {
-       "word": "compel",
-       "si": 1
-      },
-      {
-       "word": "likelihood",
-       "si": 1
-      },
-      {
-       "word": "sibling",
-       "si": 1
-      },
-      {
-       "word": "gorgeous",
-       "si": 1
-      },
-      {
-       "word": "undertake",
-       "si": 1
-      },
-      {
-       "word": "painter",
-       "si": 1
-      },
-      {
-       "word": "painter",
-       "si": 2
-      },
-      {
-       "word": "counterpart",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      33,
-      "exercises",
-      6,
       "words",
       8
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "minimal",
-      "ko": "① 최소한의, 아주 적은",
-      "ex": "The damage to my bike was {{BLANK}}.",
-      "tr": "내 자전거는 손상이 최소한에 그쳤어.",
-      "c": "아주 적거나 최소한이라는 뜻. with minimal effort(최소한의 노력으로).",
-      "ipa": "ˈmɪnəməl",
-      "pos": "adj.",
-      "word": "minimal",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      33,
-      "exercises",
-      6,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "jar",
-       "si": 1
-      },
-      {
-       "word": "programming",
-       "si": 1
-      },
-      {
-       "word": "dawn",
-       "si": 1
-      },
-      {
-       "word": "dawn",
-       "si": 2
-      },
-      {
-       "word": "dawn",
-       "si": 3
-      },
-      {
-       "word": "salmon",
-       "si": 1
-      },
-      {
-       "word": "census",
-       "si": 1
-      },
-      {
-       "word": "fortunately",
-       "si": 1
-      },
-      {
-       "word": "minimal",
-       "si": 1
-      },
-      {
-       "word": "supportive",
-       "si": 1
-      },
-      {
-       "word": "sole",
-       "si": 1
-      },
-      {
-       "word": "sole",
-       "si": 2
-      },
-      {
-       "word": "threshold",
-       "si": 1
-      },
-      {
-       "word": "threshold",
-       "si": 2
-      }
-     ]
-    },
-    {
-     "path": [
-      34,
-      "exercises",
-      6,
-      "words",
-      3
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "brutal",
-      "ko": "② (날씨·일이) 혹독한",
-      "ex": "Last week's math test was totally {{BLANK}}.",
-      "tr": "지난주 수학 시험은 진짜 살인적이었어.",
-      "c": "informal. 시험이나 더위처럼 견디기 힘든 것에 과장해서 쓴다.",
-      "ipa": "ˈbrutəl",
-      "pos": "adj.",
-      "word": "brutal",
-      "si": 2,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      34,
-      "exercises",
-      6,
-      "words",
-      2
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "brutal",
-      "ko": "① 잔인한, 잔혹한",
-      "ex": "The film shows a {{BLANK}} war scene.",
-      "tr": "그 영화는 잔혹한 전쟁 장면을 보여 줘.",
-      "c": "brute(짐승)+-al. 사람이나 행동이 짐승처럼 사납다는 뜻이다.",
-      "ipa": "ˈbrutəl",
-      "pos": "adj.",
-      "word": "brutal",
-      "si": 1,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      34,
-      "exercises",
-      6,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "magical",
-       "si": 1
-      },
-      {
-       "word": "throne",
-       "si": 1
-      },
-      {
-       "word": "brutal",
-       "si": 1
-      },
-      {
-       "word": "brutal",
-       "si": 2
-      },
-      {
-       "word": "propaganda",
-       "si": 1
-      },
-      {
-       "word": "irony",
-       "si": 1
-      },
-      {
-       "word": "soda",
-       "si": 1
-      },
-      {
-       "word": "dutch",
-       "si": 1
-      },
-      {
-       "word": "parental",
-       "si": 1
-      },
-      {
-       "word": "disabled",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      34,
-      "exercises",
-      8,
-      "words",
-      4
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "interface",
-      "ko": "① (컴퓨터) 인터페이스, 접속 화면",
-      "ex": "The new app has a very clean {{BLANK}}.",
-      "tr": "그 새 앱은 인터페이스가 아주 깔끔해.",
-      "c": "inter-(사이)+face(면). 사람과 기계가 만나는 접점을 뜻한다.",
-      "ipa": "ˈɪntɚfeɪs",
-      "pos": "n.",
-      "word": "interface",
+      "en": "thou",
+      "ko": "① 너 (고어)",
+      "ex": "In old poems, '{{BLANK}} art' means 'you are'.",
+      "tr": "옛 시에서 'thou art'는 'you are'라는 뜻이야.",
+      "c": "옛 글에서 쓰는 2인칭 단수 주격. 목적격은 thee, 소유격은 thy. 성경의 옛 번역과 셰익스피어 작품에서 만난다.",
+      "ipa": "ðaʊ",
+      "pos": "pron.",
+      "word": "thou",
       "si": 1,
       "sn": 1
      }
@@ -4248,25 +2777,712 @@
     },
     {
      "path": [
-      38,
+      35,
       "exercises",
-      3,
+      5,
       "words",
-      4
+      2
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "intake",
-      "ko": "① 섭취량, 받아들이는 양",
-      "ex": "Cut your sugar {{BLANK}} if you want to lose weight.",
-      "tr": "살 빼고 싶으면 설탕 섭취를 줄여.",
-      "c": "take in(받아들이다)의 명사꼴. daily intake 하루 섭취량.",
-      "ipa": "ˈɪnteɪk",
+      "en": "set-to",
+      "ko": "① 실랑이, 한바탕 다툼",
+      "ex": "They had a little {{BLANK}} over the game.",
+      "tr": "걔네는 그 게임 때문에 한바탕 실랑이를 벌였어.",
+      "c": "informal. have a set-to 꼴로 쓰며 가벼운 다툼을 뜻한다.",
+      "ipa": "ˈsɛtˌtu",
       "pos": "n.",
-      "word": "intake",
+      "word": "set-to",
       "si": 1,
       "sn": 1
+     }
+    },
+    {
+     "path": [
+      35,
+      "exercises",
+      5,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "know-how",
+       "si": 1
+      },
+      {
+       "word": "made-up",
+       "si": 1
+      },
+      {
+       "word": "set-to",
+       "si": 1
+      },
+      {
+       "word": "making",
+       "si": 1
+      },
+      {
+       "word": "live-in",
+       "si": 1
+      },
+      {
+       "word": "based",
+       "si": 1
+      },
+      {
+       "word": "based",
+       "si": 2
+      },
+      {
+       "word": "saying",
+       "si": 1
+      },
+      {
+       "word": "well-known",
+       "si": 1
+      },
+      {
+       "word": "non",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      35,
+      "exercises",
+      7,
+      "words",
+      9
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "providing",
+      "ko": "① ~라면, ~하기만 하면",
+      "ex": "You can go out, {{BLANK}} you finish your homework.",
+      "tr": "숙제를 끝내기만 하면 너 나가도 돼.",
+      "c": "providing (that)은 ~라는 조건으로. provided (that)도 같은 뜻으로 쓴다.",
+      "ipa": "prəˈvaɪdɪŋ",
+      "pos": "conj.",
+      "word": "providing",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      35,
+      "exercises",
+      7,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "latest",
+       "si": 1
+      },
+      {
+       "word": "holding",
+       "si": 1
+      },
+      {
+       "word": "located",
+       "si": 1
+      },
+      {
+       "word": "secretary-general",
+       "si": 1
+      },
+      {
+       "word": "covered",
+       "si": 1
+      },
+      {
+       "word": "failed",
+       "si": 1
+      },
+      {
+       "word": "mid",
+       "si": 1
+      },
+      {
+       "word": "prepared",
+       "si": 1
+      },
+      {
+       "word": "prepared",
+       "si": 2
+      },
+      {
+       "word": "providing",
+       "si": 1
+      },
+      {
+       "word": "flying",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      1,
+      "words",
+      7
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "whilst",
+      "ko": "① (영) ~하는 동안, ~인 반면",
+      "ex": "He read a book {{BLANK}} waiting for me.",
+      "tr": "걔는 나를 기다리는 동안 책을 읽었어.",
+      "c": "while의 영국식 꼴. 미국 글에서는 while을 쓴다.",
+      "ipa": "waɪlst",
+      "pos": "conj.",
+      "word": "whilst",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      1,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "trans",
+       "si": 1
+      },
+      {
+       "word": "annoying",
+       "si": 1
+      },
+      {
+       "word": "rugby",
+       "si": 1
+      },
+      {
+       "word": "abandoned",
+       "si": 1
+      },
+      {
+       "word": "cleaning",
+       "si": 1
+      },
+      {
+       "word": "handling",
+       "si": 1
+      },
+      {
+       "word": "shaped",
+       "si": 1
+      },
+      {
+       "word": "whilst",
+       "si": 1
+      },
+      {
+       "word": "ward",
+       "si": 1
+      },
+      {
+       "word": "ward",
+       "si": 2
+      },
+      {
+       "word": "gaming",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      2,
+      "words",
+      7
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "amongst",
+      "ko": "① (영) ~ 사이에, ~ 중에",
+      "ex": "The letter was hidden {{BLANK}} my old books.",
+      "tr": "그 편지는 내 낡은 책들 사이에 숨겨져 있었어.",
+      "c": "among과 뜻이 같고 영국 영어에서 더 흔하다. 여러 사람·사물에 둘러싸인 관계에 쓴다.",
+      "ipa": "əˈmʌŋst",
+      "pos": "prep.",
+      "word": "amongst",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      2,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "luxury",
+       "si": 1
+      },
+      {
+       "word": "luxury",
+       "si": 2
+      },
+      {
+       "word": "impressed",
+       "si": 1
+      },
+      {
+       "word": "underground",
+       "si": 1
+      },
+      {
+       "word": "underground",
+       "si": 2
+      },
+      {
+       "word": "underground",
+       "si": 3
+      },
+      {
+       "word": "nursing",
+       "si": 1
+      },
+      {
+       "word": "amongst",
+       "si": 1
+      },
+      {
+       "word": "educated",
+       "si": 1
+      },
+      {
+       "word": "lighting",
+       "si": 1
+      },
+      {
+       "word": "ton",
+       "si": 1
+      },
+      {
+       "word": "ton",
+       "si": 2
+      },
+      {
+       "word": "integrated",
+       "si": 1
+      },
+      {
+       "word": "satisfied",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      7,
+      "words",
+      7
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "chuck",
+      "ko": "① 휙 던지다, 내버리다",
+      "ex": "Just {{BLANK}} the ball over here.",
+      "tr": "그냥 공 이쪽으로 휙 던져.",
+      "c": "informal. throw의 가벼운 말. chuck out은 '내다 버리다'.",
+      "ipa": "tʃʌk",
+      "pos": "v.",
+      "word": "chuck",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      7,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "unnecessary",
+       "si": 1
+      },
+      {
+       "word": "cherry",
+       "si": 1
+      },
+      {
+       "word": "spray",
+       "si": 1
+      },
+      {
+       "word": "spray",
+       "si": 2
+      },
+      {
+       "word": "animation",
+       "si": 1
+      },
+      {
+       "word": "balanced",
+       "si": 1
+      },
+      {
+       "word": "parliamentary",
+       "si": 1
+      },
+      {
+       "word": "chuck",
+       "si": 1
+      },
+      {
+       "word": "contrary",
+       "si": 1
+      },
+      {
+       "word": "contrary",
+       "si": 2
+      },
+      {
+       "word": "dam",
+       "si": 1
+      },
+      {
+       "word": "trophy",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      9,
+      "words",
+      3
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "sterling",
+      "ko": "① 스털링(영국 파운드화)",
+      "ex": "The price was in {{BLANK}}, not dollars.",
+      "tr": "그 가격은 달러가 아니라 스털링이었어.",
+      "c": "pound sterling은 영국 파운드화. sterling silver는 은 92.5%를 포함한 합금.",
+      "ipa": "ˈstɝlɪŋ",
+      "pos": "n.",
+      "word": "sterling",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      9,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "vertical",
+       "si": 1
+      },
+      {
+       "word": "washing",
+       "si": 1
+      },
+      {
+       "word": "disc",
+       "si": 1
+      },
+      {
+       "word": "sterling",
+       "si": 1
+      },
+      {
+       "word": "applicable",
+       "si": 1
+      },
+      {
+       "word": "breach",
+       "si": 1
+      },
+      {
+       "word": "breach",
+       "si": 2
+      },
+      {
+       "word": "engaging",
+       "si": 1
+      },
+      {
+       "word": "lesser",
+       "si": 1
+      },
+      {
+       "word": "retreat",
+       "si": 1
+      },
+      {
+       "word": "retreat",
+       "si": 2
+      },
+      {
+       "word": "valve",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      37,
+      "exercises",
+      3,
+      "words",
+      7
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "micro",
+      "ko": "① 미세한-, 아주 작은-; 백만분의 일의-",
+      "ex": "A {{BLANK}}chip stores information in this card.",
+      "tr": "이 카드 안의 마이크로칩은 정보를 저장해.",
+      "c": "작거나 미세함을 뜻하는 접두사. 단위 앞에서는 백만분의 일을 뜻한다.",
+      "ipa": "ˈmaɪkroʊ",
+      "pos": "prefix",
+      "word": "micro",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      37,
+      "exercises",
+      3,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "underneath",
+       "si": 1
+      },
+      {
+       "word": "underneath",
+       "si": 2
+      },
+      {
+       "word": "permanently",
+       "si": 1
+      },
+      {
+       "word": "diameter",
+       "si": 1
+      },
+      {
+       "word": "duo",
+       "si": 1
+      },
+      {
+       "word": "fabulous",
+       "si": 1
+      },
+      {
+       "word": "gambling",
+       "si": 1
+      },
+      {
+       "word": "micro",
+       "si": 1
+      },
+      {
+       "word": "provincial",
+       "si": 1
+      },
+      {
+       "word": "provincial",
+       "si": 2
+      },
+      {
+       "word": "rotation",
+       "si": 1
+      },
+      {
+       "word": "rotation",
+       "si": 2
+      },
+      {
+       "word": "warehouse",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      2,
+      "words",
+      0
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "neo",
+      "ko": "① 신-, 새로운",
+      "ex": "The city has many {{BLANK}}classical buildings.",
+      "tr": "그 도시에는 신고전주의 양식의 건물이 많아.",
+      "c": "혼자 쓰지 않고 neo-처럼 앞에 붙는다. 그리스어 '새로운'에서.",
+      "ipa": "ˈnioʊ",
+      "pos": "prefix",
+      "word": "neo",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      2,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "neo",
+       "si": 1
+      },
+      {
+       "word": "outbreak",
+       "si": 1
+      },
+      {
+       "word": "probe",
+       "si": 1
+      },
+      {
+       "word": "probe",
+       "si": 2
+      },
+      {
+       "word": "rehabilitation",
+       "si": 1
+      },
+      {
+       "word": "vector",
+       "si": 1
+      },
+      {
+       "word": "crowded",
+       "si": 1
+      },
+      {
+       "word": "bump",
+       "si": 1
+      },
+      {
+       "word": "bump",
+       "si": 2
+      },
+      {
+       "word": "manufacture",
+       "si": 1
+      },
+      {
+       "word": "atomic",
+       "si": 1
+      },
+      {
+       "word": "dense",
+       "si": 1
+      },
+      {
+       "word": "dense",
+       "si": 2
+      }
+     ]
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      3,
+      "words",
+      2
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "gig",
+      "ko": "② 단기 일감, 임시 일자리",
+      "ex": "He picked up a weekend {{BLANK}} at the cafe.",
+      "tr": "걔는 카페에서 주말에만 하는 단기 일감을 하나 잡았어.",
+      "c": "일자리라는 뜻에서 job과 바꿔 쓸 수 있어. gig는 특히 단기 일감이나 임시 일자리에 써.",
+      "ipa": "ɡɪɡ",
+      "pos": "n.",
+      "word": "gig",
+      "si": 2,
+      "sn": 2
+     }
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      3,
+      "words",
+      1
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "gig",
+      "ko": "① (음악) 공연, 라이브",
+      "ex": "My cousin's band has a {{BLANK}} on Friday.",
+      "tr": "내 사촌 밴드가 금요일에 소규모 라이브 공연이 있어.",
+      "c": "informal. 밴드나 가수의 단발 공연. play a gig처럼 쓴다.",
+      "ipa": "ɡɪɡ",
+      "pos": "n.",
+      "word": "gig",
+      "si": 1,
+      "sn": 2
      }
     },
     {
@@ -4327,257 +3543,87 @@
     },
     {
      "path": [
-      38,
+      39,
       "exercises",
-      4,
+      1,
       "words",
-      0
+      8
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "randomly",
-      "ko": "① 무작위로, 아무렇게나",
-      "ex": "The teacher picked names {{BLANK}} from a box.",
-      "tr": "선생님이 상자에서 이름을 무작위로 뽑으셨어.",
-      "c": "random(무작위의)+-ly. 규칙 없이 고를 때 쓴다.",
-      "ipa": "ˈrændəmli",
-      "pos": "adv.",
-      "word": "randomly",
+      "en": "lad",
+      "ko": "① (영)소년, 젊은 남자",
+      "ex": "That {{BLANK}} next door helps his mother a lot.",
+      "tr": "옆집 그 청년은 자기 엄마를 많이 도와줘.",
+      "c": "소년·젊은 남자를 뜻하는 영국의 친근한 말. 이 뜻에서는 boy나 guy와 바꿔 쓴다.",
+      "ipa": "læd",
+      "pos": "n.",
+      "word": "lad",
       "si": 1,
       "sn": 1
      }
     },
     {
      "path": [
-      38,
+      39,
       "exercises",
-      4,
+      1,
       "preDeletion"
      ],
      "oldExists": false,
      "newExists": true,
      "new": [
       {
-       "word": "randomly",
+       "word": "humanitarian",
        "si": 1
       },
       {
-       "word": "robbery",
+       "word": "liberation",
        "si": 1
       },
       {
-       "word": "sexuality",
+       "word": "massacre",
        "si": 1
       },
       {
-       "word": "tactical",
+       "word": "troubled",
        "si": 1
       },
       {
-       "word": "thereafter",
+       "word": "unemployed",
        "si": 1
       },
       {
-       "word": "tuition",
+       "word": "relaxing",
        "si": 1
       },
       {
-       "word": "underwear",
+       "word": "cleaner",
        "si": 1
       },
       {
-       "word": "flu",
-       "si": 1
-      },
-      {
-       "word": "toast",
-       "si": 1
-      },
-      {
-       "word": "toast",
+       "word": "cleaner",
        "si": 2
       },
       {
-       "word": "toast",
+       "word": "lad",
+       "si": 1
+      },
+      {
+       "word": "vet",
+       "si": 1
+      },
+      {
+       "word": "vet",
+       "si": 2
+      },
+      {
+       "word": "vet",
        "si": 3
       },
       {
-       "word": "toast",
-       "si": 4
-      },
-      {
-       "word": "tricky",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      39,
-      "exercises",
-      2,
-      "words",
-      7
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "respectively",
-      "word": "respectively",
-      "ko": "① 각각, 앞서 말한 순서대로",
-      "ex": "Mina and Joon scored 80 and 90, {{BLANK}}.",
-      "tr": "미나는 80점, 준은 90점을 받았어.",
-      "c": "단순히 ‘각자’가 아니라 앞의 순서대로 두 목록을 짝짓는 말.",
-      "ipa": "rɪˈspɛktɪvli",
-      "pos": "adv.",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      39,
-      "exercises",
-      2,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "aftermath",
-       "si": 1
-      },
-      {
-       "word": "aggression",
-       "si": 1
-      },
-      {
-       "word": "aggression",
-       "si": 2
-      },
-      {
-       "word": "discretion",
-       "si": 1
-      },
-      {
-       "word": "discretion",
-       "si": 2
-      },
-      {
-       "word": "drought",
-       "si": 1
-      },
-      {
-       "word": "individually",
-       "si": 1
-      },
-      {
-       "word": "respectively",
-       "si": 1
-      },
-      {
-       "word": "progression",
-       "si": 1
-      },
-      {
-       "word": "reservoir",
-       "si": 1
-      },
-      {
-       "word": "transparency",
-       "si": 1
-      },
-      {
-       "word": "dislike",
-       "si": 1
-      },
-      {
-       "word": "frog",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      39,
-      "exercises",
-      9,
-      "words",
-      7
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "dominance",
-      "ko": "① 우세, 지배",
-      "ex": "Their {{BLANK}} in the league ended last year.",
-      "tr": "걔네의 리그 지배는 작년에 끝났어.",
-      "c": "dominance over ~ = ~에 대한 우위.",
-      "ipa": "ˈdɑmənəns",
-      "pos": "n.",
-      "word": "dominance",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      39,
-      "exercises",
-      9,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "activation",
-       "si": 1
-      },
-      {
-       "word": "applause",
-       "si": 1
-      },
-      {
-       "word": "cone",
-       "si": 1
-      },
-      {
-       "word": "cone",
-       "si": 2
-      },
-      {
-       "word": "depressing",
-       "si": 1
-      },
-      {
-       "word": "diagnostic",
-       "si": 1
-      },
-      {
-       "word": "differential",
-       "si": 1
-      },
-      {
-       "word": "dominance",
-       "si": 1
-      },
-      {
-       "word": "economically",
-       "si": 1
-      },
-      {
-       "word": "economically",
-       "si": 2
-      },
-      {
-       "word": "nationalism",
-       "si": 1
-      },
-      {
-       "word": "notorious",
+       "word": "accountable",
        "si": 1
       }
      ]
@@ -4586,271 +3632,1050 @@
      "path": [
       40,
       "exercises",
-      0,
+      8,
       "words",
-      12
+      2
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "broadly",
-      "ko": "② 활짝(웃다)",
-      "ex": "Grandpa smiled {{BLANK}} when I called him.",
-      "tr": "할아버지는 내가 전화드렸을 때 활짝 웃으셨어.",
-      "c": "smile broadly = 입을 크게 벌려 활짝 웃다.",
-      "ipa": "ˈbrɔdli",
-      "pos": "adv.",
-      "word": "broadly",
+      "en": "reckon",
+      "ko": "② 계산하다, 어림잡다",
+      "ex": "I {{BLANK}} the total cost at fifty dollars.",
+      "tr": "나는 총비용을 50달러로 어림잡아.",
+      "c": "reckon A at B(A를 B로 어림잡다). by my reckoning은 내 계산으로는.",
+      "ipa": "ˈrɛkən",
+      "pos": "v.",
+      "word": "reckon",
+      "si": 2,
+      "sn": 2,
+      "savedId": "[\"40세트\",\"Exercise 9 · 3964~3973\",\"reckon\",2,\"\"]"
+     }
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      8,
+      "words",
+      1
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "reckon",
+      "ko": "① ~라고 생각하다",
+      "ex": "I {{BLANK}} we should leave before six.",
+      "tr": "내 생각엔 우리 여섯 시 전에 나가야 해.",
+      "c": "I reckon과 I figure는 내 생각엔이라는 같은 뜻의 구어. 전자는 영국·호주, 후자는 미국에서 흔하다.",
+      "ipa": "ˈrɛkən",
+      "pos": "v.",
+      "word": "reckon",
+      "si": 1,
+      "sn": 2,
+      "savedId": "[\"40세트\",\"Exercise 9 · 3964~3973\",\"reckon\",1,\"\"]"
+     }
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      8,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "vein",
+       "si": 1
+      },
+      {
+       "word": "reckon",
+       "si": 1
+      },
+      {
+       "word": "reckon",
+       "si": 2
+      },
+      {
+       "word": "tightly",
+       "si": 1
+      },
+      {
+       "word": "accountant",
+       "si": 1
+      },
+      {
+       "word": "newsletter",
+       "si": 1
+      },
+      {
+       "word": "nitrogen",
+       "si": 1
+      },
+      {
+       "word": "phenomenal",
+       "si": 1
+      },
+      {
+       "word": "transplant",
+       "si": 1
+      },
+      {
+       "word": "transplant",
+       "si": 2
+      },
+      {
+       "word": "boiling",
+       "si": 1
+      },
+      {
+       "word": "boiling",
+       "si": 2
+      }
+     ]
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      9,
+      "words",
+      7
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "infamous",
+      "ko": "① 악명 높은",
+      "ex": "That street is {{BLANK}} for its terrible food.",
+      "tr": "그 거리는 형편없는 음식으로 악명 높아.",
+      "c": "in-+famous지만 '안 유명한'이 아니라 '나쁘게 유명한'이다.",
+      "ipa": "ˈɪnfəməs",
+      "pos": "adj.",
+      "word": "infamous",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      9,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "butcher",
+       "si": 1
+      },
+      {
+       "word": "tray",
+       "si": 1
+      },
+      {
+       "word": "unreasonable",
+       "si": 1
+      },
+      {
+       "word": "upwards",
+       "si": 1
+      },
+      {
+       "word": "endorsement",
+       "si": 1
+      },
+      {
+       "word": "forthcoming",
+       "si": 1
+      },
+      {
+       "word": "forthcoming",
+       "si": 2
+      },
+      {
+       "word": "infamous",
+       "si": 1
+      },
+      {
+       "word": "lateral",
+       "si": 1
+      },
+      {
+       "word": "lifelong",
+       "si": 1
+      },
+      {
+       "word": "merge",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      5,
+      "words",
+      1
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "jumper",
+      "ko": "② 뛰는 사람, 점프 선수",
+      "ex": "The best {{BLANK}} on our team is Minji.",
+      "tr": "우리 팀 최고의 점프 선수는 민지야.",
+      "c": "jump(뛰다)+-er. high jumper(높이뛰기 선수)처럼 앞말을 붙인다.",
+      "ipa": "ˈdʒʌmpɚ",
+      "pos": "n.",
+      "word": "jumper",
       "si": 2,
       "sn": 2
      }
     },
     {
      "path": [
-      40,
+      41,
       "exercises",
-      0,
-      "words",
-      11
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "broadly",
-      "ko": "① 넓게 보아, 대략",
-      "ex": "{{BLANK}} speaking, the plan worked out fine.",
-      "tr": "대체로 말하면 그 계획은 잘 진행됐어.",
-      "c": "broad(넓은)+-ly. broadly speaking(대체로 말하면)이 굳은 표현이다.",
-      "ipa": "ˈbrɔdli",
-      "pos": "adv.",
-      "word": "broadly",
-      "si": 1,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      40,
-      "exercises",
-      0,
+      5,
       "words",
       0
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "organizational",
-      "ko": "① 조직의, 조직 운영의",
-      "ex": "The school festival needs better {{BLANK}} skills.",
-      "tr": "학교 축제엔 더 나은 조직력이 필요해.",
-      "c": "organization(조직)+-al. organizational skills: 조직하고 정리하는 능력.",
-      "ipa": "ˌɔrɡənəˈzeɪʃənəl",
-      "pos": "adj.",
-      "word": "organizational",
+      "en": "jumper",
+      "ko": "① (영) 스웨터",
+      "ex": "Wear a warm {{BLANK}}; it's cold outside.",
+      "tr": "따뜻한 스웨터 입어. 밖에 춥잖아.",
+      "c": "영국 말이다. 미국에서 jumper는 멜빵치마, 스웨터는 sweater.",
+      "ipa": "ˈdʒʌmpɚ",
+      "pos": "n.",
+      "word": "jumper",
       "si": 1,
-      "sn": 1
+      "sn": 2
      }
     },
     {
      "path": [
-      40,
+      41,
       "exercises",
-      0,
+      5,
       "preDeletion"
      ],
      "oldExists": false,
      "newExists": true,
      "new": [
       {
-       "word": "organizational",
+       "word": "jumper",
        "si": 1
       },
       {
-       "word": "overly",
-       "si": 1
-      },
-      {
-       "word": "reactor",
-       "si": 1
-      },
-      {
-       "word": "thoughtful",
-       "si": 1
-      },
-      {
-       "word": "thoughtful",
+       "word": "jumper",
        "si": 2
       },
       {
-       "word": "vicious",
+       "word": "unwilling",
        "si": 1
       },
       {
-       "word": "wholly",
+       "word": "compulsory",
        "si": 1
       },
       {
-       "word": "deliberate",
+       "word": "delegate",
        "si": 1
       },
       {
-       "word": "deliberate",
+       "word": "delegate",
        "si": 2
       },
       {
-       "word": "deliberate",
-       "si": 3
-      },
-      {
-       "word": "assassination",
+       "word": "dissertation",
        "si": 1
       },
       {
-       "word": "broadly",
+       "word": "domination",
        "si": 1
       },
       {
-       "word": "broadly",
-       "si": 2
+       "word": "fin",
+       "si": 1
       },
       {
-       "word": "calcium",
+       "word": "folding",
+       "si": 1
+      },
+      {
+       "word": "fracture",
+       "si": 1
+      },
+      {
+       "word": "indictment",
        "si": 1
       }
      ]
     },
     {
      "path": [
-      40,
+      41,
       "exercises",
-      1,
+      6,
       "words",
       6
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "inadequate",
-      "ko": "① 불충분한, 부족한",
-      "ex": "She felt {{BLANK}} next to her brilliant sister.",
-      "tr": "걔는 똑똑한 언니 옆에서 자기가 부족하다고 느꼈어.",
-      "c": "in-(부정)+adequate(충분한). for나 to부정사와 짝지어 쓴다.",
-      "ipa": "ɪnˈædɪkwət",
-      "pos": "adj.",
-      "word": "inadequate",
+      "en": "councillor",
+      "ko": "① (영) 지방 의원",
+      "ex": "A city {{BLANK}} came to our school.",
+      "tr": "시의원 한 분이 우리 학교에 왔어.",
+      "c": "council(의회)+-or. 미국 철자는 councilor로 l이 하나다.",
+      "ipa": "ˈkaʊnsəlɚ",
+      "pos": "n.",
+      "word": "councillor",
       "si": 1,
       "sn": 1
      }
     },
     {
      "path": [
-      40,
+      41,
       "exercises",
-      1,
+      6,
+      "words",
+      3
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "solicitor",
+      "ko": "① (영) 사무 변호사",
+      "ex": "Her mother works as a {{BLANK}} in London.",
+      "tr": "걔 엄마는 런던에서 사무 변호사로 일해.",
+      "c": "영국 등의 법률 상담·문서 업무를 맡는 변호사. 법정 대리도 한다. 일반적인 변호사는 lawyer.",
+      "ipa": "səˈlɪsɪtɚ",
+      "pos": "n.",
+      "word": "solicitor",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      6,
       "preDeletion"
      ],
      "oldExists": false,
      "newExists": true,
      "new": [
       {
-       "word": "certainty",
+       "word": "transcript",
        "si": 1
       },
       {
-       "word": "congregation",
-       "si": 1
-      },
-      {
-       "word": "dividend",
-       "si": 1
-      },
-      {
-       "word": "dye",
-       "si": 1
-      },
-      {
-       "word": "dye",
+       "word": "transcript",
        "si": 2
       },
       {
-       "word": "electron",
+       "word": "sewing",
        "si": 1
       },
       {
-       "word": "inadequate",
+       "word": "solicitor",
        "si": 1
       },
       {
-       "word": "infinity",
+       "word": "broadband",
        "si": 1
       },
       {
-       "word": "marketplace",
+       "word": "constituency",
        "si": 1
       },
       {
-       "word": "marketplace",
-       "si": 2
-      },
-      {
-       "word": "membrane",
+       "word": "councillor",
        "si": 1
       },
       {
-       "word": "quiz",
+       "word": "diplomat",
+       "si": 1
+      },
+      {
+       "word": "firearm",
+       "si": 1
+      },
+      {
+       "word": "intriguing",
+       "si": 1
+      },
+      {
+       "word": "irrigation",
        "si": 1
       }
      ]
     },
     {
      "path": [
-      40,
+      41,
       "exercises",
-      7,
+      9,
       "words",
-      9
+      7
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "vegetation",
-      "ko": "① 초목, 식물",
-      "ex": "Thick {{BLANK}} covers the hills behind our school.",
-      "tr": "우거진 초목이 학교 뒷산을 덮고 있어.",
-      "c": "vegetable과 한 뿌리. 한 지역의 풀·나무 전체라 셀 수 없다.",
-      "ipa": "ˌvɛdʒəˈteɪʃən",
-      "pos": "n.",
-      "word": "vegetation",
+      "en": "wed",
+      "ko": "① 결혼하다",
+      "ex": "They will {{BLANK}} in a small church.",
+      "tr": "걔네는 작은 교회에서 결혼할 거야.",
+      "c": "결혼하다. 신문 기사나 격식 있는 글에서 marry 대신 쓴다. wedding은 결혼식.",
+      "ipa": "wɛd",
+      "pos": "v.",
+      "word": "wed",
       "si": 1,
       "sn": 1
      }
     },
     {
      "path": [
-      40,
+      41,
       "exercises",
-      7,
+      9,
+      "words",
+      4
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "pint",
+      "ko": "① 파인트(액체 단위)",
+      "ex": "He drank a {{BLANK}} of milk after the game.",
+      "tr": "걔는 경기 끝나고 우유 한 파인트를 마셨어.",
+      "c": "미국에서 약 473ml. 발음은 [파인트]로 i를 [aɪ]로 읽는다.",
+      "ipa": "paɪnt",
+      "pos": "n.",
+      "word": "pint",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      9,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "vibrant",
+       "si": 1
+      },
+      {
+       "word": "vibrant",
+       "si": 2
+      },
+      {
+       "word": "yeast",
+       "si": 1
+      },
+      {
+       "word": "freezer",
+       "si": 1
+      },
+      {
+       "word": "pint",
+       "si": 1
+      },
+      {
+       "word": "proceeding",
+       "si": 1
+      },
+      {
+       "word": "proceeding",
+       "si": 2
+      },
+      {
+       "word": "wed",
+       "si": 1
+      },
+      {
+       "word": "dictator",
+       "si": 1
+      },
+      {
+       "word": "erase",
+       "si": 1
+      },
+      {
+       "word": "optimism",
+       "si": 1
+      },
+      {
+       "word": "peripheral",
+       "si": 1
+      },
+      {
+       "word": "peripheral",
+       "si": 2
+      }
+     ]
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      0,
+      "words",
+      0
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "rouge",
+      "ko": "① 볼연지(볼에 바르는 붉은 화장품)",
+      "ex": "She put a little {{BLANK}} on her cheeks.",
+      "tr": "걔는 볼에 볼연지를 살짝 발랐어.",
+      "c": "볼 등에 붉은빛을 더하는 화장품. 프랑스어 rouge는 빨강이라는 뜻. 현대 영어에서는 볼 화장품을 blush라고도 한다.",
+      "ipa": "ruʒ",
+      "pos": "n.",
+      "word": "rouge",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      0,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "rouge",
+       "si": 1
+      },
+      {
+       "word": "spur",
+       "si": 1
+      },
+      {
+       "word": "spur",
+       "si": 2
+      },
+      {
+       "word": "cellphone",
+       "si": 1
+      },
+      {
+       "word": "evenly",
+       "si": 1
+      },
+      {
+       "word": "fetch",
+       "si": 1
+      },
+      {
+       "word": "anthropology",
+       "si": 1
+      },
+      {
+       "word": "derivative",
+       "si": 1
+      },
+      {
+       "word": "derivative",
+       "si": 2
+      },
+      {
+       "word": "derivative",
+       "si": 3
+      },
+      {
+       "word": "derivative",
+       "si": 4
+      },
+      {
+       "word": "numerical",
+       "si": 1
+      },
+      {
+       "word": "slash",
+       "si": 1
+      },
+      {
+       "word": "slash",
+       "si": 2
+      },
+      {
+       "word": "slash",
+       "si": 3
+      },
+      {
+       "word": "terminate",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      2,
+      "words",
+      4
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "lyric",
+      "ko": "① (주로 복수로) 노랫말, 가사",
+      "ex": "I can't catch the {{BLANK}}s in that song.",
+      "tr": "나 저 노래 가사를 못 알아듣겠어.",
+      "c": "가사라는 뜻일 때는 보통 복수 lyrics로 쓴다. 형용사는 '서정적인'.",
+      "ipa": "ˈlɪrɪk",
+      "pos": "n.",
+      "word": "lyric",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      2,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "mushroom",
+       "si": 1
+      },
+      {
+       "word": "mushroom",
+       "si": 2
+      },
+      {
+       "word": "shareholder",
+       "si": 1
+      },
+      {
+       "word": "broadcaster",
+       "si": 1
+      },
+      {
+       "word": "lyric",
+       "si": 1
+      },
+      {
+       "word": "periodic",
+       "si": 1
+      },
+      {
+       "word": "seldom",
+       "si": 1
+      },
+      {
+       "word": "fuss",
+       "si": 1
+      },
+      {
+       "word": "presume",
+       "si": 1
+      },
+      {
+       "word": "violently",
+       "si": 1
+      },
+      {
+       "word": "damp",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      3,
+      "words",
+      6
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "granny",
+      "ko": "① 할머니",
+      "ex": "My {{BLANK}} sends me money every month.",
+      "tr": "우리 할머니는 매달 나한테 용돈을 보내 주셔.",
+      "c": "grandmother의 친근한 표현. grandma도 같은 뜻. granny's house는 할머니 댁.",
+      "ipa": "ˈɡræni",
+      "pos": "n.",
+      "word": "granny",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      3,
+      "words",
+      4
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "chap",
+      "ko": "① (영) 남자, 녀석",
+      "ex": "That old {{BLANK}} next door fixed my bike.",
+      "tr": "옆집 그 나이 든 아저씨가 내 자전거를 고쳐 줬어.",
+      "c": "(영) informal. 미국에서는 guy를 쓴다. 조금 예스러운 말투다.",
+      "ipa": "tʃæp",
+      "pos": "n.",
+      "word": "chap",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      3,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "militant",
+       "si": 1
+      },
+      {
+       "word": "militant",
+       "si": 2
+      },
+      {
+       "word": "peasant",
+       "si": 1
+      },
+      {
+       "word": "regulator",
+       "si": 1
+      },
+      {
+       "word": "chap",
+       "si": 1
+      },
+      {
+       "word": "freeway",
+       "si": 1
+      },
+      {
+       "word": "granny",
+       "si": 1
+      },
+      {
+       "word": "pudding",
+       "si": 1
+      },
+      {
+       "word": "refrigerator",
+       "si": 1
+      },
+      {
+       "word": "hostility",
+       "si": 1
+      },
+      {
+       "word": "novelist",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      5,
       "words",
       5
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "neighboring",
-      "ko": "① 이웃의, 인접한",
-      "ex": "Kids from the {{BLANK}} town come to our festival.",
-      "tr": "이웃 마을 애들이 우리 축제에 와.",
-      "c": "영국식 철자는 neighbouring. neighbor(이웃)+-ing에서 왔다.",
-      "ipa": "ˈneɪbərɪŋ",
-      "pos": "adj.",
-      "word": "neighboring",
+      "en": "wicket",
+      "ko": "① (크리켓) 위킷, 삼주문",
+      "ex": "He knocked down the {{BLANK}} with one ball.",
+      "tr": "걔는 공 하나로 위킷을 쓰러뜨렸어.",
+      "c": "크리켓에서 공으로 맞히는 세 기둥.",
+      "ipa": "ˈwɪkɪt",
+      "pos": "n.",
+      "word": "wicket",
       "si": 1,
       "sn": 1
      }
     },
     {
      "path": [
-      40,
+      42,
+      "exercises",
+      5,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "conditional",
+       "si": 1
+      },
+      {
+       "word": "congratulate",
+       "si": 1
+      },
+      {
+       "word": "cortex",
+       "si": 1
+      },
+      {
+       "word": "cynical",
+       "si": 1
+      },
+      {
+       "word": "nucleus",
+       "si": 1
+      },
+      {
+       "word": "wicket",
+       "si": 1
+      },
+      {
+       "word": "cushion",
+       "si": 1
+      },
+      {
+       "word": "cushion",
+       "si": 2
+      },
+      {
+       "word": "abdominal",
+       "si": 1
+      },
+      {
+       "word": "backdrop",
+       "si": 1
+      },
+      {
+       "word": "competence",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      7,
+      "words",
+      8
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "bloke",
+      "ko": "① (영) 남자, 녀석",
+      "ex": "Some {{BLANK}} on the bus gave me his seat.",
+      "tr": "버스에서 어떤 남자가 나한테 자리를 양보해 줬어.",
+      "c": "(영) informal. guy·chap과 같은 뜻이고 더 편한 말투다.",
+      "ipa": "bloʊk",
+      "pos": "n.",
+      "word": "bloke",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      7,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "circa",
+       "si": 1
+      },
+      {
+       "word": "concession",
+       "si": 1
+      },
+      {
+       "word": "concession",
+       "si": 2
+      },
+      {
+       "word": "flux",
+       "si": 1
+      },
+      {
+       "word": "calmly",
+       "si": 1
+      },
+      {
+       "word": "furry",
+       "si": 1
+      },
+      {
+       "word": "woven",
+       "si": 1
+      },
+      {
+       "word": "chemotherapy",
+       "si": 1
+      },
+      {
+       "word": "bloke",
+       "si": 1
+      },
+      {
+       "word": "colorful",
+       "si": 1
+      },
+      {
+       "word": "fragment",
+       "si": 1
+      },
+      {
+       "word": "fragment",
+       "si": 2
+      }
+     ]
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      5,
+      "words",
+      1
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "advert",
+      "ko": "① (영) 광고",
+      "ex": "Did you see the {{BLANK}} on that bus?",
+      "tr": "저 버스에 있는 광고 봤니?",
+      "c": "(영) advertisement의 준말. 미국에서는 ad라고 한다.",
+      "ipa": "ˈædvɝt",
+      "pos": "n.",
+      "word": "advert",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      5,
+      "words",
+      0
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "motorway",
+      "ko": "① (영) 고속도로",
+      "ex": "We drove north on the {{BLANK}} all morning.",
+      "tr": "우리는 아침 내내 고속도로로 북쪽으로 달렸어.",
+      "c": "영국말. 미국에서는 freeway·expressway를 쓴다.",
+      "ipa": "ˈmoʊtɚweɪ",
+      "pos": "n.",
+      "word": "motorway",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      5,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "motorway",
+       "si": 1
+      },
+      {
+       "word": "advert",
+       "si": 1
+      },
+      {
+       "word": "criterion",
+       "si": 1
+      },
+      {
+       "word": "wrongly",
+       "si": 1
+      },
+      {
+       "word": "antibody",
+       "si": 1
+      },
+      {
+       "word": "applaud",
+       "si": 1
+      },
+      {
+       "word": "applaud",
+       "si": 2
+      },
+      {
+       "word": "extremist",
+       "si": 1
+      },
+      {
+       "word": "globalization",
+       "si": 1
+      },
+      {
+       "word": "simplify",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      43,
       "exercises",
       7,
       "words",
@@ -4859,21 +4684,22 @@
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "fundamentally",
-      "ko": "① 근본적으로",
-      "ex": "The two plans are {{BLANK}} different.",
-      "tr": "그 두 계획은 근본적으로 달라.",
-      "c": "fundamental(근본적인)+-ly. 따지고 보면 그렇다는 뜻이다.",
-      "ipa": "ˌfʌndəˈmɛntəli",
-      "pos": "adv.",
-      "word": "fundamentally",
+      "en": "daft",
+      "ko": "① (영) 어리석은, 멍청한",
+      "ex": "Don't be {{BLANK}}; just ask the teacher.",
+      "tr": "바보같이 굴지 말고 그냥 선생님께 여쭤봐.",
+      "c": "영국 구어. 미국에서는 silly·dumb를 쓴다.",
+      "ipa": "dæft",
+      "pos": "adj.",
+      "word": "daft",
       "si": 1,
-      "sn": 1
+      "sn": 1,
+      "meow": "그 핑계는 daft, 어리석다고양."
      }
     },
     {
      "path": [
-      40,
+      43,
       "exercises",
       7,
       "preDeletion"
@@ -4882,473 +4708,51 @@
      "newExists": true,
      "new": [
       {
-       "word": "fundamentally",
+       "word": "daft",
        "si": 1
       },
       {
-       "word": "insider",
+       "word": "inject",
        "si": 1
       },
       {
-       "word": "maternal",
-       "si": 1
-      },
-      {
-       "word": "memoir",
-       "si": 1
-      },
-      {
-       "word": "modification",
-       "si": 1
-      },
-      {
-       "word": "neighboring",
-       "si": 1
-      },
-      {
-       "word": "occurrence",
-       "si": 1
-      },
-      {
-       "word": "seminar",
-       "si": 1
-      },
-      {
-       "word": "trader",
-       "si": 1
-      },
-      {
-       "word": "vegetation",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      41,
-      "exercises",
-      4,
-      "words",
-      18
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "upward",
-      "ko": "① 위쪽으로",
-      "ex": "Prices keep moving {{BLANK}} this year.",
-      "tr": "올해 물가가 계속 위쪽으로 움직이고 있어.",
-      "c": "up+-ward(방향). 형용사로 upward movement(상승 움직임). 부사는 upwards도 가능.",
-      "ipa": "ˈʌpwɚd",
-      "pos": "adv.",
-      "word": "upward",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      41,
-      "exercises",
-      4,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "induction",
-       "si": 1
-      },
-      {
-       "word": "induction",
+       "word": "inject",
        "si": 2
       },
       {
-       "word": "induction",
-       "si": 3
-      },
-      {
-       "word": "deduction",
+       "word": "orient",
        "si": 1
       },
       {
-       "word": "deduction",
+       "word": "roach",
+       "si": 1
+      },
+      {
+       "word": "sniff",
+       "si": 1
+      },
+      {
+       "word": "soluble",
+       "si": 1
+      },
+      {
+       "word": "solvent",
+       "si": 1
+      },
+      {
+       "word": "solvent",
        "si": 2
       },
       {
-       "word": "instability",
+       "word": "antiquity",
        "si": 1
       },
       {
-       "word": "litter",
+       "word": "linguistics",
        "si": 1
       },
       {
-       "word": "litter",
-       "si": 2
-      },
-      {
-       "word": "litter",
-       "si": 3
-      },
-      {
-       "word": "litter",
-       "si": 4
-      },
-      {
-       "word": "magistrate",
-       "si": 1
-      },
-      {
-       "word": "marginal",
-       "si": 1
-      },
-      {
-       "word": "marginal",
-       "si": 2
-      },
-      {
-       "word": "spontaneous",
-       "si": 1
-      },
-      {
-       "word": "spontaneous",
-       "si": 2
-      },
-      {
-       "word": "theorem",
-       "si": 1
-      },
-      {
-       "word": "tract",
-       "si": 1
-      },
-      {
-       "word": "tract",
-       "si": 2
-      },
-      {
-       "word": "upward",
-       "si": 1
-      },
-      {
-       "word": "insulting",
-       "si": 1
-      }
-     ]
-    },
-    {
-     "path": [
-      41,
-      "exercises",
-      8,
-      "words",
-      5
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "commentator",
-      "ko": "① (경기·시사) 해설자",
-      "ex": "The {{BLANK}} shouted when the goal went in.",
-      "tr": "해설자는 골이 들어가자 소리를 질렀어.",
-      "c": "comment(논평하다)+-ator. 중계나 시사 방송에 나오는 사람.",
-      "ipa": "ˈkɑmənteɪtɚ",
-      "pos": "n.",
-      "word": "commentator",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      41,
-      "exercises",
-      8,
-      "words",
-      3
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "activism",
-      "ko": "① (사회) 운동, 행동주의",
-      "ex": "Her {{BLANK}} started with a school club.",
-      "tr": "걔의 사회 운동은 학교 동아리에서 시작됐어.",
-      "c": "active(활동적인)+-ism. 사회를 바꾸려는 적극적 활동이다.",
-      "ipa": "ˈæktɪvɪzəm",
-      "pos": "n.",
-      "word": "activism",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      41,
-      "exercises",
-      8,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "noisy",
-       "si": 1
-      },
-      {
-       "word": "stimulate",
-       "si": 1
-      },
-      {
-       "word": "stimulate",
-       "si": 2
-      },
-      {
-       "word": "activism",
-       "si": 1
-      },
-      {
-       "word": "astonishing",
-       "si": 1
-      },
-      {
-       "word": "commentator",
-       "si": 1
-      },
-      {
-       "word": "fixture",
-       "si": 1
-      },
-      {
-       "word": "imminent",
-       "si": 1
-      },
-      {
-       "word": "mole",
-       "si": 1
-      },
-      {
-       "word": "mole",
-       "si": 2
-      },
-      {
-       "word": "mole",
-       "si": 3
-      },
-      {
-       "word": "statistically",
-       "si": 1
-      },
-      {
-       "word": "tutor",
-       "si": 1
-      },
-      {
-       "word": "tutor",
-       "si": 2
-      }
-     ]
-    },
-    {
-     "path": [
-      43,
-      "exercises",
-      2,
-      "words",
-      11
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "primer",
-      "ko": "② 밑칠, 초벌 페인트",
-      "ex": "Put {{BLANK}} on the wall before you paint.",
-      "tr": "칠하기 전에 벽에 초벌을 발라.",
-      "c": "칠하기 전 바르는 밑칠. 이 뜻은 [프라이머]로 읽는다.",
-      "ipa": "ˈpraɪmɚ",
-      "pos": "n.",
-      "word": "primer",
-      "si": 2,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      43,
-      "exercises",
-      2,
-      "words",
-      10
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "primer",
-      "ko": "① 입문서, 기초 안내서",
-      "ex": "This book is a {{BLANK}} on Korean history.",
-      "tr": "이 책은 한국사 입문서야.",
-      "c": "prime(첫째의)에서. a primer on ~(~ 입문서).",
-      "ipa": "ˈprɪmɚ",
-      "pos": "n.",
-      "word": "primer",
-      "si": 1,
-      "sn": 2
-     }
-    },
-    {
-     "path": [
-      43,
-      "exercises",
-      2,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "boast",
-       "si": 1
-      },
-      {
-       "word": "boast",
-       "si": 2
-      },
-      {
-       "word": "excerpt",
-       "si": 1
-      },
-      {
-       "word": "interviewer",
-       "si": 1
-      },
-      {
-       "word": "spectator",
-       "si": 1
-      },
-      {
-       "word": "stripe",
-       "si": 1
-      },
-      {
-       "word": "tighten",
-       "si": 1
-      },
-      {
-       "word": "nuisance",
-       "si": 1
-      },
-      {
-       "word": "antibiotic",
-       "si": 1
-      },
-      {
-       "word": "outing",
-       "si": 1
-      },
-      {
-       "word": "primer",
-       "si": 1
-      },
-      {
-       "word": "primer",
-       "si": 2
-      }
-     ]
-    },
-    {
-     "path": [
-      43,
-      "exercises",
-      6,
-      "words",
-      7
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "counseling",
-      "ko": "① 상담, 카운슬링",
-      "ex": "Our school offers free {{BLANK}} for students.",
-      "tr": "우리 학교는 학생들에게 무료 상담을 제공해.",
-      "c": "counsel(조언하다)+-ing. 영국 철자는 l을 겹친 counselling이다.",
-      "ipa": "ˈkaʊnsəlɪŋ",
-      "pos": "n.",
-      "word": "counseling",
-      "si": 1,
-      "sn": 1
-     }
-    },
-    {
-     "path": [
-      43,
-      "exercises",
-      6,
-      "preDeletion"
-     ],
-     "oldExists": false,
-     "newExists": true,
-     "new": [
-      {
-       "word": "statistic",
-       "si": 1
-      },
-      {
-       "word": "statistic",
-       "si": 2
-      },
-      {
-       "word": "biscuit",
-       "si": 1
-      },
-      {
-       "word": "biscuit",
-       "si": 2
-      },
-      {
-       "word": "bitterness",
-       "si": 1
-      },
-      {
-       "word": "bitterness",
-       "si": 2
-      },
-      {
-       "word": "entertainer",
-       "si": 1
-      },
-      {
-       "word": "counseling",
-       "si": 1
-      },
-      {
-       "word": "implicit",
-       "si": 1
-      },
-      {
-       "word": "implicit",
-       "si": 2
-      },
-      {
-       "word": "wavelength",
-       "si": 1
-      },
-      {
-       "word": "wavelength",
-       "si": 2
-      },
-      {
-       "word": "artificially",
-       "si": 1
-      },
-      {
-       "word": "blindness",
-       "si": 1
-      },
-      {
-       "word": "brightly",
+       "word": "handbag",
        "si": 1
       }
      ]
@@ -5359,21 +4763,22 @@
       "exercises",
       8,
       "words",
-      5
+      8
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "compute",
-      "ko": "① 계산하다, 산출하다",
-      "ex": "This app can {{BLANK}} your average grade.",
-      "tr": "이 앱이 네 평균 성적을 계산해 줄 수 있어.",
-      "c": "수치나 자료로 값을 계산하다. computer는 원래 계산하는 사람·기계라는 뜻. computation은 계산.",
-      "ipa": "kəmˈpjut",
-      "pos": "v.",
-      "word": "compute",
+      "en": "fortnight",
+      "ko": "① (영) 2주일",
+      "ex": "We stayed at the beach for a {{BLANK}}.",
+      "tr": "우리는 바닷가에서 2주일을 머물렀어.",
+      "c": "(영) fourteen nights(14박)에서. 미국은 two weeks라 한다.",
+      "ipa": "ˈfɔrtnaɪt",
+      "pos": "n.",
+      "word": "fortnight",
       "si": 1,
-      "sn": 1
+      "sn": 1,
+      "meow": "fortnight, 2주면 다 외운다고양. 진짜라고양."
      }
     },
     {
@@ -5432,95 +4837,166 @@
      "path": [
       44,
       "exercises",
-      1,
+      2,
       "words",
-      8
+      9
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "escalate",
-      "ko": "② 급격히 오르다",
-      "ex": "Rent in this area {{BLANK}}s every year.",
-      "tr": "이 동네 집세가 해마다 급등해.",
-      "c": "값이 오른다는 뜻에서는 increase와 바꿔 쓴다. escalate는 급격히 또는 갈수록 더 오르는 느낌.",
-      "ipa": "ˈɛskəleɪt",
-      "pos": "v.",
-      "word": "escalate",
-      "si": 2,
-      "sn": 2,
-      "savedId": "[\"44세트\",\"Exercise 2 · 4294~4303\",\"escalate\",2,\"\"]"
-     }
-    },
-    {
-     "path": [
-      44,
-      "exercises",
-      1,
-      "words",
-      7
-     ],
-     "oldExists": true,
-     "newExists": false,
-     "old": {
-      "en": "escalate",
-      "ko": "① (사태가) 확대되다, 번지다",
-      "ex": "A small fight can {{BLANK}} into a big one.",
-      "tr": "작은 싸움이 큰 싸움으로 번질 수 있어.",
-      "c": "escalate into(~로 번지다). 나쁜 쪽으로 커질 때 쓴다.",
-      "ipa": "ˈɛskəleɪt",
-      "pos": "v.",
-      "word": "escalate",
+      "en": "nil",
+      "ko": "① (영) (경기 점수) 영, 무(無)",
+      "ex": "Our team won two {{BLANK}} last Saturday.",
+      "tr": "우리 팀은 지난 토요일에 2 대 0으로 이겼어.",
+      "c": "영국식 점수 읽기. 미국에서는 two to nothing이라 한다.",
+      "ipa": "nɪl",
+      "pos": "n.",
+      "word": "nil",
       "si": 1,
-      "sn": 2,
-      "savedId": "[\"44세트\",\"Exercise 2 · 4294~4303\",\"escalate\",1,\"\"]"
+      "sn": 1
      }
     },
     {
      "path": [
       44,
       "exercises",
-      1,
+      2,
       "preDeletion"
      ],
      "oldExists": false,
      "newExists": true,
      "new": [
       {
-       "word": "stun",
+       "word": "grammatical",
        "si": 1
       },
       {
-       "word": "stun",
+       "word": "grammatical",
        "si": 2
       },
       {
-       "word": "anglican",
+       "word": "cooker",
        "si": 1
       },
       {
-       "word": "unfairly",
+       "word": "acidic",
        "si": 1
       },
       {
-       "word": "insertion",
+       "word": "indifference",
        "si": 1
       },
       {
-       "word": "recycle",
+       "word": "loom",
        "si": 1
       },
       {
-       "word": "computation",
-       "si": 1
-      },
-      {
-       "word": "escalate",
-       "si": 1
-      },
-      {
-       "word": "escalate",
+       "word": "loom",
        "si": 2
+      },
+      {
+       "word": "syllabus",
+       "si": 1
+      },
+      {
+       "word": "lunchtime",
+       "si": 1
+      },
+      {
+       "word": "nil",
+       "si": 1
+      },
+      {
+       "word": "exponential",
+       "si": 1
+      },
+      {
+       "word": "exponential",
+       "si": 2
+      },
+      {
+       "word": "invoke",
+       "si": 1
+      },
+      {
+       "word": "invoke",
+       "si": 2
+      }
+     ]
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      3,
+      "words",
+      1
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "quid",
+      "ko": "① (영 구어) 파운드(돈)",
+      "ex": "This shirt cost me twenty {{BLANK}} in London.",
+      "tr": "이 셔츠는 런던에서 20파운드 들었어.",
+      "c": "informal. 복수도 quid 그대로다. 미국의 buck에 해당한다.",
+      "ipa": "kwɪd",
+      "pos": "n.",
+      "word": "quid",
+      "si": 1,
+      "sn": 1,
+      "savedId": "[\"44세트\",\"Exercise 4 · 4314~4323\",\"quid\",1,\"\"]"
+     }
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      3,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "polluted",
+       "si": 1
+      },
+      {
+       "word": "quid",
+       "si": 1
+      },
+      {
+       "word": "ceasefire",
+       "si": 1
+      },
+      {
+       "word": "supervise",
+       "si": 1
+      },
+      {
+       "word": "syllable",
+       "si": 1
+      },
+      {
+       "word": "dissatisfied",
+       "si": 1
+      },
+      {
+       "word": "linger",
+       "si": 1
+      },
+      {
+       "word": "linger",
+       "si": 2
+      },
+      {
+       "word": "epidemiology",
+       "si": 1
+      },
+      {
+       "word": "incur",
+       "si": 1
       }
      ]
     },
@@ -5530,22 +5006,21 @@
       "exercises",
       4,
       "words",
-      0
+      7
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "reassure",
-      "ko": "① 안심시키다",
-      "ex": "Mom {{BLANK}}d me before the big test.",
-      "tr": "엄마가 큰 시험 전에 나를 안심시켜 줬어.",
-      "c": "re(다시)+assure(확신시키다). reassure+사람+that절로 쓴다.",
-      "ipa": "ˌriəˈʃʊr",
-      "pos": "v.",
-      "word": "reassure",
+      "en": "postgraduate",
+      "ko": "① (영) 대학원의, 졸업 후의",
+      "ex": "My cousin started a {{BLANK}} course in Seoul.",
+      "tr": "우리 사촌은 서울에서 대학원 과정을 시작했어.",
+      "c": "post(뒤)+graduate(졸업). 미국은 보통 graduate school이라 한다.",
+      "ipa": "ˌpoʊstˈɡrædʒuət",
+      "pos": "adj.",
+      "word": "postgraduate",
       "si": 1,
-      "sn": 1,
-      "meow": "reassure, 안심시킬 생각 없다고양. 더 하라고양."
+      "sn": 1
      }
     },
     {
@@ -5610,23 +5085,197 @@
     },
     {
      "path": [
-      45,
+      44,
       "exercises",
-      5,
+      6,
       "words",
-      8
+      11
      ],
      "oldExists": true,
      "newExists": false,
      "old": {
-      "en": "skillfully",
-      "ko": "① 능숙하게, 솜씨 좋게",
-      "ex": "She {{BLANK}} cut the paper into a heart.",
-      "tr": "걔가 솜씨 좋게 종이를 하트 모양으로 잘랐어.",
-      "c": "영국식은 skilfully, 미국식은 skillfully. skill(기술)에서 온 말.",
-      "ipa": "ˈskɪlfəli",
-      "pos": "adv.",
-      "word": "skillfully",
+      "en": "telly",
+      "ko": "① (영) 텔레비전",
+      "ex": "We watched a show on the {{BLANK}}.",
+      "tr": "우리는 텔레비전으로 프로그램 하나를 봤어.",
+      "c": "informal. television의 영국식 줄임말이다. 미국은 TV.",
+      "ipa": "ˈtɛli",
+      "pos": "n.",
+      "word": "telly",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      6,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "overturn",
+       "si": 1
+      },
+      {
+       "word": "overturn",
+       "si": 2
+      },
+      {
+       "word": "shatter",
+       "si": 1
+      },
+      {
+       "word": "shatter",
+       "si": 2
+      },
+      {
+       "word": "tempt",
+       "si": 1
+      },
+      {
+       "word": "tempt",
+       "si": 2
+      },
+      {
+       "word": "lorry",
+       "si": 1
+      },
+      {
+       "word": "yellowish",
+       "si": 1
+      },
+      {
+       "word": "detain",
+       "si": 1
+      },
+      {
+       "word": "detain",
+       "si": 2
+      },
+      {
+       "word": "downwards",
+       "si": 1
+      },
+      {
+       "word": "telly",
+       "si": 1
+      },
+      {
+       "word": "uncontrolled",
+       "si": 1
+      },
+      {
+       "word": "affirm",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      0,
+      "words",
+      3
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "granddad",
+      "ko": "① 할아버지",
+      "ex": "My {{BLANK}} still calls me every Sunday morning.",
+      "tr": "우리 할아버지는 아직도 일요일 아침마다 나한테 전화하셔.",
+      "c": "grand+dad로 가운데 d가 겹친다. 영국에서는 가운데 d가 하나인 grandad로도 쓴다.",
+      "ipa": "ˈɡrændæd",
+      "pos": "n.",
+      "word": "granddad",
+      "si": 1,
+      "sn": 1
+     }
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      0,
+      "preDeletion"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": [
+      {
+       "word": "dissection",
+       "si": 1
+      },
+      {
+       "word": "handout",
+       "si": 1
+      },
+      {
+       "word": "handout",
+       "si": 2
+      },
+      {
+       "word": "granddad",
+       "si": 1
+      },
+      {
+       "word": "outward",
+       "si": 1
+      },
+      {
+       "word": "unkind",
+       "si": 1
+      },
+      {
+       "word": "preside",
+       "si": 1
+      },
+      {
+       "word": "conduction",
+       "si": 1
+      },
+      {
+       "word": "erupt",
+       "si": 1
+      },
+      {
+       "word": "erupt",
+       "si": 2
+      },
+      {
+       "word": "oscillation",
+       "si": 1
+      },
+      {
+       "word": "businesswoman",
+       "si": 1
+      }
+     ]
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      5,
+      "words",
+      3
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": {
+      "en": "headquarter",
+      "ko": "① 본부를 두다",
+      "ex": "The company is {{BLANK}}ed in Seoul now.",
+      "tr": "그 회사는 지금 서울에 본사를 두고 있어.",
+      "c": "보통 수동태로 쓴다. 명사 headquarters(본사)는 -s가 늘 붙는다.",
+      "ipa": "ˈhɛdˌkwɔrtɚ",
+      "pos": "v.",
+      "word": "headquarter",
       "si": 1,
       "sn": 1
      }

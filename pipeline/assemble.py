@@ -157,7 +157,7 @@ for change in placement['titleChanges']:
 from placement_regrouping import apply_regrouping
 data = apply_regrouping(data)
 
-# 26.10.10 표제어 정리(PRINCIPLES 2-8): 저작 원본은 그대로 두고 화면 배치에서만 뺀다.
+# 26.10.10 표제어 정리(PRINCIPLES 2-8): 범위와 상관없거나 같은 뜻 다른 꼴인 말을 저작 원본은 그대로 두고 화면 배치에서만 뺀다.
 # 카드를 뺀 연습에는 빼기 전 카드 목록(preDeletion)을 남겨 완료 기록을 이어받게 한다.
 prune = read(P / 'prune-20261010.json')
 drop = {w.lower() for w in prune['words']}
