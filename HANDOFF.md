@@ -11,6 +11,7 @@
   - 초안: 문법 지도 143항목 `pipeline/grammar/syllabus-draft-20261010.json`(페이지 https://claude.ai/artifact/Dhp7PgRApVa9LctYUgmNV6 ), 0세트 전체 초안 234장 `set0-draft-20261010.json`(페이지 https://claude.ai/artifact/BB5W7HkzszXtuQ1H2UnC8E ), 영신 검토 대기·데이터 반영 전.
   - 영신 승인(10/10): 수능 문법 전체 포함, 구조 정정안(0세트 약 230장·1~4세트 순서 유지·5세트 문법 뜻 분산), 143항목, 작업 순서(0세트 → 5세트 → 1~4세트 → 6~45세트 → Oxford 신규). 남은 확인: goodness ② 삭제 여부, 2022 교육과정 원문 대조(ncic.re.kr 허용 필요).
   - 정리(10/10, PRINCIPLES 2-8): 기존 표제어 73개(90장)를 뺐다(로컬, 배포 전). FABLE 7,050장·표제어 4,914·화면 연습 628. 조립 단계에서 빼고 preDeletion으로 진도·모아둔 카드를 잇는다([pipeline README](pipeline/README.md)). 원장 `prune-20261010`이 복원 체인 맨 위. 검사 34/34(prune.test 추가), exaudit 10.
+  - 정리 2차 후보(10/10, 제안): 마더텅·EBS에 없는 표제어 750개. 권장은 격식·전문·시사어와 영국식·속어·같은 말 414개(506장)만 빼고, 투명한 파생어 299개는 세트 작업 때 다시 보는 것. 목록 `pipeline/prune-candidates-20261010-2.json`, 페이지 https://claude.ai/artifact/Ck1qfX4fER1pqcupE5rQwn (영신 선택은 페이지 db `tiers`·`words`에서 읽는다). 영신 결정 대기, 데이터 변경 없음.
   - 순서 통제(10/10, PRINCIPLES 2-1): 새로 쓰거나 고친 예문은 `python3 pipeline/ordercheck.py`로 본다. 기준값 앞당김 1개 490장·2개 이상 82장.
 
 - **2026-10-08 Claude 리뷰 후속 일괄 배포**: 커밋과 Pages 확인 결과는 [DEPLOYMENT](DEPLOYMENT.md)에 있다. **[PRINCIPLES.md](PRINCIPLES.md)를 먼저 읽을 것** — 고양이 정의, 예문 통제·3줄 한계, 빈칸 중의성, 해설 읽을 시간의 이유를 담았다.
