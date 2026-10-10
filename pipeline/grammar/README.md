@@ -22,5 +22,5 @@ python3 pipeline/grammar/measure.py --cards cards.json # 카드별 태그 저장
 ## 초안 (2026-10-10, 영신 검토 대기)
 
 - `syllabus-draft-20261010.json`: 문법 지도 143항목. 구간(처음 소개하는 세트)·등급(노출 목표 집중 15·표준 8·주변 3회)·한국 학습자 약점·수능 어법 핵심·EGP 첫 수준. 읽기 페이지: https://claude.ai/artifact/Dhp7PgRApVa9LctYUgmNV6
-- `set0-pilot-20261010.json`: 0세트 초석 44장 초안(예문·해석·해설). 데이터에는 아직 반영하지 않았다. 읽기 페이지: https://claude.ai/artifact/BB5W7HkzszXtuQ1H2UnC8E
+- `set0-draft-20261010.json`: 0세트 전체 234장·23연습 초안(초석 45장 + 기존 0세트 187장 + Oxford no one·ice cream). 초석 44장 시범본을 이어받았다. 데이터에는 아직 반영하지 않았다. 읽기 페이지: https://claude.ai/artifact/BB5W7HkzszXtuQ1H2UnC8E
 - 근거: 최신 연구(명시적 규칙 뒤 직접 쓰기, 첫 소개 뒤 고른 반복, 날을 달리한 재회, 한국어가 허용하는 오류에 O/X), 수능·평가원 23회 어법 정답 포인트, Cambridge EGP 수출본. 2022 교육과정 [별표 4] 원문 대조는 네트워크 제한으로 남았다.

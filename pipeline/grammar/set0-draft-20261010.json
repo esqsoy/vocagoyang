@@ -1,0 +1,2717 @@
+{
+ "status": "초안 — 영신 검토 대기, 데이터 반영 전(2026-10-10)",
+ "page": "https://claude.ai/artifact/BB5W7HkzszXtuQ1H2UnC8E",
+ "summary": "0세트 234장·23연습. 초석 45장(5세트·1세트에서 옮김 + because of 새 카드), 기존 0세트 187장, Oxford 새 카드 no one·ice cream. 바뀐 카드 67장.",
+ "checks": "ordercheck 시뮬레이션: 앞당김 2개 이상 0장, 1개 29장(단서 아닌 자리). 390·360px 문장 3줄 이하. 해설 72자 이하.",
+ "exercises": [
+  {
+   "no": 1,
+   "name": "인사와 나·너",
+   "cards": [
+    {
+     "word": "hello",
+     "si": 1,
+     "g": "전화 인사 This is ~",
+     "ex": "{{BLANK}}, this is Minsu speaking.",
+     "tr": "여보세요, 저 민수예요.",
+     "c": "전화로 나를 밝힐 땐 I am 대신 This is를 써: This is Minsu.",
+     "frm": "0세트 인사·담화",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "hi",
+     "si": 1,
+     "g": "덩어리 인사 How are you?",
+     "ex": "{{BLANK}}, Amy! How are you?",
+     "tr": "안녕, 에이미! 잘 지내?",
+     "c": "How are you?는 통째로 익히는 인사. 대답은 I'm fine. / I'm good.",
+     "frm": "0세트 인사·담화",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "bye",
+     "si": 1,
+     "g": "주어 생략 인사",
+     "ex": "{{BLANK}}, see you tomorrow!",
+     "tr": "잘 가, 내일 봐!",
+     "c": "goodbye의 줄임. See you tomorrow!는 앞의 I'll을 빼고 하는 인사야.",
+     "frm": "0세트 인사·담화",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "thanks",
+     "si": 1,
+     "g": "thanks for+명사",
+     "ex": "{{BLANK}} for your help!",
+     "tr": "도와줘서 고마워!",
+     "c": "Thanks for+명사: ~해 줘서 고마워. 동사로는 Thank you처럼 thank를 써.",
+     "frm": "0세트 인사·담화",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "I",
+     "si": 1,
+     "g": "be 현재: I am / he is",
+     "ex": "{{BLANK}} am fifteen, and my brother is twelve.",
+     "tr": "나는 열다섯 살이고, 남동생은 열두 살이야.",
+     "c": "I 뒤에는 am, 한 사람이나 한 개 뒤에는 is. I는 늘 대문자로 써.",
+     "frm": "0세트 사람",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "you",
+     "si": 1,
+     "g": "be 현재: you are",
+     "ex": "{{BLANK}} are my best friend.",
+     "tr": "넌 내 제일 친한 친구야.",
+     "c": "you 뒤에는 늘 are. 한 명이든 여럿이든 You are ~.",
+     "frm": "5세트 401~410",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "be",
+     "si": 1,
+     "g": "be 원형·명령문",
+     "ex": "Please {{BLANK}} quiet in the library.",
+     "tr": "도서관에서는 조용히 해 줘.",
+     "c": "am·is·are의 원형이 be. Please·Don't 뒤엔 be 그대로: Don't be late!",
+     "frm": "5세트 401~410",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "be",
+     "si": 2,
+     "g": "be = 있다",
+     "ex": "I want to {{BLANK}} at home today.",
+     "tr": "오늘은 집에 있고 싶어.",
+     "c": "be는 ‘~이다’에 더해 ‘(~에) 있다’도 돼: I am at home. 나 집에 있어.",
+     "frm": "5세트 401~410",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "name": "그·우리·그들과 대답",
+   "cards": [
+    {
+     "word": "he",
+     "si": 1,
+     "g": "대명사로 받기 + is",
+     "ex": "This is Minsu. {{BLANK}} is my friend.",
+     "tr": "얘는 민수야. 내 친구야.",
+     "c": "남자 한 명은 he로 받아. 처음엔 이름을 말하고, 다음부턴 he라고 해.",
+     "frm": "5세트 411~420",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "she",
+     "si": 1,
+     "g": "3인칭 단수 -s",
+     "ex": "My mom is a doctor. {{BLANK}} works at a big hospital.",
+     "tr": "우리 엄마는 의사야. 큰 병원에서 일하셔.",
+     "c": "she·he 뒤 일반동사엔 -s를 붙여: she works(O), she work(X).",
+     "frm": "5세트 421~430",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "it",
+     "si": 1,
+     "g": "주어를 빼지 않는 영어",
+     "ex": "I have a new bag. {{BLANK}} is blue.",
+     "tr": "나 새 가방 있어. 파란색이야.",
+     "c": "우리말은 ‘그것은’을 빼도 되지만 영어는 주어를 꼭 써: It is blue.",
+     "frm": "5세트 401~410",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "we",
+     "si": 1,
+     "g": "복수 주어 + 동사원형",
+     "ex": "Mina and I are friends. {{BLANK}} play soccer after school.",
+     "tr": "미나랑 나는 친구야. 우린 방과 후에 축구를 해.",
+     "c": "나를 포함한 여럿은 we. 남과 나를 함께 말할 땐 나를 뒤에: Mina and I.",
+     "frm": "5세트 411~420",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "they",
+     "si": 1,
+     "g": "they + 동사원형 (-s 없음)",
+     "ex": "My cats are hungry. {{BLANK}} want food.",
+     "tr": "우리 고양이들 배고파. 밥 달래.",
+     "c": "여럿은 사람이든 물건이든 they. they 뒤 동사엔 -s가 없어: they want.",
+     "frm": "5세트 421~430",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "yes",
+     "si": 1,
+     "g": "부정의문문 대답",
+     "ex": "\"Aren't you hungry?\" \"{{BLANK}}, I am. Let's eat.\"",
+     "tr": "\"배 안 고파?\" \"아니, 고파. 먹자.\"",
+     "c": "부정으로 물어도 배고프면 Yes, I am. 우리말 ‘아니’가 Yes가 될 수 있어.",
+     "frm": "5세트 481~490",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "no",
+     "si": 1,
+     "g": "부정의문문 대답",
+     "ex": "\"Don't you like milk?\" \"{{BLANK}}, I don't.\"",
+     "tr": "\"우유 안 좋아해?\" \"응, 안 좋아해.\"",
+     "c": "뒤에 I don't가 오면 대답은 No. 우리말 ‘응’이 No가 될 수 있어.",
+     "frm": "1세트 1~10",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "not",
+     "si": 1,
+     "g": "be + not",
+     "ex": "I am {{BLANK}} a teacher. I am a student.",
+     "tr": "나는 선생님이 아니야. 학생이야.",
+     "c": "be 동사 바로 뒤에 not: I'm not. 일반동사는 do not을 써: I don't know.",
+     "frm": "5세트 411~420",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "do",
+     "si": 2,
+     "g": "do 의문문과 짧은 대답",
+     "ex": "\"{{BLANK}} you like cats?\" \"Yes, I do.\"",
+     "tr": "\"고양이 좋아해?\" \"응, 좋아해.\"",
+     "c": "일반동사는 Do로 묻고 do로 답해: Yes, I do. be 동사는 Are you ~?로 물어.",
+     "frm": "5세트 411~420",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "name": "나를·나의",
+   "cards": [
+    {
+     "word": "my",
+     "si": 1,
+     "g": "소유격 + 명사",
+     "ex": "Hi, I'm new. {{BLANK}} name is Jiho.",
+     "tr": "안녕, 나 새로 왔어. 내 이름은 지호야.",
+     "c": "‘나의’는 my. 뒤에 명사가 꼭 와: my name. 명사 없이 ‘내 것’은 mine.",
+     "frm": "5세트 421~430",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "your",
+     "si": 1,
+     "g": "덩어리 질문 What is your name?",
+     "ex": "Hi, I'm Jiho. What is {{BLANK}} name?",
+     "tr": "안녕, 난 지호야. 너는 이름이 뭐야?",
+     "c": "‘너의’는 your. you're(you are)와 소리가 같으니 철자를 구별해.",
+     "frm": "5세트 431~440",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "me",
+     "si": 1,
+     "g": "목적격",
+     "ex": "Can you help {{BLANK}} with this box?",
+     "tr": "이 상자 옮기는 것 좀 도와줄래?",
+     "c": "동사 뒤 ‘나를·나에게’는 me: help me(O), help I(X).",
+     "frm": "5세트 431~440",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "him",
+     "si": 1,
+     "g": "목적격",
+     "ex": "That boy is new here. Do you know {{BLANK}}?",
+     "tr": "저 남자애 새로 왔어. 너 걔 알아?",
+     "c": "he의 ‘~를’ 모양은 him: know him(O), know he(X).",
+     "frm": "5세트 441~450",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "her",
+     "si": 1,
+     "g": "목적격",
+     "ex": "Mina is sad. Let's call {{BLANK}}.",
+     "tr": "미나가 슬퍼해. 걔한테 전화하자.",
+     "c": "she의 ‘~를·~에게’는 her. Let's 뒤에는 동사원형: Let's call.",
+     "frm": "5세트 441~450",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "her",
+     "si": 2,
+     "g": "소유격 her",
+     "ex": "Mina sings well. I really like {{BLANK}} voice.",
+     "tr": "미나는 노래를 잘해. 나 걔 목소리 진짜 좋아.",
+     "c": "her는 ‘그녀의’도 돼. 뒤에 명사가 오면 ‘그녀의’: her voice.",
+     "frm": "5세트 441~450",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "his",
+     "si": 1,
+     "g": "소유격을 빼지 않는 영어",
+     "ex": "Minsu lost {{BLANK}} phone again.",
+     "tr": "민수가 또 폰을 잃어버렸어.",
+     "c": "우리말은 ‘자기’를 빼도 되지만 영어는 his를 꼭 써: lost his phone.",
+     "frm": "5세트 421~430",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "his",
+     "si": 2,
+     "g": "소유대명사",
+     "ex": "This seat is {{BLANK}}, not yours.",
+     "tr": "이 자리 걔 거야, 네 거 아니고.",
+     "c": "명사 없이 ‘그의 것’도 his. my는 mine, your는 yours로 바뀌어.",
+     "frm": "5세트 421~430",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "its",
+     "si": 1,
+     "g": "its와 it's 구별",
+     "ex": "The cat is washing {{BLANK}} face.",
+     "tr": "고양이가 자기 얼굴을 씻고 있어.",
+     "c": "its는 ‘그것의’. it's는 it is의 줄임: It's cold. 아포스트로피로 구별해.",
+     "frm": "5세트 481~490",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "our",
+     "si": 1,
+     "g": "우리 엄마 = my mom",
+     "ex": "We did it! {{BLANK}} team won the game!",
+     "tr": "해냈다! 우리 팀이 이겼어!",
+     "c": "여럿의 ‘우리’는 our. 하지만 우리 엄마처럼 내 가족은 my: my mom.",
+     "frm": "5세트 451~460",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "their",
+     "si": 1,
+     "g": "their·there·they're",
+     "ex": "The students love {{BLANK}} new teacher.",
+     "tr": "학생들이 새 선생님을 엄청 좋아해.",
+     "c": "they의 ‘그들의’는 their. there(거기), they're(they are)와 소리가 같아.",
+     "frm": "5세트 431~440",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "us",
+     "si": 1,
+     "g": "목적격 · Let's",
+     "ex": "We don't know. Please tell {{BLANK}} the answer.",
+     "tr": "우린 몰라요. 우리한테 답 좀 알려 줘요.",
+     "c": "we의 ‘우리를·우리에게’는 us. Let's는 Let us의 줄임말이야.",
+     "frm": "5세트 461~470",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "them",
+     "si": 1,
+     "g": "목적격",
+     "ex": "My parents are out. I'll call {{BLANK}} later.",
+     "tr": "부모님 나가셨어. 이따 부모님께 전화할게.",
+     "c": "they의 ‘그들을·그들에게’는 them. 사람이든 물건이든 여럿이면 them.",
+     "frm": "5세트 441~450",
+     "changed": [
+      "c"
+     ]
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "name": "이것·저것과 a·the",
+   "cards": [
+    {
+     "word": "this",
+     "si": 1,
+     "g": "This is ~ 소개",
+     "ex": "{{BLANK}} is my new phone.",
+     "tr": "이게 내 새 폰이야.",
+     "c": "가까운 것 하나는 this. 사람을 소개할 때도 This is my brother.",
+     "frm": "5세트 411~420",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "that",
+     "si": 1,
+     "g": "지시사 + 단수 명사",
+     "ex": "Look at {{BLANK}} bird in the tree!",
+     "tr": "나무에 앉은 저 새 좀 봐!",
+     "c": "먼 것 하나는 that: that bird. 여럿이면 these·those를 써.",
+     "frm": "5세트 411~420",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "here",
+     "si": 1,
+     "g": "here 앞 to 없음",
+     "ex": "Come {{BLANK}} and look at this.",
+     "tr": "이리 와서 이것 좀 봐.",
+     "c": "here 앞에는 to를 쓰지 않아: come here(O), come to here(X).",
+     "frm": "5세트 451~460",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "there",
+     "si": 1,
+     "g": "there 앞 to 없음",
+     "ex": "Don't go {{BLANK}} alone at night.",
+     "tr": "밤에 거기 혼자 가지 마.",
+     "c": "there도 to 없이 써: go there(O), go to there(X).",
+     "frm": "5세트 441~450",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "a",
+     "si": 1,
+     "g": "a + 단수 / 복수 -s",
+     "ex": "I have {{BLANK}} dog and two cats.",
+     "tr": "나 개 한 마리랑 고양이 두 마리 있어.",
+     "c": "셀 수 있는 것 하나 앞엔 a, 둘부터는 -s: a dog, two cats.",
+     "frm": "5세트 401~410",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "an",
+     "si": 1,
+     "g": "a/an 소리 기준",
+     "ex": "I ate {{BLANK}} egg and a banana.",
+     "tr": "나 달걀 하나랑 바나나 하나 먹었어.",
+     "c": "모음 소리 앞엔 an: an egg, an hour. 철자 말고 소리로 정해: a uniform.",
+     "frm": "5세트 401~410",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "the",
+     "si": 1,
+     "g": "처음 a, 다시 the",
+     "ex": "I saw a dog. {{BLANK}} dog was very big.",
+     "tr": "개 한 마리를 봤어. 그 개는 아주 컸어.",
+     "c": "처음 말할 땐 a, 다시 말할 땐 the: a dog → the dog.",
+     "frm": "5세트 401~410",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "name": "잇는 말과 묻는 말",
+   "cards": [
+    {
+     "word": "and",
+     "si": 1,
+     "g": "A, B, and C",
+     "ex": "I like pizza {{BLANK}} chicken.",
+     "tr": "나 피자랑 치킨 좋아해.",
+     "c": "같은 쪽의 말을 이을 때 and. 셋이면 마지막 앞에만: A, B, and C.",
+     "frm": "5세트 401~410",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "or",
+     "si": 1,
+     "g": "선택 의문문",
+     "ex": "Do you want juice {{BLANK}} milk?",
+     "tr": "주스 마실래, 우유 마실래?",
+     "c": "둘 중 고르는 질문엔 yes/no 대신 고른 것으로 답해: Milk, please.",
+     "frm": "5세트 421~430",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "but",
+     "si": 1,
+     "g": "대조의 but",
+     "ex": "This bag is nice, {{BLANK}} it is too small.",
+     "tr": "이 가방 예쁜데, 너무 작아.",
+     "c": "앞말과 반대되는 말을 이을 때 but. 앞에 쉼표를 자주 찍어.",
+     "frm": "5세트 411~420",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "what",
+     "si": 1,
+     "g": "wh + do 의문문",
+     "ex": "{{BLANK}} do you want for lunch?",
+     "tr": "점심으로 뭐 먹고 싶어?",
+     "c": "what 뒤에 do를 넣어 물어: What do you want? 답은 내용으로 해.",
+     "frm": "5세트 421~430",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "who",
+     "si": 1,
+     "g": "주어를 묻는 who",
+     "ex": "{{BLANK}} ate my ice cream?",
+     "tr": "누가 내 아이스크림 먹었어?",
+     "c": "누가 했는지 물을 땐 who 뒤에 바로 동사. do를 쓰지 않아.",
+     "frm": "5세트 431~440",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "where",
+     "si": 1,
+     "g": "where + do",
+     "ex": "{{BLANK}} do you live?",
+     "tr": "너 어디 살아?",
+     "c": "장소를 물을 때 where. 답은 in·at으로 해: I live in Seoul.",
+     "frm": "5세트 471~480",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "how",
+     "si": 1,
+     "g": "방법의 how",
+     "ex": "\"{{BLANK}} do you go to school?\" \"By bus.\"",
+     "tr": "\"학교에 어떻게 가?\" \"버스 타고.\"",
+     "c": "방법을 물을 때 how. 답에서 탈것은 by bus처럼 a 없이 써.",
+     "frm": "5세트 441~450",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "because of",
+     "si": 1,
+     "g": "because of + 명사",
+     "ex": "We stayed home {{BLANK}} the rain.",
+     "tr": "비 때문에 우리는 집에 있었어.",
+     "c": "명사 앞엔 because of, 문장 앞엔 because: because it rained.",
+     "frm": "새 카드",
+     "new": {
+      "en": "because of",
+      "ko": "① ~ 때문에 (+명사)",
+      "pos": "prep.phr.",
+      "ipa": "bɪˈkɔz əv",
+      "sn": 1
+     },
+     "changed": []
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "name": "수 I (0~10)",
+   "cards": [
+    {
+     "word": "zero",
+     "si": 1,
+     "g": "0의 읽기",
+     "ex": "People in India were the first to use {{BLANK}} as a number.",
+     "tr": "0을 하나의 수로 처음 쓴 사람들은 인도 사람들이었어.",
+     "c": "below zero 영하. 전화번호의 0은 흔히 oh[오우]로 읽고 zero도 쓴다.",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    },
+    {
+     "word": "one",
+     "si": 1,
+     "g": "one + 단수",
+     "ex": "I have only {{BLANK}} brother.",
+     "tr": "난 형제가 한 명뿐이야.",
+     "c": "one 뒤에는 단수 명사: one brother. 서수는 first(첫 번째).",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    },
+    {
+     "word": "one",
+     "si": 2,
+     "g": "대명사 one",
+     "ex": "This pen is broken; can I use that {{BLANK}}?",
+     "tr": "이 펜 고장 났어, 저거 써도 돼?",
+     "c": "앞에 나온 명사(pen)를 반복하지 않으려고 대신 쓰는 one. it은 '바로 그것(특정)', one은 '같은 종류 중 하나'.",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    },
+    {
+     "word": "one",
+     "si": 3,
+     "g": "일반인 one",
+     "ex": "{{BLANK}} should always keep a promise.",
+     "tr": "누구든 약속은 지켜야 하는 법이다.",
+     "c": "격식체에서 일반적인 사람을 가리켜. one's는 소유격, oneself는 재귀대명사야.",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    },
+    {
+     "word": "two",
+     "si": 1,
+     "g": "둘부터 복수 -s",
+     "ex": "I have {{BLANK}} older brothers.",
+     "tr": "난 형이 둘이야.",
+     "c": "둘부터는 명사에 -s를 붙여: two brothers. too·to와 소리가 같아.",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "three",
+     "si": 1,
+     "g": "복수",
+     "ex": "I eat {{BLANK}} meals a day.",
+     "tr": "난 하루에 세 끼 먹어.",
+     "c": "서수는 third(세 번째).",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    },
+    {
+     "word": "four",
+     "si": 1,
+     "g": "복수",
+     "ex": "A dog has {{BLANK}} legs, and a bird has two.",
+     "tr": "개는 다리가 넷이고, 새는 둘이야.",
+     "c": "서수는 fourth(네 번째).",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": [
+      "ex",
+      "tr"
+     ]
+    },
+    {
+     "word": "five",
+     "si": 1,
+     "g": "복수",
+     "ex": "A hand has {{BLANK}} fingers.",
+     "tr": "손에는 손가락이 다섯 개야.",
+     "c": "서수는 fifth(다섯 번째). five의 ve가 f로 바뀐다.",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    },
+    {
+     "word": "six",
+     "si": 1,
+     "g": "복수",
+     "ex": "A bee has {{BLANK}} legs.",
+     "tr": "벌은 다리가 여섯 개야.",
+     "c": "서수는 sixth(여섯 번째).",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    },
+    {
+     "word": "seven",
+     "si": 1,
+     "g": "시각 읽기",
+     "ex": "The movie starts at {{BLANK}} thirty.",
+     "tr": "영화는 7시 30분에 시작해.",
+     "c": "서수는 seventh. seven thirty처럼 시각은 시·분을 그냥 이어 읽는다.",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    },
+    {
+     "word": "eight",
+     "si": 1,
+     "g": "시각",
+     "ex": "School starts at {{BLANK}} in the morning.",
+     "tr": "학교는 아침 8시에 시작해.",
+     "c": "gh는 소리가 안 난다: eight[eɪt]. '여덟째'는 eighth.",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    },
+    {
+     "word": "nine",
+     "si": 1,
+     "g": "at ~ o'clock",
+     "ex": "The game starts at {{BLANK}} o'clock.",
+     "tr": "경기는 9시 정각에 시작해.",
+     "c": "서수는 e를 빼고 ninth. nineth로 쓰면 틀린다.",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    },
+    {
+     "word": "ten",
+     "si": 1,
+     "g": "시각",
+     "ex": "School starts at {{BLANK}} today.",
+     "tr": "오늘 학교 10시에 시작해.",
+     "c": "서수는 tenth. ten o'clock 10시.",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "name": "수 II (11~19)",
+   "cards": [
+    {
+     "word": "eleven",
+     "si": 1,
+     "g": "",
+     "ex": "The game ends at {{BLANK}}.",
+     "tr": "경기는 11시에 끝나.",
+     "c": "서수는 eleventh.",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    },
+    {
+     "word": "twelve",
+     "si": 1,
+     "g": "",
+     "ex": "There are {{BLANK}} months in a year.",
+     "tr": "일 년은 열두 달이야.",
+     "c": "서수는 twelfth(열두 번째). v가 f로 바뀐다.",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    },
+    {
+     "word": "thirteen",
+     "si": 1,
+     "g": "",
+     "ex": "My cousin is {{BLANK}} years old.",
+     "tr": "내 사촌은 열세 살이야.",
+     "c": "-teen은 뒤, -ty는 앞에 강세. thirty(30)와 구별.",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    },
+    {
+     "word": "fourteen",
+     "si": 1,
+     "g": "",
+     "ex": "Our class has {{BLANK}} boys.",
+     "tr": "우리 반에 남자애가 열넷이야.",
+     "c": "",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    },
+    {
+     "word": "fifteen",
+     "si": 1,
+     "g": "every + 복수 수량",
+     "ex": "The bus comes every {{BLANK}} minutes.",
+     "tr": "버스는 15분마다 와.",
+     "c": "five가 fif-로 변한다: fifteen, fifty, fifth.",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    },
+    {
+     "word": "sixteen",
+     "si": 1,
+     "g": "나이 말하기",
+     "ex": "My sister is {{BLANK}} years old.",
+     "tr": "내 여동생은 열여섯 살이야.",
+     "c": "나이는 숫자만 말해도 돼: She is sixteen (years old).",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "seventeen",
+     "si": 1,
+     "g": "",
+     "ex": "I'll be {{BLANK}} next month.",
+     "tr": "나 다음 달에 열일곱 돼.",
+     "c": "",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    },
+    {
+     "word": "eighteen",
+     "si": 1,
+     "g": "",
+     "ex": "You can vote at {{BLANK}} in Korea.",
+     "tr": "한국에선 열여덟에 투표할 수 있어.",
+     "c": "t는 하나만: eighteen.",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    },
+    {
+     "word": "nineteen",
+     "si": 1,
+     "g": "",
+     "ex": "My brother is {{BLANK}} this year.",
+     "tr": "우리 형은 올해 열아홉이야.",
+     "c": "e를 빼지 않는다(ninth와 다름).",
+     "frm": "0세트 수사 I (0~19)",
+     "changed": []
+    }
+   ]
+  },
+  {
+   "no": 8,
+   "name": "수 III (20~조)",
+   "cards": [
+    {
+     "word": "twenty",
+     "si": 1,
+     "g": "",
+     "ex": "It costs {{BLANK}} dollars.",
+     "tr": "그거 20달러야.",
+     "c": "-ty는 앞, -teen은 뒤에 강세. twelve와 뿌리가 같다.",
+     "frm": "0세트 수사 II (20~90·백·천·백만·십억·조)",
+     "changed": []
+    },
+    {
+     "word": "thirty",
+     "si": 1,
+     "g": "",
+     "ex": "Class starts at nine {{BLANK}}.",
+     "tr": "수업은 9시 30분에 시작해.",
+     "c": "thirteen(13)과 혼동 주의 — 강세 위치가 다르다.",
+     "frm": "0세트 수사 II (20~90·백·천·백만·십억·조)",
+     "changed": []
+    },
+    {
+     "word": "forty",
+     "si": 1,
+     "g": "",
+     "ex": "My father is {{BLANK}} years old.",
+     "tr": "우리 아빠는 마흔이셔.",
+     "c": "철자 함정: four인데 forty(u 없음).",
+     "frm": "0세트 수사 II (20~90·백·천·백만·십억·조)",
+     "changed": []
+    },
+    {
+     "word": "fifty",
+     "si": 1,
+     "g": "",
+     "ex": "The book costs {{BLANK}} dollars.",
+     "tr": "그 책 50달러야.",
+     "c": "fif-: fifteen·fifty·fifth.",
+     "frm": "0세트 수사 II (20~90·백·천·백만·십억·조)",
+     "changed": []
+    },
+    {
+     "word": "sixty",
+     "si": 1,
+     "g": "",
+     "ex": "An hour has {{BLANK}} minutes.",
+     "tr": "한 시간은 60분이야.",
+     "c": "sixteen(16)과 강세로 구별.",
+     "frm": "0세트 수사 II (20~90·백·천·백만·십억·조)",
+     "changed": []
+    },
+    {
+     "word": "seventy",
+     "si": 1,
+     "g": "",
+     "ex": "My grandmother is {{BLANK}} this year.",
+     "tr": "우리 할머니 올해 일흔이셔.",
+     "c": "",
+     "frm": "0세트 수사 II (20~90·백·천·백만·십억·조)",
+     "changed": []
+    },
+    {
+     "word": "eighty",
+     "si": 1,
+     "g": "",
+     "ex": "The old man is nearly {{BLANK}}.",
+     "tr": "그 할아버지는 거의 여든이셔.",
+     "c": "eighteen(18)과 구별.",
+     "frm": "0세트 수사 II (20~90·백·천·백만·십억·조)",
+     "changed": []
+    },
+    {
+     "word": "ninety",
+     "si": 1,
+     "g": "",
+     "ex": "She lived to be {{BLANK}}.",
+     "tr": "그분은 아흔까지 사셨어.",
+     "c": "nine의 e를 유지해 ninety로 쓴다. nineteen(19)과 강세로 구별한다.",
+     "frm": "0세트 수사 II (20~90·백·천·백만·십억·조)",
+     "changed": []
+    },
+    {
+     "word": "hundred",
+     "si": 1,
+     "g": "hundred에 -s 없음",
+     "ex": "This bag costs a {{BLANK}} dollars.",
+     "tr": "이 가방 100달러야.",
+     "c": "two hundred처럼 정확한 수 뒤에는 -s를 붙이지 않는다. hundreds of는 ‘수백의’.",
+     "frm": "0세트 수사 II (20~90·백·천·백만·십억·조)",
+     "changed": []
+    },
+    {
+     "word": "thousand",
+     "si": 1,
+     "g": "",
+     "ex": "This town is over a {{BLANK}} years old.",
+     "tr": "이 마을은 천 년도 더 됐어.",
+     "c": "우리는 만 단위, 영어는 천 단위로 센다. 그 위는 million→billion→trillion.",
+     "frm": "0세트 수사 II (20~90·백·천·백만·십억·조)",
+     "changed": []
+    },
+    {
+     "word": "million",
+     "si": 1,
+     "g": "",
+     "ex": "Goyang has over a {{BLANK}} people.",
+     "tr": "고양시는 인구가 백만 명이 넘어.",
+     "c": "1 million=100만(0 여섯 개). two million처럼 정확한 수 뒤에는 -s를 붙이지 않는다.",
+     "frm": "0세트 수사 II (20~90·백·천·백만·십억·조)",
+     "changed": []
+    },
+    {
+     "word": "billion",
+     "si": 1,
+     "g": "",
+     "ex": "Over eight {{BLANK}} people live on Earth.",
+     "tr": "지구엔 80억이 넘는 사람이 살아.",
+     "c": "10억. 천×million=billion(0 아홉 개). 우리말 단위와 어긋나는 자리: 1 billion won=10억 원.",
+     "frm": "0세트 수사 II (20~90·백·천·백만·십억·조)",
+     "changed": []
+    },
+    {
+     "word": "trillion",
+     "si": 1,
+     "g": "",
+     "ex": "The country's debt is over a {{BLANK}} dollars.",
+     "tr": "그 나라 빚이 1조 달러가 넘어.",
+     "c": "천×billion=trillion(0 열두 개).",
+     "frm": "0세트 수사 II (20~90·백·천·백만·십억·조)",
+     "changed": []
+    }
+   ]
+  },
+  {
+   "no": 9,
+   "name": "요일과 on",
+   "cards": [
+    {
+     "word": "Monday",
+     "si": 1,
+     "g": "요일 앞 on",
+     "ex": "I have a test on {{BLANK}}.",
+     "tr": "나 월요일에 시험 있어.",
+     "c": "요일 앞엔 on. 요일·월은 늘 대문자.",
+     "frm": "0세트 요일·월",
+     "changed": []
+    },
+    {
+     "word": "Tuesday",
+     "si": 1,
+     "g": "",
+     "ex": "We have music class on {{BLANK}}.",
+     "tr": "우리 화요일에 음악 수업 있어.",
+     "c": "게르만 전쟁의 신 Tiw의 날.",
+     "frm": "0세트 요일·월",
+     "changed": []
+    },
+    {
+     "word": "Wednesday",
+     "si": 1,
+     "g": "",
+     "ex": "See you on {{BLANK}}!",
+     "tr": "수요일에 봐!",
+     "c": "철자 함정: Wed-nes-day인데 발음은 [웬즈데이].",
+     "frm": "0세트 요일·월",
+     "changed": []
+    },
+    {
+     "word": "Thursday",
+     "si": 1,
+     "g": "",
+     "ex": "The movie comes out on {{BLANK}}.",
+     "tr": "그 영화 목요일에 개봉해.",
+     "c": "Thur-: 북유럽 신 Thor의 날.",
+     "frm": "0세트 요일·월",
+     "changed": []
+    },
+    {
+     "word": "Friday",
+     "si": 1,
+     "g": "every 앞엔 on 없음",
+     "ex": "I watch a movie every {{BLANK}} night.",
+     "tr": "난 금요일 밤마다 영화를 봐.",
+     "c": "every·next·last 앞에는 on을 쓰지 않아. Fri-는 여신 Frigg의 날.",
+     "frm": "0세트 요일·월",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "Saturday",
+     "si": 1,
+     "g": "",
+     "ex": "Let's play soccer on {{BLANK}}.",
+     "tr": "토요일에 축구 하자.",
+     "c": "Satur-: 토성 Saturn의 날.",
+     "frm": "0세트 요일·월",
+     "changed": []
+    },
+    {
+     "word": "Sunday",
+     "si": 1,
+     "g": "",
+     "ex": "I sleep late on {{BLANK}}.",
+     "tr": "일요일엔 늦잠 자.",
+     "c": "Sun-: 해의 날. 한국어 '일(日)요일'과 같은 발상.",
+     "frm": "0세트 요일·월",
+     "changed": []
+    }
+   ]
+  },
+  {
+   "no": 10,
+   "name": "달과 in·on",
+   "cards": [
+    {
+     "word": "January",
+     "si": 1,
+     "g": "달 앞 in",
+     "ex": "The new year starts in {{BLANK}}.",
+     "tr": "새해는 1월에 시작하지.",
+     "c": "월 앞엔 in: in January. 줄임 Jan.",
+     "frm": "0세트 요일·월",
+     "changed": []
+    },
+    {
+     "word": "February",
+     "si": 1,
+     "g": "",
+     "ex": "It is very cold in {{BLANK}}.",
+     "tr": "2월은 아주 추워.",
+     "c": "철자 함정: Feb-ru-ary, r이 두 개.",
+     "frm": "0세트 요일·월",
+     "changed": []
+    },
+    {
+     "word": "march",
+     "si": 1,
+     "g": "날짜 앞 on",
+     "ex": "International Women's Day is on {{BLANK}} 8.",
+     "tr": "세계 여성의 날은 3월 8일이야.",
+     "c": "3월은 대문자 March. 소문자 march(행진하다)와는 어원이 다른 별개 단어로, 전쟁의 신 Mars의 달에서 왔다.",
+     "frm": "0세트 요일·월",
+     "changed": []
+    },
+    {
+     "word": "April",
+     "si": 1,
+     "g": "in April / on 그날",
+     "ex": "Youngsin Choi got married on {{BLANK}} Fools' Day.",
+     "tr": "영신초이는 만우절(4월 1일)에 결혼했어.",
+     "c": "April Fools' Day=만우절. 달은 in April, 특정한 날은 on April Fools' Day.",
+     "frm": "0세트 요일·월",
+     "changed": []
+    },
+    {
+     "word": "may",
+     "si": 1,
+     "g": "날짜 앞 on",
+     "ex": "Many countries celebrate Workers' Day on {{BLANK}} 1.",
+     "tr": "많은 나라에서는 5월 1일에 노동절을 기념해.",
+     "c": "달 이름 May는 항상 대문자로 시작한다. 조동사 may와 발음은 같고 뜻은 다르다.",
+     "frm": "0세트 요일·월",
+     "changed": []
+    },
+    {
+     "word": "June",
+     "si": 1,
+     "g": "",
+     "ex": "My birthday is in {{BLANK}}.",
+     "tr": "내 생일은 6월이야.",
+     "c": "",
+     "frm": "0세트 요일·월",
+     "changed": []
+    },
+    {
+     "word": "July",
+     "si": 1,
+     "g": "날짜 앞 on",
+     "ex": "The American Declaration of Independence was adopted on {{BLANK}} 4, 1776.",
+     "tr": "미국 독립선언서는 1776년 7월 4일에 채택됐어.",
+     "c": "강세 주의.",
+     "frm": "0세트 요일·월",
+     "changed": []
+    },
+    {
+     "word": "August",
+     "si": 1,
+     "g": "달·연도 앞 in",
+     "ex": "In {{BLANK}} 1789, France said that all people are born free and equal.",
+     "tr": "1789년 8월, 프랑스는 모든 사람이 자유롭고 평등하게 태어난다고 선언했어.",
+     "c": "줄임 Aug.",
+     "frm": "0세트 요일·월",
+     "changed": [
+      "ex",
+      "tr"
+     ]
+    },
+    {
+     "word": "September",
+     "si": 1,
+     "g": "",
+     "ex": "In England, the school year usually starts in {{BLANK}}.",
+     "tr": "잉글랜드에서는 새 학년이 보통 9월에 시작해.",
+     "c": "한국은 3월경, 영미권은 9월경 새 학년을 시작해. 라틴어 septem=7. 옛 로마력은 3월부터 세어 일곱째 달.",
+     "frm": "0세트 요일·월",
+     "changed": []
+    },
+    {
+     "word": "October",
+     "si": 1,
+     "g": "",
+     "ex": "{{BLANK}} is the tenth month of the year.",
+     "tr": "10월은 한 해의 열 번째 달이야.",
+     "c": "라틴어 octo=8. 옛 로마력은 3월부터 세어 여덟째 달.",
+     "frm": "0세트 요일·월",
+     "changed": []
+    },
+    {
+     "word": "November",
+     "si": 1,
+     "g": "",
+     "ex": "The Berlin Wall fell in {{BLANK}} 1989.",
+     "tr": "베를린 장벽은 1989년 11월에 무너졌어.",
+     "c": "라틴어 novem=9. 옛 로마력은 3월부터 세어 아홉째 달.",
+     "frm": "0세트 요일·월",
+     "changed": []
+    },
+    {
+     "word": "December",
+     "si": 1,
+     "g": "날짜 앞 on",
+     "ex": "On {{BLANK}} 10, 1948, the UN said that all people have human rights.",
+     "tr": "1948년 12월 10일, 유엔은 모든 사람에게 인권이 있다고 선언했어.",
+     "c": "라틴어 decem=10. 옛 로마력은 3월부터 세어 열째 달.",
+     "frm": "0세트 요일·월",
+     "changed": [
+      "ex",
+      "tr"
+     ]
+    }
+   ]
+  },
+  {
+   "no": 11,
+   "name": "가족과 모두·아무도",
+   "cards": [
+    {
+     "word": "dad",
+     "si": 1,
+     "g": "3인칭 -s",
+     "ex": "My {{BLANK}} cooks on Sundays.",
+     "tr": "우리 아빠는 일요일에 요리하셔.",
+     "c": "father의 친근한 말.",
+     "frm": "0세트 사람",
+     "changed": []
+    },
+    {
+     "word": "cousin",
+     "si": 1,
+     "g": "3인칭 -s",
+     "ex": "My {{BLANK}} lives in Busan.",
+     "tr": "내 사촌은 부산에 살아.",
+     "c": "남녀 구별 없이 cousin.",
+     "frm": "0세트 사람",
+     "changed": []
+    },
+    {
+     "word": "grandparent",
+     "si": 1,
+     "g": "복수 -s",
+     "ex": "I visit my {{BLANK}}s every month.",
+     "tr": "난 매달 조부모님을 뵈러 가.",
+     "c": "한 분이면 grandparent, 여러 분이면 grandparents. 할아버지나 할머니를 가리켜.",
+     "frm": "0세트 사람",
+     "changed": []
+    },
+    {
+     "word": "boyfriend",
+     "si": 1,
+     "g": "",
+     "ex": "She has a new {{BLANK}}.",
+     "tr": "걔 남자 친구 새로 생겼어.",
+     "c": "사귀는 사이. 그냥 남자인 친구는 a friend(who is a boy).",
+     "frm": "0세트 사람",
+     "changed": []
+    },
+    {
+     "word": "girlfriend",
+     "si": 1,
+     "g": "",
+     "ex": "He bought flowers for his {{BLANK}}.",
+     "tr": "걔가 여자 친구 주려고 꽃 샀어.",
+     "c": "한 단어로 붙여 쓴다.",
+     "frm": "0세트 사람",
+     "changed": []
+    },
+    {
+     "word": "teenager",
+     "si": 1,
+     "g": "복수 -s",
+     "ex": "This movie is popular with {{BLANK}}s.",
+     "tr": "이 영화는 십 대한테 인기야.",
+     "c": "-teen이 붙는 나이(13~19). 형용사는 teenage.",
+     "frm": "0세트 사람",
+     "changed": []
+    },
+    {
+     "word": "everybody",
+     "si": 1,
+     "g": "단수 취급",
+     "ex": "{{BLANK}} likes the new teacher.",
+     "tr": "다들 새 선생님을 좋아해.",
+     "c": "everyone과 같다. 단수 취급: everybody likes.",
+     "frm": "0세트 사람",
+     "changed": []
+    },
+    {
+     "word": "somebody",
+     "si": 1,
+     "g": "단수 취급",
+     "ex": "{{BLANK}} is at the door.",
+     "tr": "누가 문 앞에 있어.",
+     "c": "someone과 같은 뜻. 단수 취급: somebody is.",
+     "frm": "0세트 사람",
+     "changed": []
+    },
+    {
+     "word": "nobody",
+     "si": 1,
+     "g": "not 없이 부정",
+     "ex": "{{BLANK}} knows the answer.",
+     "tr": "아무도 답을 몰라.",
+     "c": "no one과 같다. 자체가 부정이라 not이 필요 없다.",
+     "frm": "0세트 사람",
+     "changed": []
+    },
+    {
+     "word": "no one",
+     "si": 1,
+     "g": "단수 취급",
+     "ex": "{{BLANK}} was at home, so I came back.",
+     "tr": "집에 아무도 없어서 돌아왔어.",
+     "c": "nobody와 같은 뜻으로 두 단어로 써. 단수로 받아: No one is here.",
+     "frm": "새 카드",
+     "new": {
+      "en": "no one",
+      "ko": "① 아무도 (~않다)",
+      "pos": "pron.",
+      "ipa": "ˈnoʊ wʌn",
+      "sn": 1
+     },
+     "changed": []
+    }
+   ]
+  },
+  {
+   "no": 12,
+   "name": "하는 사람 -er·-or·-ist",
+   "cards": [
+    {
+     "word": "teacher",
+     "si": 1,
+     "g": "동사+-er = 하는 사람",
+     "ex": "Our English {{BLANK}} is from Canada.",
+     "tr": "우리 영어 선생님은 캐나다 출신이야.",
+     "c": "teach에 -er을 붙이면 하는 사람. 선생님은 Ms. Kim처럼 성으로 불러.",
+     "frm": "0세트 사람",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "driver",
+     "si": 1,
+     "g": "-er",
+     "ex": "The bus {{BLANK}} was very kind.",
+     "tr": "버스 기사님이 정말 친절했어.",
+     "c": "taxi driver 택시 기사.",
+     "frm": "0세트 사람",
+     "changed": []
+    },
+    {
+     "word": "worker",
+     "si": 1,
+     "g": "-er",
+     "ex": "In Britain in the 1800s, many factory {{BLANK}}s were children.",
+     "tr": "19세기 영국에서는 공장 노동자 중 어린이가 많았어.",
+     "c": "office worker 회사원, co-worker 동료.",
+     "frm": "0세트 사람",
+     "changed": []
+    },
+    {
+     "word": "visitor",
+     "si": 1,
+     "g": "-or",
+     "ex": "The museum gets many {{BLANK}}s in summer.",
+     "tr": "그 박물관은 여름에 방문객이 많아.",
+     "c": "철자 주의: visiter가 아니라 visitor.",
+     "frm": "0세트 사람",
+     "changed": []
+    },
+    {
+     "word": "player",
+     "si": 1,
+     "g": "-er",
+     "ex": "He is the best {{BLANK}} on our team.",
+     "tr": "걔가 우리 팀 최고 선수야.",
+     "c": "게임 player, 동영상 player처럼 '하는 사람·재생기'도.",
+     "frm": "0세트 사람",
+     "changed": []
+    },
+    {
+     "word": "singer",
+     "si": 1,
+     "g": "-er",
+     "ex": "My favorite {{BLANK}} is coming to Seoul.",
+     "tr": "내 최애 가수가 서울에 와.",
+     "c": "발음 [싱어], g 소리 없음.",
+     "frm": "0세트 사람",
+     "changed": []
+    },
+    {
+     "word": "dancer",
+     "si": 1,
+     "g": "-er",
+     "ex": "She is a great {{BLANK}}.",
+     "tr": "걔 춤 진짜 잘 춰.",
+     "c": "",
+     "frm": "0세트 사람",
+     "changed": []
+    },
+    {
+     "word": "writer",
+     "si": 1,
+     "g": "-er",
+     "ex": "She works as a {{BLANK}} for a TV show.",
+     "tr": "걔는 TV 프로그램 작가로 일해.",
+     "c": "책의 저자는 author.",
+     "frm": "0세트 사람",
+     "changed": []
+    },
+    {
+     "word": "reader",
+     "si": 1,
+     "g": "-er",
+     "ex": "This book is for young {{BLANK}}s.",
+     "tr": "이 책은 어린 독자용이야.",
+     "c": "e-reader 전자책 단말기.",
+     "frm": "0세트 사람",
+     "changed": []
+    },
+    {
+     "word": "artist",
+     "si": 1,
+     "g": "-ist",
+     "ex": "Painters, writers, and pianists are all {{BLANK}}s.",
+     "tr": "화가도, 작가도, 피아니스트도 모두 예술가야.",
+     "c": "art에 -ist를 붙이면 그 일을 하는 사람. pianist도 같아.",
+     "frm": "0세트 사람",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "policeman",
+     "si": 1,
+     "g": "-man",
+     "ex": "A {{BLANK}} helped me find the way.",
+     "tr": "경찰관이 길 찾는 걸 도와줬어.",
+     "c": "남자 경찰관. 성별을 구별하지 않을 때는 police officer라고 한다.",
+     "frm": "0세트 사람",
+     "changed": []
+    }
+   ]
+  },
+  {
+   "no": 13,
+   "name": "-ing가 된 말",
+   "cards": [
+    {
+     "word": "reading",
+     "si": 1,
+     "g": "동사+-ing = 명사",
+     "ex": "{{BLANK}} is my favorite hobby.",
+     "tr": "독서가 제일 좋은 취미야.",
+     "c": "read에 -ing를 붙이면 ‘읽기’라는 명사가 돼: Reading is fun.",
+     "frm": "0세트 학교·공부",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "writing",
+     "si": 1,
+     "g": "-ing 명사 + easy to",
+     "ex": "Her {{BLANK}} is easy to read.",
+     "tr": "걔 글은 읽기 쉬워.",
+     "c": "e가 빠진다: writing.",
+     "frm": "0세트 학교·공부",
+     "changed": [
+      "ex",
+      "tr"
+     ]
+    },
+    {
+     "word": "spelling",
+     "si": 1,
+     "g": "-ing 명사",
+     "ex": "Check your {{BLANK}} before you hand it in.",
+     "tr": "제출 전에 철자 확인해.",
+     "c": "철자 시험은 spelling test.",
+     "frm": "0세트 학교·공부",
+     "changed": []
+    },
+    {
+     "word": "swimming",
+     "si": 1,
+     "g": "go -ing",
+     "ex": "We go {{BLANK}} every Saturday.",
+     "tr": "우리는 토요일마다 수영하러 가.",
+     "c": "m을 하나 더: swimming. go swimming 수영하러 가다.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "cooking",
+     "si": 1,
+     "g": "love -ing",
+     "ex": "My mother loves {{BLANK}}.",
+     "tr": "우리 엄마는 요리를 좋아하셔.",
+     "c": "",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "dancing",
+     "si": 1,
+     "g": "-ing 주어",
+     "ex": "{{BLANK}} makes me happy.",
+     "tr": "춤추면 행복해져.",
+     "c": "e가 빠진다: dancing. go dancing 춤추러 가다.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "shopping",
+     "si": 1,
+     "g": "go -ing",
+     "ex": "Mom went {{BLANK}} at the mall.",
+     "tr": "엄마는 쇼핑몰에 쇼핑하러 가셨어.",
+     "c": "go shopping 쇼핑하러 가다. do the shopping은 장을 보다. shopping cart 쇼핑 카트.",
+     "frm": "0세트 현대어",
+     "changed": [
+      "ex",
+      "tr"
+     ]
+    },
+    {
+     "word": "hobby",
+     "si": 1,
+     "g": "My hobby is -ing",
+     "ex": "My {{BLANK}} is taking photos.",
+     "tr": "내 취미는 사진 찍기야.",
+     "c": "취미는 -ing로 말해: My hobby is taking photos. 복수는 hobbies.",
+     "frm": "0세트 학교·공부",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "routine",
+     "si": 1,
+     "g": "",
+     "ex": "Exercise is part of my morning {{BLANK}}.",
+     "tr": "운동은 내 아침 일과의 일부야.",
+     "c": "매일 반복하는 순서. 강세 주의.",
+     "frm": "0세트 학교·공부",
+     "changed": []
+    }
+   ]
+  },
+  {
+   "no": 14,
+   "name": "명사이자 동사",
+   "cards": [
+    {
+     "word": "note",
+     "si": 1,
+     "g": "명사 note",
+     "ex": "Take {{BLANK}}s during the class.",
+     "tr": "수업 중에 필기해.",
+     "c": "take notes 필기하다. 한국어 '메모'는 영어로 note. memo는 회사·조직의 공지문.",
+     "frm": "0세트 학교·공부",
+     "changed": []
+    },
+    {
+     "word": "note",
+     "si": 2,
+     "g": "동사 note",
+     "ex": "Please {{BLANK}} the change in the date.",
+     "tr": "날짜가 바뀐 점에 유의해 줘.",
+     "c": "note+명사나 that절: 중요한 점을 알아두거나 주목하라는 뜻이야.",
+     "frm": "0세트 학교·공부",
+     "changed": []
+    },
+    {
+     "word": "interview",
+     "si": 1,
+     "g": "명사",
+     "ex": "I have a job {{BLANK}} on Friday.",
+     "tr": "나 금요일에 취업 면접 있어.",
+     "c": "have a job interview 취업 면접을 보다. interview는 면접·취재를 하는 동사도 돼.",
+     "frm": "0세트 학교·공부",
+     "changed": []
+    },
+    {
+     "word": "interview",
+     "si": 2,
+     "g": "동사",
+     "ex": "We will {{BLANK}} three people for the job.",
+     "tr": "그 일자리에 지원한 세 사람을 면접할 거야.",
+     "c": "interview+사람은 그 사람에게 면접·취재 질문을 한다는 뜻이야.",
+     "frm": "0세트 학교·공부",
+     "changed": []
+    },
+    {
+     "word": "email",
+     "si": 1,
+     "g": "명사 an email",
+     "ex": "I sent you an {{BLANK}} last night.",
+     "tr": "어젯밤에 너한테 이메일 보냈어.",
+     "c": "electronic mail의 줄임말. 동사로도 써서 Email me.는 '나한테 메일 보내'.",
+     "frm": "0세트 현대어",
+     "changed": []
+    },
+    {
+     "word": "email",
+     "si": 2,
+     "g": "동사 email me",
+     "ex": "Please {{BLANK}} me the photos tonight.",
+     "tr": "오늘 밤 그 사진들 이메일로 보내 줘.",
+     "c": "같은 모양이 명사(an email)도 동사(email me)도 돼. 자리를 보고 구별해.",
+     "frm": "0세트 현대어",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "text",
+     "si": 1,
+     "g": "명사",
+     "ex": "Send me a {{BLANK}} message when you arrive.",
+     "tr": "도착하면 문자 메시지 보내.",
+     "c": "send a text 문자를 보내다. text message라고도 해.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "text",
+     "si": 2,
+     "g": "동사",
+     "ex": "{{BLANK}} me when you get home, please.",
+     "tr": "집에 도착하면 문자해.",
+     "c": "text me: 문자해. 과거형은 texted.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "text",
+     "si": 3,
+     "g": "명사",
+     "ex": "Read the {{BLANK}} before answering the questions.",
+     "tr": "문제에 답하기 전에 본문을 읽어.",
+     "c": "책·문서에 쓰인 글도 text. 시험에서 읽는 지문은 passage라고도 해.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "design",
+     "si": 1,
+     "g": "동사",
+     "ex": "She {{BLANK}}s clothes.",
+     "tr": "걔는 옷을 디자인해.",
+     "c": "모양·구조를 짜다. 명사도 design. g는 묵음.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "design",
+     "si": 2,
+     "g": "명사",
+     "ex": "I like the {{BLANK}} of this building.",
+     "tr": "이 건물의 디자인이 마음에 들어.",
+     "c": "모양·구조를 짜는 일이나 그 결과인 설계를 뜻해.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    }
+   ]
+  },
+  {
+   "no": 15,
+   "name": "학교와 공부",
+   "cards": [
+    {
+     "word": "classroom",
+     "si": 1,
+     "g": "",
+     "ex": "Please be quiet in the {{BLANK}}.",
+     "tr": "교실에서는 조용히 해.",
+     "c": "",
+     "frm": "0세트 학교·공부",
+     "changed": []
+    },
+    {
+     "word": "exam",
+     "si": 1,
+     "g": "",
+     "ex": "The university entrance {{BLANK}} is in November.",
+     "tr": "대학 입학시험은 11월에 있어.",
+     "c": "시험이라는 뜻에서 test와 같은 말. exam은 주로 정식 평가 시험에 써.",
+     "frm": "0세트 학교·공부",
+     "changed": []
+    },
+    {
+     "word": "project",
+     "si": 1,
+     "g": "",
+     "ex": "We did a science {{BLANK}} together.",
+     "tr": "우리 과학 과제를 같이 했어.",
+     "c": "일정한 목표를 두고 진행하는 일. 혼자 하는 과제도 project라고 해.",
+     "frm": "0세트 학교·공부",
+     "changed": []
+    },
+    {
+     "word": "topic",
+     "si": 1,
+     "g": "",
+     "ex": "Money is a hot {{BLANK}} in our house these days.",
+     "tr": "요즘 우리 집에선 돈이 뜨거운 화제야.",
+     "c": "대화·글의 주제는 subject로도 표현한다. off topic: 주제에서 벗어난.",
+     "frm": "0세트 학교·공부",
+     "changed": []
+    },
+    {
+     "word": "paragraph",
+     "si": 1,
+     "g": "서수 앞 the",
+     "ex": "Read the first {{BLANK}} again.",
+     "tr": "첫 문단 다시 읽어 봐.",
+     "c": "서수 앞에는 the: the first paragraph. 문장이 모인 한 덩어리.",
+     "frm": "0세트 학교·공부",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "section",
+     "si": 1,
+     "g": "",
+     "ex": "This {{BLANK}} of the book is easy.",
+     "tr": "이 책의 이 부분은 쉬워.",
+     "c": "신문의 스포츠 면도 section.",
+     "frm": "0세트 학교·공부",
+     "changed": []
+    },
+    {
+     "word": "statement",
+     "si": 1,
+     "g": "",
+     "ex": "Which {{BLANK}} is true?",
+     "tr": "어느 진술이 맞아?",
+     "c": "state(말하다)+ment.",
+     "frm": "0세트 학교·공부",
+     "changed": []
+    },
+    {
+     "word": "chart",
+     "si": 1,
+     "g": "",
+     "ex": "The {{BLANK}} shows our test results.",
+     "tr": "그 차트는 우리 시험 결과를 보여 줘.",
+     "c": "정보를 표나 그림으로 정리한 것. bar chart는 막대그래프.",
+     "frm": "0세트 학교·공부",
+     "changed": []
+    },
+    {
+     "word": "dialogue",
+     "si": 1,
+     "g": "",
+     "ex": "Read the {{BLANK}} on page 12 aloud.",
+     "tr": "12쪽 대화문을 소리 내어 읽어.",
+     "c": "실제 대화, 작품 속 대사, 집단 간 의견 교환에 쓴다. dialog라는 철자도 있다. 혼자 하는 독백은 monologue.",
+     "frm": "0세트 학교·공부",
+     "changed": []
+    },
+    {
+     "word": "geography",
+     "si": 1,
+     "g": "",
+     "ex": "We learned about rivers in {{BLANK}} class.",
+     "tr": "지리 시간에 강에 대해 배웠어.",
+     "c": "geo(땅)+graphy(기록). 강세 주의.",
+     "frm": "0세트 학교·공부",
+     "changed": []
+    },
+    {
+     "word": "culture",
+     "si": 1,
+     "g": "",
+     "ex": "Korean {{BLANK}} is popular around the world.",
+     "tr": "한국 문화는 세계적으로 인기야.",
+     "c": "한 사회의 생활 방식·예술 전부.",
+     "frm": "0세트 학교·공부",
+     "changed": []
+    },
+    {
+     "word": "career",
+     "si": 1,
+     "g": "a career in",
+     "ex": "She wants a {{BLANK}} in music.",
+     "tr": "걔는 음악 쪽으로 경력을 쌓고 싶어 해.",
+     "c": "a career in+분야: 그 분야에서 쌓는 직업 경력. 강세 주의.",
+     "frm": "0세트 학교·공부",
+     "changed": []
+    }
+   ]
+  },
+  {
+   "no": 16,
+   "name": "집과 옷",
+   "cards": [
+    {
+     "word": "apartment",
+     "si": 1,
+     "g": "",
+     "ex": "We live in a small {{BLANK}}.",
+     "tr": "우리는 작은 아파트에 살아.",
+     "c": "미국식. 영국은 flat. 한 가구가 사는 한 집.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "bathroom",
+     "si": 1,
+     "g": "",
+     "ex": "Go and brush your teeth in the {{BLANK}}.",
+     "tr": "욕실 가서 양치해.",
+     "c": "영국에선 주로 욕실. 미국에선 욕조 없는 화장실도 bathroom이라 해. 미국의 공공 화장실은 restroom이라고도 불러.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "bedroom",
+     "si": 1,
+     "g": "",
+     "ex": "My {{BLANK}} is very small.",
+     "tr": "내 침실은 아주 작아.",
+     "c": "",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "toilet",
+     "si": 1,
+     "g": "",
+     "ex": "The {{BLANK}} is broken again.",
+     "tr": "변기가 또 고장 났어.",
+     "c": "변기. 영국에선 화장실 자체도 toilet. 미국에선 bathroom을 더 써.",
+     "frm": "0세트 집·생활",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "shower",
+     "si": 1,
+     "g": "take a shower",
+     "ex": "I take a {{BLANK}} every morning.",
+     "tr": "난 아침마다 샤워해.",
+     "c": "take a shower 샤워하다. 소나기란 뜻도.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "shower",
+     "si": 2,
+     "g": "",
+     "ex": "A sudden {{BLANK}} stopped our game.",
+     "tr": "갑작스러운 소나기 때문에 경기가 멈췄어.",
+     "c": "잠깐 내리는 비를 뜻해. a shower of rain이라고도 써.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "downstairs",
+     "si": 1,
+     "g": "전치사 없이",
+     "ex": "Your mother is waiting {{BLANK}}.",
+     "tr": "엄마가 아래층에서 기다리셔.",
+     "c": "위층은 upstairs. 전치사 없이 쓴다: go downstairs.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "umbrella",
+     "si": 1,
+     "g": "an + 모음 소리",
+     "ex": "Take an {{BLANK}}. It may rain.",
+     "tr": "우산 챙겨. 비 올지도 몰라.",
+     "c": "모음 소리로 시작해서 an umbrella. 강세는 가운데 bre에 있어.",
+     "frm": "0세트 집·생활",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "jacket",
+     "si": 1,
+     "g": "",
+     "ex": "It's cold. Put on your {{BLANK}}.",
+     "tr": "추워. 재킷 입어.",
+     "c": "코트보다 짧은 겉옷.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "sweater",
+     "si": 1,
+     "g": "",
+     "ex": "She is wearing a red {{BLANK}}.",
+     "tr": "걔 빨간 스웨터 입었어.",
+     "c": "뜨개질한 웃옷. 미국식 sweater에 해당하는 영국식 표현으로 jumper도 써.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "jeans",
+     "si": 1,
+     "g": "늘 복수",
+     "ex": "These {{BLANK}} are too small for me now.",
+     "tr": "이 청바지 이제 나한테 너무 작아.",
+     "c": "늘 복수형으로 쓴다. 한 벌은 a pair of jeans. pants, shorts도 마찬가지.",
+     "frm": "0세트 현대어",
+     "changed": [
+      "ex",
+      "tr"
+     ]
+    }
+   ]
+  },
+  {
+   "no": 17,
+   "name": "먹는 것",
+   "cards": [
+    {
+     "word": "lunch",
+     "si": 1,
+     "g": "식사엔 관사 없음",
+     "ex": "What's for {{BLANK}} today?",
+     "tr": "오늘 점심 뭐야?",
+     "c": "have lunch 점심 먹다. 관사 없이.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "sandwich",
+     "si": 1,
+     "g": "a + 단수",
+     "ex": "I made a cheese {{BLANK}}.",
+     "tr": "치즈 샌드위치 만들었어.",
+     "c": "발음 [샌위치]. d 소리가 거의 안 난다.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "salad",
+     "si": 1,
+     "g": "",
+     "ex": "I'll have a chicken {{BLANK}}.",
+     "tr": "치킨 샐러드로 할게요.",
+     "c": "",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "carrot",
+     "si": 1,
+     "g": "일반 복수",
+     "ex": "Rabbits love {{BLANK}}s.",
+     "tr": "토끼는 당근을 정말 좋아해.",
+     "c": "r이 두 개: carrot.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "tomato",
+     "si": 1,
+     "g": "복수 -es",
+     "ex": "In the 1500s, people brought {{BLANK}}es from the Americas to Europe.",
+     "tr": "16세기에 사람들은 아메리카에서 유럽으로 토마토를 가져왔어.",
+     "c": "복수 tomatoes(-es).",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "diet",
+     "si": 1,
+     "g": "on a diet",
+     "ex": "She is on a {{BLANK}}.",
+     "tr": "걔 다이어트 중이야.",
+     "c": "on a diet는 식단을 조절하는 중. 흔히 체중 감량이 목적이야.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "diet",
+     "si": 2,
+     "g": "",
+     "ex": "Fruit is an important part of my {{BLANK}}.",
+     "tr": "과일은 내가 평소 먹는 음식의 중요한 부분이야.",
+     "c": "평소 먹는 음식 전반을 뜻해. 꼭 살을 빼기 위한 식단이라는 뜻은 아니야.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "menu",
+     "si": 1,
+     "g": "",
+     "ex": "Can I see the {{BLANK}}, please?",
+     "tr": "메뉴 좀 볼 수 있을까요?",
+     "c": "음식 목록. 한국어 '메뉴'(음식 하나)와 달리 '목록'.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "ice cream",
+     "si": 1,
+     "g": "셀 수 없는 것 + some",
+     "ex": "It's hot. Let's get some {{BLANK}}.",
+     "tr": "덥다. 아이스크림 좀 사 먹자.",
+     "c": "두 단어로 써. 덩어리를 말할 땐 셀 수 없어서 some ice cream.",
+     "frm": "새 카드",
+     "new": {
+      "en": "ice cream",
+      "ko": "① 아이스크림",
+      "pos": "n.",
+      "ipa": "ˈaɪs krim",
+      "sn": 1
+     },
+     "changed": []
+    }
+   ]
+  },
+  {
+   "no": 18,
+   "name": "생활과 매체",
+   "cards": [
+    {
+     "word": "midnight",
+     "si": 1,
+     "g": "시각 앞 at",
+     "ex": "I went to bed at {{BLANK}}.",
+     "tr": "나 자정에 잤어.",
+     "c": "mid(가운데)+night. 시각 앞엔 at: at midnight, at noon.",
+     "frm": "0세트 집·생활",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "vacation",
+     "si": 1,
+     "g": "",
+     "ex": "What did you do on summer {{BLANK}}?",
+     "tr": "여름 방학에 뭐 했어?",
+     "c": "미국식 방학·휴가. 영국은 holiday.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "passport",
+     "si": 1,
+     "g": "",
+     "ex": "Don't forget your {{BLANK}}.",
+     "tr": "여권 잊지 마.",
+     "c": "",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "euro",
+     "si": 1,
+     "g": "복수 -s",
+     "ex": "This costs five {{BLANK}}s.",
+     "tr": "이건 5유로야.",
+     "c": "유럽 여러 나라의 돈. 기호 €.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "museum",
+     "si": 1,
+     "g": "",
+     "ex": "The {{BLANK}} is closed on Mondays.",
+     "tr": "그 박물관은 월요일에 문 닫아.",
+     "c": "강세 주의.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "supermarket",
+     "si": 1,
+     "g": "",
+     "ex": "I bought milk at the {{BLANK}}.",
+     "tr": "슈퍼마켓에서 우유 샀어.",
+     "c": "",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "festival",
+     "si": 1,
+     "g": "",
+     "ex": "Our school {{BLANK}} is in October.",
+     "tr": "우리 학교 축제는 10월이야.",
+     "c": "",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "photo",
+     "si": 1,
+     "g": "복수 -s만",
+     "ex": "Is that a painting or a {{BLANK}}?",
+     "tr": "저거 그림이야, 사진이야?",
+     "c": "photograph의 줄임. 복수는 photos: tomato처럼 -es를 붙이지 않아.",
+     "frm": "0세트 집·생활",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "video",
+     "si": 1,
+     "g": "",
+     "ex": "I watched a funny {{BLANK}} online.",
+     "tr": "온라인에서 웃긴 영상 봤어.",
+     "c": "",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "blog",
+     "si": 1,
+     "g": "",
+     "ex": "She writes a {{BLANK}} about food.",
+     "tr": "걔는 음식 블로그를 써.",
+     "c": "web+log의 줄임.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "TV",
+     "si": 1,
+     "g": "on TV",
+     "ex": "What's on {{BLANK}} tonight?",
+     "tr": "오늘 밤 TV에서 뭐 해?",
+     "c": "television의 줄임. on TV는 ‘텔레비전에서, 방송으로’.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "CD",
+     "si": 1,
+     "g": "복수 CDs",
+     "ex": "My dad still buys {{BLANK}}s.",
+     "tr": "우리 아빠는 아직도 CD를 사셔.",
+     "c": "compact disc의 줄임.",
+     "frm": "0세트 집·생활",
+     "changed": []
+    },
+    {
+     "word": "DVD",
+     "si": 1,
+     "g": "a DVD",
+     "ex": "We watched a {{BLANK}} together.",
+     "tr": "우리 같이 DVD 봤어.",
+     "c": "",
+     "frm": "0세트 집·생활",
+     "changed": []
+    }
+   ]
+  },
+  {
+   "no": 19,
+   "name": "인터넷과 앱",
+   "cards": [
+    {
+     "word": "internet",
+     "si": 1,
+     "g": "the internet",
+     "ex": "The {{BLANK}} connects computers all over the world.",
+     "tr": "인터넷은 전 세계의 컴퓨터를 연결해.",
+     "c": "보통 the를 붙인다: on the internet. 대문자 Internet으로도 쓴다.",
+     "frm": "0세트 현대어",
+     "changed": []
+    },
+    {
+     "word": "online",
+     "si": 1,
+     "g": "형용사",
+     "ex": "I have an {{BLANK}} class at four.",
+     "tr": "나 네 시에 온라인 수업 있어.",
+     "c": "명사 앞에서는 형용사: an online class. 부사로 쓰면 온라인으로라는 뜻이야.",
+     "frm": "0세트 현대어",
+     "changed": []
+    },
+    {
+     "word": "online",
+     "si": 2,
+     "g": "부사",
+     "ex": "You can buy these books {{BLANK}}.",
+     "tr": "이 책들은 온라인으로 살 수 있어.",
+     "c": "buy online처럼 동작이 이루어지는 방식을 나타내.",
+     "frm": "0세트 현대어",
+     "changed": []
+    },
+    {
+     "word": "phone",
+     "si": 1,
+     "g": "",
+     "ex": "My {{BLANK}} died in the middle of class.",
+     "tr": "수업 중에 폰이 꺼졌어.",
+     "c": "telephone의 줄임말. on the phone은 '통화 중'. 미국에서 '전화해'는 Call me.",
+     "frm": "0세트 현대어",
+     "changed": []
+    },
+    {
+     "word": "website",
+     "si": 1,
+     "g": "",
+     "ex": "The school {{BLANK}} is down today.",
+     "tr": "학교 웹사이트가 오늘 안 돼.",
+     "c": "web(거미줄, 웹)+site(자리)를 붙여 한 단어로 쓴다. '사이트에 들어가다'는 visit a website.",
+     "frm": "0세트 현대어",
+     "changed": []
+    },
+    {
+     "word": "app",
+     "si": 1,
+     "g": "",
+     "ex": "This {{BLANK}} tells you the bus times.",
+     "tr": "이 앱이 버스 시간을 알려줘.",
+     "c": "application의 줄임말. install an app은 ‘앱을 설치하다’.",
+     "frm": "0세트 현대어",
+     "changed": []
+    },
+    {
+     "word": "download",
+     "si": 1,
+     "g": "",
+     "ex": "I need to {{BLANK}} the new app.",
+     "tr": "새 앱을 다운받아야 해.",
+     "c": "파일을 기기로 내려받는 것. install은 프로그램을 설치하는 것. 반대말은 upload(올리다).",
+     "frm": "0세트 현대어",
+     "changed": []
+    },
+    {
+     "word": "password",
+     "si": 1,
+     "g": "",
+     "ex": "I forgot my email {{BLANK}} again.",
+     "tr": "이메일 비밀번호를 또 까먹었어.",
+     "c": "pass(통과)+word(말). 비밀번호를 넣다는 enter/type a password.",
+     "frm": "0세트 현대어",
+     "changed": []
+    }
+   ]
+  },
+  {
+   "no": 20,
+   "name": "주말과 놀이",
+   "cards": [
+    {
+     "word": "movie",
+     "si": 1,
+     "g": "",
+     "ex": "Let's watch a {{BLANK}} after the test.",
+     "tr": "시험 끝나고 영화 보자.",
+     "c": "영화를 보다는 see/watch a movie. 영국에서는 film. 영화관은 movie theater.",
+     "frm": "0세트 현대어",
+     "changed": []
+    },
+    {
+     "word": "weekend",
+     "si": 1,
+     "g": "last weekend: 전치사 없음",
+     "ex": "What did you do last {{BLANK}}?",
+     "tr": "지난 주말에 뭐 했어?",
+     "c": "주말에: 미국식 on the weekend, 영국식 at the weekend. last·next weekend엔 전치사 없이.",
+     "frm": "0세트 현대어",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "homework",
+     "si": 1,
+     "g": "셀 수 없는 명사",
+     "ex": "I left my English {{BLANK}} at home.",
+     "tr": "영어 숙제를 집에 두고 왔어.",
+     "c": "셀 수 없는 명사라 a homework, homeworks는 틀린 말. do one's homework 숙제하다.",
+     "frm": "0세트 현대어",
+     "changed": []
+    },
+    {
+     "word": "gym",
+     "si": 1,
+     "g": "",
+     "ex": "We play basketball in the {{BLANK}}.",
+     "tr": "우리 체육관에서 농구 해.",
+     "c": "gymnasium의 줄임말. 학교 체육관도, 운동하러 가는 헬스장도 gym. 체육 수업은 gym class.",
+     "frm": "0세트 현대어",
+     "changed": []
+    },
+    {
+     "word": "guitar",
+     "si": 1,
+     "g": "play the + 악기",
+     "ex": "My brother plays the {{BLANK}} every night.",
+     "tr": "우리 형은 매일 밤 기타를 쳐.",
+     "c": "play the guitar가 흔해. play guitar도 써. 연주자는 guitarist. 강세 주의.",
+     "frm": "0세트 현대어",
+     "changed": []
+    },
+    {
+     "word": "cafe",
+     "si": 1,
+     "g": "",
+     "ex": "We studied at a {{BLANK}} near school.",
+     "tr": "우리 학교 근처 카페에서 공부했어.",
+     "c": "café라고 쓰기도 해. 강세 주의.",
+     "frm": "0세트 현대어",
+     "changed": []
+    },
+    {
+     "word": "beach",
+     "si": 1,
+     "g": "",
+     "ex": "We played {{BLANK}} volleyball on the sand.",
+     "tr": "우리는 모래 위에서 비치발리볼을 했어.",
+     "c": "beach는 모래·자갈 해변, shore는 바다·호수의 물가.",
+     "frm": "0세트 현대어",
+     "changed": [
+      "c"
+     ]
+    },
+    {
+     "word": "bike",
+     "si": 1,
+     "g": "by bike: 관사 없음",
+     "ex": "I ride my {{BLANK}} to school.",
+     "tr": "난 자전거 타고 학교에 가.",
+     "c": "bicycle의 줄임말. 자전거를 타다는 ride a bike. by bike에는 a를 쓰지 않는다.",
+     "frm": "0세트 현대어",
+     "changed": []
+    }
+   ]
+  },
+  {
+   "no": 21,
+   "name": "느낌을 말하는 형용사",
+   "cards": [
+    {
+     "word": "amazing",
+     "si": 1,
+     "g": "-ing / -ed",
+     "ex": "That movie was {{BLANK}}! I want to see it again.",
+     "tr": "그 영화 정말 놀라웠어! 또 보고 싶어.",
+     "c": "놀라움을 주는 쪽은 amazing, 놀라움을 느끼는 쪽은 amazed. 좋은 일에 자주 써.",
+     "frm": "0세트 형용사·동사",
+     "changed": [
+      "ex",
+      "tr"
+     ]
+    },
+    {
+     "word": "fantastic",
+     "si": 1,
+     "g": "",
+     "ex": "That was a {{BLANK}} game!",
+     "tr": "그거 진짜 환상적인 경기였어!",
+     "c": "fantasy(환상)의 형용사. 구어에서 '최고'.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "wonderful",
+     "si": 1,
+     "g": "",
+     "ex": "We had a {{BLANK}} time.",
+     "tr": "우리 정말 멋진 시간 보냈어.",
+     "c": "wonder(경이)+ful. 감탄이 나오는.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "delicious",
+     "si": 1,
+     "g": "",
+     "ex": "This soup is {{BLANK}}!",
+     "tr": "이 수프 진짜 맛있다!",
+     "c": "맛있다의 강한 말. 강세 주의.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "boring",
+     "si": 1,
+     "g": "-ing",
+     "ex": "The movie was so {{BLANK}}.",
+     "tr": "그 영화 너무 지루했어.",
+     "c": "지루함을 일으키는 쪽이 boring. 사람도 He is boring처럼 말할 수 있다.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "bored",
+     "si": 1,
+     "g": "-ed",
+     "ex": "I'm {{BLANK}}. Let's go out.",
+     "tr": "심심해. 나가자.",
+     "c": "지루함을 느끼는 상태가 bored. I'm bored는 ‘나는 지루해, 심심해’.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "interested",
+     "si": 1,
+     "g": "be interested in",
+     "ex": "Are you {{BLANK}} in music?",
+     "tr": "너 음악에 관심 있어?",
+     "c": "be interested in ~에 관심 있다. interesting은 관심을 끄는, 흥미로운이라는 뜻.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "tired",
+     "si": 1,
+     "g": "too ~ to",
+     "ex": "I'm too {{BLANK}} to study.",
+     "tr": "너무 피곤해서 공부 못 하겠어.",
+     "c": "tire(지치게 하다)+d. be tired of는 '지긋지긋하다'.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "married",
+     "si": 1,
+     "g": "be married to",
+     "ex": "My sister is {{BLANK}}.",
+     "tr": "우리 언니는 결혼했어.",
+     "c": "y를 i로: married. be married to ~와 결혼한 상태.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    }
+   ]
+  },
+  {
+   "no": 22,
+   "name": "형용사와 동사",
+   "cards": [
+    {
+     "word": "natural",
+     "si": 1,
+     "g": "",
+     "ex": "Fruit has {{BLANK}} sugar in it.",
+     "tr": "과일에는 천연 당분이 들어 있어.",
+     "c": "nature의 형용사. natural gas 천연가스, natural sugar 천연 당분.",
+     "frm": "0세트 형용사·동사",
+     "changed": [
+      "ex",
+      "tr",
+      "c"
+     ]
+    },
+    {
+     "word": "natural",
+     "si": 2,
+     "g": "It is ~ to",
+     "ex": "It's {{BLANK}} to feel nervous before a test.",
+     "tr": "시험을 앞두고 긴장하는 건 자연스러워.",
+     "c": "상황에 비추어 정상적이고 충분히 이해할 만하다는 뜻이야.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "natural",
+     "si": 3,
+     "g": "",
+     "ex": "She is a {{BLANK}} singer; she never took lessons.",
+     "tr": "그녀는 타고난 가수야. 레슨을 받은 적이 없어.",
+     "c": "배워서 얻기 전부터 지닌 재능·능력을 말해.",
+     "frm": "0세트 형용사·동사",
+     "changed": [
+      "ex",
+      "tr"
+     ]
+    },
+    {
+     "word": "negative",
+     "si": 1,
+     "g": "",
+     "ex": "Don't be so {{BLANK}} about it.",
+     "tr": "그렇게 부정적으로 보지 마.",
+     "c": "반대는 positive. 검사 결과 '음성'도 negative.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "positive",
+     "si": 1,
+     "g": "",
+     "ex": "Stay {{BLANK}} and keep going.",
+     "tr": "긍정적으로 생각하고 계속 가.",
+     "c": "반대는 negative. 검사 '양성'도 positive.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "positive",
+     "si": 2,
+     "g": "be positive that",
+     "ex": "Are you {{BLANK}} that this is your bag?",
+     "tr": "이게 네 가방이라고 확신해?",
+     "c": "be positive that: ~라고 확신하다.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "extra",
+     "si": 1,
+     "g": "",
+     "ex": "Can I have an {{BLANK}} plate?",
+     "tr": "접시 하나 더 주실래요?",
+     "c": "extra time: 추가 시간.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "final",
+     "si": 1,
+     "g": "",
+     "ex": "This is my {{BLANK}} answer.",
+     "tr": "이게 내 최종 답이야.",
+     "c": "맨 끝의. 명사로 '결승·기말시험'(finals).",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "final",
+     "si": 2,
+     "g": "",
+     "ex": "Our team reached the {{BLANK}} last year.",
+     "tr": "우리 팀은 작년에 결승전에 진출했어.",
+     "c": "대회의 마지막 승부를 가리는 경기. 복수 finals는 결승 단계 전체를 가리키기도 해.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "final",
+     "si": 3,
+     "g": "",
+     "ex": "I have three {{BLANK}}s next week.",
+     "tr": "나 다음 주에 기말시험이 세 개 있어.",
+     "c": "미국식 구어에서 final exam을 줄여 final이라고 해. 여러 과목이면 finals.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "blonde",
+     "si": 1,
+     "g": "",
+     "ex": "She has long {{BLANK}} hair.",
+     "tr": "걔는 긴 금발이야.",
+     "c": "머리색이 금색인. 사람에게도 쓴다.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "create",
+     "si": 1,
+     "g": "수동태 was created",
+     "ex": "The World Wide Web was {{BLANK}}d in 1989.",
+     "tr": "월드 와이드 웹은 1989년에 만들어졌어.",
+     "c": "없던 것을 새로 만들다. creative 창의적인.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "discuss",
+     "si": 1,
+     "g": "about 없이",
+     "ex": "Let's {{BLANK}} the plan tomorrow.",
+     "tr": "그 계획은 내일 논의하자.",
+     "c": "전치사 없이 바로: discuss it(O), discuss about(X).",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "prefer",
+     "si": 1,
+     "g": "prefer A to B",
+     "ex": "I {{BLANK}} tea to coffee.",
+     "tr": "난 커피보다 차가 더 좋아.",
+     "c": "prefer A to B: B보다 A를. than이 아니라 to.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "relax",
+     "si": 1,
+     "g": "명령문",
+     "ex": "{{BLANK}}. It's just a test.",
+     "tr": "긴장 풀어. 그냥 시험이야.",
+     "c": "힘을 빼고 쉬다. 명사는 relaxation.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    }
+   ]
+  },
+  {
+   "no": 23,
+   "name": "부사의 자리",
+   "cards": [
+    {
+     "word": "maybe",
+     "si": 1,
+     "g": "문장 앞",
+     "ex": "{{BLANK}} it will rain tomorrow.",
+     "tr": "어쩌면 내일 비 올지도 몰라.",
+     "c": "문장 앞에 놓는 '아마'. may be(~일지 모른다)와 띄어쓰기 구별.",
+     "frm": "0세트 인사·담화",
+     "changed": []
+    },
+    {
+     "word": "however",
+     "si": 1,
+     "g": "쉼표와 함께",
+     "ex": "The hotel was nice. The food, {{BLANK}}, was bad.",
+     "tr": "호텔은 좋았어. 하지만 음식은 별로였어.",
+     "c": "but과 뜻은 비슷하지만 문법은 달라. 두 문장을 이을 때 마침표나 세미콜론을 함께 써.",
+     "frm": "0세트 인사·담화",
+     "changed": []
+    },
+    {
+     "word": "however",
+     "si": 2,
+     "g": "however + 형용사",
+     "ex": "{{BLANK}} hard I try, I can't sleep.",
+     "tr": "아무리 애써도 잠이 안 와.",
+     "c": "however+형용사·부사: 아무리 ~해도. 여기서는 그러나로 옮기지 않아.",
+     "frm": "0세트 인사·담화",
+     "changed": []
+    },
+    {
+     "word": "later",
+     "si": 1,
+     "g": "",
+     "ex": "I'll call you {{BLANK}}.",
+     "tr": "나중에 전화할게.",
+     "c": "late의 비교급. See you later: 나중에 봐.",
+     "frm": "0세트 인사·담화",
+     "changed": []
+    },
+    {
+     "word": "probably",
+     "si": 1,
+     "g": "자리",
+     "ex": "She is {{BLANK}} at home now.",
+     "tr": "걔는 아마 지금 집에 있을 거야.",
+     "c": "가능성이 높다는 뜻이지 확정은 아니야. 일반동사 앞, be동사 뒤에 놓는 경우가 많아.",
+     "frm": "0세트 인사·담화",
+     "changed": []
+    },
+    {
+     "word": "usually",
+     "si": 1,
+     "g": "빈도부사 자리",
+     "ex": "I {{BLANK}} get up at seven.",
+     "tr": "난 보통 7시에 일어나.",
+     "c": "usual(평소의)+ly. always > usually > often > sometimes.",
+     "frm": "0세트 인사·담화",
+     "changed": []
+    },
+    {
+     "word": "quickly",
+     "si": 1,
+     "g": "-ly 부사",
+     "ex": "He {{BLANK}} closed the door.",
+     "tr": "걔가 재빨리 문을 닫았어.",
+     "c": "빠르게라는 뜻에서 rapidly와 같은 말. quickly는 지체 없이 곧바로라는 뜻도 있어.",
+     "frm": "0세트 인사·담화",
+     "changed": []
+    },
+    {
+     "word": "angrily",
+     "si": 1,
+     "g": "-ly 부사",
+     "ex": "He shouted at me {{BLANK}}.",
+     "tr": "걔가 나한테 화나서 소리 질렀어.",
+     "c": "y를 i로: angrily.",
+     "frm": "0세트 형용사·동사",
+     "changed": []
+    },
+    {
+     "word": "cannot",
+     "si": 1,
+     "g": "한 단어",
+     "ex": "I {{BLANK}} come tomorrow.",
+     "tr": "나 내일 못 와.",
+     "c": "can+not을 붙여 한 단어로 쓴다. 줄이면 can't.",
+     "frm": "0세트 인사·담화",
+     "changed": []
+    }
+   ]
+  }
+ ]
+}
