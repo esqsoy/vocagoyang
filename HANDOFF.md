@@ -10,8 +10,9 @@
   - 측정: `python3 pipeline/grammar/measure.py`(spaCy 필요). 기준값 `pipeline/grammar/baseline-20261010.json`.
   - 초안: 문법 지도 143항목 `pipeline/grammar/syllabus-draft-20261010.json`(페이지 https://claude.ai/artifact/Dhp7PgRApVa9LctYUgmNV6 ), 0세트 전체 초안 234장 `set0-draft-20261010.json`(페이지 https://claude.ai/artifact/BB5W7HkzszXtuQ1H2UnC8E ), 영신 검토 대기·데이터 반영 전.
   - 영신 승인(10/10): 수능 문법 전체 포함, 구조 정정안(0세트 약 230장·1~4세트 순서 유지·5세트 문법 뜻 분산), 143항목, 작업 순서(0세트 → 5세트 → 1~4세트 → 6~45세트 → Oxford 신규). 남은 확인: goodness ② 삭제 여부, 2022 교육과정 원문 대조(ncic.re.kr 허용 필요).
-  - 범위·정리(10/10, [PRINCIPLES 2-8](PRINCIPLES.md#2-8-fable-범위와-표제어-정리)): FABLE은 거의 처음부터 고교 졸업·수능 수준까지 덮는다. 5,000은 이름이고 빼는 것은 목표가 아니다. 같은 뜻 다른 꼴과 범위와 상관없는 좁은 말 71개(78장)만 뺐다(로컬, 배포 전). 1차 73개 중 71개는 되돌렸고 roach는 cockroach로 바꿨다. FABLE 7,062장·표제어 4,916·화면 연습 626, 합집합 8,242. 조립 단계에서 빼고 preDeletion으로 진도·모아둔 카드·이어하기를 잇는다([pipeline README](pipeline/README.md)). 복원 체인 맨 위는 `cockroach-20261010`, 그다음 `prune-20261010`. 검사 34/34, exaudit 12.
+  - 범위·정리(10/10, [PRINCIPLES 2-8](PRINCIPLES.md#2-8-fable-범위와-표제어-정리)): FABLE은 거의 처음부터 고교 졸업·수능 수준까지 덮는다. 5,000은 이름이고 빼는 것은 목표가 아니다. 같은 뜻 다른 꼴과 범위와 상관없는 좁은 말 71개(78장)만 뺐다(로컬, 배포 전). 1차 73개 중 71개는 되돌렸고 roach는 cockroach로 바꿨다. FABLE 7,062장·표제어 4,916·화면 연습 626, 합집합 8,242. 조립 단계에서 빼고 preDeletion으로 진도·모아둔 카드·이어하기를 잇는다([pipeline README](pipeline/README.md)). 복원 체인 위에서부터 `variant-notes-20261010`, `cockroach-20261010`, `prune-20261010`. 검사 34/34, exaudit 12.
   - 정리 2차 후보(10/10): 750개 중 69개만 반영했다(위 항목). 목록·결정 `pipeline/prune-candidates-20261010-2.json`, 페이지 https://claude.ai/artifact/Ck1qfX4fER1pqcupE5rQwn
+  - 다른 꼴 해설(10/10, PRINCIPLES 2-8): 뺀 영국식·속어·줄임말·다른 철자를 표준어 카드 38장 해설 첫머리에 적었다(원장 `variant-notes-20261010`, 복원 체인 맨 위). 남은 일: Oxford 카드 schedule·package·technology·graduate에 timetable·parcel·tech·postgraduate를 넣고, 좁은 말 17개와 wicket은 붙일 곳을 찾거나 빼서 영신에게 목록을 알린다. **다음 작업 순서(영신 10/10): Oxford 보강 단어를 먼저 넣는다.**
   - 순서 통제(10/10, PRINCIPLES 2-1): 새로 쓰거나 고친 예문은 `python3 pipeline/ordercheck.py`로 본다. 기준값 앞당김 1개 490장·2개 이상 82장.
 
 - **2026-10-08 Claude 리뷰 후속 일괄 배포**: 커밋과 Pages 확인 결과는 [DEPLOYMENT](DEPLOYMENT.md)에 있다. **[PRINCIPLES.md](PRINCIPLES.md)를 먼저 읽을 것** — 고양이 정의, 예문 통제·3줄 한계, 빈칸 중의성, 해설 읽을 시간의 이유를 담았다.

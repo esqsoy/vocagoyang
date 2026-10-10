@@ -947,3 +947,16 @@
   - exaudit 12장: 늘어난 2장은 되돌린 integrity·virtually의 원래 예문이다.
   - Chromium 390px: 콘솔 오류 없음, 626연습·7,062장. thereby는 다시 있고 bloke는 없다. cockroach 연습이 시작되고 저장 ID가 그대로다.
 - **상태:** 로컬 커밋, 브랜치 푸시. 배포 안 함.
+
+## 2026-10-10 · 뺀 다른 꼴을 표준어 카드 해설 첫머리에(로컬)
+
+- **요청·결정(영신):**
+  - "영국식은 빼되 미국식에 해설로 반영하자… 해설의 첫부분이 되도록… 속어 줄임말 다른 철자도 이런 식으로".
+  - 이어서 "범위와 상관없는 좁은 말은 기존 단어 해설에 반영할 수 있는 건 그렇게 하고, 아닌 건 빼되, 나한테 그게 뭔지만 알려줘", "옥스포드 보강 단어를 일단 먼저 작업하자", "격식어 전문어 시사어 전부 남기자".
+- **반영:** 표준어 카드 38장의 해설 첫머리에 뺀 다른 꼴을 적었다(원본 25개 파일). 예: check② "영국식 철자는 cheque.", guy① "영국에서는 bloke·chap, 친한 사이에선 dude라고도 한다.", mom① "어린아이 말로 mommy·mama, 영국식은 mum." 해설 72자 안(deepcheck A6 91건 유지). 원장 `variant-notes-20261010`이 복원 체인 맨 위.
+  - 이미 첫머리에 있어 그대로 둔 것: advert(advertisement), anyhow(anyway), forwards(forward), lyric(lyrics).
+  - Oxford 보강 카드에 넣을 것: timetable → schedule, parcel → package, tech → technology, postgraduate → graduate.
+  - wicket은 다른 꼴이 아니라 크리켓 용어라 좁은 말과 함께 다룬다.
+- **해석:** "격식어 전문어 시사어 전부 남기자"는 후보 페이지의 남김 339개를 확정한 것으로 이해했다(지금 상태). 좁은 말 17개는 Oxford 작업 뒤 붙일 곳을 찾고, 없으면 빼서 알린다.
+- **검증(새로 실행):** Codex 테스트 34/34, linecheck 390px 초과 0, deepcheck A1~A5·A7 0·A6 91.
+- **상태:** 로컬 커밋·브랜치 푸시, 배포 안 함. 다음은 Oxford 보강 단어 카드 작업.
