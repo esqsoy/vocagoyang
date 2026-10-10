@@ -1,0 +1,171 @@
+{
+ "date": "2026-10-10",
+ "name": "cockroach-20261010",
+ "status": "applied_locally_verified",
+ "authorization": "영신 2026-10-10: \"roach의 교체에도 동의해\"",
+ "summary": "roach(바퀴벌레의 구어 준말)를 표준형 cockroach로 바꿈. 예문·해석 유지, 해설·IPA 갱신, 모아둔 카드 ID는 배포된 roach ID로 고정(savedId).",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "b4083d498e4ad333bf0757868acbc6c296f2c1f21d4630be6ec9b318d66b2878",
+   "afterHash": "e75dbf75e1be4670034cb2cce7c92abaa168cb7d344d386516cef7fd22ecbc9b",
+   "changes": [
+    {
+     "path": [
+      43,
+      "exercises",
+      7,
+      "words",
+      3,
+      "en"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "roach",
+     "new": "cockroach"
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      7,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "cockroach의 준말. 미국 구어에서 훨씬 자주 쓴다.",
+     "new": "미국 구어에서는 줄여서 roach라고도 한다. 스페인어 cucaracha가 영어 낱말(cock·roach)처럼 바뀐 말이다."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      7,
+      "words",
+      3,
+      "ipa"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "roʊtʃ",
+     "new": "ˈkɑkroʊtʃ"
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      7,
+      "words",
+      3,
+      "word"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "roach",
+     "new": "cockroach"
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      7,
+      "words",
+      3,
+      "savedId"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": "[\"43세트\",\"Exercise 8 · 4254~4263\",\"roach\",1,\"\"]"
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      7,
+      "preDeletion",
+      4,
+      "word"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "roach",
+     "new": "cockroach"
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/set43.json": {
+   "beforeHash": "807792fe976f429388741634b61c4495423450711f36b2e80cad2dcb8482785d",
+   "afterHash": "780aea3418f9988b45e2ead9b5d590e7fdfff617f8e16320a5be46501d1f5fa4"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/set43.json": [
+   {
+    "path": [
+     7,
+     "words",
+     4,
+     "en"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "roach",
+    "new": "cockroach"
+   },
+   {
+    "path": [
+     7,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "cockroach의 준말. 미국 구어에서 훨씬 자주 쓴다.",
+    "new": "미국 구어에서는 줄여서 roach라고도 한다. 스페인어 cucaracha가 영어 낱말(cock·roach)처럼 바뀐 말이다."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     4,
+     "ipa"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "roʊtʃ",
+    "new": "ˈkɑkroʊtʃ"
+   },
+   {
+    "path": [
+     7,
+     "words",
+     4,
+     "word"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "roach",
+    "new": "cockroach"
+   },
+   {
+    "path": [
+     7,
+     "words",
+     4,
+     "savedId"
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": "[\"43세트\",\"Exercise 8 · 4254~4263\",\"roach\",1,\"\"]"
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/set43.json": []
+ }
+}
