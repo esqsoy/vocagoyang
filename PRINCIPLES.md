@@ -153,6 +153,8 @@
 - **뺀 다른 꼴은 표준어 카드 해설의 첫머리에 적는다.** (26.10.10 영신: "영국식은 빼되 미국식에 해설로 반영하자… 그 경우는 해설의 첫부분이 되도록 하고. 속어 줄임말 다른 철자도 이런 식으로") 카드는 줄이되, 학생이 영국 글이나 구어에서 그 말을 만나면 알아보게 하려는 것이다. 문장 틀은 "영국에서는 X라고 한다", "구어로 X라고도 한다", "줄여서 X라고도 한다", "X로도 쓴다"이고, 해설 72자 안(deepcheck A6)에 맞춘다.
   - 붙일 카드가 아직 없는 말(timetable·parcel·tech·postgraduate → schedule·package·technology·graduate)은 Oxford 보강 카드를 만들 때 넣는다. 범위와 상관없는 좁은 말도 붙일 기존 카드가 있으면 해설에 넣고, 없으면 빼고 그 목록을 영신에게 알린다(같은 날 영신 "아닌 건 빼되, 나한테 그게 뭔지만 알려줘").
   - 순서: Oxford 보강 단어를 먼저 넣고 그다음 좁은 말을 붙인다(영신 "그래야 작업이 뒤죽박죽이 안 될 거 같아").
+  - 반영(26.10.10, 로컬): 다른 꼴 50개 중 46개는 표준어 카드 38장의 해설 첫머리에, timetable·parcel·tech·postgraduate는 Oxford 카드 schedule·package·technology·graduate의 해설 첫머리에 넣었다(advert·anyhow·forwards·lyric은 이미 첫머리에 있었다). 좁은 말은 관련 카드 10장의 해설 끝에 붙였다(acre→area, gallon·pint→liter, ounce→pound, touchdown·quarterback→football, twitter→bird, rouge→make-up, GOP→republican, wed→marry, wicket→cricket, set-to→quarrel). 같은 뜻 다른 말이 아니라 관련 정보라서 끝에 둔다.
+  - 붙일 곳이 없어 그냥 뺀 것: iranian·iraqi·israeli·palestinian·syrian(나라 이름이 표제어가 아님), thou(you 카드 해설이 72자에 차 있음), neo(드문 쓰임), micro(48세트의 micro 낱말 카드들이 맡음).
 - **남기는 것:**
   - 범위 안 단어는 격식어·학술어·전문어라도 남긴다(membrane, receptor, subsidy, albeit, whereby).
   - 투명한 파생어도 남긴다. 기본형을 알아도 파생형을 저절로 알지는 못한다(Schmitt & Zimmerman 2002). 형용사·부사 꼴(accurate/accurately)은 수능 어법의 품사 판별과 바로 이어져 세트 작업 때 예문으로 쓸 수 있다.
@@ -268,7 +270,8 @@
 | `python3 pipeline/deepcheck.py` | 뜻 번호·IPA·품사·교차 중복, A7 빈칸 어미(정답 뒤에 붙는 어미가 불규칙 변화와 맞는지, 26.10.09 colony→'colonys' 결함 뒤 추가) | A1~A5·A7 0건 |
 | Codex 테스트(`pipeline/tests/` 등) | 진도·입력·발음·데이터 보존 | 32/32(10.08) → 34/34(10.10, prune.test 추가) |
 | `node pipeline/tests/milestones.test.cjs` | 11 돌파 축하(합집합 수·한 번씩·순서·폭죽 단계) | PASS(26.10.08 추가) |
-| `python3 pipeline/ordercheck.py` | 2-1 순서 통제(뒤에서 처음 배우는 단어의 앞당김) | 26.10.10 앞당김 1개 491장·2개 이상 85장(0~45세트 6,403장, 정리 재조정 후) |
+| `python3 pipeline/oxford/cardcheck.py 초안.json` | 새 카드 초안(어휘·앞당김·형식·중복·폰 줄 수)을 한 번에 | 26.10.10 Oxford 보강 508장 통과 |
+| `python3 pipeline/ordercheck.py` | 2-1 순서 통제(뒤에서 처음 배우는 단어의 앞당김) | 26.10.10 앞당김 1개 493장·2개 이상 85장(0~45세트 6,911장, Oxford 보강 후) |
 | `node pipeline/tests/prune.test.cjs` | 2-8 정리(뺀 카드만 빠지고 기록·ID·이어하기 유지, 합쳐진 판의 옛 제목 포함) | 26.10.10 추가, 71개 재조정 후 PASS |
 | `python3 pipeline/grammar/measure.py` | 12 문법 노출(항목별 예문 수·첫 세트·구간 분포, spaCy 필요) | 26.10.10 기준값 `pipeline/grammar/baseline-20261010.json` |
 
@@ -340,5 +343,8 @@
     - 왜: 자리를 알아야 그 세트 뒤 예문에서 새 단어를 쓸 수 있다. 그래야 새 단어가 자기 카드 한 장에 그치지 않고 여러 문맥에서 다시 나온다. 예문 없이 데이터에 먼저 넣으면 카드가 예문 없는 방식으로 뜨고 미완성 카드가 배포에 섞이므로, 데이터 편입은 세트별 문법 작업 때 한다.
     - 배치안 `pipeline/oxford/placement-20261010.json`: 0세트 3개 + 6~44세트 끝 새 연습 36개(443개). 수준(A1·A2 6~10, B1 11~25, B2 27~44)을 기본으로, 문법 지도 역할(whose 20, whom 28, 과거분사 형용사 14 등)과 계열(define/definition 등)에 맞췄다. 지식 어휘가 붙은 16·26·34·42세트는 피했다.
     - exaudit·ordercheck가 이 배치안을 읽는다. 그래서 기준 밖 단어가 섞인 예문이 25장에서 12장으로 줄었다(approach, announced 등이 표제어 예정).
+  - **바꾼 순서: 세트 작업 전에 완성 카드로 먼저 넣었다.** (26.10.10 영신: "옥스포드 보강 단어를 일단 먼저 작업하자. 그래야 작업이 뒤죽박죽이 안 될 거 같아") 표제어 정리에서 뺀 다른 꼴을 붙일 카드(schedule·package·technology·graduate)가 Oxford 단어였고, 세트 작업과 단어 넣기가 뒤섞이면 원장·검사가 꼬이기 때문이다. 위에서 걱정한 '예문 없는 미완성 카드'는 생기지 않게, 예문·해석·해설·발음을 다 갖춘 카드로 넣었다. 배치안의 문법 역할(whose 20, 과거분사 형용사 14, -ing 명사 12, whom 28 등)은 그 연습 예문 절반 이상에 실었다. 세트별 조명 문법 작업 때 이 카드 예문도 함께 다시 본다.
+    - 만든 방법: 하위 에이전트 9개가 지침(`pipeline/oxford/BRIEF.md`)과 검사 도구(`pipeline/oxford/cardcheck.py`)로 연습 4개씩 초안을 썼다. Claude가 508장을 모두 읽고 고쳤다. 같은 사실이 여러 카드에 겹친 것(세종·한글 세 장, 나이테, 인도의 0), 한 연습에 무거운 사건이 몰린 것, 영국식 뜻 카드(revise ② 복습하다, primary ② 초등의 → 해설로), 빈칸 경쟁어(extent/degree, fairly/pretty, prime/chief, classic/typical, stuff/thing)를 바로잡았다.
+    - 검사: 처음에는 에이전트들이 같은 임시 파일에 줄 수를 써서 측정이 섞일 수 있었다. 실행마다 다른 파일을 쓰게 고친 뒤 Claude가 최종본을 순서대로 다시 쟀다.
 - **'알면 입력 없이 넘기기'는 하지 않는다.** 0세트에 한정해 Claude가 설계안을 냈고 영신이 취소했다: "입력 없이 넘길 수 있게 하자는 의견은 취소, 방식은 유지하고 예문도 있게 하자. 예문을 유용하게 만들면 되니까." 쉬운 카드도 직접 치면서 예문과 해설을 읽는 것이 이 설계의 몸통이다.
 - 대기 중인 결정: 수능 문법 전체를 45세트 안에서 다룰지(영신은 가능하다고 보며 Claude 판단을 듣고 정한다), goodness ②(감탄 '세상에')를 지울지.

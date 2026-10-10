@@ -960,3 +960,21 @@
 - **해석:** "격식어 전문어 시사어 전부 남기자"는 후보 페이지의 남김 339개를 확정한 것으로 이해했다(지금 상태). 좁은 말 17개는 Oxford 작업 뒤 붙일 곳을 찾고, 없으면 빼서 알린다.
 - **검증(새로 실행):** Codex 테스트 34/34, linecheck 390px 초과 0, deepcheck A1~A5·A7 0·A6 91.
 - **상태:** 로컬 커밋·브랜치 푸시, 배포 안 함. 다음은 Oxford 보강 단어 카드 작업.
+
+## 2026-10-10 · Oxford 3000 보강 카드 넣기와 좁은 말 자리(로컬)
+
+- **요청·결정(영신):** "옥스포드 보강 단어를 일단 먼저 작업하자. 그래야 작업이 뒤죽박죽이 안 될 거 같아", "범위와 상관없는 좁은 말은 기존 단어 해설에 반영할 수 있는 건 그렇게 하고, 아닌 건 빼되, 나한테 그게 뭔지만 알려줘", "격식어 전문어 시사어 전부 남기자".
+- **Oxford 보강:** 배치안대로 6~44세트 끝 새 연습 36개에 443개(508장)를 넣었다(`pipeline/out/setNN.json` 끝, 기존 연습·진도 키는 그대로). 0세트 3개는 0세트 초안과 함께 넣는다.
+  - 방법: 하위 에이전트 9개가 지침(`pipeline/oxford/BRIEF.md`)과 검사 도구(`pipeline/oxford/cardcheck.py`)로 연습 4개씩 초안을 쓰고, Claude가 508장을 모두 읽고 고쳤다.
+  - 주요 수정: 같은 사실 겹침(세종·한글 세 장 → 하나만, 나이테·인도의 0 중복), 한 연습의 무거운 사건 몰림(성수대교 → 생활 장면), 사실 표현 완화(성별 임금 격차 '가장 큰 편', GM 오해를 부르는 해설), 영국식 뜻 카드 정리(revise ②·primary ② → 해설로), 같은 칸 수 경쟁어 안내(extent/degree 예문 교체, fairly·prime·classic·pragmatic 해설, stuff 뜻 좁힘), category의 {{BLANK}}s(→ 단수 문장).
+  - 문법 역할: whose(20)·whom(28)·과거분사 형용사(14)·-ing 명사(12)·-ly 부사(9)·동사+-ing/to(36)·that절(38)·수량 수일치(31)·자동사 수동 불가(32) 등을 연습 예문 절반 이상에 실었다.
+  - 다른 꼴 해설: schedule(timetable)·package(parcel)·technology(tech)·graduate(postgraduate) 해설 첫머리.
+- **좁은 말 자리:** 관련 카드 10장 해설 끝에 붙였다(acre→area, gallon·pint→liter, ounce→pound, touchdown·quarterback→football, twitter→bird, rouge→make-up, GOP→republican, wed→marry, wicket→cricket, set-to→quarrel). 붙일 곳이 없어 뺀 것: iranian·iraqi·israeli·palestinian·syrian, thou, neo, micro(48세트가 맡음).
+- **원장:** `oxford-20261010`(새 연습 36개와 경쟁어 안내 5장), `narrow-notes-20261010`(10장). 복원 체인 위에서부터 narrow-notes, oxford, variant-notes, cockroach, prune.
+- **수:** FABLE 7,570장, 표제어 5,359개, 화면 연습 671개, 세 교재 합집합 8,257개(새 단어 대부분이 마더텅·EBS에 이미 있어 15개만 늘었다).
+- **검증(새로 실행):**
+  - Codex 테스트 34/34, IPA·모아둔 카드·발췌·인덱스 빌드 --check 통과.
+  - 정밀·길이 검사: deepcheck A1~A5·A7 0, A6 91. linecheck 390px 초과 0.
+  - 어휘·순서·중의성 검사: exaudit 12, ordercheck 앞당김1 493·2개 이상 85. collide로 새 카드와 기존 카드 사이 같은 칸 수 경쟁어를 보고 고쳤다.
+  - Chromium 390px: 콘솔 오류 없음, 671연습·7,570장, 20세트 whose 연습 시작 확인.
+- **상태:** 로컬 커밋·브랜치 푸시, 배포 안 함. 다음은 영신의 0세트 초안 검토 뒤 0세트 반영.
