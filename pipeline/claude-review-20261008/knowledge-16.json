@@ -1,0 +1,332 @@
+{
+ "date": "2026-10-10",
+ "name": "knowledge-16",
+ "status": "applied_locally_verified",
+ "authorization": "영신(2026-10-10): \"다 반영하고\"",
+ "summary": "Claude 재검토 개선안 8건: antibiotic·poison·railway·wage 해설 정리, socialism 해설에 공산주의와의 관계, evolution 예문, fossil·perfect 해석. 목록 pipeline/knowledge-map/batch-16.json.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "ff83a1f5b6d9dfad136fa55d95b55a52dde0fdc5f1d6b13ccce3c36c60a10a9b",
+   "afterHash": "0cfaca3a63940f2bb60bfe8c061ab364abbb7bc87100eb8cab7cfc31014403cb",
+   "changes": [
+    {
+     "path": [
+      4,
+      "exercises",
+      4,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "연습이 완벽을 만들어.",
+     "new": "연습하면 완벽해져."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      7,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "일한 대가로 받는 임금. hourly wage는 시급, minimum wage는 최저임금. salary는 보통 정해진 정기 급여를 가리킨다.",
+     "new": "hourly wage는 시급. 달마다 정해 받는 급여는 salary."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      9,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "rail(선로)+way(길). 철도는 영국에서 주로 railway, 미국에서 주로 railroad. train station은 기차역.",
+     "new": "rail(선로)+way(길). 영국은 주로 railway, 미국은 주로 railroad."
+    },
+    {
+     "path": [
+      21,
+      "exercises",
+      1,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "몸에 들어가 해를 주거나 죽게 하는 독. 먹는 것뿐 아니라 흡입·접촉 등으로도 해롭다.",
+     "new": "몸에 들어가 해를 주거나 죽게 하는 물질."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      10,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In 1859, Charles Darwin published a famous book on {{BLANK}}.",
+     "new": "In 1859, Darwin explained how living things slowly change through {{BLANK}}."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      10,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1859년 찰스 다윈은 진화에 관한 유명한 책을 펴냈어.",
+     "new": "1859년 다윈은 생물이 진화를 통해 어떻게 천천히 변하는지 설명했어."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      10,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "동사는 evolve. 생물이 오랜 세월에 걸쳐 변해 가는 것.",
+     "new": "동사는 evolve."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      10,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "화석을 보면 고래의 조상은 한때 땅 위를 걸었어.",
+     "new": "화석을 보면 고래의 조상이 한때 땅 위를 걸었다는 걸 알 수 있어."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "↔ capitalism(자본주의). communism(공산주의)과 구별해 쓴다.",
+     "new": "↔ capitalism(자본주의). 지지자들은 communism(공산주의)을 이보다 더 나아간 단계로 본다."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      2,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "anti-(맞서)+bio(생명). 세균 감염을 치료하는 약. 감기를 일으키는 바이러스에는 효과가 없다.",
+     "new": "anti-(맞서)+bio(생명). 세균 감염을 치료하는 약."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson04.json": {
+   "beforeHash": "b0e2c65a0c37487c2275a93aece6368b3cff077e92881df453f9dec541f29905",
+   "afterHash": "8418ed5a0c029c1bd7ae6f0c09c4016c7a8c4d74974d8d10ad909ff92579e3fc"
+  },
+  "pipeline/out/set14.json": {
+   "beforeHash": "b47d64b35adb820311713dd464e6f8fb71b623175fba8e874de4bf6b9ae510df",
+   "afterHash": "7928eeed94dc5b442e418da53c36a37a469c7adfbdb4b881393b3073e60b216e"
+  },
+  "pipeline/out/set19.json": {
+   "beforeHash": "d2bf50541d9d5385543127a10db3275da1ff3e2de51fe9d44eea4deeb26184a6",
+   "afterHash": "ff90bae24a8ecf52dc097def6c7659036d7745622f2de61d1dd1dbf7e9cff339"
+  },
+  "pipeline/out/set21.json": {
+   "beforeHash": "f0560a45f05ea81485a0f03e119d8ed371f82088d34b2c0681cae9e373a81f5b",
+   "afterHash": "0fc7a46b57be4ece646099228aad86f280370a0088c7e7d87d7e0c6c3baaaf20"
+  },
+  "pipeline/out/set26.json": {
+   "beforeHash": "aad67bdf3251fef7467634362baf4d2c4223fcace7a9f1a418bd3df4733726a2",
+   "afterHash": "e03159923e467dc78170ebde292ac26439eecbb6547c68fe059f8b0c8508f01e"
+  },
+  "pipeline/out/set42.json": {
+   "beforeHash": "098cb954389cafbda0aa2252a6b66568b5af754d61d835bd9619295d3f600562",
+   "afterHash": "6c725ce0d3f091706355ec98c9cb55c24f3701d86d67f64c769f955eec122bc9"
+  },
+  "pipeline/out/set43.json": {
+   "beforeHash": "d15b77563915d9bd022207afe4694672d4933a74cef25dbdef920447e903310c",
+   "afterHash": "807792fe976f429388741634b61c4495423450711f36b2e80cad2dcb8482785d"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson04.json": [
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "연습이 완벽을 만들어.",
+    "new": "연습하면 완벽해져."
+   }
+  ],
+  "pipeline/out/set14.json": [
+   {
+    "path": [
+     7,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "일한 대가로 받는 임금. hourly wage는 시급, minimum wage는 최저임금. salary는 보통 정해진 정기 급여를 가리킨다.",
+    "new": "hourly wage는 시급. 달마다 정해 받는 급여는 salary."
+   }
+  ],
+  "pipeline/out/set19.json": [
+   {
+    "path": [
+     9,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "rail(선로)+way(길). 철도는 영국에서 주로 railway, 미국에서 주로 railroad. train station은 기차역.",
+    "new": "rail(선로)+way(길). 영국은 주로 railway, 미국은 주로 railroad."
+   }
+  ],
+  "pipeline/out/set21.json": [
+   {
+    "path": [
+     1,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "몸에 들어가 해를 주거나 죽게 하는 독. 먹는 것뿐 아니라 흡입·접촉 등으로도 해롭다.",
+    "new": "몸에 들어가 해를 주거나 죽게 하는 물질."
+   }
+  ],
+  "pipeline/out/set26.json": [
+   {
+    "path": [
+     10,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In 1859, Charles Darwin published a famous book on {{BLANK}}.",
+    "new": "In 1859, Darwin explained how living things slowly change through {{BLANK}}."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1859년 찰스 다윈은 진화에 관한 유명한 책을 펴냈어.",
+    "new": "1859년 다윈은 생물이 진화를 통해 어떻게 천천히 변하는지 설명했어."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "동사는 evolve. 생물이 오랜 세월에 걸쳐 변해 가는 것.",
+    "new": "동사는 evolve."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "화석을 보면 고래의 조상은 한때 땅 위를 걸었어.",
+    "new": "화석을 보면 고래의 조상이 한때 땅 위를 걸었다는 걸 알 수 있어."
+   }
+  ],
+  "pipeline/out/set42.json": [
+   {
+    "path": [
+     10,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "↔ capitalism(자본주의). communism(공산주의)과 구별해 쓴다.",
+    "new": "↔ capitalism(자본주의). 지지자들은 communism(공산주의)을 이보다 더 나아간 단계로 본다."
+   }
+  ],
+  "pipeline/out/set43.json": [
+   {
+    "path": [
+     2,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "anti-(맞서)+bio(생명). 세균 감염을 치료하는 약. 감기를 일으키는 바이러스에는 효과가 없다.",
+    "new": "anti-(맞서)+bio(생명). 세균 감염을 치료하는 약."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson04.json": [],
+  "pipeline/out/set14.json": [],
+  "pipeline/out/set19.json": [],
+  "pipeline/out/set21.json": [],
+  "pipeline/out/set26.json": [],
+  "pipeline/out/set42.json": [],
+  "pipeline/out/set43.json": []
+ }
+}
