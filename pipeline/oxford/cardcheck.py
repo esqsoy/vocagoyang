@@ -60,6 +60,7 @@ tmp = os.path.join(HERE, f'_measure-{os.getpid()}.json')
 json.dump([{'word': w.get('word', ''), 'ex': w.get('ex', '')} for _, w, _ in rows], open(tmp, 'w'))
 env = dict(os.environ, NODE_PATH='/opt/node22/lib/node_modules')
 r = subprocess.run(['node', os.path.join(HERE, 'measure-lines.cjs'), tmp], capture_output=True, text=True, env=env)
+os.remove(tmp)  # 임시 측정 파일은 남기지 않는다
 lines = json.loads(r.stdout or '[]') if r.returncode == 0 else None
 if lines is None: print('줄 측정 실패:', r.stderr[-500:])
 bad = 0
