@@ -26,9 +26,9 @@
 
 ## 표제어 정리 · 2026-10-10
 
-`prune-20261010.json`의 73개 표제어(90장)는 기초 5,000에서 먼저 다룰 필요가 없어 뺐다([PRINCIPLES 2-8](../PRINCIPLES.md#2-8-기초-5000에-둘지는-지금-먼저-다룰-필요로-정한다)). 저작 원본(out/*.json)은 그대로 두고 `assemble.py`가 배치(10-03 이동·재구성) 다음 단계에서 화면 DATA에서만 뺀다. 카드를 뺀 연습에는 `preDeletion`(빼기 전 카드 목록)을 남긴다. 게임의 `splitExercises`가 그 배치를 다시 나눠 옛 완료 기록을 남은 카드의 `priorCoverage`에 더하고, 모아둔 카드 ID를 빼기 전 기준으로 고정한다. 46~50세트에 나오는 단어나 연습을 비우는 삭제는 조립을 멈춘다.
+`prune-20261010.json`의 71개 표제어(78장)는 같은 뜻의 표준어가 이미 있는 다른 꼴(영국식·속어·줄임말·다른 철자)이거나 FABLE 범위(거의 처음부터 고교 졸업·수능 수준)와 상관없는 좁은 말이라 뺐다([PRINCIPLES 2-8](../PRINCIPLES.md#2-8-fable-범위와-표제어-정리)). 1차로 뺀 73개 중 71개는 범위를 바로잡으며 되돌렸다. 저작 원본(out/*.json)은 그대로 두고 `assemble.py`가 배치(10-03 이동·재구성) 다음 단계에서 화면 DATA에서만 뺀다. 카드를 뺀 연습에는 `preDeletion`(배포된 배치의 카드 목록)을 남긴다. 게임의 `splitExercises`가 그 배치를 다시 나눠 옛 완료 기록을 남은 카드의 `priorCoverage`에 더하고, 모아둔 카드 ID를 빼기 전 기준으로 고정하고, 옛 판 제목을 첫 남은 카드가 있는 새 판으로 잇는다(`deletionResumeTitles`, 판이 합쳐져 제목이 바뀌는 경우). 정리 뒤 저장한 이어하기에는 `prune` 표시가 붙는다. 46~50세트에 나오는 단어나 연습을 비우는 삭제는 조립을 멈춘다. 배포 뒤 새로 정리할 때는 preDeletion이 그 배포의 배치를 가리키도록 다시 설계한다.
 
-변경 원장은 `claude-review-20261008/prune-20261010.json`(복원 체인 맨 위)이고 `build-deletion-ledger.cjs`로 만들었다. 범용 diff는 뒤 카드가 당겨진 것을 값 변경으로 적어 되돌릴 때 키 순서가 어긋나서, 삭제 위치만 적는 원장을 따로 쓴다. 검사는 `node pipeline/tests/prune.test.cjs`. `exaudit.py`는 뺀 단어를 표제어로 치지 않는다.
+변경 원장은 `claude-review-20261008/prune-20261010.json`이고 `LEDGER_BASE=56005cc node pipeline/claude-review-20261008/build-deletion-ledger.cjs …`로 배포된 DATA 기준에서 만들었다. 범용 diff는 뒤 카드가 당겨진 것을 값 변경으로 적어 되돌릴 때 키 순서가 어긋나서, 삭제 위치만 적는 원장을 따로 쓴다. 검사는 `node pipeline/tests/prune.test.cjs`. `exaudit.py`는 뺀 단어를 표제어로 치지 않는다.
 
 ## 원본
 
