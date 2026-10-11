@@ -1075,3 +1075,20 @@
 - **0세트 페이지:** https://claude.ai/artifact/J2HxBxDR6aMBiptm5c6qGL (23연습 234장, 바뀐 10장). 댓글 알림 등록(한도 10개라 끝난 페이지 3개 알림 끔).
 - **문서:** PRINCIPLES 10, AGENTS, pipeline README, HANDOFF를 TXT에서 페이지로 고쳤다.
 - **상태:** 도구·문서만, 앱·데이터 변경 없음.
+
+## 2026-10-11 · 0세트 영신 직검수 1차 댓글 반영(로컬, 배포 전)
+
+- **요청:** 0세트 읽기 페이지(https://claude.ai/artifact/J2HxBxDR6aMBiptm5c6qGL)에 영신이 카드마다 단 댓글 50여 개. 페이지에서 연습 1~7까지 읽은 상태다.
+- **새 원칙(영신 결정, PRINCIPLES에 이유와 함께 기록):**
+  - 1절: 고양이 예문은 넉넉히, 고양이가 나오는 예문엔 꼭 고양고양이 개드립. 해설은 정확히, 고양이는 그걸 비틀어 놀린다. 실제 사람(소연 음치)은 가볍게.
+  - 2-9: 남자 일반 이름은 영신(웃길 땐 영신초이 통째로), 여자 일반 이름은 소연(영신의 아내), 영신이 정한 카드엔 학생 이름(김민소·최서진). 9월의 'Youngsin Choi는 가끔만'을 대체.
+  - 2-10: 소재는 개드립, 스터디원 마케팅(STUDY1 / 스터디원 학원, 개드립으로), 영신초이 신격화(농담), 일산, 고양시, 고양고양이가 주. 개보다 고양이. 숫자 카드는 최대한 정보를 쉬운 구문으로.
+- **바꾼 카드 52장(0세트만, 다른 세트 0장, 고양 대사 14→37장):** hello hi I he she it① we they yes no① not do② my your him her① her② his① his② its our a① the① and① or① how① one① two three four five seven eight nine ten eleven fourteen fifteen sixteen seventeen nineteen twenty thirty forty fifty seventy eighty ninety hundred thousand million trillion.
+  - 숫자 카드 지식 예문(영신 "숫자는 최대한 정보를"): 지구 달 하나, 화성 달 둘, 신호등 세 색, 한글 자음 14, 태양 중심 1,500만 도, 고양이 16시간 잠, 주민등록증 17세, 바둑판 19줄, 젖니 20, 30일인 달, 배 속 40주, 미국 50주, 한국 땅 70% 산, 한국인 평균 80년 넘게, 축구 90분, 1세기 100년, 신라 천 년, 몸의 세포 30조. 0세트라 모르는 단어 하나까지로 썼다(ordercheck 0세트 앞당김1 39·2개 이상 0).
+  - 예: not "I'm here live. I'm not a cat."(고양이 필터 변호사 밈), him "My dad says he hates cats, but my cat loves him.", her② "Soyeon loves to sing. I love her voice, but my cat doesn't.", or "To be, or not to be: that is the question.", five "STUDY1 has five stars!", eleven "Youngsin Choi gets up at eleven if no one wakes him."
+  - be ⑤(존재하다) 새 카드를 만들었다가, 영신이 or 카드 자리를 짚어 햄릿 대사를 or로 옮기고 뺐다. 카드 수는 그대로(7,573).
+  - yes·no 해설은 "한국어랑 반대"를 빼고 "Yes는 그냥 Yes … 부정 질문에 ‘응’이라 답하는 건 우리말이 특이한 거야"로.
+- **원장:** `set0-review-20261011`(복원 체인 맨 위). 편집 스크립트는 세션 작업 폴더의 apply 방식(세트·단어·뜻번호로 화면 카드를 찾고 같은 내용의 저작 원본 카드를 고침).
+- **검증(새로 실행, 커밋 직전):** Codex 검사 35/35. deepcheck A1~A5·A7 0, A6 89. exaudit 11. ordercheck 0세트 앞당김1 39·2개 이상 0(합계 501·78). linecheck 390·360px 초과 0. collide 907. 원장 되돌림 확인(DATA 134곳).
+- **스레드:** 반영한 댓글마다 바꾼 내용을 답하고 닫았다. 열어 둔 것: your(영어 이름 순서 Seojin Choi/Choi Seojin), its(예문 고양이 이름을 고양고양이로 하자는 뜻인지), how(지식 예문은 두고 생활 예문·대사에 STUDY1 소재를 먼저 쓰는지).
+- **남은 일:** 영신의 연습 8~23 검수 계속. 1~45세트의 고양이 예문 중 대사 없는 36장과 일반 이름 9장은 세트 검수 때. 배포는 영신 요청 때.

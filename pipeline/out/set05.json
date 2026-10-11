@@ -6,14 +6,15 @@
       {
         "en": "the",
         "ko": "① (서로 아는) 그, 바로 그",
-        "ex": "I saw a dog. {{BLANK}} dog was very big.",
-        "tr": "개 한 마리를 봤어. 그 개는 아주 컸어.",
+        "ex": "I saw a cat. {{BLANK}} cat was very big.",
+        "tr": "고양이를 봤어. 그 고양이 엄청 컸어.",
         "c": "처음 말할 땐 a, 다시 말할 땐 the: a dog → the dog.",
         "ipa": "ðə",
         "pos": "det.",
         "word": "the",
         "si": 1,
-        "sn": 2
+        "sn": 2,
+        "meow": "큰 게 아니라 풍채가 좋은 거라고양. 고양이한테 뚱뚱하다고 하지 말라고양."
       },
       {
         "en": "the",
@@ -79,8 +80,8 @@
       {
         "en": "and",
         "ko": "① 그리고, ~와",
-        "ex": "I like pizza {{BLANK}} chicken.",
-        "tr": "나 피자랑 치킨 좋아해.",
+        "ex": "I learn Korean {{BLANK}} English from Youngsin Choi.",
+        "tr": "난 영신초이에게 국어와 영어를 배워.",
         "c": "같은 쪽의 말을 이을 때 and. 셋이면 마지막 앞에만: A, B, and C.",
         "ipa": "ænd",
         "pos": "conj.",
@@ -110,7 +111,8 @@
         "pos": "det.",
         "word": "a",
         "si": 1,
-        "sn": 2
+        "sn": 2,
+        "meow": "개 한 마리, 고양이 두 마리. 서열은 당연히 고양이가 위라고양."
       },
       {
         "en": "a",
@@ -247,14 +249,15 @@
       {
         "en": "it",
         "ko": "① 그것",
-        "ex": "I have a new bag. {{BLANK}} is blue.",
-        "tr": "나 새 가방 있어. 파란색이야.",
-        "c": "우리말은 ‘그것은’을 빼도 되지만 영어는 주어를 꼭 써: It is blue.",
+        "ex": "I have a robot cat. {{BLANK}} never sleeps.",
+        "tr": "나한테 로봇 고양이가 있어. 절대 안 자.",
+        "c": "우리말은 ‘그것은’을 빼도 되지만 영어는 주어를 꼭 써: It never sleeps.",
         "ipa": "ɪt",
         "pos": "pron.",
         "word": "it",
         "si": 1,
-        "sn": 3
+        "sn": 3,
+        "meow": "안 자는 고양이? 그건 고양이가 아니라 가전제품이라고양."
       },
       {
         "en": "it",
@@ -430,7 +433,7 @@
         "word": "do",
         "si": 2,
         "sn": 3,
-        "meow": "조동사 do는 뜻 없이 일만 한다고양. 안됐다고양."
+        "meow": "do는 뜻 없이 일만 한다고양, 안됐다고양. 근데 Yes, I do? 날 좋아한다고양?"
       },
       {
         "en": "do",
@@ -447,8 +450,8 @@
       {
         "en": "he",
         "ko": "① 그가, 그 남자가",
-        "ex": "This is Minsu. {{BLANK}} is my friend.",
-        "tr": "얘는 민수야. 내 친구야.",
+        "ex": "This is Youngsin Choi. {{BLANK}} is my friend.",
+        "tr": "얘는 영신초이야. 내 친구야.",
         "c": "남자 한 명은 he로 받아. 처음엔 이름을 말하고, 다음부턴 he라고 해.",
         "ipa": "hi",
         "pos": "pron.",
@@ -531,9 +534,9 @@
       {
         "en": "we",
         "ko": "① 우리가",
-        "ex": "Mina and I are friends. {{BLANK}} play soccer after school.",
-        "tr": "미나랑 나는 친구야. 우린 방과 후에 축구를 해.",
-        "c": "나를 포함한 여럿은 we. 남과 나를 함께 말할 땐 나를 뒤에: Mina and I.",
+        "ex": "Youngsin and I are friends. {{BLANK}} play soccer after school.",
+        "tr": "영신이랑 나는 친구야. 우린 방과 후에 축구를 해.",
+        "c": "나를 포함한 여럿은 we. 남과 나를 함께 말할 땐 나를 뒤에: Youngsin and I.",
         "ipa": "wi",
         "pos": "pron.",
         "word": "we",
@@ -543,14 +546,15 @@
       {
         "en": "not",
         "ko": "① ~아니다, ~않다",
-        "ex": "I am {{BLANK}} a teacher. I am a student.",
-        "tr": "나는 선생님이 아니야. 학생이야.",
+        "ex": "I'm here live. I'm {{BLANK}} a cat.",
+        "tr": "저 지금 생방송 중이에요. 저 고양이 아니에요.",
         "c": "be 동사 바로 뒤에 not: I'm not. 일반동사는 do not을 써: I don't know.",
         "ipa": "nɑt",
         "pos": "adv.",
         "word": "not",
         "si": 1,
-        "sn": 1
+        "sn": 1,
+        "meow": "고양이 필터를 못 끈 변호사의 명대사라고양. 고양이였으면 재판 이겼다고양."
       },
       {
         "en": "but",
@@ -629,7 +633,8 @@
         "pos": "pron.",
         "word": "they",
         "si": 1,
-        "sn": 1
+        "sn": 1,
+        "meow": "고양이가 여럿이면 they, 밥 주는 너는 그냥 집사라고양."
       },
       {
         "en": "at",
@@ -694,26 +699,28 @@
       {
         "en": "his",
         "ko": "① 그의",
-        "ex": "Minsu lost {{BLANK}} phone again.",
-        "tr": "민수가 또 폰을 잃어버렸어.",
+        "ex": "Youngsin lost {{BLANK}} phone again.",
+        "tr": "영신이 또 폰을 잃어버렸어.",
         "c": "우리말은 ‘자기’를 빼도 되지만 영어는 his를 꼭 써: lost his phone.",
         "ipa": "hɪz",
         "pos": "det.",
         "word": "his",
         "si": 1,
-        "sn": 2
+        "sn": 2,
+        "meow": "한국인은 왜 자기가 없냐고양. 영신은 폰도 없다고양."
       },
       {
         "en": "his",
         "ko": "② 그의 것",
-        "ex": "This seat is {{BLANK}}, not yours.",
-        "tr": "이 자리 걔 거야, 네 거 아니고.",
+        "ex": "Dad bought a new chair, but it's not {{BLANK}}. It's the cat's now.",
+        "tr": "아빠가 새 의자를 샀는데, 아빠 게 아니야. 이제 고양이 거야.",
         "c": "명사 없이 ‘그의 것’도 his. my는 mine, your는 yours로 바뀌어.",
         "ipa": "hɪz",
         "pos": "pron.",
         "word": "his",
         "si": 2,
-        "sn": 2
+        "sn": 2,
+        "meow": "집 안의 의자는 다 고양이 거라고양. 집사는 바닥에 앉으라고양."
       },
       {
         "en": "from",
@@ -730,14 +737,15 @@
       {
         "en": "or",
         "ko": "① 또는, 아니면",
-        "ex": "Do you want juice {{BLANK}} milk?",
-        "tr": "주스 마실래, 우유 마실래?",
-        "c": "둘 중 고르는 질문엔 yes/no 대신 고른 것으로 답해: Milk, please.",
+        "ex": "To be, {{BLANK}} not to be: that is the question.",
+        "tr": "사느냐 죽느냐, 그것이 문제로다.",
+        "c": "『햄릿』의 대사, 이 be는 ‘살아 있다’. Juice or milk?처럼 고르는 질문엔 고른 걸로 답해: Milk!",
         "ipa": "ɔr",
         "pos": "conj.",
         "word": "or",
         "si": 1,
-        "sn": 2
+        "sn": 2,
+        "meow": "사느냐 죽느냐? 고양이는 목숨이 아홉 개라 그런 고민 안 한다고양."
       },
       {
         "en": "or",
@@ -803,9 +811,9 @@
       {
         "en": "she",
         "ko": "① 그녀가, 그 여자가",
-        "ex": "My mom is a doctor. {{BLANK}} works at a big hospital.",
-        "tr": "우리 엄마는 의사야. 큰 병원에서 일하셔.",
-        "c": "현재형 긍정문에서 she·he 뒤 일반동사엔 -s: she works(O), she work(X).",
+        "ex": "My grandmother loves K-pop. {{BLANK}} dances every morning.",
+        "tr": "우리 할머니는 케이팝을 좋아해. 매일 아침 춤을 추셔.",
+        "c": "현재형 긍정문에서 she·he 뒤 일반동사엔 -s: she dances(O), she dance(X).",
         "ipa": "ʃi",
         "pos": "pron.",
         "word": "she",
@@ -815,8 +823,8 @@
       {
         "en": "my",
         "ko": "① 나의, 내",
-        "ex": "Hi, I'm new. {{BLANK}} name is Jiho.",
-        "tr": "안녕, 나 새로 왔어. 내 이름은 지호야.",
+        "ex": "Hi, I'm new here. {{BLANK}} name is Minso Kim.",
+        "tr": "안녕, 나 여기 새로 왔어. 내 이름은 김민소야.",
         "c": "‘나의’는 my. 뒤에 명사가 꼭 와: my name. 명사 없이 ‘내 것’은 mine.",
         "ipa": "maɪ",
         "pos": "det.",
@@ -978,8 +986,8 @@
       {
         "en": "your",
         "ko": "① 너의, 너희의",
-        "ex": "Hi, I'm Jiho. What is {{BLANK}} name?",
-        "tr": "안녕, 난 지호야. 너는 이름이 뭐야?",
+        "ex": "Hi, I'm Seojin Choi. What is {{BLANK}} name?",
+        "tr": "안녕, 난 최서진이야. 너는 이름이 뭐야?",
         "c": "‘너의’는 your. you're(you are)와 소리가 같으니 철자를 구별해.",
         "ipa": "jʊr",
         "pos": "det.",
@@ -1273,26 +1281,28 @@
       {
         "en": "her",
         "ko": "① 그녀를, 그녀에게",
-        "ex": "Mina is sad. Let's call {{BLANK}}.",
-        "tr": "미나가 슬퍼해. 걔한테 전화하자.",
-        "c": "she의 ‘~를·~에게’는 her. Let's 뒤에는 동사원형: Let's call.",
+        "ex": "Mom says no to cats. Let's show {{BLANK}} this cute cat.",
+        "tr": "엄마가 고양이는 안 된대. 엄마한테 이 귀여운 고양이를 보여 주자.",
+        "c": "she의 ‘~를·~에게’는 her. Let's 뒤에는 동사원형: Let's show.",
         "ipa": "hɝ",
         "pos": "pron.",
         "word": "her",
         "si": 1,
-        "sn": 2
+        "sn": 2,
+        "meow": "작전명 귀여움 공격이라고양. 이 얼굴 보고 안 넘어가는 엄마는 없다고양."
       },
       {
         "en": "her",
         "ko": "② 그녀의",
-        "ex": "Mina sings well. I really like {{BLANK}} voice.",
-        "tr": "미나는 노래를 잘해. 나 걔 목소리 진짜 좋아.",
+        "ex": "Soyeon loves to sing. I love {{BLANK}} voice, but my cat doesn't.",
+        "tr": "소연이는 노래하는 걸 좋아해. 나는 소연이 목소리가 좋은데, 우리 고양이는 아닌가 봐.",
         "c": "her는 ‘그녀의’도 돼. 뒤에 명사가 오면 ‘그녀의’: her voice.",
         "ipa": "hɝ",
         "pos": "det.",
         "word": "her",
         "si": 2,
-        "sn": 2
+        "sn": 2,
+        "meow": "고양이가 방을 나간 건 노래 때문이 아니라고양. ...아마도라고양."
       },
       {
         "en": "out",
@@ -1321,14 +1331,15 @@
       {
         "en": "him",
         "ko": "① 그를, 그에게",
-        "ex": "That boy is new here. Do you know {{BLANK}}?",
-        "tr": "저 남자애 새로 왔어. 너 걔 알아?",
-        "c": "he의 ‘~를’ 모양은 him: know him(O), know he(X).",
+        "ex": "My dad says he hates cats, but my cat loves {{BLANK}}.",
+        "tr": "아빠는 고양이가 싫대. 근데 우리 고양이는 아빠를 엄청 좋아해.",
+        "c": "he의 ‘~를’ 모양은 him: love him(O), love he(X).",
         "ipa": "hɪm",
         "pos": "pron.",
         "word": "him",
         "si": 1,
-        "sn": 1
+        "sn": 1,
+        "meow": "고양이는 원래 싫다는 사람한테 붙는다고양. 고양이식 밀당이라고양."
       },
       {
         "en": "them",
@@ -1357,14 +1368,15 @@
       {
         "en": "how",
         "ko": "① 어떻게",
-        "ex": "\"{{BLANK}} do you go to school?\" \"By bus.\"",
-        "tr": "\"학교에 어떻게 가?\" \"버스 타고.\"",
-        "c": "방법을 물을 때 how. 답에서 탈것은 by bus처럼 a 없이 써.",
+        "ex": "\"{{BLANK}} do you get into college?\" \"By studying at STUDY1.\"",
+        "tr": "\"대학에 어떻게 가?\" \"스터디원 학원에서 공부해서.\"",
+        "c": "방법을 물을 때 how. 답은 by 뒤에 -ing나 탈것: by studying, by bus(a 없이).",
         "ipa": "haʊ",
         "pos": "adv.",
         "word": "how",
         "si": 1,
-        "sn": 2
+        "sn": 2,
+        "meow": "영신초이 신께 배우면 대학은 따라온다고양."
       },
       {
         "en": "how",
@@ -1473,7 +1485,7 @@
         "ko": "① 우리의",
         "ex": "We did it! {{BLANK}} team won the game!",
         "tr": "해냈다! 우리 팀이 이겼어!",
-        "c": "여럿의 ‘우리’는 our. 하지만 우리 엄마처럼 내 가족은 my: my mom.",
+        "c": "여럿의 ‘우리’는 our. 우리말은 ‘우리 엄마’라고 하지만 영어는 my mom이라고 해.",
         "ipa": "ˈaʊɚ",
         "pos": "det.",
         "word": "our",
@@ -2132,13 +2144,13 @@
         "ko": "① 응, 네",
         "ex": "\"Aren't you hungry?\" \"{{BLANK}}, I am. Let's eat.\"",
         "tr": "\"배 안 고파?\" \"아니, 고파. 먹자.\"",
-        "c": "부정으로 물어도 배고프면 Yes, I am. 우리말 ‘아니’가 Yes가 될 수 있어.",
+        "c": "Yes는 그냥 Yes. 부정으로 물어도 사실이 맞으면 Yes: Yes, I am. 한국인이 자주 헷갈리는 곳.",
         "ipa": "jɛs",
         "pos": "int.",
         "word": "yes",
         "si": 1,
         "sn": 1,
-        "meow": "Don't you? 하고 물어도 사실이면 Yes라고양. 한국어랑 반대고양."
+        "meow": "한국인은 괜히 꼬아서 반대로 대답한다고양. 고양이랑 영어는 단순하다고양!"
       },
       {
         "en": "student",
@@ -2179,14 +2191,15 @@
       {
         "en": "its",
         "ko": "① 그것의",
-        "ex": "The cat is washing {{BLANK}} face.",
-        "tr": "고양이가 자기 얼굴을 씻고 있어.",
+        "ex": "My cat washes {{BLANK}} face more than ten times a day.",
+        "tr": "우리 고양이는 하루에 열 번도 넘게 세수해.",
         "c": "its는 ‘그것의’. it's는 it is의 줄임: It's cold. 아포스트로피로 구별해.",
         "ipa": "ɪts",
         "pos": "det.",
         "word": "its",
         "si": 1,
-        "sn": 1
+        "sn": 1,
+        "meow": "고양이는 하루 열 번도 넘게 씻는다고양. 너는 오늘 몇 번 씻었냐고양?"
       },
       {
         "en": "off",
