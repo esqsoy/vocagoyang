@@ -10,7 +10,7 @@
   - 5세트에서 이어서 볼 것: 5세트 1-1 판 이름 "기본 기능어 · a/an"에 an이 없어졌다(제목·진도 키를 지키려고 그대로 둠). 0세트로 간 기능어의 다른 뜻(you ②, be ③④, that ②③ 등)은 5세트에 남아 있다.
   - Oxford 3000 보강(10/10, 로컬): 6~44세트 끝 새 연습 36개에 443개(508장). 0세트 3개는 0세트 반영 때 넣었다. 지침 `pipeline/oxford/BRIEF.md`, 새 카드 검사 `python3 pipeline/oxford/cardcheck.py 초안.json`. (보강 직후 FABLE 7,570장·표제어 5,359·화면 연습 671, 합집합 8,257.) 원장 `oxford-20261010`. 세트별 조명 문법 작업 때 이 카드 예문도 다시 본다. 읽기 페이지 https://claude.ai/artifact/Cx6RgNsV5rSCvCprpSG2j5 (영신 검토 대기).
   - 측정: `python3 pipeline/grammar/measure.py`(spaCy 필요). 기준값 `pipeline/grammar/baseline-20261010.json`.
-  - 해설 읽을 시간(10/11 영신 "해설까지 볼 수 있게 카드당 시간을 늘려야겠어", 로컬·배포 전): 정답 공개 대기를 예문·해석·해설 모두로 센다(2초 + 영어 1단어 250ms + 한국어 1자 110ms, 최대 20초). 0세트 한가운데 카드 4.8초 → 9.7초. 터치·Enter로 바로 넘어간다. [PRINCIPLES 5](PRINCIPLES.md#5-해설-읽을-시간).
+  - 해설 읽을 시간(10/11 영신 "해설까지 볼 수 있게 카드당 시간을 늘려야겠어", main 배포 e9c178d, [DEPLOYMENT](DEPLOYMENT.md)): 정답 공개 대기를 예문·해석·해설 모두로 센다(2초 + 영어 1단어 250ms + 한국어 1자 110ms, 최대 20초). 0세트 한가운데 카드 4.8초 → 9.7초. 터치·Enter로 바로 넘어간다. [PRINCIPLES 5](PRINCIPLES.md#5-해설-읽을-시간).
   - 수능 어법 판단 훈련(10/11 영신 결정): FABLE에는 새 게임 방식을 넣지 않는다. 새로 만들 '마더텅 수능 영어 문법 기출' 교재의 기출 문장으로 '어법 고치기'를 하고, 그 교재 어휘는 단어장으로 빠짐없이 학습하게 한다. 원본 PDF 대기. 입력 방식·배치·문장 길이는 원본을 보고 정한다([PRINCIPLES 12](PRINCIPLES.md#12-문법-순서대로-플레이하면-몸에-밴다)).
   - 초안: 문법 지도 143항목 `pipeline/grammar/syllabus-draft-20261010.json`(페이지 https://claude.ai/artifact/Dhp7PgRApVa9LctYUgmNV6 ), 0세트 전체 초안 234장 `set0-draft-20261010.json`(페이지 https://claude.ai/artifact/BB5W7HkzszXtuQ1H2UnC8E ), 반영됨(위).
   - 영신 승인(10/10): 수능 문법 전체 포함, 구조 정정안(0세트 약 230장·1~4세트 순서 유지·5세트 문법 뜻 분산), 143항목, 작업 순서(0세트 → 5세트 → 1~4세트 → 6~45세트 → Oxford 신규). 남은 확인: goodness ② 삭제 여부, 2022 교육과정 원문 대조(ncic.re.kr 허용 필요).

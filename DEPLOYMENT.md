@@ -1,3 +1,12 @@
+# 해설 읽을 시간 늘림 배포 · 2026-10-11
+
+- 커밋 [e9c178d](https://github.com/esqsoy/vocagoyang/commit/e9c178d)를 origin/main에 fast-forward로 푸시했다(365a798 다음 3커밋, 앱 변경은 e9c178d뿐). [Pages 38108882858](https://github.com/esqsoy/vocagoyang/actions/runs/38108882858): 확인 중(기록 시점 in_progress). 영신: "배포해줘!"
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다. github.io는 이 세션에서 접속이 막혀 공개 페이지는 직접 열어 보지 못했다.
+- 포함(FABLE 게임 코드만 바뀜. DATA·진도·마더텅·EBS는 그대로): 정답 공개 뒤 대기 = 2초 + 예문 1단어당 250ms + 해석·해설 1자당 110ms, 최대 20초(전에는 해설만 1자당 75ms + 1.9초). 0세트 한가운데 카드 4.8초 → 9.7초. 터치·Enter로 바로 넘김은 그대로. 문서: PRINCIPLES 5, UI_STANDARD. 수능 어법 훈련 결정 기록(문서만)도 함께 올라갔다.
+- 배포 전 검사(같은 내용으로 앞선 작업에서 실행): Codex 검사 35/35(테스트 31개와 빌드 `--check` 4종, host-hooks에 예산 전 넘김 없음 확인 추가). Chromium 390px에서 예산 8.86초 카드가 8.86초 뒤 넘어가고 터치로는 0.1초에 넘어감. 실기기 Safari는 확인하지 않았다.
+
+---
+
 # 표제어 정리·Oxford 보강·0세트 재구성 배포 · 2026-10-10
 
 - 커밋 [365a798](https://github.com/esqsoy/vocagoyang/commit/365a798)을 origin/main에 fast-forward로 푸시했다(a8a68c2 다음 22커밋). [Pages 38066295231](https://github.com/esqsoy/vocagoyang/actions/runs/38066295231): completed/success. 영신: "우선 배포합시다. 검수는 배포후에 계속해나갈게."
