@@ -1030,4 +1030,4 @@
 ## 2026-10-11 · 해설 읽을 시간 배포
 
 - **요청:** 영신 "배포해줘!"
-- **배포:** e9c178d를 main에 fast-forward 푸시(앱 변경은 FABLE `revealDelay`뿐). main의 HTML 4개 blob SHA가 로컬과 같다. Pages 결과와 기록은 [DEPLOYMENT](DEPLOYMENT.md).
+- **배포:** e9c178d를 main에 fast-forward 푸시(앱 변경은 FABLE `revealDelay`뿐). main의 HTML 4개 blob SHA가 로컬과 같다. Pages 38108882858 completed/success. 기록은 [DEPLOYMENT](DEPLOYMENT.md).
