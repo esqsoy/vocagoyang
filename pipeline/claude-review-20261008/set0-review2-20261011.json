@@ -2,12 +2,12 @@
  "date": "2026-10-11",
  "name": "set0-review2-20261011",
  "status": "applied_locally_verified",
- "authorization": "영신 2026-10-11 대화: \"영어이름순서는 우리식으로 하자 (다만 영신초이는 통째로 영신초이야(번역도 영신초이임))\", \"프라임에 소수카드 더할지와 홀수 소수 질문의 여부는 완전히 네가 판단해줘\", \"고양이 목숨 9개는 prime number가 아니라고양! 이라고 해야지\". 0세트 직검수 댓글 \"13은 홀수이고 소수야\", hi 해설 \"How are you?는 통째로 익히는 인사.\"에 \"삭제\", hi 예문 Youngsin에 \"소연으로 바꾸자\", I 예문 \"이건 너무 의역이고 I am your father을 쓰는 수밖에 없겠군\", \"다스뵈이다고양!\", \"영어로 해야하는데 다스베이다 영어로 어떻게 쓰지?\".",
- "summary": "이름 순서 우리식(my Kim Minso, your Choi Seojin), hi 예문 Soyeon, I 예문 \"No, I am your father.\"(스타워즈, 고양 \"Darth Vader다고양!\"), thirteen 해설에 \"13은 홀수이자 소수야\", hi 해설에서 \"통째로 익히는 인사\" 삭제, 41세트 prime ② 소수(素數)의 새 카드(prime sn 1→2, 7,574장, 고양 대사 \"고양이 목숨 9개는 prime number가 아니라고양!\").",
+ "authorization": "영신 2026-10-11 대화: \"영어이름순서는 우리식으로 하자 (다만 영신초이는 통째로 영신초이야(번역도 영신초이임))\", \"프라임에 소수카드 더할지와 홀수 소수 질문의 여부는 완전히 네가 판단해줘\", \"고양이 목숨 9개는 prime number가 아니라고양! 이라고 해야지\", \"지금 하는 0세트 코멘트가 안들어가고 있는거 같은데\". 0세트 직검수 댓글: \"13은 홀수이고 소수야\", hi 해설 \"삭제\", hi \"소연으로 바꾸자\", I \"I am your father을 쓰는 수밖에 없겠군\"·\"다스뵈이다고양!\"·\"다스베이다 영어로\", he \"최혁이야 그는 내 아들이야\", she \"장모님은 호러영화를 좋아하셔 … B급 슬래셔무비\", it \"좀 더 재밌게 가자!\", yes \"한국인이 자주 헷갈리는 곳.\" \"삭제\".",
+ "summary": "이름 순서 우리식(my Kim Minso, your Choi Seojin), hi Soyeon, I \"No, I am your father.\"(고양 \"Darth Vader다고양!\"), he \"This is Choi Hyuk. He is my son.\", she 장모님 공포 영화·B급, it \"I have a cat. It thinks it is my boss.\", yes·hi·thirteen 해설, 41세트 prime ② 소수(素數)의 새 카드(prime sn 1→2, 7,574장).",
  "snapshots": {
   "DATA": {
    "beforeHash": "ed4255889b48910fd6cedb3ce86a14343ae0d40609c3c7fa19be7e1468cbaa92",
-   "afterHash": "b891f5ff61db264b1e6313504c13d16fb7a951443c2c99de8eaa9d6a5ddd0d3f",
+   "afterHash": "f6b41301a3fcb61399c9f45d2eef351ba2f61edfe7b81958770da2d4d1d5f996",
    "changes": [
     {
      "path": [
@@ -111,6 +111,172 @@
      "path": [
       0,
       "exercises",
+      1,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This is Youngsin Choi. {{BLANK}} is my friend.",
+     "new": "This is Choi Hyuk. {{BLANK}} is my son."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "얘는 영신초이야. 내 친구야.",
+     "new": "얘는 최혁이야. 내 아들이야."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      0,
+      "meow"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": "혁이는 엄마 닮아서 영신초이보다 잘생겼다고양!"
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      1,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "My grandmother loves K-pop. {{BLANK}} dances every morning.",
+     "new": "My wife's mom loves horror movies. {{BLANK}} watches a B movie every night."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      1,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 할머니는 케이팝을 좋아해. 매일 아침 춤을 추셔.",
+     "new": "우리 장모님은 공포 영화를 좋아하셔. 밤마다 B급 영화를 보셔."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "현재형 긍정문에서 she·he 뒤 일반동사엔 -s: she dances(O), she dance(X).",
+     "new": "현재형에서 she·he 뒤 일반동사엔 -s: she watches(O), she watch(X). -ch 뒤엔 -es."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      1,
+      "meow"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": "B급도 아니고 D급만 고르신다고양. 그것도 안목이라고양."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "I have a robot cat. {{BLANK}} never sleeps.",
+     "new": "I have a cat. {{BLANK}} thinks it is my boss."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "나한테 로봇 고양이가 있어. 절대 안 자.",
+     "new": "나 고양이 키워. 자기가 내 상사인 줄 알아."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리말은 ‘그것은’을 빼도 되지만 영어는 주어를 꼭 써: It never sleeps.",
+     "new": "우리말은 ‘그것은’을 빼도 되지만 영어는 주어를 꼭 써: It thinks it is my boss."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      2,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "안 자는 고양이? 그건 고양이가 아니라 가전제품이라고양.",
+     "new": "착각 아니고 사실이라고양. 집사는 츄르로 충성하라고양."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Yes는 그냥 Yes. 부정으로 물어도 사실이 맞으면 Yes: Yes, I am. 한국인이 자주 헷갈리는 곳.",
+     "new": "Yes는 그냥 Yes. 부정으로 물어도 사실이 맞으면 Yes: Yes, I am."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
       2,
       "words",
       0,
@@ -198,7 +364,7 @@
   },
   "pipeline/out/set05.json": {
    "beforeHash": "0395aa293004bd9b9217f312ca6528b921cb90cd94275664af802eb6a2921c33",
-   "afterHash": "783a0f73c9a9d40c61055591cc6cef7ff22875ad4083dc61308eee74aa3cf54a"
+   "afterHash": "51e2c05dbd2bd1e961c55639cc97d364b4d0bd483fd51919040b00b39dc5f5a6"
   },
   "pipeline/out/set41.json": {
    "beforeHash": "61f3d31d923e9f62acb522b1f08a901c8f5641d0a8e70529638575d592739830",
@@ -315,6 +481,136 @@
   "pipeline/out/set05.json": [
    {
     "path": [
+     0,
+     "words",
+     20,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "I have a robot cat. {{BLANK}} never sleeps.",
+    "new": "I have a cat. {{BLANK}} thinks it is my boss."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     20,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "나한테 로봇 고양이가 있어. 절대 안 자.",
+    "new": "나 고양이 키워. 자기가 내 상사인 줄 알아."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     20,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리말은 ‘그것은’을 빼도 되지만 영어는 주어를 꼭 써: It never sleeps.",
+    "new": "우리말은 ‘그것은’을 빼도 되지만 영어는 주어를 꼭 써: It thinks it is my boss."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     20,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "안 자는 고양이? 그건 고양이가 아니라 가전제품이라고양.",
+    "new": "착각 아니고 사실이라고양. 집사는 츄르로 충성하라고양."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     9,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This is Youngsin Choi. {{BLANK}} is my friend.",
+    "new": "This is Choi Hyuk. {{BLANK}} is my son."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "얘는 영신초이야. 내 친구야.",
+    "new": "얘는 최혁이야. 내 아들이야."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     9,
+     "meow"
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": "혁이는 엄마 닮아서 영신초이보다 잘생겼다고양!"
+   },
+   {
+    "path": [
+     2,
+     "words",
+     15,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "My grandmother loves K-pop. {{BLANK}} dances every morning.",
+    "new": "My wife's mom loves horror movies. {{BLANK}} watches a B movie every night."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     15,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 할머니는 케이팝을 좋아해. 매일 아침 춤을 추셔.",
+    "new": "우리 장모님은 공포 영화를 좋아하셔. 밤마다 B급 영화를 보셔."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     15,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "현재형 긍정문에서 she·he 뒤 일반동사엔 -s: she dances(O), she dance(X).",
+    "new": "현재형에서 she·he 뒤 일반동사엔 -s: she watches(O), she watch(X). -ch 뒤엔 -es."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     15,
+     "meow"
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": "B급도 아니고 D급만 고르신다고양. 그것도 안목이라고양."
+   },
+   {
+    "path": [
      2,
      "words",
      16,
@@ -336,6 +632,18 @@
     "newExists": true,
     "old": "Hi, I'm Seojin Choi. What is {{BLANK}} name?",
     "new": "Hi, I'm Choi Seojin. What is {{BLANK}} name?"
+   },
+   {
+    "path": [
+     8,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Yes는 그냥 Yes. 부정으로 물어도 사실이 맞으면 Yes: Yes, I am. 한국인이 자주 헷갈리는 곳.",
+    "new": "Yes는 그냥 Yes. 부정으로 물어도 사실이 맞으면 Yes: Yes, I am."
    }
   ],
   "pipeline/out/set41.json": [
