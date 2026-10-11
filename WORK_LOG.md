@@ -1058,3 +1058,4 @@
 - **원장:** `codex-review-20261011`(DATA 96곳, 원본 105곳, 되돌림 확인). 복원 체인 29→30층.
 - **문서:** PRINCIPLES 2-7(놓친 사례 republic, 확인 방법 보완), 3(Codex 전수 경쟁어 65건과 collide의 한계), 7(사촌 쌍은 '짝'으로). 리뷰 README.
 - **검증(새로 실행):** Codex 검사 35/35(테스트 31개와 빌드 --check 4종), milestones 빌드 --check. deepcheck A1~A5·A7 0, A6 89. linecheck 390·360px 초과 0. exaudit 11. ordercheck 앞당김1 492·2개 이상 78. collide 911→907. Chromium 390px: 14세트 republic 카드 정답 공개 화면 확인, 콘솔 오류 없음.
+- **배포:** acfe20e를 main에 fast-forward 푸시, Pages 38121357882 completed/success. main의 HTML 4개 blob SHA가 로컬과 같다. 기록은 [DEPLOYMENT](DEPLOYMENT.md).

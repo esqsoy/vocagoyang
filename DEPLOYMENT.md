@@ -1,6 +1,6 @@
 # Codex 리뷰 반영(실행 문제 2곳·내용 88장) 배포 · 2026-10-11
 
-- 커밋 [acfe20e](https://github.com/esqsoy/vocagoyang/commit/acfe20e)를 origin/main에 fast-forward로 푸시했다(d0b616d 다음). [Pages 38121357882](https://github.com/esqsoy/vocagoyang/actions/runs/38121357882): 확인 중(기록 시점 queued). 영신: "합쳐도 돼. 다 반영하고 배포해줘"
+- 커밋 [acfe20e](https://github.com/esqsoy/vocagoyang/commit/acfe20e)를 origin/main에 fast-forward로 푸시했다(d0b616d 다음). [Pages 38121357882](https://github.com/esqsoy/vocagoyang/actions/runs/38121357882): completed/success. 영신: "합쳐도 돼. 다 반영하고 배포해줘"
 - 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다. github.io는 이 세션에서 접속이 막혀 공개 페이지는 직접 열어 보지 못했다.
 - 포함:
   - 세 과정 공통: 돌파 축하가 돌고 있는 판 위에 뜨지 않고, 게임 밖 화면으로 나올 때 뜬다(R1).
