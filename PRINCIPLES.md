@@ -184,7 +184,8 @@
   - empire: "In 27 BC, Rome became an empire ruled by Augustus." 해설 "로마 제국은 the Roman Empire". 영신 예시의 '2세기'는 영토가 가장 넓던 때라 제국이 된 해(기원전 27년)로 바로잡았다.
   - pyramid(Great Pyramid of Giza), pole ②(North Pole), hemisphere(Northern Hemisphere), lunar(Lunar New Year)도 같은 방식으로 바꿨다. wall은 처음부터 "a long wall"로 쓰고 해설에 the Great Wall of China를 적었다.
   - 경계 사례 parliament(18세트 "The British parliament")는 소문자 표기도 쓰이므로 그때는 두었다. 4묶음(의회 정치)에서 "Many countries have an elected parliament that makes their laws."로 바꾸고, 해설에 영국 의회 the Parliament(대문자)를 적었다.
-- 확인 방법: 문장 첫머리가 아닌 대문자 단어 바로 앞뒤에 소문자 표제어 빈칸이 오는 카드를 뽑아 사람이 읽는다. 대부분은 English teacher, Korean custom처럼 정상이다.
+- 확인 방법: 문장 첫머리가 아닌 대문자 단어 바로 앞뒤에 소문자 표제어 빈칸이 오는 카드를 뽑아 사람이 읽는다. 대부분은 English teacher, Korean custom처럼 정상이다. "the ___ of Korea"처럼 이름이 of 뒤에 오는 꼴도 함께 뽑는다.
+- 놓친 사례(26.10.11 Codex 리뷰): republic "Korea's full name is the ___ of Korea"는 빈칸 바로 옆에 대문자 단어가 없어 위 방법에 걸리지 않았다. 정답을 채우면 "the republic of Korea"가 됐다. "A republic is a country with no king or queen."으로 바꾸고 정식 이름은 해설에 두었다. 같은 리뷰로 parliament 해설의 "the Parliament"도 "Parliament(보통 관사 없이)"로 바로잡았다.
 
 ## 3. 빈칸 중의성: 맞는 영어를 치고 틀리게 하지 않는다
 
@@ -200,6 +201,7 @@
   - share ③ 주식 ↔ stock, response ② ↔ reaction, realize ② ↔ achieve·fulfill 등
   - 이 기준과 도구가 문서에서 빠진 뒤 만든 카드들이다.
   - 26.10.08 검증된 결함 62건(중의성 52)을 고쳤다. 대부분 10/2 원칙대로 해설에 "이 뜻에서는 X와 바꿔 쓸 수 있다"를 넣었다. 예문은 필요한 15장만 바꿨다. 기록: `pipeline/claude-review-20261008/`.
+  - 26.10.11 Codex(아스트라)가 7,573장을 전수로 읽어 같은 칸 수 경쟁어 65건을 더 찾았다(kind/type·sort, choice/option, calm/cool 등). Claude가 대조해 61건과 Oxford 메모 3건을 같은 방식으로 반영했다(영신 "다 반영하고"). step/pace처럼 넣으면 어색한 4건은 받지 않았다. collide.py는 한국어 뜻으로 거르는 체라, 뜻풀이가 달라도 영어로는 바꿔 쓸 수 있는 말을 놓친다. 새 카드는 사람이 같은 칸 수의 영어 동의어를 한 번 더 떠올려 본다. 원장 `codex-review-20261011`.
 
 ## 4. 해설은 꼭 필요한 것만
 
@@ -247,6 +249,7 @@
 - 사례: 26.9.19 형태론 재설계 때 사촌 쌍 연습이 빠졌다. 그 결과 cardiac·pedestrian·novel(소설) 같은 단어가 Fable에서 사라졌다.
 - 26.10.08 48세트 마지막 연습으로 되살렸다(14카드). 바로 앞의 게르만 고유어 word family 다음에 두어 "라틴·그리스 어근 → 고유 영어 → 둘은 사촌"으로 닫힌다.
 - **가짜 사촌(lunar·oral)을 함께 둔다.** 뜻이 같아도 소리 대응이 없으면 사촌이 아니다. 법칙을 아무 데나 갖다 붙이는 것을 막는 예방주사다.
+- **사촌 쌍 해설은 '바뀌었다'가 아니라 '짝'으로 쓴다.** (26.10.11 Codex 리뷰, 영신 "다 반영하고") 처음에는 "라틴어 p가 f로 바뀌었어"처럼 썼다. 그러면 영어 father가 라틴어 pater에서 나온 것처럼 읽힌다. 실제로는 둘 다 같은 옛 뿌리에서 갈라졌고, 그림 법칙은 게르만어 쪽에서 일어난 변화다. 그래서 "pater와 father는 같은 뿌리의 사촌. 라틴어 p와 영어 f가 짝이야"로 고쳤다(paternal·pedestrian·triple·dental·cardiac·unicorn).
 
 ## 8. 한국어 표기·화면 표시
 

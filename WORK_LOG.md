@@ -1049,3 +1049,12 @@
 - **내용 판정:** 전수 리뷰 12건·문법 5묶음 7장에 모두 동의. 같은 그림 법칙 표현의 사촌 카드 5장을 더해 내용 17장. 대체어 안내 65건 중 61장 + Oxford 메모 3장 = 64장 수용, 4건(step/pace, table/chart, reduce/lessen, steal/swipe)은 자연스럽지 않거나 위험이 낮아 받지 않음. 선택 36건과 문법 설계 권고는 보류(세트별 문법 작업 때). 별도 작업 트리 검사: linecheck 390·360 초과 0, A6 90→89, exaudit 11, collide 911→907.
 - **검증(새로 실행):** Codex 검사 35/35(테스트 31개와 빌드 --check 4종), milestones 빌드 --check.
 - **상태:** R1·R2 브랜치 커밋, 배포 안 함. 내용 88장은 영신 확인 대기(읽기 페이지 https://claude.ai/artifact/29Ebjy3QV8qr36Pkspb6iz ).
+
+## 2026-10-11 · Codex 리뷰 내용 88장 반영과 배포
+
+- **요청:** 영신 "합쳐도 돼. 다 반영하고 배포해줘".
+- **합치기:** main(d0b616d, Codex 리뷰 묶음)을 작업 브랜치로 합쳤다. Codex 커밋은 문서·리뷰 파일만 바꿨고 앱·데이터는 그대로인 것을 확인했다.
+- **반영:** 읽기 페이지의 88장 그대로. 내용 17장(republic 예문 "A republic is a country with no king or queen.", gross는 최종 재화·서비스와 국내 생산을 담은 3줄 예문, immune은 be immune to 예문, migrate는 '시작' 단정 뺌, approach는 '오래 누워 있지 않기'로 좁힘, 사촌 쌍 6장은 '바뀌었다' 대신 '짝'), 문법 7장, 대체어 안내 64장. 원본 31개(out 28개·morphology.json, 생성물 set46~48 포함)와 HTML.
+- **원장:** `codex-review-20261011`(DATA 96곳, 원본 105곳, 되돌림 확인). 복원 체인 29→30층.
+- **문서:** PRINCIPLES 2-7(놓친 사례 republic, 확인 방법 보완), 3(Codex 전수 경쟁어 65건과 collide의 한계), 7(사촌 쌍은 '짝'으로). 리뷰 README.
+- **검증(새로 실행):** Codex 검사 35/35(테스트 31개와 빌드 --check 4종), milestones 빌드 --check. deepcheck A1~A5·A7 0, A6 89. linecheck 390·360px 초과 0. exaudit 11. ordercheck 앞당김1 492·2개 이상 78. collide 911→907. Chromium 390px: 14세트 republic 카드 정답 공개 화면 확인, 콘솔 오류 없음.

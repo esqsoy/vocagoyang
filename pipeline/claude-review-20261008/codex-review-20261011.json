@@ -1,0 +1,2880 @@
+{
+ "date": "2026-10-11",
+ "name": "codex-review-20261011",
+ "status": "applied_locally_verified",
+ "authorization": "영신 2026-10-11 \"합쳐도 돼. 다 반영하고 배포해줘\"(Codex 리뷰 반영안 88장)",
+ "summary": "Codex(아스트라) 2026-10-11 리뷰 반영: 내용 정확성 17장(score·chief·republic·parliament·migrate·gross·immune·socialism·scarcity·approach·suspect·unicorn와 그림 법칙 사촌 5장), 문법 해설 범위 7장, 같은 칸 수 대체어 안내 64장. 읽기 페이지 https://claude.ai/artifact/29Ebjy3QV8qr36Pkspb6iz",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "0dc374c9c6037542500080983a77873577606d2ce0337e0e252621d13abde3d1",
+   "afterHash": "c682f6b181a38dfeb8966110a79261c5a9680a4db3888290c5c7394330000985",
+   "changes": [
+    {
+     "path": [
+      0,
+      "exercises",
+      0,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "I 뒤에는 am, 한 사람이나 한 개 뒤에는 is. I는 늘 대문자로 써.",
+     "new": "be 현재형은 I am, 한 사람이나 한 개 뒤에는 is. I는 늘 대문자로 써."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      0,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "you 뒤에는 늘 are. 한 명이든 여럿이든 You are ~.",
+     "new": "be 현재형은 you 뒤에 늘 are. 한 명이든 여럿이든 You are ~."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "she·he 뒤 일반동사엔 -s를 붙여: she works(O), she work(X).",
+     "new": "현재형 긍정문에서 she·he 뒤 일반동사엔 -s: she works(O), she work(X)."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      4,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "what 뒤에 do를 넣어 물어: What do you want? 답은 내용으로 해.",
+     "new": "What do you want?처럼 do를 넣어 묻기도 해. What is your name?엔 do가 없어."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      4,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "장소를 물을 때 where. 답은 in·at으로 해: I live in Seoul.",
+     "new": "장소를 물을 때 where. I live in Seoul. / I live here.처럼 답해."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      14,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "신문의 스포츠 면도 section.",
+     "new": "신문의 스포츠 면도 section. 이 뜻에서는 portion과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      14,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "정보를 표나 그림으로 정리한 것. bar chart는 막대그래프.",
+     "new": "정보를 표나 그림으로 정리한 것. bar chart는 막대그래프. 이 뜻에서는 table·graph와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      20,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "놀라움을 주는 쪽은 amazing, 놀라움을 느끼는 쪽은 amazed. 좋은 일에 자주 써.",
+     "new": "놀라움을 주는 쪽은 amazing, 느끼는 쪽은 amazed. 이 뜻에서는 awesome과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      20,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "fantasy(환상)의 형용사. 구어에서 '최고'.",
+     "new": "fantasy(환상)의 형용사. 구어에서 '최고'. 이 뜻에서는 wonderful과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      20,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "wonder(경이)+ful. 감탄이 나오는.",
+     "new": "wonder(경이)+ful. 감탄이 나오는. 이 뜻에서는 fantastic과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      1,
+      "exercises",
+      0,
+      "words",
+      15,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "품질이나 상태가 좋다는 뜻. be good at math = 수학을 잘하다.",
+     "new": "품질이나 상태가 좋다. be good at math = 수학을 잘하다. 이 뜻에서는 nice·fine과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      1,
+      "exercises",
+      2,
+      "words",
+      24,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "교통수단을 '택해 이용하다'가 take.",
+     "new": "교통수단을 '택해 이용하다'가 take. 이 문장에서는 ride와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      0,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "a group of+복수 명사: ~의 한 무리. a group of students는 학생 한 무리.",
+     "new": "a group of+복수 명사: ~의 한 무리. 이 뜻에서는 bunch와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      1,
+      "words",
+      16,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "point in time = 시점.",
+     "new": "point in time = 시점. 이 뜻에서는 stage와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      2,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "support a plan은 계획을 지지하다, support a team은 팀을 응원하다.",
+     "new": "support a team은 팀을 응원하다. 이 뜻에서는 endorse와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      5,
+      "words",
+      14,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "도시·나라 등의 한 지역이나 구역. a residential area는 주거 지역.",
+     "new": "도시·나라 등의 한 지역. a residential area는 주거 지역. 이 뜻에서는 part와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      6,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "kind to: ~에게 친절한.",
+     "new": "kind to: ~에게 친절한. 이 뜻에서는 nice와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      6,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "구어 kind of(kinda)는 '좀, 약간'. a kind of 한 종류의. What kind of ~? 어떤 종류의 ~?",
+     "new": "구어 kind of(kinda)는 '좀'. 이 뜻에서는 type·sort와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      7,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "",
+     "new": "이 뜻에서는 role과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      8,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "talk to/with someone은 ~와 이야기하다. talk about something은 ~에 관해 이야기하다.",
+     "new": "talk to/with ~는 ~와 이야기하다, talk about ~은 ~에 관해. 이 뜻에서는 chat과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      2,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "It is possible to do는 ‘~하는 것이 가능하다’. ‘나는 할 수 있다’는 I can do로 말한다.",
+     "new": "It is possible to do: ~하는 것이 가능하다. 이 뜻에서는 feasible과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      5,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "the Ice Age(빙하기).",
+     "new": "the Ice Age(빙하기). 이 뜻에서는 era와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      6,
+      "words",
+      17,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "문맥에 따라 정도가 달라진다. not quite = 완전히 ~하지는 않은. quiet(조용한)와 철자 주의.",
+     "new": "not quite = 완전히 ~하지는 않은. quiet(조용한)와 철자 주의. 이 문장에서는 fully와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      8,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "라틴어 currere(달리다)에서 온 말이라 '지금 흐르는' 것을 가리킨다. 부사는 currently(현재).",
+     "new": "라틴어 currere(달리다)에서 '지금 흐르는'. 부사는 currently. 이 뜻에서는 present와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      3,
+      "words",
+      18,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "",
+     "new": "이 뜻에서는 location과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      6,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "in the middle of는 ‘~의 한가운데·도중에’. in the middle of a meeting은 회의 도중에.",
+     "new": "in the middle of는 ~의 한가운데·도중에. 이 뜻에서는 center와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      7,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "흥미를 일으키면 interesting, 흥미를 느끼면 interested.",
+     "new": "흥미를 일으키면 interesting, 느끼면 interested. 이 뜻에서는 intrigue와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      8,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "freedom of the press = 언론의 자유.",
+     "new": "freedom of the press = 언론의 자유. 이 뜻에서는 media와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      9,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "",
+     "new": "이 뜻에서는 nice·neat과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      10,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "노력해 목표·성과를 얻다. achievement는 성취·업적.",
+     "new": "노력해 목표·성과를 얻다. achievement는 성취. 이 뜻에서는 realize·fulfill과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      10,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "주로 동사 affect+대상. 명사 effect는 영향·결과: have an effect on.",
+     "new": "주로 동사. 명사 effect는 영향: have an effect on. 이 뜻에서는 impact와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      5,
+      "exercises",
+      0,
+      "words",
+      19,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "have to는 의무·필요. 과거는 had to, don't have to는 '안 해도 된다'로 금지가 아니다.",
+     "new": "have to는 의무·필요(이 문장에서는 need to도 된다). don't have to는 '안 해도 된다'."
+    },
+    {
+     "path": [
+      5,
+      "exercises",
+      2,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "What a+명사! = 감탄문. 명사 없이 형용사만이면 How를 쓴다.",
+     "new": "What a/an+(형용사)+셀 수 있는 단수 명사! 형용사만이면 How: How beautiful!"
+    },
+    {
+     "path": [
+      5,
+      "exercises",
+      7,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "be over = 끝나다. 게임의 Game over가 바로 이 over.",
+     "new": "be over = 끝나다. Game over의 over. 이 뜻에서는 done과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      5,
+      "exercises",
+      9,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "lose weight는 체중이 줄다. gain weight는 체중이 늘다.",
+     "new": "lose weight는 체중이 줄다, gain weight는 늘다. 이 뜻에서는 shed와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      0,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "kill time = 남는 시간을 '죽여서' 없애다, 즉 때우다.",
+     "new": "kill time = 시간을 '죽여서' 때우다. 이 문장에서는 pass와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      2,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "have an effect on은 ‘~에 영향을 미치다’. affect는 ‘영향을 주다’라는 동사. side effect는 부작용.",
+     "new": "have an effect on ~에 영향을 미치다. 이 뜻에서는 impact와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      3,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Pass me the ~.",
+     "new": "Pass me the ~. 이 뜻에서는 hand·give와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      6,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "choose–chose–chosen. 명사는 choice.",
+     "new": "choose–chose–chosen. 명사는 choice. 이 뜻에서는 select와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      6,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "",
+     "new": "이 뜻에서는 training과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      8,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "choose(고르다)의 명사. have no choice = 어쩔 수 없다.",
+     "new": "choose(고르다)의 명사. have no choice = 어쩔 수 없다. 이 뜻에서는 option과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      7,
+      "exercises",
+      9,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "머릿속에 그려 보다. 뒤엔 -ing가 온다 — imagine living there(O), imagine to live(X).",
+     "new": "뒤엔 -ing: imagine living(O), to live(X). 이 뜻에서는 picture와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      7,
+      "exercises",
+      10,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "숫자로 매긴 점수. A·B 같은 성적 등급이나 학년은 grade.",
+     "new": "시험 점수. 이 뜻에서는 grade와 바꿔 쓸 수 있다. 경기 점수도 score, grade는 학년·등급도 뜻해."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      1,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "몸도 마음도 hurt. hurt-hurt-hurt 무변화 동사.",
+     "new": "몸도 마음도 hurt. hurt-hurt-hurt 무변화 동사. 이 뜻에서는 harm과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      4,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "vary(다르다)-various(다양한)-variety(다양성). 뒤엔 복수 명사.",
+     "new": "vary-various-variety. 뒤엔 복수 명사. 이 뜻에서는 diverse와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      5,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Take a seat(앉으세요). 동사 sit(앉다)과 철자 구분.",
+     "new": "Take a seat(앉으세요). 동사 sit과 철자 구분. 이 뜻에서는 spot과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      6,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "",
+     "new": "이 뜻에서는 pub과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      9,
+      "exercises",
+      1,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "free+dom(상태). kingdom(왕국)에도 같은 접미사 -dom이 쓰인다.",
+     "new": "free+dom(상태). kingdom의 -dom과 같은 접미사. 이 뜻에서는 liberty와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      9,
+      "exercises",
+      6,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "배뿐 아니라 다른 운송 수단으로 보내도 ship.",
+     "new": "배뿐 아니라 다른 운송 수단으로 보내도 ship. 이 뜻에서는 send와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      9,
+      "exercises",
+      6,
+      "words",
+      16,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "발음 [와인드]. 시계 태엽, 붕대, 구불구불한 길(winding road).",
+     "new": "발음 [와인드]. 시계 태엽, 붕대, 구불구불한 길(winding road). 이 뜻에서는 wrap과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      10,
+      "exercises",
+      0,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "the object of ~: ~의 목적. 물체와 같은 명사 발음.",
+     "new": "the object of ~: ~의 목적. 이 뜻에서는 target과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      10,
+      "exercises",
+      8,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "chief reason은 주된 이유. 이 뜻에서는 prime과 바꿔 쓸 수 있다. major·main보다 으뜸인 하나.",
+     "new": "chief reason은 주된 이유. 이 뜻에서는 major·prime과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      10,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "영국에서는 '복습하다'(미국 review)로도 쓴다. 더 낫게 고치다. 명사는 revision.",
+     "new": "더 낫게 고치다. 명사는 revision. 영국에선 복습하다로도 쓴다. 이 뜻에서는 rework와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      12,
+      "exercises",
+      6,
+      "words",
+      15,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "neither of+복수명사: 둘 중 어느 쪽도 아니다.",
+     "new": "neither of the+복수 명사, neither+단수 명사: 둘 중 어느 쪽도 아니다."
+    },
+    {
+     "path": [
+      12,
+      "exercises",
+      9,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "확신을 낮추어 ‘아마 ~일걸’이라고 말한다. I suppose so는 ‘아마 그럴걸’.",
+     "new": "확신을 낮춘 '아마 ~일걸'. I suppose so 아마 그럴걸. 이 뜻에서는 suspect와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      13,
+      "exercises",
+      5,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "격에 '맞는'. 부사 properly 제대로.",
+     "new": "격에 '맞는'. 부사 properly 제대로. 이 뜻에서는 decent와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      13,
+      "exercises",
+      7,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "반대편에 '맞서는' 힘.",
+     "new": "반대편에 '맞서는' 힘. 이 뜻에서는 resistance와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      13,
+      "exercises",
+      10,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "locate(위치를 찾다), be located(~에 있다)의 명사. 영화 촬영지도 location.",
+     "new": "locate·be located의 명사. 영화 촬영지도 location. 이 뜻에서는 position과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      8,
+      "words",
+      10,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Korea's full name is the {{BLANK}} of Korea.",
+     "new": "A {{BLANK}} is a country with no king or queen."
+    },
+    {
+     "path": [
+      14,
+      "exercises",
+      8,
+      "words",
+      10,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "한국의 정식 명칭은 대한민국(한국 공화국)이야.",
+     "new": "공화국은 왕이 없는 나라야."
+    },
+    {
+     "path": [
+      15,
+      "exercises",
+      9,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "destroy(파괴하다)의 명사형.",
+     "new": "destroy(파괴하다)의 명사형. 이 뜻에서는 devastation과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      0,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "마음·바다·날씨가 잔잔한 상태. keep calm 침착함을 유지하다.",
+     "new": "마음·바다·날씨가 잔잔한 상태. keep calm. 이 뜻에서는 cool과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      1,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "pile up은 쌓이다·쌓아 올리다.",
+     "new": "pile up은 쌓이다·쌓아 올리다. 이 뜻에서는 heap과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      4,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "명사는 courage(용기), 형용사는 courageous(용감한).",
+     "new": "형용사는 courageous(용감한). 이 뜻에서는 bravery와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      0,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "값이 나가거나 개인에게 소중한. precious metals는 귀금속, precious memories는 소중한 추억.",
+     "new": "precious memories는 소중한 추억. 이 뜻에서는 valuable과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      2,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "persuade+사람+to V: ~하게 설득하다. 설득에 성공까지 한 것.",
+     "new": "persuade+사람+to V: ~하게 설득하다. 이 뜻에서는 convince와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      5,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "영국 의회는 the Parliament(대문자), 미국 의회는 Congress.",
+     "new": "영국 의회는 Parliament(대문자, 보통 관사 없이), 미국 의회는 Congress."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      7,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "jealous of+대상=~를 질투하는. 명사는 jealousy.",
+     "new": "jealous of+대상=~를 질투하는. 명사는 jealousy. 이 뜻에서는 envious와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      7,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "dis(반대)+courage: 기를 꺾다. discourage sb from -ing: 못 하게 말리다.",
+     "new": "dis(반대)+courage: 기를 꺾다. 이 뜻에서는 dishearten과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      20,
+      "exercises",
+      3,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "아주 훌륭하거나 멋진. great보다 격식 있거나 예스러운 느낌.",
+     "new": "아주 훌륭하거나 멋진. great보다 격식 있는 말. 이 뜻에서는 gorgeous와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      23,
+      "exercises",
+      9,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "most(대부분)+ly. '가장'이라는 뜻은 없으니 주의한다.",
+     "new": "most+ly. '가장'이라는 뜻은 없다. 이 뜻에서는 mainly와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      10,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Modern humans began to {{BLANK}} out of Africa about 60,000 years ago.",
+     "new": "About 60,000 years ago, many modern humans {{BLANK}}d out of Africa."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      10,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "현생 인류는 약 6만 년 전 아프리카를 떠나 이주하기 시작했어.",
+     "new": "약 6만 년 전 많은 현생 인류가 아프리카 밖으로 이주했어."
+    },
+    {
+     "path": [
+      30,
+      "exercises",
+      10,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "large+-ly지만 '크게'가 아니라 '주로'. mainly·mostly와 바꿔 쓸 수 있다.",
+     "new": "large+-ly지만 '크게'가 아니라 '주로'. mainly·mostly·chiefly와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      4,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "GDP, or {{BLANK}} domestic product, is the value of all a country makes in a year.",
+     "new": "{{BLANK}} domestic product adds up the final goods and services made in a country."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      4,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "GDP, 곧 국내총생산은 한 나라가 한 해에 만드는 모든 것의 가치야.",
+     "new": "국내총생산은 한 나라 안에서 만든 최종 재화와 서비스의 값을 모두 더한 거야."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      8,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "A vaccine trains the {{BLANK}} system to recognize a germ.",
+     "new": "A vaccine can make you {{BLANK}} to a disease."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      8,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "백신은 면역 체계가 병원균을 알아보도록 훈련시켜.",
+     "new": "백신을 맞으면 병에 면역이 생길 수 있어."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      8,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "be immune to ~. immune system은 면역 체계.",
+     "new": "be immune to ~: ~에 면역이 있다. immune system은 면역 체계."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      10,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "a significant number of+복수 명사는 복수 동사로 받는다.",
+     "new": "a significant number of+복수 명사는 복수 동사로. 이 뜻에서는 substantial과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "↔ capitalism(자본주의). 지지자들은 communism(공산주의)을 이보다 더 나아간 단계로 본다.",
+     "new": "↔ capitalism(자본주의). 마르크스주의에서는 communism(공산주의)을 그다음 단계로 본다."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      10,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "형용사는 scarce. shortage는 일시적 부족, scarcity는 근본적 희소.",
+     "new": "형용사는 scarce. scarcity는 바라는 것보다 자원이 적은 희소성, shortage는 모자람."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      10,
+      "words",
+      13,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Doctors now take a new {{BLANK}} to back pain: keep moving, don't rest.",
+     "new": "Doctors now take a different {{BLANK}} to back pain: stay active, avoid long bed rest."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      10,
+      "words",
+      13,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "의사들은 이제 허리 통증에 새롭게 접근해. 쉬지 말고 계속 움직이라는 거야.",
+     "new": "이제 의사들은 허리 통증을 다르게 다뤄. 계속 움직이고 오래 누워 있지 않게 해."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      6,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "firm(굳은)과 한 뿌리. affirm that절로 쓰고 반대는 deny.",
+     "new": "firm(굳은)과 한 뿌리. 반대는 deny. 이 뜻에서는 assert와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      11,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "특정 개념을 가리키는 말. technical term(전문 용어).",
+     "new": "특정 개념을 가리키는 말. technical term 전문 용어. 이 뜻에서는 word와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      46,
+      "exercises",
+      1,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "특정 개념을 가리키는 말. technical term(전문 용어).",
+     "new": "특정 개념을 가리키는 말. technical term 전문 용어. 이 뜻에서는 word와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      47,
+      "exercises",
+      8,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "approve(승인하다)→approval(승인). 명사형 -al이 붙으며 끝의 e가 빠져.",
+     "new": "approve→approval. 명사형 -al이 붙으며 e가 빠져. 이 뜻에서는 sanction과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      10,
+      "words",
+      5,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "(좋지 않은 일을) ~일 것이라고 짐작하다",
+     "new": "~일 것이라고 짐작하다(주로 좋지 않은 일)"
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      10,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "spect-는 보다. 증거 없이 ~라고 의심하다. suppose와 달리 좋지 않은 일을 짐작할 때 써.",
+     "new": "spect-는 보다. 확신은 없지만 ~일 것이라 짐작하다. 좋지 않은 일에 자주 써."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      22,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "라틴어 pater = father. p가 f로 바뀌었어(그림 법칙). 외가 쪽은 maternal.",
+     "new": "pater와 father는 같은 뿌리의 사촌. 라틴어 p와 영어 f가 짝이야(그림 법칙). 외가 쪽은 maternal."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      22,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "ped(발) = foot. p는 f로, d는 t로 두 번 바뀌었어. 걸어 다니는 사람이 보행자.",
+     "new": "ped(발)와 foot은 사촌. p와 f, d와 t가 짝이야. 걸어 다니는 사람이 보행자."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      22,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "tres(셋) = three. t가 th로 바뀌었어. 두 배는 double, 세 배는 triple.",
+     "new": "tres(셋)와 three는 사촌. t와 th가 짝이야. 두 배는 double, 세 배는 triple."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      22,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "dent(이) = tooth. d가 t로 바뀌었어. dentist(치과 의사)도 같은 뿌리.",
+     "new": "dent(이)와 tooth는 사촌. d와 t가 짝이야. dentist(치과 의사)도 같은 뿌리."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      22,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그리스어 καρδία(kardia) = heart. k가 h로 약해졌어. cardio 운동도 같은 뿌리.",
+     "new": "그리스어 kardia(심장)와 heart는 사촌. k와 h가 짝이야. cardio 운동도 같은 뿌리."
+    },
+    {
+     "path": [
+      48,
+      "exercises",
+      22,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "uni(하나)+cornu(뿔). 라틴어 c(k)가 영어 h가 되어 cornu와 horn이 짝이야.",
+     "new": "uni(하나)+cornu(뿔). cornu와 horn은 같은 뿌리의 사촌. 라틴어 c(k)와 영어 h가 짝이야."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson00.json": {
+   "beforeHash": "ca5410f302579b94ff4195b7d6c2c34c9ac687a47d99e2a451ef304cceaa912b",
+   "afterHash": "d7bba60cd0e91acabd38ae6c987358a9d7d70f37a79771b43cb634ae176f42f5"
+  },
+  "pipeline/out/lesson01.json": {
+   "beforeHash": "7807a852b4e4bf6d261543e2e35ff51d50cd4e6ff7604288b311cb8e1f137a89",
+   "afterHash": "39d9be198277966fcdd8bc91c7912ab298f06f127b5d8348d37f8771d8c8f125"
+  },
+  "pipeline/out/lesson02.json": {
+   "beforeHash": "c352304ef920faf5540493000b21406ea20f84aa2851cc48bcbeeba598e300a6",
+   "afterHash": "92d156216cae0d6cbf8c0bc7394934940e7831c1f38dc570184eee93d1df03f4"
+  },
+  "pipeline/out/lesson03.json": {
+   "beforeHash": "33909748026fe74a984ac1c6ce4461875d97425951dda93645b943dbce0d3ae4",
+   "afterHash": "b9c82cb850f6e2af9ad5a56a470a1fa531b0ede340938b8ed8bcca1ecdd91de2"
+  },
+  "pipeline/out/lesson04.json": {
+   "beforeHash": "819f96e3439ecf0ea10435a5cdeeffd50313003fdb83b959b87d26f7d74093fa",
+   "afterHash": "fc8a2db6a145769ea53229fdf210e5d87c51c3b36c650a0f7f0484c2018717be"
+  },
+  "pipeline/out/set05.json": {
+   "beforeHash": "213aa4fe07292ca623fc3a6122a9b12c8e4da5ca4defc18053decc6f731c2c31",
+   "afterHash": "78016af2713b74a3469766613ea6e536d3a6207c2517755aa22f8a63c844e2aa"
+  },
+  "pipeline/out/set06.json": {
+   "beforeHash": "7416d644f7731adf8918589996bebedb794ce72f7b9f64da609431c37aaa95b6",
+   "afterHash": "eb84106afec3e249aea6cc22c4b9175cf11a0c60d1b3d3254e0ff52fa6b5fe11"
+  },
+  "pipeline/out/set07.json": {
+   "beforeHash": "84853128eb0d053295b4507b3802409602f06a25b239a162b39c9dc0208c28ba",
+   "afterHash": "49b98d87e22f72551ab3fe997626d8b898fa26e2b8b9f6b82358756bab10bb0c"
+  },
+  "pipeline/out/set08.json": {
+   "beforeHash": "c67ee6444cc4153003e6e5cad5ca50327ae49088d235995fb31736b364774611",
+   "afterHash": "6a07b7ec222ceb46dbed903d1f8fe27ec5ea72c9ffbc837a195f10c6908f796b"
+  },
+  "pipeline/out/set09.json": {
+   "beforeHash": "6b4a7d667d14cebd2abefb2a7055a6d03d59acbea00be525b4966bcd5fda6071",
+   "afterHash": "4f49e091cf0bb64a8e2a89626909810fa29e22fad18c3cf0d20538c88bdeb8e3"
+  },
+  "pipeline/out/set10.json": {
+   "beforeHash": "d795e4bcf6a9e57d28a870ca8dba1ce77a5292b78434d65e19a5dcb87f0dff91",
+   "afterHash": "7e37ed651bc18ea9f5eb652a8399eb2f56cadfa5e4f67c468998898935ac2237"
+  },
+  "pipeline/out/set11.json": {
+   "beforeHash": "dbebc3493f431f9af19f5fc62e445ff09309b4fa96ce81b5d120d9943ee9110e",
+   "afterHash": "8d3df664053523e5927cd37edb6f158aee0441a3a290f2f18a3f63f8810f4d3c"
+  },
+  "pipeline/out/set12.json": {
+   "beforeHash": "91c3cd71ce8a215fdb23b984c7116cef6ae48628a5c82de45290ca5a3663e1c9",
+   "afterHash": "d3e18332edc8d68d444115a3bebbfdb4626914c1507cefe57947f8429f83c810"
+  },
+  "pipeline/out/set13.json": {
+   "beforeHash": "5b790684863c0fb61908dc9bd305085c1a21e898d1f65611e4789860802ef2e4",
+   "afterHash": "6575170f1adc64fe803b3d0cb9aa9957aba06845973efd41de41f81908dd4356"
+  },
+  "pipeline/out/set14.json": {
+   "beforeHash": "69813c8e45576cde5e7376058524597fef5fdab44ad8d15148cc956ea3c38807",
+   "afterHash": "80b42cf1d8513620e6966b21357145bcecf93c4ce0d377ccd8981829a68ed3c2"
+  },
+  "pipeline/out/set15.json": {
+   "beforeHash": "e2466ad98700cef637e3d885d8f863a0f0affc8211aefce9e29d253f3c01e461",
+   "afterHash": "052f3a64acb4bdce79d1a16cb13edbe37ea3e7e1d48b68dfb1c19517d517f985"
+  },
+  "pipeline/out/set17.json": {
+   "beforeHash": "6808c23dfdd0b4c9fdf18b08125bb5cfdf4d18b02daae8ade823cd87512b2539",
+   "afterHash": "d7d16e58eb5105e220a447efc6b33f0061fc998d891538875a4fdb8fd3928d52"
+  },
+  "pipeline/out/set18.json": {
+   "beforeHash": "136f3429e552b98cb7135afbf9c075fe265924fabe6ef4fd9c9ad95bb4a7b154",
+   "afterHash": "43cdb702683c6c6d586060441373281a6e99fe768244a1b4d70e588096980828"
+  },
+  "pipeline/out/set19.json": {
+   "beforeHash": "43bf98cf882cfe254dc7504ae94015412499097a1f8f7455d5bf99f879fe71cb",
+   "afterHash": "2ade99add92af534b51d0bb4a196e6318f5a85c0e6aefb98fd9a8656ac4860d8"
+  },
+  "pipeline/out/set20.json": {
+   "beforeHash": "92130248d7dc3610fda77c5f6ce755f3ec09270aff7a224c97e77b0c1ae644ac",
+   "afterHash": "7276f08cd9e33d60078ffd841073738d543bf640dbe58515a27677ad257a14f4"
+  },
+  "pipeline/out/set23.json": {
+   "beforeHash": "6f9be5e5b5d68b5dadccf16fc0590450b174133b8364f5d772837734b6c055a5",
+   "afterHash": "68380d9571254c0ef9de2358a6ed6c09e059e5a796cc9e29a2550df197ae59ca"
+  },
+  "pipeline/out/set26.json": {
+   "beforeHash": "e03159923e467dc78170ebde292ac26439eecbb6547c68fe059f8b0c8508f01e",
+   "afterHash": "393ddc588c8b3a4127f07afa8cdaeffa95a6e5bf343f09809a7d993ce39036f7"
+  },
+  "pipeline/out/set30.json": {
+   "beforeHash": "ffc31c42773e1fe5ee8f195fe0114cd645cf579a9fe7bec040862aa722ad1bab",
+   "afterHash": "8bab29e849a12871b126603d4ca5d9db7b7eabed88743dc5a3250957c9cfa1b4"
+  },
+  "pipeline/out/set31.json": {
+   "beforeHash": "084c6c135f14156e293adcbdb263bcdc99eedb2a6d5fc256fe2a0314649cc566",
+   "afterHash": "63bfc71aa90bfda99c94817705a5113e7cf6cf0f2eeeb4493852279369f715fd"
+  },
+  "pipeline/out/set42.json": {
+   "beforeHash": "fd0f952a090982f1204a1477489dc7f6724a8f0ed4786545960e7520c2313f44",
+   "afterHash": "aa499dc7ce7868c17b999cde6a0611f0ef97e38ab8fb0e19a79b7f3072f26797"
+  },
+  "pipeline/out/set43.json": {
+   "beforeHash": "02296a6a22e62c317b51b3d1af472676cc1e0594fb9a59fd0b06b33a0a3aa52f",
+   "afterHash": "0bb08c8f77cb0bc716591189ad2f742719363f8fd89d241a1655e797a7ff0091"
+  },
+  "pipeline/out/set44.json": {
+   "beforeHash": "34f5ce81c0da2f84f7d4f8d681435c64a009eb67c86cdba8f986dcd1a8b8d4ae",
+   "afterHash": "f31e957680ad12ca0072442cf69cc5e76a95b6b2b15faf87d3bf3df9ddcfabfd"
+  },
+  "pipeline/out/set46.json": {
+   "beforeHash": "a778f84ce8a27bad014a9220ab504ce63fe52f7978af7e9c9f1139b1d9139909",
+   "afterHash": "0fe1f996801c069acb2d1ea0442b41448f49fc1448d64db98c7ee0a003f581b5"
+  },
+  "pipeline/out/set47.json": {
+   "beforeHash": "06fa080ec90c299bd87ba614ca77f35a833bfa5815fc42e3b19738bf2a83977a",
+   "afterHash": "076e261d04ab3c6f88fba098eb989da7993ade8056a97876fcf698efa2163c1f"
+  },
+  "pipeline/out/set48.json": {
+   "beforeHash": "a3001b53d2aaa9c8008222532c62f82ce97503dcf89162c7d0b35555b7b4cb13",
+   "afterHash": "e7c317044a8fc17a5aaed167374ea2a9cf9909e4a259bafb1880de78fa550e5c"
+  },
+  "pipeline/morphology.json": {
+   "beforeHash": "66f328a1156839465e860a6b0e8820840a292c1d35cd05b7868c080033aee90b",
+   "afterHash": "d4911255020a52f360d7c239c65fa2f05d27cf3d1c6fe81b8b3dc0678ed17934"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson00.json": [
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "I 뒤에는 am, 한 사람이나 한 개 뒤에는 is. I는 늘 대문자로 써.",
+    "new": "be 현재형은 I am, 한 사람이나 한 개 뒤에는 is. I는 늘 대문자로 써."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "신문의 스포츠 면도 section.",
+    "new": "신문의 스포츠 면도 section. 이 뜻에서는 portion과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "정보를 표나 그림으로 정리한 것. bar chart는 막대그래프.",
+    "new": "정보를 표나 그림으로 정리한 것. bar chart는 막대그래프. 이 뜻에서는 table·graph와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "놀라움을 주는 쪽은 amazing, 놀라움을 느끼는 쪽은 amazed. 좋은 일에 자주 써.",
+    "new": "놀라움을 주는 쪽은 amazing, 느끼는 쪽은 amazed. 이 뜻에서는 awesome과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "fantasy(환상)의 형용사. 구어에서 '최고'.",
+    "new": "fantasy(환상)의 형용사. 구어에서 '최고'. 이 뜻에서는 wonderful과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "wonder(경이)+ful. 감탄이 나오는.",
+    "new": "wonder(경이)+ful. 감탄이 나오는. 이 뜻에서는 fantastic과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "노력해 목표·성과를 얻다. achievement는 성취·업적.",
+    "new": "노력해 목표·성과를 얻다. achievement는 성취. 이 뜻에서는 realize·fulfill과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "주로 동사 affect+대상. 명사 effect는 영향·결과: have an effect on.",
+    "new": "주로 동사. 명사 effect는 영향: have an effect on. 이 뜻에서는 impact와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     16,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "특정 개념을 가리키는 말. technical term(전문 용어).",
+    "new": "특정 개념을 가리키는 말. technical term 전문 용어. 이 뜻에서는 word와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/lesson01.json": [
+   {
+    "path": [
+     "exercises",
+     0,
+     "words",
+     16,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "품질이나 상태가 좋다는 뜻. be good at math = 수학을 잘하다.",
+    "new": "품질이나 상태가 좋다. be good at math = 수학을 잘하다. 이 뜻에서는 nice·fine과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     24,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "교통수단을 '택해 이용하다'가 take.",
+    "new": "교통수단을 '택해 이용하다'가 take. 이 문장에서는 ride와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/lesson02.json": [
+   {
+    "path": [
+     "exercises",
+     0,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "a group of+복수 명사: ~의 한 무리. a group of students는 학생 한 무리.",
+    "new": "a group of+복수 명사: ~의 한 무리. 이 뜻에서는 bunch와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     1,
+     "words",
+     16,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "point in time = 시점.",
+    "new": "point in time = 시점. 이 뜻에서는 stage와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "support a plan은 계획을 지지하다, support a team은 팀을 응원하다.",
+    "new": "support a team은 팀을 응원하다. 이 뜻에서는 endorse와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     14,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "도시·나라 등의 한 지역이나 구역. a residential area는 주거 지역.",
+    "new": "도시·나라 등의 한 지역. a residential area는 주거 지역. 이 뜻에서는 part와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "kind to: ~에게 친절한.",
+    "new": "kind to: ~에게 친절한. 이 뜻에서는 nice와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "구어 kind of(kinda)는 '좀, 약간'. a kind of 한 종류의. What kind of ~? 어떤 종류의 ~?",
+    "new": "구어 kind of(kinda)는 '좀'. 이 뜻에서는 type·sort와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "",
+    "new": "이 뜻에서는 role과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     8,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "talk to/with someone은 ~와 이야기하다. talk about something은 ~에 관해 이야기하다.",
+    "new": "talk to/with ~는 ~와 이야기하다, talk about ~은 ~에 관해. 이 뜻에서는 chat과 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/lesson03.json": [
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "It is possible to do는 ‘~하는 것이 가능하다’. ‘나는 할 수 있다’는 I can do로 말한다.",
+    "new": "It is possible to do: ~하는 것이 가능하다. 이 뜻에서는 feasible과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "the Ice Age(빙하기).",
+    "new": "the Ice Age(빙하기). 이 뜻에서는 era와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     17,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "문맥에 따라 정도가 달라진다. not quite = 완전히 ~하지는 않은. quiet(조용한)와 철자 주의.",
+    "new": "not quite = 완전히 ~하지는 않은. quiet(조용한)와 철자 주의. 이 문장에서는 fully와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     8,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "라틴어 currere(달리다)에서 온 말이라 '지금 흐르는' 것을 가리킨다. 부사는 currently(현재).",
+    "new": "라틴어 currere(달리다)에서 '지금 흐르는'. 부사는 currently. 이 뜻에서는 present와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/lesson04.json": [
+   {
+    "path": [
+     "exercises",
+     3,
+     "words",
+     18,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "",
+    "new": "이 뜻에서는 location과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "in the middle of는 ‘~의 한가운데·도중에’. in the middle of a meeting은 회의 도중에.",
+    "new": "in the middle of는 ~의 한가운데·도중에. 이 뜻에서는 center와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "흥미를 일으키면 interesting, 흥미를 느끼면 interested.",
+    "new": "흥미를 일으키면 interesting, 느끼면 interested. 이 뜻에서는 intrigue와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     8,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "freedom of the press = 언론의 자유.",
+    "new": "freedom of the press = 언론의 자유. 이 뜻에서는 media와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "",
+    "new": "이 뜻에서는 nice·neat과 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set05.json": [
+   {
+    "path": [
+     0,
+     "words",
+     18,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "you 뒤에는 늘 are. 한 명이든 여럿이든 You are ~.",
+    "new": "be 현재형은 you 뒤에 늘 are. 한 명이든 여럿이든 You are ~."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     26,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "have to는 의무·필요. 과거는 had to, don't have to는 '안 해도 된다'로 금지가 아니다.",
+    "new": "have to는 의무·필요(이 문장에서는 need to도 된다). don't have to는 '안 해도 된다'."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "what 뒤에 do를 넣어 물어: What do you want? 답은 내용으로 해.",
+    "new": "What do you want?처럼 do를 넣어 묻기도 해. What is your name?엔 do가 없어."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "What a+명사! = 감탄문. 명사 없이 형용사만이면 How를 쓴다.",
+    "new": "What a/an+(형용사)+셀 수 있는 단수 명사! 형용사만이면 How: How beautiful!"
+   },
+   {
+    "path": [
+     2,
+     "words",
+     15,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "she·he 뒤 일반동사엔 -s를 붙여: she works(O), she work(X).",
+    "new": "현재형 긍정문에서 she·he 뒤 일반동사엔 -s: she works(O), she work(X)."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "be over = 끝나다. 게임의 Game over가 바로 이 over.",
+    "new": "be over = 끝나다. Game over의 over. 이 뜻에서는 done과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     15,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "장소를 물을 때 where. 답은 in·at으로 해: I live in Seoul.",
+    "new": "장소를 물을 때 where. I live in Seoul. / I live here.처럼 답해."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "lose weight는 체중이 줄다. gain weight는 체중이 늘다.",
+    "new": "lose weight는 체중이 줄다, gain weight는 늘다. 이 뜻에서는 shed와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set06.json": [
+   {
+    "path": [
+     0,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "kill time = 남는 시간을 '죽여서' 없애다, 즉 때우다.",
+    "new": "kill time = 시간을 '죽여서' 때우다. 이 문장에서는 pass와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "have an effect on은 ‘~에 영향을 미치다’. affect는 ‘영향을 주다’라는 동사. side effect는 부작용.",
+    "new": "have an effect on ~에 영향을 미치다. 이 뜻에서는 impact와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Pass me the ~.",
+    "new": "Pass me the ~. 이 뜻에서는 hand·give와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "choose–chose–chosen. 명사는 choice.",
+    "new": "choose–chose–chosen. 명사는 choice. 이 뜻에서는 select와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "",
+    "new": "이 뜻에서는 training과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "choose(고르다)의 명사. have no choice = 어쩔 수 없다.",
+    "new": "choose(고르다)의 명사. have no choice = 어쩔 수 없다. 이 뜻에서는 option과 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set07.json": [
+   {
+    "path": [
+     9,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "머릿속에 그려 보다. 뒤엔 -ing가 온다 — imagine living there(O), imagine to live(X).",
+    "new": "뒤엔 -ing: imagine living(O), to live(X). 이 뜻에서는 picture와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "숫자로 매긴 점수. A·B 같은 성적 등급이나 학년은 grade.",
+    "new": "시험 점수. 이 뜻에서는 grade와 바꿔 쓸 수 있다. 경기 점수도 score, grade는 학년·등급도 뜻해."
+   }
+  ],
+  "pipeline/out/set08.json": [
+   {
+    "path": [
+     1,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "몸도 마음도 hurt. hurt-hurt-hurt 무변화 동사.",
+    "new": "몸도 마음도 hurt. hurt-hurt-hurt 무변화 동사. 이 뜻에서는 harm과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "vary(다르다)-various(다양한)-variety(다양성). 뒤엔 복수 명사.",
+    "new": "vary-various-variety. 뒤엔 복수 명사. 이 뜻에서는 diverse와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Take a seat(앉으세요). 동사 sit(앉다)과 철자 구분.",
+    "new": "Take a seat(앉으세요). 동사 sit과 철자 구분. 이 뜻에서는 spot과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "",
+    "new": "이 뜻에서는 pub과 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set09.json": [
+   {
+    "path": [
+     1,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "free+dom(상태). kingdom(왕국)에도 같은 접미사 -dom이 쓰인다.",
+    "new": "free+dom(상태). kingdom의 -dom과 같은 접미사. 이 뜻에서는 liberty와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "배뿐 아니라 다른 운송 수단으로 보내도 ship.",
+    "new": "배뿐 아니라 다른 운송 수단으로 보내도 ship. 이 뜻에서는 send와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     16,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "발음 [와인드]. 시계 태엽, 붕대, 구불구불한 길(winding road).",
+    "new": "발음 [와인드]. 시계 태엽, 붕대, 구불구불한 길(winding road). 이 뜻에서는 wrap과 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set10.json": [
+   {
+    "path": [
+     0,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "the object of ~: ~의 목적. 물체와 같은 명사 발음.",
+    "new": "the object of ~: ~의 목적. 이 뜻에서는 target과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "chief reason은 주된 이유. 이 뜻에서는 prime과 바꿔 쓸 수 있다. major·main보다 으뜸인 하나.",
+    "new": "chief reason은 주된 이유. 이 뜻에서는 major·prime과 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set11.json": [
+   {
+    "path": [
+     10,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "영국에서는 '복습하다'(미국 review)로도 쓴다. 더 낫게 고치다. 명사는 revision.",
+    "new": "더 낫게 고치다. 명사는 revision. 영국에선 복습하다로도 쓴다. 이 뜻에서는 rework와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set12.json": [
+   {
+    "path": [
+     6,
+     "words",
+     15,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "neither of+복수명사: 둘 중 어느 쪽도 아니다.",
+    "new": "neither of the+복수 명사, neither+단수 명사: 둘 중 어느 쪽도 아니다."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "확신을 낮추어 ‘아마 ~일걸’이라고 말한다. I suppose so는 ‘아마 그럴걸’.",
+    "new": "확신을 낮춘 '아마 ~일걸'. I suppose so 아마 그럴걸. 이 뜻에서는 suspect와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set13.json": [
+   {
+    "path": [
+     5,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "격에 '맞는'. 부사 properly 제대로.",
+    "new": "격에 '맞는'. 부사 properly 제대로. 이 뜻에서는 decent와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "반대편에 '맞서는' 힘.",
+    "new": "반대편에 '맞서는' 힘. 이 뜻에서는 resistance와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "locate(위치를 찾다), be located(~에 있다)의 명사. 영화 촬영지도 location.",
+    "new": "locate·be located의 명사. 영화 촬영지도 location. 이 뜻에서는 position과 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set14.json": [
+   {
+    "path": [
+     8,
+     "words",
+     10,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Korea's full name is the {{BLANK}} of Korea.",
+    "new": "A {{BLANK}} is a country with no king or queen."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     10,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "한국의 정식 명칭은 대한민국(한국 공화국)이야.",
+    "new": "공화국은 왕이 없는 나라야."
+   }
+  ],
+  "pipeline/out/set15.json": [
+   {
+    "path": [
+     9,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "destroy(파괴하다)의 명사형.",
+    "new": "destroy(파괴하다)의 명사형. 이 뜻에서는 devastation과 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set17.json": [
+   {
+    "path": [
+     0,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "마음·바다·날씨가 잔잔한 상태. keep calm 침착함을 유지하다.",
+    "new": "마음·바다·날씨가 잔잔한 상태. keep calm. 이 뜻에서는 cool과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "pile up은 쌓이다·쌓아 올리다.",
+    "new": "pile up은 쌓이다·쌓아 올리다. 이 뜻에서는 heap과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "명사는 courage(용기), 형용사는 courageous(용감한).",
+    "new": "형용사는 courageous(용감한). 이 뜻에서는 bravery와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set18.json": [
+   {
+    "path": [
+     0,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "값이 나가거나 개인에게 소중한. precious metals는 귀금속, precious memories는 소중한 추억.",
+    "new": "precious memories는 소중한 추억. 이 뜻에서는 valuable과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "persuade+사람+to V: ~하게 설득하다. 설득에 성공까지 한 것.",
+    "new": "persuade+사람+to V: ~하게 설득하다. 이 뜻에서는 convince와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "영국 의회는 the Parliament(대문자), 미국 의회는 Congress.",
+    "new": "영국 의회는 Parliament(대문자, 보통 관사 없이), 미국 의회는 Congress."
+   }
+  ],
+  "pipeline/out/set19.json": [
+   {
+    "path": [
+     7,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "jealous of+대상=~를 질투하는. 명사는 jealousy.",
+    "new": "jealous of+대상=~를 질투하는. 명사는 jealousy. 이 뜻에서는 envious와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "dis(반대)+courage: 기를 꺾다. discourage sb from -ing: 못 하게 말리다.",
+    "new": "dis(반대)+courage: 기를 꺾다. 이 뜻에서는 dishearten과 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set20.json": [
+   {
+    "path": [
+     3,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "아주 훌륭하거나 멋진. great보다 격식 있거나 예스러운 느낌.",
+    "new": "아주 훌륭하거나 멋진. great보다 격식 있는 말. 이 뜻에서는 gorgeous와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set23.json": [
+   {
+    "path": [
+     9,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "most(대부분)+ly. '가장'이라는 뜻은 없으니 주의한다.",
+    "new": "most+ly. '가장'이라는 뜻은 없다. 이 뜻에서는 mainly와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set26.json": [
+   {
+    "path": [
+     10,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Modern humans began to {{BLANK}} out of Africa about 60,000 years ago.",
+    "new": "About 60,000 years ago, many modern humans {{BLANK}}d out of Africa."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "현생 인류는 약 6만 년 전 아프리카를 떠나 이주하기 시작했어.",
+    "new": "약 6만 년 전 많은 현생 인류가 아프리카 밖으로 이주했어."
+   }
+  ],
+  "pipeline/out/set30.json": [
+   {
+    "path": [
+     10,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "large+-ly지만 '크게'가 아니라 '주로'. mainly·mostly와 바꿔 쓸 수 있다.",
+    "new": "large+-ly지만 '크게'가 아니라 '주로'. mainly·mostly·chiefly와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set31.json": [
+   {
+    "path": [
+     4,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "GDP, or {{BLANK}} domestic product, is the value of all a country makes in a year.",
+    "new": "{{BLANK}} domestic product adds up the final goods and services made in a country."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "GDP, 곧 국내총생산은 한 나라가 한 해에 만드는 모든 것의 가치야.",
+    "new": "국내총생산은 한 나라 안에서 만든 최종 재화와 서비스의 값을 모두 더한 거야."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "A vaccine trains the {{BLANK}} system to recognize a germ.",
+    "new": "A vaccine can make you {{BLANK}} to a disease."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "백신은 면역 체계가 병원균을 알아보도록 훈련시켜.",
+    "new": "백신을 맞으면 병에 면역이 생길 수 있어."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "be immune to ~. immune system은 면역 체계.",
+    "new": "be immune to ~: ~에 면역이 있다. immune system은 면역 체계."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "a significant number of+복수 명사는 복수 동사로 받는다.",
+    "new": "a significant number of+복수 명사는 복수 동사로. 이 뜻에서는 substantial과 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set42.json": [
+   {
+    "path": [
+     10,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "↔ capitalism(자본주의). 지지자들은 communism(공산주의)을 이보다 더 나아간 단계로 본다.",
+    "new": "↔ capitalism(자본주의). 마르크스주의에서는 communism(공산주의)을 그다음 단계로 본다."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "형용사는 scarce. shortage는 일시적 부족, scarcity는 근본적 희소.",
+    "new": "형용사는 scarce. scarcity는 바라는 것보다 자원이 적은 희소성, shortage는 모자람."
+   }
+  ],
+  "pipeline/out/set43.json": [
+   {
+    "path": [
+     10,
+     "words",
+     13,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Doctors now take a new {{BLANK}} to back pain: keep moving, don't rest.",
+    "new": "Doctors now take a different {{BLANK}} to back pain: stay active, avoid long bed rest."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     13,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "의사들은 이제 허리 통증에 새롭게 접근해. 쉬지 말고 계속 움직이라는 거야.",
+    "new": "이제 의사들은 허리 통증을 다르게 다뤄. 계속 움직이고 오래 누워 있지 않게 해."
+   }
+  ],
+  "pipeline/out/set44.json": [
+   {
+    "path": [
+     6,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "firm(굳은)과 한 뿌리. affirm that절로 쓰고 반대는 deny.",
+    "new": "firm(굳은)과 한 뿌리. 반대는 deny. 이 뜻에서는 assert와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set46.json": [
+   {
+    "path": [
+     1,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "특정 개념을 가리키는 말. technical term(전문 용어).",
+    "new": "특정 개념을 가리키는 말. technical term 전문 용어. 이 뜻에서는 word와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set47.json": [
+   {
+    "path": [
+     8,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "approve(승인하다)→approval(승인). 명사형 -al이 붙으며 끝의 e가 빠져.",
+    "new": "approve→approval. 명사형 -al이 붙으며 e가 빠져. 이 뜻에서는 sanction과 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set48.json": [
+   {
+    "path": [
+     10,
+     "words",
+     5,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "(좋지 않은 일을) ~일 것이라고 짐작하다",
+    "new": "~일 것이라고 짐작하다(주로 좋지 않은 일)"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "spect-는 보다. 증거 없이 ~라고 의심하다. suppose와 달리 좋지 않은 일을 짐작할 때 써.",
+    "new": "spect-는 보다. 확신은 없지만 ~일 것이라 짐작하다. 좋지 않은 일에 자주 써."
+   },
+   {
+    "path": [
+     22,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "라틴어 pater = father. p가 f로 바뀌었어(그림 법칙). 외가 쪽은 maternal.",
+    "new": "pater와 father는 같은 뿌리의 사촌. 라틴어 p와 영어 f가 짝이야(그림 법칙). 외가 쪽은 maternal."
+   },
+   {
+    "path": [
+     22,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "ped(발) = foot. p는 f로, d는 t로 두 번 바뀌었어. 걸어 다니는 사람이 보행자.",
+    "new": "ped(발)와 foot은 사촌. p와 f, d와 t가 짝이야. 걸어 다니는 사람이 보행자."
+   },
+   {
+    "path": [
+     22,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "tres(셋) = three. t가 th로 바뀌었어. 두 배는 double, 세 배는 triple.",
+    "new": "tres(셋)와 three는 사촌. t와 th가 짝이야. 두 배는 double, 세 배는 triple."
+   },
+   {
+    "path": [
+     22,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "dent(이) = tooth. d가 t로 바뀌었어. dentist(치과 의사)도 같은 뿌리.",
+    "new": "dent(이)와 tooth는 사촌. d와 t가 짝이야. dentist(치과 의사)도 같은 뿌리."
+   },
+   {
+    "path": [
+     22,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그리스어 καρδία(kardia) = heart. k가 h로 약해졌어. cardio 운동도 같은 뿌리.",
+    "new": "그리스어 kardia(심장)와 heart는 사촌. k와 h가 짝이야. cardio 운동도 같은 뿌리."
+   },
+   {
+    "path": [
+     22,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "uni(하나)+cornu(뿔). 라틴어 c(k)가 영어 h가 되어 cornu와 horn이 짝이야.",
+    "new": "uni(하나)+cornu(뿔). cornu와 horn은 같은 뿌리의 사촌. 라틴어 c(k)와 영어 h가 짝이야."
+   }
+  ],
+  "pipeline/morphology.json": [
+   {
+    "path": [
+     "units",
+     44,
+     "cards",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "approve(승인하다)→approval(승인). 명사형 -al이 붙으며 끝의 e가 빠져.",
+    "new": "approve→approval. 명사형 -al이 붙으며 e가 빠져. 이 뜻에서는 sanction과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "units",
+     61,
+     "cards",
+     2,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "(좋지 않은 일을) ~일 것이라고 짐작하다",
+    "new": "~일 것이라고 짐작하다(주로 좋지 않은 일)"
+   },
+   {
+    "path": [
+     "units",
+     61,
+     "cards",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "spect-는 보다. 증거 없이 ~라고 의심하다. suppose와 달리 좋지 않은 일을 짐작할 때 써.",
+    "new": "spect-는 보다. 확신은 없지만 ~일 것이라 짐작하다. 좋지 않은 일에 자주 써."
+   },
+   {
+    "path": [
+     "units",
+     141,
+     "cards",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "라틴어 pater = father. p가 f로 바뀌었어(그림 법칙). 외가 쪽은 maternal.",
+    "new": "pater와 father는 같은 뿌리의 사촌. 라틴어 p와 영어 f가 짝이야(그림 법칙). 외가 쪽은 maternal."
+   },
+   {
+    "path": [
+     "units",
+     141,
+     "cards",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "ped(발) = foot. p는 f로, d는 t로 두 번 바뀌었어. 걸어 다니는 사람이 보행자.",
+    "new": "ped(발)와 foot은 사촌. p와 f, d와 t가 짝이야. 걸어 다니는 사람이 보행자."
+   },
+   {
+    "path": [
+     "units",
+     142,
+     "cards",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "tres(셋) = three. t가 th로 바뀌었어. 두 배는 double, 세 배는 triple.",
+    "new": "tres(셋)와 three는 사촌. t와 th가 짝이야. 두 배는 double, 세 배는 triple."
+   },
+   {
+    "path": [
+     "units",
+     142,
+     "cards",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "dent(이) = tooth. d가 t로 바뀌었어. dentist(치과 의사)도 같은 뿌리.",
+    "new": "dent(이)와 tooth는 사촌. d와 t가 짝이야. dentist(치과 의사)도 같은 뿌리."
+   },
+   {
+    "path": [
+     "units",
+     143,
+     "cards",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그리스어 καρδία(kardia) = heart. k가 h로 약해졌어. cardio 운동도 같은 뿌리.",
+    "new": "그리스어 kardia(심장)와 heart는 사촌. k와 h가 짝이야. cardio 운동도 같은 뿌리."
+   },
+   {
+    "path": [
+     "units",
+     143,
+     "cards",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "uni(하나)+cornu(뿔). 라틴어 c(k)가 영어 h가 되어 cornu와 horn이 짝이야.",
+    "new": "uni(하나)+cornu(뿔). cornu와 horn은 같은 뿌리의 사촌. 라틴어 c(k)와 영어 h가 짝이야."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson00.json": [],
+  "pipeline/out/lesson01.json": [],
+  "pipeline/out/lesson02.json": [],
+  "pipeline/out/lesson03.json": [],
+  "pipeline/out/lesson04.json": [],
+  "pipeline/out/set05.json": [],
+  "pipeline/out/set06.json": [],
+  "pipeline/out/set07.json": [],
+  "pipeline/out/set08.json": [],
+  "pipeline/out/set09.json": [],
+  "pipeline/out/set10.json": [],
+  "pipeline/out/set11.json": [],
+  "pipeline/out/set12.json": [],
+  "pipeline/out/set13.json": [],
+  "pipeline/out/set14.json": [],
+  "pipeline/out/set15.json": [],
+  "pipeline/out/set17.json": [],
+  "pipeline/out/set18.json": [],
+  "pipeline/out/set19.json": [],
+  "pipeline/out/set20.json": [],
+  "pipeline/out/set23.json": [],
+  "pipeline/out/set26.json": [],
+  "pipeline/out/set30.json": [],
+  "pipeline/out/set31.json": [],
+  "pipeline/out/set42.json": [],
+  "pipeline/out/set43.json": [],
+  "pipeline/out/set44.json": [],
+  "pipeline/out/set46.json": [],
+  "pipeline/out/set47.json": [],
+  "pipeline/out/set48.json": [],
+  "pipeline/morphology.json": []
+ }
+}
