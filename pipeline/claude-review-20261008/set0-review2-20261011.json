@@ -1,0 +1,194 @@
+{
+ "date": "2026-10-11",
+ "name": "set0-review2-20261011",
+ "status": "applied_locally_verified",
+ "authorization": "영신 2026-10-11 대화: \"영어이름순서는 우리식으로 하자 (다만 영신초이는 통째로 영신초이야(번역도 영신초이임))\", \"프라임에 소수카드 더할지와 홀수 소수 질문의 여부는 완전히 네가 판단해줘\". 0세트 직검수 댓글 \"13은 홀수이고 소수야\".",
+ "summary": "이름 순서 우리식(my Kim Minso, your Choi Seojin), thirteen 해설에 \"13은 홀수이자 소수야\", 41세트 prime ② 소수(素數)의 새 카드(prime sn 1→2, 7,574장).",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "ed4255889b48910fd6cedb3ce86a14343ae0d40609c3c7fa19be7e1468cbaa92",
+   "afterHash": "435f5427c67a64a732f74170802ad91ec71168c33f0f42d40c30761cc31c7b50",
+   "changes": [
+    {
+     "path": [
+      0,
+      "exercises",
+      2,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Hi, I'm new here. {{BLANK}} name is Minso Kim.",
+     "new": "Hi, I'm new here. {{BLANK}} name is Kim Minso."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      2,
+      "words",
+      1,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Hi, I'm Seojin Choi. What is {{BLANK}} name?",
+     "new": "Hi, I'm Choi Seojin. What is {{BLANK}} name?"
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      6,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "-teen은 뒤, -ty는 앞에 강세. thirty(30)와 구별.",
+     "new": "-teen은 뒤, -ty는 앞에 강세. thirty(30)와 구별. 13은 홀수이자 소수야."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      10,
+      "words",
+      11,
+      "sn"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": 1,
+     "new": 2
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      10,
+      "words",
+      12
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": {
+      "en": "prime",
+      "ko": "② 소수(素數)의",
+      "ex": "Two, three, five, and seven are {{BLANK}} numbers, but nine is not.",
+      "tr": "2, 3, 5, 7은 소수지만 9는 아니야.",
+      "c": "1과 자기 자신으로만 나뉘는 수가 prime number. 홀수는 odd number, 짝수는 even number.",
+      "ipa": "praɪm",
+      "pos": "adj.",
+      "word": "prime",
+      "si": 2,
+      "sn": 2,
+      "meow": "고양이 목숨 9개는 소수가 아니라고양. 그래도 고양이는 특별하다고양."
+     }
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson00.json": {
+   "beforeHash": "8b1960e41d411ce0d9688a95ae93cf596fc5a67d85fe77676017af92ea3d5a4c",
+   "afterHash": "24daf18cf31edcd707235e61835dca2f266904cd78d5b1c432459891c6035b49"
+  },
+  "pipeline/out/set05.json": {
+   "beforeHash": "0395aa293004bd9b9217f312ca6528b921cb90cd94275664af802eb6a2921c33",
+   "afterHash": "783a0f73c9a9d40c61055591cc6cef7ff22875ad4083dc61308eee74aa3cf54a"
+  },
+  "pipeline/out/set41.json": {
+   "beforeHash": "61f3d31d923e9f62acb522b1f08a901c8f5641d0a8e70529638575d592739830",
+   "afterHash": "6527af1b10dec99f046b0a2dacd1ab46d8a7572e8393ffe8152a9d50cb8820d7"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson00.json": [
+   {
+    "path": [
+     "exercises",
+     0,
+     "words",
+     15,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "-teen은 뒤, -ty는 앞에 강세. thirty(30)와 구별.",
+    "new": "-teen은 뒤, -ty는 앞에 강세. thirty(30)와 구별. 13은 홀수이자 소수야."
+   }
+  ],
+  "pipeline/out/set05.json": [
+   {
+    "path": [
+     2,
+     "words",
+     16,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Hi, I'm new here. {{BLANK}} name is Minso Kim.",
+    "new": "Hi, I'm new here. {{BLANK}} name is Kim Minso."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Hi, I'm Seojin Choi. What is {{BLANK}} name?",
+    "new": "Hi, I'm Choi Seojin. What is {{BLANK}} name?"
+   }
+  ],
+  "pipeline/out/set41.json": [
+   {
+    "path": [
+     10,
+     "words",
+     11,
+     "sn"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": 1,
+    "new": 2
+   },
+   {
+    "path": [
+     10,
+     "words",
+     12
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": {
+     "en": "prime",
+     "ko": "② 소수(素數)의",
+     "ex": "Two, three, five, and seven are {{BLANK}} numbers, but nine is not.",
+     "tr": "2, 3, 5, 7은 소수지만 9는 아니야.",
+     "c": "1과 자기 자신으로만 나뉘는 수가 prime number. 홀수는 odd number, 짝수는 even number.",
+     "ipa": "praɪm",
+     "pos": "adj.",
+     "word": "prime",
+     "si": 2,
+     "sn": 2,
+     "meow": "고양이 목숨 9개는 소수가 아니라고양. 그래도 고양이는 특별하다고양."
+    }
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson00.json": [],
+  "pipeline/out/set05.json": [],
+  "pipeline/out/set41.json": []
+ }
+}
