@@ -20,7 +20,7 @@
 ## 2026-10-11 · 검수 방식: GPT 직검수 + 영신 직검수(세트별 읽기 페이지, 카드마다 댓글)
 
 - 영신: 보카고양은 Claude와 계속 공동 작업이고, 작업물은 GPT(아스트라)와 영신이 직접 검수한다. 영신 직검수는 세트 하나를 읽기 페이지로 받아 카드마다 '+' 댓글로 의견을 단다(TXT는 영신이 되돌림. [PRINCIPLES 10](PRINCIPLES.md#10-기록하는-법)).
-- 도구 `python3 pipeline/review-page.py 세트번호 --since 커밋` → Artifact. 세트 작업을 마치면 함께 준다. 0세트: https://claude.ai/artifact/J2HxBxDR6aMBiptm5c6qGL (--since e9c178d, 아스트라 리뷰로 바뀐 10장 표시). 이 세션이 댓글 알림을 받도록 등록했다(세션당 10개 한도라 끝난 페이지 3개의 알림을 껐다: 0세트 기초 목록·0세트 초안·Oxford 보강 목록).
+- 도구 `python3 pipeline/review-page.py 세트번호 --since 커밋` → Artifact. 세트 작업을 마치면 함께 준다. 0세트: https://claude.ai/artifact/J2HxBxDR6aMBiptm5c6qGL (--since e9c178d, 아스트라 리뷰로 바뀐 10장 표시). 줄을 누르고 Enter를 치면 그 줄 댓글이 바로 Claude에게 간다(26.10.11, Artifact `capabilities: {comments: {}}`). 이 세션이 댓글 알림을 받도록 등록했다(세션당 10개 한도라 끝난 페이지 3개의 알림을 껐다: 0세트 기초 목록·0세트 초안·Oxford 보강 목록).
 
 ## 2026-10-11 · Codex(아스트라) 리뷰 처리 · Claude
 

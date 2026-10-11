@@ -82,8 +82,92 @@ mark{background:var(--answer-bg);color:var(--answer);padding:0 2px;border-radius
 .old b{font-weight:500;font-size:.72rem;margin-right:6px;color:var(--chg)}
 .none{color:var(--muted)}
 .hide{display:none}
+/* 줄 댓글: 줄을 누르면 입력칸이 열리고 Enter로 바로 Claude에게 보낸다(comments 권한의 sendToClaude). */
+.hint{font-size:.84rem;color:var(--accent);background:var(--accent-soft);border-radius:10px;padding:8px 12px}
+body.cm-on .ln{cursor:text;border-radius:6px;margin-inline:-6px;padding-inline:6px}
+@media (hover:hover){body.cm-on .ln:hover{background:var(--accent-soft)}}
+.ln.on{background:var(--accent-soft)}
+.ln.sent{box-shadow:inset 3px 0 0 var(--accent)}
+.cbox{display:grid;gap:6px;margin:2px 0 6px;padding:8px;border:1px solid var(--accent);border-radius:10px;background:var(--surface)}
+.cbox textarea{font:inherit;font-size:16px;line-height:1.5;width:100%;min-height:44px;resize:none;border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:var(--bg);color:var(--ink)}
+.cbox textarea:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.cbox .row{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;justify-content:space-between}
+.cbox .st{font-size:.78rem;color:var(--muted);min-width:0}
+.cbox .st.ok{color:var(--accent)}
+.cbox .st.err{color:var(--chg)}
+.cbox .go{font:inherit;font-size:.84rem;border:0;border-radius:8px;background:var(--accent);color:var(--surface);padding:6px 14px;min-height:36px;cursor:pointer}
+.cbox .go:disabled{opacity:.5;cursor:default}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>'''
+
+
+# 줄 댓글(26.10.11 영신: "범위지정 후에 댓글달고 푸쉬해야 하는데 그건 좀 번거로워. 그냥 라인바이라인으로 댓글달수 있게 해주고
+# 엔터치면 바로 너에게 가는걸로 해줘"). Artifact를 capabilities {comments: {}}로 올려야 동작한다. 없으면 기존 댓글 모드만 안내한다.
+COMMENT_JS = r"""<script>(function(){
+const hint=document.getElementById('cmhint');
+const LABEL={head:'뜻',sen:'예문',tr:'해석',c:'해설',meow:'고양 대사',alt:'다른 정답'};
+const ERR={consent_required:'허락 창에서 허용해야 보낼 수 있어. 쓴 글은 그대로 뒀어.',
+forbidden:'이 화면에선 페이지에서 댓글 달기가 꺼져 있어. 범위를 지정하는 기존 댓글로 달아 줘.',
+rate_limited:'너무 빨리 보냈어. 잠깐 뒤에 Enter를 다시 눌러 줘.',
+claude_unavailable:'Claude에게 바로 보내기가 지금 안 돼. 쓴 글은 그대로 뒀어.',
+invalid:'글이 너무 길거나 쓸 수 없는 글자가 있어.'};
+let cm=null,open=null,shift=false;
+function say(box,msg,cls){const s=box.querySelector('.st');s.textContent=msg;s.className='st'+(cls?' '+cls:'');}
+function closeBox(){if(!open)return;open.box.remove();open.line.classList.remove('on');open=null;}
+function off(msg){document.body.classList.remove('cm-on');closeBox();hint.textContent=msg;}
+async function send(o){
+  const ta=o.box.querySelector('textarea'),go=o.box.querySelector('.go'),text=ta.value.trim();
+  if(!text||o.busy)return;
+  o.busy=true;ta.readOnly=true;go.disabled=true;say(o.box,'보내는 중…');
+  try{
+    const anchor=await cm.anchorFor(o.line);
+    let can='off';try{can=await cm.canSendToClaude();}catch(_){}
+    if(can==='available'){await cm.sendToClaude({anchor,text});say(o.box,'Claude에게 보냈어.','ok');}
+    else{await cm.create({anchor,text});say(o.box,'댓글로 남겼어. 바로 보내기가 지금 안 돼서, 대화창에 "댓글 봐줘"라고 해 줘.','err');}
+    o.line.classList.add('sent');ta.value='';
+    setTimeout(()=>{if(open===o)closeBox();},1500);
+  }catch(err){
+    const c=err&&err.code;
+    say(o.box,ERR[c]||'못 보냈어. 쓴 글은 그대로 뒀어. 잠깐 뒤에 Enter를 다시 눌러 줘.','err');
+    if(c==='forbidden'||c==='not_granted'||c==='capability_disabled'||c==='capability_removed')setTimeout(()=>off('이 화면에선 줄 댓글이 꺼져 있어. 범위를 지정하는 기존 댓글로 달아 줘.'),2500);
+  }finally{o.busy=false;ta.readOnly=false;go.disabled=false;}
+}
+function openBox(line){
+  if(open&&open.line===line){open.box.querySelector('textarea').focus();return;}
+  if(open&&open.box.querySelector('textarea').value.trim()){open.box.querySelector('textarea').focus();say(open.box,'쓰던 글이 있어. 보내거나 Esc로 닫고 옮겨 줘.','err');return;}
+  closeBox();
+  const kind=Object.keys(LABEL).find(k=>line.classList.contains(k))||'';
+  const name=LABEL[kind]||'이 줄';
+  const box=document.createElement('div');box.className='cbox';box.setAttribute('data-uncommentable','');
+  box.innerHTML='<textarea rows="1" enterkeyhint="send" maxlength="1300"></textarea><div class="row"><span class="st">Enter로 바로 보내기 · 줄바꿈은 Shift+Enter · Esc 닫기</span><button type="button" class="go">보내기</button></div>';
+  const ta=box.querySelector('textarea');ta.setAttribute('aria-label',name+'에 댓글');ta.placeholder=name+'에 대한 의견';
+  line.after(box);line.classList.add('on');
+  const o={line,box,busy:false};open=o;
+  ta.addEventListener('keydown',ev=>{
+    if(ev.key==='Shift')shift=true;
+    if(ev.key==='Escape'){ev.preventDefault();closeBox();return;}
+    if(ev.key==='Enter'&&!ev.shiftKey){if(ev.isComposing||ev.keyCode===229)return;ev.preventDefault();send(o);}
+  });
+  ta.addEventListener('keyup',ev=>{if(ev.key==='Shift')shift=false;});
+  ta.addEventListener('beforeinput',ev=>{if((ev.inputType==='insertLineBreak'||ev.inputType==='insertParagraph')&&!shift){ev.preventDefault();send(o);}});
+  ta.addEventListener('input',()=>{ta.style.height='auto';ta.style.height=ta.scrollHeight+'px';});
+  box.querySelector('.go').addEventListener('click',()=>send(o));
+  ta.focus();
+}
+document.addEventListener('click',ev=>{
+  if(!document.body.classList.contains('cm-on'))return;
+  if(ev.target.closest('.cbox,a,button'))return;
+  const line=ev.target.closest('.ln');if(!line)return;
+  const sel=window.getSelection();if(sel&&!sel.isCollapsed)return;
+  openBox(line);
+});
+(async()=>{
+  try{cm=await window.claude.use('comments');}catch(_){cm=null;}
+  if(!cm){hint.textContent='이 화면에선 줄 댓글을 쓸 수 없어. 범위를 지정하는 기존 댓글로 달아 줘.';return;}
+  document.body.classList.add('cm-on');
+  hint.textContent='줄을 누르면 입력칸이 열려. 쓰고 Enter를 누르면 바로 Claude에게 가. 줄바꿈은 Shift+Enter.';
+})();
+})();</script>"""
 
 
 def main():
@@ -129,17 +213,17 @@ def main():
                             val = sentence(w, b.get(k)) if k == 'ex' else e(b.get(k) or '(없음)')
                             olds.append(f'<p class="old"><b>전 {label}</b>{val}</p>')
                 changed += state == 'chg'
-            parts = [f'<div class="head"><span class="num">{cid}</span><span class="hw">{e(w["en"])}</span>'
+            parts = [f'<div class="head ln"><span class="num">{cid}</span><span class="hw">{e(w["en"])}</span>'
                      f'<span class="ko">{e(w.get("ko", ""))}</span><span class="pos">{e(w.get("pos", ""))} /{e(w.get("ipa", ""))}/</span>{"".join(tags)}</div>',
-                     f'<p class="sen">{sentence(w)}</p>']
+                     f'<p class="sen ln">{sentence(w)}</p>']
             if w.get('tr'):
-                parts.append(f'<p class="tr">{e(w["tr"])}</p>')
-            parts.append(f'<p class="c">{e(w.get("c") or "") or "<span class=none>(해설 없음)</span>"}</p>')
+                parts.append(f'<p class="tr ln">{e(w["tr"])}</p>')
+            parts.append(f'<p class="c ln">{e(w.get("c") or "") or "<span class=none>(해설 없음)</span>"}</p>')
             if w.get('meow'):
-                parts.append(f'<p class="meow"><b>고양</b>{e(w["meow"])}</p>')
+                parts.append(f'<p class="meow ln"><b>고양</b>{e(w["meow"])}</p>')
             alt = alts.get(f'{w["word"]}/{w.get("si", 1)}')
             if alt:
-                parts.append(f'<p class="alt"><b>다른 정답</b>{e(", ".join(alt))}</p>')
+                parts.append(f'<p class="alt ln"><b>다른 정답</b>{e(", ".join(alt))}</p>')
             parts += olds
             items.append(f'<li id="c{cid}" data-state="{state}">{"".join(parts)}</li>')
         body.append(f'<section class="ex" id="{sid}"><h2><span class="num">Exercise {x["ex"]}</span>{e(x.get("name", ""))}'
@@ -159,12 +243,14 @@ def main():
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 {STYLE}
 <div class="wrap">
-<header><h1>{e(title)}</h1><p class="lede">FABLE {e(L["label"])} · {e(L.get("name", ""))}. {len(L["exercises"])}연습 {total}장을 게임 순서대로 모았어. 노란 글자가 학생이 치는 정답이야. 의견은 카드에 바로 댓글로 달아 줘(카드 번호 세트-연습-카드).{since_note} 기준 {e(head)}, {date.today().isoformat()}.</p></header>
+<header><h1>{e(title)}</h1><p class="lede">FABLE {e(L["label"])} · {e(L.get("name", ""))}. {len(L["exercises"])}연습 {total}장을 게임 순서대로 모았어. 노란 글자가 학생이 치는 정답이야. 의견은 줄을 눌러 바로 달아 줘(카드 번호 세트-연습-카드).{since_note} 기준 {e(head)}, {date.today().isoformat()}.</p></header>
+<p class="hint" id="cmhint" role="status">줄 댓글을 준비하는 중이야.</p>
 <nav class="toc" aria-label="연습">{"".join(toc)}</nav>
 {filt}
 {"".join(body)}
 </div>
 {script}
+{COMMENT_JS}
 '''
     out = Path(opt.get('--out', '.'))
     out.mkdir(parents=True, exist_ok=True)
