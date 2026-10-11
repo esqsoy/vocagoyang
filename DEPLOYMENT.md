@@ -1,3 +1,16 @@
+# Codex 리뷰 반영(실행 문제 2곳·내용 88장) 배포 · 2026-10-11
+
+- 커밋 [acfe20e](https://github.com/esqsoy/vocagoyang/commit/acfe20e)를 origin/main에 fast-forward로 푸시했다(d0b616d 다음). [Pages 38121357882](https://github.com/esqsoy/vocagoyang/actions/runs/38121357882): 확인 중(기록 시점 queued). 영신: "합쳐도 돼. 다 반영하고 배포해줘"
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다. github.io는 이 세션에서 접속이 막혀 공개 페이지는 직접 열어 보지 못했다.
+- 포함:
+  - 세 과정 공통: 돌파 축하가 돌고 있는 판 위에 뜨지 않고, 게임 밖 화면으로 나올 때 뜬다(R1).
+  - FABLE 게임 코드: 표제어 정리로 합쳐진 판의 옛 판 이름 이어하기가 합쳐진 연습으로 돌아간다(R2).
+  - FABLE 내용 88장: 내용 정확성 17·문법 해설 범위 7·같은 칸 수 대체어 안내 64. 원장 `codex-review-20261011`. 판정과 전후 대조 https://claude.ai/artifact/29Ebjy3QV8qr36Pkspb6iz
+  - Codex 리뷰 묶음 `reviews/codex-20261011/`(Codex가 main에 올린 d0b616d를 합침).
+- 배포 전 검사(이번에 실행): Codex 검사 35/35(테스트 31개와 빌드 `--check` 4종, R1·R2 확인 추가), milestones 빌드 `--check`, deepcheck A1~A5·A7 0(A6 89), linecheck 390·360px 초과 0, exaudit 11, ordercheck 2개 이상 78, collide 907. Chromium 390px에서 R1 재현 장면과 republic 정답 공개 화면. 실기기 Safari는 확인하지 않았다.
+
+---
+
 # 해설 읽을 시간 늘림 배포 · 2026-10-11
 
 - 커밋 [e9c178d](https://github.com/esqsoy/vocagoyang/commit/e9c178d)를 origin/main에 fast-forward로 푸시했다(365a798 다음 3커밋, 앱 변경은 e9c178d뿐). [Pages 38108882858](https://github.com/esqsoy/vocagoyang/actions/runs/38108882858): completed/success. 영신: "배포해줘!"
