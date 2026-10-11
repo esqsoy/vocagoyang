@@ -78,6 +78,8 @@ node pipeline/tests/connections-input.test.cjs
 node pipeline/tests/pool-expansion.test.cjs
 ```
 
+영신 직검수용 TXT는 `python3 pipeline/review-txt.py 세트번호 [--since 커밋] [--out 폴더]`로 뽑는다(세트 하나, 카드 번호·정답을 채운 예문·해석·해설·고양 대사·다른 정답, --since 뒤로 바뀐 카드에 ★). 조립한 HTML의 DATA를 읽는다.
+
 스크립트는 자신의 위치를 기준으로 경로를 해석한다. HTML에서 원본을 복원해야 할 때는 python pipeline/disassemble.py를 사용한다. 수정 후 조립하고 관련 검사를 실행한다.
 
 ## 유지할 조건

@@ -1059,3 +1059,11 @@
 - **문서:** PRINCIPLES 2-7(놓친 사례 republic, 확인 방법 보완), 3(Codex 전수 경쟁어 65건과 collide의 한계), 7(사촌 쌍은 '짝'으로). 리뷰 README.
 - **검증(새로 실행):** Codex 검사 35/35(테스트 31개와 빌드 --check 4종), milestones 빌드 --check. deepcheck A1~A5·A7 0, A6 89. linecheck 390·360px 초과 0. exaudit 11. ordercheck 앞당김1 492·2개 이상 78. collide 911→907. Chromium 390px: 14세트 republic 카드 정답 공개 화면 확인, 콘솔 오류 없음.
 - **배포:** acfe20e를 main에 fast-forward 푸시, Pages 38121357882 completed/success. main의 HTML 4개 blob SHA가 로컬과 같다. 기록은 [DEPLOYMENT](DEPLOYMENT.md).
+
+## 2026-10-11 · 영신 직검수용 세트별 TXT
+
+- **요청:** 영신 "보카고양은 너랑 계속 공동작업이고, 작업물에 관해서 지피티의 직검수와 나의 직검수가 있을거야 … 직검수할 내용을 TXT로 주면 좋을것같음 한세트 단위면 될듯" (초기 단어장 작업 때 TXT에 줄마다 코멘트를 달던 방식).
+- **반영:** `pipeline/review-txt.py`. 저장소와 Drive에 초기 TXT 형식이 남아 있지 않아 새로 정했다: 카드 번호(세트-연습-카드), 뜻·품사·발음 한 줄, 정답을 [ ]로 채운 예문, 해석, 해설, 고양 대사, 다른 정답. --since 커밋 뒤로 바뀐 카드는 ★와 바뀐 칸. 코멘트는 고칠 줄 아래 '>'로 시작하는 줄.
+- **문서:** PRINCIPLES 10(검수 세 갈래와 이유), AGENTS(세트 작업 뒤 TXT), pipeline README, HANDOFF.
+- **첫 파일:** 0세트 23연습 234장(1,045줄), --since e9c178d로 아스트라 리뷰 반영 10장에 ★.
+- **상태:** 도구·문서만, 앱·데이터 변경 없음. 커밋·브랜치 푸시(배포 불필요).
