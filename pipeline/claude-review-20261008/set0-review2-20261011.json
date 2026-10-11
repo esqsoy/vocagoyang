@@ -2,13 +2,27 @@
  "date": "2026-10-11",
  "name": "set0-review2-20261011",
  "status": "applied_locally_verified",
- "authorization": "영신 2026-10-11 대화: \"영어이름순서는 우리식으로 하자 (다만 영신초이는 통째로 영신초이야(번역도 영신초이임))\", \"프라임에 소수카드 더할지와 홀수 소수 질문의 여부는 완전히 네가 판단해줘\", \"고양이 목숨 9개는 prime number가 아니라고양! 이라고 해야지\". 0세트 직검수 댓글 \"13은 홀수이고 소수야\".",
- "summary": "이름 순서 우리식(my Kim Minso, your Choi Seojin), thirteen 해설에 \"13은 홀수이자 소수야\", 41세트 prime ② 소수(素數)의 새 카드(prime sn 1→2, 7,574장, 고양 대사 \"고양이 목숨 9개는 prime number가 아니라고양!\").",
+ "authorization": "영신 2026-10-11 대화: \"영어이름순서는 우리식으로 하자 (다만 영신초이는 통째로 영신초이야(번역도 영신초이임))\", \"프라임에 소수카드 더할지와 홀수 소수 질문의 여부는 완전히 네가 판단해줘\", \"고양이 목숨 9개는 prime number가 아니라고양! 이라고 해야지\". 0세트 직검수 댓글 \"13은 홀수이고 소수야\", hi 해설 \"How are you?는 통째로 익히는 인사.\"에 \"삭제\".",
+ "summary": "이름 순서 우리식(my Kim Minso, your Choi Seojin), thirteen 해설에 \"13은 홀수이자 소수야\", hi 해설에서 \"통째로 익히는 인사\" 삭제, 41세트 prime ② 소수(素數)의 새 카드(prime sn 1→2, 7,574장, 고양 대사 \"고양이 목숨 9개는 prime number가 아니라고양!\").",
  "snapshots": {
   "DATA": {
    "beforeHash": "ed4255889b48910fd6cedb3ce86a14343ae0d40609c3c7fa19be7e1468cbaa92",
-   "afterHash": "dff73826c796467e79147530d2518d2183a34d7860821ca2a3e608fa152d3e6c",
+   "afterHash": "6f896f2a0bf73129eb17f0b3087845e80d15448454a023c152c1bfcc4c0d074b",
    "changes": [
+    {
+     "path": [
+      0,
+      "exercises",
+      0,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "How are you?는 통째로 익히는 인사. 대답은 I'm fine. / I'm good.",
+     "new": "How are you?엔 I'm fine. / I'm good.으로 답해."
+    },
     {
      "path": [
       0,
@@ -96,7 +110,7 @@
  "sourceSnapshots": {
   "pipeline/out/lesson00.json": {
    "beforeHash": "8b1960e41d411ce0d9688a95ae93cf596fc5a67d85fe77676017af92ea3d5a4c",
-   "afterHash": "24daf18cf31edcd707235e61835dca2f266904cd78d5b1c432459891c6035b49"
+   "afterHash": "495ee8382d37da0cbd857aa790e111167f38c1f1b245f5c4fd481d5fdadb2ae2"
   },
   "pipeline/out/set05.json": {
    "beforeHash": "0395aa293004bd9b9217f312ca6528b921cb90cd94275664af802eb6a2921c33",
@@ -121,6 +135,19 @@
     "newExists": true,
     "old": "-teen은 뒤, -ty는 앞에 강세. thirty(30)와 구별.",
     "new": "-teen은 뒤, -ty는 앞에 강세. thirty(30)와 구별. 13은 홀수이자 소수야."
+   },
+   {
+    "path": [
+     "exercises",
+     3,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "How are you?는 통째로 익히는 인사. 대답은 I'm fine. / I'm good.",
+    "new": "How are you?엔 I'm fine. / I'm good.으로 답해."
    }
   ],
   "pipeline/out/set05.json": [

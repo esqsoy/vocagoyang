@@ -1101,6 +1101,7 @@
   - 예문 우선순위: 단어 설명 적합도 > 문법 > 지식 > 개드립 > 나머지를 PRINCIPLES 2절 첫머리와 WORK_PLAN에 기록. 2-10의 '지식 예문과의 관계(확인 중)'를 이 순서로 정리했다(STUDY1 소재는 개드립 예문·대사 몫).
   - Claude 판단(영신 위임): 41세트 prime ② '소수(素數)의' 새 카드. 이유는 사전의 주요 뜻이고, odd ②·even ③과 짝이 맞고, 수학·과학 지문에 나오기 때문. 예문 "Two, three, five, and seven are prime numbers, but nine is not."(but nine is not으로 small·whole 경쟁어를 막음). 고양 대사는 영신이 "고양이 목숨 9개는 prime number가 아니라고양!"으로 고쳐 줬다. prime ① sn 1→2. 연습 제목은 그대로라 완료 기록·이어하기·모아둔 카드 ID는 바뀌지 않는다(완료는 세트·연습 제목으로 저장).
   - thirteen 해설 끝에 "13은 홀수이자 소수야."(예문은 영신 말대로 유지).
+  - hi 해설에서 "How are you?는 통째로 익히는 인사."를 지웠다(영신 댓글 "삭제"). 남은 해설 "How are you?엔 I'm fine. / I'm good.으로 답해."
 - **원장:** `set0-review2-20261011`(복원 체인 맨 위, DATA 5곳). 카드 7,573 → 7,574장.
 - **검증(새로 실행):** Codex 검사 35/35. deepcheck A1·A2·A5·A7 0, A6 89. exaudit 11. ordercheck 합계 501·78(0세트 39·0). linecheck 390·360px 초과 0(7,574문장). collide 907(prime ② 걸리지 않음).
 - **상태:** 브랜치 커밋·푸시, 배포 안 함.
