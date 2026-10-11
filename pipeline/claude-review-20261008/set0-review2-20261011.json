@@ -2,12 +2,12 @@
  "date": "2026-10-11",
  "name": "set0-review2-20261011",
  "status": "applied_locally_verified",
- "authorization": "영신 2026-10-11 대화: \"영어이름순서는 우리식으로 하자 (다만 영신초이는 통째로 영신초이야(번역도 영신초이임))\", \"프라임에 소수카드 더할지와 홀수 소수 질문의 여부는 완전히 네가 판단해줘\". 0세트 직검수 댓글 \"13은 홀수이고 소수야\".",
- "summary": "이름 순서 우리식(my Kim Minso, your Choi Seojin), thirteen 해설에 \"13은 홀수이자 소수야\", 41세트 prime ② 소수(素數)의 새 카드(prime sn 1→2, 7,574장).",
+ "authorization": "영신 2026-10-11 대화: \"영어이름순서는 우리식으로 하자 (다만 영신초이는 통째로 영신초이야(번역도 영신초이임))\", \"프라임에 소수카드 더할지와 홀수 소수 질문의 여부는 완전히 네가 판단해줘\", \"고양이 목숨 9개는 prime number가 아니라고양! 이라고 해야지\". 0세트 직검수 댓글 \"13은 홀수이고 소수야\".",
+ "summary": "이름 순서 우리식(my Kim Minso, your Choi Seojin), thirteen 해설에 \"13은 홀수이자 소수야\", 41세트 prime ② 소수(素數)의 새 카드(prime sn 1→2, 7,574장, 고양 대사 \"고양이 목숨 9개는 prime number가 아니라고양!\").",
  "snapshots": {
   "DATA": {
    "beforeHash": "ed4255889b48910fd6cedb3ce86a14343ae0d40609c3c7fa19be7e1468cbaa92",
-   "afterHash": "435f5427c67a64a732f74170802ad91ec71168c33f0f42d40c30761cc31c7b50",
+   "afterHash": "dff73826c796467e79147530d2518d2183a34d7860821ca2a3e608fa152d3e6c",
    "changes": [
     {
      "path": [
@@ -86,7 +86,7 @@
       "word": "prime",
       "si": 2,
       "sn": 2,
-      "meow": "고양이 목숨 9개는 소수가 아니라고양. 그래도 고양이는 특별하다고양."
+      "meow": "고양이 목숨 9개는 prime number가 아니라고양! 그래도 고양이는 특별하다고양."
      }
     }
    ],
@@ -104,7 +104,7 @@
   },
   "pipeline/out/set41.json": {
    "beforeHash": "61f3d31d923e9f62acb522b1f08a901c8f5641d0a8e70529638575d592739830",
-   "afterHash": "6527af1b10dec99f046b0a2dacd1ab46d8a7572e8393ffe8152a9d50cb8820d7"
+   "afterHash": "9ee6e6d5352ad9cc1635e6cfd6c2d6b4e8f48fc8f9ffb905e9cd138b5177c4a2"
   }
  },
  "sourceChanges": {
@@ -181,7 +181,7 @@
      "word": "prime",
      "si": 2,
      "sn": 2,
-     "meow": "고양이 목숨 9개는 소수가 아니라고양. 그래도 고양이는 특별하다고양."
+     "meow": "고양이 목숨 9개는 prime number가 아니라고양! 그래도 고양이는 특별하다고양."
     }
    }
   ]
