@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-11",
+  "request": "Opus 5.5와 함께 작업한 보카고양 변경 리뷰",
+  "baseline": "59aaf81",
+  "reviewedMain": "e9c178d",
+  "reviewedBranchDocs": "6579ea3",
+  "scope": {
+    "method": "기존 체크아웃과 미반영 초안을 보존하고 GitHub 최신 main을 별도 폴더에 펼쳐 변경 원본·현재 원칙·검사·실제 Chrome 동작을 검토했다.",
+    "content": "Oxford 신규 508카드, 0세트 234카드, 지식 예문 변경 대상 및 어원 사촌쌍 14카드를 분담해서 읽었다. 전체 7,573카드의 모든 사실을 외부 자료와 대조한 전수 사실 검증은 아니다.",
+    "tests": "기존 자동 검사 28/28 통과. 실제 과거 저장 형식을 현재 실행부에 대입했다. Chrome 390px에서 1,000단어 축하 화면과 다음 연습 전환 경합을 재현했다.",
+    "deviceLimit": "실제 iPhone Safari는 검사하지 않았다.",
+    "snapshotPreparation": "Windows Git archive의 CRLF로 생성 구간 비교가 실패해 별도 검토 스냅샷의 텍스트 줄바꿈만 LF로 정규화한 뒤 검사했다. 원래 체크아웃의 앱·데이터는 수정하지 않았다.",
+    "release": "앱 수정·커밋·푸시·배포 없음. 최신 공개 사이트와의 해시 일치도 이번 리뷰에서는 확인하지 않았다."
+  },
+  "assessment": "지식 예문의 길이·어휘 통제, 결정 이유를 보존한 PRINCIPLES, Oxford 보강, 문법 순서의 0세트 구성은 유지할 가치가 있다. 전체를 되돌릴 근거는 없다. 실행 결함 2곳과 목표 뜻·사실·해설 범위의 국소적 수정을 우선한다.",
+  "findings": [
+    {
+      "id": "R1", "priority": "P2", "file": "repo/pipeline/milestones/runtime.js", "line": 56,
+      "title": "축하 화면 예약이 다음 연습 위에서 실행된다",
+      "trigger": "1,000단어 문턱을 넘긴 비퍼펙트 클리어 뒤 700ms 안에 다음 연습을 누른다.",
+      "observed": "새 gameScreen 위에 축하 화면이 나타나며 타이머는 계속 동작했다. 실제 재현에서 900ms 시점 20초, 3900ms 시점 17초였다.",
+      "impact": "새 문제를 가린 채 풀이 시간이 소비된다. 시간 종료만으로 오답 처리된다는 뜻은 아니다.",
+      "recommendation": "결과 화면의 연출과 다음 연습 진입을 순서대로 처리하거나 화면 전환 시 연출 예약을 보류한다. 새 게임 타이머가 연출 뒤에서 돌지 않게 한다.",
+      "evidence": ["browser-review.json", "browser-review.cjs", "milestone-over-game.png"]
+    },
+    {
+      "id": "R2", "priority": "P2", "file": "repo/vocagoyangfable.html", "line": 2532,
+      "title": "일부 구버전 이어하기 위치가 0세트로 돌아간다",
+      "trigger": "heads-v3 / heads-v3-editorial-20260925 / topics-v4 저장 기록 중 28세트 Exercise 9-1·9-2 또는 42세트 Exercise 1-1·1-2에서 돌아온다.",
+      "observed": "통합된 연습 제목을 찾는 마지막 처리가 placement-v1에만 적용된다. 실제 과거 saveLast 결과와 12개 영향 조합에서 새 위치를 찾지 못했다.",
+      "impact": "마지막 학습 위치의 연결 문제다. 클리어 기록이나 모아둔 카드 자체가 지워지는 문제는 확인하지 못했다.",
+      "recommendation": "더 오래된 배치의 전용 대응을 먼저 시도한 다음에도 실패하면 통합 전 제목으로 찾게 하고 실제 과거 저장값을 검사에 추가한다.",
+      "evidence": ["set0-review.json", "set0-actual-history.json", "set0-historic-resumes.json"]
+    },
+    {
+      "id": "R3", "priority": "P2", "file": "repo/pipeline/out/set31.json", "line": 1503,
+      "title": "immune의 뜻과 예문이 서로 다르다",
+      "original": "뜻: 면역이 있는 / 예문: A vaccine trains the immune system to recognize a germ.",
+      "reason": "immune system은 면역의·면역에 관한 뜻이다. 병에 면역이 있는 상태를 뜻하는 immune to와 다르다.",
+      "recommendation": "기존 목표 뜻을 유지하고 be/become immune to 문장으로 바꾸거나, immune system의 뜻을 학습 항목에 정확히 반영한다.",
+      "sources": ["https://ahdictionary.com/word/search.html?q=immune"]
+    },
+    {
+      "id": "R4", "priority": "P2", "file": "repo/pipeline/out/set26.json", "line": 1867,
+      "title": "migrate에서 6만 년을 최초 이주 시점으로 단정한다",
+      "original": "Modern humans began to migrate out of Africa about 60,000 years ago.",
+      "reason": "6만 년 무렵의 주요 이주보다 훨씬 이른 현생 인류의 아프리카 밖 흔적이 있다. began와 번역의 시작이 문제다.",
+      "recommendation": "주요 이주의 사례로 범위를 한정하고 최초라는 단정을 뺀다.",
+      "sources": ["https://www.nhm.ac.uk/discover/news/2018/january/humans-left-africa-40-000-years-earlier-than-we-thought.html"]
+    },
+    {
+      "id": "R5", "priority": "P2", "file": "repo/pipeline/out/set31.json", "line": 826,
+      "title": "gross의 GDP 정의에서 최종 생산물이라는 조건이 빠졌다",
+      "original": "GDP, or gross domestic product, is the value of all a country makes in a year.",
+      "reason": "모든 생산물을 합산하면 중간재가 중복된다. 국내에서 생산한 최종 재화·서비스라는 범위가 필요하다.",
+      "recommendation": "핵심 정의를 정확히 담아 짧게 다시 쓰거나 gross pay처럼 gross를 더 간단히 보여 주는 문맥을 택한다.",
+      "sources": ["https://www.bea.gov/data/gdp/gross-domestic-product"]
+    },
+    {
+      "id": "R6", "priority": "P2", "file": "repo/pipeline/out/set42.json", "line": 1615,
+      "title": "socialism으로 옮긴 해설의 지지자 주체가 바뀌었다",
+      "original": "지지자들은 communism(공산주의)을 이보다 더 나아간 단계로 본다.",
+      "reason": "communism에서 socialism으로 옮기며 지지자들이 사회주의 지지자 전체를 가리키는 문장이 됐다. 최신 사용자 결정의 주체와 다르다.",
+      "recommendation": "주체를 공산주의 지지자 또는 해당 단계론을 지지하는 전통으로 명시한다.",
+      "sources": ["https://plato.stanford.edu/entries/socialism/"],
+      "localEvidence": ["repo/PRINCIPLES.md 2-5", "repo/pipeline/knowledge-map/batch-16.json"]
+    },
+    {
+      "id": "R7", "priority": "P3", "file": "repo/pipeline/out/set18.json", "line": 863,
+      "title": "영국 의회의 명칭을 the Parliament로 고정해 안내한다",
+      "original": "영국 의회는 the Parliament(대문자), 미국 의회는 Congress.",
+      "recommendation": "영국 의회 자체의 보통 고유 명칭은 Parliament로 안내한다. the British Parliament와 같은 한정 구문과 구별한다.",
+      "sources": ["https://www.oxfordlearnersdictionaries.com/definition/english/parliament"]
+    },
+    {
+      "id": "R8", "priority": "P2", "file": "repo/pipeline/out/set07.json", "line": 2234,
+      "title": "score/grade 해설이 숫자 점수와 문자 등급을 과도하게 분리해 읽힌다",
+      "original": "My test {{BLANK}} went up by 20 points! / 숫자로 매긴 점수. A·B 같은 성적 등급이나 학년은 grade.",
+      "reason": "grade도 숫자로 표시하는 시험 성적을 뜻한다. 같은 5칸에 grade를 써도 자연스럽다. grade를 정답으로 추가하자는 것이 아니라 실제 겹침을 해설에 인정할 필요가 있다.",
+      "recommendation": "시험 점수는 grade와도 바꿔 쓸 수 있다. 경기의 점수도 score. grade는 학년·등급도 뜻한다.",
+      "sources": ["https://dictionary.cambridge.org/us/dictionary/english/grade?topic=quality-and-standard", "https://www.oxfordlearnersdictionaries.com/us/definition/english/grade_1"],
+      "evidence": ["oxford-review.json"]
+    }
+  ],
+  "minorObservations": [
+    {"item": "동의어 해설 보완", "observation": "location/position, significant/substantial, largely/chiefly는 현재 예문에서 교체가 가능하다. 자세한 원문·뜻과 근거는 oxford-review.json에 있다. 예문 오류나 정답 정책의 결함으로 분류하지 않는다. largely는 이미 mainly·mostly를 안내하므로 단순히 모든 동의어를 나열하기보다 해설 길이와 실제 학습 필요를 고려해 선택한다."},
+    {"item": "immigrant 예문 길이", "file": "repo/pipeline/out/set20.json", "line": 1575, "observation": "Chrome 390px 줄 수 검사에서 정답을 채운 문장 4줄 1건. 나머지 7,572장은 문장 3줄 이내이며 빈칸 포함 문제 화면은 전체 4줄 이내. 글꼴·운영체제 차이를 고려해 이 문장만 조금 줄일 것을 권고한다."},
+    {"item": "colony 표현 정밀화", "file": "repo/pipeline/out/set26.json", "line": 1747, "observation": "13개 주가 모두 영국 식민지로 시작했다는 서술은 주의 직접 전신이라는 뜻으로 읽힐 수 있어 확정 오류로 분류하지 않는다. 뉴욕·델라웨어 지역의 더 이른 네덜란드·스웨덴 정착과 혼동하지 않도록 독립 전 영국령이었다고 쓰는 편이 명확하다."}
+  ],
+  "strengths": [
+    "PRINCIPLES가 결정 이유·실패 사례·최신 합의를 연결해 과거 초안으로 잘못 되돌릴 위험을 줄였다.",
+    "순서·어휘·실제 화면 길이를 따로 검사하고 자연스러운 영어를 우선하는 방향이 구체화됐다.",
+    "Oxford 보강과 0세트 재구성은 작은 연습 단위를 유지했다.",
+    "모든 현재 카드의 과거 완료 키 대응을 대조했으며 새 카드가 과거 완료 기록을 부당하게 이어받는 경우는 찾지 못했다.",
+    "현재 생성 자료 기준 51세트·675연습·7,573카드·5,362표제어, 세 과정 합집합 8,260개다."
+  ],
+  "next": "먼저 R1·R2 실행 결함, 이어 R3~R8 내용 수정을 권고한다. 사용자의 이번 요청은 리뷰이므로 수정·배포는 아직 하지 않았다. 과거 로컬 403예문 초안은 최신 main에 일괄 재적용하지 않는다."
+}

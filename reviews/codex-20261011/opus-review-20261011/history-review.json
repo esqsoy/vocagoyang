@@ -1,0 +1,104 @@
+{
+  "reviewed_head": "e9c178d",
+  "baseline": "59aaf81",
+  "date": "2026-10-11",
+  "scope": {
+    "instructions": ["AGENTS.md", "PRINCIPLES.md (latest decisions)", "WORK_PLAN.md", "HANDOFF.md", "pipeline/knowledge-map/BRIEF.md"],
+    "selection": "knowledge-map batch-01~16 및 claude-review-20261008 내용 원장에서 대상을 뽑아 현재 저작 원본의 en/ko/ex/tr/c를 검수. Oxford 신규 508장은 제외.",
+    "read": "지식 묶음 298개 표제어에 해당하는 현재 카드 384개 레코드; 추가 원장으로 확보한 150개 레코드(생성본 중복 포함); morphology 사촌 쌍 14장과 해당 5개 단위의 rule/limits/history 전체. 파일 knowledge-final-cards.json, knowledge-extra-cards.json에 읽은 레코드 보존.",
+    "verification": "아래 6건은 현재 원본에 남음을 확인했고 쟁점별 사전·박물관·정부·학술 출처를 확인했다. 전체 카드에 대해 외부 출처를 하나씩 대조한 전수 사실 확인을 의미하지 않는다.",
+    "modifications": "앱·저작 원본·배포 변경 없음. 리뷰 자료만 snapshot 밖 작업 폴더에 저장."
+  },
+  "findings": [
+    {
+      "id": "H1",
+      "priority": 2,
+      "confidence": "high",
+      "title": "migrate 예문의 6만 년을 최초 이주 시점으로 쓰지 말 것",
+      "file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/opus-review-20261011/repo/pipeline/out/set26.json",
+      "line": 1867,
+      "original": "Modern humans began to {{BLANK}} out of Africa about 60,000 years ago.",
+      "translation": "현생 인류는 약 6만 년 전 아프리카를 떠나 이주하기 시작했어.",
+      "reason": "6만 년은 현생 인류의 주요 확산 물결을 가리키는 범위이지 아프리카 밖 이주의 시작이 아니다. Natural History Museum은 18만 년 전 이스라엘 현생 인류 화석을 소개하고, 종합 설명에서도 20만 년 전부터의 출현과 최근 6만 년의 주요 이주를 구별한다. began to와 번역 '시작'이 훨씬 이른 이동을 지운다.",
+      "recommendation": "'약 6만 년 전 많은 현생 인류가 아프리카 밖으로 이주했다'처럼 주요 이주의 사례로 쓰거나 이주 동물 문맥으로 교체한다. 새 최초 연도를 임의로 확정하지 않는다.",
+      "sources": ["https://www.nhm.ac.uk/discover/news/2018/january/humans-left-africa-40-000-years-earlier-than-we-thought.html", "https://www.nhm.ac.uk/discover/when-how-did-modern-humans-homo-sapiens-spread-out-of-africa.html"],
+      "introduced_in_diff": true
+    },
+    {
+      "id": "H2",
+      "priority": 2,
+      "confidence": "high",
+      "title": "GDP 정의에서 최종 생산물과 국내 생산 범위를 지킬 것",
+      "file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/opus-review-20261011/repo/pipeline/out/set31.json",
+      "line": 826,
+      "original": "GDP, or {{BLANK}} domestic product, is the value of all a country makes in a year.",
+      "translation": "GDP, 곧 국내총생산은 한 나라가 한 해에 만드는 모든 것의 가치야.",
+      "reason": "'만드는 모든 것'을 모두 더하면 중간재를 중복 계산한다. GDP는 국내에서 생산한 최종 재화와 서비스의 가치이며 BEA도 중간재 중복 계산 배제를 명시한다. 학문 용어의 범위를 정확히 하고 예문 자체로 정의를 완결한다는 PRINCIPLES 2-5와 충돌한다. 국가 소유와 국내 생산의 구별도 현재 문장에 드러나지 않는다.",
+      "recommendation": "최종 재화·서비스와 국내 생산을 포함해 다시 쓰고 3줄 제한을 재검증하거나 gross pay처럼 표제어 gross 자체를 정확히 보여 주는 문맥으로 교체한다.",
+      "sources": ["https://www.bea.gov/data/gdp/gross-domestic-product"],
+      "introduced_in_diff": true
+    },
+    {
+      "id": "H3",
+      "priority": 2,
+      "confidence": "high",
+      "title": "socialism으로 옮긴 해설의 지지자 주체를 복구할 것",
+      "file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/opus-review-20261011/repo/pipeline/out/set42.json",
+      "line": 1615,
+      "original": "↔ capitalism(자본주의). 지지자들은 communism(공산주의)을 이보다 더 나아간 단계로 본다.",
+      "reason": "socialism 카드에서 '지지자들'은 사회주의 지지자 전체를 가리키게 된다. 사회주의에는 공산주의 단계론을 따르지 않는 다양한 전통이 있어 이 일반화는 부정확하다. 최신 PRINCIPLES 2-5에서 합의한 원문은 communism 카드의 지지자들, 즉 공산주의 지지자들이 socialism보다 진전된 형태로 본다는 것이었다. batch-16에서 카드 간 해설을 옮기면서 지시 대상이 바뀌었다.",
+      "recommendation": "사용자가 승인한 관계 설명은 유지하고 '공산주의자들은 …' 또는 해당 단계론의 주체를 더 정확히 밝혀 쓴다.",
+      "sources": ["https://plato.stanford.edu/entries/socialism/"],
+      "local_evidence": ["PRINCIPLES.md 2-5 사상(-ism) 문단", "pipeline/knowledge-map/batch-16.json", "pipeline/claude-review-20261008/knowledge-16.json"],
+      "introduced_in_diff": true
+    },
+    {
+      "id": "H4",
+      "priority": 2,
+      "confidence": "high",
+      "title": "immune의 '면역이 있는' 뜻과 새 예문을 일치시킬 것",
+      "file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/opus-review-20261011/repo/pipeline/out/set31.json",
+      "line": 1503,
+      "original": "A vaccine trains the {{BLANK}} system to recognize a germ.",
+      "meaning": "① 면역이 있는",
+      "reason": "immune system의 immune은 '면역의, 면역에 관한'이라는 관계 형용사다. 문제의 뜻 '면역이 있는'은 be immune to에서 쓰는 병에 저항성이 있는 상태를 뜻한다. AHD는 두 뜻을 구별하고 OALD도 상태 뜻을 immune to, not usually before noun으로 설명한다. 원래 be immune to 예문을 교체하면서 ko는 유지되어 문장 안 표제어와 학습 뜻이 달라졌다.",
+      "recommendation": "이 카드의 목표 뜻을 유지하려면 be/become immune to 구조를 쓰는 정확한 예문으로 고친다. immune system을 유지하려면 '면역의'라는 뜻을 문제의 ko에도 명시하고 기존 목표 뜻을 보존할 방법을 검토한다.",
+      "sources": ["https://ahdictionary.com/word/search.html?q=immune", "https://www.oxfordlearnersdictionaries.com/definition/english/immune"],
+      "introduced_in_diff": true
+    },
+    {
+      "id": "H5",
+      "priority": 2,
+      "confidence": "high",
+      "title": "13개 주의 식민지 기원을 모두 영국으로 단정하지 말 것",
+      "file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/opus-review-20261011/repo/pipeline/out/set26.json",
+      "line": 1747,
+      "original": "Each of the first thirteen US states began as a British {{BLANK}}.",
+      "translation": "미국의 처음 13개 주는 모두 영국 식민지로 시작했어.",
+      "reason": "독립 직전 13개 식민지가 영국령이었다는 것은 맞지만 모두 영국 식민지로 '시작'한 것은 아니다. 뉴욕 지역은 네덜란드의 New Netherland였고 델라웨어의 첫 영구 유럽 식민지는 New Sweden이었다. 현재의 began as와 '모두 … 시작'은 기원까지 영국으로 일반화한다.",
+      "recommendation": "독립 전 영국 식민지였다는 관계로 한정한다. 예: Before independence, each of the first thirteen US states was a British {{BLANK}}. 또는 글자 수에 맞는 다른 단수 식민지 예문.",
+      "sources": ["https://www.nps.gov/mava/learn/historyculture/new-netherland.htm", "https://www.nps.gov/people/anthony-swart.htm", "https://archives.delaware.gov/delaware-historical-markers/landing-of-the-swedes/"],
+      "introduced_in_diff": true
+    },
+    {
+      "id": "H6",
+      "priority": 2,
+      "confidence": "high",
+      "title": "영국 의회의 고유 명칭을 관사 없는 Parliament로 안내할 것",
+      "file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/opus-review-20261011/repo/pipeline/out/set18.json",
+      "line": 863,
+      "original": "영국 의회는 the Parliament(대문자), 미국 의회는 Congress.",
+      "reason": "영국 의회 자체를 고유 명칭으로 가리킬 때는 보통 관사 없이 Parliament라고 한다. OALD는 해당 뜻을 별도로 두고 in Parliament, an Act of Parliament, Parliament will be in session 같은 용례로 설명한다. the British Parliament나 the Parliament of ...와 달리 the Parliament를 고정 이름으로 외우게 한다.",
+      "recommendation": "'영국 의회는 Parliament, 미국 의회는 Congress. 고유 명칭이면 대문자로 쓴다.'처럼 수정한다.",
+      "sources": ["https://www.oxfordlearnersdictionaries.com/definition/english/parliament"],
+      "introduced_in_diff": true
+    }
+  ],
+  "not_promoted_to_findings": [
+    {"item":"abolish 1833/1834", "reason":"발효는 1834이나 영국 공공 교육 자료 자체도 1833 입법을 slavery abolished로 요약하는 예가 있어, 이번 강한 결함 목록에서는 제외. 정확한 법 통과/발효 표현을 쓸 여지는 있음."},
+    {"item":"plantation 범위", "reason":"최신 PRINCIPLES에 사용자 피드백 후 결정된 예문/해설이 명시되어 있음. 보통 사전 뜻보다 노예제·유럽 수출 맥락으로 좁은 것은 사실이나, 승인한 역사적 초점을 바로 결함으로 취급하지 않음. 후속에서 시대/지역 한정은 유익할 수 있음."},
+    {"item":"Grimm 사촌 쌍", "reason":"14장과 5개 단위 전체를 읽음. 핵심 사촌 판정은 타당하고 mother의 후대 th 및 frater/brother의 공통 기원도 원본 메타데이터가 설명함. 일부 카드 c가 '라틴어 c가 영어 h가 되어'로 축약된 것은 학습 오해 여지가 있지만 직접 변형이 아님을 limits에 명시하여 강한 목록에서 제외."},
+    {"item":"Chinese/paper/compass/wall", "reason":"China·Chinese 통칭 및 wall의 기원전600년대는 최신 사용자 논의가 끝난 항목임을 확인. 이전 초안으로 되돌리는 지적 없음."},
+    {"item":"evolution/antibiotic/fossil", "reason":"batch-16의 최종 수정이 원본에 들어간 것을 확인. 이전 초안에 대한 지적 없음."}
+  ]
+}

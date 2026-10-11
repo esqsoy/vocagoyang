@@ -1,0 +1,357 @@
+# 대화 원문
+
+범위: 최초 Opus 리뷰 요청부터 GitHub 공유 요청까지. 사용자 4개, 답변 3개, 진행 안내 18개, 총 25개 메시지. 아래 메시지 본문은 원문 그대로이며 제목·구분선만 추가했다. 원래 로컬 링크도 수정하지 않았다. 대응하는 저장소 경로는 [LINK_MAP.md](LINK_MAP.md)를 참고한다.
+
+## 01. 사용자
+
+<!-- message-id: 01a1290d-b0e4-7451-9522-a3858a29f5ad; phase: user -->
+
+보카고양 opus 5.5와 함께 작업을 좀 했어. 네가 한번 리뷰해줘
+
+
+---
+
+## 02. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb0593babc87d0b56a86b06f0a22e4; phase: commentary -->
+
+좋아. Opus와 작업한 변경 내역을 먼저 확인하고, 내용·학습 흐름·게임 동작에서 문제가 생긴 부분이나 더 다듬을 점을 리뷰할게.
+
+
+---
+
+## 03. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb05d0deb487d096bb03a326767640; phase: commentary -->
+
+최신 변경을 찾았어. 지식 예문 개정뿐 아니라 Oxford 어휘 508장 추가, 0세트 재구성, 표제어 정리, 단어 수 돌파 축하 효과와 해설 대기시간까지 꽤 넓게 바뀌었네. 최신본을 별도 검토 폴더에 펼쳐서 내용과 동작을 나눠 확인할게.
+
+
+---
+
+## 04. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb06648f9c87d096170727d62222dc; phase: commentary -->
+
+새 원칙 문서 덕분에 변경의 이유까지 확인할 수 있었어. 특히 예문 길이·어휘 난도를 검사하고, 0세트를 문법 순서로 묶은 방향은 좋아 보여. 지금은 실제 문장의 정확성과 함께, 기존 학생들의 기록이 개편 뒤에도 올바르게 이어지는지 확인 중이야.
+
+
+---
+
+## 05. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb0703372c87d09f0e5131bd969bc2; phase: commentary -->
+
+기존 자동 검사 28개는 모두 통과했어. 다만 과거 배포본의 실제 이어하기 기록을 넣어보니, 일부 오래된 기록이 0세트로 돌아가는 경우가 발견됐어. 내용 쪽에서도 해설을 다른 카드로 옮기면서 문장의 주체가 달라진 사례가 있어. 각각 재현 조건과 수정 범위를 좁히고 있어.
+
+
+---
+
+## 06. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb084810f487d08f21fc6abb9da1c4; phase: commentary -->
+
+내용 개정의 방향은 좋아. 특히 예문이 짧고 읽을 만해야 한다는 기준과, 규칙을 정한 이유까지 남긴 점이 도움이 돼. 다만 몇 문장에서는 줄이는 과정에서 뜻의 범위가 달라졌어. 예를 들어 `immune system`의 immune은 ‘면역의’인데, 문제의 뜻은 여전히 ‘면역이 있는’으로 남아 있어. 이런 불일치를 우선 정리하고 있어.
+
+---
+
+## 07. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb08ecb88487d0ba1274332d01e826; phase: commentary -->
+
+Oxford 보강 508장도 검토를 마쳤어. 큰 문법 오류는 찾지 못했고, `score`와 `grade`의 쓰임이 겹친다는 점을 해설에 보완하면 좋겠어. 현재까지는 화면 전환·이어하기 문제 2곳과 내용 몇 곳을 고치면 되는 수준이야. 앱은 건드리지 않고, 다음 수정에 쓸 수 있게 재현 결과와 근거를 남길게.
+
+---
+
+## 08. Codex 답변
+
+<!-- message-id: msg_0d23e67b673d26c9016acb094192b087d09d61f0e9f5b4bbb8; phase: final_answer -->
+
+리뷰했어. **전체 개편 방향은 유지하는 게 좋겠어. 다만 실행 문제 2곳과 내용 보완 6곳은 고칠 필요가 있어.** GitHub 최신 `main`의 `e9c178d`를 기준으로 확인했어.
+
+먼저 실제로 재현된 동작 문제야.
+
+1. **천 단어 축하 화면이 다음 문제를 가리는 경우가 있어.**  
+   클리어 직후 빠르게 다음 연습을 누르면, 새 문제가 시작된 뒤 축하 화면이 떠. 그 뒤에서도 타이머가 돌아서 실제 검사에서 남은 시간이 **20초→17초**로 줄었어. 축하 연출과 다음 연습 시작을 순서대로 처리해야 해. [해당 코드](C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/opus-review-20261011/repo/pipeline/milestones/runtime.js:56)
+
+2. **일부 오래된 이어하기 기록이 0세트로 돌아가.**  
+   예전 배치의 **28세트 Exercise 9-1·9-2, 42세트 Exercise 1-1·1-2** 기록에서 확인했어. 합쳐진 연습의 새 위치를 찾지 못하는 문제야. **클리어 기록이나 모아둔 카드가 지워지는 것은 아니야.** [해당 코드](C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/opus-review-20261011/repo/vocagoyangfable.html:2532)
+
+내용에서 고칠 부분은 다음과 같아.
+
+| 카드 | 발견한 점과 수정 방향 |
+|---|---|
+| **immune** | 뜻은 **‘면역이 있는’**인데 예문은 **immune system**, 즉 ‘면역의’라는 쓰임이야. 기존 뜻을 유지한다면 **be immune to** 문장으로 바꾸는 게 좋아. [사전 근거](https://ahdictionary.com/word/search.html?q=immune) |
+| **migrate** | “현생 인류가 약 6만 년 전에 아프리카 밖으로 이주하기 **시작했다**”고 되어 있어. 그보다 훨씬 이른 이주 증거가 있으므로, **6만 년 무렵의 주요 이주**로 표현해야 해. [자연사박물관](https://www.nhm.ac.uk/discover/news/2018/january/humans-left-africa-40-000-years-earlier-than-we-thought.html) |
+| **gross** | GDP를 “한 나라가 만드는 모든 것의 가치”라고 정의해. **국내에서 생산한 최종 재화·서비스**라는 조건이 빠져 중간재까지 중복 계산하는 뜻이 돼. 짧게 쓰더라도 이 조건은 살려야 해. [BEA](https://www.bea.gov/data/gdp/gross-domestic-product) |
+| **socialism** | “지지자들은 공산주의를 더 나아간 단계로 본다”는 해설을 옮기면서, **사회주의 지지자 전체의 생각**처럼 바뀌었어. 원래 의도대로 주체를 명시하면 해결돼. [관련 설명](https://plato.stanford.edu/entries/socialism/) |
+| **parliament** | 영국 의회의 명칭을 **the Parliament**로 안내해. 보통 고유 명칭은 관사 없이 **Parliament**야. [Oxford](https://www.oxfordlearnersdictionaries.com/definition/english/parliament) |
+| **score** | “숫자 점수는 score, A·B 같은 등급은 grade”처럼 읽히는데, **grade도 숫자로 표시하는 시험 성적**에 쓰여. 현재 예문에는 둘 다 자연스러우니, 정답은 score로 유지하면서 겹치는 쓰임을 해설에 인정하면 돼. [Cambridge](https://dictionary.cambridge.org/us/dictionary/english/grade?topic=quality-and-standard) |
+
+`score` 해설은 이렇게 정리하면 좋겠어.
+
+> 시험 점수는 grade와도 바꿔 쓸 수 있다. 경기의 점수도 score. grade는 학년·등급도 뜻한다.
+
+그 밖에는 `location–position`, `significant–substantial`처럼 **현재 예문에서 대체 가능한 말의 안내를 보완할 곳**이 조금 있어. 화면에서는 `immigrant` 예문 한 장이 내 Chrome의 휴대폰 폭에서 4줄이어서 조금 줄이면 좋겠고.
+
+이번 작업에서 특히 좋았던 건 **PRINCIPLES에 결정의 이유와 실패 사례까지 남긴 점**이야. 예문의 어휘 난도와 실제 화면 길이를 검사하는 체계, Oxford 어휘 보강, 0세트의 문법 순서 구성도 계속 가져갈 만해. 특히 단어를 줄이는 과정에서 필요한 파생어·학술어를 다시 살린 판단은 적절해 보여.
+
+신규 Oxford **508장**, 0세트 **234장**, 지식 예문 변경 대상을 검토했고, 기존 자동 검사 **28개는 모두 통과**했어. 전체 7,573장의 모든 사실을 외부 자료로 검증한 것은 아니며, 실제 아이폰 Safari 검사는 하지 않았어.
+
+[리뷰 기록](C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/opus-review-20261011/review.json)과 인수인계를 남겼어. **이번에는 리뷰만 했고 앱 수정·배포는 하지 않았어.**
+
+---
+
+## 09. 사용자
+
+<!-- message-id: 01a12920-4eb8-7612-b45e-45c2179f9db0; phase: user -->
+
+그럼 이번에는 7573장 전체에 대해 리뷰해줘! 
+
+
+---
+
+## 10. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb0a55020887d08067f13998b9f899; phase: commentary -->
+
+좋아. 이번에는 7,573장 전체를 읽고 뜻·예문·해석·해설·발음기호를 검수할게. 앞서 발견한 문제도 포함하되, 확실히 고쳐야 할 오류와 선택적인 개선을 구분해서 정리하겠어. 리뷰 단계에서는 내용을 수정하거나 배포하지 않을게.
+
+
+---
+
+## 11. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb0b791d7487d0801a691cfb817c7c; phase: commentary -->
+
+현재 화면에 실제로 나오는 7,573장을 기준으로 검수 목록을 만들었어. 삭제되어 원본에만 남은 카드나 예전 초안은 제외했어. 전체를 나눠 읽으면서, 같은 글자 수의 대체어뿐 아니라 뜻과 예문이 맞는지, 해설이 차이를 지나치게 단정하는지도 확인하고 있어.
+
+
+---
+
+## 12. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb0d0f64ec87d0be6ce4d839843a74; phase: commentary -->
+
+전체 읽기는 막바지야. 뜻과 예문이 서로 다른 용법을 가리키는 카드, 해설이 의미 차이를 너무 단정하는 카드, 같은 글자 수의 대체어가 자연스럽게 들어가는 카드를 따로 모으고 있어. 단순한 표현 취향은 오류와 구분해서 보고할게.
+
+
+---
+
+## 13. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb0dc9424087d094d2b05723046062; phase: commentary -->
+
+후반부까지 읽으면서 어원 해설에서도 한 가지를 찾았어. `cornu–horn` 같은 연결은 유익하지만, “라틴어가 영어로 바뀌었다”는 표현은 “같은 옛 뿌리에서 갈라져 소리가 대응한다”로 고치는 게 정확해. 이런 경우는 구성을 유지하면서 문장만 바로잡는 쪽으로 정리하고 있어.
+
+
+---
+
+## 14. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb0e2ba34887d091c607d87a438d65; phase: commentary -->
+
+7,573장 전체 읽기를 끝냈어. 지금은 수정 후보를 다시 대조해서 오탐을 걸러내고 있어. 특히 발음기호는 사전마다 인정하는 변이가 있어서, 표기가 다르다는 이유만으로 오류로 잡지 않았어. 이미 허용되는 대체 정답도 검토 목록에서 제외하고 있어.
+
+
+---
+
+## 15. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb0f3c5a5087d0adfb465971f32db4; phase: commentary -->
+
+가장 많이 나온 보완점은 예문의 사실 오류보다 **대체어 안내의 누락**이야. `What kind of music…`에는 `type·sort`, `current situation`에는 `present`도 자연스럽게 들어가는데 설명이 없는 식이야. 이런 카드는 예문 자체가 틀린 경우와 분리하고, 기존 해설을 길게 만들지 않는 선에서 무엇을 보완할지 정리하고 있어.
+
+
+---
+
+## 16. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb1015232087d0a54ba93ec69e58f3; phase: commentary -->
+
+정리를 마쳤어. 내용 정확성·표기를 손볼 항목은 12건, 대체어 안내를 보완할 항목은 65건이야. 별도로 선택 검토 28건을 남겼어. 큰 구성을 다시 만들기보다는 이 부분들을 고치는 게 좋겠고, 이번 리뷰에서 단어를 추가하거나 삭제해야 할 확실한 이유는 찾지 못했어.
+
+
+---
+
+## 17. Codex 답변
+
+<!-- message-id: msg_0d23e67b673d26c9016acb1035acd087d0b79400c3186f138e; phase: final_answer -->
+
+**7,573장 전부 읽었어.** 뜻·예문·해석·해설·발음기호·고양이 대사까지 검토했고, 의심되는 내용은 사전과 공식 자료로 추가 확인했어.
+
+결론은 **큰 구성은 유지하고, 정확성과 대체어 안내를 국소적으로 다듬으면 좋겠다**야.
+
+| 구분 | 결과 |
+|---|---:|
+| 내용 정확성·표기 수정 권고 | **12건** |
+| 대체어 안내 보완 | **65건·66카드** |
+| 선택적으로 다듬을 항목 | **28건** |
+
+77개의 예문이 틀렸다는 뜻은 아니야. 대부분은 **문장은 맞지만 다른 답도 가능한데 안내가 부족한 경우**야.
+
+**먼저 손볼 12건은 다음과 같아.** 이전 리뷰에서 발견한 것도 포함했어.
+
+| 단어 | 확인한 문제와 수정 방향 |
+|---|---|
+| **score** | 숫자 점수는 score, 문자 등급은 grade처럼 갈라놓았어. **grade도 숫자로 매긴 성적**에 쓰여. [사전](https://dictionary.cambridge.org/us/dictionary/essential-american-english/grade) |
+| **chief** | “major·main보다 으뜸”이라는 서열은 부정확해. main도 가장 중요한 것을 뜻하므로 임의의 강도 차이를 없애는 게 좋아. [사전](https://www.oxfordlearnersdictionaries.com/us/definition/english/chief_1) |
+| **republic** | 정답 공개 시 **the republic of Korea**로 나와. 정식 명칭의 Republic은 대문자가 필요해. 표시 방식이나 예문을 조정해야 해. [공식 명칭](https://www.mofa.go.kr/eng/main/index.do) |
+| **parliament** | 영국 의회를 **the Parliament**라고 외우게 되어 있어. 기관을 단독으로 지칭할 때는 보통 **Parliament**야. [사전](https://www.oxfordlearnersdictionaries.com/definition/english/parliament) |
+| **migrate** | 현생 인류가 약 6만 년 전에 아프리카 밖으로 이주하기 **시작했다**고 단정했어. 그보다 이른 이동의 증거가 있으므로 ‘시작’을 빼야 해. [자연사박물관](https://www.nhm.ac.uk/discover/when-how-did-modern-humans-homo-sapiens-spread-out-of-africa.html) |
+| **gross / GDP** | GDP를 “한 나라가 만드는 모든 것의 가치”라고 해서 중간재까지 포함될 수 있어. **국내에서 생산된 최종 재화·서비스**라는 범위가 필요해. [미 경제분석국](https://www.bea.gov/help/glossary?title=GDP&title_1=All) |
+| **immune** | 뜻은 ‘면역이 있는’인데 예문은 **immune system**, 즉 ‘면역의’라는 용법이야. 뜻과 예문을 맞춰야 해. [사전](https://www.merriam-webster.com/dictionary/immune) |
+| **socialism** | 사회주의 지지자들이 공산주의를 다음 단계로 본다고 일반화했어. **그렇게 보는 특정 사상적 전통**으로 주체를 한정해야 해. [사회주의 인터내셔널의 원칙](https://www.socialistinternational.org/about-us/declaration-of-principles/) |
+| **scarcity** | “shortage는 일시적 부족”이라고 단정했어. **chronic shortage처럼 장기적인 부족**에도 쓰이므로 기간으로 구별하면 안 돼. [Cambridge 용법 설명](https://dictionaryblog.cambridge.org/2019/05/29/abiding-memories-and-long-term-effects-words-that-mean-lasting-a-long-time/) |
+| **approach** | 허리 통증을 다루며 “쉬지 말고 계속 움직여”라고 했어. 원래 권고인 **오랜 침상 안정을 피한다**보다 지나치게 강한 표현이야. [NHS](https://www.nhs.uk/conditions/back-pain/) |
+| **suspect** | “증거 없이”, “좋지 않은 일을 짐작할 때”로 너무 좁혔어. **확신은 없지만 사실일 것이라 짐작한다**는 중심을 잡고, 부정적인 일에 자주 쓴다고 설명하면 돼. [사전](https://dictionary.cambridge.org/us/dictionary/english/suspect) |
+| **unicorn** | “라틴어 c가 영어 h가 되었다”는 설명은 직접 변화한 것처럼 들려. **cornu와 horn은 공통 뿌리에서 갈라진 친족어이며 소리가 대응한다**고 고치는 게 정확해. 관련 어원 카드도 표현을 맞추면 좋아. [그림 법칙](https://www.collinsdictionary.com/us/dictionary/english/grimms-law) |
+
+**대체어 안내 65건은 이런 유형이야.**
+
+- `What kind of music…` → **type·sort**도 가능
+- `current situation` → **present situation**도 가능
+- `choose just one` → **select just one**도 가능
+- `I had no choice` → **I had no option**도 가능
+- `Stay calm` → **Stay cool**도 가능
+- `persuaded my father to…` → **convinced my father to…**도 가능
+- `official approval` → **official sanction**도 가능
+- `medical term` → **medical word**도 가능
+
+이 단어들이 모든 뜻에서 완전히 같다는 말은 아니야. **의미 차이가 드러나는 예문으로 구별할 수 있으면 먼저 그렇게 하고, 같은 뜻으로 바꿔 쓸 수 있으면 해설에 짧게 명시**하면 돼. 정답을 표제어로 유지하는 원칙은 그대로 가져가면 되고.
+
+선택 개선에는 `part`의 ‘역할·몫’을 더 직접 보여주는 예문, `multiple`과 `multiple-choice` 설명의 분리, 전자기 유도 예문의 도선·코일 조건 보완 등이 있어. 반대로 **사전에서 인정하는 발음 변이와 단순한 문체 차이는 오류에서 제외했어.** 단어 추가·삭제가 꼭 필요한 사례도 이번에는 찾지 못했어.
+
+[전체 검토 보고서](C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/REPORT.html)에 모든 지적의 원문·이유·수정 방향을 남겼어. **아직 앱 내용 수정이나 배포는 하지 않았어.** 이번 검수는 전체 내용을 읽은 리뷰이며, 모든 음성을 청취하거나 모든 사실을 외부 자료와 하나씩 대조한 검증까지 뜻하지는 않아.
+
+---
+
+## 18. 사용자
+
+<!-- message-id: 01a12937-e1d0-77e2-8a0a-63938faa8d2f; phase: user -->
+
+그리고 문법 학습 관점에서의 리뷰도 해 줘
+
+
+---
+
+## 19. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb105e678487d089577eea7a4c23ee; phase: commentary -->
+
+좋아. 이번에는 예문을 통해 문법이 어떻게 쌓이는지, 해설이 잘못된 규칙을 심어 주지는 않는지, 필요한 문법을 빠뜨리거나 지나치게 몰아놓은 곳은 없는지 살펴볼게. 앞선 7,573장 검수 자료와 현재 문법 배치 의도를 함께 읽고 리뷰하겠어.
+
+
+---
+
+## 20. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb10f9ee7087d08ffae30e2a60e5e4; phase: commentary -->
+
+문서를 보니 문법 작업은 **0세트 개편과 Oxford 보강까지 반영됐고, 1~45세트에 문법을 골고루 반복시키는 작업은 아직 남아 있어.** 그래서 현재 카드의 오류와 앞으로 채울 학습 설계를 구분해서 볼게. 특히 현재완료나 관계절이 몇 번 나오는지만이 아니라, 그 구조의 뜻을 이해할 만한 문장인지 확인하고 있어.
+
+
+---
+
+## 21. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb11e2424487d0886eb22c40c678a8; phase: commentary -->
+
+지금까지는 큰 문법 오류보다 **짧게 줄인 규칙의 적용 범위**와 **뒤에서 다시 만나는 예문의 부족**이 더 눈에 띄어. 예를 들어 `whose` 관계절은 20세트의 두 연속 연습에 9장이 모여 있어. 처음 익히기엔 괜찮지만, 뒤쪽에서 다른 단어와 함께 재등장하면 더 도움이 되겠어.
+
+---
+
+## 22. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb12a92e2487d0a4d5ca8c66b047cb; phase: commentary -->
+
+예문을 더 길게 만드는 것보다 **같은 구조가 뜻을 어떻게 바꾸는지 여러 상황에서 다시 보여 주는 것**이 중요하겠어. `used to walk`와 `be used to getting up`, `bore someone`과 `be bored`는 이미 좋은 사례야. 이런 방식을 완료·가정·관계절에도 이어가는 쪽으로 리뷰를 정리하고 있어.
+
+---
+
+## 23. Codex 진행 안내
+
+<!-- message-id: msg_0d23e67b673d26c9016acb13c85c7c87d0b01d6b4567287e17; phase: commentary -->
+
+리뷰를 정리했어. 먼저 다듬을 건 해설 5묶음·7카드야. 그보다 큰 작업은 예정된 문법 배치를 마무리하는 것이고. 지금은 정답률만으로 문법까지 익혔다고 보긴 어려우니, 각 문법이 어떤 뜻으로, 어느 연습에서, 뒤에 얼마나 다시 나오는지 기록해 두는 게 좋겠어. 앱 내용은 건드리지 않고 검토 결과를 남겼어.
+
+---
+
+## 24. Codex 답변
+
+<!-- message-id: msg_0d23e67b673d26c9016acb140d082c87d09aff3e68cd4b26b9; phase: final_answer -->
+
+문법 관점에서도 검토했어. **방향은 좋고, 가장 큰 개선점은 해설을 늘리는 것보다 배운 구조를 뒤에서 다시 만나게 하는 데 있어.**
+
+앞선 7,573장 전수 검토를 바탕으로 전체 예문의 문형 분포를 확인하고, 기초 396장과 문법 관련 해설 1,148개를 추가로 읽었어.
+
+현재는 **0세트 개편과 Oxford 보강까지 반영됐고, 1~45세트의 문법 배치를 완성하는 작업은 남아 있어.** 아래 반복 부족은 그 미완료 부분에 해당해.
+
+**잘된 부분은 분명해.**
+
+- 0세트에서 대명사·be·목적격·관사·질문을 짧은 생활 문장으로 묶은 구성이 좋아.
+- `used to walk`와 `be used to getting up`처럼 **형태가 달라지면 뜻도 달라지는 대비**가 유용해.
+- 네가 강조했던 `bore someone → be bored`, `tire someone → be tired`도 어휘와 문법을 함께 익히는 좋은 방식이야.
+- 후반에는 좋은 복문도 있어.  
+  **The number of people who bike to work has grown significantly.**  
+  문장이 과하게 길지 않으면서 관계절과 긴 주어의 수일치를 함께 보여 줘.
+
+**우선 다듬을 해설은 5묶음·7카드야.** 예문이 틀렸다기보다, 짧게 설명하다가 규칙의 범위가 넓어진 경우들이야.
+
+| 현재 설명 | 개선 방향 |
+|---|---|
+| I 뒤 am, you 뒤에는 늘 are, he/she 뒤 일반동사에는 -s | **be의 현재형**, **현재형 긍정문**이라는 범위를 밝혀 주기 |
+| what 뒤에 do를 넣어 묻는다 | `What is your name?`, `What happened?`처럼 do가 없는 질문도 있으므로 해당 문형에 한정하기 |
+| where의 답은 in·at으로 한다 | `I live here.`도 가능하므로 답의 형태를 제한하지 않기 |
+| What a+명사! | a/an이 붙는 **셀 수 있는 단수 명사**라는 조건 밝히기 |
+| neither of+복수명사 | `neither answer / neither of the two answers`처럼 정확한 형태로 보여 주기 |
+
+이 정도만 손보면 충분해. 기초 카드에 온갖 예외를 덧붙일 필요는 없어. 질문 구조와 neither의 조건은 [Cambridge 질문 문법](https://dictionary.cambridge.org/grammar/british-grammar/wh), [neither 용법](https://dictionary.cambridge.org/grammar/british-grammar/neither-neither-nor-and-not-)과도 대조했어.
+
+**더 중요한 건 문형의 반복과 분포야.**
+
+| 문형 | 현재 확인한 상태 |
+|---|---|
+| 과거완료 계열 | 3장. 일반 과거완료·과거완료진행·가정법 조건절이 각각 한 장 |
+| 조동사＋have p.p. | 3장. would·should·could의 서로 다른 쓰임 |
+| whose 관계절 | 9장이 모두 20세트의 두 연속 연습에 집중 |
+| 전치사＋whom | 2장이 모두 28세트의 한 연습에 집중 |
+
+`whose` 9장을 한곳에서 만나는 건 처음 익히는 데 의미가 있어. **그 묶음을 없애기보다, 뒤쪽에서 다른 단어·상황과 함께 다시 등장시키는 게 좋겠어.** 또 과거완료가 세 번 나왔다고 해도 쓰임이 각각 다르면 같은 기능을 세 번 연습한 것은 아니야.
+
+문법 설명과 예문이 어긋나는 곳도 개선 여지가 있어. 예를 들어 **difficulty**는 현재 이렇게 되어 있어.
+
+- 예문: **He climbed the stairs with difficulty.**
+- 해설: **have difficulty ~ing: ~하는 데 애먹다.**
+
+둘 다 맞지만, 문법 학습까지 생각하면 다음처럼 맞추는 편이 더 효과적이겠어.
+
+> **He had difficulty climbing the stairs.**  
+> 그는 계단을 오르는 데 애를 먹었어.
+
+해설을 추가하지 않고도 예문과 설명이 같은 구조를 가르치게 되는 거지.
+
+내가 권하는 후속 작업은 다음 순서야.
+
+1. **위의 짧은 규칙 설명부터 정리하기.**
+2. 승인된 문법 지도에 각 구조의 **소개 연습과 이후 재등장 위치**를 연결하기.
+3. 현재완료·수동태·관계절·준동사·조건과 가정부터, 교체 가치가 낮은 기존 예문에 자연스럽게 배치하기.
+4. 좋은 관용 표현·지식 예문은 유지하고, 한 문장에서 새로 주목할 문법은 가급적 하나로 잡기.
+
+한 가지 구현상의 주의점도 있어. **연습 안에서는 첫 회독부터 카드가 섞이므로, 특정 첫 카드의 설명을 먼저 읽었다고 전제하면 안 돼.** 셔플은 유지하면서 각 카드가 독립적으로 이해되게 구성하면 돼.
+
+지금의 표제어 입력 방식도 유지하는 게 맞아. 문법 구조에 익숙해지는 역할은 충분히 맡길 수 있고, 활용형을 스스로 고르거나 오류를 판단하는 훈련은 이미 이야기한 별도 마더텅 문법 과정에서 다루면 돼.
+
+[상세 문법 리뷰](C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/grammar-review-20261011/REPORT.html)에 실제 카드와 수정안을 남겼어. **이번에는 리뷰와 기록만 했고, 앱 수정·배포는 하지 않았어.**
+
+---
+
+## 25. 사용자
+
+<!-- message-id: 01a12957-ed09-7f81-8030-e00af6df2e4e; phase: user -->
+
+보카고양 opus 5.5와 함께 작업을 좀 했어. 네가 한번 리뷰해줘
+이 말 이후부터 작업내용과 여기서의 대화내용을 깃헙통해서 opus가 볼 수 있게 해줘 대화는 그대로
+
+---
+

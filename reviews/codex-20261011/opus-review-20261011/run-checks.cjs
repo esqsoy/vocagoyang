@@ -1,0 +1,6 @@
+const fs=require('fs'),path=require('path'),cp=require('child_process');
+const root=path.join(__dirname,'repo');
+const tests=[...fs.readdirSync(path.join(root,'pipeline/tests')).filter(f=>f.endsWith('.test.cjs')).map(f=>'pipeline/tests/'+f),...fs.readdirSync(path.join(root,'pipeline/ipa-effects/tests')).filter(f=>f.endsWith('.test.cjs')).map(f=>'pipeline/ipa-effects/tests/'+f),'pipeline/test-answer-replay.cjs','pipeline/test-textbook-ui.cjs','pipeline/test-mother-tongue-layout.cjs','pipeline/test-mother-tongue-excerpts.cjs'];
+const rows=[];let next=0;
+async function worker(){while(next<tests.length){const file=tests[next++];await new Promise(resolve=>{const start=Date.now();cp.execFile(process.execPath,[file],{cwd:root,encoding:'utf8',timeout:90000,maxBuffer:3e6},(err,stdout,stderr)=>{const r={file,status:err?'FAIL':'PASS',exitCode:err?.code??0,ms:Date.now()-start,stdout,stderr};rows.push(r);console.log(r.status+' '+file);fs.writeFileSync(path.join(__dirname,'checks.json'),JSON.stringify(rows,null,2));resolve();});});}}
+Promise.all([worker(),worker(),worker()]).then(()=>console.log(JSON.stringify({total:rows.length,pass:rows.filter(r=>r.status==='PASS').length,fail:rows.filter(r=>r.status==='FAIL').map(r=>r.file)})));

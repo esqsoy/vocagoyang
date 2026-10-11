@@ -1,0 +1,3419 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "full_review_00_11",
+  "snapshot": "e9c178d",
+  "sourceRoot": "C:\\Users\\Young\\Documents\\Codex\\2026-09-18\\new-chat\\work\\opus-review-20261011\\repo",
+  "date": "2026-10-11",
+  "scope": "FABLE 세트 0~11 전 카드 내용 전수 리뷰. 수정·배포 없음.",
+  "reviewed": {
+    "sets": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "nRanges": [
+      [
+        1,
+        2155
+      ]
+    ],
+    "cardCount": 2155
+  },
+  "coverage": [
+    {
+      "set": 0,
+      "nStart": 1,
+      "nEnd": 234,
+      "count": 234,
+      "status": "all_directly_read",
+      "fields": [
+        "word",
+        "term",
+        "meaning",
+        "ex",
+        "tr",
+        "c",
+        "ipa",
+        "pos",
+        "meow"
+      ]
+    },
+    {
+      "set": 1,
+      "nStart": 235,
+      "nEnd": 466,
+      "count": 232,
+      "status": "all_directly_read",
+      "fields": [
+        "word",
+        "term",
+        "meaning",
+        "ex",
+        "tr",
+        "c",
+        "ipa",
+        "pos",
+        "meow"
+      ]
+    },
+    {
+      "set": 2,
+      "nStart": 467,
+      "nEnd": 640,
+      "count": 174,
+      "status": "all_directly_read",
+      "fields": [
+        "word",
+        "term",
+        "meaning",
+        "ex",
+        "tr",
+        "c",
+        "ipa",
+        "pos",
+        "meow"
+      ]
+    },
+    {
+      "set": 3,
+      "nStart": 641,
+      "nEnd": 806,
+      "count": 166,
+      "status": "all_directly_read",
+      "fields": [
+        "word",
+        "term",
+        "meaning",
+        "ex",
+        "tr",
+        "c",
+        "ipa",
+        "pos",
+        "meow"
+      ]
+    },
+    {
+      "set": 4,
+      "nStart": 807,
+      "nEnd": 1019,
+      "count": 213,
+      "status": "all_directly_read",
+      "fields": [
+        "word",
+        "term",
+        "meaning",
+        "ex",
+        "tr",
+        "c",
+        "ipa",
+        "pos",
+        "meow"
+      ]
+    },
+    {
+      "set": 5,
+      "nStart": 1020,
+      "nEnd": 1181,
+      "count": 162,
+      "status": "all_directly_read",
+      "fields": [
+        "word",
+        "term",
+        "meaning",
+        "ex",
+        "tr",
+        "c",
+        "ipa",
+        "pos",
+        "meow"
+      ]
+    },
+    {
+      "set": 6,
+      "nStart": 1182,
+      "nEnd": 1348,
+      "count": 167,
+      "status": "all_directly_read",
+      "fields": [
+        "word",
+        "term",
+        "meaning",
+        "ex",
+        "tr",
+        "c",
+        "ipa",
+        "pos",
+        "meow"
+      ]
+    },
+    {
+      "set": 7,
+      "nStart": 1349,
+      "nEnd": 1523,
+      "count": 175,
+      "status": "all_directly_read",
+      "fields": [
+        "word",
+        "term",
+        "meaning",
+        "ex",
+        "tr",
+        "c",
+        "ipa",
+        "pos",
+        "meow"
+      ]
+    },
+    {
+      "set": 8,
+      "nStart": 1524,
+      "nEnd": 1689,
+      "count": 166,
+      "status": "all_directly_read",
+      "fields": [
+        "word",
+        "term",
+        "meaning",
+        "ex",
+        "tr",
+        "c",
+        "ipa",
+        "pos",
+        "meow"
+      ]
+    },
+    {
+      "set": 9,
+      "nStart": 1690,
+      "nEnd": 1852,
+      "count": 163,
+      "status": "all_directly_read",
+      "fields": [
+        "word",
+        "term",
+        "meaning",
+        "ex",
+        "tr",
+        "c",
+        "ipa",
+        "pos",
+        "meow"
+      ]
+    },
+    {
+      "set": 10,
+      "nStart": 1853,
+      "nEnd": 1999,
+      "count": 147,
+      "status": "all_directly_read",
+      "fields": [
+        "word",
+        "term",
+        "meaning",
+        "ex",
+        "tr",
+        "c",
+        "ipa",
+        "pos",
+        "meow"
+      ]
+    },
+    {
+      "set": 11,
+      "nStart": 2000,
+      "nEnd": 2155,
+      "count": 156,
+      "status": "all_directly_read",
+      "fields": [
+        "word",
+        "term",
+        "meaning",
+        "ex",
+        "tr",
+        "c",
+        "ipa",
+        "pos",
+        "meow"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "n": 146,
+      "id": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"section\",1,\"\"]",
+      "set": 0,
+      "word": "section",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 146,
+        "id": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"section\",1,\"\"]",
+        "set": 0,
+        "word": "section",
+        "term": "section",
+        "si": 1,
+        "meaning": "① 부분, 구역",
+        "ex": "This {{BLANK}} of the book is easy.",
+        "tr": "이 책의 이 부분은 쉬워.",
+        "c": "신문의 스포츠 면도 section.",
+        "ipa": "ˈsɛkʃən",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "portion",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "This portion of the book is easy."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "This portion of the book is easy가 뜻과 7칸을 모두 충족. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 이 문장에서는 portion도 ‘부분’이라는 뜻으로 쓸 수 있어."
+    },
+    {
+      "n": 148,
+      "id": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"chart\",1,\"\"]",
+      "set": 0,
+      "word": "chart",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 148,
+        "id": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"chart\",1,\"\"]",
+        "set": 0,
+        "word": "chart",
+        "term": "chart",
+        "si": 1,
+        "meaning": "① 도표, 차트",
+        "ex": "The {{BLANK}} shows our test results.",
+        "tr": "그 차트는 우리 시험 결과를 보여 줘.",
+        "c": "정보를 표나 그림으로 정리한 것. bar chart는 막대그래프.",
+        "ipa": "tʃɑrt",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "table",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "The table shows our test results."
+          },
+          {
+            "answer": "graph",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "The graph shows our test results."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "표/그래프가 시험 결과를 보여 준다는 뜻으로 각 5자 자연스럽게 호환. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 시험 결과를 정리한 것은 모양에 따라 table(표)이나 graph(그래프)로도 말할 수 있어."
+    },
+    {
+      "n": 202,
+      "id": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"amazing\",1,\"\"]",
+      "set": 0,
+      "word": "amazing",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 202,
+        "id": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"amazing\",1,\"\"]",
+        "set": 0,
+        "word": "amazing",
+        "term": "amazing",
+        "si": 1,
+        "meaning": "① 놀라운, 굉장한",
+        "ex": "That movie was {{BLANK}}! I want to see it again.",
+        "tr": "그 영화 정말 놀라웠어! 또 보고 싶어.",
+        "c": "놀라움을 주는 쪽은 amazing, 놀라움을 느끼는 쪽은 amazed. 좋은 일에 자주 써.",
+        "ipa": "əˈmeɪzɪŋ",
+        "pos": "adj.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "awesome",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "That movie was awesome! I want to see it again."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "영화가 굉장하다는 칭찬에서 7자 awesome 자연스럽게 호환. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 영화가 굉장히 좋다는 칭찬에는 awesome도 쓸 수 있어."
+    },
+    {
+      "n": 203,
+      "id": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"fantastic\",1,\"\"]",
+      "set": 0,
+      "word": "fantastic",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 203,
+        "id": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"fantastic\",1,\"\"]",
+        "set": 0,
+        "word": "fantastic",
+        "term": "fantastic",
+        "si": 1,
+        "meaning": "① 환상적인, 아주 멋진",
+        "ex": "That was a {{BLANK}} game!",
+        "tr": "그거 진짜 환상적인 경기였어!",
+        "c": "fantasy(환상)의 형용사. 구어에서 '최고'.",
+        "ipa": "fænˈtæstɪk",
+        "pos": "adj.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "wonderful",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "That was a wonderful game!"
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "a wonderful game 9자 호환. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 이런 칭찬에는 wonderful도 쓸 수 있어."
+    },
+    {
+      "n": 204,
+      "id": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"wonderful\",1,\"\"]",
+      "set": 0,
+      "word": "wonderful",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 204,
+        "id": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"wonderful\",1,\"\"]",
+        "set": 0,
+        "word": "wonderful",
+        "term": "wonderful",
+        "si": 1,
+        "meaning": "① 아주 멋진, 훌륭한",
+        "ex": "We had a {{BLANK}} time.",
+        "tr": "우리 정말 멋진 시간 보냈어.",
+        "c": "wonder(경이)+ful. 감탄이 나오는.",
+        "ipa": "ˈwʌndɚfəl",
+        "pos": "adj.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "fantastic",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "We had a fantastic time."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "a fantastic time 9자 호환. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 즐거운 시간을 보냈다는 말에는 fantastic도 쓸 수 있어."
+    },
+    {
+      "n": 250,
+      "id": "[\"1세트\",\"Exercise 1 · 1~10\",\"good\",1,\"\"]",
+      "set": 1,
+      "word": "good",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 250,
+        "id": "[\"1세트\",\"Exercise 1 · 1~10\",\"good\",1,\"\"]",
+        "set": 1,
+        "word": "good",
+        "term": "good",
+        "si": 1,
+        "meaning": "① 좋은, 훌륭한",
+        "ex": "This is a really {{BLANK}} book; you should read it.",
+        "tr": "이거 정말 좋은 책이야, 너도 읽어 봐.",
+        "c": "품질이나 상태가 좋다는 뜻. be good at math = 수학을 잘하다.",
+        "ipa": "ɡʊd",
+        "pos": "adj.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "nice",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "This is a really nice book; you should read it."
+          },
+          {
+            "answer": "fine",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "This is a really fine book; you should read it."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "a really nice/fine book, 훌륭한 4자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 좋은 책이라는 칭찬에는 nice나 fine도 쓸 수 있어."
+    },
+    {
+      "n": 298,
+      "id": "[\"1세트\",\"Exercise 3 · 21~30\",\"take\",3,\"\"]",
+      "set": 1,
+      "word": "take",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 298,
+        "id": "[\"1세트\",\"Exercise 3 · 21~30\",\"take\",3,\"\"]",
+        "set": 1,
+        "word": "take",
+        "term": "take",
+        "si": 3,
+        "meaning": "③ (교통수단을) 타다",
+        "ex": "Let's {{BLANK}} the train, not a taxi.",
+        "tr": "택시 말고 기차로 가자.",
+        "c": "교통수단을 '택해 이용하다'가 take.",
+        "ipa": "teɪk",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "ride",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "Let's ride the train, not a taxi."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "Let's ride the train, not a taxi도 자연스럽게 타다 4자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 여기서는 ride the train도 ‘기차를 타다’라는 뜻이야."
+    },
+    {
+      "n": 468,
+      "id": "[\"2세트\",\"Exercise 1 · 101~110\",\"group\",1,\"\"]",
+      "set": 2,
+      "word": "group",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 468,
+        "id": "[\"2세트\",\"Exercise 1 · 101~110\",\"group\",1,\"\"]",
+        "set": 2,
+        "word": "group",
+        "term": "group",
+        "si": 1,
+        "meaning": "① 무리, 집단",
+        "ex": "A {{BLANK}} of students waited outside.",
+        "tr": "한 무리의 학생들이 밖에서 기다렸어.",
+        "c": "a group of+복수 명사: ~의 한 무리. a group of students는 학생 한 무리.",
+        "ipa": "ɡrup",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "bunch",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "A bunch of students waited outside."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "A bunch of students: 학생 한 무리, 5자. 구어이지만 문맥에 맞고 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 구어에서는 a bunch of students도 ‘학생 한 무리’야."
+    },
+    {
+      "n": 499,
+      "id": "[\"2세트\",\"Exercise 2 · 111~120\",\"point\",2,\"\"]",
+      "set": 2,
+      "word": "point",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 499,
+        "id": "[\"2세트\",\"Exercise 2 · 111~120\",\"point\",2,\"\"]",
+        "set": 2,
+        "word": "point",
+        "term": "point",
+        "si": 2,
+        "meaning": "② 점, 지점",
+        "ex": "At this {{BLANK}}, we cannot go back.",
+        "tr": "이 시점에선 되돌아갈 수 없어.",
+        "c": "point in time = 시점.",
+        "ipa": "pɔɪnt",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "stage",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "At this stage, we cannot go back."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "At this stage, we cannot go back: 이 단계/시점, 5자 호환. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 이 문장에서는 at this stage도 ‘이 시점·단계에서’라는 뜻이야."
+    },
+    {
+      "n": 514,
+      "id": "[\"2세트\",\"Exercise 3 · 121~130\",\"support\",1,\"\"]",
+      "set": 2,
+      "word": "support",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 514,
+        "id": "[\"2세트\",\"Exercise 3 · 121~130\",\"support\",1,\"\"]",
+        "set": 2,
+        "word": "support",
+        "term": "support",
+        "si": 1,
+        "meaning": "① 지지하다, 응원하다",
+        "ex": "Many people {{BLANK}} the new plan.",
+        "tr": "많은 사람이 그 새 계획을 지지해.",
+        "c": "support a plan은 계획을 지지하다, support a team은 팀을 응원하다.",
+        "ipa": "səˈpɔrt",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "endorse",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "Many people endorse the new plan."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "Many people endorse the new plan: 지지하다, 7자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 계획을 지지한다는 뜻에는 endorse도 쓸 수 있어."
+    },
+    {
+      "n": 581,
+      "id": "[\"2세트\",\"Exercise 6 · 151~160\",\"area\",1,\"\"]",
+      "set": 2,
+      "word": "area",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 581,
+        "id": "[\"2세트\",\"Exercise 6 · 151~160\",\"area\",1,\"\"]",
+        "set": 2,
+        "word": "area",
+        "term": "area",
+        "si": 1,
+        "meaning": "① 지역, 구역",
+        "ex": "This {{BLANK}} of the city is famous for its food.",
+        "tr": "도시의 이 지역은 음식으로 유명해.",
+        "c": "도시·나라 등의 한 지역이나 구역. a residential area는 주거 지역.",
+        "ipa": "ˈɛriə",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "part",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "This part of the city is famous for its food."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "This part of the city is famous for its food: 4자, 지역/부분. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 이 문장에서는 part of the city도 도시의 한 지역을 뜻해."
+    },
+    {
+      "n": 595,
+      "id": "[\"2세트\",\"Exercise 7 · 161~170\",\"kind\",1,\"\"]",
+      "set": 2,
+      "word": "kind",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 595,
+        "id": "[\"2세트\",\"Exercise 7 · 161~170\",\"kind\",1,\"\"]",
+        "set": 2,
+        "word": "kind",
+        "term": "kind",
+        "si": 1,
+        "meaning": "① 친절한 (↔ unkind/mean)",
+        "ex": "She is always {{BLANK}} to animals.",
+        "tr": "걔는 늘 동물에게 친절해.",
+        "c": "kind to: ~에게 친절한.",
+        "ipa": "kaɪnd",
+        "pos": "adj.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "nice",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "She is always nice to animals."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "She is always nice to animals: 친절한 4자 호환. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 동물에게 친절하다는 말에는 nice도 쓸 수 있어."
+    },
+    {
+      "n": 596,
+      "id": "[\"2세트\",\"Exercise 7 · 161~170\",\"kind\",2,\"\"]",
+      "set": 2,
+      "word": "kind",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 596,
+        "id": "[\"2세트\",\"Exercise 7 · 161~170\",\"kind\",2,\"\"]",
+        "set": 2,
+        "word": "kind",
+        "term": "kind",
+        "si": 2,
+        "meaning": "② 종류, 종(種)",
+        "ex": "What {{BLANK}} of music do you like?",
+        "tr": "넌 어떤 종류의 음악을 좋아해?",
+        "c": "구어 kind of(kinda)는 '좀, 약간'. a kind of 한 종류의. What kind of ~? 어떤 종류의 ~?",
+        "ipa": "kaɪnd",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "type",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "What type of music do you like?"
+          },
+          {
+            "answer": "sort",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "What sort of music do you like?"
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "What type/sort of music do you like: 종류 4자 호환. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 음악의 종류를 물을 때 type이나 sort도 쓸 수 있어."
+    },
+    {
+      "n": 612,
+      "id": "[\"2세트\",\"Exercise 8 · 171~180\",\"post\",3,\"\"]",
+      "set": 2,
+      "word": "post",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 612,
+        "id": "[\"2세트\",\"Exercise 8 · 171~180\",\"post\",3,\"\"]",
+        "set": 2,
+        "word": "post",
+        "term": "post",
+        "si": 3,
+        "meaning": "③ 직위, 자리",
+        "ex": "She was appointed to a senior {{BLANK}} in the company.",
+        "tr": "그녀는 회사의 고위직에 임명됐어.",
+        "c": "",
+        "ipa": "poʊst",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "role",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "She was appointed to a senior role in the company."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "appointed to a senior role in company: 고위직, 4자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 회사에서 맡는 직위·자리는 role로도 말할 수 있어."
+    },
+    {
+      "n": 618,
+      "id": "[\"2세트\",\"Exercise 9 · 181~190\",\"talk\",1,\"\"]",
+      "set": 2,
+      "word": "talk",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 618,
+        "id": "[\"2세트\",\"Exercise 9 · 181~190\",\"talk\",1,\"\"]",
+        "set": 2,
+        "word": "talk",
+        "term": "talk",
+        "si": 1,
+        "meaning": "① 이야기하다, 대화하다",
+        "ex": "Let's {{BLANK}} about it over coffee.",
+        "tr": "커피 마시며 그것에 대해 얘기하자.",
+        "c": "talk to/with someone은 ~와 이야기하다. talk about something은 ~에 관해 이야기하다.",
+        "ipa": "tɔk",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "chat",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "Let's chat about it over coffee."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "Let us chat about it over coffee: 이야기하다/대화하다, 4자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 편하게 이야기를 나눌 때는 chat도 쓸 수 있어."
+    },
+    {
+      "n": 679,
+      "id": "[\"3세트\",\"Exercise 3 · 221~230\",\"possible\",1,\"\"]",
+      "set": 3,
+      "word": "possible",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 679,
+        "id": "[\"3세트\",\"Exercise 3 · 221~230\",\"possible\",1,\"\"]",
+        "set": 3,
+        "word": "possible",
+        "term": "possible",
+        "si": 1,
+        "meaning": "① 가능한 (↔ impossible)",
+        "ex": "Is it {{BLANK}} to finish today?",
+        "tr": "오늘 끝내는 게 가능해?",
+        "c": "It is possible to do는 ‘~하는 것이 가능하다’. ‘나는 할 수 있다’는 I can do로 말한다.",
+        "ipa": "ˈpɑsəbəl",
+        "pos": "adj.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "feasible",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "Is it feasible to finish today?"
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "Is it feasible to finish today: 가능/실행가능 8자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 오늘 안에 끝내는 것이 실행 가능한지 물을 때 feasible도 쓸 수 있어."
+    },
+    {
+      "n": 734,
+      "id": "[\"3세트\",\"Exercise 6 · 251~260\",\"age\",2,\"\"]",
+      "set": 3,
+      "word": "age",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 734,
+        "id": "[\"3세트\",\"Exercise 6 · 251~260\",\"age\",2,\"\"]",
+        "set": 3,
+        "word": "age",
+        "term": "age",
+        "si": 2,
+        "meaning": "② 시대",
+        "ex": "In the digital {{BLANK}}, companies compete for our attention.",
+        "tr": "디지털 시대에는 기업들이 우리의 관심을 차지하려고 경쟁해.",
+        "c": "the Ice Age(빙하기).",
+        "ipa": "eɪdʒ",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "era",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "In the digital era, companies compete for our attention."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "In the digital era: 시대 3자 호환. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: digital era도 ‘디지털 시대’야."
+    },
+    {
+      "n": 758,
+      "id": "[\"3세트\",\"Exercise 7 · 261~270\",\"quite\",1,\"\"]",
+      "set": 3,
+      "word": "quite",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 758,
+        "id": "[\"3세트\",\"Exercise 7 · 261~270\",\"quite\",1,\"\"]",
+        "set": 3,
+        "word": "quite",
+        "term": "quite",
+        "si": 1,
+        "meaning": "① 꽤, 상당히; 완전히",
+        "ex": "I'm not {{BLANK}} ready yet.",
+        "tr": "아직 완전히 준비되진 않았어.",
+        "c": "문맥에 따라 정도가 달라진다. not quite = 완전히 ~하지는 않은. quiet(조용한)와 철자 주의.",
+        "ipa": "kwaɪt",
+        "pos": "adv.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "fully",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "I'm not fully ready yet."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "I am not fully ready yet: 완전히 5자 호환. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: not fully ready도 ‘완전히 준비되지는 않은’이라는 뜻이야."
+    },
+    {
+      "n": 779,
+      "id": "[\"3세트\",\"Exercise 9 · 281~290\",\"current\",1,\"\"]",
+      "set": 3,
+      "word": "current",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 779,
+        "id": "[\"3세트\",\"Exercise 9 · 281~290\",\"current\",1,\"\"]",
+        "set": 3,
+        "word": "current",
+        "term": "current",
+        "si": 1,
+        "meaning": "① 현재의, 지금의",
+        "ex": "What is the {{BLANK}} situation?",
+        "tr": "현재 상황이 어때?",
+        "c": "라틴어 currere(달리다)에서 온 말이라 '지금 흐르는' 것을 가리킨다. 부사는 currently(현재).",
+        "ipa": "ˈkɝənt",
+        "pos": "adj.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "present",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "What is the present situation?"
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "the present situation: 현재의 상황 7자 호환. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 현재 상황이라는 뜻에서는 present situation도 쓸 수 있어."
+    },
+    {
+      "n": 874,
+      "id": "[\"4세트\",\"Exercise 4 · 331~340\",\"position\",1,\"\"]",
+      "set": 4,
+      "word": "position",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 874,
+        "id": "[\"4세트\",\"Exercise 4 · 331~340\",\"position\",1,\"\"]",
+        "set": 4,
+        "word": "position",
+        "term": "position",
+        "si": 1,
+        "meaning": "① 위치, 자리",
+        "ex": "Move the chair to a better {{BLANK}}.",
+        "tr": "의자를 더 나은 위치로 옮겨.",
+        "c": "",
+        "ipa": "pəˈzɪʃən",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "location",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "Move the chair to a better location."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "Move the chair to a better location: 위치, 각 8자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 위치를 말할 때는 location도 쓸 수 있어."
+    },
+    {
+      "n": 925,
+      "id": "[\"4세트\",\"Exercise 7 · 361~370\",\"middle\",1,\"\"]",
+      "set": 4,
+      "word": "middle",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 925,
+        "id": "[\"4세트\",\"Exercise 7 · 361~370\",\"middle\",1,\"\"]",
+        "set": 4,
+        "word": "middle",
+        "term": "middle",
+        "si": 1,
+        "meaning": "① 중간, 가운데",
+        "ex": "He sat in the {{BLANK}} of the row.",
+        "tr": "걔는 줄 한가운데에 앉았어.",
+        "c": "in the middle of는 ‘~의 한가운데·도중에’. in the middle of a meeting은 회의 도중에.",
+        "ipa": "ˈmɪdəl",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "center",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "He sat in the center of the row."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "in the center of the row: 가운데, 6자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 여기서는 in the center of the row도 줄의 가운데라는 뜻이야."
+    },
+    {
+      "n": 938,
+      "id": "[\"4세트\",\"Exercise 8 · 371~380\",\"interest\",3,\"\"]",
+      "set": 4,
+      "word": "interest",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 938,
+        "id": "[\"4세트\",\"Exercise 8 · 371~380\",\"interest\",3,\"\"]",
+        "set": 4,
+        "word": "interest",
+        "term": "interest",
+        "si": 3,
+        "meaning": "③ 흥미를 일으키다",
+        "ex": "This topic really {{BLANK}}s me.",
+        "tr": "이 주제는 정말 내 흥미를 끌어.",
+        "c": "흥미를 일으키면 interesting, 흥미를 느끼면 interested.",
+        "ipa": "ˈɪntrəst",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "intrigue",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "This topic really intrigues me."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "This topic really intrigues me: 흥미를 일으키다, 8자+s. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 흥미와 호기심을 일으킨다는 뜻에는 intrigue도 쓸 수 있어."
+    },
+    {
+      "n": 959,
+      "id": "[\"4세트\",\"Exercise 9 · 381~390\",\"press\",2,\"\"]",
+      "set": 4,
+      "word": "press",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 959,
+        "id": "[\"4세트\",\"Exercise 9 · 381~390\",\"press\",2,\"\"]",
+        "set": 4,
+        "word": "press",
+        "term": "press",
+        "si": 2,
+        "meaning": "② 언론, 신문",
+        "ex": "The {{BLANK}} reported the news quickly.",
+        "tr": "언론이 그 소식을 빠르게 보도했어.",
+        "c": "freedom of the press = 언론의 자유.",
+        "ipa": "prɛs",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "media",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "The media reported the news quickly."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "The media reported the news quickly: 언론, 5자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 언론을 가리킬 때는 the media도 쓸 수 있어."
+    },
+    {
+      "n": 974,
+      "id": "[\"fable-pool-20260927-set4-ex10\",\"Exercise 10 · 391~400\",\"cool\",2,\"\"]",
+      "set": 4,
+      "word": "cool",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 974,
+        "id": "[\"fable-pool-20260927-set4-ex10\",\"Exercise 10 · 391~400\",\"cool\",2,\"\"]",
+        "set": 4,
+        "word": "cool",
+        "term": "cool",
+        "si": 2,
+        "meaning": "② 멋진, 근사한 (회화)",
+        "ex": "That's a really {{BLANK}} idea!",
+        "tr": "그거 정말 멋진 생각이야!",
+        "c": "",
+        "ipa": "kul",
+        "pos": "adj.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "nice",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "That's a really nice idea!"
+          },
+          {
+            "answer": "neat",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "That's a really neat idea!"
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "a really nice/neat idea: 멋진 근사한, 4자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 근사한 아이디어라는 칭찬에는 nice나 neat도 쓸 수 있어."
+    },
+    {
+      "n": 995,
+      "id": "[\"0세트\",\"Exercise 11 · 기초 핵심 보강 1\",\"achieve\",1,\"\"]",
+      "set": 4,
+      "word": "achieve",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 995,
+        "id": "[\"0세트\",\"Exercise 11 · 기초 핵심 보강 1\",\"achieve\",1,\"\"]",
+        "set": 4,
+        "word": "achieve",
+        "term": "achieve",
+        "si": 1,
+        "meaning": "① 이루다, 달성하다",
+        "ex": "We can {{BLANK}} this goal by working together.",
+        "tr": "함께 노력하면 이 목표를 이룰 수 있어.",
+        "c": "노력해 목표·성과를 얻다. achievement는 성취·업적.",
+        "ipa": "əˈtʃiv",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "realize",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "We can realize this goal by working together."
+          },
+          {
+            "answer": "fulfill",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "We can fulfill this goal by working together."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "realize/fulfill this goal: 이루다 달성하다, 7자. realize 카드1004는 역방향 안내 있음. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 목표를 이루다는 뜻에서는 realize나 fulfill도 쓸 수 있어."
+    },
+    {
+      "n": 996,
+      "id": "[\"0세트\",\"Exercise 11 · 기초 핵심 보강 1\",\"affect\",1,\"\"]",
+      "set": 4,
+      "word": "affect",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 996,
+        "id": "[\"0세트\",\"Exercise 11 · 기초 핵심 보강 1\",\"affect\",1,\"\"]",
+        "set": 4,
+        "word": "affect",
+        "term": "affect",
+        "si": 1,
+        "meaning": "① 영향을 미치다",
+        "ex": "Lack of sleep can {{BLANK}} your memory.",
+        "tr": "수면 부족은 기억력에 영향을 줄 수 있어.",
+        "c": "주로 동사 affect+대상. 명사 effect는 영향·결과: have an effect on.",
+        "ipa": "əˈfɛkt",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "impact",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "Lack of sleep can impact your memory."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "Lack of sleep can impact your memory: 영향을 미치다, 6자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 이 문장에서는 impact도 ‘영향을 미치다’라는 동사야."
+    },
+    {
+      "n": 1039,
+      "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"have\",4,\"\"]",
+      "set": 5,
+      "word": "have",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1039,
+        "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"have\",4,\"\"]",
+        "set": 5,
+        "word": "have",
+        "term": "have",
+        "si": 4,
+        "meaning": "④ ~해야 한다",
+        "ex": "I {{BLANK}} to get up early tomorrow.",
+        "tr": "나 내일 일찍 일어나야 돼.",
+        "c": "have to는 의무·필요. 과거는 had to, don't have to는 '안 해도 된다'로 금지가 아니다.",
+        "ipa": "hæv",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "need",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "I need to get up early tomorrow."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "I need to get up early tomorrow: 해야한다, 4자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 여기서는 need to도 일찍 일어날 필요가 있다는 뜻이야."
+    },
+    {
+      "n": 1146,
+      "id": "[\"5세트\",\"Exercise 8 · 471~480\",\"over\",3,\"\"]",
+      "set": 5,
+      "word": "over",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1146,
+        "id": "[\"5세트\",\"Exercise 8 · 471~480\",\"over\",3,\"\"]",
+        "set": 5,
+        "word": "over",
+        "term": "over",
+        "si": 3,
+        "meaning": "③ 끝난",
+        "ex": "The test is {{BLANK}}! Let's go home.",
+        "tr": "시험 끝났다! 집에 가자.",
+        "c": "be over = 끝나다. 게임의 Game over가 바로 이 over.",
+        "ipa": "ˈoʊvɚ",
+        "pos": "adv.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "done",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "The test is done! Let's go home."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "The test is done: 시험이 끝난, 4자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 시험이 끝났다는 뜻에는 done도 쓸 수 있어."
+    },
+    {
+      "n": 1176,
+      "id": "[\"5세트\",\"Exercise 10 · 491~500\",\"lose\",3,\"\"]",
+      "set": 5,
+      "word": "lose",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1176,
+        "id": "[\"5세트\",\"Exercise 10 · 491~500\",\"lose\",3,\"\"]",
+        "set": 5,
+        "word": "lose",
+        "term": "lose",
+        "si": 3,
+        "meaning": "③ (체중 등이) 줄다, 줄이다",
+        "ex": "I want to {{BLANK}} some weight.",
+        "tr": "나는 체중을 좀 줄이고 싶어.",
+        "c": "lose weight는 체중이 줄다. gain weight는 체중이 늘다.",
+        "ipa": "luz",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "shed",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "I want to shed some weight."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "I want to shed some weight: 체중을 줄이다, 4자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: shed weight도 체중을 줄이다라는 뜻이야."
+    },
+    {
+      "n": 1187,
+      "id": "[\"6세트\",\"Exercise 1 · 501~510\",\"kill\",2,\"\"]",
+      "set": 6,
+      "word": "kill",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1187,
+        "id": "[\"6세트\",\"Exercise 1 · 501~510\",\"kill\",2,\"\"]",
+        "set": 6,
+        "word": "kill",
+        "term": "kill",
+        "si": 2,
+        "meaning": "② (시간을) 때우다",
+        "ex": "We {{BLANK}}ed time at a cafe.",
+        "tr": "우린 카페에서 시간을 때웠어.",
+        "c": "kill time = 남는 시간을 '죽여서' 없애다, 즉 때우다.",
+        "ipa": "kɪl",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "pass",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "We passed time at a cafe."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "We passed time at a cafe: 시간을 때우다, 4자+ed. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 시간을 보내다는 뜻에는 pass time도 쓸 수 있어."
+    },
+    {
+      "n": 1215,
+      "id": "[\"6세트\",\"Exercise 3 · 521~530\",\"table\",2,\"\"]",
+      "set": 6,
+      "word": "table",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1215,
+        "id": "[\"6세트\",\"Exercise 3 · 521~530\",\"table\",2,\"\"]",
+        "set": 6,
+        "word": "table",
+        "term": "table",
+        "si": 2,
+        "meaning": "② 표, 도표",
+        "ex": "The {{BLANK}} has three columns and five rows.",
+        "tr": "그 표에는 열이 세 개, 행이 다섯 개 있어.",
+        "c": "행과 열로 정보를 정리한 표도 table.",
+        "ipa": "ˈteɪbəl",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "chart",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "The chart has three columns and five rows."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "행과 열로 구성한 정보표도 chart 5자. chart148과 연결. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: chart도 정보를 정리한 표를 뜻할 수 있어. 행과 열로 정리한 표의 가장 직접적인 말은 table이야."
+    },
+    {
+      "n": 1227,
+      "id": "[\"6세트\",\"Exercise 3 · 521~530\",\"effect\",1,\"\"]",
+      "set": 6,
+      "word": "effect",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1227,
+        "id": "[\"6세트\",\"Exercise 3 · 521~530\",\"effect\",1,\"\"]",
+        "set": 6,
+        "word": "effect",
+        "term": "effect",
+        "si": 1,
+        "meaning": "① 효과, 영향",
+        "ex": "The medicine had no {{BLANK}} on me.",
+        "tr": "그 약 나한텐 효과가 없었어.",
+        "c": "have an effect on은 ‘~에 영향을 미치다’. affect는 ‘영향을 주다’라는 동사. side effect는 부작용.",
+        "ipa": "ɪˈfɛkt",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "impact",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "The medicine had no impact on me."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "The medicine had no impact on me: 약의 효과영향, 6자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 약이 영향을 주지 않았다는 말에는 impact도 쓸 수 있어."
+    },
+    {
+      "n": 1238,
+      "id": "[\"6세트\",\"Exercise 4 · 531~540\",\"pass\",2,\"\"]",
+      "set": 6,
+      "word": "pass",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1238,
+        "id": "[\"6세트\",\"Exercise 4 · 531~540\",\"pass\",2,\"\"]",
+        "set": 6,
+        "word": "pass",
+        "term": "pass",
+        "si": 2,
+        "meaning": "② 건네주다",
+        "ex": "{{BLANK}} the ball to me!",
+        "tr": "공 나한테 패스해!",
+        "c": "Pass me the ~.",
+        "ipa": "pæs",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "hand",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "hand the ball to me!"
+          },
+          {
+            "answer": "give",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "give the ball to me!"
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "Hand/Give the ball to me: 건네주다, 4자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 공을 직접 건네는 상황이면 hand, 일반적으로 주는 뜻이면 give도 쓸 수 있어."
+    },
+    {
+      "n": 1281,
+      "id": "[\"6세트\",\"Exercise 7 · 561~570\",\"choose\",1,\"\"]",
+      "set": 6,
+      "word": "choose",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1281,
+        "id": "[\"6세트\",\"Exercise 7 · 561~570\",\"choose\",1,\"\"]",
+        "set": 6,
+        "word": "choose",
+        "term": "choose",
+        "si": 1,
+        "meaning": "① 선택하다, 고르다",
+        "ex": "It's hard to {{BLANK}} just one.",
+        "tr": "딱 하나만 선택하기 힘든데.",
+        "c": "choose–chose–chosen. 명사는 choice.",
+        "ipa": "tʃuz",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "select",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "It's hard to select just one."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "hard to select just one: 고르다, 6자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 여기서는 select도 ‘고르다’야."
+    },
+    {
+      "n": 1283,
+      "id": "[\"6세트\",\"Exercise 7 · 561~570\",\"practice\",2,\"\"]",
+      "set": 6,
+      "word": "practice",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1283,
+        "id": "[\"6세트\",\"Exercise 7 · 561~570\",\"practice\",2,\"\"]",
+        "set": 6,
+        "word": "practice",
+        "term": "practice",
+        "si": 2,
+        "meaning": "② 연습",
+        "ex": "We have soccer {{BLANK}} after school.",
+        "tr": "우리 방과 후에 축구 연습 있어.",
+        "c": "",
+        "ipa": "ˈpræktɪs",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "training",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "We have soccer training after school."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "soccer training after school: 축구 연습, 8자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: soccer training도 축구 연습·훈련이라는 뜻이야."
+    },
+    {
+      "n": 1318,
+      "id": "[\"6세트\",\"Exercise 9 · 581~590\",\"choice\",1,\"\"]",
+      "set": 6,
+      "word": "choice",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1318,
+        "id": "[\"6세트\",\"Exercise 9 · 581~590\",\"choice\",1,\"\"]",
+        "set": 6,
+        "word": "choice",
+        "term": "choice",
+        "si": 1,
+        "meaning": "① 선택",
+        "ex": "I had no {{BLANK}}. I had to go.",
+        "tr": "선택의 여지가 없었어. 가야만 했어.",
+        "c": "choose(고르다)의 명사. have no choice = 어쩔 수 없다.",
+        "ipa": "tʃɔɪs",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "option",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "I had no option. I had to go."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "I had no option. I had to go: 선택의여지, 6자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: I had no option도 선택의 여지가 없었다는 뜻이야."
+    },
+    {
+      "n": 1331,
+      "id": "[\"6세트\",\"Exercise 10 · 591~600\",\"step\",1,\"\"]",
+      "set": 6,
+      "word": "step",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1331,
+        "id": "[\"6세트\",\"Exercise 10 · 591~600\",\"step\",1,\"\"]",
+        "set": 6,
+        "word": "step",
+        "term": "step",
+        "si": 1,
+        "meaning": "① 걸음, 발걸음",
+        "ex": "Take one {{BLANK}} back, please.",
+        "tr": "한 걸음만 뒤로 물러나 주세요.",
+        "c": "",
+        "ipa": "stɛp",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "pace",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "Take one pace back, please."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "Take one pace back: 한 걸음, 4자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 한 걸음이라는 뜻에서는 pace도 쓸 수 있어."
+    },
+    {
+      "n": 1459,
+      "id": "[\"fable-pool-20260927-set7-ex7\",\"Exercise 7 · 661~670\",\"reduce\",1,\"\"]",
+      "set": 7,
+      "word": "reduce",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1459,
+        "id": "[\"fable-pool-20260927-set7-ex7\",\"Exercise 7 · 661~670\",\"reduce\",1,\"\"]",
+        "set": 7,
+        "word": "reduce",
+        "term": "reduce",
+        "si": 1,
+        "meaning": "① 줄이다",
+        "ex": "We must {{BLANK}} waste at home.",
+        "tr": "우리 집에서 쓰레기를 줄여야 해.",
+        "c": "reduce by=~만큼 줄이다. reduce to=~로 줄이다. 수량·정도·가격에 쓴다.",
+        "ipa": "rɪˈdus",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.un.org/pga/72/2017/09/18/water-cooperation-as-a-tool-for-conflict-prevention/",
+          "publisher": "United Nations General Assembly",
+          "supports": "lessen waste 결합의 실제 공식 영어 용례."
+        }
+      ],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "lessen",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "We must lessen waste at home."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "lessen waste는 쓰레기를 줄인다는 뜻의 자연스러운 결합이며, UN 공식 영어 자료에도 용례가 있다. 현재 뜻·예문에 들어가는 같은 6자 대체어인데 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 쓰레기를 줄인다는 말에는 lessen도 쓸 수 있어."
+    },
+    {
+      "n": 1501,
+      "id": "[\"7세트\",\"Exercise 10 · 691~700\",\"imagine\",1,\"\"]",
+      "set": 7,
+      "word": "imagine",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1501,
+        "id": "[\"7세트\",\"Exercise 10 · 691~700\",\"imagine\",1,\"\"]",
+        "set": 7,
+        "word": "imagine",
+        "term": "imagine",
+        "si": 1,
+        "meaning": "① 상상하다",
+        "ex": "{{BLANK}} a world without war.",
+        "tr": "전쟁 없는 세상을 상상해 봐.",
+        "c": "머릿속에 그려 보다. 뒤엔 -ing가 온다 — imagine living there(O), imagine to live(X).",
+        "ipa": "ɪˈmædʒɪn",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "picture",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "picture a world without war."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "Picture a world without war: 상상하다, 7자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 머릿속에 그려 본다는 뜻에는 picture도 쓸 수 있어."
+    },
+    {
+      "n": 1520,
+      "id": "[\"7세트\",\"Exercise 11 · 수업과 토론\",\"score\",1,\"\"]",
+      "set": 7,
+      "word": "score",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1520,
+        "id": "[\"7세트\",\"Exercise 11 · 수업과 토론\",\"score\",1,\"\"]",
+        "set": 7,
+        "word": "score",
+        "term": "score",
+        "si": 1,
+        "meaning": "① 점수",
+        "ex": "My test {{BLANK}} went up by 20 points!",
+        "tr": "시험 점수가 20점이나 올랐어!",
+        "c": "숫자로 매긴 점수. A·B 같은 성적 등급이나 학년은 grade.",
+        "ipa": "skɔr",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/essential-american-english/grade",
+          "publisher": "Cambridge Dictionary",
+          "supports": "grade가 작업·시험의 성취도를 나타내는 숫자 또는 문자라는 명사 뜻."
+        }
+      ],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "grade",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": true,
+            "sentence": "My test grade went up by 20 points!"
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "misleading_explanation",
+      "severity": "medium",
+      "status": "confirmed",
+      "reason": "grade는 문자 등급뿐 아니라 숫자로 매긴 성적도 뜻한다. 현재 설명은 숫자 score 대 문자 grade라는 배타적 구분으로 읽히고, 현재 예문에는 같은 5자인 grade도 자연스럽게 들어간다.",
+      "suggestion": "해설을 ‘시험에서 받은 점수. 시험 성적은 grade로도 말하며 숫자나 문자로 나타낼 수 있어. score는 경기 점수에도 써.’처럼 수정."
+    },
+    {
+      "n": 1543,
+      "id": "[\"8세트\",\"Exercise 2 · 711~720\",\"hurt\",1,\"\"]",
+      "set": 8,
+      "word": "hurt",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1543,
+        "id": "[\"8세트\",\"Exercise 2 · 711~720\",\"hurt\",1,\"\"]",
+        "set": 8,
+        "word": "hurt",
+        "term": "hurt",
+        "si": 1,
+        "meaning": "① 다치게 하다, 상처 주다",
+        "ex": "I didn't mean to {{BLANK}} you.",
+        "tr": "너 상처 주려던 건 아니었어.",
+        "c": "몸도 마음도 hurt. hurt-hurt-hurt 무변화 동사.",
+        "ipa": "hɝt",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "harm",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "I didn't mean to harm you."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "I did not mean to harm you: 상처주다해치다, 4자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 해치려던 것은 아니라는 말에는 harm도 쓸 수 있어."
+    },
+    {
+      "n": 1590,
+      "id": "[\"8세트\",\"Exercise 5 · 741~750\",\"various\",1,\"\"]",
+      "set": 8,
+      "word": "various",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1590,
+        "id": "[\"8세트\",\"Exercise 5 · 741~750\",\"various\",1,\"\"]",
+        "set": 8,
+        "word": "various",
+        "term": "various",
+        "si": 1,
+        "meaning": "① 다양한",
+        "ex": "This store sells {{BLANK}} kinds of bread.",
+        "tr": "이 가게는 다양한 종류의 빵을 팔아.",
+        "c": "vary(다르다)-various(다양한)-variety(다양성). 뒤엔 복수 명사.",
+        "ipa": "ˈvɛriəs",
+        "pos": "adj.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "diverse",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "This store sells diverse kinds of bread."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "diverse kinds of bread: 다양한, 7자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 여러 다양한 종류라는 뜻에서는 diverse도 쓸 수 있어."
+    },
+    {
+      "n": 1611,
+      "id": "[\"8세트\",\"Exercise 6 · 751~760\",\"seat\",1,\"\"]",
+      "set": 8,
+      "word": "seat",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1611,
+        "id": "[\"8세트\",\"Exercise 6 · 751~760\",\"seat\",1,\"\"]",
+        "set": 8,
+        "word": "seat",
+        "term": "seat",
+        "si": 1,
+        "meaning": "① 자리, 좌석",
+        "ex": "Is this {{BLANK}} taken?",
+        "tr": "이 자리 주인 있나요?",
+        "c": "Take a seat(앉으세요). 동사 sit(앉다)과 철자 구분.",
+        "ipa": "sit",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "spot",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "Is this spot taken?"
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "Is this spot taken?: 자리가 임자있는지, 4자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 자리의 임자를 물을 때 Is this spot taken?도 쓸 수 있어."
+    },
+    {
+      "n": 1624,
+      "id": "[\"fable-pool-20260927-set8-ex7\",\"Exercise 7 · 761~770\",\"bar\",2,\"\"]",
+      "set": 8,
+      "word": "bar",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1624,
+        "id": "[\"fable-pool-20260927-set8-ex7\",\"Exercise 7 · 761~770\",\"bar\",2,\"\"]",
+        "set": 8,
+        "word": "bar",
+        "term": "bar",
+        "si": 2,
+        "meaning": "② 술집, 바",
+        "ex": "They watched the game at a {{BLANK}}.",
+        "tr": "걔네는 바에서 경기를 봤어.",
+        "c": "",
+        "ipa": "bɑr",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "pub",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "They watched the game at a pub."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "watched the game at a pub: 술집 3자. 현재 c 공란. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: pub도 술집이라는 뜻이야. 특히 영국의 술집을 흔히 이렇게 불러."
+    },
+    {
+      "n": 1711,
+      "id": "[\"9세트\",\"Exercise 2 · 811~820\",\"freedom\",1,\"\"]",
+      "set": 9,
+      "word": "freedom",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1711,
+        "id": "[\"9세트\",\"Exercise 2 · 811~820\",\"freedom\",1,\"\"]",
+        "set": 9,
+        "word": "freedom",
+        "term": "freedom",
+        "si": 1,
+        "meaning": "① 자유",
+        "ex": "People fight for {{BLANK}}.",
+        "tr": "사람들은 자유를 위해 싸운다.",
+        "c": "free+dom(상태). kingdom(왕국)에도 같은 접미사 -dom이 쓰인다.",
+        "ipa": "ˈfridəm",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "liberty",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "People fight for liberty."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "People fight for liberty: 자유, 7자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 자유를 위해 싸운다는 말에는 liberty도 쓸 수 있어."
+    },
+    {
+      "n": 1773,
+      "id": "[\"9세트\",\"Exercise 7 · 861~870\",\"ship\",2,\"\"]",
+      "set": 9,
+      "word": "ship",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1773,
+        "id": "[\"9세트\",\"Exercise 7 · 861~870\",\"ship\",2,\"\"]",
+        "set": 9,
+        "word": "ship",
+        "term": "ship",
+        "si": 2,
+        "meaning": "② 배송하다, 운송하다",
+        "ex": "We {{BLANK}} books to many countries.",
+        "tr": "우리는 여러 나라에 책을 배송해.",
+        "c": "배뿐 아니라 다른 운송 수단으로 보내도 ship.",
+        "ipa": "ʃɪp",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "send",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "We send books to many countries."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "We send books to many countries: 운송하다 4자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 책을 보낸다는 말에는 send도 쓸 수 있어."
+    },
+    {
+      "n": 1784,
+      "id": "[\"9세트\",\"Exercise 7 · 861~870\",\"wind\",2,\"\"]",
+      "set": 9,
+      "word": "wind",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1784,
+        "id": "[\"9세트\",\"Exercise 7 · 861~870\",\"wind\",2,\"\"]",
+        "set": 9,
+        "word": "wind",
+        "term": "wind",
+        "si": 2,
+        "meaning": "② 감다",
+        "ex": "{{BLANK}} the string around the stick.",
+        "tr": "끈을 막대에 감아.",
+        "c": "발음 [와인드]. 시계 태엽, 붕대, 구불구불한 길(winding road).",
+        "ipa": "waɪnd",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "wrap",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "wrap the string around the stick."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "Wrap the string around the stick: 감다 4자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 막대 주위에 줄을 감는 것은 wrap으로도 말할 수 있어."
+    },
+    {
+      "n": 1864,
+      "id": "[\"10세트\",\"Exercise 1 · 901~910\",\"object\",3,\"\"]",
+      "set": 10,
+      "word": "object",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1864,
+        "id": "[\"10세트\",\"Exercise 1 · 901~910\",\"object\",3,\"\"]",
+        "set": 10,
+        "word": "object",
+        "term": "object",
+        "si": 3,
+        "meaning": "③ 목적, 목표",
+        "ex": "The {{BLANK}} is to collect all five cards.",
+        "tr": "목표는 카드 다섯 장을 모두 모으는 거야.",
+        "c": "the object of ~: ~의 목적. 물체와 같은 명사 발음.",
+        "ipa": "ˈɑbdʒɪkt",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "target",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "The target is to collect all five cards."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "The target is to collect all five cards: 목적·목표, 6자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 이루려는 목표라는 뜻에서는 target도 쓸 수 있어."
+    },
+    {
+      "n": 1919,
+      "id": "[\"10세트\",\"Exercise 6 · 951~960\",\"steal\",1,\"\"]",
+      "set": 10,
+      "word": "steal",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1919,
+        "id": "[\"10세트\",\"Exercise 6 · 951~960\",\"steal\",1,\"\"]",
+        "set": 10,
+        "word": "steal",
+        "term": "steal",
+        "si": 1,
+        "meaning": "① 훔치다",
+        "ex": "Someone tried to {{BLANK}} my bike.",
+        "tr": "누가 내 자전거를 훔치려고 했어.",
+        "c": "steal-stole-stolen. 물건은 steal, 사람·은행을 털면 rob.",
+        "ipa": "stil",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "swipe",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "Someone tried to swipe my bike."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "Someone tried to swipe my bike: 훔치다, 5자. swipe는 구어. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 구어에서는 swipe도 ‘훔치다’라는 뜻이야."
+    },
+    {
+      "n": 1963,
+      "id": "[\"10세트\",\"Exercise 9 · 981~990\",\"chief\",2,\"\"]",
+      "set": 10,
+      "word": "chief",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1963,
+        "id": "[\"10세트\",\"Exercise 9 · 981~990\",\"chief\",2,\"\"]",
+        "set": 10,
+        "word": "chief",
+        "term": "chief",
+        "si": 2,
+        "meaning": "② 주된, 가장 중요한",
+        "ex": "Cost is our {{BLANK}} concern.",
+        "tr": "비용이 우리의 주된 걱정이야.",
+        "c": "chief reason은 주된 이유. 이 뜻에서는 prime과 바꿔 쓸 수 있다. major·main보다 으뜸인 하나.",
+        "ipa": "tʃif",
+        "pos": "adj.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/chief_1",
+          "publisher": "Oxford University Press",
+          "supports": "chief most important, main·major·chief·prime의 동의어 비교 및 concern 결합; chief/prime의 격식성."
+        }
+      ],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "major",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": true,
+            "sentence": "Cost is our major concern."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "misleading_explanation",
+      "severity": "medium",
+      "status": "confirmed",
+      "reason": "main도 가장 중요한 것을 뜻하므로 chief가 main보다 으뜸이라는 서열은 부정확하다. Oxford는 main/major/chief/prime를 관련 동의어로 설명하고 concern과의 결합을 함께 제시한다. 현재 문장에도 major가 자연스럽다.",
+      "suggestion": "‘chief concern은 주된 관심사. main·major·prime concern도 비슷한 뜻이며, chief와 prime은 조금 더 격식 있어.’처럼 실제 용법 차이로 설명."
+    },
+    {
+      "n": 2153,
+      "id": "[\"11세트\",\"Exercise 11 · 공부와 발표\",\"revise\",1,\"\"]",
+      "set": 11,
+      "word": "revise",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 2153,
+        "id": "[\"11세트\",\"Exercise 11 · 공부와 발표\",\"revise\",1,\"\"]",
+        "set": 11,
+        "word": "revise",
+        "term": "revise",
+        "si": 1,
+        "meaning": "① (글을) 고치다, 수정하다",
+        "ex": "Good writers {{BLANK}} their work many times.",
+        "tr": "좋은 작가는 자기 글을 여러 번 고쳐 써.",
+        "c": "영국에서는 '복습하다'(미국 review)로도 쓴다. 더 낫게 고치다. 명사는 revision.",
+        "ipa": "rɪˈvaɪz",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "rework",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "Good writers rework their work many times."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "category": "same_length_alternative_not_explained",
+      "severity": "low",
+      "status": "confirmed",
+      "reason": "Good writers rework their work many times: 글을 고쳐 쓰다 6자. 현재 뜻·예문에 들어가는 같은 길이 대체어이며, 현행 해설에서 가능성을 안내하지 않고 ALT·acceptedAnswers에서도 허용하지 않는다.",
+      "suggestion": "표제어 중심 채점은 유지할 수 있다. 해설에 짧게 안내: 글을 다시 손보아 고친다는 말에는 rework도 쓸 수 있어."
+    }
+  ],
+  "optional": [
+    {
+      "n": 258,
+      "id": "[\"1세트\",\"Exercise 2 · 11~20\",\"make\",1,\"\"]",
+      "set": 1,
+      "word": "make",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 258,
+        "id": "[\"1세트\",\"Exercise 2 · 11~20\",\"make\",1,\"\"]",
+        "set": 1,
+        "word": "make",
+        "term": "make",
+        "si": 1,
+        "meaning": "① 만들다, 제작하다",
+        "ex": "My mother will {{BLANK}} a cake for my birthday.",
+        "tr": "엄마가 내 생일에 케이크를 만들어 주실 거야.",
+        "c": "make a cake처럼 재료를 써서 만들다. 불규칙 변화는 make–made–made.",
+        "ipa": "meɪk",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "medium",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "bake",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "My mother will bake a cake for my birthday."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "bake도 생일 케이크 문맥에 자연스럽지만 만들다보다 오븐에 굽다로 의미가 좁다. 대체어 나열 의무로 보지 않고 선택 안내로 둔다.",
+      "suggestion": "현재 내용을 유지해도 된다. 설명 확장 시에만 문맥상 가능성과 의미·문체 차이를 함께 짧게 안내한다.",
+      "severity": "optional",
+      "status": "optional"
+    },
+    {
+      "n": 338,
+      "id": "[\"1세트\",\"Exercise 5 · 41~50\",\"part\",2,\"\"]",
+      "set": 1,
+      "word": "part",
+      "fields": [
+        "meaning",
+        "ex",
+        "tr"
+      ],
+      "original": {
+        "n": 338,
+        "id": "[\"1세트\",\"Exercise 5 · 41~50\",\"part\",2,\"\"]",
+        "set": 1,
+        "word": "part",
+        "term": "part",
+        "si": 2,
+        "meaning": "② 역할, 몫",
+        "ex": "I want to take {{BLANK}} in the race.",
+        "tr": "나 그 경주에 참가하고 싶어.",
+        "c": "do one's part = 자기 역할을 하다. take part in = ~에 참가하다.",
+        "ipa": "pɑrt",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "medium",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "현재 뜻은 역할·몫인데 예문은 take part in(참가하다)라는 숙어를 보여 준다. 해설이 숙어 뜻을 정확히 안내하므로 오역으로 확정하지 않는다. 역할·몫을 직접 보여 주는 예문으로 바꾸면 뜻 연결이 더 명확하다.",
+      "suggestion": "예문을 Everyone must do their {{BLANK}} to help. / 모두 돕는 데 자기 몫을 해야 해.처럼 바꾸는 방안.",
+      "severity": "optional",
+      "status": "optional"
+    },
+    {
+      "n": 6,
+      "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"you\",1,\"\"]",
+      "set": 0,
+      "word": "you",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 6,
+        "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"you\",1,\"\"]",
+        "set": 0,
+        "word": "you",
+        "term": "you",
+        "si": 1,
+        "meaning": "① 너, 너희",
+        "ex": "{{BLANK}} are my best friend.",
+        "tr": "넌 내 제일 친한 친구야.",
+        "c": "you 뒤에는 늘 are. 한 명이든 여럿이든 You are ~.",
+        "ipa": "ju",
+        "pos": "pron.",
+        "acceptedAnswers": []
+      },
+      "confidence": "medium",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "현재형 be동사라는 범위를 명시하면 초급 학습자가 일반동사·과거형에도 늘 are라고 확대하지 않는다. 현재 예문 자체는 정확하다.",
+      "suggestion": "you를 주어로 쓰는 현재형 be동사는 한 명이든 여럿이든 are야.",
+      "severity": "optional",
+      "status": "optional"
+    },
+    {
+      "n": 560,
+      "id": "[\"2세트\",\"Exercise 5 · 141~150\",\"run\",1,\"\"]",
+      "set": 2,
+      "word": "run",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 560,
+        "id": "[\"2세트\",\"Exercise 5 · 141~150\",\"run\",1,\"\"]",
+        "set": 2,
+        "word": "run",
+        "term": "run",
+        "si": 1,
+        "meaning": "① 달리다",
+        "ex": "I {{BLANK}} in the park every morning.",
+        "tr": "난 매일 아침 공원에서 달려.",
+        "c": "불규칙 run-ran-run.",
+        "ipa": "rʌn",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "medium",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "jog",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "I jog in the park every morning."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "jog는 달리기의 한 종류여서 예문에는 들어가지만 run과 동일 범위는 아니다.",
+      "suggestion": "현재 내용을 유지해도 된다. 설명 확장 시에만 문맥상 가능성과 의미·문체 차이를 함께 짧게 안내한다.",
+      "severity": "optional",
+      "status": "optional"
+    },
+    {
+      "n": 794,
+      "id": "[\"3세트\",\"Exercise 10 · 291~300\",\"study\",1,\"\"]",
+      "set": 3,
+      "word": "study",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 794,
+        "id": "[\"3세트\",\"Exercise 10 · 291~300\",\"study\",1,\"\"]",
+        "set": 3,
+        "word": "study",
+        "term": "study",
+        "si": 1,
+        "meaning": "① 공부하다",
+        "ex": "I {{BLANK}} English every day.",
+        "tr": "난 매일 영어를 공부해.",
+        "c": "철자 y → i: study → studied",
+        "ipa": "ˈstʌdi",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "medium",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "learn",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "I learn English every day."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "learn은 지식 습득, study는 공부 행위에 초점이 있다. 현재 일상 예문에서는 둘 다 쓸 수 있으나 완전한 동의어로 가르칠 필요는 없다.",
+      "suggestion": "현재 내용을 유지해도 된다. 설명 확장 시에만 문맥상 가능성과 의미·문체 차이를 함께 짧게 안내한다.",
+      "severity": "optional",
+      "status": "optional"
+    },
+    {
+      "n": 895,
+      "id": "[\"4세트\",\"Exercise 6 · 351~360\",\"hold\",1,\"\"]",
+      "set": 4,
+      "word": "hold",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 895,
+        "id": "[\"4세트\",\"Exercise 6 · 351~360\",\"hold\",1,\"\"]",
+        "set": 4,
+        "word": "hold",
+        "term": "hold",
+        "si": 1,
+        "meaning": "① 잡다, 들다, 쥐다",
+        "ex": "Please {{BLANK}} my hand while crossing.",
+        "tr": "건널 때 내 손을 잡고 있어.",
+        "c": "불규칙 hold-held-held.",
+        "ipa": "hoʊld",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "medium",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "grip",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "Please grip my hand while crossing."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "grip은 단순히 손을 잡는 hold보다 힘주어 잡는 뜻이 강하다.",
+      "suggestion": "현재 내용을 유지해도 된다. 설명 확장 시에만 문맥상 가능성과 의미·문체 차이를 함께 짧게 안내한다.",
+      "severity": "optional",
+      "status": "optional"
+    },
+    {
+      "n": 906,
+      "id": "[\"4세트\",\"Exercise 6 · 351~360\",\"center\",1,\"\"]",
+      "set": 4,
+      "word": "center",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 906,
+        "id": "[\"4세트\",\"Exercise 6 · 351~360\",\"center\",1,\"\"]",
+        "set": 4,
+        "word": "center",
+        "term": "center",
+        "si": 1,
+        "meaning": "① 중심, 가운데 (↔ edge)",
+        "ex": "In 1543, Copernicus placed the Sun, not the Earth, at the {{BLANK}} of the universe.",
+        "tr": "1543년 코페르니쿠스는 지구가 아니라 태양을 우주의 중심에 두었어.",
+        "c": "centre는 영국식 철자. in the center of는 ‘~의 중앙에’.",
+        "ipa": "ˈsɛntɚ",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "medium",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "middle",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "In 1543, Copernicus placed the Sun, not the Earth, at the middle of the universe."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "middle도 공간 가운데를 뜻하지만 우주 모형을 설명하는 at the center of가 더 전형적이다. 과학사 예문을 대체어 때문에 고칠 근거는 약하다.",
+      "suggestion": "현재 내용을 유지해도 된다. 설명 확장 시에만 문맥상 가능성과 의미·문체 차이를 함께 짧게 안내한다.",
+      "severity": "optional",
+      "status": "optional"
+    },
+    {
+      "n": 1112,
+      "id": "[\"5세트\",\"Exercise 6 · 451~460\",\"then\",2,\"\"]",
+      "set": 5,
+      "word": "then",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1112,
+        "id": "[\"5세트\",\"Exercise 6 · 451~460\",\"then\",2,\"\"]",
+        "set": 5,
+        "word": "then",
+        "term": "then",
+        "si": 2,
+        "meaning": "② 그다음에",
+        "ex": "Brush your teeth first, {{BLANK}} sleep.",
+        "tr": "먼저 이 닦고, 그다음에 자.",
+        "c": "",
+        "ipa": "ðɛn",
+        "pos": "adv.",
+        "acceptedAnswers": []
+      },
+      "confidence": "medium",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "next",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "Brush your teeth first, next sleep."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "next도 순서를 나타내지만 Brush your teeth first, next sleep은 현재 then보다 연결이 덜 자연스럽다. 확정 누락으로 삼지 않는다.",
+      "suggestion": "현재 내용을 유지해도 된다. 설명 확장 시에만 문맥상 가능성과 의미·문체 차이를 함께 짧게 안내한다.",
+      "severity": "optional",
+      "status": "optional"
+    },
+    {
+      "n": 1129,
+      "id": "[\"fable-pool-20260927-set5-ex7\",\"Exercise 7 · 461~470\",\"only\",1,\"\"]",
+      "set": 5,
+      "word": "only",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1129,
+        "id": "[\"fable-pool-20260927-set5-ex7\",\"Exercise 7 · 461~470\",\"only\",1,\"\"]",
+        "set": 5,
+        "word": "only",
+        "term": "only",
+        "si": 1,
+        "meaning": "① 오직, ~만",
+        "ex": "{{BLANK}} you can help me now.",
+        "tr": "지금은 너만 날 도울 수 있어.",
+        "c": "",
+        "ipa": "ˈoʊnli",
+        "pos": "adv.",
+        "acceptedAnswers": []
+      },
+      "confidence": "medium",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "just",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "just you can help me now."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "just는 only 뜻을 갖지만 Just you can help me now는 Only you...에 비해 비전형적이다. 이 정확한 문장 위치에서 강한 누락으로 단정하지 않는다.",
+      "suggestion": "현재 내용을 유지해도 된다. 설명 확장 시에만 문맥상 가능성과 의미·문체 차이를 함께 짧게 안내한다.",
+      "severity": "optional",
+      "status": "optional"
+    },
+    {
+      "n": 1298,
+      "id": "[\"6세트\",\"Exercise 8 · 571~580\",\"piece\",1,\"\"]",
+      "set": 6,
+      "word": "piece",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1298,
+        "id": "[\"6세트\",\"Exercise 8 · 571~580\",\"piece\",1,\"\"]",
+        "set": 6,
+        "word": "piece",
+        "term": "piece",
+        "si": 1,
+        "meaning": "① 조각, 한 부분",
+        "ex": "The cup broke into {{BLANK}}s.",
+        "tr": "컵이 산산조각 났어.",
+        "c": "a piece of+셀 수 없는 것: 종이 한 장, 조언 한 마디.",
+        "ipa": "pis",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "medium",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "shard",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "The cup broke into shards."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "shard는 날카롭게 깨진 파편으로 piece보다 좁다. 컵 문맥에는 가능하지만 일반적인 조각 뜻과 동일하지 않다.",
+      "suggestion": "현재 내용을 유지해도 된다. 설명 확장 시에만 문맥상 가능성과 의미·문체 차이를 함께 짧게 안내한다.",
+      "severity": "optional",
+      "status": "optional"
+    },
+    {
+      "n": 1794,
+      "id": "[\"9세트\",\"Exercise 8 · 871~880\",\"fair\",1,\"\"]",
+      "set": 9,
+      "word": "fair",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1794,
+        "id": "[\"9세트\",\"Exercise 8 · 871~880\",\"fair\",1,\"\"]",
+        "set": 9,
+        "word": "fair",
+        "term": "fair",
+        "si": 1,
+        "meaning": "① 공정한, 공평한",
+        "ex": "That's not {{BLANK}}! He got more!",
+        "tr": "불공평해! 걔가 더 많이 받았잖아!",
+        "c": "fair play의 fair. 반대는 unfair(불공평한).",
+        "ipa": "fɛr",
+        "pos": "adj.",
+        "acceptedAnswers": []
+      },
+      "confidence": "medium",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "just",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "That's not just! He got more!"
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "just는 공정하다는 뜻이지만 He got more!라는 일상 불평에서는 fair가 훨씬 전형적이다. 같은 뜻의 문체 비교 정도로만 선택 검토한다.",
+      "suggestion": "현재 내용을 유지해도 된다. 설명 확장 시에만 문맥상 가능성과 의미·문체 차이를 함께 짧게 안내한다.",
+      "severity": "optional",
+      "status": "optional"
+    },
+    {
+      "n": 1815,
+      "id": "[\"9세트\",\"Exercise 10 · 891~900\",\"quick\",1,\"\"]",
+      "set": 9,
+      "word": "quick",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1815,
+        "id": "[\"9세트\",\"Exercise 10 · 891~900\",\"quick\",1,\"\"]",
+        "set": 9,
+        "word": "quick",
+        "term": "quick",
+        "si": 1,
+        "meaning": "① 빠른, 잽싼",
+        "ex": "Let's have a {{BLANK}} meal first.",
+        "tr": "우선 빨리 한 끼 먹자.",
+        "c": "fast는 속도가 빠른, quick은 동작·시간이 짧은. 답장은 quick.",
+        "ipa": "kwɪk",
+        "pos": "adj.",
+        "acceptedAnswers": []
+      },
+      "confidence": "medium",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "brief",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "Let's have a brief meal first."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "brief meal은 짧게 지속되는 식사라는 뜻으로 가능하지만 quick meal보다 비전형적이고 빠른·잽싼이라는 표제 뜻과도 직접 대응하지 않는다.",
+      "suggestion": "현재 내용을 유지해도 된다. 설명 확장 시에만 문맥상 가능성과 의미·문체 차이를 함께 짧게 안내한다.",
+      "severity": "optional",
+      "status": "optional"
+    },
+    {
+      "n": 1955,
+      "id": "[\"10세트\",\"Exercise 8 · 971~980\",\"crowd\",1,\"\"]",
+      "set": 10,
+      "word": "crowd",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1955,
+        "id": "[\"10세트\",\"Exercise 8 · 971~980\",\"crowd\",1,\"\"]",
+        "set": 10,
+        "word": "crowd",
+        "term": "crowd",
+        "si": 1,
+        "meaning": "① 군중, 인파",
+        "ex": "A big {{BLANK}} gathered in front of the stage.",
+        "tr": "무대 앞에 엄청난 인파가 모였어.",
+        "c": "형용사 crowded(붐비는): The bus was crowded.",
+        "ipa": "kraʊd",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "medium",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "group",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "A big group gathered in front of the stage."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "group은 집단 전체를 넓게 가리키고 crowd는 모여 있는 군중·인파를 가리킨다. 예문상 가능성을 곧바로 동일 의미로 보지 않는다.",
+      "suggestion": "현재 내용을 유지해도 된다. 설명 확장 시에만 문맥상 가능성과 의미·문체 차이를 함께 짧게 안내한다.",
+      "severity": "optional",
+      "status": "optional"
+    },
+    {
+      "n": 1986,
+      "id": "[\"10세트\",\"Exercise 11 · 목표와 상태\",\"target\",1,\"\"]",
+      "set": 10,
+      "word": "target",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 1986,
+        "id": "[\"10세트\",\"Exercise 11 · 목표와 상태\",\"target\",1,\"\"]",
+        "set": 10,
+        "word": "target",
+        "term": "target",
+        "si": 1,
+        "meaning": "① 목표, 표적",
+        "ex": "My {{BLANK}} this year is to read thirty books.",
+        "tr": "올해 내 목표는 책 서른 권 읽기야.",
+        "c": "set a target(목표를 정하다), hit a target(목표를 이루다). 동사로는 '겨냥하다'.",
+        "ipa": "ˈtɑrɡɪt",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "medium",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "object",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "My object this year is to read thirty books."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "object도 목적을 뜻하지만 개인의 올해 독서 목표에 My object this year...는 target보다 격식적이고 비전형적이다.",
+      "suggestion": "현재 내용을 유지해도 된다. 설명 확장 시에만 문맥상 가능성과 의미·문체 차이를 함께 짧게 안내한다.",
+      "severity": "optional",
+      "status": "optional"
+    },
+    {
+      "n": 2063,
+      "id": "[\"11세트\",\"Exercise 5 · 1041~1050\",\"strange\",1,\"\"]",
+      "set": 11,
+      "word": "strange",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 2063,
+        "id": "[\"11세트\",\"Exercise 5 · 1041~1050\",\"strange\",1,\"\"]",
+        "set": 11,
+        "word": "strange",
+        "term": "strange",
+        "si": 1,
+        "meaning": "① 이상한",
+        "ex": "I heard a {{BLANK}} sound from the kitchen.",
+        "tr": "부엌에서 이상한 소리가 들렸어.",
+        "c": "낯설어서 이상한. stranger=낯선 사람.",
+        "ipa": "streɪndʒ",
+        "pos": "adj.",
+        "acceptedAnswers": []
+      },
+      "confidence": "medium",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "bizarre",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "I heard a bizarre sound from the kitchen."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "bizarre는 strange보다 기괴함·특이함이 강하다. 소리 문맥에 가능하다는 이유만으로 반드시 안내할 동의어로 정하지 않는다.",
+      "suggestion": "현재 내용을 유지해도 된다. 설명 확장 시에만 문맥상 가능성과 의미·문체 차이를 함께 짧게 안내한다.",
+      "severity": "optional",
+      "status": "optional"
+    },
+    {
+      "n": 2118,
+      "id": "[\"11세트\",\"Exercise 9 · 1081~1090\",\"correct\",2,\"\"]",
+      "set": 11,
+      "word": "correct",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 2118,
+        "id": "[\"11세트\",\"Exercise 9 · 1081~1090\",\"correct\",2,\"\"]",
+        "set": 11,
+        "word": "correct",
+        "term": "correct",
+        "si": 2,
+        "meaning": "② 고치다, 바로잡다",
+        "ex": "Please {{BLANK}} the mistakes in this sentence.",
+        "tr": "이 문장의 틀린 부분을 고쳐 줘.",
+        "c": "잘못된 것을 옳게 바꾸는 뜻.",
+        "ipa": "kəˈrɛkt",
+        "pos": "v.",
+        "acceptedAnswers": []
+      },
+      "confidence": "medium",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "rectify",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "Please rectify the mistakes in this sentence."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "rectify mistakes는 실제 가능한 같은 길이 표현이나 correct보다 격식적이다. 고급 대체어까지 의무적으로 늘리지 않고 선택 개선으로 둔다.",
+      "suggestion": "현재 내용을 유지해도 된다. 설명 확장 시에만 문맥상 가능성과 의미·문체 차이를 함께 짧게 안내한다.",
+      "severity": "optional",
+      "status": "optional"
+    }
+  ],
+  "rejected": [
+    {
+      "n": 628,
+      "id": "[\"2세트\",\"Exercise 9 · 181~190\",\"level\",2,\"\"]",
+      "set": 2,
+      "word": "level",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 628,
+        "id": "[\"2세트\",\"Exercise 9 · 181~190\",\"level\",2,\"\"]",
+        "set": 2,
+        "word": "level",
+        "term": "level",
+        "si": 2,
+        "meaning": "② 평평한, 수평인",
+        "ex": "Put the box on {{BLANK}} ground.",
+        "tr": "상자를 평평한 땅에 놓아.",
+        "c": "높낮이 없이 고른 상태. level with는 ~와 같은 높이인.",
+        "ipa": "ˈlɛvəl",
+        "pos": "adj.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "even",
+            "sameLength": false,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "Put the box on even ground."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "level은 5자, even은 4자로 같은 칸 수 후보가 아니다.",
+      "severity": "none",
+      "status": "rejected"
+    },
+    {
+      "n": 968,
+      "id": "[\"fable-pool-20260927-set4-ex10\",\"Exercise 10 · 391~400\",\"ground\",2,\"\"]",
+      "set": 4,
+      "word": "ground",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 968,
+        "id": "[\"fable-pool-20260927-set4-ex10\",\"Exercise 10 · 391~400\",\"ground\",2,\"\"]",
+        "set": 4,
+        "word": "ground",
+        "term": "ground",
+        "si": 2,
+        "meaning": "② 근거, 이유",
+        "ex": "On what {{BLANK}}s do you say that?",
+        "tr": "무슨 근거로 그렇게 말해?",
+        "c": "",
+        "ipa": "ɡraʊnd",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "reason",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "On what reasons do you say that?"
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "On what reasons do you say that?는 현재 on what grounds의 자연스러운 대체 구문이 아니다. reason은 전치사 구조가 달라야 하므로 기각한다.",
+      "severity": "none",
+      "status": "rejected"
+    },
+    {
+      "n": 997,
+      "id": "[\"0세트\",\"Exercise 12 · 기초 핵심 보강 2\",\"benefit\",1,\"\"]",
+      "set": 4,
+      "word": "benefit",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 997,
+        "id": "[\"0세트\",\"Exercise 12 · 기초 핵심 보강 2\",\"benefit\",1,\"\"]",
+        "set": 4,
+        "word": "benefit",
+        "term": "benefit",
+        "si": 1,
+        "meaning": "① 이점, 혜택",
+        "ex": "One {{BLANK}} of walking is better health.",
+        "tr": "걷기의 한 가지 이점은 건강이 좋아지는 거야.",
+        "c": "좋은 결과나 도움이 되는 점. beneficial은 이로운.",
+        "ipa": "ˈbɛnəfɪt",
+        "pos": "n.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "upside",
+            "sameLength": false,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "One upside of walking is better health."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "benefit은 7자, upside는 6자로 같은 칸 수 후보가 아니다.",
+      "severity": "none",
+      "status": "rejected"
+    },
+    {
+      "n": 2002,
+      "id": "[\"11세트\",\"Exercise 1 · 1001~1010\",\"below\",1,\"\"]",
+      "set": 11,
+      "word": "below",
+      "fields": [
+        "c"
+      ],
+      "original": {
+        "n": 2002,
+        "id": "[\"11세트\",\"Exercise 1 · 1001~1010\",\"below\",1,\"\"]",
+        "set": 11,
+        "word": "below",
+        "term": "below",
+        "si": 1,
+        "meaning": "① ~보다 아래에",
+        "ex": "It was five degrees {{BLANK}} zero.",
+        "tr": "영하 5도였어.",
+        "c": "above(위)↔below(아래). below zero=영하. 떨어져 있어도 아래쪽이면 below.",
+        "ipa": "bɪˈloʊ",
+        "pos": "prep.",
+        "acceptedAnswers": []
+      },
+      "confidence": "high",
+      "sources": [],
+      "validation": {
+        "currentMeaningAndSentenceRead": true,
+        "alternatives": [
+          {
+            "answer": "under",
+            "sameLength": true,
+            "accepted": false,
+            "mentionedInC": false,
+            "sentence": "It was five degrees under zero."
+          }
+        ],
+        "grading": "snapshot의 normalize, isCorrect, isAliasHit를 VM에서 그대로 실행해 ALT 및 acceptedAnswers를 대조함. isCorrect || isAliasHit 결과를 accepted로 기록."
+      },
+      "reason": "영하를 나타내는 현재 five degrees below zero에 under를 넣는 것은 전형적 결합이 아니다. 외부 확증 없이 안내 누락으로 확정할 수 없어 기각한다.",
+      "severity": "none",
+      "status": "rejected"
+    }
+  ],
+  "unresolved": [],
+  "counts": {
+    "confirmed": 51,
+    "confirmedContentErrors": 2,
+    "confirmedAlternativeGuidance": 49,
+    "optional": 16,
+    "rejected": 4,
+    "unresolved": 0
+  },
+  "actualValidation": {
+    "directReading": "set00.txt~set11.txt의 모든 카드 본문을 순서대로 25~50장 정도의 작은 묶음으로 직접 읽었다. 정규식 검색이나 일부 표본으로 전수 독해를 대체하지 않았다.",
+    "coverageCheck": "n1~2155가 연속이며 12개 세트 카드 수 합계가 2155임을 자동 검산.",
+    "candidateCheck": "검토 후보의 현재 전체 객체를 재독하고 동일 칸 길이 및 실제 ALT/acceptedAnswers 함수를 대조. 제안 문장을 빈칸에 넣어 뜻·문법·문맥 적합성을 직접 판단.",
+    "externalCheck": "문제가 의심되는 score/grade, chief/main/major 설명은 사전 발행자의 Cambridge·Oxford 자료로 검증. lessen waste 결합은 UN의 공식 영어 자료로 확인. 모든 보통 예문을 외부 검색한 것은 아니다.",
+    "ipaAndEtymology": "전 카드 IPA/POS와 어원·발음 설명을 눈으로 확인했으나 모든 IPA를 외부 사전·음성과 일대일 대조하지 않았다. 발견한 확정 IPA 오류는 없으며 외부 검증 전수 완료를 뜻하지 않는다.",
+    "preservation": "단순하고 자연스러운 예문과 현재 승인된 지식·스타일은 취향만으로 변경 대상으로 삼지 않았다. 대체어의 가능성 안내와 자동 정답 허용은 구분했다.",
+    "sourceMutation": "없음. 리뷰 폴더 안 검토 자료만 작성."
+  }
+}

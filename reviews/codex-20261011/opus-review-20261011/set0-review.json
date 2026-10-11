@@ -1,0 +1,41 @@
+{
+  "reviewedHead": "e9c178d",
+  "baseline": "59aaf81",
+  "scope": "set0 reconfiguration, pruning, saved IDs, completion migration, resume migration, new set0 grammar content",
+  "findings": [
+    {
+      "priority": "P2",
+      "title": "Older layout saves fail to resume merged exercises after pruning",
+      "file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/opus-review-20261011/repo/vocagoyangfable.html",
+      "line": 2532,
+      "endLine": 2532,
+      "cause": "The fallback to deletionResumeTitles is gated on layout=placement-v1. When pruning merges two exercises, the original 28 set exercise 9-1/9-2 and 42 set exercise 1-1/1-2 titles disappear. Older heads-v3, heads-v3-editorial-20260925 and topics-v4 saves then match neither the old-layout metadata nor current titles, leaving start=0.",
+      "reproduction": "Write {lid:'28세트',title:'Exercise 9-1 · 2764~2773',layout:'topics-v4'} to goyang-hoe-last-v1 and use empty progress. resumeTarget returns 0세트 Exercise 1 · 인사와 나·너 instead of 28세트 Exercise 9 · 2764~2773. The same happens for 28 set Exercise 9-2 and 42 set Exercise 1-1/1-2, with all three older layouts.",
+      "evidence": "Obtained the actual saveLast() JSON from historic runtimes 71c3502 (heads-v3), 4b6807f (heads-v3-editorial-20260925), 7f38a09 and cadd4fb (topics-v4), then passed those JSON strings to the current runtime. All 16 tested real saves resumed at set 0. A wider candidate comparison found exactly 12 affected combinations across the three layouts and four titles.",
+      "impact": "Users returning after not opening the latest placement-v1 build lose their last-exercise route and resume from the first unfinished exercise, often the beginning of the course. Saved cards and completed-exercise records themselves are preserved.",
+      "recommendation": "After older-layout-specific mapping has failed, allow pre-pruning saves from these older layouts to use deletionResumeTitles too, while preserving newer prune-marked saves and earlier mapping precedence. Add real historical save fixtures to prune.test.cjs.",
+      "testGap": "pipeline/tests/prune.test.cjs:73 tests only layout=placement-v1. set0.test.cjs tests legacy layouts only for sets 0, 1 and 5; it also runs the prior DATA under current code. Existing tests therefore do not cover this 28/42 merged-title regression."
+    }
+  ],
+  "validation": {
+    "existingTests": {
+      "set0.test.cjs": "PASS: 234 cards, 23 exercises, 39 moves, 68 edits, 3 new cards; 7570 saved IDs preserved; 40 completion checks; 74 partial-completion cases; 37 older-layout carry cases; 702 old resumes, 429 remapped; 675 new saves",
+      "prune.test.cjs": "PASS: 78 cards/71 headwords removed, 58 affected exercises, 60 partial completion cases, 628 placement-v1 resumes, IDs preserved",
+      "placement-regrouping.test.cjs": "PASS: 7067 card fixture, 623 exercises, 43 regrouped, 454 coverage cards, 74 incomplete cases, 3250 historical resumes, 623 current resumes",
+      "lesson-placement.test.cjs": "PASS: 77 moved cards, 35 moved headwords, 620 exercises, 649 historical resumes, 620 new resumes"
+    },
+    "independentChecks": {
+      "actual59aaf81": "7067 actual historical IDs; no unexplained missing IDs; all 623 latest-layout resumes preserved; 2705 historical completion records individually tested with no mismatch",
+      "actual56005cc": "7140 historical IDs; no unexplained missing IDs; all 628 latest-layout resumes preserved; 2730 historical completion records individually tested with no mismatch",
+      "actualdf95ea4": "7570 historical IDs; no unexplained missing IDs; all 671 latest-layout resumes preserved; 2963 historical completion records individually tested with no mismatch",
+      "perCardCoverage": "All 7573 current cards compared against the 59aaf81 historic completion-key universe; exact correspondence for every surviving card; no old completion inherited by new cards",
+      "oldLayouts": "10638 candidate saves generated from actual baseline metadata; 6033 resolved at baseline; 12 now fail, documented above",
+      "content": "Read all 234 set0 draft examples/translations/explanations, specifically examined 68 edited and 3 new cards. No definite new factual error raised; a few compressed grammar rules are broad but not reported as regressions."
+    }
+  },
+  "filesRead": [
+    "AGENTS.md", "PRINCIPLES.md", "HANDOFF.md", "UI_STANDARD.md", "WORK_PLAN.md", "WORK_LOG.md (relevant sections)", "pipeline/README.md (set0/prune)", "pipeline/assemble.py diff", "pipeline/set0-20261010/build-plan.cjs", "pipeline/set0-20261010/carry.cjs", "pipeline/set0-20261010/plan.json", "pipeline/grammar/README.md", "pipeline/grammar/set0-draft-20261010.json", "pipeline/prune-20261010.json", "pipeline/tests/set0.test.cjs", "pipeline/tests/prune.test.cjs", "vocagoyangfable.html buildLessons/splitExercises/getRec/recordKey/saveLast/resumeTarget"
+  ],
+  "artifacts": ["set0-actual-history.json", "set0-historic-resumes.json", "set0-card-coverage.json", "set0-repro-old-save.cjs"],
+  "changes": "No app or pipeline source modifications and no builds/deployment. Only independent review scripts and result files were written beside the snapshot."
+}

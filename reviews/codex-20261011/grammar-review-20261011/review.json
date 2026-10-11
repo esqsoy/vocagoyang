@@ -1,0 +1,1264 @@
+{
+  "date": "2026-10-11",
+  "snapshot": "e9c178d",
+  "title": "FABLE 7,573카드 문법 학습 관점 후속 리뷰",
+  "status": "리뷰만 완료. 앱·저작 원본·커밋·푸시·배포 변경 없음.",
+  "conclusion": "0세트 기초 문형과 여러 어휘-문법 대비는 잘 설계되어 있다. 앞으로의 핵심은 해설을 늘리는 것이 아니라 일부 공식의 범위를 다듬고, 이미 승인된 1~45세트 문법 지도의 후속 노출을 완성하는 일이다.",
+  "scope": {
+    "currentCards": 7573,
+    "displaySets": 51,
+    "foundationReread": 396,
+    "laterCommentReread": 1148,
+    "laterFullCardComparison": 257,
+    "grammarDistribution": "7,573장 전체 후보 검색 + 후보 문장 직접 판독. 기존 spaCy 전체 분석기를 재실행한 집계는 아니다.",
+    "priorWork": "직전 7,573장 전수 내용 읽기를 바탕으로 문법 기초·규칙 해설·희소 문형을 추가 검토했다. 이번 단계에서 모든 카드를 두 번째로 전량 재독했다는 뜻은 아니다.",
+    "limits": "학생의 이해도·장기 기억·어법 판단 능력은 실험하지 않았다. 어휘 정답률을 문법 숙달도와 동일하게 해석하지 않는다."
+  },
+  "implementationState": {
+    "approved": "최신 HANDOFF는 문법 지도 143항목 승인 및 단어 순서 유지 방침을 명시한다. syllabus-draft 파일의 status 검토 대기 문구는 최신 HANDOFF보다 오래된 상태다.",
+    "completed": [
+      "0세트 23연습 234장 재구성과 68장 내용 수정",
+      "Oxford 443개 표제어 508장 추가(6~44세트의 새 저작 연습 36개); 일부 문법 역할은 그 연습 절반 이상에 반영"
+    ],
+    "pending": [
+      "5세트 문법 뜻 분산 및 기능어 정리",
+      "1~4세트 단어 순서를 유지한 문법 예문 작업",
+      "6~45세트 전체의 조명 문법·이후 재등장 설계 및 Oxford 예문 재검토"
+    ],
+    "source": [
+      {
+        "file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/opus-review-20261011/repo/HANDOFF.md",
+        "lines": [
+          7,
+          16
+        ],
+        "meaning": "현재 상태·승인·다음 작업"
+      },
+      {
+        "file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/opus-review-20261011/repo/WORK_PLAN.md",
+        "lines": [
+          17,
+          25
+        ],
+        "meaning": "완료된 0세트/Oxford와 남은 세트별 작업 분리"
+      },
+      {
+        "file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/opus-review-20261011/repo/PRINCIPLES.md",
+        "lines": [
+          336,
+          366
+        ],
+        "meaning": "문법 목표·다양한 단어로 반복·수능 어법 판단 별도 교재 결정"
+      }
+    ],
+    "scope_boundary": "FABLE 입력 방식이나 어법 고치기 게임의 추가를 제안하지 않는다. 수능 어법 판단 훈련은 합의대로 별도 마더텅 문법 기출 교재에서 한다."
+  },
+  "strengths": [
+    {
+      "text": "0세트의 대명사·be·목적격·관사·질문을 생활 문장으로 묶은 구성이 좋다.",
+      "ns": [
+        5,
+        14,
+        15,
+        20,
+        36,
+        37
+      ]
+    },
+    {
+      "text": "because of+명사, discuss의 직접 목적어, must not/don't have to처럼 오류가 나는 지점을 짧게 짚는다.",
+      "ns": [
+        45,
+        223
+      ]
+    },
+    {
+      "text": "used to / be used to, tire/bore의 원인과 경험자, 제안·요구의 that절 원형 등은 보존할 좋은 카드다.",
+      "ns": [
+        3945,
+        3946,
+        2950,
+        5912,
+        4699
+      ]
+    },
+    {
+      "text": "후반의 The number of people who bike to work has grown significantly.는 긴 주어·관계절·수일치를 자연스럽게 결합한 좋은 모델이다.",
+      "ns": [
+        4996
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "id": "G1",
+      "title": "현재형 규칙의 범위를 밝히기",
+      "ns": [
+        5,
+        6,
+        10
+      ],
+      "reason": "you 뒤에는 늘 are, she/he 뒤 일반동사에는 -s라는 문구는 현재형의 해당 구조에 한정해야 한다. 현재 예문 자체는 맞다.",
+      "proposals": [
+        {
+          "n": 5,
+          "c": "현재형 be는 I am, he·she·it is처럼 써. I는 늘 대문자야."
+        },
+        {
+          "n": 6,
+          "c": "현재형 be는 한 명이든 여럿이든 You are ~."
+        },
+        {
+          "n": 10,
+          "c": "현재형 긍정문에서는 she·he 뒤 일반동사에 -s: she works(O), she work(X)."
+        }
+      ],
+      "sources": [
+        "https://learnenglishteens.britishcouncil.org/grammar/a1-a2-grammar/be-present-past",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple"
+      ],
+      "category": "해설 적용 범위의 최소 보완",
+      "evidence": [
+        {
+          "n": 5,
+          "id": "[\"0세트\",\"Exercise 5 · 사람\",\"I\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 1 · 인사와 나·너",
+          "term": "I",
+          "meaning": "① 나는, 내가",
+          "ex": "{{BLANK}} am fifteen, and my brother is twelve.",
+          "tr": "나는 열다섯 살이고, 남동생은 열두 살이야.",
+          "c": "I 뒤에는 am, 한 사람이나 한 개 뒤에는 is. I는 늘 대문자로 써."
+        },
+        {
+          "n": 6,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"you\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 1 · 인사와 나·너",
+          "term": "you",
+          "meaning": "① 너, 너희",
+          "ex": "{{BLANK}} are my best friend.",
+          "tr": "넌 내 제일 친한 친구야.",
+          "c": "you 뒤에는 늘 are. 한 명이든 여럿이든 You are ~."
+        },
+        {
+          "n": 10,
+          "id": "[\"5세트\",\"Exercise 3 · 421~430\",\"she\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 2 · 그·우리·그들과 대답",
+          "term": "she",
+          "meaning": "① 그녀가, 그 여자가",
+          "ex": "My mom is a doctor. {{BLANK}} works at a big hospital.",
+          "tr": "우리 엄마는 의사야. 큰 병원에서 일하셔.",
+          "c": "she·he 뒤 일반동사엔 -s를 붙여: she works(O), she work(X)."
+        }
+      ],
+      "applied": false
+    },
+    {
+      "id": "G2",
+      "title": "what 뒤에 do가 항상 필요한 것처럼 가르치지 않기",
+      "ns": [
+        41
+      ],
+      "reason": "같은 0세트에도 What is your name?이 있다. what이 주어인 질문에서도 보통 do를 쓰지 않는다.",
+      "proposals": [
+        {
+          "n": 41,
+          "c": "What do you want?는 무엇을 원하는지 묻는 말. What is your name?처럼 do가 없는 질문도 있어."
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/wh",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple"
+      ],
+      "category": "해설 적용 범위의 최소 보완",
+      "evidence": [
+        {
+          "n": 41,
+          "id": "[\"5세트\",\"Exercise 3 · 421~430\",\"what\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 5 · 잇는 말과 묻는 말",
+          "term": "what",
+          "meaning": "① 무엇, 무슨",
+          "ex": "{{BLANK}} do you want for lunch?",
+          "tr": "점심으로 뭐 먹고 싶어?",
+          "c": "what 뒤에 do를 넣어 물어: What do you want? 답은 내용으로 해."
+        }
+      ],
+      "applied": false
+    },
+    {
+      "id": "G3",
+      "title": "where의 답을 in·at으로 한정하지 않기",
+      "ns": [
+        43
+      ],
+      "reason": "장소 질문에는 here, downstairs, on the table 등으로도 답한다. in Seoul 예문은 맞다.",
+      "proposals": [
+        {
+          "n": 43,
+          "c": "where는 장소를 물어. I live in Seoul. / I live here.처럼 답해."
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/wh",
+        "https://learnenglishteens.britishcouncil.org/grammar/a1-a2-grammar/be-present-past"
+      ],
+      "category": "해설 적용 범위의 최소 보완",
+      "evidence": [
+        {
+          "n": 43,
+          "id": "[\"5세트\",\"Exercise 8 · 471~480\",\"where\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 5 · 잇는 말과 묻는 말",
+          "term": "where",
+          "meaning": "① 어디에, 어디서",
+          "ex": "{{BLANK}} do you live?",
+          "tr": "너 어디 살아?",
+          "c": "장소를 물을 때 where. 답은 in·at으로 해: I live in Seoul."
+        }
+      ],
+      "applied": false
+    },
+    {
+      "id": "G4",
+      "title": "What a 감탄문의 단수 조건을 밝히기",
+      "ns": [
+        1058
+      ],
+      "reason": "What a+명사라는 공식은 복수·불가산 명사 앞에도 a가 필요한 것처럼 읽힐 수 있다.",
+      "proposals": [
+        {
+          "n": 1058,
+          "c": "What a/an+(형용사)+셀 수 있는 단수 명사! 형용사로 감탄하면 How beautiful!처럼 써."
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/exclamations"
+      ],
+      "category": "해설 적용 범위의 최소 보완",
+      "evidence": [
+        {
+          "n": 1058,
+          "id": "[\"5세트\",\"Exercise 3 · 421~430\",\"what\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 3 · 421~430",
+          "term": "what",
+          "meaning": "② 정말 ~구나!",
+          "ex": "{{BLANK}} a beautiful day!",
+          "tr": "와, 날씨 진짜 좋다!",
+          "c": "What a+명사! = 감탄문. 명사 없이 형용사만이면 How를 쓴다."
+        }
+      ],
+      "applied": false
+    },
+    {
+      "id": "G5",
+      "title": "neither of 뒤의 한정사를 생략한 공식 다듬기",
+      "ns": [
+        2251
+      ],
+      "reason": "예문의 neither of the two answers는 맞다. neither of+복수명사라는 공식만 읽으면 neither of books처럼 옮길 수 있다.",
+      "proposals": [
+        {
+          "n": 2251,
+          "c": "neither answer / neither of the two answers: 둘 중 어느 쪽도 아니다."
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/neither-neither-nor-and-not-"
+      ],
+      "category": "해설 적용 범위의 최소 보완",
+      "evidence": [
+        {
+          "n": 2251,
+          "id": "[\"12세트\",\"Exercise 7 · 1161~1170\",\"neither\",2,\"\"]",
+          "set": 12,
+          "exercise": "Exercise 7-2 · 1161~1170",
+          "term": "neither",
+          "meaning": "② (둘 중) 어느 쪽도 ~아니다",
+          "ex": "{{BLANK}} of the two answers is correct.",
+          "tr": "두 답 중 어느 것도 맞지 않아.",
+          "c": "neither of+복수명사: 둘 중 어느 쪽도 아니다."
+        }
+      ],
+      "applied": false
+    }
+  ],
+  "optional": [
+    {
+      "id": "O-subject",
+      "category": "rule_scope",
+      "priority": "보통",
+      "ns": [
+        11
+      ],
+      "title": "영어는 주어를 꼭 쓴다는 말을 현재 문장에 한정한다",
+      "evidence": [
+        {
+          "n": 7,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"be\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 1 · 인사와 나·너",
+          "term": "be",
+          "meaning": "① ~이다 (am·is·are의 원형)",
+          "ex": "Please {{BLANK}} quiet in the library.",
+          "tr": "도서관에서는 조용히 해 줘.",
+          "c": "am·is·are의 원형이 be. Please·Don't 뒤엔 be 그대로: Don't be late!"
+        },
+        {
+          "n": 11,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"it\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 2 · 그·우리·그들과 대답",
+          "term": "it",
+          "meaning": "① 그것",
+          "ex": "I have a new bag. {{BLANK}} is blue.",
+          "tr": "나 새 가방 있어. 파란색이야.",
+          "c": "우리말은 ‘그것은’을 빼도 되지만 영어는 주어를 꼭 써: It is blue."
+        },
+        {
+          "n": 33,
+          "id": "[\"5세트\",\"Exercise 6 · 451~460\",\"here\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 4 · 이것·저것과 a·the",
+          "term": "here",
+          "meaning": "① 여기에, 여기로",
+          "ex": "Come {{BLANK}} and look at this.",
+          "tr": "이리 와서 이것 좀 봐.",
+          "c": "here 앞에는 to를 쓰지 않아: come here(O), come to here(X)."
+        }
+      ],
+      "risk": "현재 it 예문은 주어가 필요하지만 영어 전체에 주어를 꼭 쓰는 것은 아니다. 같은 0세트에는 Please be quiet와 Come here처럼 정상적인 명령문도 있다. 한국어의 주어 생략을 막으려는 좋은 취지를 유지하면서 현재의 서술 문장에 범위를 두면 된다.",
+      "minimalEdits": [
+        {
+          "n": 11,
+          "field": "c",
+          "suggestion": "우리말은 ‘그것은’을 빼도 되지만, 여기서는 주어 it을 써: It is blue."
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/subjects"
+      ],
+      "confidence": {
+        "grammar": "high",
+        "learnerRisk": "plausible; learner testing not performed"
+      },
+      "classification": "선택 개선으로 낮춤: 일반 서술문의 주어 원칙은 유효하며 예외 목록을 늘릴 필요는 없다."
+    },
+    {
+      "id": "O1",
+      "ns": [
+        24
+      ],
+      "title": "소유격 his를 꼭 써야 한다는 말의 범위를 좁힐 수 있다",
+      "evidence": [
+        {
+          "n": 24,
+          "id": "[\"5세트\",\"Exercise 3 · 421~430\",\"his\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 3 · 나를·나의",
+          "term": "his",
+          "meaning": "① 그의",
+          "ex": "Minsu lost {{BLANK}} phone again.",
+          "tr": "민수가 또 폰을 잃어버렸어.",
+          "c": "우리말은 ‘자기’를 빼도 되지만 영어는 his를 꼭 써: lost his phone."
+        }
+      ],
+      "reason": "소유자가 민수라는 문맥에서 his는 자연스럽다. 그러나 영어의 소유 명사 앞에 언제나 his를 넣어야 한다는 보편 규칙은 아니다. 현재 목적은 자신의 폰이라는 관계를 드러내는 것이다.",
+      "suggestion": "‘민수의 폰’은 his phone. 우리말에서 ‘자기’를 빼도 영어에서는 이렇게 밝혀 말해.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/pronouns-possessive-my-mine-your-yours-etc"
+      ],
+      "status": "낮은 우선순위의 표현 정밀화"
+    },
+    {
+      "id": "O2",
+      "ns": [
+        145
+      ],
+      "title": "서수 앞 the를 대표 형태로 표현한다",
+      "evidence": [
+        {
+          "n": 145,
+          "id": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"paragraph\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 15 · 학교와 공부",
+          "term": "paragraph",
+          "meaning": "① 문단, 단락",
+          "ex": "Read the first {{BLANK}} again.",
+          "tr": "첫 문단 다시 읽어 봐.",
+          "c": "서수 앞에는 the: the first paragraph. 문장이 모인 한 덩어리."
+        }
+      ],
+      "reason": "the first paragraph는 맞지만 my first... 같은 소유격이나 a second...도 가능하다. 규칙을 확장해 설명하지 말고 대표 형태라는 제한만 넣으면 된다.",
+      "suggestion": "서수 앞에는 보통 the: the first paragraph. 문장이 모인 한 덩어리.",
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/number"
+      ],
+      "status": "낮은 우선순위의 표현 정밀화"
+    },
+    {
+      "id": "O3",
+      "ns": [
+        1102
+      ],
+      "title": "예문이 보여 주는 습관과 해설의 미래 시간절이 다르다",
+      "evidence": [
+        {
+          "n": 136,
+          "id": "[\"0세트\",\"Exercise 7 · 집·생활\",\"text\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 14 · 명사이자 동사",
+          "term": "text",
+          "meaning": "① 문자 메시지",
+          "ex": "Send me a {{BLANK}} message when you arrive.",
+          "tr": "도착하면 문자 메시지 보내.",
+          "c": "send a text 문자를 보내다. text message라고도 해."
+        },
+        {
+          "n": 137,
+          "id": "[\"0세트\",\"Exercise 7 · 집·생활\",\"text\",2,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 14 · 명사이자 동사",
+          "term": "text",
+          "meaning": "② 문자를 보내다",
+          "ex": "{{BLANK}} me when you get home, please.",
+          "tr": "집에 도착하면 문자해.",
+          "c": "text me: 문자해. 과거형은 texted."
+        },
+        {
+          "n": 1075,
+          "id": "[\"5세트\",\"Exercise 4 · 431~440\",\"if\",1,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 4-1 · 431~440",
+          "term": "if",
+          "meaning": "① 만약 ~라면",
+          "ex": "{{BLANK}} it rains tomorrow, I'll stay home.",
+          "tr": "내일 비 오면 집에 있을래.",
+          "c": "조건의 if절은 내일 일도 현재형: if it rains(O), will rain(X)."
+        },
+        {
+          "n": 1102,
+          "id": "[\"5세트\",\"Exercise 6 · 451~460\",\"when\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 6-1 · 451~460",
+          "term": "when",
+          "meaning": "② ~할 때",
+          "ex": "{{BLANK}} I'm tired, I listen to music.",
+          "tr": "난 피곤할 땐 음악 들어.",
+          "c": "시간의 when절도 미래를 현재형으로 쓴다: when he comes(O)."
+        }
+      ],
+      "reason": "When I am tired...는 반복되는 습관이고 해설은 미래 시간절의 현재형을 말한다. 규칙은 맞으며 0세트 text 예문 등에서 미래 맥락을 이미 만난다. 오문은 아니지만 소개 카드의 예문·규칙 대응을 더 선명하게 할 수 있다.",
+      "suggestion": "문법 지도 작업 시 이 카드 하나만 미래 맥락의 when 예문으로 맞추거나, 현재 예문의 습관 설명으로 좁힌다. 현재 예문을 당장 폐기할 필수 오류는 아니다.",
+      "sources": [],
+      "status": "소개·예시 정렬"
+    },
+    {
+      "id": "O4",
+      "ns": [
+        1020,
+        1021,
+        1022,
+        1024,
+        1025,
+        1028
+      ],
+      "title": "5세트 첫 연습 제목이 실제 중심과 덜 맞는다",
+      "evidence": [
+        {
+          "n": 1020,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"the\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "the",
+          "meaning": "② (문맥에서 하나로 정해지는 대상 앞) 그",
+          "ex": "{{BLANK}} sun is really hot today.",
+          "tr": "오늘 해가 진짜 뜨겁다.",
+          "c": "the sun처럼 문맥에서 하나로 정해지는 대상을 가리킨다. 항상 the가 붙는 것은 아니다."
+        },
+        {
+          "n": 1021,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"be\",3,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "be",
+          "meaning": "③ ~하는 중이다",
+          "ex": "He will {{BLANK}} sleeping at noon.",
+          "tr": "걔 정오엔 자고 있을걸.",
+          "c": "be+동사-ing는 진행형. 현재·과거·미래의 특정 시점에 진행 중인 일을 나타낸다."
+        },
+        {
+          "n": 1022,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"be\",4,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "be",
+          "meaning": "④ ~되다, ~받다",
+          "ex": "The door will {{BLANK}} painted tomorrow.",
+          "tr": "문은 내일 칠해질 거야.",
+          "c": "be+과거분사는 수동태. 행동을 하는 대상 대신 그 행동을 받는 대상을 주어로 말한다."
+        },
+        {
+          "n": 1024,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"a\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "a",
+          "meaning": "② ~마다, 한 ~에",
+          "ex": "I go shopping once {{BLANK}} week.",
+          "tr": "나 일주일에 한 번 쇼핑 가.",
+          "c": "once a week = 일주일에 한 번. 단위 앞의 a는 '~마다'."
+        },
+        {
+          "n": 1025,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"of\",1,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "of",
+          "meaning": "① ~의 (소속·부분)",
+          "ex": "What's the name {{BLANK}} this song?",
+          "tr": "이 노래 이름이 뭐야?",
+          "c": "the name of this song은 ‘이 노래의 이름’. of는 소속·부분 등의 관계를 나타낸다."
+        },
+        {
+          "n": 1028,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"to\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "to",
+          "meaning": "② ~하기, ~하려고",
+          "ex": "I want {{BLANK}} see that movie.",
+          "tr": "나 그 영화 보고 싶어.",
+          "c": "동사원형 앞의 to는 부정사 표지. want to see는 '보고 싶다'라는 뜻이다."
+        }
+      ],
+      "reason": "Exercise 1-1 · 기본 기능어 · a/an에는 기초 a/an이 아니라 the, be의 진행·수동, and, a의 ~마다, of, to가 있다. a/an 기초는 이미 0세트 n35~36에 있다.",
+      "suggestion": "다음 문법 지도 정리 때 제목의 a/an 부제를 실제 내용에 맞추는 정도로 검토한다. 저장된 카드·진도나 학습 방식을 바꿀 필요는 없다.",
+      "sources": [],
+      "status": "교육적 표지 정렬"
+    },
+    {
+      "n": 5147,
+      "set": 33,
+      "word": "comprise",
+      "fields": [
+        "c"
+      ],
+      "severity": "optional",
+      "confidence": 0.99,
+      "original": {
+        "meaning": "① ~로 구성되다, ~을 이루다",
+        "ex": "Our club {{BLANK}}s ten boys and twelve girls.",
+        "c": "전체가 주어다. be comprised of ~ = ~로 이뤄지다."
+      },
+      "reason": "현재 예문은 전체가 주어인 올바른 용법이다. 다만 '전체가 주어다'를 모든 용법의 규칙으로 읽을 여지가 있다. Cambridge는 부분이 주어인 comprise도 인정한다. 전통적 문체 지침과 사전 사이의 견해 차이도 있어 예문 오류나 P2로 보지 않았다.",
+      "suggestion": "이 예문에서는 전체가 주어. be comprised of ~ = ~로 이뤄지다.",
+      "teacher_note": "주어 규칙을 전 단어에 강제하기보다 이 예문의 구조로 한정한다.",
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/consist-comprise-or-compose",
+          "title": "Cambridge English Grammar Today: Consist, comprise or compose?",
+          "supports": "부분을 주어로 하는 comprise와 be comprised of를 모두 인정."
+        },
+        {
+          "url": "https://our-languages.canada.ca/en/writing-tips-plus/comprise-compose-constitute",
+          "title": "Government of Canada Language Portal: comprise, compose, constitute",
+          "supports": "부분이 전체를 이룬다는 용법은 대부분 사전에 인정되지만 일부 문체 지침은 이의를 제기한다고 설명."
+        }
+      ]
+    },
+    {
+      "n": 4850,
+      "set": 30,
+      "word": "constantly",
+      "fields": [
+        "c"
+      ],
+      "severity": "optional",
+      "confidence": 0.96,
+      "original": {
+        "ex": "The world is {{BLANK}} changing, so we must keep learning.",
+        "c": "constant+-ly. 진행형에서는 be와 -ing 사이에 온다."
+      },
+      "reason": "현재 빈칸 위치와 예문은 옳다. 진행형에서 이 위치만 허용한다는 규칙처럼 읽지 않도록 '보통' 또는 '이 예문에서는'을 붙이는 정도의 개선이다. 빈도 부사는 중간 위치가 일반적이지만 위치가 고정된 것은 아니다.",
+      "suggestion": "constant+-ly. 진행형에서는 보통 be와 -ing 사이에 둔다: is constantly changing.",
+      "teacher_note": "현재 위치를 기본형으로 익히되, 다른 위치를 오답이라고 단정하지 않는다.",
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/adverbs-and-adverb-phrases-position%26lang%3Den",
+          "title": "Cambridge English Grammar Today: Adverbs and adverb phrases: position",
+          "supports": "빈도 부사는 보통 중간에 오지만 문장 앞·끝에도 올 수 있다고 설명."
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/constantly",
+          "title": "Cambridge Dictionary: constantly",
+          "supports": "중간 위치와 문장 끝의 용례를 제시."
+        }
+      ]
+    },
+    {
+      "n": 4999,
+      "set": 31,
+      "word": "multiple",
+      "fields": [
+        "c"
+      ],
+      "severity": "optional",
+      "confidence": 0.98,
+      "original": {
+        "ex": "The final exam has 30 {{BLANK}}-choice questions.",
+        "c": "multiple-choice는 여러 보기 중에 고르는 '객관식'. 뒤에 복수 명사가 온다."
+      },
+      "reason": "multiple 자체의 '여러' 뜻이 복수 명사를 수식한다는 설명으로 읽으면 맞다. 직전 문장의 multiple-choice를 받는 것으로 읽으면 a multiple-choice question/test도 가능한 사실과 충돌한다. 앞선 전체 내용 검수와 같은 선택 개선이며 별도 오류로 중복 집계하지 않는다.",
+      "suggestion": "multiple은 '여러'라 복수 명사와 쓴다. multiple-choice는 '객관식': a multiple-choice question도 가능.",
+      "teacher_note": "설명의 주어만 multiple로 명시해도 혼동을 줄일 수 있다.",
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/multiple-choice",
+          "title": "Cambridge Dictionary: multiple-choice",
+          "supports": "a multiple-choice test/question처럼 단수 명사를 수식하는 표준 용례."
+        }
+      ]
+    }
+  ],
+  "distribution": {
+    "past_perfect": {
+      "id": "과거완료 형태",
+      "count": 3,
+      "count_scope": "현재 전체 7573장에서 had 및 축약형 후보를 읽고 확인한 3장",
+      "note": "단순 과거완료 서술 1장(lead), 과거완료진행 서술 1장(indicate), 가정법 과거완료 조건절 1장(contest). 서로 다른 하위 문형을 합쳐 3이라고 한 것이므로 과거완료의 모든 쓰임을 3회씩 봤다는 뜻이 아니다.",
+      "unique_sentences": 3,
+      "sets": [
+        4,
+        21,
+        40
+      ],
+      "screen_exercises": [
+        "4 / Exercise 5-2 · 341~350",
+        "21 / Exercise 11-1 · 생각과 소통",
+        "40 / Exercise 11 · 예술과 무대"
+      ],
+      "bands": {
+        "1-5": 1,
+        "21-30": 1,
+        "31-45": 1
+      },
+      "ns": [
+        892,
+        3575,
+        6223
+      ],
+      "cards": [
+        {
+          "n": 892,
+          "set": 4,
+          "exercise": "Exercise 5-2 · 341~350",
+          "word": "lead",
+          "si": 1,
+          "sentence": "By 1825, Simon Bolivar had helped lead much of South America to freedom.",
+          "ex": "By 1825, Simon Bolivar had helped {{BLANK}} much of South America to freedom.",
+          "tr": "1825년까지 시몬 볼리바르는 남아메리카의 많은 지역이 자유를 얻도록 앞장서 이끌었어.",
+          "c": "leader(지도자)가 여기에서 나온 말이다. 불규칙 lead-led-led.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 22606
+        },
+        {
+          "n": 3575,
+          "set": 21,
+          "exercise": "Exercise 11-1 · 생각과 소통",
+          "word": "indicate",
+          "si": 1,
+          "sentence": "Her red eyes indicated that she had been crying.",
+          "ex": "Her red eyes {{BLANK}}d that she had been crying.",
+          "tr": "걔 눈이 빨개서 울고 있었다는 걸 알 수 있었어.",
+          "c": "~이라는 표시가 되다. 명사 indication(표시, 징후).",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 74416
+        },
+        {
+          "n": 6223,
+          "set": 40,
+          "exercise": "Exercise 11 · 예술과 무대",
+          "word": "contest",
+          "si": 1,
+          "sentence": "If I had practiced more, I could have won the dance contest.",
+          "ex": "If I had practiced more, I could have won the dance {{BLANK}}.",
+          "tr": "연습을 더 했더라면 댄스 대회에서 이길 수 있었을 텐데.",
+          "c": "명사는 앞에 강세가 온다. 동사(이의를 제기하다)로 쓰면 뒤에 강세가 온다.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 125217
+        }
+      ]
+    },
+    "modal_perfect": {
+      "id": "조동사 + have p.p.",
+      "count": 3,
+      "count_scope": "현재 전체 데이터에서 직접 확인한 3장",
+      "note": "would have died, should've told, could have won. 축약형 should've를 포함했다. may have to, should have access, can't have everything은 제외했다.",
+      "unique_sentences": 3,
+      "sets": [
+        35,
+        36,
+        40
+      ],
+      "screen_exercises": [
+        "35 / Exercise 11 · 사건과 위기",
+        "36 / Exercise 5 · 3524~3533",
+        "40 / Exercise 11 · 예술과 무대"
+      ],
+      "bands": {
+        "31-45": 3
+      },
+      "ns": [
+        5531,
+        5589,
+        6223
+      ],
+      "cards": [
+        {
+          "n": 5531,
+          "set": 35,
+          "exercise": "Exercise 11 · 사건과 위기",
+          "word": "surgery",
+          "si": 1,
+          "sentence": "Without surgery, my dog would have died.",
+          "ex": "Without {{BLANK}}, my dog would have died.",
+          "tr": "수술을 안 받았다면 우리 개는 죽었을 거야.",
+          "c": "have surgery=수술을 받다(관사 없이). an operation도 '수술'.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 111939
+        },
+        {
+          "n": 5589,
+          "set": 36,
+          "exercise": "Exercise 5 · 3524~3533",
+          "word": "sooner",
+          "si": 1,
+          "sentence": "You should've told me sooner.",
+          "ex": "You should've told me {{BLANK}}.",
+          "tr": "너 나한테 좀 더 빨리 말해 줬어야지.",
+          "c": "soon의 비교급. sooner or later: 빠르든 늦든 결국, 언젠가는. 반드시 가까운 미래라는 뜻은 아니다.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 113064
+        },
+        {
+          "n": 6223,
+          "set": 40,
+          "exercise": "Exercise 11 · 예술과 무대",
+          "word": "contest",
+          "si": 1,
+          "sentence": "If I had practiced more, I could have won the dance contest.",
+          "ex": "If I had practiced more, I could have won the dance {{BLANK}}.",
+          "tr": "연습을 더 했더라면 댄스 대회에서 이길 수 있었을 텐데.",
+          "c": "명사는 앞에 강세가 온다. 동사(이의를 제기하다)로 쓰면 뒤에 강세가 온다.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 125217
+        }
+      ]
+    },
+    "counterfactual": {
+      "id": "명시적 비현실 가정의 핵심 사례",
+      "count": 5,
+      "count_scope": "if were/had, wish, Without ... would 검색으로 확인한 5장; 가정성의 모든 표현을 포괄하는 총량은 아님",
+      "note": "I wish I were 1장, If I were ... would 1장, Without ... would have 1장, If I had ... could have 1장, Without ... would 1장이다. 5세트의 would 해설 뒤 해당 구조가 충분히 변주되었다고 보기는 어렵다.",
+      "unique_sentences": 5,
+      "sets": [
+        4,
+        5,
+        35,
+        40,
+        41
+      ],
+      "screen_exercises": [
+        "4 / Exercise 7-2 · 361~370",
+        "5 / Exercise 5 · 441~450",
+        "35 / Exercise 11 · 사건과 위기",
+        "40 / Exercise 11 · 예술과 무대",
+        "41 / Exercise 4 · 4014~4023"
+      ],
+      "bands": {
+        "1-5": 2,
+        "31-45": 3
+      },
+      "ns": [
+        930,
+        1089,
+        5531,
+        6223,
+        6273
+      ],
+      "cards": [
+        {
+          "n": 930,
+          "set": 4,
+          "exercise": "Exercise 7-2 · 361~370",
+          "word": "wish",
+          "si": 1,
+          "sentence": "I wish I were taller.",
+          "ex": "I {{BLANK}} I were taller.",
+          "tr": "키가 더 컸으면 좋겠어.",
+          "c": "이루기 힘들거나 사실과 반대인 일을 바랄 때. 동사를 한 시제 뒤로 밀어 '사실 아님'을 표시 — I wish I were.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 23328
+        },
+        {
+          "n": 1089,
+          "set": 5,
+          "exercise": "Exercise 5 · 441~450",
+          "word": "would",
+          "si": 3,
+          "sentence": "If I were you, I would take the job.",
+          "ex": "If I were you, I {{BLANK}} take the job.",
+          "tr": "내가 너라면 난 그 일을 맡을 텐데.",
+          "c": "If I were you, I would ~: 현실이 아닌 가정. if절은 과거형(were), 주절은 would.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 26742
+        },
+        {
+          "n": 5531,
+          "set": 35,
+          "exercise": "Exercise 11 · 사건과 위기",
+          "word": "surgery",
+          "si": 1,
+          "sentence": "Without surgery, my dog would have died.",
+          "ex": "Without {{BLANK}}, my dog would have died.",
+          "tr": "수술을 안 받았다면 우리 개는 죽었을 거야.",
+          "c": "have surgery=수술을 받다(관사 없이). an operation도 '수술'.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 111939
+        },
+        {
+          "n": 6223,
+          "set": 40,
+          "exercise": "Exercise 11 · 예술과 무대",
+          "word": "contest",
+          "si": 1,
+          "sentence": "If I had practiced more, I could have won the dance contest.",
+          "ex": "If I had practiced more, I could have won the dance {{BLANK}}.",
+          "tr": "연습을 더 했더라면 댄스 대회에서 이길 수 있었을 텐데.",
+          "c": "명사는 앞에 강세가 온다. 동사(이의를 제기하다)로 쓰면 뒤에 강세가 온다.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 125217
+        },
+        {
+          "n": 6273,
+          "set": 41,
+          "exercise": "Exercise 4 · 4014~4023",
+          "word": "friction",
+          "si": 1,
+          "sentence": "Without friction, a ball rolling on flat ground would never stop.",
+          "ex": "Without {{BLANK}}, a ball rolling on flat ground would never stop.",
+          "tr": "마찰이 없다면 평평한 땅에서 구르는 공은 절대 멈추지 않을 거야.",
+          "c": "맞닿은 두 면의 상대적인 움직임을 방해하는 마찰. friction between surfaces는 표면 사이의 마찰.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 126167
+        }
+      ]
+    },
+    "whose_relative": {
+      "id": "소유격 관계대명사 whose",
+      "count": 9,
+      "count_scope": "전체 whose 검색에서 질문 Whose phone/side를 제외하고 직접 확인한 9장",
+      "note": "모두 20세트, 저작상 Exercise 11 사회와 사람 한 묶음이며 현재 화면에서는 11-1과 11-2 두 연속 연습이다. 21~50세트에는 관계대명사 whose가 다시 나오지 않는다.",
+      "unique_sentences": 9,
+      "sets": [
+        20
+      ],
+      "screen_exercises": [
+        "20 / Exercise 11-1 · 사회와 사람",
+        "20 / Exercise 11-2 · 사회와 사람"
+      ],
+      "bands": {
+        "13-20": 9
+      },
+      "ns": [
+        3441,
+        3443,
+        3444,
+        3446,
+        3448,
+        3449,
+        3451,
+        3453,
+        3455
+      ],
+      "cards": [
+        {
+          "n": 3441,
+          "set": 20,
+          "exercise": "Exercise 11-1 · 사회와 사람",
+          "word": "whose",
+          "si": 2,
+          "sentence": "I have a friend whose mom runs a small restaurant.",
+          "ex": "I have a friend {{BLANK}} mom runs a small restaurant.",
+          "tr": "나한테 엄마가 작은 식당을 하는 친구가 있어.",
+          "c": "who의 소유격 관계대명사. 뒤에 명사가 바로 온다: a friend whose mom=엄마가 ~인 친구. 사물 뒤에도 쓴다.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 71837
+        },
+        {
+          "n": 3443,
+          "set": 20,
+          "exercise": "Exercise 11-1 · 사회와 사람",
+          "word": "folk",
+          "si": 1,
+          "sentence": "Arirang is a folk song whose words change from place to place.",
+          "ex": "Arirang is a {{BLANK}} song whose words change from place to place.",
+          "tr": "아리랑은 지역마다 가사가 다른 민요야.",
+          "c": "folk song 민요, folk tale 민담. 명사 folks는 구어로 '사람들, 부모님'.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 71875
+        },
+        {
+          "n": 3444,
+          "set": 20,
+          "exercise": "Exercise 11-1 · 사회와 사람",
+          "word": "identity",
+          "si": 1,
+          "sentence": "Children whose parents are from two cultures may struggle with their identity.",
+          "ex": "Children whose parents are from two cultures may struggle with their {{BLANK}}.",
+          "tr": "부모가 서로 다른 문화 출신인 아이들은 정체성 때문에 고민할 수 있어.",
+          "c": "identify(확인하다)와 한 가족. '신원'이라는 뜻도 있다: identity card 신분증.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 71894
+        },
+        {
+          "n": 3446,
+          "set": 20,
+          "exercise": "Exercise 11-1 · 사회와 사람",
+          "word": "responsibility",
+          "si": 1,
+          "sentence": "People whose dogs bite others must take responsibility for it.",
+          "ex": "People whose dogs bite others must take {{BLANK}} for it.",
+          "tr": "개가 남을 물면 그 주인이 책임을 져야 해.",
+          "c": "responsible(책임이 있는)의 명사. take responsibility for ~에 책임을 지다.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 71932
+        },
+        {
+          "n": 3448,
+          "set": 20,
+          "exercise": "Exercise 11-2 · 사회와 사람",
+          "word": "protest",
+          "si": 1,
+          "sentence": "Farmers whose land was taken held a protest against the city.",
+          "ex": "Farmers whose land was taken held a {{BLANK}} against the city.",
+          "tr": "땅을 빼앗긴 농민들이 시에 항의하는 시위를 벌였어.",
+          "c": "명사는 앞, 동사(항의하다)는 뒤에 강세가 온다. protest against ~에 반대하다.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 71970
+        },
+        {
+          "n": 3449,
+          "set": 20,
+          "exercise": "Exercise 11-2 · 사회와 사람",
+          "word": "victim",
+          "si": 1,
+          "sentence": "We raised money for flood victims whose homes were washed away.",
+          "ex": "We raised money for flood {{BLANK}}s whose homes were washed away.",
+          "tr": "우리는 집이 떠내려간 홍수 피해자들을 위해 돈을 모았어.",
+          "c": "사고·범죄·재해로 해를 입은 사람. victim of ~의 피해자.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 71989
+        },
+        {
+          "n": 3451,
+          "set": 20,
+          "exercise": "Exercise 11-2 · 사회와 사람",
+          "word": "commit",
+          "si": 2,
+          "sentence": "Players whose dream is an Olympic medal must commit to training every day.",
+          "ex": "Players whose dream is an Olympic medal must {{BLANK}} to training every day.",
+          "tr": "올림픽 메달이 꿈인 선수들은 매일 훈련에 전념해야 해.",
+          "c": "commit to -ing: to가 전치사라 -ing가 온다. 명사 commitment(헌신).",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 72027
+        },
+        {
+          "n": 3453,
+          "set": 20,
+          "exercise": "Exercise 11-2 · 사회와 사람",
+          "word": "release",
+          "si": 2,
+          "sentence": "The band, whose last song was a big hit, will release a new one in May.",
+          "ex": "The band, whose last song was a big hit, will {{BLANK}} a new one in May.",
+          "tr": "지난 노래가 크게 히트한 그 밴드가 5월에 신곡을 낼 거야.",
+          "c": "명사로 '발매(작)': a new release 신곡·신작. 영화를 '개봉하다'도 release.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 72065
+        },
+        {
+          "n": 3455,
+          "set": 20,
+          "exercise": "Exercise 11-2 · 사회와 사람",
+          "word": "issue",
+          "si": 2,
+          "sentence": "The city issued a warning to people whose homes are near the river.",
+          "ex": "The city {{BLANK}}d a warning to people whose homes are near the river.",
+          "tr": "시는 강 근처에 사는 사람들에게 경보를 발령했어.",
+          "c": "경보·성명을 내다. 여권·표를 '발급하다'에도 쓴다.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 72103
+        }
+      ]
+    },
+    "whom_relative": {
+      "id": "전치사 + whom",
+      "count": 2,
+      "count_scope": "전체 whom 검색에서 직접 확인한 2장",
+      "note": "모두 28세트 Exercise 11 주고받기 안에 있다. from whom/to whom이 있고 뒤 세트에서 재등장하지 않는다.",
+      "unique_sentences": 2,
+      "sets": [
+        28
+      ],
+      "screen_exercises": [
+        "28 / Exercise 11 · 주고받기"
+      ],
+      "bands": {
+        "21-30": 2
+      },
+      "ns": [
+        4557,
+        4559
+      ],
+      "cards": [
+        {
+          "n": 4557,
+          "set": 28,
+          "exercise": "Exercise 11 · 주고받기",
+          "word": "purchase",
+          "si": 1,
+          "sentence": "The man from whom I purchased this used bike was kind.",
+          "ex": "The man from whom I {{BLANK}}d this used bike was kind.",
+          "tr": "나한테 이 중고 자전거를 판 아저씨는 친절했어.",
+          "c": "buy의 격식어로, 이 뜻에서는 buy와 바꿔 쓸 수 있다. 명사로 '구입'도 된다.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 93229
+        },
+        {
+          "n": 4559,
+          "set": 28,
+          "exercise": "Exercise 11 · 주고받기",
+          "word": "whom",
+          "si": 1,
+          "sentence": "My grandmother is the person to whom I owe the most.",
+          "ex": "My grandmother is the person to {{BLANK}} I owe the most.",
+          "tr": "우리 할머니는 내가 가장 큰 신세를 진 분이야.",
+          "c": "전치사 바로 뒤에는 who가 아닌 whom을 쓴다(to whom). 전치사를 끝에 두면 who도 된다.",
+          "source_file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/full-review-20261011/cards.json",
+          "line": 93267
+        }
+      ]
+    }
+  },
+  "notFound": [
+    {
+      "construction": "현재완료진행 have/has/축약형 + been + V-ing",
+      "candidate_count": 0,
+      "scope": "7573장에 넓은 표기 패턴 검색. 문법의 모든 가능한 표기를 구문 분석한 완전 총량은 아님",
+      "interpretation": "명확한 현재완료진행 예문은 찾지 못했다. n3575는 had been crying으로 과거완료진행이며 대체 노출로 세면 안 된다."
+    },
+    {
+      "construction": "as if / as though",
+      "candidate_count": 0,
+      "scope": "7573장 전체 문자 검색",
+      "interpretation": "문법 지도 G125의 해당 연결 표현은 현재 예문에 없다."
+    }
+  ],
+  "design": [
+    {
+      "id": "D1",
+      "priority": 1,
+      "title": "처음 소개한 뒤 떨어진 세트에서 재등장시키기",
+      "evidence": "whose 관계절 9장이 20세트 11-1·11-2에, 전치사+whom 2장이 28세트 11에 모여 있다. 뒤쪽 세트에서 이 구조가 다시 나오지 않는다.",
+      "recommendation": "현재 소개 묶음은 유지할 가치가 있다. 이후의 다른 표제어·상황에 같은 구조를 배치한다. 카드 재출제 기능이 아니라 기존 문장 배치 작업이다.",
+      "ns": [
+        3441,
+        3443,
+        3449,
+        3455,
+        4557,
+        4559
+      ]
+    },
+    {
+      "id": "D2",
+      "priority": 1,
+      "title": "문형의 총횟수보다 뜻과 역할을 구별하기",
+      "evidence": "과거완료 계열 3장은 일반 과거완료·과거완료진행·가정법 조건절로 각각 한 장이다. 조동사 완료 3장도 would/could의 반사실과 should의 과거 후회로 서로 다른 쓰임이다.",
+      "recommendation": "현재완료의 경험/계속/현재 결과, 수동태의 행위자/대상, 관계절의 주어/목적어/소유, to부정사와 -ing의 역할을 따로 기록한다. 한 하위 기능이 많이 나왔다고 다른 기능의 노출을 채웠다고 세지 않는다.",
+      "ns": [
+        892,
+        3575,
+        6223,
+        5531,
+        5589
+      ]
+    },
+    {
+      "id": "D3",
+      "priority": 1,
+      "title": "짧은 대비로 문법이 의미를 바꾸는 지점을 보여 주기",
+      "evidence": "used to walk / be used to getting up, bore someone / be bored는 형태와 뜻의 차이를 잇는 좋은 기존 모델이다.",
+      "recommendation": "후속 문법 지도에서 이런 대비를 다른 쉬운 내용어로 반복한다. 완료를 가르칠 때에는 과거 사건과 지금 상태의 연결이 예문에서 드러나게 한다. 역사 예문의 had를 단순히 늘리는 것으로 완료 학습을 대신하지 않는다.",
+      "ns": [
+        3945,
+        3946,
+        2950,
+        5912
+      ]
+    },
+    {
+      "id": "D4",
+      "priority": 2,
+      "title": "규칙과 실제 예문의 학습 지점을 맞추기",
+      "evidence": "difficulty는 해설의 have difficulty -ing와 달리 현재 예문은 with difficulty다. 두 표현 모두 옳지만 처음 가르칠 목표를 정하면 더 강한 카드가 된다.",
+      "recommendation": "새 문법을 설명하는 카드에서는 그 구조가 실제 문장에도 보이게 한다. 기존의 좋은 관용·지식 예문을 전부 문법용으로 교체하지 않는다.",
+      "ns": [
+        2341,
+        654,
+        4699
+      ],
+      "proposedExamples": [
+        {
+          "en": "He had {{BLANK}} climbing the stairs.",
+          "target": "difficulty",
+          "tr": "그는 계단을 오르는 데 애를 먹었어.",
+          "status": "검토 예시·미적용"
+        },
+        {
+          "en": "I have lost my key, so I can't get in.",
+          "tr": "열쇠를 잃어버려서 안에 못 들어가.",
+          "status": "현재 결과를 드러내는 문장 모델·대상 카드 미선정"
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "priority": 1,
+      "title": "소개 순서를 카드 번호에 의존시키지 않기",
+      "evidence": "startRound(1)에서도 s.queue=shuffle(s.roundTargets)로 같은 연습의 카드를 섞는다. 첫 카드의 설명을 먼저 읽는다고 보장할 수 없다.",
+      "recommendation": "사용자가 승인한 셔플은 유지한다. 소개는 연습 단위로 설계하고 각 카드는 독립적으로 이해되게 한다. 꼭 필요한 설명은 해당 카드에 짧게 두며, 앞 카드의 설명을 읽었다는 전제로 문장을 만들지 않는다.",
+      "ns": []
+    },
+    {
+      "id": "D6",
+      "priority": 2,
+      "title": "143항목의 완료 판정을 수동 검수 원장으로 관리하기",
+      "evidence": "문법 지도 143항목 중 97항목은 직접 연결된 측정 태그가 없다. 이는 97항목이 예문에 없다는 뜻이 아니다. 46개 자동 태그도 하위 용법의 이해를 측정하지 않는다.",
+      "recommendation": "문법 항목별 소개 연습, 짧은 규칙, 해당 카드 번호, 문형의 하위 기능, 뒤쪽 재등장 세트를 기록한다. 목표 15/8/3회는 편집 기준이며 습득 보장 횟수로 표시하지 않는다.",
+      "ns": []
+    },
+    {
+      "id": "D7",
+      "priority": 2,
+      "title": "계획 문구도 문장의 의미에서 출발하기",
+      "evidence": "미구현 계획 G105의 “뒤 절이 완전하면 whether”만으로 선택을 가르치면 that절과 구별되지 않는다. 현재 카드의 오류라는 뜻은 아니다.",
+      "recommendation": "whether는 “~인지 아닌지”의 질문 내용, what은 “무엇을/무엇이” 또는 “~하는 것”이라는 뜻과 문장 내 역할부터 설명한다. 완전/불완전 검사는 보조 수단으로 사용한다.",
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/whether",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/reported-speech-questions"
+      ],
+      "ns": []
+    }
+  ],
+  "learningRole": {
+    "conclusion": "활용형이나 문장 구조가 문제에 이미 주어지는 것은 합의된 표제어 학습 방식의 정상 특성이다. 어휘를 떠올리는 동안 맞는 형태와 의미의 연결을 반복해서 보게 하는 데 쓰이며, 그 형태를 독립적으로 선택할 수 있는지까지 검증한 결과로 해석하면 안 된다.",
+    "examples": [
+      {
+        "n": 4699,
+        "visible_structure": "that the city plant more trees",
+        "typed_target": "propose",
+        "value": "단수 주어 뒤 원형 plant와 해설의 plants 대비를 눈에 띄게 함.",
+        "limit": "plant/plants의 선택은 학생이 하지 않음."
+      },
+      {
+        "n": 3946,
+        "visible_structure": "I'm ___ to getting up early.",
+        "typed_target": "used",
+        "value": "익숙함의 be used to와 -ing를 함께 접함.",
+        "limit": "get/getting 선택과 be 유무를 직접 만들어 내는 과제는 아님."
+      },
+      {
+        "n": 2750,
+        "visible_structure": "My aunt was ___d to manager last year.",
+        "typed_target": "promote",
+        "value": "승진의 수동 구조와 동사의 어휘 뜻을 연결함.",
+        "limit": "was와 과거분사 어미는 이미 제시됨."
+      },
+      {
+        "n": 3441,
+        "visible_structure": "a friend ___ mom runs a small restaurant",
+        "typed_target": "whose",
+        "value": "관계사가 표제어이므로 관계어 자체를 입력하며 소유 관계를 볼 수 있음.",
+        "limit": "한국어 뜻과 글자 칸이 답을 돕기 때문에 독립 어법 판단 점수는 아님."
+      },
+      {
+        "n": 4559,
+        "visible_structure": "the person to ___ I owe the most",
+        "typed_target": "whom",
+        "value": "전치사+목적격 관계사를 한 덩어리로 익힘.",
+        "limit": "모든 who/whom 문맥에 대한 일반화 능력을 이 한 카드 성공으로 판정하지 않음."
+      }
+    ],
+    "teacher_suggestions": [
+      {
+        "topic": "규칙과 예문을 같은 카드에서 만나게 하기",
+        "ns": [
+          2341
+        ],
+        "observation": "해설은 have difficulty -ing인데 예문은 with difficulty여서 핵심 오류 예방 문형을 예문에서 직접 보지 못함.",
+        "optional_example": "He had {{BLANK}} climbing the stairs.",
+        "optional_translation": "그는 계단을 오르는 데 애를 먹었어.",
+        "recommendation": "세트별 조명 문법 개편 때 이 한 카드처럼 교체 실익이 큰 경우부터 맞춘다. 현재 with difficulty는 옳은 문장이므로 오류로 분류하지 않는다."
+      },
+      {
+        "topic": "대비가 보이는 예문",
+        "ns": [
+          3706,
+          4699,
+          3945,
+          3946
+        ],
+        "observation": "able 카드의 해설은 특정 과거의 성취를 설명하지만 예문은 wasn't able이므로 그 대비를 직접 보여 주지는 않는다. propose는 plant/plants 대비가 잘 보이고 used 두 카드는 형태·뜻 대비가 이미 좋다.",
+        "recommendation": "첫 설명에서는 표적 차이가 눈에 드러나는 예문을 택하고, 후속 카드에는 다른 동사·맥락으로 반복한다. 새로운 입력 방식은 제안하지 않는다."
+      },
+      {
+        "topic": "가정법·완료·분사구문의 후속 노출",
+        "ns": [
+          1038,
+          1089,
+          2929
+        ],
+        "observation": "이번 해설 검색에서 12~50세트의 '가정법', '과거완료', '분사구문' 명시 규칙은 없었고, '현재완료'를 직접 말하는 해설은 lately 한 장이었다. 이는 해당 구문이 예문에 없다는 뜻이 아니다.",
+        "recommendation": "합의된 세트별 문법 지도를 마무리할 때 앞서 소개한 have/would 등을 다양한 후속 예문에 배치하는 기존 계획을 이어 간다. 아직 진행 중인 계획을 현재 앱의 확정 결함으로 집계하지 않는다."
+      }
+    ]
+  },
+  "research": [
+    {
+      "title": "Li & Sun, Effects of different forms of explicit instruction on L2 development: A meta-analysis",
+      "url": "https://doi.org/10.1111/flan.12726",
+      "use": "짧은 명시적 설명과 언어 사용을 연결하는 방향의 일반 근거. 공개 초록을 확인했으며 이 앱의 효과나 15/8/3회라는 임계값을 검증한 연구로 인용하지 않는다."
+    }
+  ],
+  "priorityOrder": [
+    "해설의 적용 범위 5묶음·7카드를 짧게 다듬는다. 현재 예문 7개가 틀렸다는 뜻이 아니다.",
+    "143항목 지도에 현재 예문과 하위 기능을 연결하고, 소개·후속 재등장을 확인한다.",
+    "현재완료·수동·관계절·준동사·조건/가정처럼 읽기 구조를 좌우하는 항목부터 기존의 교체 가치가 높은 예문에 배치한다.",
+    "기존 표제어 순서·셔플·입력 방식·좋은 예문은 유지하고 실제 화면 길이와 어휘 수준을 검수한다."
+  ],
+  "verification": {
+    "snapshot": "e9c178d",
+    "cards": 7573,
+    "dataHash": "0dc374c9c6037542500080983a77873577606d2ce0337e0e252621d13abde3d1",
+    "sourceOrderDifferences": 0,
+    "correctionGroups": 5,
+    "correctionCards": 7,
+    "reportOnly": true,
+    "note": "제안은 미적용. 이번 문법 리뷰에서는 앱 기능 검사를 재실행하지 않았다."
+  }
+}
