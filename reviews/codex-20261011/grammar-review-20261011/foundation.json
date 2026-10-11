@@ -1,0 +1,1781 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-11",
+  "reviewer": "full_review_00_11",
+  "snapshot": "e9c178d",
+  "scope": {
+    "primarySets": [
+      0,
+      5
+    ],
+    "directlyRereadRanges": [
+      [
+        1,
+        234
+      ],
+      [
+        1020,
+        1181
+      ]
+    ],
+    "directlyRereadCardCount": 396,
+    "priorFullReadingRange": [
+      1,
+      2155
+    ],
+    "source": "work/full-review-20261011/cards.json",
+    "policy": "work/opus-review-20261011/repo/PRINCIPLES.md §12 전체 재독",
+    "mutation": "앱·카드·배포 수정 없음. 리뷰 자료만 작성."
+  },
+  "assessment": "0세트는 기초 문형을 짧은 생활 예문과 연결하는 초석으로 잘 구성되어 있다. 5세트는 그 초석을 기능어의 여러 쓰임으로 넓힌다. 우선 개선할 것은 규칙을 더 많이 추가하는 일이 아니라, 몇몇 짧은 공식에서 적용 범위를 드러내는 일이다. 전체 문법 지도는 부분 구현 상태라는 기준에 따라 현재완료·가정법 등이 충분히 체화되었다고 판정하지 않는다.",
+  "agreedBoundaries": [
+    "0세트 23연습·234장의 완성된 구성을 전제로 검토한다.",
+    "표제어 입력·예문 읽기·해설 방식은 유지한다. FABLE에 어법 고치기 모드나 별도 시험을 넣자는 제안은 하지 않는다.",
+    "수능 어법 판단 훈련은 이미 합의한 마더텅 수능 영어 문법 기출 교재의 역할이다.",
+    "1~4세트 내용어 전체 재배열을 제안하지 않는다.",
+    "연습 안의 첫 회독도 섞이므로 카드 n 순서를 실제 소개 순서로 간주하지 않는다."
+  ],
+  "strengths": [
+    {
+      "id": "S1",
+      "title": "처음 다섯 연습의 기능이 분명하다",
+      "reason": "0세트 Exercise 1~5는 나·너와 be, 그·우리·그들과 대답, 나를·나의, this/that와 관사, 연결·질문으로 이어진다. 명칭과 예문이 문장 뼈대를 먼저 보게 한다. 단어의 쉬움이 곧 학습의 무의미함이 되지 않는다.",
+      "evidence": [
+        {
+          "n": 5,
+          "id": "[\"0세트\",\"Exercise 5 · 사람\",\"I\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 1 · 인사와 나·너",
+          "term": "I",
+          "meaning": "① 나는, 내가",
+          "ex": "{{BLANK}} am fifteen, and my brother is twelve.",
+          "tr": "나는 열다섯 살이고, 남동생은 열두 살이야.",
+          "c": "I 뒤에는 am, 한 사람이나 한 개 뒤에는 is. I는 늘 대문자로 써."
+        },
+        {
+          "n": 6,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"you\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 1 · 인사와 나·너",
+          "term": "you",
+          "meaning": "① 너, 너희",
+          "ex": "{{BLANK}} are my best friend.",
+          "tr": "넌 내 제일 친한 친구야.",
+          "c": "you 뒤에는 늘 are. 한 명이든 여럿이든 You are ~."
+        },
+        {
+          "n": 9,
+          "id": "[\"fable-pool-20260927-set5-ex2\",\"Exercise 2 · 411~420\",\"he\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 2 · 그·우리·그들과 대답",
+          "term": "he",
+          "meaning": "① 그가, 그 남자가",
+          "ex": "This is Minsu. {{BLANK}} is my friend.",
+          "tr": "얘는 민수야. 내 친구야.",
+          "c": "남자 한 명은 he로 받아. 처음엔 이름을 말하고, 다음부턴 he라고 해."
+        },
+        {
+          "n": 14,
+          "id": "[\"5세트\",\"Exercise 9 · 481~490\",\"yes\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 2 · 그·우리·그들과 대답",
+          "term": "yes",
+          "meaning": "① 응, 네",
+          "ex": "\"Aren't you hungry?\" \"{{BLANK}}, I am. Let's eat.\"",
+          "tr": "\"배 안 고파?\" \"아니, 고파. 먹자.\"",
+          "c": "부정으로 물어도 배고프면 Yes, I am. 우리말 ‘아니’가 Yes가 될 수 있어."
+        },
+        {
+          "n": 15,
+          "id": "[\"1세트\",\"Exercise 1 · 1~10\",\"no\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 2 · 그·우리·그들과 대답",
+          "term": "no",
+          "meaning": "① 아니다 (↔ yes)",
+          "ex": "\"Don't you like milk?\" \"{{BLANK}}, I don't.\"",
+          "tr": "\"우유 안 좋아해?\" \"응, 안 좋아해.\"",
+          "c": "뒤에 I don't가 오면 대답은 No. 우리말 ‘응’이 No가 될 수 있어."
+        },
+        {
+          "n": 18,
+          "id": "[\"5세트\",\"Exercise 3 · 421~430\",\"my\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 3 · 나를·나의",
+          "term": "my",
+          "meaning": "① 나의, 내",
+          "ex": "Hi, I'm new. {{BLANK}} name is Jiho.",
+          "tr": "안녕, 나 새로 왔어. 내 이름은 지호야.",
+          "c": "‘나의’는 my. 뒤에 명사가 꼭 와: my name. 명사 없이 ‘내 것’은 mine."
+        },
+        {
+          "n": 20,
+          "id": "[\"5세트\",\"Exercise 4 · 431~440\",\"me\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 3 · 나를·나의",
+          "term": "me",
+          "meaning": "① 나를, 나에게",
+          "ex": "Can you help {{BLANK}} with this box?",
+          "tr": "이 상자 옮기는 것 좀 도와줄래?",
+          "c": "동사 뒤 ‘나를·나에게’는 me: help me(O), help I(X)."
+        },
+        {
+          "n": 25,
+          "id": "[\"5세트\",\"Exercise 3 · 421~430\",\"his\",2,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 3 · 나를·나의",
+          "term": "his",
+          "meaning": "② 그의 것",
+          "ex": "This seat is {{BLANK}}, not yours.",
+          "tr": "이 자리 걔 거야, 네 거 아니고.",
+          "c": "명사 없이 ‘그의 것’도 his. my는 mine, your는 yours로 바뀌어."
+        },
+        {
+          "n": 31,
+          "id": "[\"fable-pool-20260927-set5-ex2\",\"Exercise 2 · 411~420\",\"this\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 4 · 이것·저것과 a·the",
+          "term": "this",
+          "meaning": "① 이것, 이 ~",
+          "ex": "{{BLANK}} is my new phone.",
+          "tr": "이게 내 새 폰이야.",
+          "c": "가까운 것 하나는 this. 사람을 소개할 때도 This is my brother."
+        },
+        {
+          "n": 35,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"a\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 4 · 이것·저것과 a·the",
+          "term": "a",
+          "meaning": "① 하나의 (처음 꺼내는 것 앞)",
+          "ex": "I have {{BLANK}} dog and two cats.",
+          "tr": "나 개 한 마리랑 고양이 두 마리 있어.",
+          "c": "셀 수 있는 것 하나 앞엔 a, 둘부터는 -s: a dog, two cats."
+        },
+        {
+          "n": 36,
+          "id": "[\"19세트\",\"Exercise 10 · 1891~1900\",\"an\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 4 · 이것·저것과 a·the",
+          "term": "an",
+          "meaning": "① (모음 소리 앞) 하나의",
+          "ex": "I ate {{BLANK}} egg and a banana.",
+          "tr": "나 달걀 하나랑 바나나 하나 먹었어.",
+          "c": "모음 소리 앞엔 an: an egg, an hour. 철자 말고 소리로 정해: a uniform."
+        },
+        {
+          "n": 37,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"the\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 4 · 이것·저것과 a·the",
+          "term": "the",
+          "meaning": "① (서로 아는) 그, 바로 그",
+          "ex": "I saw a dog. {{BLANK}} dog was very big.",
+          "tr": "개 한 마리를 봤어. 그 개는 아주 컸어.",
+          "c": "처음 말할 땐 a, 다시 말할 땐 the: a dog → the dog."
+        },
+        {
+          "n": 41,
+          "id": "[\"5세트\",\"Exercise 3 · 421~430\",\"what\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 5 · 잇는 말과 묻는 말",
+          "term": "what",
+          "meaning": "① 무엇, 무슨",
+          "ex": "{{BLANK}} do you want for lunch?",
+          "tr": "점심으로 뭐 먹고 싶어?",
+          "c": "what 뒤에 do를 넣어 물어: What do you want? 답은 내용으로 해."
+        },
+        {
+          "n": 42,
+          "id": "[\"5세트\",\"Exercise 4 · 431~440\",\"who\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 5 · 잇는 말과 묻는 말",
+          "term": "who",
+          "meaning": "① 누가, 누구",
+          "ex": "{{BLANK}} ate my ice cream?",
+          "tr": "누가 내 아이스크림 먹었어?",
+          "c": "누가 했는지 물을 땐 who 뒤에 바로 동사. do를 쓰지 않아."
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "한국어에서 바로 옮길 때 생기는 오류를 짧게 막는다",
+      "reason": "부정 질문의 Yes/No, 목적격 help me, because of+명사와 because+문장, homework의 불가산성, discuss의 직접 목적어가 실제 예문과 연결된다. 길게 분류를 암기시키지 않고 오류가 생기는 자리를 짚는다.",
+      "evidence": [
+        {
+          "n": 14,
+          "id": "[\"5세트\",\"Exercise 9 · 481~490\",\"yes\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 2 · 그·우리·그들과 대답",
+          "term": "yes",
+          "meaning": "① 응, 네",
+          "ex": "\"Aren't you hungry?\" \"{{BLANK}}, I am. Let's eat.\"",
+          "tr": "\"배 안 고파?\" \"아니, 고파. 먹자.\"",
+          "c": "부정으로 물어도 배고프면 Yes, I am. 우리말 ‘아니’가 Yes가 될 수 있어."
+        },
+        {
+          "n": 15,
+          "id": "[\"1세트\",\"Exercise 1 · 1~10\",\"no\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 2 · 그·우리·그들과 대답",
+          "term": "no",
+          "meaning": "① 아니다 (↔ yes)",
+          "ex": "\"Don't you like milk?\" \"{{BLANK}}, I don't.\"",
+          "tr": "\"우유 안 좋아해?\" \"응, 안 좋아해.\"",
+          "c": "뒤에 I don't가 오면 대답은 No. 우리말 ‘응’이 No가 될 수 있어."
+        },
+        {
+          "n": 20,
+          "id": "[\"5세트\",\"Exercise 4 · 431~440\",\"me\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 3 · 나를·나의",
+          "term": "me",
+          "meaning": "① 나를, 나에게",
+          "ex": "Can you help {{BLANK}} with this box?",
+          "tr": "이 상자 옮기는 것 좀 도와줄래?",
+          "c": "동사 뒤 ‘나를·나에게’는 me: help me(O), help I(X)."
+        },
+        {
+          "n": 21,
+          "id": "[\"5세트\",\"Exercise 5 · 441~450\",\"him\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 3 · 나를·나의",
+          "term": "him",
+          "meaning": "① 그를, 그에게",
+          "ex": "That boy is new here. Do you know {{BLANK}}?",
+          "tr": "저 남자애 새로 왔어. 너 걔 알아?",
+          "c": "he의 ‘~를’ 모양은 him: know him(O), know he(X)."
+        },
+        {
+          "n": 45,
+          "id": "[\"set0-20261010\",\"Exercise 5 · 잇는 말과 묻는 말\",\"because of\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 5 · 잇는 말과 묻는 말",
+          "term": "because of",
+          "meaning": "① ~ 때문에 (+명사)",
+          "ex": "We stayed home {{BLANK}} the rain.",
+          "tr": "비 때문에 우리는 집에 있었어.",
+          "c": "명사 앞엔 because of, 문장 앞엔 because: because it rained."
+        },
+        {
+          "n": 196,
+          "id": "[\"0세트\",\"Exercise 9 · 현대어\",\"homework\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 20 · 주말과 놀이",
+          "term": "homework",
+          "meaning": "① 숙제",
+          "ex": "I left my English {{BLANK}} at home.",
+          "tr": "영어 숙제를 집에 두고 왔어.",
+          "c": "셀 수 없는 명사라 a homework, homeworks는 틀린 말. do one's homework 숙제하다."
+        },
+        {
+          "n": 223,
+          "id": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"discuss\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 22 · 형용사와 동사",
+          "term": "discuss",
+          "meaning": "① 논의하다, 토론하다",
+          "ex": "Let's {{BLANK}} the plan tomorrow.",
+          "tr": "그 계획은 내일 논의하자.",
+          "c": "전치사 없이 바로: discuss it(O), discuss about(X)."
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "한 규칙이 다른 생활어에서 다시 보인다",
+      "reason": "요일 on은 학교·영화·운동에서, 달 in/날짜 on은 생일·기념일에서 반복된다. 수와 복수도 형제·끼니·동물·돈으로 바뀌어 나온다. 명사/동사 위치 구별과 -ing 명사도 여러 단어로 제시된다.",
+      "evidence": [
+        {
+          "n": 50,
+          "id": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"two\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 6 · 수 I (0~10)",
+          "term": "two",
+          "meaning": "① 둘, 2",
+          "ex": "I have {{BLANK}} older brothers.",
+          "tr": "난 형이 둘이야.",
+          "c": "둘부터는 명사에 -s를 붙여: two brothers. too·to와 소리가 같아."
+        },
+        {
+          "n": 51,
+          "id": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"three\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 6 · 수 I (0~10)",
+          "term": "three",
+          "meaning": "① 셋, 3",
+          "ex": "I eat {{BLANK}} meals a day.",
+          "tr": "난 하루에 세 끼 먹어.",
+          "c": "서수는 third(세 번째)."
+        },
+        {
+          "n": 52,
+          "id": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"four\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 6 · 수 I (0~10)",
+          "term": "four",
+          "meaning": "① 넷, 4",
+          "ex": "A dog has {{BLANK}} legs, and a bird has two.",
+          "tr": "개는 다리가 넷이고, 새는 둘이야.",
+          "c": "서수는 fourth(네 번째)."
+        },
+        {
+          "n": 81,
+          "id": "[\"0세트\",\"Exercise 3 · 요일·월\",\"Monday\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 9 · 요일과 on",
+          "term": "Monday",
+          "meaning": "① 월요일",
+          "ex": "I have a test on {{BLANK}}.",
+          "tr": "나 월요일에 시험 있어.",
+          "c": "요일 앞엔 on. 요일·월은 늘 대문자."
+        },
+        {
+          "n": 84,
+          "id": "[\"0세트\",\"Exercise 3 · 요일·월\",\"Thursday\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 9 · 요일과 on",
+          "term": "Thursday",
+          "meaning": "① 목요일",
+          "ex": "The movie comes out on {{BLANK}}.",
+          "tr": "그 영화 목요일에 개봉해.",
+          "c": "Thur-: 북유럽 신 Thor의 날."
+        },
+        {
+          "n": 85,
+          "id": "[\"0세트\",\"Exercise 3 · 요일·월\",\"Friday\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 9 · 요일과 on",
+          "term": "Friday",
+          "meaning": "① 금요일",
+          "ex": "I watch a movie every {{BLANK}} night.",
+          "tr": "난 금요일 밤마다 영화를 봐.",
+          "c": "every·next·last 앞에는 on을 쓰지 않아. Fri-는 여신 Frigg의 날."
+        },
+        {
+          "n": 88,
+          "id": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"January\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 10 · 달과 in·on",
+          "term": "January",
+          "meaning": "① 1월",
+          "ex": "The new year starts in {{BLANK}}.",
+          "tr": "새해는 1월에 시작하지.",
+          "c": "월 앞엔 in: in January. 줄임 Jan."
+        },
+        {
+          "n": 91,
+          "id": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"April\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 10 · 달과 in·on",
+          "term": "April",
+          "meaning": "① 4월",
+          "ex": "Youngsin Choi got married on {{BLANK}} Fools' Day.",
+          "tr": "영신초이는 만우절(4월 1일)에 결혼했어.",
+          "c": "April Fools' Day=만우절. 달은 in April, 특정한 날은 on April Fools' Day."
+        },
+        {
+          "n": 93,
+          "id": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"June\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 10 · 달과 in·on",
+          "term": "June",
+          "meaning": "① 6월",
+          "ex": "My birthday is in {{BLANK}}.",
+          "tr": "내 생일은 6월이야.",
+          "c": ""
+        },
+        {
+          "n": 121,
+          "id": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"reading\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 13 · -ing가 된 말",
+          "term": "reading",
+          "meaning": "① 읽기, 독서",
+          "ex": "{{BLANK}} is my favorite hobby.",
+          "tr": "독서가 제일 좋은 취미야.",
+          "c": "read에 -ing를 붙이면 ‘읽기’라는 명사가 돼: Reading is fun."
+        },
+        {
+          "n": 124,
+          "id": "[\"0세트\",\"Exercise 7 · 집·생활\",\"swimming\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 13 · -ing가 된 말",
+          "term": "swimming",
+          "meaning": "① 수영",
+          "ex": "We go {{BLANK}} every Saturday.",
+          "tr": "우리는 토요일마다 수영하러 가.",
+          "c": "m을 하나 더: swimming. go swimming 수영하러 가다."
+        },
+        {
+          "n": 128,
+          "id": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"hobby\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 13 · -ing가 된 말",
+          "term": "hobby",
+          "meaning": "① 취미",
+          "ex": "My {{BLANK}} is taking photos.",
+          "tr": "내 취미는 사진 찍기야.",
+          "c": "취미는 -ing로 말해: My hobby is taking photos. 복수는 hobbies."
+        },
+        {
+          "n": 134,
+          "id": "[\"0세트\",\"Exercise 9 · 현대어\",\"email\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 14 · 명사이자 동사",
+          "term": "email",
+          "meaning": "① 이메일, 전자 우편",
+          "ex": "I sent you an {{BLANK}} last night.",
+          "tr": "어젯밤에 너한테 이메일 보냈어.",
+          "c": "e-mail로도 쓴다. electronic mail의 줄임말. 동사로도 써서 Email me.는 '나한테 메일 보내'."
+        },
+        {
+          "n": 135,
+          "id": "[\"0세트\",\"Exercise 9 · 현대어\",\"email\",2,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 14 · 명사이자 동사",
+          "term": "email",
+          "meaning": "② 이메일을 보내다",
+          "ex": "Please {{BLANK}} me the photos tonight.",
+          "tr": "오늘 밤 그 사진들 이메일로 보내 줘.",
+          "c": "같은 모양이 명사(an email)도 동사(email me)도 돼. 자리를 보고 구별해."
+        },
+        {
+          "n": 139,
+          "id": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"design\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 14 · 명사이자 동사",
+          "term": "design",
+          "meaning": "① 디자인하다, 설계하다",
+          "ex": "She {{BLANK}}s clothes.",
+          "tr": "걔는 옷을 디자인해.",
+          "c": "모양·구조를 짜다. 명사도 design. g는 묵음."
+        },
+        {
+          "n": 140,
+          "id": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"design\",2,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 14 · 명사이자 동사",
+          "term": "design",
+          "meaning": "② 디자인, 설계",
+          "ex": "I like the {{BLANK}} of this building.",
+          "tr": "이 건물의 디자인이 마음에 들어.",
+          "c": "모양·구조를 짜는 일이나 그 결과인 설계를 뜻해."
+        },
+        {
+          "n": 180,
+          "id": "[\"0세트\",\"Exercise 7 · 집·생활\",\"photo\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 18 · 생활과 매체",
+          "term": "photo",
+          "meaning": "① 사진",
+          "ex": "Is that a painting or a {{BLANK}}?",
+          "tr": "저거 그림이야, 사진이야?",
+          "c": "photograph의 줄임. 복수는 photos: tomato처럼 -es를 붙이지 않아."
+        },
+        {
+          "n": 201,
+          "id": "[\"0세트\",\"Exercise 9 · 현대어\",\"bike\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 20 · 주말과 놀이",
+          "term": "bike",
+          "meaning": "① 자전거",
+          "ex": "I ride my {{BLANK}} to school.",
+          "tr": "난 자전거 타고 학교에 가.",
+          "c": "bicycle의 줄임말. 자전거를 타다는 ride a bike. by bike에는 a를 쓰지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "오래된 문법 오개념을 피하는 5세트 해설이 좋다",
+      "reason": "may/might를 고정 확률로 나누지 않고, between을 둘 전용으로 제한하지 않으며, would의 과거 상태·could의 개별 성공에 보통이라는 제한을 둔다. must not과 don’t have to, during과 for를 실제 의미 차이로 구분한다. 이 정밀도를 유지하는 편이 좋다.",
+      "evidence": [
+        {
+          "n": 1036,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"have\",1,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-2 · 기본 기능어",
+          "term": "have",
+          "meaning": "① 가지고 있다",
+          "ex": "I {{BLANK}} two cats at home.",
+          "tr": "나 집에 고양이 두 마리 있어.",
+          "c": "소유를 나타내는 have는 보통 진행형으로 쓰지 않는다. 차가 있다는 뜻은 I have a car."
+        },
+        {
+          "n": 1039,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"have\",4,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-2 · 기본 기능어",
+          "term": "have",
+          "meaning": "④ ~해야 한다",
+          "ex": "I {{BLANK}} to get up early tomorrow.",
+          "tr": "나 내일 일찍 일어나야 돼.",
+          "c": "have to는 의무·필요. 과거는 had to, don't have to는 '안 해도 된다'로 금지가 아니다."
+        },
+        {
+          "n": 1043,
+          "id": "[\"fable-pool-20260927-set5-ex2\",\"Exercise 2 · 411~420\",\"for\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 2-1 · 411~420",
+          "term": "for",
+          "meaning": "② (기간) ~동안",
+          "ex": "I studied {{BLANK}} two hours.",
+          "tr": "나 두 시간 동안 공부했어.",
+          "c": "for는 지속한 시간의 길이, during은 일이 일어난 기간·때를 나타낸다."
+        },
+        {
+          "n": 1090,
+          "id": "[\"5세트\",\"Exercise 5 · 441~450\",\"would\",4,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 5 · 441~450",
+          "term": "would",
+          "meaning": "④ (과거에) ~하곤 했다",
+          "ex": "As kids, we {{BLANK}} play outside after school.",
+          "tr": "어릴 때 우리는 방과 후에 밖에서 놀곤 했어.",
+          "c": "과거에 반복한 행동. 과거의 상태에는 보통 would 대신 used to를 쓴다."
+        },
+        {
+          "n": 1105,
+          "id": "[\"5세트\",\"Exercise 6 · 451~460\",\"could\",1,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 6-1 · 451~460",
+          "term": "could",
+          "meaning": "① ~할 수 있었다",
+          "ex": "I {{BLANK}} swim at five.",
+          "tr": "나 다섯 살 때 수영할 줄 알았어.",
+          "c": "과거의 일반적인 능력. 특정한 일을 해낸 성공은 보통 was able to로 말한다."
+        },
+        {
+          "n": 1137,
+          "id": "[\"5세트\",\"Exercise 8 · 471~480\",\"may\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 8-1 · 471~480",
+          "term": "may",
+          "meaning": "② ~일지도 모른다",
+          "ex": "It {{BLANK}} snow tonight.",
+          "tr": "오늘 밤 눈 올지도 몰라.",
+          "c": "가능성이 있음을 나타낸다. may와 might의 확신 정도는 문맥·말투에 따라 달라진다."
+        },
+        {
+          "n": 1156,
+          "id": "[\"5세트\",\"Exercise 9 · 481~490\",\"between\",1,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 9 · 481~490",
+          "term": "between",
+          "meaning": "① ~사이에",
+          "ex": "The cafe is {{BLANK}} the bank and the gym.",
+          "tr": "그 카페 은행이랑 체육관 사이에 있어.",
+          "c": "구별되는 대상 사이에는 between. 셋 이상에도 쓴다. 무리 안에 있다는 뜻이면 among."
+        },
+        {
+          "n": 1159,
+          "id": "[\"5세트\",\"Exercise 9 · 481~490\",\"might\",1,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 9 · 481~490",
+          "term": "might",
+          "meaning": "① ~일지도 모른다",
+          "ex": "She {{BLANK}} be at the library now.",
+          "tr": "걔 지금 도서관에 있을지도 몰라.",
+          "c": "might와 could는 모두 ~일 수도 있다는 가능성. may보다 늘 확률이 낮은 건 아니야."
+        },
+        {
+          "n": 1166,
+          "id": "[\"5세트\",\"Exercise 10 · 491~500\",\"must\",1,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 10-1 · 491~500",
+          "term": "must",
+          "meaning": "① ~해야 한다 (강한 의무)",
+          "ex": "You {{BLANK}} wear a seat belt.",
+          "tr": "안전벨트 꼭 매야 해.",
+          "c": "강한 의무를 나타낸다. must not은 금지, don't have to는 '안 해도 된다'라는 뜻."
+        },
+        {
+          "n": 1168,
+          "id": "[\"5세트\",\"Exercise 10 · 491~500\",\"during\",1,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 10-1 · 491~500",
+          "term": "during",
+          "meaning": "① ~동안, ~중에",
+          "ex": "I fell asleep {{BLANK}} the movie.",
+          "tr": "나 영화 보다가 잠들었어.",
+          "c": "during은 일이 일어난 기간·때, for는 지속한 시간의 길이: during class, for an hour."
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "문법 용어를 쉬운 의미 설명으로 바꿔 준다",
+      "reason": "가주어 it은 앞의 주어 자리를 채우는 말, 관계대명사는 명사 뒤에 설명을 거는 고리, 관계 what은 전체가 한 덩어리로 설명한다. 이 설명은 정확한 용례를 읽는 데 필요한 만큼만 도움을 준다.",
+      "evidence": [
+        {
+          "n": 1034,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"it\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-2 · 기본 기능어",
+          "term": "it",
+          "meaning": "② 비인칭 주어 (날씨·시간)",
+          "ex": "{{BLANK}} is raining a lot outside.",
+          "tr": "밖에 비 엄청 온다.",
+          "c": "날씨·시간·거리를 말할 때 주어 자리를 채우는 it. 이 문장에서는 특정 사물을 가리키지 않는다."
+        },
+        {
+          "n": 1035,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"it\",3,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-2 · 기본 기능어",
+          "term": "it",
+          "meaning": "③ 가주어",
+          "ex": "{{BLANK}} is fun to play this game.",
+          "tr": "이 게임 하는 거 재밌어.",
+          "c": "It is fun to play는 ‘하는 것이 재미있다’. to play 이하가 내용을 맡고, it이 앞의 주어 자리를 채운다."
+        },
+        {
+          "n": 1040,
+          "id": "[\"fable-pool-20260927-set5-ex2\",\"Exercise 2 · 411~420\",\"that\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 2-1 · 411~420",
+          "term": "that",
+          "meaning": "② ~라는 것",
+          "ex": "I know {{BLANK}} you like her.",
+          "tr": "너 걔 좋아하는 거 다 알아.",
+          "c": "that 뒤 문장 전체가 '~라는 것' 한 덩어리가 된다. 생략도 가능."
+        },
+        {
+          "n": 1041,
+          "id": "[\"fable-pool-20260927-set5-ex2\",\"Exercise 2 · 411~420\",\"that\",3,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 2-1 · 411~420",
+          "term": "that",
+          "meaning": "③ (명사 뒤) ~하는 (관계대명사)",
+          "ex": "This is everything {{BLANK}} I need.",
+          "tr": "이게 내가 필요한 전부야.",
+          "c": "명사 뒤에 설명을 거는 고리. 사람이든 사물이든 that은 다 받는다."
+        },
+        {
+          "n": 1059,
+          "id": "[\"5세트\",\"Exercise 3 · 421~430\",\"what\",3,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 3 · 421~430",
+          "term": "what",
+          "meaning": "③ ~하는 것",
+          "ex": "You can take {{BLANK}} you need.",
+          "tr": "네게 필요한 것을 가져가도 돼.",
+          "c": "여기서 what은 the thing that처럼 '~하는 것'. what you need 전체가 한 덩어리다."
+        },
+        {
+          "n": 1079,
+          "id": "[\"5세트\",\"Exercise 4 · 431~440\",\"who\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 4-2 · 431~440",
+          "term": "who",
+          "meaning": "② (사람 뒤) ~하는 (관계대명사)",
+          "ex": "I have a friend {{BLANK}} lives in Ilsan.",
+          "tr": "나 일산 사는 친구 있어.",
+          "c": "사람 명사 뒤에 붙는 고리: a friend who~ = ~하는 친구."
+        },
+        {
+          "n": 1104,
+          "id": "[\"5세트\",\"Exercise 6 · 451~460\",\"which\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 6-1 · 451~460",
+          "term": "which",
+          "meaning": "② (사물 뒤) ~하는 (관계대명사)",
+          "ex": "This is the bag {{BLANK}} I bought yesterday.",
+          "tr": "이게 어제 산 가방이야.",
+          "c": "사물·동물 뒤에 거는 고리. 사람이면 who로 바꿔 단다."
+        }
+      ]
+    }
+  ],
+  "priorityFindings": [
+    {
+      "id": "G1",
+      "category": "rule_scope",
+      "priority": "높음",
+      "ns": [
+        5,
+        6,
+        10
+      ],
+      "relatedNs": [
+        13
+      ],
+      "title": "현재형 be·일반동사 규칙의 범위가 빠져 있다",
+      "evidence": [
+        {
+          "n": 5,
+          "id": "[\"0세트\",\"Exercise 5 · 사람\",\"I\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 1 · 인사와 나·너",
+          "term": "I",
+          "meaning": "① 나는, 내가",
+          "ex": "{{BLANK}} am fifteen, and my brother is twelve.",
+          "tr": "나는 열다섯 살이고, 남동생은 열두 살이야.",
+          "c": "I 뒤에는 am, 한 사람이나 한 개 뒤에는 is. I는 늘 대문자로 써."
+        },
+        {
+          "n": 6,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"you\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 1 · 인사와 나·너",
+          "term": "you",
+          "meaning": "① 너, 너희",
+          "ex": "{{BLANK}} are my best friend.",
+          "tr": "넌 내 제일 친한 친구야.",
+          "c": "you 뒤에는 늘 are. 한 명이든 여럿이든 You are ~."
+        },
+        {
+          "n": 10,
+          "id": "[\"5세트\",\"Exercise 3 · 421~430\",\"she\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 2 · 그·우리·그들과 대답",
+          "term": "she",
+          "meaning": "① 그녀가, 그 여자가",
+          "ex": "My mom is a doctor. {{BLANK}} works at a big hospital.",
+          "tr": "우리 엄마는 의사야. 큰 병원에서 일하셔.",
+          "c": "she·he 뒤 일반동사엔 -s를 붙여: she works(O), she work(X)."
+        },
+        {
+          "n": 13,
+          "id": "[\"5세트\",\"Exercise 3 · 421~430\",\"they\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 2 · 그·우리·그들과 대답",
+          "term": "they",
+          "meaning": "① 그들이, 그것들이",
+          "ex": "My cats are hungry. {{BLANK}} want food.",
+          "tr": "우리 고양이들 배고파. 밥 달래.",
+          "c": "여럿은 사람이든 물건이든 they. they 뒤 동사엔 -s가 없어: they want."
+        }
+      ],
+      "risk": "you 뒤에는 늘 are라는 문구는 You like...·You were...에도 are를 넣어야 하는 규칙처럼 읽힌다. she/he 뒤 일반동사에 -s라는 설명도 현재형 긍정문의 범위를 생략했다. I 뒤 am과 한 사람 뒤 is 역시 be의 현재형에 한정해야 한다. 예문 자체는 맞다.",
+      "minimalEdits": [
+        {
+          "n": 5,
+          "field": "c",
+          "suggestion": "현재형 be는 I am, he·she·it is처럼 써. I는 늘 대문자야."
+        },
+        {
+          "n": 6,
+          "field": "c",
+          "suggestion": "현재형 be는 한 명이든 여럿이든 You are ~."
+        },
+        {
+          "n": 10,
+          "field": "c",
+          "suggestion": "현재형 긍정문에서는 she·he 뒤 일반동사에 -s: she works(O), she work(X)."
+        }
+      ],
+      "relatedOptional": "n13도 현재형 범위를 함께 밝혀 두면 규칙 표현이 맞춰진다. 과거형 표·시제 예외 목록을 덧붙일 필요는 없다.",
+      "sources": [
+        "https://learnenglishteens.britishcouncil.org/grammar/a1-a2-grammar/be-present-past",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple"
+      ],
+      "confidence": {
+        "grammar": "high",
+        "learnerRisk": "plausible; learner testing not performed"
+      }
+    },
+    {
+      "id": "G2",
+      "category": "rule_scope",
+      "priority": "높음",
+      "ns": [
+        41
+      ],
+      "relatedNs": [
+        17,
+        42
+      ],
+      "title": "what 뒤 do를 무조건 넣는 공식으로 읽힐 수 있다",
+      "evidence": [
+        {
+          "n": 17,
+          "id": "[\"fable-pool-20260927-set5-ex2\",\"Exercise 2 · 411~420\",\"do\",2,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 2 · 그·우리·그들과 대답",
+          "term": "do",
+          "meaning": "② (의문문·부정문 도우미) 조동사",
+          "ex": "\"{{BLANK}} you like cats?\" \"Yes, I do.\"",
+          "tr": "\"고양이 좋아해?\" \"응, 좋아해.\"",
+          "c": "일반동사는 Do로 묻고 do로 답해: Yes, I do. be 동사는 Are you ~?로 물어."
+        },
+        {
+          "n": 19,
+          "id": "[\"5세트\",\"Exercise 4 · 431~440\",\"your\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 3 · 나를·나의",
+          "term": "your",
+          "meaning": "① 너의, 너희의",
+          "ex": "Hi, I'm Jiho. What is {{BLANK}} name?",
+          "tr": "안녕, 난 지호야. 너는 이름이 뭐야?",
+          "c": "‘너의’는 your. you're(you are)와 소리가 같으니 철자를 구별해."
+        },
+        {
+          "n": 41,
+          "id": "[\"5세트\",\"Exercise 3 · 421~430\",\"what\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 5 · 잇는 말과 묻는 말",
+          "term": "what",
+          "meaning": "① 무엇, 무슨",
+          "ex": "{{BLANK}} do you want for lunch?",
+          "tr": "점심으로 뭐 먹고 싶어?",
+          "c": "what 뒤에 do를 넣어 물어: What do you want? 답은 내용으로 해."
+        },
+        {
+          "n": 42,
+          "id": "[\"5세트\",\"Exercise 4 · 431~440\",\"who\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 5 · 잇는 말과 묻는 말",
+          "term": "who",
+          "meaning": "① 누가, 누구",
+          "ex": "{{BLANK}} ate my ice cream?",
+          "tr": "누가 내 아이스크림 먹었어?",
+          "c": "누가 했는지 물을 땐 who 뒤에 바로 동사. do를 쓰지 않아."
+        }
+      ],
+      "risk": "what 뒤에 do를 넣어 물어라는 문장은 What is your name? 같은 be 질문과 What happened? 같은 주어 질문까지 잘못 확장할 수 있다. 같은 0세트 n19에 이미 What is your name?이 있어 실제 카드끼리 연결할 때도 혼란이 생긴다.",
+      "minimalEdits": [
+        {
+          "n": 41,
+          "field": "c",
+          "suggestion": "‘무엇을 원하니?’는 What do you want?로 물어. 답은 원하는 것으로 해."
+        }
+      ],
+      "relatedOptional": "n17은 Do you like...?와 Are you...?의 대조로 좁히면 충분하다. n42는 ‘이처럼 누가 했는지 물을 때’라고 범위를 유지하고 모든 who 질문에 do가 금지된다고 늘리지 않는다.",
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/wh",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple"
+      ],
+      "confidence": {
+        "grammar": "high",
+        "learnerRisk": "plausible; learner testing not performed"
+      }
+    },
+    {
+      "id": "G3",
+      "category": "rule_scope",
+      "priority": "보통",
+      "ns": [
+        11
+      ],
+      "title": "영어는 주어를 꼭 쓴다는 말을 현재 문장에 한정한다",
+      "evidence": [
+        {
+          "n": 7,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"be\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 1 · 인사와 나·너",
+          "term": "be",
+          "meaning": "① ~이다 (am·is·are의 원형)",
+          "ex": "Please {{BLANK}} quiet in the library.",
+          "tr": "도서관에서는 조용히 해 줘.",
+          "c": "am·is·are의 원형이 be. Please·Don't 뒤엔 be 그대로: Don't be late!"
+        },
+        {
+          "n": 11,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"it\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 2 · 그·우리·그들과 대답",
+          "term": "it",
+          "meaning": "① 그것",
+          "ex": "I have a new bag. {{BLANK}} is blue.",
+          "tr": "나 새 가방 있어. 파란색이야.",
+          "c": "우리말은 ‘그것은’을 빼도 되지만 영어는 주어를 꼭 써: It is blue."
+        },
+        {
+          "n": 33,
+          "id": "[\"5세트\",\"Exercise 6 · 451~460\",\"here\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 4 · 이것·저것과 a·the",
+          "term": "here",
+          "meaning": "① 여기에, 여기로",
+          "ex": "Come {{BLANK}} and look at this.",
+          "tr": "이리 와서 이것 좀 봐.",
+          "c": "here 앞에는 to를 쓰지 않아: come here(O), come to here(X)."
+        }
+      ],
+      "risk": "현재 it 예문은 주어가 필요하지만 영어 전체에 주어를 꼭 쓰는 것은 아니다. 같은 0세트에는 Please be quiet와 Come here처럼 정상적인 명령문도 있다. 한국어의 주어 생략을 막으려는 좋은 취지를 유지하면서 현재의 서술 문장에 범위를 두면 된다.",
+      "minimalEdits": [
+        {
+          "n": 11,
+          "field": "c",
+          "suggestion": "우리말은 ‘그것은’을 빼도 되지만, 여기서는 주어 it을 써: It is blue."
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/subjects"
+      ],
+      "confidence": {
+        "grammar": "high",
+        "learnerRisk": "plausible; learner testing not performed"
+      }
+    },
+    {
+      "id": "G4",
+      "category": "rule_scope",
+      "priority": "보통",
+      "ns": [
+        43
+      ],
+      "title": "where의 답을 in·at 두 형태로 한정하지 않는다",
+      "evidence": [
+        {
+          "n": 33,
+          "id": "[\"5세트\",\"Exercise 6 · 451~460\",\"here\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 4 · 이것·저것과 a·the",
+          "term": "here",
+          "meaning": "① 여기에, 여기로",
+          "ex": "Come {{BLANK}} and look at this.",
+          "tr": "이리 와서 이것 좀 봐.",
+          "c": "here 앞에는 to를 쓰지 않아: come here(O), come to here(X)."
+        },
+        {
+          "n": 34,
+          "id": "[\"5세트\",\"Exercise 5 · 441~450\",\"there\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 4 · 이것·저것과 a·the",
+          "term": "there",
+          "meaning": "① 거기에, 거기서",
+          "ex": "Don't go {{BLANK}} alone at night.",
+          "tr": "밤에 거기 혼자 가지 마.",
+          "c": "there도 to 없이 써: go there(O), go to there(X)."
+        },
+        {
+          "n": 43,
+          "id": "[\"5세트\",\"Exercise 8 · 471~480\",\"where\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 5 · 잇는 말과 묻는 말",
+          "term": "where",
+          "meaning": "① 어디에, 어디서",
+          "ex": "{{BLANK}} do you live?",
+          "tr": "너 어디 살아?",
+          "c": "장소를 물을 때 where. 답은 in·at으로 해: I live in Seoul."
+        },
+        {
+          "n": 159,
+          "id": "[\"0세트\",\"Exercise 7 · 집·생활\",\"downstairs\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 16 · 집과 옷",
+          "term": "downstairs",
+          "meaning": "① 아래층에(으로)",
+          "ex": "Your mother is waiting {{BLANK}}.",
+          "tr": "엄마가 아래층에서 기다리셔.",
+          "c": "위층은 upstairs. 전치사 없이 쓴다: go downstairs."
+        },
+        {
+          "n": 1049,
+          "id": "[\"fable-pool-20260927-set5-ex2\",\"Exercise 2 · 411~420\",\"on\",1,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 2-2 · 411~420",
+          "term": "on",
+          "meaning": "① ~위에 (붙어서)",
+          "ex": "Your phone is {{BLANK}} the table.",
+          "tr": "네 폰 탁자 위에 있어.",
+          "c": "on의 핵심은 '접촉'. 벽에 붙은 그림도 on the wall이다."
+        }
+      ],
+      "risk": "답은 in·at으로 해라는 말은 모든 장소 질문의 답 형식처럼 읽힌다. 장소는 on the table·here·downstairs 등으로도 답한다. 현재 live in Seoul 예문은 정확하다.",
+      "minimalEdits": [
+        {
+          "n": 43,
+          "field": "c",
+          "suggestion": "장소를 물을 때 where. 사는 곳은 I live in Seoul처럼 답해."
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/wh",
+        "https://learnenglishteens.britishcouncil.org/grammar/a1-a2-grammar/be-present-past"
+      ],
+      "confidence": {
+        "grammar": "high",
+        "learnerRisk": "plausible; learner testing not performed"
+      }
+    },
+    {
+      "id": "G5",
+      "category": "rule_scope",
+      "priority": "보통",
+      "ns": [
+        1058
+      ],
+      "title": "What a 감탄문의 명사 조건을 표시한다",
+      "evidence": [
+        {
+          "n": 1058,
+          "id": "[\"5세트\",\"Exercise 3 · 421~430\",\"what\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 3 · 421~430",
+          "term": "what",
+          "meaning": "② 정말 ~구나!",
+          "ex": "{{BLANK}} a beautiful day!",
+          "tr": "와, 날씨 진짜 좋다!",
+          "c": "What a+명사! = 감탄문. 명사 없이 형용사만이면 How를 쓴다."
+        }
+      ],
+      "risk": "What a+명사!라는 공식에는 a/an 선택·단수 조건이 생략되어 있다. 불가산·복수 명사 앞에도 a를 넣는 공식으로 일반화할 수 있다. Cambridge의 What bad luck!처럼 a 없이 쓰는 감탄문도 있다.",
+      "minimalEdits": [
+        {
+          "n": 1058,
+          "field": "c",
+          "suggestion": "What a/an+(형용사)+단수 명사! 형용사만으로 감탄하면 How beautiful!처럼 써."
+        }
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/exclamations"
+      ],
+      "confidence": {
+        "grammar": "high",
+        "learnerRisk": "plausible; learner testing not performed"
+      }
+    }
+  ],
+  "optionalRefinements": [
+    {
+      "id": "O1",
+      "ns": [
+        24
+      ],
+      "title": "소유격 his를 꼭 써야 한다는 말의 범위를 좁힐 수 있다",
+      "evidence": [
+        {
+          "n": 24,
+          "id": "[\"5세트\",\"Exercise 3 · 421~430\",\"his\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 3 · 나를·나의",
+          "term": "his",
+          "meaning": "① 그의",
+          "ex": "Minsu lost {{BLANK}} phone again.",
+          "tr": "민수가 또 폰을 잃어버렸어.",
+          "c": "우리말은 ‘자기’를 빼도 되지만 영어는 his를 꼭 써: lost his phone."
+        }
+      ],
+      "reason": "소유자가 민수라는 문맥에서 his는 자연스럽다. 그러나 영어의 소유 명사 앞에 언제나 his를 넣어야 한다는 보편 규칙은 아니다. 현재 목적은 자신의 폰이라는 관계를 드러내는 것이다.",
+      "suggestion": "‘민수의 폰’은 his phone. 우리말에서 ‘자기’를 빼도 영어에서는 이렇게 밝혀 말해.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/pronouns-possessive-my-mine-your-yours-etc"
+      ],
+      "status": "낮은 우선순위의 표현 정밀화"
+    },
+    {
+      "id": "O2",
+      "ns": [
+        145
+      ],
+      "title": "서수 앞 the를 대표 형태로 표현한다",
+      "evidence": [
+        {
+          "n": 145,
+          "id": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"paragraph\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 15 · 학교와 공부",
+          "term": "paragraph",
+          "meaning": "① 문단, 단락",
+          "ex": "Read the first {{BLANK}} again.",
+          "tr": "첫 문단 다시 읽어 봐.",
+          "c": "서수 앞에는 the: the first paragraph. 문장이 모인 한 덩어리."
+        }
+      ],
+      "reason": "the first paragraph는 맞지만 my first... 같은 소유격이나 a second...도 가능하다. 규칙을 확장해 설명하지 말고 대표 형태라는 제한만 넣으면 된다.",
+      "suggestion": "서수 앞에는 보통 the: the first paragraph. 문장이 모인 한 덩어리.",
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/number"
+      ],
+      "status": "낮은 우선순위의 표현 정밀화"
+    },
+    {
+      "id": "O3",
+      "ns": [
+        1102
+      ],
+      "title": "예문이 보여 주는 습관과 해설의 미래 시간절이 다르다",
+      "evidence": [
+        {
+          "n": 136,
+          "id": "[\"0세트\",\"Exercise 7 · 집·생활\",\"text\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 14 · 명사이자 동사",
+          "term": "text",
+          "meaning": "① 문자 메시지",
+          "ex": "Send me a {{BLANK}} message when you arrive.",
+          "tr": "도착하면 문자 메시지 보내.",
+          "c": "send a text 문자를 보내다. text message라고도 해."
+        },
+        {
+          "n": 137,
+          "id": "[\"0세트\",\"Exercise 7 · 집·생활\",\"text\",2,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 14 · 명사이자 동사",
+          "term": "text",
+          "meaning": "② 문자를 보내다",
+          "ex": "{{BLANK}} me when you get home, please.",
+          "tr": "집에 도착하면 문자해.",
+          "c": "text me: 문자해. 과거형은 texted."
+        },
+        {
+          "n": 1075,
+          "id": "[\"5세트\",\"Exercise 4 · 431~440\",\"if\",1,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 4-1 · 431~440",
+          "term": "if",
+          "meaning": "① 만약 ~라면",
+          "ex": "{{BLANK}} it rains tomorrow, I'll stay home.",
+          "tr": "내일 비 오면 집에 있을래.",
+          "c": "조건의 if절은 내일 일도 현재형: if it rains(O), will rain(X)."
+        },
+        {
+          "n": 1102,
+          "id": "[\"5세트\",\"Exercise 6 · 451~460\",\"when\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 6-1 · 451~460",
+          "term": "when",
+          "meaning": "② ~할 때",
+          "ex": "{{BLANK}} I'm tired, I listen to music.",
+          "tr": "난 피곤할 땐 음악 들어.",
+          "c": "시간의 when절도 미래를 현재형으로 쓴다: when he comes(O)."
+        }
+      ],
+      "reason": "When I am tired...는 반복되는 습관이고 해설은 미래 시간절의 현재형을 말한다. 규칙은 맞으며 0세트 text 예문 등에서 미래 맥락을 이미 만난다. 오문은 아니지만 소개 카드의 예문·규칙 대응을 더 선명하게 할 수 있다.",
+      "suggestion": "문법 지도 작업 시 이 카드 하나만 미래 맥락의 when 예문으로 맞추거나, 현재 예문의 습관 설명으로 좁힌다. 현재 예문을 당장 폐기할 필수 오류는 아니다.",
+      "sources": [],
+      "status": "소개·예시 정렬"
+    },
+    {
+      "id": "O4",
+      "ns": [
+        1020,
+        1021,
+        1022,
+        1024,
+        1025,
+        1028
+      ],
+      "title": "5세트 첫 연습 제목이 실제 중심과 덜 맞는다",
+      "evidence": [
+        {
+          "n": 1020,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"the\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "the",
+          "meaning": "② (문맥에서 하나로 정해지는 대상 앞) 그",
+          "ex": "{{BLANK}} sun is really hot today.",
+          "tr": "오늘 해가 진짜 뜨겁다.",
+          "c": "the sun처럼 문맥에서 하나로 정해지는 대상을 가리킨다. 항상 the가 붙는 것은 아니다."
+        },
+        {
+          "n": 1021,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"be\",3,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "be",
+          "meaning": "③ ~하는 중이다",
+          "ex": "He will {{BLANK}} sleeping at noon.",
+          "tr": "걔 정오엔 자고 있을걸.",
+          "c": "be+동사-ing는 진행형. 현재·과거·미래의 특정 시점에 진행 중인 일을 나타낸다."
+        },
+        {
+          "n": 1022,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"be\",4,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "be",
+          "meaning": "④ ~되다, ~받다",
+          "ex": "The door will {{BLANK}} painted tomorrow.",
+          "tr": "문은 내일 칠해질 거야.",
+          "c": "be+과거분사는 수동태. 행동을 하는 대상 대신 그 행동을 받는 대상을 주어로 말한다."
+        },
+        {
+          "n": 1024,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"a\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "a",
+          "meaning": "② ~마다, 한 ~에",
+          "ex": "I go shopping once {{BLANK}} week.",
+          "tr": "나 일주일에 한 번 쇼핑 가.",
+          "c": "once a week = 일주일에 한 번. 단위 앞의 a는 '~마다'."
+        },
+        {
+          "n": 1025,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"of\",1,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "of",
+          "meaning": "① ~의 (소속·부분)",
+          "ex": "What's the name {{BLANK}} this song?",
+          "tr": "이 노래 이름이 뭐야?",
+          "c": "the name of this song은 ‘이 노래의 이름’. of는 소속·부분 등의 관계를 나타낸다."
+        },
+        {
+          "n": 1028,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"to\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "to",
+          "meaning": "② ~하기, ~하려고",
+          "ex": "I want {{BLANK}} see that movie.",
+          "tr": "나 그 영화 보고 싶어.",
+          "c": "동사원형 앞의 to는 부정사 표지. want to see는 '보고 싶다'라는 뜻이다."
+        }
+      ],
+      "reason": "Exercise 1-1 · 기본 기능어 · a/an에는 기초 a/an이 아니라 the, be의 진행·수동, and, a의 ~마다, of, to가 있다. a/an 기초는 이미 0세트 n35~36에 있다.",
+      "suggestion": "다음 문법 지도 정리 때 제목의 a/an 부제를 실제 내용에 맞추는 정도로 검토한다. 저장된 카드·진도나 학습 방식을 바꿀 필요는 없다.",
+      "sources": [],
+      "status": "교육적 표지 정렬"
+    }
+  ],
+  "introductionAndRepetition": [
+    {
+      "id": "Q1",
+      "title": "소개 단위는 카드 첫 순서보다 연습 단위가 적합하다",
+      "evidence": [
+        {
+          "n": 35,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"a\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 4 · 이것·저것과 a·the",
+          "term": "a",
+          "meaning": "① 하나의 (처음 꺼내는 것 앞)",
+          "ex": "I have {{BLANK}} dog and two cats.",
+          "tr": "나 개 한 마리랑 고양이 두 마리 있어.",
+          "c": "셀 수 있는 것 하나 앞엔 a, 둘부터는 -s: a dog, two cats."
+        },
+        {
+          "n": 36,
+          "id": "[\"19세트\",\"Exercise 10 · 1891~1900\",\"an\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 4 · 이것·저것과 a·the",
+          "term": "an",
+          "meaning": "① (모음 소리 앞) 하나의",
+          "ex": "I ate {{BLANK}} egg and a banana.",
+          "tr": "나 달걀 하나랑 바나나 하나 먹었어.",
+          "c": "모음 소리 앞엔 an: an egg, an hour. 철자 말고 소리로 정해: a uniform."
+        },
+        {
+          "n": 37,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"the\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 4 · 이것·저것과 a·the",
+          "term": "the",
+          "meaning": "① (서로 아는) 그, 바로 그",
+          "ex": "I saw a dog. {{BLANK}} dog was very big.",
+          "tr": "개 한 마리를 봤어. 그 개는 아주 컸어.",
+          "c": "처음 말할 땐 a, 다시 말할 땐 the: a dog → the dog."
+        },
+        {
+          "n": 121,
+          "id": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"reading\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 13 · -ing가 된 말",
+          "term": "reading",
+          "meaning": "① 읽기, 독서",
+          "ex": "{{BLANK}} is my favorite hobby.",
+          "tr": "독서가 제일 좋은 취미야.",
+          "c": "read에 -ing를 붙이면 ‘읽기’라는 명사가 돼: Reading is fun."
+        },
+        {
+          "n": 124,
+          "id": "[\"0세트\",\"Exercise 7 · 집·생활\",\"swimming\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 13 · -ing가 된 말",
+          "term": "swimming",
+          "meaning": "① 수영",
+          "ex": "We go {{BLANK}} every Saturday.",
+          "tr": "우리는 토요일마다 수영하러 가.",
+          "c": "m을 하나 더: swimming. go swimming 수영하러 가다."
+        },
+        {
+          "n": 128,
+          "id": "[\"0세트\",\"Exercise 6 · 학교·공부\",\"hobby\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 13 · -ing가 된 말",
+          "term": "hobby",
+          "meaning": "① 취미",
+          "ex": "My {{BLANK}} is taking photos.",
+          "tr": "내 취미는 사진 찍기야.",
+          "c": "취미는 -ing로 말해: My hobby is taking photos. 복수는 hobbies."
+        }
+      ],
+      "runtimeEvidence": {
+        "file": "work/opus-review-20261011/repo/vocagoyangfable.html",
+        "line": 2712,
+        "code": "s.queue=shuffle(s.roundTargets);"
+      },
+      "observation": "0세트 안에서 an이 a보다, cooking이 reading보다 먼저 나올 수 있다. 현재 카드들은 대체로 독립적으로 뜻을 이해할 수 있어 이것만으로 결함은 아니다.",
+      "recommendation": "후속 문법 지도에는 최초 소개 연습과 뒤에서 반복할 연습을 표시한다. 해당 연습의 특정 카드 하나를 먼저 봤다고 전제하는 설명은 쓰지 않는다. 섞기 방식을 바꾸자는 제안이 아니다."
+    },
+    {
+      "id": "Q2",
+      "title": "0세트에서 5세트로 가는 기능어 반복 연결은 이미 있다",
+      "evidence": [
+        {
+          "n": 7,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"be\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 1 · 인사와 나·너",
+          "term": "be",
+          "meaning": "① ~이다 (am·is·are의 원형)",
+          "ex": "Please {{BLANK}} quiet in the library.",
+          "tr": "도서관에서는 조용히 해 줘.",
+          "c": "am·is·are의 원형이 be. Please·Don't 뒤엔 be 그대로: Don't be late!"
+        },
+        {
+          "n": 8,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"be\",2,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 1 · 인사와 나·너",
+          "term": "be",
+          "meaning": "② (~에) 있다",
+          "ex": "I want to {{BLANK}} at home today.",
+          "tr": "오늘은 집에 있고 싶어.",
+          "c": "be는 ‘~이다’에 더해 ‘(~에) 있다’도 돼: I am at home. 나 집에 있어."
+        },
+        {
+          "n": 35,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"a\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 4 · 이것·저것과 a·the",
+          "term": "a",
+          "meaning": "① 하나의 (처음 꺼내는 것 앞)",
+          "ex": "I have {{BLANK}} dog and two cats.",
+          "tr": "나 개 한 마리랑 고양이 두 마리 있어.",
+          "c": "셀 수 있는 것 하나 앞엔 a, 둘부터는 -s: a dog, two cats."
+        },
+        {
+          "n": 36,
+          "id": "[\"19세트\",\"Exercise 10 · 1891~1900\",\"an\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 4 · 이것·저것과 a·the",
+          "term": "an",
+          "meaning": "① (모음 소리 앞) 하나의",
+          "ex": "I ate {{BLANK}} egg and a banana.",
+          "tr": "나 달걀 하나랑 바나나 하나 먹었어.",
+          "c": "모음 소리 앞엔 an: an egg, an hour. 철자 말고 소리로 정해: a uniform."
+        },
+        {
+          "n": 37,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"the\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 4 · 이것·저것과 a·the",
+          "term": "the",
+          "meaning": "① (서로 아는) 그, 바로 그",
+          "ex": "I saw a dog. {{BLANK}} dog was very big.",
+          "tr": "개 한 마리를 봤어. 그 개는 아주 컸어.",
+          "c": "처음 말할 땐 a, 다시 말할 땐 the: a dog → the dog."
+        },
+        {
+          "n": 81,
+          "id": "[\"0세트\",\"Exercise 3 · 요일·월\",\"Monday\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 9 · 요일과 on",
+          "term": "Monday",
+          "meaning": "① 월요일",
+          "ex": "I have a test on {{BLANK}}.",
+          "tr": "나 월요일에 시험 있어.",
+          "c": "요일 앞엔 on. 요일·월은 늘 대문자."
+        },
+        {
+          "n": 88,
+          "id": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"January\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 10 · 달과 in·on",
+          "term": "January",
+          "meaning": "① 1월",
+          "ex": "The new year starts in {{BLANK}}.",
+          "tr": "새해는 1월에 시작하지.",
+          "c": "월 앞엔 in: in January. 줄임 Jan."
+        },
+        {
+          "n": 91,
+          "id": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"April\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 10 · 달과 in·on",
+          "term": "April",
+          "meaning": "① 4월",
+          "ex": "Youngsin Choi got married on {{BLANK}} Fools' Day.",
+          "tr": "영신초이는 만우절(4월 1일)에 결혼했어.",
+          "c": "April Fools' Day=만우절. 달은 in April, 특정한 날은 on April Fools' Day."
+        },
+        {
+          "n": 1020,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"the\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "the",
+          "meaning": "② (문맥에서 하나로 정해지는 대상 앞) 그",
+          "ex": "{{BLANK}} sun is really hot today.",
+          "tr": "오늘 해가 진짜 뜨겁다.",
+          "c": "the sun처럼 문맥에서 하나로 정해지는 대상을 가리킨다. 항상 the가 붙는 것은 아니다."
+        },
+        {
+          "n": 1021,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"be\",3,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "be",
+          "meaning": "③ ~하는 중이다",
+          "ex": "He will {{BLANK}} sleeping at noon.",
+          "tr": "걔 정오엔 자고 있을걸.",
+          "c": "be+동사-ing는 진행형. 현재·과거·미래의 특정 시점에 진행 중인 일을 나타낸다."
+        },
+        {
+          "n": 1022,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"be\",4,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "be",
+          "meaning": "④ ~되다, ~받다",
+          "ex": "The door will {{BLANK}} painted tomorrow.",
+          "tr": "문은 내일 칠해질 거야.",
+          "c": "be+과거분사는 수동태. 행동을 하는 대상 대신 그 행동을 받는 대상을 주어로 말한다."
+        },
+        {
+          "n": 1024,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"a\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "a",
+          "meaning": "② ~마다, 한 ~에",
+          "ex": "I go shopping once {{BLANK}} week.",
+          "tr": "나 일주일에 한 번 쇼핑 가.",
+          "c": "once a week = 일주일에 한 번. 단위 앞의 a는 '~마다'."
+        },
+        {
+          "n": 1030,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"in\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-2 · 기본 기능어",
+          "term": "in",
+          "meaning": "② (월·연도·계절) ~에",
+          "ex": "School in Korea begins {{BLANK}} March.",
+          "tr": "한국에서는 학교가 3월에 시작해.",
+          "c": "긴 시간(월·연도·계절)엔 in, 요일엔 on, 시각엔 at."
+        },
+        {
+          "n": 1050,
+          "id": "[\"fable-pool-20260927-set5-ex2\",\"Exercise 2 · 411~420\",\"on\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 2-2 · 411~420",
+          "term": "on",
+          "meaning": "② (요일·날짜) ~에",
+          "ex": "See you {{BLANK}} Monday!",
+          "tr": "월요일에 보자!",
+          "c": "요일·날짜엔 on: on Monday, on my birthday. 시각은 at."
+        },
+        {
+          "n": 1057,
+          "id": "[\"5세트\",\"Exercise 3 · 421~430\",\"at\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 3 · 421~430",
+          "term": "at",
+          "meaning": "② (시각) ~에",
+          "ex": "The movie starts {{BLANK}} seven.",
+          "tr": "영화 7시에 시작해.",
+          "c": "시계가 가리키는 시각엔 at: at noon, at seven. 요일은 on."
+        }
+      ],
+      "observation": "0세트에서 관사·요일/달 전치사·be 기본을 읽고 5세트에서 다른 뜻과 구조로 확장한다. 0세트의 관사와 전치사를 모두 다시 장황하게 강의할 필요는 없다.",
+      "recommendation": "0세트의 짧은 범위 수정 뒤, 5세트는 실제 새 용법 한 가지에 해설을 집중한다."
+    },
+    {
+      "id": "Q3",
+      "title": "5세트 첫 연습은 엄격한 문법 선행학습 순서가 아니다",
+      "evidence": [
+        {
+          "n": 1021,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"be\",3,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "be",
+          "meaning": "③ ~하는 중이다",
+          "ex": "He will {{BLANK}} sleeping at noon.",
+          "tr": "걔 정오엔 자고 있을걸.",
+          "c": "be+동사-ing는 진행형. 현재·과거·미래의 특정 시점에 진행 중인 일을 나타낸다."
+        },
+        {
+          "n": 1022,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"be\",4,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "be",
+          "meaning": "④ ~되다, ~받다",
+          "ex": "The door will {{BLANK}} painted tomorrow.",
+          "tr": "문은 내일 칠해질 거야.",
+          "c": "be+과거분사는 수동태. 행동을 하는 대상 대신 그 행동을 받는 대상을 주어로 말한다."
+        },
+        {
+          "n": 1028,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"to\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-1 · 기본 기능어 · a/an",
+          "term": "to",
+          "meaning": "② ~하기, ~하려고",
+          "ex": "I want {{BLANK}} see that movie.",
+          "tr": "나 그 영화 보고 싶어.",
+          "c": "동사원형 앞의 to는 부정사 표지. want to see는 '보고 싶다'라는 뜻이다."
+        },
+        {
+          "n": 1035,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"it\",3,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-2 · 기본 기능어",
+          "term": "it",
+          "meaning": "③ 가주어",
+          "ex": "{{BLANK}} is fun to play this game.",
+          "tr": "이 게임 하는 거 재밌어.",
+          "c": "It is fun to play는 ‘하는 것이 재미있다’. to play 이하가 내용을 맡고, it이 앞의 주어 자리를 채운다."
+        },
+        {
+          "n": 1038,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"have\",3,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-2 · 기본 기능어",
+          "term": "have",
+          "meaning": "③ ~했다, ~해 봤다",
+          "ex": "I {{BLANK}} seen this movie before.",
+          "tr": "나 이 영화 전에 본 적 있어.",
+          "c": "have+과거분사는 현재완료. 과거와 현재를 연결해 경험·완료·결과·계속을 나타낸다."
+        },
+        {
+          "n": 1041,
+          "id": "[\"fable-pool-20260927-set5-ex2\",\"Exercise 2 · 411~420\",\"that\",3,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 2-1 · 411~420",
+          "term": "that",
+          "meaning": "③ (명사 뒤) ~하는 (관계대명사)",
+          "ex": "This is everything {{BLANK}} I need.",
+          "tr": "이게 내가 필요한 전부야.",
+          "c": "명사 뒤에 설명을 거는 고리. 사람이든 사물이든 that은 다 받는다."
+        },
+        {
+          "n": 1066,
+          "id": "[\"5세트\",\"Exercise 3 · 421~430\",\"can\",1,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 3 · 421~430",
+          "term": "can",
+          "meaning": "① ~할 수 있다",
+          "ex": "My little brother {{BLANK}} swim fast.",
+          "tr": "내 동생은 수영을 빨리 할 수 있어.",
+          "c": "능력의 can. 뒤는 언제나 동사원형: can swims(X), can swim(O)."
+        },
+        {
+          "n": 1082,
+          "id": "[\"5세트\",\"Exercise 4 · 431~440\",\"will\",1,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 4-2 · 431~440",
+          "term": "will",
+          "meaning": "① ~할 것이다, ~할게",
+          "ex": "I {{BLANK}} call you at nine.",
+          "tr": "9시에 전화할게.",
+          "c": "미래의 예상·의지·약속을 나타낸다. 뒤에는 동사원형이 온다."
+        },
+        {
+          "n": 1089,
+          "id": "[\"5세트\",\"Exercise 5 · 441~450\",\"would\",3,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 5 · 441~450",
+          "term": "would",
+          "meaning": "③ (if절과 함께) ~할 텐데 (가정)",
+          "ex": "If I were you, I {{BLANK}} take the job.",
+          "tr": "내가 너라면 난 그 일을 맡을 텐데.",
+          "c": "If I were you, I would ~: 현실이 아닌 가정. if절은 과거형(were), 주절은 would."
+        }
+      ],
+      "observation": "첫 연습부터 미래진행·미래수동 예문이 나오고 현재완료·관계절·가정법이 비교적 좁은 구간에 등장한다. 한 문법이 충분히 숙달된 뒤 다음 문법으로 넘어가는 교재라고 보기는 어렵다. 기능어 어휘 카드로서 문장 자체는 자연스럽다.",
+      "recommendation": "현재는 해당 단어 뜻을 이해하는 첫 노출로 해석한다. 계획된 세트별 조명 문법 작업에서 be+ing, be+과거분사, have+과거분사를 서로 다른 쉬운 내용어 예문으로 다시 만나게 한다. 지금 당장 카드 순서를 전면 교체하지 않는다."
+    },
+    {
+      "id": "Q4",
+      "title": "현재완료의 첫 설명은 후속 반복이 있어야 역할을 한다",
+      "evidence": [
+        {
+          "n": 1038,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"have\",3,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-2 · 기본 기능어",
+          "term": "have",
+          "meaning": "③ ~했다, ~해 봤다",
+          "ex": "I {{BLANK}} seen this movie before.",
+          "tr": "나 이 영화 전에 본 적 있어.",
+          "c": "have+과거분사는 현재완료. 과거와 현재를 연결해 경험·완료·결과·계속을 나타낸다."
+        },
+        {
+          "n": 1091,
+          "id": "[\"5세트\",\"Exercise 5 · 441~450\",\"just\",1,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 5 · 441~450",
+          "term": "just",
+          "meaning": "① 방금, 막",
+          "ex": "The train has {{BLANK}} left.",
+          "tr": "기차 방금 떠났어.",
+          "c": "has just left = 막 떠났다. 미국 구어에선 The train just left처럼 과거형도 쓴다."
+        },
+        {
+          "n": 1179,
+          "id": "[\"5세트\",\"Exercise 10 · 491~500\",\"yet\",1,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 10-2 · 491~500",
+          "term": "yet",
+          "meaning": "① (부정문) 아직",
+          "ex": "I haven't done my homework {{BLANK}}.",
+          "tr": "나 아직 숙제 안 했어.",
+          "c": "not ~ yet = 아직 안 했다. '여전히 진행 중'인 still과 구별."
+        },
+        {
+          "n": 1180,
+          "id": "[\"5세트\",\"Exercise 10 · 491~500\",\"yet\",2,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 10-2 · 491~500",
+          "term": "yet",
+          "meaning": "② (의문문) 벌써, 이제",
+          "ex": "Is the pizza here {{BLANK}}?",
+          "tr": "피자 이제 왔어?",
+          "c": "의문문 끝에서는 ‘벌써, 이제’라는 뜻. Have you finished yet?: 이제 다 했어?"
+        }
+      ],
+      "observation": "have의 경험 예문 뒤 just의 완료, yet의 미완료가 이어져 한 번만 소개한 것은 아니다. 다만 경험·완료·결과·계속이라는 네 이름을 모두 익혔다고 볼 근거는 이 몇 카드만으로 부족하다.",
+      "recommendation": "현재 해설에 예외·분류를 더 쌓기보다 기존 경험 문장을 중심으로 읽게 두고, 이후 세트 작업에서 다른 상황의 반복을 계획한다. 전체 빈도나 습득 정도는 이 담당 범위만으로 수치화하지 않는다."
+    }
+  ],
+  "beginnerLoad": [
+    {
+      "title": "가장 쉬운 뜻과 가장 쉬운 문법 구조는 다르다",
+      "evidence": [
+        {
+          "n": 46,
+          "id": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"zero\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 6 · 수 I (0~10)",
+          "term": "zero",
+          "meaning": "① 0, 영",
+          "ex": "People in India were the first to use {{BLANK}} as a number.",
+          "tr": "0을 하나의 수로 처음 쓴 사람들은 인도 사람들이었어.",
+          "c": "경기 점수 0은 영국에서 nil. below zero 영하. 전화번호의 0은 흔히 oh[오우]로 읽고 zero도 쓴다."
+        },
+        {
+          "n": 49,
+          "id": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"one\",3,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 6 · 수 I (0~10)",
+          "term": "one",
+          "meaning": "③ (일반) 사람 누구나",
+          "ex": "{{BLANK}} should always keep a promise.",
+          "tr": "누구든 약속은 지켜야 하는 법이다.",
+          "c": "격식체에서 일반적인 사람을 가리켜. one's는 소유격, oneself는 재귀대명사야."
+        },
+        {
+          "n": 94,
+          "id": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"July\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 10 · 달과 in·on",
+          "term": "July",
+          "meaning": "① 7월",
+          "ex": "The American Declaration of Independence was adopted on {{BLANK}} 4, 1776.",
+          "tr": "미국 독립선언서는 1776년 7월 4일에 채택됐어.",
+          "c": "강세 주의."
+        },
+        {
+          "n": 95,
+          "id": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"August\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 10 · 달과 in·on",
+          "term": "August",
+          "meaning": "① 8월",
+          "ex": "In {{BLANK}} 1789, France said that all people are born free and equal.",
+          "tr": "1789년 8월, 프랑스는 모든 사람이 자유롭고 평등하게 태어난다고 선언했어.",
+          "c": "줄임 Aug."
+        },
+        {
+          "n": 99,
+          "id": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"December\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 10 · 달과 in·on",
+          "term": "December",
+          "meaning": "① 12월",
+          "ex": "On {{BLANK}} 10, 1948, the UN said that all people have human rights.",
+          "tr": "1948년 12월 10일, 유엔은 모든 사람에게 인권이 있다고 선언했어.",
+          "c": "라틴어 decem=10. 옛 로마력은 3월부터 세어 열째 달."
+        },
+        {
+          "n": 222,
+          "id": "[\"0세트\",\"Exercise 8 · 형용사·동사\",\"create\",1,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 22 · 형용사와 동사",
+          "term": "create",
+          "meaning": "① 만들다, 창조하다",
+          "ex": "The World Wide Web was {{BLANK}}d in 1989.",
+          "tr": "월드 와이드 웹은 1989년에 만들어졌어.",
+          "c": "없던 것을 새로 만들다. creative 창의적인."
+        },
+        {
+          "n": 228,
+          "id": "[\"0세트\",\"Exercise 4 · 인사·담화\",\"however\",2,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 23 · 부사의 자리",
+          "term": "however",
+          "meaning": "② 아무리 ~해도",
+          "ex": "{{BLANK}} hard I try, I can't sleep.",
+          "tr": "아무리 애써도 잠이 안 와.",
+          "c": "however+형용사·부사: 아무리 ~해도. 여기서는 그러나로 옮기지 않아."
+        }
+      ],
+      "observation": "0·one·July·December 같은 쉬운 표제어도 to부정사·일반인칭 one·수동태·that절·양보 구문을 품는다. 기본부터 시작하는 학습자에게 구조 처리 부담이 있을 수 있다는 전문가 판단이며 실제 사용자 부하를 측정한 결과는 아니다.",
+      "minimalAction": "승인된 지식 예문을 난도만으로 되돌리지 않는다. 0세트 완료를 모든 구조 숙달로 해석하지 않고, 다음 문법 작업에서 해당 구조를 더 쉬운 생활어로 재등장시키는 연결을 만든다. 모든 지식 카드에 문법 강의를 붙이지 않는다."
+    },
+    {
+      "title": "새 규칙을 한꺼번에 더하는 것보다 기존 문구의 범위를 다듬는다",
+      "evidence": [
+        {
+          "n": 49,
+          "id": "[\"0세트\",\"Exercise 1 · 수사 I (0~19)\",\"one\",3,\"\"]",
+          "set": 0,
+          "exercise": "Exercise 6 · 수 I (0~10)",
+          "term": "one",
+          "meaning": "③ (일반) 사람 누구나",
+          "ex": "{{BLANK}} should always keep a promise.",
+          "tr": "누구든 약속은 지켜야 하는 법이다.",
+          "c": "격식체에서 일반적인 사람을 가리켜. one's는 소유격, oneself는 재귀대명사야."
+        },
+        {
+          "n": 1038,
+          "id": "[\"5세트\",\"Exercise 1 · 401~410\",\"have\",3,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 1-2 · 기본 기능어",
+          "term": "have",
+          "meaning": "③ ~했다, ~해 봤다",
+          "ex": "I {{BLANK}} seen this movie before.",
+          "tr": "나 이 영화 전에 본 적 있어.",
+          "c": "have+과거분사는 현재완료. 과거와 현재를 연결해 경험·완료·결과·계속을 나타낸다."
+        },
+        {
+          "n": 1089,
+          "id": "[\"5세트\",\"Exercise 5 · 441~450\",\"would\",3,\"\"]",
+          "set": 5,
+          "exercise": "Exercise 5 · 441~450",
+          "term": "would",
+          "meaning": "③ (if절과 함께) ~할 텐데 (가정)",
+          "ex": "If I were you, I {{BLANK}} take the job.",
+          "tr": "내가 너라면 난 그 일을 맡을 텐데.",
+          "c": "If I were you, I would ~: 현실이 아닌 가정. if절은 과거형(were), 주절은 would."
+        }
+      ],
+      "observation": "one 카드의 소유격·재귀대명사 용어, 현재완료의 네 용법 이름, if 가정법처럼 한 줄에 여러 문법 이름이 들어가는 곳이 있다. 어휘 카드를 짧은 문법 사전으로 늘리면 본래의 예문 읽기 부담이 커진다.",
+      "minimalAction": "우선 수정은 5개 규칙 범위 묶음에 한정한다. 긴 설명·완전한 시제표·예외 목록을 추가하지 않는다."
+    }
+  ],
+  "minimalPriorityPlan": [
+    "우선 n5·6·10·41의 현재 문형 범위를 짧게 밝힌다.",
+    "같은 수정 묶음에서 n11·43·1058도 현재 예문에 맞춰 범위를 좁힌다. 예문·정답·게임 방식을 바꿀 필요가 없다.",
+    "n24·145와 5세트 제목·when 예시 정렬은 다음 문법 지도 작업에서 선택적으로 다룬다.",
+    "후속 세트의 문법 반복 계획은 연습 단위로 관리하며 기존 빈도순 내용어와 카드의 독립 이해를 유지한다."
+  ],
+  "validation": {
+    "directReading": "이전 n1~2155 전수 내용 검토에 더해 이번에는 0세트234장과5세트162장을 전체 재독했다. 카드 수·연습 제목은 cards.json에서 확인했고 모든 근거 원문은 그 객체에서 그대로 복사했다.",
+    "authoritativeChecks": "British Council의 be 현재/과거·현재시제, Cambridge English Grammar Today의 wh-질문·주어·감탄문·서수·소유격 설명 확인. 검색 결과에 포함된 사용자 댓글이나 비공식 재배포 자료는 근거로 쓰지 않았다.",
+    "limits": "학습자의 실제 오답·눈 추적·해설 읽기·학습 성과 실험은 하지 않았다. 오개념 위험과 부하 평가는 문장·규칙의 논리적 범위에 기반한 검토다. 특정 문법이 체화되었다거나 수능 문법을 보장한다고 결론내리지 않는다.",
+    "policyRead": "PRINCIPLES.md §12의 완성된 0세트, 부분 구현된 전체 지도, 수능 어법판단 별도 교재, 기존 입력 방식 유지 결정을 반영했다."
+  },
+  "classificationNote": "priorityFindings는 영어 예문 7개가 틀렸다는 뜻이 아니다. 현재 예문은 모두 문법적으로 성립하며, 해설의 일반화 범위를 최소한으로 다듬자는 5개 묶음이다. 소개·반복 설계 권고는 별도 항목으로 분리했다. 드문 예외나 문법 이론상의 엄밀함만으로는 수정 대상으로 삼지 않았다."
+}

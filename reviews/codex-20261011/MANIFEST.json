@@ -1,0 +1,431 @@
+{
+  "date": "2026-10-11",
+  "title": "Codex 리뷰 및 대화 원문 전달",
+  "reviewSnapshot": "e9c178d",
+  "repository": "https://github.com/esqsoy/vocagoyang",
+  "scope": "사용자가 지정한 Opus 리뷰 요청 이후 세 차례 리뷰와 GitHub 공유 요청까지의 사용자·Codex 표시 메시지",
+  "conversation": {
+    "messageCount": 25,
+    "userMessages": 4,
+    "finalAnswers": 3,
+    "commentaryMessages": 18,
+    "textVerbatim": true,
+    "source": "Codex read_thread의 userMessage 및 사용자에게 표시된 agentMessage. 대화 본문을 수정하거나 요약하지 않음.",
+    "range": {
+      "start": "사용자가 지정한 최초 Opus 리뷰 요청 포함",
+      "end": "2026-10-11 GitHub 공유 요청 메시지 포함",
+      "startMessageId": "01a1290d-b0e4-7451-9522-a3858a29f5ad",
+      "endMessageId": "01a12957-ed09-7f81-8030-e00af6df2e4e"
+    },
+    "bodyChecks": [
+      {
+        "ordinal": 1,
+        "role": "user",
+        "phase": "user",
+        "messageId": "01a1290d-b0e4-7451-9522-a3858a29f5ad",
+        "characters": 39,
+        "sha256": "d2ec75b6f8f147d49adb46c144b1e496f943205c72c5642c9f90609a7c1a211d"
+      },
+      {
+        "ordinal": 2,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb0593babc87d0b56a86b06f0a22e4",
+        "characters": 74,
+        "sha256": "6c35778e1396818de487002d7e84d7257472cfb5c5ab8ee5df9dc86bcdea611d"
+      },
+      {
+        "ordinal": 3,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb05d0deb487d096bb03a326767640",
+        "characters": 134,
+        "sha256": "1b00277e20ee38e7bde704d619e8a0d9d79997d6bfbf47a1930c51a1e6506e3c"
+      },
+      {
+        "ordinal": 4,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb06648f9c87d096170727d62222dc",
+        "characters": 138,
+        "sha256": "60138e1d20b113d27e91f706948d9d489609ba89cbaec077a9576adca19c07a2"
+      },
+      {
+        "ordinal": 5,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb0703372c87d09f0e5131bd969bc2",
+        "characters": 152,
+        "sha256": "aad76350262dc2757097410b38bb8331e944e96fd735c2438c7c783b8ac99a35"
+      },
+      {
+        "ordinal": 6,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb084810f487d08f21fc6abb9da1c4",
+        "characters": 187,
+        "sha256": "1147d0a1f3f27941b7248c4fab4b99bf993e6785ca0f48da3b4cc3817947cd36"
+      },
+      {
+        "ordinal": 7,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb08ecb88487d0ba1274332d01e826",
+        "characters": 172,
+        "sha256": "694a9321a83cea2ea47cce5059c94d3a1995fc5e48c571384c56a938a7565e79"
+      },
+      {
+        "ordinal": 8,
+        "role": "assistant",
+        "phase": "final_answer",
+        "messageId": "msg_0d23e67b673d26c9016acb094192b087d09d61f0e9f5b4bbb8",
+        "characters": 2646,
+        "sha256": "314ade950d7b94a445a65e167c244881aeeae8b2985e2c597364e6807686b671"
+      },
+      {
+        "ordinal": 9,
+        "role": "user",
+        "phase": "user",
+        "messageId": "01a12920-4eb8-7612-b45e-45c2179f9db0",
+        "characters": 28,
+        "sha256": "b0f21adca6e5065e254734a70a29c37e73609b33130317a1257dac1e0cfb719e"
+      },
+      {
+        "ordinal": 10,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb0a55020887d08067f13998b9f899",
+        "characters": 127,
+        "sha256": "6671f8926aef3198b6486bee1ceaf8a095b7ceb115348c6f03cb6cd18be9aec4"
+      },
+      {
+        "ordinal": 11,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb0b791d7487d0801a691cfb817c7c",
+        "characters": 143,
+        "sha256": "651ea4097ef22af2391256612e38308297a7a48af13f61dc99432e94f713d1e9"
+      },
+      {
+        "ordinal": 12,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb0d0f64ec87d0be6ce4d839843a74",
+        "characters": 128,
+        "sha256": "370192be9bf405584a8c2d663ea451731120795c8beb4c775ca25b0413cfa7cf"
+      },
+      {
+        "ordinal": 13,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb0dc9424087d094d2b05723046062",
+        "characters": 155,
+        "sha256": "93d784c93065db30b33df489fa15dcf599043ec55d1d4ebb006a9889e71828ec"
+      },
+      {
+        "ordinal": 14,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb0e2ba34887d091c607d87a438d65",
+        "characters": 138,
+        "sha256": "379c8197d817faaa3b97d0d35277aecd885fb4f69055430b9e868e6e1c209331"
+      },
+      {
+        "ordinal": 15,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb0f3c5a5087d0adfb465971f32db4",
+        "characters": 204,
+        "sha256": "1bdec14372d724467e96806cd0c9c600ab45209b748059bef88b44f974bef4f0"
+      },
+      {
+        "ordinal": 16,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb1015232087d0a54ba93ec69e58f3",
+        "characters": 150,
+        "sha256": "76c46b752b674dae84f407005d3e47dddb911b2bddfc55e138e3a666d2eac254"
+      },
+      {
+        "ordinal": 17,
+        "role": "assistant",
+        "phase": "final_answer",
+        "messageId": "msg_0d23e67b673d26c9016acb1035acd087d0b79400c3186f138e",
+        "characters": 3467,
+        "sha256": "96e67a2792253c57145da2b87eb14bfb988b3292af02640b5efa2d0355750021"
+      },
+      {
+        "ordinal": 18,
+        "role": "user",
+        "phase": "user",
+        "messageId": "01a12937-e1d0-77e2-8a0a-63938faa8d2f",
+        "characters": 24,
+        "sha256": "cd78b9ce610587cfe118f6271eb3072c69000cc85977477bbfbb5a49a93e0f16"
+      },
+      {
+        "ordinal": 19,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb105e678487d089577eea7a4c23ee",
+        "characters": 134,
+        "sha256": "d4bd532370f31470746efcd43dce63ecd2461cb53a1b9b38138135a39e3dc01f"
+      },
+      {
+        "ordinal": 20,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb10f9ee7087d08ffae30e2a60e5e4",
+        "characters": 178,
+        "sha256": "975faeb5dc46c4c50a02653341667a2a399db02cc3f3ba1393119405a47f2d55"
+      },
+      {
+        "ordinal": 21,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb11e2424487d0886eb22c40c678a8",
+        "characters": 159,
+        "sha256": "a0c207784b419b318b1df81a42ebc62ce2c016324c19dd0882149f41212fb1c8"
+      },
+      {
+        "ordinal": 22,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb12a92e2487d0a4d5ca8c66b047cb",
+        "characters": 187,
+        "sha256": "18bab8a426fbc0a1e529ffc28fb4138d25b68d66057c1eb64a3deae1207b51fa"
+      },
+      {
+        "ordinal": 23,
+        "role": "assistant",
+        "phase": "commentary",
+        "messageId": "msg_0d23e67b673d26c9016acb13c85c7c87d0b01d6b4567287e17",
+        "characters": 171,
+        "sha256": "5cc87946f49f0bdf1786909b32809770c493deb3cc2c25288ba949e59ce14584"
+      },
+      {
+        "ordinal": 24,
+        "role": "assistant",
+        "phase": "final_answer",
+        "messageId": "msg_0d23e67b673d26c9016acb140d082c87d09aff3e68cd4b26b9",
+        "characters": 2633,
+        "sha256": "d5434ef7f9575eb28b9174efc2f5fb380eceb913134d6d121e6380b6784ffc30"
+      },
+      {
+        "ordinal": 25,
+        "role": "user",
+        "phase": "user",
+        "messageId": "01a12957-ed09-7f81-8030-e00af6df2e4e",
+        "characters": 94,
+        "sha256": "995d83f320e5647b2cb7162f3dfde963d9133229d9bd972f846c0b45003aafd7"
+      }
+    ]
+  },
+  "work": {
+    "appChangesApplied": false,
+    "recommendationsPending": true,
+    "fullCardCount": 7573,
+    "grammarCorrectionGroups": 5,
+    "grammarCorrectionCards": 7
+  },
+  "copiedFiles": [
+    {
+      "path": "opus-review-20261011/review.json",
+      "bytes": 10105,
+      "sha256": "8e85797b679eb554abf62d7a264ede4da55e280f42e27ee6ecb8d8151aa1aeab",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "opus-review-20261011/checks.json",
+      "bytes": 14708,
+      "sha256": "770d8288a2041480bfb71c340e337b051f69d40744cefe0a0520e6de7000367a",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "opus-review-20261011/browser-review.json",
+      "bytes": 531,
+      "sha256": "fd9f4266ba5bed66f65ebbe8eb6a815de2c8664f0ec93ff7620a1f6c8e9f1ea6",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "opus-review-20261011/milestone-over-game.png",
+      "bytes": 150409,
+      "sha256": "1756bb5c97c19675e7361142c53ece0b2904c4c11773b9bfe87f84720bd016e8",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "opus-review-20261011/set0-review.json",
+      "bytes": 5209,
+      "sha256": "97ae305ba1b297ec15db6825c8d84800aaa0605a17c6b62e4fcee443f6115533",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "opus-review-20261011/set0-actual-history.json",
+      "bytes": 644,
+      "sha256": "e2cd9be5c588cac0ab09dd0dfc29e1d29436c773a6c359621331a6012b9b65af",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "opus-review-20261011/set0-historic-resumes.json",
+      "bytes": 3993,
+      "sha256": "daa38a5ab12d0c9cb4ea9130b5ef9fb81bbf8e82cd3bfc17ebd7ccd985724d07",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "opus-review-20261011/set0-card-coverage.json",
+      "bytes": 39,
+      "sha256": "fd98862a68076c613c5200267820ec8693c01ad394a619c74d1ac7ad0c4858dd",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "opus-review-20261011/history-review.json",
+      "bytes": 10433,
+      "sha256": "7ca574043a0ce0fb4d11afacbad233a7c065f1369f26d8ade0126bfcd57ac186",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "opus-review-20261011/oxford-review.json",
+      "bytes": 5344,
+      "sha256": "79d2866f72801e118aa4713e11d65ae4da9f4e0f4e819462ef61834f7340b8d6",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "opus-review-20261011/browser-review.cjs",
+      "bytes": 2875,
+      "sha256": "b3ddc00e13a7b2fd84acd6dc91d48c9dbb73d110b06ffbcf0c5868af608b96e3",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "opus-review-20261011/set0-repro-old-save.cjs",
+      "bytes": 1191,
+      "sha256": "9cc985f73af7dcf9a10e57e05976926f59121fb269e7400c5caf32d90eb7abd1",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "opus-review-20261011/set0-actual-history.cjs",
+      "bytes": 3251,
+      "sha256": "dcd6a9a69083b5b08a7cf41ce22e98c9b523a1dde60c1e9f59651921fdfd5d0d",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "opus-review-20261011/set0-historic-resumes.cjs",
+      "bytes": 1678,
+      "sha256": "e1e0825901e7afddce347d7f42005826a3b3b0cc34dfe415d1c32fbcf5882e4c",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "opus-review-20261011/set0-card-coverage.cjs",
+      "bytes": 1625,
+      "sha256": "155e8bd7eda4abf77f989406d34cb74a31573e2dbc5a7dc7f3ba6cf00b6ec0ca",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "opus-review-20261011/run-checks.cjs",
+      "bytes": 1238,
+      "sha256": "977e2d640a50b8d3c170fb45024597b9d8f14b20eef599347e439339332450c7",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "full-review-20261011/REPORT.html",
+      "bytes": 102021,
+      "sha256": "b5d6a767594c063b2fdaf79f309281e4ccc02680821f39e4cec7ff13dd17086f",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "full-review-20261011/review.json",
+      "bytes": 354242,
+      "sha256": "3946f37a0fe1f69ae9f191f1f3cdf8078dc591d182096fcacf4e1888c101da7c",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "full-review-20261011/manifest.json",
+      "bytes": 2786,
+      "sha256": "27c11270f392ed9ea5553830b5a9236bf1fec78c99cdd57b83c513bb8e4ac486",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "full-review-20261011/verification.json",
+      "bytes": 540,
+      "sha256": "e3c44dcec3f17e69303ea55cb2b21c927cc19ef3638b2b6fcb28a97e526d6101",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "full-review-20261011/coverage.json",
+      "bytes": 2005374,
+      "sha256": "3250b8b04eed58c103f179f3fd14dd8f471c927f1a57f18aa84f535178f9e786",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "full-review-20261011/review-00-11.json",
+      "bytes": 135702,
+      "sha256": "6f5bf8d934faa84bafa3fa45ee08c5d7909dd17f2493872c037312c2c6990559",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "full-review-20261011/review-12-27.json",
+      "bytes": 68811,
+      "sha256": "f47deb97cb241f0bde2faf80798664dba46a86083f3c7638baaec74257d03653",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "full-review-20261011/review-28-43.json",
+      "bytes": 47498,
+      "sha256": "52db8ee23ddb9d0434e5c1bd5787195a55368e130543c0133b582b78b943a6b3",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "full-review-20261011/review-44-50.json",
+      "bytes": 25901,
+      "sha256": "1506baa1624198a889159b61d6aca3db427821dca54217ebd64016ed29434ba2",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "full-review-20261011/cards.json",
+      "bytes": 5157183,
+      "sha256": "74f2405473eb07b326298455e9fb9afe3cf9022d6550a68b5ed712cc2f36e348",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "grammar-review-20261011/REPORT.html",
+      "bytes": 16493,
+      "sha256": "0eb5a1c312ea619b1f327328b8cf563ac8f7e1cda6afd5893a5ba1c9cbda9916",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "grammar-review-20261011/review.json",
+      "bytes": 57042,
+      "sha256": "c235b960e5ed0472bf9a336038ea26a22d6bc55003c35a7314a187a932644276",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "grammar-review-20261011/verification.json",
+      "bytes": 341,
+      "sha256": "5b592548b188b3a3378d8275fd2943dde9a926929468ebf5f34bfaca208f02c8",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "grammar-review-20261011/foundation.json",
+      "bytes": 83004,
+      "sha256": "f35654b4b3155f43fdf3e047bad89ae3f902f11c3d06e47c5e13308e4ab56cdc",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "grammar-review-20261011/distribution.json",
+      "bytes": 130057,
+      "sha256": "aba0b3ea526c7188a1e9357922f18da37c95895363da24a992e32a7bfa789d43",
+      "unchangedFromLocalReview": true
+    },
+    {
+      "path": "grammar-review-20261011/rules.json",
+      "bytes": 41227,
+      "sha256": "41b562737fce4be9f9c110e63e1140016af1cb124d39cd864b16ead31de86012",
+      "unchangedFromLocalReview": true
+    }
+  ],
+  "omitted": [
+    "요청 시작점보다 이전 대화",
+    "내부 추론·시스템/개발자 지침·도구 통신",
+    "복제 저장소와 ZIP",
+    "중복 세트별 덤프 및 중간 후보 파일"
+  ],
+  "note": "대화 본문과 복사한 리뷰 산출물은 수정하지 않았다. 제안은 적용 승인과 구별한다. 각 차수의 review.json이 최종 종합 판단이며 분담 검토를 별개 결함으로 중복 합산하지 않는다."
+}

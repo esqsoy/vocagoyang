@@ -1,0 +1,96 @@
+{
+  "reviewed_snapshot": "origin/main e9c178d",
+  "scope": {
+    "headwords": 443,
+    "cards": 508,
+    "new_exercises": 36,
+    "source_sets": "6~44세트의 Oxford 신규 연습만(16·26·34·42 제외, 9세트 2연습)",
+    "read_fields": [
+      "en",
+      "ko",
+      "ex",
+      "tr",
+      "c",
+      "ipa",
+      "pos",
+      "meow"
+    ],
+    "meow_cards": 37,
+    "method": "oxford-20261010 원장의 새 exercises 경로를 실제 pipeline/out/setNN.json에 대조하여 신규 508장 전량 직접 재독. 관사·고정 어미를 포함해 실제 문장을 읽음. 의심 항목만 공식 사전 대조. 전 443개 발음을 외부 사전 전수 대조한 것은 아님.",
+    "source_files_edited": false
+  },
+  "conclusion": "확실한 예문 문법 오류·뜻/예문 불일치·IPA 오탈자는 발견하지 못함. score의 grade 대비는 겹침을 인정하도록 보완할 필요가 있음. 일부 동의어 해설 누락은 현행 PRINCIPLES 3상 보완 대상이며, 예문 자체의 오류나 표제어만 정답인 정책의 문제는 아님.",
+  "findings": [
+    {
+      "id": "OX-01",
+      "priority": "P2",
+      "kind": "score/grade 해설의 불완전한 대비",
+      "file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/opus-review-20261011/repo/pipeline/out/set07.json",
+      "line": 2234,
+      "exercise": "7세트 Oxford 신규 연습의 score ①",
+      "original": {
+        "ex": "My test {{BLANK}} went up by 20 points!",
+        "c": "숫자로 매긴 점수. A·B 같은 성적 등급이나 학년은 grade."
+      },
+      "reason": "grade도 숫자로 나타내는 시험 성적을 뜻하므로 My test grade went up by 20 points!도 문법·의미상 성립한다. score/grade는 둘 다 5칸이다. 현재 문구가 grade의 숫자 성적 쓰임과 이 문장에서의 겹침을 설명하지 않아 score=숫자 / grade=문자 등급처럼 학습될 수 있다. 이 문제는 대체 답안을 정답으로 받아 주라는 지적이 아니다.",
+      "suggestion": "시험 점수는 grade와도 바꿔 쓸 수 있다. 경기의 점수도 score. grade는 학년·등급도 뜻한다.",
+      "source": "https://dictionary.cambridge.org/us/dictionary/english/grade?topic=quality-and-standard",
+      "source_evidence": "Cambridge grade의 학업 뜻은 number or letter를 모두 포함한다."
+    }
+  ],
+  "policy_notes": [
+    {
+      "priority": "P3",
+      "kind": "확정 정책상 대체어 안내 누락",
+      "file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/opus-review-20261011/repo/pipeline/out/set13.json",
+      "line": 1812,
+      "word": "location",
+      "competitor": "position",
+      "letters": 8,
+      "ex": "I'm lost. Can you send me your {{BLANK}}?",
+      "reason": "어느 위치인지 보내 달라는 문맥에서 position도 자연스럽다. 현재 해설은 차이를 지어내지는 않았지만 대체 가능성 안내가 없다. acceptedAnswers와 전역 ALT에도 해당 대체어가 없다.",
+      "suggestion": "이 문장에서는 position과 바꿔 쓸 수 있다.",
+      "source": "https://www.oxfordlearnersdictionaries.com/definition/english/position_1"
+    },
+    {
+      "priority": "P3",
+      "kind": "확정 정책상 대체어 안내 누락",
+      "file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/opus-review-20261011/repo/pipeline/out/set30.json",
+      "line": 1857,
+      "word": "largely",
+      "competitor": "chiefly",
+      "letters": 7,
+      "ex": "The human body is {{BLANK}} made of water.",
+      "reason": "해설에 mainly·mostly는 있지만 같은 7칸인 chiefly도 이 문장의 '주로'에 맞는다. chiefly는 사전에서도 mostly/mainly로 풀이한다.",
+      "suggestion": "mainly·mostly·chiefly와 바꿔 쓸 수 있다.",
+      "source": "https://dictionary.cambridge.org/dictionary/english/chiefly"
+    },
+    {
+      "priority": "P3",
+      "kind": "확정 정책상 대체어 안내 누락",
+      "file": "C:/Users/Young/Documents/Codex/2026-09-18/new-chat/work/opus-review-20261011/repo/pipeline/out/set31.json",
+      "line": 1918,
+      "word": "significant",
+      "competitor": "substantial",
+      "letters": 11,
+      "ex": "A {{BLANK}} number of teens skip breakfast.",
+      "reason": "상당한 수라는 이 문맥에서는 substantial number도 맞으며 같은 11칸이다. 현재 해설은 수 일치 규칙만 설명한다.",
+      "suggestion": "이 뜻에서는 substantial과 바꿔 쓸 수 있다.",
+      "source": "https://dictionary.cambridge.org/dictionary/english/substantial"
+    }
+  ],
+  "excluded_or_withdrawn": [
+    {
+      "word": "protest",
+      "reason": "처음 미국 동사 강세 차이를 의심했으나 Cambridge가 미국식 뒤 강세를 제시하므로 결함으로 보고하지 않음."
+    },
+    {
+      "word": "realistic/pragmatic",
+      "reason": "예문의 교체 자연스러움은 다소 고민되지만 Oxford가 pragmatic의 동의어로 realistic을 제시하며, 확정 오류로 단정할 수준이 아니라 제외."
+    },
+    {
+      "word": "multiple",
+      "reason": "'뒤에 복수 명사가 온다'를 multiple 단독에 대한 규칙으로 읽을 여지가 있다. multiple-choice는 단수 명사도 꾸민다는 보완 여지는 있으나 강한 결함에 포함하지 않음."
+    }
+  ]
+}
