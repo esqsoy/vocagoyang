@@ -89,6 +89,14 @@ let progressAt2500=null;
   h.ctx.msQueue({m:1000,total:1000,retro:false,words:[]});h.advance(1500);assert.equal(shows.length,0);
   roar.classList.remove('show');h.advance(300);assert.equal(shows.length,1);
 }
+// 6-2) 결과 화면에서 0.7초 안에 다음 판을 시작하면 축하는 판 위에 뜨지 않고(그 뒤로 시간이 흘렀다), 게임 밖 화면으로 나올 때 뜬다(26.10.11 Codex 리뷰 R1).
+for(const file of ['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyangebs2027.html']){
+  const h=harness(path.join(root,file));const shows=[];h.ctx.msShow=info=>shows.push(info);
+  h.ctx.msQueue({m:1000,total:1000,retro:false,words:[]});
+  h.ctx.show('game');h.advance(1500);assert.equal(shows.length,0,file+': 축하가 돌고 있는 판을 가렸다');assert(h.run('msPendingShow'),file+': 미룬 축하가 없다');
+  h.ctx.show('game');h.advance(1500);assert.equal(shows.length,0,file+': 다음 판으로 넘어갈 때 축하가 떴다');
+  h.ctx.show('sum');h.advance(800);assert.equal(shows.length,1,file+': 미룬 축하가 게임 밖에서 뜨지 않았다');assert.equal(h.run('msPendingShow'),null);
+}
 
 // 7) 실제 화면 함수(동작 줄이기 경로)와 저장소 거부는 오류 없이 지나간다.
 {

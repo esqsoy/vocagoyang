@@ -4185,7 +4185,7 @@ const MS_COURSE="ebs";
    → 문턱에서 빛 폭발(주기율표 게임의 광원 효과) → 숫자부터 벽 전체로 반짝임이 번진다. 틀렸던 단어는 금빛.
    2,000부터는 앞선 단어가 천 개씩 폭죽 한 발로 터지며 숫자가 천씩 뛰고, 최근 천 단어만 날아와 벽을 세운다. */
 var msLearnedKey='goyang-learned-words-v1',msSeenKey='goyang-milestone-v1',msMissKey='goyang-missed-words-v1',msStep=1000;
-var msBusy=false,msPendingEnding=false,msRaf=0,msNode=null,msOpenedAt=0;
+var msBusy=false,msPendingEnding=false,msPendingShow=null,msRaf=0,msNode=null,msOpenedAt=0;
 var msColors=['255,211,77','255,79,163','92,230,255','195,153,255','124,255,178','255,255,255'];
 /* 세는 연출(26.10.08 영신): warp = 외운 단어가 배운 순서대로 저 멀리에서 눈앞으로 날아와 섬광이 된다(확정). rain = 대각선 유성우(첫 후보, 미리 보기로만). */
 var msMode='warp';                                                     // 26.10.08 영신: far to near 확정
@@ -4234,9 +4234,13 @@ function msAfterClear(before){
   const info={m,total,retro:before>=m,words:[...words],missed:Object.keys(msMissed())};
   msQueue(info);return info;
 }
+/* 결과 화면에서 0.7초 안에 다음 판을 누르면 축하가 새 판 위에 떠서 그 뒤로 시간이 흘렀다(26.10.11 Codex 리뷰 R1).
+   판이 돌고 있으면 띄우지 않고 미뤘다가, 게임 밖 화면(다음 결과 화면·연습 목록·홈)으로 나올 때 띄운다. */
 function msQueue(info){
   msBusy=true;
-  const go=()=>{const roar=document.getElementById('roar');if(roar&&roar.classList.contains('show')){setTimeout(go,250);return;}msShow(info);};
+  const go=()=>{const roar=document.getElementById('roar');if(roar&&roar.classList.contains('show')){setTimeout(go,250);return;}
+    if(document.body.classList.contains('playing')){msPendingShow=info;return;}
+    msShow(info);};
   setTimeout(go,700);
 }
 function msShuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
@@ -4569,7 +4573,10 @@ finishExercise=function(){
   return r;
 };
 var msOrigShow=show;
-show=function(n){if(n!=='game')try{msLogMisses(state.session);}catch(e){}return msOrigShow.apply(this,arguments);};   // 판 중간에 나가도 틀린 단어는 남긴다
+show=function(n){if(n!=='game')try{msLogMisses(state.session);}catch(e){}   // 판 중간에 나가도 틀린 단어는 남긴다
+  const r=msOrigShow.apply(this,arguments);
+  if(n!=='game'&&msPendingShow){const info=msPendingShow;msPendingShow=null;msQueue(info);}   // 판 때문에 미룬 축하
+  return r;};
 showEnding=function(){if(msBusy){msPendingEnding=true;return;}return msOrigEnding.apply(this,arguments);};
 function msInit(){try{msSync();msPreview();}catch(e){}}
 msInit();

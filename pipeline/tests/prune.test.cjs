@@ -79,5 +79,22 @@ for(const x of cur.flat){
  cur.state.progress={};cur.ctx.saveLast(x.L.id,x.e.title);
  const actual=cur.ctx.resumeTarget();assert(actual&&actual.L.id===x.L.id&&actual.e.title===x.e.title,'New save resumed elsewhere: '+x.e.title);
 }
+// 6. 더 오래된 판 이름(topics-v4·heads-v3 등)으로 저장한 이어하기도 같은 규칙을 따른다(26.10.11 Codex 리뷰 R2).
+//    판이 합쳐져 옛 제목이 사라져도 첫 남은 카드가 있는 연습으로 돌아오고, 카드를 빼지 않은 연습은 같은 연습으로 돌아온다.
+const carry=require('../set0-20261010/carry.cjs');
+const oldRun=carry.runtime(html,savedRuntime,before),curRun=carry.runtime(html,savedRuntime,now);
+const prunedLessons=[...new Set(cur.flat.filter(x=>x.e.preDeletion).map(x=>x.L.lesson))];
+const prunedSource=new Set(cur.flat.filter(x=>x.e.preDeletion).map(x=>x.L.lesson+'|'+x.e.ex));
+let oldLayoutResumes=0,oldLayoutRemapped=0;
+for(const c of carry.candidates(oldRun,prunedLessons)){
+ const t=oldRun.pick(c),a=curRun.pick(c);
+ if(!t){assert.equal(a,null,'Unknown old save now resolves: '+JSON.stringify(c));continue;}
+ oldLayoutResumes++;
+ if(!prunedSource.has(t.L.lesson+'|'+t.e.ex)){assert(a&&a.L.id===t.L.id&&a.e.title===t.e.title,'Untouched old-layout resume moved: '+JSON.stringify(c));continue;}
+ const survivor=t.e.words.find(w=>!isDropped(w));if(!survivor)continue;
+ const expected=curRun.cards.get(survivor.savedCardId);
+ assert(a&&a.li===expected.li&&a.ei===expected.ei,'Old-layout resume lost after pruning: '+JSON.stringify(c));oldLayoutRemapped++;
+}
+assert(oldLayoutRemapped>0);
 console.log(JSON.stringify({removedCards:prune.cards,removedHeadwords:drop.size,cards:cur.cards.size,exercises:cur.flat.length,
- prunedExercises:pruned,untouchedExercises:untouched,incompleteCases:incomplete,resumes,savedIds:'stable'}));
+ prunedExercises:pruned,untouchedExercises:untouched,incompleteCases:incomplete,resumes,oldLayoutResumes,oldLayoutRemapped,savedIds:'stable'}));
