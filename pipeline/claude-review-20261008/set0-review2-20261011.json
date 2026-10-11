@@ -2,12 +2,12 @@
  "date": "2026-10-11",
  "name": "set0-review2-20261011",
  "status": "applied_locally_verified",
- "authorization": "영신 2026-10-11 대화: \"영어이름순서는 우리식으로 하자 (다만 영신초이는 통째로 영신초이야(번역도 영신초이임))\", \"프라임에 소수카드 더할지와 홀수 소수 질문의 여부는 완전히 네가 판단해줘\", \"고양이 목숨 9개는 prime number가 아니라고양! 이라고 해야지\". 0세트 직검수 댓글 \"13은 홀수이고 소수야\", hi 해설 \"How are you?는 통째로 익히는 인사.\"에 \"삭제\", hi 예문 Youngsin에 \"소연으로 바꾸자\".",
- "summary": "이름 순서 우리식(my Kim Minso, your Choi Seojin), hi 예문 Soyeon, thirteen 해설에 \"13은 홀수이자 소수야\", hi 해설에서 \"통째로 익히는 인사\" 삭제, 41세트 prime ② 소수(素數)의 새 카드(prime sn 1→2, 7,574장, 고양 대사 \"고양이 목숨 9개는 prime number가 아니라고양!\").",
+ "authorization": "영신 2026-10-11 대화: \"영어이름순서는 우리식으로 하자 (다만 영신초이는 통째로 영신초이야(번역도 영신초이임))\", \"프라임에 소수카드 더할지와 홀수 소수 질문의 여부는 완전히 네가 판단해줘\", \"고양이 목숨 9개는 prime number가 아니라고양! 이라고 해야지\". 0세트 직검수 댓글 \"13은 홀수이고 소수야\", hi 해설 \"How are you?는 통째로 익히는 인사.\"에 \"삭제\", hi 예문 Youngsin에 \"소연으로 바꾸자\", I 예문 \"좀 재밌는거 없을까 I'm a cat and my butler is..버틀러는 안되겠다 단어풀에 벗어나\".",
+ "summary": "이름 순서 우리식(my Kim Minso, your Choi Seojin), hi 예문 Soyeon, I 예문 \"I am a cat, and you are my human.\"(집사), thirteen 해설에 \"13은 홀수이자 소수야\", hi 해설에서 \"통째로 익히는 인사\" 삭제, 41세트 prime ② 소수(素數)의 새 카드(prime sn 1→2, 7,574장, 고양 대사 \"고양이 목숨 9개는 prime number가 아니라고양!\").",
  "snapshots": {
   "DATA": {
    "beforeHash": "ed4255889b48910fd6cedb3ce86a14343ae0d40609c3c7fa19be7e1468cbaa92",
-   "afterHash": "058e83669b1e242fc51cc872b200964ae36c5afaaeb0e4fbeb4847661d2dddcb",
+   "afterHash": "7fba4df6b7ff115489e9ab02cef80cba421da4853276bfb8353f2dfdd2728b10",
    "changes": [
     {
      "path": [
@@ -50,6 +50,62 @@
      "newExists": true,
      "old": "How are you?는 통째로 익히는 인사. 대답은 I'm fine. / I'm good.",
      "new": "How are you?엔 I'm fine. / I'm good.으로 답해."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      0,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "{{BLANK}} am a student, and my mom is a teacher.",
+     "new": "{{BLANK}} am a cat, and you are my human."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      0,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "나는 학생이고, 우리 엄마는 선생님이야.",
+     "new": "나는 고양이고, 너는 내 집사야."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      0,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "be 현재형은 I am, 한 사람이나 한 개 뒤에는 is. I는 늘 대문자로 써.",
+     "new": "be 현재형은 I am, you are, 한 사람이나 한 개 뒤에는 is. I는 늘 대문자로 써."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      0,
+      "words",
+      4,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "I(나)는 언제나 대문자, 고양이는 언제나 대장이라고양.",
+     "new": "고양이한텐 사람이 집사라고양. I는 대문자, 너는 소문자라고양."
     },
     {
      "path": [
@@ -138,7 +194,7 @@
  "sourceSnapshots": {
   "pipeline/out/lesson00.json": {
    "beforeHash": "8b1960e41d411ce0d9688a95ae93cf596fc5a67d85fe77676017af92ea3d5a4c",
-   "afterHash": "725607b1864c6a04395fffc68124c1ba54f9c51b25aecc62799ee55a28ccc045"
+   "afterHash": "1fc0c0409a09fef2a780bb8c7681b5a9c088fab2847d662a44bef24682e92766"
   },
   "pipeline/out/set05.json": {
    "beforeHash": "0395aa293004bd9b9217f312ca6528b921cb90cd94275664af802eb6a2921c33",
@@ -202,6 +258,58 @@
     "newExists": true,
     "old": "How are you?는 통째로 익히는 인사. 대답은 I'm fine. / I'm good.",
     "new": "How are you?엔 I'm fine. / I'm good.으로 답해."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "{{BLANK}} am a student, and my mom is a teacher.",
+    "new": "{{BLANK}} am a cat, and you are my human."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "나는 학생이고, 우리 엄마는 선생님이야.",
+    "new": "나는 고양이고, 너는 내 집사야."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "be 현재형은 I am, 한 사람이나 한 개 뒤에는 is. I는 늘 대문자로 써.",
+    "new": "be 현재형은 I am, you are, 한 사람이나 한 개 뒤에는 is. I는 늘 대문자로 써."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     0,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "I(나)는 언제나 대문자, 고양이는 언제나 대장이라고양.",
+    "new": "고양이한텐 사람이 집사라고양. I는 대문자, 너는 소문자라고양."
    }
   ],
   "pipeline/out/set05.json": [

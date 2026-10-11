@@ -1103,6 +1103,7 @@
   - thirteen 해설 끝에 "13은 홀수이자 소수야."(예문은 영신 말대로 유지).
   - hi 해설에서 "How are you?는 통째로 익히는 인사."를 지웠다(영신 댓글 "삭제"). 남은 해설 "How are you?엔 I'm fine. / I'm good.으로 답해."
   - hi 예문의 Youngsin을 Soyeon으로(영신 댓글 "소연으로 바꾸자"): "Hi, Soyeon! How are you?" / "안녕, 소연아! 잘 지내?"
+  - I 예문을 재밌게(영신 댓글, butler는 단어 풀 밖): "I am a cat, and you are my human." / "나는 고양이고, 너는 내 집사야." 고양이 "I는 대문자, 너는 소문자라고양." 해설에 you are 보탬.
 - **원장:** `set0-review2-20261011`(복원 체인 맨 위, DATA 5곳). 카드 7,573 → 7,574장.
 - **검증(새로 실행):** Codex 검사 35/35. deepcheck A1·A2·A5·A7 0, A6 89. exaudit 11. ordercheck 합계 501·78(0세트 39·0). linecheck 390·360px 초과 0(7,574문장). collide 907(prime ② 걸리지 않음).
 - **상태:** 브랜치 커밋·푸시, 배포 안 함.
