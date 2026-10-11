@@ -2885,10 +2885,14 @@ function fillBlank(ex,ans){return esc(ex||"").split("{{BLANK}}").join(`<b class=
 function hoeCtxHtml(w){return w.ex?`<div class="ex">${maskBlank(w.ex,w.term)}</div>`:"";}
 function catNote(c){return `<div class="ov-c">${esc(c)}</div>`;}
 function hoeMid(w){let h="";if(w.ex)h+=`<div class="ov-ex">${fillBlank(w.ex,w.term)}</div>`;if(w.tr)h+=`<div class="ov-tr">${esc(w.tr)}</div>`;return h;}
-/* 해설 읽을 시간 예산: 1자당 75ms(초당 약 13자) + 기본 1.9초, 최대 15초. 줄이지 말 것.
+/* 해설 읽을 시간 예산: 공개 화면에 뜨는 것을 모두 센다. 정답을 채운 예문은 영어 1단어당 250ms,
+   해석·해설은 한국어 1자당 110ms(초당 약 9자), 기본 2초, 최대 20초. 줄이지 말 것.
    맞힌 학생은 뜻을 이미 알지만 해설은 처음 본다 — "맞혀서 해설을 못 보게 되는" 것이 이 게임의 약점이라
-   읽을 시간을 보장한다(26.9.17 영신과 토론해 확정). 26.9.29에 80%로 줄었던 것을 26.10.08 영신 지시로 복원. */
-function revealDelay(w){var d=w.c?Math.min(15000,Math.round(1900+w.c.length*75)):2200;var s=state.session;if(s&&s.round>=2)d=Math.min(d,5000);return d;}
+   읽을 시간을 보장한다(26.9.17 영신과 토론해 확정). 다 읽으면 Enter·화면 터치로 바로 넘어가므로 넉넉하게 잡는다.
+   26.10.11 영신 "해설까지 볼 수 있게 카드당 시간을 늘려야겠어 지금은 다 읽기전에 넘어가": 전에는 해설만 1자당 75ms + 1.9초로 세어
+   0세트 가운데 카드가 4.8초였다(예문·해석을 읽을 시간이 빠져 있었다). 지금은 약 9.7초. */
+function revealDelay(w){var words=(w.ex||"").split(/\s+/).filter(Boolean).length,ko=(w.tr||"").length+(w.c||"").length;
+  var d=Math.min(20000,Math.round(2000+words*250+ko*110));var s=state.session;if(s&&s.round>=2)d=Math.min(d,5000);return d;}
 function onRevealKey(e){if(composingKey(e)||e.target?.closest?.(".answer-replay,#catSubmit"))return;if(e.key==="Enter"||e.key===" "||e.code==="Space"){const s=state.session;if(s&&s.answered&&!s.copyMode){e.preventDefault();doNext();}}}
 function onRevealTap(e){const s=state.session;if(!s||!s.answered||s.copyMode)return;if(s.revealAt&&(Date.now()-s.revealAt)<280)return;if(e.target&&e.target.closest&&e.target.closest("button,a,textarea,select")||(e.target.closest("input")&&e.target.id!=="ainput"))return;doNext();}
 function doNext(){const s=state.session;if(!s||!s.answered||s.copyMode)return;if(s.revealTimer){clearTimeout(s.revealTimer);s.revealTimer=null;}document.removeEventListener("keydown",onRevealKey);document.removeEventListener("click",onRevealTap);nextCard();}
