@@ -1,0 +1,81 @@
+1-life(2) [C00-01] 9.3s OK
+   ex: 'A cat has nine {{BLANK}}s.'
+   →  'A cat has more than one {{BLANK}}.'
+   tr: '고양이는 목숨이 아홉 개래.'
+   →  '고양이는 목숨이 하나가 아니래.'
+   c: '영어 속담. 복수는 lives.'
+   →  '속담은 A cat has nine lives. 복수는 lives.'
+5-of(2) [C00-02] 10.4s OK
+   c: 'one of, some of 뒤는 복수: one of my friends(O), one of my friend(X).'
+   →  'one of 뒤엔 복수: one of my friends. some of the water처럼 불가산명사도 쓴다.'
+5-very(1) [C00-03] 9.4s OK
+   c: 'very는 원급만 꾸민다: very easy(O), very easier(X) → much easier.'
+   →  '비교급엔 very 대신 much: much easier. 최상급은 the very best처럼 강조할 수 있다.'
+6-tax(1) [C00-04] 11.6s OK
+   tr: '1760년대 아메리카인은 투표권도 없이 영국에 세금을 냈어.'
+   →  '1760년대 식민지인들은 영국 의회에 대표도 없이 세금을 냈어.'
+18-quantity(1) [C16-01] 6.5s OK
+   c: '질은 quality. 철자가 한 글자 차이라 주의.'
+   →  '질은 quality. 철자가 비슷하니 구별해.'
+19-anxious(2) [C16-02] 9.6s OK
+   c: 'be anxious to+동사. 걱정이 섞인 간절함이라 신나서 기다리는 excited와 다르다.'
+   →  'be anxious to+동사: 간절히 ~하고 싶다. 걱정이 섞이는지는 문맥으로 구별한다.'
+34-loving(1) [R33-45-01] 10.2s OK
+   tr: '걔는 자기 강아지를 애정 어린 눈으로 봤어.'
+   →  '걔는 자기 고양이를 애정 어린 눈으로 봤어.'
+35-surgery(1) [R33-45-02] 11.5s OK
+   tr: '수술을 안 받았다면 우리 개는 죽었을 거야.'
+   →  '수술을 안 받았다면 우리 고양이는 죽었을 거야.'
+41-prime(2) [R33-45-03] 11.5s OK
+   c: '1과 자기 자신으로만 나뉘는 수가 prime number.'
+   →  '1보다 큰 자연수로, 양의 약수가 1과 자신뿐인 수.'
+33-puzzle(1) [R33-45-04] 10.8s OK
+   c: '캐럴 『이상한 나라의 앨리스』. 조각 맞추기도, 풀기 어려운 수수께끼도 puzzle.'
+   →  '캐럴 『이상한 나라의 앨리스』. 이 뜻에서는 riddle과 바꿔 쓸 수 있다.'
+0-September(1) [C00-05] 11.2s OK
+   c: '영미권은 9월, 한국은 3월에 새 학년을 시작해. 라틴어 septem=7(옛 로마력의 일곱째 달).'
+   →  '영미권은 9월경, 한국은 3월경 새 학년을 시작해. 라틴어 septem=7(옛 로마력의 일곱째 달).'
+32-behalf(1) [C16-07] 8.4s OK
+   c: "on behalf of ~ 또는 on one's behalf 꼴로만 쓴다."
+   →  "on behalf of ~ 또는 on one's behalf 꼴로 쓴다."
+1-fourteenth(1) [C00-06] 8.8s OK
+   ex: 'The French Revolution began on July {{BLANK}}, 1789.'
+   →  'The Bastille fell on July {{BLANK}}, 1789.'
+   tr: '프랑스 혁명은 1789년 7월 14일에 시작됐어.'
+   →  '1789년 7월 14일에 바스티유 감옥이 함락됐어.'
+7-interesting(1) [C00-08] 9.6s OK
+   c: '흥미를 주는 쪽이 -ing, 느끼는 쪽이 -ed. 사람도 흥미로우면 an interesting person.'
+   →  'fascinating으로도 바꿔 쓸 수 있고 더 강한 흥미를 뜻해. 흥미를 주면 -ing, 느끼면 -ed.'
+11-straight(1) [C00-07] 7.2s OK
+   tr: '오른쪽 두 번째 별로, 그리고 아침까지 곧장.'
+   →  '오른쪽 두 번째로, 그리고 아침까지 곧장.'
+18-insect(1) [C16-03] 6.6s OK
+   ex: 'All {{BLANK}}s have six legs and three body parts.'
+   →  'Adult {{BLANK}}s have six legs and three main body parts.'
+   tr: '곤충은 모두 다리가 여섯 개고, 몸이 세 부분으로 나뉘어.'
+   →  '다 자란 곤충은 다리가 여섯 개고, 몸이 크게 세 부분으로 나뉘어.'
+19-cure(2) [C16-04] 5.0s OK
+   tr: '감기는 아직도 치료법이 없어.'
+   →  '감기를 완전히 낫게 하는 치료법은 아직 없어.'
+23-disease(1) [C16-05] 10.4s OK
+   c: '퍼지는 병은 disease, 앓는 상태는 illness.'
+   →  '질병 자체는 disease, 앓는 상태는 illness.'
+26-tablespoon(1) [C16-06] 6.8s OK
+   ex: 'One {{BLANK}} is equal to three teaspoons.'
+   →  'In the US, one {{BLANK}} is equal to three teaspoons.'
+   tr: '1테이블스푼은 3티스푼이야.'
+   →  '미국에서 1테이블스푼은 3티스푼이야.'
+37-fatal(1) [R33-45-07] 8.8s OK
+   c: 'fate(운명)에서 온 말. a fatal accident는 사망 사고.'
+   →  'fate(운명)와 같은 어원. a fatal accident는 사망 사고.'
+39-sharply(1) [R33-45-05] 10.6s OK
+   c: '이 뜻에서는 rapidly·quickly와 바꿔 쓸 수 있다.'
+   →  '바꿔 쓸 수 있지만 sharply는 급격한 변화, rapidly·quickly는 속도에 초점.'
+42-scarcity(1) [R33-45-06] 10.5s OK
+   c: '형용사는 scarce. 한때 모자라는 것은 shortage.'
+   →  '형용사는 scarce. shortage는 필요한 양보다 모자란 상태.'
+1-night(1) [C00-09] 6.7s OK
+   c: '밤 앞에만 at: at night, in the morning.'
+   →  '밤 앞엔 at: at night. 아침엔 in the morning.'
+
+제안 23개, 걸린 것 0개
