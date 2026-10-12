@@ -1,0 +1,817 @@
+{
+ "id": "spotlight-20261012",
+ "date": "2026-10-12",
+ "syllabus": "pipeline/grammar/syllabus-draft-20261010.json",
+ "status": "Claude 배정(승인된 구간 안에서 세트를 정함). 세트 작업 때 그 세트의 조명 문법으로 쓴다.",
+ "rule": "구간(band) 안에서 앞 항목이 뒤 항목의 바탕이 되게 차례로 놓는다(현재완료 경험·완료 → 계속 → 진행, 수동태 기본 → 시제·조동사 → by 아닌 전치사, 관계대명사 주격 → 목적격 → whose). Oxford 보강 배치의 문법 자리(14 과거분사, 17 be+과거분사+전치사, 20 whose, 22·24 부사 자리)와 맞춘다. 0~4세트 항목은 이미 그 세트 단어가 싣는다.",
+ "sets": {
+  "0": [
+   {
+    "id": "G001",
+    "name": "인칭대명사 주격과 be 현재 일치 (I am / you are / he is)",
+    "tier": "core"
+   },
+   {
+    "id": "G002",
+    "name": "be의 원형과 명령문 (Be quiet. Don't be late.)",
+    "tier": "std"
+   },
+   {
+    "id": "G003",
+    "name": "be = 있다 (I am at home.)",
+    "tier": "std"
+   },
+   {
+    "id": "G004",
+    "name": "not 부정과 축약 (I'm not, isn't, don't)",
+    "tier": "core"
+   },
+   {
+    "id": "G005",
+    "name": "yes/no 대답과 부정의문문 대답 (Aren't you…? Yes, I am.)",
+    "tier": "core"
+   },
+   {
+    "id": "G006",
+    "name": "do/does 의문문과 짧은 대답 (Do you…? Yes, I do.)",
+    "tier": "core"
+   },
+   {
+    "id": "G007",
+    "name": "목적격 (help me, know him)",
+    "tier": "core"
+   },
+   {
+    "id": "G008",
+    "name": "소유격과 그 생략 금지 (lost his phone)",
+    "tier": "core"
+   },
+   {
+    "id": "G009",
+    "name": "소유대명사 (mine, yours, his)",
+    "tier": "std"
+   },
+   {
+    "id": "G010",
+    "name": "its와 it's",
+    "tier": "std"
+   },
+   {
+    "id": "G011",
+    "name": "this/that, these/those + 수",
+    "tier": "std"
+   },
+   {
+    "id": "G012",
+    "name": "here·there 앞에 to를 쓰지 않음",
+    "tier": "std"
+   },
+   {
+    "id": "G013",
+    "name": "a/an은 소리로 정한다",
+    "tier": "std"
+   },
+   {
+    "id": "G014",
+    "name": "처음 a, 다시 the",
+    "tier": "core"
+   },
+   {
+    "id": "G015",
+    "name": "and·or·but, A, B, and C, 선택의문문 대답",
+    "tier": "std"
+   },
+   {
+    "id": "G016",
+    "name": "의문사 의문문과 주어를 묻는 who",
+    "tier": "core"
+   },
+   {
+    "id": "G017",
+    "name": "주어를 빼지 않는 영어 (It is blue.)",
+    "tier": "core"
+   },
+   {
+    "id": "G018",
+    "name": "인사 덩어리 (How are you? / This is ~ / Thanks for)",
+    "tier": "peri"
+   }
+  ],
+  "1": [
+   {
+    "id": "G019",
+    "name": "명사의 복수 -s/-es/-ies와 불규칙 복수",
+    "tier": "core"
+   },
+   {
+    "id": "G022",
+    "name": "수사와 복수, hundred에 -s 없음, hundreds of",
+    "tier": "std"
+   },
+   {
+    "id": "G023",
+    "name": "서수와 the (the first)",
+    "tier": "std"
+   },
+   {
+    "id": "G024",
+    "name": "There is/are와 수일치",
+    "tier": "core"
+   },
+   {
+    "id": "G025",
+    "name": "How many / How much",
+    "tier": "std"
+   },
+   {
+    "id": "G028",
+    "name": "일반동사 현재와 3인칭 -s, does/doesn't",
+    "tier": "core"
+   },
+   {
+    "id": "G034",
+    "name": "형용사의 자리 (명사 앞 / be 뒤)",
+    "tier": "std"
+   }
+  ],
+  "2": [
+   {
+    "id": "G020",
+    "name": "셀 수 없는 명사 (water, homework, advice, furniture, information)",
+    "tier": "core"
+   },
+   {
+    "id": "G021",
+    "name": "늘 복수인 명사 (jeans, glasses)",
+    "tier": "peri"
+   },
+   {
+    "id": "G026",
+    "name": "some·any·no + 명사",
+    "tier": "std"
+   },
+   {
+    "id": "G027",
+    "name": "many·much·a lot of·a few·a little",
+    "tier": "core"
+   },
+   {
+    "id": "G029",
+    "name": "빈도부사의 위치",
+    "tier": "std"
+   },
+   {
+    "id": "G030",
+    "name": "현재시제의 쓰임 (습관·변하지 않는 사실)",
+    "tier": "std"
+   },
+   {
+    "id": "G031",
+    "name": "소유격 's와 of",
+    "tier": "std"
+   },
+   {
+    "id": "G032",
+    "name": "everyone·nobody 단수 취급, each/every + 단수",
+    "tier": "core"
+   },
+   {
+    "id": "G033",
+    "name": "관사 없이 쓰는 말 (play soccer, have lunch, by bus)과 the (the sun, play the piano)",
+    "tier": "core"
+   }
+  ],
+  "3": [
+   {
+    "id": "G035",
+    "name": "때의 전치사 at·on·in",
+    "tier": "core"
+   },
+   {
+    "id": "G036",
+    "name": "곳의 전치사 at·on·in·under·next to",
+    "tier": "core"
+   },
+   {
+    "id": "G037",
+    "name": "명령문, Let's, Don't",
+    "tier": "std"
+   },
+   {
+    "id": "G038",
+    "name": "시각·날짜 읽기 (seven thirty, May 1st)",
+    "tier": "peri"
+   },
+   {
+    "id": "G039",
+    "name": "날씨·시간·거리의 it",
+    "tier": "std"
+   },
+   {
+    "id": "G040",
+    "name": "for·during·before·after + 명사",
+    "tier": "std"
+   }
+  ],
+  "4": [
+   {
+    "id": "G041",
+    "name": "was/were",
+    "tier": "core"
+   },
+   {
+    "id": "G042",
+    "name": "규칙 과거 -ed의 철자와 소리",
+    "tier": "std"
+   },
+   {
+    "id": "G043",
+    "name": "불규칙 과거",
+    "tier": "core"
+   },
+   {
+    "id": "G044",
+    "name": "did 의문·부정 + 동사원형 (didn't go)",
+    "tier": "core"
+   },
+   {
+    "id": "G045",
+    "name": "과거를 나타내는 말 (ago, last, yesterday)",
+    "tier": "std"
+   }
+  ],
+  "5": [
+   {
+    "id": "G046",
+    "name": "현재진행과 진행형을 쓰지 않는 동사 (know, like)",
+    "tier": "core"
+   },
+   {
+    "id": "G047",
+    "name": "과거진행",
+    "tier": "std"
+   },
+   {
+    "id": "G048",
+    "name": "미래 will / be going to / 정해진 일정의 진행형",
+    "tier": "core"
+   },
+   {
+    "id": "G049",
+    "name": "can·could (능력·허락·부탁)와 조동사 뒤 동사원형",
+    "tier": "std"
+   },
+   {
+    "id": "G050",
+    "name": "must·have to·should, must not과 don't have to",
+    "tier": "core"
+   },
+   {
+    "id": "G051",
+    "name": "may·might (가능성)",
+    "tier": "std"
+   },
+   {
+    "id": "G052",
+    "name": "비교급 -er/more + than, 불규칙 비교",
+    "tier": "core"
+   },
+   {
+    "id": "G053",
+    "name": "최상급 the -est/most + in/of",
+    "tier": "std"
+   },
+   {
+    "id": "G054",
+    "name": "원급 비교 as ~ as",
+    "tier": "std"
+   },
+   {
+    "id": "G055",
+    "name": "감각동사 + 형용사 (look happy, sound good)",
+    "tier": "core"
+   },
+   {
+    "id": "G056",
+    "name": "would like, Would/Could you ~? (공손한 부탁)",
+    "tier": "std"
+   }
+  ],
+  "6": [
+   {
+    "id": "G057",
+    "name": "to부정사를 목적어로 쓰는 동사 (want/hope/decide to)",
+    "tier": "core"
+   },
+   {
+    "id": "G061",
+    "name": "목적의 to부정사 (in order to)",
+    "tier": "std"
+   },
+   {
+    "id": "G063",
+    "name": "4형식 (give/send/show/tell + 사람 + 물건)과 to/for 전환",
+    "tier": "core"
+   }
+  ],
+  "7": [
+   {
+    "id": "G058",
+    "name": "동명사를 목적어로 쓰는 동사 (enjoy/finish/mind/avoid -ing)",
+    "tier": "core"
+   },
+   {
+    "id": "G071",
+    "name": "동명사 주어와 전치사 뒤 동명사 (good at -ing)",
+    "tier": "core"
+   },
+   {
+    "id": "G068",
+    "name": "-thing + 형용사 (something strange)",
+    "tier": "std"
+   }
+  ],
+  "8": [
+   {
+    "id": "G064",
+    "name": "시간·조건 부사절의 현재 = 미래 (when it rains)",
+    "tier": "core"
+   },
+   {
+    "id": "G065",
+    "name": "because와 because of, so, although",
+    "tier": "core"
+   },
+   {
+    "id": "G066",
+    "name": "that 명사절 (I think that ~)",
+    "tier": "std"
+   }
+  ],
+  "9": [
+   {
+    "id": "G059",
+    "name": "to부정사와 동명사로 뜻이 갈리는 동사 (stop/remember/try/forget)",
+    "tier": "core"
+   },
+   {
+    "id": "G060",
+    "name": "명사를 꾸미는 to부정사 (something to drink)",
+    "tier": "std"
+   },
+   {
+    "id": "G062",
+    "name": "의문사 + to부정사 (how to)",
+    "tier": "std"
+   }
+  ],
+  "10": [
+   {
+    "id": "G072",
+    "name": "형용사 + to부정사 (easy to, happy to)",
+    "tier": "std"
+   },
+   {
+    "id": "G073",
+    "name": "가주어 It ~ to부정사",
+    "tier": "core"
+   },
+   {
+    "id": "G074",
+    "name": "too ~ to / enough to",
+    "tier": "std"
+   }
+  ],
+  "11": [
+   {
+    "id": "G075",
+    "name": "재귀대명사 (myself, enjoy yourself)",
+    "tier": "std"
+   },
+   {
+    "id": "G076",
+    "name": "one·another·the other·others",
+    "tier": "std"
+   },
+   {
+    "id": "G067",
+    "name": "접속부사 however·therefore와 문장 연결",
+    "tier": "std"
+   }
+  ],
+  "12": [
+   {
+    "id": "G069",
+    "name": "부가의문문",
+    "tier": "peri"
+   },
+   {
+    "id": "G070",
+    "name": "감탄문 What a ~ / How ~",
+    "tier": "peri"
+   }
+  ],
+  "13": [
+   {
+    "id": "G093",
+    "name": "비교급 강조 (much, even, far)와 the 비교급, the 비교급",
+    "tier": "std"
+   },
+   {
+    "id": "G094",
+    "name": "배수 비교 (twice as ~ as)",
+    "tier": "peri"
+   },
+   {
+    "id": "G095",
+    "name": "최상급의 뜻을 내는 비교 (No other ~ than)",
+    "tier": "peri"
+   }
+  ],
+  "14": [
+   {
+    "id": "G077",
+    "name": "현재완료 경험 (ever, never, have been to)",
+    "tier": "core"
+   },
+   {
+    "id": "G078",
+    "name": "현재완료 완료·결과 (just, already, yet)",
+    "tier": "core"
+   },
+   {
+    "id": "G082",
+    "name": "수동태 be + 과거분사, by",
+    "tier": "core"
+   }
+  ],
+  "15": [
+   {
+    "id": "G079",
+    "name": "현재완료 계속 (for, since)",
+    "tier": "core"
+   },
+   {
+    "id": "G080",
+    "name": "현재완료와 과거의 구별 (yesterday와 함께 쓰지 않음)",
+    "tier": "core"
+   },
+   {
+    "id": "G083",
+    "name": "수동태의 시제·조동사 (was built, can be seen)",
+    "tier": "core"
+   }
+  ],
+  "16": [
+   {
+    "id": "G081",
+    "name": "현재완료 진행",
+    "tier": "std"
+   },
+   {
+    "id": "G098",
+    "name": "had better, would rather",
+    "tier": "std"
+   }
+  ],
+  "17": [
+   {
+    "id": "G084",
+    "name": "by 말고 다른 전치사를 쓰는 수동 (be made of, be known for)",
+    "tier": "std"
+   },
+   {
+    "id": "G085",
+    "name": "관계대명사 who/which/that 주격",
+    "tier": "core"
+   }
+  ],
+  "18": [
+   {
+    "id": "G086",
+    "name": "관계대명사 목적격과 생략",
+    "tier": "core"
+   },
+   {
+    "id": "G088",
+    "name": "5형식 make/keep/find + 목적어 + 형용사·명사",
+    "tier": "core"
+   },
+   {
+    "id": "G099",
+    "name": "간접의문문 어순 (Do you know where he lives?)",
+    "tier": "core"
+   }
+  ],
+  "19": [
+   {
+    "id": "G089",
+    "name": "want/ask/tell/allow + 목적어 + to부정사",
+    "tier": "core"
+   },
+   {
+    "id": "G090",
+    "name": "사역동사 make/let/have + 목적어 + 동사원형",
+    "tier": "core"
+   },
+   {
+    "id": "G091",
+    "name": "지각동사 see/hear + 목적어 + 동사원형/-ing",
+    "tier": "core"
+   },
+   {
+    "id": "G092",
+    "name": "help + 목적어 + (to) 동사원형",
+    "tier": "std"
+   }
+  ],
+  "20": [
+   {
+    "id": "G087",
+    "name": "관계대명사 whose",
+    "tier": "std"
+   },
+   {
+    "id": "G096",
+    "name": "used to / be used to -ing / be used to 동사원형",
+    "tier": "core"
+   },
+   {
+    "id": "G097",
+    "name": "감정 분사 -ing/-ed (boring/bored)",
+    "tier": "core"
+   }
+  ],
+  "21": [
+   {
+    "id": "G100",
+    "name": "관계대명사 what (= the thing that)과 that의 구별",
+    "tier": "core"
+   },
+   {
+    "id": "G105",
+    "name": "whether/if 명사절과 what의 구별 (뒤 절이 완전하면 whether)",
+    "tier": "core"
+   }
+  ],
+  "22": [
+   {
+    "id": "G101",
+    "name": "관계부사 where/when/why/how와 관계대명사의 구별",
+    "tier": "core"
+   },
+   {
+    "id": "G115",
+    "name": "형용사와 부사의 자리 (목적격 보어는 형용사)",
+    "tier": "core"
+   }
+  ],
+  "23": [
+   {
+    "id": "G102",
+    "name": "전치사 + 관계대명사 (in which)",
+    "tier": "std"
+   },
+   {
+    "id": "G103",
+    "name": "계속적 용법 (, which / , who)",
+    "tier": "std"
+   }
+  ],
+  "24": [
+   {
+    "id": "G104",
+    "name": "명사를 꾸미는 분사 (a broken window, people living here)",
+    "tier": "core"
+   },
+   {
+    "id": "G116",
+    "name": "the + 형용사 = ~한 사람들 (복수 취급)",
+    "tier": "std"
+   }
+  ],
+  "25": [
+   {
+    "id": "G106",
+    "name": "가정법 과거 (If I were ~, I would ~)",
+    "tier": "core"
+   },
+   {
+    "id": "G107",
+    "name": "I wish + 과거",
+    "tier": "std"
+   }
+  ],
+  "26": [
+   {
+    "id": "G108",
+    "name": "과거완료 (had + 과거분사)",
+    "tier": "core"
+   }
+  ],
+  "27": [
+   {
+    "id": "G109",
+    "name": "so ~ that / such ~ that / so that",
+    "tier": "std"
+   },
+   {
+    "id": "G110",
+    "name": "상관접속사 both A and B, either/neither, not only A but also B",
+    "tier": "std"
+   }
+  ],
+  "28": [
+   {
+    "id": "G113",
+    "name": "병렬 구조 (and·or 양쪽을 같은 모양으로)",
+    "tier": "core"
+   },
+   {
+    "id": "G118",
+    "name": "to부정사의 의미상 주어 (for/of)와 not to",
+    "tier": "std"
+   }
+  ],
+  "29": [
+   {
+    "id": "G111",
+    "name": "긴 주어와 동사의 수일치",
+    "tier": "core"
+   },
+   {
+    "id": "G112",
+    "name": "문장의 동사와 준동사 구별",
+    "tier": "core"
+   },
+   {
+    "id": "G117",
+    "name": "동격 명사구 (Ms. Kim, our teacher, ~)",
+    "tier": "peri"
+   }
+  ],
+  "30": [
+   {
+    "id": "G114",
+    "name": "대명사 수 일치 (it/them, that/those)와 재귀·목적격 구별",
+    "tier": "core"
+   },
+   {
+    "id": "G119",
+    "name": "동명사의 의미상 주어와 완료형",
+    "tier": "peri"
+   },
+   {
+    "id": "G120",
+    "name": "간접화법 기초 (said that, asked if)",
+    "tier": "std"
+   }
+  ],
+  "31": [
+   {
+    "id": "G121",
+    "name": "분사구문 (시간·이유·동시동작)과 수동 분사구문",
+    "tier": "core"
+   }
+  ],
+  "32": [
+   {
+    "id": "G122",
+    "name": "with + 명사 + 분사",
+    "tier": "std"
+   },
+   {
+    "id": "G139",
+    "name": "접속사와 전치사의 구별 (while/during, although/despite)",
+    "tier": "core"
+   }
+  ],
+  "33": [
+   {
+    "id": "G123",
+    "name": "가정법 과거완료 (If I had p.p., I would have p.p.)",
+    "tier": "core"
+   },
+   {
+    "id": "G124",
+    "name": "혼합 가정법",
+    "tier": "peri"
+   }
+  ],
+  "34": [
+   {
+    "id": "G125",
+    "name": "as if / as though",
+    "tier": "std"
+   },
+   {
+    "id": "G126",
+    "name": "Without / But for / If it were not for",
+    "tier": "peri"
+   }
+  ],
+  "35": [
+   {
+    "id": "G127",
+    "name": "if를 생략한 도치 (Had I known ~)",
+    "tier": "peri"
+   },
+   {
+    "id": "G128",
+    "name": "조동사 + have p.p. (should have, must have, can't have)",
+    "tier": "std"
+   }
+  ],
+  "36": [
+   {
+    "id": "G129",
+    "name": "It is ~ that 강조 구문",
+    "tier": "std"
+   },
+   {
+    "id": "G130",
+    "name": "do 강조 (I do like it)",
+    "tier": "peri"
+   }
+  ],
+  "37": [
+   {
+    "id": "G131",
+    "name": "부정어 도치 (Never have I ~, Not only did ~)",
+    "tier": "std"
+   },
+   {
+    "id": "G132",
+    "name": "장소·보어 도치 (Here comes ~, Among them was ~)",
+    "tier": "peri"
+   }
+  ],
+  "38": [
+   {
+    "id": "G133",
+    "name": "so/neither + 조동사 + 주어",
+    "tier": "std"
+   },
+   {
+    "id": "G134",
+    "name": "시제 일치와 그 예외",
+    "tier": "std"
+   }
+  ],
+  "39": [
+   {
+    "id": "G135",
+    "name": "4·5형식의 수동태 (was given, was made to go)",
+    "tier": "std"
+   },
+   {
+    "id": "G136",
+    "name": "대동사 do/does/did와 be/have (앞 동사의 종류·시제에 맞춤)",
+    "tier": "std"
+   }
+  ],
+  "40": [
+   {
+    "id": "G137",
+    "name": "동격 that (the fact that)과 관계대명사 that의 구별",
+    "tier": "core"
+   }
+  ],
+  "41": [
+   {
+    "id": "G138",
+    "name": "복합관계사 whatever·whoever·however",
+    "tier": "std"
+   }
+  ],
+  "42": [
+   {
+    "id": "G140",
+    "name": "부분 부정과 부정 표현 (not always, hardly, no longer)",
+    "tier": "std"
+   }
+  ],
+  "43": [
+   {
+    "id": "G141",
+    "name": "가목적어 it (make it possible to)",
+    "tier": "std"
+   }
+  ],
+  "44": [
+   {
+    "id": "G142",
+    "name": "생략과 대용 (if possible, I think so)",
+    "tier": "peri"
+   }
+  ],
+  "45": [
+   {
+    "id": "G143",
+    "name": "무생물 주어 (This road takes you to ~)",
+    "tier": "peri"
+   }
+  ]
+ },
+ "set5Moves": "5세트 문법 뜻 카드 11장의 새 자리: 14(have ③·be ④·by ④), 17(who ②·which ②·that ③), 21(what ③·if ②), 25(would ①③④). pipeline/set5-20261012/spec.json"
+}

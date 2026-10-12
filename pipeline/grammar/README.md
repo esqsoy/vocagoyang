@@ -24,3 +24,7 @@ python3 pipeline/grammar/measure.py --cards cards.json # 카드별 태그 저장
 - `syllabus-draft-20261010.json`: 문법 지도 143항목. 구간(처음 소개하는 세트)·등급(노출 목표 집중 15·표준 8·주변 3회)·한국 학습자 약점·수능 어법 핵심·EGP 첫 수준. 읽기 페이지: https://claude.ai/artifact/Dhp7PgRApVa9LctYUgmNV6
 - `set0-draft-20261010.json`: 0세트 전체 234장·23연습 초안(초석 45장 + 기존 0세트 187장 + Oxford no one·ice cream). 초석 44장 시범본을 이어받았다. 26.10.10 영신 "완벽합니다...갑시다!"로 데이터에 반영했다(로컬·배포 전, [pipeline README](../README.md#0세트-재구성--2026-10-10)). 읽기 페이지: https://claude.ai/artifact/BB5W7HkzszXtuQ1H2UnC8E
 - 근거: 최신 연구(명시적 규칙 뒤 직접 쓰기, 첫 소개 뒤 고른 반복, 날을 달리한 재회, 한국어가 허용하는 오류에 O/X), 수능·평가원 23회 어법 정답 포인트, Cambridge EGP 수출본. 2022 교육과정 [별표 4] 원문 대조는 네트워크 제한으로 남았다.
+
+## 세트별 조명 문법 (2026-10-12)
+
+- `spotlight-20261012.json`: 143항목을 승인된 구간 안에서 1~45세트에 배정했다. 구간 안에서는 앞 항목이 뒤 항목의 바탕이 되게 차례로 놓고 Oxford 보강의 문법 자리(14 과거분사, 17 be+과거분사+전치사, 20 whose)와 맞췄다. 세트 작업 때 그 세트 예문 일부가 이 항목을 싣는다. 5세트 문법 뜻 카드 11장의 새 자리도 이 지도를 따랐다([pipeline README](../README.md#5세트-문법-뜻-분산--2026-10-12)).

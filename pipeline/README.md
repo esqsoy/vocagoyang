@@ -42,6 +42,17 @@
 - 계획은 `node pipeline/set0-20261010/build-plan.cjs df95ea4`로 만들었다(바꾸기 전 커밋의 게임 코드·DATA를 그대로 돌린다). 바꾼 뒤에는 다시 만들지 않는다. 같은 커밋으로 돌리면 같은 파일이 나온다.
 - 검사: `node pipeline/tests/set0.test.cjs`(초안 내용, 모아둔 카드 ID, 바뀌지 않은 연습의 기록 키, 완료 이어받기와 부분 완료, 옛 판까지의 이어하기 1,218개 후보). 원장은 `claude-review-20261008/set0-20261010.json`.
 
+## 5세트 문법 뜻 분산 · 2026-10-12
+
+5세트의 문법 뜻 카드 11장을 그 문법을 처음 소개하는 세트 끝 새 연습(14·17·21·25세트 Exercise 12)으로 보낸다([PRINCIPLES 12](../PRINCIPLES.md#12-문법-순서대로-플레이하면-몸에-밴다)). 저작 위치는 그대로(set05.json)이고 `assemble.py`가 0세트 재구성 다음에 `set5-20261012/plan.json`대로 화면만 바꾼다.
+
+- `spec.json`: 옮길 카드와 새 연습 이름, 1번 연습의 판 이름. `build-plan.cjs <배포 커밋>`이 배포판(acfe20e)의 게임 코드·DATA를 그대로 돌려 `plan.json`을 만든다. 바꾼 뒤에는 다시 만들지 않는다.
+- 옮긴 카드는 배포판의 모아둔 카드 ID(`savedId`)와 완료 기록 키(`priorKeys`, 옛 판 포함)를 가지고 간다.
+- 5세트 1~6 연습은 제목·진도 키를 그대로 두고 카드만 뺀다. 0세트 재구성으로 이미 한 번 뺀 연습이라 배포판 목록·판 나눔(`deployedWords`·`deployedParts`)을 남긴다. 게임은 빼기 전 목록(`preDeletion`)과 배포판 목록을 둘 다 나눠 보고 그 판들의 완료 기록을 남은 카드가 이어받게 한다.
+- 이어하기: 배포 전 옛 판 저장(prune 표시 없음)은 `deletionResumeTitles`, 배포판 저장(prune "20261010")은 `deployedResumeTitles`로 옮긴다. 이제 저장 표시는 "20261012"다. 0세트 계획이 옮긴 카드(who ②·would ①)에 둔 옛 이어하기는 5세트에 남는 다음 카드로 넘긴다.
+- 검수 페이지: `review-page.py 5 --since 커밋`은 끝에 '다른 세트로 보낸 카드'를, 받은 세트 페이지는 '옮겨 옴 · 5세트에서'를 보인다.
+- 검사: `node pipeline/tests/set5.test.cjs`(배포판과 비교: 모아둔 카드 ID, 바뀌지 않은 연습의 기록 키, 완료 이어받기·부분 완료·옛 판 기록, 두 시기의 이어하기 745개). 원장은 `claude-review-20261008/set5-20261012.json`.
+
 ## 원본
 
 - 0~4세트: out/lesson00.json ~ lesson04.json의 exercises. lesson00.json 연습 20은 0세트 새 카드의 저작 위치이고, 화면 0세트는 위 재구성이 묶는다.

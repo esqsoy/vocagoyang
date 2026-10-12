@@ -236,6 +236,56 @@ for ref in set0['resume']:
     _, card = find_card(ref['lesson'], ref['word'], ref['si'])
     card['resumeFrom'] = ref['from']
 
+# 26.10.12 5세트 문법 뜻 분산(26.10.10 영신 승인 구조 정정안, PRINCIPLES 12): 중2 이상 문법(현재완료·수동태·관계사·가정법 등)을
+# 가진 뜻 카드 11장을 그 문법을 처음 소개하는 세트 끝 새 연습으로 보낸다. 저작 위치는 그대로(set05.json)다.
+# 5세트 연습은 제목·진도 키를 그대로 두고 카드만 뺀다. 0세트 재구성으로 이미 카드를 한 번 뺀 연습이라, 배포판 목록
+# (deployedWords·deployedParts)을 남겨 게임이 그 판의 완료 기록과 이어하기 제목도 잇게 한다. 계획은 set5-20261012/plan.json.
+set5 = read(P / 'set5-20261012/plan.json')
+set5_spec = read(P / 'set5-20261012/spec.json')
+set5_order = [w for e in lessons[5]['exercises'] for w in e['words']]
+moving = {(c['word'], c['si']) for m in set5['moves'] for c in m['cards']}
+is_moving = lambda w: (w['word'], w.get('si') or 1) in moving
+for deployed in set5['deployed']:
+    exercise = next(e for e in lessons[5]['exercises'] if e['ex'] == deployed['ex'])
+    now = [{'word': w['word'], 'si': w.get('si') or 1} for w in exercise['words']]
+    if 'preDeletion' not in exercise or 'deployedWords' in exercise:
+        raise ValueError('A second removal needs exactly one earlier removal')
+    if now != deployed['words'] or exercise.get('practiceParts') != deployed['parts']:
+        raise ValueError(f"Set 5 exercise {deployed['ex']} differs from the deployed layout")
+    keep = [w for w in exercise['words'] if not is_moving(w)]
+    exercise['deployedWords'] = now
+    if 'practiceParts' in exercise:
+        exercise['deployedParts'] = copy.deepcopy(exercise['practiceParts'])
+        names = set5_spec.get('partNames', {}).get(str(deployed['ex']))
+        parts, start = [], 0
+        for i, part in enumerate(exercise['practiceParts']):
+            n = sum(not is_moving(w) for w in exercise['words'][part['start']:part['end']])
+            if n == 0:
+                raise ValueError('Removing cards would empty a practice part')
+            parts.append({**part, 'start': start, 'end': start + n, **({'name': names[i]} if names else {})})
+            start += n
+        exercise['practiceParts'] = parts
+    exercise['words'] = keep
+for move in set5['moves']:
+    target = lessons[move['to']]
+    if max(e['ex'] for e in target['exercises']) + 1 != move['ex']:
+        raise ValueError(f"Set {move['to']} should end with exercise {move['ex'] - 1}")
+    words = []
+    for ref in move['cards']:
+        card = next(w for w in set5_order if w['word'] == ref['word'] and (w.get('si') or 1) == ref['si'])
+        if card.get('savedId', ref['savedId']) != ref['savedId']:
+            raise ValueError('Set 5 plan disagrees with a fixed saved ID')
+        card['savedId'], card['priorKeys'] = ref['savedId'], ref['priorKeys']
+        # 0세트 계획이 이 카드에 둔 옛 이어하기는 5세트에 남는 다음 카드로 넘긴다(그 계획의 '같은 세트에 남는 첫 카드' 규칙).
+        if 'resumeFrom' in card:
+            after = set5_order[set5_order.index(card) + 1:]
+            anchor = next(w for w in after if not is_moving(w))
+            anchor['resumeFrom'] = anchor.get('resumeFrom', []) + card.pop('resumeFrom')
+        words.append(card)
+    target['exercises'].append({'ex': move['ex'], 'name': move['name'], 'words': words})
+if sum(len(m['cards']) for m in set5['moves']) != len(moving) or any(is_moving(w) for e in lessons[5]['exercises'] for w in e['words']):
+    raise ValueError('Set 5 plan must move each card exactly once')
+
 src = HTML.read_text(encoding='utf-8')
 constants = [('DATA', data), ('READING_CORE', core), ('MORPHOLOGY', morph)]
 if connections:

@@ -1,0 +1,801 @@
+{
+ "id": "set5-20261012",
+ "base": "acfe20e",
+ "spec": "pipeline/set5-20261012/spec.json",
+ "note": "build-plan.cjs가 배포판(base)에서 계산했다. moves의 savedId·priorKeys는 그 카드의 배포판 ID와 완료 기록 키(옛 판 포함), deployed는 카드가 빠지는 5세트 연습의 배포판 목록이다.",
+ "moves": [
+  {
+   "to": 14,
+   "ex": 12,
+   "name": "현재완료와 수동태",
+   "cards": [
+    {
+     "word": "have",
+     "si": 3,
+     "from": 1,
+     "savedId": "[\"5세트\",\"Exercise 1 · 401~410\",\"have\",3,\"\"]",
+     "priorKeys": [
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: topics-v4 10-20"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v3 15-27"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: short-v1 4/4"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v2 19-27"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410"
+      ],
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: topics-v4 16-28"
+      ],
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: short-v1 4/4"
+      ],
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: heads-v2 20-28"
+      ],
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: heads-v3 20-28"
+      ],
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410"
+      ]
+     ]
+    },
+    {
+     "word": "be",
+     "si": 4,
+     "from": 1,
+     "savedId": "[\"5세트\",\"Exercise 1 · 401~410\",\"be\",4,\"\"]",
+     "priorKeys": [
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: topics-v4 1-9"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v3 1-14"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: short-v1 1/4"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410 :: heads-v2 1-10"
+      ],
+      [
+       "5세트",
+       "Exercise 1 · 401~410"
+      ],
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: topics-v4 1-15"
+      ],
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: short-v1 1/4"
+      ],
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: heads-v2 1-10"
+      ],
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410 :: heads-v3 1-10"
+      ],
+      [
+       "placement-20261003-5-1",
+       "Exercise 1 · 401~410"
+      ]
+     ]
+    },
+    {
+     "word": "by",
+     "si": 4,
+     "from": 3,
+     "savedId": "[\"5세트\",\"Exercise 3 · 421~430\",\"by\",4,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 3 · 421~430"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: short-v1 3/3"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v2 9-15"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v3 12-21"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "to": 17,
+   "ex": 12,
+   "name": "관계대명사",
+   "cards": [
+    {
+     "word": "who",
+     "si": 2,
+     "from": 4,
+     "savedId": "[\"5세트\",\"Exercise 4 · 431~440\",\"who\",2,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: heads-v3 10-17"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: short-v1 2/3"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: heads-v2 9-15"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: heads-v3 12-21"
+      ]
+     ]
+    },
+    {
+     "word": "which",
+     "si": 2,
+     "from": 6,
+     "savedId": "[\"5세트\",\"Exercise 6 · 451~460\",\"which\",2,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 6 · 451~460 :: heads-v3 1-7"
+      ],
+      [
+       "5세트",
+       "Exercise 6 · 451~460 :: short-v1 1/3"
+      ],
+      [
+       "5세트",
+       "Exercise 6 · 451~460 :: heads-v2 1-8"
+      ],
+      [
+       "5세트",
+       "Exercise 6 · 451~460"
+      ],
+      [
+       "5세트",
+       "Exercise 6 · 451~460 :: heads-v3 1-8"
+      ]
+     ]
+    },
+    {
+     "word": "that",
+     "si": 3,
+     "from": 2,
+     "savedId": "[\"fable-pool-20260927-set5-ex2\",\"Exercise 2 · 411~420\",\"that\",3,\"\"]",
+     "priorKeys": [
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: heads-v3 1-9"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: short-v1 1/3"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: heads-v2 1-9"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420"
+      ],
+      [
+       "fable-pool-20260927-set5-ex2",
+       "Exercise 2 · 411~420 :: heads-v3 1-12"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "to": 21,
+   "ex": 12,
+   "name": "what과 if",
+   "cards": [
+    {
+     "word": "what",
+     "si": 3,
+     "from": 3,
+     "savedId": "[\"5세트\",\"Exercise 3 · 421~430\",\"what\",3,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 3 · 421~430"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: short-v1 1/3"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v2 1-8"
+      ],
+      [
+       "5세트",
+       "Exercise 3 · 421~430 :: heads-v3 1-11"
+      ]
+     ]
+    },
+    {
+     "word": "if",
+     "si": 2,
+     "from": 4,
+     "savedId": "[\"5세트\",\"Exercise 4 · 431~440\",\"if\",2,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: heads-v3 1-9"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: short-v1 1/3"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: heads-v2 1-8"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440"
+      ],
+      [
+       "5세트",
+       "Exercise 4 · 431~440 :: heads-v3 1-11"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "to": 25,
+   "ex": 12,
+   "name": "would의 쓰임",
+   "cards": [
+    {
+     "word": "would",
+     "si": 1,
+     "from": 5,
+     "savedId": "[\"5세트\",\"Exercise 5 · 441~450\",\"would\",1,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 5 · 441~450"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: short-v1 1/3"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v2 1-7"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v3 1-11"
+      ]
+     ]
+    },
+    {
+     "word": "would",
+     "si": 3,
+     "from": 5,
+     "savedId": "[\"5세트\",\"Exercise 5 · 441~450\",\"would\",3,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 5 · 441~450"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: short-v1 1/3"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v2 1-7"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v3 1-11"
+      ]
+     ]
+    },
+    {
+     "word": "would",
+     "si": 4,
+     "from": 5,
+     "savedId": "[\"5세트\",\"Exercise 5 · 441~450\",\"would\",4,\"\"]",
+     "priorKeys": [
+      [
+       "5세트",
+       "Exercise 5 · 441~450"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: short-v1 1/3"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v2 1-7"
+      ],
+      [
+       "5세트",
+       "Exercise 5 · 441~450 :: heads-v3 1-11"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "deployed": [
+  {
+   "ex": 1,
+   "words": [
+    {
+     "word": "the",
+     "si": 2
+    },
+    {
+     "word": "be",
+     "si": 3
+    },
+    {
+     "word": "be",
+     "si": 4
+    },
+    {
+     "word": "and",
+     "si": 2
+    },
+    {
+     "word": "a",
+     "si": 2
+    },
+    {
+     "word": "of",
+     "si": 1
+    },
+    {
+     "word": "of",
+     "si": 2
+    },
+    {
+     "word": "to",
+     "si": 1
+    },
+    {
+     "word": "to",
+     "si": 2
+    },
+    {
+     "word": "in",
+     "si": 1
+    },
+    {
+     "word": "in",
+     "si": 2
+    },
+    {
+     "word": "in",
+     "si": 3
+    },
+    {
+     "word": "in",
+     "si": 4
+    },
+    {
+     "word": "you",
+     "si": 2
+    },
+    {
+     "word": "it",
+     "si": 2
+    },
+    {
+     "word": "it",
+     "si": 3
+    },
+    {
+     "word": "have",
+     "si": 1
+    },
+    {
+     "word": "have",
+     "si": 2
+    },
+    {
+     "word": "have",
+     "si": 3
+    },
+    {
+     "word": "have",
+     "si": 4
+    }
+   ],
+   "parts": [
+    {
+     "start": 0,
+     "end": 9,
+     "name": "기본 기능어 · a/an"
+    },
+    {
+     "start": 9,
+     "end": 20,
+     "name": "기본 기능어"
+    }
+   ]
+  },
+  {
+   "ex": 2,
+   "words": [
+    {
+     "word": "that",
+     "si": 2
+    },
+    {
+     "word": "that",
+     "si": 3
+    },
+    {
+     "word": "for",
+     "si": 1
+    },
+    {
+     "word": "for",
+     "si": 2
+    },
+    {
+     "word": "for",
+     "si": 3
+    },
+    {
+     "word": "do",
+     "si": 1
+    },
+    {
+     "word": "do",
+     "si": 3
+    },
+    {
+     "word": "with",
+     "si": 1
+    },
+    {
+     "word": "with",
+     "si": 2
+    },
+    {
+     "word": "on",
+     "si": 1
+    },
+    {
+     "word": "on",
+     "si": 2
+    },
+    {
+     "word": "on",
+     "si": 3
+    },
+    {
+     "word": "but",
+     "si": 2
+    },
+    {
+     "word": "but",
+     "si": 3
+    },
+    {
+     "word": "nothing but",
+     "si": 1
+    },
+    {
+     "word": "anything but",
+     "si": 1
+    }
+   ],
+   "parts": null
+  },
+  {
+   "ex": 3,
+   "words": [
+    {
+     "word": "at",
+     "si": 1
+    },
+    {
+     "word": "at",
+     "si": 2
+    },
+    {
+     "word": "what",
+     "si": 2
+    },
+    {
+     "word": "what",
+     "si": 3
+    },
+    {
+     "word": "from",
+     "si": 1
+    },
+    {
+     "word": "or",
+     "si": 2
+    },
+    {
+     "word": "by",
+     "si": 1
+    },
+    {
+     "word": "by",
+     "si": 2
+    },
+    {
+     "word": "by",
+     "si": 3
+    },
+    {
+     "word": "by",
+     "si": 4
+    },
+    {
+     "word": "can",
+     "si": 1
+    },
+    {
+     "word": "can",
+     "si": 2
+    },
+    {
+     "word": "can",
+     "si": 3
+    },
+    {
+     "word": "can",
+     "si": 4
+    }
+   ],
+   "parts": null
+  },
+  {
+   "ex": 4,
+   "words": [
+    {
+     "word": "as",
+     "si": 1
+    },
+    {
+     "word": "as",
+     "si": 2
+    },
+    {
+     "word": "as",
+     "si": 3
+    },
+    {
+     "word": "as",
+     "si": 4
+    },
+    {
+     "word": "as",
+     "si": 5
+    },
+    {
+     "word": "if",
+     "si": 1
+    },
+    {
+     "word": "if",
+     "si": 2
+    },
+    {
+     "word": "all",
+     "si": 1
+    },
+    {
+     "word": "all",
+     "si": 2
+    },
+    {
+     "word": "who",
+     "si": 2
+    },
+    {
+     "word": "about",
+     "si": 1
+    },
+    {
+     "word": "about",
+     "si": 2
+    },
+    {
+     "word": "will",
+     "si": 1
+    },
+    {
+     "word": "will",
+     "si": 2
+    },
+    {
+     "word": "so",
+     "si": 1
+    },
+    {
+     "word": "so",
+     "si": 2
+    },
+    {
+     "word": "so",
+     "si": 3
+    }
+   ],
+   "parts": null
+  },
+  {
+   "ex": 5,
+   "words": [
+    {
+     "word": "would",
+     "si": 1
+    },
+    {
+     "word": "would",
+     "si": 2
+    },
+    {
+     "word": "would",
+     "si": 3
+    },
+    {
+     "word": "would",
+     "si": 4
+    },
+    {
+     "word": "just",
+     "si": 1
+    },
+    {
+     "word": "just",
+     "si": 2
+    },
+    {
+     "word": "just",
+     "si": 3
+    },
+    {
+     "word": "up",
+     "si": 1
+    },
+    {
+     "word": "up",
+     "si": 2
+    },
+    {
+     "word": "there",
+     "si": 2
+    },
+    {
+     "word": "out",
+     "si": 1
+    },
+    {
+     "word": "out",
+     "si": 2
+    },
+    {
+     "word": "some",
+     "si": 1
+    },
+    {
+     "word": "how",
+     "si": 2
+    }
+   ],
+   "parts": null
+  },
+  {
+   "ex": 6,
+   "words": [
+    {
+     "word": "when",
+     "si": 1
+    },
+    {
+     "word": "when",
+     "si": 2
+    },
+    {
+     "word": "which",
+     "si": 1
+    },
+    {
+     "word": "which",
+     "si": 2
+    },
+    {
+     "word": "could",
+     "si": 1
+    },
+    {
+     "word": "could",
+     "si": 2
+    },
+    {
+     "word": "could",
+     "si": 3
+    },
+    {
+     "word": "into",
+     "si": 1
+    },
+    {
+     "word": "into",
+     "si": 2
+    },
+    {
+     "word": "into",
+     "si": 3
+    },
+    {
+     "word": "then",
+     "si": 1
+    },
+    {
+     "word": "then",
+     "si": 2
+    },
+    {
+     "word": "than",
+     "si": 1
+    },
+    {
+     "word": "more",
+     "si": 1
+    },
+    {
+     "word": "more",
+     "si": 2
+    },
+    {
+     "word": "these",
+     "si": 1
+    }
+   ],
+   "parts": null
+  }
+ ]
+}

@@ -185,15 +185,43 @@ def main():
         sys.exit('changed 모드는 --since 커밋이 필요하다.')
     lessons = data if only_changed else [next(L for L in data if L['lesson'] == int(args[0]))]
     head = subprocess.run(['git', '-C', str(ROOT), 'rev-parse', '--short', 'HEAD'], capture_output=True, text=True).stdout.strip()
-    before = {}
+    before, before_any = {}, {}
     if since:
         old = subprocess.run(['git', '-C', str(ROOT), 'show', f'{since}:vocagoyangfable.html'], capture_output=True, text=True, check=True).stdout
         for OL in data_of(old):
             for ex in OL['exercises']:
                 for w in ex['words']:
                     before[(OL['lesson'], w['word'], w.get('si', 1))] = w
+                    if OL['lesson'] <= 45:
+                        before_any.setdefault((w['word'], w.get('si', 1)), (OL['lesson'], w))
     total = changed = 0
     toc, body = [], []
+
+    def card_html(L, ei, ci, w, state, tags, olds):
+        cid = f'{L["lesson"]}-{ei:02d}-{ci:02d}'
+        parts = [f'<div class="head ln"><span class="num">{cid}</span><span class="hw">{e(w["en"])}</span>'
+                 f'<span class="ko">{e(w.get("ko", ""))}</span><span class="pos">{e(w.get("pos", ""))} /{e(w.get("ipa", ""))}/</span>{"".join(tags)}</div>',
+                 f'<p class="sen ln">{sentence(w)}</p>']
+        if w.get('tr'):
+            parts.append(f'<p class="tr ln">{e(w["tr"])}</p>')
+        parts.append(f'<p class="c ln">{e(w.get("c") or "") or "<span class=none>(해설 없음)</span>"}</p>')
+        if w.get('meow'):
+            parts.append(f'<p class="meow ln"><b>고양</b>{e(w["meow"])}</p>')
+        alt = alts.get(f'{w["word"]}/{w.get("si", 1)}')
+        if alt:
+            parts.append(f'<p class="alt ln"><b>다른 정답</b>{e(", ".join(alt))}</p>')
+        return f'<li id="c{cid}" data-state="{state}">{"".join(parts + olds)}</li>'
+
+    def diff_of(w, b):
+        tags, olds = [], []
+        diff = [(k, label) for k, label in FIELDS if (b.get(k) or '') != (w.get(k) or '')]
+        if diff:
+            tags.append(f'<span class="tag">바뀜 · {"·".join(label for _, label in diff)}</span>')
+            for k, label in diff:
+                val = sentence(w, b.get(k)) if k == 'ex' else e(b.get(k) or '(없음)')
+                olds.append(f'<p class="old"><b>전 {label}</b>{val}</p>')
+        return tags, olds
+
     for L in lessons:
         lesson = L['lesson']
         for ei, x in enumerate(L['exercises'], 1):
@@ -204,34 +232,23 @@ def main():
                 tags, olds, state = [], [], ''
                 if since:
                     b = before.get((lesson, w['word'], w.get('si', 1)))
-                    if b is None:
+                    moved_in = before_any.get((w['word'], w.get('si', 1))) if b is None else None
+                    if moved_in and moved_in[0] != lesson:
+                        # 26.10.12 다른 세트에서 옮겨 온 카드(5세트 문법 뜻 분산 등): 새 카드가 아니라 옮긴 카드로 보인다.
+                        tags, olds = diff_of(w, moved_in[1])
+                        tags.insert(0, f'<span class="tag">옮겨 옴 · {moved_in[0]}세트에서</span>')
+                        state = 'chg'
+                    elif b is None:
                         tags.append('<span class="tag">새 카드</span>')
                         state = 'chg'
                     else:
-                        diff = [(k, label) for k, label in FIELDS if (b.get(k) or '') != (w.get(k) or '')]
-                        if diff:
-                            tags.append(f'<span class="tag">바뀜 · {"·".join(label for _, label in diff)}</span>')
-                            state = 'chg'
-                            for k, label in diff:
-                                val = sentence(w, b.get(k)) if k == 'ex' else e(b.get(k) or '(없음)')
-                                olds.append(f'<p class="old"><b>전 {label}</b>{val}</p>')
+                        tags, olds = diff_of(w, b)
+                        state = 'chg' if tags else ''
                     changed += state == 'chg'
                 if only_changed and state != 'chg':
                     continue
                 total += 1
-                parts = [f'<div class="head ln"><span class="num">{cid}</span><span class="hw">{e(w["en"])}</span>'
-                         f'<span class="ko">{e(w.get("ko", ""))}</span><span class="pos">{e(w.get("pos", ""))} /{e(w.get("ipa", ""))}/</span>{"".join(tags)}</div>',
-                         f'<p class="sen ln">{sentence(w)}</p>']
-                if w.get('tr'):
-                    parts.append(f'<p class="tr ln">{e(w["tr"])}</p>')
-                parts.append(f'<p class="c ln">{e(w.get("c") or "") or "<span class=none>(해설 없음)</span>"}</p>')
-                if w.get('meow'):
-                    parts.append(f'<p class="meow ln"><b>고양</b>{e(w["meow"])}</p>')
-                alt = alts.get(f'{w["word"]}/{w.get("si", 1)}')
-                if alt:
-                    parts.append(f'<p class="alt ln"><b>다른 정답</b>{e(", ".join(alt))}</p>')
-                parts += olds
-                items.append(f'<li id="c{cid}" data-state="{state}">{"".join(parts)}</li>')
+                items.append(card_html(L, ei, ci, w, state, tags, olds))
             if not items:
                 continue
             label = f'{L["label"]} · Exercise {x["ex"]}' if only_changed else f'Exercise {x["ex"]}'
@@ -239,6 +256,24 @@ def main():
             body.append(f'<section class="ex" id="{sid}"><h2><span class="num">{e(label)}</span>{e(x.get("name", ""))}'
                         f'<span class="count">{len(items)}장</span></h2><ol class="cards">{"".join(items)}</ol></section>')
     L0 = lessons[0]
+    if since and not only_changed:
+        gone = []
+        for L in data:
+            if L['lesson'] > 45 or L['lesson'] == L0['lesson']:
+                continue
+            for ei, x in enumerate(L['exercises'], 1):
+                for ci, w in enumerate(x['words'], 1):
+                    b = before_any.get((w['word'], w.get('si', 1)))
+                    if b and b[0] == L0['lesson'] and (L0['lesson'], w['word'], w.get('si', 1)) in before:
+                        tags, olds = diff_of(w, b[1])
+                        tags.insert(0, f'<span class="tag">보냄 · {L["label"]} Exercise {x["ex"]} {e(x.get("name", ""))}</span>')
+                        gone.append(card_html(L, ei, ci, w, 'chg', tags, olds))
+        if gone:
+            total += len(gone)
+            changed += len(gone)
+            toc.append(f'<a href="#gone">다른 세트로 보낸 카드</a>')
+            body.append(f'<section class="ex" id="gone"><h2><span class="num">보낸 카드</span>다른 세트로 보낸 카드'
+                        f'<span class="count">{len(gone)}장</span></h2><ol class="cards">{"".join(gone)}</ol></section>')
     title = opt.get('--title') or (f'{L0["label"]} 직검수' if not only_changed else '바뀐 카드 직검수')
     if only_changed:
         intro = f'{e(since)} 뒤로 바뀐 카드 {total}장을 세트·연습 순서대로 모았어. 노란 글자가 학생이 치는 정답이야. 바뀐 칸은 전 내용을 아래에 같이 보여. 의견은 줄을 눌러 바로 달아 줘(카드 번호 세트-연습-카드).'
