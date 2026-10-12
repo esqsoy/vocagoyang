@@ -2,13 +2,41 @@
  "date": "2026-10-12",
  "name": "set0-rebalance-20261012",
  "status": "applied_locally_verified",
- "authorization": "영신 2026-10-12: \"개인의 신변잡기적 내용이 PPL 덕지덕지인 드라마나 영화처럼 피로를 줄 수 있을 것같아서 그 부분을 다시 손봐야겠어 내 판단 실수야\", \"문법설명위주의 기본단어 단계에서는 … 이후에는 원래대로의 단어>>>>…문법> 정보 > 드립\", \"예문+해설+고양이드립 … 합한 양을 통제\", \"좋아 네 추천대로 다 진행해주고\", \"인명을 쓰게 된다면 내가 집어넣은거 빼고는 한국어이름이 아닌 다양한 이름을 넣자\".",
- "summary": "0세트 재조정 32장: 사람·학원 이야기 20→9장(she 할머니 K-pop, her② 엄마 노래, we 형, and A·B·and C, how 열심히, five 손가락·seven 일주일·eight 거미·nine 야구·eleven 축구), 읽기량 한도(내용어 12초·기능어 13초) 넘는 카드 19→0장(대사·해설 줄임), 기능어 해설은 표제어 먼저(I·you·she·her①·two). 한국어 일반 이름 4장 → Sofia·Kenji·Omar·Priya·Lucas(1·5·12·39세트).",
+ "authorization": "영신 2026-10-12: \"개인의 신변잡기적 내용이 PPL 덕지덕지인 드라마나 영화처럼 피로를 줄 수 있을 것같아서 그 부분을 다시 손봐야겠어 내 판단 실수야\", \"문법설명위주의 기본단어 단계에서는 … 이후에는 원래대로의 단어>>>>…문법> 정보 > 드립\", \"예문+해설+고양이드립 … 합한 양을 통제\", \"좋아 네 추천대로 다 진행해주고\", \"인명을 쓰게 된다면 내가 집어넣은거 빼고는 한국어이름이 아닌 다양한 이름을 넣자\". 0세트 줄 댓글: I \"no가 들어가니 좀 이상함 … I는 소설의 좋은 문구같은걸 가지고 예문을 만들어도 될 것 같은데\", be \"am·is·are의 원형이 be. 이건 뜻에 있으니 삭제\".",
+ "summary": "0세트 재조정 33장: 사람·학원 이야기 20→9장(she 할머니 K-pop, her② 엄마 노래, we 형, and A·B·and C, how 열심히, five 손가락·seven 일주일·eight 거미·nine 야구·eleven 축구), 읽기량 한도(내용어 12초·기능어 13초) 넘는 카드 19→0장(대사·해설 줄임), 기능어 해설은 표제어 먼저(I·you·she·her①·two). I 예문 나쓰메 소세키 \"I am a cat. As yet I have no name.\", be① 해설의 뜻 반복 삭제. 한국어 일반 이름 4장 → Sofia·Kenji·Omar·Priya·Lucas(1·5·12·39세트).",
  "snapshots": {
   "DATA": {
    "beforeHash": "f6b41301a3fcb61399c9f45d2eef351ba2f61edfe7b81958770da2d4d1d5f996",
-   "afterHash": "5a198f436ede23a6d601a5d0b86aa69847e32fc8266aa5ba710802901324570f",
+   "afterHash": "b4ed749bf4628101f83251ae435bc448c8e3c6ed727be2477bf32e917678be99",
    "changes": [
+    {
+     "path": [
+      0,
+      "exercises",
+      0,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "No, {{BLANK}} am your father.",
+     "new": "I am a cat. As yet {{BLANK}} have no name."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      0,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "아니, 내가 네 아버지다.",
+     "new": "나는 고양이로소이다. 이름은 아직 없다."
+    },
     {
      "path": [
       0,
@@ -21,7 +49,21 @@
      "oldExists": true,
      "newExists": true,
      "old": "『스타워즈』의 명대사. be 현재형은 I am, you are, 한 사람·한 개 뒤엔 is. I는 문장 가운데서도 대문자.",
-     "new": "‘나는’은 I, 문장 가운데서도 늘 대문자. be 현재형은 I am, you are. 『스타워즈』의 명대사."
+     "new": "나쓰메 소세키의 소설 『나는 고양이로소이다』 첫 문장. I는 문장 가운데서도 늘 대문자."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      0,
+      "words",
+      4,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Darth Vader다고양! 명대사에서도 I는 늘 대문자라고양.",
+     "new": "주인공이 고양이라 명작이라고양."
     },
     {
      "path": [
@@ -36,6 +78,20 @@
      "newExists": true,
      "old": "be 현재형은 you 뒤에 늘 are. 한 명이든 여럿이든 You are ~.",
      "new": "‘너, 너희’는 you. 한 명이든 여럿이든 be는 are: You are ~."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      0,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "am·is·are의 원형이 be. Please·Don't 뒤엔 be 그대로: Don't be late!",
+     "new": "Please·Don't 뒤엔 be 그대로: Don't be late!"
     },
     {
      "path": [
@@ -1055,7 +1111,7 @@
  "sourceSnapshots": {
   "pipeline/out/lesson00.json": {
    "beforeHash": "f1ece301b855013f4ccd1206c8db6c872e1331c36cfde1b84a3d39e558054805",
-   "afterHash": "9a1a6e4b3d6d07d0792f392aa4855280a2485a76874fc99a00b73f7e8f91337f"
+   "afterHash": "143a7bf88c9b9d082b478a161afd3fd02fb8ef3c438262bcaa2cb10a57ce643d"
   },
   "pipeline/out/lesson01.json": {
    "beforeHash": "9bd91fd183643f968a29ced3cc04a926234ef2a1c02977b992a11b7abc7797e6",
@@ -1063,7 +1119,7 @@
   },
   "pipeline/out/set05.json": {
    "beforeHash": "51e2c05dbd2bd1e961c55639cc97d364b4d0bd483fd51919040b00b39dc5f5a6",
-   "afterHash": "0373cfff76530e902908e2265fc84faf6c50c68ea1b83ded6ec73d2f50197241"
+   "afterHash": "a43ee932c9e7a6d6cfeb750502f89de5a9415215dfbc3129ef6e8999747465e7"
   },
   "pipeline/out/set12.json": {
    "beforeHash": "d3e18332edc8d68d444115a3bebbfdb4626914c1507cefe57947f8429f83c810",
@@ -1376,12 +1432,51 @@
      4,
      "words",
      0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "No, {{BLANK}} am your father.",
+    "new": "I am a cat. As yet {{BLANK}} have no name."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "아니, 내가 네 아버지다.",
+    "new": "나는 고양이로소이다. 이름은 아직 없다."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     0,
      "c"
     ],
     "oldExists": true,
     "newExists": true,
     "old": "『스타워즈』의 명대사. be 현재형은 I am, you are, 한 사람·한 개 뒤엔 is. I는 문장 가운데서도 대문자.",
-    "new": "‘나는’은 I, 문장 가운데서도 늘 대문자. be 현재형은 I am, you are. 『스타워즈』의 명대사."
+    "new": "나쓰메 소세키의 소설 『나는 고양이로소이다』 첫 문장. I는 문장 가운데서도 늘 대문자."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     0,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Darth Vader다고양! 명대사에서도 I는 늘 대문자라고양.",
+    "new": "주인공이 고양이라 명작이라고양."
    },
    {
     "path": [
@@ -1426,6 +1521,18 @@
    }
   ],
   "pipeline/out/set05.json": [
+   {
+    "path": [
+     0,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "am·is·are의 원형이 be. Please·Don't 뒤엔 be 그대로: Don't be late!",
+    "new": "Please·Don't 뒤엔 be 그대로: Don't be late!"
+   },
    {
     "path": [
      0,
