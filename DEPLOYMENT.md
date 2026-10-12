@@ -1,3 +1,12 @@
+# 1~4세트 작업 배포 · 2026-10-12
+
+- 커밋 [5dad972](https://github.com/esqsoy/vocagoyang/commit/5dad972)를 origin/main에 fast-forward로 푸시했다(5fdf148 다음). [Pages 38218741083](https://github.com/esqsoy/vocagoyang/actions/runs/38218741083): completed/success. 영신: "바로 배포하고 일단 전세트를 작업하자"
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 8cb80c6). github.io는 이 세션에서 접속이 막혀 공개 페이지는 직접 열어 보지 못했다.
+- 포함: 1~4세트 예문·해설·대사 121곳(원장 `set1-20261012`~`set4-20261012`). 게임 코드는 바뀌지 않았다.
+- 배포 전 검사: 세트마다 Codex 검사 35개 + set5.test 36/36(4세트 커밋에서 마지막으로 실행). 이번에 다시 실행: Chromium 390px 콘솔 오류 없음. 앞선 작업 때 실행: ordercheck 2개 이상 28, exaudit 10, deepcheck A5 0·A8 305, linecheck 390·360px 초과 0, collide 906. 실기기 Safari는 확인하지 않았다.
+
+---
+
 # 5세트 작업(문법 뜻 분산·예문 39곳) 배포 · 2026-10-12
 
 - 커밋 [5fdf148](https://github.com/esqsoy/vocagoyang/commit/5fdf148)을 origin/main에 fast-forward로 푸시했다(acfe20e 다음). [Pages 38211241299](https://github.com/esqsoy/vocagoyang/actions/runs/38211241299): completed/success. 영신: "나도 동의해 계속 진행하고 바로 배포하자"
