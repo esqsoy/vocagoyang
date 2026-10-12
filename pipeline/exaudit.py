@@ -74,6 +74,7 @@ def tok_ok(t):
             if len(b)>2 and b[-1]==b[-2]: c.append(b[:-1])
             if b.endswith("i"): c.append(b[:-1]+"y")
             if suf in ("ies","ier","iest"): c.append(b+"y")
+            if suf=="ing" and b.endswith("y"): c.append(b[:-1]+"ie")   # lie→lying, die→dying
             if any(x in ALLOWED for x in c): return True
     return False
 

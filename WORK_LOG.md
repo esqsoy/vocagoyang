@@ -1259,3 +1259,18 @@
 - **검증(새로 실행):** Codex 검사 35개 + set5.test 36/36(15세트 커밋 뒤). ordercheck 2개 이상 75 → 4(남은 것은 모두 18세트 이후), exaudit 9, deepcheck A5 0·A8 305 → 235, linecheck 390·360px 초과 0, collide 907(+1은 photograph ← picture, 글자 수가 달라 결함 아님).
 - **직검수:** 6~15세트 https://claude.ai/artifact/MuwUmQDNexj9x8L1wBWpry (열 세트씩 한 페이지: 댓글 알림 한도. 끝난 페이지 2개의 알림을 껐다: FABLE 정리 후보, Oxford 보강 배치안).
 - **남은 일:** 18~45세트. 배포는 영신 요청 때.
+
+## 2026-10-12 · 18~37세트
+
+- **요청:** 영신 "바로 배포하고 일단 전세트를 작업하자"의 이어서. 6~17세트와 같은 방법(하위 에이전트 제안 → Claude가 모두 읽고 고침 → `apply.py`, 세트마다 원장 `setN-20261012`·커밋).
+- **반영(653곳):** 18세트 28, 19세트 36, 20세트 42, 21세트 35, 22세트 39, 23세트 33, 24세트 47, 25세트 27, 26세트 43, 27세트 32, 28세트 31, 29세트 23, 30세트 26, 31세트 19, 32세트 34, 33세트 27, 34세트 46, 35세트 33, 36세트 28, 37세트 24.
+  - 읽기량 초과·앞당김 2개 이상은 세트마다 0으로. 고양이 예문 대사, 개→고양이(cute·intelligent·proposal·loving·aged·secretly·surgery·stimulus 등), 뜻 줄을 되풀이하던 해설, 같은 칸 수 대체어 안내("이 뜻에서는 X와 바꿔 쓸 수 있다").
+  - 조명 문법 예문(세트별 항목은 HANDOFF): 항목마다 3~5장, 주변 항목(peri)은 1~2장. 그 문법을 가진 표제어에는 해설 첫머리 규칙 한 줄(used ①·living ①·chinese ③·what ③·if ②·frighten·upright ② 등).
+  - 소설 명문장 44장, 모두 `quote.py` EXACT. 와일드가 6장으로 늘어 38세트부터는 다른 작가만.
+  - 겹침: 0·4·16·19·26·30·32·34세트와 같은 사실·문장 틀을 쓰던 예문을 바꿈(코페르니쿠스 1543, 고양이 잠, 코끼리·둥지, 창문 깬 사실, 양말 등).
+- **Claude가 고친 것(제안에서):** lots ①이 36세트 ton ②와 같은 틀이라 "Drink lots of water on hot days."로(4세트 때 남긴 일). assault ②의 폭행 장면을 "It is a crime to assault a police officer."로 누그러뜨림. dumb ①은 10세트 stupid와 같은 "It was _ of me to" 틀이 되어 원래 예문 유지. beloved ①은 개→고양이로 바꾸면 고양이가 죽는 장면이 되어 "Grandpa still drives his beloved old car."로.
+- **도구:** 28세트 적용이 제안 파일 문법 오류로 실패했는데 원장만 든 커밋이 생겨(푸시 전) 되돌리고 다시 넣었다. `doset.sh commit`은 이제 `pipeline/out`에 바뀐 것이 없으면 커밋하지 않는다. exaudit가 lie→lying 같은 -ie→-ying 변화를 기준 밖 단어로 세던 것을 고쳤다(10 → 9).
+- **테스트 수정:** `pipeline/ipa-effects/tests/host-hooks.test.cjs`가 무작위 표본 카드의 읽을 시간이 6초 이상이라고 전제했는데, 해설을 뺀 카드가 뽑히면 6번에 1번꼴로 실패했다. 표본의 해석+해설이 45자 미만일 때만 해설을 채운다. 15회 연속 통과.
+- **검증(새로 실행):** Codex 검사 35개 + set5.test(37세트 커밋 뒤, 호스트 훅 수정 전 1개 실패 → 수정 뒤 단독 15/15, 전체 다시 36/36). ordercheck 2개 이상 4 → 1, exaudit 9, deepcheck A5 0·A6 63 → 40·A8 235 → 108, linecheck 390·360px 초과 0, collide 906.
+- **직검수:** 16~25세트 https://claude.ai/artifact/Gorsq3Z9WV69Fhrp8VDzgb (바뀐 카드 331장).
+- **남은 일:** 38~45세트, 26~35·36~45세트 직검수 페이지. 배포는 영신 요청 때.
