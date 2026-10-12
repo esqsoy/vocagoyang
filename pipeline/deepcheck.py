@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """완성도 전수 검사 — 4절(중의성)·exaudit(어휘) 밖의 기준들 (26.9.17)
-   A1 si/sn 무결성 · A2 IPA 일관성 · A3 pos↔빈칸 자리 · A5 예문 교차 중복 · A6 형식 규칙 · A7 빈칸 어미
+   A1 si/sn 무결성 · A2 IPA 일관성 · A3 pos↔빈칸 자리 · A5 예문 교차 중복 · A6 형식 규칙 · A7 빈칸 어미 · A8 읽기량
    (A4 tr↔뜻 대응은 설계에 실패해 폐기 — 아래 주석)
 사용: python3 pipeline/deepcheck.py [--list A3 A4 ...]"""
 import json,glob,re,os,sys,collections
@@ -118,10 +118,24 @@ for ln,exn,w in cards:
     elif t[-1]=='e' and sf[0] in 'ei': F['A7'].append((ln,tag,f"e+{sf} → e가 겹치거나 빠져야 함"))
     elif re.search(r'(s|x|z|ch|sh)$',t) and sf=='s': F['A7'].append((ln,tag,"-es가 필요함"))
 
+# ── A8 읽기량: 예문+해석+해설+고양 대사를 합한 양(PRINCIPLES 2-2). 게임의 해설 읽을 시간(revealDelay)과 같은 셈에
+#    대사는 가볍게 읽히니 절반 무게(26.10.12 영신: "고양이드립은 가볍게 읽히니까 다른쪽에 가중치를 주고 합한 양을 통제").
+#    단어를 빠르고 정확하게 익히게 하려는 것이다. 내용어 카드는 12초, 문법을 싣는 기능어 카드는 13초까지(목표는 10초 안).
+FUNC_POS={'pron.','det.','conj.','aux.','prep.','prep.phr.','inf. marker'}
+FUNC_WORDS={'be','do','have','not','yes','no','there','here','what','who','where','when','why','how','which'}
+def is_function(w): return w.get('pos') in FUNC_POS or (w.get('word') or '') in FUNC_WORDS
+def reading_load(w):
+    ex=w.get('ex') or ''
+    return 0.25*len(ex.split())+0.11*(len(w.get('tr') or '')+len(w.get('c') or ''))+0.055*len(w.get('meow') or '')
+for ln,exn,w in cards:
+    if not w.get('ex') or ln>45: continue
+    t=reading_load(w); cap=13 if is_function(w) else 12
+    if t>cap: F['A8'].append((ln,f"{w.get('word')}({w.get('si')})",f"{t:.1f}초 > {cap}초"))
+
 NAME={'A1':'si/sn 무결성','A2':'IPA 일관성','A3':'pos↔빈칸 자리',
-      'A5':'예문 교차 중복','A6':'형식 규칙','A7':'빈칸 어미'}
+      'A5':'예문 교차 중복','A6':'형식 규칙','A7':'빈칸 어미','A8':'읽기량'}
 print(f"어휘 카드 {sum(1 for l,_,_ in cards if l<46)}장 검사\n")
-for k in ('A1','A2','A3','A5','A6','A7'):
+for k in ('A1','A2','A3','A5','A6','A7','A8'):
     print(f"  {k} {NAME[k]:<12} {len(F[k])}건")
 want=[a for a in sys.argv[1:] if a in NAME]
 for k in want:
