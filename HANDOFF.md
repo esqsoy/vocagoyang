@@ -2,7 +2,7 @@
 
 갱신: 2026-10-13 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
 
-## 2026-10-13 · 아스트라 리뷰 반영 · 로컬(배포 전)
+## 2026-10-13 · 아스트라 리뷰 반영 · main 배포(a8bbbd3, [DEPLOYMENT](DEPLOYMENT.md))
 
 - [reviews/codex-20261013](reviews/codex-20261013/README.md)의 수정안 23건을 모두 반영했다(원장 `astra-review-20261013`). 오류 11: life 복수 lifes, of·very 규칙, tax 해석, quantity·anxious 해설, loving·surgery 해석의 개, prime 정의, September 9월경, behalf. 보완·제안 12: puzzle·interesting·sharply 대체어 안내, fourteenth·insect·tablespoon 예문, straight·cure 해석, disease·fatal·scarcity·night 해설.
 - Claude 조정 4곳: quantity·anxious·interesting·sharply 해설을 평서문·표준 문구로(뜻 줄 되풀이 빼기).

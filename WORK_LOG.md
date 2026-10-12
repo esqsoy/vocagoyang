@@ -1307,5 +1307,6 @@
 - **도구:** deepcheck A7에 f/fe→ves, 불규칙 복수, ie+ing, e로 안 끝나는 말+d/r/st를 더했다. 고치기 전 데이터에서 life를 잡고, 지금은 0건이다.
 - **검증(새로 실행):** Codex 검사 35개 + set5.test 36/36, Chromium 390px 콘솔 오류 없음, ordercheck 2개 이상 0, linecheck 390·360px 초과 0, deepcheck A7 0·A8 1(kinda 원본).
 - **영신 확인 필요:** 아스트라 C16-P01. 소설의 긴 문장에서 혼자 읽어도 성립하는 연속 절만 떼어 쓴 카드가 6장 있다(wise·wisdom·courage·ashamed·worst·curious ②). PRINCIPLES 2-11의 허용 목록에는 이 발췌가 없다.
-- **남은 일:** 배포는 영신 요청 때. 20세트 immigrant 4줄 관찰(아스트라 Windows Chrome)은 선택 사항이라 두었다.
+- **남은 일:** 20세트 immigrant 4줄 관찰(아스트라 Windows Chrome)은 선택 사항이라 두었다.
+- **배포(26.10.13 영신 "배포해줘"):** a8bbbd3을 main에 fast-forward, Pages 38277052029 성공. 배포 커밋에서 검사 36/36 다시 실행.
 - **결정(26.10.13):** 영신 "좋아 허용하자"로 소설 명문장의 연속 구절 발췌를 허용했다. PRINCIPLES 2-11에 이유·결정자·날짜와 함께 적고, 세트 작업 지침(BRIEF 6)에도 한 줄 넣었다. 이미 그렇게 쓴 6장(wise·wisdom·courage·ashamed·worst·curious ②)은 그대로 둔다.

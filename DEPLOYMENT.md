@@ -1,3 +1,12 @@
+# 아스트라 리뷰 반영(23장)·발췌 원칙 배포 · 2026-10-13
+
+- 커밋 [a8bbbd3](https://github.com/esqsoy/vocagoyang/commit/a8bbbd3)를 origin/main에 fast-forward로 푸시했다(아스트라 리뷰 문서 55def39 다음). [Pages 38277052029](https://github.com/esqsoy/vocagoyang/actions/runs/38277052029) 성공(16:23:26~16:24:11 UTC).
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 950a720, 수능 24280bb, EBS cfd1871, index 31cef6d). github.io는 이 세션에서 열리지 않아 공개 화면은 직접 보지 못했다.
+- 포함: 아스트라 리뷰([reviews/codex-20261013](reviews/codex-20261013/README.md)) 수정안 23장(원장 `astra-review-20261013`), deepcheck A7 불규칙 어미 보강, PRINCIPLES 2-11 연속 구절 발췌 허용(영신 승인), 리뷰 요청서와 기록 문서. 게임 코드는 바뀌지 않았다.
+- 배포 전 검사(반영 커밋 04f857d에서 실행, 그 뒤는 문서만): Codex 검사 35개 + set5.test 36/36(배포 커밋 a8bbbd3에서 다시 36/36), Chromium 390px smoke(콘솔 오류 없음), ordercheck 2개 이상 0, linecheck 390·360px 초과 0, deepcheck A7 0.
+
+---
+
 # 6~45세트 작업 배포 · 2026-10-12
 
 - 커밋 [921e8ff](https://github.com/esqsoy/vocagoyang/commit/921e8ff)를 origin/main에 fast-forward로 푸시했다(5dad972 다음). [Pages 38247492624](https://github.com/esqsoy/vocagoyang/actions/runs/38247492624) 성공(12:11:41~12:12:31 UTC).
