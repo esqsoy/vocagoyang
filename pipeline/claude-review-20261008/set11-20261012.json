@@ -1,0 +1,1713 @@
+{
+ "date": "2026-10-12",
+ "name": "set11-20261012",
+ "status": "applied_locally_verified",
+ "authorization": "26.10.12 영신 \"바로 배포하고 일단 전세트를 작업하자\"",
+ "summary": "예문·해설·대사 36곳(읽기량 초과 5→0, 앞당김 2개 이상 1→0, 재귀대명사·one/another/the other·however 예문, 앨리스 advice·거울 나라 bone, 고양이 대사, 겹친 사실 2, 뜻 줄 반복 해설 17)",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "fee7fc52dba6c97a58d870dcd8bbb28cd5b96e6c30dceb934d996fef91857566",
+   "afterHash": "f6f9251322db214772b380aafcfac6517212cdef1c4b7ce5997c1cc99e7dcd17",
+   "changes": [
+    {
+     "path": [
+      11,
+      "exercises",
+      0,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "hire: 고용하다. fire: 해고하다.",
+     "new": "반대는 fire(해고하다)."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      0,
+      "words",
+      1,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Take off your {{BLANK}}s at the door.",
+     "new": "I found one {{BLANK}}, but where's the other?"
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      0,
+      "words",
+      1,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "문 앞에서 신발 벗어 줘.",
+     "new": "신발 한 짝은 찾았는데, 나머지 한 짝은 어디 있지?"
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      0,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "한 짝은 shoe, 두 짝이니 보통 shoes. a pair of shoes=한 켤레.",
+     "new": "한 짝은 shoe, 한 켤레는 a pair of shoes."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      0,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": "넷으로 나눈 것 중 하나. a quarter of~=~의 4분의 1."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      0,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "사람 손 안 탄 '야생의'. wild flower=들꽃, wild animal=야생동물.",
+     "new": "사람 손을 안 탄 상태. wild animal = 야생동물."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      1,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "daily life 일상, daily news 일간 뉴스.",
+     "new": "day+ly에서 y가 i로 바뀐다. 매주는 weekly, 매달은 monthly."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      1,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": "형용사와 부사 모두 daily."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      1,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "수학 나눗셈도, 회사 부서도 division.",
+     "new": "divide(나누다)의 명사."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      1,
+      "words",
+      9,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Can you give me some {{BLANK}}?",
+     "new": "She generally gave herself very good {{BLANK}}."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      1,
+      "words",
+      9,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "나 조언 좀 해 줄래?",
+     "new": "앨리스는 대개 스스로에게 아주 좋은 충고를 했어."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      1,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "동사는 advise(조언하다). 셀 수 없어서 an advice 금지, some advice.",
+     "new": "루이스 캐럴 『이상한 나라의 앨리스』. 셀 수 없어 an advice(X)."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      1,
+      "words",
+      9,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "advice, 충고는 공짜지만 듣는 건 실력이라고양.",
+     "new": "근데 그 충고는 거의 안 따랐다고양. 딱 너다고양."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      1,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "birth는 출생, born은 태어난. date of birth는 생년월일, give birth는 출산하다.",
+     "new": "be born은 태어나다, give birth는 출산하다."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      2,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The accident did great {{BLANK}} to his car.",
+     "new": "The storm was strong. However, it did little {{BLANK}}."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      2,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 사고로 걔 차가 크게 망가졌어.",
+     "new": "폭풍은 강했어. 하지만 피해는 거의 없었어."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      2,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "사고·날씨 등으로 생긴 피해·손상. 이 뜻은 셀 수 없고 do/cause damage to로 쓴다.",
+     "new": "셀 수 없다: a damage(X). do/cause damage to ~."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      2,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "I had a big {{BLANK}} of rice.",
+     "new": "He finished one {{BLANK}} of rice and asked for another."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      2,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "나 밥 한 그릇 크게 먹었어.",
+     "new": "걔는 밥 한 그릇을 다 먹고 한 그릇 더 달라고 했어."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      2,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": "동사로 쓰면 '청소하다'. clean my room=방을 치우다."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      3,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "개신교 등 기독교 교회의 성직자. 영국·미국 모두 쓰는 뜻.",
+     "new": "주로 개신교 목사. 가톨릭 신부는 priest."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      3,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "머리가 좋다는 뜻에서 clever와 같은 말. 이해·학습 능력이 뛰어남을 나타내.",
+     "new": "이 뜻에서는 clever와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      4,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "라틴어 respicere(돌아보다·고려하다)에서 온 말. 명사도 respect(존경·존중).",
+     "new": "라틴어 respicere(돌아보다·고려하다)에서 온 말."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      4,
+      "words",
+      1,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Show {{BLANK}} for other people.",
+     "new": "Show {{BLANK}} for others."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      4,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Don't {{BLANK}} me for the mistake.",
+     "new": "Don't {{BLANK}} yourself for the mistake."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      4,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 실수 내 탓 하지 마.",
+     "new": "그 실수로 너 자신을 탓하지 마."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      4,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "She's over eighty but still very {{BLANK}}.",
+     "new": "She's over eighty. However, she's still very {{BLANK}}."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      4,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그분 여든 넘으셨는데 아직 엄청 활동적이셔.",
+     "new": "그분은 여든이 넘으셨어. 그래도 아직 엄청 활동적이셔."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      4,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "act: 행동하다. action: 행동. active: 활동적인.",
+     "new": "act(행동하다)에서 왔다. 반대는 inactive."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      4,
+      "words",
+      9,
+      "meow"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": "나머지 아홉 시간은 너 갈구느라 바쁘다고양."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      6,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "농사를 짓기 전에 사람들은 사냥하고 먹을 것을 모으며 살았어.",
+     "new": "농사 전에 사람들은 사냥하고 먹을 것을 모으며 살았어."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      6,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "hunting and gathering은 수렵·채집. gather information은 정보를 모으다.",
+     "new": "hunting and gathering = 수렵·채집."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      6,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "명사는 원피스·드레스. 동사는 옷을 입다·입히다. get dressed도 옷을 입다는 뜻.",
+     "new": "get dressed = 옷을 입다. dress up = 차려입다."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      7,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": "굽지 않고 곧은 모양. 부사와 형태가 같다."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      7,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "How's the {{BLANK}} in Busan today?",
+     "new": "The {{BLANK}} was bad. However, the game went on."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      7,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "오늘 부산 날씨 어때?",
+     "new": "날씨가 나빴어. 그래도 경기는 계속됐어."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      7,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "obtain은 얻다, secure는 확실히 확보하다. obtain은 get보다 격식 있는 말.",
+     "new": "get보다 격식 있는 말. 이 뜻에서는 secure와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      7,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "surprised는 놀람을 느끼는, surprising은 놀람을 일으키는. a surprising person처럼 사람도 놀라움을 줄 수 있다.",
+     "new": "놀란 사람은 surprised, 놀라게 하는 일은 surprising."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      8,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "영국 구어로 quid, 정식 이름은 pound sterling이다. 영국 돈의 단위. 무게 단위와 같은 철자·발음.",
+     "new": "영국 구어로 quid, 정식 이름은 pound sterling. 무게 단위와 철자가 같다."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      8,
+      "words",
+      12,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "When {{BLANK}} is greater than demand, prices tend to fall.",
+     "new": "We have a week's {{BLANK}} of food and water."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      8,
+      "words",
+      12,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "공급이 수요보다 많으면 가격은 떨어지는 경향이 있어.",
+     "new": "우리한테 일주일 치 먹을 것과 물이 있어."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      8,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "supply and demand는 공급과 수요.",
+     "new": "a supply of ~ = ~의 비축량. supply and demand는 공급과 수요."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      8,
+      "words",
+      14,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "give someone a lift는 차로 태워 주다. 미국에서는 give someone a ride가 더 흔하다. 엘리베이터는 영국식 lift, 미국식 elevator.",
+     "new": "이 뜻에서는 ride와 바꿔 쓸 수 있다. 엘리베이터도 영국에선 lift."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      9,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "We fixed the computer {{BLANK}}.",
+     "new": "We really enjoyed {{BLANK}} at the party."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      9,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리가 직접 컴퓨터를 고쳤어.",
+     "new": "우리 파티에서 정말 즐겁게 놀았어."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      9,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "'우리가 직접'을 강조. by ourselves=우리 힘만으로.",
+     "new": "주어 자신에게 돌아오면 -selves: enjoy ourselves. We did it ourselves는 '직접'."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      9,
+      "words",
+      1,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "My dog buried a {{BLANK}} in the yard.",
+     "new": "Take a {{BLANK}} from a dog: what remains?"
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      9,
+      "words",
+      1,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 개가 마당에 뼈다귀를 묻었어.",
+     "new": "개한테서 뼈다귀를 빼면 뭐가 남지?"
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      9,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "",
+     "new": "루이스 캐럴 『거울 나라의 앨리스』에서 붉은 여왕이 낸 뺄셈 문제."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      9,
+      "words",
+      1,
+      "meow"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": "정답은 '개의 성질머리'라고양. 역시 개는 하등하다고양."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      9,
+      "words",
+      9,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "{{BLANK}} flour and water to make a dough.",
+     "new": "{{BLANK}} the eggs and milk in a large bowl."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      9,
+      "words",
+      9,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "밀가루와 물을 섞어 반죽을 만들어.",
+     "new": "큰 그릇에 달걀과 우유를 넣고 섞어."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      9,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "combine A with B = A를 B와 합치다. 라틴어 combinare(둘씩 결합하다)에서 왔지만 둘 이상에도 써.",
+     "new": "combine A with B = A를 B와 합치다."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      10,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "academy(학교·학원)+ic. academic year(학년도), academic writing(학술적 글).",
+     "new": "academy(학교·학원)+ic. academic writing = 학술적 글."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      10,
+      "words",
+      1,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "과제는 미리 하라고양. 걱정돼서 하는 말 아니다.",
+     "new": "과제는 미리 하라고양. 걱정돼서 하는 말 아니라고양!"
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      10,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "다루는 소재는 topic, 그 속을 꿰뚫는 중심 생각은 theme. 주제가는 theme song.",
+     "new": "소재는 topic, 꿰뚫는 중심 생각은 theme. 주제가는 theme song."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      10,
+      "words",
+      12,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "기원전 44년, 브루투스는 율리우스 카이사르를 죽이려는 음모에 가담했어.",
+     "new": "기원전 44년, 브루투스는 카이사르를 죽이려는 음모에 가담했어."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      10,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "몰래 꾸민 나쁜 계획. 동사로 '음모를 꾸미다': plot against the king.",
+     "new": "동사로는 '음모를 꾸미다': plot against the king."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      10,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "더 낫게 고치다. 명사는 revision. 영국에선 복습하다로도 쓴다. 이 뜻에서는 rework와 바꿔 쓸 수 있다.",
+     "new": "명사는 revision. 영국에선 '복습하다'로도 쓴다. 이 뜻에서는 rework와 바꿔 쓸 수 있다."
+    }
+   ],
+   "keyOrders": [
+    {
+     "path": [
+      11,
+      "exercises",
+      0,
+      "words",
+      3
+     ],
+     "keys": [
+      "en",
+      "ko",
+      "ex",
+      "tr",
+      "c",
+      "ipa",
+      "pos",
+      "word",
+      "si",
+      "sn"
+     ]
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      1,
+      "words",
+      4
+     ],
+     "keys": [
+      "en",
+      "word",
+      "ko",
+      "ex",
+      "tr",
+      "c",
+      "ipa",
+      "pos",
+      "si",
+      "sn"
+     ]
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      2,
+      "words",
+      13
+     ],
+     "keys": [
+      "en",
+      "ko",
+      "ex",
+      "tr",
+      "c",
+      "ipa",
+      "pos",
+      "word",
+      "si",
+      "sn"
+     ]
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      7,
+      "words",
+      1
+     ],
+     "keys": [
+      "en",
+      "word",
+      "ko",
+      "ex",
+      "tr",
+      "c",
+      "ipa",
+      "pos",
+      "si",
+      "sn"
+     ]
+    }
+   ]
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/set11.json": {
+   "beforeHash": "704e3953d0de4c3f6563bb1db62fc2c7770ef1787f12ce4f0206309d8ea97e2f",
+   "afterHash": "34c42dfa58424c80dee0211cbd2965da001a47e9f54ea2846179742f2b607ba4"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/set11.json": [
+   {
+    "path": [
+     0,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "hire: 고용하다. fire: 해고하다.",
+    "new": "반대는 fire(해고하다)."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Take off your {{BLANK}}s at the door.",
+    "new": "I found one {{BLANK}}, but where's the other?"
+   },
+   {
+    "path": [
+     0,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "문 앞에서 신발 벗어 줘.",
+    "new": "신발 한 짝은 찾았는데, 나머지 한 짝은 어디 있지?"
+   },
+   {
+    "path": [
+     0,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "한 짝은 shoe, 두 짝이니 보통 shoes. a pair of shoes=한 켤레.",
+    "new": "한 짝은 shoe, 한 켤레는 a pair of shoes."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": false,
+    "old": "넷으로 나눈 것 중 하나. a quarter of~=~의 4분의 1."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "사람 손 안 탄 '야생의'. wild flower=들꽃, wild animal=야생동물.",
+    "new": "사람 손을 안 탄 상태. wild animal = 야생동물."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "daily life 일상, daily news 일간 뉴스.",
+    "new": "day+ly에서 y가 i로 바뀐다. 매주는 weekly, 매달은 monthly."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": false,
+    "old": "형용사와 부사 모두 daily."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "수학 나눗셈도, 회사 부서도 division.",
+    "new": "divide(나누다)의 명사."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     9,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Can you give me some {{BLANK}}?",
+    "new": "She generally gave herself very good {{BLANK}}."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "나 조언 좀 해 줄래?",
+    "new": "앨리스는 대개 스스로에게 아주 좋은 충고를 했어."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "동사는 advise(조언하다). 셀 수 없어서 an advice 금지, some advice.",
+    "new": "루이스 캐럴 『이상한 나라의 앨리스』. 셀 수 없어 an advice(X)."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     9,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "advice, 충고는 공짜지만 듣는 건 실력이라고양.",
+    "new": "근데 그 충고는 거의 안 따랐다고양. 딱 너다고양."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "birth는 출생, born은 태어난. date of birth는 생년월일, give birth는 출산하다.",
+    "new": "be born은 태어나다, give birth는 출산하다."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The accident did great {{BLANK}} to his car.",
+    "new": "The storm was strong. However, it did little {{BLANK}}."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 사고로 걔 차가 크게 망가졌어.",
+    "new": "폭풍은 강했어. 하지만 피해는 거의 없었어."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "사고·날씨 등으로 생긴 피해·손상. 이 뜻은 셀 수 없고 do/cause damage to로 쓴다.",
+    "new": "셀 수 없다: a damage(X). do/cause damage to ~."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "I had a big {{BLANK}} of rice.",
+    "new": "He finished one {{BLANK}} of rice and asked for another."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "나 밥 한 그릇 크게 먹었어.",
+    "new": "걔는 밥 한 그릇을 다 먹고 한 그릇 더 달라고 했어."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": false,
+    "old": "동사로 쓰면 '청소하다'. clean my room=방을 치우다."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "개신교 등 기독교 교회의 성직자. 영국·미국 모두 쓰는 뜻.",
+    "new": "주로 개신교 목사. 가톨릭 신부는 priest."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "머리가 좋다는 뜻에서 clever와 같은 말. 이해·학습 능력이 뛰어남을 나타내.",
+    "new": "이 뜻에서는 clever와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "라틴어 respicere(돌아보다·고려하다)에서 온 말. 명사도 respect(존경·존중).",
+    "new": "라틴어 respicere(돌아보다·고려하다)에서 온 말."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Show {{BLANK}} for other people.",
+    "new": "Show {{BLANK}} for others."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Don't {{BLANK}} me for the mistake.",
+    "new": "Don't {{BLANK}} yourself for the mistake."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 실수 내 탓 하지 마.",
+    "new": "그 실수로 너 자신을 탓하지 마."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "She's over eighty but still very {{BLANK}}.",
+    "new": "She's over eighty. However, she's still very {{BLANK}}."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그분 여든 넘으셨는데 아직 엄청 활동적이셔.",
+    "new": "그분은 여든이 넘으셨어. 그래도 아직 엄청 활동적이셔."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "act: 행동하다. action: 행동. active: 활동적인.",
+    "new": "act(행동하다)에서 왔다. 반대는 inactive."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     9,
+     "meow"
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": "나머지 아홉 시간은 너 갈구느라 바쁘다고양."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "농사를 짓기 전에 사람들은 사냥하고 먹을 것을 모으며 살았어.",
+    "new": "농사 전에 사람들은 사냥하고 먹을 것을 모으며 살았어."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "hunting and gathering은 수렵·채집. gather information은 정보를 모으다.",
+    "new": "hunting and gathering = 수렵·채집."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "명사는 원피스·드레스. 동사는 옷을 입다·입히다. get dressed도 옷을 입다는 뜻.",
+    "new": "get dressed = 옷을 입다. dress up = 차려입다."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": false,
+    "old": "굽지 않고 곧은 모양. 부사와 형태가 같다."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "How's the {{BLANK}} in Busan today?",
+    "new": "The {{BLANK}} was bad. However, the game went on."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "오늘 부산 날씨 어때?",
+    "new": "날씨가 나빴어. 그래도 경기는 계속됐어."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "obtain은 얻다, secure는 확실히 확보하다. obtain은 get보다 격식 있는 말.",
+    "new": "get보다 격식 있는 말. 이 뜻에서는 secure와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "surprised는 놀람을 느끼는, surprising은 놀람을 일으키는. a surprising person처럼 사람도 놀라움을 줄 수 있다.",
+    "new": "놀란 사람은 surprised, 놀라게 하는 일은 surprising."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "영국 구어로 quid, 정식 이름은 pound sterling이다. 영국 돈의 단위. 무게 단위와 같은 철자·발음.",
+    "new": "영국 구어로 quid, 정식 이름은 pound sterling. 무게 단위와 철자가 같다."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     12,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "When {{BLANK}} is greater than demand, prices tend to fall.",
+    "new": "We have a week's {{BLANK}} of food and water."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "공급이 수요보다 많으면 가격은 떨어지는 경향이 있어.",
+    "new": "우리한테 일주일 치 먹을 것과 물이 있어."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "supply and demand는 공급과 수요.",
+    "new": "a supply of ~ = ~의 비축량. supply and demand는 공급과 수요."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     14,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "give someone a lift는 차로 태워 주다. 미국에서는 give someone a ride가 더 흔하다. 엘리베이터는 영국식 lift, 미국식 elevator.",
+    "new": "이 뜻에서는 ride와 바꿔 쓸 수 있다. 엘리베이터도 영국에선 lift."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "We fixed the computer {{BLANK}}.",
+    "new": "We really enjoyed {{BLANK}} at the party."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리가 직접 컴퓨터를 고쳤어.",
+    "new": "우리 파티에서 정말 즐겁게 놀았어."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "'우리가 직접'을 강조. by ourselves=우리 힘만으로.",
+    "new": "주어 자신에게 돌아오면 -selves: enjoy ourselves. We did it ourselves는 '직접'."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "My dog buried a {{BLANK}} in the yard.",
+    "new": "Take a {{BLANK}} from a dog: what remains?"
+   },
+   {
+    "path": [
+     9,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 개가 마당에 뼈다귀를 묻었어.",
+    "new": "개한테서 뼈다귀를 빼면 뭐가 남지?"
+   },
+   {
+    "path": [
+     9,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "",
+    "new": "루이스 캐럴 『거울 나라의 앨리스』에서 붉은 여왕이 낸 뺄셈 문제."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     1,
+     "meow"
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": "정답은 '개의 성질머리'라고양. 역시 개는 하등하다고양."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     9,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "{{BLANK}} flour and water to make a dough.",
+    "new": "{{BLANK}} the eggs and milk in a large bowl."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "밀가루와 물을 섞어 반죽을 만들어.",
+    "new": "큰 그릇에 달걀과 우유를 넣고 섞어."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "combine A with B = A를 B와 합치다. 라틴어 combinare(둘씩 결합하다)에서 왔지만 둘 이상에도 써.",
+    "new": "combine A with B = A를 B와 합치다."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "academy(학교·학원)+ic. academic year(학년도), academic writing(학술적 글).",
+    "new": "academy(학교·학원)+ic. academic writing = 학술적 글."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     1,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "과제는 미리 하라고양. 걱정돼서 하는 말 아니다.",
+    "new": "과제는 미리 하라고양. 걱정돼서 하는 말 아니라고양!"
+   },
+   {
+    "path": [
+     10,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "다루는 소재는 topic, 그 속을 꿰뚫는 중심 생각은 theme. 주제가는 theme song.",
+    "new": "소재는 topic, 꿰뚫는 중심 생각은 theme. 주제가는 theme song."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "기원전 44년, 브루투스는 율리우스 카이사르를 죽이려는 음모에 가담했어.",
+    "new": "기원전 44년, 브루투스는 카이사르를 죽이려는 음모에 가담했어."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "몰래 꾸민 나쁜 계획. 동사로 '음모를 꾸미다': plot against the king.",
+    "new": "동사로는 '음모를 꾸미다': plot against the king."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "더 낫게 고치다. 명사는 revision. 영국에선 복습하다로도 쓴다. 이 뜻에서는 rework와 바꿔 쓸 수 있다.",
+    "new": "명사는 revision. 영국에선 '복습하다'로도 쓴다. 이 뜻에서는 rework와 바꿔 쓸 수 있다."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/set11.json": [
+   {
+    "path": [
+     0,
+     "words",
+     3
+    ],
+    "keys": [
+     "en",
+     "ko",
+     "ex",
+     "tr",
+     "c",
+     "ipa",
+     "pos",
+     "word",
+     "si",
+     "sn"
+    ]
+   },
+   {
+    "path": [
+     1,
+     "words",
+     4
+    ],
+    "keys": [
+     "en",
+     "word",
+     "ko",
+     "ex",
+     "tr",
+     "c",
+     "ipa",
+     "pos",
+     "si",
+     "sn"
+    ]
+   },
+   {
+    "path": [
+     2,
+     "words",
+     13
+    ],
+    "keys": [
+     "en",
+     "ko",
+     "ex",
+     "tr",
+     "c",
+     "ipa",
+     "pos",
+     "word",
+     "si",
+     "sn"
+    ]
+   },
+   {
+    "path": [
+     7,
+     "words",
+     1
+    ],
+    "keys": [
+     "en",
+     "word",
+     "ko",
+     "ex",
+     "tr",
+     "c",
+     "ipa",
+     "pos",
+     "si",
+     "sn"
+    ]
+   }
+  ]
+ }
+}
