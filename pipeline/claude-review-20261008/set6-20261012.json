@@ -1,0 +1,1836 @@
+{
+ "date": "2026-10-12",
+ "name": "set6-20261012",
+ "status": "applied_locally_verified",
+ "authorization": "26.10.12 영신 \"바로 배포하고 일단 전세트를 작업하자\"",
+ "summary": "예문·해설·대사 42곳(읽기량 초과 10→0, 앞당김 2개 이상 5→0, 고양이 대사 3, 목적 to부정사·4형식 예문, speak/talk·reach·explain 오류 해설, 뜻 줄 반복 해설 21)",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "8e501cee4666ab9d06b803b62371edab39bbc0bce3a7deed03c752882a5305f4",
+   "afterHash": "875eca16a1acfcaa7f0a207c0a2be710048aa2c92b624f8523688ebe6c4f4128",
+   "changes": [
+    {
+     "path": [
+      6,
+      "exercises",
+      0,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "뒤에 문장이 오면 접속사. 미래 얘기라도 until 뒤는 현재형!",
+     "new": "미래 일이라도 until 뒤는 현재형: until it stops(O), until it will stop(X)."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      0,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "정확히 60초가 아니라 잠깐이라는 뜻. Wait a moment도 같아.",
+     "new": "이 뜻에서는 moment·second와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      0,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "언어를 구사한다고 할 때 speak English처럼 쓴다.",
+     "new": "언어엔 speak: speak English(O), talk English(X)."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      0,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "allow someone to do: 누가 ~하도록 허락하다. let someone do로도 표현하지만 let 뒤에는 to를 쓰지 않는다.",
+     "new": "allow+사람+to 동사. let은 to 없이: let me play."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      0,
+      "words",
+      14,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "계속하다(타동)·계속되다(자동) 둘 다. continue to do/doing 다 됨.",
+     "new": "continue to do와 continue doing 둘 다 된다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      1,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "send-sent-sent. send me it은 어색 — send it to me.",
+     "new": "send+사람+물건 = send+물건+to+사람. it이면 send it to me. 과거는 sent."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      1,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "정확한 개수를 정하지 않는 몇몇·여럿. 명사를 꾸밀 때는 several books처럼 복수형을 써.",
+     "new": "뒤엔 복수 명사: several times, several books."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      1,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "자동사(자라다)와 타동사(기르다)가 한 몸. 머리를 기르는 것도 grow one's hair.",
+     "new": "머리를 기르는 것도 grow: grow your hair."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      1,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "grow up = 어른이 되다(어른은 grown-up). grow+형용사(grow old)는 '서서히 ~해지다'.",
+     "new": "이 뜻은 늘 up과 함께. 어른은 a grown-up."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      1,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "행동을 고려할 때는 consider doing. 누구를 ~로 여기는 consider A (to be) B도 있어.",
+     "new": "행동을 고려할 땐 consider+-ing: consider moving."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      1,
+      "words",
+      14,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "within an hour는 한 시간 안에. within walking distance는 걸어갈 수 있는 거리 안에.",
+     "new": "within an hour는 한 시간 안에, in an hour는 한 시간 뒤에."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      2,
+      "words",
+      1,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} has three columns and five rows.",
+     "new": "Children learn the times {{BLANK}} by heart."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      2,
+      "words",
+      1,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 표에는 열이 세 개, 행이 다섯 개 있어.",
+     "new": "아이들은 구구단을 외워."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      2,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "행과 열로 정보를 정리한 표도 table.",
+     "new": "구구단은 times table(곱셈표). 행과 열로 짠 표가 table."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      2,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "suggest는 의견을 내는 것, offer는 물건·도움을 '내미는' 것.",
+     "new": "offer to+동사원형. suggest는 의견을, offer는 물건·도움을 내민다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      2,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "fall–fell–fallen. fall은 떨어지다. drop은 떨어지다·떨어뜨리다 둘 다 가능해.",
+     "new": "fall–fell–fallen. 떨어뜨리는 건 drop."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      2,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "fall은 주로 미국에서 쓰는 ‘가을’. autumn도 같은 뜻이며 영미 모두에서 쓴다.",
+     "new": "주로 미국식. autumn은 영미 모두 쓴다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      2,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "가격·수치가 내려가다는 뜻에서 drop과 같은 말. 반대는 rise.",
+     "new": "이 뜻에서는 drop과 바꿔 쓸 수 있다. 반대는 rise."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      2,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "across the street: 길 건너에. across from the bank: 은행 맞은편에. 두 번째는 opposite the bank로도 쓴다.",
+     "new": "across from the bank = 은행 맞은편에. opposite the bank로도 쓴다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      2,
+      "words",
+      14,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In the 1760s, Americans opposed British {{BLANK}}es they had no vote on.",
+     "new": "In the 1760s, Americans paid British {{BLANK}}es without a vote."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      2,
+      "words",
+      14,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1760년대에 아메리카 식민지 사람들은 자기들이 표결에 참여하지 못한 영국의 세금에 반대했어.",
+     "new": "1760년대 아메리카인은 투표권도 없이 영국에 세금을 냈어."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      2,
+      "words",
+      14,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "pay tax는 세금을 내다. No taxation without representation=대표 없이 과세 없다.",
+     "new": "No taxation without representation(대표 없이 과세 없다)."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      3,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The cat is hiding {{BLANK}} the curtain.",
+     "new": "The cat is waiting {{BLANK}} the door."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      3,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "고양이가 커튼 뒤에 숨어 있어.",
+     "new": "고양이가 문 뒤에서 기다리고 있어."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      3,
+      "words",
+      7,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "behind the sofa, 소파 뒤에 숨은 게 아니라 잠복 중이라고양.",
+     "new": "behind the door, 기다리는 게 아니라 잠복 중이라고양."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      3,
+      "words",
+      14,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": "한 나라나 그 국민을 가리킨다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      4,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This lamp has a heavy {{BLANK}}.",
+     "new": "This cup has a wide {{BLANK}}, so it won't fall over."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      4,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 램프는 밑받침이 무거워.",
+     "new": "이 컵은 밑이 넓어서 잘 안 넘어져."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      4,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "the base of a lamp는 램프 밑받침, the base of a mountain은 산기슭.",
+     "new": "the base of a mountain은 산기슭."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      4,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "We {{BLANK}}ed apples at the farm.",
+     "new": "We went to the farm to {{BLANK}} apples."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      4,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우린 농장에서 사과를 땄어.",
+     "new": "우리는 사과를 따러 농장에 갔어."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      4,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": "나무·줄기에서 꽃이나 과일을 떼어 내다. pick apples는 사과를 따다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      4,
+      "words",
+      6,
+      "meow"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": "이름 지어 봤자 불러도 안 간다고양."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      4,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "drive는 어떤 상태로 몰아가다. drive A crazy/mad는 A를 미치게 하다·몹시 짜증 나게 하다.",
+     "new": "drive me crazy = 나를 미치게 하다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      4,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "도착지를 바로 목적어로 쓴다: reach Seoul. arrive를 쓰면 arrive in Seoul, arrive at the station처럼 전치사가 필요하다.",
+     "new": "reach Seoul(O), reach to Seoul(X). arrive는 arrive in Seoul."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      4,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "누구에게 설명할 때는 explain A to B. explain how/why ~처럼 절도 뒤에 올 수 있어.",
+     "new": "explain me this(X) → explain this to me(O). explain how/why ~도 된다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      5,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "role model은 본받고 싶은 사람. 모형과 달리 행동의 본보기를 말해.",
+     "new": "role model = 본받고 싶은 사람."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      5,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": "raise a question은 질문·의문을 제기하다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      5,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "They {{BLANK}}d money for a new library.",
+     "new": "They {{BLANK}}d money to build a new library."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      5,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그들은 새 도서관을 지을 돈을 모았어.",
+     "new": "그들은 새 도서관을 지으려고 돈을 모았어."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      5,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "raise money는 필요한 돈을 모으다. 개인이 저축하는 save와 구별해.",
+     "new": "개인이 저축하는 save와 구별해."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      5,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "사람의 목소리, 노래하는 소리를 가리켜. 동물 소리나 의견을 나타낼 때도 써.",
+     "new": "언성을 높이는 건 raise your voice."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      6,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "신문·잡지 등에 실린 글. write an article은 기사를 쓰다. 문법의 관사도 article.",
+     "new": "write an article = 기사를 쓰다. 문법의 관사도 article."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      6,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": "drug는 치료용 약도 되지만 이 문맥에서는 불법 약물이야."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      6,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "common practice=흔한 관행. 관습적으로 반복되는 행동·방식.",
+     "new": "common practice = 흔한 관행."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      6,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "원칙·가르침 등을 실제 행동으로 옮기다.",
+     "new": "Practice what you preach(말한 대로 행하라)라는 말이 있다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      7,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "She drew a {{BLANK}} of my cat.",
+     "new": "She drew me a {{BLANK}} of my cat."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      7,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그림도 사진도 picture. take a picture = 사진 찍다.",
+     "new": "draw me a picture = draw a picture for me. 사진은 take a picture."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      7,
+      "words",
+      7,
+      "meow"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": "모델료는 츄르로 받겠다고양."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      7,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": "military service는 군 복무. the military는 명사로 군대 전체를 가리켜."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      8,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "몸의 팔. army(군대)는 '무기'를 뜻하는 라틴어 arma에서 온 다른 갈래다.",
+     "new": "army(군대)는 '무기'를 뜻하는 라틴어 arma에서 온 다른 갈래다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      8,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Run, or we won't {{BLANK}} the bus.",
+     "new": "We ran to {{BLANK}} the last train."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      8,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "뛰어, 안 그러면 버스 못 잡아.",
+     "new": "우리는 막차를 타려고 뛰었어."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      8,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "miss(놓치다)의 반대. 시간 맞춰 '잡아서 탄다'.",
+     "new": "miss(놓치다)의 반대. board는 그냥 타는 것, catch는 늦지 않게 잡아타는 것."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      9,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "기다리거나 어려움을 견디는 태도. be patient with someone은 그 사람을 참을성 있게 대하다.",
+     "new": "be patient with+사람: ~을 참을성 있게 대하다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      9,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "British factories began to {{BLANK}} goods by machine in the 1700s.",
+     "new": "Brazil {{BLANK}}s more coffee than any other country."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      9,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1700년대에 영국 공장들은 기계로 상품을 생산하기 시작했어.",
+     "new": "브라질은 다른 어느 나라보다 커피를 많이 생산해."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      9,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "만들어 낸 결과물이 product(제품). 동사 ‘생산하다’는 뒤, 명사 ‘농산물’은 앞에 강세.",
+     "new": "만들어 낸 결과물이 product(제품)."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      10,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리는 전문가에게 그 오래된 그림이 진짜인지 봐 달라고 했어.",
+     "new": "전문가한테 그 옛 그림이 진짜인지 봐 달라고 했어."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      10,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "an expert on/in ~: ~의 전문가. 형용사로 '전문적인'도 된다: expert advice.",
+     "new": "an expert on ~ = ~의 전문가. expert advice처럼 형용사로도 쓴다."
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      10,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "쌍둥이 중 한 명은 a twin, 둘은 twins. 형용사로 '쌍둥이의': twin sister.",
+     "new": "twin sister = 쌍둥이 자매."
+    },
+    {
+     "path": [
+      46,
+      "exercises",
+      0,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "common practice=흔한 관행. 관습적으로 반복되는 행동·방식.",
+     "new": "common practice = 흔한 관행."
+    }
+   ],
+   "keyOrders": [
+    {
+     "path": [
+      6,
+      "exercises",
+      3,
+      "words",
+      14
+     ],
+     "keys": [
+      "en",
+      "ko",
+      "ex",
+      "tr",
+      "c",
+      "ipa",
+      "pos",
+      "word",
+      "si",
+      "sn"
+     ]
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      4,
+      "words",
+      5
+     ],
+     "keys": [
+      "en",
+      "ko",
+      "ex",
+      "tr",
+      "c",
+      "ipa",
+      "pos",
+      "word",
+      "si",
+      "sn"
+     ]
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      5,
+      "words",
+      5
+     ],
+     "keys": [
+      "en",
+      "word",
+      "pos",
+      "ko",
+      "ex",
+      "tr",
+      "c",
+      "ipa",
+      "si",
+      "sn"
+     ]
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      6,
+      "words",
+      6
+     ],
+     "keys": [
+      "en",
+      "word",
+      "pos",
+      "ko",
+      "ex",
+      "tr",
+      "c",
+      "ipa",
+      "si",
+      "sn"
+     ]
+    },
+    {
+     "path": [
+      6,
+      "exercises",
+      7,
+      "words",
+      12
+     ],
+     "keys": [
+      "en",
+      "ko",
+      "ex",
+      "tr",
+      "c",
+      "ipa",
+      "pos",
+      "word",
+      "si",
+      "sn"
+     ]
+    }
+   ]
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/set06.json": {
+   "beforeHash": "eb84106afec3e249aea6cc22c4b9175cf11a0c60d1b3d3254e0ff52fa6b5fe11",
+   "afterHash": "d3ac96e66069471e03c1375d70584540d978fd9b5a53be0f9e179801a59cf286"
+  },
+  "pipeline/out/set46.json": {
+   "beforeHash": "0fe1f996801c069acb2d1ea0442b41448f49fc1448d64db98c7ee0a003f581b5",
+   "afterHash": "eb6170178cce4a2d889eed426f81545c23573fa7f23038ab1cba1b5f2f0beacf"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/set06.json": [
+   {
+    "path": [
+     0,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "뒤에 문장이 오면 접속사. 미래 얘기라도 until 뒤는 현재형!",
+    "new": "미래 일이라도 until 뒤는 현재형: until it stops(O), until it will stop(X)."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "정확히 60초가 아니라 잠깐이라는 뜻. Wait a moment도 같아.",
+    "new": "이 뜻에서는 moment·second와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "언어를 구사한다고 할 때 speak English처럼 쓴다.",
+    "new": "언어엔 speak: speak English(O), talk English(X)."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "allow someone to do: 누가 ~하도록 허락하다. let someone do로도 표현하지만 let 뒤에는 to를 쓰지 않는다.",
+    "new": "allow+사람+to 동사. let은 to 없이: let me play."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     14,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "계속하다(타동)·계속되다(자동) 둘 다. continue to do/doing 다 됨.",
+    "new": "continue to do와 continue doing 둘 다 된다."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "send-sent-sent. send me it은 어색 — send it to me.",
+    "new": "send+사람+물건 = send+물건+to+사람. it이면 send it to me. 과거는 sent."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "정확한 개수를 정하지 않는 몇몇·여럿. 명사를 꾸밀 때는 several books처럼 복수형을 써.",
+    "new": "뒤엔 복수 명사: several times, several books."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "자동사(자라다)와 타동사(기르다)가 한 몸. 머리를 기르는 것도 grow one's hair.",
+    "new": "머리를 기르는 것도 grow: grow your hair."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "grow up = 어른이 되다(어른은 grown-up). grow+형용사(grow old)는 '서서히 ~해지다'.",
+    "new": "이 뜻은 늘 up과 함께. 어른은 a grown-up."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "행동을 고려할 때는 consider doing. 누구를 ~로 여기는 consider A (to be) B도 있어.",
+    "new": "행동을 고려할 땐 consider+-ing: consider moving."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     14,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "within an hour는 한 시간 안에. within walking distance는 걸어갈 수 있는 거리 안에.",
+    "new": "within an hour는 한 시간 안에, in an hour는 한 시간 뒤에."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} has three columns and five rows.",
+    "new": "Children learn the times {{BLANK}} by heart."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 표에는 열이 세 개, 행이 다섯 개 있어.",
+    "new": "아이들은 구구단을 외워."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "행과 열로 정보를 정리한 표도 table.",
+    "new": "구구단은 times table(곱셈표). 행과 열로 짠 표가 table."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "suggest는 의견을 내는 것, offer는 물건·도움을 '내미는' 것.",
+    "new": "offer to+동사원형. suggest는 의견을, offer는 물건·도움을 내민다."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "fall–fell–fallen. fall은 떨어지다. drop은 떨어지다·떨어뜨리다 둘 다 가능해.",
+    "new": "fall–fell–fallen. 떨어뜨리는 건 drop."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "fall은 주로 미국에서 쓰는 ‘가을’. autumn도 같은 뜻이며 영미 모두에서 쓴다.",
+    "new": "주로 미국식. autumn은 영미 모두 쓴다."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "가격·수치가 내려가다는 뜻에서 drop과 같은 말. 반대는 rise.",
+    "new": "이 뜻에서는 drop과 바꿔 쓸 수 있다. 반대는 rise."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "across the street: 길 건너에. across from the bank: 은행 맞은편에. 두 번째는 opposite the bank로도 쓴다.",
+    "new": "across from the bank = 은행 맞은편에. opposite the bank로도 쓴다."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     14,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In the 1760s, Americans opposed British {{BLANK}}es they had no vote on.",
+    "new": "In the 1760s, Americans paid British {{BLANK}}es without a vote."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     14,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1760년대에 아메리카 식민지 사람들은 자기들이 표결에 참여하지 못한 영국의 세금에 반대했어.",
+    "new": "1760년대 아메리카인은 투표권도 없이 영국에 세금을 냈어."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     14,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "pay tax는 세금을 내다. No taxation without representation=대표 없이 과세 없다.",
+    "new": "No taxation without representation(대표 없이 과세 없다)."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The cat is hiding {{BLANK}} the curtain.",
+    "new": "The cat is waiting {{BLANK}} the door."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "고양이가 커튼 뒤에 숨어 있어.",
+    "new": "고양이가 문 뒤에서 기다리고 있어."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     7,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "behind the sofa, 소파 뒤에 숨은 게 아니라 잠복 중이라고양.",
+    "new": "behind the door, 기다리는 게 아니라 잠복 중이라고양."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     14,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": false,
+    "old": "한 나라나 그 국민을 가리킨다."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This lamp has a heavy {{BLANK}}.",
+    "new": "This cup has a wide {{BLANK}}, so it won't fall over."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 램프는 밑받침이 무거워.",
+    "new": "이 컵은 밑이 넓어서 잘 안 넘어져."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "the base of a lamp는 램프 밑받침, the base of a mountain은 산기슭.",
+    "new": "the base of a mountain은 산기슭."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "We {{BLANK}}ed apples at the farm.",
+    "new": "We went to the farm to {{BLANK}} apples."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우린 농장에서 사과를 땄어.",
+    "new": "우리는 사과를 따러 농장에 갔어."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": false,
+    "old": "나무·줄기에서 꽃이나 과일을 떼어 내다. pick apples는 사과를 따다."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     6,
+     "meow"
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": "이름 지어 봤자 불러도 안 간다고양."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "drive는 어떤 상태로 몰아가다. drive A crazy/mad는 A를 미치게 하다·몹시 짜증 나게 하다.",
+    "new": "drive me crazy = 나를 미치게 하다."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "도착지를 바로 목적어로 쓴다: reach Seoul. arrive를 쓰면 arrive in Seoul, arrive at the station처럼 전치사가 필요하다.",
+    "new": "reach Seoul(O), reach to Seoul(X). arrive는 arrive in Seoul."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "누구에게 설명할 때는 explain A to B. explain how/why ~처럼 절도 뒤에 올 수 있어.",
+    "new": "explain me this(X) → explain this to me(O). explain how/why ~도 된다."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "role model은 본받고 싶은 사람. 모형과 달리 행동의 본보기를 말해.",
+    "new": "role model = 본받고 싶은 사람."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": false,
+    "old": "raise a question은 질문·의문을 제기하다."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "They {{BLANK}}d money for a new library.",
+    "new": "They {{BLANK}}d money to build a new library."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그들은 새 도서관을 지을 돈을 모았어.",
+    "new": "그들은 새 도서관을 지으려고 돈을 모았어."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "raise money는 필요한 돈을 모으다. 개인이 저축하는 save와 구별해.",
+    "new": "개인이 저축하는 save와 구별해."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "사람의 목소리, 노래하는 소리를 가리켜. 동물 소리나 의견을 나타낼 때도 써.",
+    "new": "언성을 높이는 건 raise your voice."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "신문·잡지 등에 실린 글. write an article은 기사를 쓰다. 문법의 관사도 article.",
+    "new": "write an article = 기사를 쓰다. 문법의 관사도 article."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": false,
+    "old": "drug는 치료용 약도 되지만 이 문맥에서는 불법 약물이야."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "common practice=흔한 관행. 관습적으로 반복되는 행동·방식.",
+    "new": "common practice = 흔한 관행."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "원칙·가르침 등을 실제 행동으로 옮기다.",
+    "new": "Practice what you preach(말한 대로 행하라)라는 말이 있다."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "She drew a {{BLANK}} of my cat.",
+    "new": "She drew me a {{BLANK}} of my cat."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그림도 사진도 picture. take a picture = 사진 찍다.",
+    "new": "draw me a picture = draw a picture for me. 사진은 take a picture."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     7,
+     "meow"
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": "모델료는 츄르로 받겠다고양."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": false,
+    "old": "military service는 군 복무. the military는 명사로 군대 전체를 가리켜."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "몸의 팔. army(군대)는 '무기'를 뜻하는 라틴어 arma에서 온 다른 갈래다.",
+    "new": "army(군대)는 '무기'를 뜻하는 라틴어 arma에서 온 다른 갈래다."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Run, or we won't {{BLANK}} the bus.",
+    "new": "We ran to {{BLANK}} the last train."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "뛰어, 안 그러면 버스 못 잡아.",
+    "new": "우리는 막차를 타려고 뛰었어."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "miss(놓치다)의 반대. 시간 맞춰 '잡아서 탄다'.",
+    "new": "miss(놓치다)의 반대. board는 그냥 타는 것, catch는 늦지 않게 잡아타는 것."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "기다리거나 어려움을 견디는 태도. be patient with someone은 그 사람을 참을성 있게 대하다.",
+    "new": "be patient with+사람: ~을 참을성 있게 대하다."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "British factories began to {{BLANK}} goods by machine in the 1700s.",
+    "new": "Brazil {{BLANK}}s more coffee than any other country."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1700년대에 영국 공장들은 기계로 상품을 생산하기 시작했어.",
+    "new": "브라질은 다른 어느 나라보다 커피를 많이 생산해."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "만들어 낸 결과물이 product(제품). 동사 ‘생산하다’는 뒤, 명사 ‘농산물’은 앞에 강세.",
+    "new": "만들어 낸 결과물이 product(제품)."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리는 전문가에게 그 오래된 그림이 진짜인지 봐 달라고 했어.",
+    "new": "전문가한테 그 옛 그림이 진짜인지 봐 달라고 했어."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "an expert on/in ~: ~의 전문가. 형용사로 '전문적인'도 된다: expert advice.",
+    "new": "an expert on ~ = ~의 전문가. expert advice처럼 형용사로도 쓴다."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "쌍둥이 중 한 명은 a twin, 둘은 twins. 형용사로 '쌍둥이의': twin sister.",
+    "new": "twin sister = 쌍둥이 자매."
+   }
+  ],
+  "pipeline/out/set46.json": [
+   {
+    "path": [
+     0,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "common practice=흔한 관행. 관습적으로 반복되는 행동·방식.",
+    "new": "common practice = 흔한 관행."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/set06.json": [
+   {
+    "path": [
+     3,
+     "words",
+     14
+    ],
+    "keys": [
+     "en",
+     "ko",
+     "ex",
+     "tr",
+     "c",
+     "ipa",
+     "pos",
+     "word",
+     "si",
+     "sn"
+    ]
+   },
+   {
+    "path": [
+     4,
+     "words",
+     5
+    ],
+    "keys": [
+     "en",
+     "ko",
+     "ex",
+     "tr",
+     "c",
+     "ipa",
+     "pos",
+     "word",
+     "si",
+     "sn"
+    ]
+   },
+   {
+    "path": [
+     5,
+     "words",
+     5
+    ],
+    "keys": [
+     "en",
+     "word",
+     "pos",
+     "ko",
+     "ex",
+     "tr",
+     "c",
+     "ipa",
+     "si",
+     "sn"
+    ]
+   },
+   {
+    "path": [
+     6,
+     "words",
+     6
+    ],
+    "keys": [
+     "en",
+     "word",
+     "pos",
+     "ko",
+     "ex",
+     "tr",
+     "c",
+     "ipa",
+     "si",
+     "sn"
+    ]
+   },
+   {
+    "path": [
+     7,
+     "words",
+     12
+    ],
+    "keys": [
+     "en",
+     "ko",
+     "ex",
+     "tr",
+     "c",
+     "ipa",
+     "pos",
+     "word",
+     "si",
+     "sn"
+    ]
+   }
+  ],
+  "pipeline/out/set46.json": []
+ }
+}
