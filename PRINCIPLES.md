@@ -260,11 +260,12 @@
   - 2절의 조건을 그대로 지킨다: 순서 통제(앞당김 하나까지), 표제어 밖 단어, 줄 수, 읽기량 한도(2-2), 빈칸 중의성(3). 문장은 고칠 수 없으니, 조건에 걸리면 넣지 않는다(예: 『오만과 편견』 첫 문장은 너무 길다).
   - 해설 첫머리에 작가와 작품을 적는다(디킨스 『올리버 트위스트』). 한 연습에 두 장 이하로 둔다.
   - 지식 예문보다 단어를 더 잘 보여 주면 바꾼다. 다윈 예문 대신 홈스의 "You see, but you do not observe."를 쓴 것이 그 예다(see와 observe의 차이).
-- **반영(26.10.12):** 1~35세트 42장을 바꿨다. 원장은 `novel-quotes-20261012`이고, 검수 페이지는 `review-page.py changed`로 만든다. 세트 작업 때 더 넣는다(5세트 2장, 원장 `set5-20261012`).
+- **반영(26.10.12):** 1~35세트 42장을 바꿨다. 원장은 `novel-quotes-20261012`이고, 검수 페이지는 `review-page.py changed`로 만든다. 세트 작업 때 더 넣는다(5세트 2장 `set5-20261012`, 1세트 1장 `set1-20261012`).
   - 앨리스·거울 나라: puzzle, beginning, different, moral, late, impossible, depend(체셔 고양이), curious, same(붉은 여왕, 5세트 작업), without(첫 쪽, 5세트 작업)
   - 디킨스: more, worst, dead, bless, ashamed, light
   - 오스틴: enjoyment, wise, pleasure
-  - 그 밖: call(모비 딕), except·straight·adventure·believe(피터 팬), home(오즈), mistake·glad·wicked(앤), present·storm·mean(작은 아씨들), painful(프랑켄슈타인), observe·obvious(홈스), possibility·angel(제인 에어), soul(폭풍의 언덕), music·freely(드라큘라), define·youth(도리언 그레이), alike(안나 카레니나), difficult(미들마치), wisdom(몬테크리스토 백작)
+  - 『오즈의 마법사』: home, best(양철 나무꾼 "Happiness is the best thing in the world.", 1세트 작업)
+  - 그 밖: call(모비 딕), except·straight·adventure·believe(피터 팬), mistake·glad·wicked(앤), present·storm·mean(작은 아씨들), painful(프랑켄슈타인), observe·obvious(홈스), possibility·angel(제인 에어), soul(폭풍의 언덕), music·freely(드라큘라), define·youth(도리언 그레이), alike(안나 카레니나), difficult(미들마치), wisdom(몬테크리스토 백작)
 
 ## 3. 빈칸 중의성: 맞는 영어를 치고 틀리게 하지 않는다
 

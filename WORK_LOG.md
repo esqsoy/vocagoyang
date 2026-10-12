@@ -1213,3 +1213,16 @@
 - **원장:** `set5-20261012`(복원 체인 맨 위, 5fd2860 기준).
 - **검증(새로 실행):** Codex 검사 35개 + 새 set5.test 모두 통과(36/36). set5.test는 배포판과 비교해 모아둔 카드 ID 전부, 바뀌지 않은 연습 665개의 기록 키, 완료 이어받기 11판·부분 완료 19경우·옛 판 기록, 두 시기의 이어하기 745개(142개 옮김)를 본다. ordercheck 5세트 앞당김 1개 14장·2개 이상 0장(전체 516/75), exaudit 11(변화 없음), deepcheck A8 333→331·A6 89→85, linecheck 390·360px 초과 0, collide 906.
 - **남은 일:** 영신 5세트 직검수(페이지), 남은 5세트 재묶음 여부 확인. 다음 세트는 1~4세트. 배포는 영신 요청 때.
+
+## 2026-10-12 · 5세트 배포와 1세트
+
+- **요청:** 영신 "나도 동의해 계속 진행하고 바로 배포하자"(5세트 남은 카드를 다시 묶지 않는 판단에 동의). PRINCIPLES 12·WORK_PLAN·HANDOFF의 '영신 확인 대기'를 동의로 고쳤다.
+- **배포:** 5fdf148을 main에 fast-forward로 올렸다. Pages 38211241299 성공, main의 HTML 4개 blob SHA가 로컬과 같다. 기록은 [DEPLOYMENT](DEPLOYMENT.md).
+- **1세트(41곳, 원장 `set1-20261012`):**
+  - 순서 통제: 앞당김 2개 이상 15장을 모두 고쳤다. 서수 날짜·세기 예문은 어려운 말(surrender, Christianity, prison)이 든 사건 대신 쉬운 말로 된 사건으로 바꿨다(7월 4일 미국, 7월 14일 프랑스 혁명, 8월 15일 광복, 20세기는 1901년부터, 하와이 50번째 주).
+  - 읽기량 초과 7장(good ①·make ③·last ③·man ②·state ②·keep ①·let ①)을 고쳤다. man ②는 "Man is the only animal that cooks its food."(is가 단수를 정해 men과 헷갈리지 않음).
+  - 겹침: 생신 예문 넷이 한 연습에 몰려 fiftieth를 하와이로, 지구 공전이 year ①·around ①에 겹쳐 around ①을 달로, 올빼미가 day ②·night에 겹쳐 night을 별로.
+  - 뜻 줄을 되풀이하던 해설 14장을 줄이고, 조명 문법(복수 lives·once/twice·someone is)과 한국 학생 약점(my own room/an own room)을 넣었다. keep ②의 keep a secret은 ③(지키다) 쪽이라 바꿨다.
+  - 소설 명문장 best: 『오즈의 마법사』 양철 나무꾼 "Happiness is the best thing in the world."(원문 대조).
+- **검증(새로 실행):** Codex 검사 35개 + set5.test 36/36, ordercheck 1세트 2개 이상 0(전체 60), deepcheck A8 331→324, exaudit 11, linecheck 390·360px 초과 0, collide 906. 직검수 페이지 https://claude.ai/artifact/WCj1t3Lnhr6xJ7AnCjxnSH
+- **남은 일:** 영신 1세트 직검수, 2세트. 1세트는 배포 전.
