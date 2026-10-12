@@ -1245,3 +1245,17 @@
 - 남긴 것: 24세트 lots ①과 36세트 ton ②가 같은 문장 틀("I have _ of homework this weekend.")이다. 빈칸 어미가 달라 A5에 안 걸린다. 그 세트 작업 때 고친다.
 - **1~4세트 마침:** 0~5세트의 앞당김 2개 이상 예문 0장(전체 75 → 28, 남은 것은 모두 6세트 이후), 읽기량 초과 333 → 305.
 - **검증(새로 실행):** Codex 검사 35개 + set5.test 36/36, ordercheck 4세트 2개 이상 0(전체 28), exaudit 10, deepcheck A5 0·A8 305, linecheck 390·360px 초과 0, collide 906. 직검수 https://claude.ai/artifact/BzJ2wUghgGJHMXo1sY2ocR
+
+## 2026-10-12 · 6~17세트(전체 세트 작업 시작)
+
+- **요청:** 영신 "바로 배포하고 일단 전세트를 작업하자". 1~4세트를 배포한 뒤(5dad972) 6~45세트를 시작했다.
+- **방법:** 지침 `pipeline/set-work/BRIEF.md`와 도구 `pipeline/set-work/`(dump·validate·apply·quote)를 만들었다. 하위 에이전트가 두 세트씩 제안 파일을 쓰고(저장소는 건드리지 않음), Claude가 제안을 모두 읽고 고쳐 넣는다. 세트마다 원장(`setN-20261012`)과 커밋, 여러 세트마다 전체 검사.
+- **반영(412곳):** 6세트 42, 7세트 40(한국어 일반 이름 3장 포함), 8세트 47, 9세트 39, 10세트 27, 11세트 36, 12세트 37, 13세트 35, 14세트 36, 15세트 31, 16세트 29, 17세트 16.
+  - 읽기량 초과 70장 → 0, 앞당김 2개 이상 23장 → 0, 고양이 예문 대사, 뜻 줄을 되풀이하던 해설.
+  - 조명 문법 예문: 목적 to부정사·4형식(6), 동명사 목적어·-thing+형용사(7), 시간·조건 부사절·because/although·that 명사절(8), to부정사/동명사 뜻 갈림·의문사+to(9), 형용사+to·too~to(10), 재귀대명사·one/another·however(11), 부가의문문·감탄문(12), 비교 심화·배수(13), 현재완료 경험·완료·수동태(14), 현재완료 계속·과거와 대비(15), 현재완료 진행·had better/would rather(16), 관계대명사 주격(17). 14세트 have ③ 해설에 규칙 한 줄과 "I have seen it yesterday(X)".
+  - 소설 명문장 21장(모두 원문 대조): 오즈(courage), 피터 팬(shadow), 크리스마스 캐럴(chain), 모비 딕(hide), 블랙 뷰티(afraid), 빨강 머리 앤(alive), 작은 아씨들(talent), 바스커빌가의 개(method), 벨벳 토끼(toy), 앨리스·거울 나라(wonder, plenty, dance, advice, bone, dream, memory, tail, pretend …).
+  - 한국 학생 약점 해설: speak English(O)/talk English(X), reach to Seoul(X), explain me this(X), avoid to eat(X), arrive to(X), request for help(X), most favorite(X), marry with(X) 등.
+- **Claude가 고친 것(제안에서):** corn 해설 문구, 블랙 뷰티 화자(잘 놀라던 어린 말), mouse ① 대사가 16세트 chase 대사와 같아 바꿈, 한국어 일반 이름 Mr. Park·Dr. Kim·Mr. Kim을 Rivera·Okafor·Garcia로(PRINCIPLES 2-9).
+- **검증(새로 실행):** Codex 검사 35개 + set5.test 36/36(15세트 커밋 뒤). ordercheck 2개 이상 75 → 4(남은 것은 모두 18세트 이후), exaudit 9, deepcheck A5 0·A8 305 → 235, linecheck 390·360px 초과 0, collide 907(+1은 photograph ← picture, 글자 수가 달라 결함 아님).
+- **직검수:** 6~15세트 https://claude.ai/artifact/MuwUmQDNexj9x8L1wBWpry (열 세트씩 한 페이지: 댓글 알림 한도. 끝난 페이지 2개의 알림을 껐다: FABLE 정리 후보, Oxford 보강 배치안).
+- **남은 일:** 18~45세트. 배포는 영신 요청 때.
