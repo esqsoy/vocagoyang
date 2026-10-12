@@ -1,0 +1,195 @@
+{
+ "date": "2026-10-12",
+ "name": "set45b-20261012",
+ "status": "applied_locally_verified",
+ "authorization": "26.10.12 영신 \"바로 배포하고 일단 전세트를 작업하자\"",
+ "summary": "plausible 되돌림: 타임머신 인용이 빈칸 9칸이라 폰에서 4줄(linecheck), 원문을 자를 수 없어 원래 예문으로",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "e2ac9f9ba94cbe2c54bb8fd8219f1da2581d5239f24b8f160b9034ff882938e6",
+   "afterHash": "fc98f63f1872d7b629065397bbf775694df68d88241db8727676d5d4be4a055a",
+   "changes": [
+    {
+     "path": [
+      45,
+      "exercises",
+      8,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Very simple was my explanation, and {{BLANK}} enough—as most wrong theories are!",
+     "new": "Her story sounds {{BLANK}}, but we need proof."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      8,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "내 설명은 아주 단순했고, 꽤 그럴듯했지. 틀린 이론이 대개 그렇듯!",
+     "new": "걔 이야기는 그럴듯하지만 증거가 필요해."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      8,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "웰스 『타임머신』. 그럴듯해 보일 뿐, 참이라는 보장은 없다.",
+     "new": "그럴듯해 보일 뿐, 참이라는 보장은 없다."
+    },
+    {
+     "path": [
+      46,
+      "exercises",
+      3,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Very simple was my explanation, and {{BLANK}} enough—as most wrong theories are!",
+     "new": "Her story sounds {{BLANK}}, but we need proof."
+    },
+    {
+     "path": [
+      46,
+      "exercises",
+      3,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "내 설명은 아주 단순했고, 꽤 그럴듯했지. 틀린 이론이 대개 그렇듯!",
+     "new": "걔 이야기는 그럴듯하지만 증거가 필요해."
+    },
+    {
+     "path": [
+      46,
+      "exercises",
+      3,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "웰스 『타임머신』. 그럴듯해 보일 뿐, 참이라는 보장은 없다.",
+     "new": "그럴듯해 보일 뿐, 참이라는 보장은 없다."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson00.json": {
+   "beforeHash": "602fee7e3b8674c4b4926a26433864a490efe82702840ca386968ea5829eaafc",
+   "afterHash": "1fa1ea9a4db9b34eace13a47aa1075bf4101fd49f2c2d2c8f78d0bdbbc835cca"
+  },
+  "pipeline/out/set46.json": {
+   "beforeHash": "a1fff535fd725e0aba816661d71666587d41c2464ee0fb1f943b517d9a2e652f",
+   "afterHash": "96b7e77367bf72e951c990e0c5c772cf3d8f363d0174a7acf9b1b58aa1cfa692"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson00.json": [
+   {
+    "path": [
+     "exercises",
+     13,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Very simple was my explanation, and {{BLANK}} enough—as most wrong theories are!",
+    "new": "Her story sounds {{BLANK}}, but we need proof."
+   },
+   {
+    "path": [
+     "exercises",
+     13,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "내 설명은 아주 단순했고, 꽤 그럴듯했지. 틀린 이론이 대개 그렇듯!",
+    "new": "걔 이야기는 그럴듯하지만 증거가 필요해."
+   },
+   {
+    "path": [
+     "exercises",
+     13,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "웰스 『타임머신』. 그럴듯해 보일 뿐, 참이라는 보장은 없다.",
+    "new": "그럴듯해 보일 뿐, 참이라는 보장은 없다."
+   }
+  ],
+  "pipeline/out/set46.json": [
+   {
+    "path": [
+     3,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Very simple was my explanation, and {{BLANK}} enough—as most wrong theories are!",
+    "new": "Her story sounds {{BLANK}}, but we need proof."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "내 설명은 아주 단순했고, 꽤 그럴듯했지. 틀린 이론이 대개 그렇듯!",
+    "new": "걔 이야기는 그럴듯하지만 증거가 필요해."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "웰스 『타임머신』. 그럴듯해 보일 뿐, 참이라는 보장은 없다.",
+    "new": "그럴듯해 보일 뿐, 참이라는 보장은 없다."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson00.json": [],
+  "pipeline/out/set46.json": []
+ }
+}
