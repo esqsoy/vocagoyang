@@ -1,3 +1,12 @@
+# Fable 독립 검토 반영(23장) 배포 · 2026-10-13
+
+- 커밋 [5a66345](https://github.com/esqsoy/vocagoyang/commit/5a66345)를 origin/main에 fast-forward로 푸시했다(a8bbbd3 다음). [Pages 38285588472](https://github.com/esqsoy/vocagoyang/actions/runs/38285588472) 성공(17:38:48~17:39:43 UTC).
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 94c3479, 수능 24280bb, EBS cfd1871, index 31cef6d). github.io는 이 세션에서 열리지 않아 공개 화면은 직접 보지 못했다.
+- 포함: Fable 독립 검토 반영 23장(원장 `fable-review-20261013`), 검토 기록 `reviews/fable-20261013`, PRINCIPLES 2-2 한정어 원칙과 BRIEF. 게임 코드는 바뀌지 않았다.
+- 배포 전 검사(5a66345와 같은 내용에서 실행): Codex 검사 35개 + set5.test 36/36, Chromium 390px smoke 콘솔 오류 없음(배포 커밋에서 다시 실행), ordercheck 2개 이상 0, linecheck 390·360px 초과 0, deepcheck A5·A7 0.
+
+---
+
 # 아스트라 리뷰 반영(23장)·발췌 원칙 배포 · 2026-10-13
 
 - 커밋 [a8bbbd3](https://github.com/esqsoy/vocagoyang/commit/a8bbbd3)를 origin/main에 fast-forward로 푸시했다(아스트라 리뷰 문서 55def39 다음). [Pages 38277052029](https://github.com/esqsoy/vocagoyang/actions/runs/38277052029) 성공(16:23:26~16:24:11 UTC).

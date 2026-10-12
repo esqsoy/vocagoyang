@@ -1324,3 +1324,4 @@
 - **결과:** 24건(오류 0·보완 11·제안 13). Claude가 지적마다 확인해 20건(카드 23장)을 원장 `fable-review-20261013`으로 반영하고 4건은 이유를 적어 두었다(`reviews/fable-20261013/README.md`). 문구 조정 5곳(third·path·screw·beginning·state).
 - **판단이 갈린 것:** seventy는 검토자가 산림 면적 63%(산림청)를 근거로 "약 70%가 산"을 과장이라고 했다. Claude는 산지 비율 70%가 교과서·백과사전 수치이고 산림(피복)과 산지(지형)는 다른 수치라 보아 두었다.
 - **검증(새로 실행):** Codex 검사 35개 + set5.test 36/36, Chromium 390px smoke 콘솔 오류 없음, ordercheck 2개 이상 0, linecheck 390·360px 초과 0, deepcheck A5·A7 0.
+- **배포:** 5a66345을 main에 fast-forward, Pages 38285588472 성공. Claude 소감(아스트라와 견줌, 같은 판 비교는 아님)은 `reviews/fable-20261013/README.md` 끝.
