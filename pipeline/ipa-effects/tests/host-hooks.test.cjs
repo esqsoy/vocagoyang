@@ -91,7 +91,10 @@ for(const file of files){
  }
  if(fable){
   // 해설까지 읽을 시간(26.10.11 영신): 말소리가 일찍 끝나도 예문·해석·해설 예산이 다 지나야 넘어간다.
-  const h=make(),session=h.state.session,id=session.currentId,w=session.words[id];h.type(w.term);
+  const h=make(),session=h.state.session,id=session.currentId,w=session.words[id];
+  // 표본은 무작위 카드라, 해설이 없거나 짧은 카드(26.10.12 세트 작업에서 뜻 줄을 되풀이한 해설을 뺌)가 뽑히면 예산이 6초에 못 미친다. 그럴 때만 해설 길이를 채운다.
+  if((w.tr||'').length+(w.c||'').length<45)w.c='이 뜻에서는 다른 말과 바꿔 쓸 수 있다. 예문과 해석을 읽고 해설까지 읽을 시간.';
+  h.type(w.term);
   const expected=Math.min(20000,2000+w.ex.split(/\s+/).filter(Boolean).length*250+((w.tr||'').length+(w.c||'').length)*110);
   assert.equal(h.ctx.revealDelay(w),expected,file+' reading budget formula');assert(expected>=6000,file+' sample card has a real explanation');
   const u=h.spoken.filter(u=>u.text.trim()).at(-1);u.onstart();h.advance(800);u.onend();
