@@ -4080,7 +4080,7 @@ function savedInit(){
       ?JSON.stringify([e.progressId||L.progressId||L.id,e.parentRecord?.title||e.progressTitle||e.sourceTitle||e.title,w.word||w.term,w.si||1,w.unitId||w.constructionId||''])
       :JSON.stringify([L.lesson,e.scope,e.ex,index]));
     w.savedCardId=id;
-    savedCatalog.set(id,{id,word:w,source:L.id+' · '+e.title});
+    savedCatalog.set(id,{id,word:w,source:L.id+' · '+(e.displayTitle||e.title)});
   })));
   savedRecords=savedRead();savedSyncCat();
 }
