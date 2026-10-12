@@ -8,7 +8,7 @@
 - Claude 조정 4곳: quantity·anxious·interesting·sharply 해설을 평서문·표준 문구로(뜻 줄 되풀이 빼기).
 - 같은 실수 전수 확인: 빈칸 어미가 틀린 꼴은 life 1장뿐, 예문은 고양이인데 해석이 개인 카드는 2장뿐(둘 다 반영). deepcheck A7이 f/fe→ves·불규칙 복수·ie→ying·e 아닌 말+d를 잡게 보강(고치기 전 데이터에서 life를 잡음).
 - 검사 36/36, Chromium 390px 콘솔 오류 없음.
-- **영신 확인 필요:** 소설 명문장의 독립 절 발췌 허용(아스트라 C16-P01, wise·wisdom·courage·ashamed·worst·curious ②). 승인되면 PRINCIPLES 2-11에 적는다.
+- 소설 명문장의 연속 구절 발췌 허용: 영신 승인(26.10.13 "좋아 허용하자"), PRINCIPLES 2-11·BRIEF에 적음(아스트라 C16-P01).
 - 남긴 것: 20세트 immigrant가 아스트라의 Windows Chrome에서 정답 공개문 4줄(우리 linecheck는 3줄, 예문은 전부터 같음). 선택 사항이라 그대로 둠.
 
 ## 2026-10-13 · Codex 변경분 리뷰 완료 · 수정안은 위 항목에서 반영
