@@ -2,13 +2,27 @@
  "date": "2026-10-12",
  "name": "set0-rebalance-20261012",
  "status": "applied_locally_verified",
- "authorization": "영신 2026-10-12: \"개인의 신변잡기적 내용이 PPL 덕지덕지인 드라마나 영화처럼 피로를 줄 수 있을 것같아서 그 부분을 다시 손봐야겠어 내 판단 실수야\", \"문법설명위주의 기본단어 단계에서는 … 이후에는 원래대로의 단어>>>>…문법> 정보 > 드립\", \"예문+해설+고양이드립 … 합한 양을 통제\", \"좋아 네 추천대로 다 진행해주고\", \"인명을 쓰게 된다면 내가 집어넣은거 빼고는 한국어이름이 아닌 다양한 이름을 넣자\". 0세트 줄 댓글: I \"no가 들어가니 좀 이상함 … I는 소설의 좋은 문구같은걸 가지고 예문을 만들어도 될 것 같은데\", be \"am·is·are의 원형이 be. 이건 뜻에 있으니 삭제\".",
- "summary": "0세트 재조정 33장: 사람·학원 이야기 20→9장(she 할머니 K-pop, her② 엄마 노래, we 형, and A·B·and C, how 열심히, five 손가락·seven 일주일·eight 거미·nine 야구·eleven 축구), 읽기량 한도(내용어 12초·기능어 13초) 넘는 카드 19→0장(대사·해설 줄임), 기능어 해설은 표제어 먼저(I·you·she·her①·two). I 예문 나쓰메 소세키 \"I am a cat. As yet I have no name.\", be① 해설의 뜻 반복 삭제. 한국어 일반 이름 4장 → Sofia·Kenji·Omar·Priya·Lucas(1·5·12·39세트).",
+ "authorization": "영신 2026-10-12: \"개인의 신변잡기적 내용이 PPL 덕지덕지인 드라마나 영화처럼 피로를 줄 수 있을 것같아서 그 부분을 다시 손봐야겠어 내 판단 실수야\", \"문법설명위주의 기본단어 단계에서는 … 이후에는 원래대로의 단어>>>>…문법> 정보 > 드립\", \"예문+해설+고양이드립 … 합한 양을 통제\", \"좋아 네 추천대로 다 진행해주고\", \"인명을 쓰게 된다면 내가 집어넣은거 빼고는 한국어이름이 아닌 다양한 이름을 넣자\". 0세트 줄 댓글: I \"no가 들어가니 좀 이상함 … I는 소설의 좋은 문구같은걸 가지고 예문을 만들어도 될 것 같은데\", be \"am·is·are의 원형이 be. 이건 뜻에 있으니 삭제\", hello \": This is Youngsin Choi 삭제.\".",
+ "summary": "0세트 재조정 34장: 사람·학원 이야기 20→9장(she 할머니 K-pop, her② 엄마 노래, we 형, and A·B·and C, how 열심히, five 손가락·seven 일주일·eight 거미·nine 야구·eleven 축구), 읽기량 한도(내용어 12초·기능어 13초) 넘는 카드 19→0장(대사·해설 줄임), 기능어 해설은 표제어 먼저(I·you·she·her①·two). I 예문 나쓰메 소세키 \"I am a cat. As yet I have no name.\", be① 해설의 뜻 반복 삭제, hello 해설의 예문 반복 삭제. 한국어 일반 이름 4장 → Sofia·Kenji·Omar·Priya·Lucas(1·5·12·39세트).",
  "snapshots": {
   "DATA": {
    "beforeHash": "f6b41301a3fcb61399c9f45d2eef351ba2f61edfe7b81958770da2d4d1d5f996",
-   "afterHash": "b4ed749bf4628101f83251ae435bc448c8e3c6ed727be2477bf32e917678be99",
+   "afterHash": "9b74ad9cae94b50b189ec5cbae069a1490d04ee4e219c653f50c7810d7929f99",
    "changes": [
+    {
+     "path": [
+      0,
+      "exercises",
+      0,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "전화로 나를 밝힐 땐 I am 대신 This is를 써: This is Youngsin Choi.",
+     "new": "전화로 나를 밝힐 땐 I am 대신 This is를 써."
+    },
     {
      "path": [
       0,
@@ -1111,7 +1125,7 @@
  "sourceSnapshots": {
   "pipeline/out/lesson00.json": {
    "beforeHash": "f1ece301b855013f4ccd1206c8db6c872e1331c36cfde1b84a3d39e558054805",
-   "afterHash": "143a7bf88c9b9d082b478a161afd3fd02fb8ef3c438262bcaa2cb10a57ce643d"
+   "afterHash": "5bb9ca9daa22f7dcd043bfdefb0d6eec411a3ee70da2eb0709c8b16b30e88457"
   },
   "pipeline/out/lesson01.json": {
    "beforeHash": "9bd91fd183643f968a29ced3cc04a926234ef2a1c02977b992a11b7abc7797e6",
@@ -1425,6 +1439,19 @@
     "newExists": true,
     "old": "한국은 3월경, 영미권은 9월경 새 학년을 시작해. 라틴어 septem=7. 옛 로마력은 3월부터 세어 일곱째 달.",
     "new": "영미권은 9월, 한국은 3월에 새 학년을 시작해. 라틴어 septem=7(옛 로마력의 일곱째 달)."
+   },
+   {
+    "path": [
+     "exercises",
+     3,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "전화로 나를 밝힐 땐 I am 대신 This is를 써: This is Youngsin Choi.",
+    "new": "전화로 나를 밝힐 땐 I am 대신 This is를 써."
    },
    {
     "path": [
