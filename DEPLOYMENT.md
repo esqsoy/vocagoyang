@@ -1,3 +1,15 @@
+# 5세트 작업(문법 뜻 분산·예문 39곳) 배포 · 2026-10-12
+
+- 커밋 [5fdf148](https://github.com/esqsoy/vocagoyang/commit/5fdf148)을 origin/main에 fast-forward로 푸시했다(acfe20e 다음). [Pages 38211241299](https://github.com/esqsoy/vocagoyang/actions/runs/38211241299): completed/success. 영신: "나도 동의해 계속 진행하고 바로 배포하자"
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE cd4814b). github.io는 이 세션에서 접속이 막혀 공개 페이지는 직접 열어 보지 못했다.
+- 포함(acfe20e 뒤 전부):
+  - 0세트 영신 직검수 반영과 재조정(원장 `set0-review-20261011`·`set0-review2-20261011`·`set0-rebalance-20261012`), 41세트 prime ② 새 카드.
+  - 소설 명문장 42장(`novel-quotes-20261012`).
+  - 5세트 작업(`set5-20261012`): 문법 뜻 카드 11장을 14·17·21·25세트 끝 새 연습으로, 예문·해설·대사 39곳. FABLE 게임 코드: 두 번째로 카드를 뺀 연습의 배포판 기록·이어하기를 잇는 `deployedWords`, 저장 표시 "20261012".
+- 배포 전 검사(이번에 실행): Codex 검사 35개 + set5.test 36/36. Chromium 390px에서 콘솔 오류 없음, 14세트 새 연습 타일, 배포판 저장(prune "20261010")의 5세트 1-1 이어하기가 이름을 바꾼 판으로 돌아옴. 앞선 5세트 작업 때 실행: ordercheck 2개 이상 75, exaudit 11, deepcheck A1~A5·A7 0(A6 85, A8 331), linecheck 390·360px 초과 0, collide 906. 실기기 Safari는 확인하지 않았다.
+
+---
+
 # Codex 리뷰 반영(실행 문제 2곳·내용 88장) 배포 · 2026-10-11
 
 - 커밋 [acfe20e](https://github.com/esqsoy/vocagoyang/commit/acfe20e)를 origin/main에 fast-forward로 푸시했다(d0b616d 다음). [Pages 38121357882](https://github.com/esqsoy/vocagoyang/actions/runs/38121357882): completed/success. 영신: "합쳐도 돼. 다 반영하고 배포해줘"
