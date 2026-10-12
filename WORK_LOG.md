@@ -1297,3 +1297,14 @@
 - **검증(새로 실행):** Codex 검사 35개 + set5.test 36/36(43세트 커밋 뒤). ordercheck 2개 이상 0, exaudit 9, deepcheck A5 0·A6 16·A8 1(정리로 게임에서 뺀 kinda가 원본 set32.json에 남은 것, 화면에 나오는 카드는 0), linecheck 390·360px 초과 0, collide 905.
 - **직검수:** 26~35세트 https://claude.ai/artifact/6PNaQEYcEUbE2djJR1KEVb (바뀐 카드 314장), 36~45세트 https://claude.ai/artifact/NVfHFGxpEuMEULxqn1TRSs (371장). 알림 한도(10) 때문에 가장 오래된 직검수 페이지 두 개(282U…, 0세트 J2Hx…)의 알림을 껐다. 댓글은 요청하면 읽는다.
 - **남은 일:** 배포는 영신 요청 때. 남긴 판단(각 제안 파일 끝): 23세트에 잠 소재 카드 4장(서로 다른 사실), buddhism과 31세트 christianity의 같은 틀(지식 예문), 일부 같은 칸 수 경쟁어는 뜻 줄로 가려짐.
+
+## 2026-10-13 · 아스트라 리뷰 반영(23장)
+
+- **요청:** 영신 "아스트라가 리뷰했어". 아스트라(Codex)가 main에 올린 [reviews/codex-20261013](reviews/codex-20261013/README.md)를 브랜치에 합치고(c19b13e) 최종 `proposed`를 원장 `astra-review-20261013`으로 반영했다.
+- **판단:** 23건 모두 원칙과 부딪치지 않아 반영했다. 해설 4곳은 BRIEF의 짧은 평서문·표준 문구에 맞춰 Claude가 고쳐 썼다: quantity "철자가 비슷해 헷갈리기 쉽다", anxious ②는 뜻 줄 되풀이를 빼고 "걱정이 섞이는지는 문맥으로 구별한다", interesting "이 뜻에서는 더 센 말 fascinating과 바꿔 쓸 수 있다", sharply "sharply는 변화 폭, 둘은 속도에 초점".
+- **내 실수의 원인:** life ②의 "nine {{BLANK}}s"는 1세트 작업 때 Claude가 넣었다. 빈칸 어미 검사(A7)가 -y·-e·-s 끝만 보고 f/fe→ves를 몰랐다. loving·surgery는 하위 에이전트가 예문만 고친 제안을 Claude가 검토하면서 해석을 놓쳤다.
+- **같은 실수 전수 확인:** 0~46세트 빈칸 어미를 규칙형·불규칙형 목록으로 다시 봤다. 틀린 꼴은 life뿐이고, learned·burned·leaned·spoiled·kneeled·leaped는 맞는 규칙형이다. 예문과 해석의 동물이 어긋난 카드는 2장뿐이다. acfe20e 뒤 예문만 바뀌고 해석은 그대로인 8장도 모두 해석이 새 예문과 맞다.
+- **도구:** deepcheck A7에 f/fe→ves, 불규칙 복수, ie+ing, e로 안 끝나는 말+d/r/st를 더했다. 고치기 전 데이터에서 life를 잡고, 지금은 0건이다.
+- **검증(새로 실행):** Codex 검사 35개 + set5.test 36/36, Chromium 390px 콘솔 오류 없음, ordercheck 2개 이상 0, linecheck 390·360px 초과 0, deepcheck A7 0·A8 1(kinda 원본).
+- **영신 확인 필요:** 아스트라 C16-P01. 소설의 긴 문장에서 혼자 읽어도 성립하는 연속 절만 떼어 쓴 카드가 6장 있다(wise·wisdom·courage·ashamed·worst·curious ②). PRINCIPLES 2-11의 허용 목록에는 이 발췌가 없다.
+- **남은 일:** 배포는 영신 요청 때. 20세트 immigrant 4줄 관찰(아스트라 Windows Chrome)은 선택 사항이라 두었다.

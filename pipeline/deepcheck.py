@@ -110,6 +110,8 @@ for ln,exn,w in cards:
 
 # ── A7 빈칸 어미: 화면은 정답 뒤에 {{BLANK}} 다음 어미를 그대로 붙인다(fillBlank).
 #    그래서 colony+s는 'colonys'로 보인다(26.10.09 재검토에서 발견). 불규칙하게 바뀌는 자리에는 빈칸을 두지 않는다.
+VES=set('life knife wife leaf loaf half shelf wolf thief calf self sheaf elf'.split())
+IRR_PLURAL=set('man woman child foot tooth mouse goose person ox sheep deer fish series species'.split())
 for ln,exn,w in cards:
     t=(w.get('en') or '').lower(); mm=re.search(r'\{\{BLANK\}\}([a-z]+)',w.get('ex') or '')
     if not mm or len(t)<2: continue
@@ -117,6 +119,11 @@ for ln,exn,w in cards:
     if t[-1]=='y' and t[-2] not in 'aeiou' and sf[0] in 'se': F['A7'].append((ln,tag,f"y+{sf} → ies/ied로 바뀌어야 함"))
     elif t[-1]=='e' and sf[0] in 'ei': F['A7'].append((ln,tag,f"e+{sf} → e가 겹치거나 빠져야 함"))
     elif re.search(r'(s|x|z|ch|sh)$',t) and sf=='s': F['A7'].append((ln,tag,"-es가 필요함"))
+    # 26.10.13 아스트라 리뷰: life+s가 'lifes'로 보였다. f·fe → ves, 불규칙 복수, ie → ying, e로 안 끝나는 말 + d.
+    elif sf=='s' and t in VES: F['A7'].append((ln,tag,"f/fe → ves로 바뀌어야 함"))
+    elif sf in ('s','es') and t in IRR_PLURAL: F['A7'].append((ln,tag,"불규칙 복수"))
+    elif t.endswith('ie') and sf=='ing': F['A7'].append((ln,tag,"ie+ing → ying으로 바뀌어야 함"))
+    elif sf in ('d','r','st') and t[-1]!='e': F['A7'].append((ln,tag,f"e로 끝나지 않는 말 + {sf}"))
 
 # ── A8 읽기량: 예문+해석+해설+고양 대사를 합한 양(PRINCIPLES 2-2). 게임의 해설 읽을 시간(revealDelay)과 같은 셈에
 #    대사는 가볍게 읽히니 절반 무게(26.10.12 영신: "고양이드립은 가볍게 읽히니까 다른쪽에 가중치를 주고 합한 양을 통제").

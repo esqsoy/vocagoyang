@@ -2,7 +2,16 @@
 
 갱신: 2026-10-13 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
 
-## 2026-10-13 · Codex 변경분 리뷰 완료 · 수정안 미적용
+## 2026-10-13 · 아스트라 리뷰 반영 · 로컬(배포 전)
+
+- [reviews/codex-20261013](reviews/codex-20261013/README.md)의 수정안 23건을 모두 반영했다(원장 `astra-review-20261013`). 오류 11: life 복수 lifes, of·very 규칙, tax 해석, quantity·anxious 해설, loving·surgery 해석의 개, prime 정의, September 9월경, behalf. 보완·제안 12: puzzle·interesting·sharply 대체어 안내, fourteenth·insect·tablespoon 예문, straight·cure 해석, disease·fatal·scarcity·night 해설.
+- Claude 조정 4곳: quantity·anxious·interesting·sharply 해설을 평서문·표준 문구로(뜻 줄 되풀이 빼기).
+- 같은 실수 전수 확인: 빈칸 어미가 틀린 꼴은 life 1장뿐, 예문은 고양이인데 해석이 개인 카드는 2장뿐(둘 다 반영). deepcheck A7이 f/fe→ves·불규칙 복수·ie→ying·e 아닌 말+d를 잡게 보강(고치기 전 데이터에서 life를 잡음).
+- 검사 36/36, Chromium 390px 콘솔 오류 없음.
+- **영신 확인 필요:** 소설 명문장의 독립 절 발췌 허용(아스트라 C16-P01, wise·wisdom·courage·ashamed·worst·curious ②). 승인되면 PRINCIPLES 2-11에 적는다.
+- 남긴 것: 20세트 immigrant가 아스트라의 Windows Chrome에서 정답 공개문 4줄(우리 linecheck는 3줄, 예문은 전부터 같음). 선택 사항이라 그대로 둠.
+
+## 2026-10-13 · Codex 변경분 리뷰 완료 · 수정안은 위 항목에서 반영
 
 - 영신 요청으로 `claude/brave-clarke-rixqvy`의 리뷰 요청서에 따라 `acfe20e` 이후 **921e8ff까지** 검토했다. 아래 과거 항목의 ‘6~45세트 로컬·배포 전’ 표시는 과거 작성 시점의 상태다. 현재 앱 기준은 이미 main에 반영된 921e8ff다.
 - 결과: [읽기용 리뷰](reviews/codex-20261013/README.md), [카드별 최종 판정·수정안](reviews/codex-20261013/review.json). 23건(오류 11·보완 11·제안 1), 원칙 확인 제안 1건 별도. life→lifes 표시, of/very 문법 단정, cat 번역 누락, prime 정의 등을 우선 고친다.
