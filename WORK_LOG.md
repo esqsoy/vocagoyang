@@ -1206,7 +1206,7 @@
 - **요청:** 영신 "굉장히 좋은데? 이제 세트별 작업을 들어가자"(소설 명문장 반영 뒤). 26.10.10 승인한 순서(0 → 5 → 1~4 → 6~45)대로 5세트부터 했다.
 - **조명 문법 지도:** `pipeline/grammar/spotlight-20261012.json`. 143항목을 승인된 구간 안에서 1~45세트에 배정했다(Claude). Oxford 보강의 문법 자리(14·17·20)와 맞췄다.
 - **5세트 문법 뜻 분산(26.10.10 승인 구조 정정안):** 중2 이상 문법을 가진 뜻 카드 11장을 그 문법을 처음 소개하는 세트 끝 새 연습(Exercise 12)으로 보냈다. 14세트 '현재완료와 수동태'(have ③·be ④·by ④), 17세트 '관계대명사'(who ②·which ②·that ③), 21세트 'what과 if'(what ③·if ②), 25세트 'would의 쓰임'(would ①③④).
-  - 6~12 구간 문법(it ③·that ②·what ②·to ②)과 do ③은 5세트에 남겼다. 남은 151장은 문법 순서로 다시 묶지 않았다(비슷한 뜻을 한 판에 몰면 간섭한다는 연구, **영신 확인 대기**). 이유는 [PRINCIPLES 12](PRINCIPLES.md#12-문법-순서대로-플레이하면-몸에-밴다).
+  - 6~12 구간 문법(it ③·that ②·what ②·to ②)과 do ③은 5세트에 남겼다. 남은 151장은 문법 순서로 다시 묶지 않았다(비슷한 뜻을 한 판에 몰면 간섭한다는 연구). 영신 "나도 동의해 계속 진행하고 바로 배포하자". 이유는 [PRINCIPLES 12](PRINCIPLES.md#12-문법-순서대로-플레이하면-몸에-밴다).
   - 진도: 배포판(acfe20e)의 게임을 그대로 돌려 옮긴 카드의 모아둔 카드 ID·완료 기록 키를 고정했다(`pipeline/set5-20261012/build-plan.cjs`). 0세트 재구성으로 이미 카드를 뺀 연습에서 다시 빼므로 게임이 배포판 목록(`deployedWords`)도 나눠 보게 고쳤다. 저장 표시는 "20261012"로 올리고, 배포판 저장("20261010")은 `deployedResumeTitles`로 옮긴다. 1번 연습의 판 이름 '기본 기능어 · a/an'을 남은 카드에 맞게 고쳤다.
 - **내용(39곳, set05.json):** 진행형 소개 카드 be ③에 규칙과 진행형을 안 쓰는 동사(know·like), have ①·② 대비, will ①에 be going to, so ②(You look so happy)·lose ②(be going to)·under ①(현재진행) 예문. 읽기량 초과 2→0(still ①·seem), 앞당김 2개 3→0(as ⑤·must ①·under ①), 고양이 대사 3장(have ①·there ②·how ②)과 under ①, 뜻 줄을 되풀이하던 해설 12장, 한국 학생 약점 해설(of ①·② 어순과 복수, go home, in ten minutes). 소설 명문장 2장: same(붉은 여왕 "It takes all the running you can do, to keep in the same place."), without(앨리스 "What is the use of a book without pictures or conversations?"), 원문과 글자 대조.
 - **도구:** `review-page.py`가 다른 세트로 옮긴 카드를 '옮겨 옴 · N세트에서'로 보이고, 세트 페이지 끝에 '다른 세트로 보낸 카드'를 모은다.
