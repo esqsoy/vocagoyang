@@ -1,0 +1,1252 @@
+{
+ "date": "2026-10-12",
+ "name": "set4-20261012",
+ "status": "applied_locally_verified",
+ "authorization": "26.10.10 영신 승인 작업 순서, 26.10.12 영신 \"계속 진행하고\"",
+ "summary": "4세트 작업: 예문·해설·대사 28곳(읽기량 초과 10→0, 앞당김 2개 이상 11→0, 뜻 줄 반복 해설)",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "242a0bab24d9917a68360fab0b9fb4e989e26853982de39c52d3466c8afe52a4",
+   "afterHash": "82dd6027f7419f624597bd4eefb0f882fb9d7f9f6bf6f54c97674b33f19ce9cf",
+   "changes": [
+    {
+     "path": [
+      4,
+      "exercises",
+      0,
+      "words",
+      12,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "We will {{BLANK}} the ship at noon.",
+     "new": "Please {{BLANK}} the plane now."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      0,
+      "words",
+      12,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리는 정오에 그 배를 탈 거야.",
+     "new": "지금 비행기에 탑승해 주세요."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      1,
+      "words",
+      1,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In the 1000s, Ibn Sina wrote on many {{BLANK}}s, from medicine to philosophy.",
+     "new": "In the 1000s, Ibn Sina wrote about many {{BLANK}}s, from medicine to music."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      1,
+      "words",
+      1,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1000년대에 이븐 시나는 의학에서 철학까지 여러 분야에 관해 글을 썼어.",
+     "new": "1000년대에 이븐 시나는 의학에서 음악까지 여러 분야에 관해 글을 썼어."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      1,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "opportunity cost는 기회비용. the cost of living은 생활비.",
+     "new": "the cost of living = 생활비."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      1,
+      "words",
+      14,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "the rest of ~ = ~의 나머지. ①②의 '휴식'과는 뿌리가 다른 별개 단어(라틴어 restare '남다')다.",
+     "new": "the rest of ~. '휴식' rest와는 뿌리가 다른 단어다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      1,
+      "words",
+      14,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "휴식 말고 나머지도 rest라고양. 나머지 츄르는 내 거고양.",
+     "new": "나머지 츄르는 내 거라고양."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      4,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "A thin {{BLANK}} of dust covered the table.",
+     "new": "There was a {{BLANK}} of oil on the water."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      4,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "얇은 먼지 막이 탁자를 덮고 있었어.",
+     "new": "물 위에 기름막이 떠 있었어."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      4,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "회사 소유권을 나눈 한 주가 a share. 주가는 stock prices라고도 하고, 미국에선 그쪽이 더 흔하다.",
+     "new": "회사를 잘게 나눈 한 주가 a share. 이 뜻에서는 stock과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      4,
+      "words",
+      14,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1825년까지 시몬 볼리바르는 남아메리카의 많은 지역이 자유를 얻도록 앞장서 이끌었어.",
+     "new": "1825년까지 볼리바르는 남아메리카 많은 지역의 독립을 이끌었어."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      4,
+      "words",
+      14,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "leader(지도자)가 여기에서 나온 말이다. 불규칙 lead-led-led.",
+     "new": "leader가 여기서 나왔다. lead-led-led."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      4,
+      "words",
+      15,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "lead to+명사는 ‘~로 이어지다’. ‘이끌다’와 달리 ‘납’을 뜻하는 lead는 /lɛd/로 읽는다.",
+     "new": "lead to+명사. 납(lead)은 /lɛd/로 읽는다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      5,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Unlike planets, {{BLANK}}s like the Sun make their own light.",
+     "new": "The Sun is the closest {{BLANK}} to Earth."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      5,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "행성과 달리, 태양 같은 별은 스스로 빛을 내.",
+     "new": "태양은 지구에서 가장 가까운 별이야."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      5,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "centre는 영국식 철자. in the center of는 ‘~의 중앙에’.",
+     "new": "영국식 철자는 centre."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      5,
+      "words",
+      16,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "sense of responsibility = 책임감. 오감 외에 마음속 느낌·의식도 sense라고 해.",
+     "new": "sense of humor = 유머 감각, sense of responsibility = 책임감."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      6,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "정부가 아니라 개인·기업이 소유하거나 운영한다는 뜻. private school = 사립학교.",
+     "new": "private school = 사립학교."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      6,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The accident {{BLANK}}ed from careless driving.",
+     "new": "Her success {{BLANK}}ed from hard work."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      6,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 사고는 부주의한 운전에서 비롯됐어.",
+     "new": "그녀의 성공은 노력에서 나왔어."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      6,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": "그 자리에 있다는 뜻. 반대는 absent(결석한)."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      6,
+      "words",
+      14,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": "present, 선물 말고 발표라고양. 강세가 뒤로 가면 동사고양."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      7,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 뜻은 셀 수 없다 — pay interest, interest rate 3%. 복수 interests는 '관심사·이해관계'.",
+     "new": "이자는 셀 수 없다. interest rate = 금리."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      7,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "king+dom → kingdom(왕국). -dom은 '다스리는 영역·상태' — freedom(자유), wisdom(지혜).",
+     "new": "kingdom = king+dom(다스리는 영역)."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      7,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The ring is made of pure {{BLANK}}.",
+     "new": "People have used {{BLANK}} as money for thousands of years."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      7,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 반지는 순금으로 만들어졌어.",
+     "new": "사람들은 수천 년 동안 금을 돈으로 써 왔어."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      9,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Parliament will vote on the new {{BLANK}} tomorrow.",
+     "new": "The new {{BLANK}} became law last year."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      9,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "의회는 내일 새 법안을 표결할 거야.",
+     "new": "그 새 법안은 작년에 법이 됐어."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      10,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "apply A to B: A를 B에 적용하다. 배운 지식·방법을 실제로 쓰는 것.",
+     "new": "apply A to B: A를 B에 적용하다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      10,
+      "words",
+      5,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Avoid {{BLANK}} with the hot surface.",
+     "new": "Wash your hands after {{BLANK}} with animals."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      10,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "뜨거운 표면에 닿지 않도록 해.",
+     "new": "동물과 닿은 뒤에는 손을 씻어."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      10,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "신체나 물건이 서로 닿는 것. contact with+접촉 대상.",
+     "new": "contact with+닿은 대상."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      10,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "물건·자리·정보 등을 사용할 수 있거나 구할 수 있다는 뜻.",
+     "new": "Is this seat available? = 이 자리 비었어요?"
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      10,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "노력해 목표·성과를 얻다. achievement는 성취. 이 뜻에서는 realize·fulfill과 바꿔 쓸 수 있다.",
+     "new": "achievement는 성취. 이 뜻에서는 realize·fulfill과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      10,
+      "words",
+      12,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Lack of sleep can {{BLANK}} your memory.",
+     "new": "Weather can {{BLANK}} how we feel."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      10,
+      "words",
+      12,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "수면 부족은 기억력에 영향을 줄 수 있어.",
+     "new": "날씨는 기분에 영향을 줄 수 있어."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      11,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "좋은 결과나 도움이 되는 점. beneficial은 이로운.",
+     "new": "beneficial은 이로운."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      11,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This trip will help me {{BLANK}} a childhood dream.",
+     "new": "She finally {{BLANK}}d her dream of becoming a doctor."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      11,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 여행은 어린 시절의 꿈을 이루는 데 도움이 될 거야.",
+     "new": "그녀는 마침내 의사가 되는 꿈을 이뤘어."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      11,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "꿈·계획을 현실로 만드는 뜻. 알아차리다와 구별하자. 이 뜻에서는 achieve·fulfill과 바꿔 쓸 수 있다.",
+     "new": "이 뜻에서는 achieve·fulfill과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      12,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This song {{BLANK}}s the courage of ordinary people.",
+     "new": "Many songs {{BLANK}} love."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      12,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 노래는 평범한 사람들의 용기를 기려.",
+     "new": "많은 노래가 사랑을 찬미해."
+    }
+   ],
+   "keyOrders": [
+    {
+     "path": [
+      4,
+      "exercises",
+      6,
+      "words",
+      13
+     ],
+     "keys": [
+      "en",
+      "ko",
+      "ex",
+      "tr",
+      "c",
+      "ipa",
+      "pos",
+      "word",
+      "si",
+      "sn"
+     ]
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      6,
+      "words",
+      14
+     ],
+     "keys": [
+      "en",
+      "ko",
+      "ex",
+      "tr",
+      "c",
+      "ipa",
+      "pos",
+      "word",
+      "si",
+      "sn",
+      "meow"
+     ]
+    }
+   ]
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson00.json": {
+   "beforeHash": "43fb569dfccd683279bbf3004bdd754be3bd85f8c449e173b882f0189e0ad3a2",
+   "afterHash": "d972bd5811253509be98ea7d314d7869196f14f8356b1e0892670479563aab21"
+  },
+  "pipeline/out/lesson04.json": {
+   "beforeHash": "7a90e0eaae995bccd53aa59d20eb6815ededfca73eeee95a73bef9ade60772ab",
+   "afterHash": "68c1cd32b2ffb468fe9d191be6149863c18335c4edcdd98399d660917cdde65b"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson00.json": [
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "apply A to B: A를 B에 적용하다. 배운 지식·방법을 실제로 쓰는 것.",
+    "new": "apply A to B: A를 B에 적용하다."
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Avoid {{BLANK}} with the hot surface.",
+    "new": "Wash your hands after {{BLANK}} with animals."
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "뜨거운 표면에 닿지 않도록 해.",
+    "new": "동물과 닿은 뒤에는 손을 씻어."
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "신체나 물건이 서로 닿는 것. contact with+접촉 대상.",
+    "new": "contact with+닿은 대상."
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "물건·자리·정보 등을 사용할 수 있거나 구할 수 있다는 뜻.",
+    "new": "Is this seat available? = 이 자리 비었어요?"
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "노력해 목표·성과를 얻다. achievement는 성취. 이 뜻에서는 realize·fulfill과 바꿔 쓸 수 있다.",
+    "new": "achievement는 성취. 이 뜻에서는 realize·fulfill과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     12,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Lack of sleep can {{BLANK}} your memory.",
+    "new": "Weather can {{BLANK}} how we feel."
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "수면 부족은 기억력에 영향을 줄 수 있어.",
+    "new": "날씨는 기분에 영향을 줄 수 있어."
+   },
+   {
+    "path": [
+     "exercises",
+     10,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "좋은 결과나 도움이 되는 점. beneficial은 이로운.",
+    "new": "beneficial은 이로운."
+   },
+   {
+    "path": [
+     "exercises",
+     10,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This trip will help me {{BLANK}} a childhood dream.",
+    "new": "She finally {{BLANK}}d her dream of becoming a doctor."
+   },
+   {
+    "path": [
+     "exercises",
+     10,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 여행은 어린 시절의 꿈을 이루는 데 도움이 될 거야.",
+    "new": "그녀는 마침내 의사가 되는 꿈을 이뤘어."
+   },
+   {
+    "path": [
+     "exercises",
+     10,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "꿈·계획을 현실로 만드는 뜻. 알아차리다와 구별하자. 이 뜻에서는 achieve·fulfill과 바꿔 쓸 수 있다.",
+    "new": "이 뜻에서는 achieve·fulfill과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     11,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This song {{BLANK}}s the courage of ordinary people.",
+    "new": "Many songs {{BLANK}} love."
+   },
+   {
+    "path": [
+     "exercises",
+     11,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 노래는 평범한 사람들의 용기를 기려.",
+    "new": "많은 노래가 사랑을 찬미해."
+   }
+  ],
+  "pipeline/out/lesson04.json": [
+   {
+    "path": [
+     "exercises",
+     0,
+     "words",
+     12,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "We will {{BLANK}} the ship at noon.",
+    "new": "Please {{BLANK}} the plane now."
+   },
+   {
+    "path": [
+     "exercises",
+     0,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리는 정오에 그 배를 탈 거야.",
+    "new": "지금 비행기에 탑승해 주세요."
+   },
+   {
+    "path": [
+     "exercises",
+     1,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In the 1000s, Ibn Sina wrote on many {{BLANK}}s, from medicine to philosophy.",
+    "new": "In the 1000s, Ibn Sina wrote about many {{BLANK}}s, from medicine to music."
+   },
+   {
+    "path": [
+     "exercises",
+     1,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1000년대에 이븐 시나는 의학에서 철학까지 여러 분야에 관해 글을 썼어.",
+    "new": "1000년대에 이븐 시나는 의학에서 음악까지 여러 분야에 관해 글을 썼어."
+   },
+   {
+    "path": [
+     "exercises",
+     1,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "opportunity cost는 기회비용. the cost of living은 생활비.",
+    "new": "the cost of living = 생활비."
+   },
+   {
+    "path": [
+     "exercises",
+     1,
+     "words",
+     14,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "the rest of ~ = ~의 나머지. ①②의 '휴식'과는 뿌리가 다른 별개 단어(라틴어 restare '남다')다.",
+    "new": "the rest of ~. '휴식' rest와는 뿌리가 다른 단어다."
+   },
+   {
+    "path": [
+     "exercises",
+     1,
+     "words",
+     14,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "휴식 말고 나머지도 rest라고양. 나머지 츄르는 내 거고양.",
+    "new": "나머지 츄르는 내 거라고양."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "A thin {{BLANK}} of dust covered the table.",
+    "new": "There was a {{BLANK}} of oil on the water."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "얇은 먼지 막이 탁자를 덮고 있었어.",
+    "new": "물 위에 기름막이 떠 있었어."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "회사 소유권을 나눈 한 주가 a share. 주가는 stock prices라고도 하고, 미국에선 그쪽이 더 흔하다.",
+    "new": "회사를 잘게 나눈 한 주가 a share. 이 뜻에서는 stock과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     14,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1825년까지 시몬 볼리바르는 남아메리카의 많은 지역이 자유를 얻도록 앞장서 이끌었어.",
+    "new": "1825년까지 볼리바르는 남아메리카 많은 지역의 독립을 이끌었어."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     14,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "leader(지도자)가 여기에서 나온 말이다. 불규칙 lead-led-led.",
+    "new": "leader가 여기서 나왔다. lead-led-led."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     15,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "lead to+명사는 ‘~로 이어지다’. ‘이끌다’와 달리 ‘납’을 뜻하는 lead는 /lɛd/로 읽는다.",
+    "new": "lead to+명사. 납(lead)은 /lɛd/로 읽는다."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Unlike planets, {{BLANK}}s like the Sun make their own light.",
+    "new": "The Sun is the closest {{BLANK}} to Earth."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "행성과 달리, 태양 같은 별은 스스로 빛을 내.",
+    "new": "태양은 지구에서 가장 가까운 별이야."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "centre는 영국식 철자. in the center of는 ‘~의 중앙에’.",
+    "new": "영국식 철자는 centre."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     16,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "sense of responsibility = 책임감. 오감 외에 마음속 느낌·의식도 sense라고 해.",
+    "new": "sense of humor = 유머 감각, sense of responsibility = 책임감."
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "정부가 아니라 개인·기업이 소유하거나 운영한다는 뜻. private school = 사립학교.",
+    "new": "private school = 사립학교."
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The accident {{BLANK}}ed from careless driving.",
+    "new": "Her success {{BLANK}}ed from hard work."
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 사고는 부주의한 운전에서 비롯됐어.",
+    "new": "그녀의 성공은 노력에서 나왔어."
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": false,
+    "old": "그 자리에 있다는 뜻. 반대는 absent(결석한)."
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     14,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": false,
+    "old": "present, 선물 말고 발표라고양. 강세가 뒤로 가면 동사고양."
+   },
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 뜻은 셀 수 없다 — pay interest, interest rate 3%. 복수 interests는 '관심사·이해관계'.",
+    "new": "이자는 셀 수 없다. interest rate = 금리."
+   },
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "king+dom → kingdom(왕국). -dom은 '다스리는 영역·상태' — freedom(자유), wisdom(지혜).",
+    "new": "kingdom = king+dom(다스리는 영역)."
+   },
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The ring is made of pure {{BLANK}}.",
+    "new": "People have used {{BLANK}} as money for thousands of years."
+   },
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 반지는 순금으로 만들어졌어.",
+    "new": "사람들은 수천 년 동안 금을 돈으로 써 왔어."
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Parliament will vote on the new {{BLANK}} tomorrow.",
+    "new": "The new {{BLANK}} became law last year."
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "의회는 내일 새 법안을 표결할 거야.",
+    "new": "그 새 법안은 작년에 법이 됐어."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson00.json": [],
+  "pipeline/out/lesson04.json": [
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     13
+    ],
+    "keys": [
+     "en",
+     "ko",
+     "ex",
+     "tr",
+     "c",
+     "ipa",
+     "pos",
+     "word",
+     "si",
+     "sn"
+    ]
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     14
+    ],
+    "keys": [
+     "en",
+     "ko",
+     "ex",
+     "tr",
+     "c",
+     "ipa",
+     "pos",
+     "word",
+     "si",
+     "sn",
+     "meow"
+    ]
+   }
+  ]
+ }
+}

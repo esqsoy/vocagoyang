@@ -1237,3 +1237,11 @@
 
 - **반영(25곳, 원장 `set3-20261012`):** 읽기량 초과 3장(international·close ②·market ②), 앞당김 2개 이상 12장을 고쳤다. 예: large "Russia is the largest country in the world.", wrong "Sorry, I called the wrong number.", police "The police are here."(해설의 복수 취급을 예문이 보여 줌), short ②는 small과 같은 칸 수라 해설에 "키는 short, 크기는 small". 애덤 스미스(market ②)와 간디 소금 행진(march ②)은 뜻을 지키며 어려운 말만 뺐다. close ②의 대사는 해설을 되풀이해 뺐다. 방위 카드의 품사만 되풀이하던 해설 2장을 지웠다.
 - **검증(새로 실행):** Codex 검사 35개 + set5.test 36/36, ordercheck 3세트 2개 이상 0(전체 39), exaudit 11→10(invisible), deepcheck A8 318→315, linecheck 390·360px 초과 0, collide 906. 직검수 https://claude.ai/artifact/BZhhTuFwUMVUc5Dioneyih
+
+## 2026-10-12 · 4세트(1~4세트 끝)
+
+- **반영(28곳, 원장 `set4-20261012`):** 읽기량 초과 10장(cost ①·rest ③·share ③·lead ①②·center·present ③·interest ②·king·realize ②), 앞당김 2개 이상 11장(board ③·field ②·film ②·star ①·result ②·gold ①·bill ③·contact ②·affect ①·realize ②·celebrate ②)을 고쳤다. 마그나 카르타(king)·코페르니쿠스(center)·볼리바르(lead ①)·이븐 시나(field ②) 지식 예문은 그대로 두고 해설·해석을 줄이거나 어려운 말 하나만 바꿨다. bill ③ "The new bill became law last year."는 해설의 법안/법 대비를 예문이 보여 준다. present ③의 대사는 해설을 되풀이해 뺐다.
+- 바로잡음: gold ①을 처음에 "This ring is made of gold."로 바꿨더니 15세트 silver와 같은 문장이 됐다(deepcheck A5). "People have used gold as money for thousands of years."로 다시 썼다.
+- 남긴 것: 24세트 lots ①과 36세트 ton ②가 같은 문장 틀("I have _ of homework this weekend.")이다. 빈칸 어미가 달라 A5에 안 걸린다. 그 세트 작업 때 고친다.
+- **1~4세트 마침:** 0~5세트의 앞당김 2개 이상 예문 0장(전체 75 → 28, 남은 것은 모두 6세트 이후), 읽기량 초과 333 → 305.
+- **검증(새로 실행):** Codex 검사 35개 + set5.test 36/36, ordercheck 4세트 2개 이상 0(전체 28), exaudit 10, deepcheck A5 0·A8 305, linecheck 390·360px 초과 0, collide 906. 직검수 https://claude.ai/artifact/BzJ2wUghgGJHMXo1sY2ocR
