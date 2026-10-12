@@ -2,12 +2,12 @@
  "date": "2026-10-12",
  "name": "set0-rebalance-20261012",
  "status": "applied_locally_verified",
- "authorization": "영신 2026-10-12: \"개인의 신변잡기적 내용이 PPL 덕지덕지인 드라마나 영화처럼 피로를 줄 수 있을 것같아서 그 부분을 다시 손봐야겠어 내 판단 실수야\", \"문법설명위주의 기본단어 단계에서는 … 이후에는 원래대로의 단어>>>>…문법> 정보 > 드립\", \"예문+해설+고양이드립 … 합한 양을 통제\", \"좋아 네 추천대로 다 진행해주고\", \"인명을 쓰게 된다면 내가 집어넣은거 빼고는 한국어이름이 아닌 다양한 이름을 넣자\". 0세트 줄 댓글: I \"no가 들어가니 좀 이상함 … I는 소설의 좋은 문구같은걸 가지고 예문을 만들어도 될 것 같은데\", be \"am·is·are의 원형이 be. 이건 뜻에 있으니 삭제\", hello \": This is Youngsin Choi 삭제.\", hi \"해설 삭제\".",
- "summary": "0세트 재조정 35장: 사람·학원 이야기 20→9장(she 할머니 K-pop, her② 엄마 노래, we 형, and A·B·and C, how 열심히, five 손가락·seven 일주일·eight 거미·nine 야구·eleven 축구), 읽기량 한도(내용어 12초·기능어 13초) 넘는 카드 19→0장(대사·해설 줄임), 기능어 해설은 표제어 먼저(I·you·she·her①·two). I 예문 나쓰메 소세키 \"I am a cat. As yet I have no name.\", be① 해설의 뜻 반복 삭제, hello 해설의 예문 반복 삭제, hi 해설 삭제. 한국어 일반 이름 4장 → Sofia·Kenji·Omar·Priya·Lucas(1·5·12·39세트).",
+ "authorization": "영신 2026-10-12: \"개인의 신변잡기적 내용이 PPL 덕지덕지인 드라마나 영화처럼 피로를 줄 수 있을 것같아서 그 부분을 다시 손봐야겠어 내 판단 실수야\", \"문법설명위주의 기본단어 단계에서는 … 이후에는 원래대로의 단어>>>>…문법> 정보 > 드립\", \"예문+해설+고양이드립 … 합한 양을 통제\", \"좋아 네 추천대로 다 진행해주고\", \"인명을 쓰게 된다면 내가 집어넣은거 빼고는 한국어이름이 아닌 다양한 이름을 넣자\". 0세트 줄 댓글: I \"no가 들어가니 좀 이상함 … I는 소설의 좋은 문구같은걸 가지고 예문을 만들어도 될 것 같은데\", be \"am·is·are의 원형이 be. 이건 뜻에 있으니 삭제\", hello \": This is Youngsin Choi 삭제.\", hi \"해설 삭제\", she \"그랜마더는 유지하고 k-pop대신 호러영화로 가자\".",
+ "summary": "0세트 재조정 35장: 사람·학원 이야기 20→9장(she 할머니 공포 영화, her② 엄마 노래, we 형, and A·B·and C, how 열심히, five 손가락·seven 일주일·eight 거미·nine 야구·eleven 축구), 읽기량 한도(내용어 12초·기능어 13초) 넘는 카드 19→0장(대사·해설 줄임), 기능어 해설은 표제어 먼저(I·you·she·her①·two). I 예문 나쓰메 소세키 \"I am a cat. As yet I have no name.\", be① 해설의 뜻 반복 삭제, hello 해설의 예문 반복 삭제, hi 해설 삭제. 한국어 일반 이름 4장 → Sofia·Kenji·Omar·Priya·Lucas(1·5·12·39세트).",
  "snapshots": {
   "DATA": {
    "beforeHash": "f6b41301a3fcb61399c9f45d2eef351ba2f61edfe7b81958770da2d4d1d5f996",
-   "afterHash": "f02540f652564dd0c7b556a5b10372cf9ca21ccdc6e0d1215080214816fa9b89",
+   "afterHash": "b2993bc613589f1a0013098b2dfc1396848be59c12d2266ebf7b4d9be794e428",
    "changes": [
     {
      "path": [
@@ -133,7 +133,7 @@
      "oldExists": true,
      "newExists": true,
      "old": "My wife's mom loves horror movies. {{BLANK}} watches a B movie every night.",
-     "new": "My grandmother loves K-pop. {{BLANK}} dances every morning."
+     "new": "My grandmother loves horror movies. {{BLANK}} watches one every night."
     },
     {
      "path": [
@@ -147,7 +147,7 @@
      "oldExists": true,
      "newExists": true,
      "old": "우리 장모님은 공포 영화를 좋아하셔. 밤마다 B급 영화를 보셔.",
-     "new": "우리 할머니는 케이팝을 좋아해. 매일 아침 춤을 추셔."
+     "new": "우리 할머니는 공포 영화를 좋아하셔. 매일 밤 한 편씩 보셔."
     },
     {
      "path": [
@@ -161,7 +161,7 @@
      "oldExists": true,
      "newExists": true,
      "old": "현재형에서 she·he 뒤 일반동사엔 -s: she watches(O), she watch(X). -ch 뒤엔 -es.",
-     "new": "여자 한 명은 she. 뒤 일반동사엔 -s: she dances(O), she dance(X)."
+     "new": "여자 한 명은 she. 뒤 일반동사엔 -s: she watches(O), she watch(X)."
     },
     {
      "path": [
@@ -1147,7 +1147,7 @@
   },
   "pipeline/out/set05.json": {
    "beforeHash": "51e2c05dbd2bd1e961c55639cc97d364b4d0bd483fd51919040b00b39dc5f5a6",
-   "afterHash": "a43ee932c9e7a6d6cfeb750502f89de5a9415215dfbc3129ef6e8999747465e7"
+   "afterHash": "8f19a2be51da03d2df68e73ad35472172bd7c8325cf43c990595234cc7680d7c"
   },
   "pipeline/out/set12.json": {
    "beforeHash": "d3e18332edc8d68d444115a3bebbfdb4626914c1507cefe57947f8429f83c810",
@@ -1788,7 +1788,7 @@
     "oldExists": true,
     "newExists": true,
     "old": "My wife's mom loves horror movies. {{BLANK}} watches a B movie every night.",
-    "new": "My grandmother loves K-pop. {{BLANK}} dances every morning."
+    "new": "My grandmother loves horror movies. {{BLANK}} watches one every night."
    },
    {
     "path": [
@@ -1800,7 +1800,7 @@
     "oldExists": true,
     "newExists": true,
     "old": "우리 장모님은 공포 영화를 좋아하셔. 밤마다 B급 영화를 보셔.",
-    "new": "우리 할머니는 케이팝을 좋아해. 매일 아침 춤을 추셔."
+    "new": "우리 할머니는 공포 영화를 좋아하셔. 매일 밤 한 편씩 보셔."
    },
    {
     "path": [
@@ -1812,7 +1812,7 @@
     "oldExists": true,
     "newExists": true,
     "old": "현재형에서 she·he 뒤 일반동사엔 -s: she watches(O), she watch(X). -ch 뒤엔 -es.",
-    "new": "여자 한 명은 she. 뒤 일반동사엔 -s: she dances(O), she dance(X)."
+    "new": "여자 한 명은 she. 뒤 일반동사엔 -s: she watches(O), she watch(X)."
    },
    {
     "path": [

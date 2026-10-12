@@ -1183,4 +1183,5 @@
 - **be ①:** 해설에서 "am·is·are의 원형이 be."(뜻 줄과 같음)를 지웠다. 뜻 줄과 겹치는 해설은 특히 강조할 게 아니면 뺀다는 원칙을 PRINCIPLES 4에 넣었다(기계로 732장이 걸리고, 단순 반복만 세트 작업 때 사람이 골라 뺀다).
 - **hello:** 해설에서 ": This is Youngsin Choi"(예문과 같은 말)를 지웠다(영신 줄 댓글). 남은 해설 "전화로 나를 밝힐 땐 I am 대신 This is를 써."
 - **hi:** 해설을 지웠다(영신 줄 댓글 "해설 삭제"). I 예문(소세키)에는 영신 "이거 정말 좋다."
+- **she:** 할머니는 두고 K-pop 대신 공포 영화로(영신 줄 댓글): "My grandmother loves horror movies. She watches one every night."
 - **원장:** `set0-rebalance-20261012`를 c4b6a0b 기준으로 다시 만들었다.
