@@ -8,7 +8,8 @@
 - **6~45세트 전체:** 1,384곳, 소설 명문장 90장. 0~45세트의 앞당김 2개 이상 예문 0, 화면에 나오는 카드의 읽기량 초과 0(deepcheck A8 1건은 정리로 게임에서 뺀 kinda가 원본에 남은 것), 폰 줄 수 초과 0.
 - 직검수: 16~25 https://claude.ai/artifact/Gorsq3Z9WV69Fhrp8VDzgb · 26~35 https://claude.ai/artifact/6PNaQEYcEUbE2djJR1KEVb · 36~45 https://claude.ai/artifact/NVfHFGxpEuMEULxqn1TRSs . 6~15는 아래 6~17세트 항목.
 - 검사 36/36(43세트 커밋 뒤).
-- 다음: 아스트라(영신이 맡김) 리뷰와 직검수 댓글이 오면 반영.
+- 아스트라 리뷰 요청서: [reviews/claude-20261012/REVIEW_REQUEST.md](reviews/claude-20261012/REVIEW_REQUEST.md)(acfe20e 이후 카드 1,650장·소설 명문장 134장 데이터 포함). 영신이 아스트라에게 전달한다.
+- 다음: 아스트라 리뷰와 직검수 댓글이 오면 원칙에 맞는지 보고 반영.
 
 ## 2026-10-12 · 18~37세트 · main 배포(921e8ff)
 
