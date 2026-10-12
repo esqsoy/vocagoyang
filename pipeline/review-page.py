@@ -183,7 +183,16 @@ def main():
     since = opt.get('--since')
     if only_changed and not since:
         sys.exit('changed 모드는 --since 커밋이 필요하다.')
-    lessons = data if only_changed else [next(L for L in data if L['lesson'] == int(args[0]))]
+    # 세트 하나(5), 범위(6-10), 목록(6,7,8)을 받는다. 여러 세트면 한 페이지에 세트별로 이어 붙인다(26.10.12 6~45세트 작업).
+    if only_changed:
+        lessons = data
+    else:
+        want = []
+        for part in args[0].split(','):
+            a, _, b = part.partition('-')
+            want += list(range(int(a), int(b or a) + 1))
+        lessons = [next(L for L in data if L['lesson'] == n) for n in want]
+    multi = only_changed or len(lessons) > 1
     head = subprocess.run(['git', '-C', str(ROOT), 'rev-parse', '--short', 'HEAD'], capture_output=True, text=True).stdout.strip()
     before, before_any = {}, {}
     if since:
@@ -225,7 +234,7 @@ def main():
     for L in lessons:
         lesson = L['lesson']
         for ei, x in enumerate(L['exercises'], 1):
-            sid = f's{lesson}ex{ei}' if only_changed else f'ex{ei}'
+            sid = f's{lesson}ex{ei}' if multi else f'ex{ei}'
             items = []
             for ci, w in enumerate(x['words'], 1):
                 cid = f'{lesson}-{ei:02d}-{ci:02d}'
@@ -251,20 +260,21 @@ def main():
                 items.append(card_html(L, ei, ci, w, state, tags, olds))
             if not items:
                 continue
-            label = f'{L["label"]} · Exercise {x["ex"]}' if only_changed else f'Exercise {x["ex"]}'
-            toc.append(f'<a href="#{sid}">{(L["label"] + " ") if only_changed else ""}{x["ex"]} · {e(x.get("name", ""))}</a>')
+            label = f'{L["label"]} · Exercise {x["ex"]}' if multi else f'Exercise {x["ex"]}'
+            toc.append(f'<a href="#{sid}">{(L["label"] + " ") if multi else ""}{x["ex"]} · {e(x.get("name", ""))}</a>')
             body.append(f'<section class="ex" id="{sid}"><h2><span class="num">{e(label)}</span>{e(x.get("name", ""))}'
                         f'<span class="count">{len(items)}장</span></h2><ol class="cards">{"".join(items)}</ol></section>')
     L0 = lessons[0]
+    mine = {L['lesson'] for L in lessons}
     if since and not only_changed:
         gone = []
         for L in data:
-            if L['lesson'] > 45 or L['lesson'] == L0['lesson']:
+            if L['lesson'] > 45 or L['lesson'] in mine:
                 continue
             for ei, x in enumerate(L['exercises'], 1):
                 for ci, w in enumerate(x['words'], 1):
                     b = before_any.get((w['word'], w.get('si', 1)))
-                    if b and b[0] == L0['lesson'] and (L0['lesson'], w['word'], w.get('si', 1)) in before:
+                    if b and b[0] in mine and (b[0], w['word'], w.get('si', 1)) in before:
                         tags, olds = diff_of(w, b[1])
                         tags.insert(0, f'<span class="tag">보냄 · {L["label"]} Exercise {x["ex"]} {e(x.get("name", ""))}</span>')
                         gone.append(card_html(L, ei, ci, w, 'chg', tags, olds))
@@ -274,12 +284,14 @@ def main():
             toc.append(f'<a href="#gone">다른 세트로 보낸 카드</a>')
             body.append(f'<section class="ex" id="gone"><h2><span class="num">보낸 카드</span>다른 세트로 보낸 카드'
                         f'<span class="count">{len(gone)}장</span></h2><ol class="cards">{"".join(gone)}</ol></section>')
-    title = opt.get('--title') or (f'{L0["label"]} 직검수' if not only_changed else '바뀐 카드 직검수')
+    span = L0['label'] if len(lessons) == 1 else f"{lessons[0]['lesson']}~{lessons[-1]['label']}"
+    title = opt.get('--title') or (f'{span} 직검수' if not only_changed else '바뀐 카드 직검수')
     if only_changed:
         intro = f'{e(since)} 뒤로 바뀐 카드 {total}장을 세트·연습 순서대로 모았어. 노란 글자가 학생이 치는 정답이야. 바뀐 칸은 전 내용을 아래에 같이 보여. 의견은 줄을 눌러 바로 달아 줘(카드 번호 세트-연습-카드).'
     else:
         since_note = f' 지난 검수({e(since)}) 뒤 바뀐 카드는 {changed}장이야. 바뀐 칸은 전 내용을 아래에 같이 보여.' if since else ''
-        intro = f'FABLE {e(L0["label"])} · {e(L0.get("name", ""))}. {len(L0["exercises"])}연습 {total}장을 게임 순서대로 모았어. 노란 글자가 학생이 치는 정답이야. 의견은 줄을 눌러 바로 달아 줘(카드 번호 세트-연습-카드).{since_note}'
+        head_note = f'{e(L0["label"])} · {e(L0.get("name", ""))}. {len(L0["exercises"])}연습' if len(lessons) == 1 else f'{e(span)} {sum(len(L["exercises"]) for L in lessons)}연습'
+        intro = f'FABLE {head_note} {total}장을 게임 순서대로 모았어. 노란 글자가 학생이 치는 정답이야. 의견은 줄을 눌러 바로 달아 줘(카드 번호 세트-연습-카드).{since_note}'
     filt = ('<div class="tools"><div class="seg" role="group" aria-label="보기">'
             '<button type="button" data-f="all" aria-pressed="true">전체</button>'
             '<button type="button" data-f="chg" aria-pressed="false">바뀐 카드만</button></div>'
@@ -304,7 +316,7 @@ def main():
 '''
     out = Path(opt.get('--out', '.'))
     out.mkdir(parents=True, exist_ok=True)
-    path = out / (opt['--name'] if '--name' in opt else ('fable-changed-review.html' if only_changed else f'fable-{L0["lesson"]:02d}-review.html'))
+    path = out / (opt['--name'] if '--name' in opt else ('fable-changed-review.html' if only_changed else f'fable-{L0["lesson"]:02d}-review.html' if len(lessons) == 1 else f'fable-{lessons[0]["lesson"]:02d}-{lessons[-1]["lesson"]:02d}-review.html'))
     path.write_text(page, encoding='utf-8')
     print(json.dumps({'file': str(path), 'title': title, 'cards': total, 'changed': changed}, ensure_ascii=False))
 
