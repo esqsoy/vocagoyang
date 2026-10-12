@@ -2,10 +2,14 @@
 
 갱신: 2026-10-12 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
 
+## 2026-10-12 · 3세트 · 로컬(배포 전)
+
+- 예문·해설 25곳(원장 `set3-20261012`): 읽기량 초과 3→0, 앞당김 2개 이상 12→0(애덤 스미스·간디 소금 행진은 뜻을 지키며 쉬운 말로), 키 short와 크기 small 구별, police 복수 취급을 예문으로, 뜻 줄 반복 해설. 직검수 https://claude.ai/artifact/BZhhTuFwUMVUc5Dioneyih
+- 다음: 4세트.
+
 ## 2026-10-12 · 2세트 · 로컬(배포 전)
 
 - 예문·해설 27곳(원장 `set2-20261012`): 읽기량 초과 6→0, 앞당김 2개 이상 9→0(once ③ "Seoul was once called Hanyang.", fact와 opinion 대비 등), 뜻 줄 반복 해설, service의 '공짜' 오해. 직검수 https://claude.ai/artifact/1wq6fCza5iTbAnBGCfGTzv
-- 다음: 3세트.
 
 ## 2026-10-12 · 1세트 · 로컬(배포 전)
 

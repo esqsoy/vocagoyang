@@ -1,0 +1,1327 @@
+{
+ "date": "2026-10-12",
+ "name": "set3-20261012",
+ "status": "applied_locally_verified",
+ "authorization": "26.10.10 영신 승인 작업 순서, 26.10.12 영신 \"계속 진행하고\"",
+ "summary": "3세트 작업: 예문·해설·대사 25곳(읽기량 초과 3→0, 앞당김 2개 이상 12→0, 뜻 줄 반복 해설, short/small 구별)",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "9a7abcf53fd8d61137f92b5319d7ca6d417f2ec1acf6e2efb5c6b1f3afe52f3f",
+   "afterHash": "242a0bab24d9917a68360fab0b9fb4e989e26853982de39c52d3466c8afe52a4",
+   "changes": [
+    {
+     "path": [
+      3,
+      "exercises",
+      0,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "nearly와 같은 뜻의 거의. almost all students는 거의 모든 학생. almost students는 불가.",
+     "new": "nearly와 같은 말. almost all students(O), almost students(X)."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      0,
+      "words",
+      10,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "A {{BLANK}} crowd gathered in the square.",
+     "new": "Russia is the {{BLANK}}st country in the world."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      0,
+      "words",
+      10,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "많은 군중이 광장에 모였어.",
+     "new": "러시아는 세계에서 가장 큰 나라야."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      0,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "a large house: 큰 집. a big house로도 표현한다. large는 양·수에도 쓴다: a large amount.",
+     "new": "big과 바꿔 쓸 수 있다. large는 양·수에도: a large number."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      0,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "That's the {{BLANK}} key; it doesn't fit the lock.",
+     "new": "Sorry, I called the {{BLANK}} number."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      0,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그건 잘못 고른 열쇠야. 자물쇠에 안 맞아.",
+     "new": "죄송해요, 번호를 잘못 눌렀어요."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      1,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "특정 사람을 고르지 않는 누구나. 긍정문에도 쓴다.",
+     "new": "긍정문의 anyone: Anyone can do it."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      1,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "꽤라는 뜻에서 rather·fairly와 같은 말. pretty는 회화체.",
+     "new": "rather·fairly와 같은 말. pretty가 더 회화적이다."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      1,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "세게 부딪거나 때리다. (불규칙 hit-hit-hit — 형태가 변하지 않는다)",
+     "new": "hit-hit-hit: 과거·과거분사도 모양이 그대로다."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      2,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "inter(사이)+national(국가의)=나라 사이의. local(지역)<national(전국)<international.",
+     "new": "inter(사이)+national. local < national < international."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      2,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "형용사 close는 /kloʊs/ — 거리도 사이도 '가까운'(a close friend). 동사 close는 /kloʊz/.",
+     "new": "형용사는 /kloʊs/, 동사 '닫다'는 /kloʊz/."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      2,
+      "words",
+      10,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": "close는 [클로우즈]면 닫다, [클로우스]면 가까운이라고양."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      2,
+      "words",
+      16,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "They fought for the {{BLANK}} of freedom.",
+     "new": "It's for a good {{BLANK}}."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      2,
+      "words",
+      16,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그들은 자유라는 대의를 위해 싸웠어.",
+     "new": "좋은 일에 쓰이는 거야."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      2,
+      "words",
+      16,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "사람들이 지지·지원하거나 헌신하는 목표. fight for a cause.",
+     "new": "for a good cause: 기부·자선처럼 좋은 목적을 위해."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      4,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} caught the thief.",
+     "new": "The {{BLANK}} are here."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      4,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "경찰이 도둑을 잡았어.",
+     "new": "경찰이 왔어."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      4,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "He is too {{BLANK}} to reach the shelf.",
+     "new": "My dad is tall, but my mom is {{BLANK}}."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      4,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그는 키가 작아서 선반에 손이 안 닿아.",
+     "new": "아빠는 키가 큰데 엄마는 작아."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      4,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "",
+     "new": "키는 short(↔ tall), 크기는 small(↔ big)."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      4,
+      "words",
+      16,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "꽤라는 뜻에서 pretty와 바꿔 써도 같아. pretty가 더 회화적인 말.",
+     "new": "pretty와 바꿔 쓸 수 있다. pretty가 더 회화적이다."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      4,
+      "words",
+      19,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Ancient Greek thinkers used {{BLANK}} to understand nature.",
+     "new": "Use your {{BLANK}}, not your feelings."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      4,
+      "words",
+      19,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "고대 그리스 사상가들은 자연을 이해하는 데 이성을 사용했어.",
+     "new": "감정 말고 이성을 써."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      4,
+      "words",
+      19,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "",
+     "new": "'이성'은 reason. use your head·brain은 '머리를 써'."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      5,
+      "words",
+      9,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In the digital {{BLANK}}, companies compete for our attention.",
+     "new": "We live in the digital {{BLANK}}."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      5,
+      "words",
+      9,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "디지털 시대에는 기업들이 우리의 관심을 차지하려고 경쟁해.",
+     "new": "우리는 디지털 시대에 살아."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      6,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "맞는지 살펴보다. check in(투숙 절차를 밟다), check out(확인하다·계산하다).",
+     "new": "check in(투숙 절차를 밟다), check out(확인하다·계산하고 나가다)."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      6,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The store is closed until {{BLANK}} notice.",
+     "new": "For {{BLANK}} information, visit our website."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      6,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 가게는 추후 공지가 있을 때까지 닫아.",
+     "new": "더 자세한 정보는 우리 웹사이트를 보세요."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      6,
+      "words",
+      14,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The soldier refused to {{BLANK}} his gun.",
+     "new": "Don't {{BLANK}} until I say so!"
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      6,
+      "words",
+      14,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 군인은 총을 쏘기를 거부했어.",
+     "new": "내가 말할 때까지 쏘지 마!"
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      7,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In 1776, Adam Smith said an 'invisible hand' guides a free {{BLANK}}.",
+     "new": "In 1776, Adam Smith wrote that a free {{BLANK}} makes nations rich."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      7,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1776년 애덤 스미스는 '보이지 않는 손'이 자유 시장을 이끈다고 했어.",
+     "new": "1776년 애덤 스미스는 자유 시장이 나라를 부유하게 한다고 썼어."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      7,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "free market(자유 시장), job market(취업 시장), stock market(주식 시장).",
+     "new": "job market 취업 시장, stock market 주식 시장."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      8,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "말하는 사람이나 듣는 사람 쪽으로 가져오다·데려오다. 불규칙 변화는 bring–brought–brought.",
+     "new": "take는 멀어지는 쪽, bring은 이쪽으로. bring–brought–brought."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      9,
+      "words",
+      9,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In 1930, Gandhi {{BLANK}}ed to the sea to fight Britain's tax on salt.",
+     "new": "In 1930, Gandhi {{BLANK}}ed to the sea to make his own salt."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      9,
+      "words",
+      9,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1930년 간디는 영국의 소금세에 맞서 바다까지 행진했어.",
+     "new": "1930년 간디는 직접 소금을 만들려고 바다까지 행진했어."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      10,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "north+east. in the northeast(북동쪽에). north-east로도 쓴다. 형용사는 북동쪽의.",
+     "new": "north+east. north-east로도 쓴다."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      10,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": "방향 명사가 다른 명사를 꾸미는 형용사로도 쓰인다."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      10,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The ship sailed {{BLANK}} for two days.",
+     "new": "We drove {{BLANK}} for two hours."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      10,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 배는 이틀 동안 북서쪽으로 항해했어.",
+     "new": "우리는 북서쪽으로 두 시간 동안 차를 몰았어."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      10,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": false,
+     "old": "이동하는 방향을 나타내는 부사로도 쓰인다."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      10,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "south+west. from the southwest(남서쪽에서). south-west로도 쓴다. 형용사는 남서쪽의.",
+     "new": "south+west. south-west로도 쓴다."
+    }
+   ],
+   "keyOrders": [
+    {
+     "path": [
+      3,
+      "exercises",
+      2,
+      "words",
+      10
+     ],
+     "keys": [
+      "en",
+      "ko",
+      "ex",
+      "tr",
+      "c",
+      "ipa",
+      "pos",
+      "word",
+      "si",
+      "sn",
+      "meow"
+     ]
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      10,
+      "words",
+      6
+     ],
+     "keys": [
+      "en",
+      "word",
+      "ko",
+      "ex",
+      "tr",
+      "c",
+      "ipa",
+      "pos",
+      "si",
+      "sn",
+      "savedId"
+     ]
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      10,
+      "words",
+      7
+     ],
+     "keys": [
+      "en",
+      "word",
+      "ko",
+      "ex",
+      "tr",
+      "c",
+      "ipa",
+      "pos",
+      "si",
+      "sn",
+      "savedId"
+     ]
+    }
+   ]
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson03.json": {
+   "beforeHash": "5aa647cceb76c06dda2a461576cfd9e084f072554b5f2c390335ff6dfefff559",
+   "afterHash": "ebb92a6c250f9f487d33dda4aa2b3328e2cba5fcec64bfe031478379f6d2ffac"
+  },
+  "pipeline/out/set31.json": {
+   "beforeHash": "63bfc71aa90bfda99c94817705a5113e7cf6cf0f2eeeb4493852279369f715fd",
+   "afterHash": "3bb432bb7e9e89d3d65d80c33da57b388bf7fe0ab8f2428759a24d822ffaadfd"
+  },
+  "pipeline/out/set32.json": {
+   "beforeHash": "891e47027277414dc85bd0cd8bd7f6c6cd77f8a32c49b803aa6851b76742bdf9",
+   "afterHash": "9c47998c0bb33335334197337c464ae8306cfc78f15434931c34c4260ae98192"
+  },
+  "pipeline/out/set34.json": {
+   "beforeHash": "1b383a2af70facfa7427dbfc7fba274037a9ccdfc593559ec645b52ace916ad9",
+   "afterHash": "b4b93769175134a1980b61465d915c5d5e3e6ed5e7d139f1400d5c668fd39589"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson03.json": [
+   {
+    "path": [
+     "exercises",
+     0,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "nearly와 같은 뜻의 거의. almost all students는 거의 모든 학생. almost students는 불가.",
+    "new": "nearly와 같은 말. almost all students(O), almost students(X)."
+   },
+   {
+    "path": [
+     "exercises",
+     0,
+     "words",
+     10,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "A {{BLANK}} crowd gathered in the square.",
+    "new": "Russia is the {{BLANK}}st country in the world."
+   },
+   {
+    "path": [
+     "exercises",
+     0,
+     "words",
+     10,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "많은 군중이 광장에 모였어.",
+    "new": "러시아는 세계에서 가장 큰 나라야."
+   },
+   {
+    "path": [
+     "exercises",
+     0,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "a large house: 큰 집. a big house로도 표현한다. large는 양·수에도 쓴다: a large amount.",
+    "new": "big과 바꿔 쓸 수 있다. large는 양·수에도: a large number."
+   },
+   {
+    "path": [
+     "exercises",
+     0,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "That's the {{BLANK}} key; it doesn't fit the lock.",
+    "new": "Sorry, I called the {{BLANK}} number."
+   },
+   {
+    "path": [
+     "exercises",
+     0,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그건 잘못 고른 열쇠야. 자물쇠에 안 맞아.",
+    "new": "죄송해요, 번호를 잘못 눌렀어요."
+   },
+   {
+    "path": [
+     "exercises",
+     1,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "특정 사람을 고르지 않는 누구나. 긍정문에도 쓴다.",
+    "new": "긍정문의 anyone: Anyone can do it."
+   },
+   {
+    "path": [
+     "exercises",
+     1,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "꽤라는 뜻에서 rather·fairly와 같은 말. pretty는 회화체.",
+    "new": "rather·fairly와 같은 말. pretty가 더 회화적이다."
+   },
+   {
+    "path": [
+     "exercises",
+     1,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "세게 부딪거나 때리다. (불규칙 hit-hit-hit — 형태가 변하지 않는다)",
+    "new": "hit-hit-hit: 과거·과거분사도 모양이 그대로다."
+   },
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "inter(사이)+national(국가의)=나라 사이의. local(지역)<national(전국)<international.",
+    "new": "inter(사이)+national. local < national < international."
+   },
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "형용사 close는 /kloʊs/ — 거리도 사이도 '가까운'(a close friend). 동사 close는 /kloʊz/.",
+    "new": "형용사는 /kloʊs/, 동사 '닫다'는 /kloʊz/."
+   },
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     10,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": false,
+    "old": "close는 [클로우즈]면 닫다, [클로우스]면 가까운이라고양."
+   },
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     16,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "They fought for the {{BLANK}} of freedom.",
+    "new": "It's for a good {{BLANK}}."
+   },
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     16,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그들은 자유라는 대의를 위해 싸웠어.",
+    "new": "좋은 일에 쓰이는 거야."
+   },
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     16,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "사람들이 지지·지원하거나 헌신하는 목표. fight for a cause.",
+    "new": "for a good cause: 기부·자선처럼 좋은 목적을 위해."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} caught the thief.",
+    "new": "The {{BLANK}} are here."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "경찰이 도둑을 잡았어.",
+    "new": "경찰이 왔어."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "He is too {{BLANK}} to reach the shelf.",
+    "new": "My dad is tall, but my mom is {{BLANK}}."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그는 키가 작아서 선반에 손이 안 닿아.",
+    "new": "아빠는 키가 큰데 엄마는 작아."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "",
+    "new": "키는 short(↔ tall), 크기는 small(↔ big)."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     16,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "꽤라는 뜻에서 pretty와 바꿔 써도 같아. pretty가 더 회화적인 말.",
+    "new": "pretty와 바꿔 쓸 수 있다. pretty가 더 회화적이다."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     19,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Ancient Greek thinkers used {{BLANK}} to understand nature.",
+    "new": "Use your {{BLANK}}, not your feelings."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     19,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "고대 그리스 사상가들은 자연을 이해하는 데 이성을 사용했어.",
+    "new": "감정 말고 이성을 써."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     19,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "",
+    "new": "'이성'은 reason. use your head·brain은 '머리를 써'."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     9,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In the digital {{BLANK}}, companies compete for our attention.",
+    "new": "We live in the digital {{BLANK}}."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "디지털 시대에는 기업들이 우리의 관심을 차지하려고 경쟁해.",
+    "new": "우리는 디지털 시대에 살아."
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "맞는지 살펴보다. check in(투숙 절차를 밟다), check out(확인하다·계산하다).",
+    "new": "check in(투숙 절차를 밟다), check out(확인하다·계산하고 나가다)."
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The store is closed until {{BLANK}} notice.",
+    "new": "For {{BLANK}} information, visit our website."
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 가게는 추후 공지가 있을 때까지 닫아.",
+    "new": "더 자세한 정보는 우리 웹사이트를 보세요."
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     14,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The soldier refused to {{BLANK}} his gun.",
+    "new": "Don't {{BLANK}} until I say so!"
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     14,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 군인은 총을 쏘기를 거부했어.",
+    "new": "내가 말할 때까지 쏘지 마!"
+   },
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In 1776, Adam Smith said an 'invisible hand' guides a free {{BLANK}}.",
+    "new": "In 1776, Adam Smith wrote that a free {{BLANK}} makes nations rich."
+   },
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1776년 애덤 스미스는 '보이지 않는 손'이 자유 시장을 이끈다고 했어.",
+    "new": "1776년 애덤 스미스는 자유 시장이 나라를 부유하게 한다고 썼어."
+   },
+   {
+    "path": [
+     "exercises",
+     7,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "free market(자유 시장), job market(취업 시장), stock market(주식 시장).",
+    "new": "job market 취업 시장, stock market 주식 시장."
+   },
+   {
+    "path": [
+     "exercises",
+     8,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "말하는 사람이나 듣는 사람 쪽으로 가져오다·데려오다. 불규칙 변화는 bring–brought–brought.",
+    "new": "take는 멀어지는 쪽, bring은 이쪽으로. bring–brought–brought."
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     9,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In 1930, Gandhi {{BLANK}}ed to the sea to fight Britain's tax on salt.",
+    "new": "In 1930, Gandhi {{BLANK}}ed to the sea to make his own salt."
+   },
+   {
+    "path": [
+     "exercises",
+     9,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1930년 간디는 영국의 소금세에 맞서 바다까지 행진했어.",
+    "new": "1930년 간디는 직접 소금을 만들려고 바다까지 행진했어."
+   }
+  ],
+  "pipeline/out/set31.json": [
+   {
+    "path": [
+     9,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": false,
+    "old": "방향 명사가 다른 명사를 꾸미는 형용사로도 쓰인다."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The ship sailed {{BLANK}} for two days.",
+    "new": "We drove {{BLANK}} for two hours."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 배는 이틀 동안 북서쪽으로 항해했어.",
+    "new": "우리는 북서쪽으로 두 시간 동안 차를 몰았어."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": false,
+    "old": "이동하는 방향을 나타내는 부사로도 쓰인다."
+   }
+  ],
+  "pipeline/out/set32.json": [
+   {
+    "path": [
+     0,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "south+west. from the southwest(남서쪽에서). south-west로도 쓴다. 형용사는 남서쪽의.",
+    "new": "south+west. south-west로도 쓴다."
+   }
+  ],
+  "pipeline/out/set34.json": [
+   {
+    "path": [
+     2,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "north+east. in the northeast(북동쪽에). north-east로도 쓴다. 형용사는 북동쪽의.",
+    "new": "north+east. north-east로도 쓴다."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson03.json": [
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     10
+    ],
+    "keys": [
+     "en",
+     "ko",
+     "ex",
+     "tr",
+     "c",
+     "ipa",
+     "pos",
+     "word",
+     "si",
+     "sn",
+     "meow"
+    ]
+   }
+  ],
+  "pipeline/out/set31.json": [
+   {
+    "path": [
+     9,
+     "words",
+     4
+    ],
+    "keys": [
+     "en",
+     "word",
+     "ko",
+     "ex",
+     "tr",
+     "c",
+     "ipa",
+     "pos",
+     "si",
+     "sn"
+    ]
+   },
+   {
+    "path": [
+     9,
+     "words",
+     5
+    ],
+    "keys": [
+     "en",
+     "word",
+     "ko",
+     "ex",
+     "tr",
+     "c",
+     "ipa",
+     "pos",
+     "si",
+     "sn"
+    ]
+   }
+  ],
+  "pipeline/out/set32.json": [],
+  "pipeline/out/set34.json": []
+ }
+}

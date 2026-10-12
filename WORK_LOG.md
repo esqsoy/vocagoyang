@@ -1232,3 +1232,8 @@
 - **반영(27곳, 원장 `set2-20261012`):** 읽기량 초과 6장(public ①·start ①·hard ③·whole·story ②·means), 앞당김 2개 이상 9장(start ①·once ③·white·run ③·general ②·war·post ③·fact·death)을 모두 고쳤다. 예: once ③ "Seoul was once called Hanyang.", fact "Is that a fact or just your opinion?"(해설의 fact/opinion 대비와 맞춤), death는 시기 표시(ancient Egypt)를 지키며 continued만 뺐다. 뜻 줄 반복 해설 15장을 줄였고, service에 '서비스=공짜' 오해를 넣었다.
 - 『앨리스』 "Once upon a time there were three little sisters."는 원문과 맞지만 upon이 빈칸 Once의 단서라(2-1 예외 조건) 넣지 않았다.
 - **검증(새로 실행):** Codex 검사 35개 + set5.test 36/36, ordercheck 2세트 2개 이상 0(전체 51), deepcheck A8 324→318, exaudit 11, linecheck 390·360px 초과 0, collide 906. 직검수 https://claude.ai/artifact/1wq6fCza5iTbAnBGCfGTzv
+
+## 2026-10-12 · 3세트
+
+- **반영(25곳, 원장 `set3-20261012`):** 읽기량 초과 3장(international·close ②·market ②), 앞당김 2개 이상 12장을 고쳤다. 예: large "Russia is the largest country in the world.", wrong "Sorry, I called the wrong number.", police "The police are here."(해설의 복수 취급을 예문이 보여 줌), short ②는 small과 같은 칸 수라 해설에 "키는 short, 크기는 small". 애덤 스미스(market ②)와 간디 소금 행진(march ②)은 뜻을 지키며 어려운 말만 뺐다. close ②의 대사는 해설을 되풀이해 뺐다. 방위 카드의 품사만 되풀이하던 해설 2장을 지웠다.
+- **검증(새로 실행):** Codex 검사 35개 + set5.test 36/36, ordercheck 3세트 2개 이상 0(전체 39), exaudit 11→10(invisible), deepcheck A8 318→315, linecheck 390·360px 초과 0, collide 906. 직검수 https://claude.ai/artifact/BZhhTuFwUMVUc5Dioneyih
