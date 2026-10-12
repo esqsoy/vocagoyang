@@ -1,0 +1,245 @@
+[
+  {
+    "file": "pipeline/tests/connections-input.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 258,
+    "stdout": "{\"cards\":192,\"acceptedAnswers\":475,\"typingPaths\":1334,\"canonicalPaths\":384,\"alternativePaths\":950,\"automaticPaths\":894,\"manualAlternativePaths\":440,\"spacedAndCompactInput\":\"passed\",\"actualMirrorAndSubmit\":\"passed\",\"prematureSubmission\":\"none\",\"canonicalPrefixCollisions\":\"none\",\"canonicalAlphabetThreshold\":\"unchanged\",\"correctAnswersRejected\":0}\n"
+  },
+  {
+    "file": "pipeline/tests/index-stats.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 190,
+    "stdout": "{\"file\":\"index.html\",\"action\":\"previewed\",\"courses\":[{\"id\":\"fable\",\"cards\":3,\"headwords\":2,\"overlap\":0,\"added\":2,\"cumulative\":2},{\"id\":\"ksat\",\"cards\":4,\"headwords\":3,\"overlap\":1,\"added\":2,\"cumulative\":4},{\"id\":\"ebs\",\"cards\":3,\"headwords\":3,\"overlap\":2,\"added\":1,\"cumulative\":5}]}\n{\"file\":\"index.html\",\"action\":\"updated\",\"courses\":[{\"id\":\"fable\",\"cards\":3,\"headwords\":2,\"overlap\":0,\"added\":2,\"cumulative\":2},{\"id\":\"ksat\",\"cards\":4,\"headwords\":3,\"overlap\":1,\"added\":2,\"cumulative\":4},{\"id\":\"ebs\",\"cards\":3,\"headwords\":3,\"overlap\":2,\"added\":1,\"cumulative\":5}]}\n{\"file\":\"index.html\",\"action\":\"verified\",\"courses\":[{\"id\":\"fable\",\"cards\":3,\"headwords\":2,\"overlap\":0,\"added\":2,\"cumulative\":2},{\"id\":\"ksat\",\"cards\":4,\"headwords\":3,\"overlap\":1,\"added\":2,\"cumulative\":4},{\"id\":\"ebs\",\"cards\":3,\"headwords\":3,\"overlap\":2,\"added\":1,\"cumulative\":5}]}\n{\"file\":\"index.html\",\"action\":\"verified\",\"courses\":[{\"id\":\"fable\",\"cards\":7574,\"headwords\":5362,\"overlap\":0,\"added\":5362,\"cumulative\":5362},{\"id\":\"ksat\",\"cards\":6498,\"headwords\":4026,\"overlap\":1257,\"added\":2769,\"cumulative\":8131},{\"id\":\"ebs\",\"cards\":597,\"headwords\":545,\"overlap\":416,\"added\":129,\"cumulative\":8260}]}\nPASS index statistics: headwords, overlaps, all scopes, idempotence, current generated index\n"
+  },
+  {
+    "file": "pipeline/tests/keyboard.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 106,
+    "stdout": "{\"hangulVisible\":true,\"imeEnterProtected\":true,\"compositionDoesNotAutoSubmit\":true,\"englishAndCopyInput\":true,\"focusRecovery\":true,\"nonGameFocusPreserved\":true,\"newCardLongerAcceptedAnswer\":true,\"legacyInputThresholdUnchanged\":true,\"aliasesScopedToCard\":true}\n"
+  },
+  {
+    "file": "pipeline/tests/card-search.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 1506,
+    "stdout": "{\"cardSearch\":[{\"file\":\"vocagoyangfable.html\",\"cards\":7574,\"englishAndKorean\":true,\"pagination\":24,\"saveReloadAndFailure\":true,\"learningUnchanged\":true,\"composition\":true},{\"file\":\"vocagoyangksat2027.html\",\"cards\":6498,\"englishAndKorean\":true,\"pagination\":24,\"saveReloadAndFailure\":true,\"learningUnchanged\":true,\"composition\":true},{\"file\":\"vocagoyangebs2027.html\",\"cards\":597,\"englishAndKorean\":true,\"pagination\":24,\"saveReloadAndFailure\":true,\"learningUnchanged\":true,\"composition\":true}],\"distinctSenses\":true,\"canonicalAndDisplayedHeadword\":true,\"originalMeaningAndPreviousPassages\":true}\n"
+  },
+  {
+    "file": "pipeline/tests/milestones.test.cjs",
+    "status": "PASS_WITH_EOL_NORMALIZATION",
+    "exitCode": 1,
+    "ms": 4158,
+    "stdout": "",
+    "initial_status": "FAIL",
+    "rerun_exit_code": 0,
+    "note": "CRLF/LF mismatch in source-equality assertion. Re-run with normalize-lfs.cjs passed; no repository file changed."
+  },
+  {
+    "file": "pipeline/tests/lesson-placement.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 10998,
+    "stdout": "{\"movedCards\":77,\"movedHeadwords\":35,\"fromSetCards\":228,\"toSetCards\":165,\"totalExercises\":620,\"completionKeys\":\"all preserved\",\"oldResumes\":649,\"newResumes\":620,\"allCardFields\":\"unchanged\"}\n"
+  },
+  {
+    "file": "pipeline/tests/connections-content.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 13379,
+    "stdout": "{\"newCards\":192,\"courses\":2,\"existingCardsRead\":6715,\"priorReferences\":418,\"explicitAcceptedAnswers\":475,\"allExamples\":\"one blank; length and explanation bounds checked\",\"cardAndSourceSync\":\"passed\",\"legacyAliasIsolation\":\"passed\"}\n"
+  },
+  {
+    "file": "pipeline/tests/morphology-expansion.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 8047,
+    "stdout": "{\"retained\":167,\"notes\":33,\"newHeadwords\":37,\"reviewCards\":123,\"morphologyCards\":327,\"morphologyExercises\":32,\"totalCards\":7036,\"totalExercises\":618,\"unrelatedCourses\":\"unchanged\",\"oldRecords\":\"retained without false completion\",\"newResume\":\"all 32 exercises\",\"pairs\":\"intact\"}\n"
+  },
+  {
+    "file": "pipeline/tests/morphology-content.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 17474,
+    "stdout": "{\"units\":146,\"cards\":372,\"greekUnits\":24,\"sources\":356,\"sourceHtmlSync\":true,\"scope\":\"46–48 course content; 0–45 remains separate\"}\n"
+  },
+  {
+    "file": "pipeline/tests/placement-regrouping.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 12986,
+    "stdout": "{\"cards\":7067,\"exercises\":623,\"regrouped\":43,\"coverageCards\":454,\"incompleteCases\":74,\"ordinalCards\":30,\"directionCards\":10,\"movedBasics\":36,\"stableSavedIds\":\"all preserved and reloaded\",\"priorResumes\":3250,\"currentResumes\":623,\"content\":\"unchanged\"}\n"
+  },
+  {
+    "file": "pipeline/tests/prune.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 7465,
+    "stdout": "{\"removedCards\":78,\"removedHeadwords\":71,\"cards\":7062,\"exercises\":626,\"prunedExercises\":58,\"untouchedExercises\":568,\"incompleteCases\":60,\"resumes\":628,\"oldLayoutResumes\":2394,\"oldLayoutRemapped\":554,\"savedIds\":\"stable\"}\n"
+  },
+  {
+    "file": "pipeline/tests/saved-cards.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 3305,
+    "stdout": "{\"savedCards\":[{\"course\":\"FABLE\",\"cards\":7574,\"exercises\":676,\"storage\":\"reference-only/reload/error checked\",\"review\":\"isolated from curriculum progress\"},{\"course\":\"Mother Tongue\",\"cards\":6498,\"exercises\":161,\"storage\":\"reference-only/reload/error checked\",\"review\":\"isolated from curriculum progress\"},{\"course\":\"EBS\",\"cards\":597,\"exercises\":48,\"storage\":\"reference-only/reload/error checked\",\"review\":\"isolated from curriculum progress\"}],\"passagePreservation\":true,\"distinctMeaningsAndReviews\":true,\"keyboardAndClick\":\"no grading/navigation side effects\"}\n"
+  },
+  {
+    "file": "pipeline/tests/pool-expansion.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 20856,
+    "stdout": "{\"cards\":6876,\"added\":17,\"removed\":2,\"sourceGroups\":520,\"playableExercises\":612,\"resetGroups\":16,\"resetParts\":22,\"retainedParts\":590,\"newRecordAndResumeCases\":612,\"historicalBaseline\":\"fixed SHA-256 restored\",\"unlistedFields\":\"unchanged\",\"headwordSplits\":0,\"typingPaths\":40,\"aliasPaths\":6,\"phrasePaths\":12,\"actualInputBranch\":\"ordinary vocabulary; exact and spaceless answers\"}\n"
+  },
+  {
+    "file": "pipeline/tests/set0.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 3179,
+    "stdout": "{\"set0Exercises\":23,\"set0Cards\":234,\"moved\":39,\"edited\":68,\"newCards\":3,\"exercises\":675,\"untouched\":635,\"completionChecks\":40,\"incompleteCases\":74,\"olderLayoutCarry\":37,\"resumes\":702,\"remapped\":429,\"savedIds\":\"stable\"}\n"
+  },
+  {
+    "file": "pipeline/tests/set5.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 1220,
+    "stdout": "{\"moved\":11,\"destinations\":[\"14|12\",\"17|12\",\"21|12\",\"25|12\"],\"untouched\":665,\"completionChecks\":11,\"incompleteCases\":19,\"olderLayoutCarry\":11,\"resumes\":745,\"remapped\":142,\"savedIds\":\"stable\"}\n"
+  },
+  {
+    "file": "pipeline/tests/spacing.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 132,
+    "stdout": "{\"wordBoundaries\":\"prompt, typing and copy mode\",\"explicitSpaces\":\"preserved without consuming slots\",\"spacelessAnswers\":\"accepted\",\"copyFeedback\":\"spaces and punctuation do not shift letters\",\"longAliases\":\"preserved\",\"IME\":\"protected\",\"responsiveRules\":\"word wrapping enabled\"}\n"
+  },
+  {
+    "file": "pipeline/tests/session.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 16003,
+    "stdout": "{\"sessions\":8112,\"exercises\":676,\"seeds\":12,\"firstOrders\":12,\"partialRetry\":\"passed\",\"allCardLimits\":\"exactly +1 second\",\"cardData\":\"0–45 logged usage corrections and the quickly/rapidly alias, removal of 0:10 and oh/yeah and Goyang million / April wedding / beach volleyball examples; remaining data hash verified\",\"scriptSyntax\":\"passed\",\"nonAdjacentRule\":\"passed except when no other headword remains\",\"existingProgressKeys\":524,\"newProgressKeys\":64,\"brandAndSentenceCasing\":\"passed\"}\n"
+  },
+  {
+    "file": "pipeline/ipa-effects/tests/advance.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 100,
+    "stdout": "PASS: auto-advance waits for speech, bounds missing events, survives mute/replay, ignores stale events, and preserves manual navigation.\n"
+  },
+  {
+    "file": "pipeline/ipa-effects/tests/completion.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 103,
+    "stdout": "PASS IPA completion: early first speech, changing replay timing, 180 ms completion hold, unchanged slow/whole/error timing, and manual/replay cancellation.\n"
+  },
+  {
+    "file": "pipeline/tests/reading-core.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 26477,
+    "stdout": "{\"topicCoverageCases\":64,\"topicResumeCases\":13,\"days\":7,\"months\":12,\"addedReviewCards\":2}\n{\"shortExercises\":612,\"sourceGroups\":520,\"splitGroups\":90,\"cards\":6861,\"sizes\":{\"4\":4,\"5\":3,\"6\":10,\"7\":24,\"8\":64,\"9\":61,\"10\":60,\"11\":76,\"12\":100,\"13\":86,\"14\":73,\"15\":51},\"oldLocations\":536,\"newLocations\":612,\"priorPartLocations\":1079,\"headPartLocations\":931,\"elevenPartLocations\":613,\"coverageCases\":3050,\"mixedCoverageCases\":16294,\"getSensesTogether\":6,\"headwordSplits\":0,\"completionInheritance\":\"source groups, short-v1, heads-v2, pre-deletion heads-v3 and mixed-version coverage checked\",\"shortPartNavigation\":\"pass\",\"shortPartEnding\":\"pass\"}\n{\"sets\":51,\"reviewReferences\":95,\"legacyProgressKeys\":465,\"legacyProgress\":\"preserved\",\"reviewProgress\":\"former track retained\",\"mergedProgress\":\"26 historical exercise keys preserved; 16 consolidated exercises\",\"newProgress\":\"49/50 isolated from historical root-course records\",\"migratedResumes\":26,\"courseNavigation\":\"45→46→47→48→49→50 directly to game\",\"guideUI\":\"removed\",\"greekResearchUnits\":16,\"ending\":\"all 51 sets required\",\"syntax\":\"passed\"}\n{\"perfectExerciseCombo\":\"list navigation, duplicate completion, partial review, misses, abandonment, restart and first-pass accuracy passed\"}\n"
+  },
+  {
+    "file": "pipeline/tests/suffix-expansion.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 10941,
+    "stdout": "{\"retained\":327,\"notes\":11,\"newHeadwords\":5,\"reviewCards\":25,\"morphologyCards\":357,\"morphologyExercises\":34,\"totalCards\":7066,\"totalExercises\":620,\"unrelatedCourses\":\"unchanged\",\"oldRecords\":\"retained without false completion\",\"resume\":\"all 620 exercises\",\"families\":\"intact\"}\n"
+  },
+  {
+    "file": "pipeline/ipa-effects/tests/layout.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 126,
+    "stdout": "PASS IPA layout: shared sizing, packing, fallback, shifted viewport origins, resize/scroll batching and cleanup.\n"
+  },
+  {
+    "file": "pipeline/ipa-effects/tests/stress.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 106,
+    "stdout": "PASS stress formatter: primary/secondary, mixed dotted IPA, UK vowels, intact markers, and escaped text.\n"
+  },
+  {
+    "file": "pipeline/test-answer-replay.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 646,
+    "stdout": "PASS vocagoyangfable.html: answer tap/keyboard, IPA replay, no duplicate reward, copy, mute, and auto-advance.\nPASS vocagoyangksat2027.html: answer tap/keyboard, IPA replay, no duplicate reward, copy, mute, and auto-advance.\nPASS vocagoyangebs2027.html: answer tap/keyboard, IPA replay, no duplicate reward, copy, mute, and auto-advance.\n"
+  },
+  {
+    "file": "pipeline/ipa-effects/tests/host-hooks.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 4731,
+    "stdout": "PASS vocagoyangfable.html: real speech hooks, timing, manual next, mute, replay, copy, delayed voice exit, and original voice/rate.\nPASS vocagoyangksat2027.html: real speech hooks, timing, manual next, mute, replay, copy, delayed voice exit, and original voice/rate.\nPASS vocagoyangebs2027.html: real speech hooks, timing, manual next, mute, replay, copy, delayed voice exit, and original voice/rate.\n"
+  },
+  {
+    "file": "pipeline/test-textbook-ui.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 840,
+    "stdout": "{\"ebs\":[{\"book\":\"ebs\",\"cards\":597,\"characterEvents\":5304}],\"allPassageAndStorageKeysPreserved\":true,\"firstCellHint\":\"one letter only, one-letter answers require confirmation\",\"input\":\"correct, copy, IME and retries\",\"feedback\":\"answer remains in cells; cat dialogue above\",\"perfectStreak\":\"duplicate completion and miss reset verified\"}\n"
+  },
+  {
+    "file": "pipeline/ipa-effects/tests/conservation.test.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 8579,
+    "stdout": "PASS: all three courses preserve DATA, progress/resume keys, original voice selection, and review rose effects.\n"
+  },
+  {
+    "file": "pipeline/test-mother-tongue-excerpts.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 3690,
+    "stdout": "PASS Mother Tongue excerpts: 6498 cards, 6422 original excerpts, 4 copy/speech paths, source wording and pronunciation preserved.\n"
+  },
+  {
+    "file": "pipeline/test-mother-tongue-layout.cjs",
+    "status": "PASS",
+    "exitCode": 0,
+    "ms": 7460,
+    "stdout": "PASS Mother Tongue Fable UI: 6,498 canonical cards (56,193 character events), 72 special terms / 460 quiz + 460 copy paths; IME, slots, timers, retry rules and legacy records preserved.\n"
+  },
+  {
+    "file": "pipeline/test-mother-tongue-pronunciation-data.cjs",
+    "status": "PASS",
+    "stdout": "PASS pronunciation coverage: 17 lessons, 6,498 unchanged cards, 4,028 expressions; semantic IPA, clean speech, provenance and embedded-data parity.\n"
+  },
+  {
+    "file": "pipeline/test-ebs-pronunciation-data.cjs",
+    "status": "PASS",
+    "stdout": "PASS EBS IPA: 4 lessons, 48 exercises, 597 unchanged cards, 545 expressions; semantic selection, speech cleanup, provenance and embedded parity.\n"
+  },
+  {
+    "file": "pipeline/test-mother-tongue-pronunciation.cjs",
+    "status": "PASS",
+    "stdout": "PASS pronunciation UI: Fable IPA formatting, no separate replay button, reveal-only automatic TTS, word tap/keyboard replay, meaning-aware audio, mute/exit/lazy/unsupported safety.\n"
+  },
+  {
+    "file": "pipeline/synonym-wording-20260929/check.cjs",
+    "status": "HISTORICAL_BASELINE_ALREADY_FAILS",
+    "stdout": "",
+    "note": "Both acfe20e and 921e8ff fail the September 29 fixed shell-hash assertion; not a new regression."
+  },
+  {
+    "file": "pipeline/ipa-effects/build-check.cjs",
+    "status": "PASS",
+    "stdout": "IPA builder: meaning variants, contextual speech fallback, compact flags, source conservation, replacement and idempotence passed.\n"
+  },
+  {
+    "file": "pipeline/synonym-review-20260929/check.cjs",
+    "status": "HISTORICAL_BASELINE_ALREADY_FAILS",
+    "stdout": "",
+    "note": "Both acfe20e and 921e8ff fail the September 29 fixed shell-hash assertion; not a new regression."
+  },
+  {
+    "file": "pipeline/ipa-effects/alignment-check.cjs",
+    "status": "PASS",
+    "stdout": "{\n  \"summary\": {\n    \"fable\": {\n      \"entries\": 7574,\n      \"aligned\": 6673,\n      \"whole\": 901,\n      \"reasons\": {\n        \"no complete rule match\": 788,\n        \"unresolved phrase component\": 32,\n        \"unresolved syllable group\": 60,\n        \"punctuation or non-ASCII spelling\": 21\n      }\n    },\n    \"motherTongue\": {\n      \"entries\": 4028,\n      \"aligned\": 3264,\n      \"whole\": 764,\n      \"reasons\": {\n        \"punctuation or non-ASCII spelling\": 141,\n        \"no complete rule match\": 482,\n        \"unresolved phrase component\": 74,\n        \"unresolved syllable group\": 66,\n        \"ambiguous vowel alignment\": 1\n      }\n    },\n    \"ebs\": {\n      \"entries\": 545,\n      \"aligned\": 446,\n      \"whole\": 99,\n      \"reasons\": {\n        \"unresolved phrase component\": 11,\n        \"no complete rule match\": 62,\n        \"punctuation or non-ASCII spelling\": 16,\n        \"unresolved syllable group\": 10\n      }\n    }\n  },\n  \"uniquePairs\": 8702,\n  \"alignedPairs\": 7288,\n  \"wholePairs\": 1414,\n  \"assertions\": \"All spellings, IPA conservation, beat/range invariants, reviewed overrides and fallback checks passed.\"\n}\n"
+  }
+]

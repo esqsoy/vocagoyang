@@ -1,0 +1,1730 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-13",
+  "reviewer": "Codex",
+  "base": "acfe20e",
+  "head": "921e8ff",
+  "request_branch": "claude/brave-clarke-rixqvy",
+  "request_commit": "ea8d66c",
+  "status": "review_only_not_applied",
+  "criteria": "921e8ff의 PRINCIPLES.md 및 최신 사용자 지시. 앱 코드·어휘 데이터·원칙을 변경하지 않는다.",
+  "scope": {
+    "request_records_read": 1650,
+    "content_changed_request_records": 1646,
+    "move_only_request_records": 4,
+    "moved_cards": 11,
+    "additional_set46_copies": 23,
+    "additional_metadata_only_cards": 1,
+    "new_cards": 1,
+    "removed_cards": 0,
+    "runtime_changed_cards": 1670,
+    "total_current_cards": 7574,
+    "total_current_exercises": 676,
+    "unique_current_headwords": 5362,
+    "quote_list_records_checked": 134,
+    "extra_quote_records_checked": 1,
+    "note": "전량 재독 대상은 이 커밋 구간의 변경 카드다. 현행 7,574장 전체를 새로 전수 재독했다고 주장하지 않는다. 134개 인용 목록에는 문학 관련 해설도 포함되며 모두 새 인용이라는 뜻은 아니다."
+  },
+  "summary": {
+    "card_findings": 23,
+    "by_classification": {
+      "오류": 11,
+      "보완": 11,
+      "제안": 1
+    },
+    "policy_suggestions": 1,
+    "verdict": "저장 기록 이관에서 결함을 재현하지 못했다. 카드 오류부터 수정 권고. 문법 배치·소설 인용을 전반적으로 되돌릴 근거는 없다."
+  },
+  "findings": [
+    {
+      "id": "C00-01",
+      "set": 1,
+      "word": "life",
+      "si": 2,
+      "stable_id": "[\"1세트\",\"Exercise 4 · 31~40\",\"life\",2,\"\"]",
+      "exercise": "Exercise 4-1 · 31~40",
+      "classification": "오류",
+      "priority": "P2",
+      "title": "life를 맞히면 예문에 잘못된 복수 lifes가 표시된다",
+      "location": {
+        "file": "pipeline/out/lesson01.json",
+        "line": 978
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "life",
+        "meaning": "② 생명, 목숨",
+        "ex": "A cat has nine {{BLANK}}s.",
+        "tr": "고양이는 목숨이 아홉 개래.",
+        "c": "영어 속담. 복수는 lives.",
+        "ipa": "laɪf",
+        "pos": "n.",
+        "word": "life",
+        "si": 2,
+        "sn": 3,
+        "meow": "아홉 개라도 하나하나 소중하다고양. 함부로 쓰지 말라고양.",
+        "savedCardId": "[\"1세트\",\"Exercise 4 · 31~40\",\"life\",2,\"\"]"
+      },
+      "before": {
+        "term": "life",
+        "meaning": "② 생명, 목숨",
+        "ex": "Doctors worked hard to save the patient's {{BLANK}}.",
+        "tr": "의사들은 환자의 생명을 구하려 애썼어.",
+        "c": "살아 있음 그 자체. save a life, 복수는 lives. 셀 수 있다.",
+        "ipa": "laɪf",
+        "pos": "n.",
+        "word": "life",
+        "si": 2,
+        "sn": 3,
+        "meow": "",
+        "savedCardId": "[\"1세트\",\"Exercise 4 · 31~40\",\"life\",2,\"\"]"
+      },
+      "evidence": "새 예문은 A cat has nine {{BLANK}}s.이다. FABLE fillBlank는 표제어 life를 그대로 넣으며 life→lives 변환을 하지 않는다. 결과는 A cat has nine lifes.이다. 같은 카드 해설의 복수는 lives와 충돌한다. root가 실제 렌더러 경로도 확인했다.",
+      "reason": "초급 학생이 정답 공개 후 비문법적인 복수형을 반복해서 읽게 된다.",
+      "proposed": {
+        "ex": "A cat has more than one {{BLANK}}.",
+        "tr": "고양이는 목숨이 하나가 아니래.",
+        "c": "속담은 A cat has nine lives. 복수는 lives."
+      },
+      "proposal_budget": {
+        "reading_seconds": 9.34,
+        "reading_cap": 12,
+        "comment_characters": 36,
+        "example_words": 7,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "초기 saved(4)는 실제로 생명이라는 뜻을 찾는 단서여서 순서 예외로 허용하기 애매하다. 아예 앞당김 없는 단수형 A cat has more than one life로 고치면 입력 life를 유지하며 불규칙 복수 렌더링을 피한다. 원래 속담은 c에 정확한 형태로 남긴다.",
+      "sources": []
+    },
+    {
+      "id": "C00-02",
+      "set": 5,
+      "word": "of",
+      "si": 2,
+      "stable_id": "[\"5세트\",\"Exercise 1 · 401~410\",\"of\",2,\"\"]",
+      "exercise": "Exercise 1-1 · 기본 기능어 · the·a·to",
+      "classification": "오류",
+      "priority": "P2",
+      "title": "some of 뒤에도 반드시 복수가 와야 한다고 가르친다",
+      "location": {
+        "file": "pipeline/out/set05.json",
+        "line": 147
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "of",
+        "meaning": "② ~중의",
+        "ex": "Some {{BLANK}} my friends play soccer.",
+        "tr": "내 친구들 중 몇몇은 축구를 해.",
+        "c": "one of, some of 뒤는 복수: one of my friends(O), one of my friend(X).",
+        "ipa": "ʌv",
+        "pos": "prep.",
+        "word": "of",
+        "si": 2,
+        "sn": 2,
+        "savedId": "[\"5세트\",\"Exercise 1 · 401~410\",\"of\",2,\"\"]",
+        "meow": "",
+        "savedCardId": "[\"5세트\",\"Exercise 1 · 401~410\",\"of\",2,\"\"]"
+      },
+      "before": {
+        "term": "of",
+        "meaning": "② ~중의",
+        "ex": "Some {{BLANK}} my friends play soccer.",
+        "tr": "내 친구들 중 몇몇은 축구를 해.",
+        "c": "one of, some of, most of: 무리 '중에서' 꺼내는 of.",
+        "ipa": "ʌv",
+        "pos": "prep.",
+        "word": "of",
+        "si": 2,
+        "sn": 2,
+        "savedId": "[\"5세트\",\"Exercise 1 · 401~410\",\"of\",2,\"\"]",
+        "meow": "",
+        "savedCardId": "[\"5세트\",\"Exercise 1 · 401~410\",\"of\",2,\"\"]"
+      },
+      "evidence": "새 해설은 one of와 some of를 한데 묶어 뒤는 복수라고 단정한다. one of my friends는 맞지만 some of the water/money처럼 불가산명사도 올 수 있다. 현재 예문의 friends가 복수인 사실을 전체 규칙으로 일반화했다.",
+      "reason": "some of the water 같은 정상 표현을 틀린 문법으로 배울 수 있다.",
+      "proposed": {
+        "c": "one of 뒤엔 복수: one of my friends. some of the water처럼 불가산명사도 쓴다."
+      },
+      "proposal_budget": {
+        "reading_seconds": 10.41,
+        "reading_cap": 13,
+        "comment_characters": 63,
+        "example_words": 6,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "현재 제안 그대로 세 기준을 충족한다.",
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/some",
+          "supports": "some은 복수 가산명사뿐 아니라 불가산명사와도 쓰고, some of로 특정 집합·양의 일부를 가리킨다."
+        },
+        {
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/determiners-and-singular-countable-nouns",
+          "supports": "some을 받을 수 있는 명사 유형은 복수 가산명사와 불가산명사다."
+        }
+      ]
+    },
+    {
+      "id": "C00-03",
+      "set": 5,
+      "word": "very",
+      "si": 1,
+      "stable_id": "[\"fable-pool-20260927-set5-ex7\",\"Exercise 7 · 461~470\",\"very\",1,\"\"]",
+      "exercise": "Exercise 7-1 · 461~470",
+      "classification": "오류",
+      "priority": "P2",
+      "title": "해설을 줄이며 very의 최상급 강조를 틀린 규칙으로 바꿨다",
+      "location": {
+        "file": "pipeline/out/set05.json",
+        "line": 1690
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "very",
+        "meaning": "① 아주, 매우",
+        "ex": "This problem is {{BLANK}} easy.",
+        "tr": "이 문제 아주 쉬운데.",
+        "c": "very는 원급만 꾸민다: very easy(O), very easier(X) → much easier.",
+        "ipa": "ˈvɛri",
+        "pos": "adv.",
+        "word": "very",
+        "si": 1,
+        "sn": 1,
+        "savedId": "[\"fable-pool-20260927-set5-ex7\",\"Exercise 7 · 461~470\",\"very\",1,\"\"]",
+        "meow": "",
+        "savedCardId": "[\"fable-pool-20260927-set5-ex7\",\"Exercise 7 · 461~470\",\"very\",1,\"\"]"
+      },
+      "before": {
+        "term": "very",
+        "meaning": "① 아주, 매우",
+        "ex": "This problem is {{BLANK}} easy.",
+        "tr": "이 문제 아주 쉬운데.",
+        "c": "아주 쉽다는 뜻의 very easy. 비교급은 much easier, 일부 최상급은 very best처럼 쓴다.",
+        "ipa": "ˈvɛri",
+        "pos": "adv.",
+        "word": "very",
+        "si": 1,
+        "sn": 1,
+        "savedId": "[\"fable-pool-20260927-set5-ex7\",\"Exercise 7 · 461~470\",\"very\",1,\"\"]",
+        "meow": "",
+        "savedCardId": "[\"fable-pool-20260927-set5-ex7\",\"Exercise 7 · 461~470\",\"very\",1,\"\"]"
+      },
+      "evidence": "기존 해설은 일부 최상급의 very best를 인정했는데, 현재는 very는 원급만 꾸민다고 바뀌었다. the very best/worst/oldest 등의 최상급 강조는 표준 용법이다. very easier가 틀린다는 사실만 남기면 충분하다.",
+      "reason": "학습자가 정상적인 the very best를 예외도 없는 오용으로 이해하게 된다.",
+      "proposed": {
+        "c": "비교급엔 very 대신 much: much easier. 최상급은 the very best처럼 강조할 수 있다."
+      },
+      "proposal_budget": {
+        "reading_seconds": 9.39,
+        "reading_cap": 12,
+        "comment_characters": 62,
+        "example_words": 5,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "현재 제안 그대로 세 기준을 충족한다.",
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/very",
+          "supports": "very의 별도 용법으로 최상급 강조를 명시한다."
+        },
+        {
+          "url": "https://dictionary.cambridge.org/de/grammatik/britisch-grammatik/very",
+          "supports": "English Grammar Today는 -est형 및 best/worst 앞의 very를 설명한다. most형 최상급과는 구별한다."
+        }
+      ]
+    },
+    {
+      "id": "C00-04",
+      "set": 6,
+      "word": "tax",
+      "si": 1,
+      "stable_id": "[\"6세트\",\"Exercise 3 · 521~530\",\"tax\",1,\"\"]",
+      "exercise": "Exercise 3 · 521~530",
+      "classification": "오류",
+      "priority": "P2",
+      "title": "대표권 없는 과세를 일반 투표권 부재로 번역했다",
+      "location": {
+        "file": "pipeline/out/set06.json",
+        "line": 579
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "tax",
+        "meaning": "① 세금",
+        "ex": "In the 1760s, Americans paid British {{BLANK}}es without a vote.",
+        "tr": "1760년대 아메리카인은 투표권도 없이 영국에 세금을 냈어.",
+        "c": "No taxation without representation(대표 없이 과세 없다).",
+        "ipa": "tæks",
+        "pos": "n.",
+        "word": "tax",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"6세트\",\"Exercise 3 · 521~530\",\"tax\",1,\"\"]"
+      },
+      "before": {
+        "term": "tax",
+        "meaning": "① 세금",
+        "ex": "In the 1760s, Americans opposed British {{BLANK}}es they had no vote on.",
+        "tr": "1760년대에 아메리카 식민지 사람들은 자기들이 표결에 참여하지 못한 영국의 세금에 반대했어.",
+        "c": "pay tax는 세금을 내다. No taxation without representation=대표 없이 과세 없다.",
+        "ipa": "tæks",
+        "pos": "n.",
+        "word": "tax",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"6세트\",\"Exercise 3 · 521~530\",\"tax\",1,\"\"]"
+      },
+      "evidence": "기존 예문은 자신들이 표결하지 못한 영국의 세금에 반대했다고 했으나 새 번역은 투표권도 없이 영국에 세금을 냈다고 한다. 식민지에는 자체 선출 의회가 있었고, 쟁점은 영국 의회에서의 대표권 없이 영국 의회가 부과한 세금이었다. without a vote만 남겨 영어도 그 범위가 덜 명확해졌다.",
+      "reason": "미국 독립의 배경을 식민지인의 일반적 투표권 부재로 잘못 기억하게 한다.",
+      "proposed": {
+        "tr": "1760년대 식민지인들은 영국 의회에 대표도 없이 세금을 냈어."
+      },
+      "proposal_budget": {
+        "reading_seconds": 11.63,
+        "reading_cap": 12,
+        "comment_characters": 48,
+        "example_words": 10,
+        "forward_words": [
+          [
+            "vote",
+            7
+          ]
+        ],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": true
+      },
+      "proposal_note": "초기 예문 복원안은 채택하지 말고 root의 번역만 수정하는 최소안을 사용한다. 남는 vote(7)는 기존 예문의 배경 조건이며 정답 tax의 핵심 어휘 단서는 아니다. 해석이 풀어 주므로 앞당김 1개 허용 범위다.",
+      "sources": [
+        {
+          "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/parliament-and-the-american-colonies-before-1765/the-stamp-act-and-the-american-colonies-1763-67/",
+          "supports": "영국 의회 설명은 식민지 선출 의회에서 법·세금이 정해졌던 구조와 영국 의회 대표권 없이 과세하는 데 대한 반발을 구별한다."
+        }
+      ],
+      "note": "without a vote는 과세에 관한 대표권으로 읽을 수 있어 예문은 유지하고, 해석에서 영국 의회라는 범위를 명시한다. 옛 예문 복원은 어휘 순서·읽기량을 넘기므로 권하지 않는다."
+    },
+    {
+      "id": "C16-01",
+      "set": 18,
+      "word": "quantity",
+      "si": 1,
+      "stable_id": "[\"18세트\",\"Exercise 7 · 1761~1770\",\"quantity\",1,\"\"]",
+      "exercise": "Exercise 7 · 1761~1770",
+      "classification": "오류",
+      "priority": "P2",
+      "title": "quantity와 quality는 한 글자 차이가 아니다",
+      "location": {
+        "file": "pipeline/out/set18.json",
+        "line": 1169
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "quantity",
+        "meaning": "① 양, 수량",
+        "ex": "Quality matters more than {{BLANK}}, right?",
+        "tr": "양보다 질이 더 중요하지, 안 그래?",
+        "c": "질은 quality. 철자가 한 글자 차이라 주의.",
+        "ipa": "ˈkwɑntəti",
+        "pos": "n.",
+        "word": "quantity",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"18세트\",\"Exercise 7 · 1761~1770\",\"quantity\",1,\"\"]"
+      },
+      "before": {
+        "term": "quantity",
+        "meaning": "① 양, 수량",
+        "ex": "Quality matters more than {{BLANK}}, right?",
+        "tr": "양보다 질이 더 중요하지, 안 그래?",
+        "c": "quantity: 양. quality: 질.",
+        "ipa": "ˈkwɑntəti",
+        "pos": "n.",
+        "word": "quantity",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"18세트\",\"Exercise 7 · 1761~1770\",\"quantity\",1,\"\"]"
+      },
+      "evidence": "새 해설: “질은 quality. 철자가 한 글자 차이라 주의.” quantity의 nt와 quality의 l이 대응한다. 단순한 한 글자 교체·추가·삭제로 바뀌는 짝이 아니다.",
+      "reason": "비슷한 철자를 구별하려는 해설이 오히려 틀린 철자 기억을 준다.",
+      "proposed": {
+        "c": "질은 quality. 철자가 비슷하니 구별해."
+      },
+      "proposal_budget": {
+        "reading_seconds": 6.45,
+        "reading_cap": 12,
+        "comment_characters": 25,
+        "example_words": 6,
+        "translation_characters": 20,
+        "meow_characters": 0,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "현재 제안 그대로 세 기준을 충족한다. 앞당김은 0개여서 추가 예외 판단도 필요 없다.",
+      "sources": []
+    },
+    {
+      "id": "C16-02",
+      "set": 19,
+      "word": "anxious",
+      "si": 2,
+      "stable_id": "[\"19세트\",\"Exercise 3 · 1821~1830\",\"anxious\",2,\"\"]",
+      "exercise": "Exercise 3 · 1821~1830",
+      "classification": "오류",
+      "priority": "P2",
+      "title": "anxious의 eager 뜻에 걱정을 필수 조건으로 넣지 않는다",
+      "location": {
+        "file": "pipeline/out/set19.json",
+        "line": 385
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "anxious",
+        "meaning": "② 간절히 ~하고 싶은",
+        "ex": "She is {{BLANK}} to hear the news.",
+        "tr": "걔는 그 소식을 간절히 듣고 싶어 해.",
+        "c": "be anxious to+동사. 걱정이 섞인 간절함이라 신나서 기다리는 excited와 다르다.",
+        "ipa": "ˈæŋkʃəs",
+        "pos": "adj.",
+        "word": "anxious",
+        "si": 2,
+        "sn": 2,
+        "meow": "",
+        "savedCardId": "[\"19세트\",\"Exercise 3 · 1821~1830\",\"anxious\",2,\"\"]"
+      },
+      "before": {
+        "term": "anxious",
+        "meaning": "② 간절히 ~하고 싶은",
+        "ex": "She is {{BLANK}} to hear the news.",
+        "tr": "걔는 그 소식을 간절히 듣고 싶어 해.",
+        "c": "be anxious to+동사는 간절히 ~하고 싶다는 뜻도 있다. 불안이 섞인 간절함일 수도 있어 문맥으로 구분한다.",
+        "ipa": "ˈæŋkʃəs",
+        "pos": "adj.",
+        "word": "anxious",
+        "si": 2,
+        "sn": 2,
+        "meow": "",
+        "savedCardId": "[\"19세트\",\"Exercise 3 · 1821~1830\",\"anxious\",2,\"\"]"
+      },
+      "evidence": "이전 “불안이 섞인 간절함일 수도 있어”가 “걱정이 섞인 간절함이라 신나서 기다리는 excited와 다르다”로 바뀌었다. 예문은 She is anxious to hear the news.",
+      "reason": "anxious는 걱정이 섞인 갈망과 단순히 간절히 바라는 뜻을 모두 갖는다. 이 예문만으로 걱정이 반드시 있다고 확정할 수 없다. Merriam-Webster는 두 용법을 명시적으로 구분해 인정한다.",
+      "proposed": {
+        "c": "be anxious to+동사: 간절히 ~하고 싶다. 걱정이 섞이는지는 문맥으로 구별한다."
+      },
+      "proposal_budget": {
+        "reading_seconds": 9.56,
+        "reading_cap": 12,
+        "comment_characters": 50,
+        "example_words": 7,
+        "translation_characters": 21,
+        "meow_characters": 0,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "현재 제안 그대로 세 기준을 충족한다. 앞당김은 0개여서 추가 예외 판단도 필요 없다.",
+      "sources": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/anxious",
+          "locator": "sense 3 및 Did you know? Can anxious Be Used as a Synonym for eager?",
+          "supports": "걱정 없이 단순히 eager인 용법도 인정"
+        }
+      ]
+    },
+    {
+      "id": "R33-45-01",
+      "set": 34,
+      "word": "loving",
+      "si": 1,
+      "stable_id": "[\"34세트\",\"Exercise 4 · 3314~3323\",\"loving\",1,\"\"]",
+      "exercise": "Exercise 4 · 3314~3323",
+      "classification": "오류",
+      "priority": "P2",
+      "title": "cat으로 바꾼 예문에 강아지 해석이 남음",
+      "location": {
+        "file": "pipeline/out/set34.json",
+        "line": 581
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "loving",
+        "meaning": "① 애정 어린, 다정한",
+        "ex": "She gave her cat a {{BLANK}} look.",
+        "tr": "걔는 자기 강아지를 애정 어린 눈으로 봤어.",
+        "c": "love(사랑하다)+ing. loving parents처럼 주로 명사 앞에 쓴다.",
+        "ipa": "ˈlʌvɪŋ",
+        "pos": "adj.",
+        "word": "loving",
+        "si": 1,
+        "sn": 1,
+        "meow": "눈빛은 됐고 밥이나 달라고양.",
+        "savedCardId": "[\"34세트\",\"Exercise 4 · 3314~3323\",\"loving\",1,\"\"]"
+      },
+      "before": {
+        "term": "loving",
+        "meaning": "① 애정 어린, 다정한",
+        "ex": "She gave her dog a {{BLANK}} look.",
+        "tr": "걔는 자기 강아지를 애정 어린 눈으로 봤어.",
+        "c": "love(사랑하다)+ing. loving parents처럼 주로 명사 앞에 쓴다.",
+        "ipa": "ˈlʌvɪŋ",
+        "pos": "adj.",
+        "word": "loving",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"34세트\",\"Exercise 4 · 3314~3323\",\"loving\",1,\"\"]"
+      },
+      "evidence": "ex: She gave her cat a {{BLANK}} look. / tr: 걔는 자기 강아지를 애정 어린 눈으로 봤어.",
+      "reason": "영어 목적어는 cat으로 바뀌었지만 tr은 이전 dog 예문 그대로다. 정답 이후 서로 다른 동물을 읽게 된다.",
+      "proposed": {
+        "tr": "걔는 자기 고양이를 애정 어린 눈으로 봤어."
+      },
+      "proposal_budget": {
+        "reading_seconds": 10.22,
+        "reading_cap": 12,
+        "comment_characters": 45,
+        "example_words": 7,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "현재 제안 그대로 세 기준을 충족한다.",
+      "sources": []
+    },
+    {
+      "id": "R33-45-02",
+      "set": 35,
+      "word": "surgery",
+      "si": 1,
+      "stable_id": "[\"35세트\",\"Exercise 11 · 사건과 위기\",\"surgery\",1,\"\"]",
+      "exercise": "Exercise 11 · 사건과 위기",
+      "classification": "오류",
+      "priority": "P2",
+      "title": "cat으로 바꾼 예문에 개 해석이 남음",
+      "location": {
+        "file": "pipeline/out/set35.json",
+        "line": 1613
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "surgery",
+        "meaning": "① 수술",
+        "ex": "Without {{BLANK}}, my cat would have died.",
+        "tr": "수술을 안 받았다면 우리 개는 죽었을 거야.",
+        "c": "have surgery=수술을 받다(관사 없이). an operation도 '수술'.",
+        "ipa": "ˈsɝdʒəri",
+        "pos": "n.",
+        "word": "surgery",
+        "si": 1,
+        "sn": 1,
+        "meow": "수술비는 집사 카드로 긁었다고양. 목숨값 치고 싸다고양.",
+        "savedCardId": "[\"35세트\",\"Exercise 11 · 사건과 위기\",\"surgery\",1,\"\"]"
+      },
+      "before": {
+        "term": "surgery",
+        "meaning": "① 수술",
+        "ex": "Without {{BLANK}}, my dog would have died.",
+        "tr": "수술을 안 받았다면 우리 개는 죽었을 거야.",
+        "c": "have surgery=수술을 받다(관사 없이). an operation도 '수술'.",
+        "ipa": "ˈsɝdʒəri",
+        "pos": "n.",
+        "word": "surgery",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"35세트\",\"Exercise 11 · 사건과 위기\",\"surgery\",1,\"\"]"
+      },
+      "evidence": "ex: Without {{BLANK}}, my cat would have died. / tr: 수술을 안 받았다면 우리 개는 죽었을 거야.",
+      "reason": "영어 예문만 my dog에서 my cat으로 바뀌고 해석의 우리 개가 남았다. 문법이나 어조 문제가 아니라 명시적인 원문·해석 불일치다.",
+      "proposed": {
+        "tr": "수술을 안 받았다면 우리 고양이는 죽었을 거야."
+      },
+      "proposal_budget": {
+        "reading_seconds": 11.485,
+        "reading_cap": 12,
+        "comment_characters": 47,
+        "example_words": 7,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "현재 제안 그대로 세 기준을 충족한다.",
+      "sources": []
+    },
+    {
+      "id": "R33-45-03",
+      "set": 41,
+      "word": "prime",
+      "si": 2,
+      "stable_id": "[\"41세트\",\"Exercise 11 · 성질과 구조\",\"prime\",2,\"\"]",
+      "exercise": "Exercise 11 · 성질과 구조",
+      "classification": "오류",
+      "priority": "P2",
+      "title": "소수 정의에 1보다 큰 자연수 조건 필요",
+      "location": {
+        "file": "pipeline/out/set41.json",
+        "line": 1823
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "prime",
+        "meaning": "② 소수(素數)의",
+        "ex": "Two, three, five, and seven are {{BLANK}} numbers, but nine is not.",
+        "tr": "2, 3, 5, 7은 소수지만 9는 아니야.",
+        "c": "1과 자기 자신으로만 나뉘는 수가 prime number.",
+        "ipa": "praɪm",
+        "pos": "adj.",
+        "word": "prime",
+        "si": 2,
+        "sn": 2,
+        "meow": "고양이 목숨 9개는 prime number가 아니라고양! 그래도 고양이는 특별하다고양.",
+        "savedCardId": "[\"41세트\",\"Exercise 11 · 성질과 구조\",\"prime\",2,\"\"]"
+      },
+      "before": null,
+      "evidence": "현재: 1과 자기 자신으로만 나뉘는 수가 prime number.",
+      "reason": "현재 해설의 조건만 따르면 1도 들어간다. 소수는 1보다 큰 자연수이며 양의 약수가 1과 자기 자신뿐인 수다. 예문의 2·3·5·7 및 9의 판정은 맞으므로 그대로 둬도 된다.",
+      "proposed": {
+        "c": "1보다 큰 자연수로, 양의 약수가 1과 자신뿐인 수."
+      },
+      "proposal_budget": {
+        "reading_seconds": 11.47,
+        "reading_cap": 12,
+        "comment_characters": 29,
+        "example_words": 12,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "해설에 다시 prime number를 적지 않아도 뜻·예문에 나온다. 양의 약수 조건을 남긴 짧은 정의로 기존 고양이 대사와 합친 읽기량도 맞춘다.",
+      "sources": [
+        {
+          "url": "https://csrc.nist.gov/glossary/term/prime_number"
+        }
+      ]
+    },
+    {
+      "id": "R33-45-04",
+      "set": 33,
+      "word": "puzzle",
+      "si": 1,
+      "stable_id": "[\"33세트\",\"Exercise 8 · 3254~3263\",\"puzzle\",1,\"\"]",
+      "exercise": "Exercise 8-1 · 3254~3263",
+      "classification": "보완",
+      "priority": "P2",
+      "title": "수수께끼 뜻의 6칸 riddle도 안내하기",
+      "location": {
+        "file": "pipeline/out/set33.json",
+        "line": 1188
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "puzzle",
+        "meaning": "① 퍼즐, 수수께끼",
+        "ex": "Who in the world am I? Ah, that's the great {{BLANK}}!",
+        "tr": "도대체 나는 누구일까? 아, 그게 바로 큰 수수께끼야!",
+        "c": "캐럴 『이상한 나라의 앨리스』. 조각 맞추기도, 풀기 어려운 수수께끼도 puzzle.",
+        "ipa": "ˈpʌzəl",
+        "pos": "n.",
+        "word": "puzzle",
+        "si": 1,
+        "sn": 2,
+        "meow": "",
+        "savedCardId": "[\"33세트\",\"Exercise 8 · 3254~3263\",\"puzzle\",1,\"\"]"
+      },
+      "before": {
+        "term": "puzzle",
+        "meaning": "① 퍼즐, 수수께끼",
+        "ex": "We finished the thousand-piece {{BLANK}} in two days.",
+        "tr": "우리는 천 조각짜리 퍼즐을 이틀 만에 다 맞췄어.",
+        "c": "조각 맞추기와 머리 쓰는 문제 둘 다. crossword puzzle.",
+        "ipa": "ˈpʌzəl",
+        "pos": "n.",
+        "word": "puzzle",
+        "si": 1,
+        "sn": 2,
+        "meow": "",
+        "savedCardId": "[\"33세트\",\"Exercise 8 · 3254~3263\",\"puzzle\",1,\"\"]"
+      },
+      "evidence": "Who in the world am I? Ah, that's the great puzzle! → ...the great riddle!",
+      "reason": "자신의 정체가 무엇인지 묻는 이 문장에서 puzzle과 같은 6칸 riddle도 자연스럽다. riddle에는 수수께끼 문제뿐 아니라 설명하기 어려운 상황이라는 뜻이 있고 Oxford에도 identity 용례가 있다. 원문 인용은 보존하고 정답도 puzzle만 유지하되 대체어를 해설에 알리는 원칙을 적용하면 된다.",
+      "proposed": {
+        "c": "캐럴 『이상한 나라의 앨리스』. 이 뜻에서는 riddle과 바꿔 쓸 수 있다."
+      },
+      "proposal_budget": {
+        "reading_seconds": 10.78,
+        "reading_cap": 12,
+        "comment_characters": 43,
+        "example_words": 11,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "현재 제안 그대로 세 기준을 충족한다.",
+      "sources": [
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/riddle_1"
+        },
+        {
+          "url": "https://www.gutenberg.org/ebooks/11"
+        }
+      ]
+    },
+    {
+      "id": "C00-05",
+      "set": 0,
+      "word": "September",
+      "si": 1,
+      "stable_id": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"September\",1,\"\"]",
+      "exercise": "Exercise 10 · 달과 in·on",
+      "classification": "오류",
+      "priority": "P3",
+      "title": "합의했던 9월경을 9월로 줄이면서 영미권 학기 시작을 단정했다",
+      "location": {
+        "file": "pipeline/out/lesson00.json",
+        "line": 612
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "September",
+        "meaning": "① 9월",
+        "ex": "In England, the school year usually starts in {{BLANK}}.",
+        "tr": "잉글랜드에서는 새 학년이 보통 9월에 시작해.",
+        "c": "영미권은 9월, 한국은 3월에 새 학년을 시작해. 라틴어 septem=7(옛 로마력의 일곱째 달).",
+        "ipa": "sɛpˈtɛmbɚ",
+        "pos": "n.",
+        "word": "September",
+        "si": 1,
+        "sn": 1,
+        "savedId": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"September\",1,\"\"]",
+        "priorKeys": [
+          [
+            "0세트",
+            "Exercise 3 · 요일·월 :: topics-v4 8-19"
+          ],
+          [
+            "0세트",
+            "Exercise 3 · 요일·월 :: short-v1 3/3"
+          ],
+          [
+            "0세트",
+            "Exercise 3 · 요일·월 :: heads-v2 10-17"
+          ],
+          [
+            "0세트",
+            "Exercise 3 · 요일·월 :: heads-v3 10-17"
+          ],
+          [
+            "0세트",
+            "Exercise 3 · 요일·월"
+          ]
+        ],
+        "meow": "",
+        "savedCardId": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"September\",1,\"\"]"
+      },
+      "before": {
+        "term": "September",
+        "meaning": "① 9월",
+        "ex": "In England, the school year usually starts in {{BLANK}}.",
+        "tr": "잉글랜드에서는 새 학년이 보통 9월에 시작해.",
+        "c": "한국은 3월경, 영미권은 9월경 새 학년을 시작해. 라틴어 septem=7. 옛 로마력은 3월부터 세어 일곱째 달.",
+        "ipa": "sɛpˈtɛmbɚ",
+        "pos": "n.",
+        "word": "September",
+        "si": 1,
+        "sn": 1,
+        "savedId": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"September\",1,\"\"]",
+        "priorKeys": [
+          [
+            "0세트",
+            "Exercise 3 · 요일·월 :: topics-v4 8-19"
+          ],
+          [
+            "0세트",
+            "Exercise 3 · 요일·월 :: short-v1 3/3"
+          ],
+          [
+            "0세트",
+            "Exercise 3 · 요일·월 :: heads-v2 10-17"
+          ],
+          [
+            "0세트",
+            "Exercise 3 · 요일·월 :: heads-v3 10-17"
+          ],
+          [
+            "0세트",
+            "Exercise 3 · 요일·월"
+          ]
+        ],
+        "meow": "",
+        "savedCardId": "[\"0세트\",\"Exercise 3 · 요일·월 :: topics-v4 8-19\",\"September\",1,\"\"]"
+      },
+      "evidence": "예문의 England usually starts in September는 문제없다. 해설만 영미권은 9월로 바뀌었다. 미국에는 8월 개학이 흔하고, 영신은 이전 대화에서 이를 포함하는 간결한 표현으로 9월경을 명시적으로 합의했다. 한 글자만 복구하면 정확성과 간결함을 동시에 유지할 수 있다.",
+      "reason": "미국까지 일률적으로 9월에 새 학년을 시작한다고 배운다.",
+      "proposed": {
+        "c": "영미권은 9월경, 한국은 3월경 새 학년을 시작해. 라틴어 septem=7(옛 로마력의 일곱째 달)."
+      },
+      "proposal_budget": {
+        "reading_seconds": 11.16,
+        "reading_cap": 12,
+        "comment_characters": 56,
+        "example_words": 9,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "현재 제안 그대로 세 기준을 충족한다.",
+      "sources": [
+        {
+          "url": "https://www.lausd.org/apps/events/2026/8/12/43497513/?REC_ID=43497513&id=0",
+          "supports": "LAUSD의 2026–27학년도 첫 수업일은 2026년 8월 12일이다."
+        }
+      ]
+    },
+    {
+      "id": "C16-07",
+      "set": 32,
+      "word": "behalf",
+      "si": 1,
+      "stable_id": "[\"32세트\",\"Exercise 8 · 3154~3163\",\"behalf\",1,\"\"]",
+      "exercise": "Exercise 8 · 3154~3163",
+      "classification": "오류",
+      "priority": "P3",
+      "title": "on behalf 두 형태로만 쓴다는 단정을 피한다",
+      "location": {
+        "file": "pipeline/out/set32.json",
+        "line": 1236
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "behalf",
+        "meaning": "① ~을 대신하여, ~을 대표하여",
+        "ex": "She spoke on {{BLANK}} of the whole class.",
+        "tr": "걔가 반 전체를 대표해서 말했어.",
+        "c": "on behalf of ~ 또는 on one's behalf 꼴로만 쓴다.",
+        "ipa": "bɪˈhæf",
+        "pos": "n.",
+        "word": "behalf",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"32세트\",\"Exercise 8 · 3154~3163\",\"behalf\",1,\"\"]"
+      },
+      "before": {
+        "term": "behalf",
+        "meaning": "① ~을 대신하여, ~을 대표하여",
+        "ex": "She spoke on {{BLANK}} of the whole class.",
+        "tr": "걔가 반 전체를 대표해서 말했어.",
+        "c": "on behalf of ~ 또는 on one's behalf 꼴로 쓴다. '~을 대표하여'.",
+        "ipa": "bɪˈhæf",
+        "pos": "n.",
+        "word": "behalf",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"32세트\",\"Exercise 8 · 3154~3163\",\"behalf\",1,\"\"]"
+      },
+      "evidence": "이전 “on behalf of ~ 또는 on one's behalf 꼴로 쓴다.”에 “만”이 추가되었다.",
+      "reason": "in behalf of / in one's behalf도 미국 영어에서 쓰인다. 드문 형태를 게임에 가르칠 필요는 없지만 보편적으로 틀린 금지 규칙을 만들 필요도 없다. 단 한 글자 삭제로 해결된다.",
+      "proposed": {
+        "c": "on behalf of ~ 또는 on one's behalf 꼴로 쓴다."
+      },
+      "proposal_budget": {
+        "reading_seconds": 8.38,
+        "reading_cap": 12,
+        "comment_characters": 40,
+        "example_words": 8,
+        "translation_characters": 18,
+        "meow_characters": 0,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "현재 제안 그대로 세 기준을 충족한다. 앞당김은 0개여서 추가 예외 판단도 필요 없다.",
+      "sources": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/behalf",
+          "locator": "On Behalf of vs. in Behalf of: Usage Guide",
+          "supports": "미국 영어에서는 on/in 둘 다 사용"
+        }
+      ]
+    },
+    {
+      "id": "C00-06",
+      "set": 1,
+      "word": "fourteenth",
+      "si": 1,
+      "stable_id": "[\"44세트\",\"Exercise 2 · 4294~4303\",\"fourteenth\",1,\"\"]",
+      "exercise": "Exercise 11-2 · 순서·날짜 2",
+      "classification": "보완",
+      "priority": "P3",
+      "title": "혁명의 상징적 날짜를 유일하고 정확한 시작일처럼 표현한다",
+      "location": {
+        "file": "pipeline/out/set44.json",
+        "line": 245
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "fourteenth",
+        "meaning": "① 열네 번째의",
+        "ex": "The French Revolution began on July {{BLANK}}, 1789.",
+        "tr": "프랑스 혁명은 1789년 7월 14일에 시작됐어.",
+        "c": "four+teen+th. 철자에서 u를 빠뜨리지 않도록 주의한다.",
+        "ipa": "ˌfɔrˈtinθ",
+        "pos": "num.",
+        "word": "fourteenth",
+        "si": 1,
+        "sn": 1,
+        "savedId": "[\"44세트\",\"Exercise 2 · 4294~4303\",\"fourteenth\",1,\"\"]",
+        "meow": "",
+        "savedCardId": "[\"44세트\",\"Exercise 2 · 4294~4303\",\"fourteenth\",1,\"\"]"
+      },
+      "before": {
+        "term": "fourteenth",
+        "meaning": "① 열네 번째의",
+        "ex": "People attacked the Bastille prison on July {{BLANK}}, 1789.",
+        "tr": "1789년 7월 14일에 사람들이 바스티유 감옥을 공격했어.",
+        "c": "four+teen+th. 철자에서 u를 빠뜨리지 않도록 주의한다.",
+        "ipa": "ˌfɔrˈtinθ",
+        "pos": "num.",
+        "word": "fourteenth",
+        "si": 1,
+        "sn": 1,
+        "savedId": "[\"44세트\",\"Exercise 2 · 4294~4303\",\"fourteenth\",1,\"\"]",
+        "meow": "",
+        "savedCardId": "[\"44세트\",\"Exercise 2 · 4294~4303\",\"fourteenth\",1,\"\"]"
+      },
+      "evidence": "1789년 7월 14일은 바스티유 습격의 정확한 날짜다. 프랑스 혁명의 시작은 삼부회·국민의회·테니스코트의 서약 등 그 이전 사건까지 포함해 서술하므로 began on July fourteenth라는 단정은 역사적 시기 구분을 숨긴다. 현재 문장을 완전히 틀렸다고 단정하는 것은 아니다. 정확한 날짜를 배우는 이 카드에는 이전의 확정 가능한 사건 서술이 더 적합하다.",
+      "reason": "상징적 기념일과 혁명의 실제 시작 과정이 같은 것으로 굳어질 수 있다.",
+      "proposed": {
+        "ex": "The Bastille fell on July {{BLANK}}, 1789.",
+        "tr": "1789년 7월 14일에 바스티유 감옥이 함락됐어."
+      },
+      "proposal_budget": {
+        "reading_seconds": 8.79,
+        "reading_cap": 12,
+        "comment_characters": 36,
+        "example_words": 7,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "두 단어가 앞당겨지는 attacked/prison을 복구하지 않는다. The Bastille fell...의 fall은 base-words.json에 등록된 상시 허용어라 앞당김 0개다. 해석에서 함락을 풀어 주어 숫자 표제어 학습을 유지한다.",
+      "sources": [
+        {
+          "url": "https://www.chateauversailles.fr/decouvrir/histoire/les-grandes-dates/versailles-au-coeur-revolution-francaise",
+          "supports": "베르사유 궁전은 혁명 과정의 6월 국민의회·테니스코트의 서약과 7월 14일 바스티유 습격을 구분한다."
+        }
+      ]
+    },
+    {
+      "id": "C00-08",
+      "set": 7,
+      "word": "interesting",
+      "si": 1,
+      "stable_id": "[\"7세트\",\"Exercise 8 · 671~680\",\"interesting\",1,\"\"]",
+      "exercise": "Exercise 8-2 · 671~680",
+      "classification": "보완",
+      "priority": "P3",
+      "title": "같은 11칸에 자연스럽게 들어가는 fascinating 안내가 없다",
+      "location": {
+        "file": "pipeline/out/set07.json",
+        "line": 1682
+      },
+      "introduced_in_review_range": false,
+      "policy_conflict": false,
+      "current": {
+        "term": "interesting",
+        "meaning": "① 재미있는, 흥미로운",
+        "ex": "Did you learn anything {{BLANK}} today?",
+        "tr": "오늘 뭐 재밌는 거 배웠어?",
+        "c": "흥미를 주는 쪽이 -ing, 느끼는 쪽이 -ed. 사람도 흥미로우면 an interesting person.",
+        "ipa": "ˈɪntrəstɪŋ",
+        "pos": "adj.",
+        "word": "interesting",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"7세트\",\"Exercise 8 · 671~680\",\"interesting\",1,\"\"]"
+      },
+      "before": {
+        "term": "interesting",
+        "meaning": "① 재미있는, 흥미로운",
+        "ex": "The book was more {{BLANK}} than the movie.",
+        "tr": "책이 영화보다 더 흥미로웠어.",
+        "c": "흥미를 주는 쪽이 -ing, 느끼는 쪽이 -ed. 사람도 흥미로우면 an interesting person.",
+        "ipa": "ˈɪntrəstɪŋ",
+        "pos": "adj.",
+        "word": "interesting",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"7세트\",\"Exercise 8 · 671~680\",\"interesting\",1,\"\"]"
+      },
+      "evidence": "Did you learn anything fascinating today?도 자연스럽고 재미있는·흥미로운 뜻과 11칸을 충족한다. fascinating은 매우 흥미롭다는 더 강한 표현이므로 모든 상황에서 완전히 같은 뜻이라고 쓰면 안 된다. 기존 more interesting 예문에서도 가능했던 경쟁어라 이번에 새로 생긴 회귀는 아니지만, 교체 후 문장 검수 범위에 포함해 남긴다.",
+      "reason": "정상적인 다른 어휘를 입력한 학생이 표현 자체가 틀렸다고 오해할 수 있다.",
+      "proposed": {
+        "c": "fascinating으로도 바꿔 쓸 수 있고 더 강한 흥미를 뜻해. 흥미를 주면 -ing, 느끼면 -ed."
+      },
+      "proposal_budget": {
+        "reading_seconds": 9.64,
+        "reading_cap": 12,
+        "comment_characters": 59,
+        "example_words": 6,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "현재 제안 그대로 세 기준을 충족한다.",
+      "sources": [
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/fascinating",
+          "supports": "fascinating을 extremely interesting으로 정의하고 learn 등과 함께 쓰는 맥락을 제시한다."
+        }
+      ],
+      "preserve": "표제어 interesting만 정답으로 두는 기존 규칙은 유지한다. 사람도 interesting일 수 있다는 현 해설은 유익하므로 편집 시 글자 예산 안에서 보존 여부를 판단한다."
+    },
+    {
+      "id": "C00-07",
+      "set": 11,
+      "word": "straight",
+      "si": 1,
+      "stable_id": "[\"fable-pool-20260927-set11-ex8\",\"Exercise 8 · 1071~1080\",\"straight\",1,\"\"]",
+      "exercise": "Exercise 8 · 1071~1080",
+      "classification": "보완",
+      "priority": "P3",
+      "title": "배리 원문에 없는 별을 번역에서 보충했다",
+      "location": {
+        "file": "pipeline/out/set11.json",
+        "line": 1246
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "straight",
+        "meaning": "① 똑바로, 곧장",
+        "ex": "Second to the right, and {{BLANK}} on till morning.",
+        "tr": "오른쪽 두 번째 별로, 그리고 아침까지 곧장.",
+        "c": "배리 『피터 팬』에서 네버랜드 가는 길.",
+        "ipa": "streɪt",
+        "pos": "adv.",
+        "word": "straight",
+        "si": 1,
+        "sn": 2,
+        "meow": "",
+        "savedCardId": "[\"fable-pool-20260927-set11-ex8\",\"Exercise 8 · 1071~1080\",\"straight\",1,\"\"]"
+      },
+      "before": {
+        "term": "straight",
+        "meaning": "① 똑바로, 곧장",
+        "ex": "Go {{BLANK}} and turn left at the bank.",
+        "tr": "쭉 직진하다가 은행에서 좌회전해.",
+        "c": "",
+        "ipa": "streɪt",
+        "pos": "adv.",
+        "word": "straight",
+        "si": 1,
+        "sn": 2,
+        "meow": "",
+        "savedCardId": "[\"fable-pool-20260927-set11-ex8\",\"Exercise 8 · 1071~1080\",\"straight\",1,\"\"]"
+      },
+      "evidence": "원문 Second to the right, and straight on till morning에는 star가 없다. 4장 THE FLIGHT의 바로 뒤는 그 지시가 매우 불명확하며 피터가 생각나는 말을 했다고 설명한다. 현재 번역의 오른쪽 두 번째 별로는 원문이 지정하지 않은 대상을 특정한다. 네버랜드로 가는 길이라는 해설 자체는 맞다.",
+      "reason": "배리 원작의 문장과 후대에 익숙한 별 이미지가 섞여 원문보다 구체적인 내용을 전달한다.",
+      "proposed": {
+        "tr": "오른쪽 두 번째로, 그리고 아침까지 곧장."
+      },
+      "proposal_budget": {
+        "reading_seconds": 7.2,
+        "reading_cap": 12,
+        "comment_characters": 22,
+        "example_words": 9,
+        "forward_words": [
+          [
+            "till",
+            29
+          ]
+        ],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": true
+      },
+      "proposal_note": "till(29)은 기존 인용에 있는 한 개 앞당김이다. 번역 수정으로 새로 생기는 문제가 아니며 정답 straight의 뜻을 찾는 단서가 아닌 시간 조건이고 해석이 풀어 주므로 유지 가능하다.",
+      "sources": [
+        {
+          "url": "https://www.gutenberg.org/ebooks/16",
+          "supports": "J. M. Barrie, Peter and Wendy, 4장 THE FLIGHT. 별이라는 목적지는 원문에 없고 방향 지시의 모호함이 뒤이어 서술된다."
+        }
+      ]
+    },
+    {
+      "id": "C16-03",
+      "set": 18,
+      "word": "insect",
+      "si": 1,
+      "stable_id": "[\"18세트\",\"Exercise 5 · 1741~1750\",\"insect\",1,\"\"]",
+      "exercise": "Exercise 5 · 1741~1750",
+      "classification": "보완",
+      "priority": "P3",
+      "title": "곤충의 몸 설명에 성충이라는 범위를 붙인다",
+      "location": {
+        "file": "pipeline/out/set18.json",
+        "line": 841
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "insect",
+        "meaning": "① 곤충, 벌레",
+        "ex": "All {{BLANK}}s have six legs and three body parts.",
+        "tr": "곤충은 모두 다리가 여섯 개고, 몸이 세 부분으로 나뉘어.",
+        "c": "",
+        "ipa": "ˈɪnsɛkt",
+        "pos": "n.",
+        "word": "insect",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"18세트\",\"Exercise 5 · 1741~1750\",\"insect\",1,\"\"]"
+      },
+      "before": {
+        "term": "insect",
+        "meaning": "① 곤충, 벌레",
+        "ex": "Spiders are not {{BLANK}}s, because they have eight legs, not six.",
+        "tr": "거미는 다리가 여섯 개가 아니라 여덟 개라서 곤충이 아니야.",
+        "c": "",
+        "ipa": "ˈɪnsɛkt",
+        "pos": "n.",
+        "word": "insect",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"18세트\",\"Exercise 5 · 1741~1750\",\"insect\",1,\"\"]"
+      },
+      "evidence": "새 예문 All insects have six legs and three body parts. / 곤충은 모두 다리가 여섯 개고, 몸이 세 부분으로 나뉘어.",
+      "reason": "성충의 대표적인 몸 구조를 설명하는 문장인데 All은 유충까지 포함하는 전칭 명제로 읽힌다. 파리 유충처럼 다리가 없는 곤충도 있다. 기초 정보 자체는 좋으므로 설명을 길게 붙이기보다 All을 Adult로 바꾸면 된다.",
+      "proposed": {
+        "ex": "Adult {{BLANK}}s have six legs and three main body parts.",
+        "tr": "다 자란 곤충은 다리가 여섯 개고, 몸이 크게 세 부분으로 나뉘어."
+      },
+      "proposal_budget": {
+        "reading_seconds": 6.57,
+        "reading_cap": 12,
+        "comment_characters": 0,
+        "example_words": 10,
+        "translation_characters": 37,
+        "meow_characters": 0,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "현재 제안 그대로 세 기준을 충족한다. 앞당김은 0개여서 추가 예외 판단도 필요 없다.",
+      "sources": [
+        {
+          "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/4-insects",
+          "locator": "Insect Structures; Insect Orders의 larvae 설명",
+          "supports": "성충의 세 몸 부분·세 쌍 다리, 다리 없는 유충"
+        },
+        {
+          "url": "https://www.extension.umd.edu/resource/wireworms-and-maggots-vegetables",
+          "locator": "Maggots > Appearance",
+          "supports": "파리 유충의 legless 설명"
+        }
+      ]
+    },
+    {
+      "id": "C16-04",
+      "set": 19,
+      "word": "cure",
+      "si": 2,
+      "stable_id": "[\"19세트\",\"Exercise 4 · 1831~1840\",\"cure\",2,\"\"]",
+      "exercise": "Exercise 4 · 1831~1840",
+      "classification": "보완",
+      "priority": "P3",
+      "title": "감기에 치료가 전혀 없다는 인상 대신 완치의 뜻을 드러낸다",
+      "location": {
+        "file": "pipeline/out/set19.json",
+        "line": 537
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "cure",
+        "meaning": "② 치료법, 해결책",
+        "ex": "There is still no {{BLANK}} for the common cold.",
+        "tr": "감기는 아직도 치료법이 없어.",
+        "ipa": "kjʊr",
+        "pos": "n.",
+        "word": "cure",
+        "si": 2,
+        "sn": 2,
+        "meow": "",
+        "savedCardId": "[\"19세트\",\"Exercise 4 · 1831~1840\",\"cure\",2,\"\"]"
+      },
+      "before": {
+        "term": "cure",
+        "meaning": "② 치료법, 해결책",
+        "ex": "Scientists are searching for a {{BLANK}}.",
+        "tr": "과학자들은 치료법을 찾고 있어.",
+        "c": "a cure for ~: ~을 낫게 하는 치료법이나 해결책.",
+        "ipa": "kjʊr",
+        "pos": "n.",
+        "word": "cure",
+        "si": 2,
+        "sn": 2,
+        "meow": "",
+        "savedCardId": "[\"19세트\",\"Exercise 4 · 1831~1840\",\"cure\",2,\"\"]"
+      },
+      "evidence": "There is still no cure for the common cold.를 “감기는 아직도 치료법이 없어.”로 옮기고 c를 지웠다.",
+      "reason": "영어 예문은 적절하다. 다만 한국어 치료법은 증상 완화까지 넓게 읽혀 cure와 treatment의 핵심 차이가 흐려진다. 원래 해설의 “낫게 하는” 정보가 사라졌으므로 번역 한 군데에서 완치 의미를 살리는 편이 간결하다.",
+      "proposed": {
+        "tr": "감기를 완전히 낫게 하는 치료법은 아직 없어."
+      },
+      "proposal_budget": {
+        "reading_seconds": 5.0,
+        "reading_cap": 12,
+        "comment_characters": 0,
+        "example_words": 9,
+        "translation_characters": 25,
+        "meow_characters": 0,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "현재 제안 그대로 세 기준을 충족한다. 앞당김은 0개여서 추가 예외 판단도 필요 없다.",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/common-cold/treatment/index.html",
+          "locator": "Key points와 Treatment",
+          "supports": "감기는 cure가 없지만 증상 완화 treatment는 가능"
+        }
+      ]
+    },
+    {
+      "id": "C16-05",
+      "set": 23,
+      "word": "disease",
+      "si": 1,
+      "stable_id": "[\"23세트\",\"Exercise 4 · 2214~2223\",\"disease\",1,\"\"]",
+      "exercise": "Exercise 4 · 2214~2223",
+      "classification": "보완",
+      "priority": "P3",
+      "title": "disease와 illness의 차이를 전염 여부처럼 읽히지 않게 한다",
+      "location": {
+        "file": "pipeline/out/set23.json",
+        "line": 735
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "disease",
+        "meaning": "① 병, 질병",
+        "ex": "After 1492, {{BLANK}}s from Europe killed millions of people in the Americas.",
+        "tr": "1492년 뒤 유럽에서 온 병이 아메리카에서 수백만 명을 죽였어.",
+        "c": "퍼지는 병은 disease, 앓는 상태는 illness.",
+        "ipa": "dɪˈziz",
+        "pos": "n.",
+        "word": "disease",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"23세트\",\"Exercise 4 · 2214~2223\",\"disease\",1,\"\"]"
+      },
+      "before": {
+        "term": "disease",
+        "meaning": "① 병, 질병",
+        "ex": "After 1492, {{BLANK}}s from Europe killed millions of people in the Americas.",
+        "tr": "1492년 이후 유럽에서 건너온 병으로 아메리카에서 수백만 명이 죽었어.",
+        "c": "heart disease(심장병). 퍼지는 병은 주로 disease, illness는 앓는 상태 쪽이다.",
+        "ipa": "dɪˈziz",
+        "pos": "n.",
+        "word": "disease",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"23세트\",\"Exercise 4 · 2214~2223\",\"disease\",1,\"\"]"
+      },
+      "evidence": "이전 해설의 heart disease 예와 “주로”가 사라져 “퍼지는 병은 disease, 앓는 상태는 illness.”만 남았다.",
+      "reason": "이 문장 자체가 disease는 오직 전염병이라는 논리적 단정은 아니다. 하지만 두 단어를 가르는 간결한 규칙으로 제시되므로 전염 여부가 의미 구별 기준인 것처럼 학습될 수 있다. heart disease·genetic disease도 disease이다. 사실 오류 확정보다 축약 과정에서 생긴 오해 가능성으로 분류한다.",
+      "proposed": {
+        "c": "질병 자체는 disease, 앓는 상태는 illness."
+      },
+      "proposal_budget": {
+        "reading_seconds": 10.37,
+        "reading_cap": 12,
+        "comment_characters": 31,
+        "example_words": 12,
+        "translation_characters": 36,
+        "meow_characters": 0,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "현재 제안 그대로 세 기준을 충족한다. 앞당김은 0개여서 추가 예외 판단도 필요 없다.",
+      "sources": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/disease",
+          "locator": "sense 1의 genetic disease 및 heart disease 예",
+          "supports": "감염성·비감염성 질병을 모두 포괄"
+        }
+      ]
+    },
+    {
+      "id": "C16-06",
+      "set": 26,
+      "word": "tablespoon",
+      "si": 1,
+      "stable_id": "[\"26세트\",\"Exercise 10 · 2574~2583\",\"tablespoon\",1,\"\"]",
+      "exercise": "Exercise 10 · 2574~2583",
+      "classification": "보완",
+      "priority": "P3",
+      "title": "3티스푼 관계의 미국 기준을 예문에 유지한다",
+      "location": {
+        "file": "pipeline/out/set26.json",
+        "line": 1646
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "tablespoon",
+        "meaning": "① 큰 숟가락, 테이블스푼(양)",
+        "ex": "One {{BLANK}} is equal to three teaspoons.",
+        "tr": "1테이블스푼은 3티스푼이야.",
+        "c": "요리법에서는 Tbsp로 줄여 쓴다.",
+        "ipa": "ˈteɪbəlspun",
+        "pos": "n.",
+        "word": "tablespoon",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"26세트\",\"Exercise 10 · 2574~2583\",\"tablespoon\",1,\"\"]"
+      },
+      "before": {
+        "term": "tablespoon",
+        "meaning": "① 큰 숟가락, 테이블스푼(양)",
+        "ex": "Add two {{BLANK}}s of sugar to the sauce.",
+        "tr": "그 소스에 설탕 두 큰술을 넣어.",
+        "c": "요리에서 큰술. 미국 기준으로 1 tablespoon은 3 teaspoons이며 Tbsp로 줄여 쓴다.",
+        "ipa": "ˈteɪbəlspun",
+        "pos": "n.",
+        "word": "tablespoon",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"26세트\",\"Exercise 10 · 2574~2583\",\"tablespoon\",1,\"\"]"
+      },
+      "evidence": "이전 c에는 “미국 기준으로 1 tablespoon은 3 teaspoons”가 있었으나 새 예문 One tablespoon is equal to three teaspoons.에는 지역 한정이 없다.",
+      "reason": "미국식 계량에서는 맞다. 호주식 계량 tablespoon은 20mL, teaspoon은 5mL여서 네 티스푼이다. 요청서가 특별히 검토를 요구한 수치이며 기존 한정을 잃은 경우다. 다른 국가 정보를 해설에 늘어놓을 필요 없이 원래 범위만 복원한다.",
+      "proposed": {
+        "ex": "In the US, one {{BLANK}} is equal to three teaspoons.",
+        "tr": "미국에서 1테이블스푼은 3티스푼이야."
+      },
+      "proposal_budget": {
+        "reading_seconds": 6.79,
+        "reading_cap": 12,
+        "comment_characters": 19,
+        "example_words": 10,
+        "translation_characters": 20,
+        "meow_characters": 0,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "둘 다 수치 기준을 충분히 충족한다. 원래 is equal to 구조와 요지를 유지하고 나라 범위만 붙이는 preserve_structure_alternative를 우선 추천한다. 기존 제안보다 읽기량은 0.06초 늘어나는 데 그친다.",
+      "sources": [
+        {
+          "url": "https://healthyeating.nhlbi.nih.gov/measurements.aspx",
+          "locator": "Teaspoon–Tablespoon–Cup Measurement Equivalents",
+          "supports": "미국 NIH 안내의 3 teaspoons = 1 tablespoon"
+        },
+        {
+          "url": "https://www.islhd.health.nsw.gov.au/sites/default/files/Health_Promotion/Cookbooks/Baby_Toddler_cookbook.pdf",
+          "locator": "Cooking tips, 인쇄 p.39",
+          "supports": "호주 NSW Health 계량표: tablespoon 20mL, teaspoon 5mL"
+        }
+      ]
+    },
+    {
+      "id": "R33-45-07",
+      "set": 37,
+      "word": "fatal",
+      "si": 1,
+      "stable_id": "[\"37세트\",\"Exercise 3 · 3604~3613\",\"fatal\",1,\"\"]",
+      "exercise": "Exercise 3 · 3604~3613",
+      "classification": "보완",
+      "priority": "P3",
+      "title": "fatal은 영어 fate와 같은 어원이라고 쓰기",
+      "location": {
+        "file": "pipeline/out/set37.json",
+        "line": 323
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "fatal",
+        "meaning": "① 치명적인, 죽음을 부르는",
+        "ex": "One {{BLANK}} mistake cost us the game.",
+        "tr": "치명적인 실수 하나가 우리 경기를 망쳤어.",
+        "c": "fate(운명)에서 온 말. a fatal accident는 사망 사고.",
+        "ipa": "ˈfeɪtl",
+        "pos": "adj.",
+        "word": "fatal",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"37세트\",\"Exercise 3 · 3604~3613\",\"fatal\",1,\"\"]"
+      },
+      "before": {
+        "term": "fatal",
+        "meaning": "① 치명적인, 죽음을 부르는",
+        "ex": "One {{BLANK}} mistake cost us the game.",
+        "tr": "치명적인 실수 하나가 우리 경기를 망쳤어.",
+        "c": "죽음을 초래하거나 성공을 완전히 망치는. a fatal accident는 사망 사고, a fatal mistake는 치명적인 실수.",
+        "ipa": "ˈfeɪtl",
+        "pos": "adj.",
+        "word": "fatal",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"37세트\",\"Exercise 3 · 3604~3613\",\"fatal\",1,\"\"]"
+      },
+      "evidence": "현재 c: fate(운명)에서 온 말. a fatal accident는 사망 사고.",
+      "reason": "fatal은 프랑스어 fatal 및 라틴어 fatalis를 통해 들어왔고 그 바탕은 fatum이다. 영어 fate 역시 같은 라틴어 계열에서 왔다. 지금 문장은 영어 fate에서 직접 파생된 것으로 읽히므로 같은 어원이라고 바꾸면 짧은 길이와 기억 고리를 모두 유지한다.",
+      "proposed": {
+        "c": "fate(운명)와 같은 어원. a fatal accident는 사망 사고."
+      },
+      "proposal_budget": {
+        "reading_seconds": 8.79,
+        "reading_cap": 12,
+        "comment_characters": 41,
+        "example_words": 7,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "현재 제안 그대로 세 기준을 충족한다.",
+      "sources": [
+        {
+          "url": "https://www.etymonline.com/word/fatal"
+        },
+        {
+          "url": "https://www.etymonline.com/word/fate"
+        }
+      ]
+    },
+    {
+      "id": "R33-45-05",
+      "set": 39,
+      "word": "sharply",
+      "si": 1,
+      "stable_id": "[\"39세트\",\"Exercise 4 · 3814~3823\",\"sharply\",1,\"\"]",
+      "exercise": "Exercise 4 · 3814~3823",
+      "classification": "보완",
+      "priority": "P3",
+      "title": "sharply와 quickly의 초점 차이를 짧게 유지하기",
+      "location": {
+        "file": "pipeline/out/set39.json",
+        "line": 524
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "sharply",
+        "meaning": "① 급격히",
+        "ex": "The temperature dropped more {{BLANK}} today than it did yesterday.",
+        "tr": "오늘은 어제보다 기온이 더 뚝 떨어졌어.",
+        "c": "이 뜻에서는 rapidly·quickly와 바꿔 쓸 수 있다.",
+        "ipa": "ˈʃɑrpli",
+        "pos": "adv.",
+        "word": "sharply",
+        "si": 1,
+        "sn": 2,
+        "meow": "",
+        "savedCardId": "[\"39세트\",\"Exercise 4 · 3814~3823\",\"sharply\",1,\"\"]"
+      },
+      "before": {
+        "term": "sharply",
+        "meaning": "① 급격히",
+        "ex": "Prices went up {{BLANK}} after the news.",
+        "tr": "그 소식 뒤에 물가가 가파르게 올랐어.",
+        "c": "sharply는 변화 폭이 크거나 가파르게, rapidly는 빠른 속도로. 가격 상승의 서로 다른 면을 강조한다.",
+        "ipa": "ˈʃɑrpli",
+        "pos": "adv.",
+        "word": "sharply",
+        "si": 1,
+        "sn": 2,
+        "meow": "",
+        "savedCardId": "[\"39세트\",\"Exercise 4 · 3814~3823\",\"sharply\",1,\"\"]"
+      },
+      "evidence": "The temperature dropped more {{BLANK}} today than it did yesterday. / 현재 c: 이 뜻에서는 rapidly·quickly와 바꿔 쓸 수 있다.",
+      "reason": "rapidly·quickly가 이 자리에 들어가지 못한다는 뜻은 아니다. 다만 more sharply는 갑작스럽고 큰 폭의 하락을, more quickly는 하락 속도를 비교할 수 있어 의미 초점이 완전히 같지는 않다. 개정 전의 변화 폭/속도 구분이 모두 사라졌다. 실제 사전도 sharply를 갑자기 큰 폭으로 변하는 뜻으로 설명하면서 temperature drops sharply를 제시한다.",
+      "proposed": {
+        "c": "바꿔 쓸 수 있지만 sharply는 급격한 변화, rapidly·quickly는 속도에 초점."
+      },
+      "proposal_budget": {
+        "reading_seconds": 10.64,
+        "reading_cap": 12,
+        "comment_characters": 52,
+        "example_words": 10,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "현재 제안 그대로 세 기준을 충족한다.",
+      "sources": [
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/sharply"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/sharply"
+        }
+      ],
+      "note": "가능한 유의어를 오답 영어로 몰아가는 지적이 아니다. 정답 판정·예문은 유지하고 짧은 의미 차이만 복원하는 낮은 우선순위 보완."
+    },
+    {
+      "id": "R33-45-06",
+      "set": 42,
+      "word": "scarcity",
+      "si": 1,
+      "stable_id": "[\"42세트\",\"Exercise 11 · 지식 어휘 Ⅳ\",\"scarcity\",1,\"\"]",
+      "exercise": "Exercise 11 · 지식 어휘 Ⅳ",
+      "classification": "보완",
+      "priority": "P3",
+      "title": "shortage를 기간보다 부족한 양으로 설명하기",
+      "location": {
+        "file": "pipeline/out/set42.json",
+        "line": 1641
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "scarcity",
+        "meaning": "① 부족, 희소성",
+        "ex": "Economics begins with {{BLANK}}: we can't have everything we want.",
+        "tr": "경제학은 희소성에서 시작해. 원하는 것을 다 가질 수는 없거든.",
+        "c": "형용사는 scarce. 한때 모자라는 것은 shortage.",
+        "ipa": "ˈskɛrsəti",
+        "pos": "n.",
+        "word": "scarcity",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"42세트\",\"Exercise 11 · 지식 어휘 Ⅳ\",\"scarcity\",1,\"\"]"
+      },
+      "before": {
+        "term": "scarcity",
+        "meaning": "① 부족, 희소성",
+        "ex": "Economics begins with {{BLANK}}: we can't have everything we want.",
+        "tr": "경제학은 희소성에서 시작해. 원하는 것을 다 가질 수는 없거든.",
+        "c": "형용사는 scarce. scarcity는 바라는 것보다 자원이 적은 희소성, shortage는 모자람.",
+        "ipa": "ˈskɛrsəti",
+        "pos": "n.",
+        "word": "scarcity",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"42세트\",\"Exercise 11 · 지식 어휘 Ⅳ\",\"scarcity\",1,\"\"]"
+      },
+      "evidence": "현재 c: 형용사는 scarce. 한때 모자라는 것은 shortage.",
+      "reason": "한때 모자라는 것은 shortage라는 축약은 shortage가 반드시 일시적이라는 구별로 읽히기 쉽다. shortage의 핵심은 필요한 양보다 공급·보유량이 적다는 것이며 chronic shortages도 가능하다. 영구적인 scarcity 대 잠깐의 shortage로 단정하지 않고 예전 설명처럼 필요한 양을 기준으로 말하는 편이 정확하다.",
+      "proposed": {
+        "c": "형용사는 scarce. shortage는 필요한 양보다 모자란 상태."
+      },
+      "proposal_budget": {
+        "reading_seconds": 10.53,
+        "reading_cap": 12,
+        "comment_characters": 38,
+        "example_words": 10,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "현재 제안 그대로 세 기준을 충족한다.",
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/shortage"
+        },
+        {
+          "url": "https://www.collinsdictionary.com/us/dictionary/english/shortage"
+        }
+      ],
+      "note": "경제학 예문 자체는 적절하다. 일반어 해설의 범위를 좁게 읽게 하는 표현만 고치는 보완."
+    },
+    {
+      "id": "C00-09",
+      "set": 1,
+      "word": "night",
+      "si": 1,
+      "stable_id": "[\"1세트\",\"Exercise 10 · 91~100\",\"night\",1,\"\"]",
+      "exercise": "Exercise 10-1 · 91~100",
+      "classification": "제안",
+      "priority": "P3",
+      "title": "밤 앞에만에서 만을 빼면 규칙의 범위를 불필요하게 넓히지 않는다",
+      "location": {
+        "file": "pipeline/out/lesson01.json",
+        "line": 2385
+      },
+      "introduced_in_review_range": true,
+      "policy_conflict": false,
+      "current": {
+        "term": "night",
+        "meaning": "① 밤 (↔ day)",
+        "ex": "The stars come out at {{BLANK}}.",
+        "tr": "별은 밤에 나와.",
+        "c": "밤 앞에만 at: at night, in the morning.",
+        "ipa": "naɪt",
+        "pos": "n.",
+        "word": "night",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"1세트\",\"Exercise 10 · 91~100\",\"night\",1,\"\"]"
+      },
+      "before": {
+        "term": "night",
+        "meaning": "① 밤 (↔ day)",
+        "ex": "Owls hunt at {{BLANK}}.",
+        "tr": "올빼미는 밤에 사냥해.",
+        "c": "낮은 day. at night = 밤에.",
+        "ipa": "naɪt",
+        "pos": "n.",
+        "word": "night",
+        "si": 1,
+        "sn": 1,
+        "meow": "",
+        "savedCardId": "[\"1세트\",\"Exercise 10 · 91~100\",\"night\",1,\"\"]"
+      },
+      "evidence": "아침·오후·저녁·밤 네 표현을 비교하려는 취지는 이해된다. 하지만 독립된 해설에서 밤 앞에만 at이라고 하면 at noon/at midnight도 배제하는 일반 규칙처럼 읽힌다. 이는 문장 오류 지적이 아닌 초급 설명의 범위 명료화 제안이다.",
+      "reason": "아침·오후·저녁·밤 네 표현을 비교하려는 취지는 이해된다. 하지만 독립된 해설에서 밤 앞에만 at이라고 하면 at noon/at midnight도 배제하는 일반 규칙처럼 읽힌다. 이는 문장 오류 지적이 아닌 초급 설명의 범위 명료화 제안이다.",
+      "proposed": {
+        "c": "밤 앞엔 at: at night. 아침엔 in the morning."
+      },
+      "proposal_budget": {
+        "reading_seconds": 6.67,
+        "reading_cap": 12,
+        "comment_characters": 38,
+        "example_words": 6,
+        "forward_words": [],
+        "passes_reading": true,
+        "passes_72_characters": true,
+        "passes_forward_count": true,
+        "requires_manual_forward_judgment": false
+      },
+      "proposal_note": "현재 제안 그대로 세 기준을 충족한다.",
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/midnight",
+          "supports": "표준 용례에 at midnight를 제시한다."
+        }
+      ]
+    }
+  ],
+  "policy_suggestions": [
+    {
+      "id": "C16-P01",
+      "priority": "P3",
+      "classification": "제안",
+      "title": "소설의 독립 절 발췌 허용 범위를 문서에 명시",
+      "policy_conflict": true,
+      "policy": "PRINCIPLES.md 2-11은 문장부호·대사 꼬리·강조·첫 글자 외 변경을 제한한다.",
+      "cards": [
+        "16/wise/1",
+        "16/wisdom/1",
+        "17/courage/1",
+        "19/ashamed/1",
+        "22/worst/1",
+        "27/curious/2"
+      ],
+      "reason": "현재 카드에는 원문 긴 문장의 일부 연속 절을 떼어 낸 예가 여럿 있다. 어휘를 새로 고쳐 쓴 것이 아니고 의미도 보존되어 있어 카드 오류로 몰아 되돌리는 것은 이득이 작다. 다만 현재 문언과 실제 작업 범위는 일치하지 않는다.",
+      "proposal": "“문맥의 뜻이 바뀌지 않고 혼자 읽어도 성립하는 연속 구절은 발췌할 수 있다. 발췌 중간의 낱말을 재작성하거나 두 부분을 짜깁기하지 않는다.” 같은 문구를 승인 후 추가.",
+      "requires_user_approval": "원칙 범위 확장이므로 Claude가 영신에게 확인할 항목. 본 리뷰에서 앱이나 원칙은 수정하지 않음."
+    }
+  ],
+  "technical": {
+    "migration_resume_cases": 2026,
+    "migration_completion_cases": 13736,
+    "migration_failures": 0,
+    "old_versions_browser_checked": [
+      "e9c178d",
+      "acfe20e",
+      "5fdf148"
+    ],
+    "restoration_layers": 50,
+    "restoration_source_files": 47,
+    "restoration_matches_base": true,
+    "build_matches_committed_html_ignoring_eol": true,
+    "current_checks_passed": 34,
+    "historical_checks_not_applicable": 2,
+    "caveat": "milestones는 CRLF 문자열 비교 때문에 최초 실패. 읽기 단계 LF 정규화 후 통과. 9월29일 해시 고정 검사 두 개는 acfe20e에서도 이미 실패하므로 회귀로 집계하지 않는다."
+  },
+  "limitations": [
+    "실제 브라우저 검증은 Windows Chrome의 모바일 폭에서 수행했다. 실제 iPhone Safari 기기 시험은 하지 않았다.",
+    "사실·어원·발음에서 의심 지점과 요청서 지목 항목을 우선 대조했다. 모든 사실의 독립 외부 출처를 새로 전수 확보한 것은 아니다.",
+    "수정안은 읽기량·해설 72자·앞당김 개수 기준을 통과한다. 수정안 적용 후 폰 줄 수와 완성 문장 검사는 반영 담당자가 다시 실행해야 한다.",
+    "언어 학습 효과를 학생 실험으로 측정한 리뷰는 아니다."
+  ]
+}
