@@ -2,6 +2,13 @@
 
 갱신: 2026-10-13 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
 
+## 2026-10-13 · Oxford 5000 대조 · 결정 대기(데이터 변경 없음)
+
+- 영신이 Oxford 5000 PDF 4개(영·미, 알파벳·CEFR)를 올렸다. FABLE의 끝점을 CEFR C1로 정했다(PRINCIPLES 2-8, 영신 "CEFR 기준 C1 수준의 단어장이 FABLE이네").
+- 대조: 추가분 2,145개 중 1,279개는 이미 있음, 후보 836개(B2 282·C1 554, 파생어 301), 뺄 것 제안 30개(영국식 철자 10·예전에 뺀 12·좁은 말 dime·nickel·이미 있는 카드가 맡는 5). trafficking은 영신 결정. 결과 `pipeline/knowledge-map/oxford5000-coverage-20261013.json`.
+- 결정용 목록 페이지: https://claude.ai/artifact/Cn2Rq3monv24TEvGBS1J8B (배치 초안: B2 18~27세트, C1 28~45세트, 세트마다 새 연습 3개, 파생어는 기본형 세트 이상).
+- 다음: 영신 결정 → 3000 때처럼 하위 에이전트 초안·Claude 검토·원장·직검수·검사·배포.
+
 ## 2026-10-13 · Fable 독립 검토 반영 · main 배포(5a66345, [DEPLOYMENT](DEPLOYMENT.md))
 
 - Fable 5명(노력 xhigh)이 a8bbbd3의 바뀐 카드 1,651장을 나눠 읽었다. 24건(오류 0·보완 11·제안 13) 중 20건, 카드 23장을 반영했다(원장 `fable-review-20261013`). 결과·판정: [reviews/fable-20261013](reviews/fable-20261013/README.md).
