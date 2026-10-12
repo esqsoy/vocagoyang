@@ -1,0 +1,62 @@
+[
+  {
+    "id": "F3-01",
+    "set": 18,
+    "word": "lend",
+    "si": 1,
+    "classification": "보완",
+    "confidence": "medium",
+    "title": "loan 동사가 주로 미국식이라는 한정어가 빠져 지역 구분 없는 규칙이 됐다",
+    "current": {
+      "c": "이 뜻에서는 loan과 바꿔 쓸 수 있다. 빌리는 쪽은 borrow."
+    },
+    "proposed": {
+      "c": "이 뜻에서는 loan과 바꿔 쓸 수 있다(주로 미국). 빌리는 쪽은 borrow."
+    },
+    "evidence": "이전 해설 \"loan은 특히 미국에서 흔하다\"를 줄이며 지역 한정어가 사라졌다. OALD는 동사 loan을 \"(especially North American English) to lend something to somebody, especially money\"로 표시한다. 영국 영어에서는 loan 동사를 박물관에 귀중품을 대여하는 뜻 등으로 좁게 쓴다. 바꿔 쓸 수 있다는 안내(빈칸 중의성 대비, lend·loan 4칸)는 유지하되, PRINCIPLES 2-2(26.10.13)의 '줄일 때 한정어를 지우지 않는다'에 따라 범위를 되살린다. validate 읽기량 9.8초/12.",
+    "sources": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/loan_2"
+    ]
+  },
+  {
+    "id": "F3-02",
+    "set": 19,
+    "word": "railway",
+    "si": 1,
+    "classification": "보완",
+    "confidence": "medium",
+    "title": "railway가 미국에서도 기본 말인 것처럼 읽히게 줄였다",
+    "current": {
+      "c": "rail(선로)+way(길). 미국에서는 railroad도 쓴다."
+    },
+    "proposed": {
+      "c": "rail(선로)+way(길). 미국에서는 주로 railroad."
+    },
+    "evidence": "이전 해설 \"영국은 주로 railway, 미국은 주로 railroad\"가 \"미국에서는 railroad도 쓴다\"로 바뀌어, railway가 양쪽의 기본 말이고 railroad는 미국의 추가 선택지인 것처럼 읽힌다. OALD는 railway를 British English로, 북미 영어 대응어를 railroad로 표시한다(railroad 항목은 North American English, 영국식 railway). 미국 글에서 학생이 만날 기본 말은 railroad이므로 '주로'를 되살려 범위를 바로잡는다(PRINCIPLES 2-2 한정어 유지). 예문의 1825년 스톡턴-달링턴 철도 사실은 맞다. validate 읽기량 10.9초/12.",
+    "sources": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/railway",
+      "https://www.oxfordlearnersdictionaries.com/definition/english/railroad_1"
+    ]
+  },
+  {
+    "id": "F3-03",
+    "set": 25,
+    "word": "gene",
+    "si": 1,
+    "classification": "제안",
+    "confidence": "low",
+    "title": "유전자 '대부분'이 단백질 정보를 담는다는 수량 표현은 현재 주석 수와 어긋날 수 있다",
+    "current": {
+      "ex": "{{BLANK}}s are parts of DNA, and most carry instructions for making proteins.",
+      "tr": "유전자는 DNA의 일부이고, 대부분은 단백질을 만드는 정보를 담고 있어."
+    },
+    "proposed": {
+      "ex": "{{BLANK}}s are parts of DNA, and many carry instructions for making proteins.",
+      "tr": "유전자는 DNA의 일부이고, 많은 유전자가 단백질을 만드는 정보를 담고 있어."
+    },
+    "evidence": "예문은 이번에 바뀐 칸이 아니라 선택 사항으로만 남긴다. GENCODE 48 사람 유전체 주석은 단백질 암호화 유전자 19,435개, 긴 비암호화 RNA 유전자 35,901개, 작은 비암호화 RNA 유전자 7,563개로, 비암호화 RNA 유전자가 단백질 암호화 유전자보다 많다. 교과서식 단순화로 '단백질 정보를 담는다'는 서술 자체는 흔하지만, '대부분(most)'은 사람 기준 주석 수와 맞지 않는다. most→many로 바꾸면 길이·순서 통제·읽기량 변화 없이 PRINCIPLES 2-5(학문 용어 범위)를 더 안전하게 지킨다. 제안이라 proposal-3.py에는 넣지 않았다.",
+    "sources": [
+      "https://www.gencodegenes.org/human/stats"
+    ]
+  }
+]

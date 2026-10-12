@@ -1,0 +1,822 @@
+{
+ "date": "2026-10-13",
+ "name": "fable-review-20261013",
+ "status": "applied_locally_verified",
+ "authorization": "26.10.13 영신 \"2번으로 해보는거 어때\", \"반영할만한게 있으면 반영하고 배포해줘\"(Fable 독립 검토 5명, xhigh)",
+ "summary": "Fable 독립 검토 반영 23장: 한정어 되살림(lend·railway·congregation·pond·ought·third·angle 평면), 같은 칸 수 경쟁어(even/much·rather/fairly·path/lane·screw/twist·minister/preacher·clue/hint 구별), 카드 안 불일치(the 예시 dog→cat, specialize), 소설 작가·장 제목(mistake·beginning·depend·moral·believe), gene many, state 0세트 fifty와 겹침, queue 발음",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "c804de20a5888a66a1a955daf76aed634eed575d7e7eda4ff461ca440f5c0a18",
+   "afterHash": "9b95bf4e3768d843752ea6875850e1e6d6d755092921b78d5fcf3604d9ef3257",
+   "changes": [
+    {
+     "path": [
+      0,
+      "exercises",
+      3,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "처음 말할 땐 a, 다시 말할 땐 the: a dog → the dog.",
+     "new": "처음 말할 땐 a, 다시 말할 땐 the: a cat → the cat."
+    },
+    {
+     "path": [
+      1,
+      "exercises",
+      4,
+      "words",
+      12,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The United States is made up of fifty {{BLANK}}s.",
+     "new": "Alaska is the largest {{BLANK}} in the US."
+    },
+    {
+     "path": [
+      1,
+      "exercises",
+      4,
+      "words",
+      12,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "미국은 50개 주로 이루어져 있어.",
+     "new": "알래스카는 미국에서 가장 큰 주야."
+    },
+    {
+     "path": [
+      1,
+      "exercises",
+      10,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "first, second, third만 모양이 따로 논다. 넷째부터는 -th.",
+     "new": "first, second, third만 모양이 따로 논다. 넷째부터는 -th(21st·22nd·23rd는 예외)."
+    },
+    {
+     "path": [
+      2,
+      "exercises",
+      3,
+      "words",
+      14,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "『피터 팬』. believe in은 ‘~이 있다고 믿다, 신뢰하다’. believe him은 그의 말을 믿다.",
+     "new": "배리 『피터 팬』 13장의 제목. believe in은 ‘~이 있다고 믿다, 신뢰하다’. believe him은 그의 말을 믿다."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      4,
+      "words",
+      16,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "pretty와 바꿔 쓸 수 있다. pretty가 더 회화적이다.",
+     "new": "pretty·fairly와 바꿔 쓸 수 있다. pretty가 더 회화적이다."
+    },
+    {
+     "path": [
+      5,
+      "exercises",
+      6,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "비교급 앞: even hotter. very hotter(X).",
+     "new": "비교급 앞: even hotter. much hotter는 '훨씬'. very hotter(X)."
+    },
+    {
+     "path": [
+      9,
+      "exercises",
+      9,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "『빨강 머리 앤』. 실수하다: make a mistake.",
+     "new": "몽고메리 『빨강 머리 앤』. 실수하다: make a mistake."
+    },
+    {
+     "path": [
+      10,
+      "exercises",
+      0,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "『이상한 나라의 앨리스』의 왕. begin+ing은 n을 겹쳐 써.",
+     "new": "캐럴 『이상한 나라의 앨리스』의 왕. begin+ing은 n을 겹쳐 쓴다."
+    },
+    {
+     "path": [
+      10,
+      "exercises",
+      1,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "걷는 길을 살려 footpath(주로 영국)라고도 한다. 차가 달리면 road. 인생 진로도 path.",
+     "new": "차가 다니는 좁은 길은 lane, 큰길은 road. 걷는 길은 영국에서 footpath라고도 한다."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      3,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "주로 개신교 목사. 가톨릭 신부는 priest.",
+     "new": "주로 개신교 목사. 가톨릭 신부는 priest, 설교하는 사람은 preacher."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      4,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "『이상한 나라의 앨리스』의 체셔 고양이. depend on: ~에 달려 있다.",
+     "new": "캐럴 『이상한 나라의 앨리스』의 체셔 고양이. depend on: ~에 달려 있다."
+    },
+    {
+     "path": [
+      11,
+      "exercises",
+      6,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "『이상한 나라의 앨리스』의 공작부인. 형용사 moral은 ‘도덕적인’.",
+     "new": "캐럴 『이상한 나라의 앨리스』의 공작부인. 형용사 moral은 ‘도덕적인’."
+    },
+    {
+     "path": [
+      13,
+      "exercises",
+      3,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "늘 to와 함께: ought to+동사원형. should와 뜻이 비슷하다.",
+     "new": "to와 함께: ought to+동사원형. should와 뜻이 비슷하다."
+    },
+    {
+     "path": [
+      15,
+      "exercises",
+      4,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "A triangle's three {{BLANK}}s add up to 180 degrees.",
+     "new": "The three {{BLANK}}s of a triangle drawn on paper add up to 180 degrees."
+    },
+    {
+     "path": [
+      15,
+      "exercises",
+      4,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "삼각형의 세 각을 더하면 180도야.",
+     "new": "종이(평면)에 그린 삼각형의 세 각을 더하면 180도야."
+    },
+    {
+     "path": [
+      16,
+      "exercises",
+      2,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "반대는 unscrew(돌려서 풀다).",
+     "new": "반대는 unscrew(돌려서 풀다). 이 뜻에서는 twist와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      1,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 뜻에서는 loan과 바꿔 쓸 수 있다. 빌리는 쪽은 borrow.",
+     "new": "이 뜻에서는 loan과 바꿔 쓸 수 있다(주로 미국). 빌리는 쪽은 borrow."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      9,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "rail(선로)+way(길). 미국에서는 railroad도 쓴다.",
+     "new": "rail(선로)+way(길). 미국에서는 주로 railroad."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      1,
+      "words",
+      16,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "{{BLANK}}s are parts of DNA, and most carry instructions for making proteins.",
+     "new": "{{BLANK}}s are parts of DNA, and many carry instructions for making proteins."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      1,
+      "words",
+      16,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "유전자는 DNA의 일부이고, 대부분은 단백질을 만드는 정보를 담고 있어.",
+     "new": "유전자는 DNA의 일부이고, 많은 유전자가 단백질을 만드는 정보를 담고 있어."
+    },
+    {
+     "path": [
+      27,
+      "exercises",
+      8,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "도일 『셜록 홈스의 모험』에서 레스트레이드 경감이. hint와 바꿔 쓸 수 있다.",
+     "new": "도일 『셜록 홈스의 모험』의 레스트레이드 경감. 찾는 단서는 clue, 주는 암시는 hint."
+    },
+    {
+     "path": [
+      33,
+      "exercises",
+      3,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "lake(호수)보다 작고 얕다.",
+     "new": "보통 lake(호수)보다 작고 얕다."
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      2,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "specialize in ~ 꼴로 쓴다. 경제학에서는 '특화하다'.",
+     "new": "분야를 말할 땐 specialize in ~. 경제학에서는 '특화하다'."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      1,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "미국 영어에서는 한 집단으로 보아 단수 동사로 받는다.",
+     "new": "미국 영어에서는 보통 한 집단으로 보아 단수 동사로 받는다."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      5,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "미국은 line을 쓴다. 발음은 [큐], ueue는 소리 나지 않는다.",
+     "new": "미국은 line을 쓴다. 발음은 글자 Q와 같은 [큐]."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson01.json": {
+   "beforeHash": "9d08ed6f54382efb6bef5b66f31cc30c6b447ff59865c57f0e6af6a0af324361",
+   "afterHash": "7e6ca9f6c2986cef1f5444290674eaf189bf0910eb2945d09fdba674374164ec"
+  },
+  "pipeline/out/lesson02.json": {
+   "beforeHash": "5c020c8b485083b17006049a080a34b5adcbb79f6660d12f897cca3d6835a235",
+   "afterHash": "b0716c41be6eb437aa22480ddb09c871a843ccafdabca228a55ee981bb85bb26"
+  },
+  "pipeline/out/lesson03.json": {
+   "beforeHash": "ebb92a6c250f9f487d33dda4aa2b3328e2cba5fcec64bfe031478379f6d2ffac",
+   "afterHash": "930d5b3521beea0edf1f5bf88ab02e971e8be625b15cc27d8cb562ec27dc07ce"
+  },
+  "pipeline/out/set05.json": {
+   "beforeHash": "24c67e077a556dc0089e85b66b40648afe87fb664c29ca05d83033980cb2bde5",
+   "afterHash": "b02150b93a12efda1cee9dafcc9f603796e3ac085888d31bc1d9d58cb4d59699"
+  },
+  "pipeline/out/set09.json": {
+   "beforeHash": "f334c88ae038576509b508ceed8b181f93564c6a8d1d557596ed9e00134518ec",
+   "afterHash": "ae7280b9a72dbd04dd8aaf016f2a4fefa6052e61edc5112f86eee7b6da6773ae"
+  },
+  "pipeline/out/set10.json": {
+   "beforeHash": "5ddc72a1e924a5e8c436efa55e9e1e2d6319686176dc07e7b57ec0acfc672554",
+   "afterHash": "23324b1c04d5d58f25ab898b3f0f97346732affc1f8a7c615fb73a2b0a3884f1"
+  },
+  "pipeline/out/set11.json": {
+   "beforeHash": "cf5e7dbf72ece6895593426dbb15d562f15a6c51b03472981cf17a1e99f910c2",
+   "afterHash": "78c11c45c05e30533b64e327a43c7502a93238dfa6671b796d39f23fdcf41d27"
+  },
+  "pipeline/out/set13.json": {
+   "beforeHash": "d9bc0be95e73c4165593b80dc95eaf6bcf616ea1c19117a9f2dcedb3189b63c0",
+   "afterHash": "a4b6f49719fe6f26ecec6005cc47ce5072691394c04a01fce8828b4100be2366"
+  },
+  "pipeline/out/set15.json": {
+   "beforeHash": "c7e1f9aba606c8e6f92b5004c0868dbacc1979c62e3a0fb4b69ed0f283564140",
+   "afterHash": "c19805aaf42505416873c580e318e2f79f01932cdc424647ade6559c9e55a866"
+  },
+  "pipeline/out/set16.json": {
+   "beforeHash": "87a68e12ebbfe42eb8fb8750a72aa6637521bc9f85e719c11061dfc2d8e9ff1c",
+   "afterHash": "7e36c6712a9b70cb378ff9889ae2aaa3c4766a384541352906158a0a49ffe646"
+  },
+  "pipeline/out/set18.json": {
+   "beforeHash": "e0ba132535ca038abf68178e341d59daec526104552574ebe0d6d5078aa0b863",
+   "afterHash": "fb369273ac28cbfe6b77419dfd4af11b5af6547e15f9182b7f22d9bdaaedf377"
+  },
+  "pipeline/out/set19.json": {
+   "beforeHash": "2e6774d5311a55a601a338e9c69012c0a3bf57e18d104719ac3ad6897f130fb0",
+   "afterHash": "1c2ad10db2944a20ffce0289fb485ed474986d4fb3c4d07518ac1ec87084b37a"
+  },
+  "pipeline/out/set25.json": {
+   "beforeHash": "a835cdcd1c6f761ecd6f830b8ebf0eff6eabd53e54f561acd2bc383c4d8c4725",
+   "afterHash": "0865e4074c5032735b08b1669f807cd7dbaf8d1e8aaaa802fc5b4b016c285b29"
+  },
+  "pipeline/out/set27.json": {
+   "beforeHash": "34229075bfd9dd1efbf9bf41643f2c67d9d962cc5699094278fad90a88bce6c1",
+   "afterHash": "88c61c5dcb4c03721f2692e89899c3901d5c3a88102018cf9fdcc88a5b0f3b2d"
+  },
+  "pipeline/out/set33.json": {
+   "beforeHash": "f3b0d3b31be6d24999e3a13faef9c00951bcf2d21d09fbc15746f15c15f508b6",
+   "afterHash": "63f11c25deff8779de64f1aaf4242bcf5034dcf3165959c0b658a0e15c9bf9b0"
+  },
+  "pipeline/out/set34.json": {
+   "beforeHash": "48a04a7917d5ac7ebb303ddcb4409a36e49ea91e0bf1666897c157d80bb7948a",
+   "afterHash": "acc41580d6871a21d5b12c8622debff2dcedf1bccf2dfca7417f46f6fe3f26fa"
+  },
+  "pipeline/out/set40.json": {
+   "beforeHash": "a6630aa87fd1431ac00844f7de9823932c481c7eb0b48a4a791f8f777c9d2d0e",
+   "afterHash": "42c2f93f498c1b8965474a65b376d47a9c763c51d857a7768364b27a1a649792"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson01.json": [
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     12,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The United States is made up of fifty {{BLANK}}s.",
+    "new": "Alaska is the largest {{BLANK}} in the US."
+   },
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "미국은 50개 주로 이루어져 있어.",
+    "new": "알래스카는 미국에서 가장 큰 주야."
+   }
+  ],
+  "pipeline/out/lesson02.json": [
+   {
+    "path": [
+     "exercises",
+     3,
+     "words",
+     14,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "『피터 팬』. believe in은 ‘~이 있다고 믿다, 신뢰하다’. believe him은 그의 말을 믿다.",
+    "new": "배리 『피터 팬』 13장의 제목. believe in은 ‘~이 있다고 믿다, 신뢰하다’. believe him은 그의 말을 믿다."
+   }
+  ],
+  "pipeline/out/lesson03.json": [
+   {
+    "path": [
+     "exercises",
+     4,
+     "words",
+     16,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "pretty와 바꿔 쓸 수 있다. pretty가 더 회화적이다.",
+    "new": "pretty·fairly와 바꿔 쓸 수 있다. pretty가 더 회화적이다."
+   },
+   {
+    "path": [
+     "exercises",
+     5,
+     "words",
+     14,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "first, second, third만 모양이 따로 논다. 넷째부터는 -th.",
+    "new": "first, second, third만 모양이 따로 논다. 넷째부터는 -th(21st·22nd·23rd는 예외)."
+   }
+  ],
+  "pipeline/out/set05.json": [
+   {
+    "path": [
+     0,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "처음 말할 땐 a, 다시 말할 땐 the: a dog → the dog.",
+    "new": "처음 말할 땐 a, 다시 말할 땐 the: a cat → the cat."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "비교급 앞: even hotter. very hotter(X).",
+    "new": "비교급 앞: even hotter. much hotter는 '훨씬'. very hotter(X)."
+   }
+  ],
+  "pipeline/out/set09.json": [
+   {
+    "path": [
+     9,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "『빨강 머리 앤』. 실수하다: make a mistake.",
+    "new": "몽고메리 『빨강 머리 앤』. 실수하다: make a mistake."
+   }
+  ],
+  "pipeline/out/set10.json": [
+   {
+    "path": [
+     0,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "『이상한 나라의 앨리스』의 왕. begin+ing은 n을 겹쳐 써.",
+    "new": "캐럴 『이상한 나라의 앨리스』의 왕. begin+ing은 n을 겹쳐 쓴다."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "걷는 길을 살려 footpath(주로 영국)라고도 한다. 차가 달리면 road. 인생 진로도 path.",
+    "new": "차가 다니는 좁은 길은 lane, 큰길은 road. 걷는 길은 영국에서 footpath라고도 한다."
+   }
+  ],
+  "pipeline/out/set11.json": [
+   {
+    "path": [
+     3,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "주로 개신교 목사. 가톨릭 신부는 priest.",
+    "new": "주로 개신교 목사. 가톨릭 신부는 priest, 설교하는 사람은 preacher."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "『이상한 나라의 앨리스』의 체셔 고양이. depend on: ~에 달려 있다.",
+    "new": "캐럴 『이상한 나라의 앨리스』의 체셔 고양이. depend on: ~에 달려 있다."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "『이상한 나라의 앨리스』의 공작부인. 형용사 moral은 ‘도덕적인’.",
+    "new": "캐럴 『이상한 나라의 앨리스』의 공작부인. 형용사 moral은 ‘도덕적인’."
+   }
+  ],
+  "pipeline/out/set13.json": [
+   {
+    "path": [
+     3,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "늘 to와 함께: ought to+동사원형. should와 뜻이 비슷하다.",
+    "new": "to와 함께: ought to+동사원형. should와 뜻이 비슷하다."
+   }
+  ],
+  "pipeline/out/set15.json": [
+   {
+    "path": [
+     4,
+     "words",
+     5,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "A triangle's three {{BLANK}}s add up to 180 degrees.",
+    "new": "The three {{BLANK}}s of a triangle drawn on paper add up to 180 degrees."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "삼각형의 세 각을 더하면 180도야.",
+    "new": "종이(평면)에 그린 삼각형의 세 각을 더하면 180도야."
+   }
+  ],
+  "pipeline/out/set16.json": [
+   {
+    "path": [
+     2,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "반대는 unscrew(돌려서 풀다).",
+    "new": "반대는 unscrew(돌려서 풀다). 이 뜻에서는 twist와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set18.json": [
+   {
+    "path": [
+     1,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 뜻에서는 loan과 바꿔 쓸 수 있다. 빌리는 쪽은 borrow.",
+    "new": "이 뜻에서는 loan과 바꿔 쓸 수 있다(주로 미국). 빌리는 쪽은 borrow."
+   }
+  ],
+  "pipeline/out/set19.json": [
+   {
+    "path": [
+     9,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "rail(선로)+way(길). 미국에서는 railroad도 쓴다.",
+    "new": "rail(선로)+way(길). 미국에서는 주로 railroad."
+   }
+  ],
+  "pipeline/out/set25.json": [
+   {
+    "path": [
+     1,
+     "words",
+     16,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "{{BLANK}}s are parts of DNA, and most carry instructions for making proteins.",
+    "new": "{{BLANK}}s are parts of DNA, and many carry instructions for making proteins."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     16,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "유전자는 DNA의 일부이고, 대부분은 단백질을 만드는 정보를 담고 있어.",
+    "new": "유전자는 DNA의 일부이고, 많은 유전자가 단백질을 만드는 정보를 담고 있어."
+   }
+  ],
+  "pipeline/out/set27.json": [
+   {
+    "path": [
+     8,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "도일 『셜록 홈스의 모험』에서 레스트레이드 경감이. hint와 바꿔 쓸 수 있다.",
+    "new": "도일 『셜록 홈스의 모험』의 레스트레이드 경감. 찾는 단서는 clue, 주는 암시는 hint."
+   }
+  ],
+  "pipeline/out/set33.json": [
+   {
+    "path": [
+     3,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "lake(호수)보다 작고 얕다.",
+    "new": "보통 lake(호수)보다 작고 얕다."
+   }
+  ],
+  "pipeline/out/set34.json": [
+   {
+    "path": [
+     2,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "specialize in ~ 꼴로 쓴다. 경제학에서는 '특화하다'.",
+    "new": "분야를 말할 땐 specialize in ~. 경제학에서는 '특화하다'."
+   }
+  ],
+  "pipeline/out/set40.json": [
+   {
+    "path": [
+     1,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "미국 영어에서는 한 집단으로 보아 단수 동사로 받는다.",
+    "new": "미국 영어에서는 보통 한 집단으로 보아 단수 동사로 받는다."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "미국은 line을 쓴다. 발음은 [큐], ueue는 소리 나지 않는다.",
+    "new": "미국은 line을 쓴다. 발음은 글자 Q와 같은 [큐]."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson01.json": [],
+  "pipeline/out/lesson02.json": [],
+  "pipeline/out/lesson03.json": [],
+  "pipeline/out/set05.json": [],
+  "pipeline/out/set09.json": [],
+  "pipeline/out/set10.json": [],
+  "pipeline/out/set11.json": [],
+  "pipeline/out/set13.json": [],
+  "pipeline/out/set15.json": [],
+  "pipeline/out/set16.json": [],
+  "pipeline/out/set18.json": [],
+  "pipeline/out/set19.json": [],
+  "pipeline/out/set25.json": [],
+  "pipeline/out/set27.json": [],
+  "pipeline/out/set33.json": [],
+  "pipeline/out/set34.json": [],
+  "pipeline/out/set40.json": []
+ }
+}

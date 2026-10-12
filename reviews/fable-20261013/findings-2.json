@@ -1,0 +1,125 @@
+[
+  {
+    "id": "F2-01",
+    "set": 10,
+    "word": "path",
+    "si": 1,
+    "classification": "보완",
+    "confidence": "medium",
+    "title": "뜻 줄 '좁은 길'에 같은 4칸 lane이 들어맞는데 해설이 lane을 말하지 않는다",
+    "current": {
+      "ex": "We walked along a narrow {{BLANK}}.",
+      "tr": "우린 좁은 오솔길을 따라 걸었어.",
+      "c": "걷는 길을 살려 footpath(주로 영국)라고도 한다. 차가 달리면 road. 인생 진로도 path."
+    },
+    "proposed": {
+      "c": "차 다니는 좁은 길은 lane, 큰길은 road. 영국에선 footpath라고도. 인생 진로도 path."
+    },
+    "evidence": "문제 화면은 뜻 줄 '① 좁은 길, 오솔길' + 'We walked along a narrow ____.' + 4칸이다. lane(4자)은 사전 뜻이 '좁은 길(특히 시골의 좁은 찻길)'이라 'We walked along a narrow lane.'이 자연스럽게 성립한다(PRINCIPLES 3: 뜻·예문·칸 수만 보고 다른 영어 단어가 들어가면 결함). 해설은 footpath·road만 대비하고 lane이 없어, lane을 친 학생이 정당하게 틀린다. FABLE의 lane 카드(26세트 ① 차로)는 '차로' 뜻만 가르치므로, 여기서 '차 다니는 좁은 길은 lane'으로 대비해 두면 그 카드의 준비도 된다. 수정 해설 58자, 읽기량 약 9.8초(한도 12). footpath의 '주로 영국' 한정은 '영국에선 ~라고도'로 유지했다. 사전 사이트는 이 세션의 프록시가 차단(403)해 직접 확인하지 못했고 사전 지식으로 적었다.",
+    "sources": [
+      "https://dictionary.cambridge.org/dictionary/english/lane",
+      "https://www.oxfordlearnersdictionaries.com/definition/english/lane"
+    ]
+  },
+  {
+    "id": "F2-02",
+    "set": 15,
+    "word": "angle",
+    "si": 1,
+    "classification": "보완",
+    "confidence": "medium",
+    "title": "삼각형 내각 합 180도의 '평면' 조건을 줄이면서 지웠다(한정어 삭제)",
+    "current": {
+      "ex": "A triangle's three {{BLANK}}s add up to 180 degrees.",
+      "tr": "삼각형의 세 각을 더하면 180도야."
+    },
+    "proposed": {
+      "ex": "The three {{BLANK}}s of a triangle drawn on paper add up to 180 degrees.",
+      "tr": "종이(평면)에 그린 삼각형의 세 각을 더하면 180도야."
+    },
+    "evidence": "세 각의 합이 180도인 것은 평면(유클리드) 기하에서만 성립한다. 구면 위 삼각형은 180도를 넘고(지구 위에 직각 셋인 삼각형을 그릴 수 있다), 쌍곡면에서는 못 미친다. 이전 예문 'On a flat surface, …'는 이 범위를 담고 있었는데 세트 작업에서 지웠다. PRINCIPLES 2-2(26.10.13 '줄일 때 한정어를 지우지 않는다: 범위(미국 기준, 성충 등)는 남긴다')와 2-5(학문 용어는 짧아도 범위가 맞아야 한다)에 바로 걸리는 경우다. 다만 validate로 확인하니 triangle이 38세트 표제어라 지금 예문도 이미 앞당김 1이고, flat(16)을 되살리면 앞당김 2가 된다(그래서 지운 듯). 그래서 flat 없이 '종이에 그린 삼각형'으로 평면을 말하고 해석에 (평면)을 붙였다. 앞당김은 triangle 1개로 지금과 같고(drawn은 7세트 draw의 활용형, paper는 기초어), 빈칸 angle의 단서가 아니다. 읽기량 약 10.7초(한도 12), 정답 채운 문장 14단어. 수학 교과서도 평면을 전제로 가르치므로 학생에게 틀린 것을 가르친 것은 아니나, 이 프로젝트가 명시한 규칙에 어긋나고 고치는 비용이 작다.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sum_of_angles_of_a_triangle",
+      "https://mathworld.wolfram.com/SphericalTriangle.html"
+    ]
+  },
+  {
+    "id": "F2-03",
+    "set": 16,
+    "word": "screw",
+    "si": 3,
+    "classification": "보완",
+    "confidence": "medium",
+    "title": "'돌려 조이다'에 같은 5칸 twist가 들어맞는데 해설이 twist를 말하지 않는다",
+    "current": {
+      "ex": "{{BLANK}} the lid on tightly.",
+      "tr": "뚜껑을 단단히 돌려 닫아.",
+      "c": "반대는 unscrew(돌려서 풀다)."
+    },
+    "proposed": {
+      "c": "반대는 unscrew(돌려서 풀다). 뚜껑을 돌릴 땐 twist와 바꿔 쓸 수 있다."
+    },
+    "evidence": "뜻 줄 '③ 나사로 고정하다, 돌려 조이다' + '____ the lid on tightly.' + 5칸에서 twist(5자)가 들어간다. 'Twist the lid on tightly.'는 자연스러운 영어고(twist the cap/lid on·off는 흔한 연어), 한국어에서도 병의 돌려 닫는 뚜껑을 '트위스트 캡'이라 부르므로 학생이 twist를 떠올릴 가능성이 있다. 해설이 unscrew만 말하고 twist를 안내하지 않아 PRINCIPLES 3의 결함 조건(같은 칸 수 경쟁어가 해설에도 허용 정답에도 없음)에 해당한다. 예문은 이전부터 같았고 이번 작업에서 해설만 바뀌었지만, 현재 카드에 남아 있는 문제다. 수정 해설 47자, 읽기량 약 7.9초. 사전 사이트는 프록시 차단으로 직접 확인하지 못했다.",
+    "sources": [
+      "https://dictionary.cambridge.org/dictionary/english/twist",
+      "https://www.oxfordlearnersdictionaries.com/definition/english/twist_1"
+    ]
+  },
+  {
+    "id": "F2-04",
+    "set": 13,
+    "word": "ought",
+    "si": 1,
+    "classification": "제안",
+    "confidence": "low",
+    "title": "해설을 줄이며 '늘 to와 함께'라는 단정이 새로 들어갔다",
+    "current": {
+      "c": "늘 to와 함께: ought to+동사원형. should와 뜻이 비슷하다."
+    },
+    "proposed": {
+      "c": "to와 함께: ought to+동사원형. should와 뜻이 비슷하다."
+    },
+    "evidence": "이전 해설 'ought to+동사원형은 …'에는 없던 '늘'이 붙었다. 부정문·의문문에서는 to를 빼기도 한다(You ought not do that. / Ought we tell her? — 특히 영국·구어, 메리엄-웹스터·케임브리지 문법이 모두 적는다). 학습자에게 'ought to'를 기본형으로 가르치는 것은 맞지만, PRINCIPLES 2-2(26.10.13)의 '줄인 해설이 틀린 단정이 되기 쉽다, 만·늘 같은 말을 새로 붙이지 않는다'에 해당하므로 '늘'만 빼면 된다. 선택 사항.",
+    "sources": [
+      "https://www.merriam-webster.com/dictionary/ought",
+      "https://dictionary.cambridge.org/grammar/british-grammar/ought-to"
+    ]
+  },
+  {
+    "id": "F2-05",
+    "set": 11,
+    "word": "minister",
+    "si": 2,
+    "classification": "제안",
+    "confidence": "low",
+    "title": "'목사' 뜻에 같은 8칸 preacher가 들어맞는다",
+    "current": {
+      "ex": "The {{BLANK}} spoke at the church.",
+      "c": "주로 개신교 목사. 가톨릭 신부는 priest."
+    },
+    "proposed": {
+      "c": "주로 개신교 목사. 가톨릭 신부는 priest, 설교하는 사람은 preacher."
+    },
+    "evidence": "뜻 줄 '② 목사, 성직자' + 'The ____ spoke at the church.' + 8칸에서 preacher(8자)가 자연스럽게 들어간다(한국어 사전도 preacher를 설교자·목사로 옮긴다). pastor(6자)는 칸 수가 달라 문제없다. preacher는 중학생이 떠올릴 가능성이 낮아 낮은 우선순위로 두되, 해설 끝에 한 마디 붙이면 된다(45자, 읽기량 약 8.0초).",
+    "sources": [
+      "https://www.merriam-webster.com/dictionary/preacher"
+    ]
+  },
+  {
+    "id": "F2-06",
+    "set": 9,
+    "word": "mistake",
+    "si": 1,
+    "classification": "제안",
+    "confidence": "low",
+    "title": "소설 명문장 해설에 작가 이름이 빠진 카드 넷(몽고메리·캐럴)",
+    "current": {
+      "c": "『빨강 머리 앤』. 실수하다: make a mistake."
+    },
+    "proposed": {
+      "c": "몽고메리 『빨강 머리 앤』. 실수하다: make a mistake."
+    },
+    "evidence": "PRINCIPLES 2-11은 '해설 첫머리에 작가와 작품을 적는다'고 한다. 같은 슬라이스에서 alive(10)·glad(11)는 '몽고메리 『빨강 머리 앤』', advice·bone·dance·plenty·tail은 '(루이스) 캐럴 『…앨리스』'로 적었는데, mistake(9) '『빨강 머리 앤』', beginning(10) '『이상한 나라의 앨리스』의 왕', depend(11) '…의 체셔 고양이', moral(11) '…의 공작부인'은 작가가 없다. 네 장 모두 작가를 더해도 읽기량이 한도 안이다(mistake 약 10.6초, beginning 약 10.1초, depend 약 11.2초, moral 약 9.3초). 가르치는 손해는 작아 선택 사항으로 둔다. 인용문 자체는 모두 구텐베르크 원문과 글자까지 맞음을 확인했다.",
+    "sources": []
+  }
+]

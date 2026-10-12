@@ -2,6 +2,13 @@
 
 갱신: 2026-10-13 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
 
+## 2026-10-13 · Fable 독립 검토 반영 · 로컬(배포 전)
+
+- Fable 5명(노력 xhigh)이 a8bbbd3의 바뀐 카드 1,651장을 나눠 읽었다. 24건(오류 0·보완 11·제안 13) 중 20건, 카드 23장을 반영했다(원장 `fable-review-20261013`). 결과·판정: [reviews/fable-20261013](reviews/fable-20261013/README.md).
+- 반영: 줄이며 빠진 한정어 7(lend·railway·congregation·pond·ought·third·angle), 같은 칸 수 경쟁어 6(even/much·rather/fairly·path/lane·screw/twist·minister/preacher·clue/hint), the 해설 예시 dog→cat, specialize, 소설 작가·장 제목 5, gene many, state(0세트 fifty와 겹침), queue.
+- 반영 안 함 4: seventy(70%는 산지 비율, 검토자는 산림 면적과 비교), network/trade, gross ②, anthropology.
+- 검사 36/36, Chromium 390px 콘솔 오류 없음.
+
 ## 2026-10-13 · 아스트라 리뷰 반영 · main 배포(a8bbbd3, [DEPLOYMENT](DEPLOYMENT.md))
 
 - [reviews/codex-20261013](reviews/codex-20261013/README.md)의 수정안 23건을 모두 반영했다(원장 `astra-review-20261013`). 오류 11: life 복수 lifes, of·very 규칙, tax 해석, quantity·anxious 해설, loving·surgery 해석의 개, prime 정의, September 9월경, behalf. 보완·제안 12: puzzle·interesting·sharply 대체어 안내, fourteenth·insect·tablespoon 예문, straight·cure 해석, disease·fatal·scarcity·night 해설.

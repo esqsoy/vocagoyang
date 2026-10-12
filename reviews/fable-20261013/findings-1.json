@@ -1,0 +1,151 @@
+[
+  {
+    "id": "F1-01",
+    "set": 5,
+    "word": "even",
+    "si": 2,
+    "classification": "보완",
+    "confidence": "high",
+    "title": "even ② 빈칸에 같은 세트의 much(4칸)가 그대로 들어가는데 해설에서 much 구별이 빠졌다",
+    "current": {
+      "ex": "Today is {{BLANK}} hotter than yesterday.",
+      "c": "비교급 앞: even hotter. very hotter(X)."
+    },
+    "proposed": {
+      "c": "비교급 앞: even hotter. much hotter는 '훨씬'. very hotter(X)."
+    },
+    "evidence": "뜻 줄 '(비교급 앞) 한층 더, 더욱'과 4칸만 보면 'Today is much hotter than yesterday.'도 자연스럽다. much ②는 같은 5세트에 '(비교급 앞) 훨씬'으로 있어 학생이 바로 떠올릴 말이다. 이번 세트 작업 전 해설에는 'much hotter는 훨씬 더 덥다는 뜻이야'가 있었는데 줄이면서 빠졌다(PRINCIPLES 3: 같은 칸 수 경쟁어는 해설에 명시). 제안 해설 44자, 읽기량 9.3초.",
+    "sources": []
+  },
+  {
+    "id": "F1-02",
+    "set": 3,
+    "word": "rather",
+    "si": 3,
+    "classification": "보완",
+    "confidence": "medium",
+    "title": "rather ③ 빈칸에 fairly(6칸)도 들어가는데 해설은 pretty만 안내한다",
+    "current": {
+      "ex": "The water feels {{BLANK}} cold today.",
+      "c": "pretty와 바꿔 쓸 수 있다. pretty가 더 회화적이다."
+    },
+    "proposed": {
+      "c": "pretty·fairly와 바꿔 쓸 수 있다. pretty가 더 회화적이다."
+    },
+    "evidence": "'The water feels fairly cold today.'는 뜻 줄 '꽤, 다소'와 6칸을 모두 만족한다. 같은 3세트 pretty ② 해설은 'rather·fairly와 같은 말'로 둘을 다 적고, 22세트 fairly ① 해설도 'pretty·rather와 바꿔 쓸 수 있다'인데 rather 쪽만 fairly가 빠져 세 카드의 안내가 어긋난다. 제안 해설 34자, 읽기량 7.9초.",
+    "sources": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/fairly"
+    ]
+  },
+  {
+    "id": "F1-03",
+    "set": 0,
+    "word": "the",
+    "si": 1,
+    "classification": "보완",
+    "confidence": "medium",
+    "title": "the ① 예문은 cat으로 바꿨는데 해설 예시는 a dog → the dog로 남았다",
+    "current": {
+      "ex": "I saw a cat. {{BLANK}} cat was very big.",
+      "c": "처음 말할 땐 a, 다시 말할 땐 the: a dog → the dog."
+    },
+    "proposed": {
+      "c": "처음 말할 땐 a, 다시 말할 땐 the: a cat → the cat."
+    },
+    "evidence": "개→고양이 교체(PRINCIPLES 2-10) 때 예문만 바뀌고 해설 예시는 그대로다. 아스트라가 loving·surgery에서 잡은 '영어는 고양이, 한국어는 개' 잔재와 같은 종류가 해설 칸에 남은 것이다. 정답 화면에서 'I saw a cat. The cat…' 바로 아래 'a dog → the dog'를 읽게 되어 예문이 해설의 예가 아니게 된다. 제안 해설 29자, 읽기량 11.2초(기능어 한도 13초).",
+    "sources": []
+  },
+  {
+    "id": "F1-04",
+    "set": 0,
+    "word": "seventy",
+    "si": 1,
+    "classification": "보완",
+    "confidence": "medium",
+    "title": "seventy 지식 예문 '한국 국토의 약 70%가 산'은 통념상 어림값이고 공식 수치는 63~65%다",
+    "current": {
+      "ex": "About {{BLANK}} percent of Korea is mountains.",
+      "tr": "한국 땅의 약 70퍼센트는 산이야."
+    },
+    "proposed": {
+      "ex": "Elizabeth II was Britain's queen for {{BLANK}} years.",
+      "tr": "엘리자베스 2세는 70년 동안 영국의 여왕이었어."
+    },
+    "evidence": "산림청 산림기본통계 기준 산림 면적은 국토의 63.2%(2015)·62.6%(2020)이고, '70%'는 교과서·칼럼에서 되풀이되는 어림값이다. 지식 예문의 수치가 7포인트 과장된 채 단어와 함께 외워진다(PRINCIPLES 2-4·2-5). 70이 사실의 축인 다른 예문으로 바꾸는 쪽을 제안한다: 엘리자베스 2세는 1952년 2월 6일 즉위, 2022년 9월 8일 서거로 재위 70년(2022년 플래티넘 주빌리). 'Water covers about 70 percent of the Earth's surface'는 9세트 surface가 이미 쓰고 있어 피했다. validate 통과(표제어 밖·앞당김 없음, 읽기량 5.0초). 수치를 바로잡은 채 산 예문을 남기고 싶으면 seventy를 쓸 수 없으므로 예문 교체가 필요하다.",
+    "sources": [
+      "https://m.go.seoul.co.kr/news/2016/10/26/20161026500112",
+      "https://www.foxla.com/news/queen-elizabeth-ii-platinum-jubilee-british-monarch-celebrates-reign",
+      "https://services.dogonews.com/2022/2/7/queen-elizabeth-ii-is-the-first-british-monarch-to-celebrate-a-platinum-jubilee"
+    ]
+  },
+  {
+    "id": "F1-05",
+    "set": 0,
+    "word": "fifty",
+    "si": 1,
+    "classification": "제안",
+    "confidence": "low",
+    "title": "fifty(0세트)와 state ②(1세트)가 '미국은 50개 주'라는 같은 사실을 쓴다",
+    "current": {
+      "ex": "The United States has {{BLANK}} states."
+    },
+    "proposed": {
+      "ex": "The US flag has {{BLANK}} stars, one for each state.",
+      "tr": "미국 국기에는 주마다 하나씩, 별이 50개 있어."
+    },
+    "evidence": "1세트 state ② 'The United States is made up of fifty states.'와 같은 사실이 바로 앞 세트에 들어왔다(BRIEF 7 겹침: 같은 세트나 앞 세트에 같은 사실이 있으면 하나를 바꾼다). fifty 예문이 이번 작업에서 새로 쓴 쪽이다. 사실이 겹치되 다른 각도(국기의 별 50개)로 돌리는 안을 적어 두지만 선택 사항이다.",
+    "sources": []
+  },
+  {
+    "id": "F1-06",
+    "set": 8,
+    "word": "network",
+    "si": 1,
+    "classification": "제안",
+    "confidence": "low",
+    "title": "8세트 network와 trade가 모두 '고대~중세 실크로드' 사실을 쓴다",
+    "current": {
+      "ex": "From ancient times to the Middle Ages, the Silk Roads were a trade {{BLANK}}."
+    },
+    "proposed": {},
+    "evidence": "같은 8세트 trade ① 'In ancient times and the Middle Ages, Silk Road trade carried goods and ideas.'와 시기·소재가 같다(BRIEF 7). 둘 다 이번 작업에서 다시 쓴 예문인데 겹침이 그대로다. 둘 중 하나(network가 더 돌려 쓰기 쉽다: 지하철망·인맥 등)를 바꾸면 되지만 선택 사항이다.",
+    "sources": []
+  },
+  {
+    "id": "F1-07",
+    "set": 2,
+    "word": "believe",
+    "si": 1,
+    "classification": "제안",
+    "confidence": "low",
+    "title": "'Do you believe in fairies?'는 『피터 팬』 본문 문장이 아니라 13장 제목이다",
+    "current": {
+      "ex": "Do you {{BLANK}} in fairies?",
+      "c": "『피터 팬』. believe in은 ‘~이 있다고 믿다, 신뢰하다’. believe him은 그의 말을 믿다."
+    },
+    "proposed": {
+      "c": "배리 『피터 팬』 13장의 제목. believe in은 ‘~이 있다고 믿다, 신뢰하다’. believe him은 그의 말을 믿다."
+    },
+    "evidence": "구텐베르크 원문에서 이 문장은 'Chapter 13 DO YOU BELIEVE IN FAIRIES?'라는 장 제목으로만 나오고(quote.py CASE), 본문에는 'they soon don't believe in fairies', 'I don't believe in fairies'만 있다. 원작에 있는 글자이므로 2-11 위반은 아니지만, 다른 명문장 카드처럼 작가·장면을 적는 형식(2-11 '해설 첫머리에 작가와 작품')에 맞춰 '배리 … 13장의 제목'으로 밝히면 더 정확하다. 제안 해설 60자.",
+    "sources": [
+      "https://www.gutenberg.org/ebooks/16"
+    ]
+  },
+  {
+    "id": "F1-08",
+    "set": 1,
+    "word": "third",
+    "si": 1,
+    "classification": "제안",
+    "confidence": "low",
+    "title": "third 해설 '넷째부터는 -th'는 21st·22nd·23rd처럼 끝이 1·2·3인 서수를 배제한다",
+    "current": {
+      "c": "first, second, third만 모양이 따로 논다. 넷째부터는 -th."
+    },
+    "proposed": {
+      "c": "first·second·third만 따로 논다. 넷째부터 -th, 다만 21st·32nd·43rd는 다시 -st·-nd·-rd."
+    },
+    "evidence": "이번 작업에서 줄인 해설이 '넷째부터는 -th'로 단정이 됐다. 1~20에서는 맞지만 twenty-first, thirty-second, forty-third에서는 다시 -st·-nd·-rd다(2-2 '줄인 뒤에는 이 말이 언제나 맞나를 한 번 묻는다'). 1세트 학생에게 큰 비용은 아니어서 선택 사항으로 둔다. 제안 해설 71자.",
+    "sources": []
+  }
+]

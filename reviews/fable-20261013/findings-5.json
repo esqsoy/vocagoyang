@@ -1,0 +1,64 @@
+[
+  {
+    "id": "F5-01",
+    "set": 40,
+    "word": "congregation",
+    "si": 1,
+    "classification": "보완",
+    "confidence": "medium",
+    "title": "해설을 줄이며 '보통'을 지워 미국 영어 집합명사 규칙이 단정이 됐다",
+    "current": {
+      "c": "미국 영어에서는 한 집단으로 보아 단수 동사로 받는다."
+    },
+    "proposed": {
+      "c": "미국 영어에서는 보통 한 집단으로 보아 단수 동사로 받는다."
+    },
+    "evidence": "이전 해설은 '미국 영어에서는 보통 하나의 집단으로 보아 단수 동사로 받는다'였는데, 줄이면서 '보통'이 빠졌다. 미국 영어도 구성원 하나하나를 보는 문맥(The congregation were divided on the issue)에서는 복수 동사를 쓴다. Dictionary.com은 미국 영어에서 조직을 가리키는 집합명사가 'usually' 단수로 취급된다고 적고, Scribbr도 미국 문체 지침이 단수를 선호하지만 복수도 쓰인다고 적는다. PRINCIPLES 2-2(26.10.13)의 '줄일 때 한정어를 지우지 않는다' 규칙에 바로 해당하는 경우다. 수정 뒤 읽기량 7.9초/12초, 해설 32자(validate 통과).",
+    "sources": [
+      "https://www.dictionary.com/browse/collective%20noun",
+      "https://www.scribbr.com/nouns-and-pronouns/collective-nouns/"
+    ]
+  },
+  {
+    "id": "F5-02",
+    "set": 40,
+    "word": "queue",
+    "si": 1,
+    "classification": "제안",
+    "confidence": "low",
+    "title": "'ueue는 소리 나지 않는다'는 발음 설명이 느슨하다",
+    "current": {
+      "c": "미국은 line을 쓴다. 발음은 [큐], ueue는 소리 나지 않는다."
+    },
+    "proposed": {
+      "c": "미국은 line을 쓴다. 발음은 글자 Q와 같은 [큐]."
+    },
+    "evidence": "queue는 /kjuː/로, 글자 Q의 이름과 같은 소리다. 'q 뒤 네 글자가 묵음'이라는 말은 널리 퍼진 농담·암기법이지만 엄밀하지 않다. q가 /k/를 맡으면 /juː/ 모음은 뒤의 ueue가 내는 소리이므로 네 글자가 모두 소리 나지 않는다고는 할 수 없다. 학생이 [큐]로 읽게 되니 가르치는 비용은 거의 없다. 다만 '글자 Q와 같은 소리'라고 쓰면 같은 길이로 더 정확하고, 여러 발음 안내 글도 '글자 Q처럼 한 음절'로 설명한다. 수정 뒤 읽기량 8.8초(validate 통과).",
+    "sources": [
+      "https://pronounce.tv/word/queue",
+      "https://www.talkdrill.com/blog/how-to-pronounce/queue/"
+    ]
+  },
+  {
+    "id": "F5-03",
+    "set": 42,
+    "word": "anthropology",
+    "si": 1,
+    "classification": "제안",
+    "confidence": "low",
+    "title": "인류학 예문이 학문의 정의가 아니라 문화 상대주의 태도 한 면만 말한다",
+    "current": {
+      "ex": "{{BLANK}} tries to understand each culture by its own values, not ours.",
+      "tr": "인류학은 각 문화를 우리 기준이 아니라 그 문화의 가치로 이해하려고 해.",
+      "c": "그리스어 anthropos(사람)+-logy(학문)."
+    },
+    "proposed": {
+      "ex": "{{BLANK}} studies humans as a species and the many ways we live.",
+      "tr": "인류학은 종으로서의 인간과 우리가 살아가는 여러 방식을 연구해."
+    },
+    "evidence": "PRINCIPLES 2-5는 학문 용어 예문이 짧아도 정의의 범위가 맞아야 하고 '정의는 예문만으로 완결한다'고 정했다(같은 원칙으로 48세트 anthropology는 'studies humans as a whole, from bodies to cultures'로 고쳤다). 42세트의 이 예문은 문화를 그 문화의 가치로 이해한다는 문화 상대주의(cultural anthropology의 한 방법적 태도)만 말해, 생물·진화·언어·고고학까지 아우르는 인류학의 범위가 보이지 않는다. 이번 수정에서 해설의 '이런 태도가 cultural relativism(문화 상대주의)'을 지우자 예문이 곧 정의처럼 읽힌다. 문장 자체가 틀린 것은 아니고 48세트 카드가 넓은 정의를 맡고 있어 제안으로만 둔다. 브리태니커는 인류학을 'science of humanity'로, 인간의 생물학·진화사부터 사회·문화의 특징까지 다루는 학문으로 정의한다. 제안 예문은 48세트 문장과 겹치지 않으며 validate 통과(읽기량 10.0초, 앞당김 0).",
+    "sources": [
+      "https://www.britannica.com/summary/anthropology"
+    ]
+  }
+]
