@@ -9,7 +9,13 @@ const {runtime,candidates,LAYOUTS}=require('../set0-20261010/carry.cjs');
 const dataOf=h=>JSON.parse(h.match(/^const DATA = (\[.*\]);\s*$/m)[1]);
 const oldHtml=git('vocagoyangfable.html'),html=read('vocagoyangfable.html');
 const old=runtime(oldHtml,git('pipeline/saved-cards/runtime.js'),dataOf(oldHtml));
-const cur=runtime(html,read('pipeline/saved-cards/runtime.js'),dataOf(html));
+// 26.10.13: 이 검사는 fable-review-20261013까지의 판을 본다. 그 뒤 원장(3000급 채우기 pull-20261013 등)은 먼저 되돌린다.
+// 그 원장들의 진도·모아둔 카드 이어받기는 각자의 검사(pull.test.cjs 등)가 본다.
+const {hash,reverse}=require('../claude-review-20261008/ledger-lib.cjs');
+const {LAYERS}=require('../claude-review-20261008/restore.cjs');
+let now=dataOf(html);
+for(const L of LAYERS){if(L.name==='fable-review-20261013')break;const s=L.snapshots.DATA;assert.equal(hash(now),s.afterHash,'Unlogged change after '+L.name);now=reverse(now,s.changes,s.keyOrders);}
+const cur=runtime(html,read('pipeline/saved-cards/runtime.js'),now);
 const title=x=>x.L.id+'|'+x.e.title;
 const moved=new Map(plan.moves.flatMap(m=>m.cards.map(c=>[c.savedId,m])));
 

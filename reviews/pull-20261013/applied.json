@@ -1,0 +1,202 @@
+[
+ {
+  "set": 10,
+  "word": "trainer",
+  "si": 1,
+  "tag": "예문·해석",
+  "why": "순서 통제(2-1): 새 자리(앞 세트)에서 뒤에 배우는 단어가 둘 이상 + If it weren't for(34세트 문법) → 현재 시제",
+  "source": "pipeline/out/set34.json",
+  "before": {
+   "ex": "If it weren't for my {{BLANK}}, I'd skip every workout.",
+   "tr": "트레이너가 없으면 난 운동을 다 빼먹을 거야."
+  },
+  "after": {
+   "ex": "My {{BLANK}} at the gym makes me run every morning.",
+   "tr": "헬스장 트레이너가 나한테 매일 아침 달리기를 시켜."
+  },
+  "ko": "① 트레이너, 훈련시키는 사람",
+  "ex": "If it weren't for my {{BLANK}}, I'd skip every workout."
+ },
+ {
+  "set": 15,
+  "word": "virus",
+  "si": 1,
+  "tag": "예문·해석",
+  "why": "순서 통제(2-1): 새 자리(앞 세트)에서 뒤에 배우는 단어가 둘 이상(antibiotics 43, bacteria 18). 지식 예문으로: 감기·독감은 바이러스가 일으킨다(수동태는 14세트에서 배움)",
+  "source": "pipeline/out/set26.json",
+  "before": {
+   "ex": "Antibiotics fight bacteria, but they don't work on {{BLANK}}es.",
+   "tr": "항생제는 세균과 싸우지만, 바이러스에는 듣지 않아."
+  },
+  "after": {
+   "ex": "Colds and the flu are caused by {{BLANK}}es.",
+   "tr": "감기와 독감은 바이러스 때문에 걸려."
+  },
+  "ko": "① 바이러스",
+  "ex": "Antibiotics fight bacteria, but they don't work on {{BLANK}}es."
+ },
+ {
+  "set": 19,
+  "word": "aged",
+  "si": 2,
+  "tag": "예문·해석·고양",
+  "why": "순서 통제(2-1): 새 자리(앞 세트)에서 뒤에 배우는 단어가 둘 이상(onto·anymore 23). 대사도 새 예문에 맞춤",
+  "source": "pipeline/out/set36.json",
+  "before": {
+   "ex": "Our {{BLANK}} cat can't jump onto my bed anymore.",
+   "tr": "우리 늙은 고양이는 이제 내 침대에도 못 뛰어올라.",
+   "meow": "못 뛰는 게 아니라 안 뛰는 거라고양. 품위 관리라고양."
+  },
+  "after": {
+   "ex": "Our {{BLANK}} cat sleeps most of the day now.",
+   "tr": "우리 늙은 고양이는 이제 하루 대부분을 자.",
+   "meow": "자는 게 아니라 명상하는 거라고양. 품위 관리라고양."
+  },
+  "ko": "② 나이 든, 늙은",
+  "ex": "Our {{BLANK}} cat can't jump onto my bed anymore."
+ },
+ {
+  "set": 11,
+  "word": "fiction",
+  "si": 2,
+  "tag": "예문·해석",
+  "why": "새 자리에 너무 이른 문법(조명 문법 지도 기준): 쉬운 문형으로(과거완료 26 + 관계절)",
+  "source": "pipeline/out/set26.json",
+  "before": {
+   "ex": "The story he had told us turned out to be {{BLANK}}.",
+   "tr": "걔가 우리한테 해 준 이야기는 꾸며 낸 걸로 밝혀졌어."
+  },
+  "after": {
+   "ex": "His story about meeting a famous singer was pure {{BLANK}}.",
+   "tr": "유명 가수를 만났다는 걔 얘기는 순전히 지어낸 거였어."
+  },
+  "ko": "② 꾸며 낸 이야기, 허구",
+  "ex": "The story he had told us turned out to be {{BLANK}}."
+ },
+ {
+  "set": 18,
+  "word": "shy",
+  "si": 1,
+  "tag": "예문·해석",
+  "why": "새 자리에 너무 이른 문법(조명 문법 지도 기준): 쉬운 문형으로(가정법 과거완료 33). 해설의 too shy to를 예문이 보여 줌",
+  "source": "pipeline/out/set33.json",
+  "before": {
+   "ex": "If I hadn't been so {{BLANK}}, I would have talked to her.",
+   "tr": "내가 그렇게 수줍어하지만 않았어도 걔한테 말을 걸었을 텐데."
+  },
+  "after": {
+   "ex": "My little brother is too {{BLANK}} to talk to new people.",
+   "tr": "내 남동생은 너무 수줍어서 처음 보는 사람과 말을 못 해."
+  },
+  "ko": "① 수줍은, 부끄럼 타는",
+  "ex": "If I hadn't been so {{BLANK}}, I would have talked to her."
+ },
+ {
+  "set": 18,
+  "word": "embarrassed",
+  "si": 1,
+  "tag": "예문·해석",
+  "why": "새 자리에 너무 이른 문법(조명 문법 지도 기준): 쉬운 문형으로(must have p.p. 35)",
+  "source": "pipeline/out/set35.json",
+  "before": {
+   "ex": "You must have been so {{BLANK}} when you fell!",
+   "tr": "넘어졌을 때 너 진짜 민망했겠다!"
+  },
+  "after": {
+   "ex": "I was so {{BLANK}} when I fell at school.",
+   "tr": "학교에서 넘어졌을 때 너무 민망했어."
+  },
+  "ko": "① 민망한, 쑥스러운",
+  "ex": "You must have been so {{BLANK}} when you fell!"
+ },
+ {
+  "set": 18,
+  "word": "relaxed",
+  "si": 1,
+  "tag": "예문·해석",
+  "why": "새 자리에 너무 이른 문법(조명 문법 지도 기준): 쉬운 문형으로(부정어 도치 37)",
+  "source": "pipeline/out/set37.json",
+  "before": {
+   "ex": "Not until I got home did I feel {{BLANK}}.",
+   "tr": "집에 오고 나서야 긴장이 풀렸어."
+  },
+  "after": {
+   "ex": "I finally felt {{BLANK}} after the exam was over.",
+   "tr": "시험이 끝나고 나서야 긴장이 풀렸어."
+  },
+  "ko": "① 긴장이 풀린, 느긋한",
+  "ex": "Not until I got home did I feel {{BLANK}}."
+ },
+ {
+  "set": 23,
+  "word": "cottage",
+  "si": 1,
+  "tag": "예문·해석",
+  "why": "새 자리에 너무 이른 문법(조명 문법 지도 기준): 쉬운 문형으로(장소 도치 37)",
+  "source": "pipeline/out/set37.json",
+  "before": {
+   "ex": "By the lake stood a small {{BLANK}}.",
+   "tr": "호숫가에 작은 시골집 한 채가 서 있었어."
+  },
+  "after": {
+   "ex": "My grandparents live in a small {{BLANK}} by the lake.",
+   "tr": "우리 할아버지 할머니는 호숫가의 작은 시골집에 사셔."
+  },
+  "ko": "① 작은 시골집, 전원주택",
+  "ex": "By the lake stood a small {{BLANK}}."
+ },
+ {
+  "set": 16,
+  "word": "noisy",
+  "si": 1,
+  "tag": "예문·해석",
+  "why": "새 자리에 너무 이른 문법(조명 문법 지도 기준): 쉬운 문형으로(However+형용사 41)",
+  "source": "pipeline/out/set41.json",
+  "before": {
+   "ex": "However {{BLANK}} the class gets, our teacher never shouts.",
+   "tr": "반이 아무리 시끄러워져도 우리 선생님은 절대 소리 안 지르셔."
+  },
+  "after": {
+   "ex": "The class got {{BLANK}}, but our teacher never shouted.",
+   "tr": "반이 시끄러워졌는데도 우리 선생님은 소리를 안 지르셨어."
+  },
+  "ko": "① 시끄러운",
+  "ex": "However {{BLANK}} the class gets, our teacher never shouts."
+ },
+ {
+  "set": 13,
+  "word": "mobile",
+  "si": 1,
+  "tag": "예문·해석",
+  "why": "순서 통제(2-1): clinic(27) 대신 이미 배운 library로",
+  "source": "pipeline/out/set27.json",
+  "before": {
+   "ex": "The hospital sent a {{BLANK}} clinic to our town.",
+   "tr": "병원이 우리 동네에 이동 진료소를 보냈어."
+  },
+  "after": {
+   "ex": "A {{BLANK}} library visits our town every Friday.",
+   "tr": "이동 도서관이 금요일마다 우리 동네에 와."
+  },
+  "ko": "① 이동식의, 움직이는",
+  "ex": "The hospital sent a {{BLANK}} clinic to our town."
+ },
+ {
+  "set": 14,
+  "word": "teenage",
+  "si": 1,
+  "tag": "예문·해석",
+  "why": "순서 통제(2-1): noon(31) 대신 시각으로",
+  "source": "pipeline/out/set31.json",
+  "before": {
+   "ex": "My {{BLANK}} cousin sleeps until noon on Sundays.",
+   "tr": "내 십 대 사촌은 일요일에 정오까지 자."
+  },
+  "after": {
+   "ex": "My {{BLANK}} cousin sleeps until eleven on Sundays.",
+   "tr": "내 십 대 사촌은 일요일마다 열한 시까지 자."
+  },
+  "ko": "① 십 대의",
+  "ex": "My {{BLANK}} cousin sleeps until noon on Sundays."
+ }
+]

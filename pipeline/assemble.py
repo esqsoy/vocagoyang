@@ -286,6 +286,52 @@ for move in set5['moves']:
 if sum(len(m['cards']) for m in set5['moves']) != len(moving) or any(is_moving(w) for e in lessons[5]['exercises'] for w in e['words']):
     raise ValueError('Set 5 plan must move each card exactly once')
 
+# 26.10.13 3000급 채우기(영신 결정, PRINCIPLES 2-8): 26~45세트에 있던 Oxford 3000 A1~B1 기초어 291장을 9~25세트 끝
+# 새 연습(세트마다 한 주제 묶음)으로 당긴다. 저작 위치는 그대로(set26~45.json)다. 계획은 pull-20261013/plan.json.
+# 카드가 빠지는 연습은 제목·진도 키를 그대로 두고 배포판 목록(deployedWords, 그 판의 이어하기 표시 deployedLayout)을 남긴다.
+# 처음 빼는 연습은 빼기 전 목록(preDeletion)도 배포판 목록이다. 게임이 그 판의 완료 기록·모아둔 카드 ID·이어하기 제목을 잇는다.
+pull = read(P / 'pull-20261013/plan.json')
+pull_key = lambda n, w: (n, w.get('word') or w['en'], w.get('si') or 1)
+pull_moving = {(c['set'], c['word'], c['si']) for m in pull['moves'] for c in m['cards']}
+pull_order = {n: [w for e in lessons[n]['exercises'] for w in e['words']] for n in range(26, 46)}
+pull_cards = {pull_key(n, w): w for n, order in pull_order.items() for w in order if pull_key(n, w) in pull_moving}
+if len(pull_cards) != len(pull_moving):
+    raise ValueError('Pull plan names a card that is not in sets 26-45')
+for deployed in pull['deployed']:
+    exercise = next(e for e in lessons[deployed['set']]['exercises'] if e['ex'] == deployed['ex'])
+    now = [{'word': w.get('word') or w['en'], 'si': w.get('si') or 1} for w in exercise['words']]
+    if now != deployed['words'] or exercise.get('practiceParts') != deployed['parts']:
+        raise ValueError(f"Set {deployed['set']} exercise {deployed['ex']} differs from the deployed layout")
+    if 'deployedWords' in exercise or ('preDeletion' in exercise) != deployed['earlierRemoval']:
+        raise ValueError(f"Set {deployed['set']} exercise {deployed['ex']} has an unexpected removal history")
+    keep = [w for w in exercise['words'] if pull_key(deployed['set'], w) not in pull_moving]
+    if not keep:
+        raise ValueError('Pulling would empty an exercise')
+    exercise.setdefault('preDeletion', now)
+    exercise['deployedWords'], exercise['deployedLayout'] = now, pull['layout']
+    exercise['words'] = keep
+for move in pull['moves']:
+    target = lessons[move['to']]
+    if max(e['ex'] for e in target['exercises']) + 1 != move['ex']:
+        raise ValueError(f"Set {move['to']} should end with exercise {move['ex'] - 1}")
+    words = []
+    for ref in move['cards']:
+        card = pull_cards[(ref['set'], ref['word'], ref['si'])]
+        if card.get('savedId', ref['savedId']) != ref['savedId']:
+            raise ValueError('Pull plan disagrees with a fixed saved ID')
+        card['savedId'], card['priorKeys'] = ref['savedId'], ref['priorKeys']
+        # 0세트 계획이 이 카드에 둔 옛 이어하기는 같은 세트에 남는 다음 카드(없으면 앞 카드)로 넘긴다(5세트 분산과 같은 규칙).
+        if 'resumeFrom' in card:
+            order = pull_order[ref['set']]
+            i = next(k for k, w in enumerate(order) if w is card)
+            stay = lambda w: pull_key(ref['set'], w) not in pull_moving
+            anchor = next((w for w in order[i + 1:] if stay(w)), None) or next(w for w in reversed(order[:i]) if stay(w))
+            anchor['resumeFrom'] = anchor.get('resumeFrom', []) + card.pop('resumeFrom')
+        words.append(card)
+    target['exercises'].append({'ex': move['ex'], 'name': move['name'], 'words': words})
+if any(pull_key(n, w) in pull_moving for n in range(26, 46) for e in lessons[n]['exercises'] for w in e['words']):
+    raise ValueError('Pull plan must move each card exactly once')
+
 src = HTML.read_text(encoding='utf-8')
 constants = [('DATA', data), ('READING_CORE', core), ('MORPHOLOGY', morph)]
 if connections:

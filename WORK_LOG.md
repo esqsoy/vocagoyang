@@ -1367,3 +1367,24 @@
   - Chromium 360·390px에서 인덱스 제목과 게임 제목이 한 줄로 나오고 가로 넘침이 없다.
 - 남은 일: 기초어 당기기 → 836장 → 실측 뒤 인덱스 % 문구 → 배포(요청 시).
 
+## 2026-10-13 · 3000급 채우기: 26~45세트 A1~B1 기초어 293장을 9~25세트로(로컬)
+
+- 요청: 영신 "그외 모두 동의!". 기초어를 3000급으로 당기는 안이다. PRINCIPLES 2-8.
+- 한 일:
+  - `pipeline/pull-20261013/`: spec.json(주제 묶음 17개, 뺀 것과 이유), build-plan.cjs, plan.json(배포판 5a66345에서 계산), spotlight-gaps.json.
+  - `assemble.py`에 당기기 단계를 넣었다.
+  - 게임: deployedLayout을 전달하고, "20261012" 배포판 저장을 잇고, 저장 표시를 "20261013"으로 올렸다. 옛 판 제목을 남은 판에 물려주게 했다.
+  - 예문 11장을 고쳤다(`reviews/pull-20261013/proposal.py`, applied.json).
+  - 원장 `pull-20261013`을 복원 체인 맨 위에 올렸다.
+  - 검사: `pipeline/tests/pull.test.cjs`를 새로 만들었다. `set5.test.cjs`는 fable-review-20261013 뒤의 원장을 되돌린 판을 보게 했다.
+- 처음 대조에서 놓친 것: Oxford의 영국식 철자 maths·traveller·coloured. 미국식 카드로 세어 math·traveler·colored를 함께 옮겼다.
+- 조명 문법: 옮긴 카드 23장이 26~44세트의 조명 문법 예문이었다. 6장은 새 자리에 너무 이른 문법이라 예문을 고쳤고(shy·embarrassed·relaxed·cottage·noisy·fiction ②), 나머지는 쉬운 문장이라 두었다. 원래 세트에서 준 18항목은 836장 작업 때 채운다.
+- 검증(새로 실행):
+  - 검사 39개 통과.
+  - ordercheck: 0~45세트에 앞당김이 둘 이상인 예문 0장.
+  - deepcheck A1·A2·A3·A5·A7 0건. A6 16건과 A8 1건(kinda)은 전부터 있던 것이다.
+  - linecheck 390·360px 초과 0.
+  - Chromium smoke(390px) 콘솔 오류 없음.
+- 처음 실패한 것: pull.test가 옛 heads-v2 저장 하나(27세트 Exercise 8-2)를 찾지 못했다. 게임에서 옛 판 제목을 물려주게 고쳐 통과했다.
+- 남은 일: 영신 직검수 → 836장 → 인덱스 % 문구 → 배포(요청 시).
+
