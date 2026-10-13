@@ -2,12 +2,12 @@
  "date": "2026-10-13",
  "name": "soseki-i-20261013",
  "status": "applied_locally_verified",
- "authorization": "영신 26.10.13: \"B 좋다 해석도 그렇게 가자\"",
- "summary": "0세트 I 카드: 저작권이 살아 있는 Ito·Wilson 번역 \"I am a cat. As yet I have no name.\"을 원문(吾輩は猫である。名前はまだ無い。)을 직접 옮긴 \"I am a cat, but I don't have a name yet.\"으로, 해석을 \"나는 고양이다. 이름은 아직 없다.\"로.",
+ "authorization": "영신 26.10.13: \"B 좋다 해석도 그렇게 가자\", \"I는 항상 대문자로 쓴다. 를 맨 앞에 놓고 나머지 내용을 쓰자\"",
+ "summary": "0세트 I 카드: 저작권이 살아 있는 Ito·Wilson 번역 \"I am a cat. As yet I have no name.\"을 원문(吾輩は猫である。名前はまだ無い。)을 직접 옮긴 \"I am a cat, but I don't have a name yet.\"으로, 해석을 \"나는 고양이다. 이름은 아직 없다.\"로, 해설은 \"I는 항상 대문자로 쓴다.\"를 앞에.",
  "snapshots": {
   "DATA": {
    "beforeHash": "0a35fea24e7b91cfadc2e555d0bdd7e013f6653ac56ed0fafc33774f4117b9c0",
-   "afterHash": "47b708454062c48fd49fcf82826445daf57f235709cf0e8b1ce1054f5606babf",
+   "afterHash": "b92b60018472e52e8a7c70b5de3bc8ebd1bd41a78d48346929b86c16eb8776db",
    "changes": [
     {
      "path": [
@@ -49,7 +49,7 @@
      "oldExists": true,
      "newExists": true,
      "old": "나쓰메 소세키의 소설 『나는 고양이로소이다』 첫 문장. I는 문장 가운데서도 늘 대문자.",
-     "new": "나쓰메 소세키 『나는 고양이로소이다』 첫 문장을 옮긴 것. I는 문장 가운데서도 늘 대문자."
+     "new": "I는 항상 대문자로 쓴다. 나쓰메 소세키 『나는 고양이로소이다』 첫 문장을 옮긴 것."
     }
    ],
    "keyOrders": []
@@ -58,7 +58,7 @@
  "sourceSnapshots": {
   "pipeline/out/lesson00.json": {
    "beforeHash": "eef9f7aaece32ddc659e7f2570f67f664ebc1a16c02ab951f50a8ccdead871e0",
-   "afterHash": "3e1d03aaaf495d9c1f89d3ce88260de64376c8e2c9ff4719c05c641c3f3bda38"
+   "afterHash": "20f3a8ac9c70c2f4795ea3ece9ad735dc5343f926b2aff8cacdbad64066984c5"
   }
  },
  "sourceChanges": {
@@ -100,7 +100,7 @@
     "oldExists": true,
     "newExists": true,
     "old": "나쓰메 소세키의 소설 『나는 고양이로소이다』 첫 문장. I는 문장 가운데서도 늘 대문자.",
-    "new": "나쓰메 소세키 『나는 고양이로소이다』 첫 문장을 옮긴 것. I는 문장 가운데서도 늘 대문자."
+    "new": "I는 항상 대문자로 쓴다. 나쓰메 소세키 『나는 고양이로소이다』 첫 문장을 옮긴 것."
    }
   ]
  },
