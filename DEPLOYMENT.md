@@ -1,3 +1,19 @@
+# 26~45세트 색 확정·맨 밑 알림 없앰·진행 속도 예측 배포 · 2026-10-13
+
+- 커밋 [1480093](https://github.com/esqsoy/vocagoyang/commit/1480093)을 origin/main에 fast-forward로 푸시했다(faca268 다음, 배포 기록 8b93b64 포함). [Pages 38352096656](https://github.com/esqsoy/vocagoyang/actions/runs/38352096656) 성공(05:34:36~05:35:23 UTC). 영신: "다 되면 배포해주십쇼!"
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE df6c40d, 수능 9779fea, EBS 575b2d9, index a5c2ba2). github.io는 이 세션에서 열리지 않아 공개 화면은 직접 보지 못했다.
+- 포함:
+  - FABLE 세트 색: 0~25세트 라벤더 번호, 26~45세트 로즈 타일·분홍 번호. 26~50세트 완료 금색 테두리 고침.
+  - 세 과정: 맨 밑 알림을 없애고 고양이 대사를 그 화면 고양이 말풍선으로 옮겼다. 시작 대사가 떠 있는 동안 첫 카드 시간은 멈춘다. 모아둔 카드 목록 복사 결과는 버튼 글자로 보여 준다.
+  - 세 과정: 진행 속도 예측(`pipeline/pace/`)을 넣었다. 판마다 날짜·시각·실제 시간을 이 브라우저에 적고, 10판 뒤부터 결과 화면에 예측을 보여 준다.
+- 배포 전 검사(1480093과 같은 내용에서 실행):
+  - 검사 41개: 테스트 35개(pace 추가)와 빌드 `--check` 6종.
+  - Chromium 390·360px에서 세 과정 시작 대사·카드 담기·예측 시나리오 6종을 확인했다. 콘솔 오류가 없다.
+  - FABLE smoke와 B1/C1 확인.
+  - 실기기 Safari는 확인하지 않았다.
+
+---
+
 # 인덱스 마더텅 카드 문구 빼기 배포 · 2026-10-13
 
 - 커밋 [2582be2](https://github.com/esqsoy/vocagoyang/commit/2582be2)를 origin/main에 fast-forward로 푸시했다(aafcf99 다음, 배포 기록 0f3b5dc 포함). [Pages 38345811877](https://github.com/esqsoy/vocagoyang/actions/runs/38345811877) 성공(04:18:31~04:19:16 UTC). 영신: "마더텅 버튼에서는 fable이하는 삭제"
