@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-13",
+ "name": "not-cat-20261013",
+ "status": "applied_locally_verified",
+ "authorization": "영신 26.10.13: \"not 에서 예문 바꾸자 뭔말인지 모르겠어 고양이의 변호사 이야기도 뭔지 모르겠음\"",
+ "summary": "0세트 not 카드: 고양이 필터 변호사 밈(\"I'm here live. I'm not a cat.\")을 \"My cat is not fat. She is just big.\"으로, 대사도 바꿈.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "b92b60018472e52e8a7c70b5de3bc8ebd1bd41a78d48346929b86c16eb8776db",
+   "afterHash": "a223a581dac680a662115b36d1150af94ab70e68dd737b1bd85a25dcc23ec793",
+   "changes": [
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "I'm here live. I'm {{BLANK}} a cat.",
+     "new": "My cat is {{BLANK}} fat. She is just big."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "저 지금 생방송 중이에요. 저 고양이 아니에요.",
+     "new": "우리 고양이는 뚱뚱한 게 아니야. 그냥 덩치가 큰 거야."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      7,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "고양이 필터를 못 끈 변호사의 명대사라고양.",
+     "new": "살찐 거 아니라고양. 뼈가 굵은 거라고양!"
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/set05.json": {
+   "beforeHash": "74a9f58bb9d52c3f673c0155816b6dc508f549d6a692c5dbeff5690712c5c9ea",
+   "afterHash": "bd6f069c6786579b47918b61f6cd789e46d2be5e9d208376fa71d605c486419c"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/set05.json": [
+   {
+    "path": [
+     1,
+     "words",
+     17,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "I'm here live. I'm {{BLANK}} a cat.",
+    "new": "My cat is {{BLANK}} fat. She is just big."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     17,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "저 지금 생방송 중이에요. 저 고양이 아니에요.",
+    "new": "우리 고양이는 뚱뚱한 게 아니야. 그냥 덩치가 큰 거야."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     17,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "고양이 필터를 못 끈 변호사의 명대사라고양.",
+    "new": "살찐 거 아니라고양. 뼈가 굵은 거라고양!"
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/set05.json": []
+ }
+}
