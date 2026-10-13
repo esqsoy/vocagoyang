@@ -12,8 +12,8 @@
 - **한 것(게임 코드·문서만, 카드 데이터는 그대로):** `.lessonbtn.upper` 색, 헤더 `#levelBtn`(B1/C1, 기본 C1, `goyang-fable-level-v1`), 게임이 열릴 때 세트·연습 번호 계산(displayTitle, 기록 열쇠 title은 그대로), 모아둔 카드 출처 표시도 displayTitle(`pipeline/saved-cards/runtime.js` → 세 과정 다시 빌드). 검사 `pipeline/tests/level-scope.test.cjs` 추가, 37개 검사 통과, Chromium 390·360px 확인.
 - **실측:** 2027 마더텅 수록 기출 지문 발췌 41,309단어에서 FABLE 89.0%(정답 단어를 뺀 나머지 95.5%), 836개를 넣으면 94.0%(97.2%), 마더텅 표제어까지 98.4%. 인덱스 설명('직독직해선 95%')을 이 근거로 고칠 예정이다.
 - **대기:**
-  - 새 이름은 영신이 후보 중에서 고른다(FABLE 5000 대신).
-  - 인덱스 문구는 이름이 정해지면 고친다.
+  - 이름은 FABLE로 정했다(5000만 뺌, 영신). 인덱스 제목과 꼬리표 '기초~C1', 게임 안 제목 'Fable · 기초~C1 직독직해 영단어'는 반영했다(로컬).
+  - 인덱스 % 문구는 836개를 넣은 뒤 다시 재서 단다: FABLE '수능 지문 95%', 마더텅 'FABLE과 합쳐 지문 98%', 맨 아래에 측정 기준.
   - 기초어 약 240개 당기기 → 836장 카드 작업(하위 에이전트 초안·Claude 검토·원장·직검수·검사) → 배포.
 - 대조 결과: `pipeline/knowledge-map/oxford5000-coverage-20261013.json`. 처음 결정용 페이지(배치 초안은 이번 결정으로 바뀜): https://claude.ai/artifact/Cn2Rq3monv24TEvGBS1J8B
 
