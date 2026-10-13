@@ -3,6 +3,7 @@
 초안 형식: {"exercises":[{"set":N,"name":"...","words":[카드...]}]}. 데이터에 이미 넣은 카드는 !!중복으로 잡힌다.
 검사: 표제어 밖 단어(!!어휘), 뒤 세트 단어 앞당김(!!앞당김, 1개까지 허용·2개 이상 XX),
 형식(ko ①, {{BLANK}}, tr, c ≤72자, ipa 빗금 없음, si/sn), 기존 예문과 같은 문장(!!중복),
+읽기량(12초, 기능어 13초)·빈칸 어미(26.10.13 추가),
 폰 화면 줄 수(390px 문장 3줄·문제 4줄, 360px 참고)."""
 import json, re, sys, io, contextlib, subprocess, os, importlib.util
 ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
@@ -22,6 +23,23 @@ base = set(bw['words']) | set(bw.get('loanwords', []))
 known_always = {k for k, s in first.items() if s in oc.BASE_SETS} | base | oc.NUMS
 norm = lambda t: re.sub(r'\W+', ' ', t.lower()).strip()
 existing = {norm(c['text']) for c in cards}
+
+FUNC_POS = {'pron.', 'det.', 'conj.', 'aux.', 'prep.', 'prep.phr.', 'inf. marker'}
+VES = set('life knife wife leaf loaf half shelf wolf thief calf self sheaf elf'.split())
+IRR_PLURAL = set('man woman child foot tooth mouse goose person ox sheep deer fish series species'.split())
+def suffix_problem(t, ex):
+    """deepcheck A7과 같은 규칙: 화면은 {{BLANK}} 뒤 어미를 정답에 그대로 붙인다."""
+    m = re.search(r'\{\{BLANK\}\}([a-z]+)', ex)
+    if not m or len(t) < 2: return ''
+    sf = m.group(1)
+    if t[-1] == 'y' and t[-2] not in 'aeiou' and sf[0] in 'se': return f'y+{sf}'
+    if t[-1] == 'e' and sf[0] in 'ei': return f'e+{sf}'
+    if re.search(r'(s|x|z|ch|sh)$', t) and sf == 's': return '-es 필요'
+    if sf == 's' and t in VES: return 'f/fe→ves'
+    if sf in ('s', 'es') and t in IRR_PLURAL: return '불규칙 복수'
+    if t.endswith('ie') and sf == 'ing': return 'ie+ing'
+    if sf in ('d', 'r', 'st') and t[-1] != 'e': return f'e 없는 말+{sf}'
+    return ''
 
 draft = json.load(open(sys.argv[1]))
 items = []
@@ -44,6 +62,11 @@ for s, name, w in items:
     for k in ('en', 'ko', 'ex', 'tr', 'c', 'ipa', 'pos', 'word', 'si', 'sn'):
         if k not in w: probs.append('키 없음:' + k)
     if w.get('en') != w.get('word'): probs.append('en≠word')
+    # 26.10.13 Oxford 5000 보강부터: 읽기량(PRINCIPLES 2-2, deepcheck A8)과 빈칸 어미(deepcheck A7)도 본다.
+    load = 0.25 * len(e.split()) + 0.11 * (len(w.get('tr') or '') + len(c)) + 0.055 * len(w.get('meow') or '')
+    if load > (13 if w.get('pos') in FUNC_POS else 12): probs.append(f'읽기량 {load:.1f}초')
+    a7 = suffix_problem((w.get('en') or '').lower(), e)
+    if a7: probs.append('빈칸 어미:' + a7)
     n = norm(e.replace('{{BLANK}}', w.get('word', '')))
     if norm(e) in existing or n in existing or norm(e) in seen: probs.append('!!중복')
     seen[norm(e)] = 1
