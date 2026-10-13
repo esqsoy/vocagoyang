@@ -1519,3 +1519,14 @@
   - 쓴 말은 모두 늘 허용되는 말이다(PRINCIPLES 2-1): 0·5세트 표제어(my·she·just)와 기초 생활어(cat·fat·big). 처음 보고에서 'Claude가 0세트 두 번째 연습이라 쓸 수 있는 말이 적다'고 말한 것은 틀렸다. 0세트는 기초 단어 풀을 아는 것으로 전제하고, 앞당김도 1개까지 된다(영신: "그건 엄격하게 안해도 되잖아 … 처음 기본단어풀은 있는거 전제로 해야지").
 - 검증(새로 실행): ordercheck 앞당김 둘 이상 0(이 카드는 앞당김 없음), exaudit 이 카드 걸림 없음, deepcheck A5 0, linecheck 360px 초과 0.
 - 배포: 영신 "배포합시다!" 9b61211 fast-forward, Pages 38443494822 성공, 네 HTML blob SHA 일치. 기록은 [DEPLOYMENT.md](DEPLOYMENT.md).
+
+## 2026-10-13 · 0세트 lunch 카드 "공짜 점심은 없다" · 배포
+
+- 영신: "lunch 예문은 공짜 점심은 없다 어때" → Claude 의견(아는 말로만 된 문장, 빈칸은 lunch 하나로 정해짐, 해설과 관사 규칙을 엮을 수 있음) → 영신 "좋아"
+- 바꾼 것(원장 `lunch-20261013`):
+  - 예문: "There's no such thing as a free {{BLANK}}."
+  - 해석: "세상에 공짜 점심은 없어."
+  - 해설: "보통은 관사 없이 have lunch. 형용사가 붙으면 a free lunch처럼 a를 쓴다."
+  - 예전 해설 "관사 없이"는 새 예문(a free lunch)과 어긋나서 규칙 전체로 고쳤다.
+- 검증(새로 실행): ordercheck 앞당김 둘 이상 0(이 카드는 앞당김 없음), deepcheck A5 0, linecheck 360px 초과 0.
+- 배포: 결과는 [DEPLOYMENT.md](DEPLOYMENT.md).

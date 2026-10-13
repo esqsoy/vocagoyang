@@ -1,0 +1,110 @@
+{
+ "date": "2026-10-13",
+ "name": "lunch-20261013",
+ "status": "applied_locally_verified",
+ "authorization": "영신 26.10.13: \"lunch 예문은 공짜 점심은 없다 어때\", \"좋아\"",
+ "summary": "0세트 lunch 카드: \"What's for lunch today?\"를 \"There's no such thing as a free lunch.\"로, 해설을 관사 규칙(보통 관사 없이, 형용사가 붙으면 a)으로.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "a223a581dac680a662115b36d1150af94ab70e68dd737b1bd85a25dcc23ec793",
+   "afterHash": "576ac3f445a8f0cd18a91ccee875246ad8185faaf425c2267d14d4c73f03739a",
+   "changes": [
+    {
+     "path": [
+      0,
+      "exercises",
+      16,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "What's for {{BLANK}} today?",
+     "new": "There's no such thing as a free {{BLANK}}."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      16,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "오늘 점심 뭐야?",
+     "new": "세상에 공짜 점심은 없어."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      16,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "have lunch 점심 먹다. 관사 없이.",
+     "new": "보통은 관사 없이 have lunch. 형용사가 붙으면 a free lunch처럼 a를 쓴다."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson00.json": {
+   "beforeHash": "20f3a8ac9c70c2f4795ea3ece9ad735dc5343f926b2aff8cacdbad64066984c5",
+   "afterHash": "bbab589fb7a3e0bb9af989189cd7087ec2b4faed18acc38de0fbe12da42453c5"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson00.json": [
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     10,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "What's for {{BLANK}} today?",
+    "new": "There's no such thing as a free {{BLANK}}."
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     10,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "오늘 점심 뭐야?",
+    "new": "세상에 공짜 점심은 없어."
+   },
+   {
+    "path": [
+     "exercises",
+     6,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "have lunch 점심 먹다. 관사 없이.",
+    "new": "보통은 관사 없이 have lunch. 형용사가 붙으면 a free lunch처럼 a를 쓴다."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson00.json": []
+ }
+}
