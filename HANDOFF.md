@@ -2,6 +2,12 @@
 
 갱신: 2026-10-13 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
 
+## 2026-10-13 · 0세트 lunch 카드 · main 배포(60a3bd6, [DEPLOYMENT](DEPLOYMENT.md))
+
+- 예문은 "There's no such thing as a free lunch." / "세상에 공짜 점심은 없어."다(영신 제안).
+- 해설은 관사 규칙이다: 보통은 관사 없이 have lunch, 형용사가 붙으면 a free lunch.
+- 원장 `lunch-20261013`.
+
 ## 2026-10-13 · 0세트 not 카드 예문 · main 배포(9b61211, [DEPLOYMENT](DEPLOYMENT.md))
 
 - 변호사 밈 예문을 "My cat is not fat. She is just big." / "우리 고양이는 뚱뚱한 게 아니야. 그냥 덩치가 큰 거야."로 바꿨다(영신). 대사는 "살찐 거 아니라고양. 뼈가 굵은 거라고양!", 원장 `not-cat-20261013`.

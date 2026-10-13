@@ -1529,4 +1529,4 @@
   - 해설: "보통은 관사 없이 have lunch. 형용사가 붙으면 a free lunch처럼 a를 쓴다."
   - 예전 해설 "관사 없이"는 새 예문(a free lunch)과 어긋나서 규칙 전체로 고쳤다.
 - 검증(새로 실행): ordercheck 앞당김 둘 이상 0(이 카드는 앞당김 없음), deepcheck A5 0, linecheck 360px 초과 0.
-- 배포: 결과는 [DEPLOYMENT.md](DEPLOYMENT.md).
+- 배포: 60a3bd6 fast-forward, Pages 38459793044 성공, 네 HTML blob SHA 일치. 기록은 [DEPLOYMENT.md](DEPLOYMENT.md).
