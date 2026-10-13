@@ -1429,3 +1429,10 @@
 - 변경: `pipeline/out/lesson04.json` 2장, 원장 `sex-gender-20261013`(복원 체인 맨 위).
 - 검증(새로 실행): 검사 38개 통과, deepcheck A1·A2·A3·A5·A7 0(A6 16·A8 1은 전부터 있던 것), linecheck 390·360px 초과 0, ordercheck 앞당김 둘 이상 0, exaudit 6장(전과 같음), Chromium smoke 콘솔 오류 없음.
 - 배포: 영신 요청으로 이번 브랜치 전체(범위 구별·이름 FABLE·3000급 채우기·5000 보강·인덱스 문구·이 수정)를 main에 올렸다. aafcf99 fast-forward, Pages 38344322581 성공, 네 HTML blob SHA 일치. 기록은 [DEPLOYMENT.md](DEPLOYMENT.md).
+
+## 2026-10-13 · 인덱스 마더텅 카드에서 'FABLE과 합쳐 지문 98%' 빼기 · 배포
+
+- 요청: 영신이 배포된 인덱스를 폰으로 보고: "마더텅 버튼에서는 fable이하는 삭제. 그렇게 해도 수능 기출 단어장이니 수능 대비인건 알 수 있으니까"
+- 변경: `index.html` 마더텅 카드 숫자 줄 끝의 ' · FABLE과 합쳐 지문 98%'를 지웠다(VOCAB_STATS 생성 구간 밖, 손으로 쓴 부분). FABLE '수능 지문 95%'와 맨 아래 측정 기준은 그대로다. 이유는 PRINCIPLES 2-8에 적었다.
+- 검증(새로 실행): `index-stats.cjs --check` 통과. Chromium 390·360px에서 세 카드 숫자 줄이 모두 한 줄(전에는 마더텅이 두 줄), 콘솔 오류 없음. 게임 HTML은 바뀌지 않았다.
+- 배포: 결과는 [DEPLOYMENT.md](DEPLOYMENT.md).
