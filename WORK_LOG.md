@@ -1493,3 +1493,14 @@
 - 처음에는 50세트 run out of를 `pipeline/out/set50.json`에서 고쳤다. 그러자 조립이 원본 `pipeline/connections.json`으로 덮어써서, 원본에서 고치고 원장을 다시 만들었다.
 - 검증(새로 실행): 검사 42개 통과, deepcheck A1·A2·A3·A5·A7 0(A6 16·A8 1은 전부터 있던 것), linecheck 360px 초과 0.
 - 배포: 영신 "배포합시다!" 399cada fast-forward, Pages 38361654891 성공, 네 HTML blob SHA 일치. 기록은 [DEPLOYMENT.md](DEPLOYMENT.md).
+
+## 2026-10-13 · 0세트 I 카드 소세키 문장 바꾸기(로컬, 배포 전)
+
+- 영신: "I 예문에서 해석이 나는 고양이다 이름은 없다로 시작해야 맞지 않아? 그리고 as yet은 옛날 판본 번역같은데, 나츠메소세키 원문과 펭귄등 많이 읽히는 영어 번역 원문 하나 찾아줘"
+- 찾은 것(검색 결과와 서평·판매처 인용으로 확인, 이 세션에서는 출판사·아오조라 페이지가 직접 열리지 않음):
+  - 원문은 「吾輩は猫である。名前はまだ無い。」다.
+  - 안도 1906(공개)은 "I am a cat; but as yet I have no name."이다.
+  - Ito·Wilson(Tuttle 1972~, 저작권 있음)은 "I am a cat. As yet I have no name."이다.
+  - Bradley(Vintage Classics 2025, 저작권 있음)는 "I, ladies and gentlemen, am a cat. (But) I still don't have a name."이다.
+- 결정(영신 "B 좋다 해석도 그렇게 가자"): 원문을 직접 옮겨 "I am a cat, but {{BLANK}} don't have a name yet." / "나는 고양이다. 이름은 아직 없다."로 했다. 해설은 "…첫 문장을 옮긴 것."이다. 원장은 `soseki-i-20261013`, 명문장 규칙의 예외로 PRINCIPLES 2-11에 적었다.
+- 검증(새로 실행): ordercheck 앞당김 둘 이상 0(새 문장의 but·don't·yet은 앞당김 없음), linecheck 360px 초과 0, exaudit 0세트는 전과 같음.

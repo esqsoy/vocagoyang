@@ -2,6 +2,11 @@
 
 갱신: 2026-10-13 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
 
+## 2026-10-13 · 0세트 I 카드 소세키 문장 · 로컬 커밋(배포 전)
+
+- 원문을 직접 옮긴 "I am a cat, but I don't have a name yet." / "나는 고양이다. 이름은 아직 없다."로 바꿨다(영신). 저작권이 살아 있는 Ito·Wilson 번역을 쓰던 것을 바로잡았다. 원장은 `soseki-i-20261013`, PRINCIPLES 2-11 예외.
+- 대기: 배포(영신 확인 뒤).
+
 ## 2026-10-13 · 해설 속 예문 반복 걷기 · main 배포(399cada, [DEPLOYMENT](DEPLOYMENT.md))
 
 - 영신: 해설에 카드 예문과 같은 쓰임의 예문을 다시 쓰지 말 것(be ② 사례). 36장을 고쳤다(원장 `c-example-20261013`). 기준은 PRINCIPLES 4, 목록은 `reviews/c-example-20261013`.
