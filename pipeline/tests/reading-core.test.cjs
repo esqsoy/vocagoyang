@@ -168,6 +168,8 @@ for(const u of MORPHOLOGY.units.filter(u=>u.kind==='greek')){
 assert(greekUnits>0);
 
 // Finishing a course or exercise must not introduce a compulsory explanation screen either.
+// 이 흐름은 세트 잠금(26.10.13, set-unlock.test.cjs)과 상관없으므로 전부 연 상태(#unlock)에서 본다.
+state.unlockAll=true;
 ctx.openLesson(45);ctx.openExercise(state.lessons[45].exercises.length-1);
 for(let n=45;n<50;n++){
   ctx.finishExercise();const before=events.length;$('#nextEx').click();assertPlaying(n+1,0);
