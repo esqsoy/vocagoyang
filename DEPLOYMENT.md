@@ -1,3 +1,21 @@
+# 0세트 I 카드 소세키 문장 배포 · 2026-10-13
+
+- 커밋 [dd6b8d0](https://github.com/esqsoy/vocagoyang/commit/dd6b8d0)을 origin/main에 fast-forward로 푸시했다(399cada 다음, 배포 기록 1222634와 c4918ca 포함). [Pages 38388786959](https://github.com/esqsoy/vocagoyang/actions/runs/38388786959) 성공(11:13:57~11:14:55 UTC). 영신: "쓰고 배포해줘"
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 81fc97d, 수능 9779fea, EBS 575b2d9, index a5c2ba2). github.io는 이 세션에서 열리지 않아 공개 화면은 직접 보지 못했다.
+- 포함: 0세트 I 카드(원장 `soseki-i-20261013`, PRINCIPLES 2-11 예외).
+  - 예문: "I am a cat, but I don't have a name yet."
+  - 해석: "나는 고양이다. 이름은 아직 없다."
+  - 해설: "I는 항상 대문자로 쓴다. 나쓰메 소세키 『나는 고양이로소이다』 첫 문장을 옮긴 것."
+  - 게임 코드는 바뀌지 않았다.
+- 배포 전 검사(dd6b8d0과 같은 내용에서 실행):
+  - 검사 42개 통과.
+  - linecheck 360px 초과 0.
+  - ordercheck 앞당김 둘 이상 0(c4918ca에서 실행).
+  - Chromium smoke에서 콘솔 오류가 없다.
+  - 실기기 Safari는 확인하지 않았다.
+
+---
+
 # 해설 속 예문 반복 걷기 배포 · 2026-10-13
 
 - 커밋 [399cada](https://github.com/esqsoy/vocagoyang/commit/399cada)를 origin/main에 fast-forward로 푸시했다(6d56207 다음, 배포 기록 51dbeb1·잠금 칸 원칙 02cce48 포함). [Pages 38361654891](https://github.com/esqsoy/vocagoyang/actions/runs/38361654891) 성공(07:16:43~07:17:31 UTC). 영신: "배포합시다!"

@@ -1505,4 +1505,4 @@
 - 결정(영신 "B 좋다 해석도 그렇게 가자"): 원문을 직접 옮겨 "I am a cat, but {{BLANK}} don't have a name yet." / "나는 고양이다. 이름은 아직 없다."로 했다. 해설은 "…첫 문장을 옮긴 것."이다. 원장은 `soseki-i-20261013`, 명문장 규칙의 예외로 PRINCIPLES 2-11에 적었다.
 - 검증(새로 실행): ordercheck 앞당김 둘 이상 0(새 문장의 but·don't·yet은 앞당김 없음), linecheck 360px 초과 0, exaudit 0세트는 전과 같음.
 - 해설 순서(영신 "I는 항상 대문자로 쓴다. 를 맨 앞에 놓고 나머지 내용을 쓰자 쓰고 배포해줘"): "I는 항상 대문자로 쓴다. 나쓰메 소세키 『나는 고양이로소이다』 첫 문장을 옮긴 것." 원장 `soseki-i-20261013`을 두 변경을 합쳐 다시 만들었다(배포 전이라).
-- 배포: 결과는 [DEPLOYMENT.md](DEPLOYMENT.md).
+- 배포: dd6b8d0 fast-forward, Pages 38388786959 성공, 네 HTML blob SHA 일치. 기록은 [DEPLOYMENT.md](DEPLOYMENT.md).
