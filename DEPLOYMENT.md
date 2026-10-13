@@ -1,3 +1,16 @@
+# FABLE 범위 구별·이름·3000급 채우기·Oxford 5000 보강 배포 · 2026-10-13
+
+- 커밋 [aafcf99](https://github.com/esqsoy/vocagoyang/commit/aafcf99)를 origin/main에 fast-forward로 푸시했다(5a66345 다음). [Pages 38344322581](https://github.com/esqsoy/vocagoyang/actions/runs/38344322581) 성공(03:59:54~04:00:48 UTC). 영신: "배포 가자!"
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 1a56e50, 수능 fd5a1d5, EBS 333fa17, index 0f3d05f). github.io는 이 세션에서 열리지 않아 공개 화면은 직접 보지 못했다.
+- 포함(5a66345 뒤 전부):
+  - FABLE 게임 코드: 26~45세트 메뉴 색, 헤더 B1/C1 버튼, 세트·연습 이름의 단어 번호 다시 매기기, 3000급 채우기로 카드가 빠진 연습의 기록·이어하기 잇기(`deployedLayout`, 저장 표시 "20261013").
+  - 세 과정 공통: 모아둔 카드 출처에 다시 매긴 연습 이름(`pipeline/saved-cards/runtime.js`). 세 HTML을 다시 빌드했다.
+  - 이름 FABLE(인덱스 꼬리표 '기초~C1'), 인덱스 지문 % 문구와 측정 기준.
+  - 내용: 3000급 채우기 293장 이동·예문 11장(원장 `pull-20261013`), Oxford 5000 보강 923장·넣은 뒤 5장(`oxford5000-20261013`), sex 해설 2장(`sex-gender-20261013`).
+- 배포 전 검사(aafcf99에서 실행): 검사 38개(테스트 34개와 빌드 `--check` 4종, level-scope·pull 포함), deepcheck A1·A2·A3·A5·A7 0(A6 16·A8 1은 전부터 있던 것), linecheck 390·360px 초과 0, ordercheck 앞당김 둘 이상 0, exaudit 6장. Chromium 390·360px smoke(콘솔 오류 없음), B1/C1 버튼 전환·새로고침 유지, 인덱스와 게임 제목. 실기기 Safari는 확인하지 않았다.
+
+---
+
 # Fable 독립 검토 반영(23장) 배포 · 2026-10-13
 
 - 커밋 [5a66345](https://github.com/esqsoy/vocagoyang/commit/5a66345)를 origin/main에 fast-forward로 푸시했다(a8bbbd3 다음). [Pages 38285588472](https://github.com/esqsoy/vocagoyang/actions/runs/38285588472) 성공(17:38:48~17:39:43 UTC).

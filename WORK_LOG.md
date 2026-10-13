@@ -1428,4 +1428,4 @@
   - ②(성, 성행위)에는 ①과 겹치지 않는 비교를 넣었다: "이 뜻은 gender로 바꿔 쓸 수 없다. sex education=성교육". 예문(과학 시간)과 이어지는 연어다.
 - 변경: `pipeline/out/lesson04.json` 2장, 원장 `sex-gender-20261013`(복원 체인 맨 위).
 - 검증(새로 실행): 검사 38개 통과, deepcheck A1·A2·A3·A5·A7 0(A6 16·A8 1은 전부터 있던 것), linecheck 390·360px 초과 0, ordercheck 앞당김 둘 이상 0, exaudit 6장(전과 같음), Chromium smoke 콘솔 오류 없음.
-- 배포: 영신 요청으로 이번 브랜치 전체(범위 구별·이름 FABLE·3000급 채우기·5000 보강·인덱스 문구·이 수정)를 main에 올린다. 결과는 [DEPLOYMENT.md](DEPLOYMENT.md).
+- 배포: 영신 요청으로 이번 브랜치 전체(범위 구별·이름 FABLE·3000급 채우기·5000 보강·인덱스 문구·이 수정)를 main에 올렸다. aafcf99 fast-forward, Pages 38344322581 성공, 네 HTML blob SHA 일치. 기록은 [DEPLOYMENT.md](DEPLOYMENT.md).
