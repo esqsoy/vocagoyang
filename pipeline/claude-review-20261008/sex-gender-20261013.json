@@ -1,0 +1,83 @@
+{
+ "date": "2026-10-13",
+ "name": "sex-gender-20261013",
+ "status": "applied_locally_verified",
+ "authorization": "영신 26.10.13: \"sex는 해설에 gender와 비교를 놓는건어때?\"",
+ "summary": "4세트 sex ① 해설의 gender 설명을 gender 카드와 같은 말(사회·문화적 성별)로, sex ② 해설에 gender로 바꿔 쓸 수 없음과 sex education을 넣었다(2장).",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "a00c39d99d1b97c713c04ad52963a9f3db685f0ff1596e0db03aed8cc8c08b0f",
+   "afterHash": "d8ee141303666ecc9fec5ac5ad6bae48e3c2601c92f8ed64604c714697dca5c7",
+   "changes": [
+    {
+     "path": [
+      4,
+      "exercises",
+      2,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "sex=생물학적 성별 / gender=사회·심리적 성. 서식에는 둘 다 쓰인다.",
+     "new": "sex=생물학적 성별 / gender=사회·문화적 성별. 서식에는 둘 다 쓰인다."
+    },
+    {
+     "path": [
+      4,
+      "exercises",
+      2,
+      "words",
+      14,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "",
+     "new": "이 뜻은 gender로 바꿔 쓸 수 없다. sex education=성교육"
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson04.json": {
+   "beforeHash": "088641062d944bf7aefd5052a5fd48a38bc99fd0f9111b61505784eb3923fd71",
+   "afterHash": "260c85d52709ff9790d35149641045daf362a9bc860a11a29707fc41fd09fd45"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson04.json": [
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "sex=생물학적 성별 / gender=사회·심리적 성. 서식에는 둘 다 쓰인다.",
+    "new": "sex=생물학적 성별 / gender=사회·문화적 성별. 서식에는 둘 다 쓰인다."
+   },
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     14,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "",
+    "new": "이 뜻은 gender로 바꿔 쓸 수 없다. sex education=성교육"
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson04.json": []
+ }
+}
