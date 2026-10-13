@@ -1435,4 +1435,8 @@
 - 요청: 영신이 배포된 인덱스를 폰으로 보고: "마더텅 버튼에서는 fable이하는 삭제. 그렇게 해도 수능 기출 단어장이니 수능 대비인건 알 수 있으니까"
 - 변경: `index.html` 마더텅 카드 숫자 줄 끝의 ' · FABLE과 합쳐 지문 98%'를 지웠다(VOCAB_STATS 생성 구간 밖, 손으로 쓴 부분). FABLE '수능 지문 95%'와 맨 아래 측정 기준은 그대로다. 이유는 PRINCIPLES 2-8에 적었다.
 - 검증(새로 실행): `index-stats.cjs --check` 통과. Chromium 390·360px에서 세 카드 숫자 줄이 모두 한 줄(전에는 마더텅이 두 줄), 콘솔 오류 없음. 게임 HTML은 바뀌지 않았다.
-- 배포: 결과는 [DEPLOYMENT.md](DEPLOYMENT.md).
+- 배포: 2582be2 fast-forward, Pages 38345811877 성공. 기록은 [DEPLOYMENT.md](DEPLOYMENT.md).
+- 실수: 앞 배포 기록 커밋(0f3b5dc)에 검사 도구 화면 캡처 10장이 `undefined/`로 들어가 함께 공개됐다. 도구에 저장 경로를 안 넘겨서 저장소 안에 'undefined' 폴더가 생겼고, `git add -A`가 그대로 담았다.
+  - faca268에서 지웠다. Pages 38345933428 성공, main 최상위에 없는 것을 API로 확인했다.
+  - 도구는 경로가 없으면 저장소 밖에 저장하게 고쳤다.
+  - 앞으로 커밋 전에 `git status`의 새 파일을 확인한다.

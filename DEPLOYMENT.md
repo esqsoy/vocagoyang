@@ -1,3 +1,15 @@
+# 인덱스 마더텅 카드 문구 빼기 배포 · 2026-10-13
+
+- 커밋 [2582be2](https://github.com/esqsoy/vocagoyang/commit/2582be2)를 origin/main에 fast-forward로 푸시했다(aafcf99 다음, 배포 기록 0f3b5dc 포함). [Pages 38345811877](https://github.com/esqsoy/vocagoyang/actions/runs/38345811877) 성공(04:18:31~04:19:16 UTC). 영신: "마더텅 버튼에서는 fable이하는 삭제"
+- 이어서 [faca268](https://github.com/esqsoy/vocagoyang/commit/faca268)을 푸시했다. [Pages 38345933428](https://github.com/esqsoy/vocagoyang/actions/runs/38345933428) 성공(04:20:03~04:20:45 UTC).
+  - 0f3b5dc에 Claude의 검사 도구가 찍은 화면 캡처 10장(`undefined/*.png`, 게임·인덱스 화면)이 잘못 커밋돼 2582be2와 함께 공개됐다. faca268에서 지웠다.
+  - 도구는 저장소 밖에 저장하게 고쳤다.
+- 확인 방법: GitHub API로 main 최상위를 확인했다. `undefined`가 없고, 네 HTML blob SHA가 로컬 검증본과 같다(index a5c2ba2, FABLE 1a56e50, 수능 fd5a1d5, EBS 333fa17). github.io는 이 세션에서 열리지 않아 공개 화면은 직접 보지 못했다.
+- 포함: `index.html` 마더텅 카드 숫자 줄의 ' · FABLE과 합쳐 지문 98%' 삭제. 게임 HTML은 바뀌지 않았다.
+- 배포 전 검사(이번에 실행): `index-stats.cjs --check` 통과. Chromium 390·360px에서 세 카드 숫자 줄이 모두 한 줄이고 콘솔 오류가 없다.
+
+---
+
 # FABLE 범위 구별·이름·3000급 채우기·Oxford 5000 보강 배포 · 2026-10-13
 
 - 커밋 [aafcf99](https://github.com/esqsoy/vocagoyang/commit/aafcf99)를 origin/main에 fast-forward로 푸시했다(5a66345 다음). [Pages 38344322581](https://github.com/esqsoy/vocagoyang/actions/runs/38344322581) 성공(03:59:54~04:00:48 UTC). 영신: "배포 가자!"
