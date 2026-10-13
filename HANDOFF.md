@@ -15,9 +15,16 @@
   - 이름은 FABLE로 정했다(5000만 뺌, 영신). 인덱스 제목과 꼬리표 '기초~C1', 게임 안 제목 'Fable · 기초~C1 직독직해 영단어'는 반영했다(로컬).
   - 인덱스 % 문구는 836개를 넣은 뒤 다시 재서 단다: FABLE '수능 지문 95%', 마더텅 'FABLE과 합쳐 지문 98%', 맨 아래에 측정 기준.
   - **기초어 당기기 완료(로컬, 원장 `pull-20261013`):** 293장을 9~25세트 끝 주제 연습 17개로 옮겼고, 예문 11장을 고쳤다. 경위는 PRINCIPLES 2-8.
-    - 검사 39개 통과(pull.test·level-scope 포함). Chromium smoke에서 콘솔 오류가 없다.
+    - 검사 38개 통과(pull.test·level-scope 포함; 처음에 39개로 잘못 적었다). Chromium smoke에서 콘솔 오류가 없다.
     - 영신 직검수 페이지: https://claude.ai/artifact/7tzkUsjEZ8QzyRJ5YLWjFM (옮긴 293장, 고친 11장은 전 내용과 함께, 댓글 가능)
-  - 다음: 836장 카드 작업(하위 에이전트 초안·Claude 검토·원장·직검수·검사). 이때 `pipeline/pull-20261013/spotlight-gaps.json`의 조명 문법 18항목을 채운다. → 실측 뒤 인덱스 % 문구 → 배포(요청 시).
+  - **Oxford 5000 836개 완료(로컬, 원장 `oxford5000-20261013`):** 923장을 26~45세트 끝 새 연습 73개에 넣었다.
+    - 하위 에이전트 15명이 초안을 썼고, Claude가 전수 검토해 46곳을 고쳤다. 넣은 뒤 예문 5장을 더 고쳤다.
+    - 조명 문법 18항목(spotlight-gaps)은 각 세트에서 2장 이상 실었다.
+    - 수: FABLE 8,497장, 표제어 6,198개, 화면 연습 780개.
+    - 인덱스 문구: FABLE '수능 지문 95%', 마더텅 'FABLE과 합쳐 지문 98%', 맨 아래에 측정 기준. 다시 잰 값은 94.0~97.2%와 98.2~98.4%다.
+    - 검사 38개 통과. ordercheck 2개 이상 0, linecheck 390·360px 초과 0, deepcheck A1·A5·A7 0(A8 1은 전부터 있던 kinda). Chromium smoke 콘솔 오류 없음.
+    - 영신 직검수 페이지: 아래 링크.
+  - 다음: 영신 직검수 → 배포(요청 시). 배포하면 이번 브랜치의 범위 구별·이름·3000급 채우기·5000 보강이 함께 나간다.
 - 대조 결과: `pipeline/knowledge-map/oxford5000-coverage-20261013.json`. 처음 결정용 페이지(배치 초안은 이번 결정으로 바뀜): https://claude.ai/artifact/Cn2Rq3monv24TEvGBS1J8B
 
 ## 2026-10-13 · Fable 독립 검토 반영 · main 배포(5a66345, [DEPLOYMENT](DEPLOYMENT.md))

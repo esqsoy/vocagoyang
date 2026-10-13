@@ -1,0 +1,90 @@
+[
+ {
+  "set": 4,
+  "word": "sex",
+  "si": 2,
+  "tag": "예문·해석",
+  "why": "순서 통제(2-1): reproduction이 39세트 새 표제어가 되어 앞당김 둘(chapter 25, reproduction 39)",
+  "source": "pipeline/out/lesson04.json",
+  "before": {
+   "ex": "This chapter explains {{BLANK}} and reproduction.",
+   "tr": "이 장은 성과 생식을 설명해."
+  },
+  "after": {
+   "ex": "In science class, we learned about {{BLANK}} and how babies are born.",
+   "tr": "과학 시간에 성과 아기가 어떻게 태어나는지 배웠어."
+  },
+  "ko": "② 성, 성행위",
+  "ex": "This chapter explains {{BLANK}} and reproduction."
+ },
+ {
+  "set": 37,
+  "word": "composition",
+  "si": 1,
+  "tag": "예문·해석",
+  "why": "폰 줄 수: 360px 문제 화면 5줄 → 숫자를 빼서 줄임",
+  "source": "pipeline/out/set37.json",
+  "before": {
+   "ex": "The {{BLANK}} of air is about 78 percent nitrogen and 21 percent oxygen.",
+   "tr": "공기의 구성은 질소가 약 78%, 산소가 약 21%야."
+  },
+  "after": {
+   "ex": "The {{BLANK}} of air is mostly nitrogen and oxygen.",
+   "tr": "공기는 대부분 질소와 산소로 이루어져 있어."
+  },
+  "ko": "① 구성, 구성 요소",
+  "ex": "The {{BLANK}} of air is about 78 percent nitrogen and 21 percent oxygen."
+ },
+ {
+  "set": 42,
+  "word": "ecological",
+  "si": 1,
+  "tag": "예문·해석",
+  "why": "폰 줄 수: 360px 정답 문장 4줄 → 줄임",
+  "source": "pipeline/out/set42.json",
+  "before": {
+   "ex": "An {{BLANK}} footprint measures how much land and water your lifestyle needs.",
+   "tr": "생태 발자국은 네 생활 방식에 땅과 물이 얼마나 필요한지 재."
+  },
+  "after": {
+   "ex": "An {{BLANK}} footprint measures how much nature your lifestyle uses.",
+   "tr": "생태 발자국은 네 생활 방식이 자연을 얼마나 쓰는지 재."
+  },
+  "ko": "① 생태계의, 생태학의",
+  "ex": "An {{BLANK}} footprint measures how much land and water your lifestyle needs."
+ },
+ {
+  "set": 39,
+  "word": "correlation",
+  "si": 1,
+  "tag": "예문·해석",
+  "why": "폰 줄 수: 360px 정답 문장 4줄 → 줄임(여름 이유는 해석이 풀어 줌)",
+  "source": "pipeline/out/set39.json",
+  "before": {
+   "ex": "Ice cream sales and drowning deaths show a {{BLANK}}: both rise in summer.",
+   "tr": "아이스크림 판매와 익사는 상관관계가 있어. 둘 다 여름에 늘거든."
+  },
+  "after": {
+   "ex": "Ice cream sales and drowning deaths show a {{BLANK}}.",
+   "tr": "아이스크림 판매와 익사 사고는 상관관계를 보여. 둘 다 여름에 늘거든."
+  },
+  "ko": "① 상관관계",
+  "ex": "Ice cream sales and drowning deaths show a {{BLANK}}: both rise in summer."
+ },
+ {
+  "set": 40,
+  "word": "exclusion",
+  "si": 1,
+  "tag": "예문·해석",
+  "why": "폰 줄 수: 360px 정답 문장 4줄 → 줄임",
+  "source": "pipeline/out/set40.json",
+  "before": {
+   "ex": "In Switzerland, the {{BLANK}} of women from national votes lasted until 1971."
+  },
+  "after": {
+   "ex": "Swiss women's {{BLANK}} from national votes lasted until 1971."
+  },
+  "ko": "① 제외, 배제",
+  "ex": "In Switzerland, the {{BLANK}} of women from national votes lasted until 1971."
+ }
+]
