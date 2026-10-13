@@ -23,7 +23,7 @@
     - 수: FABLE 8,497장, 표제어 6,198개, 화면 연습 780개.
     - 인덱스 문구: FABLE '수능 지문 95%', 마더텅 'FABLE과 합쳐 지문 98%', 맨 아래에 측정 기준. 다시 잰 값은 94.0~97.2%와 98.2~98.4%다.
     - 검사 38개 통과. ordercheck 2개 이상 0, linecheck 390·360px 초과 0, deepcheck A1·A5·A7 0(A8 1은 전부터 있던 kinda). Chromium smoke 콘솔 오류 없음.
-    - 영신 직검수 페이지: 아래 링크.
+    - 영신 직검수 페이지: https://claude.ai/artifact/L4ZdKKKNRqQBH6sqtXXrrU (새 카드 923장 + 고친 sex ②, 댓글 가능)
   - 다음: 영신 직검수 → 배포(요청 시). 배포하면 이번 브랜치의 범위 구별·이름·3000급 채우기·5000 보강이 함께 나간다.
 - 대조 결과: `pipeline/knowledge-map/oxford5000-coverage-20261013.json`. 처음 결정용 페이지(배치 초안은 이번 결정으로 바뀜): https://claude.ai/artifact/Cn2Rq3monv24TEvGBS1J8B
 
