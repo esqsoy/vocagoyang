@@ -1,3 +1,18 @@
+# FABLE 세트 차례로 열기 배포 · 2026-10-13
+
+- 커밋 [6d56207](https://github.com/esqsoy/vocagoyang/commit/6d56207)을 origin/main에 fast-forward로 푸시했다(1480093 다음, 배포 기록 fa20948 포함). [Pages 38355102763](https://github.com/esqsoy/vocagoyang/actions/runs/38355102763) 성공(06:08:53~06:09:47 UTC). 영신: "아이디어 좋다 배포합시다!"
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 1036564, 수능 9779fea, EBS 575b2d9, index a5c2ba2). github.io는 이 세션에서 열리지 않아 공개 화면은 직접 보지 못했다.
+- 포함: FABLE은 앞 세트를 다 클리어해야 다음 세트가 보인다(PRINCIPLES 14).
+  - 직접 클리어한 세트는 열려 있다. 다음 잠금 칸 하나를 보여 준다(영신이 그대로 두기로 함).
+  - 이어 하기·다음 강은 잠긴 세트로 가지 않는다. 다음 세트가 잠겼으면 '남은 연습 ▶'이 나온다.
+  - `#unlock`/`#lock`. 마더텅·EBS는 바뀌지 않았다.
+- 배포 전 검사(6d56207에서 실행):
+  - 검사 42개: 테스트 36개(set-unlock 추가)와 빌드 `--check` 6종.
+  - Chromium 390px에서 처음 화면, 일부 진도, 이어 하기, 남은 연습·다음 강, #unlock·#lock을 확인했다. 콘솔 오류가 없다.
+  - 실기기 Safari는 확인하지 않았다.
+
+---
+
 # 26~45세트 색 확정·맨 밑 알림 없앰·진행 속도 예측 배포 · 2026-10-13
 
 - 커밋 [1480093](https://github.com/esqsoy/vocagoyang/commit/1480093)을 origin/main에 fast-forward로 푸시했다(faca268 다음, 배포 기록 8b93b64 포함). [Pages 38352096656](https://github.com/esqsoy/vocagoyang/actions/runs/38352096656) 성공(05:34:36~05:35:23 UTC). 영신: "다 되면 배포해주십쇼!"
