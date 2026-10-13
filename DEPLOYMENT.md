@@ -1,3 +1,18 @@
+# 0세트 not 카드 예문 배포 · 2026-10-13
+
+- 커밋 [9b61211](https://github.com/esqsoy/vocagoyang/commit/9b61211)을 origin/main에 fast-forward로 푸시했다(dd6b8d0 다음, 배포 기록 d49b8f7과 a1a335b 포함). [Pages 38443494822](https://github.com/esqsoy/vocagoyang/actions/runs/38443494822) 성공(18:02:13~18:03:42 UTC). 영신: "배포합시다!"
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE facb397, 수능 9779fea, EBS 575b2d9, index a5c2ba2). github.io는 이 세션에서 열리지 않아 공개 화면은 직접 보지 못했다.
+- 포함: 0세트 not 카드(원장 `not-cat-20261013`). 게임 코드는 바뀌지 않았다.
+  - 예문: "My cat is not fat. She is just big."
+  - 해석: "우리 고양이는 뚱뚱한 게 아니야. 그냥 덩치가 큰 거야."
+  - 대사: "살찐 거 아니라고양. 뼈가 굵은 거라고양!"
+- 배포 전 검사:
+  - a1a335b에서 실행: 검사 42개 통과, ordercheck 앞당김 둘 이상 0, deepcheck A5 0, linecheck 360px 초과 0.
+  - 9b61211에서 다시 실행: Chromium smoke에서 콘솔 오류가 없다. 그 사이 바뀐 것은 기록 문서뿐이다.
+  - 실기기 Safari는 확인하지 않았다.
+
+---
+
 # 0세트 I 카드 소세키 문장 배포 · 2026-10-13
 
 - 커밋 [dd6b8d0](https://github.com/esqsoy/vocagoyang/commit/dd6b8d0)을 origin/main에 fast-forward로 푸시했다(399cada 다음, 배포 기록 1222634와 c4918ca 포함). [Pages 38388786959](https://github.com/esqsoy/vocagoyang/actions/runs/38388786959) 성공(11:13:57~11:14:55 UTC). 영신: "쓰고 배포해줘"

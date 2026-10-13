@@ -1518,4 +1518,4 @@
   - 해설 "be 동사 바로 뒤에 not…"은 그대로 둔다.
   - 쓴 말은 모두 늘 허용되는 말이다(PRINCIPLES 2-1): 0·5세트 표제어(my·she·just)와 기초 생활어(cat·fat·big). 처음 보고에서 'Claude가 0세트 두 번째 연습이라 쓸 수 있는 말이 적다'고 말한 것은 틀렸다. 0세트는 기초 단어 풀을 아는 것으로 전제하고, 앞당김도 1개까지 된다(영신: "그건 엄격하게 안해도 되잖아 … 처음 기본단어풀은 있는거 전제로 해야지").
 - 검증(새로 실행): ordercheck 앞당김 둘 이상 0(이 카드는 앞당김 없음), exaudit 이 카드 걸림 없음, deepcheck A5 0, linecheck 360px 초과 0.
-- 남은 일: 배포(영신 확인 뒤).
+- 배포: 영신 "배포합시다!" 9b61211 fast-forward, Pages 38443494822 성공, 네 HTML blob SHA 일치. 기록은 [DEPLOYMENT.md](DEPLOYMENT.md).
