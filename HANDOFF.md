@@ -16,7 +16,7 @@
   - 인덱스 % 문구는 836개를 넣은 뒤 다시 재서 단다: FABLE '수능 지문 95%', 마더텅 'FABLE과 합쳐 지문 98%', 맨 아래에 측정 기준.
   - **기초어 당기기 완료(로컬, 원장 `pull-20261013`):** 293장을 9~25세트 끝 주제 연습 17개로 옮겼고, 예문 11장을 고쳤다. 경위는 PRINCIPLES 2-8.
     - 검사 39개 통과(pull.test·level-scope 포함). Chromium smoke에서 콘솔 오류가 없다.
-    - 영신 직검수 페이지를 올린다(아래 링크).
+    - 영신 직검수 페이지: https://claude.ai/artifact/7tzkUsjEZ8QzyRJ5YLWjFM (옮긴 293장, 고친 11장은 전 내용과 함께, 댓글 가능)
   - 다음: 836장 카드 작업(하위 에이전트 초안·Claude 검토·원장·직검수·검사). 이때 `pipeline/pull-20261013/spotlight-gaps.json`의 조명 문법 18항목을 채운다. → 실측 뒤 인덱스 % 문구 → 배포(요청 시).
 - 대조 결과: `pipeline/knowledge-map/oxford5000-coverage-20261013.json`. 처음 결정용 페이지(배치 초안은 이번 결정으로 바뀜): https://claude.ai/artifact/Cn2Rq3monv24TEvGBS1J8B
 
