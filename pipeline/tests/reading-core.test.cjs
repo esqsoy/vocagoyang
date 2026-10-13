@@ -60,7 +60,7 @@ const ctx=vm.createContext({DATA,READING_CORE,MORPHOLOGY,CONNECTIONS,state,$,Set
   setCat(){},pick:a=>a?.[0]||'',LINES:{welcome:[],start:[],exerciseDone:[],allDone:['ending']},LESSONCLEAR:{},
   stopFablePronunciation(){},ipaEffectCancelAdvance(){},
   show:n=>{currentScreen=n;events.push(n);},startRound(){},startTicker(){tickerStarts++;state.ticker={};},stopTicker(){state.ticker=null;},
-  toast(){},esc:s=>String(s),fmt:()=>'',setTimeout:f=>timed.push(f),showEnding:()=>events.push('ENDING'),showRoar:n=>{roarCounts.push(n);events.push('ROAR');}});
+  quizOpen(){},catSay(){},esc:s=>String(s),fmt:()=>'',setTimeout:f=>timed.push(f),showEnding:()=>events.push('ENDING'),showRoar:n=>{roarCounts.push(n);events.push('ROAR');}});
 vm.runInContext([
   between('function buildLessons()','/* ===== progress / route ===== */'),
   between('function loadProgress()','/* ===== screens ===== */'),

@@ -27,7 +27,7 @@ function savedSet(id,on){
   const records=savedRead().filter(r=>r.id!==id);
   if(on)records.push({id,addedAt:Date.now()});
   try{localStorage.setItem(savedStoreKey,JSON.stringify(records));}
-  catch{toast('카드를 저장하지 못했어. 브라우저 저장 공간을 확인해줘.');return false;}
+  catch{catSay('카드를 못 담았다고양. 브라우저 저장 공간을 확인하라고양.');return false;}
   savedRecords=records;savedSyncCat();return true;
 }
 function savedCurrentWord(){const s=state.session;return s&&s.currentId!==null?s.words[s.currentId]:null;}
@@ -41,7 +41,7 @@ function savedSyncCat(){
 function savedToggleCurrent(){
   const w=savedCurrentWord();if(!w?.savedCardId)return false;
   const on=!savedHas(w.savedCardId);if(!savedSet(w.savedCardId,on))return false;
-  toast(on?'모아뒀다고양!':'모아둔 카드에서 뺐다고양.');
+  catSay(on?'모아뒀다고양!':'모아둔 카드에서 뺐다고양.');
   const s=state.session;
   // Give the save action its own feedback time; a tap must not also advance.
   if(s.answered&&!s.copyMode){
@@ -168,15 +168,17 @@ function savedCopyText(){
     return [(i+1)+'. '+w.term+' — '+w.meaning,item.source,example,w.context?.translation||w.tr,w.context?.note||w.c].filter(Boolean).join('\n');
   })].join('\n\n');
 }
-async function savedCopy(){
-  const text=savedCopyText();
-  try{if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(text);toast('목록을 복사했어.');return;}}catch{}
+// 복사 결과는 누른 버튼에 잠깐 적는다(맨 밑 알림은 26.10.13에 없앴다).
+function savedCopyNote(btn,msg){if(!btn)return;btn.textContent=msg;clearTimeout(btn._noteT);btn._noteT=setTimeout(()=>{btn.textContent='목록 복사';},1800);}
+async function savedCopy(e){
+  const btn=e?.currentTarget,text=savedCopyText();
+  try{if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(text);savedCopyNote(btn,'복사했어 ✓');return;}}catch{}
   // The selectable fallback also works in browsers without Clipboard API access.
   let box=$('#savedCopyBox');
   if(!box){box=document.createElement('textarea');box.id='savedCopyBox';box.className='saved-copy-box';box.readOnly=true;box.setAttribute('aria-label','모아둔 카드 목록');$('#exList').appendChild(box);}
   box.value=text;box.focus();box.select();
-  try{if(document.execCommand?.('copy')){toast('목록을 복사했어.');return;}}catch{}
-  toast('목록을 선택해 복사해줘.');
+  try{if(document.execCommand?.('copy')){savedCopyNote(btn,'복사했어 ✓');return;}}catch{}
+  savedCopyNote(btn,'아래 목록을 복사해줘');
 }
 function savedRenderList(){
   const L=state.savedLesson;

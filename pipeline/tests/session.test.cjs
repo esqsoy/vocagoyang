@@ -44,7 +44,7 @@ const ctx = vm.createContext({
   Math:seededMath,Date,Set,console,DATA:data,
   state:{lessons:[],li:0,ei:0,session:null,prevOn:true},
   $:id=>{if(!elements.has(id))elements.set(id,{textContent:'',innerHTML:'',value:'',style:{},classList:{add(){},remove(){}},focus(){}});return elements.get(id);},
-  saveLast(){}, setCat(){}, show(){}, startTicker(){}, toast(){}, pick(){}, LINES:{start:[]},
+  saveLast(){}, setCat(){}, show(){}, startTicker(){}, quizOpen(){}, catSay(){}, pick(){}, LINES:{start:[]},
   stopFablePronunciation(){},ipaEffectCancelAdvance(){},
   updateStats(){},mirrorTyped(){},focusAnswerInput(){},requestAnimationFrame:f=>f(),
   finishExercise(){ctx.state.session.finished=true;},
