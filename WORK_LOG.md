@@ -1492,4 +1492,4 @@
   - 목록 `reviews/c-example-20261013/edits.py`, 원장 `c-example-20261013`.
 - 처음에는 50세트 run out of를 `pipeline/out/set50.json`에서 고쳤다. 그러자 조립이 원본 `pipeline/connections.json`으로 덮어써서, 원본에서 고치고 원장을 다시 만들었다.
 - 검증(새로 실행): 검사 42개 통과, deepcheck A1·A2·A3·A5·A7 0(A6 16·A8 1은 전부터 있던 것), linecheck 360px 초과 0.
-- 남은 일: 배포(영신 확인 뒤).
+- 배포: 영신 "배포합시다!" 399cada fast-forward, Pages 38361654891 성공, 네 HTML blob SHA 일치. 기록은 [DEPLOYMENT.md](DEPLOYMENT.md).

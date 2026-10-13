@@ -1,3 +1,17 @@
+# 해설 속 예문 반복 걷기 배포 · 2026-10-13
+
+- 커밋 [399cada](https://github.com/esqsoy/vocagoyang/commit/399cada)를 origin/main에 fast-forward로 푸시했다(6d56207 다음, 배포 기록 51dbeb1·잠금 칸 원칙 02cce48 포함). [Pages 38361654891](https://github.com/esqsoy/vocagoyang/actions/runs/38361654891) 성공(07:16:43~07:17:31 UTC). 영신: "배포합시다!"
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 21faca2, 수능 9779fea, EBS 575b2d9, index a5c2ba2). github.io는 이 세션에서 열리지 않아 공개 화면은 직접 보지 못했다.
+- 포함: FABLE 해설 36장에서 카드 예문과 같은 쓰임의 예문을 뺐다. 그중 be ②·available 2장은 해설을 비웠다. 원장은 `c-example-20261013`, 기준은 PRINCIPLES 4. 게임 코드는 바뀌지 않았다.
+- 배포 전 검사(399cada에서 실행):
+  - 검사 42개 통과.
+  - deepcheck A1·A2·A3·A5·A7 0. A6 16과 A8 1은 전부터 있던 것이다.
+  - linecheck 360px 초과 0.
+  - Chromium smoke에서 콘솔 오류가 없다.
+  - 실기기 Safari는 확인하지 않았다.
+
+---
+
 # FABLE 세트 차례로 열기 배포 · 2026-10-13
 
 - 커밋 [6d56207](https://github.com/esqsoy/vocagoyang/commit/6d56207)을 origin/main에 fast-forward로 푸시했다(1480093 다음, 배포 기록 fa20948 포함). [Pages 38355102763](https://github.com/esqsoy/vocagoyang/actions/runs/38355102763) 성공(06:08:53~06:09:47 UTC). 영신: "아이디어 좋다 배포합시다!"
