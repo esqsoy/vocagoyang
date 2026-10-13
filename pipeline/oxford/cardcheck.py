@@ -79,7 +79,9 @@ for s, name, w in items:
     if fwd: probs.append(('!!앞당김2+:' if len(fwd) > 1 else '앞당김1:') + ','.join(f'{a}({b})' for a, b in fwd))
     rows.append([s, w, probs])
 # 줄 수
-tmp = os.path.join(HERE, f'_measure-{os.getpid()}.json')
+# 임시 측정 파일은 저장소 밖(시스템 임시 폴더)에 쓴다. 여러 에이전트가 동시에 돌려도 저장소에 흔적이 남지 않게(26.10.13).
+import tempfile
+fd, tmp = tempfile.mkstemp(prefix='cardcheck-', suffix='.json'); os.close(fd)
 json.dump([{'word': w.get('word', ''), 'ex': w.get('ex', '')} for _, w, _ in rows], open(tmp, 'w'))
 env = dict(os.environ, NODE_PATH='/opt/node22/lib/node_modules')
 r = subprocess.run(['node', os.path.join(HERE, 'measure-lines.cjs'), tmp], capture_output=True, text=True, env=env)
