@@ -1,0 +1,10065 @@
+{
+ "date": "2026-10-13",
+ "status": "배치(26.10.13 영신 \"그외 모두 동의!\"): B2는 26~35세트, C1은 36~45세트 끝 새 연습 73개에 836개. 카드는 아직 넣지 않았다(초안 작성 중). 지침 pipeline/oxford/BRIEF-5000.md.",
+ "rule": "자리를 먼저 정해 두면 그 세트 뒤 예문부터 이 단어를 쓸 수 있다(exaudit·ordercheck가 이 파일을 읽는다). 파생어는 기본형이 26~45세트에 있으면 그 세트 이후에 둔다(B2 파생어 17개는 36~45세트로). 주제 묶음은 하위 에이전트 초안을 Claude가 확인하고 고쳤다(idiot·verbal 자리).",
+ "counts": {
+  "words": 836,
+  "exercises": 73,
+  "bySet": {
+   "26": 27,
+   "27": 27,
+   "28": 26,
+   "29": 26,
+   "30": 26,
+   "31": 27,
+   "32": 26,
+   "33": 26,
+   "34": 26,
+   "35": 27,
+   "36": 56,
+   "37": 57,
+   "38": 58,
+   "39": 58,
+   "40": 59,
+   "41": 56,
+   "42": 57,
+   "43": 56,
+   "44": 56,
+   "45": 59
+  }
+ },
+ "words": [
+  {
+   "word": "physician",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "(내과) 의사",
+   "base": null,
+   "set": 26,
+   "exercise": "몸과 건강",
+   "grammar": "G108"
+  },
+  {
+   "word": "pharmacy",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "약국; 약학",
+   "base": null,
+   "set": 26,
+   "exercise": "몸과 건강",
+   "grammar": "G108"
+  },
+  {
+   "word": "nutrition",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "영양 (섭취)",
+   "base": null,
+   "set": 26,
+   "exercise": "몸과 건강",
+   "grammar": "G108"
+  },
+  {
+   "word": "obesity",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "비만",
+   "base": null,
+   "set": 26,
+   "exercise": "몸과 건강",
+   "grammar": "G108"
+  },
+  {
+   "word": "heal",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "낫다, 치유하다",
+   "base": null,
+   "set": 26,
+   "exercise": "몸과 건강",
+   "grammar": "G108"
+  },
+  {
+   "word": "relieve",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "(고통 등을) 덜다, 완화하다; 안도하게 하다",
+   "base": null,
+   "set": 26,
+   "exercise": "몸과 건강",
+   "grammar": "G108"
+  },
+  {
+   "word": "tissue",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "(생물의) 조직; 화장지",
+   "base": null,
+   "set": 26,
+   "exercise": "몸과 건강",
+   "grammar": "G108"
+  },
+  {
+   "word": "palm",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "손바닥; 야자나무",
+   "base": null,
+   "set": 26,
+   "exercise": "몸과 건강",
+   "grammar": "G108"
+  },
+  {
+   "word": "scratch",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v., n.",
+   "ko": "긁다, 할퀴다; 긁힌 자국; (from scratch) 처음부터",
+   "base": null,
+   "set": 26,
+   "exercise": "몸과 건강",
+   "grammar": "G108"
+  },
+  {
+   "word": "severely",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "심하게, 심각하게; 엄하게",
+   "base": "severe",
+   "set": 26,
+   "exercise": "몸과 건강",
+   "grammar": "G108"
+  },
+  {
+   "word": "suffering",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "고통, 괴로움",
+   "base": "suffer",
+   "set": 26,
+   "exercise": "몸과 건강",
+   "grammar": "G108"
+  },
+  {
+   "word": "portion",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "부분, 일부; 몫; (음식의) 1인분",
+   "base": null,
+   "set": 26,
+   "exercise": "몸과 건강",
+   "grammar": "G108"
+  },
+  {
+   "word": "trigger",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v., n.",
+   "ko": "촉발하다, 일으키다; 계기; 방아쇠",
+   "base": null,
+   "set": 26,
+   "exercise": "몸과 건강",
+   "grammar": "G108"
+  },
+  {
+   "word": "invasion",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "침략, 침입; 침해",
+   "base": "invade",
+   "set": 26,
+   "exercise": "역사와 이주",
+   "grammar": "G108"
+  },
+  {
+   "word": "era",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "시대",
+   "base": null,
+   "set": 26,
+   "exercise": "역사와 이주",
+   "grammar": "G108"
+  },
+  {
+   "word": "settler",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "정착민, 이주민",
+   "base": "settle",
+   "set": 26,
+   "exercise": "역사와 이주",
+   "grammar": "G108"
+  },
+  {
+   "word": "immigration",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "이민, 이주; 출입국 관리",
+   "base": "immigrant",
+   "set": 26,
+   "exercise": "역사와 이주",
+   "grammar": "G108"
+  },
+  {
+   "word": "historian",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "역사가, 사학자",
+   "base": "history",
+   "set": 26,
+   "exercise": "역사와 이주",
+   "grammar": "G108"
+  },
+  {
+   "word": "territory",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "영토, 지역; 영역",
+   "base": null,
+   "set": 26,
+   "exercise": "역사와 이주",
+   "grammar": "G108"
+  },
+  {
+   "word": "inhabitant",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "주민, 거주자; 서식 동물",
+   "base": null,
+   "set": 26,
+   "exercise": "역사와 이주",
+   "grammar": "G108"
+  },
+  {
+   "word": "trace",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n., v.",
+   "ko": "흔적, 자취; 추적하다, 찾아내다; (기원을) 거슬러 올라가다",
+   "base": null,
+   "set": 26,
+   "exercise": "역사와 이주",
+   "grammar": "G108"
+  },
+  {
+   "word": "derive",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "(~에서) 나오다, 유래하다; 얻다, 끌어내다",
+   "base": null,
+   "set": 26,
+   "exercise": "역사와 이주",
+   "grammar": "G108"
+  },
+  {
+   "word": "occupy",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "차지하다; 점령하다; (시간을) 쓰다",
+   "base": null,
+   "set": 26,
+   "exercise": "역사와 이주",
+   "grammar": "G108"
+  },
+  {
+   "word": "inherit",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "물려받다, 상속하다",
+   "base": null,
+   "set": 26,
+   "exercise": "역사와 이주",
+   "grammar": "G108"
+  },
+  {
+   "word": "unfold",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "펼치다, 펴다; (상황이) 전개되다, 드러나다",
+   "base": "fold",
+   "set": 26,
+   "exercise": "역사와 이주",
+   "grammar": "G108"
+  },
+  {
+   "word": "defender",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "수비수; 옹호자, 방어자",
+   "base": "defend",
+   "set": 26,
+   "exercise": "역사와 이주",
+   "grammar": "G108"
+  },
+  {
+   "word": "timeline",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "연대표; 일정, 시간표",
+   "base": null,
+   "set": 26,
+   "exercise": "역사와 이주",
+   "grammar": "G108"
+  },
+  {
+   "word": "workplace",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "직장, 일터",
+   "base": null,
+   "set": 27,
+   "exercise": "직장과 일",
+   "grammar": "G109"
+  },
+  {
+   "word": "workforce",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "(전체) 노동력, 노동 인구; 전 직원",
+   "base": null,
+   "set": 27,
+   "exercise": "직장과 일",
+   "grammar": "G109"
+  },
+  {
+   "word": "part-time",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj., adv.",
+   "ko": "시간제의, 파트타임의; 시간제로",
+   "base": "part+time",
+   "set": 27,
+   "exercise": "직장과 일",
+   "grammar": "G109"
+  },
+  {
+   "word": "applicant",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "지원자, 신청자",
+   "base": "apply",
+   "set": 27,
+   "exercise": "직장과 일",
+   "grammar": "G109"
+  },
+  {
+   "word": "recruit",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v., n.",
+   "ko": "모집하다, 채용하다; 신입 사원, 신병",
+   "base": null,
+   "set": 27,
+   "exercise": "직장과 일",
+   "grammar": "G109"
+  },
+  {
+   "word": "assign",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "(일을) 맡기다, 배정하다, 할당하다",
+   "base": null,
+   "set": 27,
+   "exercise": "직장과 일",
+   "grammar": "G109"
+  },
+  {
+   "word": "promotion",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "승진; 홍보, 판촉; 촉진",
+   "base": "promote",
+   "set": 27,
+   "exercise": "직장과 일",
+   "grammar": "G109"
+  },
+  {
+   "word": "skilled",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "숙련된, 노련한; 숙련이 필요한",
+   "base": "skill",
+   "set": 27,
+   "exercise": "직장과 일",
+   "grammar": "G109"
+  },
+  {
+   "word": "expertise",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "전문 지식, 전문 기술",
+   "base": "expert",
+   "set": 27,
+   "exercise": "직장과 일",
+   "grammar": "G109"
+  },
+  {
+   "word": "certificate",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "증명서, 자격증",
+   "base": null,
+   "set": 27,
+   "exercise": "직장과 일",
+   "grammar": "G109"
+  },
+  {
+   "word": "mechanic",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "정비사, 기계공",
+   "base": null,
+   "set": 27,
+   "exercise": "직장과 일",
+   "grammar": "G109"
+  },
+  {
+   "word": "miner",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "광부",
+   "base": "mine",
+   "set": 27,
+   "exercise": "직장과 일",
+   "grammar": "G109"
+  },
+  {
+   "word": "deadline",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "마감 기한",
+   "base": null,
+   "set": 27,
+   "exercise": "직장과 일",
+   "grammar": "G109"
+  },
+  {
+   "word": "evaluation",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "평가",
+   "base": "evaluate",
+   "set": 27,
+   "exercise": "좋고 나쁨",
+   "grammar": "G110"
+  },
+  {
+   "word": "critically",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "비판적으로; 위독하게, 결정적으로",
+   "base": "critical",
+   "set": 27,
+   "exercise": "좋고 나쁨",
+   "grammar": "G110"
+  },
+  {
+   "word": "accuracy",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "정확(성)",
+   "base": "accurate",
+   "set": 27,
+   "exercise": "좋고 나쁨",
+   "grammar": "G110"
+  },
+  {
+   "word": "appropriately",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "적절하게",
+   "base": "appropriate",
+   "set": 27,
+   "exercise": "좋고 나쁨",
+   "grammar": "G110"
+  },
+  {
+   "word": "outstanding",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "뛰어난, 두드러진; 미해결의",
+   "base": null,
+   "set": 27,
+   "exercise": "좋고 나쁨",
+   "grammar": "G110"
+  },
+  {
+   "word": "remarkable",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "놀라운, 주목할 만한",
+   "base": null,
+   "set": 27,
+   "exercise": "좋고 나쁨",
+   "grammar": "G110"
+  },
+  {
+   "word": "remarkably",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "놀랍게도, 현저하게",
+   "base": null,
+   "set": 27,
+   "exercise": "좋고 나쁨",
+   "grammar": "G110"
+  },
+  {
+   "word": "promising",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "유망한, 장래성 있는",
+   "base": "promise",
+   "set": 27,
+   "exercise": "좋고 나쁨",
+   "grammar": "G110"
+  },
+  {
+   "word": "beneficial",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "유익한, 이로운",
+   "base": "benefit",
+   "set": 27,
+   "exercise": "좋고 나쁨",
+   "grammar": "G110"
+  },
+  {
+   "word": "reasonably",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "합리적으로, 타당하게; 꽤, 상당히",
+   "base": "reasonable",
+   "set": 27,
+   "exercise": "좋고 나쁨",
+   "grammar": "G110"
+  },
+  {
+   "word": "genuine",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "진짜의; 진심 어린",
+   "base": null,
+   "set": 27,
+   "exercise": "좋고 나쁨",
+   "grammar": "G110"
+  },
+  {
+   "word": "challenging",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "어렵지만 해볼 만한, 도전적인",
+   "base": "challenge",
+   "set": 27,
+   "exercise": "좋고 나쁨",
+   "grammar": "G110"
+  },
+  {
+   "word": "adequate",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "충분한, 적절한",
+   "base": null,
+   "set": 27,
+   "exercise": "좋고 나쁨",
+   "grammar": "G110"
+  },
+  {
+   "word": "ultimate",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "궁극적인, 최종의; 최고의",
+   "base": null,
+   "set": 27,
+   "exercise": "좋고 나쁨",
+   "grammar": "G110"
+  },
+  {
+   "word": "grocery",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "식료품; 식료품점",
+   "base": null,
+   "set": 28,
+   "exercise": "가게와 돈",
+   "grammar": "G113"
+  },
+  {
+   "word": "dairy",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n., adj.",
+   "ko": "유제품; 낙농(업)의",
+   "base": null,
+   "set": 28,
+   "exercise": "가게와 돈",
+   "grammar": "G113"
+  },
+  {
+   "word": "counter",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n., v.",
+   "ko": "계산대, 판매대; 반박하다, 대응하다",
+   "base": null,
+   "set": 28,
+   "exercise": "가게와 돈",
+   "grammar": "G113"
+  },
+  {
+   "word": "tag",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n., v.",
+   "ko": "꼬리표, 태그; 꼬리표를 붙이다",
+   "base": null,
+   "set": 28,
+   "exercise": "가게와 돈",
+   "grammar": "G113"
+  },
+  {
+   "word": "refund",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n., v.",
+   "ko": "환불(금); 환불하다",
+   "base": null,
+   "set": 28,
+   "exercise": "가게와 돈",
+   "grammar": "G113"
+  },
+  {
+   "word": "retail",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n., v.",
+   "ko": "소매; 소매의; 소매하다",
+   "base": null,
+   "set": 28,
+   "exercise": "가게와 돈",
+   "grammar": "G113"
+  },
+  {
+   "word": "dealer",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "판매상, 중개인; (카드) 딜러",
+   "base": "deal",
+   "set": 28,
+   "exercise": "가게와 돈",
+   "grammar": "G113"
+  },
+  {
+   "word": "affordable",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "(가격이) 알맞은, 감당할 수 있는",
+   "base": "afford",
+   "set": 28,
+   "exercise": "가게와 돈",
+   "grammar": "G113"
+  },
+  {
+   "word": "rental",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n., adj.",
+   "ko": "임대, 대여; 임대료; 임대의",
+   "base": "rent",
+   "set": 28,
+   "exercise": "가게와 돈",
+   "grammar": "G113"
+  },
+  {
+   "word": "deposit",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n., v.",
+   "ko": "보증금, 예금; 퇴적물; 두다, 예금하다",
+   "base": null,
+   "set": 28,
+   "exercise": "가게와 돈",
+   "grammar": "G113"
+  },
+  {
+   "word": "mortgage",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "(주택) 담보 대출",
+   "base": null,
+   "set": 28,
+   "exercise": "가게와 돈",
+   "grammar": "G113"
+  },
+  {
+   "word": "lottery",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "복권; 추첨",
+   "base": null,
+   "set": 28,
+   "exercise": "가게와 돈",
+   "grammar": "G113"
+  },
+  {
+   "word": "withdraw",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "철수하다, 물러나다; (돈을) 인출하다; 철회하다",
+   "base": null,
+   "set": 28,
+   "exercise": "가게와 돈",
+   "grammar": "G113"
+  },
+  {
+   "word": "spare",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj., v.",
+   "ko": "여분의, 예비의; (시간·돈을) 내주다, 할애하다; 아끼다",
+   "base": null,
+   "set": 28,
+   "exercise": "가게와 돈",
+   "grammar": "G113"
+  },
+  {
+   "word": "passionate",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "열정적인",
+   "base": "passion",
+   "set": 28,
+   "exercise": "감정과 관계",
+   "grammar": "G118"
+  },
+  {
+   "word": "panic",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n., v.",
+   "ko": "공황, 극심한 공포; 겁에 질리다",
+   "base": null,
+   "set": 28,
+   "exercise": "감정과 관계",
+   "grammar": "G118"
+  },
+  {
+   "word": "tension",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "긴장, 갈등; 팽팽함",
+   "base": "tense",
+   "set": 28,
+   "exercise": "감정과 관계",
+   "grammar": "G118"
+  },
+  {
+   "word": "tease",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "놀리다, 장난으로 괴롭히다",
+   "base": null,
+   "set": 28,
+   "exercise": "감정과 관계",
+   "grammar": "G118"
+  },
+  {
+   "word": "disturb",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "방해하다; 불안하게 하다",
+   "base": null,
+   "set": 28,
+   "exercise": "감정과 관계",
+   "grammar": "G118"
+  },
+  {
+   "word": "attachment",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "애착; 첨부 파일; 부착(물)",
+   "base": "attach",
+   "set": 28,
+   "exercise": "감정과 관계",
+   "grammar": "G118"
+  },
+  {
+   "word": "confusion",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "혼란, 혼동",
+   "base": "confuse",
+   "set": 28,
+   "exercise": "감정과 관계",
+   "grammar": "G118"
+  },
+  {
+   "word": "desperately",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "필사적으로; 몹시, 절실히",
+   "base": "desperate",
+   "set": 28,
+   "exercise": "감정과 관계",
+   "grammar": "G118"
+  },
+  {
+   "word": "embrace",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v., n.",
+   "ko": "포옹하다; (생각을) 받아들이다; 포옹",
+   "base": null,
+   "set": 28,
+   "exercise": "감정과 관계",
+   "grammar": "G118"
+  },
+  {
+   "word": "console",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v., n.",
+   "ko": "위로하다; (게임기·기계의) 조종대, 콘솔",
+   "base": null,
+   "set": 28,
+   "exercise": "감정과 관계",
+   "grammar": "G118"
+  },
+  {
+   "word": "modest",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "겸손한; 그다지 크지 않은, 적당한",
+   "base": null,
+   "set": 28,
+   "exercise": "감정과 관계",
+   "grammar": "G118"
+  },
+  {
+   "word": "peer",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "또래, 동료",
+   "base": null,
+   "set": 28,
+   "exercise": "감정과 관계",
+   "grammar": "G118"
+  },
+  {
+   "word": "vaccinate",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "백신을 접종하다",
+   "base": "vaccine",
+   "set": 29,
+   "exercise": "질병과 예방",
+   "grammar": "G111"
+  },
+  {
+   "word": "vaccination",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "백신 접종, 예방 접종",
+   "base": "vaccine",
+   "set": 29,
+   "exercise": "질병과 예방",
+   "grammar": "G111"
+  },
+  {
+   "word": "pandemic",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "세계적 유행병, 팬데믹",
+   "base": null,
+   "set": 29,
+   "exercise": "질병과 예방",
+   "grammar": "G111"
+  },
+  {
+   "word": "mosquito",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "모기",
+   "base": null,
+   "set": 29,
+   "exercise": "질병과 예방",
+   "grammar": "G111"
+  },
+  {
+   "word": "screening",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "상영; (질병) 검사, 선별",
+   "base": "screen",
+   "set": 29,
+   "exercise": "질병과 예방",
+   "grammar": "G111"
+  },
+  {
+   "word": "exposure",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "노출; 폭로",
+   "base": "expose",
+   "set": 29,
+   "exercise": "질병과 예방",
+   "grammar": "G111"
+  },
+  {
+   "word": "isolate",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "고립시키다, 격리하다; 분리하다",
+   "base": null,
+   "set": 29,
+   "exercise": "질병과 예방",
+   "grammar": "G111"
+  },
+  {
+   "word": "isolated",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "고립된, 외딴; 단발적인",
+   "base": null,
+   "set": 29,
+   "exercise": "질병과 예방",
+   "grammar": "G111"
+  },
+  {
+   "word": "deadly",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "치명적인; 극도의",
+   "base": "dead",
+   "set": 29,
+   "exercise": "질병과 예방",
+   "grammar": "G111"
+  },
+  {
+   "word": "survival",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "생존",
+   "base": "survive",
+   "set": 29,
+   "exercise": "질병과 예방",
+   "grammar": "G111"
+  },
+  {
+   "word": "undergo",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "(변화·수술 등을) 겪다, 받다",
+   "base": null,
+   "set": 29,
+   "exercise": "질병과 예방",
+   "grammar": "G111"
+  },
+  {
+   "word": "genetic",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "유전의, 유전적인",
+   "base": "gene",
+   "set": 29,
+   "exercise": "질병과 예방",
+   "grammar": "G111"
+  },
+  {
+   "word": "biological",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "생물학의, 생물학적인",
+   "base": "biology",
+   "set": 29,
+   "exercise": "질병과 예방",
+   "grammar": "G111"
+  },
+  {
+   "word": "interpretation",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "해석, 이해; 통역",
+   "base": "interpret",
+   "set": 29,
+   "exercise": "이야기와 해석",
+   "grammar": "G117"
+  },
+  {
+   "word": "metaphor",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "은유, 비유",
+   "base": null,
+   "set": 29,
+   "exercise": "이야기와 해석",
+   "grammar": "G117"
+  },
+  {
+   "word": "literary",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "문학의, 문학적인",
+   "base": "literature",
+   "set": 29,
+   "exercise": "이야기와 해석",
+   "grammar": "G117"
+  },
+  {
+   "word": "literally",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "문자 그대로; 말 그대로(강조)",
+   "base": null,
+   "set": 29,
+   "exercise": "이야기와 해석",
+   "grammar": "G117"
+  },
+  {
+   "word": "fantasy",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "공상, 환상",
+   "base": null,
+   "set": 29,
+   "exercise": "이야기와 해석",
+   "grammar": "G117"
+  },
+  {
+   "word": "myth",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "신화; 근거 없는 믿음",
+   "base": null,
+   "set": 29,
+   "exercise": "이야기와 해석",
+   "grammar": "G117"
+  },
+  {
+   "word": "villain",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "악당, 악역",
+   "base": null,
+   "set": 29,
+   "exercise": "이야기와 해석",
+   "grammar": "G117"
+  },
+  {
+   "word": "tragedy",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "비극; 비극 작품",
+   "base": null,
+   "set": 29,
+   "exercise": "이야기와 해석",
+   "grammar": "G117"
+  },
+  {
+   "word": "illusion",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "환상, 착각; 환영",
+   "base": null,
+   "set": 29,
+   "exercise": "이야기와 해석",
+   "grammar": "G117"
+  },
+  {
+   "word": "hidden",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "숨겨진, 숨은",
+   "base": "hide",
+   "set": 29,
+   "exercise": "이야기와 해석",
+   "grammar": "G117"
+  },
+  {
+   "word": "moving",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "감동적인; 움직이는",
+   "base": "move",
+   "set": 29,
+   "exercise": "이야기와 해석",
+   "grammar": "G117"
+  },
+  {
+   "word": "trait",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "특성, 특징",
+   "base": null,
+   "set": 29,
+   "exercise": "이야기와 해석",
+   "grammar": "G117"
+  },
+  {
+   "word": "coincidence",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "우연의 일치; 동시 발생",
+   "base": null,
+   "set": 29,
+   "exercise": "이야기와 해석",
+   "grammar": "G117"
+  },
+  {
+   "word": "composer",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "작곡가",
+   "base": null,
+   "set": 30,
+   "exercise": "공연과 공예",
+   "grammar": "G114"
+  },
+  {
+   "word": "compose",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "구성하다; 작곡하다, (글을) 짓다; (마음을) 가라앉히다",
+   "base": null,
+   "set": 30,
+   "exercise": "공연과 공예",
+   "grammar": "G114"
+  },
+  {
+   "word": "comedian",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "코미디언, 희극 배우",
+   "base": "comedy",
+   "set": 30,
+   "exercise": "공연과 공예",
+   "grammar": "G114"
+  },
+  {
+   "word": "cue",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "신호, 단서; (연기·발언의) 큐",
+   "base": null,
+   "set": 30,
+   "exercise": "공연과 공예",
+   "grammar": "G114"
+  },
+  {
+   "word": "firework",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "불꽃놀이, 폭죽",
+   "base": null,
+   "set": 30,
+   "exercise": "공연과 공예",
+   "grammar": "G114"
+  },
+  {
+   "word": "spectacular",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "장관을 이루는, 극적인, 굉장한",
+   "base": null,
+   "set": 30,
+   "exercise": "공연과 공예",
+   "grammar": "G114"
+  },
+  {
+   "word": "enjoyable",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "즐거운, 재미있는",
+   "base": "enjoy",
+   "set": 30,
+   "exercise": "공연과 공예",
+   "grammar": "G114"
+  },
+  {
+   "word": "exhibit",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v., n.",
+   "ko": "전시하다; (특징·감정을) 보이다; 전시품",
+   "base": null,
+   "set": 30,
+   "exercise": "공연과 공예",
+   "grammar": "G114"
+  },
+  {
+   "word": "publicity",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "홍보, 광고; (언론의) 관심, 주목",
+   "base": "public",
+   "set": 30,
+   "exercise": "공연과 공예",
+   "grammar": "G114"
+  },
+  {
+   "word": "craft",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n., v.",
+   "ko": "공예, 기술; 배, 항공기; 공들여 만들다",
+   "base": null,
+   "set": 30,
+   "exercise": "공연과 공예",
+   "grammar": "G114"
+  },
+  {
+   "word": "collector",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "수집가; 징수원",
+   "base": "collect",
+   "set": 30,
+   "exercise": "공연과 공예",
+   "grammar": "G114"
+  },
+  {
+   "word": "creativity",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "창의성, 창조력",
+   "base": "creative",
+   "set": 30,
+   "exercise": "공연과 공예",
+   "grammar": "G114"
+  },
+  {
+   "word": "fabric",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "직물, 천; (사회 등의) 구조",
+   "base": null,
+   "set": 30,
+   "exercise": "공연과 공예",
+   "grammar": "G114"
+  },
+  {
+   "word": "interval",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "(시간·공간의) 간격; (공연의) 중간 휴식",
+   "base": null,
+   "set": 30,
+   "exercise": "공연과 공예",
+   "grammar": "G114"
+  },
+  {
+   "word": "negotiate",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "협상하다",
+   "base": null,
+   "set": 30,
+   "exercise": "대화와 협상",
+   "grammar": "G120"
+  },
+  {
+   "word": "negotiation",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "협상",
+   "base": null,
+   "set": 30,
+   "exercise": "대화와 협상",
+   "grammar": "G120"
+  },
+  {
+   "word": "clarify",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "명확히 하다, 분명하게 설명하다",
+   "base": null,
+   "set": 30,
+   "exercise": "대화와 협상",
+   "grammar": "G120"
+  },
+  {
+   "word": "assure",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "장담하다, 안심시키다; 보장하다",
+   "base": null,
+   "set": 30,
+   "exercise": "대화와 협상",
+   "grammar": "G120"
+  },
+  {
+   "word": "disagreement",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "의견 충돌, 불일치",
+   "base": "disagree",
+   "set": 30,
+   "exercise": "대화와 협상",
+   "grammar": "G120"
+  },
+  {
+   "word": "input",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "투입, 입력; 의견, 조언",
+   "base": null,
+   "set": 30,
+   "exercise": "대화와 협상",
+   "grammar": "G120"
+  },
+  {
+   "word": "specify",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "명시하다, 구체적으로 말하다",
+   "base": "specific",
+   "set": 30,
+   "exercise": "대화와 협상",
+   "grammar": "G120"
+  },
+  {
+   "word": "convey",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "전달하다; 운반하다",
+   "base": null,
+   "set": 30,
+   "exercise": "대화와 협상",
+   "grammar": "G120"
+  },
+  {
+   "word": "receiver",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "수화기; 수신기; 받는 사람",
+   "base": "receive",
+   "set": 30,
+   "exercise": "대화와 협상",
+   "grammar": "G120"
+  },
+  {
+   "word": "viewpoint",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "관점, 견해",
+   "base": null,
+   "set": 30,
+   "exercise": "대화와 협상",
+   "grammar": "G120"
+  },
+  {
+   "word": "prompt",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v., adj.",
+   "ko": "촉발하다, 유도하다; 즉각적인, 신속한",
+   "base": null,
+   "set": 30,
+   "exercise": "대화와 협상",
+   "grammar": "G120"
+  },
+  {
+   "word": "consult",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "상담하다, 상의하다; (자료를) 찾아보다",
+   "base": null,
+   "set": 30,
+   "exercise": "대화와 협상",
+   "grammar": "G120"
+  },
+  {
+   "word": "habitat",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "서식지",
+   "base": null,
+   "set": 31,
+   "exercise": "자연과 환경",
+   "grammar": "G121"
+  },
+  {
+   "word": "conservation",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "보존, 보호; (에너지) 절약",
+   "base": null,
+   "set": 31,
+   "exercise": "자연과 환경",
+   "grammar": "G121"
+  },
+  {
+   "word": "emission",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "배출(물), 배기가스; 방출",
+   "base": null,
+   "set": 31,
+   "exercise": "자연과 환경",
+   "grammar": "G121"
+  },
+  {
+   "word": "footprint",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "발자국; (환경 등에 남기는) 영향",
+   "base": "foot+print",
+   "set": 31,
+   "exercise": "자연과 환경",
+   "grammar": "G121"
+  },
+  {
+   "word": "sustainable",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "지속 가능한",
+   "base": null,
+   "set": 31,
+   "exercise": "자연과 환경",
+   "grammar": "G121"
+  },
+  {
+   "word": "organic",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "유기농의; 유기체의",
+   "base": null,
+   "set": 31,
+   "exercise": "자연과 환경",
+   "grammar": "G121"
+  },
+  {
+   "word": "agriculture",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "농업",
+   "base": null,
+   "set": 31,
+   "exercise": "자연과 환경",
+   "grammar": "G121"
+  },
+  {
+   "word": "consumption",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "소비(량); 섭취",
+   "base": "consume",
+   "set": 31,
+   "exercise": "자연과 환경",
+   "grammar": "G121"
+  },
+  {
+   "word": "restore",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "회복시키다, 되찾게 하다; 복원하다",
+   "base": null,
+   "set": 31,
+   "exercise": "자연과 환경",
+   "grammar": "G121"
+  },
+  {
+   "word": "eliminate",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "없애다, 제거하다; 탈락시키다",
+   "base": null,
+   "set": 31,
+   "exercise": "자연과 환경",
+   "grammar": "G121"
+  },
+  {
+   "word": "patch",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "(덧대는) 조각; (주변과 다른) 부분; 작은 땅",
+   "base": null,
+   "set": 31,
+   "exercise": "자연과 환경",
+   "grammar": "G121"
+  },
+  {
+   "word": "exploit",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "이용하다, 활용하다; 착취하다",
+   "base": null,
+   "set": 31,
+   "exercise": "자연과 환경",
+   "grammar": "G121"
+  },
+  {
+   "word": "sufficient",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "충분한",
+   "base": null,
+   "set": 31,
+   "exercise": "자연과 환경",
+   "grammar": "G121"
+  },
+  {
+   "word": "sufficiently",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "충분히",
+   "base": null,
+   "set": 31,
+   "exercise": "자연과 환경",
+   "grammar": "G121"
+  },
+  {
+   "word": "additionally",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "게다가, 추가로",
+   "base": "additional",
+   "set": 31,
+   "exercise": "논리와 연결",
+   "grammar": "G121"
+  },
+  {
+   "word": "consequently",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "그 결과, 따라서",
+   "base": "consequence",
+   "set": 31,
+   "exercise": "논리와 연결",
+   "grammar": "G121"
+  },
+  {
+   "word": "hence",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "그러므로, 따라서",
+   "base": null,
+   "set": 31,
+   "exercise": "논리와 연결",
+   "grammar": "G121"
+  },
+  {
+   "word": "likewise",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "마찬가지로, 똑같이",
+   "base": null,
+   "set": 31,
+   "exercise": "논리와 연결",
+   "grammar": "G121"
+  },
+  {
+   "word": "essentially",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "본질적으로, 기본적으로",
+   "base": "essential",
+   "set": 31,
+   "exercise": "논리와 연결",
+   "grammar": "G121"
+  },
+  {
+   "word": "primarily",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "주로, 본래",
+   "base": "primary",
+   "set": 31,
+   "exercise": "논리와 연결",
+   "grammar": "G121"
+  },
+  {
+   "word": "inevitable",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "불가피한, 피할 수 없는",
+   "base": null,
+   "set": 31,
+   "exercise": "논리와 연결",
+   "grammar": "G121"
+  },
+  {
+   "word": "inevitably",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "불가피하게, 필연적으로",
+   "base": null,
+   "set": 31,
+   "exercise": "논리와 연결",
+   "grammar": "G121"
+  },
+  {
+   "word": "subsequent",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "그 다음의, 이후의",
+   "base": null,
+   "set": 31,
+   "exercise": "논리와 연결",
+   "grammar": "G121"
+  },
+  {
+   "word": "subsequently",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "그 후에, 이어서",
+   "base": null,
+   "set": 31,
+   "exercise": "논리와 연결",
+   "grammar": "G121"
+  },
+  {
+   "word": "significance",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "중요성, 의의; 의미",
+   "base": "significant",
+   "set": 31,
+   "exercise": "논리와 연결",
+   "grammar": "G121"
+  },
+  {
+   "word": "necessity",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "필요(성); 필수품",
+   "base": "necessary",
+   "set": 31,
+   "exercise": "논리와 연결",
+   "grammar": "G121"
+  },
+  {
+   "word": "indication",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "표시, 징후, 암시",
+   "base": "indicate",
+   "set": 31,
+   "exercise": "논리와 연결",
+   "grammar": "G121"
+  },
+  {
+   "word": "booking",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "예약",
+   "base": "book",
+   "set": 32,
+   "exercise": "여행과 교통",
+   "grammar": "G122"
+  },
+  {
+   "word": "depart",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "출발하다, 떠나다",
+   "base": null,
+   "set": 32,
+   "exercise": "여행과 교통",
+   "grammar": "G122"
+  },
+  {
+   "word": "landing",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "착륙; (계단의) 층계참",
+   "base": "land",
+   "set": 32,
+   "exercise": "여행과 교통",
+   "grammar": "G122"
+  },
+  {
+   "word": "overseas",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv., adj.",
+   "ko": "해외로; 해외의",
+   "base": null,
+   "set": 32,
+   "exercise": "여행과 교통",
+   "grammar": "G122"
+  },
+  {
+   "word": "exotic",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "이국적인, 외래의",
+   "base": null,
+   "set": 32,
+   "exercise": "여행과 교통",
+   "grammar": "G122"
+  },
+  {
+   "word": "navigate",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "길을 찾다, 항해하다; (어려운 상황을) 헤쳐 나가다",
+   "base": null,
+   "set": 32,
+   "exercise": "여행과 교통",
+   "grammar": "G122"
+  },
+  {
+   "word": "accommodate",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "(숙소·공간에) 수용하다; (요구에) 맞추다, 부응하다",
+   "base": null,
+   "set": 32,
+   "exercise": "여행과 교통",
+   "grammar": "G122"
+  },
+  {
+   "word": "highway",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "고속도로, 간선 도로",
+   "base": null,
+   "set": 32,
+   "exercise": "여행과 교통",
+   "grammar": "G122"
+  },
+  {
+   "word": "brake",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n., v.",
+   "ko": "브레이크, 제동 장치; 브레이크를 밟다",
+   "base": null,
+   "set": 32,
+   "exercise": "여행과 교통",
+   "grammar": "G122"
+  },
+  {
+   "word": "terminal",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n., adj.",
+   "ko": "터미널; 단말기; (병이) 말기의, 불치의",
+   "base": null,
+   "set": 32,
+   "exercise": "여행과 교통",
+   "grammar": "G122"
+  },
+  {
+   "word": "canal",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "운하, 수로",
+   "base": null,
+   "set": 32,
+   "exercise": "여행과 교통",
+   "grammar": "G122"
+  },
+  {
+   "word": "sidewalk",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "보도, 인도",
+   "base": null,
+   "set": 32,
+   "exercise": "여행과 교통",
+   "grammar": "G122"
+  },
+  {
+   "word": "suburb",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "교외, 근교",
+   "base": null,
+   "set": 32,
+   "exercise": "여행과 교통",
+   "grammar": "G122"
+  },
+  {
+   "word": "infrastructure",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "사회 기반 시설, 인프라",
+   "base": null,
+   "set": 32,
+   "exercise": "여행과 교통",
+   "grammar": "G122"
+  },
+  {
+   "word": "identical",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "똑같은, 동일한",
+   "base": null,
+   "set": 32,
+   "exercise": "같음과 다름",
+   "grammar": "G139"
+  },
+  {
+   "word": "equivalent",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj., n.",
+   "ko": "동등한, ~에 상응하는; 상응하는 것, 등가물",
+   "base": null,
+   "set": 32,
+   "exercise": "같음과 다름",
+   "grammar": "G139"
+  },
+  {
+   "word": "distinct",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "뚜렷한, 분명한; 별개의, 다른",
+   "base": null,
+   "set": 32,
+   "exercise": "같음과 다름",
+   "grammar": "G139"
+  },
+  {
+   "word": "differ",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "다르다; 의견이 다르다",
+   "base": null,
+   "set": 32,
+   "exercise": "같음과 다름",
+   "grammar": "G139"
+  },
+  {
+   "word": "diverse",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "다양한",
+   "base": null,
+   "set": 32,
+   "exercise": "같음과 다름",
+   "grammar": "G139"
+  },
+  {
+   "word": "diversity",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "다양성",
+   "base": null,
+   "set": 32,
+   "exercise": "같음과 다름",
+   "grammar": "G139"
+  },
+  {
+   "word": "variation",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "변화, 변동; 변형, 변주",
+   "base": "vary",
+   "set": 32,
+   "exercise": "같음과 다름",
+   "grammar": "G139"
+  },
+  {
+   "word": "dynamic",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj., n.",
+   "ko": "역동적인, 활발한; 역학 (관계)",
+   "base": null,
+   "set": 32,
+   "exercise": "같음과 다름",
+   "grammar": "G139"
+  },
+  {
+   "word": "classify",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "분류하다",
+   "base": "class",
+   "set": 32,
+   "exercise": "같음과 다름",
+   "grammar": "G139"
+  },
+  {
+   "word": "preference",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "선호, 더 좋아함",
+   "base": "prefer",
+   "set": 32,
+   "exercise": "같음과 다름",
+   "grammar": "G139"
+  },
+  {
+   "word": "striking",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "눈에 띄는, 두드러진; 매우 매력적인",
+   "base": null,
+   "set": 32,
+   "exercise": "같음과 다름",
+   "grammar": "G139"
+  },
+  {
+   "word": "visible",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "눈에 보이는; 뚜렷한",
+   "base": null,
+   "set": 32,
+   "exercise": "같음과 다름",
+   "grammar": "G139"
+  },
+  {
+   "word": "corporation",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "기업, (큰) 회사; 법인",
+   "base": "corporate",
+   "set": 33,
+   "exercise": "기업과 시장",
+   "grammar": "G123"
+  },
+  {
+   "word": "innovation",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "혁신; 새로운 것(방법)",
+   "base": "innovative",
+   "set": 33,
+   "exercise": "기업과 시장",
+   "grammar": "G123"
+  },
+  {
+   "word": "revenue",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "수익, 수입; 세입",
+   "base": null,
+   "set": 33,
+   "exercise": "기업과 시장",
+   "grammar": "G123"
+  },
+  {
+   "word": "asset",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "자산, 재산; 강점, 귀중한 것",
+   "base": null,
+   "set": 33,
+   "exercise": "기업과 시장",
+   "grammar": "G123"
+  },
+  {
+   "word": "output",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "생산량, 산출(량); 출력",
+   "base": null,
+   "set": 33,
+   "exercise": "기업과 시장",
+   "grammar": "G123"
+  },
+  {
+   "word": "boost",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v., n.",
+   "ko": "높이다, 북돋우다; 증가, 격려",
+   "base": null,
+   "set": 33,
+   "exercise": "기업과 시장",
+   "grammar": "G123"
+  },
+  {
+   "word": "rival",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n., adj., v.",
+   "ko": "경쟁자, 라이벌; 경쟁하는; ~에 필적하다",
+   "base": null,
+   "set": 33,
+   "exercise": "기업과 시장",
+   "grammar": "G123"
+  },
+  {
+   "word": "analyst",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "분석가",
+   "base": "analyze",
+   "set": 33,
+   "exercise": "기업과 시장",
+   "grammar": "G123"
+  },
+  {
+   "word": "billionaire",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "억만장자",
+   "base": "billion",
+   "set": 33,
+   "exercise": "기업과 시장",
+   "grammar": "G123"
+  },
+  {
+   "word": "ownership",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "소유(권)",
+   "base": "owner",
+   "set": 33,
+   "exercise": "기업과 시장",
+   "grammar": "G123"
+  },
+  {
+   "word": "considerable",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "상당한, 꽤 많은",
+   "base": null,
+   "set": 33,
+   "exercise": "기업과 시장",
+   "grammar": "G123"
+  },
+  {
+   "word": "considerably",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "상당히, 꽤",
+   "base": null,
+   "set": 33,
+   "exercise": "기업과 시장",
+   "grammar": "G123"
+  },
+  {
+   "word": "roughly",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "대략, 약; 거칠게",
+   "base": "rough",
+   "set": 33,
+   "exercise": "기업과 시장",
+   "grammar": "G123"
+  },
+  {
+   "word": "exceed",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "넘다, 초과하다",
+   "base": null,
+   "set": 33,
+   "exercise": "기업과 시장",
+   "grammar": "G123"
+  },
+  {
+   "word": "registration",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "등록, 신고",
+   "base": "register",
+   "set": 33,
+   "exercise": "규칙과 정책",
+   "grammar": "G124"
+  },
+  {
+   "word": "regulate",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "규제하다, 통제하다; 조절하다",
+   "base": null,
+   "set": 33,
+   "exercise": "규칙과 정책",
+   "grammar": "G124"
+  },
+  {
+   "word": "guideline",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "지침, 가이드라인",
+   "base": null,
+   "set": 33,
+   "exercise": "규칙과 정책",
+   "grammar": "G124"
+  },
+  {
+   "word": "penalty",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "처벌, 벌칙; 벌금",
+   "base": null,
+   "set": 33,
+   "exercise": "규칙과 정책",
+   "grammar": "G124"
+  },
+  {
+   "word": "suspend",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "중단하다, 보류하다; 정학·정직시키다; 매달다",
+   "base": null,
+   "set": 33,
+   "exercise": "규칙과 정책",
+   "grammar": "G124"
+  },
+  {
+   "word": "implement",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "시행하다, 실행하다",
+   "base": null,
+   "set": 33,
+   "exercise": "규칙과 정책",
+   "grammar": "G124"
+  },
+  {
+   "word": "framework",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "틀, 뼈대, 체계",
+   "base": null,
+   "set": 33,
+   "exercise": "규칙과 정책",
+   "grammar": "G124"
+  },
+  {
+   "word": "comprehensive",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "포괄적인, 종합적인",
+   "base": null,
+   "set": 33,
+   "exercise": "규칙과 정책",
+   "grammar": "G124"
+  },
+  {
+   "word": "reinforce",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "강화하다, 보강하다",
+   "base": null,
+   "set": 33,
+   "exercise": "규칙과 정책",
+   "grammar": "G124"
+  },
+  {
+   "word": "coverage",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "보도, 취재; (보험) 보장 범위; 적용 범위",
+   "base": "cover",
+   "set": 33,
+   "exercise": "규칙과 정책",
+   "grammar": "G124"
+  },
+  {
+   "word": "exception",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "예외",
+   "base": "except",
+   "set": 33,
+   "exercise": "규칙과 정책",
+   "grammar": "G124"
+  },
+  {
+   "word": "temporarily",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "일시적으로, 임시로",
+   "base": "temporary",
+   "set": 33,
+   "exercise": "규칙과 정책",
+   "grammar": "G124"
+  },
+  {
+   "word": "kindergarten",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "유치원",
+   "base": null,
+   "set": 34,
+   "exercise": "배움과 성장",
+   "grammar": "G126"
+  },
+  {
+   "word": "elementary",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "기본적인, 초보의; 초등의",
+   "base": null,
+   "set": 34,
+   "exercise": "배움과 성장",
+   "grammar": "G126"
+  },
+  {
+   "word": "faculty",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "능력, 기능; (대학의) 학부, 교수진",
+   "base": null,
+   "set": 34,
+   "exercise": "배움과 성장",
+   "grammar": "G126"
+  },
+  {
+   "word": "principal",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj., n.",
+   "ko": "주요한, 주된; 교장",
+   "base": null,
+   "set": 34,
+   "exercise": "배움과 성장",
+   "grammar": "G126"
+  },
+  {
+   "word": "revision",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "수정, 개정; (시험 대비) 복습",
+   "base": "revise",
+   "set": 34,
+   "exercise": "배움과 성장",
+   "grammar": "G126"
+  },
+  {
+   "word": "overcome",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "극복하다",
+   "base": null,
+   "set": 34,
+   "exercise": "배움과 성장",
+   "grammar": "G126"
+  },
+  {
+   "word": "obstacle",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "장애물",
+   "base": null,
+   "set": 34,
+   "exercise": "배움과 성장",
+   "grammar": "G126"
+  },
+  {
+   "word": "accomplish",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "이루다, 성취하다, 완수하다",
+   "base": null,
+   "set": 34,
+   "exercise": "배움과 성장",
+   "grammar": "G126"
+  },
+  {
+   "word": "devote",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "(시간·노력을) 바치다, 쏟다",
+   "base": null,
+   "set": 34,
+   "exercise": "배움과 성장",
+   "grammar": "G126"
+  },
+  {
+   "word": "adjust",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "조정하다, 조절하다; 적응하다",
+   "base": null,
+   "set": 34,
+   "exercise": "배움과 성장",
+   "grammar": "G126"
+  },
+  {
+   "word": "motivate",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "동기를 부여하다, 의욕을 북돋우다",
+   "base": null,
+   "set": 34,
+   "exercise": "배움과 성장",
+   "grammar": "G126"
+  },
+  {
+   "word": "motivation",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "동기 부여, 의욕; 동기",
+   "base": null,
+   "set": 34,
+   "exercise": "배움과 성장",
+   "grammar": "G126"
+  },
+  {
+   "word": "lifetime",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "일생, 평생",
+   "base": "life+time",
+   "set": 34,
+   "exercise": "배움과 성장",
+   "grammar": "G126"
+  },
+  {
+   "word": "mechanical",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "기계의, 기계적인",
+   "base": null,
+   "set": 34,
+   "exercise": "기계와 기술",
+   "grammar": "G125"
+  },
+  {
+   "word": "mechanism",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "기계 장치; 구조, 메커니즘",
+   "base": null,
+   "set": 34,
+   "exercise": "기계와 기술",
+   "grammar": "G125"
+  },
+  {
+   "word": "circuit",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "회로; 순회, 한 바퀴; 경주로",
+   "base": null,
+   "set": 34,
+   "exercise": "기계와 기술",
+   "grammar": "G125"
+  },
+  {
+   "word": "electronics",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "전자 공학; 전자 기기",
+   "base": "electronic",
+   "set": 34,
+   "exercise": "기계와 기술",
+   "grammar": "G125"
+  },
+  {
+   "word": "activate",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "활성화하다, 작동시키다",
+   "base": "active",
+   "set": 34,
+   "exercise": "기계와 기술",
+   "grammar": "G125"
+  },
+  {
+   "word": "automatically",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "자동으로; 저절로, 무의식적으로",
+   "base": "automatic",
+   "set": 34,
+   "exercise": "기계와 기술",
+   "grammar": "G125"
+  },
+  {
+   "word": "marker",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "표시, 표지; 마커(펜)",
+   "base": "mark",
+   "set": 34,
+   "exercise": "기계와 기술",
+   "grammar": "G125"
+  },
+  {
+   "word": "format",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "형식, 구성; (책 등의) 판형",
+   "base": null,
+   "set": 34,
+   "exercise": "기계와 기술",
+   "grammar": "G125"
+  },
+  {
+   "word": "usage",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "사용(량); 어법, 용법",
+   "base": "use",
+   "set": 34,
+   "exercise": "기계와 기술",
+   "grammar": "G125"
+  },
+  {
+   "word": "incorporate",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "포함하다, 통합하다",
+   "base": null,
+   "set": 34,
+   "exercise": "기계와 기술",
+   "grammar": "G125"
+  },
+  {
+   "word": "integrate",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "통합하다; 어우러지다, 융화하다",
+   "base": null,
+   "set": 34,
+   "exercise": "기계와 기술",
+   "grammar": "G125"
+  },
+  {
+   "word": "duration",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "(지속) 기간",
+   "base": null,
+   "set": 34,
+   "exercise": "기계와 기술",
+   "grammar": "G125"
+  },
+  {
+   "word": "shortly",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "곧, 얼마 안 있어",
+   "base": "short",
+   "set": 34,
+   "exercise": "기계와 기술",
+   "grammar": "G125"
+  },
+  {
+   "word": "federal",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "연방의, 연방 정부의",
+   "base": null,
+   "set": 35,
+   "exercise": "사회와 정치",
+   "grammar": "G128"
+  },
+  {
+   "word": "voting",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "투표, 선거",
+   "base": "vote",
+   "set": 35,
+   "exercise": "사회와 정치",
+   "grammar": "G128"
+  },
+  {
+   "word": "mayor",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "시장(市長)",
+   "base": null,
+   "set": 35,
+   "exercise": "사회와 정치",
+   "grammar": "G128"
+  },
+  {
+   "word": "neutral",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "중립의, 중립적인",
+   "base": null,
+   "set": 35,
+   "exercise": "사회와 정치",
+   "grammar": "G128"
+  },
+  {
+   "word": "progressive",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "진보적인; 점진적인",
+   "base": "progress",
+   "set": 35,
+   "exercise": "사회와 정치",
+   "grammar": "G128"
+  },
+  {
+   "word": "conventional",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "관습적인, 전통적인; 기존의",
+   "base": null,
+   "set": 35,
+   "exercise": "사회와 정치",
+   "grammar": "G128"
+  },
+  {
+   "word": "convention",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "관습, 관례; 대회, 집회; 협약",
+   "base": null,
+   "set": 35,
+   "exercise": "사회와 정치",
+   "grammar": "G128"
+  },
+  {
+   "word": "unity",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "통합, 단결, 통일(성)",
+   "base": "unite",
+   "set": 35,
+   "exercise": "사회와 정치",
+   "grammar": "G128"
+  },
+  {
+   "word": "participation",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "참여, 참가",
+   "base": "participate",
+   "set": 35,
+   "exercise": "사회와 정치",
+   "grammar": "G128"
+  },
+  {
+   "word": "controversy",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "논란, 논쟁",
+   "base": null,
+   "set": 35,
+   "exercise": "사회와 정치",
+   "grammar": "G128"
+  },
+  {
+   "word": "controversial",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "논란이 많은",
+   "base": null,
+   "set": 35,
+   "exercise": "사회와 정치",
+   "grammar": "G128"
+  },
+  {
+   "word": "norm",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "표준, 규범",
+   "base": null,
+   "set": 35,
+   "exercise": "사회와 정치",
+   "grammar": "G128"
+  },
+  {
+   "word": "ongoing",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "진행 중인, 계속되는",
+   "base": null,
+   "set": 35,
+   "exercise": "사회와 정치",
+   "grammar": "G128"
+  },
+  {
+   "word": "scholar",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "학자",
+   "base": null,
+   "set": 35,
+   "exercise": "학문과 연구",
+   "grammar": "G127"
+  },
+  {
+   "word": "scholarship",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "장학금; 학문, 학식",
+   "base": null,
+   "set": 35,
+   "exercise": "학문과 연구",
+   "grammar": "G127"
+  },
+  {
+   "word": "hypothesis",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "가설",
+   "base": null,
+   "set": 35,
+   "exercise": "학문과 연구",
+   "grammar": "G127"
+  },
+  {
+   "word": "observer",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "관찰자, 목격자; 참관인",
+   "base": "observe",
+   "set": 35,
+   "exercise": "학문과 연구",
+   "grammar": "G127"
+  },
+  {
+   "word": "intellectual",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj., n.",
+   "ko": "지적인, 지성의; 지식인",
+   "base": null,
+   "set": 35,
+   "exercise": "학문과 연구",
+   "grammar": "G127"
+  },
+  {
+   "word": "abstract",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj., n.",
+   "ko": "추상적인; 요약(문); 추상화",
+   "base": null,
+   "set": 35,
+   "exercise": "학문과 연구",
+   "grammar": "G127"
+  },
+  {
+   "word": "concrete",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj., n.",
+   "ko": "구체적인; 콘크리트",
+   "base": null,
+   "set": 35,
+   "exercise": "학문과 연구",
+   "grammar": "G127"
+  },
+  {
+   "word": "perceive",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "인식하다, 지각하다; (~로) 여기다",
+   "base": null,
+   "set": 35,
+   "exercise": "학문과 연구",
+   "grammar": "G127"
+  },
+  {
+   "word": "anticipate",
+   "ox": [
+    "B2"
+   ],
+   "pos": "v.",
+   "ko": "예상하다, 기대하다",
+   "base": null,
+   "set": 35,
+   "exercise": "학문과 연구",
+   "grammar": "G127"
+  },
+  {
+   "word": "formation",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "형성; 대형, 구성",
+   "base": "form",
+   "set": 35,
+   "exercise": "학문과 연구",
+   "grammar": "G127"
+  },
+  {
+   "word": "precise",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "정확한, 정밀한; 바로 그",
+   "base": null,
+   "set": 35,
+   "exercise": "학문과 연구",
+   "grammar": "G127"
+  },
+  {
+   "word": "precisely",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "정확히; 바로, 꼭",
+   "base": null,
+   "set": 35,
+   "exercise": "학문과 연구",
+   "grammar": "G127"
+  },
+  {
+   "word": "fraction",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "일부, 소량; 분수",
+   "base": null,
+   "set": 35,
+   "exercise": "학문과 연구",
+   "grammar": "G127"
+  },
+  {
+   "word": "proportion",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "비율; 부분; 균형",
+   "base": null,
+   "set": 35,
+   "exercise": "학문과 연구",
+   "grammar": "G127"
+  },
+  {
+   "word": "gaze",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v., n.",
+   "ko": "응시하다, 가만히 바라보다; 응시",
+   "base": null,
+   "set": 36,
+   "exercise": "몸짓과 동작",
+   "grammar": "G130"
+  },
+  {
+   "word": "nod",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "(고개를) 끄덕이다",
+   "base": null,
+   "set": 36,
+   "exercise": "몸짓과 동작",
+   "grammar": "G130"
+  },
+  {
+   "word": "sigh",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v., n.",
+   "ko": "한숨 쉬다; 한숨",
+   "base": null,
+   "set": 36,
+   "exercise": "몸짓과 동작",
+   "grammar": "G130"
+  },
+  {
+   "word": "toss",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v., n.",
+   "ko": "(가볍게) 던지다; (동전을) 던져 정하다; 뒤척이다",
+   "base": null,
+   "set": 36,
+   "exercise": "몸짓과 동작",
+   "grammar": "G130"
+  },
+  {
+   "word": "wipe",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "닦다, 훔치다; 지우다",
+   "base": null,
+   "set": 36,
+   "exercise": "몸짓과 동작",
+   "grammar": "G130"
+  },
+  {
+   "word": "grasp",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v., n.",
+   "ko": "꽉 잡다; 이해하다, 파악하다",
+   "base": null,
+   "set": 36,
+   "exercise": "몸짓과 동작",
+   "grammar": "G130"
+  },
+  {
+   "word": "soak",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "(물에) 담그다, 흠뻑 적시다; 스며들다",
+   "base": null,
+   "set": 36,
+   "exercise": "몸짓과 동작",
+   "grammar": "G130"
+  },
+  {
+   "word": "seal",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v., n.",
+   "ko": "봉인하다, 밀봉하다; 도장, 봉인; 물개",
+   "base": null,
+   "set": 36,
+   "exercise": "몸짓과 동작",
+   "grammar": "G130"
+  },
+  {
+   "word": "strip",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v., n.",
+   "ko": "벗기다, 떼어 내다; (권리 등을) 빼앗다; 가늘고 긴 조각",
+   "base": null,
+   "set": 36,
+   "exercise": "몸짓과 동작",
+   "grammar": "G130"
+  },
+  {
+   "word": "chill",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v., n.",
+   "ko": "차게 하다, 식히다; 냉기, 한기; 오싹함",
+   "base": null,
+   "set": 36,
+   "exercise": "몸짓과 동작",
+   "grammar": "G130"
+  },
+  {
+   "word": "buzz",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v., n.",
+   "ko": "윙윙거리다; 윙윙 소리; 들뜬 분위기, 활기",
+   "base": null,
+   "set": 36,
+   "exercise": "몸짓과 동작",
+   "grammar": "G130"
+  },
+  {
+   "word": "enthusiast",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "열성 팬, 애호가",
+   "base": "enthusiasm",
+   "set": 36,
+   "exercise": "취미와 스포츠",
+   "grammar": ""
+  },
+  {
+   "word": "arena",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "경기장; (활동) 무대, 영역",
+   "base": null,
+   "set": 36,
+   "exercise": "취미와 스포츠",
+   "grammar": ""
+  },
+  {
+   "word": "squad",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(군·경찰의) 분대, 반; (스포츠) 선수단",
+   "base": null,
+   "set": 36,
+   "exercise": "취미와 스포츠",
+   "grammar": ""
+  },
+  {
+   "word": "roster",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "명단; 근무 당번표",
+   "base": null,
+   "set": 36,
+   "exercise": "취미와 스포츠",
+   "grammar": ""
+  },
+  {
+   "word": "lineup",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "구성원 명단, 출연진, 라인업",
+   "base": null,
+   "set": 36,
+   "exercise": "취미와 스포츠",
+   "grammar": ""
+  },
+  {
+   "word": "comeback",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "복귀, 재기",
+   "base": null,
+   "set": 36,
+   "exercise": "취미와 스포츠",
+   "grammar": ""
+  },
+  {
+   "word": "all-time",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "역대, 사상 최고(최저)의",
+   "base": null,
+   "set": 36,
+   "exercise": "취미와 스포츠",
+   "grammar": ""
+  },
+  {
+   "word": "bout",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(병·활동의) 한바탕, 한 차례; (권투 등의) 시합",
+   "base": null,
+   "set": 36,
+   "exercise": "취미와 스포츠",
+   "grammar": ""
+  },
+  {
+   "word": "defensive",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "방어적인, 수비의",
+   "base": "defense",
+   "set": 36,
+   "exercise": "취미와 스포츠",
+   "grammar": ""
+  },
+  {
+   "word": "gear",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(자동차 등의) 기어; 장비, 도구",
+   "base": null,
+   "set": 36,
+   "exercise": "취미와 스포츠",
+   "grammar": ""
+  },
+  {
+   "word": "spectacle",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "장관, 구경거리; (복수로) 안경",
+   "base": null,
+   "set": 36,
+   "exercise": "취미와 스포츠",
+   "grammar": ""
+  },
+  {
+   "word": "frustrated",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "좌절한, 답답해하는",
+   "base": null,
+   "set": 36,
+   "exercise": "기쁨과 좌절",
+   "grammar": "G130"
+  },
+  {
+   "word": "frustrating",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "좌절감을 주는, 답답한",
+   "base": null,
+   "set": 36,
+   "exercise": "기쁨과 좌절",
+   "grammar": "G130"
+  },
+  {
+   "word": "frustration",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "좌절(감), 답답함",
+   "base": null,
+   "set": 36,
+   "exercise": "기쁨과 좌절",
+   "grammar": "G130"
+  },
+  {
+   "word": "thrilled",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "아주 신이 난, 몹시 기쁜",
+   "base": null,
+   "set": 36,
+   "exercise": "기쁨과 좌절",
+   "grammar": "G130"
+  },
+  {
+   "word": "affection",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "애정, 애착",
+   "base": null,
+   "set": 36,
+   "exercise": "기쁨과 좌절",
+   "grammar": "G130"
+  },
+  {
+   "word": "curiosity",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "호기심",
+   "base": "curious",
+   "set": 36,
+   "exercise": "기쁨과 좌절",
+   "grammar": "G130"
+  },
+  {
+   "word": "appreciation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "감사; 감상, 이해; (가치) 상승",
+   "base": "appreciate",
+   "set": 36,
+   "exercise": "기쁨과 좌절",
+   "grammar": "G130"
+  },
+  {
+   "word": "overwhelm",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "압도하다, 어쩔 줄 모르게 하다",
+   "base": null,
+   "set": 36,
+   "exercise": "기쁨과 좌절",
+   "grammar": "G130"
+  },
+  {
+   "word": "overwhelming",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "압도적인, 너무 강렬한",
+   "base": null,
+   "set": 36,
+   "exercise": "기쁨과 좌절",
+   "grammar": "G130"
+  },
+  {
+   "word": "outrage",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "격분, 분노; 격분하게 하다",
+   "base": null,
+   "set": 36,
+   "exercise": "기쁨과 좌절",
+   "grammar": "G130"
+  },
+  {
+   "word": "sentiment",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "정서, 감정; 의견",
+   "base": null,
+   "set": 36,
+   "exercise": "기쁨과 좌절",
+   "grammar": "G130"
+  },
+  {
+   "word": "intensity",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "강렬함, 강도",
+   "base": "intense",
+   "set": 36,
+   "exercise": "정도와 강도",
+   "grammar": "G129"
+  },
+  {
+   "word": "excessive",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "지나친, 과도한",
+   "base": "excess",
+   "set": 36,
+   "exercise": "정도와 강도",
+   "grammar": "G129"
+  },
+  {
+   "word": "strictly",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "엄격하게; 엄밀히 (말하면); 오로지",
+   "base": "strict",
+   "set": 36,
+   "exercise": "정도와 강도",
+   "grammar": "G129"
+  },
+  {
+   "word": "moderate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "보통의, 적당한; 온건한",
+   "base": null,
+   "set": 36,
+   "exercise": "정도와 강도",
+   "grammar": "G129"
+  },
+  {
+   "word": "subtle",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "미묘한, 섬세한; 교묘한",
+   "base": null,
+   "set": 36,
+   "exercise": "정도와 강도",
+   "grammar": "G129"
+  },
+  {
+   "word": "profound",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "깊은, 심오한; 엄청난",
+   "base": null,
+   "set": 36,
+   "exercise": "정도와 강도",
+   "grammar": "G129"
+  },
+  {
+   "word": "pronounced",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "뚜렷한, 두드러진",
+   "base": null,
+   "set": 36,
+   "exercise": "정도와 강도",
+   "grammar": "G129"
+  },
+  {
+   "word": "predominantly",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adv.",
+   "ko": "대부분, 주로",
+   "base": null,
+   "set": 36,
+   "exercise": "정도와 강도",
+   "grammar": "G129"
+  },
+  {
+   "word": "partial",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "부분적인; 편파적인",
+   "base": "part",
+   "set": 36,
+   "exercise": "정도와 강도",
+   "grammar": "G129"
+  },
+  {
+   "word": "partially",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adv.",
+   "ko": "부분적으로",
+   "base": null,
+   "set": 36,
+   "exercise": "정도와 강도",
+   "grammar": "G129"
+  },
+  {
+   "word": "insufficient",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "불충분한",
+   "base": null,
+   "set": 36,
+   "exercise": "정도와 강도",
+   "grammar": "G129"
+  },
+  {
+   "word": "cognitive",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "인지의, 인식의",
+   "base": null,
+   "set": 36,
+   "exercise": "생각의 작용",
+   "grammar": "G129"
+  },
+  {
+   "word": "consciousness",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "의식; 자각",
+   "base": "conscious",
+   "set": 36,
+   "exercise": "생각의 작용",
+   "grammar": "G129"
+  },
+  {
+   "word": "instinct",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "본능; 직감",
+   "base": null,
+   "set": 36,
+   "exercise": "생각의 작용",
+   "grammar": "G129"
+  },
+  {
+   "word": "mindset",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "사고방식, 마음가짐",
+   "base": null,
+   "set": 36,
+   "exercise": "생각의 작용",
+   "grammar": "G129"
+  },
+  {
+   "word": "intent",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "의도, 목적",
+   "base": "intend",
+   "set": 36,
+   "exercise": "생각의 작용",
+   "grammar": "G129"
+  },
+  {
+   "word": "reasoning",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "추론, 논리; 이유",
+   "base": "reason",
+   "set": 36,
+   "exercise": "생각의 작용",
+   "grammar": "G129"
+  },
+  {
+   "word": "realization",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "깨달음, 인식; 실현",
+   "base": "realize",
+   "set": 36,
+   "exercise": "생각의 작용",
+   "grammar": "G129"
+  },
+  {
+   "word": "reflection",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(거울 등에 비친) 상, 반사; 반영; 숙고, 성찰",
+   "base": "reflect",
+   "set": 36,
+   "exercise": "생각의 작용",
+   "grammar": "G129"
+  },
+  {
+   "word": "conceive",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "상상하다, (생각을) 품다; 고안하다; 임신하다",
+   "base": null,
+   "set": 36,
+   "exercise": "생각의 작용",
+   "grammar": "G129"
+  },
+  {
+   "word": "conception",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "개념, 이해; 구상; 임신",
+   "base": null,
+   "set": 36,
+   "exercise": "생각의 작용",
+   "grammar": "G129"
+  },
+  {
+   "word": "denial",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "부인, 부정; 거부",
+   "base": "deny",
+   "set": 36,
+   "exercise": "생각의 작용",
+   "grammar": "G129"
+  },
+  {
+   "word": "behavioral",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "행동의, 행동에 관한",
+   "base": "behavior",
+   "set": 36,
+   "exercise": "생각의 작용",
+   "grammar": "G129"
+  },
+  {
+   "word": "reside",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "살다, 거주하다",
+   "base": null,
+   "set": 37,
+   "exercise": "집과 동네",
+   "grammar": "G132"
+  },
+  {
+   "word": "residential",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "주거의, 주택지의",
+   "base": "resident",
+   "set": 37,
+   "exercise": "집과 동네",
+   "grammar": "G132"
+  },
+  {
+   "word": "suburban",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "교외의, 근교의",
+   "base": null,
+   "set": 37,
+   "exercise": "집과 동네",
+   "grammar": "G132"
+  },
+  {
+   "word": "vacuum",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "진공; 공백; 진공청소기로 청소하다",
+   "base": null,
+   "set": 37,
+   "exercise": "집과 동네",
+   "grammar": "G132"
+  },
+  {
+   "word": "drain",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v., n.",
+   "ko": "물을 빼다, 배수하다; 고갈시키다; 배수관; 유출",
+   "base": null,
+   "set": 37,
+   "exercise": "집과 동네",
+   "grammar": "G132"
+  },
+  {
+   "word": "leak",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v., n.",
+   "ko": "새다; (비밀을) 누설하다; 새는 곳, 누출",
+   "base": null,
+   "set": 37,
+   "exercise": "집과 동네",
+   "grammar": "G132"
+  },
+  {
+   "word": "plug",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "플러그, 마개; (구멍을) 막다, 플러그를 꽂다",
+   "base": null,
+   "set": 37,
+   "exercise": "집과 동네",
+   "grammar": "G132"
+  },
+  {
+   "word": "storage",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "저장, 보관; 저장 공간",
+   "base": "store",
+   "set": 37,
+   "exercise": "집과 동네",
+   "grammar": "G132"
+  },
+  {
+   "word": "layout",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "배치, 구성, 레이아웃",
+   "base": null,
+   "set": 37,
+   "exercise": "집과 동네",
+   "grammar": "G132"
+  },
+  {
+   "word": "utility",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(전기·수도 등) 공익 사업, 공공 설비; 유용성",
+   "base": null,
+   "set": 37,
+   "exercise": "집과 동네",
+   "grammar": "G132"
+  },
+  {
+   "word": "installation",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "설치; 설비; 설치 미술 작품",
+   "base": "install",
+   "set": 37,
+   "exercise": "집과 동네",
+   "grammar": "G132"
+  },
+  {
+   "word": "filmmaker",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "영화 제작자, 영화감독",
+   "base": "film+maker",
+   "set": 37,
+   "exercise": "방송과 영화",
+   "grammar": ""
+  },
+  {
+   "word": "sequel",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "속편; 후속 사건, 결과",
+   "base": null,
+   "set": 37,
+   "exercise": "방송과 영화",
+   "grammar": ""
+  },
+  {
+   "word": "spotlight",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "스포트라이트, 집중 조명; (세상의) 관심",
+   "base": null,
+   "set": 37,
+   "exercise": "방송과 영화",
+   "grammar": ""
+  },
+  {
+   "word": "anchor",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "닻; (뉴스) 앵커; 정박하다; 고정하다",
+   "base": null,
+   "set": 37,
+   "exercise": "방송과 영화",
+   "grammar": ""
+  },
+  {
+   "word": "commentary",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(실황) 중계, 해설; 논평",
+   "base": "comment",
+   "set": 37,
+   "exercise": "방송과 영화",
+   "grammar": ""
+  },
+  {
+   "word": "high-profile",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "세간의 이목을 끄는, 유명한",
+   "base": null,
+   "set": 37,
+   "exercise": "방송과 영화",
+   "grammar": ""
+  },
+  {
+   "word": "portray",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "묘사하다, 그리다; (배우가) 연기하다",
+   "base": null,
+   "set": 37,
+   "exercise": "방송과 영화",
+   "grammar": ""
+  },
+  {
+   "word": "renowned",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "유명한, 명성 있는",
+   "base": null,
+   "set": 37,
+   "exercise": "방송과 영화",
+   "grammar": ""
+  },
+  {
+   "word": "unveil",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "(새것을) 공개하다, 발표하다; 덮개를 벗기다",
+   "base": null,
+   "set": 37,
+   "exercise": "방송과 영화",
+   "grammar": ""
+  },
+  {
+   "word": "exclusive",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "독점적인, 배타적인; 고급의",
+   "base": "exclude",
+   "set": 37,
+   "exercise": "방송과 영화",
+   "grammar": ""
+  },
+  {
+   "word": "exclusively",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adv.",
+   "ko": "오로지, 독점적으로",
+   "base": null,
+   "set": 37,
+   "exercise": "방송과 영화",
+   "grammar": ""
+  },
+  {
+   "word": "marine",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "바다의, 해양의",
+   "base": null,
+   "set": 37,
+   "exercise": "바다와 들판",
+   "grammar": "G132"
+  },
+  {
+   "word": "coastal",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "해안의, 연안의",
+   "base": "coast",
+   "set": 37,
+   "exercise": "바다와 들판",
+   "grammar": "G132"
+  },
+  {
+   "word": "offshore",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "앞바다의, 연안의; 해외의, 역외의",
+   "base": null,
+   "set": 37,
+   "exercise": "바다와 들판",
+   "grammar": "G132"
+  },
+  {
+   "word": "vessel",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(대형) 선박, 배; 그릇, 용기; 혈관",
+   "base": null,
+   "set": 37,
+   "exercise": "바다와 들판",
+   "grammar": "G132"
+  },
+  {
+   "word": "terrain",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "지형, 지역",
+   "base": null,
+   "set": 37,
+   "exercise": "바다와 들판",
+   "grammar": "G132"
+  },
+  {
+   "word": "timber",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "목재; (재목용) 나무",
+   "base": null,
+   "set": 37,
+   "exercise": "바다와 들판",
+   "grammar": "G132"
+  },
+  {
+   "word": "harvest",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "수확, 추수; 수확하다",
+   "base": null,
+   "set": 37,
+   "exercise": "바다와 들판",
+   "grammar": "G132"
+  },
+  {
+   "word": "agricultural",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "농업의",
+   "base": null,
+   "set": 37,
+   "exercise": "바다와 들판",
+   "grammar": "G132"
+  },
+  {
+   "word": "wildfire",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "산불, 들불",
+   "base": null,
+   "set": 37,
+   "exercise": "바다와 들판",
+   "grammar": "G132"
+  },
+  {
+   "word": "trail",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "오솔길, 산길; 자국, 흔적; 뒤쫓다; 뒤처지다",
+   "base": null,
+   "set": 37,
+   "exercise": "바다와 들판",
+   "grammar": "G132"
+  },
+  {
+   "word": "extensive",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "광범위한, 폭넓은",
+   "base": "extend",
+   "set": 37,
+   "exercise": "바다와 들판",
+   "grammar": "G132"
+  },
+  {
+   "word": "extensively",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "광범위하게, 널리",
+   "base": null,
+   "set": 37,
+   "exercise": "바다와 들판",
+   "grammar": "G132"
+  },
+  {
+   "word": "unprecedented",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "전례 없는",
+   "base": null,
+   "set": 37,
+   "exercise": "기록과 정상",
+   "grammar": "G131"
+  },
+  {
+   "word": "peak",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "정점, 최고조; 산꼭대기",
+   "base": null,
+   "set": 37,
+   "exercise": "기록과 정상",
+   "grammar": "G131"
+  },
+  {
+   "word": "surpass",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "능가하다, 뛰어넘다",
+   "base": null,
+   "set": 37,
+   "exercise": "기록과 정상",
+   "grammar": "G131"
+  },
+  {
+   "word": "breakthrough",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "돌파구, 획기적 발견",
+   "base": null,
+   "set": 37,
+   "exercise": "기록과 정상",
+   "grammar": "G131"
+  },
+  {
+   "word": "landmark",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "랜드마크, 주요 지형지물; 획기적 사건",
+   "base": null,
+   "set": 37,
+   "exercise": "기록과 정상",
+   "grammar": "G131"
+  },
+  {
+   "word": "exceptional",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "특출한, 뛰어난; 예외적인",
+   "base": null,
+   "set": 37,
+   "exercise": "기록과 정상",
+   "grammar": "G131"
+  },
+  {
+   "word": "excellence",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "뛰어남, 탁월함",
+   "base": "excellent",
+   "set": 37,
+   "exercise": "기록과 정상",
+   "grammar": "G131"
+  },
+  {
+   "word": "notable",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "주목할 만한, 눈에 띄는",
+   "base": "note",
+   "set": 37,
+   "exercise": "기록과 정상",
+   "grammar": "G131"
+  },
+  {
+   "word": "notably",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adv.",
+   "ko": "특히, 눈에 띄게",
+   "base": null,
+   "set": 37,
+   "exercise": "기록과 정상",
+   "grammar": "G131"
+  },
+  {
+   "word": "dominant",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "지배적인, 우세한",
+   "base": "dominate",
+   "set": 37,
+   "exercise": "기록과 정상",
+   "grammar": "G131"
+  },
+  {
+   "word": "triumph",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "승리, 큰 성공; 승리감; 이기다",
+   "base": null,
+   "set": 37,
+   "exercise": "기록과 정상",
+   "grammar": "G131"
+  },
+  {
+   "word": "glorious",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "영광스러운; 눈부시게 아름다운",
+   "base": "glory",
+   "set": 37,
+   "exercise": "기록과 정상",
+   "grammar": "G131"
+  },
+  {
+   "word": "aesthetic",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj., n.",
+   "ko": "미적인, 미학의; 미적 감각, 미학",
+   "base": null,
+   "set": 37,
+   "exercise": "미와 표현",
+   "grammar": ""
+  },
+  {
+   "word": "authentic",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "진짜의, 진품인; 진정한",
+   "base": null,
+   "set": 37,
+   "exercise": "미와 표현",
+   "grammar": ""
+  },
+  {
+   "word": "imagery",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "이미지, 심상; (문학의) 비유적 묘사",
+   "base": "image",
+   "set": 37,
+   "exercise": "미와 표현",
+   "grammar": ""
+  },
+  {
+   "word": "inspiration",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "영감; 영감을 주는 사람·것",
+   "base": "inspire",
+   "set": 37,
+   "exercise": "미와 표현",
+   "grammar": ""
+  },
+  {
+   "word": "thought-provoking",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "생각하게 하는, 시사하는 바가 많은",
+   "base": null,
+   "set": 37,
+   "exercise": "미와 표현",
+   "grammar": ""
+  },
+  {
+   "word": "elaborate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj., v.",
+   "ko": "정교한, 공들인; 자세히 설명하다",
+   "base": null,
+   "set": 37,
+   "exercise": "미와 표현",
+   "grammar": ""
+  },
+  {
+   "word": "distinctive",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "독특한, 특유의",
+   "base": null,
+   "set": 37,
+   "exercise": "미와 표현",
+   "grammar": ""
+  },
+  {
+   "word": "mainstream",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., adj.",
+   "ko": "주류; 주류의",
+   "base": "main+stream",
+   "set": 37,
+   "exercise": "미와 표현",
+   "grammar": ""
+  },
+  {
+   "word": "architectural",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "건축의, 건축학의",
+   "base": "architecture",
+   "set": 37,
+   "exercise": "미와 표현",
+   "grammar": ""
+  },
+  {
+   "word": "representation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "대표, 대리; 표현, 묘사",
+   "base": "represent",
+   "set": 37,
+   "exercise": "미와 표현",
+   "grammar": ""
+  },
+  {
+   "word": "composition",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "구성, 구성 요소; 작곡, 작품; 작문",
+   "base": null,
+   "set": 37,
+   "exercise": "미와 표현",
+   "grammar": ""
+  },
+  {
+   "word": "apparel",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "의류, 의복",
+   "base": null,
+   "set": 38,
+   "exercise": "가게와 서비스",
+   "grammar": "G133"
+  },
+  {
+   "word": "accessory",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "부속품, 부대용품; 장신구, 액세서리",
+   "base": null,
+   "set": 38,
+   "exercise": "가게와 서비스",
+   "grammar": "G133"
+  },
+  {
+   "word": "beverage",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "음료",
+   "base": null,
+   "set": 38,
+   "exercise": "가게와 서비스",
+   "grammar": "G133"
+  },
+  {
+   "word": "vegan",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., adj.",
+   "ko": "완전 채식주의자; 완전 채식(주의)의",
+   "base": null,
+   "set": 38,
+   "exercise": "가게와 서비스",
+   "grammar": "G133"
+  },
+  {
+   "word": "bundle",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "묶음, 다발, 꾸러미",
+   "base": null,
+   "set": 38,
+   "exercise": "가게와 서비스",
+   "grammar": "G133"
+  },
+  {
+   "word": "premium",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., adj.",
+   "ko": "보험료; 할증금, 웃돈; 고급의",
+   "base": null,
+   "set": 38,
+   "exercise": "가게와 서비스",
+   "grammar": "G133"
+  },
+  {
+   "word": "availability",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "이용 가능성, 구할 수 있음",
+   "base": "available",
+   "set": 38,
+   "exercise": "가게와 서비스",
+   "grammar": "G133"
+  },
+  {
+   "word": "cancellation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "취소",
+   "base": "cancel",
+   "set": 38,
+   "exercise": "가게와 서비스",
+   "grammar": "G133"
+  },
+  {
+   "word": "subscribe",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "구독하다, 가입하다; (의견 등에) 동의하다",
+   "base": null,
+   "set": 38,
+   "exercise": "가게와 서비스",
+   "grammar": "G133"
+  },
+  {
+   "word": "renew",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "갱신하다; 재개하다, 새롭게 하다",
+   "base": "new",
+   "set": 38,
+   "exercise": "가게와 서비스",
+   "grammar": "G133"
+  },
+  {
+   "word": "listing",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "목록, 명단; (목록의) 항목",
+   "base": "list",
+   "set": 38,
+   "exercise": "가게와 서비스",
+   "grammar": "G133"
+  },
+  {
+   "word": "patron",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "후원자; 고객, 단골",
+   "base": null,
+   "set": 38,
+   "exercise": "가게와 서비스",
+   "grammar": "G133"
+  },
+  {
+   "word": "hospitality",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "환대, 접대; 서비스업(호텔·식당업)",
+   "base": null,
+   "set": 38,
+   "exercise": "가게와 서비스",
+   "grammar": "G133"
+  },
+  {
+   "word": "confirmation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "확인; 확증",
+   "base": "confirm",
+   "set": 38,
+   "exercise": "가게와 서비스",
+   "grammar": "G133"
+  },
+  {
+   "word": "freshman",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(고교·대학) 1학년생, 신입생",
+   "base": null,
+   "set": 38,
+   "exercise": "학교와 진학",
+   "grammar": "G133"
+  },
+  {
+   "word": "sophomore",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(미국 고교·대학) 2학년생",
+   "base": null,
+   "set": 38,
+   "exercise": "학교와 진학",
+   "grammar": "G133"
+  },
+  {
+   "word": "undergraduate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "대학생, 학부생",
+   "base": "graduate",
+   "set": 38,
+   "exercise": "학교와 진학",
+   "grammar": "G133"
+  },
+  {
+   "word": "enroll",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "등록하다, 입학하다",
+   "base": null,
+   "set": 38,
+   "exercise": "학교와 진학",
+   "grammar": "G133"
+  },
+  {
+   "word": "admission",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "입장(료), 입학; 인정, 시인",
+   "base": "admit",
+   "set": 38,
+   "exercise": "학교와 진학",
+   "grammar": "G133"
+  },
+  {
+   "word": "educator",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "교육자",
+   "base": "educate",
+   "set": 38,
+   "exercise": "학교와 진학",
+   "grammar": "G133"
+  },
+  {
+   "word": "counselor",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "상담 교사, 상담사; 고문",
+   "base": "counsel",
+   "set": 38,
+   "exercise": "학교와 진학",
+   "grammar": "G133"
+  },
+  {
+   "word": "literacy",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "읽고 쓰는 능력; (특정 분야의) 지식, 활용 능력",
+   "base": null,
+   "set": 38,
+   "exercise": "학교와 진학",
+   "grammar": "G133"
+  },
+  {
+   "word": "intermediate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "중간의; 중급의",
+   "base": null,
+   "set": 38,
+   "exercise": "학교와 진학",
+   "grammar": "G133"
+  },
+  {
+   "word": "prospective",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "장래의, 예비의; 유망한",
+   "base": "prospect",
+   "set": 38,
+   "exercise": "학교와 진학",
+   "grammar": "G133"
+  },
+  {
+   "word": "submission",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "제출(물); 굴복, 항복",
+   "base": "submit",
+   "set": 38,
+   "exercise": "학교와 진학",
+   "grammar": "G133"
+  },
+  {
+   "word": "start-up",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "신생 기업, 스타트업; 시작, 착수",
+   "base": null,
+   "set": 38,
+   "exercise": "창업과 기업",
+   "grammar": "G134"
+  },
+  {
+   "word": "venture",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "(모험적인) 사업, 벤처; 모험; 위험을 무릅쓰고 가다·하다",
+   "base": null,
+   "set": 38,
+   "exercise": "창업과 기업",
+   "grammar": "G134"
+  },
+  {
+   "word": "enterprise",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "기업, 회사; (큰) 사업; 진취성",
+   "base": null,
+   "set": 38,
+   "exercise": "창업과 기업",
+   "grammar": "G134"
+  },
+  {
+   "word": "contractor",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "계약자, 도급업자, 하청업체",
+   "base": "contract",
+   "set": 38,
+   "exercise": "창업과 기업",
+   "grammar": "G134"
+  },
+  {
+   "word": "acquisition",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "습득, 획득; (기업) 인수, 매입",
+   "base": "acquire",
+   "set": 38,
+   "exercise": "창업과 기업",
+   "grammar": "G134"
+  },
+  {
+   "word": "niche",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "틈새시장; 꼭 맞는 자리",
+   "base": null,
+   "set": 38,
+   "exercise": "창업과 기업",
+   "grammar": "G134"
+  },
+  {
+   "word": "patent",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "특허(권)",
+   "base": null,
+   "set": 38,
+   "exercise": "창업과 기업",
+   "grammar": "G134"
+  },
+  {
+   "word": "turnover",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "총매출액; (직원의) 이직률",
+   "base": null,
+   "set": 38,
+   "exercise": "창업과 기업",
+   "grammar": "G134"
+  },
+  {
+   "word": "stake",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "지분, 투자; 이해관계; 말뚝; (at stake) 위태로운",
+   "base": null,
+   "set": 38,
+   "exercise": "창업과 기업",
+   "grammar": "G134"
+  },
+  {
+   "word": "e-commerce",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "전자 상거래",
+   "base": "commerce",
+   "set": 38,
+   "exercise": "창업과 기업",
+   "grammar": "G134"
+  },
+  {
+   "word": "profitable",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "수익성 있는, 이익이 되는",
+   "base": "profit",
+   "set": 38,
+   "exercise": "창업과 기업",
+   "grammar": "G134"
+  },
+  {
+   "word": "civic",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "시민의, 도시의",
+   "base": null,
+   "set": 38,
+   "exercise": "시민과 참여",
+   "grammar": "G134"
+  },
+  {
+   "word": "citizenship",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "시민권, 국적; 시민 의식",
+   "base": "citizen",
+   "set": 38,
+   "exercise": "시민과 참여",
+   "grammar": "G134"
+  },
+  {
+   "word": "petition",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "청원(서), 탄원서",
+   "base": null,
+   "set": 38,
+   "exercise": "시민과 참여",
+   "grammar": "G134"
+  },
+  {
+   "word": "demonstration",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "시위; 시연, 설명; 증명",
+   "base": "demonstrate",
+   "set": 38,
+   "exercise": "시민과 참여",
+   "grammar": "G134"
+  },
+  {
+   "word": "advocate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "옹호자, 지지자; 옹호하다, 지지하다",
+   "base": null,
+   "set": 38,
+   "exercise": "시민과 참여",
+   "grammar": "G134"
+  },
+  {
+   "word": "endorse",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "지지하다, 승인하다; (상품을) 홍보하다",
+   "base": null,
+   "set": 38,
+   "exercise": "시민과 참여",
+   "grammar": "G134"
+  },
+  {
+   "word": "collective",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj., n.",
+   "ko": "집단의, 공동의; 집단, 공동체",
+   "base": "collect",
+   "set": 38,
+   "exercise": "시민과 참여",
+   "grammar": "G134"
+  },
+  {
+   "word": "empower",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "권한을 주다; 힘을 실어 주다",
+   "base": "power",
+   "set": 38,
+   "exercise": "시민과 참여",
+   "grammar": "G134"
+  },
+  {
+   "word": "involvement",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "관련, 관여, 참여",
+   "base": "involve",
+   "set": 38,
+   "exercise": "시민과 참여",
+   "grammar": "G134"
+  },
+  {
+   "word": "proclaim",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "선언하다, 선포하다",
+   "base": null,
+   "set": 38,
+   "exercise": "시민과 참여",
+   "grammar": "G134"
+  },
+  {
+   "word": "density",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "밀도",
+   "base": "dense",
+   "set": 38,
+   "exercise": "물질과 힘",
+   "grammar": ""
+  },
+  {
+   "word": "fluid",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., adj.",
+   "ko": "유체, 액체; 유동적인",
+   "base": null,
+   "set": 38,
+   "exercise": "물질과 힘",
+   "grammar": ""
+  },
+  {
+   "word": "magnetic",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "자석의, 자기의; 매력 있는",
+   "base": "magnet",
+   "set": 38,
+   "exercise": "물질과 힘",
+   "grammar": ""
+  },
+  {
+   "word": "dissolve",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "녹다, 용해하다; (조직을) 해산하다",
+   "base": null,
+   "set": 38,
+   "exercise": "물질과 힘",
+   "grammar": ""
+  },
+  {
+   "word": "sphere",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "구, 구체; 영역, 분야",
+   "base": null,
+   "set": 38,
+   "exercise": "물질과 힘",
+   "grammar": ""
+  },
+  {
+   "word": "exert",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "(힘·영향력을) 가하다, 행사하다",
+   "base": null,
+   "set": 38,
+   "exercise": "물질과 힘",
+   "grammar": ""
+  },
+  {
+   "word": "spectrum",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "범위, 영역; 스펙트럼",
+   "base": null,
+   "set": 38,
+   "exercise": "물질과 힘",
+   "grammar": ""
+  },
+  {
+   "word": "radar",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "레이더",
+   "base": null,
+   "set": 38,
+   "exercise": "물질과 힘",
+   "grammar": ""
+  },
+  {
+   "word": "linear",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "직선의; 선형의, 단계적인",
+   "base": "line",
+   "set": 38,
+   "exercise": "물질과 힘",
+   "grammar": ""
+  },
+  {
+   "word": "dimension",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "차원; 측면; 크기, 치수",
+   "base": null,
+   "set": 38,
+   "exercise": "물질과 힘",
+   "grammar": ""
+  },
+  {
+   "word": "simulate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "모의 실험하다, 흉내 내다; ~인 척하다",
+   "base": null,
+   "set": 38,
+   "exercise": "물질과 힘",
+   "grammar": ""
+  },
+  {
+   "word": "precision",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "정확(성), 정밀(성)",
+   "base": null,
+   "set": 38,
+   "exercise": "물질과 힘",
+   "grammar": ""
+  },
+  {
+   "word": "vulnerable",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "취약한, 연약한, 상처받기 쉬운",
+   "base": null,
+   "set": 39,
+   "exercise": "시련과 회복",
+   "grammar": "G136"
+  },
+  {
+   "word": "vulnerability",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "취약성, 연약함",
+   "base": null,
+   "set": 39,
+   "exercise": "시련과 회복",
+   "grammar": "G136"
+  },
+  {
+   "word": "resilience",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "회복력, 탄력성",
+   "base": null,
+   "set": 39,
+   "exercise": "시련과 회복",
+   "grammar": "G136"
+  },
+  {
+   "word": "endure",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "견디다, 참다; 지속되다",
+   "base": null,
+   "set": 39,
+   "exercise": "시련과 회복",
+   "grammar": "G136"
+  },
+  {
+   "word": "harsh",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "가혹한, 혹독한; 거친",
+   "base": null,
+   "set": 39,
+   "exercise": "시련과 회복",
+   "grammar": "G136"
+  },
+  {
+   "word": "confine",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "국한하다, 제한하다; 가두다",
+   "base": null,
+   "set": 39,
+   "exercise": "시련과 회복",
+   "grammar": "G136"
+  },
+  {
+   "word": "adjustment",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "조정, 조절; 적응",
+   "base": null,
+   "set": 39,
+   "exercise": "시련과 회복",
+   "grammar": "G136"
+  },
+  {
+   "word": "sustain",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "유지하다, 지속하다; (피해 등을) 입다; 떠받치다",
+   "base": null,
+   "set": 39,
+   "exercise": "시련과 회복",
+   "grammar": "G136"
+  },
+  {
+   "word": "miserable",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "비참한, 몹시 불행한",
+   "base": "misery",
+   "set": 39,
+   "exercise": "시련과 회복",
+   "grammar": "G136"
+  },
+  {
+   "word": "regain",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "되찾다, 회복하다",
+   "base": "gain",
+   "set": 39,
+   "exercise": "시련과 회복",
+   "grammar": "G136"
+  },
+  {
+   "word": "recount",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "(경험을) 이야기하다, 자세히 말하다; (표를) 다시 세다",
+   "base": null,
+   "set": 39,
+   "exercise": "시련과 회복",
+   "grammar": "G136"
+  },
+  {
+   "word": "ranking",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "순위, 랭킹",
+   "base": "rank",
+   "set": 39,
+   "exercise": "평가와 순위",
+   "grammar": "G135"
+  },
+  {
+   "word": "superior",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj., n.",
+   "ko": "우수한, 더 나은; 상급의; 상관, 윗사람",
+   "base": null,
+   "set": 39,
+   "exercise": "평가와 순위",
+   "grammar": "G135"
+  },
+  {
+   "word": "merit",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "장점, 가치; (~을) 받을 만하다",
+   "base": null,
+   "set": 39,
+   "exercise": "평가와 순위",
+   "grammar": "G135"
+  },
+  {
+   "word": "prominent",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "중요한, 저명한; 눈에 띄는, 두드러진",
+   "base": null,
+   "set": 39,
+   "exercise": "평가와 순위",
+   "grammar": "G135"
+  },
+  {
+   "word": "standing",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., adj.",
+   "ko": "지위, 평판; 상설의, 지속적인",
+   "base": null,
+   "set": 39,
+   "exercise": "평가와 순위",
+   "grammar": "G135"
+  },
+  {
+   "word": "arbitrary",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "임의의, 제멋대로인",
+   "base": null,
+   "set": 39,
+   "exercise": "평가와 순위",
+   "grammar": "G135"
+  },
+  {
+   "word": "inappropriate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "부적절한",
+   "base": "appropriate",
+   "set": 39,
+   "exercise": "평가와 순위",
+   "grammar": "G135"
+  },
+  {
+   "word": "straightforward",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "간단한, 쉬운; 솔직한",
+   "base": null,
+   "set": 39,
+   "exercise": "평가와 순위",
+   "grammar": "G135"
+  },
+  {
+   "word": "recipient",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "받는 사람, 수령인",
+   "base": null,
+   "set": 39,
+   "exercise": "평가와 순위",
+   "grammar": "G135"
+  },
+  {
+   "word": "testimony",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "증언; 증거",
+   "base": null,
+   "set": 39,
+   "exercise": "법과 재판",
+   "grammar": "G135"
+  },
+  {
+   "word": "confession",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "고백, 자백",
+   "base": "confess",
+   "set": 39,
+   "exercise": "법과 재판",
+   "grammar": "G135"
+  },
+  {
+   "word": "conviction",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "확신, 신념; 유죄 판결",
+   "base": "convict",
+   "set": 39,
+   "exercise": "법과 재판",
+   "grammar": "G135"
+  },
+  {
+   "word": "incarcerate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "감금하다, 투옥하다",
+   "base": null,
+   "set": 39,
+   "exercise": "법과 재판",
+   "grammar": "G135"
+  },
+  {
+   "word": "incarceration",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "감금, 투옥",
+   "base": null,
+   "set": 39,
+   "exercise": "법과 재판",
+   "grammar": "G135"
+  },
+  {
+   "word": "violate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "위반하다, 어기다; 침해하다",
+   "base": null,
+   "set": 39,
+   "exercise": "법과 재판",
+   "grammar": "G135"
+  },
+  {
+   "word": "violation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "위반; 침해",
+   "base": null,
+   "set": 39,
+   "exercise": "법과 재판",
+   "grammar": "G135"
+  },
+  {
+   "word": "enforce",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "(법을) 집행하다, 시행하다; 강요하다",
+   "base": null,
+   "set": 39,
+   "exercise": "법과 재판",
+   "grammar": "G135"
+  },
+  {
+   "word": "consent",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "동의, 허락; 동의하다",
+   "base": null,
+   "set": 39,
+   "exercise": "법과 재판",
+   "grammar": "G135"
+  },
+  {
+   "word": "settlement",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "합의, 해결; 정착(지)",
+   "base": "settle",
+   "set": 39,
+   "exercise": "법과 재판",
+   "grammar": "G135"
+  },
+  {
+   "word": "predator",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "포식자, 포식 동물",
+   "base": null,
+   "set": 39,
+   "exercise": "생물과 진화",
+   "grammar": "G136"
+  },
+  {
+   "word": "prey",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "먹이, 사냥감; 잡아먹다",
+   "base": null,
+   "set": 39,
+   "exercise": "생물과 진화",
+   "grammar": "G136"
+  },
+  {
+   "word": "offspring",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "자식, (동물의) 새끼",
+   "base": null,
+   "set": 39,
+   "exercise": "생물과 진화",
+   "grammar": "G136"
+  },
+  {
+   "word": "reproduce",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "번식하다; 복제하다, 재현하다",
+   "base": "produce",
+   "set": 39,
+   "exercise": "생물과 진화",
+   "grammar": "G136"
+  },
+  {
+   "word": "reproduction",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "번식, 생식; 복제(품), 재현",
+   "base": "production",
+   "set": 39,
+   "exercise": "생물과 진화",
+   "grammar": "G136"
+  },
+  {
+   "word": "evolutionary",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "진화의, 진화론의; 점진적인",
+   "base": "evolution",
+   "set": 39,
+   "exercise": "생물과 진화",
+   "grammar": "G136"
+  },
+  {
+   "word": "hybrid",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., adj.",
+   "ko": "잡종, 혼합물; 혼합의, 하이브리드의",
+   "base": null,
+   "set": 39,
+   "exercise": "생물과 진화",
+   "grammar": "G136"
+  },
+  {
+   "word": "migrant",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "이주자; 철새",
+   "base": "migrate",
+   "set": 39,
+   "exercise": "생물과 진화",
+   "grammar": "G136"
+  },
+  {
+   "word": "migration",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "이주, 이동",
+   "base": "migrate",
+   "set": 39,
+   "exercise": "생물과 진화",
+   "grammar": "G136"
+  },
+  {
+   "word": "emergence",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "출현, 등장",
+   "base": "emerge",
+   "set": 39,
+   "exercise": "나타남과 사라짐",
+   "grammar": "G136"
+  },
+  {
+   "word": "originate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "비롯되다, 유래하다",
+   "base": "origin",
+   "set": 39,
+   "exercise": "나타남과 사라짐",
+   "grammar": "G136"
+  },
+  {
+   "word": "pioneer",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "개척자, 선구자; 개척하다",
+   "base": null,
+   "set": 39,
+   "exercise": "나타남과 사라짐",
+   "grammar": "G136"
+  },
+  {
+   "word": "cease",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "그치다, 중단되다; 중단하다",
+   "base": null,
+   "set": 39,
+   "exercise": "나타남과 사라짐",
+   "grammar": "G136"
+  },
+  {
+   "word": "fade",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "(색이) 바래다, 희미해지다, 서서히 사라지다",
+   "base": null,
+   "set": 39,
+   "exercise": "나타남과 사라짐",
+   "grammar": "G136"
+  },
+  {
+   "word": "vanish",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "사라지다, 없어지다",
+   "base": null,
+   "set": 39,
+   "exercise": "나타남과 사라짐",
+   "grammar": "G136"
+  },
+  {
+   "word": "shrink",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "줄어들다, 줄이다; 움츠러들다",
+   "base": null,
+   "set": 39,
+   "exercise": "나타남과 사라짐",
+   "grammar": "G136"
+  },
+  {
+   "word": "scattered",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "흩어진, 산발적인",
+   "base": "scatter",
+   "set": 39,
+   "exercise": "나타남과 사라짐",
+   "grammar": "G136"
+  },
+  {
+   "word": "displace",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "(살던 곳에서) 쫓아내다; 대신하다, 대체하다",
+   "base": null,
+   "set": 39,
+   "exercise": "나타남과 사라짐",
+   "grammar": "G136"
+  },
+  {
+   "word": "equation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "방정식; 동일시",
+   "base": null,
+   "set": 39,
+   "exercise": "수와 계산",
+   "grammar": ""
+  },
+  {
+   "word": "formula",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "공식; 방식, 제조법",
+   "base": null,
+   "set": 39,
+   "exercise": "수와 계산",
+   "grammar": ""
+  },
+  {
+   "word": "calculation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "계산; 추정",
+   "base": "calculate",
+   "set": 39,
+   "exercise": "수와 계산",
+   "grammar": ""
+  },
+  {
+   "word": "mathematical",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "수학의, 수학적인",
+   "base": "mathematics",
+   "set": 39,
+   "exercise": "수와 계산",
+   "grammar": ""
+  },
+  {
+   "word": "variable",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj., n.",
+   "ko": "변하기 쉬운, 가변적인; 변수",
+   "base": "vary",
+   "set": 39,
+   "exercise": "수와 계산",
+   "grammar": ""
+  },
+  {
+   "word": "projection",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "예상, 추정; 투사, 영사",
+   "base": "project",
+   "set": 39,
+   "exercise": "수와 계산",
+   "grammar": ""
+  },
+  {
+   "word": "statistical",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "통계(상)의, 통계적인",
+   "base": "statistic",
+   "set": 39,
+   "exercise": "수와 계산",
+   "grammar": ""
+  },
+  {
+   "word": "correlation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "상관관계",
+   "base": null,
+   "set": 39,
+   "exercise": "수와 계산",
+   "grammar": ""
+  },
+  {
+   "word": "correlate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "상관관계가 있다, 연관되다",
+   "base": null,
+   "set": 39,
+   "exercise": "수와 계산",
+   "grammar": ""
+  },
+  {
+   "word": "array",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "다수, 다양한 것들; 배열",
+   "base": null,
+   "set": 39,
+   "exercise": "수와 계산",
+   "grammar": ""
+  },
+  {
+   "word": "transit",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "운송, 수송; 통과, 환승; 대중교통",
+   "base": null,
+   "set": 40,
+   "exercise": "교통과 길",
+   "grammar": ""
+  },
+  {
+   "word": "motorist",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(자동차) 운전자",
+   "base": null,
+   "set": 40,
+   "exercise": "교통과 길",
+   "grammar": ""
+  },
+  {
+   "word": "intersection",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "교차로; 교차(점)",
+   "base": null,
+   "set": 40,
+   "exercise": "교통과 길",
+   "grammar": ""
+  },
+  {
+   "word": "junction",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "교차로, 나들목; 합류점",
+   "base": null,
+   "set": 40,
+   "exercise": "교통과 길",
+   "grammar": ""
+  },
+  {
+   "word": "toll",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "통행료; 사상자 수; 피해, 손실",
+   "base": null,
+   "set": 40,
+   "exercise": "교통과 길",
+   "grammar": ""
+  },
+  {
+   "word": "pathway",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "좁은 길, 오솔길; 경로",
+   "base": "path+way",
+   "set": 40,
+   "exercise": "교통과 길",
+   "grammar": ""
+  },
+  {
+   "word": "hub",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "중심지, 중추",
+   "base": null,
+   "set": 40,
+   "exercise": "교통과 길",
+   "grammar": ""
+  },
+  {
+   "word": "collision",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "충돌",
+   "base": null,
+   "set": 40,
+   "exercise": "교통과 길",
+   "grammar": ""
+  },
+  {
+   "word": "divert",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "(방향을) 바꾸다, 우회시키다; (관심을) 돌리다",
+   "base": null,
+   "set": 40,
+   "exercise": "교통과 길",
+   "grammar": ""
+  },
+  {
+   "word": "mobility",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "이동성, 기동성; (사회적) 이동",
+   "base": "mobile",
+   "set": 40,
+   "exercise": "교통과 길",
+   "grammar": ""
+  },
+  {
+   "word": "transaction",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "거래, 매매; 처리",
+   "base": null,
+   "set": 40,
+   "exercise": "돈과 거래",
+   "grammar": "G137"
+  },
+  {
+   "word": "earnings",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "소득, 수입; 수익",
+   "base": "earn",
+   "set": 40,
+   "exercise": "돈과 거래",
+   "grammar": "G137"
+  },
+  {
+   "word": "costly",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "많은 비용이 드는; 대가가 큰",
+   "base": "cost",
+   "set": 40,
+   "exercise": "돈과 거래",
+   "grammar": "G137"
+  },
+  {
+   "word": "surplus",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., adj.",
+   "ko": "흑자; 잉여, 과잉; 잉여의",
+   "base": null,
+   "set": 40,
+   "exercise": "돈과 거래",
+   "grammar": "G137"
+  },
+  {
+   "word": "levy",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "(세금 등을) 부과하다; 세금, 부담금",
+   "base": null,
+   "set": 40,
+   "exercise": "돈과 거래",
+   "grammar": "G137"
+  },
+  {
+   "word": "compensate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "보상하다; 보완하다, 상쇄하다",
+   "base": null,
+   "set": 40,
+   "exercise": "돈과 거래",
+   "grammar": "G137"
+  },
+  {
+   "word": "compensation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "보상(금); 보완",
+   "base": null,
+   "set": 40,
+   "exercise": "돈과 거래",
+   "grammar": "G137"
+  },
+  {
+   "word": "commodity",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "상품, 원자재; 유용한 것",
+   "base": null,
+   "set": 40,
+   "exercise": "돈과 거래",
+   "grammar": "G137"
+  },
+  {
+   "word": "cryptocurrency",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "암호화폐, 가상화폐",
+   "base": "currency",
+   "set": 40,
+   "exercise": "돈과 거래",
+   "grammar": "G137"
+  },
+  {
+   "word": "offset",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "상쇄하다, 벌충하다",
+   "base": null,
+   "set": 40,
+   "exercise": "돈과 거래",
+   "grammar": "G137"
+  },
+  {
+   "word": "uncertainty",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "불확실성; 불확실한 것",
+   "base": "certainty",
+   "set": 40,
+   "exercise": "돈과 거래",
+   "grammar": "G137"
+  },
+  {
+   "word": "discrimination",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "차별; 식별, 구별",
+   "base": null,
+   "set": 40,
+   "exercise": "차별과 편견",
+   "grammar": "G137"
+  },
+  {
+   "word": "prejudice",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "편견, 선입견; 편견을 갖게 하다",
+   "base": null,
+   "set": 40,
+   "exercise": "차별과 편견",
+   "grammar": "G137"
+  },
+  {
+   "word": "stereotype",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "고정관념; 정형화하다",
+   "base": null,
+   "set": 40,
+   "exercise": "차별과 편견",
+   "grammar": "G137"
+  },
+  {
+   "word": "injustice",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "불의, 부당함",
+   "base": "justice",
+   "set": 40,
+   "exercise": "차별과 편견",
+   "grammar": "G137"
+  },
+  {
+   "word": "privilege",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "특권, 특혜; 영광",
+   "base": null,
+   "set": 40,
+   "exercise": "차별과 편견",
+   "grammar": "G137"
+  },
+  {
+   "word": "tolerance",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "관용, 용인; 내성, 저항력",
+   "base": "tolerate",
+   "set": 40,
+   "exercise": "차별과 편견",
+   "grammar": "G137"
+  },
+  {
+   "word": "outsider",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "외부인, 국외자",
+   "base": "outside",
+   "set": 40,
+   "exercise": "차별과 편견",
+   "grammar": "G137"
+  },
+  {
+   "word": "inclusive",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "포괄적인, 모두를 아우르는; (~을) 포함한",
+   "base": "include",
+   "set": 40,
+   "exercise": "차별과 편견",
+   "grammar": "G137"
+  },
+  {
+   "word": "exclusion",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "제외, 배제",
+   "base": "exclude",
+   "set": 40,
+   "exercise": "차별과 편견",
+   "grammar": "G137"
+  },
+  {
+   "word": "acceptance",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "받아들임, 수용; 승인, 합격",
+   "base": "accept",
+   "set": 40,
+   "exercise": "차별과 편견",
+   "grammar": "G137"
+  },
+  {
+   "word": "ignorance",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "무지, 무식",
+   "base": "ignorant",
+   "set": 40,
+   "exercise": "차별과 편견",
+   "grammar": "G137"
+  },
+  {
+   "word": "isolation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "고립, 격리",
+   "base": null,
+   "set": 40,
+   "exercise": "차별과 편견",
+   "grammar": "G137"
+  },
+  {
+   "word": "exploitation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "착취; (자원의) 개발, 이용",
+   "base": null,
+   "set": 40,
+   "exercise": "차별과 편견",
+   "grammar": "G137"
+  },
+  {
+   "word": "accelerate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "가속하다, 빨라지다; 촉진하다",
+   "base": null,
+   "set": 40,
+   "exercise": "늘고 줄기",
+   "grammar": ""
+  },
+  {
+   "word": "diminish",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "줄어들다, 약해지다; 줄이다",
+   "base": null,
+   "set": 40,
+   "exercise": "늘고 줄기",
+   "grammar": ""
+  },
+  {
+   "word": "widen",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "넓어지다, 넓히다",
+   "base": "wide",
+   "set": 40,
+   "exercise": "늘고 줄기",
+   "grammar": ""
+  },
+  {
+   "word": "heighten",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "높이다, 고조시키다",
+   "base": "height",
+   "set": 40,
+   "exercise": "늘고 줄기",
+   "grammar": ""
+  },
+  {
+   "word": "accumulate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "축적하다, 모으다; 쌓이다",
+   "base": null,
+   "set": 40,
+   "exercise": "늘고 줄기",
+   "grammar": ""
+  },
+  {
+   "word": "accumulation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "축적, 누적; 쌓인 것",
+   "base": null,
+   "set": 40,
+   "exercise": "늘고 줄기",
+   "grammar": ""
+  },
+  {
+   "word": "deteriorate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "악화되다, 나빠지다",
+   "base": null,
+   "set": 40,
+   "exercise": "늘고 줄기",
+   "grammar": ""
+  },
+  {
+   "word": "flourish",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "번창하다, 잘 자라다",
+   "base": null,
+   "set": 40,
+   "exercise": "늘고 줄기",
+   "grammar": ""
+  },
+  {
+   "word": "bolster",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "강화하다, 북돋우다",
+   "base": null,
+   "set": 40,
+   "exercise": "늘고 줄기",
+   "grammar": ""
+  },
+  {
+   "word": "enrich",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "풍요롭게 하다, 질을 높이다",
+   "base": "rich",
+   "set": 40,
+   "exercise": "늘고 줄기",
+   "grammar": ""
+  },
+  {
+   "word": "mitigate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "완화하다, 경감하다",
+   "base": null,
+   "set": 40,
+   "exercise": "늘고 줄기",
+   "grammar": ""
+  },
+  {
+   "word": "dramatically",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "극적으로",
+   "base": "dramatic",
+   "set": 40,
+   "exercise": "늘고 줄기",
+   "grammar": ""
+  },
+  {
+   "word": "assertion",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "주장, 단언",
+   "base": "assert",
+   "set": 40,
+   "exercise": "논증과 반박",
+   "grammar": "G137"
+  },
+  {
+   "word": "premise",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "전제; (복수로) 부지, 구내",
+   "base": null,
+   "set": 40,
+   "exercise": "논증과 반박",
+   "grammar": "G137"
+  },
+  {
+   "word": "proposition",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "제안; 명제, 주장; 일, 문제",
+   "base": "propose",
+   "set": 40,
+   "exercise": "논증과 반박",
+   "grammar": "G137"
+  },
+  {
+   "word": "contend",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "주장하다; 다투다, 겨루다",
+   "base": null,
+   "set": 40,
+   "exercise": "논증과 반박",
+   "grammar": "G137"
+  },
+  {
+   "word": "concede",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "(마지못해) 인정하다; 내주다, 양보하다",
+   "base": null,
+   "set": 40,
+   "exercise": "논증과 반박",
+   "grammar": "G137"
+  },
+  {
+   "word": "critique",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "비평, 평론; 비평하다",
+   "base": null,
+   "set": 40,
+   "exercise": "논증과 반박",
+   "grammar": "G137"
+  },
+  {
+   "word": "discourse",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "담론, 담화; 강연",
+   "base": null,
+   "set": 40,
+   "exercise": "논증과 반박",
+   "grammar": "G137"
+  },
+  {
+   "word": "analogy",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "비유, 유추; 유사점",
+   "base": null,
+   "set": 40,
+   "exercise": "논증과 반박",
+   "grammar": "G137"
+  },
+  {
+   "word": "namely",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adv.",
+   "ko": "즉, 다시 말해",
+   "base": null,
+   "set": 40,
+   "exercise": "논증과 반박",
+   "grammar": "G137"
+  },
+  {
+   "word": "compelling",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "설득력 있는; 강렬한, 눈을 뗄 수 없는",
+   "base": "compel",
+   "set": 40,
+   "exercise": "논증과 반박",
+   "grammar": "G137"
+  },
+  {
+   "word": "justification",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "정당화; 타당한 이유",
+   "base": "justify",
+   "set": 40,
+   "exercise": "논증과 반박",
+   "grammar": "G137"
+  },
+  {
+   "word": "contradiction",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "모순; 반박",
+   "base": "contradict",
+   "set": 40,
+   "exercise": "논증과 반박",
+   "grammar": "G137"
+  },
+  {
+   "word": "verbal",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "말의, 언어의; 구두의",
+   "base": null,
+   "set": 40,
+   "exercise": "논증과 반박",
+   "grammar": "G137"
+  },
+  {
+   "word": "algorithm",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "알고리즘, 연산 절차",
+   "base": null,
+   "set": 41,
+   "exercise": "디지털 세상",
+   "grammar": "G138"
+  },
+  {
+   "word": "analytics",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(데이터) 분석, 분석 정보",
+   "base": "analysis",
+   "set": 41,
+   "exercise": "디지털 세상",
+   "grammar": "G138"
+  },
+  {
+   "word": "connectivity",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "연결(성), 접속",
+   "base": "connect",
+   "set": 41,
+   "exercise": "디지털 세상",
+   "grammar": "G138"
+  },
+  {
+   "word": "hack",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "해킹하다; (마구) 자르다, 베다",
+   "base": null,
+   "set": 41,
+   "exercise": "디지털 세상",
+   "grammar": "G138"
+  },
+  {
+   "word": "notification",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "통지, 알림",
+   "base": null,
+   "set": 41,
+   "exercise": "디지털 세상",
+   "grammar": "G138"
+  },
+  {
+   "word": "notify",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "알리다, 통지하다",
+   "base": null,
+   "set": 41,
+   "exercise": "디지털 세상",
+   "grammar": "G138"
+  },
+  {
+   "word": "retrieve",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "되찾아 오다, 회수하다; (정보를) 검색하다",
+   "base": null,
+   "set": 41,
+   "exercise": "디지털 세상",
+   "grammar": "G138"
+  },
+  {
+   "word": "drone",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "드론, 무인기; 윙윙거리는 소리",
+   "base": null,
+   "set": 41,
+   "exercise": "디지털 세상",
+   "grammar": "G138"
+  },
+  {
+   "word": "streaming",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(인터넷) 스트리밍, 실시간 재생",
+   "base": "stream",
+   "set": 41,
+   "exercise": "디지털 세상",
+   "grammar": "G138"
+  },
+  {
+   "word": "viral",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "바이러스(성)의; (인터넷에서) 빠르게 퍼지는",
+   "base": "virus",
+   "set": 41,
+   "exercise": "디지털 세상",
+   "grammar": "G138"
+  },
+  {
+   "word": "circulate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "순환하다; (소문·정보가) 퍼지다, 유포하다",
+   "base": null,
+   "set": 41,
+   "exercise": "디지털 세상",
+   "grammar": "G138"
+  },
+  {
+   "word": "circulation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "순환; 유통; (신문) 발행 부수",
+   "base": null,
+   "set": 41,
+   "exercise": "디지털 세상",
+   "grammar": "G138"
+  },
+  {
+   "word": "aspire",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "열망하다, 갈망하다",
+   "base": null,
+   "set": 41,
+   "exercise": "목표와 노력",
+   "grammar": "G138"
+  },
+  {
+   "word": "aspiration",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "열망, 포부",
+   "base": null,
+   "set": 41,
+   "exercise": "목표와 노력",
+   "grammar": "G138"
+  },
+  {
+   "word": "attain",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "이루다, 달성하다; 도달하다",
+   "base": null,
+   "set": 41,
+   "exercise": "목표와 노력",
+   "grammar": "G138"
+  },
+  {
+   "word": "strive",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "애쓰다, 분투하다",
+   "base": null,
+   "set": 41,
+   "exercise": "목표와 노력",
+   "grammar": "G138"
+  },
+  {
+   "word": "endeavor",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "노력, 시도; 노력하다",
+   "base": null,
+   "set": 41,
+   "exercise": "목표와 노력",
+   "grammar": "G138"
+  },
+  {
+   "word": "accomplishment",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "성취, 업적; 완수",
+   "base": null,
+   "set": 41,
+   "exercise": "목표와 노력",
+   "grammar": "G138"
+  },
+  {
+   "word": "prioritize",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "우선순위를 매기다, 우선시하다",
+   "base": "priority",
+   "set": 41,
+   "exercise": "목표와 노력",
+   "grammar": "G138"
+  },
+  {
+   "word": "pursuit",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "추구; 추격; 취미, 활동",
+   "base": "pursue",
+   "set": 41,
+   "exercise": "목표와 노력",
+   "grammar": "G138"
+  },
+  {
+   "word": "dedication",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "헌신; 헌정",
+   "base": null,
+   "set": 41,
+   "exercise": "목표와 노력",
+   "grammar": "G138"
+  },
+  {
+   "word": "dedicated",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "헌신적인, 열성적인; 전용의",
+   "base": null,
+   "set": 41,
+   "exercise": "목표와 노력",
+   "grammar": "G138"
+  },
+  {
+   "word": "worthwhile",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "~할 가치가 있는, 보람 있는",
+   "base": null,
+   "set": 41,
+   "exercise": "목표와 노력",
+   "grammar": "G138"
+  },
+  {
+   "word": "optimistic",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "낙관적인",
+   "base": "optimism",
+   "set": 41,
+   "exercise": "목표와 노력",
+   "grammar": "G138"
+  },
+  {
+   "word": "collaborate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "협력하다, 공동으로 작업하다",
+   "base": null,
+   "set": 41,
+   "exercise": "협력과 합의",
+   "grammar": "G138"
+  },
+  {
+   "word": "collaboration",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "협력, 공동 작업",
+   "base": null,
+   "set": 41,
+   "exercise": "협력과 합의",
+   "grammar": "G138"
+  },
+  {
+   "word": "cooperation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "협력, 협조",
+   "base": "cooperate",
+   "set": 41,
+   "exercise": "협력과 합의",
+   "grammar": "G138"
+  },
+  {
+   "word": "cooperative",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj., n.",
+   "ko": "협력하는, 협조적인; 협동조합",
+   "base": "cooperate",
+   "set": 41,
+   "exercise": "협력과 합의",
+   "grammar": "G138"
+  },
+  {
+   "word": "consensus",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "합의, 의견 일치",
+   "base": null,
+   "set": 41,
+   "exercise": "협력과 합의",
+   "grammar": "G138"
+  },
+  {
+   "word": "coordinate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "조정하다, 조직하다; (동작을) 조화시키다",
+   "base": null,
+   "set": 41,
+   "exercise": "협력과 합의",
+   "grammar": "G138"
+  },
+  {
+   "word": "coordination",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "조정, 조화; (몸의) 협응",
+   "base": null,
+   "set": 41,
+   "exercise": "협력과 합의",
+   "grammar": "G138"
+  },
+  {
+   "word": "confer",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "(학위·권리를) 수여하다; 상의하다",
+   "base": null,
+   "set": 41,
+   "exercise": "협력과 합의",
+   "grammar": "G138"
+  },
+  {
+   "word": "allocate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "할당하다, 배분하다",
+   "base": null,
+   "set": 41,
+   "exercise": "협력과 합의",
+   "grammar": "G138"
+  },
+  {
+   "word": "integration",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "통합; 융화",
+   "base": null,
+   "set": 41,
+   "exercise": "협력과 합의",
+   "grammar": "G138"
+  },
+  {
+   "word": "clash",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "충돌, 대립; 충돌하다; (색이) 어울리지 않다",
+   "base": null,
+   "set": 41,
+   "exercise": "갈등과 개입",
+   "grammar": ""
+  },
+  {
+   "word": "dispute",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "분쟁, 논쟁; 이의를 제기하다, 반박하다",
+   "base": null,
+   "set": 41,
+   "exercise": "갈등과 개입",
+   "grammar": ""
+  },
+  {
+   "word": "confront",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "맞서다, 직면하다; (문제가) 닥치다",
+   "base": null,
+   "set": 41,
+   "exercise": "갈등과 개입",
+   "grammar": ""
+  },
+  {
+   "word": "interfere",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "간섭하다; 방해하다",
+   "base": null,
+   "set": 41,
+   "exercise": "갈등과 개입",
+   "grammar": ""
+  },
+  {
+   "word": "interference",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "간섭; 방해",
+   "base": null,
+   "set": 41,
+   "exercise": "갈등과 개입",
+   "grammar": ""
+  },
+  {
+   "word": "intervene",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "개입하다, 끼어들다",
+   "base": null,
+   "set": 41,
+   "exercise": "갈등과 개입",
+   "grammar": ""
+  },
+  {
+   "word": "intervention",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "개입, 중재",
+   "base": null,
+   "set": 41,
+   "exercise": "갈등과 개입",
+   "grammar": ""
+  },
+  {
+   "word": "chaos",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "혼돈, 혼란",
+   "base": null,
+   "set": 41,
+   "exercise": "갈등과 개입",
+   "grammar": ""
+  },
+  {
+   "word": "restraint",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "자제, 절제; 제한, 규제",
+   "base": null,
+   "set": 41,
+   "exercise": "갈등과 개입",
+   "grammar": ""
+  },
+  {
+   "word": "suppress",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "진압하다; 억누르다, 참다; (정보를) 숨기다",
+   "base": null,
+   "set": 41,
+   "exercise": "갈등과 개입",
+   "grammar": ""
+  },
+  {
+   "word": "stability",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "안정(성)",
+   "base": "stable",
+   "set": 41,
+   "exercise": "경제와 안정",
+   "grammar": ""
+  },
+  {
+   "word": "stabilize",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "안정시키다, 안정되다",
+   "base": "stable",
+   "set": 41,
+   "exercise": "경제와 안정",
+   "grammar": ""
+  },
+  {
+   "word": "prosperity",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "번영, 번성",
+   "base": null,
+   "set": 41,
+   "exercise": "경제와 안정",
+   "grammar": ""
+  },
+  {
+   "word": "productivity",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "생산성",
+   "base": "produce",
+   "set": 41,
+   "exercise": "경제와 안정",
+   "grammar": ""
+  },
+  {
+   "word": "productive",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "생산적인; 생산하는",
+   "base": "produce",
+   "set": 41,
+   "exercise": "경제와 안정",
+   "grammar": ""
+  },
+  {
+   "word": "efficiency",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "효율(성), 능률",
+   "base": "efficient",
+   "set": 41,
+   "exercise": "경제와 안정",
+   "grammar": ""
+  },
+  {
+   "word": "effectiveness",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "효과, 유효성",
+   "base": "effective",
+   "set": 41,
+   "exercise": "경제와 안정",
+   "grammar": ""
+  },
+  {
+   "word": "maximize",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "극대화하다, 최대한 활용하다",
+   "base": "maximum",
+   "set": 41,
+   "exercise": "경제와 안정",
+   "grammar": ""
+  },
+  {
+   "word": "minimize",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "최소화하다; 대수롭지 않게 여기다",
+   "base": "minimum",
+   "set": 41,
+   "exercise": "경제와 안정",
+   "grammar": ""
+  },
+  {
+   "word": "utilize",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "활용하다, 이용하다",
+   "base": null,
+   "set": 41,
+   "exercise": "경제와 안정",
+   "grammar": ""
+  },
+  {
+   "word": "yield",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v., n.",
+   "ko": "산출하다, (결과를) 내다; 굴복하다, 양보하다; 수확량, 수익",
+   "base": null,
+   "set": 41,
+   "exercise": "경제와 안정",
+   "grammar": ""
+  },
+  {
+   "word": "consistently",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "일관되게, 한결같이",
+   "base": "consistent",
+   "set": 41,
+   "exercise": "경제와 안정",
+   "grammar": ""
+  },
+  {
+   "word": "scam",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "사기 (수법)",
+   "base": null,
+   "set": 42,
+   "exercise": "범죄와 수사",
+   "grammar": ""
+  },
+  {
+   "word": "suspicious",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "의심스러운, 수상한; 의심하는",
+   "base": "suspicion",
+   "set": 42,
+   "exercise": "범죄와 수사",
+   "grammar": ""
+  },
+  {
+   "word": "motive",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "동기, 이유",
+   "base": null,
+   "set": 42,
+   "exercise": "범죄와 수사",
+   "grammar": ""
+  },
+  {
+   "word": "surveillance",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "감시",
+   "base": null,
+   "set": 42,
+   "exercise": "범죄와 수사",
+   "grammar": ""
+  },
+  {
+   "word": "prosecutor",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "검사, 기소자",
+   "base": "prosecute",
+   "set": 42,
+   "exercise": "범죄와 수사",
+   "grammar": ""
+  },
+  {
+   "word": "detection",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "발견, 탐지",
+   "base": "detect",
+   "set": 42,
+   "exercise": "범죄와 수사",
+   "grammar": ""
+  },
+  {
+   "word": "identification",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "신원 확인, 식별; 신분증; 동일시",
+   "base": "identify",
+   "set": 42,
+   "exercise": "범죄와 수사",
+   "grammar": ""
+  },
+  {
+   "word": "felony",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "중범죄",
+   "base": null,
+   "set": 42,
+   "exercise": "범죄와 수사",
+   "grammar": ""
+  },
+  {
+   "word": "homicide",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "살인 (죄)",
+   "base": null,
+   "set": 42,
+   "exercise": "범죄와 수사",
+   "grammar": ""
+  },
+  {
+   "word": "conserve",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "보존하다; 아끼다, 절약하다",
+   "base": null,
+   "set": 42,
+   "exercise": "자원과 쓰레기",
+   "grammar": "G140"
+  },
+  {
+   "word": "sustainability",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "지속 가능성",
+   "base": null,
+   "set": 42,
+   "exercise": "자원과 쓰레기",
+   "grammar": "G140"
+  },
+  {
+   "word": "ecological",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "생태계의, 생태학의",
+   "base": "ecology",
+   "set": 42,
+   "exercise": "자원과 쓰레기",
+   "grammar": "G140"
+  },
+  {
+   "word": "discard",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "버리다, 폐기하다",
+   "base": null,
+   "set": 42,
+   "exercise": "자원과 쓰레기",
+   "grammar": "G140"
+  },
+  {
+   "word": "disposal",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "처리, 처분",
+   "base": "dispose",
+   "set": 42,
+   "exercise": "자원과 쓰레기",
+   "grammar": "G140"
+  },
+  {
+   "word": "scrap",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "(작은) 조각; 고철, 폐품; 폐기하다, 버리다",
+   "base": null,
+   "set": 42,
+   "exercise": "자원과 쓰레기",
+   "grammar": "G140"
+  },
+  {
+   "word": "toxic",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "유독한, 독성의; 해로운",
+   "base": null,
+   "set": 42,
+   "exercise": "자원과 쓰레기",
+   "grammar": "G140"
+  },
+  {
+   "word": "substitute",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "대체물, 대신하는 사람; 대신하다, 대체하다",
+   "base": null,
+   "set": 42,
+   "exercise": "자원과 쓰레기",
+   "grammar": "G140"
+  },
+  {
+   "word": "replacement",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "교체, 대체; 대신하는 사람·것",
+   "base": "replace",
+   "set": 42,
+   "exercise": "자원과 쓰레기",
+   "grammar": "G140"
+  },
+  {
+   "word": "remainder",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "나머지, 남은 것",
+   "base": "remain",
+   "set": 42,
+   "exercise": "자원과 쓰레기",
+   "grammar": "G140"
+  },
+  {
+   "word": "humanity",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "인류; 인간애, 인간성",
+   "base": "human",
+   "set": 42,
+   "exercise": "믿음과 도덕",
+   "grammar": ""
+  },
+  {
+   "word": "deed",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "행위, 행동; (부동산) 증서",
+   "base": null,
+   "set": 42,
+   "exercise": "믿음과 도덕",
+   "grammar": ""
+  },
+  {
+   "word": "offering",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "제공물, 내놓은 것; 헌금, 제물",
+   "base": "offer",
+   "set": 42,
+   "exercise": "믿음과 도덕",
+   "grammar": ""
+  },
+  {
+   "word": "monk",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "수도승, 승려",
+   "base": null,
+   "set": 42,
+   "exercise": "믿음과 도덕",
+   "grammar": ""
+  },
+  {
+   "word": "philosophical",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "철학의, 철학적인; 달관한",
+   "base": "philosophy",
+   "set": 42,
+   "exercise": "믿음과 도덕",
+   "grammar": ""
+  },
+  {
+   "word": "sacrifice",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "희생; 제물; 희생하다",
+   "base": null,
+   "set": 42,
+   "exercise": "믿음과 도덕",
+   "grammar": ""
+  },
+  {
+   "word": "vow",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v., n.",
+   "ko": "맹세하다, 다짐하다; 맹세",
+   "base": null,
+   "set": 42,
+   "exercise": "믿음과 도덕",
+   "grammar": ""
+  },
+  {
+   "word": "eternal",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "영원한",
+   "base": null,
+   "set": 42,
+   "exercise": "믿음과 도덕",
+   "grammar": ""
+  },
+  {
+   "word": "compassion",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "연민, 동정심",
+   "base": null,
+   "set": 42,
+   "exercise": "믿음과 도덕",
+   "grammar": ""
+  },
+  {
+   "word": "presumably",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adv.",
+   "ko": "아마, 짐작건대",
+   "base": "presume",
+   "set": 42,
+   "exercise": "짐작과 확신",
+   "grammar": "G140"
+  },
+  {
+   "word": "supposedly",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adv.",
+   "ko": "아마, 추정상; 소문으로는",
+   "base": "supposed",
+   "set": 42,
+   "exercise": "짐작과 확신",
+   "grammar": "G140"
+  },
+  {
+   "word": "seemingly",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adv.",
+   "ko": "겉보기에는, 보기에",
+   "base": "seem",
+   "set": 42,
+   "exercise": "짐작과 확신",
+   "grammar": "G140"
+  },
+  {
+   "word": "undoubtedly",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adv.",
+   "ko": "의심할 여지 없이, 확실히",
+   "base": "doubt",
+   "set": 42,
+   "exercise": "짐작과 확신",
+   "grammar": "G140"
+  },
+  {
+   "word": "arguably",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adv.",
+   "ko": "거의 틀림없이, 아마도",
+   "base": "argue",
+   "set": 42,
+   "exercise": "짐작과 확신",
+   "grammar": "G140"
+  },
+  {
+   "word": "readily",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adv.",
+   "ko": "손쉽게, 선뜻; 기꺼이",
+   "base": "ready",
+   "set": 42,
+   "exercise": "짐작과 확신",
+   "grammar": "G140"
+  },
+  {
+   "word": "solely",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adv.",
+   "ko": "오로지, 단지; 혼자서",
+   "base": "sole",
+   "set": 42,
+   "exercise": "짐작과 확신",
+   "grammar": "G140"
+  },
+  {
+   "word": "merely",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adv.",
+   "ko": "단지, 그저",
+   "base": "mere",
+   "set": 42,
+   "exercise": "짐작과 확신",
+   "grammar": "G140"
+  },
+  {
+   "word": "assurance",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "보장, 확언; 자신감",
+   "base": null,
+   "set": 42,
+   "exercise": "짐작과 확신",
+   "grammar": "G140"
+  },
+  {
+   "word": "flaw",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "결함, 흠",
+   "base": null,
+   "set": 42,
+   "exercise": "문제와 결함",
+   "grammar": "G140"
+  },
+  {
+   "word": "flawed",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "결함이 있는",
+   "base": null,
+   "set": 42,
+   "exercise": "문제와 결함",
+   "grammar": "G140"
+  },
+  {
+   "word": "defect",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "결함, 결점",
+   "base": null,
+   "set": 42,
+   "exercise": "문제와 결함",
+   "grammar": "G140"
+  },
+  {
+   "word": "deficiency",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "결핍, 부족; 결함",
+   "base": null,
+   "set": 42,
+   "exercise": "문제와 결함",
+   "grammar": "G140"
+  },
+  {
+   "word": "breakdown",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "고장; (관계·협상의) 결렬, 붕괴; (신경) 쇠약; 분석, 내역",
+   "base": null,
+   "set": 42,
+   "exercise": "문제와 결함",
+   "grammar": "G140"
+  },
+  {
+   "word": "disruption",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "방해, 지장, 혼란",
+   "base": "disrupt",
+   "set": 42,
+   "exercise": "문제와 결함",
+   "grammar": "G140"
+  },
+  {
+   "word": "adverse",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "불리한, 부정적인, 해로운",
+   "base": null,
+   "set": 42,
+   "exercise": "문제와 결함",
+   "grammar": "G140"
+  },
+  {
+   "word": "damaging",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "해로운, 피해를 주는",
+   "base": "damage",
+   "set": 42,
+   "exercise": "문제와 결함",
+   "grammar": "G140"
+  },
+  {
+   "word": "complexity",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "복잡성",
+   "base": "complex",
+   "set": 42,
+   "exercise": "문제와 결함",
+   "grammar": "G140"
+  },
+  {
+   "word": "undermine",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "약화시키다, 훼손하다",
+   "base": null,
+   "set": 42,
+   "exercise": "문제와 결함",
+   "grammar": "G140"
+  },
+  {
+   "word": "methodology",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "방법론",
+   "base": "method",
+   "set": 42,
+   "exercise": "연구 방법",
+   "grammar": "G140"
+  },
+  {
+   "word": "empirical",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "경험적인, 실증적인",
+   "base": null,
+   "set": 42,
+   "exercise": "연구 방법",
+   "grammar": "G140"
+  },
+  {
+   "word": "theoretical",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "이론의, 이론적인",
+   "base": "theory",
+   "set": 42,
+   "exercise": "연구 방법",
+   "grammar": "G140"
+  },
+  {
+   "word": "validity",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "타당성; 유효성",
+   "base": "valid",
+   "set": 42,
+   "exercise": "연구 방법",
+   "grammar": "G140"
+  },
+  {
+   "word": "reliability",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "신뢰성, 믿을 수 있음",
+   "base": "reliable",
+   "set": 42,
+   "exercise": "연구 방법",
+   "grammar": "G140"
+  },
+  {
+   "word": "systematic",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "체계적인, 조직적인",
+   "base": "system",
+   "set": 42,
+   "exercise": "연구 방법",
+   "grammar": "G140"
+  },
+  {
+   "word": "classification",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "분류; 등급",
+   "base": "class",
+   "set": 42,
+   "exercise": "연구 방법",
+   "grammar": "G140"
+  },
+  {
+   "word": "documentation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(증빙) 서류, 문서 자료; 기록",
+   "base": "document",
+   "set": 42,
+   "exercise": "연구 방법",
+   "grammar": "G140"
+  },
+  {
+   "word": "characterize",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "특징짓다; (특징을) 묘사하다",
+   "base": "character",
+   "set": 42,
+   "exercise": "연구 방법",
+   "grammar": "G140"
+  },
+  {
+   "word": "specialized",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "전문적인, 전문화된",
+   "base": "specialize",
+   "set": 42,
+   "exercise": "연구 방법",
+   "grammar": "G140"
+  },
+  {
+   "word": "infant",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "유아, 아기",
+   "base": null,
+   "set": 43,
+   "exercise": "가족과 관계",
+   "grammar": ""
+  },
+  {
+   "word": "youngster",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "젊은이, 아이",
+   "base": "young",
+   "set": 43,
+   "exercise": "가족과 관계",
+   "grammar": ""
+  },
+  {
+   "word": "mature",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj., v.",
+   "ko": "성숙한; 성숙하다",
+   "base": null,
+   "set": 43,
+   "exercise": "가족과 관계",
+   "grammar": ""
+  },
+  {
+   "word": "foster",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "촉진하다, 기르다; (남의 아이를) 맡아 기르다",
+   "base": null,
+   "set": 43,
+   "exercise": "가족과 관계",
+   "grammar": ""
+  },
+  {
+   "word": "neglect",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v., n.",
+   "ko": "방치하다, 소홀히 하다; 방치",
+   "base": null,
+   "set": 43,
+   "exercise": "가족과 관계",
+   "grammar": ""
+  },
+  {
+   "word": "intimate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "친밀한, 사적인; (지식이) 깊은",
+   "base": null,
+   "set": 43,
+   "exercise": "가족과 관계",
+   "grammar": ""
+  },
+  {
+   "word": "mutual",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "서로의, 상호의; 공동의",
+   "base": null,
+   "set": 43,
+   "exercise": "가족과 관계",
+   "grammar": ""
+  },
+  {
+   "word": "betray",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "배신하다; (비밀을) 누설하다; (감정을) 드러내다",
+   "base": null,
+   "set": 43,
+   "exercise": "가족과 관계",
+   "grammar": ""
+  },
+  {
+   "word": "engagement",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "약혼; 참여, 관여; 약속",
+   "base": "engage",
+   "set": 43,
+   "exercise": "가족과 관계",
+   "grammar": ""
+  },
+  {
+   "word": "embarrassment",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "당황, 창피함; 골칫거리",
+   "base": "embarrass",
+   "set": 43,
+   "exercise": "가족과 관계",
+   "grammar": ""
+  },
+  {
+   "word": "rejection",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "거절, 거부",
+   "base": "reject",
+   "set": 43,
+   "exercise": "가족과 관계",
+   "grammar": ""
+  },
+  {
+   "word": "conceal",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "숨기다, 감추다",
+   "base": null,
+   "set": 43,
+   "exercise": "진실과 왜곡",
+   "grammar": "G141"
+  },
+  {
+   "word": "disclosure",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "폭로, 공개",
+   "base": "disclose",
+   "set": 43,
+   "exercise": "진실과 왜곡",
+   "grammar": "G141"
+  },
+  {
+   "word": "manifest",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v., adj.",
+   "ko": "나타내다, 드러내다; 명백한",
+   "base": null,
+   "set": 43,
+   "exercise": "진실과 왜곡",
+   "grammar": "G141"
+  },
+  {
+   "word": "distort",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "왜곡하다, 비틀다",
+   "base": null,
+   "set": 43,
+   "exercise": "진실과 왜곡",
+   "grammar": "G141"
+  },
+  {
+   "word": "exaggerate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "과장하다",
+   "base": null,
+   "set": 43,
+   "exercise": "진실과 왜곡",
+   "grammar": "G141"
+  },
+  {
+   "word": "misleading",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "오해의 소지가 있는, 호도하는",
+   "base": "mislead",
+   "set": 43,
+   "exercise": "진실과 왜곡",
+   "grammar": "G141"
+  },
+  {
+   "word": "manipulate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "조작하다; (사람을) 교묘하게 다루다",
+   "base": null,
+   "set": 43,
+   "exercise": "진실과 왜곡",
+   "grammar": "G141"
+  },
+  {
+   "word": "manipulation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "조작; (교묘한) 조종",
+   "base": null,
+   "set": 43,
+   "exercise": "진실과 왜곡",
+   "grammar": "G141"
+  },
+  {
+   "word": "explicit",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "명백한, 분명한; 노골적인",
+   "base": null,
+   "set": 43,
+   "exercise": "진실과 왜곡",
+   "grammar": "G141"
+  },
+  {
+   "word": "vague",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "모호한, 희미한, 막연한",
+   "base": null,
+   "set": 43,
+   "exercise": "진실과 왜곡",
+   "grammar": "G141"
+  },
+  {
+   "word": "clarity",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "명확성, 명료함; 선명도",
+   "base": null,
+   "set": 43,
+   "exercise": "진실과 왜곡",
+   "grammar": "G141"
+  },
+  {
+   "word": "mask",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "가면, 마스크",
+   "base": null,
+   "set": 43,
+   "exercise": "진실과 왜곡",
+   "grammar": "G141"
+  },
+  {
+   "word": "overlook",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "간과하다, 못 보고 넘기다; 내려다보다",
+   "base": null,
+   "set": 43,
+   "exercise": "진실과 왜곡",
+   "grammar": "G141"
+  },
+  {
+   "word": "comparable",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "비슷한, 비교할 만한",
+   "base": "compare",
+   "set": 43,
+   "exercise": "닮음과 차이",
+   "grammar": ""
+  },
+  {
+   "word": "correspond",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "일치하다, 부합하다; 해당하다; 편지를 주고받다",
+   "base": null,
+   "set": 43,
+   "exercise": "닮음과 차이",
+   "grammar": ""
+  },
+  {
+   "word": "correspondence",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "서신 (왕래); 일치, 대응",
+   "base": null,
+   "set": 43,
+   "exercise": "닮음과 차이",
+   "grammar": ""
+  },
+  {
+   "word": "corresponding",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "해당하는, 상응하는",
+   "base": null,
+   "set": 43,
+   "exercise": "닮음과 차이",
+   "grammar": ""
+  },
+  {
+   "word": "differentiate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "구별하다, 차별화하다",
+   "base": "different",
+   "set": 43,
+   "exercise": "닮음과 차이",
+   "grammar": ""
+  },
+  {
+   "word": "distinction",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "구별, 차이; 우수함, 뛰어남",
+   "base": null,
+   "set": 43,
+   "exercise": "닮음과 차이",
+   "grammar": ""
+  },
+  {
+   "word": "resemble",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "닮다, 비슷하다",
+   "base": null,
+   "set": 43,
+   "exercise": "닮음과 차이",
+   "grammar": ""
+  },
+  {
+   "word": "peculiar",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "이상한, 기묘한; 특유의",
+   "base": null,
+   "set": 43,
+   "exercise": "닮음과 차이",
+   "grammar": ""
+  },
+  {
+   "word": "bizarre",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "기이한, 특이한",
+   "base": null,
+   "set": 43,
+   "exercise": "닮음과 차이",
+   "grammar": ""
+  },
+  {
+   "word": "generic",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "일반적인, 포괄적인; (상표 없는) 일반 상품의",
+   "base": null,
+   "set": 43,
+   "exercise": "닮음과 차이",
+   "grammar": ""
+  },
+  {
+   "word": "varied",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "다양한, 가지각색의",
+   "base": "vary",
+   "set": 43,
+   "exercise": "닮음과 차이",
+   "grammar": ""
+  },
+  {
+   "word": "respective",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "각각의, 각자의",
+   "base": null,
+   "set": 43,
+   "exercise": "닮음과 차이",
+   "grammar": ""
+  },
+  {
+   "word": "orientation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "방향, 지향; 성향; 오리엔테이션",
+   "base": "orient",
+   "set": 43,
+   "exercise": "방향과 전략",
+   "grammar": "G141"
+  },
+  {
+   "word": "resolution",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "결심, 다짐; 결의(안); 해결; 해상도",
+   "base": "resolve",
+   "set": 43,
+   "exercise": "방향과 전략",
+   "grammar": "G141"
+  },
+  {
+   "word": "outlook",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "관점, 세계관; 전망",
+   "base": null,
+   "set": 43,
+   "exercise": "방향과 전략",
+   "grammar": "G141"
+  },
+  {
+   "word": "strategic",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "전략적인, 전략상의",
+   "base": "strategy",
+   "set": 43,
+   "exercise": "방향과 전략",
+   "grammar": "G141"
+  },
+  {
+   "word": "tactic",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "전술, 작전",
+   "base": null,
+   "set": 43,
+   "exercise": "방향과 전략",
+   "grammar": "G141"
+  },
+  {
+   "word": "formulate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "(생각·계획을) 만들어 내다, 세우다; 공식화하다",
+   "base": null,
+   "set": 43,
+   "exercise": "방향과 전략",
+   "grammar": "G141"
+  },
+  {
+   "word": "devise",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "고안하다, 궁리해 내다",
+   "base": null,
+   "set": 43,
+   "exercise": "방향과 전략",
+   "grammar": "G141"
+  },
+  {
+   "word": "initiate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "시작하다, 착수하다",
+   "base": null,
+   "set": 43,
+   "exercise": "방향과 전략",
+   "grammar": "G141"
+  },
+  {
+   "word": "deployment",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(군대·자원의) 배치, 투입",
+   "base": "deploy",
+   "set": 43,
+   "exercise": "방향과 전략",
+   "grammar": "G141"
+  },
+  {
+   "word": "foundation",
+   "ox": [
+    "B2"
+   ],
+   "pos": "n.",
+   "ko": "기초, 토대; 재단; 설립",
+   "base": "found",
+   "set": 43,
+   "exercise": "기초와 구조",
+   "grammar": ""
+  },
+  {
+   "word": "structural",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "구조의, 구조적인",
+   "base": "structure",
+   "set": 43,
+   "exercise": "기초와 구조",
+   "grammar": ""
+  },
+  {
+   "word": "constitute",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "~을 구성하다; ~이 되다, ~으로 여겨지다",
+   "base": null,
+   "set": 43,
+   "exercise": "기초와 구조",
+   "grammar": ""
+  },
+  {
+   "word": "integral",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "필수적인, 없어서는 안 될",
+   "base": null,
+   "set": 43,
+   "exercise": "기초와 구조",
+   "grammar": ""
+  },
+  {
+   "word": "inherent",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "내재하는, 고유한",
+   "base": null,
+   "set": 43,
+   "exercise": "기초와 구조",
+   "grammar": ""
+  },
+  {
+   "word": "entity",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "독립체, 실체",
+   "base": null,
+   "set": 43,
+   "exercise": "기초와 구조",
+   "grammar": ""
+  },
+  {
+   "word": "embody",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "구현하다, 구체화하다; 포함하다",
+   "base": null,
+   "set": 43,
+   "exercise": "기초와 구조",
+   "grammar": ""
+  },
+  {
+   "word": "encompass",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "포함하다, 아우르다; 둘러싸다",
+   "base": null,
+   "set": 43,
+   "exercise": "기초와 구조",
+   "grammar": ""
+  },
+  {
+   "word": "realm",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "영역, 분야; 왕국",
+   "base": null,
+   "set": 43,
+   "exercise": "기초와 구조",
+   "grammar": ""
+  },
+  {
+   "word": "domain",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "영역, 분야; (인터넷) 도메인",
+   "base": null,
+   "set": 43,
+   "exercise": "기초와 구조",
+   "grammar": ""
+  },
+  {
+   "word": "boundary",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "경계(선); 한계",
+   "base": null,
+   "set": 43,
+   "exercise": "기초와 구조",
+   "grammar": ""
+  },
+  {
+   "word": "annually",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "매년, 해마다",
+   "base": "annual",
+   "set": 44,
+   "exercise": "때와 기간",
+   "grammar": "G142"
+  },
+  {
+   "word": "briefly",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adv.",
+   "ko": "잠시; 간단히",
+   "base": "brief",
+   "set": 44,
+   "exercise": "때와 기간",
+   "grammar": "G142"
+  },
+  {
+   "word": "simultaneously",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adv.",
+   "ko": "동시에",
+   "base": null,
+   "set": 44,
+   "exercise": "때와 기간",
+   "grammar": "G142"
+  },
+  {
+   "word": "coincide",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "동시에 일어나다; 일치하다",
+   "base": null,
+   "set": 44,
+   "exercise": "때와 기간",
+   "grammar": "G142"
+  },
+  {
+   "word": "upcoming",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "다가오는, 곧 있을",
+   "base": "coming",
+   "set": 44,
+   "exercise": "때와 기간",
+   "grammar": "G142"
+  },
+  {
+   "word": "seasonal",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "계절적인, 계절에 따른",
+   "base": "season",
+   "set": 44,
+   "exercise": "때와 기간",
+   "grammar": "G142"
+  },
+  {
+   "word": "span",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "기간, 시간; 폭, 범위; (기간·범위에) 걸치다",
+   "base": null,
+   "set": 44,
+   "exercise": "때와 기간",
+   "grammar": "G142"
+  },
+  {
+   "word": "slot",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "가늘고 긴 구멍, 투입구; (시간대의) 자리, 순서",
+   "base": null,
+   "set": 44,
+   "exercise": "때와 기간",
+   "grammar": "G142"
+  },
+  {
+   "word": "successive",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "연속적인, 잇따른",
+   "base": "succeed",
+   "set": 44,
+   "exercise": "때와 기간",
+   "grammar": "G142"
+  },
+  {
+   "word": "long-standing",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "오래된, 오래 계속된",
+   "base": "long+stand",
+   "set": 44,
+   "exercise": "때와 기간",
+   "grammar": "G142"
+  },
+  {
+   "word": "acute",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "심각한, 극심한; (병이) 급성의; 예리한",
+   "base": null,
+   "set": 44,
+   "exercise": "병과 치료",
+   "grammar": "G142"
+  },
+  {
+   "word": "surgical",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "외과의, 수술의",
+   "base": "surgery",
+   "set": 44,
+   "exercise": "병과 치료",
+   "grammar": "G142"
+  },
+  {
+   "word": "prescription",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "처방(전); 처방약",
+   "base": "prescribe",
+   "set": 44,
+   "exercise": "병과 치료",
+   "grammar": "G142"
+  },
+  {
+   "word": "pharmaceutical",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "제약의, 약학의",
+   "base": null,
+   "set": 44,
+   "exercise": "병과 치료",
+   "grammar": "G142"
+  },
+  {
+   "word": "immunity",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "면역(력); 면제",
+   "base": "immune",
+   "set": 44,
+   "exercise": "병과 치료",
+   "grammar": "G142"
+  },
+  {
+   "word": "complication",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "문제, 복잡한 사정; 합병증",
+   "base": "complicate",
+   "set": 44,
+   "exercise": "병과 치료",
+   "grammar": "G142"
+  },
+  {
+   "word": "discharge",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v., n.",
+   "ko": "내보내다, 방출하다; 퇴원시키다, 제대시키다; 방출, 퇴원",
+   "base": null,
+   "set": 44,
+   "exercise": "병과 치료",
+   "grammar": "G142"
+  },
+  {
+   "word": "transmission",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "전송, 방송; 전염, 전파; 변속기",
+   "base": "transmit",
+   "set": 44,
+   "exercise": "병과 치료",
+   "grammar": "G142"
+  },
+  {
+   "word": "prevalence",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "널리 퍼짐, 유행; 유병률",
+   "base": null,
+   "set": 44,
+   "exercise": "병과 치료",
+   "grammar": "G142"
+  },
+  {
+   "word": "appetite",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "식욕; 욕구",
+   "base": null,
+   "set": 44,
+   "exercise": "병과 치료",
+   "grammar": "G142"
+  },
+  {
+   "word": "supplement",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "보충(물), 보충제; (신문) 부록; 보충하다",
+   "base": null,
+   "set": 44,
+   "exercise": "병과 치료",
+   "grammar": "G142"
+  },
+  {
+   "word": "elevate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "높이다, 올리다; (지위를) 높이다",
+   "base": null,
+   "set": 44,
+   "exercise": "병과 치료",
+   "grammar": "G142"
+  },
+  {
+   "word": "personnel",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(조직의) 직원, 인원; 인사과",
+   "base": null,
+   "set": 44,
+   "exercise": "조직과 책임",
+   "grammar": ""
+  },
+  {
+   "word": "administrator",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "관리자, 행정 담당자",
+   "base": "administer",
+   "set": 44,
+   "exercise": "조직과 책임",
+   "grammar": ""
+  },
+  {
+   "word": "administrative",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "행정의, 관리의",
+   "base": "administration",
+   "set": 44,
+   "exercise": "조직과 책임",
+   "grammar": ""
+  },
+  {
+   "word": "accountability",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "책임(짐), 해명할 책임",
+   "base": "accountable",
+   "set": 44,
+   "exercise": "조직과 책임",
+   "grammar": ""
+  },
+  {
+   "word": "hierarchy",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "계층, 위계 (조직)",
+   "base": null,
+   "set": 44,
+   "exercise": "조직과 책임",
+   "grammar": ""
+  },
+  {
+   "word": "trustee",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(재산) 수탁자, 관리인; (재단·학교의) 이사",
+   "base": "trust",
+   "set": 44,
+   "exercise": "조직과 책임",
+   "grammar": ""
+  },
+  {
+   "word": "superintendent",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "관리자, 감독관; (미국) 교육감",
+   "base": null,
+   "set": 44,
+   "exercise": "조직과 책임",
+   "grammar": ""
+  },
+  {
+   "word": "resignation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "사직, 사임; 사직서; 체념",
+   "base": "resign",
+   "set": 44,
+   "exercise": "조직과 책임",
+   "grammar": ""
+  },
+  {
+   "word": "dismissal",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "해고; 묵살, 일축",
+   "base": "dismiss",
+   "set": 44,
+   "exercise": "조직과 책임",
+   "grammar": ""
+  },
+  {
+   "word": "operational",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "운영상의; 가동할 수 있는",
+   "base": "operation",
+   "set": 44,
+   "exercise": "조직과 책임",
+   "grammar": ""
+  },
+  {
+   "word": "institutional",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "기관의, 제도적인",
+   "base": "institution",
+   "set": 44,
+   "exercise": "조직과 책임",
+   "grammar": ""
+  },
+  {
+   "word": "decision-making",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "의사 결정",
+   "base": "decision",
+   "set": 44,
+   "exercise": "조직과 책임",
+   "grammar": ""
+  },
+  {
+   "word": "supervision",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "감독, 관리, 지도",
+   "base": "supervise",
+   "set": 44,
+   "exercise": "조직과 책임",
+   "grammar": ""
+  },
+  {
+   "word": "supervisor",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "감독관, 관리자, 상사; 지도 교수",
+   "base": "supervise",
+   "set": 44,
+   "exercise": "조직과 책임",
+   "grammar": ""
+  },
+  {
+   "word": "legislation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "법률, 법률 제정",
+   "base": null,
+   "set": 44,
+   "exercise": "법과 규제",
+   "grammar": "G142"
+  },
+  {
+   "word": "legislature",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "입법부, 입법 기관",
+   "base": null,
+   "set": 44,
+   "exercise": "법과 규제",
+   "grammar": "G142"
+  },
+  {
+   "word": "mandate",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "(선거로 받은) 권한; 명령, 지시; 명령하다",
+   "base": null,
+   "set": 44,
+   "exercise": "법과 규제",
+   "grammar": "G142"
+  },
+  {
+   "word": "mandatory",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "의무적인, 필수의",
+   "base": null,
+   "set": 44,
+   "exercise": "법과 규제",
+   "grammar": "G142"
+  },
+  {
+   "word": "regulatory",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "규제하는, 단속의",
+   "base": null,
+   "set": 44,
+   "exercise": "법과 규제",
+   "grammar": "G142"
+  },
+  {
+   "word": "sanction",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "제재; 승인, 허가; 제재를 가하다",
+   "base": null,
+   "set": 44,
+   "exercise": "법과 규제",
+   "grammar": "G142"
+  },
+  {
+   "word": "unconstitutional",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "헌법에 어긋나는, 위헌의",
+   "base": "constitutional",
+   "set": 44,
+   "exercise": "법과 규제",
+   "grammar": "G142"
+  },
+  {
+   "word": "compliance",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(법·규칙) 준수",
+   "base": "comply",
+   "set": 44,
+   "exercise": "법과 규제",
+   "grammar": "G142"
+  },
+  {
+   "word": "protocol",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "의례, 규약; (조약의) 의정서; 통신 규약",
+   "base": null,
+   "set": 44,
+   "exercise": "법과 규제",
+   "grammar": "G142"
+  },
+  {
+   "word": "trafficking",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(마약·사람 등의) 불법 거래, 밀매",
+   "base": null,
+   "set": 44,
+   "exercise": "법과 규제",
+   "grammar": "G142"
+  },
+  {
+   "word": "execution",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "실행, 수행; 처형",
+   "base": "execute",
+   "set": 44,
+   "exercise": "법과 규제",
+   "grammar": "G142"
+  },
+  {
+   "word": "abundance",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "풍부, 많음",
+   "base": null,
+   "set": 44,
+   "exercise": "양과 범위",
+   "grammar": ""
+  },
+  {
+   "word": "countless",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "셀 수 없이 많은",
+   "base": "count",
+   "set": 44,
+   "exercise": "양과 범위",
+   "grammar": ""
+  },
+  {
+   "word": "endless",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "끝없는",
+   "base": "end",
+   "set": 44,
+   "exercise": "양과 범위",
+   "grammar": ""
+  },
+  {
+   "word": "large-scale",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "대규모의",
+   "base": "large+scale",
+   "set": 44,
+   "exercise": "양과 범위",
+   "grammar": ""
+  },
+  {
+   "word": "magnitude",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(큰) 규모, 중대함; (지진의) 규모",
+   "base": null,
+   "set": 44,
+   "exercise": "양과 범위",
+   "grammar": ""
+  },
+  {
+   "word": "substantial",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "상당한, 많은; 튼튼한, 실질적인",
+   "base": null,
+   "set": 44,
+   "exercise": "양과 범위",
+   "grammar": ""
+  },
+  {
+   "word": "substantially",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adv.",
+   "ko": "상당히, 크게; 대체로",
+   "base": null,
+   "set": 44,
+   "exercise": "양과 범위",
+   "grammar": ""
+  },
+  {
+   "word": "scope",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "범위; (발휘할) 여지, 기회",
+   "base": null,
+   "set": 44,
+   "exercise": "양과 범위",
+   "grammar": ""
+  },
+  {
+   "word": "segment",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "부분, 조각; (시장의) 계층",
+   "base": null,
+   "set": 44,
+   "exercise": "양과 범위",
+   "grammar": ""
+  },
+  {
+   "word": "obsession",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "집착, 강박",
+   "base": "obsess",
+   "set": 45,
+   "exercise": "성격과 자아",
+   "grammar": ""
+  },
+  {
+   "word": "ego",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "자아; 자존심",
+   "base": null,
+   "set": 45,
+   "exercise": "성격과 자아",
+   "grammar": ""
+  },
+  {
+   "word": "humble",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "겸손한; 보잘것없는, 소박한",
+   "base": null,
+   "set": 45,
+   "exercise": "성격과 자아",
+   "grammar": ""
+  },
+  {
+   "word": "passive",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "수동적인, 소극적인",
+   "base": null,
+   "set": 45,
+   "exercise": "성격과 자아",
+   "grammar": ""
+  },
+  {
+   "word": "rational",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "합리적인, 이성적인",
+   "base": null,
+   "set": 45,
+   "exercise": "성격과 자아",
+   "grammar": ""
+  },
+  {
+   "word": "competent",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "유능한, 능숙한; 적격의",
+   "base": null,
+   "set": 45,
+   "exercise": "성격과 자아",
+   "grammar": ""
+  },
+  {
+   "word": "persistent",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "끈질긴; 지속적인",
+   "base": null,
+   "set": 45,
+   "exercise": "성격과 자아",
+   "grammar": ""
+  },
+  {
+   "word": "persist",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "계속되다; 고집하다",
+   "base": null,
+   "set": 45,
+   "exercise": "성격과 자아",
+   "grammar": ""
+  },
+  {
+   "word": "wit",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "재치, 기지; (복수로) 지혜, 분별력",
+   "base": null,
+   "set": 45,
+   "exercise": "성격과 자아",
+   "grammar": ""
+  },
+  {
+   "word": "sensitivity",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "민감성; 세심함, 배려; 감수성",
+   "base": "sensitive",
+   "set": 45,
+   "exercise": "성격과 자아",
+   "grammar": ""
+  },
+  {
+   "word": "idiot",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "바보, 멍청이",
+   "base": null,
+   "set": 45,
+   "exercise": "성격과 자아",
+   "grammar": ""
+  },
+  {
+   "word": "devastating",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "파괴적인, 엄청난 피해를 주는; 충격적인",
+   "base": "devastate",
+   "set": 45,
+   "exercise": "재난과 안전",
+   "grammar": "G143"
+  },
+  {
+   "word": "hazard",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "위험 (요소)",
+   "base": null,
+   "set": 45,
+   "exercise": "재난과 안전",
+   "grammar": "G143"
+  },
+  {
+   "word": "refuge",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "피난(처), 대피소",
+   "base": null,
+   "set": 45,
+   "exercise": "재난과 안전",
+   "grammar": "G143"
+  },
+  {
+   "word": "safeguard",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v., n.",
+   "ko": "보호하다; 보호 장치, 안전장치",
+   "base": null,
+   "set": 45,
+   "exercise": "재난과 안전",
+   "grammar": "G143"
+  },
+  {
+   "word": "alert",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj., v., n.",
+   "ko": "경계하는, 기민한; 알리다, 경고하다; 경보",
+   "base": null,
+   "set": 45,
+   "exercise": "재난과 안전",
+   "grammar": "G143"
+  },
+  {
+   "word": "caution",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "조심, 주의; 경고; 주의를 주다",
+   "base": null,
+   "set": 45,
+   "exercise": "재난과 안전",
+   "grammar": "G143"
+  },
+  {
+   "word": "cautious",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "조심스러운, 신중한",
+   "base": null,
+   "set": 45,
+   "exercise": "재난과 안전",
+   "grammar": "G143"
+  },
+  {
+   "word": "fragile",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "부서지기 쉬운, 연약한",
+   "base": null,
+   "set": 45,
+   "exercise": "재난과 안전",
+   "grammar": "G143"
+  },
+  {
+   "word": "intact",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "온전한, 손상되지 않은",
+   "base": null,
+   "set": 45,
+   "exercise": "재난과 안전",
+   "grammar": "G143"
+  },
+  {
+   "word": "inspection",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "검사, 점검",
+   "base": "inspect",
+   "set": 45,
+   "exercise": "재난과 안전",
+   "grammar": "G143"
+  },
+  {
+   "word": "maintenance",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "유지, 보수, 관리",
+   "base": "maintain",
+   "set": 45,
+   "exercise": "기계와 정비",
+   "grammar": "G143"
+  },
+  {
+   "word": "sophisticated",
+   "ox": [
+    "B2"
+   ],
+   "pos": "adj.",
+   "ko": "세련된; 정교한, 복잡한",
+   "base": "sophisticate",
+   "set": 45,
+   "exercise": "기계와 정비",
+   "grammar": "G143"
+  },
+  {
+   "word": "loop",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "고리, 올가미; 순환",
+   "base": null,
+   "set": 45,
+   "exercise": "기계와 정비",
+   "grammar": "G143"
+  },
+  {
+   "word": "embed",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "박아 넣다, 끼워 넣다; (깊이) 자리 잡게 하다",
+   "base": null,
+   "set": 45,
+   "exercise": "기계와 정비",
+   "grammar": "G143"
+  },
+  {
+   "word": "assemble",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "모으다, 모이다; 조립하다",
+   "base": null,
+   "set": 45,
+   "exercise": "기계와 정비",
+   "grammar": "G143"
+  },
+  {
+   "word": "assembly",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "의회, 집회; (학교) 조회; 조립",
+   "base": null,
+   "set": 45,
+   "exercise": "기계와 정비",
+   "grammar": "G143"
+  },
+  {
+   "word": "capability",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "능력, 역량",
+   "base": "capable",
+   "set": 45,
+   "exercise": "기계와 정비",
+   "grammar": "G143"
+  },
+  {
+   "word": "configuration",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "배치, 구성; (컴퓨터) 설정",
+   "base": null,
+   "set": 45,
+   "exercise": "기계와 정비",
+   "grammar": "G143"
+  },
+  {
+   "word": "processing",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "처리, 가공",
+   "base": "process",
+   "set": 45,
+   "exercise": "기계와 정비",
+   "grammar": "G143"
+  },
+  {
+   "word": "privatization",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "민영화",
+   "base": "privatize",
+   "set": 45,
+   "exercise": "정부와 정책",
+   "grammar": ""
+  },
+  {
+   "word": "regime",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "정권, 체제; 제도",
+   "base": null,
+   "set": 45,
+   "exercise": "정부와 정책",
+   "grammar": ""
+  },
+  {
+   "word": "governance",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "통치, 관리 (체계)",
+   "base": "govern",
+   "set": 45,
+   "exercise": "정부와 정책",
+   "grammar": ""
+  },
+  {
+   "word": "ideology",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "이념, 이데올로기",
+   "base": null,
+   "set": 45,
+   "exercise": "정부와 정책",
+   "grammar": ""
+  },
+  {
+   "word": "senator",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "상원 의원",
+   "base": "senate",
+   "set": 45,
+   "exercise": "정부와 정책",
+   "grammar": ""
+  },
+  {
+   "word": "councilor",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(지방) 의원",
+   "base": "council",
+   "set": 45,
+   "exercise": "정부와 정책",
+   "grammar": ""
+  },
+  {
+   "word": "ambassador",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "대사; (홍보) 대사",
+   "base": null,
+   "set": 45,
+   "exercise": "정부와 정책",
+   "grammar": ""
+  },
+  {
+   "word": "province",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "(행정 구역) 주, 도; 지방",
+   "base": null,
+   "set": 45,
+   "exercise": "정부와 정책",
+   "grammar": ""
+  },
+  {
+   "word": "radical",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj., n.",
+   "ko": "근본적인, 철저한; 급진적인; 급진주의자",
+   "base": null,
+   "set": 45,
+   "exercise": "정부와 정책",
+   "grammar": ""
+  },
+  {
+   "word": "precedent",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "선례, 전례",
+   "base": "precede",
+   "set": 45,
+   "exercise": "역사와 유산",
+   "grammar": ""
+  },
+  {
+   "word": "heritage",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "유산, 전통",
+   "base": null,
+   "set": 45,
+   "exercise": "역사와 유산",
+   "grammar": ""
+  },
+  {
+   "word": "colonial",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "식민지의",
+   "base": "colony",
+   "set": 45,
+   "exercise": "역사와 유산",
+   "grammar": ""
+  },
+  {
+   "word": "indigenous",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "토착의, 원주민의",
+   "base": null,
+   "set": 45,
+   "exercise": "역사와 유산",
+   "grammar": ""
+  },
+  {
+   "word": "archive",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "기록 보관소, 자료 보관; 보관하다",
+   "base": null,
+   "set": 45,
+   "exercise": "역사와 유산",
+   "grammar": ""
+  },
+  {
+   "word": "revival",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "부활, 회복; 재상연",
+   "base": "revive",
+   "set": 45,
+   "exercise": "역사와 유산",
+   "grammar": ""
+  },
+  {
+   "word": "preservation",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "보존, 보호, 유지",
+   "base": "preserve",
+   "set": 45,
+   "exercise": "역사와 유산",
+   "grammar": ""
+  },
+  {
+   "word": "predecessor",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "전임자; 이전 것, 전신",
+   "base": null,
+   "set": 45,
+   "exercise": "역사와 유산",
+   "grammar": ""
+  },
+  {
+   "word": "successor",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "후임자, 계승자; 후속작",
+   "base": "succeed",
+   "set": 45,
+   "exercise": "역사와 유산",
+   "grammar": ""
+  },
+  {
+   "word": "succession",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "연속; 계승, 승계",
+   "base": "succeed",
+   "set": 45,
+   "exercise": "역사와 유산",
+   "grammar": ""
+  },
+  {
+   "word": "remains",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "남은 것, 나머지; 유적, 유해",
+   "base": "remain",
+   "set": 45,
+   "exercise": "역사와 유산",
+   "grammar": ""
+  },
+  {
+   "word": "underlying",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "근본적인, 근원적인; 밑에 있는",
+   "base": "underlie",
+   "set": 45,
+   "exercise": "원인과 근거",
+   "grammar": "G143"
+  },
+  {
+   "word": "induce",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "유도하다, 유발하다; 설득하다",
+   "base": null,
+   "set": 45,
+   "exercise": "원인과 근거",
+   "grammar": "G143"
+  },
+  {
+   "word": "spark",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n., v.",
+   "ko": "불꽃; 촉발하다, 불러일으키다",
+   "base": null,
+   "set": 45,
+   "exercise": "원인과 근거",
+   "grammar": "G143"
+  },
+  {
+   "word": "inflict",
+   "ox": [
+    "C1"
+   ],
+   "pos": "v.",
+   "ko": "(고통·피해를) 가하다, 입히다",
+   "base": null,
+   "set": 45,
+   "exercise": "원인과 근거",
+   "grammar": "G143"
+  },
+  {
+   "word": "instrumental",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "중요한 역할을 하는; 악기로 연주하는",
+   "base": "instrument",
+   "set": 45,
+   "exercise": "원인과 근거",
+   "grammar": "G143"
+  },
+  {
+   "word": "accordingly",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adv.",
+   "ko": "그에 맞게; 따라서, 그러므로",
+   "base": "according",
+   "set": 45,
+   "exercise": "원인과 근거",
+   "grammar": "G143"
+  },
+  {
+   "word": "relevance",
+   "ox": [
+    "C1"
+   ],
+   "pos": "n.",
+   "ko": "관련성, 타당성",
+   "base": "relevant",
+   "set": 45,
+   "exercise": "원인과 근거",
+   "grammar": "G143"
+  },
+  {
+   "word": "irrelevant",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj.",
+   "ko": "무관한, 상관없는",
+   "base": "relevant",
+   "set": 45,
+   "exercise": "원인과 근거",
+   "grammar": "G143"
+  },
+  {
+   "word": "latter",
+   "ox": [
+    "C1"
+   ],
+   "pos": "adj., n.",
+   "ko": "(둘 중) 후자의; 후반의; 후자",
+   "base": null,
+   "set": 45,
+   "exercise": "원인과 근거",
+   "grammar": "G143"
+  }
+ ]
+}
