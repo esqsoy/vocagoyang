@@ -1563,4 +1563,4 @@
   - 대사 "11점 안 준 게 겸손이라고양."은 그대로다.
   - 예문이 길어져 읽기량이 12.2초로 12초를 넘었다(deepcheck A8). 그래서 해설에서 해석과 같은 말인 "ten out of ten은 10점 만점에 10점"을 뺐다. 해설은 "서수는 tenth. ten o'clock은 10시."다.
 - 검증(새로 실행): ordercheck 앞당김 둘 이상 0(every·student는 5세트 말), deepcheck A5 0·A8 1(전부터 있던 kinda), linecheck 360px 초과 0.
-- 남은 일: 배포(영신 확인 뒤).
+- 배포: 영신 "완벽해...완벽하다" 74a6ddc fast-forward, Pages 38558861671 성공, 네 HTML blob SHA 일치. 기록은 [DEPLOYMENT.md](DEPLOYMENT.md).

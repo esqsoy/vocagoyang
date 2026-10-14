@@ -1,3 +1,19 @@
+# 0세트 ten 카드 배포 · 2026-10-14
+
+- 커밋 [74a6ddc](https://github.com/esqsoy/vocagoyang/commit/74a6ddc)를 origin/main에 fast-forward로 푸시했다(9acff62 다음, 배포 기록 b445356 포함). [Pages 38558861671](https://github.com/esqsoy/vocagoyang/actions/runs/38558861671) 성공(11:45:46~11:46:55 UTC). 영신: "배포할까?"에 "완벽해...완벽하다"
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 9ee4272, 수능 0b2f8c0, EBS b73efb2, index a5c2ba2). github.io는 이 세션에서 열리지 않아 공개 화면은 직접 보지 못했다.
+- 포함: 0세트 ten 카드(원장 `ten-20261014`). 게임 코드는 바뀌지 않았다.
+  - 예문: "Every STUDY1 student is a ten out of ten!"
+  - 해석: "스터디원 학생들은 모두 10점 만점에 10점!"
+  - 해설: "서수는 tenth. ten o'clock은 10시."
+- 배포 전 검사(74a6ddc에서 실행):
+  - 검사 42개 통과.
+  - ordercheck 앞당김 둘 이상 0, deepcheck A5 0·A8 1(전부터 있던 kinda), linecheck 360px 초과 0.
+  - Chromium smoke에서 콘솔 오류가 없다.
+  - 실기기 Safari는 확인하지 않았다.
+
+---
+
 # 결과 화면 Enter·Space, it·its·boss 예문 배포 · 2026-10-14
 
 - 커밋 [9acff62](https://github.com/esqsoy/vocagoyang/commit/9acff62)를 origin/main에 fast-forward로 푸시했다(60a3bd6 다음, 배포 기록 fca16eb와 a70bfc2 포함). [Pages 38552572509](https://github.com/esqsoy/vocagoyang/actions/runs/38552572509) 성공(10:52:11~10:52:57 UTC). 영신: "이것도 작업하고 배포하자"

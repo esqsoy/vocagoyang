@@ -2,6 +2,12 @@
 
 갱신: 2026-10-13 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
 
+## 2026-10-14 · 0세트 ten 카드 · main 배포(74a6ddc, [DEPLOYMENT](DEPLOYMENT.md))
+
+- 예문은 "Every STUDY1 student is a ten out of ten!" / "스터디원 학생들은 모두 10점 만점에 10점!"이다(영신).
+- 읽기량 12초를 맞추려고 해설을 "서수는 tenth. ten o'clock은 10시."로 줄였다.
+- 원장 `ten-20261014`.
+
 ## 2026-10-14 · 결과 화면 Enter·Space · it·its·boss 예문 · main 배포(9acff62, [DEPLOYMENT](DEPLOYMENT.md))
 
 - 세 과정: 결과 화면에서 Enter·Space를 누르면 다음 연습으로 넘어간다. 결과가 뜬 뒤 0.7초와 키 반복은 무시하고, 축하·포효·엔딩·버튼 초점은 그쪽이 받는다(UI_STANDARD).
