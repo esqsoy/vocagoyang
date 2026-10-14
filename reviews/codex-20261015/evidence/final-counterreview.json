@@ -1,0 +1,56 @@
+{
+  "reviewer": "fable_review_35_50",
+  "scope": {
+    "files": ["repo/reviews/codex-20261015/review.json", "repo/reviews/codex-20261015/CONTENT.md"],
+    "content_findings_read": 32,
+    "card_edits_read": 35,
+    "method": "32건의 why/current/proposed와 CONTENT.md를 직접 읽었다. current-cards.json의 세트·표제어·뜻 번호로 35장을 재대조했다. 현재/제안 분리, 뜻·예문·해석 대응, 대체어의 실제 문장 성립, 새 제안의 문법·사실 범위, 기존 학습 정보의 손실을 재검토했다. 외부 재검색은 하지 않았다.",
+    "source_files_modified": false
+  },
+  "verdict": "blocking_issue_not_found",
+  "confirmed_counterfindings": [],
+  "checks": {
+    "current_snapshot_mismatches": 0,
+    "json_markdown_proposal_mismatches": 0,
+    "proposed_c_over_72_chars": 0,
+    "proposed_examples_with_wrong_blank_count": 0,
+    "introduced_grammar_or_meaning_errors_found": 0,
+    "false_positive_requiring_withdrawal_found": 0
+  },
+  "important_confirmations": [
+    "clause 제안은 실제로 두 독립절을 등위접속하여 자기 설명이 참이다. clauses를 넣으면 문법적으로 자연스럽고 각 절에 동사가 있다.",
+    "agriculture는 전체 담수와 취수량의 분모를 구별한다. taken from nature는 새 전문용어를 피하는 표현으로 의도가 전달된다.",
+    "span의 Some insects ... adult life span은 성충 한정을 확보하고 Mayflies라는 풀 밖 예시어를 제거한다. 과학적 오류를 새로 만들지 않았다.",
+    "arguably는 현재 해설을 완전히 틀렸다고 판정하지 않고 KO의 확실성 과장을 짚는다. 새 제안은 단정적인 undoubtedly류와의 혼동을 줄인다.",
+    "recount의 어원 교정은 recount와 영어 count의 역사를 혼동하지 않게 한다. 다른 언어에서 빌려온 '이야기하다'와 영어에서 재형성한 '다시 세다'가 구별된다.",
+    "seller/vendor와 insulting/offensive를 자동 안내가 없는 결함이라고 오인하지 않고 P3로 낮춘 상태다.",
+    "elaborate는 기존 형용사·동사의 발음 대비를 보존한 채 intricate 안내를 합쳤다.",
+    "harsh·data의 자연스러움을 문법적으로 불가능하다고 과장하지 않는다.",
+    "underlying의 tilt는 풀 밖 예시어라는 조건과 표제어 추가 미승인이 명시되어 있다.",
+    "ape·species·abolish·edition의 범위·엄밀성 보정은 선택적 P3로 분류되어 있어 기존 문장을 과도하게 전면 오류로 처리하지 않는다.",
+    "JSON의 current 35장 전부가 추출된 실제 런타임 필드와 일치한다. 누락 필드와 빈 문자열만 동등 취급했다. CONTENT.md에 제안이 현행인 것처럼 혼입된 사례도 없다."
+  ],
+  "nonblocking_refinements": [
+    {
+      "id": "C35-50-05-05",
+      "priority": "P3",
+      "type": "preserve_existing_learning_point",
+      "observation": "furious 제안에서 enraged 안내는 좋지만 기존의 furious at 일 결합이 사라진다. 현재 제안이 틀린 것은 아니며, 더 짧게 쓰면서 with/at 구별까지 남길 여지가 있다.",
+      "optional_c": "enraged도 몹시 화난 상태. furious with 사람 / at 일.",
+      "required_before_review_publish": false
+    },
+    {
+      "id": "C35-50-05-01",
+      "priority": "P3",
+      "type": "preserve_existing_learning_point",
+      "observation": "seller는 vendor 일반 안내도 이미 있는 카드다. 고정 해설을 바꾼다면 sell+-er와 buyer를 모두 지우기보다 짧게 병합하는 편이 기존 word family·반대 역할 정보를 보존한다. 이것도 현재 제안의 오류는 아니다.",
+      "optional_c": "sell+-er. 판매자를 뜻할 때 vendor와 바꿔 쓸 수 있다. 사는 사람은 buyer.",
+      "required_before_review_publish": false
+    }
+  ],
+  "limits": [
+    "학습 화면에서 새 제안을 실제 배포·실행한 검수가 아니다. 원본 앱은 수정하지 않았다.",
+    "harsh 번역의 추가 축약 예정은 이미 전달받았다. 읽기 시간·모바일 줄바꿈 최종 검사는 루트 통합 검사를 따른다.",
+    "이 재검토는 제시된 32건의 보고서 품질을 확인한 것이며, 이전 전체 읽기에서 놓친 모든 오류가 없다고 보증하지 않는다."
+  ]
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "args": [
+      "pipeline/milestones/build.cjs",
+      "--check"
+    ],
+    "status": 0,
+    "stdout": "Verified vocagoyangfable.html\nVerified vocagoyangksat2027.html\nVerified vocagoyangebs2027.html\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pipeline/pace/build.cjs",
+      "--check"
+    ],
+    "status": 0,
+    "stdout": "Verified vocagoyangfable.html\nVerified vocagoyangksat2027.html\nVerified vocagoyangebs2027.html\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pipeline/ipa-effects/build.cjs",
+      "--check"
+    ],
+    "status": 0,
+    "stdout": "{\"file\":\"index.html\",\"action\":\"verified\",\"courses\":[{\"id\":\"fable\",\"cards\":8497,\"headwords\":6198,\"overlap\":0,\"added\":6198,\"cumulative\":6198},{\"id\":\"ksat\",\"cards\":6498,\"headwords\":4026,\"overlap\":2030,\"added\":1996,\"cumulative\":8194},{\"id\":\"ebs\",\"cards\":597,\"headwords\":545,\"overlap\":418,\"added\":127,\"cumulative\":8321}]}\n{\"file\":\"vocagoyangfable.html\",\"action\":\"verified\",\"cards\":8497,\"alignedCards\":7454,\"wholeCards\":1043,\"forcedWholeCards\":0,\"labeledCards\":0,\"alternativeCards\":0,\"contextSpeechCards\":0,\"uniquePairs\":6324,\"mapEntries\":5482,\"mapBytes\":383021,\"reasons\":{\"no complete rule match\":907,\"unresolved phrase component\":32,\"unresolved syllable group\":74,\"punctuation or non-ASCII spelling\":30}}\n{\"file\":\"vocagoyangksat2027.html\",\"action\":\"verified\",\"cards\":6498,\"alignedCards\":5240,\"wholeCards\":1258,\"forcedWholeCards\":171,\"labeledCards\":86,\"alternativeCards\":42,\"contextSpeechCards\":134,\"uniquePairs\":4042,\"mapEntries\":3217,\"mapBytes\":279170,\"reasons\":{\"no complete rule match\":781,\"different speech text\":85,\"punctuation or non-ASCII spelling\":101,\"labeled pronunciation\":86,\"unresolved syllable group\":124,\"unresolved phrase component\":80,\"ambiguous vowel alignment\":1}}\n{\"file\":\"vocagoyangebs2027.html\",\"action\":\"verified\",\"cards\":597,\"alignedCards\":466,\"wholeCards\":131,\"forcedWholeCards\":32,\"labeledCards\":26,\"alternativeCards\":1,\"contextSpeechCards\":18,\"uniquePairs\":547,\"mapEntries\":425,\"mapBytes\":37806,\"reasons\":{\"labeled pronunciation\":26,\"no complete rule match\":66,\"punctuation or non-ASCII spelling\":11,\"unresolved syllable group\":9,\"unresolved phrase component\":13,\"different speech text\":6}}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pipeline/mother-tongue-excerpts/build.cjs",
+      "--check"
+    ],
+    "status": 0,
+    "stdout": "{\"file\":\"index.html\",\"action\":\"verified\",\"courses\":[{\"id\":\"fable\",\"cards\":8497,\"headwords\":6198,\"overlap\":0,\"added\":6198,\"cumulative\":6198},{\"id\":\"ksat\",\"cards\":6498,\"headwords\":4026,\"overlap\":2030,\"added\":1996,\"cumulative\":8194},{\"id\":\"ebs\",\"cards\":597,\"headwords\":545,\"overlap\":418,\"added\":127,\"cumulative\":8321}]}\n{\"cards\":6498,\"excerpts\":6422,\"holds\":31,\"sourceOnly\":45,\"notes\":227,\"meaningChanges\":32}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pipeline/saved-cards/build.cjs",
+      "--check"
+    ],
+    "status": 0,
+    "stdout": "Verified vocagoyangfable.html\nVerified vocagoyangksat2027.html\nVerified vocagoyangebs2027.html\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pipeline/index-stats.cjs",
+      "--check"
+    ],
+    "status": 0,
+    "stdout": "{\"file\":\"index.html\",\"action\":\"verified\",\"courses\":[{\"id\":\"fable\",\"cards\":8497,\"headwords\":6198,\"overlap\":0,\"added\":6198,\"cumulative\":6198},{\"id\":\"ksat\",\"cards\":6498,\"headwords\":4026,\"overlap\":2030,\"added\":1996,\"cumulative\":8194},{\"id\":\"ebs\",\"cards\":597,\"headwords\":545,\"overlap\":418,\"added\":127,\"cumulative\":8321}]}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pipeline/test-mother-tongue-pronunciation.cjs"
+    ],
+    "status": 0,
+    "stdout": "PASS pronunciation UI: Fable IPA formatting, no separate replay button, reveal-only automatic TTS, word tap/keyboard replay, meaning-aware audio, mute/exit/lazy/unsupported safety.\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pipeline/test-mother-tongue-pronunciation-data.cjs"
+    ],
+    "status": 0,
+    "stdout": "PASS pronunciation coverage: 17 lessons, 6,498 unchanged cards, 4,028 expressions; semantic IPA, clean speech, provenance and embedded-data parity.\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pipeline/test-ebs-pronunciation-data.cjs"
+    ],
+    "status": 0,
+    "stdout": "PASS EBS IPA: 4 lessons, 48 exercises, 597 unchanged cards, 545 expressions; semantic selection, speech cleanup, provenance and embedded parity.\n",
+    "stderr": ""
+  }
+]

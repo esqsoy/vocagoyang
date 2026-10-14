@@ -1,0 +1,112 @@
+[
+  {
+    "id": "T01",
+    "priority": "P1",
+    "classification": "오류",
+    "area": "정답 판정",
+    "title": "s와 z를 전부 같은 글자로 처리해 틀린 철자를 정답으로 통과시킨다",
+    "location": {
+      "file": "vocagoyangfable.html",
+      "line": 2120
+    },
+    "evidence": "실제 Chrome에서 bus 카드에 buz를 input 이벤트로 입력: answered=true, passed=true, errors=0. 고양이도 ‘buz’도 맞다고양!이라고 말한다. variantKey가 단어 전체의 z를 s로 치환한다. 인식된 영미 철자 쌍인지 확인하지 않는다.",
+    "impact": "철자 학습의 핵심 판정에서 실제 오자를 맞다고 가르치며 복습 대상에서도 빠뜨린다. realise/realize를 허용하려던 규칙이 bus/buz, zoo/soo 같은 비단어까지 허용한다.",
+    "recommendation": "검증된 영미 철자 쌍 또는 등록된 표제어 변형 목록으로 판정한다. s/z 전역 동치화를 없앤다. realize/realise 같은 양성 사례와 bus/buz·zoo/soo 음성 사례를 실제 자동 제출 경로로 검사한다.",
+    "repro": "repro/browser-review.cjs의 spelling; evidence/browser-review.json; evidence/misspelling-accepted.png",
+    "regression": "이전부터 존재하던 결함. 이번 리뷰 범위가 전체여서 포함한다."
+  },
+  {
+    "id": "T02",
+    "priority": "P2",
+    "classification": "오류",
+    "area": "완료 판정",
+    "title": "B1만 완료해도 FABLE 전체 엔딩이 열린다",
+    "location": {
+      "file": "vocagoyangfable.html",
+      "line": 3155
+    },
+    "evidence": "B1 선택 뒤 0~25세트 완료를 구성하여 마지막 연습의 실제 finishExercise를 실행했다. 전체 780 중 405연습 완료인데 제목 BIG MOUNTAIN 입성! 및 ending.show가 나타났다. finishExercise는 범위 제한된 clearedExercises()/totalExercises()를 쓴다. 홈 엔딩 버튼만 true 인자로 전체를 확인한다.",
+    "impact": "B1 완료와 전체 C1·어원 과정 완료를 혼동하게 하고 남은 375연습 전에 최종 성취를 선언한다. UI_STANDARD와 level-scope.test의 의도에 반한다.",
+    "recommendation": "전체 엔딩 판단은 clearedExercises(true)/totalExercises(true)로 통일한다. B1 완료는 별도 범위 완료로 처리하되 전체 엔딩을 예약하지 않는다. 실제 finishExercise → 예약된 showEnding 경로를 검사한다.",
+    "repro": "repro/browser-review.cjs의 b1; evidence/b1-premature-ending.png",
+    "regression": "B1/C1 범위를 도입한 뒤의 회귀."
+  },
+  {
+    "id": "T03",
+    "priority": "P2",
+    "classification": "오류",
+    "area": "구판 기록·세트 잠금",
+    "title": "같은 세트의 옛 완료 기록을 잇고도 그 세트를 잠근다",
+    "location": {
+      "file": "vocagoyangfable.html",
+      "line": 2515
+    },
+    "evidence": "921e8ff에서 26세트 Exercise 6 완료키 [26세트, Exercise 6 · 2534~2543 :: editorial-20260925 1-12]를 로드하면 현재 Exercise 6은 getRec으로 완료다. 그러나 setStarted는 새 직접 키만 확인하여 26세트를 잠근다. 실제 브라우저 openSets=[0], rawResume=26, effectiveResume=0. 이 구판과 5a66345 각각 12개 옛 연습에서 같은 현상. e9c178d/acfe20e 각각 14개. 버전별 사례는 서로 겹치므로 합산하지 않는다. 이 수는 현재 완료로 이어진 사례만 센 최소치다.",
+    "impact": "이전 버전에서 뒤 세트를 공부하던 학생이 업데이트 후 해당 세트를 열거나 이어 할 수 없다. 기록 삭제는 아니지만 접근이 막힌다. ‘이미 하던 것은 빼앗지 않는다’ 원칙을 깨뜨린다.",
+    "recommendation": "이동해 들어온 카드의 상속 완료와, 원래 그 세트에서 직접 끝낸 옛 배치의 완료를 구별한다. 동일 출발 세트의 역사적 키는 시작 증거로 인정한다. 모든 getRec 완료를 시작으로 간주하면 5세트에서 이동한 문법 카드가 뒤 세트를 여는 역방향 버그가 생기므로 그 음성 검사도 유지한다. 새 카드가 더해져 현재 연습이 미완료가 되었더라도 같은 세트에서 했던 옛 직접 완료 기록은 접근 증거로 남아야 한다.",
+    "repro": "repro/unlock-audit.cjs 및 repro/browser-review.cjs의 oldUnlock; evidence/unlock-audit.json",
+    "regression": "새 세트 잠금 도입 뒤의 회귀."
+  },
+  {
+    "id": "T04",
+    "priority": "P2",
+    "classification": "오류",
+    "area": "복습 후 진행",
+    "title": "마지막 오답을 누른 직후 다음 버튼을 누르면 연습 하나를 건너뛴다",
+    "location": {
+      "file": "vocagoyangfable.html",
+      "line": 4511
+    },
+    "evidence": "Exercise 1 결과의 마지막 오답 행을 클릭하고 즉시 다음 연습을 클릭했다. 즉시 Exercise 2로 이동하지만 850ms 후 Exercise 3으로 바뀐다. 행 삭제 260ms + 자동 다음 350ms 예약이 이미 다른 연습으로 이동한 뒤에도 현재 nextEx 버튼을 클릭한다.",
+    "impact": "새 연습이 갑자기 교체되고 입력이 사라진다. 학생은 판을 하나 건너뛰거나 버튼이 두 번 먹은 것으로 느낀다.",
+    "recommendation": "예약 시점의 세션·결과 화면을 캡처하고 여전히 같은 결과 화면일 때만 자동 이동한다. 수동 다음·목록·재도전·다른 화면 진입에서는 예약을 취소한다. 마지막 행 탭과 수동 다음을 연속 입력하는 실제 이벤트 검사 추가.",
+    "repro": "repro/browser-review.cjs의 reviewRace; evidence/browser-review.json",
+    "regression": "이전부터 존재하던 결함. 세 과정 동일 패턴도 함께 확인할 것."
+  },
+  {
+    "id": "T05",
+    "priority": "P3",
+    "classification": "오류",
+    "area": "진행 속도 안내",
+    "title": "600판 보관 상한에 도달하면 주기적 예측 대사가 더 이상 나오지 않는다",
+    "location": {
+      "file": "pipeline/pace/runtime.js",
+      "line": 95
+    },
+    "evidence": "기록은 최근 600판으로 자르는데 meta.n은 배열에서 센 완료 판 수다. 기록 600판+새 판 상태에서는 매번 plays=601이고 meta.n이 600/601 근처에 고정된다. 실제 paceShow를 601~612판까지 실행해도 매 5판 regular 대사가 나오지 않는다.",
+    "impact": "780연습인 FABLE에서는 첫 완주 도중 도달 가능한 상태다. 예측 한 줄 자체는 계속 갱신되지만 정기 대사와 일부 속도 변화 대사의 주기가 멈춘다. 복귀(absent), 하루 활동량(low), 목표 변경 안내까지 모두 사라지는 것은 아니다.",
+    "recommendation": "보관 배열 길이와 별개인 누적 재생 일련번호를 저장하거나 마지막 안내 시점/고유 기록 ID로 주기를 계산한다. 600판 경계를 넘긴 후에도 5판 주기가 유지되는 검사를 추가한다.",
+    "repro": "repro/pace-rollover.cjs; evidence/pace-rollover.json",
+    "regression": "새 진행 속도 기능의 장기 사용 경계."
+  },
+  {
+    "id": "T06",
+    "priority": "P2",
+    "classification": "오류",
+    "area": "학습 성취 설명",
+    "title": "세트 완료 대사가 개편 전 수치와 근거 없는 독해 보장을 그대로 말한다",
+    "location": {
+      "file": "vocagoyangfable.html",
+      "line": 2060
+    },
+    "evidence": "22세트 완료 대사는 ‘BIG MOUNTAIN 정상…2,183단어 완등’, 실제 현재 번호는 2683~2785이고 뒤 과정이 남아 있다. 32세트는 ‘COCA 5,000 완주…본문 84%’, 41세트는 ‘모르는 단어가 스무 개에 하나뿐’이라고 단정한다. 0~17세트 대사는 마더텅 유형(글 제목·도표·장문·빈칸 추론 등)에 붙던 설명이 남아 있다. 48세트의 ‘단어 가족’도 현재 용어 word family와 불일치한다.",
+    "impact": "성취를 설명하는 문구가 실제 배운 과정과 맞지 않는다. 유머를 살리는 것과 객관적 어휘량·독해율을 잘못 알려 주는 것은 별개다. PRINCIPLES 11의 수치 과장 금지와도 충돌한다.",
+    "recommendation": "LESSONCLEAR 전 항목을 현재 FABLE 세트 구성과 대조한다. 세트 번호/실제 배운 내용으로 축하하고 확인되지 않은 완등·coverage 보장은 빼거나 한정한다. 48은 word family로 통일. 시각 디자인을 바꿀 필요는 없다.",
+    "regression": "기존 문구가 누적 개편을 따라오지 못한 문제."
+  },
+  {
+    "id": "M01",
+    "priority": "P3",
+    "classification": "보완",
+    "area": "측정값 공개",
+    "title": "인덱스의 수능 지문 95%는 기록된 94.0% 및 발췌 표본 범위와 맞추는 편이 정확하다",
+    "location": {
+      "file": "index.html",
+      "line": 97
+    },
+    "evidence": "PRINCIPLES 2-8에 기록된 Oxford 보강 후 실측은 발췌 전체 94.0%, 정답 단어를 뺀 부분 97.2%다. 인덱스는 ‘수능 지문 95%’, 주석은 ‘수록 기출 지문의 단어로 잰 값’이다. 문서상 표본은 전체 지문이 아니라 표제어 중심으로 자른 3,703개 발췌이므로 분모가 다르다.",
+    "impact": "교육 방향에는 영향이 없지만 실제 측정보다 강하게 일반화한 숫자로 읽힌다. 이번 검토에서는 원 PDF 전체에 대한 새로운 coverage 측정을 하지 않았다.",
+    "recommendation": "짧게 ‘기출 발췌 어휘 약 94%’처럼 실제 값과 분모를 맞추거나, 전체 지문을 별도로 측정한 뒤 그 수치를 사용한다. 기존 승인 문구를 뒤집는 제안이므로 영신과 확인 후 반영한다.",
+    "regression": "내용 수정 제안. 기존 사용자 승인 수치 표기를 자동 변경하지 않는다."
+  }
+]

@@ -1,0 +1,316 @@
+[
+  {
+    "id": "C00-01",
+    "word": "life",
+    "set": 1,
+    "exactProposal": false,
+    "current": {
+      "ex": "A cat has more than one {{BLANK}}.",
+      "tr": "고양이는 목숨이 하나가 아니래.",
+      "c": "복수는 lives."
+    },
+    "proposed": {
+      "ex": "A cat has more than one {{BLANK}}.",
+      "tr": "고양이는 목숨이 하나가 아니래.",
+      "c": "속담은 A cat has nine lives. 복수는 lives."
+    },
+    "reviewed_status": "resolved",
+    "resolution_note": "후속 편집으로 제안 문자열과 다르지만 원래 의미/문법 지적은 해결됨."
+  },
+  {
+    "id": "C00-02",
+    "word": "of",
+    "set": 5,
+    "exactProposal": true,
+    "current": {
+      "c": "one of 뒤엔 복수: one of my friends. some of the water처럼 불가산명사도 쓴다."
+    },
+    "proposed": {
+      "c": "one of 뒤엔 복수: one of my friends. some of the water처럼 불가산명사도 쓴다."
+    },
+    "reviewed_status": "resolved"
+  },
+  {
+    "id": "C00-03",
+    "word": "very",
+    "set": 5,
+    "exactProposal": true,
+    "current": {
+      "c": "비교급엔 very 대신 much: much easier. 최상급은 the very best처럼 강조할 수 있다."
+    },
+    "proposed": {
+      "c": "비교급엔 very 대신 much: much easier. 최상급은 the very best처럼 강조할 수 있다."
+    },
+    "reviewed_status": "resolved"
+  },
+  {
+    "id": "C00-04",
+    "word": "tax",
+    "set": 6,
+    "exactProposal": true,
+    "current": {
+      "tr": "1760년대 식민지인들은 영국 의회에 대표도 없이 세금을 냈어."
+    },
+    "proposed": {
+      "tr": "1760년대 식민지인들은 영국 의회에 대표도 없이 세금을 냈어."
+    },
+    "reviewed_status": "resolved"
+  },
+  {
+    "id": "C16-01",
+    "word": "quantity",
+    "set": 18,
+    "exactProposal": false,
+    "current": {
+      "c": "질은 quality. 철자가 비슷해 헷갈리기 쉽다."
+    },
+    "proposed": {
+      "c": "질은 quality. 철자가 비슷하니 구별해."
+    },
+    "reviewed_status": "resolved",
+    "resolution_note": "후속 편집으로 제안 문자열과 다르지만 원래 의미/문법 지적은 해결됨."
+  },
+  {
+    "id": "C16-02",
+    "word": "anxious",
+    "set": 19,
+    "exactProposal": false,
+    "current": {
+      "c": "be anxious to+동사. 걱정이 섞이는지는 문맥으로 구별한다."
+    },
+    "proposed": {
+      "c": "be anxious to+동사: 간절히 ~하고 싶다. 걱정이 섞이는지는 문맥으로 구별한다."
+    },
+    "reviewed_status": "resolved",
+    "resolution_note": "후속 편집으로 제안 문자열과 다르지만 원래 의미/문법 지적은 해결됨."
+  },
+  {
+    "id": "R33-45-01",
+    "word": "loving",
+    "set": 34,
+    "exactProposal": true,
+    "current": {
+      "tr": "걔는 자기 고양이를 애정 어린 눈으로 봤어."
+    },
+    "proposed": {
+      "tr": "걔는 자기 고양이를 애정 어린 눈으로 봤어."
+    },
+    "reviewed_status": "resolved"
+  },
+  {
+    "id": "R33-45-02",
+    "word": "surgery",
+    "set": 35,
+    "exactProposal": true,
+    "current": {
+      "tr": "수술을 안 받았다면 우리 고양이는 죽었을 거야."
+    },
+    "proposed": {
+      "tr": "수술을 안 받았다면 우리 고양이는 죽었을 거야."
+    },
+    "reviewed_status": "resolved"
+  },
+  {
+    "id": "R33-45-03",
+    "word": "prime",
+    "set": 41,
+    "exactProposal": true,
+    "current": {
+      "c": "1보다 큰 자연수로, 양의 약수가 1과 자신뿐인 수."
+    },
+    "proposed": {
+      "c": "1보다 큰 자연수로, 양의 약수가 1과 자신뿐인 수."
+    },
+    "reviewed_status": "resolved"
+  },
+  {
+    "id": "R33-45-04",
+    "word": "puzzle",
+    "set": 33,
+    "exactProposal": true,
+    "current": {
+      "c": "캐럴 『이상한 나라의 앨리스』. 이 뜻에서는 riddle과 바꿔 쓸 수 있다."
+    },
+    "proposed": {
+      "c": "캐럴 『이상한 나라의 앨리스』. 이 뜻에서는 riddle과 바꿔 쓸 수 있다."
+    },
+    "reviewed_status": "resolved"
+  },
+  {
+    "id": "C00-05",
+    "word": "September",
+    "set": 0,
+    "exactProposal": true,
+    "current": {
+      "c": "영미권은 9월경, 한국은 3월경 새 학년을 시작해. 라틴어 septem=7(옛 로마력의 일곱째 달)."
+    },
+    "proposed": {
+      "c": "영미권은 9월경, 한국은 3월경 새 학년을 시작해. 라틴어 septem=7(옛 로마력의 일곱째 달)."
+    },
+    "reviewed_status": "resolved"
+  },
+  {
+    "id": "C16-07",
+    "word": "behalf",
+    "set": 32,
+    "exactProposal": true,
+    "current": {
+      "c": "on behalf of ~ 또는 on one's behalf 꼴로 쓴다."
+    },
+    "proposed": {
+      "c": "on behalf of ~ 또는 on one's behalf 꼴로 쓴다."
+    },
+    "reviewed_status": "resolved"
+  },
+  {
+    "id": "C00-06",
+    "word": "fourteenth",
+    "set": 1,
+    "exactProposal": true,
+    "current": {
+      "ex": "The Bastille fell on July {{BLANK}}, 1789.",
+      "tr": "1789년 7월 14일에 바스티유 감옥이 함락됐어."
+    },
+    "proposed": {
+      "ex": "The Bastille fell on July {{BLANK}}, 1789.",
+      "tr": "1789년 7월 14일에 바스티유 감옥이 함락됐어."
+    },
+    "reviewed_status": "resolved"
+  },
+  {
+    "id": "C00-08",
+    "word": "interesting",
+    "set": 7,
+    "exactProposal": false,
+    "current": {
+      "c": "이 뜻에서는 더 센 말 fascinating과 바꿔 쓸 수 있다. 흥미를 주면 -ing, 느끼면 -ed."
+    },
+    "proposed": {
+      "c": "fascinating으로도 바꿔 쓸 수 있고 더 강한 흥미를 뜻해. 흥미를 주면 -ing, 느끼면 -ed."
+    },
+    "reviewed_status": "resolved",
+    "resolution_note": "후속 편집으로 제안 문자열과 다르지만 원래 의미/문법 지적은 해결됨."
+  },
+  {
+    "id": "C00-07",
+    "word": "straight",
+    "set": 11,
+    "exactProposal": true,
+    "current": {
+      "tr": "오른쪽 두 번째로, 그리고 아침까지 곧장."
+    },
+    "proposed": {
+      "tr": "오른쪽 두 번째로, 그리고 아침까지 곧장."
+    },
+    "reviewed_status": "resolved"
+  },
+  {
+    "id": "C16-03",
+    "word": "insect",
+    "set": 18,
+    "exactProposal": true,
+    "current": {
+      "ex": "Adult {{BLANK}}s have six legs and three main body parts.",
+      "tr": "다 자란 곤충은 다리가 여섯 개고, 몸이 크게 세 부분으로 나뉘어."
+    },
+    "proposed": {
+      "ex": "Adult {{BLANK}}s have six legs and three main body parts.",
+      "tr": "다 자란 곤충은 다리가 여섯 개고, 몸이 크게 세 부분으로 나뉘어."
+    },
+    "reviewed_status": "resolved"
+  },
+  {
+    "id": "C16-04",
+    "word": "cure",
+    "set": 19,
+    "exactProposal": true,
+    "current": {
+      "tr": "감기를 완전히 낫게 하는 치료법은 아직 없어."
+    },
+    "proposed": {
+      "tr": "감기를 완전히 낫게 하는 치료법은 아직 없어."
+    },
+    "reviewed_status": "resolved"
+  },
+  {
+    "id": "C16-05",
+    "word": "disease",
+    "set": 23,
+    "exactProposal": true,
+    "current": {
+      "c": "질병 자체는 disease, 앓는 상태는 illness."
+    },
+    "proposed": {
+      "c": "질병 자체는 disease, 앓는 상태는 illness."
+    },
+    "reviewed_status": "resolved"
+  },
+  {
+    "id": "C16-06",
+    "word": "tablespoon",
+    "set": 26,
+    "exactProposal": true,
+    "current": {
+      "ex": "In the US, one {{BLANK}} is equal to three teaspoons.",
+      "tr": "미국에서 1테이블스푼은 3티스푼이야."
+    },
+    "proposed": {
+      "ex": "In the US, one {{BLANK}} is equal to three teaspoons.",
+      "tr": "미국에서 1테이블스푼은 3티스푼이야."
+    },
+    "reviewed_status": "resolved"
+  },
+  {
+    "id": "R33-45-07",
+    "word": "fatal",
+    "set": 37,
+    "exactProposal": true,
+    "current": {
+      "c": "fate(운명)와 같은 어원. a fatal accident는 사망 사고."
+    },
+    "proposed": {
+      "c": "fate(운명)와 같은 어원. a fatal accident는 사망 사고."
+    },
+    "reviewed_status": "resolved"
+  },
+  {
+    "id": "R33-45-05",
+    "word": "sharply",
+    "set": 39,
+    "exactProposal": false,
+    "current": {
+      "c": "이 뜻에서는 rapidly·quickly와 바꿔 쓸 수 있다. sharply는 변화 폭, 둘은 속도에 초점."
+    },
+    "proposed": {
+      "c": "바꿔 쓸 수 있지만 sharply는 급격한 변화, rapidly·quickly는 속도에 초점."
+    },
+    "reviewed_status": "resolved",
+    "resolution_note": "후속 편집으로 제안 문자열과 다르지만 원래 의미/문법 지적은 해결됨."
+  },
+  {
+    "id": "R33-45-06",
+    "word": "scarcity",
+    "set": 42,
+    "exactProposal": true,
+    "current": {
+      "c": "형용사는 scarce. shortage는 필요한 양보다 모자란 상태."
+    },
+    "proposed": {
+      "c": "형용사는 scarce. shortage는 필요한 양보다 모자란 상태."
+    },
+    "reviewed_status": "resolved"
+  },
+  {
+    "id": "C00-09",
+    "word": "night",
+    "set": 1,
+    "exactProposal": true,
+    "current": {
+      "c": "밤 앞엔 at: at night. 아침엔 in the morning."
+    },
+    "proposed": {
+      "c": "밤 앞엔 at: at night. 아침엔 in the morning."
+    },
+    "reviewed_status": "resolved"
+  }
+]
