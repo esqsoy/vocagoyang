@@ -2119,7 +2119,7 @@ const LESSONCLEAR={
  45:"Holy shit, 기본 어휘 구간 완주라고양…! 이제 잘못 알기 쉬운 뜻을 다시 보자고양.",
  46:"익숙한 단어의 놓치기 쉬운 뜻까지 다시 확인했다고양! 다음은 접사라고양.",
  47:"접사가 뜻과 품사를 바꾸는 방식을 익혔다고양! 이제 어근으로 단어를 연결하자고양.",
- 48:"어근과 단어 가족을 연결했다고양! 이제 전치사가 잇는 관계를 살펴보자고양.",
+ 48:"어근과 word family를 연결했다고양! 이제 전치사가 잇는 관계를 살펴보자고양.",
  49:"전치사가 잇는 관계를 익혔다고양! 이제 동사가 다른 말과 만나 만드는 뜻을 익혀 보자고양.",
  50:"동사 결합의 뜻까지 연결했다고양! 지문에서 만나면 문맥 속 뜻을 다시 떠올려 보라고양.",
 };
@@ -2153,10 +2153,15 @@ function isSynonymMiss(typed,w){
   return false;
 }
 /* 철자 변형(영/미 철자 등) 판별: 같은 단어, 다른 철자 → 정답 처리하되 안내 */
-function variantKey(s){return normalize(s).replace(/\s/g,"").replace(/z/g,"s");}
+/* 철자 변형: 띄어쓰기 차이와 영국식 -ise. 26.10.15 아스트라 리뷰 T01: 전에는 단어 전체의 z를 s로 바꿔
+   bus/buz, zoo/soo 같은 오자도 맞다고 했다. 이제 표제어가 -ize·-yze 꼴(그 앞 3자 이상)일 때 그 z 한 자리만 s로 본다.
+   realize/realise, organization/organisation, analyze/analyse는 맞고, size/sise·citizen/citisen·exercise/exercize는 아니다. */
+function variantKey(s){return normalize(s).replace(/\s/g,"");}
+function zKey(s){return s.replace(/^(.{3,}[iy])z(e|es|ed|er|ers|ing|ation|ations|ational|able)$/,"$1s$2");}
 function isSpellingVariant(typed,term){
   const a=variantKey(typed),b=variantKey(term);
-  return !!a && a===b && normalize(typed)!==normalize(term);
+  if(!a||normalize(typed)===normalize(term))return false;
+  return a===b||(zKey(b)!==b&&a===zKey(b));
 }
 /* 같은 말의 지역·격식 변형(순수 동의어): 정답 처리하되 이 책의 표제어를 안내 */
 const ALT={"until/1":["till"],"until/2":["till"],"fall/2":["autumn"],
@@ -2551,7 +2556,21 @@ function setCleared(L){return visEx(L).every(e=>getRec(L.id,e.title)?.completed)
 function setPassed(L){return setCleared(L)&&(typeof stHas!=="function"||stHas(L));}
 // 직접 클리어한 기록만 본다. 옮겨 간 카드의 옛 기록으로 완료가 이어진 연습(priorCoverage·parentRecord)은 그 세트를 연 것으로 치지 않는다
 // (5세트를 끝내면 14·17·21·25세트 끝 문법 연습이 완료로 이어지지만, 그 세트들이 그래서 열리면 안 된다).
-function setStarted(L){return visEx(L).some(e=>{const [k,t]=recordKey(L.id,e.title);return state.progress?.[k]?.[t]?.completed;});}
+// 26.10.15 아스트라 리뷰 T03: 이 세트 이름(26세트 등)이나 이 세트만 쓰는 기록 묶음 아래에 남은 옛 완료 기록도 시작으로 본다.
+// 옛 판에서 그 세트를 직접 하던 학생이, 카드가 더해져 제목이 바뀐 뒤에도 그 세트를 잃지 않게. 다른 세트와 함께 쓰는 묶음(0세트 등)은
+// 이 세트 이름일 때만 본다. 그래서 5세트 기록은 14·17·21·25세트를 열지 않는다(위 주석의 역방향 문제).
+let setIdsCache=null;
+function setOwnIds(L){
+  if(!setIdsCache||setIdsCache.lessons!==state.lessons){const use=new Map();
+    state.lessons.forEach(x=>{if(x.kind==='saved')return;x.exercises.forEach(e=>{const k=recordKey(x.id,e.title)[0];if(!use.has(k))use.set(k,new Set());use.get(k).add(x);});});
+    setIdsCache={lessons:state.lessons,use,own:new Map()};}
+  if(!setIdsCache.own.has(L)){const ids=new Set([L.id]);setIdsCache.use.forEach((sets,k)=>{if(sets.size===1&&sets.has(L))ids.add(k);});setIdsCache.own.set(L,[...ids]);}
+  return setIdsCache.own.get(L);
+}
+function setStarted(L){
+  if(visEx(L).some(e=>{const [k,t]=recordKey(L.id,e.title);return state.progress?.[k]?.[t]?.completed;}))return true;
+  return setOwnIds(L).some(id=>Object.values(state.progress?.[id]||{}).some(r=>r?.completed));
+}
 function openSets(){
   const open=new Set();let ok=true;
   state.lessons.forEach(L=>{if(L.kind==='saved')return;
@@ -4552,8 +4571,11 @@ $("#sumList").addEventListener("click",()=>{state.session=null;renderExList();sh
 $("#retryEx").addEventListener("click",()=>openExercise(state.ei));
 $("#retryWrong").addEventListener("click",()=>{if(state.lastWrong&&state.lastWrong.size)startExercise(state.ei,state.lastWrong);});
 /* 결과 화면 틀린 단어: 탭하면 발음 + 그 줄이 사라짐. 마지막 줄까지 사라지면 '다음 연습'과 같은 동작(없으면 연습 목록) */
-$("#sumWrong").addEventListener("click",e=>{const b=e.target.closest(".wrow");if(!b||b.classList.contains("gone"))return;speak(b.dataset.t);fxHeart(b);b.classList.add("gone");
-  setTimeout(()=>{b.remove();if(!$("#sumWrong").querySelector(".wrow")){const n=$("#nextEx");setTimeout(()=>{if(!n.disabled)n.click();else $("#sumList").click();},350);}},260);});
+// 마지막 줄을 누르면 다음 연습으로 넘어간다. 그사이 학생이 직접 다음·목록·다시 하기로 떠났으면 넘기지 않는다
+// (26.10.15 아스트라 리뷰 T04: 마지막 줄을 누르고 바로 '다음'을 누르면 Exercise 2로 갔다가 0.85초 뒤 Exercise 3으로 또 넘어갔다. 마더텅·EBS와 같은 확인).
+$("#sumWrong").addEventListener("click",e=>{const b=e.target.closest(".wrow"),s=state.session,shown=sumShownAt;if(!b||b.classList.contains("gone"))return;speak(b.dataset.t);fxHeart(b);b.classList.add("gone");
+  const here=()=>state.session===s&&sumShownAt===shown&&screens.sum.classList.contains("active");
+  setTimeout(()=>{if(!here())return;b.remove();if(!$("#sumWrong").querySelector(".wrow")){const n=$("#nextEx");setTimeout(()=>{if(!here())return;if(!n.disabled)n.click();else $("#sumList").click();},350);}},260);});
 $("#hoeCtx").addEventListener("click",replayAnswerFromEvent);
 $("#hoeCtx").addEventListener("keydown",replayAnswerFromEvent);
 $("#muteBtn2").addEventListener("click",()=>setMuted(!state.muted));
@@ -5411,7 +5433,7 @@ function paceNote(f,t){
 /* 무엇을 말할지: 처음(10판째) > 오랜만 > 하루가 짧음(하루 한 번) > 앞 목표 돌파 > 느려짐 > 빨라짐 > 다섯 판마다 예측. 아니면 원래 대사. */
 function paceKind(recs,f,t,meta,now){
   const full=recs.filter(r=>r.k!=='w'),last=recs[recs.length-1],before=recs[recs.length-2];
-  const plays=full.length,since=plays-(meta.n||0),gap=before?Math.floor((paceDayStart(last.at)-paceDayStart(before.at))/864e5):0;
+  const plays=Number.isFinite(meta.total)?meta.total:full.length,since=plays-(meta.n||0),gap=before?Math.floor((paceDayStart(last.at)-paceDayStart(before.at))/864e5):0;
   if(!meta.intro)return 'intro';
   if(gap>=3)return 'absent';
   if(f.mode==='low'&&meta.lowDay!==paceDay(now))return 'low';
@@ -5430,13 +5452,18 @@ function paceLine(kind,f,t,recs,now){
 }
 function paceShow(info,ms){
   const now=Date.now(),recs=paceRead(),words=info.partial?info.words:info.e.words;
-  if(ms>=5000){recs.push({at:now,ms:Math.round(ms),u:Math.round(paceUnits(words)*10)/10,k:info.partial?'w':info.was?'a':'n'});paceSave(paceKey,recs.slice(-paceKeep));}
+  if(ms>=5000){
+    const fullBefore=recs.filter(r=>r.k!=='w').length;
+    recs.push({at:now,ms:Math.round(ms),u:Math.round(paceUnits(words)*10)/10,k:info.partial?'w':info.was?'a':'n'});paceSave(paceKey,recs.slice(-paceKeep));
+    // 판 수는 보관(최근 600판)과 따로 센다. 배열 길이로 세면 600판에서 멈춰 다섯 판마다 대사가 끊겼다(26.10.15 아스트라 리뷰 T05).
+    if(!info.partial){const m=paceMeta();m.total=(Number.isFinite(m.total)?m.total:fullBefore)+1;paceSave(paceMetaKey,m);}
+  }
   const note=paceNoteEl();note.hidden=true;
   if(info.partial)return;
   const t=paceTargets(),f=t&&paceForecast(recs,t,now);if(!f)return;
   note.textContent=paceNote(f,t);note.hidden=false;
   if($("#sumTitle").textContent!=="연습 클리어 ✦")return;   // 세트 정복·엔딩 대사는 그대로 둔다
-  const meta=paceMeta(),kind=paceKind(recs,f,t,meta,now),plays=recs.filter(r=>r.k!=='w').length;
+  const meta=paceMeta(),kind=paceKind(recs,f,t,meta,now),plays=Number.isFinite(meta.total)?meta.total:recs.filter(r=>r.k!=='w').length;
   if(kind){
     $("#sumBubble").innerHTML=`<span><span class="nm">고양고양이</span> ${esc(paceLine(kind,f,t,recs,now))}</span>`;
     meta.n=plays;meta.intro=true;
@@ -5627,7 +5654,7 @@ var FE_LINES={
   full:[
     ['win','이게 네가 쌓은 산이라고양. 한 칸 한 칸이 다 네가 익힌 단어라고양.'],
     ['win','반짝이는 건 틀렸다가 끝내 잡은 단어라고양. 제일 빛나는 게 걔들이라고양.'],
-    ['normal','처음 만났을 때 계약했지? 단어를 전부 익히면 이 도시에서 내보내 주겠다고.'],
+    ['normal','처음 만났을 때 계약했지? 단어를 전부 익히면 이 도시에서 내보내 주겠다고양.'],
     ['win','약속은 약속이라고양. 계약 끝이라고양. 이제 어디든 가도 된다고양 ✦'],
     ['wicked','…근데 있잖냐고양. 네가 오른 BIG MOUNTAIN, 사실은 일산이었다고양.','BIG MOUNTAIN'],
     ['normal',"일산의 옛 이름은 한뫼, '큰 산'이라고양. 한자로 옮겨 적으니 一山이 된 거라고양.",'한뫼 → 一山 → 일산'],

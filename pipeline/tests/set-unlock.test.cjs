@@ -36,6 +36,15 @@ at(35,2);assert.equal(ctx.resumeTarget().L.lesson,35,'The raw resume still finds
 let t=ctx.openResumeTarget();assert.equal(t.L.lesson,11);assert.equal(t.ei,0);
 at(30,0);t=ctx.openResumeTarget();assert.equal(t.L.lesson,30,'A started set keeps its resume');assert.equal(t.ei,1);
 
+// 2-2. 아스트라 리뷰 T03(26.10.15): 이 세트 이름 아래의 옛 제목 완료 기록(카드가 더해져 지금 제목과 다르다)도 시작으로 본다.
+//      다른 세트의 옛 기록(5세트에서 옮겨 간 문법 카드)은 뒤 세트를 열지 않는다.
+{const keep=JSON.stringify(state.progress);
+ state.progress={'26세트':{'Exercise 6 · 2534~2543 :: editorial-20260925 1-12':{completed:true}}};
+ assert(opened().includes(26),'Old same-set record opens set 26');
+ state.progress={'5세트':{'Exercise 1-1 · 기본 기능어 · a/an':{completed:true}},'placement-20261003-5-1':{'Exercise 1 · 401~410 :: topics-v4 1-9':{completed:true}}};
+ for(const n of [14,17,21,25])assert(!opened().includes(n),`Set 5 records do not open set ${n}`);
+ state.progress=JSON.parse(keep);}
+
 // 4. #unlock은 전부 연다.
 state.unlockAll=true;assert.equal(opened().length,state.lessons.filter(x=>x.kind!=='saved').length);
 at(35,2);assert.equal(ctx.openResumeTarget().L.lesson,35);state.unlockAll=false;
@@ -43,4 +52,4 @@ at(35,2);assert.equal(ctx.openResumeTarget().L.lesson,35);state.unlockAll=false;
 // B1 범위도 같은 규칙: 0~25세트를 다 클리어하기 전에는 25세트까지도 순서대로만 열린다.
 const b1=runtime(html,saved,DATA(),{'goyang-fable-level-v1':'B1'});b1.state.progress={};
 assert.deepEqual([...b1.ctx.openSets()].map(x=>x.lesson),[0]);
-console.log(`set-unlock: 처음 0세트만 · 한 세트 다 클리어하면 다음 세트 · 클리어가 있는 세트는 열림 · 잠긴 세트로 이어하지 않음 · #unlock · PASS`);
+console.log(`set-unlock: 처음 0세트만 · 한 세트 다 클리어하면 다음 세트 · 클리어가 있는 세트는 열림(옛 제목 기록 포함, 다른 세트 기록 제외) · 잠긴 세트로 이어하지 않음 · #unlock · PASS`);

@@ -1,0 +1,30 @@
+# 세트 완주 도장 · FABLE 엔딩 · 2026-10-14
+
+영신 요청: "set별 완주시 뭔가 있어야 하지 않겠어? 그리고 fable 엔딩". 원리는 [PRINCIPLES 15절](../../PRINCIPLES.md#15-세트-완주-도장과-fable-엔딩), 화면은 [UI_STANDARD](../../UI_STANDARD.md#세트-완주-도장과-fable-엔딩--2026-10-14).
+
+## 파일
+
+- `runtime.js`, `style.css`: FABLE HTML의 `/* SET_STAMP_START */ … /* SET_STAMP_END */`와 `<style id="set-stamp-style">`에 들어간다.
+- `build.cjs`: 넣기. `--check`는 HTML이 원본과 같은지만 본다. 진행 속도(`pipeline/pace`) 블록 뒤, 마지막 `renderHome();` 앞에 넣는다(감싸기 순서: 도장 → 속도 → 돌파 축하 → 본래 finishExercise).
+- 테스트: `pipeline/tests/set-stamp.test.cjs`.
+
+## 게임 코드(FABLE HTML, 손으로 쓴 부분)와 나눈 일
+
+- 게임 코드: `setPassed`(클리어 + 도장, 모듈이 없으면 클리어만)로 세트를 연다. 잠금 칸 문구, 세트 칸의 `data-lid`, 결과 화면 '다음' 버튼 계산(`setSumNext`), 세트 대사(`LESSONCLEAR`), 엔딩은 처음 다 끝낸 판에서만 예약, `showEnding()`은 `feShow()`를 부른다.
+- 모듈: 도장 기록, 복습 목록, 도장 화면, 홈 장식, 엔딩 장면, 감싸기(finishExercise·showEnding·renderHome·show), 키보드.
+
+## 저장
+
+- `goyang-fable-stamps-v1` = `{세트 id: 도장 찍은 시각(ms)}`. 0은 업데이트 전에 이미 끝낸 세트(날짜 없음).
+- 처음 열 때 키가 없으면 그때 다 끝나 있는 세트를 0으로 적는다. 키가 있으면 건드리지 않는다.
+- 복습 목록은 `goyang-missed-words-v1`(돌파 축하의 틀렸던 단어 기록)을 읽는다. 따로 적지 않는다.
+
+## 순서
+
+포효(2.2초) → 돌파 축하 → 복습(학생이 누름) → 도장 → 엔딩. 도장은 포효·돌파 축하가 닫힐 때까지 기다린다. 판이 새로 시작되면 도장은 홈의 '도장 받기'로 넘긴다. 엔딩 예약은 도장이 끝날 때까지 미룬다.
+
+## 엔딩 산
+
+- `feWorld`: 세트마다 고유 표제어를 7px 글자로 재고, 세트가 글자량만큼 산 넓이를 가져가게 층 경계를 정한다(층마다 글자 크기가 같게). 산등성이는 좌우 폭을 따로 잰다.
+- `feBuild`: 큰 산을 한 번 그려 두고(최대 4096px), 층을 0.085초 간격으로 드러내며 카메라가 따라 오른다. 끝나면 1.5초 줌아웃, 깃발, 금빛 단어 이름표.
+- B1은 25세트 층까지만 그리고 위를 점선으로 남긴다.

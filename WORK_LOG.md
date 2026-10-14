@@ -1581,3 +1581,28 @@
   - 예문이 길어져 읽기량이 12.2초로 12초를 넘었다(deepcheck A8). 그래서 해설에서 해석과 같은 말인 "ten out of ten은 10점 만점에 10점"을 뺐다. 해설은 "서수는 tenth. ten o'clock은 10시."다.
 - 검증(새로 실행): ordercheck 앞당김 둘 이상 0(every·student는 5세트 말), deepcheck A5 0·A8 1(전부터 있던 kinda), linecheck 360px 초과 0.
 - 배포: 영신 "완벽해...완벽하다" 74a6ddc fast-forward, Pages 38558861671 성공, 네 HTML blob SHA 일치. 기록은 [DEPLOYMENT.md](DEPLOYMENT.md).
+
+## 2026-10-14~15 · 세트 완주 도장 · FABLE 엔딩 · 아스트라 리뷰 동작 결함(로컬·브랜치, 배포 전)
+
+- 요청·결정(영신):
+  - "set별 완주시 뭔가 있어야 하지 않겠어? 그리고 fable 엔딩" → Claude 안(도장 쾅 + 문 열림, FABLE 전용 엔딩, B1 1부 완결)에 "다 마음에 들어".
+  - 고양누리길 스탬프북·완주 배지 사진을 보내 도장 디자인 참고로 줌. "도장 진짜 마음에 든다".
+  - 엔딩 마지막은 고양이 정체: "사실 내 정체는 ㅇㅅㅊ..아니다.. 이런식으로?" B1은 "1부완결로가는게 맞음".
+  - "세트 클리어시에는 그 세트에서 틀렸던 단어들을 싹다 … 모아서 전부 누르고 나면 세트클리어 효과가 뜨도록", "세트당 100단어 정도니까 다하는데 그렇게 귀찮지는 않을거같거든".
+  - 산: "산을 단어의 산으로 할까?", "고양이가 산꼭대기에 … 산이 고양이 몸처럼 보여서 좀 기괴하게 보여" → 단어 글자 산, 꼭대기 깃발. "벌써 멋진데?"
+  - 잠금: 도장을 받아야 다음 세트가 열리게 Claude 추천대로 만듦. 영신 확인 대기.
+  - 아스트라(Codex) 전수 리뷰(`reviews/codex-20261015/`): 동작 결함 T01~T05를 먼저 고침. 발음은 영신 지정으로 Codex 담당이라 손대지 않음.
+- 바꾼 것:
+  - `pipeline/set-stamp/`(runtime·style·build·README) 새로 만듦. FABLE HTML에 넣음.
+  - FABLE 게임 코드: `setPassed`, 잠금 칸 문구, 세트 칸 `data-lid`, `setSumNext`, 세트 대사 51개(LESSONCLEAR), 엔딩은 처음 다 끝낸 판에서만, B1 1부 완결 제목, 옛 엔딩(대학 적기) 마크업·CSS 제거(UNIKEY 상수는 보존 검사 때문에 남김), T03 `setStarted`, T04 결과 화면 자동 다음 확인.
+  - 세 교재: T01 철자 판정(`variantKey`·`zKey`·`isSpellingVariant`).
+  - `pipeline/pace/runtime.js`: T05 누적 판 수(`meta.total`), 세 교재에 다시 넣음.
+  - 테스트: `set-stamp.test.cjs`·`spelling-variant.test.cjs` 새로, `pace`·`set-unlock`·`reading-core`·`saved-cards` 보강, `mother-tongue-layout.fixture.json` 철자 함수 해시와 overbroad s/z 42건을 '틀림'으로 갱신(의도한 변경).
+  - 문서: PRINCIPLES 6·11·13·14·9표·15(새), UI_STANDARD(잠금·범위·돌파 순서·세트 도장 절), HANDOFF.
+- 검증(새로 실행):
+  - 검사 45개(테스트 38 + 빌드 확인 7: ipa-effects·saved-cards·mother-tongue-excerpts·index-stats·milestones·pace·set-stamp) 통과.
+  - Chromium 390px: 0세트 복습 → Enter로 다 누름 → 도장 → 1세트 열림 → 홈 작은 도장. 마우스로 줄·'도장까지 n개' 누르기, 중간에 나가 홈 '도장 받기' 시트로 받기. 전체 엔딩(51층 쌓기·줌아웃·깃발·대사 12장면·배지)과 B1 1부 완결(25층·점선·C1로 계속). 콘솔 오류 0.
+  - 아스트라 재현: 브라우저 재현(엔딩 판정만 새 구조에 맞게 고친 사본)에서 B1은 1부 완결·전체 엔딩 없음, buz 오답, 마지막 줄 뒤 Exercise 2 유지, 26세트 옛 기록으로 열림. 잠금 감사 네 옛 판 모두 잠김 0건(전 12~14건).
+  - 세트 대사는 결과 화면 말풍선에서 390px 3줄인 것이 28개다(문제 화면이 아니라 결과 화면).
+- 남은 일: 카드 내용 제안 P2 17장·P3 18장 검토, M01(인덱스 95%) 영신 판단, 잠금 방식 영신 확인, 배포.
+

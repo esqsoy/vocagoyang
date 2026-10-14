@@ -94,7 +94,7 @@ function paceNote(f,t){
 /* 무엇을 말할지: 처음(10판째) > 오랜만 > 하루가 짧음(하루 한 번) > 앞 목표 돌파 > 느려짐 > 빨라짐 > 다섯 판마다 예측. 아니면 원래 대사. */
 function paceKind(recs,f,t,meta,now){
   const full=recs.filter(r=>r.k!=='w'),last=recs[recs.length-1],before=recs[recs.length-2];
-  const plays=full.length,since=plays-(meta.n||0),gap=before?Math.floor((paceDayStart(last.at)-paceDayStart(before.at))/864e5):0;
+  const plays=Number.isFinite(meta.total)?meta.total:full.length,since=plays-(meta.n||0),gap=before?Math.floor((paceDayStart(last.at)-paceDayStart(before.at))/864e5):0;
   if(!meta.intro)return 'intro';
   if(gap>=3)return 'absent';
   if(f.mode==='low'&&meta.lowDay!==paceDay(now))return 'low';
@@ -113,13 +113,18 @@ function paceLine(kind,f,t,recs,now){
 }
 function paceShow(info,ms){
   const now=Date.now(),recs=paceRead(),words=info.partial?info.words:info.e.words;
-  if(ms>=5000){recs.push({at:now,ms:Math.round(ms),u:Math.round(paceUnits(words)*10)/10,k:info.partial?'w':info.was?'a':'n'});paceSave(paceKey,recs.slice(-paceKeep));}
+  if(ms>=5000){
+    const fullBefore=recs.filter(r=>r.k!=='w').length;
+    recs.push({at:now,ms:Math.round(ms),u:Math.round(paceUnits(words)*10)/10,k:info.partial?'w':info.was?'a':'n'});paceSave(paceKey,recs.slice(-paceKeep));
+    // 판 수는 보관(최근 600판)과 따로 센다. 배열 길이로 세면 600판에서 멈춰 다섯 판마다 대사가 끊겼다(26.10.15 아스트라 리뷰 T05).
+    if(!info.partial){const m=paceMeta();m.total=(Number.isFinite(m.total)?m.total:fullBefore)+1;paceSave(paceMetaKey,m);}
+  }
   const note=paceNoteEl();note.hidden=true;
   if(info.partial)return;
   const t=paceTargets(),f=t&&paceForecast(recs,t,now);if(!f)return;
   note.textContent=paceNote(f,t);note.hidden=false;
   if($("#sumTitle").textContent!=="연습 클리어 ✦")return;   // 세트 정복·엔딩 대사는 그대로 둔다
-  const meta=paceMeta(),kind=paceKind(recs,f,t,meta,now),plays=recs.filter(r=>r.k!=='w').length;
+  const meta=paceMeta(),kind=paceKind(recs,f,t,meta,now),plays=Number.isFinite(meta.total)?meta.total:recs.filter(r=>r.k!=='w').length;
   if(kind){
     $("#sumBubble").innerHTML=`<span><span class="nm">고양고양이</span> ${esc(paceLine(kind,f,t,recs,now))}</span>`;
     meta.n=plays;meta.intro=true;
