@@ -1,0 +1,339 @@
+{
+  "date": "2026-10-15",
+  "baseline": "74a6ddc",
+  "reviewer": "fable_review_0_17 independent counterreview",
+  "input_finding": "C35-50-05",
+  "coverage": "10쌍 모두 현재 문장에 직접 대입하고 품사·관사·글자 수·고정 어미·한국어 뜻·해설 유무 확인. 개별 대체어의 사전 근거도 읽음.",
+  "summary": {
+    "checked": 10,
+    "false_positives": 0,
+    "recommendation": "모두 현재 문맥에서 자연스러운 같은 칸 수의 경쟁 답이다. 다만 학습앱 정책상 안내 누락이라는 지적이지 열 문장 자체가 틀린 영어라는 뜻은 아니다. 전역 완전 동의어를 주장하지 않는다.",
+    "implementation_cautions": [
+      "의미 차이가 문맥상 배제 근거가 될 때만 예문 교체로 구별한다. 미세한 뉘앙스 차이를 억지 유일 정답 근거로 만들지 않는다.",
+      "bump/spark는 목적어·고정 결합을 바꾸는 선택지가 있지만 hump/start 등 다른 경쟁어가 남을 수 있으므로 유일성 보장이라 쓰지 않는다.",
+      "elaborate의 형용사/동사 발음 차이, insulting/insulted, seller의 sell+-er/buyer처럼 유익한 기존 정보는 가능한 한 보존한다.",
+      "초안 10건은 기존 또는 교체 ex/tr 및 기존 meow를 합친 저장소 산식으로 모두 12초 이내다. elaborate 11.96초, sharply 11.82초로 여유가 적다. 최종 합쳐 쓴 문구와 화면은 통합 단계에서 다시 확인한다."
+    ]
+  },
+  "cards": [
+    {
+      "stable_key": "37:seller:1",
+      "set": 37,
+      "word": "seller",
+      "si": 1,
+      "alternative": "vendor",
+      "letters": 6,
+      "current": {
+        "ko": "① 파는 사람, 판매자",
+        "ex": "The {{BLANK}} sent my shoes very fast.",
+        "tr": "판매자가 내 신발을 아주 빨리 보내 줬어.",
+        "c": "sell+-er. 사는 사람은 buyer다."
+      },
+      "alternative_inserted": "The vendor sent my shoes very fast.",
+      "verdict": "confirmed_contextual_alternative_not_global_synonym",
+      "sources": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/vendor",
+          "supports": "기본 뜻을 seller로 직접 정의한다. 법률 뜻 역시 물건을 파는 사람이며, 소프트웨어 판매자 예문도 있어 노점상으로 한정되지 않는다."
+        }
+      ],
+      "assessment": "The vendor sent my shoes very fast.는 온라인 구매 상황에 자연스럽다. seller/vendor 각 6자이고 고정 어미도 없다. vendor의 상업적·격식적 느낌은 이 예문에서 배제 근거가 아니다.",
+      "preferred_action": "keep_example_add_scope_note",
+      "c": "sell+-er. 판매자라는 뜻으로 vendor와 바꿔 쓸 수 있다. 사는 사람은 buyer.",
+      "caution": "seller는 언제나 개인이고 vendor는 반드시 사업자라는 배타적 규칙을 만들지 말 것. 원 해설의 sell+-er와 buyer도 짧게 보존 가능.",
+      "c_characters": 52,
+      "reading_budget_estimate_seconds": 10
+    },
+    {
+      "stable_key": "37:magnificent:1",
+      "set": 37,
+      "word": "magnificent",
+      "si": 1,
+      "alternative": "spectacular",
+      "letters": 11,
+      "current": {
+        "ko": "① 웅장한, 훌륭한",
+        "ex": "The old palace looked {{BLANK}} at night.",
+        "tr": "그 오래된 궁전은 밤에 장엄해 보였어.",
+        "c": "magni-(큰)에서. great보다 훨씬 강한 칭찬의 말이다."
+      },
+      "alternative_inserted": "The old palace looked spectacular at night.",
+      "verdict": "confirmed_contextual_alternative_not_global_synonym",
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/spectacular",
+          "supports": "보기에 장관이라는 뜻과 특히 훌륭하다는 뜻을 모두 제시한다."
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/thesaurus/spectacular",
+          "supports": "시각적으로 화려한 행사 맥락의 유의어군에 magnificent가 직접 있다."
+        }
+      ],
+      "assessment": "The old palace looked spectacular at night.는 매우 자연스럽다. 둘 다 11자이며 웅장하고 장엄한 야경이라는 한국어에도 부합한다.",
+      "preferred_action": "keep_example_add_scope_note",
+      "c": "웅장하고 장관이라는 뜻은 spectacular로도 표현한다. magni-는 '큰'.",
+      "caution": "spectacular는 오직 시각적이라는 식의 설명은 금지. 성공·구출 등 비외양 맥락에도 널리 쓴다. 현행 궁전 외관에서 둘을 억지로 구별하는 것은 부당하다.",
+      "c_characters": 46,
+      "reading_budget_estimate_seconds": 9.12
+    },
+    {
+      "stable_key": "37:elaborate:1",
+      "set": 37,
+      "word": "elaborate",
+      "si": 1,
+      "alternative": "intricate",
+      "letters": 9,
+      "current": {
+        "ko": "① 정교한, 공들인",
+        "ex": "The wedding cake had an {{BLANK}} design with sugar flowers.",
+        "tr": "그 웨딩 케이크는 설탕 꽃을 올린 정교한 디자인이었어.",
+        "c": "형용사는 끝을 [럿], 동사는 [레잇]으로 읽는다."
+      },
+      "alternative_inserted": "The wedding cake had an intricate design with sugar flowers.",
+      "verdict": "confirmed_contextual_alternative_not_global_synonym",
+      "sources": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/intricate",
+          "supports": "복잡하게 얽힌 부분을 가진다는 뜻이며 학습자 정의에 intricate design을 직접 제시한다."
+        }
+      ],
+      "assessment": "The wedding cake had an intricate design with sugar flowers.는 자연스럽다. an도 양쪽 모음 소리에 맞고 elaborate/intricate 각각 9자다. 공들인 구성과 복잡한 짜임의 초점 차이는 현재 설탕 꽃 디자인에서 상호 배제 사유가 아니다.",
+      "preferred_action": "keep_example_add_scope_note_preserve_pronunciation",
+      "c": "intricate도 정교한 짜임에 쓰며 복잡함을 강조한다. 끝 발음은 형용사 [럿], 동사 [레잇].",
+      "caution": "기존 형용사/동사 발음 차이는 유용하므로 삭제하지 말 것. 루트가 최종 결합을 보존한다는 지시 확인.",
+      "c_characters": 56,
+      "reading_budget_estimate_seconds": 11.96
+    },
+    {
+      "stable_key": "38:bump:2",
+      "set": 38,
+      "word": "bump",
+      "si": 2,
+      "alternative": "lump",
+      "letters": 4,
+      "current": {
+        "ko": "② 혹, 툭 튀어나온 곳",
+        "ex": "I got a {{BLANK}} on my head from the fall.",
+        "tr": "넘어져서 머리에 혹이 났어.",
+        "c": "부딪쳐 생긴 혹이나 길의 요철. speed bump는 과속 방지턱."
+      },
+      "alternative_inserted": "I got a lump on my head from the fall.",
+      "verdict": "confirmed_contextual_alternative_not_global_synonym",
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/lump",
+          "supports": "몸에 난 종창, 질병이나 부상 때문에 생긴 혹 뜻과 lump on his head 예문을 확인했다."
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/speed%20bump",
+          "supports": "차량 속도를 줄이기 위해 도로를 가로질러 만든 낮은 돌출부라는 고정 합성어."
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/speed-bump",
+          "supports": "speed hump를 영국식 대체어로 연결한다. 교체안도 4자 경쟁 답이 남는 이유."
+        },
+        {
+          "url": "https://highways.dot.gov/safety/speed-management/speed-management-countermeasures-more-just-speed-humps",
+          "supports": "기술적으로는 gradual hump와 abrupt bump를 구분하지만 이는 현재 일반 예문에 제시되지 않은 정보다."
+        }
+      ],
+      "assessment": "I got a lump on my head from the fall.은 정상 영어이며 bump/lump 모두 4자다. bump가 부딪침으로 난 혹이라고 해도 lump가 부상을 원인으로 하는 혹을 배제하지 않으므로 기존 c만으로는 구별되지 않는다.",
+      "preferred_action": "keep_example_add_scope_note_after_rejecting_ambiguous_rewrite",
+      "caution": "speed bump 교체안도 같은 4자인 speed hump가 남는다. Cambridge는 영국식 대체어로 직접 제시한다. FHWA의 기술적 구조 차이까지 동원해 짧은 단어 예문을 과잉 엄밀하게 만드는 것은 부적절하므로 그 교체안을 최종 권고에서 제외하고 원래의 혹 용법을 유지한다.",
+      "rejected_rewrite": {
+        "ex": "The car slowed down at the speed {{BLANK}}.",
+        "tr": "차가 과속 방지턱에서 속도를 줄였어.",
+        "c": "speed bump는 과속 방지턱. 머리에 난 혹은 bump와 lump 모두 쓴다."
+      },
+      "c": "머리에 난 혹은 lump로도 쓴다. speed bump는 과속 방지턱.",
+      "c_characters": 39,
+      "reading_budget_estimate_seconds": 8.44
+    },
+    {
+      "stable_key": "38:furious:1",
+      "set": 38,
+      "word": "furious",
+      "si": 1,
+      "alternative": "enraged",
+      "letters": 7,
+      "current": {
+        "ko": "① 몹시 화난, 격노한",
+        "ex": "Mom was {{BLANK}} when she saw my grades.",
+        "tr": "엄마는 내 성적을 보고 격노하셨어.",
+        "c": "angry보다 훨씬 센 말. be furious with 사람 / at 일."
+      },
+      "alternative_inserted": "Mom was enraged when she saw my grades.",
+      "verdict": "confirmed_contextual_alternative_not_global_synonym",
+      "sources": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/enraged",
+          "supports": "enrage는 격노하게 만들다이고 People were enraged by the decision.이라는 수동·상태 용례가 있다."
+        }
+      ],
+      "assessment": "Mom was enraged when she saw my grades.는 자연스럽다. enraged/furious 모두 7자이고 be 뒤의 상태 형용사·분사도 정상이다. 수동태라고 해서 해당 빈칸에서 탈락시킬 수 없다.",
+      "preferred_action": "keep_example_add_scope_note",
+      "c": "몹시 화났다는 뜻은 enraged로도 표현한다. furious with 사람 / at 일.",
+      "caution": "furious의 빠르고 격렬한 뜻으로 예문을 바꾸면 현재 격노한 뜻 카드를 다른 의미로 바꾸는 셈이다. 의미를 유지한 채 상대를 억지로 배제하지 않는 것이 낫다.",
+      "c_characters": 50,
+      "reading_budget_estimate_seconds": 11.4
+    },
+    {
+      "stable_key": "38:bore:2",
+      "set": 38,
+      "word": "bore",
+      "si": 2,
+      "alternative": "drag",
+      "letters": 4,
+      "current": {
+        "ko": "② 지루한 사람, 따분한 일",
+        "ex": "That class is such a {{BLANK}}.",
+        "tr": "그 수업 진짜 따분해.",
+        "c": "What a bore!: 정말 지겹다!"
+      },
+      "alternative_inserted": "That class is such a drag.",
+      "verdict": "confirmed_contextual_alternative_not_global_synonym",
+      "sources": [
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/drag_2",
+          "supports": "구어 명사로 지루한 사람·일과 성가신 일을 뜻하고 such a drag 구성도 사전에 있다."
+        }
+      ],
+      "assessment": "That class is such a drag.는 매우 자연스러운 구어다. drag/bore 모두 4자이며 부정관사 a도 맞는다. 현재 예문이 구어이므로 격식 차이를 오답 이유로 삼을 수 없다.",
+      "preferred_action": "keep_example_add_scope_note",
+      "c": "따분한 일은 a drag로도 쓴다. drag에는 성가시다는 뜻도 있다. What a bore! 정말 지겹다!",
+      "caution": "drag에 성가시다는 추가 의미가 있다는 사실은 따분하다는 공통 용법을 부정하지 않는다.",
+      "c_characters": 60,
+      "reading_budget_estimate_seconds": 9.42
+    },
+    {
+      "stable_key": "39:sharply:2",
+      "set": 39,
+      "word": "sharply",
+      "si": 2,
+      "alternative": "harshly",
+      "letters": 7,
+      "current": {
+        "ko": "② 날카롭게, 매섭게",
+        "ex": "She spoke {{BLANK}} to the loud boys behind us.",
+        "tr": "걔가 우리 뒤 시끄러운 남자애들한테 날카롭게 말했어.",
+        "c": "look sharply at: 매섭게 쳐다보다."
+      },
+      "alternative_inserted": "She spoke harshly to the loud boys behind us.",
+      "verdict": "confirmed_contextual_alternative_not_global_synonym",
+      "sources": [
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/harshly",
+          "supports": "매정하고 심하게 대하는 방식과 귀에 거슬리는 소리라는 뜻을 구분하며 비판 행위와 결합한다."
+        }
+      ],
+      "assessment": "She spoke harshly to the loud boys behind us.는 자연스럽다. sharply/harshly 모두 7자이고 매섭게 말한다는 한국어와도 맞는다. 말투의 날카로움과 태도의 모질음은 초점 차이이지 현재 noisy boys 문맥에서 하나를 틀리게 할 정보가 아니다.",
+      "preferred_action": "keep_example_add_scope_note",
+      "c": "매섭게 말한다는 뜻은 harshly로도 쓴다. 날 선 말투는 sharply, 모진 태도는 harshly.",
+      "caution": "음성 방식으로 sharply만 허용하려다 부사에 논리적으로 고유하지 않은 조건을 만드는 것을 피한다. 서로의 독점 정의로 쓰지 말고 초점 차이로 설명.",
+      "c_characters": 58,
+      "reading_budget_estimate_seconds": 11.82
+    },
+    {
+      "stable_key": "41:compulsory:1",
+      "set": 41,
+      "word": "compulsory",
+      "si": 1,
+      "alternative": "obligatory",
+      "letters": 10,
+      "current": {
+        "ko": "① 의무적인, 필수의",
+        "ex": "Math is {{BLANK}} at our school.",
+        "tr": "우리 학교에서 수학은 의무 과목이야.",
+        "c": "법·규칙으로 꼭 해야 하는. 반대는 optional(선택의)이다."
+      },
+      "alternative_inserted": "Math is obligatory at our school.",
+      "verdict": "confirmed_contextual_alternative_not_global_synonym",
+      "sources": [
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/obligatory",
+          "supports": "법·규칙상 해야 하는 뜻의 동의어를 compulsory로 명시하며 대학 수업이 obligatory라는 예문을 제시한다."
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/obligatory",
+          "supports": "규칙 또는 법 때문에 해야 한다는 뜻이며 compulsory를 비교 표제어로 연결한다."
+        }
+      ],
+      "assessment": "Math is obligatory at our school.은 자연스럽고 정확하다. 둘 다 10자다. 학교 규정상 필수 과목이라는 의미에서는 매우 가까운 대체어이므로 인위적으로 다른 예문을 만들 실익이 작다.",
+      "preferred_action": "keep_example_add_scope_note",
+      "c": "규정상 의무라는 뜻에서는 obligatory와 바꿔 쓸 수 있다. 반대는 optional.",
+      "caution": "obligatory는 반드시 도덕·사회 관습, compulsory는 반드시 법이라는 구분은 틀리다. obligatory도 법과 학교 규칙에 쓴다.",
+      "c_characters": 50,
+      "reading_budget_estimate_seconds": 9.2
+    },
+    {
+      "stable_key": "41:insulting:1",
+      "set": 41,
+      "word": "insulting",
+      "si": 1,
+      "alternative": "offensive",
+      "letters": 9,
+      "current": {
+        "ko": "① 모욕적인",
+        "ex": "That joke about my mom was {{BLANK}}.",
+        "tr": "우리 엄마 얘기한 그 농담은 모욕적이었어.",
+        "c": "모욕감을 주는 말·행동·사람에 쓴다. 모욕감을 느끼는 쪽은 insulted."
+      },
+      "alternative_inserted": "That joke about my mom was offensive.",
+      "verdict": "confirmed_contextual_alternative_not_global_synonym",
+      "sources": [
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/offensive_1",
+          "supports": "존중하지 않는 무례함 때문에 불쾌감을 주는 뜻과 remarks/comments에 쓰이는 용례가 있다. 악취 등 단순 불쾌함과 공격의 별도 뜻도 확인된다."
+        }
+      ],
+      "assessment": "That joke about my mom was offensive.는 자연스럽다. insulting/offensive 모두 9자다. 모욕적인 농담이라는 현재 뜻과 해석에서 두 말이 겹친다.",
+      "preferred_action": "keep_example_add_scope_note_preserve_ing_ed",
+      "c": "offensive도 모욕적인 말에 쓰지만 '불쾌한' 뜻이 더 넓다. 느끼는 쪽은 insulted.",
+      "caution": "offensive는 불쾌함, insulting은 모욕이므로 서로 못 바꾼다는 식으로 절대 분리하면 현재 문맥의 정상 표현을 잘못 가르친다. 기존 insulted와의 대비도 보존할 가치가 있다.",
+      "c_characters": 54,
+      "reading_budget_estimate_seconds": 10.22
+    },
+    {
+      "stable_key": "45:spark:2",
+      "set": 45,
+      "word": "spark",
+      "si": 2,
+      "alternative": "pique",
+      "letters": 5,
+      "current": {
+        "ko": "② 촉발하다, 불러일으키다",
+        "ex": "A good question can {{BLANK}} a child's curiosity.",
+        "tr": "좋은 질문 하나가 아이의 호기심에 불을 붙일 수 있어.",
+        "c": "spark a debate: 논쟁을 촉발하다. 불똥이 불을 붙이듯 일을 일으킨다."
+      },
+      "alternative_inserted": "A good question can pique a child's curiosity.",
+      "verdict": "confirmed_contextual_alternative_not_global_synonym",
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/pique-curiosity-interest-etc",
+          "supports": "호기심·관심을 일으켜 더 알고 싶게 만든다는 고정 결합으로 명시되어 있다."
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/spark",
+          "supports": "반응을 촉발한다는 타동사 뜻에 질문이 활발한 논의를 촉발했다는 사전 예문이 있다."
+        }
+      ],
+      "assessment": "A good question can pique a child's curiosity.는 매우 자연스럽고 현재 해석에 부합한다. spark/pique 모두 5자이며 can 뒤 원형도 맞는다.",
+      "preferred_action": "prefer_different_object_if_example_is_replaced",
+      "preferred_fields": {
+        "ex": "His speech {{BLANK}}ed a heated debate.",
+        "tr": "그의 연설이 열띤 논쟁을 불러일으켰어.",
+        "c": "논쟁을 일으킨다는 뜻에는 start도 쓴다. spark는 불꽃처럼 반응을 촉발하는 느낌이다.",
+        "c_characters": 51
+      },
+      "fallback_fields": {
+        "c": "호기심을 불러일으키다는 pique curiosity로도 표현한다. spark는 사건·논쟁도 촉발한다.",
+        "c_characters": 56
+      },
+      "caution": "pique와 구별하려면 그 단어와 잘 결합하지 않는 논쟁·사건을 목적어로 바꾼다. 제안문에서는 start가 같은 5자+ed로 여전히 가능하므로 해당 의미 대체를 알린다. 모든 경쟁 답을 제거한 유일 정답 문장이라고 주장하지 않는다.",
+      "reading_budget_estimate_seconds": 9.42
+    }
+  ],
+  "source_limitations": "사전은 대체어의 정의·용례를 뒷받침한다. 저장소의 창작 예문 전체가 사전에 그대로 있다는 주장이 아니며, 문맥 적합성은 그 정의를 적용한 직접 언어 판단이다.",
+  "changes_made": "별도 리뷰 파일만 작성. app/source 및 원 agent 보고서 수정 없음."
+}

@@ -1,0 +1,171 @@
+{
+  "reviewer": "fable_review_0_17 independent counterreview",
+  "date": "2026-10-15",
+  "baseline": "74a6ddc",
+  "input": "agent-18-34.json findings S18-34-01..11",
+  "coverage": "11개 finding의 현재 필드·판정 근거·제안 전체 직접 읽음. 원본 18~34 모든 카드를 다시 읽었다는 뜻은 아님.",
+  "changes_made": "이 독립 검토 파일만 기록. 다른 agent 파일 및 앱 원본 수정 없음.",
+  "summary": {
+    "retain_confirmed_P2": [
+      "S18-34-02",
+      "S18-34-03",
+      "S18-34-04"
+    ],
+    "downgrade_to_improvement": [
+      "S18-34-01",
+      "S18-34-05"
+    ],
+    "retain_existing_P3_improvements": [
+      "S18-34-06",
+      "S18-34-07",
+      "S18-34-08",
+      "S18-34-09",
+      "S18-34-10",
+      "S18-34-11"
+    ],
+    "material_new_errors_in_proposals": 0,
+    "review_rationale_correction": [
+      "species 원핵생물 방법 설명"
+    ],
+    "overall": "제안 자체는 모두 적용 가능한 방향이다. 핵심 문제는 수정안의 오류가 아니라 clause·쉼표 연결을 확정 오류로 합산하는 강도와 species 근거를 요약한 문장의 정밀성이다."
+  },
+  "findings": [
+    {
+      "id": "S18-34-01",
+      "decision": "downgrade",
+      "recommended_severity": "P3",
+      "recommended_classification": "improvement",
+      "assessment": "This sentence는 외부의 문장을 지시할 수도 있으므로 예문이 문법적으로 잘못되었거나 언제나 자기모순이라고 단정하는 것은 과하다. 다만 별도 대상 문장 없이 clause를 배우는 화면에서는 자기 자신을 가리키는 것으로 읽힐 가능성이 높아 실제 절 수와 잘 맞는 시범 문장으로 고칠 교육적 이유가 있다.",
+      "proposal_assessment": "제안문 This sentence has two clauses, and each has a verb.는 실제 독립절 둘이므로 자연스러운 자기 시범이 된다. 각 절에 동사가 있다는 말은 이 두 절에 대해 맞으며 모든 종류의 절에 대한 보편 정의가 아니므로 새 오류가 아니다.",
+      "suggested_title": "clause 예문이 절 두 개를 직접 보여 주도록 바꾸면 혼동을 줄인다",
+      "suggested_report_wording": "현행 문장은 다른 문장을 가리킨다면 정상이다. 단독 카드에서는 실제 절 두 개가 보이는 문장으로 바꾸는 편이 더 교육적이다."
+    },
+    {
+      "id": "S18-34-02",
+      "decision": "retain",
+      "recommended_severity": "P2",
+      "recommended_classification": "confirmed",
+      "assessment": "겉보기의 뜻이 명사 앞에 온다는 조건을 명사 앞이면 반드시 겉보기의 뜻이라는 역명제로 바꾸었다. Cambridge는 no apparent reason을 분명히 알 수 있는 뜻 아래에 직접 둔다. 드문 예외를 요구하는 지적이 아니라 흔한 기본 표현과 충돌하는 설명이다.",
+      "proposal_assessment": "제안은 정확하다. 뜻과 위치의 관계를 바로잡으며 현재 예문은 그대로 유지한다. 추가 설명이 약간 길지만 52자라 허용 범위이고 새로운 의미 오류는 없다.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/apparent",
+        "https://dictionary.cambridge.org/dictionary/learner-english/apparent"
+      ]
+    },
+    {
+      "id": "S18-34-03",
+      "decision": "retain",
+      "recommended_severity": "P2",
+      "recommended_classification": "confirmed",
+      "assessment": "smart 기기의 인터넷 연결과 자율 작동을 동시에 필요조건으로 쓰는 것은 과도하다. Merriam-Webster의 기술 뜻은 자동 동작뿐 아니라 내장 마이크로프로세서의 정보 처리와 기능 확장도 포함한다.",
+      "proposal_assessment": "제안 컴퓨터 기술로 기능을 제어하는은 현재 ko와 일치하고 인터넷 필수라는 오해를 제거한다. 더 폭넓게 쓰려면 정보를 처리하거나 자동으로 작동하는이라고 해도 되지만 필수 추가 수정은 아니다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/smart"
+      ]
+    },
+    {
+      "id": "S18-34-04",
+      "decision": "retain_with_easier_proposal",
+      "recommended_severity": "P2",
+      "recommended_classification": "confirmed",
+      "assessment": "FAO 수치는 존재하는 전체 담수의 몫이 아니라 취수량의 몫이다. 현행 한국어 세계 담수의 약 70%를 써는 분모 혼동을 강하게 만든다. 약 70%는 현재 72%의 대략값으로 적절하다.",
+      "proposal_assessment": "원 제안 freshwater withdrawals는 정확하지만 단어 하나를 고치려고 새로운 기술어를 넣는다. 루트의 taken from nature 풀이는 좋은 해결이다. people을 넣으면 취수 주체까지 밝혀 분모가 더 명확해진다. uses는 여기서 일상어이며 물을 영구 소모한다는 수문학 전문용어 consumption을 뜻하지 않는다.",
+      "preferred_fields": {
+        "ex": "{{BLANK}} uses about 70 percent of the fresh water people take from nature.",
+        "tr": "사람들이 자연에서 끌어 쓰는 담수의 약 70%는 농업에 쓰여."
+      },
+      "sources": [
+        "https://www.fao.org/land-water/water/agricultural-water-management/water-scarcity/"
+      ]
+    },
+    {
+      "id": "S18-34-05",
+      "decision": "downgrade_classification",
+      "recommended_severity": "P3",
+      "recommended_classification": "improvement",
+      "assessment": "쉼표 연결을 찾아낸 사실은 정확하지만 네 문장 모두 짧은 구어 발화로 읽힌다. MLA도 대화·흥분된 발화에서 comma splice가 허용될 수 있다고 설명한다. 따라서 문법 오류 네 개라고 합산하기보다 기본 학습 예문의 문장부호를 정돈하는 편집 개선으로 분리하는 것이 안전하다.",
+      "proposal_assessment": "마침표로 나눈 bee/zone/blanket과 콜론으로 정리한 timing은 모두 적절하며 새 문법 문제는 없다. 간단히 고칠 가치가 있다. 인용문을 고치지 않겠다는 범위 제한도 좋다.",
+      "suggested_title": "짧은 구어 예문 네 곳의 문장부호를 학습용으로 정돈한다",
+      "sources": [
+        "https://style.mla.org/splices/"
+      ]
+    },
+    {
+      "id": "S18-34-06",
+      "decision": "retain",
+      "recommended_severity": "P3",
+      "recommended_classification": "improvement",
+      "assessment": "careful data를 문법 불가능으로 판정하지 않은 것이 적절하다. 조심스럽게 수집한 자료라는 환유적 해석은 가능하지만 대표 결합으로는 accurate data나 carefully collected data가 낫다.",
+      "proposal_assessment": "The data Tycho Brahe collected helped Kepler learn how planets move.는 정확하고 자연스럽다. 목적격 관계절을 넣으면서 읽기 구조가 조금 복잡해지는 대가가 있다. 기존 구조를 유지하려면 careful 한 단어만 accurate로 바꾸면 충분하다. 이는 제안 선택지이지 원 제안의 오류가 아니다.",
+      "minimal_alternative": {
+        "ex": "Tycho Brahe's accurate {{BLANK}} helped Kepler find out how planets move.",
+        "tr": "티코 브라헤의 정확한 자료 덕분에 케플러는 행성의 움직임을 알아냈어."
+      },
+      "sources": [
+        "https://science.nasa.gov/solar-system/orbits-and-keplers-laws/"
+      ]
+    },
+    {
+      "id": "S18-34-07",
+      "decision": "retain_low_priority",
+      "recommended_severity": "P3",
+      "recommended_classification": "improvement",
+      "assessment": "긴팔원숭이와 꼬리 없는 바바리마카크는 실제 반례다. 그러나 현재 c는 초급 사전의 대표 특징 풀이로도 이해되므로 핵심 오류로 승격할 필요는 없다. 일상 영어에서 ape를 인간 이외의 유인원으로 쓰는 것도 흔하므로 Humans and apes 자체를 틀린 영어라고 하면 안 된다.",
+      "proposal_assessment": "other 삽입과 monkey 대부분이라는 보정은 간결하고 과학적으로 더 명확하다. 새로운 오류가 없다. 인간도 유인원이라는 과학 분류를 택한 선택적 개선으로 설명하면 된다.",
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/monkey",
+        "https://animals.sandiegozoo.org/animals/siamang"
+      ]
+    },
+    {
+      "id": "S18-34-08",
+      "decision": "retain_very_low_priority",
+      "recommended_severity": "P3",
+      "recommended_classification": "improvement",
+      "assessment": "예문의 you와 고양이 대사는 이미 사람을 쏘는 일상 상황을 공유한다. 따라서 현재 대사를 중대한 사실 오류로 볼 필요는 없다. 포유류 피부에 침이 걸리는 일벌이라는 보정은 사실이지만 전문적 예외 설명에 가깝다.",
+      "proposal_assessment": "제안은 정확하고 농담을 보존한다. 다만 꿀벌 일벌이라는 말이 약간 딱딱하다. 적용해도 좋지만 최종 주요 결함 목록에 섞거나 필수 수정으로 묘사하지 않는 편이 낫다.",
+      "sources": [
+        "https://extension.usu.edu/utah4h/research/creating-sustainable-school-and-home-gardens-misconceptions-about-bees"
+      ],
+      "source_check_note": "기존 Florida PDF URL은 이번 재검토에서 404였으나 USU의 4번 항목이 사람/포유류 피부와 일벌 조건을 직접 뒷받침한다."
+    },
+    {
+      "id": "S18-34-09",
+      "decision": "retain_improvement_correct_review_rationale",
+      "recommended_severity": "P3",
+      "recommended_classification": "improvement",
+      "assessment": "기존 문장은 Scientists think/about로 추정임을 이미 밝힌다. 논문 자체의 대중 요약도 전체 종수처럼 서술하므로 확정 오류로 승격하지 않은 것은 맞다. 다만 리뷰의 원핵생물에는 같은 방법을 적용할 수 없다는 문장은 너무 강하다. 연구자는 실제로 원핵생물에도 적용했고, 상위 분류군의 포화값을 구하지 못해 원자료로 하한을 추정했다고 쓴다. 분류 관행이 달라 합산 시 주의하라는 것이 정확한 근거다.",
+      "proposal_assessment": "millions of species remain unknown은 연구 결과가 뒷받침하는 안전한 일반화이며 문법상 문제도 없다. 수치를 없애면서 인상적인 규모 기준점이 약해지는 손실은 있다. 선택적 사실 정밀화로만 다루는 것이 적절하다.",
+      "suggested_report_rationale": "대표 연구의 약 870만은 주로 진핵생물 추정에 근거하며, 원핵생물 추정은 하한이고 종 개념도 달라 합산에 주의가 필요하다. 현행을 확정 오류로 보지는 않지만 범위 설명 없이 단일 총종수처럼 읽히는 점은 완화할 수 있다.",
+      "sources": [
+        "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001127"
+      ]
+    },
+    {
+      "id": "S18-34-10",
+      "decision": "retain",
+      "recommended_severity": "P3",
+      "recommended_classification": "improvement",
+      "assessment": "책의 판과 쇄를 구분하는 것이 유익하다. 다만 Merriam-Webster와 Oxford 모두 한 번에 발행된 부수라는 별도 edition 뜻도 싣고 있어, 새로 찍어 냈다는 풀이 자체를 사전적 오류로 단정하지 않은 분류가 맞다.",
+      "proposal_assessment": "내용·형식으로 구별되는 판. first edition은 초판.은 현재 초판 수집 예문에 맞는 간결한 개선이다. 부수·신문호 등 다른 뜻을 덧붙일 필요는 없다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/edition",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/edition"
+      ]
+    },
+    {
+      "id": "S18-34-11",
+      "decision": "retain",
+      "recommended_severity": "P3",
+      "recommended_classification": "improvement",
+      "assessment": "여러의 뜻인 multiple과 객관식의 뜻인 multiple-choice는 다른 수 제약을 가진다. 현행은 뒤에 복수 명사가 온다의 지시 대상이 모호하므로 학습자가 multiple-choice question을 불가능하다고 오해할 수 있다. 문맥상 multiple을 설명하려 했을 가능성도 있어 P3 개선 분류가 적절하다.",
+      "proposal_assessment": "제안 단수 명사도 꾸민다는 정확하지만 설명이 다소 길어진다. 복합어 자체의 뜻과 multiple reasons 같은 간단한 구를 병치하는 방식으로 더 짧게 해결해도 된다.",
+      "minimal_alternative": {
+        "c": "multiple은 '여러'(multiple reasons). multiple-choice는 '객관식의'."
+      },
+      "sources": [
+        "https://support.cambridgeenglish.org/hc/en-gb/articles/360000241043-Cambridge-English-Placement-Test-CEPT-Types-of-CEPT-Questions?sfnsn=wa"
+      ]
+    }
+  ]
+}

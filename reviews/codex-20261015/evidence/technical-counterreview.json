@@ -1,0 +1,151 @@
+{
+  "reviewer": "fable_review_18_34",
+  "head": "74a6ddc",
+  "scope": "T01~T06 오탐·심각도·제안 부작용 독립 검토. 앱과 데이터는 수정하지 않음.",
+  "materials": [
+    "technical-findings.json",
+    "browser-review.cjs",
+    "browser-review.json",
+    "unlock-audit.cjs",
+    "unlock-audit.json",
+    "pace-rollover.cjs",
+    "pace-rollover.json",
+    "repo/PRINCIPLES.md",
+    "repo/HANDOFF.md",
+    "repo/UI_STANDARD.md",
+    "repo/vocagoyangfable.html",
+    "repo/pipeline/pace/runtime.js",
+    "repo/pipeline/tests/set-unlock.test.cjs",
+    "repo/pipeline/tests/level-scope.test.cjs"
+  ],
+  "independent_reproduction": {
+    "script": "technical-countercheck.cjs",
+    "result": "technical-countercheck.json",
+    "T04": "Chrome 390×844에서 마지막 오답 행을 실제 Playwright pointer click → 80ms 뒤 nextEx 실제 click. 즉시 Exercise 2, 850ms 뒤 Exercise 3. DOM .click()만으로 생긴 인위적 결과라는 반론을 배제함.",
+    "T05": "초기 기록·meta가 모두 빈 상태에서 paceShow를 1~620판 순차 실행. 585·590·595·600판에는 주기 대사가 나오고 601~620판에는 나오지 않음. meta=600을 인위적으로 주입해서만 생긴 결과라는 반론을 배제함."
+  },
+  "verdicts": [
+    {
+      "id": "T01",
+      "verdict": "confirm",
+      "priority": "P1",
+      "priority_assessment": "P1 유지 가능. 앱 전체를 멈추지는 않지만, 정답 판정과 명시적인 ‘맞다’ 피드백이 틀린 철자를 가르치는 핵심 학습 기능 결함이다. 모든 학생·모든 단어가 틀어진다는 표현은 피한다.",
+      "counterarguments_checked": [
+        "관용적인 영미 철자 허용이라고 볼 수 없다. variantKey는 검증된 쌍을 보지 않고 z 전부를 s로 바꾼다.",
+        "bus/buz는 같은 입력칸 수이고 실제 자동 제출 경로에서 통과한다. 길이가 안 맞아 사용자에게 발생하지 않는 문제도 아니다.",
+        "고양이 대사가 ‘이 책은 bus’로 보정해도 buz를 맞다고 말하고 오답 복습에서 빼므로 문제는 남는다."
+      ],
+      "recommendation_guardrails": [
+        "전역 s/z 동치화만 제거하되 사용자 승인인 공백 무시 판정은 보존한다.",
+        "단순히 -ise/-ize 정규식으로 축소하는 것도 모든 단어에 맞는 해결책은 아니다. 검증된 영미 철자 쌍·명시적 목록을 우선한다.",
+        "이 수정으로 기존 ALT 동의어 예외 전체를 같이 없애지는 않는다. 그 범위는 별도 정책·검토다.",
+        "realise/realize 양성, bus/buz와 zoo/soo 음성, 공백 있는 구 표현의 공백 생략 양성을 함께 확인한다."
+      ]
+    },
+    {
+      "id": "T02",
+      "verdict": "confirm",
+      "priority": "P2",
+      "priority_assessment": "P2 적절. 남은 연습은 삭제되거나 자동 완료되지 않으므로 데이터 손실·전체 학습 차단으로 확대하면 안 된다.",
+      "counterarguments_checked": [
+        "B1 자체 엔딩으로 의도했을 가능성은 UI_STANDARD 98의 ‘범위와 상관없이 전체를 다 끝냈을 때만’과 충돌한다.",
+        "totalExercises(true) 단위 테스트는 전체 수만 검사하며 finishExercise의 호출 인자를 검사하지 않아 기존 PASS가 반증이 아니다.",
+        "실제 finishExercise 내부는 scoped 집계로 allCleared를 만들고 showEnding을 예약한다. 홈의 엔딩 버튼만 전체 집계를 보는 차이가 원인이다."
+      ],
+      "recommendation_guardrails": [
+        "전체 엔딩 여부를 전체 집계로 맞추는 최소 수정은 안전하다.",
+        "별도 B1 축하 디자인은 이번 결함 수정에 필수가 아니다. 사용자가 디자인 논의를 보류했으므로 새 연출 추가까지 강요하지 않는다.",
+        "B1 마지막 완료는 전체 엔딩 안 열림, 전체 완료는 B1 모드에서도 전체 엔딩 허용이라는 양쪽 경계를 확인한다."
+      ]
+    },
+    {
+      "id": "T03",
+      "verdict": "confirm",
+      "priority": "P2",
+      "priority_assessment": "P2 적절. 기록은 남지만 원래 공부한 세트의 진입·이어하기가 막힌다. 다른 정상 현재 키의 완료 기록이 같은 세트에 하나라도 있는 학생은 setStarted가 참이라 이 경로의 영향을 피한다.",
+      "policy_evidence": [
+        {
+          "file": "repo/PRINCIPLES.md",
+          "line": 613,
+          "text": "이미 하던 것은 빼앗지 않는다. 직접 한 연습이라도 클리어한 세트는 앞이 덜 끝났어도 열려 있다."
+        },
+        {
+          "file": "repo/PRINCIPLES.md",
+          "line": 614,
+          "text": "옮겨 간 카드의 옛 기록으로 완료가 이어진 연습은 직접 클리어로 치지 않는다."
+        },
+        {
+          "file": "repo/HANDOFF.md",
+          "section": "2026-10-13 · FABLE 세트 차례로 열기",
+          "text": "직접 클리어한 연습이 있는 세트는 앞이 덜 끝났어도 보인다."
+        }
+      ],
+      "counterarguments_checked": [
+        "문서의 ‘옛 기록 상속은 직접 완료 아님’은 옮겨 들어온 카드의 수신 세트를 뜻한다. 원래 26세트에서 직접 끝낸 연습의 제목·분할 키가 바뀐 경우까지 접근을 박탈한다는 뜻이 아니다.",
+        "26세트 Exercise 6은 oldSet=26으로 구판 런타임에서 얻은 직접 완료 키이다. 새 26세트 안 남은 카드가 getRec으로 완료를 인정받는 것이 확인되어 카드가 다른 세트로 이주해 생긴 단순 상속과 구별된다.",
+        "set-unlock.test의 기존 학생 테스트는 현재 setRec으로 기록을 생성하므로 구판 직접 키 호환성을 검사하지 못한다.",
+        "구판 감사 12/14건은 현재 getRec 완료까지 성립하는 좁은 조건에서 발견한 사례다. 모든 과거 기록 문제의 총개수라고 제시하면 안 된다."
+      ],
+      "recommendation_guardrails": [
+        "모든 getRec 완료를 setStarted에 쓰는 수정은 금지. 5세트 기록만으로 14·17·21·25세트를 여는 역회귀를 만든다.",
+        "같은 원래 세트에서 직접 완료한 역사적 기록이라는 출처를 사용한다. 키 문자열 첫부분의 숫자만 비교하면 placement-20261003-5-1 같은 역사적 ID를 놓칠 수 있다.",
+        "현재 연습의 getRec.completed가 참인 경우에만 과거 직접 완료를 인정하면 충분하지 않을 수 있다. 새 카드가 합쳐져 그 연습을 다시 해야 하더라도 과거에 하던 세트의 접근권은 별개로 보존하는 것이 문서 의도에 맞는다.",
+        "같은 세트 옛 직접 기록의 양성 테스트와, 다른 세트에서 이주해 들어온 카드 완료의 음성 테스트를 함께 둔다."
+      ]
+    },
+    {
+      "id": "T04",
+      "verdict": "confirm",
+      "priority": "P2",
+      "priority_assessment": "P2 적절. 사용자 입력 경합으로 한 연습이 건너뛰어지지만, 그 연습을 완료로 기록하는 것은 아니다. 누락 완료·저장 데이터 손상이라고 쓰지 않는다.",
+      "counterarguments_checked": [
+        "결과 화면의 버튼은 활성화되어 있고 연속 클릭은 실제 입력으로 가능하다. 독립 Chrome pointer click에서도 재현했다.",
+        "코드가 캡처한 것은 현재 세션이 아닌 DOM nextEx 버튼이다. 같은 요소의 핸들러는 이동 후 state.ei를 다시 읽으므로 다음 연습을 한 번 더 연다.",
+        "행 제거가 260ms 뒤에 일어나고 그 뒤 350ms를 추가로 예약하므로 사용자의 수동 다음과 경합할 시간이 존재한다."
+      ],
+      "recommendation_guardrails": [
+        "바깥 행 제거 예약과 안쪽 자동 이동 예약을 모두 다룬다. 안쪽 타이머 하나만 취소해서는 수동 이동 뒤 바깥 타이머가 다시 예약할 수 있다.",
+        "예약 당시 결과 세션/세대 토큰 및 현재 sum 화면 여부를 확인하면 안전하다. 단순 state.ei 숫자 확인은 재도전·다른 세트의 동일 인덱스에 약하다.",
+        "사용자 승인인 마지막 오답 탭 뒤 자동 이동 자체를 없애지 않고 오래된 예약만 무효화한다.",
+        "다음뿐 아니라 목록·재도전 뒤에 예약이 살아 있는 경우도 함께 검증한다. 세 과정에 동일 패턴이 있는지 확인하되 실제 미재현 과정을 재현 완료로 쓰지는 않는다."
+      ]
+    },
+    {
+      "id": "T05",
+      "verdict": "confirm_with_narrow_wording",
+      "priority": "P3",
+      "priority_assessment": "P3 적절. 장기 사용의 부가 안내 문제이고 예상 시간 계산·정규 학습은 계속 작동한다.",
+      "counterarguments_checked": [
+        "정상 빈 기록에서 620번 실행해도 600 이후 주기 대사가 멎으므로 인위적인 meta 초기값 때문이 아니다.",
+        "현재 판을 push한 로컬 recs는 601, 저장분은 600으로 고정되며 plays와 meta.n의 차이가 필요한 5까지 자라지 않는다.",
+        "다만 모든 대사가 사라지는 것은 아니다. absent, 하루 한 번 low, 목표 변경 next는 판수 간격 이외의 조건으로 계속 나올 수 있다. 예측 한 줄도 계속 갱신된다.",
+        "fast 및 slow도 판수 기반 간격 제약의 영향을 받을 수 있다. 기존 meta.slowAt가 낮을 때 한 번 더 나올 수 있으므로 모든 사례에서 정확히 601판부터 그 두 종류도 즉시 영구 중단이라고 단정하지 않는다."
+      ],
+      "recommendation_guardrails": [
+        "제목·영향은 ‘다섯 판마다 나오는 정기 대사가 멎음’을 중심으로 쓴다.",
+        "누적 일련번호를 별도로 두더라도 오답만 복습하는 w 판은 현재 정책처럼 full-play 간격에서 제외한다.",
+        "기존 meta의 이전 길이 기반 n/slowAt를 새 일련번호와 섞지 않도록 이행 초기값을 정한다.",
+        "600 상한 자체를 없애 기록을 무한 축적하는 수정은 불필요하다."
+      ]
+    },
+    {
+      "id": "T06",
+      "verdict": "confirm_with_scope_limit",
+      "priority": "P2",
+      "priority_assessment": "22세트 2,183단어·32세트 COCA 5,000/84%·41세트 1/20 등 구체적인 잘못된 수치·완주 선언을 핵심으로 P2 유지 가능. 단순 고양이 격려·과장 개그나 용어 통일만 떼어 놓으면 P3 수준이다.",
+      "counterarguments_checked": [
+        "LESSONCLEAR는 실제 finishExercise의 세트 완료 분기에서 참조되므로 죽은 상수라는 반론은 성립하지 않는다.",
+        "14세트 문장 위치, 16세트 긴 지문, 17세트 복합 지문 등은 현재 FABLE의 주제와 연결되지 않는 기출 유형 대사 흔적이다. 다만 모든 0~17 대사가 사실 오류라고 묶어 단정하지 않는다.",
+        "PRINCIPLES 11의 수치 주장 금지와 별개로, 개편된 실제 번호·과정과 맞지 않는 완주 숫자는 명확한 점검 대상이다.",
+        "사용자가 고양이의 찰진 과장·드립을 선호하므로 ‘대학 원서 냄새’ 같은 비정량 농담까지 무근거 독해 보장으로 확대해 삭제하면 의도를 해친다."
+      ],
+      "recommendation_guardrails": [
+        "수정의 필수 범위를 객관적인 잘못된 숫자·구간 완주·coverage 주장으로 분리한다. 단순 격려는 보존 가능하다.",
+        "순번 범위 끝 숫자를 곧바로 학생이 익힌 수로 말하지 않는다. 기존 학생은 순서를 건너뛰었을 수 있고 표제어와 카드 수가 다르다.",
+        "48세트 단어 가족→word family는 확정 용어와 맞추는 안전한 수정이다.",
+        "새 세트 축하 디자인은 이 발견의 필수 해결책이 아니다. 문구를 실제 내용에 맞추는 것만으로 수정할 수 있다."
+      ]
+    }
+  ],
+  "summary": "6건 모두 실체가 있으며 철회할 오탐은 찾지 못했다. T04·T05는 독립 실행으로 반론을 추가 배제했다. T03은 기존 정책에 반하는 실제 호환성 결함이고, 이동 상속과 같은 세트의 과거 직접 완료를 엄밀히 구별해야 한다. T05 영향과 T06 비정량 농담의 범위만 좁혀 쓰는 것이 좋다."
+}

@@ -1,0 +1,1820 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "baseline": "74a6ddc4d32be73feb86bd7422759c45b9de7fcd",
+  "scope": {
+    "cards": 8497,
+    "headwords": 6198,
+    "sets": 51,
+    "playableExercises": 780,
+    "bySet": [
+      {
+        "set": 0,
+        "cards": 234
+      },
+      {
+        "set": 1,
+        "cards": 232
+      },
+      {
+        "set": 2,
+        "cards": 174
+      },
+      {
+        "set": 3,
+        "cards": 166
+      },
+      {
+        "set": 4,
+        "cards": 213
+      },
+      {
+        "set": 5,
+        "cards": 151
+      },
+      {
+        "set": 6,
+        "cards": 167
+      },
+      {
+        "set": 7,
+        "cards": 175
+      },
+      {
+        "set": 8,
+        "cards": 166
+      },
+      {
+        "set": 9,
+        "cards": 176
+      },
+      {
+        "set": 10,
+        "cards": 160
+      },
+      {
+        "set": 11,
+        "cards": 169
+      },
+      {
+        "set": 12,
+        "cards": 162
+      },
+      {
+        "set": 13,
+        "cards": 169
+      },
+      {
+        "set": 14,
+        "cards": 170
+      },
+      {
+        "set": 15,
+        "cards": 162
+      },
+      {
+        "set": 16,
+        "cards": 162
+      },
+      {
+        "set": 17,
+        "cards": 167
+      },
+      {
+        "set": 18,
+        "cards": 157
+      },
+      {
+        "set": 19,
+        "cards": 160
+      },
+      {
+        "set": 20,
+        "cards": 152
+      },
+      {
+        "set": 21,
+        "cards": 154
+      },
+      {
+        "set": 22,
+        "cards": 123
+      },
+      {
+        "set": 23,
+        "cards": 168
+      },
+      {
+        "set": 24,
+        "cards": 158
+      },
+      {
+        "set": 25,
+        "cards": 173
+      },
+      {
+        "set": 26,
+        "cards": 128
+      },
+      {
+        "set": 27,
+        "cards": 132
+      },
+      {
+        "set": 28,
+        "cards": 149
+      },
+      {
+        "set": 29,
+        "cards": 158
+      },
+      {
+        "set": 30,
+        "cards": 160
+      },
+      {
+        "set": 31,
+        "cards": 176
+      },
+      {
+        "set": 32,
+        "cards": 145
+      },
+      {
+        "set": 33,
+        "cards": 154
+      },
+      {
+        "set": 34,
+        "cards": 152
+      },
+      {
+        "set": 35,
+        "cards": 136
+      },
+      {
+        "set": 36,
+        "cards": 172
+      },
+      {
+        "set": 37,
+        "cards": 194
+      },
+      {
+        "set": 38,
+        "cards": 196
+      },
+      {
+        "set": 39,
+        "cards": 190
+      },
+      {
+        "set": 40,
+        "cards": 193
+      },
+      {
+        "set": 41,
+        "cards": 198
+      },
+      {
+        "set": 42,
+        "cards": 191
+      },
+      {
+        "set": 43,
+        "cards": 193
+      },
+      {
+        "set": 44,
+        "cards": 187
+      },
+      {
+        "set": 45,
+        "cards": 214
+      },
+      {
+        "set": 46,
+        "cards": 95
+      },
+      {
+        "set": 47,
+        "cards": 124
+      },
+      {
+        "set": 48,
+        "cards": 248
+      },
+      {
+        "set": 49,
+        "cards": 90
+      },
+      {
+        "set": 50,
+        "cards": 102
+      }
+    ]
+  },
+  "review_only": true,
+  "application_modified": false,
+  "technical": [
+    {
+      "id": "T01",
+      "priority": "P1",
+      "classification": "오류",
+      "area": "정답 판정",
+      "title": "s와 z를 전부 같은 글자로 처리해 틀린 철자를 정답으로 통과시킨다",
+      "location": {
+        "file": "vocagoyangfable.html",
+        "line": 2120
+      },
+      "evidence": "실제 Chrome에서 bus 카드에 buz를 input 이벤트로 입력: answered=true, passed=true, errors=0. 고양이도 ‘buz’도 맞다고양!이라고 말한다. variantKey가 단어 전체의 z를 s로 치환한다. 인식된 영미 철자 쌍인지 확인하지 않는다.",
+      "impact": "철자 학습의 핵심 판정에서 실제 오자를 맞다고 가르치며 복습 대상에서도 빠뜨린다. realise/realize를 허용하려던 규칙이 bus/buz, zoo/soo 같은 비단어까지 허용한다.",
+      "recommendation": "검증된 영미 철자 쌍 또는 등록된 표제어 변형 목록으로 판정한다. s/z 전역 동치화를 없앤다. realize/realise 같은 양성 사례와 bus/buz·zoo/soo 음성 사례를 실제 자동 제출 경로로 검사한다.",
+      "repro": "repro/browser-review.cjs의 spelling; evidence/browser-review.json; evidence/misspelling-accepted.png",
+      "regression": "이전부터 존재하던 결함. 이번 리뷰 범위가 전체여서 포함한다."
+    },
+    {
+      "id": "T02",
+      "priority": "P2",
+      "classification": "오류",
+      "area": "완료 판정",
+      "title": "B1만 완료해도 FABLE 전체 엔딩이 열린다",
+      "location": {
+        "file": "vocagoyangfable.html",
+        "line": 3155
+      },
+      "evidence": "B1 선택 뒤 0~25세트 완료를 구성하여 마지막 연습의 실제 finishExercise를 실행했다. 전체 780 중 405연습 완료인데 제목 BIG MOUNTAIN 입성! 및 ending.show가 나타났다. finishExercise는 범위 제한된 clearedExercises()/totalExercises()를 쓴다. 홈 엔딩 버튼만 true 인자로 전체를 확인한다.",
+      "impact": "B1 완료와 전체 C1·어원 과정 완료를 혼동하게 하고 남은 375연습 전에 최종 성취를 선언한다. UI_STANDARD와 level-scope.test의 의도에 반한다.",
+      "recommendation": "전체 엔딩 판단은 clearedExercises(true)/totalExercises(true)로 통일한다. B1 완료는 별도 범위 완료로 처리하되 전체 엔딩을 예약하지 않는다. 실제 finishExercise → 예약된 showEnding 경로를 검사한다.",
+      "repro": "repro/browser-review.cjs의 b1; evidence/b1-premature-ending.png",
+      "regression": "B1/C1 범위를 도입한 뒤의 회귀."
+    },
+    {
+      "id": "T03",
+      "priority": "P2",
+      "classification": "오류",
+      "area": "구판 기록·세트 잠금",
+      "title": "같은 세트의 옛 완료 기록을 잇고도 그 세트를 잠근다",
+      "location": {
+        "file": "vocagoyangfable.html",
+        "line": 2515
+      },
+      "evidence": "921e8ff에서 26세트 Exercise 6 완료키 [26세트, Exercise 6 · 2534~2543 :: editorial-20260925 1-12]를 로드하면 현재 Exercise 6은 getRec으로 완료다. 그러나 setStarted는 새 직접 키만 확인하여 26세트를 잠근다. 실제 브라우저 openSets=[0], rawResume=26, effectiveResume=0. 이 구판과 5a66345 각각 12개 옛 연습에서 같은 현상. e9c178d/acfe20e 각각 14개. 버전별 사례는 서로 겹치므로 합산하지 않는다. 이 수는 현재 완료로 이어진 사례만 센 최소치다.",
+      "impact": "이전 버전에서 뒤 세트를 공부하던 학생이 업데이트 후 해당 세트를 열거나 이어 할 수 없다. 기록 삭제는 아니지만 접근이 막힌다. ‘이미 하던 것은 빼앗지 않는다’ 원칙을 깨뜨린다.",
+      "recommendation": "이동해 들어온 카드의 상속 완료와, 원래 그 세트에서 직접 끝낸 옛 배치의 완료를 구별한다. 동일 출발 세트의 역사적 키는 시작 증거로 인정한다. 모든 getRec 완료를 시작으로 간주하면 5세트에서 이동한 문법 카드가 뒤 세트를 여는 역방향 버그가 생기므로 그 음성 검사도 유지한다. 새 카드가 더해져 현재 연습이 미완료가 되었더라도 같은 세트에서 했던 옛 직접 완료 기록은 접근 증거로 남아야 한다.",
+      "repro": "repro/unlock-audit.cjs 및 repro/browser-review.cjs의 oldUnlock; evidence/unlock-audit.json",
+      "regression": "새 세트 잠금 도입 뒤의 회귀."
+    },
+    {
+      "id": "T04",
+      "priority": "P2",
+      "classification": "오류",
+      "area": "복습 후 진행",
+      "title": "마지막 오답을 누른 직후 다음 버튼을 누르면 연습 하나를 건너뛴다",
+      "location": {
+        "file": "vocagoyangfable.html",
+        "line": 4511
+      },
+      "evidence": "Exercise 1 결과의 마지막 오답 행을 클릭하고 즉시 다음 연습을 클릭했다. 즉시 Exercise 2로 이동하지만 850ms 후 Exercise 3으로 바뀐다. 행 삭제 260ms + 자동 다음 350ms 예약이 이미 다른 연습으로 이동한 뒤에도 현재 nextEx 버튼을 클릭한다.",
+      "impact": "새 연습이 갑자기 교체되고 입력이 사라진다. 학생은 판을 하나 건너뛰거나 버튼이 두 번 먹은 것으로 느낀다.",
+      "recommendation": "예약 시점의 세션·결과 화면을 캡처하고 여전히 같은 결과 화면일 때만 자동 이동한다. 수동 다음·목록·재도전·다른 화면 진입에서는 예약을 취소한다. 마지막 행 탭과 수동 다음을 연속 입력하는 실제 이벤트 검사 추가.",
+      "repro": "repro/browser-review.cjs의 reviewRace; evidence/browser-review.json",
+      "regression": "이전부터 존재하던 결함. 세 과정 동일 패턴도 함께 확인할 것."
+    },
+    {
+      "id": "T05",
+      "priority": "P3",
+      "classification": "오류",
+      "area": "진행 속도 안내",
+      "title": "600판 보관 상한에 도달하면 주기적 예측 대사가 더 이상 나오지 않는다",
+      "location": {
+        "file": "pipeline/pace/runtime.js",
+        "line": 95
+      },
+      "evidence": "기록은 최근 600판으로 자르는데 meta.n은 배열에서 센 완료 판 수다. 기록 600판+새 판 상태에서는 매번 plays=601이고 meta.n이 600/601 근처에 고정된다. 실제 paceShow를 601~612판까지 실행해도 매 5판 regular 대사가 나오지 않는다.",
+      "impact": "780연습인 FABLE에서는 첫 완주 도중 도달 가능한 상태다. 예측 한 줄 자체는 계속 갱신되지만 정기 대사와 일부 속도 변화 대사의 주기가 멈춘다. 복귀(absent), 하루 활동량(low), 목표 변경 안내까지 모두 사라지는 것은 아니다.",
+      "recommendation": "보관 배열 길이와 별개인 누적 재생 일련번호를 저장하거나 마지막 안내 시점/고유 기록 ID로 주기를 계산한다. 600판 경계를 넘긴 후에도 5판 주기가 유지되는 검사를 추가한다.",
+      "repro": "repro/pace-rollover.cjs; evidence/pace-rollover.json",
+      "regression": "새 진행 속도 기능의 장기 사용 경계."
+    },
+    {
+      "id": "T06",
+      "priority": "P2",
+      "classification": "오류",
+      "area": "학습 성취 설명",
+      "title": "세트 완료 대사가 개편 전 수치와 근거 없는 독해 보장을 그대로 말한다",
+      "location": {
+        "file": "vocagoyangfable.html",
+        "line": 2060
+      },
+      "evidence": "22세트 완료 대사는 ‘BIG MOUNTAIN 정상…2,183단어 완등’, 실제 현재 번호는 2683~2785이고 뒤 과정이 남아 있다. 32세트는 ‘COCA 5,000 완주…본문 84%’, 41세트는 ‘모르는 단어가 스무 개에 하나뿐’이라고 단정한다. 0~17세트 대사는 마더텅 유형(글 제목·도표·장문·빈칸 추론 등)에 붙던 설명이 남아 있다. 48세트의 ‘단어 가족’도 현재 용어 word family와 불일치한다.",
+      "impact": "성취를 설명하는 문구가 실제 배운 과정과 맞지 않는다. 유머를 살리는 것과 객관적 어휘량·독해율을 잘못 알려 주는 것은 별개다. PRINCIPLES 11의 수치 과장 금지와도 충돌한다.",
+      "recommendation": "LESSONCLEAR 전 항목을 현재 FABLE 세트 구성과 대조한다. 세트 번호/실제 배운 내용으로 축하하고 확인되지 않은 완등·coverage 보장은 빼거나 한정한다. 48은 word family로 통일. 시각 디자인을 바꿀 필요는 없다.",
+      "regression": "기존 문구가 누적 개편을 따라오지 못한 문제."
+    },
+    {
+      "id": "M01",
+      "priority": "P3",
+      "classification": "보완",
+      "area": "측정값 공개",
+      "title": "인덱스의 수능 지문 95%는 기록된 94.0% 및 발췌 표본 범위와 맞추는 편이 정확하다",
+      "location": {
+        "file": "index.html",
+        "line": 97
+      },
+      "evidence": "PRINCIPLES 2-8에 기록된 Oxford 보강 후 실측은 발췌 전체 94.0%, 정답 단어를 뺀 부분 97.2%다. 인덱스는 ‘수능 지문 95%’, 주석은 ‘수록 기출 지문의 단어로 잰 값’이다. 문서상 표본은 전체 지문이 아니라 표제어 중심으로 자른 3,703개 발췌이므로 분모가 다르다.",
+      "impact": "교육 방향에는 영향이 없지만 실제 측정보다 강하게 일반화한 숫자로 읽힌다. 이번 검토에서는 원 PDF 전체에 대한 새로운 coverage 측정을 하지 않았다.",
+      "recommendation": "짧게 ‘기출 발췌 어휘 약 94%’처럼 실제 값과 분모를 맞추거나, 전체 지문을 별도로 측정한 뒤 그 수치를 사용한다. 기존 승인 문구를 뒤집는 제안이므로 영신과 확인 후 반영한다.",
+      "regression": "내용 수정 제안. 기존 사용자 승인 수치 표기를 자동 변경하지 않는다."
+    }
+  ],
+  "content": [
+    {
+      "id": "C017-01",
+      "priority": "P2",
+      "classification": "confirmed",
+      "title": "control①의 7칸에 contain도 자연스럽지만 대체어 안내가 없다",
+      "why": "뜻(통제하다·조절하다), 7칸, 현재 예문을 함께 주어도 contain을 배제할 수 없다. contain your anger는 실제 사전에도 실린 정상 표현이며, 현재 c와 meow는 모두 비어 있다. 정답을 표제어로 제한하는 정책은 유지하되, contain이 부적절한 조절 대상이 나오는 예문으로 바꾸는 것이 가장 간결하다. 누락된 동의어를 모두 모으자는 지적이 아니라 동일 칸 수의 실제 자연스러운 답이 현재 규칙상 설명 없이 오답이 되는 구체 사례다. 실제 런타임에서 해당 대체어는 정답 별칭으로 허용되지 않으며 공통 동의어 대사도 감지하지 못한다. 표제어만 정답으로 두는 정책은 유지한다.",
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/contain?q=contains",
+          "supports": "CONTROL 뜻과 contain her anger 용례를 직접 확인."
+        }
+      ],
+      "edits": [
+        {
+          "set": 3,
+          "word": "control",
+          "si": 1,
+          "savedCardId": "[\"3세트\",\"Exercise 1 · 201~210\",\"control\",1,\"\"]",
+          "exercise_key": "Exercise 1 · 201~210",
+          "source_locations": [
+            {
+              "file": "pipeline/out/lesson03.json",
+              "line": 14
+            }
+          ],
+          "current": {
+            "ko": "① 통제하다, 조절하다",
+            "ex": "It's hard to {{BLANK}} your anger sometimes.",
+            "tr": "가끔은 화를 다스리기 어려워.",
+            "c": "",
+            "meow": ""
+          },
+          "proposed": {
+            "ex": "You can {{BLANK}} how loud the TV is.",
+            "tr": "TV 소리가 얼마나 큰지 조절할 수 있어."
+          }
+        }
+      ],
+      "runtime_alternative_check": {
+        "set": 3,
+        "word": "control",
+        "si": 1,
+        "alternative": "contain",
+        "aliasHit": false,
+        "synonymFeedback": false,
+        "c": "",
+        "meow": ""
+      },
+      "alternative": "contain"
+    },
+    {
+      "id": "C017-02",
+      "priority": "P2",
+      "classification": "confirmed",
+      "title": "pretty①의 6칸에 lovely도 자연스럽지만 대체어 안내가 없다",
+      "why": "She has a lovely smile은 6칸에도 뜻(예쁜)에도 문맥에도 맞는다. Oxford는 lovely smile을 명시적으로 제시한다. 현재 c/meow가 모두 비어 있어 lovely를 쓴 학습자는 정상 표현을 잘못 썼다고 오인할 수 있다. 예쁜 미소를 특정한 형용사 하나에 억지로 묶기보다 합의대로 이 의미의 대체 가능성을 짧게 밝히는 편이 낫다. 실제 런타임에서 해당 대체어는 정답 별칭으로 허용되지 않으며 공통 동의어 대사도 감지하지 못한다. 표제어만 정답으로 두는 정책은 유지한다.",
+      "sources": [
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/us/definition/american_english/lovely_1",
+          "supports": "pretty와 lovely의 외양 의미 및 lovely smile 결합."
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/thesaurus/lovely",
+          "supports": "아름답다는 의미의 pretty와 lovely 관계."
+        }
+      ],
+      "edits": [
+        {
+          "set": 3,
+          "word": "pretty",
+          "si": 1,
+          "savedCardId": "[\"3세트\",\"Exercise 2 · 211~220\",\"pretty\",1,\"\"]",
+          "exercise_key": "Exercise 2-1 · 211~220",
+          "source_locations": [
+            {
+              "file": "pipeline/out/lesson03.json",
+              "line": 275
+            }
+          ],
+          "current": {
+            "ko": "① 예쁜",
+            "ex": "She has a {{BLANK}} smile.",
+            "tr": "그녀는 미소가 예뻐.",
+            "c": "",
+            "meow": ""
+          },
+          "proposed": {
+            "c": "예쁘다는 뜻에서는 lovely로 바꿔 써도 된다."
+          }
+        }
+      ],
+      "runtime_alternative_check": {
+        "set": 3,
+        "word": "pretty",
+        "si": 1,
+        "alternative": "lovely",
+        "aliasHit": false,
+        "synonymFeedback": false,
+        "c": "",
+        "meow": ""
+      },
+      "alternative": "lovely"
+    },
+    {
+      "id": "C017-I01",
+      "priority": "P3",
+      "classification": "improvement",
+      "title": "invent①은 수 자체보다 숫자를 적는 체계라는 범위를 밝혀 주면 더 정확하다",
+      "why": "인도 기원이라는 핵심은 맞다. 다만 현재 영어 The numbers 0 to 9 were invented in India는 수 개념 전체, 현대 숫자 모양, 십진 자릿값 표기 체계를 한꺼번에 읽히게 한다. 세인트앤드루스 수학사 자료는 이 셋을 구별하며, 현대 형태는 후대에 변화했다고 설명한다. 역사 오류로 단정하기보다는 학습용 정확성 개선으로 분류한다.",
+      "sources": [
+        {
+          "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Indian_numerals/",
+          "supports": "인도에서 나온 자릿값·십진 표기 체계와 현대 기호 형태의 변화를 구분."
+        }
+      ],
+      "edits": [
+        {
+          "set": 17,
+          "word": "invent",
+          "si": 1,
+          "savedCardId": "[\"17세트\",\"Exercise 5 · 1641~1650\",\"invent\",1,\"\"]",
+          "exercise_key": "Exercise 5 · 1641~1650",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set17.json",
+              "line": 785
+            }
+          ],
+          "current": {
+            "ko": "① 발명하다",
+            "ex": "The numbers 0 to 9 were {{BLANK}}ed in India, not in Arabia.",
+            "tr": "숫자 0부터 9는 아라비아가 아니라 인도에서 발명됐어.",
+            "c": "없던 걸 만들면 invent, 있던 걸 찾아내면 discover.",
+            "meow": ""
+          },
+          "proposed": {
+            "ex": "The system of writing numbers with 0 to 9 was {{BLANK}}ed in India.",
+            "tr": "0부터 9까지의 기호로 수를 적는 체계는 인도에서 발명됐어."
+          }
+        }
+      ]
+    },
+    {
+      "id": "C017-I02",
+      "priority": "P3",
+      "classification": "improvement",
+      "title": "few/a few 대비는 설명뿐이고 0~17 예문에는 a few가 한 번도 없다",
+      "why": "1세트 few①의 해설은 정확하다. 하지만 0~17의 정답을 채운 3,175개 실제 예문에서 a few는 0회이고, 수량사 few의 부정적 용례는 few① 1회다. 반면 수량사 a little은 apply④·oil①에서 실제 문장으로 두 번 만난다. 전체 후반에 없다는 주장이 아니다. 기초 구간에서 a 유무에 따른 의미 차이를 자연스럽게 반복할 작은 기회가 빠져 있다는 개선 제안이다. 새 카드 없이 기존의 평범한 bean 예문 하나만 바꿔도 된다.",
+      "sources": [],
+      "edits": [
+        {
+          "set": 15,
+          "word": "bean",
+          "si": 1,
+          "savedCardId": "[\"15세트\",\"Exercise 7 · 1461~1470\",\"bean\",1,\"\"]",
+          "exercise_key": "Exercise 7 · 1461~1470",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set15.json",
+              "line": 1042
+            }
+          ],
+          "current": {
+            "ko": "① 콩",
+            "ex": "This soup has lots of {{BLANK}}s in it.",
+            "tr": "이 수프엔 콩이 잔뜩 들었어.",
+            "c": "",
+            "meow": ""
+          },
+          "proposed": {
+            "ex": "Add a few {{BLANK}}s to the soup.",
+            "tr": "수프에 콩을 몇 알 넣어."
+          }
+        }
+      ]
+    },
+    {
+      "id": "S18-34-01",
+      "priority": "P2",
+      "classification": "confirmed",
+      "title": "clause 예문이 자기 자신의 절 수를 잘못 말한다",
+      "why": "화면에 제시된 This sentence has two clauses in it.에는 주어 This sentence와 동사 has가 있는 절 하나뿐이다. 다른 예문이나 도식도 없어서 this sentence가 가리킬 두 절 문장을 찾을 수 없다. 문법 용어 자체를 가르치는 카드에서 예문 내용과 실제 구조가 정면으로 어긋난다. 문장 자체의 통사 구조가 틀렸다는 지적은 아니다. 외부의 두 절 문장을 가리킨다면 성립하지만, 현재 게임 화면에는 그 문장이 없으므로 독립 카드의 자기 설명으로는 부정확하다.",
+      "sources": [
+        {
+          "title": "Purdue OWL — Independent/dependent clauses and punctuation",
+          "url": "https://owl.purdue.edu/owl/general_writing/punctuation/independent_and_dependent_clauses/runonsentences.html"
+        }
+      ],
+      "note": "",
+      "edits": [
+        {
+          "set": 25,
+          "word": "clause",
+          "si": 2,
+          "savedCardId": "[\"33세트\",\"Exercise 3 · 3204~3213\",\"clause\",2,\"\"]",
+          "exercise_key": "Exercise 13-2 · 사건과 활동",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set33.json",
+              "line": 455
+            }
+          ],
+          "current": {
+            "ko": "② (문법) 절",
+            "ex": "This sentence has two {{BLANK}}s in it.",
+            "tr": "이 문장에는 절이 두 개 들어 있어.",
+            "c": "주어와 동사를 갖춘 형태가 대표적이다. main clause는 주절, subordinate clause는 종속절.",
+            "meow": ""
+          },
+          "proposed": {
+            "ex": "This sentence has two {{BLANK}}s, and each has a verb.",
+            "tr": "이 문장은 절이 두 개이고, 각각 동사가 있어.",
+            "c": "main clause는 주절, subordinate clause는 종속절."
+          }
+        }
+      ]
+    },
+    {
+      "id": "S18-34-02",
+      "priority": "P2",
+      "classification": "confirmed",
+      "title": "apparent의 의미가 명사 앞 위치만으로 결정된다고 가르친다",
+      "why": "겉보기의 뜻은 명사 앞에서 쓰이지만 그 역은 성립하지 않는다. for no apparent reason의 apparent는 명사 앞이면서도 분명히 알 수 있는 뜻이다. 현재 해설은 명사 앞이면 외견상의 뜻으로 자동 해석하게 만든다. 예문 Despite his apparent calm... 자체는 적절하다.",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary — apparent, both senses and no apparent reason",
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/apparent"
+        }
+      ],
+      "note": "",
+      "edits": [
+        {
+          "set": 32,
+          "word": "apparent",
+          "si": 2,
+          "savedCardId": "[\"32세트\",\"Exercise 11 · 드러남과 숨김\",\"apparent\",2,\"\"]",
+          "exercise_key": "Exercise 11 · 드러남과 숨김",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set32.json",
+              "line": 1552
+            }
+          ],
+          "current": {
+            "ko": "② 겉보기의, 외견상의",
+            "ex": "Despite his {{BLANK}} calm, his hands were shaking.",
+            "tr": "겉으로는 침착해 보였지만 그의 손은 떨리고 있었어.",
+            "c": "명사 앞에서는 '겉보기에 그런(실제와 다를 수 있는)'이란 뜻이 된다.",
+            "meow": ""
+          },
+          "proposed": {
+            "c": "겉으로는 그렇지만 실제로는 다를 수 있다는 뜻. 명사 앞에서도 '분명한'이라는 뜻이 가능하다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "S18-34-03",
+      "priority": "P2",
+      "classification": "confirmed",
+      "title": "smart에 인터넷 연결과 자율 작동을 필수 의미로 덧붙였다",
+      "why": "기술 용어 smart는 컴퓨터/마이크로프로세서로 제어하거나 정보를 처리하는 기능을 가리킨다. 인터넷 연결과 스스로 알아서 작동이 언제나 함께 요구되는 것은 아니다. ko와 농장 예문은 맞는데 c만 의미를 불필요하게 좁혀 smart card 같은 용법을 오해하게 한다.",
+      "sources": [
+        {
+          "title": "Merriam-Webster — smart, adjective sense 4",
+          "url": "https://www.merriam-webster.com/dictionary/smart"
+        }
+      ],
+      "note": "",
+      "edits": [
+        {
+          "set": 19,
+          "word": "smart",
+          "si": 2,
+          "savedCardId": "[\"19세트\",\"Exercise 11 · 과학과 환경\",\"smart\",2,\"\"]",
+          "exercise_key": "Exercise 11-2 · 과학과 환경",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set19.json",
+              "line": 1774
+            }
+          ],
+          "current": {
+            "ko": "② (기기 등이) 컴퓨터로 제어되는",
+            "ex": "{{BLANK}} farms use computers to control water and light for plants.",
+            "tr": "스마트 농장은 컴퓨터로 식물에 줄 물과 빛을 조절해.",
+            "c": "smartphone의 smart. 인터넷에 연결돼 스스로 알아서 작동한다는 뜻.",
+            "meow": ""
+          },
+          "proposed": {
+            "c": "컴퓨터 기술로 기능을 제어하는. smartphone·smart TV에도 쓰인다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "S18-34-04",
+      "priority": "P2",
+      "classification": "confirmed",
+      "title": "농업 70%의 분모가 담수 총량으로 바뀌었다",
+      "why": "근거 수치는 세계에 존재하는 담수의 70%가 아니라 사람이 끌어 쓰는 담수 취수량 중 농업 몫이다. 현재 예문과 번역은 이 중요한 분모를 빠뜨렸다. 70%는 최근 FAO의 72%에 대한 대략값으로 유지해도 된다.",
+      "sources": [
+        {
+          "title": "FAO — Agricultural water management (72% of freshwater withdrawals)",
+          "url": "https://www.fao.org/land-water/water/agricultural-water-management/water-scarcity/"
+        },
+        {
+          "title": "FAO SDG 6.4.2 — Water stress",
+          "url": "https://www.fao.org/sustainable-development-goals-data-portal/data/indicators/642-water-stress/2/en"
+        }
+      ],
+      "note": "withdrawals 대신 taken from nature로 분모를 자연에서 끌어 쓰는 담수로 한정한다. 지구에 존재하는 담수 전체와 구별하면서 새 전문용어를 피한다. 약 70%는 FAO 약 72%의 반올림이다.",
+      "edits": [
+        {
+          "set": 31,
+          "word": "agriculture",
+          "si": 1,
+          "savedCardId": "[\"31세트\",\"Exercise 12 · 자연과 환경\",\"agriculture\",1,\"\"]",
+          "exercise_key": "Exercise 12-1 · 자연과 환경",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set31.json",
+              "line": 2196
+            }
+          ],
+          "current": {
+            "ko": "① 농업",
+            "ex": "{{BLANK}} uses about 70 percent of the world's fresh water.",
+            "tr": "농업은 세계 담수의 약 70%를 써.",
+            "c": "agri-(밭)+culture(기르기). 형용사는 agricultural.",
+            "meow": ""
+          },
+          "proposed": {
+            "ex": "{{BLANK}} uses about 70 percent of the fresh water taken from nature.",
+            "tr": "자연에서 끌어 쓰는 담수의 약 70%가 농업에 쓰여."
+          }
+        }
+      ]
+    },
+    {
+      "id": "S18-34-05",
+      "priority": "P3",
+      "classification": "improvement",
+      "title": "학습용 창작 예문 네 곳의 comma splice를 정돈한다",
+      "why": "각 예문은 독립절 두 개를 접속사 없이 쉼표 하나로 잇는다. 짧은 구어의 쉼표 연결은 실제 사용되지만, 문법 학습까지 의도한 직접 만든 기본 예문에서는 마침표나 콜론으로 손쉽게 정돈할 수 있다. 인용문에 있는 작가의 쉼표 연결은 이 지적에 포함하지 않는다.",
+      "sources": [
+        {
+          "title": "Purdue OWL — Run-ons / Comma splices",
+          "url": "https://owl.purdue.edu/owl/general_writing/punctuation/independent_and_dependent_clauses/runonsentences.html"
+        }
+      ],
+      "note": "P3 편집 오류. 실제 회화의 허용 범위를 부정하는 지적은 아니다.",
+      "edits": [
+        {
+          "set": 18,
+          "word": "bee",
+          "si": 1,
+          "savedCardId": "[\"18세트\",\"Exercise 7 · 1761~1770\",\"bee\",1,\"\"]",
+          "exercise_key": "Exercise 7 · 1761~1770",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set18.json",
+              "line": 1081
+            }
+          ],
+          "current": {
+            "ko": "① 벌",
+            "ex": "Don't move, a {{BLANK}} is on your arm.",
+            "tr": "움직이지 마, 네 팔에 벌 있어.",
+            "c": "",
+            "meow": "bee, 벌은 구경만 하라고양. 쏘이면 너만 아프다고양."
+          },
+          "proposed": {
+            "ex": "Don't move. A {{BLANK}} is on your arm."
+          }
+        },
+        {
+          "set": 24,
+          "word": "zone",
+          "si": 1,
+          "savedCardId": "[\"24세트\",\"Exercise 9 · 2364~2373\",\"zone\",1,\"\"]",
+          "exercise_key": "Exercise 9-1 · 2364~2373",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set24.json",
+              "line": 1374
+            }
+          ],
+          "current": {
+            "ko": "① 구역, 지대",
+            "ex": "Slow down, this is a school {{BLANK}}.",
+            "tr": "천천히 가, 여긴 스쿨존이야.",
+            "c": "time zone: 시간대.",
+            "meow": ""
+          },
+          "proposed": {
+            "ex": "Slow down. This is a school {{BLANK}}."
+          }
+        },
+        {
+          "set": 29,
+          "word": "blanket",
+          "si": 1,
+          "savedCardId": "[\"29세트\",\"Exercise 8 · 2854~2863\",\"blanket\",1,\"\"]",
+          "exercise_key": "Exercise 8 · 2854~2863",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set29.json",
+              "line": 1245
+            }
+          ],
+          "current": {
+            "ko": "① 담요",
+            "ex": "Pull the {{BLANK}} up, it's cold tonight.",
+            "tr": "담요를 끌어 올려, 오늘 밤은 추워.",
+            "c": "a blanket of snow는 담요처럼 땅을 덮은 눈.",
+            "meow": ""
+          },
+          "proposed": {
+            "ex": "Pull the {{BLANK}} up. It's cold tonight."
+          }
+        },
+        {
+          "set": 30,
+          "word": "timing",
+          "si": 1,
+          "savedCardId": "[\"30세트\",\"Exercise 2 · 2894~2903\",\"timing\",1,\"\"]",
+          "exercise_key": "Exercise 2 · 2894~2903",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set30.json",
+              "line": 266
+            }
+          ],
+          "current": {
+            "ko": "① 타이밍, 시점",
+            "ex": "Your {{BLANK}} was perfect, the bus just came.",
+            "tr": "너 타이밍 완벽했어, 버스가 방금 왔거든.",
+            "c": "time+-ing. good/bad timing처럼 쓴다. 셀 수 없는 명사다.",
+            "meow": ""
+          },
+          "proposed": {
+            "ex": "Your {{BLANK}} was perfect: the bus just came."
+          }
+        }
+      ]
+    },
+    {
+      "id": "S18-34-06",
+      "priority": "P3",
+      "classification": "improvement",
+      "title": "data 앞 careful은 부자연스러운 결합이다",
+      "why": "자료 자체는 accurate/detailed/reliable, 수집·관찰 행위는 careful이라고 하는 편이 자연스럽다. careful data는 의미 추론은 되지만 학습자가 그대로 익힐 만한 대표 결합이 아니다. 역사적 사실은 유지하고 목적격 관계대명사 생략도 자연스럽게 연습할 수 있다.",
+      "sources": [
+        {
+          "title": "NASA — Orbits and Kepler’s Laws, Tycho’s accurate observations and planetary data",
+          "url": "https://science.nasa.gov/solar-system/orbits-and-keplers-laws/"
+        }
+      ],
+      "note": "문법 불가능 판정이 아닌 결합·자연스러움 개선. NASA는 역사적 내용만 뒷받침한다.",
+      "edits": [
+        {
+          "set": 23,
+          "word": "data",
+          "si": 1,
+          "savedCardId": "[\"fable-pool-20260927-set23-ex2\",\"Exercise 2 · 2194~2203\",\"data\",1,\"\"]",
+          "exercise_key": "Exercise 2-1 · 2194~2203",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set23.json",
+              "line": 263
+            }
+          ],
+          "current": {
+            "ko": "① 자료, 데이터",
+            "ex": "Tycho Brahe's careful {{BLANK}} helped Kepler find out how planets move.",
+            "tr": "티코 브라헤의 꼼꼼한 자료 덕분에 케플러는 행성의 움직임을 알아냈어.",
+            "c": "라틴어 복수형(단수 datum). 요즘은 The data is도 널리 쓴다.",
+            "meow": ""
+          },
+          "proposed": {
+            "ex": "The {{BLANK}} Tycho Brahe collected helped Kepler learn how planets move.",
+            "tr": "티코 브라헤가 모은 자료 덕분에 케플러는 행성의 움직임을 알아냈어."
+          }
+        }
+      ]
+    },
+    {
+      "id": "S18-34-07",
+      "priority": "P3",
+      "classification": "improvement",
+      "title": "ape의 꼬리·크기 설명을 분류 기준처럼 단정한다",
+      "why": "현재 c는 큰 꼬리 없는 원숭이=ape, 꼬리 있는 원숭이=monkey라는 이분법을 만든다. ape에는 작은 긴팔원숭이도 있고 monkey인 바바리마카크는 꼬리가 없다. 예문도 humans and other apes로 하면 인간 역시 유인원이라는 분류를 자연스럽게 담을 수 있다.",
+      "sources": [
+        {
+          "title": "San Diego Zoo — Monkey (tailless Barbary macaque)",
+          "url": "https://animals.sandiegozoo.org/animals/monkey"
+        },
+        {
+          "title": "San Diego Zoo — Siamang (lesser ape)",
+          "url": "https://animals.sandiegozoo.org/animals/siamang"
+        }
+      ],
+      "note": "사전의 초급식 대표 특징 설명으로 이해는 된다. 전문 예외를 길게 늘이지 않고 대부분 한 단어로 보정하는 낮은 우선순위 개선이다.",
+      "edits": [
+        {
+          "set": 26,
+          "word": "ape",
+          "si": 1,
+          "savedCardId": "[\"26세트\",\"Exercise 11 · 지식 어휘 Ⅱ\",\"ape\",1,\"\"]",
+          "exercise_key": "Exercise 11 · 지식 어휘 Ⅱ",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set26.json",
+              "line": 1882
+            }
+          ],
+          "current": {
+            "ko": "① 유인원",
+            "ex": "Humans and {{BLANK}}s share a common ancestor.",
+            "tr": "인간과 유인원은 공통 조상을 가지고 있어.",
+            "c": "침팬지·고릴라처럼 꼬리 없는 큰 원숭이류. 꼬리 있는 원숭이는 monkey.",
+            "meow": ""
+          },
+          "proposed": {
+            "ex": "Humans and other {{BLANK}}s share a common ancestor.",
+            "tr": "인간과 다른 유인원들은 공통 조상을 가지고 있어.",
+            "c": "침팬지·고릴라·긴팔원숭이 등. monkey는 대부분 꼬리가 있지만 ape는 없다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "S18-34-08",
+      "priority": "P3",
+      "classification": "improvement",
+      "title": "sting 고양이 대사에 꿀벌이 죽는 조건을 짧게 붙인다",
+      "why": "사람처럼 피부가 두꺼운 포유류를 쏜 일벌은 침이 박혀 죽지만 다른 곤충을 쏠 때는 반복해서 쏠 수 있다. 예문의 you 문맥에서는 의도는 통하므로 핵심 오류로 올리지 않는다. 농담은 살리고 사람을이라는 조건만 주면 더 정확하다.",
+      "sources": [
+        {
+          "title": "University of Florida — Field Guide to Beekeeping: Stings",
+          "url": "https://entnemdept.ufl.edu/media/entnemdeptifasufledu/honeybee/pdfs/abj-field-guide-to-beekeeping/25%2C-January-2016%2C-Stings%2C-low-res.pdf"
+        },
+        {
+          "title": "Utah State University Extension — Misconceptions About Bees",
+          "url": "https://extension.usu.edu/utah4h/research/creating-sustainable-school-and-home-gardens-misconceptions-about-bees"
+        }
+      ],
+      "note": "",
+      "edits": [
+        {
+          "set": 22,
+          "word": "sting",
+          "si": 1,
+          "savedCardId": "[\"22세트\",\"Exercise 7 · 2161~2170\",\"sting\",1,\"\"]",
+          "exercise_key": "Exercise 7 · 2161~2170",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set22.json",
+              "line": 843
+            }
+          ],
+          "current": {
+            "ko": "① (침으로) 쏘다",
+            "ex": "Watch out — those bees may {{BLANK}} you!",
+            "tr": "조심해, 저 벌들이 쏠 수도 있어!",
+            "c": "벌·전갈이 침으로 '쏘다'. 과거형·과거분사는 stung.",
+            "meow": "꿀벌은 한 번 sting 하면 죽는다고양. 너는 틀려도 안 죽으니 다시 하라고양."
+          },
+          "proposed": {
+            "c": "벌·전갈이 침으로 쏘다. 과거·과거분사는 stung.",
+            "meow": "사람을 sting한 꿀벌 일벌은 죽는다고양. 넌 틀려도 안 죽으니 다시 하라고양."
+          }
+        }
+      ]
+    },
+    {
+      "id": "S18-34-09",
+      "priority": "P3",
+      "classification": "improvement",
+      "title": "species의 추정치를 생물 전체의 확정적 기준처럼 읽게 한다",
+      "why": "800만 전후 수치의 대표 원 연구(Mora 2011)의 약 870만 추정은 진핵생물을 대상으로 한다. 원핵생물에도 접근을 적용했지만 분류군이 포화되지 않아 원자료에 따른 제한적인 하한 추정에 그친다. 현재 문장은 Scientists think로 추정임을 드러내지만 지구의 전체 생물을 그 숫자로 묶는다. 이 카드에서 진핵생물 설명까지 늘리기보다 알려지지 않은 수백만 종이라는 내용으로 바꾸는 편이 간결하다.",
+      "sources": [
+        {
+          "title": "Mora et al. (2011), How Many Species Are There on Earth and in the Ocean?",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001127"
+        }
+      ],
+      "note": "원 논문의 대중 요약에서도 총 종수처럼 표현하는 경우가 있어 P2 사실오류가 아니라 엄밀성 개선으로 분류했다.",
+      "edits": [
+        {
+          "set": 26,
+          "word": "species",
+          "si": 1,
+          "savedCardId": "[\"26세트\",\"Exercise 11 · 지식 어휘 Ⅱ\",\"species\",1,\"\"]",
+          "exercise_key": "Exercise 11 · 지식 어휘 Ⅱ",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set26.json",
+              "line": 1726
+            }
+          ],
+          "current": {
+            "ko": "① (생물의) 종",
+            "ex": "Scientists think there are about 8 million {{BLANK}} on Earth.",
+            "tr": "과학자들은 지구에 약 800만 종의 생물이 있다고 생각해.",
+            "c": "단수와 복수가 같다(a species, two species).",
+            "meow": ""
+          },
+          "proposed": {
+            "ex": "Scientists think that millions of {{BLANK}} remain unknown.",
+            "tr": "과학자들은 아직 알려지지 않은 종이 수백만에 이른다고 생각해."
+          }
+        }
+      ]
+    },
+    {
+      "id": "S18-34-10",
+      "priority": "P3",
+      "classification": "improvement",
+      "title": "edition 해설이 판과 추가 인쇄의 차이를 흐린다",
+      "why": "같은 책을 새로 찍어 낸 차례는 보통 인쇄 횟수(쇄)로 읽힌다. edition은 내용·형식 등으로 구분되는 판이고 같은 판이 여러 번 인쇄될 수 있다. 초판 수집이라는 예문은 좋은데 현재 c의 풀이를 고치면 유용하다.",
+      "sources": [
+        {
+          "title": "Oxford Learner’s Dictionaries — edition",
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/edition"
+        },
+        {
+          "title": "Cambridge Dictionary — edition",
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/edition"
+        }
+      ],
+      "note": "edition의 넓은 사전 뜻에는 동시 발행 부수도 포함되므로 현행을 전면 오역이라고 단정하지 않는다. 이 카드의 책의 판 용법에 맞춘 개선.",
+      "edits": [
+        {
+          "set": 29,
+          "word": "edition",
+          "si": 1,
+          "savedCardId": "[\"29세트\",\"Exercise 11 · 말과 글\",\"edition\",1,\"\"]",
+          "exercise_key": "Exercise 11 · 말과 글",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set29.json",
+              "line": 1880
+            }
+          ],
+          "current": {
+            "ko": "① (책의) 판",
+            "ex": "My dad collects first {{BLANK}}s of old books.",
+            "tr": "우리 아빠는 오래된 책의 초판을 모아.",
+            "c": "같은 책을 새로 찍어 낸 차례. first edition은 초판.",
+            "meow": ""
+          },
+          "proposed": {
+            "c": "내용·형식으로 구별되는 판. first edition은 초판."
+          }
+        }
+      ]
+    },
+    {
+      "id": "S18-34-11",
+      "priority": "P3",
+      "classification": "improvement",
+      "title": "multiple과 multiple-choice의 수 제약을 분리한다",
+      "why": "현재 c는 multiple-choice 설명 직후 뒤에 복수 명사가 온다고 해서 multiple-choice question/test까지 복수만 가능하다고 읽히기 쉽다. 실제로 a multiple-choice question도 맞다. 여러의 뜻인 multiple 자체와 복합형용사 multiple-choice를 나눠 설명하면 된다.",
+      "sources": [
+        {
+          "title": "Cambridge University Press — Multiple-choice questions, singular a multiple-choice question example",
+          "url": "https://www.cambridge.org/core/books/abs/guide-to-teaching-information-literacy/multiplechoice-questions/6E998DA14070B666B34112003C89CFFD"
+        },
+        {
+          "title": "Cambridge Assessment — How to write good multiple-choice questions",
+          "url": "https://www.cambridgeassessment.org.uk/blogs/writing-good-multiple-choice-questions/"
+        }
+      ],
+      "note": "",
+      "edits": [
+        {
+          "set": 31,
+          "word": "multiple",
+          "si": 1,
+          "savedCardId": "[\"31세트\",\"Exercise 11 · 많고 큰 것\",\"multiple\",1,\"\"]",
+          "exercise_key": "Exercise 11 · 많고 큰 것",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set31.json",
+              "line": 1961
+            }
+          ],
+          "current": {
+            "ko": "① 여러, 다수의",
+            "ex": "The final exam has 30 {{BLANK}}-choice questions.",
+            "tr": "기말시험에는 객관식 문제가 30개 있어.",
+            "c": "multiple-choice는 여러 보기 중에 고르는 '객관식'. 뒤에 복수 명사가 온다.",
+            "meow": ""
+          },
+          "proposed": {
+            "c": "multiple은 '여러'. multiple-choice는 '객관식의'라는 뜻으로 단수 명사도 꾸민다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "C35-50-01",
+      "priority": "P3",
+      "classification": "improvement",
+      "title": "harsh: 겨울 자체가 영하 50도로 떨어지는 주어 선택",
+      "why": "겨울의 추위를 줄여 말한 의도는 이해되지만, 온도 수치 아래로 떨어지는 것은 winters보다 temperatures로 쓰는 편이 자연스럽다. 문법적으로 절대 불가능하다는 판정이 아니라 학습용 대표 문장의 결합을 다듬자는 제안이다.",
+      "sources": [],
+      "edits": [
+        {
+          "set": 39,
+          "word": "harsh",
+          "si": 1,
+          "savedCardId": "[\"39세트\",\"Exercise 12 · 시련과 회복\",\"harsh\",1,\"\"]",
+          "exercise_key": "Exercise 12 · 시련과 회복",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set39.json",
+              "line": 1800
+            }
+          ],
+          "current": {
+            "ko": "① 가혹한, 혹독한",
+            "ex": "Siberia's {{BLANK}} winters can drop below minus 50°C.",
+            "tr": "시베리아의 혹독한 겨울은 영하 50도 아래로 떨어지기도 해.",
+            "c": "harsh words(모진 말), harsh punishment(가혹한 처벌)처럼도 쓴다.",
+            "meow": ""
+          },
+          "proposed": {
+            "ex": "In Siberia's {{BLANK}} winters, temperatures can fall below minus 50°C.",
+            "tr": "시베리아의 혹독한 겨울에는 기온이 영하 50도 아래로도 내려가."
+          }
+        }
+      ]
+    },
+    {
+      "id": "C35-50-02",
+      "priority": "P2",
+      "classification": "confirmed",
+      "title": "span: 하루살이 성충의 수명을 전체 생애로 가르침",
+      "why": "하루살이의 유충기는 몇 달~몇 년이다. 몇 시간~며칠은 성충 단계에 해당한다. 현재 예문과 번역에는 성충이라는 한정이 없어 잘못된 상식을 반복 학습시킨다.",
+      "sources": [
+        {
+          "url": "https://mdc.mo.gov/discover-nature/field-guide/mayflies"
+        },
+        {
+          "url": "https://www.gov.nt.ca/ecc/en/services/biodiversity/mayflies"
+        }
+      ],
+      "edits": [
+        {
+          "set": 44,
+          "word": "span",
+          "si": 1,
+          "savedCardId": "[\"44세트\",\"Exercise 12 · 때와 기간\",\"span\",1,\"\"]",
+          "exercise_key": "Exercise 12 · 때와 기간",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set44.json",
+              "line": 1778
+            }
+          ],
+          "current": {
+            "ko": "① (지속되는) 기간, 시간",
+            "ex": "Mayflies have a very short life {{BLANK}}: often just a day.",
+            "tr": "하루살이는 수명이 아주 짧아. 겨우 하루인 경우가 많아.",
+            "c": "life span(수명), attention span(집중 시간)으로 쓴다.",
+            "meow": ""
+          },
+          "proposed": {
+            "ex": "Some insects have an adult life {{BLANK}} of just one day.",
+            "tr": "어떤 곤충들은 성충이 된 뒤 수명이 겨우 하루야."
+          }
+        }
+      ]
+    },
+    {
+      "id": "C35-50-03",
+      "priority": "P2",
+      "classification": "confirmed",
+      "title": "arguably: 논증 가능한 판단을 거의 확실한 판단으로 좁힌 뜻풀이",
+      "why": "'거의 틀림없이'는 확실성의 정도를 지나치게 높인다. arguably는 근거를 들어 그렇게 주장할 수 있다는 한정이고, 사전도 확실하지는 않을 수 있음을 명시한다. 인쇄기가 모든 발명보다 중요하다는 평가에 붙은 이 한정을 익혀야 한다. 현재 c는 근거라는 뜻을 보충하지만 KO의 확실성 오독을 막지 못한다. 일부 영한사전에 쓰이는 번역이라는 이유만으로 부적절하다고 한 것은 아니며, 현재 예문에서의 학습 결과를 근거로 삼았다.",
+      "sources": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/arguably"
+        },
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/arguably"
+        }
+      ],
+      "edits": [
+        {
+          "set": 42,
+          "word": "arguably",
+          "si": 1,
+          "savedCardId": "[\"42세트\",\"Exercise 15 · 짐작과 확신\",\"arguably\",1,\"\"]",
+          "exercise_key": "Exercise 15 · 짐작과 확신",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set42.json",
+              "line": 2182
+            }
+          ],
+          "current": {
+            "ko": "① 거의 틀림없이",
+            "ex": "{{BLANK}}, the printing press changed history more than any other invention.",
+            "tr": "인쇄기만큼 역사를 크게 바꾼 발명품은 없다고 해도 과언이 아니야.",
+            "c": "'논란의 여지가 있게'가 아니다. 그렇게 주장할 근거가 충분하다는 말.",
+            "meow": ""
+          },
+          "proposed": {
+            "ko": "① ~라고 할 만하게",
+            "tr": "인쇄기는 다른 어떤 발명보다 역사를 크게 바꿨다고 할 만해.",
+            "c": "그렇게 주장할 근거가 있다는 뜻. 의심할 여지 없이 확실하다는 말은 아니다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "C35-50-04",
+      "priority": "P2",
+      "classification": "confirmed",
+      "title": "recount: 프랑스어 어원을 영어 count의 원뜻으로 설명",
+      "why": "이야기하다는 recount는 Anglo-French recunter에서 왔고, 그 안의 cunter에 '세다·이야기하다'가 함께 있었다. 'count는 원래 이야기하다였다'는 단정은 영어 count의 원뜻이 이야기하다이고 거기서 세다로 바뀐 듯한 잘못된 역사 순서를 만든다. 다시 세다는 영어 re-+count라는 별도 형성도 구분할 수 있다.",
+      "sources": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/recount"
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/count"
+        }
+      ],
+      "edits": [
+        {
+          "set": 39,
+          "word": "recount",
+          "si": 1,
+          "savedCardId": "[\"39세트\",\"Exercise 12 · 시련과 회복\",\"recount\",1,\"\"]",
+          "exercise_key": "Exercise 12 · 시련과 회복",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set39.json",
+              "line": 1885
+            }
+          ],
+          "current": {
+            "ko": "① (경험을) 이야기하다",
+            "ex": "Amara {{BLANK}}ed her adventures in detail, but Kenji never did.",
+            "tr": "아마라는 자기 모험담을 자세히 들려줬는데, 켄지는 한 번도 안 그랬어.",
+            "c": "count는 원래 '이야기하다'였다. 표를 '다시 세다'도 recount.",
+            "meow": ""
+          },
+          "proposed": {
+            "c": "프랑스어 '다시 이야기하다'에서 왔다. 표를 '다시 세다'도 recount."
+          }
+        }
+      ]
+    },
+    {
+      "id": "C35-50-05-01",
+      "priority": "P3",
+      "classification": "improvement",
+      "title": "seller–vendor：같은 칸 수의 대체어 안내",
+      "why": "온라인 판매자도 vendor라고 한다. seller는 판매하는 사람 일반, vendor는 판매업자 쪽에 무게가 있다. 공통 동의어 대사는 이미 표시된다. 안내가 전혀 없다는 오류가 아니라, 고정 해설에서 뜻의 범위를 명시하는 선택 개선이다.",
+      "sources": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/vendor",
+          "supports": "기본 뜻을 seller로 직접 정의한다. 법률 뜻 역시 물건을 파는 사람이며, 소프트웨어 판매자 예문도 있어 노점상으로 한정되지 않는다."
+        }
+      ],
+      "alternative": "vendor",
+      "edits": [
+        {
+          "set": 37,
+          "word": "seller",
+          "si": 1,
+          "savedCardId": "[\"37세트\",\"Exercise 10 · 3674~3683\",\"seller\",1,\"\"]",
+          "exercise_key": "Exercise 10 · 3674~3683",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set37.json",
+              "line": 1519
+            }
+          ],
+          "current": {
+            "ko": "① 파는 사람, 판매자",
+            "ex": "The {{BLANK}} sent my shoes very fast.",
+            "tr": "판매자가 내 신발을 아주 빨리 보내 줬어.",
+            "c": "sell+-er. 사는 사람은 buyer다.",
+            "meow": ""
+          },
+          "proposed": {
+            "c": "sell+-er. 판매자라는 뜻으로 vendor와 바꿔 쓸 수 있다. 사는 사람은 buyer."
+          }
+        }
+      ],
+      "runtime_alternative_check": {
+        "set": 37,
+        "word": "seller",
+        "si": 1,
+        "alternative": "vendor",
+        "aliasHit": false,
+        "synonymFeedback": true,
+        "c": "sell+-er. 사는 사람은 buyer다.",
+        "meow": ""
+      }
+    },
+    {
+      "id": "C35-50-05-02",
+      "priority": "P2",
+      "classification": "confirmed",
+      "title": "magnificent–spectacular：같은 칸 수의 대체어 안내",
+      "why": "밤의 궁전 외관은 두 형용사 모두 자연스럽다. spectacular는 시선을 사로잡는 장관에 무게가 있다. 실제 런타임에서 해당 대체어는 정답 별칭으로 허용되지 않으며 공통 동의어 대사도 감지하지 못한다. 표제어만 정답으로 두는 정책은 유지한다.",
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/spectacular",
+          "supports": "보기에 장관이라는 뜻과 특히 훌륭하다는 뜻을 모두 제시한다."
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/thesaurus/spectacular",
+          "supports": "시각적으로 화려한 행사 맥락의 유의어군에 magnificent가 직접 있다."
+        }
+      ],
+      "alternative": "spectacular",
+      "edits": [
+        {
+          "set": 37,
+          "word": "magnificent",
+          "si": 1,
+          "savedCardId": "[\"37세트\",\"Exercise 8 · 3654~3663\",\"magnificent\",1,\"\"]",
+          "exercise_key": "Exercise 8 · 3654~3663",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set37.json",
+              "line": 1157
+            }
+          ],
+          "current": {
+            "ko": "① 웅장한, 훌륭한",
+            "ex": "The old palace looked {{BLANK}} at night.",
+            "tr": "그 오래된 궁전은 밤에 장엄해 보였어.",
+            "c": "magni-(큰)에서. great보다 훨씬 강한 칭찬의 말이다.",
+            "meow": ""
+          },
+          "proposed": {
+            "c": "웅장하고 장관이라는 뜻은 spectacular로도 표현한다. magni-는 '큰'."
+          }
+        }
+      ],
+      "runtime_alternative_check": {
+        "set": 37,
+        "word": "magnificent",
+        "si": 1,
+        "alternative": "spectacular",
+        "aliasHit": false,
+        "synonymFeedback": false,
+        "c": "magni-(큰)에서. great보다 훨씬 강한 칭찬의 말이다.",
+        "meow": ""
+      }
+    },
+    {
+      "id": "C35-50-05-03",
+      "priority": "P2",
+      "classification": "confirmed",
+      "title": "elaborate–intricate：같은 칸 수의 대체어 안내",
+      "why": "설탕 꽃으로 꾸민 복잡하고 정교한 케이크 디자인에는 둘 다 맞는다. 실제 런타임에서 해당 대체어는 정답 별칭으로 허용되지 않으며 공통 동의어 대사도 감지하지 못한다. 표제어만 정답으로 두는 정책은 유지한다.",
+      "sources": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/intricate",
+          "supports": "복잡하게 얽힌 부분을 가진다는 뜻이며 학습자 정의에 intricate design을 직접 제시한다."
+        }
+      ],
+      "alternative": "intricate",
+      "edits": [
+        {
+          "set": 37,
+          "word": "elaborate",
+          "si": 1,
+          "savedCardId": "[\"37세트\",\"Exercise 16 · 미와 표현\",\"elaborate\",1,\"\"]",
+          "exercise_key": "Exercise 16 · 미와 표현",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set37.json",
+              "line": 2468
+            }
+          ],
+          "current": {
+            "ko": "① 정교한, 공들인",
+            "ex": "The wedding cake had an {{BLANK}} design with sugar flowers.",
+            "tr": "그 웨딩 케이크는 설탕 꽃을 올린 정교한 디자인이었어.",
+            "c": "형용사는 끝을 [럿], 동사는 [레잇]으로 읽는다.",
+            "meow": ""
+          },
+          "proposed": {
+            "c": "정교하다는 뜻에서는 intricate도 쓴다. 끝 발음은 형용사 [럿], 동사 [레잇]."
+          }
+        }
+      ],
+      "runtime_alternative_check": {
+        "set": 37,
+        "word": "elaborate",
+        "si": 1,
+        "alternative": "intricate",
+        "aliasHit": false,
+        "synonymFeedback": false,
+        "c": "형용사는 끝을 [럿], 동사는 [레잇]으로 읽는다.",
+        "meow": ""
+      }
+    },
+    {
+      "id": "C35-50-05-04",
+      "priority": "P2",
+      "classification": "confirmed",
+      "title": "bump–lump：같은 칸 수의 대체어 안내",
+      "why": "머리를 부딪친 뒤 난 혹은 bump와 lump 모두 가능하다. speed bump 예문으로 바꾸는 안도 검토했지만 같은 네 칸에 speed hump가 다시 들어가므로, 원문을 유지하고 의미 범위의 대체 가능성을 알리는 안을 권한다. 실제 런타임에서 해당 대체어는 정답 별칭으로 허용되지 않으며 공통 동의어 대사도 감지하지 못한다. 표제어만 정답으로 두는 정책은 유지한다.",
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/lump",
+          "supports": "몸에 난 종창, 질병이나 부상 때문에 생긴 혹 뜻과 lump on his head 예문을 확인했다."
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/speed%20bump",
+          "supports": "차량 속도를 줄이기 위해 도로를 가로질러 만든 낮은 돌출부라는 고정 합성어."
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/speed-bump",
+          "supports": "speed hump를 영국식 대체어로 연결한다. 교체안도 4자 경쟁 답이 남는 이유."
+        },
+        {
+          "url": "https://highways.dot.gov/safety/speed-management/speed-management-countermeasures-more-just-speed-humps",
+          "supports": "기술적으로는 gradual hump와 abrupt bump를 구분하지만 이는 현재 일반 예문에 제시되지 않은 정보다."
+        }
+      ],
+      "alternative": "lump",
+      "edits": [
+        {
+          "set": 38,
+          "word": "bump",
+          "si": 2,
+          "savedCardId": "[\"38세트\",\"Exercise 3 · 3704~3713\",\"bump\",2,\"\"]",
+          "exercise_key": "Exercise 3 · 3704~3713",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set38.json",
+              "line": 454
+            }
+          ],
+          "current": {
+            "ko": "② 혹, 툭 튀어나온 곳",
+            "ex": "I got a {{BLANK}} on my head from the fall.",
+            "tr": "넘어져서 머리에 혹이 났어.",
+            "c": "부딪쳐 생긴 혹이나 길의 요철. speed bump는 과속 방지턱.",
+            "meow": ""
+          },
+          "proposed": {
+            "c": "부딪쳐 생긴 혹은 lump와 바꿔 쓸 수 있다. speed bump는 과속 방지턱."
+          }
+        }
+      ],
+      "runtime_alternative_check": {
+        "set": 38,
+        "word": "bump",
+        "si": 2,
+        "alternative": "lump",
+        "aliasHit": false,
+        "synonymFeedback": false,
+        "c": "부딪쳐 생긴 혹이나 길의 요철. speed bump는 과속 방지턱.",
+        "meow": ""
+      }
+    },
+    {
+      "id": "C35-50-05-05",
+      "priority": "P2",
+      "classification": "confirmed",
+      "title": "furious–enraged：같은 칸 수의 대체어 안내",
+      "why": "성적을 보고 몹시 화난 엄마라는 의미와 문장 구조에 두 말이 모두 맞는다. 실제 런타임에서 해당 대체어는 정답 별칭으로 허용되지 않으며 공통 동의어 대사도 감지하지 못한다. 표제어만 정답으로 두는 정책은 유지한다.",
+      "sources": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/enraged",
+          "supports": "enrage는 격노하게 만들다이고 People were enraged by the decision.이라는 수동·상태 용례가 있다."
+        }
+      ],
+      "alternative": "enraged",
+      "edits": [
+        {
+          "set": 38,
+          "word": "furious",
+          "si": 1,
+          "savedCardId": "[\"38세트\",\"Exercise 4 · 3714~3723\",\"furious\",1,\"\"]",
+          "exercise_key": "Exercise 4 · 3714~3723",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set38.json",
+              "line": 520
+            }
+          ],
+          "current": {
+            "ko": "① 몹시 화난, 격노한",
+            "ex": "Mom was {{BLANK}} when she saw my grades.",
+            "tr": "엄마는 내 성적을 보고 격노하셨어.",
+            "c": "angry보다 훨씬 센 말. be furious with 사람 / at 일.",
+            "meow": "나 지금 furious, 몹시 화났다고양. 딱히는 아니고양."
+          },
+          "proposed": {
+            "c": "몹시 화났다는 뜻은 enraged로도 표현한다. furious with 사람 / at 일."
+          }
+        }
+      ],
+      "runtime_alternative_check": {
+        "set": 38,
+        "word": "furious",
+        "si": 1,
+        "alternative": "enraged",
+        "aliasHit": false,
+        "synonymFeedback": false,
+        "c": "angry보다 훨씬 센 말. be furious with 사람 / at 일.",
+        "meow": "나 지금 furious, 몹시 화났다고양. 딱히는 아니고양."
+      }
+    },
+    {
+      "id": "C35-50-05-06",
+      "priority": "P2",
+      "classification": "confirmed",
+      "title": "bore–drag：같은 칸 수의 대체어 안내",
+      "why": "따분한 수업을 a bore 또는 a drag라 할 수 있다. drag는 구어적이고 성가심도 나타낸다. 실제 런타임에서 해당 대체어는 정답 별칭으로 허용되지 않으며 공통 동의어 대사도 감지하지 못한다. 표제어만 정답으로 두는 정책은 유지한다.",
+      "sources": [
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/drag_2",
+          "supports": "구어 명사로 지루한 사람·일과 성가신 일을 뜻하고 such a drag 구성도 사전에 있다."
+        }
+      ],
+      "alternative": "drag",
+      "edits": [
+        {
+          "set": 38,
+          "word": "bore",
+          "si": 2,
+          "savedCardId": "[\"38세트\",\"Exercise 8 · 3754~3763\",\"bore\",2,\"\"]",
+          "exercise_key": "Exercise 8 · 3754~3763",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set38.json",
+              "line": 1245
+            }
+          ],
+          "current": {
+            "ko": "② 지루한 사람, 따분한 일",
+            "ex": "That class is such a {{BLANK}}.",
+            "tr": "그 수업 진짜 따분해.",
+            "c": "What a bore!: 정말 지겹다!",
+            "meow": ""
+          },
+          "proposed": {
+            "c": "a drag도 구어에서 따분하거나 성가신 일을 뜻한다. What a bore! 정말 지루하네!"
+          }
+        }
+      ],
+      "runtime_alternative_check": {
+        "set": 38,
+        "word": "bore",
+        "si": 2,
+        "alternative": "drag",
+        "aliasHit": false,
+        "synonymFeedback": false,
+        "c": "What a bore!: 정말 지겹다!",
+        "meow": ""
+      }
+    },
+    {
+      "id": "C35-50-05-07",
+      "priority": "P2",
+      "classification": "confirmed",
+      "title": "sharply–harshly：같은 칸 수의 대체어 안내",
+      "why": "시끄러운 학생들을 매섭게 나무라는 발화에 sharply와 harshly가 모두 가능하다. 실제 런타임에서 해당 대체어는 정답 별칭으로 허용되지 않으며 공통 동의어 대사도 감지하지 못한다. 표제어만 정답으로 두는 정책은 유지한다.",
+      "sources": [
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/harshly",
+          "supports": "매정하고 심하게 대하는 방식과 귀에 거슬리는 소리라는 뜻을 구분하며 비판 행위와 결합한다."
+        }
+      ],
+      "alternative": "harshly",
+      "edits": [
+        {
+          "set": 39,
+          "word": "sharply",
+          "si": 2,
+          "savedCardId": "[\"39세트\",\"Exercise 4 · 3814~3823\",\"sharply\",2,\"\"]",
+          "exercise_key": "Exercise 4 · 3814~3823",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set39.json",
+              "line": 534
+            }
+          ],
+          "current": {
+            "ko": "② 날카롭게, 매섭게",
+            "ex": "She spoke {{BLANK}} to the loud boys behind us.",
+            "tr": "걔가 우리 뒤 시끄러운 남자애들한테 날카롭게 말했어.",
+            "c": "look sharply at: 매섭게 쳐다보다.",
+            "meow": ""
+          },
+          "proposed": {
+            "c": "매섭게 말할 때 harshly와 바꿔 쓸 수 있다. harshly는 모진 태도를 더 강조."
+          }
+        }
+      ],
+      "runtime_alternative_check": {
+        "set": 39,
+        "word": "sharply",
+        "si": 2,
+        "alternative": "harshly",
+        "aliasHit": false,
+        "synonymFeedback": false,
+        "c": "look sharply at: 매섭게 쳐다보다.",
+        "meow": ""
+      }
+    },
+    {
+      "id": "C35-50-05-08",
+      "priority": "P2",
+      "classification": "confirmed",
+      "title": "compulsory–obligatory：같은 칸 수의 대체어 안내",
+      "why": "학교 규정상 수학이 필수라는 의미에서 두 형용사는 대체 가능하다. 실제 런타임에서 해당 대체어는 정답 별칭으로 허용되지 않으며 공통 동의어 대사도 감지하지 못한다. 표제어만 정답으로 두는 정책은 유지한다.",
+      "sources": [
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/obligatory",
+          "supports": "법·규칙상 해야 하는 뜻의 동의어를 compulsory로 명시하며 대학 수업이 obligatory라는 예문을 제시한다."
+        },
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/obligatory",
+          "supports": "규칙 또는 법 때문에 해야 한다는 뜻이며 compulsory를 비교 표제어로 연결한다."
+        }
+      ],
+      "alternative": "obligatory",
+      "edits": [
+        {
+          "set": 41,
+          "word": "compulsory",
+          "si": 1,
+          "savedCardId": "[\"41세트\",\"Exercise 6 · 4034~4043\",\"compulsory\",1,\"\"]",
+          "exercise_key": "Exercise 6 · 4034~4043",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set41.json",
+              "line": 884
+            }
+          ],
+          "current": {
+            "ko": "① 의무적인, 필수의",
+            "ex": "Math is {{BLANK}} at our school.",
+            "tr": "우리 학교에서 수학은 의무 과목이야.",
+            "c": "법·규칙으로 꼭 해야 하는. 반대는 optional(선택의)이다.",
+            "meow": ""
+          },
+          "proposed": {
+            "c": "규정상 의무라는 뜻에서는 obligatory와 바꿔 쓸 수 있다. 반대는 optional(선택적인)."
+          }
+        }
+      ],
+      "runtime_alternative_check": {
+        "set": 41,
+        "word": "compulsory",
+        "si": 1,
+        "alternative": "obligatory",
+        "aliasHit": false,
+        "synonymFeedback": false,
+        "c": "법·규칙으로 꼭 해야 하는. 반대는 optional(선택의)이다.",
+        "meow": ""
+      }
+    },
+    {
+      "id": "C35-50-05-09",
+      "priority": "P3",
+      "classification": "improvement",
+      "title": "insulting–offensive：같은 칸 수의 대체어 안내",
+      "why": "엄마를 대상으로 한 모욕적인 농담은 insulting과 offensive 모두 가능하다. 공통 동의어 대사는 이미 표시된다. 안내가 전혀 없다는 오류가 아니라, 고정 해설에서 뜻의 범위를 명시하는 선택 개선이다.",
+      "sources": [
+        {
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/offensive_1",
+          "supports": "존중하지 않는 무례함 때문에 불쾌감을 주는 뜻과 remarks/comments에 쓰이는 용례가 있다. 악취 등 단순 불쾌함과 공격의 별도 뜻도 확인된다."
+        }
+      ],
+      "alternative": "offensive",
+      "edits": [
+        {
+          "set": 41,
+          "word": "insulting",
+          "si": 1,
+          "savedCardId": "[\"41세트\",\"Exercise 5 · 4024~4033\",\"insulting\",1,\"\"]",
+          "exercise_key": "Exercise 5-2 · 4024~4033",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set41.json",
+              "line": 830
+            }
+          ],
+          "current": {
+            "ko": "① 모욕적인",
+            "ex": "That joke about my mom was {{BLANK}}.",
+            "tr": "우리 엄마 얘기한 그 농담은 모욕적이었어.",
+            "c": "모욕감을 주는 말·행동·사람에 쓴다. 모욕감을 느끼는 쪽은 insulted.",
+            "meow": ""
+          },
+          "proposed": {
+            "c": "모욕적이라는 뜻에서는 offensive도 쓴다. 모욕감을 느끼는 쪽은 insulted."
+          }
+        }
+      ],
+      "runtime_alternative_check": {
+        "set": 41,
+        "word": "insulting",
+        "si": 1,
+        "alternative": "offensive",
+        "aliasHit": false,
+        "synonymFeedback": true,
+        "c": "모욕감을 주는 말·행동·사람에 쓴다. 모욕감을 느끼는 쪽은 insulted.",
+        "meow": ""
+      }
+    },
+    {
+      "id": "C35-50-05-10",
+      "priority": "P2",
+      "classification": "confirmed",
+      "title": "spark–pique：같은 칸 수의 대체어 안내",
+      "why": "pique a child's curiosity는 호기심을 자극한다는 자연스러운 결합이다. 둘 다 5글자이고 현재 해설에는 pique가 없다. 실제 런타임에서 해당 대체어는 정답 별칭으로 허용되지 않으며 공통 동의어 대사도 감지하지 못한다. 표제어만 정답으로 두는 정책은 유지한다.",
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/pique-curiosity-interest-etc",
+          "supports": "호기심·관심을 일으켜 더 알고 싶게 만든다는 고정 결합으로 명시되어 있다."
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/spark",
+          "supports": "반응을 촉발한다는 타동사 뜻에 질문이 활발한 논의를 촉발했다는 사전 예문이 있다."
+        }
+      ],
+      "alternative": "pique",
+      "edits": [
+        {
+          "set": 45,
+          "word": "spark",
+          "si": 2,
+          "savedCardId": "[\"45세트\",\"Exercise 20 · 원인과 근거\",\"spark\",2,\"\"]",
+          "exercise_key": "Exercise 20 · 원인과 근거",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set45.json",
+              "line": 1836
+            }
+          ],
+          "current": {
+            "ko": "② 촉발하다, 불러일으키다",
+            "ex": "A good question can {{BLANK}} a child's curiosity.",
+            "tr": "좋은 질문 하나가 아이의 호기심에 불을 붙일 수 있어.",
+            "c": "spark a debate: 논쟁을 촉발하다. 불똥이 불을 붙이듯 일을 일으킨다.",
+            "meow": ""
+          },
+          "proposed": {
+            "c": "호기심을 불러일으키다는 pique curiosity로도 쓴다. spark는 불꽃이 튀듯 어떤 일을 촉발한다."
+          }
+        }
+      ],
+      "runtime_alternative_check": {
+        "set": 45,
+        "word": "spark",
+        "si": 2,
+        "alternative": "pique",
+        "aliasHit": false,
+        "synonymFeedback": false,
+        "c": "spark a debate: 논쟁을 촉발하다. 불똥이 불을 붙이듯 일을 일으킨다.",
+        "meow": ""
+      }
+    },
+    {
+      "id": "I35-50-01",
+      "priority": "P3",
+      "classification": "improvement",
+      "title": "plantation: 역사적 체제 설명과 표제어의 뜻을 구분",
+      "why": "원칙 문서가 승인한 식민지 역사 맥락 자체는 보존할 가치가 있다. 다만 c의 “식민지를 통째로 ... 바꾼 체제”는 farm이라는 표제어 뜻을 system으로 오해시키고 비식민지·비노예노동 농장까지 배제하는 식으로 읽힌다. 승인된 예문을 오류로 뒤집기보다 c만 범위를 명확히 하는 개선안이다.",
+      "sources": [
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/plantation"
+        }
+      ],
+      "edits": [
+        {
+          "set": 41,
+          "word": "plantation",
+          "si": 1,
+          "savedCardId": "[\"41세트\",\"Exercise 3 · 4004~4013\",\"plantation\",1,\"\"]",
+          "exercise_key": "Exercise 3 · 4004~4013",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set41.json",
+              "line": 407
+            }
+          ],
+          "current": {
+            "ko": "① 대농장, 농원",
+            "ex": "A {{BLANK}} grew one crop, like sugar, with slave labor, for sale in Europe.",
+            "tr": "플랜테이션은 노예 노동으로 사탕수수 같은 한 작물만 길러 유럽에 팔았어.",
+            "c": "식민지를 통째로 수출용 단일 작물 농장으로 바꾼 체제.",
+            "meow": ""
+          },
+          "proposed": {
+            "c": "상품 작물의 대농장. 식민지의 노예 노동과 결합하기도 했다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "I35-50-02",
+      "priority": "P3",
+      "classification": "improvement",
+      "title": "underlying: Earth’s angle보다 자전축 기울기를 정확하게 이름 붙이기",
+      "why": "Earth's angle만으로는 무엇에 대한 어떤 각인지 불명확하다. 한국어 뜻은 의도를 전달한다. 앞서 배우지 않은 용어를 피하려던 취지는 이해하지만 지구과학 개념은 Earth's tilt/tilted axis로 쓰는 편이 명료하다. 새로운 어려운 주변 어휘를 많이 늘릴 필요도 없다.",
+      "sources": [
+        {
+          "url": "https://spaceplace.nasa.gov/seasons/en/"
+        }
+      ],
+      "edits": [
+        {
+          "set": 45,
+          "word": "underlying",
+          "si": 1,
+          "savedCardId": "[\"45세트\",\"Exercise 20 · 원인과 근거\",\"underlying\",1,\"\"]",
+          "exercise_key": "Exercise 20 · 원인과 근거",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set45.json",
+              "line": 1788
+            }
+          ],
+          "current": {
+            "ko": "① 근본적인, 밑에 깔린",
+            "ex": "The {{BLANK}} cause of seasons is Earth's angle, not its distance from the Sun.",
+            "tr": "계절의 근본 원인은 해와의 거리가 아니라 지구가 기운 각도야.",
+            "c": "underlie(밑바탕이 되다)에서 온 형용사.",
+            "meow": ""
+          },
+          "proposed": {
+            "ex": "The {{BLANK}} cause of seasons is Earth's tilt, not its distance from the Sun.",
+            "tr": "계절의 근본 원인은 태양과의 거리가 아니라 지구의 기울기야."
+          }
+        }
+      ],
+      "note": "조건부 제안: tilt는 현재 표제어 풀 밖이다. 축의 기울기를 정확히 지칭하는 한 단어를 예문에 허용할지 Opus와 영신이 판단한다. 이 리뷰는 tilt 표제어 추가를 승인하거나 시행하지 않는다. 예외를 허용하지 않으면 현행 유지도 가능하다."
+    },
+    {
+      "id": "I35-50-03",
+      "priority": "P3",
+      "classification": "improvement",
+      "title": "abolish: 법 통과 연도와 실제 시행을 짧게 구별",
+      "why": "1833년 폐지법 통과, 1834년 시행을 구별하면 연대표가 더 정확하다. 1833년에 폐지했다고 줄여 쓰는 서술은 널리 사용되므로 이를 치명적인 사실 오류로 판정하지 않았다.",
+      "sources": [
+        {
+          "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/georgians/1833-abolition-of-slavery-act-and-compensation-claims/"
+        }
+      ],
+      "edits": [
+        {
+          "set": 43,
+          "word": "abolish",
+          "si": 1,
+          "savedCardId": "[\"43세트\",\"Exercise 5 · 4224~4233\",\"abolish\",1,\"\"]",
+          "exercise_key": "Exercise 5 · 4224~4233",
+          "source_locations": [
+            {
+              "file": "pipeline/out/set43.json",
+              "line": 675
+            }
+          ],
+          "current": {
+            "ko": "① 폐지하다, 없애다",
+            "ex": "In 1833, Britain {{BLANK}}ed slavery in most of its empire.",
+            "tr": "1833년 영국은 제국 대부분에서 노예제를 폐지했어.",
+            "c": "법·제도를 없앨 때 쓴다. 명사는 abolition[애벌리션].",
+            "meow": ""
+          },
+          "proposed": {
+            "ex": "In 1833, Britain passed a law to {{BLANK}} slavery in most of its empire.",
+            "tr": "1833년 영국은 제국 대부분에서 노예제를 폐지하는 법을 통과시켰어."
+          }
+        }
+      ]
+    }
+  ]
+}
