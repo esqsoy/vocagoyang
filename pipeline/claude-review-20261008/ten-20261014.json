@@ -1,0 +1,110 @@
+{
+ "date": "2026-10-14",
+ "name": "ten-20261014",
+ "status": "applied_locally_verified",
+ "authorization": "영신 26.10.14: \"ten은 스터디원 말고 스터디원 학생들로 하자\"",
+ "summary": "0세트 ten 카드: \"STUDY1 is a ten out of ten!\"을 \"Every STUDY1 student is a ten out of ten!\" / \"스터디원 학생들은 모두 10점 만점에 10점!\"으로. 읽기량 12초를 넘지 않게 해설에서 해석과 같은 \"ten out of ten은 10점 만점에 10점\"을 뺐다.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "25635e308b9dc826fe513a507881ba75810c5d1fc0ae7b74e9c991b630198746",
+   "afterHash": "cdac2d32908542ea042470326ab537c60f8ab7f856028a2b8a0ad7a4fe070af5",
+   "changes": [
+    {
+     "path": [
+      0,
+      "exercises",
+      5,
+      "words",
+      12,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "STUDY1 is a {{BLANK}} out of ten!",
+     "new": "Every STUDY1 student is a {{BLANK}} out of ten!"
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      5,
+      "words",
+      12,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "스터디원 학원은 10점 만점에 10점!",
+     "new": "스터디원 학생들은 모두 10점 만점에 10점!"
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      5,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "서수는 tenth. ten o'clock은 10시, ten out of ten은 10점 만점에 10점.",
+     "new": "서수는 tenth. ten o'clock은 10시."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson00.json": {
+   "beforeHash": "bbab589fb7a3e0bb9af989189cd7087ec2b4faed18acc38de0fbe12da42453c5",
+   "afterHash": "354275dae3184044b9cf2550268d229b0ee0e5ce27578140064b87fbc52b2fbb"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson00.json": [
+   {
+    "path": [
+     "exercises",
+     0,
+     "words",
+     12,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "STUDY1 is a {{BLANK}} out of ten!",
+    "new": "Every STUDY1 student is a {{BLANK}} out of ten!"
+   },
+   {
+    "path": [
+     "exercises",
+     0,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "스터디원 학원은 10점 만점에 10점!",
+    "new": "스터디원 학생들은 모두 10점 만점에 10점!"
+   },
+   {
+    "path": [
+     "exercises",
+     0,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "서수는 tenth. ten o'clock은 10시, ten out of ten은 10점 만점에 10점.",
+    "new": "서수는 tenth. ten o'clock은 10시."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson00.json": []
+ }
+}
