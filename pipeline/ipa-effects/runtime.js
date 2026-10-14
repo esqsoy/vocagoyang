@@ -27,6 +27,7 @@ function ipaEffectCancel(){
   ipaEffectGeneration++;
   const run=ipaEffectRun;ipaEffectRun=null;
   if(run){run.cancelled=true;clearTimeout(run.watchdog);ipaEffectClearVisual(run);}
+  if(typeof exceptionAudioCancel==='function')exceptionAudioCancel();
 }
 function ipaEffectCurrent(run){return !!(run&&ipaEffectRun===run&&!run.cancelled&&run.generation===ipaEffectGeneration&&run.valid());}
 function ipaEffectLater(run,fn,ms){const id=setTimeout(()=>{if(ipaEffectCurrent(run))fn();},ms);run.visualTimers.push(id);return id;}
@@ -48,12 +49,15 @@ function ipaEffectTiming(run,u){
   const total=beats.size?[...beats.values()].reduce((a,b)=>a+b,0):estimatedSyllables;
   const base=ipaEffectClamp((600+total*240)*(.88/(u.rate||1)),350,6000),voiceKey=ipaEffectKey(u),wordKey=JSON.stringify([run.info.term,run.info.ipa,run.info.speech||run.info.term]);
   const key=voiceKey+'|'+wordKey,previous=ipaEffectDurations.get(key),voice=ipaEffectVoices.get(voiceKey);
+  // Recorded exceptions have their own measured duration. Never mix those
+  // samples into the native voice calibration; internal beats remain estimates.
+  if(Number.isFinite(u.durationMs)&&u.durationMs>0)return {beats,total,base,voiceKey,wordKey,key,duration:ipaEffectClamp(u.durationMs,100,6000),recorded:true};
   const ratio=voice?.size>=2?ipaEffectClamp(ipaEffectMedian([...voice.values()]),.6,1.7):1;
   return {beats,total,base,voiceKey,wordKey,key,duration:previous?ipaEffectMedian(previous):ipaEffectClamp(base*ratio,350,6000)};
 }
 function ipaEffectRemember(run){
   const ms=performance.now()-run.started,t=run.timing;
-  if(!t||run.unreliable||document.hidden||ms<250||ms>6000||ms<t.base*.4||ms>t.base*2.2)return;
+  if(!t||t.recorded||run.unreliable||document.hidden||ms<250||ms>6000||ms<t.base*.4||ms>t.base*2.2)return;
   const samples=[...(ipaEffectDurations.get(t.key)||[]),ms].slice(-3);
   ipaEffectDurations.delete(t.key);ipaEffectDurations.set(t.key,samples);
   if(ipaEffectDurations.size>96)ipaEffectDurations.delete(ipaEffectDurations.keys().next().value);
@@ -193,6 +197,7 @@ function ipaEffectAdvance(next,valid){
     const deadline=Math.min(gate.deadline,run.started===null?run.created+2500:Math.min(run.created+7500,run.started+6000));
     if(document.hidden||performance.now()>=deadline){
       run.unreliable=true;ipaEffectFinish(run,true);
+      if(typeof exceptionAudioCancel==='function')exceptionAudioCancel();
       try{window.speechSynthesis?.cancel();}catch(e){}
       ipaEffectCancelAdvance();next();return;
     }
@@ -211,7 +216,7 @@ window.addEventListener('scroll',ipaEffectSchedulePosition,true);
 // a window resize or a change to the quiz card's dimensions.
 window.visualViewport?.addEventListener('resize',ipaEffectSchedulePosition);
 window.visualViewport?.addEventListener('scroll',ipaEffectSchedulePosition);
-document.addEventListener('visibilitychange',()=>{if(document.hidden&&ipaEffectRun){ipaEffectRun.unreliable=true;ipaEffectFinish(ipaEffectRun,true);ipaEffectClearVisual(ipaEffectRun);}});
+document.addEventListener('visibilitychange',()=>{if(document.hidden){if(typeof exceptionAudioCancel==='function')exceptionAudioCancel();if(ipaEffectRun){ipaEffectRun.unreliable=true;ipaEffectFinish(ipaEffectRun,true);ipaEffectClearVisual(ipaEffectRun);}}});
 if(typeof ResizeObserver!=='undefined'&&document.querySelector('#quizCard'))new ResizeObserver(ipaEffectSchedulePosition).observe(document.querySelector('#quizCard'));
 
 function ipaEffectEscape(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}

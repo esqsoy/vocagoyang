@@ -1,0 +1,749 @@
+{
+  "date": "2026-10-15",
+  "reviewer": "independent fable_review_0_17",
+  "scope": "Meaning-to-IPA audit of existing heteronyms and part-of-speech-sensitive words in the three currently assembled course HTML pages. Read-only: no application or source-card changes.",
+  "coverage": {
+    "candidateCards": 424,
+    "byCourse": {
+      "fable": 238,
+      "mother-tongue": 157,
+      "ebs": 29
+    },
+    "uniqueCourseTermMeaningIpa": 400,
+    "uniqueTerms": [
+      "August",
+      "absent",
+      "abstract",
+      "abuse",
+      "accent",
+      "address",
+      "advocate",
+      "affect",
+      "aged",
+      "aggregate",
+      "animate",
+      "appropriate",
+      "approximate",
+      "articulate",
+      "associate",
+      "attribute",
+      "bass",
+      "beloved",
+      "bow",
+      "close",
+      "combine",
+      "compact",
+      "complement",
+      "complex",
+      "compliment",
+      "compound",
+      "concrete",
+      "conduct",
+      "confine",
+      "conflict",
+      "construct",
+      "content",
+      "contest",
+      "contract",
+      "contrast",
+      "converse",
+      "convert",
+      "convict",
+      "coordinate",
+      "corrupt",
+      "decrease",
+      "defect",
+      "delegate",
+      "deliberate",
+      "desert",
+      "diffuse",
+      "discharge",
+      "discount",
+      "document",
+      "download",
+      "downtown",
+      "elaborate",
+      "entrance",
+      "entrant",
+      "estimate",
+      "excerpt",
+      "excuse",
+      "experiment",
+      "exploit",
+      "export",
+      "extract",
+      "finance",
+      "fragment",
+      "frequent",
+      "graduate",
+      "his",
+      "house",
+      "impact",
+      "implant",
+      "implement",
+      "import",
+      "incline",
+      "increase",
+      "insert",
+      "insult",
+      "intimate",
+      "ion",
+      "lead",
+      "legitimate",
+      "live",
+      "lower",
+      "minute",
+      "moderate",
+      "naked",
+      "number",
+      "object",
+      "offense",
+      "overhead",
+      "overrun",
+      "overshoot",
+      "overturn",
+      "perfect",
+      "permit",
+      "polish",
+      "precipitate",
+      "present",
+      "primer",
+      "produce",
+      "progress",
+      "project",
+      "protest",
+      "read",
+      "rebel",
+      "recall",
+      "record",
+      "recount",
+      "recover",
+      "refund",
+      "refuse",
+      "regress",
+      "reject",
+      "resign",
+      "resort",
+      "resume",
+      "row",
+      "sake",
+      "second",
+      "segment",
+      "separate",
+      "simulate",
+      "subject",
+      "supplement",
+      "survey",
+      "suspect",
+      "tear",
+      "transfer",
+      "transplant",
+      "transport",
+      "update",
+      "upgrade",
+      "upset",
+      "use",
+      "used",
+      "wind",
+      "wound"
+    ],
+    "method": "Parsed served DATA and MT_PRONUNCIATIONS. For Mother Tongue, parsed MT_CONTEXTS, attached original excerpt/contextMeaning, and selected IPA by contextMeaning then original meaning, matching pronunciationEntry. Manually read each extracted meaning, part of speech, example and resolved IPA. Separate full-inventory multiple-IPA comparison used only as a candidate aid, not claimed as full-card semantic review.",
+    "evidence": "independent-heteronym-extract.json (post-compliment-correction snapshot); findings preserve earlier faulty IPA where specified."
+  },
+  "findings": [
+    {
+      "id": "IPA-INDEPENDENT-01",
+      "classification": "corrected source-IPA mismatch",
+      "severity": "P2",
+      "term": "compliment",
+      "affected": [
+        {
+          "course": "mother-tongue",
+          "set": 5,
+          "scope": "prev",
+          "exercise": 7,
+          "index": 9,
+          "term": "compliment",
+          "meaning": "칭찬",
+          "originalMeaning": "칭찬",
+          "example": "the sad fact is that most brand compliments go unanswered",
+          "ipa": "ˈkɑmpləmɛnt",
+          "speech": "compliment"
+        }
+      ],
+      "problem": "Current card is the noun meaning 칭찬 (the excerpt has brand compliments), but its stored IPA ends /mɛnt/. Merriam-Webster, Cambridge and Oxford give the noun /mənt/. Merriam-Webster gives the full /mɛnt/ ending for the verb. A deterministic audio choice from the current incorrect IPA would faithfully preserve the wrong reading.",
+      "proposed": {
+        "ipa": "ˈkɑmpləmənt",
+        "speech": "compliment"
+      },
+      "disposition": "Root corrected the pronunciation source and reassembled the page on 2026-10-15. Current noun IPA is ˈkɑmpləmənt. The affected rows preserve the pre-correction evidence; generate only the corrected noun key.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/compliment",
+        "https://dictionary.cambridge.org/us/dictionary/english/compliment",
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/compliment_1"
+      ]
+    },
+    {
+      "id": "IPA-INDEPENDENT-02",
+      "classification": "normalization recommendation, not a confirmed error",
+      "severity": "P3",
+      "term": "implement",
+      "affected": [
+        {
+          "course": "mother-tongue",
+          "set": 5,
+          "scope": "prev",
+          "exercise": 11,
+          "index": 8,
+          "term": "implement",
+          "meaning": "시행하다 / 도구",
+          "originalMeaning": "시행하다 / 도구",
+          "example": "Services using electrically assisted delivery tricycles have been successfully implemented in France",
+          "ipa": "ˈɪmpləmənt",
+          "speech": "implement"
+        },
+        {
+          "course": "mother-tongue",
+          "set": 5,
+          "scope": "prev",
+          "exercise": 16,
+          "index": 8,
+          "term": "implement",
+          "meaning": "시행하다, 이행하다",
+          "originalMeaning": "시행하다, 이행하다",
+          "example": "implemented at the expense of poor and marginalized residents and users of resources from the areas",
+          "ipa": "ˈɪmpləmənt",
+          "speech": "implement"
+        },
+        {
+          "course": "mother-tongue",
+          "set": 6,
+          "scope": "prev",
+          "exercise": 10,
+          "index": 5,
+          "term": "implement",
+          "meaning": "실행하다, 시행하다",
+          "originalMeaning": "실행하다, 시행하다",
+          "example": "emotions as central, neurally implemented states",
+          "ipa": "ˈɪmpləmənt",
+          "speech": "implement"
+        },
+        {
+          "course": "mother-tongue",
+          "set": 14,
+          "scope": "prev",
+          "exercise": 1,
+          "index": 4,
+          "term": "implement",
+          "meaning": "실행하다, 시행하다",
+          "originalMeaning": "실행하다, 시행하다",
+          "example": "Management practices usually involve defining a more desirable future condition and implementing management actions",
+          "ipa": "ˈɪmpləmənt",
+          "speech": "implement"
+        },
+        {
+          "course": "mother-tongue",
+          "set": 14,
+          "scope": "prev",
+          "exercise": 8,
+          "index": 11,
+          "term": "implement",
+          "meaning": "시행하다",
+          "originalMeaning": "시행하다",
+          "example": "more and more organizations are implementing assessments referred to as 360-degree evaluations.",
+          "ipa": "ˈɪmpləmənt",
+          "speech": "implement"
+        },
+        {
+          "course": "mother-tongue",
+          "set": 14,
+          "scope": "prev",
+          "exercise": 10,
+          "index": 12,
+          "term": "implement",
+          "meaning": "이행하다, 시행하다",
+          "originalMeaning": "이행하다, 시행하다",
+          "example": "It may be easier to reach an agreement when settlement terms don’t have to be implemented until months in the future.",
+          "ipa": "ˈɪmpləmənt",
+          "speech": "implement"
+        },
+        {
+          "course": "mother-tongue",
+          "set": 15,
+          "scope": "2026",
+          "exercise": 1,
+          "index": 4,
+          "term": "implement",
+          "meaning": "시행하다, 이행하다",
+          "originalMeaning": "시행하다, 이행하다",
+          "example": "algorithms are processes that define, describe, and implement a series of actions",
+          "ipa": "ˈɪmpləmənt",
+          "speech": "implement"
+        },
+        {
+          "course": "mother-tongue",
+          "set": 15,
+          "scope": "prev",
+          "exercise": 3,
+          "index": 8,
+          "term": "implement",
+          "meaning": "구현하다, 시행하다",
+          "originalMeaning": "구현하다, 시행하다",
+          "example": "the fact that substantial numbers of designers are employed in implementing a concept can easily be overlooked.",
+          "ipa": "ˈɪmpləmənt",
+          "speech": "implement"
+        }
+      ],
+      "problem": "The current Mother Tongue verb cards use /ˈɪmpləmənt/. Merriam-Webster and Cambridge distinguish the common American verb /ˈɪmpləˌmɛnt/ from the noun /ˈɪmpləmənt/; FABLE already uses the former for its verb card. However Collins COBUILD explicitly accepts /mənt/ as a verb variant, so calling all current cards incorrect would be too strong.",
+      "proposed": {
+        "preferredAmericanVerbIpa": "ˈɪmpləˌmɛnt"
+      },
+      "disposition": "Root decision: retain the current allowed variant. Keep its audio consistent with /ˈɪmpləmənt/; do not silently map it to the distinct /mɛnt/ pronunciation.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/implement",
+        "https://www.merriam-webster.com/dictionary/implement",
+        "https://www.collinsdictionary.com/us/dictionary/english/implement"
+      ]
+    }
+  ],
+  "requestedWordResults": [
+    {
+      "term": "read",
+      "currentCards": [
+        {
+          "course": "fable",
+          "set": 2,
+          "scope": "2026",
+          "exercise": 2,
+          "index": 11,
+          "term": "read",
+          "meaning": "① 읽다",
+          "originalMeaning": "① 읽다",
+          "example": "I like to {{BLANK}} before I sleep.",
+          "ipa": "rid",
+          "speech": "read"
+        }
+      ],
+      "result": "No meaning-to-IPA mismatch found in the currently present senses."
+    },
+    {
+      "term": "lead",
+      "currentCards": [
+        {
+          "course": "fable",
+          "set": 4,
+          "scope": "2026",
+          "exercise": 5,
+          "index": 14,
+          "term": "lead",
+          "meaning": "① 이끌다, 안내하다",
+          "originalMeaning": "① 이끌다, 안내하다",
+          "example": "By 1825, Simon Bolivar had helped {{BLANK}} much of South America to freedom.",
+          "ipa": "lid",
+          "speech": "lead"
+        },
+        {
+          "course": "fable",
+          "set": 4,
+          "scope": "2026",
+          "exercise": 5,
+          "index": 15,
+          "term": "lead",
+          "meaning": "② ~로 이어지다",
+          "originalMeaning": "② ~로 이어지다",
+          "example": "Hard work can {{BLANK}} to success.",
+          "ipa": "lid",
+          "speech": "lead"
+        }
+      ],
+      "result": "No meaning-to-IPA mismatch found in the currently present senses."
+    },
+    {
+      "term": "tear",
+      "currentCards": [
+        {
+          "course": "fable",
+          "set": 13,
+          "scope": null,
+          "exercise": 4,
+          "index": 5,
+          "term": "tear",
+          "meaning": "① 눈물",
+          "originalMeaning": "① 눈물",
+          "example": "{{BLANK}}s ran down her face.",
+          "ipa": "tɪr",
+          "speech": "tear"
+        },
+        {
+          "course": "fable",
+          "set": 13,
+          "scope": null,
+          "exercise": 4,
+          "index": 6,
+          "term": "tear",
+          "meaning": "② 찢다",
+          "originalMeaning": "② 찢다",
+          "example": "Don't {{BLANK}} the page.",
+          "ipa": "tɛr",
+          "speech": "tear"
+        }
+      ],
+      "result": "No meaning-to-IPA mismatch found in the currently present senses."
+    },
+    {
+      "term": "bow",
+      "currentCards": [
+        {
+          "course": "fable",
+          "set": 34,
+          "scope": null,
+          "exercise": 1,
+          "index": 7,
+          "term": "bow",
+          "meaning": "① (허리 굽혀) 절하다",
+          "originalMeaning": "① (허리 굽혀) 절하다",
+          "example": "The singer {{BLANK}}ed low and left the stage.",
+          "ipa": "baʊ",
+          "speech": "bow"
+        },
+        {
+          "course": "fable",
+          "set": 34,
+          "scope": null,
+          "exercise": 1,
+          "index": 8,
+          "term": "bow",
+          "meaning": "② 활, 나비 모양 매듭",
+          "originalMeaning": "② 활, 나비 모양 매듭",
+          "example": "He tied the gift with a red {{BLANK}}.",
+          "ipa": "boʊ",
+          "speech": "bow"
+        }
+      ],
+      "result": "No meaning-to-IPA mismatch found in the currently present senses."
+    },
+    {
+      "term": "row",
+      "currentCards": [
+        {
+          "course": "fable",
+          "set": 13,
+          "scope": null,
+          "exercise": 9,
+          "index": 8,
+          "term": "row",
+          "meaning": "① 줄, 열",
+          "originalMeaning": "① 줄, 열",
+          "example": "We sat in the front {{BLANK}}.",
+          "ipa": "roʊ",
+          "speech": "row"
+        },
+        {
+          "course": "fable",
+          "set": 13,
+          "scope": null,
+          "exercise": 9,
+          "index": 9,
+          "term": "row",
+          "meaning": "② 노를 젓다",
+          "originalMeaning": "② 노를 젓다",
+          "example": "We {{BLANK}}ed across the lake.",
+          "ipa": "roʊ",
+          "speech": "row"
+        }
+      ],
+      "result": "No meaning-to-IPA mismatch found in the currently present senses."
+    },
+    {
+      "term": "wound",
+      "currentCards": [
+        {
+          "course": "fable",
+          "set": 16,
+          "scope": null,
+          "exercise": 10,
+          "index": 9,
+          "term": "wound",
+          "meaning": "① 상처, 부상",
+          "originalMeaning": "① 상처, 부상",
+          "example": "Clean the {{BLANK}} before you cover it.",
+          "ipa": "wund",
+          "speech": "wound"
+        },
+        {
+          "course": "mother-tongue",
+          "set": 13,
+          "scope": "prev",
+          "exercise": 7,
+          "index": 5,
+          "term": "wound",
+          "meaning": "상처 / 상처를 입히다",
+          "originalMeaning": "상처 / 상처를 입히다",
+          "example": "an ability to heal wounds when they are injured",
+          "ipa": "wund",
+          "speech": "a wound"
+        }
+      ],
+      "result": "No meaning-to-IPA mismatch found in the currently present senses."
+    },
+    {
+      "term": "sewer",
+      "currentCards": [],
+      "result": "No exact headword card currently present; do not add a specialized sense merely to fill a heteronym catalog."
+    },
+    {
+      "term": "entrance",
+      "currentCards": [
+        {
+          "course": "fable",
+          "set": 17,
+          "scope": null,
+          "exercise": 2,
+          "index": 1,
+          "term": "entrance",
+          "meaning": "① 입구, 입장",
+          "originalMeaning": "① 입구, 입장",
+          "example": "I'll wait at the main {{BLANK}}.",
+          "ipa": "ˈɛntrəns",
+          "speech": "entrance"
+        },
+        {
+          "course": "mother-tongue",
+          "set": 11,
+          "scope": "2026",
+          "exercise": 23,
+          "index": 5,
+          "term": "entrance",
+          "meaning": "등장, 입장, 입구",
+          "originalMeaning": "등장, 입장, 입구",
+          "example": "Having prepared himself for a glorious entrance on the international scene",
+          "ipa": "ˈɛntrəns",
+          "speech": "entrance"
+        },
+        {
+          "course": "mother-tongue",
+          "set": 11,
+          "scope": "prev",
+          "exercise": 31,
+          "index": 0,
+          "term": "entrance",
+          "meaning": "입구, 입장",
+          "originalMeaning": "입구, 입장",
+          "example": "The entrance to a honeybee colony, often referred to as the dancefloor",
+          "ipa": "ˈɛntrəns",
+          "speech": "entrance"
+        },
+        {
+          "course": "mother-tongue",
+          "set": 17,
+          "scope": "2026",
+          "exercise": 3,
+          "index": 0,
+          "term": "entrance",
+          "meaning": "입구, 문",
+          "originalMeaning": "입구, 문",
+          "example": "at the entrance of Darlingdale Farmer’s Market",
+          "ipa": "ˈɛntrəns",
+          "speech": "entrance"
+        }
+      ],
+      "result": "No meaning-to-IPA mismatch found in the currently present senses."
+    },
+    {
+      "term": "invalid",
+      "currentCards": [],
+      "result": "No exact headword card currently present; do not add a specialized sense merely to fill a heteronym catalog."
+    },
+    {
+      "term": "minute",
+      "currentCards": [
+        {
+          "course": "fable",
+          "set": 6,
+          "scope": null,
+          "exercise": 1,
+          "index": 6,
+          "term": "minute",
+          "meaning": "① (시간 단위) 분",
+          "originalMeaning": "① (시간 단위) 분",
+          "example": "The bus leaves in ten {{BLANK}}s.",
+          "ipa": "ˈmɪnɪt",
+          "speech": "minute"
+        },
+        {
+          "course": "fable",
+          "set": 6,
+          "scope": null,
+          "exercise": 1,
+          "index": 7,
+          "term": "minute",
+          "meaning": "② 잠깐",
+          "originalMeaning": "② 잠깐",
+          "example": "Wait a {{BLANK}}, I'm almost ready.",
+          "ipa": "ˈmɪnɪt",
+          "speech": "minute"
+        }
+      ],
+      "result": "No meaning-to-IPA mismatch found in the currently present senses."
+    },
+    {
+      "term": "bass",
+      "currentCards": [
+        {
+          "course": "fable",
+          "set": 36,
+          "scope": null,
+          "exercise": 4,
+          "index": 0,
+          "term": "bass",
+          "meaning": "① 저음, 베이스(악기)",
+          "originalMeaning": "① 저음, 베이스(악기)",
+          "example": "He plays {{BLANK}} in our school band.",
+          "ipa": "beɪs",
+          "speech": "bass"
+        },
+        {
+          "course": "fable",
+          "set": 36,
+          "scope": null,
+          "exercise": 4,
+          "index": 1,
+          "term": "bass",
+          "meaning": "② 배스, 농어류의 물고기",
+          "originalMeaning": "② 배스, 농어류의 물고기",
+          "example": "Dad caught a big {{BLANK}} at the lake.",
+          "ipa": "bæs",
+          "speech": "bass"
+        }
+      ],
+      "result": "No meaning-to-IPA mismatch found in the currently present senses."
+    }
+  ],
+  "falsePositiveGuards": [
+    {
+      "term": "protest",
+      "finding": "Mother Tongue verb /ˈproʊˌtɛst/ is allowed in American English. Do not force all verb senses to second-syllable stress or label this a content error.",
+      "source": "https://www.merriam-webster.com/dictionary/protest"
+    },
+    {
+      "term": "discount",
+      "finding": "FABLE has first stress for reducing a price and second stress for disregarding a warning. Oxford explicitly distinguishes these senses; Cambridge presents second stress for both. Preserve supported variants rather than declaring the price verb wrong.",
+      "source": "https://www.oxfordlearnersdictionaries.com/us/definition/english/discount_2"
+    },
+    {
+      "term": "aged",
+      "finding": "The two FABLE forms match the two present senses: aged ten /eɪdʒd/, aged cat /ˈeɪdʒɪd/.",
+      "source": "https://dictionary.cambridge.org/dictionary/english/aged"
+    },
+    {
+      "term": "read",
+      "finding": "Current exact read card is the present/base form /rid/, with no current /rɛd/ headword card. The UI contract reads the input headword even when an excerpt restores inflection; do not infer a required past-form clip solely from surface grammar.",
+      "source": "https://www.collinsdictionary.com/us/dictionary/english/read"
+    },
+    {
+      "term": "tear",
+      "finding": "Eye liquid /tɪr/ and rip /tɛr/ are correctly separated. Cambridge /ter/ uses its DRESS-vowel transcription and should not be converted into FACE /eɪ/.",
+      "source": "https://dictionary.cambridge.org/us/pronunciation/english/tear"
+    },
+    {
+      "term": "bow",
+      "finding": "Bend /baʊ/ versus weapon/knot /boʊ/ are correctly separated.",
+      "source": "https://dictionary.cambridge.org/us/pronunciation/english/bow"
+    },
+    {
+      "term": "refund",
+      "finding": "Mother Tongue 10/prev/10 has a passive refunded excerpt but primary /ˈriˌfʌnd/. This is not an error: Merriam-Webster explicitly lists both /rɪˈfʌnd/ and /ˈriˌfʌnd/ for the money-returning verb. Keep the accepted source form.",
+      "source": "https://www.merriam-webster.com/dictionary/refund"
+    }
+  ],
+  "selectionRisks": [
+    {
+      "risk": "Existing IPA is not a pronunciation truth source by itself",
+      "detail": "The compliment noun shows why term + IPA lookup must be preceded by semantic validation. Keep uncertain source keys on hold instead of manufacturing authoritative-sounding clips from them."
+    },
+    {
+      "risk": "Exact meaning overrides and restored excerpt forms",
+      "detail": "Mother Tongue resolves new contextMeaning first and originalMeaning second. The catalog extractor must use the same rule; selecting only the dictionary base or the visible inflected surface can choose a different grammatical reading."
+    },
+    {
+      "risk": "IPA alternatives are display data, not two automatic utterances",
+      "detail": "Mixed noun/verb Mother Tongue cards retain alternatives in the displayed IPA but speak the selected primary sense. Generating every alternative as though it were independently selected would overstate coverage."
+    },
+    {
+      "risk": "Transcription conventions",
+      "detail": "Differences in /e/ vs /ɛ/, length marks, syllable dots or optional secondary stress are not necessarily lexical heteronyms. Do not collapse primary stress, /s/ vs /z/, /ə/ vs /eɪ/, or /ɪ/ vs /aɪ/ while normalizing audio keys."
+    }
+  ],
+  "catalogCrosscheck": {
+    "status": "passed text-level crosscheck",
+    "catalogPath": "pipeline/pronunciation-audio/catalog.json",
+    "sha256": "61c597385f07c053b784c9128d2b7c2a9c7fbfd747a7a6ded33e36ff334f3ac0",
+    "terms": 96,
+    "entries": 175,
+    "ipaAliases": 187,
+    "currentSelectedCardsChecked": 348,
+    "unmappedCurrentSelectedCards": 0,
+    "unknownModelTokens": 0,
+    "semanticBlockingFindings": 0,
+    "phonemeOrPrimaryStressMismatches": 0,
+    "acceptedNotationDifferences": {
+      "count": 25,
+      "monosyllabicCitationStress": 21,
+      "secondaryStressVariants": 4,
+      "secondaryStressIds": [
+        "separate-verb",
+        "impact-noun",
+        "estimate-verb",
+        "associate-verb"
+      ],
+      "rationale": "The model receives explicit stress for isolated monosyllables. The four multi-syllable aliases differ only in optional secondary-stress notation; vowel/consonant sequence and primary stress remain identical."
+    },
+    "unusedAsCurrentPrimary": [
+      {
+        "id": "refund-verb",
+        "term": "refund",
+        "ipaAliases": [
+          "rɪˈfʌnd"
+        ]
+      },
+      {
+        "id": "estimate-noun",
+        "term": "estimate",
+        "ipaAliases": [
+          "ˈɛstəmət"
+        ]
+      },
+      {
+        "id": "import-noun",
+        "term": "import",
+        "ipaAliases": [
+          "ˈɪmpɔrt"
+        ]
+      },
+      {
+        "id": "suspect-noun",
+        "term": "suspect",
+        "ipaAliases": [
+          "ˈsʌspɛkt"
+        ]
+      },
+      {
+        "id": "animate-adjective",
+        "term": "animate",
+        "ipaAliases": [
+          "ˈænəmət"
+        ]
+      },
+      {
+        "id": "diffuse-verb",
+        "term": "diffuse",
+        "ipaAliases": [
+          "dɪˈfjuz"
+        ]
+      }
+    ],
+    "currentPrimaryFormCount": 169,
+    "method": "Directly read every compact catalog row, checked its meaning against current cards, independently converted each original IPA to the model alphabet and compared all 187 aliases. Verified r→ɹ, ɚ→əɹ, ɝ→ɜɹ, affricates ʧ/ʤ, AIOWY diphthongs and movement of stress to the next vowel. Catalog subject/object variants /ɪ/ vs /ɛ/ and implement /mənt/ vs /mɛnt/ remain separate clips.",
+    "limitations": "This is source-semantic and phoneme-string verification. No claim is made that every generated audio waveform has been independently heard or that its naturalness is guaranteed."
+  }
+}

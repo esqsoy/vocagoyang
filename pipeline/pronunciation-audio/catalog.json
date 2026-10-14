@@ -1,0 +1,2661 @@
+{
+  "version": 1,
+  "voice": "af_heart",
+  "entries": [
+    {
+      "id": "project-noun",
+      "term": "project",
+      "ipaAliases": [
+        "ˈprɑdʒɛkt"
+      ],
+      "phonemes": "pɹˈɑʤɛkt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/project",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "project-verb",
+      "term": "project",
+      "ipaAliases": [
+        "prəˈdʒekt",
+        "prəˈdʒɛkt"
+      ],
+      "phonemes": "pɹəʤˈɛkt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/project",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "use-verb",
+      "term": "use",
+      "ipaAliases": [
+        "juz"
+      ],
+      "phonemes": "jˈuz.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/use",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "use-noun",
+      "term": "use",
+      "ipaAliases": [
+        "jus"
+      ],
+      "phonemes": "jˈus.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/use",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "house-noun",
+      "term": "house",
+      "ipaAliases": [
+        "haʊs"
+      ],
+      "phonemes": "hˈWs.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/house",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "house-verb",
+      "term": "house",
+      "ipaAliases": [
+        "haʊz"
+      ],
+      "phonemes": "hˈWz.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/house",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "live-verb",
+      "term": "live",
+      "ipaAliases": [
+        "lɪv"
+      ],
+      "phonemes": "lˈɪv.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/live",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "live-adjective",
+      "term": "live",
+      "ipaAliases": [
+        "laɪv"
+      ],
+      "phonemes": "lˈIv.",
+      "status": "ready",
+      "reason": "현재 adjective 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/live",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "close-verb",
+      "term": "close",
+      "ipaAliases": [
+        "kloʊz"
+      ],
+      "phonemes": "klˈOz.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/close",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "close-adjective",
+      "term": "close",
+      "ipaAliases": [
+        "kloʊs"
+      ],
+      "phonemes": "klˈOs.",
+      "status": "ready",
+      "reason": "현재 adjective 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/close",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "record-noun",
+      "term": "record",
+      "ipaAliases": [
+        "ˈrɛkɚd"
+      ],
+      "phonemes": "ɹˈɛkəɹd.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/record",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "record-verb",
+      "term": "record",
+      "ipaAliases": [
+        "rɪˈkɔrd"
+      ],
+      "phonemes": "ɹɪkˈɔɹd.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/record",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "present-noun-adjective",
+      "term": "present",
+      "ipaAliases": [
+        "ˈprɛzənt"
+      ],
+      "phonemes": "pɹˈɛzənt.",
+      "status": "ready",
+      "reason": "현재 noun-adjective 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/present",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "present-verb",
+      "term": "present",
+      "ipaAliases": [
+        "prɪˈzɛnt"
+      ],
+      "phonemes": "pɹɪzˈɛnt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/present",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "affect-verb",
+      "term": "affect",
+      "ipaAliases": [
+        "əˈfɛkt",
+        "əˈfekt"
+      ],
+      "phonemes": "əfˈɛkt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/affect",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "affect-noun",
+      "term": "affect",
+      "ipaAliases": [
+        "ˈæfɛkt"
+      ],
+      "phonemes": "ˈæfɛkt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/affect",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "produce-verb",
+      "term": "produce",
+      "ipaAliases": [
+        "prəˈdus",
+        "prəˈduːs"
+      ],
+      "phonemes": "pɹədˈus.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/produce",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "produce-noun",
+      "term": "produce",
+      "ipaAliases": [
+        "ˈproʊdus"
+      ],
+      "phonemes": "pɹˈOdus.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/produce",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "increase-verb",
+      "term": "increase",
+      "ipaAliases": [
+        "ɪnˈkris"
+      ],
+      "phonemes": "ɪnkɹˈis.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/increase",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "increase-noun",
+      "term": "increase",
+      "ipaAliases": [
+        "ˈɪnkris"
+      ],
+      "phonemes": "ˈɪnkɹis.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/increase",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "subject-noun-adjective-i",
+      "term": "subject",
+      "ipaAliases": [
+        "ˈsʌbdʒɪkt"
+      ],
+      "phonemes": "sˈʌbʤɪkt.",
+      "status": "ready",
+      "reason": "명사·형용사 /ɪ/와 /ɛ/는 MW·Cambridge가 인정하는 모음 변이. 화면 IPA와 맞추기 위해 서로 다른 clip으로 남긴다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/subject",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://dictionary.cambridge.org/us/dictionary/english/subject"
+      ]
+    },
+    {
+      "id": "subject-verb",
+      "term": "subject",
+      "ipaAliases": [
+        "səbˈdʒɛkt"
+      ],
+      "phonemes": "səbʤˈɛkt.",
+      "status": "ready",
+      "reason": "명사·형용사 /ɪ/와 /ɛ/는 MW·Cambridge가 인정하는 모음 변이. 화면 IPA와 맞추기 위해 서로 다른 clip으로 남긴다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/subject",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://dictionary.cambridge.org/us/dictionary/english/subject"
+      ]
+    },
+    {
+      "id": "subject-noun-adjective-e",
+      "term": "subject",
+      "ipaAliases": [
+        "ˈsʌbdʒɛkt"
+      ],
+      "phonemes": "sˈʌbʤɛkt.",
+      "status": "ready",
+      "reason": "명사·형용사 /ɪ/와 /ɛ/는 MW·Cambridge가 인정하는 모음 변이. 화면 IPA와 맞추기 위해 서로 다른 clip으로 남긴다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/subject",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://dictionary.cambridge.org/us/dictionary/english/subject"
+      ]
+    },
+    {
+      "id": "document-noun",
+      "term": "document",
+      "ipaAliases": [
+        "ˈdɑkjəmənt"
+      ],
+      "phonemes": "dˈɑkjəmənt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/document",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "document-verb",
+      "term": "document",
+      "ipaAliases": [
+        "ˈdɑkjəˌmɛnt"
+      ],
+      "phonemes": "dˈɑkjəmˌɛnt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/document",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "survey-noun",
+      "term": "survey",
+      "ipaAliases": [
+        "ˈsɝveɪ"
+      ],
+      "phonemes": "sˈɜɹvA.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/survey",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "survey-verb",
+      "term": "survey",
+      "ipaAliases": [
+        "sɚˈveɪ"
+      ],
+      "phonemes": "səɹvˈA.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/survey",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "address-noun",
+      "term": "address",
+      "ipaAliases": [
+        "ˈædrɛs"
+      ],
+      "phonemes": "ˈædɹɛs.",
+      "status": "ready",
+      "reason": "현행 카드의 앞 강세 명사와 뒤 강세 동사를 보존한다. 명사도 뒤 강세가 가능하므로 배타적인 품사 규칙이 아니다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/address",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "address-verb",
+      "term": "address",
+      "ipaAliases": [
+        "əˈdrɛs"
+      ],
+      "phonemes": "ədɹˈɛs.",
+      "status": "ready",
+      "reason": "현행 카드의 앞 강세 명사와 뒤 강세 동사를 보존한다. 명사도 뒤 강세가 가능하므로 배타적인 품사 규칙이 아니다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/address",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "content-noun",
+      "term": "content",
+      "ipaAliases": [
+        "ˈkɑntɛnt"
+      ],
+      "phonemes": "kˈɑntɛnt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/content",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "content-adjective",
+      "term": "content",
+      "ipaAliases": [
+        "kənˈtɛnt"
+      ],
+      "phonemes": "kəntˈɛnt.",
+      "status": "ready",
+      "reason": "현재 adjective 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/content",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "wind-noun",
+      "term": "wind",
+      "ipaAliases": [
+        "wɪnd"
+      ],
+      "phonemes": "wˈɪnd.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/wind",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "wind-verb",
+      "term": "wind",
+      "ipaAliases": [
+        "waɪnd"
+      ],
+      "phonemes": "wˈInd.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/wind",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "object-noun-i",
+      "term": "object",
+      "ipaAliases": [
+        "ˈɑbdʒɪkt"
+      ],
+      "phonemes": "ˈɑbʤɪkt.",
+      "status": "ready",
+      "reason": "명사 /ɪ/와 /ɛ/는 MW가 모두 허용하는 모음 변이. 화면 IPA와 맞추기 위해 서로 다른 clip으로 남긴다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/object",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://dictionary.cambridge.org/us/dictionary/english/object"
+      ]
+    },
+    {
+      "id": "object-verb",
+      "term": "object",
+      "ipaAliases": [
+        "əbˈdʒɛkt"
+      ],
+      "phonemes": "əbʤˈɛkt.",
+      "status": "ready",
+      "reason": "명사 /ɪ/와 /ɛ/는 MW가 모두 허용하는 모음 변이. 화면 IPA와 맞추기 위해 서로 다른 clip으로 남긴다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/object",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://dictionary.cambridge.org/us/dictionary/english/object"
+      ]
+    },
+    {
+      "id": "object-noun-e",
+      "term": "object",
+      "ipaAliases": [
+        "ˈɑbdʒɛkt"
+      ],
+      "phonemes": "ˈɑbʤɛkt.",
+      "status": "ready",
+      "reason": "명사 /ɪ/와 /ɛ/는 MW가 모두 허용하는 모음 변이. 화면 IPA와 맞추기 위해 서로 다른 clip으로 남긴다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/object",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://dictionary.cambridge.org/us/dictionary/english/object"
+      ]
+    },
+    {
+      "id": "contract-noun",
+      "term": "contract",
+      "ipaAliases": [
+        "ˈkɑntrækt"
+      ],
+      "phonemes": "kˈɑntɹækt.",
+      "status": "ready",
+      "reason": "승인받은 Heart 샘플과 동일한 발음열을 그대로 유지한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/contract",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "contract-verb",
+      "term": "contract",
+      "ipaAliases": [
+        "kənˈtrækt"
+      ],
+      "phonemes": "kəntɹˈækt.",
+      "status": "ready",
+      "reason": "승인받은 Heart 샘플과 동일한 발음열을 그대로 유지한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/contract",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "progress-noun",
+      "term": "progress",
+      "ipaAliases": [
+        "ˈprɑɡrɛs"
+      ],
+      "phonemes": "pɹˈɑɡɹɛs.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/progress",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://dictionary.cambridge.org/us/dictionary/english/progress"
+      ]
+    },
+    {
+      "id": "progress-verb",
+      "term": "progress",
+      "ipaAliases": [
+        "prəˈɡrɛs"
+      ],
+      "phonemes": "pɹəɡɹˈɛs.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/progress",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://dictionary.cambridge.org/us/dictionary/english/progress"
+      ]
+    },
+    {
+      "id": "excuse-noun",
+      "term": "excuse",
+      "ipaAliases": [
+        "ɪkˈskjus"
+      ],
+      "phonemes": "ɪkskjˈus.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/excuse",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "excuse-verb",
+      "term": "excuse",
+      "ipaAliases": [
+        "ɪkˈskjuz"
+      ],
+      "phonemes": "ɪkskjˈuz.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/excuse",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "tear-teardrop",
+      "term": "tear",
+      "ipaAliases": [
+        "tɪr"
+      ],
+      "phonemes": "tˈɪɹ.",
+      "status": "ready",
+      "reason": "현재 teardrop 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/tear",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "tear-rip",
+      "term": "tear",
+      "ipaAliases": [
+        "tɛr"
+      ],
+      "phonemes": "tˈɛɹ.",
+      "status": "ready",
+      "reason": "현재 rip 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/tear",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "separate-verb",
+      "term": "separate",
+      "ipaAliases": [
+        "ˈsɛpəreɪt",
+        "ˈsɛpəˌreɪt"
+      ],
+      "phonemes": "sˈɛpəɹAt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/separate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "separate-adjective",
+      "term": "separate",
+      "ipaAliases": [
+        "ˈsɛpərət"
+      ],
+      "phonemes": "sˈɛpəɹət.",
+      "status": "ready",
+      "reason": "현재 adjective 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/separate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "offense-offence",
+      "term": "offense",
+      "ipaAliases": [
+        "əˈfɛns"
+      ],
+      "phonemes": "əfˈɛns.",
+      "status": "ready",
+      "reason": "현재 offence 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/offense",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "offense-sports",
+      "term": "offense",
+      "ipaAliases": [
+        "ˈɑfɛns"
+      ],
+      "phonemes": "ˈɑfɛns.",
+      "status": "ready",
+      "reason": "현재 sports 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/offense",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "permit-verb",
+      "term": "permit",
+      "ipaAliases": [
+        "pɚˈmɪt"
+      ],
+      "phonemes": "pəɹmˈɪt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/permit",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "permit-noun",
+      "term": "permit",
+      "ipaAliases": [
+        "ˈpɝmɪt"
+      ],
+      "phonemes": "pˈɜɹmɪt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/permit",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "desert-noun",
+      "term": "desert",
+      "ipaAliases": [
+        "ˈdɛzɚt"
+      ],
+      "phonemes": "dˈɛzəɹt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/desert",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "desert-verb",
+      "term": "desert",
+      "ipaAliases": [
+        "dɪˈzɝt"
+      ],
+      "phonemes": "dɪzˈɜɹt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/desert",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "decrease-verb",
+      "term": "decrease",
+      "ipaAliases": [
+        "dɪˈkris"
+      ],
+      "phonemes": "dɪkɹˈis.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/decrease",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "decrease-noun",
+      "term": "decrease",
+      "ipaAliases": [
+        "ˈdikris"
+      ],
+      "phonemes": "dˈikɹis.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/decrease",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "compound-noun-adjective",
+      "term": "compound",
+      "ipaAliases": [
+        "ˈkɑmpaʊnd"
+      ],
+      "phonemes": "kˈɑmpWnd.",
+      "status": "ready",
+      "reason": "현재 noun-adjective 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/compound",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "compound-verb",
+      "term": "compound",
+      "ipaAliases": [
+        "kəmˈpaʊnd"
+      ],
+      "phonemes": "kəmpˈWnd.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/compound",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "complex-adjective",
+      "term": "complex",
+      "ipaAliases": [
+        "kɑmˈplɛks"
+      ],
+      "phonemes": "kɑmplˈɛks.",
+      "status": "ready",
+      "reason": "뒤 강세 형용사와 앞 강세 명사·형용사는 모두 허용되는 미국식 변이. 품사만으로 다른 형을 오류 처리하지 않는다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/complex",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "complex-noun-adjective",
+      "term": "complex",
+      "ipaAliases": [
+        "ˈkɑmplɛks"
+      ],
+      "phonemes": "kˈɑmplɛks.",
+      "status": "ready",
+      "reason": "뒤 강세 형용사와 앞 강세 명사·형용사는 모두 허용되는 미국식 변이. 품사만으로 다른 형을 오류 처리하지 않는다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/complex",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "aged-years-old",
+      "term": "aged",
+      "ipaAliases": [
+        "eɪdʒd"
+      ],
+      "phonemes": "ˈAʤd.",
+      "status": "ready",
+      "reason": "현재 years-old 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/aged",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "aged-elderly",
+      "term": "aged",
+      "ipaAliases": [
+        "ˈeɪdʒɪd"
+      ],
+      "phonemes": "ˈAʤɪd.",
+      "status": "ready",
+      "reason": "현재 elderly 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/aged",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "export-verb",
+      "term": "export",
+      "ipaAliases": [
+        "ɪkˈspɔrt"
+      ],
+      "phonemes": "ɪkspˈɔɹt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/export",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://dictionary.cambridge.org/us/dictionary/english/export"
+      ]
+    },
+    {
+      "id": "export-noun",
+      "term": "export",
+      "ipaAliases": [
+        "ˈɛkspɔrt"
+      ],
+      "phonemes": "ˈɛkspɔɹt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/export",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://dictionary.cambridge.org/us/dictionary/english/export"
+      ]
+    },
+    {
+      "id": "impact-noun",
+      "term": "impact",
+      "ipaAliases": [
+        "ˈɪmpækt",
+        "ˈɪmˌpækt"
+      ],
+      "phonemes": "ˈɪmpækt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/impact",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "impact-verb",
+      "term": "impact",
+      "ipaAliases": [
+        "ɪmˈpækt"
+      ],
+      "phonemes": "ɪmpˈækt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/impact",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "contrast-noun",
+      "term": "contrast",
+      "ipaAliases": [
+        "ˈkɑntræst"
+      ],
+      "phonemes": "kˈɑntɹæst.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/contrast",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "contrast-verb",
+      "term": "contrast",
+      "ipaAliases": [
+        "kənˈtræst"
+      ],
+      "phonemes": "kəntɹˈæst.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/contrast",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "discount-price",
+      "term": "discount",
+      "ipaAliases": [
+        "ˈdɪskaʊnt"
+      ],
+      "phonemes": "dˈɪskWnt.",
+      "status": "ready",
+      "reason": "앞 강세 할인 의미와 뒤 강세 무시하다 의미의 현행 카드 선택을 보존한다. 동사는 두 강세가 모두 가능하다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/discount",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "discount-disregard",
+      "term": "discount",
+      "ipaAliases": [
+        "dɪsˈkaʊnt"
+      ],
+      "phonemes": "dɪskˈWnt.",
+      "status": "ready",
+      "reason": "앞 강세 할인 의미와 뒤 강세 무시하다 의미의 현행 카드 선택을 보존한다. 동사는 두 강세가 모두 가능하다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/discount",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "abuse-noun",
+      "term": "abuse",
+      "ipaAliases": [
+        "əˈbjus"
+      ],
+      "phonemes": "əbjˈus.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/abuse",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "abuse-verb",
+      "term": "abuse",
+      "ipaAliases": [
+        "əˈbjuz"
+      ],
+      "phonemes": "əbjˈuz.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/abuse",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "used-secondhand",
+      "term": "used",
+      "ipaAliases": [
+        "juzd"
+      ],
+      "phonemes": "jˈuzd.",
+      "status": "ready",
+      "reason": "중고의 /juzd/와 used to·be used to의 /just/를 구별한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/used",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "used-accustomed",
+      "term": "used",
+      "ipaAliases": [
+        "just"
+      ],
+      "phonemes": "jˈust.",
+      "status": "ready",
+      "reason": "중고의 /juzd/와 used to·be used to의 /just/를 구별한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/used",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "experiment-noun",
+      "term": "experiment",
+      "ipaAliases": [
+        "ɪkˈspɛrəmənt"
+      ],
+      "phonemes": "ɪkspˈɛɹəmənt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/experiment",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "experiment-verb",
+      "term": "experiment",
+      "ipaAliases": [
+        "ɪkˈspɛrəˌmɛnt"
+      ],
+      "phonemes": "ɪkspˈɛɹəmˌɛnt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/experiment",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "graduate-verb",
+      "term": "graduate",
+      "ipaAliases": [
+        "ˈɡrædʒuˌeɪt"
+      ],
+      "phonemes": "ɡɹˈæʤuˌAt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/graduate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "graduate-noun",
+      "term": "graduate",
+      "ipaAliases": [
+        "ˈɡrædʒuət"
+      ],
+      "phonemes": "ɡɹˈæʤuət.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/graduate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "update-verb",
+      "term": "update",
+      "ipaAliases": [
+        "ʌpˈdeɪt"
+      ],
+      "phonemes": "ʌpdˈAt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/update",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "update-noun",
+      "term": "update",
+      "ipaAliases": [
+        "ˈʌpdeɪt"
+      ],
+      "phonemes": "ˈʌpdAt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/update",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "legitimate-adjective",
+      "term": "legitimate",
+      "ipaAliases": [
+        "lɪˈdʒɪtəmət"
+      ],
+      "phonemes": "lɪʤˈɪtəmət.",
+      "status": "ready",
+      "reason": "현재 adjective 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/legitimate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "legitimate-verb",
+      "term": "legitimate",
+      "ipaAliases": [
+        "lɪˈdʒɪtəˌmeɪt"
+      ],
+      "phonemes": "lɪʤˈɪtəmˌAt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/legitimate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "refund-noun",
+      "term": "refund",
+      "ipaAliases": [
+        "ˈriˌfʌnd"
+      ],
+      "phonemes": "ɹˈifˌʌnd.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/refund",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "refund-verb",
+      "term": "refund",
+      "ipaAliases": [
+        "rɪˈfʌnd"
+      ],
+      "phonemes": "ɹɪfˈʌnd.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/refund",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "downtown-adverb",
+      "term": "downtown",
+      "ipaAliases": [
+        "ˌdaʊnˈtaʊn"
+      ],
+      "phonemes": "dˌWntˈWn.",
+      "status": "ready",
+      "reason": "현행 앞·뒤 강세를 보존한다. MW Kids adjective와 noun에도 앞 강세 변이가 있어 품사별 절대 구별이라고 설명하지 않는다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/downtown",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://dictionary.cambridge.org/us/dictionary/english/downtown"
+      ]
+    },
+    {
+      "id": "downtown-adjective",
+      "term": "downtown",
+      "ipaAliases": [
+        "ˈdaʊnˌtaʊn"
+      ],
+      "phonemes": "dˈWntˌWn.",
+      "status": "ready",
+      "reason": "현행 앞·뒤 강세를 보존한다. MW Kids adjective와 noun에도 앞 강세 변이가 있어 품사별 절대 구별이라고 설명하지 않는다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/downtown",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://dictionary.cambridge.org/us/dictionary/english/downtown"
+      ]
+    },
+    {
+      "id": "attribute-verb",
+      "term": "attribute",
+      "ipaAliases": [
+        "əˈtrɪbjut"
+      ],
+      "phonemes": "ətɹˈɪbjut.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/attribute",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "attribute-noun",
+      "term": "attribute",
+      "ipaAliases": [
+        "ˈætrɪˌbjut"
+      ],
+      "phonemes": "ˈætɹɪbjˌut.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/attribute",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "rebel-noun",
+      "term": "rebel",
+      "ipaAliases": [
+        "ˈrɛbəl"
+      ],
+      "phonemes": "ɹˈɛbəl.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/rebel",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "rebel-verb",
+      "term": "rebel",
+      "ipaAliases": [
+        "rɪˈbɛl"
+      ],
+      "phonemes": "ɹɪbˈɛl.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/rebel",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "convict-verb",
+      "term": "convict",
+      "ipaAliases": [
+        "kənˈvɪkt"
+      ],
+      "phonemes": "kənvˈɪkt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/convict",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "convict-noun",
+      "term": "convict",
+      "ipaAliases": [
+        "ˈkɑnvɪkt"
+      ],
+      "phonemes": "kˈɑnvɪkt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/convict",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "resume-verb",
+      "term": "resume",
+      "ipaAliases": [
+        "rɪˈzum"
+      ],
+      "phonemes": "ɹɪzˈum.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/resume",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "resume-cv",
+      "term": "resume",
+      "ipaAliases": [
+        "ˈrɛzəmeɪ"
+      ],
+      "phonemes": "ɹˈɛzəmA.",
+      "status": "ready",
+      "reason": "현재 cv 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/resume",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "implement-verb-full",
+      "term": "implement",
+      "ipaAliases": [
+        "ˈɪmpləˌmɛnt"
+      ],
+      "phonemes": "ˈɪmpləmˌɛnt.",
+      "status": "ready",
+      "reason": "MW의 동사 /mɛnt/와 Collins American English가 인정하는 동사 /mənt/ 변이를 각각 유지한다. 약모음을 오타로 단정하지 않는다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/implement",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://www.collinsdictionary.com/us/dictionary/english/implement"
+      ]
+    },
+    {
+      "id": "implement-verb-reduced",
+      "term": "implement",
+      "ipaAliases": [
+        "ˈɪmpləmənt"
+      ],
+      "phonemes": "ˈɪmpləmənt.",
+      "status": "ready",
+      "reason": "MW의 동사 /mɛnt/와 Collins American English가 인정하는 동사 /mənt/ 변이를 각각 유지한다. 약모음을 오타로 단정하지 않는다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/implement",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://www.collinsdictionary.com/us/dictionary/english/implement"
+      ]
+    },
+    {
+      "id": "bow-bend",
+      "term": "bow",
+      "ipaAliases": [
+        "baʊ"
+      ],
+      "phonemes": "bˈW.",
+      "status": "ready",
+      "reason": "현재 bend 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/bow",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "bow-weapon",
+      "term": "bow",
+      "ipaAliases": [
+        "boʊ"
+      ],
+      "phonemes": "bˈO.",
+      "status": "ready",
+      "reason": "현재 weapon 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/bow",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "upgrade-verb",
+      "term": "upgrade",
+      "ipaAliases": [
+        "ʌpˈɡreɪd"
+      ],
+      "phonemes": "ʌpɡɹˈAd.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/upgrade",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "upgrade-noun",
+      "term": "upgrade",
+      "ipaAliases": [
+        "ˈʌpɡreɪd"
+      ],
+      "phonemes": "ˈʌpɡɹAd.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/upgrade",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "conflict-noun",
+      "term": "conflict",
+      "ipaAliases": [
+        "ˈkɑnflɪkt"
+      ],
+      "phonemes": "kˈɑnflɪkt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/conflict",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "conflict-verb",
+      "term": "conflict",
+      "ipaAliases": [
+        "kənˈflɪkt"
+      ],
+      "phonemes": "kənflˈɪkt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/conflict",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "abstract-adjective-noun",
+      "term": "abstract",
+      "ipaAliases": [
+        "ˈæbstrækt"
+      ],
+      "phonemes": "ˈæbstɹækt.",
+      "status": "ready",
+      "reason": "현재 adjective-noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/abstract",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "abstract-verb",
+      "term": "abstract",
+      "ipaAliases": [
+        "æbˈstrækt"
+      ],
+      "phonemes": "æbstɹˈækt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/abstract",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "bass-music",
+      "term": "bass",
+      "ipaAliases": [
+        "beɪs"
+      ],
+      "phonemes": "bˈAs.",
+      "status": "ready",
+      "reason": "현재 music 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/bass",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "bass-fish",
+      "term": "bass",
+      "ipaAliases": [
+        "bæs"
+      ],
+      "phonemes": "bˈæs.",
+      "status": "ready",
+      "reason": "현재 fish 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/bass",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "moderate-adjective",
+      "term": "moderate",
+      "ipaAliases": [
+        "ˈmɑdərət"
+      ],
+      "phonemes": "mˈɑdəɹət.",
+      "status": "ready",
+      "reason": "현재 adjective 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/moderate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "moderate-verb",
+      "term": "moderate",
+      "ipaAliases": [
+        "ˈmɑdəˌreɪt"
+      ],
+      "phonemes": "mˈɑdəɹˌAt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/moderate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "elaborate-adjective",
+      "term": "elaborate",
+      "ipaAliases": [
+        "ɪˈlæbərət"
+      ],
+      "phonemes": "ɪlˈæbəɹət.",
+      "status": "ready",
+      "reason": "현재 adjective 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/elaborate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "elaborate-verb",
+      "term": "elaborate",
+      "ipaAliases": [
+        "ɪˈlæbəˌreɪt"
+      ],
+      "phonemes": "ɪlˈæbəɹˌAt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/elaborate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "insult-verb",
+      "term": "insult",
+      "ipaAliases": [
+        "ɪnˈsʌlt"
+      ],
+      "phonemes": "ɪnsˈʌlt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/insult",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "insult-noun",
+      "term": "insult",
+      "ipaAliases": [
+        "ˈɪnsʌlt"
+      ],
+      "phonemes": "ˈɪnsʌlt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/insult",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "overhead-adverb",
+      "term": "overhead",
+      "ipaAliases": [
+        "ˌoʊvɚˈhɛd"
+      ],
+      "phonemes": "ˌOvəɹhˈɛd.",
+      "status": "ready",
+      "reason": "현재 adverb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/overhead",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "overhead-noun",
+      "term": "overhead",
+      "ipaAliases": [
+        "ˈoʊvɚhɛd"
+      ],
+      "phonemes": "ˈOvəɹhɛd.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/overhead",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "estimate-verb",
+      "term": "estimate",
+      "ipaAliases": [
+        "ˈɛstəmeɪt",
+        "ˈɛstəˌmeɪt"
+      ],
+      "phonemes": "ˈɛstəmAt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/estimate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "estimate-noun",
+      "term": "estimate",
+      "ipaAliases": [
+        "ˈɛstəmət"
+      ],
+      "phonemes": "ˈɛstəmət.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/estimate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "advocate-verb",
+      "term": "advocate",
+      "ipaAliases": [
+        "ˈædvəˌkeɪt"
+      ],
+      "phonemes": "ˈædvəkˌAt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/advocate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "advocate-noun",
+      "term": "advocate",
+      "ipaAliases": [
+        "ˈædvəkət"
+      ],
+      "phonemes": "ˈædvəkət.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/advocate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "deliberate-adjective",
+      "term": "deliberate",
+      "ipaAliases": [
+        "dɪˈlɪbərət"
+      ],
+      "phonemes": "dɪlˈɪbəɹət.",
+      "status": "ready",
+      "reason": "현재 adjective 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/deliberate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "deliberate-verb",
+      "term": "deliberate",
+      "ipaAliases": [
+        "dɪˈlɪbəreɪt"
+      ],
+      "phonemes": "dɪlˈɪbəɹAt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/deliberate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "complement-verb",
+      "term": "complement",
+      "ipaAliases": [
+        "ˈkɑmpləmɛnt"
+      ],
+      "phonemes": "kˈɑmpləmɛnt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/complement",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "complement-noun",
+      "term": "complement",
+      "ipaAliases": [
+        "ˈkɑmpləmənt"
+      ],
+      "phonemes": "kˈɑmpləmənt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/complement",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "transplant-verb",
+      "term": "transplant",
+      "ipaAliases": [
+        "trænsˈplænt"
+      ],
+      "phonemes": "tɹænsplˈænt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/transplant",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "transplant-noun",
+      "term": "transplant",
+      "ipaAliases": [
+        "ˈtrænsplænt"
+      ],
+      "phonemes": "tɹˈænsplænt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/transplant",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "delegate-noun",
+      "term": "delegate",
+      "ipaAliases": [
+        "ˈdɛləɡət"
+      ],
+      "phonemes": "dˈɛləɡət.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/delegate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "delegate-verb",
+      "term": "delegate",
+      "ipaAliases": [
+        "ˈdɛləɡeɪt"
+      ],
+      "phonemes": "dˈɛləɡAt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/delegate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "fragment-noun",
+      "term": "fragment",
+      "ipaAliases": [
+        "ˈfræɡmənt"
+      ],
+      "phonemes": "fɹˈæɡmənt.",
+      "status": "ready",
+      "reason": "Collins American English가 동사의 뒤 강세도 인정한다. 현행 /fræɡˈmɛnt/를 첫 강세로 강제하지 않는다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/fragment",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://www.collinsdictionary.com/us/dictionary/english/fragment"
+      ]
+    },
+    {
+      "id": "fragment-verb",
+      "term": "fragment",
+      "ipaAliases": [
+        "fræɡˈmɛnt"
+      ],
+      "phonemes": "fɹæɡmˈɛnt.",
+      "status": "ready",
+      "reason": "Collins American English가 동사의 뒤 강세도 인정한다. 현행 /fræɡˈmɛnt/를 첫 강세로 강제하지 않는다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/fragment",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://www.collinsdictionary.com/us/dictionary/english/fragment"
+      ]
+    },
+    {
+      "id": "articulate-adjective",
+      "term": "articulate",
+      "ipaAliases": [
+        "ɑrˈtɪkjələt"
+      ],
+      "phonemes": "ɑɹtˈɪkjələt.",
+      "status": "ready",
+      "reason": "현재 adjective 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/articulate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "articulate-verb",
+      "term": "articulate",
+      "ipaAliases": [
+        "ɑrˈtɪkjəleɪt"
+      ],
+      "phonemes": "ɑɹtˈɪkjəlAt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/articulate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "primer-book",
+      "term": "primer",
+      "ipaAliases": [
+        "ˈprɪmɚ"
+      ],
+      "phonemes": "pɹˈɪməɹ.",
+      "status": "ready",
+      "reason": "현재 book 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/primer",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "primer-paint",
+      "term": "primer",
+      "ipaAliases": [
+        "ˈpraɪmɚ"
+      ],
+      "phonemes": "pɹˈIməɹ.",
+      "status": "ready",
+      "reason": "현재 paint 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/primer",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "incline-verb",
+      "term": "incline",
+      "ipaAliases": [
+        "ɪnˈklaɪn"
+      ],
+      "phonemes": "ɪnklˈIn.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/incline",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "incline-noun",
+      "term": "incline",
+      "ipaAliases": [
+        "ˈɪnklaɪn"
+      ],
+      "phonemes": "ˈɪnklIn.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/incline",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "discharge-verb",
+      "term": "discharge",
+      "ipaAliases": [
+        "dɪsˈtʃɑrdʒ"
+      ],
+      "phonemes": "dɪsʧˈɑɹʤ.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/discharge",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "discharge-noun",
+      "term": "discharge",
+      "ipaAliases": [
+        "ˈdɪstʃɑrdʒ"
+      ],
+      "phonemes": "dˈɪsʧɑɹʤ.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/discharge",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "supplement-noun",
+      "term": "supplement",
+      "ipaAliases": [
+        "ˈsʌpləmənt"
+      ],
+      "phonemes": "sˈʌpləmənt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/supplement",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "supplement-verb",
+      "term": "supplement",
+      "ipaAliases": [
+        "ˈsʌpləˌmɛnt"
+      ],
+      "phonemes": "sˈʌpləmˌɛnt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/supplement",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "precipitate-verb",
+      "term": "precipitate",
+      "ipaAliases": [
+        "prɪˈsɪpəˌteɪt"
+      ],
+      "phonemes": "pɹɪsˈɪpətˌAt.",
+      "status": "ready",
+      "reason": "Cambridge 미국식 명사 /priːˈsɪp.ə.t̬ət/와 동사 /prɪˈsɪp.ə.teɪt/에 대응한다. 명사의 첫 /i/는 오류가 아니다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/precipitate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://dictionary.cambridge.org/us/dictionary/english/precipitate"
+      ]
+    },
+    {
+      "id": "precipitate-noun",
+      "term": "precipitate",
+      "ipaAliases": [
+        "priˈsɪpətət"
+      ],
+      "phonemes": "pɹisˈɪpətət.",
+      "status": "ready",
+      "reason": "Cambridge 미국식 명사 /priːˈsɪp.ə.t̬ət/와 동사 /prɪˈsɪp.ə.teɪt/에 대응한다. 명사의 첫 /i/는 오류가 아니다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/precipitate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py",
+        "https://dictionary.cambridge.org/us/dictionary/english/precipitate"
+      ]
+    },
+    {
+      "id": "import-verb",
+      "term": "import",
+      "ipaAliases": [
+        "ɪmˈpɔrt"
+      ],
+      "phonemes": "ɪmpˈɔɹt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/import",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "import-noun",
+      "term": "import",
+      "ipaAliases": [
+        "ˈɪmpɔrt"
+      ],
+      "phonemes": "ˈɪmpɔɹt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/import",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "conduct-verb",
+      "term": "conduct",
+      "ipaAliases": [
+        "kənˈdʌkt"
+      ],
+      "phonemes": "kəndˈʌkt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/conduct",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "conduct-noun",
+      "term": "conduct",
+      "ipaAliases": [
+        "ˈkɑndʌkt"
+      ],
+      "phonemes": "kˈɑndʌkt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/conduct",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "transfer-verb",
+      "term": "transfer",
+      "ipaAliases": [
+        "trænsˈfɝː",
+        "trænsˈfɝ"
+      ],
+      "phonemes": "tɹænsfˈɜɹ.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/transfer",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "transfer-noun",
+      "term": "transfer",
+      "ipaAliases": [
+        "ˈtrænsfɚ"
+      ],
+      "phonemes": "tɹˈænsfəɹ.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/transfer",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "construct-verb",
+      "term": "construct",
+      "ipaAliases": [
+        "kənˈstrʌkt"
+      ],
+      "phonemes": "kənstɹˈʌkt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/construct",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "construct-noun",
+      "term": "construct",
+      "ipaAliases": [
+        "ˈkɑnstrʌkt"
+      ],
+      "phonemes": "kˈɑnstɹʌkt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/construct",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "suspect-verb",
+      "term": "suspect",
+      "ipaAliases": [
+        "səˈspekt",
+        "səˈspɛkt"
+      ],
+      "phonemes": "səspˈɛkt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/suspect",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "suspect-noun",
+      "term": "suspect",
+      "ipaAliases": [
+        "ˈsʌspɛkt"
+      ],
+      "phonemes": "sˈʌspɛkt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/suspect",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "aggregate-verb",
+      "term": "aggregate",
+      "ipaAliases": [
+        "ˈæɡrəˌɡeɪt"
+      ],
+      "phonemes": "ˈæɡɹəɡˌAt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/aggregate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "aggregate-noun-adjective",
+      "term": "aggregate",
+      "ipaAliases": [
+        "ˈæɡrəɡət"
+      ],
+      "phonemes": "ˈæɡɹəɡət.",
+      "status": "ready",
+      "reason": "현재 noun-adjective 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/aggregate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "animate-verb",
+      "term": "animate",
+      "ipaAliases": [
+        "ˈænəˌmeɪt"
+      ],
+      "phonemes": "ˈænəmˌAt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/animate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "animate-adjective",
+      "term": "animate",
+      "ipaAliases": [
+        "ˈænəmət"
+      ],
+      "phonemes": "ˈænəmət.",
+      "status": "ready",
+      "reason": "현재 adjective 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/animate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "approximate-adjective",
+      "term": "approximate",
+      "ipaAliases": [
+        "əˈprɑksəmət"
+      ],
+      "phonemes": "əpɹˈɑksəmət.",
+      "status": "ready",
+      "reason": "현재 adjective 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/approximate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "approximate-verb",
+      "term": "approximate",
+      "ipaAliases": [
+        "əˈprɑksəˌmeɪt"
+      ],
+      "phonemes": "əpɹˈɑksəmˌAt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/approximate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "diffuse-adjective",
+      "term": "diffuse",
+      "ipaAliases": [
+        "dɪˈfjus"
+      ],
+      "phonemes": "dɪfjˈus.",
+      "status": "ready",
+      "reason": "현재 adjective 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/diffuse",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "diffuse-verb",
+      "term": "diffuse",
+      "ipaAliases": [
+        "dɪˈfjuz"
+      ],
+      "phonemes": "dɪfjˈuz.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/diffuse",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "associate-verb",
+      "term": "associate",
+      "ipaAliases": [
+        "əˈsoʊsieɪt",
+        "əˈsoʊsiˌeɪt"
+      ],
+      "phonemes": "əsˈOsiAt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/associate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "converse-noun",
+      "term": "converse",
+      "ipaAliases": [
+        "ˈkɑnvɝs"
+      ],
+      "phonemes": "kˈɑnvɜɹs.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/converse",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "convert-verb",
+      "term": "convert",
+      "ipaAliases": [
+        "kənˈvɝːt",
+        "kənˈvɝt"
+      ],
+      "phonemes": "kənvˈɜɹt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/convert",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "coordinate-verb",
+      "term": "coordinate",
+      "ipaAliases": [
+        "koʊˈɔrdəˌneɪt"
+      ],
+      "phonemes": "kOˈɔɹdənˌAt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/coordinate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "defect-noun",
+      "term": "defect",
+      "ipaAliases": [
+        "ˈdifɛkt"
+      ],
+      "phonemes": "dˈifɛkt.",
+      "status": "ready",
+      "reason": "현재 noun 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/defect",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "exploit-verb",
+      "term": "exploit",
+      "ipaAliases": [
+        "ɪkˈsplɔɪt"
+      ],
+      "phonemes": "ɪksplˈYt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/exploit",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "extract-verb",
+      "term": "extract",
+      "ipaAliases": [
+        "ɪkˈstrækt"
+      ],
+      "phonemes": "ɪkstɹˈækt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/extract",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "polish-verb",
+      "term": "polish",
+      "ipaAliases": [
+        "ˈpɑlɪʃ"
+      ],
+      "phonemes": "pˈɑlɪʃ.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/polish",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "recall-verb",
+      "term": "recall",
+      "ipaAliases": [
+        "rɪˈkɔl"
+      ],
+      "phonemes": "ɹɪkˈɔl.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/recall",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "recount-verb",
+      "term": "recount",
+      "ipaAliases": [
+        "rɪˈkaʊnt"
+      ],
+      "phonemes": "ɹɪkˈWnt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/recount",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "regress-verb",
+      "term": "regress",
+      "ipaAliases": [
+        "rɪˈɡrɛs"
+      ],
+      "phonemes": "ɹɪɡɹˈɛs.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/regress",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "reject-verb",
+      "term": "reject",
+      "ipaAliases": [
+        "rɪˈdʒekt",
+        "rɪˈdʒɛkt"
+      ],
+      "phonemes": "ɹɪʤˈɛkt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/reject",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "simulate-verb",
+      "term": "simulate",
+      "ipaAliases": [
+        "ˈsɪmjəˌleɪt"
+      ],
+      "phonemes": "sˈɪmjəlˌAt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/simulate",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "transport-verb",
+      "term": "transport",
+      "ipaAliases": [
+        "trænˈspɔːrt",
+        "trænsˈpɔrt"
+      ],
+      "phonemes": "tɹænspˈɔɹt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/transport",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "wound-injury",
+      "term": "wound",
+      "ipaAliases": [
+        "wund"
+      ],
+      "phonemes": "wˈund.",
+      "status": "ready",
+      "reason": "현재 injury 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/wound",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "implant-verb",
+      "term": "implant",
+      "ipaAliases": [
+        "ɪmˈplænt"
+      ],
+      "phonemes": "ɪmplˈænt.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/implant",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "overshoot-verb",
+      "term": "overshoot",
+      "ipaAliases": [
+        "ˌoʊvɚˈʃut"
+      ],
+      "phonemes": "ˌOvəɹʃˈut.",
+      "status": "ready",
+      "reason": "현재 verb 발음형을 직접 지정한다. 동일 철자의 품사·의미를 TTS가 추측하지 않게 한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/overshoot",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "his-pronoun",
+      "term": "his",
+      "ipaAliases": [
+        "hɪz"
+      ],
+      "phonemes": "hˈɪz.",
+      "status": "ready",
+      "reason": "사용자 제보에 따른 예외. /z/는 유성 자음이며 별도 /s/형을 만들지 않는다. 고립형으로 발음한다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/his",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    },
+    {
+      "id": "compliment-noun",
+      "term": "compliment",
+      "ipaAliases": [
+        "ˈkɑmpləmənt"
+      ],
+      "phonemes": "kˈɑmpləmənt.",
+      "status": "ready",
+      "reason": "마더텅 명사 칭찬의 원본 IPA가 /ˈkɑmpləmənt/로 교정됐다. 기존 잘못된 /ˈkɑmpləmɛnt/는 별칭으로 인정하지 않는다.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/compliment",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/data/us_gold.json",
+        "https://github.com/hexgrad/misaki/blob/main/misaki/en.py"
+      ]
+    }
+  ]
+}

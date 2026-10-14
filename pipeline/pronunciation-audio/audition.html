@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>보카고양 · 발음 확인</title>
+<style>
+body{background:#21182e;color:#eee9f3;font:17px/1.6 system-ui,sans-serif;margin:0;padding:28px 20px}main{max-width:760px;margin:auto}h1{font-size:26px}a{color:#d2b2ff}input{box-sizing:border-box;width:100%;padding:12px;border:1px solid #79568d;border-radius:12px;background:#30213f;color:inherit;font:inherit}article{margin:14px 0;padding:18px;background:#30213f;border:1px solid #513761;border-radius:14px}h2{margin:0;font-size:21px}p{margin:6px 0 12px}small{color:#cbb9dc}audio{display:block;width:100%;margin-top:12px}#status{color:#cbb9dc}.ipa{color:#ffd66e}
+</style>
+<main><h1>발음 예외 · Heart</h1><p>같은 철자라도 뜻에 맞는 소리를 재생해. contract 두 음원은 앞서 확인한 샘플 그대로야.</p>
+<p><a href="../../vocagoyangfable.html#unlock">FABLE에서 플레이</a> · <a href="../../vocagoyangksat2027.html">마더텅</a> · <a href="../../vocagoyangebs2027.html">EBS</a></p>
+<input id="search" type="search" placeholder="단어 검색 — contract, record, his…" aria-label="발음 확인할 단어"><p id="status">목록을 읽고 있어.</p><div id="list"></div></main>
+<script>
+const escapeHtml=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+Promise.all([fetch('catalog.json').then(r=>r.json()),fetch('../../assets/pronunciation/manifest.json').then(r=>r.json())]).then(([catalog,manifest])=>{
+ const clips=new Map(manifest.entries.map(e=>[e.id,e]));
+ const entries=catalog.entries.filter(e=>e.status==='ready'&&clips.has(e.id));
+ entries.sort((a,b)=>(a.term==='contract'?-1:0)-(b.term==='contract'?-1:0)||a.term.localeCompare(b.term)||a.id.localeCompare(b.id));
+ const render=()=>{
+  const q=document.querySelector('#search').value.trim().toLowerCase(),shown=entries.filter(e=>e.term.toLowerCase().includes(q));
+  document.querySelector('#status').textContent=`${new Set(shown.map(e=>e.term)).size}단어 · ${shown.length}발음형. 누른 음원만 내려받아.`;
+  document.querySelector('#list').innerHTML=shown.map(e=>{const c=clips.get(e.id);return `<article><h2>${escapeHtml(e.term)}</h2><small>${escapeHtml(e.id.replace(e.term+'-',''))}</small><p class="ipa">/${escapeHtml(e.ipaAliases[0])}/</p><audio controls preload="none" src="../../${escapeHtml(c.src)}?v=${c.sha256.slice(0,12)}"></audio></article>`;}).join('');
+  document.querySelectorAll('audio').forEach(a=>a.addEventListener('play',()=>document.querySelectorAll('audio').forEach(b=>{if(a!==b)b.pause();})));
+ };
+ document.querySelector('#search').addEventListener('input',render);render();
+}).catch(()=>document.querySelector('#status').textContent='음원 목록을 불러오지 못했어. 로컬 서버나 배포 페이지에서 열어줘.');
+</script></html>
