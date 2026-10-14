@@ -3177,6 +3177,7 @@ function finishExercise(){
   $("#nextEx").disabled=lastInLesson&&_ni<0&&!_rest;
   $("#nextEx").textContent=_rest?"남은 연습 ▶":lastInLesson&&_ni>=0?"다음 강 ▶":"다음 연습 ▶";
   renderHome();renderExList();show("sum");
+  sumShownAt=Date.now();try{document.activeElement?.blur?.();}catch(e){}   // 숨은 입력칸에 초점이 남아 Enter를 삼키지 않게(결과 화면 Enter·Space = 다음 연습)
 }
 /* ===== fx + audio ===== */
 let actx=null;
@@ -4453,6 +4454,18 @@ window.addEventListener("focus",()=>requestAnimationFrame(focusAnswerInput));
 window.addEventListener("blur",updateInputNotice);
 $("#catSubmit").addEventListener("click",e=>{e.preventDefault();e.stopPropagation();savedToggleCurrent();});
 $("#catSubmit").addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" ")e.stopPropagation();});
+/* 결과 화면에서 Enter·Space = 다음 연습(26.10.14 영신: "연습클리어 화면에서 키보드 엔터나 스페이스로 바로 다음연습으로 넘어가게").
+   마지막 답을 친 Enter를 이어서 누르다 결과를 건너뛰지 않게 결과가 뜬 뒤 0.7초와 키 반복은 받지 않는다.
+   돌파 축하·포효·엔딩이 떠 있거나 결과 화면의 버튼에 초점이 있으면(Tab으로 고른 경우) 그쪽에 맡긴다. */
+var sumShownAt=0;
+document.addEventListener("keydown",e=>{
+  if((e.key!=="Enter"&&e.key!==" "&&e.code!=="Space")||e.repeat||e.isComposing)return;
+  if(!$("#sumScreen")?.classList.contains("active")||Date.now()-sumShownAt<700)return;
+  if($("#msFx")||$("#roar")?.classList.contains("show")||$("#ending")?.classList.contains("show"))return;
+  const t=e.target;if(t?.closest?.("#sumScreen")&&t.closest("button,a,input,textarea,select"))return;
+  const b=$("#nextEx");if(!b||b.disabled)return;
+  e.preventDefault();b.click();
+});
 $("#submitBtn")&&$("#submitBtn").addEventListener("click",e=>{e.preventDefault();e.stopPropagation();submit();});
 // A transparent native button sits over the first cell, above the typing input.
 // The other cells continue to tap the input directly (including on mobile).
