@@ -2,6 +2,14 @@
 
 갱신: 2026-10-13 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
 
+## 2026-10-14 · 결과 화면 Enter·Space · it·its·boss 예문 · main 배포(9acff62, [DEPLOYMENT](DEPLOYMENT.md))
+
+- 세 과정: 결과 화면에서 Enter·Space를 누르면 다음 연습으로 넘어간다. 결과가 뜬 뒤 0.7초와 키 반복은 무시하고, 축하·포효·엔딩·버튼 초점은 그쪽이 받는다(UI_STANDARD).
+- FABLE(원장 `pet-it-20261014`): 키우는 동물은 he·she로 부른다는 원칙을 PRINCIPLES 2-12에 새로 두었다(영신).
+  - it ①은 "My cat sat on my phone. It is broken now."다.
+  - boss ①은 "My cat thinks she is my boss."다.
+  - its ①은 "A cat washes its face …"다.
+
 ## 2026-10-13 · 0세트 lunch 카드 · main 배포(60a3bd6, [DEPLOYMENT](DEPLOYMENT.md))
 
 - 예문은 "There's no such thing as a free lunch." / "세상에 공짜 점심은 없어."다(영신 제안).

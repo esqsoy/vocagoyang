@@ -1552,4 +1552,4 @@
   - its ①: "A cat washes {{BLANK}} face more than ten times a day." / "고양이는 하루에 열 번도 넘게 세수해." 대사 "좀 씻으라고양"은 그대로다.
   - 0~45세트 전체에서 '내 고양이·개'를 it으로 받은 예문은 이 둘뿐이었다.
 - 검증(새로 실행): ordercheck 앞당김 둘 이상 0(새 예문 셋은 앞당김 없음), deepcheck A5 0, linecheck 360px 초과 0.
-- 배포: 결과 화면 Enter·Space(a70bfc2)와 함께. 결과는 [DEPLOYMENT.md](DEPLOYMENT.md).
+- 배포: 결과 화면 Enter·Space(a70bfc2)와 함께 9acff62 fast-forward, Pages 38552572509 성공, 네 HTML blob SHA 일치. 기록은 [DEPLOYMENT.md](DEPLOYMENT.md).

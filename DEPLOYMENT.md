@@ -1,3 +1,18 @@
+# 결과 화면 Enter·Space, it·its·boss 예문 배포 · 2026-10-14
+
+- 커밋 [9acff62](https://github.com/esqsoy/vocagoyang/commit/9acff62)를 origin/main에 fast-forward로 푸시했다(60a3bd6 다음, 배포 기록 fca16eb와 a70bfc2 포함). [Pages 38552572509](https://github.com/esqsoy/vocagoyang/actions/runs/38552572509) 성공(10:52:11~10:52:57 UTC). 영신: "이것도 작업하고 배포하자"
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 1fe118a, 수능 0b2f8c0, EBS b73efb2, index a5c2ba2). github.io는 이 세션에서 열리지 않아 공개 화면은 직접 보지 못했다.
+- 포함:
+  - 세 과정 게임 코드: 결과 화면에서 Enter·Space를 누르면 다음 연습으로 넘어간다(UI_STANDARD).
+  - FABLE 내용(원장 `pet-it-20261014`, PRINCIPLES 2-12): it ①을 물건 it 예문으로, 그 농담을 boss ①로 옮겼다. its ①은 고양이 일반으로 바꿨다.
+- 배포 전 검사(9acff62과 같은 내용에서 실행):
+  - 검사 42개 통과.
+  - ordercheck 앞당김 둘 이상 0, deepcheck A5 0, linecheck 360px 초과 0.
+  - Chromium으로 세 과정 결과 화면 키를 확인했다(직후 무시, Enter·Space 다음, Tab 버튼 우선). smoke에서 콘솔 오류가 없다.
+  - 실기기 Safari는 확인하지 않았다.
+
+---
+
 # 0세트 lunch 카드 배포 · 2026-10-13
 
 - 커밋 [60a3bd6](https://github.com/esqsoy/vocagoyang/commit/60a3bd6)을 origin/main에 fast-forward로 푸시했다(9b61211 다음, 배포 기록 37b3961 포함). [Pages 38459793044](https://github.com/esqsoy/vocagoyang/actions/runs/38459793044) 성공(20:03:38~20:04:42 UTC). 영신: "좋아"
