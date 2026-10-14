@@ -102,11 +102,11 @@ function stQueueStamp(){
 }
 
 /* --- 도장 화면 --- */
-function stShow(L,r){
-  if(stHas(L)&&stAt(L)){stAfter(r);return;}
-  const before=new Set(openSets()),at=Date.now();stGive(L,at);
+function stShow(L,r,preview){
+  if(!preview&&stHas(L)&&stAt(L)){stAfter(r);return;}
+  const before=new Set(openSets()),at=Date.now();if(!preview)stGive(L,at);
   const open=openSets(),i=state.lessons.indexOf(L),nx=state.lessons.slice(i+1).find(x=>x.kind!=='saved'&&inScope(x));
-  const opened=nx&&open.has(nx)?nx:null,fresh=opened&&!before.has(opened);
+  const opened=nx&&(preview||open.has(nx))?nx:null,fresh=opened&&(preview||!before.has(opened));
   const ov=document.createElement('div');ov.className='st-fx';ov.id='stFx';ov.setAttribute('role','dialog');ov.setAttribute('aria-label',`${L.id} 완주 도장`);
   const chip=x=>`<span class="st-chip${x.lesson>=46?' morph':x.lesson>B1_LAST?' upper':''}"><i class="st-lock">🔒</i>${esc(x.id)}</span>`;
   ov.innerHTML=`<div class="st-card" style="--st-paper:#fbf5e6"><div class="st-ink">${stampSVG(L,at)}</div></div>
@@ -117,7 +117,7 @@ function stShow(L,r){
   requestAnimationFrame(()=>ov.classList.add('show'));
   setTimeout(()=>{ov.classList.add('hit');stThump();},420);
   if(opened)setTimeout(()=>{ov.classList.add('unlock');const l=ov.querySelector('.st-lock');if(l)l.textContent='🔓';beep('ok',3);},1150);
-  const close=()=>{if(Date.now()-stFxAt<900)return;ov.remove();stAfter(r);};
+  const close=()=>{if(Date.now()-stFxAt<900)return;ov.remove();if(!preview)stAfter(r);};
   ov.addEventListener('click',close);ov._close=close;
 }
 function stAfter(r){
@@ -318,6 +318,7 @@ finishExercise=function(){
 };
 /* 엔딩은 마지막 세트 도장을 찍은 뒤에 연다. */
 showEnding=function(){if(stReview||$('#stFx')){stPendingEnding=true;return;}return stOrigEnding.apply(this,arguments);};
+try{stPreview();}catch(e){}
 renderHome=function(){const r=stOrigRenderHome.apply(this,arguments);try{stDecorateHome();}catch(e){}return r;};
 var stOrigShow=show;
 show=function(n){if(n!=='sum'&&stReview&&stReview.where==='sum'&&!stReview.done)stReview=null;return stOrigShow.apply(this,arguments);};
@@ -340,4 +341,9 @@ window.addEventListener('keydown',e=>{
     const b=stLeft($('#sumWrong'))[0];if(b)stTap(b);}
 },true);
 document.querySelector('.maproute')?.addEventListener('click',()=>{if(!feState&&feMode())feShow();});
-function stInitAll(){try{stInit();stDecorateHome();}catch(e){}}
+/* 주소 끝 #stamp=12 · #ending · #ending=b1 → 저장하지 않고 연출만 미리 본다(영신 확인용, 돌파 축하의 #milestone과 같다). */
+function stPreview(){
+  const m=/^#(stamp|ending)(?:=(\w+))?$/.exec(location.hash||'');if(!m)return;
+  if(m[1]==='stamp'){const L=state.lessons.find(x=>x.kind!=='saved'&&String(x.lesson)===(m[2]||'0'));if(L)setTimeout(()=>stShow(L,{L,all:false},true),700);return;}
+  setTimeout(()=>feOpen(m[2]==='b1'?'b1':'full'),700);
+}
