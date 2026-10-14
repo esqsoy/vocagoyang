@@ -114,7 +114,7 @@ for(const file of files){
  assert.deepEqual(plain(h.state.progress),progressBefore);assert.deepEqual(learningStorage(h),storageBefore);
  assert.equal(h.state.perfectStreak,3,'A saved review neither extends nor breaks the course perfect streak');
  assert.equal(h.ctx.totalExercises(),totalBefore);assert.equal(h.ctx.clearedExercises(),doneBefore);
- assert(!h.els.get('ending').classList.contains('show'),'Saved review is not a curriculum ending');
+ assert(!h.els.get('ending')?.classList.contains('show')&&!h.run('typeof feState!=="undefined"&&!!feState'),'Saved review is not a curriculum ending');   // FABLE 엔딩은 #fEnd(세트 도장 모듈)
  assert(h.els.get('nextEx').disabled,'The final saved exercise must not lead into a numbered course');
  h.ctx.savedOpen();assert.equal(h.state.savedLesson.exercises.length,0,'The collection becomes empty after returning to its list');
  assert.equal(h.state.lessons,lessonsBefore);
@@ -154,7 +154,7 @@ for(const file of files){
  complete.start();assert.equal(complete.ctx.savedToggleCurrent(),true);
  const completedProgress=JSON.stringify(complete.state.progress),completedStorage=learningStorage(complete);
  playSaved(complete);complete.advance(1000);
- assert(!complete.els.get('ending').classList.contains('show'),'Saved review cannot reopen a fully completed curriculum ending');
+ assert(!complete.els.get('ending')?.classList.contains('show')&&!complete.run('typeof feState!=="undefined"&&!!feState'),'Saved review cannot reopen a fully completed curriculum ending');
  assert.equal(JSON.stringify(complete.state.progress),completedProgress);assert.deepEqual(learningStorage(complete),completedStorage);
  reports.push({course,cards:originalCards,exercises:originalCount,storage:'reference-only/reload/error checked',review:'isolated from curriculum progress'});
 }

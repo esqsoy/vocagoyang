@@ -1,0 +1,64 @@
+/* 세트 완주 도장 · FABLE 엔딩 (26.10.14 영신). 원리는 PRINCIPLES 15절. */
+.wrongs .st-wh{color:var(--gold);}
+/* 도장 화면: 크림색 종이 위에 잉크 도장이 위에서 떨어져 쾅 찍힌다. */
+.st-fx{position:fixed;inset:0;z-index:62;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:20px;
+  background:radial-gradient(circle at 50% 38%,rgba(255,211,77,.16),rgba(8,3,16,.9));-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);
+  opacity:0;transition:opacity .22s ease;cursor:pointer;}
+.st-fx.show{opacity:1;}
+.st-card{width:min(74vw,290px);aspect-ratio:1;border-radius:16px;background:#fbf5e6;padding:7%;box-sizing:border-box;
+  box-shadow:0 14px 40px rgba(0,0,0,.45),inset 0 0 0 1px rgba(120,90,40,.15);transform:scale(.92);transition:transform .25s cubic-bezier(.2,1.4,.4,1);}
+.st-fx.show .st-card{transform:scale(1);}
+.st-fx.hit .st-card{animation:stthud .32s ease;}
+@keyframes stthud{30%{transform:translateY(3px) scale(.985);}60%{transform:translateY(-1px) scale(1.005);}}
+.st-ink{width:100%;height:100%;opacity:0;transform:translateY(-34px) scale(1.9) rotate(-14deg);filter:blur(2px);}
+.st-fx.hit .st-ink{opacity:.93;transform:rotate(-4deg);filter:none;transition:transform .2s cubic-bezier(.6,0,.9,.6),opacity .12s,filter .3s .15s;}
+.st-fx .st-ink{transition:none;}
+.st-ink .st-svg{display:block;width:100%;height:100%;}
+.st-label{display:flex;align-items:center;gap:8px;color:#fff;font-weight:800;font-size:.95rem;opacity:0;transition:opacity .3s .5s;}
+.st-fx.hit .st-label{opacity:1;}
+.st-pill{color:#fff;border-radius:999px;padding:2px 10px;font-size:.82rem;font-weight:900;}
+.st-open{display:flex;align-items:center;gap:10px;min-height:40px;color:var(--gold);font-weight:900;font-size:1rem;opacity:0;transform:translateY(6px);transition:opacity .3s .8s,transform .3s .8s;}
+.st-fx.hit .st-open{opacity:1;transform:none;}
+.st-chip{display:inline-flex;align-items:center;gap:6px;padding:7px 12px;border-radius:12px;border:2px dashed var(--line);background:var(--panel2);color:#fff;font-weight:900;opacity:.6;transition:opacity .3s,border-color .3s;}
+.st-chip.upper{border-color:#c24d93;}.st-chip.morph{border-color:#2f7d95;}
+.st-fx.unlock .st-chip{opacity:1;border-style:solid;border-color:var(--gold2);}
+.st-lock{font-style:normal;display:inline-block;}
+.st-fx.unlock .st-lock{animation:stlock .45s ease;}
+@keyframes stlock{20%{transform:rotate(-18deg);}45%{transform:rotate(14deg) scale(1.2);}70%{transform:scale(1.35);}}
+.st-hint{color:var(--muted);font-size:.78rem;opacity:0;transition:opacity .3s 1.4s;}
+.st-fx.hit .st-hint{opacity:.8;}
+/* 홈: 도장 받은 세트 칸 오른쪽 아래의 작은 도장 */
+.lessonbtn.stamped{position:relative;padding-right:48px !important;}
+.st-mini{position:absolute;right:7px;bottom:7px;width:36px;height:36px;transform:rotate(-8deg);opacity:.92;pointer-events:none;}
+.st-mini .st-svg{display:block;width:100%;height:100%;}
+/* 홈에서 이어서 받기 */
+.st-sheet{position:fixed;inset:0;z-index:58;display:none;align-items:flex-end;justify-content:center;background:rgba(8,3,16,.72);}
+.st-sheet.show{display:flex;}
+.st-panel{width:min(100%,520px);max-height:86vh;overflow:auto;background:linear-gradient(160deg,#2c0d44,#160826);border:2px solid var(--line);border-bottom:0;border-radius:18px 18px 0 0;
+  padding:14px 14px calc(14px + env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:10px;}
+/* FABLE 엔딩 */
+body.fe-on{overflow:hidden;}
+.fe{position:fixed;inset:0;z-index:65;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:20px 16px;
+  background:radial-gradient(circle at 50% 30%,#3a1a5c 0%,#160826 60%,#08030f 100%);opacity:0;transition:opacity .45s ease;cursor:pointer;overflow:auto;}
+.fe.show{opacity:1;}
+.fe-x{position:absolute;top:10px;right:10px;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:rgba(0,0,0,.3);color:var(--muted);font-size:1rem;cursor:pointer;}
+.fe-stage{position:relative;display:flex;flex-direction:column;align-items:center;gap:8px;}
+.fe-stage[hidden],.fe-badge[hidden],.fe-act[hidden],.fe-hint[hidden]{display:none;}
+.fe-mt{display:block;border-radius:14px;}
+.fe-cap{min-height:1.4em;color:var(--muted);font-size:.8rem;font-weight:800;text-align:center;letter-spacing:-.2px;}
+.fe-cap.big{color:var(--gold);font-size:1.05rem;font-weight:900;}
+.fe-talk{display:flex;align-items:flex-start;gap:10px;width:min(100%,420px);}
+.fe-talk .catimg{flex:0 0 64px;width:64px;}
+.fe-talk .catimg img{width:100%;image-rendering:pixelated;}
+.fe-talk .bubble{flex:1;min-width:0;min-height:3.4em;}
+.fe.glitch .fe-talk .catimg{animation:feglitch .18s steps(2) infinite;}
+@keyframes feglitch{0%{transform:translate(0,0);}50%{transform:translate(-2px,1px);filter:hue-rotate(40deg);}100%{transform:translate(2px,-1px);}}
+.fe-badge{display:flex;flex-direction:column;align-items:center;gap:8px;animation:endpop .6s cubic-bezier(.2,1.4,.4,1);}
+.fe-pin{position:relative;width:min(58vw,210px);aspect-ratio:1;filter:drop-shadow(0 10px 24px rgba(0,0,0,.5));}
+.fe-pin svg{display:block;width:100%;height:100%;}
+.fe-pin-cat{position:absolute;left:50%;top:30%;width:30%;transform:translateX(-50%);image-rendering:pixelated;animation:bob 2.6s ease-in-out infinite;}
+.fe-date{color:var(--muted);font-size:.8rem;font-weight:800;}
+.fe-act{display:flex;gap:8px;width:min(100%,420px);}
+.fe-act button{flex:1;}
+.fe-hint{color:var(--muted);font-size:.76rem;opacity:.75;}
+@media (prefers-reduced-motion:reduce){.fe-pin-cat{animation:none;}.st-fx.hit .st-card{animation:none;}}
