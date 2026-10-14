@@ -356,6 +356,16 @@
   - 『오즈의 마법사』: home, best(양철 나무꾼 "Happiness is the best thing in the world.", 1세트 작업)
   - 그 밖: call(모비 딕), except·straight·adventure·believe(피터 팬), mistake·glad·wicked(앤), present·storm·mean(작은 아씨들), painful(프랑켄슈타인), observe·obvious(홈스), possibility·angel(제인 에어), soul(폭풍의 언덕), music·freely(드라큘라), define·youth(도리언 그레이), alike(안나 카레니나), difficult(미들마치), wisdom(몬테크리스토 백작)
 
+### 2-12. 키우는 동물은 he·she로 부른다
+
+- **자기가 키우는 고양이·개는 he·she로 부른다. it은 성별을 모르는 동물이나 동물 일반, 물건에 쓴다.** (26.10.14 영신: "자기가 키우는 고양이면 보통 성별을 알고 HE.SHE로 부르지 않나", "네말대로 쓸 수는 있는데 (우리도 형제끼리 저게 이게 하듯) 아무래도 우리는 기본 어휘장이니까")
+  - 왜: 원어민도 자기 반려동물을 it으로 부를 수는 있지만, 남 얘기하듯 거리를 두는 말이 된다. 기본 어휘장은 가장 보통의 쓰임을 보여 줘야 한다.
+  - 바꾼 것(원장 `pet-it-20261014`):
+    - it ①: "I have a cat. It thinks it is my boss." → 물건을 가리키는 "My cat sat on my phone. It is broken now."
+    - 그 농담은 boss ①로 옮겼다: "My cat thinks she is my boss."(대사 "착각 아니고 사실이라고양. 집사는 츄르로 충성하라고양."도 함께 옮김).
+    - its ①: "My cat washes its face …" → 고양이 일반을 말하는 "A cat washes its face …". 대사 "좀 씻으라고양"은 그대로다.
+  - 0~45세트에서 '내 고양이·개'를 it으로 받은 예문은 이 둘뿐이었다(26.10.14 검색). throne·toss·buzz·frustrating의 it은 물건·파리·가주어다.
+
 ## 3. 빈칸 중의성: 맞는 영어를 치고 틀리게 하지 않는다
 
 - 문제 화면에서 학생이 보는 것은 뜻(ko), 빈칸 예문, 글자 칸 수뿐이다. 이 셋만 보고 다른 영어 단어를 넣어도 말이 되면 결함이다.

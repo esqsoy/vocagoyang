@@ -1542,3 +1542,14 @@
 - 검증(새로 실행):
   - Chromium으로 세 과정 모두 확인했다. 결과 직후 Enter는 무시, 0.8초 뒤 Enter·Space는 다음 연습, Tab으로 고른 '이 연습 다시'에서 Enter는 그 버튼. 콘솔 오류가 없다.
   - 검사 42개 통과, smoke 오류 없음.
+
+## 2026-10-14 · 키우는 고양이를 it으로 부르던 예문(it·its) 바꾸고 농담은 boss로 · 배포
+
+- 영신: it 예문 "I have a cat. It thinks it is my boss."에 대해 "자기가 키우는 고양이면 보통 성별을 알고 HE.SHE로 부르지 않나 … boss에서 살려도 될거같고", its도 같은 뉘앙스라며 "우리는 기본 어휘장이니까. 이것도 작업하고 배포하자"
+- 바꾼 것(원장 `pet-it-20261014`, 원칙 PRINCIPLES 2-12):
+  - it ①: "My cat sat on my phone. {{BLANK}} is broken now." / "고양이가 내 폰을 깔고 앉았어. 이제 고장 났어." / 대사 "폰이 약한 거라고양. 난 가볍다고양!" 해석에서 '그게'를 빼 해설(우리말은 빼도 영어는 it을 꼭 쓴다)이 보이게 했다.
+  - boss ①: "My cat thinks she is my {{BLANK}}." / "우리 고양이는 자기가 내 상사인 줄 알아." / it 카드의 대사를 옮김. 원래 예문 "Her boss lets her leave early on Friday."는 뺐다.
+  - its ①: "A cat washes {{BLANK}} face more than ten times a day." / "고양이는 하루에 열 번도 넘게 세수해." 대사 "좀 씻으라고양"은 그대로다.
+  - 0~45세트 전체에서 '내 고양이·개'를 it으로 받은 예문은 이 둘뿐이었다.
+- 검증(새로 실행): ordercheck 앞당김 둘 이상 0(새 예문 셋은 앞당김 없음), deepcheck A5 0, linecheck 360px 초과 0.
+- 배포: 결과 화면 Enter·Space(a70bfc2)와 함께. 결과는 [DEPLOYMENT.md](DEPLOYMENT.md).

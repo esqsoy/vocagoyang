@@ -1,0 +1,244 @@
+{
+ "date": "2026-10-14",
+ "name": "pet-it-20261014",
+ "status": "applied_locally_verified",
+ "authorization": "영신 26.10.14: \"자기가 키우는 고양이면 보통 성별을 알고 HE.SHE로 부르지 않나 … BOSS단어가 페이블에 있다면 이걸 교체하고 boss에서 살려도 될거같고\", \"its 예문에서도 같은 뉘앙스야 … 우리는 기본 어휘장이니까. 이것도 작업하고 배포하자\"",
+ "summary": "it ①: 키우는 고양이를 it으로 부르던 \"I have a cat. It thinks it is my boss.\"를 물건 it(\"My cat sat on my phone. It is broken now.\")으로, 그 농담은 boss ①로 옮겨 \"My cat thinks she is my boss.\"(대사도 옮김). its ①: \"My cat washes its face\"를 고양이 일반 \"A cat washes its face\"로.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "576ac3f445a8f0cd18a91ccee875246ad8185faaf425c2267d14d4c73f03739a",
+   "afterHash": "25635e308b9dc826fe513a507881ba75810c5d1fc0ae7b74e9c991b630198746",
+   "changes": [
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "I have a cat. {{BLANK}} thinks it is my boss.",
+     "new": "My cat sat on my phone. {{BLANK}} is broken now."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "나 고양이 키워. 자기가 내 상사인 줄 알아.",
+     "new": "고양이가 내 폰을 깔고 앉았어. 이제 고장 났어."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      1,
+      "words",
+      2,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "착각 아니고 사실이라고양. 집사는 츄르로 충성하라고양.",
+     "new": "폰이 약한 거라고양. 난 가볍다고양!"
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      2,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "My cat washes {{BLANK}} face more than ten times a day.",
+     "new": "A cat washes {{BLANK}} face more than ten times a day."
+    },
+    {
+     "path": [
+      0,
+      "exercises",
+      2,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "우리 고양이는 하루에 열 번도 넘게 세수해.",
+     "new": "고양이는 하루에 열 번도 넘게 세수해."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      8,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Her {{BLANK}} lets her leave early on Friday.",
+     "new": "My cat thinks she is my {{BLANK}}."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      8,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "걔 상사는 금요일에 걔가 일찍 가게 해 줘.",
+     "new": "우리 고양이는 자기가 내 상사인 줄 알아."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      8,
+      "words",
+      11,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "여기 boss, 상사는 나라고양. 말 들으라고양.",
+     "new": "착각 아니고 사실이라고양. 집사는 츄르로 충성하라고양."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/set05.json": {
+   "beforeHash": "bd6f069c6786579b47918b61f6cd789e46d2be5e9d208376fa71d605c486419c",
+   "afterHash": "fb659b54397dd4e2be584250f45ccf1e86d32c50b1bacbe3b50f92325b68b30e"
+  },
+  "pipeline/out/set24.json": {
+   "beforeHash": "0cec3fb32c654303d65d0684e6dc426a5a4665a572287c5446ab76109778b78f",
+   "afterHash": "05cbd2d9f304302e80b2844395290e7eb5920ca0ecd41a1acbf171df39f54487"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/set05.json": [
+   {
+    "path": [
+     0,
+     "words",
+     20,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "I have a cat. {{BLANK}} thinks it is my boss.",
+    "new": "My cat sat on my phone. {{BLANK}} is broken now."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     20,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "나 고양이 키워. 자기가 내 상사인 줄 알아.",
+    "new": "고양이가 내 폰을 깔고 앉았어. 이제 고장 났어."
+   },
+   {
+    "path": [
+     0,
+     "words",
+     20,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "착각 아니고 사실이라고양. 집사는 츄르로 충성하라고양.",
+    "new": "폰이 약한 거라고양. 난 가볍다고양!"
+   },
+   {
+    "path": [
+     8,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "My cat washes {{BLANK}} face more than ten times a day.",
+    "new": "A cat washes {{BLANK}} face more than ten times a day."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "우리 고양이는 하루에 열 번도 넘게 세수해.",
+    "new": "고양이는 하루에 열 번도 넘게 세수해."
+   }
+  ],
+  "pipeline/out/set24.json": [
+   {
+    "path": [
+     8,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Her {{BLANK}} lets her leave early on Friday.",
+    "new": "My cat thinks she is my {{BLANK}}."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "걔 상사는 금요일에 걔가 일찍 가게 해 줘.",
+    "new": "우리 고양이는 자기가 내 상사인 줄 알아."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     11,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "여기 boss, 상사는 나라고양. 말 들으라고양.",
+    "new": "착각 아니고 사실이라고양. 집사는 츄르로 충성하라고양."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/set05.json": [],
+  "pipeline/out/set24.json": []
+ }
+}
