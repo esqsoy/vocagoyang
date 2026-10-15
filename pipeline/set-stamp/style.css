@@ -41,7 +41,10 @@ body.fe-on{overflow:hidden;}
 .fe{position:fixed;inset:0;z-index:65;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:20px 16px;
   background:radial-gradient(circle at 50% 30%,#3a1a5c 0%,#160826 60%,#08030f 100%);opacity:0;transition:opacity .45s ease;cursor:pointer;overflow:auto;}
 .fe.show{opacity:1;}
-.fe-x{position:absolute;top:10px;right:10px;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:rgba(0,0,0,.3);color:var(--muted);font-size:1rem;cursor:pointer;}
+.fe-bg,.fe-fx{position:absolute;left:0;top:0;pointer-events:none;}
+.fe-bg{z-index:0;}.fe-fx{z-index:3;mix-blend-mode:screen;}
+.fe-stage,.fe-talk,.fe-badge,.fe-act,.fe-hint{position:relative;z-index:1;}
+.fe-x{z-index:4;position:absolute;top:10px;right:10px;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:rgba(0,0,0,.3);color:var(--muted);font-size:1rem;cursor:pointer;}
 .fe-stage{position:relative;display:flex;flex-direction:column;align-items:center;gap:8px;}
 .fe-stage[hidden],.fe-badge[hidden],.fe-act[hidden],.fe-hint[hidden]{display:none;}
 .fe-mt{display:block;border-radius:14px;}
@@ -58,6 +61,10 @@ body.fe-on{overflow:hidden;}
 .fe-pin svg{display:block;width:100%;height:100%;}
 .fe-pin-cat{position:absolute;left:50%;top:30%;width:30%;transform:translateX(-50%);image-rendering:pixelated;animation:bob 2.6s ease-in-out infinite;}
 .fe-date{color:var(--muted);font-size:.8rem;font-weight:800;}
+/* 1부 완결: 배지 대신 큰 도장이 떨어져 찍힌다 */
+.fe-bigstamp .st-card{width:min(72vw,270px);transform:none;}
+.fe-bigstamp .st-ink{animation:festamp .55s cubic-bezier(.6,0,.9,.6) .1s both;}
+@keyframes festamp{0%{opacity:0;transform:translateY(-34px) scale(1.9) rotate(-14deg);filter:blur(2px);}70%{opacity:.93;transform:rotate(-4deg) scale(1);filter:none;}82%{transform:rotate(-4deg) scale(.985);}100%{opacity:.93;transform:rotate(-4deg);filter:none;}}
 .fe-act{display:flex;gap:8px;width:min(100%,420px);}
 .fe-act button{flex:1;}
 .fe-hint{color:var(--muted);font-size:.76rem;opacity:.75;}

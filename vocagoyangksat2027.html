@@ -4825,6 +4825,7 @@ function msPreviewWords(n){
 /* 주소 끝 #milestone 또는 #milestone=2000 → 저장하지 않고 연출만 미리 본다(영신 확인용). &fx=rain이면 첫 후보(대각선 유성우). */
 function msPreview(){
   const m=/^#milestone(?:=(\d{4,5}))?(?:&fx=(rain|warp))?$/.exec(location.hash||'');if(!m)return false;
+  try{history.replaceState(null,'',location.pathname+location.search);}catch(e){}   // 붙인 주소를 지워 다시 붙여도 다시 뜨게(아래 hashchange)
   const n=Math.max(msStep,Math.floor((Number(m[1])||msStep)/msStep)*msStep);
   const words=msPreviewWords(n),miss=Object.keys(msMissed());
   setTimeout(()=>msShow({m:n,total:n,retro:false,words,preview:true,mode:m[2],missed:miss.length?miss:words.filter((_,i)=>i%14===5)}),600);return true;   // 기록이 없으면 금빛 견본을 섞어 보여 준다
@@ -4844,7 +4845,7 @@ show=function(n){if(n!=='game')try{msLogMisses(state.session);}catch(e){}   // �
   if(n!=='game'&&msPendingShow){const info=msPendingShow;msPendingShow=null;msQueue(info);}   // 판 때문에 미룬 축하
   return r;};
 showEnding=function(){if(msBusy){msPendingEnding=true;return;}return msOrigEnding.apply(this,arguments);};
-function msInit(){try{msSync();msPreview();}catch(e){}}
+function msInit(){try{msSync();msPreview();}catch(e){}window.addEventListener('hashchange',()=>{try{msPreview();}catch(e){}});}   // 열린 페이지에 #만 붙여도 뜨게(26.10.15)
 msInit();
 /* MILESTONES_END */
 /* PACE_START */
