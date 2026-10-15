@@ -1,3 +1,14 @@
+# 예외 발음 음원 + Opus 최신 변경 통합 배포 · 2026-10-15
+
+- 통합 커밋 [416be73](https://github.com/esqsoy/vocagoyang/commit/416be73)을 origin/main에 fast-forward로 푸시했다. 부모는 예외 음원 구현 `2115de7`과 Opus 최신 `ee47230`이다. [Pages 38713118742](https://github.com/esqsoy/vocagoyang/actions/runs/38713118742) 성공(2026-10-15 09:28:41 UTC 완료 확인).
+- **공개 확인 완료:** index와 FABLE·마더텅·EBS HTML 모두 로컬 검증본과 일치. 공개 manifest와 175개 MP3의 크기·SHA256도 전부 일치(2,201,300바이트). 이번에는 github.io에 직접 접근해 확인했다.
+- **공개 Chromium 실제 플레이:** 새 프로필에서 실제 클릭·키 입력으로 세 과정의 MP3 재생 시작/종료, IPA 효과, 다시 듣기, 무음, 음원 차단 시 TTS 복구를 확인했다. 콘솔 오류 없음. [공개 검증 결과](reviews/codex-20261015/evidence/pronunciation-public.json).
+- **포함:** Heart 예외 음원 305카드 연결(FABLE 183 / 마더텅 97 / EBS 25), 뜻·품사별 음원 선택, 현재 카드만 선행 로딩, 실패·취소 처리. Opus의 내용 32장, 도장·엔딩·리뷰 결함 수정 보존. 새 세트 복습의 발음 연결과 닫기/지연 타이머 안전성, `in sise` 오자 판정 및 도장 전 엔딩 우회 추가 수정. [통합 검토](reviews/codex-20261015/INTEGRATION.md).
+- **배포 전 검사:** 최종 51개 Node 검사, 교재 발음 조립 2개, 로컬 실제 Chromium 세 과정 및 도장 복습/취소/자동·수동 이동 경합 검사 통과. 5개 빌더 LF/CRLF 동일 출력과 멱등성 확인.
+- **구분:** 공개 검사 첫 시도는 `fill()`로 답을 넣어 실제 사용자의 음성 재생 활성화를 재현하지 못했다. 실제 클릭·키 입력으로 검사 방식을 고친 뒤 통과했다. 이 때문에 제품 코드를 바꾸지는 않았다. 실제 학생 iPhone Safari와 전체 음원의 사람 청취는 여전히 미확인이다.
+
+---
+
 # 아스트라 리뷰 카드 내용 32장 배포 · 2026-10-15
 
 - 커밋 [ee47230](https://github.com/esqsoy/vocagoyang/commit/ee47230)를 origin/main에 fast-forward로 푸시했다(b6f0896 다음, 배포 기록 4a22f14 포함). [Pages 38698857667](https://github.com/esqsoy/vocagoyang/actions/runs/38698857667) 성공.

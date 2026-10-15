@@ -1,12 +1,14 @@
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
 assert(process.argv.slice(2).length<=1&&process.argv.slice(2).every(arg=>arg==='--check'),'Usage: node pipeline/mother-tongue-excerpts/build.cjs [--check]');
 const dir=__dirname,file=path.join(dir,'../../vocagoyangksat2027.html');
-const html=fs.readFileSync(file,'utf8');
+// Git may check sources out as CRLF; generated HTML and checks use LF on every OS.
+const readText=file=>fs.readFileSync(file,'utf8').replace(/\r\n/g,'\n');
+const html=readText(file);
 const vocabulary=JSON.parse(html.match(/^const DATA = (\[.*\]);\s*$/m)[1]);
 const expected=new Map(vocabulary.flatMap(l=>l.exercises.flatMap(e=>e.words.map((w,i)=>[[l.lesson,e.scope||'2026',e.ex,i].join('/'),w.en]))));
 const rows=fs.readFileSync(path.join(dir,'records.jsonl'),'utf8').trim().split(/\r?\n/).map(s=>JSON.parse(s));
 assert.equal(rows.length,expected.size,'Every original card needs one editorial record');
-const runtime=fs.readFileSync(path.join(dir,'runtime.js'),'utf8').trimEnd(),helpers={};vm.runInNewContext(runtime,helpers);
+const runtime=readText(path.join(dir,'runtime.js')).trimEnd(),helpers={};vm.runInNewContext(runtime,helpers);
 const contexts={},seen=new Set(),stats={cards:rows.length,excerpts:0,holds:0,sourceOnly:0,notes:0,meaningChanges:0};
 for(const r of rows){
  const key=[r.lesson,r.scope,r.ex,r.index].join('/');assert(!seen.has(key),'Duplicate '+key);seen.add(key);assert.equal(r.term,expected.get(key),'Changed term or index '+key);
@@ -24,7 +26,7 @@ for(const r of rows){
 }
 function section(text,start,end,body){const a=text.indexOf(start),b=text.indexOf(end);assert(a>=0&&b>a,'Missing generated markers');return text.slice(0,a+start.length)+'\n'+body+'\n'+text.slice(b);}
 let result=section(html,'/* MT_EXCERPTS_RUNTIME_START */','/* MT_EXCERPTS_RUNTIME_END */','const MT_CONTEXTS='+JSON.stringify(contexts).replace(/</g,'\\u003c')+';\n'+runtime);
-result=section(result,'/* MT_EXCERPTS_STYLE_START */','/* MT_EXCERPTS_STYLE_END */',fs.readFileSync(path.join(dir,'style.css'),'utf8').trimEnd());
+result=section(result,'/* MT_EXCERPTS_STYLE_START */','/* MT_EXCERPTS_STYLE_END */',readText(path.join(dir,'style.css')).trimEnd());
 if(process.argv.includes('--check'))assert.equal(result,html,'Run node pipeline/mother-tongue-excerpts/build.cjs to refresh embedded excerpts');
 else fs.writeFileSync(file,result,'utf8');
 require('../index-stats.cjs').updateIndex({check:process.argv.includes('--check')});

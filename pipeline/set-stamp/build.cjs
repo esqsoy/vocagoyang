@@ -2,8 +2,10 @@
 // 세트 완주 도장·FABLE 엔딩(runtime.js·style.css)을 FABLE HTML에만 넣는다. --check는 HTML이 원본과 같은지만 본다.
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'../..'),check=process.argv.includes('--check');
-const style=fs.readFileSync(path.join(__dirname,'style.css'),'utf8').trim(),runtime=fs.readFileSync(path.join(__dirname,'runtime.js'),'utf8').trim();
-const target=path.join(root,'vocagoyangfable.html'),before=fs.readFileSync(target,'utf8').replace(/\r\n/g,'\n');let html=before;
+// Git may check sources out as CRLF; generated HTML and checks use LF on every OS.
+const readText=file=>fs.readFileSync(file,'utf8').replace(/\r\n/g,'\n');
+const style=readText(path.join(__dirname,'style.css')).trim(),runtime=readText(path.join(__dirname,'runtime.js')).trim();
+const target=path.join(root,'vocagoyangfable.html'),before=readText(target);let html=before;
 const css='<style id="set-stamp-style">\n'+style+'\n</style>';
 if(html.includes('<style id="set-stamp-style">'))html=html.replace(/<style id="set-stamp-style">[\s\S]*?<\/style>/,()=>css);
 else html=html.replace('</head>',css+'\n</head>');

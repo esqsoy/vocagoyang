@@ -52,4 +52,30 @@ const opened=h=>[...h.ctx.openSets()].map(L=>L.lesson);
  for(let n=0;n<=50;n++){const v=LC[n];assert(typeof v==='string'&&v.length<=60&&/고양/.test(v),`${n}: ${v}`);
   assert(!/%|COCA|완등|\d,\d{3}|스무 개에 하나|단어 가족/.test(v),`${n}: numeric or stale claim: ${v}`);}
  for(const [mode,lines] of Object.entries(h.run('FE_LINES')))lines.forEach(([e,t,c,k])=>{assert(h.run('CAT')[e],`${mode}: cat face ${e}`);if(k!=='slow')assert(/고양/.test(t),`${mode}: ${t}`);});}
-console.log('PASS set-stamp: 업데이트 전 완료=도장, 도장이 다음 세트를 연다, 세트 틀린 단어 목록, 막 끝낸 판에서만 복습, 엔딩은 도장 뒤, B1 1부 완결, 세트·엔딩 대사');
+// 7. 홈 진도 막대와 예약된 showEnding도 마지막 도장을 건너뛰지 않는다.
+for(const mode of ['full','b1']){
+ const h=harness(FILE);h.state.levelB1=mode==='b1';const last=mode==='b1'?25:50;
+ h.state.lessons.forEach(L=>{if(L.kind==='saved'||L.lesson>last)return;clear(h,L.lesson);if(L.lesson<last)h.ctx.stGive(L,1);});
+ h.ctx.show('home');const endings=[];h.ctx.feOpen=m=>endings.push(m);
+ assert.equal(h.ctx.feMode(),mode,'Learning completion and the stamp gate are distinct');
+ h.doc.querySelector('.maproute').click();h.ctx.showEnding();
+ assert.equal(endings.length,0,'Neither entry point opens an ending before its last stamp');
+ assert.equal(h.run('stPendingEnding'),true);
+ if(mode==='full'){h.state.levelB1=true;h.doc.querySelector('.maproute').click();assert.equal(endings.length,0,'B1 view cannot hide an unpaid full-ending stamp');}
+ h.ctx.stGive(set(h,last),1);h.doc.querySelector('.maproute').click();
+ assert.deepEqual(endings,[mode],'The ending is available once all required stamps are present');
+ assert.equal(h.run('stPendingEnding'),false);
+}
+
+// 8. 업데이트 전 완주 기록(날짜 0 도장)과 저장하지 않는 엔딩 미리보기는 유지한다.
+{let h=harness(FILE);h.state.lessons.forEach(L=>{if(L.kind!=='saved')clear(h,L.lesson);});
+ const key=h.run('STORAGE'),progress=h.storage.get(key);h=harness(FILE,{[key]:progress});
+ assert.equal(h.ctx.stAt(set(h,50)),0);assert(h.ctx.stHas(set(h,50)));
+ const endings=[];h.ctx.feOpen=m=>endings.push(m);h.doc.querySelector('.maproute').click();assert.deepEqual(endings,['full']);}
+for(const mode of ['full','b1']){
+ const h=harness(FILE),endings=[];h.ctx.feOpen=m=>endings.push(m);
+ h.ctx.location.hash=mode==='b1'?'#ending=b1':'#ending';h.ctx.stPreview();h.advance(700);
+ assert.deepEqual(endings,[mode],'Preview does not require progress or stamps');
+ assert.deepEqual(JSON.parse(h.storage.get(KEY)),{},'Preview grants no stamps');
+}
+console.log('PASS set-stamp: 도장 해금·복습·B1/전체 엔딩·홈 우회 차단·구판 기록·미리보기·세트 대사');

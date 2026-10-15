@@ -1,6 +1,7 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
 const {align}=require('./alignment.cjs');
+const audio=require('../pronunciation-audio/build.cjs');
 const ROOT=path.resolve(__dirname,'../..');
 const PAGES=['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyangebs2027.html'];
 const RUNTIME_START='/* IPA_EFFECT_RUNTIME_START */',RUNTIME_END='/* IPA_EFFECT_RUNTIME_END */';
@@ -16,10 +17,10 @@ function pronunciationEntry(dictionary,term,meaning){
  const entry=dictionary[term]||{},specific=entry.meanings&&entry.meanings[meaning];
  return specific?{...entry,label:undefined,alternatives:undefined,...specific}:entry;
 }
-function collect(source){
+function collect(source,audioCatalog={}){
  const data=assignment(source,'DATA'),dictionary=assignment(source,'MT_PRONUNCIATIONS',false);
  const cards=data.data.flatMap(s=>s.exercises.flatMap(e=>e.words));
- const maps=new Map(),allPairs=new Set(),stats={cards:cards.length,alignedCards:0,wholeCards:0,forcedWholeCards:0,labeledCards:0,alternativeCards:0,contextSpeechCards:0,uniquePairs:0,mapEntries:0,mapBytes:0,reasons:{}};
+ const maps=new Map(),audioMaps={},allPairs=new Set(),stats={cards:cards.length,alignedCards:0,wholeCards:0,forcedWholeCards:0,labeledCards:0,alternativeCards:0,contextSpeechCards:0,audioCards:0,audioFiles:0,uniquePairs:0,mapEntries:0,mapBytes:0,reasons:{}};
  for(const card of cards){
   const term=card.en,entry=dictionary?pronunciationEntry(dictionary.data,term,card.ko):card;
   assert(entry&&typeof entry.ipa==='string'&&entry.ipa.trim(),'Missing IPA for '+term+' / '+card.ko);
@@ -29,7 +30,9 @@ function collect(source){
   // in speech and only alternatives that actually contain an IPA string.
   const labeled=!!dictionary&&!!entry.label;
   const alternatives=!!dictionary&&Array.isArray(entry.alternatives)&&entry.alternatives.some(p=>p.ipa);
-  const differentSpeech=!!dictionary&&!!entry.speech&&entry.speech!==term;
+  const clip=!alternatives&&audioCatalog[key];
+  if(clip){audioMaps[key]=clip;stats.audioCards++;}
+  const differentSpeech=!!dictionary&&!!entry.speech&&entry.speech!==term&&!clip;
   if(labeled||alternatives||differentSpeech){
    stats.wholeCards++;stats.forcedWholeCards++;
    if(labeled)stats.labeledCards++;
@@ -50,7 +53,9 @@ function collect(source){
  const sorted=Object.fromEntries([...maps].sort(([a],[b])=>a<b?-1:a>b?1:0));
  const encoded=JSON.stringify(sorted).replace(/</g,'\\u003c').replace(/\u2028/g,'\\u2028').replace(/\u2029/g,'\\u2029');
  stats.uniquePairs=allPairs.size;stats.mapEntries=maps.size;stats.mapBytes=Buffer.byteLength(encoded,'utf8');
- return {data,dictionary,maps:sorted,encoded,stats};
+ stats.audioFiles=new Set(Object.values(audioMaps).map(e=>e.src)).size;
+ const audioEncoded=JSON.stringify(Object.fromEntries(Object.entries(audioMaps).sort(([a],[b])=>a<b?-1:a>b?1:0))).replace(/</g,'\\u003c');
+ return {data,dictionary,maps:sorted,encoded,audioEncoded,stats};
 }
 function insertBlock(source,start,end,payload,closingTag){
  const first=source.indexOf(start),last=source.indexOf(end),block=start+'\n'+payload.trim().replace(/\r\n/g,'\n')+'\n'+end;
@@ -74,9 +79,9 @@ function insertBlock(source,start,end,payload,closingTag){
 function buildPage(source,{runtime,styles}){
  source=source.replace(/\r\n/g,'\n');
  assert(typeof runtime==='string'&&typeof styles==='string','Runtime and styles must be supplied');
- const built=collect(source);
+ const built=collect(source,audio.loadMedia());
  let output=insertBlock(source,STYLES_START,STYLES_END,styles,'</style>');
- output=insertBlock(output,RUNTIME_START,RUNTIME_END,'const IPA_EFFECT_MAPS = '+built.encoded+';\n'+runtime,'main-script-start');
+ output=insertBlock(output,RUNTIME_START,RUNTIME_END,'const IPA_EFFECT_MAPS = '+built.encoded+';\nconst PRONUNCIATION_AUDIO_MAP = '+built.audioEncoded+';\n'+audio.runtime()+'\n'+runtime,'main-script-start');
  assert.equal(assignment(output,'DATA').line,built.data.line,'DATA changed while embedding effects');
  if(built.dictionary)assert.equal(assignment(output,'MT_PRONUNCIATIONS').line,built.dictionary.line,'Pronunciation dictionary changed while embedding effects');
  for(const match of output.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g))new vm.Script(match[1]);

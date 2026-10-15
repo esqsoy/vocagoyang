@@ -51,11 +51,14 @@ function stampSVG(L,at,mini){
 function stMissList(L,s){
   const miss=msMissed(),now=new Set((s&&Array.isArray(s.words)?s.words:[]).filter(w=>w&&w.wrongEver).map(msHead)),rows=new Map();
   visEx(L).forEach(e=>e.words.forEach(w=>{const k=msHead(w);if(!k||!(miss[k]||now.has(k)))return;
-    const r=rows.get(k)||{term:w.term??w.word??w.en,mean:[],n:Math.max(1,Number(miss[k])||0)};
-    const m=String(w.meaning??w.ko??'').trim();if(m&&!r.mean.includes(m))r.mean.push(m);rows.set(k,r);}));
-  return [...rows.values()];
+    const r=rows.get(k)||{term:w.term??w.word??w.en,mean:[],ipas:new Set(),n:Math.max(1,Number(miss[k])||0)};
+    const m=String(w.meaning??w.ko??'').trim();if(m&&!r.mean.includes(m))r.mean.push(m);
+    // One row may combine noun/verb senses. Use a recording only when every
+    // included card agrees; a missing IPA is also unresolved, not a guess.
+    r.ipas.add(String(w.ipa||'').trim());rows.set(k,r);}));
+  return [...rows.values()].map(({ipas,...r})=>({...r,ipa:ipas.size===1?[...ipas][0]:''}));
 }
-function stRows(rows){return rows.map(r=>`<button type="button" class="wrow st-row" data-t="${esc(r.term)}"><b>${esc(r.term)}</b><span>${esc(r.mean.join(' / '))}</span><i>${r.n}회</i></button>`).join('');}
+function stRows(rows){return rows.map(r=>`<button type="button" class="wrow st-row" data-t="${esc(r.term)}" data-ipa="${esc(r.ipa||'')}"><b>${esc(r.term)}</b><span>${esc(r.mean.join(' / '))}</span><i>${r.n}회</i></button>`).join('');}
 function stHead(L,n){return n?`<div class="wh st-wh">${esc(L.id)}에서 틀렸던 단어 ${n}개 · 다 누르면 도장 쾅 🐾</div>`:`<div class="wh ok">${esc(L.id)}에서 틀린 단어 없음 ✦ 도장 바로 찍는다</div>`;}
 function stLeft(box){return box?[...box.querySelectorAll('.st-row:not(.gone)')]:[];}
 function stNextLabel(){if(!stReview||stReview.where!=='sum')return;const n=stLeft($('#sumWrong')).length,b=$('#nextEx');if(!b)return;
@@ -71,24 +74,31 @@ function stBegin(L,s,all){
 }
 /* 홈에서 이어서: 도장을 못 받고 나간 세트 */
 function stOpenSheet(L){
-  const rows=stMissList(L,null);stReview={L,where:'sheet',all:false,total:rows.length};
+  if(stSheetOpen)stCloseSheet();
+  const rows=stMissList(L,null),r={L,where:'sheet',all:false,total:rows.length};stReview=r;
   let ov=$('#stSheet');if(!ov){ov=document.createElement('div');ov.id='stSheet';ov.className='st-sheet';document.body.appendChild(ov);}
   ov.innerHTML=`<div class="st-panel" role="dialog" aria-label="${esc(L.id)} 도장 받기"><div class="catrow"><div class="catimg"><img id="stSheetCat" alt="고양고양이"></div><div class="bubble"><span><span class="nm">고양고양이</span> ${rows.length?'틀렸던 단어를 하나씩 다시 들어 보라고양. 다 들으면 도장 찍어 준다고양.':'틀린 단어가 없다고양. 도장 바로 찍어 준다고양.'}</span></div></div>
 <div class="wrongs" id="stSheetList">${stHead(L,rows.length)+stRows(rows)}</div><button class="ghost" type="button" id="stSheetClose">나중에</button></div>`;
   setCat('stSheetCat',rows.length?'normal':'win');ov.classList.add('show');stSheetOpen=true;
   $('#stSheetClose').onclick=stCloseSheet;
-  if(!rows.length)setTimeout(stReviewDone,600);
+  if(!rows.length)setTimeout(()=>{if(stReview===r&&stSheetOpen)stReviewDone();},600);
 }
-function stCloseSheet(){const ov=$('#stSheet');if(ov)ov.classList.remove('show');stSheetOpen=false;if(stReview&&stReview.where==='sheet')stReview=null;}
+function stCloseSheet(keepSpeech=false){
+  const wasOpen=stSheetOpen,ov=$('#stSheet');if(ov)ov.classList.remove('show');stSheetOpen=false;
+  if(stReview&&stReview.where==='sheet')stReview=null;
+  if(wasOpen&&keepSpeech!==true&&typeof stopFablePronunciation==='function')stopFablePronunciation();
+}
 function stTap(b){
-  if(!b||b.classList.contains('gone'))return;
-  speak(b.dataset.t);fxHeart(b);b.classList.add('gone');
+  const r=stReview;if(!r||!b||b.classList.contains('gone'))return;
+  speak(b.dataset.t,b.dataset.ipa||'');fxHeart(b);b.classList.add('gone');
   const box=b.parentNode;
-  setTimeout(()=>{b.remove();stNextLabel();if(!stLeft(box).length)stReviewDone();},260);
+  setTimeout(()=>{b.remove();if(stReview!==r)return;stNextLabel();if(!stLeft(box).length)stReviewDone();},260);
 }
 function stReviewDone(){
   const r=stReview;if(!r||r.done)return;r.done=true;
-  if(r.where==='sheet')setTimeout(()=>{stCloseSheet();stShow(r.L,r);},250);
+  // Closing manually or starting a new game invalidates this delayed action.
+  // The normal stamp transition keeps the last word audible while it finishes.
+  if(r.where==='sheet')setTimeout(()=>{if(stReview!==r||!stSheetOpen||document.body.classList.contains('playing'))return;stCloseSheet(true);stShow(r.L,r);},250);
   else stQueueStamp();
 }
 /* 포효·돌파 축하가 떠 있으면 끝날 때까지 기다렸다가 찍는다(PRINCIPLES 11: 포효 → 돌파 축하 → 도장 → 엔딩). */
@@ -152,7 +162,14 @@ function stDecorateHome(){
 /* ===== FABLE 엔딩 ===== */
 var feState=null;
 function feMode(){if(totalExercises(true)>0&&clearedExercises(true)>=totalExercises(true))return 'full';if(state.levelB1&&totalExercises()>0&&clearedExercises()>=totalExercises())return 'b1';return null;}
-function feShow(){const m=feMode();if(m)feOpen(m);}
+function feShow(){
+  const m=feMode();if(!m)return;
+  // 홈의 진도 막대도 같은 관문을 거친다. 마지막 복습을 나갔다고 도장 전에 엔딩이 열리면 안 된다.
+  // full은 B1 버튼 상태와 무관하게 모든 세트, b1은 0~25세트의 도장을 본다. 날짜 0인 구판 도장도 유효하다.
+  const pending=state.lessons.some(L=>L.kind!=='saved'&&(m==='full'||L.lesson<=B1_LAST)&&!stHas(L));
+  if(pending||stReview||$('#stFx')){stPendingEnding=true;return;}
+  stPendingEnding=false;feOpen(m);
+}
 var FE_LINES={
   full:[
     ['win','이게 네가 쌓은 산이라고양. 한 칸 한 칸이 다 네가 익힌 단어라고양.'],
@@ -321,7 +338,7 @@ showEnding=function(){if(stReview||$('#stFx')){stPendingEnding=true;return;}retu
 try{stPreview();}catch(e){}
 renderHome=function(){const r=stOrigRenderHome.apply(this,arguments);try{stDecorateHome();}catch(e){}return r;};
 var stOrigShow=show;
-show=function(n){if(n!=='sum'&&stReview&&stReview.where==='sum'&&!stReview.done)stReview=null;return stOrigShow.apply(this,arguments);};
+show=function(n){if(n==='game'&&stSheetOpen)stCloseSheet();if(n!=='sum'&&stReview&&stReview.where==='sum'&&!stReview.done)stReview=null;return stOrigShow.apply(this,arguments);};
 $('#sumWrong').addEventListener('click',e=>{   // 세트 복습 줄은 여기서 처리한다(연습 결과의 '다 누르면 다음 연습'으로 넘어가지 않게)
   const b=e.target.closest('.st-row');if(!b)return;e.stopPropagation();stTap(b);},true);
 document.addEventListener('click',e=>{const b=e.target.closest('#stSheet .st-row');if(b)stTap(b);});
