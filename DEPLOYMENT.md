@@ -1,3 +1,12 @@
+# FABLE 엔딩 단어의 주마등·일산 불꽃놀이 배포 · 2026-10-15
+
+- 커밋 [e81788a](https://github.com/esqsoy/vocagoyang/commit/e81788a)를 origin/main에 fast-forward로 푸시했다. [Pages 38789117812](https://github.com/esqsoy/vocagoyang/actions/runs/38789117812) 성공(2026-10-15 18:52:27 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 0d7192b, 수능 010e44e, EBS 1e87323, index f7665dc). 바뀐 공개 파일은 FABLE 하나다. github.io는 이 세션에서 열지 않았다.
+- 포함: 엔딩 산 장면을 단어 단위 주마등으로(모든 단어가 하나씩 크게 떴다가 쌓임, 끝 초당 8단어, 전체 약 60초·B1 약 30초), 빛살·섬광 대신 호수에서 쏘는 장미·꽃·국화 불꽃(수면 반사·피날레·대사와 배지 동안), 대사 '천릿길도 한 단어부터'·'티끌 모아 태산'(B1 '반 태산'), 금빛 이름표 화면 안으로, PC 스크롤바 띠·가로 넘침 막음.
+- 배포 전 검사(e81788a와 같은 내용에서 새로 실행): 검사 45개, set-stamp, 발음 browser·browser-stamp·build·host·runtime·stamp 통과. Chromium 390×844: 전체·B1 시간대별 스크린샷, 실제 흐름(복습 → 도장 → 엔딩 → 건너뛰기 → 대사 → 배지·큰 도장), 동작 줄이기, 콘솔 오류 0. 실기기 Safari는 확인하지 않았다.
+
+---
+
 # FABLE 엔딩 빛·천천히·B1 큰 도장·미리보기 주소 배포 · 2026-10-15
 
 - 커밋 [23daa73](https://github.com/esqsoy/vocagoyang/commit/23daa73)를 origin/main에 fast-forward로 푸시했다. [Pages 38783532458](https://github.com/esqsoy/vocagoyang/actions/runs/38783532458) 성공.
