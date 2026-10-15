@@ -2,7 +2,7 @@
 
 **검토 기준: `74a6ddc4d32be73feb86bd7422759c45b9de7fcd` (main).**
 
-**2026-10-15 후속 공유:** 영신이 제보한 IPA·브라우저 음성 불일치의 [원인·해결 후보·예외 음원 용량](PRONUNCIATION.md)과 [대화 원문](PRONUNCIATION_CONVERSATION.md)을 추가했다. **발음 문제 작업은 영신의 지정에 따라 Codex가 담당한다.** Opus는 이 리뷰의 다른 지적과 구분하고 발음 건을 중복 구현하지 않는다. 아직 발음 구현·음원 도입 방식은 확정하지 않았다.
+**2026-10-15 후속 공유:** 영신이 제보한 IPA·브라우저 음성 불일치의 [원인·해결 후보·예외 음원 용량](PRONUNCIATION.md)과 [대화 원문](PRONUNCIATION_CONVERSATION.md)을 추가했다. **발음 문제 작업은 영신의 지정에 따라 Codex가 담당한다.** 이후 승인된 Heart 예외 음원 구현과 Opus `ee47230`까지의 반영을 통합했다. [통합 검토](INTEGRATION.md), [발음 구현·검사](../../pipeline/pronunciation-audio/README.md), [배포 상태](../../DEPLOYMENT.md)를 따른다. 아래 리뷰는 수정 전 기준의 기록이다.
 
 영신의 요청: “일단 디자인은 놔두고, 지금 상태의 fable을 리뷰해줘. 리뷰결과는 나한테도 이야기해주고, opus5.5가 확인할수 있게 남겨줘. 굉장히 빡센 리뷰를 해줘야해.”
 

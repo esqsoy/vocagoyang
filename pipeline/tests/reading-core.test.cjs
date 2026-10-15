@@ -209,11 +209,15 @@ for(const {oldL,oldE,L,e} of mappedMorph){
 for(const L of state.lessons.slice(0,49))for(const e of L.exercises)ctx.setRec(L.id,e.title,{});
 ctx.openLesson(48);ctx.openExercise(state.lessons[48].exercises.length-1);ctx.finishExercise();
 assert.equal(timed.length,0);assert(!$('#nextEx').disabled);assert(ctx.clearedExercises()<ctx.totalExercises());
-// A full completion trigger requires all 51 sets.
-assert.equal(timed.length,0);for(const L of state.lessons)for(const e of L.exercises)ctx.setRec(L.id,e.title,{});
-ctx.openLesson(50);ctx.openExercise(state.lessons[50].exercises.length-1);ctx.finishExercise();
+// A full completion trigger requires all 51 sets, and fires only on the play that first completes them (26.10.14: replaying after the end no longer reopens it).
+assert.equal(timed.length,0);const lastL=state.lessons[50],lastE=ctx.visEx(lastL).at(-1);
+for(const L of state.lessons)for(const e of L.exercises)if(e!==lastE)ctx.setRec(L.id,e.title,{});
+{const [k,t]=ctx.recordKey(lastL.id,lastE.title);delete state.progress[k]?.[t];}
+assert.equal(ctx.clearedExercises(),ctx.totalExercises()-1);
+ctx.openLesson(50);ctx.openExercise(ctx.visEx(lastL).length-1);ctx.finishExercise();
 assert.equal(timed.length,1);assert.equal(ctx.clearedExercises(),ctx.totalExercises());assert($('#nextEx').disabled);
 timed[0]();assert.equal(events.at(-1),'ENDING');
+ctx.openLesson(50);ctx.openExercise(ctx.visEx(lastL).length-1);ctx.finishExercise();assert.equal(timed.length,1,'Replaying after the end does not reopen the ending');
 const ids=new Set();
 // Compare the current source with current cards. DATA above is deliberately
 // restored to the historical progress fixture, including its old explanations.

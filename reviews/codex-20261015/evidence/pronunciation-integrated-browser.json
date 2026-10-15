@@ -1,0 +1,162 @@
+{
+  "courses": [
+    {
+      "file": "vocagoyangfable.html",
+      "card": {
+        "term": "contract",
+        "meaning": "① 계약(서)",
+        "ipa": "ˈkɑntrækt"
+      },
+      "played": "http://127.0.0.1:53728/assets/pronunciation/contract-noun.mp3?v=140f6e2c3704",
+      "actualMP3": true,
+      "overlayStarted": true,
+      "replay": true,
+      "mute": true,
+      "networkFailureFallback": true,
+      "errors": []
+    },
+    {
+      "file": "vocagoyangksat2027.html",
+      "card": {
+        "term": "conduct",
+        "meaning": "수행하다, 지휘하다",
+        "ipa": "kənˈdʌkt"
+      },
+      "played": "http://127.0.0.1:53728/assets/pronunciation/conduct-verb.mp3?v=c01ba212e95a",
+      "actualMP3": true,
+      "overlayStarted": true,
+      "replay": true,
+      "mute": true,
+      "networkFailureFallback": true,
+      "errors": []
+    },
+    {
+      "file": "vocagoyangebs2027.html",
+      "card": {
+        "term": "conduct",
+        "meaning": "행동",
+        "ipa": "ˈkɑndʌkt"
+      },
+      "played": "http://127.0.0.1:53728/assets/pronunciation/conduct-noun.mp3?v=db14e97ea38e",
+      "actualMP3": true,
+      "overlayStarted": true,
+      "replay": true,
+      "mute": true,
+      "networkFailureFallback": true,
+      "errors": []
+    }
+  ],
+  "stamp": [
+    {
+      "case": "last-row-mp3-through-stamp",
+      "fixture": {
+        "set": "28세트",
+        "lesson": 28,
+        "term": "legitimate",
+        "ipas": [
+          "lɪˈdʒɪtəmət"
+        ],
+        "rowIPA": "lɪˈdʒɪtəmət",
+        "duration": 1.625,
+        "src": "assets/pronunciation/legitimate-adjective.mp3?v=917140340d5f"
+      },
+      "actualMP3": true,
+      "result": {
+        "audio": [
+          {
+            "id": 0,
+            "type": "playing",
+            "src": "http://127.0.0.1:64718/assets/pronunciation/legitimate-adjective.mp3?v=917140340d5f",
+            "at": 1193.199999988079
+          },
+          {
+            "id": 0,
+            "type": "pause",
+            "src": "http://127.0.0.1:64718/assets/pronunciation/legitimate-adjective.mp3?v=917140340d5f",
+            "at": 3739.100000023842
+          },
+          {
+            "id": 0,
+            "type": "ended",
+            "src": "http://127.0.0.1:64718/assets/pronunciation/legitimate-adjective.mp3?v=917140340d5f",
+            "at": 3739.199999988079
+          }
+        ],
+        "tts": [],
+        "sheetOpen": false,
+        "remainingRows": 0,
+        "stamped": true,
+        "ownerReleased": true
+      },
+      "requests": [
+        "http://127.0.0.1:64718/assets/pronunciation/legitimate-adjective.mp3?v=917140340d5f"
+      ]
+    },
+    {
+      "case": "manual-close-cancels-last-row",
+      "fixture": {
+        "set": "28세트",
+        "lesson": 28,
+        "term": "legitimate",
+        "ipas": [
+          "lɪˈdʒɪtəmət"
+        ],
+        "rowIPA": "lɪˈdʒɪtəmət",
+        "duration": 1.625,
+        "src": "assets/pronunciation/legitimate-adjective.mp3?v=917140340d5f"
+      },
+      "immediate": {
+        "ownerReleased": true,
+        "paused": true,
+        "sheetOpen": false,
+        "reviewCleared": true
+      },
+      "after": {
+        "playing": 1,
+        "ended": 0,
+        "tts": [],
+        "stampCount": 0,
+        "stamped": false,
+        "ownerReleased": true
+      }
+    },
+    {
+      "case": "multiple-ipa-keeps-tts",
+      "fixture": {
+        "set": "10세트",
+        "lesson": 10,
+        "term": "contract",
+        "ipas": [
+          "ˈkɑntrækt",
+          "kənˈtrækt"
+        ],
+        "rowIPA": "",
+        "duration": 1.55,
+        "src": "assets/pronunciation/contract-noun.mp3?v=140f6e2c3704"
+      },
+      "result": {
+        "audio": [],
+        "tts": [
+          {
+            "text": "contract",
+            "at": 1850.800000011921
+          }
+        ],
+        "ownerReleased": true
+      }
+    },
+    {
+      "case": "ordinary-review-manual-next-race",
+      "immediate": {
+        "exercise": 1,
+        "title": "Exercise 2 · 그·우리·그들과 대답"
+      },
+      "after": {
+        "exercise": 1,
+        "title": "Exercise 2 · 그·우리·그들과 대답",
+        "sameSession": true,
+        "screen": "gameScreen"
+      }
+    }
+  ]
+}

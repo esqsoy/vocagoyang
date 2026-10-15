@@ -28,7 +28,7 @@ async function select(page,file,term,ipa){
 }
 (async()=>{
  await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
- const base='http://127.0.0.1:'+server.address().port;
+ const base=(process.env.PRONUNCIATION_BASE_URL||('http://127.0.0.1:'+server.address().port)).replace(/\/$/,'');
  const browser=await chromium.launch({headless:true,...(process.env.PW_CHROMIUM?{executablePath:process.env.PW_CHROMIUM}:{})});
  const reports=[];
  try{
@@ -50,7 +50,11 @@ async function select(page,file,term,ipa){
    await page.waitForFunction(()=>audioTrace.some(e=>e.type==='playing'));
    const begun=await page.evaluate(()=>({term:ipaEffectRun?.info.term,started:ipaEffectRun?.started,recorded:ipaEffectRun?.timing?.recorded,native:nativeTrace.slice()}));
    assert.equal(begun.term,card.term);assert(begun.started!==null);assert.equal(begun.recorded,true);assert.equal(begun.native.length,0);
-   await page.waitForFunction(()=>audioTrace.some(e=>e.type==='ended'));
+   try{await page.waitForFunction(()=>audioTrace.some(e=>e.type==='ended'));}
+   catch(error){
+    console.error(file,JSON.stringify(await page.evaluate(()=>({audioTrace,nativeTrace,owner:exceptionAudioOwner&&{started:exceptionAudioOwner.started,done:exceptionAudioOwner.done},effect:ipaEffectRun&&{started:ipaEffectRun.started,finished:ipaEffectRun.finished,timing:ipaEffectRun.timing},answered:state.session?.answered})),null,2));
+    throw error;
+   }
    const first=await page.evaluate(()=>audioTrace.find(e=>e.type==='playing').src);
    // Repeated answer replay is interruptible; the score is unchanged.
    await select(page,file,card.term,card.ipa);await page.locator('#ainput').fill(card.term);

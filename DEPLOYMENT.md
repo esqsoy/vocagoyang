@@ -1,3 +1,36 @@
+# 세트 완주 도장 · FABLE 엔딩 · 아스트라 리뷰 동작 결함 수정 배포 · 2026-10-15
+
+- 커밋 [b6f0896](https://github.com/esqsoy/vocagoyang/commit/b6f0896)를 origin/main에 fast-forward로 푸시했다(Codex 리뷰 b49e90d 다음, 069702f·229e46c·8a4f6d5·431b9cc 포함). [Pages 38671449637](https://github.com/esqsoy/vocagoyang/actions/runs/38671449637) 성공.
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 3503c1c, 수능 bca774f, EBS 6d78b22, index f7665dc). github.io는 이 세션에서 열 수 없어 실제 공개 화면은 보지 못했다.
+- 포함:
+  - FABLE 세트 완주 도장(틀렸던 단어 복습 → 도장 → 다음 세트 문), 홈 스탬프북·도장 받기, FABLE 엔딩(단어의 산·계약·한뫼·정체·완주 배지), B1 1부 완결, 세트 대사 51개, 미리보기 주소 `#stamp=N`·`#ending`·`#ending=b1`. [PRINCIPLES 15](PRINCIPLES.md#15-세트-완주-도장과-fable-엔딩).
+  - 아스트라 리뷰 T01(세 교재 철자 판정), T02(B1 조기 엔딩), T03(옛 기록 세트 잠김), T04(마지막 오답 뒤 연습 건너뜀), T05(세 교재 진행 속도 600판 주기), T06(세트 대사).
+  - 인덱스 '수능 지문 약 95%'(M01, 영신).
+  - 어휘 데이터(카드)는 바뀌지 않았다. 아스트라 카드 내용 제안은 아직 적용 전이다.
+- 배포 전 검사(b6f0896에서 실행):
+  - 검사 45개(테스트 38 + 빌드 확인 7) 통과.
+  - Chromium 390px: 도장 흐름(키보드·마우스·홈 이어 받기), 전체 엔딩·B1 1부 완결, 미리보기 주소 셋(저장 안 함), smoke 콘솔 오류 없음.
+  - 아스트라 재현: 브라우저 재현(엔딩 판정만 새 구조에 맞춘 사본)과 잠금 감사(잠김 0건).
+  - 실기기 Safari는 확인하지 않았다.
+
+---
+
+# 0세트 ten 카드 배포 · 2026-10-14
+
+- 커밋 [74a6ddc](https://github.com/esqsoy/vocagoyang/commit/74a6ddc)를 origin/main에 fast-forward로 푸시했다(9acff62 다음, 배포 기록 b445356 포함). [Pages 38558861671](https://github.com/esqsoy/vocagoyang/actions/runs/38558861671) 성공(11:45:46~11:46:55 UTC). 영신: "배포할까?"에 "완벽해...완벽하다"
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 9ee4272, 수능 0b2f8c0, EBS b73efb2, index a5c2ba2). github.io는 이 세션에서 열리지 않아 공개 화면은 직접 보지 못했다.
+- 포함: 0세트 ten 카드(원장 `ten-20261014`). 게임 코드는 바뀌지 않았다.
+  - 예문: "Every STUDY1 student is a ten out of ten!"
+  - 해석: "스터디원 학생들은 모두 10점 만점에 10점!"
+  - 해설: "서수는 tenth. ten o'clock은 10시."
+- 배포 전 검사(74a6ddc에서 실행):
+  - 검사 42개 통과.
+  - ordercheck 앞당김 둘 이상 0, deepcheck A5 0·A8 1(전부터 있던 kinda), linecheck 360px 초과 0.
+  - Chromium smoke에서 콘솔 오류가 없다.
+  - 실기기 Safari는 확인하지 않았다.
+
+---
+
 # 결과 화면 Enter·Space, it·its·boss 예문 배포 · 2026-10-14
 
 - 커밋 [9acff62](https://github.com/esqsoy/vocagoyang/commit/9acff62)를 origin/main에 fast-forward로 푸시했다(60a3bd6 다음, 배포 기록 fca16eb와 a70bfc2 포함). [Pages 38552572509](https://github.com/esqsoy/vocagoyang/actions/runs/38552572509) 성공(10:52:11~10:52:57 UTC). 영신: "이것도 작업하고 배포하자"

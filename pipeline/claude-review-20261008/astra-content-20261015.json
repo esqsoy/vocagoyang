@@ -1,0 +1,1505 @@
+{
+ "date": "2026-10-15",
+ "name": "astra-content-20261015",
+ "status": "applied_locally_verified",
+ "authorization": "영신 2026-10-15: \"어 아스트라까지 하고 배포하자\" (아스트라 Codex 전수 리뷰 reviews/codex-20261015/CONTENT.md 카드 제안을 Claude가 검증해 적용)",
+ "summary": "아스트라 리뷰 카드 32장: 동의어 안내 해설(pretty·magnificent·elaborate·bump·furious·bore·sharply·compulsory·spark), 사실·뜻 정정(clause·apparent·smart·agriculture·span·arguably·recount·edition·multiple·plantation·ape·sting 대사), 예문 정돈(control·invent·bean·bee·zone·blanket·timing·data·harsh·underlying·abolish). species·seller·insulting은 받지 않음",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "cdac2d32908542ea042470326ab537c60f8ab7f856028a2b8a0ad7a4fe070af5",
+   "afterHash": "2daf279651f9088d7499c32e29ad31034b19aafe28b5e68167d875f0cd87e658",
+   "changes": [
+    {
+     "path": [
+      3,
+      "exercises",
+      0,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "It's hard to {{BLANK}} your anger sometimes.",
+     "new": "You can {{BLANK}} how loud the TV is."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      0,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "가끔은 화를 다스리기 어려워.",
+     "new": "TV 소리가 얼마나 클지 조절할 수 있어."
+    },
+    {
+     "path": [
+      3,
+      "exercises",
+      1,
+      "words",
+      7,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "",
+     "new": "이 뜻에서는 lovely와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      15,
+      "exercises",
+      6,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This soup has lots of {{BLANK}}s in it.",
+     "new": "Add a few {{BLANK}}s to the soup."
+    },
+    {
+     "path": [
+      15,
+      "exercises",
+      6,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 수프엔 콩이 잔뜩 들었어.",
+     "new": "수프에 콩을 몇 알 넣어."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      4,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The numbers 0 to 9 were {{BLANK}}ed in India, not in Arabia.",
+     "new": "The symbols 0 to 9 were {{BLANK}}ed in India, not in Arabia."
+    },
+    {
+     "path": [
+      17,
+      "exercises",
+      4,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "숫자 0부터 9는 아라비아가 아니라 인도에서 발명됐어.",
+     "new": "0부터 9까지의 숫자 기호는 아라비아가 아니라 인도에서 발명됐어."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      6,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Don't move, a {{BLANK}} is on your arm.",
+     "new": "Don't move. A {{BLANK}} is on your arm."
+    },
+    {
+     "path": [
+      18,
+      "exercises",
+      6,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "움직이지 마, 네 팔에 벌 있어.",
+     "new": "움직이지 마. 네 팔에 벌 있어."
+    },
+    {
+     "path": [
+      19,
+      "exercises",
+      10,
+      "words",
+      15,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "smartphone의 smart. 인터넷에 연결돼 스스로 알아서 작동한다는 뜻.",
+     "new": "smartphone·smart TV의 smart."
+    },
+    {
+     "path": [
+      22,
+      "exercises",
+      6,
+      "words",
+      2,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "꿀벌은 한 번 sting 하면 죽는다고양. 너는 틀려도 안 죽으니 다시 하라고양.",
+     "new": "꿀벌은 사람을 sting하면 죽는다고양. 넌 틀려도 안 죽으니 다시 하라고양."
+    },
+    {
+     "path": [
+      23,
+      "exercises",
+      1,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Tycho Brahe's careful {{BLANK}} helped Kepler find out how planets move.",
+     "new": "The {{BLANK}} Tycho Brahe collected helped Kepler learn how planets move."
+    },
+    {
+     "path": [
+      23,
+      "exercises",
+      1,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "티코 브라헤의 꼼꼼한 자료 덕분에 케플러는 행성의 움직임을 알아냈어.",
+     "new": "티코 브라헤가 모은 자료 덕분에 케플러는 행성의 움직임을 알아냈어."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      8,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Slow down, this is a school {{BLANK}}.",
+     "new": "Slow down. This is a school {{BLANK}}."
+    },
+    {
+     "path": [
+      24,
+      "exercises",
+      8,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "천천히 가, 여긴 스쿨존이야.",
+     "new": "천천히 가. 여긴 스쿨존이야."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      12,
+      "words",
+      22,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "This sentence has two {{BLANK}}s in it.",
+     "new": "This sentence has two {{BLANK}}s, and each has a verb."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      12,
+      "words",
+      22,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 문장에는 절이 두 개 들어 있어.",
+     "new": "이 문장은 절이 두 개이고, 각각 동사가 있어."
+    },
+    {
+     "path": [
+      25,
+      "exercises",
+      12,
+      "words",
+      22,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "주어와 동사를 갖춘 형태가 대표적이다. main clause는 주절, subordinate clause는 종속절.",
+     "new": "main clause는 주절, subordinate clause는 종속절."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      10,
+      "words",
+      12,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Humans and {{BLANK}}s share a common ancestor.",
+     "new": "Humans and other {{BLANK}}s share a common ancestor."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      10,
+      "words",
+      12,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "인간과 유인원은 공통 조상을 가지고 있어.",
+     "new": "인간과 다른 유인원들은 공통 조상을 가지고 있어."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      10,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "침팬지·고릴라처럼 꼬리 없는 큰 원숭이류. 꼬리 있는 원숭이는 monkey.",
+     "new": "침팬지·고릴라·긴팔원숭이 등. monkey는 대부분 꼬리가 있지만 ape는 없다."
+    },
+    {
+     "path": [
+      29,
+      "exercises",
+      7,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Pull the {{BLANK}} up, it's cold tonight.",
+     "new": "Pull the {{BLANK}} up. It's cold tonight."
+    },
+    {
+     "path": [
+      29,
+      "exercises",
+      7,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "담요를 끌어 올려, 오늘 밤은 추워.",
+     "new": "담요를 끌어 올려. 오늘 밤은 추워."
+    },
+    {
+     "path": [
+      29,
+      "exercises",
+      10,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "같은 책을 새로 찍어 낸 차례. first edition은 초판.",
+     "new": "내용·형식으로 구별되는 판. first edition은 초판."
+    },
+    {
+     "path": [
+      30,
+      "exercises",
+      1,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Your {{BLANK}} was perfect, the bus just came.",
+     "new": "Your {{BLANK}} was perfect. The bus just came."
+    },
+    {
+     "path": [
+      30,
+      "exercises",
+      1,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "너 타이밍 완벽했어, 버스가 방금 왔거든.",
+     "new": "너 타이밍 완벽했어. 버스가 방금 왔거든."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      10,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "multiple-choice는 여러 보기 중에 고르는 '객관식'. 뒤에 복수 명사가 온다.",
+     "new": "multiple은 '여러'. multiple-choice(객관식의)는 단수 명사도 꾸민다."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      11,
+      "words",
+      8,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "{{BLANK}} uses about 70 percent of the world's fresh water.",
+     "new": "{{BLANK}} takes about 70 percent of the fresh water people use."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      11,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "농업은 세계 담수의 약 70%를 써.",
+     "new": "사람이 쓰는 담수의 약 70%를 농업이 가져가."
+    },
+    {
+     "path": [
+      32,
+      "exercises",
+      10,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "명사 앞에서는 '겉보기에 그런(실제와 다를 수 있는)'이란 뜻이 된다.",
+     "new": "겉으로는 그래 보여도 실제와 다를 수 있다는 뜻. 명사 앞에서 '분명한'일 때도 있다."
+    },
+    {
+     "path": [
+      37,
+      "exercises",
+      7,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "magni-(큰)에서. great보다 훨씬 강한 칭찬의 말이다.",
+     "new": "magni-(큰)에서. 이 뜻에서는 spectacular와 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      37,
+      "exercises",
+      15,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "형용사는 끝을 [럿], 동사는 [레잇]으로 읽는다.",
+     "new": "이 뜻에서는 intricate와 바꿔 쓸 수 있다. 형용사 끝은 [럿], 동사는 [레잇]."
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      2,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "부딪쳐 생긴 혹이나 길의 요철. speed bump는 과속 방지턱.",
+     "new": "이 뜻에서는 lump와 바꿔 쓸 수 있다. speed bump는 과속 방지턱."
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      3,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "angry보다 훨씬 센 말. be furious with 사람 / at 일.",
+     "new": "이 뜻에서는 enraged와 바꿔 쓸 수 있다. be furious with 사람 / at 일."
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      7,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "What a bore!: 정말 지겹다!",
+     "new": "구어에서는 a drag와 바꿔 쓸 수 있다. What a bore!: 정말 지겹다!"
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      3,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "look sharply at: 매섭게 쳐다보다.",
+     "new": "이 뜻에서는 harshly와 바꿔 쓸 수 있다. look sharply at: 매섭게 쳐다보다."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      11,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Siberia's {{BLANK}} winters can drop below minus 50°C.",
+     "new": "In Siberia's {{BLANK}} winters, temperatures can fall below minus 50°C."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      11,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "시베리아의 혹독한 겨울은 영하 50도 아래로 떨어지기도 해.",
+     "new": "시베리아의 혹독한 겨울에는 기온이 영하 50도 아래로도 내려가."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      11,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "count는 원래 '이야기하다'였다. 표를 '다시 세다'도 recount.",
+     "new": "옛 프랑스어 '다시 이야기하다'에서 왔다. 표를 '다시 세다'도 recount."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      2,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "식민지를 통째로 수출용 단일 작물 농장으로 바꾼 체제.",
+     "new": "수출용 작물 하나를 크게 기르는 대농장. 식민지 경제의 바탕이었다."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      5,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "법·규칙으로 꼭 해야 하는. 반대는 optional(선택의)이다.",
+     "new": "법·규칙으로 꼭 해야 하는. 이 뜻에서는 obligatory와 바꿔 쓸 수 있다. 반대는 optional(선택의)."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      14,
+      "words",
+      4,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "① 거의 틀림없이",
+     "new": "① ~라고 할 만하게"
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      14,
+      "words",
+      4,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "인쇄기만큼 역사를 크게 바꾼 발명품은 없다고 해도 과언이 아니야.",
+     "new": "인쇄기는 다른 어떤 발명보다 역사를 크게 바꿨다고 할 만해."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      14,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "'논란의 여지가 있게'가 아니다. 그렇게 주장할 근거가 충분하다는 말.",
+     "new": "'논란의 여지가 있게'가 아니다. 근거를 들어 그렇게 말할 만하다는 뜻."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      4,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "In 1833, Britain {{BLANK}}ed slavery in most of its empire.",
+     "new": "In 1833, Britain passed a law to {{BLANK}} slavery in most of its empire."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      4,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1833년 영국은 제국 대부분에서 노예제를 폐지했어.",
+     "new": "1833년 영국은 제국 대부분에서 노예제를 폐지하는 법을 통과시켰어."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      11,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Mayflies have a very short life {{BLANK}}: often just a day.",
+     "new": "Adult mayflies have a very short life {{BLANK}}: often just a day."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      11,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "하루살이는 수명이 아주 짧아. 겨우 하루인 경우가 많아.",
+     "new": "하루살이 성충은 수명이 아주 짧아. 겨우 하루인 경우가 많아."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      12,
+      "words",
+      0,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The {{BLANK}} cause of seasons is Earth's angle, not its distance from the Sun.",
+     "new": "The {{BLANK}} cause of seasons is how Earth leans, not its distance from the Sun."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      12,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "계절의 근본 원인은 해와의 거리가 아니라 지구가 기운 각도야.",
+     "new": "계절의 근본 원인은 해와의 거리가 아니라 지구가 기울어 있다는 점이야."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      12,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "spark a debate: 논쟁을 촉발하다. 불똥이 불을 붙이듯 일을 일으킨다.",
+     "new": "spark a debate: 논쟁을 촉발하다. 호기심을 일으킬 때는 pique와 바꿔 쓸 수 있다."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson03.json": {
+   "beforeHash": "3d0ffb275220cd8a933e99f14f06e0a70abde9bb5f468a6a4281c81fd2a74626",
+   "afterHash": "0b5c7987ddd2a99d6ff758c0945a529bfba64c839b9afaf6d65010f9848b502c"
+  },
+  "pipeline/out/set15.json": {
+   "beforeHash": "c19805aaf42505416873c580e318e2f79f01932cdc424647ade6559c9e55a866",
+   "afterHash": "aedc188b0935dc8bbe0eccacd088d557b50f66a50f66a6a60f0fdc319a95773d"
+  },
+  "pipeline/out/set17.json": {
+   "beforeHash": "f30c858533f6eaa752e7eef188fd3d4b0015fb15465a5ed180af60905c3c8f16",
+   "afterHash": "6ccc6258d375e8fa8c33b50f0ecdb179e2d4e11003d342e9e7429ef113589a97"
+  },
+  "pipeline/out/set18.json": {
+   "beforeHash": "fb369273ac28cbfe6b77419dfd4af11b5af6547e15f9182b7f22d9bdaaedf377",
+   "afterHash": "a318fa5000fcb1541b7dfb1f2d693458ca501cbb6c32989185a2ddedc8f97b1b"
+  },
+  "pipeline/out/set19.json": {
+   "beforeHash": "1c2ad10db2944a20ffce0289fb485ed474986d4fb3c4d07518ac1ec87084b37a",
+   "afterHash": "24c9c896078fe2a1f756507a1161741f3683b261746f3338ec8e22727c42ac13"
+  },
+  "pipeline/out/set22.json": {
+   "beforeHash": "0f60c95869f6cef3d4c19c1b63b5a77ce5387966590fc79bca47c741739e069c",
+   "afterHash": "f32e1f5ab14653042b2f43702531c5c07a179a41574b1de02b43a2a69a7b9bde"
+  },
+  "pipeline/out/set23.json": {
+   "beforeHash": "3f7f364ed3f945a3c4d79a44cbec310962d09ef39b5b06accd2bb9d6aa725232",
+   "afterHash": "1d9bf99793c7600db829792a99533e9b3243bc974caf65c378097b248fcc2863"
+  },
+  "pipeline/out/set24.json": {
+   "beforeHash": "05cbd2d9f304302e80b2844395290e7eb5920ca0ecd41a1acbf171df39f54487",
+   "afterHash": "dab8d735a474a9bff8c4693dd51965e4a381f5a84643546ad9570a5fb908457f"
+  },
+  "pipeline/out/set26.json": {
+   "beforeHash": "2f9ec9f73c9e2096e3d8a10560865d828b657a03f76bf2744a3a52881698ae27",
+   "afterHash": "ff7d61656bb37cdb9cdd09b32c7a08c50773c844ea1c4cdc881f7c48deae47fb"
+  },
+  "pipeline/out/set29.json": {
+   "beforeHash": "9ef74b644b05d687b850dd513ed795c0aa865ecbee905e92fb1b36ab85386279",
+   "afterHash": "b3f0e0c6072994028a3098826921062050160332676f7240724625573f2d8df9"
+  },
+  "pipeline/out/set30.json": {
+   "beforeHash": "0b8865847f64417152eff04e9c2c07de3f3d395aec01a5f8247a2c5a38df2772",
+   "afterHash": "5684c280402a5a0dfdbc2b3fc0ac29d21a765f53e68affdb49fa87e4f9894d81"
+  },
+  "pipeline/out/set31.json": {
+   "beforeHash": "668a9d3dcc8cf28dd7f73d5c1a5e14cc8e6cc2eb02de79735f19b1e23c173906",
+   "afterHash": "9a72ad2d4a1eb30b12f503a9ed99c079633a93ad9d68377d1c6aba9561457a77"
+  },
+  "pipeline/out/set32.json": {
+   "beforeHash": "61ea13499866c18a3b9f1f3024b2a18ed87f1f3e1ef541c039b4fe806fbc9cb0",
+   "afterHash": "ea919839957985f37a861782dfbff0e1c8b31f48e0caa7d3ed01b502c57e9028"
+  },
+  "pipeline/out/set33.json": {
+   "beforeHash": "3e99751be4bbc2dca18dd4c0bec664fe6e1ec3eed4a6cb21bb73ea11f28b287b",
+   "afterHash": "df20e483d3d1efc7725e527897dbe51e9816bb6e71edd735065e362cefb0463a"
+  },
+  "pipeline/out/set37.json": {
+   "beforeHash": "8e5af2d80915a62899acef2129b684bfe56a8c1b092375e8314d225468d735e1",
+   "afterHash": "f28cd08c98c84417d1a6ef58e10135132d86fc6b27e7289e692189e059a04e13"
+  },
+  "pipeline/out/set38.json": {
+   "beforeHash": "0fe66eb67681424c25eb41f7ba1931d7f2803bc8fa3d8144b4f1f6be16b3ebb0",
+   "afterHash": "af80b722b1c39c89c33b501dc3f42c462a06932470abc0d3fefe0af7724f93e5"
+  },
+  "pipeline/out/set39.json": {
+   "beforeHash": "ecfae2ba5a4ca9f8195601de56cfaecc05cbc7d5cdff5aabbe8ee4f505d519e6",
+   "afterHash": "73a58461e92c1e4d25e5b78059661b12f3afd03c7436edd86dd6242c131dda15"
+  },
+  "pipeline/out/set41.json": {
+   "beforeHash": "0e6a267ecbe54a2296f8cc70fdc4ade7753fc48a2e1ff5fe6860ca4dc040079d",
+   "afterHash": "a8452906a7b3ece5b2da409be1ddc61f98bd91ad994a58682e1031a375aceb28"
+  },
+  "pipeline/out/set42.json": {
+   "beforeHash": "c90b92cf11bbc286803b2daad141d05e4e6e6ebc09ae52a74d189571a2c76437",
+   "afterHash": "5a1d9149994067dd1d1810d86e046b91f1f1018b041ff45ed4180c761dfafe60"
+  },
+  "pipeline/out/set43.json": {
+   "beforeHash": "1fcaed99f239f98b998ce04ab9d85637b4d526ebe4c50f88f7bdcede96700e0c",
+   "afterHash": "fdaafd767f20431970f880c6cda4de15e0f464942944e4c602ff1126dc9fe60e"
+  },
+  "pipeline/out/set44.json": {
+   "beforeHash": "9857a7104073c308b4af361451763977562d5f86c0d183d96b68d43826bdb22a",
+   "afterHash": "5349c329242accc2b46580d97522e669f2c710ec1605ec1593f85049bc0a5f98"
+  },
+  "pipeline/out/set45.json": {
+   "beforeHash": "e29a94b84f0436301b2189f79abb1e6ce3746935e06a7107d374019b96c5f8c4",
+   "afterHash": "f74bd62fde3009b968f263cd99ea958c7101bc45a3e33ab1e9603edefffd315c"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson03.json": [
+   {
+    "path": [
+     "exercises",
+     0,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "It's hard to {{BLANK}} your anger sometimes.",
+    "new": "You can {{BLANK}} how loud the TV is."
+   },
+   {
+    "path": [
+     "exercises",
+     0,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "가끔은 화를 다스리기 어려워.",
+    "new": "TV 소리가 얼마나 클지 조절할 수 있어."
+   },
+   {
+    "path": [
+     "exercises",
+     1,
+     "words",
+     7,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "",
+    "new": "이 뜻에서는 lovely와 바꿔 쓸 수 있다."
+   }
+  ],
+  "pipeline/out/set15.json": [
+   {
+    "path": [
+     6,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This soup has lots of {{BLANK}}s in it.",
+    "new": "Add a few {{BLANK}}s to the soup."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 수프엔 콩이 잔뜩 들었어.",
+    "new": "수프에 콩을 몇 알 넣어."
+   }
+  ],
+  "pipeline/out/set17.json": [
+   {
+    "path": [
+     4,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The numbers 0 to 9 were {{BLANK}}ed in India, not in Arabia.",
+    "new": "The symbols 0 to 9 were {{BLANK}}ed in India, not in Arabia."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "숫자 0부터 9는 아라비아가 아니라 인도에서 발명됐어.",
+    "new": "0부터 9까지의 숫자 기호는 아라비아가 아니라 인도에서 발명됐어."
+   }
+  ],
+  "pipeline/out/set18.json": [
+   {
+    "path": [
+     6,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Don't move, a {{BLANK}} is on your arm.",
+    "new": "Don't move. A {{BLANK}} is on your arm."
+   },
+   {
+    "path": [
+     6,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "움직이지 마, 네 팔에 벌 있어.",
+    "new": "움직이지 마. 네 팔에 벌 있어."
+   }
+  ],
+  "pipeline/out/set19.json": [
+   {
+    "path": [
+     10,
+     "words",
+     15,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "smartphone의 smart. 인터넷에 연결돼 스스로 알아서 작동한다는 뜻.",
+    "new": "smartphone·smart TV의 smart."
+   }
+  ],
+  "pipeline/out/set22.json": [
+   {
+    "path": [
+     6,
+     "words",
+     2,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "꿀벌은 한 번 sting 하면 죽는다고양. 너는 틀려도 안 죽으니 다시 하라고양.",
+    "new": "꿀벌은 사람을 sting하면 죽는다고양. 넌 틀려도 안 죽으니 다시 하라고양."
+   }
+  ],
+  "pipeline/out/set23.json": [
+   {
+    "path": [
+     1,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Tycho Brahe's careful {{BLANK}} helped Kepler find out how planets move.",
+    "new": "The {{BLANK}} Tycho Brahe collected helped Kepler learn how planets move."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "티코 브라헤의 꼼꼼한 자료 덕분에 케플러는 행성의 움직임을 알아냈어.",
+    "new": "티코 브라헤가 모은 자료 덕분에 케플러는 행성의 움직임을 알아냈어."
+   }
+  ],
+  "pipeline/out/set24.json": [
+   {
+    "path": [
+     8,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Slow down, this is a school {{BLANK}}.",
+    "new": "Slow down. This is a school {{BLANK}}."
+   },
+   {
+    "path": [
+     8,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "천천히 가, 여긴 스쿨존이야.",
+    "new": "천천히 가. 여긴 스쿨존이야."
+   }
+  ],
+  "pipeline/out/set26.json": [
+   {
+    "path": [
+     10,
+     "words",
+     13,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Humans and {{BLANK}}s share a common ancestor.",
+    "new": "Humans and other {{BLANK}}s share a common ancestor."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     13,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "인간과 유인원은 공통 조상을 가지고 있어.",
+    "new": "인간과 다른 유인원들은 공통 조상을 가지고 있어."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "침팬지·고릴라처럼 꼬리 없는 큰 원숭이류. 꼬리 있는 원숭이는 monkey.",
+    "new": "침팬지·고릴라·긴팔원숭이 등. monkey는 대부분 꼬리가 있지만 ape는 없다."
+   }
+  ],
+  "pipeline/out/set29.json": [
+   {
+    "path": [
+     7,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Pull the {{BLANK}} up, it's cold tonight.",
+    "new": "Pull the {{BLANK}} up. It's cold tonight."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "담요를 끌어 올려, 오늘 밤은 추워.",
+    "new": "담요를 끌어 올려. 오늘 밤은 추워."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "같은 책을 새로 찍어 낸 차례. first edition은 초판.",
+    "new": "내용·형식으로 구별되는 판. first edition은 초판."
+   }
+  ],
+  "pipeline/out/set30.json": [
+   {
+    "path": [
+     1,
+     "words",
+     9,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Your {{BLANK}} was perfect, the bus just came.",
+    "new": "Your {{BLANK}} was perfect. The bus just came."
+   },
+   {
+    "path": [
+     1,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "너 타이밍 완벽했어, 버스가 방금 왔거든.",
+    "new": "너 타이밍 완벽했어. 버스가 방금 왔거든."
+   }
+  ],
+  "pipeline/out/set31.json": [
+   {
+    "path": [
+     10,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "multiple-choice는 여러 보기 중에 고르는 '객관식'. 뒤에 복수 명사가 온다.",
+    "new": "multiple은 '여러'. multiple-choice(객관식의)는 단수 명사도 꾸민다."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     8,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "{{BLANK}} uses about 70 percent of the world's fresh water.",
+    "new": "{{BLANK}} takes about 70 percent of the fresh water people use."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "농업은 세계 담수의 약 70%를 써.",
+    "new": "사람이 쓰는 담수의 약 70%를 농업이 가져가."
+   }
+  ],
+  "pipeline/out/set32.json": [
+   {
+    "path": [
+     10,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "명사 앞에서는 '겉보기에 그런(실제와 다를 수 있는)'이란 뜻이 된다.",
+    "new": "겉으로는 그래 보여도 실제와 다를 수 있다는 뜻. 명사 앞에서 '분명한'일 때도 있다."
+   }
+  ],
+  "pipeline/out/set33.json": [
+   {
+    "path": [
+     2,
+     "words",
+     12,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "This sentence has two {{BLANK}}s in it.",
+    "new": "This sentence has two {{BLANK}}s, and each has a verb."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     12,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 문장에는 절이 두 개 들어 있어.",
+    "new": "이 문장은 절이 두 개이고, 각각 동사가 있어."
+   },
+   {
+    "path": [
+     2,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "주어와 동사를 갖춘 형태가 대표적이다. main clause는 주절, subordinate clause는 종속절.",
+    "new": "main clause는 주절, subordinate clause는 종속절."
+   }
+  ],
+  "pipeline/out/set37.json": [
+   {
+    "path": [
+     7,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "magni-(큰)에서. great보다 훨씬 강한 칭찬의 말이다.",
+    "new": "magni-(큰)에서. 이 뜻에서는 spectacular와 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     15,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "형용사는 끝을 [럿], 동사는 [레잇]으로 읽는다.",
+    "new": "이 뜻에서는 intricate와 바꿔 쓸 수 있다. 형용사 끝은 [럿], 동사는 [레잇]."
+   }
+  ],
+  "pipeline/out/set38.json": [
+   {
+    "path": [
+     2,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "부딪쳐 생긴 혹이나 길의 요철. speed bump는 과속 방지턱.",
+    "new": "이 뜻에서는 lump와 바꿔 쓸 수 있다. speed bump는 과속 방지턱."
+   },
+   {
+    "path": [
+     3,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "angry보다 훨씬 센 말. be furious with 사람 / at 일.",
+    "new": "이 뜻에서는 enraged와 바꿔 쓸 수 있다. be furious with 사람 / at 일."
+   },
+   {
+    "path": [
+     7,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "What a bore!: 정말 지겹다!",
+    "new": "구어에서는 a drag와 바꿔 쓸 수 있다. What a bore!: 정말 지겹다!"
+   }
+  ],
+  "pipeline/out/set39.json": [
+   {
+    "path": [
+     3,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "look sharply at: 매섭게 쳐다보다.",
+    "new": "이 뜻에서는 harshly와 바꿔 쓸 수 있다. look sharply at: 매섭게 쳐다보다."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Siberia's {{BLANK}} winters can drop below minus 50°C.",
+    "new": "In Siberia's {{BLANK}} winters, temperatures can fall below minus 50°C."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "시베리아의 혹독한 겨울은 영하 50도 아래로 떨어지기도 해.",
+    "new": "시베리아의 혹독한 겨울에는 기온이 영하 50도 아래로도 내려가."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "count는 원래 '이야기하다'였다. 표를 '다시 세다'도 recount.",
+    "new": "옛 프랑스어 '다시 이야기하다'에서 왔다. 표를 '다시 세다'도 recount."
+   }
+  ],
+  "pipeline/out/set41.json": [
+   {
+    "path": [
+     2,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "식민지를 통째로 수출용 단일 작물 농장으로 바꾼 체제.",
+    "new": "수출용 작물 하나를 크게 기르는 대농장. 식민지 경제의 바탕이었다."
+   },
+   {
+    "path": [
+     5,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "법·규칙으로 꼭 해야 하는. 반대는 optional(선택의)이다.",
+    "new": "법·규칙으로 꼭 해야 하는. 이 뜻에서는 obligatory와 바꿔 쓸 수 있다. 반대는 optional(선택의)."
+   }
+  ],
+  "pipeline/out/set42.json": [
+   {
+    "path": [
+     14,
+     "words",
+     4,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "① 거의 틀림없이",
+    "new": "① ~라고 할 만하게"
+   },
+   {
+    "path": [
+     14,
+     "words",
+     4,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "인쇄기만큼 역사를 크게 바꾼 발명품은 없다고 해도 과언이 아니야.",
+    "new": "인쇄기는 다른 어떤 발명보다 역사를 크게 바꿨다고 할 만해."
+   },
+   {
+    "path": [
+     14,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "'논란의 여지가 있게'가 아니다. 그렇게 주장할 근거가 충분하다는 말.",
+    "new": "'논란의 여지가 있게'가 아니다. 근거를 들어 그렇게 말할 만하다는 뜻."
+   }
+  ],
+  "pipeline/out/set43.json": [
+   {
+    "path": [
+     4,
+     "words",
+     1,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "In 1833, Britain {{BLANK}}ed slavery in most of its empire.",
+    "new": "In 1833, Britain passed a law to {{BLANK}} slavery in most of its empire."
+   },
+   {
+    "path": [
+     4,
+     "words",
+     1,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1833년 영국은 제국 대부분에서 노예제를 폐지했어.",
+    "new": "1833년 영국은 제국 대부분에서 노예제를 폐지하는 법을 통과시켰어."
+   }
+  ],
+  "pipeline/out/set44.json": [
+   {
+    "path": [
+     11,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Mayflies have a very short life {{BLANK}}: often just a day.",
+    "new": "Adult mayflies have a very short life {{BLANK}}: often just a day."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "하루살이는 수명이 아주 짧아. 겨우 하루인 경우가 많아.",
+    "new": "하루살이 성충은 수명이 아주 짧아. 겨우 하루인 경우가 많아."
+   }
+  ],
+  "pipeline/out/set45.json": [
+   {
+    "path": [
+     13,
+     "words",
+     0,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The {{BLANK}} cause of seasons is Earth's angle, not its distance from the Sun.",
+    "new": "The {{BLANK}} cause of seasons is how Earth leans, not its distance from the Sun."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "계절의 근본 원인은 해와의 거리가 아니라 지구가 기운 각도야.",
+    "new": "계절의 근본 원인은 해와의 거리가 아니라 지구가 기울어 있다는 점이야."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "spark a debate: 논쟁을 촉발하다. 불똥이 불을 붙이듯 일을 일으킨다.",
+    "new": "spark a debate: 논쟁을 촉발하다. 호기심을 일으킬 때는 pique와 바꿔 쓸 수 있다."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson03.json": [],
+  "pipeline/out/set15.json": [],
+  "pipeline/out/set17.json": [],
+  "pipeline/out/set18.json": [],
+  "pipeline/out/set19.json": [],
+  "pipeline/out/set22.json": [],
+  "pipeline/out/set23.json": [],
+  "pipeline/out/set24.json": [],
+  "pipeline/out/set26.json": [],
+  "pipeline/out/set29.json": [],
+  "pipeline/out/set30.json": [],
+  "pipeline/out/set31.json": [],
+  "pipeline/out/set32.json": [],
+  "pipeline/out/set33.json": [],
+  "pipeline/out/set37.json": [],
+  "pipeline/out/set38.json": [],
+  "pipeline/out/set39.json": [],
+  "pipeline/out/set41.json": [],
+  "pipeline/out/set42.json": [],
+  "pipeline/out/set43.json": [],
+  "pipeline/out/set44.json": [],
+  "pipeline/out/set45.json": []
+ }
+}

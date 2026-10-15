@@ -86,4 +86,12 @@ const plays=(n,o={})=>Array.from({length:n},(_,i)=>({at:NOW-(o.days?o.days(i,n):
  c.paceShow({e:{words:[]},partial:false,was:true,words:[]},3000);assert.equal(JSON.parse(c.store.get(c.paceKey)).length,10);
  c.paceShow({e:{words:[]},partial:true,was:true,words:[{word:'abc'}]},60000);const r2=JSON.parse(c.store.get(c.paceKey));assert.equal(r2.at(-1).k,'w');assert.equal(c.els.paceNote.hidden,true);}
 
-console.log('PASS pace: 일의 양, 10판 문턱, 범위(긍정·보수), 하루 기준(평균·30분 미만·사흘 미만), 학습 곡선 하한, 60초 상한, 목표 단계, 대사 고르기·채우기, 기록');
+// 11. 보관 상한(600판)을 넘어도 다섯 판마다 대사가 이어진다(26.10.15 아스트라 리뷰 T05: 배열 길이로 세어 600에서 멈췄다).
+{const c=load();c.store.set(c.paceKey,JSON.stringify(plays(600,{perDay:6})));c.store.set(c.paceMetaKey,JSON.stringify({intro:true,n:600,target:'2,600단어'}));
+ c.els.sumTitle={textContent:'연습 클리어 ✦'};let said=0;
+ const bub=c.$('#sumBubble');
+ for(let i=0;i<12;i++){c.tick(60000);bub.innerHTML='';c.paceShow({e:{words:[{word:'abc',ex:'a b c'}]},partial:false,was:false,words:[]},360000);if(bub.innerHTML)said++;}
+ assert.equal(JSON.parse(c.store.get(c.paceKey)).length,600,'History stays capped');assert.equal(JSON.parse(c.store.get(c.paceMetaKey)).total,612);
+ assert(said>=2,'Regular lines continue every five plays past the cap: '+said);}
+
+console.log('PASS pace: 일의 양, 10판 문턱, 범위(긍정·보수), 하루 기준(평균·30분 미만·사흘 미만), 학습 곡선 하한, 60초 상한, 목표 단계, 대사 고르기·채우기, 기록, 600판 넘어서도 주기 유지');

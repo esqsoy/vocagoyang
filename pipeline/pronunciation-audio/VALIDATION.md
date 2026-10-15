@@ -1,5 +1,16 @@
 # 2026-10-15 구현 검증
 
+## Opus ee47230 통합 후 재검증
+
+- **최종 통합본에서 51개 Node 검사 모두 통과.** `pipeline/tests` 25개, IPA 6개, 교재/재생 7개, IPA 빌드·정렬 2개, 예외 음원 4개, 생성 동기화 7개다. 기존 9,360세션과 마더텅 전체 입력 검사를 포함한다. 교재 발음 조립 2개도 새로 통과했다.
+- Opus 내용 32장·51필드 변경은 그대로 보존했고, 어휘 원본은 원격 main과 동일하다. `in sise` 오자 판정 및 도장 전 엔딩 우회 회귀를 추가했다. 의도적으로 바꾼 `isSpellingVariant` 함수 해시 하나만 마더텅 fixture에서 갱신했다.
+- Windows 줄바꿈 때문에 5개 생성 검사에 오탐이 있었다. runtime/style/HTML 입력을 LF로 정규화하도록 빌더를 수정했다. LF/CRLF 동일 출력·두 번째 빌드 동일·무쓰기 `--check`를 별도로 확인했고, 이후 51개 검사 전체를 다시 실행했다.
+- **실제 Chromium 3과정 재검증 통과:** 음원 시작/종료, IPA 효과, 다시 듣기, 무음, 실패 복구. 첫 통합 시도 중 종료 이벤트 대기 1건이 시간 초과했으며 원인을 단정하지 않았다. 진단 출력을 추가했고 이후 두 차례 실행에서 세 과정 모두 통과했다. 실기기 결과로 확대하지 않는다.
+- **새 실제 브라우저 도장 검사 통과:** 28세트 legitimate의 마지막 행에서 MP3가 도장 전환을 거쳐 종료됨, 수동 닫기에서 재생과 도장 타이머 취소, 10세트 contract의 여러 IPA 행은 TTS 유지 및 MP3 요청 0, 일반 결과 화면 마지막 행+수동 다음 경합에서 연습 건너뜀 없음. `browser-stamp.test.cjs`로 재현한다.
+- [통합 검사 결과](../../reviews/codex-20261015/evidence/pronunciation-integrated-checks.json), [실제 브라우저 결과](../../reviews/codex-20261015/evidence/pronunciation-integrated-browser.json). 공개 배포 상태는 [DEPLOYMENT](../../DEPLOYMENT.md)를 따른다.
+
+아래는 통합 전 최초 구현의 검증 기록이다.
+
 기준 앱: `b49e90d`(실제 앱 변경 기준 `74a6ddc`). 작업 브랜치 `codex/pronunciation-exceptions-20261015`. **공개 배포 검증이 아닌 로컬 구현 검증**이다.
 
 ## 자료와 파일
