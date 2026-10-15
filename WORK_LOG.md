@@ -1607,3 +1607,13 @@
 - 남은 일: 카드 내용 제안 P2 17장·P3 18장 검토, M01(인덱스 95%) 영신 판단, 잠금 방식 영신 확인, 배포.
 - 26.10.15 영신 결정: 1) 잠금은 추천대로(도장을 받아야 다음 세트), 2) 인덱스 "약 95퍼로 가자" → '수능 지문 약 95%'(아스트라 M01, 실측 94.0%), 3) 세트 대사 3줄은 "그대로 두는거 좋아 해보고 문제 있으면 알려줄게". 미리보기 주소 `#stamp=N`·`#ending`·`#ending=b1` 추가(저장 안 함).
 
+## 2026-10-15 · 아스트라 리뷰 카드 내용 32장 적용(원장 `astra-content-20261015`)
+
+- 요청: 영신 "어 아스트라까지 하고 배포하자". 아스트라 [CONTENT.md](reviews/codex-20261015/CONTENT.md) 35장 제안을 하나씩 검증해 32장을 고쳤다(필드 51곳). 정답은 모두 표제어 그대로다.
+- 동의어 안내(WORK_PLAN 동의어 원칙 2: "이 뜻에서는 X와 바꿔 쓸 수 있다"): pretty–lovely, magnificent–spectacular(spectacular 카드에는 이미 magnificent 안내가 있음), elaborate–intricate, bump②–lump, furious–enraged, bore②–a drag(구어), sharply②–harshly, compulsory–obligatory, spark②–pique(호기심).
+- 사실·뜻 정정: clause② 예문이 스스로 두 절이 되게("…, and each has a verb."), apparent② 해설(명사 앞이 늘 '겉보기'는 아님), smart② 해설(인터넷·자율 작동 단정 삭제), agriculture 분모("the fresh water people use"), span 하루살이 성충("Adult mayflies…"), arguably 뜻을 "~라고 할 만하게"로·해석·해설, recount 어원(옛 프랑스어), edition 해설(판), multiple 해설(multiple-choice는 단수도 꾸밈), plantation 해설(대농장 뜻을 체제와 구분), ape 예문·해설(humans and other apes, 긴팔원숭이), sting 대사(사람을 쏜 꿀벌).
+- 예문 정돈: control(contain이 맞는 문맥 피함, loud 앞당김 1개), invent(numbers → symbols), bean(a few 노출), 쉼표 연결 넷(bee·zone·blanket·timing을 두 문장으로), data(careful data → The data Tycho Brahe collected), harsh(temperatures를 주어로), underlying(Earth's angle → how Earth leans, tilt는 표제어 밖이라 lean 사용), abolish(1833년 법 통과).
+- 받지 않은 것: species(Scientists think로 이미 추정임을 밝힘, 널리 인용되는 수치), seller·insulting(공통 동의어 대사가 이미 나옴, 해설을 늘리지 않음).
+- 아스트라 안과 다르게 한 것: span은 하루살이를 살려 Adult를 붙임, agriculture는 "taken from nature" 대신 "people use", underlying은 tilt 대신 lean(어휘 통제), arguably 해설은 기존 '논란의 여지가 있게가 아니다'를 살림, 동의어 문구는 기존 카드 문구에 맞춤.
+- 검증(새로 실행): ordercheck 합계 7838·557·0(앞당김 둘 이상 0), deepcheck A1~A5·A7 0, A6 16(전부터 있던 길이), A8 1(전부터 있던 kinda, furious·elaborate는 해설을 줄여 맞춤), linecheck 360·390px 문장·화면 초과 0(underlying 4줄을 줄임), exaudit 7장(전부터 있던 것, mayflies 포함), 검사 45개 통과.
+
