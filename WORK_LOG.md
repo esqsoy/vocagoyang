@@ -8,7 +8,7 @@
 - **검토:** Opus의 32카드·51필드 수정과 원본/원장 일치를 확인. 8,497카드 유지, 표제어·IPA·발화 필드 변경 0. 미수용 3장은 의도적으로 제외한 P3이며 새로운 필수 결함은 없다. 상세는 [통합 검토](reviews/codex-20261015/INTEGRATION.md).
 - **통합:** 기존 결과 복습의 세션 보호와 IPA 전달을 모두 보존. 새 세트 도장 복습에는 유일한 IPA일 때만 예외 음원을 연결하고, 복습창 수동 닫기/새 게임/다른 복습창에서 이전 재생과 지연 콜백을 취소한다. 정상 도장 전환은 마지막 음성을 보존한다.
 - **추가 보완:** 단어 경계가 사라져 `in sise`를 영국식 변형으로 받아들이는 문제와 도장 전 엔딩 우회를 회귀 검사와 함께 수정. 5개 생성 빌더가 Windows CRLF 원본과 LF HTML을 일관되게 처리하도록 정규화했다.
-- **검증·상태:** 최종 검사 결과는 [발음 검증](pipeline/pronunciation-audio/VALIDATION.md), 공개 배포 확인은 [DEPLOYMENT](DEPLOYMENT.md)에 기록한다. 실제 iPhone Safari와 전체 175음원 사람 청취는 완료로 간주하지 않는다.
+- **검증·배포:** 51개 Node 검사와 교재 조립 2개, 로컬 Chromium 발음/도장 검사 통과. `416be73` main 푸시 및 Pages `38713118742` 성공. 공개 네 HTML과 175 MP3 해시 일치, 공개 세 과정 실제 재생·다시 듣기·무음·실패 복구 통과. [발음 검증](pipeline/pronunciation-audio/VALIDATION.md), [배포 기록](DEPLOYMENT.md). iPhone Safari와 전체 음원 사람 청취는 미확인.
 
 ## 2026-10-15 · 승인한 Heart 예외 음원 3과정 적용 · 로컬 완료
 
@@ -1643,4 +1643,3 @@
 - 받지 않은 것: species(Scientists think로 이미 추정임을 밝힘, 널리 인용되는 수치), seller·insulting(공통 동의어 대사가 이미 나옴, 해설을 늘리지 않음).
 - 아스트라 안과 다르게 한 것: span은 하루살이를 살려 Adult를 붙임, agriculture는 "taken from nature" 대신 "people use", underlying은 tilt 대신 lean(어휘 통제), arguably 해설은 기존 '논란의 여지가 있게가 아니다'를 살림, 동의어 문구는 기존 카드 문구에 맞춤.
 - 검증(새로 실행): ordercheck 합계 7838·557·0(앞당김 둘 이상 0), deepcheck A1~A5·A7 0, A6 16(전부터 있던 길이), A8 1(전부터 있던 kinda, furious·elaborate는 해설을 줄여 맞춤), linecheck 360·390px 문장·화면 초과 0(underlying 4줄을 줄임), exaudit 7장(전부터 있던 것, mayflies 포함), 검사 45개 통과.
-

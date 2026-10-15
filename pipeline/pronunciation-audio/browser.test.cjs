@@ -11,7 +11,7 @@ const server=http.createServer((req,res)=>{
 const pages=['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyangebs2027.html'];
 async function select(page,file,term,ipa){
  return page.evaluate(({file,term,ipa})=>{
-  state.unlockAll=true;state.levelB1=false;state.prevOn=true;state.muted=false;
+  state.unlockAll=true;state.levelB1=false;state.prevOn=true;state.muted=false;state.savedLesson=null;
   const fable=file.includes('fable');
   const matches=w=>{
    const t=w.term||w.en||w.word;if(t!==term)return false;
@@ -39,14 +39,18 @@ async function select(page,file,term,ipa){
    await page.addInitScript(()=>{
     window.audioTrace=[];window.nativeTrace=[];
     const NativeAudio=window.Audio;
-    window.Audio=function(...args){const a=new NativeAudio(...args);for(const type of ['playing','ended','error','pause'])a.addEventListener(type,()=>audioTrace.push({type,src:a.currentSrc,time:performance.now()}));return a;};
+    window.Audio=function(...args){const a=new NativeAudio(...args);for(const type of ['playing','ended','error','pause'])a.addEventListener(type,()=>audioTrace.push({type,src:a.currentSrc,time:performance.now()}));const play=a.play.bind(a);a.play=()=>{const p=play();p?.catch(e=>audioTrace.push({type:'playRejected',name:e.name,message:e.message,src:a.currentSrc}));return p;};return a;};
     const say=window.speechSynthesis.speak.bind(window.speechSynthesis);
     window.speechSynthesis.speak=u=>{if(u.text.trim())nativeTrace.push(u.text);return say(u);};
    });
    await page.goto(base+'/'+file);await page.waitForSelector('.lessonbtn');
    assert.equal(requests.length,0,'Home must not download the library');
+   // A real learner clicks into a lesson. fill() alone is not a trusted
+   // activation on a public HTTPS origin, so it can test autoplay denial
+   // instead of the game's normal typing path.
+   await page.locator('.lessonbtn').first().click();
    const card=await select(page,file,file.includes('fable')?'contract':'conduct');
-   await page.locator('#ainput').fill(card.term);
+   await page.locator('#ainput').pressSequentially(card.term,{delay:5});
    await page.waitForFunction(()=>audioTrace.some(e=>e.type==='playing'));
    const begun=await page.evaluate(()=>({term:ipaEffectRun?.info.term,started:ipaEffectRun?.started,recorded:ipaEffectRun?.timing?.recorded,native:nativeTrace.slice()}));
    assert.equal(begun.term,card.term);assert(begun.started!==null);assert.equal(begun.recorded,true);assert.equal(begun.native.length,0);
@@ -57,7 +61,7 @@ async function select(page,file,term,ipa){
    }
    const first=await page.evaluate(()=>audioTrace.find(e=>e.type==='playing').src);
    // Repeated answer replay is interruptible; the score is unchanged.
-   await select(page,file,card.term,card.ipa);await page.locator('#ainput').fill(card.term);
+   await select(page,file,card.term,card.ipa);await page.locator('#ainput').pressSequentially(card.term,{delay:5});
    await page.waitForFunction(()=>!!exceptionAudioOwner?.started);
    const attempts=await page.evaluate(()=>state.session.attempts);
    await page.locator('.answer-replay').first().click();
@@ -68,7 +72,8 @@ async function select(page,file,term,ipa){
    // Failed/blocked media falls back once, without stranding the effect.
    await page.route('**/assets/pronunciation/*.mp3*',route=>route.abort());
    await page.reload();await page.waitForSelector('.lessonbtn');
-   const failed=await select(page,file,card.term,card.ipa);await page.locator('#ainput').fill(failed.term);
+   await page.locator('.lessonbtn').first().click();
+   const failed=await select(page,file,card.term,card.ipa);await page.locator('#ainput').pressSequentially(failed.term,{delay:5});
    await page.waitForFunction(()=>nativeTrace.length>0);
    assert.equal(await page.evaluate(()=>nativeTrace.length),1);
    await page.evaluate(()=>setMuted(true));

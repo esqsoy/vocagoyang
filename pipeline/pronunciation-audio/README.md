@@ -41,11 +41,13 @@ node pipeline/ipa-effects/build.cjs
 node pipeline/pronunciation-audio/runtime.test.cjs
 node pipeline/pronunciation-audio/host.test.cjs
 node pipeline/pronunciation-audio/build.test.cjs
+node pipeline/pronunciation-audio/stamp.test.cjs
 node pipeline/pronunciation-audio/browser.test.cjs
+node pipeline/pronunciation-audio/browser-stamp.test.cjs
 node pipeline/ipa-effects/build.cjs --check
 ```
 
-마지막 브라우저 검사는 Playwright와 Chromium이 필요하다. 필요시 `PLAYWRIGHT_MODULE`·`PW_CHROMIUM` 경로를 지정한다. 임시 로컬 HTTP 서버와 새 브라우저 프로필로 검사하며 학생 기록을 건드리지 않는다.
+브라우저 검사는 Playwright와 Chromium이 필요하다. 필요시 `PLAYWRIGHT_MODULE`·`PW_CHROMIUM` 경로를 지정한다. 임시 로컬 HTTP 서버와 새 브라우저 프로필로 검사하며 학생 기록을 건드리지 않는다. `browser.test.cjs`는 `PRONUNCIATION_BASE_URL`을 지정하면 배포된 같은 앱에서도 검사할 수 있다.
 
 ## 출처와 검증 한계
 

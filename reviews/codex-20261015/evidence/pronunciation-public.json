@@ -1,0 +1,81 @@
+{
+  "release": "416be73701c4be4f07b99850e4153b041cb418b8",
+  "pages": [
+    {
+      "file": "index.html",
+      "sha256": "06a94f8534757fa3700800d583ba534828b16c61512e435acdaef940e2e0e311",
+      "matches": true
+    },
+    {
+      "file": "vocagoyangfable.html",
+      "sha256": "fd4421f6a699858ce1ffe32645c650d9c79e33a1053f0bb65eb872cb85b17a0d",
+      "matches": true
+    },
+    {
+      "file": "vocagoyangksat2027.html",
+      "sha256": "9505807dd327a3865dc6278a7fe23d527cb60bdcba22769d1f337cb63e447772",
+      "matches": true
+    },
+    {
+      "file": "vocagoyangebs2027.html",
+      "sha256": "0b628f440c3fe06178371791f8664dbc376842bb81b94904ed4cfca0ae972b7f",
+      "matches": true
+    }
+  ],
+  "manifestMatches": true,
+  "audioFiles": 175,
+  "audioBytes": 2201300,
+  "allAudioHashesMatch": true,
+  "pagesRun": {
+    "id": 38713118742,
+    "conclusion": "success",
+    "head": "416be73701c4be4f07b99850e4153b041cb418b8"
+  },
+  "browser": [
+    {
+      "file": "vocagoyangfable.html",
+      "card": {
+        "term": "contract",
+        "meaning": "① 계약(서)",
+        "ipa": "ˈkɑntrækt"
+      },
+      "played": "https://esqsoy.github.io/vocagoyang/assets/pronunciation/contract-noun.mp3?v=140f6e2c3704",
+      "actualMP3": true,
+      "overlayStarted": true,
+      "replay": true,
+      "mute": true,
+      "networkFailureFallback": true,
+      "errors": []
+    },
+    {
+      "file": "vocagoyangksat2027.html",
+      "card": {
+        "term": "conduct",
+        "meaning": "수행하다, 지휘하다",
+        "ipa": "kənˈdʌkt"
+      },
+      "played": "https://esqsoy.github.io/vocagoyang/assets/pronunciation/conduct-verb.mp3?v=c01ba212e95a",
+      "actualMP3": true,
+      "overlayStarted": true,
+      "replay": true,
+      "mute": true,
+      "networkFailureFallback": true,
+      "errors": []
+    },
+    {
+      "file": "vocagoyangebs2027.html",
+      "card": {
+        "term": "conduct",
+        "meaning": "행동",
+        "ipa": "ˈkɑndʌkt"
+      },
+      "played": "https://esqsoy.github.io/vocagoyang/assets/pronunciation/conduct-noun.mp3?v=db14e97ea38e",
+      "actualMP3": true,
+      "overlayStarted": true,
+      "replay": true,
+      "mute": true,
+      "networkFailureFallback": true,
+      "errors": []
+    }
+  ]
+}

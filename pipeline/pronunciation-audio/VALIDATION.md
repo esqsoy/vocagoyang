@@ -9,6 +9,8 @@
 - **새 실제 브라우저 도장 검사 통과:** 28세트 legitimate의 마지막 행에서 MP3가 도장 전환을 거쳐 종료됨, 수동 닫기에서 재생과 도장 타이머 취소, 10세트 contract의 여러 IPA 행은 TTS 유지 및 MP3 요청 0, 일반 결과 화면 마지막 행+수동 다음 경합에서 연습 건너뜀 없음. `browser-stamp.test.cjs`로 재현한다.
 - [통합 검사 결과](../../reviews/codex-20261015/evidence/pronunciation-integrated-checks.json), [실제 브라우저 결과](../../reviews/codex-20261015/evidence/pronunciation-integrated-browser.json). 공개 배포 상태는 [DEPLOYMENT](../../DEPLOYMENT.md)를 따른다.
 
+**공개 배포 확인:** `416be73` Pages 성공 후 네 HTML과 175 MP3의 크기/해시 일치, 공개 Chromium 세 과정 재생·다시 듣기·무음·실패 복구 통과. 공개 검사에는 실제 클릭과 `pressSequentially` 키 입력을 사용한다. `fill()`만으로는 HTTPS에서 사용자 재생 활성화를 재현하지 못했던 테스트를 보완했다. [공개 결과](../../reviews/codex-20261015/evidence/pronunciation-public.json).
+
 아래는 통합 전 최초 구현의 검증 기록이다.
 
 기준 앱: `b49e90d`(실제 앱 변경 기준 `74a6ddc`). 작업 브랜치 `codex/pronunciation-exceptions-20261015`. **공개 배포 검증이 아닌 로컬 구현 검증**이다.
