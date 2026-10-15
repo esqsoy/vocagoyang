@@ -39,7 +39,8 @@
 /* FABLE 엔딩 */
 body.fe-on{overflow:hidden;}
 .fe{position:fixed;inset:0;z-index:65;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:20px 16px;
-  background:radial-gradient(circle at 50% 30%,#3a1a5c 0%,#160826 60%,#08030f 100%);opacity:0;transition:opacity .45s ease;cursor:pointer;overflow:auto;}
+  background:radial-gradient(circle at 50% 30%,#3a1a5c 0%,#160826 60%,#08030f 100%);opacity:0;transition:opacity .45s ease;cursor:pointer;overflow:auto;overflow-x:hidden;}
+html:has(body.fe-on){scrollbar-gutter:auto;}
 .fe.show{opacity:1;}
 .fe-bg,.fe-fx{position:absolute;left:0;top:0;pointer-events:none;}
 .fe-bg{z-index:0;}.fe-fx{z-index:3;mix-blend-mode:screen;}

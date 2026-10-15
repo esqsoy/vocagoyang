@@ -1482,7 +1482,8 @@ html{scrollbar-gutter:stable;background:var(--bg1);}
 /* FABLE 엔딩 */
 body.fe-on{overflow:hidden;}
 .fe{position:fixed;inset:0;z-index:65;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:20px 16px;
-  background:radial-gradient(circle at 50% 30%,#3a1a5c 0%,#160826 60%,#08030f 100%);opacity:0;transition:opacity .45s ease;cursor:pointer;overflow:auto;}
+  background:radial-gradient(circle at 50% 30%,#3a1a5c 0%,#160826 60%,#08030f 100%);opacity:0;transition:opacity .45s ease;cursor:pointer;overflow:auto;overflow-x:hidden;}
+html:has(body.fe-on){scrollbar-gutter:auto;}
 .fe.show{opacity:1;}
 .fe-bg,.fe-fx{position:absolute;left:0;top:0;pointer-events:none;}
 .fe-bg{z-index:0;}.fe-fx{z-index:3;mix-blend-mode:screen;}
@@ -5784,7 +5785,7 @@ function feShow(){
 }
 var FE_LINES={
   full:[
-    ['win','이게 네가 쌓은 산이라고양. 한 칸 한 칸이 다 네가 익힌 단어라고양.'],
+    ['win','티끌 모아 태산이라고양. 한 단어 한 단어가 쌓여서 이 산이 됐다고양.'],
     ['win','반짝이는 건 틀렸다가 끝내 잡은 단어라고양. 제일 빛나는 게 걔들이라고양.'],
     ['normal','처음 만났을 때 계약했지? 단어를 전부 익히면 이 도시에서 내보내 주겠다고양.'],
     ['win','약속은 약속이라고양. 계약 끝이라고양. 이제 어디든 가도 된다고양 ✦'],
@@ -5797,7 +5798,7 @@ var FE_LINES={
     ['wicked','…아니다고양. 못 들은 걸로 하라고양.'],
     ['win','이건 완주 배지라고양. 잃어버려도 다시 안 준다고양. 잘 가라고양 🐾',null,'badge']],
   b1:[
-    ['win','여기까지가 네가 쌓은 산이라고양. 한 칸 한 칸이 다 네가 익힌 단어라고양.'],
+    ['win','티끌 모아 반 태산이라고양 ㅋ 한 단어 한 단어가 쌓여서 여기까지 왔다고양.'],
     ['win','반짝이는 건 틀렸다가 끝내 잡은 단어라고양. 제일 빛나는 게 걔들이라고양.'],
     ['normal','B1까지, 1부 끝이라고양. 솔직히… 잘했다고양. 딱 한 번만 말한다고양.'],
     ['wicked','근데 위쪽 점선 보이냐고양? 아직 아무도 안 쌓은 곳이라고양.'],
@@ -5889,116 +5890,162 @@ function feWorld(f){
     if(ok||sq*.95<=.6){b.pos=pos;b.sq=sq;break;}}});
   return {F,font,LH,B,Hm,top,base,cx,hw,hl,hr,bands};
 }
+/* 단어의 주마등(26.10.15 영신): "한 단어 한 단어 크게 등장하면서 쌓이게 … 주마등처럼 전부 스쳐지나가게", "말그대로 '단어가 쌓이는'걸",
+   "초반부 단어들은 쉬운게 많으니까 빨리 보내버리고 점점 속도를 늦춰서 알아볼수 있는 단어는 후반단어로", "b1은 30초정도, 완전클리어는 1분정도".
+   - 배운 순서대로 모든 단어가 화면 가운데 크게 떴다가 작아지며 산의 제자리로 날아가 쌓인다. 산 전체가 처음부터 보이고 아래로부터 차오른다.
+   - 속도는 지수로 줄인다: 끝 속도 초당 8개(한 단어씩 알아보는 한계 안), 전체 시간(전체 60초·B1 30초)에 모든 단어가 들어가게 처음 속도를 푼다.
+     전체는 초당 450개쯤에서 시작해 마지막 수백 단어(46~50세트)는 하나씩 읽힌다.
+   - 빛살·섬광은 뺐다("저 서커스 섬광 연출은 자주쓰니까 … 불꽃놀이 … 장미나 호수 꽃 불꽃놀이(축제) … 무엇보다 중요한건 화려해야함").
+     층이 찰 때마다 호수(일산 호수공원)에서 불꽃이 올라가 장미·꽃 모양으로 터지고 수면에 비친다. 다 쌓이면 피날레, 대사 동안에도 가끔 터진다.
+   - 산 몸통은 어둡게 깔아 산 안에서는 단어만 빛난다(PRINCIPLES 11). '동작 줄이기'에서는 날아오기·불꽃 없이 차오르기만. */
 function feBuild(){
-  const f=feState,cv=f.ov.querySelector('.fe-mt'),dpr=Math.min(2,window.devicePixelRatio||1);
-  // 폰에서는 화면 너비에 꽉 차게(좌우 틈에 어두운 산 몸통 옆선이 보이지 않게). 넓은 화면은 480px까지.
-  const W=Math.min(480,Math.max(260,f.ov.clientWidth||window.innerWidth)),H=Math.round(Math.min(W*1.08,(window.innerHeight||700)*.5));
+  const f=feState,cv=f.ov.querySelector('.fe-mt'),dpr=Math.min(2,window.devicePixelRatio||1),FONT="'Noto Sans KR',-apple-system,sans-serif";
+  const W=Math.min(480,Math.max(260,f.ov.clientWidth||window.innerWidth)),H=Math.round(Math.min(W*1.3,(window.innerHeight||700)*.58));
   cv.width=Math.round(W*dpr);cv.height=Math.round(H*dpr);cv.style.width=W+'px';cv.style.height=H+'px';
   const ctx=cv.getContext('2d');
   const wd=feWorld(f),n=f.mode==='b1'?f.sets.filter(L=>L.lesson<=B1_LAST).length:f.sets.length;
   const rs=Math.min(dpr,4096/Math.max(wd.B,wd.Hm)),world=document.createElement('canvas');world.width=Math.ceil(wd.B*rs);world.height=Math.ceil(wd.Hm*rs);
   const wc=world.getContext('2d');wc.scale(rs,rs);wc.textBaseline='top';
-  const tint=L=>L.lesson>=46?'111,220,198':L.lesson>B1_LAST?'243,156,203':'187,169,255';
   const shade=(L,i)=>L.lesson>=46?(i%2?'#6fdcc6':'#45c2aa'):L.lesson>B1_LAST?(i%2?'#f39ccb':'#dc68a6'):(i%2?'#bba9ff':'#9b85f2');
-  const paint=i=>{const b=wd.bands[i];b.ws.forEach((w,j)=>{const p=b.pos[j];if(!p)return;wc.font=`700 ${(wd.F*p.s).toFixed(2)}px 'Noto Sans KR',-apple-system,sans-serif`;
-    if(w.gold){wc.fillStyle='#ffd34d';wc.shadowColor='rgba(255,211,77,.9)';wc.shadowBlur=4;}else{wc.fillStyle=shade(b.L,i);wc.shadowBlur=0;}wc.fillText(w.t,p.x,p.y);});wc.shadowBlur=0;};
+  const tint=L=>L.lesson>=46?'111,220,198':L.lesson>B1_LAST?'243,156,203':'187,169,255';
   if(f.mode==='b1'){wc.save();wc.setLineDash([10,10]);wc.strokeStyle='rgba(255,255,255,.45)';wc.lineWidth=3;const yB=wd.bands[n-1].y0;
     wc.beginPath();wc.moveTo(wd.cx-wd.hl(yB),yB);for(let y=yB;y>=wd.top;y-=4)wc.lineTo(wd.cx-wd.hl(y),y);for(let y=wd.top;y<=yB;y+=4)wc.lineTo(wd.cx+wd.hr(y),y);wc.stroke();wc.restore();}
-  const fit=Math.min(W/wd.B,(H-34)/wd.Hm)*.96,fitCy=wd.Hm/2-12/fit;   // 전경: 위에 깃발 자리
-  // 26.10.15 영신: "단어가 나타나는 속도만 훨씬 천천히 … 뽕에 취할수 있는 시간이 필요해". 처음 0.085초였던 층 간격을 0.32초로(51층 약 16초),
-  // 꼭대기에서 0.9초 머문 뒤 2.6초에 걸쳐 줌아웃하고, 금빛 단어는 하나씩 2.4초에 걸쳐 박힌다. 누르면 언제든 끝 장면으로.
-  const cap=f.ov.querySelector('.fe-cap'),gap=f.mode==='b1'?420:320,hold=900,climbEnd=n*gap+hold,zoom=2600,labelDur=2400,t0=performance.now()+300;
-  let painted=0;const seen=new Set();const ease=t=>t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2;
-  /* 빛(26.10.15 영신: "엔딩이 너무 차분한거 같은데 단어가 쌓이는걸 최대한 광원등으로 화려하게"). 돌파 축하처럼 단어가 주인공이 되게, 빛은 단어 뒤·사이에서 받쳐 준다.
-     층이 들어올 때 빛줄기가 왼쪽에서 오른쪽으로 훑고 층 전체가 한 번 밝아진다. 층 윗변에서 불티가 솟고, 그 층의 금빛 단어 자리에서 금빛 불티가 튄다.
-     산 뒤로 빛살이 돌며 오를수록 밝아진다. 꼭대기에 닿으면 섬광과 고리, 금빛 이름표가 박힐 때마다 작은 불꽃. '동작 줄이기'에서는 빛살·불티를 끈다. */
-  const calm=(()=>{try{return matchMedia('(prefers-reduced-motion: reduce)').matches;}catch(e){return false;}})();
-  const parts=[],rings=[],glows=[];let last=performance.now(),cam={k:1,x:wd.cx,y:wd.Hm},summitAt=0;
-  // 빛은 산 캔버스 밖 화면 전체에 그린다(산 캔버스 안에만 그리면 네모 경계가 드러났다). 뒤 층: 빛살·후광·섬광, 앞 층: 불티·고리(screen 합성).
-  const mk=c=>{const el=document.createElement('canvas');el.className=c;f.ov.prepend(el);return el;},bg=mk('fe-bg'),fg=mk('fe-fx');
-  let OW=0,OH=0,offX=0,offY=0;const bctx=bg.getContext('2d'),fctx=fg.getContext('2d');
-  const fit2=()=>{const r=f.ov.getBoundingClientRect(),c=cv.getBoundingClientRect();OW=Math.max(1,f.ov.clientWidth);OH=Math.max(1,f.ov.clientHeight);offX=c.left-r.left;offY=c.top-r.top+f.ov.scrollTop;
-    for(const el of [bg,fg]){el.width=Math.round(OW*dpr);el.height=Math.round(OH*dpr);el.style.width=OW+'px';el.style.height=OH+'px';}};
-  fit2();
-  const toScr=(x,y)=>[offX+W/2+(x-cam.x)*cam.k,offY+H/2+(y-cam.y)*cam.k];
-  const spark=(x,y,rgb,o={})=>{if(calm||parts.length>900)return;const a=(o.a??-Math.PI/2)+(Math.random()-.5)*(o.spread??1.6),v=(o.v??.16)*(.4+Math.random());
-    parts.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v,g:o.g??.00016,life:0,max:(o.life??1100)*(.6+Math.random()*.7),r:(o.r??2.2)*(.6+Math.random()*.8),rgb});};
-  const bandFx=i=>{const b=wd.bands[i],rgb=tint(b.L),y=b.y0,x0=wd.cx-wd.hl(y),x1=wd.cx+wd.hr(y),[gx,gy]=toScr(wd.cx,(b.y0+b.y1)/2);
-    glows.push({x:gx,y:gy,t:performance.now(),dur:700,rgb});   // 층마다 뒤에서 한 번 번쩍
-    for(let k=0;k<40;k++){const [sx,sy]=toScr(x0+(x1-x0)*Math.random(),y);spark(sx,sy,k%4?rgb:'255,255,255');}
-    let g=0;b.ws.forEach((w,j)=>{if(w.gold&&g<10&&b.pos[j]){g++;const [sx,sy]=toScr(b.pos[j].x+w.w*b.pos[j].s/2,b.pos[j].y+wd.F/2);
-      rings.push({x:sx,y:sy,t:performance.now(),dur:600,r:26,rgb:'255,211,77'});for(let k=0;k<10;k++)spark(sx,sy,'255,211,77',{spread:6.28,v:.18,r:2.4,life:800});}});};
-  const rays=(ox,oy,alpha,t)=>{const c=bctx;c.setTransform(dpr,0,0,dpr,0,0);c.clearRect(0,0,OW,OH);if(calm||alpha<=0)return;c.globalCompositeOperation='lighter';
-    const R=Math.hypot(OW,OH)*1.1;for(let i=0;i<18;i++){const a=t*.00016+i*Math.PI*2/18,w=.06+.035*Math.sin(t*.0013+i*1.7);
-      const gr=c.createRadialGradient(ox,oy,0,ox,oy,R);gr.addColorStop(0,`rgba(255,226,140,${alpha})`);gr.addColorStop(.45,`rgba(255,120,200,${alpha*.45})`);gr.addColorStop(1,'rgba(150,110,255,0)');
-      c.fillStyle=gr;c.beginPath();c.moveTo(ox,oy);c.arc(ox,oy,R,a-w,a+w);c.closePath();c.fill();}
-    const halo=c.createRadialGradient(ox,oy,0,ox,oy,OW*.6);halo.addColorStop(0,`rgba(255,240,200,${Math.min(.9,alpha*2.2)})`);halo.addColorStop(1,'rgba(255,240,200,0)');c.fillStyle=halo;c.fillRect(0,0,OW,OH);
-    for(let i=glows.length-1;i>=0;i--){const g=glows[i],p=(t-g.t)/g.dur;if(p>=1){glows.splice(i,1);continue;}
-      const gr=c.createRadialGradient(g.x,g.y,0,g.x,g.y,OW*.75);gr.addColorStop(0,`rgba(${g.rgb},${.55*(1-p)})`);gr.addColorStop(1,`rgba(${g.rgb},0)`);c.fillStyle=gr;c.fillRect(0,0,OW,OH);}
-    c.globalCompositeOperation='source-over';};
-  const fxStep=(now)=>{const dt=Math.min(50,now-last);last=now;const ctx=fctx;ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,OW,OH);ctx.save();ctx.globalCompositeOperation='lighter';
-    for(let i=parts.length-1;i>=0;i--){const q=parts[i];q.life+=dt;if(q.life>=q.max){parts.splice(i,1);continue;}q.vy+=q.g*dt;q.x+=q.vx*dt;q.y+=q.vy*dt;
-      const a=1-q.life/q.max;ctx.fillStyle=`rgba(${q.rgb},${a*.25})`;ctx.beginPath();ctx.arc(q.x,q.y,q.r*3,0,6.283);ctx.fill();ctx.fillStyle=`rgba(255,255,255,${a*.9})`;ctx.beginPath();ctx.arc(q.x,q.y,q.r*.7,0,6.283);ctx.fill();}
-    for(let i=rings.length-1;i>=0;i--){const r=rings[i],p=(now-r.t)/r.dur;if(p>=1){rings.splice(i,1);continue;}
-      if(r.flash){const fl=ctx.createRadialGradient(r.x,r.y,0,r.x,r.y,Math.hypot(OW,OH));fl.addColorStop(0,`rgba(255,255,255,${.95*(1-p)})`);fl.addColorStop(.35,`rgba(255,220,150,${.5*(1-p)})`);fl.addColorStop(1,'rgba(255,200,230,0)');ctx.fillStyle=fl;ctx.fillRect(0,0,OW,OH);}
-      ctx.strokeStyle=`rgba(${r.rgb},${(1-p)*.9})`;ctx.lineWidth=3*(1-p)+.5;ctx.beginPath();ctx.arc(r.x,r.y,r.r*ease(Math.min(1,p*1.2)),0,6.283);ctx.stroke();}
-    ctx.restore();};
-  // 산 몸통은 어둡게 깐다. 빛살은 산 바깥에서 터지고 산 안에서는 단어만 빛난다(PRINCIPLES 11 '단어만 빛나게').
+  // 무대: 아래는 호수(일산 호수공원), 그 위에 산 전체. 카메라는 움직이지 않고 산이 아래부터 차오른다.
+  const lakeY=H-Math.round(H*.17),fit=Math.min(W/wd.B,(lakeY-34)/wd.Hm)*.97;
+  const toS=(x,y)=>[W/2+(x-wd.cx)*fit,lakeY-2-(wd.base-y)*fit];
   const body=new Path2D();body.moveTo(wd.cx-wd.hl(wd.base),wd.base);for(let y=wd.base;y>=wd.top;y-=6)body.lineTo(wd.cx-wd.hl(y)-8,y);for(let y=wd.top;y<=wd.base;y+=6)body.lineTo(wd.cx+wd.hr(y)+8,y);body.closePath();
-  const draw=(k,cxw,cyw,reveal,fade,pre)=>{cam={k,x:cxw,y:cyw};ctx.setTransform(1,0,0,1,0,0);ctx.clearRect(0,0,cv.width,cv.height);if(pre)pre();
-    ctx.setTransform(dpr*k,0,0,dpr*k,dpr*(W/2-cxw*k),dpr*(H/2-cyw*k));
-    ctx.save();const by=fade?Math.min(reveal,fade.y0):reveal;ctx.beginPath();ctx.rect(0,by-10,wd.B,wd.Hm-by+12);ctx.clip();ctx.fillStyle='rgba(18,6,34,.78)';ctx.fill(body);ctx.restore();
-    ctx.save();ctx.beginPath();ctx.rect(0,reveal,wd.B,wd.Hm-reveal+2);ctx.clip();ctx.drawImage(world,0,0,wd.B,wd.Hm);ctx.restore();
-    if(fade&&fade.a<1){ctx.save();ctx.globalAlpha=fade.a;ctx.beginPath();ctx.rect(0,fade.y0,wd.B,fade.y1-fade.y0);ctx.clip();ctx.drawImage(world,0,0,wd.B,wd.Hm);ctx.restore();}
-    if(fade&&!calm){   // 들어오는 층: 빛줄기가 훑고 층이 한 번 밝아진다
-      const yy=fade.y0,x0=wd.cx-wd.hl(fade.y1),x1=wd.cx+wd.hr(fade.y1),sx=x0+(x1-x0)*Math.min(1,fade.a*1.15),bw=90;
-      ctx.save();ctx.beginPath();ctx.rect(0,fade.y0-6,wd.B,fade.y1-fade.y0+12);ctx.clip();ctx.globalCompositeOperation='lighter';
-      ctx.globalAlpha=.9*(1-fade.a);ctx.drawImage(world,0,0,wd.B,wd.Hm);ctx.globalAlpha=1;
-      const gr=ctx.createLinearGradient(sx-bw,0,sx+bw*.3,0);gr.addColorStop(0,'rgba(255,240,200,0)');gr.addColorStop(.8,`rgba(255,245,215,${.85*(1-fade.a*.5)})`);gr.addColorStop(1,'rgba(255,255,255,0)');
-      ctx.fillStyle=gr;ctx.fillRect(sx-bw,yy-6,bw*1.3,fade.y1-fade.y0+12);ctx.restore();}};
-  const toScreen=(x,y)=>[W/2+(x-wd.cx)*fit,H/2+(y-fitCy)*fit];
-  const topY=f.mode==='b1'?wd.bands[n-1].y0:wd.top;
-  let labels=null,shown=0,still=null;
-  const finish=()=>{   // 전경 + 깃발을 한 장으로 그려 두고(still), 금빛 단어 이름표는 고르기만 하고 아래에서 하나씩 박는다
-    draw(fit,wd.cx,fitCy,wd.top-1);ctx.setTransform(dpr,0,0,dpr,0,0);
-    const [fx,fy]=toScreen(wd.cx,topY);
+  // 모든 단어를 익힌 순서대로 한 줄로 세우고, 뜨는 시각을 정한다.
+  // 속도 r(t)=r0·e^(-t/τ): 끝 속도 rEnd(초당 8개)와 전체 시간 T가 주어지면 rEnd·τ·(e^(T/τ)-1)=단어 수가 되는 τ를 찾는다.
+  const seq=[],need=[];
+  for(let i=0;i<n;i++){const b=wd.bands[i];let c=0;b.ws.forEach((w,j)=>{if(b.pos[j]){seq.push({i,w,p:b.pos[j]});c++;}});need.push(c);}
+  const N=seq.length,T=f.mode==='b1'?30000:60000,rEnd=.008;
+  let lo=300,hi=1e7;for(let k=0;k<80;k++){const m=(lo+hi)/2;if(rEnd*m*Math.expm1(T/m)>N)lo=m;else hi=m;}
+  const tau=(lo+hi)/2,r0=rEnd*Math.exp(T/tau),rate=t=>r0*Math.exp(-t/tau)*1000;
+  seq.forEach((q,k)=>{q.t=Math.min(T,-tau*Math.log(Math.max(1e-9,1-k/(r0*tau))));});
+  f.feSpeed={N,T,tau,r0:r0*1000};
+  const calm=(()=>{try{return matchMedia('(prefers-reduced-motion: reduce)').matches;}catch(e){return false;}})();
+  // 불꽃은 화면 전체 두 장: 뒤(하늘, 산과 대사 뒤)와 앞(금빛 반짝임만). 산 안에서는 단어가 가장 밝다.
+  const FXR=Math.min(dpr,1.25),mk=c=>{const el=document.createElement('canvas');el.className=c;f.ov.prepend(el);return el;},bg=mk('fe-bg'),fg=mk('fe-fx'),bctx=bg.getContext('2d'),fctx=fg.getContext('2d');
+  let OW=0,OH=0,offX=0,offY=0,hid=false;
+  const place=()=>{hid=f.ov.querySelector('.fe-stage').hidden;const r=f.ov.getBoundingClientRect(),c=cv.getBoundingClientRect(),w=Math.max(1,f.ov.clientWidth),h=Math.max(1,f.ov.clientHeight);if(!hid){offX=c.left-r.left;offY=c.top-r.top+f.ov.scrollTop;}
+    if(w!==OW||h!==OH){OW=w;OH=h;[bg,fg].forEach(el=>{el.width=Math.round(w*FXR);el.height=Math.round(h*FXR);el.style.width=w+'px';el.style.height=h+'px';});}};
+  place();
+  const PAL={rose:['255,79,139','255,150,196','255,214,90'],lav:['187,169,255','255,255,255','255,150,196'],teal:['111,220,198','200,255,240','255,214,90'],gold:['255,214,90','255,244,200','255,110,150']};
+  const shells=[],parts=[],front=[];let lastFx=performance.now(),lastFw=-1e9;
+  // 호수에서 쏘아 올려 하늘에서 터진다. 모양: 장미(꽃잎 다섯 장 장미곡선), 꽃(둥근 꽃잎), 국화(둥근 공).
+  const launch=(kind,pal,big)=>{if(calm)return;const x=OW*(.1+Math.random()*.8),top=Math.max(24,offY-60),low=offY+lakeY*.5;
+    shells.push({x0:x+(Math.random()-.5)*60,y0:hid?OH:offY+lakeY,x,y:top+Math.random()*Math.max(30,low-top),t:performance.now(),dur:620+Math.random()*260,kind,pal,big});};
+  // 불꽃 알갱이: 색마다 빛 방울 그림을 한 번 만들어 두고 찍는다. 꼬리는 색·밝기별로 묶어 한 번에 긋는다.
+  const SPR={},spr=rgb=>{if(SPR[rgb])return SPR[rgb];const c=document.createElement('canvas');c.width=c.height=32;const g=c.getContext('2d'),gr=g.createRadialGradient(16,16,0,16,16,16);
+    gr.addColorStop(0,'rgba(255,255,255,1)');gr.addColorStop(.18,`rgba(${rgb},.95)`);gr.addColorStop(.45,`rgba(${rgb},.28)`);gr.addColorStop(1,`rgba(${rgb},0)`);g.fillStyle=gr;g.fillRect(0,0,32,32);return SPR[rgb]=c;};
+  const P=(sh,vx,vy,rgb,r,max,g)=>parts.push({x:sh.x,y:sh.y,px:sh.x,py:sh.y,vx,vy,life:0,max,r,rgb,g});
+  // 모양: 장미(꽃잎 다섯 장 장미곡선 두 겹), 꽃(꽃잎 여덟 장, 꽃박람회), 국화(둥근 공).
+  const burst=sh=>{const big=sh.big,V=(big?.19:.145)*(.88+Math.random()*.24),pal=PAL[sh.pal]||PAL.rose,rot=Math.random()*6.283,M=()=>1500+Math.random()*600;
+    if(sh.kind==='rose'){const k=big?150:104;
+      for(let i=0;i<k;i++){const th=i/k*Math.PI,r=Math.cos(5*th),a=th+rot;P(sh,Math.cos(a)*r*V,Math.sin(a)*r*V,i%4?'255,79,139':'255,150,196',big?2.2:1.8,M(),.00007);}
+      for(let i=0;i<k*.55;i++){const th=i/(k*.55)*Math.PI,r=Math.cos(5*th)*.52,a=th+rot+.63;P(sh,Math.cos(a)*r*V,Math.sin(a)*r*V,i%3?'255,186,214':'255,214,90',1.8,M(),.00007);}}
+    else if(sh.kind==='flower'){const k=big?160:110;
+      for(let i=0;i<k;i++){const th=i/k*6.283,r=.25+.75*Math.abs(Math.cos(4*th)),a=th+rot;P(sh,Math.cos(a)*r*V,Math.sin(a)*r*V,pal[i%2],big?2.2:1.8,M(),.00008);}
+      for(let i=0;i<24;i++){const a=i/24*6.283;P(sh,Math.cos(a)*V*.16,Math.sin(a)*V*.16,'255,214,90',2.3,1300,.00004);}}
+    else{const k=big?150:100;
+      for(let i=0;i<k;i++){const a=i/k*6.283+rot,v=V*(.94+Math.random()*.12);P(sh,Math.cos(a)*v,Math.sin(a)*v,pal[i%3],big?2.2:1.8,M(),.00009);}
+      for(let i=0;i<k*.4;i++){const a=Math.random()*6.283,v=V*.55*(.9+Math.random()*.2);P(sh,Math.cos(a)*v,Math.sin(a)*v,pal[1],1.7,M()*.8,.00009);}}
+    flash.push({x:sh.x,y:sh.y,t:performance.now(),rgb:sh.kind==='rose'?'255,79,139':pal[0],R:big?150:100});};
+  const flash=[];
+  const sparkle=(x,y,k=10)=>{if(calm)return;for(let i=0;i<k;i++){const a=Math.random()*6.283,v=.05+Math.random()*.12;front.push({x,y,px:x,py:y,vx:Math.cos(a)*v,vy:Math.sin(a)*v,life:0,max:600+Math.random()*400,r:1.7,rgb:'255,214,90',g:.00005});}};
+  const stepParts=(arr,c,dt,now,refl)=>{const ly=offY+lakeY,lb=offY+H,dr=Math.pow(.985,dt/16),tails=new Map();
+    for(let i=arr.length-1;i>=0;i--){const q=arr[i];q.life+=dt;if(q.life>=q.max){arr.splice(i,1);continue;}
+      q.px=q.x;q.py=q.y;q.vx*=dr;q.vy=q.vy*dr+q.g*dt;q.x+=q.vx*dt;q.y+=q.vy*dt;
+      const a=Math.pow(1-q.life/q.max,1.4),tw=.7+.3*Math.sin(q.life*.045+i),key=q.rgb+'|'+Math.min(3,Math.floor(a*4));
+      let t=tails.get(key);if(!t)tails.set(key,t=[]);t.push(q.x-(q.x-q.px)*2.2,q.y-(q.y-q.py)*2.2,q.x,q.y);
+      const s=q.r*2.8;c.globalAlpha=a*tw;c.drawImage(spr(q.rgb),q.x-s,q.y-s,s*2,s*2);
+      if(refl&&i%2===0&&q.y<ly){const ry=ly+(ly-q.y)*.42;if(ry<lb){c.globalAlpha=a*.45*(1-(ry-ly)/(lb-ly));c.drawImage(spr(q.rgb),q.x-s*1.3+Math.sin(now*.005+q.y*.07)*2.5,ry-s*.4,s*2.6,s*.8);}}}
+    c.lineWidth=1.3;tails.forEach((t,key)=>{const [rgb,b]=key.split('|');c.globalAlpha=(+b+1)/4*.55;c.strokeStyle=`rgb(${rgb})`;c.beginPath();for(let j=0;j<t.length;j+=4){c.moveTo(t[j],t[j+1]);c.lineTo(t[j+2],t[j+3]);}c.stroke();});
+    c.globalAlpha=1;};
+  const fxStep=(now,lake)=>{const dt=Math.min(50,now-lastFx);lastFx=now;
+    let c=bctx;c.setTransform(FXR,0,0,FXR,0,0);c.clearRect(0,0,OW,OH);c.globalCompositeOperation='lighter';
+    for(let i=flash.length-1;i>=0;i--){const fl=flash[i],p=(now-fl.t)/700;if(p>=1){flash.splice(i,1);continue;}const g=c.createRadialGradient(fl.x,fl.y,0,fl.x,fl.y,fl.R*(1+p*.6));g.addColorStop(0,`rgba(${fl.rgb},${.3*(1-p)})`);g.addColorStop(1,`rgba(${fl.rgb},0)`);c.fillStyle=g;c.fillRect(fl.x-fl.R*1.7,fl.y-fl.R*1.7,fl.R*3.4,fl.R*3.4);}
+    for(let i=shells.length-1;i>=0;i--){const sh=shells[i],p=(now-sh.t)/sh.dur;if(p>=1){shells.splice(i,1);burst(sh);continue;}
+      const e=1-Math.pow(1-p,2.2),x=sh.x0+(sh.x-sh.x0)*e,y=sh.y0+(sh.y-sh.y0)*e;
+      c.strokeStyle='rgba(255,210,150,.5)';c.lineWidth=1.6;c.beginPath();c.moveTo(x,y);c.lineTo(x-(sh.x-sh.x0)*.04,y+22*(1-p)+6);c.stroke();
+      c.drawImage(spr('255,226,180'),x-6,y-6,12,12);
+      if(lake){const ly=offY+lakeY;c.globalAlpha=.4;c.drawImage(spr('255,226,180'),x-5,ly+(ly-y)*.42-2,10,4);c.globalAlpha=1;}}
+    stepParts(parts,c,dt,now,lake);c.globalCompositeOperation='source-over';
+    c=fctx;c.setTransform(FXR,0,0,FXR,0,0);c.clearRect(0,0,OW,OH);stepParts(front,c,dt,now,false);};
+  // 산 그림: 다 내려앉은 단어(world)를 무대 크기로 줄여 둔다. 호수에는 산이 거꾸로 비친다.
+  const mini=document.createElement('canvas');mini.width=cv.width;mini.height=cv.height;const mc=mini.getContext('2d');let miniAt=-1e9,landedTop=wd.base,dr0=null;
+  const MT=[dpr*fit,0,0,dpr*fit,dpr*(W/2-wd.cx*fit),dpr*(lakeY-2-wd.base*fit)];
+  const drawMini=all=>{const d=all?{x0:0,y0:0,x1:wd.B,y1:wd.Hm}:dr0;dr0=null;if(!d)return;mc.setTransform(...MT);
+    const x0=Math.max(0,d.x0-2),y0=Math.max(0,d.y0-2),x1=Math.min(wd.B,d.x1+2),y1=Math.min(wd.Hm,d.y1+2);
+    mc.clearRect(x0,y0,x1-x0,y1-y0);mc.drawImage(world,x0*rs,y0*rs,(x1-x0)*rs,(y1-y0)*rs,x0,y0,x1-x0,y1-y0);};
+  drawMini(true);   // B1 점선처럼 처음부터 있는 것
+  const cnt=new Array(n).fill(0);let wFont='';
+  const land=q=>{const F=`700 ${(wd.F*q.p.s).toFixed(2)}px ${FONT}`;if(F!==wFont)wc.font=wFont=F;
+    if(q.w.gold){wc.fillStyle='#ffd34d';wc.shadowColor='rgba(255,211,77,.9)';wc.shadowBlur=4;}else{wc.fillStyle=shade(wd.bands[q.i].L,q.i);wc.shadowBlur=0;}
+    wc.fillText(q.w.t,q.p.x,q.p.y);wc.shadowBlur=0;if(q.p.y<landedTop)landedTop=q.p.y;cnt[q.i]++;seen.add(q.w.k);
+    const x1=q.p.x+q.w.w*q.p.s,y1=q.p.y+wd.F*q.p.s*1.3;if(!dr0)dr0={x0:q.p.x,y0:q.p.y,x1,y1};else{dr0.x0=Math.min(dr0.x0,q.p.x);dr0.y0=Math.min(dr0.y0,q.p.y);dr0.x1=Math.max(dr0.x1,x1);dr0.y1=Math.max(dr0.y1,y1);}};
+  // 산 몸통(어둡게)과 단어. 호수에는 둘 다 거꾸로 비친다.
+  const mount=(alpha)=>{ctx.save();ctx.setTransform(...MT);ctx.beginPath();ctx.rect(-20,landedTop-14,wd.B+40,wd.Hm-landedTop+16);ctx.clip();ctx.globalAlpha=alpha;ctx.fillStyle='rgba(18,6,34,.8)';ctx.fill(body);ctx.restore();};
+  const scene=now=>{if(dr0&&now-miniAt>60){drawMini(false);miniAt=now;}
+    ctx.setTransform(1,0,0,1,0,0);ctx.clearRect(0,0,cv.width,cv.height);
+    const lg=ctx.createLinearGradient(0,lakeY*dpr,0,H*dpr);lg.addColorStop(0,'rgba(70,48,140,.42)');lg.addColorStop(1,'rgba(12,6,34,.12)');ctx.fillStyle=lg;ctx.fillRect(0,lakeY*dpr,cv.width,(H-lakeY)*dpr);
+    ctx.save();ctx.beginPath();ctx.rect(0,lakeY*dpr,cv.width,(H-lakeY)*dpr);ctx.clip();ctx.globalAlpha=.3;ctx.setTransform(1,0,0,-.42,0,lakeY*dpr*1.42);ctx.drawImage(mini,0,0);ctx.restore();
+    ctx.fillStyle='rgba(210,190,255,.4)';ctx.fillRect(0,(lakeY-1)*dpr,cv.width,Math.max(1,dpr));
+    mount(1);ctx.drawImage(mini,0,0);};
+  // 날아오는 단어: 가운데 크게 떴다가(느릴 때는 잠깐 머물러 읽힌다) 작아지며 제자리로 날아가 앉는다.
+  const LX=W/2,LY=lakeY*.42,flyers=[],seen=new Set();
+  ctx.font=`800 100px ${FONT}`;
+  const spawn=q=>{const r=rate(q.t),gap=1000/r,slow=Math.max(0,Math.min(1,(70-r)/60));
+    const w100=ctx.measureText(q.w.t).width||100,big=Math.min(22+20*slow,W*.84/w100*100),spread=Math.max(0,Math.min(1,(r-20)/140));   // 느려지면 한자리에서 하나씩(눈이 따라가지 않아도 읽히게)
+    flyers.push({q,t:q.t,hold:Math.min(440,gap*.8),fly:Math.max(300,Math.min(600,4000/r)),big,slow,jx:(Math.random()-.5)*W*.74*spread,jy:(Math.random()-.5)*lakeY*.4*spread});};
+  const drawFlyer=(fl,el)=>{const q=fl.q,e=el-fl.t,[tx,ty]=toS(q.p.x+q.w.w*q.p.s/2,q.p.y+wd.F*q.p.s/2),sx=LX+fl.jx,sy=LY+fl.jy,end=Math.max(1.2,wd.F*fit*q.p.s);
+    const pop=Math.min(1,e/70);let x=sx,y=sy,sz=fl.big*(.55+.45*(1-Math.pow(1-pop,3))),a=pop;
+    // 떠날 때는 빨리 작아지며 가운데를 비운다. 다음 단어가 겹치지 않게.
+    if(e>fl.hold){const pp=Math.min(1,(e-fl.hold)/fl.fly),m=1-Math.pow(1-pp,2.4);x=sx+(tx-sx)*m;y=sy+(ty-sy)*m;sz=sz+(end-sz)*(1-Math.pow(1-pp,4));a=1-.3*pp;}
+    const k=sz/100;ctx.setTransform(dpr*k,0,0,dpr*k,dpr*x,dpr*y);ctx.globalAlpha=a;
+    if(fl.slow>.2&&sz>12){ctx.shadowBlur=0;ctx.lineWidth=16;ctx.strokeStyle='rgba(16,6,30,.85)';ctx.strokeText(q.w.t,0,0);ctx.shadowColor=q.w.gold?'rgba(255,211,77,.8)':`rgba(${tint(wd.bands[q.i].L)},.75)`;ctx.shadowBlur=sz*.3*dpr;}else ctx.shadowBlur=0;
+    ctx.fillStyle=q.w.gold?'#ffd34d':'#ffffff';ctx.fillText(q.w.t,0,0);};
+  const cap=f.ov.querySelector('.fe-cap'),t0=performance.now()+500;let next=0,band=0,finaleAt=0,labels=null,shown=0,labelStart=0;
+  const finale=()=>{['rose','flower','peony','rose','flower','rose','peony','flower','rose','rose','flower','peony'].forEach((k,i)=>setTimeout(()=>{if(feState===f)launch(k,['rose','gold','lav','teal'][i%4],true);},i*230));};
+  const pickLabels=()=>{const golds=seq.filter(q=>q.w.gold),pick=[],boxes=[],step=Math.max(1,Math.floor(golds.length/55));
+    ctx.save();ctx.setTransform(1,0,0,1,0,0);ctx.font=`800 9px ${FONT}`;
+    for(let i=0;i<golds.length&&pick.length<45;i+=step){const q=golds[i],[x,y]=toS(q.p.x+q.w.w*q.p.s/2,q.p.y+wd.F/2),w=ctx.measureText(q.w.t).width+4,bx={x0:x-w/2,x1:x+w/2,y0:y-6,y1:y+6};
+      const cx=Math.max(w/2+3,Math.min(W-w/2-3,x));bx.x0=cx-w/2;bx.x1=cx+w/2;
+      if(boxes.some(o=>o.x0<bx.x1&&bx.x0<o.x1&&o.y0<bx.y1&&bx.y0<o.y1))continue;boxes.push(bx);pick.push([q.w.t,cx,y]);}ctx.restore();return pick;};
+  const label=([t,x,y])=>{ctx.save();ctx.setTransform(dpr,0,0,dpr,0,0);ctx.font=`800 9px ${FONT}`;ctx.textAlign='center';ctx.textBaseline='middle';
+    ctx.lineWidth=3;ctx.strokeStyle='rgba(22,8,38,.85)';ctx.strokeText(t,x,y);ctx.shadowColor='rgba(255,211,77,.9)';ctx.shadowBlur=6;ctx.fillStyle='#ffd34d';ctx.fillText(t,x,y);ctx.restore();};
+  const flag=()=>{const [fx,fy]=toS(wd.cx,f.mode==='b1'?wd.bands[n-1].y0:wd.top);ctx.save();ctx.setTransform(dpr,0,0,dpr,0,0);
     ctx.strokeStyle='#f6f1ff';ctx.lineWidth=1.6;ctx.beginPath();ctx.moveTo(fx,fy+2);ctx.lineTo(fx,fy-24);ctx.stroke();
-    ctx.fillStyle='#ffd34d';ctx.shadowColor='rgba(255,211,77,.8)';ctx.shadowBlur=8;ctx.beginPath();ctx.moveTo(fx,fy-24);ctx.lineTo(fx+17,fy-19);ctx.lineTo(fx,fy-14);ctx.closePath();ctx.fill();ctx.shadowBlur=0;
-    still=document.createElement('canvas');still.width=cv.width;still.height=cv.height;still.getContext('2d').drawImage(cv,0,0);
-    const golds=[];wd.bands.slice(0,n).forEach(b=>b.ws.forEach((w,j)=>{if(w.gold&&b.pos[j])golds.push({t:w.t,x:b.pos[j].x+w.w*b.pos[j].s/2,y:b.pos[j].y+wd.F/2});}));
-    const pick=[],boxes=[],step=Math.max(1,Math.floor(golds.length/55));ctx.font="800 9px 'Noto Sans KR',-apple-system,sans-serif";ctx.textAlign='center';ctx.textBaseline='middle';
-    for(let i=0;i<golds.length&&pick.length<45;i+=step){const g=golds[i],[x,y]=toScreen(g.x,g.y),w=ctx.measureText(g.t).width+4,bx={x0:x-w/2,x1:x+w/2,y0:y-6,y1:y+6};
-      if(boxes.some(o=>o.x0<bx.x1&&bx.x0<o.x1&&o.y0<bx.y1&&bx.y0<o.y1))continue;boxes.push(bx);pick.push([g.t,x,y]);}
-    ctx.textAlign='start';return pick;};
-  const label=([t,x,y],c=ctx)=>{c.save();c.setTransform(dpr,0,0,dpr,0,0);c.font="800 9px 'Noto Sans KR',-apple-system,sans-serif";c.textAlign='center';c.textBaseline='middle';
-    c.lineWidth=3;c.strokeStyle='rgba(22,8,38,.85)';c.strokeText(t,x,y);c.shadowColor='rgba(255,211,77,.9)';c.shadowBlur=6;c.fillStyle='#ffd34d';c.fillText(t,x,y);c.restore();};
-  let baked=false;
+    ctx.fillStyle='#ffd34d';ctx.shadowColor='rgba(255,211,77,.8)';ctx.shadowBlur=8;ctx.beginPath();ctx.moveTo(fx,fy-24);ctx.lineTo(fx+17,fy-19);ctx.lineTo(fx,fy-14);ctx.closePath();ctx.fill();ctx.restore();};
+  const idle=now=>{if(now-lastFw>1300+Math.random()*900){launch(['rose','flower','peony'][Math.floor(Math.random()*3)],['rose','gold','lav','teal'][Math.floor(Math.random()*4)],Math.random()<.35);lastFw=now;}};
   const frame=now=>{
-    if(!feState||feState!==f||f.ov.querySelector('.fe-stage').hidden)return;
-    const el=f.skip?Math.max(now-t0,climbEnd+zoom+labelDur):now-t0,prog=Math.min(1,Math.max(0,el/(n*gap)));
-    while(painted<n&&(f.skip||el>=painted*gap)){paint(painted);wd.bands[painted].ws.forEach(w=>seen.add(w.k));if(!f.skip)bandFx(painted);painted++;}const words=seen.size;
-    const ci=Math.max(0,painted-1),cur=wd.bands[ci],camY=y=>Math.min(wd.Hm-H/2+16,y+H*.34);
-    if(el<climbEnd){   // 오르기: 글자 7px, 새 층이 화면 위쪽 1/3에 오게. 카메라는 앞 층에서 이 층으로 부드럽게 올라간다
-      const p=Math.min(1,Math.max(0,(el-ci*gap)/gap)),from=ci?wd.bands[ci-1].y0:cur.y1,cy=camY(from+(cur.y0-from)*ease(p));
-      draw(1,wd.cx,cy,cur.y1,{a:p,y0:cur.y0,y1:cur.y1});const [rx,ry]=toScr(wd.cx,cur.y0);rays(rx,ry-30,.07+.2*prog,now);
-      if(!summitAt&&painted>=n&&el>=(n-1)*gap+gap*.6){summitAt=now;const [sx,sy]=toScr(wd.cx,topY);   // 꼭대기: 섬광·고리·금빛 불꽃
-        rings.push({x:sx,y:sy,t:now,dur:1100,r:OW*1.1,rgb:'255,211,77',flash:true},{x:sx,y:sy,t:now+160,dur:1300,r:OW*.8,rgb:'255,138,198'},{x:sx,y:sy,t:now+320,dur:1500,r:OW*.55,rgb:'187,169,255'});
-        for(let k=0;k<160;k++)spark(sx,sy,k%3?'255,211,77':(k%2?'255,255,255':'255,138,198'),{spread:6.28,v:.36,r:2.8,life:1700,g:.00009});}
-      fxStep(now);
-      cap.textContent=`${cur.L.id} · ${cur.L.name||''}  ·  익힌 단어 ${words.toLocaleString('en-US')}`;f.raf=requestAnimationFrame(frame);return;}
-    if(el<climbEnd+zoom){   // 줌아웃: 빛살의 중심이 꼭대기를 따라간다
-      const p=ease((el-climbEnd)/zoom),k=Math.exp(Math.log(fit)*p),top=wd.bands[n-1].y0,cy0=camY(top),cy=cy0+(fitCy-cy0)*p;
-      draw(k,wd.cx,cy,top-1);const [rx,ry]=toScr(wd.cx,topY);rays(rx,ry-10,.27,now);fxStep(now);f.raf=requestAnimationFrame(frame);return;}
-    if(!labels){labels=finish();cap.textContent=f.capBase=`익힌 단어 ${words.toLocaleString('en-US')}`;}
-    const due=f.skip?labels.length:Math.min(labels.length,Math.ceil((el-climbEnd-zoom)/labelDur*labels.length));
-    while(shown<due){const lb=labels[shown++];if(!f.skip){rings.push({x:offX+lb[1],y:offY+lb[2],t:now,dur:650,r:30,rgb:'255,211,77'});for(let k=0;k<14;k++)spark(offX+lb[1],offY+lb[2],'255,211,77',{spread:6.28,v:.16,r:2.2,life:750,g:0});}}
-    // 끝 장면: 빛살은 산 뒤에서 계속 천천히 돈다(대사를 읽는 동안에도)
-    cam={k:fit,x:wd.cx,y:fitCy};const [fx,fy]=toScr(wd.cx,topY);ctx.setTransform(1,0,0,1,0,0);ctx.clearRect(0,0,cv.width,cv.height);rays(fx,fy-10,shown<labels.length?.27:.2,now);
-    if(!baked&&shown>=labels.length){const sc=still.getContext('2d');labels.forEach(lb=>label(lb,sc));baked=true;}   // 다 박힌 이름표는 한 장에 구워 매 프레임 다시 그리지 않는다
-    ctx.setTransform(1,0,0,1,0,0);ctx.drawImage(still,0,0);if(!baked)for(let i=0;i<shown;i++)label(labels[i]);fxStep(now);
+    if(!feState||feState!==f)return;
+    place();
+    // 배지·큰 도장이 나오면 산은 접고 불꽃만 계속 터진다.
+    if(f.ov.querySelector('.fe-stage').hidden){idle(now);fxStep(now,false);f.raf=requestAnimationFrame(frame);return;}
+    const el=now-t0,skip=f.skip&&f.building;
+    while(next<N&&(skip||calm||el>=seq[next].t)){const q=seq[next++];if(skip||calm)land(q);else spawn(q);}
+    scene(now);
+    ctx.save();ctx.font=`800 100px ${FONT}`;ctx.textAlign='center';ctx.textBaseline='middle';ctx.lineJoin='round';
+    for(let i=0;i<flyers.length;i++){const fl=flyers[i];
+      if(skip||el-fl.t>=fl.hold+fl.fly){land(fl.q);if(fl.q.w.gold&&fl.slow>.2){const [x,y]=toS(fl.q.p.x,fl.q.p.y);sparkle(offX+x,offY+y,7);}flyers.splice(i--,1);continue;}
+      if(flyers.length-i<=150)drawFlyer(fl,el);}
+    ctx.restore();
+    // 한 층이 다 차면 호수에서 불꽃 한 발(0.45초에 한 발까지만)
+    let up=false;while(band<n&&cnt[band]>=need[band]){band++;up=true;}
+    if(!up&&!skip&&now-lastFw>1700+Math.random()*700)up=true;
+    if(up&&!skip&&now-lastFw>450){const L=wd.bands[Math.max(0,band-1)].L;launch(['rose','flower','peony'][band%3],L.lesson>=46?'teal':L.lesson>B1_LAST?'rose':'lav',band%5===0);lastFw=now;}
+    if(next<N||flyers.length){const L=wd.bands[Math.min(n-1,band)].L;cap.textContent=`${L.id} · ${L.name||''}  ·  익힌 단어 ${seen.size.toLocaleString('en-US')}`;fxStep(now,true);f.raf=requestAnimationFrame(frame);return;}
+    // 다 쌓임: 피날레 불꽃, 깃발, 금빛 이름표(틀렸다가 잡은 단어)를 하나씩. 다 붙으면 대사로 넘어가고 불꽃은 가끔 계속 터진다.
+    if(!finaleAt){finaleAt=now;drawMini(true);scene(now);finale();lastFw=now+2800;labels=pickLabels();labelStart=now+(skip?0:1200);cap.textContent=f.capBase=`익힌 단어 ${seen.size.toLocaleString('en-US')}`;}
+    flag();
+    const due=(skip||now>=labelStart+2400)?labels.length:Math.max(0,Math.ceil((now-labelStart)/2400*labels.length));
+    while(shown<due){const lb=labels[shown++];if(!skip)sparkle(offX+lb[1],offY+lb[2],10);}
+    for(let i=0;i<shown;i++)label(labels[i]);
     if(f.building&&shown>=labels.length){f.building=false;f.skip=false;feNext();}
-    f.raf=requestAnimationFrame(frame);};
-  f.ov.querySelector('.fe-line').textContent=f.mode==='b1'?'0세트부터 B1 끝 25세트까지, 네가 익힌 순서대로 쌓아 보자고양.':'0세트부터 네가 익힌 순서대로 쌓아 보자고양. 끝까지 보라고양.';
+    if(!f.building)idle(now);
+    fxStep(now,true);f.raf=requestAnimationFrame(frame);};
+  f.ov.querySelector('.fe-line').textContent=f.mode==='b1'?'천릿길도 한 단어부터라고양. hello부터 B1 끝까지 다시 보자고양.':'천릿길도 한 단어부터라고양. hello부터 다시 보자고양.';
   f.raf=requestAnimationFrame(frame);
 }
 
