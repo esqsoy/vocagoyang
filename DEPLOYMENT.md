@@ -1,3 +1,15 @@
+# 아스트라 리뷰 카드 내용 32장 배포 · 2026-10-15
+
+- 커밋 [ee47230](https://github.com/esqsoy/vocagoyang/commit/ee47230)를 origin/main에 fast-forward로 푸시했다(b6f0896 다음, 배포 기록 4a22f14 포함). [Pages 38698857667](https://github.com/esqsoy/vocagoyang/actions/runs/38698857667) 성공.
+- 확인 방법: GitHub API로 main의 `index.html`과 세 과정 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 2c83188, 수능 bca774f, EBS 6d78b22, index f7665dc). github.io는 이 세션에서 열 수 없어 실제 공개 화면은 보지 못했다.
+- 포함: 아스트라 리뷰 카드 내용 32장(원장 `astra-content-20261015`, 필드 51곳). 동의어 안내 9장, 사실·뜻 정정 12장, 예문 정돈 11장. 받지 않은 3장(species·seller·insulting)과 아스트라 안과 다르게 한 곳은 WORK_LOG. 게임 코드는 바뀌지 않았다.
+- 배포 전 검사(ee47230에서 실행):
+  - 검사 45개(테스트 38 + 빌드 확인 7) 통과.
+  - ordercheck 앞당김 둘 이상 0, deepcheck A1~A5·A7 0·A8 1(전부터 있던 kinda), linecheck 360·390px 초과 0, exaudit 7장(전부터 있던 것).
+  - 실기기 Safari는 확인하지 않았다.
+
+---
+
 # 세트 완주 도장 · FABLE 엔딩 · 아스트라 리뷰 동작 결함 수정 배포 · 2026-10-15
 
 - 커밋 [b6f0896](https://github.com/esqsoy/vocagoyang/commit/b6f0896)를 origin/main에 fast-forward로 푸시했다(Codex 리뷰 b49e90d 다음, 069702f·229e46c·8a4f6d5·431b9cc 포함). [Pages 38671449637](https://github.com/esqsoy/vocagoyang/actions/runs/38671449637) 성공.
