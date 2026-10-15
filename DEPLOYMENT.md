@@ -1,3 +1,12 @@
+# FABLE 엔딩 빛·천천히·B1 큰 도장·미리보기 주소 배포 · 2026-10-15
+
+- 커밋 [23daa73](https://github.com/esqsoy/vocagoyang/commit/23daa73)를 origin/main에 fast-forward로 푸시했다. [Pages 38783532458](https://github.com/esqsoy/vocagoyang/actions/runs/38783532458) 성공.
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 33a3f6d, 수능 010e44e, EBS 1e87323, index f7665dc). github.io는 이 세션에서 열 수 없어 실제 공개 화면은 보지 못했다.
+- 포함: 엔딩 단어 산 천천히 쌓기·빛(빛살·불티·섬광, 산 몸통 어둡게), B1 1부 완결은 큰 도장, 미리보기 주소(#ending·#ending=b1·#stamp·#milestone) 열린 페이지에 붙여도 바로·대소문자 무관(세 교재 돌파 축하 포함), 발음 브라우저 검사 select 경합 해결.
+- 배포 전 검사(23daa73과 같은 내용에서 실행): 검사 45개, 발음 stamp·runtime·host·build·browser·browser-stamp 통과, Chromium 도장 흐름·미리보기 주소·엔딩 시간표 확인, 콘솔 오류 0. 실기기 Safari는 확인하지 않았다.
+
+---
+
 # 예외 발음 음원 + Opus 최신 변경 통합 배포 · 2026-10-15
 
 - 통합 커밋 [416be73](https://github.com/esqsoy/vocagoyang/commit/416be73)을 origin/main에 fast-forward로 푸시했다. 부모는 예외 음원 구현 `2115de7`과 Opus 최신 `ee47230`이다. [Pages 38713118742](https://github.com/esqsoy/vocagoyang/actions/runs/38713118742) 성공(2026-10-15 09:28:41 UTC 완료 확인).
