@@ -1643,3 +1643,11 @@
 - 받지 않은 것: species(Scientists think로 이미 추정임을 밝힘, 널리 인용되는 수치), seller·insulting(공통 동의어 대사가 이미 나옴, 해설을 늘리지 않음).
 - 아스트라 안과 다르게 한 것: span은 하루살이를 살려 Adult를 붙임, agriculture는 "taken from nature" 대신 "people use", underlying은 tilt 대신 lean(어휘 통제), arguably 해설은 기존 '논란의 여지가 있게가 아니다'를 살림, 동의어 문구는 기존 카드 문구에 맞춤.
 - 검증(새로 실행): ordercheck 합계 7838·557·0(앞당김 둘 이상 0), deepcheck A1~A5·A7 0, A6 16(전부터 있던 길이), A8 1(전부터 있던 kinda, furious·elaborate는 해설을 줄여 맞춤), linecheck 360·390px 문장·화면 초과 0(underlying 4줄을 줄임), exaudit 7장(전부터 있던 것, mayflies 포함), 검사 45개 통과.
+
+## 2026-10-15 · 아스트라 발음 예외 음원·통합(416be73·5b4ffee) 확인 · Opus
+
+- 요청: 영신 "아스트라 작업이 있었어 확인해줘!". main을 브랜치에 병합(DEPLOYMENT.md 두 기록 충돌만 시간순으로 풀었다).
+- 아스트라가 내 작업에 더한 것(검토 후 유지): 세트 복습 줄에 IPA를 실어 단일 IPA면 예외 음원 사용, 시트 닫기·새 게임에서 재생·지연 동작 취소, 마지막 도장 전 홈 경로 막대로 엔딩에 들어가던 우회 차단(feShow가 도장을 확인), 띄어쓰기 낀 구(in size)의 z/s 오자를 단어별로 판정, 빌더 CRLF 정규화. 모두 내 의도와 맞다.
+- 검증(새로 실행): 내 검사 45개 통과. 발음 runtime·host·build·stamp 통과, browser-stamp 통과, ipa-effects --check 통과. 도장·엔딩 브라우저 흐름(키보드·마우스·홈 시트·전체·B1·미리보기) 다시 돌려 오류 없음. assets/pronunciation 175 MP3·2.7MB(디스크 기준).
+- `pipeline/pronunciation-audio/browser.test.cjs`가 이 컨테이너에서 가끔 실패했다(10번 중 4번). 실패 순간을 찍어 보니 검사의 select()가 같은 게임 화면에서 openExercise를 다시 부를 때, 앞 카드의 자동 넘김 예약이 남아 새 판의 카드를 넘겨 버렸다(입력이 block 카드로 들어가 따라쓰기). 실제 학생은 다른 연습을 열려면 게임 화면을 떠나야 하고 그때 show()가 예약을 취소하므로 제품 결함이 아니라 검사의 경합으로 본다. 발음은 Codex 담당이라 고치지 않고 알린다(select 전에 ipaEffectCancelAdvance() 등으로 예약을 취소하면 된다).
+
