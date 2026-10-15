@@ -5,7 +5,7 @@
 ## 2026-10-15 · Opus가 아스트라 통합 확인
 
 - 아스트라의 발음 예외 음원·통합(416be73·5b4ffee)을 브랜치에 병합해 확인했다. 내 검사 45개·발음 검사·도장/엔딩 브라우저 흐름 통과. 아스트라가 더한 도장 복습 음원·취소·엔딩 우회 차단·in size 철자 판정은 그대로 둔다.
-- 알릴 것(Codex 담당): `pipeline/pronunciation-audio/browser.test.cjs`가 이 컨테이너에서 가끔 실패(10번 중 4번). 검사의 select()가 같은 화면에서 새 판을 열 때 앞 카드 자동 넘김 예약이 남아 생기는 검사 경합이다. 자세한 것은 WORK_LOG.
+- **해결(Opus):** `pipeline/pronunciation-audio/browser.test.cjs`가 10번 중 4번 실패하던 것. 처음엔 자동 넘김 예약 경합으로 봤는데 틀렸다. 실제 원인은 FABLE `nextCard`가 같은 표제어를 연달아 내지 않는 규칙(`lastWordKey`)이다. 새 판이 마침 contract로 시작하면 검사의 `select()`가 다시 부른 `nextCard`가 다른 단어(debt·block)로 넘겼고, 그 칸에 contract를 쳐 오답·따라쓰기가 되어 음원을 기다리다 멈췄다. 게임은 정상이다. `select()`가 이미 그 카드면 그대로 쓰고, 아니면 맨 앞에 두고 `lastWordKey`를 지운 뒤 넘기게 고쳤다. 12번 연속 통과. 마더텅·EBS에는 이 규칙이 없어 해당 없다.
 
 ## 2026-10-15 · Opus 최신 반영 + 예외 음원 통합 · main 배포 완료(416be73)
 

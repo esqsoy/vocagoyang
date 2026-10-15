@@ -22,7 +22,11 @@ async function select(page,file,term,ipa){
   if(li<0)throw new Error('No audio card: '+term);
   state.li=li;const ei=visEx(state.lessons[li]).findIndex(e=>e.words.some(matches));
   if(fable)openExercise(ei);else startExercise(ei);
-  const s=state.session,w=s.words.find(matches);s.queue=[w.id,...s.queue.filter(id=>id!==w.id)];nextCard();
+  // FABLE의 nextCard는 같은 표제어를 연달아 내지 않는다(lastWordKey). 새 판이 마침 이 카드로 시작했는데 다시 nextCard를 부르면
+  // 다른 단어로 넘어가 버려, 그 칸에 표제어를 치면 오답·따라쓰기가 되어 음원을 기다리다 멈췄다(26.10.15, 10번 중 4번).
+  // 이미 이 카드면 그대로 쓰고, 아니면 맨 앞에 두고 직전 표제어 기억을 지운 뒤 넘긴다.
+  const s=state.session,w=s.words.find(matches);
+  if(s.currentId!==w.id){s.queue=[w.id,...s.queue.filter(id=>id!==w.id)];s.lastWordKey=null;nextCard();}
   return {term:w.term,meaning:w.meaning,ipa:fable?w.ipa:pronunciationAudioInfo(w.term,w.meaning).ipa};
  },{file,term,ipa});
 }
