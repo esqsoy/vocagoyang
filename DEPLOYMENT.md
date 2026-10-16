@@ -1,3 +1,12 @@
+# FABLE 엔딩 메시지 단어 배포 · 2026-10-16
+
+- 커밋 [e6ffc6a](https://github.com/esqsoy/vocagoyang/commit/e6ffc6a)를 origin/main에 fast-forward로 푸시했다(f0382a1 다음). [Pages 38864755762](https://github.com/esqsoy/vocagoyang/actions/runs/38864755762) 성공(2026-10-16 07:03:50 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 3e836b9, 수능 010e44e, EBS 1e87323, index f7665dc). github.io는 이 세션에서 열지 않았다.
+- 포함: 메시지 단어 14개(`FE_MSG`)가 차례가 오면 위쪽에 아주 크게 멈췄다가 제자리로, 검사에 목록 단어 존재 확인 추가.
+- 배포 전 검사(e6ffc6a와 같은 내용에서 새로 실행): 검사 45개, 발음 browser-stamp·stamp 통과, Chromium 메시지 장면·흐름·동작 줄이기, 콘솔 오류 0.
+
+---
+
 # FABLE 엔딩 불꽃 축제 국룰 배포 · 2026-10-16
 
 - 커밋 [f0382a1](https://github.com/esqsoy/vocagoyang/commit/f0382a1)를 origin/main에 fast-forward로 푸시했다(3519aa6 다음). [Pages 38862619864](https://github.com/esqsoy/vocagoyang/actions/runs/38862619864) 성공(2026-10-16 06:42:10 UTC 완료 확인).

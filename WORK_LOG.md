@@ -1768,3 +1768,4 @@
 - 실측 예정 시각(전체): reading 0.3·good 1.6·study 2.9·practice 4.2·dream 5.5·progress 6.8·courage 8.1·challenge 9.4·champion 10.7·overcome 15.2·strive 23.6·persist 32.1·carry on 56.1·pay off 58.9초. B1: reading~courage 같은 간격, challenge 13.3·champion 21.0초.
 - 검사: `pipeline/tests/set-stamp.test.cjs`에 FE_MSG 단어가 모두 FABLE 표제어에 있는지 추가.
 - 검증(새로 실행): 검사 45개(set-stamp 새 검사 포함), 발음 browser-stamp·stamp 통과. Chromium 390×844: 메시지 단어가 멈춘 순간 스크린샷(study·practice·dream·courage·persist·carry on·pay off, B1 good·dream·champion), 실제 흐름(전체·B1), 동작 줄이기, 콘솔 오류 0.
+- 배포: e6ffc6a main fast-forward, Pages 38864755762 성공(2026-10-16 07:03:50 UTC), 네 HTML blob SHA 일치(FABLE 3e836b9).
