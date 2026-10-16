@@ -1,4 +1,4 @@
-From f3c611b3b293605a604eb77833c93517434c2749 Mon Sep 17 00:00:00 2001
+From 9bf8c231ed653341fec142c5fc3ced07087efd5c Mon Sep 17 00:00:00 2001
 From: Claude <noreply@anthropic.com>
 Date: Fri, 16 Oct 2026 14:03:57 +0000
 Subject: [PATCH] =?UTF-8?q?=EA=B0=9C=EC=84=A0=20=EB=B2=84=EC=A0=84=20?=
@@ -26,13 +26,13 @@ Claude-Session: https://claude.ai/code/session_01L3t3msS6whG3kxQTTwyKhB
 
 diff --git a/AGENTS.md b/AGENTS.md
 new file mode 100644
-index 0000000..2e19685
+index 0000000..6cd4b6f
 --- /dev/null
 +++ b/AGENTS.md
 @@ -0,0 +1,27 @@
 +# 주기율표 제로투 챌린지 작업 지침
 +
-+게임 소개와 지나온 길은 [README.md](README.md)에 있다. 이 문서는 이 저장소를 이어서 작업하는 사람·AI를 위한 지침이다. 형제 프로젝트 [보카고양](https://github.com/esqsoy/vocagoyang)에서 다섯 달 동안 다듬은 방식을 이 게임 크기에 맞게 줄였다. 각 규칙의 자세한 이유는 보카고양 저장소의 `PRINCIPLES.md`에 있다.
++게임 소개와 지나온 길은 [README.md](README.md)에 있다. 이 문서는 이 저장소를 이어서 작업하는 사람·AI를 위한 지침이다. 이 게임도 보카고양도 영신이 Claude와 대화하며 만들었다. 형제 프로젝트 [보카고양](https://github.com/esqsoy/vocagoyang)에서 다섯 달 동안 다듬은 방식을 이 게임 크기에 맞게 줄였다. 각 규칙의 자세한 이유는 보카고양 저장소의 `PRINCIPLES.md`에 있다.
 +
 +## 현재 상태 (2026-10-16)
 +
@@ -59,7 +59,7 @@ index 0000000..2e19685
 +- 보카고양 방식의 오답 따라쓰기와 회독(1회독은 전부, 2회독부터는 틀린 것만)을 넣을지 검토하기. 지금은 '연속 두 번 맞히기'와 엔딩 뒤 약점 복습이 이 역할을 한다.
 diff --git a/README.md b/README.md
 new file mode 100644
-index 0000000..49b5b9d
+index 0000000..ccae869
 --- /dev/null
 +++ b/README.md
 @@ -0,0 +1,52 @@
@@ -68,10 +68,10 @@ index 0000000..49b5b9d
 +원자번호를 보고 원소의 영문 이름을 치는 주기율표 암기 게임이다. 맞힐 때마다 도트 캐릭터가 춤추고, 그 원소의 보어 모형과 전자배치가 펼쳐진다. 118개를 다 채우면 화학의 여신이 나타난다.
 +
 +- 공개 주소: https://esqsoy.github.io/periodic-game/
-+- 만든 사람: 영신(일산 국어 교습소 STUDY1)
++- 만든 사람: 영신(일산 국어 교습소 STUDY1)과 Claude. Claude와 대화하며 만들었다.
 +- 설치나 빌드가 필요 없다. HTML 파일 하나에 코드·데이터·스프라이트가 모두 들어 있다.
 +
-+이 게임은 영신이 처음 만든 게임이다. 2주 뒤 영어 단어 게임 [보카고양](https://github.com/esqsoy/vocagoyang)을 만들었고, 오답 재출제·약점 복습·정답 시 보상 연출 같은 뼈대를 이 게임에서 가져갔다.
++이 게임은 영신이 Claude와 함께 처음 만든 게임이다. 2주 뒤 영어 단어 게임 [보카고양](https://github.com/esqsoy/vocagoyang)을 만들었고, 오답 재출제·약점 복습·정답 시 보상 연출 같은 뼈대를 이 게임에서 가져갔다.
 +
 +## 파일
 +
