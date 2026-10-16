@@ -390,8 +390,8 @@ function feBuild(){
     // 떠날 때는 빨리 작아지며 가운데를 비운다. 다음 단어가 겹치지 않게.
     if(e>fl.hold){const pp=Math.min(1,(e-fl.hold)/fl.fly),m=1-Math.pow(1-pp,2.4);x=sx+(tx-sx)*m;y=sy+(ty-sy)*m;sz=sz+(end-sz)*(1-Math.pow(1-pp,4));a=1-.3*pp;}
     const k=sz/100;ctx.setTransform(dpr*k,0,0,dpr*k,dpr*x,dpr*y);ctx.globalAlpha=a;
-    if(fl.slow>.2&&sz>12){ctx.shadowBlur=0;ctx.lineWidth=16;ctx.strokeStyle='rgba(16,6,30,.85)';ctx.strokeText(q.w.t,0,0);ctx.shadowColor=q.w.gold?'rgba(255,211,77,.8)':`rgba(${tint(wd.bands[q.i].L)},.75)`;ctx.shadowBlur=sz*.3*dpr;}else ctx.shadowBlur=0;
-    ctx.fillStyle=q.w.gold?'#ffd34d':'#ffffff';ctx.fillText(q.w.t,0,0);};
+    if(fl.slow>.2&&sz>12){ctx.shadowBlur=0;ctx.lineWidth=16;ctx.strokeStyle='rgba(16,6,30,.85)';ctx.strokeText(q.w.t,0,0);ctx.shadowColor=q.w.gold?'rgba(255,211,77,.8)':`rgba(${tint(wd.bands[q.i].L)},.55)`;ctx.shadowBlur=sz*.22*dpr;}else ctx.shadowBlur=0;
+    ctx.fillStyle=q.w.gold?'#ffd34d':shade(wd.bands[q.i].L,q.i);ctx.fillText(q.w.t,0,0);};   // 처음부터 산에 앉을 색(26.10.16 영신: "최종색과 맞춰도 보기 좋을 것 같아")
   const cap=f.ov.querySelector('.fe-cap'),t0=performance.now()+500;let next=0,band=0,finaleAt=0,labels=null,shown=0,labelStart=0;
   const finale=()=>{['rose','flower','peony','rose','flower','rose','peony','flower','rose','rose','flower','peony'].forEach((k,i)=>setTimeout(()=>{if(feState===f)launch(k,['rose','gold','lav','teal'][i%4],true);},i*230));};
   const pickLabels=()=>{const golds=seq.filter(q=>q.w.gold),pick=[],boxes=[],step=Math.max(1,Math.floor(golds.length/55));
