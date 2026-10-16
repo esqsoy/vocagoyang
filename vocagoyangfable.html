@@ -5789,21 +5789,21 @@ var FE_LINES={
     ['win','반짝이는 건 틀렸다가 끝내 잡은 단어라고양. 제일 빛나는 게 걔들이라고양.'],
     ['normal','처음 만났을 때 계약했지? 단어를 전부 익히면 이 도시에서 내보내 주겠다고양.'],
     ['win','약속은 약속이라고양. 계약 끝이라고양. 이제 어디든 가도 된다고양 ✦'],
-    ['wicked','…근데 있잖냐고양. 네가 오른 BIG MOUNTAIN, 사실은 일산이었다고양.','BIG MOUNTAIN'],
-    ['normal',"일산의 옛 이름은 한뫼, '큰 산'이라고양. 한자로 옮겨 적으니 一山이 된 거라고양.",'한뫼 → 一山 → 일산'],
-    ['win','넌 일산을 떠난 게 아니라, 원래 크기의 일산에 올라온 거라고양 🌳','한뫼 → 一山 → 일산'],
-    ['normal',"그리고 하나 더. 0세트에서 내가 말했지? '나는 고양이다. 이름은 아직 없다.'"],
-    ['sour','…그거 거짓말이라고양. 이름 있다고양.'],
-    ['blank','내 정체는… ㅇㅅㅊ…',null,'slow'],
-    ['wicked','…아니다고양. 못 들은 걸로 하라고양.'],
-    ['win','이건 완주 배지라고양. 잃어버려도 다시 안 준다고양. 잘 가라고양 🐾',null,'badge']],
+    ['wicked','…근데 있잖냐고양. 네가 오른 BIG MOUNTAIN, 사실은 일산이었다고양.','BIG MOUNTAIN',null,'up'],
+    ['normal',"일산의 옛 이름은 한뫼, '큰 산'이라고양. 한자로 옮겨 적으니 一山이 된 거라고양.",'한뫼 → 一山 → 일산',null,'hanja'],
+    ['win','넌 일산을 떠난 게 아니라, 원래 크기의 일산에 올라온 거라고양 🌳','한뫼 → 一山 → 일산',null,'ilsan'],
+    ['normal',"그리고 하나 더. 0세트에서 내가 말했지? '나는 고양이다. 이름은 아직 없다.'",null,null,'cat:normal'],
+    ['sour','…그거 거짓말이라고양. 이름 있다고양.',null,null,'cat:sour'],
+    ['blank','내 정체는… ㅇㅅㅊ…',null,'slow','ieung'],
+    ['wicked','…아니다고양. 못 들은 걸로 하라고양.',null,null,'panic'],
+    ['win','이건 완주 배지라고양. 잃어버려도 다시 안 준다고양. 잘 가라고양 🐾',null,'badge','land']],
   b1:[
     ['win','티끌 모아 반 태산이라고양 ㅋ 한 단어 한 단어가 쌓여서 여기까지 왔다고양.'],
     ['win','반짝이는 건 틀렸다가 끝내 잡은 단어라고양. 제일 빛나는 게 걔들이라고양.'],
     ['normal','B1까지, 1부 끝이라고양. 솔직히… 잘했다고양. 딱 한 번만 말한다고양.'],
-    ['wicked','근데 위쪽 점선 보이냐고양? 아직 아무도 안 쌓은 곳이라고양.'],
-    ['evil','내 정체가 궁금하면 꼭대기까지 오라고양. C1을 누르면 산이 열린다고양 😼'],
-    ['win','1부 도장 쾅이라고양. 배지는 꼭대기까지 와야 준다고양.',null,'badge']]
+    ['wicked','근데 위쪽 점선 보이냐고양? 아직 아무도 안 쌓은 곳이라고양.',null,null,'outline'],
+    ['evil','내 정체가 궁금하면 꼭대기까지 오라고양. C1을 누르면 산이 열린다고양 😼',null,null,'question'],
+    ['win','1부 도장 쾅이라고양. 배지는 꼭대기까지 와야 준다고양.',null,'badge','land']]
 };
 function feHeads(sets){const u=new Set();sets.forEach(L=>visEx(L).forEach(e=>e.words.forEach(w=>{const k=msHead(w);if(k)u.add(k);})));return u.size;}
 function feOpen(mode){
@@ -5836,6 +5836,7 @@ function feNext(){
   const el=f.ov.querySelector('.fe-line');f.full=text;
   if(kind==='slow'){el.textContent='';let i=0;f.ov.classList.add('glitch');f.typing=setInterval(()=>{el.textContent=text.slice(0,++i);if(i>=text.length){clearInterval(f.typing);f.typing=0;}},170);}
   else{el.textContent=text;f.ov.classList.remove('glitch');}
+  if(lines[f.step][4]&&f.drone)f.drone(lines[f.step][4]);
   if(kind==='badge')feBadge();
   f.ov.querySelector('.fe-hint').hidden=f.step>=lines.length-1;
 }
@@ -6013,7 +6014,58 @@ function feBuild(){
       if(lake){const ly=offY+lakeY;c.globalAlpha=.4;c.drawImage(spr('255,226,180'),x-5,ly+(ly-y)*.42-2,10,4);c.globalAlpha=1;}}
     for(let i=later.length-1;i>=0;i--)if(now>=later[i].t){const l=later.splice(i,1)[0];burst(l.sh);}
     stepParts(parts,c,dt,now,lake);c.globalCompositeOperation='source-over';
-    if(front.length||fgDirty){c=fctx;c.setTransform(FXR,0,0,FXR,0,0);c.clearRect(0,0,OW,OH);stepParts(front,c,dt,now,false);fgDirty=front.length>0;}};
+    if(front.length||fgDirty||dOn){c=fctx;c.setTransform(FXR,0,0,FXR,0,0);c.clearRect(0,0,OW,OH);stepParts(front,c,dt,now,false);const lit=dStep(c,now);fgDirty=front.length>0||lit;}};
+  /* 드론 쇼(26.10.16 영신: "이거 사실 하고 싶었는데 생각만 하고 있었어 !"). 일산호수공원 고양호수예술축제의 불꽃 드론처럼
+     호수에 꺼진 채 늘어선 650대(고양이 픽셀 그림 한 칸에 한 대)가 대사에 맞춰 떠올라 모양을 바꾼다.
+     전체: 떠오름 → 一山 → 일산 → 고양이 얼굴(표정도 대사를 따라) → ㅇㅅㅊ(지직) → 흩어졌다 시치미 뗀 얼굴 → 착륙.
+     B1: 위쪽 점선 윤곽을 따라 늘어섬 → '?' → 착륙. 드론이 떠 있는 동안 작은 불꽃은 쉰다. 좌표는 무대 기준(대사 줄 수가 바뀌어 무대가 움직여도 산과 맞게). */
+  const DN=650,drones=[];let dOn=false,dHold=false,dGlitch=false,dHomeSet=false;
+  for(let i=0;i<DN;i++)drones.push({x:0,y:0,sx:0,sy:0,tx:0,ty:0,t0:0,d:0,dur:1,rgb:'255,255,255',nrgb:'255,255,255',a:0,la:0,lit:0});
+  const dHome=()=>drones.forEach((d,i)=>{const r=((i*397)%DN)/DN;d.x=d.sx=d.tx=W*(.04+.92*r);d.y=d.sy=d.ty=lakeY+3+(i%3)*2.5;});
+  const skyBox=()=>{if(f.mode==='b1'){const [,ty]=toS(wd.cx,wd.top),[,by]=toS(wd.cx,wd.bands[n-1].y0),h=by-ty;return {x0:W*.24,y0:ty+h*.3,x1:W*.76,y1:by-h*.06};}
+    const [,py]=toS(wd.cx,wd.top),y1=py-18;let y0=Math.max(-offY+10,y1-170);if(y1-y0<90)y0=y1-90;return {x0:-offX+OW*.05,y0,x1:-offX+OW*.86,y1};};   // 오른쪽 위 ✕ 단추는 비운다
+  // 칠한 그림에서 점을 고른다: 칠한 넓이로 간격을 정해 DN개쯤
+  const maskPts=(box,draw)=>{const w=Math.max(8,Math.round(box.x1-box.x0)),h=Math.max(8,Math.round(box.y1-box.y0)),c=document.createElement('canvas');c.width=w;c.height=h;
+    const g=c.getContext('2d');draw(g,w,h);const im=g.getImageData(0,0,w,h).data;let area=0;for(let i=3;i<im.length;i+=4)if(im[i]>128)area++;
+    const st=Math.max(2,Math.sqrt(area/DN)),pts=[];for(let y=st/2;y<h;y+=st)for(let x=st/2;x<w;x+=st){const k=((y|0)*w+(x|0))*4;if(im[k+3]>128)pts.push([box.x0+x,box.y0+y,`${im[k]},${im[k+1]},${im[k+2]}`]);}return pts;};
+  const textPts=(txt,cols)=>maskPts(skyBox(),(g,w,h)=>{let sz=h*.92;g.font=`900 ${sz}px ${FONT}`;const tw=g.measureText(txt).width;if(tw>w*.9){sz*=w*.9/tw;g.font=`900 ${sz}px ${FONT}`;}
+    g.textAlign='center';g.textBaseline='middle';const gr=g.createLinearGradient(0,0,w,0);cols.forEach((c,i)=>gr.addColorStop(i/Math.max(1,cols.length-1),c));g.fillStyle=gr;g.fillText(txt,w/2,h/2);});
+  // 고양이 얼굴: 픽셀 그림(SVG 칸) 한 칸이 드론 한 대. 어두운 칸(테두리·눈)은 불을 끈 드론이라 눈이 까맣게 보인다.
+  const catPts=expr=>{const box=skyBox(),svg=atob((CAT[expr]||CAT.normal).split(',')[1]),vb=(/viewBox="0 0 (\d+) (\d+)"/.exec(svg)||[0,30,33]),W0=+vb[1],H0=+vb[2];
+    const cs=Math.min((box.x1-box.x0)/W0,(box.y1-box.y0)/H0),ox=(box.x0+box.x1)/2-W0*cs/2,oy=(box.y0+box.y1)/2-H0*cs/2,pts=[],re=/<rect x="(\d+)" y="(\d+)" width="(\d+)" height="(\d+)" fill="#([0-9a-fA-F]{6})"/g;let m;
+    while((m=re.exec(svg))){const r=parseInt(m[5].slice(0,2),16),g=parseInt(m[5].slice(2,4),16),b=parseInt(m[5].slice(4),16),dark=r+g+b<160;
+      for(let yy=0;yy<+m[4];yy++)for(let xx=0;xx<+m[3];xx++)pts.push([ox+(+m[1]+xx+.5)*cs,oy+(+m[2]+yy+.5)*cs,dark?null:`${r},${g},${b}`]);}return pts;};
+  const gridPts=()=>{const b=skyBox(),cols=Math.round(Math.sqrt(DN*(b.x1-b.x0)/(b.y1-b.y0))),rows=Math.ceil(DN/cols),pts=[];
+    for(let i=0;i<DN;i++){const cx=i%cols,cy=(i/cols)|0;pts.push([b.x0+(cx+.5)*(b.x1-b.x0)/cols,b.y0+(cy+.5)*(b.y1-b.y0)/rows,cy%2?'170,200,255':'255,255,255']);}return pts;};
+  const scatterPts=()=>{const b=skyBox(),C=['255,79,139','120,255,255','255,214,90','190,140,255','255,255,255'];return drones.map(()=>[b.x0+Math.random()*(b.x1-b.x0),b.y0-20+Math.random()*(b.y1-b.y0+40),pick(C)]);};
+  const outlinePts=()=>{const yB=wd.bands[n-1].y0,L=[];for(let y=yB;y>=wd.top;y-=2)L.push([wd.cx-wd.hl(y),y]);for(let y=wd.top;y<=yB;y+=2)L.push([wd.cx+wd.hr(y),y]);
+    const seg=[0];for(let i=1;i<L.length;i++)seg.push(seg[i-1]+Math.hypot(L[i][0]-L[i-1][0],L[i][1]-L[i-1][1]));const tot=seg[seg.length-1],pts=[];let j=0;
+    for(let i=0;i<DN;i++){const dd=tot*i/(DN-1);while(j<seg.length-2&&seg[j+1]<dd)j++;const u=(dd-seg[j])/Math.max(1e-6,seg[j+1]-seg[j]),[x,y]=toS(L[j][0]+(L[j+1][0]-L[j][0])*u,L[j][1]+(L[j+1][1]-L[j][1])*u);pts.push([x,y,i%7?'190,170,255':'255,255,255']);}return pts;};
+  const landPts=()=>drones.map((d,i)=>[W*(.04+.92*((i*397)%DN)/DN),lakeY+3+(i%3)*2.5,null]);
+  // 짝짓기: 지금 자리와 새 자리를 같은 순서(가로 우선)로 늘어놓고 차례로 잇는다. 같은 점 집합(표정만 바뀜)이면 제자리에서 색만 바뀐다.
+  const dForm=(pts,o={})=>{if(calm)return;if(!dHomeSet){dHome();dHomeSet=true;}dOn=true;const now=performance.now();
+    let P=pts.slice();if(P.length>DN){const k=P.length/DN;P=Array.from({length:DN},(_,i)=>P[Math.floor(i*k)]);}
+    while(P.length<DN){const q=P.length?P[(Math.random()*P.length)|0]:[W/2,0,null];P.push([q[0],q[1],null]);}
+    const key=p=>p[0]+p[1]*.37,D=drones.slice().sort((a,b)=>key([a.x,a.y])-key([b.x,b.y]));P.sort((a,b)=>key(a)-key(b));
+    D.forEach((d,i)=>{const p=P[i];d.sx=d.x;d.sy=d.y;d.tx=p[0];d.ty=p[1];d.t0=now;d.d=(o.stagger||350)*Math.random();d.dur=o.dur||1500;d.la=d.a;d.lit=p[2]?1:0;if(p[2])d.nrgb=p[2];});
+    dGlitch=!!o.glitch;};
+  f.drone=cmd=>{if(calm)return;dHold=cmd!=='land';
+    if(cmd==='up')dForm(gridPts(),{stagger:900,dur:1900});
+    else if(cmd==='hanja')dForm(textPts('一山',['#ffd34d','#fff1b8','#ffb347']),{dur:1600});
+    else if(cmd==='ilsan')dForm(textPts('일산',['#6fdcc6','#ffffff','#ff9ccb']),{dur:1600});
+    else if(cmd.startsWith('cat:'))dForm(catPts(cmd.slice(4)),{dur:1700});
+    else if(cmd==='ieung')dForm(textPts('ㅇㅅㅊ',['#78ffff','#ff5adc','#78ffff']),{dur:1300,glitch:true});
+    else if(cmd==='panic'){dForm(scatterPts(),{stagger:120,dur:520});setTimeout(()=>{if(feState===f&&dHold)dForm(catPts('wicked'),{stagger:250,dur:1100});},500);}
+    else if(cmd==='outline')dForm(outlinePts(),{stagger:1100,dur:1900});
+    else if(cmd==='question')dForm(textPts('?',['#ffd34d','#ff9ccb','#bba9ff']),{dur:1500});
+    else if(cmd==='land')dForm(landPts(),{stagger:500,dur:1500});};
+  const dStep=(c,now)=>{if(!dOn)return false;let any=false;c.globalCompositeOperation='lighter';
+    for(const d of drones){const u=Math.min(1,Math.max(0,(now-d.t0-d.d)/d.dur)),e=u<.5?4*u*u*u:1-Math.pow(-2*u+2,3)/2;
+      d.x=d.sx+(d.tx-d.sx)*e;d.y=d.sy+(d.ty-d.sy)*e;if(u>.45)d.rgb=d.nrgb;d.a=d.la+(d.lit-d.la)*Math.min(1,u*1.6);
+      if(d.a<.02)continue;any=true;let x=d.x+offX,y=d.y+offY,rgb=d.rgb;
+      if(dGlitch&&Math.random()<.05){x+=(Math.random()-.5)*12;rgb=Math.random()<.5?'255,90,220':'120,255,255';}
+      c.globalAlpha=d.a*(.82+.18*Math.sin(now*.005+d.tx*.3));c.drawImage(spr(rgb),x-2.4,y-2.4,4.8,4.8);}
+    c.globalAlpha=1;c.globalCompositeOperation='source-over';if(!any&&!dHold)dOn=false;return any;};
   // 산 그림: 다 내려앉은 단어(world)를 무대 크기로 줄여 둔다. 호수에는 산이 거꾸로 비친다.
   const mini=document.createElement('canvas');mini.width=cv.width;mini.height=cv.height;const mc=mini.getContext('2d');let miniAt=-1e9,landedTop=wd.base,dr0=null,bodyTop=null;
   const MT=[dpr*fit,0,0,dpr*fit,dpr*(W/2-wd.cx*fit),dpr*(lakeY-2-wd.base*fit)];
@@ -6068,7 +6120,7 @@ function feBuild(){
   const flag=()=>{const [fx,fy0]=toS(wd.cx,bodyTop),fy=fy0+1.5;ctx.save();ctx.setTransform(dpr,0,0,dpr,0,0);
     ctx.strokeStyle='#f6f1ff';ctx.lineWidth=1.6;ctx.beginPath();ctx.moveTo(fx,fy+2);ctx.lineTo(fx,fy-24);ctx.stroke();
     ctx.fillStyle='#ffd34d';ctx.shadowColor='rgba(255,211,77,.8)';ctx.shadowBlur=8;ctx.beginPath();ctx.moveTo(fx,fy-24);ctx.lineTo(fx+17,fy-19);ctx.lineTo(fx,fy-14);ctx.closePath();ctx.fill();ctx.restore();};
-  const idle=now=>{if(now-lastFw>600+Math.random()*400){show(Math.random()<.55);lastFw=now;}};
+  const idle=now=>{if(dHold)return;if(now-lastFw>600+Math.random()*400){show(Math.random()<.55);lastFw=now;}};
   const frame=now=>{
     if(!feState||feState!==f)return;
     place();
@@ -6085,7 +6137,7 @@ function feBuild(){
     // 한 층이 다 차면 호수에서 불꽃 한 발(0.45초에 한 발까지만)
     let up=false;while(band<n&&cnt[band]>=need[band]){band++;up=true;}
     if(up&&!skip&&now-lastFw>450){const L=wd.bands[Math.max(0,band-1)].L;launch(KINDS[band%KINDS.length],L.lesson>=46?'teal':L.lesson>B1_LAST?'rose':'lav',band%4===0);lastFw=now;}
-    else if(!skip&&now-lastFw>650+Math.random()*450){show(Math.random()<.45);lastFw=now;}   // 느린 후반에도 하늘이 비지 않게
+    else if(!skip&&(next<N||flyers.length)&&now-lastFw>650+Math.random()*450){show(Math.random()<.45);lastFw=now;}   // 쌓는 동안만: 느린 후반에도 하늘이 비지 않게(다 쌓은 뒤는 idle이 맡는다)
     if(next<N||flyers.length){const L=wd.bands[Math.min(n-1,band)].L;cap.textContent=`${L.id} · ${L.name||''}  ·  익힌 단어 ${seen.size.toLocaleString('en-US')}`;fxStep(now,true);f.raf=requestAnimationFrame(frame);return;}
     // 다 쌓임: 피날레 불꽃, 깃발, 금빛 이름표(틀렸다가 잡은 단어)를 하나씩. 다 붙으면 대사로 넘어가고 불꽃은 가끔 계속 터진다.
     if(!finaleAt){finaleAt=now;bodyTop=f.mode==='b1'?landedTop-14:wd.top;drawMini(true);scene(now);finale();lastFw=now+7200;labels=pickLabels();labelStart=now+(skip?0:1200);cap.textContent=f.capBase=`익힌 단어 ${seen.size.toLocaleString('en-US')}`;}
