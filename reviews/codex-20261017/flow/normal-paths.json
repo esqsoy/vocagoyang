@@ -1,0 +1,72 @@
+[
+  {
+    "mode": "b1",
+    "before": {
+      "review": "sum",
+      "count": 1,
+      "ending": false,
+      "ticker": false,
+      "screen": "sumScreen"
+    },
+    "stamp": {
+      "ending": false,
+      "stamp": "25세트 완주 도장",
+      "ticker": false
+    },
+    "opened": {
+      "mode": "b1",
+      "step": -1,
+      "building": true,
+      "ticker": false,
+      "stamp": false
+    },
+    "final": {
+      "mode": "b1",
+      "step": 5,
+      "badge": true,
+      "c1": true,
+      "ticker": false
+    },
+    "closed": {
+      "ending": false,
+      "ticker": false,
+      "screen": "sumScreen"
+    },
+    "errors": []
+  },
+  {
+    "mode": "full",
+    "before": {
+      "review": "sum",
+      "count": 1,
+      "ending": false,
+      "ticker": false,
+      "screen": "sumScreen"
+    },
+    "stamp": {
+      "ending": false,
+      "stamp": "50세트 완주 도장",
+      "ticker": false
+    },
+    "opened": {
+      "mode": "full",
+      "step": -1,
+      "building": true,
+      "ticker": false,
+      "stamp": false
+    },
+    "final": {
+      "mode": "full",
+      "step": 11,
+      "badge": true,
+      "c1": false,
+      "ticker": false
+    },
+    "closed": {
+      "ending": false,
+      "ticker": false,
+      "screen": "sumScreen"
+    },
+    "errors": []
+  }
+]

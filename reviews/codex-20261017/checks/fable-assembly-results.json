@@ -1,0 +1,54 @@
+{
+  "root": "C:\\Users\\Young\\Documents\\Codex\\2026-09-18\\new-chat\\work\\review-20261017\\repo",
+  "appWritesPerformed": 0,
+  "capturedWrites": [
+    {
+      "path": "pipeline/out/set46.json",
+      "textEqualAfterUniversalNewlines": true,
+      "semanticEqual": true,
+      "sha256": "cd52ed1dc3f1f79ba25600d53e0f80f1c1cbed691bd8db7b342ef8435b3d7057"
+    },
+    {
+      "path": "pipeline/out/set47.json",
+      "textEqualAfterUniversalNewlines": true,
+      "semanticEqual": true,
+      "sha256": "0091248393917b7978304e63703662fbf8f4462217a630fb2d27c02a60396199"
+    },
+    {
+      "path": "pipeline/out/set48.json",
+      "textEqualAfterUniversalNewlines": true,
+      "semanticEqual": true,
+      "sha256": "9fdbfae5266f625d1cd582f853b12d6376284f5a4b718093ffd7f81a9c59fd02"
+    },
+    {
+      "path": "pipeline/out/set49.json",
+      "textEqualAfterUniversalNewlines": true,
+      "semanticEqual": true,
+      "sha256": "2dea55ae9daf15fffe3fe7db16e51a0258c2ffa2576248b0e71a3bb47290fb07"
+    },
+    {
+      "path": "pipeline/out/set50.json",
+      "textEqualAfterUniversalNewlines": true,
+      "semanticEqual": true,
+      "sha256": "048fc51ae9d393e2ab169bbb5d8e039aa4635b7ca89a295a5ed9308cbb672bc2"
+    },
+    {
+      "path": "vocagoyangfable.html",
+      "textEqualAfterUniversalNewlines": true,
+      "semanticEqual": true,
+      "sha256": "f247f8ba21e10a8b71c134da347af5e6740b76022b633b0973936be6c7e42e6d"
+    }
+  ],
+  "subprocesses": [
+    {
+      "args": [
+        "node",
+        "C:\\Users\\Young\\Documents\\Codex\\2026-09-18\\new-chat\\work\\review-20261017\\repo\\pipeline\\index-stats.cjs"
+      ],
+      "executed": false,
+      "reason": "The regression driver independently runs index-stats.cjs --check."
+    }
+  ],
+  "stdout": "{\"sets\": 51, \"sourceGroups\": 678, \"cards\": 8497, \"morphologyUnits\": 146}\n",
+  "pass": true
+}

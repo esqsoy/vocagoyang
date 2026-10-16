@@ -1,0 +1,113 @@
+[
+  {
+    "case": "last-row-mp3-through-stamp",
+    "fixture": {
+      "set": "28세트",
+      "lesson": 28,
+      "term": "legitimate",
+      "ipas": [
+        "lɪˈdʒɪtəmət"
+      ],
+      "rowIPA": "lɪˈdʒɪtəmət",
+      "duration": 1.625,
+      "src": "assets/pronunciation/legitimate-adjective.mp3?v=917140340d5f"
+    },
+    "actualMP3": true,
+    "result": {
+      "audio": [
+        {
+          "id": 0,
+          "type": "playing",
+          "src": "http://127.0.0.1:54211/assets/pronunciation/legitimate-adjective.mp3?v=917140340d5f",
+          "at": 1397.9000000357628
+        },
+        {
+          "id": 0,
+          "type": "pause",
+          "src": "http://127.0.0.1:54211/assets/pronunciation/legitimate-adjective.mp3?v=917140340d5f",
+          "at": 4378.400000035763
+        },
+        {
+          "id": 0,
+          "type": "ended",
+          "src": "http://127.0.0.1:54211/assets/pronunciation/legitimate-adjective.mp3?v=917140340d5f",
+          "at": 4378.5
+        }
+      ],
+      "tts": [],
+      "sheetOpen": false,
+      "remainingRows": 0,
+      "stamped": true,
+      "ownerReleased": true
+    },
+    "requests": [
+      "http://127.0.0.1:54211/assets/pronunciation/legitimate-adjective.mp3?v=917140340d5f"
+    ]
+  },
+  {
+    "case": "manual-close-cancels-last-row",
+    "fixture": {
+      "set": "28세트",
+      "lesson": 28,
+      "term": "legitimate",
+      "ipas": [
+        "lɪˈdʒɪtəmət"
+      ],
+      "rowIPA": "lɪˈdʒɪtəmət",
+      "duration": 1.625,
+      "src": "assets/pronunciation/legitimate-adjective.mp3?v=917140340d5f"
+    },
+    "immediate": {
+      "ownerReleased": true,
+      "paused": true,
+      "sheetOpen": false,
+      "reviewCleared": true
+    },
+    "after": {
+      "playing": 1,
+      "ended": 0,
+      "tts": [],
+      "stampCount": 0,
+      "stamped": false,
+      "ownerReleased": true
+    }
+  },
+  {
+    "case": "multiple-ipa-keeps-tts",
+    "fixture": {
+      "set": "10세트",
+      "lesson": 10,
+      "term": "contract",
+      "ipas": [
+        "ˈkɑntrækt",
+        "kənˈtrækt"
+      ],
+      "rowIPA": "",
+      "duration": 1.55,
+      "src": "assets/pronunciation/contract-noun.mp3?v=140f6e2c3704"
+    },
+    "result": {
+      "audio": [],
+      "tts": [
+        {
+          "text": "contract",
+          "at": 1942.300000011921
+        }
+      ],
+      "ownerReleased": true
+    }
+  },
+  {
+    "case": "ordinary-review-manual-next-race",
+    "immediate": {
+      "exercise": 1,
+      "title": "Exercise 2 · 그·우리·그들과 대답"
+    },
+    "after": {
+      "exercise": 1,
+      "title": "Exercise 2 · 그·우리·그들과 대답",
+      "sameSession": true,
+      "screen": "gameScreen"
+    }
+  }
+]

@@ -1,0 +1,451 @@
+{
+  "full": {
+    "N": 6531,
+    "T": 60000,
+    "tau": 14925.724274721862,
+    "r0": 445.5667056278716,
+    "R": 0.9727860178186014,
+    "missing": [],
+    "messages": [
+      {
+        "term": "reading",
+        "set": 0,
+        "seqIndex": 115,
+        "naturalMs": 260,
+        "messageMs": 1000,
+        "gapMs": null
+      },
+      {
+        "term": "positive",
+        "set": 0,
+        "seqIndex": 198,
+        "naturalMs": 451,
+        "messageMs": 3746,
+        "gapMs": 2746
+      },
+      {
+        "term": "good",
+        "set": 1,
+        "seqIndex": 221,
+        "naturalMs": 504,
+        "messageMs": 6417,
+        "gapMs": 2671
+      },
+      {
+        "term": "believe",
+        "set": 2,
+        "seqIndex": 374,
+        "naturalMs": 864,
+        "messageMs": 9015,
+        "gapMs": 2598
+      },
+      {
+        "term": "hope",
+        "set": 2,
+        "seqIndex": 406,
+        "naturalMs": 940,
+        "messageMs": 11543,
+        "gapMs": 2528
+      },
+      {
+        "term": "study",
+        "set": 3,
+        "seqIndex": 527,
+        "naturalMs": 1232,
+        "messageMs": 14002,
+        "gapMs": 2459
+      },
+      {
+        "term": "opportunity",
+        "set": 4,
+        "seqIndex": 647,
+        "naturalMs": 1528,
+        "messageMs": 16394,
+        "gapMs": 2392
+      },
+      {
+        "term": "practice",
+        "set": 6,
+        "seqIndex": 804,
+        "naturalMs": 1923,
+        "messageMs": 18720,
+        "gapMs": 2327
+      },
+      {
+        "term": "imagine",
+        "set": 7,
+        "seqIndex": 942,
+        "naturalMs": 2280,
+        "messageMs": 20984,
+        "gapMs": 2264
+      },
+      {
+        "term": "dream",
+        "set": 8,
+        "seqIndex": 981,
+        "naturalMs": 2382,
+        "messageMs": 23186,
+        "gapMs": 2202
+      },
+      {
+        "term": "discover",
+        "set": 8,
+        "seqIndex": 1058,
+        "naturalMs": 2586,
+        "messageMs": 25328,
+        "gapMs": 2142
+      },
+      {
+        "term": "strength",
+        "set": 10,
+        "seqIndex": 1256,
+        "naturalMs": 3124,
+        "messageMs": 27411,
+        "gapMs": 2084
+      },
+      {
+        "term": "progress",
+        "set": 10,
+        "seqIndex": 1306,
+        "naturalMs": 3263,
+        "messageMs": 29438,
+        "gapMs": 2027
+      },
+      {
+        "term": "adventure",
+        "set": 15,
+        "seqIndex": 1903,
+        "naturalMs": 5031,
+        "messageMs": 31410,
+        "gapMs": 1972
+      },
+      {
+        "term": "wisdom",
+        "set": 16,
+        "seqIndex": 1966,
+        "naturalMs": 5231,
+        "messageMs": 33328,
+        "gapMs": 1918
+      },
+      {
+        "term": "courage",
+        "set": 17,
+        "seqIndex": 2120,
+        "naturalMs": 5729,
+        "messageMs": 35194,
+        "gapMs": 1866
+      },
+      {
+        "term": "challenge",
+        "set": 21,
+        "seqIndex": 2687,
+        "naturalMs": 7725,
+        "messageMs": 37010,
+        "gapMs": 1815
+      },
+      {
+        "term": "hero",
+        "set": 24,
+        "seqIndex": 2998,
+        "naturalMs": 8945,
+        "messageMs": 38775,
+        "gapMs": 1766
+      },
+      {
+        "term": "champion",
+        "set": 24,
+        "seqIndex": 3045,
+        "naturalMs": 9138,
+        "messageMs": 40493,
+        "gapMs": 1718
+      },
+      {
+        "term": "passion",
+        "set": 25,
+        "seqIndex": 3149,
+        "naturalMs": 9575,
+        "messageMs": 42164,
+        "gapMs": 1671
+      },
+      {
+        "term": "inspire",
+        "set": 34,
+        "seqIndex": 4235,
+        "naturalMs": 15117,
+        "messageMs": 43790,
+        "gapMs": 1626
+      },
+      {
+        "term": "overcome",
+        "set": 34,
+        "seqIndex": 4242,
+        "naturalMs": 15160,
+        "messageMs": 45371,
+        "gapMs": 1581
+      },
+      {
+        "term": "breakthrough",
+        "set": 37,
+        "seqIndex": 4664,
+        "naturalMs": 18036,
+        "messageMs": 46909,
+        "gapMs": 1538
+      },
+      {
+        "term": "triumph",
+        "set": 37,
+        "seqIndex": 4671,
+        "naturalMs": 18088,
+        "messageMs": 48406,
+        "gapMs": 1496
+      },
+      {
+        "term": "resilience",
+        "set": 39,
+        "seqIndex": 4949,
+        "naturalMs": 20347,
+        "messageMs": 49861,
+        "gapMs": 1456
+      },
+      {
+        "term": "extraordinary",
+        "set": 40,
+        "seqIndex": 5105,
+        "naturalMs": 21782,
+        "messageMs": 51277,
+        "gapMs": 1416
+      },
+      {
+        "term": "strive",
+        "set": 41,
+        "seqIndex": 5286,
+        "naturalMs": 23642,
+        "messageMs": 52655,
+        "gapMs": 1378
+      },
+      {
+        "term": "soar",
+        "set": 44,
+        "seqIndex": 5645,
+        "naturalMs": 28199,
+        "messageMs": 53995,
+        "gapMs": 1340
+      },
+      {
+        "term": "persist",
+        "set": 45,
+        "seqIndex": 5875,
+        "naturalMs": 32076,
+        "messageMs": 55298,
+        "gapMs": 1304
+      },
+      {
+        "term": "vision",
+        "set": 48,
+        "seqIndex": 6254,
+        "naturalMs": 42090,
+        "messageMs": 56566,
+        "gapMs": 1268
+      },
+      {
+        "term": "carry on",
+        "set": 50,
+        "seqIndex": 6495,
+        "naturalMs": 56067,
+        "messageMs": 57800,
+        "gapMs": 1234
+      },
+      {
+        "term": "pay off",
+        "set": 50,
+        "seqIndex": 6522,
+        "naturalMs": 58915,
+        "messageMs": 59000,
+        "gapMs": 1200
+      }
+    ]
+  },
+  "b1": {
+    "N": 3184,
+    "T": 30000,
+    "tau": 7524.397233547812,
+    "r0": 431.1568192338405,
+    "R": 0.9782205309370382,
+    "missing": [
+      "inspire",
+      "overcome",
+      "breakthrough",
+      "triumph",
+      "resilience",
+      "extraordinary",
+      "strive",
+      "soar",
+      "persist",
+      "vision",
+      "carry on",
+      "pay off"
+    ],
+    "messages": [
+      {
+        "term": "reading",
+        "set": 0,
+        "seqIndex": 115,
+        "naturalMs": 272,
+        "messageMs": 1000,
+        "gapMs": null
+      },
+      {
+        "term": "positive",
+        "set": 0,
+        "seqIndex": 198,
+        "naturalMs": 474,
+        "messageMs": 2784,
+        "gapMs": 1784
+      },
+      {
+        "term": "good",
+        "set": 1,
+        "seqIndex": 221,
+        "naturalMs": 531,
+        "messageMs": 4529,
+        "gapMs": 1745
+      },
+      {
+        "term": "believe",
+        "set": 2,
+        "seqIndex": 374,
+        "naturalMs": 922,
+        "messageMs": 6235,
+        "gapMs": 1707
+      },
+      {
+        "term": "hope",
+        "set": 2,
+        "seqIndex": 406,
+        "naturalMs": 1006,
+        "messageMs": 7905,
+        "gapMs": 1670
+      },
+      {
+        "term": "study",
+        "set": 3,
+        "seqIndex": 527,
+        "naturalMs": 1334,
+        "messageMs": 9538,
+        "gapMs": 1633
+      },
+      {
+        "term": "opportunity",
+        "set": 4,
+        "seqIndex": 647,
+        "naturalMs": 1674,
+        "messageMs": 11136,
+        "gapMs": 1598
+      },
+      {
+        "term": "practice",
+        "set": 6,
+        "seqIndex": 804,
+        "naturalMs": 2143,
+        "messageMs": 12699,
+        "gapMs": 1563
+      },
+      {
+        "term": "imagine",
+        "set": 7,
+        "seqIndex": 942,
+        "naturalMs": 2581,
+        "messageMs": 14228,
+        "gapMs": 1529
+      },
+      {
+        "term": "dream",
+        "set": 8,
+        "seqIndex": 981,
+        "naturalMs": 2709,
+        "messageMs": 15723,
+        "gapMs": 1496
+      },
+      {
+        "term": "discover",
+        "set": 8,
+        "seqIndex": 1058,
+        "naturalMs": 2970,
+        "messageMs": 17187,
+        "gapMs": 1463
+      },
+      {
+        "term": "strength",
+        "set": 10,
+        "seqIndex": 1256,
+        "naturalMs": 3684,
+        "messageMs": 18618,
+        "gapMs": 1431
+      },
+      {
+        "term": "progress",
+        "set": 10,
+        "seqIndex": 1306,
+        "naturalMs": 3876,
+        "messageMs": 20018,
+        "gapMs": 1400
+      },
+      {
+        "term": "adventure",
+        "set": 15,
+        "seqIndex": 1903,
+        "naturalMs": 6646,
+        "messageMs": 21387,
+        "gapMs": 1369
+      },
+      {
+        "term": "wisdom",
+        "set": 16,
+        "seqIndex": 1966,
+        "naturalMs": 7008,
+        "messageMs": 22727,
+        "gapMs": 1340
+      },
+      {
+        "term": "courage",
+        "set": 17,
+        "seqIndex": 2120,
+        "naturalMs": 7974,
+        "messageMs": 24037,
+        "gapMs": 1310
+      },
+      {
+        "term": "challenge",
+        "set": 21,
+        "seqIndex": 2687,
+        "naturalMs": 13256,
+        "messageMs": 25319,
+        "gapMs": 1282
+      },
+      {
+        "term": "hero",
+        "set": 24,
+        "seqIndex": 2998,
+        "naturalMs": 19402,
+        "messageMs": 26573,
+        "gapMs": 1254
+      },
+      {
+        "term": "champion",
+        "set": 24,
+        "seqIndex": 3045,
+        "naturalMs": 20996,
+        "messageMs": 27800,
+        "gapMs": 1227
+      },
+      {
+        "term": "passion",
+        "set": 25,
+        "seqIndex": 3149,
+        "naturalMs": 26551,
+        "messageMs": 29000,
+        "gapMs": 1200
+      }
+    ]
+  }
+}
