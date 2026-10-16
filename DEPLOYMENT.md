@@ -1,3 +1,12 @@
+# FABLE 엔딩 전통 불꽃·겹겹이 배포 · 2026-10-16
+
+- 커밋 [a1feecd](https://github.com/esqsoy/vocagoyang/commit/a1feecd)를 origin/main에 fast-forward로 푸시했다(db5f9ee 다음, 배포 기록 95a2c3e 포함). [Pages 38856259389](https://github.com/esqsoy/vocagoyang/actions/runs/38856259389) 성공(2026-10-16 05:34:08 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 3ec0060, 수능 010e44e, EBS 1e87323, index f7665dc). github.io는 이 세션에서 열지 않았다.
+- 포함: 전통 불꽃(국화·모란·겹국화·버드나무) 열에 일곱, 같은 자리 두 번 터짐, 더 잦은 일제 사격, 약 6초 쉰 발 남짓 피날레, 알갱이 상한 6,500/9,000.
+- 배포 전 검사(a1feecd와 같은 내용에서 새로 실행): 검사 45개, 발음 browser-stamp·stamp 통과, Chromium 전체·B1 흐름, Q=1 고정 피날레 스크린샷, 동작 줄이기, 콘솔 오류 0. 실기기는 영신 확인 대기.
+
+---
+
 # FABLE 엔딩 불꽃 아낌없이 배포 · 2026-10-16
 
 - 커밋 [db5f9ee](https://github.com/esqsoy/vocagoyang/commit/db5f9ee)를 origin/main에 fast-forward로 푸시했다(1db57d5 다음, 배포 기록 00d16dd 포함). [Pages 38841915836](https://github.com/esqsoy/vocagoyang/actions/runs/38841915836) 성공(2026-10-16 02:44:33 UTC 완료 확인).
