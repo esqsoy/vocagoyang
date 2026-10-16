@@ -1,3 +1,12 @@
+# FABLE 엔딩 메시지 단어 32개 배포 · 2026-10-16
+
+- 커밋 [e076a64](https://github.com/esqsoy/vocagoyang/commit/e076a64)를 origin/main에 fast-forward로 푸시했다(9cfe73a 다음). [Pages 38874071187](https://github.com/esqsoy/vocagoyang/actions/runs/38874071187) 성공(2026-10-16 08:30:45 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE c5a3689, 수능 010e44e, EBS 1e87323, index f7665dc). github.io는 이 세션에서 열지 않았다.
+- 포함: 메시지 단어 32개(B1 20개), 마지막 간격 1.2초가 되게 줄어드는 비율을 단어 수에서 풂.
+- 배포 전 검사(e076a64와 같은 내용에서 새로 실행): 검사 45개, 발음 browser-stamp·stamp 통과, Chromium 메시지 시간표·장면·흐름·동작 줄이기, 콘솔 오류 0.
+
+---
+
 # FABLE 엔딩 산 틈·메시지 간격 배포 · 2026-10-16
 
 - 커밋 [9cfe73a](https://github.com/esqsoy/vocagoyang/commit/9cfe73a)를 origin/main에 fast-forward로 푸시했다(e6ffc6a 다음). [Pages 38872970710](https://github.com/esqsoy/vocagoyang/actions/runs/38872970710) 성공(2026-10-16 08:20:45 UTC 완료 확인).

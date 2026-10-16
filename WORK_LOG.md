@@ -1785,3 +1785,4 @@
 - FABLE 표제어에서 후보 약 200개를 배운 순서와 함께 뽑아(Chromium에서 visEx 순회) 32개를 골랐다: reading·positive·good·believe·hope·study·opportunity·practice·imagine·dream·discover·strength·progress·adventure·wisdom·courage·challenge·hero·champion·passion·inspire·overcome·breakthrough·triumph·resilience·extraordinary·strive·soar·persist·vision·carry on·pay off. B1은 passion까지 20개.
 - 시간표: 마지막 간격이 1.2초가 되게 줄어드는 비율을 단어 수에서 이분법으로 푼다(전체 R≈0.97, 간격 2.7 → 1.2초, 59초에 pay off. B1 1.8 → 1.2초, 29초에 passion).
 - 검증(새로 실행): 검사 45개(FE_MSG 32개 모두 FABLE에 있음), 발음 browser-stamp·stamp 통과. Chromium 390×844: 메시지 시간표 로그(전체 32·B1 20), 멈춘 순간 스크린샷(positive·courage·hero·triumph·soar, B1 passion), 실제 흐름(전체·B1), 동작 줄이기, 콘솔 오류 0.
+- 배포: e076a64 main fast-forward, Pages 38874071187 성공(2026-10-16 08:30:45 UTC), 네 HTML blob SHA 일치(FABLE c5a3689).
