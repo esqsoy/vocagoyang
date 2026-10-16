@@ -1777,3 +1777,11 @@
 - 반영(`pipeline/set-stamp/runtime.js`): 넓이를 실제 글자 폭으로 세고, 층마다 0.6~1.4배에서 맞는 가장 큰 배율을 이분법으로 찾아 채운다(`fillBand`). 결과: 남는 줄 최대 1.5줄(50세트 꼭짓점 근처뿐), 배율 0.96~1.18, 못 놓은 단어 0. 산 크기 계산 여유 0.8 → 0.9.
 - 메시지 시간표: 첫 1초 → 마지막 끝 1초 전, 간격 0.82배씩 감소. 전체 1.0·12.3·21.6·29.2·35.4·40.5·44.7·48.1·50.9·53.2·55.1·56.7·58.0·59.2초, B1 1.0·7.3·12.5·16.8·20.3·23.1·25.5·27.4·29.0초. 제 차례보다 앞당기지 않음, 멈춤은 다음 메시지까지 남는 시간 안에서 0.7~1.1초.
 - 검증(새로 실행): 검사 45개, 발음 browser-stamp·stamp 통과. Chromium 390×844: 다 쌓인 산 정지 화면(전체·B1, 검은 띠 없음), 메시지 시간표 로그(전체·B1)와 멈춘 순간 스크린샷, 실제 흐름(전체·B1), B1 드론 '?', 동작 줄이기, 콘솔 오류 0.
+- 배포: 9cfe73a main fast-forward, Pages 38872970710 성공(2026-10-16 08:20:45 UTC), 네 HTML blob SHA 일치(FABLE ef4a50a).
+
+## 2026-10-16 · 엔딩 메시지 단어 32개
+
+- 영신: "멋진 단어를 많이 뽑자구! positive 같은거나 courage 등등".
+- FABLE 표제어에서 후보 약 200개를 배운 순서와 함께 뽑아(Chromium에서 visEx 순회) 32개를 골랐다: reading·positive·good·believe·hope·study·opportunity·practice·imagine·dream·discover·strength·progress·adventure·wisdom·courage·challenge·hero·champion·passion·inspire·overcome·breakthrough·triumph·resilience·extraordinary·strive·soar·persist·vision·carry on·pay off. B1은 passion까지 20개.
+- 시간표: 마지막 간격이 1.2초가 되게 줄어드는 비율을 단어 수에서 이분법으로 푼다(전체 R≈0.97, 간격 2.7 → 1.2초, 59초에 pay off. B1 1.8 → 1.2초, 29초에 passion).
+- 검증(새로 실행): 검사 45개(FE_MSG 32개 모두 FABLE에 있음), 발음 browser-stamp·stamp 통과. Chromium 390×844: 메시지 시간표 로그(전체 32·B1 20), 멈춘 순간 스크린샷(positive·courage·hero·triumph·soar, B1 passion), 실제 흐름(전체·B1), 동작 줄이기, 콘솔 오류 0.
