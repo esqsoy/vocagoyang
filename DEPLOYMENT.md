@@ -1,3 +1,12 @@
+# FABLE 엔딩 불꽃 아낌없이 배포 · 2026-10-16
+
+- 커밋 [db5f9ee](https://github.com/esqsoy/vocagoyang/commit/db5f9ee)를 origin/main에 fast-forward로 푸시했다(1db57d5 다음, 배포 기록 00d16dd 포함). [Pages 38841915836](https://github.com/esqsoy/vocagoyang/actions/runs/38841915836) 성공(2026-10-16 02:44:33 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 07bf62b, 수능 010e44e, EBS 1e87323, index f7665dc). 바뀐 공개 파일은 FABLE 하나다. github.io는 이 세션에서 열지 않았다.
+- 포함: 엔딩 불꽃을 화면 밖까지 크게, 여섯 모양(장미·꽃·국화·황금 버드나무·고리·갈라지는 별)과 반짝이, 일제 사격, 약 4초 서른 발 남짓 피날레, 대사·배지 동안에도. 번쩍임은 작고 짧게, 기기가 버거우면 알갱이 수 자동 축소.
+- 배포 전 검사(db5f9ee와 같은 내용에서 새로 실행): 검사 45개, 발음 browser-stamp·stamp 통과, Chromium 전체·B1 시간대별 스크린샷, 실제 흐름(전체·B1), 동작 줄이기, 콘솔 오류 0. 헤드리스 피날레 28~44fps(자동 축소 작동). 실기기 Safari는 확인하지 않았다.
+
+---
+
 # FABLE 엔딩 날아오는 단어 최종 색 배포 · 2026-10-16
 
 - 커밋 [1db57d5](https://github.com/esqsoy/vocagoyang/commit/1db57d5)를 origin/main에 fast-forward로 푸시했다(e81788a 다음, 배포 기록 52d13be 포함). [Pages 38840448763](https://github.com/esqsoy/vocagoyang/actions/runs/38840448763) 성공(2026-10-16 02:27:35 UTC 완료 확인).
