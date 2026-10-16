@@ -1,3 +1,12 @@
+# FABLE B1 엔딩 첫 대사 배포 · 2026-10-16
+
+- 커밋 [0d0f516](https://github.com/esqsoy/vocagoyang/commit/0d0f516)를 origin/main에 fast-forward로 푸시했다(bac6bfa 다음). [Pages 38909479287](https://github.com/esqsoy/vocagoyang/actions/runs/38909479287) 성공(2026-10-16 13:40:00 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE ad15d21, 수능 010e44e, EBS 1e87323, index f7665dc). github.io는 이 세션에서 열지 않았다.
+- 포함: B1 엔딩 첫 대사 "시작이 반이라고양. 어느새 진짜 절반을 쌓았다고양."
+- 배포 전 검사(0d0f516와 같은 내용에서 새로 실행): 검사 45개, 발음 browser-stamp·stamp 통과, Chromium B1 실제 흐름·동작 줄이기, 콘솔 오류 0. Safari 실기기 확인은 영신이 실제 플레이로(대기).
+
+---
+
 # FABLE 엔딩 메시지 단어 32개 배포 · 2026-10-16
 
 - 커밋 [e076a64](https://github.com/esqsoy/vocagoyang/commit/e076a64)를 origin/main에 fast-forward로 푸시했다(9cfe73a 다음). [Pages 38874071187](https://github.com/esqsoy/vocagoyang/actions/runs/38874071187) 성공(2026-10-16 08:30:45 UTC 완료 확인).
