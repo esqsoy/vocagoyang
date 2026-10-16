@@ -1,3 +1,12 @@
+# FABLE 엔딩 둥근 봉우리·깃발 배포 · 2026-10-16
+
+- 커밋 [dff366b](https://github.com/esqsoy/vocagoyang/commit/dff366b)를 origin/main에 fast-forward로 푸시했다(1fb094c 다음). [Pages 38857908153](https://github.com/esqsoy/vocagoyang/actions/runs/38857908153) 성공(2026-10-16 05:51:39 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 67abe0a, 수능 010e44e, EBS 1e87323, index f7665dc). github.io는 이 세션에서 열지 않았다.
+- 포함: 둥근 봉우리, 다 쌓이면 산 몸통을 꼭대기까지 그리고 깃발을 그 윗선에(B1은 쌓인 데 위).
+- 배포 전 검사(dff366b와 같은 내용에서 새로 실행): 검사 45개, 발음 browser-stamp·stamp 통과, Chromium 정지 화면(전체·B1)·쌓는 중·실제 흐름, 콘솔 오류 0.
+
+---
+
 # FABLE 엔딩 오중심 불꽃·쌓는 동안 대사 뺌 배포 · 2026-10-16
 
 - 커밋 [1fb094c](https://github.com/esqsoy/vocagoyang/commit/1fb094c)를 origin/main에 fast-forward로 푸시했다(a1feecd 다음). [Pages 38857104755](https://github.com/esqsoy/vocagoyang/actions/runs/38857104755) 성공(2026-10-16 05:42:31 UTC 완료 확인).
