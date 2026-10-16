@@ -1851,3 +1851,8 @@
   - 문서: PRINCIPLES 1 '숨은 설정: 공부의 신의 저주'(이유·결정자·드러나는 자리), PRINCIPLES 15·UI_STANDARD·set-stamp README·HANDOFF의 ㅇㅅㅊ → Youngs.
 - 검증(새로 실행): 검사 45개 통과, 발음 browser-stamp·stamp 통과, deepcheck A6 16·A8 1(전부터, 새 대사 없음), ordercheck 앞당김 둘 이상 0, 원장 되감기 해시 일치. Chromium으로 FABLE 엔딩 Youngs 드론, 마더텅·EBS 엔딩 두 대사, 360px 1,000단어 말풍선(4줄) 확인, 오류 0.
 - 배포: b2c6efe main fast-forward, Pages 38947270153 성공, 네 HTML blob SHA 일치([DEPLOYMENT](DEPLOYMENT.md)). 개발일지 드론 표·정체 장면·'숨은 설정' 문단도 고쳤다.
+
+## 2026-10-17 · 주기율표 저장소 권한 연결·브랜치 푸시
+
+- 영신이 Claude GitHub 앱에 esqsoy/periodic-game 권한을 줬다("플랜이 뜨는데? 연결됐어?"). 10/16 정리 커밋 `9bf8c23`(개선 버전 링크 고침, README·AGENTS)을 periodic-game 브랜치 `claude/brave-clarke-rixqvy`로 푸시했다. main은 그대로다(공개는 영신 확인 뒤).
+- 보관용 패치 폴더 `reviews/periodic-game-20261016/`는 README의 약속대로 지웠다(커밋은 periodic-game 브랜치에 있다).
