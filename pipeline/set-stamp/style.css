@@ -43,7 +43,7 @@ body.fe-on{overflow:hidden;}
 html:has(body.fe-on){scrollbar-gutter:auto;}
 .fe.show{opacity:1;}
 .fe-bg,.fe-fx{position:absolute;left:0;top:0;pointer-events:none;}
-.fe-bg{z-index:0;}.fe-fx{z-index:3;mix-blend-mode:screen;}
+.fe-bg{z-index:0;}.fe-fx{z-index:3;}
 .fe-stage,.fe-talk,.fe-badge,.fe-act,.fe-hint{position:relative;z-index:1;}
 .fe-x{z-index:4;position:absolute;top:10px;right:10px;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:rgba(0,0,0,.3);color:var(--muted);font-size:1rem;cursor:pointer;}
 .fe-stage{position:relative;display:flex;flex-direction:column;align-items:center;gap:8px;}
