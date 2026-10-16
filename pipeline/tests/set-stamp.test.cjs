@@ -47,6 +47,9 @@ const opened=h=>[...h.ctx.openSets()].map(L=>L.lesson);
  h.state.levelB1=true;assert.equal(h.ctx.feMode(),'b1');assert(h.ctx.clearedExercises(true)<h.ctx.totalExercises(true));
  h.state.lessons.forEach(L=>{if(L.kind!=='saved')clear(h,L.lesson);});assert.equal(h.ctx.feMode(),'full');}
 
+// 5-2. 엔딩 메시지 단어(26.10.16 영신 "메세지를 줄 수 있는것들"): 목록의 단어가 모두 FABLE 표제어에 있다(빠지면 조용히 안 뜨므로 여기서 잡는다).
+{const h=harness(FILE),heads=new Set();h.state.lessons.forEach(L=>{if(L.kind==='saved')return;h.ctx.visEx(L).forEach(e=>e.words.forEach(w=>heads.add(String(w.term??w.word??w.en).toLowerCase())));});
+ const msg=[...h.run('FE_MSG')];assert(msg.length>=6,'message list');msg.forEach(t=>assert(heads.has(t.toLowerCase()),`message word missing from FABLE: ${t}`));}
 // 6. 세트 대사: 0~50세트 모두, 60자 이내, '고양', 옛 수치·단정 없음(PRINCIPLES 11, 아스트라 리뷰 T06). 엔딩 대사도 '고양'(끊기는 정체 대사만 예외).
 {const h=harness(FILE),LC=h.run('LESSONCLEAR');
  for(let n=0;n<=50;n++){const v=LC[n];assert(typeof v==='string'&&v.length<=60&&/고양/.test(v),`${n}: ${v}`);

@@ -192,6 +192,11 @@ var FE_LINES={
     ['evil','내 정체가 궁금하면 꼭대기까지 오라고양. C1을 누르면 산이 열린다고양 😼',null,null,'question'],
     ['win','1부 도장 쾅이라고양. 배지는 꼭대기까지 와야 준다고양.',null,'badge','study1']]
 };
+/* 메시지 단어(26.10.16 영신: "공부한 글자중에 carry on이나 study reading good practice dream 이런 단어들은 확 크게 해주는거 어때 메세지를 줄 수 있는것들").
+   배운 순서대로 지나가다 이 단어 차례가 오면 화면 위쪽에 아주 크게 1.1초 멈췄다가 제자리로 날아간다. 앞쪽 단어가 몰려 있어 1.3초 간격으로 줄 세운다.
+   순서(배운 차례): reading·good·study·practice·dream·progress·courage·challenge·champion(여기까지 B1에도 나옴)·overcome·strive·persist·carry on·pay off.
+   빼거나 더하려면 이 목록만 고친다. 산에 없는 단어는 그냥 지나간다. */
+var FE_MSG=['reading','good','study','practice','dream','progress','courage','challenge','champion','overcome','strive','persist','carry on','pay off'];
 function feHeads(sets){const u=new Set();sets.forEach(L=>visEx(L).forEach(e=>e.words.forEach(w=>{const k=msHead(w);if(k)u.add(k);})));return u.size;}
 function feOpen(mode){
   feClose(true);
@@ -397,7 +402,7 @@ function feBuild(){
     if(sh.dbl)later.push({t:performance.now()+260+Math.random()*180,sh:{x:X+(Math.random()-.5)*30,y:Y+(Math.random()-.5)*30,kind:pick(TRAD),pal:pick(PALS),big:false,dbl:false}});
     flash.push({x:X,y:Y,t:performance.now(),rgb:sh.kind==='rose'?'255,79,139':sh.kind==='willow'?'255,190,90':pal[0],R:sh.sm?70:big?170:110});};
   const flash=[];
-  const sparkle=(x,y,k=10)=>{if(calm)return;for(let i=0;i<k;i++){const a=Math.random()*6.283,v=.05+Math.random()*.12;front.push({x,y,px:x,py:y,vx:Math.cos(a)*v,vy:Math.sin(a)*v,life:0,max:600+Math.random()*400,r:1.7,rgb:'255,214,90',g:.00005,dr:.985,tl:2.2});}};
+  const sparkle=(x,y,k=10,rgb='255,214,90',sp=1)=>{if(calm)return;for(let i=0;i<k;i++){const a=Math.random()*6.283,v=(.05+Math.random()*.12)*sp;front.push({x,y,px:x,py:y,vx:Math.cos(a)*v,vy:Math.sin(a)*v,life:0,max:600+Math.random()*400,r:1.7,rgb,g:.00005,dr:.985,tl:2.2});}};
   const stepParts=(arr,c,dt,now,refl)=>{const ly=offY+lakeY,lb=offY+H,d0=Math.pow(.985,dt/16),tails=new Map(),rf=refl&&Q>.6;
     for(let i=arr.length-1;i>=0;i--){const q=arr[i];q.life+=dt;if(q.life>=q.max||q.x<-90||q.x>OW+90||q.y>OH+90){arr.splice(i,1);continue;}
       const dr=q.dr===.985?d0:Math.pow(q.dr,dt/16);q.px=q.x;q.py=q.y;q.vx*=dr;q.vy=q.vy*dr+q.g*dt;q.x+=q.vx*dt;q.y+=q.vy*dt;
@@ -504,24 +509,29 @@ function feBuild(){
     ctx.fillStyle='rgba(210,190,255,.4)';ctx.fillRect(0,(lakeY-1)*dpr,cv.width,Math.max(1,dpr));
     mount(1);ctx.drawImage(mini,0,0);};
   // 날아오는 단어: 가운데 크게 떴다가(느릴 때는 잠깐 머물러 읽힌다) 작아지며 제자리로 날아가 앉는다.
-  const LX=W/2,LY=lakeY*.42,flyers=[],seen=new Set();
+  const LX=W/2,LY=lakeY*.42,flyers=[],seen=new Set(),MSG=new Set(FE_MSG.map(t=>t.toLowerCase()));let msgNext=0;
   ctx.font=`800 100px ${FONT}`;
   const spawn=q=>{const r=rate(q.t),gap=1000/r,slow=Math.max(0,Math.min(1,(70-r)/60));
-    const w100=ctx.measureText(q.w.t).width||100,big=Math.min(22+20*slow,W*.84/w100*100),spread=Math.max(0,Math.min(1,(r-20)/140));   // 느려지면 한자리에서 하나씩(눈이 따라가지 않아도 읽히게)
+    // 메시지 단어: 위쪽(보통 단어가 뜨는 가운데보다 위) 아주 크게, 앞 메시지와 1.3초 띄워서
+    // 같은 철자가 뒤에 또 나와도(다른 뜻 카드) 한 번만
+    const mk=String(q.w.t).toLowerCase();if(MSG.has(mk)){MSG.delete(mk);const w100=ctx.measureText(q.w.t).width||100,t=Math.max(q.t,msgNext);msgNext=t+1300;
+      (f.msgLog=f.msgLog||[]).push([q.w.t,Math.round(t)]);flyers.push({q,w100,t,hold:1100,fly:750,big:Math.min(80,W*.86/w100*100),slow:1,msg:true,jx:0,jy:-lakeY*.17});return;}
+    const w100=ctx.measureText(q.w.t).width||100,big=Math.min(22+20*slow,W*.84/w100*100)*(q.t<msgNext-200?.62:1),spread=Math.max(0,Math.min(1,(r-20)/140));   // 느려지면 한자리에서 하나씩(눈이 따라가지 않아도 읽히게)
     flyers.push({q,w100,t:q.t,hold:Math.min(440,gap*.8),fly:Math.max(300,Math.min(600,4000/r)),big,slow,jx:(Math.random()-.5)*W*.74*spread,jy:(Math.random()-.5)*lakeY*.4*spread});};
-  const drawFlyer=(fl,el)=>{const q=fl.q,e=el-fl.t,[tx,ty]=toS(q.p.x+q.w.w*q.p.s/2,q.p.y+wd.F*q.p.s/2),sx=LX+fl.jx,sy=LY+fl.jy,end=Math.max(1.2,wd.F*fit*q.p.s);
-    const pop=Math.min(1,e/70);let x=sx,y=sy,sz=fl.big*(.55+.45*(1-Math.pow(1-pop,3))),a=pop;
+  const drawFlyer=(fl,el)=>{if(el<fl.t)return;const q=fl.q,e=el-fl.t,[tx,ty]=toS(q.p.x+q.w.w*q.p.s/2,q.p.y+wd.F*q.p.s/2),sx=LX+fl.jx,sy=LY+fl.jy,end=Math.max(1.2,wd.F*fit*q.p.s);
+    const pop=Math.min(1,e/(fl.msg?160:70));let x=sx,y=sy,sz=fl.big*(fl.msg?.4+.6*(1+1.7*Math.pow(pop-1,3)+.7*Math.pow(pop-1,2)):.55+.45*(1-Math.pow(1-pop,3))),a=pop;
+    if(fl.msg&&!fl.lit){fl.lit=1;const rgb0=q.w.gold?'255,211,77':tint(wd.bands[q.i].L);sparkle(offX+sx,offY+sy,28,rgb0,2.2);sparkle(offX+sx,offY+sy,14,'255,255,255',1.4);}
     // 떠날 때는 빨리 작아지며 가운데를 비운다. 다음 단어가 겹치지 않게.
     if(e>fl.hold){const pp=Math.min(1,(e-fl.hold)/fl.fly),m=1-Math.pow(1-pp,2.4);x=sx+(tx-sx)*m;y=sy+(ty-sy)*m;sz=sz+(end-sz)*(1-Math.pow(1-pp,4));a=1-.3*pp;}
     // 광원(26.10.16 영신: "날아들어가는 단어들은 광원효과 좀 드가듀 될듯"): 글자 뒤 같은 색 빛 번짐, 날아갈 때는 빛 꼬리. 빛나는 건 단어 자신이다(PRINCIPLES 11).
     const rgb=q.w.gold?'255,211,77':tint(wd.bands[q.i].L),gw=fl.w100*sz/100;ctx.setTransform(dpr,0,0,dpr,0,0);ctx.globalCompositeOperation='lighter';
     if(e>fl.hold){const dx=tx-sx,dy=ty-sy,dl=Math.hypot(dx,dy)||1,tl=Math.min(60,sz*2),ex=x-dx/dl*tl,ey=y-dy/dl*tl,gr=ctx.createLinearGradient(x,y,ex,ey);   // 머리는 밝고 꼬리로 갈수록 사라지는 혜성 꼬리
       gr.addColorStop(0,`rgba(${rgb},.6)`);gr.addColorStop(1,`rgba(${rgb},0)`);ctx.globalAlpha=a;ctx.strokeStyle=gr;ctx.lineWidth=Math.max(1,sz*.16);ctx.lineCap='round';ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(ex,ey);ctx.stroke();}
-    ctx.globalAlpha=a*(fl.slow>.2?.6:.4);ctx.drawImage(spr(rgb),x-gw*.8,y-sz*1.1,gw*1.6,sz*2.2);ctx.globalCompositeOperation='source-over';
+    const hh=fl.msg?Math.min(sz*1.4,y-4):sz*1.1;ctx.globalAlpha=a*(fl.msg?.55:fl.slow>.2?.6:.4);ctx.drawImage(spr(rgb),x-gw*(fl.msg?1:.8),y-hh,gw*(fl.msg?2:1.6),hh*2);   // 무대 위끝에서 잘려 네모 자국이 남지 않게ctx.globalCompositeOperation='source-over';
     const k=sz/100;ctx.setTransform(dpr*k,0,0,dpr*k,dpr*x,dpr*y);ctx.globalAlpha=a;
     if(fl.slow>.2&&sz>12){ctx.shadowBlur=0;ctx.lineWidth=16;ctx.strokeStyle='rgba(16,6,30,.85)';ctx.strokeText(q.w.t,0,0);ctx.shadowColor=q.w.gold?'rgba(255,211,77,.8)':`rgba(${tint(wd.bands[q.i].L)},.55)`;ctx.shadowBlur=sz*.22*dpr;}else ctx.shadowBlur=0;
     ctx.fillStyle=q.w.gold?'#ffd34d':shade(wd.bands[q.i].L,q.i);ctx.fillText(q.w.t,0,0);};   // 처음부터 산에 앉을 색(26.10.16 영신: "최종색과 맞춰도 보기 좋을 것 같아")
-  const cap=f.ov.querySelector('.fe-cap'),t0=performance.now()+500;let next=0,band=0,finaleAt=0,labels=null,shown=0,labelStart=0;
+  const cap=f.ov.querySelector('.fe-cap'),t0=performance.now()+500;f._t0=t0;let next=0,band=0,finaleAt=0,labels=null,shown=0,labelStart=0;
   // 피날레(약 8초): 불꽃축제 국룰을 따른다. 일제 사격(齐射) → 스타마인 → 오중심 한 발 단독(尺玉처럼 감상) → 겹국화 차례 쏘기(段射)
   // → 혜성 교차(交叉对射)·갈라지는 별 → 대(大)스타마인(장미 한 번, 고양시 꽃) → 황금 버드나무 커튼과 나이아가라로 끝.
   const finale=()=>{const at=later2;
@@ -554,8 +564,9 @@ function feBuild(){
     scene(now);
     ctx.save();ctx.font=`800 100px ${FONT}`;ctx.textAlign='center';ctx.textBaseline='middle';ctx.lineJoin='round';
     for(let i=0;i<flyers.length;i++){const fl=flyers[i];
-      if(skip||el-fl.t>=fl.hold+fl.fly){land(fl.q);if(fl.q.w.gold&&fl.slow>.2){const [x,y]=toS(fl.q.p.x,fl.q.p.y);sparkle(offX+x,offY+y,7);}flyers.splice(i--,1);continue;}
-      if(flyers.length-i<=150)drawFlyer(fl,el);}
+      if(skip||el-fl.t>=fl.hold+fl.fly){land(fl.q);if(!skip&&(fl.msg||fl.q.w.gold&&fl.slow>.2)){const [x,y]=toS(fl.q.p.x,fl.q.p.y);sparkle(offX+x,offY+y,fl.msg?16:7,fl.msg&&!fl.q.w.gold?tint(wd.bands[fl.q.i].L):'255,214,90');}flyers.splice(i--,1);continue;}
+      if(!fl.msg&&flyers.length-i<=150)drawFlyer(fl,el);}
+    for(const fl of flyers)if(fl.msg)drawFlyer(fl,el);
     ctx.restore();
     // 한 층이 다 차면 호수에서 불꽃 한 발(0.45초에 한 발까지만)
     let up=false;while(band<n&&cnt[band]>=need[band]){band++;up=true;}

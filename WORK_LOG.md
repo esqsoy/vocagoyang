@@ -1759,3 +1759,12 @@
   - 스타마인(작은 불꽃을 낮게 짧은 로켓으로 초당 9~20발), 혜성(터지지 않는 긴 꼬리 별, 부채꼴·교차), 나이아가라(화면 꼭대기에서 금빛 불똥).
   - 개막 스타마인(쌓기 시작), 막간 스타마인(쌓는 동안 11~15초, 대사 중 9~13초), 피날레 약 8초: 국화 일제 → 스타마인 → 오중심 단독 → 겹국화 段射 → 혜성 교차·갈라지는 별 → 대스타마인(장미 한 번) → 변화국·모란 → 버드나무 커튼·나이아가라.
 - 검증(새로 실행): 검사 45개, 발음 browser-stamp·stamp 통과. Chromium 390×844: Q=1 고정 피날레 시간대별(1.4~8.6초: 일제 사격·스타마인·오중심·나이아가라), 개막 스타마인(1.5초), 쌓는 중 30·58초, 드론 장면, 실제 흐름(전체·B1), 동작 줄이기, 콘솔 오류 0. 헤드리스는 개막 스타마인과 날아드는 단어가 겹칠 때 26fps(화질 조절 작동).
+- 배포: f0382a1 main fast-forward, Pages 38862619864 성공(2026-10-16 06:42:10 UTC), 네 HTML blob SHA 일치(FABLE c2f6814).
+
+## 2026-10-16 · 엔딩: 메시지 단어 확 크게
+
+- 영신: "공부한 글자중에 carry on이나 study reading good practice dream 이런 단어들은 확 크게 해주는거 어때 메세지를 줄 수 있는것들".
+- 반영(`pipeline/set-stamp/runtime.js`): `FE_MSG` 14개(reading·good·study·practice·dream·progress·courage·challenge·champion·overcome·strive·persist·carry on·pay off). 차례가 오면 위쪽에 아주 크게(최대 80px) 1.1초 멈춘 뒤 0.75초에 제자리로. 앞 메시지와 1.3초 간격, 떠 있는 동안 새 보통 단어는 62% 크기, 같은 철자는 한 번(practice가 뜻 카드 둘이라 두 번 나오던 것). 빛 번짐이 무대 위끝에서 잘려 네모 자국이 보이던 것을 높이 제한으로 고침.
+- 실측 예정 시각(전체): reading 0.3·good 1.6·study 2.9·practice 4.2·dream 5.5·progress 6.8·courage 8.1·challenge 9.4·champion 10.7·overcome 15.2·strive 23.6·persist 32.1·carry on 56.1·pay off 58.9초. B1: reading~courage 같은 간격, challenge 13.3·champion 21.0초.
+- 검사: `pipeline/tests/set-stamp.test.cjs`에 FE_MSG 단어가 모두 FABLE 표제어에 있는지 추가.
+- 검증(새로 실행): 검사 45개(set-stamp 새 검사 포함), 발음 browser-stamp·stamp 통과. Chromium 390×844: 메시지 단어가 멈춘 순간 스크린샷(study·practice·dream·courage·persist·carry on·pay off, B1 good·dream·champion), 실제 흐름(전체·B1), 동작 줄이기, 콘솔 오류 0.
