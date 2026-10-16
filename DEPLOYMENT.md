@@ -1,3 +1,12 @@
+# FABLE 엔딩 오중심 불꽃·쌓는 동안 대사 뺌 배포 · 2026-10-16
+
+- 커밋 [1fb094c](https://github.com/esqsoy/vocagoyang/commit/1fb094c)를 origin/main에 fast-forward로 푸시했다(a1feecd 다음). [Pages 38857104755](https://github.com/esqsoy/vocagoyang/actions/runs/38857104755) 성공(2026-10-16 05:42:31 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 216d683, 수능 010e44e, EBS 1e87323, index f7665dc). github.io는 이 세션에서 열지 않았다.
+- 포함: 오중심(바깥 국화 + 芯 동심원 넷) 불꽃, 겹국화 芯을 동심원으로, 피날레 가운데 오중심 한 발, 쌓는 동안 말풍선 비움.
+- 배포 전 검사(1fb094c와 같은 내용에서 새로 실행): 검사 45개, 발음 browser-stamp·stamp 통과, Chromium 한 발씩·피날레·흐름(전체·B1)·동작 줄이기, 콘솔 오류 0.
+
+---
+
 # FABLE 엔딩 전통 불꽃·겹겹이 배포 · 2026-10-16
 
 - 커밋 [a1feecd](https://github.com/esqsoy/vocagoyang/commit/a1feecd)를 origin/main에 fast-forward로 푸시했다(db5f9ee 다음, 배포 기록 95a2c3e 포함). [Pages 38856259389](https://github.com/esqsoy/vocagoyang/actions/runs/38856259389) 성공(2026-10-16 05:34:08 UTC 완료 확인).

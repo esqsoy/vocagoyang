@@ -5876,8 +5876,10 @@ function feWorld(f){
     const t=String(w.term??w.word??w.en);ws.push({t,k,w:meas.measureText(t).width,gold:!!miss[k]});}));return {L,ws,need:ws.reduce((a,x)=>a+x.w+GAP,0)};});
   const need=bands.reduce((a,b)=>a+b.need,0)*LH/0.8,side=Math.ceil(Math.sqrt(2*need)),B=side,Hm=side,top=0,base=Hm,cx=B/2;
   // 산등성이: 왼쪽은 어깨가 하나 있고 오른쪽은 완만하게. 좌우 폭을 따로 잰다.
-  const hl=y=>{const t=Math.max(0,(y-top)/(base-top));return (B/2)*Math.pow(t,.98)*(1+.07*Math.sin(t*8.5+.6)+.025*Math.sin(t*29));};
-  const hr=y=>{const t=Math.max(0,(y-top)/(base-top));return (B/2)*Math.pow(t,1.04)*(1+.05*Math.sin(t*6.3+2.1)+.03*Math.sin(t*23+1));};
+  // 봉우리는 둥글게(26.10.16 영신: "peak 를 좀 덜 뾰족하게 하고 깃발을 맞추자"). 꼭대기 근처는 √t 항이 폭을 받쳐 둥근 머리가 된다.
+  const cap=t=>.22*Math.sqrt(t)*(1-t);
+  const hl=y=>{const t=Math.max(0,(y-top)/(base-top));return (B/2)*(Math.pow(t,.98)*(1+.07*Math.sin(t*8.5+.6)+.025*Math.sin(t*29))+cap(t));};
+  const hr=y=>{const t=Math.max(0,(y-top)/(base-top));return (B/2)*(Math.pow(t,1.04)*(1+.05*Math.sin(t*6.3+2.1)+.03*Math.sin(t*23+1))+cap(t));};
   const hw=y=>(hl(y)+hr(y))/2;
   // 층 경계: 아래부터 각 세트가 글자량만큼 넓이를 가져간다(층마다 글자 크기가 같게).
   const minRow=F*6,area=[];let acc=0;for(let y=base;y>=top;y-=1){const w=2*hw(y);if(w>=minRow)acc+=w;area.push([y,acc]);}
@@ -6013,7 +6015,7 @@ function feBuild(){
     stepParts(parts,c,dt,now,lake);c.globalCompositeOperation='source-over';
     if(front.length||fgDirty){c=fctx;c.setTransform(FXR,0,0,FXR,0,0);c.clearRect(0,0,OW,OH);stepParts(front,c,dt,now,false);fgDirty=front.length>0;}};
   // 산 그림: 다 내려앉은 단어(world)를 무대 크기로 줄여 둔다. 호수에는 산이 거꾸로 비친다.
-  const mini=document.createElement('canvas');mini.width=cv.width;mini.height=cv.height;const mc=mini.getContext('2d');let miniAt=-1e9,landedTop=wd.base,dr0=null;
+  const mini=document.createElement('canvas');mini.width=cv.width;mini.height=cv.height;const mc=mini.getContext('2d');let miniAt=-1e9,landedTop=wd.base,dr0=null,bodyTop=null;
   const MT=[dpr*fit,0,0,dpr*fit,dpr*(W/2-wd.cx*fit),dpr*(lakeY-2-wd.base*fit)];
   const drawMini=all=>{const d=all?{x0:0,y0:0,x1:wd.B,y1:wd.Hm}:dr0;dr0=null;if(!d)return;mc.setTransform(...MT);
     const x0=Math.max(0,d.x0-2),y0=Math.max(0,d.y0-2),x1=Math.min(wd.B,d.x1+2),y1=Math.min(wd.Hm,d.y1+2);
@@ -6025,7 +6027,7 @@ function feBuild(){
     wc.fillText(q.w.t,q.p.x,q.p.y);wc.shadowBlur=0;if(q.p.y<landedTop)landedTop=q.p.y;cnt[q.i]++;seen.add(q.w.k);
     const x1=q.p.x+q.w.w*q.p.s,y1=q.p.y+wd.F*q.p.s*1.3;if(!dr0)dr0={x0:q.p.x,y0:q.p.y,x1,y1};else{dr0.x0=Math.min(dr0.x0,q.p.x);dr0.y0=Math.min(dr0.y0,q.p.y);dr0.x1=Math.max(dr0.x1,x1);dr0.y1=Math.max(dr0.y1,y1);}};
   // 산 몸통(어둡게)과 단어. 호수에는 둘 다 거꾸로 비친다.
-  const mount=(alpha)=>{ctx.save();ctx.setTransform(...MT);ctx.beginPath();ctx.rect(-20,landedTop-14,wd.B+40,wd.Hm-landedTop+16);ctx.clip();ctx.globalAlpha=alpha;ctx.fillStyle='rgba(18,6,34,.8)';ctx.fill(body);ctx.restore();};
+  const mount=(alpha)=>{ctx.save();ctx.setTransform(...MT);ctx.beginPath();const bt=bodyTop??landedTop-14;ctx.rect(-20,bt,wd.B+40,wd.Hm-bt+2);ctx.clip();ctx.globalAlpha=alpha;ctx.fillStyle='rgba(18,6,34,.8)';ctx.fill(body);ctx.restore();};
   const scene=now=>{if(dr0&&now-miniAt>60){drawMini(false);miniAt=now;}
     ctx.setTransform(1,0,0,1,0,0);ctx.clearRect(0,0,cv.width,cv.height);
     const lg=ctx.createLinearGradient(0,lakeY*dpr,0,H*dpr);lg.addColorStop(0,'rgba(70,48,140,.42)');lg.addColorStop(1,'rgba(12,6,34,.12)');ctx.fillStyle=lg;ctx.fillRect(0,lakeY*dpr,cv.width,(H-lakeY)*dpr);
@@ -6063,7 +6065,7 @@ function feBuild(){
       if(boxes.some(o=>o.x0<bx.x1&&bx.x0<o.x1&&o.y0<bx.y1&&bx.y0<o.y1))continue;boxes.push(bx);pick.push([q.w.t,cx,y]);}ctx.restore();return pick;};
   const label=([t,x,y])=>{ctx.save();ctx.setTransform(dpr,0,0,dpr,0,0);ctx.font=`800 9px ${FONT}`;ctx.textAlign='center';ctx.textBaseline='middle';
     ctx.lineWidth=3;ctx.strokeStyle='rgba(22,8,38,.85)';ctx.strokeText(t,x,y);ctx.shadowColor='rgba(255,211,77,.9)';ctx.shadowBlur=6;ctx.fillStyle='#ffd34d';ctx.fillText(t,x,y);ctx.restore();};
-  const flag=()=>{const [fx,fy]=toS(wd.cx,f.mode==='b1'?wd.bands[n-1].y0:wd.top);ctx.save();ctx.setTransform(dpr,0,0,dpr,0,0);
+  const flag=()=>{const [fx,fy0]=toS(wd.cx,bodyTop),fy=fy0+1.5;ctx.save();ctx.setTransform(dpr,0,0,dpr,0,0);
     ctx.strokeStyle='#f6f1ff';ctx.lineWidth=1.6;ctx.beginPath();ctx.moveTo(fx,fy+2);ctx.lineTo(fx,fy-24);ctx.stroke();
     ctx.fillStyle='#ffd34d';ctx.shadowColor='rgba(255,211,77,.8)';ctx.shadowBlur=8;ctx.beginPath();ctx.moveTo(fx,fy-24);ctx.lineTo(fx+17,fy-19);ctx.lineTo(fx,fy-14);ctx.closePath();ctx.fill();ctx.restore();};
   const idle=now=>{if(now-lastFw>600+Math.random()*400){show(Math.random()<.55);lastFw=now;}};
@@ -6086,7 +6088,7 @@ function feBuild(){
     else if(!skip&&now-lastFw>650+Math.random()*450){show(Math.random()<.45);lastFw=now;}   // 느린 후반에도 하늘이 비지 않게
     if(next<N||flyers.length){const L=wd.bands[Math.min(n-1,band)].L;cap.textContent=`${L.id} · ${L.name||''}  ·  익힌 단어 ${seen.size.toLocaleString('en-US')}`;fxStep(now,true);f.raf=requestAnimationFrame(frame);return;}
     // 다 쌓임: 피날레 불꽃, 깃발, 금빛 이름표(틀렸다가 잡은 단어)를 하나씩. 다 붙으면 대사로 넘어가고 불꽃은 가끔 계속 터진다.
-    if(!finaleAt){finaleAt=now;drawMini(true);scene(now);finale();lastFw=now+7200;labels=pickLabels();labelStart=now+(skip?0:1200);cap.textContent=f.capBase=`익힌 단어 ${seen.size.toLocaleString('en-US')}`;}
+    if(!finaleAt){finaleAt=now;bodyTop=f.mode==='b1'?landedTop-14:wd.top;drawMini(true);scene(now);finale();lastFw=now+7200;labels=pickLabels();labelStart=now+(skip?0:1200);cap.textContent=f.capBase=`익힌 단어 ${seen.size.toLocaleString('en-US')}`;}
     flag();
     const due=(skip||now>=labelStart+2400)?labels.length:Math.max(0,Math.ceil((now-labelStart)/2400*labels.length));
     while(shown<due){const lb=labels[shown++];if(!skip)sparkle(offX+lb[1],offY+lb[2],10);}
