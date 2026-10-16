@@ -1,3 +1,12 @@
+# FABLE 엔딩 '03학번' 대사 + 아스트라 10/17 리뷰 4건 수정 배포 · 2026-10-17
+
+- 커밋 [fad1fd7](https://github.com/esqsoy/vocagoyang/commit/fad1fd7)를 origin/main에 fast-forward로 푸시했다(0e996b9 아스트라 리뷰 다음). [Pages 38941933814](https://github.com/esqsoy/vocagoyang/actions/runs/38941933814) 성공(2026-10-16 17:44:46 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE ceb12ba, 수능 894255f, EBS d5728a1, index f7665dc). github.io는 이 세션에서 열지 않았다.
+- 포함: b28eb58 FABLE 전체 엔딩 "나도 인간일 때는 대학 갔었다고양… 03학번…"(드론 03)과 "…흠흠, 아니다고양", fad1fd7 R17-01 작은 화면 드론 잘림·R17-02 날아오는 단어 합성 모드(이제 세트 색)·R17-03 판 중 미리보기 미룸·R17-04 동작 줄이기 큰 도장.
+- 배포 전 검사(fad1fd7와 같은 내용에서 새로 실행): 검사 45개, 발음 browser-stamp·stamp 통과. Chromium 드론 화면 위 밖 0대(4개 화면 크기), 판 중 미리보기 미룸·겹침 방지, 동작 줄이기 계산값, 전체 엔딩 실제 시간 재생, 페이지 오류 0. Safari 실기기 확인은 영신이 실제 플레이로(대기).
+
+---
+
 # FABLE B1 엔딩 첫 대사 배포 · 2026-10-16
 
 - 커밋 [0d0f516](https://github.com/esqsoy/vocagoyang/commit/0d0f516)를 origin/main에 fast-forward로 푸시했다(bac6bfa 다음). [Pages 38909479287](https://github.com/esqsoy/vocagoyang/actions/runs/38909479287) 성공(2026-10-16 13:40:00 UTC 완료 확인).

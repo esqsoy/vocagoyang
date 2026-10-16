@@ -7,7 +7,7 @@
 - **아스트라 R17-01~04 모두 고침**(원본 `pipeline/set-stamp/`·`pipeline/milestones/runtime.js`, 빌드로 세 HTML). 작은 화면·가로 화면 드론 글자가 화면 안에 다 들어오고, 날아오는 단어가 이제 정말 세트 색으로 나며(전에는 흰색에 가까웠다, 영신에게 전후 비교를 보여 줌), 판을 푸는 중에 붙인 `#ending`·`#stamp`·`#milestone` 미리보기는 게임 밖으로 나올 때까지 미뤄지고 겹치지 않으며, 동작 줄이기에서 B1 큰 도장·배지가 움직이지 않는다. 원칙은 [PRINCIPLES 15 '연출이 화려해도 지킬 바닥'](PRINCIPLES.md#15-세트-완주-도장과-fable-엔딩), 경위·검증은 [WORK_LOG](WORK_LOG.md).
 - **고치지 않은 것:** 리뷰가 따로 나눈 화면 회전 뒤 산 캔버스 크기(기준 버전부터), 대사를 빨리 넘길 때 피날레 불꽃과 드론의 잠깐 겹침.
 - **03학번 대사:** 영신 10/16 요청으로 6월 마더텅 엔딩 대사를 FABLE 정체 장면에 살렸다(드론 '03').
-- **배포:** 두 작업을 함께 main에 올린다. 상태는 [DEPLOYMENT](DEPLOYMENT.md)를 본다.
+- **배포 완료:** `fad1fd7` main, Pages `38941933814` 성공, 네 HTML blob SHA 일치([DEPLOYMENT](DEPLOYMENT.md)). Safari 실기기는 영신 확인 대기.
 
 ## 2026-10-17 · Codex 업데이트 리뷰 · 위 Opus 절에서 수정
 
