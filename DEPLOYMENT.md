@@ -1,3 +1,12 @@
+# FABLE 엔딩 드론 영어·필기체·STUDY1·단어 광원 배포 · 2026-10-16
+
+- 커밋 [3519aa6](https://github.com/esqsoy/vocagoyang/commit/3519aa6)를 origin/main에 fast-forward로 푸시했다(cb35e73 다음). [Pages 38861470319](https://github.com/esqsoy/vocagoyang/actions/runs/38861470319) 성공(2026-10-16 06:30:03 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 4d82935, 수능 010e44e, EBS 1e87323, index f7665dc). github.io는 이 세션에서 열지 않았다.
+- 포함: 노란 설명 '한뫼 → 큰 산 → 一山 → 일산', 드론 BIG MOUNTAIN·필기체 Ilsan·STUDY1 간판, 날아드는 단어 빛 번짐·혜성 꼬리.
+- 배포 전 검사(3519aa6과 같은 내용에서 새로 실행): 검사 45개, 발음 browser-stamp·stamp 통과, Chromium 드론 장면·흐름·동작 줄이기, 콘솔 오류 0.
+
+---
+
 # FABLE 엔딩 드론 쇼 배포 · 2026-10-16
 
 - 커밋 [cb35e73](https://github.com/esqsoy/vocagoyang/commit/cb35e73)를 origin/main에 fast-forward로 푸시했다(dff366b 다음). [Pages 38860019462](https://github.com/esqsoy/vocagoyang/actions/runs/38860019462) 성공(2026-10-16 06:14:28 UTC 완료 확인).
