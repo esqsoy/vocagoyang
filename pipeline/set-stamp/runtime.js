@@ -181,8 +181,9 @@ var FE_LINES={
     ['win','넌 일산을 떠난 게 아니라, 원래 크기의 일산에 올라온 거라고양 🌳','한뫼 → 큰 산 → 一山 → 일산',null,'ilsan'],
     ['normal',"그리고 하나 더. 0세트에서 내가 말했지? '나는 고양이다. 이름은 아직 없다.'",null,null,'cat:normal'],
     ['sour','…그거 거짓말이라고양. 이름 있다고양.',null,null,'cat:sour'],
+    ['normal','나도 인간일 때는 대학 갔었다고양… 03학번…',null,null,'03'],   // 26.10.16 영신: 6월 마더텅 엔딩의 이 대사를 "살리면 좋을거같습니다"
     ['blank','내 정체는… ㅇㅅㅊ…',null,'slow','ieung'],
-    ['wicked','…아니다고양. 못 들은 걸로 하라고양.',null,null,'panic'],
+    ['wicked','…흠흠, 아니다고양. 못 들은 걸로 하라고양.',null,null,'panic'],
     ['win','이건 완주 배지라고양. 잃어버려도 다시 안 준다고양. 잘 가라고양 🐾',null,'badge','study1']],
   b1:[
     ['win','시작이 반이라고양. 어느새 진짜 절반을 쌓았다고양.'],   // 26.10.16 영신: "시작이 반이라고양. 벌써 절반을 했다고양. 이런거", "벌써 말고 어느새?도 좋고"
@@ -485,6 +486,7 @@ function feBuild(){
     else if(cmd==='panic'){dForm(scatterPts(),{stagger:120,dur:520});setTimeout(()=>now2(()=>dForm(catPts('wicked'),{stagger:250,dur:1100})),500);}
     else if(cmd==='outline')dForm(outlinePts(),{stagger:1100,dur:1900});
     else if(cmd==='question')dForm(textPts('?',['#ffd34d','#ff9ccb','#bba9ff']),{dur:1500});
+    else if(cmd==='03')dForm(textPts('03',['#bba9ff','#ffffff','#ff9ccb']),{dur:1400});
     else if(cmd==='land')dForm(landPts(),{stagger:500,dur:1500});};
   const dStep=(c,now)=>{if(!dOn)return false;let any=false;c.globalCompositeOperation='lighter';
     for(const d of drones){const u=Math.min(1,Math.max(0,(now-d.t0-d.d)/d.dur)),e=u<.5?4*u*u*u:1-Math.pow(-2*u+2,3)/2;
