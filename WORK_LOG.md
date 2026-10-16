@@ -1856,3 +1856,12 @@
 
 - 영신이 Claude GitHub 앱에 esqsoy/periodic-game 권한을 줬다("플랜이 뜨는데? 연결됐어?"). 10/16 정리 커밋 `9bf8c23`(개선 버전 링크 고침, README·AGENTS)을 periodic-game 브랜치 `claude/brave-clarke-rixqvy`로 푸시했다. main은 그대로다(공개는 영신 확인 뒤).
 - 보관용 패치 폴더 `reviews/periodic-game-20261016/`는 README의 약속대로 지웠다(커밋은 periodic-game 브랜치에 있다).
+- 공개(영신 "공개해자. 그리고 개선할게 있으면 제안및 개선해줘"): periodic-game main을 `9bf8c23`으로 fast-forward, Pages 38948910085 성공, 다섯 파일 blob SHA 일치.
+
+## 2026-10-17 · 주기율표 게임 고침(폰 화면·입력 잠금·철자·기록)과 원본 하나로
+
+- 저장소: esqsoy/periodic-game(보카고양 밖). 경위와 규칙은 그 저장소 README·AGENTS에 있다.
+- `74503d8`: 두 버전이 네 줄(스프라이트·주석·춤 설정)만 달라 `src/game.html`·`src/versions.json`·`src/sprites/*.png`·`build.cjs`로 나눴다. 두 HTML과 바이트까지 같은 결과를 확인한 뒤 커밋했다.
+- `33ea585` 고친 것: 폰에서 가로로 넘쳐 18족 두 줄·패스 버튼이 화면 밖이던 것, 캐릭터(최소 배율 0.4)가 입력창을 가리던 것, 입력창 15px(iPhone 확대)·자동 고침, 정답 뒤 Enter 두 번에 원소 하나가 큐에서 사라지던 것, aluminium·caesium·sulphur 오답, 약점 복습·디버그 클리어가 최고 기록을 남기던 것, 멈춘 툴팁.
+- 검사: `tests/smoke.cjs`(Chromium, 두 버전 × 360·390·가로·데스크톱, Enter 두 번, 철자, 완주·복습·디버그 기록)를 새로 넣었다. 고치기 전 판에서 27가지로 실패하고 고친 판에서 통과하는 것을 확인했다. 실제 폰은 미확인.
+- 제안(영신 결정 대기): 진행 저장, 정답 공개 뒤 따라 쓰기, 이름 듣기, 기호·한글 이름 모드, 버전 선택 화면 미리보기.
