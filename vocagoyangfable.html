@@ -5881,22 +5881,24 @@ function feWorld(f){
   const meas=document.createElement('canvas').getContext('2d');meas.font=font;
   const miss=msMissed(),bands=f.sets.map(L=>{const seen=new Set(),ws=[];visEx(L).forEach(e=>e.words.forEach(w=>{const k=msHead(w);if(!k||seen.has(k))return;seen.add(k);
     const t=String(w.term??w.word??w.en);ws.push({t,k,w:meas.measureText(t).width,gold:!!miss[k]});}));return {L,ws,need:ws.reduce((a,x)=>a+x.w+GAP,0)};});
-  const need=bands.reduce((a,b)=>a+b.need,0)*LH/0.8,side=Math.ceil(Math.sqrt(2*need)),B=side,Hm=side,top=0,base=Hm,cx=B/2;
+  const need=bands.reduce((a,b)=>a+b.need,0)*LH/0.9,side=Math.ceil(Math.sqrt(2*need)),B=side,Hm=side,top=0,base=Hm,cx=B/2;
   // 산등성이: 왼쪽은 어깨가 하나 있고 오른쪽은 완만하게. 좌우 폭을 따로 잰다.
   // 봉우리는 둥글게(26.10.16 영신: "peak 를 좀 덜 뾰족하게 하고 깃발을 맞추자"). 꼭대기 근처는 √t 항이 폭을 받쳐 둥근 머리가 된다.
   const cap=t=>.22*Math.sqrt(t)*(1-t);
   const hl=y=>{const t=Math.max(0,(y-top)/(base-top));return (B/2)*(Math.pow(t,.98)*(1+.07*Math.sin(t*8.5+.6)+.025*Math.sin(t*29))+cap(t));};
   const hr=y=>{const t=Math.max(0,(y-top)/(base-top));return (B/2)*(Math.pow(t,1.04)*(1+.05*Math.sin(t*6.3+2.1)+.03*Math.sin(t*23+1))+cap(t));};
   const hw=y=>(hl(y)+hr(y))/2;
-  // 층 경계: 아래부터 각 세트가 글자량만큼 넓이를 가져간다(층마다 글자 크기가 같게).
-  const minRow=F*6,area=[];let acc=0;for(let y=base;y>=top;y-=1){const w=2*hw(y);if(w>=minRow)acc+=w;area.push([y,acc]);}
+  // 층 경계: 아래부터 각 세트가 글자량만큼 넓이를 가져간다. 어긋남은 아래 fillBand의 배율이 메운다.
+  const minRow=F*6,area=[];let acc=0;for(let y=base;y>=top;y-=1){const w=hl(y)+hr(y)-F*1.2;if(w>=minRow*.6)acc+=w;area.push([y,acc]);}   // 넓이는 실제로 글자를 놓는 폭(양끝 여백 뺀)으로
   const total=acc,tot=bands.reduce((a,b)=>a+b.need,0);let k=0,cum=0;
   bands.forEach(b=>{b.y1=k?bands[k-1].y0:base;cum+=b.need;const target=total*cum/tot;let y=top;for(const [yy,a] of area){if(a>=target){y=yy;break;}}b.y0=Math.min(b.y1-LH,y);k++;});
-  // 줄마다 단어를 왼쪽부터 채운다. 모자라면 그 층만 조금 촘촘하게.
-  bands.forEach(b=>{for(let sq=1;sq>.6;sq*=.95){const lh=LH*sq,rows=[];for(let y=b.y1-lh;y>=b.y0-lh*.3;y-=lh){const a=hl(y+lh/2)-F*.6,c=hr(y+lh/2)-F*.6;if(a+c>=minRow*.6)rows.push({y,x0:cx-a,x1:cx+c});}
-    let r=0,x=rows[0]?.x0,ok=true;const pos=[];
-    for(const wd of b.ws){const ww=wd.w*sq;while(r<rows.length&&x+ww>rows[r].x1){r++;x=rows[r]?.x0;}if(r>=rows.length){ok=false;break;}pos.push({x,y:rows[r].y,s:sq});x+=ww+GAP*sq;}
-    if(ok||sq*.95<=.6){b.pos=pos;b.sq=sq;break;}}});
+  // 줄마다 단어를 왼쪽부터 채운다. 층에 맞는 가장 큰 글자 배율을 찾아 층을 꽉 채운다(26.10.16 영신: "산에 검은 틈? 이 좀 있어 위쪽인데").
+  // 전에는 배율을 줄이기만 해서, 줄이 좁은 위쪽 층은 남는 줄이 비어 검은 띠가 됐다. 이제 0.6~1.4배에서 맞는 가장 큰 배율을 고른다.
+  const fillBand=(b,sq)=>{const lh=LH*sq,rows=[];for(let y=b.y1-lh;y>=b.y0-lh*.3;y-=lh){const a=hl(y+lh/2)-F*.6,c=hr(y+lh/2)-F*.6;if(a+c>=minRow*.6)rows.push({y,x0:cx-a,x1:cx+c});}
+    let r=0,x=rows[0]?.x0;const pos=[];
+    for(const wd of b.ws){const ww=wd.w*sq;while(r<rows.length&&x+ww>rows[r].x1){r++;x=rows[r]?.x0;}if(r>=rows.length)return null;pos.push({x,y:rows[r].y,s:sq});x+=ww+GAP*sq;}return pos;};
+  bands.forEach(b=>{let lo=.6,hi=1.4,best=fillBand(b,lo),bs=lo;if(!best){b.pos=[];b.sq=lo;return;}
+    for(let k=0;k<14;k++){const m=(lo+hi)/2,p=fillBand(b,m);if(p){lo=m;best=p;bs=m;}else hi=m;}b.pos=best;b.sq=bs;});
   return {F,font,LH,B,Hm,top,base,cx,hw,hl,hr,bands};
 }
 /* 단어의 주마등(26.10.15 영신): "한 단어 한 단어 크게 등장하면서 쌓이게 … 주마등처럼 전부 스쳐지나가게", "말그대로 '단어가 쌓이는'걸",
@@ -6122,14 +6124,21 @@ function feBuild(){
     ctx.fillStyle='rgba(210,190,255,.4)';ctx.fillRect(0,(lakeY-1)*dpr,cv.width,Math.max(1,dpr));
     mount(1);ctx.drawImage(mini,0,0);};
   // 날아오는 단어: 가운데 크게 떴다가(느릴 때는 잠깐 머물러 읽힌다) 작아지며 제자리로 날아가 앉는다.
-  const LX=W/2,LY=lakeY*.42,flyers=[],seen=new Set(),MSG=new Set(FE_MSG.map(t=>t.toLowerCase()));let msgNext=0;
+  const LX=W/2,LY=lakeY*.42,flyers=[],seen=new Set();
+  // 메시지 시간표(26.10.16 영신: "시간 간격이 오히려 사이가 점점 줄어드는게 좋을듯 스토리는 좋아!"): 단어는 점점 느려지고 메시지는 점점 잦아져 끝에서 만난다.
+  // 첫 메시지 1초, 마지막은 끝 1초 전, 사이 간격은 0.82배씩 줄어든다. 제 차례(배운 순서)보다 앞당기지는 않고, 늦어진 단어는 그만큼 늦게 앉는다.
+  const MSGQ=new Map(),MSGW=[];{const want=new Set(FE_MSG.map(t=>t.toLowerCase())),hits=[];
+    seq.forEach((q,k)=>{const t=String(q.w.t).toLowerCase();if(want.has(t)){want.delete(t);hits.push(k);}});
+    const M=hits.length,R=.82,a0=Math.max(seq[hits[0]]?.t||0,1000),a1=Math.max(seq[hits[M-1]]?.t||0,T-1000),span=Math.max(0,a1-a0),d0=M>1?span*(1-R)/(1-Math.pow(R,M-1)):0;
+    let tt=a0,prev=-1e9;hits.forEach((k,i)=>{if(i)tt+=d0*Math.pow(R,i-1);const t=Math.max(tt,seq[k].t,prev+1200);prev=t;MSGQ.set(k,t);});
+    hits.forEach((k,i)=>{const t=MSGQ.get(k),nx=i<M-1?MSGQ.get(hits[i+1]):t+1600,hold=Math.max(700,Math.min(1100,nx-t-200));MSGW.push([t,t+hold]);seq[k].mHold=hold;seq[k].mAt=t;});}
+  const inMsg=t=>MSGW.some(([a,b])=>t>=a-150&&t<b);
   ctx.font=`800 100px ${FONT}`;
   const spawn=q=>{const r=rate(q.t),gap=1000/r,slow=Math.max(0,Math.min(1,(70-r)/60));
-    // 메시지 단어: 위쪽(보통 단어가 뜨는 가운데보다 위) 아주 크게, 앞 메시지와 1.3초 띄워서
-    // 같은 철자가 뒤에 또 나와도(다른 뜻 카드) 한 번만
-    const mk=String(q.w.t).toLowerCase();if(MSG.has(mk)){MSG.delete(mk);const w100=ctx.measureText(q.w.t).width||100,t=Math.max(q.t,msgNext);msgNext=t+1300;
-      (f.msgLog=f.msgLog||[]).push([q.w.t,Math.round(t)]);flyers.push({q,w100,t,hold:1100,fly:750,big:Math.min(80,W*.86/w100*100),slow:1,msg:true,jx:0,jy:-lakeY*.17});return;}
-    const w100=ctx.measureText(q.w.t).width||100,big=Math.min(22+20*slow,W*.84/w100*100)*(q.t<msgNext-200?.62:1),spread=Math.max(0,Math.min(1,(r-20)/140));   // 느려지면 한자리에서 하나씩(눈이 따라가지 않아도 읽히게)
+    // 메시지 단어: 위쪽(보통 단어가 뜨는 가운데보다 위) 아주 크게, 시간표(MSGQ)대로. 같은 철자가 뒤에 또 나와도(다른 뜻 카드) 첫 것만.
+    if(q.mAt!=null){const w100=ctx.measureText(q.w.t).width||100,t=q.mAt;
+      (f.msgLog=f.msgLog||[]).push([q.w.t,Math.round(t)]);flyers.push({q,w100,t,hold:q.mHold,fly:750,big:Math.min(80,W*.86/w100*100),slow:1,msg:true,jx:0,jy:-lakeY*.17});return;}
+    const w100=ctx.measureText(q.w.t).width||100,big=Math.min(22+20*slow,W*.84/w100*100)*(inMsg(q.t)?.62:1),spread=Math.max(0,Math.min(1,(r-20)/140));   // 느려지면 한자리에서 하나씩(눈이 따라가지 않아도 읽히게)
     flyers.push({q,w100,t:q.t,hold:Math.min(440,gap*.8),fly:Math.max(300,Math.min(600,4000/r)),big,slow,jx:(Math.random()-.5)*W*.74*spread,jy:(Math.random()-.5)*lakeY*.4*spread});};
   const drawFlyer=(fl,el)=>{if(el<fl.t)return;const q=fl.q,e=el-fl.t,[tx,ty]=toS(q.p.x+q.w.w*q.p.s/2,q.p.y+wd.F*q.p.s/2),sx=LX+fl.jx,sy=LY+fl.jy,end=Math.max(1.2,wd.F*fit*q.p.s);
     const pop=Math.min(1,e/(fl.msg?160:70));let x=sx,y=sy,sz=fl.big*(fl.msg?.4+.6*(1+1.7*Math.pow(pop-1,3)+.7*Math.pow(pop-1,2)):.55+.45*(1-Math.pow(1-pop,3))),a=pop;
