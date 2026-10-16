@@ -4116,8 +4116,9 @@ function revealEnding(uni){
   const u=`<span class="nm">${esc(uni)}</span>`;
   r.innerHTML=pick([
     `${u} 쌉가능이고양! 🎓<br>넌 무조건 잘 될 고양.<br>일산에서 만난 거 잊지 말라고양 ✦`,
-    `축하한다고양… ${u} 쌉가능이고양.<br>나도 인간일 때는 대학 갔었다고양… 03학번… ㅇㅅㅊ…<br>흠흠, 아니다고양. 축하한다고양.. ✦`,
+    `축하한다고양… ${u} 쌉가능이고양.<br>나도 인간일 때는 대학 갔었다고양… 03학번… Youngs…<br>…아니, 왜 갑자기 혀가… 흠흠! 축하한다고양.. ✦`,
     `${u}… 잘 어울린다고양.<br>나도 한때는 사람이었다고양. 지금은 강사… 아니 고양이지만양…<br>아무튼 축하한다고양! 🎓`,
+    `${u} 쌉가능이고양.<br>네가 대학 가면 저주가 한 명만큼 풀린다고양…<br>고맙다는 말은 안 한다고양. 🎓`,   // 26.10.17 영신: "B는 괜찮음. 천명 채워야 한다고양만 빼면 되겠다" (숨은 저주, PRINCIPLES 1)
   ])+`<div style="margin-top:14px;padding-top:12px;border-top:1px solid var(--line);font-size:1rem;font-weight:700;color:var(--muted);line-height:1.65;">…근데 있잖냐고양. 🌳<br>네가 오른 이 <b style="color:var(--gold)">BIG MOUNTAIN</b>, 사실은 진짜 <b style="color:var(--gold)">일산</b>이었다고양.<br>一山(하나의 산)이라 잘못 불렸지만, 원래 이름은 <b style="color:var(--gold)">한뫼</b>, '큰 산'이라고양.<br>넌 일산을 떠난 게 아니라 원래 크기의 일산으로 올라온 거라고양.<br>네가 되고 싶던 것도 결국 더 커진 <b style="color:var(--gold)">너 자신</b>이었다고양 🐾</div>`;
   $("#endTitle").textContent="합격이라고양! 🎓";
   beep("ok");
@@ -4414,7 +4415,7 @@ function msShuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.flo
 function msLine(m,retro){
   const n=m.toLocaleString('en-US');
   if(retro)return pick([`어느새 ${n}단어를 넘었다고양! 말도 없이 넘다니 괘씸하다고양 ✦`,`${n}단어, 몰래 넘었더라고양. 축하는 지금 몰아서 한다고양!`]);
-  return {1000:'천 단어 돌파라고양! 일산 출구 표지판이 보이기 시작한다고양 ✦',
+  return {1000:'천 단어 돌파라고양! 천은 기념해야 마땅하다고양! 아주 의미 있는 숫자라고양! …치가 떨린다고양! 어쩔 수 없다고양! ✦',   // 26.10.17 영신: "1000은 기념해야 마땅하다고양! 아주 의미있는 숫자라고양! 치가 떨린다고양! 어쩔수 없다고양! 이런식도 좋음" (숨은 저주의 천 명, PRINCIPLES 1)
     2000:'2,000단어라고양! BIG MOUNTAIN 냄새가 나기 시작한다고양.',
     3000:'3,000단어… 솔직히 좀 놀랐다고양. 티 내는 건 아니고양.',
     4000:'4,000단어라고양! 너 진짜 일산 탈출할 셈이냐고양?'}[m]||`${n}단어라고양…! 이제 내가 너한테 단어를 배워야겠다고양.`;

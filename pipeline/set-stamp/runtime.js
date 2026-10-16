@@ -1,7 +1,7 @@
 /* ===== 세트 완주 도장 · FABLE 엔딩 (26.10.14 영신) =====
    세트를 다 클리어하면 결과 화면에 그 세트에서 틀렸던 단어를 모두 모은다. 하나씩 누르면 발음이 나오고 줄이 사라진다.
    다 누르면 도장이 쾅 찍히고(고양누리길 완주 스탬프에서 착안), 다음 세트 문이 열린다. 틀린 단어가 없으면 바로 찍는다.
-   마지막 세트 도장 뒤에 FABLE 엔딩: 네가 쌓은 산 → 계약 → 한뫼 → 고양이 정체(ㅇㅅㅊ…) → 완주 배지.
+   마지막 세트 도장 뒤에 FABLE 엔딩: 네가 쌓은 산 → 계약 → 한뫼 → 고양이 정체(Youngs…) → 완주 배지.
    B1 범위는 25세트에서 1부 완결(산 절반 + C1 권유). 원리는 PRINCIPLES 15절. */
 var stKey='goyang-fable-stamps-v1',stReview=null,stSheetOpen=false,stFxAt=0,stPendingEnding=false;
 function stRead(){try{const o=JSON.parse(localStorage.getItem(stKey)||'null');return o&&typeof o==='object'&&!Array.isArray(o)?o:null;}catch(e){return null;}}
@@ -182,8 +182,8 @@ var FE_LINES={
     ['normal',"그리고 하나 더. 0세트에서 내가 말했지? '나는 고양이다. 이름은 아직 없다.'",null,null,'cat:normal'],
     ['sour','…그거 거짓말이라고양. 이름 있다고양.',null,null,'cat:sour'],
     ['normal','나도 인간일 때는 대학 갔었다고양… 03학번…',null,null,'03'],   // 26.10.16 영신: 6월 마더텅 엔딩의 이 대사를 "살리면 좋을거같습니다"
-    ['blank','내 정체는… ㅇㅅㅊ…',null,'slow','ieung'],
-    ['wicked','…흠흠, 아니다고양. 못 들은 걸로 하라고양.',null,null,'panic'],
+    ['blank','내 정체는… Youngs…',null,'slow','youngs'],   // 26.10.17 영신: "ㅇㅅㅊ라고 하기보다 Youngs....아니 왜 갑자기 혀가...흠흠! 이런식으로". 이름을 말하려 하면 혀가 꼬인다(숨은 저주, PRINCIPLES 1)
+    ['wicked','…아니, 왜 갑자기 혀가… 흠흠! 못 들은 걸로 하라고양.',null,null,'panic'],
     ['win','이건 완주 배지라고양. 잃어버려도 다시 안 준다고양. 잘 가라고양 🐾',null,'badge','study1']],
   b1:[
     ['win','시작이 반이라고양. 어느새 진짜 절반을 쌓았다고양.'],   // 26.10.16 영신: "시작이 반이라고양. 벌써 절반을 했다고양. 이런거", "벌써 말고 어느새?도 좋고"
@@ -436,7 +436,7 @@ function feBuild(){
     if(front.length||fgDirty||dOn){c=fctx;c.setTransform(FXR,0,0,FXR,0,0);c.clearRect(0,0,OW,OH);stepParts(front,c,dt,now,false);const lit=dStep(c,now);fgDirty=front.length>0||lit;}};
   /* 드론 쇼(26.10.16 영신: "이거 사실 하고 싶었는데 생각만 하고 있었어 !"). 일산호수공원 고양호수예술축제의 불꽃 드론처럼
      호수에 꺼진 채 늘어선 650대(고양이 픽셀 그림 한 칸에 한 대)가 대사에 맞춰 떠올라 모양을 바꾼다.
-     전체: 떠오름 → 一山 → 일산 → 고양이 얼굴(표정도 대사를 따라) → ㅇㅅㅊ(지직) → 흩어졌다 시치미 뗀 얼굴 → 착륙.
+     전체: 떠오름 → 一山 → 일산 → 고양이 얼굴(표정도 대사를 따라) → 03 → Youngs(지직) → 흩어졌다 시치미 뗀 얼굴 → 착륙.
      B1: 위쪽 점선 윤곽을 따라 늘어섬 → '?' → 착륙. 드론이 떠 있는 동안 작은 불꽃은 쉰다. 좌표는 무대 기준(대사 줄 수가 바뀌어 무대가 움직여도 산과 맞게). */
   const DN=650,drones=[];let dOn=false,dHold=false,dGlitch=false,dHomeSet=false,dSeq=0,dLogo=false,dSky=false,dTop=0;
   const SCRIPT="'Great Vibes','Snell Roundhand','Zapfino','Apple Chancery','Brush Script MT',cursive";
@@ -483,7 +483,7 @@ function feBuild(){
       let done=false;const once=()=>{if(!done){done=true;go();}};try{document.fonts.load("100px 'Great Vibes'",'Ilsan').then(once,once);}catch(e){once();}setTimeout(once,700);}
     else if(cmd==='study1')dForm(linesPts(topBox(),[['STUDY1',FONT,.82,.52,['#ffffff','#bba9ff','#ff9ccb','#ffffff']]]),{stagger:600,dur:1800});
     else if(cmd.startsWith('cat:'))dForm(catPts(cmd.slice(4)),{dur:1700});
-    else if(cmd==='ieung')dForm(textPts('ㅇㅅㅊ',['#78ffff','#ff5adc','#78ffff']),{dur:1300,glitch:true});
+    else if(cmd==='youngs')dForm(textPts('Youngs',['#78ffff','#ff5adc','#78ffff']),{dur:1300,glitch:true});   // 이름이 Youngs에서 끊긴다(26.10.17)
     else if(cmd==='panic'){dForm(scatterPts(),{stagger:120,dur:520});setTimeout(()=>now2(()=>dForm(catPts('wicked'),{stagger:250,dur:1100})),500);}
     else if(cmd==='outline')dForm(outlinePts(),{stagger:1100,dur:1900,ground:true});
     else if(cmd==='question')dForm(textPts('?',['#ffd34d','#ff9ccb','#bba9ff']),{dur:1500});

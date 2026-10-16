@@ -1,0 +1,85 @@
+{
+ "date": "2026-10-17",
+ "name": "cat-curse-20261017",
+ "status": "applied_locally_verified",
+ "authorization": "영신 26.10.17: \"D. 좋음. 고양이로 사는게 인간으로 사는것보다 낫다고양. 훨씬 깨끗하고...탄수화물다이어트도 하고...뭐 이런 개드립?\"",
+ "summary": "숨은 저주 설정(PRINCIPLES 1)의 정신승리 대사 두 장: 3세트 human ②(\"To make mistakes is human.\")에 \"human, 고양이로 사는 게 인간보다 낫다고양. 깨끗하고… 탄수화물 다이어트도 하고…\", 8세트 sleep ①(\"Although I was tired, I couldn't sleep at all.\")에 \"sleep, 고양이는 하루 열두 시간 넘게 잔다고양. 인간이 불쌍하다고양.\" 저주·재능·놀았던 일은 말하지 않는다.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "2daf279651f9088d7499c32e29ad31034b19aafe28b5e68167d875f0cd87e658",
+   "afterHash": "a0b81a8d8969136f21f4a3fb4899e11165e278035efc84593ec460ecfc3e1a74",
+   "changes": [
+    {
+     "path": [
+      3,
+      "exercises",
+      2,
+      "words",
+      13,
+      "meow"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": "human, 고양이로 사는 게 인간보다 낫다고양. 깨끗하고… 탄수화물 다이어트도 하고…"
+    },
+    {
+     "path": [
+      8,
+      "exercises",
+      6,
+      "words",
+      3,
+      "meow"
+     ],
+     "oldExists": false,
+     "newExists": true,
+     "new": "sleep, 고양이는 하루 열두 시간 넘게 잔다고양. 인간이 불쌍하다고양."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson03.json": {
+   "beforeHash": "0b5c7987ddd2a99d6ff758c0945a529bfba64c839b9afaf6d65010f9848b502c",
+   "afterHash": "45f3513df20284f494cd068e48408b13a966990fc3cdf86f845f3efbd4c9d4da"
+  },
+  "pipeline/out/set08.json": {
+   "beforeHash": "a1a9f0c4e591485705a4043521f8a1f29f6675eb9ee2d65ee1b6c4e1796c9fdd",
+   "afterHash": "b58428c5b12232191626991a017af168fb4c62abe93eb687fcd885a3757194de"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson03.json": [
+   {
+    "path": [
+     "exercises",
+     2,
+     "words",
+     13,
+     "meow"
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": "human, 고양이로 사는 게 인간보다 낫다고양. 깨끗하고… 탄수화물 다이어트도 하고…"
+   }
+  ],
+  "pipeline/out/set08.json": [
+   {
+    "path": [
+     6,
+     "words",
+     3,
+     "meow"
+    ],
+    "oldExists": false,
+    "newExists": true,
+    "new": "sleep, 고양이는 하루 열두 시간 넘게 잔다고양. 인간이 불쌍하다고양."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson03.json": [],
+  "pipeline/out/set08.json": []
+ }
+}
