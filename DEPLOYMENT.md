@@ -1,3 +1,12 @@
+# 고양고양이 숨은 설정(공부의 신의 저주) 대사 배포 · 2026-10-17
+
+- 커밋 [b2c6efe](https://github.com/esqsoy/vocagoyang/commit/b2c6efe)를 origin/main에 fast-forward로 푸시했다(e301a29 다음). [Pages 38947270153](https://github.com/esqsoy/vocagoyang/actions/runs/38947270153) 성공(2026-10-16 18:26:34 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 274b1e8, 수능 9c2440b, EBS e143546, index f7665dc). github.io는 이 세션에서 열지 않았다.
+- 포함: FABLE 엔딩 "내 정체는… Youngs…" → "…아니, 왜 갑자기 혀가… 흠흠!"(드론 Youngs), 마더텅·EBS 엔딩의 같은 대사와 "네가 대학 가면 저주가 한 명만큼 풀린다고양…", 세 과정 1,000단어 돌파 대사, 3세트 human ②·8세트 sleep ① 카드 대사(원장 cat-curse-20261017).
+- 배포 전 검사(b2c6efe와 같은 내용에서 새로 실행): 검사 45개, 발음 browser-stamp·stamp 통과. deepcheck A6 16·A8 1(전부터 있던 것, 새 대사 없음), ordercheck 앞당김 둘 이상 0. Chromium: FABLE 엔딩 Youngs 드론·흩어짐, 마더텅·EBS 엔딩 두 대사, 360px 1,000단어 돌파 말풍선(4줄), 페이지 오류 0. Safari 실기기 확인은 영신이 실제 플레이로(대기).
+
+---
+
 # FABLE 엔딩 '03학번' 대사 + 아스트라 10/17 리뷰 4건 수정 배포 · 2026-10-17
 
 - 커밋 [fad1fd7](https://github.com/esqsoy/vocagoyang/commit/fad1fd7)를 origin/main에 fast-forward로 푸시했다(0e996b9 아스트라 리뷰 다음). [Pages 38941933814](https://github.com/esqsoy/vocagoyang/actions/runs/38941933814) 성공(2026-10-16 17:44:46 UTC 완료 확인).

@@ -1849,3 +1849,5 @@
   - 1,000단어 돌파(`pipeline/milestones/runtime.js`, 세 과정): "천 단어 돌파라고양! 천은 기념해야 마땅하다고양! 아주 의미 있는 숫자라고양! …치가 떨린다고양! 어쩔 수 없다고양! ✦"(전 "일산 출구 표지판이 보이기 시작한다고양").
   - 카드 대사 두 장(원장 `cat-curse-20261017`, restore 맨 앞 층): 3세트 human ②, 8세트 sleep ①. 처음에 sleep ②(명사 '잠')에 달았다가 대사의 "잔다"가 동사라 "I couldn't sleep at all"인 ①로 옮겼다. human ①은 읽기량이 12초를 넘어 ②("To make mistakes is human.")에 달았다. meow 48자 제한 안.
   - 문서: PRINCIPLES 1 '숨은 설정: 공부의 신의 저주'(이유·결정자·드러나는 자리), PRINCIPLES 15·UI_STANDARD·set-stamp README·HANDOFF의 ㅇㅅㅊ → Youngs.
+- 검증(새로 실행): 검사 45개 통과, 발음 browser-stamp·stamp 통과, deepcheck A6 16·A8 1(전부터, 새 대사 없음), ordercheck 앞당김 둘 이상 0, 원장 되감기 해시 일치. Chromium으로 FABLE 엔딩 Youngs 드론, 마더텅·EBS 엔딩 두 대사, 360px 1,000단어 말풍선(4줄) 확인, 오류 0.
+- 배포: b2c6efe main fast-forward, Pages 38947270153 성공, 네 HTML blob SHA 일치([DEPLOYMENT](DEPLOYMENT.md)). 개발일지 드론 표·정체 장면·'숨은 설정' 문단도 고쳤다.
