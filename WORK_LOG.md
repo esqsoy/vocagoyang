@@ -1737,3 +1737,14 @@
   - 드론이 떠 있는 동안 작은 불꽃(`idle`)은 쉰다. 그러다 버그를 찾았다: 쌓는 동안 쓰는 불꽃 타이머가 다 쌓은 뒤에도 돌아 대사 중 불꽃이 idle과 따로 더 터지고 있었다(10/16 앞 배포들 포함). 쌓는 동안만 돌게 고쳤다. 대사 중 불꽃 간격은 이제 idle 하나(0.6~1초)다.
   - 검사용: `feState.drone(cmd)`로 바로 띄울 수 있다.
 - 검증(새로 실행): 검사 45개, 발음 browser-stamp·stamp 통과. Chromium 390×844: 대사를 넘기며 드론 장면마다 스크린샷(전체 8장면·B1 3장면, 흩어졌다 다시 모이기 시간대별), 실제 흐름(전체·B1, 0.5초 간격으로 빠르게 넘겨도), 동작 줄이기(드론 없음), 콘솔 오류 0.
+- 배포: cb35e73 main fast-forward, Pages 38860019462 성공(2026-10-16 06:14:28 UTC), 네 HTML blob SHA 일치(FABLE 67f0cf3).
+
+## 2026-10-16 · 노란 설명 '큰 산', 드론 영어·필기체·STUDY1, 날아드는 단어 광원
+
+- 영신: "노란 설명에서 한뫼->큰 산-> 으로 사이에 넣어줘야 이해갈거임", "조타", "멋지다 STUDY1 도 드론쇼 넣어쥬라 일산은 한자 말구 BIG MOUNT 같이 띄우자 근데 한뫼는 영어로 어떤 번역이 적절해? 아 그리고 일산 영어는 화려한 서체로", "날아들어가는 단어들은 광원효과 좀 드가듀 될듯".
+- 반영(`pipeline/set-stamp/runtime.js`):
+  - 노란 설명 '한뫼 → 큰 산 → 一山 → 일산'(한뫼·일산 두 대사).
+  - 드론: hanja(一山) → bigmt(BIG / MOUNTAIN 두 줄, 금빛). ilsan(일산) → 필기체 Ilsan + 아래 작은 BIG MOUNTAIN. 필기체는 엔딩을 열 때 Google Fonts Great Vibes를 Ilsan 글자만 받아 오고(`#feScript`), 0.7초 안에 못 받으면 기기 필기체(Snell Roundhand·Zapfino·Apple Chancery·Brush Script·cursive). 마지막 대사(배지)·B1 큰 도장 때 land 대신 화면 꼭대기 STUDY1 간판, 불꽃은 그 아래에서 다시 터진다. 명령 차례 번호로 늦은 콜백이 다음 모양을 덮지 않게.
+  - 한뫼 영어: 뜻 번역은 Great Mountain이 사전식, 로마자는 Hanmoe. 게임이 목적지를 BIG MOUNTAIN이라 불러 왔으므로 드론은 BIG MOUNTAIN(말장난 완성)으로 했다. 영신에게 대안으로 Great Mountain을 알렸다.
+  - 날아드는 단어: 같은 색 빛 번짐(뒤에 빛 방울을 늘여 깔기) + 날아갈 때 머리는 밝고 꼬리로 사라지는 혜성 꼬리.
+- 검증(새로 실행): 검사 45개, 발음 browser-stamp·stamp 통과. Chromium 390×844: 드론 장면(BIG MOUNTAIN·필기체 Ilsan·STUDY1과 그 아래 불꽃, B1 STUDY1), 날아드는 단어 빛 번짐·혜성 꼬리(30·56.5·57초), 실제 흐름(전체·B1), 동작 줄이기, 콘솔 오류 0. 헤드리스에는 Great Vibes가 없어 기기 필기체로 그려졌다(실기기 글꼴은 영신 확인).

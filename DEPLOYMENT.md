@@ -1,3 +1,12 @@
+# FABLE 엔딩 드론 쇼 배포 · 2026-10-16
+
+- 커밋 [cb35e73](https://github.com/esqsoy/vocagoyang/commit/cb35e73)를 origin/main에 fast-forward로 푸시했다(dff366b 다음). [Pages 38860019462](https://github.com/esqsoy/vocagoyang/actions/runs/38860019462) 성공(2026-10-16 06:14:28 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 67f0cf3, 수능 010e44e, EBS 1e87323, index f7665dc). github.io는 이 세션에서 열지 않았다.
+- 포함: 대사에 맞춘 드론 650대(一山 → 일산 → 고양이 얼굴 → ㅇㅅㅊ → 흩어짐 → 착륙, B1 점선 윤곽 → '?'), 다 쌓은 뒤 불꽃 타이머가 따로 돌던 버그 수정.
+- 배포 전 검사(cb35e73와 같은 내용에서 새로 실행): 검사 45개, 발음 browser-stamp·stamp 통과, Chromium 드론 장면·흐름·동작 줄이기, 콘솔 오류 0.
+
+---
+
 # FABLE 엔딩 둥근 봉우리·깃발 배포 · 2026-10-16
 
 - 커밋 [dff366b](https://github.com/esqsoy/vocagoyang/commit/dff366b)를 origin/main에 fast-forward로 푸시했다(1fb094c 다음). [Pages 38857908153](https://github.com/esqsoy/vocagoyang/actions/runs/38857908153) 성공(2026-10-16 05:51:39 UTC 완료 확인).

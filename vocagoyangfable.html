@@ -5790,20 +5790,20 @@ var FE_LINES={
     ['normal','처음 만났을 때 계약했지? 단어를 전부 익히면 이 도시에서 내보내 주겠다고양.'],
     ['win','약속은 약속이라고양. 계약 끝이라고양. 이제 어디든 가도 된다고양 ✦'],
     ['wicked','…근데 있잖냐고양. 네가 오른 BIG MOUNTAIN, 사실은 일산이었다고양.','BIG MOUNTAIN',null,'up'],
-    ['normal',"일산의 옛 이름은 한뫼, '큰 산'이라고양. 한자로 옮겨 적으니 一山이 된 거라고양.",'한뫼 → 一山 → 일산',null,'hanja'],
-    ['win','넌 일산을 떠난 게 아니라, 원래 크기의 일산에 올라온 거라고양 🌳','한뫼 → 一山 → 일산',null,'ilsan'],
+    ['normal',"일산의 옛 이름은 한뫼, '큰 산'이라고양. 한자로 옮겨 적으니 一山이 된 거라고양.",'한뫼 → 큰 산 → 一山 → 일산',null,'bigmt'],
+    ['win','넌 일산을 떠난 게 아니라, 원래 크기의 일산에 올라온 거라고양 🌳','한뫼 → 큰 산 → 一山 → 일산',null,'ilsan'],
     ['normal',"그리고 하나 더. 0세트에서 내가 말했지? '나는 고양이다. 이름은 아직 없다.'",null,null,'cat:normal'],
     ['sour','…그거 거짓말이라고양. 이름 있다고양.',null,null,'cat:sour'],
     ['blank','내 정체는… ㅇㅅㅊ…',null,'slow','ieung'],
     ['wicked','…아니다고양. 못 들은 걸로 하라고양.',null,null,'panic'],
-    ['win','이건 완주 배지라고양. 잃어버려도 다시 안 준다고양. 잘 가라고양 🐾',null,'badge','land']],
+    ['win','이건 완주 배지라고양. 잃어버려도 다시 안 준다고양. 잘 가라고양 🐾',null,'badge','study1']],
   b1:[
     ['win','티끌 모아 반 태산이라고양 ㅋ 한 단어 한 단어가 쌓여서 여기까지 왔다고양.'],
     ['win','반짝이는 건 틀렸다가 끝내 잡은 단어라고양. 제일 빛나는 게 걔들이라고양.'],
     ['normal','B1까지, 1부 끝이라고양. 솔직히… 잘했다고양. 딱 한 번만 말한다고양.'],
     ['wicked','근데 위쪽 점선 보이냐고양? 아직 아무도 안 쌓은 곳이라고양.',null,null,'outline'],
     ['evil','내 정체가 궁금하면 꼭대기까지 오라고양. C1을 누르면 산이 열린다고양 😼',null,null,'question'],
-    ['win','1부 도장 쾅이라고양. 배지는 꼭대기까지 와야 준다고양.',null,'badge','land']]
+    ['win','1부 도장 쾅이라고양. 배지는 꼭대기까지 와야 준다고양.',null,'badge','study1']]
 };
 function feHeads(sets){const u=new Set();sets.forEach(L=>visEx(L).forEach(e=>e.words.forEach(w=>{const k=msHead(w);if(k)u.add(k);})));return u.size;}
 function feOpen(mode){
@@ -5817,6 +5817,7 @@ function feOpen(mode){
 <div class="fe-act" hidden></div>
 <div class="fe-hint">눌러서 계속 ▸</div>`;
   document.body.appendChild(ov);document.body.classList.add('fe-on');
+  if(!document.getElementById('feScript')){const l=document.createElement('link');l.id='feScript';l.rel='stylesheet';l.href='https://fonts.googleapis.com/css2?family=Great+Vibes&text=Ilsan&display=swap';document.head.appendChild(l);}
   feState={mode,ov,sets,filled,step:-1,building:true,openedAt:Date.now(),raf:0,typing:0};
   setCat('feCat','normal');
   ov.querySelector('.fe-x').onclick=e=>{e.stopPropagation();feClose();};
@@ -5943,7 +5944,7 @@ function feBuild(){
     PALS=['trad','trad','trad','fan','gold','rose','lav','teal','sky'],pick=a=>a[(Math.random()*a.length)|0];
   const shells=[],parts=[],front=[],later=[];let lastFx=performance.now(),lastFw=-1e9,Q=1,ema=16,fgDirty=false,qLock=false;
   // 호수에서 쏘아 올려 하늘에서 터진다. 여러 발을 나란히(일제 사격)도 쏜다.
-  const launch=(kind,pal,big,x)=>{if(calm)return;x=x??OW*(.06+Math.random()*.88);const top=OH*.04,low=Math.max(top+40,offY+lakeY*.55);
+  const launch=(kind,pal,big,x)=>{if(calm)return;x=x??OW*(.06+Math.random()*.88);const top=dLogo?OH*.26:OH*.04,low=Math.max(top+40,offY+lakeY*.55);
     shells.push({x0:x+(Math.random()-.5)*50,y0:hid?OH:offY+lakeY,x,y:top+Math.random()*(low-top),t:performance.now(),dur:560+Math.random()*300,kind,pal,big,dbl:TRAD.includes(kind)&&Math.random()<.45});};
   const salvo=(k,kind,pal,big)=>{for(let i=0;i<k;i++)launch(kind||pick(KINDS),pal||pick(PALS),big,OW*((i+.5+(Math.random()-.5)*.5)/k));};
   const show=big=>{if(Math.random()<.45)salvo(2+((Math.random()*3)|0),null,null,big);else launch(pick(KINDS),pick(PALS),big);};
@@ -6019,7 +6020,8 @@ function feBuild(){
      호수에 꺼진 채 늘어선 650대(고양이 픽셀 그림 한 칸에 한 대)가 대사에 맞춰 떠올라 모양을 바꾼다.
      전체: 떠오름 → 一山 → 일산 → 고양이 얼굴(표정도 대사를 따라) → ㅇㅅㅊ(지직) → 흩어졌다 시치미 뗀 얼굴 → 착륙.
      B1: 위쪽 점선 윤곽을 따라 늘어섬 → '?' → 착륙. 드론이 떠 있는 동안 작은 불꽃은 쉰다. 좌표는 무대 기준(대사 줄 수가 바뀌어 무대가 움직여도 산과 맞게). */
-  const DN=650,drones=[];let dOn=false,dHold=false,dGlitch=false,dHomeSet=false;
+  const DN=650,drones=[];let dOn=false,dHold=false,dGlitch=false,dHomeSet=false,dSeq=0,dLogo=false;
+  const SCRIPT="'Great Vibes','Snell Roundhand','Zapfino','Apple Chancery','Brush Script MT',cursive";
   for(let i=0;i<DN;i++)drones.push({x:0,y:0,sx:0,sy:0,tx:0,ty:0,t0:0,d:0,dur:1,rgb:'255,255,255',nrgb:'255,255,255',a:0,la:0,lit:0});
   const dHome=()=>drones.forEach((d,i)=>{const r=((i*397)%DN)/DN;d.x=d.sx=d.tx=W*(.04+.92*r);d.y=d.sy=d.ty=lakeY+3+(i%3)*2.5;});
   const skyBox=()=>{if(f.mode==='b1'){const [,ty]=toS(wd.cx,wd.top),[,by]=toS(wd.cx,wd.bands[n-1].y0),h=by-ty;return {x0:W*.24,y0:ty+h*.3,x1:W*.76,y1:by-h*.06};}
@@ -6028,6 +6030,11 @@ function feBuild(){
   const maskPts=(box,draw)=>{const w=Math.max(8,Math.round(box.x1-box.x0)),h=Math.max(8,Math.round(box.y1-box.y0)),c=document.createElement('canvas');c.width=w;c.height=h;
     const g=c.getContext('2d');draw(g,w,h);const im=g.getImageData(0,0,w,h).data;let area=0;for(let i=3;i<im.length;i+=4)if(im[i]>128)area++;
     const st=Math.max(2,Math.sqrt(area/DN)),pts=[];for(let y=st/2;y<h;y+=st)for(let x=st/2;x<w;x+=st){const k=((y|0)*w+(x|0))*4;if(im[k+3]>128)pts.push([box.x0+x,box.y0+y,`${im[k]},${im[k+1]},${im[k+2]}`]);}return pts;};
+  // 맨 위 띠(STUDY1): 배지·큰 도장이 가운데를 차지해도 겹치지 않게 화면 꼭대기
+  const topBox=()=>({x0:-offX+OW*.06,y0:-offY+14,x1:-offX+OW*.84,y1:-offY+14+Math.min(110,OH*.13)});
+  // 여러 줄 글자: [글자, 글꼴, 줄 높이 비율, 세로 자리 비율, 색들]
+  const linesPts=(box,L)=>maskPts(box,(g,w,h)=>L.forEach(([txt,fam,hs,yr,cols,wt])=>{let sz=h*hs;g.font=`${wt||900} ${sz}px ${fam}`;const tw=g.measureText(txt).width;if(tw>w*.92){sz*=w*.92/tw;g.font=`${wt||900} ${sz}px ${fam}`;}
+    g.textAlign='center';g.textBaseline='middle';const gr=g.createLinearGradient(0,0,w,0);cols.forEach((c,i)=>gr.addColorStop(i/Math.max(1,cols.length-1),c));g.fillStyle=gr;g.fillText(txt,w/2,h*yr);}));
   const textPts=(txt,cols)=>maskPts(skyBox(),(g,w,h)=>{let sz=h*.92;g.font=`900 ${sz}px ${FONT}`;const tw=g.measureText(txt).width;if(tw>w*.9){sz*=w*.9/tw;g.font=`900 ${sz}px ${FONT}`;}
     g.textAlign='center';g.textBaseline='middle';const gr=g.createLinearGradient(0,0,w,0);cols.forEach((c,i)=>gr.addColorStop(i/Math.max(1,cols.length-1),c));g.fillStyle=gr;g.fillText(txt,w/2,h/2);});
   // 고양이 얼굴: 픽셀 그림(SVG 칸) 한 칸이 드론 한 대. 어두운 칸(테두리·눈)은 불을 끈 드론이라 눈이 까맣게 보인다.
@@ -6049,13 +6056,16 @@ function feBuild(){
     const key=p=>p[0]+p[1]*.37,D=drones.slice().sort((a,b)=>key([a.x,a.y])-key([b.x,b.y]));P.sort((a,b)=>key(a)-key(b));
     D.forEach((d,i)=>{const p=P[i];d.sx=d.x;d.sy=d.y;d.tx=p[0];d.ty=p[1];d.t0=now;d.d=(o.stagger||350)*Math.random();d.dur=o.dur||1500;d.la=d.a;d.lit=p[2]?1:0;if(p[2])d.nrgb=p[2];});
     dGlitch=!!o.glitch;};
-  f.drone=cmd=>{if(calm)return;dHold=cmd!=='land';
+  f.drone=cmd=>{if(calm)return;dHold=cmd!=='land'&&cmd!=='study1';dLogo=cmd==='study1';const id=++dSeq,now2=fn=>{if(id===dSeq&&feState===f)fn();};
     if(cmd==='up')dForm(gridPts(),{stagger:900,dur:1900});
-    else if(cmd==='hanja')dForm(textPts('一山',['#ffd34d','#fff1b8','#ffb347']),{dur:1600});
-    else if(cmd==='ilsan')dForm(textPts('일산',['#6fdcc6','#ffffff','#ff9ccb']),{dur:1600});
+    // 한뫼 = 큰 산 = BIG MOUNTAIN(게임이 처음부터 부르던 이름). 일산은 화려한 필기체 Ilsan 아래 BIG MOUNTAIN(26.10.16 영신: "일산은 한자 말구 BIG MOUNT 같이 띄우자", "일산 영어는 화려한 서체로").
+    else if(cmd==='bigmt')dForm(linesPts(skyBox(),[['BIG',FONT,.44,.27,['#ffd34d','#fff1b8','#ffb347']],['MOUNTAIN',FONT,.44,.75,['#ffb347','#fff1b8','#ffd34d']]]),{dur:1600});
+    else if(cmd==='ilsan'){const go=()=>now2(()=>dForm(linesPts(skyBox(),[['Ilsan',SCRIPT,.8,.4,['#ff9ccb','#ffffff','#6fdcc6'],400],['BIG MOUNTAIN',FONT,.17,.91,['#ffd34d','#fff1b8','#ffd34d']]]),{dur:1700}));
+      let done=false;const once=()=>{if(!done){done=true;go();}};try{document.fonts.load("100px 'Great Vibes'",'Ilsan').then(once,once);}catch(e){once();}setTimeout(once,700);}
+    else if(cmd==='study1')dForm(linesPts(topBox(),[['STUDY1',FONT,.82,.52,['#ffffff','#bba9ff','#ff9ccb','#ffffff']]]),{stagger:600,dur:1800});
     else if(cmd.startsWith('cat:'))dForm(catPts(cmd.slice(4)),{dur:1700});
     else if(cmd==='ieung')dForm(textPts('ㅇㅅㅊ',['#78ffff','#ff5adc','#78ffff']),{dur:1300,glitch:true});
-    else if(cmd==='panic'){dForm(scatterPts(),{stagger:120,dur:520});setTimeout(()=>{if(feState===f&&dHold)dForm(catPts('wicked'),{stagger:250,dur:1100});},500);}
+    else if(cmd==='panic'){dForm(scatterPts(),{stagger:120,dur:520});setTimeout(()=>now2(()=>dForm(catPts('wicked'),{stagger:250,dur:1100})),500);}
     else if(cmd==='outline')dForm(outlinePts(),{stagger:1100,dur:1900});
     else if(cmd==='question')dForm(textPts('?',['#ffd34d','#ff9ccb','#bba9ff']),{dur:1500});
     else if(cmd==='land')dForm(landPts(),{stagger:500,dur:1500});};
@@ -6065,7 +6075,7 @@ function feBuild(){
       if(d.a<.02)continue;any=true;let x=d.x+offX,y=d.y+offY,rgb=d.rgb;
       if(dGlitch&&Math.random()<.05){x+=(Math.random()-.5)*12;rgb=Math.random()<.5?'255,90,220':'120,255,255';}
       c.globalAlpha=d.a*(.82+.18*Math.sin(now*.005+d.tx*.3));c.drawImage(spr(rgb),x-2.4,y-2.4,4.8,4.8);}
-    c.globalAlpha=1;c.globalCompositeOperation='source-over';if(!any&&!dHold)dOn=false;return any;};
+    c.globalAlpha=1;c.globalCompositeOperation='source-over';if(!any&&!dHold&&!dLogo)dOn=false;return any;};
   // 산 그림: 다 내려앉은 단어(world)를 무대 크기로 줄여 둔다. 호수에는 산이 거꾸로 비친다.
   const mini=document.createElement('canvas');mini.width=cv.width;mini.height=cv.height;const mc=mini.getContext('2d');let miniAt=-1e9,landedTop=wd.base,dr0=null,bodyTop=null;
   const MT=[dpr*fit,0,0,dpr*fit,dpr*(W/2-wd.cx*fit),dpr*(lakeY-2-wd.base*fit)];
@@ -6091,11 +6101,16 @@ function feBuild(){
   ctx.font=`800 100px ${FONT}`;
   const spawn=q=>{const r=rate(q.t),gap=1000/r,slow=Math.max(0,Math.min(1,(70-r)/60));
     const w100=ctx.measureText(q.w.t).width||100,big=Math.min(22+20*slow,W*.84/w100*100),spread=Math.max(0,Math.min(1,(r-20)/140));   // 느려지면 한자리에서 하나씩(눈이 따라가지 않아도 읽히게)
-    flyers.push({q,t:q.t,hold:Math.min(440,gap*.8),fly:Math.max(300,Math.min(600,4000/r)),big,slow,jx:(Math.random()-.5)*W*.74*spread,jy:(Math.random()-.5)*lakeY*.4*spread});};
+    flyers.push({q,w100,t:q.t,hold:Math.min(440,gap*.8),fly:Math.max(300,Math.min(600,4000/r)),big,slow,jx:(Math.random()-.5)*W*.74*spread,jy:(Math.random()-.5)*lakeY*.4*spread});};
   const drawFlyer=(fl,el)=>{const q=fl.q,e=el-fl.t,[tx,ty]=toS(q.p.x+q.w.w*q.p.s/2,q.p.y+wd.F*q.p.s/2),sx=LX+fl.jx,sy=LY+fl.jy,end=Math.max(1.2,wd.F*fit*q.p.s);
     const pop=Math.min(1,e/70);let x=sx,y=sy,sz=fl.big*(.55+.45*(1-Math.pow(1-pop,3))),a=pop;
     // 떠날 때는 빨리 작아지며 가운데를 비운다. 다음 단어가 겹치지 않게.
     if(e>fl.hold){const pp=Math.min(1,(e-fl.hold)/fl.fly),m=1-Math.pow(1-pp,2.4);x=sx+(tx-sx)*m;y=sy+(ty-sy)*m;sz=sz+(end-sz)*(1-Math.pow(1-pp,4));a=1-.3*pp;}
+    // 광원(26.10.16 영신: "날아들어가는 단어들은 광원효과 좀 드가듀 될듯"): 글자 뒤 같은 색 빛 번짐, 날아갈 때는 빛 꼬리. 빛나는 건 단어 자신이다(PRINCIPLES 11).
+    const rgb=q.w.gold?'255,211,77':tint(wd.bands[q.i].L),gw=fl.w100*sz/100;ctx.setTransform(dpr,0,0,dpr,0,0);ctx.globalCompositeOperation='lighter';
+    if(e>fl.hold){const dx=tx-sx,dy=ty-sy,dl=Math.hypot(dx,dy)||1,tl=Math.min(60,sz*2),ex=x-dx/dl*tl,ey=y-dy/dl*tl,gr=ctx.createLinearGradient(x,y,ex,ey);   // 머리는 밝고 꼬리로 갈수록 사라지는 혜성 꼬리
+      gr.addColorStop(0,`rgba(${rgb},.6)`);gr.addColorStop(1,`rgba(${rgb},0)`);ctx.globalAlpha=a;ctx.strokeStyle=gr;ctx.lineWidth=Math.max(1,sz*.16);ctx.lineCap='round';ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(ex,ey);ctx.stroke();}
+    ctx.globalAlpha=a*(fl.slow>.2?.6:.4);ctx.drawImage(spr(rgb),x-gw*.8,y-sz*1.1,gw*1.6,sz*2.2);ctx.globalCompositeOperation='source-over';
     const k=sz/100;ctx.setTransform(dpr*k,0,0,dpr*k,dpr*x,dpr*y);ctx.globalAlpha=a;
     if(fl.slow>.2&&sz>12){ctx.shadowBlur=0;ctx.lineWidth=16;ctx.strokeStyle='rgba(16,6,30,.85)';ctx.strokeText(q.w.t,0,0);ctx.shadowColor=q.w.gold?'rgba(255,211,77,.8)':`rgba(${tint(wd.bands[q.i].L)},.55)`;ctx.shadowBlur=sz*.22*dpr;}else ctx.shadowBlur=0;
     ctx.fillStyle=q.w.gold?'#ffd34d':shade(wd.bands[q.i].L,q.i);ctx.fillText(q.w.t,0,0);};   // 처음부터 산에 앉을 색(26.10.16 영신: "최종색과 맞춰도 보기 좋을 것 같아")
