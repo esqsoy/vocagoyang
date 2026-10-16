@@ -1,3 +1,12 @@
+# FABLE 엔딩 날아오는 단어 최종 색 배포 · 2026-10-16
+
+- 커밋 [1db57d5](https://github.com/esqsoy/vocagoyang/commit/1db57d5)를 origin/main에 fast-forward로 푸시했다(e81788a 다음, 배포 기록 52d13be 포함). [Pages 38840448763](https://github.com/esqsoy/vocagoyang/actions/runs/38840448763) 실행 중(기록 시점 2026-10-16 02:27 UTC, 완료 미확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 7301199, 수능 010e44e, EBS 1e87323, index f7665dc). 바뀐 공개 파일은 FABLE 하나다. github.io는 이 세션에서 열지 않았다.
+- 포함: 엔딩에서 크게 뜨는 단어를 흰색 대신 산에 앉을 세트 색으로(틀렸던 단어는 금빛), 같은 색 빛 번짐 조금 줄임.
+- 배포 전 검사(1db57d5와 같은 내용에서 새로 실행): 검사 45개, 발음 browser-stamp·stamp 통과, Chromium 전체·B1 스크린샷과 실제 흐름(복습 → 도장 → 엔딩 → 배지) 콘솔 오류 0. 실기기 Safari는 확인하지 않았다.
+
+---
+
 # FABLE 엔딩 단어의 주마등·일산 불꽃놀이 배포 · 2026-10-15
 
 - 커밋 [e81788a](https://github.com/esqsoy/vocagoyang/commit/e81788a)를 origin/main에 fast-forward로 푸시했다. [Pages 38789117812](https://github.com/esqsoy/vocagoyang/actions/runs/38789117812) 성공(2026-10-15 18:52:27 UTC 완료 확인).
