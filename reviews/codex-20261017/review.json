@@ -1,0 +1,89 @@
+{
+  "review_date": "2026-10-17",
+  "base": "5b4ffeef72498a6a97cbc8146600496d2eb5abc8",
+  "head": "0d0f516ebe041a7a2bb2f9b20020584b4345e839",
+  "scope": "14 changed files; ending renderer, B1 stamp, live hash previews, pronunciation test fixture, docs; unchanged vocabulary checked for integrity, not re-read semantically",
+  "application_modified": false,
+  "findings": [
+    {
+      "id": "R17-01",
+      "priority": "P2",
+      "title": "Keep drone text within the available viewport sky",
+      "file": "pipeline/set-stamp/runtime.js",
+      "line_start": 445,
+      "line_end": 445,
+      "confidence": 1,
+      "introduced": true,
+      "trigger": "Full ending step 5 at 320x568 or 844x390; wait until BIG MOUNTAIN drone shape settles",
+      "observed": "Forcing skyBox to at least 90px overwrites the top viewport clamp. At 320x568, 169/650 drone centers are above the viewport and BIG disappears. At 844x390, 526/650 centers are above it.",
+      "expected": "Narrative drone text remains readable inside the viewport; intentional offscreen fireworks do not justify clipped letters.",
+      "recommendation": "Fit the drone shape to actual available sky or coordinate stage sizing. Keep the viewport top bound after applying minimum/preferred dimensions and dialogue layout changes.",
+      "evidence": ["renderer/browser-results.json", "renderer/smallphone-bigmountain.png", "renderer/landscape-bigmountain.png"]
+    },
+    {
+      "id": "R17-02",
+      "priority": "P2",
+      "title": "Restore source-over outside the glow comment before drawing letters",
+      "file": "pipeline/set-stamp/runtime.js",
+      "line_start": 546,
+      "line_end": 549,
+      "confidence": 1,
+      "introduced": true,
+      "trigger": "Full ending first highlighted reading message",
+      "observed": "The source-over assignment is part of the trailing // comment. Both strokeText and fillText run with lighter. Intended #9b85f2 adds to the glow and becomes nearly white; the dark outline no longer masks the light as intended.",
+      "expected": "Glow is additive, but the word retains its final set color and dark masking outline per the accepted design.",
+      "recommendation": "Move the composite reset into executable code after the glow and before the text. Preserve the approved glow design.",
+      "evidence": ["renderer/browser-results.json", "renderer/message-original.png", "renderer/message-source-over-proof.png", "evidence/full-2s.png"],
+      "proof_limit": "The source-over comparison only changes the review browser's in-memory drawing calls, not the application files."
+    },
+    {
+      "id": "R17-03",
+      "priority": "P3",
+      "title": "Protect an active timed question when opening a live hash preview",
+      "file": "pipeline/set-stamp/runtime.js",
+      "line_start": 649,
+      "line_end": 650,
+      "related": ["pipeline/set-stamp/runtime.js:619", "pipeline/milestones/runtime.js:379-384", "pipeline/milestones/runtime.js:401"],
+      "confidence": 1,
+      "introduced": true,
+      "trigger": "While a question is running, add #ending=b1 to the same page URL and wait beyond its remaining time",
+      "observed": "The ending covers the question but the ticker remains active. errors goes 0 to 1 and remaining 15 to 0. After close the original card reports timeout. Stamp and milestone previews also leave the timer running. Baseline live hash changes do not open these overlays.",
+      "expected": "Reviewing an effect should not turn a hidden question into an incorrect answer.",
+      "recommendation": "Defer live previews until outside gameplay or suspend and restore question time/input. Guard delayed callbacks and coalesce repeated preview requests.",
+      "evidence": ["flow/browser-flow.json", "flow/browser-flow-countercheck.json", "flow/live-ending-after-close.png"],
+      "scope_limit": "Preview-only path; normal B1/full completion has no active ticker. Permanent progress corruption was not established."
+    },
+    {
+      "id": "R17-04",
+      "priority": "P3",
+      "title": "Honor reduced motion for the new B1 stamping animation",
+      "file": "pipeline/set-stamp/style.css",
+      "line_start": 67,
+      "line_end": 72,
+      "confidence": 1,
+      "introduced": true,
+      "trigger": "Enable prefers-reduced-motion: reduce, open B1 ending and advance to the final stamp",
+      "observed": "JS fireworks and flying words are skipped, but the newly added festamp CSS animation still applies 1.9x scale, translation, and rotation for 0.55 seconds.",
+      "expected": "The new animation respects the motion preference while the completed stamp remains visible.",
+      "recommendation": "Disable festamp in the reduced-motion media query and explicitly apply final opacity/transform/filter. Check the existing parent endpop at the same time; animation:none alone leaves default st-ink opacity zero.",
+      "evidence": ["renderer/stamp-results.json", "renderer/b1-stamp-reduced.png"]
+    }
+  ],
+  "verification": {
+    "node_checks": {"passed": 51, "failed": 0},
+    "python_checks": {"passed": 2, "failed": 0},
+    "mock_sessions": 9360,
+    "unchanged_cards": {"fable": 8497, "mothertongue": 6498, "ebs": 597},
+    "real_browser": "Installed Chrome on Windows, fresh profiles; normal B1/full completion, real-time full ending, three-course pronunciation, stamp pronunciation",
+    "public_html_matches": 4,
+    "iphone_safari_tested": false,
+    "all_audio_human_listened": false,
+    "headless_frame_data_is_phone_benchmark": false
+  },
+  "not_new_findings": [
+    "Mountain canvas keeps its initial dimensions after rotation; baseline behavior",
+    "Existing stAfter 300ms transition callback lacks a fresh-session check; not counted as new",
+    "Fast dialogue advancement can overlap queued finale fireworks with drones; optional observation, not a confirmed priority finding",
+    "Approved spectacle density, long build sequence, 32 messages, and B1 stamp design"
+  ]
+}

@@ -1,0 +1,813 @@
+{
+  "baseline": "5b4ffeef72498a6a97cbc8146600496d2eb5abc8",
+  "target": "0d0f516ebe041a7a2bb2f9b20020584b4345e839",
+  "generatedAt": "2026-10-16T17:00:28.595Z",
+  "courses": [
+    {
+      "file": "vocagoyangfable.html",
+      "constants": [
+        {
+          "name": "DATA",
+          "unchanged": true,
+          "sha256": "2daf279651f9088d7499c32e29ad31034b19aafe28b5e68167d875f0cd87e658",
+          "entries": 51
+        },
+        {
+          "name": "IPA_EFFECT_MAPS",
+          "unchanged": true,
+          "sha256": "348f5a8ef457a25ddb974a787e870996a6b09fe07a3d0d2a41941a1e916f866e",
+          "entries": 5482
+        },
+        {
+          "name": "PRONUNCIATION_AUDIO_MAP",
+          "unchanged": true,
+          "sha256": "e5d79f26a461af8fc19959042e7d2aa9b4f0f36363d67459a46c63ce4a3b1b98",
+          "entries": 141
+        },
+        {
+          "name": "READING_CORE",
+          "unchanged": true,
+          "sha256": "8f83128cba4f6e27af48aa282282e073de9fdc7c392fa8e59985271f8631215e",
+          "entries": 4
+        },
+        {
+          "name": "MORPHOLOGY",
+          "unchanged": true,
+          "sha256": "d4911255020a52f360d7c239c65fa2f05d27cf3d1c6fe81b8b3dc0678ed17934",
+          "entries": 5
+        },
+        {
+          "name": "CONNECTIONS",
+          "unchanged": true,
+          "sha256": "d3e40c3564bf70ca2e376533e4bc3d03a1245ca5a656c8f52e2c3cb83d4c0c66",
+          "entries": 9
+        }
+      ],
+      "sets": 51,
+      "sourceGroups": 678,
+      "cards": 8497,
+      "headwords": 6198,
+      "playableExercises": 780,
+      "visibleSets": [
+        {
+          "lesson": 0,
+          "id": "0세트",
+          "exercises": 23,
+          "cards": 234
+        },
+        {
+          "lesson": 1,
+          "id": "1세트",
+          "exercises": 24,
+          "cards": 232
+        },
+        {
+          "lesson": 2,
+          "id": "2세트",
+          "exercises": 17,
+          "cards": 174
+        },
+        {
+          "lesson": 3,
+          "id": "3세트",
+          "exercises": 17,
+          "cards": 166
+        },
+        {
+          "lesson": 4,
+          "id": "4세트",
+          "exercises": 22,
+          "cards": 213
+        },
+        {
+          "lesson": 5,
+          "id": "5세트",
+          "exercises": 14,
+          "cards": 151
+        },
+        {
+          "lesson": 6,
+          "id": "6세트",
+          "exercises": 14,
+          "cards": 167
+        },
+        {
+          "lesson": 7,
+          "id": "7세트",
+          "exercises": 17,
+          "cards": 175
+        },
+        {
+          "lesson": 8,
+          "id": "8세트",
+          "exercises": 15,
+          "cards": 166
+        },
+        {
+          "lesson": 9,
+          "id": "9세트",
+          "exercises": 15,
+          "cards": 176
+        },
+        {
+          "lesson": 10,
+          "id": "10세트",
+          "exercises": 14,
+          "cards": 160
+        },
+        {
+          "lesson": 11,
+          "id": "11세트",
+          "exercises": 13,
+          "cards": 169
+        },
+        {
+          "lesson": 12,
+          "id": "12세트",
+          "exercises": 15,
+          "cards": 162
+        },
+        {
+          "lesson": 13,
+          "id": "13세트",
+          "exercises": 14,
+          "cards": 169
+        },
+        {
+          "lesson": 14,
+          "id": "14세트",
+          "exercises": 16,
+          "cards": 170
+        },
+        {
+          "lesson": 15,
+          "id": "15세트",
+          "exercises": 13,
+          "cards": 162
+        },
+        {
+          "lesson": 16,
+          "id": "16세트",
+          "exercises": 14,
+          "cards": 162
+        },
+        {
+          "lesson": 17,
+          "id": "17세트",
+          "exercises": 15,
+          "cards": 167
+        },
+        {
+          "lesson": 18,
+          "id": "18세트",
+          "exercises": 13,
+          "cards": 157
+        },
+        {
+          "lesson": 19,
+          "id": "19세트",
+          "exercises": 14,
+          "cards": 160
+        },
+        {
+          "lesson": 20,
+          "id": "20세트",
+          "exercises": 14,
+          "cards": 152
+        },
+        {
+          "lesson": 21,
+          "id": "21세트",
+          "exercises": 15,
+          "cards": 154
+        },
+        {
+          "lesson": 22,
+          "id": "22세트",
+          "exercises": 12,
+          "cards": 123
+        },
+        {
+          "lesson": 23,
+          "id": "23세트",
+          "exercises": 15,
+          "cards": 168
+        },
+        {
+          "lesson": 24,
+          "id": "24세트",
+          "exercises": 15,
+          "cards": 158
+        },
+        {
+          "lesson": 25,
+          "id": "25세트",
+          "exercises": 15,
+          "cards": 173
+        },
+        {
+          "lesson": 26,
+          "id": "26세트",
+          "exercises": 14,
+          "cards": 128
+        },
+        {
+          "lesson": 27,
+          "id": "27세트",
+          "exercises": 14,
+          "cards": 132
+        },
+        {
+          "lesson": 28,
+          "id": "28세트",
+          "exercises": 14,
+          "cards": 149
+        },
+        {
+          "lesson": 29,
+          "id": "29세트",
+          "exercises": 15,
+          "cards": 158
+        },
+        {
+          "lesson": 30,
+          "id": "30세트",
+          "exercises": 13,
+          "cards": 160
+        },
+        {
+          "lesson": 31,
+          "id": "31세트",
+          "exercises": 16,
+          "cards": 176
+        },
+        {
+          "lesson": 32,
+          "id": "32세트",
+          "exercises": 14,
+          "cards": 145
+        },
+        {
+          "lesson": 33,
+          "id": "33세트",
+          "exercises": 14,
+          "cards": 154
+        },
+        {
+          "lesson": 34,
+          "id": "34세트",
+          "exercises": 14,
+          "cards": 152
+        },
+        {
+          "lesson": 35,
+          "id": "35세트",
+          "exercises": 14,
+          "cards": 136
+        },
+        {
+          "lesson": 36,
+          "id": "36세트",
+          "exercises": 17,
+          "cards": 172
+        },
+        {
+          "lesson": 37,
+          "id": "37세트",
+          "exercises": 16,
+          "cards": 194
+        },
+        {
+          "lesson": 38,
+          "id": "38세트",
+          "exercises": 16,
+          "cards": 196
+        },
+        {
+          "lesson": 39,
+          "id": "39세트",
+          "exercises": 18,
+          "cards": 190
+        },
+        {
+          "lesson": 40,
+          "id": "40세트",
+          "exercises": 16,
+          "cards": 193
+        },
+        {
+          "lesson": 41,
+          "id": "41세트",
+          "exercises": 18,
+          "cards": 198
+        },
+        {
+          "lesson": 42,
+          "id": "42세트",
+          "exercises": 17,
+          "cards": 191
+        },
+        {
+          "lesson": 43,
+          "id": "43세트",
+          "exercises": 16,
+          "cards": 193
+        },
+        {
+          "lesson": 44,
+          "id": "44세트",
+          "exercises": 16,
+          "cards": 187
+        },
+        {
+          "lesson": 45,
+          "id": "45세트",
+          "exercises": 19,
+          "cards": 214
+        },
+        {
+          "lesson": 46,
+          "id": "46세트",
+          "exercises": 9,
+          "cards": 95
+        },
+        {
+          "lesson": 47,
+          "id": "47세트",
+          "exercises": 12,
+          "cards": 124
+        },
+        {
+          "lesson": 48,
+          "id": "48세트",
+          "exercises": 23,
+          "cards": 248
+        },
+        {
+          "lesson": 49,
+          "id": "49세트",
+          "exercises": 10,
+          "cards": 90
+        },
+        {
+          "lesson": 50,
+          "id": "50세트",
+          "exercises": 10,
+          "cards": 102
+        }
+      ],
+      "audioStats": {
+        "cards": 8497,
+        "alignedCards": 7454,
+        "wholeCards": 1043,
+        "forcedWholeCards": 0,
+        "labeledCards": 0,
+        "alternativeCards": 0,
+        "contextSpeechCards": 0,
+        "audioCards": 183,
+        "audioFiles": 139,
+        "uniquePairs": 6324,
+        "mapEntries": 5482,
+        "mapBytes": 383021,
+        "reasons": {
+          "no complete rule match": 907,
+          "unresolved phrase component": 32,
+          "unresolved syllable group": 74,
+          "punctuation or non-ASCII spelling": 30
+        }
+      }
+    },
+    {
+      "file": "vocagoyangksat2027.html",
+      "constants": [
+        {
+          "name": "DATA",
+          "unchanged": true,
+          "sha256": "3a8b01d1d9163af053408752dd812476df53e37bfc76d3eae487c7f029022719",
+          "entries": 17
+        },
+        {
+          "name": "IPA_EFFECT_MAPS",
+          "unchanged": true,
+          "sha256": "c2652d05873cd4cc9d8ad6d7c35911e1c63ee974c75dd69c39694d4345706b17",
+          "entries": 3231
+        },
+        {
+          "name": "PRONUNCIATION_AUDIO_MAP",
+          "unchanged": true,
+          "sha256": "4eafae40e078d3feffab8056b49bbeca023c09b5360f0127cfe14cabdacf0fe8",
+          "entries": 44
+        },
+        {
+          "name": "MT_PRONUNCIATIONS",
+          "unchanged": true,
+          "sha256": "5b10a5cc5d2af66900abce0125ece5fb8cc5577e38380024c9e1ebcec45d6f70",
+          "entries": 4028
+        }
+      ],
+      "sets": 17,
+      "sourceGroups": 521,
+      "cards": 6498,
+      "headwords": 4026,
+      "playableExercises": 161,
+      "visibleSets": [
+        {
+          "lesson": 1,
+          "id": "01강",
+          "exercises": 7,
+          "cards": 64
+        },
+        {
+          "lesson": 2,
+          "id": "02강",
+          "exercises": 7,
+          "cards": 67
+        },
+        {
+          "lesson": 3,
+          "id": "03강",
+          "exercises": 7,
+          "cards": 103
+        },
+        {
+          "lesson": 4,
+          "id": "04강",
+          "exercises": 7,
+          "cards": 136
+        },
+        {
+          "lesson": 5,
+          "id": "05강",
+          "exercises": 7,
+          "cards": 93
+        },
+        {
+          "lesson": 6,
+          "id": "06강",
+          "exercises": 7,
+          "cards": 117
+        },
+        {
+          "lesson": 7,
+          "id": "07강",
+          "exercises": 7,
+          "cards": 107
+        },
+        {
+          "lesson": 8,
+          "id": "08강",
+          "exercises": 7,
+          "cards": 35
+        },
+        {
+          "lesson": 9,
+          "id": "09강",
+          "exercises": 7,
+          "cards": 47
+        },
+        {
+          "lesson": 10,
+          "id": "10강",
+          "exercises": 14,
+          "cards": 84
+        },
+        {
+          "lesson": 11,
+          "id": "11강",
+          "exercises": 28,
+          "cards": 466
+        },
+        {
+          "lesson": 12,
+          "id": "12강",
+          "exercises": 7,
+          "cards": 101
+        },
+        {
+          "lesson": 13,
+          "id": "13강",
+          "exercises": 14,
+          "cards": 192
+        },
+        {
+          "lesson": 14,
+          "id": "14강",
+          "exercises": 14,
+          "cards": 212
+        },
+        {
+          "lesson": 15,
+          "id": "15강",
+          "exercises": 7,
+          "cards": 102
+        },
+        {
+          "lesson": 16,
+          "id": "16강",
+          "exercises": 7,
+          "cards": 82
+        },
+        {
+          "lesson": 17,
+          "id": "17강",
+          "exercises": 7,
+          "cards": 81
+        }
+      ],
+      "audioStats": {
+        "cards": 6498,
+        "alignedCards": 5268,
+        "wholeCards": 1230,
+        "forcedWholeCards": 137,
+        "labeledCards": 86,
+        "alternativeCards": 42,
+        "contextSpeechCards": 75,
+        "audioCards": 97,
+        "audioFiles": 44,
+        "uniquePairs": 4042,
+        "mapEntries": 3231,
+        "mapBytes": 280166,
+        "reasons": {
+          "no complete rule match": 781,
+          "punctuation or non-ASCII spelling": 101,
+          "labeled pronunciation": 86,
+          "unresolved syllable group": 130,
+          "different speech text": 51,
+          "unresolved phrase component": 80,
+          "ambiguous vowel alignment": 1
+        }
+      }
+    },
+    {
+      "file": "vocagoyangebs2027.html",
+      "constants": [
+        {
+          "name": "DATA",
+          "unchanged": true,
+          "sha256": "fd89a2d7f3c14f55cfa5dd9e85b4105bf5e7105124aadc02158400f8225ae62b",
+          "entries": 4
+        },
+        {
+          "name": "IPA_EFFECT_MAPS",
+          "unchanged": true,
+          "sha256": "bb6d87ea2e28487725a8646909b8e0e501a13c6e7980ac42b3163941335bd588",
+          "entries": 426
+        },
+        {
+          "name": "PRONUNCIATION_AUDIO_MAP",
+          "unchanged": true,
+          "sha256": "8ea9cc2d530ab89cd5b590ee7e10d6578df207765eea64c174e39bf7c15c9a15",
+          "entries": 22
+        },
+        {
+          "name": "MT_PRONUNCIATIONS",
+          "unchanged": true,
+          "sha256": "20014f6c401116a9931c97b8651bb015f7b4a703d46e6a115ca9e70e3854f296",
+          "entries": 545
+        }
+      ],
+      "sets": 4,
+      "sourceGroups": 48,
+      "cards": 597,
+      "headwords": 545,
+      "playableExercises": 48,
+      "visibleSets": [
+        {
+          "lesson": 1,
+          "id": "01강",
+          "exercises": 12,
+          "cards": 126
+        },
+        {
+          "lesson": 2,
+          "id": "02강",
+          "exercises": 12,
+          "cards": 136
+        },
+        {
+          "lesson": 3,
+          "id": "03강",
+          "exercises": 12,
+          "cards": 174
+        },
+        {
+          "lesson": 4,
+          "id": "04강",
+          "exercises": 12,
+          "cards": 161
+        }
+      ],
+      "audioStats": {
+        "cards": 597,
+        "alignedCards": 467,
+        "wholeCards": 130,
+        "forcedWholeCards": 31,
+        "labeledCards": 26,
+        "alternativeCards": 1,
+        "contextSpeechCards": 6,
+        "audioCards": 25,
+        "audioFiles": 22,
+        "uniquePairs": 547,
+        "mapEntries": 426,
+        "mapBytes": 37869,
+        "reasons": {
+          "labeled pronunciation": 26,
+          "no complete rule match": 66,
+          "punctuation or non-ASCII spelling": 11,
+          "unresolved syllable group": 9,
+          "unresolved phrase component": 13,
+          "different speech text": 5
+        }
+      }
+    }
+  ],
+  "changedFiles": [
+    "DEPLOYMENT.md",
+    "HANDOFF.md",
+    "PRINCIPLES.md",
+    "UI_STANDARD.md",
+    "WORK_LOG.md",
+    "pipeline/milestones/runtime.js",
+    "pipeline/pronunciation-audio/browser.test.cjs",
+    "pipeline/set-stamp/README.md",
+    "pipeline/set-stamp/runtime.js",
+    "pipeline/set-stamp/style.css",
+    "pipeline/tests/set-stamp.test.cjs",
+    "vocagoyangebs2027.html",
+    "vocagoyangfable.html",
+    "vocagoyangksat2027.html"
+  ],
+  "changedVocabularySources": [],
+  "messageWords": {
+    "requested": [
+      "reading",
+      "positive",
+      "good",
+      "believe",
+      "hope",
+      "study",
+      "opportunity",
+      "practice",
+      "imagine",
+      "dream",
+      "discover",
+      "strength",
+      "progress",
+      "adventure",
+      "wisdom",
+      "courage",
+      "challenge",
+      "hero",
+      "champion",
+      "passion",
+      "inspire",
+      "overcome",
+      "breakthrough",
+      "triumph",
+      "resilience",
+      "extraordinary",
+      "strive",
+      "soar",
+      "persist",
+      "vision",
+      "carry on",
+      "pay off"
+    ],
+    "inLearnedOrder": [
+      {
+        "term": "reading",
+        "set": 0
+      },
+      {
+        "term": "positive",
+        "set": 0
+      },
+      {
+        "term": "good",
+        "set": 1
+      },
+      {
+        "term": "believe",
+        "set": 2
+      },
+      {
+        "term": "hope",
+        "set": 2
+      },
+      {
+        "term": "study",
+        "set": 3
+      },
+      {
+        "term": "opportunity",
+        "set": 4
+      },
+      {
+        "term": "practice",
+        "set": 6
+      },
+      {
+        "term": "imagine",
+        "set": 7
+      },
+      {
+        "term": "dream",
+        "set": 8
+      },
+      {
+        "term": "discover",
+        "set": 8
+      },
+      {
+        "term": "strength",
+        "set": 10
+      },
+      {
+        "term": "progress",
+        "set": 10
+      },
+      {
+        "term": "adventure",
+        "set": 15
+      },
+      {
+        "term": "wisdom",
+        "set": 16
+      },
+      {
+        "term": "courage",
+        "set": 17
+      },
+      {
+        "term": "challenge",
+        "set": 21
+      },
+      {
+        "term": "hero",
+        "set": 24
+      },
+      {
+        "term": "champion",
+        "set": 24
+      },
+      {
+        "term": "passion",
+        "set": 25
+      },
+      {
+        "term": "inspire",
+        "set": 34
+      },
+      {
+        "term": "overcome",
+        "set": 34
+      },
+      {
+        "term": "breakthrough",
+        "set": 37
+      },
+      {
+        "term": "triumph",
+        "set": 37
+      },
+      {
+        "term": "resilience",
+        "set": 39
+      },
+      {
+        "term": "extraordinary",
+        "set": 40
+      },
+      {
+        "term": "strive",
+        "set": 41
+      },
+      {
+        "term": "soar",
+        "set": 44
+      },
+      {
+        "term": "persist",
+        "set": 45
+      },
+      {
+        "term": "vision",
+        "set": 48
+      },
+      {
+        "term": "carry on",
+        "set": 50
+      },
+      {
+        "term": "pay off",
+        "set": 50
+      }
+    ],
+    "unique": true,
+    "allExist": true
+  },
+  "limits": [
+    "Exact structural/data comparison, not a fresh semantic reread of every card.",
+    "Actual browser/audio validation is performed separately by the parent reviewer."
+  ]
+}
