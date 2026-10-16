@@ -69,4 +69,4 @@ html:has(body.fe-on){scrollbar-gutter:auto;}
 .fe-act{display:flex;gap:8px;width:min(100%,420px);}
 .fe-act button{flex:1;}
 .fe-hint{color:var(--muted);font-size:.76rem;opacity:.75;}
-@media (prefers-reduced-motion:reduce){.fe-pin-cat{animation:none;}.st-fx.hit .st-card{animation:none;}}
+@media (prefers-reduced-motion:reduce){.fe-pin-cat{animation:none;}.st-fx.hit .st-card{animation:none;}.fe-badge{animation:none;}.fe-bigstamp .st-ink{animation:none;opacity:.93;transform:rotate(-4deg);filter:none;}}   /* 큰 도장도 동작 줄이기에서는 찍힌 모습으로 바로(26.10.17 아스트라 R17-04) */

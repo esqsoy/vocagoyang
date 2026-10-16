@@ -114,6 +114,9 @@ for(const file of ['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyange
   h.run("location.hash='#milestone=2000'");assert.equal(h.ctx.msPreview(),true);h.advance(700);
   assert.deepEqual(shows.map(s=>[s.m,s.preview,s.words.length>=2000]),[[2000,true,true]]);
   assert(!h.storage.has(SEEN));
+  h.run("location.hash='#milestone=3000'");h.ctx.msPreview();h.advance(700);
+  assert.equal(shows.length,1,'떠 있는 미리보기 위에 또 붙여도 겹쳐 띄우지 않는다(26.10.17 아스트라 R17-03)');
+  h.ctx.msClose();   // 가짜 msShow는 닫기를 흉내 내지 않으므로 첫 미리보기를 닫는다
   h.run("location.hash='#milestone=1000&fx=warp'");h.ctx.msPreview();h.advance(700);
   assert.deepEqual(shows.map(s=>s.mode),[undefined,'warp'],'&fx=warp로 다가오는 단어(B) 후보를 미리 본다');
   assert.equal(h.run('msMode'),'warp','정식 축하는 저 멀리에서 날아오는 단어(far to near)');

@@ -4828,7 +4828,8 @@ function msPreview(){
   try{history.replaceState(null,'',location.pathname+location.search);}catch(e){}   // 붙인 주소를 지워 다시 붙여도 다시 뜨게(아래 hashchange)
   const n=Math.max(msStep,Math.floor((Number(m[1])||msStep)/msStep)*msStep);
   const words=msPreviewWords(n),miss=Object.keys(msMissed());
-  setTimeout(()=>msShow({m:n,total:n,retro:false,words,preview:true,mode:m[2],missed:miss.length?miss:words.filter((_,i)=>i%14===5)}),600);return true;   // 기록이 없으면 금빛 견본을 섞어 보여 준다
+  if(msBusy||msNode)return true;   // 이미 떠 있거나 예약돼 있으면 겹쳐 띄우지 않는다
+  msQueue({m:n,total:n,retro:false,words,preview:true,mode:m[2],missed:miss.length?miss:words.filter((_,i)=>i%14===5)});return true;   // 기록이 없으면 금빛 견본을 섞어 보여 준다. 판을 푸는 중이면 msQueue가 게임 밖으로 나올 때까지 미룬다(26.10.17 아스트라 R17-03)
 }
 var msOrigFinish=finishExercise,msOrigEnding=showEnding;
 finishExercise=function(){

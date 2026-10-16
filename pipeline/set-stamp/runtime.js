@@ -438,12 +438,13 @@ function feBuild(){
      호수에 꺼진 채 늘어선 650대(고양이 픽셀 그림 한 칸에 한 대)가 대사에 맞춰 떠올라 모양을 바꾼다.
      전체: 떠오름 → 一山 → 일산 → 고양이 얼굴(표정도 대사를 따라) → ㅇㅅㅊ(지직) → 흩어졌다 시치미 뗀 얼굴 → 착륙.
      B1: 위쪽 점선 윤곽을 따라 늘어섬 → '?' → 착륙. 드론이 떠 있는 동안 작은 불꽃은 쉰다. 좌표는 무대 기준(대사 줄 수가 바뀌어 무대가 움직여도 산과 맞게). */
-  const DN=650,drones=[];let dOn=false,dHold=false,dGlitch=false,dHomeSet=false,dSeq=0,dLogo=false;
+  const DN=650,drones=[];let dOn=false,dHold=false,dGlitch=false,dHomeSet=false,dSeq=0,dLogo=false,dSky=false,dTop=0;
   const SCRIPT="'Great Vibes','Snell Roundhand','Zapfino','Apple Chancery','Brush Script MT',cursive";
   for(let i=0;i<DN;i++)drones.push({x:0,y:0,sx:0,sy:0,tx:0,ty:0,t0:0,d:0,dur:1,rgb:'255,255,255',nrgb:'255,255,255',a:0,la:0,lit:0});
   const dHome=()=>drones.forEach((d,i)=>{const r=((i*397)%DN)/DN;d.x=d.sx=d.tx=W*(.04+.92*r);d.y=d.sy=d.ty=lakeY+3+(i%3)*2.5;});
   const skyBox=()=>{if(f.mode==='b1'){const [,ty]=toS(wd.cx,wd.top),[,by]=toS(wd.cx,wd.bands[n-1].y0),h=by-ty;return {x0:W*.24,y0:ty+h*.3,x1:W*.76,y1:by-h*.06};}
-    const [,py]=toS(wd.cx,wd.top),y1=py-18;let y0=Math.max(-offY+10,y1-170);if(y1-y0<90)y0=y1-90;return {x0:-offX+OW*.05,y0,x1:-offX+OW*.86,y1};};   // 오른쪽 위 ✕ 단추는 비운다
+    const [,py]=toS(wd.cx,wd.top);let y1=py-18,y0=Math.max(-offY+10,y1-170);if(y1-y0<90)y1=y0+90;return {x0:-offX+OW*.05,y0,x1:-offX+OW*.86,y1};};   // 오른쪽 위 ✕ 단추는 비운다. 하늘이 90px보다 좁으면(작은 폰·가로) 위로 밀어 화면 밖으로 내보내지 않고 아래로 넓혀 봉우리에 겹친다(26.10.17 아스트라 R17-01: 320×568에서 BIG이 잘렸다)
+  f._sky=()=>({box:skyBox(),offY,top:dTop,sky:dSky});   // 검사용: 드론 하늘 영역(무대 좌표)과 무대 위치
   // 칠한 그림에서 점을 고른다: 칠한 넓이로 간격을 정해 DN개쯤
   const maskPts=(box,draw)=>{const w=Math.max(8,Math.round(box.x1-box.x0)),h=Math.max(8,Math.round(box.y1-box.y0)),c=document.createElement('canvas');c.width=w;c.height=h;
     const g=c.getContext('2d');draw(g,w,h);const im=g.getImageData(0,0,w,h).data;let area=0;for(let i=3;i<im.length;i+=4)if(im[i]>128)area++;
@@ -473,7 +474,7 @@ function feBuild(){
     while(P.length<DN){const q=P.length?P[(Math.random()*P.length)|0]:[W/2,0,null];P.push([q[0],q[1],null]);}
     const key=p=>p[0]+p[1]*.37,D=drones.slice().sort((a,b)=>key([a.x,a.y])-key([b.x,b.y]));P.sort((a,b)=>key(a)-key(b));
     D.forEach((d,i)=>{const p=P[i];d.sx=d.x;d.sy=d.y;d.tx=p[0];d.ty=p[1];d.t0=now;d.d=(o.stagger||350)*Math.random();d.dur=o.dur||1500;d.la=d.a;d.lit=p[2]?1:0;if(p[2])d.nrgb=p[2];});
-    dGlitch=!!o.glitch;};
+    dGlitch=!!o.glitch;dSky=!o.ground;const lit=P.filter(p=>p[2]);dTop=lit.length?Math.min(...lit.map(p=>p[1])):0;};
   f.drone=cmd=>{if(calm)return;dHold=cmd!=='land'&&cmd!=='study1';dLogo=cmd==='study1';const id=++dSeq,now2=fn=>{if(id===dSeq&&feState===f)fn();};
     if(cmd==='up')dForm(gridPts(),{stagger:900,dur:1900});
     // 한뫼 = 큰 산 = BIG MOUNTAIN(게임이 처음부터 부르던 이름). 일산은 화려한 필기체 Ilsan 아래 BIG MOUNTAIN(26.10.16 영신: "일산은 한자 말구 BIG MOUNT 같이 띄우자", "일산 영어는 화려한 서체로").
@@ -484,14 +485,16 @@ function feBuild(){
     else if(cmd.startsWith('cat:'))dForm(catPts(cmd.slice(4)),{dur:1700});
     else if(cmd==='ieung')dForm(textPts('ㅇㅅㅊ',['#78ffff','#ff5adc','#78ffff']),{dur:1300,glitch:true});
     else if(cmd==='panic'){dForm(scatterPts(),{stagger:120,dur:520});setTimeout(()=>now2(()=>dForm(catPts('wicked'),{stagger:250,dur:1100})),500);}
-    else if(cmd==='outline')dForm(outlinePts(),{stagger:1100,dur:1900});
+    else if(cmd==='outline')dForm(outlinePts(),{stagger:1100,dur:1900,ground:true});
     else if(cmd==='question')dForm(textPts('?',['#ffd34d','#ff9ccb','#bba9ff']),{dur:1500});
     else if(cmd==='03')dForm(textPts('03',['#bba9ff','#ffffff','#ff9ccb']),{dur:1400});
-    else if(cmd==='land')dForm(landPts(),{stagger:500,dur:1500});};
+    else if(cmd==='land')dForm(landPts(),{stagger:500,dur:1500,ground:true});};
   const dStep=(c,now)=>{if(!dOn)return false;let any=false;c.globalCompositeOperation='lighter';
+    // 하늘 글자는 맨 위가 화면 안에 들게 통째로 내린다. 모양을 정한 뒤 대사 칸이 커져 무대가 올라가면 작은 화면에서 위가 잘렸다(26.10.17 아스트라 R17-01). 산 윤곽·착륙은 산에 붙어 있어야 하므로 뺀다.
+    const lift=dSky?Math.max(0,8-(offY+dTop)):0;
     for(const d of drones){const u=Math.min(1,Math.max(0,(now-d.t0-d.d)/d.dur)),e=u<.5?4*u*u*u:1-Math.pow(-2*u+2,3)/2;
       d.x=d.sx+(d.tx-d.sx)*e;d.y=d.sy+(d.ty-d.sy)*e;if(u>.45)d.rgb=d.nrgb;d.a=d.la+(d.lit-d.la)*Math.min(1,u*1.6);
-      if(d.a<.02)continue;any=true;let x=d.x+offX,y=d.y+offY,rgb=d.rgb;
+      if(d.a<.02)continue;any=true;let x=d.x+offX,y=d.y+offY+lift,rgb=d.rgb;
       if(dGlitch&&Math.random()<.05){x+=(Math.random()-.5)*12;rgb=Math.random()<.5?'255,90,220':'120,255,255';}
       c.globalAlpha=d.a*(.82+.18*Math.sin(now*.005+d.tx*.3));c.drawImage(spr(rgb),x-2.4,y-2.4,4.8,4.8);}
     c.globalAlpha=1;c.globalCompositeOperation='source-over';if(!any&&!dHold&&!dLogo)dOn=false;return any;};
@@ -545,7 +548,8 @@ function feBuild(){
     const rgb=q.w.gold?'255,211,77':tint(wd.bands[q.i].L),gw=fl.w100*sz/100;ctx.setTransform(dpr,0,0,dpr,0,0);ctx.globalCompositeOperation='lighter';
     if(e>fl.hold){const dx=tx-sx,dy=ty-sy,dl=Math.hypot(dx,dy)||1,tl=Math.min(60,sz*2),ex=x-dx/dl*tl,ey=y-dy/dl*tl,gr=ctx.createLinearGradient(x,y,ex,ey);   // 머리는 밝고 꼬리로 갈수록 사라지는 혜성 꼬리
       gr.addColorStop(0,`rgba(${rgb},.6)`);gr.addColorStop(1,`rgba(${rgb},0)`);ctx.globalAlpha=a;ctx.strokeStyle=gr;ctx.lineWidth=Math.max(1,sz*.16);ctx.lineCap='round';ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(ex,ey);ctx.stroke();}
-    const hh=fl.msg?Math.min(sz*1.4,y-4):sz*1.1;ctx.globalAlpha=a*(fl.msg?.55:fl.slow>.2?.6:.4);ctx.drawImage(spr(rgb),x-gw*(fl.msg?1:.8),y-hh,gw*(fl.msg?2:1.6),hh*2);   // 무대 위끝에서 잘려 네모 자국이 남지 않게ctx.globalCompositeOperation='source-over';
+    const hh=fl.msg?Math.min(sz*1.4,y-4):sz*1.1;ctx.globalAlpha=a*(fl.msg?.55:fl.slow>.2?.6:.4);ctx.drawImage(spr(rgb),x-gw*(fl.msg?1:.8),y-hh,gw*(fl.msg?2:1.6),hh*2);   // 무대 위끝에서 잘려 네모 자국이 남지 않게
+    ctx.globalCompositeOperation='source-over';   // 글자 본체와 어두운 테두리는 보통 합성으로(26.10.17 아스트라 R17-02: 이 줄이 위 주석 끝에 붙어 실행되지 않아 글자가 빛과 더해져 흰색에 가까웠다)
     const k=sz/100;ctx.setTransform(dpr*k,0,0,dpr*k,dpr*x,dpr*y);ctx.globalAlpha=a;
     if(fl.slow>.2&&sz>12){ctx.shadowBlur=0;ctx.lineWidth=16;ctx.strokeStyle='rgba(16,6,30,.85)';ctx.strokeText(q.w.t,0,0);ctx.shadowColor=q.w.gold?'rgba(255,211,77,.8)':`rgba(${tint(wd.bands[q.i].L)},.55)`;ctx.shadowBlur=sz*.22*dpr;}else ctx.shadowBlur=0;
     ctx.fillStyle=q.w.gold?'#ffd34d':shade(wd.bands[q.i].L,q.i);ctx.fillText(q.w.t,0,0);};   // 처음부터 산에 앉을 색(26.10.16 영신: "최종색과 맞춰도 보기 좋을 것 같아")
@@ -644,10 +648,20 @@ document.querySelector('.maproute')?.addEventListener('click',()=>{if(!feState&&
 /* 주소 끝 #stamp=12 · #ending · #ending=b1 → 저장하지 않고 연출만 미리 본다(영신 확인용, 돌파 축하의 #milestone과 같다). */
 /* 열려 있는 페이지 주소창에 #만 붙이면 브라우저가 새로 읽지 않는다(26.10.15 영신: "아래꺼 붙였더니 안돌아감").
    그래서 hashchange에서도 부르고, 띄운 뒤에는 주소의 #을 지워 같은 주소를 다시 붙여도 다시 뜨게 한다. */
+/* 판을 푸는 도중에 붙이면 미리보기가 문제를 가린 채 뒤에서 시간이 흘러 시간 초과가 됐다(26.10.17 아스트라 R17-03).
+   돌파 축하와 같이(msQueue) 판이 돌고 있으면 미뤘다가 게임 밖 화면으로 나올 때 띄운다. 예약은 하나만 두고, 이미 떠 있으면 겹쳐 띄우지 않는다. */
+var stPvTimer=0,stPvPending=null;   // var: 페이지를 열 때 stPreview가 이 줄보다 먼저 불린다(let이면 접근 오류)
 function stPreview(){
   const m=/^#(stamp|ending)(?:=(\w+))?$/i.exec(decodeURIComponent(location.hash||''));if(!m)return;   // #ending=B1처럼 대문자로 쳐도 1부 완결(26.10.15 영신 제보)
   try{history.replaceState(null,'',location.pathname+location.search);}catch(e){}
   m[1]=m[1].toLowerCase();m[2]=(m[2]||'').toLowerCase();
-  if(m[1]==='stamp'){const L=state.lessons.find(x=>x.kind!=='saved'&&String(x.lesson)===(m[2]||'0'));if(L)setTimeout(()=>stShow(L,{L,all:false},true),700);return;}
-  setTimeout(()=>feOpen(m[2]==='b1'?'b1':'full'),700);
+  clearTimeout(stPvTimer);stPvPending=null;stPvTimer=setTimeout(()=>stPvRun([m[1],m[2]]),700);
 }
+function stPvRun(p){
+  if(document.body.classList.contains('playing')){stPvPending=p;return;}
+  if(feState||document.getElementById('stFx'))return;
+  if(p[0]==='stamp'){const L=state.lessons.find(x=>x.kind!=='saved'&&String(x.lesson)===(p[1]||'0'));if(L)stShow(L,{L,all:false},true);return;}
+  feOpen(p[1]==='b1'?'b1':'full');
+}
+var stPvOrigShow=show;
+show=function(n){const r=stPvOrigShow.apply(this,arguments);if(n!=='game'&&stPvPending){const p=stPvPending;stPvPending=null;clearTimeout(stPvTimer);stPvTimer=setTimeout(()=>stPvRun(p),700);}return r;};
