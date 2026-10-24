@@ -1,3 +1,12 @@
+# 제작 표기에 STUDY1 블로그 링크 배포 · 2026-10-24
+
+- 커밋 [5ba456f](https://github.com/esqsoy/vocagoyang/commit/5ba456f)(m.blog 주소로 링크 추가, [Pages 40106839214](https://github.com/esqsoy/vocagoyang/actions/runs/40106839214) 성공)에 이어 [2c4453c](https://github.com/esqsoy/vocagoyang/commit/2c4453c)(영신이 준 PC 주소 https://blog.naver.com/study1study 로 바꿈)를 origin/main에 fast-forward로 푸시했다. [Pages 40107157236](https://github.com/esqsoy/vocagoyang/actions/runs/40107157236) 성공(2026-10-24 15:29:47 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 2b4f62b, 수능 68b9a83, EBS 4dcda5e, index 66d2930). github.io와 블로그 주소는 이 세션에서 열지 않았다(프록시가 naver 차단).
+- 포함: 교재 선택 화면과 세 과정 홈의 "STUDY1 국어 제작" 줄에 "블로그 ›"(새 탭, rel="noopener").
+- 배포 전 검사(2c4453c와 같은 내용에서 새로 실행): 검사 45개 통과. Chromium 360px 터치로 네 화면 모두 새 탭에 블로그 주소가 열리고 원래 화면·주소가 그대로, 페이지 오류 0. Safari 실기기는 보지 않았다.
+
+---
+
 # 제작 표기 "STUDY1 국어 제작" · 모비 딕 해석 배포 · 2026-10-24
 
 - 커밋 [f0a9c14](https://github.com/esqsoy/vocagoyang/commit/f0a9c14)를 origin/main에 fast-forward로 푸시했다(6ae28fb 옛 파일 보관 다음). [Pages 40101836437](https://github.com/esqsoy/vocagoyang/actions/runs/40101836437) 성공(2026-10-24 14:18:18 UTC 완료 확인).
