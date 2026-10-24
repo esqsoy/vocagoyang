@@ -1892,3 +1892,4 @@
   - 2세트 call ① "Call me Ishmael." 해석 "나를 이슈메일이라 불러 다오." → "이스마엘이라고 해.", 9세트 hide ① 해설의 이슈메일 → 이스마엘(원장 `ishmael-20261024`, restore 맨 앞 층). 해석 전체에서 옛 말투 어미를 찾아보니 나머지는 드라큘라 백작의 하오체 두 장과 햄릿 "그것이 문제로다"라서 그대로 두었다(Claude 판단).
   - 문서: PRINCIPLES 2-11 '해석은 옛 번역 말투로 굳히지 않는다', PRINCIPLES 8 '제작 표기는 들어오는 화면에만', UI_STANDARD 교재 선택 인덱스.
 - 검증(새로 실행): 검사 45개 통과, deepcheck A6 16·A8 1(전부터), ordercheck 앞당김 둘 이상 0, 원장 되감기 해시 일치. Chromium 360·390px에서 인덱스와 세 홈의 표기 위치(홈 맨 아래, 진행 막대 위), 가로 넘침 0, 페이지 오류 0.
+- 배포: f0a9c14 main fast-forward(6ae28fb 포함), Pages 40101836437 성공, 네 HTML blob SHA 일치([DEPLOYMENT](DEPLOYMENT.md)). 블로그 링크는 주소 대기.

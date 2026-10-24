@@ -1,3 +1,12 @@
+# 제작 표기 "STUDY1 국어 제작" · 모비 딕 해석 배포 · 2026-10-24
+
+- 커밋 [f0a9c14](https://github.com/esqsoy/vocagoyang/commit/f0a9c14)를 origin/main에 fast-forward로 푸시했다(6ae28fb 옛 파일 보관 다음). [Pages 40101836437](https://github.com/esqsoy/vocagoyang/actions/runs/40101836437) 성공(2026-10-24 14:18:18 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE 52d77cb, 수능 b6b2fcc, EBS d2d4d47, index 73ad91d). github.io는 이 세션에서 열지 않았다.
+- 포함: 교재 선택 화면 맨 아래와 세 과정 홈 맨 아래 "STUDY1 국어 제작"(블로그 링크는 주소 대기), 2세트 call ① 해석 "이스마엘이라고 해."와 9세트 hide ① 해설 이름(원장 ishmael-20261024). 6ae28fb(history/·EBS 갱신 자료, 게임 HTML 변화 없음)도 이 앞에 main에 들어갔다.
+- 배포 전 검사(f0a9c14와 같은 내용에서 새로 실행): 검사 45개 통과, deepcheck A6 16·A8 1(전부터), ordercheck 앞당김 둘 이상 0, 원장 되감기 해시 일치. Chromium 360·390px에서 인덱스·세 홈의 표기 위치, 가로 넘침 0, 페이지 오류 0. Safari 실기기는 보지 않았다.
+
+---
+
 # 고양고양이 숨은 설정(공부의 신의 저주) 대사 배포 · 2026-10-17
 
 - 커밋 [b2c6efe](https://github.com/esqsoy/vocagoyang/commit/b2c6efe)를 origin/main에 fast-forward로 푸시했다(e301a29 다음). [Pages 38947270153](https://github.com/esqsoy/vocagoyang/actions/runs/38947270153) 성공(2026-10-16 18:26:34 UTC 완료 확인).

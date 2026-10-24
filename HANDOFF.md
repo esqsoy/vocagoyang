@@ -4,7 +4,7 @@
 
 ## 2026-10-24 · 제작 표기 · 모비 딕 해석
 
-- 교재 선택 화면 맨 아래와 세 과정 홈 맨 아래에 "**STUDY1** 국어 제작"(소연 요청, 영신 "1번 2번 넣자"). **블로그 링크는 주소 대기.** 받으면 네 HTML의 같은 줄에 `<a href="…" target="_blank" rel="noopener">블로그 ›</a>`를 붙인다(CSS `.foot .credit a`·`.homeCredit a`는 이미 있음). 기준은 [PRINCIPLES 8](PRINCIPLES.md#8-한국어-표기화면-표시)·[UI_STANDARD](UI_STANDARD.md#교재-선택-인덱스).
+- 교재 선택 화면 맨 아래와 세 과정 홈 맨 아래에 "**STUDY1** 국어 제작"(소연 요청, 영신 "1번 2번 넣자"). 배포 완료(`f0a9c14`, Pages 40101836437 성공, [DEPLOYMENT](DEPLOYMENT.md)). **블로그 링크는 주소 대기.** 받으면 네 HTML의 같은 줄에 `<a href="…" target="_blank" rel="noopener">블로그 ›</a>`를 붙인다(CSS `.foot .credit a`·`.homeCredit a`는 이미 있음). 기준은 [PRINCIPLES 8](PRINCIPLES.md#8-한국어-표기화면-표시)·[UI_STANDARD](UI_STANDARD.md#교재-선택-인덱스).
 - "Call me Ishmael." 해석 → "이스마엘이라고 해."(영신), 9세트 hide 해설 이름도 이스마엘(원장 `ishmael-20261024`). [PRINCIPLES 2-11](PRINCIPLES.md#2-11-소설-명문장).
 
 ## 2026-10-19 · 옛 파일 보관과 EBS 갱신 자료
