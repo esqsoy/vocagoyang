@@ -1,0 +1,89 @@
+{
+ "date": "2026-10-24",
+ "name": "ishmael-20261024",
+ "status": "applied_locally_verified",
+ "authorization": "영신 26.10.24: \"call me ismael 번역이 너무 고풍스러워 물론 번역본마다 다르겠지만 이스마엘이라고 해 정도가 적당하다는게 내 생각이야 난 이스마엘이 이리와 앉아봐라 내가 지금부터 개쩌는 이야기를 들려줄테니 하고 푸는 썰로 읽었거든\"",
+ "summary": "『모비 딕』 첫 문장 카드(2세트 call ①)의 해석을 \"나를 이슈메일이라 불러 다오.\" → \"이스마엘이라고 해.\"로. 같은 인물이 나오는 9세트 hide ① 해설의 이름 표기도 이슈메일 → 이스마엘로 맞췄다.",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "a0b81a8d8969136f21f4a3fb4899e11165e278035efc84593ec460ecfc3e1a74",
+   "afterHash": "1862e611bc72e71ca611f75f97f2ec4055bedb03ee5c91ea5b94ebee31626ff6",
+   "changes": [
+    {
+     "path": [
+      2,
+      "exercises",
+      3,
+      "words",
+      10,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "나를 이슈메일이라 불러 다오.",
+     "new": "이스마엘이라고 해."
+    },
+    {
+     "path": [
+      9,
+      "exercises",
+      2,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "멜빌 『모비 딕』에서 이슈메일이 퀴퀘그를 보고. hide-hid-hidden.",
+     "new": "멜빌 『모비 딕』에서 이스마엘이 퀴퀘그를 보고. hide-hid-hidden."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/lesson02.json": {
+   "beforeHash": "b0716c41be6eb437aa22480ddb09c871a843ccafdabca228a55ee981bb85bb26",
+   "afterHash": "dbbaeffef78b679b739885554b6bbec83c284fb0a2296a1ad9b6c010a3d0a016"
+  },
+  "pipeline/out/set09.json": {
+   "beforeHash": "ae7280b9a72dbd04dd8aaf016f2a4fefa6052e61edc5112f86eee7b6da6773ae",
+   "afterHash": "ce0e47fbafa4203082c3410b269928c31e7cfdc70531b3b6e606c98f3bb09342"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/lesson02.json": [
+   {
+    "path": [
+     "exercises",
+     3,
+     "words",
+     10,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "나를 이슈메일이라 불러 다오.",
+    "new": "이스마엘이라고 해."
+   }
+  ],
+  "pipeline/out/set09.json": [
+   {
+    "path": [
+     2,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "멜빌 『모비 딕』에서 이슈메일이 퀴퀘그를 보고. hide-hid-hidden.",
+    "new": "멜빌 『모비 딕』에서 이스마엘이 퀴퀘그를 보고. hide-hid-hidden."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/lesson02.json": [],
+  "pipeline/out/set09.json": []
+ }
+}
