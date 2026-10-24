@@ -1894,3 +1894,4 @@
 - 검증(새로 실행): 검사 45개 통과, deepcheck A6 16·A8 1(전부터), ordercheck 앞당김 둘 이상 0, 원장 되감기 해시 일치. Chromium 360·390px에서 인덱스와 세 홈의 표기 위치(홈 맨 아래, 진행 막대 위), 가로 넘침 0, 페이지 오류 0.
 - 배포: f0a9c14 main fast-forward(6ae28fb 포함), Pages 40101836437 성공, 네 HTML blob SHA 일치([DEPLOYMENT](DEPLOYMENT.md)). 블로그 링크는 주소 대기.
 - 이어서 영신이 블로그 주소를 줬다(https://m.blog.naver.com/study1study). 네 HTML의 같은 줄에 "블로그 ›"(새 탭, `rel="noopener"`, 누르는 자리 약 56×31px)를 붙였다. 이 세션에서는 프록시가 naver를 막아 주소가 열리는지는 확인하지 못했고, 받은 주소를 그대로 썼다. Chromium 360px 터치로 네 화면 모두 새 탭이 열리고 원래 화면·주소가 그대로인 것, 페이지 오류 0을 확인했다. 검사 45개 통과.
+- 바로 이어서 영신이 PC 주소를 줬다(https://blog.naver.com/study1study). 네 HTML과 문서의 주소를 이것으로 바꿨다. Chromium 360px 터치로 네 화면 모두 새 탭에 이 주소가 열리는 것을 다시 확인했고, 검사 45개 통과.
