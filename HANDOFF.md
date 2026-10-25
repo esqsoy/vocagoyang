@@ -2,9 +2,9 @@
 
 갱신: 2026-10-24 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
 
-## 2026-10-24 · 제작 표기 · 모비 딕 해석
+## 2026-10-24~25 · 학원 소개 줄 · 모비 딕 해석
 
-- 교재 선택 화면 맨 아래와 세 과정 홈 맨 아래에 "**STUDY1** 국어 제작"(소연 요청, 영신 "1번 2번 넣자"). 배포 완료(`f0a9c14`, Pages 40101836437 성공, [DEPLOYMENT](DEPLOYMENT.md)). 같은 줄 "블로그 ›"는 https://blog.naver.com/study1study를 새 탭으로 연다(10/24 영신이 준 주소, 배포 `2c4453c` Pages 성공). 주소를 바꿀 때는 네 HTML(index·세 과정)의 같은 줄을 함께 고친다. 기준은 [PRINCIPLES 8](PRINCIPLES.md#8-한국어-표기화면-표시)·[UI_STANDARD](UI_STANDARD.md#교재-선택-인덱스).
+- 교재 선택 화면 맨 아래와 세 과정 홈 맨 아래에 "**STUDY1** 국어 블로그 ›"(소연 요청, 영신 "1번 2번 넣자"). 줄 전체가 https://blog.naver.com/study1study 링크이고 새 탭으로 연다. 10/24에는 "STUDY1 국어 제작 · 블로그 ›"였고, 10/25 영신이 '제작'을 빼고 학원 소개로 바꾸자고 했다. 주소를 바꿀 때는 네 HTML(index·세 과정)의 같은 줄을 함께 고친다. 기준은 [PRINCIPLES 8](PRINCIPLES.md#8-한국어-표기화면-표시)·[UI_STANDARD](UI_STANDARD.md#교재-선택-인덱스).
 - "Call me Ishmael." 해석 → "이스마엘이라고 해."(영신), 9세트 hide 해설 이름도 이스마엘(원장 `ishmael-20261024`). [PRINCIPLES 2-11](PRINCIPLES.md#2-11-소설-명문장).
 
 ## 2026-10-19 · 옛 파일 보관과 EBS 갱신 자료

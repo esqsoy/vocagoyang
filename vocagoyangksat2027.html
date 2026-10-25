@@ -119,9 +119,9 @@ body.playing .app{gap:8px;padding:max(6px,env(safe-area-inset-top)) 6px max(8px,
 #gameScreen{gap:8px;}
 @keyframes lift{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
 
-.homeCredit{margin:16px 0 4px;text-align:center;font-size:.78rem;font-weight:800;letter-spacing:.4px;color:var(--muted);opacity:.9;}
+.homeCredit{margin:8px 0 0;text-align:center;font-size:.78rem;font-weight:800;letter-spacing:.4px;color:var(--muted);opacity:.9;}
 .homeCredit b{color:var(--pink2);}
-.homeCredit a{color:var(--pink2);text-decoration:none;padding:8px 4px;}
+.homeCredit a{display:inline-block;padding:8px 12px;color:inherit;text-decoration:none;}
 .panel{border:2px solid var(--line);border-radius:var(--radius);
   background:linear-gradient(135deg,rgba(255,255,255,.05),transparent 42%),var(--panel);
   box-shadow:var(--shadow);}
@@ -1504,7 +1504,7 @@ body.playing .appbar{display:flex;padding:0 5px;}
         <button class="btn resume" id="resumeBtn" type="button" hidden><span class="resume-heading"><span>▶ 이어 하기</span><small id="resumeSub"></small></span></button>
         <div class="grid" id="lessonGrid" style="padding:0 13px 13px;"></div>
       </div>
-      <p class="homeCredit"><b>STUDY1</b> 국어 제작 · <a href="https://blog.naver.com/study1study" target="_blank" rel="noopener">블로그 ›</a></p>
+      <p class="homeCredit"><a href="https://blog.naver.com/study1study" target="_blank" rel="noopener"><b>STUDY1</b> 국어 블로그 ›</a></p>
     </section>
 
     <!-- LESSON -->
