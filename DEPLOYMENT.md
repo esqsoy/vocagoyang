@@ -1,3 +1,12 @@
+# FABLE 대체 정답(ALT) 12곳 정리 배포 · 2026-10-26
+
+- 커밋 [13cfe47](https://github.com/esqsoy/vocagoyang/commit/13cfe47)를 origin/main에 fast-forward로 푸시했다(434f0a7 다음). [Pages 40264351175](https://github.com/esqsoy/vocagoyang/actions/runs/40264351175) 성공(2026-10-26 03:30:38 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE db94d3a, 수능 51008be, EBS 729838d, index 6c557dd). github.io는 이 세션에서 열지 않았다.
+- 포함: FABLE `const ALT`에서 카드 예문에 맞지 않는 별칭 12곳 삭제(post② mail, further② farther, hall① hallway, machinery① machines, attorney① lawyer, candy① sweet, flu① influenza, vet① veterinary, caption② subtitle, cooker① stove·range, lorry① truck, outward① outwards). 카드 데이터·마더텅·EBS는 그대로.
+- 배포 전 검사(13cfe47와 같은 내용에서 새로 실행): 검사 45개 통과. Chromium에서 판정 함수로 바뀐 별칭 오답·남은 별칭 정답 확인, 페이지 오류 0. Safari 실기기는 보지 않았다.
+
+---
+
 # 연습 목록 화면 학원 소개 줄 배포 · 2026-10-26
 
 - 커밋 [434f0a7](https://github.com/esqsoy/vocagoyang/commit/434f0a7)를 origin/main에 fast-forward로 푸시했다(0b6bcd2 다음). [Pages 40263817300](https://github.com/esqsoy/vocagoyang/actions/runs/40263817300) 성공(2026-10-26 03:23:55 UTC 완료 확인).

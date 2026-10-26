@@ -1918,3 +1918,4 @@
 - 대조: 별칭 251개를 FABLE 카드 예문에 하나씩 넣어 Claude가 읽었다(카드가 없는 별칭 42개는 쓰이지 않음). 문장에 넣으면 틀린 영어가 되는 12곳을 뺐다: post② mail, further② farther, hall① hallway, machinery① machines, attorney① lawyer, candy① sweet(sweets는 유지), flu① influenza, vet① veterinary(veterinarian은 유지), caption② subtitle, cooker① stove·range, lorry① truck, outward① outwards. 마더텅·EBS에는 ALT가 없다. 49·50세트 `acceptedAnswers`(문장별 정답)는 범위 밖.
 - 문서: PRINCIPLES 6에 '별칭은 그 카드 예문 빈칸에 넣어도 맞는 영어일 때만', WORK_PLAN의 '기존 예외 목록 별도 검수' 항목에 결과.
 - 검증(새로 실행): Chromium에서 판정 함수로 post②←mail 오답, post②←post·mail①←post·until←till·further①←farther 정답, lorry←truck·cooker←stove·candy←sweet·further②←farther 오답, candy←sweets·vet←veterinarian 정답, 페이지 오류 0. 검사 45개 통과.
+- 배포: 13cfe47 main fast-forward, Pages 40264351175 성공, 네 HTML blob SHA 일치([DEPLOYMENT](DEPLOYMENT.md)).
