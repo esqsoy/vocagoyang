@@ -1,3 +1,12 @@
+# 연습 목록 화면 학원 소개 줄 배포 · 2026-10-26
+
+- 커밋 [434f0a7](https://github.com/esqsoy/vocagoyang/commit/434f0a7)를 origin/main에 fast-forward로 푸시했다(0b6bcd2 다음). [Pages 40263817300](https://github.com/esqsoy/vocagoyang/actions/runs/40263817300) 성공(2026-10-26 03:23:55 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE ee5f5d2, 수능 51008be, EBS 729838d, index 6c557dd). github.io는 이 세션에서 열지 않았다.
+- 포함: 세 과정 연습 목록 화면(`#lessonScreen`) 맨 아래 "STUDY1 국어 블로그 ›".
+- 배포 전 검사(434f0a7와 같은 내용에서 새로 실행): 검사 45개 통과. Chromium 360px에서 세 과정 첫 세트·강의 연습 목록 맨 아래 표시, 누르면 새 탭에 블로그 주소, 원래 화면 그대로, 가로 넘침 0, 페이지 오류 0.
+
+---
+
 # 학원 소개 줄 "STUDY1 국어 블로그 ›" 배포 · 2026-10-25
 
 - 커밋 [e948083](https://github.com/esqsoy/vocagoyang/commit/e948083)를 origin/main에 fast-forward로 푸시했다(394d44c 다음). [Pages 40216998101](https://github.com/esqsoy/vocagoyang/actions/runs/40216998101) 성공(2026-10-25 17:33:39 UTC 완료 확인).

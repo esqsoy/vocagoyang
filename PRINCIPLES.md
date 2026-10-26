@@ -449,6 +449,11 @@
 - 사례: 26.9.15 영신 제보 "맞춰도 따라쓰게 나와버리는데?" 시간 종료를 오답으로 처리하던 버그였다.
 - **철자 변형은 영국식 -ise와 띄어쓰기 차이만 맞다고 한다.** (26.10.15 아스트라 리뷰 T01, Claude 수정) 전에는 단어 전체의 z를 s로 바꿔 비교해서 bus 카드에 buz, zoo에 soo를 쳐도 맞다고 하고 복습에서도 뺐다. 철자를 가르치는 게임에서 오자를 맞다고 하면 안 된다. 이제 표제어가 -ize·-yze 꼴일 때 그 z 한 자리만 s로 본다(realise·organisation·analyse는 맞고 sise·citisen·exercize는 틀림). 세 교재 같다.
 
+- **별칭(대체 정답)은 그 카드의 예문 빈칸에 넣어도 맞는 영어일 때만 둔다.** FABLE의 `ALT`는 till/until, cheque/check처럼 같은 말의 지역·격식 변형을 맞다고 해 주고 "이 책은 ○○로 쓴다고양"으로 안내한다. 별칭은 표제어·뜻 번호에 붙지만 맞는지는 문장이 정한다.
+  - 사례(26.10.26 영신 제보: "post 에 mail이라고 쳐도 포스트 발음이 나오고 정답처리되는걸 발견했어"): post ② 예문이 "Is there a ____ office near here?"인데 mail을 받았다. mail office라는 말은 없고, 해설도 "우체국은 미국에서도 post office"다.
+  - Claude가 별칭 251개(카드가 있는 것 약 210개)를 예문에 하나씩 넣어 대조해 12곳을 뺐다: post② mail, further② farther(정보), hall① hallway(concert hall), machinery① machines(뒤 동사 is), attorney① lawyer(앞 관사 an), candy① sweet(단수), flu① influenza(the influenza), vet① veterinary(형용사), caption② subtitle(closed captions), cooker① stove·range(rice cooker), lorry① truck(“a truck is called a lorry” 문장), outward① outwards(형용사 자리).
+  - 왜: 철자를 가르치는 게임에서 틀린 영어를 맞다고 하면 학생은 그 문장을 그대로 외운다. 맞는 영어를 틀리다고 하지 않는 것(3절)과 같은 무게다. 새 별칭이나 예문을 바꿀 때는 그 카드 문장에 넣어 본다.
+
 ## 7. 접사·어근은 키운다
 
 - 어휘 카드에서 어원 분해를 걷어낸 만큼, 체계적인 분해는 47·48세트가 전담한다. (26.9.17 영신: "접사 어근을 강화하자")

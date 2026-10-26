@@ -1910,3 +1910,11 @@
 - 요청(영신): "마음에 들어 세트 선택 화면에도 넣어주라". 홈(세트 목록) 맨 아래에는 이미 있어서 어디인지 물었고, 영신이 '연습 목록 화면'(세트를 누르면 나오는 화면)을 골랐다.
 - 반영: 세 과정 HTML의 `#lessonScreen` 패널 다음에 같은 줄 "**STUDY1** 국어 블로그 ›"(`.homeCredit`, 새 탭 링크). 모아둔 카드 목록도 이 화면을 쓰므로 거기에도 보인다. PRINCIPLES 8·UI_STANDARD·HANDOFF에 자리를 더했다.
 - 검증(새로 실행): 검사 45개 통과. Chromium 360px에서 세 과정 모두 첫 세트·강을 열어 연습 목록 맨 아래에 줄이 보이고, 누르면 새 탭에 블로그 주소가 열리며 연습 목록 화면 그대로, 가로 넘침 0, 페이지 오류 0.
+
+## 2026-10-26 · 대체 정답(ALT) 전수 대조: post에 mail이 정답 처리되던 것
+
+- 제보(영신): "post 에 mail이라고 쳐도 포스트 발음이 나오고 정답처리되는걸 발견했어".
+- 원인: 판정 버그가 아니라 FABLE `vocagoyangfable.html`의 `const ALT`(같은 말의 지역·격식 변형 별칭, 생성 구간 밖이라 HTML이 원본)에 `"post/2":["mail"]`이 있었다. 별칭은 표제어·뜻 번호에 붙는데, post ② 예문은 "Is there a ____ office near here?"라 mail이 맞지 않는다.
+- 대조: 별칭 251개를 FABLE 카드 예문에 하나씩 넣어 Claude가 읽었다(카드가 없는 별칭 42개는 쓰이지 않음). 문장에 넣으면 틀린 영어가 되는 12곳을 뺐다: post② mail, further② farther, hall① hallway, machinery① machines, attorney① lawyer, candy① sweet(sweets는 유지), flu① influenza, vet① veterinary(veterinarian은 유지), caption② subtitle, cooker① stove·range, lorry① truck, outward① outwards. 마더텅·EBS에는 ALT가 없다. 49·50세트 `acceptedAnswers`(문장별 정답)는 범위 밖.
+- 문서: PRINCIPLES 6에 '별칭은 그 카드 예문 빈칸에 넣어도 맞는 영어일 때만', WORK_PLAN의 '기존 예외 목록 별도 검수' 항목에 결과.
+- 검증(새로 실행): Chromium에서 판정 함수로 post②←mail 오답, post②←post·mail①←post·until←till·further①←farther 정답, lorry←truck·cooker←stove·candy←sweet·further②←farther 오답, candy←sweets·vet←veterinarian 정답, 페이지 오류 0. 검사 45개 통과.
