@@ -1,3 +1,12 @@
+# iPhone 힌트 칸 화면 튐 수정 배포 · 2026-10-27
+
+- 커밋 [9d41f37](https://github.com/esqsoy/vocagoyang/commit/9d41f37)를 origin/main에 fast-forward로 푸시했다(35bf16f 다음, 그 사이 04b7905·35bf16f는 기록 문서만). [Pages 40521055847](https://github.com/esqsoy/vocagoyang/actions/runs/40521055847) 성공(2026-10-27 14:26:59 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(FABLE e710c63, 수능 1f15fae, EBS 7a0eb08, index 6c557dd). github.io는 이 세션에서 열지 않았다.
+- 포함: 세 교재 첫 글자 힌트에서 커서가 끝이 아닐 때만 `setSelectionRange`, 힌트 버튼이 누르기 전 스크롤 자리를 지킴(학생이 직접 스크롤하면 손대지 않음).
+- 배포 전 검사(9d41f37와 같은 내용에서 새로 실행): 검사 45개 통과, 세 HTML 스크립트 구문 검사. Chromium 390×560 터치 모드에서 iOS식 끌어내림을 흉내 내 전 판은 40→940에서 멈추고 고친 판은 40으로 돌아오며 힌트가 열리는 것 확인, 페이지 오류 0. **실제 iPhone 확인은 영신 대기.**
+
+---
+
 # FABLE 대체 정답(ALT) 12곳 정리 배포 · 2026-10-26
 
 - 커밋 [13cfe47](https://github.com/esqsoy/vocagoyang/commit/13cfe47)를 origin/main에 fast-forward로 푸시했다(434f0a7 다음). [Pages 40264351175](https://github.com/esqsoy/vocagoyang/actions/runs/40264351175) 성공(2026-10-26 03:30:38 UTC 완료 확인).
