@@ -2756,7 +2756,8 @@ function giveHint(){
   const letter=/[A-Za-z\u00c0-\u024f0-9]/,first=[...answer].findIndex(c=>letter.test(c));if(first<0)return;
   let tail=0;while(tail<typed.length&&!/[A-Za-z\u00c0-\u024f0-9\u1100-\u11ff\u3130-\u318f\uac00-\ud7af]/.test(typed[tail]))tail++;
   if(tail<typed.length)tail++;
-  input.value=answer.slice(0,first+1)+typed.slice(tail);input.setSelectionRange(input.value.length,input.value.length);
+  input.value=answer.slice(0,first+1)+typed.slice(tail);
+  const caret=input.value.length;if(input.selectionStart!==caret||input.selectionEnd!==caret)input.setSelectionRange(caret,caret); // 끝이 아닐 때만 옮긴다(iOS는 옮길 때마다 화면을 끈다)
   s.hintLevel=1;s.hints++;$("#hintBtn").disabled=true;
   mirrorTyped({fromHint:true});focusAnswerInput();
 }
@@ -4143,10 +4144,20 @@ $("#submitBtn").addEventListener("click",e=>{e.preventDefault();e.stopPropagatio
     pending=requestAnimationFrame(()=>{pending=0;positionHint();});
   }
   hint.addEventListener("pointerdown",e=>e.preventDefault());
+  // 26.10.27 영신 제보(iPhone): 힌트 칸을 누르면 화면이 맨 아래로 내려갔다. 입력칸에 글자를 넣고 커서를 옮길 때
+  // iOS가 화면을 끌어내린다. 누르기 전 자리로 되돌린다. 그사이 학생이 직접 스크롤하면 건드리지 않는다.
+  function holdScroll(y){
+    let moved=false;const stop=()=>{moved=true;};
+    window.addEventListener("touchmove",stop,{passive:true});window.addEventListener("wheel",stop,{passive:true});
+    const back=()=>{if(!moved&&Math.abs(window.scrollY-y)>4)window.scrollTo(0,y);};
+    requestAnimationFrame(back);setTimeout(back,120);
+    setTimeout(()=>{back();window.removeEventListener("touchmove",stop);window.removeEventListener("wheel",stop);},360);
+  }
   hint.addEventListener("click",e=>{
     e.preventDefault();e.stopPropagation();
     if(hint.disabled||hint.hidden)return;
-    giveHint();positionHint();focusAnswerInput();
+    const y=window.scrollY;
+    giveHint();positionHint();focusAnswerInput();holdScroll(y);
   });
   new MutationObserver(schedulePosition).observe(context,{childList:true,subtree:true});
   new MutationObserver(schedulePosition).observe(hint,{attributes:true,attributeFilter:["disabled"]});

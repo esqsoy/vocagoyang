@@ -3277,7 +3277,8 @@ function giveHint(){
   }
   while(tail<typed.length&&!/[A-Za-z\u1100-\u11ff\u3130-\u318f\uac00-\ud7af]/.test(typed[tail]))tail++;
   input.value=prefix+typed.slice(tail);
-  input.setSelectionRange(input.value.length,input.value.length);
+  // 값을 넣으면 커서는 이미 끝에 있다. 끝이 아닐 때만 옮긴다(iOS는 옮길 때마다 화면을 커서 쪽으로 끈다).
+  const caret=input.value.length;if(input.selectionStart!==caret||input.selectionEnd!==caret)input.setSelectionRange(caret,caret);
   // A one-letter word must still be confirmed; opening a hint never grades it.
   mirrorTyped({fromHint:true});
   updateInputNotice();
@@ -4667,10 +4668,20 @@ $("#submitBtn")&&$("#submitBtn").addEventListener("click",e=>{e.preventDefault()
     pending=requestAnimationFrame(()=>{pending=0;positionHint();});
   }
   hint.addEventListener("pointerdown",e=>e.preventDefault());
+  // 26.10.27 영신 제보(iPhone): 힌트 칸을 누르면 화면이 맨 아래로 내려갔다. 입력칸에 글자를 넣고 커서를 옮길 때
+  // iOS가 화면을 끌어내린다. 누르기 전 자리로 되돌린다. 그사이 학생이 직접 스크롤하면 건드리지 않는다.
+  function holdScroll(y){
+    let moved=false;const stop=()=>{moved=true;};
+    window.addEventListener("touchmove",stop,{passive:true});window.addEventListener("wheel",stop,{passive:true});
+    const back=()=>{if(!moved&&Math.abs(window.scrollY-y)>4)window.scrollTo(0,y);};
+    requestAnimationFrame(back);setTimeout(back,120);
+    setTimeout(()=>{back();window.removeEventListener("touchmove",stop);window.removeEventListener("wheel",stop);},360);
+  }
   hint.addEventListener("click",e=>{
     e.preventDefault();e.stopPropagation();
     if(hint.disabled||hint.hidden)return;
-    giveHint();positionHint();focusAnswerInput();
+    const y=window.scrollY;
+    giveHint();positionHint();focusAnswerInput();holdScroll(y);
   });
   new MutationObserver(schedulePosition).observe(context,{childList:true,subtree:true});
   new MutationObserver(schedulePosition).observe(hint,{attributes:true,attributeFilter:["disabled"]});
