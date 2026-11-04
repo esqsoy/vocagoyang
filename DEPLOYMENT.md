@@ -1,3 +1,12 @@
+# 다른 기기로 기록 옮기기 배포 · 2026-11-04
+
+- 커밋 [bbc38ed](https://github.com/esqsoy/vocagoyang/commit/bbc38ed)를 origin/main에 fast-forward로 푸시했다(ef06a48 다음). [Pages 41875764975](https://github.com/esqsoy/vocagoyang/actions/runs/41875764975) 성공(2026-11-04 17:16:46 UTC 완료 확인).
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(index e9ad659, FABLE 72e9b31, 수능 1f15fae, EBS 7a0eb08). 바뀐 것은 index.html뿐이다. github.io는 이 세션에서 열지 않았다.
+- 포함: 교재 선택 화면 '⇄ 다른 기기로 기록 옮기기'(파일 만들기·열기·합치기), 새 모듈 pipeline/record-transfer, 검사 record-transfer.test.cjs·build --check.
+- 배포 전 검사(bbc38ed와 같은 내용에서 새로 실행): 검사 47개 통과. Chromium 390px 두 기기 흉내(내보내기 → 다른 기기 합치기 → FABLE 홈 클리어 5/780, 같은 파일 재합치기 없음, 잘못된 파일 거절), 페이지 오류 0. **실제 폰 공유 시트·카톡 파일 열기는 영신 확인 대기.**
+
+---
+
 # like ① 고양이 대사(I Really Like You) 배포 · 2026-11-02
 
 - 커밋 [b7d6650](https://github.com/esqsoy/vocagoyang/commit/b7d6650)를 origin/main에 fast-forward로 푸시했다. [Pages 41386718957](https://github.com/esqsoy/vocagoyang/actions/runs/41386718957) 성공(2026-11-02 04:08:34 UTC 완료 확인).
