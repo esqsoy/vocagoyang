@@ -1,8 +1,11 @@
-/* 기록 옮기기(26.11.04 영신 "1번이면 충분해!"): 이 기기의 보카고양 기록을 파일로 내보내고, 다른 기기에서 그 파일을 합친다.
-   보카고양 기록은 모두 'goyang-'으로 시작하는 localStorage 키다(세 교재가 같은 주소라 저장 공간을 함께 쓴다).
-   합치기는 아무것도 지우지 않는다. 어느 기기에서 한 것이든 남고, 같은 파일을 두 번 합쳐도 그대로다. */
-var RT_APP='vocagoyang-records',RT_VERSION=1,RT_PREFIX='goyang-';
-var RT_SKIP=['goyang-fable-unlock-v1'];   // 검사용 전체 열기는 옮기지 않는다
+/* 기록 옮기기(26.11.04 영신 "1번이면 충분해!"): 이 기기의 기록을 파일로 내보내고, 다른 기기에서 그 파일을 합친다.
+   합치기는 아무것도 지우지 않는다. 어느 기기에서 한 것이든 남고, 같은 파일을 두 번 합쳐도 그대로다.
+   단어장끼리 같이 쓰는 파일이다(SHARED.md). 게임마다 다른 값(이름, 저장 키 접두어, 키 종류)은 config.json에 있고,
+   빌드가 RT_CONFIG로 넣는다. 보카고양은 'goyang-' 키를 쓴다(세 교재가 같은 주소라 저장 공간을 함께 쓴다). */
+var RT_CFG=typeof RT_CONFIG!=='undefined'?RT_CONFIG:require('./config.json');
+var RT_APP=RT_CFG.app,RT_VERSION=1,RT_PREFIX=RT_CFG.prefix,RT_GAME=RT_CFG.game;
+var RT_SKIP=RT_CFG.skip||[];                // 검사용 키 등 옮기지 않는 것
+var RT_KINDS=Object.keys(RT_CFG.kinds||{}).map(kind=>[kind,new RegExp(RT_CFG.kinds[kind])]);   // 위에서부터 처음 맞는 종류
 var RT_PACE_KEEP=600;                       // pace 런타임의 paceKeep과 같다
 
 function rtWanted(k){return typeof k==='string'&&k.startsWith(RT_PREFIX)&&!RT_SKIP.includes(k);}
@@ -14,8 +17,8 @@ function rtCollect(store){
 function rtPack(data,now){return {app:RT_APP,v:RT_VERSION,exportedAt:new Date(now).toISOString(),data};}
 function rtParse(text){
   let o;try{o=JSON.parse(text);}catch(e){throw new Error('파일이 깨졌다고양. 내보낸 파일을 그대로 골라 달라고양.');}
-  if(!o||typeof o!=='object'||o.app!==RT_APP||!o.data||typeof o.data!=='object'||Array.isArray(o.data))throw new Error('보카고양 기록 파일이 아니라고양.');
-  if(!(Number(o.v)>=1))throw new Error('보카고양 기록 파일이 아니라고양.');
+  if(!o||typeof o!=='object'||o.app!==RT_APP||!o.data||typeof o.data!=='object'||Array.isArray(o.data))throw new Error(RT_GAME+' 기록 파일이 아니라고양.');
+  if(!(Number(o.v)>=1))throw new Error(RT_GAME+' 기록 파일이 아니라고양.');
   if(Number(o.v)>RT_VERSION)throw new Error('더 새 판에서 만든 파일이라고양. 이 화면을 새로고침하고 다시 해 보라고양.');
   const data={};Object.keys(o.data).forEach(k=>{if(rtWanted(k)&&typeof o.data[k]==='string')data[k]=o.data[k];});
   return {exportedAt:typeof o.exportedAt==='string'?o.exportedAt:'',data};
@@ -24,14 +27,7 @@ function rtParse(text){
 function rtJson(s){if(typeof s!=='string')return undefined;try{return JSON.parse(s);}catch(e){return undefined;}}
 function rtObj(v){return v&&typeof v==='object'&&!Array.isArray(v)?v:null;}
 function rtKind(k){
-  if(/^goyang-(hoe-|ebs-)?seoul-v1$/.test(k))return 'progress';
-  if(/-saved-cards-v1$/.test(k))return 'saved';
-  if(k==='goyang-learned-words-v1')return 'learned';
-  if(k==='goyang-missed-words-v1')return 'missed';
-  if(k==='goyang-milestone-v1')return 'milestone';
-  if(k==='goyang-fable-stamps-v1')return 'stamps';
-  if(/^goyang-pace-meta-/.test(k))return 'paceMeta';
-  if(/^goyang-pace-/.test(k))return 'pace';
+  for(const [kind,re] of RT_KINDS)if(RT_MERGE[kind]&&re.test(k))return kind;
   return 'keep';                              // 설정·이어하기 자리 등: 이 기기에 없을 때만 가져온다
 }
 /* 종류마다 합친다. 반환값: {value: 새 문자열(바뀌지 않으면 null), n: 늘어난 개수} */
@@ -126,4 +122,4 @@ var RT_COUNT={
   saved(s){const r=rtJson(s);return Array.isArray(r)?r.filter(x=>x&&typeof x.id==='string').length:0;},
   stamps(s){const o=rtObj(rtJson(s));return o?Object.keys(o).length:0;}
 };
-if(typeof module!=='undefined'&&module.exports)module.exports={RT_APP,RT_VERSION,rtCollect,rtPack,rtParse,rtMerge,rtKind};
+if(typeof module!=='undefined'&&module.exports)module.exports={RT_APP,RT_VERSION,RT_GAME,rtCollect,rtPack,rtParse,rtMerge,rtKind};

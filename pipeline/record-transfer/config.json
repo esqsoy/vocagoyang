@@ -1,0 +1,18 @@
+{
+  "about": "이 저장소(게임)마다 다른 값. merge.js·runtime.js는 단어장끼리 같이 쓰고, 이 파일만 고친다. 공통 기능 표는 SHARED.md.",
+  "game": "보카고양",
+  "app": "vocagoyang-records",
+  "prefix": "goyang-",
+  "skip": ["goyang-fable-unlock-v1"],
+  "target": "index.html",
+  "kinds": {
+    "progress": "^goyang-(hoe-|ebs-)?seoul-v1$",
+    "saved": "-saved-cards-v1$",
+    "learned": "^goyang-learned-words-v1$",
+    "missed": "^goyang-missed-words-v1$",
+    "milestone": "^goyang-milestone-v1$",
+    "stamps": "^goyang-fable-stamps-v1$",
+    "paceMeta": "^goyang-pace-meta-",
+    "pace": "^goyang-pace-"
+  }
+}

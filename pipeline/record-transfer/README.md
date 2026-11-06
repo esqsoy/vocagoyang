@@ -26,6 +26,10 @@
 
 모아둔 카드를 한 기기에서 빼도, 다른 기기 파일을 합치면 다시 들어온다. 뺀 기록을 따로 남기지 않기 때문이다. 받아들인 한계다.
 
+## 단어장끼리 같이 쓰기
+
+이 폴더는 공통 기능이다([SHARED.md](../../SHARED.md)). 게임마다 다른 값은 `config.json`에만 둔다. 이름(`game`), 파일 표시(`app`), 저장 키 접두어(`prefix`), 옮기지 않을 키(`skip`), 키 종류 패턴(`kinds`, 위에서부터 처음 맞는 것), 넣을 HTML(`target`)이다. 빌드가 이 값을 `RT_CONFIG`로 넣는다. 키 종류에 없는 키는 '이 기기에 없을 때만 가져오기'로 합친다. 다른 언어판은 merge.js 등을 그대로 복사하고 config.json만 자기 값으로 바꾼다.
+
 ## 원본과 빌드
 
 `merge.js`(규칙), `runtime.js`(화면 동작), `ui.html`(버튼·창), `style.css`를 `node pipeline/record-transfer/build.cjs`로 index.html의 `record-transfer-style`, `RECORD_TRANSFER_UI_START/END`, `<script id="record-transfer">` 자리에 넣는다. 검사 모드는 `--check`다. index.html의 이 구간을 직접 고치지 않는다.

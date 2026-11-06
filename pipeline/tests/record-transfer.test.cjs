@@ -90,6 +90,21 @@ assert.equal(rt.rtKind('goyang-pace-meta-fable-v1'),'paceMeta');
   const other=Object.assign({},I,rt.rtMerge(I,L).writes);
   assert.deepEqual(Object.keys(P(other['goyang-seoul-v1']).a).sort(),['e1','e2']);
 }
+// 다른 단어장 설정으로도 돈다(SHARED.md): 이름·접두어·키 종류가 config를 따르고, 보카고양 키는 건드리지 않는다
+{
+  const vm=require('node:vm');
+  const code=fs.readFileSync(path.join(__dirname,'../record-transfer/merge.js'),'utf8').replace(/\nif\(typeof module[^\n]*\s*$/,'');
+  const ctx={RT_CONFIG:{game:'니혼고양',app:'nihongoyang-records',prefix:'nihongoyang-',skip:[],kinds:{progress:'^nihongoyang-progress-v1$'}}};
+  vm.createContext(ctx);vm.runInContext(code,ctx);
+  assert.deepEqual(Object.keys(ctx.rtCollect(fakeStore({'nihongoyang-progress-v1':'{}','goyang-hoe-seoul-v1':'{}'}))),['nihongoyang-progress-v1']);
+  assert.equal(ctx.rtKind('nihongoyang-progress-v1'),'progress');
+  assert.equal(ctx.rtKind('nihongoyang-other-v1'),'keep');
+  assert.throws(()=>ctx.rtParse(packed),/니혼고양 기록 파일이 아니라고양/);
+  const m=ctx.rtMerge({'nihongoyang-progress-v1':J({a:{x:{completed:true}}})},{'nihongoyang-progress-v1':J({a:{y:{completed:true}}}),'goyang-seoul-v1':'{}'});
+  assert.deepEqual(Object.keys(m.writes),['nihongoyang-progress-v1']);assert.equal(m.summary.exercises,1);
+}
+// 이 저장소 설정: 보카고양
+assert.equal(rt.RT_GAME,'보카고양');assert.equal(rt.RT_APP,'vocagoyang-records');
 // index.html에 최신 원본이 들어 있다
 const html=fs.readFileSync(path.join(__dirname,'../../index.html'),'utf8');
 assert.ok(html.includes('/* RECORD_TRANSFER_START */')&&html.includes('id="rtSheet"'),'index.html has record transfer');

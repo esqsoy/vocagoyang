@@ -19,12 +19,12 @@
     const s=store();if(!s){say('이 브라우저는 기록을 저장하지 못한다고양.','bad');return;}
     const data=rtCollect(s);
     if(!Object.keys(data).length){say('아직 옮길 기록이 없다고양. 한 판이라도 하고 오라고양.','bad');return;}
-    const text=JSON.stringify(rtPack(data,Date.now())),name='보카고양-기록-'+today()+'.json';
+    const text=JSON.stringify(rtPack(data,Date.now())),name=RT_GAME+'-기록-'+today()+'.json';
     const blob=new Blob([text],{type:'application/json'});
     try{
       const f=new File([blob],name,{type:'application/json'});
       if(navigator.canShare&&navigator.canShare({files:[f]})&&matchMedia('(pointer:coarse)').matches){
-        await navigator.share({files:[f],title:'보카고양 기록'});
+        await navigator.share({files:[f],title:RT_GAME+' 기록'});
         say('보냈다고양. 다른 기기에서 그 파일을 열면 된다고양.','ok');return;
       }
     }catch(e){if(e&&e.name==='AbortError'){say('');return;}}
