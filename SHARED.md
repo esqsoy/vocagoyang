@@ -22,7 +22,7 @@
 
 | 기능 | 폴더 | 같이 쓰는 파일 | 게임별 설정 | 본가 버전 | 니혼고양 | 빨라고양 |
 |---|---|---|---|---|---|---|
-| 기록 옮기기 | `pipeline/record-transfer/` | `merge.js` `runtime.js` `ui.html` `style.css` `build.cjs` `README.md`, 검사 `pipeline/tests/record-transfer.test.cjs` | `config.json`(이름, 파일 표시 `app`, 저장 키 접두어, 옮기지 않을 키, 키 종류 패턴, 넣을 HTML) | SHARED_PENDING | 아직(AL로 알림) | 저장소 없음 |
+| 기록 옮기기 | `pipeline/record-transfer/` | `merge.js` `runtime.js` `ui.html` `style.css` `build.cjs` `README.md`, 검사 `pipeline/tests/record-transfer.test.cjs` | `config.json`(이름, 파일 표시 `app`, 저장 키 접두어, 옮기지 않을 키, 키 종류 패턴, 넣을 HTML) | `69e8d5e` (11.06 설정 분리) | 아직(AL로 알림) | 저장소 없음 |
 
 ## 아직 공유 준비가 안 된 기능
 
