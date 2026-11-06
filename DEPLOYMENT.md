@@ -1,3 +1,11 @@
+# 기록 옮기기 설정 분리(공통 기능) 배포 · 2026-11-06
+
+- 커밋 [69e8d5e](https://github.com/esqsoy/vocagoyang/commit/69e8d5e)(기록 옮기기 config.json 분리, SHARED.md)와 [75f2b1c](https://github.com/esqsoy/vocagoyang/commit/75f2b1c)(SHARED.md 본가 버전)를 origin/main에 fast-forward로 푸시했다. [Pages 42207015117](https://github.com/esqsoy/vocagoyang/actions/runs/42207015117) 성공(2026-11-06 11:02:37 UTC 완료 확인). 뒤의 bf29ebe는 기록 문서만.
+- 확인 방법: GitHub API로 main의 네 HTML blob SHA가 로컬 검증본과 같은 것을 확인했다(index 608dcd9, FABLE 72e9b31, 수능 1f15fae, EBS 7a0eb08). 바뀐 것은 index.html뿐이다(설정을 `RT_CONFIG`로 넣음, 동작은 같음). github.io는 이 세션에서 열지 않았다.
+- 배포 전 검사(같은 내용에서 새로 실행): 검사 47개 통과(record-transfer에 다른 단어장 설정 경우 추가), Chromium 390px 두 기기 흉내 다시 통과, 오류 0.
+
+---
+
 # 다른 기기로 기록 옮기기 배포 · 2026-11-04
 
 - 커밋 [bbc38ed](https://github.com/esqsoy/vocagoyang/commit/bbc38ed)를 origin/main에 fast-forward로 푸시했다(ef06a48 다음). [Pages 41875764975](https://github.com/esqsoy/vocagoyang/actions/runs/41875764975) 성공(2026-11-04 17:16:46 UTC 완료 확인).
