@@ -13,6 +13,8 @@
 | `2026-06-heart-of-english/` | 6월 29일 | Heart of English 첫 학생판 docx 두 개(Stage 1 세트 1~6, 롱맨 세트 3) | 기초 어휘 사전 구상의 시작점. 글자 수만큼 밑줄을 그은 빈칸, 별도 변별 줄, ⟨미검수⟩ 표시 |
 | `2026-07-heart-of-english/` | 7월 | `HoE_master.json`(1,050장 1,488뜻, 검수 완료 190장), `영어_어휘_프로젝트_좌표.md`·`보카고양_인수인계.md`(7월 12일), `review/`(직검수·통합검수·변별 통합·톤 검수 TXT), `tools/`(render.js·audit2.py·append.js·remaining_words.json) | 머리경 시절의 원장과 검수 기록. 변별(v) 필드를 해설(c)로 합치고 함정에 [주의!]를 단 결정이 `review/통합후_1-200.txt`와 `통합변경분_76장.txt`에 남아 있다 |
 
+2026-11-06에는 데스크쌤이 AL 장부 이슈로 넘긴 데스크 장부의 보카고양 칸(2026-08-26~09-02 무렵)을 [2026-09-desk-ledger-design.md](2026-09-desk-ledger-design.md)에 남겼다. 9월 1~2일 영신이 구술한 설계 사상이 들어 있다. 수능영어 구조, 건물 비유(1~7층), 한국식 트레드밀, Gift of English 구상, 말투 이원 구조가 그것이다.
+
 EBS 2027 갱신용 단어 시험 데이터는 [pipeline/ebs-update-2027/](../pipeline/ebs-update-2027/README.md)에 따로 두었다. 다음 작업에 직접 쓸 데이터라서다.
 
 ## 고친 것
