@@ -1976,4 +1976,5 @@
 - 영신: "로마자는 일단 그렇게 가고 다르면 이야기해줄게 ebs 다음판도 나오면 갑시다. 폰확인은 전부 오케이"
 - 반영: PRINCIPLES 2-9 학생 이름 영어 표기를 Park Juwon, Lee Jaeyun으로 확정(다르면 영신이 알려 줌). EBS는 다음 판이 나오면 진행(HANDOFF, `pipeline/ebs-update-2027/README.md`). 실제 폰 확인 끝으로 표시: iPhone 첫 글자 힌트, 기록 옮기기 공유 시트·카톡 파일 열기, STUDY1 블로그 링크. Safari 엔딩 플레이 확인은 이번 답에 들지 않아 남겨 뒀다.
 - AL 길잡이 '지금 상태' 줄의 "실제 iPhone 확인·EBS 교재 연도 확인은 영신 몫"도 같은 내용으로 고쳤다(학생 이름은 AL에 쓰지 않음).
-- 문서만 바꿈. 배포 대상 HTML 변경 없음.
+- 문서만 바꿈. 배포 대상 HTML 변경 없음.- 이어서 영신: "니혼고양을 탕고고양으로 바꿨어 아마 알합류 시켜놨으니 알아서 할거임". 저장소는 esqsoy/tangogoyang. SHARED.md(표 칸·이슈 머리말), PRINCIPLES 0(옛 인용은 그대로 두고 지금 이름을 덧붙임), AGENTS, HANDOFF, 기록 옮기기 README, record-transfer 검사의 다른 언어판 예시를 탕고고양으로 고쳤다. AL 공지 이슈 제목을 `[탕고고양]`으로 바꾸고 본문 이름도 고쳤다. AL 길잡이 단어장 가족 줄도 고쳤다.
+- 검증(새로 실행): `node pipeline/tests/record-transfer.test.cjs` 통과.

@@ -7,7 +7,7 @@ const J=JSON.stringify,P=s=>JSON.parse(s);
 function fakeStore(obj){const keys=Object.keys(obj);return {length:keys.length,key:i=>keys[i],getItem:k=>obj[k]??null};}
 
 // 모으기: goyang- 키만, 검사용 전체 열기는 뺀다. 같은 주소의 다른 게임(주기율표 zerotwo_) 키는 건드리지 않는다.
-const col=rt.rtCollect(fakeStore({'goyang-hoe-seoul-v1':'{}','goyang-fable-unlock-v1':'1','zerotwo_save_v1':'x','nihongoyang-a':'y'}));
+const col=rt.rtCollect(fakeStore({'goyang-hoe-seoul-v1':'{}','goyang-fable-unlock-v1':'1','zerotwo_save_v1':'x','tangogoyang-a':'y'}));
 assert.deepEqual(Object.keys(col),['goyang-hoe-seoul-v1']);
 
 // 파일 형식
@@ -94,14 +94,14 @@ assert.equal(rt.rtKind('goyang-pace-meta-fable-v1'),'paceMeta');
 {
   const vm=require('node:vm');
   const code=fs.readFileSync(path.join(__dirname,'../record-transfer/merge.js'),'utf8').replace(/\nif\(typeof module[^\n]*\s*$/,'');
-  const ctx={RT_CONFIG:{game:'니혼고양',app:'nihongoyang-records',prefix:'nihongoyang-',skip:[],kinds:{progress:'^nihongoyang-progress-v1$'}}};
+  const ctx={RT_CONFIG:{game:'탕고고양',app:'tangogoyang-records',prefix:'tangogoyang-',skip:[],kinds:{progress:'^tangogoyang-progress-v1$'}}};
   vm.createContext(ctx);vm.runInContext(code,ctx);
-  assert.deepEqual(Object.keys(ctx.rtCollect(fakeStore({'nihongoyang-progress-v1':'{}','goyang-hoe-seoul-v1':'{}'}))),['nihongoyang-progress-v1']);
-  assert.equal(ctx.rtKind('nihongoyang-progress-v1'),'progress');
-  assert.equal(ctx.rtKind('nihongoyang-other-v1'),'keep');
-  assert.throws(()=>ctx.rtParse(packed),/니혼고양 기록 파일이 아니라고양/);
-  const m=ctx.rtMerge({'nihongoyang-progress-v1':J({a:{x:{completed:true}}})},{'nihongoyang-progress-v1':J({a:{y:{completed:true}}}),'goyang-seoul-v1':'{}'});
-  assert.deepEqual(Object.keys(m.writes),['nihongoyang-progress-v1']);assert.equal(m.summary.exercises,1);
+  assert.deepEqual(Object.keys(ctx.rtCollect(fakeStore({'tangogoyang-progress-v1':'{}','goyang-hoe-seoul-v1':'{}'}))),['tangogoyang-progress-v1']);
+  assert.equal(ctx.rtKind('tangogoyang-progress-v1'),'progress');
+  assert.equal(ctx.rtKind('tangogoyang-other-v1'),'keep');
+  assert.throws(()=>ctx.rtParse(packed),/탕고고양 기록 파일이 아니라고양/);
+  const m=ctx.rtMerge({'tangogoyang-progress-v1':J({a:{x:{completed:true}}})},{'tangogoyang-progress-v1':J({a:{y:{completed:true}}}),'goyang-seoul-v1':'{}'});
+  assert.deepEqual(Object.keys(m.writes),['tangogoyang-progress-v1']);assert.equal(m.summary.exercises,1);
 }
 // 이 저장소 설정: 보카고양
 assert.equal(rt.RT_GAME,'보카고양');assert.equal(rt.RT_APP,'vocagoyang-records');
