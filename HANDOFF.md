@@ -1,11 +1,19 @@
 # 보카고양 최신 인수인계
 
-갱신: 2026-11-12 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
+갱신: 2026-11-13 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
 
-## 2026-11-12 · 새 검수 모델(이솝)과 26~30세트 검수 · 브랜치만(배포 전)
+## 2026-11-13 · 이솝 검수 2차(31~45세트) · main 배포(e52c919, [DEPLOYMENT](DEPLOYMENT.md))
+
+- 31~45세트 Oxford 5000 보강 776장 이솝 검수. Claude 판정 반영 74건(69장), 원장 `aesop-review2-20261113`(settler 3줄 예문 포함). 판정·요약은 [review-bench](pipeline/review-bench/README.md). 직검수 페이지 https://claude.ai/artifact/Ro4ojTJyfaA3CLxjZVa228
+- 보강 카드 명문장 46장은 구텐베르크 원문과 글자까지 맞는다(11-13 대조). 명문장은 이솝 기억이 아니라 원문으로 확인한다.
+- 11-12 1차(26~30세트)도 함께 배포했다. 영신이 workspace 해설 말투를 보고 "잘 바꿨습니다"라고 했다.
+- **영신 판단 대기:** 40세트 injustice(킹 목사 편지 1963, 저작권이 살아 있는 글), firework 고양이 대사가 '~가 아니라 ~라고양' 꼴로 되풀이되는 것, 해석의 '그녀'·'걔' 섞임. 저장 공간 대책(앞머리 장부·검사기·용량)도 아직 답이 없다.
+- Oxford 5000 보강 923장은 이솝 검수를 다 거쳤다. 영신 직검수 댓글이 오면 반영한다.
+
+## 2026-11-12 · 새 검수 모델(이솝)과 26~30세트 검수 · 11-13에 함께 배포
 
 - 이솝(새 검수 모델, 저장소엔 모델 이름을 적지 않음): 시험지와 실제 검수를 돌렸다. 확정·의심 두 단계로 받아 Claude가 판정한다. 시험지·결과·지시문은 [pipeline/review-bench/](pipeline/review-bench/README.md), 원칙은 PRINCIPLES 10.
-- 26~30세트 Oxford 5000 보강 147장 검수 → 원장 `aesop-review-20261112` 13곳(44세트 faithfully 포함). 직검수 페이지 https://claude.ai/artifact/W9krpExrpdSS31wSEovVDa. **main에 안 올렸다**(카드 내용이라 영신 확인 뒤 배포).
+- 26~30세트 Oxford 5000 보강 147장 검수 → 원장 `aesop-review-20261112` 13곳(44세트 faithfully 포함). 직검수 페이지 https://claude.ai/artifact/W9krpExrpdSS31wSEovVDa. 11-13에 2차와 함께 main에 배포했다.
 - 다음: 영신 직검수 댓글 반영 → 배포 여부. 받아 적음(11-13 02:50, 밤 11시 규칙): workplace 해설 "이 문장에는 workspace도 들어간다"가 무슨 말인지 모르겠다는 댓글. 같은 꼴을 쓴 expertise·publicity·specify·faithfully까지 다섯 장 말투를 알아듣게 고치고, workplace는 예문 교체도 검토(스레드 열어 둠). 31~45세트 보강 776장도 같은 방식으로 할지 영신이 정한다. firework 대사 되풀이·해석 그녀/걔 섞임은 영신 판단.
 - 같은 날: 같은 주소 저장 공간 확인(겹침 없음), 기록 옮기기 검사 공통화(본가 64d6d0e, main 배포됨). 저장 공간 대책(앞머리 장부·검사기·용량)은 영신 답 대기.
 
