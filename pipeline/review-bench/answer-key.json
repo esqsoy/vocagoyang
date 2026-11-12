@@ -1,0 +1,1660 @@
+[
+ {
+  "id": "K01",
+  "src": "CTRL",
+  "cat": "control",
+  "sev": "-",
+  "problem": "",
+  "fix": [],
+  "loc": [
+   9,
+   3,
+   3
+  ],
+  "card": {
+   "en": "key",
+   "ko": "① 열쇠",
+   "ex": "I lost my {{BLANK}} again.",
+   "tr": "나 열쇠 또 잃어버렸어.",
+   "c": "",
+   "ipa": "ki",
+   "pos": "n.",
+   "word": "key",
+   "si": 1,
+   "sn": 4
+  }
+ },
+ {
+  "id": "K02",
+  "src": "B:astra-content-20261015",
+  "cat": "?",
+  "sev": "?",
+  "problem": "아스트라 리뷰 카드 32장: 동의어 안내 해설(pretty·magnificent·elaborate·bump·furious·bore·sharply·compulsory·spark), 사실·뜻 정정(clause·apparent·smart·agriculture·span·arguably·recount·edition·multiple·plantation·ape·stin",
+  "fix": [
+   {
+    "field": "c",
+    "old": "형용사는 끝을 [럿], 동사는 [레잇]으로 읽는다.",
+    "new": "이 뜻에서는 intricate와 바꿔 쓸 수 있다. 형용사 끝은 [럿], 동사는 [레잇]."
+   }
+  ],
+  "loc": [
+   37,
+   15,
+   5
+  ],
+  "card": {
+   "en": "elaborate",
+   "ko": "① 정교한, 공들인",
+   "ex": "The wedding cake had an {{BLANK}} design with sugar flowers.",
+   "tr": "그 웨딩 케이크는 설탕 꽃을 올린 정교한 디자인이었어.",
+   "c": "형용사는 끝을 [럿], 동사는 [레잇]으로 읽는다.",
+   "ipa": "ɪˈlæbərət",
+   "pos": "adj.",
+   "word": "elaborate",
+   "si": 1,
+   "sn": 2
+  }
+ },
+ {
+  "id": "K03",
+  "src": "B:astra-content-20261015",
+  "cat": "?",
+  "sev": "?",
+  "problem": "아스트라 리뷰 카드 32장: 동의어 안내 해설(pretty·magnificent·elaborate·bump·furious·bore·sharply·compulsory·spark), 사실·뜻 정정(clause·apparent·smart·agriculture·span·arguably·recount·edition·multiple·plantation·ape·stin",
+  "fix": [
+   {
+    "field": "ex",
+    "old": "Humans and {{BLANK}}s share a common ancestor.",
+    "new": "Humans and other {{BLANK}}s share a common ancestor."
+   },
+   {
+    "field": "tr",
+    "old": "인간과 유인원은 공통 조상을 가지고 있어.",
+    "new": "인간과 다른 유인원들은 공통 조상을 가지고 있어."
+   },
+   {
+    "field": "c",
+    "old": "침팬지·고릴라처럼 꼬리 없는 큰 원숭이류. 꼬리 있는 원숭이는 monkey.",
+    "new": "침팬지·고릴라·긴팔원숭이 등. monkey는 대부분 꼬리가 있지만 ape는 없다."
+   }
+  ],
+  "loc": [
+   26,
+   10,
+   12
+  ],
+  "card": {
+   "en": "ape",
+   "ko": "① 유인원",
+   "ex": "Humans and {{BLANK}}s share a common ancestor.",
+   "tr": "인간과 유인원은 공통 조상을 가지고 있어.",
+   "c": "침팬지·고릴라처럼 꼬리 없는 큰 원숭이류. 꼬리 있는 원숭이는 monkey.",
+   "ipa": "eɪp",
+   "pos": "n.",
+   "word": "ape",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K04",
+  "src": "B:astra-review-20261013",
+  "cat": "?",
+  "sev": "?",
+  "problem": "아스트라 리뷰 반영 23장: life 복수형 lifes, of·very 규칙, tax 해석, quantity·anxious·prime·fatal·scarcity·disease·behalf·night·September 해설, loving·surgery 해석의 개, puzzle·interesting·sharply 대체어 안내, fourteenth·insect·",
+  "fix": [
+   {
+    "field": "ex",
+    "old": "All {{BLANK}}s have six legs and three body parts.",
+    "new": "Adult {{BLANK}}s have six legs and three main body parts."
+   },
+   {
+    "field": "tr",
+    "old": "곤충은 모두 다리가 여섯 개고, 몸이 세 부분으로 나뉘어.",
+    "new": "다 자란 곤충은 다리가 여섯 개고, 몸이 크게 세 부분으로 나뉘어."
+   }
+  ],
+  "loc": [
+   18,
+   4,
+   14
+  ],
+  "card": {
+   "en": "insect",
+   "ko": "① 곤충, 벌레",
+   "ex": "All {{BLANK}}s have six legs and three body parts.",
+   "tr": "곤충은 모두 다리가 여섯 개고, 몸이 세 부분으로 나뉘어.",
+   "c": "",
+   "ipa": "ˈɪnsɛkt",
+   "pos": "n.",
+   "word": "insect",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K05",
+  "src": "A:C1-201",
+  "cat": "blank-ambiguity",
+  "sev": "minor",
+  "problem": "seat와 take도 hold처럼 4글자이고 'This bus can ___ forty people'에 자연스럽게 들어가 '수용하다' 뜻이 된다. c에는 언급이 없다.",
+  "fix": [
+   {
+    "field": "ex",
+    "old": "This bus can {{BLANK}} forty people.",
+    "new": "This bottle can {{BLANK}} two liters of water."
+   },
+   {
+    "field": "tr",
+    "old": "이 버스는 마흔 명을 태울 수 있어.",
+    "new": "이 병에는 물이 2리터 들어가."
+   }
+  ],
+  "loc": [
+   4,
+   5,
+   2
+  ],
+  "card": {
+   "en": "hold",
+   "word": "hold",
+   "ko": "③ 담다, 수용하다",
+   "ex": "This bus can {{BLANK}} forty people.",
+   "tr": "이 버스는 마흔 명을 태울 수 있어.",
+   "c": "공간·용기가 얼마를 담을 수 있는지 나타낸다.",
+   "ipa": "hoʊld",
+   "pos": "v.",
+   "si": 3,
+   "sn": 3
+  }
+ },
+ {
+  "id": "K06",
+  "src": "B:astra-content-20261015",
+  "cat": "?",
+  "sev": "?",
+  "problem": "아스트라 리뷰 카드 32장: 동의어 안내 해설(pretty·magnificent·elaborate·bump·furious·bore·sharply·compulsory·spark), 사실·뜻 정정(clause·apparent·smart·agriculture·span·arguably·recount·edition·multiple·plantation·ape·stin",
+  "fix": [
+   {
+    "field": "c",
+    "old": "multiple-choice는 여러 보기 중에 고르는 '객관식'. 뒤에 복수 명사가 온다.",
+    "new": "multiple은 '여러'. multiple-choice(객관식의)는 단수 명사도 꾸민다."
+   }
+  ],
+  "loc": [
+   31,
+   10,
+   4
+  ],
+  "card": {
+   "en": "multiple",
+   "ko": "① 여러, 다수의",
+   "ex": "The final exam has 30 {{BLANK}}-choice questions.",
+   "tr": "기말시험에는 객관식 문제가 30개 있어.",
+   "c": "multiple-choice는 여러 보기 중에 고르는 '객관식'. 뒤에 복수 명사가 온다.",
+   "ipa": "ˈmʌltəpəl",
+   "pos": "adj.",
+   "word": "multiple",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K07",
+  "src": "B:fable-review-20261013",
+  "cat": "?",
+  "sev": "?",
+  "problem": "Fable 독립 검토 반영 23장: 한정어 되살림(lend·railway·congregation·pond·ought·third·angle 평면), 같은 칸 수 경쟁어(even/much·rather/fairly·path/lane·screw/twist·minister/preacher·clue/hint 구별), 카드 안 불일치(the 예시 dog→cat, spe",
+  "fix": [
+   {
+    "field": "c",
+    "old": "늘 to와 함께: ought to+동사원형. should와 뜻이 비슷하다.",
+    "new": "to와 함께: ought to+동사원형. should와 뜻이 비슷하다."
+   }
+  ],
+  "loc": [
+   13,
+   3,
+   13
+  ],
+  "card": {
+   "en": "ought",
+   "ko": "① ~해야 한다",
+   "ex": "You {{BLANK}} to see a doctor.",
+   "tr": "너 병원에 가 보는 게 좋겠어.",
+   "c": "늘 to와 함께: ought to+동사원형. should와 뜻이 비슷하다.",
+   "ipa": "ɔt",
+   "pos": "aux.",
+   "word": "ought",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K08",
+  "src": "A:C1-226",
+  "cat": "blank-ambiguity",
+  "sev": "critical",
+  "problem": "ko '반응'의 대표 영어 reaction이 response와 똑같이 8글자이고 문장에도 자연스럽게 들어간다. c와 accepted 모두 reaction을 다루지 않는다.",
+  "fix": [
+   {
+    "field": "c",
+    "old": "말뿐 아니라 행동·몸의 변화로 나타나는 반응도 response.",
+    "new": "말뿐 아니라 행동·표정으로 보이는 반응도 response. 이 뜻에서는 reaction과 바꿔 쓸 수 있다."
+   }
+  ],
+  "loc": [
+   4,
+   11,
+   11
+  ],
+  "card": {
+   "en": "response",
+   "word": "response",
+   "ko": "② 반응, 대응",
+   "ex": "Her {{BLANK}} to the news was a smile.",
+   "tr": "그 소식에 대한 그녀의 반응은 미소였어.",
+   "c": "말뿐 아니라 행동·몸의 변화로 나타나는 반응도 response.",
+   "ipa": "rɪˈspɑns",
+   "pos": "n.",
+   "si": 2,
+   "sn": 2
+  }
+ },
+ {
+  "id": "K09",
+  "src": "A:C3-354",
+  "cat": "blank-ambiguity",
+  "sev": "major",
+  "problem": "amazing도 7글자이고 ko '굉장한, 아주 멋진'의 대표 영어다. 'The concert was amazing'이 완전히 자연스러운데 c에 언급이 없다.",
+  "fix": [
+   {
+    "field": "c",
+    "old": "awe(경외감)+-some(그런 성질의). 본래 경외감을 자아내는. 일상에서는 멋진.",
+    "new": "awe(경외감)+-some(그런 성질의). 본래 경외감을 자아내는. 일상 칭찬으로는 amazing과 같아."
+   }
+  ],
+  "loc": [
+   47,
+   10,
+   10
+  ],
+  "card": {
+   "word": "awesome",
+   "en": "awesome",
+   "ko": "굉장한, 아주 멋진",
+   "ex": "The concert was {{BLANK}} from start to finish.",
+   "tr": "그 공연은 처음부터 끝까지 정말 멋졌어.",
+   "c": "awe(경외감)+-some(그런 성질의). 본래 경외감을 자아내는. 일상에서는 멋진.",
+   "pos": "adj.",
+   "ipa": "ˈɔsəm",
+   "unitId": "suffix-some-quality",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K10",
+  "src": "B:astra-content-20261015",
+  "cat": "?",
+  "sev": "?",
+  "problem": "아스트라 리뷰 카드 32장: 동의어 안내 해설(pretty·magnificent·elaborate·bump·furious·bore·sharply·compulsory·spark), 사실·뜻 정정(clause·apparent·smart·agriculture·span·arguably·recount·edition·multiple·plantation·ape·stin",
+  "fix": [
+   {
+    "field": "ex",
+    "old": "This sentence has two {{BLANK}}s in it.",
+    "new": "This sentence has two {{BLANK}}s, and each has a verb."
+   },
+   {
+    "field": "tr",
+    "old": "이 문장에는 절이 두 개 들어 있어.",
+    "new": "이 문장은 절이 두 개이고, 각각 동사가 있어."
+   },
+   {
+    "field": "c",
+    "old": "주어와 동사를 갖춘 형태가 대표적이다. main clause는 주절, subordinate clause는 종속절.",
+    "new": "main clause는 주절, subordinate clause는 종속절."
+   }
+  ],
+  "loc": [
+   25,
+   12,
+   22
+  ],
+  "card": {
+   "en": "clause",
+   "ko": "② (문법) 절",
+   "ex": "This sentence has two {{BLANK}}s in it.",
+   "tr": "이 문장에는 절이 두 개 들어 있어.",
+   "c": "주어와 동사를 갖춘 형태가 대표적이다. main clause는 주절, subordinate clause는 종속절.",
+   "ipa": "klɔz",
+   "pos": "n.",
+   "word": "clause",
+   "si": 2,
+   "sn": 2,
+   "savedId": "[\"33세트\",\"Exercise 3 · 3204~3213\",\"clause\",2,\"\"]",
+   "priorKeys": [
+    [
+     "33세트",
+     "Exercise 3 · 3204~3213"
+    ],
+    [
+     "33세트",
+     "Exercise 3 · 3204~3213 :: short-v1 2/2"
+    ],
+    [
+     "33세트",
+     "Exercise 3 · 3204~3213 :: heads-v2 8-14"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "K11",
+  "src": "B:ishmael-20261024",
+  "cat": "?",
+  "sev": "?",
+  "problem": "『모비 딕』 첫 문장 카드(2세트 call ①)의 해석을 \"나를 이슈메일이라 불러 다오.\" → \"이스마엘이라고 해.\"로. 같은 인물이 나오는 9세트 hide ① 해설의 이름 표기도 이슈메일 → 이스마엘로 맞췄다.",
+  "fix": [
+   {
+    "field": "tr",
+    "old": "나를 이슈메일이라 불러 다오.",
+    "new": "이스마엘이라고 해."
+   }
+  ],
+  "loc": [
+   2,
+   3,
+   10
+  ],
+  "card": {
+   "en": "call",
+   "ko": "① 부르다, ~라고 부르다",
+   "ex": "{{BLANK}} me Ishmael.",
+   "tr": "나를 이슈메일이라 불러 다오.",
+   "c": "멜빌 『모비 딕』 첫 문장. call A B: A를 B라고 부르다.",
+   "ipa": "kɔl",
+   "pos": "v.",
+   "word": "call",
+   "si": 1,
+   "sn": 2
+  }
+ },
+ {
+  "id": "K12",
+  "src": "B:codex-review-20261011",
+  "cat": "?",
+  "sev": "?",
+  "problem": "Codex(아스트라) 2026-10-11 리뷰 반영: 내용 정확성 17장(score·chief·republic·parliament·migrate·gross·immune·socialism·scarcity·approach·suspect·unicorn와 그림 법칙 사촌 5장), 문법 해설 범위 7장, 같은 칸 수 대체어 안내 64장. 읽기 페이지 https://",
+  "fix": [
+   {
+    "field": "c",
+    "old": "",
+    "new": "이 뜻에서는 nice·neat과 바꿔 쓸 수 있다."
+   }
+  ],
+  "loc": [
+   4,
+   9,
+   10
+  ],
+  "card": {
+   "en": "cool",
+   "ko": "② 멋진, 근사한 (회화)",
+   "ex": "That's a really {{BLANK}} idea!",
+   "tr": "그거 정말 멋진 생각이야!",
+   "c": "",
+   "ipa": "kul",
+   "pos": "adj.",
+   "word": "cool",
+   "si": 2,
+   "sn": 2
+  }
+ },
+ {
+  "id": "K13",
+  "src": "CTRL",
+  "cat": "control",
+  "sev": "-",
+  "problem": "",
+  "fix": [],
+  "loc": [
+   48,
+   0,
+   1
+  ],
+  "card": {
+   "word": "microscopic",
+   "en": "microscopic",
+   "ko": "현미경으로 보아야 할 만큼 작은",
+   "ex": "These {{BLANK}} living things are too small to see.",
+   "tr": "이 미세한 생물들은 너무 작아서 눈에 보이지 않아.",
+   "c": "micro-(작은)+scope 계열(보기). macroscopic은 현미경 없이 볼 수 있는.",
+   "ipa": "ˌmaɪkrəˈskɑːpɪk",
+   "pos": "adj.",
+   "unitId": "gr-micro",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K14",
+  "src": "A:C1-235",
+  "cat": "factual-error",
+  "sev": "minor",
+  "problem": "우주비행사가 우주에서 무전기를 쓰는 이유를 진공 하나로 단정했다. 우주선 안에는 공기가 있어 그냥 대화할 수 있고, 무전은 우주유영 때나 지상과 교신할 때 쓴다(원칙 4의 단일 원인 단정).",
+  "fix": [
+   {
+    "field": "ex",
+    "old": "Astronauts use radios in {{BLANK}} because sound cannot travel through a vacuum.",
+    "new": "There is no air in {{BLANK}}, so sound cannot travel there."
+   },
+   {
+    "field": "tr",
+    "old": "우주비행사들은 우주에서 무전기를 써. 진공에서는 소리가 전달되지 않거든.",
+    "new": "우주에는 공기가 없어서 소리가 전달되지 않아."
+   }
+  ],
+  "loc": [
+   4,
+   1,
+   11
+  ],
+  "card": {
+   "en": "space",
+   "ko": "② 우주",
+   "ex": "Astronauts use radios in {{BLANK}} because sound cannot travel through a vacuum.",
+   "tr": "우주비행사들은 우주에서 무전기를 써. 진공에서는 소리가 전달되지 않거든.",
+   "c": "outer space = 우주 공간.",
+   "ipa": "speɪs",
+   "pos": "n.",
+   "word": "space",
+   "si": 2,
+   "sn": 2
+  }
+ },
+ {
+  "id": "K15",
+  "src": "A:C4-087",
+  "cat": "blank-ambiguity",
+  "sev": "major",
+  "problem": "impact(6글자)가 칸 수가 같고 ko '영향'에 정확히 맞는다(have no impact on). C4-284 effect on에서는 impact on을 정답으로 인정하면서 이 카드에서는 c에도 accepted에도 없다.",
+  "fix": [
+   {
+    "field": "c",
+    "old": "fac-/fect-는 하다·만들다. effect는 작용해서 생긴 결과·영향.",
+    "new": "fac-/fect-는 하다·만들다. effect는 작용해서 생긴 결과·영향. 이 뜻에서는 impact와 바꿔 쓸 수 있어."
+   }
+  ],
+  "loc": [
+   48,
+   7,
+   1
+  ],
+  "card": {
+   "word": "effect",
+   "en": "effect",
+   "ko": "영향, 결과",
+   "ex": "The change had no {{BLANK}} on our health.",
+   "tr": "그 변화는 우리의 건강에 아무 영향도 미치지 않았어.",
+   "c": "fac-/fect-는 하다·만들다. effect는 작용해서 생긴 결과·영향.",
+   "ipa": "ɪˈfekt",
+   "pos": "n.",
+   "unitId": "lat-fac",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K16",
+  "src": "CTRL",
+  "cat": "control",
+  "sev": "-",
+  "problem": "",
+  "fix": [],
+  "loc": [
+   48,
+   17,
+   3
+  ],
+  "card": {
+   "word": "chronic",
+   "en": "chronic",
+   "ko": "만성의, 오래 지속되는",
+   "ex": "She needs treatment for {{BLANK}} pain.",
+   "tr": "그녀는 만성 통증에 대한 치료가 필요해.",
+   "c": "그리스어 χρόνος(khronos, 시간). chronic은 오래 지속되는, 단순히 심한 게 아니야.",
+   "ipa": "ˈkrɑːnɪk",
+   "pos": "adj.",
+   "unitId": "gr-chron",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K17",
+  "src": "A:C1-250",
+  "cat": "blank-ambiguity",
+  "sev": "major",
+  "problem": "Would(5글자)도 같은 칸에 들어가는 정중한 부탁 표현이다. 같은 덱 C1-289의 c도 'Would you ~?는 정중한 부탁'이라고 가르친다. 그런데 이 카드의 c는 Can만 비교한다.",
+  "fix": [
+   {
+    "field": "c",
+    "old": "과거가 아니라 공손 모드. Can you~?보다 정중한 부탁.",
+    "new": "과거가 아니라 공손 모드. Can you~?보다 정중한 부탁. Would you~?도 같은 정중한 부탁이다."
+   }
+  ],
+  "loc": [
+   5,
+   5,
+   4
+  ],
+  "card": {
+   "en": "could",
+   "ko": "② ~해 주시겠어요?",
+   "ex": "{{BLANK}} you say that again?",
+   "tr": "다시 한번 말씀해 주시겠어요?",
+   "c": "과거가 아니라 공손 모드. Can you~?보다 정중한 부탁.",
+   "ipa": "kʊd",
+   "pos": "aux.",
+   "word": "could",
+   "si": 2,
+   "sn": 3
+  }
+ },
+ {
+  "id": "K18",
+  "src": "A:C4-216",
+  "cat": "blank-ambiguity",
+  "sev": "major",
+  "problem": "rational(8글자)이 칸 수가 같고, ko에 적힌 '합리적인'은 rational의 대표 뜻이다. 문장에도 자연스럽게 들어가는데 c에 언급이 없다.",
+  "fix": [
+   {
+    "field": "ko",
+    "old": "분별 있는, 합리적인",
+    "new": "분별 있는, 현명한"
+   },
+   {
+    "field": "c",
+    "old": "sens-(느끼다·판단하다) 계열. sensible은 분별 있는, sensitive는 민감한.",
+    "new": "sens-(느끼다·판단하다) 계열. sensitive(민감한)와 구별해. 이 문장에선 rational도 쓸 수 있어."
+   }
+  ],
+  "loc": [
+   48,
+   13,
+   3
+  ],
+  "card": {
+   "word": "sensible",
+   "en": "sensible",
+   "ko": "분별 있는, 합리적인",
+   "ex": "Saving some money is a {{BLANK}} decision.",
+   "tr": "돈을 조금 저축하는 것은 합리적인 결정이야.",
+   "c": "sens-(느끼다·판단하다) 계열. sensible은 분별 있는, sensitive는 민감한.",
+   "pos": "adj.",
+   "ipa": "ˈsɛnsəbəl",
+   "unitId": "add-sens",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K19",
+  "src": "CTRL",
+  "cat": "control",
+  "sev": "-",
+  "problem": "",
+  "fix": [],
+  "loc": [
+   44,
+   4,
+   7
+  ],
+  "card": {
+   "en": "faithfully",
+   "ko": "① 충실히, 성실히",
+   "ex": "He {{BLANK}} followed the coach's plan.",
+   "tr": "걔는 코치가 짠 계획을 충실히 따랐어.",
+   "c": "faithful(충실한)+ly. 약속·원칙을 어기지 않을 때 쓴다.",
+   "ipa": "ˈfeɪθfəli",
+   "pos": "adv.",
+   "word": "faithfully",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K20",
+  "src": "A:C3-127",
+  "cat": "explanation-error",
+  "sev": "minor",
+  "problem": "과거형의 표준은 영미 모두 spat이고, 미국에서는 spit도 함께 쓴다. '미국식은 보통 spit'은 지나친 단정이다(Cambridge: spat, US also spit).",
+  "fix": [
+   {
+    "field": "c",
+    "old": "미국식 과거형은 보통 spit. spit out은 '뱉어 내다, 내뱉듯 말하다'.",
+    "new": "과거형·과거분사는 spat. 미국에서는 spit도 쓴다. spit out은 '뱉어 내다, 내뱉듯 말하다'."
+   }
+  ],
+  "loc": [
+   34,
+   3,
+   8
+  ],
+  "card": {
+   "en": "spit",
+   "ko": "① 침을 뱉다",
+   "ex": "Don't {{BLANK}} on the street; it's really rude.",
+   "tr": "길에 침 뱉지 마, 그거 진짜 예의 없어.",
+   "c": "미국식 과거형은 보통 spit. spit out은 '뱉어 내다, 내뱉듯 말하다'.",
+   "ipa": "spɪt",
+   "pos": "v.",
+   "word": "spit",
+   "si": 1,
+   "sn": 2
+  }
+ },
+ {
+  "id": "K21",
+  "src": "CTRL",
+  "cat": "control",
+  "sev": "-",
+  "problem": "",
+  "fix": [],
+  "loc": [
+   30,
+   3,
+   9
+  ],
+  "card": {
+   "en": "gulf",
+   "ko": "② 큰 차이, 격차",
+   "ex": "There is a huge {{BLANK}} between our tastes.",
+   "tr": "우리 취향 사이에는 엄청난 차이가 있어.",
+   "c": "a gulf between A and B. 메우기 힘든 큰 간극을 말한다.",
+   "ipa": "ɡʌlf",
+   "pos": "n.",
+   "word": "gulf",
+   "si": 2,
+   "sn": 2
+  }
+ },
+ {
+  "id": "K22",
+  "src": "A:C3-307",
+  "cat": "unnatural-english",
+  "sev": "minor",
+  "problem": "인용 부호가 없어 'To go'가 문장의 주어처럼 읽히고, 'in this sentence'가 이 문장 자체를 가리키게 되어 혼란스럽다. C3-174는 'And'를 인용 부호로 표시했다.",
+  "fix": [
+   {
+    "field": "ex",
+    "old": "To go is an {{BLANK}} in this sentence.",
+    "new": "In 'I want to go,' 'to go' is an {{BLANK}}."
+   },
+   {
+    "field": "tr",
+    "old": "이 문장에서 To go가 부정사야.",
+    "new": "'I want to go'에서 'to go'는 부정사야."
+   }
+  ],
+  "loc": [
+   45,
+   5,
+   0
+  ],
+  "card": {
+   "en": "infinitive",
+   "ko": "① 부정사",
+   "ex": "To go is an {{BLANK}} in this sentence.",
+   "tr": "이 문장에서 To go가 부정사야.",
+   "c": "to go 같은 to부정사와 go 같은 원형부정사가 있다. 동사의 기본형을 쓰는 꼴.",
+   "ipa": "ɪnˈfɪnətɪv",
+   "pos": "n.",
+   "word": "infinitive",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K23",
+  "src": "B:astra-review-20261013",
+  "cat": "?",
+  "sev": "?",
+  "problem": "아스트라 리뷰 반영 23장: life 복수형 lifes, of·very 규칙, tax 해석, quantity·anxious·prime·fatal·scarcity·disease·behalf·night·September 해설, loving·surgery 해석의 개, puzzle·interesting·sharply 대체어 안내, fourteenth·insect·",
+  "fix": [
+   {
+    "field": "c",
+    "old": "one of, some of 뒤는 복수: one of my friends(O), one of my friend(X).",
+    "new": "one of 뒤엔 복수: one of my friends. some of the water처럼 불가산명사도 쓴다."
+   }
+  ],
+  "loc": [
+   5,
+   0,
+   5
+  ],
+  "card": {
+   "en": "of",
+   "ko": "② ~중의",
+   "ex": "Some {{BLANK}} my friends play soccer.",
+   "tr": "내 친구들 중 몇몇은 축구를 해.",
+   "c": "one of, some of 뒤는 복수: one of my friends(O), one of my friend(X).",
+   "ipa": "ʌv",
+   "pos": "prep.",
+   "word": "of",
+   "si": 2,
+   "sn": 2,
+   "savedId": "[\"5세트\",\"Exercise 1 · 401~410\",\"of\",2,\"\"]"
+  }
+ },
+ {
+  "id": "K24",
+  "src": "A:C2-290",
+  "cat": "unnatural-english",
+  "sev": "minor",
+  "problem": "비교 범위가 없어 최상급 부사가 어색하다. 문장만 보면 badly(5칸)가 더 자연스럽게 들어간다.",
+  "fix": [
+   {
+    "field": "ex",
+    "old": "I slept {{BLANK}} on the train.",
+    "new": "Of all the nights on our trip, I slept {{BLANK}} on the train."
+   },
+   {
+    "field": "tr",
+    "old": "나는 기차에서 잠을 가장 못 잤어.",
+    "new": "여행 중에 기차에서 잔 날 잠을 제일 못 잤어."
+   }
+  ],
+  "loc": [
+   22,
+   7,
+   14
+  ],
+  "card": {
+   "en": "worst",
+   "word": "worst",
+   "ko": "② 가장 못하게, 가장 나쁘게",
+   "ex": "I slept {{BLANK}} on the train.",
+   "tr": "나는 기차에서 잠을 가장 못 잤어.",
+   "c": "부사 badly의 최상급. 동작을 꾸밀 때 the 없이도 쓴다.",
+   "ipa": "wɝst",
+   "pos": "adv.",
+   "si": 2,
+   "sn": 2
+  }
+ },
+ {
+  "id": "K25",
+  "src": "A:C2-112",
+  "cat": "blank-ambiguity",
+  "sev": "critical",
+  "problem": "뜻 '준비'와 11칸이 preparation과 겹친다. 'We made preparations for the school trip.'도 자연스러운데 c에 안내가 없다.",
+  "fix": [
+   {
+    "field": "c",
+    "old": "준비·계획은 make arrangements처럼 복수로 자주 쓴다.",
+    "new": "준비·계획은 make arrangements처럼 복수로 자주 쓴다. make preparations도 같은 뜻이다."
+   }
+  ],
+  "loc": [
+   15,
+   9,
+   12
+  ],
+  "card": {
+   "en": "arrangement",
+   "word": "arrangement",
+   "ko": "② 준비, 계획",
+   "ex": "We made {{BLANK}}s for the school trip.",
+   "tr": "우리는 수학여행을 위한 준비를 했어.",
+   "c": "준비·계획은 make arrangements처럼 복수로 자주 쓴다.",
+   "ipa": "əˈreɪndʒmənt",
+   "pos": "n.",
+   "si": 2,
+   "sn": 2
+  }
+ },
+ {
+  "id": "K26",
+  "src": "A:C2-159",
+  "cat": "blank-ambiguity",
+  "sev": "minor",
+  "problem": "4칸이 rate와 겹친다. 'Experts rate this school among the best.'가 자연스럽다. tr도 '평가해'로 rate 쪽에 가깝다.",
+  "fix": [
+   {
+    "field": "c",
+    "old": "rank A among ~: A를 ~중에 넣어 평가하다.",
+    "new": "rank A among ~: A를 ~중에 넣어 평가하다. 점수로 평가하는 rate도 비슷하게 쓴다."
+   }
+  ],
+  "loc": [
+   16,
+   1,
+   7
+  ],
+  "card": {
+   "en": "rank",
+   "word": "rank",
+   "ko": "② 순위를 매기다, 위치하다",
+   "ex": "Experts {{BLANK}} this school among the best.",
+   "tr": "전문가들은 이 학교를 최고 수준으로 평가해.",
+   "c": "rank A among ~: A를 ~중에 넣어 평가하다.",
+   "ipa": "ræŋk",
+   "pos": "v.",
+   "si": 2,
+   "sn": 2
+  }
+ },
+ {
+  "id": "K27",
+  "src": "B:astra-review-20261013",
+  "cat": "?",
+  "sev": "?",
+  "problem": "아스트라 리뷰 반영 23장: life 복수형 lifes, of·very 규칙, tax 해석, quantity·anxious·prime·fatal·scarcity·disease·behalf·night·September 해설, loving·surgery 해석의 개, puzzle·interesting·sharply 대체어 안내, fourteenth·insect·",
+  "fix": [
+   {
+    "field": "tr",
+    "old": "1760년대 아메리카인은 투표권도 없이 영국에 세금을 냈어.",
+    "new": "1760년대 식민지인들은 영국 의회에 대표도 없이 세금을 냈어."
+   }
+  ],
+  "loc": [
+   6,
+   2,
+   14
+  ],
+  "card": {
+   "en": "tax",
+   "ko": "① 세금",
+   "ex": "In the 1760s, Americans paid British {{BLANK}}es without a vote.",
+   "tr": "1760년대 아메리카인은 투표권도 없이 영국에 세금을 냈어.",
+   "c": "No taxation without representation(대표 없이 과세 없다).",
+   "ipa": "tæks",
+   "pos": "n.",
+   "word": "tax",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K28",
+  "src": "B:fable-review-20261013",
+  "cat": "?",
+  "sev": "?",
+  "problem": "Fable 독립 검토 반영 23장: 한정어 되살림(lend·railway·congregation·pond·ought·third·angle 평면), 같은 칸 수 경쟁어(even/much·rather/fairly·path/lane·screw/twist·minister/preacher·clue/hint 구별), 카드 안 불일치(the 예시 dog→cat, spe",
+  "fix": [
+   {
+    "field": "c",
+    "old": "rail(선로)+way(길). 미국에서는 railroad도 쓴다.",
+    "new": "rail(선로)+way(길). 미국에서는 주로 railroad."
+   }
+  ],
+  "loc": [
+   19,
+   9,
+   2
+  ],
+  "card": {
+   "en": "railway",
+   "ko": "① 철도, 철로",
+   "ex": "In 1825, the first public {{BLANK}} with steam trains opened in England.",
+   "tr": "1825년 잉글랜드에 증기 기관차가 다니는 첫 공공 철도가 열렸어.",
+   "c": "rail(선로)+way(길). 미국에서는 railroad도 쓴다.",
+   "ipa": "ˈreɪlweɪ",
+   "pos": "n.",
+   "word": "railway",
+   "si": 1,
+   "sn": 1,
+   "savedId": "[\"19세트\",\"Exercise 10 · 1891~1900\",\"railway\",1,\"\"]"
+  }
+ },
+ {
+  "id": "K29",
+  "src": "B:codex-review-20261011",
+  "cat": "?",
+  "sev": "?",
+  "problem": "Codex(아스트라) 2026-10-11 리뷰 반영: 내용 정확성 17장(score·chief·republic·parliament·migrate·gross·immune·socialism·scarcity·approach·suspect·unicorn와 그림 법칙 사촌 5장), 문법 해설 범위 7장, 같은 칸 수 대체어 안내 64장. 읽기 페이지 https://",
+  "fix": [
+   {
+    "field": "c",
+    "old": "lose weight는 체중이 줄다. gain weight는 체중이 늘다.",
+    "new": "lose weight는 체중이 줄다, gain weight는 늘다. 이 뜻에서는 shed와 바꿔 쓸 수 있다."
+   }
+  ],
+  "loc": [
+   5,
+   9,
+   11
+  ],
+  "card": {
+   "en": "lose",
+   "word": "lose",
+   "ko": "③ (체중 등이) 줄다, 줄이다",
+   "ex": "I want to {{BLANK}} some weight.",
+   "tr": "나는 체중을 좀 줄이고 싶어.",
+   "c": "lose weight는 체중이 줄다. gain weight는 체중이 늘다.",
+   "ipa": "luz",
+   "pos": "v.",
+   "si": 3,
+   "sn": 3
+  }
+ },
+ {
+  "id": "K30",
+  "src": "CTRL",
+  "cat": "control",
+  "sev": "-",
+  "problem": "",
+  "fix": [],
+  "loc": [
+   14,
+   7,
+   5
+  ],
+  "card": {
+   "en": "permit",
+   "ko": "① 허락하다",
+   "ex": "They don't {{BLANK}} smoking in this building.",
+   "tr": "이 건물에선 흡연이 허용 안 돼.",
+   "c": "permit A to do=A가 ~하도록 허락하다. permit -ing도 가능. 명사는 앞, 동사는 뒤에 강세.",
+   "ipa": "pɚˈmɪt",
+   "pos": "v.",
+   "word": "permit",
+   "si": 1,
+   "sn": 3
+  }
+ },
+ {
+  "id": "K31",
+  "src": "CTRL",
+  "cat": "control",
+  "sev": "-",
+  "problem": "",
+  "fix": [],
+  "loc": [
+   48,
+   14,
+   6
+  ],
+  "card": {
+   "word": "direct",
+   "en": "direct",
+   "ko": "안내하다, 방향을 가리키다",
+   "ex": "Signs {{BLANK}} visitors to the main hall.",
+   "tr": "표지판들이 방문객들을 중앙 홀로 안내해.",
+   "c": "rect-는 곧게 하다·이끌다. direct A to B: A를 B로 안내하다.",
+   "ipa": "dəˈrekt",
+   "pos": "v.",
+   "unitId": "lat-reg",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K32",
+  "src": "B:astra-content-20261015",
+  "cat": "?",
+  "sev": "?",
+  "problem": "아스트라 리뷰 카드 32장: 동의어 안내 해설(pretty·magnificent·elaborate·bump·furious·bore·sharply·compulsory·spark), 사실·뜻 정정(clause·apparent·smart·agriculture·span·arguably·recount·edition·multiple·plantation·ape·stin",
+  "fix": [
+   {
+    "field": "c",
+    "old": "",
+    "new": "이 뜻에서는 lovely와 바꿔 쓸 수 있다."
+   }
+  ],
+  "loc": [
+   3,
+   1,
+   7
+  ],
+  "card": {
+   "en": "pretty",
+   "ko": "① 예쁜",
+   "ex": "She has a {{BLANK}} smile.",
+   "tr": "그녀는 미소가 예뻐.",
+   "c": "",
+   "ipa": "ˈprɪti",
+   "pos": "adj.",
+   "word": "pretty",
+   "si": 1,
+   "sn": 2
+  }
+ },
+ {
+  "id": "K33",
+  "src": "B:codex-review-20261011",
+  "cat": "?",
+  "sev": "?",
+  "problem": "Codex(아스트라) 2026-10-11 리뷰 반영: 내용 정확성 17장(score·chief·republic·parliament·migrate·gross·immune·socialism·scarcity·approach·suspect·unicorn와 그림 법칙 사촌 5장), 문법 해설 범위 7장, 같은 칸 수 대체어 안내 64장. 읽기 페이지 https://",
+  "fix": [
+   {
+    "field": "c",
+    "old": "What a+명사! = 감탄문. 명사 없이 형용사만이면 How를 쓴다.",
+    "new": "What a/an+(형용사)+셀 수 있는 단수 명사! 형용사만이면 How: How beautiful!"
+   }
+  ],
+  "loc": [
+   5,
+   2,
+   2
+  ],
+  "card": {
+   "en": "what",
+   "ko": "② 정말 ~구나!",
+   "ex": "{{BLANK}} a beautiful day!",
+   "tr": "와, 날씨 진짜 좋다!",
+   "c": "What a+명사! = 감탄문. 명사 없이 형용사만이면 How를 쓴다.",
+   "ipa": "wʌt",
+   "pos": "det.",
+   "word": "what",
+   "si": 2,
+   "sn": 3
+  }
+ },
+ {
+  "id": "K34",
+  "src": "A:C2-168",
+  "cat": "explanation-error",
+  "sev": "minor",
+  "problem": "c가 예전 '시험' 뜻을 기준으로 쓰여 있다. 이 카드(진찰) 기준으로 '병원 검사에도 쓴다'는 말이 어긋난다. '말할 땐 보통 test'도 진찰 뜻에는 맞지 않는다.",
+  "fix": [
+   {
+    "field": "c",
+    "old": "격식 있는 말. 말할 땐 보통 exam이나 test. 병원 검사·조사에도 쓴다.",
+    "new": "격식 있는 말. 병원 진찰은 일상에서 checkup이나 exam이라고도 한다."
+   }
+  ],
+  "loc": [
+   17,
+   4,
+   7
+  ],
+  "card": {
+   "en": "examination",
+   "ko": "① 검사, 진찰",
+   "ex": "The doctor gave me a full {{BLANK}}.",
+   "tr": "의사가 나를 정밀 검사했어.",
+   "c": "격식 있는 말. 말할 땐 보통 exam이나 test. 병원 검사·조사에도 쓴다.",
+   "ipa": "ɪɡˌzæmɪˈneɪʃən",
+   "pos": "n.",
+   "word": "examination",
+   "si": 1,
+   "sn": 2
+  }
+ },
+ {
+  "id": "K35",
+  "src": "B:fable-review-20261013",
+  "cat": "?",
+  "sev": "?",
+  "problem": "Fable 독립 검토 반영 23장: 한정어 되살림(lend·railway·congregation·pond·ought·third·angle 평면), 같은 칸 수 경쟁어(even/much·rather/fairly·path/lane·screw/twist·minister/preacher·clue/hint 구별), 카드 안 불일치(the 예시 dog→cat, spe",
+  "fix": [
+   {
+    "field": "c",
+    "old": "이 뜻에서는 loan과 바꿔 쓸 수 있다. 빌리는 쪽은 borrow.",
+    "new": "이 뜻에서는 loan과 바꿔 쓸 수 있다(주로 미국). 빌리는 쪽은 borrow."
+   }
+  ],
+  "loc": [
+   18,
+   1,
+   5
+  ],
+  "card": {
+   "en": "lend",
+   "ko": "① 빌려주다",
+   "ex": "Can you {{BLANK}} me some money?",
+   "tr": "나 돈 좀 빌려줄래?",
+   "c": "이 뜻에서는 loan과 바꿔 쓸 수 있다. 빌리는 쪽은 borrow.",
+   "ipa": "lɛnd",
+   "pos": "v.",
+   "word": "lend",
+   "si": 1,
+   "sn": 1,
+   "meow": "빌려줄 땐 lend, 빌릴 땐 borrow. 츄르는 안 빌려준다고양."
+  }
+ },
+ {
+  "id": "K36",
+  "src": "CTRL",
+  "cat": "control",
+  "sev": "-",
+  "problem": "",
+  "fix": [],
+  "loc": [
+   11,
+   7,
+   9
+  ],
+  "card": {
+   "en": "tie",
+   "ko": "③ 동점",
+   "ex": "The game ended in a {{BLANK}}.",
+   "tr": "그 경기는 동점으로 끝났어.",
+   "c": "점수가 서로 묶인 상태=동점. end in a tie.",
+   "ipa": "taɪ",
+   "pos": "n.",
+   "word": "tie",
+   "si": 3,
+   "sn": 3,
+   "meow": "tie, 동점은 승부를 미룬 것뿐이라고양. 다시 붙자고양."
+  }
+ },
+ {
+  "id": "K37",
+  "src": "A:C1-234",
+  "cat": "blank-ambiguity",
+  "sev": "major",
+  "problem": "valid(타당한)와 solid도 sound와 같은 5글자이고 'The plan seems ___'에 자연스럽게 들어간다. 특히 valid는 ko '타당한'의 대표 영어다. c에는 언급이 없다.",
+  "fix": [
+   {
+    "field": "c",
+    "old": "sound advice = 타당한 조언. sound는 상태가 튼튼하다는 뜻도 있다.",
+    "new": "sound advice = 타당한 조언. 이 뜻에서는 solid·valid도 비슷하게 쓴다."
+   }
+  ],
+  "loc": [
+   4,
+   8,
+   15
+  ],
+  "card": {
+   "en": "sound",
+   "word": "sound",
+   "ko": "③ 건전한, 타당한",
+   "ex": "The plan seems {{BLANK}} and easy to follow.",
+   "tr": "그 계획은 타당하고 따르기 쉬워 보여.",
+   "c": "sound advice = 타당한 조언. sound는 상태가 튼튼하다는 뜻도 있다.",
+   "ipa": "saʊnd",
+   "pos": "adj.",
+   "si": 3,
+   "sn": 3,
+   "savedId": "[\"4세트\",\"Exercise 9 · 381~390\",\"sound\",3,\"\"]"
+  }
+ },
+ {
+  "id": "K38",
+  "src": "B:codex-review-20261011",
+  "cat": "?",
+  "sev": "?",
+  "problem": "Codex(아스트라) 2026-10-11 리뷰 반영: 내용 정확성 17장(score·chief·republic·parliament·migrate·gross·immune·socialism·scarcity·approach·suspect·unicorn와 그림 법칙 사촌 5장), 문법 해설 범위 7장, 같은 칸 수 대체어 안내 64장. 읽기 페이지 https://",
+  "fix": [
+   {
+    "field": "c",
+    "old": "have an effect on은 ‘~에 영향을 미치다’. affect는 ‘영향을 주다’라는 동사. side effect는 부작용.",
+    "new": "have an effect on ~에 영향을 미치다. 이 뜻에서는 impact와 바꿔 쓸 수 있다."
+   }
+  ],
+  "loc": [
+   6,
+   2,
+   13
+  ],
+  "card": {
+   "en": "effect",
+   "ko": "① 효과, 영향",
+   "ex": "The medicine had no {{BLANK}} on me.",
+   "tr": "그 약 나한텐 효과가 없었어.",
+   "c": "have an effect on은 ‘~에 영향을 미치다’. affect는 ‘영향을 주다’라는 동사. side effect는 부작용.",
+   "ipa": "ɪˈfɛkt",
+   "pos": "n.",
+   "word": "effect",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K39",
+  "src": "CTRL",
+  "cat": "control",
+  "sev": "-",
+  "problem": "",
+  "fix": [],
+  "loc": [
+   45,
+   14,
+   4
+  ],
+  "card": {
+   "word": "implication",
+   "en": "implication",
+   "ko": "③ (범죄 등에) 연루됨, 연루시킴",
+   "pos": "n.",
+   "ipa": "ˌɪmpləˈkeɪʃən",
+   "ex": "His {{BLANK}} in the crime shocked his family.",
+   "tr": "그가 그 범죄에 연루됐다는 사실에 가족은 충격을 받았어.",
+   "c": "이 뜻에서는 involvement와 바꿔 쓸 수 있다(그쪽이 더 흔하다).",
+   "si": 3,
+   "sn": 3
+  }
+ },
+ {
+  "id": "K40",
+  "src": "CTRL",
+  "cat": "control",
+  "sev": "-",
+  "problem": "",
+  "fix": [],
+  "loc": [
+   21,
+   12,
+   2
+  ],
+  "card": {
+   "en": "translation",
+   "ko": "① 번역, 번역본",
+   "ex": "I read the Korean {{BLANK}} of that book.",
+   "tr": "나는 그 책의 한국어 번역본을 읽었어.",
+   "c": "translate+-ion. a translation of A into B. 사람은 translator.",
+   "ipa": "trænsˈleɪʃən",
+   "pos": "n.",
+   "word": "translation",
+   "si": 1,
+   "sn": 1,
+   "savedId": "[\"30세트\",\"Exercise 9 · 2964~2973\",\"translation\",1,\"\"]",
+   "priorKeys": [
+    [
+     "30세트",
+     "Exercise 9 · 2964~2973"
+    ],
+    [
+     "30세트",
+     "Exercise 9 · 2964~2973 :: short-v1 1/2"
+    ],
+    [
+     "30세트",
+     "Exercise 9 · 2964~2973 :: heads-v2 1-7"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "K41",
+  "src": "B:astra-review-20261013",
+  "cat": "?",
+  "sev": "?",
+  "problem": "아스트라 리뷰 반영 23장: life 복수형 lifes, of·very 규칙, tax 해석, quantity·anxious·prime·fatal·scarcity·disease·behalf·night·September 해설, loving·surgery 해석의 개, puzzle·interesting·sharply 대체어 안내, fourteenth·insect·",
+  "fix": [
+   {
+    "field": "c",
+    "old": "1과 자기 자신으로만 나뉘는 수가 prime number.",
+    "new": "1보다 큰 자연수로, 양의 약수가 1과 자신뿐인 수."
+   }
+  ],
+  "loc": [
+   41,
+   10,
+   12
+  ],
+  "card": {
+   "en": "prime",
+   "ko": "② 소수(素數)의",
+   "ex": "Two, three, five, and seven are {{BLANK}} numbers, but nine is not.",
+   "tr": "2, 3, 5, 7은 소수지만 9는 아니야.",
+   "c": "1과 자기 자신으로만 나뉘는 수가 prime number.",
+   "ipa": "praɪm",
+   "pos": "adj.",
+   "word": "prime",
+   "si": 2,
+   "sn": 2,
+   "meow": "고양이 목숨 9개는 prime number가 아니라고양! 그래도 고양이는 특별하다고양."
+  }
+ },
+ {
+  "id": "K42",
+  "src": "A:C3-230",
+  "cat": "unnatural-english",
+  "sev": "minor",
+  "problem": "circa 뒤의 연도를 'eight hundred'처럼 단어로 풀어 쓰는 일은 거의 없다. 보통 숫자로 쓴다.",
+  "fix": [
+   {
+    "field": "ex",
+    "old": "The temple was built {{BLANK}} eight hundred.",
+    "new": "The temple was built {{BLANK}} AD 800."
+   },
+   {
+    "field": "tr",
+    "old": "그 절은 800년경에 지어졌어.",
+    "new": "그 절은 서기 800년경에 지어졌어."
+   }
+  ],
+  "loc": [
+   42,
+   7,
+   0
+  ],
+  "card": {
+   "en": "circa",
+   "ko": "① 약, ~쯤, ~년경",
+   "ex": "The temple was built {{BLANK}} eight hundred.",
+   "tr": "그 절은 800년경에 지어졌어.",
+   "c": "연도 앞의 약, ~년경이라는 뜻에서는 about과 같은 말. c. 또는 ca.로 줄인다.",
+   "ipa": "ˈsɝkə",
+   "pos": "prep.",
+   "word": "circa",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K43",
+  "src": "A:C2-089",
+  "cat": "blank-ambiguity",
+  "sev": "critical",
+  "problem": "뜻에 '사람'이 들어 있고 6칸이라 person과 겹친다. 'He seems like a friendly person.'이 완전히 자연스러운데 c에 언급이 없다.",
+  "fix": [
+   {
+    "field": "c",
+    "old": "주로 남자를 가리키는 비격식 명사.",
+    "new": "주로 남자를 친근하게 이르는 비격식 명사. 이 문장에는 person도 들어간다."
+   }
+  ],
+  "loc": [
+   14,
+   4,
+   11
+  ],
+  "card": {
+   "en": "fellow",
+   "word": "fellow",
+   "ko": "② 남자, 사람",
+   "ex": "He seems like a friendly {{BLANK}}.",
+   "tr": "그는 친근한 사람 같아.",
+   "c": "주로 남자를 가리키는 비격식 명사.",
+   "ipa": "ˈfɛloʊ",
+   "pos": "n.",
+   "si": 2,
+   "sn": 2
+  }
+ },
+ {
+  "id": "K44",
+  "src": "A:C2-282",
+  "cat": "unnatural-english",
+  "sev": "minor",
+  "problem": "단어 these를 가리키는데 따옴표가 없다. 그래서 영어로는 '이것들 뒤에'로 읽힌다.",
+  "fix": [
+   {
+    "field": "ex",
+    "old": "Use a {{BLANK}} noun after these.",
+    "new": "Use a {{BLANK}} noun after 'these'."
+   }
+  ],
+  "loc": [
+   22,
+   3,
+   4
+  ],
+  "card": {
+   "en": "plural",
+   "word": "plural",
+   "ko": "② 복수형의",
+   "ex": "Use a {{BLANK}} noun after these.",
+   "tr": "these 뒤에는 복수형 명사를 써.",
+   "ipa": "ˈplʊrəl",
+   "pos": "adj.",
+   "si": 2,
+   "sn": 2
+  }
+ },
+ {
+  "id": "K45",
+  "src": "B:astra-content-20261015",
+  "cat": "?",
+  "sev": "?",
+  "problem": "아스트라 리뷰 카드 32장: 동의어 안내 해설(pretty·magnificent·elaborate·bump·furious·bore·sharply·compulsory·spark), 사실·뜻 정정(clause·apparent·smart·agriculture·span·arguably·recount·edition·multiple·plantation·ape·stin",
+  "fix": [
+   {
+    "field": "ex",
+    "old": "Don't move, a {{BLANK}} is on your arm.",
+    "new": "Don't move. A {{BLANK}} is on your arm."
+   },
+   {
+    "field": "tr",
+    "old": "움직이지 마, 네 팔에 벌 있어.",
+    "new": "움직이지 마. 네 팔에 벌 있어."
+   }
+  ],
+  "loc": [
+   18,
+   6,
+   3
+  ],
+  "card": {
+   "en": "bee",
+   "ko": "① 벌",
+   "ex": "Don't move, a {{BLANK}} is on your arm.",
+   "tr": "움직이지 마, 네 팔에 벌 있어.",
+   "c": "",
+   "ipa": "bi",
+   "pos": "n.",
+   "word": "bee",
+   "si": 1,
+   "sn": 1,
+   "meow": "bee, 벌은 구경만 하라고양. 쏘이면 너만 아프다고양."
+  }
+ },
+ {
+  "id": "K46",
+  "src": "B:astra-content-20261015",
+  "cat": "?",
+  "sev": "?",
+  "problem": "아스트라 리뷰 카드 32장: 동의어 안내 해설(pretty·magnificent·elaborate·bump·furious·bore·sharply·compulsory·spark), 사실·뜻 정정(clause·apparent·smart·agriculture·span·arguably·recount·edition·multiple·plantation·ape·stin",
+  "fix": [
+   {
+    "field": "ex",
+    "old": "The {{BLANK}} cause of seasons is Earth's angle, not its distance from the Sun.",
+    "new": "The {{BLANK}} cause of seasons is how Earth leans, not its distance from the Sun."
+   },
+   {
+    "field": "tr",
+    "old": "계절의 근본 원인은 해와의 거리가 아니라 지구가 기운 각도야.",
+    "new": "계절의 근본 원인은 해와의 거리가 아니라 지구가 기울어 있다는 점이야."
+   }
+  ],
+  "loc": [
+   45,
+   12,
+   0
+  ],
+  "card": {
+   "en": "underlying",
+   "ko": "① 근본적인, 밑에 깔린",
+   "ex": "The {{BLANK}} cause of seasons is Earth's angle, not its distance from the Sun.",
+   "tr": "계절의 근본 원인은 해와의 거리가 아니라 지구가 기운 각도야.",
+   "c": "underlie(밑바탕이 되다)에서 온 형용사.",
+   "ipa": "ˌʌndɚˈlaɪɪŋ",
+   "pos": "adj.",
+   "word": "underlying",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K47",
+  "src": "B:astra-review-20261013",
+  "cat": "?",
+  "sev": "?",
+  "problem": "아스트라 리뷰 반영 23장: life 복수형 lifes, of·very 규칙, tax 해석, quantity·anxious·prime·fatal·scarcity·disease·behalf·night·September 해설, loving·surgery 해석의 개, puzzle·interesting·sharply 대체어 안내, fourteenth·insect·",
+  "fix": [
+   {
+    "field": "c",
+    "old": "밤 앞에만 at: at night, in the morning.",
+    "new": "밤 앞엔 at: at night. 아침엔 in the morning."
+   }
+  ],
+  "loc": [
+   1,
+   9,
+   0
+  ],
+  "card": {
+   "en": "night",
+   "ko": "① 밤 (↔ day)",
+   "ex": "The stars come out at {{BLANK}}.",
+   "tr": "별은 밤에 나와.",
+   "c": "밤 앞에만 at: at night, in the morning.",
+   "ipa": "naɪt",
+   "pos": "n.",
+   "word": "night",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K48",
+  "src": "B:fable-review-20261013",
+  "cat": "?",
+  "sev": "?",
+  "problem": "Fable 독립 검토 반영 23장: 한정어 되살림(lend·railway·congregation·pond·ought·third·angle 평면), 같은 칸 수 경쟁어(even/much·rather/fairly·path/lane·screw/twist·minister/preacher·clue/hint 구별), 카드 안 불일치(the 예시 dog→cat, spe",
+  "fix": [
+   {
+    "field": "c",
+    "old": "비교급 앞: even hotter. very hotter(X).",
+    "new": "비교급 앞: even hotter. much hotter는 '훨씬'. very hotter(X)."
+   }
+  ],
+  "loc": [
+   5,
+   6,
+   8
+  ],
+  "card": {
+   "en": "even",
+   "ko": "② (비교급 앞) 한층 더, 더욱",
+   "ex": "Today is {{BLANK}} hotter than yesterday.",
+   "tr": "오늘이 어제보다 한층 더 덥네.",
+   "c": "비교급 앞: even hotter. very hotter(X).",
+   "ipa": "ˈivən",
+   "pos": "adv.",
+   "word": "even",
+   "si": 2,
+   "sn": 3
+  }
+ },
+ {
+  "id": "K49",
+  "src": "B:astra-content-20261015",
+  "cat": "?",
+  "sev": "?",
+  "problem": "아스트라 리뷰 카드 32장: 동의어 안내 해설(pretty·magnificent·elaborate·bump·furious·bore·sharply·compulsory·spark), 사실·뜻 정정(clause·apparent·smart·agriculture·span·arguably·recount·edition·multiple·plantation·ape·stin",
+  "fix": [
+   {
+    "field": "ko",
+    "old": "① 거의 틀림없이",
+    "new": "① ~라고 할 만하게"
+   },
+   {
+    "field": "tr",
+    "old": "인쇄기만큼 역사를 크게 바꾼 발명품은 없다고 해도 과언이 아니야.",
+    "new": "인쇄기는 다른 어떤 발명보다 역사를 크게 바꿨다고 할 만해."
+   },
+   {
+    "field": "c",
+    "old": "'논란의 여지가 있게'가 아니다. 그렇게 주장할 근거가 충분하다는 말.",
+    "new": "'논란의 여지가 있게'가 아니다. 근거를 들어 그렇게 말할 만하다는 뜻."
+   }
+  ],
+  "loc": [
+   42,
+   14,
+   4
+  ],
+  "card": {
+   "en": "arguably",
+   "ko": "① 거의 틀림없이",
+   "ex": "{{BLANK}}, the printing press changed history more than any other invention.",
+   "tr": "인쇄기만큼 역사를 크게 바꾼 발명품은 없다고 해도 과언이 아니야.",
+   "c": "'논란의 여지가 있게'가 아니다. 그렇게 주장할 근거가 충분하다는 말.",
+   "ipa": "ˈɑrɡjuəbli",
+   "pos": "adv.",
+   "word": "arguably",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K50",
+  "src": "CTRL",
+  "cat": "control",
+  "sev": "-",
+  "problem": "",
+  "fix": [],
+  "loc": [
+   41,
+   7,
+   15
+  ],
+  "card": {
+   "en": "turnout",
+   "ko": "① 참가자 수, 투표율",
+   "ex": "Voter {{BLANK}} was low in the school election.",
+   "tr": "학교 선거 투표율이 낮았어.",
+   "c": "turn out(나오다)에서 온 명사. a good[low] turnout으로 쓴다.",
+   "ipa": "ˈtɝnaʊt",
+   "pos": "n.",
+   "word": "turnout",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K51",
+  "src": "CTRL",
+  "cat": "control",
+  "sev": "-",
+  "problem": "",
+  "fix": [],
+  "loc": [
+   40,
+   13,
+   0
+  ],
+  "card": {
+   "en": "discrimination",
+   "ko": "① 차별",
+   "ex": "In 1964, a US law banned {{BLANK}} based on race or sex.",
+   "tr": "1964년 미국은 법으로 인종·성별에 따른 차별을 금지했어.",
+   "c": "discriminate의 명사꼴. 원래 '구별, 식별'의 뜻도 있다.",
+   "ipa": "dɪˌskrɪməˈneɪʃən",
+   "pos": "n.",
+   "word": "discrimination",
+   "si": 1,
+   "sn": 1
+  }
+ },
+ {
+  "id": "K52",
+  "src": "B:fable-review-20261013",
+  "cat": "?",
+  "sev": "?",
+  "problem": "Fable 독립 검토 반영 23장: 한정어 되살림(lend·railway·congregation·pond·ought·third·angle 평면), 같은 칸 수 경쟁어(even/much·rather/fairly·path/lane·screw/twist·minister/preacher·clue/hint 구별), 카드 안 불일치(the 예시 dog→cat, spe",
+  "fix": [
+   {
+    "field": "c",
+    "old": "first, second, third만 모양이 따로 논다. 넷째부터는 -th.",
+    "new": "first, second, third만 모양이 따로 논다. 넷째부터는 -th(21st·22nd·23rd는 예외)."
+   }
+  ],
+  "loc": [
+   1,
+   10,
+   4
+  ],
+  "card": {
+   "en": "third",
+   "ko": "① 세 번째의",
+   "ex": "We live on the {{BLANK}} planet from the Sun.",
+   "tr": "우리는 태양에서 세 번째 행성에 살아.",
+   "c": "first, second, third만 모양이 따로 논다. 넷째부터는 -th.",
+   "ipa": "θɝd",
+   "pos": "adj.",
+   "word": "third",
+   "si": 1,
+   "sn": 1,
+   "savedId": "[\"3세트\",\"Exercise 6 · 251~260\",\"third\",1,\"\"]"
+  }
+ }
+]
