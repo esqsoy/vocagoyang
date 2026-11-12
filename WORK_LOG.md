@@ -1979,3 +1979,13 @@
 - 문서만 바꿈. 배포 대상 HTML 변경 없음.
 - 이어서 영신: "니혼고양을 탕고고양으로 바꿨어 아마 알합류 시켜놨으니 알아서 할거임". 저장소는 esqsoy/tangogoyang. SHARED.md(표 칸·이슈 머리말), PRINCIPLES 0(옛 인용은 그대로 두고 지금 이름을 덧붙임), AGENTS, HANDOFF, 기록 옮기기 README, record-transfer 검사의 다른 언어판 예시를 탄고고양으로 고쳤다. AL 공지 이슈 제목을 `[탄고고양]`으로 바꾸고 본문 이름도 고쳤다. AL 길잡이 단어장 가족 줄도 고쳤다.
 - 검증(새로 실행): `node pipeline/tests/record-transfer.test.cjs` 통과.
+
+## 2026-11-12 · 같은 주소 저장 공간 확인, 기록 옮기기 검사 나눔
+
+- 요청(영신): 새 저장소들(빨라고양·과학고양·로고양·IPA고양) 저장 키 확인, "열개이상의 고양이 만들어질거니까 문제생길여지도 없앨 궁리를 해보자".
+- 확인(읽기만, 각 저장소 main 얕은 클론): esqsoy.github.io에 올라가는 게임마다 공개 HTML의 저장 키를 훑었다. 보카고양 `goyang-`, 탄고고양 `tangogoyang-`(가나 `tangogoyang-kana-`, 읽기 `tangogoyang-yomi-`), 빨라고양 `palagoyang-`(Sonidos `palagoyang-sonidos-`), 로고양 `lawgoyang-`, IPA고양 `ipagoyang-`, 주기율표 `zerotwo_`·`kf-zerotwo-`. 과학고양은 아직 저장하지 않는다. 지금 겹치는 키는 없다. `localStorage.clear()`, 전체 키 지우기, 서비스 워커·IndexedDB도 없다. sessionStorage도 안 쓴다.
+- 용량 어림(Chromium으로 세 교재 DATA를 읽어 다 했을 때를 만들어 셈): FABLE 약 14.3만 자, 수능 약 10.8만 자, EBS 약 3.9만 자, 보카고양 합계 약 29만 자. 가장 큰 것은 익힌 단어 목록(약 11.7만 자)과 진행 속도 600판(교재마다 약 2.8만 자)이다. 한 주소 저장 공간은 모든 게임이 나눠 쓴다.
+- 일어판 표기: 탄고고양 저장소와 AL 알림(11-11 '탄고고양'으로 되돌림)을 보고 11-09에 적은 '탕고고양'을 '탄고고양'으로 바로잡았다(영신 말 인용은 그대로).
+- AL '[보카고양] 기록 옮기기 검사 파일이 goyang- 키에 묶여 있어 분가가 못 돌림'(탄고고양 요청): 검사를 둘로 나눴다. `pipeline/record-transfer/test.cjs`(같이 쓰는 파일)는 합치기 규칙을 시험용 설정으로, 게임 설정은 config.json으로 본다. `pipeline/tests/record-transfer.test.cjs`는 공통 검사를 부르고 보카고양 실제 키(세 교재 진도·카드·속도·설정 자리)가 맞는 종류로 가는지 본다. SHARED.md 본가 버전 `64d6d0e`, 두 분가의 가져간 버전 `69e8d5e`를 표에 적었다.
+- 검증(새로 실행): 탄고고양·빨라고양 저장소의 record-transfer 폴더와 대상 HTML을 임시 폴더에 복사해 새 test.cjs를 돌려 둘 다 통과(merge.js는 본가와 같은 파일). 보카고양 node 검사 35개(검사 파일 전부 + 빌드 `--check`) 통과. pull·set5 검사는 처음에 옛 커밋이 없어서 실패했는데(컨테이너가 새로 떠서 얕은 클론), 기록을 더 받아 다시 돌려 통과했다.
+- 남은 일: 저장 공간 대책(접두어 장부·검사기·용량)은 영신과 정할 것. HTML 변경 없음(검사·문서만).

@@ -22,7 +22,7 @@
 
 | 기능 | 폴더 | 같이 쓰는 파일 | 게임별 설정 | 본가 버전 | 탄고고양 | 빨라고양 |
 |---|---|---|---|---|---|---|
-| 기록 옮기기 | `pipeline/record-transfer/` | `merge.js` `runtime.js` `ui.html` `style.css` `build.cjs` `README.md` `test.cjs`(공통 검사). 실제 키 검사는 게임마다 따로(보카고양 `pipeline/tests/record-transfer.test.cjs`) | `config.json`(이름, 파일 표시 `app`, 저장 키 접두어, 옮기지 않을 키, 키 종류 패턴, 넣을 HTML) | `69e8d5e` (11.06 설정 분리) | `69e8d5e` | `69e8d5e` |
+| 기록 옮기기 | `pipeline/record-transfer/` | `merge.js` `runtime.js` `ui.html` `style.css` `build.cjs` `README.md` `test.cjs`(공통 검사). 실제 키 검사는 게임마다 따로(보카고양 `pipeline/tests/record-transfer.test.cjs`) | `config.json`(이름, 파일 표시 `app`, 저장 키 접두어, 옮기지 않을 키, 키 종류 패턴, 넣을 HTML) | `64d6d0e` (11.12 공통 검사 `test.cjs` 나눔. 화면 동작은 `69e8d5e`와 같다) | `69e8d5e` | `69e8d5e` |
 
 ## 아직 공유 준비가 안 된 기능
 
