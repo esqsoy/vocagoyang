@@ -2011,3 +2011,4 @@
 - 문서: PRINCIPLES 10에 이솝 검수(받는 법·왜·한계), `pipeline/review-bench/`(시험지·정답·만들기·채점·지시문·결과).
 - 검증(새로 실행): `assemble.py`, deepcheck A6 16·A8 1(기준 그대로), linecheck 390px 초과 0, node 검사 42개 통과, 원장 역적용 확인(reverseVerified). 직검수 페이지 https://claude.ai/artifact/W9krpExrpdSS31wSEovVDa (댓글 Enter로 전송, 감시 등록. 감시 칸이 다 차 있어서 이미 대체된 Oxford 결정 페이지 감시를 풀었다).
 - 배포: 하지 않았다. 브랜치에만 올렸다. 카드 내용이 바뀌어서 영신 확인 뒤 main으로 보낸다.
+- 이어서 영신이 이름과 방식을 확정했다: "이솝이라니! 완벽하게 적절한 이름이야 … 이솝은 너의 지혜로운 조력자게 되는거지 지금일하는 방식 마음에 듭니다". PRINCIPLES 10, review-bench README에 반영. 배포·31~45세트 확대·저장 공간 대책은 아직 답 없음.
