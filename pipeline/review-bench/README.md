@@ -14,7 +14,7 @@
 | `build.py` | 재료 모으기. `python3 pipeline/review-bench/build.py vocagoyangfable.html <폴더>` |
 | `score.py` | 결과 한 벌을 정답과 나란히 본다. `python3 pipeline/review-bench/score.py run1-aesop` |
 | `PROMPT.md` | 실제 검수에 쓰는 지시문 |
-| `results/` | 26.11.12 결과: `run1-aesop`, `run2-compare`, `run3-aesop-tuned`, 실제 검수 `live-26-30`과 Claude 판정 `live-26-30-verdicts` |
+| `results/` | 26.11.12 결과: `run1-aesop`, `run2-compare`, `run3-aesop-tuned`. 실제 검수 `live-26-30`·`live-31-35`~`live-44-45`와 Claude 판정 `live-26-30-verdicts`·`live-31-45-verdicts` |
 
 시험지 구성(90a2b68 기준):
 
@@ -70,3 +70,26 @@
   - 영신 판단: firework 고양이 대사가 같은 꼴('~가 아니라 ~라고양')로 되풀이된다. 해석에 '그녀'와 '걔'가 섞인다.
 - 시험지에서 찾은 faithfully와 함께 원장 `aesop-review-20261112`(13곳)로 고쳤다. 직검수 페이지: https://claude.ai/artifact/W9krpExrpdSS31wSEovVDa
 - 이솝이 경향으로 꼽은 것: 해설이 대체어를 하나만 안내하고, 더 쉬운 같은 칸 수 단어를 놓친다. 앞 세트에서 비슷한 뜻으로 배운 단어끼리 부딪힌다.
+
+## 실제 검수 2차: 31~45세트 Oxford 5000 보강 776장 (26.11.13)
+
+- 영신(11-13 새벽): "나머지도 검수하고 작업완성한 후 푸쉬해줘". 이솝 여섯 묶음(120~146장)을 한꺼번에 돌렸다. 묶음마다 5~6분 걸렸다.
+- 이솝: 확정 23, 의심 105.
+- Claude 판정:
+  - 반영 74건(69장). 확정 22건, 의심 52건이다.
+  - 안 고침 49건.
+  - 원문 대조로 문제없음 4건.
+  - 영신 판단 1건.
+- 반영한 것:
+  - 빈칸 경쟁어 해설 안내가 가장 많다. persuasive, leftovers, faulty, surreal, apparent, drastic 등이다.
+  - 사실을 바로잡은 것: Red Planet은 별명, AlphaGo의 Move 37, 벌은 꽃꿀과 꽃가루, 블랙홀은 한때 이론 속에만, 고흐 편지는 '평생'이 아니라 '오래', 『빨강 머리 앤』은 내기가 아니라 도발.
+  - 해설 단정: '명사 앞에만', '셀 수 없이', 'i.e.', 'goodwill ambassador'.
+  - 해석의 어색한 말: '절반 넘게가', '날 밀', '젊은 어른'.
+- 원장: `aesop-review2-20261113`. 82곳이고, 26세트 settler 3줄 예문도 여기 들어 있다. 처음 고친 안 중 13장은 읽기량 12초를 넘어서 해설을 줄였다.
+- 직검수 페이지: https://claude.ai/artifact/Ro4ojTJyfaA3CLxjZVa228
+- **명문장 원문 대조:**
+  - 이솝은 원문을 볼 수 없어서, 기억에 기대 "원문과 다를 수 있다"고 짚은 카드가 있었다. 바스커빌가 induce는 원문이 the rascals라고 했다.
+  - Claude가 구텐베르크 원문 24권을 받아 보강 카드 명문장 46장을 글자 그대로 대조했다. 46장 모두 원문에 있었다.
+  - induce의 "Nothing would induce me to help the police in any way."도 원문에 그대로 있다. 이솝이 기억한 rascals는 바로 앞 문단의 다른 문장이었다.
+  - 그래서 명문장 확인은 이솝 기억이 아니라 원문 대조로 한다.
+- 영신 판단으로 남긴 것: 40세트 injustice는 킹 목사 「버밍엄 감옥에서 보낸 편지」(1963) 인용이다. 저작권이 살아 있어서 '저작권이 끝난 글만' 쓰는 원칙과 맞는지 영신이 정한다.

@@ -2012,3 +2012,16 @@
 - 검증(새로 실행): `assemble.py`, deepcheck A6 16·A8 1(기준 그대로), linecheck 390px 초과 0, node 검사 42개 통과, 원장 역적용 확인(reverseVerified). 직검수 페이지 https://claude.ai/artifact/W9krpExrpdSS31wSEovVDa (댓글 Enter로 전송, 감시 등록. 감시 칸이 다 차 있어서 이미 대체된 Oxford 결정 페이지 감시를 풀었다).
 - 배포: 하지 않았다. 브랜치에만 올렸다. 카드 내용이 바뀌어서 영신 확인 뒤 main으로 보낸다.
 - 이어서 영신이 이름과 방식을 확정했다: "이솝이라니! 완벽하게 적절한 이름이야 … 이솝은 너의 지혜로운 조력자게 되는거지 지금일하는 방식 마음에 듭니다". PRINCIPLES 10, review-bench README에 반영. 배포·31~45세트 확대·저장 공간 대책은 아직 답 없음.
+
+## 2026-11-13 · 이솝 검수 2차(31~45세트 보강 776장), settler 3줄 예문, 배포
+
+- 요청(영신, 11-13 02:5x): workspace 해설은 "무슨 말인지 알았어. 다른 단어가 들어가는 것이 가능한 경우였구만. 잘 바꿨습니다". 이어서 "settler는 4줄 안넘어가는 예문을 한번 연구해보자. 나머지도 검수하고 작업완성한 후 푸쉬해줘". 새벽이라 영신과 주고받지 않고 혼자 끝내 아침에 보게 했다.
+- settler: 후보 8개를 게임 렌더 함수로 쟀다(`pipeline/oxford/measure-lines.cjs` 방식, 390·360px). 그중 3줄인 "Aboriginal people were in Australia over 50,000 years before British {{BLANK}}s came." / "원주민은 영국 정착민들이 오기 5만 년도 더 전부터 오스트레일리아에 살고 있었어."를 골랐다.
+- 이솝 2차: 31~45세트 보강 776장을 여섯 묶음으로 동시에 돌렸다. 확정 23·의심 105.
+  - Claude 판정: 반영 74(69장), 안 고침 49, 원문 대조 일치 4, 영신 판단 1(40세트 injustice 킹 목사 편지 저작권).
+  - 판정은 `pipeline/review-bench/results/live-31-45-verdicts.json`, 요약은 review-bench README.
+- 명문장 원문 대조: 구텐베르크 24권을 받아 보강 카드 명문장 46장을 글자 대조했다. 46장 모두 일치했다. 이솝이 기억으로 의심한 induce(바스커빌가)도 원문 그대로였다.
+- 반영: 원장 `aesop-review2-20261113` 82곳(기준 ff8da7d, settler 포함). 처음 안 중 13장이 읽기량을 넘어서 해설을 줄였다(classify는 A6 75자도).
+- 검증(새로 실행): assemble, deepcheck A6 16·A8 1(기준 그대로), linecheck 초과 0, node 검사 42개 통과, 원장 역적용 확인.
+- 직검수 페이지: https://claude.ai/artifact/Ro4ojTJyfaA3CLxjZVa228. 감시 칸이 차서 10-12 세트 직검수 페이지(1wq6) 감시를 풀었다.
+- 1차 직검수 페이지 workspace 댓글: 영신이 이해했고 "잘 바꿨습니다". 답하고 스레드를 닫았다. 다섯 장 말투는 그대로 둔다.

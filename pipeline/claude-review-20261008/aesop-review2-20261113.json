@@ -1,0 +1,2266 @@
+{
+ "date": "2026-11-13",
+ "name": "aesop-review2-20261113",
+ "status": "applied_locally_verified",
+ "authorization": "영신 26.11.13 '나머지도 검수하고 작업완성한 후 푸쉬해줘', 'settler는 4줄 안넘어가는 예문을 한번 연구해보자'. 이솝 31~45세트 Oxford 5000 보강 776장 검수 지적을 Claude가 판정해 반영",
+ "summary": "이솝 검수 2차 반영: 31~45세트 보강 카드 지적 판정분(빈칸 경쟁어 해설 안내, 사실·해석·해설 단정 정정, 예문 몇 장)과 26세트 settler 3줄 예문(over 50,000 years)",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "284e24e9320c5e38d849112377840519ee29f4fbfb3216aac2d8892daf64e5b9",
+   "afterHash": "867411fc77ddb7246af55aea3c72e062619ef12b9aba5e3e5d38e7d734b18726",
+   "changes": [
+    {
+     "path": [
+      26,
+      "exercises",
+      12,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "When British {{BLANK}}s came, Aboriginal people had lived in Australia for 50,000 years.",
+     "new": "Aboriginal people were in Australia over 50,000 years before British {{BLANK}}s came."
+    },
+    {
+     "path": [
+      26,
+      "exercises",
+      12,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "영국 정착민들이 왔을 때 원주민은 이미 5만 년째 오스트레일리아에 살고 있었어.",
+     "new": "원주민은 영국 정착민들이 오기 5만 년도 더 전부터 오스트레일리아에 살고 있었어."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      11,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "엄마는 대개 더 비싼데도 유기농 채소를 사셔.",
+     "new": "엄마는 더 비쌀 때가 많은데도 유기농 채소를 사셔."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      11,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "자원을 개발해 쓰는 것도 exploit(exploit oil).",
+     "new": "자원을 개발해 쓰는 것도 exploit(exploit oil). 이 문장에는 utilize도 들어간다."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      12,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Mars looks red, {{BLANK}} its name, the Red Planet.",
+     "new": "Mars looks red, {{BLANK}} its nickname, the Red Planet."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      12,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "화성은 붉게 보여. 그래서 ‘붉은 행성’이라는 이름이 붙었어.",
+     "new": "화성은 붉게 보여. 그래서 ‘붉은 행성’이라는 별명이 붙었어."
+    },
+    {
+     "path": [
+      31,
+      "exercises",
+      12,
+      "words",
+      10,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Experts at first missed the {{BLANK}} of AlphaGo's 37th move.",
+     "new": "Experts at first missed the {{BLANK}} of AlphaGo's Move 37."
+    },
+    {
+     "path": [
+      32,
+      "exercises",
+      11,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The bus {{BLANK}} was packed, with families heading home for Chuseok.",
+     "new": "The bus {{BLANK}} was packed with families heading home for Chuseok."
+    },
+    {
+     "path": [
+      32,
+      "exercises",
+      12,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "distinctive(특유의, 독특한)와 헷갈리지 않는다.",
+     "new": "distinctive(특유의, 독특한)와 구별한다."
+    },
+    {
+     "path": [
+      32,
+      "exercises",
+      12,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "class(종류)+-ify(~로 만들다). classify A as B(A를 B로 분류하다).",
+     "new": "classify A as B: A를 B로 분류하다. 이 문장에는 organize도 들어간다."
+    },
+    {
+     "path": [
+      32,
+      "exercises",
+      12,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "strike(치다)에서 왔다. striking contrast(뚜렷한 대비).",
+     "new": "strike(치다)에서 왔다. 이 문장에는 distinct도 들어간다."
+    },
+    {
+     "path": [
+      33,
+      "exercises",
+      11,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "analyze(분석하다)+-ist. 분석 자체는 analysis.",
+     "new": "analyze(분석하다)에서 온 말. 끝 철자는 -yst. 분석 자체는 analysis."
+    },
+    {
+     "path": [
+      33,
+      "exercises",
+      11,
+      "words",
+      10,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Cat {{BLANK}} can be a promise of over fifteen years.",
+     "new": "Cat {{BLANK}} often means over fifteen years of care."
+    },
+    {
+     "path": [
+      33,
+      "exercises",
+      11,
+      "words",
+      10,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "고양이를 키우는 건 15년 넘는 약속일 수 있어.",
+     "new": "고양이를 키운다는 건 대개 15년 넘게 돌본다는 뜻이야."
+    },
+    {
+     "path": [
+      33,
+      "exercises",
+      11,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "considerate(사려 깊은)와 헷갈리지 않는다.",
+     "new": "considerate(사려 깊은)와 구별한다."
+    },
+    {
+     "path": [
+      34,
+      "exercises",
+      11,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "the faculty of + 명사 꼴로 시각·청각·말 같은 능력을 가리킨다.",
+     "new": "the faculty of+명사: 시각·말 같은 능력. 이 문장에는 ability도 들어간다."
+    },
+    {
+     "path": [
+      35,
+      "exercises",
+      11,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The referee can't have been {{BLANK}}: every call went their way.",
+     "new": "The referee can't have been {{BLANK}}: every call went the other team's way."
+    },
+    {
+     "path": [
+      35,
+      "exercises",
+      11,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 심판이 중립이었을 리 없어. 판정이 전부 그쪽 편이었거든.",
+     "new": "그 심판이 중립이었을 리 없어. 판정이 전부 상대 팀 편이었거든."
+    },
+    {
+     "path": [
+      35,
+      "exercises",
+      11,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "normal(보통의)과 뿌리가 같다. social norms는 '사회 규범'.",
+     "new": "normal(보통의)과 뿌리가 같다. social norms는 '사회 규범'. 이 문장에는 rule도 들어간다."
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      11,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "파리가 윙윙대서 우리 고양이가 계속 펄쩍 뛰었어.",
+     "new": "파리가 윙윙 날아다녀서 우리 고양이가 계속 달려들었어."
+    },
+    {
+     "path": [
+      36,
+      "exercises",
+      14,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "part의 형용사. impartial은 '공정한'(편파적이지 않은).",
+     "new": "part의 형용사. '편파적인'이라는 뜻도 있어서 impartial은 '공정한'."
+    },
+    {
+     "path": [
+      37,
+      "exercises",
+      11,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이제 세계 인구의 절반 넘게가 도시에 살아.",
+     "new": "이제 세계 인구의 절반 이상이 도시에 살아."
+    },
+    {
+     "path": [
+      37,
+      "exercises",
+      11,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "vacuum cleaner를 줄인 말. 동사로 '청소기를 돌리다'도 된다.",
+     "new": "vacuum cleaner를 줄인 말. 영국에서는 hoover라고도 한다."
+    },
+    {
+     "path": [
+      37,
+      "exercises",
+      13,
+      "words",
+      2,
+      "ko"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "① 앞바다의, 연안의",
+     "new": "① 앞바다의, 해상의"
+    },
+    {
+     "path": [
+      37,
+      "exercises",
+      13,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "세계 땅의 3분의 1 넘게가 농지야.",
+     "new": "세계 땅의 3분의 1 이상이 농지야."
+    },
+    {
+     "path": [
+      37,
+      "exercises",
+      13,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "a trail of ~의 자국처럼 '흔적'도 뜻한다. 동사로 '뒤처지다'.",
+     "new": "a trail of ~의 자국처럼 '흔적'도 뜻한다. 이 문장에는 route도 들어간다."
+    },
+    {
+     "path": [
+      37,
+      "exercises",
+      14,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "The Nobel Prize rewards {{BLANK}} in science, literature, and peace.",
+     "new": "The Nobel Prize rewards {{BLANK}} in science and literature."
+    },
+    {
+     "path": [
+      37,
+      "exercises",
+      14,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "노벨상은 과학·문학·평화 분야의 탁월함에 주는 상이야.",
+     "new": "노벨상은 과학과 문학 분야의 탁월함에 주는 상이야."
+    },
+    {
+     "path": [
+      37,
+      "exercises",
+      14,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "notable+-ly. 대표적인 예를 들 때 문장 중간에 끼워 넣는다.",
+     "new": "notable의 부사(-le → -ly). 대표적인 예를 들 때 끼워 넣는다."
+    },
+    {
+     "path": [
+      37,
+      "exercises",
+      15,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1770년대 아메리카 사람들은 대표 없는 과세에 화가 났어.",
+     "new": "1770년대 아메리카 식민지인들은 대표 없는 과세에 화가 났어."
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      12,
+      "words",
+      11,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Before {{BLANK}}, check your essay for spelling mistakes.",
+     "new": "The deadline for essay {{BLANK}}s is Friday."
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      12,
+      "words",
+      11,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "제출하기 전에 에세이 맞춤법을 확인해.",
+     "new": "에세이 제출 마감은 금요일이야."
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      13,
+      "words",
+      11,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "몽고메리 『빨강 머리 앤』. 지붕 꼭대기를 걸어 보라는 내기에 앤이.",
+     "new": "몽고메리 『빨강 머리 앤』. 지붕 꼭대기를 걸어 보라는 도발을 받고 앤이."
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      13,
+      "words",
+      13,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "profit(이익)+-able. 반대말은 unprofitable.",
+     "new": "profit(이익)+-able. 이 문장에는 beneficial도 들어간다."
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      14,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "1만 명이 넘는 사람이 옛 공원을 지키자는 청원서에 서명했어.",
+     "new": "1만 명이 넘는 사람이 오래된 공원을 지키자는 청원서에 서명했어."
+    },
+    {
+     "path": [
+      38,
+      "exercises",
+      15,
+      "words",
+      12,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "flight simulator는 비행 모의 장치. similar(비슷한)와 뿌리가 같다.",
+     "new": "flight simulator는 비행 모의 장치. 이 문장에는 recreate도 들어간다."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      11,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "노인은 젊은 어른보다 폭염에 더 취약해.",
+     "new": "노인은 젊은 성인보다 폭염에 더 취약해."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      13,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "testify(증언하다)의 명사. 셀 수 없이 쓴다: give testimony.",
+     "new": "testify(증언하다)의 명사. 주로 셀 수 없이 쓴다: give testimony."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      14,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 뜻에서는 replicate와 바꿔 쓸 수 있다. 그림을 '복제하다'에도 쓴다.",
+     "new": "이 뜻에서는 replicate·duplicate와 바꿔 쓸 수 있다. 그림을 '복제하다'에도 쓴다."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      16,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "vary(달라지다)+-able. 반대는 constant(일정한).",
+     "new": "vary(달라지다)+-able. 이 문장에는 unstable도 들어간다."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      16,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "아이스크림 판매와 익사 사고는 상관관계를 보여. 둘 다 여름에 늘거든.",
+     "new": "아이스크림 판매와 익사 사고는 상관관계를 보여."
+    },
+    {
+     "path": [
+      39,
+      "exercises",
+      16,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "co-(함께)+relation(관계). 상관관계가 곧 원인은 아니다.",
+     "new": "co-(함께)+relation(관계). 둘 다 여름에 늘 뿐, 상관관계가 곧 원인은 아니다."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      14,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "라틴어 cumulus(더미)에서 왔다. 오랜 시간 조금씩 쌓이는 것.",
+     "new": "라틴어 cumulus(더미)에서 왔다. 조금씩 모여 쌓이는 것."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      14,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "After age 40, most people's eyes start to {{BLANK}}.",
+     "new": "After age 40, most people's eyesight starts to {{BLANK}}."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      14,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "마흔이 넘으면 대부분 눈이 나빠지기 시작해.",
+     "new": "마흔이 넘으면 대부분 시력이 나빠지기 시작해."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      15,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "앞말을 콕 집어 밝힐 때 쓴다. 글에서는 i.e.로도 쓴다.",
+     "new": "앞말이 가리키는 것을 콕 집어 밝힐 때 쓴다."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      15,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "이 뜻에서는 convincing과 바꿔 쓸 수 있다. '흥미진진한'의 뜻도 있다.",
+     "new": "이 뜻에서는 convincing·persuasive와 바꿔 쓸 수 있다. '흥미진진한'의 뜻도 있다."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      12,
+      "words",
+      0,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "많은 어린 선수들이 유럽 무대에서 뛰기를 꿈꿔.",
+     "new": "많은 어린 축구 선수들이 유럽 무대에서 뛰기를 꿈꿔."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      13,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "confer A on B: B에게 A를 주다. confer with ~는 '~와 상의하다'.",
+     "new": "confer A on B: B에게 A를 주다. 이 문장에는 bestow도 들어간다."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      14,
+      "words",
+      4,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Phone light at night can {{BLANK}} with sleep.",
+     "new": "The light from your phone at night can {{BLANK}} with sleep."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      14,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "sub(아래로)+press(누르다). 하품·기침·감정에도 쓴다.",
+     "new": "sub(아래로)+press(누르다). 하품·기침·감정에도 쓴다. 이 문장에는 restrain도 들어간다."
+    },
+    {
+     "path": [
+      41,
+      "exercises",
+      15,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "use보다 격식 있는 말. 명사는 utilization.",
+     "new": "use보다 격식 있는 말. 이 문장에는 exploit도 들어간다."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      12,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "remain(남다)에서. 나눗셈의 나머지도 remainder.",
+     "new": "remain(남다)에서. 이 문장에는 leftovers도 들어간다."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      13,
+      "words",
+      7,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "한 번 할퀸 뒤로 다시는 고양이를 안 깨우겠다고 맹세했어.",
+     "new": "한 번 할퀴인 뒤로 다시는 고양이를 안 깨우겠다고 맹세했어."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      13,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "com-(함께)+passion(고통). 남의 고통을 함께 느끼는 마음이다.",
+     "new": "com-(함께)+라틴어 pati(고통받다). 남의 고통을 함께 느끼는 마음이다."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      14,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "suppose(가정하다)에서. 남들 말로는 그렇다지만 의심스러울 때 쓴다.",
+     "new": "의심스러운 남의 말을 전할 때. 이 문장에는 apparently도 들어간다."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      14,
+      "words",
+      6,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Bees feed almost {{BLANK}} on flowers.",
+     "new": "Bees feed almost {{BLANK}} on nectar and pollen."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      14,
+      "words",
+      6,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "벌은 거의 꽃에서만 먹이를 얻어.",
+     "new": "벌은 거의 꽃꿀과 꽃가루만 먹고 살아."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      15,
+      "words",
+      1,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "flaw(결함)+-ed. flawed plan(허점 있는 계획)처럼도 쓴다.",
+     "new": "flaw(결함)+-ed. 이 문장에는 faulty도 들어간다."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      16,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Black holes are no longer purely {{BLANK}}: we now have a photo of one.",
+     "new": "Black holes were once purely {{BLANK}}; now we even have a photo of one."
+    },
+    {
+     "path": [
+      42,
+      "exercises",
+      16,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "블랙홀은 더 이상 이론 속에만 있지 않아. 이제 사진도 있어.",
+     "new": "블랙홀은 한때 이론 속에만 있었어. 이제는 사진까지 있어."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      12,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "스트레스는 두통이나 얕은 잠으로 나타나기도 해.",
+     "new": "스트레스는 두통이나 잠을 설치는 것으로 나타나기도 해."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      12,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "implicit(암묵적인)의 반대말. explicit content는 '선정적인 내용'.",
+     "new": "implicit(암묵적인)의 반대말. 이 문장에는 apparent도 들어간다."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      13,
+      "words",
+      2,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Van Gogh kept up a lifelong {{BLANK}} with his brother Theo.",
+     "new": "Van Gogh kept up a long {{BLANK}} with his brother Theo."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      13,
+      "words",
+      2,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "반 고흐는 평생 동생 테오와 편지를 주고받았어.",
+     "new": "반 고흐는 동생 테오와 오랫동안 편지를 주고받았어."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      13,
+      "words",
+      8,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "열병이 착한 사람한테만 걸리는 건 아니잖아, 그렇지?",
+     "new": "착한 사람만 열병에 걸리는 건 아니잖아, 그렇지?"
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      13,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "strange보다 훨씬 이상한 느낌. 이 문장은 strange로도 통한다.",
+     "new": "strange보다 훨씬 이상한 느낌. 이 문장에는 strange·surreal도 들어간다."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      14,
+      "words",
+      0,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "orient(방향을 잡다)에서. 신입생 '오리엔테이션'도 이 말이다.",
+     "new": "orient(방향을 잡다)에서. 이 문장에는 inclination도 들어간다."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      14,
+      "words",
+      5,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "군대는 언덕 위 더 유리한 위치로 옮겼어.",
+     "new": "군대는 언덕 위, 전략상 더 좋은 위치로 옮겼어."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      15,
+      "words",
+      9,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "화성 여행은 이제 충분히 가능한 일이야.",
+     "new": "화성 여행은 이제 가능한 범위 안에 들어왔어."
+    },
+    {
+     "path": [
+      43,
+      "exercises",
+      15,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "within the realm of possibility(가능한 범위 안에). '왕국'의 뜻도 있다.",
+     "new": "'왕국'의 뜻도 있다. 이 문장에는 range도 들어간다."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      11,
+      "words",
+      4,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "명사 앞에만 쓴다. 이 뜻에서는 coming과 바꿔 쓸 수 있다.",
+     "new": "주로 명사 앞에 쓴다. 이 뜻에서는 coming과 바꿔 쓸 수 있다."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      12,
+      "words",
+      9,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "그 공장은 몇 년 동안 강에 오염 물질을 내보냈어.",
+     "new": "그 공장은 몇 년 동안 강에 폐수를 흘려보냈어."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      13,
+      "words",
+      7,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "Nixon's {{BLANK}} in 1974 was the only one by a US president.",
+     "new": "Nixon's {{BLANK}} in 1974 is still the only one by a US president."
+    },
+    {
+     "path": [
+      44,
+      "exercises",
+      13,
+      "words",
+      10,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "institution(기관)의 형용사. '제도적인'으로도 옮긴다.",
+     "new": "institution(기관)의 형용사. institutional investor는 '기관 투자자'."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      7,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "persistent cough(계속되는 기침)처럼 '계속되는'으로도 쓴다.",
+     "new": "이 문장에는 relentless도 들어간다. persistent cough처럼 '계속되는'으로도 쓴다."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      8,
+      "words",
+      5,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "on alert: 경계 태세인. 동사로 '알리다'(alert A to B).",
+     "new": "울리는 경보 장치는 alarm, 위험을 알리는 통지는 alert. on alert: 경계 태세인."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      9,
+      "words",
+      9,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "식품 가공을 거치면 날 밀이 밀가루, 빵, 파스타가 돼.",
+     "new": "식품 가공을 거치면 밀 낟알이 밀가루, 빵, 파스타가 돼."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      10,
+      "words",
+      2,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "govern(다스리다)의 명사. 정부라는 기관은 government.",
+     "new": "경영은 management, 정부 기관은 government."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      10,
+      "words",
+      6,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "대사관은 embassy. 홍보 대사는 goodwill ambassador라고 한다.",
+     "new": "대사관은 embassy. 친선 대사는 goodwill ambassador라고 한다."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      10,
+      "words",
+      8,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "라틴어 radix(뿌리)에서 왔다. 뿌리부터 바꾼다는 느낌.",
+     "new": "라틴어 radix(뿌리)에서 왔다. 뿌리부터 바꾼다는 느낌. 이 문장에는 drastic도 들어간다."
+    },
+    {
+     "path": [
+      45,
+      "exercises",
+      10,
+      "words",
+      9,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "명사로 '급진주의자'(a radical).",
+     "new": "명사로 '급진주의자'(a radical). 이 문장에는 extreme도 들어간다."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/set26.json": {
+   "beforeHash": "ff7d61656bb37cdb9cdd09b32c7a08c50773c844ea1c4cdc881f7c48deae47fb",
+   "afterHash": "ce2ee76af19e407c52d97842fd37c68d262f635ace88716552903d9cee78e76f"
+  },
+  "pipeline/out/set31.json": {
+   "beforeHash": "9a72ad2d4a1eb30b12f503a9ed99c079633a93ad9d68377d1c6aba9561457a77",
+   "afterHash": "ff415d413bbb2221cbf5916cdfd37148f09196816af880f54f630f90fcbcd55d"
+  },
+  "pipeline/out/set32.json": {
+   "beforeHash": "ea919839957985f37a861782dfbff0e1c8b31f48e0caa7d3ed01b502c57e9028",
+   "afterHash": "97fe90146d0171b6176c02a900304df756b9eaed55f41921fd4869b2d8bb73ab"
+  },
+  "pipeline/out/set33.json": {
+   "beforeHash": "df20e483d3d1efc7725e527897dbe51e9816bb6e71edd735065e362cefb0463a",
+   "afterHash": "fedf8a5bbb3879a9b400ca3b062e2291a234644c99fb3e6afa2a9118c03c2cc3"
+  },
+  "pipeline/out/set34.json": {
+   "beforeHash": "3fb2cb7c9e7ed3ae315aa1b9a282ac56e4ae15d3f237527565ac4265eed924d1",
+   "afterHash": "76927234791e8278fcb92f2dc502ff7aa04bc8b2673b197e5a425ba30d148aa7"
+  },
+  "pipeline/out/set35.json": {
+   "beforeHash": "4abb5d8aef8dc0447d42490397ed0ed1b6724e5a62aa05e47a5084196f0f5b0e",
+   "afterHash": "b1fcf4a4b0e9333949a6bf4706887bbfcddc00b93322dc57bb207199da686ab2"
+  },
+  "pipeline/out/set36.json": {
+   "beforeHash": "74a09b2569bfd0f62f4e6440b1d8be43720327a4785244d7ef41b366e5b24ec0",
+   "afterHash": "cbbd29d7419d584b0383ff0613a4ec1b3124a7f71ffa612520f61119bcc622e8"
+  },
+  "pipeline/out/set37.json": {
+   "beforeHash": "f28cd08c98c84417d1a6ef58e10135132d86fc6b27e7289e692189e059a04e13",
+   "afterHash": "4bdbd3a0ae7cfcdd58ade3b36bd9faff62b5d7d15cb2bafe055f97ba5204deca"
+  },
+  "pipeline/out/set38.json": {
+   "beforeHash": "af80b722b1c39c89c33b501dc3f42c462a06932470abc0d3fefe0af7724f93e5",
+   "afterHash": "b881c5ec459ceea3ed5b9558fc912e269c611f82b38e2df3da4bd380e1cee19c"
+  },
+  "pipeline/out/set39.json": {
+   "beforeHash": "73a58461e92c1e4d25e5b78059661b12f3afd03c7436edd86dd6242c131dda15",
+   "afterHash": "a9c4044d2728b5751b1428a753beda3c345deaf62372fc4160d0f2bf602e2a30"
+  },
+  "pipeline/out/set40.json": {
+   "beforeHash": "9ced83e0308d11946cfd8bf8dd399c8c0950341a4703575628fcc8d537afce86",
+   "afterHash": "30ea0fed99c5ce4ad0fcbd6898869112fd9c9f2598c41f2b935a3c8ac40ec79a"
+  },
+  "pipeline/out/set41.json": {
+   "beforeHash": "a8452906a7b3ece5b2da409be1ddc61f98bd91ad994a58682e1031a375aceb28",
+   "afterHash": "d5df22551772028e59545b7747200d864576d4007663494efd2733c49050da6f"
+  },
+  "pipeline/out/set42.json": {
+   "beforeHash": "5a1d9149994067dd1d1810d86e046b91f1f1018b041ff45ed4180c761dfafe60",
+   "afterHash": "f123b2a972768248fa34647c401145c3bd527637c6b4b662bc98a17d3eb4a290"
+  },
+  "pipeline/out/set43.json": {
+   "beforeHash": "fdaafd767f20431970f880c6cda4de15e0f464942944e4c602ff1126dc9fe60e",
+   "afterHash": "3b69375750fcf67452ff0f477d1d7a04120f01043a43116b375eadca08a4fc57"
+  },
+  "pipeline/out/set44.json": {
+   "beforeHash": "9528fe28c297e1f050c2e0c45e13ea1c1965d7836509a1a0355d4e18f99aae17",
+   "afterHash": "80f0706155cf83584734cc3e7e37351999c244bc6fed24f5a3ba0ef2c2941129"
+  },
+  "pipeline/out/set45.json": {
+   "beforeHash": "f74bd62fde3009b968f263cd99ea958c7101bc45a3e33ab1e9603edefffd315c",
+   "afterHash": "29b576296998de25c5b0fc6770d5924252c7d84566fe02e6d6536b75ea948a83"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/set26.json": [
+   {
+    "path": [
+     12,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "When British {{BLANK}}s came, Aboriginal people had lived in Australia for 50,000 years.",
+    "new": "Aboriginal people were in Australia over 50,000 years before British {{BLANK}}s came."
+   },
+   {
+    "path": [
+     12,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "영국 정착민들이 왔을 때 원주민은 이미 5만 년째 오스트레일리아에 살고 있었어.",
+    "new": "원주민은 영국 정착민들이 오기 5만 년도 더 전부터 오스트레일리아에 살고 있었어."
+   }
+  ],
+  "pipeline/out/set31.json": [
+   {
+    "path": [
+     11,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "엄마는 대개 더 비싼데도 유기농 채소를 사셔.",
+    "new": "엄마는 더 비쌀 때가 많은데도 유기농 채소를 사셔."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "자원을 개발해 쓰는 것도 exploit(exploit oil).",
+    "new": "자원을 개발해 쓰는 것도 exploit(exploit oil). 이 문장에는 utilize도 들어간다."
+   },
+   {
+    "path": [
+     12,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Mars looks red, {{BLANK}} its name, the Red Planet.",
+    "new": "Mars looks red, {{BLANK}} its nickname, the Red Planet."
+   },
+   {
+    "path": [
+     12,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "화성은 붉게 보여. 그래서 ‘붉은 행성’이라는 이름이 붙었어.",
+    "new": "화성은 붉게 보여. 그래서 ‘붉은 행성’이라는 별명이 붙었어."
+   },
+   {
+    "path": [
+     12,
+     "words",
+     10,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Experts at first missed the {{BLANK}} of AlphaGo's 37th move.",
+    "new": "Experts at first missed the {{BLANK}} of AlphaGo's Move 37."
+   }
+  ],
+  "pipeline/out/set32.json": [
+   {
+    "path": [
+     11,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The bus {{BLANK}} was packed, with families heading home for Chuseok.",
+    "new": "The bus {{BLANK}} was packed with families heading home for Chuseok."
+   },
+   {
+    "path": [
+     12,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "distinctive(특유의, 독특한)와 헷갈리지 않는다.",
+    "new": "distinctive(특유의, 독특한)와 구별한다."
+   },
+   {
+    "path": [
+     12,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "class(종류)+-ify(~로 만들다). classify A as B(A를 B로 분류하다).",
+    "new": "classify A as B: A를 B로 분류하다. 이 문장에는 organize도 들어간다."
+   },
+   {
+    "path": [
+     12,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "strike(치다)에서 왔다. striking contrast(뚜렷한 대비).",
+    "new": "strike(치다)에서 왔다. 이 문장에는 distinct도 들어간다."
+   }
+  ],
+  "pipeline/out/set33.json": [
+   {
+    "path": [
+     11,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "analyze(분석하다)+-ist. 분석 자체는 analysis.",
+    "new": "analyze(분석하다)에서 온 말. 끝 철자는 -yst. 분석 자체는 analysis."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     10,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Cat {{BLANK}} can be a promise of over fifteen years.",
+    "new": "Cat {{BLANK}} often means over fifteen years of care."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     10,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "고양이를 키우는 건 15년 넘는 약속일 수 있어.",
+    "new": "고양이를 키운다는 건 대개 15년 넘게 돌본다는 뜻이야."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "considerate(사려 깊은)와 헷갈리지 않는다.",
+    "new": "considerate(사려 깊은)와 구별한다."
+   }
+  ],
+  "pipeline/out/set34.json": [
+   {
+    "path": [
+     11,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "the faculty of + 명사 꼴로 시각·청각·말 같은 능력을 가리킨다.",
+    "new": "the faculty of+명사: 시각·말 같은 능력. 이 문장에는 ability도 들어간다."
+   }
+  ],
+  "pipeline/out/set35.json": [
+   {
+    "path": [
+     11,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The referee can't have been {{BLANK}}: every call went their way.",
+    "new": "The referee can't have been {{BLANK}}: every call went the other team's way."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 심판이 중립이었을 리 없어. 판정이 전부 그쪽 편이었거든.",
+    "new": "그 심판이 중립이었을 리 없어. 판정이 전부 상대 팀 편이었거든."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "normal(보통의)과 뿌리가 같다. social norms는 '사회 규범'.",
+    "new": "normal(보통의)과 뿌리가 같다. social norms는 '사회 규범'. 이 문장에는 rule도 들어간다."
+   }
+  ],
+  "pipeline/out/set36.json": [
+   {
+    "path": [
+     11,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "파리가 윙윙대서 우리 고양이가 계속 펄쩍 뛰었어.",
+    "new": "파리가 윙윙 날아다녀서 우리 고양이가 계속 달려들었어."
+   },
+   {
+    "path": [
+     14,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "part의 형용사. impartial은 '공정한'(편파적이지 않은).",
+    "new": "part의 형용사. '편파적인'이라는 뜻도 있어서 impartial은 '공정한'."
+   }
+  ],
+  "pipeline/out/set37.json": [
+   {
+    "path": [
+     11,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이제 세계 인구의 절반 넘게가 도시에 살아.",
+    "new": "이제 세계 인구의 절반 이상이 도시에 살아."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "vacuum cleaner를 줄인 말. 동사로 '청소기를 돌리다'도 된다.",
+    "new": "vacuum cleaner를 줄인 말. 영국에서는 hoover라고도 한다."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     2,
+     "ko"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "① 앞바다의, 연안의",
+    "new": "① 앞바다의, 해상의"
+   },
+   {
+    "path": [
+     13,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "세계 땅의 3분의 1 넘게가 농지야.",
+    "new": "세계 땅의 3분의 1 이상이 농지야."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "a trail of ~의 자국처럼 '흔적'도 뜻한다. 동사로 '뒤처지다'.",
+    "new": "a trail of ~의 자국처럼 '흔적'도 뜻한다. 이 문장에는 route도 들어간다."
+   },
+   {
+    "path": [
+     14,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "The Nobel Prize rewards {{BLANK}} in science, literature, and peace.",
+    "new": "The Nobel Prize rewards {{BLANK}} in science and literature."
+   },
+   {
+    "path": [
+     14,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "노벨상은 과학·문학·평화 분야의 탁월함에 주는 상이야.",
+    "new": "노벨상은 과학과 문학 분야의 탁월함에 주는 상이야."
+   },
+   {
+    "path": [
+     14,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "notable+-ly. 대표적인 예를 들 때 문장 중간에 끼워 넣는다.",
+    "new": "notable의 부사(-le → -ly). 대표적인 예를 들 때 끼워 넣는다."
+   },
+   {
+    "path": [
+     15,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1770년대 아메리카 사람들은 대표 없는 과세에 화가 났어.",
+    "new": "1770년대 아메리카 식민지인들은 대표 없는 과세에 화가 났어."
+   }
+  ],
+  "pipeline/out/set38.json": [
+   {
+    "path": [
+     12,
+     "words",
+     11,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Before {{BLANK}}, check your essay for spelling mistakes.",
+    "new": "The deadline for essay {{BLANK}}s is Friday."
+   },
+   {
+    "path": [
+     12,
+     "words",
+     11,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "제출하기 전에 에세이 맞춤법을 확인해.",
+    "new": "에세이 제출 마감은 금요일이야."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     11,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "몽고메리 『빨강 머리 앤』. 지붕 꼭대기를 걸어 보라는 내기에 앤이.",
+    "new": "몽고메리 『빨강 머리 앤』. 지붕 꼭대기를 걸어 보라는 도발을 받고 앤이."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     13,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "profit(이익)+-able. 반대말은 unprofitable.",
+    "new": "profit(이익)+-able. 이 문장에는 beneficial도 들어간다."
+   },
+   {
+    "path": [
+     14,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "1만 명이 넘는 사람이 옛 공원을 지키자는 청원서에 서명했어.",
+    "new": "1만 명이 넘는 사람이 오래된 공원을 지키자는 청원서에 서명했어."
+   },
+   {
+    "path": [
+     15,
+     "words",
+     12,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "flight simulator는 비행 모의 장치. similar(비슷한)와 뿌리가 같다.",
+    "new": "flight simulator는 비행 모의 장치. 이 문장에는 recreate도 들어간다."
+   }
+  ],
+  "pipeline/out/set39.json": [
+   {
+    "path": [
+     11,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "노인은 젊은 어른보다 폭염에 더 취약해.",
+    "new": "노인은 젊은 성인보다 폭염에 더 취약해."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "testify(증언하다)의 명사. 셀 수 없이 쓴다: give testimony.",
+    "new": "testify(증언하다)의 명사. 주로 셀 수 없이 쓴다: give testimony."
+   },
+   {
+    "path": [
+     14,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 뜻에서는 replicate와 바꿔 쓸 수 있다. 그림을 '복제하다'에도 쓴다.",
+    "new": "이 뜻에서는 replicate·duplicate와 바꿔 쓸 수 있다. 그림을 '복제하다'에도 쓴다."
+   },
+   {
+    "path": [
+     16,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "vary(달라지다)+-able. 반대는 constant(일정한).",
+    "new": "vary(달라지다)+-able. 이 문장에는 unstable도 들어간다."
+   },
+   {
+    "path": [
+     16,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "아이스크림 판매와 익사 사고는 상관관계를 보여. 둘 다 여름에 늘거든.",
+    "new": "아이스크림 판매와 익사 사고는 상관관계를 보여."
+   },
+   {
+    "path": [
+     16,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "co-(함께)+relation(관계). 상관관계가 곧 원인은 아니다.",
+    "new": "co-(함께)+relation(관계). 둘 다 여름에 늘 뿐, 상관관계가 곧 원인은 아니다."
+   }
+  ],
+  "pipeline/out/set40.json": [
+   {
+    "path": [
+     14,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "라틴어 cumulus(더미)에서 왔다. 오랜 시간 조금씩 쌓이는 것.",
+    "new": "라틴어 cumulus(더미)에서 왔다. 조금씩 모여 쌓이는 것."
+   },
+   {
+    "path": [
+     14,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "After age 40, most people's eyes start to {{BLANK}}.",
+    "new": "After age 40, most people's eyesight starts to {{BLANK}}."
+   },
+   {
+    "path": [
+     14,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "마흔이 넘으면 대부분 눈이 나빠지기 시작해.",
+    "new": "마흔이 넘으면 대부분 시력이 나빠지기 시작해."
+   },
+   {
+    "path": [
+     15,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "앞말을 콕 집어 밝힐 때 쓴다. 글에서는 i.e.로도 쓴다.",
+    "new": "앞말이 가리키는 것을 콕 집어 밝힐 때 쓴다."
+   },
+   {
+    "path": [
+     15,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "이 뜻에서는 convincing과 바꿔 쓸 수 있다. '흥미진진한'의 뜻도 있다.",
+    "new": "이 뜻에서는 convincing·persuasive와 바꿔 쓸 수 있다. '흥미진진한'의 뜻도 있다."
+   }
+  ],
+  "pipeline/out/set41.json": [
+   {
+    "path": [
+     12,
+     "words",
+     0,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "많은 어린 선수들이 유럽 무대에서 뛰기를 꿈꿔.",
+    "new": "많은 어린 축구 선수들이 유럽 무대에서 뛰기를 꿈꿔."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "confer A on B: B에게 A를 주다. confer with ~는 '~와 상의하다'.",
+    "new": "confer A on B: B에게 A를 주다. 이 문장에는 bestow도 들어간다."
+   },
+   {
+    "path": [
+     14,
+     "words",
+     4,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Phone light at night can {{BLANK}} with sleep.",
+    "new": "The light from your phone at night can {{BLANK}} with sleep."
+   },
+   {
+    "path": [
+     14,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "sub(아래로)+press(누르다). 하품·기침·감정에도 쓴다.",
+    "new": "sub(아래로)+press(누르다). 하품·기침·감정에도 쓴다. 이 문장에는 restrain도 들어간다."
+   },
+   {
+    "path": [
+     15,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "use보다 격식 있는 말. 명사는 utilization.",
+    "new": "use보다 격식 있는 말. 이 문장에는 exploit도 들어간다."
+   }
+  ],
+  "pipeline/out/set42.json": [
+   {
+    "path": [
+     12,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "remain(남다)에서. 나눗셈의 나머지도 remainder.",
+    "new": "remain(남다)에서. 이 문장에는 leftovers도 들어간다."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     7,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "한 번 할퀸 뒤로 다시는 고양이를 안 깨우겠다고 맹세했어.",
+    "new": "한 번 할퀴인 뒤로 다시는 고양이를 안 깨우겠다고 맹세했어."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "com-(함께)+passion(고통). 남의 고통을 함께 느끼는 마음이다.",
+    "new": "com-(함께)+라틴어 pati(고통받다). 남의 고통을 함께 느끼는 마음이다."
+   },
+   {
+    "path": [
+     14,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "suppose(가정하다)에서. 남들 말로는 그렇다지만 의심스러울 때 쓴다.",
+    "new": "의심스러운 남의 말을 전할 때. 이 문장에는 apparently도 들어간다."
+   },
+   {
+    "path": [
+     14,
+     "words",
+     6,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Bees feed almost {{BLANK}} on flowers.",
+    "new": "Bees feed almost {{BLANK}} on nectar and pollen."
+   },
+   {
+    "path": [
+     14,
+     "words",
+     6,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "벌은 거의 꽃에서만 먹이를 얻어.",
+    "new": "벌은 거의 꽃꿀과 꽃가루만 먹고 살아."
+   },
+   {
+    "path": [
+     15,
+     "words",
+     1,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "flaw(결함)+-ed. flawed plan(허점 있는 계획)처럼도 쓴다.",
+    "new": "flaw(결함)+-ed. 이 문장에는 faulty도 들어간다."
+   },
+   {
+    "path": [
+     16,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Black holes are no longer purely {{BLANK}}: we now have a photo of one.",
+    "new": "Black holes were once purely {{BLANK}}; now we even have a photo of one."
+   },
+   {
+    "path": [
+     16,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "블랙홀은 더 이상 이론 속에만 있지 않아. 이제 사진도 있어.",
+    "new": "블랙홀은 한때 이론 속에만 있었어. 이제는 사진까지 있어."
+   }
+  ],
+  "pipeline/out/set43.json": [
+   {
+    "path": [
+     12,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "스트레스는 두통이나 얕은 잠으로 나타나기도 해.",
+    "new": "스트레스는 두통이나 잠을 설치는 것으로 나타나기도 해."
+   },
+   {
+    "path": [
+     12,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "implicit(암묵적인)의 반대말. explicit content는 '선정적인 내용'.",
+    "new": "implicit(암묵적인)의 반대말. 이 문장에는 apparent도 들어간다."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     2,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Van Gogh kept up a lifelong {{BLANK}} with his brother Theo.",
+    "new": "Van Gogh kept up a long {{BLANK}} with his brother Theo."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     2,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "반 고흐는 평생 동생 테오와 편지를 주고받았어.",
+    "new": "반 고흐는 동생 테오와 오랫동안 편지를 주고받았어."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     8,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "열병이 착한 사람한테만 걸리는 건 아니잖아, 그렇지?",
+    "new": "착한 사람만 열병에 걸리는 건 아니잖아, 그렇지?"
+   },
+   {
+    "path": [
+     13,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "strange보다 훨씬 이상한 느낌. 이 문장은 strange로도 통한다.",
+    "new": "strange보다 훨씬 이상한 느낌. 이 문장에는 strange·surreal도 들어간다."
+   },
+   {
+    "path": [
+     14,
+     "words",
+     0,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "orient(방향을 잡다)에서. 신입생 '오리엔테이션'도 이 말이다.",
+    "new": "orient(방향을 잡다)에서. 이 문장에는 inclination도 들어간다."
+   },
+   {
+    "path": [
+     14,
+     "words",
+     5,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "군대는 언덕 위 더 유리한 위치로 옮겼어.",
+    "new": "군대는 언덕 위, 전략상 더 좋은 위치로 옮겼어."
+   },
+   {
+    "path": [
+     15,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "화성 여행은 이제 충분히 가능한 일이야.",
+    "new": "화성 여행은 이제 가능한 범위 안에 들어왔어."
+   },
+   {
+    "path": [
+     15,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "within the realm of possibility(가능한 범위 안에). '왕국'의 뜻도 있다.",
+    "new": "'왕국'의 뜻도 있다. 이 문장에는 range도 들어간다."
+   }
+  ],
+  "pipeline/out/set44.json": [
+   {
+    "path": [
+     11,
+     "words",
+     4,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "명사 앞에만 쓴다. 이 뜻에서는 coming과 바꿔 쓸 수 있다.",
+    "new": "주로 명사 앞에 쓴다. 이 뜻에서는 coming과 바꿔 쓸 수 있다."
+   },
+   {
+    "path": [
+     12,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "그 공장은 몇 년 동안 강에 오염 물질을 내보냈어.",
+    "new": "그 공장은 몇 년 동안 강에 폐수를 흘려보냈어."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     7,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "Nixon's {{BLANK}} in 1974 was the only one by a US president.",
+    "new": "Nixon's {{BLANK}} in 1974 is still the only one by a US president."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     10,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "institution(기관)의 형용사. '제도적인'으로도 옮긴다.",
+    "new": "institution(기관)의 형용사. institutional investor는 '기관 투자자'."
+   }
+  ],
+  "pipeline/out/set45.json": [
+   {
+    "path": [
+     8,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "persistent cough(계속되는 기침)처럼 '계속되는'으로도 쓴다.",
+    "new": "이 문장에는 relentless도 들어간다. persistent cough처럼 '계속되는'으로도 쓴다."
+   },
+   {
+    "path": [
+     9,
+     "words",
+     5,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "on alert: 경계 태세인. 동사로 '알리다'(alert A to B).",
+    "new": "울리는 경보 장치는 alarm, 위험을 알리는 통지는 alert. on alert: 경계 태세인."
+   },
+   {
+    "path": [
+     10,
+     "words",
+     9,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "식품 가공을 거치면 날 밀이 밀가루, 빵, 파스타가 돼.",
+    "new": "식품 가공을 거치면 밀 낟알이 밀가루, 빵, 파스타가 돼."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     2,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "govern(다스리다)의 명사. 정부라는 기관은 government.",
+    "new": "경영은 management, 정부 기관은 government."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     6,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "대사관은 embassy. 홍보 대사는 goodwill ambassador라고 한다.",
+    "new": "대사관은 embassy. 친선 대사는 goodwill ambassador라고 한다."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     8,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "라틴어 radix(뿌리)에서 왔다. 뿌리부터 바꾼다는 느낌.",
+    "new": "라틴어 radix(뿌리)에서 왔다. 뿌리부터 바꾼다는 느낌. 이 문장에는 drastic도 들어간다."
+   },
+   {
+    "path": [
+     11,
+     "words",
+     9,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "명사로 '급진주의자'(a radical).",
+    "new": "명사로 '급진주의자'(a radical). 이 문장에는 extreme도 들어간다."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/set26.json": [],
+  "pipeline/out/set31.json": [],
+  "pipeline/out/set32.json": [],
+  "pipeline/out/set33.json": [],
+  "pipeline/out/set34.json": [],
+  "pipeline/out/set35.json": [],
+  "pipeline/out/set36.json": [],
+  "pipeline/out/set37.json": [],
+  "pipeline/out/set38.json": [],
+  "pipeline/out/set39.json": [],
+  "pipeline/out/set40.json": [],
+  "pipeline/out/set41.json": [],
+  "pipeline/out/set42.json": [],
+  "pipeline/out/set43.json": [],
+  "pipeline/out/set44.json": [],
+  "pipeline/out/set45.json": []
+ }
+}
