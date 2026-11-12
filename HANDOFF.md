@@ -6,7 +6,7 @@
 
 - 이솝(새 검수 모델, 저장소엔 모델 이름을 적지 않음): 시험지와 실제 검수를 돌렸다. 확정·의심 두 단계로 받아 Claude가 판정한다. 시험지·결과·지시문은 [pipeline/review-bench/](pipeline/review-bench/README.md), 원칙은 PRINCIPLES 10.
 - 26~30세트 Oxford 5000 보강 147장 검수 → 원장 `aesop-review-20261112` 13곳(44세트 faithfully 포함). 직검수 페이지 https://claude.ai/artifact/W9krpExrpdSS31wSEovVDa. **main에 안 올렸다**(카드 내용이라 영신 확인 뒤 배포).
-- 다음: 영신 직검수 댓글 반영 → 배포 여부. 31~45세트 보강 776장도 같은 방식으로 할지 영신이 정한다. firework 대사 되풀이·해석 그녀/걔 섞임은 영신 판단.
+- 다음: 영신 직검수 댓글 반영 → 배포 여부. 받아 적음(11-13 02:50, 밤 11시 규칙): workplace 해설 "이 문장에는 workspace도 들어간다"가 무슨 말인지 모르겠다는 댓글. 같은 꼴을 쓴 expertise·publicity·specify·faithfully까지 다섯 장 말투를 알아듣게 고치고, workplace는 예문 교체도 검토(스레드 열어 둠). 31~45세트 보강 776장도 같은 방식으로 할지 영신이 정한다. firework 대사 되풀이·해석 그녀/걔 섞임은 영신 판단.
 - 같은 날: 같은 주소 저장 공간 확인(겹침 없음), 기록 옮기기 검사 공통화(본가 64d6d0e, main 배포됨). 저장 공간 대책(앞머리 장부·검사기·용량)은 영신 답 대기.
 
 ## 2026-11-09 · 영신 답 세 가지
