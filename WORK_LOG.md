@@ -2025,3 +2025,4 @@
 - 검증(새로 실행): assemble, deepcheck A6 16·A8 1(기준 그대로), linecheck 초과 0, node 검사 42개 통과, 원장 역적용 확인.
 - 직검수 페이지: https://claude.ai/artifact/Ro4ojTJyfaA3CLxjZVa228. 감시 칸이 차서 10-12 세트 직검수 페이지(1wq6) 감시를 풀었다.
 - 1차 직검수 페이지 workspace 댓글: 영신이 이해했고 "잘 바꿨습니다". 답하고 스레드를 닫았다. 다섯 장 말투는 그대로 둔다.
+- 배포: 5f1774a~e52c919 main fast-forward. Pages 43277096895 성공(248번은 다음 커밋에 넘겨 취소됨). main의 FABLE blob 118b89a와 공개 주소 해시가 로컬과 일치하고, 나머지 세 HTML은 바뀌지 않았다([DEPLOYMENT](DEPLOYMENT.md)).

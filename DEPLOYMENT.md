@@ -1,3 +1,14 @@
+# 이솝 검수 1·2차(26~45세트 보강 카드)·settler 배포 · 2026-11-13
+
+- 커밋 5f1774a(1차, 26~30세트 + 44세트 faithfully, 원장 `aesop-review-20261112`)부터 [e52c919](https://github.com/esqsoy/vocagoyang/commit/e52c919)(2차, 31~45세트 + settler, 원장 `aesop-review2-20261113`)까지 origin/main에 fast-forward로 푸시했다. 뒤의 7c24479는 인계 문서만 바꿨다.
+- Pages: e52c919의 248번은 7c24479의 249번이 이어받아 취소됐다. [Pages 43277096895](https://github.com/esqsoy/vocagoyang/actions/runs/43277096895)는 성공했다(2026-11-12 18:11:48 UTC 완료 확인).
+- 확인한 방법:
+  - GitHub API로 main의 HTML blob SHA를 봤다. FABLE은 118b89a로 로컬 검증본과 같다. index 608dcd9, 수능 1f15fae, EBS 7a0eb08은 바뀌지 않았다.
+  - 공개 주소 esqsoy.github.io/vocagoyang의 네 HTML을 받아 해시도 맞췄다. FABLE은 72e9b31에서 118b89a로 바뀐 것을 봤고, 나머지 셋은 같았다.
+- 배포 전 검사(새로 실행): assemble, deepcheck A6 16·A8 1(기준 그대로), linecheck 390px 초과 0, node 검사 42개 통과, 원장 두 개 역적용 확인. 보강 카드 명문장 46장은 구텐베르크 원문과 글자까지 대조해 일치했다.
+
+---
+
 # 기록 옮기기 설정 분리(공통 기능) 배포 · 2026-11-06
 
 - 커밋 [69e8d5e](https://github.com/esqsoy/vocagoyang/commit/69e8d5e)(기록 옮기기 config.json 분리, SHARED.md)와 [75f2b1c](https://github.com/esqsoy/vocagoyang/commit/75f2b1c)(SHARED.md 본가 버전)를 origin/main에 fast-forward로 푸시했다. [Pages 42207015117](https://github.com/esqsoy/vocagoyang/actions/runs/42207015117) 성공(2026-11-06 11:02:37 UTC 완료 확인). 뒤의 bf29ebe는 기록 문서만.
