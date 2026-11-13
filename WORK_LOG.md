@@ -2041,3 +2041,4 @@
   - 저장 키 앞머리 장부와 검사기를 공통 기능으로 만들었다(`pipeline/storage-guard/`: registry·check·test·config, 보카고양 검사 `pipeline/tests/storage-guard.test.cjs`). 일곱 게임 모두 통과했다(분가는 읽기 전용 사본).
   - 크기 줄이기와 저장 실패 알림은 지금 하지 않는다. 다시 볼 조건은 README에 있다.
   - PRINCIPLES 0에 원칙, SHARED.md에 표 줄.
+- 배포: a6affe7·6ca89fa main fast-forward, Pages 43392525440 성공. FABLE blob 6cd69ce가 main·공개 주소 모두 로컬과 같다([DEPLOYMENT](DEPLOYMENT.md)). AL에 탄고고양·빨라고양 앞 검사기 가져가기 이슈를 열었다.

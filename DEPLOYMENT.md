@@ -1,3 +1,14 @@
+# injustice 명문장·firework 대사·저장 키 검사기 배포 · 2026-11-13
+
+- 커밋 [a6affe7](https://github.com/esqsoy/vocagoyang/commit/a6affe7)(카드 4곳, 원장 `injustice-quote-20261113`, `pipeline/storage-guard/`)과 6ca89fa(SHARED 본가 버전)를 origin/main에 fast-forward로 푸시했다.
+- [Pages 43392525440](https://github.com/esqsoy/vocagoyang/actions/runs/43392525440) 성공(2026-11-13 08:21:48 UTC 완료 확인).
+- 확인한 방법:
+  - GitHub API로 main의 HTML blob SHA를 봤다. FABLE은 6cd69ce로 로컬과 같다. index 608dcd9, 수능 1f15fae, EBS 7a0eb08은 바뀌지 않았다.
+  - 공개 주소의 FABLE을 받아 해시를 맞췄다. 6cd69ce로 바뀐 것을 봤다.
+- 배포 전 검사(새로 실행): deepcheck A6 16·A8 1, linecheck 초과 0, node 검사 44개 통과(storage-guard 공통·보카고양 검사 추가). 원장 역적용도 확인했다. 새 명문장은 구텐베르크 원문(84번 『프랑켄슈타인』)과 글자까지 맞는다.
+
+---
+
 # 이솝 검수 1·2차(26~45세트 보강 카드)·settler 배포 · 2026-11-13
 
 - 커밋 5f1774a(1차, 26~30세트 + 44세트 faithfully, 원장 `aesop-review-20261112`)부터 [e52c919](https://github.com/esqsoy/vocagoyang/commit/e52c919)(2차, 31~45세트 + settler, 원장 `aesop-review2-20261113`)까지 origin/main에 fast-forward로 푸시했다. 뒤의 7c24479는 인계 문서만 바꿨다.
