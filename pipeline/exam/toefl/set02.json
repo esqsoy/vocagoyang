@@ -1,0 +1,1363 @@
+[
+  {
+    "ex": 1,
+    "name": "생물학",
+    "words": [
+      {
+        "en": "descendant",
+        "ko": "① 후손, 자손",
+        "ex": "Birds are the living {{BLANK}}s of dinosaurs.",
+        "tr": "새는 공룡의 살아 있는 후손이야.",
+        "c": "반대말은 ancestor. 끝 철자는 -ant.",
+        "ipa": "dɪˈsɛndənt",
+        "pos": "n.",
+        "word": "descendant",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "digest",
+        "ko": "① 소화하다",
+        "ex": "Cows have a special stomach to {{BLANK}} grass.",
+        "tr": "소는 풀을 소화하는 특별한 위가 있어.",
+        "c": "명사는 digestion(소화).",
+        "ipa": "daɪˈdʒɛst",
+        "pos": "v.",
+        "word": "digest",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "extinction",
+        "ko": "① 멸종, 소멸",
+        "ex": "The dinosaurs died out in a mass {{BLANK}} 66 million years ago.",
+        "tr": "공룡은 6600만 년 전 대멸종 때 사라졌어.",
+        "c": "mass extinction은 대멸종. 형용사는 extinct.",
+        "ipa": "ɪkˈstɪŋkʃən",
+        "pos": "n.",
+        "word": "extinction",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "fertile",
+        "ko": "① 번식력이 있는, 새끼를 낳을 수 있는",
+        "ex": "Members of the same species can produce {{BLANK}} offspring.",
+        "tr": "같은 종끼리는 번식력이 있는 자손을 낳을 수 있어.",
+        "c": "땅에 쓰면 '비옥한'. 반대는 infertile.",
+        "ipa": "ˈfɝtəl",
+        "pos": "adj.",
+        "word": "fertile",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "flock",
+        "ko": "① (새·양의) 떼, 무리",
+        "ex": "Geese fly south in large {{BLANK}}s every fall.",
+        "tr": "기러기는 가을마다 큰 떼를 지어 남쪽으로 날아가.",
+        "c": "group도 되지만 새·양에는 flock이 제격. 소·코끼리는 herd.",
+        "ipa": "flɑk",
+        "pos": "n.",
+        "word": "flock",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "graze",
+        "ko": "① 풀을 뜯다, 방목하다",
+        "ex": "Herds of cattle {{BLANK}} on the open plains.",
+        "tr": "소 떼가 탁 트인 평원에서 풀을 뜯어.",
+        "c": "graze on grass: 풀을 뜯어 먹다.",
+        "ipa": "ɡreɪz",
+        "pos": "v.",
+        "word": "graze",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "hatch",
+        "ko": "① 부화하다, 알에서 깨다",
+        "ex": "Sea turtle eggs {{BLANK}} about two months after they are laid.",
+        "tr": "바다거북 알은 낳은 지 두 달쯤 뒤에 부화해.",
+        "c": "알이 주어일 때도, 새끼가 주어일 때도 쓴다.",
+        "ipa": "hætʃ",
+        "pos": "v.",
+        "word": "hatch",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "herd",
+        "ko": "① (짐승의) 떼, 무리",
+        "ex": "Elephants live in {{BLANK}}s led by an older female.",
+        "tr": "코끼리는 나이 든 암컷이 이끄는 무리를 지어 살아.",
+        "c": "소·코끼리처럼 큰 짐승의 떼. 새·양은 flock.",
+        "ipa": "hɝd",
+        "pos": "n.",
+        "word": "herd",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "lifespan",
+        "ko": "① 수명",
+        "ex": "A mouse has a short {{BLANK}} of about two years.",
+        "tr": "쥐는 수명이 2년쯤으로 짧아.",
+        "c": "life span으로 띄어 쓰기도 한다.",
+        "ipa": "ˈlaɪfspæn",
+        "pos": "n.",
+        "word": "lifespan",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "mate",
+        "ko": "① 짝짓기하다",
+        "ex": "Many birds {{BLANK}} in spring, when food is abundant.",
+        "tr": "먹이가 풍부한 봄에 짝짓기하는 새가 많아.",
+        "c": "명사로 '짝'. mating season은 짝짓기 철.",
+        "ipa": "meɪt",
+        "pos": "v.",
+        "word": "mate",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 2,
+    "name": "생물학 / 생태·환경",
+    "words": [
+      {
+        "en": "moss",
+        "ko": "① 이끼",
+        "ex": "{{BLANK}} grows on rocks and trees in damp, shady places.",
+        "tr": "이끼는 축축하고 그늘진 곳의 바위와 나무에 자라.",
+        "c": "",
+        "ipa": "mɔs",
+        "pos": "n.",
+        "word": "moss",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "nutrient",
+        "ko": "① 영양소, 양분",
+        "ex": "Roots absorb water and {{BLANK}}s from the soil.",
+        "tr": "뿌리는 흙에서 물과 양분을 흡수해.",
+        "c": "nutrition(영양)과 구별하자.",
+        "ipa": "ˈnutriənt",
+        "pos": "n.",
+        "word": "nutrient",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "evaporation",
+        "ko": "① 증발",
+        "ex": "Salt is left behind after the {{BLANK}} of seawater.",
+        "tr": "바닷물이 증발하고 나면 소금이 남아.",
+        "c": "vapor(증기)가 들어 있다.",
+        "ipa": "ɪˌvæpəˈreɪʃən",
+        "pos": "n.",
+        "word": "evaporation",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "fertile",
+        "ko": "② (땅이) 비옥한, 기름진",
+        "ex": "Floods left {{BLANK}} soil along the Nile each year.",
+        "tr": "해마다 홍수가 나일강 가에 비옥한 흙을 남겼어.",
+        "c": "명사는 fertility.",
+        "ipa": "ˈfɝtəl",
+        "pos": "adj.",
+        "word": "fertile",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "fertilizer",
+        "ko": "① 비료",
+        "ex": "Too much chemical {{BLANK}} can pollute nearby rivers.",
+        "tr": "화학 비료를 너무 많이 쓰면 근처 강이 오염될 수 있어.",
+        "c": "fertilize(비료를 주다)+-er.",
+        "ipa": "ˈfɝtəlaɪzɚ",
+        "pos": "n.",
+        "word": "fertilizer",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "fresh",
+        "ko": "① 민물의, 소금기 없는",
+        "ex": "Most of Earth's {{BLANK}} water is frozen in ice.",
+        "tr": "지구의 민물은 대부분 얼음으로 얼어 있어.",
+        "c": "fresh water는 '신선한 물'이 아니라 민물. 바닷물은 salt water.",
+        "ipa": "frɛʃ",
+        "pos": "adj.",
+        "word": "fresh",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "freshwater",
+        "ko": "① 민물의, 담수의",
+        "ex": "Lake Baikal is the deepest {{BLANK}} lake in the world.",
+        "tr": "바이칼호는 세계에서 가장 깊은 민물 호수야.",
+        "c": "명사 앞에서는 붙여 쓴다. 바다 쪽은 saltwater, marine.",
+        "ipa": "ˈfrɛʃwɔtɚ",
+        "pos": "adj.",
+        "word": "freshwater",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "frost",
+        "ko": "① 서리, 결빙",
+        "ex": "A late spring {{BLANK}} can kill young fruit crops.",
+        "tr": "늦봄의 서리는 어린 과일 작물을 죽일 수 있어.",
+        "c": "frost damage는 서리 피해.",
+        "ipa": "frɔst",
+        "pos": "n.",
+        "word": "frost",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "grassland",
+        "ko": "① 초원, 목초지",
+        "ex": "Lions hunt on the open {{BLANK}}s of Africa.",
+        "tr": "사자는 아프리카의 탁 트인 초원에서 사냥해.",
+        "c": "temperate grasslands는 온대 초원.",
+        "ipa": "ˈɡræslænd",
+        "pos": "n.",
+        "word": "grassland",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "harvest",
+        "ko": "① 수확하다, 거둬들이다",
+        "ex": "Farmers {{BLANK}} wheat in late summer.",
+        "tr": "농부들은 늦여름에 밀을 수확해.",
+        "c": "나무·물고기 같은 자원을 '채취하다'에도 쓴다.",
+        "ipa": "ˈhɑrvəst",
+        "pos": "v.",
+        "word": "harvest",
+        "si": 1,
+        "sn": 2
+      }
+    ]
+  },
+  {
+    "ex": 3,
+    "name": "생태·환경 / 지구과학·지질",
+    "words": [
+      {
+        "en": "humidity",
+        "ko": "① 습도, 습기",
+        "ex": "High {{BLANK}} makes hot days feel even hotter.",
+        "tr": "습도가 높으면 더운 날이 더 덥게 느껴져.",
+        "c": "relative humidity는 상대 습도.",
+        "ipa": "hjuˈmɪdəti",
+        "pos": "n.",
+        "word": "humidity",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "latitude",
+        "ko": "① 위도",
+        "ex": "The equator lies at zero degrees {{BLANK}}.",
+        "tr": "적도는 위도 0도에 있어.",
+        "c": "경도는 longitude. altitude(고도)와 헷갈리지 말자.",
+        "ipa": "ˈlætətud",
+        "pos": "n.",
+        "word": "latitude",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "crater",
+        "ko": "① 분화구, (충돌로 생긴) 구덩이",
+        "ex": "A lake now fills the {{BLANK}} of the old volcano.",
+        "tr": "지금은 그 오래된 화산의 분화구에 호수가 차 있어.",
+        "c": "",
+        "ipa": "ˈkreɪtɚ",
+        "pos": "n.",
+        "word": "crater",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "crust",
+        "ko": "① (지질) 지각, 딱딱한 겉껍질",
+        "ex": "Earth's {{BLANK}} is thinner under the oceans than under the continents.",
+        "tr": "지각은 대륙 밑보다 바다 밑이 더 얇아.",
+        "c": "빵 껍질도 crust.",
+        "ipa": "krʌst",
+        "pos": "n.",
+        "word": "crust",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "date",
+        "ko": "① 연대를 측정하다; (~로) 거슬러 올라가다",
+        "ex": "Scientists {{BLANK}}d the rocks to about four billion years ago.",
+        "tr": "과학자들은 그 암석의 연대를 약 40억 년 전으로 측정했어.",
+        "c": "date back to ~: ~로 거슬러 올라가다.",
+        "ipa": "deɪt",
+        "pos": "v.",
+        "word": "date",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "eruption",
+        "ko": "① 분출, 분화",
+        "ex": "Ash from the {{BLANK}} blocked sunlight for months.",
+        "tr": "그 분화에서 나온 재가 몇 달 동안 햇빛을 가렸어.",
+        "c": "동사는 erupt. volcanic eruption은 화산 분화.",
+        "ipa": "ɪˈrʌpʃən",
+        "pos": "n.",
+        "word": "eruption",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "evaporate",
+        "ko": "① 증발하다, 증발시키다",
+        "ex": "Water in the lake {{BLANK}}s faster on hot, windy days.",
+        "tr": "덥고 바람 부는 날에는 호숫물이 더 빨리 증발해.",
+        "c": "명사는 evaporation.",
+        "ipa": "ɪˈvæpəreɪt",
+        "pos": "v.",
+        "word": "evaporate",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "geological",
+        "ko": "① 지질학의, 지질의",
+        "ex": "Humans have existed for only a moment in {{BLANK}} time.",
+        "tr": "지질 시대로 보면 인간이 존재한 건 한순간이야.",
+        "c": "geology(지질학)의 형용사. geological time은 지질 시대.",
+        "ipa": "ˌdʒiəˈlɑdʒɪkəl",
+        "pos": "adj.",
+        "word": "geological",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "geologist",
+        "ko": "① 지질학자",
+        "ex": "{{BLANK}}s study rock layers to learn Earth's history.",
+        "tr": "지질학자들은 지층을 연구해서 지구의 역사를 알아내.",
+        "c": "geo-는 '땅'.",
+        "ipa": "dʒiˈɑlədʒɪst",
+        "pos": "n.",
+        "word": "geologist",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "humid",
+        "ko": "① 습한, 눅눅한",
+        "ex": "Rice grows well in a hot, {{BLANK}} climate.",
+        "tr": "벼는 덥고 습한 기후에서 잘 자라.",
+        "c": "날씨·공기가 습할 때 쓴다.",
+        "ipa": "ˈhjumɪd",
+        "pos": "adj.",
+        "word": "humid",
+        "si": 1,
+        "sn": 1,
+        "meow": "습하면 털이 떡진다고양. 넌 머리나 감으라고양."
+      }
+    ]
+  },
+  {
+    "ex": 4,
+    "name": "천문·우주 / 물리·화학 외 / 사회학·인류학 / 역사·고고학",
+    "words": [
+      {
+        "en": "comet",
+        "ko": "① 혜성",
+        "ex": "A {{BLANK}}'s tail points away from the Sun.",
+        "tr": "혜성의 꼬리는 태양 반대쪽을 향해.",
+        "c": "그리스어 '긴 머리털'에서 온 말. 꼬리를 머리털로 봤다.",
+        "ipa": "ˈkɑmɪt",
+        "pos": "n.",
+        "word": "comet",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "dim",
+        "ko": "① 어둑한, 흐릿한",
+        "ex": "Some stars look {{BLANK}} only because they are very far away.",
+        "tr": "어떤 별은 아주 멀리 있어서 어둑하게 보일 뿐이야.",
+        "c": "반대말은 bright.",
+        "ipa": "dɪm",
+        "pos": "adj.",
+        "word": "dim",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "durable",
+        "ko": "① 오래가는, 내구성 있는",
+        "ex": "Stone tools survive because stone is far more {{BLANK}} than wood.",
+        "tr": "석기가 남아 있는 건 돌이 나무보다 훨씬 오래가서야.",
+        "c": "dur-(지속)는 during·endure에도 들어 있다.",
+        "ipa": "ˈdʊrəbəl",
+        "pos": "adj.",
+        "word": "durable",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "emit",
+        "ko": "① (빛·열·가스·소리를) 내뿜다, 방출하다",
+        "ex": "Stars {{BLANK}} light, while planets only reflect it.",
+        "tr": "별은 빛을 내뿜지만 행성은 반사만 해.",
+        "c": "명사는 emission. emit-emitted로 t를 겹친다.",
+        "ipa": "ɪˈmɪt",
+        "pos": "v.",
+        "word": "emit",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "glow",
+        "ko": "① (은은히) 빛나다, 달아올라 빛나다",
+        "ex": "Heated metal {{BLANK}}s red before it melts.",
+        "tr": "달군 금속은 녹기 전에 붉게 빛나.",
+        "c": "glow red처럼 뒤에 색을 바로 쓴다.",
+        "ipa": "ɡloʊ",
+        "pos": "v.",
+        "word": "glow",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "glow",
+        "ko": "② 은은한 빛",
+        "ex": "The faint {{BLANK}} in the night sky was a distant galaxy.",
+        "tr": "밤하늘의 그 희미한 빛은 먼 은하였어.",
+        "c": "",
+        "ipa": "ɡloʊ",
+        "pos": "n.",
+        "word": "glow",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "caregiver",
+        "ko": "① 돌보는 사람, 양육자",
+        "ex": "Infants form a strong bond with their main {{BLANK}}.",
+        "tr": "아기는 주로 돌봐 주는 사람과 강한 유대를 맺어.",
+        "c": "부모가 아니어도 된다. 영국에서는 carer.",
+        "ipa": "ˈkɛrˌɡɪvɚ",
+        "pos": "n.",
+        "word": "caregiver",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "facial expression",
+        "ko": "① 얼굴 표정",
+        "ex": "A {{BLANK}} such as a smile can show feelings without words.",
+        "tr": "미소 같은 얼굴 표정은 말 없이도 감정을 보여 줘.",
+        "c": "facial은 face의 형용사다.",
+        "ipa": "ˈfeɪʃəl ɪkˈsprɛʃən",
+        "pos": "n.",
+        "word": "facial expression",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "imitate",
+        "ko": "① 모방하다, 흉내 내다",
+        "ex": "Young children often {{BLANK}} the sounds that adults make.",
+        "tr": "어린아이는 어른이 내는 소리를 자주 흉내 내.",
+        "c": "명사는 imitation.",
+        "ipa": "ˈɪmɪˌteɪt",
+        "pos": "v.",
+        "word": "imitate",
+        "si": 1,
+        "sn": 1,
+        "meow": "내 울음소리 흉내는 꿈도 꾸지 말라고양."
+      }
+    ]
+  },
+  {
+    "ex": 5,
+    "name": "천문·우주 / 물리·화학 외 / 사회학·인류학 / 역사·고고학",
+    "words": [
+      {
+        "en": "institution",
+        "ko": "① (사회) 제도, 관습",
+        "ex": "Marriage is a social {{BLANK}} found in almost every culture.",
+        "tr": "결혼은 거의 모든 문화에 있는 사회 제도야.",
+        "c": "은행·대학 같은 기관만이 아니라 결혼·가족 같은 제도도 가리킨다.",
+        "ipa": "ˌɪnstɪˈtuʃən",
+        "pos": "n.",
+        "word": "institution",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "interest",
+        "ko": "① 이해관계, 이익",
+        "ex": "Each group in the debate was protecting its own {{BLANK}}s.",
+        "tr": "그 논쟁에서 집단마다 자기 이익을 지키고 있었어.",
+        "c": "이 뜻은 주로 복수로 쓴다. interest group은 이익 집단.",
+        "ipa": "ˈɪntrəst",
+        "pos": "n.",
+        "word": "interest",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "mass",
+        "ko": "① (사회) 대중의, 대량의",
+        "ex": "Radio and television are forms of {{BLANK}} media.",
+        "tr": "라디오와 텔레비전은 대중 매체야.",
+        "c": "명사 앞에만 쓴다.",
+        "ipa": "mæs",
+        "pos": "adj.",
+        "word": "mass",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "conquest",
+        "ko": "① 정복",
+        "ex": "The Spanish {{BLANK}} of the Aztec Empire took about two years.",
+        "tr": "스페인의 아스테카 제국 정복은 2년쯤 걸렸어.",
+        "c": "동사는 conquer. 정복한 곳은 of 뒤에 쓴다.",
+        "ipa": "ˈkɑŋkwɛst",
+        "pos": "n.",
+        "word": "conquest",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "date",
+        "ko": "② (고고학) 연대를 추정하다",
+        "ex": "Scientists {{BLANK}}d the bones to about 10,000 years ago.",
+        "tr": "과학자들은 그 뼈를 약 만 년 전 것으로 추정했어.",
+        "c": "date A to B 꼴. 수동 be dated to로 많이 쓴다.",
+        "ipa": "deɪt",
+        "pos": "v.",
+        "word": "date",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "fall",
+        "ko": "① (역사) 몰락, 멸망",
+        "ex": "Historians still debate the causes of the {{BLANK}} of Rome.",
+        "tr": "역사가들은 로마가 몰락한 원인을 아직도 논쟁해.",
+        "c": "the rise and fall of ~(~의 흥망)로 자주 쓴다.",
+        "ipa": "fɔl",
+        "pos": "n.",
+        "word": "fall",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "frontier",
+        "ko": "① 변경, 국경 지대",
+        "ex": "In the 1800s, settlers pushed the American {{BLANK}} farther west.",
+        "tr": "1800년대에 정착민들이 미국의 변경을 더 서쪽으로 밀어냈어.",
+        "c": "미국사에서는 서부 개척지의 경계를 가리킨다.",
+        "ipa": "frʌnˈtɪr",
+        "pos": "n.",
+        "word": "frontier",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "industrialization",
+        "ko": "① 산업화, 공업화",
+        "ex": "With {{BLANK}}, people left farms to work in city factories.",
+        "tr": "산업화가 되자 사람들이 농장을 떠나 도시 공장에서 일했어.",
+        "c": "industrial+-ize+-ation. 영국식은 -isation.",
+        "ipa": "ɪnˌdʌstriələˈzeɪʃən",
+        "pos": "n.",
+        "word": "industrialization",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "pottery",
+        "ko": "① 도자기, 도기",
+        "ex": "Pieces of ancient {{BLANK}} show what people cooked and stored.",
+        "tr": "고대 도자기 조각은 사람들이 뭘 요리하고 저장했는지 보여 줘.",
+        "c": "셀 수 없는 명사. 그릇 하나는 a pot이다.",
+        "ipa": "ˈpɑtɚi",
+        "pos": "n.",
+        "word": "pottery",
+        "si": 1,
+        "sn": 2
+      }
+    ]
+  },
+  {
+    "ex": 6,
+    "name": "미술·건축 / 음악·문학·연극 외",
+    "words": [
+      {
+        "en": "dome",
+        "ko": "① 돔, 둥근 지붕",
+        "ex": "The {{BLANK}} of the Pantheon in Rome is made of concrete.",
+        "tr": "로마 판테온의 돔은 콘크리트로 만들었어.",
+        "c": "roof는 지붕 일반, dome은 반구 모양 지붕이다.",
+        "ipa": "doʊm",
+        "pos": "n.",
+        "word": "dome",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "form",
+        "ko": "① (예술) 형식, 양식",
+        "ex": "The novel became a popular literary {{BLANK}} in the 1700s.",
+        "tr": "소설은 1700년대에 인기 있는 문학 형식이 됐어.",
+        "c": "an art form(예술 형식)으로 자주 쓴다.",
+        "ipa": "fɔrm",
+        "pos": "n.",
+        "word": "form",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "masterpiece",
+        "ko": "① 걸작, 대표작",
+        "ex": "Many critics consider this painting the artist's {{BLANK}}.",
+        "tr": "많은 평론가가 이 그림을 그 화가의 걸작으로 봐.",
+        "c": "원래 장인(master) 자격을 얻으려고 낸 작품(piece).",
+        "ipa": "ˈmæstɚˌpis",
+        "pos": "n.",
+        "word": "masterpiece",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "movement",
+        "ko": "① (예술·사회) 운동, 사조",
+        "ex": "Impressionism was an art {{BLANK}} that began in France in the 1860s.",
+        "tr": "인상주의는 1860년대 프랑스에서 시작된 미술 사조야.",
+        "c": "사회 운동에도 쓴다: the civil rights movement(민권 운동).",
+        "ipa": "ˈmuvmənt",
+        "pos": "n.",
+        "word": "movement",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "conductor",
+        "ko": "① 지휘자",
+        "ex": "The {{BLANK}} raised her hands, and the orchestra began to play.",
+        "tr": "지휘자가 두 손을 들자 오케스트라가 연주를 시작했어.",
+        "c": "동사 conduct(지휘하다)에서 왔다. 과학 지문에서는 '전도체'.",
+        "ipa": "kənˈdʌktɚ",
+        "pos": "n.",
+        "word": "conductor",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "criticism",
+        "ko": "① (문학·예술) 비평, 평론",
+        "ex": "Literary {{BLANK}} asks what a text means and how it works.",
+        "tr": "문학 비평은 글이 무슨 뜻이고 어떻게 짜였는지 물어.",
+        "c": "'비난'이 아니라 작품을 분석하는 일이다. 비평가는 critic.",
+        "ipa": "ˈkrɪtɪˌsɪzəm",
+        "pos": "n.",
+        "word": "criticism",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "mass production",
+        "ko": "① 대량 생산",
+        "ex": "Thanks to {{BLANK}}, cars became cheap enough for ordinary families.",
+        "tr": "대량 생산 덕분에 차가 보통 가정도 살 만큼 싸졌어.",
+        "c": "동사는 mass-produce.",
+        "ipa": "mæs prəˈdʌkʃən",
+        "pos": "n.",
+        "word": "mass production",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "fluent",
+        "ko": "① 유창한",
+        "ex": "After a year in Mexico, she was {{BLANK}} in Spanish.",
+        "tr": "걔는 멕시코에서 1년을 지내고 스페인어가 유창해졌어.",
+        "c": "fluent in+언어. 부사는 fluently.",
+        "ipa": "ˈfluənt",
+        "pos": "adj.",
+        "word": "fluent",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "native speaker",
+        "ko": "① 원어민, 모어 화자",
+        "ex": "Even a {{BLANK}} of English makes grammar mistakes.",
+        "tr": "영어 원어민도 문법을 틀려.",
+        "c": "a native speaker of+언어로 쓴다.",
+        "ipa": "ˈneɪtɪv ˈspikɚ",
+        "pos": "n.",
+        "word": "native speaker",
+        "si": 1,
+        "sn": 1,
+        "meow": "한국어 원어민인 너도 맞춤법 틀리잖냐고양."
+      },
+      {
+        "en": "semester",
+        "ko": "① 학기",
+        "ex": "I'm taking five classes this {{BLANK}}.",
+        "tr": "나 이번 학기에 수업 다섯 개 들어.",
+        "c": "미국 대학은 대개 fall·spring 두 학기다.",
+        "ipa": "səˈmɛstɚ",
+        "pos": "n.",
+        "word": "semester",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "sign up",
+        "ko": "① 신청하다, 등록하다",
+        "ex": "You can {{BLANK}} for the lab section online.",
+        "tr": "실험 분반은 온라인으로 신청할 수 있어.",
+        "c": "sign up for+수업·행사로 쓴다.",
+        "ipa": "saɪn ʌp",
+        "pos": "v.",
+        "word": "sign up",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "turn in",
+        "ko": "① 제출하다",
+        "ex": "Please {{BLANK}} your essays by Friday at noon.",
+        "tr": "에세이는 금요일 정오까지 제출해 주세요.",
+        "c": "이 뜻에서는 hand in과 바꿔 쓸 수 있다.",
+        "ipa": "tɝn ɪn",
+        "pos": "v.",
+        "word": "turn in",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 7,
+    "name": "교육·캠퍼스 생활 / 연구·논증 외 / 일반",
+    "words": [
+      {
+        "en": "advisor",
+        "ko": "① 지도 교수, 상담 담당자",
+        "ex": "Meet with your {{BLANK}} before you choose next semester's classes.",
+        "tr": "다음 학기 수업을 고르기 전에 지도 교수를 만나 봐.",
+        "c": "adviser로도 쓴다. 수강·전공을 상담해 준다.",
+        "ipa": "ədˈvaɪzɚ",
+        "pos": "n.",
+        "word": "advisor",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "draw",
+        "ko": "① (결론·정보를) 끌어내다",
+        "ex": "What conclusion can we {{BLANK}} from these results?",
+        "tr": "이 결과에서 어떤 결론을 끌어낼 수 있을까?",
+        "c": "draw a conclusion으로 쓴다. draw on은 '~을 활용하다'.",
+        "ipa": "drɔ",
+        "pos": "v.",
+        "word": "draw",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "establish",
+        "ko": "① (사실을) 입증하다, 밝히다",
+        "ex": "The study {{BLANK}}ed a clear link between smoking and lung cancer.",
+        "tr": "그 연구는 흡연과 폐암 사이의 뚜렷한 연관성을 입증했어.",
+        "c": "establish a link·establish that ~으로 쓴다.",
+        "ipa": "ɪˈstæblɪʃ",
+        "pos": "v.",
+        "word": "establish",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "hold",
+        "ko": "① (견해를) 주장하다, 여기다",
+        "ex": "One theory {{BLANK}}s that birds evolved from dinosaurs.",
+        "tr": "한 이론은 새가 공룡에서 진화했다고 주장해.",
+        "c": "이론·학자가 주어일 때 hold that ~으로 쓴다.",
+        "ipa": "hoʊld",
+        "pos": "v.",
+        "word": "hold",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "hold",
+        "ko": "② (주장·법칙이) 성립하다",
+        "ex": "This rule {{BLANK}}s true for most mammals, but not all.",
+        "tr": "이 규칙은 대부분의 포유류에 성립하지만 전부는 아니야.",
+        "c": "hold true(들어맞다)로 자주 쓴다.",
+        "ipa": "hoʊld",
+        "pos": "v.",
+        "word": "hold",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "mark",
+        "ko": "① (전환점·시작을) 나타내다, 알리다",
+        "ex": "The invention of writing {{BLANK}}s the beginning of recorded history.",
+        "tr": "문자의 발명은 기록된 역사의 시작을 알려.",
+        "c": "mark the beginning·a turning point로 쓴다.",
+        "ipa": "mɑrk",
+        "pos": "v.",
+        "word": "mark",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "swift",
+        "ko": "① 빠른, 신속한",
+        "ex": "The river's {{BLANK}} current carried the soil away.",
+        "tr": "강의 빠른 물살이 흙을 쓸어 갔어.",
+        "c": "이 뜻에서는 rapid와 바꿔 쓸 수 있다.",
+        "ipa": "swɪft",
+        "pos": "adj.",
+        "word": "swift",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "vivid",
+        "ko": "① 생생한, 선명한",
+        "ex": "The poem gives a {{BLANK}} description of life at sea.",
+        "tr": "그 시는 바다 생활을 생생하게 묘사해.",
+        "c": "vivid colors(선명한 색)처럼 색에도 쓴다.",
+        "ipa": "ˈvɪvɪd",
+        "pos": "adj.",
+        "word": "vivid",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "acclaim",
+        "ko": "① 찬사, 호평",
+        "ex": "Toni Morrison's novels earned critical {{BLANK}} around the world.",
+        "tr": "토니 모리슨의 소설들은 전 세계 평단의 호평을 받았어.",
+        "c": "critical acclaim은 평단의 호평. acclaimed는 '호평받는'.",
+        "ipa": "əˈkleɪm",
+        "pos": "n.",
+        "word": "acclaim",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "adept",
+        "ko": "① 능숙한",
+        "ex": "Owls are {{BLANK}} at hunting in the dark.",
+        "tr": "올빼미는 어둠 속에서 사냥하는 데 능숙해.",
+        "c": "adept at ~. adapt(적응하다)·adopt(채택하다)와 철자를 구별하자.",
+        "ipa": "əˈdɛpt",
+        "pos": "adj.",
+        "word": "adept",
+        "si": 1,
+        "sn": 1,
+        "meow": "어둠 속 사냥은 고양이가 원조라고양. 넌 뭐에 능숙하냐고양?"
+      },
+      {
+        "en": "akin",
+        "ko": "① ~와 비슷한",
+        "ex": "Learning a language is {{BLANK}} to learning a musical instrument.",
+        "tr": "언어 배우기는 악기 배우기와 비슷해.",
+        "c": "늘 akin to 꼴이다. 명사 앞에는 못 쓴다.",
+        "ipa": "əˈkɪn",
+        "pos": "adj.",
+        "word": "akin",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "alleviate",
+        "ko": "① 완화하다, 덜다",
+        "ex": "New roads did little to {{BLANK}} the city's traffic problem.",
+        "tr": "새 도로는 그 도시의 교통 문제를 거의 덜어 주지 못했어.",
+        "c": "없애는 게 아니라 덜어 주는 것. ease·relieve와 비슷하다.",
+        "ipa": "əˈliviˌeɪt",
+        "pos": "v.",
+        "word": "alleviate",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "ample",
+        "ko": "① 충분한, 넉넉한",
+        "ex": "Students will have {{BLANK}} time to finish the exam.",
+        "tr": "학생들은 시험을 끝낼 시간이 넉넉할 거야.",
+        "c": "enough보다 넉넉하다는 느낌. ample evidence는 충분한 증거.",
+        "ipa": "ˈæmpəl",
+        "pos": "adj.",
+        "word": "ample",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "arduous",
+        "ko": "① 몹시 힘든, 고된",
+        "ex": "Settlers made the {{BLANK}} journey west on foot.",
+        "tr": "정착민들은 서쪽으로 가는 고된 여정을 걸어서 갔어.",
+        "c": "힘과 시간이 많이 드는 일에 쓴다: an arduous task.",
+        "ipa": "ˈɑrdʒuəs",
+        "pos": "adj.",
+        "word": "arduous",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "augment",
+        "ko": "① 늘리다, 보강하다",
+        "ex": "Many students {{BLANK}} their income with part-time jobs on campus.",
+        "tr": "많은 학생이 교내 아르바이트로 수입을 보태.",
+        "c": "있는 것에 더해 늘리는 것이다.",
+        "ipa": "ɔɡˈmɛnt",
+        "pos": "v.",
+        "word": "augment",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 1,
+    "name": "생물학 / 생물학 / 생태·환경 외",
+    "scope": "fable",
+    "words": [
+      {
+        "en": "decay",
+        "ko": "① 썩다, 부패하다",
+        "ex": "Fallen leaves {{BLANK}} and return nutrients to the soil.",
+        "tr": "낙엽은 썩어서 양분을 흙으로 돌려보내.",
+        "c": "명사도 decay. 방사성 '붕괴'에도 쓴다.",
+        "ipa": "dɪˈkeɪ",
+        "pos": "v.",
+        "word": "decay",
+        "si": 1,
+        "sn": 3,
+        "fable": {
+          "set": 21,
+          "si": 1
+        }
+      },
+      {
+        "en": "evolutionary",
+        "ko": "① 진화의, 진화론의",
+        "ex": "Fossils let scientists trace the {{BLANK}} history of the horse.",
+        "tr": "화석 덕분에 과학자들은 말의 진화 역사를 추적할 수 있어.",
+        "c": "evolution(진화)의 형용사.",
+        "ipa": "ˌɛvəˈluʃəˌnɛri",
+        "pos": "adj.",
+        "word": "evolutionary",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 39,
+          "si": 1
+        }
+      },
+      {
+        "en": "fungus",
+        "ko": "① 균류, 곰팡이",
+        "ex": "A {{BLANK}} cannot make its own food as plants do.",
+        "tr": "균류는 식물처럼 스스로 양분을 만들지 못해.",
+        "c": "복수형은 fungi. 버섯·곰팡이가 여기에 든다.",
+        "ipa": "ˈfʌŋɡəs",
+        "pos": "n.",
+        "word": "fungus",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 43,
+          "si": 1
+        }
+      },
+      {
+        "en": "instinct",
+        "ko": "① 본능, 직감",
+        "ex": "Spiders build webs by {{BLANK}}; no one teaches them.",
+        "tr": "거미는 본능으로 거미줄을 쳐. 아무도 가르쳐 주지 않아.",
+        "c": "by instinct: 본능적으로. 형용사는 instinctive.",
+        "ipa": "ˈɪnstɪŋkt",
+        "pos": "n.",
+        "word": "instinct",
+        "si": 1,
+        "sn": 1,
+        "meow": "넌 본능으로 폰부터 집는다고양. 그 손으로 단어나 치라고양.",
+        "fable": {
+          "set": 36,
+          "si": 1
+        }
+      },
+      {
+        "en": "exploit",
+        "ko": "① (최대한) 이용하다, 활용하다",
+        "ex": "Each bird species {{BLANK}}s a different source of food.",
+        "tr": "새는 종마다 다른 먹이를 이용해.",
+        "c": "토플에서는 나쁜 뜻 없이 자원·환경을 '활용하다'로 흔하다.",
+        "ipa": "ɪkˈsplɔɪt",
+        "pos": "v.",
+        "word": "exploit",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 31,
+          "si": 1
+        }
+      },
+      {
+        "en": "habitat",
+        "ko": "① 서식지",
+        "ex": "Rivers and lakes are the natural {{BLANK}} of freshwater fish.",
+        "tr": "강과 호수는 민물고기의 자연 서식지야.",
+        "c": "habitat loss는 서식지 감소.",
+        "ipa": "ˈhæbəˌtæt",
+        "pos": "n.",
+        "word": "habitat",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 31,
+          "si": 1
+        }
+      },
+      {
+        "en": "harvest",
+        "ko": "② 수확, 추수, 수확량",
+        "ex": "A poor {{BLANK}} often led to hunger the next winter.",
+        "tr": "흉작이면 이듬해 겨울에 굶주리는 일이 많았어.",
+        "c": "a good harvest는 풍작, a poor harvest는 흉작.",
+        "ipa": "ˈhɑrvɪst",
+        "pos": "n.",
+        "word": "harvest",
+        "si": 2,
+        "sn": 2,
+        "fable": {
+          "set": 37,
+          "si": 1
+        }
+      },
+      {
+        "en": "migrate",
+        "ko": "① 이주하다, 이동하다",
+        "ex": "Many whales {{BLANK}} to warm waters to give birth.",
+        "tr": "많은 고래가 새끼를 낳으려고 따뜻한 바다로 이동해.",
+        "c": "명사는 migration. 사람의 이주에도 쓴다.",
+        "ipa": "ˈmaɪˌɡreɪt",
+        "pos": "v.",
+        "word": "migrate",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 26,
+          "si": 1
+        }
+      },
+      {
+        "en": "core",
+        "ko": "① (지구·별의) 핵",
+        "ex": "The Sun's {{BLANK}} is far hotter than its surface.",
+        "tr": "태양의 핵은 표면보다 훨씬 뜨거워.",
+        "c": "지구 핵은 inner core(내핵)와 outer core(외핵)로 나뉜다.",
+        "ipa": "kɔr",
+        "pos": "n.",
+        "word": "core",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 41,
+          "si": 1
+        }
+      },
+      {
+        "en": "drift",
+        "ko": "① 표류하다, 떠가다",
+        "ex": "Icebergs {{BLANK}} south with the ocean currents.",
+        "tr": "빙산은 해류를 타고 남쪽으로 떠가.",
+        "c": "이 문장에는 float도 들어간다. 흐름에 실려 간다는 느낌.",
+        "ipa": "drɪft",
+        "pos": "v.",
+        "word": "drift",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 32,
+          "si": 1
+        }
+      },
+      {
+        "en": "fossil",
+        "ko": "① 화석",
+        "ex": "{{BLANK}} fuels formed from plants and animals that died long ago.",
+        "tr": "화석 연료는 오래전에 죽은 동식물에서 만들어졌어.",
+        "c": "fossil record는 화석 기록.",
+        "ipa": "ˈfɑsəl",
+        "pos": "n.",
+        "word": "fossil",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 26,
+          "si": 1
+        }
+      }
+    ]
+  },
+  {
+    "ex": 2,
+    "name": "천문·우주 / 물리·화학 외 / 사회학·인류학 / 역사·고고학 외",
+    "scope": "fable",
+    "words": [
+      {
+        "en": "dioxide",
+        "ko": "① 이산화물",
+        "ex": "Plants take in carbon {{BLANK}} and give off oxygen.",
+        "tr": "식물은 이산화탄소를 들이마시고 산소를 내놓아.",
+        "c": "di-(둘)+oxide(산화물). 산소 원자가 둘이다.",
+        "ipa": "daɪˈɑksaɪd",
+        "pos": "n.",
+        "word": "dioxide",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 40,
+          "si": 1
+        }
+      },
+      {
+        "en": "dissolve",
+        "ko": "① 녹다, 용해하다",
+        "ex": "Salt {{BLANK}}s in water, but sand does not.",
+        "tr": "소금은 물에 녹지만 모래는 안 녹아.",
+        "c": "열로 녹는 것은 melt, 액체에 풀리는 것이 dissolve.",
+        "ipa": "dɪˈzɑlv",
+        "pos": "v.",
+        "word": "dissolve",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 38,
+          "si": 1
+        }
+      },
+      {
+        "en": "colony",
+        "ko": "① 식민지",
+        "ex": "Brazil was a {{BLANK}} of Portugal for about three hundred years.",
+        "tr": "브라질은 300년쯤 포르투갈의 식민지였어.",
+        "c": "동사는 colonize, 형용사는 colonial.",
+        "ipa": "ˈkɑləni",
+        "pos": "n.",
+        "word": "colony",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 26,
+          "si": 1
+        }
+      },
+      {
+        "en": "scholarship",
+        "ko": "① 장학금",
+        "ex": "The deadline to apply for the {{BLANK}} is next Friday.",
+        "tr": "그 장학금 신청 마감은 다음 주 금요일이야.",
+        "c": "갚지 않아도 되는 돈. 갚아야 하는 것은 loan.",
+        "ipa": "ˈskɑlɚˌʃɪp",
+        "pos": "n.",
+        "word": "scholarship",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 35,
+          "si": 1
+        }
+      },
+      {
+        "en": "admission",
+        "ko": "① 입학, 입장",
+        "ex": "Her test scores were high enough for {{BLANK}} to the university.",
+        "tr": "걔는 시험 점수가 그 대학에 입학할 만큼 높았어.",
+        "c": "admission to+학교. 입학처는 admissions office.",
+        "ipa": "ədˈmɪʃən",
+        "pos": "n.",
+        "word": "admission",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 38,
+          "si": 1
+        }
+      },
+      {
+        "en": "evident",
+        "ko": "① 명백한, 분명한",
+        "ex": "It is {{BLANK}} from the fossils that this animal could fly.",
+        "tr": "화석을 보면 이 동물이 날 수 있었다는 게 분명해.",
+        "c": "이 뜻에서는 obvious와 바꿔 쓸 수 있다. 명사는 evidence.",
+        "ipa": "ˈevədənt",
+        "pos": "adj.",
+        "word": "evident",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 48,
+          "si": 1
+        }
+      },
+      {
+        "en": "simultaneously",
+        "ko": "① 동시에",
+        "ex": "The same idea appeared {{BLANK}} in two different countries.",
+        "tr": "같은 생각이 서로 다른 두 나라에서 동시에 나타났어.",
+        "c": "at the same time을 딱딱하게 말한 것. 철자 -eous-에 주의.",
+        "ipa": "ˌsaɪməlˈteɪniəsli",
+        "pos": "adv.",
+        "word": "simultaneously",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 44,
+          "si": 1
+        }
+      },
+      {
+        "en": "span",
+        "ko": "① (지속되는) 기간, 시간",
+        "ex": "Young children have a short attention {{BLANK}}.",
+        "tr": "어린아이는 집중하는 시간이 짧아.",
+        "c": "attention span(집중 시간), life span(수명)으로 쓴다.",
+        "ipa": "spæn",
+        "pos": "n.",
+        "word": "span",
+        "si": 1,
+        "sn": 5,
+        "fable": {
+          "set": 44,
+          "si": 1
+        }
+      },
+      {
+        "en": "subtle",
+        "ko": "① 미묘한, 섬세한",
+        "ex": "There are {{BLANK}} differences between the two birds' songs.",
+        "tr": "두 새의 노랫소리에는 미묘한 차이가 있어.",
+        "c": "b는 소리 내지 않는다. 이 문장에는 slight도 들어간다.",
+        "ipa": "ˈsʌtəl",
+        "pos": "adj.",
+        "word": "subtle",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 36,
+          "si": 1
+        }
+      },
+      {
+        "en": "transformation",
+        "ko": "① 변화, 변형",
+        "ex": "Cities went through a major {{BLANK}} during the Industrial Revolution.",
+        "tr": "산업 혁명 때 도시는 큰 변화를 겪었어.",
+        "c": "모습이 완전히 바뀌는 큰 변화다. 동사는 transform.",
+        "ipa": "ˌtrænsfɚˈmeɪʃən",
+        "pos": "n.",
+        "word": "transformation",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 29,
+          "si": 1
+        }
+      },
+      {
+        "en": "transmit",
+        "ko": "① 전달하다, 전송하다, 전파하다",
+        "ex": "Nerves {{BLANK}} signals from the brain to the muscles.",
+        "tr": "신경은 뇌에서 근육으로 신호를 전달해.",
+        "c": "병 전염·문화 전승에도 쓴다. transmit-transmitted.",
+        "ipa": "trænzˈmɪt",
+        "pos": "v.",
+        "word": "transmit",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 48,
+          "si": 1
+        }
+      },
+      {
+        "en": "utilize",
+        "ko": "① 활용하다, 이용하다",
+        "ex": "Ancient Romans {{BLANK}}d volcanic ash to make strong concrete.",
+        "tr": "고대 로마인들은 화산재를 활용해 튼튼한 콘크리트를 만들었어.",
+        "c": "use를 딱딱하게 말한 것. 영국식은 utilise.",
+        "ipa": "ˈjutəˌlaɪz",
+        "pos": "v.",
+        "word": "utilize",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 41,
+          "si": 1
+        }
+      },
+      {
+        "en": "widespread",
+        "ko": "① 널리 퍼진",
+        "ex": "The {{BLANK}} use of coal polluted the air in many cities.",
+        "tr": "석탄을 널리 쓰면서 여러 도시의 공기가 오염됐어.",
+        "c": "",
+        "ipa": "ˈwaɪdsprɛd",
+        "pos": "adj.",
+        "word": "widespread",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 17,
+          "si": 1
+        }
+      },
+      {
+        "en": "adjacent",
+        "ko": "① 인접한, 바로 옆의",
+        "ex": "The library is {{BLANK}} to the student center.",
+        "tr": "도서관은 학생 회관 바로 옆에 있어.",
+        "c": "adjacent to ~로 쓴다. d는 소리 내지 않는다.",
+        "ipa": "əˈdʒeɪsənt",
+        "pos": "adj.",
+        "word": "adjacent",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 37,
+          "si": 1
+        }
+      }
+    ]
+  }
+]

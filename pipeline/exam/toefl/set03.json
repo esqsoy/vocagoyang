@@ -1,0 +1,1366 @@
+[
+  {
+    "ex": 1,
+    "name": "생물학",
+    "words": [
+      {
+        "en": "organism",
+        "ko": "① 생물, 유기체",
+        "ex": "A drop of pond water contains many tiny {{BLANK}}s.",
+        "tr": "연못 물 한 방울에도 아주 작은 생물이 많이 들어 있어.",
+        "c": "동물·식물·세균을 다 가리킨다. organ(기관)과 구별하자.",
+        "ipa": "ˈɔrɡəˌnɪzəm",
+        "pos": "n.",
+        "word": "organism",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "pollen",
+        "ko": "① 꽃가루",
+        "ex": "Ancient {{BLANK}} in lake mud shows which plants once grew nearby.",
+        "tr": "호수 진흙 속 옛 꽃가루는 예전에 근처에서 어떤 식물이 자랐는지 보여 줘.",
+        "c": "셀 수 없는 명사. 꽃가루받이는 pollination.",
+        "ipa": "ˈpɑlən",
+        "pos": "n.",
+        "word": "pollen",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "reptile",
+        "ko": "① 파충류",
+        "ex": "A snake is a {{BLANK}}, but a frog is an amphibian.",
+        "tr": "뱀은 파충류지만 개구리는 양서류야.",
+        "c": "뱀·도마뱀·거북·악어가 여기 든다.",
+        "ipa": "ˈrɛptaɪl",
+        "pos": "n.",
+        "word": "reptile",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "resistant",
+        "ko": "① 저항력 있는, 내성이 있는, ~에 잘 견디는",
+        "ex": "Over time, some bacteria become {{BLANK}} to antibiotics.",
+        "tr": "시간이 지나면 일부 세균은 항생제에 내성이 생겨.",
+        "c": "resistant to ~. drought-resistant는 '가뭄에 강한'.",
+        "ipa": "rɪˈzɪstənt",
+        "pos": "adj.",
+        "word": "resistant",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "scarce",
+        "ko": "① 부족한, 드문",
+        "ex": "When food is {{BLANK}}, some animals sleep through the winter.",
+        "tr": "먹이가 부족하면 어떤 동물은 겨울 내내 잠을 자.",
+        "c": "필요한 만큼 없다는 뜻. 그냥 드문 것은 rare.",
+        "ipa": "skɛrs",
+        "pos": "adj.",
+        "word": "scarce",
+        "si": 1,
+        "sn": 1,
+        "meow": "츄르가 부족하면 난 겨울잠 대신 집사를 깨운다고양."
+      },
+      {
+        "en": "skeleton",
+        "ko": "① 골격, 뼈대",
+        "ex": "A shark's {{BLANK}} is made of cartilage, not bone.",
+        "tr": "상어의 골격은 뼈가 아니라 연골로 돼 있어.",
+        "c": "곤충의 겉뼈대는 exoskeleton이라 한다.",
+        "ipa": "ˈskɛlətən",
+        "pos": "n.",
+        "word": "skeleton",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "territory",
+        "ko": "① (동물의) 세력권",
+        "ex": "A male bird sings to warn others away from his {{BLANK}}.",
+        "tr": "수컷 새는 남들한테 자기 세력권에 오지 말라고 노래해.",
+        "c": "동물이 지키는 구역. 형용사는 territorial.",
+        "ipa": "ˈtɛrəˌtɔri",
+        "pos": "n.",
+        "word": "territory",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "warm-blooded",
+        "ko": "① (동물이) 온혈의, 정온의",
+        "ex": "Birds and mammals are {{BLANK}}: they keep a constant body temperature.",
+        "tr": "새와 포유류는 온혈이야. 체온을 일정하게 유지해.",
+        "c": "반대는 cold-blooded(냉혈의, 변온의).",
+        "ipa": "ˌwɔrmˈblʌdɪd",
+        "pos": "adj.",
+        "word": "warm-blooded",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "young",
+        "ko": "① (동물의) 새끼들",
+        "ex": "A mother bear will fight to protect her {{BLANK}}.",
+        "tr": "어미 곰은 새끼들을 지키려고 싸워.",
+        "c": "꼴은 그대로 두고 복수로 쓴다. s를 붙이지 않는다.",
+        "ipa": "jʌŋ",
+        "pos": "n.",
+        "word": "young",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "algae",
+        "ko": "① 조류, 말류",
+        "ex": "Seaweeds are large {{BLANK}} that grow in the sea.",
+        "tr": "해초는 바다에서 자라는 큰 조류야.",
+        "c": "물속에 사는 조류(藻類)다. 새(鳥類)가 아니다.",
+        "ipa": "ˈældʒi",
+        "pos": "n.",
+        "word": "algae",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 2,
+    "name": "생물학 / 생태·환경",
+    "words": [
+      {
+        "en": "amphibian",
+        "ko": "① 양서류",
+        "ex": "A frog is an {{BLANK}}: it lives both in water and on land.",
+        "tr": "개구리는 양서류야. 물에서도 살고 땅에서도 살아.",
+        "c": "amphi-(양쪽)+bio(삶).",
+        "ipa": "æmˈfɪbiən",
+        "pos": "n.",
+        "word": "amphibian",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "analogous",
+        "ko": "① 유사한, 비슷한",
+        "ex": "A bird's wing is {{BLANK}} to an insect's wing.",
+        "tr": "새의 날개는 곤충의 날개와 비슷해.",
+        "c": "analogous to ~. 기능은 닮고 기원은 다를 때 쓴다. 명사는 analogy.",
+        "ipa": "əˈnæləɡəs",
+        "pos": "adj.",
+        "word": "analogous",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "moisture",
+        "ko": "① 수분, 습기",
+        "ex": "Desert plants store {{BLANK}} in their thick leaves.",
+        "tr": "사막 식물은 두꺼운 잎에 수분을 저장해.",
+        "c": "형용사는 moist(촉촉한).",
+        "ipa": "ˈmɔɪstʃɚ",
+        "pos": "n.",
+        "word": "moisture",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "ozone",
+        "ko": "① 오존",
+        "ex": "The {{BLANK}} layer protects life on Earth from the Sun's harmful rays.",
+        "tr": "오존층은 태양의 해로운 광선에서 지구 생명을 지켜 줘.",
+        "c": "산소 원자 셋으로 된 기체(O₃)다.",
+        "ipa": "ˈoʊzoʊn",
+        "pos": "n.",
+        "word": "ozone",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "pest",
+        "ko": "① 해충, 유해 동물",
+        "ex": "Some farmers use helpful insects to control crop {{BLANK}}s.",
+        "tr": "어떤 농부는 이로운 곤충을 써서 작물 해충을 막아.",
+        "c": "작물·사람에게 해를 주는 벌레나 동물. pest control은 방제.",
+        "ipa": "pɛst",
+        "pos": "n.",
+        "word": "pest",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "pesticide",
+        "ko": "① 살충제, 농약",
+        "ex": "Farmers spray {{BLANK}}s to protect their crops from insects.",
+        "tr": "농부들은 곤충에게서 작물을 지키려고 살충제를 뿌려.",
+        "c": "pest+-cide(죽이는 것). 제초제는 herbicide.",
+        "ipa": "ˈpɛstɪˌsaɪd",
+        "pos": "n.",
+        "word": "pesticide",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "pollutant",
+        "ko": "① 오염 물질, 오염원",
+        "ex": "Car engines release {{BLANK}}s into the air.",
+        "tr": "자동차 엔진은 오염 물질을 공기 중에 내보내.",
+        "c": "pollution은 오염, pollutant는 오염시키는 물질이다.",
+        "ipa": "pəˈlutənt",
+        "pos": "n.",
+        "word": "pollutant",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "population",
+        "ko": "① (생물) 개체군, 개체 수",
+        "ex": "The deer {{BLANK}} grew quickly after the wolves disappeared.",
+        "tr": "늑대가 사라지자 사슴 개체 수가 빠르게 늘었어.",
+        "c": "한 지역에 사는 같은 종의 무리나 그 수다.",
+        "ipa": "ˌpɑpjəˈleɪʃən",
+        "pos": "n.",
+        "word": "population",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "rainforest",
+        "ko": "① 열대 우림",
+        "ex": "A tropical {{BLANK}} gets heavy rain all year and never freezes.",
+        "tr": "열대 우림은 1년 내내 비가 많이 오고 얼지 않아.",
+        "c": "rain forest로 띄어 쓰기도 한다.",
+        "ipa": "ˈreɪnˌfɔrɪst",
+        "pos": "n.",
+        "word": "rainforest",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "range",
+        "ko": "① (생물의) 분포 범위, 서식 범위",
+        "ex": "The polar bear's {{BLANK}} is shrinking as sea ice melts.",
+        "tr": "바다 얼음이 녹으면서 북극곰의 서식 범위가 줄고 있어.",
+        "c": "한 종이 사는 지역 전체를 가리킨다.",
+        "ipa": "reɪndʒ",
+        "pos": "n.",
+        "word": "range",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 3,
+    "name": "생태·환경 / 지구과학·지질",
+    "words": [
+      {
+        "en": "reef",
+        "ko": "① 암초, 산호초",
+        "ex": "Ships can sink on rocky {{BLANK}}s hidden just below the surface.",
+        "tr": "배는 수면 바로 아래 숨은 암초에 걸려 가라앉을 수 있어.",
+        "c": "coral reef(산호초)로 가장 많이 쓴다.",
+        "ipa": "rif",
+        "pos": "n.",
+        "word": "reef",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "support",
+        "ko": "① (환경이 생명을) 살 수 있게 하다, 부양하다",
+        "ex": "The desert can {{BLANK}} only a few kinds of plants.",
+        "tr": "사막에서는 몇 종류의 식물만 살 수 있어.",
+        "c": "이 뜻에서는 sustain과 바꿔 쓸 수 있다. support life로 자주 쓴다.",
+        "ipa": "səˈpɔrt",
+        "pos": "v.",
+        "word": "support",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "lava",
+        "ko": "① 용암",
+        "ex": "When {{BLANK}} cools, it hardens into dark rock.",
+        "tr": "용암은 식으면 검은 돌로 굳어.",
+        "c": "땅속에 있을 때는 magma, 밖으로 나오면 lava.",
+        "ipa": "ˈlɑvə",
+        "pos": "n.",
+        "word": "lava",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "limestone",
+        "ko": "① 석회암",
+        "ex": "Many caves form when water slowly dissolves {{BLANK}}.",
+        "tr": "많은 동굴은 물이 석회암을 천천히 녹여서 생겨.",
+        "c": "lime(석회)+stone.",
+        "ipa": "ˈlaɪmˌstoʊn",
+        "pos": "n.",
+        "word": "limestone",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "plate",
+        "ko": "① (지질) 판, 지각판",
+        "ex": "Earthquakes often happen where two {{BLANK}}s meet.",
+        "tr": "지진은 두 판이 만나는 곳에서 자주 일어나.",
+        "c": "tectonic plate의 준말. 판 구조론은 plate tectonics.",
+        "ipa": "pleɪt",
+        "pos": "n.",
+        "word": "plate",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "seabed",
+        "ko": "① 해저, 바다 밑바닥",
+        "ex": "Some fish lie flat on the {{BLANK}} and wait for prey.",
+        "tr": "어떤 물고기는 해저에 납작 엎드려 먹이를 기다려.",
+        "c": "bed는 '바닥'. 강바닥은 riverbed.",
+        "ipa": "ˈsiˌbɛd",
+        "pos": "n.",
+        "word": "seabed",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "seafloor",
+        "ko": "① 해저",
+        "ex": "New {{BLANK}} forms where two plates move apart.",
+        "tr": "두 판이 벌어지는 곳에서 새 해저가 생겨.",
+        "c": "sea floor로 띄어 쓰기도 한다. seafloor spreading은 해저 확장.",
+        "ipa": "ˈsiˌflɔr",
+        "pos": "n.",
+        "word": "seafloor",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "settle",
+        "ko": "① (알갱이가) 가라앉다, 쌓이다",
+        "ex": "Sand and mud slowly {{BLANK}} to the bottom of the lake.",
+        "tr": "모래와 진흙은 호수 바닥으로 천천히 가라앉아.",
+        "c": "그렇게 가라앉아 쌓인 것이 sediment(퇴적물)다.",
+        "ipa": "ˈsɛtəl",
+        "pos": "v.",
+        "word": "settle",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "shoreline",
+        "ko": "① 해안선, 물가",
+        "ex": "Rising sea levels are moving the {{BLANK}} farther inland.",
+        "tr": "해수면이 올라가면서 해안선이 내륙 쪽으로 옮겨 가고 있어.",
+        "c": "이 문장에는 coastline도 들어간다. shoreline은 호숫가에도 쓴다.",
+        "ipa": "ˈʃɔrˌlaɪn",
+        "pos": "n.",
+        "word": "shoreline",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "vapor",
+        "ko": "① 증기, 수증기",
+        "ex": "Water {{BLANK}} rises, cools, and forms clouds.",
+        "tr": "수증기는 올라가서 식으면 구름이 돼.",
+        "c": "영국식 철자는 vapour. 동사는 evaporate(증발하다).",
+        "ipa": "ˈveɪpɚ",
+        "pos": "n.",
+        "word": "vapor",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 4,
+    "name": "천문·우주 / 물리·화학 외 / 사회학·인류학 / 역사·고고학",
+    "words": [
+      {
+        "en": "planetary",
+        "ko": "① 행성의",
+        "ex": "Our {{BLANK}} system has eight planets.",
+        "tr": "우리 행성계에는 행성이 여덟 개 있어.",
+        "c": "planet의 형용사. planetary system은 행성계.",
+        "ipa": "ˈplænəˌtɛri",
+        "pos": "adj.",
+        "word": "planetary",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "helium",
+        "ko": "① 헬륨",
+        "ex": "The Sun is made mostly of hydrogen and {{BLANK}}.",
+        "tr": "태양은 대부분 수소와 헬륨으로 돼 있어.",
+        "c": "그리스어 helios(태양)에서 온 이름. '힐리엄'으로 읽는다.",
+        "ipa": "ˈhiliəm",
+        "pos": "n.",
+        "word": "helium",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "particle",
+        "ko": "① 입자, 미립자",
+        "ex": "Dust {{BLANK}}s in the air scatter sunlight.",
+        "tr": "공기 중의 먼지 입자가 햇빛을 흩어지게 해.",
+        "c": "전자처럼 원자보다 작은 것도 particle이라 한다.",
+        "ipa": "ˈpɑrtɪkəl",
+        "pos": "n.",
+        "word": "particle",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "present",
+        "ko": "① (물질·성분이) 들어 있는, 존재하는",
+        "ex": "Almost no oxygen was {{BLANK}} in Earth's early atmosphere.",
+        "tr": "초기 지구 대기에는 산소가 거의 없었어.",
+        "c": "be present in ~(~에 들어 있다). 형용사는 앞 강세.",
+        "ipa": "ˈprɛzənt",
+        "pos": "adj.",
+        "word": "present",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "long-term memory",
+        "ko": "① 장기 기억",
+        "ex": "Facts you review often move into {{BLANK}}.",
+        "tr": "자주 복습한 사실은 장기 기억으로 넘어가.",
+        "c": "",
+        "ipa": "ˈlɔŋˌtɝm ˈmɛmɚi",
+        "pos": "n.",
+        "word": "long-term memory",
+        "si": 1,
+        "sn": 1,
+        "meow": "복습 안 하면 내 얼굴만 장기 기억에 남는다고양."
+      },
+      {
+        "en": "short-term memory",
+        "ko": "① 단기 기억",
+        "ex": "{{BLANK}} holds only a few items for several seconds.",
+        "tr": "단기 기억은 몇 가지만 몇 초 동안 담아 둬.",
+        "c": "",
+        "ipa": "ˈʃɔrtˌtɝm ˈmɛmɚi",
+        "pos": "n.",
+        "word": "short-term memory",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "trial and error",
+        "ko": "① 시행착오",
+        "ex": "Rats learned the way through the maze by {{BLANK}}.",
+        "tr": "쥐들은 시행착오로 미로를 빠져나가는 길을 익혔어.",
+        "c": "by·through trial and error로 쓴다.",
+        "ipa": "ˈtraɪəl ən ˈɛrɚ",
+        "pos": "n.",
+        "word": "trial and error",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "anthropologist",
+        "ko": "① 인류학자",
+        "ex": "An {{BLANK}} may live in a village for years to study its culture.",
+        "tr": "인류학자는 문화를 연구하려고 한 마을에서 몇 년씩 살기도 해.",
+        "c": "anthropo-(인간)+-logist(학자).",
+        "ipa": "ˌænθrəˈpɑlədʒɪst",
+        "pos": "n.",
+        "word": "anthropologist",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "primitive",
+        "ko": "① 원시의, 원시적인, 초기 단계의",
+        "ex": "The first {{BLANK}} tools were simply stones with a sharp edge.",
+        "tr": "최초의 원시 도구는 날이 선 돌일 뿐이었어.",
+        "c": "사람·문화에 쓰면 얕보는 말이 될 수 있다.",
+        "ipa": "ˈprɪmətɪv",
+        "pos": "adj.",
+        "word": "primitive",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "renaissance",
+        "ko": "① 부흥; (the R-) 르네상스",
+        "ex": "In the 1400s, Italy saw a {{BLANK}} of art and learning.",
+        "tr": "1400년대에 이탈리아에서는 예술과 학문의 부흥이 일어났어.",
+        "c": "그 시대는 대문자로 the Renaissance. 프랑스어로 '다시 태어남'.",
+        "ipa": "ˈrɛnəˌsɑns",
+        "pos": "n.",
+        "word": "renaissance",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "rise",
+        "ko": "① (역사) 발흥, 대두",
+        "ex": "The {{BLANK}} of cities created a need for written records.",
+        "tr": "도시가 떠오르면서 문자 기록이 필요해졌어.",
+        "c": "the rise of ~로 쓴다. give rise to는 '~을 낳다'.",
+        "ipa": "raɪz",
+        "pos": "n.",
+        "word": "rise",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "ruins",
+        "ko": "① 폐허, 유적",
+        "ex": "Tourists walk through the {{BLANK}} of the ancient city of Pompeii.",
+        "tr": "관광객들은 고대 도시 폼페이의 유적을 걸어서 둘러봐.",
+        "c": "'유적'의 뜻일 때는 복수로 쓴다.",
+        "ipa": "ˈruɪnz",
+        "pos": "n.",
+        "word": "ruins",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "tomb",
+        "ko": "① 무덤, 묘",
+        "ex": "The king was buried in a stone {{BLANK}} filled with gold.",
+        "tr": "왕은 금으로 가득한 돌무덤에 묻혔어.",
+        "c": "b는 소리 내지 않는다. 땅을 판 무덤은 grave.",
+        "ipa": "tum",
+        "pos": "n.",
+        "word": "tomb",
+        "si": 1,
+        "sn": 1,
+        "meow": "툼브라고 읽으면 무덤까지 따라가서 놀린다고양."
+      },
+      {
+        "en": "advent",
+        "ko": "① 도래, 출현",
+        "ex": "Before the {{BLANK}} of writing, history was passed down by word of mouth.",
+        "tr": "문자가 나오기 전에는 역사가 입에서 입으로 전해졌어.",
+        "c": "the advent of ~로 쓴다.",
+        "ipa": "ˈædˌvɛnt",
+        "pos": "n.",
+        "word": "advent",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 5,
+    "name": "미술·건축 / 음악·문학·연극 외 / 교육·캠퍼스 생활 / 연구·논증",
+    "words": [
+      {
+        "en": "movement",
+        "ko": "② (음악) 악장",
+        "ex": "The second {{BLANK}} of a symphony is usually slow.",
+        "tr": "교향곡의 2악장은 보통 느려.",
+        "c": "교향곡·협주곡을 이루는 한 부분이다.",
+        "ipa": "ˈmuvmənt",
+        "pos": "n.",
+        "word": "movement",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "piece",
+        "ko": "① (예술) 작품 (한 점·한 곡)",
+        "ex": "The orchestra opened the concert with a short {{BLANK}} by Mozart.",
+        "tr": "오케스트라는 모차르트의 짧은 곡으로 연주회를 열었어.",
+        "c": "그림·조각 한 점도 piece다. a piece of music으로도 쓴다.",
+        "ipa": "pis",
+        "pos": "n.",
+        "word": "piece",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "pottery",
+        "ko": "② 도예, 도자기 만들기",
+        "ex": "She is taking a {{BLANK}} class to learn how to shape clay.",
+        "tr": "걔는 흙 빚는 법을 배우려고 도예 수업을 들어.",
+        "c": "그릇만이 아니라 만드는 일도 pottery다.",
+        "ipa": "ˈpɑtɚi",
+        "pos": "n.",
+        "word": "pottery",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "school",
+        "ko": "① (학문·예술) 학파, 화파",
+        "ex": "Both painters belonged to the same {{BLANK}} of landscape painting.",
+        "tr": "두 화가는 같은 풍경화 화파에 속했어.",
+        "c": "생각·화풍을 함께하는 무리. a school of thought는 학파.",
+        "ipa": "skul",
+        "pos": "n.",
+        "word": "school",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "sculptor",
+        "ko": "① 조각가",
+        "ex": "The {{BLANK}} carved the figure from a single block of marble.",
+        "tr": "조각가는 대리석 한 덩어리를 깎아 그 상을 만들었어.",
+        "c": "작품은 sculpture. 끝이 -or다.",
+        "ipa": "ˈskʌlptɚ",
+        "pos": "n.",
+        "word": "sculptor",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "lyric",
+        "ko": "① 노랫말; 서정시",
+        "ex": "He wrote the music, and his sister wrote the {{BLANK}}s.",
+        "tr": "걔가 곡을 쓰고 걔 누나가 가사를 썼어.",
+        "c": "노랫말은 보통 복수 lyrics. lyric poetry는 서정시.",
+        "ipa": "ˈlɪrɪk",
+        "pos": "n.",
+        "word": "lyric",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "narrator",
+        "ko": "① 서술자, 화자",
+        "ex": "The story's {{BLANK}} is a young boy who speaks as \"I.\"",
+        "tr": "그 이야기의 서술자는 '나'로 말하는 어린 소년이야.",
+        "c": "동사는 narrate. a first-person narrator는 1인칭 서술자.",
+        "ipa": "ˈnɛreɪtɚ",
+        "pos": "n.",
+        "word": "narrator",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "raw material",
+        "ko": "① 원자재, 원료",
+        "ex": "The colonies supplied cotton as a {{BLANK}} for British factories.",
+        "tr": "식민지들은 영국 공장에 원료로 목화를 댔어.",
+        "c": "raw는 '가공하지 않은'.",
+        "ipa": "rɔ məˈtɪriəl",
+        "pos": "n.",
+        "word": "raw material",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 6,
+    "name": "미술·건축 / 음악·문학·연극 외 / 교육·캠퍼스 생활 / 연구·논증",
+    "words": [
+      {
+        "en": "aid",
+        "ko": "① (대학) 학자금 지원",
+        "ex": "Over half the students here receive financial {{BLANK}}.",
+        "tr": "여기 학생의 절반 넘게 학자금 지원을 받아.",
+        "c": "financial aid는 장학금·대출·근로 지원을 합친 말이다.",
+        "ipa": "eɪd",
+        "pos": "n.",
+        "word": "aid",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "dean",
+        "ko": "① 학장, 학생처장",
+        "ex": "You need the {{BLANK}}'s permission to take more than six courses.",
+        "tr": "여섯 과목 넘게 들으려면 학장의 허가가 필요해.",
+        "c": "dean's list는 성적 우수자 명단.",
+        "ipa": "din",
+        "pos": "n.",
+        "word": "dean",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "dormitory",
+        "ko": "① 기숙사",
+        "ex": "The {{BLANK}} closes over winter break, so students must move out.",
+        "tr": "겨울방학에는 기숙사가 문을 닫아서 학생들이 나가야 해.",
+        "c": "말할 때는 줄여서 dorm.",
+        "ipa": "ˈdɔrməˌtɔri",
+        "pos": "n.",
+        "word": "dormitory",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "drop",
+        "ko": "① (대학) 수강을 취소하다",
+        "ex": "You can {{BLANK}} a course without penalty during the first two weeks.",
+        "tr": "첫 2주 동안은 불이익 없이 수강을 취소할 수 있어.",
+        "c": "add/drop period는 수강 정정 기간.",
+        "ipa": "drɑp",
+        "pos": "v.",
+        "word": "drop",
+        "si": 1,
+        "sn": 1,
+        "meow": "수강은 drop해도 보카고양은 drop 못 한다고양."
+      },
+      {
+        "en": "enrollment",
+        "ko": "① 등록, 등록자 수",
+        "ex": "{{BLANK}} in this seminar is limited to fifteen students.",
+        "tr": "이 세미나는 등록 인원이 열다섯 명으로 제한돼.",
+        "c": "동사는 enroll. 영국식 철자는 enrolment.",
+        "ipa": "ɪnˈroʊlmənt",
+        "pos": "n.",
+        "word": "enrollment",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "refer",
+        "ko": "① (~ to) 가리키다, 언급하다",
+        "ex": "The term \"fossil fuels\" {{BLANK}}s to coal, oil, and natural gas.",
+        "tr": "'화석 연료'라는 말은 석탄, 석유, 천연가스를 가리켜.",
+        "c": "꼭 to와 함께 쓴다. refer-referred로 r을 겹친다.",
+        "ipa": "rɪˈfɝ",
+        "pos": "v.",
+        "word": "refer",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "statistics",
+        "ko": "① 통계, 통계 자료",
+        "ex": "Government {{BLANK}} show that the country's population is getting older.",
+        "tr": "정부 통계를 보면 그 나라 인구는 고령화되고 있어.",
+        "c": "'통계 자료'는 복수로 받는다. 학문 '통계학'은 단수.",
+        "ipa": "stəˈtɪstɪks",
+        "pos": "n.",
+        "word": "statistics",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "ambiguous",
+        "ko": "① 모호한, 여러 뜻으로 읽히는",
+        "ex": "The results were {{BLANK}} and could support either theory.",
+        "tr": "결과가 모호해서 어느 이론도 뒷받침할 수 있었어.",
+        "c": "ambi-(양쪽). vague는 뜻이 흐릿한 것이다.",
+        "ipa": "æmˈbɪɡjuəs",
+        "pos": "adj.",
+        "word": "ambiguous",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 7,
+    "name": "기술·공학 / 일반",
+    "words": [
+      {
+        "en": "plow",
+        "ko": "① 쟁기",
+        "ex": "Farmers used a heavy iron {{BLANK}} to turn the hard soil.",
+        "tr": "농부들은 무거운 쇠 쟁기로 단단한 흙을 갈아엎었어.",
+        "c": "영국식 철자는 plough. 동사로도 쓴다.",
+        "ipa": "plaʊ",
+        "pos": "n.",
+        "word": "plow",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "baffle",
+        "ko": "① 당혹하게 하다, 이해할 수 없게 하다",
+        "ex": "The sudden loss of so many bees still {{BLANK}}s scientists.",
+        "tr": "벌이 그렇게 많이 갑자기 사라진 건 지금도 과학자들을 당혹하게 해.",
+        "c": "이 뜻에서는 puzzle과 바꿔 쓸 수 있다.",
+        "ipa": "ˈbæfəl",
+        "pos": "v.",
+        "word": "baffle",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "commonplace",
+        "ko": "① 아주 흔한",
+        "ex": "Laptops are now {{BLANK}} in college classrooms.",
+        "tr": "이제 대학 강의실에서 노트북은 아주 흔해.",
+        "c": "common+place. 한 단어로 붙여 쓴다.",
+        "ipa": "ˈkɑmənˌpleɪs",
+        "pos": "adj.",
+        "word": "commonplace",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "conducive",
+        "ko": "① ~에 도움이 되는",
+        "ex": "A quiet library is more {{BLANK}} to studying than a noisy room.",
+        "tr": "조용한 도서관이 시끄러운 방보다 공부에 더 도움이 돼.",
+        "c": "대개 conducive to ~ 꼴로 쓴다.",
+        "ipa": "kənˈdusɪv",
+        "pos": "adj.",
+        "word": "conducive",
+        "si": 1,
+        "sn": 1,
+        "meow": "침대는 공부에 도움이 안 된다고양. 당장 일어나라고양!"
+      },
+      {
+        "en": "conspicuous",
+        "ko": "① 눈에 잘 띄는",
+        "ex": "Bright feathers make male birds {{BLANK}} to predators.",
+        "tr": "밝은 깃털 때문에 수컷 새는 포식자 눈에 잘 띄어.",
+        "c": "반대말은 inconspicuous.",
+        "ipa": "kənˈspɪkjuəs",
+        "pos": "adj.",
+        "word": "conspicuous",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "conversely",
+        "ko": "① 거꾸로, 반대로",
+        "ex": "Plants grow fast in warm weather; {{BLANK}}, cold slows them down.",
+        "tr": "식물은 따뜻한 날씨에 빨리 자라. 반대로 추위는 성장을 늦춰.",
+        "c": "앞 내용과 반대되는 경우를 꺼낼 때 쓴다.",
+        "ipa": "kənˈvɝsli",
+        "pos": "adv.",
+        "word": "conversely",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "culminate",
+        "ko": "① ~으로 끝나다, 절정에 이르다",
+        "ex": "Years of protest {{BLANK}}d in a new voting law.",
+        "tr": "여러 해에 걸친 시위는 마침내 새 투표법으로 끝났어.",
+        "c": "주로 culminate in ~ 꼴로 쓴다.",
+        "ipa": "ˈkʌlməˌneɪt",
+        "pos": "v.",
+        "word": "culminate",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "cumbersome",
+        "ko": "① 다루기 불편한, 번거로운",
+        "ex": "Early cameras were heavy and {{BLANK}} to carry around.",
+        "tr": "초기 카메라는 무겁고 들고 다니기 번거로웠어.",
+        "c": "",
+        "ipa": "ˈkʌmbɚsəm",
+        "pos": "adj.",
+        "word": "cumbersome",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 8,
+    "name": "기술·공학 / 일반",
+    "words": [
+      {
+        "en": "curtail",
+        "ko": "① 줄이다, 단축하다",
+        "ex": "The city {{BLANK}}ed water use during the long dry season.",
+        "tr": "시는 긴 건기 동안 물 사용을 줄였어.",
+        "c": "reduce의 격식어. 동의어 문제에 나온다.",
+        "ipa": "kɚˈteɪl",
+        "pos": "v.",
+        "word": "curtail",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "detrimental",
+        "ko": "① 해로운",
+        "ex": "Too little sleep has a {{BLANK}} effect on memory.",
+        "tr": "잠이 너무 모자라면 기억력에 해로운 영향을 줘.",
+        "c": "harmful의 격식어. 어휘 문제 단골이다.",
+        "ipa": "ˌdɛtrəˈmɛntəl",
+        "pos": "adj.",
+        "word": "detrimental",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "diffuse",
+        "ko": "① 퍼지다, 확산시키다",
+        "ex": "Farming {{BLANK}}d slowly from the Middle East into Europe.",
+        "tr": "농경은 중동에서 유럽으로 천천히 퍼졌어.",
+        "c": "동사는 끝소리가 /z/. 명사는 diffusion(확산).",
+        "ipa": "dɪˈfjuz",
+        "pos": "v.",
+        "word": "diffuse",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "disperse",
+        "ko": "① 흩어지다, 퍼뜨리다",
+        "ex": "The morning mist {{BLANK}}d as the sun warmed the valley.",
+        "tr": "해가 골짜기를 데우자 아침 안개가 흩어졌어.",
+        "c": "scatter와 비슷한 말이다.",
+        "ipa": "dɪˈspɝs",
+        "pos": "v.",
+        "word": "disperse",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "disseminate",
+        "ko": "① (정보·지식을) 퍼뜨리다, 보급하다",
+        "ex": "The printing press helped {{BLANK}} new ideas across Europe.",
+        "tr": "인쇄기는 새 사상을 유럽 전역에 퍼뜨리는 데 한몫했어.",
+        "c": "",
+        "ipa": "dɪˈsɛməˌneɪt",
+        "pos": "v.",
+        "word": "disseminate",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "diverge",
+        "ko": "① 갈라지다, 달라지다",
+        "ex": "The results {{BLANK}}d sharply from what the theory predicted.",
+        "tr": "결과는 이론이 예측한 것과 크게 달랐어.",
+        "c": "diverge from ~: ~와 달라지다. 반대말은 converge.",
+        "ipa": "dɪˈvɝdʒ",
+        "pos": "v.",
+        "word": "diverge",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "dwindle",
+        "ko": "① (점점) 줄어들다",
+        "ex": "The island's bird population {{BLANK}}d after rats arrived.",
+        "tr": "쥐가 들어온 뒤 그 섬의 새 개체 수는 점점 줄었어.",
+        "c": "decrease와 비슷하다. 차츰 줄어 얼마 안 남는 느낌.",
+        "ipa": "ˈdwɪndəl",
+        "pos": "v.",
+        "word": "dwindle",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "elusive",
+        "ko": "① 찾기 어려운, 잡히지 않는",
+        "ex": "A cure for the common cold remains {{BLANK}}.",
+        "tr": "감기 치료법은 여전히 찾기 어려워.",
+        "c": "remain elusive: 여전히 못 찾다(못 이루다).",
+        "ipa": "ɪˈlusɪv",
+        "pos": "adj.",
+        "word": "elusive",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 1,
+    "name": "생물학 / 생물학 / 생태·환경 외",
+    "scope": "fable",
+    "words": [
+      {
+        "en": "organ",
+        "ko": "① (몸속) 장기, 기관",
+        "ex": "The skin is the largest {{BLANK}} of the human body.",
+        "tr": "피부는 사람 몸에서 가장 큰 기관이야.",
+        "c": "organism(생물)과 구별하자.",
+        "ipa": "ˈɔrɡən",
+        "pos": "n.",
+        "word": "organ",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 17,
+          "si": 1
+        }
+      },
+      {
+        "en": "reproduce",
+        "ko": "① 번식하다",
+        "ex": "Salmon return to the river where they were born to {{BLANK}}.",
+        "tr": "연어는 번식하려고 태어난 강으로 돌아와.",
+        "c": "re-(다시)+produce. 명사는 reproduction.",
+        "ipa": "ˌriprəˈdus",
+        "pos": "v.",
+        "word": "reproduce",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 39,
+          "si": 1
+        }
+      },
+      {
+        "en": "reproduction",
+        "ko": "① 번식, 생식",
+        "ex": "Some plants need insects for {{BLANK}}; others use the wind.",
+        "tr": "어떤 식물은 번식에 곤충이 필요하고, 어떤 식물은 바람을 이용해.",
+        "c": "sexual reproduction은 유성 생식, asexual은 무성 생식.",
+        "ipa": "ˌriprəˈdʌkʃən",
+        "pos": "n.",
+        "word": "reproduction",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 39,
+          "si": 1
+        }
+      },
+      {
+        "en": "migration",
+        "ko": "① 이주, 이동",
+        "ex": "The {{BLANK}} of people from farms to cities changed the country.",
+        "tr": "사람들이 농촌에서 도시로 이주하면서 나라가 바뀌었어.",
+        "c": "동물이 철 따라 이동하는 것에도 쓴다. 동사는 migrate.",
+        "ipa": "maɪˈɡreɪʃən",
+        "pos": "n.",
+        "word": "migration",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 39,
+          "si": 1
+        }
+      },
+      {
+        "en": "predator",
+        "ko": "① 포식자, 포식 동물",
+        "ex": "With no natural {{BLANK}}s, rabbits spread across Australia.",
+        "tr": "천적이 없어서 토끼는 호주 전역으로 퍼졌어.",
+        "c": "natural predator는 천적. 잡아먹히는 쪽은 prey.",
+        "ipa": "ˈprɛdətɚ",
+        "pos": "n.",
+        "word": "predator",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 39,
+          "si": 1
+        }
+      },
+      {
+        "en": "prey",
+        "ko": "① 먹이, 사냥감",
+        "ex": "An owl can hear its {{BLANK}} moving under the snow.",
+        "tr": "올빼미는 눈 밑에서 움직이는 먹이 소리를 들을 수 있어.",
+        "c": "여러 마리여도 prey다. pray(기도하다)와 소리가 같다.",
+        "ipa": "preɪ",
+        "pos": "n.",
+        "word": "prey",
+        "si": 1,
+        "sn": 2,
+        "meow": "이불 밑에서 움직이는 네 발가락도 다 들린다고양.",
+        "fable": {
+          "set": 39,
+          "si": 1
+        }
+      },
+      {
+        "en": "rainfall",
+        "ko": "① 강우량, 비의 양",
+        "ex": "Crops failed that year because {{BLANK}} was far below average.",
+        "tr": "그해에는 강우량이 평균보다 훨씬 적어서 농사를 망쳤어.",
+        "c": "annual rainfall은 연 강우량.",
+        "ipa": "ˈreɪnfɔl",
+        "pos": "n.",
+        "word": "rainfall",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 40,
+          "si": 1
+        }
+      },
+      {
+        "en": "sustainable",
+        "ko": "① 지속 가능한",
+        "ex": "{{BLANK}} development meets today's needs without harming future generations.",
+        "tr": "지속 가능한 개발은 미래 세대에 해를 끼치지 않고 오늘의 필요를 채워.",
+        "c": "sustain(지속하다)+-able. 명사는 sustainability.",
+        "ipa": "səˈsteɪnəbəl",
+        "pos": "adj.",
+        "word": "sustainable",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 31,
+          "si": 1
+        }
+      },
+      {
+        "en": "mineral",
+        "ko": "① 광물",
+        "ex": "Geologists identify a {{BLANK}} by its color, hardness, and crystal shape.",
+        "tr": "지질학자는 색, 굳기, 결정 모양으로 광물을 구별해.",
+        "c": "영양소 '무기질'의 뜻도 있다.",
+        "ipa": "ˈmɪnərəl",
+        "pos": "n.",
+        "word": "mineral",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 20,
+          "si": 2
+        }
+      },
+      {
+        "en": "polar",
+        "ko": "① 극지의, 남극·북극의",
+        "ex": "{{BLANK}} regions get little direct sunlight, so they stay cold.",
+        "tr": "극지방은 햇빛을 직접 받는 양이 적어서 늘 추워.",
+        "c": "pole(극)의 형용사. polar ice cap은 극지방 만년설.",
+        "ipa": "ˈpoʊlɚ",
+        "pos": "adj.",
+        "word": "polar",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 38,
+          "si": 1
+        }
+      },
+      {
+        "en": "precipitation",
+        "ko": "① 강수, 강수량",
+        "ex": "Rain, snow, and hail are all forms of {{BLANK}}.",
+        "tr": "비, 눈, 우박은 모두 강수야.",
+        "c": "rainfall은 비만 가리킨다.",
+        "ipa": "prɪˌsɪpɪˈteɪʃən",
+        "pos": "n.",
+        "word": "precipitation",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 42,
+          "si": 1
+        }
+      }
+    ]
+  },
+  {
+    "ex": 2,
+    "name": "천문·우주 / 물리·화학 외 / 사회학·인류학 / 역사·고고학 외",
+    "scope": "fable",
+    "words": [
+      {
+        "en": "gravity",
+        "ko": "① 중력",
+        "ex": "The Moon's {{BLANK}} pulls on the oceans and causes tides.",
+        "tr": "달의 중력이 바닷물을 끌어당겨 밀물과 썰물이 생겨.",
+        "c": "",
+        "ipa": "ˈɡrævəti",
+        "pos": "n.",
+        "word": "gravity",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 26,
+          "si": 1
+        }
+      },
+      {
+        "en": "molecule",
+        "ko": "① 분자",
+        "ex": "DNA is a very long {{BLANK}} shaped like a twisted ladder.",
+        "tr": "DNA는 꼬인 사다리 모양의 아주 긴 분자야.",
+        "c": "원자(atom)가 결합한 것. 형용사는 molecular.",
+        "ipa": "ˈmɑləˌkjul",
+        "pos": "n.",
+        "word": "molecule",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 34,
+          "si": 1
+        }
+      },
+      {
+        "en": "radiation",
+        "ko": "① 복사, 복사 에너지",
+        "ex": "Earth absorbs solar {{BLANK}} and gives some of it off as heat.",
+        "tr": "지구는 태양 복사를 흡수하고 일부를 열로 내보내.",
+        "c": "빛·열처럼 퍼져 나가는 에너지다.",
+        "ipa": "ˌreɪdiˈeɪʃən",
+        "pos": "n.",
+        "word": "radiation",
+        "si": 1,
+        "sn": 3,
+        "fable": {
+          "set": 29,
+          "si": 1
+        }
+      },
+      {
+        "en": "myth",
+        "ko": "① 신화",
+        "ex": "Many cultures have a creation {{BLANK}} that explains how the world began.",
+        "tr": "많은 문화에 세상이 어떻게 시작됐는지 설명하는 창조 신화가 있어.",
+        "c": "",
+        "ipa": "mɪθ",
+        "pos": "n.",
+        "word": "myth",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 29,
+          "si": 1
+        }
+      },
+      {
+        "en": "ritual",
+        "ko": "① 의식, 의례",
+        "ex": "The dance was part of a religious {{BLANK}} to bring rain.",
+        "tr": "그 춤은 비를 부르는 종교 의식의 일부였어.",
+        "c": "정해진 순서로 되풀이하는 의례. 형용사로도 쓴다.",
+        "ipa": "ˈrɪtʃuəl",
+        "pos": "n.",
+        "word": "ritual",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 31,
+          "si": 1
+        }
+      },
+      {
+        "en": "revolutionary",
+        "ko": "① 혁명적인, 혁명의",
+        "ex": "The idea that Earth moves around the Sun was {{BLANK}} in the 1500s.",
+        "tr": "지구가 태양 둘레를 돈다는 생각은 1500년대에 혁명적이었어.",
+        "c": "the Revolutionary War는 미국 독립 전쟁.",
+        "ipa": "ˌrɛvəˈluʃənɛri",
+        "pos": "adj.",
+        "word": "revolutionary",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 32,
+          "si": 1
+        }
+      },
+      {
+        "en": "productivity",
+        "ko": "① 생산성, 생산력",
+        "ex": "New farm machines greatly increased agricultural {{BLANK}}.",
+        "tr": "새 농기계가 농업 생산성을 크게 높였어.",
+        "c": "생태학에서는 생태계가 유기물을 만들어 내는 양.",
+        "ipa": "ˌproʊdʌkˈtɪvəti",
+        "pos": "n.",
+        "word": "productivity",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 41,
+          "si": 1
+        }
+      },
+      {
+        "en": "oral",
+        "ko": "① 구두의, 말로 하는",
+        "ex": "The poem was passed down in {{BLANK}} form long before it was written.",
+        "tr": "그 시는 글로 적히기 오래전부터 말로 전해 내려왔어.",
+        "c": "oral tradition(구전), oral history(구술사)로 자주 쓴다.",
+        "ipa": "ˈɔrəl",
+        "pos": "adj.",
+        "word": "oral",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 48,
+          "si": 1
+        }
+      },
+      {
+        "en": "curriculum",
+        "ko": "① 교육 과정",
+        "ex": "Two science courses are part of the core {{BLANK}} for all majors.",
+        "tr": "과학 과목 둘은 모든 전공의 필수 교육 과정에 들어가.",
+        "c": "복수형은 curricula.",
+        "ipa": "kəˈrɪkjələm",
+        "pos": "n.",
+        "word": "curriculum",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 26,
+          "si": 1
+        }
+      },
+      {
+        "en": "nonetheless",
+        "ko": "① 그럼에도 불구하고",
+        "ex": "The experiment failed. {{BLANK}}, the team learned a great deal from it.",
+        "tr": "실험은 실패했어. 그럼에도 연구진은 거기서 많은 걸 배웠어.",
+        "c": "nevertheless와 같은 뜻. 한 단어로 붙여 쓴다.",
+        "ipa": "ˌnʌnðəˈlɛs",
+        "pos": "adv.",
+        "word": "nonetheless",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 30,
+          "si": 1
+        }
+      },
+      {
+        "en": "systematic",
+        "ko": "① 체계적인, 조직적인",
+        "ex": "The survey was not random but {{BLANK}}: every tenth house was chosen.",
+        "tr": "그 조사는 무작위가 아니라 체계적이었어. 열 번째 집마다 골랐거든.",
+        "c": "system의 형용사.",
+        "ipa": "ˌsɪstəˈmætɪk",
+        "pos": "adj.",
+        "word": "systematic",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 42,
+          "si": 1
+        }
+      },
+      {
+        "en": "valid",
+        "ko": "① 유효한, 타당한",
+        "ex": "The conclusion is not {{BLANK}} because the sample was too small.",
+        "tr": "표본이 너무 작아서 그 결론은 타당하지 않아.",
+        "c": "이 문장에는 sound도 들어간다. 반대말은 invalid.",
+        "ipa": "ˈvælɪd",
+        "pos": "adj.",
+        "word": "valid",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 48,
+          "si": 1
+        }
+      },
+      {
+        "en": "compensate",
+        "ko": "① (부족을) 메우다, 보완하다",
+        "ex": "Owls {{BLANK}} for the dim light with very large eyes.",
+        "tr": "올빼미는 아주 큰 눈으로 어두운 빛을 보완해.",
+        "c": "compensate for ~ 꼴로 쓴다.",
+        "ipa": "ˈkɑmpənˌseɪt",
+        "pos": "v.",
+        "word": "compensate",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 40,
+          "si": 2
+        }
+      }
+    ]
+  }
+]
