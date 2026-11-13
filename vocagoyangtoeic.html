@@ -4207,7 +4207,9 @@ $("#fableBtn").addEventListener("click",()=>{
 });
 function syncFableBtn(){const b=$("#fableBtn");if(!b)return;b.innerHTML=state.fableOff?"FABLE 뜻<br>빼는 중":"FABLE 뜻<br>포함";
   b.setAttribute("aria-pressed",String(state.fableOff));b.setAttribute("aria-label",state.fableOff?"FABLE에 있는 뜻 빼는 중":"FABLE 뜻까지 전부 보는 중");
-  b.style.borderColor=state.fableOff?"var(--gold)":"var(--line)";b.style.color=state.fableOff?"var(--gold)":"#fff";}
+  b.style.borderColor=state.fableOff?"var(--gold)":"var(--line)";b.style.color=state.fableOff?"var(--gold)":"#fff";
+  /* FABLE과 같은 뜻 연습이 없는 책(GRE)은 단추를 숨긴다. 숨겨도 visEx는 그대로라 보이는 연습이 같다. */
+  if(!DATA.some(L=>(L.exercises||[]).some(e=>e.scope==='fable')))b.style.display="none";}
 syncFableBtn();
 /* ===== ending (100%) ===== */
 /* 퍼펙트 클리어(오답 0·첫 시도 100%): 금빛 광선 위로 고양고양이가 커지며 포효, 2.2초 뒤 또는 탭으로 닫힘 */
