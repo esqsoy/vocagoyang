@@ -34,10 +34,11 @@ for(const file of files){
  const meaningQuery=korean.word.meaning.match(/[가-힣]{2,}/)[0];
  assert(includes(find(h,meaningQuery),korean),'Korean meaning search finds the source card');
  const phrase=all.find(item=>/\s/.test(item.word.term)),hyphen=all.find(item=>/-/.test(item.word.term));
- assert(phrase&&hyphen,'Real data supplies both spaced and hyphenated expressions');
- assert(includes(find(h,phrase.word.term.replace(/\s/g,'')),phrase),'An expression can be found without its spaces');
- assert(includes(find(h,hyphen.word.term.replace(/-/g,'')),hyphen),'A hyphenated headword can be found without hyphens');
- assert(includes(find(h,hyphen.word.term.replace(/-/g,'—')),hyphen),'A typographic dash finds the same expression');
+ // 세 교재는 띄어 쓴 표현과 하이픈 표제어를 둘 다 가진다. 시험 단어장(토익)은 띄어 쓴 표제어가 없을 수 있어 있는 것만 본다.
+ if(!/^pipeline\/exam|vocagoyang(toeic|toefl|gre)\.html$/.test(file))assert(phrase&&hyphen,'Real data supplies both spaced and hyphenated expressions');
+ if(phrase)assert(includes(find(h,phrase.word.term.replace(/\s/g,'')),phrase),'An expression can be found without its spaces');
+ if(hyphen){assert(includes(find(h,hyphen.word.term.replace(/-/g,'')),hyphen),'A hyphenated headword can be found without hyphens');
+ assert(includes(find(h,hyphen.word.term.replace(/-/g,'—')),hyphen),'A typographic dash finds the same expression');}
 
  // Select a real short headword that is also part of another headword, so the
  // result order checks useful disambiguation rather than arbitrary fixtures.

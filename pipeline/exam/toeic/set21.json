@@ -1,0 +1,928 @@
+[
+  {
+    "ex": 1,
+    "name": "일반",
+    "words": [
+      {
+        "en": "replicate",
+        "ko": "① (성공·결과를) 재현하다, 복제하다",
+        "ex": "The company hopes to {{BLANK}} this success in other markets.",
+        "tr": "회사는 이 성공을 다른 시장에서도 재현하고 싶어 해.",
+        "c": "이 뜻에서는 reproduce·duplicate와 바꿔 쓸 수 있다.",
+        "ipa": "ˈrɛplɪkeɪt",
+        "pos": "v.",
+        "word": "replicate",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "doubtful",
+        "ko": "① 의심스러운, 불확실한",
+        "ex": "It is {{BLANK}} whether the order will arrive by Friday.",
+        "tr": "주문품이 금요일까지 올지는 불확실해.",
+        "c": "it is doubtful whether ~ 꼴로 쓴다. 사람이 주어면 be doubtful about.",
+        "ipa": "ˈdaʊtfəl",
+        "pos": "adj.",
+        "word": "doubtful",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "hurdle",
+        "ko": "① 장애물, 난관",
+        "ex": "The new product must clear one more legal {{BLANK}} before its release.",
+        "tr": "신제품은 출시 전에 법적 난관을 하나 더 넘어야 해.",
+        "c": "원래 육상의 허들. clear·overcome a hurdle로 쓴다.",
+        "ipa": "ˈhɝdəl",
+        "pos": "n.",
+        "word": "hurdle",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "dependency",
+        "ko": "① 의존, 의존도",
+        "ex": "Too much {{BLANK}} on one customer is risky for a small firm.",
+        "tr": "작은 회사가 한 고객에게 너무 기대는 건 위험해.",
+        "c": "이 뜻에서는 dependence와 바꿔 쓸 수 있다. 뒤에 on이 온다.",
+        "ipa": "dɪˈpɛndənsi",
+        "pos": "n.",
+        "word": "dependency",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "salvage",
+        "ko": "① (손실에서) 건져 내다, 구하다",
+        "ex": "We lowered the price to {{BLANK}} the deal.",
+        "tr": "우린 그 거래를 살리려고 가격을 낮췄어.",
+        "c": "원래 난파선에서 물건을 건져 낸다는 말. 끝 철자는 -age.",
+        "ipa": "ˈsælvɪdʒ",
+        "pos": "v.",
+        "word": "salvage",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "overstate",
+        "ko": "① 과장하다",
+        "ex": "The importance of customer trust cannot be {{BLANK}}d.",
+        "tr": "고객 신뢰의 중요성은 아무리 강조해도 지나치지 않아.",
+        "c": "cannot be overstated: 과장이 될 수 없을 만큼 중요하다. 반대는 understate.",
+        "ipa": "ˌoʊvɚˈsteɪt",
+        "pos": "v.",
+        "word": "overstate",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "hypothetical",
+        "ko": "① 가상의, 가정의",
+        "ex": "In the interview, she was asked about a {{BLANK}} situation.",
+        "tr": "면접에서 걔는 가상의 상황에 대한 질문을 받았어.",
+        "c": "hypothesis(가설)의 형용사. '만약 ~라면' 하고 지어낸 상황에 쓴다.",
+        "ipa": "ˌhaɪpəˈθɛtɪkəl",
+        "pos": "adj.",
+        "word": "hypothetical",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "discrete",
+        "ko": "① 별개의, 분리된",
+        "ex": "The project is divided into four {{BLANK}} stages.",
+        "tr": "그 프로젝트는 별개의 네 단계로 나뉘어 있어.",
+        "c": "이 뜻에서는 separate·distinct와 바꿔 쓸 수 있다. discreet(신중한)과 철자를 구별하자.",
+        "ipa": "dɪˈskrit",
+        "pos": "adj.",
+        "word": "discrete",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "eventual",
+        "ko": "① 최종적인, 궁극적인",
+        "ex": "The board is confident of the project's {{BLANK}} success.",
+        "tr": "이사회는 그 프로젝트가 끝내 성공할 거라고 확신해.",
+        "c": "이 뜻에서는 ultimate와 바꿔 쓸 수 있다. '행사의'가 아니다. 부사는 eventually.",
+        "ipa": "ɪˈvɛntʃuəl",
+        "pos": "adj.",
+        "word": "eventual",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "skeptic",
+        "ko": "① 회의론자",
+        "ex": "{{BLANK}}s say the merger will not cut costs.",
+        "tr": "회의론자들은 그 합병으로 비용이 줄지 않을 거라고 말해.",
+        "c": "형용사는 skeptical. 영국 철자는 sceptic.",
+        "ipa": "ˈskɛptɪk",
+        "pos": "n.",
+        "word": "skeptic",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "rigid",
+        "ko": "① 엄격한, 융통성 없는",
+        "ex": "Employees want flexible hours, not a {{BLANK}} schedule.",
+        "tr": "직원들은 융통성 없는 일정이 아니라 탄력 근무를 원해.",
+        "c": "반대는 flexible. 이 문장에는 fixed도 들어간다.",
+        "ipa": "ˈrɪdʒɪd",
+        "pos": "adj.",
+        "word": "rigid",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 2,
+    "name": "일반",
+    "words": [
+      {
+        "en": "scratch",
+        "ko": "② (from scratch) 처음, 맨 처음",
+        "ex": "We lost the files and had to start again from {{BLANK}}.",
+        "tr": "우린 파일을 잃어버려서 맨 처음부터 다시 시작해야 했어.",
+        "c": "from scratch: 아무것도 없이 처음부터. 땅에 그은 출발선에서 온 말이다.",
+        "ipa": "skrætʃ",
+        "pos": "n.",
+        "word": "scratch",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "intrigue",
+        "ko": "① 흥미를 끌다",
+        "ex": "The buyers were {{BLANK}}d by the new design.",
+        "tr": "구매자들은 새 디자인에 흥미를 느꼈어.",
+        "c": "be intrigued by ~. 철자는 -gue. 형용사는 intriguing(흥미로운).",
+        "ipa": "ɪnˈtriɡ",
+        "pos": "v.",
+        "word": "intrigue",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "restrain",
+        "ko": "① 억제하다, 제지하다",
+        "ex": "The firm must {{BLANK}} spending until sales recover.",
+        "tr": "매출이 회복될 때까지 그 회사는 지출을 억제해야 해.",
+        "c": "이 문장에는 restrict도 들어간다. 명사는 restraint.",
+        "ipa": "rɪˈstreɪn",
+        "pos": "v.",
+        "word": "restrain",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "rightly",
+        "ko": "① 당연히, 마땅히",
+        "ex": "Customers {{BLANK}} expect a refund for damaged goods.",
+        "tr": "고객들은 파손된 상품에 대해 당연히 환불을 기대해.",
+        "c": "'그럴 만하다'는 판단이 담긴 말. and rightly so는 '그럴 만도 하다'.",
+        "ipa": "ˈraɪtli",
+        "pos": "adv.",
+        "word": "rightly",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "unrelated",
+        "ko": "① 관련 없는",
+        "ex": "Please do not use this account for expenses {{BLANK}} to work.",
+        "tr": "이 계정은 업무와 관련 없는 비용에 쓰지 마세요.",
+        "c": "unrelated to ~: ~와 관련 없는.",
+        "ipa": "ˌʌnrɪˈleɪtɪd",
+        "pos": "adj.",
+        "word": "unrelated",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "maneuver",
+        "ko": "① (능숙하게) 움직이다, 조종하다",
+        "ex": "The driver {{BLANK}}ed the truck into a narrow parking space.",
+        "tr": "기사는 트럭을 좁은 주차 칸에 능숙하게 넣었어.",
+        "c": "철자 주의: man-eu-ver. 영국 철자는 manoeuvre.",
+        "ipa": "məˈnuvɚ",
+        "pos": "v.",
+        "word": "maneuver",
+        "si": 1,
+        "sn": 1,
+        "meow": "주차는 못 해도 철자는 넣으라고양. man-eu-ver라고양!"
+      },
+      {
+        "en": "progressive",
+        "ko": "② 점진적인, 꾸준히 진행되는",
+        "ex": "The plan calls for a {{BLANK}} increase in prices over three years.",
+        "tr": "그 계획은 3년에 걸쳐 가격을 점진적으로 올리자는 거야.",
+        "c": "여기서는 '진보적인'이 아니라 '단계적으로 나아가는'. gradual과 가깝다.",
+        "ipa": "prəˈɡrɛsɪv",
+        "pos": "adj.",
+        "word": "progressive",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "plainly",
+        "ko": "① 분명히, 알기 쉽게",
+        "ex": "The exit signs must be {{BLANK}} visible from every seat.",
+        "tr": "비상구 표지는 모든 자리에서 분명히 보여야 합니다.",
+        "c": "이 뜻에서는 clearly와 바꿔 쓸 수 있다. plain(분명한, 꾸밈없는)의 부사.",
+        "ipa": "ˈpleɪnli",
+        "pos": "adv.",
+        "word": "plainly",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "equate",
+        "ko": "① 동일시하다",
+        "ex": "Many shoppers {{BLANK}} a high price with high quality.",
+        "tr": "많은 쇼핑객이 비싼 가격을 좋은 품질과 동일시해.",
+        "c": "equate A with B: A를 B와 같다고 보다. equal과 뿌리가 같다.",
+        "ipa": "ɪˈkweɪt",
+        "pos": "v.",
+        "word": "equate",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "underpin",
+        "ko": "① 뒷받침하다",
+        "ex": "Strong online sales {{BLANK}} the company's growth.",
+        "tr": "탄탄한 온라인 매출이 그 회사의 성장을 뒷받침해.",
+        "c": "과거형은 underpinned. 이 문장에는 underlie도 들어간다.",
+        "ipa": "ˌʌndɚˈpɪn",
+        "pos": "v.",
+        "word": "underpin",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "generalize",
+        "ko": "① 일반화하다",
+        "ex": "It is hard to {{BLANK}} from a survey of only ten customers.",
+        "tr": "고객 열 명만 조사한 걸로 일반화하기는 어려워.",
+        "c": "generalize from ~: ~을 근거로 일반화하다. 영국 철자는 generalise.",
+        "ipa": "ˈdʒɛnərəlaɪz",
+        "pos": "v.",
+        "word": "generalize",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "demise",
+        "ko": "① 종말, 몰락",
+        "ex": "Online shopping led to the {{BLANK}} of many small stores.",
+        "tr": "온라인 쇼핑 탓에 작은 가게가 많이 몰락했어.",
+        "c": "죽음을 점잖게 이르는 말이기도 하다. 회사·제도가 끝날 때도 쓴다.",
+        "ipa": "dɪˈmaɪz",
+        "pos": "n.",
+        "word": "demise",
+        "si": 1,
+        "sn": 1,
+        "meow": "게으름은 네 점수의 demise라고양. 난 게을러도 된다고양."
+      },
+      {
+        "en": "reluctance",
+        "ko": "① 꺼림, 주저함",
+        "ex": "The staff showed some {{BLANK}} to use the new software.",
+        "tr": "직원들은 새 소프트웨어 쓰기를 좀 꺼렸어.",
+        "c": "reluctance to + 동사. 형용사는 reluctant. 이 문장에는 hesitation도 들어간다.",
+        "ipa": "rɪˈlʌktəns",
+        "pos": "n.",
+        "word": "reluctance",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 1,
+    "name": "일반",
+    "scope": "fable",
+    "words": [
+      {
+        "en": "grasp",
+        "ko": "② 꽉 잡다, 움켜쥐다",
+        "ex": "A woman is {{BLANK}}ing the handle of her suitcase.",
+        "tr": "여자가 여행 가방 손잡이를 꽉 잡고 있어.",
+        "c": "LC 사진 묘사에 나오는 뜻. '이해하다'일 때는 생각·내용이 목적어다.",
+        "ipa": "ɡræsp",
+        "pos": "v.",
+        "word": "grasp",
+        "si": 2,
+        "sn": 2,
+        "fable": {
+          "set": 36,
+          "si": 1
+        }
+      },
+      {
+        "en": "incline",
+        "ko": "① 마음이 기울게 하다, 기울이다",
+        "ex": "I am {{BLANK}}d to accept their offer.",
+        "tr": "난 걔네 제안을 받아들이는 쪽으로 마음이 기울어.",
+        "c": "be inclined to + 동사: ~하고 싶다, ~하는 경향이 있다. 대개 이 수동 꼴로 쓴다.",
+        "ipa": "ɪnˈklaɪn",
+        "pos": "v.",
+        "word": "incline",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 44,
+          "si": 1
+        }
+      },
+      {
+        "en": "prone",
+        "ko": "① ~하기 쉬운, ~하는 경향이 있는",
+        "ex": "The old system is {{BLANK}} to errors.",
+        "tr": "그 낡은 시스템은 오류가 나기 쉬워.",
+        "c": "be prone to + 명사·동사. 주로 나쁜 일에 쓴다.",
+        "ipa": "proʊn",
+        "pos": "adj.",
+        "word": "prone",
+        "si": 1,
+        "sn": 1,
+        "meow": "고양이는 낮잠에 prone이라고양. 넌 오타에 prone이고양!",
+        "fable": {
+          "set": 45,
+          "si": 1
+        }
+      },
+      {
+        "en": "openly",
+        "ko": "① 공개적으로, 숨김없이",
+        "ex": "The director {{BLANK}} criticized the new policy at the meeting.",
+        "tr": "그 이사는 회의에서 새 방침을 공개적으로 비판했어.",
+        "c": "speak openly(터놓고 말하다)로도 자주 쓴다.",
+        "ipa": "ˈoʊpənli",
+        "pos": "adv.",
+        "word": "openly",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 33,
+          "si": 1
+        }
+      },
+      {
+        "en": "precious",
+        "ko": "① 귀중한, 소중한",
+        "ex": "The fund invests in gold and other {{BLANK}} metals.",
+        "tr": "그 펀드는 금을 비롯한 귀금속에 투자해.",
+        "c": "precious metals는 굳은 말. precious time에서는 valuable과 바꿔 쓸 수 있다.",
+        "ipa": "ˈprɛʃəs",
+        "pos": "adj.",
+        "word": "precious",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 18,
+          "si": 1
+        }
+      },
+      {
+        "en": "globe",
+        "ko": "① 지구, 세계",
+        "ex": "Our products are sold in stores around the {{BLANK}}.",
+        "tr": "우리 제품은 세계 곳곳의 매장에서 팔려.",
+        "c": "이 뜻에서는 world와 바꿔 쓸 수 있다. 형용사는 global.",
+        "ipa": "ɡloʊb",
+        "pos": "n.",
+        "word": "globe",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 29,
+          "si": 1
+        }
+      },
+      {
+        "en": "isolation",
+        "ko": "① 고립, 격리",
+        "ex": "No department can work in {{BLANK}} from the others.",
+        "tr": "어느 부서도 다른 부서와 동떨어져 일할 수는 없어.",
+        "c": "in isolation (from ~): (~와) 따로 떨어져서.",
+        "ipa": "ˌaɪsəˈleɪʃən",
+        "pos": "n.",
+        "word": "isolation",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 40,
+          "si": 1
+        }
+      },
+      {
+        "en": "deprive",
+        "ko": "① 박탈하다, 빼앗다",
+        "ex": "The delay {{BLANK}}d us of a chance to meet the client.",
+        "tr": "그 지연 때문에 우린 고객을 만날 기회를 빼앗겼어.",
+        "c": "deprive A of B: A에게서 B를 빼앗다. of를 빠뜨리지 말자.",
+        "ipa": "dɪˈpraɪv",
+        "pos": "v.",
+        "word": "deprive",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 44,
+          "si": 1
+        }
+      },
+      {
+        "en": "disastrous",
+        "ko": "① 처참한, 재앙적인",
+        "ex": "The early product launch had {{BLANK}} results for sales.",
+        "tr": "이른 제품 출시는 매출에 처참한 결과를 가져왔어.",
+        "c": "disaster에서 e가 빠진다: disastrous.",
+        "ipa": "dɪˈzæstrəs",
+        "pos": "adj.",
+        "word": "disastrous",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 41,
+          "si": 1
+        }
+      },
+      {
+        "en": "defensive",
+        "ko": "① 방어적인",
+        "ex": "All drivers must complete a {{BLANK}} driving course.",
+        "tr": "모든 운전자는 방어 운전 교육을 이수해야 합니다.",
+        "c": "defensive driving은 사고를 미리 피하는 방어 운전. 반대는 offensive.",
+        "ipa": "dɪˈfɛnsɪv",
+        "pos": "adj.",
+        "word": "defensive",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 36,
+          "si": 1
+        }
+      },
+      {
+        "en": "myth",
+        "ko": "① 근거 없는 믿음, 통념",
+        "ex": "It is a {{BLANK}} that higher prices always mean better quality.",
+        "tr": "비싸면 무조건 품질이 좋다는 건 근거 없는 믿음이야.",
+        "c": "원래는 신화. 널리 퍼졌지만 사실이 아닌 믿음에도 쓴다.",
+        "ipa": "mɪθ",
+        "pos": "n.",
+        "word": "myth",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 29,
+          "si": 2
+        }
+      },
+      {
+        "en": "unwilling",
+        "ko": "① 꺼리는, 마음이 내키지 않는",
+        "ex": "The supplier was {{BLANK}} to lower its prices.",
+        "tr": "그 공급업체는 가격을 내리려 하지 않았어.",
+        "c": "이 문장에는 reluctant도 들어간다. unwilling 쪽이 거부의 뜻이 더 세다.",
+        "ipa": "ʌnˈwɪlɪŋ",
+        "pos": "adj.",
+        "word": "unwilling",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 41,
+          "si": 1
+        }
+      },
+      {
+        "en": "presume",
+        "ko": "① 추정하다, ~일 것이라 여기다",
+        "ex": "I {{BLANK}} that you have already read the contract.",
+        "tr": "네가 계약서를 이미 읽었을 거라고 생각해.",
+        "c": "이 문장에는 suppose·believe도 들어간다. presume은 근거가 있어 그럴 것이라 볼 때 쓴다.",
+        "ipa": "prɪˈzum",
+        "pos": "v.",
+        "word": "presume",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 42,
+          "si": 1
+        }
+      },
+      {
+        "en": "exert",
+        "ko": "① (힘·영향력을) 가하다, 행사하다",
+        "ex": "Large investors {{BLANK}} great influence over the board.",
+        "tr": "대형 투자자들은 이사회에 큰 영향력을 행사해.",
+        "c": "exert influence·pressure로 쓴다. 이 문장에는 wield도 들어간다.",
+        "ipa": "ɪɡˈzɝt",
+        "pos": "v.",
+        "word": "exert",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 38,
+          "si": 1
+        }
+      }
+    ]
+  },
+  {
+    "ex": 2,
+    "name": "일반",
+    "scope": "fable",
+    "words": [
+      {
+        "en": "sheer",
+        "ko": "① 순전한, (양·크기가) 엄청난",
+        "ex": "We were surprised by the {{BLANK}} volume of orders.",
+        "tr": "우린 그 엄청난 주문량에 놀랐어.",
+        "c": "양·수가 그만큼 크다고 강조한다. 이 문장에는 large·great도 들어간다.",
+        "ipa": "ʃɪr",
+        "pos": "adj.",
+        "word": "sheer",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 34,
+          "si": 1
+        }
+      },
+      {
+        "en": "realization",
+        "ko": "① 깨달음, 인식",
+        "ex": "She came to the {{BLANK}} that the budget was too small.",
+        "tr": "걔는 예산이 너무 적다는 걸 깨닫게 됐어.",
+        "c": "come to the realization that ~: ~을 깨닫게 되다.",
+        "ipa": "ˌriələˈzeɪʃən",
+        "pos": "n.",
+        "word": "realization",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 36,
+          "si": 1
+        }
+      },
+      {
+        "en": "embody",
+        "ko": "① 구현하다, 몸소 보여 주다",
+        "ex": "Our best employees {{BLANK}} the company's values.",
+        "tr": "우리 최고의 직원들은 회사의 가치를 몸소 보여 줘.",
+        "c": "em-(안에)+body(몸): 생각·가치에 몸을 입힌다는 말. 3인칭은 embodies.",
+        "ipa": "ɪmˈbɑdi",
+        "pos": "v.",
+        "word": "embody",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 43,
+          "si": 1
+        }
+      },
+      {
+        "en": "intelligent",
+        "ko": "① 똑똑한, 지능이 있는",
+        "ex": "The {{BLANK}} system turns off the lights in empty rooms.",
+        "tr": "그 지능형 시스템은 빈 방의 불을 꺼.",
+        "c": "기계에 쓰면 '지능형'. l이 둘이고 끝은 -ent.",
+        "ipa": "ɪnˈtɛlɪdʒənt",
+        "pos": "adj.",
+        "word": "intelligent",
+        "si": 1,
+        "sn": 1,
+        "meow": "똑똑한 건 고양이라고양. 불 끄는 건 기계나 시키라고양.",
+        "fable": {
+          "set": 16,
+          "si": 1
+        }
+      },
+      {
+        "en": "slim",
+        "ko": "① (가능성이) 희박한",
+        "ex": "There is only a {{BLANK}} chance of finishing by Friday.",
+        "tr": "금요일까지 끝낼 가능성은 희박해.",
+        "c": "원래는 '날씬한'. slim chance로 쓴다. 이 문장에는 tiny도 들어간다.",
+        "ipa": "slɪm",
+        "pos": "adj.",
+        "word": "slim",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 37,
+          "si": 2
+        }
+      },
+      {
+        "en": "assertion",
+        "ko": "① 주장, 단언",
+        "ex": "The report supports his {{BLANK}} that sales will double.",
+        "tr": "그 보고서는 매출이 두 배가 될 거라는 걔의 주장을 뒷받침해.",
+        "c": "동사 assert(단언하다)의 명사. make an assertion으로 쓴다.",
+        "ipa": "əˈsɝʃən",
+        "pos": "n.",
+        "word": "assertion",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 40,
+          "si": 1
+        }
+      },
+      {
+        "en": "grave",
+        "ko": "① 심각한, 중대한",
+        "ex": "The board expressed {{BLANK}} concern about the falling sales.",
+        "tr": "이사회는 매출 하락에 심각한 우려를 표했어.",
+        "c": "serious보다 무겁고 격식 있는 말. 이 문장에는 great도 들어간다.",
+        "ipa": "ɡreɪv",
+        "pos": "adj.",
+        "word": "grave",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 17,
+          "si": 2
+        }
+      },
+      {
+        "en": "contributor",
+        "ko": "② 원인이 되는 것, 기여 요인",
+        "ex": "Late deliveries were a major {{BLANK}} to the drop in sales.",
+        "tr": "배송 지연이 매출 하락의 주된 원인이었어.",
+        "c": "a contributor to ~: ~의 한 원인. 사람 말고 일·사정에도 쓴다.",
+        "ipa": "kənˈtrɪbjətɚ",
+        "pos": "n.",
+        "word": "contributor",
+        "si": 2,
+        "sn": 2,
+        "fable": {
+          "set": 33,
+          "si": 1
+        }
+      },
+      {
+        "en": "converge",
+        "ko": "① 모여들다, 한데 모이다",
+        "ex": "Thousands of visitors {{BLANK}}d on the city for the trade fair.",
+        "tr": "무역 박람회를 보려고 방문객 수천 명이 그 도시로 모여들었어.",
+        "c": "converge on + 장소. 반대는 diverge(갈라지다).",
+        "ipa": "kənˈvɝdʒ",
+        "pos": "v.",
+        "word": "converge",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 44,
+          "si": 1
+        }
+      },
+      {
+        "en": "sadly",
+        "ko": "① 슬프게도, 유감스럽게도",
+        "ex": "{{BLANK}}, we must cancel this year's company picnic.",
+        "tr": "유감스럽게도 올해 회사 야유회는 취소해야 합니다.",
+        "c": "문장 맨 앞에서 나쁜 소식을 꺼내는 말. unfortunately보다 덜 딱딱하다.",
+        "ipa": "ˈsædli",
+        "pos": "adv.",
+        "word": "sadly",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 17,
+          "si": 2
+        }
+      },
+      {
+        "en": "imminent",
+        "ko": "① 임박한, 곧 닥칠",
+        "ex": "The release of the new phone is {{BLANK}}.",
+        "tr": "새 휴대폰 출시가 임박했어.",
+        "c": "eminent(저명한)와 철자를 구별하자. m이 둘이다.",
+        "ipa": "ˈɪmənənt",
+        "pos": "adj.",
+        "word": "imminent",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 41,
+          "si": 1
+        }
+      },
+      {
+        "en": "sympathy",
+        "ko": "① 동정, 위로",
+        "ex": "We wish to express our deepest {{BLANK}} to his family.",
+        "tr": "그분의 가족께 깊은 위로의 말씀을 전합니다.",
+        "c": "express sympathy: 위로·조의를 표하다. 조의 편지에 쓰는 말.",
+        "ipa": "ˈsɪmpəθi",
+        "pos": "n.",
+        "word": "sympathy",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 19,
+          "si": 1
+        }
+      },
+      {
+        "en": "conceal",
+        "ko": "① 숨기다, 감추다",
+        "ex": "The seller {{BLANK}}ed information about the damage to the building.",
+        "tr": "판매자는 건물 손상에 관한 정보를 숨겼어.",
+        "c": "hide보다 격식 있는 말. conceal A from B: B에게 A를 숨기다.",
+        "ipa": "kənˈsil",
+        "pos": "v.",
+        "word": "conceal",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 43,
+          "si": 1
+        }
+      },
+      {
+        "en": "prejudice",
+        "ko": "① 편견, 선입견",
+        "ex": "Every job application is reviewed without {{BLANK}}.",
+        "tr": "모든 입사 지원서는 편견 없이 검토됩니다.",
+        "c": "pre-(미리)+judge(판단하다): 알기 전에 내린 판단. 철자는 -judice.",
+        "ipa": "ˈprɛdʒədɪs",
+        "pos": "n.",
+        "word": "prejudice",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 40,
+          "si": 1
+        }
+      },
+      {
+        "en": "instinct",
+        "ko": "① 본능, 직감",
+        "ex": "Her business {{BLANK}} told her to wait for a better offer.",
+        "tr": "걔의 사업 직감이 더 나은 제안을 기다리라고 했어.",
+        "c": "배우지 않고도 아는 감. trust your instincts는 직감을 믿다.",
+        "ipa": "ˈɪnstɪŋkt",
+        "pos": "n.",
+        "word": "instinct",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 36,
+          "si": 1
+        }
+      },
+      {
+        "en": "deliberate",
+        "ko": "② 고의의, 의도적인",
+        "ex": "The error was an accident, not a {{BLANK}} act.",
+        "tr": "그 오류는 사고였지 고의적인 행동이 아니었어.",
+        "c": "형용사는 끝을 '-럿'으로 약하게, 동사(숙고하다)는 '-레잇'으로 읽는다.",
+        "ipa": "dɪˈlɪbərət",
+        "pos": "adj.",
+        "word": "deliberate",
+        "si": 2,
+        "sn": 2,
+        "fable": {
+          "set": 40,
+          "si": 1
+        }
+      },
+      {
+        "en": "endless",
+        "ko": "① 끝없는",
+        "ex": "The new software offers {{BLANK}} possibilities for design.",
+        "tr": "새 소프트웨어는 디자인에 끝없는 가능성을 열어 줘.",
+        "c": "",
+        "ipa": "ˈɛndləs",
+        "pos": "adj.",
+        "word": "endless",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 44,
+          "si": 1
+        }
+      },
+      {
+        "en": "swell",
+        "ko": "① 부풀다, 늘어나다",
+        "ex": "The crowd at the job fair {{BLANK}}ed to 3,000 by noon.",
+        "tr": "채용 박람회 인파는 정오에는 3,000명으로 불어났어.",
+        "c": "토익에서는 수·규모가 ‘불어나다’로 나온다. 몸이 붓는다는 뜻으로도 쓴다.",
+        "ipa": "swɛl",
+        "pos": "v.",
+        "word": "swell",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 21,
+          "si": 1
+        }
+      },
+      {
+        "en": "worthy",
+        "ko": "① ~을 받을 만한, 가치 있는",
+        "ex": "Her proposal is {{BLANK}} of serious consideration.",
+        "tr": "걔의 제안은 진지하게 검토할 만해.",
+        "c": "be worthy of + 명사. worth는 of 없이 바로 명사·-ing가 온다.",
+        "ipa": "ˈwɝði",
+        "pos": "adj.",
+        "word": "worthy",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 19,
+          "si": 1
+        }
+      },
+      {
+        "en": "genuinely",
+        "ko": "① 진심으로, 정말로",
+        "ex": "The staff here {{BLANK}} care about their customers.",
+        "tr": "여기 직원들은 고객을 진심으로 아껴.",
+        "c": "genuine(진짜의)의 부사. e를 빼지 않는다: genuinely. 이 문장에는 sincerely도 들어간다.",
+        "ipa": "ˈdʒɛnjuɪnli",
+        "pos": "adv.",
+        "word": "genuinely",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 37,
+          "si": 1
+        }
+      },
+      {
+        "en": "physically",
+        "ko": "② 물리적으로, 실제로",
+        "ex": "You do not need to be {{BLANK}} present at the meeting.",
+        "tr": "회의 자리에 실제로 와 있을 필요는 없어.",
+        "c": "몸 상태 얘기가 아니다. 이 문장에는 personally(직접)도 들어간다.",
+        "ipa": "ˈfɪzɪkli",
+        "pos": "adv.",
+        "word": "physically",
+        "si": 2,
+        "sn": 2,
+        "fable": {
+          "set": 28,
+          "si": 2
+        }
+      },
+      {
+        "en": "confrontation",
+        "ko": "① 대립, 대치",
+        "ex": "The manager tried to avoid a {{BLANK}} with the angry customer.",
+        "tr": "매니저는 화난 고객과 맞서는 걸 피하려 했어.",
+        "c": "동사 confront는 with 없이 바로 목적어가 온다.",
+        "ipa": "ˌkɑnfrənˈteɪʃən",
+        "pos": "n.",
+        "word": "confrontation",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 41,
+          "si": 1
+        }
+      },
+      {
+        "en": "tide",
+        "ko": "① (여론·형세의) 흐름, 추세",
+        "ex": "The new product helped turn the {{BLANK}} for the struggling company.",
+        "tr": "신제품 덕분에 고전하던 그 회사의 형세가 바뀌었어.",
+        "c": "turn the tide: 형세를 뒤집다. 원래는 밀물·썰물.",
+        "ipa": "taɪd",
+        "pos": "n.",
+        "word": "tide",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 32,
+          "si": 2
+        }
+      },
+      {
+        "en": "defy",
+        "ko": "① (예상을) 뒤엎다",
+        "ex": "Sales continue to {{BLANK}} expectations despite the weak economy.",
+        "tr": "경기가 나쁜데도 매출은 계속 예상을 뒤엎고 있어.",
+        "c": "이 문장에는 beat도 들어간다. 과거형은 defied.",
+        "ipa": "dɪˈfaɪ",
+        "pos": "v.",
+        "word": "defy",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 43,
+          "si": 2
+        }
+      }
+    ]
+  }
+]

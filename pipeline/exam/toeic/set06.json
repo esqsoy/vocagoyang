@@ -1,0 +1,1589 @@
+[
+  {
+    "ex": 1,
+    "name": "쇼핑·구매·배송",
+    "words": [
+      {
+        "en": "sender",
+        "ko": "① 발신인, 보내는 사람",
+        "ex": "The package was returned to the {{BLANK}} because the address was wrong.",
+        "tr": "주소가 틀려서 소포가 발신인에게 되돌아갔어.",
+        "c": "짝은 recipient(수신인).",
+        "ipa": "ˈsɛndɚ",
+        "pos": "n.",
+        "word": "sender",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "necessity",
+        "ko": "① 필수품",
+        "ex": "In this city, a car is a {{BLANK}}, not a luxury.",
+        "tr": "이 도시에서 차는 사치품이 아니라 필수품이야.",
+        "c": "복수는 necessities: daily necessities 생필품.",
+        "ipa": "nəˈsɛsəti",
+        "pos": "n.",
+        "word": "necessity",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "postage",
+        "ko": "① 우편 요금",
+        "ex": "The price includes {{BLANK}} and handling.",
+        "tr": "값에는 우편 요금과 취급 수수료가 들어 있어.",
+        "c": "postage and handling은 한 덩어리로 쓴다.",
+        "ipa": "ˈpoʊstɪdʒ",
+        "pos": "n.",
+        "word": "postage",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "dishwasher",
+        "ko": "① 식기세척기",
+        "ex": "The apartment comes with a {{BLANK}} and a washing machine.",
+        "tr": "그 아파트에는 식기세척기와 세탁기가 딸려 있어.",
+        "c": "식당에서 설거지하는 직원도 dishwasher다.",
+        "ipa": "ˈdɪʃwɑʃɚ",
+        "pos": "n.",
+        "word": "dishwasher",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "cosmetic",
+        "ko": "① 화장품",
+        "ex": "She works at the {{BLANK}}s counter in a department store.",
+        "tr": "걔는 백화점 화장품 매장에서 일해.",
+        "c": "이 뜻으로는 보통 복수 cosmetics로 쓴다.",
+        "ipa": "kɑzˈmɛtɪk",
+        "pos": "n.",
+        "word": "cosmetic",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "postal",
+        "ko": "① 우편의",
+        "ex": "Please write your {{BLANK}} code clearly on the form.",
+        "tr": "양식에 우편 번호를 또박또박 적어 주세요.",
+        "c": "미국에서는 우편 번호를 주로 zip code라 한다.",
+        "ipa": "ˈpoʊstəl",
+        "pos": "adj.",
+        "word": "postal",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "rebate",
+        "ko": "① 환급, 리베이트",
+        "ex": "Mail in this form to get a 30-dollar {{BLANK}} on your printer.",
+        "tr": "이 양식을 우편으로 보내면 프린터값에서 30달러를 환급받아.",
+        "c": "산 뒤 값의 일부를 돌려받는 돈. 반품·취소로 돌려받는 환불은 refund.",
+        "ipa": "ˈribeɪt",
+        "pos": "n.",
+        "word": "rebate",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "redeem",
+        "ko": "① (쿠폰·포인트를) 현금·상품으로 바꾸다",
+        "ex": "You can {{BLANK}} this coupon at any of our stores.",
+        "tr": "이 쿠폰은 저희 매장 어디서나 쓸 수 있습니다.",
+        "c": "redeem points 포인트를 (상품으로) 바꾸다.",
+        "ipa": "rɪˈdim",
+        "pos": "v.",
+        "word": "redeem",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "unused",
+        "ko": "① 쓰지 않은, 사용하지 않는",
+        "ex": "{{BLANK}} items may be returned within 30 days for a refund.",
+        "tr": "쓰지 않은 물건은 30일 안에 반품하면 환불됩니다.",
+        "c": "unused vacation days 남은 휴가.",
+        "ipa": "ʌnˈjuzd",
+        "pos": "adj.",
+        "word": "unused",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "lightweight",
+        "ko": "① 가벼운, 경량의",
+        "ex": "This {{BLANK}} laptop is easy to carry on business trips.",
+        "tr": "이 가벼운 노트북은 출장 때 들고 다니기 편해.",
+        "c": "한 단어로 붙여 쓴다.",
+        "ipa": "ˈlaɪtweɪt",
+        "pos": "adj.",
+        "word": "lightweight",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "footwear",
+        "ko": "① 신발(류)",
+        "ex": "The store sells athletic {{BLANK}}, from running shoes to hiking boots.",
+        "tr": "그 가게는 러닝화부터 등산화까지 운동용 신발을 팔아.",
+        "c": "셀 수 없는 명사라 -s를 붙이지 않는다.",
+        "ipa": "ˈfʊtwɛr",
+        "pos": "n.",
+        "word": "footwear",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "disposable",
+        "ko": "① 일회용의",
+        "ex": "We replaced {{BLANK}} cups with mugs to cut down on waste.",
+        "tr": "쓰레기를 줄이려고 일회용 컵을 머그잔으로 바꿨어.",
+        "c": "dispose(버리다)에서 왔다. 쓰고 버리는 것.",
+        "ipa": "dɪˈspoʊzəbəl",
+        "pos": "adj.",
+        "word": "disposable",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "resale",
+        "ko": "① 재판매",
+        "ex": "These samples are free and not for {{BLANK}}.",
+        "tr": "이 샘플은 무료이며 재판매할 수 없습니다.",
+        "c": "resale value는 되팔 때의 값.",
+        "ipa": "ˈriseɪl",
+        "pos": "n.",
+        "word": "resale",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 2,
+    "name": "식당·행사·여가",
+    "words": [
+      {
+        "en": "preview",
+        "ko": "① 시사회, 미리 보기",
+        "ex": "Members can attend a {{BLANK}} of the exhibit before it opens.",
+        "tr": "회원은 개막 전에 전시 사전 관람에 올 수 있어.",
+        "c": "sneak preview는 (영화의) 깜짝 시사회.",
+        "ipa": "ˈprivju",
+        "pos": "n.",
+        "word": "preview",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "dine",
+        "ko": "① 식사하다",
+        "ex": "Guests may {{BLANK}} in the hotel restaurant or by the pool.",
+        "tr": "손님은 호텔 식당이나 수영장 옆에서 식사할 수 있습니다.",
+        "c": "eat보다 격식 있는 말. dine out 외식하다.",
+        "ipa": "daɪn",
+        "pos": "v.",
+        "word": "dine",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "snack",
+        "ko": "① 간식, 간단한 식사",
+        "ex": "Light {{BLANK}}s and drinks will be served after the talk.",
+        "tr": "강연이 끝나면 가벼운 간식과 음료가 나옵니다.",
+        "c": "snack bar 간이식당, 매점.",
+        "ipa": "snæk",
+        "pos": "n.",
+        "word": "snack",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "picnic",
+        "ko": "① 야유회, 소풍",
+        "ex": "The staff will have a {{BLANK}} at the park this Saturday.",
+        "tr": "직원들은 이번 토요일에 공원에서 야유회를 해.",
+        "c": "회사 야유회는 company picnic이라 한다.",
+        "ipa": "ˈpɪknɪk",
+        "pos": "n.",
+        "word": "picnic",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "sculpture",
+        "ko": "① 조각(품)",
+        "ex": "A large stone {{BLANK}} stands in the lobby of the building.",
+        "tr": "그 건물 로비에는 커다란 돌 조각품이 서 있어.",
+        "c": "작품 하나는 셀 수 있고, 조각이라는 예술은 셀 수 없다.",
+        "ipa": "ˈskʌlptʃɚ",
+        "pos": "n.",
+        "word": "sculpture",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "buffet",
+        "ko": "① 뷔페",
+        "ex": "Breakfast is served as a {{BLANK}} from 6 to 10 a.m.",
+        "tr": "아침 식사는 오전 6시부터 10시까지 뷔페로 제공됩니다.",
+        "c": "끝의 t는 소리 내지 않는다. '버페이'에 가깝고 강세는 뒤에 있다.",
+        "ipa": "bəˈfeɪ",
+        "pos": "n.",
+        "word": "buffet",
+        "si": 1,
+        "sn": 1,
+        "meow": "본전 뽑겠다고 전날부터 굶지 말라고양."
+      },
+      {
+        "en": "conductor",
+        "ko": "① 지휘자",
+        "ex": "The {{BLANK}} led the orchestra at tonight's concert.",
+        "tr": "오늘 밤 연주회에서 그 지휘자가 관현악단을 이끌었어.",
+        "c": "conduct(지휘하다)+-or. 객원 지휘자는 guest conductor.",
+        "ipa": "kənˈdʌktɚ",
+        "pos": "n.",
+        "word": "conductor",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "vegetarian",
+        "ko": "① 채식의, 채식주의자용의",
+        "ex": "Please tell us in advance if you need a {{BLANK}} meal.",
+        "tr": "채식 식사가 필요하시면 미리 알려 주세요.",
+        "c": "명사로 '채식주의자'도 된다.",
+        "ipa": "ˌvɛdʒəˈtɛriən",
+        "pos": "adj.",
+        "word": "vegetarian",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "specialty",
+        "ko": "② 특산품, 대표 요리",
+        "ex": "Grilled fish is the {{BLANK}} of the house at this restaurant.",
+        "tr": "이 식당의 대표 요리는 생선구이야.",
+        "c": "house specialty라고도 한다. 영국 철자는 speciality.",
+        "ipa": "ˈspɛʃəlti",
+        "pos": "n.",
+        "word": "specialty",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "diner",
+        "ko": "① 식사하는 손님",
+        "ex": "The new menu has attracted many {{BLANK}}s to the restaurant.",
+        "tr": "새 메뉴가 그 식당에 손님을 많이 끌어들였어.",
+        "c": "dine(식사하다)+-er. dinner와 철자·발음 구별. 이 문장에는 guest도 들어간다.",
+        "ipa": "ˈdaɪnɚ",
+        "pos": "n.",
+        "word": "diner",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "diner",
+        "ko": "② 간이 식당",
+        "ex": "We stopped at a small {{BLANK}} on the highway for breakfast.",
+        "tr": "우리는 아침을 먹으러 고속도로 변의 작은 식당에 들렀어.",
+        "c": "주로 미국에서, 값싸고 간단한 음식을 파는 식당.",
+        "ipa": "ˈdaɪnɚ",
+        "pos": "n.",
+        "word": "diner",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "recreational",
+        "ko": "① 여가의, 오락의",
+        "ex": "The resort has {{BLANK}} facilities, including a pool and a gym.",
+        "tr": "그 리조트에는 수영장과 헬스장 같은 여가 시설이 있어.",
+        "c": "",
+        "ipa": "ˌrɛkriˈeɪʃənəl",
+        "pos": "adj.",
+        "word": "recreational",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "culinary",
+        "ko": "① 요리의",
+        "ex": "She studied at a {{BLANK}} school before becoming a chef.",
+        "tr": "걔는 요리사가 되기 전에 요리 학교에서 공부했어.",
+        "c": "명사 앞에만 쓴다. 요리 솜씨는 culinary skills.",
+        "ipa": "ˈkʌləˌnɛri",
+        "pos": "adj.",
+        "word": "culinary",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "entree",
+        "ko": "① 주요리, 메인 요리",
+        "ex": "Each lunch special comes with soup and your choice of {{BLANK}}.",
+        "tr": "점심 특선에는 수프와 손님이 고른 주요리가 나옵니다.",
+        "c": "미국 기준으로 주요리. 메뉴판에는 entrée로도 적는다.",
+        "ipa": "ˈɑntreɪ",
+        "pos": "n.",
+        "word": "entree",
+        "si": 1,
+        "sn": 1,
+        "acceptedAnswers": [
+          "entrée"
+        ]
+      },
+      {
+        "en": "recreation",
+        "ko": "① 여가 활동, 오락",
+        "ex": "The city built a new {{BLANK}} center with a pool and tennis courts.",
+        "tr": "시에서 수영장과 테니스장이 있는 레크리에이션 센터를 새로 지었어.",
+        "c": "re-(다시)+creation(만들기): 일한 뒤 기운을 다시 채우는 활동.",
+        "ipa": "ˌrɛkriˈeɪʃən",
+        "pos": "n.",
+        "word": "recreation",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "bakery",
+        "ko": "① 빵집, 제과점",
+        "ex": "I picked up a cake for the party at a local {{BLANK}}.",
+        "tr": "파티에 쓸 케이크를 동네 빵집에서 찾아왔어.",
+        "c": "bake(굽다)+-ery(가게).",
+        "ipa": "ˈbeɪkəri",
+        "pos": "n.",
+        "word": "bakery",
+        "si": 1,
+        "sn": 1,
+        "meow": "빵 냄새에 지갑 여는 건 인간뿐이라고양."
+      }
+    ]
+  },
+  {
+    "ex": 3,
+    "name": "식당·행사·여가",
+    "words": [
+      {
+        "en": "charitable",
+        "ko": "① 자선의",
+        "ex": "The company makes {{BLANK}} donations to local schools every year.",
+        "tr": "그 회사는 해마다 지역 학교에 자선 기부를 해.",
+        "c": "charity(자선)의 형용사. 자선 단체는 charitable organization.",
+        "ipa": "ˈtʃɛrətəbəl",
+        "pos": "adj.",
+        "word": "charitable",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "farewell",
+        "ko": "① 작별, 송별",
+        "ex": "We are holding a {{BLANK}} party for Mr. Tanaka on Friday.",
+        "tr": "금요일에 타나카 씨 송별회를 열어.",
+        "c": "fare(가다)+well(잘): 원래 '잘 가'라는 인사말.",
+        "ipa": "ˌfɛrˈwɛl",
+        "pos": "n.",
+        "word": "farewell",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "reunion",
+        "ko": "① 동창회, 재회 모임",
+        "ex": "Over 200 people attended our class's 20-year {{BLANK}}.",
+        "tr": "우리 기수 20주년 동창회에 200명 넘게 왔어.",
+        "c": "re-(다시)+union(결합). 동창회는 class reunion.",
+        "ipa": "riˈjunjən",
+        "pos": "n.",
+        "word": "reunion",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "seafood",
+        "ko": "① 해산물",
+        "ex": "The restaurant by the harbor serves fresh {{BLANK}} every day.",
+        "tr": "항구 옆 그 식당은 매일 신선한 해산물을 내놔.",
+        "c": "셀 수 없는 명사라 a나 -s를 붙이지 않는다.",
+        "ipa": "ˈsiˌfud",
+        "pos": "n.",
+        "word": "seafood",
+        "si": 1,
+        "sn": 1,
+        "meow": "해산물은 고양이 몫부터 떼어 놓으라고양."
+      },
+      {
+        "en": "appetizer",
+        "ko": "① 전채, 애피타이저",
+        "ex": "We ordered a salad as an {{BLANK}} before the main course.",
+        "tr": "우리는 메인 요리 전에 전채로 샐러드를 시켰어.",
+        "c": "appetite(식욕)를 돋우는 음식. 미국에서 주로 쓰는 말.",
+        "ipa": "ˈæpəˌtaɪzɚ",
+        "pos": "n.",
+        "word": "appetizer",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "ballroom",
+        "ko": "① 연회장, 무도회장",
+        "ex": "The awards dinner will take place in the hotel's grand {{BLANK}}.",
+        "tr": "시상식 만찬은 호텔 대연회장에서 열립니다.",
+        "c": "ball(무도회)+room. 토익에서는 행사 장소로 나온다.",
+        "ipa": "ˈbɔlˌrum",
+        "pos": "n.",
+        "word": "ballroom",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "rehearsal",
+        "ko": "① 리허설, 예행연습",
+        "ex": "We had a {{BLANK}} for the presentation the day before the conference.",
+        "tr": "우리는 콘퍼런스 전날 발표 예행연습을 했어.",
+        "c": "동사는 rehearse. 공연 직전 총연습은 dress rehearsal.",
+        "ipa": "rɪˈhɝsəl",
+        "pos": "n.",
+        "word": "rehearsal",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "relaxation",
+        "ko": "① 휴식, 긴장 완화",
+        "ex": "The resort is a perfect place for rest and {{BLANK}}.",
+        "tr": "그 리조트는 쉬면서 긴장을 풀기에 딱 좋은 곳이야.",
+        "c": "rest and relaxation으로 묶어 쓴다. 이 문장에는 recreation도 들어간다.",
+        "ipa": "ˌrilækˈseɪʃən",
+        "pos": "n.",
+        "word": "relaxation",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "salon",
+        "ko": "① 미용실, (미용·네일) 숍",
+        "ex": "She got her hair cut at the {{BLANK}} next to the office.",
+        "tr": "걔는 사무실 옆 미용실에서 머리를 잘랐어.",
+        "c": "hair salon, beauty salon으로 쓴다. saloon(술집)과 구별.",
+        "ipa": "səˈlɑn",
+        "pos": "n.",
+        "word": "salon",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "tablecloth",
+        "ko": "① 식탁보",
+        "ex": "A waiter is spreading a white {{BLANK}} on the table.",
+        "tr": "웨이터가 식탁에 흰 식탁보를 펴고 있어.",
+        "c": "table+cloth(천). 끝이 clothes(옷)가 아니다.",
+        "ipa": "ˈteɪbəlˌklɔθ",
+        "pos": "n.",
+        "word": "tablecloth",
+        "si": 1,
+        "sn": 1,
+        "meow": "식탁보는 잡아당기라고 있는 거라고양."
+      },
+      {
+        "en": "homemade",
+        "ko": "① 집에서 만든, 직접 만든",
+        "ex": "The café is famous for its {{BLANK}} bread and desserts.",
+        "tr": "그 카페는 직접 만든 빵과 디저트로 유명해.",
+        "c": "home+made. 가게에서 직접 만든 음식에도 쓴다. 이 문장에는 handmade도 들어간다.",
+        "ipa": "ˌhoʊmˈmeɪd",
+        "pos": "adj.",
+        "word": "homemade",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "contestant",
+        "ko": "① (대회) 참가자",
+        "ex": "Each {{BLANK}} must submit a recipe by May 1.",
+        "tr": "참가자는 5월 1일까지 요리법을 하나씩 내야 합니다.",
+        "c": "contest(대회)+-ant(사람). 이 문장에는 competitor도 들어간다.",
+        "ipa": "kənˈtɛstənt",
+        "pos": "n.",
+        "word": "contestant",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 4,
+    "name": "출장·여행·교통",
+    "words": [
+      {
+        "en": "subway",
+        "ko": "① 지하철",
+        "ex": "Take the {{BLANK}} to City Hall Station and use Exit 3.",
+        "tr": "시청역까지 지하철을 타고 가서 3번 출구로 나오세요.",
+        "c": "미국 기준. 영국에서는 underground나 tube라 한다.",
+        "ipa": "ˈsʌbˌweɪ",
+        "pos": "n.",
+        "word": "subway",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "overhead",
+        "ko": "① 머리 위의",
+        "ex": "Please put your bags in the {{BLANK}} bin above your seat.",
+        "tr": "가방은 좌석 위 짐칸에 넣어 주세요.",
+        "c": "기내 짐칸은 overhead bin(compartment). 부사로 '머리 위로'도 된다.",
+        "ipa": "ˈoʊvɚˌhɛd",
+        "pos": "adj.",
+        "word": "overhead",
+        "si": 1,
+        "sn": 2
+      },
+      {
+        "en": "commuter",
+        "ko": "① 통근자",
+        "ex": "The train was full of {{BLANK}}s on Monday morning.",
+        "tr": "월요일 아침에 그 기차는 통근자로 꽉 찼어.",
+        "c": "commute(통근하다)+-er. 통근 열차는 commuter train.",
+        "ipa": "kəˈmjutɚ",
+        "pos": "n.",
+        "word": "commuter",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "sightseeing",
+        "ko": "① 관광",
+        "ex": "We had only one day for {{BLANK}} in Paris after the conference.",
+        "tr": "콘퍼런스가 끝나고 파리에서 관광할 시간이 하루뿐이었어.",
+        "c": "go sightseeing(관광하러 가다) 꼴로 자주 쓴다.",
+        "ipa": "ˈsaɪtˌsiɪŋ",
+        "pos": "n.",
+        "word": "sightseeing",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "vacancy",
+        "ko": "② (호텔) 빈방",
+        "ex": "We called three hotels, but none of them had a {{BLANK}}.",
+        "tr": "호텔 세 군데에 전화했는데 빈방 있는 데가 없었어.",
+        "c": "vacant(비어 있는)의 명사. 다른 뜻은 '(일자리) 공석'.",
+        "ipa": "ˈveɪkənsi",
+        "pos": "n.",
+        "word": "vacancy",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "housekeeper",
+        "ko": "① 객실 청소 직원, 가정부",
+        "ex": "A {{BLANK}} cleans each room and changes the towels every morning.",
+        "tr": "객실 청소 직원이 매일 아침 방마다 청소하고 수건을 갈아.",
+        "c": "부서·업무는 housekeeping이라 한다.",
+        "ipa": "ˈhaʊsˌkipɚ",
+        "pos": "n.",
+        "word": "housekeeper",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "auto",
+        "ko": "① 자동차",
+        "ex": "My brother works at an {{BLANK}} repair shop downtown.",
+        "tr": "우리 형은 시내 자동차 정비소에서 일해.",
+        "c": "automobile의 준말. 주로 명사 앞에 쓴다: auto parts, auto industry.",
+        "ipa": "ˈɔtoʊ",
+        "pos": "n.",
+        "word": "auto",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "flyer",
+        "ko": "② 비행기 승객",
+        "ex": "Frequent {{BLANK}}s can use the airline's lounge for free.",
+        "tr": "비행기를 자주 타는 승객은 그 항공사 라운지를 무료로 써.",
+        "c": "frequent flyer로 쓴다. 다른 뜻은 '전단'. flier로도 적는다.",
+        "ipa": "ˈflaɪɚ",
+        "pos": "n.",
+        "word": "flyer",
+        "si": 2,
+        "sn": 2
+      }
+    ]
+  },
+  {
+    "ex": 1,
+    "name": "쇼핑·구매·배송",
+    "scope": "fable",
+    "words": [
+      {
+        "en": "merchant",
+        "ko": "① 상인, 판매자",
+        "ex": "The market's {{BLANK}}s sell everything from fruit to shoes.",
+        "tr": "그 시장 상인들은 과일부터 신발까지 다 팔아.",
+        "c": "",
+        "ipa": "ˈmɝtʃənt",
+        "pos": "n.",
+        "word": "merchant",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 35,
+          "si": 1
+        }
+      },
+      {
+        "en": "bundle",
+        "ko": "① 묶음, 다발; 묶음 상품",
+        "ex": "Buy the phone and case as a {{BLANK}} and save 20 dollars.",
+        "tr": "전화기와 케이스를 묶음으로 사면 20달러를 아껴.",
+        "c": "a bundle of ~는 '~ 한 묶음'.",
+        "ipa": "ˈbʌndəl",
+        "pos": "n.",
+        "word": "bundle",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 38,
+          "si": 1
+        }
+      },
+      {
+        "en": "rack",
+        "ko": "① 선반, 걸이",
+        "ex": "Please place your bags on the luggage {{BLANK}} above your seat.",
+        "tr": "가방은 좌석 위 짐 선반에 올려 주세요.",
+        "c": "clothing rack 옷걸이. LC 사진 묘사에 자주 나온다.",
+        "ipa": "ræk",
+        "pos": "n.",
+        "word": "rack",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 35,
+          "si": 1
+        }
+      },
+      {
+        "en": "accessories",
+        "ko": "① 액세서리, 부속품",
+        "ex": "The store sells phone {{BLANK}} such as cases and chargers.",
+        "tr": "그 가게는 케이스, 충전기 같은 휴대폰 액세서리를 팔아.",
+        "c": "c와 s가 둘씩이다. 복수는 accessories.",
+        "ipa": "əkˈsɛsəri",
+        "pos": "n.",
+        "word": "accessory",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 38,
+          "si": 1
+        }
+      },
+      {
+        "en": "array",
+        "ko": "① 다수, 다양한 것들",
+        "ex": "The store offers a wide {{BLANK}} of kitchen tools.",
+        "tr": "그 가게는 주방 도구를 아주 다양하게 갖추고 있어.",
+        "c": "이 뜻에서는 range와 바꿔 쓸 수 있다.",
+        "ipa": "əˈreɪ",
+        "pos": "n.",
+        "word": "array",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 39,
+          "si": 1
+        }
+      },
+      {
+        "en": "kit",
+        "ko": "① (도구) 세트, 키트",
+        "ex": "Every office should have a first-aid {{BLANK}} near the door.",
+        "tr": "사무실마다 문 근처에 구급상자가 있어야 해.",
+        "c": "tool kit 공구 세트.",
+        "ipa": "kɪt",
+        "pos": "n.",
+        "word": "kit",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 30,
+          "si": 1
+        }
+      },
+      {
+        "en": "lifetime",
+        "ko": "① 평생, (제품의) 수명",
+        "ex": "All our tools come with a {{BLANK}} warranty.",
+        "tr": "저희 공구에는 모두 평생 보증이 붙습니다.",
+        "c": "명사지만 다른 명사 앞에서 '평생의'로 자주 쓴다.",
+        "ipa": "ˈlaɪfˌtaɪm",
+        "pos": "n.",
+        "word": "lifetime",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 34,
+          "si": 1
+        }
+      },
+      {
+        "en": "antique",
+        "ko": "① 골동품",
+        "ex": "This clock is a valuable {{BLANK}} from the 1800s.",
+        "tr": "이 시계는 1800년대에 만든 값진 골동품이야.",
+        "c": "antique shop 골동품 가게.",
+        "ipa": "ænˈtik",
+        "pos": "n.",
+        "word": "antique",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 39,
+          "si": 2
+        }
+      },
+      {
+        "en": "antique",
+        "ko": "② 골동품인, 고풍스러운",
+        "ex": "The hotel lobby is filled with {{BLANK}} furniture.",
+        "tr": "호텔 로비는 고풍스러운 가구로 가득해.",
+        "c": "이 문장에는 vintage도 들어간다.",
+        "ipa": "ænˈtik",
+        "pos": "adj.",
+        "word": "antique",
+        "si": 2,
+        "sn": 2,
+        "fable": {
+          "set": 39,
+          "si": 1
+        }
+      },
+      {
+        "en": "individually",
+        "ko": "① 개별적으로, 따로따로",
+        "ex": "Each cookie is {{BLANK}} wrapped to keep it fresh.",
+        "tr": "쿠키는 신선하게 하나씩 따로 포장돼 있어.",
+        "c": "",
+        "ipa": "ˌɪndəˈvɪdʒuəli",
+        "pos": "adv.",
+        "word": "individually",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 39,
+          "si": 1
+        }
+      },
+      {
+        "en": "stall",
+        "ko": "① 가판대, 좌판",
+        "ex": "She sells fresh fruit at a small {{BLANK}} in the market.",
+        "tr": "걔는 시장의 작은 가판대에서 신선한 과일을 팔아.",
+        "c": "이 뜻에서는 stand와 바꿔 쓸 수 있다.",
+        "ipa": "stɔl",
+        "pos": "n.",
+        "word": "stall",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 40,
+          "si": 1
+        }
+      }
+    ]
+  },
+  {
+    "ex": 2,
+    "name": "식당·행사·여가",
+    "scope": "fable",
+    "words": [
+      {
+        "en": "waiter",
+        "ko": "① 웨이터, 종업원",
+        "ex": "The {{BLANK}} took our order and brought us some water.",
+        "tr": "웨이터가 주문을 받고 물을 갖다줬어.",
+        "c": "이 뜻에서는 남녀 구분 없는 server와 바꿔 쓸 수 있다.",
+        "ipa": "ˈweɪtɚ",
+        "pos": "n.",
+        "word": "waiter",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 21,
+          "si": 1
+        }
+      },
+      {
+        "en": "vendor",
+        "ko": "② 노점상, 행상인",
+        "ex": "We bought hot dogs from a street {{BLANK}} outside the stadium.",
+        "tr": "경기장 밖 노점상한테서 핫도그를 샀어.",
+        "c": "street vendor로 굳어 쓴다.",
+        "ipa": "ˈvɛndɚ",
+        "pos": "n.",
+        "word": "vendor",
+        "si": 2,
+        "sn": 2,
+        "fable": {
+          "set": 33,
+          "si": 1
+        }
+      },
+      {
+        "en": "cafe",
+        "ko": "① 카페, 간이식당",
+        "ex": "Let's meet at the sidewalk {{BLANK}} across from the office.",
+        "tr": "사무실 건너편 노천카페에서 만나자.",
+        "c": "sidewalk cafe는 길가에 탁자를 내놓은 카페. café로도 쓴다.",
+        "ipa": "kæˈfeɪ",
+        "pos": "n.",
+        "word": "cafe",
+        "si": 1,
+        "sn": 1,
+        "acceptedAnswers": [
+          "café"
+        ],
+        "fable": {
+          "set": 0,
+          "si": 1
+        }
+      },
+      {
+        "en": "ingredient",
+        "ko": "① 재료, 성분",
+        "ex": "The chef uses only fresh local {{BLANK}}s in every dish.",
+        "tr": "주방장은 요리마다 신선한 이 지역 재료만 써.",
+        "c": "key ingredient는 '핵심 재료'이자 '핵심 요소'.",
+        "ipa": "ɪnˈɡridiənt",
+        "pos": "n.",
+        "word": "ingredient",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 18,
+          "si": 1
+        }
+      },
+      {
+        "en": "gym",
+        "ko": "① 헬스장, 체육관",
+        "ex": "I go to the {{BLANK}} after work three times a week.",
+        "tr": "난 일주일에 세 번 퇴근하고 헬스장에 가.",
+        "c": "토익에서는 fitness center와 바꿔 쓴다. '헬스'는 콩글리시.",
+        "ipa": "dʒɪm",
+        "pos": "n.",
+        "word": "gym",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 0,
+          "si": 1
+        }
+      },
+      {
+        "en": "donate",
+        "ko": "① 기부하다, 기증하다",
+        "ex": "The company will {{BLANK}} ten percent of its profits to charity.",
+        "tr": "그 회사는 이익의 10퍼센트를 자선 단체에 기부할 거야.",
+        "c": "명사는 donation. 혈액·장기를 기증하는 것도 donate.",
+        "ipa": "ˈdoʊneɪt",
+        "pos": "v.",
+        "word": "donate",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 15,
+          "si": 1
+        }
+      },
+      {
+        "en": "dessert",
+        "ko": "① 후식, 디저트",
+        "ex": "Would you like to see the {{BLANK}} menu?",
+        "tr": "후식 메뉴 보시겠어요?",
+        "c": "s가 둘. s가 하나인 desert는 사막이다.",
+        "ipa": "dɪˈzɝt",
+        "pos": "n.",
+        "word": "dessert",
+        "si": 1,
+        "sn": 1,
+        "meow": "s 하나 빼먹으면 사막에서 모래나 퍼먹는 거라고양.",
+        "fable": {
+          "set": 9,
+          "si": 1
+        }
+      },
+      {
+        "en": "photographer",
+        "ko": "① 사진작가, 사진사",
+        "ex": "We hired a professional {{BLANK}} to take pictures at the opening.",
+        "tr": "개업식 사진을 찍으려고 전문 사진사를 불렀어.",
+        "c": "강세는 둘째 음절 -tog-에 있다.",
+        "ipa": "fəˈtɑɡrəfɚ",
+        "pos": "n.",
+        "word": "photographer",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 24,
+          "si": 1
+        }
+      },
+      {
+        "en": "flavor",
+        "ko": "① 맛, 향",
+        "ex": "This ice cream comes in five different {{BLANK}}s.",
+        "tr": "이 아이스크림은 맛이 다섯 가지야.",
+        "c": "영국식 철자는 flavour.",
+        "ipa": "ˈfleɪvɚ",
+        "pos": "n.",
+        "word": "flavor",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 28,
+          "si": 1
+        }
+      },
+      {
+        "en": "recipe",
+        "ko": "① 요리법, 레시피",
+        "ex": "The chef shared his {{BLANK}} for tomato soup on the restaurant's website.",
+        "tr": "그 주방장은 식당 웹사이트에 자기 토마토 수프 요리법을 올렸어.",
+        "c": "a recipe for ~ 꼴로 쓴다. receipt(영수증)와 철자 구별.",
+        "ipa": "ˈrɛsəpi",
+        "pos": "n.",
+        "word": "recipe",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 9,
+          "si": 1
+        }
+      },
+      {
+        "en": "photography",
+        "ko": "① 사진 촬영",
+        "ex": "{{BLANK}} is not permitted inside the museum.",
+        "tr": "박물관 안에서는 사진 촬영이 금지됩니다.",
+        "c": "사진 한 장은 photograph, 찍는 사람은 photographer. 강세는 -tog-.",
+        "ipa": "fəˈtɑɡrəfi",
+        "pos": "n.",
+        "word": "photography",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 18,
+          "si": 1
+        }
+      },
+      {
+        "en": "anniversary",
+        "ko": "① 기념일",
+        "ex": "The company will celebrate its 20th {{BLANK}} next month.",
+        "tr": "그 회사는 다음 달에 20주년을 기념해.",
+        "c": "토익에서는 회사 창립 기념일로 자주 나온다. 앞의 숫자는 서수로 쓴다.",
+        "ipa": "ˌænəˈvɝsɚi",
+        "pos": "n.",
+        "word": "anniversary",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 28,
+          "si": 1
+        }
+      },
+      {
+        "en": "decorate",
+        "ko": "① 장식하다, 꾸미다",
+        "ex": "Volunteers will {{BLANK}} the hall with flowers before the banquet.",
+        "tr": "연회 전에 자원봉사자들이 홀을 꽃으로 꾸밀 거야.",
+        "c": "decorate A with B: A를 B로 꾸미다.",
+        "ipa": "ˈdɛkəreɪt",
+        "pos": "v.",
+        "word": "decorate",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 20,
+          "si": 1
+        }
+      },
+      {
+        "en": "leisure",
+        "ko": "① 여가",
+        "ex": "The hotel offers many {{BLANK}} activities, such as golf and tennis.",
+        "tr": "그 호텔은 골프, 테니스 같은 여가 활동을 많이 제공해.",
+        "c": "at your leisure는 '편한 때에'. 미국 발음은 주로 '리저'.",
+        "ipa": "ˈliʒɚ",
+        "pos": "n.",
+        "word": "leisure",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 13,
+          "si": 1
+        }
+      },
+      {
+        "en": "tray",
+        "ko": "① 쟁반",
+        "ex": "The waiter is holding a {{BLANK}} of drinks in one hand.",
+        "tr": "웨이터가 한 손으로 음료 쟁반을 들고 있어.",
+        "c": "paper tray는 프린터 용지함이다.",
+        "ipa": "treɪ",
+        "pos": "n.",
+        "word": "tray",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 40,
+          "si": 1
+        }
+      },
+      {
+        "en": "performer",
+        "ko": "② 공연자, 연주자",
+        "ex": "Street {{BLANK}}s will play music and dance at the festival.",
+        "tr": "축제에서 거리 공연자들이 음악을 연주하고 춤을 출 거야.",
+        "c": "",
+        "ipa": "pɚˈfɔrmɚ",
+        "pos": "n.",
+        "word": "performer",
+        "si": 2,
+        "sn": 2,
+        "fable": {
+          "set": 33,
+          "si": 1
+        }
+      }
+    ]
+  },
+  {
+    "ex": 3,
+    "name": "식당·행사·여가",
+    "scope": "fable",
+    "words": [
+      {
+        "en": "statue",
+        "ko": "① 조각상, 동상",
+        "ex": "Some tourists are standing next to a {{BLANK}} in the park.",
+        "tr": "관광객 몇 명이 공원의 동상 옆에 서 있어.",
+        "c": "사람·동물의 모습을 본뜬 것. status(지위)와 철자 구별.",
+        "ipa": "ˈstætʃu",
+        "pos": "n.",
+        "word": "statue",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 13,
+          "si": 1
+        }
+      },
+      {
+        "en": "documentary",
+        "ko": "① 다큐멘터리",
+        "ex": "The channel will show a {{BLANK}} about the history of the company.",
+        "tr": "그 채널은 그 회사의 역사를 다룬 다큐멘터리를 방송할 거야.",
+        "c": "document(기록)에서 온 말. a documentary about ~.",
+        "ipa": "ˌdɑkjəˈmɛntəri",
+        "pos": "n.",
+        "word": "documentary",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 23,
+          "si": 1
+        }
+      },
+      {
+        "en": "elegant",
+        "ko": "① 우아한, 세련된",
+        "ex": "The hotel's {{BLANK}} dining room is perfect for business dinners.",
+        "tr": "그 호텔의 우아한 식당은 비즈니스 저녁 모임에 딱 맞아.",
+        "c": "",
+        "ipa": "ˈɛləɡənt",
+        "pos": "adj.",
+        "word": "elegant",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 34,
+          "si": 1
+        }
+      },
+      {
+        "en": "authentic",
+        "ko": "① 진짜의, 정통의",
+        "ex": "The restaurant is known for its {{BLANK}} Italian food.",
+        "tr": "그 식당은 정통 이탈리아 음식으로 유명해.",
+        "c": "식당 광고에서는 '본고장 방식의'. 문서에 쓰면 '진짜의(위조가 아닌)'.",
+        "ipa": "əˈθɛntɪk",
+        "pos": "adj.",
+        "word": "authentic",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 37,
+          "si": 1
+        }
+      },
+      {
+        "en": "enjoyable",
+        "ko": "① 즐거운, 재미있는",
+        "ex": "We hope you had an {{BLANK}} stay at our hotel.",
+        "tr": "저희 호텔에서 즐겁게 머무셨기를 바랍니다.",
+        "c": "enjoy+-able. 사람이 아니라 경험·시간을 꾸민다.",
+        "ipa": "ɪnˈdʒɔɪəbəl",
+        "pos": "adj.",
+        "word": "enjoyable",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 30,
+          "si": 1
+        }
+      },
+      {
+        "en": "fundraising",
+        "ko": "① 모금, 기금 모으기",
+        "ex": "Our annual {{BLANK}} dinner raised $20,000 for the library.",
+        "tr": "우리 연례 모금 만찬으로 도서관 기금 2만 달러를 모았어.",
+        "c": "모금 행사 자체는 fundraiser라고 한다.",
+        "ipa": "ˈfʌndreɪzɪŋ",
+        "pos": "n.",
+        "word": "fundraising",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 40,
+          "si": 1
+        }
+      },
+      {
+        "en": "enthusiast",
+        "ko": "① 열성 팬, 애호가",
+        "ex": "The car show attracts thousands of auto {{BLANK}}s every year.",
+        "tr": "그 자동차 전시회에는 해마다 자동차 애호가 수천 명이 몰려.",
+        "c": "enthusiasm(열정)을 가진 사람. 앞에 좋아하는 대상을 붙인다.",
+        "ipa": "ɪnˈθuziˌæst",
+        "pos": "n.",
+        "word": "enthusiast",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 36,
+          "si": 1
+        }
+      },
+      {
+        "en": "pastry",
+        "ko": "① 페이스트리, 빵과자",
+        "ex": "I had coffee and a {{BLANK}} at the café near the office.",
+        "tr": "사무실 근처 카페에서 커피랑 페이스트리를 먹었어.",
+        "c": "복수는 pastries. 제과 요리사는 pastry chef.",
+        "ipa": "ˈpeɪstri",
+        "pos": "n.",
+        "word": "pastry",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 22,
+          "si": 1
+        }
+      },
+      {
+        "en": "spectator",
+        "ko": "① 관중, 구경꾼",
+        "ex": "{{BLANK}}s are watching the game from their seats.",
+        "tr": "관중들이 자리에서 경기를 보고 있어.",
+        "c": "경기·행사를 보는 사람. 공연·영화의 관객은 audience.",
+        "ipa": "ˈspɛkteɪtɚ",
+        "pos": "n.",
+        "word": "spectator",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 43,
+          "si": 1
+        }
+      },
+      {
+        "en": "blend",
+        "ko": "① 섞다, 섞이다",
+        "ex": "{{BLANK}} the fruit with the milk until the mixture is smooth.",
+        "tr": "혼합물이 부드러워질 때까지 과일과 우유를 섞으세요.",
+        "c": "blend A with B. 믹서는 blender.",
+        "ipa": "blɛnd",
+        "pos": "v.",
+        "word": "blend",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 33,
+          "si": 1
+        }
+      },
+      {
+        "en": "blend",
+        "ko": "② 혼합물, 블렌드",
+        "ex": "The new paint color is a {{BLANK}} of blue and gray.",
+        "tr": "새 페인트 색은 파랑과 회색을 섞은 거야.",
+        "c": "a blend of ~: 여러 가지를 섞은 것.",
+        "ipa": "blɛnd",
+        "pos": "n.",
+        "word": "blend",
+        "si": 2,
+        "sn": 2,
+        "fable": {
+          "set": 33,
+          "si": 3
+        }
+      },
+      {
+        "en": "decoration",
+        "ko": "① 장식(품)",
+        "ex": "Staff put up holiday {{BLANK}}s in the lobby last week.",
+        "tr": "지난주에 직원들이 로비에 연말 장식을 달았어.",
+        "c": "장식품 하나하나는 셀 수 있어 보통 복수로 쓴다.",
+        "ipa": "ˌdɛkəˈreɪʃən",
+        "pos": "n.",
+        "word": "decoration",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 20,
+          "si": 1
+        }
+      },
+      {
+        "en": "entrant",
+        "ko": "① (대회) 참가자, 응모자",
+        "ex": "Contest {{BLANK}}s must be at least 18 years old.",
+        "tr": "대회 응모자는 만 18세 이상이어야 합니다.",
+        "c": "enter(참가하다)+-ant. 대회에서는 contestant와 바꿔 쓸 수 있다.",
+        "ipa": "ˈɛntrənt",
+        "pos": "n.",
+        "word": "entrant",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 45,
+          "si": 1
+        }
+      }
+    ]
+  },
+  {
+    "ex": 4,
+    "name": "출장·여행·교통",
+    "scope": "fable",
+    "words": [
+      {
+        "en": "downtown",
+        "ko": "① 시내에, 시내로",
+        "ex": "Our new office is located {{BLANK}}, near the train station.",
+        "tr": "우리 새 사무실은 시내에 있고 기차역에서 가까워.",
+        "c": "부사라서 to나 in 없이 쓴다: go downtown.",
+        "ipa": "ˌdaʊnˈtaʊn",
+        "pos": "adv.",
+        "word": "downtown",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 29,
+          "si": 1
+        }
+      },
+      {
+        "en": "traveler",
+        "ko": "① 여행자, 여행객",
+        "ex": "The hotel near the airport is popular with business {{BLANK}}s.",
+        "tr": "공항 근처 그 호텔은 출장 여행객에게 인기가 많아.",
+        "c": "미국 철자는 l 하나, 영국 철자는 traveller.",
+        "ipa": "ˈtrævlɚ",
+        "pos": "n.",
+        "word": "traveler",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 13,
+          "si": 1
+        }
+      },
+      {
+        "en": "garage",
+        "ko": "② 정비소",
+        "ex": "I took my car to a {{BLANK}} to have the brakes checked.",
+        "tr": "브레이크 점검을 받으려고 차를 정비소에 맡겼어.",
+        "c": "'차고, 주차장'의 뜻도 있다. 미국 발음은 강세가 뒤에 있다.",
+        "ipa": "ɡəˈrɑʒ",
+        "pos": "n.",
+        "word": "garage",
+        "si": 2,
+        "sn": 2,
+        "fable": {
+          "set": 17,
+          "si": 1
+        }
+      },
+      {
+        "en": "suitcase",
+        "ko": "① 여행 가방",
+        "ex": "A woman is pulling a {{BLANK}} through the airport.",
+        "tr": "한 여자가 공항에서 여행 가방을 끌고 가고 있어.",
+        "c": "suit(정장)+case(가방): 원래 정장을 넣던 가방.",
+        "ipa": "ˈsutkeɪs",
+        "pos": "n.",
+        "word": "suitcase",
+        "si": 1,
+        "sn": 1,
+        "meow": "가방 열어 두면 고양이가 들어가 있다고양. 원래 내 자리라고양.",
+        "fable": {
+          "set": 42,
+          "si": 1
+        }
+      },
+      {
+        "en": "passport",
+        "ko": "① 여권",
+        "ex": "Make sure your {{BLANK}} is valid for at least six months.",
+        "tr": "여권 유효 기간이 6개월 이상 남았는지 꼭 확인하세요.",
+        "c": "pass(통과하다)+port(항구). 갱신하다는 renew a passport.",
+        "ipa": "ˈpæspɔrt",
+        "pos": "n.",
+        "word": "passport",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 0,
+          "si": 1
+        }
+      },
+      {
+        "en": "cruise",
+        "ko": "① 유람선 여행",
+        "ex": "They took a dinner {{BLANK}} along the river on the last night.",
+        "tr": "걔네는 마지막 날 밤에 강을 따라 디너 크루즈를 탔어.",
+        "c": "유람선은 cruise ship.",
+        "ipa": "kruz",
+        "pos": "n.",
+        "word": "cruise",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 32,
+          "si": 1
+        }
+      },
+      {
+        "en": "bound",
+        "ko": "① ~행의, ~로 향하는",
+        "ex": "Passengers on the flight {{BLANK}} for Chicago should go to gate 12.",
+        "tr": "시카고행 항공편 승객은 12번 탑승구로 가 주세요.",
+        "c": "bound for ~: ~행의. 북쪽행 열차는 northbound train.",
+        "ipa": "baʊnd",
+        "pos": "adj.",
+        "word": "bound",
+        "si": 1,
+        "sn": 3,
+        "fable": {
+          "set": 36,
+          "si": 2
+        }
+      },
+      {
+        "en": "mechanic",
+        "ko": "① 정비사, 수리공",
+        "ex": "The {{BLANK}} said my car needs new tires.",
+        "tr": "정비사가 내 차 타이어를 새로 갈아야 한대.",
+        "c": "mechanical(기계의), mechanism(구조)과 구별.",
+        "ipa": "məˈkænɪk",
+        "pos": "n.",
+        "word": "mechanic",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 27,
+          "si": 1
+        }
+      },
+      {
+        "en": "highway",
+        "ko": "① 고속도로, 간선 도로",
+        "ex": "Construction on the {{BLANK}} is causing long delays this week.",
+        "tr": "이번 주에는 고속도로 공사 때문에 많이 막혀.",
+        "c": "도시를 잇는 큰 도로. 이 문장에는 freeway도 들어간다.",
+        "ipa": "ˈhaɪˌweɪ",
+        "pos": "n.",
+        "word": "highway",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 32,
+          "si": 1
+        }
+      },
+      {
+        "en": "allowance",
+        "ko": "② 허용량, 허용 한도",
+        "ex": "The baggage {{BLANK}} for this flight is 23 kilograms per person.",
+        "tr": "이 항공편의 수하물 허용량은 한 사람에 23킬로그램입니다.",
+        "c": "allow(허용하다)+-ance. 다른 뜻은 '수당, 용돈'.",
+        "ipa": "əˈlaʊəns",
+        "pos": "n.",
+        "word": "allowance",
+        "si": 2,
+        "sn": 2,
+        "fable": {
+          "set": 39,
+          "si": 3
+        }
+      },
+      {
+        "en": "overnight",
+        "ko": "② 하룻밤 동안, 밤새",
+        "ex": "We stayed {{BLANK}} at a hotel near the airport.",
+        "tr": "우리는 공항 근처 호텔에서 하룻밤 묵었어.",
+        "c": "stay overnight: 하룻밤 묵다. 형용사로 '익일 (배송)의'도 된다.",
+        "ipa": "ˌoʊvɚˈnaɪt",
+        "pos": "adv.",
+        "word": "overnight",
+        "si": 2,
+        "sn": 2,
+        "fable": {
+          "set": 36,
+          "si": 1
+        }
+      }
+    ]
+  },
+  {
+    "ex": 5,
+    "name": "출장·여행·교통",
+    "scope": "fable",
+    "words": [
+      {
+        "en": "terminal",
+        "ko": "① (공항·버스) 터미널",
+        "ex": "A free shuttle runs between the two airport {{BLANK}}s every ten minutes.",
+        "tr": "두 공항 터미널 사이를 무료 셔틀이 10분마다 다녀.",
+        "c": "번호를 붙이면 대문자로 쓴다: Terminal 2.",
+        "ipa": "ˈtɝmənəl",
+        "pos": "n.",
+        "word": "terminal",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 32,
+          "si": 1
+        }
+      },
+      {
+        "en": "suite",
+        "ko": "① 스위트룸",
+        "ex": "She booked a {{BLANK}} with a living room and two bedrooms.",
+        "tr": "걔는 거실과 침실 두 개가 딸린 스위트룸을 예약했어.",
+        "c": "발음은 sweet와 같다. suit(정장)와 철자·발음 구별.",
+        "ipa": "swit",
+        "pos": "n.",
+        "word": "suite",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 31,
+          "si": 1
+        }
+      },
+      {
+        "en": "lounge",
+        "ko": "① 라운지, 휴게실",
+        "ex": "Passengers can wait in the airport {{BLANK}} before their flight.",
+        "tr": "승객은 탑승 전에 공항 라운지에서 기다릴 수 있어.",
+        "c": "직원 휴게실은 employee lounge.",
+        "ipa": "laʊndʒ",
+        "pos": "n.",
+        "word": "lounge",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 38,
+          "si": 1
+        }
+      },
+      {
+        "en": "cab",
+        "ko": "① 택시",
+        "ex": "Let's take a {{BLANK}} to the airport; the bus is too slow.",
+        "tr": "공항까지 택시 타자. 버스는 너무 느려.",
+        "c": "주로 미국에서 쓰는 말. taxi와 바꿔 쓸 수 있다.",
+        "ipa": "kæb",
+        "pos": "n.",
+        "word": "cab",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 32,
+          "si": 1
+        }
+      },
+      {
+        "en": "cabin",
+        "ko": "① (비행기·배의) 객실",
+        "ex": "The {{BLANK}} crew will serve drinks shortly after takeoff.",
+        "tr": "이륙 직후에 객실 승무원이 음료를 드립니다.",
+        "c": "객실 승무원은 cabin crew. 다른 뜻은 '오두막'.",
+        "ipa": "ˈkæbɪn",
+        "pos": "n.",
+        "word": "cabin",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 29,
+          "si": 2
+        }
+      },
+      {
+        "en": "charter",
+        "ko": "① 전세 내다",
+        "ex": "The company {{BLANK}}ed a bus to take employees to the conference.",
+        "tr": "회사가 직원들을 콘퍼런스에 데려가려고 버스를 전세 냈어.",
+        "c": "전세기는 charter flight.",
+        "ipa": "ˈtʃɑrtɚ",
+        "pos": "v.",
+        "word": "charter",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 31,
+          "si": 2
+        }
+      },
+      {
+        "en": "lane",
+        "ko": "① 차로, 차선",
+        "ex": "This highway has four {{BLANK}}s in each direction.",
+        "tr": "이 고속도로는 방향마다 4차로야.",
+        "c": "버스 전용 차로는 bus lane. '좁은 길, 골목'의 뜻도 있다.",
+        "ipa": "leɪn",
+        "pos": "n.",
+        "word": "lane",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 26,
+          "si": 1
+        }
+      }
+    ]
+  }
+]
