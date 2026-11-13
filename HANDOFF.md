@@ -2,13 +2,32 @@
 
 갱신: 2026-11-14 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
 
-## 2026-11-14 새벽 · 시험 단어장: 토익 완성(검수 대기·미배포), 토플·GRE 진행
+## 2026-11-14 아침 · 시험 단어장 세 권 완성(영신 직검수 대기·미배포)
 
-- 토익 단어장 `vocagoyangtoeic.html` 2,250장(21세트)을 브랜치에 커밋했다(2d84b84). **배포 안 함**, 첫 화면 index에도 아직 없다. 영신 직검수 페이지 세 장(WORK_LOG 11-14).
-- 원본 `pipeline/exam/toeic/setNN.json` → `python3 pipeline/exam/assemble.py toeic` → `node pipeline/ipa-effects/build.cjs`. 구조·명령은 [pipeline/exam/README.md](pipeline/exam/README.md).
-- 토글 "FABLE 뜻 빼는 중"(기본 켬)은 scope `fable` 연습을 숨긴다. 새 뜻만 968장, 끄면 2,250장.
-- 토플(2,331장 계획, 초안 중)·GRE(1,088 뜻 목록)는 진행 중이다. 작업 파일은 스크래치에 있다. 저장소에 넣을 때 `pipeline/exam/<id>/config.json`을 만들고 `node pipeline/exam/sync.cjs`로 엔진을 복제한다.
-- **영신 판단 대기:** 단추 문구·시험용 고양이 대사(지금 비어 있음)·앱 제목, CC BY-SA 출처를 화면에 둘지, 첫 화면에 언제 올릴지(배포), 토플·GRE에 FABLE 같은 뜻 보충(토플 2,633·GRE 724)을 넣을지.
+- 세 시험 HTML이 브랜치에 있다. **배포 안 함**, 첫 화면 index에도 아직 없다. 경위·검사는 WORK_LOG 11-14, 진행 기록은 [WORK_PLAN 시험 단어장](WORK_PLAN.md#시험-단어장-토익토플gre--2026-11-14-확정).
+
+  | 시험 | HTML | 카드 | 세트 | FABLE 같은 뜻(숨김) | 커밋 |
+  |---|---|---|---|---|---|
+  | 토익 | `vocagoyangtoeic.html` | 2,250 | 21 | 1,282 | 2d84b84·d69da35 |
+  | 토플 | `vocagoyangtoefl.html` | 2,257 | 22 | 821 | 4c4d44a |
+  | GRE | `vocagoyanggre.html` | 1,088 | 10 | 0(단추 숨김) | df5ee07 |
+
+- 직검수 페이지(댓글을 달면 Claude가 받는다).
+  - 토익: 1~3 https://claude.ai/artifact/B6M1EzUSXQdb6xBFg4tm7w · 4~11 https://claude.ai/artifact/ByQCt1j7nVK8HzpUipWRfb · 12~21 https://claude.ai/artifact/CnVMyV6sZL2Tp2cnTbEio2
+  - 토플: 1~7 https://claude.ai/artifact/JZ9zHtM6Sup4dPrLT6PDQR · 8~15 https://claude.ai/artifact/8ZndLwMV8viF6RuvUziGhJ · 16~22 https://claude.ai/artifact/4FFSAh3Yv9B8s57LHvkqK4
+  - GRE: 1~5 https://claude.ai/artifact/HWhVVFRHDiNxDA6QiGtDBN · 6~10 https://claude.ai/artifact/9gwBNooZmx7PEQc8zjrMVk
+- 원본 `pipeline/exam/<id>/setNN.json` → `python3 pipeline/exam/assemble.py <id>` → `node pipeline/ipa-effects/build.cjs`. 구조·명령은 [pipeline/exam/README.md](pipeline/exam/README.md). 엔진은 토익 HTML이고 `node pipeline/exam/sync.cjs`로 복제한다.
+- 토플·GRE 초안·판정 작업 파일(이솝 검수 결과·Claude 패치)은 이 세션의 스크래치에만 있다. 저장소 원본이 기준이다.
+- **영신 판단 대기:**
+  - 직검수 댓글
+  - 단추 문구, 시험용 고양이 대사(지금 비어 있음), 앱 제목
+  - CC BY-SA 출처를 화면에 둘지, 첫 화면에 언제 올릴지(배포)
+  - FABLE 같은 뜻 보충(2판: 토플 2,633·GRE 724)
+  - 토플 영국식 표제어(onwards·postgraduate)와 tenuous 뜻
+  - GRE 명문장 처리 순서·표제어 밖 둘까지([PRINCIPLES 2-11](PRINCIPLES.md#2-11-소설-명문장))
+- 남은 일:
+  - FABLE 본편 해설의 IPA 기호 36장, FABLE IPA 장음 부호 섞임 125장(WORK_LOG 11-14)
+  - 10월 검수 페이지 5개의 지켜보기를 껐다(한 세션 10개 한도). 그 페이지에 댓글을 보내도 이 세션이 깨어나지 않는다.
 
 ## 2026-11-13 오후 · injustice 명문장, 저장 키 검사기
 

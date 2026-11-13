@@ -2069,3 +2069,45 @@
   - 토플: NAWL 뜻 목록 1,106(FABLE 같은 뜻 819), 분야 어휘 879단어(뜻 961, FABLE·NAWL과 겹침 0), FABLE 단어의 학술 새 뜻 264(fault 단층 등). 모두 2,331장, 22세트로 짰다. 초안 16묶음 진행 중.
   - GRE: 의미 묶음 8개에서 1,070단어(뜻 1,088). 어려운 어휘 879, 쉬운 단어의 GRE 뜻 191. perpetual 포함.
   - FABLE 뜻 6,200여 개를 훑어 토플 핵심 2,633·GRE 핵심 724를 표시했다. 숨김 카드로 다 넣으면 토플이 4,000장을 넘어서, 1판에는 넣지 않고 영신에게 2판 안으로 묻는다.
+- 토플 카드(11-14 아침, Claude): 초안 16묶음(이솝) → 기계 점검·손질 → 이솝 검수 16묶음 → Claude 판정.
+  - 기계 점검·손질: 390px 줄 넘침 82, 책 안 예문 틀 겹침 88, 토익·FABLE 예문 겹침 14, 같은 뜻 중복 2(hide·till).
+  - 이솝 검수: 확정 94, 의심 약 350.
+  - Claude 판정: 반영 약 400곳. 같은 뜻 카드 3장을 뺐다(control ②·game ②·plot ②).
+  - 뜻 줄을 고친 카드: graduate ② 대학원생→졸업생, date ① date back, epicenter 진앙, segregation (인종) 분리, luminosity (천문) 광도 등.
+  - 결과: 2,257장(새 뜻 1,436, FABLE 같은 뜻 821), 22세트. 커밋 84a8b4d(검수 전), 4c4d44a(반영).
+  - 영신 직검수 페이지:
+    - 1~7세트 https://claude.ai/artifact/JZ9zHtM6Sup4dPrLT6PDQR
+    - 8~15세트 https://claude.ai/artifact/8ZndLwMV8viF6RuvUziGhJ
+    - 16~22세트 https://claude.ai/artifact/4FFSAh3Yv9B8s57LHvkqK4
+- GRE 카드(11-14 아침, Claude): 초안 8묶음(이솝) → 기계 점검·손질 → 이솝 검수 8묶음 → Claude 판정.
+  - 기계 점검·손질: 줄 넘침 64, 유의어 짝 같은 틀 22, 예문 겹침 8.
+  - 이솝 검수: 확정 173, 의심 약 380. 대부분 같은 칸 수 경쟁어였다.
+  - Claude 판정: 반영 약 440곳. 사실·어원 오류 10여 곳을 바로잡았다(invalid·apocryphal·recant·hoax·vernacular·indomitable·platitude·censorious 등).
+  - 결과: 1,088장, 10세트, 명문장 134장(구텐베르크 원문 대조). FABLE 같은 뜻 카드는 없다. 커밋 794463c(검수 전), df5ee07(반영).
+  - 영신 직검수 페이지:
+    - 1~5세트 https://claude.ai/artifact/HWhVVFRHDiNxDA6QiGtDBN
+    - 6~10세트 https://claude.ai/artifact/9gwBNooZmx7PEQc8zjrMVk
+  - 명문장 처리: 줄이 넘친 것은 연속 구절로 떼거나(perpetual·prudent·censure·utter 등), 같은 작가·작품군의 다른 원문으로 바꾸거나(guarded·remonstrate·sanguine), 직접 쓴 예문으로 바꿨다(discerning·protracted·ostensible·vacuous). limpid는 '맑은 눈' 쓰임이 뜻 줄과 어긋나 직접 쓴 예문으로 바꿨다. 대사 꼬리를 문장 가운데서 뺀 것(humility·enmity)은 FABLE "Begin at the beginning"과 같은 방식이다.
+- 엔진·도구(11-14 아침):
+  - 화면: FABLE 같은 뜻 연습이 없는 책은 'FABLE 뜻' 단추를 숨긴다(51632f2).
+  - 조립기: `config.json` `ipaOwn`에 적은 표제어는 FABLE IPA로 덮지 않는다(GRE desert).
+  - 검사:
+    - exam-course: FABLE 같은 뜻이 없는 책을 다루고, 1,000장 돌파 축하 뒤 완주 화면이 뜨는 순서를 따른다.
+    - IPA 보존 기준값·저장 키 검사기: 토플·GRE를 손으로 더했다.
+  - 연습 크기: 원본 연습은 15장 넘으면 12장 안팎으로 나눈다(토플·GRE 변환기).
+- 공통 손질: 해설칸 IPA 기호를 한글 소리로 바꿨다(UI_STANDARD). 토익 16장(d69da35), 토플 7장, GRE 10곳이다. GRE 예문의 굽은 따옴표 12장은 곧은 따옴표로 바꿨다.
+- 검사(새로 돌림):
+  - 저장소 검사 42개 통과, 빌더 `--check` 3개 통과(saved-cards·milestones·pace).
+  - 빌더 `--check` 8개 모두 통과, `sync --check` 통과.
+  - deepcheck A1·A2·A6·A7·A8: 토익·토플·GRE 0건. A3은 GRE 2건인데 분사·목적어 오탐이다.
+  - linecheck: 세 시험 모두 0·0.
+- **배포하지 않았다.** 세 시험 HTML은 브랜치에만 있고 첫 화면 index에도 없다.
+- 영신 판단 대기:
+  - 직검수 댓글
+  - 토플 영국식 표제어: onwards→onward로 바꿀지, postgraduate를 뺄지
+  - 토플 tenuous: 지금 '희박한'인데 '빈약한' 뜻 카드를 더할지
+  - FABLE 같은 뜻 보충(2판)
+  - 단추 문구·시험 고양이 대사·앱 제목·CC BY-SA 출처 표시·공개 시점
+- 남은 일:
+  - FABLE 본편 해설에도 IPA 기호가 남아 있다(판정 담당이 발견, 화면 DATA에서 Claude가 셈: 복습 판 빼고 36장). 따로 정리한다.
+  - FABLE IPA에 장음 부호 ː가 든 카드가 125장이다(refer·transfer 등, 시험 단어장 조립기가 같은 철자·품사로 따라간다). 대부분의 FABLE IPA에는 장음 부호가 없어 표기가 섞여 있다. 맞출지 따로 본다(문서에 정한 관례는 없다).
