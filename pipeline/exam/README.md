@@ -50,7 +50,7 @@ node pipeline/linecheck.cjs --course toeic
 python3 pipeline/review-page.py 1 --course toeic --since <커밋>   # 직검수 페이지
 ```
 
-토플·GRE를 시작할 때: `pipeline/exam/<id>/config.json`을 만들고 `node pipeline/exam/sync.cjs`(빈 HTML 생성) → 위 1~2단계 → 모듈 빌더(`saved-cards`·`milestones`·`pace`)는 엔진에서 복제되므로 다시 돌릴 필요가 없다. `storage-guard/config.json` targets에는 손으로 더한다. 진도 키 합치기(`record-transfer/config.json` kinds.progress)에는 toefl·gre가 이미 들어 있다.
+토플·GRE를 시작할 때: `pipeline/exam/<id>/config.json`을 만들고 `node pipeline/exam/sync.cjs`(빈 HTML 생성) → 위 1~2단계 → 모듈 빌더(`saved-cards`·`milestones`·`pace`)는 엔진에서 복제되므로 다시 돌릴 필요가 없다. `storage-guard/config.json` targets와 `ipa-effects/tests/conservation-baseline.json`(토익 항목을 복사해 저장 키만 바꾼다, `data: null`)에는 손으로 더한다. 진도 키 합치기(`record-transfer/config.json` kinds.progress)에는 toefl·gre가 이미 들어 있다.
 
 개발용 원본으로 화면을 다시 만들 때: `python3 pipeline/exam/assemble.py toeic --src pipeline/exam/tests/fixture` → `node pipeline/ipa-effects/build.cjs`.
 

@@ -104,7 +104,10 @@ for(const file of EXAMS){
   const s2=h.state.session;guard=0;
   while(h.els.get('gameScreen').classList.contains('active')&&guard++<200){const w=s2.words[s2.currentId];h.type(w.term);if(!s2.answered)h.ctx.submit();h.ctx.nextCard();}
   assert.match(h.els.get('sumTitle').textContent,new RegExp(h.run('EXAM.name')+' 단어장 완주'));
-  h.advance(1000);assert(h.els.get('examEnd').classList.contains('show')&&!h.els.get('examEnd').hidden,'완주 화면이 뜬다');
+  h.advance(1000);
+  // 새 뜻이 1,000장을 넘는 책(토플)은 마지막 판에서 돌파 축하가 먼저 뜬다. 완주 화면은 축하를 닫으면 뜬다(milestones: msPendingEnding).
+  if(h.run('msBusy')){assert(h.els.get('examEnd').hidden,'축하가 떠 있는 동안 완주 화면은 기다린다');h.run('msClose()');h.advance(1000);}
+  assert(h.els.get('examEnd').classList.contains('show')&&!h.els.get('examEnd').hidden,'완주 화면이 뜬다');
   assert.match(h.els.get('examEndTitle').textContent,/단어장 완주/);
   h.fire('examEndClose','click');assert(h.els.get('examEnd').hidden);
   reports.push({file,exercises:all.length,fableExercises:fableEx.length,hiddenCards:cards(fableEx)});
