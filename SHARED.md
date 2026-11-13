@@ -33,7 +33,7 @@
 
 | 기능 | 폴더 | 박혀 있는 게임별 값 |
 |---|---|---|
-| 모아둔 카드·검색 | `pipeline/saved-cards/` | 대상 HTML과 교재 이름(FABLE·마더텅·EBS) 목록이 build.cjs에 있다. 검색 정규화는 영어 기준이다 |
+| 모아둔 카드·검색 | `pipeline/saved-cards/` | 대상 HTML과 교재 이름(FABLE·마더텅·EBS·시험 단어장) 목록이 build.cjs에 있다. 시험 단어장은 카드 ID가 `[word,si]`다. 검색 정규화는 영어 기준이다 |
 | 돌파 축하 | `pipeline/milestones/` | 저장 키 `goyang-learned-words-v1` 등 |
 | 진행 속도 예측 | `pipeline/pace/` | 저장 키 `goyang-pace-…` |
 | 세트 완주 도장·FABLE 엔딩 | `pipeline/set-stamp/` | 저장 키 `goyang-fable-stamps-v1`, 엔딩 문구·드론 글자 |

@@ -114,7 +114,8 @@
   
   시험 순서는 토익 → 토플 → GRE다.
 - **GRE에 넣을 것:** perpetual 카드 예문으로 디킨스 『위대한 유산』 8장 "Within myself, I had sustained, from my babyhood, a perpetual conflict with injustice."를 쓴다. 영신이 11-13에 "나중에 어딘가에서 배울수 있으면 좋겠어"라고 했다. 표제어 밖 낱말은 babyhood 하나다.
-- 원본 자리: `pipeline/exam/`(시험마다 폴더). 화면·저장 구조는 엔진 조사 뒤 이 절에 덧붙인다.
+- 원본 자리: `pipeline/exam/`(시험마다 폴더).
+- **화면·저장 구조(11-14 Claude, 엔진 조사 뒤 결정):** 시험마다 HTML 하나(`vocagoyangtoeic.html` 등). FABLE 엔진을 복제하고 시험마다 다른 값은 `EXAM_CONFIG` 한 블록에 모은다. 저장 키는 `goyang-<시험>-…`(PRINCIPLES 0 앞머리 원칙). 한 페이지에 세 시험을 고르게 하지 않는 까닭: 모아둔 카드·돌파 축하·진행 속도·발음 효과가 모두 '파일 하나 = 교재 하나'를 전제하고, 학생이 세 시험을 다 받게 되기 때문이다. 자세한 것은 [pipeline/exam/README.md](pipeline/exam/README.md).
 - **토익 진행(11-14 새벽, Claude가 맡아 진행):**
   - 뜻 목록: TSL∪BSL 2,419단어에서 이솝이 토익 뜻 2,270개를 골랐다. 그중 FABLE과 같은 뜻이 1,278개(56%)다.
   - 표제어 정리: 목록이 원형으로 줄인 꼴(headquarter·housekeep·sightsee·fundraise·renown 등)을 실제 쓰는 꼴(headquarters·housekeeping·sightseeing·fundraising·renowned)로 고쳤다. 같은 카드가 겹친 것(unauthorize·salespeople·résumé), 접두사(semi), 영국식만 쓰는 말(cheque·tonne·sterling·amongst)과 토익에 드문 금융 토막(capita·annum·flotation 등)은 뺐다. 그래서 2,250장이다.

@@ -2052,3 +2052,20 @@
 - 진행:
   - 이솝 9명이 토익 2,419단어의 뜻 목록을 만든다(토익 뜻, FABLE 같은 뜻 여부, 수준, 중요도, 주제, 결합).
   - 엔진(새 교재를 넣는 자리) 조사를 하위 에이전트에 맡겼다.
+- 엔진(11-14 새벽, 개발 에이전트가 만들고 Claude가 확인):
+  - `vocagoyangtoeic.html`은 FABLE 엔진 복제다. 시험마다 다른 값은 `EXAM_CONFIG` 블록 하나에 모았고, 토플·GRE는 `pipeline/exam/sync.cjs`로 복제한다. 키는 `goyang-toeic-…`이다.
+  - "FABLE 뜻 빼는 중 / FABLE 뜻 포함" 단추는 기본이 켬이다. 켜면 scope `fable` 연습을 숨긴다(visEx). 진도 기록 키는 토글과 무관하게 같다.
+  - 지운 것: FABLE 전용 B1/C1, 세트 잠금, 도장, 강 번호 다시 매기기, 읽기 핵심·형태론·연결어 데이터. ALT·HINTS·세트 끝 대사는 비웠다.
+  - 모듈 등록: saved-cards(시험은 ID `[word,si]`), milestones, pace("토익 완주"), ipa-effects, storage-guard, record-transfer(진도 키 넓힘). 첫 화면 index에는 아직 넣지 않았다.
+  - 도구: `pipeline/exam/assemble.py`(검사·FABLE 연결 확인·IPA 맞추기), `review-page.py --course`, `linecheck.cjs --course`, `deepcheck.py --course`. 새 검사 `pipeline/tests/exam-course.test.cjs`.
+- 토익 카드(11-14 새벽):
+  - 표제어 정리, 배치, 꼴(en·허용 정답), 검수 과정은 [WORK_PLAN 토익 진행](WORK_PLAN.md#시험-단어장-토익토플gre--2026-11-14-확정)에 적었다.
+  - Claude 판정 원장(스크래치): 패치 1·2(표제어·FABLE 겹침·줄 넘침 59곳), 이솝 16묶음 판정(약 330곳), 읽기량 줄이기 49장, 책 안 예문 틀 겹침 13장.
+  - 결과: 2,250장(새 뜻 968, FABLE 같은 뜻 1,282), 21세트. `pipeline/exam/toeic/set01~21.json`.
+  - 검사(새로 돌림): 저장소 검사 49개 통과, 빌더 `--check` 8개·`sync --check` 통과. 토익 deepcheck A1·A2·A6·A8 0건, linecheck 0·0. FABLE 기준값(A6 16, A8 1, linecheck 0·0)은 그대로다. 390px 화면 확인: 토글, 정답·발음·따라쓰기, 카드 담기, 완주, 콘솔 오류 0.
+  - 영신 직검수 페이지: 1~3세트 https://claude.ai/artifact/B6M1EzUSXQdb6xBFg4tm7w · 4~11세트 https://claude.ai/artifact/ByQCt1j7nVK8HzpUipWRfb · 12~21세트 https://claude.ai/artifact/CnVMyV6sZL2Tp2cnTbEio2
+  - 커밋 2d84b84(브랜치). **배포하지 않았다.**
+- 토플·GRE 재료(11-14 새벽, 이솝):
+  - 토플: NAWL 뜻 목록 1,106(FABLE 같은 뜻 819), 분야 어휘 879단어(뜻 961, FABLE·NAWL과 겹침 0), FABLE 단어의 학술 새 뜻 264(fault 단층 등). 모두 2,331장, 22세트로 짰다. 초안 16묶음 진행 중.
+  - GRE: 의미 묶음 8개에서 1,070단어(뜻 1,088). 어려운 어휘 879, 쉬운 단어의 GRE 뜻 191. perpetual 포함.
+  - FABLE 뜻 6,200여 개를 훑어 토플 핵심 2,633·GRE 핵심 724를 표시했다. 숨김 카드로 다 넣으면 토플이 4,000장을 넘어서, 1판에는 넣지 않고 영신에게 2판 안으로 묻는다.

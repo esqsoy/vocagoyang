@@ -1,6 +1,14 @@
 # 보카고양 최신 인수인계
 
-갱신: 2026-11-13 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
+갱신: 2026-11-14 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
+
+## 2026-11-14 새벽 · 시험 단어장: 토익 완성(검수 대기·미배포), 토플·GRE 진행
+
+- 토익 단어장 `vocagoyangtoeic.html` 2,250장(21세트)을 브랜치에 커밋했다(2d84b84). **배포 안 함**, 첫 화면 index에도 아직 없다. 영신 직검수 페이지 세 장(WORK_LOG 11-14).
+- 원본 `pipeline/exam/toeic/setNN.json` → `python3 pipeline/exam/assemble.py toeic` → `node pipeline/ipa-effects/build.cjs`. 구조·명령은 [pipeline/exam/README.md](pipeline/exam/README.md).
+- 토글 "FABLE 뜻 빼는 중"(기본 켬)은 scope `fable` 연습을 숨긴다. 새 뜻만 968장, 끄면 2,250장.
+- 토플(2,331장 계획, 초안 중)·GRE(1,088 뜻 목록)는 진행 중이다. 작업 파일은 스크래치에 있다. 저장소에 넣을 때 `pipeline/exam/<id>/config.json`을 만들고 `node pipeline/exam/sync.cjs`로 엔진을 복제한다.
+- **영신 판단 대기:** 단추 문구·시험용 고양이 대사(지금 비어 있음)·앱 제목, CC BY-SA 출처를 화면에 둘지, 첫 화면에 언제 올릴지(배포), 토플·GRE에 FABLE 같은 뜻 보충(토플 2,633·GRE 724)을 넣을지.
 
 ## 2026-11-13 오후 · injustice 명문장, 저장 키 검사기
 
