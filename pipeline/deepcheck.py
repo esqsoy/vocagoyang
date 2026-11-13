@@ -2,9 +2,21 @@
 """완성도 전수 검사 — 4절(중의성)·exaudit(어휘) 밖의 기준들 (26.9.17)
    A1 si/sn 무결성 · A2 IPA 일관성 · A3 pos↔빈칸 자리 · A5 예문 교차 중복 · A6 형식 규칙 · A7 빈칸 어미 · A8 읽기량
    (A4 tr↔뜻 대응은 설계에 실패해 폐기 — 아래 주석)
-사용: python3 pipeline/deepcheck.py [--list A3 A4 ...]"""
+사용: python3 pipeline/deepcheck.py [--list A3 A4 ...] [--course 시험id | --src 폴더]
+  --course toeic: 시험 단어장 원본(pipeline/exam/toeic/setNN.json)을 본다. --src로 다른 원본 폴더(개발용 fixture)를 줄 수 있다.
+  시험 단어장은 세트 번호와 상관없이 모든 카드를 본다(FABLE의 46세트~ 복습·어원 과정 제외 규칙이 없다)."""
 import json,glob,re,os,sys,collections
 P=os.path.join(os.path.dirname(os.path.abspath(__file__)))
+def opt(k):
+    return sys.argv[sys.argv.index(k)+1] if k in sys.argv[:-1] else None
+COURSE=opt('--course'); SRC=opt('--src') or (os.path.join(P,'exam',COURSE) if COURSE else None)
+# FABLE: 0~45세트가 어휘 카드(46세트~는 복습·어원·연결 과정). 시험 단어장: 모든 세트.
+LIM=float('inf') if SRC else 45
+def load_exam(src):
+    cfg=json.load(open(os.path.join(src,'config.json'),encoding='utf-8'))
+    for st in cfg['sets']:
+        for ex in json.load(open(os.path.join(src,f"set{st['lesson']:02d}.json"),encoding='utf-8')):
+            for w in ex.get('words',[]): yield st['lesson'],ex.get('name','?'),w
 def load():
     fs=sorted(glob.glob(f'{P}/out/lesson0[0-4].json'))+sorted(
         glob.glob(f'{P}/out/set*.json'),key=lambda f:int(re.search(r'set(\d+)',f).group(1)))
@@ -13,7 +25,7 @@ def load():
         ln=int(re.search(r'(\d+)',os.path.basename(f)).group(1))
         for ex in exs:
             for w in ex.get('words',[]): yield ln,ex.get('name','?'),w
-cards=list(load())
+cards=list(load_exam(SRC) if SRC else load())
 CIRC=re.compile(r'^[①-⑳\s]+')
 def sg(ko):
     ko=re.sub(r'\(.*?\)','',ko or ''); out=[]
@@ -26,9 +38,9 @@ F=collections.defaultdict(list)          # 기준 -> [(세트, 단어, 설명)]
 # ── A1 si/sn 무결성
 by=collections.defaultdict(list)
 for ln,_,w in cards:
-    if ln<46: by[w.get('word')].append((ln,w))
+    if ln<=LIM: by[w.get('word')].append((ln,w))
 for word,lst in by.items():
-    if any(l>=46 for l,_ in lst): continue
+    if any(l>LIM for l,_ in lst): continue
     sis=sorted(w.get('si') or 0 for _,w in lst)
     sns={w.get('sn') for _,w in lst}
     n=len(lst)
@@ -44,7 +56,7 @@ for word,lst in by.items():
 HETERO={'address','aged','bass','primer'}
 for word,lst in by.items():
     if word in HETERO: continue
-    if any(l>=46 for l,_ in lst): continue
+    if any(l>LIM for l,_ in lst): continue
     bypos=collections.defaultdict(set)
     # 같은 표제어라도 답이 other/others처럼 실제로 다르면 발음도 달라진다.
     # 실제 정답 형태와 품사가 같은 카드끼리만 비교한다.
@@ -66,7 +78,7 @@ for word,lst in by.items():
 # 'that'·'one'은 여기서 한정사가 아니라 주어다(That sounds…, No one objected…) — 뺀다.
 DET=r"(a|an|the|my|your|his|her|its|our|their|these|those|some|any|every|each|another)"
 for ln,exn,w in cards:
-    if ln>=46: continue
+    if ln>LIM: continue
     ex=w.get('ex') or ''; pos=(w.get('pos') or '').rstrip('.')
     m=re.search(r'(\S+)?\s*\{\{BLANK\}\}(\w*)',ex)
     if not m: continue
@@ -89,7 +101,7 @@ for ln,exn,w in cards:
 # ── A5 예문 교차 중복
 seen=collections.defaultdict(list)
 for ln,exn,w in cards:
-    if ln>=46: continue
+    if ln>LIM: continue
     k=re.sub(r'\s+',' ',(w.get('ex') or '')).strip().lower()
     if k: seen[k].append((ln,w.get('word'),w.get('si')))
 for k,v in seen.items():
@@ -135,13 +147,13 @@ def reading_load(w):
     ex=w.get('ex') or ''
     return 0.25*len(ex.split())+0.11*(len(w.get('tr') or '')+len(w.get('c') or ''))+0.055*len(w.get('meow') or '')
 for ln,exn,w in cards:
-    if not w.get('ex') or ln>45: continue
+    if not w.get('ex') or ln>LIM: continue
     t=reading_load(w); cap=13 if is_function(w) else 12
     if t>cap: F['A8'].append((ln,f"{w.get('word')}({w.get('si')})",f"{t:.1f}초 > {cap}초"))
 
 NAME={'A1':'si/sn 무결성','A2':'IPA 일관성','A3':'pos↔빈칸 자리',
       'A5':'예문 교차 중복','A6':'형식 규칙','A7':'빈칸 어미','A8':'읽기량'}
-print(f"어휘 카드 {sum(1 for l,_,_ in cards if l<46)}장 검사\n")
+print((f"{COURSE or os.path.basename(SRC)} 원본 " if SRC else '')+f"어휘 카드 {sum(1 for l,_,_ in cards if l<=LIM)}장 검사\n")
 for k in ('A1','A2','A3','A5','A6','A7','A8'):
     print(f"  {k} {NAME[k]:<12} {len(F[k])}건")
 want=[a for a in sys.argv[1:] if a in NAME]

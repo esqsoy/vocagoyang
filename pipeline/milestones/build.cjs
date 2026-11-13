@@ -5,12 +5,14 @@ const root=path.resolve(__dirname,'../..'),check=process.argv.includes('--check'
 // Git may check sources out as CRLF; generated HTML and checks use LF on every OS.
 const readText=file=>fs.readFileSync(file,'utf8').replace(/\r\n/g,'\n');
 const style=readText(path.join(__dirname,'style.css')).trim(),runtime=readText(path.join(__dirname,'runtime.js')).trim();
-for(const [file,course] of [['vocagoyangfable.html','fable'],['vocagoyangksat2027.html','ksat'],['vocagoyangebs2027.html','ebs']]){
+// 시험 단어장(pipeline/exam)은 설정 블록의 교재 id(EXAM.msCourse)를 쓴다.
+const exams=require('../exam/courses.cjs').examPages().map(p=>[p.file,'EXAM.msCourse']);
+for(const [file,course] of [['vocagoyangfable.html','fable'],['vocagoyangksat2027.html','ksat'],['vocagoyangebs2027.html','ebs'],...exams]){
  const target=path.join(root,file),before=readText(target);let html=before;
  const css='<style id="milestones-style">\n'+style+'\n</style>';
  if(html.includes('<style id="milestones-style">'))html=html.replace(/<style id="milestones-style">[\s\S]*?<\/style>/,()=>css);
  else html=html.replace('</head>',css+'\n</head>');
- const js='/* MILESTONES_START */\nconst MS_COURSE='+JSON.stringify(course)+';\n'+runtime+'\nmsInit();\n/* MILESTONES_END */';
+ const js='/* MILESTONES_START */\nconst MS_COURSE='+(course.startsWith('EXAM.')?course:JSON.stringify(course))+';\n'+runtime+'\nmsInit();\n/* MILESTONES_END */';
  if(html.includes('/* MILESTONES_START */'))html=html.replace(/\/\* MILESTONES_START \*\/[\s\S]*?\/\* MILESTONES_END \*\//,()=>js);
  else {const at=html.lastIndexOf('\nrenderHome();');assert(at>=0,file);html=html.slice(0,at)+'\n'+js+html.slice(at);}
  if(check)assert.equal(before,html,file+' has stale milestone runtime or styles');else fs.writeFileSync(target,html);

@@ -53,6 +53,8 @@ const sources={
 };
 const ebsFile=path.join(repo,'pipeline/ebs-pronunciations.json');
 if(fs.existsSync(ebsFile))sources.ebs=Object.entries(JSON.parse(fs.readFileSync(ebsFile,'utf8')).entries).map(([term,p])=>[term,p.ipa]);
+// 시험 단어장(pipeline/exam): FABLE 엔진이라 카드 IPA를 그대로 쓴다.
+for(const page of require('../exam/courses.cjs').examPages())sources[page.id]=flatten(htmlData(page.file)).map(w=>[w.en,w.ipa]);
 const summary={},unique=new Map(),fallback=[],aligned=[];
 for(const [source,pairs]of Object.entries(sources)){
  const counts={entries:0,aligned:0,whole:0,reasons:{}};

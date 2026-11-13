@@ -1,0 +1,257 @@
+[
+  {
+    "ex": 1,
+    "name": "회의와 문서",
+    "words": [
+      {
+        "en": "minutes",
+        "ko": "① 회의록",
+        "ex": "Could you take the {{BLANK}} at today's meeting?",
+        "tr": "오늘 회의 회의록 좀 써 줄래?",
+        "c": "이 뜻은 늘 복수형 minutes로 쓴다. take the minutes = 회의록을 쓰다.",
+        "ipa": "ˈmɪnɪts",
+        "pos": "n.",
+        "word": "minutes",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "party",
+        "ko": "② (계약·소송의) 당사자",
+        "ex": "Each {{BLANK}} must sign the contract by Friday.",
+        "tr": "각 당사자가 금요일까지 계약서에 서명해야 해.",
+        "c": "계약서의 both parties = 양측, 쌍방.",
+        "ipa": "ˈpɑːti",
+        "pos": "n.",
+        "word": "party",
+        "si": 2,
+        "sn": 2
+      },
+      {
+        "en": "invoice",
+        "ko": "① 청구서, 송장",
+        "ex": "We will send the {{BLANK}} after the goods arrive.",
+        "tr": "물건이 도착하면 청구서를 보낼게요.",
+        "c": "bill보다 격식 있는 사업 서류다.",
+        "ipa": "ˈɪnvɔɪs",
+        "pos": "n.",
+        "word": "invoice",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "receptionist",
+        "ko": "① 접수 담당자, 안내 직원",
+        "ex": "The {{BLANK}} will call your name soon.",
+        "tr": "접수 직원이 곧 이름을 부를 거예요.",
+        "c": "reception(접수처) + -ist(사람).",
+        "ipa": "rɪˈsɛpʃənɪst",
+        "pos": "n.",
+        "word": "receptionist",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "coworker",
+        "ko": "① 직장 동료",
+        "ex": "I had lunch with a {{BLANK}} from the sales team.",
+        "tr": "영업팀 동료랑 점심을 먹었어.",
+        "c": "co-worker로도 쓴다.",
+        "ipa": "ˈkoʊˌwɝkɚ",
+        "pos": "n.",
+        "word": "coworker",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 2,
+    "name": "급여·경비",
+    "words": [
+      {
+        "en": "attendee",
+        "ko": "① 참석자",
+        "ex": "Each {{BLANK}} will get a name tag at the door.",
+        "tr": "참석자는 모두 입구에서 이름표를 받아.",
+        "c": "attend(참석하다) + -ee(~하는 사람).",
+        "ipa": "əˌtɛnˈdi",
+        "pos": "n.",
+        "word": "attendee",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "reimburse",
+        "ko": "① (쓴 돈을) 돌려주다, 변제하다",
+        "ex": "The company will {{BLANK}} your taxi fare.",
+        "tr": "택시비는 회사가 돌려줄 거야.",
+        "c": "pay back보다 격식 있는 말.",
+        "ipa": "ˌriɪmˈbɝs",
+        "pos": "v.",
+        "word": "reimburse",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "quarterly",
+        "ko": "① 분기의, 분기별",
+        "ex": "Sales went up in the last {{BLANK}} report.",
+        "tr": "지난 분기 보고서에서 매출이 올랐어.",
+        "c": "quarter(4분의 1, 분기)의 형용사.",
+        "ipa": "ˈkwɔrtɚli",
+        "pos": "adj.",
+        "word": "quarterly",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "payroll",
+        "ko": "① 급여 대장, 급여 업무",
+        "ex": "Ask the {{BLANK}} office about your pay slip.",
+        "tr": "급여 명세서는 급여과에 물어봐.",
+        "c": "",
+        "ipa": "ˈpeɪˌroʊl",
+        "pos": "n.",
+        "word": "payroll",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 1,
+    "name": "사무",
+    "scope": "fable",
+    "words": [
+      {
+        "en": "party",
+        "ko": "① 파티, 모임",
+        "ex": "The office {{BLANK}} starts at seven.",
+        "tr": "회사 파티는 7시에 시작해.",
+        "c": "",
+        "ipa": "ˈpɑrti",
+        "pos": "n.",
+        "word": "party",
+        "si": 1,
+        "sn": 2,
+        "fable": {
+          "set": 2,
+          "si": 1
+        }
+      },
+      {
+        "en": "agenda",
+        "ko": "① 의제, 안건",
+        "ex": "The budget is first on the {{BLANK}}.",
+        "tr": "예산이 첫 번째 안건이야.",
+        "c": "",
+        "ipa": "əˈdʒɛndə",
+        "pos": "n.",
+        "word": "agenda",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 33,
+          "si": 1
+        }
+      },
+      {
+        "en": "colleague",
+        "ko": "① 동료",
+        "ex": "My {{BLANK}} covered my shift yesterday.",
+        "tr": "어제 동료가 내 근무를 대신 서 줬어.",
+        "c": "",
+        "ipa": "ˈkɒliːɡ",
+        "pos": "n.",
+        "word": "colleague",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 6,
+          "si": 1
+        }
+      },
+      {
+        "en": "deadline",
+        "ko": "① 마감 기한",
+        "ex": "The {{BLANK}} for the report is Monday.",
+        "tr": "보고서 마감은 월요일이야.",
+        "c": "",
+        "ipa": "ˈdɛdˌlaɪn",
+        "pos": "n.",
+        "word": "deadline",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 27,
+          "si": 1
+        }
+      },
+      {
+        "en": "department",
+        "ko": "① 부서",
+        "ex": "She moved to the marketing {{BLANK}}.",
+        "tr": "그녀는 마케팅 부서로 옮겼어.",
+        "c": "",
+        "ipa": "dɪˈpɑrtmənt",
+        "pos": "n.",
+        "word": "department",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 4,
+          "si": 1
+        }
+      },
+      {
+        "en": "meeting",
+        "ko": "① 회의",
+        "ex": "The {{BLANK}} ran over by an hour.",
+        "tr": "회의가 한 시간 넘게 길어졌어.",
+        "c": "",
+        "ipa": "ˈmitɪŋ",
+        "pos": "n.",
+        "word": "meeting",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 4,
+          "si": 1
+        }
+      },
+      {
+        "en": "memo",
+        "ko": "① 메모, 회람",
+        "ex": "Did you read the {{BLANK}} about the new rules?",
+        "tr": "새 규칙에 관한 회람 읽었어?",
+        "c": "",
+        "ipa": "ˈmɛmoʊ",
+        "pos": "n.",
+        "word": "memo",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 40,
+          "si": 1
+        }
+      },
+      {
+        "en": "expense",
+        "ko": "① 비용, 지출",
+        "ex": "Keep every receipt for travel {{BLANK}}s.",
+        "tr": "출장 경비 영수증은 다 챙겨 둬.",
+        "c": "",
+        "ipa": "ɪkˈspɛns",
+        "pos": "n.",
+        "word": "expense",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 28,
+          "si": 1
+        }
+      }
+    ]
+  }
+]

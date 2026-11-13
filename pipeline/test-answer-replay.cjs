@@ -1,6 +1,8 @@
 const assert=require('node:assert/strict'),path=require('node:path');
 const {harness,root}=require('./tests/helpers/mother-tongue-harness.cjs');
-for(const file of ['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyangebs2027.html']){
+// 세 교재와 시험 단어장(pipeline/exam). FABLE 엔진(시험 단어장 포함)은 파일 이름이 아니라 엔진으로 가린다.
+const {ALL,isFableEngine}=require('./tests/helpers/courses.cjs');
+for(const file of ALL){
  const h=harness(path.join(root,file),{},{manualSpeech:true});h.start();
  const s=h.state.session,w=s.words[s.currentId],id=s.currentId;
  const event=(type='click',extra={})=>{let prevented=false,stopped=false;h.fire('hoeCtx',type,{type,target:h.blank,...extra,preventDefault(){prevented=true;},stopPropagation(){stopped=true;}});return {prevented,stopped};};
@@ -8,7 +10,7 @@ for(const file of ['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyange
  h.type(w.term);assert(s.answered&&!s.copyMode);assert.equal(h.blank.getAttribute('role'),'button');assert.equal(h.blank.getAttribute('tabindex'),'0');
  assert.equal(h.blank.getAttribute('aria-label'),w.term+' 발음 다시 듣기');
  assert(!/rv-inline-ipa|ov-ipa/.test(h.els.get('reveal').innerHTML),'No IPA in commentary');
- if(file.includes('fable')&&w.c)assert(h.els.get('reveal').innerHTML.includes(h.ctx.esc(w.c)),'Keep FABLE word commentary');
+ if(isFableEngine(file)&&w.c)assert(h.els.get('reveal').innerHTML.includes(h.ctx.esc(w.c)),'Keep FABLE word commentary');
  const learning=()=>JSON.stringify({id:s.currentId,attempts:s.attempts,errors:s.errors,queue:s.queue,streak:s.streak,word:w});
  const before=learning();let hearts=0;h.ctx.fx=()=>hearts++;
  const initial=h.spoken.at(-1);initial.onstart();h.advance(300);

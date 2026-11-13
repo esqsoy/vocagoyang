@@ -19,6 +19,10 @@ const want={
   // 설정·이어하기 자리(이 기기에 없을 때만 가져온다)
   'goyang-hoe-last-v1':'keep','goyang-hoe-mode-v1':'keep','goyang-hoe-uni-v1':'keep','goyang-fable-level-v1':'keep',
   'goyang-seoul-last-v1':'keep','goyang-mode-v1':'keep','goyang-uni-v1':'keep',
-  'goyang-ebs-seoul-last-v1':'keep','goyang-ebs-mode-v1':'keep','goyang-ebs-uni-v1':'keep'};
+  'goyang-ebs-seoul-last-v1':'keep','goyang-ebs-mode-v1':'keep','goyang-ebs-uni-v1':'keep',
+  // 시험 단어장(pipeline/exam): 진도는 두 기기 합치기, 모아둔 카드·속도도 같은 규칙, 나머지 키는 그대로 옮긴다.
+  'goyang-toeic-seoul-v1':'progress','goyang-toefl-seoul-v1':'progress','goyang-gre-seoul-v1':'progress',
+  'goyang-toeic-seoul-v1-saved-cards-v1':'saved','goyang-pace-toeic-v1':'pace','goyang-pace-meta-toeic-v1':'paceMeta',
+  'goyang-toeic-seoul-last-v1':'keep','goyang-toeic-mode-v1':'keep','goyang-toeic-uni-v1':'keep'};
 Object.entries(want).forEach(([k,kind])=>assert.equal(rt.rtKind(k),kind,k));
 console.log('record-transfer: 보카고양 keys OK');

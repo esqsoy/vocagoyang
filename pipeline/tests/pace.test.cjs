@@ -15,6 +15,7 @@ function load(course='fable',opt={}){
   inScope:course==='fable'?(L=>!opt.b1||L.lesson<=25):undefined,esc:s=>String(s),$:q=>el(q.slice(1)),
   document:{addEventListener(){},createElement:()=>el('paceNote')},startExercise(){},finishExercise(){}};
  if(course!=='fable')delete ctx.inScope;
+ if(opt.name)ctx.PACE_NAME=opt.name;   // 시험 단어장: 빌더가 설정 블록의 교재 이름을 준다
  vm.createContext(ctx);vm.runInContext(src,ctx);
  ctx.tick=ms=>{clock+=ms;};ctx.store=store;ctx.els=els;return ctx;
 }
@@ -57,7 +58,11 @@ const plays=(n,o={})=>Array.from({length:n},(_,i)=>({at:NOW-(o.days?o.days(i,n):
  c=load('fable',{done:['25세트|E1']});t=c.paceTargets();assert.equal(t.label,'4,600단어');assert.equal(t.passed,'2,600단어');
  c=load('fable',{b1:true});t=c.paceTargets();assert.equal(t.label,'2,600단어');assert.equal(t.next,null);
  c=load('fable',{b1:true,done:['25세트|E1']});assert.equal(c.paceTargets(),null);
- c=load('ksat',{lessons:[{id:'01강',lesson:1,name:'글의 목적',exercises:[{title:'E1',words:[{term:'goal'}]}]}]});assert.equal(c.paceTargets().label,'마더텅 완주');}
+ c=load('ksat',{lessons:[{id:'01강',lesson:1,name:'글의 목적',exercises:[{title:'E1',words:[{term:'goal'}]}]}]});assert.equal(c.paceTargets().label,'마더텅 완주');
+ c=load('ebs',{lessons:[{id:'01강',lesson:1,name:'',exercises:[{title:'E1',words:[{term:'goal'}]}]}]});assert.equal(c.paceTargets().label,'EBS 완주');
+ // 시험 단어장은 교재 이름으로 '토익 완주'. 세트가 많아도 목표는 전부 하나다.
+ c=load('toeic',{name:'토익',lessons:[1,2].map(n=>({id:n+'세트',lesson:n,name:'사무',exercises:[{title:'E1',words:[{word:'invoice',ex:'a {{BLANK}}',tr:'',c:''}]}]}))});
+ t=c.paceTargets();assert.equal(t.label,'토익 완주');assert.equal(t.next,null);assert.equal(t.ex,2);}
 
 // 8. 무엇을 말할지: 처음(10판째) > 오랜만(3일+) > 하루가 짧음(하루 한 번) > 앞 목표 돌파 > 느려짐 > 빨라짐 > 다섯 판마다. 나머지는 원래 대사.
 {const c=load(),T={label:'2,600단어',next:'4,600단어',passed:null},t={u:12000,ex:100};

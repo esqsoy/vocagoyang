@@ -13,8 +13,9 @@ function msRead(){
   try{const o=JSON.parse(localStorage.getItem(msLearnedKey)||'{}');return o&&typeof o==='object'&&!Array.isArray(o)?o:{};}
   catch{return {};}
 }
-/* 배운 순서를 지킨다: FABLE → 마더텅 → EBS, 교재 안에서는 세트·연습 순서. */
-function msUnion(all){const u=new Set(),order=['fable','ksat','ebs',...Object.keys(all).filter(k=>!['fable','ksat','ebs'].includes(k))];
+/* 배운 순서를 지킨다: FABLE → 마더텅 → EBS → 시험 단어장(토익·토플·GRE), 교재 안에서는 세트·연습 순서. */
+var msOrder=['fable','ksat','ebs','toeic','toefl','gre'];
+function msUnion(all){const u=new Set(),order=[...msOrder,...Object.keys(all).filter(k=>!msOrder.includes(k))];
   order.forEach(c=>Array.isArray(all[c])&&all[c].forEach(k=>typeof k==='string'&&k&&u.add(k)));return u;}
 function msCourseWords(){
   const set=new Set();

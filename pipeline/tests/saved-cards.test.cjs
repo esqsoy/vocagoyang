@@ -4,7 +4,8 @@
 // existing DOM/speech harness and exercise their public saved-card hooks.
 const assert=require('node:assert/strict'),path=require('node:path');
 const {harness,root}=require('./helpers/mother-tongue-harness.cjs');
-const files=['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyangebs2027.html'];
+// 세 교재와 시험 단어장(pipeline/exam, HTML이 있는 것).
+const {ALL:files,isExam}=require('./helpers/courses.cjs');
 const plain=v=>JSON.parse(JSON.stringify(v));
 const current=h=>h.state.session.words[h.state.session.currentId];
 const items=h=>h.ctx.savedItems();
@@ -64,11 +65,13 @@ function playSaved(h){
 }
 const reports=[];
 for(const file of files){
- const filename=path.join(root,file),course=file.includes('fable')?'FABLE':file.includes('ksat')?'Mother Tongue':'EBS';
+ const filename=path.join(root,file),course=isExam(file)?'Exam '+file:file.includes('fable')?'FABLE':file.includes('ksat')?'Mother Tongue':'EBS';
  let h=harness(filename);assert.equal(storeKey(h),h.run('STORAGE')+'-saved-cards-v1');
  const allWords=h.state.lessons.flatMap(L=>L.exercises.flatMap(e=>e.words));
  assert(allWords.every(w=>typeof w.savedCardId==='string'&&w.savedCardId),'Every original card has a stable ID');
  assert.equal(new Set(allWords.map(w=>w.savedCardId)).size,allWords.length,'Distinct card occurrences must not merge by headword');
+ // 시험 단어장 카드 ID는 [표제어, 뜻 번호]다(책 안에서 하나, 카드를 옮겨도 그대로).
+ if(isExam(file))assert(allWords.every(w=>w.savedCardId===JSON.stringify([w.word,w.si])),file+': exam card IDs are [headword, sense]');
  const originalCount=h.ctx.totalExercises(),originalCards=allWords.length;
  h.start();let w=current(h),before=quizSnapshot(h);const id=w.savedCardId;
  clickCat(h);assert.equal(quizSnapshot(h),before,'Saving a question must neither submit nor advance');assert(selected(h,w));
@@ -114,7 +117,7 @@ for(const file of files){
  assert.deepEqual(plain(h.state.progress),progressBefore);assert.deepEqual(learningStorage(h),storageBefore);
  assert.equal(h.state.perfectStreak,3,'A saved review neither extends nor breaks the course perfect streak');
  assert.equal(h.ctx.totalExercises(),totalBefore);assert.equal(h.ctx.clearedExercises(),doneBefore);
- assert(!h.els.get('ending')?.classList.contains('show')&&!h.run('typeof feState!=="undefined"&&!!feState'),'Saved review is not a curriculum ending');   // FABLE 엔딩은 #fEnd(세트 도장 모듈)
+ assert(!h.els.get('ending')?.classList.contains('show')&&!h.els.get('examEnd')?.classList.contains('show')&&!h.run('typeof feState!=="undefined"&&!!feState'),'Saved review is not a curriculum ending');   // FABLE 엔딩은 #fEnd(세트 도장 모듈)
  assert(h.els.get('nextEx').disabled,'The final saved exercise must not lead into a numbered course');
  h.ctx.savedOpen();assert.equal(h.state.savedLesson.exercises.length,0,'The collection becomes empty after returning to its list');
  assert.equal(h.state.lessons,lessonsBefore);
@@ -149,14 +152,14 @@ for(const file of files){
  assert(listNodes.every(el=>!el.innerHTML.includes(hostile)),'Collection details never insert unescaped card text as HTML');
  // Even a learner who already cleared the complete curriculum should only see
  // the personal-review result, never the global ending again.
- const complete=harness(filename);complete.state.prevOn=true;
+ const complete=harness(filename);complete.state.prevOn=true;complete.state.fableOff=false;
  for(const L of complete.state.lessons)for(const e of L.exercises)complete.ctx.setRec(L.id,e.title,{timeMs:1,attempts:1,errors:0,first:100});
  complete.start();assert.equal(complete.ctx.savedToggleCurrent(),true);
  const completedProgress=JSON.stringify(complete.state.progress),completedStorage=learningStorage(complete);
  playSaved(complete);complete.advance(1000);
- assert(!complete.els.get('ending')?.classList.contains('show')&&!complete.run('typeof feState!=="undefined"&&!!feState'),'Saved review cannot reopen a fully completed curriculum ending');
+ assert(!complete.els.get('ending')?.classList.contains('show')&&!complete.els.get('examEnd')?.classList.contains('show')&&!complete.run('typeof feState!=="undefined"&&!!feState'),'Saved review cannot reopen a fully completed curriculum ending');
  assert.equal(JSON.stringify(complete.state.progress),completedProgress);assert.deepEqual(learningStorage(complete),completedStorage);
- reports.push({course,cards:originalCards,exercises:originalCount,storage:'reference-only/reload/error checked',review:'isolated from curriculum progress'});
+ reports.push({course,cards:originalCards,ids:new Set(allWords.map(w=>w.savedCardId)).size,exercises:originalCount,storage:'reference-only/reload/error checked',review:'isolated from curriculum progress'});
 }
 
 // Mother Tongue cards retain their own original passage and homograph meaning,

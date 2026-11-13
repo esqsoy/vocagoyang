@@ -14,10 +14,11 @@ assert.equal(withAudio.stats.audioCards,1,'Ambiguous alternatives cannot be assi
 assert.equal(withAudio.stats.contextSpeechCards,1,'Only the ambiguous card keeps its context phrase');
 assert.equal(withoutAudio.stats.contextSpeechCards,2,'Native context keeps its original whole-word behavior');
 assert(withAudio.maps['contract\tkənˈtrækt']);assert(!withoutAudio.maps['contract\tkənˈtrækt']);
-for(const file of ['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyangebs2027.html']){
+// 세 교재와 시험 단어장(pipeline/exam, HTML이 있는 것).
+for(const file of require('../tests/helpers/courses.cjs').ALL){
  const src=fs.readFileSync(path.join(root,file),'utf8');
  const built=buildPage(src,{runtime:fs.readFileSync(path.join(__dirname,'../ipa-effects/runtime.js'),'utf8'),styles:fs.readFileSync(path.join(__dirname,'../ipa-effects/styles.css'),'utf8')});
  assert(built.stats.audioCards>0,file+' should contain actual exceptions');
  assert.equal(built.html,src.replace(/\r\n/g,'\n'),file+' must be generated');
 }
-console.log('PASS exact pronunciation assets, alternatives exclusion, contextual fallback, and all three generated hosts.');
+console.log('PASS exact pronunciation assets, alternatives exclusion, contextual fallback, and all generated hosts (three courses and exam books).');

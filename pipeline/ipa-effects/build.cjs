@@ -3,7 +3,8 @@ const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),asse
 const {align}=require('./alignment.cjs');
 const audio=require('../pronunciation-audio/build.cjs');
 const ROOT=path.resolve(__dirname,'../..');
-const PAGES=['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyangebs2027.html'];
+// 시험 단어장(pipeline/exam)은 HTML이 있는 것만 더한다. 카드 IPA는 카드에서 온다(MT_PRONUNCIATIONS 없음).
+const PAGES=['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyangebs2027.html',...require('../exam/courses.cjs').examPages().map(p=>p.file)];
 const RUNTIME_START='/* IPA_EFFECT_RUNTIME_START */',RUNTIME_END='/* IPA_EFFECT_RUNTIME_END */';
 const STYLES_START='/* IPA_EFFECT_STYLES_START */',STYLES_END='/* IPA_EFFECT_STYLES_END */';
 function assignment(source,name,required=true){

@@ -12,8 +12,11 @@ function savedInit(){
   savedSearchIndex=null;
   savedCatalog.clear();
   state.lessons.forEach(L=>L.exercises.forEach(e=>e.words.forEach((w,index)=>{
+    // 카드 ID: FABLE은 연습 기록 키+표제어+뜻 번호, 시험 단어장(SAVED_ID_KIND 'word-si')은 [표제어, 뜻 번호]
+    // (책 안에서 하나라서 카드를 다른 연습·세트로 옮겨도 그대로다), 마더텅·EBS는 위치.
     const id=w.savedId||(SAVED_COURSE==='FABLE'
       ?JSON.stringify([e.progressId||L.progressId||L.id,e.parentRecord?.title||e.progressTitle||e.sourceTitle||e.title,w.word||w.term,w.si||1,w.unitId||w.constructionId||''])
+      :typeof SAVED_ID_KIND!=='undefined'&&SAVED_ID_KIND==='word-si'?JSON.stringify([w.word||w.term,w.si||1])
       :JSON.stringify([L.lesson,e.scope,e.ex,index]));
     w.savedCardId=id;
     savedCatalog.set(id,{id,word:w,source:L.id+' · '+(e.displayTitle||e.title)});

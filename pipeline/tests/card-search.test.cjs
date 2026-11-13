@@ -3,7 +3,8 @@
 // and saving a result must preserve the existing learning and collection paths.
 const assert=require('node:assert/strict'),path=require('node:path');
 const {harness,root}=require('./helpers/mother-tongue-harness.cjs');
-const files=['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyangebs2027.html'];
+// 세 교재(앞 셋, 아래에서 files[0]·files[1]로 FABLE·마더텅을 쓴다)와 시험 단어장(pipeline/exam, HTML이 있는 것).
+const {ALL:files}=require('./helpers/courses.cjs');
 const ui=h=>h.run('savedSearchUI');
 const catalog=h=>[...h.ctx.savedCatalog.values()];
 const find=(h,q)=>[...h.ctx.savedSearchFind(q)];
@@ -49,6 +50,9 @@ for(const file of files){
  assert(firstPartial>0);assert(ranked.slice(firstPartial).every(item=>!exact(item)),'No exact headword is hidden behind partial matches');
 
  let currentUI=search(h,'a');
+ // 개발용 작은 원본(시험 단어장 fixture, 수십 장)은 'a' 결과가 48장에 못 미쳐 '더 보기'를 볼 수 없다. 실제 원본이면 그대로 본다.
+ if(all.length<100&&currentUI.matches.length<=48){assert(currentUI.more.hidden);assert.equal(currentUI.buttons.length,Math.min(24,currentUI.matches.length));}
+ else{
  assert(currentUI.matches.length>48,'A broad real query exercises incremental results');
  assert.equal(currentUI.shown,24);assert.equal(currentUI.buttons.length,24);assert(!currentUI.more.hidden);
  currentUI.more.click();assert.equal(currentUI.shown,48);assert.equal(currentUI.buttons.length,48);
@@ -56,6 +60,7 @@ for(const file of files){
  while(!currentUI.more.hidden)currentUI.more.click();
  assert.equal(currentUI.buttons.length,currentUI.matches.length,'Every match remains reachable');
  assert.equal(new Set(currentUI.buttons.map(({item})=>item.id)).size,currentUI.matches.length);
+ }
  currentUI=search(h,'zzzxnotawordxxx');assert.equal(currentUI.buttons.length,0);assert.equal(currentUI.status.textContent,'찾은 카드가 없어.');
  assert(currentUI.more.hidden);
 

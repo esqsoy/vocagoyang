@@ -21,12 +21,12 @@ function paceUnit(w){
 function paceUnits(words){return (words||[]).reduce((a,w)=>a+paceUnit(w),0);}
 
 /* ── 목표: FABLE은 25세트 끝(3000급) → 45세트 끝(C1) → 전부. 앞 목표를 돌파해야 다음 목표를 말한다(영신: "5000단어는 3000단어 돌파하고 알려주겠다고양").
-   B1까지만 보는 학생은 25세트까지만. 마더텅·EBS는 지금 범위 전부. */
+   B1까지만 보는 학생은 25세트까지만. 마더텅·EBS·시험 단어장은 지금 범위 전부. 시험 단어장은 빌더가 PACE_NAME(토익 등)을 준다. */
 function paceTargets(){
   const lessons=state.lessons.filter(L=>L.kind!=='saved'&&(typeof inScope!=='function'||inScope(L)));
   const label=n=>{const L=state.lessons.find(x=>x.lesson===n),m=L&&String(L.name||'').match(/(\d+)\s*~\s*(\d+)/);return m?Number(m[2]).toLocaleString('en-US')+'단어':(L?L.id+'까지':'');};
   const ends=PACE_COURSE==='fable'?[25,45,Infinity].filter(n=>n===25||!state.levelB1):[Infinity];
-  const name=n=>n===Infinity?(PACE_COURSE==='fable'?'FABLE 완주':PACE_COURSE==='ksat'?'마더텅 완주':'EBS 완주'):label(n);
+  const name=n=>n===Infinity?(typeof PACE_NAME==='string'&&PACE_NAME?PACE_NAME+' 완주':PACE_COURSE==='fable'?'FABLE 완주':PACE_COURSE==='ksat'?'마더텅 완주':'EBS 완주'):label(n);
   const out=ends.map(n=>{let u=0,ex=0;lessons.filter(L=>L.lesson<=n).forEach(L=>visEx(L).forEach(e=>{if(!getRec(L.id,e.title)?.completed){u+=paceUnits(e.words);ex++;}}));return {end:n,label:name(n),u,ex};});
   const i=out.findIndex(t=>t.ex>0);if(i<0)return null;
   return {...out[i],next:out[i+1]?.label||null,passed:i>0?out[i-1].label:null};

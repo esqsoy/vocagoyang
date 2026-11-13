@@ -5,8 +5,11 @@
 사용: python3 pipeline/review-page.py 세트번호 [--since 커밋] [--out 폴더]
       python3 pipeline/review-page.py changed --since 커밋 [--title 제목] [--name 파일명] [--out 폴더]  (세트를 가리지 않고 바뀐 카드만)
   --since 커밋: 그 커밋 뒤로 바뀐 카드에 표시를 붙이고 바뀐 칸의 전 내용을 함께 보인다(새 카드는 '새 카드').
+  --course 시험id: 시험 단어장(pipeline/exam/<id>/setNN.json 원본)을 읽는다. 예: python3 pipeline/review-page.py 1 --course toeic --since 커밋
+      --src 폴더로 다른 원본(개발용 pipeline/exam/tests/fixture)을 읽을 수 있다. --since는 그 커밋의 원본 파일과 비교한다.
+      FABLE 같은 뜻 카드에는 'FABLE n세트 뜻 번호' 표시, 대체 정답(acceptedAnswers)은 '다른 정답'으로 보인다.
 카드마다 한 블록이라 댓글이 그 카드에 붙는다. 카드 번호는 세트-연습-카드(0-05-03).
-화면 DATA(vocagoyangfable.html)를 읽으므로 assemble.py 뒤에 돌린다. 만든 HTML은 Artifact로 올린다.
+FABLE은 화면 DATA(vocagoyangfable.html)를 읽으므로 assemble.py 뒤에 돌린다. 만든 HTML은 Artifact로 올린다.
 """
 import html, json, re, subprocess, sys
 from datetime import date
@@ -102,6 +105,10 @@ body.cm-on .ln{cursor:text;border-radius:6px;margin-inline:-6px;padding-inline:6
 </style>'''
 
 
+# 시험 단어장 검수 페이지에만: FABLE 같은 뜻 카드 표시.
+EXAM_STYLE = '<style>.link{font-size:.72rem;color:var(--accent);background:var(--accent-soft);padding:0 7px;border-radius:5px}</style>'
+
+
 # 줄 댓글(26.10.11 영신: "범위지정 후에 댓글달고 푸쉬해야 하는데 그건 좀 번거로워. 그냥 라인바이라인으로 댓글달수 있게 해주고
 # 엔터치면 바로 너에게 가는걸로 해줘"). Artifact를 capabilities {comments: {}}로 올려야 동작한다. 없으면 기존 댓글 모드만 안내한다.
 COMMENT_JS = r"""<script>(function(){
@@ -178,8 +185,21 @@ def main():
     # 'changed': 세트를 가리지 않고 --since 뒤로 바뀐 카드만 모은다(26.10.12 소설 명문장처럼 여러 세트에 걸친 작업용).
     only_changed = args[0] == 'changed'
     opt = {args[i]: args[i + 1] for i in range(1, len(args) - 1, 2)}
-    src = HTML.read_text(encoding='utf-8')
-    data, alts = data_of(src), alts_of(src)
+    course = opt.get('--course')
+    if course:
+        # 시험 단어장: 원본을 읽는다(조립기와 같은 읽기). ALT는 없고 카드의 acceptedAnswers가 다른 정답이다.
+        sys.path.insert(0, str(ROOT / 'pipeline' / 'exam'))
+        from assemble import load_course
+        src_dir = Path(opt['--src']) if '--src' in opt else ROOT / 'pipeline' / 'exam' / course
+        cfg, data, problems = load_course(course, src_dir)
+        if problems:
+            sys.exit('원본 문제: ' + ' / '.join(problems))
+        alts = {}
+        book, prefix, last_set = cfg['name'], course, float('inf')
+    else:
+        src = HTML.read_text(encoding='utf-8')
+        data, alts = data_of(src), alts_of(src)
+        book, prefix, last_set = 'FABLE', 'fable', 45
     since = opt.get('--since')
     if only_changed and not since:
         sys.exit('changed 모드는 --since 커밋이 필요하다.')
@@ -196,18 +216,30 @@ def main():
     head = subprocess.run(['git', '-C', str(ROOT), 'rev-parse', '--short', 'HEAD'], capture_output=True, text=True).stdout.strip()
     before, before_any = {}, {}
     if since:
-        old = subprocess.run(['git', '-C', str(ROOT), 'show', f'{since}:vocagoyangfable.html'], capture_output=True, text=True, check=True).stdout
-        for OL in data_of(old):
+        if course:
+            # 그 커밋의 원본 세트 파일(없던 세트는 모두 새 카드).
+            rel = src_dir.resolve().relative_to(ROOT)
+            old_data = []
+            for L in data:
+                r = subprocess.run(['git', '-C', str(ROOT), 'show', f'{since}:{rel.as_posix()}/{L["file"]}'], capture_output=True, text=True)
+                if r.returncode == 0:
+                    old_data.append({'lesson': L['lesson'], 'exercises': json.loads(r.stdout)})
+        else:
+            old = subprocess.run(['git', '-C', str(ROOT), 'show', f'{since}:vocagoyangfable.html'], capture_output=True, text=True, check=True).stdout
+            old_data = data_of(old)
+        for OL in old_data:
             for ex in OL['exercises']:
                 for w in ex['words']:
                     before[(OL['lesson'], w['word'], w.get('si', 1))] = w
-                    if OL['lesson'] <= 45:
+                    if OL['lesson'] <= last_set:
                         before_any.setdefault((w['word'], w.get('si', 1)), (OL['lesson'], w))
     total = changed = 0
     toc, body = [], []
 
     def card_html(L, ei, ci, w, state, tags, olds):
         cid = f'{L["lesson"]}-{ei:02d}-{ci:02d}'
+        if w.get('fable'):
+            tags = [f'<span class="link">FABLE {w["fable"]["set"]}세트 뜻 {w["fable"]["si"]}</span>'] + list(tags)
         parts = [f'<div class="head ln"><span class="num">{cid}</span><span class="hw">{e(w["en"])}</span>'
                  f'<span class="ko">{e(w.get("ko", ""))}</span><span class="pos">{e(w.get("pos", ""))} /{e(w.get("ipa", ""))}/</span>{"".join(tags)}</div>',
                  f'<p class="sen ln">{sentence(w)}</p>']
@@ -216,7 +248,7 @@ def main():
         parts.append(f'<p class="c ln">{e(w.get("c") or "") or "<span class=none>(해설 없음)</span>"}</p>')
         if w.get('meow'):
             parts.append(f'<p class="meow ln"><b>고양</b>{e(w["meow"])}</p>')
-        alt = alts.get(f'{w["word"]}/{w.get("si", 1)}')
+        alt = w.get('acceptedAnswers') if course else alts.get(f'{w["word"]}/{w.get("si", 1)}')
         if alt:
             parts.append(f'<p class="alt ln"><b>다른 정답</b>{e(", ".join(alt))}</p>')
         return f'<li id="c{cid}" data-state="{state}">{"".join(parts + olds)}</li>'
@@ -260,8 +292,9 @@ def main():
                 items.append(card_html(L, ei, ci, w, state, tags, olds))
             if not items:
                 continue
-            label = f'{L["label"]} · Exercise {x["ex"]}' if multi else f'Exercise {x["ex"]}'
-            toc.append(f'<a href="#{sid}">{(L["label"] + " ") if multi else ""}{x["ex"]} · {e(x.get("name", ""))}</a>')
+            kind = 'FABLE 뜻' if x.get('scope') == 'fable' else 'Exercise'
+            label = f'{L["label"]} · {kind} {x["ex"]}' if multi else f'{kind} {x["ex"]}'
+            toc.append(f'<a href="#{sid}">{(L["label"] + " ") if multi else ""}{"FABLE 뜻 " if x.get("scope") == "fable" else ""}{x["ex"]} · {e(x.get("name", ""))}</a>')
             body.append(f'<section class="ex" id="{sid}"><h2><span class="num">{e(label)}</span>{e(x.get("name", ""))}'
                         f'<span class="count">{len(items)}장</span></h2><ol class="cards">{"".join(items)}</ol></section>')
     L0 = lessons[0]
@@ -269,7 +302,7 @@ def main():
     if since and not only_changed:
         gone = []
         for L in data:
-            if L['lesson'] > 45 or L['lesson'] in mine:
+            if L['lesson'] > last_set or L['lesson'] in mine:
                 continue
             for ei, x in enumerate(L['exercises'], 1):
                 for ci, w in enumerate(x['words'], 1):
@@ -285,13 +318,13 @@ def main():
             body.append(f'<section class="ex" id="gone"><h2><span class="num">보낸 카드</span>다른 세트로 보낸 카드'
                         f'<span class="count">{len(gone)}장</span></h2><ol class="cards">{"".join(gone)}</ol></section>')
     span = L0['label'] if len(lessons) == 1 else f"{lessons[0]['lesson']}~{lessons[-1]['label']}"
-    title = opt.get('--title') or (f'{span} 직검수' if not only_changed else '바뀐 카드 직검수')
+    title = opt.get('--title') or ((f'{book} ' if course else '') + (f'{span} 직검수' if not only_changed else '바뀐 카드 직검수'))
     if only_changed:
         intro = f'{e(since)} 뒤로 바뀐 카드 {total}장을 세트·연습 순서대로 모았어. 노란 글자가 학생이 치는 정답이야. 바뀐 칸은 전 내용을 아래에 같이 보여. 의견은 줄을 눌러 바로 달아 줘(카드 번호 세트-연습-카드).'
     else:
         since_note = f' 지난 검수({e(since)}) 뒤 바뀐 카드는 {changed}장이야. 바뀐 칸은 전 내용을 아래에 같이 보여.' if since else ''
         head_note = f'{e(L0["label"])} · {e(L0.get("name", ""))}. {len(L0["exercises"])}연습' if len(lessons) == 1 else f'{e(span)} {sum(len(L["exercises"]) for L in lessons)}연습'
-        intro = f'FABLE {head_note} {total}장을 게임 순서대로 모았어. 노란 글자가 학생이 치는 정답이야. 의견은 줄을 눌러 바로 달아 줘(카드 번호 세트-연습-카드).{since_note}'
+        intro = f'{e(book)} {head_note} {total}장을 게임 순서대로 모았어. 노란 글자가 학생이 치는 정답이야. 의견은 줄을 눌러 바로 달아 줘(카드 번호 세트-연습-카드).{since_note}'
     filt = ('<div class="tools"><div class="seg" role="group" aria-label="보기">'
             '<button type="button" data-f="all" aria-pressed="true">전체</button>'
             '<button type="button" data-f="chg" aria-pressed="false">바뀐 카드만</button></div>'
@@ -303,7 +336,7 @@ def main():
     page = f'''<title>{e(title)}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
-{STYLE}
+{STYLE}{EXAM_STYLE if course else ''}
 <div class="wrap">
 <header><h1>{e(title)}</h1><p class="lede">{intro} 기준 {e(head)}, {date.today().isoformat()}.</p></header>
 <p class="hint" id="cmhint" role="status">줄 댓글을 준비하는 중이야.</p>
@@ -316,7 +349,7 @@ def main():
 '''
     out = Path(opt.get('--out', '.'))
     out.mkdir(parents=True, exist_ok=True)
-    path = out / (opt['--name'] if '--name' in opt else ('fable-changed-review.html' if only_changed else f'fable-{L0["lesson"]:02d}-review.html' if len(lessons) == 1 else f'fable-{lessons[0]["lesson"]:02d}-{lessons[-1]["lesson"]:02d}-review.html'))
+    path = out / (opt['--name'] if '--name' in opt else (f'{prefix}-changed-review.html' if only_changed else f'{prefix}-{L0["lesson"]:02d}-review.html' if len(lessons) == 1 else f'{prefix}-{lessons[0]["lesson"]:02d}-{lessons[-1]["lesson"]:02d}-review.html'))
     path.write_text(page, encoding='utf-8')
     print(json.dumps({'file': str(path), 'title': title, 'cards': total, 'changed': changed}, ensure_ascii=False))
 

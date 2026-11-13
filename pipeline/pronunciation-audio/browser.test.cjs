@@ -8,13 +8,14 @@ const server=http.createServer((req,res)=>{
  if(!target.startsWith(root+path.sep)){res.writeHead(403);res.end();return;}
  try{const bytes=fs.readFileSync(target);res.writeHead(200,{'Content-Type':target.endsWith('.mp3')?'audio/mpeg':target.endsWith('.html')?'text/html; charset=utf-8':'application/octet-stream','Cache-Control':'public, max-age=3600'});res.end(bytes);}catch{res.writeHead(404);res.end();}
 });
-const pages=['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyangebs2027.html'];
+// 세 교재와 시험 단어장(pipeline/exam). FABLE 엔진(시험 단어장 포함)은 파일 이름이 아니라 엔진으로 가린다.
+const {ALL:pages,isFableEngine,isExam}=require('../tests/helpers/courses.cjs');
 async function select(page,file,term,ipa){
- return page.evaluate(({file,term,ipa})=>{
-  state.unlockAll=true;state.levelB1=false;state.prevOn=true;state.muted=false;state.savedLesson=null;
-  const fable=file.includes('fable');
+ // term이 null이면 음원이 붙은 아무 카드나 고른다(시험 단어장: 원본에 따라 음원 카드가 달라진다).
+ return page.evaluate(({fable,term,ipa})=>{
+  state.unlockAll=true;state.levelB1=false;state.prevOn=true;state.fableOff=false;state.muted=false;state.savedLesson=null;
   const matches=w=>{
-   const t=w.term||w.en||w.word;if(t!==term)return false;
+   const t=w.term||w.en||w.word;if(term&&t!==term)return false;
    const info=fable?{term:t,ipa:w.ipa}:pronunciationAudioInfo(t,w.meaning||w.ko,w.originalMeaning);
    return !!exceptionAudioEntry(info)&&(!ipa||info.ipa===ipa);
   };
@@ -28,7 +29,7 @@ async function select(page,file,term,ipa){
   const s=state.session,w=s.words.find(matches);
   if(s.currentId!==w.id){s.queue=[w.id,...s.queue.filter(id=>id!==w.id)];s.lastWordKey=null;nextCard();}
   return {term:w.term,meaning:w.meaning,ipa:fable?w.ipa:pronunciationAudioInfo(w.term,w.meaning).ipa};
- },{file,term,ipa});
+ },{fable:isFableEngine(file),term,ipa});
 }
 (async()=>{
  await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
@@ -53,7 +54,7 @@ async function select(page,file,term,ipa){
    // activation on a public HTTPS origin, so it can test autoplay denial
    // instead of the game's normal typing path.
    await page.locator('.lessonbtn').first().click();
-   const card=await select(page,file,file.includes('fable')?'contract':'conduct');
+   const card=await select(page,file,isExam(file)?null:isFableEngine(file)?'contract':'conduct');
    await page.locator('#ainput').pressSequentially(card.term,{delay:5});
    await page.waitForFunction(()=>audioTrace.some(e=>e.type==='playing'));
    const begun=await page.evaluate(()=>({term:ipaEffectRun?.info.term,started:ipaEffectRun?.started,recorded:ipaEffectRun?.timing?.recorded,native:nativeTrace.slice()}));

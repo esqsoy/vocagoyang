@@ -5,7 +5,8 @@ const assert=require('node:assert/strict'),path=require('node:path');
 const {harness,root}=require('./helpers/mother-tongue-harness.cjs');
 const yes=[['realise','realize'],['organisation','organization'],['organisational','organizational'],['analyse','analyze'],['recognised','recognized'],['apologising','apologizing'],['eye sight','eyesight'],['insize','in size'],['de-emphasise','de-emphasize'],['deemphasise','de-emphasize'],['recognisethesize','recognize the size']];
 const no=[['buz','bus'],['soo','zoo'],['sise','size'],['in sise','in size'],['insise','in size'],['recognise the sise','recognize the size'],['citisen','citizen'],['exercize','exercise'],['priSe','prize'],['realize','realize'],['','realize']];
-for(const file of ['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyangebs2027.html']){
+// 세 교재와 시험 단어장(pipeline/exam, HTML이 있는 것).
+for(const file of require('./helpers/courses.cjs').ALL){
  const h=harness(path.join(root,file));
  for(const [t,term] of yes)assert.equal(h.ctx.isSpellingVariant(t,term),true,`${file}: ${t} for ${term}`);
  for(const [t,term] of no)assert.equal(h.ctx.isSpellingVariant(t,term),false,`${file}: ${t} for ${term}`);

@@ -115,6 +115,13 @@
   시험 순서는 토익 → 토플 → GRE다.
 - **GRE에 넣을 것:** perpetual 카드 예문으로 디킨스 『위대한 유산』 8장 "Within myself, I had sustained, from my babyhood, a perpetual conflict with injustice."를 쓴다. 영신이 11-13에 "나중에 어딘가에서 배울수 있으면 좋겠어"라고 했다. 표제어 밖 낱말은 babyhood 하나다.
 - 원본 자리: `pipeline/exam/`(시험마다 폴더). 화면·저장 구조는 엔진 조사 뒤 이 절에 덧붙인다.
+- **토익 진행(11-14 새벽, Claude가 맡아 진행):**
+  - 뜻 목록: TSL∪BSL 2,419단어에서 이솝이 토익 뜻 2,270개를 골랐다. 그중 FABLE과 같은 뜻이 1,278개(56%)다.
+  - 표제어 정리: 목록이 원형으로 줄인 꼴(headquarter·housekeep·sightsee·fundraise·renown 등)을 실제 쓰는 꼴(headquarters·housekeeping·sightseeing·fundraising·renowned)로 고쳤다. 같은 카드가 겹친 것(unauthorize·salespeople·résumé), 접두사(semi), 영국식만 쓰는 말(cheque·tonne·sterling·amongst)과 토익에 드문 금융 토막(capita·annum·flotation 등)은 뺐다. 그래서 2,250장이다.
+  - 배치: 21세트(핵심 1~3, 기본 4~11, 심화 12~21). 세트 안에서 새 뜻 연습을 먼저, FABLE 같은 뜻 연습(scope `fable`)을 뒤에 둔다. 토글을 켜면(기본) 뒤 연습이 숨는다. 실행 중에 카드를 거르지 않는 까닭은 진도 기록 키와 연습 크기를 지키기 위해서다(11-14 엔진 조사: 거르면 파트가 4~7장으로 줄고 부분 기록이 꼬인다).
+  - 꼴: 꼬리로 못 만드는 꼴(certified·accessories·thrilled)은 `en`에 그 꼴을 쓰고 학생이 그 꼴을 친다(FABLE의 others와 같은 방식). 악센트 표기(café·entrée·résumé)는 악센트 없는 꼴을 정답으로 하고 악센트 꼴은 허용 정답에 둔다. 철자 변이(adviser·adaptor·competency)도 허용 정답에 둔다.
+  - 검수: 초안 16묶음(이솝) → Claude 기계 점검(390px 줄 수 실측, 읽기량, CMU 사전 대조 IPA, FABLE 예문과 겹침, 책 안 예문 틀 겹침) → 이솝 검수 16묶음(확정 101·의심 약 330) → Claude 판정(약 400곳 반영) → 영신 직검수.
+  - 이솝 검수에서 가장 많이 나온 것은 같은 칸 수 경쟁어다. 해설이 하나만 안내하고 둘째를 놓친 카드가 많았다. 해설에 안내를 더하고, 읽기량 12초를 넘은 49장은 해설을 줄였다.
 - 아래 'GRE·GMAT 수준 확장 로드맵'(10-06 제안, 미확정)은 이 결정으로 대체한다. 근접어 구별·논증 어휘 같은 생각은 GRE 단어장에서 참고한다.
 
 ## GRE·GMAT 수준 확장 로드맵 · 2026-10-06 제안, 미확정 → 11-14 '시험 단어장'으로 대체(참고용)

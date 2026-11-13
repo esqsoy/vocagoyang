@@ -1,8 +1,9 @@
 const assert=require('node:assert/strict'),path=require('node:path');
 const {harness,root}=require('../../tests/helpers/mother-tongue-harness.cjs');
-const files=['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyangebs2027.html'];
+// 세 교재와 시험 단어장(pipeline/exam). FABLE 엔진(시험 단어장 포함)은 파일 이름이 아니라 엔진으로 가린다.
+const {ALL:files,isFableEngine}=require('../../tests/helpers/courses.cjs');
 for(const file of files){
- const fable=file.includes('fable'); // FABLE은 카드마다 읽을 시간 예산(revealDelay: 예문·해석·해설, 26.10.11), 교재는 1.5초(26.10.08 복원)
+ const fable=isFableEngine(file); // FABLE 엔진은 카드마다 읽을 시간 예산(revealDelay: 예문·해석·해설, 26.10.11), 교재는 1.5초(26.10.08 복원)
  // 말소리가 6초 넘게 안 끝나면 게임은 멈춘 것으로 보고 넘어간다. 말소리 끝을 기다리는지 보려고 FABLE 카드의 해석·해설을 비워 예산을 6초 아래로 둔다.
  const short=w=>{if(fable)Object.assign(w,{c:'',tr:''});return w;},wait=(h,w)=>fable?h.ctx.revealDelay(w):1500;
  const make=()=>{const h=harness(path.join(root,file),{},{manualSpeech:true});h.start();return h;};

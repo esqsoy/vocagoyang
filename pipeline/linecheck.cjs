@@ -11,7 +11,8 @@
    ②는 영신 판단(26.10.08): 긴 정답 칸은 인지 부하도 아니고 화면이 모자란 것도 아니다. 다만 ①로 따로
    재기 때문에 '정답이 길다'가 긴 문장의 핑계가 되지는 않는다.
 
-   사용: node pipeline/linecheck.cjs [--width 390] [--max 3] [--quiz-max 4] [--strict] [--list]
+   사용: node pipeline/linecheck.cjs [--width 390] [--max 3] [--quiz-max 4] [--strict] [--list] [--course 시험id | --html 파일]
+         --course toeic: 시험 단어장 HTML(vocagoyangtoeic.html)을 잰다. --html로 다른 FABLE 엔진 HTML을 줄 수도 있다. 기본은 FABLE.
          Playwright가 필요하다(NODE_PATH에 playwright). 브라우저는 PW_CHROMIUM 또는 /opt/pw-browsers 기본값.
    --strict 이면 기준 초과 예문이 있을 때 종료 코드 1. 기본은 경고만 낸다(판정은 사람이, 경고는 기계가).
    --list 이면 기준 안이지만 긴 정답 때문에 4줄인 예문도 보여 준다. */
@@ -19,6 +20,8 @@ const http=require('node:http'),fs=require('node:fs'),path=require('node:path');
 const {chromium}=require('playwright');
 const ROOT=path.resolve(__dirname,'..');
 const arg=(k,d)=>{const i=process.argv.indexOf(k);return i>0?process.argv[i+1]:d;};
+const HTML=arg('--html',arg('--course',null)?`vocagoyang${arg('--course')}.html`:'vocagoyangfable.html');
+if(!fs.existsSync(path.join(ROOT,path.basename(HTML)))){console.error(HTML+'가 없다');process.exit(2);}
 const WIDTH=+arg('--width',390),MAX=+arg('--max',3),QMAX=+arg('--quiz-max',MAX+1),STRICT=process.argv.includes('--strict'),LIST=process.argv.includes('--list');
 const TYPES={'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.json':'application/json','.png':'image/png'};
 const server=http.createServer((req,res)=>{
@@ -32,7 +35,7 @@ const server=http.createServer((req,res)=>{
   const exe=process.env.PW_CHROMIUM||(fs.existsSync('/opt/pw-browsers/chromium-1194/chrome-linux/chrome')?'/opt/pw-browsers/chromium-1194/chrome-linux/chrome':undefined);
   const browser=await chromium.launch(exe?{executablePath:exe}:{});
   const page=await (await browser.newContext({viewport:{width:WIDTH,height:800},deviceScaleFactor:2,isMobile:true,hasTouch:true,locale:'ko-KR'})).newPage();
-  await page.goto(base+'/vocagoyangfable.html',{waitUntil:'load'});await page.waitForSelector('.lessonbtn');
+  await page.goto(base+'/'+path.basename(HTML),{waitUntil:'load'});await page.waitForSelector('.lessonbtn');
   await page.evaluate(()=>{openLesson(0);openExercise(0);});
   await page.waitForFunction(()=>state.session&&document.querySelector('#hoeCtx'));
   const rows=await page.evaluate(()=>{
@@ -58,7 +61,7 @@ const server=http.createServer((req,res)=>{
   const dist={},tdist={};for(const r of rows){dist[r.lines]=(dist[r.lines]||0)+1;tdist[r.text]=(tdist[r.text]||0)+1;}
   const seen=new Set(),uniq=rows.filter(r=>{const k=r.lesson+'|'+r.word+'|'+r.ex;if(seen.has(k))return false;seen.add(k);return true;});
   const longText=uniq.filter(r=>r.text>MAX),longQuiz=uniq.filter(r=>r.text<=MAX&&r.lines>QMAX),slot4=uniq.filter(r=>r.text<=MAX&&r.lines>MAX&&r.lines<=QMAX);
-  console.log(JSON.stringify({width:WIDTH,max:MAX,quizMax:QMAX,examples:rows.length,quizLines:dist,sentenceLines:tdist,overSentence:longText.length,overQuiz:longQuiz.length,longAnswerAllowed:slot4.length}));
+  console.log(JSON.stringify({...(path.basename(HTML)!=='vocagoyangfable.html'?{html:path.basename(HTML)}:{}),width:WIDTH,max:MAX,quizMax:QMAX,examples:rows.length,quizLines:dist,sentenceLines:tdist,overSentence:longText.length,overQuiz:longQuiz.length,longAnswerAllowed:slot4.length}));
   const show=(title,list)=>{if(!list.length)return;console.log('\n# '+title);for(const r of list.sort((a,b)=>b.text-a.text||b.lines-a.lines||a.lesson-b.lesson))console.log(`문장${r.text}·화면${r.lines} ${String(r.lesson).padStart(2)}세트 ${r.word.padEnd(16)} ${r.ex}`);};
   show(`문장이 ${MAX}줄 초과 — 다시 쓴다`,longText);
   show(`문장은 ${MAX}줄 이내인데 화면이 ${QMAX}줄 초과 — 들여다본다`,longQuiz);

@@ -6,7 +6,7 @@
   "skip": ["goyang-fable-unlock-v1"],
   "target": "index.html",
   "kinds": {
-    "progress": "^goyang-(hoe-|ebs-)?seoul-v1$",
+    "progress": "^goyang-(hoe-|ebs-|toeic-|toefl-|gre-)?seoul-v1$",
     "saved": "-saved-cards-v1$",
     "learned": "^goyang-learned-words-v1$",
     "missed": "^goyang-missed-words-v1$",

@@ -24,6 +24,20 @@ for(const [file,id] of COURSES){
   const shown=+fs.readFileSync(path.join(root,'index.html'),'utf8').match(/VOCAB_STATS:ebs:START -->.*?누적 <b>([\d,]+)<\/b>/)[1].replace(/,/g,'');
   assert.equal(union.size,shown,'세 교재 합집합(중복 제외)이 선택 화면의 누적 수와 같다');
 }
+// 1-1) 시험 단어장(pipeline/exam): 설정 블록의 교재 id로 자기 칸에 적고, 합집합에서는 EBS 뒤에 센다. 첫 화면 통계에는 아직 없다.
+{
+  const {EXAMS}=require('./helpers/courses.cjs');
+  for(const file of EXAMS){
+    const h=harness(path.join(root,file),carry),id=h.run('EXAM.msCourse');
+    assert.equal(h.run('MS_COURSE'),id,file+': MS_COURSE는 설정 블록의 교재 id');
+    clearAll(h);const total=h.ctx.msSync().size,own=dataHeads(file),all=new Set([...union,...own]);
+    assert.equal(JSON.parse(h.storage.get(KEY))[id].length,own.size,file+': 교재 표제어 수(FABLE 뜻 연습까지)');
+    assert.equal(total,all.size,file+': 앞 교재와 겹치는 단어는 한 번만 센다');
+    assert.deepEqual(Object.keys(JSON.parse(h.storage.get(KEY))),[...COURSES.map(c=>c[1]),id],file+': 다른 교재 칸은 그대로');
+  }
+  const h=harness(path.join(root,'vocagoyangfable.html'));
+  assert.deepEqual([...h.ctx.msUnion({toeic:['delta','alpha'],ebs:['zeta'],fable:['gamma'],other:['omega']})],['gamma','zeta','delta','alpha','omega'],'시험 단어장은 EBS 뒤, 모르는 교재는 맨 뒤');
+}
 
 // 1-2) 날아오는 단어는 배운 순서대로다: 교재 안에서는 세트·연습 순서, 교재 사이는 FABLE → 마더텅 → EBS.
 {
@@ -90,7 +104,7 @@ let progressAt2500=null;
   roar.classList.remove('show');h.advance(300);assert.equal(shows.length,1);
 }
 // 6-2) 결과 화면에서 0.7초 안에 다음 판을 시작하면 축하는 판 위에 뜨지 않고(그 뒤로 시간이 흘렀다), 게임 밖 화면으로 나올 때 뜬다(26.10.11 Codex 리뷰 R1).
-for(const file of ['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyangebs2027.html']){
+for(const file of require('./helpers/courses.cjs').ALL){
   const h=harness(path.join(root,file));const shows=[];h.ctx.msShow=info=>shows.push(info);
   h.ctx.msQueue({m:1000,total:1000,retro:false,words:[]});
   h.ctx.show('game');h.advance(1500);assert.equal(shows.length,0,file+': 축하가 돌고 있는 판을 가렸다');assert(h.run('msPendingShow'),file+': 미룬 축하가 없다');

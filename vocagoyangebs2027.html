@@ -4160,8 +4160,11 @@ function savedInit(){
   savedSearchIndex=null;
   savedCatalog.clear();
   state.lessons.forEach(L=>L.exercises.forEach(e=>e.words.forEach((w,index)=>{
+    // 카드 ID: FABLE은 연습 기록 키+표제어+뜻 번호, 시험 단어장(SAVED_ID_KIND 'word-si')은 [표제어, 뜻 번호]
+    // (책 안에서 하나라서 카드를 다른 연습·세트로 옮겨도 그대로다), 마더텅·EBS는 위치.
     const id=w.savedId||(SAVED_COURSE==='FABLE'
       ?JSON.stringify([e.progressId||L.progressId||L.id,e.parentRecord?.title||e.progressTitle||e.sourceTitle||e.title,w.word||w.term,w.si||1,w.unitId||w.constructionId||''])
+      :typeof SAVED_ID_KIND!=='undefined'&&SAVED_ID_KIND==='word-si'?JSON.stringify([w.word||w.term,w.si||1])
       :JSON.stringify([L.lesson,e.scope,e.ex,index]));
     w.savedCardId=id;
     savedCatalog.set(id,{id,word:w,source:L.id+' · '+(e.displayTitle||e.title)});
@@ -4378,8 +4381,9 @@ function msRead(){
   try{const o=JSON.parse(localStorage.getItem(msLearnedKey)||'{}');return o&&typeof o==='object'&&!Array.isArray(o)?o:{};}
   catch{return {};}
 }
-/* 배운 순서를 지킨다: FABLE → 마더텅 → EBS, 교재 안에서는 세트·연습 순서. */
-function msUnion(all){const u=new Set(),order=['fable','ksat','ebs',...Object.keys(all).filter(k=>!['fable','ksat','ebs'].includes(k))];
+/* 배운 순서를 지킨다: FABLE → 마더텅 → EBS → 시험 단어장(토익·토플·GRE), 교재 안에서는 세트·연습 순서. */
+var msOrder=['fable','ksat','ebs','toeic','toefl','gre'];
+function msUnion(all){const u=new Set(),order=[...msOrder,...Object.keys(all).filter(k=>!msOrder.includes(k))];
   order.forEach(c=>Array.isArray(all[c])&&all[c].forEach(k=>typeof k==='string'&&k&&u.add(k)));return u;}
 function msCourseWords(){
   const set=new Set();
@@ -4792,12 +4796,12 @@ function paceUnit(w){
 function paceUnits(words){return (words||[]).reduce((a,w)=>a+paceUnit(w),0);}
 
 /* ── 목표: FABLE은 25세트 끝(3000급) → 45세트 끝(C1) → 전부. 앞 목표를 돌파해야 다음 목표를 말한다(영신: "5000단어는 3000단어 돌파하고 알려주겠다고양").
-   B1까지만 보는 학생은 25세트까지만. 마더텅·EBS는 지금 범위 전부. */
+   B1까지만 보는 학생은 25세트까지만. 마더텅·EBS·시험 단어장은 지금 범위 전부. 시험 단어장은 빌더가 PACE_NAME(토익 등)을 준다. */
 function paceTargets(){
   const lessons=state.lessons.filter(L=>L.kind!=='saved'&&(typeof inScope!=='function'||inScope(L)));
   const label=n=>{const L=state.lessons.find(x=>x.lesson===n),m=L&&String(L.name||'').match(/(\d+)\s*~\s*(\d+)/);return m?Number(m[2]).toLocaleString('en-US')+'단어':(L?L.id+'까지':'');};
   const ends=PACE_COURSE==='fable'?[25,45,Infinity].filter(n=>n===25||!state.levelB1):[Infinity];
-  const name=n=>n===Infinity?(PACE_COURSE==='fable'?'FABLE 완주':PACE_COURSE==='ksat'?'마더텅 완주':'EBS 완주'):label(n);
+  const name=n=>n===Infinity?(typeof PACE_NAME==='string'&&PACE_NAME?PACE_NAME+' 완주':PACE_COURSE==='fable'?'FABLE 완주':PACE_COURSE==='ksat'?'마더텅 완주':'EBS 완주'):label(n);
   const out=ends.map(n=>{let u=0,ex=0;lessons.filter(L=>L.lesson<=n).forEach(L=>visEx(L).forEach(e=>{if(!getRec(L.id,e.title)?.completed){u+=paceUnits(e.words);ex++;}}));return {end:n,label:name(n),u,ex};});
   const i=out.findIndex(t=>t.ex>0);if(i<0)return null;
   return {...out[i],next:out[i+1]?.label||null,passed:i>0?out[i-1].label:null};

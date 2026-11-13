@@ -1,0 +1,321 @@
+[
+  {
+    "ex": 1,
+    "name": "출장 준비",
+    "words": [
+      {
+        "en": "itinerary",
+        "ko": "① 여행 일정표",
+        "ex": "I emailed you the {{BLANK}} for the Tokyo trip.",
+        "tr": "도쿄 출장 일정표를 메일로 보냈어.",
+        "c": "schedule보다 여행 일정에 쓴다.",
+        "ipa": "aɪˈtɪnəˌrɛri",
+        "pos": "n.",
+        "word": "itinerary",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "layover",
+        "ko": "① (비행기) 경유 대기",
+        "ex": "We have a two-hour {{BLANK}} in Dubai.",
+        "tr": "두바이에서 두 시간 경유 대기가 있어.",
+        "c": "stopover라고도 한다.",
+        "ipa": "ˈleɪˌoʊvɚ",
+        "pos": "n.",
+        "word": "layover",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "luggage",
+        "ko": "① (여행) 짐",
+        "ex": "Please do not leave your {{BLANK}} unattended.",
+        "tr": "짐을 두고 자리를 비우지 마세요.",
+        "c": "셀 수 없는 명사라 a piece of luggage로 센다.",
+        "ipa": "ˈlʌɡɪdʒ",
+        "pos": "n.",
+        "word": "luggage",
+        "si": 1,
+        "sn": 1,
+        "acceptedAnswers": [
+          "baggage"
+        ],
+        "meow": "내 짐은 츄르 한 봉지면 충분하다고양."
+      },
+      {
+        "en": "aisle",
+        "ko": "① (좌석 사이) 통로",
+        "ex": "Would you like a window or an {{BLANK}} seat?",
+        "tr": "창가 자리와 통로 자리 중 어디로 드릴까요?",
+        "c": "s는 소리 나지 않는다.",
+        "ipa": "aɪl",
+        "pos": "n.",
+        "word": "aisle",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 2,
+    "name": "고객 응대",
+    "words": [
+      {
+        "en": "complimentary",
+        "ko": "① 무료의",
+        "ex": "Breakfast is {{BLANK}} for all hotel guests.",
+        "tr": "아침 식사는 투숙객 모두 무료야.",
+        "c": "compliment(칭찬)와 철자가 비슷해도 뜻이 다르다.",
+        "ipa": "ˌkɑmpləˈmɛntəri",
+        "pos": "adj.",
+        "word": "complimentary",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "voucher",
+        "ko": "① 상품권, 할인권",
+        "ex": "You can use this {{BLANK}} at any of our stores.",
+        "tr": "이 상품권은 어느 매장에서나 쓸 수 있어요.",
+        "c": "",
+        "ipa": "ˈvaʊtʃɚ",
+        "pos": "n.",
+        "word": "voucher",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "warranty",
+        "ko": "① 품질 보증(서)",
+        "ex": "The printer is still under {{BLANK}}.",
+        "tr": "그 프린터는 아직 보증 기간이야.",
+        "c": "under warranty = 보증 기간 중인.",
+        "ipa": "ˈwɔrənti",
+        "pos": "n.",
+        "word": "warranty",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "courier",
+        "ko": "① 택배 회사, 배달원",
+        "ex": "The {{BLANK}} will pick up the box at noon.",
+        "tr": "택배 기사가 정오에 상자를 가지러 올 거야.",
+        "c": "",
+        "ipa": "ˈkʊriɚ",
+        "pos": "n.",
+        "word": "courier",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "out of stock",
+        "ko": "① 품절된, 재고가 없는",
+        "ex": "Sorry, that model is {{BLANK}} right now.",
+        "tr": "죄송하지만 그 모델은 지금 품절이에요.",
+        "c": "↔ in stock(재고가 있는).",
+        "ipa": "aʊt əv stɑk",
+        "pos": "adj.phr.",
+        "word": "out of stock",
+        "si": 1,
+        "sn": 1
+      },
+      {
+        "en": "follow-up",
+        "ko": "① 후속 조치, 후속 연락",
+        "ex": "We will send a {{BLANK}} email next week.",
+        "tr": "다음 주에 후속 메일을 보낼게요.",
+        "c": "동사는 띄어 쓴다: follow up on a request.",
+        "ipa": "ˈfɑloʊˌʌp",
+        "pos": "n.",
+        "word": "follow-up",
+        "si": 1,
+        "sn": 1
+      }
+    ]
+  },
+  {
+    "ex": 1,
+    "name": "출장·고객",
+    "scope": "fable",
+    "words": [
+      {
+        "en": "book",
+        "ko": "① 예약하다",
+        "ex": "I will {{BLANK}} a room near the airport.",
+        "tr": "공항 근처에 방을 예약할게.",
+        "c": "",
+        "ipa": "bʊk",
+        "pos": "v.",
+        "word": "book",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 2,
+          "si": 2
+        }
+      },
+      {
+        "en": "booking",
+        "ko": "① 예약",
+        "ex": "I made a {{BLANK}} for three nights.",
+        "tr": "3박 예약을 했어.",
+        "c": "",
+        "ipa": "ˈbʊkɪŋ",
+        "pos": "n.",
+        "word": "booking",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 32,
+          "si": 1
+        }
+      },
+      {
+        "en": "reservation",
+        "ko": "① 예약",
+        "ex": "I have a {{BLANK}} under the name Kim.",
+        "tr": "김이라는 이름으로 예약했어요.",
+        "c": "",
+        "ipa": "ˌrɛzɚˈveɪʃən",
+        "pos": "n.",
+        "word": "reservation",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 13,
+          "si": 1
+        }
+      },
+      {
+        "en": "receipt",
+        "ko": "① 영수증",
+        "ex": "Can I get a {{BLANK}}, please?",
+        "tr": "영수증 주시겠어요?",
+        "c": "",
+        "ipa": "rɪˈsit",
+        "pos": "n.",
+        "word": "receipt",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 13,
+          "si": 1
+        }
+      },
+      {
+        "en": "accommodation",
+        "ko": "① 숙소, 숙박 시설",
+        "ex": "The price includes flights and {{BLANK}}.",
+        "tr": "가격에는 항공편과 숙소가 들어 있어.",
+        "c": "",
+        "ipa": "əˌkɑməˈdeɪʃən",
+        "pos": "n.",
+        "word": "accommodation",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 13,
+          "si": 1
+        }
+      },
+      {
+        "en": "flight",
+        "ko": "① 항공편",
+        "ex": "Our {{BLANK}} leaves at 9:40.",
+        "tr": "우리 비행기는 9시 40분에 떠나.",
+        "c": "",
+        "ipa": "flaɪt",
+        "pos": "n.",
+        "word": "flight",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 10,
+          "si": 1
+        }
+      },
+      {
+        "en": "customer",
+        "ko": "① 손님, 고객",
+        "ex": "Every {{BLANK}} gets a free coffee today.",
+        "tr": "오늘은 손님 모두 커피가 무료예요.",
+        "c": "",
+        "ipa": "ˈkʌstəmɚ",
+        "pos": "n.",
+        "word": "customer",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 8,
+          "si": 1
+        }
+      },
+      {
+        "en": "branch",
+        "ko": "① 지점, 분점",
+        "ex": "Our new {{BLANK}} opens in Busan next month.",
+        "tr": "새 지점이 다음 달 부산에 문을 열어.",
+        "c": "",
+        "ipa": "bræntʃ",
+        "pos": "n.",
+        "word": "branch",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 13,
+          "si": 2
+        }
+      },
+      {
+        "en": "refund",
+        "ko": "① 환불",
+        "ex": "You can get a full {{BLANK}} within seven days.",
+        "tr": "7일 안이면 전액 환불받을 수 있어요.",
+        "c": "",
+        "ipa": "ˈriˌfʌnd",
+        "pos": "n.",
+        "word": "refund",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 28,
+          "si": 1
+        }
+      },
+      {
+        "en": "inquiry",
+        "ko": "① 문의",
+        "ex": "Thank you for your {{BLANK}} about our prices.",
+        "tr": "가격 문의 감사합니다.",
+        "c": "",
+        "ipa": "ɪnˈkwaɪəri",
+        "pos": "n.",
+        "word": "inquiry",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 17,
+          "si": 1
+        }
+      },
+      {
+        "en": "fare",
+        "ko": "① (교통) 요금",
+        "ex": "The bus {{BLANK}} went up last month.",
+        "tr": "지난달 버스 요금이 올랐어.",
+        "c": "",
+        "ipa": "fɛr",
+        "pos": "n.",
+        "word": "fare",
+        "si": 1,
+        "sn": 1,
+        "fable": {
+          "set": 38,
+          "si": 1
+        }
+      }
+    ]
+  }
+]

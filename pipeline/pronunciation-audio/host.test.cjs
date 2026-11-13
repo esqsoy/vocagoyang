@@ -1,7 +1,8 @@
 'use strict';
 const assert=require('node:assert/strict'),path=require('node:path');
 const {harness,root}=require('../tests/helpers/mother-tongue-harness.cjs');
-const files=['vocagoyangfable.html','vocagoyangksat2027.html','vocagoyangebs2027.html'];
+// 세 교재와 시험 단어장(pipeline/exam). FABLE 엔진(시험 단어장 포함)은 카드 IPA를 쓰고, 마더텅·EBS는 MT_PRONUNCIATIONS를 쓴다.
+const {ALL:files,isFableEngine}=require('../tests/helpers/courses.cjs');
 const noun={term:'record',meaning:'기록',ipa:'ˈrɛkɚd',src:'assets/pronunciation/test-record-n.mp3'},verb={term:'record',meaning:'기록하다',ipa:'rɪˈkɔrd',src:'assets/pronunciation/test-record-v.mp3'};
 
 // These tests execute each built host's real input, replay, navigation and
@@ -22,10 +23,10 @@ function setup(file,options={}){
   if(!options.noAudio){h.ctx.Audio=FakeAudio;h.ctx.window.Audio=FakeAudio;}
   h.run(`PRONUNCIATION_AUDIO_MAP[${JSON.stringify(noun.term+'\t'+noun.ipa)}]={src:${JSON.stringify(noun.src)},duration:4.5};
     PRONUNCIATION_AUDIO_MAP[${JSON.stringify(verb.term+'\t'+verb.ipa)}]={src:${JSON.stringify(verb.src)},duration:4.5};`);
-  if(!file.includes('fable'))h.run(`MT_PRONUNCIATIONS.record={ipa:${JSON.stringify(noun.ipa)},speech:'a record',meanings:{'기록하다':{ipa:${JSON.stringify(verb.ipa)},speech:'to record'}}};`);
+  if(!isFableEngine(file))h.run(`MT_PRONUNCIATIONS.record={ipa:${JSON.stringify(noun.ipa)},speech:'a record',meanings:{'기록하다':{ipa:${JSON.stringify(verb.ipa)},speech:'to record'}}};`);
   assert.equal(audios.length,0,'Loading a host must not allocate every pronunciation');
   h.start();h.ctx.exceptionAudioPreload(null);
-  const fable=file.includes('fable'),session=h.state.session,id=session.currentId,word=session.words[id];
+  const fable=isFableEngine(file),session=h.state.session,id=session.currentId,word=session.words[id];
   function fixture(sense=noun){
     Object.assign(word,{term:sense.term,word:sense.term,meaning:sense.meaning,originalMeaning:sense.meaning,ipa:sense.ipa,ex:'Keep a {{BLANK}}.',tr:'',c:'',context:null});
     return word;
@@ -140,7 +141,7 @@ async function main(){
     audio.emit('error');assert.equal(t.realSpeech().length,1);assert.equal(t.realSpeech()[0].text,t.fable?'record':'to record');
     h.ctx.setMuted(true);const before=t.audios.filter(a=>a.playCount).length;t.clickReview();assert.equal(t.audios.filter(a=>a.playCount).length,before,'Muted review played media');
   }
-  if(!file.includes('fable')){
+  if(!isFableEngine(file)){
     const t=setup(file),{h}=t;
     h.run("MT_PRONUNCIATIONS.record={ipa:'ˈrɛkɚd',speech:'a record',label:'명사',alternatives:[{ipa:'rɪˈkɔrd',label:'동사'}]};");
     t.answer();assert.equal(t.audios.filter(a=>a.playCount).length,0,'Unresolved multiple pronunciations must not choose one recording');
