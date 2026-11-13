@@ -25,7 +25,13 @@ for(const file of EXAMS){
   assert.equal(h.els.get('fableBtn').getAttribute('aria-pressed'),'true');assert.match(h.els.get('fableBtn').innerHTML,/빼는 중/);
   const all=h.state.lessons.flatMap(L=>L.exercises.map(e=>({L,e})));
   const fableEx=all.filter(x=>x.e.scope==='fable'),mainEx=all.filter(x=>x.e.scope!=='fable');
-  assert(fableEx.length&&mainEx.length,file+': 원본에 FABLE 뜻 연습과 새 뜻 연습이 다 있다');
+  assert(mainEx.length,file+': 원본에 새 뜻 연습이 있다');
+  if(!fableEx.length){
+    // FABLE 같은 뜻이 없는 책(GRE): 단추를 숨기고, 모든 연습이 보인다. 아래 2~4(단추·숨은 연습)는 해당 없다.
+    assert.equal(h.els.get('fableBtn').style.display,'none','FABLE 같은 뜻 연습이 없으면 단추를 숨긴다');
+    assert.equal(h.ctx.totalExercises(),all.length,'모든 연습이 보인다');
+  }
+  if(fableEx.length){
   assert(fableEx.every(x=>/^FABLE 뜻 \d+(-\d+)? · /.test(x.e.title)),'FABLE 뜻 연습 제목: '+fableEx.map(x=>x.e.title));
   assert(mainEx.every(x=>/^Exercise \d+(-\d+)? · /.test(x.e.title)),'새 뜻 연습 제목');
   assert(fableEx.every(x=>x.e.words.every(w=>w.term&&w.si)));
@@ -85,6 +91,8 @@ for(const file of EXAMS){
     assert.equal(h.ctx.nextLessonIndex(0),1);
   }
 
+  }
+
   // 5) 저장: 한 판을 끝까지 풀어도 이 시험 키와 같이 쓰는 키만 쓴다(FABLE·마더텅 키를 건드리지 않는다).
   h=harness(path.join(root,file));h.start();
   const s=h.state.session;let guard=0;
@@ -110,7 +118,7 @@ for(const file of EXAMS){
   assert(h.els.get('examEnd').classList.contains('show')&&!h.els.get('examEnd').hidden,'완주 화면이 뜬다');
   assert.match(h.els.get('examEndTitle').textContent,/단어장 완주/);
   h.fire('examEndClose','click');assert(h.els.get('examEnd').hidden);
-  reports.push({file,exercises:all.length,fableExercises:fableEx.length,hiddenCards:cards(fableEx)});
+  reports.push({file,exercises:all.length,fableExercises:fableEx.length,hiddenCards:fableEx.reduce((a,x)=>a+x.e.words.length,0)});
 }
 
 // 7) 엔진 복제 검사: 설정 블록이 config.json과 같고, 엔진 부분이 토익 엔진과 같다.

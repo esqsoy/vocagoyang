@@ -195,8 +195,9 @@ def check_course(lessons, fable_cards):
     return problems, notes
 
 
-def align_ipa(lessons, fable_cards, fable_ipas):
-    """DATA에 넣을 카드의 IPA를 FABLE에 맞춘다. 원본 카드는 바꾸지 않고 사본을 돌려준다."""
+def align_ipa(lessons, fable_cards, fable_ipas, own=()):
+    """DATA에 넣을 카드의 IPA를 FABLE에 맞춘다. 원본 카드는 바꾸지 않고 사본을 돌려준다.
+    own: 철자·품사가 FABLE과 같아도 발음이 다른 표제어(config.json ipaOwn, 예: GRE desert '응분의 대가' dɪˈzɝt ↔ FABLE '사막')."""
     counts = {'linked': 0, 'linkedChanged': 0, 'matched': 0, 'matchedChanged': 0}
     out = []
     for L in lessons:
@@ -213,7 +214,7 @@ def align_ipa(lessons, fable_cards, fable_ipas):
                         ipa = hit['ipa']
                         counts['linked'] += 1
                         counts['linkedChanged'] += ipa != w['ipa']
-                else:
+                elif w['word'] not in own:
                     cand = fable_ipas.get((w['en'], w['pos'])) or set()
                     if len(cand) == 1:
                         ipa = next(iter(cand))
@@ -257,7 +258,7 @@ def main(argv=None):
             print('문제:', p, file=sys.stderr)
         print(json.dumps({'id': a.id, 'problems': len(problems)}, ensure_ascii=False))
         return 1
-    data, counts = align_ipa(lessons, fable_cards, fable_ipas)
+    data, counts = align_ipa(lessons, fable_cards, fable_ipas, set(cfg.get('ipaOwn') or ()))
     if not html.exists():
         raise SystemExit(f'{html.name}가 없다. 먼저 node pipeline/exam/sync.cjs로 만든다')
     src = html.read_text(encoding='utf-8')
