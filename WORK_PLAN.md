@@ -78,7 +78,46 @@
 
 공식 근거: [ODE 제품 소개·제3판](https://www.oup.com.au/books/dictionaries/dictionaries/9780199571123), [OALD 소개](https://www.oxfordlearnersdictionaries.com/definition/english/), [OED 역사사전 소개와 뒤늦은 등재 사례](https://corp.oup.com/news/oxford-english-dictionary-update-june-2026/), [Oxford Word Lists](https://languages.oup.com/products/word-lists/), [Cambridge 공식 단원 목록](https://dictionary.cambridge.org/plus/cambridgeWordlists/Vocabulary_in_Use), [Barron's 공식 소개](https://www.simonandschuster.com/books/1100-Words-You-Need-to-Know-%2B-Online-Practice/Rich-Carriero/9781506271187), [Word Power Made Easy 공식 소개](https://www.penguinrandomhouse.com/books/101052/word-power-made-easy-by-norman-lewis/).
 
-## GRE·GMAT 수준 확장 로드맵 · 2026-10-06 제안, 미확정
+## 시험 단어장: 토익·토플·GRE · 2026-11-14 확정
+
+- **결정(영신):**
+  - 11-13: "이제 슬슬 토익, 토플, GMAT 등의 시험 단어장도 만들자. 여기는 fable 단어장과 중복된건 빼는 선택이 가능하도록 설계하자. 어떤 시험 단어장을 만들지는 네가 선정해줘"
+  - Claude가 토익·토플(아이엘츠)·GRE·텝스·편입(공무원)을 고르고, GMAT·SAT는 따로 안 만드는 안을 냈다.
+  - 11-14: "토익 토플 GRE만 하자! 나머지는 네 의견에 모두 동의해. 이솝도 같이해서 마스터피스를 만들어보자"
+- **왜 이 셋인가(Claude):**
+  - 토익: 국내에서 가장 큰 시험이다. 공개 목록이 있다.
+  - 토플: 학술 영어의 대표 시험이다.
+  - GRE: 단어 문제가 가장 많은 시험이다.
+  - GMAT: 2023년 개편 뒤 단어 문항이 사실상 없어서 GRE 단어장으로 대신한다.
+  - SAT: 지금 디지털 SAT은 학술 기본어 중심이라 FABLE C1과 토플이 덮는다.
+- **재료:**
+  - 토익: TSL 1.2(TOEIC Service List 1,250)와 BSL 1.20(Business Service List 1,744). Browne·Culligan, CC BY-SA 4.0. 합치면 2,419단어이고, FABLE과 표제어가 겹치는 것이 약 62%다(11-13 셈).
+  - 토플: NAWL 1.2(957, CC BY-SA 4.0)는 86%가 FABLE과 겹친다. 그래서 FABLE 밖 학술어에 토플 지문 과목 어휘(생물·지구과학·천문·심리·역사·경제 등)를 우리가 골라 더한다.
+  - GRE: 공개 목록이 없어서 빈도 자료와 사전, Claude·이솝 판단으로 직접 고른다. 상업 단어장의 목록을 옮기지 않는다.
+  - CC BY-SA 목록에서 만든 단어 목록은 출처를 밝히고 같은 조건으로 둔다. 예문·해설은 우리가 쓴 것이다.
+- **FABLE과 겹침은 뜻 단위로 판정한다.**
+  - 시험 단어장에는 그 시험에 나오는 뜻을 모두 담는다.
+  - FABLE에 같은 뜻 카드가 있으면 연결해 표시하고, "FABLE에 있는 뜻 빼기" 단추(기본 켬)로 숨긴다.
+  - 같은 단어라도 시험 뜻이 다르면 남는다. 예: party '당사자', book '예약하다', minutes '회의록'.
+  - 0절 원칙(기본 풀 위에 시험을 얹는다)과 같은 구조다.
+- **카드:**
+  - 모두 예문이 있는 FABLE 방식이다.
+  - 예문은 그 시험 맥락으로 쓴다. 토익은 회사·고객·출장, 토플은 강의·학술, GRE는 고전 명문장과 논증.
+  - 2~4절(예문 통제·빈칸 중의성·해설 기준), 고양이 대사 규칙, 명문장 원문 대조를 그대로 지킨다.
+- **만드는 순서:**
+  1. 이솝이 뜻 목록을 만든다(토익 뜻·FABLE 같은 뜻 여부·수준·중요도·주제·결합).
+  2. Claude가 범위와 배치를 정한다.
+  3. 초안을 쓴다.
+  4. Claude가 다듬는다.
+  5. 이솝이 검수한다(확정·의심, [review-bench](pipeline/review-bench/README.md)).
+  6. 영신이 직검수한다.
+  
+  시험 순서는 토익 → 토플 → GRE다.
+- **GRE에 넣을 것:** perpetual 카드 예문으로 디킨스 『위대한 유산』 8장 "Within myself, I had sustained, from my babyhood, a perpetual conflict with injustice."를 쓴다. 영신이 11-13에 "나중에 어딘가에서 배울수 있으면 좋겠어"라고 했다. 표제어 밖 낱말은 babyhood 하나다.
+- 원본 자리: `pipeline/exam/`(시험마다 폴더). 화면·저장 구조는 엔진 조사 뒤 이 절에 덧붙인다.
+- 아래 'GRE·GMAT 수준 확장 로드맵'(10-06 제안, 미확정)은 이 결정으로 대체한다. 근접어 구별·논증 어휘 같은 생각은 GRE 단어장에서 참고한다.
+
+## GRE·GMAT 수준 확장 로드맵 · 2026-10-06 제안, 미확정 → 11-14 '시험 단어장'으로 대체(참고용)
 
 사용자는 FABLE·마더텅 다음에 GRE·GMAT 수준까지 어휘 풀을 확장하는 방식을 요청했다. 게임 방식은 유지하고 한 번에 방대한 단어를 추가하지 않는다. 아래 분량과 단계는 설계 제안이며 새 표제어·카드 제작을 승인받은 상태가 아니다. 이번 작업은 자료 확인·대표 후보 대조·로드맵 작성만 수행했다.
 
