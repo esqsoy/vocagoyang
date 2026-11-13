@@ -23,6 +23,9 @@
 | 기능 | 폴더 | 같이 쓰는 파일 | 게임별 설정 | 본가 버전 | 탄고고양 | 빨라고양 |
 |---|---|---|---|---|---|---|
 | 기록 옮기기 | `pipeline/record-transfer/` | `merge.js` `runtime.js` `ui.html` `style.css` `build.cjs` `README.md` `test.cjs`(공통 검사). 실제 키 검사는 게임마다 따로(보카고양 `pipeline/tests/record-transfer.test.cjs`) | `config.json`(이름, 파일 표시 `app`, 저장 키 접두어, 옮기지 않을 키, 키 종류 패턴, 넣을 HTML) | `64d6d0e` (11.12 공통 검사 `test.cjs` 나눔. 화면 동작은 `69e8d5e`와 같다) | `69e8d5e` | `69e8d5e` |
+| 저장 키 검사 | `pipeline/storage-guard/` | `check.cjs` `test.cjs` `registry.json`(앞머리 장부, 본가가 고침) `README.md` | `config.json`(이름 `game`, 볼 HTML `targets`) | 이 표를 고친 커밋 바로 앞 | 아직(AL로 알림) | 아직(AL로 알림) |
+
+같은 주소(esqsoy.github.io)의 게임들은 저장 공간을 함께 쓴다. 저장 키 앞머리 장부와 규칙은 [storage-guard README](pipeline/storage-guard/README.md)에 있다. 새 게임 저장소를 만들 때 장부부터 본다.
 
 ## 아직 공유 준비가 안 된 기능
 

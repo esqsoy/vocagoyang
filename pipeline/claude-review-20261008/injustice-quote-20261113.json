@@ -1,0 +1,140 @@
+{
+ "date": "2026-11-13",
+ "name": "injustice-quote-20261113",
+ "status": "applied_locally_verified",
+ "authorization": "영신 26.11.13 'injustice는 그럼 다른 명문장으로 쓰자 나머지는 네 판단에 맡길게'",
+ "summary": "40세트 injustice: 킹 목사 편지(1963, 저작권 있음) → 셸리 『프랑켄슈타인』 월턴의 문장(구텐베르크 대조). 30세트 firework 고양이 대사가 '~가 아니라 ~라고양' 꼴로 되풀이돼 바꿈",
+ "snapshots": {
+  "DATA": {
+   "beforeHash": "867411fc77ddb7246af55aea3c72e062619ef12b9aba5e3e5d38e7d734b18726",
+   "afterHash": "2fd9dfdcdcf313542fbce45db5d262a4ad64cbf00673670e098c6ed0840f2aff",
+   "changes": [
+    {
+     "path": [
+      30,
+      "exercises",
+      11,
+      "words",
+      5,
+      "meow"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "숨은 게 아니라 침대 밑 순찰 중이라고양.",
+     "new": "펑펑 터뜨리고 좋아하는 인간이 이상한 거라고양."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      13,
+      "words",
+      3,
+      "ex"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "{{BLANK}} anywhere is a threat to justice everywhere.",
+     "new": "It requires more philosophy than I possess to bear this {{BLANK}} with patience."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      13,
+      "words",
+      3,
+      "tr"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "어디에서든 불의는 모든 곳의 정의를 위협해.",
+     "new": "이 부당함을 담담히 견디기엔 내 달관이 모자라."
+    },
+    {
+     "path": [
+      40,
+      "exercises",
+      13,
+      "words",
+      3,
+      "c"
+     ],
+     "oldExists": true,
+     "newExists": true,
+     "old": "마틴 루서 킹 「버밍엄 감옥에서 보낸 편지」(1963). in-(아닌)+justice.",
+     "new": "셸리 『프랑켄슈타인』, 선원들에 밀려 북극에서 돌아서는 월턴."
+    }
+   ],
+   "keyOrders": []
+  }
+ },
+ "sourceSnapshots": {
+  "pipeline/out/set30.json": {
+   "beforeHash": "2c606e9af7f36166817a9bbe2476f84f44f548944652e42af9663e70cb5ab749",
+   "afterHash": "e5cf50a51d2893adba1956c68ba7842985c2fb9f5e90cd2be4a4b1223b222be1"
+  },
+  "pipeline/out/set40.json": {
+   "beforeHash": "30ea0fed99c5ce4ad0fcbd6898869112fd9c9f2598c41f2b935a3c8ac40ec79a",
+   "afterHash": "721ad7cfa982a6ddd0de1b03ddc461111997dca5515021f9f445367044222c8f"
+  }
+ },
+ "sourceChanges": {
+  "pipeline/out/set30.json": [
+   {
+    "path": [
+     11,
+     "words",
+     5,
+     "meow"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "숨은 게 아니라 침대 밑 순찰 중이라고양.",
+    "new": "펑펑 터뜨리고 좋아하는 인간이 이상한 거라고양."
+   }
+  ],
+  "pipeline/out/set40.json": [
+   {
+    "path": [
+     13,
+     "words",
+     3,
+     "ex"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "{{BLANK}} anywhere is a threat to justice everywhere.",
+    "new": "It requires more philosophy than I possess to bear this {{BLANK}} with patience."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     3,
+     "tr"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "어디에서든 불의는 모든 곳의 정의를 위협해.",
+    "new": "이 부당함을 담담히 견디기엔 내 달관이 모자라."
+   },
+   {
+    "path": [
+     13,
+     "words",
+     3,
+     "c"
+    ],
+    "oldExists": true,
+    "newExists": true,
+    "old": "마틴 루서 킹 「버밍엄 감옥에서 보낸 편지」(1963). in-(아닌)+justice.",
+    "new": "셸리 『프랑켄슈타인』, 선원들에 밀려 북극에서 돌아서는 월턴."
+   }
+  ]
+ },
+ "sourceKeyOrders": {
+  "pipeline/out/set30.json": [],
+  "pipeline/out/set40.json": []
+ }
+}

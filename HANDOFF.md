@@ -2,6 +2,13 @@
 
 갱신: 2026-11-13 KST. 다음 작업은 이 문서와 `git status`를 함께 확인하고 시작한다. 오래된 상태를 누적하는 대신 이 문서는 최신 상태로 교체하고, 경위는 [WORK_LOG.md](WORK_LOG.md)에 남긴다.
 
+## 2026-11-13 오후 · injustice 명문장, 저장 키 검사기
+
+- 40세트 injustice는 『프랑켄슈타인』 월턴 문장으로 바꿨다(킹 목사 편지는 저작권 때문에 뺌). 30세트 firework 고양이 대사도 바꿨다. 원장 `injustice-quote-20261113`.
+- 해석의 '그녀'·'걔' 섞임은 그대로 둔다. 새 카드는 '걔'를 먼저 쓴다(WORK_LOG 11-13).
+- 같은 주소 저장 공간: 앞머리 장부와 검사기 [pipeline/storage-guard/](pipeline/storage-guard/README.md)(공통 기능, SHARED.md). 새 게임 저장소는 장부부터 본다. 크기 대책은 다시 볼 조건이 오면 한다.
+- AL: 탄고고양·빨라고양 앞으로 검사기 가져가기 이슈를 연다. 법학고양·발음고양·과학고양은 AL 담당 표에 없다.
+
 ## 2026-11-13 · 이솝 검수 2차(31~45세트) · main 배포(e52c919, [DEPLOYMENT](DEPLOYMENT.md))
 
 - 31~45세트 Oxford 5000 보강 776장 이솝 검수. Claude 판정 반영 74건(69장), 원장 `aesop-review2-20261113`(settler 3줄 예문 포함). 판정·요약은 [review-bench](pipeline/review-bench/README.md). 직검수 페이지 https://claude.ai/artifact/Ro4ojTJyfaA3CLxjZVa228

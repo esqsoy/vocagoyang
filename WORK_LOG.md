@@ -2026,3 +2026,18 @@
 - 직검수 페이지: https://claude.ai/artifact/Ro4ojTJyfaA3CLxjZVa228. 감시 칸이 차서 10-12 세트 직검수 페이지(1wq6) 감시를 풀었다.
 - 1차 직검수 페이지 workspace 댓글: 영신이 이해했고 "잘 바꿨습니다". 답하고 스레드를 닫았다. 다섯 장 말투는 그대로 둔다.
 - 배포: 5f1774a~e52c919 main fast-forward. Pages 43277096895 성공(248번은 다음 커밋에 넘겨 취소됨). main의 FABLE blob 118b89a와 공개 주소 해시가 로컬과 일치하고, 나머지 세 HTML은 바뀌지 않았다([DEPLOYMENT](DEPLOYMENT.md)).
+
+## 2026-11-13 · injustice 명문장 교체, 남은 판단(고양이 대사·그녀/걔·저장 공간)
+
+- 영신: "injustice는 그럼 다른 명문장으로 쓰자 나머지는 네 판단에 맡길게"
+- injustice(40세트): 킹 목사 「버밍엄 감옥에서 보낸 편지」(1963)는 저작권이 살아 있어 2-11에 어긋난다. 구텐베르크 24권에서 injustice가 든 짧은 문장을 모아 골랐다.
+  - 고른 문장: 셸리 『프랑켄슈타인』의 월턴(선원들에 밀려 북극에서 돌아서며) "It requires more philosophy than I possess to bear this injustice with patience." / "이 부당함을 담담히 견디기엔 내 달관이 모자라."
+  - 나머지 낱말(require·philosophy·possess·bear·patience)은 18세트까지 다 나온다(순서 통제). 3줄, 연습 안 명문장 1장, collide 걸림 없음.
+  - 『위대한 유산』의 "perpetual conflict with injustice"는 표제어 밖 낱말이 둘(perpetual·babyhood)이라 뺐다.
+- firework 고양이 대사(30세트): '~가 아니라 ~라고양' 꼴이 29·30세트에 네 장 되풀이되고 hidden 대사와 웃음도 같아서 바꿨다. "펑펑 터뜨리고 좋아하는 인간이 이상한 거라고양."
+- 해석의 '그녀'·'걔': 그대로 둔다(Claude 판단). 덱 전체에서 '그녀'가 든 해석은 220장, '걔'는 817장이다. 반말 해석의 기본은 '걔'다. '그녀'는 she를 바로 이어 주는 말이라 학습 카드에서 틀린 말이 아니다. 한쪽으로 몰면 1,000장 넘게 바뀐다. 새 카드는 '걔'를 먼저 쓴다.
+- 원장 `injustice-quote-20261113`(4곳).
+- 저장 공간(Claude 판단):
+  - 저장 키 앞머리 장부와 검사기를 공통 기능으로 만들었다(`pipeline/storage-guard/`: registry·check·test·config, 보카고양 검사 `pipeline/tests/storage-guard.test.cjs`). 일곱 게임 모두 통과했다(분가는 읽기 전용 사본).
+  - 크기 줄이기와 저장 실패 알림은 지금 하지 않는다. 다시 볼 조건은 README에 있다.
+  - PRINCIPLES 0에 원칙, SHARED.md에 표 줄.
