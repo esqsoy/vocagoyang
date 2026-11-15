@@ -1449,6 +1449,10 @@ html{scrollbar-gutter:stable;background:var(--bg1);}
 #fableBtn{width:auto;min-width:54px;flex:none;padding:0 9px;font-size:.74rem;font-weight:800;line-height:1.15;white-space:nowrap;}
 /* 고양이 대사가 비어 있으면 말풍선을 숨긴다(시험 단어장 대사는 아직 쓰지 않았다). */
 #homeBubble[hidden],#sumBubble[hidden]{display:none;}
+/* 영어 대사(토플·GRE): 말풍선을 누르면 한국어 해석과 영어가 번갈아 보인다. 작은 '가'·'EN' 표시로 누를 수 있음을 알린다. */
+.has-ko{cursor:pointer;}
+.has-ko::after{content:"가";display:inline-block;margin-left:5px;padding:0 3px;border:1px solid currentColor;border-radius:4px;font-size:.6rem;line-height:1.25;opacity:.55;vertical-align:1px;font-weight:700;}
+.has-ko.show-ko::after{content:"EN";}
 /* 완주: 짧고 담백하게 */
 .exam-end{position:fixed;inset:0;z-index:60;display:none;place-items:center;padding:20px;
   background:radial-gradient(circle at 50% 28%,rgba(255,79,163,.24),rgba(8,3,16,.93));-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);}
@@ -1957,11 +1961,20 @@ const DATA = [{"lesson":1,"label":"1세트","name":"핵심","exercises":[{"ex":1
 /*==== WORDSET DATA END ====*/
 
 /* ===== 고양이 대사 =====
-   시험 단어장 대사는 아직 쓰지 않았다(FABLE 대사는 FABLE 세계 이야기라 옮기지 않는다). 비어 있으면 말풍선을 띄우지 않는다. */
-const LINES = {welcome:[],start:[],correct:[],correctStreak:[],wrong:[],timeout:[],exerciseDone:[],lessonDone:[],allDone:[]};
-const pick=a=>Array.isArray(a)&&a.length?a[Math.floor(Math.random()*a.length)]:"";
-/* 세트를 다 클리어했을 때 결과 화면 대사: 세트 번호 → 대사. 시험 단어장은 아직 비어 있다. */
+   시험마다 pipeline/exam/<id>/lines.json에서 node pipeline/exam/sync.cjs가 아래 블록을 쓴다. 손으로 고치지 않는다.
+   LINES 갈래별 대사, LESSONCLEAR 세트 번호 → 세트 끝 대사, MISC 그 밖의 한 줄들, LINE_KO 영어 대사 → 한국어 해석(말풍선을 누르면 보인다).
+   FABLE 대사는 FABLE 세계 이야기라 옮기지 않는다. 비어 있으면 말풍선을 띄우지 않는다. */
+/* EXAM_LINES:START */
+const LINES = {"welcome":[],"start":[],"correct":[],"correctStreak":[],"wrong":[],"timeout":[],"exerciseDone":[],"lessonDone":[],"allDone":[]};
 const LESSONCLEAR={};
+const MISC={};
+const LINE_KO={};
+/* EXAM_LINES:END */
+const pick=a=>Array.isArray(a)&&a.length?a[Math.floor(Math.random()*a.length)]:"";
+/* 시험마다 다른 한 줄(MISC)이 없으면 아래 기본값. {typed}·{term}·{S}·{E} 자리를 채운다. */
+function miscLine(k,def,vars){let s=(typeof MISC[k]==="string"&&MISC[k])||def;for(const [a,b] of Object.entries(vars||{}))s=s.split("{"+a+"}").join(b);return s;}
+/* 카드 대사 해석(원본 칸 meowKo)도 LINE_KO에 모은다. */
+for(const L of DATA)for(const e of L.exercises||[])for(const w of e.words||[])if(w.meow&&w.meowKo)LINE_KO[w.meow.trim()]=w.meowKo;
 
 
 /* ===== 헷갈리는 유사단어 보조 힌트 (필요한 단어만 등록) =====
@@ -2010,7 +2023,7 @@ function isAliasHit(typed,w){
   const lst=ALT[w.term+"/"+(w.si||1)];if(!lst)return false;
   const g=normalize(typed);return lst.some(a=>normalize(a)===g);
 }
-const SYNLINES=[
+const SYNLINES=Array.isArray(MISC.syn)&&MISC.syn.length?MISC.syn:[
   "‘{w}’만 맨날 쓸 거냐고양! 새로운 걸 배우라고양!",
   "‘{w}’가 아는 표현의 전부가 아니라고양! 이번엔 이 단어라고양.",
   "‘{w}’ 말고도 쓸 말 있다고양. 아는 단어만 돌려막으면 제자리라고양!",
@@ -2530,8 +2543,8 @@ function submit(opt={}){
     w.corrects++;$("#ainput").classList.add("ok");
     const combo=(s.streak||0)+1;applyCorrect(w);fx(true,combo);beep("ok",combo);setCat('quizCat','win');
     const passed=w.passed;
-    const line= variantHit ? ("‘"+typed.trim()+"’도 맞다고양! 근데 이 책은 ‘"+w.term+"’로 쓴다고양 ✦")
-      : (passed ? ((s.streak||0)>=3?pick(LINES.correctStreak):pick(LINES.correct)) : "정답이라고양! 한 번 더 가자고양.");
+    const line= variantHit ? miscLine("variant","‘{typed}’도 맞다고양! 근데 이 책은 ‘{term}’로 쓴다고양 ✦",{typed:typed.trim(),term:w.term})
+      : (passed ? ((s.streak||0)>=3?pick(LINES.correctStreak):pick(LINES.correct)) : miscLine("retry","정답이라고양! 한 번 더 가자고양."));
     showReveal("good",w,line,variantHit);
     s.streak=(s.streak||0)+1;
     armReveal(w);
@@ -2821,7 +2834,7 @@ function finishExercise(){
   if(s.lesson.kind==="saved"){$("#sumTitle").textContent="모아둔 카드 복습 끝 ✦";}
   else if(s.partial){$("#sumTitle").textContent="틀린 단어 복습 끝 ✦";}
   else if(allCleared){line=pick(LINES.allDone);expr='win';$("#sumTitle").textContent=EXAM.name+" 단어장 완주! 🎓";}
-  else if(lessonCleared){line=LESSONCLEAR[s.lesson.lesson]||"한 세트를 통째로 정복했다고양!";expr='win';$("#sumTitle").textContent=s.lesson.id+" 완전 정복!";}
+  else if(lessonCleared){line=LESSONCLEAR[s.lesson.lesson]||miscLine("lessonClear","한 세트를 통째로 정복했다고양!");expr='win';$("#sumTitle").textContent=s.lesson.id+" 완전 정복!";}
   else $("#sumTitle").textContent="연습 클리어 ✦";
   const perfectRun=completePerfectRun(s,first);
   if(allCleared&&!wasAll&&!s.partial)setTimeout(showEnding,750);
@@ -4076,6 +4089,18 @@ function catSay(msg){
   if(on("gameScreen")&&state.session){quizSay(msg);return;}
   const b=$(on("sumScreen")?"#sumBubble":"#homeBubble");b.innerHTML=`<span><span class="nm">고양고양이</span> ${esc(msg)}</span>`;b.hidden=false;
 }
+/* 영어 대사 해석(26.11.15 영신: 토플·GRE 대사는 영어로, 해석을 달지는 연구). 지금 안: 말풍선을 누르면 해석과 영어가 번갈아 보인다.
+   말풍선 내용이 바뀔 때마다 LINE_KO에 그 대사가 있는지 보고 표시한다. 문제 화면에서 눌러도 입력칸 초점을 뺏지 않는다. */
+function koTextNode(el){if(el.id==="catSpeech")return el.firstChild&&el.firstChild.nodeType===3?el.firstChild:null;const nm=el.querySelector(".nm");const n=nm&&nm.nextSibling;return n&&n.nodeType===3?n:null;}
+function koMark(el){const n=koTextNode(el),t=n?n.data.trim():"";
+  if(t&&(t===el.dataset.en||t===el.dataset.ko))return;   // 누른 뒤 바뀐 것: 그대로 둔다
+  const ko=t&&LINE_KO[t];delete el.dataset.en;delete el.dataset.ko;el.classList.remove("has-ko","show-ko");
+  if(ko){el.dataset.en=t;el.dataset.ko=ko;el.classList.add("has-ko");}}
+function koToggle(el){if(!el.classList.contains("has-ko"))return false;const n=koTextNode(el);if(!n)return false;
+  const toKo=!el.classList.contains("show-ko");const lead=el.id==="catSpeech"?"":" ";n.data=lead+(toKo?el.dataset.ko:el.dataset.en);el.classList.toggle("show-ko",toKo);return true;}
+if(Object.keys(LINE_KO).length)for(const id of ["homeBubble","sumBubble","catSpeech"]){const el=document.getElementById(id);if(!el)continue;
+  new MutationObserver(()=>koMark(el)).observe(el,{childList:true,characterData:true,subtree:true});
+  el.addEventListener("pointerdown",e=>{if(koToggle(el))e.preventDefault();});}
 /* 문제 화면: 카드 머리줄 고양이 말풍선(시간 막대 자리)에 잠깐 띄우고, 그 카드가 그대로면 원래 말풍선으로 되돌린다. */
 function quizSay(msg){
   const s=state.session,sp=$("#catSpeech");if(!s||!sp)return;
@@ -4194,7 +4219,7 @@ $("#nextEx").addEventListener("click",()=>{const L=activeLesson();const ev=visEx
   const ni=nextLessonIndex(state.li);if(ni>=0){state.li=ni;openLesson(ni);openExercise(0);}});
 $("#muteBtn").addEventListener("click",()=>setMuted(!state.muted));
 $("#resetBtn").addEventListener("click",()=>{if(!confirm("저장된 클리어 기록을 모두 지울까요?"))return;
-  state.progress={};saveProgress();renderHome();catSay("기록을 초기화했다고양.");});
+  state.progress={};saveProgress();renderHome();catSay(miscLine("reset","기록을 초기화했다고양."));});
 document.addEventListener("visibilitychange",()=>{const s=state.session;if(!s)return;
   if(document.hidden)s.pausedAt=Date.now();
   else if(s.pausedAt){const p=Date.now()-s.pausedAt;s.totalStart+=p;s.cardStart+=p;s.pausedAt=0;}});
@@ -4203,7 +4228,7 @@ $("#fableBtn").addEventListener("click",()=>{
   abandonPerfectRun();stopTicker();if(state.session?.revealTimer)clearTimeout(state.session.revealTimer);state.session=null;
   state.fableOff=!state.fableOff;try{localStorage.setItem(MODEKEY,state.fableOff?'1':'0');}catch(e){}
   syncFableBtn();renderHome();show("home");
-  catSay(state.fableOff?"FABLE에서 배운 뜻은 뺀다고양. 새 뜻만 간다고양.":"FABLE 뜻까지 전부 본다고양. 복습도 공부라고양.");
+  catSay(state.fableOff?miscLine("fableOn","FABLE에서 배운 뜻은 뺀다고양. 새 뜻만 간다고양."):miscLine("fableOff","FABLE 뜻까지 전부 본다고양. 복습도 공부라고양."));
 });
 function syncFableBtn(){const b=$("#fableBtn");if(!b)return;b.innerHTML=state.fableOff?"FABLE 뜻<br>빼는 중":"FABLE 뜻<br>포함";
   b.setAttribute("aria-pressed",String(state.fableOff));b.setAttribute("aria-label",state.fableOff?"FABLE에 있는 뜻 빼는 중":"FABLE 뜻까지 전부 보는 중");
@@ -4240,7 +4265,7 @@ function showEnding(){
   const ov=$("#examEnd");if(!ov)return;
   setCat('endCat','win');
   $("#examEndTitle").textContent=EXAM.name+" 단어장 완주!";
-  $("#examEndText").textContent=`${state.lessons.length}세트 ${totalExercises()}연습을 다 끝냈다고양.`;
+  $("#examEndText").textContent=miscLine("ending","{S}세트 {E}연습을 다 끝냈다고양.",{S:state.lessons.length,E:totalExercises()});
   ov.hidden=false;ov.classList.add("show");ov.setAttribute("aria-hidden","false");fanfare();
 }
 $("#examEndClose").addEventListener("click",()=>{const ov=$("#examEnd");ov.classList.remove("show");ov.hidden=true;ov.setAttribute("aria-hidden","true");});

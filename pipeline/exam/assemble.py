@@ -9,7 +9,8 @@
   --check  쓰지 않고, HTML의 DATA가 원본으로 만든 것과 같은지만 본다(다르면 종료 코드 1).
 
 검사(하나라도 걸리면 쓰지 않고 종료 코드 1):
-  - 카드 칸: en·ko·ex·tr·ipa·pos·word·si·sn 필수, c·meow·acceptedAnswers·fable은 있을 때만. 모르는 칸은 오타로 본다.
+  - 카드 칸: en·ko·ex·tr·ipa·pos·word·si·sn 필수, c·meow·meowKo·acceptedAnswers·fable은 있을 때만. 모르는 칸은 오타로 본다.
+    meowKo는 영어 대사 책(lines.json lang en)의 카드 대사 해석이다. 말풍선을 누르면 보인다.
   - 예문의 {{BLANK}}는 정확히 하나. ko 앞 번호(①…)는 si와 같고, sn>1이면 번호가 있어야 한다.
   - word+si는 책 전체에서 하나. 표제어마다 si가 1..sn 빠짐없고 sn이 모두 같다.
   - fable {"set":FABLE 세트,"si":FABLE 뜻 번호}는 FABLE DATA에 그 세트·같은 word·그 si 카드가 있어야 한다.
@@ -29,8 +30,8 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
 NUM = '①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳'
 REQUIRED = ('en', 'ko', 'ex', 'tr', 'ipa', 'pos', 'word', 'si', 'sn')
-OPTIONAL = ('c', 'meow', 'acceptedAnswers', 'fable')
-CARD_ORDER = ('en', 'ko', 'ex', 'tr', 'c', 'ipa', 'pos', 'word', 'si', 'sn', 'meow', 'acceptedAnswers', 'fable')
+OPTIONAL = ('c', 'meow', 'meowKo', 'acceptedAnswers', 'fable')
+CARD_ORDER = ('en', 'ko', 'ex', 'tr', 'c', 'ipa', 'pos', 'word', 'si', 'sn', 'meow', 'meowKo', 'acceptedAnswers', 'fable')
 EX_KEYS = {'ex', 'name', 'scope', 'words'}
 
 
@@ -148,6 +149,8 @@ def check_course(lessons, fable_cards):
                     problems.append(f'{where}: c는 글자여야 한다')
                 if 'meow' in w and (not isinstance(w['meow'], str) or not w['meow'].strip()):
                     problems.append(f'{where}: meow는 있을 때만 쓴다(빈 글자 금지)')
+                if 'meowKo' in w and ('meow' not in w or not isinstance(w['meowKo'], str) or not w['meowKo'].strip()):
+                    problems.append(f'{where}: meowKo는 meow(영어 대사)의 해석이다. meow 없이 쓰거나 비워 두지 않는다')
                 if 'acceptedAnswers' in w and (not isinstance(w['acceptedAnswers'], list) or not w['acceptedAnswers']
                                                or not all(isinstance(a, str) and a.strip() for a in w['acceptedAnswers'])):
                     problems.append(f'{where}: acceptedAnswers는 글자 목록')

@@ -10,6 +10,9 @@ P=os.path.join(os.path.dirname(os.path.abspath(__file__)))
 def opt(k):
     return sys.argv[sys.argv.index(k)+1] if k in sys.argv[:-1] else None
 COURSE=opt('--course'); SRC=opt('--src') or (os.path.join(P,'exam',COURSE) if COURSE else None)
+# 영어 대사 책(pipeline/exam/<id>/lines.json의 lang이 en): 카드 대사(meow)가 영어이고 해석은 meowKo에 있다.
+EN_CAT=bool(SRC and os.path.exists(os.path.join(SRC,'lines.json')) and json.load(open(os.path.join(SRC,'lines.json'))).get('lang')=='en')
+CAT_WORD=re.compile(r'\b(meow\w*|purr\w*|hiss\w*|paws?|claws?|whiskers?|hairballs?|naps?|napping|tuna|litter|catnip|kitty|feline)\b',re.I)
 # FABLE: 0~45세트가 어휘 카드(46세트~는 복습·어원·연결 과정). 시험 단어장: 모든 세트.
 LIM=float('inf') if SRC else 45
 def load_exam(src):
@@ -113,7 +116,14 @@ for ln,exn,w in cards:
     c=w.get('c') or ''; m=w.get('meow') or ''
     tag=f"{w.get('word')}({w.get('si')})"
     if len(c)>72: F['A6'].append((ln,tag,f"해설 {len(c)}자"))
-    if m:
+    if m and EN_CAT:
+        # 영어 대사 책(토플·GRE, 26.11.15 영신): 고양이 표시 낱말 하나, 해석 meowKo는 고양체 48자
+        mk=w.get('meowKo') or ''
+        if len(m)>90: F['A6'].append((ln,tag,f"meow {len(m)}자(영어 90자)"))
+        if not CAT_WORD.search(m): F['A6'].append((ln,tag,f"meow 고양이 표시 없음: {m[:24]}"))
+        if not mk: F['A6'].append((ln,tag,"meowKo(해석) 없음"))
+        elif len(mk)>48 or '고양' not in mk: F['A6'].append((ln,tag,f"meowKo 고양체 48자: {mk[:24]}"))
+    elif m:
         if len(m)>48: F['A6'].append((ln,tag,f"meow {len(m)}자"))
         if '고양' not in m: F['A6'].append((ln,tag,f"meow 고양체 아님: {m[:24]}"))
     # 예문 길이는 단어 수가 아니라 폰 화면 줄 수로 잰다(26.10.08 영신 확정: 390px 문제 화면 3줄 이내).
@@ -145,7 +155,9 @@ FUNC_WORDS={'be','do','have','not','yes','no','there','here','what','who','where
 def is_function(w): return w.get('pos') in FUNC_POS or (w.get('word') or '') in FUNC_WORDS
 def reading_load(w):
     ex=w.get('ex') or ''
-    return 0.25*len(ex.split())+0.11*(len(w.get('tr') or '')+len(w.get('c') or ''))+0.055*len(w.get('meow') or '')
+    m=w.get('meow') or ''
+    mw=0.125*len(m.split()) if EN_CAT else 0.055*len(m)   # 영어 대사는 낱말당 예문의 절반 무게
+    return 0.25*len(ex.split())+0.11*(len(w.get('tr') or '')+len(w.get('c') or ''))+mw
 for ln,exn,w in cards:
     if not w.get('ex') or ln>LIM: continue
     t=reading_load(w); cap=13 if is_function(w) else 12

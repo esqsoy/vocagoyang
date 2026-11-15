@@ -2,7 +2,7 @@
 'use strict';
 /* 시험 단어장 HTML 맞추기. 엔진 원본은 토익 HTML(vocagoyangtoeic.html)이다.
    pipeline/exam/<id>/config.json이 있는 시험마다:
-     - 설정 블록(EXAM_CONFIG)·<title>·첫 화면 제목을 config.json으로 다시 쓴다.
+     - 설정 블록(EXAM_CONFIG)·<title>·첫 화면 제목을 config.json으로, 고양이 대사 블록(EXAM_LINES)·맨 위 제목(h1)을 lines.json으로 다시 쓴다.
      - 토익이 아닌 시험은 토익 엔진을 그대로 복제하고, 그 시험의 DATA·발음 효과 표(IPA_EFFECT_MAPS·PRONUNCIATION_AUDIO_MAP)만 지킨다.
        처음 만들 때는 DATA가 비어 있다. 다음에 assemble.py와 ipa-effects/build.cjs를 돌린다.
    사용: node pipeline/exam/sync.cjs [--check]
@@ -17,6 +17,8 @@ const RE={
   config:/\/\* EXAM_CONFIG:START \*\/[\s\S]*?\/\* EXAM_CONFIG:END \*\//,
   title:/<title>[^<]*<\/title>/,
   heading:/<h2 id="homeTitle">[^<]*<\/h2>/,
+  lines:/\/\* EXAM_LINES:START \*\/[\s\S]*?\/\* EXAM_LINES:END \*\//,
+  appbar:/<h1>[^<]*<b>[^<]*<\/b><\/h1>/,
   data:/^const DATA = [^\n]*;$/m,
   maps:/^const IPA_EFFECT_MAPS = [^\n]*;$/m,
   audio:/^const PRONUNCIATION_AUDIO_MAP = [^\n]*;$/m,
@@ -27,7 +29,9 @@ function engineOf(html){let s=html;for(const re of Object.values(RE))s=s.replace
 function withConfig(html,c){
   return html.replace(RE.config,()=>C.configBlock(c))
     .replace(RE.title,()=>`<title>${escHtml(c.title)}</title>`)
-    .replace(RE.heading,()=>`<h2 id="homeTitle">${escHtml(c.heading)}</h2>`);
+    .replace(RE.heading,()=>`<h2 id="homeTitle">${escHtml(c.heading)}</h2>`)
+    .replace(RE.lines,()=>C.linesBlock(c))
+    .replace(RE.appbar,()=>{const [a,b]=C.appbarOf(c);return `<h1>${escHtml(a)}<b>${escHtml(b)}</b></h1>`;});
 }
 function foreignKeys(html){return C.FOREIGN_KEYS.filter(k=>html.includes(k));}
 

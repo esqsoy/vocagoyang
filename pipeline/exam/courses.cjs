@@ -42,6 +42,39 @@ function configBlock(c){
     ...Object.entries(keys).map(([k,v])=>`const ${k}=${JSON.stringify(v)};`),
     CONFIG_END].join('\n');
 }
+/* 고양이 대사 블록(pipeline/exam/<id>/lines.json, 없으면 빈 대사). 영어 책(lang "en")은 대사마다 [영어, 한국어 해석] 짝이고,
+   화면에는 영어를 띄우며 해석은 LINE_KO로 넘긴다(말풍선을 누르면 보인다). 첫 화면 맨 위 제목(appbar)도 여기서 정한다. */
+const LINES_START='/* EXAM_LINES:START */',LINES_END='/* EXAM_LINES:END */';
+const LINE_KINDS=['welcome','start','correct','correctStreak','wrong','timeout','exerciseDone','lessonDone','allDone'];
+const MISC_KEYS=['retry','variant','lessonClear','ending','reset','fableOn','fableOff','syn'];
+const FABLE_APPBAR=['꽃과 단어의 도시를 ','벗어나고양!'];
+function readLines(c){
+  const f=path.join(DIR,c.id,'lines.json');if(!fs.existsSync(f))return null;
+  const L=JSON.parse(fs.readFileSync(f,'utf8')),bad=[];
+  if(!['ko','en'].includes(L.lang))bad.push('lang은 ko 또는 en');
+  for(const k of Object.keys(L.lines||{}))if(!LINE_KINDS.includes(k))bad.push('모르는 갈래 '+k);
+  for(const k of Object.keys(L.misc||{}))if(!MISC_KEYS.includes(k))bad.push('모르는 misc '+k);
+  const one=x=>L.lang==='en'?Array.isArray(x)&&x.length===2&&x.every(s=>typeof s==='string'&&s.trim()):typeof x==='string'&&x.trim();
+  for(const [k,a] of Object.entries(L.lines||{}))for(const x of a)if(!one(x))bad.push(`${k}: ${JSON.stringify(x)} 꼴이 틀렸다`);
+  for(const [k,x] of Object.entries(L.lessonClear||{}))if(!one(x))bad.push(`lessonClear ${k} 꼴이 틀렸다`);
+  if(!Array.isArray(L.appbar)||L.appbar.length!==2)bad.push('appbar는 [앞, 굵게] 두 칸');
+  if(bad.length)throw new Error(f+': '+bad.join(' / '));
+  return L;
+}
+function linesBlock(c){
+  const L=readLines(c),ko={};
+  const en=x=>{if(Array.isArray(x)){ko[x[0].trim()]=x[1];return x[0];}return x;};
+  const lines=Object.fromEntries(LINE_KINDS.map(k=>[k,((L&&L.lines&&L.lines[k])||[]).map(en)]));
+  const clear=Object.fromEntries(Object.entries((L&&L.lessonClear)||{}).map(([k,x])=>[k,en(x)]));
+  const misc={};for(const [k,x] of Object.entries((L&&L.misc)||{})){if(k==='syn')misc.syn=(x||[]).map(en);else if(x&&(typeof x==='string'?x.trim():x.length))misc[k]=en(x);}
+  return [LINES_START,
+    'const LINES = '+JSON.stringify(lines)+';',
+    'const LESSONCLEAR='+JSON.stringify(clear)+';',
+    'const MISC='+JSON.stringify(misc)+';',
+    'const LINE_KO='+JSON.stringify(ko)+';',
+    LINES_END].join('\n');
+}
+function appbarOf(c){const L=readLines(c);return (L&&L.appbar)||FABLE_APPBAR;}
 function isExamHtml(html){return html.includes(CONFIG_START);}
 function isFableEngine(html){return /\bfunction splitExercises\(/.test(html);}
-module.exports={DIR,ROOT,ENGINE_ID,CONFIG_START,CONFIG_END,FOREIGN_KEYS,readConfig,examCourses,examPages,fileOf,keysOf,configBlock,isExamHtml,isFableEngine};
+module.exports={DIR,ROOT,ENGINE_ID,CONFIG_START,CONFIG_END,LINES_START,LINES_END,FOREIGN_KEYS,readConfig,readLines,linesBlock,appbarOf,examCourses,examPages,fileOf,keysOf,configBlock,isExamHtml,isFableEngine};
