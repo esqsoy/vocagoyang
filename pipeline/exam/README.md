@@ -15,6 +15,7 @@ FABLE 위에 얹는 시험 단어장의 원본·조립기·엔진 복제 도구�
 | `sync.cjs` | 시험마다 설정 블록·`<title>`·첫 화면 제목을 `config.json`으로 쓰고, 토익이 아닌 시험은 토익 엔진을 복제한다. `--check`는 엔진 부분이 같은지 본다 |
 | `<id>/config.json` | `id`·`name`(교재 이름, 모아둔 카드·완주 표시)·`title`(`<title>`)·`heading`(첫 화면 제목)·`sets`(`[{lesson, name}]`) |
 | `<id>/setNN.json` | 세트 원본(NN=01..). FABLE `pipeline/out/setNN.json`과 같은 꼴 |
+| `<id>/lines.json` | 고양이 대사(있을 때만). `lang`(ko·en), `appbar`([앞, 굵게] 첫 화면 맨 위 제목), `lines`(welcome·start·correct·correctStreak·wrong·timeout·exerciseDone·allDone), `lessonClear`(세트 번호 → 한 줄), `misc`(retry·variant·lessonClear·ending·reset·fableOn·fableOff·syn). 영어 책은 줄마다 `[영어, 한국어 해석]`. `sync.cjs`가 HTML의 `EXAM_LINES` 블록과 h1에 쓴다 |
 | `tests/fixture/` | 개발·검사용 작은 원본 2세트(예문은 꾸민 것). `pipeline/tests/exam-course.test.cjs`가 쓴다 |
 
 ## 원본 꼴
@@ -22,7 +23,7 @@ FABLE 위에 얹는 시험 단어장의 원본·조립기·엔진 복제 도구�
 `setNN.json` = `[{ex, name, scope?, words:[카드]}]`.
 
 - 카드 필수 칸: `en`(치는 답) `ko`(`① …`, sn>1이면 번호 필수) `ex`(`{{BLANK}}` 하나) `tr` `ipa`(FABLE 관례: 미국식, 빗금 없음, ˈ/ˌ) `pos` `word`(표제어) `si`·`sn`(이 책 안의 뜻 번호·뜻 수).
-- 있을 때만: `c`(해설) `meow`(고양 대사) `acceptedAnswers`(대체 정답, 예문 빈칸에 넣어도 맞는 영어만) `fable`.
+- 있을 때만: `c`(해설) `meow`(고양 대사) `meowKo`(영어 대사 책의 카드 대사 해석, 말풍선을 누르면 보인다) `acceptedAnswers`(대체 정답, 예문 빈칸에 넣어도 맞는 영어만) `fable`.
 - `fable`: FABLE에 같은 뜻 카드가 있으면 `{"set": FABLE 세트 번호, "si": FABLE 뜻 번호}`. 없으면 칸을 두지 않는다.
 - FABLE과 같은 뜻 카드(`fable` 있음)는 **원본에서** `"scope": "fable"` 연습에 모은다. 세트 안에서 새 뜻 연습들 뒤에 두고, 번호는 1부터 따로 센다(화면 제목 `FABLE 뜻 1 · 이름`, 새 뜻 연습은 `Exercise 1 · 이름`). 조립기는 다시 묶지 않고 검사만 한다.
 - `word`+`si`는 책 전체에서 하나다. 모아둔 카드 ID가 `[word, si]`라서, 카드를 다른 연습·세트로 옮겨도 담아 둔 카드가 그대로 이어진다.
@@ -50,7 +51,7 @@ node pipeline/linecheck.cjs --course toeic
 python3 pipeline/review-page.py 1 --course toeic --since <커밋>   # 직검수 페이지
 ```
 
-토플·GRE를 시작할 때: `pipeline/exam/<id>/config.json`을 만들고 `node pipeline/exam/sync.cjs`(빈 HTML 생성) → 위 1~2단계 → 모듈 빌더(`saved-cards`·`milestones`·`pace`)는 엔진에서 복제되므로 다시 돌릴 필요가 없다. `storage-guard/config.json` targets와 `ipa-effects/tests/conservation-baseline.json`(토익 항목을 복사해 저장 키만 바꾼다, `data: null`)에는 손으로 더한다. 진도 키 합치기(`record-transfer/config.json` kinds.progress)에는 toefl·gre가 이미 들어 있다.
+토플·GRE를 시작할 때: `pipeline/exam/<id>/config.json`을 만들고 `node pipeline/exam/sync.cjs`(빈 HTML 생성) → 위 1~2단계 → 모듈 빌더(`saved-cards`·`milestones`·`pace`)는 엔진에서 복제되므로 다시 돌릴 필요가 없다. `storage-guard/config.json` targets와 `ipa-effects/tests/conservation-baseline.json`(토익 항목을 복사해 저장 키만 바꾼다, `data: null`)에는 손으로 더한다. 고양이 대사는 `<id>/lines.json`을 쓰고 `node pipeline/exam/sync.cjs`로 넣는다. 말풍선 줄 수는 실측해 맞춘다(문제 말풍선 두 줄, 홈·결과 말풍선 세 줄). 진도 키 합치기(`record-transfer/config.json` kinds.progress)에는 toefl·gre가 이미 들어 있다.
 
 개발용 원본으로 화면을 다시 만들 때: `python3 pipeline/exam/assemble.py toeic --src pipeline/exam/tests/fixture` → `node pipeline/ipa-effects/build.cjs`.
 

@@ -12,7 +12,7 @@ def opt(k):
 COURSE=opt('--course'); SRC=opt('--src') or (os.path.join(P,'exam',COURSE) if COURSE else None)
 # 영어 대사 책(pipeline/exam/<id>/lines.json의 lang이 en): 카드 대사(meow)가 영어이고 해석은 meowKo에 있다.
 EN_CAT=bool(SRC and os.path.exists(os.path.join(SRC,'lines.json')) and json.load(open(os.path.join(SRC,'lines.json'))).get('lang')=='en')
-CAT_WORD=re.compile(r'\b(meow\w*|purr\w*|hiss\w*|paws?|claws?|whiskers?|hairballs?|naps?|napping|tuna|litter|catnip|kitty|feline)\b',re.I)
+CAT_WORD=re.compile(r'\b(meow\w*|purr\w*|hiss\w*|paws?|claws?|whiskers?|hairballs?|nap\w*|tuna|litter|catnip|kitty|feline)\b',re.I)
 # FABLE: 0~45세트가 어휘 카드(46세트~는 복습·어원·연결 과정). 시험 단어장: 모든 세트.
 LIM=float('inf') if SRC else 45
 def load_exam(src):

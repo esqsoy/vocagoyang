@@ -21,6 +21,23 @@ for(const file of EXAMS){
 
   // 2) 단추 기본 켬: scope fable 연습은 숨고, 끄면 보인다. 제목·진도 키는 단추와 상관없다.
   let h=harness(path.join(root,file));
+  // 1-1) 고양이 대사(26.11.15): lines.json이 있으면 대사 블록·맨 위 제목이 그 파일대로다. 영어 책은 대사·카드 대사 해석이 LINE_KO에 다 있다.
+  {
+    const L=exam.readLines({id});
+    if(L){
+      for(const [k,a] of Object.entries(L.lines||{}))assert.equal(h.run(`LINES.${k}.length`),a.length,file+': 대사 '+k);
+      const en=x=>Array.isArray(x)?x[0]:x;
+      assert(html.includes('<b>'+L.appbar[1].replace(/&/g,'&amp;').replace(/</g,'&lt;')+'</b></h1>'),file+': 맨 위 제목');
+      assert.equal(h.run('miscLine("ending","x",{S:3,E:7})'),en(L.misc.ending).replace('{S}','3').replace('{E}','7'),file+': 완주 문장');
+      if(L.lang==='en'){
+        const ko=h.run('LINE_KO'),all=[...Object.values(L.lines).flat(),...Object.values(L.lessonClear||{})];
+        for(const x of all)assert.equal(ko[x[0].trim()],x[1],file+': 해석 '+x[0]);
+        const meows=h.state.lessons.flatMap(Lx=>Lx.exercises.flatMap(e=>e.words)).length;assert(meows>0);
+        const data=JSON.parse(html.match(/^const DATA = (\[.*\]);$/m)[1]).flatMap(Lx=>Lx.exercises.flatMap(e=>e.words)).filter(w=>w.meow);
+        assert(data.length&&data.every(w=>w.meowKo&&ko[w.meow.trim()]===w.meowKo),file+': 카드 대사마다 해석(meowKo)이 있다');
+      }else assert.equal(h.run('Object.keys(LINE_KO).length'),0,file+': 한국어 대사 책은 해석이 없다');
+    }
+  }
   assert.equal(h.run('state.fableOff'),true,'기본 켬');
   assert.equal(h.els.get('fableBtn').getAttribute('aria-pressed'),'true');assert.match(h.els.get('fableBtn').innerHTML,/빼는 중/);
   const all=h.state.lessons.flatMap(L=>L.exercises.map(e=>({L,e})));
