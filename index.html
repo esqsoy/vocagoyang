@@ -73,6 +73,17 @@ body::before{
 .ksat{--accent:var(--pink2);--glow:rgba(255,79,163,.45);}
 .ksat::after{background:linear-gradient(180deg,var(--pink),var(--gold));}
 .ebs{--accent:var(--cyan);--glow:rgba(92,230,255,.40);}
+/* 시험 단어장(26.11.17 배포): FABLE 위에 얹는 시험별 책. 수능 길(위 세 장)과 나란히 두지 않고 묶음 제목 아래 작게 둔다. */
+.exam-head{margin:6px 2px -4px;color:var(--muted);font-size:.86rem;font-weight:800;letter-spacing:.3px;}
+.exam-head b{color:var(--gold);}
+.cards.exams .card{padding:14px 18px 13px;}
+.cards.exams .card h2{font-size:1.12rem;}
+.toeic{--accent:var(--gold);--glow:rgba(255,211,77,.40);}
+.toeic::after{background:var(--gold);}
+.toefl{--accent:#7aa2ff;--glow:rgba(122,162,255,.40);}
+.toefl::after{background:#7aa2ff;}
+.gre{--accent:#c4a5ff;--glow:rgba(196,165,255,.40);}
+.gre::after{background:#c4a5ff;}
 .ebs::after{background:linear-gradient(180deg,var(--cyan),var(--mint));}
 .gye{--accent:var(--gold);--glow:rgba(255,211,77,.42);}
 .gye::after{background:linear-gradient(180deg,var(--gold),var(--pink2));}
@@ -139,6 +150,30 @@ body.rt-lock{overflow:hidden;}
       <span class="go">›</span>
     </a>
 
+  </div>
+
+  <p class="exam-head"><b>시험 단어장</b> · FABLE에서 배운 뜻은 빼고 볼 수 있다고양</p>
+  <div class="cards exams">
+    <a class="card toeic" href="vocagoyangtoeic.html">
+      <span class="kick">토익</span>
+      <h2>TOEIC</h2>
+      <p class="meta"><!-- VOCAB_STATS:toeic:START --><b>2,010단어</b> · FABLE에 없는 뜻 <b>975</b>장<!-- VOCAB_STATS:toeic:END --></p>
+      <span class="go">›</span>
+    </a>
+
+    <a class="card toefl" href="vocagoyangtoefl.html">
+      <span class="kick">토플</span>
+      <h2>TOEFL</h2>
+      <p class="meta"><!-- VOCAB_STATS:toefl:START --><b>1,955단어</b> · FABLE에 없는 뜻 <b>1,437</b>장<!-- VOCAB_STATS:toefl:END --></p>
+      <span class="go">›</span>
+    </a>
+
+    <a class="card gre" href="vocagoyanggre.html">
+      <span class="kick">GRE</span>
+      <h2>GRE</h2>
+      <p class="meta"><!-- VOCAB_STATS:gre:START --><b>1,070단어</b> · FABLE에 없는 뜻 <b>1,088</b>장<!-- VOCAB_STATS:gre:END --></p>
+      <span class="go">›</span>
+    </a>
   </div>
 
   <!-- RECORD_TRANSFER_UI_START -->

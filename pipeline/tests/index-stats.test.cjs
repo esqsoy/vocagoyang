@@ -1,7 +1,7 @@
 'use strict';
 const assert = require('node:assert/strict');
 const fs = require('node:fs'), os = require('node:os'), path = require('node:path');
-const {headword, readData, countCourses, renderIndex, updateIndex} = require('../index-stats.cjs');
+const {headword, readData, countCourses, renderIndex, countExams, renderExams, updateIndex} = require('../index-stats.cjs');
 const course = (id, words) => ({id, data: [{exercises: [{words}]}]});
 assert.equal(headword({word:' Other ', en:'others'}), 'other');
 assert.equal(headword({en:'  TAKE\tcare  of '}), 'take care of');
@@ -31,6 +31,12 @@ const surrounding = text => text.replace(/(<!-- VOCAB_STATS:[^>]+:START -->)[\s\
 assert.equal(surrounding(rendered), surrounding(template));
 assert.throws(() => renderIndex(template + template, stats), /expected one/);
 assert.throws(() => renderIndex('', stats), /expected one/);
+// 시험 단어장: 수능 누적과 따로, 표제어 수와 FABLE에 없는 뜻(fable 연결 없는 카드) 수.
+const ex = countExams([{id:'toeic', data:[{exercises:[{words:[{word:'book',en:'book'},{word:'book',en:'book',fable:{set:1,si:1}},{word:'per annum',en:'per annum'}]}]}]}]);
+assert.deepEqual(ex, [{id:'toeic',cards:3,headwords:2,newSense:2}]);
+const exHtml = renderExams('<p><!-- VOCAB_STATS:toeic:START -->x<!-- VOCAB_STATS:toeic:END --></p>', ex);
+assert(exHtml.includes('<b>2단어</b> · FABLE에 없는 뜻 <b>2</b>장'));
+assert.throws(() => renderExams('', ex), /expected one/);
 assert.deepEqual(readData('const DATA = [];\r\n', 'fixture'), []);
 assert.throws(() => readData('const DATA = [];\nconst DATA = [];\n', 'fixture'), /expected one/);
 assert.throws(() => readData('const DATA = runCode();\n', 'fixture'), /expected one/);

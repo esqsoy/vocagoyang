@@ -19,6 +19,7 @@ const RE={
   heading:/<h2 id="homeTitle">[^<]*<\/h2>/,
   lines:/\/\* EXAM_LINES:START \*\/[\s\S]*?\/\* EXAM_LINES:END \*\//,
   appbar:/<h1>[^<]*<b>[^<]*<\/b><\/h1>/,
+  route:/<div class="ends"><span>[^<]*<\/span><span class="seoul">[^<]*<\/span><\/div>/,
   data:/^const DATA = [^\n]*;$/m,
   maps:/^const IPA_EFFECT_MAPS = [^\n]*;$/m,
   audio:/^const PRONUNCIATION_AUDIO_MAP = [^\n]*;$/m,
@@ -31,7 +32,8 @@ function withConfig(html,c){
     .replace(RE.title,()=>`<title>${escHtml(c.title)}</title>`)
     .replace(RE.heading,()=>`<h2 id="homeTitle">${escHtml(c.heading)}</h2>`)
     .replace(RE.lines,()=>C.linesBlock(c))
-    .replace(RE.appbar,()=>{const [a,b]=C.appbarOf(c);return `<h1>${escHtml(a)}<b>${escHtml(b)}</b></h1>`;});
+    .replace(RE.appbar,()=>{const [a,b]=C.appbarOf(c);return `<h1>${escHtml(a)}<b>${escHtml(b)}</b></h1>`;})
+    .replace(RE.route,()=>{const [a,b]=C.routeOf(c);return `<div class="ends"><span>${escHtml(a)}</span><span class="seoul">${escHtml(b)}</span></div>`;});
 }
 function foreignKeys(html){return C.FOREIGN_KEYS.filter(k=>html.includes(k));}
 

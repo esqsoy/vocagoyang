@@ -34,7 +34,7 @@ function keysOf(id){
 }
 /* HTML 설정 블록. 시험마다 다른 값은 여기 한 곳에만 둔다(제목·첫 화면 제목은 HTML 태그라 sync.cjs가 같이 쓴다). */
 function configBlock(c){
-  const exam={id:c.id,name:c.name,title:c.title,heading:c.heading,savedCourse:c.name,msCourse:c.id,paceCourse:c.id};
+  const exam={id:c.id,name:c.name,title:c.title,heading:c.heading,savedCourse:c.name,msCourse:c.id,paceCourse:c.id,credit:c.credit||''};
   const keys=keysOf(c.id);
   return [CONFIG_START,
     `/* 이 블록은 pipeline/exam/${c.id}/config.json에서 node pipeline/exam/sync.cjs가 만든다. 손으로 고치지 않는다. */`,
@@ -48,6 +48,7 @@ const LINES_START='/* EXAM_LINES:START */',LINES_END='/* EXAM_LINES:END */';
 const LINE_KINDS=['welcome','start','correct','correctStreak','wrong','timeout','exerciseDone','lessonDone','allDone'];
 const MISC_KEYS=['retry','variant','lessonClear','ending','reset','fableOn','fableOff','syn'];
 const FABLE_APPBAR=['꽃과 단어의 도시를 ','벗어나고양!'];
+const FABLE_ROUTE=['🌹 일산','전설의 BIG MOUNTAIN 🌳'];   // 홈 아래 경로 막대 양 끝(lines.json route)
 function readLines(c){
   const f=path.join(DIR,c.id,'lines.json');if(!fs.existsSync(f))return null;
   const L=JSON.parse(fs.readFileSync(f,'utf8')),bad=[];
@@ -58,6 +59,7 @@ function readLines(c){
   for(const [k,a] of Object.entries(L.lines||{}))for(const x of a)if(!one(x))bad.push(`${k}: ${JSON.stringify(x)} 꼴이 틀렸다`);
   for(const [k,x] of Object.entries(L.lessonClear||{}))if(!one(x))bad.push(`lessonClear ${k} 꼴이 틀렸다`);
   if(!Array.isArray(L.appbar)||L.appbar.length!==2)bad.push('appbar는 [앞, 굵게] 두 칸');
+  if(L.route!==undefined&&(!Array.isArray(L.route)||L.route.length!==2||!L.route.every(s=>typeof s==='string'&&s.trim())))bad.push('route는 [출발, 도착] 두 칸');
   if(bad.length)throw new Error(f+': '+bad.join(' / '));
   return L;
 }
@@ -75,6 +77,7 @@ function linesBlock(c){
     LINES_END].join('\n');
 }
 function appbarOf(c){const L=readLines(c);return (L&&L.appbar)||FABLE_APPBAR;}
+function routeOf(c){const L=readLines(c);return (L&&L.route)||FABLE_ROUTE;}
 function isExamHtml(html){return html.includes(CONFIG_START);}
 function isFableEngine(html){return /\bfunction splitExercises\(/.test(html);}
-module.exports={DIR,ROOT,ENGINE_ID,CONFIG_START,CONFIG_END,LINES_START,LINES_END,FOREIGN_KEYS,readConfig,readLines,linesBlock,appbarOf,examCourses,examPages,fileOf,keysOf,configBlock,isExamHtml,isFableEngine};
+module.exports={DIR,ROOT,ENGINE_ID,CONFIG_START,CONFIG_END,LINES_START,LINES_END,FOREIGN_KEYS,readConfig,readLines,linesBlock,appbarOf,routeOf,examCourses,examPages,fileOf,keysOf,configBlock,isExamHtml,isFableEngine};

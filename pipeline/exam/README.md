@@ -35,7 +35,8 @@ FABLE 위에 얹는 시험 단어장의 원본·조립기·엔진 복제 도구�
 - FABLE의 손으로 쓴 내용(`LINES` 고양이 대사·`LESSONCLEAR`·`HINTS`·`ALT`)은 비워 두었다. 대사가 비면 말풍선을 띄우지 않는다. 시험 단어장 대사는 따로 쓴다.
 - 저장 키: `goyang-<id>-seoul-v1`(진도) `goyang-<id>-mode-v1`(단추, '1' 켬·'0' 끔) `goyang-<id>-seoul-last-v1`(이어하기) `goyang-<id>-uni-v1`(지금은 쓰지 않음). 모아둔 카드는 `진도 키-saved-cards-v1`, 속도는 `goyang-pace-<id>-…`. 시험 HTML에 `goyang-hoe-`·`goyang-fable-` 글자가 있으면 `sync.cjs --check`와 검사가 실패한다.
 - 모듈: 모아둔 카드(교재 이름 `EXAM.savedCourse`, ID `[word,si]`)·돌파 축하(`EXAM.msCourse`, 합집합 순서 FABLE→마더텅→EBS→토익→토플→GRE)·속도 예측(목표 '토익 완주')·발음 효과는 빌더가 `examPages()`로 찾아 끼운다. 세트 도장·마더텅 발췌·`patch-textbooks`에는 넣지 않는다.
-- 첫 화면(`index.html`) 교재 카드와 `index-stats.cjs`에는 아직 넣지 않았다(공개는 원장 확인 뒤).
+- 첫 화면(`index.html`)에는 '시험 단어장' 묶음으로 세 권을 둔다(26.11.17 배포). 단어 수는 `index-stats.cjs`가 표제어 수와 FABLE에 없는 뜻 카드 수로 센다.
+- 홈 아래 경로 막대 양 끝 이름은 `lines.json` `route`, 단어 목록 출처 줄은 `config.json` `credit`이다.
 
 ## 명령
 
