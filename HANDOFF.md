@@ -13,14 +13,13 @@
   - 토익 2,255장: 영국식 5장을 되살렸다.
   - 토플 2,258장
   - GRE 1,088장
-- 대사:
+- 대사(11-17 영신 "아주 마음에 듭니다"):
   - 원본은 `pipeline/exam/<id>/lines.json`이다. `node pipeline/exam/sync.cjs`로 HTML에 넣는다.
   - 영어 책의 카드 대사 해석은 `meowKo`에 있다. 말풍선을 누르면 해석이 나온다(연구 중인 안).
 - 영신 판단 대기:
   - 해석 보이는 방식
   - 경로 막대 FABLE 문구
   - per capita·per annum
-  - 대사 무대 설정
   - 단추 문구·CC BY-SA 표시·첫 화면에 올릴 때
   - FABLE 같은 뜻 보충(2판)
 
