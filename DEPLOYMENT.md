@@ -1,3 +1,18 @@
+# 시험 단어장(토익·토플·GRE) 첫 공개 · 2026-11-18
+
+- 커밋 [10790d3](https://github.com/esqsoy/vocagoyang/commit/10790d3)까지 4ebbb81 다음 17개 커밋을 origin/main에 fast-forward로 푸시했다. 시험 단어장 세 권, 첫 화면 '시험 단어장' 묶음, 시험별 고양이 대사(토플·GRE는 영어, 누르면 해석), 경로 막대 이름, 토익·토플 출처 줄(CC BY-SA 4.0), per capita·per annum이 들어갔다.
+- [Pages 44226822692](https://github.com/esqsoy/vocagoyang/actions/runs/44226822692) 성공(2026-11-18 02:57:02 UTC 완료 확인).
+- 확인한 방법:
+  - GitHub API로 main의 HTML blob SHA를 봤다. 로컬 10790d3과 같다.
+    - 새 파일: 토익 2d17f14, 토플 0af6426, GRE 60ca012
+    - 바뀐 파일: index b4d6f45, FABLE d6faf17, 수능 25efe81, EBS d8a4efb
+    - FABLE·수능·EBS는 공통 모듈만 바뀌었다(돌파 축하 순서에 시험 단어장 추가, 모아둔 카드 ID 규칙 주석, 속도 예측 완주 이름). 카드 내용은 그대로다.
+  - 공개 주소 esqsoy.github.io/vocagoyang의 일곱 HTML을 받아 해시를 맞췄다. 모두 위 SHA와 같다.
+- 배포 전 검사(10790d3에서 새로 실행): node 검사 42개, 모듈 빌더 `--check` 8개, index-stats `--check`, sync `--check`(모두 52개 통과, 실패 0). linecheck 세 권 초과 0, deepcheck A1·A2·A3·A6·A7·A8 세 권 0건. Chromium 360·390px에서 대사·해석 토글·제목 두 줄·경로 막대·첫 화면 카드를 본 것은 앞선 작업(11-17)에서다.
+- **실기기 플레이는 영신이 한 달 뒤쯤 한다.**
+
+---
+
 # injustice 명문장·firework 대사·저장 키 검사기 배포 · 2026-11-13
 
 - 커밋 [a6affe7](https://github.com/esqsoy/vocagoyang/commit/a6affe7)(카드 4곳, 원장 `injustice-quote-20261113`, `pipeline/storage-guard/`)과 6ca89fa(SHARED 본가 버전)를 origin/main에 fast-forward로 푸시했다.

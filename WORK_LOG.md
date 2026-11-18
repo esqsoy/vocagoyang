@@ -2167,3 +2167,4 @@
   - 첫 화면 index.html: 수능 길 세 장 밑에 '시험 단어장' 묶음으로 토익·토플·GRE 카드를 넣었다. 단어 수는 index-stats.cjs가 따로 센다(표제어 수, FABLE에 없는 뜻 카드 수).
   - 단어 목록 출처: CC BY-SA 4.0 목록에서 만든 토익·토플은 홈 맨 아래에 작게 적었다(config.json credit). WORK_PLAN '출처를 밝히고 같은 조건으로 둔다'에 따른 것이다. 문구는 Claude가 정했다.
 - 영신 판단 대기: 단추 문구("FABLE 뜻 빼는 중 / FABLE 뜻 포함"), FABLE 같은 뜻 보충(2판).
+- 11-18 배포: main 10790d3, Pages 44226822692 성공. 공개 HTML 일곱 개 해시가 main과 같다([DEPLOYMENT](DEPLOYMENT.md) 맨 위).
