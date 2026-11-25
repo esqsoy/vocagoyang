@@ -2181,3 +2181,7 @@
 - 변경 파일: `vocagoyangtoeic.html`·`vocagoyangtoefl.html`·`vocagoyanggre.html`(단추), `pipeline/tests/exam-course.test.cjs`(켬 '새 뜻만'·끔 '전체'), `pipeline/exam/fable-core.json`, PRINCIPLES 0, UI_STANDARD, WORK_PLAN, `pipeline/exam/README.md`, HANDOFF.
 - 검증(새로 실행): 검사 42개·모듈 빌더 `--check` 8개·index-stats·sync `--check` 모두 52개 통과. linecheck 토익·토플 초과 0. Chromium 360·390px: 단추 '새 뜻만'(60px)·'전체'(54px) 모두 넘침·겹침 없음, 제목 두 줄 그대로, 오류 0.
 - 배포: 하지 않았다(브랜치만).
+- 같은 날 이어서 영신: "fable은 일단 무조건 하고 가는걸로 치고 토익도 그렇게 하는걸로 하는게 어떨까?"
+  - Claude 안: A 원칙만 바꾸고 이미 만든 FABLE 뜻 카드(토익 1,282·토플 821)는 둔다(추천), B 그 카드와 단추를 지운다. 영신 "a로 갑시다".
+  - 시험 단어장은 FABLE을 끝낸 학생을 전제로 한다. 2판 보충안은 접었다. 11-14 Claude가 붙였던 'FABLE을 하지 않은 학생도 하나로 끝낸다'는 이유를 PRINCIPLES 0에서 바꾸고 경위를 남겼다.
+  - 고친 문서: PRINCIPLES 0, WORK_PLAN(시험 단어장 겹침 원칙·GRE), `pipeline/exam/README.md`·`fable-core.json` 설명(참고용), HANDOFF. 화면·카드는 바꾸지 않았다.

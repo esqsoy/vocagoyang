@@ -16,7 +16,7 @@ FABLE 위에 얹는 시험 단어장의 원본·조립기·엔진 복제 도구�
 | `<id>/config.json` | `id`·`name`(교재 이름, 모아둔 카드·완주 표시)·`title`(`<title>`)·`heading`(첫 화면 제목)·`sets`(`[{lesson, name}]`) |
 | `<id>/setNN.json` | 세트 원본(NN=01..). FABLE `pipeline/out/setNN.json`과 같은 꼴 |
 | `<id>/lines.json` | 고양이 대사(있을 때만). `lang`(ko·en), `appbar`([앞, 굵게] 첫 화면 맨 위 제목), `lines`(welcome·start·correct·correctStreak·wrong·timeout·exerciseDone·allDone), `lessonClear`(세트 번호 → 한 줄), `misc`(retry·variant·lessonClear·ending·reset·fableOn·fableOff·syn). 영어 책은 줄마다 `[영어, 한국어 해석]`. `sync.cjs`가 HTML의 `EXAM_LINES` 블록과 h1에 쓴다 |
-| `fable-core.json` | FABLE 뜻 가운데 토플·GRE 핵심으로 표시한 것(토플 2,633·GRE 724). 칸은 `[표제어, 품사, FABLE 세트, si, 이 책에 있음]`. 1판에는 넣지 않았고 2판 숨김 카드 보충에 쓴다([PRINCIPLES 0](../../PRINCIPLES.md#0-목적)) |
+| `fable-core.json` | 참고용. FABLE 뜻 가운데 토플·GRE 핵심으로 표시한 것(토플 2,633·GRE 724, 26.11.14 이솝). 칸은 `[표제어, 품사, FABLE 세트, si, 이 책에 있음]`. 시험 단어장은 FABLE을 전제로 해서 보충에 쓰지 않는다([PRINCIPLES 0](../../PRINCIPLES.md#0-목적)). 전제가 바뀌면 이 목록에서 시작한다 |
 | `tests/fixture/` | 개발·검사용 작은 원본 2세트(예문은 꾸민 것). `pipeline/tests/exam-course.test.cjs`가 쓴다 |
 
 ## 원본 꼴
