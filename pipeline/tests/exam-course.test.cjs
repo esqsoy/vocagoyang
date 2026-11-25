@@ -39,7 +39,7 @@ for(const file of EXAMS){
     }
   }
   assert.equal(h.run('state.fableOff'),true,'기본 켬');
-  assert.equal(h.els.get('fableBtn').getAttribute('aria-pressed'),'true');assert.match(h.els.get('fableBtn').innerHTML,/빼는 중/);
+  assert.equal(h.els.get('fableBtn').getAttribute('aria-pressed'),'true');assert.equal(h.els.get('fableBtn').textContent,'새 뜻만');
   const all=h.state.lessons.flatMap(L=>L.exercises.map(e=>({L,e})));
   const fableEx=all.filter(x=>x.e.scope==='fable'),mainEx=all.filter(x=>x.e.scope!=='fable');
   assert(mainEx.length,file+': 원본에 새 뜻 연습이 있다');
@@ -61,7 +61,7 @@ for(const file of EXAMS){
   assert.equal(h.els.get('homeMeta').textContent,`${h.state.lessons.length}세트 · ${cards(mainEx).toLocaleString()}카드 · 클리어 0/${mainEx.length} 연습`);
   h.fire('fableBtn','click');
   assert.equal(h.run('state.fableOff'),false);assert.equal(h.storage.get(keys.MODEKEY),'0','끔을 MODEKEY에 적는다');
-  assert.equal(h.els.get('fableBtn').getAttribute('aria-pressed'),'false');
+  assert.equal(h.els.get('fableBtn').getAttribute('aria-pressed'),'false');assert.equal(h.els.get('fableBtn').textContent,'전체');
   assert.deepEqual(visible(),all.map(x=>x.L.id+' | '+x.e.title),'끔: 전부 보인다');
   assert.equal(h.ctx.totalExercises(),all.length);
   assert.equal(h.els.get('homeMeta').textContent,`${h.state.lessons.length}세트 · ${cards(all).toLocaleString()}카드 · 클리어 0/${all.length} 연습`);

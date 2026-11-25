@@ -16,6 +16,7 @@ FABLE 위에 얹는 시험 단어장의 원본·조립기·엔진 복제 도구�
 | `<id>/config.json` | `id`·`name`(교재 이름, 모아둔 카드·완주 표시)·`title`(`<title>`)·`heading`(첫 화면 제목)·`sets`(`[{lesson, name}]`) |
 | `<id>/setNN.json` | 세트 원본(NN=01..). FABLE `pipeline/out/setNN.json`과 같은 꼴 |
 | `<id>/lines.json` | 고양이 대사(있을 때만). `lang`(ko·en), `appbar`([앞, 굵게] 첫 화면 맨 위 제목), `lines`(welcome·start·correct·correctStreak·wrong·timeout·exerciseDone·allDone), `lessonClear`(세트 번호 → 한 줄), `misc`(retry·variant·lessonClear·ending·reset·fableOn·fableOff·syn). 영어 책은 줄마다 `[영어, 한국어 해석]`. `sync.cjs`가 HTML의 `EXAM_LINES` 블록과 h1에 쓴다 |
+| `fable-core.json` | FABLE 뜻 가운데 토플·GRE 핵심으로 표시한 것(토플 2,633·GRE 724). 칸은 `[표제어, 품사, FABLE 세트, si, 이 책에 있음]`. 1판에는 넣지 않았고 2판 숨김 카드 보충에 쓴다([PRINCIPLES 0](../../PRINCIPLES.md#0-목적)) |
 | `tests/fixture/` | 개발·검사용 작은 원본 2세트(예문은 꾸민 것). `pipeline/tests/exam-course.test.cjs`가 쓴다 |
 
 ## 원본 꼴
@@ -30,7 +31,7 @@ FABLE 위에 얹는 시험 단어장의 원본·조립기·엔진 복제 도구�
 
 ## 화면
 
-- 머리줄 단추 **FABLE 뜻 빼는 중 / FABLE 뜻 포함**(마더텅 2026/전체 자리). 기본 켬. 켜면 `scope "fable"` 연습을 숨긴다(`visEx`). 연습 단위로 숨겨서 연습 제목·진도 키는 단추와 상관없다. 개수·경로 막대·이어하기·다음 세트·속도 예측이 보이는 연습만 센다.
+- 머리줄 단추 **새 뜻만 / 전체**(마더텅 2026/전체 자리, 문구는 26.11.25 영신). 기본 켬. 켜면 `scope "fable"` 연습을 숨긴다(`visEx`). 연습 단위로 숨겨서 연습 제목·진도 키는 단추와 상관없다. 개수·경로 막대·이어하기·다음 세트·속도 예측이 보이는 연습만 센다.
 - 세트는 모두 열려 있다(FABLE의 차례로 열기·도장·B1/C1·번호 다시 매기기는 넣지 않았다). 완주는 짧은 완주 화면(`#examEnd`), 경로 막대를 누르면 다시 본다.
 - FABLE의 손으로 쓴 내용(`LINES` 고양이 대사·`LESSONCLEAR`·`HINTS`·`ALT`)은 비워 두었다. 대사가 비면 말풍선을 띄우지 않는다. 시험 단어장 대사는 따로 쓴다.
 - 저장 키: `goyang-<id>-seoul-v1`(진도) `goyang-<id>-mode-v1`(단추, '1' 켬·'0' 끔) `goyang-<id>-seoul-last-v1`(이어하기) `goyang-<id>-uni-v1`(지금은 쓰지 않음). 모아둔 카드는 `진도 키-saved-cards-v1`, 속도는 `goyang-pace-<id>-…`. 시험 HTML에 `goyang-hoe-`·`goyang-fable-` 글자가 있으면 `sync.cjs --check`와 검사가 실패한다.

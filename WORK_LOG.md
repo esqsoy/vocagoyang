@@ -2168,3 +2168,16 @@
   - 단어 목록 출처: CC BY-SA 4.0 목록에서 만든 토익·토플은 홈 맨 아래에 작게 적었다(config.json credit). WORK_PLAN '출처를 밝히고 같은 조건으로 둔다'에 따른 것이다. 문구는 Claude가 정했다.
 - 영신 판단 대기: 단추 문구("FABLE 뜻 빼는 중 / FABLE 뜻 포함"), FABLE 같은 뜻 보충(2판).
 - 11-18 배포: main 10790d3, Pages 44226822692 성공. 공개 HTML 일곱 개 해시가 main과 같다([DEPLOYMENT](DEPLOYMENT.md) 맨 위).
+
+## 2026-11-25 · 단추 문구 '새 뜻만 / 전체', FABLE 같은 뜻 보충은 2판으로
+
+- 영신(11-24): 단추 문구와 2판 질문의 뜻을 모르겠다고 했다. Claude가 예시와 수를 들어 다시 설명하고 추천을 붙였다.
+- 영신(11-25): "둘다 추천대로야. 특히 1번은 원래가 어색해서 추천대로가 맞아".
+  1. 머리줄 단추를 'FABLE 뜻 빼는 중 / FABLE 뜻 포함'에서 **'새 뜻만 / 전체'**로 바꿨다. 마더텅 '2026 / 전체'와 같은 꼴이다. 무엇을 빼는지는 누를 때 고양이 대사(fableOn·fableOff)가 말한다.
+     - 엔진 `vocagoyangtoeic.html`을 고치고 `sync.cjs`로 토플·GRE에 옮겼다. GRE는 단추가 숨어 있어 화면이 같다.
+  2. FABLE 단어의 시험 핵심 뜻 보충은 1판에 넣지 않는다. 영신 플레이 뒤에 다시 본다(PRINCIPLES 0, WORK_PLAN).
+     - 바로잡음: 11-24 설명에서 토플 책에 이미 있는 표시 뜻을 '800여 개', 늘어날 양을 '1,800장쯤'이라고 했다. 다시 세어 보니 2,633 중 523개가 책에 있고, 늘어날 양은 2,110장(토플 4,300장대)이다. 책의 FABLE 연결 카드 821장 가운데 나머지는 표시 목록 밖의 같은 뜻이다.
+     - 스크래치에만 있던 표시 목록을 `pipeline/exam/fable-core.json`으로 옮겼다(2판 재료).
+- 변경 파일: `vocagoyangtoeic.html`·`vocagoyangtoefl.html`·`vocagoyanggre.html`(단추), `pipeline/tests/exam-course.test.cjs`(켬 '새 뜻만'·끔 '전체'), `pipeline/exam/fable-core.json`, PRINCIPLES 0, UI_STANDARD, WORK_PLAN, `pipeline/exam/README.md`, HANDOFF.
+- 검증(새로 실행): 검사 42개·모듈 빌더 `--check` 8개·index-stats·sync `--check` 모두 52개 통과. linecheck 토익·토플 초과 0. Chromium 360·390px: 단추 '새 뜻만'(60px)·'전체'(54px) 모두 넘침·겹침 없음, 제목 두 줄 그대로, 오류 0.
+- 배포: 하지 않았다(브랜치만).
