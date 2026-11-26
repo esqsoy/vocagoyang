@@ -2214,4 +2214,9 @@
   - 회의에서 고친 사실: 레싱의 '하나의 답'은 레싱 말이 아니라 해석이다. 근거는 '이야기 속에서 교훈을 직관적으로 알아보게 한다'로 적는다. 겹침 검사: 여섯 HTML에서 Bentley·벤틀리·레싱·La Fontaine·라퐁텐·Caxton·캑스턴 모두 0(Lessing은 blessing 안 글자 6건만).
   - 영신이 B(라퐁텐)와 섞은 안(캑스턴) 가운데 고른다.
 - 남은 일(면접에서 나온 실제 카드 결함, 검토 → 검산 흐름으로 고친다): 토플 3세트 refer(point도 들어감), disperse(dissolve), ambiguous(uncertain), 9세트 landslide(rockslide), GRE 2세트 minute(slight), 6세트 reprove(censure). 각 팀원이 '의심'으로 낸 것은 다시 판정한다.
+- 영신: "팀원은 꼭 다 들일 필요 없어 같이 일할 팀원만 들이면 돼. 그리고 영어 관련 이름으로 갑시다".
+  - 같이 일할 팀원만 들인다: 쓰기 이솝, 검토, 검산. 소네트·하이쿠는 이름 없이 기계적 일에만 부른다.
+  - 투표 안(벤틀리·레싱·라퐁텐/캑스턴)은 레싱(독일)·라퐁텐(프랑스)이 영어와 멀다. Claude 새 안: 검토 파울러(H. W. Fowler, 『A Dictionary of Modern English Usage』 1926, 영어 쓰임의 옳고 그름을 가림), 검산 로제(Peter Mark Roget, 『Thesaurus』 1852, 한 생각에 맞는 낱말을 모두 모음 = 같은 칸 수 경쟁어 찾기), 합치기 머레이(James Murray, OED 편집장, 자원봉사자들이 보낸 인용 쪽지 수백만 장을 모아 뜻을 정함). 예비: 합치기 캑스턴.
+  - 겹침(여섯 HTML+index): Fowler·Roget·Murray·Caxton 0, 파울러·머레이·캑스턴 0, 로제 2(모두 '로제타석' 안). Murray는 '머리'(174건)와 헷갈리므로 '머레이'로 부른다. Webster(18)·Johnson(3)은 카드에 나와 뺐다.
+  - 영신 답 대기.
 
