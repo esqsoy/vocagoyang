@@ -2219,4 +2219,8 @@
   - 투표 안(벤틀리·레싱·라퐁텐/캑스턴)은 레싱(독일)·라퐁텐(프랑스)이 영어와 멀다. Claude 새 안: 검토 파울러(H. W. Fowler, 『A Dictionary of Modern English Usage』 1926, 영어 쓰임의 옳고 그름을 가림), 검산 로제(Peter Mark Roget, 『Thesaurus』 1852, 한 생각에 맞는 낱말을 모두 모음 = 같은 칸 수 경쟁어 찾기), 합치기 머레이(James Murray, OED 편집장, 자원봉사자들이 보낸 인용 쪽지 수백만 장을 모아 뜻을 정함). 예비: 합치기 캑스턴.
   - 겹침(여섯 HTML+index): Fowler·Roget·Murray·Caxton 0, 파울러·머레이·캑스턴 0, 로제 2(모두 '로제타석' 안). Murray는 '머리'(174건)와 헷갈리므로 '머레이'로 부른다. Webster(18)·Johnson(3)은 카드에 나와 뺐다.
   - 영신 답 대기.
+- 영신: "너는 머레이로 하자 그리고 thesaurus는 정확히 무슨뜻이야? 그리고 유명도 반영해줘". 주 세션(합치기·판단) 이름은 **머레이**로 정했다.
+  - 유명도를 넣어 다시 고른 안: 검토 톨킨(Tolkien, 1919~20년 OED에서 w로 시작하는 낱말의 뜻·어원을 맡았다. 머레이의 사전과 이어진다), 검산 웹스터(Noah Webster, 1828년 『An American Dictionary of the English Language』, color·center 같은 미국 철자를 정했다). 예비: 검산 로제(역할은 가장 맞으나 덜 유명).
+  - 겹침: Tolkien·톨킨 각 1(판타지 카드 예문 'The Hobbit … by Tolkien'), Webster 18건은 모두 해설 링크 merriam-webster 주소라 화면 글에는 없음, 웹스터 0. Johnson(존슨)은 예문 속 다른 인물(Jill Johnson 등) 3건이라 뺐다.
+  - 영신 답 대기.
 
