@@ -46,7 +46,7 @@ function configBlock(c){
    화면에는 영어를 띄우며 해석은 LINE_KO로 넘긴다(말풍선을 누르면 보인다). 첫 화면 맨 위 제목(appbar)도 여기서 정한다. */
 const LINES_START='/* EXAM_LINES:START */',LINES_END='/* EXAM_LINES:END */';
 const LINE_KINDS=['welcome','start','correct','correctStreak','wrong','timeout','exerciseDone','lessonDone','allDone'];
-const MISC_KEYS=['retry','variant','lessonClear','ending','reset','fableOn','fableOff','syn'];
+const MISC_KEYS=['retry','variant','noteAlt','lessonClear','ending','reset','fableOn','fableOff','syn'];
 const FABLE_APPBAR=['꽃과 단어의 도시를 ','벗어나고양!'];
 const FABLE_ROUTE=['🌹 일산','전설의 BIG MOUNTAIN 🌳'];   // 홈 아래 경로 막대 양 끝(lines.json route)
 function readLines(c){

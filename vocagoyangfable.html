@@ -2258,6 +2258,13 @@ const GLOSS=new Map();  // 뜻조각 -> Set(정규화된 영단어)
 DATA.forEach(L=>L.exercises.forEach(e=>e.words.forEach(w=>{
   splitGloss(w.ko).forEach(g=>{if(!GLOSS.has(g))GLOSS.set(g,new Set());GLOSS.get(g).add(normalize(w.en));});
 })));
+/* 해설에 적은, 이 문장 빈칸에 맞는 다른 영어(PRINCIPLES 3): "이 문장에는 X·Y도 들어간다", "이 뜻에서는 X와 바꿔 쓸 수 있다". */
+function noteAlternatives(w){const c=w.c||"",out=[];
+  for(const m of c.matchAll(/이 문장에는\s*([^.]+?)도 들어간다/g))out.push(...m[1].split(/[·,/]/));
+  for(const m of c.matchAll(/([A-Za-z][A-Za-z' ·,/-]*?)(?:와|과) 바꿔 쓸 수 있다/g))out.push(...m[1].split(/[·,/]/)); // "이 뜻에서는 X와 바꿔 쓸 수 있다"(10.2 동의어 원칙)
+  return [...new Set(out.map(x=>x.trim()).filter(x=>/^[A-Za-z][A-Za-z' -]*$/.test(x)))];}
+function isNoteAlternative(typed,w){const g=normalize(typed);if(!g||isCorrect(typed,w.term))return false;
+  return noteAlternatives(w).some(a=>normalize(a)===g);}
 function isSynonymMiss(typed,w){
   const g=normalize(typed);if(!g||g===normalize(w.term))return false;
   for(const gl of splitGloss(w.meaning)){const set=GLOSS.get(gl);if(set&&set.has(g))return true;}
@@ -3033,6 +3040,14 @@ function submit(opt={}){
   let variantHit=false;
   if(!correct&&!opt.forced&&typed.trim()&&isSpellingVariant(typed,w.term)){correct=true;variantHit=true;}
   if(!correct&&!opt.forced&&typed.trim()&&isAliasHit(typed,w)){correct=true;variantHit=true;}
+  /* 해설에 "이 문장에는 X도 들어간다"고 적은 낱말은 맞는 영어다(26.11.28 영신 "이 카드에서는"으로).
+     오답으로 치지 않고, 이 카드의 답을 알려 준 뒤 다시 치게 한다. 답을 봤으니 첫 시도 정답으로는 세지 않는다(힌트와 같다). */
+  if(!correct&&!opt.forced&&!opt.timeout&&isNoteAlternative(typed,w)){
+    s.hintLevel=Math.max(s.hintLevel||0,1);$("#hintBtn").disabled=true;s.cardStart=Date.now();
+    quizSay("‘"+typed.trim()+"’도 맞는 영어라고양. 이 카드에서는 ‘"+w.term+"’!",3200);
+    $("#ainput").value="";mirrorTyped({fromHint:true});focusAnswerInput();
+    return;
+  }
 
   s.answered=true;s.fbMode=true;s.attempts++;w.attempts++;
   // first-try accuracy
@@ -3097,6 +3112,8 @@ function mirrorTyped(options={}){const s=state.session;if(!s||s.answered||s.copy
   const entered=raw.toLowerCase().replace(/[^a-z]/g,"");
   const pendingAlternative=w.constructionId&&!isCorrect(raw,w.term)&&(w.acceptedAnswers||[]).some(answer=>{
     const letters=answer.toLowerCase().replace(/[^a-z]/g,"");return letters.length>entered.length&&letters.startsWith(entered);
+  })||!isCorrect(raw,w.term)&&typeof noteAlternatives==="function"&&noteAlternatives(w).some(a=>{ // 해설에 적은 더 긴 다른 영어도 끝까지 치게 기다린다("이 카드에서는" 안내)
+    const letters=a.toLowerCase().replace(/[^a-z]/g,"");return letters.length>entered.length&&letters.startsWith(entered);
   });
   if(!options.fromHint&&!state.composing&&!hasHangul(raw)&&chars.length>=n&&n>0&&!pendingAlternative)submit(); /* 기존 자동 확인, 새 허용어를 입력 중인 경우만 완성까지 기다림 */}
 function blankParts(value){
@@ -4592,7 +4609,7 @@ function catSay(msg){
   $(on("sumScreen")?"#sumBubble":"#homeBubble").innerHTML=`<span><span class="nm">고양고양이</span> ${esc(msg)}</span>`;
 }
 /* 문제 화면: 카드 머리줄 고양이 말풍선(시간 막대 자리)에 잠깐 띄우고, 그 카드가 그대로면 원래 말풍선으로 되돌린다. */
-function quizSay(msg){
+function quizSay(msg,ms=1600){
   const s=state.session,sp=$("#catSpeech");if(!s||!sp)return;
   if(s.opening)quizOpenEnd(s);
   if(!state.quizSayT)state.quizSayBack={text:sp.textContent,hidden:sp.hidden,card:s.currentId,answered:s.answered};
@@ -4600,7 +4617,7 @@ function quizSay(msg){
   sp.textContent=msg;sp.hidden=false;$("#timeWrap").style.visibility="hidden";
   state.quizSayT=setTimeout(()=>{state.quizSayT=null;const b=state.quizSayBack;
     if(state.session!==s||s.currentId!==b.card||s.answered!==b.answered)return; // 그사이 카드가 바뀌거나 공개됐으면 그쪽이 말풍선을 정한다
-    sp.textContent=b.text;sp.hidden=b.hidden;if(!s.answered)$("#timeWrap").style.visibility="";},1600);
+    sp.textContent=b.text;sp.hidden=b.hidden;if(!s.answered)$("#timeWrap").style.visibility="";},ms);
 }
 /* 시작 대사: 첫 카드에서 고양이가 말한다. 읽는 동안(2.6초, 먼저 치기 시작하면 그때까지) 첫 카드 시간은 흐르지 않는다. */
 function quizOpen(msg){

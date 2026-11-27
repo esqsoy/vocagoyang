@@ -1,3 +1,11 @@
+# 경쟁어 결함 7장 배포 · 2026-11-28
+
+- 커밋 [4bfb320](https://github.com/esqsoy/vocagoyang/commit/4bfb320)을 origin/main에 fast-forward로 푸시했다(efbf723 다음). 토플 refer·disperse·ambiguous·landslide·devoid, GRE minute·reprove(이솝 고침안, 톨킨 답 가린 검산).
+- Pages 빌드 뒤 공개 주소의 일곱 HTML 해시가 4bfb320 blob과 모두 같은 것을 확인했다(토플 6bc91a0, GRE fcedaae로 바뀜, 나머지 그대로). Pages 실행 번호는 이 세션에서 따로 보지 않았다.
+- 배포 전 검사(새로 실행): assemble 토플·GRE, linecheck 두 책 초과 0, deepcheck(GRE A3 2건은 전부터 있던 것), 검사 52개 통과.
+
+---
+
 # 시험 단어장 단추 '새 뜻만 / 전체' 배포 · 2026-11-28
 
 - 커밋 [c95e23e](https://github.com/esqsoy/vocagoyang/commit/c95e23e)까지 a35dfbd 다음 커밋들을 origin/main에 fast-forward로 푸시했다. 화면이 바뀐 커밋은 942eda1(토익·토플·GRE 머리줄 단추 문구)이고, 나머지는 문서(FABLE 전제 원칙, AL 분리, 작업 강도, 팀)와 면접 자료다.

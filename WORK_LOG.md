@@ -2248,4 +2248,13 @@
   - 둘 다 낸 것: **영어 쪽 경쟁어 체**. 같은 칸 수·꼬리·관사가 맞는 영어 후보를 기계로 뽑고(WordNet·유의어 목록) 팀원이 판정. 지금 collide.py는 한국어 뜻으로 거르는 체라 dissolve·rockslide를 못 잡는다. 시험 단어장 세 권부터(GRE 1,088장 하루쯤).
   - 이솝: '되돌아오는 표기' 검사(A가 X를 적었는데 X 카드엔 A가 없는 쌍, 토익 35·토플 49·GRE 89쌍 후보), 토플·GRE 겹치는 표제어 108개 뜻·해설 대조, FABLE 해설 IPA 기호 36장·장음 부호 125장 정리(기계적 일).
   - 톨킨: 철자 같은 낱말(minute·refuse·content 등) 발음 청취 검수, 명문장 대조에 원문 구절·출처(미러 포함) 기록, 이번 7문장을 검산 회귀 문항으로 고정, (새 게임 방식, 논의 필요) 해설에 적힌 동의어를 치면 오답 대신 "맞는 영어야, 이 카드는 X" 안내.
+- 11-28 배포(카드 7장): main 4bfb320, 공개 HTML 일곱 개 해시 일치(토플 6bc91a0, GRE fcedaae).
+- 영신: "3 괜찮은거 같은데? 이카드'에서는'으로 하자", "고친거 배포하고 제안은 다 하나씩 해보자 네 추천대로 가자", "일단 아직 gre랑 toefl은 활용이 멀었으니까 팀 작업으로 fable 완성도를 높여줘".
+- **'이 카드에서는' 안내**(톨킨 제안 5, PRINCIPLES 3, UI_STANDARD):
+  - FABLE 엔진(vocagoyangfable.html)과 시험 엔진(vocagoyangtoeic.html → sync)에 `noteAlternatives`·`isNoteAlternative`. 해설 꼴 두 가지에서 낱말을 읽는다. FABLE 341장(낱말 369, 표제어와 길이가 다른 것 44)·토익·토플·GRE에 적용된다.
+  - 치면: 오답 아님, 말풍선 3.2초(quizSay에 시간 인자), 입력 비움, 카드 시간 다시, 힌트 단추 끔, 첫 시도 정답 아님. 더 긴 낱말은 끝까지 기다린다(mirrorTyped).
+  - 말: FABLE·토익 "‘X’도 맞는 영어라고양. 이 카드에서는 ‘표제어’!", 토플·GRE "‘X’ is right too. On this card it's ‘term’, meow!"(해석 같이). 영어 낱말 뒤 조사(라고양·이라고양)를 피했다. 가장 긴 실제 쌍(responsibility/accountability)으로 360·390px 문제 말풍선 두 줄.
+  - 검사: 새 `pipeline/tests/note-alternative.test.cjs`(FABLE·토플, 해설 읽기, 오답 수·따라쓰기 없음, 첫 시도 아님). 처음엔 같은 표제어의 다른 뜻 카드를 잡아 가끔 실패했다 → 해설까지 맞춰 찾게 고쳤다. 조각만 떼어 돌리는 검사 4개가 새 함수를 몰라 `typeof` 가드를 넣었다.
+  - 검증(새로 실행): 검사 43개·빌더 8개·index-stats·sync 모두 53개 통과, FABLE linecheck 초과 0, Chromium 390px에서 FABLE(section←portion)·토플(capture←collect) 실제 흐름 오류 0.
+  - 배포: 안 함(브랜치).
 
