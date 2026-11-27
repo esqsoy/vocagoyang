@@ -2287,5 +2287,14 @@
 - 영신: "여기서 모든 고양시리즈를 총괄하는 역할을 맡으려고", "영단어장은 작업이 거의 다 됐고 … 여기가 본가가 되는게 맞지 … 네 추천대로 하면 돼".
 - 한 것: 탄고·빨라·법학·과학·발음고양 저장소를 쓰기 권한으로 붙였다. `SERIES.md`(시리즈 지도, 총괄이 하는 일, 걸린 결정)를 새로 썼다. PRINCIPLES 0에 총괄 원칙.
 - 탄고 연구(다시 볼 카드, 이솝 학습자 논문·야마다 실제 앱) 결론에 대한 Claude 의견: 3판으로 본가가 공통 기능으로 만든다, 판 끝 권유는 처음엔 끔(여는 횟수를 볼 길이 학생 기기뿐이라 재는 방법을 같이 정한다), 사파리 7일 안내는 본가가 공통 기능으로. 영신 "네 추천대로".
-- FABLE 위험 경쟁어 153줄: 톨킨 판정 진행 중.
+- FABLE 위험 경쟁어 153줄: 톨킨 판정 진행 중(아래 절에서 마침).
+
+## 2026-11-28 · FABLE 위험 경쟁어 2차(어색·위험 153줄)
+
+- 영신 "시작합시다". 1차 체에서 '어색하지만 들어간다'로 남은 줄 중, 뜻(ko) 때문에 학생이 칠 위험이 크다고 표시된 153줄.
+- 톨킨 판정: 적기 35 · 좁히기 29 · 두기 89. 이솝 쓰기(높음): 적기는 해설 꼴("이 문장에는 X도 들어간다"/"이 뜻에서는 X와 바꿔 쓸 수 있다"), 좁히기는 예문·해석을 새로. 톨킨 새 예문 29장 블라인드 검산: 통과 25 · 적기 4(soil land, incredible astounding·impressive, cling stick, unclear cryptic) · 다시 0.
+- 머레이 결정: supreme 예문은 굳은 연어로 다시("The king had ___ power over the whole land"). 톨킨이 열린 자리(directly의 strongly, gentle의 strong, 최상급)는 ko 번역이 아니라 통과로 본 기준을 그대로 둔다(1차 체와 같은 기준). successive 뜻 '잇따른, 연이은'으로 좁힘(톨킨·이솝). stock 해설의 'share라고도 한다'는 학생이 share를 치게 부추겨 '주식 한 주는 a share'로. absorb 새 예문의 sponge는 흔한 외래어라 whitelist에 더함. interior ① 해설에서 ② 예문과 겹치는 interior design 덜기. curious ②·cling은 읽기량 12초에 맞춰 해석·대사·해설을 덜었다. grand·ethnic 뜻은 바꾸지 않고 해설로 처리.
+- 변경: pipeline/out 29개 원본, morphology.json, whitelist.json, 원장 `competitor-risk-20261128`(바뀐 카드 115, 기준 baa8353), restore.cjs LAYERS.
+- 검증(새로 실행): deepcheck A6 16·A8 1(kinda)로 기준선 그대로, linecheck 0/0, exaudit 10장 그대로, 검사 53개 통과.
+- 배포: 하지 않음(브랜치만). 남은 일: 두기 89줄 가운데 톨킨이 메모한 것(publicity attention 허용 재검토 등)은 손대지 않았다.
 
