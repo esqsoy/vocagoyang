@@ -2257,4 +2257,5 @@
   - 검사: 새 `pipeline/tests/note-alternative.test.cjs`(FABLE·토플, 해설 읽기, 오답 수·따라쓰기 없음, 첫 시도 아님). 처음엔 같은 표제어의 다른 뜻 카드를 잡아 가끔 실패했다 → 해설까지 맞춰 찾게 고쳤다. 조각만 떼어 돌리는 검사 4개가 새 함수를 몰라 `typeof` 가드를 넣었다.
   - 검증(새로 실행): 검사 43개·빌더 8개·index-stats·sync 모두 53개 통과, FABLE linecheck 초과 0, Chromium 390px에서 FABLE(section←portion)·토플(capture←collect) 실제 흐름 오류 0.
   - 배포: 안 함(브랜치).
+- FABLE 완성도 1번(영어 쪽 경쟁어 체): `pipeline/en-collide.py` 새 도구. WordNet 같은 품사 동의어에서 글자 수·칸 밖 꼬리·앞 관사가 맞고 해설·허용 정답에 없는 것만 뽑는다. 돌려 보니 후보가 있는 카드 FABLE 3,424장(낱말 7,228), 토플 781, GRE 418. WordNet은 드문 뜻까지 섞여(chicken→crybaby) 빈도로 걸러도 크게 줄지 않는다(Zipf 3.0 이상 2,855장). 판정은 팀원이 문장을 읽고 해야 해서 영신에게 규모를 묻는다.
 
