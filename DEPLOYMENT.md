@@ -1,3 +1,12 @@
+# 시험 단어장 단추 '새 뜻만 / 전체' 배포 · 2026-11-28
+
+- 커밋 [c95e23e](https://github.com/esqsoy/vocagoyang/commit/c95e23e)까지 a35dfbd 다음 커밋들을 origin/main에 fast-forward로 푸시했다. 화면이 바뀐 커밋은 942eda1(토익·토플·GRE 머리줄 단추 문구)이고, 나머지는 문서(FABLE 전제 원칙, AL 분리, 작업 강도, 팀)와 면접 자료다.
+- [Pages 46035588914](https://github.com/esqsoy/vocagoyang/actions/runs/46035588914) 성공(2026-11-27 16:41:11 UTC 완료 확인).
+- 확인한 방법: 공개 주소 esqsoy.github.io/vocagoyang의 일곱 HTML을 받아 c95e23e blob과 해시를 맞췄다. 모두 같다(토익 5a3d59a, 토플 f2517bc, GRE 380cd76로 바뀜. index b4d6f45, FABLE d6faf17, 수능 25efe81, EBS d8a4efb는 그대로). 공개 토플 HTML의 단추 글자가 '새 뜻만'인 것도 봤다.
+- 배포 전 검사: 942eda1에서 검사 52개 통과, Chromium 360·390px 단추 넘침·겹침 없음(11-25). 그 뒤 HTML은 바뀌지 않았고, 배포 직전 sync `--check`, exam-course 검사, index-stats `--check`를 새로 돌려 통과했다.
+
+---
+
 # 시험 단어장(토익·토플·GRE) 첫 공개 · 2026-11-18
 
 - 커밋 [10790d3](https://github.com/esqsoy/vocagoyang/commit/10790d3)까지 4ebbb81 다음 17개 커밋을 origin/main에 fast-forward로 푸시했다. 시험 단어장 세 권, 첫 화면 '시험 단어장' 묶음, 시험별 고양이 대사(토플·GRE는 영어, 누르면 해석), 경로 막대 이름, 토익·토플 출처 줄(CC BY-SA 4.0), per capita·per annum이 들어갔다.
