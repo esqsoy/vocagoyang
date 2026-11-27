@@ -2223,4 +2223,5 @@
   - 유명도를 넣어 다시 고른 안: 검토 톨킨(Tolkien, 1919~20년 OED에서 w로 시작하는 낱말의 뜻·어원을 맡았다. 머레이의 사전과 이어진다), 검산 웹스터(Noah Webster, 1828년 『An American Dictionary of the English Language』, color·center 같은 미국 철자를 정했다). 예비: 검산 로제(역할은 가장 맞으나 덜 유명).
   - 겹침: Tolkien·톨킨 각 1(판타지 카드 예문 'The Hobbit … by Tolkien'), Webster 18건은 모두 해설 링크 merriam-webster 주소라 화면 글에는 없음, 웹스터 0. Johnson(존슨)은 예문 속 다른 인물(Jill Johnson 등) 3건이라 뺐다.
   - 영신 답 대기.
+- 영신: "그럼 네가 서브에이전트로 같이 일할 오퍼스는 톨킨으로 하자. 페이블은 이솝, 하나더는 웹스터로 하면 되겠네". 팀 확정: 머레이(주 세션), 이솝(쓰기, Fable), 톨킨(검토, Opus), 웹스터(답 가린 검산). 웹스터도 Opus다(작업 강도: 쓰기가 Fable이면 검산은 Opus). AGENTS '팀' 절, PRINCIPLES 10(독립 검수는 톨킨)을 고쳤다.
 
