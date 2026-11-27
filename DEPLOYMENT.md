@@ -1,3 +1,12 @@
+# '이 카드에서는' 안내, FABLE 팀 작업(해설 발음 기호·짝 표기) 배포 · 2026-11-28
+
+- 커밋 [18e3c58](https://github.com/esqsoy/vocagoyang/commit/18e3c58)까지 origin/main에 fast-forward로 푸시했다(4bfb320 다음). 영신이 main 푸시를 허락했다(앞서 한 번 권한 확인에서 막혔다).
+- 포함: '이 카드에서는' 안내(FABLE·시험 엔진), FABLE 해설 발음 기호 32장, 짝 안 맞는 경쟁어 표기 61장(원장 `fable-team-20261128`), 영어 쪽 경쟁어 후보 도구.
+- 공개 주소의 일곱 HTML 해시가 18e3c58 blob과 모두 같다(FABLE 86bc419, 토익 7389463, 토플 b53d1d3, GRE 2e10bfa, 나머지 그대로). Pages 실행 번호는 따로 보지 않았다.
+- 배포 전 검사(새로 실행): 검사 43개·빌더 8개·index-stats·sync 모두 53개 통과, FABLE deepcheck A6 16·A8 1(기준 그대로), linecheck 0, Chromium 390px 안내 흐름 오류 0.
+
+---
+
 # 경쟁어 결함 7장 배포 · 2026-11-28
 
 - 커밋 [4bfb320](https://github.com/esqsoy/vocagoyang/commit/4bfb320)을 origin/main에 fast-forward로 푸시했다(efbf723 다음). 토플 refer·disperse·ambiguous·landslide·devoid, GRE minute·reprove(이솝 고침안, 톨킨 답 가린 검산).

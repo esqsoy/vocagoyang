@@ -2266,4 +2266,7 @@
   - 검증(새로 실행): assemble, deepcheck A6 16·A8 1(기준 그대로), linecheck 초과 0, 원장 역적용 확인, 검사 43개·빌더 8개·index-stats·sync 모두 53개 통과.
   - 배포: 안 함(브랜치).
 - 남은 일: 발음 쪽(IPA 장음 부호 125장, 철자 같은 낱말 청취)은 아스트라에게 넘길지 영신 답 대기. 경쟁어 체 전수(FABLE 후보 3,424장) 시작.
+- 11-28 배포('이 카드에서는' 안내 + FABLE 팀 작업 1·2): 영신이 main 푸시를 허락("main 푸시 허락함") → main 18e3c58, 공개 HTML 일곱 개 해시 일치(FABLE 86bc419, 토익 7389463, 토플 b53d1d3, GRE 2e10bfa).
+- 영신 "발음쪽 여기서 합시다": **FABLE IPA 장음 부호 정리**(원장 `ipa-length-20261128`, 기준 18e3c58). FABLE DATA의 ː 든 IPA 125장(형태소 원본 72, 0세트 4, 연결 원본 49줄)에서 ː를 뺐다. 대부분의 FABLE IPA(미국식)와 같은 표기다. 예외 음원 별칭과 대조해 produce·transfer·convert는 그대로 맞고, transport는 별칭 trænsˈpɔrt에 맞췄다. 시험 단어장은 assemble을 다시 돌려 FABLE IPA를 따라가게 했다(토익 14·토플 20장 덮어씀). 검증: deepcheck A2 0·A6 16·A8 1, 정렬 검사 통과, 검사 53개 통과, linecheck 시험 두 책 0.
+- 경쟁어 체 전수: 이솝 1차 판정 b01~b12 끝(150장씩), b13~b18 진행. 결과는 스크래치 `fable-sieve/`. 해설에 이미 적혔지만 게임이 읽는 꼴이 아닌 '해설 꼴'과 영국 철자(defence·theatre·centre·metre·tyre·practise 등)가 많이 나왔다. 영국 철자는 카드마다 적기보다 엔진의 철자 변형 규칙으로 받을지 정한다.
 
