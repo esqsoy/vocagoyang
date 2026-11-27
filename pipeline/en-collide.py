@@ -83,8 +83,7 @@ def main():
                 m = re.search(r'(\S*)\s*\{\{BLANK\}\}([a-z]*)', ex)
                 if not m:
                     continue
-                before = ex[:m.start()].split()
-                prev = before[-1].lower() if before else ''
+                prev = re.sub(r'[^a-z]', '', m.group(1).lower())   # 빈칸 바로 앞 낱말(정규식이 그 낱말부터 잡는다)
                 tail = m.group(2)
                 term = w['en']
                 n = len(letters(term))
