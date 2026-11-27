@@ -35,7 +35,7 @@ def noted(c):
     out = set()
     for m in re.finditer(r'이 문장에는\s*([^.]+?)도 들어간다', c or ''):
         out |= {x.strip().lower() for x in re.split('[·,/]', m.group(1))}
-    for m in re.finditer(r"([A-Za-z][A-Za-z' ·,/-]*?)(?:와|과) 바꿔 쓸 수 있다", c or ''):
+    for m in re.finditer(r"([A-Za-z][A-Za-z' ·,/-]*?)(?:와|과) 바꿔 쓸 수 있(?:다|어)", c or ''):
         out |= {x.strip().lower() for x in re.split('[·,/]', m.group(1))}
     return out
 
