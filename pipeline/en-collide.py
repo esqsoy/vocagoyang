@@ -26,8 +26,8 @@ def letters(s):
 def load(html):
     s = open(html, encoding='utf-8').read()
     data = json.loads(re.search(r'^const DATA = (\[.*\]);$', s, re.M).group(1))
-    m = re.search(r'^const ALT=(\{.*?\});', s, re.M)
-    alt = json.loads(m.group(1)) if m else {}
+    i = s.find('const ALT=')
+    alt = json.loads(s[i + len('const ALT='):s.index('};', i) + 1]) if i >= 0 else {}   # 여러 줄에 걸친 객체
     return data, alt
 
 

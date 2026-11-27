@@ -2445,7 +2445,8 @@ const ALT={"until/1":["till"],"until/2":["till"],"fall/2":["autumn"],
  "photocopy/1":["copy"],
  "untidy/1":["messy"],
  "skillfully/1":["skilfully"],
- "appall/1":["appal"]};
+ "appall/1":["appal"],
+ "defense/1":["defence"],"practice/1":["practise"],"practice/5":["practise"],"offense/3":["offence"],"inquiry/1":["enquiry"],"inquiry/2":["enquiry"],"inquire/1":["enquire"],"fiber/2":["fibre"],"adviser/1":["advisor"],"disk/2":["disc"],"protester/1":["protestor"],"disc/1":["disk"],"competence/1":["competency"]};
 function isAliasHit(typed,w){
   if(w.acceptedAnswers?.some(answer=>isCorrect(typed,answer)))return true;
   if(w.unitId||w.constructionId)return false; // 일반 어휘의 뜻 번호별 별칭을 새 과정의 다른 문맥에 전용하지 않는다.
