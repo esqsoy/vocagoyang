@@ -2280,3 +2280,4 @@
   - 검증(새로 실행): deepcheck A6 16·A8 1(기준 그대로), linecheck 0, 원장 역적용, 검사 53개 통과. 배포: 안 함(브랜치).
 - 판단으로 넣지 않은 것(팀원이 적어 둠): good② kind, world① earth, guy①② boy·kid, educational informative 등 검산을 안 거친 낱말. 어색·위험 311줄은 이번에 손대지 않았다(스크래치 `fable-sieve/`).
 
+- 11-28 배포: main 2c0ca95(경쟁어 전수·발음 표기), 공개 HTML 일곱 개 해시 일치([DEPLOYMENT](DEPLOYMENT.md) 맨 위).

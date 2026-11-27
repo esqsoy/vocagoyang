@@ -1,3 +1,12 @@
+# FABLE 경쟁어 전수·발음 표기 정리 배포 · 2026-11-28
+
+- 커밋 [2c0ca95](https://github.com/esqsoy/vocagoyang/commit/2c0ca95)까지 origin/main에 fast-forward로 푸시했다(18e3c58 다음, 영신 "배포합시다").
+- 포함: FABLE IPA 장음 부호·e/ɛ 표기(원장 `ipa-length-20261128`·`ipa-vowel-20261128`), 경쟁어 전수 해설·예문 334장과 별칭 13개(원장 `competitor-sieve-20261128`), '이 카드에서는' 안내 보강(-ise·반말 꼴), 시험 단어장 IPA 재조립.
+- 공개 주소의 일곱 HTML 해시가 2c0ca95 blob과 모두 같다(FABLE 00e09ef, 토익 0c8bdbb, 토플 2c85c74, GRE 3a529b2, 나머지 그대로). Pages 실행 번호는 따로 보지 않았다.
+- 배포 전 검사(2c0ca95에서 새로 실행): 검사 43개·빌더 8개·index-stats·sync 모두 53개 통과, deepcheck A1·A2·A3·A5·A7 0·A6 16·A8 1(기준 그대로), linecheck 0, 원장 세 개 역적용 확인.
+
+---
+
 # '이 카드에서는' 안내, FABLE 팀 작업(해설 발음 기호·짝 표기) 배포 · 2026-11-28
 
 - 커밋 [18e3c58](https://github.com/esqsoy/vocagoyang/commit/18e3c58)까지 origin/main에 fast-forward로 푸시했다(4bfb320 다음). 영신이 main 푸시를 허락했다(앞서 한 번 권한 확인에서 막혔다).
