@@ -2272,4 +2272,11 @@
 - **철자 같은 다른 발음(동형이음어) 확인**: FABLE 표제어 가운데 IPA가 둘 이상인 83개를 예외 음원 목록과 대조했다. 진짜 동형이음어는 모두 음원이 붙어 있고, 남은 30개는 같은 발음의 표기 차이(e/ɛ, ɜr/ɝ, ər/ɚ)였다. 형태소·연결 원본의 e→ɛ, ɜr→ɝ 60곳을 본편 표기에 맞췄다(원장 `ipa-vowel-20261128`, 예외 음원 별칭은 두 꼴 다 있어 그대로 맞음). ər/ɚ(156장)는 둘 다 쓰는 표기라 두었다. 검사 53개 통과, deepcheck A2 0.
   - 시험 단어장에는 음원이 없는 동형이음어가 있다(GRE minute·august·moderate·intimate·appropriate·contest·exploit·entrance·essay, 토익 insert, 토플 uplift·discharge 등). 그리고 토플 woven·토익 scattered는 꼬리로 못 만드는 꼴 카드인데 IPA가 원형(wiv·ˈskætɚ)이다. 토플·GRE는 쓸 때가 멀어 FABLE 뒤로 미룬다.
 - 경쟁어 체 전수: 이솝 1차 23묶음 → 확실 480(-ise 42는 게임이 이미 받음) → 438개를 톨킨이 검산: A 다른 철자 41, B 들어감 384, C 안 들어감 13. 다음: A는 별칭(ALT), B는 해설 "이 문장에는 X도 들어간다" 또는 예문 좁히기(이솝 쓰기).
+- **경쟁어 체 전수 반영**(원장 `competitor-sieve-20261128`, 기준 27d86aa):
+  - 별칭(ALT) 13개: defence·practise(2)·offence·enquiry(2)·enquire·fibre·advisor·disc/disk·protestor·competency(b5c4593). 이미 ALT에 있던 19개(theatre·centre·metre 등)는 en-collide가 여러 줄 ALT를 못 읽어 후보에 올랐던 것이라 뺐다(도구 고침). 하이픈 꼴(e-mail 등)은 판정이 이미 받는다.
+  - 이솝 여섯 묶음이 343장을 처리: 해설 "이 문장에는 X도 들어간다" 322장, 예문 좁히기 12장, 그대로 9장, 뺀 낱말 4. 새 예문 12개는 톨킨이 답을 가리고 다시 풀었고, 넷(obviously blatantly·conjunction association·strong fierce/severe·resign depart)은 해설에 더했다.
+  - 엔진: 해설 낱말의 -ise 꼴(symbolise)과 반말 꼴 "바꿔 쓸 수 있어"도 '이 카드에서는' 안내로 읽는다(FABLE·시험 엔진).
+  - 형태소 카드는 해설 70자·예문 10낱말 한도라(morphology-content 검사) predictable 해설과 suspect 예문을 다시 줄였다("If you {{BLANK}} a gas leak, open the windows.").
+  - 검증(새로 실행): deepcheck A6 16·A8 1(기준 그대로), linecheck 0, 원장 역적용, 검사 53개 통과. 배포: 안 함(브랜치).
+- 판단으로 넣지 않은 것(팀원이 적어 둠): good② kind, world① earth, guy①② boy·kid, educational informative 등 검산을 안 거친 낱말. 어색·위험 311줄은 이번에 손대지 않았다(스크래치 `fable-sieve/`).
 
