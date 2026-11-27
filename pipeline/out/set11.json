@@ -192,8 +192,8 @@
       {
         "en": "operate",
         "ko": "① 작동하다, 조작하다",
-        "ex": "Can you {{BLANK}} this machine?",
-        "tr": "너 이 기계 조작할 줄 알아?",
+        "ex": "This machine does not {{BLANK}} in cold weather.",
+        "tr": "이 기계는 추운 날씨에는 작동하지 않아.",
         "c": "기계를 돌리다·돌아가다. operator=기계 다루는 사람.",
         "ipa": "ˈɑpəreɪt",
         "pos": "v.",
@@ -523,13 +523,14 @@
       {
         "en": "clean",
         "ko": "① 깨끗한",
-        "ex": "Wash your hands with {{BLANK}} water.",
-        "tr": "깨끗한 물로 손 씻어.",
+        "ex": "Cats wash themselves to stay {{BLANK}}.",
+        "tr": "고양이는 깨끗하게 지내려고 스스로 몸을 씻어.",
         "ipa": "klin",
         "pos": "adj.",
         "word": "clean",
         "si": 1,
-        "sn": 2
+        "sn": 2,
+        "c": ""
       },
       {
         "en": "clean",
@@ -1917,7 +1918,7 @@
         "ko": "① (글을) 고치다, 수정하다",
         "ex": "Good writers {{BLANK}} their work many times.",
         "tr": "좋은 작가는 자기 글을 여러 번 고쳐 써.",
-        "c": "명사는 revision. 영국에선 '복습하다'로도 쓴다. 이 뜻에서는 rework와 바꿔 쓸 수 있다.",
+        "c": "명사는 revision. 영국에선 '복습하다'로도 쓴다. 이 문장에는 modify·rework도 들어간다.",
         "ipa": "rɪˈvaɪz",
         "pos": "v.",
         "word": "revise",
