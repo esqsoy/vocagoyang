@@ -2264,7 +2264,7 @@ function noteAlternatives(w){const c=w.c||"",out=[];
   for(const m of c.matchAll(/([A-Za-z][A-Za-z' ·,/-]*?)(?:와|과) 바꿔 쓸 수 있다/g))out.push(...m[1].split(/[·,/]/)); // "이 뜻에서는 X와 바꿔 쓸 수 있다"(10.2 동의어 원칙)
   return [...new Set(out.map(x=>x.trim()).filter(x=>/^[A-Za-z][A-Za-z' -]*$/.test(x)))];}
 function isNoteAlternative(typed,w){const g=normalize(typed);if(!g||isCorrect(typed,w.term))return false;
-  return noteAlternatives(w).some(a=>normalize(a)===g);}
+  return noteAlternatives(w).some(a=>normalize(a)===g||isSpellingVariant(typed,a));} // 해설 낱말의 영국식 -ise 꼴도 같은 안내(symbolize → symbolise)
 function isSynonymMiss(typed,w){
   const g=normalize(typed);if(!g||g===normalize(w.term))return false;
   for(const gl of splitGloss(w.meaning)){const set=GLOSS.get(gl);if(set&&set.has(g))return true;}
